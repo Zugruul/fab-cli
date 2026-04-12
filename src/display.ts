@@ -185,19 +185,19 @@ export function printDeckDetail(
     console.log(chalk.dim("─".repeat(50)));
     console.log(chalk.bold(`  Cards (${grandTotal} total — 1 hero + ${arenaTotal} arena, ${deckTotal} deck, ${invTotal} inventory):`));
 
-    console.log(chalk.dim(`    ${"─".repeat(30)} hero + equipment`));
+    console.log(chalk.dim(`    ${"─".repeat(30)} hero + equipment (${1 + arenaTotal})`));
     console.log(`    1x ${deck.heroIdentifier}`);
     for (const card of arenaCards) {
       console.log(`    ${card.quantity}x ${card.cardIdentifier}`);
     }
 
-    console.log(chalk.dim(`    ${"─".repeat(30)} main deck`));
+    console.log(chalk.dim(`    ${"─".repeat(30)} main deck (${deckTotal})`));
     for (const card of actionCards) {
       console.log(`    ${card.quantity}x ${card.cardIdentifier}`);
     }
 
     if (inventoryCards && inventoryCards.length > 0) {
-      console.log(chalk.dim(`    ${"─".repeat(30)} inventory`));
+      console.log(chalk.dim(`    ${"─".repeat(30)} inventory (${invTotal})`));
       for (const card of inventoryCards) {
         console.log(`    ${card.sideboardQuantity}x ${card.cardIdentifier}`);
       }
