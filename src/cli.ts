@@ -32,7 +32,7 @@ import {
 } from "./display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
 import { fetchMetaPeriods, fetchMetaResults, computeMetaShift, resolveMetaFormat, resolveMetaPeriod } from "./meta";
-import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards, fetchPlayerPath, heroNameToIdentifier } from "./fabtcg";
+import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards, fetchPlayerPath, searchPlayerInEvent, heroNameToIdentifier } from "./fabtcg";
 import { findFabraryDeck } from "./algolia";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
@@ -662,12 +662,14 @@ fabtcg
   .option("--decklists", "List available decklists for the event")
   .option("--player <name>", "Show decklist for a specific player")
   .option("--path <name>", "Reconstruct a player's full round-by-round journey")
+  .option("--search-player <name>", "Find a player by partial name match")
   .action(async (eventName: string, opts: {
     round?: string;
     field?: boolean;
     decklists?: boolean;
     player?: string;
     path?: string;
+    searchPlayer?: string;
   }) => {
     process.stdout.write(chalk.dim("Searching tournament…\r"));
 
@@ -678,7 +680,7 @@ fabtcg
       const idx = await fetchCoverageIndex(slug);
       process.stdout.write("                          \r");
 
-      if (!opts.round && !opts.field && !opts.decklists && !opts.player && !opts.path) {
+      if (!opts.round && !opts.field && !opts.decklists && !opts.player && !opts.path && !opts.searchPlayer) {
         printCoverageIndex(idx);
         return;
       }
@@ -722,6 +724,29 @@ fabtcg
         } else {
           console.log(chalk.dim(`Multiple decklists found for "${opts.player}":`));
           printDecklistMetas(decklists);
+        }
+      }
+
+      if (opts.searchPlayer) {
+        process.stdout.write(chalk.dim(`Searching for "${opts.searchPlayer}"…\r`));
+        const matches = await searchPlayerInEvent(slug, opts.searchPlayer);
+        process.stdout.write("                                    \r");
+        if (matches.length === 0) {
+          console.log(chalk.yellow(`No players found matching "${opts.searchPlayer}" at ${slug}`));
+        } else if (matches.length === 1) {
+          // Single match — auto-run path
+          console.log(chalk.dim(`Found: ${matches[0].name}${matches[0].hero ? ` (${matches[0].hero})` : ""} — loading path…\n`));
+          process.stdout.write(chalk.dim(`Building path for ${matches[0].name}…\r`));
+          const path = await fetchPlayerPath(slug, matches[0].name);
+          process.stdout.write("                                          \r");
+          if (path) printPlayerPath(path);
+          else console.log(chalk.yellow("No pairings found."));
+        } else {
+          console.log(chalk.dim(`\n  ${matches.length} players found matching "${opts.searchPlayer}":`));
+          matches.forEach((m) =>
+            console.log(`  ${chalk.bold(m.name)}${m.hero ? chalk.dim("  " + m.hero) : ""}`)
+          );
+          console.log(chalk.dim(`\n  Re-run with --path "<name>" to see full journey.`));
         }
       }
 

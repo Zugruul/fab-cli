@@ -1189,7 +1189,7 @@ export function printPlayerPath(path: PlayerPath): void {
 
   // Overall summary
   const total = path.wins + path.losses + path.draws;
-  const overallWr = total > 0 ? ((path.wins / total) * 100).toFixed(0) + "%" : "—";
+  const overallWr = total > 0 ? (((path.wins + path.draws * 0.5) / total) * 100).toFixed(0) + "%" : "—";
   console.log(
     `\n  Overall: ${chalk.green(path.wins + "W")} ${chalk.red(path.losses + "L")}` +
     (path.draws > 0 ? ` ${chalk.yellow(path.draws + "D")}` : "") +
@@ -1200,17 +1200,19 @@ export function printPlayerPath(path: PlayerPath): void {
   // Per-format breakdown
   if (path.byFormat.length > 1) {
     const fmtTable = new Table({
-      head: [chalk.cyan("Format"), chalk.cyan("W"), chalk.cyan("L"), chalk.cyan("Win%")],
+      head: [chalk.cyan("Format"), chalk.cyan("W"), chalk.cyan("L"), chalk.cyan("D"), chalk.cyan("Win%")],
       style: { compact: true },
     });
     for (const f of path.byFormat) {
-      const t = f.wins + f.losses;
-      const wr = t > 0 ? ((f.wins / t) * 100).toFixed(0) + "%" : "—";
+      const t = f.wins + f.losses + f.draws;
+      const rate = t > 0 ? (f.wins + f.draws * 0.5) / t : 0;
+      const wr = t > 0 ? (rate * 100).toFixed(0) + "%" : "—";
       fmtTable.push([
         formatFmt(f.format),
         chalk.green(f.wins),
         chalk.red(f.losses),
-        t > 0 ? (f.wins / t >= 0.6 ? chalk.green(wr) : f.wins / t >= 0.5 ? chalk.yellow(wr) : chalk.red(wr)) : chalk.dim(wr),
+        f.draws > 0 ? chalk.yellow(f.draws) : chalk.dim("0"),
+        t > 0 ? (rate >= 0.6 ? chalk.green(wr) : rate >= 0.5 ? chalk.yellow(wr) : chalk.red(wr)) : chalk.dim(wr),
       ]);
     }
     console.log(fmtTable.toString());

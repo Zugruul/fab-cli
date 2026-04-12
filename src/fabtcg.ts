@@ -407,7 +407,7 @@ export interface PlayerPath {
   losses: number;
   draws: number;
   byes: number;
-  byFormat: Array<{ format: string; wins: number; losses: number }>;
+  byFormat: Array<{ format: string; wins: number; losses: number; draws: number }>;
 }
 
 /** Extract player name and hero from a player-cell td block.
@@ -466,6 +466,27 @@ export async function fetchRoundPairings(slug: string, round: number): Promise<R
   }
 
   return pairings;
+}
+
+/** Search for players in an event by partial name match, using round 1 pairings. */
+export async function searchPlayerInEvent(
+  slug: string,
+  query: string
+): Promise<Array<{ name: string; hero: string | null }>> {
+  // Round 1 has every registered player — single fetch is enough
+  const pairings = await fetchRoundPairings(slug, 1);
+  const lower = query.toLowerCase();
+  const results: Array<{ name: string; hero: string | null }> = [];
+  const seen = new Set<string>();
+  for (const p of pairings) {
+    for (const [name, hero] of [[p.player1, p.player1Hero], [p.player2, p.player2Hero]] as [string, string | null][]) {
+      if (name && name !== "BYE" && name.toLowerCase().includes(lower) && !seen.has(name)) {
+        seen.add(name);
+        results.push({ name, hero });
+      }
+    }
+  }
+  return results.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /** Parse the coverage index page for "Round N - Format" schedule entries. */
@@ -562,12 +583,13 @@ export async function fetchPlayerPath(
   if (rounds.length === 0) return null;
 
   // Aggregate by format
-  const formatMap = new Map<string, { wins: number; losses: number }>();
+  const formatMap = new Map<string, { wins: number; losses: number; draws: number }>();
   for (const r of rounds) {
-    if (!formatMap.has(r.format)) formatMap.set(r.format, { wins: 0, losses: 0 });
+    if (!formatMap.has(r.format)) formatMap.set(r.format, { wins: 0, losses: 0, draws: 0 });
     const s = formatMap.get(r.format)!;
     if (r.result === "W") s.wins++;
     else if (r.result === "L") s.losses++;
+    else if (r.result === "D") s.draws++;
   }
 
   return {
@@ -579,7 +601,7 @@ export async function fetchPlayerPath(
     losses: rounds.filter((r) => r.result === "L").length,
     draws: rounds.filter((r) => r.result === "D").length,
     byes: rounds.filter((r) => r.result === "Bye").length,
-    byFormat: [...formatMap.entries()].map(([format, s]) => ({ format, ...s })),
+    byFormat: [...formatMap.entries()].map(([format, s]) => ({ format, wins: s.wins, losses: s.losses, draws: s.draws })),
   };
 }
 
