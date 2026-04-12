@@ -30,6 +30,7 @@ query getDeck($deckId: ID!) {
       matchupId
       name
       preferredTurnOrder
+      notes
     }
   }
 }
@@ -151,6 +152,7 @@ export interface MatchupSummary {
   matchupId: string;
   name: string;
   preferredTurnOrder: string | null;
+  notes: string | null;
 }
 
 const GET_DECK_VERSIONS_QUERY = `

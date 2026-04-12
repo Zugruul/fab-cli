@@ -237,40 +237,89 @@ export function printInventory(cards: DeckCardInventory[]): void {
   console.log();
 }
 
+// Strip pitch suffix for display when pitch dot is shown separately
+// "funeral-moon-red" → "Funeral Moon", "vexing-quillhand" → "Vexing Quillhand"
+function cardName(id: string): string {
+  const pitchSuffixes = ["red", "yellow", "blue"];
+  const parts = id.split("-");
+  const last = parts[parts.length - 1];
+  const nameParts = pitchSuffixes.includes(last) ? parts.slice(0, -1) : parts;
+  return nameParts.map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(" ");
+}
+
+function pitchDot(pitch: number | null | undefined): string {
+  if (pitch === 1) return chalk.red(" ●");
+  if (pitch === 2) return chalk.yellow(" ●●");
+  if (pitch === 3) return chalk.blue(" ●●●");
+  return "";
+}
+
 export function printMatchupCards(
-  matchups: Array<{ matchupId: string; name: string; preferredTurnOrder: string | null }>,
-  cards: Array<{ cardIdentifier: string; quantity: number; matchupQuantities: Array<{ matchupId: string; quantity: number; sideboardQuantity: number | null }> | null }>,
-  inventoryCards: Array<{ cardIdentifier: string; sideboardQuantity: number; matchupQuantities: Array<{ matchupId: string; quantity: number; sideboardQuantity: number | null }> | null }>
+  matchups: Array<{ matchupId: string; name: string; preferredTurnOrder: string | null; notes: string | null }>,
+  cards: Array<{ cardIdentifier: string; quantity: number; cardData: { pitch: number | null } | null; matchupQuantities: Array<{ matchupId: string; quantity: number; sideboardQuantity: number | null }> | null }>,
+  inventoryCards: Array<{ cardIdentifier: string; sideboardQuantity: number; cardData: { pitch: number | null } | null; matchupQuantities: Array<{ matchupId: string; quantity: number; sideboardQuantity: number | null }> | null }>
 ): void {
   for (const matchup of matchups) {
-    // Main deck cards with quantity overrides applied
-    const mainCards = cards
-      .map((c) => {
-        const override = c.matchupQuantities?.find((mq) => mq.matchupId === matchup.matchupId);
-        const qty = override !== undefined ? override.quantity : c.quantity;
-        return { cardIdentifier: c.cardIdentifier, quantity: qty };
-      })
-      .filter((c) => c.quantity > 0);
+    // Compute matchup deck total (for header)
+    const matchupMainCards = cards.map((c) => {
+      const override = c.matchupQuantities?.find((mq) => mq.matchupId === matchup.matchupId);
+      return override !== undefined ? override.quantity : c.quantity;
+    });
+    const matchupInvCards = inventoryCards.map((c) => {
+      const override = c.matchupQuantities?.find((mq) => mq.matchupId === matchup.matchupId);
+      return override?.sideboardQuantity ?? 0;
+    });
+    const total =
+      matchupMainCards.reduce((s, q) => s + q, 0) +
+      matchupInvCards.reduce((s, q) => s + q, 0);
 
-    // Inventory cards swapped in for this matchup
-    const swappedIn = inventoryCards
-      .map((c) => {
-        const override = c.matchupQuantities?.find((mq) => mq.matchupId === matchup.matchupId);
-        const qty = override?.sideboardQuantity ?? 0;
-        return { cardIdentifier: c.cardIdentifier, quantity: qty };
-      })
-      .filter((c) => c.quantity > 0);
-
-    const allCards = [...mainCards, ...swappedIn];
-    const total = allCards.reduce((s, c) => s + c.quantity, 0);
-
-    const order = matchup.preferredTurnOrder
-      ? chalk.dim(` [go ${matchup.preferredTurnOrder.toLowerCase()}]`)
-      : "";
-    console.log(chalk.bold(`\n  vs ${matchup.name}${order}`) + chalk.dim(` (${total})`));
+    const formatTurnOrder = (t: string) =>
+      t.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/\b\w/g, c => c.toUpperCase());
+    const order = matchup.preferredTurnOrder && matchup.preferredTurnOrder !== "NoPreference"
+      ? chalk.dim(`  Preferred turn order: ${formatTurnOrder(matchup.preferredTurnOrder)}`)
+      : chalk.dim("  Preferred turn order: No preference");
+    console.log(chalk.bold(`\n  ${matchup.name}`));
+    console.log(order);
+    console.log(chalk.dim(`  Cards in deck: ${total}`));
     console.log(chalk.dim("  " + "─".repeat(46)));
-    for (const card of allCards) {
-      console.log(`    ${card.quantity}x ${card.cardIdentifier}`);
+
+    // Build diff: removed from main deck + added from inventory
+    type DiffEntry = { qty: number; sign: "+" | "-"; id: string; pitch: number | null };
+    const diff: DiffEntry[] = [];
+
+    for (const c of cards) {
+      const override = c.matchupQuantities?.find((mq) => mq.matchupId === matchup.matchupId);
+      const matchupQty = override !== undefined ? override.quantity : c.quantity;
+      const delta = matchupQty - c.quantity;
+      if (delta < 0) diff.push({ qty: -delta, sign: "-", id: c.cardIdentifier, pitch: c.cardData?.pitch ?? null });
+      else if (delta > 0) diff.push({ qty: delta, sign: "+", id: c.cardIdentifier, pitch: c.cardData?.pitch ?? null });
+    }
+
+    for (const c of inventoryCards) {
+      const override = c.matchupQuantities?.find((mq) => mq.matchupId === matchup.matchupId);
+      const matchupQty = override?.sideboardQuantity ?? 0;
+      if (matchupQty > 0) diff.push({ qty: matchupQty, sign: "+", id: c.cardIdentifier, pitch: c.cardData?.pitch ?? null });
+    }
+
+    // Sort: removals before additions, then by pitch (null/equipment first, then 1→2→3)
+    const pitchOrder = (p: number | null) => p === null ? 0 : p;
+    diff.sort((a, b) => {
+      if (a.sign !== b.sign) return a.sign === "-" ? -1 : 1;
+      return pitchOrder(a.pitch) - pitchOrder(b.pitch);
+    });
+
+    if (diff.length === 0) {
+      console.log(chalk.dim("    (no changes from base deck)"));
+    } else {
+      for (const d of diff) {
+        const sign = d.sign === "-" ? chalk.red(`-${d.qty}x`) : chalk.green(`+${d.qty}x`);
+        console.log(`    ${sign} ${cardName(d.id)}${pitchDot(d.pitch)}`);
+      }
+    }
+
+    if (matchup.notes) {
+      console.log(chalk.dim("  ──"));
+      console.log(chalk.italic(`  ${matchup.notes}`));
     }
   }
   console.log();
