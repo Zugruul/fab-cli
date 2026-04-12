@@ -1,0 +1,28 @@
+{
+  "name": "fabrary-search",
+  "version": "1.0.0",
+  "description": "FaBrary CLI — search Flesh & Blood decks and cards",
+  "main": "src/cli.ts",
+  "bin": {
+    "fabrary": "./bin/fab.js"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "build": "tsc",
+    "dev": "tsx src/cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
