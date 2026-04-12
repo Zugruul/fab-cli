@@ -71,6 +71,7 @@ export interface SearchOptions {
   limit?: number;
   hasMatchups?: boolean;
   hasResults?: boolean;
+  tournamentOnly?: boolean;
   source?: string;
   page?: number;
   query?: string;

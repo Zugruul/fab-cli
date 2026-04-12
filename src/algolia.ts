@@ -57,6 +57,9 @@ export async function searchDecks(
   if (facetFilters.length > 0) {
     params.set("facetFilters", JSON.stringify(facetFilters));
   }
+  if (opts.tournamentOnly) {
+    params.set("filters", "isTournament:true");
+  }
 
   const body = {
     requests: [

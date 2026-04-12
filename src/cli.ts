@@ -146,6 +146,7 @@ program
   .option("--days <n>", "Only decks updated in the last N days", int)
   .option("--has-matchups", "Only decks with matchup guides")
   .option("--has-results", "Only decks with recorded results")
+  .option("--tournament-only", "Only tournament decks")
   .option("-q, --query <text>", "Text search (deck name, card name)")
   .option("-n, --limit <n>", "Max results", int, 20)
   .option("-p, --page <n>", "Page number (0-based)", int, 0)
@@ -155,6 +156,7 @@ program
     days?: number;
     hasMatchups?: boolean;
     hasResults?: boolean;
+    tournamentOnly?: boolean;
     query?: string;
     limit: number;
     page: number;
@@ -183,6 +185,7 @@ program
   .option("--days <n>", "Only decks updated in the last N days", int)
   .option("--min-games <n>", "Minimum recorded games", int, 5)
   .option("--source <src>", "Filter by source (FaBrary, Talishar)")
+  .option("--tournament-only", "Only tournament decks")
   .option("-n, --limit <n>", "Max decks to fetch", int, 40)
   .option("--show <n>", "Max rows in output", int, 20)
   .option("--per-hero", "Show best win-rate and most-games deck per hero")
@@ -191,6 +194,7 @@ program
   .option("--class <name>", "Filter by hero class (e.g. Warrior, Ninja, Brute) — uses live card data")
   .option("--talent <name>", "Filter by hero talent (e.g. Shadow, Light, Ice) — uses live card data")
   .option("--young", "Include only young hero versions (default: adult only when --class/--talent used)")
+  .option("--sort <order>", "Sort order: winrate (default) or games", "winrate")
   .action(async (opts: {
     hero?: string;
     format?: string;
@@ -205,6 +209,8 @@ program
     class?: string;
     talent?: string;
     young?: boolean;
+    tournamentOnly?: boolean;
+    sort: string;
   }) => {
     const isGrouped = opts.perHero || opts.topN !== undefined;
     const fetchLimit = isGrouped ? Math.max(opts.limit, 200) : opts.limit;
@@ -271,13 +277,16 @@ program
       }
 
       if (opts.topN !== undefined) {
-        // Build hero groups sorted by best deck win rate
+        const byGames = opts.sort === "games";
+        // Build hero groups sorted by best deck win rate or games
         const heroGroups: HeroGroup[] = [];
         for (const [, group] of byHero) {
-          const sorted = group.slice().sort((a, b) => b.winRate - a.winRate).slice(0, opts.topN);
+          const sorted = group.slice().sort((a, b) => byGames ? b.total - a.total : b.winRate - a.winRate).slice(0, opts.topN);
           heroGroups.push({ hero: group[0].hero, heroIdentifier: group[0].heroIdentifier, decks: sorted });
         }
-        heroGroups.sort((a, b) => (b.decks[0]?.winRate ?? 0) - (a.decks[0]?.winRate ?? 0));
+        heroGroups.sort((a, b) => byGames
+          ? (b.decks[0]?.total ?? 0) - (a.decks[0]?.total ?? 0)
+          : (b.decks[0]?.winRate ?? 0) - (a.decks[0]?.winRate ?? 0));
 
         if (opts.byClass) {
           // Fetch hero→classes map and group heroGroups by class
@@ -319,7 +328,7 @@ program
       }
     } else {
       const sorted = withStats
-        .sort((a, b) => b.winRate - a.winRate)
+        .sort((a, b) => opts.sort === "games" ? b.total - a.total : b.winRate - a.winRate)
         .slice(0, opts.show);
       printTopTable(sorted);
     }
@@ -546,6 +555,7 @@ function buildSearchOpts(opts: {
   days?: number;
   hasMatchups?: boolean;
   hasResults?: boolean;
+  tournamentOnly?: boolean;
   query?: string;
   limit?: number;
   page?: number;
@@ -556,6 +566,7 @@ function buildSearchOpts(opts: {
     days: opts.days,
     hasMatchups: opts.hasMatchups,
     hasResults: opts.hasResults,
+    tournamentOnly: opts.tournamentOnly,
     query: opts.query,
     limit: opts.limit ?? 40,
     page: opts.page ?? 0,
