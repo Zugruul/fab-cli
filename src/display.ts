@@ -2,6 +2,7 @@ import chalk from "chalk";
 import Table from "cli-table3";
 import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
 import type { DeckCardInventory } from "./graphql";
+import type { DeckCompositionStats, ResultStats } from "./stats";
 
 const FABRARY_BASE = "https://fabrary.net/decks";
 
@@ -407,4 +408,109 @@ function formatFormat(f: string): string {
     .replace("Silver Age", "SA")
     .replace("Living Legend", "LL")
     .replace("Ultimate Pit Fight", "UPF");
+}
+
+function pct(n: number): string {
+  return `${(n * 100).toFixed(1)}%`;
+}
+
+function bar(n: number, total: number, width = 20): string {
+  const filled = Math.round((n / total) * width);
+  return chalk.cyan("█".repeat(filled)) + chalk.dim("░".repeat(width - filled));
+}
+
+export function printDeckStats(
+  deckName: string,
+  deck: DeckCompositionStats,
+  results: ResultStats
+): void {
+  const sep = chalk.dim("─".repeat(50));
+  console.log(chalk.bold(`\n  Stats — ${deckName}`));
+
+  // ── Results ─────────────────────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  Results"));
+  if (results.total === 0) {
+    console.log(chalk.dim("    No results recorded."));
+  } else {
+    console.log(`    ${chalk.green(results.wins)}W - ${chalk.red(results.losses)}L${results.draws ? ` - ${results.draws}D` : ""}  (${winRateColor(results.winRate)} win rate)  ${results.total} games`);
+    if (results.bySource.size > 1 || (results.bySource.size === 1 && !results.bySource.has("Unknown"))) {
+      for (const [src, s] of results.bySource) {
+        console.log(`    ${chalk.dim(src.padEnd(12))}  ${chalk.green(s.wins)}W-${chalk.red(s.losses)}L  ${winRateColor(s.winRate)}`);
+      }
+    }
+  }
+
+  // ── Pitch ────────────────────────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  Pitch Distribution") + chalk.dim(`  (${deck.mainDeckTotal} main deck cards, avg ${deck.pitch.avgPitch.toFixed(2)})`));
+  const { pitch } = deck;
+  if (pitch.red > 0)    console.log(`    ${chalk.red("Red   ")}  ${bar(pitch.red, pitch.total)}  ${String(pitch.red).padStart(2)}  ${pct(pitch.redPct)}`);
+  if (pitch.yellow > 0) console.log(`    ${chalk.yellow("Yellow")}  ${bar(pitch.yellow, pitch.total)}  ${String(pitch.yellow).padStart(2)}  ${pct(pitch.yellowPct)}`);
+  if (pitch.blue > 0)   console.log(`    ${chalk.blue("Blue  ")}  ${bar(pitch.blue, pitch.total)}  ${String(pitch.blue).padStart(2)}  ${pct(pitch.bluePct)}`);
+  if (pitch.none > 0)   console.log(`    ${chalk.dim("None  ")}  ${bar(pitch.none, pitch.total)}  ${String(pitch.none).padStart(2)}  ${pct(pitch.nonePct)}`);
+
+  // ── Averages ─────────────────────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  Card Averages") + chalk.dim("  (main deck)"));
+  if (deck.avgCost > 0)    console.log(`    Avg cost:    ${deck.avgCost.toFixed(2)}`);
+  if (deck.avgPower > 0)   console.log(`    Avg power:   ${deck.avgPower.toFixed(2)}`);
+  if (deck.avgDefense > 0) console.log(`    Avg defense: ${deck.avgDefense.toFixed(2)}`);
+
+  // ── Cost distribution ────────────────────────────────
+  if (deck.costDist.size > 0) {
+    console.log(sep);
+    console.log(chalk.bold("  Cost Distribution"));
+    for (const [cost, count] of deck.costDist) {
+      console.log(`    ${String(cost).padStart(2)}  ${bar(count, deck.mainDeckTotal)}  ${count}`);
+    }
+  }
+
+  // ── Types ────────────────────────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  Types"));
+  for (const [type, count] of deck.typeDist) {
+    console.log(`    ${type.padEnd(22)}  ${bar(count, deck.mainDeckTotal)}  ${count}`);
+  }
+  if (deck.subtypeDist.size > 0) {
+    console.log(chalk.dim("  Subtypes"));
+    for (const [sub, count] of deck.subtypeDist) {
+      console.log(`    ${sub.padEnd(22)}  ${bar(count, deck.mainDeckTotal)}  ${count}`);
+    }
+  }
+
+  // ── Talents ──────────────────────────────────────────
+  if (deck.talentCounts.size > 0) {
+    console.log(sep);
+    console.log(chalk.bold("  Talent Distribution"));
+    for (const [talent, count] of deck.talentCounts) {
+      console.log(`    ${talent.padEnd(22)}  ${bar(count, deck.mainDeckTotal)}  ${count}`);
+    }
+  }
+
+  // ── Keywords ─────────────────────────────────────────
+  if (deck.keywordCounts.size > 0) {
+    console.log(sep);
+    console.log(chalk.bold("  Keywords"));
+    for (const [kw, count] of deck.keywordCounts) {
+      console.log(`    ${kw.padEnd(22)}  ${bar(count, deck.mainDeckTotal)}  ${count}`);
+    }
+  }
+
+  // ── Rarity ───────────────────────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  Rarity"));
+  for (const [rarity, count] of deck.rarityCounts) {
+    console.log(`    ${rarityColor(rarity).padEnd(22)}  ${bar(count, deck.mainDeckTotal)}  ${count}`);
+  }
+
+  // ── Hand Draw Probabilities ───────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  4-Card Hand Probabilities"));
+  console.log(`    Expected resources:   ${deck.handDraw.expectedResources.toFixed(2)}`);
+  console.log(`    P(≥1 blue):           ${pct(deck.handDraw.probAtLeastOneBlue)}`);
+  console.log(`    P(≥1 red):            ${pct(deck.handDraw.probAtLeastOneRed)}`);
+  console.log(`    P(≥1 Go again):       ${pct(deck.handDraw.probAtLeastOneGoAgain)}`);
+
+  console.log();
 }

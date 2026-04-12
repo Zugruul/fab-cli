@@ -15,6 +15,15 @@ query getDeck($deckId: ID!) {
       }
       card {
         types
+        subtypes
+        pitch
+        cost
+        power
+        defense
+        keywords
+        talents
+        classes
+        rarity
       }
     }
     matchups {
@@ -37,7 +46,18 @@ interface RawDeckCard {
   sideboardQuantity: number | null;
   maybeQuantity: number | null;
   matchupQuantities: Array<{ matchupId: string; quantity: number; sideboardQuantity: number | null }> | null;
-  card: { types: string[] } | null;
+  card: {
+    types: string[];
+    subtypes: string[];
+    pitch: number | null;
+    cost: number | null;
+    power: number | null;
+    defense: number | null;
+    keywords: string[] | null;
+    talents: string[] | null;
+    classes: string[] | null;
+    rarity: string;
+  } | null;
 }
 
 interface RawDeck {
@@ -177,12 +197,26 @@ async function getLatestDeckVersion(
   return versions.length ? versions[versions.length - 1] : null;
 }
 
+export interface CardData {
+  types: string[];
+  subtypes: string[];
+  pitch: number | null;
+  cost: number | null;
+  power: number | null;
+  defense: number | null;
+  keywords: string[];
+  talents: string[];
+  classes: string[];
+  rarity: string;
+}
+
 export interface DeckCard {
   cardIdentifier: string;
   quantity: number;
   sideboardQuantity: number;
   maybeQuantity: number;
   matchupQuantities: Array<{ matchupId: string; quantity: number; sideboardQuantity: number | null }> | null;
+  cardData: CardData | null;
 }
 
 export interface DeckVersionInfo {
@@ -204,6 +238,18 @@ export async function getDeckVersionInfo(
     sideboardQuantity: c.sideboardQuantity ?? 0,
     maybeQuantity: c.maybeQuantity ?? 0,
     matchupQuantities: c.matchupQuantities ?? null,
+    cardData: c.card ? {
+      types: c.card.types ?? [],
+      subtypes: c.card.subtypes ?? [],
+      pitch: c.card.pitch ?? null,
+      cost: c.card.cost ?? null,
+      power: c.card.power ?? null,
+      defense: c.card.defense ?? null,
+      keywords: c.card.keywords ?? [],
+      talents: c.card.talents ?? [],
+      classes: c.card.classes ?? [],
+      rarity: c.card.rarity ?? "",
+    } : null,
   }));
 
   const typeMap = new Map(deck.deckCards.map((c) => [c.cardIdentifier, c.card?.types ?? []]));

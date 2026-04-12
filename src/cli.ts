@@ -14,7 +14,9 @@ import {
   printMatchupCards,
   printCardsTable,
   printCardDetail,
+  printDeckStats,
 } from "./display";
+import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
@@ -231,10 +233,13 @@ program
 
 program
   .command("deck <id>")
-  .description("Show deck detail with win rate, card list, and per-matchup card lists")
+  .description("Show deck detail with win rate, card list, matchup guides, and stats")
   .option("--source <src>", "Filter results by source (FaBrary, Talishar)")
   .option("--matchup <name>", "Show cards for a specific matchup only (partial name match)")
-  .action(async (id: string, opts: { source?: string; matchup?: string }) => {
+  .option("--decklist-only", "Show only the decklist")
+  .option("--matchups-only", "Show only per-matchup card lists")
+  .option("--stats-only", "Show only stats")
+  .action(async (id: string, opts: { source?: string; matchup?: string; decklistOnly?: boolean; matchupsOnly?: boolean; statsOnly?: boolean }) => {
     process.stdout.write(chalk.dim("Fetching deck…\r"));
 
     const [deck, resultsData, versionInfo] = await Promise.all([
@@ -250,14 +255,19 @@ program
       process.exit(1);
     }
 
-    const results = opts.source
+    const filteredResults = opts.source
       ? resultsData.results.filter(
           (r) => (r.source ?? "").toLowerCase() === opts.source!.toLowerCase()
         )
       : resultsData.results;
 
-    const stats = computeWinRate(results);
+    const winRateStats = computeWinRate(filteredResults);
+    const resultStats = computeResultStats(filteredResults);
+    const deckStats = computeDeckStats(versionInfo.cards);
 
+    const showAll = !opts.decklistOnly && !opts.matchupsOnly && !opts.statsOnly;
+
+    // Single-matchup view
     if (opts.matchup) {
       const needle = opts.matchup.toLowerCase();
       const matchup = versionInfo.matchups.find((m) =>
@@ -275,12 +285,18 @@ program
           return { cardIdentifier: c.cardIdentifier, quantity: qty };
         })
         .filter((c) => c.quantity > 0);
-      printDeckDetail(deck, stats.total > 0 ? stats : undefined, [matchup], matchupCards, versionInfo.inventoryCards, typeMap);
-    } else {
-      printDeckDetail(deck, stats.total > 0 ? stats : undefined, versionInfo.matchups, versionInfo.cards, versionInfo.inventoryCards, typeMap);
-      if (versionInfo.matchups.length > 0) {
-        printMatchupCards(versionInfo.matchups, versionInfo.cards, versionInfo.inventoryCards);
-      }
+      printDeckDetail(deck, winRateStats.total > 0 ? winRateStats : undefined, [matchup], matchupCards, versionInfo.inventoryCards, typeMap);
+      return;
+    }
+
+    if (showAll || opts.decklistOnly) {
+      printDeckDetail(deck, winRateStats.total > 0 ? winRateStats : undefined, versionInfo.matchups, versionInfo.cards, versionInfo.inventoryCards, typeMap);
+    }
+    if ((showAll || opts.matchupsOnly) && versionInfo.matchups.length > 0) {
+      printMatchupCards(versionInfo.matchups, versionInfo.cards, versionInfo.inventoryCards);
+    }
+    if (showAll || opts.statsOnly) {
+      printDeckStats(deck.name, deckStats, resultStats);
     }
   });
 
