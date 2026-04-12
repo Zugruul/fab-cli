@@ -3,6 +3,8 @@ import Table from "cli-table3";
 import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
 import type { DeckCardInventory } from "./graphql";
 import type { DeckCompositionStats, ResultStats, CardUsageStat } from "./stats";
+import type { HeroMetaRow, MetaPeriodGroup, MetaShiftRow } from "./meta";
+import type { TournamentEvent } from "./fabtcg";
 
 export interface HeroGroup {
   hero: string;
@@ -789,4 +791,188 @@ export function printDeckStats(
   console.log(`    P(≥1 Go again):       ${pct(deck.handDraw.probAtLeastOneGoAgain)}`);
 
   console.log();
+}
+
+// ─── meta results ─────────────────────────────────────────────────────────────
+
+export function printMetaTable(rows: HeroMetaRow[], show = 30): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow("No meta data found."));
+    return;
+  }
+
+  const sorted = rows
+    .filter((r) => r.totalGames > 0)
+    .sort((a, b) => b.overallWinRate - a.overallWinRate)
+    .slice(0, show);
+
+  const table = new Table({
+    head: [
+      chalk.cyan("#"),
+      chalk.cyan("Hero"),
+      chalk.cyan("Win Rate"),
+      chalk.cyan("Games"),
+    ],
+    style: { compact: true },
+  });
+
+  sorted.forEach((r, i) => {
+    table.push([
+      i + 1,
+      heroDisplay(r.hero),
+      winRateColor(r.overallWinRate),
+      r.totalGames,
+    ]);
+  });
+
+  console.log(table.toString());
+  console.log(chalk.dim(`${sorted.length} heroes`));
+}
+
+export function printHeroMatchups(hero: HeroMetaRow): void {
+  console.log(chalk.bold(`\n  ${heroDisplay(hero.hero)} matchups`));
+  console.log(chalk.dim(`  Overall: ${winRateColor(hero.overallWinRate)} across ${hero.totalGames} games\n`));
+
+  if (hero.matchups.length === 0) {
+    console.log(chalk.dim("  No matchup data available."));
+    return;
+  }
+
+  const sorted = hero.matchups
+    .filter((m) => m.games > 0)
+    .sort((a, b) => b.winRate - a.winRate);
+
+  const table = new Table({
+    head: [
+      chalk.cyan("Opponent"),
+      chalk.cyan("Win Rate"),
+      chalk.cyan("W"),
+      chalk.cyan("L"),
+      chalk.cyan("Games"),
+    ],
+    style: { compact: true },
+  });
+
+  for (const m of sorted) {
+    table.push([
+      heroDisplay(m.opponent),
+      winRateColor(m.winRate),
+      chalk.green(String(m.wins)),
+      chalk.red(String(m.losses)),
+      m.games,
+    ]);
+  }
+
+  console.log(table.toString());
+}
+
+export function printMetaShiftTable(
+  rows: MetaShiftRow[],
+  opts: { ban?: string[]; myClasses?: string[]; show?: number } = {}
+): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow("No meta shift data found."));
+    return;
+  }
+
+  const show = opts.show ?? 20;
+  const displayed = rows.slice(0, show);
+
+  console.log(chalk.bold("\n  Meta Shift Analysis"));
+  if (opts.ban?.length) {
+    console.log(chalk.dim(`  Banned/removed: ${opts.ban.join(", ")}`));
+  }
+  if (opts.myClasses?.length) {
+    console.log(chalk.dim(`  Your classes: ${opts.myClasses.join(", ")}`));
+  }
+  console.log();
+
+  const table = new Table({
+    head: [
+      chalk.cyan("#"),
+      chalk.cyan("Hero"),
+      chalk.cyan("Adj WR"),
+      chalk.cyan("7d WR"),
+      chalk.cyan("30d WR"),
+      chalk.cyan("Momentum"),
+      chalk.cyan("Games (7d)"),
+    ],
+    style: { compact: true },
+  });
+
+  displayed.forEach((r, i) => {
+    const momentum = r.momentum;
+    const momStr = momentum === 0
+      ? chalk.dim("  —  ")
+      : momentum > 0
+        ? chalk.green(`+${pct(momentum)}`)
+        : chalk.red(pct(momentum));
+
+    table.push([
+      i + 1,
+      heroDisplay(r.hero),
+      winRateColor(r.adjustedWinRate),
+      winRateColor(r.winRate7d),
+      winRateColor(r.winRate30d),
+      momStr,
+      r.games7d > 0 ? r.games7d : chalk.dim("—"),
+    ]);
+  });
+
+  console.log(table.toString());
+  console.log(chalk.dim(`${displayed.length} heroes shown`));
+}
+
+export function printMetaPeriods(groups: MetaPeriodGroup[]): void {
+  for (const group of groups) {
+    console.log(chalk.bold(`\n  ${group.label}`));
+    for (const opt of group.options) {
+      console.log(`    ${chalk.cyan(opt.value.padEnd(30))}  ${chalk.dim(opt.label)}`);
+    }
+  }
+  console.log();
+}
+
+function heroDisplay(id: string): string {
+  // Convert hero-identifier-slug to Title Case Name
+  return id
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+// ─── fabtcg events ────────────────────────────────────────────────────────────
+
+export function printEventsTable(events: TournamentEvent[]): void {
+  if (events.length === 0) {
+    console.log(chalk.yellow("No events found."));
+    return;
+  }
+
+  const table = new Table({
+    head: [
+      chalk.cyan("#"),
+      chalk.cyan("Name"),
+      chalk.cyan("Tier"),
+      chalk.cyan("Date"),
+      chalk.cyan("Location"),
+      chalk.cyan("Link"),
+    ],
+    style: { compact: true },
+    wordWrap: false,
+  });
+
+  events.forEach((e, i) => {
+    table.push([
+      i + 1,
+      e.name.slice(0, 36),
+      e.tier ?? chalk.dim("—"),
+      e.date ? e.date.slice(0, 10) : chalk.dim("—"),
+      e.location.slice(0, 24) || chalk.dim("—"),
+      chalk.blue(e.url.slice(0, 50)),
+    ]);
+  });
+
+  console.log(table.toString());
+  console.log(chalk.dim(`${events.length} events`));
 }

@@ -4,7 +4,7 @@
   "description": "FaBrary CLI — search Flesh & Blood decks and cards",
   "main": "src/cli.ts",
   "bin": {
-    "fabrary": "./bin/fab.js"
+    "fab-cli": "./bin/fab.js"
   },
   "scripts": {
     "start": "tsx src/cli.ts",

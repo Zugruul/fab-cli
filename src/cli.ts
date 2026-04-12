@@ -18,8 +18,15 @@ import {
   printCardsTable,
   printCardDetail,
   printDeckStats,
+  printMetaTable,
+  printHeroMatchups,
+  printMetaShiftTable,
+  printMetaPeriods,
+  printEventsTable,
 } from "./display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
+import { fetchMetaPeriods, fetchMetaResults, computeMetaShift, resolveMetaFormat, resolveMetaPeriod } from "./meta";
+import { fetchEvents } from "./fabtcg";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
@@ -28,13 +35,21 @@ import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
 const program = new Command();
 
 program
-  .name("fabrary")
-  .description("FaBrary CLI — search Flesh & Blood decks and cards")
+  .name("fab-cli")
+  .description("FaBrary CLI — search Flesh & Blood decks, cards, and tournament events")
   .version("1.0.0");
+
+const fabrary = program
+  .command("fabrary")
+  .description("Deck and card search via fabrary.net");
+
+const fabtcg = program
+  .command("fabtcg")
+  .description("Official FAB TCG site data (events, organised play)");
 
 // ─── auth ──────────────────────────────────────────────────────────────────
 
-program
+fabrary
   .command("auth <token>")
   .description("Save a raw Cognito access token (advanced — use 'fabrary login' instead)")
   .action((token: string) => {
@@ -46,7 +61,7 @@ program
     console.log(chalk.green("Token saved."));
   });
 
-program
+fabrary
   .command("login")
   .description("Log in with your fabrary.net email and password")
   .option("-u, --username <email>", "Your fabrary.net email")
@@ -115,7 +130,7 @@ program
 
 // ─── heroes ────────────────────────────────────────────────────────────────
 
-program
+fabrary
   .command("heroes")
   .description("List all heroes with deck counts")
   .option("-f, --filter <text>", "Filter by partial hero name")
@@ -128,7 +143,7 @@ program
 
 // ─── formats ───────────────────────────────────────────────────────────────
 
-program
+fabrary
   .command("formats")
   .description("List all formats with deck counts")
   .action(async () => {
@@ -138,7 +153,7 @@ program
 
 // ─── search ────────────────────────────────────────────────────────────────
 
-program
+fabrary
   .command("search")
   .description("Search decks by filters")
   .option("--hero <id>", "Hero identifier (e.g. prism-awakener-of-sol)")
@@ -177,7 +192,7 @@ program
 
 // ─── top ───────────────────────────────────────────────────────────────────
 
-program
+fabrary
   .command("top")
   .description("Show top decks ranked by win rate (fetches results for each deck)")
   .option("--hero <id>", "Hero identifier (e.g. prism-awakener-of-sol)")
@@ -336,7 +351,7 @@ program
 
 // ─── deck ──────────────────────────────────────────────────────────────────
 
-program
+fabrary
   .command("deck <id>")
   .description("Show deck detail with win rate, card list, matchup guides, and stats")
   .option("--source <src>", "Filter results by source (FaBrary, Talishar)")
@@ -407,7 +422,7 @@ program
 
 // ─── cards ─────────────────────────────────────────────────────────────────
 
-const cardsCmd = program
+const cardsCmd = fabrary
   .command("cards")
   .description("Search Flesh & Blood cards");
 
@@ -416,10 +431,10 @@ cardsCmd
   .description(
     'Search cards by text. Supports inline filters: r:Rarity, t:Type, k:Keyword\n' +
     '  Examples:\n' +
-    '    fabrary cards search prism awakener\n' +
-    '    fabrary cards search r:Majestic prism\n' +
-    '    fabrary cards search vynnset t:Hero\n' +
-    '    fabrary cards search vynnset --foiling Cold --set Promos'
+    '    fab-cli fabrary cards search prism awakener\n' +
+    '    fab-cli fabrary cards search r:Majestic prism\n' +
+    '    fab-cli fabrary cards search vynnset t:Hero\n' +
+    '    fab-cli fabrary cards search vynnset --foiling Cold --set Promos'
   )
   .option("-d, --detail", "Show full detail for each card")
   .option("-n, --limit <n>", "Max results to show", int)
@@ -498,8 +513,121 @@ cardsCmd
     }
     printCardDetail(cards[0]);
     if (cards.length > 1) {
-      console.log(chalk.dim(`+${cards.length - 1} more results. Run 'fabrary cards search "${text}"' to see all.`));
+      console.log(chalk.dim(`+${cards.length - 1} more results. Run 'fab-cli fabrary cards search "${text}"' to see all.`));
     }
+  });
+
+// ─── meta ──────────────────────────────────────────────────────────────────
+
+fabrary
+  .command("meta")
+  .description("Show hero win rates from the fabrary.net meta results matrix")
+  .option("--format <fmt>", "Format (cc, sa, blitz, ll, upf)", "cc")
+  .option("--period <period>", "Period: 7d, 30d, 2026-04, or a season slug", "30d")
+  .option("--hero <id>", "Show matchup breakdown for a specific hero")
+  .option("--show <n>", "Max heroes in output", int, 30)
+  .option("--list-periods", "List all valid period slugs and exit")
+  .action(async (opts: {
+    format: string;
+    period: string;
+    hero?: string;
+    show: number;
+    listPeriods?: boolean;
+  }) => {
+    if (opts.listPeriods) {
+      process.stdout.write(chalk.dim("Loading periods…\r"));
+      const groups = await fetchMetaPeriods();
+      process.stdout.write("                  \r");
+      printMetaPeriods(groups);
+      return;
+    }
+
+    const formatSlug = resolveMetaFormat(opts.format);
+    const period = resolveMetaPeriod(opts.period);
+    process.stdout.write(chalk.dim(`Fetching meta (${formatSlug}, ${period})…\r`));
+    const rows = await fetchMetaResults(opts.format, opts.period);
+    process.stdout.write("                                          \r");
+
+    if (opts.hero) {
+      const needle = opts.hero.toLowerCase();
+      const match = rows.find((r) => r.hero.toLowerCase().includes(needle));
+      if (!match) {
+        console.log(chalk.yellow(`No hero found matching "${opts.hero}".`));
+        console.log(chalk.dim("Available: " + rows.map((r) => r.hero).join(", ")));
+        return;
+      }
+      printHeroMatchups(match);
+    } else {
+      printMetaTable(rows, opts.show);
+    }
+  });
+
+fabrary
+  .command("meta-shift")
+  .description("Compare 7d vs 30d win rates to identify trending heroes")
+  .option("--format <fmt>", "Format (cc, sa, blitz, ll, upf)", "cc")
+  .option("--ban <ids>", "Comma-separated hero identifiers to treat as banned/removed")
+  .option("--nerf <ids>", "Comma-separated hero identifiers with minor nerfs (~-6% WR)")
+  .option("--exclude <ids>", "Comma-separated hero identifiers to hide from output")
+  .option("--my-classes <classes>", "Comma-separated classes to filter heroes (e.g. guardian,warrior)")
+  .option("--show <n>", "Max heroes in output", int, 20)
+  .action(async (opts: {
+    format: string;
+    ban?: string;
+    nerf?: string;
+    exclude?: string;
+    myClasses?: string;
+    show: number;
+  }) => {
+    const ban     = opts.ban     ? opts.ban.split(",").map((s) => s.trim()) : [];
+    const nerf    = opts.nerf    ? opts.nerf.split(",").map((s) => s.trim()) : [];
+    const exclude = opts.exclude ? opts.exclude.split(",").map((s) => s.trim()) : [];
+    const myClasses = opts.myClasses ? opts.myClasses.split(",").map((s) => s.trim().toLowerCase()) : [];
+
+    process.stdout.write(chalk.dim("Fetching 7d and 30d meta data…\r"));
+    let rows = await computeMetaShift({ format: opts.format, ban, nerf, exclude });
+    process.stdout.write("                                \r");
+
+    // Filter to user's classes via live card data if requested
+    if (myClasses.length > 0) {
+      process.stdout.write(chalk.dim("Looking up hero classes…\r"));
+      const heroFilter = await callWithToken((t) =>
+        getHeroIdentifiers(t, {})
+      );
+      // getHeroIdentifiers returns all heroes; we need class data
+      const heroClassMap = await callWithToken((t) => getHeroClassMap(t));
+      process.stdout.write("                          \r");
+
+      rows = rows.filter((r) => {
+        const classes = heroClassMap.get(r.hero) ?? [];
+        return classes.some((c) => myClasses.includes(c.toLowerCase()));
+      });
+    }
+
+    printMetaShiftTable(rows, { ban, myClasses, show: opts.show });
+  });
+
+// ─── fabtcg ────────────────────────────────────────────────────────────────
+
+fabtcg
+  .command("events")
+  .description("Show upcoming organised play events from fabtcg.com")
+  .option("--world-tour", "Only Pro Tour, Calling, and World Championship events")
+  .option("--upcoming", "Only future events (after today)")
+  .option("--format <fmt>", "Filter by format (partial match)")
+  .action(async (opts: {
+    worldTour?: boolean;
+    upcoming?: boolean;
+    format?: string;
+  }) => {
+    process.stdout.write(chalk.dim("Fetching events…\r"));
+    const events = await fetchEvents({
+      worldTour: opts.worldTour,
+      upcoming: opts.upcoming,
+      format: opts.format,
+    });
+    process.stdout.write("                  \r");
+    printEventsTable(events);
   });
 
 // ─── helpers ───────────────────────────────────────────────────────────────
@@ -513,7 +641,7 @@ async function callWithToken<T>(fn: (token: string) => Promise<T>): Promise<T> {
   try {
     token = await getValidToken();
   } catch {
-    console.error(chalk.red("Not logged in. Run: fabrary login"));
+    console.error(chalk.red("Not logged in. Run: fab-cli fabrary login"));
     process.exit(1) as never;
   }
   try {
@@ -525,7 +653,7 @@ async function callWithToken<T>(fn: (token: string) => Promise<T>): Promise<T> {
       try {
         fresh = await getValidToken({ force: true });
       } catch {
-        console.error(chalk.red("Session expired. Run: fabrary login"));
+        console.error(chalk.red("Session expired. Run: fab-cli fabrary login"));
         process.exit(1) as never;
       }
       return await fn(fresh);
