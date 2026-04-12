@@ -23,10 +23,15 @@ import {
   printMetaShiftTable,
   printMetaPeriods,
   printEventsTable,
+  printCoverageIndex,
+  printStandings,
+  printFieldMeta,
+  printDecklistMetas,
+  printPlayerDecklist,
 } from "./display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
 import { fetchMetaPeriods, fetchMetaResults, computeMetaShift, resolveMetaFormat, resolveMetaPeriod } from "./meta";
-import { fetchEvents } from "./fabtcg";
+import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards } from "./fabtcg";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
@@ -628,6 +633,117 @@ fabtcg
     });
     process.stdout.write("                  \r");
     printEventsTable(events);
+  });
+
+fabtcg
+  .command("coverage <event>")
+  .description("Tournament coverage: standings, hero field, decklists")
+  .option("--round <n>", "Show standings for a specific round (number or 'final')")
+  .option("--field", "Show hero field breakdown from latest available standings")
+  .option("--decklists", "List available decklists for the event")
+  .option("--player <name>", "Show decklist for a specific player")
+  .action(async (eventName: string, opts: {
+    round?: string;
+    field?: boolean;
+    decklists?: boolean;
+    player?: string;
+  }) => {
+    process.stdout.write(chalk.dim("Searching tournament…\r"));
+
+    // Resolve slug: try exact slug first, else search via WP API
+    let slug = eventName.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+    try {
+      // Try to fetch coverage index directly with the slug
+      const idx = await fetchCoverageIndex(slug);
+      process.stdout.write("                          \r");
+
+      if (!opts.round && !opts.field && !opts.decklists && !opts.player) {
+        printCoverageIndex(idx);
+        return;
+      }
+
+      if (opts.round) {
+        const r = opts.round === "final" ? "final" : parseInt(opts.round);
+        process.stdout.write(chalk.dim(`Fetching standings round ${opts.round}…\r`));
+        const rows = await fetchStandings(slug, r);
+        process.stdout.write("                                    \r");
+        printStandings(rows, `${idx.title} — Round ${opts.round} Standings`);
+      }
+
+      if (opts.field) {
+        // Use latest available standings round for field breakdown
+        const latestRound = idx.standingRounds[idx.standingRounds.length - 1] ?? 1;
+        process.stdout.write(chalk.dim(`Fetching field data (round ${latestRound})…\r`));
+        const rows = await fetchStandings(slug, latestRound);
+        process.stdout.write("                                          \r");
+        printFieldMeta(rows);
+      }
+
+      if (opts.decklists) {
+        process.stdout.write(chalk.dim("Fetching decklists…\r"));
+        const decklists = await searchTournamentDecklists(slug, opts.player);
+        process.stdout.write("                    \r");
+        if (opts.player && decklists.length === 1) {
+          // Single decklist — fetch full cards
+          const full = await fetchDecklistCards(decklists[0].slug);
+          if (full) {
+            printPlayerDecklist(full);
+          } else {
+            printDecklistMetas(decklists);
+          }
+        } else {
+          printDecklistMetas(decklists);
+        }
+      }
+
+      if (opts.player && !opts.decklists) {
+        process.stdout.write(chalk.dim(`Fetching decklist for ${opts.player}…\r`));
+        const decklists = await searchTournamentDecklists(slug, opts.player);
+        process.stdout.write("                                    \r");
+        if (decklists.length === 0) {
+          console.log(chalk.yellow(`No decklists found for player "${opts.player}" at ${slug}`));
+        } else if (decklists.length === 1) {
+          const full = await fetchDecklistCards(decklists[0].slug);
+          if (full) printPlayerDecklist(full);
+          else console.log(chalk.yellow("Could not fetch card data for decklist."));
+        } else {
+          console.log(chalk.dim(`Multiple decklists found for "${opts.player}":`));
+          printDecklistMetas(decklists);
+        }
+      }
+    } catch {
+      // Slug didn't work — try WP API search
+      process.stdout.write(chalk.dim("Searching by name…   \r"));
+      let tournaments;
+      try {
+        tournaments = await searchTournament(eventName);
+      } catch (e2) {
+        process.stdout.write("                     \r");
+        console.error(chalk.red(`Could not find tournament "${eventName}": ${(e2 as Error).message}`));
+        process.exit(1);
+      }
+      process.stdout.write("                     \r");
+
+      if (tournaments.length === 0) {
+        console.log(chalk.yellow(`No tournaments found matching "${eventName}"`));
+        return;
+      }
+      if (tournaments.length > 1) {
+        console.log(chalk.dim("Multiple tournaments found:"));
+        tournaments.forEach((t, i) => console.log(`  ${i + 1}. ${t.title}  (${t.slug})`));
+        console.log(chalk.dim("Re-run with the exact slug, e.g.:"));
+        console.log(chalk.cyan(`  fab-cli fabtcg coverage "${tournaments[0].slug}"`));
+        return;
+      }
+      // Exactly one match — recurse with slug
+      slug = tournaments[0].slug;
+      const idx = await fetchCoverageIndex(slug).catch(() => null);
+      if (!idx) {
+        console.log(chalk.yellow(`No coverage page found for "${tournaments[0].title}" (${slug})`));
+        return;
+      }
+      printCoverageIndex(idx);
+    }
   });
 
 // ─── helpers ───────────────────────────────────────────────────────────────

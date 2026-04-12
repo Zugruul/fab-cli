@@ -4,7 +4,7 @@ import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
 import type { DeckCardInventory } from "./graphql";
 import type { DeckCompositionStats, ResultStats, CardUsageStat } from "./stats";
 import type { HeroMetaRow, MetaPeriodGroup, MetaShiftRow } from "./meta";
-import type { TournamentEvent } from "./fabtcg";
+import type { TournamentEvent, CoverageIndex, StandingsRow, DecklistMeta, PlayerDecklist } from "./fabtcg";
 
 export interface HeroGroup {
   hero: string;
@@ -975,4 +975,153 @@ export function printEventsTable(events: TournamentEvent[]): void {
 
   console.log(table.toString());
   console.log(chalk.dim(`${events.length} events`));
+}
+
+// ─── fabtcg coverage ─────────────────────────────────────────────────────────
+
+export function printCoverageIndex(idx: CoverageIndex): void {
+  console.log(chalk.bold(`\n  ${idx.title}`));
+  console.log(chalk.dim("  " + "─".repeat(50)));
+  console.log(`  Coverage: ${chalk.blue(`https://fabtcg.com/coverage/${idx.slug}/`)}`);
+  if (idx.standingRounds.length > 0) {
+    console.log(`  Standing rounds:  ${idx.standingRounds.join(", ")}${idx.hasFinalStandings ? " + final" : ""}`);
+  }
+  if (idx.resultRounds.length > 0) {
+    console.log(`  Result rounds:    ${idx.resultRounds.join(", ")}`);
+  }
+  console.log();
+}
+
+export function printStandings(rows: StandingsRow[], title: string): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow("No standings data found."));
+    return;
+  }
+
+  console.log(chalk.bold(`\n  ${title}`));
+  const table = new Table({
+    head: [
+      chalk.cyan("Rank"),
+      chalk.cyan("Player"),
+      chalk.cyan("Hero"),
+      chalk.cyan("Wins"),
+    ],
+    style: { compact: true },
+    wordWrap: false,
+  });
+
+  for (const r of rows) {
+    table.push([
+      r.rank,
+      r.player.slice(0, 28),
+      r.hero.slice(0, 30),
+      r.wins > 0 ? r.wins : chalk.dim("—"),
+    ]);
+  }
+
+  console.log(table.toString());
+  console.log(chalk.dim(`${rows.length} players`));
+}
+
+export function printFieldMeta(rows: StandingsRow[]): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow("No field data found."));
+    return;
+  }
+
+  // Aggregate hero counts
+  const heroCounts = new Map<string, number>();
+  for (const r of rows) {
+    if (r.hero) heroCounts.set(r.hero, (heroCounts.get(r.hero) ?? 0) + 1);
+  }
+
+  const sorted = [...heroCounts.entries()].sort((a, b) => b[1] - a[1]);
+  const total = rows.length;
+
+  console.log(chalk.bold(`\n  Field Breakdown  (${total} players)`));
+  const table = new Table({
+    head: [
+      chalk.cyan("#"),
+      chalk.cyan("Hero"),
+      chalk.cyan("Count"),
+      chalk.cyan("%"),
+    ],
+    style: { compact: true },
+  });
+
+  sorted.forEach(([hero, count], i) => {
+    table.push([i + 1, hero.slice(0, 36), count, pct(count / total)]);
+  });
+
+  console.log(table.toString());
+}
+
+export function printDecklistMetas(decklists: DecklistMeta[]): void {
+  if (decklists.length === 0) {
+    console.log(chalk.yellow("No decklists found."));
+    return;
+  }
+
+  const table = new Table({
+    head: [
+      chalk.cyan("#"),
+      chalk.cyan("Player"),
+      chalk.cyan("Hero"),
+      chalk.cyan("Event"),
+      chalk.cyan("Link"),
+    ],
+    style: { compact: true },
+    wordWrap: false,
+  });
+
+  decklists.forEach((d, i) => {
+    table.push([
+      i + 1,
+      d.player.slice(0, 24),
+      d.hero.slice(0, 28),
+      d.event.slice(0, 30),
+      chalk.blue(d.url.slice(0, 52)),
+    ]);
+  });
+
+  console.log(table.toString());
+  console.log(chalk.dim(`${decklists.length} decklists`));
+}
+
+export function printPlayerDecklist(deck: PlayerDecklist): void {
+  const pitchDotStr = (p: number | null) => {
+    if (p === 1) return chalk.red(" ●");
+    if (p === 2) return chalk.yellow(" ●●");
+    if (p === 3) return chalk.blue(" ●●●");
+    return "";
+  };
+
+  console.log(chalk.bold(`\n  ${deck.player || "Unknown Player"} — ${deck.hero || "Unknown Hero"}`));
+  console.log(chalk.dim(`  ${deck.event || ""}`));
+  if (deck.format) console.log(chalk.dim(`  Format: ${deck.format}`));
+  console.log(chalk.dim(`  ${deck.url}`));
+  console.log(chalk.dim("  " + "─".repeat(50)));
+
+  if (deck.equipment.length > 0) {
+    const eqTotal = deck.equipment.reduce((s, c) => s + c.quantity, 0);
+    console.log(chalk.dim(`    ${"─".repeat(28)} hero + equipment (${eqTotal})`));
+    for (const c of deck.equipment) {
+      console.log(`    ${c.quantity}x ${c.name}`);
+    }
+  }
+
+  if (deck.mainDeck.length > 0) {
+    const deckTotal = deck.mainDeck.reduce((s, c) => s + c.quantity, 0);
+    console.log(chalk.dim(`    ${"─".repeat(28)} main deck (${deckTotal})`));
+    let lastPitch: number | null | undefined = undefined;
+    for (const c of deck.mainDeck) {
+      if (lastPitch !== undefined && c.pitch !== lastPitch) {
+        console.log(chalk.dim("    ─"));
+      }
+      lastPitch = c.pitch;
+      console.log(`    ${c.quantity}x ${c.name}${pitchDotStr(c.pitch)}`);
+    }
+  }
+
+  console.log();
 }
