@@ -122,6 +122,15 @@ query getResults($deckId: ID!) {
       source
       notes
       deckId
+      gameId
+      turns
+      firstPlayer
+      cardResults {
+        cardIdentifier
+        blocked
+        pitched
+        played
+      }
     }
     nextToken
   }

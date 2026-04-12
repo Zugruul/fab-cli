@@ -1,5 +1,5 @@
 import type { DeckCard } from "./graphql";
-import type { GameResult } from "./types";
+import type { GameResult, CardResult } from "./types";
 
 export interface PitchStats {
   red: number; yellow: number; blue: number; none: number; total: number;
@@ -43,6 +43,27 @@ export interface HandDrawStats {
   probAtLeastOneGoAgain: number;
 }
 
+export interface CardUsageStat {
+  cardIdentifier: string;
+  seen: number;     // blocked + pitched + played
+  blocked: number;
+  pitched: number;
+  played: number;
+}
+
+export interface SummaryStats {
+  goingFirstWins: number;
+  goingFirstTotal: number;
+  goingFirstWinRate: number;
+  goingSecondWins: number;
+  goingSecondTotal: number;
+  goingSecondWinRate: number;
+  avgTurns: number;
+  avgTurnsWins: number;
+  avgTurnsLosses: number;
+  cardUsage: CardUsageStat[];   // sorted by seen desc
+}
+
 export interface ResultStats {
   wins: number;
   losses: number;
@@ -50,6 +71,7 @@ export interface ResultStats {
   total: number;
   winRate: number;
   bySource: Map<string, { wins: number; losses: number; total: number; winRate: number }>;
+  summary: SummaryStats | null;  // null when no per-game data available
 }
 
 // Hypergeometric: P(X >= 1) = 1 - P(X = 0) = 1 - C(N-K, n) / C(N, n)
@@ -177,6 +199,15 @@ export function computeResultStats(results: GameResult[]): ResultStats {
   let wins = 0, losses = 0, draws = 0;
   const bySource = new Map<string, { wins: number; losses: number; total: number; winRate: number }>();
 
+  // Per-game summary data
+  let goingFirstWins = 0, goingFirstTotal = 0;
+  let goingSecondWins = 0, goingSecondTotal = 0;
+  const turnsList: number[] = [];
+  const turnsWins: number[] = [];
+  const turnsLosses: number[] = [];
+  const cardTotals = new Map<string, { blocked: number; pitched: number; played: number }>();
+  let hasPerGameData = false;
+
   for (const r of results) {
     if (r.result === "Won") wins++;
     else if (r.result === "Lost") losses++;
@@ -189,8 +220,63 @@ export function computeResultStats(results: GameResult[]): ResultStats {
     s.total++;
     s.winRate = s.total > 0 ? s.wins / s.total : 0;
     bySource.set(src, s);
+
+    // Per-game data (firstPlayer / turns / cardResults)
+    if (r.firstPlayer !== null && r.firstPlayer !== undefined) {
+      hasPerGameData = true;
+      if (r.firstPlayer) {
+        goingFirstTotal++;
+        if (r.result === "Won") goingFirstWins++;
+      } else {
+        goingSecondTotal++;
+        if (r.result === "Won") goingSecondWins++;
+      }
+    }
+
+    if (r.turns !== null && r.turns !== undefined) {
+      turnsList.push(r.turns);
+      if (r.result === "Won") turnsWins.push(r.turns);
+      else if (r.result === "Lost") turnsLosses.push(r.turns);
+    }
+
+    for (const cr of r.cardResults ?? []) {
+      const t = cardTotals.get(cr.cardIdentifier) ?? { blocked: 0, pitched: 0, played: 0 };
+      t.blocked += cr.blocked ?? 0;
+      t.pitched += cr.pitched ?? 0;
+      t.played += cr.played ?? 0;
+      cardTotals.set(cr.cardIdentifier, t);
+    }
   }
 
   const total = wins + losses + draws;
-  return { wins, losses, draws, total, winRate: total > 0 ? wins / total : 0, bySource };
+
+  let summary: SummaryStats | null = null;
+  if (hasPerGameData) {
+    const cardUsage: CardUsageStat[] = [...cardTotals.entries()]
+      .map(([cardIdentifier, t]) => ({
+        cardIdentifier,
+        seen: t.blocked + t.pitched + t.played,
+        blocked: t.blocked,
+        pitched: t.pitched,
+        played: t.played,
+      }))
+      .sort((a, b) => b.seen - a.seen);
+
+    const avgArr = (arr: number[]) => arr.length ? arr.reduce((s, v) => s + v, 0) / arr.length : 0;
+
+    summary = {
+      goingFirstWins,
+      goingFirstTotal,
+      goingFirstWinRate: goingFirstTotal > 0 ? goingFirstWins / goingFirstTotal : 0,
+      goingSecondWins,
+      goingSecondTotal,
+      goingSecondWinRate: goingSecondTotal > 0 ? goingSecondWins / goingSecondTotal : 0,
+      avgTurns: avgArr(turnsList),
+      avgTurnsWins: avgArr(turnsWins),
+      avgTurnsLosses: avgArr(turnsLosses),
+      cardUsage,
+    };
+  }
+
+  return { wins, losses, draws, total, winRate: total > 0 ? wins / total : 0, bySource, summary };
 }

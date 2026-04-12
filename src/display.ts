@@ -2,7 +2,7 @@ import chalk from "chalk";
 import Table from "cli-table3";
 import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
 import type { DeckCardInventory } from "./graphql";
-import type { DeckCompositionStats, ResultStats } from "./stats";
+import type { DeckCompositionStats, ResultStats, CardUsageStat } from "./stats";
 
 const FABRARY_BASE = "https://fabrary.net/decks";
 
@@ -419,6 +419,18 @@ function bar(n: number, total: number, width = 20): string {
   return chalk.cyan("█".repeat(filled)) + chalk.dim("░".repeat(width - filled));
 }
 
+// "funeral-moon-red" → "Funeral Moon (Red)"
+function formatCardId(id: string): string {
+  const pitchSuffixes: Record<string, string> = { red: "Red", yellow: "Yellow", blue: "Blue" };
+  const parts = id.split("-");
+  const last = parts[parts.length - 1];
+  if (pitchSuffixes[last]) {
+    const name = parts.slice(0, -1).map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(" ");
+    return `${name} (${pitchSuffixes[last]})`;
+  }
+  return parts.map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(" ");
+}
+
 export function printDeckStats(
   deckName: string,
   deck: DeckCompositionStats,
@@ -439,6 +451,52 @@ export function printDeckStats(
         console.log(`    ${chalk.dim(src.padEnd(12))}  ${chalk.green(s.wins)}W-${chalk.red(s.losses)}L  ${winRateColor(s.winRate)}`);
       }
     }
+  }
+
+  // ── Summary ──────────────────────────────────────────
+  if (results.summary) {
+    const s = results.summary;
+    console.log(sep);
+    console.log(chalk.bold("  Summary"));
+    if (s.goingFirstTotal > 0) {
+      console.log(`    Going first:   ${winRateColor(s.goingFirstWinRate)} (${s.goingFirstWins}/${s.goingFirstTotal})`);
+    }
+    if (s.goingSecondTotal > 0) {
+      console.log(`    Going second:  ${winRateColor(s.goingSecondWinRate)} (${s.goingSecondWins}/${s.goingSecondTotal})`);
+    }
+    if (s.avgTurns > 0) {
+      console.log(`    Avg turns:     ${s.avgTurns.toFixed(1)}${s.avgTurnsWins > 0 ? `  (wins: ${s.avgTurnsWins.toFixed(1)}, losses: ${s.avgTurnsLosses.toFixed(1)})` : ""}`);
+    }
+  }
+
+  // ── Card Usage ───────────────────────────────────────
+  if (results.summary && results.summary.cardUsage.length > 0) {
+    const usage = results.summary.cardUsage;
+    const totalSeen = usage.reduce((s, c) => s + c.seen, 0);
+    console.log(sep);
+    console.log(chalk.bold("  Actions Taken With Cards") + chalk.dim(`  (${results.total} games)`));
+    const usageTable = new Table({
+      head: [
+        chalk.cyan("Card"),
+        chalk.cyan("Seen"),
+        chalk.cyan("Blocked"),
+        chalk.cyan("Pitched"),
+        chalk.cyan("Played"),
+      ],
+      style: { compact: true },
+      colAligns: ["left", "right", "right", "right", "right"],
+    });
+    for (const c of usage) {
+      usageTable.push([
+        formatCardId(c.cardIdentifier),
+        c.seen,
+        c.blocked > 0 ? c.blocked : chalk.dim("—"),
+        c.pitched > 0 ? c.pitched : chalk.dim("—"),
+        c.played > 0 ? c.played : chalk.dim("—"),
+      ]);
+    }
+    console.log(usageTable.toString());
+    void totalSeen;
   }
 
   // ── Card Actions ─────────────────────────────────────

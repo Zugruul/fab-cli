@@ -27,11 +27,22 @@ export interface AlgoliaSearchResult {
   facets?: Record<string, Record<string, number>>;
 }
 
+export interface CardResult {
+  cardIdentifier: string;
+  blocked: number;
+  pitched: number;
+  played: number;
+}
+
 export interface GameResult {
   result: "Won" | "Lost" | "Draw";
   source: string | null;
   notes: string | null;
   deckId: string;
+  gameId: string | null;
+  turns: number | null;
+  firstPlayer: boolean | null;
+  cardResults: CardResult[] | null;
 }
 
 export interface DeckResults {

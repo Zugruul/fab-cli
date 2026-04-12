@@ -4,7 +4,7 @@ import { Command } from "commander";
 const int = (v: string) => parseInt(v, 10);
 import chalk from "chalk";
 import { searchDecks, getFacets, getDeckById } from "./algolia";
-import { getDeckResults, getDeckVersionInfo, getDeckCardTypes, searchCards, computeWinRate, pLimit } from "./graphql";
+import { getDeckResults, getDeckVersionInfo, searchCards, computeWinRate, pLimit } from "./graphql";
 import {
   printDecksTable,
   printTopTable,
