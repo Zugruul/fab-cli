@@ -441,6 +441,15 @@ export function printDeckStats(
     }
   }
 
+  // ── Card Actions ─────────────────────────────────────
+  console.log(sep);
+  console.log(chalk.bold("  Actions Per Card") + chalk.dim("  (main deck copies)"));
+  const { cardActions } = deck;
+  console.log(`    ${"Play (has effect)".padEnd(20)}  ${bar(cardActions.canPlay, deck.mainDeckTotal)}  ${String(cardActions.canPlay).padStart(2)}  ${pct(cardActions.canPlayPct)}`);
+  console.log(`    ${"Pitch (resources)".padEnd(20)}  ${bar(cardActions.canPitch, deck.mainDeckTotal)}  ${String(cardActions.canPitch).padStart(2)}  ${pct(cardActions.canPitchPct)}`);
+  console.log(`    ${"Block (defense)".padEnd(20)}  ${bar(cardActions.canBlock, deck.mainDeckTotal)}  ${String(cardActions.canBlock).padStart(2)}  ${pct(cardActions.canBlockPct)}`);
+  console.log(`    ${"Attack (has power)".padEnd(20)}  ${bar(cardActions.canAttack, deck.mainDeckTotal)}  ${String(cardActions.canAttack).padStart(2)}  ${pct(cardActions.canAttackPct)}`);
+
   // ── Pitch ────────────────────────────────────────────
   console.log(sep);
   console.log(chalk.bold("  Pitch Distribution") + chalk.dim(`  (${deck.mainDeckTotal} main deck cards, avg ${deck.pitch.avgPitch.toFixed(2)})`));

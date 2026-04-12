@@ -7,8 +7,20 @@ export interface PitchStats {
   avgPitch: number;
 }
 
+export interface CardActionStats {
+  canPlay: number;    // has a cost (can be played for effect)
+  canPitch: number;   // has a pitch value (can be used for resources)
+  canBlock: number;   // has a defense value (can be used to defend)
+  canAttack: number;  // has a power value (can attack)
+  canPlayPct: number;
+  canPitchPct: number;
+  canBlockPct: number;
+  canAttackPct: number;
+}
+
 export interface DeckCompositionStats {
   pitch: PitchStats;
+  cardActions: CardActionStats;
   avgCost: number;
   avgPower: number;
   avgDefense: number;
@@ -113,6 +125,22 @@ export function computeDeckStats(mainCards: DeckCard[]): DeckCompositionStats {
     }
   }
 
+  // Card actions (copies that can be played / pitched / blocked / attacked with)
+  let canPlay = 0, canPitch = 0, canBlock = 0, canAttack = 0;
+  for (const c of mainCards) {
+    if (c.cardData?.cost !== null && c.cardData?.cost !== undefined) canPlay += c.quantity;
+    if (c.cardData?.pitch !== null && c.cardData?.pitch !== undefined) canPitch += c.quantity;
+    if (c.cardData?.defense !== null && c.cardData?.defense !== undefined) canBlock += c.quantity;
+    if (c.cardData?.power !== null && c.cardData?.power !== undefined) canAttack += c.quantity;
+  }
+  const cardActions: CardActionStats = {
+    canPlay, canPitch, canBlock, canAttack,
+    canPlayPct: total ? canPlay / total : 0,
+    canPitchPct: total ? canPitch / total : 0,
+    canBlockPct: total ? canBlock / total : 0,
+    canAttackPct: total ? canAttack / total : 0,
+  };
+
   // Go Again count for hand draw
   let goAgainCount = 0;
   for (const c of mainCards) {
@@ -128,6 +156,7 @@ export function computeDeckStats(mainCards: DeckCard[]): DeckCompositionStats {
 
   return {
     pitch,
+    cardActions,
     avgCost: avg(costsAll),
     avgPower: avg(powersAll),
     avgDefense: avg(defensesAll),
