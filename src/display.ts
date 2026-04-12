@@ -1099,7 +1099,10 @@ export function printPlayerDecklist(deck: PlayerDecklist): void {
   console.log(chalk.bold(`\n  ${deck.player || "Unknown Player"} — ${deck.hero || "Unknown Hero"}`));
   console.log(chalk.dim(`  ${deck.event || ""}`));
   if (deck.format) console.log(chalk.dim(`  Format: ${deck.format}`));
-  console.log(chalk.dim(`  ${deck.url}`));
+  console.log(chalk.dim(`  fabtcg: ${deck.url}`));
+  if (deck.fabraryDeckId) {
+    console.log(chalk.blue(`  fabrary: https://fabrary.net/decks/${deck.fabraryDeckId}`));
+  }
   console.log(chalk.dim("  " + "─".repeat(50)));
 
   if (deck.equipment.length > 0) {

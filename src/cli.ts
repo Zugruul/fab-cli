@@ -31,7 +31,8 @@ import {
 } from "./display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
 import { fetchMetaPeriods, fetchMetaResults, computeMetaShift, resolveMetaFormat, resolveMetaPeriod } from "./meta";
-import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards } from "./fabtcg";
+import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards, heroNameToIdentifier } from "./fabtcg";
+import { findFabraryDeck } from "./algolia";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
@@ -635,6 +636,23 @@ fabtcg
     printEventsTable(events);
   });
 
+/** Fetch a decklist by slug, cross-reference Fabrary, and print it. */
+async function fetchAndPrintDecklist(decklistSlug: string, knownFormat?: string | null): Promise<void> {
+  const full = await fetchDecklistCards(decklistSlug);
+  if (!full) {
+    console.log(chalk.yellow("Could not fetch card data for decklist."));
+    return;
+  }
+
+  // Attempt to find a matching deck on Fabrary
+  const heroId = heroNameToIdentifier(full.hero);
+  const format = full.format ?? knownFormat ?? "Classic Constructed";
+  const fabraryMatch = await findFabraryDeck(full.player, heroId, format).catch(() => null);
+  if (fabraryMatch) full.fabraryDeckId = fabraryMatch.deckId;
+
+  printPlayerDecklist(full);
+}
+
 fabtcg
   .command("coverage <event>")
   .description("Tournament coverage: standings, hero field, decklists")
@@ -684,13 +702,7 @@ fabtcg
         const decklists = await searchTournamentDecklists(slug, opts.player);
         process.stdout.write("                    \r");
         if (opts.player && decklists.length === 1) {
-          // Single decklist — fetch full cards
-          const full = await fetchDecklistCards(decklists[0].slug);
-          if (full) {
-            printPlayerDecklist(full);
-          } else {
-            printDecklistMetas(decklists);
-          }
+          await fetchAndPrintDecklist(decklists[0].slug, decklists[0].format);
         } else {
           printDecklistMetas(decklists);
         }
@@ -703,9 +715,7 @@ fabtcg
         if (decklists.length === 0) {
           console.log(chalk.yellow(`No decklists found for player "${opts.player}" at ${slug}`));
         } else if (decklists.length === 1) {
-          const full = await fetchDecklistCards(decklists[0].slug);
-          if (full) printPlayerDecklist(full);
-          else console.log(chalk.yellow("Could not fetch card data for decklist."));
+          await fetchAndPrintDecklist(decklists[0].slug, decklists[0].format);
         } else {
           console.log(chalk.dim(`Multiple decklists found for "${opts.player}":`));
           printDecklistMetas(decklists);

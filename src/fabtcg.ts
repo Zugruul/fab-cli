@@ -259,6 +259,19 @@ export interface DeckCard {
 export interface PlayerDecklist extends DecklistMeta {
   equipment: DeckCard[];
   mainDeck: DeckCard[];
+  fabraryDeckId?: string; // set after cross-referencing Fabrary
+}
+
+/** Convert a fabtcg.com hero display name to a Fabrary/Algolia slug identifier.
+ *  e.g. "Oscilio, Constella Intelligence" → "oscilio-constella-intelligence"
+ */
+export function heroNameToIdentifier(displayName: string): string {
+  return displayName
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")   // strip commas, apostrophes, etc.
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 // ─── WP API ──────────────────────────────────────────────────────────────────

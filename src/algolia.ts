@@ -90,6 +90,43 @@ export async function searchDecks(
 const ALGOLIA_INDEX_URL =
   "https://4e2ysy5y4i-dsn.algolia.net/1/indexes/public_decks";
 
+/**
+ * Search Algolia for a decklist by player name + hero identifier + format.
+ * Returns the best matching deck, or null if none found.
+ */
+export async function findFabraryDeck(
+  playerName: string,
+  heroIdentifier: string,
+  format: string
+): Promise<AlgoliaDeck | null> {
+  const params = new URLSearchParams({
+    analytics: "false",
+    facets: JSON.stringify(["heroIdentifier", "format"]),
+    facetFilters: JSON.stringify([
+      [`heroIdentifier:${heroIdentifier}`],
+      [`format:${format}`],
+    ]),
+    hitsPerPage: "10",
+    query: playerName,
+  });
+
+  const body = {
+    requests: [{ indexName: "public_decks", params: params.toString() }],
+  };
+
+  const url = `${ALGOLIA_URL}?x-algolia-agent=${AGENT}&x-algolia-api-key=${ALGOLIA_API_KEY}&x-algolia-application-id=${ALGOLIA_APP_ID}`;
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+
+  if (!response.ok) return null;
+  const data = (await response.json()) as { results: AlgoliaSearchResult[] };
+  const hits = data.results[0]?.hits ?? [];
+  return hits[0] ?? null;
+}
+
 export async function getDeckById(deckId: string): Promise<AlgoliaDeck | null> {
   const url = `${ALGOLIA_INDEX_URL}/${encodeURIComponent(deckId)}?x-algolia-api-key=${ALGOLIA_API_KEY}&x-algolia-application-id=${ALGOLIA_APP_ID}`;
   const response = await fetch(url);
