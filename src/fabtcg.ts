@@ -378,6 +378,211 @@ export async function fetchStandings(
   return rows;
 }
 
+// ─── round pairings / player path ────────────────────────────────────────────
+
+export interface RoundPairing {
+  round: number;
+  player1: string;
+  player1Hero: string | null;
+  player2: string;
+  player2Hero: string | null;
+  winner: 1 | 2 | null; // 1 = player1 wins, 2 = player2 wins, null = draw/unknown
+  isBye: boolean;
+}
+
+export interface PlayerRoundResult {
+  round: number;
+  format: string;
+  opponent: string;
+  opponentHero: string | null;
+  result: "W" | "L" | "D" | "Bye";
+}
+
+export interface PlayerPath {
+  player: string;
+  playerHero: string | null;
+  event: string;
+  rounds: PlayerRoundResult[];
+  wins: number;
+  losses: number;
+  draws: number;
+  byes: number;
+  byFormat: Array<{ format: string; wins: number; losses: number }>;
+}
+
+/** Extract player name and hero from a player-cell td block.
+ *  Structure: <div class="player-text"><strong><i class="flag xx"></i> Name</strong><br/><span>Hero Name</span></div>
+ */
+function extractPlayerCell(cell: string): { name: string; hero: string | null } {
+  const textDiv = cell.match(/<div[^>]*class="[^"]*player-text[^"]*"[^>]*>([\s\S]*?)<\/div>/i);
+  const content = textDiv?.[1] ?? cell;
+  const strongMatch = content.match(/<strong>([\s\S]*?)<\/strong>/i);
+  const name = strongMatch ? stripHtml(strongMatch[1]).trim() : "";
+  const spanMatch = content.match(/<span[^>]*>([^<]+)<\/span>/i);
+  const hero = spanMatch ? spanMatch[1].trim() || null : null;
+  return { name, hero };
+}
+
+/** Fetch pairings for a single results round from the coverage pages. */
+export async function fetchRoundPairings(slug: string, round: number): Promise<RoundPairing[]> {
+  const url = `${COVERAGE_BASE}/${slug}/results/${round}/`;
+  const res = await fetch(url, { headers: BROWSER_HEADERS });
+  if (!res.ok) return [];
+  const html = await res.text();
+
+  const pairings: RoundPairing[] = [];
+
+  // Split on <tr class="match-row"> blocks
+  const blocks = html.split('<tr class="match-row">');
+  for (let i = 1; i < blocks.length; i++) {
+    const block = blocks[i];
+
+    // Extract player-1-cell and player-2-cell
+    const p1Cell = block.match(/<td[^>]*class="[^"]*player-1-cell[^"]*"[^>]*>([\s\S]*?)<\/td>/i)?.[1] ?? "";
+    const p2Cell = block.match(/<td[^>]*class="[^"]*player-2-cell[^"]*"[^>]*>([\s\S]*?)<\/td>/i)?.[1] ?? "";
+
+    const p1 = extractPlayerCell(p1Cell);
+    const p2 = extractPlayerCell(p2Cell);
+
+    if (!p1.name) continue;
+
+    const isBye = !p2.name || /\bbye\b/i.test(block);
+
+    // Winner-pill says "Player 1 Win" or "Player 2 Win"
+    const winnerPill = block.match(/<span[^>]*class="[^"]*winner-pill[^"]*"[^>]*>([^<]+)<\/span>/i)?.[1] ?? "";
+    let winner: 1 | 2 | null = null;
+    if (/player.?1/i.test(winnerPill)) winner = 1;
+    else if (/player.?2/i.test(winnerPill)) winner = 2;
+
+    pairings.push({
+      round,
+      player1: p1.name,
+      player1Hero: p1.hero,
+      player2: p2.name || "BYE",
+      player2Hero: p2.hero,
+      winner,
+      isBye,
+    });
+  }
+
+  return pairings;
+}
+
+/** Parse the coverage index page for "Round N - Format" schedule entries. */
+export async function fetchFormatSchedule(slug: string): Promise<Map<number, string>> {
+  const schedule = new Map<number, string>();
+  const res = await fetch(`${COVERAGE_BASE}/${slug}/`, { headers: BROWSER_HEADERS });
+  if (!res.ok) return schedule;
+  const html = await res.text();
+
+  // Match "Round N - Format Name" patterns (the coverage article body lists these)
+  const roundRe = /[Rr]ound\s+(\d+)\s*[-–]\s*([^\n<]{3,40})/g;
+  for (const m of html.matchAll(roundRe)) {
+    const roundNum = parseInt(m[1]);
+    const fmt = stripHtml(m[2]).replace(/\s*\(.*\)/, "").trim();
+    if (fmt && roundNum > 0) {
+      schedule.set(roundNum, fmt);
+    }
+  }
+
+  return schedule;
+}
+
+/** Reconstruct a player's full round-by-round path through a tournament. */
+export async function fetchPlayerPath(
+  slug: string,
+  playerName: string
+): Promise<PlayerPath | null> {
+  const lowerName = playerName.toLowerCase();
+
+  // Fetch coverage index and format schedule in parallel
+  const [idx, formatSchedule] = await Promise.all([
+    fetchCoverageIndex(slug),
+    fetchFormatSchedule(slug),
+  ]);
+
+  // Fetch all result rounds in parallel (hero data comes from pairings directly)
+  const allPairings = await Promise.all(
+    idx.resultRounds.map((r) => fetchRoundPairings(slug, r))
+  );
+
+  // Resolve the exact player name from pairings (partial match)
+  let exactPlayerName = playerName;
+  outer: for (const roundPairings of allPairings) {
+    for (const p of roundPairings) {
+      if (p.player1.toLowerCase().includes(lowerName)) { exactPlayerName = p.player1; break outer; }
+      if (p.player2.toLowerCase().includes(lowerName)) { exactPlayerName = p.player2; break outer; }
+    }
+  }
+
+  // Derive the player's hero from their own pairing cells (most recent non-null entry)
+  let playerHero: string | null = null;
+  for (const roundPairings of allPairings) {
+    for (const p of roundPairings) {
+      if (p.player1.toLowerCase().includes(lowerName) && p.player1Hero) {
+        playerHero = p.player1Hero;
+      } else if (p.player2.toLowerCase().includes(lowerName) && p.player2Hero) {
+        playerHero = p.player2Hero;
+      }
+    }
+  }
+
+  const rounds: PlayerRoundResult[] = [];
+
+  for (let ri = 0; ri < idx.resultRounds.length; ri++) {
+    const roundNum = idx.resultRounds[ri];
+    const roundPairings = allPairings[ri];
+
+    const pairing = roundPairings.find(
+      (p) =>
+        p.player1.toLowerCase().includes(lowerName) ||
+        p.player2.toLowerCase().includes(lowerName)
+    );
+    if (!pairing) continue;
+
+    const isPlayer1 = pairing.player1.toLowerCase().includes(lowerName);
+    const opponent = isPlayer1 ? pairing.player2 : pairing.player1;
+    const opponentHero = isPlayer1 ? pairing.player2Hero : pairing.player1Hero;
+
+    let result: "W" | "L" | "D" | "Bye";
+    if (pairing.isBye) {
+      result = "Bye";
+    } else if (pairing.winner === null) {
+      result = "D";
+    } else {
+      // winner is 1 or 2 (player number)
+      result = (isPlayer1 ? pairing.winner === 1 : pairing.winner === 2) ? "W" : "L";
+    }
+
+    const format = formatSchedule.get(roundNum) ?? (roundNum > (idx.resultRounds[idx.resultRounds.length - 4] ?? 999) ? "Top 8" : `Round ${roundNum}`);
+
+    rounds.push({ round: roundNum, format, opponent, opponentHero, result });
+  }
+
+  if (rounds.length === 0) return null;
+
+  // Aggregate by format
+  const formatMap = new Map<string, { wins: number; losses: number }>();
+  for (const r of rounds) {
+    if (!formatMap.has(r.format)) formatMap.set(r.format, { wins: 0, losses: 0 });
+    const s = formatMap.get(r.format)!;
+    if (r.result === "W") s.wins++;
+    else if (r.result === "L") s.losses++;
+  }
+
+  return {
+    player: exactPlayerName,
+    playerHero,
+    event: idx.title,
+    rounds,
+    wins: rounds.filter((r) => r.result === "W").length,
+    losses: rounds.filter((r) => r.result === "L").length,
+    draws: rounds.filter((r) => r.result === "D").length,
+    byes: rounds.filter((r) => r.result === "Bye").length,
+    byFormat: [...formatMap.entries()].map(([format, s]) => ({ format, ...s })),
+  };
+}
+
 // ─── decklist parsing ─────────────────────────────────────────────────────────
 
 export async function fetchDecklistCards(decklistSlug: string): Promise<PlayerDecklist | null> {

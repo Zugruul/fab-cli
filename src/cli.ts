@@ -28,10 +28,11 @@ import {
   printFieldMeta,
   printDecklistMetas,
   printPlayerDecklist,
+  printPlayerPath,
 } from "./display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
 import { fetchMetaPeriods, fetchMetaResults, computeMetaShift, resolveMetaFormat, resolveMetaPeriod } from "./meta";
-import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards, heroNameToIdentifier } from "./fabtcg";
+import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards, fetchPlayerPath, heroNameToIdentifier } from "./fabtcg";
 import { findFabraryDeck } from "./algolia";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
@@ -655,16 +656,18 @@ async function fetchAndPrintDecklist(decklistSlug: string, knownFormat?: string 
 
 fabtcg
   .command("coverage <event>")
-  .description("Tournament coverage: standings, hero field, decklists")
+  .description("Tournament coverage: standings, hero field, decklists, player path")
   .option("--round <n>", "Show standings for a specific round (number or 'final')")
   .option("--field", "Show hero field breakdown from latest available standings")
   .option("--decklists", "List available decklists for the event")
   .option("--player <name>", "Show decklist for a specific player")
+  .option("--path <name>", "Reconstruct a player's full round-by-round journey")
   .action(async (eventName: string, opts: {
     round?: string;
     field?: boolean;
     decklists?: boolean;
     player?: string;
+    path?: string;
   }) => {
     process.stdout.write(chalk.dim("Searching tournament…\r"));
 
@@ -675,7 +678,7 @@ fabtcg
       const idx = await fetchCoverageIndex(slug);
       process.stdout.write("                          \r");
 
-      if (!opts.round && !opts.field && !opts.decklists && !opts.player) {
+      if (!opts.round && !opts.field && !opts.decklists && !opts.player && !opts.path) {
         printCoverageIndex(idx);
         return;
       }
@@ -719,6 +722,17 @@ fabtcg
         } else {
           console.log(chalk.dim(`Multiple decklists found for "${opts.player}":`));
           printDecklistMetas(decklists);
+        }
+      }
+
+      if (opts.path) {
+        process.stdout.write(chalk.dim(`Building path for ${opts.path}…\r`));
+        const path = await fetchPlayerPath(slug, opts.path);
+        process.stdout.write("                                          \r");
+        if (!path) {
+          console.log(chalk.yellow(`No pairings found for player "${opts.path}" at ${slug}`));
+        } else {
+          printPlayerPath(path);
         }
       }
     } catch {

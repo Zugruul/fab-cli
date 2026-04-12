@@ -4,7 +4,7 @@ import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
 import type { DeckCardInventory } from "./graphql";
 import type { DeckCompositionStats, ResultStats, CardUsageStat } from "./stats";
 import type { HeroMetaRow, MetaPeriodGroup, MetaShiftRow } from "./meta";
-import type { TournamentEvent, CoverageIndex, StandingsRow, DecklistMeta, PlayerDecklist } from "./fabtcg";
+import type { TournamentEvent, CoverageIndex, StandingsRow, DecklistMeta, PlayerDecklist, PlayerPath } from "./fabtcg";
 
 export interface HeroGroup {
   hero: string;
@@ -1124,6 +1124,124 @@ export function printPlayerDecklist(deck: PlayerDecklist): void {
       lastPitch = c.pitch;
       console.log(`    ${c.quantity}x ${c.name}${pitchDotStr(c.pitch)}`);
     }
+  }
+
+  console.log();
+}
+
+export function printPlayerPath(path: PlayerPath): void {
+  const formatFmt = (f: string) => {
+    if (/classic.constructed/i.test(f) || f === "CC") return "CC";
+    if (/silver.age/i.test(f) || f === "SA") return "SA";
+    if (/blitz/i.test(f)) return "Blitz";
+    if (/top.8/i.test(f) || f === "Top 8") return chalk.bold("Top 8");
+    return f;
+  };
+
+  const resultBadge = (r: "W" | "L" | "D" | "Bye") => {
+    if (r === "W") return chalk.green("  W  ");
+    if (r === "L") return chalk.red("  L  ");
+    if (r === "D") return chalk.yellow("  D  ");
+    return chalk.dim("  —  ");
+  };
+
+  console.log(chalk.bold(`\n  ${path.event} — ${path.player}`));
+  if (path.playerHero) console.log(chalk.dim(`  Playing: ${path.playerHero}`));
+  console.log(chalk.dim("  " + "═".repeat(60)));
+
+  const table = new Table({
+    head: [
+      chalk.cyan("Rnd"),
+      chalk.cyan("Format"),
+      chalk.cyan("Opponent"),
+      chalk.cyan("Hero"),
+      chalk.cyan("Result"),
+      chalk.cyan("Record"),
+    ],
+    style: { compact: true },
+    wordWrap: false,
+  });
+
+  let runW = 0;
+  let runL = 0;
+  for (const r of path.rounds) {
+    if (r.result === "W") runW++;
+    else if (r.result === "L") runL++;
+    const record = r.result === "Bye"
+      ? chalk.dim(`${runW}-${runL}`)
+      : r.result === "W"
+        ? chalk.green(`${runW}-${runL}`)
+        : r.result === "L"
+          ? chalk.red(`${runW}-${runL}`)
+          : chalk.yellow(`${runW}-${runL}`);
+
+    table.push([
+      r.round,
+      formatFmt(r.format),
+      r.opponent.slice(0, 22),
+      (r.opponentHero ?? chalk.dim("—")).slice(0, 28),
+      resultBadge(r.result),
+      record,
+    ]);
+  }
+
+  console.log(table.toString());
+
+  // Overall summary
+  const total = path.wins + path.losses + path.draws;
+  const overallWr = total > 0 ? ((path.wins / total) * 100).toFixed(0) + "%" : "—";
+  console.log(
+    `\n  Overall: ${chalk.green(path.wins + "W")} ${chalk.red(path.losses + "L")}` +
+    (path.draws > 0 ? ` ${chalk.yellow(path.draws + "D")}` : "") +
+    (path.byes > 0 ? ` ${chalk.dim(path.byes + " bye")}` : "") +
+    `  (${overallWr})`
+  );
+
+  // Per-format breakdown
+  if (path.byFormat.length > 1) {
+    const fmtTable = new Table({
+      head: [chalk.cyan("Format"), chalk.cyan("W"), chalk.cyan("L"), chalk.cyan("Win%")],
+      style: { compact: true },
+    });
+    for (const f of path.byFormat) {
+      const t = f.wins + f.losses;
+      const wr = t > 0 ? ((f.wins / t) * 100).toFixed(0) + "%" : "—";
+      fmtTable.push([
+        formatFmt(f.format),
+        chalk.green(f.wins),
+        chalk.red(f.losses),
+        t > 0 ? (f.wins / t >= 0.6 ? chalk.green(wr) : f.wins / t >= 0.5 ? chalk.yellow(wr) : chalk.red(wr)) : chalk.dim(wr),
+      ]);
+    }
+    console.log(fmtTable.toString());
+  }
+
+  // Opponent hero breakdown
+  const heroFreq = new Map<string, { count: number; wins: number; losses: number }>();
+  for (const r of path.rounds) {
+    const h = r.opponentHero ?? "Unknown";
+    if (!heroFreq.has(h)) heroFreq.set(h, { count: 0, wins: 0, losses: 0 });
+    const s = heroFreq.get(h)!;
+    s.count++;
+    if (r.result === "W") s.wins++;
+    else if (r.result === "L") s.losses++;
+  }
+  const sortedHeroes = [...heroFreq.entries()].sort((a, b) => b[1].count - a[1].count || b[1].wins - a[1].wins);
+  if (sortedHeroes.length > 0) {
+    console.log(chalk.dim("\n  Matchup Spread:"));
+    const hTable = new Table({
+      head: [chalk.cyan("Opponent Hero"), chalk.cyan("Played"), chalk.cyan("W"), chalk.cyan("L")],
+      style: { compact: true },
+    });
+    for (const [hero, s] of sortedHeroes) {
+      hTable.push([
+        hero.slice(0, 34),
+        s.count,
+        s.wins > 0 ? chalk.green(s.wins) : chalk.dim("0"),
+        s.losses > 0 ? chalk.red(s.losses) : chalk.dim("0"),
+      ]);
+    }
+    console.log(hTable.toString());
   }
 
   console.log();
