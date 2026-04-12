@@ -161,6 +161,13 @@ These are common ways the user asks for things — translate them to the right C
 The `searchCards` GraphQL query returns:
 `cardIdentifier`, `name`, `types`, `subtypes`, `rarity`, `pitch`, `cost`, `defense`, `power`, `keywords`, `classes`, `talents`, `fusions`, `artists`, `hero`, `young`, `specializations`, `restrictedFormats`, `setIdentifiers`, `defaultImage`, `specialImage`, `isCardBack`, `printings` (with `set`, `edition`, `foiling`, `rarity`, `treatment`, `treatments`, `artists`, `identifier`, `print`, `image`), `matchingPrintings`, `oppositeSideCard`.
 
+## Hero Data — Never Speculate
+
+Never guess a hero's class, talent, or format legality (e.g. Living Legend rotation) from memory. Always rely on live data:
+- Use `fabrary cards search "<name> t:Hero"` or `getHeroIdentifiers()` for class/talent
+- Use deck search results to infer what's active in a format
+- Only make claims about heroes that the API data supports
+
 ## Known Limitations
 
 - Algolia date fields are strings, so `--days` filtering is done client-side after fetch.

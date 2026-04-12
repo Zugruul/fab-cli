@@ -344,6 +344,38 @@ export async function searchCards(
   return data.searchCards;
 }
 
+export async function getHeroClassMap(
+  token: string
+): Promise<Map<string, string[]>> {
+  const cards = await searchCards(token, "t:Hero");
+  const map = new Map<string, string[]>();
+  for (const c of cards) {
+    if (c.classes && c.classes.length > 0) {
+      map.set(c.cardIdentifier, c.classes);
+    }
+  }
+  return map;
+}
+
+export async function getHeroIdentifiers(
+  token: string,
+  filters: { class?: string; talent?: string; young?: boolean }
+): Promise<Set<string>> {
+  const cards = await searchCards(token, "t:Hero");
+  const cls    = filters.class?.toLowerCase();
+  const talent = filters.talent?.toLowerCase();
+  return new Set(
+    cards
+      .filter((c) => {
+        if (cls    && !c.classes?.some((x) => x.toLowerCase() === cls))    return false;
+        if (talent && !c.talents?.some((x) => x.toLowerCase() === talent)) return false;
+        if (filters.young !== undefined && c.young !== filters.young)       return false;
+        return true;
+      })
+      .map((c) => c.cardIdentifier)
+  );
+}
+
 // Run N promises with max P concurrent
 export async function pLimit<T>(
   tasks: (() => Promise<T>)[],

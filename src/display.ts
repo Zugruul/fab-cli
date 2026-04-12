@@ -4,6 +4,23 @@ import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
 import type { DeckCardInventory } from "./graphql";
 import type { DeckCompositionStats, ResultStats, CardUsageStat } from "./stats";
 
+export interface HeroGroup {
+  hero: string;
+  heroIdentifier: string;
+  decks: DeckWithStats[];
+}
+
+export interface ClassGroup {
+  className: string;
+  heroGroups: HeroGroup[];
+}
+
+export interface HeroTopEntry {
+  hero: string;
+  topWinRate: DeckWithStats | null;
+  topGames: DeckWithStats | null;
+}
+
 const FABRARY_BASE = "https://fabrary.net/decks";
 
 function formatDate(iso: string): string {
@@ -92,6 +109,149 @@ export function printTopTable(decks: DeckWithStats[]): void {
 
   console.log(table.toString());
   console.log(chalk.dim(`${decks.length} decks shown`));
+}
+
+export function printGroupedTopTable(groups: HeroGroup[]): void {
+  if (groups.length === 0) {
+    console.log(chalk.yellow("No decks found matching criteria."));
+    return;
+  }
+
+  let totalDecks = 0;
+  for (const group of groups) {
+    console.log(chalk.bold(`\n  ${group.hero}`));
+    console.log(chalk.dim("  " + "─".repeat(48)));
+
+    const table = new Table({
+      head: [
+        chalk.cyan("#"),
+        chalk.cyan("Deck"),
+        chalk.cyan("W-L"),
+        chalk.cyan("Win%"),
+        chalk.cyan("Author"),
+        chalk.cyan("Updated"),
+        chalk.cyan("Link"),
+      ],
+      style: { compact: true },
+      wordWrap: false,
+    });
+
+    group.decks.forEach((d, i) => {
+      table.push([
+        i + 1,
+        d.name.slice(0, 28),
+        `${d.wins}-${d.losses}`,
+        winRateColor(d.winRate),
+        d.author.slice(0, 16),
+        formatDate(d.updatedAt),
+        chalk.blue(`${FABRARY_BASE}/${d.deckId}`),
+      ]);
+    });
+
+    console.log(table.toString());
+    totalDecks += group.decks.length;
+  }
+
+  console.log(chalk.dim(`\n${groups.length} heroes, ${totalDecks} decks`));
+}
+
+export function printClassGroupedTable(classGroups: ClassGroup[], topN: number): void {
+  if (classGroups.length === 0) {
+    console.log(chalk.yellow("No decks found matching criteria."));
+    return;
+  }
+
+  let totalHeroes = 0;
+  let totalDecks = 0;
+
+  for (const cg of classGroups) {
+    console.log(chalk.bold.underline(`\n${"═".repeat(4)} ${cg.className.toUpperCase()} ${"═".repeat(Math.max(0, 44 - cg.className.length))}`));
+
+    for (const group of cg.heroGroups) {
+      console.log(chalk.bold(`\n  ${group.hero}`));
+      console.log(chalk.dim("  " + "─".repeat(48)));
+
+      const table = new Table({
+        head: [
+          chalk.cyan("#"),
+          chalk.cyan("Deck"),
+          chalk.cyan("W-L"),
+          chalk.cyan("Win%"),
+          chalk.cyan("Author"),
+          chalk.cyan("Updated"),
+          chalk.cyan("Link"),
+        ],
+        style: { compact: true },
+        wordWrap: false,
+      });
+
+      group.decks.forEach((d, i) => {
+        table.push([
+          i + 1,
+          d.name.slice(0, 28),
+          `${d.wins}-${d.losses}`,
+          winRateColor(d.winRate),
+          d.author.slice(0, 16),
+          formatDate(d.updatedAt),
+          chalk.blue(`${FABRARY_BASE}/${d.deckId}`),
+        ]);
+      });
+
+      console.log(table.toString());
+      totalDecks += group.decks.length;
+      totalHeroes++;
+    }
+  }
+
+  console.log(chalk.dim(`\n${classGroups.length} classes, ${totalHeroes} heroes, ${totalDecks} decks (top ${topN} per hero)`));
+}
+
+export function printPerHeroTable(rows: HeroTopEntry[]): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow("No data found."));
+    return;
+  }
+
+  const table = new Table({
+    head: [
+      chalk.cyan("Hero"),
+      chalk.cyan("Best Win% Deck"),
+      chalk.cyan("Win%"),
+      chalk.cyan("W-L"),
+      chalk.cyan("Most Games Deck"),
+      chalk.cyan("Win%"),
+      chalk.cyan("Games"),
+    ],
+    style: { compact: true },
+    wordWrap: false,
+  });
+
+  for (const row of rows) {
+    const wr = row.topWinRate;
+    const mg = row.topGames;
+    const same = wr && mg && wr.deckId === mg.deckId;
+
+    const wrName = wr ? wr.name.slice(0, 22) : chalk.dim("—");
+    const wrPct  = wr ? winRateColor(wr.winRate) : chalk.dim("—");
+    const wrWL   = wr ? `${wr.wins}-${wr.losses}` : chalk.dim("—");
+
+    const mgName  = same ? chalk.dim("(same)") : mg ? mg.name.slice(0, 22) : chalk.dim("—");
+    const mgPct   = same ? "" : mg ? winRateColor(mg.winRate) : chalk.dim("—");
+    const mgGames = mg ? String(mg.total) : chalk.dim("—");
+
+    table.push([
+      row.hero.slice(0, 26),
+      wrName,
+      wrPct,
+      wrWL,
+      mgName,
+      mgPct,
+      mgGames,
+    ]);
+  }
+
+  console.log(table.toString());
+  console.log(chalk.dim(`${rows.length} heroes`));
 }
 
 export function printHeroesTable(

@@ -4,10 +4,13 @@ import { Command } from "commander";
 const int = (v: string) => parseInt(v, 10);
 import chalk from "chalk";
 import { searchDecks, getFacets, getDeckById } from "./algolia";
-import { getDeckResults, getDeckVersionInfo, searchCards, computeWinRate, pLimit } from "./graphql";
+import { getDeckResults, getDeckVersionInfo, searchCards, getHeroIdentifiers, getHeroClassMap, computeWinRate, pLimit } from "./graphql";
 import {
   printDecksTable,
   printTopTable,
+  printGroupedTopTable,
+  printClassGroupedTable,
+  printPerHeroTable,
   printHeroesTable,
   printFormatsTable,
   printDeckDetail,
@@ -16,6 +19,7 @@ import {
   printCardDetail,
   printDeckStats,
 } from "./display";
+import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
@@ -181,6 +185,12 @@ program
   .option("--source <src>", "Filter by source (FaBrary, Talishar)")
   .option("-n, --limit <n>", "Max decks to fetch", int, 40)
   .option("--show <n>", "Max rows in output", int, 20)
+  .option("--per-hero", "Show best win-rate and most-games deck per hero")
+  .option("--top-n <n>", "Show top N decks per hero grouped together (implies --per-hero)", int)
+  .option("--by-class", "Group --top-n output by class (fetches all hero class data)")
+  .option("--class <name>", "Filter by hero class (e.g. Warrior, Ninja, Brute) — uses live card data")
+  .option("--talent <name>", "Filter by hero talent (e.g. Shadow, Light, Ice) — uses live card data")
+  .option("--young", "Include only young hero versions (default: adult only when --class/--talent used)")
   .action(async (opts: {
     hero?: string;
     format?: string;
@@ -189,12 +199,39 @@ program
     source?: string;
     limit: number;
     show: number;
+    perHero?: boolean;
+    topN?: number;
+    byClass?: boolean;
+    class?: string;
+    talent?: string;
+    young?: boolean;
   }) => {
-    const searchOpts = buildSearchOpts({ ...opts, hasResults: true, limit: opts.limit });
+    const isGrouped = opts.perHero || opts.topN !== undefined;
+    const fetchLimit = isGrouped ? Math.max(opts.limit, 200) : opts.limit;
+    const searchOpts = buildSearchOpts({ ...opts, hasResults: true, limit: fetchLimit });
+
+    // Resolve class/talent filter to a set of hero identifiers via live card search
+    let heroFilter: Set<string> | null = null;
+    if (opts.class || opts.talent) {
+      process.stdout.write(chalk.dim("Looking up heroes…\r"));
+      heroFilter = await callWithToken((t) =>
+        getHeroIdentifiers(t, {
+          class: opts.class,
+          talent: opts.talent,
+          young: opts.young,
+        })
+      );
+      if (heroFilter.size === 0) {
+        console.log(chalk.yellow("No heroes found for that class/talent."));
+        return;
+      }
+    }
+
     process.stdout.write(chalk.dim("Fetching deck list…\r"));
     const result = await searchDecks(searchOpts);
     let decks = result.hits;
     if (opts.days) decks = filterByDays(decks, opts.days);
+    if (heroFilter) decks = decks.filter((d) => heroFilter!.has(d.heroIdentifier));
 
     if (decks.length === 0) {
       console.log(chalk.yellow("No decks found."));
@@ -222,11 +259,70 @@ program
         const stats = computeWinRate(filtered);
         return { ...deck, ...stats };
       })
-      .filter((d) => d.total >= opts.minGames)
-      .sort((a, b) => b.winRate - a.winRate)
-      .slice(0, opts.show);
+      .filter((d) => d.total >= opts.minGames);
 
-    printTopTable(withStats);
+    if (isGrouped) {
+      // Group by heroIdentifier, sort each group by win rate
+      const byHero = new Map<string, DeckWithStats[]>();
+      for (const d of withStats) {
+        const key = d.heroIdentifier;
+        if (!byHero.has(key)) byHero.set(key, []);
+        byHero.get(key)!.push(d);
+      }
+
+      if (opts.topN !== undefined) {
+        // Build hero groups sorted by best deck win rate
+        const heroGroups: HeroGroup[] = [];
+        for (const [, group] of byHero) {
+          const sorted = group.slice().sort((a, b) => b.winRate - a.winRate).slice(0, opts.topN);
+          heroGroups.push({ hero: group[0].hero, heroIdentifier: group[0].heroIdentifier, decks: sorted });
+        }
+        heroGroups.sort((a, b) => (b.decks[0]?.winRate ?? 0) - (a.decks[0]?.winRate ?? 0));
+
+        if (opts.byClass) {
+          // Fetch hero→classes map and group heroGroups by class
+          process.stdout.write(chalk.dim("Fetching hero class data…\r"));
+          const heroClassMap = await callWithToken((t) => getHeroClassMap(t));
+          process.stdout.write("                          \r");
+
+          const classMap = new Map<string, HeroGroup[]>();
+          for (const hg of heroGroups) {
+            const classes = heroClassMap.get(hg.heroIdentifier) ?? ["Unknown"];
+            for (const cls of classes) {
+              if (!classMap.has(cls)) classMap.set(cls, []);
+              classMap.get(cls)!.push(hg);
+            }
+          }
+
+          const classGroups: ClassGroup[] = Array.from(classMap.entries())
+            .map(([className, hgs]) => ({ className, heroGroups: hgs }))
+            .sort((a, b) => {
+              const aTop = a.heroGroups[0]?.decks[0]?.winRate ?? 0;
+              const bTop = b.heroGroups[0]?.decks[0]?.winRate ?? 0;
+              return bTop - aTop;
+            });
+
+          printClassGroupedTable(classGroups, opts.topN);
+        } else {
+          printGroupedTopTable(heroGroups);
+        }
+      } else {
+        // --per-hero: one summary row per hero (best win rate + most games)
+        const rows: HeroTopEntry[] = [];
+        for (const [, group] of byHero) {
+          const topWinRate = group.slice().sort((a, b) => b.winRate - a.winRate)[0] ?? null;
+          const topGames   = group.slice().sort((a, b) => b.total - a.total)[0] ?? null;
+          rows.push({ hero: group[0].hero, topWinRate, topGames });
+        }
+        rows.sort((a, b) => (b.topWinRate?.winRate ?? 0) - (a.topWinRate?.winRate ?? 0));
+        printPerHeroTable(rows);
+      }
+    } else {
+      const sorted = withStats
+        .sort((a, b) => b.winRate - a.winRate)
+        .slice(0, opts.show);
+      printTopTable(sorted);
+    }
   });
 
 // ─── deck ──────────────────────────────────────────────────────────────────
