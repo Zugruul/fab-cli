@@ -180,6 +180,23 @@ const blocks = html.split('<tr class="match-row">').slice(1);
 
 **Dual-format events**: Players register two separate decklists — one per format. The results pages record which hero each player was piloting in each round, so `fetchRoundPairings` gives accurate per-round hero data. The `--path` command surfaces this automatically: if a player's hero differs between formats, the header shows both and a "Playing" column appears in the table. Silver Age was introduced at the Pro Tour level starting with Pro Tour Yokohama (2025).
 
+**Finding all players of a specific hero at an event**: `--field` gives hero counts from standings but not player names. Use a tsx script fetching round 1 pairings and filtering by hero name. Note: large events have byes in round 1 (e.g. PT Yokohama had ~147 byes, so only 532/679 players appear in R1 pairings). Search rounds 1–5 in parallel to catch bye players:
+```typescript
+const rounds = [1,2,3,4,5];
+const all = await Promise.all(rounds.map(r => fetchRoundPairings(slug, r)));
+// deduplicate by player name, filter by hero substring
+```
+
+**Standings double-count in dual-format events**: `--field` pulls from standings HTML which lists players in CC and SA sections separately, inflating hero counts. Pairings are authoritative for unique player names. Always cross-check with pairings if counts seem off.
+
+**Batch path analysis for a hero group**: Use a tsx script calling `fetchPlayerPath` in batches of ~5 to avoid overwhelming the server, then sort by `wins + draws*0.5` descending for ranking.
+
+**Fabrary account lookup**: Use `fab-cli fabrary search -q "<player name>" [--format cc]` to find a player's Fabrary decks. Third-party accounts (e.g. FaBJPN, craziilegs) often upload tournament decklists on behalf of players who don't have their own accounts.
+
+**Official fabtcg.com decklists are top 8 only**: Players outside the top 8 at major events have no published decklists on fabtcg.com. Fall back to Fabrary search by player name to find community-uploaded or self-uploaded lists.
+
+**Deck comparison / meta evolution analysis**: Fetch multiple decklists with `--decklist-only`, then compare equipment slots, maindeck vs inventory counts, new cards vs cut cards. Key signals: cards moved from main to sideboard (meta adaptation), new set additions, deck size shifts (larger sideboard = more defined matchup-dependent tuning).
+
 ## Deck Output Format
 
 The `deck` command outputs three sections in order:
@@ -233,6 +250,12 @@ These are common ways the user asks for things — translate them to the right C
 | "player X's deck at event Y" | `fab-cli fabtcg coverage "<event>" --player "<name>"` |
 | "path / journey for player X" | `fab-cli fabtcg coverage "<event>" --path "<name>"` |
 | "find player X at event Y" | `fab-cli fabtcg coverage "<event>" --search-player "<name>"` (auto-runs path if unique) |
+| "who played hero X at event Y" | tsx script: fetch R1–5 pairings, filter by hero name, deduplicate |
+| "paths for all X players" | tsx script: `fetchPlayerPath` in batches, sort by record |
+| "find player X on Fabrary" | `fab-cli fabrary search -q "<name>" [--format cc]` |
+| "best Prism lists / top lists for hero X" | `fab-cli fabrary top --hero <id> --format cc --sort winrate [--days N]` |
+| "compare these decks / meta evolution" | fetch each with `deck --decklist-only`, compare equipment + main + inventory |
+| "Talishar lists for hero X" | `fab-cli fabrary top --hero <id> --source Talishar` — note: returns empty if those decks log no Talishar results |
 
 ## APIs
 
@@ -293,5 +316,8 @@ Never guess a hero's class, talent, or format legality (e.g. Living Legend rotat
 - GraphQL introspection is disabled on the AppSync endpoint.
 - Inventory excludes cards where all sideboard copies are in the maybe list (`sideboardQuantity <= maybeQuantity`).
 - Card names are derived from identifiers (slug → title case) so apostrophes are lost (e.g. `fyendals-spring-tunic` → "Fyendals Spring Tunic").
-- fabtcg.com decklists are only published for top-performing players at major events; not all players have decklists.
+- fabtcg.com decklists are only published for top 8 players at major events; non-top-8 players have no published list there. Fall back to `fab-cli fabrary search -q "<name>"`.
 - Pro Tour decklists include both CC and SA decks per player — `--player` will show a list when multiple exist.
+- `--field` hero counts come from standings HTML which double-counts players in dual-format events (CC + SA sections). Use pairings for accurate unique player counts.
+- `--source Talishar` returns no results if the matching decks have no Talishar-sourced game results logged (common — most community decks log FaBrary tracker results only).
+- Large events have byes in round 1; fetching only R1 pairings misses those players. Scan R1–5 in parallel to find all players of a given hero.
