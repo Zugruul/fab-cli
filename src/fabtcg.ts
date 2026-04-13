@@ -393,6 +393,7 @@ export interface RoundPairing {
 export interface PlayerRoundResult {
   round: number;
   format: string;
+  playerHero: string | null;  // what the tracked player was playing this round
   opponent: string;
   opponentHero: string | null;
   result: "W" | "L" | "D" | "Bye";
@@ -400,7 +401,7 @@ export interface PlayerRoundResult {
 
 export interface PlayerPath {
   player: string;
-  playerHero: string | null;
+  heroByFormat: Record<string, string>;  // format → hero (e.g. "Classic Constructed" → "Teklovossen…")
   event: string;
   rounds: PlayerRoundResult[];
   wins: number;
@@ -536,17 +537,7 @@ export async function fetchPlayerPath(
     }
   }
 
-  // Derive the player's hero from their own pairing cells (most recent non-null entry)
-  let playerHero: string | null = null;
-  for (const roundPairings of allPairings) {
-    for (const p of roundPairings) {
-      if (p.player1.toLowerCase().includes(lowerName) && p.player1Hero) {
-        playerHero = p.player1Hero;
-      } else if (p.player2.toLowerCase().includes(lowerName) && p.player2Hero) {
-        playerHero = p.player2Hero;
-      }
-    }
-  }
+  // No longer needed — hero is tracked per-round below
 
   const rounds: PlayerRoundResult[] = [];
 
@@ -562,6 +553,7 @@ export async function fetchPlayerPath(
     if (!pairing) continue;
 
     const isPlayer1 = pairing.player1.toLowerCase().includes(lowerName);
+    const playerHero = isPlayer1 ? pairing.player1Hero : pairing.player2Hero;
     const opponent = isPlayer1 ? pairing.player2 : pairing.player1;
     const opponentHero = isPlayer1 ? pairing.player2Hero : pairing.player1Hero;
 
@@ -577,7 +569,7 @@ export async function fetchPlayerPath(
 
     const format = formatSchedule.get(roundNum) ?? (roundNum > (idx.resultRounds[idx.resultRounds.length - 4] ?? 999) ? "Top 8" : `Round ${roundNum}`);
 
-    rounds.push({ round: roundNum, format, opponent, opponentHero, result });
+    rounds.push({ round: roundNum, format, playerHero, opponent, opponentHero, result });
   }
 
   if (rounds.length === 0) return null;
@@ -592,9 +584,17 @@ export async function fetchPlayerPath(
     else if (r.result === "D") s.draws++;
   }
 
+  // Build heroByFormat: first non-null hero seen for each format
+  const heroByFormat: Record<string, string> = {};
+  for (const r of rounds) {
+    if (r.playerHero && !(r.format in heroByFormat)) {
+      heroByFormat[r.format] = r.playerHero;
+    }
+  }
+
   return {
     player: exactPlayerName,
-    playerHero,
+    heroByFormat,
     event: idx.title,
     rounds,
     wins: rounds.filter((r) => r.result === "W").length,

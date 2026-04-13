@@ -1146,15 +1146,26 @@ export function printPlayerPath(path: PlayerPath): void {
   };
 
   console.log(chalk.bold(`\n  ${path.event} — ${path.player}`));
-  if (path.playerHero) console.log(chalk.dim(`  Playing: ${path.playerHero}`));
+  const heroEntries = Object.entries(path.heroByFormat);
+  if (heroEntries.length === 1) {
+    console.log(chalk.dim(`  Playing: ${heroEntries[0][1]}`));
+  } else if (heroEntries.length > 1) {
+    heroEntries.forEach(([fmt, hero]) =>
+      console.log(chalk.dim(`  ${formatFmt(fmt)}: ${hero}`))
+    );
+  }
   console.log(chalk.dim("  " + "═".repeat(60)));
+
+  const multiHero = new Set(Object.values(path.heroByFormat)).size > 1
+    || heroEntries.length > 1;
 
   const table = new Table({
     head: [
       chalk.cyan("Rnd"),
       chalk.cyan("Format"),
+      ...(multiHero ? [chalk.cyan("Playing")] : []),
       chalk.cyan("Opponent"),
-      chalk.cyan("Hero"),
+      chalk.cyan("Opp Hero"),
       chalk.cyan("Result"),
       chalk.cyan("Record"),
     ],
@@ -1178,8 +1189,9 @@ export function printPlayerPath(path: PlayerPath): void {
     table.push([
       r.round,
       formatFmt(r.format),
+      ...(multiHero ? [(r.playerHero ?? chalk.dim("—")).slice(0, 22)] : []),
       r.opponent.slice(0, 22),
-      (r.opponentHero ?? chalk.dim("—")).slice(0, 28),
+      (r.opponentHero ?? chalk.dim("—")).slice(0, 24),
       resultBadge(r.result),
       record,
     ]);

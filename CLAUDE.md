@@ -131,12 +131,14 @@ fab-cli fabtcg events [--world-tour] [--upcoming] [--format <fmt>]
 ### fabtcg Tournament Coverage
 
 ```bash
-fab-cli fabtcg coverage <event>                  # show coverage index (rounds available, URL)
-fab-cli fabtcg coverage <event> --round <n|final>  # standings for a specific round
-fab-cli fabtcg coverage <event> --field            # hero field breakdown (counts + %)
-fab-cli fabtcg coverage <event> --decklists        # list available decklists for the event
-fab-cli fabtcg coverage <event> --player <name>    # show/fetch decklist for a specific player
+fab-cli fabtcg coverage <event>                        # show coverage index (rounds available, URL)
+fab-cli fabtcg coverage <event> --round <n|final>      # standings for a specific round
+fab-cli fabtcg coverage <event> --field                # hero field breakdown (counts + %)
+fab-cli fabtcg coverage <event> --decklists            # list available decklists for the event
+fab-cli fabtcg coverage <event> --player <name>        # show/fetch decklist for a specific player
 fab-cli fabtcg coverage <event> --decklists --player <name>  # combined
+fab-cli fabtcg coverage <event> --path <name>          # player's full round-by-round journey
+fab-cli fabtcg coverage <event> --search-player <name> # find player by partial name (auto-runs --path if unique match)
 ```
 
 `<event>` can be a slug (`pro-tour-yokohama`) or a human-readable name (`"pro tour yokohama"`).
@@ -154,6 +156,12 @@ The command auto-converts spaces to hyphens and falls back to WP API search if t
 
 **Format schedule** for coverage pages is visible at `fabtcg.com/coverage/<slug>/` — the article lists each round with its format (e.g. "Round 1 - Classic Constructed", "Round 6 - Silver Age").
 
+**Dual-format events** are common at the Pro Tour level. Players bring two separate decks — one per format. The `--path` output accounts for this:
+- The header shows each format's hero separately: `CC: Teklovossen, Esteemed Magnate` / `SA: Iyslander`
+- When a player's hero changes across formats, a "Playing" column appears in the round table showing what they piloted each round
+- `--search-player` uses round 1 (CC) pairings to find players — the hero shown there is their CC deck. Their SA deck appears in the path output.
+- Pro Tour Yokohama (April 2025) was one of the first dual-format events with Silver Age. Format split: R1–5 CC → R6–11 SA → R12–18 CC → Top 8 CC.
+
 ## In-Session Tournament Analysis
 
 When doing ad-hoc tournament analysis (path-to-top-8, opponent breakdown, etc.) that isn't built into the CLI, write a tsx script in the project root, run it with `npx tsx <script>.ts`, then delete it. Key patterns:
@@ -168,7 +176,9 @@ const blocks = html.split('<tr class="match-row">').slice(1);
 
 **Round format schedule** (e.g. Pro Tour Yokohama): fetch `fabtcg.com/coverage/<slug>/` and parse the article — it lists "Round N - Format" for every round.
 
-**Typical Pro Tour structure**: 5 CC rounds → 6 SA rounds → 4 CC rounds → Top 8 (CC). Always verify from the event page.
+**Typical Pro Tour structure**: 5 CC rounds → 6 SA rounds → 7 CC rounds → Top 8 (CC). Always verify from the event page.
+
+**Dual-format events**: Players register two separate decklists — one per format. The results pages record which hero each player was piloting in each round, so `fetchRoundPairings` gives accurate per-round hero data. The `--path` command surfaces this automatically: if a player's hero differs between formats, the header shows both and a "Playing" column appears in the table. Silver Age was introduced at the Pro Tour level starting with Pro Tour Yokohama (2025).
 
 ## Deck Output Format
 
@@ -221,7 +231,8 @@ These are common ways the user asks for things — translate them to the right C
 | "standings for round N" | `fab-cli fabtcg coverage "<event>" --round <n>` |
 | "decklists for event X" | `fab-cli fabtcg coverage "<event>" --decklists` |
 | "player X's deck at event Y" | `fab-cli fabtcg coverage "<event>" --player "<name>"` |
-| "path to top 8 / player journey" | Write a tsx analysis script (see In-Session Tournament Analysis above) |
+| "path / journey for player X" | `fab-cli fabtcg coverage "<event>" --path "<name>"` |
+| "find player X at event Y" | `fab-cli fabtcg coverage "<event>" --search-player "<name>"` (auto-runs path if unique) |
 
 ## APIs
 
