@@ -67,6 +67,12 @@ Format aliases: `cc` → Classic Constructed, `sa` → Silver Age, `blitz` → B
 
 Hero identifiers use slug format, e.g. `vynnset-iron-maiden`, `prism-awakener-of-sol`.
 
+**Hero slug lookup** — when a hero slug is unclear or returns no results, use:
+```bash
+fab-cli fabrary heroes --filter "<name>"   # lists all matching slugs + deck counts
+```
+Heroes have **young** (Blitz/SA) and **adult** (CC) versions with different slugs. Always use the adult slug for CC queries. Example: `puffin` (young, SA) vs `puffin-hightail` (adult, CC). The `heroes` command lists both variants.
+
 ### Card Search
 
 ```bash
@@ -197,6 +203,25 @@ const all = await Promise.all(rounds.map(r => fetchRoundPairings(slug, r)));
 
 **Deck comparison / meta evolution analysis**: Fetch multiple decklists with `--decklist-only`, then compare equipment slots, maindeck vs inventory counts, new cards vs cut cards. Key signals: cards moved from main to sideboard (meta adaptation), new set additions, deck size shifts (larger sideboard = more defined matchup-dependent tuning).
 
+**Unlisted deck fetching**: Unlisted decks are not in Algolia (`fab-cli fabrary deck <id>` will fail with "not found"). They are still accessible via AppSync GraphQL with auth. Use a tsx script:
+```typescript
+import { getValidToken } from './src/config.ts';
+const token = await getValidToken();
+const res = await fetch('https://42xrd23ihbd47fjvsrt27ufpfe.appsync-api.us-east-2.amazonaws.com/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json', 'Authorization': token },
+  body: JSON.stringify({ query: `query { getDeck(deckId: "<id>") { name heroIdentifier format deckCards { cardIdentifier quantity sideboardQuantity maybeQuantity } } }` })
+});
+```
+Main deck = `deckCards` where `quantity > 0`. Inventory = `sideboardQuantity > maybeQuantity`.
+
+**Deck similarity analysis**: To find which public deck is closest to a given list, fetch both via GraphQL, build a `Map<cardIdentifier, quantity>` for each main deck, then compute:
+```typescript
+// shared = sum of min(qA, qB) for each card
+// similarity % = shared / max(totalCopiesA, totalCopiesB)
+```
+Sort candidates by similarity descending. Also output the diff (cards only in A, cards only in B) for the closest match. Use `Promise.all` to fetch all candidates in parallel.
+
 ## Deck Output Format
 
 The `deck` command outputs three sections in order:
@@ -240,6 +265,9 @@ These are common ways the user asks for things — translate them to the right C
 | "decks with results / matchups" | add `--has-results` / `--has-matchups` |
 | "search for card X" | `fab-cli fabrary cards search "<text>"` |
 | "compare decks" | fetch each with `deck --decklist-only`, display both |
+| "find similar decks to X" / "what's closest to this list" | fetch X via GraphQL (may be unlisted), fetch top N for that hero, run similarity script |
+| "fetch / download this deck" (unlisted URL) | tsx script using `getDeck` via GraphQL with `getValidToken()` from `src/config.ts` |
+| hero slug not found / no results | `fab-cli fabrary heroes --filter "<name>"` to find correct slug; check young vs adult variant |
 | "meta for format X" | `fab-cli fabrary meta --format <fmt>` |
 | "meta shift / ban analysis" | `fab-cli fabrary meta-shift --ban <heroId> --my-classes <...>` |
 | "upcoming events / callings" | `fab-cli fabtcg events --world-tour --upcoming` |
@@ -314,6 +342,7 @@ Never guess a hero's class, talent, or format legality (e.g. Living Legend rotat
 
 - Algolia date fields are strings, so `--days` filtering is done client-side after fetch.
 - GraphQL introspection is disabled on the AppSync endpoint.
+- Unlisted decks are not in the Algolia `public_decks` index — `fab-cli fabrary deck <id>` fails with "not found". Use a GraphQL `getDeck` tsx script instead (auth required).
 - Inventory excludes cards where all sideboard copies are in the maybe list (`sideboardQuantity <= maybeQuantity`).
 - Card names are derived from identifiers (slug → title case) so apostrophes are lost (e.g. `fyendals-spring-tunic` → "Fyendals Spring Tunic").
 - fabtcg.com decklists are only published for top 8 players at major events; non-top-8 players have no published list there. Fall back to `fab-cli fabrary search -q "<name>"`.
