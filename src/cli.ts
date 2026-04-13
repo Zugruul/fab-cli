@@ -622,16 +622,22 @@ fabtcg
   .option("--world-tour", "Only Pro Tour, Calling, and World Championship events")
   .option("--upcoming", "Only future events (after today)")
   .option("--format <fmt>", "Filter by format (partial match)")
+  .option("--with-coverage", "Only events that have a live coverage page with results/standings")
+  .option("--year <n>", "Fetch events from a specific year (e.g. 2025)")
   .action(async (opts: {
     worldTour?: boolean;
     upcoming?: boolean;
     format?: string;
+    withCoverage?: boolean;
+    year?: string;
   }) => {
     process.stdout.write(chalk.dim("Fetching events…\r"));
     const events = await fetchEvents({
       worldTour: opts.worldTour,
       upcoming: opts.upcoming,
       format: opts.format,
+      withCoverage: opts.withCoverage,
+      year: opts.year ? parseInt(opts.year) : undefined,
     });
     process.stdout.write("                  \r");
     printEventsTable(events);

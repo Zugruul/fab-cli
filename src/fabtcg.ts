@@ -18,6 +18,7 @@ export interface TournamentEvent {
   location: string;
   format: string | null;
   url: string;
+  slug: string;       // last path segment of url — use with `fab-cli fabtcg coverage <slug>`
   tier: string | null; // "Pro Tour", "Calling", "World Championship", etc.
 }
 
@@ -33,6 +34,10 @@ const MAJOR_TIERS = [
   "Armory",
 ];
 
+function slugFromUrl(url: string): string {
+  return url.replace(/\/+$/, "").split("/").pop() ?? "";
+}
+
 function detectTier(text: string): string | null {
   for (const tier of MAJOR_TIERS) {
     if (text.toLowerCase().includes(tier.toLowerCase())) return tier;
@@ -47,16 +52,63 @@ function isWorldTour(event: TournamentEvent): boolean {
   );
 }
 
+async function checkCoverage(slug: string): Promise<boolean> {
+  if (!slug || slug === "#") return false;
+  try {
+    const res = await fetch(`${COVERAGE_BASE}/${slug}/`, { headers: BROWSER_HEADERS });
+    if (!res.ok) return false;
+    const html = await res.text();
+    // Coverage pages with real data have results or standings links
+    return /\/results\/\d+\/|\/standings\/\d+\/|\/final-standings\//.test(html);
+  } catch {
+    return false;
+  }
+}
+
+async function fetchEventsFromUrl(url: string): Promise<TournamentEvent[]> {
+  const res = await fetch(url, { headers: BROWSER_HEADERS });
+  if (!res.ok) return [];
+  const html = await res.text();
+  return parseEventsHtml(html);
+}
+
 export async function fetchEvents(filters?: {
   worldTour?: boolean;
   upcoming?: boolean;
   format?: string;
+  withCoverage?: boolean;
+  year?: number;
 }): Promise<TournamentEvent[]> {
-  const res = await fetch(EVENTS_URL, { headers: BROWSER_HEADERS });
-  if (!res.ok) throw new Error(`Failed to fetch events: ${res.status} ${res.statusText}`);
-  const html = await res.text();
+  const currentYear = new Date().getFullYear();
 
-  const events = parseEventsHtml(html);
+  // Determine which year pages to fetch
+  let urls: string[];
+  if (filters?.year) {
+    urls = [`${EVENTS_URL}${filters.year}/`];
+  } else if (filters?.withCoverage) {
+    // Coverage can exist on past events — search current + previous year
+    urls = [
+      `${EVENTS_URL}${currentYear}/`,
+      `${EVENTS_URL}${currentYear - 1}/`,
+    ];
+  } else {
+    urls = [EVENTS_URL];
+  }
+
+  const pages = await Promise.all(urls.map(fetchEventsFromUrl));
+
+  // Merge, deduplicate by slug
+  const seen = new Set<string>();
+  const events: TournamentEvent[] = [];
+  for (const page of pages) {
+    for (const e of page) {
+      const key = e.slug || e.url;
+      if (!seen.has(key)) {
+        seen.add(key);
+        events.push(e);
+      }
+    }
+  }
 
   let filtered = events;
 
@@ -78,6 +130,11 @@ export async function fetchEvents(filters?: {
     filtered = filtered.filter(
       (e) => e.format && e.format.toLowerCase().includes(fmt)
     );
+  }
+
+  if (filters?.withCoverage) {
+    const checks = await Promise.all(filtered.map((e) => checkCoverage(e.slug)));
+    filtered = filtered.filter((_, i) => checks[i]);
   }
 
   return filtered;
@@ -163,6 +220,7 @@ function parseFabtcgCards(html: string): TournamentEvent[] {
       location,
       format: null,
       url,
+      slug: slugFromUrl(url),
       tier: detectTier(name),
     });
   }
@@ -188,7 +246,7 @@ function parseJsonLd(html: string): TournamentEvent[] {
             (typeof item.location === "string" ? item.location : "") ??
             "";
           const url = String(item.url ?? EVENTS_URL);
-          events.push({ name, date, location: stripHtml(String(location)), format: null, url, tier: detectTier(name) });
+          events.push({ name, date, location: stripHtml(String(location)), format: null, url, slug: slugFromUrl(url), tier: detectTier(name) });
         }
       }
     } catch { /* ignore */ }
@@ -207,7 +265,7 @@ function parseEventLinks(html: string): TournamentEvent[] {
     seen.add(url);
     const name = stripHtml(match[2]);
     if (!name || name.length < 3) continue;
-    events.push({ name, date: "", location: "", format: null, url, tier: detectTier(name) });
+    events.push({ name, date: "", location: "", format: null, url, slug: slugFromUrl(url), tier: detectTier(name) });
   }
   return events;
 }

@@ -127,12 +127,15 @@ Period aliases: `7d` → `last-7-days`, `30d` → `last-30-days`. Otherwise pass
 ### fabtcg Events
 
 ```bash
-fab-cli fabtcg events [--world-tour] [--upcoming] [--format <fmt>]
+fab-cli fabtcg events [--world-tour] [--upcoming] [--with-coverage] [--format <fmt>]
 ```
 
 - `--world-tour`: Pro Tour, Calling, World Championship only
 - `--upcoming`: future events only (after today)
-- Scrapes `fabtcg.com/organised-play/`
+- `--with-coverage`: only events with a live coverage page containing real results/standings data; automatically searches current year + previous year pages
+- `--year <n>`: fetch events from a specific year's page (e.g. `--year 2025`)
+- Output includes a `Slug` column — use it directly: `fab-cli fabtcg coverage <slug>`
+- Default fetches `fabtcg.com/organised-play/`; `--year` fetches `fabtcg.com/organised-play/{year}/`
 
 ### fabtcg Tournament Coverage
 
@@ -271,7 +274,9 @@ These are common ways the user asks for things — translate them to the right C
 | "meta for format X" | `fab-cli fabrary meta --format <fmt>` |
 | "meta shift / ban analysis" | `fab-cli fabrary meta-shift --ban <heroId> --my-classes <...>` |
 | "upcoming events / callings" | `fab-cli fabtcg events --world-tour --upcoming` |
-| "coverage for event X" | `fab-cli fabtcg coverage "<event>"` |
+| "events with coverage / what has results" | `fab-cli fabtcg events --world-tour --with-coverage` (searches current + previous year) |
+| "events from 2025 / last year" | `fab-cli fabtcg events --year 2025 [--world-tour]` |
+| "coverage for event X" | `fab-cli fabtcg coverage <slug>` — slug comes from `events` Slug column |
 | "field / hero breakdown for event X" | `fab-cli fabtcg coverage "<event>" --field` |
 | "standings for round N" | `fab-cli fabtcg coverage "<event>" --round <n>` |
 | "decklists for event X" | `fab-cli fabtcg coverage "<event>" --decklists` |

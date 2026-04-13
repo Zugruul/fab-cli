@@ -956,7 +956,7 @@ export function printEventsTable(events: TournamentEvent[]): void {
       chalk.cyan("Tier"),
       chalk.cyan("Date"),
       chalk.cyan("Location"),
-      chalk.cyan("Link"),
+      chalk.cyan("Slug"),
     ],
     style: { compact: true },
     wordWrap: false,
@@ -969,7 +969,7 @@ export function printEventsTable(events: TournamentEvent[]): void {
       e.tier ?? chalk.dim("—"),
       e.date ? e.date.slice(0, 10) : chalk.dim("—"),
       e.location.slice(0, 24) || chalk.dim("—"),
-      chalk.blue(e.url.slice(0, 50)),
+      chalk.dim(e.slug || "—"),
     ]);
   });
 

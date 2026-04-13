@@ -151,38 +151,72 @@ fab-cli fabrary meta-shift --format cc --ban oscilio-constella-intelligence --my
 ### Events
 
 ```bash
+# All world-tour events (Pro Tour, Calling, Worlds)
+fab-cli fabtcg events --world-tour
+
+# Only upcoming events
 fab-cli fabtcg events --world-tour --upcoming
+
+# Only events that already have a live coverage page with results/standings
+# Searches current year + previous year automatically
+fab-cli fabtcg events --world-tour --with-coverage
+
+# Events from a specific year
+fab-cli fabtcg events --year 2025
+fab-cli fabtcg events --world-tour --year 2025
 ```
+
+The `Slug` column in the output can be used directly with the `coverage` command.
 
 ### Coverage
 
+First, find events with coverage:
+
 ```bash
-# Index: what rounds are available
-fab-cli fabtcg coverage "pro-tour-yokohama"
-
-# Hero field breakdown
-fab-cli fabtcg coverage "pro-tour-yokohama" --field
-
-# Standings for a round
-fab-cli fabtcg coverage "pro-tour-yokohama" --round 15
-fab-cli fabtcg coverage "pro-tour-yokohama" --round final
-
-# Published decklists (top 8 only)
-fab-cli fabtcg coverage "pro-tour-yokohama" --decklists
-fab-cli fabtcg coverage "pro-tour-yokohama" --decklists --player "Chanon Puttaree"
-
-# Player's round-by-round journey
-fab-cli fabtcg coverage "pro-tour-yokohama" --path "Andrew Cook"
-
-# Find a player by partial name
-fab-cli fabtcg coverage "pro-tour-yokohama" --search-player "cook"
+fab-cli fabtcg events --world-tour --with-coverage
+# → shows slug column, e.g. "pro-tour-yokohama", "calling-shanghai"
 ```
 
-Event names can be slugs (`pro-tour-yokohama`) or plain text (`"pro tour yokohama"`).
+Then use the slug:
+
+```bash
+# Index: what rounds and data are available
+fab-cli fabtcg coverage pro-tour-yokohama
+
+# Hero field breakdown (who brought what)
+fab-cli fabtcg coverage pro-tour-yokohama --field
+
+# Standings at a specific round
+fab-cli fabtcg coverage pro-tour-yokohama --round 15
+fab-cli fabtcg coverage pro-tour-yokohama --round final
+
+# Published decklists (top 8 only)
+fab-cli fabtcg coverage pro-tour-yokohama --decklists
+fab-cli fabtcg coverage pro-tour-yokohama --decklists --player "Chanon Puttaree"
+
+# Player's full round-by-round journey (opponent + result every round)
+fab-cli fabtcg coverage pro-tour-yokohama --path "Andrew Cook"
+
+# Don't know the exact name? Search by partial
+fab-cli fabtcg coverage pro-tour-yokohama --search-player "cook"
+# → if unique match, auto-shows their full path
+```
+
+Event names can be slugs (`pro-tour-yokohama`) or plain text (`"pro tour yokohama"`). Spaces are auto-converted to hyphens.
+
+**Note:** Coverage standings and the `--path` command only cover Swiss rounds. Top-cut bracket results (top 8/4/2) are not published on fabtcg.com results pages.
 
 ---
 
 ## Interesting Things to Try
+
+### Discover what events have live coverage right now
+
+```bash
+fab-cli fabtcg events --world-tour --with-coverage
+# → only shows events with real standings/results data published
+# → use the Slug column directly: fab-cli fabtcg coverage <slug>
+```
 
 ### Who's winning and with what
 
@@ -195,48 +229,95 @@ fab-cli fabrary top --hero prism-awakener-of-sol --format cc --sort winrate --da
 
 # Most-played Oscilio decks with matchup guides
 fab-cli fabrary top --hero oscilio-constella-intelligence --format cc --has-matchups --sort games
+
+# Find a player's decks on Fabrary by name
+fab-cli fabrary search -q "Andrew Cook" --format cc
 ```
 
 ### Deep-dive a specific deck
 
 ```bash
-# Full picture: list + matchup sideboard guides + game stats
-fab-cli fabrary deck <id>
+# Full picture: decklist + matchup sideboard guides + game stats
+fab-cli fabrary deck 01JRX3FA3MD3NH6F0QVZ1D7QSS
 
-# How does this pilot's record break down by going first vs second?
-fab-cli fabrary deck <id> --stats-only
+# Just the decklist
+fab-cli fabrary deck 01JRX3FA3MD3NH6F0QVZ1D7QSS --decklist-only
 
-# What cards does this pilot actually play, block, and pitch?
-fab-cli fabrary deck <id> --stats-only
-# → "Actions Taken With Cards" table shows seen/blocked/pitched/played per card
+# Just the matchup guides (what to swap in/out per opponent)
+fab-cli fabrary deck 01JRX3FA3MD3NH6F0QVZ1D7QSS --matchups-only
+
+# Game stats: going first vs second, avg turns, card usage breakdown
+fab-cli fabrary deck 01JRX3FA3MD3NH6F0QVZ1D7QSS --stats-only
+
+# One specific matchup guide
+fab-cli fabrary deck 01JRX3FA3MD3NH6F0QVZ1D7QSS --matchup "oscilio"
 ```
 
 ### Track a player through a tournament
 
 ```bash
-# Full round-by-round journey with opponents and heroes
-fab-cli fabtcg coverage "pro-tour-yokohama" --path "Franciszek Sapikowski"
+# Full round-by-round journey: opponents, heroes, results
+fab-cli fabtcg coverage pro-tour-yokohama --path "Franciszek Sapikowski"
 
-# Dual-format events show CC and SA heroes separately,
-# with a "Playing" column when heroes differ per round
-fab-cli fabtcg coverage "pro-tour-yokohama" --path "Chanon Puttaree"
+# At dual-format events (CC + SA), the header shows both heroes
+# and a "Playing" column appears per round showing what they piloted
+fab-cli fabtcg coverage pro-tour-yokohama --path "Chanon Puttaree"
 
-# Don't know the exact name? Search by partial name
-fab-cli fabtcg coverage "pro-tour-yokohama" --search-player "puttaree"
+# Don't know the exact name? Partial search — auto-runs path if unique match
+fab-cli fabtcg coverage pro-tour-yokohama --search-player "puttaree"
 ```
 
-### Hero field at an event
+### Hero field and standings at an event
 
 ```bash
-# What heroes showed up and in what numbers?
-fab-cli fabtcg coverage "pro-tour-yokohama" --field
+# Who brought what — hero counts and percentages
+fab-cli fabtcg coverage pro-tour-yokohama --field
+
+# Final standings
+fab-cli fabtcg coverage pro-tour-yokohama --round final
+
+# Mid-swiss standings (e.g. after round 10)
+fab-cli fabtcg coverage pro-tour-yokohama --round 10
+```
+
+### Prepare for a specific matchup
+
+```bash
+# What does Prism's matchup spread look like right now?
+fab-cli fabrary meta --format cc --hero prism-awakener-of-sol
+
+# What's Prism's win rate vs Arakni specifically?
+# → shown in the matchup table from the above command
+
+# Who are the top Arakni players on Fabrary and how do their lists differ?
+fab-cli fabrary top --hero arakni-marionette --format cc --sort winrate --days 30
 ```
 
 ### Meta shift for a Calling
 
 ```bash
 # How does the meta look if Oscilio's weapon gets banned?
+fab-cli fabrary meta-shift --format cc --ban oscilio-constella-intelligence
+
+# Filter to only heroes you can play
 fab-cli fabrary meta-shift --format cc --ban oscilio-constella-intelligence --my-classes guardian,illusionist,warrior,brute,wizard
+
+# Period comparison: 7d trend vs 30d baseline
+fab-cli fabrary meta --format cc --period 7d   # recent
+fab-cli fabrary meta --format cc --period 30d  # baseline
+```
+
+### Card collection research
+
+```bash
+# All Majestic Light cards legal in CC
+fab-cli fabrary cards search "t:Action --talent Light --legal cc r:Majestic"
+
+# Every full art printing of a card
+fab-cli fabrary cards search "fyendals spring tunic" --treatment "Full Art"
+
+# Rainbow foil cards from a specific set
+fab-cli fabrary cards search "t:Equipment --set 'Dusk till Dawn' --foiling Rainbow" -d
 ```
 
 ---
@@ -274,6 +355,6 @@ fab-cli fabrary meta-shift [--format <fmt>] [--ban <id>...] [--nerf <id>...] [--
 fab-cli fabrary login
 fab-cli fabrary auth <token>
 
-fab-cli fabtcg events [--world-tour] [--upcoming] [--format <fmt>]
-fab-cli fabtcg coverage <event> [--round <n|final>] [--field] [--decklists] [--player <name>] [--path <name>] [--search-player <name>]
+fab-cli fabtcg events [--world-tour] [--upcoming] [--with-coverage] [--year <n>] [--format <fmt>]
+fab-cli fabtcg coverage <slug> [--round <n|final>] [--field] [--decklists] [--player <name>] [--path <name>] [--search-player <name>]
 ```
