@@ -12,3 +12,6 @@ Thumbs.db
 .vscode/
 *.suo
 *.user
+
+# Python venv for image/QR generation (recreatable — see skill SKILL.md)
+.venv-img/

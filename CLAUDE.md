@@ -16,6 +16,8 @@ src/cognito.ts      — Cognito login + token refresh
 src/types.ts        — Shared TypeScript interfaces
 src/meta.ts         — Meta results from content.fabrary.net (hero win rates, period discovery)
 src/fabtcg.ts       — fabtcg.com: events, tournament coverage, decklists, standings
+
+scripts/best-decks-by-hero.ts — Reusable batch report: best N decks per hero for a format
 ```
 
 ## Dev & Install
@@ -72,6 +74,8 @@ Hero identifiers use slug format, e.g. `vynnset-iron-maiden`, `prism-awakener-of
 fab-cli fabrary heroes --filter "<name>"   # lists all matching slugs + deck counts
 ```
 Heroes have **young** (Blitz/SA) and **adult** (CC) versions with different slugs. Always use the adult slug for CC queries. Example: `puffin` (young, SA) vs `puffin-hightail` (adult, CC). The `heroes` command lists both variants.
+
+**"Sage" = Silver Age (the user's shorthand for "SA").** When the user says "Sage" they mean the **Silver Age format** (`--format sa`), NOT a hero class — there is no Sage class (e.g. Enigma is class Illusionist / talent Mystic). Silver Age is a **young-hero-only format**, which is why "sage only uses young heroes." So "best Sage X decks" → use the young slug (`enigma`, not `enigma-ledger-of-ancestry`) with `--format sa`, and "heroes valid in Sage" → heroes with Silver Age play data (see `fab-cli fabrary meta --format sa`).
 
 ### Card Search
 
@@ -170,6 +174,23 @@ The command auto-converts spaces to hyphens and falls back to WP API search if t
 - When a player's hero changes across formats, a "Playing" column appears in the round table showing what they piloted each round
 - `--search-player` uses round 1 (CC) pairings to find players — the hero shown there is their CC deck. Their SA deck appears in the path output.
 - Pro Tour Yokohama (April 2025) was one of the first dual-format events with Silver Age. Format split: R1–5 CC → R6–11 SA → R12–18 CC → Top 8 CC.
+
+## Batch Deck Analysis — Best Decks Per Hero
+
+For "best N decks per hero valid in <format>" (e.g. "best 3 Sage decks per hero with win/loss/draw + games"), use the reusable script — do NOT hand-roll it each time:
+
+```bash
+npx tsx scripts/best-decks-by-hero.ts --format sa --min-games 30 --top 3 --out whatsapp
+npx tsx scripts/best-decks-by-hero.ts --format sa --top 3 --out json   # raw data for further processing
+```
+
+- `--format` accepts the usual aliases (`cc`, `sa`/`sage`, `blitz`, `ll`, `upf`). Remember **"Sage" = Silver Age (`sa`)**.
+- Heroes are derived from the Algolia `heroIdentifier` facet **within that format** (this is the correct "heroes valid in <format>" list — do NOT use meta-result slugs, which don't always match Algolia's `heroIdentifier`, e.g. `dorinthea` vs `dorinthea-ironsong`).
+- Per deck it reports `W-L-D · win% · games`; `win% = wins/(wins+losses)`, draws excluded from win%. Default filter `--min-games 30` drops tiny-sample flukes; bump to `--min-games 100` to cut noise further.
+- `--out whatsapp` emits plain text with `*bold*` hero names and links (no markdown tables) — paste-ready for WhatsApp, split into ~15–20-hero batches when sending.
+- Heroes with no deck meeting `--min-games` are omitted from output.
+
+**Rate limiting (AppSync WAF):** fetching results for hundreds of decks in a burst trips AWS WAF — you get `GraphQL HTTP error: 403` even with a **valid, unexpired** token. It is NOT a token/expiry problem (don't re-login). The script already mitigates with low concurrency (4), retry/backoff, and per-hero delays. If you still hit sustained 403s, the cooldown is a few minutes (~2–3 min observed) — probe a single `getDeckResults` in a loop until it succeeds, then re-run. Keep concurrency low; do not raise it.
 
 ## In-Session Tournament Analysis
 
@@ -288,6 +309,7 @@ These are common ways the user asks for things — translate them to the right C
 | "find player X on Fabrary" | `fab-cli fabrary search -q "<name>" [--format cc]` |
 | "best Prism lists / top lists for hero X" | `fab-cli fabrary top --hero <id> --format cc --sort winrate [--days N]` |
 | "compare these decks / meta evolution" | fetch each with `deck --decklist-only`, compare equipment + main + inventory |
+| "best N decks per hero (valid) in <format>" / "best Sage decks per hero" | `npx tsx scripts/best-decks-by-hero.ts --format <fmt> --min-games 30 --top N --out whatsapp` (Sage = `sa`) |
 | "Talishar lists for hero X" | `fab-cli fabrary top --hero <id> --source Talishar` — note: returns empty if those decks log no Talishar results |
 
 ## APIs
