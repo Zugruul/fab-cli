@@ -1,3 +1,4 @@
 [submodule "fablore"]
 	path = third_party/fablore
 	url = https://github.com/nathaneastwood/fablore
+	ignore = dirty
