@@ -15,7 +15,11 @@ export const SUBMODULE_DIR = path.join(REPO_ROOT, "third_party", "fablore");
 export const SRC_DIR = path.join(SUBMODULE_DIR, "src");
 export const LORE_DIR = path.join(REPO_ROOT, "lore");
 export const INDEX_PATH = path.join(LORE_DIR, "index.json");
+export const STATE_PATH = path.join(LORE_DIR, ".sync-state.json");
 export const SITE_BASE = "https://legendarystories.net";
+
+// How long to trust the last upstream pull before auto-refreshing (env override).
+export const SYNC_TTL_MS = Number(process.env.FAB_LORE_TTL_MS) || 24 * 60 * 60 * 1000;
 
 // SUMMARY.md and browse.md are navigation, not lore content.
 const SKIP_FILES = new Set(["SUMMARY.md", "browse.md"]);
@@ -47,11 +51,26 @@ export function submoduleCommit(): string {
   try { return git(["rev-parse", "HEAD"], SUBMODULE_DIR); } catch { return ""; }
 }
 
+interface SyncState { lastPullAt?: number }
+function readState(): SyncState {
+  try { return JSON.parse(fs.readFileSync(STATE_PATH, "utf8")); } catch { return {}; }
+}
+function writeState(s: SyncState): void {
+  try { fs.mkdirSync(LORE_DIR, { recursive: true }); fs.writeFileSync(STATE_PATH, JSON.stringify(s)); } catch { /* ignore */ }
+}
+
+/** True when the last successful upstream pull is older than the TTL (or never). */
+export function isPullStale(ttlMs = SYNC_TTL_MS): boolean {
+  const { lastPullAt } = readState();
+  return !lastPullAt || Date.now() - lastPullAt > ttlMs;
+}
+
 /** Pull the latest upstream lore into the submodule. Tolerant of being offline. */
 export function updateSubmodule(): { updated: boolean; commit: string; error?: string } {
   const before = submoduleCommit();
   try {
     git(["submodule", "update", "--remote", "--init", "third_party/fablore"]);
+    writeState({ lastPullAt: Date.now() });
     const after = submoduleCommit();
     return { updated: before !== after, commit: after };
   } catch (e) {
@@ -185,16 +204,19 @@ export function loadIndex(): LoreIndex | null {
 }
 
 /**
- * Ensure the index reflects current lore. If `update`, pull upstream first.
+ * Ensure the index reflects current lore. `update` controls the upstream pull:
+ *   true   — always pull   ·   false — never pull   ·   "auto" — pull only if stale (TTL)
  * Rebuilds the index when missing or when the submodule commit changed.
  */
-export function ensureIndex(opts: { update?: boolean; emitOkf?: boolean } = {}): {
-  index: LoreIndex; rebuilt: boolean; pulled: boolean; offline?: string;
+export function ensureIndex(opts: { update?: boolean | "auto"; emitOkf?: boolean; ttlMs?: number } = {}): {
+  index: LoreIndex; rebuilt: boolean; pulled: boolean; skipped: boolean; offline?: string;
 } {
   let offline: string | undefined;
-  if (opts.update) {
+  let pulled = false;
+  const wantPull = opts.update === "auto" ? isPullStale(opts.ttlMs) : !!opts.update;
+  if (wantPull) {
     const r = updateSubmodule();
-    if (r.error) offline = r.error;
+    if (r.error) offline = r.error; else pulled = true;
   }
   const current = submoduleCommit();
   let index = loadIndex();
@@ -203,7 +225,7 @@ export function ensureIndex(opts: { update?: boolean; emitOkf?: boolean } = {}):
     index = buildIndex({ emitOkf: opts.emitOkf });
     rebuilt = true;
   }
-  return { index, rebuilt, pulled: !!opts.update && !offline, offline };
+  return { index, rebuilt, pulled, skipped: opts.update === "auto" && !wantPull, offline };
 }
 
 // ── search ──────────────────────────────────────────────────────────────────

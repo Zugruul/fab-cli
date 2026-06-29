@@ -9,7 +9,9 @@
   "scripts": {
     "start": "tsx src/cli.ts",
     "build": "tsc",
-    "dev": "tsx src/cli.ts"
+    "dev": "tsx src/cli.ts",
+    "postinstall": "node scripts/postinstall.mjs",
+    "lore:sync": "tsx src/cli.ts lore sync"
   },
   "keywords": [],
   "author": "",

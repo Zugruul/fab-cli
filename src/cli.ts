@@ -909,12 +909,15 @@ lore
   .command("search <query...>")
   .description("Search the lore; results link to their legendarystories.net source")
   .option("-n, --limit <n>", "Max results", int, 8)
-  .option("--no-sync", "Don't refresh the submodule first (faster, offline)")
+  .option("--no-sync", "Don't refresh the submodule (offline)")
+  .option("--force-sync", "Refresh upstream now even if recently synced")
   .option("--include-archive", "Also search archive/ (older, possibly non-canon lore)")
-  .action((parts: string[], opts: { limit: number; sync: boolean; includeArchive?: boolean }) => {
+  .action((parts: string[], opts: { limit: number; sync: boolean; forceSync?: boolean; includeArchive?: boolean }) => {
     const query = parts.join(" ");
-    if (opts.sync) process.stdout.write(chalk.dim("Refreshing lore…\r"));
-    const { index, offline } = ensureIndex({ update: opts.sync });
+    // Default: throttled auto-refresh (pull only if older than the TTL). --no-sync skips; --force-sync forces.
+    const updateMode: boolean | "auto" = opts.sync === false ? false : opts.forceSync ? true : "auto";
+    if (updateMode) process.stdout.write(chalk.dim("Refreshing lore…\r"));
+    const { index, offline } = ensureIndex({ update: updateMode });
     process.stdout.write("                    \r");
     if (offline) console.log(chalk.yellow("(offline — searching last synced lore)\n"));
     const hits = searchLore(index, query, { limit: opts.limit, includeArchive: opts.includeArchive });

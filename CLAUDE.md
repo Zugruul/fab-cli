@@ -322,18 +322,20 @@ These are common ways the user asks for things — translate them to the right C
 Flesh & Blood story/lore lives in the **`third_party/fablore`** git submodule (the mdBook source behind https://legendarystories.net). `src/lore.ts` builds a retrieval index + OKF files from it; `fab-cli lore` exposes it.
 
 ```bash
-fab-cli lore sync                       # update submodule + rebuild index + OKF (lore/**.md)
+fab-cli lore sync                       # force-update submodule + rebuild index + OKF (lore/**.md)
 fab-cli lore sync --no-update           # rebuild from current submodule (offline)
-fab-cli lore search <query...>          # search; refreshes submodule first, prints source URLs + snippets
-fab-cli lore search <query...> --no-sync  # search without the upstream refresh (faster/offline)
+fab-cli lore search <query...>          # search; auto-refreshes upstream if stale (>24h), prints source URLs
+fab-cli lore search <query...> --force-sync  # refresh upstream now regardless of TTL
+fab-cli lore search <query...> --no-sync     # search without any upstream refresh (offline)
 fab-cli lore show <path|slug|title>     # print a lore page + its source URL
 fab-cli lore list [--section <s>] [--filter <text>]
 ```
 
 - Path → source URL mapping: `src/<rel>.md` → `https://legendarystories.net/<rel>.html`.
-- `lore search` calls `git submodule update --remote` first so results reflect the latest upstream lore (tolerant of being offline — falls back to the last synced copy).
-- OKF frontmatter: `title`, `source_url`, `section`, `headings`, `fablore_commit`. `lore/index.json` is a rebuildable cache (git-ignored).
-- Update the pinned submodule with `fab-cli lore sync` (or `git submodule update --remote third_party/fablore`), then commit the submodule bump.
+- **Periodic refresh:** `lore search` auto-pulls upstream **only when stale** — older than `SYNC_TTL_MS` (default 24h, override via env `FAB_LORE_TTL_MS`). Last-pull time is tracked in `lore/.sync-state.json` (git-ignored). So routine searches are instant/offline; the source of knowledge refreshes itself ~daily. `--force-sync` pulls now; `--no-sync` never pulls.
+- **On install:** the `postinstall` hook (`scripts/postinstall.mjs`) runs `git submodule update --init --recursive`, so the fablore submodule is initialized/updated whenever the package is installed (best-effort; no-ops outside a git checkout). The index builds lazily on first `lore` command.
+- OKF frontmatter: `title`, `source_url`, `section`, `headings`, `fablore_commit`. `lore/index.json` + `lore/.sync-state.json` are rebuildable caches (git-ignored).
+- To bump the *committed* submodule pin: `fab-cli lore sync` then commit the submodule change.
 
 **Invocation:** `fab-cli` is `npm link`ed to this repo, so `fab-cli lore …` and `node bin/fab.js lore …` run the same code — either works. Lore reads files relative to the repo (submodule + `lore/`), so run it from anywhere; it doesn't need auth. If `fab-cli` isn't on PATH in a given shell (e.g. a different nvm node version), fall back to `node bin/fab.js lore …` from the repo root.
 
