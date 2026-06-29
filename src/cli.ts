@@ -37,6 +37,7 @@ import { findFabraryDeck } from "./algolia";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
+import { ensureIndex, buildIndex, loadIndex, search as searchLore, findDoc, readDocBody, updateSubmodule } from "./lore";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
 
 const program = new Command();
@@ -876,6 +877,82 @@ function filterByDays(decks: AlgoliaDeck[], days: number): AlgoliaDeck[] {
   const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
   return decks.filter((d) => new Date(d.updatedAt).getTime() >= cutoff);
 }
+
+// ─── lore ──────────────────────────────────────────────────────────────────
+
+const lore = program
+  .command("lore")
+  .description("Flesh & Blood lore from legendarystories.net (fablore submodule)");
+
+lore
+  .command("sync")
+  .description("Update the fablore submodule and rebuild the lore index + OKF files")
+  .option("--no-update", "Skip pulling upstream; just rebuild from the current submodule")
+  .option("--no-okf", "Skip writing OKF markdown files (index only)")
+  .action((opts: { update: boolean; okf: boolean }) => {
+    let offline: string | undefined;
+    if (opts.update) {
+      process.stdout.write(chalk.dim("Updating fablore submodule…\r"));
+      const r = updateSubmodule();
+      offline = r.error;
+    }
+    process.stdout.write(chalk.dim("Building lore index…              \r"));
+    const index = buildIndex({ emitOkf: opts.okf });
+    process.stdout.write("                                   \r");
+    if (offline) console.log(chalk.yellow(`Could not pull upstream (${offline.split("\n")[0]}); used current submodule.`));
+    else if (opts.update) console.log(chalk.green("Submodule up to date with upstream."));
+    console.log(`Indexed ${chalk.bold(String(index.count))} lore documents @ ${chalk.dim(index.commit.slice(0, 7))}`);
+    console.log(chalk.dim(`Index: lore/index.json${opts.okf ? "  ·  OKF: lore/**.md" : ""}`));
+  });
+
+lore
+  .command("search <query...>")
+  .description("Search the lore; results link to their legendarystories.net source")
+  .option("-n, --limit <n>", "Max results", int, 8)
+  .option("--no-sync", "Don't refresh the submodule first (faster, offline)")
+  .action((parts: string[], opts: { limit: number; sync: boolean }) => {
+    const query = parts.join(" ");
+    if (opts.sync) process.stdout.write(chalk.dim("Refreshing lore…\r"));
+    const { index, offline } = ensureIndex({ update: opts.sync });
+    process.stdout.write("                    \r");
+    if (offline) console.log(chalk.yellow("(offline — searching last synced lore)\n"));
+    const hits = searchLore(index, query, opts.limit);
+    if (!hits.length) { console.log(chalk.yellow(`No lore found for "${query}".`)); return; }
+    console.log(chalk.dim(`\n  ${hits.length} result(s) for "${query}"  ·  source: legendarystories.net\n`));
+    for (const h of hits) {
+      console.log(`  ${chalk.bold(h.title)}  ${chalk.dim("[" + h.section + "]")}`);
+      console.log(`  ${chalk.cyan(h.sourceUrl)}`);
+      console.log(`  ${chalk.dim(h.snippet)}\n`);
+    }
+  });
+
+lore
+  .command("show <key...>")
+  .description("Print a lore document (by path, slug, or title) + its source URL")
+  .action((parts: string[]) => {
+    const index = loadIndex();
+    if (!index) { console.log(chalk.yellow("No index yet — run: fab-cli lore sync")); return; }
+    const doc = findDoc(index, parts.join(" "));
+    if (!doc) { console.log(chalk.yellow(`No lore page matching "${parts.join(" ")}".`)); return; }
+    console.log(chalk.bold(`\n  ${doc.title}`));
+    console.log(`  ${chalk.cyan(doc.sourceUrl)}\n`);
+    console.log(readDocBody(doc.path));
+  });
+
+lore
+  .command("list")
+  .description("List lore documents")
+  .option("-s, --section <name>", "Filter by section (e.g. heroes-of-rathe)")
+  .option("-q, --filter <text>", "Filter by title substring")
+  .action((opts: { section?: string; filter?: string }) => {
+    const index = loadIndex();
+    if (!index) { console.log(chalk.yellow("No index yet — run: fab-cli lore sync")); return; }
+    let docs = index.docs;
+    if (opts.section) docs = docs.filter((d) => d.section === opts.section);
+    if (opts.filter) docs = docs.filter((d) => d.title.toLowerCase().includes(opts.filter!.toLowerCase()));
+    for (const d of docs) console.log(`  ${chalk.bold(d.title)}  ${chalk.dim(d.path)}`);
+    console.log(chalk.dim(`\n  ${docs.length} document(s)`));
+  });
 
 program.parseAsync(process.argv).catch((err: Error) => {
   console.error(chalk.red(`Error: ${err.message}`));

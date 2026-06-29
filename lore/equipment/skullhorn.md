@@ -1,0 +1,11 @@
+---
+title: "Skullhorn"
+source_url: https://legendarystories.net/equipment/skullhorn.html
+section: equipment
+headings: []
+fablore_commit: 92f74367e25b553b922b1fc0cf6ef61570523058
+---
+
+In the depths of the jungle, the remnants of campsites lie scattered amongst the trees, scraps of fabric clinging to battered skeletons. Between the broken standards and shredded packs, pieces of metal gleam in the faint light, attracting nearby scavengers. In a small clearing, amidst the grime and the mud, a polished skull lies forgotten, languishing in the dark. Its seared markings bear the scorch of aether, an anomaly accompanied by a tuft of silver fur, eye sockets flashing scarlet in the undergrowth.
+
+<img src="https://d2hl7maqck52px.cloudfront.net/equipment/skullhorn.webp" alt="skullhorn" class="center" />

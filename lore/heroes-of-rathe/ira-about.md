@@ -1,0 +1,23 @@
+---
+title: "Ira"
+source_url: https://legendarystories.net/heroes-of-rathe/ira-about.html
+section: heroes-of-rathe
+headings:
+  - "Ira, Crimson Haze"
+fablore_commit: 92f74367e25b553b922b1fc0cf6ef61570523058
+---
+
+# Ira, Crimson Haze
+
+<video width="100%" height="100%" controls autoplay muted loop playsinline>
+  <source src="https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/ira.mp4" type="video/mp4">
+</video>
+
+Ira was born in the idyllic Valley of Blossoms, the youngest child of the leader of the [Ikaru](~Ikaru) Clan. Raised in a loving family, she was a mischievous and free-spirited child, often dragging her brothers into trouble as they struggled to keep an eye on their unruly younger sister. One night, a swarm of grotesque creatures descended upon their village, resulting in the massacre of her family and most of her clan.
+
+Consumed by the need for vengeance, Ira founded the Crimson Haze Rebels, a vigilante group of survivors and sympathisers from across Misteria. Once a playful child, Ira has transformed into a hardened and ruthless warrior, loyal only to her fellow Rebels, and relentless in her quest for retribution.
+
+:::hero-trait Relentless Retribution
+![Relentless Retribution](https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/relentless-retribution.webp)
+On a mission to avenge the ransacking of her ancestral village, Ira relentlessly pursues those who may lead her to the culprits. Punish those who stand in the way of the truth with a torrent of go again attacks and devastating chain-enders.
+:::

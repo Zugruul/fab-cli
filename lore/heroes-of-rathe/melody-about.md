@@ -1,0 +1,32 @@
+---
+title: "Melody"
+source_url: https://legendarystories.net/heroes-of-rathe/melody-about.html
+section: heroes-of-rathe
+headings:
+  - "Melody, Sing-along"
+fablore_commit: 92f74367e25b553b922b1fc0cf6ef61570523058
+---
+
+# Melody, Sing-along
+
+<video width="100%" height="100%" controls autoplay muted loop playsinline>
+  <source src="https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/melody.mp4" type="video/mp4">
+</video>
+
+Melody searches through aged ruins and primal vaults, listening for songs that might soothe the growing dissonance in her beloved Aria.
+
+Ever the restless minstrel, she travels far and wide, following the fractures of strife that she hears in the Flow. Along these acoustic trails, Melody tracks down the most ancient of tunes so that she might share her growing collection with those who need them most.
+
+In concert, Melody is a delight to behold. Her nimble fingers dance across the board, capable of both tender touch and blurring speed. With string and bow, she draws forth the most sonorous notes and stirring tones. Her audiences are lifted beyond their worries and woes, harmonized in body and mind, flesh and soul. Her venerable songs transport them to happier times-when Aria was safe and sound.
+
+Asking for nothing but a few coppers to sustain her travels, Melody continues to seek out her compositions and perform them to one and all. She will not take her final bow until history's most precious pieces are once again sung throughout the land. She will not stop until harmony is restored to Aria.
+
+:::hero-trait Show of a Lifetime
+![Show of a Lifetime](https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/show-of-a-lifetime.webp)
+Melody has long planned to cement her legacy as one of the greatest entertainers Rathe has ever seen, and has been saving copper to put on a performance worthy of legend. Her Final Act will be one everyone is sure to talk about for years to come-for better or worse!
+:::
+
+:::hero-trait Doesn't Work for Exposure
+![Doesn't Work for Exposure](https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/doesnt-work-for-exposure.webp)
+Melody is always ready to brighten the mood with one of her finest tunes, but you can be absolutely sure she's collecting copper for her efforts. It's best you respect her when she's on stage, she's been known to smash her lute across the head of heckling audience members.
+:::

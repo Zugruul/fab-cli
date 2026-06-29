@@ -1,0 +1,11 @@
+---
+title: "Mandible Claw"
+source_url: https://legendarystories.net/weapons/mandible-claw.html
+section: weapons
+headings: []
+fablore_commit: 92f74367e25b553b922b1fc0cf6ef61570523058
+---
+
+In the fiery badlands, predators stalk the ashen plains, as volatile as the landscape in which they roam. Here, the only option is to kill, or be killed. Jungle creatures clash with lava beasts in a battle to survive, blood spilling across the barren earth. In this fierce warfare, claws and fangs are their only weapons, and those born without will quickly learn to make do.
+
+<img src="https://d2hl7maqck52px.cloudfront.net/weapons/mandible-claw.webp" alt="mandible-claw" class="center">

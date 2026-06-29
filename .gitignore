@@ -15,3 +15,6 @@ Thumbs.db
 
 # Python venv for image/QR generation (recreatable — see skill SKILL.md)
 .venv-img/
+
+# Lore retrieval index — rebuilt from the fablore submodule via `fab-cli lore sync`
+lore/index.json

@@ -1,0 +1,42 @@
+---
+title: "Uzuri"
+source_url: https://legendarystories.net/heroes-of-rathe/uzuri-about.html
+section: heroes-of-rathe
+headings:
+  - "Uzuri, Switchblade"
+fablore_commit: 92f74367e25b553b922b1fc0cf6ef61570523058
+---
+
+# Uzuri, Switchblade
+
+<video width="100%" height="100%" controls autoplay muted loop playsinline>
+  <source src="https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/uzuri.mp4" type="video/mp4">
+</video>
+
+Few dare challenge the Boss.
+
+Unless they want a contract on their head.
+
+Unless they want to be slaughtered by her nestlings, their dismembered body left out for the dregs in a cavern down below.
+
+The daughter of a merchant mother and gangster father, Uzuri grew up with one foot in each world, her mind armed with the tricks of both trades.
+
+With her history torn between Metrix and Misteria, Uzuri chose the path less traditional into the gangland underbelly of the Pits, where chaos and order collude over organized crimes.
+
+Her only allegiance lies with the mysterious Spider and its interlacing web of contract killers. For the right price, Uzuri is the mastermind; an assassin of remarkable skill who makes the mark and secures their demise. Tidy is how she likes it. No loose ends.
+
+Uzuri's tactics are always one step ahead, and her weapons easily supplanted for another in the blink of an eye. She pictures every pathway, predicts every consequence, and uses this ability to weave the threads-like a boss.
+
+Uzuri understands that information is the foundation upon which any good strategy is built, and one should never pen a contract on the flip of a blood-soaked coin.
+
+She's at the top of her game, and no-one will ever play it better.
+
+:::hero-trait Switchblade
+![Switchblade](https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/uzuri-switchblade.webp)
+Danger lurks around every corner and it always pays to have an extra trick up your sleeve. Uzuri can switch tactics mid-battle and take out her targets before they even realize they've made a fatal mistake.
+:::
+
+:::hero-trait Stealth
+![Stealth](https://d2hl7maqck52px.cloudfront.net/heroes-of-rathe/stealth.webp)
+Stealth alone is nothing, but in the hands of a trained Assassin, it is everything. Stealth is a keyword found on certain Assassin cards that can enable powerful effects when combined with the right tools. Master the art of stealth to get the job done quickly and quietly. No fuss, no muss.
+:::

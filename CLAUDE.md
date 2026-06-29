@@ -16,8 +16,12 @@ src/cognito.ts      — Cognito login + token refresh
 src/types.ts        — Shared TypeScript interfaces
 src/meta.ts         — Meta results from content.fabrary.net (hero win rates, period discovery)
 src/fabtcg.ts       — fabtcg.com: events, tournament coverage, decklists, standings
+src/lore.ts         — F&B lore KB: index/search/OKF from the fablore submodule
 
 scripts/best-decks-by-hero.ts — Reusable batch report: best N decks per hero for a format
+
+third_party/fablore — git submodule: legendarystories.net source (mdBook markdown)
+lore/               — generated OKF (markdown + frontmatter); index.json is git-ignored
 ```
 
 ## Dev & Install
@@ -310,7 +314,34 @@ These are common ways the user asks for things — translate them to the right C
 | "best Prism lists / top lists for hero X" | `fab-cli fabrary top --hero <id> --format cc --sort winrate [--days N]` |
 | "compare these decks / meta evolution" | fetch each with `deck --decklist-only`, compare equipment + main + inventory |
 | "best N decks per hero (valid) in <format>" / "best Sage decks per hero" | `npx tsx scripts/best-decks-by-hero.ts --format <fmt> --min-games 30 --top N --out whatsapp` (Sage = `sa`) |
+| lore / story question ("who is X", "what is the Demonastery", "Arakni's origin") | `fab-cli lore search "<terms>"` + `lore show <page>`; answer ONLY from results, cite each `source_url`, never use memory |
 | "Talishar lists for hero X" | `fab-cli fabrary top --hero <id> --source Talishar` — note: returns empty if those decks log no Talishar results |
+
+## Lore (legendarystories.net / fablore)
+
+Flesh & Blood story/lore lives in the **`third_party/fablore`** git submodule (the mdBook source behind https://legendarystories.net). `src/lore.ts` builds a retrieval index + OKF files from it; `fab-cli lore` exposes it.
+
+```bash
+fab-cli lore sync                       # update submodule + rebuild index + OKF (lore/**.md)
+fab-cli lore sync --no-update           # rebuild from current submodule (offline)
+fab-cli lore search <query...>          # search; refreshes submodule first, prints source URLs + snippets
+fab-cli lore search <query...> --no-sync  # search without the upstream refresh (faster/offline)
+fab-cli lore show <path|slug|title>     # print a lore page + its source URL
+fab-cli lore list [--section <s>] [--filter <text>]
+```
+
+- Path → source URL mapping: `src/<rel>.md` → `https://legendarystories.net/<rel>.html`.
+- `lore search` calls `git submodule update --remote` first so results reflect the latest upstream lore (tolerant of being offline — falls back to the last synced copy).
+- OKF frontmatter: `title`, `source_url`, `section`, `headings`, `fablore_commit`. `lore/index.json` is a rebuildable cache (git-ignored).
+- Update the pinned submodule with `fab-cli lore sync` (or `git submodule update --remote third_party/fablore`), then commit the submodule bump.
+
+### Answering lore questions — NEVER hallucinate, ALWAYS cite
+
+When the user asks a lore/story question, answer **only** from the fablore content, never from training-data memory:
+1. Run `fab-cli lore search "<key terms>"` (and `fab-cli lore show <page>` to read the full passage).
+2. Base every claim strictly on the returned text. If the archive doesn't cover it, say so — do not fill gaps from memory.
+3. **Cite the `source_url`** (the legendarystories.net link) for each claim/page you draw from.
+4. Quote or closely paraphrase; if sources conflict or are ambiguous, surface that rather than resolving it invisibly.
 
 ## APIs
 

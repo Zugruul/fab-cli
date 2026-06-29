@@ -1,0 +1,99 @@
+---
+title: "The Hunted"
+source_url: https://legendarystories.net/flavour/the-hunted.html
+section: flavour
+headings:
+  - "The Hunted"
+  - "Affirm Loyalty - (HNT103)"
+  - "Demonstrate Devotion - (HNT059)"
+  - "Den of the Spider - (HNT214)"
+  - "Display Loyalty - (HNT060)"
+  - "Dynastic Dedication - (HNT108)"
+  - "Endear Devotion - (HNT104)"
+  - "For the Dracai - (HNT158)"
+  - "For the Emperor - (HNT159)"
+  - "For the Realm - (HNT160)"
+  - "Hot on Their Heels - (HNT067)"
+  - "Hunt the Hunter - (HNT161)"
+  - "Hunt's End - (HNT101)"
+  - "Hunted or Hunter - (HNT052)"
+  - "Imperial Intent - (HNT109)"
+  - "Lair of the Spider - (HNT191)"
+  - "Loyalty Beyond the Grave - (HNT150)"
+  - "March of Loyalty - (HNT153)"
+  - "Mark with Magma - (HNT069)"
+  - "Pledge Fealty - (HNT164)"
+  - "Proclaim Vengeance - (HNT165)"
+  - "Rake Over the Coals - (HNT156)"
+  - "Sworn Vengeance - (HNT140)"
+fablore_commit: 92f74367e25b553b922b1fc0cf6ef61570523058
+---
+
+# The Hunted
+
+#### Affirm Loyalty - (HNT103)
+We obey the Emperor. With blood and blade we commit at his command." - [Alshoni](~Alshoni) Mantra
+
+#### Demonstrate Devotion - (HNT059)
+"My heart for the Emperor. My blood for his Dynasty." - Alshoni Mantra
+
+#### Den of the Spider - (HNT214)
+"Our [Dracai](~Dracai) overlords have overlooked the Pits for too long." - Vail the Vagrant
+
+#### Display Loyalty - (HNT060)
+"Whether with hidden dagger or drawn sword, the battle is the same." - Captain Juka
+
+#### Dynastic Dedication - (HNT108)
+"My reign is the wildfire. The dynasty is the eternal flame." - The Emperor
+
+#### Endear Devotion - (HNT104)
+"Our sacrifice for the Dragon. Our service for the Dracai." - Alshoni Mantra
+
+#### For the Dracai - (HNT158)
+"To serve the Dracai is to honor the blood of the dragon." - Sayashi Cara
+
+#### For the Emperor - (HNT159)
+"To serve our Emperor is to fear him. And in fear the people of Volcor shall obey." - [Chiyo](~Chiyo)
+
+#### For the Realm - (HNT160)
+"To serve the Alshoni is to serve the dynasty, our only hope for peace in Volcor." - Magistrate Chen
+
+#### Hot on Their Heels - (HNT067)
+"Dust Runners? Let's see if they're as fast as they claim." - Sayashi Cara
+
+#### Hunt the Hunter - (HNT161)
+"To bait a spider you need an enticing fly." - Cindra
+
+#### Hunt's End - (HNT101)
+"It's the end of the road, traitor." - Fang
+
+#### Hunted or Hunter - (HNT052)
+"Daily we sweep the streets, yet still the rats crawl up from the Pits." - Yoji
+
+#### Imperial Intent - (HNT109)
+"In secret, we built our strength, hidden from [Ezu](~Ezu) meddling. Now is the time for vengeance." - [Taipanis](../heroes-of-rathe/other.md#taipanis-dracai-of-judgement)
+
+#### Lair of the Spider - (HNT191)
+"Fevered [Volcai](~Volcai). Frightened Dracai. A great corruption has ensared the south." - General Nakami
+
+#### Loyalty Beyond the Grave - (HNT150)
+"We burned with shame. Now the land shall burn with vengeance." - Emperor's Eulogy
+
+#### March of Loyalty - (HNT153)
+"Whatever vermin we find on the Obsidian Coast, we'll grind under our heels." - Fang
+
+#### Mark with Magma - (HNT069)
+"The Emperor named us his Sayashi. We hold fast for the hiss with each mark made." - Cindra
+
+#### Pledge Fealty - (HNT164)
+"Children of the Dragon, today we hunt. Today we take back our empire from the traitors within." - Taipanis
+
+#### Proclaim Vengeance - (HNT165)
+"Searing embers upon the page. The Ezu cannot ignore such Alshoni fury." - Dromai
+
+#### Rake Over the Coals - (HNT156)
+The Sayashi Enclave in Deshvahan, where Tetzuo tempers truth in torture.
+
+#### Sworn Vengeance - (HNT140)
+"When they murdered my emperor, they killed my destiny." - Lieutenant Yamada
+
