@@ -229,11 +229,21 @@ export interface LoreHit {
   snippet: string;
 }
 
-export function search(index: LoreIndex, query: string, limit = 8): LoreHit[] {
+/**
+ * Search the lore. By default the `archive/` section is EXCLUDED — it holds older,
+ * superseded story that may no longer be canon. Pass includeArchive to opt in.
+ */
+export function search(
+  index: LoreIndex,
+  query: string,
+  opts: { limit?: number; includeArchive?: boolean } = {}
+): LoreHit[] {
+  const limit = opts.limit ?? 8;
   const terms = [...new Set(tokenize(query))];
   if (!terms.length) return [];
   const hits: LoreHit[] = [];
   for (const d of index.docs) {
+    if (!opts.includeArchive && d.section === "archive") continue;
     const title = d.title.toLowerCase();
     const headings = d.headings.join(" \n ").toLowerCase();
     const text = d.text.toLowerCase();

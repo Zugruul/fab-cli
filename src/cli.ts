@@ -910,15 +910,17 @@ lore
   .description("Search the lore; results link to their legendarystories.net source")
   .option("-n, --limit <n>", "Max results", int, 8)
   .option("--no-sync", "Don't refresh the submodule first (faster, offline)")
-  .action((parts: string[], opts: { limit: number; sync: boolean }) => {
+  .option("--include-archive", "Also search archive/ (older, possibly non-canon lore)")
+  .action((parts: string[], opts: { limit: number; sync: boolean; includeArchive?: boolean }) => {
     const query = parts.join(" ");
     if (opts.sync) process.stdout.write(chalk.dim("Refreshing lore…\r"));
     const { index, offline } = ensureIndex({ update: opts.sync });
     process.stdout.write("                    \r");
     if (offline) console.log(chalk.yellow("(offline — searching last synced lore)\n"));
-    const hits = searchLore(index, query, opts.limit);
+    const hits = searchLore(index, query, { limit: opts.limit, includeArchive: opts.includeArchive });
     if (!hits.length) { console.log(chalk.yellow(`No lore found for "${query}".`)); return; }
-    console.log(chalk.dim(`\n  ${hits.length} result(s) for "${query}"  ·  source: legendarystories.net\n`));
+    const archiveNote = opts.includeArchive ? chalk.yellow("  ·  including archive (may be non-canon)") : chalk.dim("  ·  archive excluded (use --include-archive)");
+    console.log(chalk.dim(`\n  ${hits.length} result(s) for "${query}"  ·  source: legendarystories.net`) + archiveNote + "\n");
     for (const h of hits) {
       console.log(`  ${chalk.bold(h.title)}  ${chalk.dim("[" + h.section + "]")}`);
       console.log(`  ${chalk.cyan(h.sourceUrl)}`);
@@ -944,10 +946,12 @@ lore
   .description("List lore documents")
   .option("-s, --section <name>", "Filter by section (e.g. heroes-of-rathe)")
   .option("-q, --filter <text>", "Filter by title substring")
-  .action((opts: { section?: string; filter?: string }) => {
+  .option("--include-archive", "Include archive/ (older, possibly non-canon lore)")
+  .action((opts: { section?: string; filter?: string; includeArchive?: boolean }) => {
     const index = loadIndex();
     if (!index) { console.log(chalk.yellow("No index yet — run: fab-cli lore sync")); return; }
     let docs = index.docs;
+    if (!opts.includeArchive && opts.section !== "archive") docs = docs.filter((d) => d.section !== "archive");
     if (opts.section) docs = docs.filter((d) => d.section === opts.section);
     if (opts.filter) docs = docs.filter((d) => d.title.toLowerCase().includes(opts.filter!.toLowerCase()));
     for (const d of docs) console.log(`  ${chalk.bold(d.title)}  ${chalk.dim(d.path)}`);

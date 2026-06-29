@@ -335,13 +335,26 @@ fab-cli lore list [--section <s>] [--filter <text>]
 - OKF frontmatter: `title`, `source_url`, `section`, `headings`, `fablore_commit`. `lore/index.json` is a rebuildable cache (git-ignored).
 - Update the pinned submodule with `fab-cli lore sync` (or `git submodule update --remote third_party/fablore`), then commit the submodule bump.
 
+**Invocation:** `fab-cli` is `npm link`ed to this repo, so `fab-cli lore …` and `node bin/fab.js lore …` run the same code — either works. Lore reads files relative to the repo (submodule + `lore/`), so run it from anywhere; it doesn't need auth. If `fab-cli` isn't on PATH in a given shell (e.g. a different nvm node version), fall back to `node bin/fab.js lore …` from the repo root.
+
 ### Answering lore questions — NEVER hallucinate, ALWAYS cite
 
-When the user asks a lore/story question, answer **only** from the fablore content, never from training-data memory:
-1. Run `fab-cli lore search "<key terms>"` (and `fab-cli lore show <page>` to read the full passage).
-2. Base every claim strictly on the returned text. If the archive doesn't cover it, say so — do not fill gaps from memory.
-3. **Cite the `source_url`** (the legendarystories.net link) for each claim/page you draw from.
-4. Quote or closely paraphrase; if sources conflict or are ambiguous, surface that rather than resolving it invisibly.
+When the user asks ANY Flesh & Blood story/lore/character/world question, do NOT answer from training-data memory — the F&B lore is niche and easy to get wrong. Always go through the local archive:
+
+1. **Search**: `fab-cli lore search "<key terms from the question>"` (try a couple of term sets if the first is thin). Use `-n` to widen.
+2. **Read the source**: `fab-cli lore show "<title-or-page>"` to read the full passage before asserting anything (snippets alone can mislead).
+3. **Answer only from the returned text.** If the archive doesn't cover it, say "the Legendary Stories archive doesn't cover that" — do not fill gaps from memory.
+4. **Cite the `source_url`** (the `legendarystories.net` link) for every claim/page you used.
+5. Quote or closely paraphrase; if pages conflict or are ambiguous, surface that rather than silently resolving it.
+
+**Avoid the `archive/` section unless the user allows it.** `archive/` holds older, superseded story that may no longer be canon. `lore search`/`lore list` exclude it by default. Do NOT answer from `archive/` pages or pass `--include-archive` unless the user explicitly asks for old/retired/legacy lore. If the current lore is silent but `archive/` has something, tell the user it only exists in the (possibly-outdated) archive and ask before using it — never cite an `archive/` URL as current canon.
+
+Worked example — "What is the Demonastery?":
+```bash
+fab-cli lore search "Demonastery" -n 3
+fab-cli lore show "demonastery"        # read the full page
+```
+→ Answer from that page's text, ending with: Source: https://legendarystories.net/world-of-rathe/demonastery.html
 
 ## APIs
 
