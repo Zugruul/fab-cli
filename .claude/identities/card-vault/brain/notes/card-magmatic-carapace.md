@@ -1,0 +1,26 @@
+---
+tags: [card, magmatic-carapace, magmatic, carapace, guardian, equipment, chest, guardwell]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid JH8mLKJQjfKTt9Nb7Whf6) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Magmatic Carapace"
+defense: 2
+classes: [Guardian]
+types: [Equipment]
+subtypes: [Chest]
+keywords: [Guardwell]
+unique-id: JH8mLKJQjfKTt9Nb7Whf6
+sets: [PEN, SBR]
+---
+
+**Magmatic Carapace** — Guardian Equipment - Chest · 2 defense
+
+"Whenever you play an aura, you may {t} this and pay {r}. If you do, create a Seismic Surge token.
+Guardwell"
+
+Keywords: [[kw-guardwell]]
+Rulings: search "Magmatic Carapace" at https://cardvault.fabtcg.com/
+
+## Notes

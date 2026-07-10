@@ -1,0 +1,25 @@
+---
+tags: [card, stand-tall, stand, tall, warrior, block, pitch-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid PPhWjKkrPQmCFfrrWcddD) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Stand Tall"
+full-name: "Stand Tall (yellow)"
+color: yellow
+pitch: 2
+defense: 3
+classes: [Warrior]
+types: [Block]
+unique-id: PPhWjKkrPQmCFfrrWcddD
+sets: [MPW]
+---
+
+**Stand Tall (yellow)** — Warrior Block · 3 defense
+
+"While this is defending, whenever the attacking hero plays or activates a reaction this chain link, this gets +2{p}."
+
+Rulings: search "Stand Tall" at https://cardvault.fabtcg.com/
+
+## Notes

@@ -1,0 +1,29 @@
+---
+tags: [card, adrenaline-rush, adrenaline, rush, generic, action, attack, pitch-2, cost-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid KjgnpjTfDBhndccFCCDHn) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Adrenaline Rush"
+full-name: "Adrenaline Rush (yellow)"
+color: yellow
+pitch: 2
+cost: 2
+power: 3
+defense: 2
+classes: [Generic]
+types: [Action]
+subtypes: [Attack]
+unique-id: KjgnpjTfDBhndccFCCDHn
+sets: [HVY, MON]
+---
+
+**Adrenaline Rush (yellow)** — Generic Action - Attack · cost 2 · 3 power · 2 defense
+
+"When you play this, if you have less {h} than an opposing hero, this gets +3{p}."
+
+Variants: [[card-adrenaline-rush-red]] · [[card-adrenaline-rush-blue]]
+Rulings: search "Adrenaline Rush" at https://cardvault.fabtcg.com/
+
+## Notes

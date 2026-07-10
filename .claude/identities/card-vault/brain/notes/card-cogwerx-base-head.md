@@ -1,0 +1,23 @@
+---
+tags: [card, cogwerx-base-head, cogwerx, base, head, mechanologist, equipment]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGBQtW9fTBCjQpqQTpHNz) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Cogwerx Base Head"
+classes: [Mechanologist]
+types: [Equipment]
+subtypes: [Base, Head]
+unique-id: KGBQtW9fTBCjQpqQTpHNz
+sets: [EVO]
+---
+
+**Cogwerx Base Head** — Mechanologist Equipment - Base Head
+
+"When this is equipped, put a steam counter on it.
+Once per Turn Instant - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've boosted this turn."
+
+Rulings: search "Cogwerx Base Head" at https://cardvault.fabtcg.com/
+
+## Notes

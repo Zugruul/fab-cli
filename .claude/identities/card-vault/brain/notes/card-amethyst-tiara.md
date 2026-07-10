@@ -1,0 +1,26 @@
+---
+tags: [card, amethyst-tiara, amethyst, tiara, runeblade, equipment, head, blade-break, spellvoid-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid tqL9KdjgkjfnQ98H97dJw) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Amethyst Tiara"
+defense: 1
+classes: [Runeblade]
+types: [Equipment]
+subtypes: [Head]
+keywords: [Blade Break, Spellvoid 1]
+unique-id: tqL9KdjgkjfnQ98H97dJw
+sets: [DYN]
+---
+
+**Amethyst Tiara** — Runeblade Equipment - Head · 1 defense
+
+"Instant - Destroy Amethyst Tiara: Runechants you control have spellvoid 1 this turn.
+Blade Break"
+
+Keywords: [[kw-blade-break]] · [[kw-spellvoid]]
+Rulings: search "Amethyst Tiara" at https://cardvault.fabtcg.com/
+
+## Notes

@@ -1,0 +1,30 @@
+---
+tags: [card, steelblade-supremacy, steelblade, supremacy, warrior, action, dorinthea-specialization, go-again, pitch-1, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid LD76nrjCTwzcf6Qk8cCjW) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Steelblade Supremacy"
+full-name: "Steelblade Supremacy (red)"
+color: red
+pitch: 1
+cost: 1
+defense: 3
+classes: [Warrior]
+types: [Action]
+keywords: [Dorinthea Specialization, Go again]
+unique-id: LD76nrjCTwzcf6Qk8cCjW
+sets: [1HP, WTR]
+---
+
+**Steelblade Supremacy (red)** — Warrior Action · cost 1 · 3 defense
+
+"Dorinthea Specialization
+Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, draw a card."
+Go again"
+
+Keywords: [[kw-specialization]] · [[kw-go-again]]
+Rulings: search "Steelblade Supremacy" at https://cardvault.fabtcg.com/
+
+## Notes

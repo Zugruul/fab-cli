@@ -1,0 +1,25 @@
+---
+tags: [card, ion-charged, ion, charged, lightning, instant, pitch-2, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid rrN8b6TLpjCHQJRKBpJFm) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Ion Charged"
+full-name: "Ion Charged (yellow)"
+color: yellow
+pitch: 2
+cost: 0
+talents: [Lightning]
+types: [Instant]
+unique-id: rrN8b6TLpjCHQJRKBpJFm
+sets: [GEM, PEN]
+---
+
+**Ion Charged (yellow)** — Lightning Instant · cost 0
+
+"Until end of turn, Lightning and Elemental attacks get +1{p} while they have go again."
+
+Rulings: search "Ion Charged" at https://cardvault.fabtcg.com/
+
+## Notes

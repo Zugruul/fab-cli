@@ -1,5 +1,5 @@
 ---
-tags: [cr, keyword, effect]
+tags: [cr, keyword, effect, reroll]
 paths: []
 strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.5.28) — vendored: third_party/fab-rules/en-fab-cr.txt"

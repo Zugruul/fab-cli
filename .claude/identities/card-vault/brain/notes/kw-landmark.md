@@ -1,5 +1,5 @@
 ---
-tags: [cr, keyword, subtype]
+tags: [cr, keyword, subtype, landmark]
 paths: []
 strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.2.9) — vendored: third_party/fab-rules/en-fab-cr.txt"

@@ -1,0 +1,26 @@
+---
+tags: [card, puffin-hightail, puffin, hightail, pirate, mechanologist, hero, adult]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid DghbPmFhwLkT9whJJjL9f) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Puffin, Hightail"
+health: 40
+intelligence: 4
+hero-version: adult
+classes: [Pirate, Mechanologist]
+types: [Hero]
+unique-id: DghbPmFhwLkT9whJJjL9f
+sets: [SEA]
+---
+
+**Puffin, Hightail** — Pirate Mechanologist Hero · 40 health · 4 int
+
+"Action - {t}, destroy a Gold you control: Create a Golden Cog token.
+The second time you crank each turn, draw a card."
+
+Young version: [[card-puffin]]
+Rulings: search "Puffin, Hightail" at https://cardvault.fabtcg.com/
+
+## Notes

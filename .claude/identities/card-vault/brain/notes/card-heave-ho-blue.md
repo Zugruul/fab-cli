@@ -1,0 +1,29 @@
+---
+tags: [card, heave-ho, heave, ho, pirate, necromancer, action, go-again, overpower, pitch-3, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6HTFGH8fzF8THpGNjpmHR) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Heave Ho!"
+full-name: "Heave Ho! (blue)"
+color: blue
+pitch: 3
+cost: 0
+defense: 3
+classes: [Pirate, Necromancer]
+types: [Action]
+keywords: [Go again, Overpower]
+unique-id: 6HTFGH8fzF8THpGNjpmHR
+sets: [GEM, SEA]
+---
+
+**Heave Ho! (blue)** — Pirate Necromancer Action · cost 0 · 3 defense
+
+"Your next Pirate ally attack this turn gets overpower and "When this hits a hero, create a Gold token."
+Go again"
+
+Keywords: [[kw-go-again]] · [[kw-overpower]]
+Rulings: search "Heave Ho!" at https://cardvault.fabtcg.com/
+
+## Notes

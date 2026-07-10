@@ -1,0 +1,29 @@
+---
+tags: [card, break-ground, break, ground, earth, action, attack, pitch-2, cost-3]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid bmLJpC7grdNJm9cdfhTTc) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Break Ground"
+full-name: "Break Ground (yellow)"
+color: yellow
+pitch: 2
+cost: 3
+power: 6
+defense: 2
+talents: [Earth]
+types: [Action]
+subtypes: [Attack]
+unique-id: bmLJpC7grdNJm9cdfhTTc
+sets: [ELE]
+---
+
+**Break Ground (yellow)** — Earth Action - Attack · cost 3 · 6 power · 2 defense
+
+"When you attack with Break Ground, you may put a card from your arsenal on the bottom of your deck. If you do, draw a card."
+
+Variants: [[card-break-ground-red]] · [[card-break-ground-blue]]
+Rulings: search "Break Ground" at https://cardvault.fabtcg.com/
+
+## Notes

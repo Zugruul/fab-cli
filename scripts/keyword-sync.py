@@ -143,8 +143,11 @@ def validate_note(path):
         errs.append("frontmatter keys %s != %s" % (keys, FM_KEYS))
         return ["%s: %s" % (fn, e) for e in errs]
     tags = [t.strip() for t in fm["tags"].strip("[]").split(",")]
-    if len(tags) != 3 or tags[0] != "cr" or tags[1] != "keyword" or tags[2] not in CAT_NAMES:
-        errs.append("tags must be [cr, keyword, <%s>], got %s" % ("|".join(CAT_NAMES), tags))
+    kwname = re.sub(r"^token-", "", fn[3:-3])  # kw-<slug>.md -> keyword name tag
+    if (len(tags) != 4 or tags[0] != "cr" or tags[1] != "keyword"
+            or tags[2] not in CAT_NAMES or tags[3] != kwname):
+        errs.append("tags must be [cr, keyword, <%s>, %s], got %s"
+                    % ("|".join(CAT_NAMES), kwname, tags))
         return ["%s: %s" % (fn, e) for e in errs]
     m_src = SOURCE_RE.match(fm["source"])
     if not m_src:

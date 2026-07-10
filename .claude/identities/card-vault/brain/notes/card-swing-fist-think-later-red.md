@@ -1,0 +1,32 @@
+---
+tags: [card, swing-fist-think-later, swing, fist, think, later, brute, action, attack, go-again, pitch-1, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid GJdjP8QBqTFjbpwD7fKkf) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Swing Fist, Think Later"
+full-name: "Swing Fist, Think Later (red)"
+color: red
+pitch: 1
+cost: 1
+power: 4
+defense: 3
+classes: [Brute]
+types: [Action]
+subtypes: [Attack]
+keywords: [Go again]
+unique-id: GJdjP8QBqTFjbpwD7fKkf
+sets: [CRU]
+---
+
+**Swing Fist, Think Later (red)** — Brute Action - Attack · cost 1 · 4 power · 3 defense
+
+"As an additional cost to play Swing Fist, Think Later, discard a random card.
+Go again"
+
+Keywords: [[kw-go-again]]
+Variants: [[card-swing-fist-think-later-yellow]] · [[card-swing-fist-think-later-blue]]
+Rulings: search "Swing Fist, Think Later" at https://cardvault.fabtcg.com/
+
+## Notes

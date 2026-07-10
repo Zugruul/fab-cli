@@ -1,0 +1,25 @@
+---
+tags: [card, spell-fray-gloves, spell, fray, gloves, generic, equipment, arms, spellvoid-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid ct8dbmGW77wb6TkJwJkFT) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Spell Fray Gloves"
+defense: 0
+classes: [Generic]
+types: [Equipment]
+subtypes: [Arms]
+keywords: [Spellvoid 1]
+unique-id: ct8dbmGW77wb6TkJwJkFT
+sets: [CHN, DYN]
+---
+
+**Spell Fray Gloves** — Generic Equipment - Arms · 0 defense
+
+"Spellvoid 1"
+
+Keywords: [[kw-spellvoid]]
+Rulings: search "Spell Fray Gloves" at https://cardvault.fabtcg.com/
+
+## Notes

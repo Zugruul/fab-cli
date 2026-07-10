@@ -1,5 +1,5 @@
 ---
-tags: [cr, keyword, token]
+tags: [cr, keyword, token, frostbite]
 paths: []
 strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.6.10) — vendored: third_party/fab-rules/en-fab-cr.txt"

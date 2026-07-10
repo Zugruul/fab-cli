@@ -1,0 +1,25 @@
+---
+tags: [card, cosmic-flare, cosmic, flare, lightning, instant, pitch-1, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid TqcHrNkPMppfprqPbDRRm) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Cosmic Flare"
+full-name: "Cosmic Flare (red)"
+color: red
+pitch: 1
+cost: 0
+talents: [Lightning]
+types: [Instant]
+unique-id: TqcHrNkPMppfprqPbDRRm
+sets: [OMN]
+---
+
+**Cosmic Flare (red)** — Lightning Instant · cost 0
+
+"Gain {r}{r}{r}"
+
+Rulings: search "Cosmic Flare" at https://cardvault.fabtcg.com/
+
+## Notes

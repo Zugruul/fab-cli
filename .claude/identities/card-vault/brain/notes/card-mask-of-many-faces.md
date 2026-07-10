@@ -1,0 +1,26 @@
+---
+tags: [card, mask-of-many-faces, mask, many, faces, ninja, equipment, head, blade-break]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7qrdPcNmtPt9HN6TQHNJR) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Mask of Many Faces"
+defense: 1
+classes: [Ninja]
+types: [Equipment]
+subtypes: [Head]
+keywords: [Blade Break]
+unique-id: 7qrdPcNmtPt9HN6TQHNJR
+sets: [KAT, OUT]
+---
+
+**Mask of Many Faces** — Ninja Equipment - Head · 1 defense
+
+"Instant - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
+Blade Break"
+
+Keywords: [[kw-blade-break]]
+Rulings: search "Mask of Many Faces" at https://cardvault.fabtcg.com/
+
+## Notes

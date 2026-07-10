@@ -1,0 +1,23 @@
+---
+tags: [card, bracers-of-belief, bracers, belief, generic, equipment, arms]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid c9BtftttMG7WNrKgnfJFt) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Bracers of Belief"
+defense: 0
+classes: [Generic]
+types: [Equipment]
+subtypes: [Arms]
+unique-id: c9BtftttMG7WNrKgnfJFt
+sets: [1HP, ARC, AZL]
+---
+
+**Bracers of Belief** — Generic Equipment - Arms · 0 defense
+
+"Action - Destroy Bracers of Belief: Reveal the top card of your deck. If you do, the next attack action card you play this turn, gains +X{p}, where X is 3 minus the pitch value of the card revealed this way. Go again"
+
+Rulings: search "Bracers of Belief" at https://cardvault.fabtcg.com/
+
+## Notes

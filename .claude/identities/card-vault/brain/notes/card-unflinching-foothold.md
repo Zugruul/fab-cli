@@ -1,0 +1,26 @@
+---
+tags: [card, unflinching-foothold, unflinching, foothold, generic, equipment, legs, battleworn]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid gMJRbhDCMTJD8NW8H6BTf) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Unflinching Foothold"
+defense: 1
+classes: [Generic]
+types: [Equipment]
+subtypes: [Legs]
+keywords: [Battleworn]
+unique-id: gMJRbhDCMTJD8NW8H6BTf
+sets: [PEN]
+---
+
+**Unflinching Foothold** — Generic Equipment - Legs · 1 defense
+
+"Instant - Destroy this: Target attack loses and can't gain dominate.
+Battleworn"
+
+Keywords: [[kw-battleworn]]
+Rulings: search "Unflinching Foothold" at https://cardvault.fabtcg.com/
+
+## Notes

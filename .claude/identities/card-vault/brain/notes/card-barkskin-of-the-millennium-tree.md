@@ -1,0 +1,26 @@
+---
+tags: [card, barkskin-of-the-millennium-tree, barkskin, millennium, tree, earth, equipment, chest, temper]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid qdDLqzd6FfmjfPGHLD6NW) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Barkskin of the Millennium Tree"
+defense: 2
+talents: [Earth]
+types: [Equipment]
+subtypes: [Chest]
+keywords: [Temper]
+unique-id: qdDLqzd6FfmjfPGHLD6NW
+sets: [FAB, ROS]
+---
+
+**Barkskin of the Millennium Tree** — Earth Equipment - Chest · 2 defense
+
+"When this defends, if there are 4 or more Earth cards in your banished zone, create an Embodiment of Earth token.
+Temper"
+
+Keywords: [[kw-temper]]
+Rulings: search "Barkskin of the Millennium Tree" at https://cardvault.fabtcg.com/
+
+## Notes

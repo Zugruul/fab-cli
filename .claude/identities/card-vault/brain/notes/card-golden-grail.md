@@ -1,0 +1,23 @@
+---
+tags: [card, golden-grail, golden, grail, warrior, weapon, sword, 2h]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqpL7k7Gc78Pw6tzMNQwN) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Golden Grail"
+power: 3
+classes: [Warrior]
+types: [Weapon]
+subtypes: [Sword, 2H]
+unique-id: NqpL7k7Gc78Pw6tzMNQwN
+sets: [AOL, MPW]
+---
+
+**Golden Grail** — Warrior Weapon - Sword (2H) · 3 power
+
+"Once per Turn Action - {r}{r} or destroy a Gold you control: Attack. If this attack has wagered, it gets +1{p}."
+
+Rulings: search "Golden Grail" at https://cardvault.fabtcg.com/
+
+## Notes

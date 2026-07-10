@@ -1,0 +1,25 @@
+---
+tags: [card, olympia, warrior, hero, young]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid t7H7JCQcTb9TTjjCbNwDH) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Olympia"
+health: 20
+intelligence: 4
+hero-version: young
+classes: [Warrior]
+types: [Hero]
+unique-id: t7H7JCQcTb9TTjjCbNwDH
+sets: [HVY, MPW, OLA]
+---
+
+**Olympia** — Warrior Hero - Young · 20 health · 4 int
+
+"The first time each of your attacks wins a wager, create a Gold token."
+
+Adult version: [[card-olympia-prized-fighter]]
+Rulings: search "Olympia" at https://cardvault.fabtcg.com/
+
+## Notes

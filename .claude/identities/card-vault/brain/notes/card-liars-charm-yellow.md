@@ -1,0 +1,31 @@
+---
+tags: [card, liars-charm, liars, charm, guardian, instant, reviled, steal, the-crowd-boos, pitch-2, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid cHPKptkbztKtj7bQnWmmP) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Liar's Charm"
+full-name: "Liar's Charm (yellow)"
+color: yellow
+pitch: 2
+cost: 0
+classes: [Guardian]
+types: [Instant]
+other-types: [Reviled]
+keywords: [Steal, The Crowd Boos]
+unique-id: cHPKptkbztKtj7bQnWmmP
+sets: [FAB, LGS, SUP]
+---
+
+**Liar's Charm (yellow)** — Reviled Guardian Instant · cost 0
+
+"Choose any number;
+- Steal a Toughness or Vigor token.
+- The crowd boos you.
+- Target hero loses and can't gain abilities this action phase unless they discard a card."
+
+Keywords: [[kw-steal]] · [[kw-the-crowd-cheers-the-crowd-boos]]
+Rulings: search "Liar's Charm" at https://cardvault.fabtcg.com/
+
+## Notes

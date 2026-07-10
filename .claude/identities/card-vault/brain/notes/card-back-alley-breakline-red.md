@@ -1,0 +1,29 @@
+---
+tags: [card, back-alley-breakline, back, alley, breakline, generic, action, attack, pitch-1, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid kFW8PcC89jw6rGKkhfpBt) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Back Alley Breakline"
+full-name: "Back Alley Breakline (red)"
+color: red
+pitch: 1
+cost: 1
+power: 5
+defense: 2
+classes: [Generic]
+types: [Action]
+subtypes: [Attack]
+unique-id: kFW8PcC89jw6rGKkhfpBt
+sets: [ARC]
+---
+
+**Back Alley Breakline (red)** — Generic Action - Attack · cost 1 · 5 power · 2 defense
+
+"If an activated ability or action card effect puts Back Alley Breakline face up into a zone from your deck, gain 1 action point."
+
+Variants: [[card-back-alley-breakline-yellow]] · [[card-back-alley-breakline-blue]]
+Rulings: search "Back Alley Breakline" at https://cardvault.fabtcg.com/
+
+## Notes

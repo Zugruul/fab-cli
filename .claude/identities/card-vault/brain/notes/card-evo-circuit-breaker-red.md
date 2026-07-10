@@ -1,0 +1,30 @@
+---
+tags: [card, evo-circuit-breaker, evo, circuit, breaker, mechanologist, instant, equipment, head, transform, pitch-1, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNkCtbWQNhtGkb77cFzhF) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Evo Circuit Breaker"
+full-name: "Evo Circuit Breaker (red)"
+color: red
+pitch: 1
+cost: 0
+defense: 0
+classes: [Mechanologist]
+types: [Instant, Equipment]
+subtypes: [Evo, Head]
+keywords: [Transform]
+unique-id: hNkCtbWQNhtGkb77cFzhF
+sets: [EVO]
+---
+
+**Evo Circuit Breaker (red)** — Mechanologist Instant Equipment - Evo Head · cost 0 · 0 defense
+
+"If you have a base head equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+Whenever you boost, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck."
+
+Keywords: [[kw-transform]]
+Rulings: search "Evo Circuit Breaker" at https://cardvault.fabtcg.com/
+
+## Notes

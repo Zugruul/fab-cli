@@ -1,0 +1,26 @@
+---
+tags: [card, crash-and-bash, crash, bash, guardian, block, pitch-3]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CtmRqKLjmGkqD8bgDjTd) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Crash and Bash"
+full-name: "Crash and Bash (blue)"
+color: blue
+pitch: 3
+defense: 2
+classes: [Guardian]
+types: [Block]
+unique-id: 8CtmRqKLjmGkqD8bgDjTd
+sets: [BDD, MPG]
+---
+
+**Crash and Bash (blue)** — Guardian Block · 2 defense
+
+"When this defends, you may reveal a card with crush from your hand. If you do, create a Seismic Surge token."
+
+Variants: [[card-crash-and-bash-red]] · [[card-crash-and-bash-yellow]]
+Rulings: search "Crash and Bash" at https://cardvault.fabtcg.com/
+
+## Notes

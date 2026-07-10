@@ -1,0 +1,28 @@
+---
+tags: [card, voltaire-strike-twice, voltaire, strike, twice, ranger, elemental, weapon, bow, 2h, go-again]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nzpgn9HrbNfkzM8CkwCQp) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Voltaire, Strike Twice"
+classes: [Ranger]
+talents: [Elemental]
+types: [Weapon]
+subtypes: [Bow, 2H]
+keywords: [Go again]
+unique-id: Nzpgn9HrbNfkzM8CkwCQp
+sets: [ELE, FAB]
+---
+
+**Voltaire, Strike Twice** — Elemental Ranger Weapon - Bow (2H)
+
+"Twice per Turn Instant - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, choose 1;
+
+It gains +1{p} until end of turn.
+It gains go again until end of turn."
+
+Keywords: [[kw-go-again]]
+Rulings: search "Voltaire, Strike Twice" at https://cardvault.fabtcg.com/
+
+## Notes

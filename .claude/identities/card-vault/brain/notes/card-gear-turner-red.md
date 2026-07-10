@@ -1,0 +1,28 @@
+---
+tags: [card, gear-turner, gear, turner, mechanologist, action, attack, pitch-1, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid tg9TRmR87BpWm6RNLQgzg) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Gear Turner"
+full-name: "Gear Turner (red)"
+color: red
+pitch: 1
+cost: 1
+power: 5
+defense: 3
+classes: [Mechanologist]
+types: [Action]
+subtypes: [Attack]
+unique-id: tg9TRmR87BpWm6RNLQgzg
+sets: [OMN]
+---
+
+**Gear Turner (red)** — Mechanologist Action - Attack · cost 1 · 5 power · 3 defense
+
+"When this hits, you may search your deck for a cog, put it into the arena, then shuffle."
+
+Rulings: search "Gear Turner" at https://cardvault.fabtcg.com/
+
+## Notes

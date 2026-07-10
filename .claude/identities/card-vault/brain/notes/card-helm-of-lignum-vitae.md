@@ -1,0 +1,26 @@
+---
+tags: [card, helm-of-lignum-vitae, helm, lignum, vitae, earth, equipment, head, blade-break]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7gkkzWWDprGtBpfq8QPWC) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Helm of Lignum Vitae"
+defense: 1
+talents: [Earth]
+types: [Equipment]
+subtypes: [Head]
+keywords: [Blade Break]
+unique-id: 7gkkzWWDprGtBpfq8QPWC
+sets: [FLR, LGS, ROS, VER]
+---
+
+**Helm of Lignum Vitae** — Earth Equipment - Head · 1 defense
+
+"If there are 4 or more Earth cards in your banished zone, this gets +1{d}.
+Blade Break"
+
+Keywords: [[kw-blade-break]]
+Rulings: search "Helm of Lignum Vitae" at https://cardvault.fabtcg.com/
+
+## Notes

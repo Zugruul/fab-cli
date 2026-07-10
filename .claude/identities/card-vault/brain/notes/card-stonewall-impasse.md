@@ -1,0 +1,26 @@
+---
+tags: [card, stonewall-impasse, stonewall, impasse, guardian, equipment, off-hand, temper, clash]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CrKfkzFgFLWFD7tFgT9H) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Stonewall Impasse"
+defense: 1
+classes: [Guardian]
+types: [Equipment]
+subtypes: [Off-Hand]
+keywords: [Temper, Clash]
+unique-id: 6CrKfkzFgFLWFD7tFgT9H
+sets: [HVY, SLY, VIC]
+---
+
+**Stonewall Impasse** — Guardian Equipment - Off-Hand · 1 defense
+
+"When this defends, clash with the attacking hero. If you win, this gets +1{d} until end of turn.
+Temper"
+
+Keywords: [[kw-temper]] · [[kw-clash]]
+Rulings: search "Stonewall Impasse" at https://cardvault.fabtcg.com/
+
+## Notes

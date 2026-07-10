@@ -1,0 +1,26 @@
+---
+tags: [card, synapse-sparkcap, synapse, sparkcap, mechanologist, equipment, base, head, battleworn]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid HGKWRtMqN8D6rtGHkb7RB) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Synapse Sparkcap"
+defense: 1
+classes: [Mechanologist]
+types: [Equipment]
+subtypes: [Base, Head]
+keywords: [Battleworn]
+unique-id: HGKWRtMqN8D6rtGHkb7RB
+sets: [PEN]
+---
+
+**Synapse Sparkcap** — Mechanologist Equipment - Base Head · 1 defense
+
+"Action - {t}, banish an Evo from your hand: Create a Ponder token.
+Battleworn"
+
+Keywords: [[kw-battleworn]]
+Rulings: search "Synapse Sparkcap" at https://cardvault.fabtcg.com/
+
+## Notes

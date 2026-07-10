@@ -1,0 +1,25 @@
+---
+tags: [card, rok, brute, weapon, rock, 2h]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid KrjrwRtnjcK7hNhcBdH9h) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Rok"
+power: 7
+classes: [Brute]
+types: [Weapon]
+subtypes: [Rock, 2H]
+unique-id: KrjrwRtnjcK7hNhcBdH9h
+sets: [DYN, GEM]
+---
+
+**Rok** — Brute Weapon - Rock (2H) · 7 power
+
+"Once per Turn Action - {r}{r}{r}: Attack
+Activate Rok only if you have no cards in hand.
+Damage that would be dealt by Rok can't be prevented."
+
+Rulings: search "Rok" at https://cardvault.fabtcg.com/
+
+## Notes

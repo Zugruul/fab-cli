@@ -1,0 +1,25 @@
+---
+tags: [card, professor-teklovossen, professor, teklovossen, mechanologist, hero, young]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid BLCMLHnwnbRKbdhPJ9DQp) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Professor Teklovossen"
+health: 20
+intelligence: 4
+hero-version: young
+classes: [Mechanologist]
+types: [Hero]
+unique-id: BLCMLHnwnbRKbdhPJ9DQp
+sets: [HER, TCC]
+---
+
+**Professor Teklovossen** — Mechanologist Hero - Young · 20 health · 4 int
+
+"Evos cost {r} less to play for each opposing hero.
+You may play Evos from your banished zone."
+
+Rulings: search "Professor Teklovossen" at https://cardvault.fabtcg.com/
+
+## Notes

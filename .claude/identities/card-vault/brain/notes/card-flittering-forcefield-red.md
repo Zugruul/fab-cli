@@ -1,0 +1,27 @@
+---
+tags: [card, flittering-forcefield, flittering, forcefield, lightning, defense-reaction, pitch-1, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wjwrtNmPJzqbLfcrchgR) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Flittering Forcefield"
+full-name: "Flittering Forcefield (red)"
+color: red
+pitch: 1
+cost: 0
+defense: 3
+talents: [Lightning]
+types: [Defense Reaction]
+unique-id: 9wjwrtNmPJzqbLfcrchgR
+sets: [GEM, OMN]
+---
+
+**Flittering Forcefield (red)** — Lightning Defense Reaction · cost 0 · 3 defense
+
+"While this is defending, if you've played an instant card this chain link, this gets +1{d}."
+
+Variants: [[card-flittering-forcefield-yellow]] · [[card-flittering-forcefield-blue]]
+Rulings: search "Flittering Forcefield" at https://cardvault.fabtcg.com/
+
+## Notes

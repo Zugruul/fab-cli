@@ -1,0 +1,32 @@
+---
+tags: [card, cross-the-line, cross, line, warrior, light, action, attack, charge, pitch-3, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid CfHfrPNdfKGhM7qJjtzQt) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Cross the Line"
+full-name: "Cross the Line (blue)"
+color: blue
+pitch: 3
+cost: 1
+power: 3
+defense: 3
+classes: [Warrior]
+talents: [Light]
+types: [Action]
+subtypes: [Attack]
+keywords: [Charge]
+unique-id: CfHfrPNdfKGhM7qJjtzQt
+sets: [MON]
+---
+
+**Cross the Line (blue)** — Light Warrior Action - Attack · cost 1 · 3 power · 3 defense
+
+"As an additional cost to play Cross the Line, you may charge your hero's soul."
+
+Keywords: [[kw-charge]]
+Variants: [[card-cross-the-line-red]] · [[card-cross-the-line-yellow]]
+Rulings: search "Cross the Line" at https://cardvault.fabtcg.com/
+
+## Notes

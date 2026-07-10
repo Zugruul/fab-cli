@@ -1,0 +1,31 @@
+---
+tags: [card, lead-with-speed, lead, speed, brute, warrior, action, go-again, pitch-2, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid nwCQmwCJLFCtDCBtH8mfD) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Lead with Speed"
+full-name: "Lead with Speed (yellow)"
+color: yellow
+pitch: 2
+cost: 1
+defense: 2
+classes: [Brute, Warrior]
+types: [Action]
+keywords: [Go again]
+unique-id: nwCQmwCJLFCtDCBtH8mfD
+sets: [HVY, KSI, OLA]
+---
+
+**Lead with Speed (yellow)** — Brute / Warrior Action · cost 1 · 2 defense
+
+"Your next Brute or Warrior attack this turn gets +2{p}.
+Create an Agility token.
+Go again"
+
+Keywords: [[kw-go-again]]
+Variants: [[card-lead-with-speed-red]] · [[card-lead-with-speed-blue]]
+Rulings: search "Lead with Speed" at https://cardvault.fabtcg.com/
+
+## Notes

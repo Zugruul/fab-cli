@@ -1,0 +1,25 @@
+---
+tags: [card, bone-head-barrier, bone, head, barrier, brute, instant, pitch-2, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtpGCGDBMdRPgcbb7MTdM) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Bone Head Barrier"
+full-name: "Bone Head Barrier (yellow)"
+color: yellow
+pitch: 2
+cost: 1
+classes: [Brute]
+types: [Instant]
+unique-id: FtpGCGDBMdRPgcbb7MTdM
+sets: [WTR]
+---
+
+**Bone Head Barrier (yellow)** — Brute Instant · cost 1
+
+"Roll a 6 sided die. Prevent the next X damage that would be dealt to your hero this turn, where X is the number rolled."
+
+Rulings: search "Bone Head Barrier" at https://cardvault.fabtcg.com/
+
+## Notes

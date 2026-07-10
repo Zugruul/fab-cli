@@ -1,0 +1,31 @@
+---
+tags: [card, rubble-raiser, rubble, raiser, guardian, action, attack, heave-2, pitch-2, cost-4]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLfWBpdJqQ8GwRdLqwJGG) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Rubble Raiser"
+full-name: "Rubble Raiser (yellow)"
+color: yellow
+pitch: 2
+cost: 4
+power: 7
+defense: 3
+classes: [Guardian]
+types: [Action]
+subtypes: [Attack]
+keywords: [Heave 2]
+unique-id: MLfWBpdJqQ8GwRdLqwJGG
+sets: [MPG]
+---
+
+**Rubble Raiser (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense
+
+"Heave 2"
+
+Keywords: [[kw-heave]]
+Variants: [[card-rubble-raiser-red]] · [[card-rubble-raiser-blue]]
+Rulings: search "Rubble Raiser" at https://cardvault.fabtcg.com/
+
+## Notes

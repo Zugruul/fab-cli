@@ -1,0 +1,33 @@
+---
+tags: [card, arcanic-shockwave, arcanic, shockwave, runeblade, elemental, action, attack, lightning-fusion, pitch-3, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid fHRbFnj8CDThpRPckFMQB) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Arcanic Shockwave"
+full-name: "Arcanic Shockwave (blue)"
+color: blue
+pitch: 3
+cost: 0
+power: 2
+defense: 3
+classes: [Runeblade]
+talents: [Elemental]
+types: [Action]
+subtypes: [Attack]
+keywords: [Lightning Fusion]
+unique-id: fHRbFnj8CDThpRPckFMQB
+sets: [ELE]
+---
+
+**Arcanic Shockwave (blue)** — Elemental Runeblade Action - Attack · cost 0 · 2 power · 3 defense
+
+"Lightning Fusion
+When you attack with Arcanic Shockwave, if it was fused, deal 1 arcane damage to target hero."
+
+Keywords: [[kw-fusion]]
+Variants: [[card-arcanic-shockwave-red]] · [[card-arcanic-shockwave-yellow]]
+Rulings: search "Arcanic Shockwave" at https://cardvault.fabtcg.com/
+
+## Notes

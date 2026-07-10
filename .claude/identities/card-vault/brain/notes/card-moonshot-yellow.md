@@ -1,0 +1,32 @@
+---
+tags: [card, moonshot, mechanologist, action, attack, overpower, pitch-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid khj76ndGTj7gDDQNwzjqw) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Moonshot"
+full-name: "Moonshot (yellow)"
+color: yellow
+pitch: 2
+cost: XX
+power: 3
+defense: 3
+classes: [Mechanologist]
+types: [Action]
+subtypes: [Attack]
+keywords: [Overpower]
+unique-id: khj76ndGTj7gDDQNwzjqw
+sets: [EVO]
+---
+
+**Moonshot (yellow)** — Mechanologist Action - Attack · cost XX · 3 power · 3 defense
+
+"Play this only if you've boosted this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
+When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
+If this has 10 or more {p}, it gets overpower."
+
+Keywords: [[kw-overpower]]
+Rulings: search "Moonshot" at https://cardvault.fabtcg.com/
+
+## Notes

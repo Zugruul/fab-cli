@@ -1,0 +1,23 @@
+---
+tags: [card, bloodtorn-bodice, bloodtorn, bodice, runeblade, equipment, chest]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPrJfDdHDTrz6BHRdBFMq) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Bloodtorn Bodice"
+defense: 0
+classes: [Runeblade]
+types: [Equipment]
+subtypes: [Chest]
+unique-id: KPrJfDdHDTrz6BHRdBFMq
+sets: [AUA, FLR, LGS, ROS]
+---
+
+**Bloodtorn Bodice** — Runeblade Equipment - Chest · 0 defense
+
+"Action - Destroy this and an aura you control: Gain {r}. Go again"
+
+Rulings: search "Bloodtorn Bodice" at https://cardvault.fabtcg.com/
+
+## Notes

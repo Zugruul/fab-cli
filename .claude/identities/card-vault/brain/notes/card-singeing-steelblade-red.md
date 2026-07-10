@@ -1,0 +1,29 @@
+---
+tags: [card, singeing-steelblade, singeing, steelblade, runeblade, action, attack, pitch-1, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid K8LjGFFcwN6bTgGrm7cC6) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Singeing Steelblade"
+full-name: "Singeing Steelblade (red)"
+color: red
+pitch: 1
+cost: 1
+power: 4
+defense: 3
+classes: [Runeblade]
+types: [Action]
+subtypes: [Attack]
+unique-id: K8LjGFFcwN6bTgGrm7cC6
+sets: [ELE]
+---
+
+**Singeing Steelblade (red)** — Runeblade Action - Attack · cost 1 · 4 power · 3 defense
+
+"When you attack with Singeing Steelblade, deal 1 arcane damage to target hero."
+
+Variants: [[card-singeing-steelblade-yellow]] · [[card-singeing-steelblade-blue]]
+Rulings: search "Singeing Steelblade" at https://cardvault.fabtcg.com/
+
+## Notes

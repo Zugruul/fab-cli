@@ -1,0 +1,31 @@
+---
+tags: [card, concoct-disorder, concoct, disorder, chaos, action, attack, go-again, pitch-3, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid jhTpW6FqWNmdHzcHd9j8B) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Concoct Disorder"
+full-name: "Concoct Disorder (blue)"
+color: blue
+pitch: 3
+cost: 1
+power: 2
+defense: 3
+talents: [Chaos]
+types: [Action]
+subtypes: [Attack]
+keywords: [Go again]
+unique-id: jhTpW6FqWNmdHzcHd9j8B
+sets: [PEN]
+---
+
+**Concoct Disorder (blue)** — Chaos Action - Attack · cost 1 · 2 power · 3 defense
+
+"When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets go again."
+
+Keywords: [[kw-go-again]]
+Variants: [[card-concoct-disorder-red]] · [[card-concoct-disorder-yellow]]
+Rulings: search "Concoct Disorder" at https://cardvault.fabtcg.com/
+
+## Notes

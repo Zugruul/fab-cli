@@ -1,0 +1,31 @@
+---
+tags: [card, cadaverous-tilling, cadaverous, tilling, earth, action, attack, decompose, pitch-1, cost-3]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMFB7HjQfN9L7hp7dLqhN) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Cadaverous Tilling"
+full-name: "Cadaverous Tilling (red)"
+color: red
+pitch: 1
+cost: 3
+power: 6
+defense: 2
+talents: [Earth]
+types: [Action]
+subtypes: [Attack]
+keywords: [Decompose]
+unique-id: WMFB7HjQfN9L7hp7dLqhN
+sets: [FLR, ROS]
+---
+
+**Cadaverous Tilling (red)** — Earth Action - Attack · cost 3 · 6 power · 2 defense
+
+"Decompose - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}."
+
+Keywords: [[kw-decompose]]
+Variants: [[card-cadaverous-tilling-yellow]] · [[card-cadaverous-tilling-blue]]
+Rulings: search "Cadaverous Tilling" at https://cardvault.fabtcg.com/
+
+## Notes

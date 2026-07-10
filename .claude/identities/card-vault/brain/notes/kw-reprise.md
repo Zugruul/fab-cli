@@ -1,5 +1,5 @@
 ---
-tags: [cr, keyword, label]
+tags: [cr, keyword, label, reprise]
 paths: []
 strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.4.3) — vendored: third_party/fab-rules/en-fab-cr.txt"

@@ -1,0 +1,27 @@
+---
+tags: [card, raw-meat, raw, meat, brute, equipment, chest, temper]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid mgcdBrjHkNTmKKjwnJKF9) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Raw Meat"
+defense: 0
+classes: [Brute]
+types: [Equipment]
+subtypes: [Chest]
+keywords: [Temper]
+unique-id: mgcdBrjHkNTmKKjwnJKF9
+sets: [HVY, KYO, RHI]
+---
+
+**Raw Meat** — Brute Equipment - Chest · 0 defense
+
+"If you control an Agility token, this gets +1{d}.
+If you control a Might token, this gets +1{d}.
+Temper"
+
+Keywords: [[kw-temper]]
+Rulings: search "Raw Meat" at https://cardvault.fabtcg.com/
+
+## Notes

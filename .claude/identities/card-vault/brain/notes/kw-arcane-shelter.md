@@ -1,5 +1,5 @@
 ---
-tags: [cr, keyword, ability]
+tags: [cr, keyword, ability, arcane-shelter]
 paths: []
 strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.3.37) — vendored: third_party/fab-rules/en-fab-cr.txt"

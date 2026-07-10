@@ -1,0 +1,29 @@
+---
+tags: [card, line, ranger, action, go-again, pitch-3, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CRqBFWrD7R7kCrnJbKr9) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Line"
+full-name: "Line (blue)"
+color: blue
+pitch: 3
+cost: 0
+defense: 3
+classes: [Ranger]
+types: [Action]
+keywords: [Go again]
+unique-id: 8CRqBFWrD7R7kCrnJbKr9
+sets: [SEA]
+---
+
+**Line (blue)** — Ranger Action · cost 0 · 3 defense
+
+"Look at the top card of your deck. If it's an arrow, you may put it face-up into your arsenal. If you do, it gets go again this turn.
+Go again"
+
+Keywords: [[kw-go-again]]
+Rulings: search "Line" at https://cardvault.fabtcg.com/
+
+## Notes

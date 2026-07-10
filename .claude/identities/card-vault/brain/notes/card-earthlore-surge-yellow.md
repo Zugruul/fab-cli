@@ -1,0 +1,30 @@
+---
+tags: [card, earthlore-surge, earthlore, surge, earth, action, go-again, pitch-2, cost-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid NBgwrrNmgPfftdLjbRMfm) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Earthlore Surge"
+full-name: "Earthlore Surge (yellow)"
+color: yellow
+pitch: 2
+cost: 2
+defense: 2
+talents: [Earth]
+types: [Action]
+keywords: [Go again]
+unique-id: NBgwrrNmgPfftdLjbRMfm
+sets: [ELE]
+---
+
+**Earthlore Surge (yellow)** — Earth Action · cost 2 · 2 defense
+
+"The next attack action card you play this turn gains +4{p}.
+Go again"
+
+Keywords: [[kw-go-again]]
+Variants: [[card-earthlore-surge-red]] · [[card-earthlore-surge-blue]]
+Rulings: search "Earthlore Surge" at https://cardvault.fabtcg.com/
+
+## Notes

@@ -1,0 +1,31 @@
+---
+tags: [card, swiftwater-sloop, swiftwater, sloop, pirate, action, attack, high-tide, pitch-3, cost-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgnRKmWk6WG8RhnhRTkNB) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Swiftwater Sloop"
+full-name: "Swiftwater Sloop (blue)"
+color: blue
+pitch: 3
+cost: 2
+power: 4
+defense: 2
+classes: [Pirate]
+types: [Action]
+subtypes: [Attack]
+keywords: [High Tide]
+unique-id: QgnRKmWk6WG8RhnhRTkNB
+sets: [SEA, SGB]
+---
+
+**Swiftwater Sloop (blue)** — Pirate Action - Attack · cost 2 · 4 power · 2 defense
+
+"High Tide - If there are 2 or more blue cards in your pitch zone, this gets go again."
+
+Keywords: [[kw-high-tide]]
+Variants: [[card-swiftwater-sloop-red]] · [[card-swiftwater-sloop-yellow]]
+Rulings: search "Swiftwater Sloop" at https://cardvault.fabtcg.com/
+
+## Notes

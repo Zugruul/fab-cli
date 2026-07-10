@@ -1,0 +1,31 @@
+---
+tags: [card, clash-of-mountains, clash, mountains, guardian, action, attack, pitch-3, cost-4]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid wG6tBGKr7rb6TCjP7bBDC) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Clash of Mountains"
+full-name: "Clash of Mountains (blue)"
+color: blue
+pitch: 3
+cost: 4
+power: 6
+defense: 3
+classes: [Guardian]
+types: [Action]
+subtypes: [Attack]
+keywords: [Clash]
+unique-id: wG6tBGKr7rb6TCjP7bBDC
+sets: [BDD, MPG]
+---
+
+**Clash of Mountains (blue)** — Guardian Action - Attack · cost 4 · 6 power · 3 defense
+
+"When this defends a Guardian attack, clash with the attacking hero. The winner creates a Seismic Surge token."
+
+Keywords: [[kw-clash]]
+Variants: [[card-clash-of-mountains-red]] · [[card-clash-of-mountains-yellow]]
+Rulings: search "Clash of Mountains" at https://cardvault.fabtcg.com/
+
+## Notes

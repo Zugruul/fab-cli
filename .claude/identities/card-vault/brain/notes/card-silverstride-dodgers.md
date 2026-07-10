@@ -1,0 +1,26 @@
+---
+tags: [card, silverstride-dodgers, silverstride, dodgers, warrior, equipment, legs, temper]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLHCbFDHBQbzKGTTBq8PW) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Silverstride Dodgers"
+defense: 1
+classes: [Warrior]
+types: [Equipment]
+subtypes: [Legs]
+keywords: [Temper]
+unique-id: qLHCbFDHBQbzKGTTBq8PW
+sets: [AHA]
+---
+
+**Silverstride Dodgers** — Warrior Equipment - Legs · 1 defense
+
+"If you control a Flurry token, this gets +1{d}.
+Temper"
+
+Keywords: [[kw-temper]]
+Rulings: search "Silverstride Dodgers" at https://cardvault.fabtcg.com/
+
+## Notes

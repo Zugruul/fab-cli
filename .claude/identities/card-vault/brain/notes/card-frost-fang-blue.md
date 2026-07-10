@@ -1,0 +1,29 @@
+---
+tags: [card, frost-fang, frost, fang, ice, action, attack, pitch-3, cost-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid dcLgct9B7DmJnG6WbHpQk) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Frost Fang"
+full-name: "Frost Fang (blue)"
+color: blue
+pitch: 3
+cost: 2
+power: 3
+defense: 2
+talents: [Ice]
+types: [Action]
+subtypes: [Attack]
+unique-id: dcLgct9B7DmJnG6WbHpQk
+sets: [ELE]
+---
+
+**Frost Fang (blue)** — Ice Action - Attack · cost 2 · 3 power · 2 defense
+
+"If Frost Fang hits a hero, they discard a card unless they pay {r}{r}."
+
+Variants: [[card-frost-fang-red]] · [[card-frost-fang-yellow]]
+Rulings: search "Frost Fang" at https://cardvault.fabtcg.com/
+
+## Notes

@@ -1,0 +1,26 @@
+---
+tags: [card, electromagnetic-somersault, electromagnetic, somersault, lightning, instant, pitch-1, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid BM6cWKkWT7zRBLb7P77pg) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Electromagnetic Somersault"
+full-name: "Electromagnetic Somersault (red)"
+color: red
+pitch: 1
+cost: 0
+talents: [Lightning]
+types: [Instant]
+unique-id: BM6cWKkWT7zRBLb7P77pg
+sets: [AST, ROS]
+---
+
+**Electromagnetic Somersault (red)** — Lightning Instant · cost 0
+
+"Choose up to 2 attack action cards with cost 0 or more on the active chain link. Return them to their owner's hand when the chain link resolves."
+
+Variants: [[card-electromagnetic-somersault-yellow]] · [[card-electromagnetic-somersault-blue]]
+Rulings: search "Electromagnetic Somersault" at https://cardvault.fabtcg.com/
+
+## Notes

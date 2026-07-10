@@ -1,0 +1,27 @@
+---
+tags: [card, scalding-rain, scalding, rain, wizard, action, pitch-2, cost-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid B6mRfRqMMNH7QC8CmFFmf) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Scalding Rain"
+full-name: "Scalding Rain (yellow)"
+color: yellow
+pitch: 2
+cost: 1
+defense: 3
+classes: [Wizard]
+types: [Action]
+unique-id: B6mRfRqMMNH7QC8CmFFmf
+sets: [1HP, ARC]
+---
+
+**Scalding Rain (yellow)** — Wizard Action · cost 1 · 3 defense
+
+"Deal 3 arcane damage to target hero."
+
+Variants: [[card-scalding-rain-red]] · [[card-scalding-rain-blue]]
+Rulings: search "Scalding Rain" at https://cardvault.fabtcg.com/
+
+## Notes

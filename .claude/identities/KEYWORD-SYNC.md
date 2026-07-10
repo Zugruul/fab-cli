@@ -44,7 +44,7 @@ Every `kw-<slug>.md` must match this shape exactly:
 
 ```markdown
 ---
-tags: [cr, keyword, <category>]
+tags: [cr, keyword, <category>, <keyword-name>]
 paths: []
 strength: <int>
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR <sec>) — vendored: third_party/fab-rules/en-fab-cr.txt"
@@ -62,6 +62,7 @@ Index: [[keywords-index]]. When ruling, cite CR <sec>; verify against the vendor
 
 Constraints enforced:
 - frontmatter keys exactly `tags, paths, strength, source, graduated, created`, in that order;
+- the 4th tag is the keyword's own name (the slug minus `kw-`, and minus `token-` for tokens) — the direct recall handle;
 - `<category>` ∈ `type` (CR 8.1) | `subtype` (8.2) | `ability` (8.3) | `label` (8.4) | `effect` (8.5) | `token` (8.6) — and it must agree between the tags and the header line;
 - the CR section `<sec>` must be identical in `source`, the header line, and the trailer line, and must live under the category's CR chapter;
 - token keywords are named `kw-token-<name>` and use category `token`.

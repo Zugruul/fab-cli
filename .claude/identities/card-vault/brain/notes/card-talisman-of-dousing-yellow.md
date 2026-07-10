@@ -1,0 +1,29 @@
+---
+tags: [card, talisman-of-dousing, talisman, dousing, generic, action, item, go-again, spellvoid-1, pitch-2, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid RnBBWkdHbRb6tCRPF8Mpq) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Talisman of Dousing"
+full-name: "Talisman of Dousing (yellow)"
+color: yellow
+pitch: 2
+cost: 0
+classes: [Generic]
+types: [Action]
+subtypes: [Item]
+keywords: [Go again, Spellvoid 1]
+unique-id: RnBBWkdHbRb6tCRPF8Mpq
+sets: [MON]
+---
+
+**Talisman of Dousing (yellow)** — Generic Action - Item · cost 0
+
+"Go again
+Spellvoid 1"
+
+Keywords: [[kw-go-again]] · [[kw-spellvoid]]
+Rulings: search "Talisman of Dousing" at https://cardvault.fabtcg.com/
+
+## Notes

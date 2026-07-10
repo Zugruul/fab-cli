@@ -1,5 +1,5 @@
 ---
-tags: [cr, keyword, ability]
+tags: [cr, keyword, ability, dominate]
 paths: []
 strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.3.4) — vendored: third_party/fab-rules/en-fab-cr.txt"

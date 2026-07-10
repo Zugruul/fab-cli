@@ -1,0 +1,22 @@
+---
+tags: [card, enchanted-quiver, enchanted, quiver, ranger, equipment]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWPHzh8wWpWNgwmQWgt7C) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Enchanted Quiver"
+classes: [Ranger]
+types: [Equipment]
+subtypes: [Quiver]
+unique-id: CWPHzh8wWpWNgwmQWgt7C
+sets: [HNT]
+---
+
+**Enchanted Quiver** — Ranger Equipment - Quiver
+
+"Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2."
+
+Rulings: search "Enchanted Quiver" at https://cardvault.fabtcg.com/
+
+## Notes

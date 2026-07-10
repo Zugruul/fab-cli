@@ -1,0 +1,31 @@
+---
+tags: [card, macho-grande, macho, grande, guardian, action, attack, dominate, pitch-2, cost-7]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid rhW9zNJCfhP8RG7fHCLLH) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Macho Grande"
+full-name: "Macho Grande (yellow)"
+color: yellow
+pitch: 2
+cost: 7
+power: 9
+defense: 3
+classes: [Guardian]
+types: [Action]
+subtypes: [Attack]
+keywords: [Dominate]
+unique-id: rhW9zNJCfhP8RG7fHCLLH
+sets: [EVR, LGS, MPG]
+---
+
+**Macho Grande (yellow)** — Guardian Action - Attack · cost 7 · 9 power · 3 defense
+
+"Dominate"
+
+Keywords: [[kw-dominate]]
+Variants: [[card-macho-grande-red]] · [[card-macho-grande-blue]]
+Rulings: search "Macho Grande" at https://cardvault.fabtcg.com/
+
+## Notes

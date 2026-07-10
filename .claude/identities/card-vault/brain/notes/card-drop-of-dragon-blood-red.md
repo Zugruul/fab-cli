@@ -1,0 +1,29 @@
+---
+tags: [card, drop-of-dragon-blood, drop, dragon, blood, draconic, instant, legendary, pitch-1, cost-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBTGtg7LJbjTBWDGQDknH) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Drop of Dragon Blood"
+full-name: "Drop of Dragon Blood (red)"
+color: red
+pitch: 1
+cost: 2
+talents: [Draconic]
+types: [Instant]
+keywords: [Legendary]
+unique-id: pBTGtg7LJbjTBWDGQDknH
+sets: [HNT]
+---
+
+**Drop of Dragon Blood (red)** — Draconic Instant · cost 2
+
+"Legendary
+This costs {r} less to play for each Draconic chain link you control.
+Gain {r}. Draw a card."
+
+Keywords: [[kw-legendary]]
+Rulings: search "Drop of Dragon Blood" at https://cardvault.fabtcg.com/
+
+## Notes

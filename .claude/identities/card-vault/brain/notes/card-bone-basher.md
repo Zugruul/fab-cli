@@ -1,0 +1,23 @@
+---
+tags: [card, bone-basher, bone, basher, brute, weapon, club, 2h]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid LCbjKjHJJd8JJDNWrd6CC) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Bone Basher"
+power: 4
+classes: [Brute]
+types: [Weapon]
+subtypes: [Club, 2H]
+unique-id: LCbjKjHJJd8JJDNWrd6CC
+sets: [RVD]
+---
+
+**Bone Basher** — Brute Weapon - Club (2H) · 4 power
+
+"Once per Turn Action - {r}{r}: Attack"
+
+Rulings: search "Bone Basher" at https://cardvault.fabtcg.com/
+
+## Notes

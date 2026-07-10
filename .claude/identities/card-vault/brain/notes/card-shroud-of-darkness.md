@@ -1,0 +1,25 @@
+---
+tags: [card, shroud-of-darkness, shroud, darkness, shadow, equipment, head, blood-debt]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lzr8Htn8MrNnMggczHwGd) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Shroud of Darkness"
+talents: [Shadow]
+types: [Equipment]
+subtypes: [Head]
+keywords: [Blood Debt]
+unique-id: Lzr8Htn8MrNnMggczHwGd
+sets: [DTD]
+---
+
+**Shroud of Darkness** — Shadow Equipment - Head
+
+"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+Blood Debt"
+
+Keywords: [[kw-blood-debt]]
+Rulings: search "Shroud of Darkness" at https://cardvault.fabtcg.com/
+
+## Notes

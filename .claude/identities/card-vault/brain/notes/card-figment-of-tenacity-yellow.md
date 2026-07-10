@@ -1,0 +1,30 @@
+---
+tags: [card, figment-of-tenacity, figment, tenacity, illusionist, light, instant, legendary, dominate, pitch-2, cost-4]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtTHBQB9qrJDzrMpJtfRw) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Figment of Tenacity"
+full-name: "Figment of Tenacity (yellow)"
+color: yellow
+pitch: 2
+cost: 4
+classes: [Illusionist]
+talents: [Light]
+types: [Instant]
+subtypes: [Figment]
+keywords: [Legendary, Dominate]
+unique-id: mtTHBQB9qrJDzrMpJtfRw
+sets: [DTD]
+---
+
+**Figment of Tenacity (yellow)** — Light Illusionist Instant - Figment · cost 4
+
+"Legendary
+When this enters the arena, your next attack this turn gets dominate."
+
+Keywords: [[kw-legendary]] · [[kw-dominate]]
+Rulings: search "Figment of Tenacity" at https://cardvault.fabtcg.com/
+
+## Notes

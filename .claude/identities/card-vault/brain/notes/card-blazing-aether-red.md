@@ -1,0 +1,29 @@
+---
+tags: [card, blazing-aether, blazing, aether, wizard, action, kano-specialization, pitch-1, cost-0]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjKPwTWCd7MTFkBpg6QzM) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Blazing Aether"
+full-name: "Blazing Aether (red)"
+color: red
+pitch: 1
+cost: 0
+defense: 3
+classes: [Wizard]
+types: [Action]
+keywords: [Kano Specialization]
+unique-id: mjKPwTWCd7MTFkBpg6QzM
+sets: [1HP, ARC]
+---
+
+**Blazing Aether (red)** — Wizard Action · cost 0 · 3 defense
+
+"Kano Specialization
+Deal X arcane damage to target hero, where X is the amount of arcane damage you have dealt to that hero this turn."
+
+Keywords: [[kw-specialization]]
+Rulings: search "Blazing Aether" at https://cardvault.fabtcg.com/
+
+## Notes

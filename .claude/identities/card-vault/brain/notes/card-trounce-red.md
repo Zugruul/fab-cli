@@ -1,0 +1,28 @@
+---
+tags: [card, trounce, guardian, block, clash, pitch-1]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9Mw8DBq9hPqKnPRrwCHz) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Trounce"
+full-name: "Trounce (red)"
+color: red
+pitch: 1
+defense: 3
+classes: [Guardian]
+types: [Block]
+keywords: [Clash]
+unique-id: p9Mw8DBq9hPqKnPRrwCHz
+sets: [HVY]
+---
+
+**Trounce (red)** — Guardian Block · 3 defense
+
+"When this defends, clash with the attacking hero. Put the revealed cards on the bottom of their owner's deck, then clash again.
+If a hero wins both clashes, they create a Gold, Might, and Vigor token."
+
+Keywords: [[kw-clash]]
+Rulings: search "Trounce" at https://cardvault.fabtcg.com/
+
+## Notes

@@ -1,0 +1,29 @@
+---
+tags: [card, stony-woottonhog, stony, woottonhog, generic, action, attack, pitch-2, cost-2]
+paths: []
+strength: 1
+source: "third_party/flesh-and-blood-cards json/english/card.json (uid RnbGbqBjNFp8HMNrzKWHp) · https://cardvault.fabtcg.com/"
+graduated: false
+created: 2026-07-10
+name: "Stony Woottonhog"
+full-name: "Stony Woottonhog (yellow)"
+color: yellow
+pitch: 2
+cost: 2
+power: 5
+defense: 2
+classes: [Generic]
+types: [Action]
+subtypes: [Attack]
+unique-id: RnbGbqBjNFp8HMNrzKWHp
+sets: [MON]
+---
+
+**Stony Woottonhog (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense
+
+"While Stony Woottonhog is defended by less than 2 non-equipment cards, it has +1{p}."
+
+Variants: [[card-stony-woottonhog-red]] · [[card-stony-woottonhog-blue]]
+Rulings: search "Stony Woottonhog" at https://cardvault.fabtcg.com/
+
+## Notes
