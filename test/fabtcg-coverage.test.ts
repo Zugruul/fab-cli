@@ -22,9 +22,7 @@ describe("fetchCoverageIndex (offline, HTTP mocked)", () => {
     mock = installHttpMock();
   });
 
-  afterEach(() => {
-    restoreHttpMock(mock);
-  });
+  afterEach(() => restoreHttpMock(mock));
 
   it("parses a captured coverage page fully offline", async () => {
     const html = readFixture("coverage-index.pro-tour-example.html");
