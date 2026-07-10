@@ -9,8 +9,7 @@ created: 2026-07-10
 
 # Keywords index — ALL Flesh & Blood keywords (CR chapter 8)
 
-HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, mint/update per-keyword notes, update this index. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]].
-
+HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, mint/update per-keyword notes in the JUDGE brain, then run `scripts/keyword-sync.py sync` — never edit this file or any kw-* note by hand outside the judge brain. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]]. Sync process: .claude/identities/KEYWORD-SYNC.md.
 
 ## Type keywords (CR 8.1) (14)
 
@@ -20,17 +19,17 @@ HARD RULE: this index must reference EVERY keyword; each keyword is its own note
 
 [[kw-1h]] · [[kw-2h]] · [[kw-attack]] · [[kw-aura]] · [[kw-item]] · [[kw-arrow]] · [[kw-trap]] · [[kw-ally]] · [[kw-landmark]] · [[kw-off-hand]] · [[kw-affliction]] · [[kw-ash]] · [[kw-invocation]] · [[kw-construct]] · [[kw-quiver]] · [[kw-figment]]
 
-## Ability keywords (CR 8.3) (43)
+## Ability keywords (CR 8.3) (41)
 
-[[kw-attack]] · [[kw-battleworn]] · [[kw-blade-break]] · [[kw-dominate]] · [[kw-go-again]] · [[kw-legendary]] · [[kw-specialization]] · [[kw-arcane-barrier]] · [[kw-boost]] · [[kw-temper]] · [[kw-blood-debt]] · [[kw-mentor]] · [[kw-phantasm]] · [[kw-spectra]] · [[kw-spellvoid]] · [[kw-essence]] · [[kw-fusion]] · [[kw-heave]] · [[kw-quell]] · [[kw-ward]] · [[kw-ephemeral]] · [[kw-overpower]] · [[kw-piercing]] · [[kw-stealth]] · [[kw-mirage]] · [[kw-pairs-with-object]] · [[kw-rune-gate]] · [[kw-ambush]] · [[kw-crank]] · [[kw-modular]] · [[kw-protect]] · [[kw-scrap]] · [[kw-beat-chest]] · [[kw-guardwell]] · [[kw-universal]] · [[kw-cloaked]] · [[kw-arcane-shelter]] · [[kw-meld]] · [[kw-perched]] · [[kw-unlimited]] · [[kw-watery-grave]] · [[kw-suspense]] · [[kw-fragment]]
+[[kw-battleworn]] · [[kw-blade-break]] · [[kw-dominate]] · [[kw-go-again]] · [[kw-legendary]] · [[kw-specialization]] · [[kw-arcane-barrier]] · [[kw-boost]] · [[kw-temper]] · [[kw-blood-debt]] · [[kw-phantasm]] · [[kw-spectra]] · [[kw-spellvoid]] · [[kw-essence]] · [[kw-fusion]] · [[kw-heave]] · [[kw-quell]] · [[kw-ward]] · [[kw-ephemeral]] · [[kw-overpower]] · [[kw-piercing]] · [[kw-stealth]] · [[kw-mirage]] · [[kw-pairs-with-object]] · [[kw-rune-gate]] · [[kw-ambush]] · [[kw-crank]] · [[kw-modular]] · [[kw-protect]] · [[kw-scrap]] · [[kw-beat-chest]] · [[kw-guardwell]] · [[kw-universal]] · [[kw-cloaked]] · [[kw-arcane-shelter]] · [[kw-meld]] · [[kw-perched]] · [[kw-unlimited]] · [[kw-watery-grave]] · [[kw-suspense]] · [[kw-fragment]]
 
 ## Label keywords (CR 8.4) (21)
 
 [[kw-combo]] · [[kw-crush]] · [[kw-reprise]] · [[kw-channel]] · [[kw-material]] · [[kw-rupture]] · [[kw-contract]] · [[kw-surge]] · [[kw-solflare]] · [[kw-unity]] · [[kw-evo-upgrade]] · [[kw-galvanize]] · [[kw-tower]] · [[kw-decompose]] · [[kw-bond]] · [[kw-flow]] · [[kw-heavy]] · [[kw-high-tide]] · [[kw-go-fish]] · [[kw-quickstrike]] · [[kw-starfall]]
 
-## Effect keywords (CR 8.5) (58)
+## Effect keywords (CR 8.5) (57)
 
-[[kw-banish]] · [[kw-create-token]] · [[kw-deal-damage]] · [[kw-destroy]] · [[kw-discard]] · [[kw-draw]] · [[kw-gain-asset]] · [[kw-gets-numerical-property]] · [[kw-gets-is-non-numerical-property]] · [[kw-intimidate]] · [[kw-look]] · [[kw-lose-asset]] · [[kw-loses-non-numerical-property]] · [[kw-put-counter]] · [[kw-put-return-object]] · [[kw-remove-counter]] · [[kw-reveal]] · [[kw-roll]] · [[kw-search]] · [[kw-shuffle]] · [[kw-name]] · [[kw-opt]] · [[kw-reload]] · [[kw-turn]] · [[kw-become-copy]] · [[kw-negate]] · [[kw-repeat]] · [[kw-reroll]] · [[kw-charge]] · [[kw-distribute]] · [[kw-pay]] · [[kw-add-defend]] · [[kw-ignore]] · [[kw-freeze]] · [[kw-gain-control]] · [[kw-transform]] · [[kw-unfreeze]] · [[kw-attack-with]] · [[kw-contract]] · [[kw-create-card]] · [[kw-equip]] · [[kw-move-counter]] · [[kw-awaken]] · [[kw-pitch]] · [[kw-clash]] · [[kw-wager]] · [[kw-amp]] · [[kw-transcend]] · [[kw-exchange]] · [[kw-mark]] · [[kw-retrieve]] · [[kw-return-to-the-brood]] · [[kw-give]] · [[kw-steal]] · [[kw-tap]] · [[kw-untap]] · [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-sharpen]]
+[[kw-banish]] · [[kw-create-token]] · [[kw-deal-damage]] · [[kw-destroy]] · [[kw-discard]] · [[kw-draw]] · [[kw-gain-asset]] · [[kw-gets-numerical-property]] · [[kw-gets-is-non-numerical-property]] · [[kw-intimidate]] · [[kw-look]] · [[kw-lose-asset]] · [[kw-loses-non-numerical-property]] · [[kw-put-counter]] · [[kw-put-return-object]] · [[kw-remove-counter]] · [[kw-reveal]] · [[kw-roll]] · [[kw-search]] · [[kw-shuffle]] · [[kw-name]] · [[kw-opt]] · [[kw-reload]] · [[kw-turn]] · [[kw-become-copy]] · [[kw-negate]] · [[kw-repeat]] · [[kw-reroll]] · [[kw-charge]] · [[kw-distribute]] · [[kw-pay]] · [[kw-add-defend]] · [[kw-ignore]] · [[kw-freeze]] · [[kw-gain-control]] · [[kw-transform]] · [[kw-unfreeze]] · [[kw-attack-with]] · [[kw-create-card]] · [[kw-equip]] · [[kw-move-counter]] · [[kw-awaken]] · [[kw-pitch]] · [[kw-clash]] · [[kw-wager]] · [[kw-amp]] · [[kw-transcend]] · [[kw-exchange]] · [[kw-mark]] · [[kw-retrieve]] · [[kw-return-to-the-brood]] · [[kw-give]] · [[kw-steal]] · [[kw-tap]] · [[kw-untap]] · [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-sharpen]]
 
 ## Token keywords (CR 8.6) (38)
 

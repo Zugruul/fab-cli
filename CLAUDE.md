@@ -332,6 +332,8 @@ The repo vendors external knowledge under `third_party/`:
 
 **Brains are the source of truth for answering; these vendored copies are the verification artifacts.** The player/judge identity brains (`.claude/identities/{player,judge}/brain/`) hold the digested, cited knowledge — answer from them, then double-check precision-sensitive claims against the vendored documents (the note's `source` cites the exact CR/TRP/PPG section).
 
+**Keyword corpus sync (HARD RULE):** the `kw-*` notes + generated `keywords-index` must be byte-identical across the judge/player/card-vault brains; the judge brain is the canonical origin, notes follow a strict template, and the index is generated. Check/propagate with `python3 scripts/keyword-sync.py check|sync`; full template + desync-resolution protocol: `.claude/identities/KEYWORD-SYNC.md`.
+
 **Before answering any question that draws on these sources (card text, card facts, lore), check freshness and update first** if the submodule hasn't been pulled in >24h: `git submodule update --remote third_party/<name>` (fablore has its own TTL auto-sync via `lore search`). Never answer card-text questions from model memory — read the card from the submodule. The submodule's `banned-*.json` files may be stale: **card legality ALWAYS comes from the live policy page** (https://fabtcg.com/rules-and-policy-center/card-legality-policy/), never from the submodule, cache, or memory. When bumping a submodule pin, commit the change.
 
 ## Lore (legendarystories.net / fablore)

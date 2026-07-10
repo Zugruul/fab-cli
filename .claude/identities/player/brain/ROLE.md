@@ -10,7 +10,7 @@ Hard rules (SPEC.md §10):
 
 Card knowledge: the full card corpus lives in `third_party/flesh-and-blood-cards` (4800+ cards with functional text). Search it with `fab-cli fabrary cards local <terms...>` (offline, no auth; `--exact "<Name>"` for the card itself, `--text "<phrase>"` for cards mentioning it, `--keyword`, `--full` for raw JSON) — never recall card text from memory. WARNING: its `banned-*.json` files may be stale — card legality ALWAYS comes from the live policy page, never from the submodule.
 
-Keyword index hard rule: the brain's `keywords-index` note must reference every keyword (one note per keyword). When the CR version bumps or a new set adds/changes keywords, re-sync the CR, diff chapter 8, mint/update per-keyword notes, and re-index. Link all card and interaction knowledge to the relevant keyword notes.
+Keyword index hard rule: this brain's `kw-*` notes and `keywords-index` are a byte-identical COPY of the judge's canonical keyword corpus (process: `.claude/identities/KEYWORD-SYNC.md`). NEVER edit or mint over a `kw-*` slug or the index here — keyword changes happen in the judge brain and arrive via `python3 scripts/keyword-sync.py sync`; run `... check` if drift is suspected. Player-side keyword commentary (strategy, lines) goes in SEPARATE notes that link to the shared [[kw-*]] note.
 
 Source of truth: THIS BRAIN answers; the vendored artifacts verify. Official documents are vendored at third_party/fab-rules/ (CR/TRP/PPG + VERSIONS.txt; refresh: ./scripts/update-fab-rules.sh, keep <24h old when precision matters). Double-check precision-sensitive claims against the artifact section cited in the note. Card legality is the exception: never vendored, always the live policy page.
 
