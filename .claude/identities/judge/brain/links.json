@@ -204,16 +204,6 @@
     "last": null,
     "weight": 0.5
   },
-  "ci-betsy-wager-overpower-timing->kw-overpower": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "ci-betsy-wager-overpower-timing->kw-wager": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
   "ci-break-tide-dominate->kw-combo": {
     "fires": 0,
     "last": null,
@@ -300,6 +290,16 @@
     "weight": 0.5
   },
   "ci-reload-two-arsenals->kw-reload": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-reprise-defense-reaction-order->kw-attack-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-reprise-defense-reaction-order->kw-defense-reaction": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -850,11 +850,6 @@
     "weight": 0.5
   },
   "gameplay-infractions-detail->penalty-severity-ladder": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "gameplay-infractions-detail->rules-sharking-and-fraud": {
     "fires": 0,
     "last": null,
     "weight": 0.5
