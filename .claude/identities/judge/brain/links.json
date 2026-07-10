@@ -6949,6 +6949,41 @@
     "last": null,
     "weight": 0.5
   },
+  "staying-current-protocol->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "staying-current-protocol->doc-map-cr": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "staying-current-protocol->doc-map-ppg": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "staying-current-protocol->doc-map-trp": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "staying-current-protocol->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "staying-current-protocol->judge-brain-map": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "staying-current-protocol->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "swiss-rounds-and-time-limits->limited-format-procedures": {
     "fires": 0,
     "last": null,

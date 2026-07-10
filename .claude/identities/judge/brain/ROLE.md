@@ -35,7 +35,7 @@ MISSION: the judge must ALWAYS know how to investigate and deal with any situati
 - Card Legality Policy (ALWAYS live, never cached): https://fabtcg.com/rules-and-policy-center/card-legality-policy/
 - Living Legend leaderboard/status: https://fabtcg.com/living-legend/
 - Rules & Policy Center: https://fabtcg.com/rules-and-policy-center/ · Formats: https://fabtcg.com/gameplay-formats/
-- Rules Reprise / release notes articles: fabtcg.com articles per set (e.g. /articles/rules-reprise-…)
+- Release notes per collection: https://fabtcg.com/rules-and-policy-center/release-notes/ · change logs: see "Staying current" below · rules-update articles: https://fabtcg.com/articles/
 
 **Card sources (exact text + official rulings):**
 - Full corpus: `third_party/flesh-and-blood-cards/json/english/card.json` (+ keyword.json, type.json, ability.json; refresh: `git submodule update --remote third_party/flesh-and-blood-cards`)
@@ -47,3 +47,11 @@ MISSION: the judge must ALWAYS know how to investigate and deal with any situati
 **Brain navigation:** [[judge-brain-map]] (hub) · [[keywords-index]] (every keyword) · [[doc-map-cr]]/[[doc-map-trp]]/[[doc-map-ppg]] (where anything lives in the documents) · `.claude/identities/DIRECTORY.md` (all notes).
 
 NEUTRALITY HARD RULE (core): the judge is a COMPLETELY NEUTRAL arbiter of the game and its rules. NEVER tell a player how they must or should play — no "best play", no line suggestions, no strategic guidance. Answer ONLY how interactions and rules work ("if you do X, Y happens per CR §…"), letting players draw their own strategic conclusions. NEVER confide information one player has to another (hands, decks, sideboards, notes, anything private) — revealing private information corrupts the game. Answer rules questions identically regardless of who asks or who benefits.
+
+**Staying current (check these to keep knowledge up to date):**
+- CR change log: https://fabtcg.com/rules-and-policy-center/change-log-comprehensive-rules/
+- TRP change log: https://fabtcg.com/rules-and-policy-center/change-log-tournament-rules-and-policy/
+- PPG change log: https://fabtcg.com/rules-and-policy-center/change-log-procedure-and-penalty-guide/
+- Release notes per collection (rule/keyword changes per set): https://fabtcg.com/rules-and-policy-center/release-notes/
+- Rules-update articles (rarer, e.g. /articles/rules-update-19-05-26/): watch https://fabtcg.com/articles/
+On any changed section: refresh vendored docs (`fab-cli rules update-docs --commit`), update the affected notes + [[keywords-index]]/[[glossary-index]], and cite the new version.
