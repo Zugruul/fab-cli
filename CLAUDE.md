@@ -18,6 +18,7 @@ src/meta.ts         — Meta results from content.fabrary.net (hero win rates, p
 src/fabtcg.ts       — fabtcg.com: events, tournament coverage, decklists, standings
 src/cardvault.ts    — official Card Vault API: card search + TRUE text (authoritative per CR 2.0.2)
 src/lore.ts         — F&B lore KB: index/search/OKF from the fablore submodule
+src/format.ts       — format alias resolution, shared by cli.ts's --format flag handling
 
 scripts/best-decks-by-hero.ts — Reusable batch report: best N decks per hero for a format
 
