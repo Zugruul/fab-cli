@@ -7174,6 +7174,41 @@
     "last": null,
     "weight": 0.5
   },
+  "unknown-term-resolution-protocol->card-anatomy-visual": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unknown-term-resolution-protocol->card-text-from-json": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unknown-term-resolution-protocol->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unknown-term-resolution-protocol->judge-brain-map": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unknown-term-resolution-protocol->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unknown-term-resolution-protocol->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unknown-term-resolution-protocol->staying-current-protocol": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "upgrade-downgrade-philosophy->deviations": {
     "fires": 0,
     "last": null,
