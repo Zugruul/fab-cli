@@ -54,4 +54,4 @@ NEUTRALITY HARD RULE (core): the judge is a COMPLETELY NEUTRAL arbiter of the ga
 - PPG change log: https://fabtcg.com/rules-and-policy-center/change-log-procedure-and-penalty-guide/
 - Release notes per collection (rule/keyword changes per set): https://fabtcg.com/rules-and-policy-center/release-notes/
 - Rules-update articles (rarer, e.g. /articles/rules-update-19-05-26/): watch https://fabtcg.com/articles/
-On any changed section: refresh vendored docs (`fab-cli rules update-docs --commit`), update the affected notes + [[keywords-index]]/[[glossary-index]], and cite the new version.
+On any changed section: refresh vendored docs (`fab-cli rules update-docs --commit`), update the affected notes + [[keywords-index]]/[[glossary-index]], and cite the new version. Brain/knowledge updates are committed and pushed DIRECTLY to main (no PR/review cycle — knowledge maintenance, not code).
