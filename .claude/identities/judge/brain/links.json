@@ -1,0 +1,802 @@
+{
+  "card-legality-live-fetch->card-text-from-json": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-legality-live-fetch->official-formats": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-legality-live-fetch->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-text-from-json->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-text-from-json->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-text-from-json->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-text-from-json->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-text-from-json->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "casual-rel-procedures->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "casual-rel-procedures->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "casual-rel-procedures->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "cheating-vs-error->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "cheating-vs-error->missed-trigger-timing-windows": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "cheating-vs-error->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "cheating-vs-error->slow-play-vs-stalling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-chain-steps->priority-and-the-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-chain-steps->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->cheating-vs-error": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->player-eligibility-and-identification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->slow-play-vs-stalling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-overview->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deck-checks->decklists-registration": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deck-checks->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deck-checks->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "decklists-registration->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "decklists-registration->official-formats": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "decklists-registration->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deviations->escalation-ask-a-judge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deviations->handling-an-infraction-workflow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deviations->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "deviations->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "draws-and-concessions->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "draws-and-concessions->dropping-from-tournament": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "draws-and-concessions->end-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "dropping-from-tournament->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "dropping-from-tournament->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-game-procedure->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-game-procedure->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "escalation-ask-a-judge->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "escalation-ask-a-judge->card-text-from-json": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "escalation-ask-a-judge->deviations": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "escalation-ask-a-judge->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "escalation-ask-a-judge->judge-calls-and-appeals": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "escalation-ask-a-judge->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "event-tiers-and-rels->casual-rel-procedures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "event-tiers-and-rels->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "event-tiers-and-rels->tournament-roles": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "fixing-game-states->game-state-actions-and-death": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "fixing-game-states->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "fixing-game-states->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-base-loop->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-base-loop->priority-and-the-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-information-categories->judge-calls-and-appeals": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-information-categories->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-state-actions-and-death->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-state-actions-and-death->end-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-state-actions-and-death->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-state-actions-and-death->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-overview->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-overview->missed-trigger-timing-windows": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-overview->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-overview->start-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-overview->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "handling-an-infraction-workflow->deviations": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "handling-an-infraction-workflow->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "handling-an-infraction-workflow->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "handling-an-infraction-workflow->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "handling-an-infraction-workflow->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "head-judge-authority->deviations": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "head-judge-authority->escalation-ask-a-judge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "head-judge-authority->judge-calls-and-appeals": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "head-judge-authority->tournament-roles": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->card-text-from-json": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->casual-rel-procedures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->escalation-ask-a-judge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->game-base-loop": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->game-information-categories": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->game-state-actions-and-death": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->note-taking-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->official-formats": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->players-recognize-not-shark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->priority-and-the-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->shortcuts-and-out-of-order-play": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->tournament-roles": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-brain-map->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-calls-and-appeals->game-information-categories": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-calls-and-appeals->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "judge-calls-and-appeals->tournament-roles": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layers-and-continuous-effect-staging->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "missed-trigger-timing-windows->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "missed-trigger-timing-windows->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "missed-trigger-timing-windows->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "note-taking-rules->game-information-categories": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "note-taking-rules->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "official-formats->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "official-formats->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "penalty-severity-ladder->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "penalty-severity-ladder->handling-an-infraction-workflow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "penalty-severity-ladder->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "player-eligibility-and-identification->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "player-eligibility-and-identification->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "players-recognize-not-shark->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "players-recognize-not-shark->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "players-recognize-not-shark->judge-calls-and-appeals": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ppg-philosophy->casual-rel-procedures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ppg-philosophy->deviations": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ppg-philosophy->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ppg-philosophy->handling-an-infraction-workflow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ppg-philosophy->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "priority-and-the-stack->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "priority-and-the-stack->game-state-actions-and-death": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "priority-and-the-stack->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "replacement-effect-ordering->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "replacement-effect-ordering->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "round-structure-and-timing->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "round-structure-and-timing->end-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "round-structure-and-timing->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shortcuts-and-out-of-order-play->missed-trigger-timing-windows": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shortcuts-and-out-of-order-play->priority-and-the-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shuffling-and-marked-cards->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shuffling-and-marked-cards->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shuffling-and-marked-cards->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "slow-play-vs-stalling->cheating-vs-error": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "slow-play-vs-stalling->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "slow-play-vs-stalling->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "slow-play-vs-stalling->start-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "slow-play-vs-stalling->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "start-of-game-procedure->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "start-of-game-procedure->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-overview->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-overview->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-overview->decklists-registration": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-overview->note-taking-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-overview->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-overview->slow-play-vs-stalling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-roles->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-roles->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-roles->judge-calls-and-appeals": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "triggered-effects-and-ordering->game-state-actions-and-death": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "triggered-effects-and-ordering->missed-trigger-timing-windows": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "triggered-effects-and-ordering->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "upgrade-downgrade-philosophy->deviations": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "upgrade-downgrade-philosophy->handling-an-infraction-workflow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "upgrade-downgrade-philosophy->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}
