@@ -48,7 +48,7 @@ Existing modules stay: `algolia.ts`, `graphql.ts`, `cognito.ts`, `config.ts`, `d
 - `third_party/flesh-and-blood-cards` — git submodule of https://github.com/the-fab-cube/flesh-and-blood-cards (community-maintained full card database, JSON/CSV). Powers offline card search and card knowledge for the brains. (Why: complete card corpus, versioned, no API dependency — same vendoring pattern as fablore.)
 - `src/carddb.ts` — offline card search over the submodule: `fab-cli cards local <query>` with filters mirroring the online `cards search` flags where the data supports them.
 - `src/rules.ts` — rules KB following the proven `lore.ts` pattern: sync → chunked markdown + frontmatter (`kb/rules/`, index git-ignored) → search/show with `source_url` citations. Sources: CR, TRP, PPG (txt), Casual Procedure Guide (vendored PDF→text), legality policy (HTML→text, **never cached**).
-- `src/follow.ts` — live tournament follow: poll coverage pages on an interval, plain CLI output — initial summary then appended line-per-update (no TUI framework; decided against Ink/ANSI redraw, keeping the chalk/cli-table3 stack).
+- Live follow — a `--live` flag on the existing `fabtcg coverage --path` command (not a new command): poll coverage on an interval, print appended line-per-update after the standard `--path` summary (no TUI framework; chalk/cli-table3 stack).
 - `.claude/identities/{player,judge}/brain/` — advisory identity brains (zettel notes citing KB sources), registered in `.claude/project.yaml` `delegation.identities`.
 - Tests: vitest, all HTTP mocked via fixtures (`test/fixtures/`).
 
@@ -84,9 +84,9 @@ Existing modules stay: `algolia.ts`, `graphql.ts`, `cognito.ts`, `config.ts`, `d
 
 ## §9 Coverage & analysis features (E4, E5)
 
-- 9.1 WHEN `fab-cli fabtcg follow <event> <player>` runs THE SYSTEM SHALL resolve the player (reusing `--search-player` matching), then print a summary: header (event, player, per-format hero), per-round table (round, format, opponent, opposing hero, result), current record, and current standing when available.
-- 9.2 WHILE following THE SYSTEM SHALL re-poll coverage on an interval (default 60s, `--interval` flag) and print each new round/standing change as an appended timestamped line (plain CLI output, no screen redraw).
-- 9.3 WHEN the event publishes final standings THE SYSTEM SHALL render the final result and exit cleanly; Ctrl-C SHALL also exit cleanly at any time.
+- 9.1 Live follow extends the EXISTING `fab-cli fabtcg coverage <event> --path <player>` command with a `--live` flag (no new command — `--path` already resolves the player and prints the trajectory summary: header with per-format heroes, per-round table, record).
+- 9.2 WHILE `--live` is active THE SYSTEM SHALL re-poll coverage on an interval (default 60s, `--interval` flag) and print each new round result or standing change as an appended timestamped line (plain CLI output, no screen redraw); unchanged polls print nothing.
+- 9.3 WHEN the event publishes final standings THE SYSTEM SHALL print the player's final result and exit cleanly; Ctrl-C SHALL also exit cleanly at any time. WHERE `--live` is passed with `--search-player` resolution ambiguity THE SYSTEM SHALL list candidates and exit rather than guess.
 - 9.4 THE SYSTEM SHALL route fabtcg polling through the shared HTTP layer with TTL caching so unchanged rounds are not re-parsed and request rate stays polite (≤5 concurrent, backoff on 4xx/5xx).
 - 9.5 WHEN `fab-cli fabrary prep --hero <X> --vs <Y>` runs THE SYSTEM SHALL aggregate, from top decks of X with results, the X-vs-Y matchup: win rate + game count, and every available matchup guide for Y (sideboard diffs, turn-order preference, notes), labeled per source deck.
 - 9.6 WHERE `--json` is passed on search/top/deck/meta/cards/fabtcg-coverage commands THE SYSTEM SHALL emit machine-readable JSON to stdout with no ANSI/table decoration.

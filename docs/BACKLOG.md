@@ -82,13 +82,11 @@ Using the vendored card DB (§7.7) + CR + Card Vault rulings: mint notes on spec
 
 ## E4 — Live follow CLI (040–049) — blocked by E1
 
-### FAB-040 · `fabtcg follow <event> <player>`: resolution + summary output · P1 · 5pt · §9.1 §5
-Resolve player via existing search-player matching; plain CLI summary (chalk/cli-table3): header (event, player, per-format heroes), per-round table, current record, standing when available. Single-shot output first (no loop yet).
-**AC:** summary renders correctly from fixtures incl. dual-format events; unknown player → helpful candidates list.
+### FAB-040 · `--live` flag for `fabtcg coverage --path` · P1 · 5pt · §9.1 §9.2 §9.3 §9.4
+Extend the existing `coverage <event> --path <player>` (which already resolves the player and prints the trajectory summary) with `--live`: `--interval` polling (default 60s) through the cached HTTP layer; each new round result/standing change printed as an appended timestamped line; final-standings detection ends the session; clean Ctrl-C; ambiguous player → candidates list, exit.
+**AC:** unchanged poll causes no re-parse (cache hit tested) and prints nothing; new rounds print once each; exits cleanly on final standings and on SIGINT; works on dual-format events (fixtures).
 
-### FAB-041 · Live polling loop + appended updates · P1 · 5pt · §9.2 §9.3 §9.4
-`--interval` (default 60s) polling through the cached HTTP layer; each new round/standing change printed as an appended timestamped line; final-standings detection ends the session; clean Ctrl-C.
-**AC:** unchanged poll causes no re-parse (cache hit tested) and prints nothing; new rounds print once each; exits cleanly on final standings and on SIGINT.
+*(FAB-041 merged into FAB-040 — `--path` already provides the summary half.)*
 
 ## E5 — Fabrary analysis (050–059) — blocked by E1
 
