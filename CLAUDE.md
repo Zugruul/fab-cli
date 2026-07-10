@@ -322,7 +322,7 @@ These are common ways the user asks for things — translate them to the right C
 The repo vendors external knowledge under `third_party/`:
 - `third_party/fablore` — legendarystories.net lore source (submodule)
 - `third_party/flesh-and-blood-cards` — the-fab-cube full card database (submodule; json/english/card.json, 4800+ cards with functional text, keywords, types)
-- `third_party/fab-rules/` — official rules documents (CR, TRP, PPG txt + VERSIONS.txt); refresh with `./scripts/update-fab-rules.sh`
+- `third_party/fab-rules/` — official rules documents (CR, TRP, PPG txt + VERSIONS.txt). Refresh with `fab-cli rules update-docs` — validates each download (size + content sentinel + not-an-HTML-error-page) before replacing, refreshes VERSIONS.txt, and only commits when `--commit` is passed AND a document actually changed. (`scripts/update-fab-rules.sh` is the bare-curl fallback.)
 
 **Brains are the source of truth for answering; these vendored copies are the verification artifacts.** The player/judge identity brains (`.claude/identities/{player,judge}/brain/`) hold the digested, cited knowledge — answer from them, then double-check precision-sensitive claims against the vendored documents (the note's `source` cites the exact CR/TRP/PPG section).
 

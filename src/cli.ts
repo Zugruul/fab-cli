@@ -38,6 +38,7 @@ import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
 import { loginWithPassword } from "./cognito";
 import { ensureIndex, buildIndex, loadIndex, search as searchLore, findDoc, readDocBody, updateSubmodule } from "./lore";
+import { updateRulesDocs, commitRulesDocs, RULES_DIR } from "./rulesDocs";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
 
 const program = new Command();
@@ -877,6 +878,32 @@ function filterByDays(decks: AlgoliaDeck[], days: number): AlgoliaDeck[] {
   const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
   return decks.filter((d) => new Date(d.updatedAt).getTime() >= cutoff);
 }
+
+// ─── rules ─────────────────────────────────────────────────────────────────
+
+const rules = program
+  .command("rules")
+  .description("Official FAB rules documents (CR, TRP, PPG) vendored in third_party/fab-rules");
+
+rules
+  .command("update-docs")
+  .description("Redownload the vendored rules documents; replace only if validated (size + content sentinel), refresh VERSIONS.txt")
+  .option("--commit", "Auto-commit third_party/fab-rules when a document actually changed")
+  .action(async (opts: { commit?: boolean }) => {
+    console.log(chalk.dim(`Updating ${RULES_DIR} …`));
+    const results = await updateRulesDocs();
+    for (const r of results) {
+      const color = r.status === "failed" ? chalk.red : r.status === "updated" ? chalk.green : chalk.dim;
+      console.log(`  ${color(r.status.padEnd(9))} ${r.file}  ${chalk.dim(r.detail)}${r.lastModified ? chalk.dim(`  (last-modified: ${r.lastModified})`) : ""}`);
+    }
+    if (results.some((r) => r.status === "failed")) process.exitCode = 1;
+    if (opts.commit) {
+      const hash = commitRulesDocs(results);
+      console.log(hash ? chalk.green(`  committed ${hash}`) : chalk.dim("  nothing to commit"));
+    } else if (results.some((r) => r.status === "updated")) {
+      console.log(chalk.yellow("  documents changed — rerun with --commit to commit the update"));
+    }
+  });
 
 // ─── lore ──────────────────────────────────────────────────────────────────
 

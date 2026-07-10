@@ -1,4 +1,4 @@
-# Vendored FAB rules documents — refreshed 2026-07-10T04:49:20Z
-en-fab-cr.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 2391
-en-fab-trp.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 1078
-en-fab-ppg.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 674
+# Vendored FAB rules documents — refreshed 2026-07-10T04:52:15.645Z
+en-fab-cr.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 2392
+en-fab-trp.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 1079
+en-fab-ppg.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 675
