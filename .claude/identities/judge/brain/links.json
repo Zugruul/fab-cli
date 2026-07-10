@@ -194,6 +194,136 @@
     "last": "2026-07-11",
     "weight": 0.5
   },
+  "ci-annihilator-overpower->kw-overpower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-ash-material-clear->kw-material": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-betsy-wager-overpower-timing->kw-overpower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-betsy-wager-overpower-timing->kw-wager": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-break-tide-dominate->kw-combo": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-break-tide-dominate->kw-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-clash-no-power->kw-clash": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-crank-steam-timing->kw-crank": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-freeze-ambush-arsenal->kw-ambush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-freeze-ambush-arsenal->kw-freeze": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-fusion-aether-icevein->kw-fusion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-heavy-summit-modular->kw-heavy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-intimidate-alpha-rampage->kw-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-luminaris-spectral-shield-close->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-luminaris-spectral-shield-close->kw-token-spectral-shield": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-mark-hunters-klaive->kw-mark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-material-vs-blood-debt-zone->kw-material": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-negate-nitro-mechanoid-self->kw-negate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-phantasm-chain-close-timing->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-phantasm-chain-close-timing->kw-phantasm": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-piercing-drill-shot->kw-piercing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-reload-two-arsenals->kw-reload": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-retrieve-legal-equip-gate->kw-retrieve": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-spellvoid-arcanite-stacking->kw-spellvoid": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-steal-is-gain-control->kw-gain-control": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ci-steal-is-gain-control->kw-steal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "combat-chain-steps->priority-and-the-stack": {
     "fires": 2,
     "last": "2026-07-11",
