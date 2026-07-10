@@ -19,3 +19,11 @@ Thumbs.db
 # Lore retrieval index — rebuilt from the fablore submodule via `fab-cli lore sync`
 lore/index.json
 lore/.sync-state.json
+.claude/CHECKPOINT
+.claude/ITERATIVE_UI_OFF
+.claude/ui-hub/
+.claude/gate-pass
+.claude/telemetry.jsonl
+.claude/lessons.jsonl
+.claude/board-queue.jsonl
+.claude/board-cache.json

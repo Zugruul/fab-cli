@@ -1,0 +1,165 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Zugruul/development-skills/main/plugins/spec-workflow/schemas/project-config.schema.json
+schemaVersion: 2
+project:
+    name: fab-cli
+    description: TypeScript CLI for the Flesh & Blood TCG — fabrary.net deck/card/meta search, fabtcg.com tournament coverage, lore + official-rules knowledge bases
+    mainBranch: main
+    branchPattern: fab/<id>-<slug>
+boards:
+-   id: main
+    provider: github-project
+    owner: Zugruul
+    repo: Zugruul/fab-cli
+    projectNumber: 4
+    projectId: PVT_kwHOAL1A3M4Bc3Ze
+    fields:
+        status:
+            fieldId: PVTSSF_lAHOAL1A3M4Bc3ZezhXdFmY
+            options:
+                Backlog: 3cf5d510
+                In progress: d9e7b786
+                In review: f48a6458
+                QA: da295a16
+                Ready: 1faf18b6
+                Deployed: c7e2caf4
+        priority:
+            fieldId: PVTSSF_lAHOAL1A3M4Bc3ZezhXj7k0
+            options:
+                P0: 3c9a49a0
+                P1: a61159a7
+                P2: 748c7dc0
+        estimate:
+            fieldId: PVTF_lAHOAL1A3M4Bc3ZezhXj7k4
+    statusFlow:
+    - Backlog
+    - In progress
+    - In review
+    - QA
+    - Ready
+    - Deployed
+    labels:
+        bug: type:bug
+        feature: type:feature
+specs:
+-   id: fab
+    title: Hardening, Rules Knowledge & Coverage Tools
+    board: main
+    specPath: SPEC.md
+    backlogPath: docs/BACKLOG.md
+    taskPrefix: FAB
+    epics:
+    -   id: E0
+        title: Quality foundation
+        taskRanges:
+        -   - 1
+            - 9
+        blockedBy: []
+    -   id: E1
+        title: CLI decomposition & UX
+        taskRanges:
+        -   - 10
+            - 19
+        blockedBy:
+        -   epic: E0
+            untilStatus: Deployed
+    -   id: E2
+        title: Rules knowledge base
+        taskRanges:
+        -   - 20
+            - 29
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: E3
+        title: Player & judge identities
+        taskRanges:
+        -   - 30
+            - 39
+        blockedBy:
+        -   epic: E2
+            untilStatus: Deployed
+    -   id: E4
+        title: Live follow TUI
+        taskRanges:
+        -   - 40
+            - 49
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: E5
+        title: Fabrary analysis
+        taskRanges:
+        -   - 50
+            - 59
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: E6
+        title: Research docs
+        taskRanges:
+        -   - 60
+            - 69
+        blockedBy: []
+    -   id: EI
+        title: Infra reserve
+        taskRanges:
+        -   - 90
+            - 99
+        blockedBy: []
+    invariants:
+    - Never answer a Flesh & Blood rules, lore, or card-legality question from model memory or cached agent notes alone — every game-fact claim must cite a source retrieved from the local KB or a live official page at answer time.
+    - Card legality (bans, Living Legend rotation) must be re-fetched live from https://fabtcg.com/rules-and-policy-center/card-legality-policy/ every time it is asserted — never served from cache, brain notes, or memory; brain notes may only point at the policy, never enumerate it.
+    - Never mix content from other card games (Magic:The Gathering, Pokémon TCG, Yu-Gi-Oh!, One Piece TCG, or any other) into FAB code, KB, brains, or answers.
+    - All merge-gating tests must pass with the network disabled; live HTTP happens only behind explicit user commands, never in the gate.
+    - Respect upstream services — AppSync GraphQL concurrency ≤4 with retry/backoff (WAF 403s are rate limits, not auth failures — never re-login to fix them); fabtcg.com ≤5 concurrent with browser headers.
+    - The CLI must keep running via bin/fab.js + tsx with no build step; `npm i -g . --force` remains the install path.
+    - When rules passages do not clearly settle a question, the answer must say so and point to the judge Discord #ask-a-judge channel rather than guess.
+commands:
+    gate: npm run gate
+    gateFast: npm run test:run
+    test: npm run test:run
+docs:
+-   id: root
+    path: README.md
+    covers:
+    - '**'
+    notes: user-facing usage + install; update when commands or behavior change
+-   id: agent-guide
+    path: CLAUDE.md
+    covers:
+    - '**'
+    notes: agent-facing command reference + API/domain knowledge; update when command surface or API behavior changes
+delegation:
+    identities:
+        dev:
+        -   name: Dev Agent - {name}
+            email: '{local}+dev_agent@{domain}'
+            models:
+            - claude-sonnet-5
+        reviewer:
+            name: Reviewer Agent - {name}
+            email: '{local}+reviewer_agent@{domain}'
+            models:
+            - claude-sonnet-5
+            - claude-sonnet-5[1m]
+        orchestrator:
+            name: Orchestrator Agent - {name}
+            email: '{local}+orchestrator_agent@{domain}'
+        player:
+            name: Player Agent - {name}
+            email: '{local}+player_agent@{domain}'
+        judge:
+            name: Judge Agent - {name}
+            email: '{local}+judge_agent@{domain}'
+paths:
+    handoffDir: docs/handoffs
+    checkpointFile: .claude/CHECKPOINT
+    designDir: docs/design
+    specDeltaDir: docs/spec-deltas
+    devDoc: docs/DEV.md
+methodology:
+    tdd: true
+    maxInProgress: 1
+    autoMerge: true
+    mergeMethod: squash
+    feedback: true
