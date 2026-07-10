@@ -319,9 +319,12 @@ These are common ways the user asks for things — translate them to the right C
 
 ## Vendored knowledge repos — keep them up to date (HARD RULE)
 
-The repo vendors external knowledge as git submodules under `third_party/`:
-- `third_party/fablore` — legendarystories.net lore source
-- `third_party/flesh-and-blood-cards` — the-fab-cube full card database (json/english/card.json, 4800+ cards with functional text, keywords, types)
+The repo vendors external knowledge under `third_party/`:
+- `third_party/fablore` — legendarystories.net lore source (submodule)
+- `third_party/flesh-and-blood-cards` — the-fab-cube full card database (submodule; json/english/card.json, 4800+ cards with functional text, keywords, types)
+- `third_party/fab-rules/` — official rules documents (CR, TRP, PPG txt + VERSIONS.txt); refresh with `./scripts/update-fab-rules.sh`
+
+**Brains are the source of truth for answering; these vendored copies are the verification artifacts.** The player/judge identity brains (`.claude/identities/{player,judge}/brain/`) hold the digested, cited knowledge — answer from them, then double-check precision-sensitive claims against the vendored documents (the note's `source` cites the exact CR/TRP/PPG section).
 
 **Before answering any question that draws on these sources (card text, card facts, lore), check freshness and update first** if the submodule hasn't been pulled in >24h: `git submodule update --remote third_party/<name>` (fablore has its own TTL auto-sync via `lore search`). Never answer card-text questions from model memory — read the card from the submodule. The submodule's `banned-*.json` files may be stale: **card legality ALWAYS comes from the live policy page** (https://fabtcg.com/rules-and-policy-center/card-legality-policy/), never from the submodule, cache, or memory. When bumping a submodule pin, commit the change.
 

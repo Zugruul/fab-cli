@@ -1,0 +1,674 @@
+1 General
+1.1 Philosophy
+The game of Flesh and Blood is designed for in-person play, and with that comes the challenge of handling inevitable human error where the rules or policies of the game or tournament are broken. These errors (infractions) can be roughly categorized into gameplay, tournament, and conduct. Gameplay errors are infractions of the game rules as defined by the Comprehensive Rules. Tournament errors are infractions of the tournament rules as defined by Tournament Rules and Policy. Conduct errors are more general infractions that cover behavior and conduct. This document provides a guide for handling these infractions. It categorizes the most common infractions and provides insight into how to address them with procedures and penalties.
+When an infraction occurs during an event, the role of a judge is to act as an impartial arbiter to address the infraction by applying procedures and issuing penalties, educating the players, and equalizing any advantage gained. It should be recognized that no document could ever capture the context of every infraction that could occur and provide the exact procedures and penalties nuance it deserves. As such, the Judges for an event are empowered to deviate from this guide to provide the most appropriate ruling for given infractions.
+There are three principles behind ruling an infraction: education, equity, and mission.
+Education means ensuring that the player(s) understand the infraction and its consequences. Players should be made aware of the infraction they have committed, what has occurred, why it is an infraction, and what the process is to address it. Players are discouraged from committing an infraction if there is a penalty associated with it and are less likely to commit the same infraction in the future if they are aware of what they have done wrong - even more so when there is an increasing penalty.
+Equity means ensuring that the player(s) lose any advantage from committing the infraction. A procedure should be used to remedy the game state and remove any advantage gained if possible, and a penalty may be applied to introduce an additional disadvantage. Players are less likely to commit infractions if they will always end up in the same or a more disadvantageous situation. 
+Information advantage is when a player gains additional information about the private state of the game that they should not have (e.g. seeing the top card of their deck.)
+State advantage is when the game state changes to become more favorable to one player (e.g. creating an additional beneficial token.)
+Strategic advantage is when a player gains strategic information that may influence their future gameplay decisions (e.g. getting advice from a spectator.)
+Tournament advantage is when a player artificially gains a more favorable standing, or forces a less favorable standing for another player, in the current tournament (e.g. stalling for draw instead of losing.)
+Mission means to balance the education and equity of procedures and penalties with the mission statement of "playing great games". While it is important that procedures and penalties are applied to educate players and equalize advantages, they should be applied in a context that allows the players to play great games. In casual events, games are focused on socialization and creating experiences, so the fixes are liberal and penalties are gentle to allow for better education of players rather than minor advantages gained by any player. In competitive and professional events, games are focused on skill and competition, so the procedures are strict and penalties are harsh to allow for fairness of the game rather than focusing on educating players.
+There are three Rules Enforcement Levels (RELs) that a tournament may operate at: Casual, Competitive, and Professional. This document presents a guide for official tournament play at the Competitive and Professional REL.
+Casual rules enforcement is designed for local in-store play, where there is a low barrier to entry, low stakes, and the tournament environment is social and informative. Emphasis is placed on the education and enjoyment of players rather than the strict equity and integrity of each game. See the Flesh and Blood - Casual Procedure Guide for information on ruling at a Casual REL.
+Competitive rules enforcement is designed for competition, where the barrier to entry may still be low, but there are higher stakes and the environment is focused on winning. Infractions are categorized and enforced more rigidly, and fixes and penalties are based on a balance of education and equity.
+Professional rules enforcement is designed for the highest levels of competitive tournaments, where the barrier to entry is high, and the environment is very competitive. Players are expected to play at a level where they are knowledgeable enough about the game that education is less relevant in playing great games than the equity/fairness of each game.
+1.2 Handling an Infraction
+Infractions are addressed by first identifying what infraction has occurred, and then following the corresponding instructions relevant to the situation.
+Judges should not intervene in an ongoing game unless an infraction has occurred or they need to perform an investigation. In addition, judges should not intervene for a Missed Trigger infraction that would have a Caution penalty or an infraction that would have a Caution/Warning penalty but is mutually resolved between the players in a timely manner.
+If a penalty is issued for an infraction, the judge must explain the infraction, the procedure for addressing the situation, and the penalty to all players involved. Any penalty of an IP2 or higher should first be confirmed with the Head Judge, except for Tardiness[3.1] and Decklist Error[3.4]. If a player commits more than one related infraction, procedures for each infraction are applied separately, but only the highest penalty of all infractions is issued (instead of issuing multiple penalties). A time extension for the round should be issued to the players involved if the ruling has taken more than one minute, rounded up to the minute.
+Judges are not immune to making mistakes. When a judge makes a mistake, the first step is to acknowledge the mistake, apologize to those involved, and work towards fixing it if possible. If a judge's mistake leads to a player committing a violation, the Head Judge may consider the mistake as a possible reason for deviation.
+Deviations
+In some cases, an exceptional situation cannot be cleanly categorized into one of the sections listed in this document, or the recommended procedure/penalty for an infraction does not accurately address the situation in line with the three guiding principles of education, equity, and mission.
+In these cases, the Head Judge has the authority to deviate from the recommendations and apply a modified procedure and/or issue a modified penalty. If they do, the Head Judge is expected to explain the standard policy and the reason for the deviation to all players involved. Judges can and should confer with the Head Judge and recommend a deviation when they think it is necessary, but the decision to deviate should ultimately be left to the Head Judge to ensure that deviations are made with consistency for the tournament. Reasons for deviating from policy include but are not limited to:
+A player who has technically committed a gameplay infraction is given a Warning, but a deviation from the recommended procedure would produce a far more equitable game state.
+A player has committed an infraction and the procedure or penalty does not address the exceptional circumstances in a way that is fair.
+A player has committed many related infractions at once, and only an increased penalty would equalize the advantage gained.
+Infractions in this guide are presented in their most common form; if an infraction occurs that diverges from this form, it is up to the judges to decide on the fix and/or penalty that should apply and up to the Head Judge to approve. When deciding on a fix and/or penalty for an infraction, one should start with the most relevant infraction and diverge with these three questions in mind:
+Will this help players learn? (education)
+Will this make the situation fair? (equity)
+Will this ensure that players will play great games? (mission)
+The procedures and penalties in this guide both educate judges on the recommended way to rule the most common infractions and protect them from being liable in the application of rulings. If a judge makes a ruling that is in line with the procedures and penalties presented in this guide, any complaints become directed at the policy itself rather than the judge. In addition, this guide lays out the expectations for players, which helps them to play better games because they can expect consistency in the procedures and penalties for committing infractions. This is not the case for deviations and should be considered when applying a procedure or penalty that deviates from this guide.
+1.3 Types of Procedures
+Procedures are a tool for judges to make changes to the game state and restore its integrity. Procedures should only be used when appropriate to the situation - procedures that are irrelevant to an infraction should not be used in place of a penalty when trying to restore equity (e.g. destroying a permanent to penalize drawing an extra card).
+Rewind the game state
+Rewinding the game state means altering the game state entirely to a previous legal game state. When performed correctly, this procedure removes any possible state advantage a player may have gained through illegal action. However, it does not address information advantage (a player cannot be made to forget something) and in certain situations, it may introduce a strategic advantage.
+A simple rewind involves reversing the last action(s) of a player and is used to fix infractions that are caught immediately.
+A full rewind involves reversing many actions and is used when either player has made additional actions after the infraction had occurred. In general, a full rewind should not be attempted if the Judge cannot guarantee that the previous legal game state will be constructed correctly or if the rewind would involve revealing additional information to either player.
+Partial fix
+Partially fixing the game state means artificially altering the game state. When performed correctly, this procedure can aid in equalizing a state advantage gained by a player from an infraction. Partial fixes aim to be a way to restore the integrity of the game without having to significantly interfere, such as when you rewind the game state or introduce a harsher penalty like an IP2 in order to equalize a state advantage.
+In general, partial fixes should not be performed if a player likely made a strategic decision based on the result of the infraction or if the illegal action (and its consequences) is too complex to be partially fixed.
+Partial fixes include (but are not limited to) the following:
+If a player is on an incorrect life total, adjust the life total to be correct.
+If a player made an illegal choice for a layer on the stack or a card in the arena, that player makes a choice that would have been legal at the time.
+If a card should have moved to/from a player's hand and the player hasn't drawn up to their intellect since, that card moves to the correct zone.
+If a card should have moved between non-hand zones or was moved into an incorrect zone, the card is still known to all players, and it does not majorly disrupt the game to do so, move the card to the correct zone.
+If a card should have been revealed or otherwise shown to a Player, show that card. If a card should have been turned face-up or face-down, that card is turned face-up/face-down.
+If a counter should have been added to, removed from, or moved between cards, those cards are still known to all players, and it does not majorly disrupt the game to do so, add/remove/move that counter.
+If a player should have lost the game due to an effect or the life total of their hero being reduced to 0, that player loses the game.
+Effects are triggered from partial fixes only if they would have otherwise triggered at the correct time. The triggered-layer is then put onto the stack at the closest appropriate place as if it had triggered without the illegal action occurring.
+Cards to the top or bottom of the deck
+Putting cards to the top or the bottom of the deck means changing the location of specific cards to a position in the deck as decided by one player. If multiple cards are to be put to the top or the bottom of the deck, the opponent chooses the order of the cards and whether it goes to the top or bottom for each card. When performed correctly along with other procedures, this can help equalize information and strategic advantages gained by a player through game or tournament errors. Because the position of cards in the deck is a key part of Flesh and Blood's game design, it is impractical for many infractions to ensure that cards can be shuffled into the randomized portion of a deck, so this procedure takes an alternative approach to create a more equitable game state.
+Shuffle into a random portion of the deck
+Shuffling into a random portion of the deck means taking the contiguous randomized portion of a deck, adding and removing any cards, and shuffling it before returning it with the non-randomized portions in the correct locations. When performed correctly, this procedure can completely remove the state or information advantage a player may have gained through game or tournament errors. However, due to the fundamental design of Flesh and Blood, the position of cards in the deck is often non-random which makes it difficult to apply this procedure. As such this procedure should only be used as part of a deviation when appropriate for the given game state and infraction.
+1.4 Types of Penalties
+Penalties are an additional tool for judges to track player infractions, educate players by discouraging them from committing future infractions, and equalize advantages gained by committing infractions. All penalties (except Caution) should be recorded throughout a tournament to track which errors each player has made. When a penalty is upgraded or downgraded, the judge issues a penalty that is more or less severe respectively. Repeated infraction upgrades for gameplay infractions and tournament infractions should not be upgraded beyond game loss.
+The following penalties are listed in ascending order of severity. 
+Severity
+Penalty
+0
+Caution
+1
+Warning
+2
+Intellect Penalty
+3
+Game Loss
+4
+Disqualification
+Caution
+A Caution is an informal warning for a minor infraction. Cautions should be used when an infraction is not worth recording for the duration of the tournament, such as when an infraction does not gain the player an advantage, or when the procedure and education are sufficient to remedy the infraction.
+Warning
+A Warning is a formal warning for a minor infraction. Multiple Warnings for the same or similar infractions may result in an upgrade to a harsher penalty.
+Intellect Penalty
+An Intellect Penalty (IP) reduces the intellect of a player's hero for a set number of turns. An IP is the lowest form of penalty that has an actionable effect on a player's game. It is more severe than a Warning, but less severe than a Game Loss, which is particularly relevant for best-of-1 formats.
+An IP is functionally a game macro with the following text:
+Your hero has -1{i}.
+If you would create an Intellect Penalty with X counters on it, instead add X turn counters onto this.
+If you would draw up to your hero's intellect as an end-of-turn procedure, instead draw that many cards, remove a turn counter from this, and remove it from the game if it has no turn counters on it. 
+An IP is typically issued for 2 turns (IP2). When a penalty is upgraded or downgraded to an IP, an IP2 is issued.
+While a player currently has an IP, they draw 1 less card during the standard end-of-turn procedure (including the first turn of the game) and the number of turns for the penalty decreases by 1. When the IP reaches 0, the penalty is complete and the player is no longer penalized (e.g. an IP2, means they draw 1 fewer card at the end of two turns). If an IP is issued to a player before a game begins, the number of cards they draw up to at the start of the game is reduced by the IP, but the number of turns remaining for the penalty stays the same.
+If a player currently has an IP and receives another IP, the current IP is simply extended by that many turns. It is recommended that players put a die on top of their deck to keep track of how many turns of the IP remain.
+If IPs (with equal value) are simultaneously issued to all players in a game, the penalty is recorded, but the game resumes as though no player received an IP.
+Game Loss
+A Game Loss ends the current game and the player is considered to have lost the game. A Game Loss is used when the integrity of the game is irreversibly compromised or as a harsh punishment to educate the player on their actions. 
+If the player is between games or the current round time has elapsed, the Game Loss applies to the next game they would play during that event. 
+In a match where players only need to win 1 game to win, a Game Loss will automatically cause the opponent to win the match. If Game Losses are simultaneously issued to both players in a game, the match is recorded as a double match loss.
+Disqualification
+A Disqualification results in the player being removed from the tournament. A disqualification is the harshest penalty a player can receive and is reserved for actions that compromise the integrity of a tournament as a whole or for severe errors in conduct.
+A player who is issued a Disqualification loses their current match (if they are currently playing a match), and is dropped from the tournament. A disqualified player does not receive any additional prizes they are due, but they may keep any prizes they have received up until that point.
+When a player is dropped due to Disqualification, they do not have a place in the standings. All players below them will advance in the standings by one. However, if the Disqualification takes place after a cut is made, no additional players move up the standings or advance into the cut.
+The disqualified player and the head judges are responsible for completing the disqualification form, which allows them to share their side of the story. The player disqualification form and the head judge disqualification form are available in the Rules and Policy Center. Players who have been disqualified from a Legend Story Studios (LSS) event will have their player status reviewed by the Player Conduct Committee. 
+2 Gameplay Infractions
+Gameplay infractions are caused by play that violates the rules of the game as defined by the Flesh and Blood Comprehensive Rules. Gameplay infractions are assumed to be committed unintentionally, but if a judge suspects that the infraction was intentional then it could be considered Cheating.[6.2]
+If a player commits 3 or more gameplay infractions of the same type (except for Failure to Maintain Game State) on a given tournament day, the penalty that would be given for that infraction should be upgraded by 1 severity level (up to a maximum of a Game Loss). This penalty count does not accumulate over multiple days and is reset at the end of each day for a multi-day tournament.
+2.1 Game Rules Violation
+Warning
+The player, in some capacity, fails to apply the rules correctly to elements of the game they are responsible for in a way that is not specified by another Gameplay Infraction.
+Players are responsible for ensuring that their actions, or inaction, follow the rules of the game. Players have a shared responsibility for the rules of the game when they introduce effects that interact with their opponent, or when they instruct their opponent to perform certain actions.
+If an opponent allows the player to commit a Game Rules Violation (that the opponent is not responsible for), the opponent has committed Failure to Maintain Game State[2.2], except in cases where there is a shared responsibility so both players have committed a Game Rules Violation. 
+Examples:
+A player plays a card or activates an ability without paying the full cost to do so.
+A player defends with a card from their arsenal.
+A player plays an action card on their opponent's turn without playing it as an instant.
+A player forgets to draw up to their hero's intellect at the end of their turn.
+A player plays a card when an opponent's card prevents them from doing so (shared responsibility).
+Procedure and Penalty
+Issue the player a Warning for Game Rule Violation.
+If the infraction was caught immediately, do a simple rewind to before the infraction was committed.
+If either player has made additional actions after the infraction, apply a partial fix as though the game rules were applied correctly. If the game state cannot be partially fixed, do a full rewind to before the infraction was committed. If the game state cannot be partially fixed or rewound, take no further action, and the game continues despite the infraction.
+Upgrade: If the game state cannot be rewound or partially fixed, and the player has gained a significant advantage from the infraction, upgrade to an IP2.
+Addition: If the opponent had a reasonable opportunity to acknowledge the infraction but did not, issue the opponent a Warning for Failure to Maintain Game State. If there is shared responsibility for the error, instead issue the opponent a Warning for Game Rule Violation. 
+!!! info ""
+    Philosophy
+    In the most typical case, when the player commits a Game Rule Violation, they potentially gain a state advantage and/or information advantage. While it is the responsibility of each player to ensure that the rules of the game are correctly applied to their actions/inaction, all players are responsible for maintaining the shared game state.
+If an infraction is caught immediately, rewinding can remove any state advantage gained by the player and prevents additional information or strategic advantage from being gained by the opponent responding to an incorrect game state. As soon as additional actions have been made by either player, fixing the issue becomes more nuanced. The Judge must assess the game state and partial fix the game state, or if the game state cannot be partially fixed, rewind the game to the point of the mistake, in order to achieve a more equitable situation.
+If the procedures cannot be applied without significantly disrupting the game, mostly due to too many plays made after the infraction has been made, issuing an IP2 can help balance the game state and reduce the advantage gained from the infraction.
+2.2 Failure to Maintain Game State
+Warning
+The player(s), through their own inaction, has not acknowledged an opponent's gameplay infraction other than Missed Trigger.
+Failure to Maintain Game State cannot be committed alone. It is not considered a Failure to Maintain Game State if there is no other gameplay infraction committed by the opponent.
+Examples:
+The opponent defends with a card without the defense property, and the player does not notice until after the turn is over.
+The opponent plays and resolves a card and starts searching through their deck, and then the player notices that they don't have enough resources to play the card.
+Procedure and Penalty
+Addition: Issue a Warning to the player in addition to the procedure and penalty for the original gameplay infraction. Unlike other gameplay infractions, this penalty is never upgraded for being repeated.
+!!! info ""
+    Philosophy
+    In situations where an opponent commits a gameplay infraction, a player may consequently gain a state advantage by allowing the game to proceed. If a gameplay infraction is caught earlier, the potential state advantage gained by either player is minimized and can possibly be rewound without issue. However, if the game continues then the fault lies with both players. For a player who intentionally fails to acknowledge an opponent's gameplay infraction (other than Missed Trigger) in order to gain a state, information, and/or strategic advantage, see [6.2].
+2.3 Missed Trigger
+Caution
+The player, by their own inaction, has not acknowledged the resolution of a triggered effect they control by the time its effects become relevant.
+Acknowledging a triggered effect requires either a visible change to the game state from its effect or communication between the players confirming that it has been triggered. Visible changes include changes to the existence and location of physical objects such as cards, tokens, macros, and counters; and changes to life totals for heroes. Any player can acknowledge a triggered effect, not just its controller. The point when a triggered layer becomes relevant is different for different triggers - if any of the following criteria are met, the trigger is not considered to be missed:
+A triggered effect that requires its controller to make decisions (such as choose targets or modes) must be acknowledged before the controller next passes priority.
+A triggered effect that affects the rules of the game must be acknowledged before an action is taken, or acknowledged by stopping an action taken by a player, that otherwise would be made illegal by the triggered effect.
+A triggered effect that affects the game state in a visible way upon resolution, or requires any player to make decisions upon resolution, must be acknowledged before any player takes an in-game action that could only be taken after the triggered effect has resolved.
+A triggered effect that affects the game state in a non-visible way must be acknowledged before it first visibly affects the game state.
+In addition, the following cases are not considered a Missed Trigger infraction:
+If the resolution of a triggered effect would have no impact on the game, failing to acknowledge it is not considered an infraction.
+If the only part of a triggered effect that would have an impact on the game is optional and it is not acknowledged, it is assumed that the controlling player decided to not generate that effect and it is not considered an infraction. 
+If part of a triggered effect can be considered resolved and had a visible impact on the game, the trigger is considered acknowledged and any unresolved part(s) of the trigger being missed is considered a Game Rules Violation instead.[2.1]
+Cascading triggers are other effects that would only have triggered if the original trigger was not missed. If a trigger is missed, all cascading triggers are also considered missed and should be resolved in sequence under the same procedure. 
+Players are responsible for the resolution of any triggered effects they control. Players are not required to acknowledge triggered effects they don't control even if they are involved in the resolution of the effect, though they may still do so. The controlling player is responsible for ensuring that any decisions or actions taken by the opponent for the resolution of the effect are legal and appropriate; they may not assume their opponent chooses not to take any optional action.
+While it may benefit a player not to acknowledge the triggered effects of their opponents, they may not intentionally cause them to be missed. As such the trigger is only considered missed if the controlling player acknowledges or allows the progression of the game state passed the point of trigger relevancy without first acknowledging the triggered effect. Intentionally progressing the game state to cause another player to miss a triggered effect is considered Rules Sharking.[4.10]
+Examples:
+A player attacks with Crane Dance and then Heron's Flight and forgets to declare the mode of the triggered effect. They only realize after they've acknowledged the opponent's defending cards.
+A player hits their opponent with Red in the Ledger, forgets to declare the triggered effect, and does not stop the opponent from playing and resolving a second action during their turn.
+A player controls a Soul Shackle, forgets to banish a card at the start of their turn, and plays an action card.
+A player hits their opponent with Brandish, then attacks them again with a weapon. When applying changes to the life total from the weapon attack, the player forgets to add +1{p} into the calculation.
+Procedure and Penalty
+Issue the player a Caution for Missed Trigger.
+If the infraction was caught immediately, do a simple rewind to before the infraction was committed.
+If either player has made additional actions after the infraction, apply a partial fix as if the triggered effect has been resolved at the correct point in the game. If the game state cannot be partially fixed, do a full rewind to the latest point in the game the trigger should have been acknowledged. If the game state cannot be partially fixed or rewound, take no further action, and the game continues as though the effect had been triggered but failed to resolve.
+Upgrade: If the player would have gained a advantage from missing the trigger, and the triggered effect was ultimately created by the player (and not the opponent), upgrade to a Warning.
+!!! info ""
+    Philosophy
+    Similar to Game Rules Violations, missing the resolution of a trigger compromises the integrity of the game state and may create a state advantage for the player. Unlike playing a card or activating an ability, triggered-effects (and the resolution of triggered-layers) are only relevant as the consequence of other actions and events within the game, as opposed to direct actions taken by the player. Because they are so common and often invisible to the game state, players should not be harshly penalized when one is missed. However, intentionally ignoring a triggered effect that the player controls is considered Cheating.
+In some cases, players may be responsible for detrimental triggered effects imposed by the opponent. Because the triggered effect was introduced by the opponent, it's more likely that the player will miss it triggering, which can lead to unfair compounding penalties for players who aren't familiar with effects from their opponent's card-pool. Missed trigger infractions are punished less harshly for this reason.
+2.4 Looking at Extra Cards
+Warning
+The player, by their own action, has unintentionally seen cards that were not allowed to be seen but the cards have not changed zone.
+If the cards that the player has seen are combined with and cannot be separated from another set of cards, it is considered a Hidden Card Error infraction instead.[2.5]
+Examples:
+A player sees extra cards when drawing.
+A player sees extra cards when revealing/looking at cards from their, or their opponent's, deck.
+A player sees cards from their opponent's deck while shuffling it.
+A player looks at a face down card in their opponent's graveyard or banished zone.
+Procedure and Penalty
+Issue the player a Warning for Looking at Extra Cards.
+If the extra cards are seen as part of the player drawing cards as an end-of-turn procedure, but the opponent has not acknowledged the change of phase (the opponent wants to play/activate cards/abilities), leave the cards as they were on the top of the deck.
+If the extra cards are part of the player's fully randomized deck, shuffle the extra cards into the deck.
+If the extra cards are part of the player's non-randomized deck and were previously known to the player (through effects like opt or reveal), leave the cards in the correct location, otherwise, reveal the cards to the opponent who chooses for each of those cards to go to the top and/or bottom of the deck and in which order.
+If the extra cards were part of the player's non-deck zones or are owned by the opponent, reveal the cards to the opponent and leave the extra cards where they were.
+Upgrade: If the extra cards include 5 or more cards in the player's non-randomized deck, upgrade to an IP2 and shuffle the deck.
+!!! info ""
+    Philosophy
+    When the player sees cards that were initially hidden from them, they gain information about the private state of the game and therefore gain an information advantage. When the card is owned by the player, they only gain an advantage of knowing the relative position of the card, but if the card is owned by the opponent, then they also gain information about the opponent's card-pool and the current locations of those cards (especially if they're in the deck).
+If the cards were from the player's randomized deck, shuffling them back into the deck removes the information advantage entirely, as they already knew what cards were in their deck. The issue with this approach is that decks are rarely randomized at any point during the game, especially with the pitching mechanic of Flesh and Blood. The method of putting the extra card to the top or bottom (directed by the opponent) does not remove the information advantage, but it does balance the advantage by giving an equivalent or greater advantage to the opponent; knowing the card and choosing its position in the zone.
+If the number of extra cards seen is large, rather than allow the opponent to stack an entire portion of the player's deck, shuffling the deck removes the significant information advantage gained by the player and avoids issues with the typical procedure where the opponent would gain an unfair advantage.
+2.5 Hidden Card Error
+Warning
+A player, by their own action, made an error with private cards that cannot be corrected with public information alone.
+If the player has combined private cards from two or more zones into a single collection of cards, but they can still be correctly separated into their original zones without revealing additional information about those cards, it is not considered a Hidden Card Error.
+If the player has unintentionally seen cards that were not allowed to see, but the cards can be separated this way, it is considered a Looking at Extra Cards infraction instead.[2.4]
+Examples:
+A player draws to their intellect of 4 at the end-of-turn but accidentally draws up to 5 cards.
+A player hits with Snatch and draws 2 cards as the card sleeves were stuck together. The cards touch the player's hand.
+A player plays Whisper of the Oracle, and the cards they "opt" are mixed in with their hand.
+A player picks up a card from their arsenal and adds it to their hand.
+A player equips an equipment card face-down without an effect that allows it to be equipped face-down.
+A player places face-down equipment in an incorrect zone.
+Procedure and Penalty
+Issue the player a Warning.
+If the player has combined private cards from two or more zones into a single collection, reveal the combined collection of private cards to the opponent. The opponent decides which cards should be returned to each zone, ensuring that the number of cards in each zone is the same as before the infraction was committed. The cards are then returned to the zones as designated by the opponent. If one of the zones is the deck, the opponent chooses for the card(s) to go to the top and/or bottom of the deck in any order.
+If the player has prematurely combined the cards before other actions that should have been performed first and would have affected those cards, instead the opponent decides which cards should be returned to the same location they were before the infraction, then players perform all pending actions in the correct sequence.
+If a face-down card has been equipped without an effect that allows it to be equipped face-down, or a face-down card has been equipped to an incorrect zone, remove that card from the game.
+Upgrade: If the infraction cannot be resolved because one or more cards have been removed from the single collection, reveal the remaining cards in the collection and upgrade to an IP2.
+!!! info ""
+    Philosophy
+    When the player combines sets of cards that are private from the opponent, the integrity of the game state becomes compromised and the player gains a possible state advantage - specifically, they are the only one who knows what the correct state is and that state cannot be verified by the opponent. If the player were to fix this themselves, they could gain a state advantage by separating the private cards incorrectly to create a favorable state. If the private cards were not known to the player, they have also gained an information advantage by being aware of the position of a card.
+Allowing the opponent to choose how they split the collection of cards does not strictly remove the information advantage, but provides equity by giving an equivalent information advantage to the opponent; knowing the card, its zone, and its position in that zone.
+2.6 Shuffling Error
+IP2
+The player, by their own action, illegally randomizes an ordered set of cards, such as a deck.
+Examples:
+A player shuffles their pitched cards into their deck.
+A player absent-mindedly shuffles their deck mid-game.
+A player counts the cards in their opponent's deck, then shuffles it out of habit.
+Procedure and Penalty
+Issue the player an IP2. Ensure the set of cards is sufficiently randomized.
+!!! info ""
+    Philosophy
+    When the player shuffles a non-randomized set of cards, the integrity of the game state has been irreversibly compromised and either player may gain a state advantage from a redistribution of cards throughout the randomized set. 
+Because there is no procedure to repair the game state or remove the potential advantage gained, and shuffling the deck is a deliberate action, issuing an Intellect Penalty is a fair way to educate the player and help equalize the advantage they may have gained over the opponent.
+2.7 Presenting Cards Error
+Warning
+The player, by their own action, has a legal decklist and legal card-pool but has presented an illegal set of cards, or has presented cards in an illegal state, during the start-of-game procedure.
+A player has committed a Presenting Cards Error infraction only after they are considered to have a legal decklist and card-pool. Illegal cards are typically considered a Card-Pool Contents Error infraction[3.5].
+Examples:
+A player presents a 55-card starting deck in a game of Classic Constructed.
+A player presents a 25-card starting deck in a game of Limited.
+A player presents their starting deck which accidentally contains equipment.
+A player presents a Brute card in their deck while playing as a Guardian hero in a limited format.
+A player presents a starting card that cannot legally start the game in the arena.
+A player presents a 1H and 2H card as their starting weapons.
+A player presents a double-sided card in their deck sleeved with its back-face instead of its front-face.
+Procedure and Penalty
+Issue the player a Warning for Presenting Cards Error.
+Remove any cards that cannot start the game in the deck, and put it into the player's inventory.
+Remove any card that cannot start the game outside the deck - if the card is a legal deck-card it is put back into the player's deck, otherwise, it is put into the player's inventory.
+If the deck has too few cards and the game has not started, the player adds cards from their card-pool until they have presented the minimum number of cards required. Cracked Baubles may be used if there are insufficient cards in the player's card-pool. There should be no change if the game has started.
+If the deck has too many cards and the game has not started, the player removes cards until they have the maximum number of cards required for their deck. There should be no change if the game has started.
+If any double-faced cards in the deck show the incorrect face, re-orientate them to show the correct face. 
+If the player has presented an ambiguous set of cards that start the game outside of their deck, present the set of cards as several legal options the player would have started the game with, and then the opponent decides on the option for the starting cards for the player. Remove any remaining cards, and put it into the player's inventory.
+Downgrade: If a flip-card has an incorrect active face, downgrade to a Caution for all RELs.
+Upgrade: If one or more transcend-cards has an active face that cannot be corrected by the procedure, upgrade to an IP2.
+Upgrade: At a professional REL, for all infractions except double-sided cards that have an incorrect active face, upgrade to an IP2.
+Upgrade: If the deck after all procedures has two or more cards than the maximum or two or fewer cards than the minimum for the format, upgrade to a Game Loss. There is no upgrade if the fixed deck is only off by one card.
+!!! info ""
+    Philosophy
+    Players are responsible for ensuring that the cards that they intend to play the game with follow the rules of the format and the start-of-game procedure. When the player presents an illegal set of cards in the start-of-game procedure (or cards in an illegal state) they may gain a state and/or strategic advantage.
+Presenting a starting deck with illegal cards creates an incorrect game state and is a common occurrence, especially when created cards and non-deck cards (equipment/weapons) use the same sleeves. Presenting double-sided cards with the incorrect active face (the back-face is shown instead of the front-face) may cause miscommunication and/or create a state-advantage.
+Presenting more or fewer cards than the rules of the format specify creates a state advantage because they can create a state of the game that would otherwise not exist. This is especially relevant for strategies that want to increase the likelihood of drawing certain cards or to fatigue an opponent. Presenting a card that cannot legally start the game in play creates a state advantage that couldn't otherwise be gained by following the rules of the game.
+Presenting legal cards that can't start the game in play together creates an ambiguous situation where the player may gain a strategic advantage by selecting the best legal option after they've gained additional information about the opponent's starting cards.
+Any advantage gained by presenting more or fewer cards, or presenting an illegal or ambiguous set of cards, should be addressed by negating that advantage and educating the player on the proper procedure.
+3 Tournament Infractions
+Tournament infractions are caused by play or behavior that violates the rules of the tournament as defined by the Flesh and Blood Tournament Rules and Policy. Tournament infractions are assumed to be committed unintentionally, but if a judge suspects that the infraction was intentional then it could be considered Cheating.[6.2]
+If a player violates the rules of the tournament and it is not listed in this section as an infraction, the judge should educate and correct the player on the rules of the tournament, but not issue a penalty. Ignoring the instructions of the judge is considered Unsporting Conduct ([4.1]).
+If a player commits 2 or more tournament infractions of the same type (except for Tardiness or Slow Play) on a given tournament day, the penalty that would be given for that infraction should be upgraded by 1 severity level (up to a maximum of a Game Loss). This penalty count does not accumulate over multiple days and is reset at the end of each day for a multi-day tournament.
+3.1 Tardiness
+IP2
+The player, by their own inaction, is not at their assigned table when the round timer begins or has not complied in time with another tournament procedure.
+If a decklist is required for the round and the player has not submitted one, the player may not begin to play their match (and is considered tardy) until the tournament organizer has received the relevant decklist.
+If the round timer begins before the previous round would have ended (such as when all the matches have been completed early), tardiness is timed from the scheduled end of the previous round. Judges can issue round start extensions for players who need additional time between rounds. The player present at the table should alert a Judge if their opponent is late or arrives late in order to apply the appropriate penalty.
+Examples:
+A player arrives at their seat 5 minutes after the round starts.
+A player sits down at the wrong table and does not realize until after they start playing with the incorrect opponent.
+A player plays a whole match with the incorrect opponent.
+A player loses cards in their card-pool, does not have sufficient cards to start the game, and cannot find replacement cards within 10 minutes.
+A player hands in their decklist 30 minutes late.
+Procedure and Penalty
+Issue the player an IP2. Extend the table's round time by the total time delayed since the beginning of the round.
+Downgrade: If the player is less than 1 minute tardy, downgrade to a Warning.
+Upgrade: If the player is more than 10 minutes tardy, upgrade to a Game Loss. If both players are more than 10 minutes tardy, issue both players Game Loss. The tardy player(s) should be dropped before the pairing of the next round unless they report to the scorekeeper before then.
+!!! info ""
+    Philosophy
+    The integrity of a tournament with timed rounds relies on players completing their match in a timely manner. If the winner of a match cannot be determined by the end of a round, the match is a draw. Being late to the table delays the start of the game making it more likely the game will end in a draw.
+In some cases, a player may be late to their match (especially from forces outside their control) but still want to continue playing in the tournament despite the game losses. If the player indicates they wish to continue competing in the tournament and it does not interrupt the logistics, they should be re-enrolled.
+3.2 Note Taking and Outside Assistance
+Warning
+The player, by their own actions, records or refers to illegal notes; seeks strategic assistance from a person or resource that is not part of the game; or gives strategic assistance to another player in a game they are not a part of, during a game or draft or during card-pool registration before selecting a hero.
+Examples:
+A player records all the cards that are pitched throughout a game in a notepad.
+A player references sideboard notes in the middle of a game (after the start-of-game procedure has concluded).
+A player references a drafting guide in the middle of the draft portion of a booster draft format.
+A player communicates with a spectator using hand gestures, facial expressions, electronic devices, or other means of communication.
+A spectator walks past a table with a game in progress and reacts to cards in a player's hand in a way that conveys private information to their opponent.
+Procedure and Penalty
+Issue the player a Warning.
+If illegal notes have been recorded, ensure that the notes are removed from the game or the information is otherwise destroyed before the game continues.
+If the player is a spectator for the game, issue them a Game Loss for their next game and remove them from the game area.
+Upgrade: If the player has gained a strategic advantage from their note-taking or from seeking outside assistance, upgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    A competitive game of Flesh and Blood relies on the understanding that the game is played between the players pitting their strategic minds against one another. Introducing note-taking or outside assistance corrupts the integrity of the game for all players involved. There is no game state that can be reversed, and any strategic advantage cannot be removed.
+If the player is in a game and has taken and referred to notes, or sought and received outside assistance, that gives them a strategic advantage that corrupts the integrity of the game, a game loss ensures that this advantage removes and reverses that advantage entirely, awarding the win to the opponent.
+If the player is a spectator, they have taken it upon themselves to corrupt the integrity of another player's game, and as such this serves as a strong reminder to uphold the integrity of competitive events both as a player and a spectator. Receiving unsolicited strategic information is not the fault of a player and thus should not be punished.
+3.3 Slow Play
+Caution
+The player, by their own action, takes a longer than acceptable period of time to make a decision that progresses the game state without the intention to gain an advantage.
+Examples:
+A player checks either player's graveyard multiple times before taking an action.
+A player takes excessive time to shuffle after searching through their deck.
+A player has one card in their hand and takes an unreasonable amount of time to decide what to do.
+Procedure and Penalty
+Issue the player a Caution. Educate the player to increase the speed of their play. Observe the game at least until the player has made one or two decisions at a reasonable pace.
+Upgrade: If the player fails to play at a reasonable pace after receiving a Caution, upgrade to a Warning and monitor the rate of play.
+Upgrade: If the player has already received two Warnings for Slow Play this tournament, upgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    Players are expected to play at a pace that is sufficient to complete their match within the given round time limit. Slow play makes it more likely the game will end in a draw, giving the opponent a possible tournament disadvantage. Slow play not only disrupts the game for the opponent but also affects spectators, and coverage, and can create logistical challenges for the tournament staff. Importantly, slow play can occur in any round of play, including untimed matches. A player that intentionally plays slowly is considered Stalling.[6.6]
+Slow play is subjective because it depends on the context of the game, making it very difficult to moderate. As a general rule of thumb, if a Judge can understand the game state and come up with a line of plays from the player's position in the game in the time it takes the player to make a single decision, the player is most likely playing too slowly. However, there are many exceptions, especially with decks that have many cards that can be played, or abilities that can be activated, at an instant speed which requires very specific sequencing.
+Opponents are expected to call a Judge early in the game if they think a player is taking too long to make decisions, to ensure the behavior is corrected before it significantly delays the game. Slow play always occurs without the player's noticing (as opposed to Stalling), so an educational reminder is enough to ensure that the majority of players increase their rate of play to complete the game before the time limit. The penalizing of a Slow Play infraction should only ever be done when a Judge confirms it by observing the progression of the game, not by spectators or player testimony. Judges should not award extra time to the table where there are only reports or accusations of slow play.
+3.4 Decklist Error
+IP2
+The player, by their own action, has submitted a card-pool registration sheet (decklist) that does not contain the cards they intend to play with or is illegal.
+Examples:
+A player has forgotten to list an equipment on their decklist.
+A player has not included 0 pitch cards on their decklist because they didn't know what section to put them under.
+A player has listed the name of a card, but not its pitch value, so it is ambiguous exactly what card it is.
+A player has listed the moniker (short name) of a hero, but there are 2 or more heroes with that moniker.
+A player has one (1H) card listed but is playing with two of those cards.
+A player lists Snapdragon Scalers as one of their equipment, but they have Ironrot Legs in their card-pool instead.
+A player has 3 Potion of Strength on their decklist, but in their card-pool, they have 3 Timesnap Potion and 0 Potion of Strength.
+A player has listed a recently banned card as their hero and intends to play them.
+Procedure and Penalty
+Issue the player an IP2. The player may continue their current game but cannot start a new game until the decklist error has been corrected.
+If the decklist does not contain the cards they intend to play with, update the player's decklist to match the intent. 
+Downgrade: If the decklist error is minor and is either caught before the first round has begun or the player reports the error themselves, downgrade to a Warning.
+Downgrade: If the decklist is missing hero selection and there is only one hero that the player could reasonably have selected, downgrade to a Warning.
+Upgrade: If there is a significant difference between the decklist and the player's deck, or the player has gained a significant strategic advantage from ambiguous or unclear entries on the decklist, upgrade to a Game Loss.
+Upgrade: If the decklist contains illegal cards the player intends to play with, upgrade to a Game Loss. Remove the illegal cards from the decklist or replace them with Cracked Baubles to ensure the player has enough legally playable cards in their deck.
+!!! info ""
+    Philosophy
+    Decklists are an essential part of a competitive tournament. A decklist ensures that the cards that a player is using (their card-pool) cannot be changed over the course of the tournament, removing potential strategic advantages that would otherwise be possible.
+Decklist entries with ambiguous or unclear card names and/or pitch values may allow the player to change the contents of their card-pool up until they are confronted about their decklist. Card monikers (short names for cards with personal names) are permissible if it is obvious and unambiguous what card it refers to, based on the context such as the tournament format or other cards in the card-pool. Cards, tokens, and macros created by other cards in their decklist do not need to be listed themselves, but must still be supplied by the player for any game they play.
+Decklists with illegal cards, such as banned/suspended cards, compromise the integrity of the tournament, more so if it is only caught in later rounds. There are cases where off-the-shelf products contain illegal cards and/or heroes, or players are not aware of recent changes of legality to cards in "meta decks". Unless the player shows the intent of Cheating, it should be assumed that it was unintentional and they should be given an opportunity to correct their decklist.
+If the decklist is legal and reflects what the player intended to play with, but there is an issue with the card-pool itself it is considered a Card-Pool Contents Error (<sup>[[3.5]](https://rules.fabtcg.com/en/ppg/03-tournament-infractions/#ppg3.5)</sup>).
+3.5 Card-Pool Contents Error
+IP2
+The player, by their own action, has presented cards that do not match their decklist and the decklist represents what the player intended to play.
+This infraction applies both when a player presents cards during a game and when they present their card-pool to a judge to be checked. The player's card-pool includes any cards in close proximity to the presented cards, such as in those the same compartments of a deckbox as the presented cards. The following cards are exceptions and should not be sleeved in a way that they could be confused with the registered cards in the card-pool:
+Cards not on the decklist that are promotional cards given out at the event.
+Cards on the decklist that have been proxied for the duration of the tournament.
+Double-faced cards represented by official substitute cards in the card-pool.
+Double-faced cards that are being used to represent the back-face of cards in the card-pool.
+Tokens are not considered part of a player's card-pool and may be presented with the card-pool even if there are no registered cards that could ultimately create them. Created cards may be sleeved like registered cards, and may be stored and presented with the Player's card-pool without being considered a part of it.
+Examples:
+A player has 4 of the same card (and pitch) in a Classic Constructed tournament in their inventory.
+A player has stored an equipment card, that is not on the decklist, with their other equipment cards in the same deckbox compartment.
+A player has stored a number of different card-pool that are sleeved alike in the same deck-box as their registered card-pool for this tournament.
+A player accidentally presents their draft card-pool from a previous day of drafting during day 2 of an event.
+Procedure and Penalty
+Issue the player an IP2. Have the player remove any extra cards from their card-pool that are not listed on their decklist. Make a note of any cards missing from the card-pool and educate the player that they may find replacements in their own time.
+Downgrade: If there are only missing cards, downgrade to a Caution.
+Downgrade: If the extra cards removed could not have provided any strategic advantage, downgrade to a Warning.
+Downgrade: If the player has extra copies of a card (same name and pitch value), the copies have not impacted the game, and the player reports the error themselves immediately, downgrade to a Warning. If this was noticed while the player drew or revealed cards from the top of their deck, replace the draw/reveal with the next card instead.
+Upgrade: If there is a significant difference between the card-pool and the player's decklist, or the player has gained a significant strategic advantage from their card-pool, upgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    Players are expected to store their hero and registered card-pool contents separately from any other contents that could possibly be considered to be part of the card-pool. This may involve having a separate deck-box, compartment, or container that contains only the cards for the card-pool for the tournament.
+When a player stores extra cards with their registered card-pool, or otherwise has access to extra cards during the start-of-game procedure, and those extra cards are not part of their decklist, it creates a potential for abuse where a player can gain a state advantage by playing with those extra cards. Players are expected to call attention to Card-Pool Content Errors immediately, and not gain any potential advantage from having the extra cards available to use in their card-pool for any given game.
+3.6 Draft Procedure Violation
+Warning / Game Loss
+The player, by their own action, commits a procedural infringement during a draft.
+!!! info ""
+    Philosophy
+    Drafting involves an additional procedure outside of playing the game which involves strategic elements that can shape and determine the state of the games subsequently played. As such, it should be moderated with at least the same rigor as a game between the players involved in the drafting procedure. Players can gain information, state, and strategic advantage by failing to abide by the drafting rules. Infractions here are considered as if the player committing the infraction is ignorant of the rules of the draft procedure. Intentionally violating the draft procedure to gain an advantage is considered Cheating.[6.2]
+In some cases, it's important that the Judge does not interrupt the player's train of thought as it would slow down and disrupt the draft. The Judge should wait until the current pack, or in some cases, the entire draft is finished before implementing a penalty. This is especially the case if a player would be disqualified, so as to not interfere with the drafting process.
+3.6.1 Draft Procedure Violation - Minor
+Warning
+The player commits a violation of the draft procedure that can be easily reversed or does not provide a significant advantage or compromise the integrity of the draft.
+Examples:
+A player passes a pack the wrong way and it is discovered before the next draft pick.
+A player picks a card after the draft pick time has expired.
+A player starts looking around the table or at other players at the table.
+A player picks a card, puts it on top of their draft pile, then puts it back into the pack.
+A player picks up and looks at their draft pile while not in an official review period.
+Procedure and Penalty
+When appropriate, pause the draft and issue the player a Warning. Ensure that pausing the draft at the correct time will not disrupt the players or the draft process; this could be done during a pick, or at the end of a pick, a pack, or the draft as a whole.
+3.6.2 Draft Procedure Violation - Major
+Game Loss
+The player commits a violation of the draft procedure that seriously and irreversibly compromises the integrity of the draft.
+Examples:
+A player drafts two cards from a pack instead of one and it is not discovered until after the next draft pick.
+A player mixes up the draft pack and their draft pile.
+A player states out loud what they're currently drafting or planning to draft.
+A player reveals the cards they have drafted to other player's in their pod.
+Procedure and Penalty
+If the infraction requires immediate attention, pause the draft at the appropriate time and correct any behavior. Then at the end of the draft, issue the player a Game Loss. This ensures that the player does not influence the draft with the knowledge that they have received a loss for the first round, to the detriment of the other players still in the draft.
+3.7 Marked Cards
+Warning
+The player, by their own action, presents a deck of cards where one or more cards are distinguishable from the others while they are in the deck or face-down.
+Players must ensure that all cards and card sleeves in their deck are in good condition and do not have markings or any other features that make them identifiable while in a deck or while face-down. This includes (but is not limited to) scuff marks, nail indents, bent corners, and the curvature of the card itself.
+Examples:
+A player has an un-sleeved deck where the color of the backs of the cards is inconsistent.
+A player has a sleeved deck where some of the sleeves have bent corners from flicking the cards.
+A player has a sleeved deck where the image of the back of the sleeves has an inconsistent border width on each card.
+A player has a deck with an even mix of foil and non-foil cards, where the foil cards are more warped than the non-foil cards.
+A player has a fabled-rarity card that is only available in foil, which has warped and is easily distinguishable in the deck.
+A player has 3 of the same promotional cards which are warped and are easily distinguishable in the deck.
+A player has a sleeved deck where one of the sleeves has a visible mark on the back.
+A player has 3 cards of the same name and pitch in sleeves that are a slightly different shade to other sleeved cards in the deck.
+Procedure and Penalty
+Issues the player a Warning. Have the player re-sleeve or replace the marked cards and/or the rest of the cards in their deck to ensure that no cards are considered marked. In exceptional circumstances, the Head Judge may issue a proxy for the marked cards. The player may not play another match until they've addressed the marked cards in the deck.
+If the marked cards are identified during a game and the marked cards can be quickly addressed without disrupting the game, the player must do so. Otherwise, wait until the player has completed their match before informing them of the marked cards and having the player address them.
+If a player is unable to find replacement cards and cannot present a legal deck, they may replace any marked deck-cards with a Cracked Bauble. If they do, update their decklist to match the change to their card-pool. If the player finds replacement cards later in the tournament, reverse this change without an additional penalty.
+Upgrade: If the Head Judge believes that the player would have gained a significant advantage from noticing the marked cards, upgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    One of the most important aspects of the game is that no player knows the location of a card once it has been shuffled into the deck, or cannot be differentiated while it is face-down. This is important for ensuring the integrity of the hidden information elements of the game. If a player has a marked card, they may be aware of it, which gains them a significant information advantage regardless of what the card is. Markings on a sleeved card can only be fixed by re-sleeving it to match the rest of the cards in the deck. A damaged, altered, or warped card can only be fixed by sleeving the deck in a way that makes it indistinguishable or by replacing the card with another version or a proxy (note that proxies are only issued in exceptional circumstances).
+Sleeves and cards are subject to wear and tear, especially over the course of a tournament. Sleeves can also have manufacturing errors that range from immediately visible to barely visible and can even differ significantly between different packets of sleeves. Cards (especially cards with a foil finish) can warp over time in variable ways outside of the player's control. As long as the player is not taking advantage of these marked cards and has not intentionally marked the cards themselves, the penalty should not be harsh, as long as the marking of the cards can be fixed.
+Players should check their cards and sleeves after every round and replace any that are considered worn or marked. If a player is unsure if their cards are in acceptable condition, it's recommended they check with the Head Judge. If a player has intentionally marked the cards or has intentionally taken advantage of certain cards being marked, it is considered Cheating.<sup>[[6.2]](https://rules.fabtcg.com/en/trp/06-behavior-and-conduct/#trp6.2)</sup>
+3.8 Insufficient Shuffling
+Warning
+The player, by their own inaction, fails to shuffle a deck of cards to sufficiently randomize the order of the cards.
+There are multiple ways to randomize a deck, and it is encouraged that more than one method is used, such as riffle or overhand shuffle, followed by a cut. Pile counting, and deterministic forms of shuffling are not acceptable alone as a method of randomization. Players are expected to shuffle their deck sufficiently and in an efficient manner.
+Examples:
+A player finishes their start-of-game procedure and riffle shuffles their deck a single time and presents it to the opponent.
+A player overhand shuffles with the deck facing toward them, and presents it to the opponent
+A player counts their cards out in 6 piles, stacks them together, and presents it to the opponent.
+A player divides their deck by pitch values while side-boarding then does a couple of overhand shuffles and presents it to the opponent.
+A player forgets to shuffle after searching through their deck during the game.
+Procedure and Penalty
+Issue the player a Warning. Supervise the player while they shuffle their deck, and educate them if they make a mistake in their technique so that they are aware of what is and isn't an acceptable way to achieve a sufficiently randomized deck.
+!!! info ""
+    Philosophy
+    To ensure fairness, both players' decks must be sufficiently randomized prior to beginning the game and after anytime a player looks through the contents of a deck. Insufficient shuffling is when a player fails to sufficiently randomize their deck through shuffling, before presenting it to their opponent.
+When a player shuffles and presents a deck to an opponent the player implies that the deck is thoroughly randomized. A player who intentionally does not shuffle their deck sufficiently in order to gain an advantage by manipulating the location or distribution of cards in their deck is considered Cheating.<sup>[[6.2]](https://rules.fabtcg.com/en/trp/06-behavior-and-conduct/#trp6.2)</sup>
+3.9 Communicating Incorrect Game Information
+Warning
+A player, by their own action or inaction, has incorrectly communicated non-private information or did not completely answer a question about visible or public information, and the opponent takes an action that is affected by the incorrect or missing information.
+Communication does not need to be verbal. Physical representation such as position in the play-space, or use of markers can be considered communication from that player.
+If the opponent has made an assumption about ambiguous information without clarifying with the player, or if the incorrect or missing information did not influence the opponent's actions, it is not considered Communicating Incorrect Game Information.
+Examples:
+The player plays an attack action card and says "Attack for four." The opponent declares two defending cards to block exactly 4 damage. The player then says "Sorry, I mean attack for three."
+The player has a permanent with Ward 1 below their hero, partially obstructed by their hand, and their opponent attacks thinking they do not control any permanents with damage prevention effects.
+A player has one resource and they represent it with dice above their pitch zone. The player plays a card that costs 1 resource but does not update the dice. The opponent decides to defend with more cards than necessary anticipating the player to play an attack reaction that costs 1.
+Procedure and Penalty
+Issue the player a Warning. If the game has not progressed too far to be rewound, rewind the game state to the point before the affected action (not to the point of miscommunication).
+Downgrade: At a competitive REL, if the miscommunication was due to the player not updating or removing a marker that represents visible or public information, consider a downgrade to a Caution.
+!!! info ""
+    Philosophy
+    Clear and correct communication is essential to play a game of Flesh and Blood. Players are expected to maintain a clear and correct game state through communication and seek resolution when there is ambiguity or uncertainty. However, players often make genuine mistakes regarding communication, especially across cultural and language barriers, and should not be punished harshly for it.
+Players may still commit this infraction if they have not verbally communicated, especially when they do not put cards in the appropriate zones, or do not update markers that represent visible or public information.
+A physically ambiguous play-space is not automatically considered Communicating Incorrect Game Information. Judges are encouraged to instruct players to fix items in the play-space before they might lead to an infraction.
+4 Conduct Infractions
+Conduct infractions are infractions of the player's conduct in relation to both the game and tournament rules and cover the general behavior expected of a player. Conduct infractions cover both intentional and unintentional behavior.
+4.1 Unsporting Conduct
+Warning / Disqualification
+The player, by their own action, displays negative, offensive, or disruptive behavior that affects the safety or enjoyment of others, and/or negatively affects the integrity or organization of the event.
+Unsporting Conduct is subjective and relative to the context of the event and expectations set out by the Tournament Organizer; it is not the same as a lack of sporting conduct. Ultimately, the Head Judge determines what constitutes Unsporting Conduct during an event.
+!!! info ""
+    Philosophy
+    Participants of the tournament expect a safe and enjoyable environment, and that the integrity and operation of the tournament are upheld to a high standard. By acting in a way that infringes on that expectation, the player has infringed on the mission statement of Flesh and Blood. For physical abuse or threatening behavior, see [4.3].
+4.1.1 Unsporting Conduct - Minor
+Warning
+The player acts in a way that negatively impacts one or more people, or disrupts the organization of the tournament, but does not require investigation or further penalties to correct their behavior.
+Examples:
+A player uses mild-moderate offensive language.
+A player intentionally kicks over a chair.
+A player does not pick up litter they have created.
+A player shoves other players while moving through a crowd.
+A player demands the Head Judge before being given a ruling from the Judge that first arrived at the table.
+A player demands that their opponent be given a Warning before a Judge can resolve the issue.
+A player ignores the instructions of a tournament official.
+Procedure and Penalty
+Deescalate the situation to ensure that the infringing behavior stops and the safety of other participants is ensured. Issue the player a Warning and educate them on their actions.
+Upgrade: For repeated infractions, even for different reasons, an upgrade to IP2 then a Game Loss is recommended.
+4.1.2 Unsporting Conduct - Major
+Disqualification
+The player acts in a way that negatively impacts one or more people by making them feel harassed, scared, belittled, unsafe, or commits acts that disrupt the organization of the tournament.
+Examples:
+A player makes a racial remark towards another person.
+A player harasses another person on social media during the event.
+A player takes photos of another person with malicious intent.
+A player wipes a card on their backside or crotch before playing it.
+A player makes another person feel unwelcome at an event because of their sexual orientation or gender identity.
+A player continuously ignores or refuses to follow the instructions of a tournament official.
+Procedure and Penalty
+First and foremost, deescalate the situation to ensure that the infringing behavior stops and the safety of other participants is ensured. This typically involves ending the current match the player is involved in, separating them from other players by taking them to another area, and educating them on why their behavior is inexcusable and why they are being Disqualified.
+4.2 Cheating
+Disqualification
+The player, by their own intentional action or inaction, to their or a teammate's benefit, lies to a tournament official, breaks rules of the game or tournament, or intentionally ignores an infraction.
+Specifically, the player must be intentionally trying to gain an advantage from their actions and they must be aware that their actions are prohibited. Both of these conditions must be met for the infraction to be considered Cheating. If either of these conditions is not met, then their actions are not considered cheating and the infraction would fall under a different category.
+Examples:
+A player lies to a Judge during an investigation, hoping to gain an advantage by the judges ruling.
+A player purposely swaps cards between the arsenal and their hand to gain an advantageous game state.
+A player swaps out cards in their limited card pool with cards they had brought with them to gain an advantageous deck.
+A player notices their opponent makes a rule-breaking mistake and intentionally stays silent to gain an advantage.
+Procedure and Penalty
+Issue the player a Disqualification.
+!!! info ""
+    Philosophy 
+    Cheating is one of the most serious infractions a player can commit as it can completely compromise the integrity of the tournament.
+4.3 Aggressive Behavior
+Disqualification
+The player, by their own verbal or physical actions, makes others around them feel threatened.
+Examples:
+A player threatens physical abuse to another player during a match.
+A player violently throws their own or another person's belongings.
+A player yells at and tries to intimidate a Judge when they are not happy with a ruling outcome.
+A player destroys or attempts to damage tournament materials, such as table or chairs.
+A player swears aggressively at their opponent during or after a match.
+A player tells their opponent that they're planning to ambush them after the event.
+Procedure and Penalty
+    In all cases, the safety of every person is paramount. Deescalate the situation, disqualify the player, and have them leave the venue by the Tournament Organizer.
+!!! info ""
+    Philosophy
+    Aggressive behavior is distinct from Unsporting Conduct in that it involves physical harm or the threat of physical harm that compromises the safety of the tournament. There is no tolerance for physical abuse or intimidation at any kind of event.
+4.4 Improperly Determining a Winner
+Game Loss
+The player, by their own action, uses or offers to use a method other than playing the game to its conclusion to determine the winning player. This includes manipulating an opponent into conceding a match based on the outcome of such a method.
+Examples:
+A player convinces the opponent they can determine the winner based on a coin flip after time is called in the round and the opponent reluctantly agrees.
+Both players agree that the one with the highest life total at the end of the match is the winner of the game in order to avoid a draw.
+A player remarks on how terrible a draw is and that they should just declare a winner because losing is better than a draw anyway (losses are not better than draws for an individual).
+Procedure and Penalty
+Issue the player a Game Loss. If both players commit the infraction, issue a double Game Loss. If the time in the round has expired or the match has concluded with an official result, issue the player(s) a Game Loss for their next round instead. 
+!!! info ""
+    Philosophy 
+    If the player offers or accepts an incentive to determine the outcome of a match, it is considered Bribery.[6.4] If the player knows that Improperly Determining a Winner is an infraction, it is considered Cheating.[6.2]
+4.5 Bribery
+Disqualification
+The player, by their own action, offers or accepts an incentive to concede or otherwise change the outcome of a game or match.
+Examples:
+A player offers their opponent cash to concede.
+A player offers their opponent a split of their eventual prizes to concede.
+A player offers to concede at a later date for a concession now.
+A player offers to concede if they get a cut of the cash prize.
+A group of players negotiates who should concede to get players in certain positions in the tournament standings.
+Procedure and Penalty
+Issue the player a Disqualification.
+Downgrade: If the player commits this infraction out of ignorance, downgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    Bribery in the game of Flesh and Blood is strictly prohibited as it disrupts the integrity of the tournament. Players are free to discuss and negotiate prize splits and the handling of prizes after the tournament has concluded, as long as it does not influence the match result.
+4.6 Betting
+Disqualification
+The player, by their own action, places or offers bets on an aspect of the tournament outcome, match outcome, or any part of a tournament or match.
+Bets do not need to be of monetary value to be considered betting.
+Examples: 
+Two or more spectators bet \$10 that a specific player will win the current match.
+Procedure and Penalty
+Issue the player a Disqualification.
+Downgrade: If the player commits this infraction out of ignorance, downgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    Betting in the game of Flesh and Blood is strictly prohibited as it disrupts the integrity of the tournament.
+4.7 Theft
+Disqualification
+The player, by their own action, steals tournament materials or steals another person's belongings.
+Examples:
+A player secretly drops cards from the opponent's deck on the floor and hides them with the intent of theft.
+A player steals tablecloths or table numbers off a table.
+A player is given prizes, then says to tournament officials that they did not receive prizes with the intent of trying to get more.
+Procedure and Penalty
+Issue the player a Disqualification.
+Downgrade: In cases where there is miscommunication or ignorance involved and the player returns the item, the Head Judge may downgrade to a Warning.
+!!! info ""
+    Philosophy
+    Players are responsible for their own possessions, but players enter a tournament with the expectation that the material they bring will be safe within reason. Theft of a person's belongings or tournament materials compromises the expectation of safety of the tournament and is strictly prohibited. Judges are encouraged to aid in the investigation of stolen materials.
+4.8 Stalling
+Disqualification
+The player, by their own action, intentionally slows down the pace of the game to take advantage of a round time limit.
+Examples:
+A player has a weapon that cost {r}{r} to activate and 1 card in hand with pitch value {r}. They spend an excessive amount of time running down the clock `thinking' about what to do.
+A player is ahead in the game and starts to play significantly slower as it gets closer to the end of the round, making it very hard for the opponent to have a chance of winning.
+A player who repetitively checks either player's graveyard in a single turn without progressing the game with the intention of running down the clock.
+Procedure and Penalty
+Issue the player a Disqualification. Educate the player that taking advantage of time limits is strictly prohibited and disqualify them from the tournament.
+!!! info ""
+    Philosophy
+    Stalling is differentiated from Slow Play by the intent of the player. Stalling assumes the player is intentionally playing slow to gain a tournament advantage. If it's deemed the player is not intentionally playing slow, see [5.7]
+4.9 Improper Concession
+Game Loss
+A player, by their own action, asks for a concession or concedes a match after time is called (after taking an action).
+Suggesting or pressuring an opponent to concede or to end the game/match, in any form, is considered to be asking for a concession.
+Examples:
+A player who is worried about the game becoming a draw due to time asks the opponent to concede so at least one of them wins.
+After the game is a draw due to time, a player reveals the cards in their hand and tells the opponent that they would have won with another turn, in order to coerce them into conceding.
+A player tells the opponent "Come on, man, don't defend my attack here and let's finish the game" in an effort to get the opponent to end the game by losing.
+Procedure and Penalty 
+Issue the player a Game Loss. If the time in the round has expired or the match has concluded with an official result, issue the player a Game Loss for the next round instead.
+Downgrade: If the player commits this infraction out of ignorance, downgrade to a Warning.
+Upgrade: For repeat infractions of asking a player to concede, upgrade to a Disqualification.
+!!! info ""
+    Philosophy
+    Players have the right to play the game of Flesh and Blood without being pressured to concede in consideration of their opponent. Asking for a concession, or pressuring a player to concede or end the game, leads to a poor play experience. Players may concede of their own volition up to when time in the round expires, but may not concede after they have taken an action thereafter. Conceding based on the outcome of a method other than playing the game is considered Improperly Determining a Winner ([4.4]). Offering or accepting an incentive to concede is considered Bribery ([6.4]).
+4.10 Rules Sharking
+Warning
+A player, by their own actions, prevents an opponent from interacting with the game when they can legally do so or leads their opponent to commit an infraction.
+Methodical or pedantic play is not considered Rules Sharking unless the intention is discerned to be malicious. The Head Judge determines what constitutes Rules Sharking during their event.
+Examples:
+A player tells their opponent to "Hurry up and finish your turn.", then when the opponent declares the end of their turn the player immediately calls a judge for an opponent's missed trigger.
+A player immediately declares blocking cards, after an opponent plays an attack, then the player tells the opponent they've missed their attack trigger and calls a judge.
+The player immediately says "No blocks, no reactions" after an opponent plays an attack, then prevents the opponent from playing an attack reaction by saying "It's too late, we're already in the damage step."
+The player says "Aren't you forgetting something?" and gestures to their opponent's pitch zone during the middle of the turn, then when the opponent puts their pitched cards on the bottom of the deck the player says "You can't put those cards away yet" and calls a judge.
+Procedure and Penalty
+Issue the player a Warning.
+Downgrade: If the accusation of Rules Sharking is purely speculative, downgrade to a Caution and educate the player on the expectation of play.
+Upgrade: If the player has shown a pattern of behavior to maliciously and intentionally lead their opponent(s) to miss windows of opportunity or to break the rules, upgrade to a Game Loss.
+!!! info ""
+    Philosophy
+    Players are expected to communicate their actions clearly and to give each other a reasonable opportunity to follow the game rules. When a player intentionally influences the opponent to miss an opportunity to interact with the game, or to commit an infraction, they may gain an advantage as a result of the game state, or the procedures and penalties recommended for that infraction.
+When a judge rules for a player to receive the penalty for Rules Sharking, they should inform the player that if they do not play in a less suspicious manner they may be receiving an upgrade. When upgrading, they should have clear evidence of the Rules Sharking infraction on hand, through interviewing the involved players and/or spectators.
+When making a ruling involving Rules Sharking, if it is a case where the player attempts to pass priority for both players and the opponent makes an automated response to this attempt, thereby missing a trigger, the window and/or trigger are considered to not be missed.
+4.11 Fraud
+Disqualification
+The player, by their own action, intentionally misrepresents their identity, participation, or results in a tournament, or allows another player to claim their identity for a tournament.
+If the Tournament Organizer allows a player to be substituted into a tournament for another player, it is not considered fraud.
+Examples:
+A player is already playing in a tournament but is registered for another tournament at the same time. They allow a friend to participate under their name instead.
+A player is late to a tournament, so another player pretends to be them to prevent a tardiness penalty in the first round.
+A player is not registered for a tournament, but tries to play in the tournament by taking the place of a player who has not shown up.
+Procedure and Penalty
+Issue the player a Disqualification. Educate the player about the proper procedures for the tournament and that misrepresenting themselves or another person in a tournament is unacceptable.
+!!! info ""
+    Philosophy
+    Players are expected to only represent themselves throughout the tournament. By claiming the identity of another player, tournament integrity can be damaged.
+A.1 Quick Reference Table
+Infraction Name
+Recommended Penalty
+Gameplay Infractions
+Game Rules Violation
+Warning
+Failure to Maintain Game State
+Warning
+Missed Trigger
+Caution
+Looking at Extra Cards
+Warning
+Hidden Card Error
+Warning
+Shuffling Error
+IP2
+Presenting Cards Error
+Warning
+Tournament Infractions
+Tardiness
+IP2
+Outside Assistance
+Game Loss
+Slow Play
+Caution
+Decklist Error
+IP2
+Card-Pool Contents Error
+IP2
+Draft Procedure Violation (Minor)
+Warning
+Draft Procedure Violation (Major)
+Game Loss
+Marked Cards
+Warning
+Insufficient Shuffling
+Warning
+Communicating Incorrect Game Information
+Warning
+Conduct Infractions
+Unsporting Conduct (Minor)
+Warning
+Unsporting Conduct (Major)
+Disqualification
+Cheating
+Disqualification
+Aggressive Behavior
+Disqualification
+Improperly Determining a Winner
+Game Loss
+Bribery
+Disqualification
+Betting
+Disqualification
+Theft
+Disqualification
+Stalling
+Disqualification
+Improper Concession
+Game Loss
+Rules Sharking
+Warning
+Fraud
+Disqualification

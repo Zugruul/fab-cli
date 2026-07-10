@@ -1,0 +1,1078 @@
+1 Tournament Information
+1.1 Event and Tournament Types
+Flesh and Blood events comprise one or more tournaments. Tournaments are categorized into four tiers and are run under three different levels of rules enforcement.[A.1] The tier of an event is the highest tier of any of its tournaments.
+Tier 1 and 2 tournaments can be run by any Tournament Organizer who has an active Game Event Manager (GEM) Tournament Organizer account - some tournaments require an invite from Legend Story Studios (LSS) to run. Tier 3 and 4 tournaments are run by LSS or Organized Play (OP) partners appointed by LSS.
+1.2 Rules Enforcement Levels
+There are three rules enforcement levels (RELs): Casual, Competitive, and Professional. Each REL has different expectations and infractions during the tournament are ruled differently, which can be found in the Procedure and Penalty Guide.
+Casual rules enforcement is designed for local in-store play, with emphasis on player education and enjoyment.
+Competitive rules enforcement is designed for competition, with emphasis on balancing player education and enjoyment, and tournament integrity.
+Professional rules enforcement is designed for the highest levels of competitive play, with emphasis on tournament integrity.
+Most tournaments are run under a single REL, but some tournaments may have multiple RELs, such as a Calling that changes from a competitive to a professional REL between day 1 and day 2+.
+1.3 Formats
+Tournaments comprise one or more formats. There are three categories of tournament formats that Legend Story Studios supports: constructed, limited, and special. Constructed formats involve players preparing their card-pool beforehand and require players to provide their own cards for the format. Limited formats involve the Tournament Organizer providing the materials required for the format. Special formats vary and don't necessarily fit into the categories of constructed and limited.
+Legend Story Studios currently supports the following official formats:
+Constructed
+Classic Constructed[7.1]
+Living Legend[7.2]
+Blitz[7.3]
+Silver Age[7.4]
+Limited
+Booster Draft[8.2]
+Sealed Deck[8.1]
+Blitz Preconstructed[8.3]
+Special
+Ira - Learn to Play[9.1]
+Team Format[9.2]
+Ultimate Pit Fight[9.3]
+1.4 Tournament Eligibility
+Everyone is eligible to play in Flesh and Blood tournaments, subject to tournament-specific eligibility policies, with the following exceptions.
+Individuals who are currently suspended
+Individuals specifically prohibited from participation by LSS or who have been asked to leave the venue by the Tournament Organizer
+Individuals twelve (12) years of age or younger who do not have permission from their guardian(s)
+Individuals prohibited by local laws, the rules of the Tournament Organizer, or the venue's management
+Tournament officials, if the tournament is a Skirmish or tier 2+
+Everyone is eligible to be a tournament official for a tournament, with the following exceptions.
+Individuals who are currently suspended
+Individuals who have already participated as a Player in the tournament, and the tournament is a Skirmish or is part of a tier 2+ event
+Employees and independent contractors of LSS are not eligible to participate in Professional tournaments unless a special dispensation has been granted in writing by Legend Story Studios. Whenever an employee or independent contractor of LSS attends a tournament, they must make their position known to the Tournament Organizer, who at their discretion, may deny them entry into the event.
+Suspended individuals may not play in tier 2+ events or in tournaments with a competitive or professional REL. Suspended individuals may play casual REL tournaments as part of a tier 1 event, subject to the tournament organizer's approval. Suspended individuals may attend and spectate any Flesh and Blood event, but may not be tournament officials at those events.
+Banned individuals may not participate in, attend, spectate, or be tournament officials at any Flesh and Blood event. If a banned player attends a Flesh and Blood event, they should be asked to leave the venue.
+1.5 Player Identification
+Individuals are required to have a GEM profile to participate in a tournament. Any individual may create a GEM profile by registering an account on the official Flesh and Blood website. Each GEM profile has a Player ID that uniquely identifies the individual. Individuals may only have one GEM profile - if an individual has more than one GEM profile, they must contact op@fabtcg.com to resolve the situation.
+Events that require an invitation to participate and/or have an age restriction will require personal identification to participate. These include, but are not limited to, National Championships, ProTours, and World Championships. The following forms of identification are acceptable.
+Proof of control of the associated GEM profile
+Birth Certificate (for players under the age of 13)
+Driver Licence
+Passport
+School ID card
+Government-issued ID card
+2 Roles and Responsibilities
+2.1 Roles
+Each individual at a tournament is considered to have one or more of the following roles.
+Player
+Spectator
+Tournament Organizer 
+Head Judge
+Floor Judge
+Scorekeeper
+Coverage Member
+Game Attendant
+Individuals with the Tournament Organizer, Head Judge, Floor Judge, Scorekeeper, and Game Attendant roles are considered tournament officials. The Tournament Organizer may also designate individuals to act as tournament officials, even if they do not hold any of the associated tournament roles. The Head Judge and Floor Judge are both considered judge roles. Coverage Members are collectively referred to as coverage.
+Tournament officials may change roles throughout the duration of the tournament, but an individual serving as the Tournament Organizer or Head Judge should remain in that role for the entire tournament.
+For tier 1 tournaments (excluding Skirmish), tournament officials may also be Players. For tier 2 tournaments and above (including Skirmish), tournament officials may not be Players.
+For tier 1 tournaments, the Tournament Organizer may also be a judge. For tier 2 tournaments and above, the Tournament Organizer may not be a judge.
+2.2 Player
+A Player is an individual who is participating in the tournament. A Player is responsible for:
+Being familiar with the rules and policies of Flesh and Blood tournaments.
+Bringing the appropriate tournament materials to participate in the tournament.
+Complying with announced start times and time limits, and being physically present for games.
+Acting in a respectful way and refraining from unsporting conduct at all times.
+Maintaining a clear and legal game state, and good communication with other Players.
+Calling a judge to rule an infraction or to settle a disupute between Players.
+Informing Judges or Scorekeepers of any discrepancies in their tournament record.
+2.3 Spectator
+Any individual is considered a Spectator for any match they are not participating in, with the exception of individuals who are judges. A Spectator is responsible for:
+Remaining silent and passive towards players, to ensure they do not influence the outcome of any match in progress.
+Discreetly alerting a Judge if they have observed a game action or otherwise that is in violation of our rules or policy.
+2.4 Tournament Organizer
+A Tournament Organizer is the designated individual that is responsible for organising and maintaining the logistics of a tournament. A Tournament Organizer is responsible for:
+Ensuring the tournament details are advertised well in advance of the tournament date.
+Providing a venue that adequately supports the tournament and the players.
+Providing all materials necessary for tournament operations and logistics.
+Organizing appropriate staff for the tournament to ensure a smooth and efficient operation.
+Dealing with infractions in player conduct.
+Organizing the distribution of tournament prizes to players.
+Reporting the tournament results to LSS.
+The role of tournament organizer (TO) needs to be designated before each event, at the latest before the start of the tournament.
+2.5 Head Judge
+A Head Judge is an individual who oversees the general operation of the tournament. In addition to Judge responsibilities[2.6], a Head Judge is responsible for:
+Using sound judgement to enforce (or modify when necessary) the rules and policy of the game to uphold the integrity of the tournament.
+Making the final ruling decision in the event a player appeals the ruling of a Judge.
+Assigning Judges tasks and ensuring they have adequate knowledge to carry out the tasks assigned to them.
+Providing feedback to Judges to support their rules, policy, and personal development.
+Final authority on the official properties of a card and interpretation of its rules text.
+Establishing the threshold for misprinted, damaged, altered, or marked cards; sleeves; game-layout; electronic device use; and issuing proxies.
+The Head Judge may temporarily transfer their responsibilities to any judge if the Head Judge is unable to perform them. In exceptional circumstances where the tournament's integrity would otherwise be damaged, the Tournament Organizer may fill the role of the Head Judge.
+Large tournaments may have multiple individuals in the role of Head Judge simultaneously. In this case, one individual serves as the official Head Judge, and the rest serve as Support Judges. A Support Judge shares the same responsibilities and has the same level of authority as a Head Judge, but is directed by the Head Judge.
+2.6 Floor Judge
+A Floor Judge is an individual who is tasked with assisting the Head Judge with the general operation of the tournament. A Floor Judge is responsible for:
+Attending judge calls.
+Answering Player and Spectator questions
+Providing assisted information to Players.
+Settling disputes between Players.
+Assisting with reasonable requests.
+Issuing rulings and applying appropriate procedures and penalties.
+Pausing and investigating games when an infraction is observed.
+2.7 Scorekeeper
+A Scorekeeper is an individual who collects and processes the information of the tournament to generate the pairings, standings, and other records throughout the tournament. A scorekeeper is responsible for:
+Generating the correct pairings for each round.
+Inputting the results of each round into GEM.
+Generate standings, typically after the final Swiss rounds.
+Resolving any incorrect tournament information in consultation with the Head Judge.
+Ensuring the tournament information entered in GEM is legitimate, true, and correct before submission.
+2.8 Coverage Member
+A Coverage Member is an individual who is doing media coverage for the event. A coverage member is responsible for:
+Reporting appropriate tournament information in a way that ensures Players are not able to gain a strategic advantage.
+Coordinating with tournament officials to organize feature matches.
+Directing the match timing and game-layout for Players in feature matches.
+2.9 Game Attendant
+A Game Attendant is an individual who oversees feature matches. A game attendant is responsible for:
+Coordinating with tournament officials to organize feature matches.
+Directing the match timing and game-layout for Players in feature matches on the behalf of a Coverage Member.
+Pausing a match when appropriate to call for a Judge or resolve a technical issue.
+3 Tournament Logistics
+3.1 Round Structure
+Tournaments are separated into rounds. A round in a tournament typically consists of a match between pairs of Players. If a Player wins a specified number of games in a match, that Player is the winner of that match. Swiss rounds are rounds of a Swiss-system tournament, where Players participate in each round and are paired based on a combination of Player standings, match history, and the tournament format. Elimination rounds are rounds of a knockout-style tournament, where Players are eliminated from the tournament if they lose a match (single-elimination) and do not participate in subsequent rounds.
+Rounds structure and format can vary between tournaments. A tournament is typically a single format with timed Swiss rounds for all Players followed by untimed single-elimination rounds for the top 8 players in the standings (referred to as the top-cut or play-off rounds). The number of rounds and round structure recommended/required for a tournament is outlined in [A.2].
+For timed rounds[3.2], the Players play games until a Player has won a specified number of games or the time in the round expires. For untimed rounds, Players play a best-of-N series, where the first Player to win the majority of N games wins the round. At the end of a match, if a result has not yet been determined, the Players complete the end-of-match procedure to determine the match result.[3.4]
+Generally, only 1 game is required to win a match, unless otherwise announced by the Tournament Organizer prior to the start of the tournament.
+3.2 Timed Rounds
+Timed rounds ensure that the tournament proceeds at a reasonable pace and gives Players a good idea of when to be ready to find their pairings for the next round.
+The timer for a round should begin when the vast majority of Players are seated or have been given a fair opportunity to be seated. Players may perform the first game's start-of-game procedure before the round timer starts, but they must wait to begin the first turn of the first game until after the round timer starts.
+If a Judge pauses a match for more than one minute while the round timer is running, the Players in the affected match will be given at least an equal amount of additional time to finish the match. If the match is paused for a regular deck-check[3.8], the Players will be given the time taken for the deck-check plus an additional three minutes to shuffle and present their decks, not to exceed the original time for the round.
+Feature matches[3.11] should be given additional time to compensate players for the time spent moving and/or setting up, or the feature matches should be timed separately.
+3.3 Start-of-Game Procedure
+A match officially begins with the players performing the first start-of-game procedure. The start-of-game procedure is as described in-depth by the Comprehensive Rules, but simply are as such:
+Step 1: Each Player places their hero card face up in their hero zone.   
+Step 2: A selected Player chooses who the first-turn Player of the game will be.
+Step 3: Each Player selects arena-cards from their card-pool with which they will start the game (e.g. equipment and weapons).
+Step 4: Each Player selects the deck-cards from their card-pool that will become their deck (i.e. cards that start in the deck zone).
+Step 5: All other legal cards that are not selected from a Player's card-pool become that Player's inventory.[4.10]
+Step 6: Each Player shuffles and then presents their deck to their opponent to be shuffled and/or cut.
+Step 7: Each Player reveals and sets up their arena-cards in their respective zones.
+Step 8: Each Player draws up to their hero's intellect. Once both Players have drawn their cards, the game is considered to have begun, and the first-turn Player may begin their turn.
+For Step 2, a Player is selected using a random method (e.g. highest roll, flipping a coin, etc.), and that Player chooses who has the first turn. If it is the first game of a play-off round, the Player with the higher standing chooses who has the first turn. If it is not the first game of a match, the Player who lost the previous game of the match is the Player who chooses; or if the previous game ended in a draw, the same Player as the previous game chooses. If the Player makes no choice before drawing and looking at the their first hand, they must take the first turn.
+The maximum time allowed for the start-of-game procedure is 5 minutes for the first game of a match, and 3 minutes for each subsequent game in the match. Players who exceed this time limit have committed slow play.[5.7]
+3.4 End-of-Game Procedure
+At the end of a game, players must reveal their cards with hidden information (e.g. cloaked equipment) if their opponent or a tournament official asks.
+At the end of a match, Players must agree on the results of the match and then submit that result to the Scorekeeper.
+For timed Swiss rounds, when the time in the round expires and a winner of the current game is yet to be determined the turn player completes their turn, and then 1 additional turn is played. If, at the moment time expires, the turn player has no decisions remaining or has clearly indicated their intention to end their turn, their turn is considered complete and their opponent will begin their turn, followed by the 1 additional turn. When the additional turn is complete, if a winner of the game has not been determined, the current game is a draw. The winner of the match is the Player who has won more games in that match, or the match is a draw if the Players have won the same number of games.
+For elimination rounds, where a draw is not an acceptable match result, take the following steps to determine the winner of the match. If the judge determines the current game as a stalemate start with step 2. If the current game has been completed start with step 3.
+Step 1: The Players are warned that if no progress is made, the winner of the current game will be determined by the highest life total. If no Player advances the game state towards a result other than a draw, go to Step 2. If play continues, the game is completed, and the outcome would result in a draw for the match, go to Step 3.
+Step 2: The winner of the game is the Player whose hero has the highest life total in the current game. If neither hero has a higher life total, go to Step 3.
+Step 3: The winner of the match is the Player who has won more games in that match. If neither Player has won more games, Players start a new tiebreaker game with 4 turns total (2 turns per player). After 4 turns, go to Step 4.
+Step 4: The tiebreaker game continues until one hero has a higher life total and the winner of the match is that hero's Player. If the tiebreaker game ends in a draw, go to Step 5.
+Step 5: The winner of the match is the Player that had the highest standing before the match began.
+3.5 Intentional Draws and Concessions
+Players may intentionally draw games and/or matches by mutual agreement at any time, except for elimination rounds. If a match in an elimination round would result in a draw (due to a game ending with a stalemate, deadlock, or mutual defeat), a Judge should guide players through the appropriate end-of-match procedure to determine the winner.[3.4]
+Players may concede games and/or matches at any time, except for timed rounds. For timed rounds, Players may concede any time up to and including when the time expires in the round, but once a Player makes an in-game action after this point (or acknowledges their opponent's action), they may no longer concede and must play the game to its natural conclusion. It is recommended that Players call a Judge when they want to concede.
+Players may not concede in exchange for any kind of consideration.[6.4] If players discuss considerations that are dependent on the outcome of a match (e.g. prizes), they may no longer concede.
+Players may not ask for a concession from their opponent at any time. Implicitly suggesting or pressuring a Player to concede may be considered to be asking for a concession. Discussing Player advantage, past or future actions, or possible outcomes when the time expires in a timed round is considered pressuring an opponent to concede.
+If a Player refuses to play a game and/or match, that Player is considered to be conceding the game and/or match. If both Players refuse to play a game or match, the match result is a loss for both Players.
+When a Player concedes a game/match, the result is processed as a loss for the conceding player. If the player would not be allowed to concede at that point, the player should be dropped from the tournament if there is not a genuine reason why they need to stop playing the current match. Examples of genuine reasons include but are not limited to:
+There is a personal emergency that requires the attention of the player.
+A player feels physically unwell.
+A player is uncomfortable playing against the opponent.
+A player spills a cup of coffee over themselves and they want to concede in order to clean themselves up.
+Examples:
+Two players do not want to play a game against each other during the Swiss rounds, but do not want a loss result to affect their personal ranking. They agree to a draw for the match and submit that result.
+It is the last Swiss round for the tournament and two friends are paired. One Player has enough match wins to make the top 8, so they concede before presenting their deck so that their friend has a better chance of making it into the top 8 as well.
+Time is called in the round and one Player is in a clearly advantageous position, but can not win in the next two rounds. The Player does not ask for a concession, but their opponent decides to concede before taking any actions anyway because they want their opponent to have a win, based on the game state.
+Time is called in the round, the Players have already completed the additional turn in the end-of-match procedure, and neither Player has won the game. Because neither Player decided to concede between the time being called and taking an action, neither Player may concede the game and it must be declared a draw.
+3.6 Dropping from a Tournament
+A Player may drop from a tournament at any time. To drop from the tournament the Player must inform the Scorekeeper. Dropped Players may only be re-entered into a tournament at the discretion of the Head Judge.
+Players who do not show up to their match are considered to have conceded the match and should be dropped from the tournament unless they inform the Scorekeeper before the next round pairings are generated.
+If a Player drops from a tournament before the first pairings have been generated, they are considered not to have participated in the tournament and will not be listed in the final standings. If a Player drops after pairings for a round have been generated, they are considered to have conceded that round's match before being dropped.
+If a Player drops during a limited format portion of a tournament, they own all the cards they correctly and currently have, including any opened, unopened, and partially-drafted booster packs.
+If a Player drops from a tournament early, they may not be eligible for participation prizes at the discretion of the Tournament Organizer. If a Player drops from the tournament after it is announced that they are in the top cut, there will not be a replacement for them in the top cut.
+Players may not drop from a tournament in exchange for any kind of consideration.[6.4]
+3.7 Card-Pool Registration
+Card-pool registration (decklist) is a recorded list of cards a Player may use or intends to use in a tournament format. Decklists are required from Players for all competitive and professional REL tournaments. While not required, the Tournament Organizer may require decklists for Casual tournaments. For specific decklist requirements, see [A.5].
+When a decklist is submitted to a tournament official, the decklist and the information contained therein become the property of the Tournament Organizer. Decklists that are illegal, illegible, or not properly formatted may be rejected. Once a decklist has been accepted, the Player may not alter it. Players are responsible for submitting all decklists required before the beginning of the first round (for constructed formats), end of deck construction (for limited formats), or at another time specified by the Tournament Organizer. Players that submit their decklists after this time may receive penalties. Players may request to see their decklist between matches, which should be honored if logistically possible.
+It is recommended that decklists are kept private to the Player and tournament officials for the duration of the tournament, with the exception of using it for coverage and providing it to Players in the play-offs at professional REL. If there are any changes to this, the Tournament Organizer should make it clear before the tournament begins. At professional REL, each Player in the play-offs of a constructed format should be provided copies of their opponents' decklists at the earliest convenience and given sufficient time to review them until the first game begins. This is not required for limited-format play-offs.
+3.8 Deck-Checks
+A deck-check is a procedure to verify a Player's cards against their accepted decklist.[3.7] For a regular deck-check, the Player's cards are collected when a Player has presented their deck for a game (before they have drawn their opening hand), and are returned without the guarantee that they are in the same order. Regular deck-checks should ensure that the cards are not considered marked[5.13] and that the player has presented cards legally.[3.3]
+Regular deck-checks must be performed at professional REL and are recommended at competitive REL. Regular deck-checks may be performed at casual REL at the discretion of the Tournament Organizer. If regular deck-checks are being performed at a tournament, it is recommended that a regular deck-check is performed on at least 10% of the random players during the Swiss rounds of the tournament before they begin the first round of the play-offs. Additional deck-checks might be performed for investigation purposes.
+If the round is timed, affected Player's should be given extra time to complete the round.[3.2]
+The Head Judge reserves the right to perform a (non-regular) deck-check for any Player, including when they are in the middle of a game or between rounds. If a deck-check is performed in the middle of a game, it must be returned to reinstate the game exactly before the deck-check was performed. If a deck-check is performed between rounds the Head Judge should keep in mind that it is not presented as though the Player was about to play the game with it; marked cards and presentation errors are typically not applicable.
+3.9 Judge Calls and Appeals
+A Player may call a Judge at any time during their match. The recommended way to call a Judge involves pausing the game, raising a hand, calling out "Judge!", and waiting for a Judge to attend the call. Tournament officials may pause a game and call a Judge on behalf of the Players. At a competitive and professional REL Spectators may not call a Judge, but may discreetly bring a game to the attention of a Judge if necessary. Judges should attend judge calls guided by the official Comprehensive Rules, Procedure and Penalty Guide, and Tournament Rules and Policy.
+During a match, a Player should immediately call a judge when:
+Any Player commits a minor infraction that can not be resolved between the players in a timely manner.
+Any Player commits an infraction that requires a corrective procedure or might create a significant advantage/disadvantage for one of the Players.
+There is a dispute between Players that can not be resolved in a timely manner.
+There is an issue or emergency that requires a tournament official.
+The Player needs to leave the table for any reason.
+The Player otherwise needs the immediate oversight of a Judge.
+A Player may also call a Judge when they want assisted information.[5.1] During a judge call, Players must answer all questions completely and honestly and may request to do so away from the match.
+For tournaments where there are both Head Judges and Floor Judges, it is preferable that a Floor Judge is the first responder to a judge call. If a Floor Judge is not available to respond to a judge call in a reasonable amount of time, a Head Judge should be the first responder to the call.
+Players may not request a specific Judge to attend their judge call or request a different Judge other than the first attending Judge. If there is an issue with language barriers, Players may request a translator to aide in the judge call, which should be honored if logistically possible.
+After the attending judge has made a ruling, but before the procedure or penalty has been applied, either Player may appeal the Judge's ruling. When a ruling is appealed, a Head Judge attends the judge call to make the final ruling. When a Head Judge is the first responder, the player may still request an appeal, in which case the Head Judge should consult with another Judge before affirming or modifying their ruling.
+3.10 Accessibility
+The Tournament Organizer is responsible for making a reasonable effort to provide an accessible environment for Players to participate in the tournament.
+Players may request help from tournament officials in regard to accessibility. Exceptions to specific tournament rules may be made on a case-by-case basis to make the tournament more accessible to individual Players, provided the exceptions do not give a strategic advantage to the Player. All exceptions must first be approved by the Head Judge.
+Examples:
+Assigning a caretaker, friend, or legal guardian to aid a Player with certain tasks like drafting or shuffling when the Player is physically disabled.
+Assigning a specific play-table for a Player with a physical disability that prevents them from reaching their seat each round.
+Allowing a player to use written phrases made before or during the event, to communicate common aspects of gameplay to their opponent.
+Allowing the use of electronic devices to facilitate translation during a judge call if no translator personnel are available.
+3.11 Coverage
+LSS reserves the right to publish any official tournament information at any time, including during the tournament. The Tournament Organizer may also publish this information after the tournament is complete. By participating in a tournament, players consent to their tournament information being used for coverage purposes. This information includes, but is not limited to, the Players' names, decklists, and results.
+Tournaments may have live media coverage, including video coverage of matches by live streaming or replay broadcast (feature matches). During feature matches, coverage may direct the gameplay logistics and the use of tournament materials to improve the quality of the content being recorded and prevent players from gaining a strategic advantage. This includes, but is not limited to, using additional markers to visually represent information for the cameras, having the Players wear noise-cancelling headphones, and prohibiting the use of material that features non-LSS IP.
+The Head Judge may authorize the use of video replays from official media coverage to assist in making rulings during a match. Video replays may also be used for the purpose of investigations after a match has been completed.
+At casual and competitive REL, players may decline to be featured during Swiss rounds without penalty. At professional REL, or during play-off rounds at casual and competitive REL, if a player declines to be featured, they receive a match loss for the round.
+Spectators are permitted to record matches provided that they do so unobtrusively. If a Player or Spectator wants to use an obtrusive method to record a match, they must request the permission of the Tournament Organizer and the Players of the match.
+4 Tournament Materials
+4.1 Player Materials
+Players are responsible for bringing their own materials required to play the event:
+Materials required for the specific formats and REL of the tournament:
+Cards
+Decklists
+Sleeves 
+Supporting materials for specific mechanics:
+Token cards for "create" effects
+Dice for "roll" effects
+Reference cards for "become/copy" effects
+Physical, visible, and reliable items to record and maintain game information:
+Pen and paper
+Counters
+Markers
+For formats where Players are provided cards to play with, a Player is expected to care for those materials once they possess them. Players are responsible for looking after their own belongings at all times.
+During a match at competitive and professional REL, Players are expected to keep their registered cards in their card-pool clearly distinguishable from the other card-like objects. If there are cards stored with their card-pool that could conceivably be in the Player's registered card-pool due to proximity, they are considered part the card-pool unless they are:
+Cards not on the decklist that are promotional cards given out at event.
+Cards on the decklist that have been proxied for the duration of the tournament.[4.3]
+Flip-cards cards represented by official placeholder cards in the deck.[4.4]
+Flip-cards cards that are being used represent the back-face of cards in the deck.
+These cards must not be sleeved in a way that they could be confused with actual cards in the registered card-pool. Token cards are not considered part of a player's card-pool and may be stored with the card-pool even if there are no registered cards that could ultimately create them.[4.5] Created cards and reference cards may be sleeved like registered cards, and may be stored with the Player's registered card-pool.
+4.2 Cards
+A card is a physical object that represents itself in the game of Flesh and Blood. Players may use any official card in a tournament. A card is an official Flesh and Blood card if it is genuine, published by LSS, and is one of the following:
+A single-faced card with:
+the official Flesh and Blood back-face,
+an alternative version back-face of the same card (e.g. Hummingbird, Call of Adventure [FAB094]),
+an informational tip back-face (e.g. Azalea, Ace in the Hole [AAZ001]),
+a full-art back-face of the same card (e.g. marvel-rarity Iyslander [UPR103]),
+an official serialized sketch back-face (e.g. Prism, Sculptor of Arc Light [ART001]),
+A double-faced card.
+A double-sided basic-rarity card.
+An authorized test print card listed in [A.6].
+Official cards are game pieces distributed through retail products and promotional programs. Artist proofs, informational inserts, and oversized cards are not official cards.
+Cards may only be included in a Player's registered card-pool if they are legal in the format being played. Players are responsible for ensuring their cards are legal for the tournament. If they are unsure, they should ask the Head Judge. Card legality is defined and managed through the Card Legality Policy.
+The properties of a card are defined by the latest printing of the card, subject to any errata published by LSS.
+Tokens
+A token is a card with the token type.[4.5]
+Double-sided basic-rarity cards
+A double-sided basic-rarity card is a card where both sides are the different faces of two unrelated basic-rarity cards. A Player may use only a single side to represent a single card in the game at a time. If one of the sides represents a non-token card in the game, the Player may not switch the sides of the card to represent a different card in the game.
+Double-face cards
+Double-faced cards (DFC) are cards with another related card face on the back side of the card instead of the standard Flesh and Blood back-face. When a player includes a DFC in their deck, it must be in a card sleeve with an opaque back. When a DFC would be flipped to its front- or back-face, the card should be taken out of the sleeve and flipped to its correct orientation.
+For flip-cards specifically, Players may use an identical DFC with its back-face displayed. This identical DFC must be sleeved differently to ensure that it is not confused with registered cards in the Player's card-pool. When the front-face DFC from deck would be flipped, the back-face DFC can be swapped to replace front-face DFC, and vice versa when it leaves the arena. This permission does not extend to transcend- or twin-cards.
+Created cards
+A created card is a card that is not registered by the Player but is created by a registered card's effect. If a Player has a registered card that creates a deck-card, the Player is responsible for having a reasonable number of those deck-cards to be used during the game. If a Player's created cards are in a public zone they own, they may use a marker placed on top of a single created card to represent how many of that card are in that zone, provided that all the represented cards are otherwise identical.
+Reference cards
+A reference card is a card that is not registered by the Player but is referenced by a registered card's effect. If a Player has a registered card that copies or otherwise causes a card to become another card that is not in the game, the reference card is used while that effect is active. The player is responsible for having the all the reference cards that the effect could copy.
+Reprinted cards
+A reprinted card (reprint) is a card for which a version has already been printed in a previous product. Reprints may feature new art, border, rarity, and even updated properties such as card text. Reprints are legal to play as soon as they are available.
+Non-English cards
+A non-English card is a card that is printed with text translated into a language other than English. A Player may use an otherwise-legal non-English card provided it is clear what card it represents and the Player is not using it to create an advantage, such as by having misleading text or pictures.
+Misprinted cards
+A misprinted card is a card that, through a design or printing error, does not accurately represent its intended form. A Player may use an otherwise-legal misprinted card provided it is clear what card it represents. A player may not use a misprinted card if the card shows the properties of another card it does not represent, and may not use a misprinted card to create an advantage, such as by using a card with misleading text or pictures. If the printed information on a misprinted card is missing or objectively incorrect (such as colour, power, defence etc.), the Player must inform their opponent when a misprinted card becomes visible and have the correct printed information available for their opponent to refer to.
+Damaged cards
+A damaged card is a card that has received physical treatment that ruins its aesthetic quality and/or functionality as a game piece. A Player may use an otherwise-legal damaged card provided that the damage was due to wear and tear or is otherwise accidental, and the damage does not cause the card to be unrecognizable, or give strategic assistance. Intentionally damaged cards, such as cards that have been cut, ripped, or shredded and reconstructed, are not legal - this does not apply to cards that have been intentionally altered, especially for artistic purposes. If a Player opened a damaged card from limited product, or their card was damaged by an opponent or tournament official, the Player may be issued a proxy ([4.3]).
+Altered cards
+An altered card is a card that has been intentionally physically altered, especially for artistic purposes. Alterations include, but are not limited to, painting, signing, foiling, collages, printed inner-sleeves, and anything that intentionally alters the visuals of the card.
+A Player may use an otherwise-legal altered card provided that any modifications do not cause the card to be unrecognizable, contain offensive material, or give strategic assistance. An altered card must originally be the official Flesh and Blood card that the alter will represent in the game. Any alterations should allow tournament officials to validate the original card's authenticity, and must not cover or obscure the name, color bar, or numeric properties (cost, defense, life, pitch, power etc.) of the card. For collage-like alterations (e.g. shadowboxing), only arena-cards may be altered this way. The Head Judge decides what is an acceptable alter for the tournament.
+At competitive and professional REL, a Player must receive approval from the Head Judge before using an altered card for the tournament. The primary subject(s) of the artwork must not be altered beyond recognition, including drastic changes to the silhouette, color scheme, and focus of the primary subject(s) in the artwork.
+4.3 Proxy Cards
+A proxy card (proxy) is a card that is used to represent an official card in a game. Proxies are not permitted unless officially issued by the Head Judge of the tournament. The Head Judge may issue or approve a proxy at their discretion in the following situations:
+A foil card where the foiling is the cause of it being marked in the deck, and there is no non-foil version of the card or it would be unreasonable to expect the Player to find a substitute.
+A damaged card where the damage is the cause of it being marked in the deck, and the card was opened from limited product damaged or the damage was caused by the Player's opponent or a tournament official.
+A basic-rarity card at a limited event where there are insufficient official cards.
+A created card where a Player has made a reasonable attempt to supply enough created cards for their game but it is not sufficient for the current game-state.
+Printed Ira Welcome decks at a Learn to Play event.
+A proxy is used during the tournament to represent an official Flesh and Blood card. The player must have the original card or the information of the original card for the opponent to reference during a game that involves the proxy.
+The proxy is only legal for the duration of the tournament it is issued. Proxies that have been issued from other tournaments and self-made proxies are not tournament-legal.
+4.4 Placeholder cards
+A placeholder card (placeholder) is a card that represents another deck-card (typically a double-faced card) while it is in a private zone. Placeholders are designed so a Player can play with unsleeved double-faced cards or so a Player does not have to unsleeve double-faced cards to use their back-faces.
+Players may only use official placeholders in place of cards in their deck. To use a placeholder, the player must ensure that the name and pitch of the card it represents are legible; any other modifications must follow the same rules as altered cards.[4.2]
+A placeholder card can only be used while the card it represents is in a private zone. While the placeholder card is in a private zone, the card it represents is not outside of the game. When the placeholder card moves into a public zone the player must swap it out with the card it represents (in the correct orientation). If the represented card would then go back into a private zone, the placeholder card is swapped in again.
+A checklist card is a placeholder that contains a list of cards that the checklist card could possibly represent (with a checkbox next to each card). Each individual checklist card used by a Player must have exactly one card checked - the checklist card represents the card that is checked.
+4.5 Tokens and Macros
+Tokens and macros are card-like objects that represent tokens and macros within the game respectively. Official tokens and macros are printed similarly to official cards but have the "token" or "macro" type printed in the typebox. Token type is not to be confused with the deprecated basic-rarity (which also replaced token-rarity).
+The properties of a token or macro are defined by the latest version of the Comprehensive Rules.
+Players may create or use an unofficial token or macro, as long as it is card-like (rectangular with a height-width ratio of approximately 7:5), is no smaller than half the size of a card and no larger than a card (a standard card is approximately 88x63mm), any game-related properties are clearly readable, and it can't be confused with another card. Tournament officials and coverage may ask Players to use official tokens or macros to keep the representation of the game clear.
+Tokens
+At competitive and professional REL, if a Player has registered cards that create tokens, they must have the appropriate physical tokens to represent each of them. If the Player's cards may create the same token but with different states (e.g. creating a token under each player's control), they must have an appropriate amount of tokens to represent each token in those states.
+A token should only be present in the play-space if it represents a token that exists in the game. If the Player's cards are able to create multiple instances of the same token, they may use a marker placed on top of a single token to represent how many of that token you control provided that all tokens are otherwise identical. Players may not start the game with a token in the play-space, with the intention of adding a marker when tokens of that type are actually created in the game.
+Macros
+Macros are meta-game objects and Player's are not required to supply their own macros for a format.
+4.6 Counters
+A counter is a small item that represents a specific type of counter on an object in the game. Players may use any item to represent a counter, as long as it is clear what type of counter it represents; does not give the Player strategic assistance; is not so small or colored in a way that makes it difficult to see; and is not so large as to obstruct the play-space. 
+If two or more counters of the same type are on an object, they must be homogenous and must not be arranged in a way that makes it difficult to determine how many or what other counters are on the object. Dice and similar counting items may be used to represent the number of a specific type of counters on an object, instead of using an item per counter.
+Examples:
+A glass bead used to represent a +1{p} counter on a weapon.
+A die to represent the number of steam counters on an item.
+Two distinct dice on an equipment, one grey die to represent the number of -1{d} counters, and one red die to represent the number of energy counters. 
+4.7 Markers
+A marker is a small item that is used to optionally represent part of the state of the game. Markers are not to be confused with counters which represent a specific in-game element.[4.6] Players may use any non-card-like item as a marker, as long as it is clear what information it represents; does not give the Player strategic assistance; is not so small or colored in a way that makes it difficult to see; and is not so large as to obstruct the play-space. 
+Players may use markers to represent visible or public information in a game, but may not use them to represent information regarding cards in a Players deck or any historical, assisted, or private information.[5.1][5.8] Players may not use markers to represent information regarding cards in a deck, to avoid the potential abuse of tracking cards. A Player may only temporarily use a marker to represent information: once that marker no longer represents the current state of the game the Player must update the marker or remove it from use.
+If two or more markers are used to represent the same visible or public information, they must be homogenous and must not be arranged in a way that makes it difficult to determine the information they represent. Dice and similar counting items may be used as markers to represent numerical information.
+Examples:
+A resource-shaped marker is used to represent the number of resources a player has.
+A die marker is used to represent the modified power of an attack on the combat chain.
+A metal Go Again marker is used to represent that an attack has go again on the combat chain.
+4.8 Dice
+If an action requires the use of dice, any method may be used to simulate the dice roll, as long as the method can produce the correct range of possible results and they have an equal chance of occurring. At professional REL, electronic devices may not be used to simulate dice rolls. 
+Physical dice must have clear readable values, must be weighted to ensure that landing on each possible side has an equal chance of occurring, and is not so large that they are disruptive when rolled. High-value dice with similar values grouped together (such as spindown dice) may not be used. 
+When physical dice are rolled, they must be rolled from a discernible height and with enough spin to create sufficiently random results. Dice that leave the playing surface, become ambiguously mixed with other dice, or do not come to rest in a stable position on a flat surface, are ignored and re-rolled. 
+If the result of a dice roll would have no impact on the game, the Player may skip rolling them. If a Player rolls too many dice at once, they are ignored and the correct number of dice is re-rolled.
+4.9 Sleeves
+A sleeve is a thin flexible card-shaped pocket that protects a card during play.
+If a Player chooses to use card sleeves, all deck-cards used during a game must be sleeved in an identical manner. At professional REL, the Head Judge may require all players to use sleeves for their deck-cards. Arena-cards do not have to be sleeved identically and may be sleeved or placed in heavy plastic cases, so long as they do not obstruct the game-space. 
+Double-faced cards in a Player's deck must be sleeved in completely opaque sleeves.
+At Competitive and Professional REL, sleeves with highly reflective or holographic patterns are not permitted. The Head Judge has the final say on whether any type of sleeve is not allowed to be used in the tournament.
+Players are responsible for ensuring that their sleeves do not cause their cards to be marked during a tournament.[5.13] A Judge may disallow the use of particular card sleeves if they believe that the sleeves are in a condition or of a design that interferes with shuffling or game play. A Judge may choose to delay having the Player change sleeves until the end of a match.
+4.10 Inventory
+A Player's inventory is a group of cards that is a subset of the Player's registered card-pool but is not being used in the current game. During the start-of-game procedure for each game[3.3], each Player selects what cards from their card-pool they will start the game with and any remaining cards become their inventory for the game.
+During a game, Players may look at their own inventory but not their opponent's inventory. The inventory must be kept completely separate from other cards in the game. Other card-like objects should also be kept separate from the inventory during the game.[4.1]
+4.11 Electronic Devices
+An electronic device is a personal machine capable of recording or presenting strategic notes, communicating with other people, or accessing the internet (or a similar network).
+In general, Players may use electronic devices during a match as long as the content presented is visible to all Players and it is not used to gain strategic advice.[5.8][5.9] If a Player wants to use a device privately, they must request permission from a Judge. Electronic devices may be used during the start-of-game procedure for strategic notes, but not for communication.
+Physical records should be preferred over electronic records when resolving discrepancies in a game (e.g. life totals).
+At competitive and professional REL, electronic devices may not be used at all during a draft.
+Additional restrictions or exceptions to the use of electronic devices are enforced at the discretion of the Head Judge.
+4.12 Infringing and Offensive Material
+Individuals may not possess material that infringes the intellectual property rights of LSS, or non-LSS material that is offensive, disruptive, or affects the enjoyment of others. If an individual is seen in the possession of such materials, the Tournament Organizer should request that the individual remove the material, or be disqualified (or for non-Players, leave the venue).
+A detailed policy regarding IP usage rights can be found in the Terms of Use for Game and Studio Assets and IP. The Tournament Organizer determines what non-LSS material is acceptable for use throughout the tournament.
+Examples:
+Unofficial play-mats with unauthorized use of artwork or logos owned by LSS.
+3rd-party merchandise with unauthorized use of artwork or logos owned by LSS.
+Counterfeit cards, designed specifically to mimic genuine Flesh and Blood cards.
+Custom card sleeves or play-mats with overly sexualized characters. 
+Materials that are racist, homophobic, transphobic, sexist, ableist, or otherwise hateful.
+4.13 Sealed Deck and Booster Draft Product
+Product for a sealed deck[8.1] or booster draft[8.2] format must be received directly from tournament officials, and must not be reused for another sealed deck or booster draft format. If the Tournament Organizer allows Players to provide their own product, that product should be pooled with the rest of the product for the format before being randomly distributed by the tournament officials.
+Boosters given to each player in a pod for a booster draft format should come from the same box, if logistically possible.
+Product must be unopened when distributed. Packs may only be opened in advance to be stamped with the explicit permission of LSS. When preparing stamped product for a draft, flip-cards should be replaced by an appropriate placeholder card indicating the card it replaces.[4.4] Then, Players who have drafted placeholder cards should be given the real flip-card after the draft has concluded but before the beginning of the first round of the format.
+If the product does not contain enough basic-rarity cards for limited play, the Tournament Organizer is responsible for providing the additional cards or appropriate substitutes.[4.3] The Tournament Organizer may require that any basic-rarity cards supplied are returned at the end of the format. Players may use their own cards in place of basic-rarity cards, as long as they are the same unique card.
+5 Gameplay Logistics
+5.1 Game Information
+There are five categories of information in a game: Visible, Public, Assisted, Historical, and Private.
+Visible information is information about that game state that is physically represented. Players are responsible for maintaining the physical representation of cards and tokens they own, counters on those cards and tokens, and their own record of hero life totals. Visible public information consists of:
+State of cards.
+Zone/location of cards.
+Printed properties of public cards and tokens.
+Counters on objects.
+Life totals of heroes.
+Public information is information about the game state that is not physically represented. Players are responsible for recalling public information about decisions they've made, cards and tokens they own, and assets they have. Players have a shared responsibility for recalling public information about the shared state of the game and match. Public information consists of:
+Properties of public objects that differ from their printed properties.
+Details of current public decisions, effects, or events that define the current game state.
+Details of past public decisions, effects, or events that affect the current game state.
+Assets of Players (unspent action and resource points).
+Current turn player, phase of the game, and step of combat.
+The game score of the current match.
+Assisted information is information unrelated to the game state. Players are not required to recall assisted information, but it may be requested from a Judge. Assisted information consists of:
+Printed properties of any card or token in Flesh and Blood.
+Game rules.
+Tournament rules and policy.
+Official information regarding the tournament.
+Historical information is information that was previously public information but does not affect the current game state. No Player is responsible for recalling this information. Historical information consists of:
+Printed properties of cards that have been revealed but are now private.
+Details of public decisions, effects, or events that do not affect the current game state.
+Private information is information that is not, or can not be, known by all Players. No player is responsible for recalling private information. Private information consists of:
+Printed properties of private cards that have not been seen by all players.
+Details of private decisions, effects, or events. 
+Players are responsible for recalling Visible and Public information, but not for Assisted, Historical, or Private information. Players must answer questions about Visible and Public information completely and honestly. If a Player notices that Visible or Public information is incorrect, they are responsible for pointing it out.
+Players have the privilege to know Visible, Public, and Assisted information, but not Historical or Private information. Judges must provide any requested Assisted information if logistically possible.
+Players may not misrepresent (or mislead another Player about) Visible, Public, Assisted, or Historical information.
+Players may not misrepresent (or mislead another Player that) a type of information is a different type of information.
+Examples:
+A Player has a Frost Fang in their hand (private information). They reveal Frost Fang to pay an ice fusion cost, showing the card to all other Players (visible information). After the reveal, all Players are responsible for recalling that an Ice card was revealed to pay the ice fusion cost (public information) but do not have to recall exactly what card was revealed (historical information).
+A Player plays Twin Twisters (visible information) and chooses the second mode to get +1{p} (public information). The opponent calls a judge and asks about the card text of Spinning Wheel Kick (assisted information).
+A Player accidentally drops the cards in their hand (private information). Even if the opponent sees all of the cards' faces this way, it is still considered private information - it does not become public or historical information.
+5.2 Shortcuts
+A shortcut is an action (or lack of action) taken by Players to skip parts of in-game play without explicitly acknowledging them. Shortcuts allow Players to efficiently progress a game with a shared understanding of the game-state by not having to perform otherwise irrelevant and tedious actions. 
+A shortcut can only be performed if all Players mutually understand what shortcut is being performed and what the game-state will be as a result. The types of shortcuts that can be taken vary between different Players based on their mutual understanding, but the majority of shortcuts involve skipping one or more passes in priority. Shortcuts that involve skipping decisions (other than passing priority) of the opponent must be explicitly explained and agreed upon before being performed. Once all Players have acknowledged the final result of the shortcut, the shortcut has been completed.
+Players may interrupt a shortcut (including their own), but only if they do so before all Players acknowledge the result of the shortcut. They must explain how they want to deviate or at what point they want to respond, in which case the game-state continues from the earliest point of interruption.
+Players may not use shortcuts to take advantage of poor communication or create ambiguity in the game.
+Examples:
+A Player plays a non-attack action card with go again. The Player takes a shortcut to skip all Players passing priority the and card resolves. Then the Player plays another card.
+A Player controls 5 Runechant tokens and plays an attack action card. The opponent proposes a shortcut to go to the defend step by saying "I won't prevent the Runechants", and the Player accepts. They both skip passing priority and the opponent takes the damage from the 5 Runechant tokens. 
+A Player is targeted by an attack with 3{p}. The Player proposes a shortcut to go to end of the damage step by saying "I'll take the 3 damage" and the opponent accepts. They both skip passing priority and declaring defending cards, and the Player takes the damage.
+A Player has a Fyendal's Spring Tunic with 2 energy counters on it. The Player takes a shortcut to resolve the start-of-turn trigger, activate and resolve the ability to gain 1 resource, and play Tome of Fyendal paying 1 resource. They do this by saying "Tunic, paying for Tome", physically removing the two existing counters, and putting Tome of Fyendal into the play-space. They skip putting a counter on the Fyendal's Spring Tunic in the start phase and passing priority in the action phase.
+A Player plays a non-attack action card with go again. The Player takes a shortcut to skip all Players passing priority and plays another card. The opponent interrupts the shortcut to skip priority and wants to play a card in response to the non-attack action card. The game-state continues from the point where the non-attack action card is on the stack and the opponent has priority.
+A Player controls Teklo Pistol and Induction Chamber, with 1 steam counter on each of them them. The Player explains that they want to use the verbal shortcut "Pistol for 2, go again" to mean attacking with Teklo Pistol and activating Induction Chamber, skipping priority and the opponent deciding to defend. The opponent declines the use of the shortcut. The Player must now explicitly attack with Teklo Pistol and wait for the opponent to declare any defending cards before activating Induction Chamber.
+5.3 Out-of-Order Play
+An out-of-order play (OOP) is when a Player executes a set of in-game actions that are not strictly sequenced correctly (as defined by the Comprehensive Rules). All in-game actions a Player makes as part of an OOP must be legal and the resulting game-state must be correct and clearly understood, as if those actions were performed in the correct order. Actions in an OOP can not been made based on information that would not have been available if the actions were in the correct order.
+A Player may ask the acting Player to perform the actions in the correct order so that an action can be responded to at the appropriate time. If any Player wants to respond during an OOP, the game state continues from the point where the Player wishes to respond and the acting Player is not committed to any pending actions they would have otherwise made during the OOP.
+A player may not add to, or modify, their OOP based on the reactions of an opponent or the information they have gained by making the actions out of order. A Player cannot use an OOP to retroactively take an action they have previously missed. In general, a substantial pause indicates that an OOP has been made and completed, and that the game-state correctly represents the result of the actions in the OOP.
+Examples:
+A Player pitches cards before declaring the card being played or the ability being activated.
+A Player, playing as Briar, plays three non-attack action cards and then creates an Embodiment of Lightning token as a resolution of a trigger from playing the second non-attack action card.
+A Player announces defending cards and a defense reaction at the same time. The attacking player wants to play an instant in response to the defending cards, so the defense reaction goes back to the Player's hand.
+A Player has a Fyendal's Spring Tunic. At the start of their turn they immediately play a card, pauses, then realize that they missed their start-of-turn trigger. The Player can not retroactively resolve the trigger, claiming it was an OOP.
+A Player, as an attacking player, asks "Any reactions?" during the reaction step of combat and their opponent says no. The Player can not record the damage and then retroactively play an attack reaction, claiming it was an OOP.
+5.4 Reversing Actions
+Players are expected to consider their options, then take actions intentionally and commit to them. In general, Players are not permitted to reverse a complete action that has been communicated either verbally or non-verbally (a.k.a. taksies backsies). Players may not coerce their opponent into allowing them to reverse an action they have completed. Dexterity errors are not considered actions taken by a Player.
+If a Player realizes they have made the wrong decision for an action they have just taken and wants to make a different decision, a Judge may allow that player to change their action as long as they have not gained any information since. If the Judge cannot be sure that information was not gained, they should not allow the action to be reversed.
+Examples:
+A Player pitches a card to pay a cost, then before anything else happens they say "Sorry, I meant to pitch this card." A judge determines they have not gained any information and allows the player to take back the pitched card, and declare a different card to pitch.
+A Player says "No blocks", then immediately says "Wait, I'll block with these cards." A judge determines they have not gained any information and allows the player declare the set of defending cards.
+5.5 Triggered Effects
+Players are expected to remember the triggered effects they control. Players are not required to acknowledge triggered effects they do not control, but may still do so.
+A triggered effect is considered to be missed if neither Player acknowledges the trigger, and then its controller takes an action or allows an action to be taken, past the point in the game where the triggered effect would become relevant to the game. The point when a triggered layer becomes relevant is different for different triggers, and if the following criteria are met for the trigger is it not considered missed:
+A triggered effect that requires its controller to make decisions (such as choose targets or modes) must be acknowledged before the controller next passes priority.
+A triggered effect that affects the rules of the game must be acknowledged before an action is taken, or acknowledged by stopping an action taken by a player, that otherwise would be made illegal by the triggered effect.
+A triggered effect that affects the game state in a visible way upon resolution, or requires any player to make decisions upon resolution, must be acknowledged before any player takes an in-game action that could only be taken after the triggered effect has resolved.
+A triggered effect that affects the game state in a non-visible way must be acknowledged before it first visibly affects the game state.
+If the triggered effect is optional and it is missed, it is considered that the controlling player decided to not generate the effect.[5.14] Intentionally ignoring mandatory triggers is considered cheating.[6.2]
+5.6 Game Layout
+The play-space is defined as the area of zones owned and shared by the Players in a game. At competitive and professional REL, Players must follow the official Flesh and Blood official zone layout. From the Player's perspective:
+The Player's hero, weapon-equipped cards (weapons, off-hands, etc.), and arsenal should be in the center of the play-space.
+The Player's weapon-equipped cards should be adjacent to their hero on either side and the arsenal below their hero.
+The Player's graveyard, pitched, and banished cards, should be adjacent to their deck and on one side (left or right) of the play-space, with their equipped head, arms, chest, and legs cards on the opposite side of the play-space.
+The graveyard should be above the deck, pitched cards towards the center of the play-space from the deck, and banished cards below the deck.
+An equipped head card should be above an equipped chest card, equipped arms card towards the center of the play-space from the chest, and equipped legs card below the chest.
+Cards on the combat chain should be placed equally between all Players. Cards on a chain link should be grouped together, and chain links should be in an ordered sequence from one side of the play-space to the other.
+Each face-up permanent controlled by the Player should be on their side of the play-space, above or next to their hero and below cards on the combat chain. Untapped permanents should face that player and tapped permanents should be turned approximately 90 degrees.
+Cards and tokens under a permanent should be clearly associated with the permanent they are under.
+Cards that are in a Player's inventory, Cards and tokens that are not in the game, and other objects unrelated to the game should be outside of the play-space. They should not obstruct, or be placed next to or under, card-like objects in the play-space.
+The official layout can be modified within reason to meet the physical requirements of a Player. If a Player would like to deviate from the official game-layout, it must first be approved by a Judge. Tournament officials and coverage may enforce and make exceptions to these guidelines in order to keep the representation of the game clear. The Head Judge is the final authority on what is an acceptable game-layout for the tournament. 
+In general, cards should be kept in neat piles in their respective zones. The deck and the combat chain are the only zones in the game where cards are strictly ordered; Players are not required to maintain the order of cards in any other zone. Players may rearrange cards in zones in the following circumstances:
+Players may rearrange cards in their own zones, including their graveyards and/or banished zones to facilitate communication and efficient gameplay. Players cannot obsessively sort cards or rearrange cards to in order to track the contents and/or position of cards that are in their deck (e.g sorting by pitch, name, type, etc.) - this is considered note-taking.[5.8] Players may not rearrange cards in zones that are not their own, unless they have the explicit permission of their owner. 
+Players may have one additional separate pile for each of their graveyards and banished zones for cards that are relevant to the current game state. If cards are separated this way, it must be clear what zone these cards are technically in. Additional piles may only be created for face-down cards that are affected by different continuous effects, so that it is unambiguous to all Players which cards the respective effects apply to.
+If cards are playable, or have functional abilities while in a zone, they may be fanned/spread out, instead of being in a single pile - as long as it does not obstruct an unreasonable amount of the play-space.
+Examples:
+A Player has cards with the scrap effect in their deck. They may order their graveyard so that the item and equipment cards are on top and can be accessed and evaluated quickly.
+A Player has many cards with decompose effects in their deck. They may order their graveyard into 3 sections: Earth cards, action cards, and the rest; to count and quickly banish cards.
+A Player is playing as Fai and has a Phoenix Flame in their graveyard. They may place that Phoenix Flame in a separate pile, so that both players can immediately verify it is in the graveyard and that Player can quickly access it for Fai's ability.
+A Player has a card in their banished zone face-down. Their opponent intimidates the Player, causing them to banish another card face-down. They should put that intimidated card in a separate pile, so that it is clear to both players which card was intimidated and will return to the Player's hand at the end of the turn.
+A Player has cards with a combination of Blood Debt and "You may play this from your banished zone" in their banished zone. They may place those cards into a separate pile from the other cards in their banished zone, and sort them to make it clear what cards have Blood Debt and what cards can be played from the banished zone. The cards that can be played may be fanned/spread to make it easier to work out what lines can be played.
+5.7 Slow Play
+Players are expected to play games at a reasonable pace, for the interest of all involved parties. This includes respecting the time that their opponent must wait for them to make decisions, and ensuring that the tournament can proceed on schedule. Players dividing the round time between themselves, or untimed rounds, do not exempt a player from being expected to play at a reasonable pace.
+Players are encouraged to remind their opponent about playing at a reasonable pace when the opponent is taking an unreasonably long time to make a decision that progresses the game state. Players may call a Judge to moderate the pace of play, which should be honored if logistically possible.
+If a Player exceeds the time limit for the start-of-game procedure[3.3], they have committed slow play and should be issued the appropriate penalty.
+Intentionally playing slowly is considered Stalling.[6.6]
+5.8 Note-Taking
+Note-taking is a broad term that refers to the use of aids to record information relating to the game. In general, Players may not take notes during games.
+Players may take notes between games and Spectators may take notes at any time, but those notes may not be referred to during a game.[5.9]
+Players may record hero life totals and changes to hero life totals[5.1] in order to maintain the correct game state. Additionally, markers may be used to temporarily represent visible or public information (except information concerning a Player's deck), but they must be updated or removed when they no longer represent that information.[5.1][4.7]
+Any acceptable forms of note-taking must be clear, accurate, and available to all Players and judges. Acceptable note-taking during a game includes, but is not limited to, the following: 
+Examples:
+Recording meta-game information such as the opponent's name and hero, who went first, and the winner of the game.
+Using a marker to represent the current turn-player, phase of the turn, or step of combat. 
+Recording the life total, changes to the life total, and the source of the change (i.e. the source of the damage or effect).
+Using markers or dice, to represent remaining resource and action points.
+Turning permanents sideways or placing markers on them, to represent the use of activated abilities or triggered effects for the turn.
+Using dice to represent the power of an attack or the damage of an effect.
+Using dice to represent the number of specific cards in a public zone. (e.g. blood debt)
+Using dice to represent the number of specific cards that have been played during the current turn. (e.g. lightning cards)
+Using markers to represent gained abilities or effects (e.g. Go again).
+Writing down, using dice, or using markers to represent the value of X for effects.
+Recording a card named by a player due to a card effect (e.g. Chain of Eminence).
+All other forms of note-taking during a game are not permitted, including recording assisted, historical or private information, and misleading or misrepresented visible and public information. Unacceptable note-taking during a game includes but is not limited to the following:
+Examples:
+Using a dice or marker to record the current turn number.
+Recording the order of cards that you or your opponent pitch.
+Recording opponent's cards that are revealed from effects.
+Recording cards that have been played by you or your opponent.
+Intentionally ordering your graveyard or banished cards to determine what is in your deck (except cards that are relevant to the game state).
+Calculating numbers or future game-states by writing them down.
+Using dice to track how many cards you or your opponent has drawn.
+Using dice to represent how many cards are in your deck.
+Placing markers on your deck to remind you of start-of-turn triggered effects.
+Using a life pad with incorrectly labelled columns for the Player and their opponent.
+Leaving a dice above the pitch zone that no longer represents the number of resources a Player has.
+5.9 Outside Assistance
+During a match, draft, or when otherwise directed by the Tournament Organizer or Head Judge, Players may not seek advice from a Spectator or refer to personal notes made before or during the event, and Spectators may not give play advice to a Player. However, Players may take and refer to personal notes during the start-of-game procedure before each game (e.g. sideboard guides). Electronic devices may also be used during the start-of-game procedure, as long as they are not used to gain or seek advice from a Spectator.
+Players may be assisted by Spectators, notes, or electronic devices in order to make the tournament accessible for them.[3.10]
+At competitive and professional REL, Players and Spectators are expected to remain silent during a draft.
+5.10 Card Identification and Interpretation
+A player may identify a card by name (or name and pitch), or they may provide a description or partial name that could only reasonably apply to one card (or card cycle in some cases). If a Player or Judge thinks the description or partial name is ambiguous, they must request further clarification before they assist with providing card information.
+The official text for any card is the English text of the latest printing of that card, subject to any errata published. Players have the right to request the official text, which should be honored if logistically possible. Players may not use errors in the official card text to abuse the rules. The Head Judge is the final authority for card interpretations and may overrule official card text if an error is discovered.
+5.11 Card Shuffling
+Shuffling means sufficiently randomizing a set of cards so that it is in a state where no Player has any information regarding the order of the cards in the set. 
+Players' decks must be shuffled at the start of every game and whenever instructed to do so. After a Player has shuffled their deck, they must present it to their opponent. It is recommended that the opponent cuts the present deck, but they may also shuffle it themselves. If the opponent does not believe the Player has sufficiently shuffled their deck before presenting, the opponent should call a Judge. 
+There are numerous ways to shuffle a deck. It is recommended that players use multiple riffle and overhand shuffles, followed by a cut, to get a sufficiently randomized deck. Pile counting and other deterministic forms of shuffling are not acceptable methods alone to shuffle a deck. Players are expected to be able to shuffle their deck sufficiently and efficiently.
+If a Player had the opportunity to see the faces of any of the cards being shuffled, the deck is not considered randomized and must be shuffled again.
+5.12 Random Values
+For simply determining random values by rolling dice, see [4.8].
+If a Player is instructed to select one or more random cards from a set of cards, the Player should use dice to select those cards at random.[4.8] To do so, the Player must announce what values of the dice correspond to what cards in the set before they roll the dice. If the possible values of the dice (or equivalent) do not equal the number of possible cards in the set, the player may, within reason, assign certain values to indicate a reroll of the dice. In all cases, all cards must have an equal likelihood of being randomly selected.
+If no cards in the set are considered marked when they are face-down[5.13], the Player may instead shuffle the set and have an opponent choose the card(s) while they are face-down.
+5.13 Marked cards
+A card, or set of cards, is considered marked if it is distinguishable from other cards without being able to see the front of the cards. Players are responsible for ensuring that all of their deck-cards are not marked during a tournament. Players may alert a judge if they suspect their opponent's cards are marked in a way that would give that player an advantage.
+If the cards are sleeved, this distinction is based on whether the cards are distinguishable while they are in those sleeves. It is recommended that players exercise care when sleeving cards, and that they shuffle the sleeves or cards prior to sleeving to reduce the likelihood of creating a pattern. Players should be mindful that sleeves may require replacement throughout a tournament as they become worn from use.
+The Head Judge determines which, if any, cards are marked. If an issue has been found, Judges may request that a Player sleeve/resleeve their deck immediately or before the beginning of the next round.
+Examples:
+A Player has reversed the orientation of one or more cards in their deck.
+A Player has a deck of otherwise flat non-foil cards, but one is significantly curled making it a marked card.
+A Player has a deck of otherwise slightly curled foil cards, but one is completely flat making it a marked card.
+A Player has an unsleeved deck and one of the cards is slightly bent.
+A Player has used the same type of sleeves, but from two packs: one with a lighter hue.
+A Player has sleeves where some of the corners are folded over from wear and tear from shuffling.
+A Player has sleeves with art on the back and some of the sleeves have art that is misprinted or misaligned.
+5.14 Default Decisions
+When a Player fails to explicitly make a decision, a default decision may be used in place of that Player's decision to determine the current game state. A player is assumed to have made the default decision in the following cases:
+If a Player fails to declare the target of the attack or an effect that deals damage (where multiple targets are possible), then the default target is the opposing hero. If there are multiple opposing heroes, there is no default decision.
+If a Player fails to acknowledge an optional effect they may choose to generate,  the default is that the Player has chosen not generate that effect. If a player acknowledges only part of the optional effect, or takes an action that could only be taken if the optional effect was acknowledged, the effect is generated and there is no default decision.
+Examples:
+A Player plays Wild Ride without declaring a target, then draws and discards a random card. The default target of Wild Ride is the opposing hero, even if they control another attackable target.
+A Player declares Astral Bridge without declaring a target, then puts the top card of their deck into their graveyard. The default target of the arcane damage is the opposing hero, even if there is another target that could be dealt damage.
+A Player does not acknowledge the start-of-turn trigger for Fyendal's Spring Tunic (which has no counters), then takes action during their action phase. The default is that the player has chosen not to put an energy counter on their Fyendal's Spring Tunic.
+A Player does not acknowledge the end-of-turn trigger for Channel Lake Frigid, then puts all of their pitch cards on the bottom of the deck and draws their hand. The default is that the player has chosen not to put an flow counter on their Channel Lake Frigid.
+6 Behavior and Conduct
+6.1 Sporting Conduct
+Players are expected to behave in a respectful manner to anyone in the tournament area. While Players are not required to show sporting behavior, they should not behave in an unsporting manner.
+Generally, unsporting conduct includes displays of negative, offensive, or disruptive behavior that affects the safety or enjoyment of others, and/or negatively affects the integrity or organization of the event. The Head Judge determines what constitutes unsporting conduct.
+Examples:
+A Player uses offensive language around others.
+A Player shoves others while moving through crowds.
+A player takes photos of another person with malicious intent.
+A Player ignores the instruction of a Judge (a player may appeal a ruling before following the instruction).
+A player refuses to follow the instruction of the Tournament Organizer or Head Judge.
+6.2 Cheating
+Players are expected to abide by the rules of the game and tournament and cooperate with tournament officials to the best of their knowledge and ability. Cheating is when a player intentionally breaks these rules, ignores someone breaking these rules, or lies to a tournament official, in order to gain an advantage in the tournament.
+6.3 Aggressive and Disruptive Behavior
+Everyone should feel safe in a tournament environment.
+Aggressive behavior involves physical harm or the threat of physical harm that compromises the safety of individuals at the tournament. There is no tolerance for physical abuse or intimidation at any event. Items and/or weapons that are offensive or dangerous to the safety of other individuals are strictly prohibited from all Flesh and Blood events.
+Individuals who disrupt the running of the tournament, create an unwelcoming or unpleasant atmosphere, who abuse, insult, harass, or negatively impact another individual's tournament experience, may be asked to leave the venue by the Tournament Organizer. In addition, individuals may not be under the influence of alcohol or recreational drugs.
+Individuals that attend a Flesh and Blood event are expected to have an acceptable level of hygiene. If a person does not meet the basic requirements of acceptable hygiene, they may be asked to resolve the issue or leave the venue.
+6.4 Bribery
+Players may not offer or accept a reward or other incentive in exchange for determining the result of a game or match, for dropping from the tournament, or for influencing an in-game decision.
+Players may offer and accept a prize split with their opponent provided it does not influence the result of the game or match (e.g. a player conceding). A prize split does not have to be equal in value. Prize splits are facilitated by the Players themselves and tournament officials are not required to ensure that the prize split actually occurs.
+At competitive and professional REL, the Head Judge should remind players about the Bribery policy to ensure nobody is ignorant of this rule, especially before the last round of Swiss. 
+Examples:
+Offering to concede in exchange for a concession in the future is considered bribery.
+Offering money in exchange for a match win is considered bribery.
+Offering favors to a player or official to induce an action they otherwise would not do is considered bribery.
+6.5 Wagering
+Individuals may not wager, ante, or bet on any portion or result of a game, match, or tournament.
+Examples:
+Players of a match agree that the loser has to pay for dinner.
+Two players agree to bet 20 on which of them will end up ranked higher in the final standings.
+A group of players start a betting pool on who will win the top 8 of a tournament.
+6.6 Stalling
+Players must not intentionally play at a pace that avoids completing a game before the round time expires, or disrupts tournament organization.
+Examples:
+A Player intentionally takes as long as possible make decisions near the end of the round, so that they get a draw instead of loss for the match.
+A Player continuously makes judge calls to get as many and as large a time extensions as possible and delay the start of the next tournament round.
+6.7 Buying, Selling, and Trading Cards
+Individuals are expected to follow the floor rules regarding buying, selling, and trading products and services.
+If the event is held in a local game store, the store sets the rules regarding buy, sell, or trade activity. If the event is held in a public venue, the Tournament Organizer sets the rules regarding buy, sell, or trade activity.
+At events run by LSS, or LSS partners, individuals may buy, sell, and trade Flesh and Blood single cards in the venue, unless otherwise stated in the event information published by LSS. Buying and/or selling goods or services other than Flesh and Blood single cards at the event venue without permission from a LSS is strictly prohibited. Individuals caught buying or selling goods this way may be asked to leave the venue and/or subject to further penalties.
+7 Constructed Formats
+A constructed format is defined as a tournament format where players may construct their card-pools from all officially released cards, subject to tournament rules.
+The official Card Legality Policy, specifies the legality of cards that can be used for each constructed format. If a card is restricted, a card-pool may only contain up to 1 copy of that unique card. If a card is banned, it cannot be included in a card-pool.
+7.1 Classic Constructed Format
+A Player's classic constructed card-pool comprises 1 hero card and a combined maximum of 80 arena-cards and deck-cards. Living legend heroes (hero cards that have more than 1000 living legend points) and their signature weapons are not legal. Young heroes and pit-fighter heroes are not legal.
+A card-pool may contain up to 3 copies of each unique card. A Player must start the game with a minimum of 60 cards in their deck.
+These specifications are subject to any meta-static abilities of the cards in the card-pool (e.g. Legendary).
+7.2 Living Legend Format
+Living Legend follows the same format rules as Classic Constructed, with a separate banned and restricted list and the following changes:
+Living legend heroes and their signature weapons are legal.
+7.3 Blitz Format
+A Player's blitz card-pool comprises 1 young hero card and a combined maximum of 52 arena-cards and deck-cards.
+A card-pool may contain up to 1 copy of each unique card. A Player must start the game with exactly 40 cards in their deck.
+These specifications are subject to any meta-static abilities of the cards in the card-pool (e.g. Legendary).
+7.4 Silver Age Format
+A Player's silver age card-pool comprises 1 young hero card and a combined maximum of 55 arena-cards and deck-cards. Both the hero and cards in the card-poll must be common- or rare-rarity.
+A card-pool may contain up to 2 copies of each unique card. A Player must start the game with exactly 40 cards in their deck.
+These specifications are subject to any meta-static abilities of the cards in the card-pool (e.g. Legendary).
+A card is considered a common card for the silver age format if it has ever been officially printed with basic- or common-rarity.
+A card is considered a rare card for the silver age format if it has ever been officially printed with rare-rarity and is not a common card.
+8 Limited Formats
+A limited format is defined as a tournament format where players may construct their card-pools using limited cards from a specific officially released product or set of products, subject to tournament rules.
+8.1 Sealed Deck Format
+Players receive booster packs to open for the format. A Player's limited-pool comprises the limited cards they open from their booster packs and any number of basic-rarity cards from the set(s) being used for the format. A Player does not have to open the basic-rarity cards to use them. Extra cards are not part of a player's limited card-pool.
+Players must play as a young hero from the set(s) being used for the format. If card-pool registration is required[3.7], Players must choose and register the hero they will play before the end of deck construction and must play as that hero for the entire format. If card-pool registration is not required, Players may change heroes between games.
+A Player's sealed deck card-pool comprises 1 young hero card and all cards in their limited-pool, subject to the class and/or talents of their hero, keywords, and format-specific restrictions. A card-pool may contain any number of copies of each unique card. A Player must start the game with exactly 30 cards in their deck.
+The recommended sets to use, the corresponding number of booster packs, the definition of extra cards, and the number of cards that should start the game in a Player's deck are outlined in [A.7]. These specifications are subject to any meta-static abilities of the cards in the card-pool (e.g. Specialization, Essence, etc.)
+8.1.1 Sealed Deck Registration and Validation (30 minutes total)
+If card-pool registration is required, players must complete their card-pool registration before they are given time to construct their decks. The recommended card-pool registration process for the sealed deck format is as follows:
+Open and observe (approx. 5 minutes)
+Players are assigned alphabetical or random seating, so that each Player is sitting across from another Player. The Players on one side are Side A and the others are Side B. A Judge may be seated in front of a Player if there is an odd number of total Players.
+Each Player is given their sealed product, but does not open them yet.
+Each Player fills out their information as the "player using pool" on their registration sheet.
+Each Player on Side A opens their sealed product one booster pack at a time, removes the extra card(s)[A.7], and counts out the remaining cards face-up while the Player on Side B observes. When all of the product on Side A is open, the cards are stacked in a single pile in front of the Player. Repeat with Side B opening and Side A observing. The card-pool of each Player (minus the extra cards) should be a single pile in front of them.
+Swap, register, and swap (approx. 15 minutes)
+Players on each side exchange their card-pool and registration sheet.
+Each Player fills out their information as the "player registering pool" on the registration sheet they have received.
+Each Player sorts the received card-pool by class/talent, then by name and pitch (they may alternatively sort by set code). Then each Player registers every card in the card-pool onto received registration sheet.
+The players return the card-pool and registration sheet back to their original side.
+Validate (approx. 10 minutes)
+Each Player validates their sorted card-pool against their registration sheet.
+If a Player spots a mistake on their registration sheet, the Player must call a Judge to review and sign off any corrections required.
+8.2 Booster Draft Format
+Players are arranged into pods of 8 players per pod and are given 3 booster packs each. During the drafting process, Players take (draft) one card from a booster pack and then pass the remaining cards to the next Player in the pod until all of the cards have been drafted. A Player's limited-pool comprises the limited cards they open from their booster packs and any number of basic-rarity cards from the set(s) being used for the format. A Player does not have to open the basic-rarity cards to use them. Extra cards are not part of a player's limited-pool.
+Players must play as a young hero from the set(s) being used for the format. If card-pool registration is required[3.7], Players must choose and register the hero they will play before the end of deck construction and must play as that hero for the entire format. If card-pool registration is not required, Players may change heroes between games.
+A Player's booster draft card-pool comprises 1 young hero card and all cards in their limited-pool, subject to the class and/or talents of their hero, keywords, and format-specific restrictions. A card-pool may contain any number of copies of each unique card. A Player must start the game with exactly 30 cards in their deck.
+The recommended sets to use, the definition of extra cards, and the number of cards that should start the game in a Player's deck are outlined in [A.7]. These specifications are subject to any meta-static abilities of the cards in the card-pool (e.g. Specialization, Essence, etc.)
+For all rounds of a booster draft format, Players should only play against other Players within the same draft pod.
+If the play-off for a tournament uses the booster draft format, players should be randomly assigned seating, and the play-off bracket should be structured around where players are seated. Players who seated directly across from one another (as shown in the following diagram) will be playing against each other in the first round of the play-off, then the winners will play the winner two to their right/left in the second round, and finally, the two remaining winners will play in the third round.
+8.2.1 Draft Procedure (30 minutes)
+The recommended draft procedure is as follows:
+Players are allocated into draft pods and are seated in a circular formation. The recommended number of players in a draft pod is 8.
+Each Player is given their draft product, but does not open them yet.
+Each Player in the pod opens one of the draft product booster packs and removes the non-draftable card(s) (i.e. basic-rarity and extra cards).
+Each Player looks at their cards, drafts one card, places it face-down in a single pile in front of them, then shuffles the remaining cards and passes them to the Player on their left. Players pick up the cards passed to them and repeat this process until all of the cards have been drafted this way.
+Between drafting each booster pack, Players may review all of the cards they have drafted, before returning them to a single face-down pile.
+Players repeat the opening, drafting, and reviewing process with the remaining product, alternating the direction that the remaining cards are passed; the first pack to their left, the second pack to their right, and the third pack to their left.
+After all of the product has been drafted, the card-pool of each Player (minus basic-rarity cards) should be a single pile in front of them.
+During the draft procedure, Players may not share or seek to gain information about the content of the packs, or the cards that have been drafted. For the avoidance of doubt, Players may not communicate in any way that could influence Players participating in the draft. Additionally, Players may not take notes during the draft procedure.
+Examples:
+Looking at the cards another player is drafting or has drafted.
+Saying "Sigh, no good Guardian cards this pack."
+Saying "Wow, a Ninja legendary! Guess what I'm picking."
+Saying "Looks like I'm drafting my favourite hero again."
+Turning cards upside down in a pack before passing it.
+Writing down what cards appear in each pack passed.
+If the product contains one or more double-faced cards (DFC), Players may not share or seek to gain information about who has a DFC in their current pack or who has drafted a DFC (including themselves). Instead, Players may start with a basic-rarity card in their face-down pile and when a player drafts a DFC, they must do so by putting it under another card in their face-down pile, to prevent it from being the top card of their pile.
+When a Player drafts a card and places it face-down in their pile, their choice is finalized and the cards may not be swapped with another card from the pack.
+Players may not look at the face-down pile of cards they have drafted while the drafting of cards is in progress. They must wait for the review period between drafting booster packs.
+A called draft, is when the draft procedure is timed and each step is synchronized by a "draft caller". At Professional REL, all booster drafts are called. At Competitive REL, booster drafts are called only if required by LSS or at the discretion of the Tournament Organizer and announced in advance. At Casual REL no booster drafts are called. 
+If the draft is called, the recommended draft times can be found in [A.3]. If the tournament would differ from the recommended time limit, it must be clearly stated before the draft begins and can not be changed mid-draft.
+If the draft is not called, Players should draft and pass cards at a comfortable pace that does not adversely affect the overall pace of the draft for other players at the table or extend the draft indefinitely.
+8.2.2 Booster Draft Registration and Validation (20 minutes total)
+If card-pool registration is required, players must complete their card-pool registration before they are given time to construct their decks. The recommended card-pool registration process for the booster draft format is as follows:
+Move (5 minutes)
+Players are assigned seating, so that each Player is sitting across from another Player and is not in proximity to other Players in their draft pod. A Judge may be seated in front of a Player if there is an odd number of total Players.
+Each Player fills out their information as the "player using pool" on their registration sheet.
+Each Player puts their card-pool into a clear zip-lock bag or folds their registration sheet over their card-pool to produce a small package of cards.
+Each Player moves to their new assigned seating. Players must not communicate or exchange cards in their card-pool while moving.
+Swap, register, and swap (10 minutes)
+Players on each side exchange their card-pool and registration sheet.
+Each Player fills out their information as the "player registering pool" on the registration sheet they have received.
+Each Player sorts the received card-pool by class/talent, then by name and pitch (they may alternatively sort by set code). Then each Player registers every card in the card-pool onto the received registration sheet.
+The players return the card-pool and registration sheet back to their original side.
+Validate (5 minutes)
+Each Player validates their sorted card-pool against their registration sheet.
+If a Player spots a mistake on their registration sheet, the Player must call a Judge to review and sign-off any corrections required.
+8.2.3 Booster Draft Self-Registration (15 minutes total)
+If the drafted cards are stamped, or there is limited risk for the players to abuse the registration procedure, the following self-registration procedure may be used at the discretion of the Tournament Organizer:
+Move (5 minutes)
+Players are assigned seating, so that each Player is sitting across from another Player and are not in proximity to other Players in their draft pod. A Judge may be seated in front of a Player if there is an odd number of total Players.
+Each Player fills out their information as the "player using pool" on their registration sheet.
+Each Player puts their card-pool into a clear zip-lock bag or folds their registration sheet over their card-pool to produce a small package of cards.
+Each Player moves to their new assigned seating. Players must not communicate or exchange cards in their card-pool while moving.
+Self-registration (10 minutes)
+Each Player is assigned a new seating area where they are not in proximity to other Players in their draft pod.
+Each Player fills out their information as the "player using pool" on their registration sheet.
+Each Player puts their card-pool into a clear zip-lock bag or folds their registration sheet over their card-pool to produce a small package of cards.
+Each Player moves to their new assigned seating. Players must not communicate or exchange cards in their card-pool while moving.
+Each Player fills out their information as the "player using pool" on their registration sheet, then registers every card in the card-pool onto their registration sheet, and finally calls a tournament official to collect their sheet.
+After the registration sheet has been collected, Players are free to leave the seated area.
+8.3 Blitz Preconstructed
+Blitz Preconstructed follows the same format rules as Blitz[7.3], with the following changes:
+Each Player receives a preconstructed blitz deck from the same set.
+A Player's card-pool is determined by the preconstructed blitz deck they receive.
+8.4 Crack Shuffle Play
+Players receive 3 booster packs each. At the beginning of the first round, they crack, shuffle, and play:
+Crack: Open each booster pack and remove the 2 cards at the back (basic-rarity cards or arena-cards).
+Shuffle: Gather the remaining cards together, shuffle them, and present them as the deck.
+Play: Present the hero, choose who will start, present arena-cards, then play the game.
+A Player's card-pool comprises the limited cards they open from their booster packs and any number of basic-rarity cards from the set(s) being used for the format. A Player does not have to open the basic-rarity cards to use them. Extra cards are not part of a player's card-pool. Players must play as a young hero from the set(s) being used for the format.
+A Player must start the game every deck-card from their card-pool in their deck.
+At the beginning of each new round beyond the first, a Player may choose to crack, shuffle, and play with 3 new boosters at the discretion of the Tournament Organizer and subject to availability. If a Player chooses to do so, their card-pool from their previous 3 booster packs is replaced entirely by the new 3 boosters. A Player makes this decision before opening the new booster packs and observing the cards they contain.
+The recommended sets to use are outlined in [A.7].
+9 Special Formats and Rules
+9.1 Ira - Learn to Play Format
+A Player's Ira - Learn to Play card-pool comprises the following cards:
+#
+Card
+1
+Ira, Crimson Haze
+1
+Edge of Autumn
+3
+Whirling Mist Blossom (yel)
+3
+Salt the Wound (yel)
+3
+Bittering Thorns (yel)
+3
+Torrent of Tempo (red)
+3
+Flying Kick (red)
+3
+Head Jab (blu)
+3
+Scar for a Scar (red)
+3
+Brutal Assault (blu)
+3
+Lunging Press (blu)
+3
+Springboard Somersault (yel)
+A Player must start the game with exactly of 30 cards in their deck.
+9.2 Team Format
+Team formats have teams of Players competing against each other, with each team winning or losing together.
+A team comprises three members. During registration, each member of the team is assigned a Player position within the team: A, B, and C. Players may not swap their position in the team after registration. During the tournament, when two teams are paired in a round, each Player plays a match against the Player in the opposing team with the same Player position (e.g. Players A from each team plays a game against each other, and the same with Players B and Players C). Registering a team member without intending for them to play is considered Fraud.
+Members of the same team may communicate freely with each other during the match; however, the Player seated for their game has the final say on decisions, and moves any of the game pieces, in their own game. Note-taking and slow-play policies still apply. Players are not penalized for providing strategic outside assistance when talking to their teammates in a game they are not otherwise involved in, but can still be penalized for taking prohibited notes. Players must still play at a reasonable pace, even if they are in discussion with team members; the Player of a game is responsible for ensuring that they proceed with the game at a reasonable pace.[5.7]
+If a Player must leave their seat during the match, they should call a Judge who can ensure that they do not gain or confer the private information of a Player on the opposing team. If a team member leaves their seat otherwise, they are prohibited from communicating with their teammates in any capacity for the remainder of that match, as if they were a typical spectator.
+The first team to win two games wins the match. If a team wins the match and a game is still in progress, that game immediately ends. If the round ends, the current games are completed, and neither team has two game wins, the team with the most games won is the winner of the match, otherwise, the match is a draw.
+If one member of a team is unable to play (e.g. dropped from the tournament, or disqualified), the Player is considered to have forfeited their game and the remaining members may still play the remaining games of the match. If two or more members of a team are unable to play, the team forfeits their match and should be dropped from the tournament.
+9.2.1 Team Constructed
+Team constructed can be based on any constructed format.[7] A team format can comprise a single format (e.g. all three Players are playing classic constructed) or a mix of formats (e.g. Player A plays classic constructed, Player B plays blitz, and Player C plays living legend).
+Each Player registers their decklist based on the constructed format they will play. Players on the same team may not register decklists with the same hero. Players may register different heroes, even if they have the same moniker (e.g. Player A can register Bravo, Showstopper, and Player B can register Bravo, Star of the Show).
+9.2.2 Team Sealed Deck
+Team sealed deck is based on the sealed deck format.[8.1] 
+Each team opens their booster packs, and each team member registers cards opened from those packs. Card-pools are registered per Player. A card cannot be registered by more than one team member, and cards cannot be exchanged between team members after they have been registered.
+It is recommended that each team is given 8 packs. Set-specific rules may apply.[A.7]
+9.2.3 Team Booster Draft
+Team booster draft is based on the booster draft format.[8.2] 
+Teams draft for each round that they will play. Each draft pod comprises the two team teams playing against each other that round. During the draft, Players who will be playing against each other are seated directly across from one another as shown in the following diagram. Clockwise, the Players should be: A1, B2, C1, A2, B1, C2.
+During the draft, standard draft procedures apply. Players may not communicate in any way that could influence Players participating in the draft, including Players on the same team.
+Players register the cards that they draft themselves. Drafted cards cannot be exchanged between team members.
+Set-specific rules may apply.[A.7]
+9.3 Ultimate Pit Fight
+A Player's Ultimate Pit Fight (UPF) card-pool comprises 1 young hero card and a combined maximum of 52 arena-cards and deck-cards.
+A card-pool may contain up to 2 copies of each unique card. A Player must start the game with exactly 40 cards in their deck.
+These specifications are subject to any meta-static abilities of the cards in the card-pool (e.g. Legendary).
+Matches typically comprise 4 Players, but can support any number.
+Game rules are also subject to the following modifications:
+A Player may only target heroes and objects controlled by those heroes to their immediate left or right (for attacks, or with effects that say "target"), with the following exceptions:
+If an effect explicitly allows a Player to target any hero/opponent, they may target any hero in the game (e.g. Evo Tekloscope) - effects that say "any target" are not excepted from the rule.
+If an effect explicitly targets 2 or more heroes, a Player may target any hero in the game (e.g. Apocalypse Automaton) - separate effects that target 1 hero each are not excepted from the rule.
+If an effect allows the Player to change the target of an attack/effect, they may choose any legal target for the attack/effect, not just the heroes to the left or right of its controller (e.g. Taipanis).
+When a Player attacks a hero (or an object controlled by that hero), the combat chain is focused on that hero. The Player can not target another hero (or object controlled by another hero) with new attacks on the same combat chain - they must close the combat chain first.
+If an effect requires a Player to choose an object as the target of an attack and that object is not controlled by the focused hero, the Player must close the combat chain before making their next attack (e.g. Arc Light Sentinel).
+If an effect allows the Player to change the target of an attack, you may target any legal target, not just the focused hero (or their objects).
+A.1 Organized Play Programs
+Tier
+Tournament Name
+Rules EnforcementLevel
+4
+World Championship
+Professional
+4
+Pro Tour
+Professional
+3
+National Championship (USA)
+Professional
+3
+National Championship
+Competitive
+3
+Calling (day 2+)
+Professional
+3
+Calling (day 1)
+Competitive
+2
+Sunday Showdown
+Competitive
+2
+Battlegrounds
+Competitive
+2
+ProQuest
+Competitive
+2
+Road to Nationals
+Competitive
+1
+Skirmish
+Casual
+1
+Armory
+Casual
+1
+Pre-Release
+Casual
+1
+World Premiere
+Casual
+1
+On-demand
+Casual
+A.2 Recommended Number of Swiss Rounds
+If there is no official guidance on the required structure of a tournament, the following is the recommended number of Swiss rounds for a tournament based on attendance. If the number of Swiss rounds differ from the table, the Tournament Organizer is required to inform players at the time of registration or it must be clearly stated in event advertising.
+Single-day tournaments should use the following structure. The rounds are calculated to ensure that, with typical match results, there is one undefeated Player and all Players with an X-1 record (or better) will be in a play-off (if any).
+Single-Day Tournament
+Players
+SwissRounds
+Play-off
+Up to 8
+3
+None
+9 -- 16
+5/4*
+Top 4/8*
+17 -- 32
+5
+Top 8
+33 -- 64
+6
+Top 8
+65 -- 128
+7
+Top 8
+129 -- 224
+8
+Top 8
+225 -- 384
+9
+Top 8
+385 -- 736
+10
+Top 8
+* Limited tournament with booster draft play-off
+Team-format single-day tournaments should use the following structure.
+Single-Day Tournament (Teams)
+Teams
+SwissRounds
+Up to 16
+6
+17 -- 32
+7
+33 -- 64
+8
+64 -- 128
+9
+All play-offs are top 4
+Multi-day premier tournaments should follow the following structures. The top $N$ players, or players with an X-2 win-loss record player (whichever is larger) may proceed to the tournament's second day of Swiss rounds. The rounds are calculated to ensure that, with typical match results, players play on day 2 will have the opportunity to make the top 8 play-off or achieve a position for prizes.
+Multi-Day Constructed Tournament
+Players
+Day 1 SwissRounds
+Day 2 Cut
+Day 2 SwissRounds
+Up to 224
+7
+Top 48 or X-2
+4
+225 -- 440
+7
+Top 64 or X-2
+5
+441 -- 732
+8
+Top 80 or X-2
+5
+733 -- 1244
+9
+Top 96 or X-2
+5
+1245+
+9
+Top 128 or X-2
+6
+All play-offs are top 8
+Multi-Day Limited Tournament
+Players
+Day 1 SwissRounds
+Day 2 Cut
+Day 2 SwissRounds
+Up to 224
+8
+Top 48 or X-2
+3
+225 -- 440
+8
+Top 64 or X-2
+6
+441 -- 732
+8
+Top 80 or X-2
+6
+733 -- 1244
+8
+Top 128 or X-2
+6
+1245+
+9
+Top 128 or X-2
+6
+Day 1 is sealed deck and Day 2 is booster draftAll play-offs are top 8
+A.3 Time Limits
+The following time limits are recommended for each round of the tournament, (inclusive of the start-of-game procedure) based on the format. If the time limits differ from the recommended amounts, the Tournament Organizer is required to inform Players prior to the beginning of the tournament or it must be clearly stated in event advertising. Round times for the game formats are based on 1 game to win a match and are inclusive of the 5 minutes for the start-of-game procedure.
+Format
+Time Limit
+Classic Constructed
+55 minutes
+Blitz
+35 minutes
+Sealed Deck
+35 minutes
+Booster Draft
+35 minutes
+Welcome Deck
+30 minutes
+Sealed deck registration
+20 minutes*
+Sealed deck verification
+10 minutes
+Sealed deck build & preparation
+30 minutes*
+Draft deck registration
+15 minutes*
+Draft deck verification
+5 minutes
+Draft deck build & preparation
+10 minutes*
+* add 10 minutes for World Premiere Weekend events
+The following time limits are recommended for booster draft operation:
+Cards
+Draft time
+15
+50 seconds
+14
+50 seconds
+13
+50 seconds
+12
+50 seconds
+11
+40 seconds
+10
+40 seconds
+9
+30 seconds
+8
+30 seconds
+7
+20 seconds
+6
+20 seconds
+5
+10 seconds
+4
+10 seconds
+3
+5 seconds
+2
+5 seconds
+1
+-
+The recommended time limit for the review period is 1 minute.
+All players must have drafted a card, placing it face down into their draft pile, within the time limit. If a player is consistently taking more than the time limit to draft a card, they may be subject to penalties.
+Players may not open or pick up a pack passed to them, until the Judge overseeing the draft pod announces players may do so. It’s from the Judge's announcement, that the timer starts for the next draft pick. The Judge may announce to pick up the next pack before the time limit has expired if all players have completed their draft pick from the current pack.
+A.4 Tiebreakers
+Every round, each player plays a match against another player, unless they have been awarded a bye. The result of each match played is reported to the Scorekeeper and at the end of a round, players are ordered in a list based on their overall performance during the tournament (i.e. player standings). During the tournament, players improve their standing by gaining match points and avoiding losses:
+Result
+Letter
+Points
+Win
+W
+1
+Bye
+B
+1
+Draw
+D
+0
+Loss
+L
+0
+The following tie-breakers are used in sequence to determine the order of player standings.
+Step 1: The player with the higher Match Points
+Step 2: The player with the higher Cumulative Match Points
+Step 3: The player with the lower Match Loss Percentage
+Step 4: The player with the lower average Opponent Match Loss Percentage
+Step 5: The player with the higher average Opponent Cumulative Match Points
+Step 6: A player selected at random
+Cumulative Match Points (CMP)
+The player whose total Match Points were higher at the most recent point in the tournament will have the better CMP tiebreaker. The CMP for a player is calculated as a fractional number between 0 and 1:
+where R is the total number of completed rounds, r is the round number, mr is 1 if the player had a win in round r and 0 otherwise. If a Player has Match Wins equal to the round number, their CMP will be 1; if the Player has 0 Match Wins, their CMP will be 0.
+Match Loss % (MLP)
+The player with the fewest average losses of matches (of the matches that they've played) will have the better MLP tiebreaker. The MLP is calculated as a fractional number between 0 and 1:
+where Rp is the total number of completed played rounds, r is the round number, lr is 1 if the player had a loss in round r and 0 otherwise. If a Player has a bye in a round, that round is not considered to have been played by the Player. If a Player has a draw in a round, it is not considered a loss in that round. With this metric, byes are worse than draws (if the Player has any losses at all), and losses are worse than draws (because they increase the MLP).
+A.5 Card-Pool Registration Requirements
+The following card-pool registration requirements are stated for each REL and format. If the requirement differs from the following, the Tournament Organizer must clearly state such in the event advertising.
+Rules EnforcementLevel
+Format
+Deck RegistrationRequired
+Professional
+Constructed
+Yes
+Professional
+Limited
+Yes
+Competitive
+Constructed
+Yes
+Competitive
+Limited
+Yes
+Casual
+Constructed
+No*
+Casual
+Limited
+No*
+Casual
+Welcome Deck
+No
+*unless specified by the Tournament Organizer
+Constructed Format Decklists
+For constructed formats, a Player's decklist must list every card they intend to play in that format. The decklist must record the name (in English), pitch value (if applicable), and quantity of every card and be grouped as follows:
+Arena-cards (hero, equipment, weapons, etc.)
+Deck-cards with pitch value 1 (red) or no pitch value (pearl)
+Deck-cards with pitch value 2 (yellow)
+Deck-cards with pitch value 3 (blue)
+It is recommended that players use the official deck registration sheet.
+Limited Format Decklists
+For limited formats, a player's decklist must list every non-basic-rarity card they have in their limited card pool. The decklist must record the name, pitch value (if applicable), and quantity of every non-basic-rarity card, and must record the hero the player intends to play. It is recommended that the Tournament Organizer provide players with the appropriate official registration sheet.
+A.6 Authorized Test Print Cards
+Authorized test print cards are specific official Flesh and Blood cards that are legal for tournament play. The following is a list of existing 
+Ironrot Helm [OXO001-P], Slingshot Underground
+    A non-foil black-border white-back card featuring the art of Ironrot Helm (Yulia Litvinova 2018).
+Ironrot Chest (Ironrot Plate) [OXO002-P], Slingshot Underground
+    A non-foil black-border white-back card featuring the art of Ironrot Plate (Gorshkov Stanislav 2018).
+Ironrot Gauntlet  [OXO003-P], Slingshot Underground
+    A non-foil black-border white-back card featuring the art of Ironrot Gauntlet (Gorshkov Stanislav 2018).
+Ironrot Legs [OXO004-P], Slingshot Underground
+    A non-foil black-border white-back card and featuring the art of Ironrot Legs (Yulia Litvinova 2018).
+Bravo Showstopper, High Seas - Treasure Pack
+    A cold-foil borderless full-art double-sided card featuring the art of Bravo, Showstopper (Alexander Mokhov, 2019).
+Great Library of Solana, High Seas - Treasure Pack
+    A cold-foil borderless full-art double-sided card featuring the art of Great Library of Solana (Federico Musetti, 2021).
+A.7 Set-Specific Rules for Limited
+Limited formats are based on a specific set of Flesh and Blood. The following are additional tournament rules based on the specific set used for the limited format.
+Competitive Booster-Based Formats
+Competitive booster-based formats include sealed deck [8.1] and booster draft.[8.2] Booster packs of Flesh and Blood contain a set of official Flesh and Blood cards, and booster packs that support competitive limited contain a total of 16 cards. The first 14-15 cards in a booster are non-basic-rarity cards that can be included in a Player's limited card-pool and are draftable. The remaining 1-2 extra cards are excluded from a Player's limited card-pool and are not draftable. The specific contents of each booster and the rules for each card's inclusion in a Player's limited card-pool are dependent on the booster's set.
+The following table outlines the rules for booster-based formats (sealed deck and booster draft), based on the set being used.
+Set Name
+Sealed# of Packs
+StartingDeck Size
+LimitedCards
+Extra Cards
+Welcome to Rathe
+6 packs
+30+ cards
+15 cards
+Arcane Rising
+Monarch
+Tales of Aria
+Uprising
+6 packs
+30+ cards
+14 cards
+Cold-foil cards
+Outsiders
+Bright Lights
+4 packs
+30-40 cards
+14 cards
+Legendary-rarity cardsFabled-rarity cardsMarvel-rarity cardsExtended-art cards*Micro-text cardsCold-foil cardsExpansion cards
+Heavy Hitters
+6 packs
+30+ cards
+Part the Mistveil
+8 packs
+30 cards
+Rosetta
+The Hunted
+High Seas
+Super Slam
+Omens of the Third Age
+...current
+* except ROS033, ROS077, HNT030, HNT031
+Crack, Shuffle, Play Sets
+The following sets are recommended for the Crack, Shuffle, Play format:
+Set Name
+Extra Rules
+Bright Lights
+Arena-cards must also be removed from the middle of each booster before the deck-cards are shuffled.
+Mastery Pack: Guardian
+Mastery Pack: Warrior
+Set-Specific Rules
+The following rules apply to all limited formats (sealed deck, booster draft, and blitz preconstructed):
+Set Name
+Limited Specific Rules
+Uprising
+Maximum of 3 Phoenix Flame cards per limited card-pool
+Rosetta
+Each Player starts the game with a Sanctuary of Aria macro
+High Seas
+The game starts with a Treasure Island macro
+Omens of the Third Age
+The game starts with an Omens of Arcana macro
