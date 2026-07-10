@@ -34,6 +34,31 @@
     "last": null,
     "weight": 0.5
   },
+  "card-anatomy-visual->card-text-from-json": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->doc-map-cr": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->game-layout-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->properties-base-vs-modified-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "card-legality-live-fetch->card-text-from-json": {
     "fires": 0,
     "last": null,

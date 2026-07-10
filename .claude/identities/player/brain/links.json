@@ -184,6 +184,31 @@
     "last": null,
     "weight": 0.5
   },
+  "card-anatomy-visual->card-anatomy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->card-corpus-and-search": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->object-properties-and-base-values": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-anatomy-visual->pitch-values-and-color": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "card-corpus-and-search->card-anatomy": {
     "fires": 0,
     "last": null,
