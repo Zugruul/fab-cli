@@ -27,3 +27,4 @@ lore/.sync-state.json
 .claude/lessons.jsonl
 .claude/board-queue.jsonl
 .claude/board-cache.json
+.claude/neural-view/
