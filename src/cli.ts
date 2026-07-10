@@ -4,6 +4,7 @@ import { Command } from "commander";
 const int = (v: string) => parseInt(v, 10);
 import chalk from "chalk";
 import { searchDecks, getFacets, getDeckById } from "./algolia";
+import { resolveFormat } from "./format";
 import { getDeckResults, getDeckVersionInfo, searchCards, getHeroIdentifiers, getHeroClassMap, computeWinRate, pLimit } from "./graphql";
 import {
   printDecksTable,
@@ -900,21 +901,6 @@ async function callWithToken<T>(fn: (token: string) => Promise<T>): Promise<T> {
     }
     throw e;
   }
-}
-
-const FORMAT_ALIASES: Record<string, string> = {
-  cc: "Classic Constructed",
-  sa: "Silver Age",
-  blitz: "Blitz",
-  ll: "Living Legend",
-  upf: "Ultimate Pit Fight",
-  open: "Open",
-  clash: "Clash",
-};
-
-function resolveFormat(f?: string): string | undefined {
-  if (!f) return undefined;
-  return FORMAT_ALIASES[f.toLowerCase()] ?? f;
 }
 
 function buildSearchOpts(opts: {
