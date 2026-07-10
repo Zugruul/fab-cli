@@ -9,6 +9,21 @@
     "last": null,
     "weight": 0.5
   },
+  "accessibility-and-coverage->gameplay-logistics-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "accessibility-and-coverage->head-judge-authority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "accessibility-and-coverage->tournament-roles": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "attack-proxies-and-rulings->combat-chain-steps": {
     "fires": 0,
     "last": null,
@@ -549,6 +564,21 @@
     "last": null,
     "weight": 0.5
   },
+  "game-layout-rules->counters-markers-dice-sleeves": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-layout-rules->gameplay-logistics-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-layout-rules->note-taking-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "game-state-actions-and-death->draws-and-concessions": {
     "fires": 0,
     "last": null,
@@ -655,6 +685,3596 @@
     "weight": 0.5
   },
   "gameplay-logistics-rulings->shortcuts-and-out-of-order-play": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-1h->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-1h->kw-1h": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-2h->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-2h->kw-2h": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ability-keyword->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-action->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-action->kw-action": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-action-phase->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-action-point->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-activated-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-activated-layer->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-active-player->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-additional-cost->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-aether-ashwing->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-affliction->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-affliction->kw-affliction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-agility->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ally->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ally->kw-ally": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-alternative-cost->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ambush->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ambush->kw-ambush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-amp->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-amp->kw-amp": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arcane-barrier->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arcane-barrier->kw-arcane-barrier": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arcane-damage->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arcane-shelter->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arcane-shelter->kw-arcane-shelter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arena->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arms->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arrow->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arrow->kw-arrow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-arsenal->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ash->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ash->kw-ash": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack->kw-attack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack-layer->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack-proxy->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack-reaction->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack-reaction->kw-attack-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-attack-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-aura->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-aura->kw-aura": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-aura-of-suspense->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-bait->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-banish->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-banish->kw-banish": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-banished-zone->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-base->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-battleworn->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-battleworn->kw-battleworn": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-beat-chest->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-beat-chest->kw-beat-chest": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-become->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-blade-break->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-blade-break->kw-blade-break": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-blasmophet-the-soul-harvester->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-block->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-block->kw-block": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-blood-debt->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-blood-debt->kw-blood-debt": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-bloodrot-pox->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-bond->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-bond->kw-bond": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-boost->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-boost->kw-boost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-card->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-card-layer->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-chain-link->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-chain-link-resolution->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-channel->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-channel->kw-channel": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-charge->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-charge->kw-charge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-chest->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-cintari-sellsword->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-clash->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-clash->kw-clash": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-class->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-clear->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-cloaked->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-cloaked->kw-cloaked": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-close-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-color->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-combat->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-combat-chain->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-combo->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-combo->kw-combo": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-companion->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-companion->kw-companion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-confidence->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-construct->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-construct->kw-construct": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-continuous-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-contract->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-contract->kw-contract": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-control->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-controller->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-copper->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-copy->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-cost->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-counters->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-crank->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-crank->kw-crank": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-create->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-crush->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-crush->kw-crush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-damage->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-damage-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-deal->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-deck->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-decompose->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-decompose->kw-decompose": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-defence->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-defend->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-defend-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-defending->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-defense-reaction->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-defense-reaction->kw-defense-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-delayed-triggered-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-dependent-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-destroy->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-destroy->kw-destroy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-discard->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-discard->kw-discard": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-discrete-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-distribute->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-distribute->kw-distribute": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-dominate->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-dominate->kw-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-draw->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-draw->kw-draw": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-earth-bond->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-earth-flow->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-effect-keyword->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-embodiment-of-earth->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-embodiment-of-lightning->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-end-phase->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ephemeral->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ephemeral->kw-ephemeral": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-equip->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-equip->kw-equip": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-equipment->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-equipment->kw-equipment": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-essence->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-essence->kw-essence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-event->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-evo-upgrade->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-evo-upgrade->kw-evo-upgrade": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-exposed->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-fealty->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-figment->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-figment->kw-figment": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-fixed-prevention-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-flavor-text->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-flow->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-flow->kw-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-fragment->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-fragment->kw-fragment": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-frailty->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-freeze->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-freeze->kw-freeze": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-frostbite->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-fusion->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-fusion->kw-fusion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-gain->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-galvanize->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-galvanize->kw-galvanize": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-game->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-generic->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-generic-damage->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-give->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-give->kw-give": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-go-again->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-go-again->kw-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-go-fish->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-go-fish->kw-go-fish": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-gold->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-golden-cog->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-goldkiss-rum->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-graphene-chelicera->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-graveyard->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-guardwell->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-guardwell->kw-guardwell": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-hand->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-head->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-heave->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-heave->kw-heave": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-heavy->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-heavy->kw-heavy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-hero->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-hero->kw-hero": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-hidden-activated-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-hidden-triggered-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-high-tide->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-high-tide->kw-high-tide": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-hit->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ice-bond->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ice-flow->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-identity-replacement-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ignore->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ignore->kw-ignore": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-inactive-player->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-inertia->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-inline-triggered-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-instant->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-instant->kw-instant": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-intellect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-intimidate->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-intimidate->kw-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-invocation->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-invocation->kw-invocation": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-item->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-item->kw-item": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-james-white->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-label-keyword->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-landmark->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-landmark->kw-landmark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-last-known-information->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-layer->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-layer-continuous-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-layer-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-legend-of-the-watery-grave->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-legendary->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-legendary->kw-legendary": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-legs->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-life->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-life-loss->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-life-total->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-lightning-bond->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-lightning-flow->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-look->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-look->kw-look": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-lose->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-macro->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-macro->kw-macro": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-mark->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-mark->kw-mark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-match->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-material->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-material->kw-material": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-meld->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-meld->kw-meld": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-mentor->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-mentor->kw-mentor": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-meta-static-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-might->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-mirage->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-mirage->kw-mirage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-modular->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-modular->kw-modular": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-multi-event->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-name->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-name->kw-name": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-negate->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-negate->kw-negate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-non-turn-player->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-off-hand->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-off-hand->kw-off-hand": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-opt->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-opt->kw-opt": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-overpower->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-overpower->kw-overpower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-owner->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-pairs-with->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-pay->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-pay->kw-pay": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-perched->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-perched->kw-perched": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-phantasm->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-phantasm->kw-phantasm": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-physical-damage->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-piercing->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-piercing->kw-piercing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-pitch->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-pitch->kw-pitch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-play->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-play-static-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-player->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ponder->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-power->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-prevention-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-priority->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-property->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-property-static-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-protect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-protect->kw-protect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-put->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quell->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quell->kw-quell": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quicken->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quickstrike->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quickstrike->kw-quickstrike": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quiver->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-quiver->kw-quiver": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reaction-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reload->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reload->kw-reload": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reminder-text->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-remove->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-repeat->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-repeat->kw-repeat": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-replacement-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reprise->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reprise->kw-reprise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reroll->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reroll->kw-reroll": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-resolution-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-resolution-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-resolve->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-resource->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-resource->kw-resource": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-retrieve->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-retrieve->kw-retrieve": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-return-to-the-brood->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-return-to-the-brood->kw-return-to-the-brood": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reveal->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-reveal->kw-reveal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-roll->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-roll->kw-roll": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-rules-text->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-rune-gate->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-rune-gate->kw-rune-gate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-runechant->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-rupture->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-rupture->kw-rupture": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-scrap->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-scrap->kw-scrap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-search->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-search->kw-search": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-seismic-surge->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-self-replacement-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-sharpen->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-sharpen->kw-sharpen": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-shielding-prevention-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-shuffle->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-shuffle->kw-shuffle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-sigil-of-fate->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-silver->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-soul->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-soul-shackle->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-source->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-specialization->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-specialization->kw-specialization": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-spectra->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-spectra->kw-spectra": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-spectral-shield->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-spellbane-aegis->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-spellvoid->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-spellvoid->kw-spellvoid": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-stack->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-standard-replacement-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-starfall->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-starfall->kw-starfall": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-start-of-game-procedure->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-start-phase->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-static-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-static-continuous-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-static-triggered-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-steal->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-steal->kw-steal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-stealth->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-stealth->kw-stealth": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-step->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-subtype->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-supertype->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-surge->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-surge->kw-surge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-suspense->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-suspense->kw-suspense": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-talent->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-tap->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-tap->kw-tap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-temper->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-temper->kw-temper": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-text-box->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-the-crowd-cheers-the-crowd-boos->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-the-crowd-cheers-the-crowd-boos->kw-the-crowd-cheers-the-crowd-boos": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-token->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-token->kw-token": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-toughness->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-tower->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-tower->kw-tower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-transcend->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-transcend->kw-transcend": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-transform->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-transform->kw-transform": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-trigger-condition->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-trigger-event->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-triggered-effect->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-triggered-layer->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-triggered-static-ability->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-turn->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-turn->kw-turn": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-turn-player->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-type->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-type-box->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-unfreeze->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-unfreeze->kw-unfreeze": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-universal->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-universal->kw-universal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-untap->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-untap->kw-untap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ursur-the-soul-reaper->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-vigor->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-wager->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-wager->kw-wager": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ward->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-ward->kw-ward": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-watery-grave->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-watery-grave->kw-watery-grave": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-weapon->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-weapon->kw-weapon": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-x-y-z->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-zen-state->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gl-zone->glossary-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->doc-map-cr": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-1h": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-2h": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ability-keyword": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-action": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-action-phase": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-action-point": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-activated-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-activated-layer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-active-player": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-additional-cost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-aether-ashwing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-affliction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-agility": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ally": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-alternative-cost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ambush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-amp": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arcane-barrier": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arcane-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arcane-shelter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arena": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arms": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arrow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-arsenal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ash": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-attack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-attack-layer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-attack-proxy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-attack-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-attack-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-aura": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-aura-of-suspense": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-bait": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-banish": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-banished-zone": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-base": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-battleworn": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-beat-chest": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-become": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-blade-break": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-blasmophet-the-soul-harvester": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-block": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-blood-debt": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-bloodrot-pox": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-bond": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-boost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-card-layer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-chain-link": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-chain-link-resolution": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-channel": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-charge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-chest": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-cintari-sellsword": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-clash": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-class": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-clear": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-cloaked": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-close-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-color": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-combat": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-combat-chain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-combo": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-companion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-confidence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-construct": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-continuous-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-contract": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-control": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-controller": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-copper": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-copy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-cost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-counters": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-crank": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-create": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-crush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-damage-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-deal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-deck": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-decompose": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-defence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-defend": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-defend-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-defending": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-defense-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-delayed-triggered-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-dependent-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-destroy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-discard": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-discrete-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-distribute": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-draw": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-earth-bond": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-earth-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-effect-keyword": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-embodiment-of-earth": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-embodiment-of-lightning": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-end-phase": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ephemeral": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-equip": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-equipment": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-essence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-event": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-evo-upgrade": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-exposed": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-fealty": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-figment": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-fixed-prevention-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-flavor-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-fragment": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-frailty": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-freeze": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-frostbite": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-fusion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-gain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-galvanize": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-game": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-generic": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-generic-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-give": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-go-fish": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-gold": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-golden-cog": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-goldkiss-rum": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-graphene-chelicera": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-graveyard": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-guardwell": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-hand": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-head": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-heave": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-heavy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-hero": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-hidden-activated-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-hidden-triggered-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-high-tide": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-hit": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ice-bond": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ice-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-identity-replacement-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ignore": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-inactive-player": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-inertia": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-inline-triggered-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-instant": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-intellect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-invocation": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-item": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-james-white": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-label-keyword": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-landmark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-last-known-information": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-layer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-layer-continuous-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-layer-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-legend-of-the-watery-grave": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-legendary": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-legs": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-life": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-life-loss": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-life-total": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-lightning-bond": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-lightning-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-look": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-lose": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-macro": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-mark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-match": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-material": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-meld": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-mentor": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-meta-static-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-might": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-mirage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-modular": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-multi-event": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-name": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-negate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-non-turn-player": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-off-hand": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-opt": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-overpower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-owner": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-pairs-with": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-pay": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-perched": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-phantasm": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-physical-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-piercing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-pitch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-play": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-play-static-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-player": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ponder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-power": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-prevention-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-priority": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-property": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-property-static-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-protect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-put": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-quell": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-quicken": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-quickstrike": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-quiver": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-reaction-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-reload": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-reminder-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-remove": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-repeat": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-replacement-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-reprise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-reroll": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-resolution-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-resolution-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-resolve": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-resource": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-retrieve": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-return-to-the-brood": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-reveal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-roll": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-rules-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-rune-gate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-runechant": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-rupture": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-scrap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-search": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-seismic-surge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-self-replacement-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-sharpen": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-shielding-prevention-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-shuffle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-sigil-of-fate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-silver": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-soul": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-soul-shackle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-source": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-specialization": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-spectra": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-spectral-shield": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-spellbane-aegis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-spellvoid": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-standard-replacement-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-starfall": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-start-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-start-phase": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-static-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-static-continuous-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-static-triggered-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-steal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-stealth": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-step": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-subtype": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-supertype": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-surge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-suspense": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-talent": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-tap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-temper": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-text-box": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-the-crowd-cheers-the-crowd-boos": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-token": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-toughness": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-tower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-transcend": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-transform": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-trigger-condition": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-trigger-event": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-triggered-effect": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-triggered-layer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-triggered-static-ability": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-turn": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-turn-player": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-type": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-type-box": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-unfreeze": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-universal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-untap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ursur-the-soul-reaper": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-vigor": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-wager": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-ward": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-watery-grave": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-weapon": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-x-y-z": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-zen-state": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->gl-zone": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->judge-brain-map": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "glossary-index->keywords-index": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -2994,12 +6614,37 @@
     "last": null,
     "weight": 0.5
   },
+  "offensive-material-policy->conduct-bribery-wagering-stalling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "offensive-material-policy->conduct-infractions-detail": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "offensive-material-policy->tournament-materials-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "official-formats->card-legality-live-fetch": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "official-formats->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "op-programs-and-tiers->doc-map-trp": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "op-programs-and-tiers->event-tiers-and-rels": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -3124,6 +6769,21 @@
     "last": null,
     "weight": 0.5
   },
+  "registration-and-test-cards->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "registration-and-test-cards->decklists-registration": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "registration-and-test-cards->tournament-materials-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "replacement-and-prevention-ordering->continuous-effect-staging-detail": {
     "fires": 0,
     "last": null,
@@ -3149,6 +6809,26 @@
     "last": null,
     "weight": 0.5
   },
+  "reversing-actions-and-inventory->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reversing-actions-and-inventory->game-state-actions-and-reversal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reversing-actions-and-inventory->gameplay-logistics-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reversing-actions-and-inventory->shortcuts-and-out-of-order-play": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "round-structure-and-timing->deck-checks": {
     "fires": 0,
     "last": null,
@@ -3170,6 +6850,21 @@
     "weight": 0.5
   },
   "rules-precedence->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "set-specific-limited-rules->limited-format-procedures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "set-specific-limited-rules->limited-product-handling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "set-specific-limited-rules->swiss-rounds-and-time-limits": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -3254,6 +6949,21 @@
     "last": null,
     "weight": 0.5
   },
+  "swiss-rounds-and-time-limits->limited-format-procedures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "swiss-rounds-and-time-limits->op-programs-and-tiers": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "swiss-rounds-and-time-limits->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "team-and-upf-formats->event-tiers-and-rels": {
     "fires": 0,
     "last": null,
@@ -3265,6 +6975,21 @@
     "weight": 0.5
   },
   "team-and-upf-formats->official-formats": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tiebreakers-standings->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tiebreakers-standings->round-structure-and-timing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tiebreakers-standings->swiss-rounds-and-time-limits": {
     "fires": 0,
     "last": null,
     "weight": 0.5

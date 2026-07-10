@@ -1,0 +1,10 @@
+---
+tags: [cr, glossary]
+paths: []
+strength: 1
+source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR Glossary) — vendored: third_party/fab-rules/en-fab-cr.txt"
+graduated: false
+created: 2026-07-10
+---
+
+**Beat Chest** (CR Glossary): An ability keyword that gives the card the optional additional cost of discarding a 6{p} card from hand.[8.3.33] Keyword note: [[kw-beat-chest]]. Index: [[glossary-index]].
