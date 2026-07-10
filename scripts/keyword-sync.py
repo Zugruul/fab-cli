@@ -1,19 +1,28 @@
 #!/usr/bin/env python3
-"""keyword-sync.py — keep keyword knowledge identical across identity brains.
+"""keyword-sync.py — one physical keyword corpus, symlinked into every brain.
 
-The kw-*.md notes and the generated keywords-index.md must be byte-identical
-in every identity brain that holds them (judge, player, card-vault). The judge
-brain is CANONICAL: keyword knowledge only changes there (confirmed against the
-official CR), then propagates outward. See .claude/identities/KEYWORD-SYNC.md.
+The kw-*.md notes and the generated keywords-index.md live PHYSICALLY in the
+card-vault brain (.claude/identities/card-vault/brain/notes/). Every other
+brain that holds them (judge, player) has RELATIVE SYMLINKS to those files, so
+all brains read literally the same bytes — desync between brains is
+structurally impossible.
+
+EDITORIAL AUTHORITY is unchanged: only the JUDGE decides keyword content
+(confirmed against the official CR). WARNING: writing "through" a symlink
+(e.g. `brain.sh mint` over a kw slug in any brain) rewrites the single
+physical file — that is why mint/hand-edits on kw-* outside the judge's
+editorial process are forbidden. The committed manifest exists to catch
+unauthorized content changes. See .claude/identities/KEYWORD-SYNC.md.
 
 Commands:
-  check      (default) validate template on canon, regen-compare the index,
-             hash-compare every brain against canon, attribute drift via the
-             committed manifest. Exit 1 on any problem.
-  sync       propagate canon -> all other brains (notes + index + link edges),
-             regenerate the index, rewrite the manifest.
-  index      regenerate keywords-index.md from canon kw notes (all brains).
-  baseline   rewrite the manifest from canon's current state.
+  check      (default) validate the template on the physical corpus, verify
+             the index is fresh, verify every mirror entry is a correct
+             symlink, attribute content changes via the manifest. Exit 1 on
+             any problem.
+  sync       regenerate the index, create/fix mirror symlinks in all brains,
+             refresh links.json edges, rewrite the manifest.
+  index      regenerate keywords-index.md from the kw notes.
+  baseline   rewrite the manifest from the corpus' current state.
 
 Stdlib only. Frontmatter/link handling mirrors spec-workflow's brain.py.
 """
@@ -24,8 +33,8 @@ import re
 import subprocess
 import sys
 
-ROLES = ["judge", "player", "card-vault"]
-CANON = "judge"
+HOME = "card-vault"           # physical home of the corpus
+MIRRORS = ["judge", "player"]  # brains that hold relative symlinks to it
 INDEX = "keywords-index"
 MANIFEST = "keywords.manifest.sha256"
 DEFAULT_WEIGHT = 0.5
@@ -50,7 +59,7 @@ FM_KEYS = ["tags", "paths", "strength", "source", "graduated", "created"]
 
 INDEX_PREAMBLE = """# Keywords index — ALL Flesh & Blood keywords (CR chapter 8)
 
-HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, mint/update per-keyword notes in the JUDGE brain, then run `scripts/keyword-sync.py sync` — never edit this file or any kw-* note by hand outside the judge brain. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]]. Sync process: .claude/identities/KEYWORD-SYNC.md."""
+HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, update the per-keyword notes under the JUDGE's editorial authority, then run `scripts/keyword-sync.py sync` — this file is generated; never edit it by hand. The corpus lives physically in the card-vault brain and is symlinked into the other brains. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]]. Sync process: .claude/identities/KEYWORD-SYNC.md."""
 
 
 def root():
@@ -73,16 +82,28 @@ def brain_dir(role):
     return os.path.join(IDENT, role, "brain")
 
 
-def existing_roles():
-    return [r for r in ROLES if os.path.isdir(notes_dir(r))]
+def rel_target(fn):
+    """Expected symlink target inside a mirror's notes dir."""
+    return os.path.join("..", "..", "..", HOME, "brain", "notes", fn)
 
 
-def kw_files(role):
+def corpus_files():
+    d = notes_dir(HOME)
+    if not os.path.isdir(d):
+        return []
+    files = sorted(f for f in os.listdir(d)
+                   if f.startswith("kw-") and f.endswith(".md"))
+    if os.path.isfile(os.path.join(d, INDEX + ".md")):
+        files.append(INDEX + ".md")
+    return files
+
+
+def mirror_kw_entries(role):
     d = notes_dir(role)
     if not os.path.isdir(d):
         return []
     return sorted(f for f in os.listdir(d)
-                  if f.startswith("kw-") and f.endswith(".md"))
+                  if (f.startswith("kw-") or f == INDEX + ".md") and f.endswith(".md"))
 
 
 def sha256(path):
@@ -114,23 +135,23 @@ def body_lines(body):
 
 # ------------------------------------------------------------ template check
 def validate_note(path):
-    """Return a list of template violations for one canon kw note."""
+    """Return a list of template violations for one physical kw note."""
     errs = []
     fn = os.path.basename(path)
     keys, fm, body = parse_note(open(path, encoding="utf-8").read())
     if keys != FM_KEYS:
         errs.append("frontmatter keys %s != %s" % (keys, FM_KEYS))
-        return errs
+        return ["%s: %s" % (fn, e) for e in errs]
     tags = [t.strip() for t in fm["tags"].strip("[]").split(",")]
     if len(tags) != 3 or tags[0] != "cr" or tags[1] != "keyword" or tags[2] not in CAT_NAMES:
         errs.append("tags must be [cr, keyword, <%s>], got %s" % ("|".join(CAT_NAMES), tags))
-        return errs
+        return ["%s: %s" % (fn, e) for e in errs]
     m_src = SOURCE_RE.match(fm["source"])
     if not m_src:
         errs.append("source line does not match template: %s" % fm["source"])
     lines = body_lines(body)
     if not lines:
-        return errs + ["empty body"]
+        return ["%s: empty body" % fn]
     m_head = HEADER_RE.match(lines[0])
     if not m_head:
         errs.append("header line does not match template: %s" % lines[0])
@@ -143,45 +164,45 @@ def validate_note(path):
             ((m_src, 1), (m_head, 3), (m_tail, 1)) if g}
     if len(secs) > 1:
         errs.append("CR section disagrees across source/header/trailer: %s" % sorted(secs))
-    chap = tags[2]
-    expected_prefix = dict(CATEGORIES)[chap]
+    expected_prefix = dict(CATEGORIES)[tags[2]]
     if m_head and not m_head.group(3).startswith(expected_prefix):
         errs.append("CR section %s not under chapter %s for category %s"
-                    % (m_head.group(3), expected_prefix, chap))
+                    % (m_head.group(3), expected_prefix, tags[2]))
     return ["%s: %s" % (fn, e) for e in errs]
 
 
-def validate_canon():
+def validate_corpus():
     errs = []
-    for f in kw_files(CANON):
-        errs += validate_note(os.path.join(notes_dir(CANON), f))
+    for f in corpus_files():
+        if f == INDEX + ".md":
+            continue
+        errs += validate_note(os.path.join(notes_dir(HOME), f))
     return errs
 
 
 # ------------------------------------------------------------ index generation
 def sec_key(sec):
-    parts = re.split(r"\.", sec)
     out = []
-    for p in parts:
+    for p in sec.split("."):
         m = re.match(r"(\d+)([a-z]?)", p)
         out.append((int(m.group(1)), m.group(2)) if m else (0, p))
     return out
 
 
 def generate_index():
-    """Deterministic keywords-index.md content from canon kw notes."""
+    """Deterministic keywords-index.md content from the physical kw notes."""
     by_cat = {c: [] for c in CAT_NAMES}
-    for f in kw_files(CANON):
-        _, fm, body = parse_note(open(os.path.join(notes_dir(CANON), f), encoding="utf-8").read())
+    for f in corpus_files():
+        if f == INDEX + ".md":
+            continue
+        _, fm, body = parse_note(open(os.path.join(notes_dir(HOME), f), encoding="utf-8").read())
         tags = [t.strip() for t in fm["tags"].strip("[]").split(",")]
-        cat = tags[2]
         m = HEADER_RE.match(body_lines(body)[0])
         sec = m.group(3) if m else "9999"
-        by_cat[cat].append((sec_key(sec), f[:-3]))
+        by_cat[tags[2]].append((sec_key(sec), f[:-3]))
 
-    # preserve strength/created from the canon's existing index if present
     strength, created = "1", None
-    ipath = os.path.join(notes_dir(CANON), INDEX + ".md")
+    ipath = os.path.join(notes_dir(HOME), INDEX + ".md")
     if os.path.isfile(ipath):
         _, ifm, _ = parse_note(open(ipath, encoding="utf-8").read())
         strength = ifm.get("strength", "1")
@@ -217,7 +238,10 @@ def add_link_edges(role, slugs):
     have = {f[:-3] for f in os.listdir(notes_dir(role)) if f.endswith(".md")}
     added = 0
     for slug in slugs:
-        _, _, body = parse_note(open(os.path.join(notes_dir(role), slug + ".md"), encoding="utf-8").read())
+        p = os.path.join(notes_dir(role), slug + ".md")
+        if not os.path.isfile(p):
+            continue
+        _, _, body = parse_note(open(p, encoding="utf-8").read())
         for target in WIKILINK.findall(body):
             target = target.strip()
             key = "%s->%s" % (slug, target)
@@ -247,16 +271,15 @@ def read_manifest():
     return m
 
 
-def canon_hashes():
-    files = kw_files(CANON) + [INDEX + ".md"]
-    return {f: sha256(os.path.join(notes_dir(CANON), f))
-            for f in files if os.path.isfile(os.path.join(notes_dir(CANON), f))}
+def corpus_hashes():
+    return {f: sha256(os.path.join(notes_dir(HOME), f)) for f in corpus_files()}
 
 
 def write_manifest():
-    hashes = canon_hashes()
+    hashes = corpus_hashes()
     with open(manifest_path(), "w", encoding="utf-8") as f:
-        f.write("# canonical keyword-note hashes (source: %s brain). Regenerate: scripts/keyword-sync.py baseline\n" % CANON)
+        f.write("# canonical keyword-corpus hashes (physical home: %s brain; editorial authority: judge).\n" % HOME)
+        f.write("# Regenerate: scripts/keyword-sync.py baseline\n")
         for fn in sorted(hashes):
             f.write("%s  %s\n" % (hashes[fn], fn))
     return hashes
@@ -267,56 +290,55 @@ def cmd_check():
     problems = []
     infos = []
 
-    if not os.path.isdir(notes_dir(CANON)):
-        print("FATAL: canonical brain %r not found" % CANON)
+    if not os.path.isdir(notes_dir(HOME)):
+        print("FATAL: corpus home brain %r not found" % HOME)
         return 1
 
-    # 1. canon template validation
-    terrs = validate_canon()
-    problems += ["TEMPLATE %s" % e for e in terrs]
+    # 1. template validation on the physical corpus
+    problems += ["TEMPLATE %s" % e for e in validate_corpus()]
 
-    # 2. index freshness (regenerate and compare)
-    ipath = os.path.join(notes_dir(CANON), INDEX + ".md")
+    # 2. index freshness
+    ipath = os.path.join(notes_dir(HOME), INDEX + ".md")
     if not os.path.isfile(ipath):
-        problems.append("INDEX %s missing in canon" % INDEX)
+        problems.append("INDEX %s missing in %s" % (INDEX, HOME))
     elif open(ipath, encoding="utf-8").read() != generate_index():
-        problems.append("INDEX %s is stale in canon (regenerate: keyword-sync.py index)" % INDEX)
+        problems.append("INDEX %s is stale (regenerate: keyword-sync.py index)" % INDEX)
 
-    # 3. cross-brain comparison
-    canon = canon_hashes()
-    roles = existing_roles()
-    for r in ROLES:
-        if r not in roles:
-            infos.append("note: brain %r does not exist yet — skipped" % r)
-    for r in roles:
-        if r == CANON:
+    # 3. mirrors: every corpus file must be a correct relative symlink
+    files = corpus_files()
+    for r in MIRRORS:
+        if not os.path.isdir(notes_dir(r)):
+            infos.append("note: brain %r does not exist — skipped" % r)
             continue
-        theirs = {f: sha256(os.path.join(notes_dir(r), f))
-                  for f in kw_files(r) + [INDEX + ".md"]
-                  if os.path.isfile(os.path.join(notes_dir(r), f))}
-        for f in sorted(set(canon) - set(theirs)):
-            problems.append("MISSING %s lacks %s" % (r, f))
-        for f in sorted(set(theirs) - set(canon)):
-            problems.append("EXTRA %s has %s (not in canon)" % (r, f))
-        for f in sorted(set(canon) & set(theirs)):
-            if canon[f] != theirs[f]:
-                problems.append("DIVERGENT %s/%s != canon" % (r, f))
+        entries = set(mirror_kw_entries(r))
+        for f in files:
+            p = os.path.join(notes_dir(r), f)
+            if f not in entries:
+                problems.append("MISSING %s lacks symlink %s" % (r, f))
+            elif not os.path.islink(p):
+                problems.append("NOT-A-SYMLINK %s/%s is a regular file (drifted copy?)" % (r, f))
+            elif os.readlink(p) != rel_target(f):
+                problems.append("BAD-TARGET %s/%s -> %s (expected %s)"
+                                % (r, f, os.readlink(p), rel_target(f)))
+        for f in sorted(entries - set(files)):
+            problems.append("EXTRA %s has %s (not in corpus)" % (r, f))
 
-    # 4. drift attribution via manifest
+    # 4. content-change attribution via manifest
     manifest = read_manifest()
+    hashes = corpus_hashes()
     if not manifest:
-        infos.append("note: no manifest yet — run `keyword-sync.py baseline` after the first sync")
+        infos.append("note: no manifest yet — run `keyword-sync.py baseline`")
     else:
-        canon_changed = sorted(f for f in canon if manifest.get(f) not in (None, canon[f]))
-        canon_new = sorted(f for f in canon if f not in manifest)
-        canon_gone = sorted(f for f in manifest if f not in canon)
-        if canon_changed:
-            infos.append("canon changed since baseline (judge updated — verify against CR, then `sync`): %s"
-                         % ", ".join(canon_changed))
-        if canon_new:
-            infos.append("new in canon since baseline: %s" % ", ".join(canon_new))
-        if canon_gone:
-            infos.append("removed from canon since baseline: %s" % ", ".join(canon_gone))
+        changed = sorted(f for f in hashes if manifest.get(f) not in (None, hashes[f]))
+        new = sorted(f for f in hashes if f not in manifest)
+        gone = sorted(f for f in manifest if f not in hashes)
+        if changed:
+            infos.append("corpus changed since baseline (judge-authorized? verify vs CR, then `sync`): %s"
+                         % ", ".join(changed))
+        if new:
+            infos.append("new in corpus since baseline: %s" % ", ".join(new))
+        if gone:
+            infos.append("removed from corpus since baseline: %s" % ", ".join(gone))
 
     for i in infos:
         print(i)
@@ -325,59 +347,72 @@ def cmd_check():
         for p in problems:
             print("  " + p)
         print("\nResolution protocol: .claude/identities/KEYWORD-SYNC.md")
-        print("  - non-canon drift  -> inspect (`git diff`); if it holds NEW knowledge, route it")
-        print("    through the judge (confirm vs CR, mint in judge), then `keyword-sync.py sync`.")
-        print("  - canon changed    -> verify vs vendored CR, then `keyword-sync.py sync`.")
-        print("  - template errors  -> fix the judge note to the template, then `sync`.")
+        print("  - NOT-A-SYMLINK/BAD-TARGET/MISSING/EXTRA -> inspect; if the stray file holds NEW")
+        print("    knowledge, route it through the judge (confirm vs CR, fold into the corpus),")
+        print("    then `keyword-sync.py sync` to restore the links.")
+        print("  - corpus changed -> verify vs vendored CR (judge editorial), then `sync`.")
+        print("  - TEMPLATE errors -> fix the physical note to the template, then `sync`.")
         return 1
-    print("OK: keyword notes identical across %s (%d notes + index)"
-          % ("/".join(roles), len(kw_files(CANON))))
+    n = len([f for f in files if f != INDEX + ".md"])
+    live = [HOME] + [r for r in MIRRORS if os.path.isdir(notes_dir(r))]
+    print("OK: single keyword corpus (%d notes + index) in %s, symlinked into %s"
+          % (n, HOME, "/".join(live[1:]) or "(no mirrors)"))
     return 0
 
 
 def cmd_index():
-    content = generate_index()
-    for r in existing_roles():
-        with open(os.path.join(notes_dir(r), INDEX + ".md"), "w", encoding="utf-8") as f:
-            f.write(content)
-        add_link_edges(r, [INDEX])
-        print("wrote %s/%s.md" % (r, INDEX))
+    with open(os.path.join(notes_dir(HOME), INDEX + ".md"), "w", encoding="utf-8") as f:
+        f.write(generate_index())
+    add_link_edges(HOME, [INDEX])
+    print("wrote %s/%s.md" % (HOME, INDEX))
     return 0
 
 
 def cmd_sync():
-    terrs = validate_canon()
+    terrs = validate_corpus()
     if terrs:
-        print("REFUSING to sync: canon violates the template:")
+        print("REFUSING to sync: corpus violates the template:")
         for e in terrs:
             print("  " + e)
         return 1
-    # regenerate index in canon first so it propagates like any other note
-    content = generate_index()
-    with open(os.path.join(notes_dir(CANON), INDEX + ".md"), "w", encoding="utf-8") as f:
-        f.write(content)
-    canon_files = kw_files(CANON) + [INDEX + ".md"]
-    slugs = [f[:-3] for f in canon_files]
-    add_link_edges(CANON, slugs)
+    cmd_index()
+    files = corpus_files()
+    slugs = [f[:-3] for f in files]
+    add_link_edges(HOME, slugs)
 
-    for r in existing_roles():
-        if r == CANON:
+    for r in MIRRORS:
+        if not os.path.isdir(notes_dir(r)):
+            print("skipped %s (brain does not exist)" % r)
             continue
-        copied = removed = 0
-        for f in canon_files:
-            src = os.path.join(notes_dir(CANON), f)
-            dst = os.path.join(notes_dir(r), f)
-            data = open(src, "rb").read()
-            if not os.path.isfile(dst) or open(dst, "rb").read() != data:
-                open(dst, "wb").write(data)
-                copied += 1
-        for f in kw_files(r):
-            if f not in canon_files:
+        created = fixed = 0
+        for f in files:
+            p = os.path.join(notes_dir(r), f)
+            if os.path.islink(p):
+                if os.readlink(p) != rel_target(f):
+                    os.remove(p)
+                    os.symlink(rel_target(f), p)
+                    fixed += 1
+            elif os.path.exists(p):
+                # regular file where a symlink belongs: only replace if identical
+                if sha256(p) == sha256(os.path.join(notes_dir(HOME), f)):
+                    os.remove(p)
+                    os.symlink(rel_target(f), p)
+                    fixed += 1
+                else:
+                    print("ERROR: %s/%s is a DIVERGENT regular file — route its content through"
+                          " the judge, then remove it and re-run sync" % (r, f))
+                    return 1
+            else:
+                os.symlink(rel_target(f), p)
+                created += 1
+        removed = 0
+        for f in mirror_kw_entries(r):
+            if f not in files:
                 os.remove(os.path.join(notes_dir(r), f))
                 removed += 1
         edges = add_link_edges(r, slugs)
-        print("synced %s: %d file(s) updated, %d removed, %d link edge(s) added"
-              % (r, copied, removed, edges))
+        print("synced %s: %d symlink(s) created, %d fixed, %d removed, %d link edge(s) added"
+              % (r, created, fixed, removed, edges))
     write_manifest()
     print("manifest rewritten: %s" % os.path.relpath(manifest_path(), ROOT))
     return cmd_check()
@@ -385,7 +420,7 @@ def cmd_sync():
 
 def cmd_baseline():
     write_manifest()
-    print("manifest written from canon (%d entries)" % len(read_manifest()))
+    print("manifest written from corpus (%d entries)" % len(read_manifest()))
     return 0
 
 

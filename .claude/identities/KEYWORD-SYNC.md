@@ -1,23 +1,42 @@
-# Keyword sync — one canonical keyword corpus, identical in every brain
+# Keyword corpus — one physical copy, symlinked into every brain
 
-The keyword notes (`kw-*.md`) and the generated `keywords-index.md` are a SHARED,
-CANONICAL corpus. They must be **byte-identical** in every identity brain that
-holds them: `judge`, `player`, `card-vault`. The **judge brain is canonical** —
-keyword knowledge changes ONLY there (confirmed against the official CR per the
-knowledge-flow hard rule), then propagates outward.
+The keyword notes (`kw-*.md`) and the generated `keywords-index.md` are a single
+SHARED corpus. It lives **physically** in the card-vault brain
+(`.claude/identities/card-vault/brain/notes/`); the judge and player brains hold
+**relative symlinks** to those files. All brains therefore read literally the
+same bytes — content desync between brains is structurally impossible.
+
+Two distinct roles, do not conflate them:
+- **Physical home**: card-vault (where the files are).
+- **Editorial authority**: the JUDGE (who may change keyword content, and only
+  after confirming against the official CR — the knowledge-flow hard rule).
 
 Tooling: `scripts/keyword-sync.py` (stdlib python, run from anywhere in the repo).
 
 ```
-python3 scripts/keyword-sync.py check      # validate template + hash-compare all brains (exit 1 on drift)
-python3 scripts/keyword-sync.py sync       # propagate judge -> all brains, regen index, rewrite manifest
+python3 scripts/keyword-sync.py check      # template + symlink integrity + manifest attribution (exit 1 on problems)
+python3 scripts/keyword-sync.py sync       # regen index, create/fix symlinks in all brains, refresh link edges + manifest
 python3 scripts/keyword-sync.py index      # regenerate keywords-index.md only
-python3 scripts/keyword-sync.py baseline   # rewrite the manifest from judge's current state
+python3 scripts/keyword-sync.py baseline   # rewrite the manifest from the corpus' current state
 ```
 
 State: `.claude/identities/keywords.manifest.sha256` — committed last-known-good
-hashes of the canonical (judge) corpus. It is what lets `check` tell **where** a
-desync happened, not just that one exists.
+hashes of the corpus. Since all brains share one file, the manifest's job is to
+catch **unauthorized content changes** (e.g. an accidental write-through) rather
+than cross-brain divergence.
+
+## SYMLINK WRITE-THROUGH WARNING (the one real hazard)
+
+Writing to a symlinked path (`brain.sh mint` over a `kw-*` slug, `open(...,"w")`,
+`sed -i`, editors) rewrites the SINGLE PHYSICAL FILE that every brain reads.
+Therefore:
+- NEVER mint or hand-edit a `kw-*` slug or `keywords-index` from the player (or
+  any non-judge) context. Role-specific keyword commentary goes in separate
+  notes (e.g. `ruling-*`, strategy notes) that LINK to the shared [[kw-*]] note.
+- Judge editorial updates edit the note (through the symlink or directly in
+  card-vault — same file) following the template below, then run `sync`.
+- `check` compares the corpus against the manifest; any change not followed by a
+  judge-verified `sync` shows up as "corpus changed since baseline".
 
 ## The keyword note template (STRICT — validated by `check`, `sync` refuses on violation)
 
@@ -49,41 +68,40 @@ Constraints enforced:
 
 ## keywords-index.md is GENERATED — never hand-edit
 
-`keyword-sync.py index` (also run by `sync`) rebuilds the index from the kw notes:
-one section per CR-chapter category, entries sorted by CR section number, with
-per-section counts. The same bytes are written to every brain. If `check` reports
-"INDEX stale", regenerate — don't patch it by hand.
+`keyword-sync.py index` (also run by `sync`) rebuilds the index from the kw
+notes: one section per CR-chapter category, entries sorted by CR section number,
+with per-section counts. It is a corpus file like any other — physical in
+card-vault, symlinked elsewhere.
 
-## Desync resolution protocol
+## Problem resolution
 
-`check` attributes drift using the manifest:
-
-| Symptom | Meaning | Resolution |
+| `check` symptom | Meaning | Resolution |
 |---|---|---|
-| `DIVERGENT <role>/<file>` and NO "canon changed" line | a non-judge brain drifted | Inspect `git diff` on that file. If it's noise/accident: `keyword-sync.py sync` (judge wins). If it contains genuinely NEW knowledge: route it through the judge — the judge verifies it against the vendored CR (`third_party/fab-rules/en-fab-cr.txt`, refresh with `fab-cli rules update-docs`), updates its own note to the template, THEN `sync`. **Never merge player/card-vault text into the judge directly.** |
-| `canon changed since baseline: ...` | the judge brain was updated | Expected after a CR bump or new ruling. Verify the changed notes against the vendored CR, then `sync` (propagates + re-baselines). If the judge change was accidental: `git checkout` the judge note, then `check` again. |
-| `TEMPLATE ...` | a judge note violates the template | Fix the judge note to the template (content edits go INSIDE the body, between header and trailer), then `sync`. |
-| `MISSING` / `EXTRA` | a brain lacks a keyword or invented one | New keywords are minted in the judge brain only (template above), then `sync`. `sync` deletes non-canon `kw-*` files in other brains. |
+| `NOT-A-SYMLINK <role>/<file>` | a mirror replaced the symlink with a regular file (drifted copy) | Inspect it. Noise: delete the file, `sync` restores the link. New knowledge: route it through the judge (verify vs vendored CR `third_party/fab-rules/en-fab-cr.txt`, refresh with `fab-cli rules update-docs`; fold into the physical note per the template), delete the stray file, `sync`. `sync` auto-replaces the file with a symlink only when its content is identical; if divergent it refuses. |
+| `BAD-TARGET` / `MISSING` / `EXTRA` | broken/missing/stray link | `sync` fixes links; new keywords are created as physical notes in card-vault (judge editorial), then `sync`. |
+| `corpus changed since baseline` | the physical files were edited | Expected after a judge-verified update (CR bump, new set, folded ruling): verify vs the vendored CR, then `sync` (re-baselines). Unexpected: `git diff` the corpus, revert or route through the judge. |
+| `TEMPLATE ...` | a note violates the template | Fix the physical note (content edits go INSIDE the body, between header and trailer), then `sync`. |
 | `INDEX ... stale` | index out of date with the notes | `keyword-sync.py index` or `sync`. |
 
 ## When to run
 
-- `check`: at retro time, before any release of brain knowledge, and before
-  answering keyword-precision questions if brains were recently touched.
-- `sync`: after ANY judge keyword change — CR version bump (refresh vendored docs,
-  diff chapter 8, update judge notes), new set adding keywords, or a confirmed
-  ruling folded into a keyword note. Also after creating a new brain that must
-  hold the corpus (e.g. card-vault bootstrap: create `notes/`, run `sync`).
+- `check`: at retro time, before releasing brain knowledge, and whenever brains
+  were recently touched.
+- `sync`: after ANY judge keyword change (CR version bump → refresh vendored
+  docs, diff chapter 8, update notes; new set keywords; confirmed rulings), and
+  after creating a new brain that must hold the corpus (create its `notes/` dir,
+  add it to `MIRRORS` in the script if new, run `sync`).
 - Keyword/brain maintenance commits go directly to main (knowledge-update
-  convention, no PR cycle). Commit the notes, the index, AND the manifest together.
+  convention, no PR cycle). Commit the corpus, the symlinks, AND the manifest together.
 
-## Notes on mechanics
+## Mechanics notes
 
-- `sync` byte-copies files, so `strength`/`created` are canonical too — per-brain
-  strength divergence on kw notes is treated as drift by design.
-- `sync` also adds missing `links.json` edges (mirroring `brain.py mint`:
-  weight 0.5) for wikilink targets that exist in the receiving brain; it never
-  resets existing edge weights/fires.
-- Do NOT `brain.sh mint` over a kw-* slug in a non-judge brain; role-specific
-  keyword commentary belongs in separate notes (e.g. `ruling-*`, strategy notes)
-  that LINK to the shared [[kw-*]] note.
+- Symlinks are relative (`../../../card-vault/brain/notes/<file>`), so they
+  survive clones and checkouts on macOS/Linux. Git tracks them as symlinks.
+- `brain.py` recall works transparently through them (verified: seed + hop +
+  inject events fire for symlinked notes in mirror brains).
+- One physical file means one shared `strength` value for all brains, by design.
+- `sync` also adds missing `links.json` edges per brain (mirroring
+  `brain.py mint`: weight 0.5, only toward targets existing in that brain; never
+  resets existing edge weights/fires). Each brain keeps its OWN link graph —
+  only the note files are shared.

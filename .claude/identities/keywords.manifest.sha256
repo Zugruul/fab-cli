@@ -1,5 +1,6 @@
-# canonical keyword-note hashes (source: judge brain). Regenerate: scripts/keyword-sync.py baseline
-c8e12679567f26c49a4e91c3fddb9e826ab91bfe73b257e1820dd666654b9fe1  keywords-index.md
+# canonical keyword-corpus hashes (physical home: card-vault brain; editorial authority: judge).
+# Regenerate: scripts/keyword-sync.py baseline
+63565761485c2edfeafc8ae618bea0c247b15c40325f0260ab30d761e3f59414  keywords-index.md
 c882e63753e760788b1e2057ab21cf840fea24a3fc9db4d78076752967f97181  kw-1h.md
 141de16e225d18aa7db81a4e406c6d4cd9619176373a7f34ee9f335665328eda  kw-2h.md
 0714811003b275613f6cb7a41f7f95e8560572498cf3921a86d9fe14c6618cea  kw-action.md
