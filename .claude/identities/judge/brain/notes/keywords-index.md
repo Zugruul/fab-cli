@@ -1,10 +1,37 @@
 ---
 tags: [cr, keyword, index, hub]
 paths: []
-strength: 1
-source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8)"
+strength: 2
+source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8) — vendored: third_party/fab-rules/en-fab-cr.txt"
 graduated: false
 created: 2026-07-10
 ---
 
-CR chapter 8 defines EVERY keyword in six families: 8.1 type (14: Action, Attack Reaction, Defense Reaction, Equipment, Hero, Instant, Resource, Token, Weapon, Mentor, Demi-Hero, Block, Macro, Companion), 8.2 subtype (16 functional: (1H),(2H), Attack, Aura, Item, Arrow, Trap†, Ally, Landmark, Off-Hand, Affliction, Ash, Invocation, Construct, Quiver, Figment), 8.3 ability (43: attack, battleworn, blade break, dominate, go again, legendary, specialization, arcane barrier, boost, temper, blood debt, mentor†, phantasm, spectra, spellvoid, essence, fusion, heave, quell, ward, ephemeral, overpower, piercing, stealth, mirage, pairs, rune gate, ambush, crank, modular, protect, scrap, beat chest, guardwell, universal, cloaked, arcane shelter, meld, perched, unlimited, watery grave, suspense, fragment), 8.4 label (21: combo, crush, reprise, channel, material, rupture, contract, surge, solflare, unity, evo upgrade, galvanize, tower, decompose, bond, flow, heavy, high tide, go fish, quickstrike, starfall), 8.5 effect (58: banish, create, deal, destroy, discard, draw, gain, gets, intimidate, look, lose, put, remove, reveal, roll, search, shuffle, name, opt, reload, turn, become/copy, negate, repeat, reroll, charge, distribute, pay, add-defend, ignore, freeze, unfreeze, attack-with, contract, create-card, equip, move, awaken, pitch, clash, wager, amp, transcend, exchange, mark, retrieve, return-to-the-brood, give, steal, tap, untap, crowd cheers/boos, sharpen …), 8.6 token (38). († = no longer functional.) HARD RULE: when the CR version bumps, re-read chapter 8, diff the keyword set, and update this index + per-keyword rulings. Always cite the exact CR 8.x.y section when ruling on a keyword. Rulings notes: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Links: [[rules-precedence]].
+# Keywords index — ALL Flesh & Blood keywords (CR chapter 8)
+
+HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, mint/update per-keyword notes, update this index. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]].
+
+
+## Type keywords (CR 8.1) (14)
+
+[[kw-action]] · [[kw-attack-reaction]] · [[kw-defense-reaction]] · [[kw-equipment]] · [[kw-hero]] · [[kw-instant]] · [[kw-resource]] · [[kw-token]] · [[kw-weapon]] · [[kw-mentor]] · [[kw-demi-hero]] · [[kw-block]] · [[kw-macro]] · [[kw-companion]]
+
+## Subtype keywords (CR 8.2) (16)
+
+[[kw-1h]] · [[kw-2h]] · [[kw-attack]] · [[kw-aura]] · [[kw-item]] · [[kw-arrow]] · [[kw-trap]] · [[kw-ally]] · [[kw-landmark]] · [[kw-off-hand]] · [[kw-affliction]] · [[kw-ash]] · [[kw-invocation]] · [[kw-construct]] · [[kw-quiver]] · [[kw-figment]]
+
+## Ability keywords (CR 8.3) (43)
+
+[[kw-attack]] · [[kw-battleworn]] · [[kw-blade-break]] · [[kw-dominate]] · [[kw-go-again]] · [[kw-legendary]] · [[kw-specialization]] · [[kw-arcane-barrier]] · [[kw-boost]] · [[kw-temper]] · [[kw-blood-debt]] · [[kw-mentor]] · [[kw-phantasm]] · [[kw-spectra]] · [[kw-spellvoid]] · [[kw-essence]] · [[kw-fusion]] · [[kw-heave]] · [[kw-quell]] · [[kw-ward]] · [[kw-ephemeral]] · [[kw-overpower]] · [[kw-piercing]] · [[kw-stealth]] · [[kw-mirage]] · [[kw-pairs-with-object]] · [[kw-rune-gate]] · [[kw-ambush]] · [[kw-crank]] · [[kw-modular]] · [[kw-protect]] · [[kw-scrap]] · [[kw-beat-chest]] · [[kw-guardwell]] · [[kw-universal]] · [[kw-cloaked]] · [[kw-arcane-shelter]] · [[kw-meld]] · [[kw-perched]] · [[kw-unlimited]] · [[kw-watery-grave]] · [[kw-suspense]] · [[kw-fragment]]
+
+## Label keywords (CR 8.4) (21)
+
+[[kw-combo]] · [[kw-crush]] · [[kw-reprise]] · [[kw-channel]] · [[kw-material]] · [[kw-rupture]] · [[kw-contract]] · [[kw-surge]] · [[kw-solflare]] · [[kw-unity]] · [[kw-evo-upgrade]] · [[kw-galvanize]] · [[kw-tower]] · [[kw-decompose]] · [[kw-bond]] · [[kw-flow]] · [[kw-heavy]] · [[kw-high-tide]] · [[kw-go-fish]] · [[kw-quickstrike]] · [[kw-starfall]]
+
+## Effect keywords (CR 8.5) (58)
+
+[[kw-banish]] · [[kw-create-token]] · [[kw-deal-damage]] · [[kw-destroy]] · [[kw-discard]] · [[kw-draw]] · [[kw-gain-asset]] · [[kw-gets-numerical-property]] · [[kw-gets-is-non-numerical-property]] · [[kw-intimidate]] · [[kw-look]] · [[kw-lose-asset]] · [[kw-loses-non-numerical-property]] · [[kw-put-counter]] · [[kw-put-return-object]] · [[kw-remove-counter]] · [[kw-reveal]] · [[kw-roll]] · [[kw-search]] · [[kw-shuffle]] · [[kw-name]] · [[kw-opt]] · [[kw-reload]] · [[kw-turn]] · [[kw-become-copy]] · [[kw-negate]] · [[kw-repeat]] · [[kw-reroll]] · [[kw-charge]] · [[kw-distribute]] · [[kw-pay]] · [[kw-add-defend]] · [[kw-ignore]] · [[kw-freeze]] · [[kw-gain-control]] · [[kw-transform]] · [[kw-unfreeze]] · [[kw-attack-with]] · [[kw-contract]] · [[kw-create-card]] · [[kw-equip]] · [[kw-move-counter]] · [[kw-awaken]] · [[kw-pitch]] · [[kw-clash]] · [[kw-wager]] · [[kw-amp]] · [[kw-transcend]] · [[kw-exchange]] · [[kw-mark]] · [[kw-retrieve]] · [[kw-return-to-the-brood]] · [[kw-give]] · [[kw-steal]] · [[kw-tap]] · [[kw-untap]] · [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-sharpen]]
+
+## Token keywords (CR 8.6) (38)
+
+[[kw-token-quicken]] · [[kw-token-seismic-surge]] · [[kw-token-runechant]] · [[kw-token-copper]] · [[kw-token-zen-state]] · [[kw-token-blasmophet-the-soul-harvester]] · [[kw-token-soul-shackle]] · [[kw-token-spectral-shield]] · [[kw-token-ursur-the-soul-reaper]] · [[kw-token-frostbite]] · [[kw-token-embodiment-of-earth]] · [[kw-token-embodiment-of-lightning]] · [[kw-token-silver]] · [[kw-token-ash]] · [[kw-token-aether-ashwing]] · [[kw-token-gold]] · [[kw-token-ponder]] · [[kw-token-spellbane-aegis]] · [[kw-token-bloodrot-pox]] · [[kw-token-frailty]] · [[kw-token-inertia]] · [[kw-token-courage]] · [[kw-token-eloquence]] · [[kw-token-nasreth-the-soul-harrower]] · [[kw-token-hyper-driver]] · [[kw-token-might]] · [[kw-token-vigor]] · [[kw-token-agility]] · [[kw-token-cintari-sellsword]] · [[kw-token-graphene-chelicera]] · [[kw-token-fealty]] · [[kw-token-golden-cog]] · [[kw-token-goldkiss-rum]] · [[kw-token-bait]] · [[kw-token-confidence]] · [[kw-token-toughness]] · [[kw-token-sigil-of-fate]] · [[kw-token-lightning-flow]]
