@@ -1,7 +1,14 @@
 #!/usr/bin/env node
 /**
- * postinstall — make sure git submodules (notably third_party/fablore, the lore
- * source) are initialized and updated whenever the package is installed.
+ * postinstall — make sure ALL git submodules are initialized and updated to
+ * their pinned commits whenever the package is installed:
+ *   - third_party/fablore                  (lore source, legendarystories.net)
+ *   - third_party/flesh-and-blood-cards    (full card corpus; the card-vault
+ *     brain's card-* notes are generated from it — pinned commit matches them)
+ *
+ * Pinned on purpose (no --remote): a fresh clone reproduces exactly the corpus
+ * the committed knowledge was generated from. Freshness bumps are explicit:
+ * `git submodule update --remote <path>` + regenerate + commit.
  *
  * Best-effort: silently no-ops outside a git checkout (e.g. a plain global copy
  * with no .git), and never fails the install. The lore index is built lazily on
@@ -21,7 +28,7 @@ if (!existsSync(join(root, ".git")) && !existsSync(join(root, ".gitmodules"))) {
 
 try {
   execSync("git submodule update --init --recursive", { cwd: root, stdio: "ignore" });
-  console.log("[fab-cli] fablore submodule initialized/updated.");
+  console.log("[fab-cli] git submodules initialized/updated (fablore, flesh-and-blood-cards).");
 } catch {
   // No git, no network, or not a checkout — fine. Lore degrades gracefully.
 }
