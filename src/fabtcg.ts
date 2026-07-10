@@ -699,7 +699,7 @@ export async function fetchDecklistCards(decklistSlug: string): Promise<PlayerDe
   if (meta && formatMatch) meta.format = formatMatch[1].trim();
 
   // Parse card sections — each <ul class="cards-container"> preceded by an HTML comment label
-  const allComments = [...html.matchAll(/<!--\s*([^\n\-][^\-]*?)\s*-->/g)];
+  const allComments = [...html.matchAll(/<!--\s*([^\n-][^-]*?)\s*-->/g)];
   const containers = [...html.matchAll(/<ul class="cards-container">([\s\S]*?)<\/ul>/g)];
 
   const equipment: DeckCard[] = [];

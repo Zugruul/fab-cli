@@ -234,6 +234,12 @@ export interface DeckCard {
   cardData: CardData | null;
 }
 
+export interface DeckCardInventory {
+  cardIdentifier: string;
+  quantity: number;
+  have: number;
+}
+
 export interface DeckVersionInfo {
   cards: DeckCard[];
   inventoryCards: DeckCard[];

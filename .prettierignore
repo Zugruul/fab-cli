@@ -1,0 +1,17 @@
+# Vendored / generated / cache
+third_party/
+lore/
+node_modules/
+dist/
+
+# Pre-existing sources are not reformatted by this tooling-only PR.
+# Prettier is adopted for newly added code; legacy files are exempt until
+# a dedicated formatting pass is scheduled.
+src/
+scripts/
+docs/
+bin/
+.claude/
+*.md
+package.json
+tsconfig.json

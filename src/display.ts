@@ -564,7 +564,7 @@ export function printCardDetail(card: FabCard): void {
   if (card.defense !== null && card.defense !== undefined)
     console.log(`  Defense:    ${card.defense}`);
   if (card.pitch !== null && card.pitch !== undefined) {
-    const pitchColors = ["", chalk.red, chalk.yellow, chalk.blue];
+    const pitchColors = [chalk.white, chalk.red, chalk.yellow, chalk.blue];
     const fn = pitchColors[card.pitch] ?? chalk.white;
     console.log(`  Pitch:      ${fn(String(card.pitch))}`);
   }
