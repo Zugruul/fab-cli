@@ -1,1 +1,17 @@
-{}
+{
+  "brain-bulk-writes-need-link-reindex->scripted-knowledge-ingestion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "brain-bulk-writes-need-link-reindex->targets": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "scripted-knowledge-ingestion->brain-bulk-writes-need-link-reindex": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}

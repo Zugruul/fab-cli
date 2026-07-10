@@ -1,0 +1,113 @@
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-10T05:20:00Z'
+iteration:
+  task: setup-project + craft-spec + brain seeding (pre-loop session)
+  branch: main
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: friction
+  area: brains
+  severity: medium
+  summary: brain.sh mint only registers wikilinks present in the body at mint time;
+    the mint-then-append-body pattern and direct bulk note generation both leave links.json
+    stale, producing orphan notes in neural view
+  detail: Happened twice in one session (deepening batch, then glossary batch). Each
+    time required a hand-rolled python rebuild of links.json from note bodies (player
+    113->736 links, judge 707->1428). The failure is silent — notes look fine on disk,
+    only the visualization reveals the missing synapses.
+  generalized: The brain minting tool indexes note links only at creation time, so
+    any workflow that writes or extends note bodies after minting silently desynchronizes
+    the link index; the toolkit needs a reindex-links subcommand that rebuilds the
+    link index from note bodies.
+  proposal:
+    target: brain.py
+    change: add a reindex-links subcommand (scan notes for wikilinks, add missing
+      keys, never reset weights/fires)
+  routing:
+    action: upstream
+    ref: 'development-skills (brain.py: add reindex-links subcommand)'
+- category: friction
+  area: brains
+  severity: medium
+  summary: neural-view server repeatedly ended up as a stale zombie (no pidfile, once
+    from a worktree copy of the plugin) serving outdated brain data; required stop
+    --force each time
+  detail: 'Three restarts in one session: initial zombie predating the repo, then
+    stale data after bulk minting, then a zombie from a development worktree instance
+    holding the port. The viewer has no data-refresh path other than killing the server.'
+  generalized: The brain-visualization server neither hot-reloads note/link data nor
+    reliably tracks its own pid across plugin worktree copies; a data-reload endpoint
+    or mtime-based reload would remove the most common restart reason.
+  proposal:
+    target: neural-view.py
+    change: reload notes/links on file mtime change, or expose a /reload endpoint;
+      write the pidfile even when started from a worktree copy
+  routing:
+    action: upstream
+    ref: 'development-skills (neural-view.py: hot-reload data / pidfile from worktree
+      copies)'
+- category: incident
+  area: brains
+  severity: medium
+  summary: a single brain.sh mint call hung past a 2-minute shell timeout mid-batch,
+    killing the whole heredoc pipeline and leaving one note file missing while later
+    steps assumed it existed
+  detail: The subsequent link-rebuild step never ran, which recreated the orphan-notes
+    problem; recovery required checking which files existed and rewriting the missing
+    note by hand.
+  generalized: Batch scripts that chain many mint calls should timeout-guard each
+    call and verify the expected file exists afterward, because one hung mint otherwise
+    kills the whole batch silently.
+  routing:
+    action: brain-note
+    ref: orchestrator
+- category: friction
+  area: board
+  severity: low
+  summary: 'board.sh argument conventions are inconsistent and error messages do not
+    name the offending argument: prio requires an issue number (task ids rejected
+    with a generic message), and comment failed with ''Body cannot be blank'' despite
+    a non-empty body, requiring fallback to the gh CLI'
+  generalized: Board helper subcommands should accept task ids wherever issue numbers
+    are accepted (or say explicitly which form they want), and comment-posting should
+    be verified against a body actually reaching the API.
+  proposal:
+    target: board.sh
+    change: accept task-id or issue# uniformly; fix comment body passing
+  routing:
+    action: upstream
+    ref: 'development-skills (board.sh: uniform task-id/issue# args; fix comment body)'
+- category: worked-well
+  area: board
+  severity: low
+  summary: idempotent board seeding plus config-driven epic sequencing absorbed repeated
+    mid-flight scope pivots (epics reordered, priorities flipped, tasks retitled and
+    closed) with zero board surgery
+  detail: The user redefined scope several times during setup (research epic removed,
+    brains-first reordering, feature reshaped onto an existing command); re-running
+    the seeder and editing project.yaml epics was always sufficient, and next-task
+    picked the intended item immediately.
+  generalized: Treating the board as a projection of config plus an idempotent seeder
+    makes aggressive mid-setup scope changes cheap; this pattern held up under real
+    churn and is worth keeping as a design invariant.
+  routing:
+    action: brain-note
+    ref: orchestrator
+- category: worked-well
+  area: brains
+  severity: low
+  summary: bulk knowledge ingestion by parsing a canonical source document and generating
+    one note per defined term (keywords, glossary) produced complete, uniformly-cited
+    coverage far faster than hand-minting
+  generalized: When a source document enumerates its own concepts (keyword chapters,
+    glossaries), scripting note generation from the parsed document gives complete
+    uniformly-cited coverage cheaply — but must be paired with a link-index rebuild
+    since it bypasses the minting tool.
+  routing:
+    action: brain-note
+    ref: orchestrator
