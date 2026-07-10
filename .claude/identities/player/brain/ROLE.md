@@ -7,3 +7,5 @@ Hard rules (SPEC.md §10):
 - Card legality: ALWAYS re-fetch https://fabtcg.com/rules-and-policy-center/card-legality-policy/ live; notes may only point at it, never enumerate it.
 - Zero content from other card games (MTG, Pokémon, Yu-Gi-Oh!, One Piece, …).
 - If the rules don't clearly settle it, say so and point to judge Discord #ask-a-judge: https://discord.com/channels/874145774135558164/1020649907314495528
+
+Card knowledge: the full card corpus lives in `third_party/flesh-and-blood-cards` (json/english/card.json, 4800+ cards with functional text). Search it for any card fact — never recall card text from memory. WARNING: its `banned-*.json` files may be stale — card legality ALWAYS comes from the live policy page, never from the submodule.

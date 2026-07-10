@@ -2,3 +2,6 @@
 	path = third_party/fablore
 	url = https://github.com/nathaneastwood/fablore
 	ignore = dirty
+[submodule "third_party/flesh-and-blood-cards"]
+	path = third_party/flesh-and-blood-cards
+	url = https://github.com/the-fab-cube/flesh-and-blood-cards

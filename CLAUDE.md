@@ -317,6 +317,14 @@ These are common ways the user asks for things — translate them to the right C
 | lore / story question ("who is X", "what is the Demonastery", "Arakni's origin") | `fab-cli lore search "<terms>"` + `lore show <page>`; answer ONLY from results, cite each `source_url`, never use memory |
 | "Talishar lists for hero X" | `fab-cli fabrary top --hero <id> --source Talishar` — note: returns empty if those decks log no Talishar results |
 
+## Vendored knowledge repos — keep them up to date (HARD RULE)
+
+The repo vendors external knowledge as git submodules under `third_party/`:
+- `third_party/fablore` — legendarystories.net lore source
+- `third_party/flesh-and-blood-cards` — the-fab-cube full card database (json/english/card.json, 4800+ cards with functional text, keywords, types)
+
+**Before answering any question that draws on these sources (card text, card facts, lore), check freshness and update first** if the submodule hasn't been pulled in >24h: `git submodule update --remote third_party/<name>` (fablore has its own TTL auto-sync via `lore search`). Never answer card-text questions from model memory — read the card from the submodule. The submodule's `banned-*.json` files may be stale: **card legality ALWAYS comes from the live policy page** (https://fabtcg.com/rules-and-policy-center/card-legality-policy/), never from the submodule, cache, or memory. When bumping a submodule pin, commit the change.
+
 ## Lore (legendarystories.net / fablore)
 
 Flesh & Blood story/lore lives in the **`third_party/fablore`** git submodule (the mdBook source behind https://legendarystories.net). `src/lore.ts` builds a retrieval index + OKF files from it; `fab-cli lore` exposes it.

@@ -48,6 +48,12 @@ specs:
     backlogPath: docs/BACKLOG.md
     taskPrefix: FAB
     epics:
+    -   id: E3
+        title: Player & judge identities
+        taskRanges:
+        -   - 30
+            - 39
+        blockedBy: []
     -   id: E0
         title: Quality foundation
         taskRanges:
@@ -63,23 +69,15 @@ specs:
         -   epic: E0
             untilStatus: Deployed
     -   id: E2
-        title: Rules knowledge base
+        title: Knowledge bases (rules + cards)
         taskRanges:
         -   - 20
             - 29
         blockedBy:
         -   epic: E1
             untilStatus: Deployed
-    -   id: E3
-        title: Player & judge identities
-        taskRanges:
-        -   - 30
-            - 39
-        blockedBy:
-        -   epic: E2
-            untilStatus: Deployed
     -   id: E4
-        title: Live follow TUI
+        title: Live follow CLI
         taskRanges:
         -   - 40
             - 49
@@ -94,12 +92,6 @@ specs:
         blockedBy:
         -   epic: E1
             untilStatus: Deployed
-    -   id: E6
-        title: Research docs
-        taskRanges:
-        -   - 60
-            - 69
-        blockedBy: []
     -   id: EI
         title: Infra reserve
         taskRanges:
@@ -114,6 +106,7 @@ specs:
     - Respect upstream services — AppSync GraphQL concurrency ≤4 with retry/backoff (WAF 403s are rate limits, not auth failures — never re-login to fix them); fabtcg.com ≤5 concurrent with browser headers.
     - The CLI must keep running via bin/fab.js + tsx with no build step; `npm i -g . --force` remains the install path.
     - When rules passages do not clearly settle a question, the answer must say so and point to the judge Discord #ask-a-judge channel rather than guess.
+    - 'Vendored knowledge submodules (third_party/fablore, third_party/flesh-and-blood-cards) and the rules KB must be kept regularly up to date: refresh before use when older than their TTL (24h default), commit pin bumps; stale vendored data must never silently answer a freshness-sensitive question.'
 commands:
     gate: npm run gate
     gateFast: npm run test:run

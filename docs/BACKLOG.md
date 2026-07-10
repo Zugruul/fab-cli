@@ -1,6 +1,7 @@
 # fab-cli backlog — spec: SPEC.md (prefix FAB)
 
-Ranges: E0=001–009, E1=010–019, E2=020–029, E3=030–039, E4=040–049, E5=050–059, E6=060–069, infra=090–099.
+Ranges: E0=001–009, E1=010–019, E2=020–029, E3=030–039, E4=040–049, E5=050–059, infra=090–099.
+Build order (brains > cli tooling > cli features > others): E3 (brain seeding) FIRST and unblocked — then E0 → E1 → {E2, E4, E5}. Former E6 research tasks removed (SPEC §12: deferred decisions).
 Priority order P0 > P1 > P2. Points ≈ complexity incl. testing. DoD for every task: `npm run gate` green, README/CLAUDE.md updated if the command surface changed, spec §s satisfied.
 
 ## E0 — Quality foundation (001–009) — no guard
@@ -53,33 +54,41 @@ Retrieval-composed answer: top passages with citations, then always the escalati
 Discover per-set Rules Reprise + release-notes articles on fabtcg.com (WP API/article listing), ingest into the KB with citations and set association; they carry keyword/rule changes so supersession metadata matters.
 **AC:** `rules sync` picks up Rules Reprise articles (e.g. Omens of the Third Age); chunks cite article URLs; `rules search` surfaces them alongside CR/TRP/PPG hits.
 
+### FAB-025 · Vendor flesh-and-blood-cards submodule + `cards local` offline search · P1 · 5pt · §7.7 §5
+Add https://github.com/the-fab-cube/flesh-and-blood-cards as `third_party/flesh-and-blood-cards` (fablore vendoring pattern: postinstall init, on-demand update). `src/carddb.ts` + `fab-cli cards local <query>` searching name/text/type/class/pitch/keywords offline.
+**AC:** full-corpus search works offline; filters match online `cards search` flags where data supports them; submodule pin committed; fixture-tested parser over the submodule's JSON.
+
 ### FAB-023 · Card rulings in `cards show` (Card Vault) · P1 · 5pt · §7.6
 Fetch official rulings for the displayed card from cardvault.fabtcg.com; render dated rulings list; "no official rulings" when empty.
 **AC:** rulings shown with source URL; offline/fixture-tested parser; graceful fallback when card not found on Card Vault.
 
-## E3 — Player & judge identities (030–039) — blocked by E2
+## E3 — Player & judge identities (030–039) — FIRST, no guard
 
-### FAB-030 · Register advisory identities + ROLE.md protocols · P1 · 2pt · §8.1 §8.5 §10 I1 I2 I3 I7
+### FAB-030 · Register advisory identities + ROLE.md protocols · P0 · 2pt · §8.1 §8.5 §10 I1 I2 I3 I7
 `player` and `judge` in `.claude/project.yaml` delegation.identities (non-coding, no models needed for commits); brain scaffolds `.claude/identities/{player,judge}/brain/`; ROLE.md encoding: cite-or-silence, live legality re-fetch, no other TCGs, Discord escalation.
 **AC:** `board.sh config` still VALID; ROLE.md states all four invariants verbatim or stronger.
 
-### FAB-031 · Deep-research seed: player brain · P1 · 8pt · §8.2 §8.4
-Research over the synced KB (CR primary) + fabtcg.com gameplay pages: turn structure, pitch economy, combat chain, arsenal, first-turn rule, format landscape, hand-value fundamentals. Mint cited zettel notes; legality notes are pointers only.
+### FAB-031 · Deep-research seed: player brain · P0 · 8pt · §8.0 §8.2 §8.4
+Research over live official docs (CR primary, rules.fabtcg.com) + fabtcg.com gameplay pages + the vendored learn-to-play transcript: base gameplay loop (intellect/hand refill, pitch economy, action + go again, arsenal, combat chain + reaction windows, first-turn rule), format landscape, hand-value fundamentals. Mint cited zettel notes with [[synapse]] links; legality notes are pointers only.
 **AC:** every note cites document+section; zero other-TCG terminology; a spot-check question ("how does the reaction window work?") is answerable from notes' citations alone.
 
-### FAB-032 · Deep-research seed: judge brain · P1 · 8pt · §8.3 §8.4
-Same protocol over TRP + PPG + CR + Casual Procedure Guide: tournament conduct, penalty categories, procedures, common rulings.
+### FAB-032 · Deep-research seed: judge brain · P0 · 8pt · §8.0 §8.3 §8.4
+Same protocol over live TRP + PPG + CR + vendored Casual Procedure Guide: tournament conduct, penalty categories, procedures, common rulings.
 **AC:** as FAB-031; penalty knowledge cites PPG sections; casual-event procedure cites the vendored guide.
 
-## E4 — Live follow TUI (040–049) — blocked by E1
+### FAB-033 · Seed hard card-interaction memories (player + judge) · P1 · 5pt · §8.6 §8.4
+Using the vendored card DB (§7.7) + CR + Card Vault rulings: mint notes on specific hard card interactions — player notes on leveraging them, judge notes on ruling them — each citing card identifiers + sources. Ongoing capability; this task seeds the first comprehensive batch.
+**AC:** ≥20 interaction notes per brain, all cited; zero other-TCG content; [[links]] connect interactions to the base-mechanics notes.
 
-### FAB-040 · `fabtcg follow <event> <player>`: resolution + Ink dashboard render · P1 · 5pt · §9.1 §5
-Resolve player via existing search-player matching; Ink (React TUI) dashboard: header (event, player, per-format heroes), per-round table, current record, standing when available. Single-shot render first (no loop yet).
-**AC:** dashboard renders correctly from fixtures incl. dual-format events; unknown player → helpful candidates list.
+## E4 — Live follow CLI (040–049) — blocked by E1
 
-### FAB-041 · Live polling loop + in-place redraw · P1 · 5pt · §9.2 §9.3 §9.4
-`--interval` (default 60s) polling through the cached HTTP layer; Ink state-driven re-render; new-round highlight; final-standings detection ends the session; clean Ctrl-C.
-**AC:** unchanged poll causes no re-parse (cache hit tested); render updates in place; exits cleanly on final standings and on SIGINT.
+### FAB-040 · `fabtcg follow <event> <player>`: resolution + summary output · P1 · 5pt · §9.1 §5
+Resolve player via existing search-player matching; plain CLI summary (chalk/cli-table3): header (event, player, per-format heroes), per-round table, current record, standing when available. Single-shot output first (no loop yet).
+**AC:** summary renders correctly from fixtures incl. dual-format events; unknown player → helpful candidates list.
+
+### FAB-041 · Live polling loop + appended updates · P1 · 5pt · §9.2 §9.3 §9.4
+`--interval` (default 60s) polling through the cached HTTP layer; each new round/standing change printed as an appended timestamped line; final-standings detection ends the session; clean Ctrl-C.
+**AC:** unchanged poll causes no re-parse (cache hit tested) and prints nothing; new rounds print once each; exits cleanly on final standings and on SIGINT.
 
 ## E5 — Fabrary analysis (050–059) — blocked by E1
 
@@ -87,16 +96,5 @@ Resolve player via existing search-player matching; Ink (React TUI) dashboard: h
 Aggregate from top X decks with results: X-vs-Y win rate + games, and each deck's Y matchup guide (sideboard diff, turn order, notes), labeled per source deck.
 **AC:** output covers ≥ the data `deck --matchup` exposes today, aggregated across decks; heroes without data explain why; fixtures-tested.
 
-## E6 — Research docs (060–069) — no guard
-
-### FAB-060 · Design doc: web live-follow page · P2 · 3pt · §12.1
-Approach/stack for a dynamically updating browser page reusing the follow data layer. → `docs/design/live-follow-web.md`.
-**AC:** doc compares ≥2 approaches, recommends one, lists spec-delta requirements for a future epic.
-
-### FAB-061 · Design doc: AI opponent simulator · P2 · 5pt · §12.2 §3
-Survey hand-value/card-rate heuristics (incl. the Reddit thread in §3), matchup-value modeling, engine scope. → `docs/design/simulator.md`.
-**AC:** doc defines simulator MVP scope, heuristic candidates with sources, and what a future spec must decide.
-
-### FAB-062 · Design doc: Discord #ask-a-judge search · P2 · 2pt · §12.3
-API/auth/ToS options for searching the judge channel (e.g. two-card interaction lookups). → `docs/design/discord-judge-search.md`.
-**AC:** doc covers Discord API constraints, auth model, ToS risk, and a recommended path.
+## Former E6 — removed 2026-07-10
+Research docs (web live-follow page, AI simulator, Discord search) deleted from the board: SPEC §12 records them as deferred decisions to revisit once the CLI toolbox is done.
