@@ -86,6 +86,10 @@ Heroes have **young** (Blitz/SA) and **adult** (CC) versions with different slug
 ```bash
 fab-cli fabrary cards search "<text>" [flags]
 fab-cli fabrary cards show "<text>"    # full detail for first match
+fab-cli fabrary cards local <terms...> # OFFLINE search of the full vendored card DB (no auth): name+text by default;
+                                       # --exact "<Name>" (the card itself) vs --text "<phrase>" (cards mentioning it);
+                                       # --keyword, --pitch/--cost/--type filters, --full for raw JSON, --limit N.
+                                       # ALWAYS use this to confirm whether an unknown term is a card name.
 ```
 
 **Inline text filters** (appended to search string):

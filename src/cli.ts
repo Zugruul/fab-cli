@@ -436,6 +436,73 @@ const cardsCmd = fabrary
   .description("Search Flesh & Blood cards");
 
 cardsCmd
+  .command("local [terms...]")
+  .description(
+    "Offline card search over the vendored full card DB (third_party/flesh-and-blood-cards). No auth, no network.\n" +
+      "Searches name + functional text by default; all terms must match (case-insensitive).\n" +
+      "Examples:\n" +
+      "  fab-cli fabrary cards local haze bending\n" +
+      '  fab-cli fabrary cards local --text "spectral shield"     # cards MENTIONING it in text\n' +
+      '  fab-cli fabrary cards local --exact "Spectral Shield"    # the card itself\n' +
+      "  fab-cli fabrary cards local --keyword spectra --limit 50"
+  )
+  .option("--name", "match card names only")
+  .option("--text", "match functional text only")
+  .option("--keyword", "match card/granted keywords only")
+  .option("--exact <name>", "exact (case-insensitive) name match")
+  .option("--pitch <n>", "filter by pitch value")
+  .option("--cost <n>", "filter by cost")
+  .option("--type <type>", "filter by type/subtype/class (exact word, e.g. Aura, Ninja, Instant)")
+  .option("--full", "print full JSON record(s)")
+  .option("--limit <n>", "max results to show", "20")
+  .action((terms: string[] = [], opts) => {
+    const { searchLocalCards, CARD_DB_PATH } = require("./carddb") as typeof import("./carddb");
+    if (terms.length === 0 && !opts.exact) {
+      console.error(chalk.red("Provide search terms or --exact <name>."));
+      process.exitCode = 1;
+      return;
+    }
+    let results;
+    try {
+      results = searchLocalCards(terms, {
+        scope: opts.name ? "name" : opts.text ? "text" : opts.keyword ? "keyword" : "any",
+        exact: opts.exact,
+        pitch: opts.pitch,
+        cost: opts.cost,
+        type: opts.type,
+      });
+    } catch (e: any) {
+      console.error(chalk.red(e.message));
+      process.exitCode = 2;
+      return;
+    }
+    if (results.length === 0) {
+      console.log(
+        chalk.yellow(
+          "NO MATCH — try fewer/partial terms or --text; fall back to `fab-cli fabrary cards search` (live) or cardvault.fabtcg.com"
+        )
+      );
+      process.exitCode = 1;
+      return;
+    }
+    const limit = parseInt(opts.limit, 10) || 20;
+    console.log(chalk.dim(`${results.length} match(es) in ${CARD_DB_PATH}${results.length > limit ? ` (showing ${limit})` : ""}`));
+    for (const c of results.slice(0, limit)) {
+      if (opts.full) {
+        console.log(JSON.stringify(c, null, 2));
+        continue;
+      }
+      const stats = (["pitch", "cost", "power", "defense", "intelligence", "health"] as const)
+        .filter((k) => c[k] !== undefined && c[k] !== null && String(c[k]) !== "")
+        .map((k) => `${k} ${c[k]}`)
+        .join(" · ");
+      console.log(`\n${chalk.bold(c.name)}  ${chalk.cyan(`[${c.types.join(" ")}]`)}${stats ? chalk.dim("  " + stats) : ""}`);
+      const txt = (c.functional_text ?? "").replace(/\n+/g, " ").trim();
+      if (txt) console.log(`  ${txt.length > 300 ? txt.slice(0, 300) + "…" : txt}`);
+    }
+  });
+
+cardsCmd
   .command("search <text...>")
   .description(
     'Search cards by text. Supports inline filters: r:Rarity, t:Type, k:Keyword\n' +

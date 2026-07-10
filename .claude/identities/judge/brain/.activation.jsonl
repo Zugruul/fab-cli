@@ -1,0 +1,590 @@
+{"event": "seed", "note": "keywords-index", "activation": 1.2, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-1h", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-2h", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-action", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-add-defend", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-affliction", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-ally", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-ambush", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-amp", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-arcane-barrier", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-arcane-shelter", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-arrow", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-ash", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-attack", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-attack-reaction", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-attack-with", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-aura", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-awaken", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-banish", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-battleworn", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-beat-chest", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-become-copy", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-blade-break", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-block", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-blood-debt", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-bond", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-boost", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-channel", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-charge", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-clash", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-cloaked", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-combo", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-companion", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-construct", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-contract", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-crank", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-create-card", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-create-token", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-crush", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-deal-damage", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-decompose", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-defense-reaction", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-demi-hero", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-destroy", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-discard", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-distribute", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-dominate", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-draw", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-ephemeral", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-equip", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-equipment", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-essence", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-evo-upgrade", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-exchange", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-figment", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-flow", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-fragment", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-freeze", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-fusion", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-gain-asset", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-gain-control", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-galvanize", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-gets-is-non-numerical-property", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-gets-numerical-property", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-give", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-go-again", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-go-fish", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-guardwell", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-heave", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-heavy", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-hero", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-high-tide", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-ignore", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-instant", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-intimidate", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-invocation", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-item", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-landmark", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-legendary", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-look", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-lose-asset", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-loses-non-numerical-property", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-macro", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-mark", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-material", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-meld", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-mentor", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-mirage", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-modular", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-move-counter", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-name", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-negate", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-off-hand", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-opt", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-overpower", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-pairs-with-object", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-pay", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-perched", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-phantasm", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-piercing", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-pitch", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-protect", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-put-counter", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-put-return-object", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-quell", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-quickstrike", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-quiver", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-reload", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-remove-counter", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-repeat", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-reprise", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-reroll", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-resource", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-retrieve", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-return-to-the-brood", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-reveal", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-roll", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-rune-gate", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-rupture", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-scrap", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-search", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-sharpen", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-shuffle", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-solflare", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-specialization", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-spectra", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-spellvoid", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-starfall", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-steal", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-stealth", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-surge", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-suspense", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-tap", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-temper", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-the-crowd-cheers-the-crowd-boos", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-aether-ashwing", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-agility", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-ash", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-bait", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-blasmophet-the-soul-harvester", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-bloodrot-pox", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-cintari-sellsword", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-confidence", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-copper", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-courage", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-eloquence", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-embodiment-of-earth", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-embodiment-of-lightning", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-fealty", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-frailty", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-frostbite", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-gold", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-golden-cog", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-goldkiss-rum", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-graphene-chelicera", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-hyper-driver", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-inertia", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-lightning-flow", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-might", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-nasreth-the-soul-harrower", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-ponder", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-quicken", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-runechant", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-seismic-surge", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-sigil-of-fate", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-silver", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-soul-shackle", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-spectral-shield", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-spellbane-aegis", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-toughness", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-ursur-the-soul-reaper", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-vigor", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-token-zen-state", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-tower", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-transcend", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-transform", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-trap", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-turn", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-unfreeze", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-unity", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-universal", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-unlimited", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-untap", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-wager", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-ward", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-watery-grave", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "seed", "note": "kw-weapon", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "doc-map-cr", "activation": 0.3, "link": "keywords-index->doc-map-cr", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "effect-keyword-rulings", "activation": 0.3, "link": "keywords-index->effect-keyword-rulings", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keyword-interaction-rulings", "activation": 0.3, "link": "keywords-index->keyword-interaction-rulings", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-1h", "activation": 0.3, "link": "keywords-index->kw-1h", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-2h", "activation": 0.3, "link": "keywords-index->kw-2h", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-action", "activation": 0.3, "link": "keywords-index->kw-action", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-add-defend", "activation": 0.3, "link": "keywords-index->kw-add-defend", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-affliction", "activation": 0.3, "link": "keywords-index->kw-affliction", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ally", "activation": 0.3, "link": "keywords-index->kw-ally", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ambush", "activation": 0.3, "link": "keywords-index->kw-ambush", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-amp", "activation": 0.3, "link": "keywords-index->kw-amp", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-arcane-barrier", "activation": 0.3, "link": "keywords-index->kw-arcane-barrier", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-arcane-shelter", "activation": 0.3, "link": "keywords-index->kw-arcane-shelter", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-arrow", "activation": 0.3, "link": "keywords-index->kw-arrow", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ash", "activation": 0.3, "link": "keywords-index->kw-ash", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-attack", "activation": 0.3, "link": "keywords-index->kw-attack", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-attack-reaction", "activation": 0.3, "link": "keywords-index->kw-attack-reaction", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-attack-with", "activation": 0.3, "link": "keywords-index->kw-attack-with", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-aura", "activation": 0.3, "link": "keywords-index->kw-aura", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-awaken", "activation": 0.3, "link": "keywords-index->kw-awaken", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-banish", "activation": 0.3, "link": "keywords-index->kw-banish", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-battleworn", "activation": 0.3, "link": "keywords-index->kw-battleworn", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-beat-chest", "activation": 0.3, "link": "keywords-index->kw-beat-chest", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-become-copy", "activation": 0.3, "link": "keywords-index->kw-become-copy", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-blade-break", "activation": 0.3, "link": "keywords-index->kw-blade-break", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-block", "activation": 0.3, "link": "keywords-index->kw-block", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-blood-debt", "activation": 0.3, "link": "keywords-index->kw-blood-debt", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-bond", "activation": 0.3, "link": "keywords-index->kw-bond", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-boost", "activation": 0.3, "link": "keywords-index->kw-boost", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-channel", "activation": 0.3, "link": "keywords-index->kw-channel", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-charge", "activation": 0.3, "link": "keywords-index->kw-charge", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-clash", "activation": 0.3, "link": "keywords-index->kw-clash", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-cloaked", "activation": 0.3, "link": "keywords-index->kw-cloaked", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-combo", "activation": 0.3, "link": "keywords-index->kw-combo", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-companion", "activation": 0.3, "link": "keywords-index->kw-companion", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-construct", "activation": 0.3, "link": "keywords-index->kw-construct", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-contract", "activation": 0.3, "link": "keywords-index->kw-contract", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-crank", "activation": 0.3, "link": "keywords-index->kw-crank", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-create-card", "activation": 0.3, "link": "keywords-index->kw-create-card", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-create-token", "activation": 0.3, "link": "keywords-index->kw-create-token", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-crush", "activation": 0.3, "link": "keywords-index->kw-crush", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-deal-damage", "activation": 0.3, "link": "keywords-index->kw-deal-damage", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-decompose", "activation": 0.3, "link": "keywords-index->kw-decompose", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-defense-reaction", "activation": 0.3, "link": "keywords-index->kw-defense-reaction", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-demi-hero", "activation": 0.3, "link": "keywords-index->kw-demi-hero", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-destroy", "activation": 0.3, "link": "keywords-index->kw-destroy", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-discard", "activation": 0.3, "link": "keywords-index->kw-discard", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-distribute", "activation": 0.3, "link": "keywords-index->kw-distribute", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-dominate", "activation": 0.3, "link": "keywords-index->kw-dominate", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-draw", "activation": 0.3, "link": "keywords-index->kw-draw", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ephemeral", "activation": 0.3, "link": "keywords-index->kw-ephemeral", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-equip", "activation": 0.3, "link": "keywords-index->kw-equip", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-equipment", "activation": 0.3, "link": "keywords-index->kw-equipment", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-essence", "activation": 0.3, "link": "keywords-index->kw-essence", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-evo-upgrade", "activation": 0.3, "link": "keywords-index->kw-evo-upgrade", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-exchange", "activation": 0.3, "link": "keywords-index->kw-exchange", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-figment", "activation": 0.3, "link": "keywords-index->kw-figment", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-flow", "activation": 0.3, "link": "keywords-index->kw-flow", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-fragment", "activation": 0.3, "link": "keywords-index->kw-fragment", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-freeze", "activation": 0.3, "link": "keywords-index->kw-freeze", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-fusion", "activation": 0.3, "link": "keywords-index->kw-fusion", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-gain-asset", "activation": 0.3, "link": "keywords-index->kw-gain-asset", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-gain-control", "activation": 0.3, "link": "keywords-index->kw-gain-control", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-galvanize", "activation": 0.3, "link": "keywords-index->kw-galvanize", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-gets-is-non-numerical-property", "activation": 0.3, "link": "keywords-index->kw-gets-is-non-numerical-property", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-gets-numerical-property", "activation": 0.3, "link": "keywords-index->kw-gets-numerical-property", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-give", "activation": 0.3, "link": "keywords-index->kw-give", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-go-again", "activation": 0.3, "link": "keywords-index->kw-go-again", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-go-fish", "activation": 0.3, "link": "keywords-index->kw-go-fish", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-guardwell", "activation": 0.3, "link": "keywords-index->kw-guardwell", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-heave", "activation": 0.3, "link": "keywords-index->kw-heave", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-heavy", "activation": 0.3, "link": "keywords-index->kw-heavy", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-hero", "activation": 0.3, "link": "keywords-index->kw-hero", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-high-tide", "activation": 0.3, "link": "keywords-index->kw-high-tide", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ignore", "activation": 0.3, "link": "keywords-index->kw-ignore", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-instant", "activation": 0.3, "link": "keywords-index->kw-instant", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-intimidate", "activation": 0.3, "link": "keywords-index->kw-intimidate", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-invocation", "activation": 0.3, "link": "keywords-index->kw-invocation", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-item", "activation": 0.3, "link": "keywords-index->kw-item", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-landmark", "activation": 0.3, "link": "keywords-index->kw-landmark", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-legendary", "activation": 0.3, "link": "keywords-index->kw-legendary", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-look", "activation": 0.3, "link": "keywords-index->kw-look", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-lose-asset", "activation": 0.3, "link": "keywords-index->kw-lose-asset", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-loses-non-numerical-property", "activation": 0.3, "link": "keywords-index->kw-loses-non-numerical-property", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-macro", "activation": 0.3, "link": "keywords-index->kw-macro", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-mark", "activation": 0.3, "link": "keywords-index->kw-mark", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-material", "activation": 0.3, "link": "keywords-index->kw-material", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-meld", "activation": 0.3, "link": "keywords-index->kw-meld", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-mentor", "activation": 0.3, "link": "keywords-index->kw-mentor", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-mirage", "activation": 0.3, "link": "keywords-index->kw-mirage", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-modular", "activation": 0.3, "link": "keywords-index->kw-modular", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-move-counter", "activation": 0.3, "link": "keywords-index->kw-move-counter", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-name", "activation": 0.3, "link": "keywords-index->kw-name", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-negate", "activation": 0.3, "link": "keywords-index->kw-negate", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-off-hand", "activation": 0.3, "link": "keywords-index->kw-off-hand", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-opt", "activation": 0.3, "link": "keywords-index->kw-opt", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-overpower", "activation": 0.3, "link": "keywords-index->kw-overpower", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-pairs-with-object", "activation": 0.3, "link": "keywords-index->kw-pairs-with-object", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-pay", "activation": 0.3, "link": "keywords-index->kw-pay", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-perched", "activation": 0.3, "link": "keywords-index->kw-perched", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-phantasm", "activation": 0.3, "link": "keywords-index->kw-phantasm", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-piercing", "activation": 0.3, "link": "keywords-index->kw-piercing", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-pitch", "activation": 0.3, "link": "keywords-index->kw-pitch", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-protect", "activation": 0.3, "link": "keywords-index->kw-protect", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-put-counter", "activation": 0.3, "link": "keywords-index->kw-put-counter", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-put-return-object", "activation": 0.3, "link": "keywords-index->kw-put-return-object", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-quell", "activation": 0.3, "link": "keywords-index->kw-quell", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-quickstrike", "activation": 0.3, "link": "keywords-index->kw-quickstrike", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-quiver", "activation": 0.3, "link": "keywords-index->kw-quiver", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-reload", "activation": 0.3, "link": "keywords-index->kw-reload", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-remove-counter", "activation": 0.3, "link": "keywords-index->kw-remove-counter", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-repeat", "activation": 0.3, "link": "keywords-index->kw-repeat", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-reprise", "activation": 0.3, "link": "keywords-index->kw-reprise", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-reroll", "activation": 0.3, "link": "keywords-index->kw-reroll", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-resource", "activation": 0.3, "link": "keywords-index->kw-resource", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-retrieve", "activation": 0.3, "link": "keywords-index->kw-retrieve", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-return-to-the-brood", "activation": 0.3, "link": "keywords-index->kw-return-to-the-brood", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-reveal", "activation": 0.3, "link": "keywords-index->kw-reveal", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-roll", "activation": 0.3, "link": "keywords-index->kw-roll", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-rune-gate", "activation": 0.3, "link": "keywords-index->kw-rune-gate", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-rupture", "activation": 0.3, "link": "keywords-index->kw-rupture", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-scrap", "activation": 0.3, "link": "keywords-index->kw-scrap", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-search", "activation": 0.3, "link": "keywords-index->kw-search", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-sharpen", "activation": 0.3, "link": "keywords-index->kw-sharpen", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-shuffle", "activation": 0.3, "link": "keywords-index->kw-shuffle", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-solflare", "activation": 0.3, "link": "keywords-index->kw-solflare", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-specialization", "activation": 0.3, "link": "keywords-index->kw-specialization", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-spectra", "activation": 0.3, "link": "keywords-index->kw-spectra", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-spellvoid", "activation": 0.3, "link": "keywords-index->kw-spellvoid", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-starfall", "activation": 0.3, "link": "keywords-index->kw-starfall", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-steal", "activation": 0.3, "link": "keywords-index->kw-steal", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-stealth", "activation": 0.3, "link": "keywords-index->kw-stealth", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-surge", "activation": 0.3, "link": "keywords-index->kw-surge", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-suspense", "activation": 0.3, "link": "keywords-index->kw-suspense", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-tap", "activation": 0.3, "link": "keywords-index->kw-tap", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-temper", "activation": 0.3, "link": "keywords-index->kw-temper", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-the-crowd-cheers-the-crowd-boos", "activation": 0.3, "link": "keywords-index->kw-the-crowd-cheers-the-crowd-boos", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token", "activation": 0.3, "link": "keywords-index->kw-token", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-aether-ashwing", "activation": 0.3, "link": "keywords-index->kw-token-aether-ashwing", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-agility", "activation": 0.3, "link": "keywords-index->kw-token-agility", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-ash", "activation": 0.3, "link": "keywords-index->kw-token-ash", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-bait", "activation": 0.3, "link": "keywords-index->kw-token-bait", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-blasmophet-the-soul-harvester", "activation": 0.3, "link": "keywords-index->kw-token-blasmophet-the-soul-harvester", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-bloodrot-pox", "activation": 0.3, "link": "keywords-index->kw-token-bloodrot-pox", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-cintari-sellsword", "activation": 0.3, "link": "keywords-index->kw-token-cintari-sellsword", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-confidence", "activation": 0.3, "link": "keywords-index->kw-token-confidence", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-copper", "activation": 0.3, "link": "keywords-index->kw-token-copper", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-courage", "activation": 0.3, "link": "keywords-index->kw-token-courage", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-eloquence", "activation": 0.3, "link": "keywords-index->kw-token-eloquence", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-embodiment-of-earth", "activation": 0.3, "link": "keywords-index->kw-token-embodiment-of-earth", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-embodiment-of-lightning", "activation": 0.3, "link": "keywords-index->kw-token-embodiment-of-lightning", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-fealty", "activation": 0.3, "link": "keywords-index->kw-token-fealty", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-frailty", "activation": 0.3, "link": "keywords-index->kw-token-frailty", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-frostbite", "activation": 0.3, "link": "keywords-index->kw-token-frostbite", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-gold", "activation": 0.3, "link": "keywords-index->kw-token-gold", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-golden-cog", "activation": 0.3, "link": "keywords-index->kw-token-golden-cog", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-goldkiss-rum", "activation": 0.3, "link": "keywords-index->kw-token-goldkiss-rum", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-graphene-chelicera", "activation": 0.3, "link": "keywords-index->kw-token-graphene-chelicera", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-hyper-driver", "activation": 0.3, "link": "keywords-index->kw-token-hyper-driver", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-inertia", "activation": 0.3, "link": "keywords-index->kw-token-inertia", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-lightning-flow", "activation": 0.3, "link": "keywords-index->kw-token-lightning-flow", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-might", "activation": 0.3, "link": "keywords-index->kw-token-might", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-nasreth-the-soul-harrower", "activation": 0.3, "link": "keywords-index->kw-token-nasreth-the-soul-harrower", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-ponder", "activation": 0.3, "link": "keywords-index->kw-token-ponder", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-quicken", "activation": 0.3, "link": "keywords-index->kw-token-quicken", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-runechant", "activation": 0.3, "link": "keywords-index->kw-token-runechant", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-seismic-surge", "activation": 0.3, "link": "keywords-index->kw-token-seismic-surge", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-sigil-of-fate", "activation": 0.3, "link": "keywords-index->kw-token-sigil-of-fate", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-silver", "activation": 0.3, "link": "keywords-index->kw-token-silver", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-soul-shackle", "activation": 0.3, "link": "keywords-index->kw-token-soul-shackle", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-spectral-shield", "activation": 0.3, "link": "keywords-index->kw-token-spectral-shield", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-spellbane-aegis", "activation": 0.3, "link": "keywords-index->kw-token-spellbane-aegis", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-toughness", "activation": 0.3, "link": "keywords-index->kw-token-toughness", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-ursur-the-soul-reaper", "activation": 0.3, "link": "keywords-index->kw-token-ursur-the-soul-reaper", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-vigor", "activation": 0.3, "link": "keywords-index->kw-token-vigor", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-zen-state", "activation": 0.3, "link": "keywords-index->kw-token-zen-state", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-tower", "activation": 0.3, "link": "keywords-index->kw-tower", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-transcend", "activation": 0.3, "link": "keywords-index->kw-transcend", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-transform", "activation": 0.3, "link": "keywords-index->kw-transform", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-trap", "activation": 0.3, "link": "keywords-index->kw-trap", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-turn", "activation": 0.3, "link": "keywords-index->kw-turn", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-unfreeze", "activation": 0.3, "link": "keywords-index->kw-unfreeze", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-unity", "activation": 0.3, "link": "keywords-index->kw-unity", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-universal", "activation": 0.3, "link": "keywords-index->kw-universal", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-unlimited", "activation": 0.3, "link": "keywords-index->kw-unlimited", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-untap", "activation": 0.3, "link": "keywords-index->kw-untap", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-wager", "activation": 0.3, "link": "keywords-index->kw-wager", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ward", "activation": 0.3, "link": "keywords-index->kw-ward", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-watery-grave", "activation": 0.3, "link": "keywords-index->kw-watery-grave", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-weapon", "activation": 0.3, "link": "keywords-index->kw-weapon", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "rules-precedence", "activation": 0.3, "link": "keywords-index->rules-precedence", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-1h->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-2h->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-action->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-add-defend->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-affliction->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-ally->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-ambush->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-amp->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-arcane-barrier->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-arcane-shelter->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-arrow->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-ash->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-attack->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-attack-reaction->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-attack-with->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-aura->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-awaken->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-banish->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-battleworn->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-beat-chest->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-become-copy->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-blade-break->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-block->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-blood-debt->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-bond->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-boost->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-channel->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-charge->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-clash->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-cloaked->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-combo->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-companion->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-construct->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-contract->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-crank->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-create-card->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-create-token->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-crush->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-deal-damage->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-decompose->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-defense-reaction->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-demi-hero->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-destroy->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-discard->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-distribute->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-dominate->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-draw->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-ephemeral->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-equip->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-equipment->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-essence->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-evo-upgrade->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-exchange->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-figment->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-flow->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-fragment->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-freeze->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-fusion->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-gain-asset->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-gain-control->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-galvanize->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-gets-is-non-numerical-property->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-gets-numerical-property->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-give->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-go-again->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-go-fish->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-guardwell->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-heave->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-heavy->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-hero->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-high-tide->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-ignore->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-instant->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-intimidate->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-invocation->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-item->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-landmark->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-legendary->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-look->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-lose-asset->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-loses-non-numerical-property->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-macro->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-mark->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-material->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-meld->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-mentor->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-mirage->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-modular->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-move-counter->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-name->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-negate->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-off-hand->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-opt->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-overpower->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-pairs-with-object->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-pay->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-perched->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-phantasm->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-piercing->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-pitch->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-protect->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-put-counter->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-put-return-object->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-quell->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-quickstrike->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-quiver->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-reload->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-remove-counter->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-repeat->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-reprise->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-reroll->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-resource->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-retrieve->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-return-to-the-brood->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-reveal->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-roll->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-rune-gate->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-rupture->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-scrap->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-search->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-sharpen->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-shuffle->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-solflare->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-specialization->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-spectra->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-spellvoid->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-starfall->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-steal->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-stealth->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-surge->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-suspense->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-tap->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-temper->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-the-crowd-cheers-the-crowd-boos->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-aether-ashwing->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-agility->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-ash->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-bait->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-blasmophet-the-soul-harvester->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-bloodrot-pox->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-cintari-sellsword->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-confidence->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-copper->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-courage->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-eloquence->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-embodiment-of-earth->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-embodiment-of-lightning->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-fealty->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-frailty->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-frostbite->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-gold->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-golden-cog->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-goldkiss-rum->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-graphene-chelicera->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-hyper-driver->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-inertia->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-lightning-flow->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-might->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-nasreth-the-soul-harrower->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-ponder->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-quicken->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-runechant->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-seismic-surge->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-sigil-of-fate->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-silver->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-soul-shackle->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-spectral-shield->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-spellbane-aegis->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-toughness->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-ursur-the-soul-reaper->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-vigor->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-token-zen-state->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-tower->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-transcend->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-transform->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-trap->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-turn->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-unfreeze->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-unity->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-universal->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-unlimited->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-untap->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-wager->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-ward->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-watery-grave->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.275, "link": "kw-weapon->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "doc-map-ppg", "activation": 0.075, "link": "doc-map-cr->doc-map-ppg", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "doc-map-trp", "activation": 0.075, "link": "doc-map-cr->doc-map-trp", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "judge-brain-map", "activation": 0.075, "link": "doc-map-cr->judge-brain-map", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.075, "link": "doc-map-cr->keywords-index", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "events-multi-events-rulings", "activation": 0.075, "link": "effect-keyword-rulings->events-multi-events-rulings", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "keyword-interaction-rulings", "activation": 0.075, "link": "effect-keyword-rulings->keyword-interaction-rulings", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "replacement-and-prevention-ordering", "activation": 0.075, "link": "effect-keyword-rulings->replacement-and-prevention-ordering", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "abilities-functionality-rulings", "activation": 0.075, "link": "keyword-interaction-rulings->abilities-functionality-rulings", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "combat-step-rulings", "activation": 0.075, "link": "keyword-interaction-rulings->combat-step-rulings", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "continuous-effect-staging-detail", "activation": 0.075, "link": "keyword-interaction-rulings->continuous-effect-staging-detail", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "rules-precedence", "activation": 0.075, "link": "keyword-interaction-rulings->rules-precedence", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "judge-brain-map", "activation": 0.075, "link": "rules-precedence->judge-brain-map", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "hop", "note": "layers-and-continuous-effect-staging", "activation": 0.075, "link": "rules-precedence->layers-and-continuous-effect-staging", "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "keywords-index", "activation": 1.2, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-1h", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-2h", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-action", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-add-defend", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-affliction", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-ally", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-ambush", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-amp", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-arcane-barrier", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-arcane-shelter", "activation": 1.1, "ts": "2026-07-10T06:13:40+00:00", "role": "judge"}
