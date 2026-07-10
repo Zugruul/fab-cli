@@ -21,3 +21,10 @@ Cluster entry points:
 - Penalties (PPG): [[ppg-philosophy]], [[penalty-severity-ladder]], [[fixing-game-states]], [[gameplay-infractions-overview]], [[tournament-infractions-overview]], [[conduct-infractions-overview]].
 - Casual REL: [[casual-rel-procedures]].
 - Live/external: [[card-legality-live-fetch]], [[card-text-from-json]], [[escalation-ask-a-judge]], [[players-recognize-not-shark]].
+
+## Deep-coverage clusters (full CR/TRP/PPG walk, 2026-07-10)
+- CR adjudication: [[rules-precedence]], [[last-known-information]], [[abilities-functionality-rulings]], [[effects-grammar-rulings]], [[events-multi-events-rulings]], [[game-state-actions-and-reversal]], [[costs-and-payment-rulings]], [[properties-base-vs-modified-rulings]], [[zone-move-and-reset-rulings]], [[start-and-end-of-game-rulings]], [[play-process-and-resolution-rulings]], [[attack-proxies-and-rulings]], [[combat-step-rulings]]
+- Effects engine: [[continuous-effect-staging-detail]], [[replacement-and-prevention-ordering]], [[trigger-taxonomy-rulings]]
+- Keywords: [[keywords-index]], [[keyword-interaction-rulings]], [[effect-keyword-rulings]], [[double-faced-split-rulings]]
+- TRP deep: [[tournament-materials-cards]], [[proxies-placeholders-tokens]], [[counters-markers-dice-sleeves]], [[limited-product-handling]], [[gameplay-logistics-rulings]], [[conduct-bribery-wagering-stalling]], [[constructed-format-specs]], [[limited-format-procedures]], [[team-and-upf-formats]]
+- PPG catalogs (defaults + up/downgrades): [[gameplay-infractions-detail]], [[tournament-infractions-detail]], [[conduct-infractions-detail]]

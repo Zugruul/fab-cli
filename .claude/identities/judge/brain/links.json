@@ -1,4 +1,24 @@
 {
+  "abilities-functionality-rulings->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "abilities-functionality-rulings->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "attack-proxies-and-rulings->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "attack-proxies-and-rulings->last-known-information": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "card-legality-live-fetch->card-text-from-json": {
     "fires": 0,
     "last": null,
@@ -84,6 +104,71 @@
     "last": null,
     "weight": 0.5
   },
+  "combat-step-rulings->attack-proxies-and-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-step-rulings->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-step-rulings->game-state-actions-and-reversal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-step-rulings->last-known-information": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-bribery-wagering-stalling->cheating-vs-error": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-bribery-wagering-stalling->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-bribery-wagering-stalling->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-bribery-wagering-stalling->slow-play-vs-stalling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-detail->cheating-vs-error": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-detail->conduct-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-detail->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-detail->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "conduct-infractions-detail->players-recognize-not-shark": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "conduct-infractions-overview->cheating-vs-error": {
     "fires": 0,
     "last": null,
@@ -120,6 +205,66 @@
     "weight": 0.5
   },
   "conduct-infractions-overview->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "constructed-format-specs->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "constructed-format-specs->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "constructed-format-specs->decklists-registration": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "constructed-format-specs->official-formats": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "continuous-effect-staging-detail->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "continuous-effect-staging-detail->properties-base-vs-modified-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "continuous-effect-staging-detail->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "costs-and-payment-rulings->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "costs-and-payment-rulings->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "counters-markers-dice-sleeves->note-taking-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "counters-markers-dice-sleeves->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "counters-markers-dice-sleeves->tournament-materials-cards": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -174,6 +319,21 @@
     "last": null,
     "weight": 0.5
   },
+  "double-faced-split-rulings->card-legality-live-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "double-faced-split-rulings->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "double-faced-split-rulings->zone-move-and-reset-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "draws-and-concessions->conduct-infractions-overview": {
     "fires": 0,
     "last": null,
@@ -195,6 +355,31 @@
     "weight": 0.5
   },
   "dropping-from-tournament->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keyword-rulings->events-multi-events-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keyword-rulings->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keyword-rulings->replacement-and-prevention-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effects-grammar-rulings->abilities-functionality-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effects-grammar-rulings->fixing-game-states": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -254,6 +439,16 @@
     "last": null,
     "weight": 0.5
   },
+  "events-multi-events-rulings->cheating-vs-error": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "events-multi-events-rulings->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "fixing-game-states->game-state-actions-and-death": {
     "fires": 0,
     "last": null,
@@ -309,6 +504,46 @@
     "last": null,
     "weight": 0.5
   },
+  "game-state-actions-and-reversal->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-state-actions-and-reversal->game-state-actions-and-death": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-state-actions-and-reversal->priority-and-the-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-detail->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-detail->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-detail->missed-trigger-timing-windows": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-detail->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-infractions-detail->rules-sharking-and-fraud": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "gameplay-infractions-overview->fixing-game-states": {
     "fires": 0,
     "last": null,
@@ -330,6 +565,26 @@
     "weight": 0.5
   },
   "gameplay-infractions-overview->tournament-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-logistics-rulings->counters-markers-dice-sleeves": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-logistics-rulings->handling-an-infraction-workflow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-logistics-rulings->note-taking-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gameplay-logistics-rulings->shortcuts-and-out-of-order-play": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -519,7 +774,82 @@
     "last": null,
     "weight": 0.5
   },
+  "keyword-interaction-rulings->abilities-functionality-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "keyword-interaction-rulings->combat-step-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "keyword-interaction-rulings->continuous-effect-staging-detail": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "keyword-interaction-rulings->rules-precedence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "keywords-index->effect-keyword-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "keywords-index->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "keywords-index->rules-precedence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "last-known-information->fixing-game-states": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "last-known-information->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "layers-and-continuous-effect-staging->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-format-procedures->constructed-format-specs": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-format-procedures->decklists-registration": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-format-procedures->limited-product-handling": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-product-handling->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-product-handling->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-product-handling->proxies-placeholders-tokens": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -570,6 +900,21 @@
     "weight": 0.5
   },
   "penalty-severity-ladder->ppg-philosophy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "play-process-and-resolution-rulings->abilities-functionality-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "play-process-and-resolution-rulings->costs-and-payment-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "play-process-and-resolution-rulings->game-state-actions-and-reversal": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -639,6 +984,46 @@
     "last": null,
     "weight": 0.5
   },
+  "properties-base-vs-modified-rulings->game-state-actions-and-reversal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "properties-base-vs-modified-rulings->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "properties-base-vs-modified-rulings->rules-precedence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "proxies-placeholders-tokens->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "proxies-placeholders-tokens->tournament-materials-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "replacement-and-prevention-ordering->continuous-effect-staging-detail": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "replacement-and-prevention-ordering->replacement-effect-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "replacement-and-prevention-ordering->triggered-effects-and-ordering": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "replacement-effect-ordering->layers-and-continuous-effect-staging": {
     "fires": 0,
     "last": null,
@@ -660,6 +1045,16 @@
     "weight": 0.5
   },
   "round-structure-and-timing->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "rules-precedence->judge-brain-map": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "rules-precedence->layers-and-continuous-effect-staging": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -714,12 +1109,72 @@
     "last": null,
     "weight": 0.5
   },
+  "start-and-end-of-game-rulings->draws-and-concessions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "start-and-end-of-game-rulings->end-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "start-and-end-of-game-rulings->gameplay-infractions-overview": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "start-and-end-of-game-rulings->start-of-game-procedure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "start-of-game-procedure->gameplay-infractions-overview": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "start-of-game-procedure->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "team-and-upf-formats->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "team-and-upf-formats->limited-format-procedures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "team-and-upf-formats->official-formats": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-detail->gameplay-infractions-detail": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-detail->note-taking-rules": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-detail->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-detail->shuffling-and-marked-cards": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-infractions-detail->tournament-infractions-overview": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -754,6 +1209,21 @@
     "last": null,
     "weight": 0.5
   },
+  "tournament-materials-cards->deck-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-materials-cards->event-tiers-and-rels": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tournament-materials-cards->proxies-placeholders-tokens": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "tournament-roles->event-tiers-and-rels": {
     "fires": 0,
     "last": null,
@@ -765,6 +1235,26 @@
     "weight": 0.5
   },
   "tournament-roles->judge-calls-and-appeals": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "trigger-taxonomy-rulings->abilities-functionality-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "trigger-taxonomy-rulings->layers-and-continuous-effect-staging": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "trigger-taxonomy-rulings->missed-trigger-timing-windows": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "trigger-taxonomy-rulings->triggered-effects-and-ordering": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -795,6 +1285,16 @@
     "weight": 0.5
   },
   "upgrade-downgrade-philosophy->penalty-severity-ladder": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "zone-move-and-reset-rulings->game-state-actions-and-reversal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "zone-move-and-reset-rulings->last-known-information": {
     "fires": 0,
     "last": null,
     "weight": 0.5

@@ -1,1 +1,567 @@
-{}
+{
+  "abilities-and-functionality->card-anatomy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "abilities-and-functionality->defending-from-hand": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "abilities-and-functionality->layers-and-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ability-keywords-complete->keyword-dominate-overpower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ability-keywords-complete->keyword-equipment-wear": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ability-keywords-complete->keyword-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ability-keywords-complete->prevention-and-damage-shields": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "activated-abilities-and-attack-counts->attack-proxies-and-sources": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "activated-abilities-and-attack-counts->playing-a-card-nine-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "activated-abilities-and-attack-counts->weapon-attacks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "attack-proxies-and-sources->combat-chain-and-chain-links": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "attack-proxies-and-sources->last-known-information": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "attack-proxies-and-sources->weapon-attacks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-steps-precise->attack-and-defense-reactions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-steps-precise->chain-link-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-steps-precise->combat-chain-and-chain-links": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "combat-steps-precise->layer-resolution-order": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "continuous-effects-and-durations->effects-optional-conditional-targeted": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "continuous-effects-and-durations->pitch-values-and-color": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "continuous-effects-and-durations->tempo-and-go-again-chains": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "defending-rules-detail->block-vs-take-tradeoff": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "defending-rules-detail->combat-steps-precise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "defending-rules-detail->defending-from-hand": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "double-faced-split-and-marked->ability-keywords-complete": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "double-faced-split-and-marked->card-legality-pointer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "double-faced-split-and-marked->hit-events-and-what-counts": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "double-faced-split-and-marked->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keywords-complete->events-and-multi-events": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keywords-complete->prevention-and-damage-shields": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keywords-complete->second-cycle-awareness": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effect-keywords-complete->triggers-and-limits": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effects-optional-conditional-targeted->abilities-and-functionality": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "effects-optional-conditional-targeted->layers-and-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-turn-procedure-order->arsenal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-turn-procedure-order->first-turn-rule": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-turn-procedure-order->intellect-and-hand-refill": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-turn-procedure-order->pitch-curve-planning": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "end-of-turn-procedure-order->second-cycle-awareness": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "events-and-multi-events->effects-optional-conditional-targeted": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "events-and-multi-events->second-cycle-awareness": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->card-legality-pointer": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->format-blitz": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->format-classic-constructed": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->format-living-legend": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->format-silver-age": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->game-start-and-inventory": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->kw-legendary": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->kw-unlimited": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "format-construction-specs->names-monikers-classes-talents": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-start-and-inventory->first-turn-rule": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-start-and-inventory->hand-value-card-advantage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-start-and-inventory->intellect-and-hand-refill": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "game-start-and-inventory->turn-structure-phases": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "hit-events-and-what-counts->card-corpus-and-search": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "hit-events-and-what-counts->hit-determination-and-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "hit-events-and-what-counts->keyword-dominate-overpower": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "hit-events-and-what-counts->prevention-and-damage-shields": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "label-keywords-complete->ability-keywords-complete": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "label-keywords-complete->pitch-values-and-color": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "label-keywords-complete->tempo-and-go-again-chains": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "last-known-information->attack-proxies-and-sources": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "last-known-information->chain-closing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "last-known-information->hit-determination-and-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layer-resolution-order->attack-and-defense-reactions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layer-resolution-order->last-known-information": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layer-resolution-order->layers-and-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layers-and-stack->abilities-and-functionality": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layers-and-stack->attack-and-defense-reactions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layers-and-stack->priority-and-passing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-and-upf-specs->format-construction-specs": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-and-upf-specs->format-limited-draft-sealed": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "limited-and-upf-specs->format-ultimate-pit-fight": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "names-monikers-classes-talents->classes-and-talents": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "names-monikers-classes-talents->format-classic-constructed": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "numbers-x-and-symbols->card-anatomy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "numbers-x-and-symbols->pitching-mechanics-precise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-properties-and-base-values->card-anatomy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-properties-and-base-values->card-corpus-and-search": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-properties-and-base-values->effects-optional-conditional-targeted": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-properties-and-base-values->numbers-x-and-symbols": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-resets-and-zone-moves->attack-and-defense-reactions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-resets-and-zone-moves->last-known-information": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "object-resets-and-zone-moves->zones-and-visibility": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "pitching-mechanics-precise->events-and-multi-events": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "pitching-mechanics-precise->pitch-curve-planning": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "pitching-mechanics-precise->resource-cost-and-pitching": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "playing-a-card-nine-steps->abilities-and-functionality": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "playing-a-card-nine-steps->pitching-mechanics-precise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "playing-a-card-nine-steps->priority-and-passing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "prevention-and-damage-shields->block-vs-take-tradeoff": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "prevention-and-damage-shields->hit-determination-and-damage": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "prevention-and-damage-shields->keyword-damage-prevention": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "priority-and-passing->action-points-and-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "priority-and-passing->layers-and-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "priority-and-passing->turn-structure-phases": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "rules-precedence->action-points-and-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "rules-precedence->player-brain-map": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "static-ability-flavors->abilities-and-functionality": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "static-ability-flavors->arsenal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "static-ability-flavors->playing-a-card-nine-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "subtype-keywords-complete->names-monikers-classes-talents": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "subtype-keywords-complete->zones-and-visibility": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "triggers-and-limits->events-and-multi-events": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "triggers-and-limits->layer-resolution-order": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "triggers-and-limits->priority-and-passing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "type-keywords-complete->abilities-and-functionality": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "type-keywords-complete->attack-and-defense-reactions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "type-keywords-complete->card-anatomy": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "winning-losing-drawing->block-vs-take-tradeoff": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "winning-losing-drawing->objective-and-life": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "zones-and-visibility->arsenal": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "zones-and-visibility->object-resets-and-zone-moves": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "zones-and-visibility->second-cycle-awareness": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}

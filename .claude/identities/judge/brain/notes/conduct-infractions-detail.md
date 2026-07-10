@@ -1,0 +1,10 @@
+---
+tags: [ppg, infractions, conduct]
+paths: []
+strength: 1
+source: "https://rules.fabtcg.com/txt/latest/en-fab-ppg.txt (PPG 4)"
+graduated: false
+created: 2026-07-10
+---
+
+Full conduct infraction catalog (PPG 4, deepens [[conduct-infractions-overview]]; conduct covers intentional AND unintentional behavior): UNSPORTING MINOR (4.1.1, Warning): offensive language, kicked chair, ignoring official instructions, demanding the Head Judge pre-ruling; repeats → IP2 → Game Loss. UNSPORTING MAJOR (4.1.2, DQ): harassment, hate remarks, malicious photos, feeling-unsafe behavior — deescalate first, then DQ. CHEATING (4.2, DQ): requires BOTH intent to gain advantage AND awareness it's prohibited — missing either condition reroutes to another infraction; includes staying silent about an opponent's rule-break to profit. AGGRESSIVE BEHAVIOR (4.3, DQ): threats, thrown property, intimidating a judge — safety first, venue removal. IMPROPERLY DETERMINING A WINNER (4.4, Game Loss): coin flips, "highest life wins" pacts; post-result → Game Loss NEXT round; both agreed → double. BRIBERY (4.5, DQ; ignorance → Game Loss): incentives for concessions incl. future-concession trades. BETTING (4.6, DQ; ignorance → Game Loss): includes spectators, non-monetary counts. THEFT (4.7, DQ; returned + miscommunication → Warning possible). STALLING (4.8, DQ): intentional clock abuse — differs from Slow Play purely by intent. IMPROPER CONCESSION (4.9, Game Loss; ignorance → Warning; repeat asking → DQ): asking/pressuring for concessions, or conceding after time is called once you've taken an action; players CAN freely concede until time is called. RULES SHARKING (4.10, Warning; speculative → Caution; pattern → Game Loss): engineering opponent infractions/missed windows ("no blocks no reactions" rushing, baiting early pitch-bottoming); pedantic-but-honest play is NOT sharking; auto-response to a rushed double-priority-pass = window NOT missed (4.10 phil.). FRAUD (4.11, DQ): identity misrepresentation, ghost registrations; TO-approved substitutions exempt. Links: [[penalty-severity-ladder]], [[cheating-vs-error]], [[players-recognize-not-shark]], [[draws-and-concessions]].

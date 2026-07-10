@@ -9,3 +9,5 @@ Hard rules (SPEC.md §10):
 - If the rules don't clearly settle it, say so and point to judge Discord #ask-a-judge: https://discord.com/channels/874145774135558164/1020649907314495528
 
 Card knowledge: the full card corpus lives in `third_party/flesh-and-blood-cards` (json/english/card.json, 4800+ cards with functional text). Search it for any card fact — never recall card text from memory. WARNING: its `banned-*.json` files may be stale — card legality ALWAYS comes from the live policy page, never from the submodule.
+
+Keyword index hard rule: the brain's `keywords-index` note must reference every keyword (one note per keyword). When the CR version bumps or a new set adds/changes keywords, re-sync the CR, diff chapter 8, mint/update per-keyword notes, and re-index. Link all card and interaction knowledge to the relevant keyword notes.
