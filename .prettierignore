@@ -4,14 +4,26 @@ lore/
 node_modules/
 dist/
 
-# Pre-existing sources are not reformatted by this tooling-only PR.
-# Prettier is adopted for newly added code; legacy files are exempt until
-# a dedicated formatting pass is scheduled.
-src/
-scripts/
+# Docs / agent-state — not source code, not the concern of this AC.
 docs/
-bin/
 .claude/
 *.md
-package.json
-tsconfig.json
+
+# Pre-existing legacy files not yet reformatted (predate prettier adoption).
+# Listed individually — NOT as directory globs — so any new file added to
+# src/ or scripts/ is checked by `format:check` from day one. Reformat these
+# in a dedicated follow-up pass.
+scripts/best-decks-by-hero.ts
+scripts/postinstall.mjs
+src/algolia.ts
+src/carddb.ts
+src/cli.ts
+src/cognito.ts
+src/config.ts
+src/display.ts
+src/fabtcg.ts
+src/graphql.ts
+src/lore.ts
+src/meta.ts
+src/rulesDocs.ts
+src/stats.ts
