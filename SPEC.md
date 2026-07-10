@@ -100,6 +100,7 @@ Existing modules stay: `algolia.ts`, `graphql.ts`, `cognito.ts`, `config.ts`, `d
 - I5: Respect upstream services: AppSync GraphQL concurrency ≤4 with retry/backoff (WAF 403s are rate limits, not auth failures — never re-login to fix them); fabtcg.com ≤5 concurrent with browser headers.
 - I6: The CLI must keep running via `bin/fab.js` + tsx with no build step; `npm i -g . --force` remains the install path.
 - I7: When rules passages do not clearly settle a question, the answer must say so and point to the judge Discord #ask-a-judge channel rather than guess.
+- I9: Knowledge flows one way between the advisory brains: the JUDGE brain is the source of truth for rules/keyword knowledge; the player asks the judge when in doubt; the judge, when in doubt, consults the official documents (vendored artifacts; legality live) and updates its own notes; the player learns from judge answers and play experience; the judge NEVER learns from the player — player suggestions enter the judge brain only after confirmation against the real documents.
 - I8: Vendored knowledge submodules (third_party/fablore, third_party/flesh-and-blood-cards) and the rules KB must be kept regularly up to date: refresh before use when older than their TTL (24h default), and commit pin bumps. Stale vendored data must never silently answer a freshness-sensitive question.
 
 ## §11 Non-functional & testing strategy
