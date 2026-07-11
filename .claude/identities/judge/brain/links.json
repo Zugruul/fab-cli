@@ -74,6 +74,11 @@
     "last": null,
     "weight": 0.5
   },
+  "card-interaction-protocol->ix-command-and-conquer-x-uzuri-switchblade": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "card-interaction-protocol->ix-fleeing-starbreeze-x-gone-in-a-flash": {
     "fires": 0,
     "last": null,
