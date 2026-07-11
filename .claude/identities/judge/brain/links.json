@@ -74,6 +74,11 @@
     "last": null,
     "weight": 0.5
   },
+  "card-interaction-protocol->ix-fleeing-starbreeze-x-gone-in-a-flash": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "card-interaction-protocol->judge-brain-map": {
     "fires": 0,
     "last": null,
@@ -90,6 +95,11 @@
     "weight": 0.5
   },
   "card-interaction-protocol->kw-*": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->release-notes-<set>": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -4392,6 +4402,51 @@
   "head-judge-authority->tournament-roles": {
     "fires": 1,
     "last": "2026-07-11",
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->card-interaction-protocol": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-aura": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-instant": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-starfall": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-ward": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-omens-of-the-third-age": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-rosetta": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "judge-brain-map->abilities-functionality-rulings": {
