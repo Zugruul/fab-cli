@@ -6809,6 +6809,46 @@
     "last": null,
     "weight": 0.5
   },
+  "release-notes-arcane-rising->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->kw-arcane-barrier": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->kw-boost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->kw-opt": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->kw-reload": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->kw-specialization": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->kw-token-runechant": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-arcane-rising->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "release-notes-bright-lights->keyword-interaction-rulings": {
     "fires": 0,
     "last": null,
@@ -6939,6 +6979,61 @@
     "last": null,
     "weight": 0.5
   },
+  "release-notes-crucible-of-war->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-boost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-crush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-negate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-reload": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-reprise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-specialization": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->kw-temper": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-crucible-of-war->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "release-notes-dusk-till-dawn->keyword-interaction-rulings": {
     "fires": 0,
     "last": null,
@@ -7060,6 +7155,56 @@
     "weight": 0.5
   },
   "release-notes-dynasty->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-boost": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-heave": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-phantasm": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-spectra": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-token-seismic-surge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->kw-token-silver": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->release-notes-high-seas": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-everfest->release-notes-index": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -7214,7 +7359,52 @@
     "last": null,
     "weight": 0.5
   },
+  "release-notes-index->kw-arcane-barrier": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-combo": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-crush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-phantasm": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-reprise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->kw-specialization": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "release-notes-index->kw-spectra": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->release-notes-arcane-rising": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -7229,12 +7419,22 @@
     "last": null,
     "weight": 0.5
   },
+  "release-notes-index->release-notes-crucible-of-war": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "release-notes-index->release-notes-dusk-till-dawn": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "release-notes-index->release-notes-dynasty": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->release-notes-everfest": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -7250,6 +7450,11 @@
     "weight": 0.5
   },
   "release-notes-index->release-notes-mastery-pack-guardian-smash-palace": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->release-notes-monarch": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -7279,12 +7484,22 @@
     "last": null,
     "weight": 0.5
   },
+  "release-notes-index->release-notes-tales-of-aria": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "release-notes-index->release-notes-the-hunted": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "release-notes-index->release-notes-uprising": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-index->release-notes-welcome-to-rathe": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -7335,6 +7550,61 @@
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->kw-ally": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->kw-blood-debt": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->kw-mentor": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->kw-phantasm": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->kw-spectra": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->kw-spellvoid": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->release-notes-compendium-of-rathe": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->release-notes-dynasty": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->release-notes-high-seas": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-monarch->release-notes-index": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -7559,6 +7829,66 @@
     "last": null,
     "weight": 0.5
   },
+  "release-notes-tales-of-aria->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-arcane-barrier": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-blade-break": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-channel": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-essence": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-fusion": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-spellvoid": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->kw-token-frostbite": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-tales-of-aria->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "release-notes-the-hunted->keyword-interaction-rulings": {
     "fires": 0,
     "last": null,
@@ -7665,6 +7995,56 @@
     "weight": 0.5
   },
   "release-notes-uprising->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-battleworn": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-blade-break": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-combo": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-crush": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-dominate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-go-again": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-intimidate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->kw-reprise": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "release-notes-welcome-to-rathe->release-notes-index": {
     "fires": 0,
     "last": null,
     "weight": 0.5
