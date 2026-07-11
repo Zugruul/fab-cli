@@ -358,3 +358,95 @@ items:
   routing:
     action: brain-note
     ref: inject-protocol-refs-in-delegation
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-11T22:47:58Z'
+iteration:
+  task: ad-hoc
+  outcome: in-review
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: brains
+  component: neural-view
+  severity: low
+  summary: Letting a project's own knowledge-generator script declare a SCHEMA.json
+    consumed generically by shared plugin tooling scaled cleanly to a new UI feature
+  detail: 'A card-search brain needed rich faceted filtering (numeric comparators,
+    enum include/exclude, compound presets). Rather than hardcoding that domain''s
+    vocabulary into the shared neural-view viewer, the project''s own note-generator
+    script was extended to emit a small declarative SCHEMA.json (facets + optional
+    compound "shortcuts"), and the shared viewer was extended once, generically, to
+    read whatever schema a brain declares (GET /schema/<repo>/<role>, a `num` field
+    on /graph nodes) and render filter widgets from it. No project-specific code landed
+    in the shared plugin.
+
+    '
+  generalized: 'When a project-specific brain needs richer shared-tool support (filtering,
+    faceting, custom queries), prefer extending the shared tool to read an optional
+    project-declared schema/manifest file generically over hardcoding that project''s
+    vocabulary into the shared tool. Keeps the shared surface reusable across unrelated
+    projects'' brains with zero coupling.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator
+- category: incident
+  area: concurrency
+  component: neural-view
+  severity: medium
+  summary: Editing a shared plugin repo's main branch directly while that repo's own
+    autonomous build loop was concurrently pulling/rebasing/switching branches on
+    the same checkout caused uncommitted work to appear lost
+  detail: 'Several iterations of uncommitted UI work went missing from `git status`
+    after the concurrent loop did `pull --rebase` + `checkout` to a different branch
+    for an unrelated task. It was NOT actually destroyed — checking out back to main
+    and pulling brought every uncommitted change back intact — but diagnosing this
+    took real time and looked exactly like data loss (git status showed a fully clean
+    tree matching a stale branch). Separately, the same automated process''s stash-before-pull
+    hygiene bundled unrelated pre-existing dirty files (not mine) together with one
+    of my own edits into a single stash, which could have caused a confusing conflict
+    if popped carelessly.
+
+    '
+  generalized: 'Working directly on a repo''s main branch is risky when that SAME
+    clone also hosts an autonomous agent loop operating on it concurrently (branch
+    switches, rebases, stash-before-pull hygiene) — uncommitted diffs can transiently
+    vanish from view (recoverable, but alarming and slow to diagnose) and unrelated
+    dirty files can get bundled into the same stash. When editing a repo known to
+    run its own autonomous loop, commit each working increment immediately rather
+    than batching multiple iterations uncommitted, and verify `git branch --show-current`
+    before trusting a `git status`/`git diff` read as authoritative.
+
+    '
+  evidence: []
+  routing:
+    action: brain-note
+    ref: orchestrator
+- category: friction
+  area: other
+  severity: low
+  summary: A background/job session's shell working directory silently resets between
+    tool calls, making cross-repo git-state checks easy to misread as pointing at
+    the wrong repo
+  detail: 'Several `git status`/`git diff` checks were run assuming the shell''s cwd
+    persisted from a prior `cd`, but the cwd reset to the session''s primary repo
+    between Bash calls, briefly producing a false "everything is clean, your work
+    is gone" reading for a different repo entirely.
+
+    '
+  generalized: 'In an environment where a tool''s working directory can reset between
+    calls, always prefix repo-specific shell commands with an explicit `cd <path>
+    &&` (or pass an absolute path) rather than relying on a `cd` from a previous call
+    having persisted — especially before treating a `git status`/`git diff` result
+    as evidence of lost work.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator
