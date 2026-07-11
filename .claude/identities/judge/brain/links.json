@@ -59,6 +59,51 @@
     "last": null,
     "weight": 0.5
   },
+  "card-interaction-protocol->combat-chain-steps": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->combat-step-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->escalation-ask-a-judge": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->judge-brain-map": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->keywords-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->kw-*": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->release-notes-index": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "card-interaction-protocol->unknown-term-resolution-protocol": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "card-legality-live-fetch->card-text-from-json": {
     "fires": 0,
     "last": null,
@@ -115,33 +160,33 @@
     "weight": 0.5
   },
   "cheating-vs-error->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "cheating-vs-error->missed-trigger-timing-windows": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "cheating-vs-error->penalty-severity-ladder": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "cheating-vs-error->slow-play-vs-stalling": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "combat-chain-steps->priority-and-the-stack": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "combat-chain-steps->triggered-effects-and-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "combat-step-rulings->attack-proxies-and-rulings": {
@@ -210,43 +255,43 @@
     "weight": 0.5
   },
   "conduct-infractions-overview->cheating-vs-error": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->draws-and-concessions": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->gameplay-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->head-judge-authority": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->player-eligibility-and-identification": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->ppg-philosophy": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->slow-play-vs-stalling": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "conduct-infractions-overview->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "constructed-format-specs->card-legality-live-fetch": {
@@ -310,53 +355,53 @@
     "weight": 0.5
   },
   "deck-checks->decklists-registration": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "deck-checks->round-structure-and-timing": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "deck-checks->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "decklists-registration->deck-checks": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "decklists-registration->official-formats": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "decklists-registration->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "deviations->escalation-ask-a-judge": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "deviations->handling-an-infraction-workflow": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "deviations->head-judge-authority": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "deviations->ppg-philosophy": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "doc-map-cr->doc-map-ppg": {
@@ -440,18 +485,18 @@
     "weight": 0.5
   },
   "draws-and-concessions->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "draws-and-concessions->dropping-from-tournament": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "draws-and-concessions->end-of-game-procedure": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "dropping-from-tournament->draws-and-concessions": {
@@ -490,43 +535,43 @@
     "weight": 0.5
   },
   "end-of-game-procedure->draws-and-concessions": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "end-of-game-procedure->round-structure-and-timing": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "escalation-ask-a-judge->card-legality-live-fetch": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "escalation-ask-a-judge->card-text-from-json": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "escalation-ask-a-judge->deviations": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "escalation-ask-a-judge->head-judge-authority": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "escalation-ask-a-judge->judge-calls-and-appeals": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "escalation-ask-a-judge->ppg-philosophy": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "event-tiers-and-rels->casual-rel-procedures": {
@@ -555,18 +600,18 @@
     "weight": 0.5
   },
   "fixing-game-states->game-state-actions-and-death": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "fixing-game-states->gameplay-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "fixing-game-states->penalty-severity-ladder": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-base-loop->combat-chain-steps": {
@@ -580,13 +625,13 @@
     "weight": 0.5
   },
   "game-information-categories->judge-calls-and-appeals": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-information-categories->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-layout-rules->counters-markers-dice-sleeves": {
@@ -605,23 +650,23 @@
     "weight": 0.5
   },
   "game-state-actions-and-death->draws-and-concessions": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-state-actions-and-death->end-of-game-procedure": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-state-actions-and-death->fixing-game-states": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-state-actions-and-death->triggered-effects-and-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "game-state-actions-and-reversal->fixing-game-states": {
@@ -670,28 +715,28 @@
     "weight": 0.5
   },
   "gameplay-infractions-overview->fixing-game-states": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "gameplay-infractions-overview->missed-trigger-timing-windows": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "gameplay-infractions-overview->shuffling-and-marked-cards": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "gameplay-infractions-overview->start-of-game-procedure": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "gameplay-infractions-overview->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "gameplay-logistics-rulings->counters-markers-dice-sleeves": {
@@ -4305,1323 +4350,1323 @@
     "weight": 0.5
   },
   "handling-an-infraction-workflow->deviations": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "handling-an-infraction-workflow->fixing-game-states": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "handling-an-infraction-workflow->head-judge-authority": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "handling-an-infraction-workflow->ppg-philosophy": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "handling-an-infraction-workflow->round-structure-and-timing": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "head-judge-authority->deviations": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "head-judge-authority->escalation-ask-a-judge": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "head-judge-authority->judge-calls-and-appeals": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "head-judge-authority->tournament-roles": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->abilities-functionality-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->attack-proxies-and-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->card-legality-live-fetch": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->card-text-from-json": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->casual-rel-procedures": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->combat-chain-steps": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->combat-step-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->conduct-bribery-wagering-stalling": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->conduct-infractions-detail": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->constructed-format-specs": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->continuous-effect-staging-detail": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->costs-and-payment-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->counters-markers-dice-sleeves": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->double-faced-split-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->effect-keyword-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->effects-grammar-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->escalation-ask-a-judge": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->event-tiers-and-rels": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->events-multi-events-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->fixing-game-states": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->game-base-loop": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->game-information-categories": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->game-state-actions-and-death": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->game-state-actions-and-reversal": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->gameplay-infractions-detail": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->gameplay-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->gameplay-logistics-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->keywords-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->last-known-information": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->layers-and-continuous-effect-staging": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->limited-format-procedures": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->limited-product-handling": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->note-taking-rules": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->official-formats": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->penalty-severity-ladder": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->play-process-and-resolution-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->players-recognize-not-shark": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->ppg-philosophy": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->priority-and-the-stack": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->properties-base-vs-modified-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->proxies-placeholders-tokens": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->replacement-and-prevention-ordering": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->replacement-effect-ordering": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->round-structure-and-timing": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->rules-precedence": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->shortcuts-and-out-of-order-play": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->start-and-end-of-game-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->team-and-upf-formats": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->tournament-infractions-detail": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->tournament-materials-cards": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->tournament-roles": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->trigger-taxonomy-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->triggered-effects-and-ordering": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-brain-map->zone-move-and-reset-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-calls-and-appeals->game-information-categories": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-calls-and-appeals->head-judge-authority": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "judge-calls-and-appeals->tournament-roles": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keyword-interaction-rulings->abilities-functionality-rulings": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keyword-interaction-rulings->combat-step-rulings": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keyword-interaction-rulings->continuous-effect-staging-detail": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keyword-interaction-rulings->rules-precedence": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->doc-map-cr": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->effect-keyword-rulings": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->keyword-interaction-rulings": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-1h": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-2h": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-action": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-add-defend": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-affliction": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ally": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ambush": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-amp": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-arcane-barrier": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-arcane-shelter": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-arrow": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ash": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-attack": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-attack-reaction": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-attack-with": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-aura": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-awaken": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-banish": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-battleworn": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-beat-chest": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-become-copy": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-blade-break": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-block": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-blood-debt": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-bond": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-boost": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-channel": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-charge": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-clash": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-cloaked": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-combo": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-companion": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-construct": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-contract": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-crank": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-create-card": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-create-token": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-crush": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-deal-damage": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-decompose": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-defense-reaction": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-demi-hero": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-destroy": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-discard": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-distribute": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-dominate": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-draw": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ephemeral": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-equip": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-equipment": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-essence": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-evo-upgrade": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-exchange": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-figment": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-flow": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-fragment": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-freeze": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-fusion": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gain-asset": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gain-control": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-galvanize": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gets-is-non-numerical-property": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gets-numerical-property": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-give": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-go-again": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-go-fish": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-guardwell": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-heave": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-heavy": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-hero": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-high-tide": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ignore": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-instant": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-intimidate": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-invocation": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-item": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-landmark": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-legendary": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-look": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-lose-asset": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-loses-non-numerical-property": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-macro": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-mark": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-material": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-meld": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-mentor": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-mirage": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-modular": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-move-counter": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-name": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-negate": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-off-hand": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-opt": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-overpower": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-pairs-with-object": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-pay": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-perched": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-phantasm": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-piercing": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-pitch": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-protect": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-put-counter": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-put-return-object": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-quell": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-quickstrike": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-quiver": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reload": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-remove-counter": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-repeat": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reprise": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reroll": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-resource": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-retrieve": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-return-to-the-brood": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reveal": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-roll": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-rune-gate": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-rupture": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-scrap": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-search": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-sharpen": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-shuffle": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-solflare": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-specialization": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-spectra": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-spellvoid": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-starfall": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-steal": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-stealth": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-surge": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-suspense": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-tap": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-temper": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-the-crowd-cheers-the-crowd-boos": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-aether-ashwing": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-agility": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-ash": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-bait": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-blasmophet-the-soul-harvester": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-bloodrot-pox": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-cintari-sellsword": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-confidence": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-copper": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-courage": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-eloquence": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-embodiment-of-earth": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-embodiment-of-lightning": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-fealty": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-frailty": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-frostbite": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-gold": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-golden-cog": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-goldkiss-rum": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-graphene-chelicera": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-hyper-driver": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-inertia": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-lightning-flow": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-might": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-nasreth-the-soul-harrower": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-ponder": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-quicken": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-runechant": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-seismic-surge": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-sigil-of-fate": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-silver": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-soul-shackle": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-spectral-shield": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-spellbane-aegis": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-toughness": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-ursur-the-soul-reaper": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-vigor": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-zen-state": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-tower": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-transcend": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-transform": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-trap": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-turn": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-unfreeze": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-unity": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-universal": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-unlimited": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-untap": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-wager": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ward": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-watery-grave": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-weapon": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->rules-precedence": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 7,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-1h->keywords-index": {
@@ -5645,33 +5690,33 @@
     "weight": 0.5
   },
   "kw-affliction->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-ally->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-ambush->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-amp->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-arcane-barrier->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-arcane-shelter->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-arrow->keywords-index": {
@@ -5700,13 +5745,13 @@
     "weight": 0.5
   },
   "kw-aura->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 3,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-awaken->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-banish->keywords-index": {
@@ -5715,13 +5760,13 @@
     "weight": 0.5
   },
   "kw-battleworn->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-beat-chest->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-become-copy->keywords-index": {
@@ -5730,33 +5775,33 @@
     "weight": 0.5
   },
   "kw-blade-break->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-block->keywords-index": {
-    "fires": 3,
-    "last": "2026-07-10",
+    "fires": 5,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-blood-debt->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-bond->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-boost->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-channel->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-charge->keywords-index": {
@@ -5765,38 +5810,38 @@
     "weight": 0.5
   },
   "kw-clash->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-cloaked->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-combo->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-companion->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-construct->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-contract->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-crank->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-create-card->keywords-index": {
@@ -5810,8 +5855,8 @@
     "weight": 0.5
   },
   "kw-crush->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-deal-damage->keywords-index": {
@@ -5820,8 +5865,8 @@
     "weight": 0.5
   },
   "kw-decompose->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-defense-reaction->keywords-index": {
@@ -5830,8 +5875,8 @@
     "weight": 0.5
   },
   "kw-demi-hero->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-destroy->keywords-index": {
@@ -5850,8 +5895,8 @@
     "weight": 0.5
   },
   "kw-dominate->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-draw->keywords-index": {
@@ -5860,8 +5905,8 @@
     "weight": 0.5
   },
   "kw-ephemeral->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-equip->keywords-index": {
@@ -5875,13 +5920,13 @@
     "weight": 0.5
   },
   "kw-essence->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-evo-upgrade->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-exchange->keywords-index": {
@@ -5890,28 +5935,28 @@
     "weight": 0.5
   },
   "kw-figment->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-flow->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-fragment->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-freeze->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-fusion->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-gain-asset->keywords-index": {
@@ -5925,8 +5970,8 @@
     "weight": 0.5
   },
   "kw-galvanize->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-gets-is-non-numerical-property->keywords-index": {
@@ -5940,28 +5985,28 @@
     "weight": 0.5
   },
   "kw-give->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-go-again->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-go-fish->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-guardwell->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-heave->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-heavy->keywords-index": {
@@ -5975,8 +6020,8 @@
     "weight": 0.5
   },
   "kw-high-tide->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-ignore->keywords-index": {
@@ -5985,18 +6030,18 @@
     "weight": 0.5
   },
   "kw-instant->keywords-index": {
-    "fires": 4,
-    "last": "2026-07-10",
+    "fires": 5,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-intimidate->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-invocation->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-item->keywords-index": {
@@ -6030,38 +6075,38 @@
     "weight": 0.5
   },
   "kw-macro->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-mark->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-material->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-meld->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-mentor->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-mirage->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-modular->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-move-counter->keywords-index": {
@@ -6075,8 +6120,8 @@
     "weight": 0.5
   },
   "kw-negate->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-off-hand->keywords-index": {
@@ -6085,13 +6130,13 @@
     "weight": 0.5
   },
   "kw-opt->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-overpower->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-pairs-with-object->keywords-index": {
@@ -6105,18 +6150,18 @@
     "weight": 0.5
   },
   "kw-perched->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-phantasm->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-piercing->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-pitch->keywords-index": {
@@ -6125,8 +6170,8 @@
     "weight": 0.5
   },
   "kw-protect->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-put-counter->keywords-index": {
@@ -6140,23 +6185,23 @@
     "weight": 0.5
   },
   "kw-quell->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-quickstrike->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-quiver->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-reload->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-remove-counter->keywords-index": {
@@ -6170,8 +6215,8 @@
     "weight": 0.5
   },
   "kw-reprise->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-reroll->keywords-index": {
@@ -6185,13 +6230,13 @@
     "weight": 0.5
   },
   "kw-retrieve->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-return-to-the-brood->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-reveal->keywords-index": {
@@ -6205,18 +6250,18 @@
     "weight": 0.5
   },
   "kw-rune-gate->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-rupture->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-scrap->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-search->keywords-index": {
@@ -6225,8 +6270,8 @@
     "weight": 0.5
   },
   "kw-sharpen->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-shuffle->keywords-index": {
@@ -6235,63 +6280,63 @@
     "weight": 0.5
   },
   "kw-solflare->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-specialization->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-spectra->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-spellvoid->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-starfall->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-steal->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-stealth->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-surge->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-suspense->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-tap->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-temper->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-the-crowd-cheers-the-crowd-boos->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token->keywords-index": {
@@ -6310,8 +6355,8 @@
     "weight": 0.5
   },
   "kw-token-ash->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-bait->keywords-index": {
@@ -6325,8 +6370,8 @@
     "weight": 0.5
   },
   "kw-token-bloodrot-pox->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-cintari-sellsword->keywords-index": {
@@ -6335,8 +6380,8 @@
     "weight": 0.5
   },
   "kw-token-confidence->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-copper->keywords-index": {
@@ -6345,13 +6390,13 @@
     "weight": 0.5
   },
   "kw-token-courage->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-eloquence->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-embodiment-of-earth->keywords-index": {
@@ -6365,23 +6410,23 @@
     "weight": 0.5
   },
   "kw-token-fealty->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-frailty->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-frostbite->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-gold->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-golden-cog->keywords-index": {
@@ -6405,18 +6450,18 @@
     "weight": 0.5
   },
   "kw-token-inertia->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-lightning-flow->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-might->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-nasreth-the-soul-harrower->keywords-index": {
@@ -6435,13 +6480,13 @@
     "weight": 0.5
   },
   "kw-token-runechant->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-seismic-surge->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-sigil-of-fate->keywords-index": {
@@ -6450,8 +6495,8 @@
     "weight": 0.5
   },
   "kw-token-silver->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-soul-shackle->keywords-index": {
@@ -6460,8 +6505,8 @@
     "weight": 0.5
   },
   "kw-token-spectral-shield->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-spellbane-aegis->keywords-index": {
@@ -6470,8 +6515,8 @@
     "weight": 0.5
   },
   "kw-token-toughness->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-ursur-the-soul-reaper->keywords-index": {
@@ -6480,33 +6525,33 @@
     "weight": 0.5
   },
   "kw-token-vigor->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-token-zen-state->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-tower->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-transcend->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-transform->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-trap->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-turn->keywords-index": {
@@ -6520,38 +6565,38 @@
     "weight": 0.5
   },
   "kw-unity->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-universal->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-unlimited->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-untap->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-wager->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-ward->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 5,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-watery-grave->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-weapon->keywords-index": {
@@ -6560,28 +6605,28 @@
     "weight": 0.5
   },
   "last-known-information->fixing-game-states": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "last-known-information->triggered-effects-and-ordering": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "layers-and-continuous-effect-staging->priority-and-the-stack": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "layers-and-continuous-effect-staging->replacement-effect-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "layers-and-continuous-effect-staging->triggered-effects-and-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "limited-format-procedures->constructed-format-specs": {
@@ -6615,28 +6660,28 @@
     "weight": 0.5
   },
   "missed-trigger-timing-windows->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "missed-trigger-timing-windows->gameplay-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "missed-trigger-timing-windows->triggered-effects-and-ordering": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "note-taking-rules->game-information-categories": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "note-taking-rules->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "offensive-material-policy->conduct-bribery-wagering-stalling": {
@@ -6675,18 +6720,18 @@
     "weight": 0.5
   },
   "penalty-severity-ladder->fixing-game-states": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "penalty-severity-ladder->handling-an-infraction-workflow": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "penalty-severity-ladder->ppg-philosophy": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "play-process-and-resolution-rulings->abilities-functionality-rulings": {
@@ -6705,13 +6750,13 @@
     "weight": 0.5
   },
   "player-eligibility-and-identification->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "player-eligibility-and-identification->event-tiers-and-rels": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "players-recognize-not-shark->conduct-infractions-overview": {
@@ -6730,43 +6775,43 @@
     "weight": 0.5
   },
   "ppg-philosophy->casual-rel-procedures": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "ppg-philosophy->deviations": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "ppg-philosophy->fixing-game-states": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "ppg-philosophy->handling-an-infraction-workflow": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "ppg-philosophy->penalty-severity-ladder": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "priority-and-the-stack->combat-chain-steps": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "priority-and-the-stack->game-state-actions-and-death": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "priority-and-the-stack->triggered-effects-and-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "properties-base-vs-modified-rulings->game-state-actions-and-reversal": {
@@ -6810,1243 +6855,1243 @@
     "weight": 0.5
   },
   "release-notes-arcane-rising->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->kw-arcane-barrier": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->kw-boost": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->kw-opt": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->kw-reload": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->kw-specialization": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->kw-token-runechant": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-arcane-rising->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-ambush": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-battleworn": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-blade-break": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-block": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-boost": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-crank": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-evo-upgrade": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-galvanize": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-modular": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-protect": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-reprise": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-scrap": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-temper": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->kw-tower": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-bright-lights->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-bond": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-channel": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-decompose": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-intimidate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-sharpen": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-unity": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-wager": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->kw-ward": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-compendium-of-rathe->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-boost": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-crush": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-dominate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-intimidate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-negate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-reload": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-reprise": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-specialization": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->kw-temper": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-crucible-of-war->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-awaken": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-blood-debt": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-demi-hero": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-figment": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-mirage": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-rune-gate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-solflare": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-token-courage": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-token-eloquence": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-token-runechant": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->kw-unity": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dusk-till-dawn->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-construct": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-contract": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-ephemeral": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-material": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-overpower": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-piercing": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-surge": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-temper": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-token-runechant": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->kw-token-spectral-shield": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-dynasty->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-boost": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-heave": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-intimidate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-phantasm": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-spectra": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-token-seismic-surge": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->kw-token-silver": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->release-notes-high-seas": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-everfest->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-beat-chest": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-clash": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-guardwell": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-temper": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-token-gold": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-token-might": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-token-vigor": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-universal": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->kw-wager": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-heavy-hitters->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-companion": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-crank": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-give": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-go-fish": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-high-tide": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-macro": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-perched": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-spectra": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-steal": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-tap": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-token-gold": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-unlimited": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-untap": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->kw-watery-grave": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-high-seas->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->judge-brain-map": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->keywords-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-arcane-barrier": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-combo": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-crush": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-dominate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-intimidate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-phantasm": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-reprise": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-specialization": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->kw-spectra": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-arcane-rising": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-bright-lights": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-compendium-of-rathe": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-crucible-of-war": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-dusk-till-dawn": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-dynasty": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-everfest": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-heavy-hitters": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-high-seas": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-mastery-pack-guardian-smash-palace": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-monarch": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-omens-of-the-third-age": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-outsiders": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-part-the-mistveil": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-rosetta": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-super-slam": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-tales-of-aria": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-the-hunted": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-uprising": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->release-notes-welcome-to-rathe": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-index->rules-precedence": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-clash": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-crush": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-guardwell": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-heave": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-protect": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-token-seismic-surge": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->kw-wager": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-mastery-pack-guardian-smash-palace->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->kw-ally": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->kw-blood-debt": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->kw-mentor": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->kw-phantasm": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->kw-spectra": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->kw-spellvoid": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->release-notes-compendium-of-rathe": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->release-notes-dynasty": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->release-notes-high-seas": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-monarch->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-fragment": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-quickstrike": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-spellvoid": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-starfall": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-token-lightning-flow": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-ward": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->kw-quiver": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->kw-stealth": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->kw-token-bloodrot-pox": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->kw-token-frailty": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->kw-token-inertia": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->kw-trap": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-outsiders->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->kw-amp": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->kw-cloaked": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->kw-token-spectral-shield": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->kw-token-zen-state": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->kw-transcend": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->kw-ward": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-part-the-mistveil->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-amp": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-arcane-shelter": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-bond": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-decompose": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-macro": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-meld": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-negate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-token-frostbite": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-ward": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-rosetta->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-clash": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-suspense": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-the-crowd-cheers-the-crowd-boos": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-token-confidence": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-token-might": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-token-toughness": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->kw-token-vigor": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-super-slam->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-arcane-barrier": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-blade-break": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-channel": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-dominate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-essence": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-flow": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-fusion": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-go-again": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-spellvoid": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->kw-token-frostbite": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-tales-of-aria->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->kw-demi-hero": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->kw-mark": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->kw-retrieve": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->kw-return-to-the-brood": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->kw-token-fealty": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->kw-trap": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-the-hunted->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-affliction": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-freeze": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-fusion": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-invocation": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-material": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-phantasm": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-quell": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-rupture": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-token-ash": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-token-frostbite": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-transform": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->kw-ward": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-uprising->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->keyword-interaction-rulings": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-battleworn": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-blade-break": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-combo": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-crush": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-dominate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-go-again": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-intimidate": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->kw-reprise": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "release-notes-welcome-to-rathe->release-notes-index": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "replacement-and-prevention-ordering->continuous-effect-staging-detail": {
@@ -8065,13 +8110,13 @@
     "weight": 0.5
   },
   "replacement-effect-ordering->layers-and-continuous-effect-staging": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "replacement-effect-ordering->triggered-effects-and-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 2,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "reversing-actions-and-inventory->fixing-game-states": {
@@ -8095,28 +8140,28 @@
     "weight": 0.5
   },
   "round-structure-and-timing->deck-checks": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "round-structure-and-timing->end-of-game-procedure": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "round-structure-and-timing->event-tiers-and-rels": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "rules-precedence->judge-brain-map": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "rules-precedence->layers-and-continuous-effect-staging": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 4,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "set-specific-limited-rules->limited-format-procedures": {
@@ -8135,53 +8180,53 @@
     "weight": 0.5
   },
   "shortcuts-and-out-of-order-play->missed-trigger-timing-windows": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "shortcuts-and-out-of-order-play->priority-and-the-stack": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "shuffling-and-marked-cards->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "shuffling-and-marked-cards->deck-checks": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "shuffling-and-marked-cards->head-judge-authority": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "slow-play-vs-stalling->cheating-vs-error": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "slow-play-vs-stalling->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "slow-play-vs-stalling->round-structure-and-timing": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "slow-play-vs-stalling->start-of-game-procedure": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "slow-play-vs-stalling->tournament-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "start-and-end-of-game-rulings->draws-and-concessions": {
@@ -8205,13 +8250,13 @@
     "weight": 0.5
   },
   "start-of-game-procedure->gameplay-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "start-of-game-procedure->shuffling-and-marked-cards": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "staying-current-protocol->card-legality-live-fetch": {
@@ -8320,33 +8365,33 @@
     "weight": 0.5
   },
   "tournament-infractions-overview->conduct-infractions-overview": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "tournament-infractions-overview->deck-checks": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "tournament-infractions-overview->decklists-registration": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "tournament-infractions-overview->note-taking-rules": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "tournament-infractions-overview->shuffling-and-marked-cards": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "tournament-infractions-overview->slow-play-vs-stalling": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "tournament-materials-cards->deck-checks": {
@@ -8400,18 +8445,18 @@
     "weight": 0.5
   },
   "triggered-effects-and-ordering->game-state-actions-and-death": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 3,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "triggered-effects-and-ordering->missed-trigger-timing-windows": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 3,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "triggered-effects-and-ordering->replacement-effect-ordering": {
-    "fires": 1,
-    "last": "2026-07-10",
+    "fires": 3,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "unknown-term-resolution-protocol->card-anatomy-visual": {
@@ -8450,18 +8495,18 @@
     "weight": 0.5
   },
   "upgrade-downgrade-philosophy->deviations": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "upgrade-downgrade-philosophy->handling-an-infraction-workflow": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "upgrade-downgrade-philosophy->penalty-severity-ladder": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "zone-move-and-reset-rulings->game-state-actions-and-reversal": {
