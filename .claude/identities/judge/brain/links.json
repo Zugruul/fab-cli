@@ -4404,6 +4404,41 @@
     "last": "2026-07-11",
     "weight": 0.5
   },
+  "ix-command-and-conquer-x-uzuri-switchblade->card-interaction-protocol": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-command-and-conquer-x-uzuri-switchblade->keyword-interaction-rulings": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-command-and-conquer-x-uzuri-switchblade->kw-attack-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-command-and-conquer-x-uzuri-switchblade->kw-defense-reaction": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-command-and-conquer-x-uzuri-switchblade->kw-stealth": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-command-and-conquer-x-uzuri-switchblade->release-notes-arcane-rising": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "ix-command-and-conquer-x-uzuri-switchblade->release-notes-outsiders": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->card-interaction-protocol": {
     "fires": 0,
     "last": null,
@@ -4770,957 +4805,957 @@
     "weight": 0.5
   },
   "keywords-index->doc-map-cr": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->effect-keyword-rulings": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->keyword-interaction-rulings": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-1h": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-2h": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-action": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-add-defend": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-affliction": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ally": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ambush": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-amp": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-arcane-barrier": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-arcane-shelter": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-arrow": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ash": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-attack": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-attack-reaction": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-attack-with": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-aura": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-awaken": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-banish": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-battleworn": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-beat-chest": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-become-copy": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-blade-break": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-block": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-blood-debt": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-bond": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-boost": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-channel": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-charge": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-clash": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-cloaked": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-combo": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-companion": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-construct": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-contract": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-crank": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-create-card": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-create-token": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-crush": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-deal-damage": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-decompose": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-defense-reaction": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-demi-hero": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-destroy": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-discard": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-distribute": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-dominate": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-draw": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ephemeral": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-equip": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-equipment": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-essence": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-evo-upgrade": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-exchange": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-figment": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-flow": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-fragment": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-freeze": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-fusion": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gain-asset": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gain-control": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-galvanize": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gets-is-non-numerical-property": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-gets-numerical-property": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-give": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-go-again": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-go-fish": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-guardwell": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-heave": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-heavy": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-hero": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-high-tide": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ignore": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-instant": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-intimidate": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-invocation": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-item": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-landmark": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-legendary": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-look": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-lose-asset": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-loses-non-numerical-property": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-macro": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-mark": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-material": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-meld": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-mentor": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-mirage": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-modular": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-move-counter": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-name": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-negate": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-off-hand": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-opt": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-overpower": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-pairs-with-object": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-pay": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-perched": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-phantasm": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-piercing": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-pitch": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-protect": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-put-counter": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-put-return-object": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-quell": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-quickstrike": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-quiver": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reload": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-remove-counter": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-repeat": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reprise": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reroll": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-resource": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-retrieve": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-return-to-the-brood": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-reveal": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-roll": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-rune-gate": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-rupture": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-scrap": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-search": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-sharpen": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-shuffle": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-solflare": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-specialization": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-spectra": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-spellvoid": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-starfall": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-steal": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-stealth": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-surge": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-suspense": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-tap": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-temper": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-the-crowd-cheers-the-crowd-boos": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-aether-ashwing": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-agility": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-ash": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-bait": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-blasmophet-the-soul-harvester": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-bloodrot-pox": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-cintari-sellsword": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-confidence": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-copper": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-courage": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-eloquence": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-embodiment-of-earth": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-embodiment-of-lightning": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-fealty": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-frailty": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-frostbite": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-gold": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-golden-cog": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-goldkiss-rum": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-graphene-chelicera": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-hyper-driver": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-inertia": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-lightning-flow": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-might": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-nasreth-the-soul-harrower": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-ponder": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-quicken": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-runechant": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-seismic-surge": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-sigil-of-fate": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-silver": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-soul-shackle": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-spectral-shield": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-spellbane-aegis": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-toughness": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-ursur-the-soul-reaper": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-vigor": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-token-zen-state": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-tower": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-transcend": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-transform": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-trap": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-turn": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-unfreeze": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-unity": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-universal": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-unlimited": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-untap": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-wager": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-ward": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-watery-grave": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->kw-weapon": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
   "keywords-index->rules-precedence": {
-    "fires": 7,
+    "fires": 8,
     "last": "2026-07-11",
     "weight": 0.5
   },
@@ -5790,8 +5825,8 @@
     "weight": 0.5
   },
   "kw-attack-reaction->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 3,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-attack-with->keywords-index": {
@@ -5925,8 +5960,8 @@
     "weight": 0.5
   },
   "kw-defense-reaction->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-10",
+    "fires": 3,
+    "last": "2026-07-11",
     "weight": 0.5
   },
   "kw-demi-hero->keywords-index": {

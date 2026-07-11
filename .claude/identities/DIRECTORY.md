@@ -5399,6 +5399,7 @@ _(no notes)_
 - **glossary-index** — [cr, glossary, index, hub]
 - **handling-an-infraction-workflow** — [ppg, workflow, procedure, rulings]
 - **head-judge-authority** — [tournament, trp, ppg, head-judge, authority]
+- **ix-command-and-conquer-x-uzuri-switchblade** — [interaction, cards, command-and-conquer, uzuri-switchblade, defense-reactions, stealth]
 - **ix-fleeing-starbreeze-x-gone-in-a-flash** — [interaction, cards, fleeing-starbreeze, gone-in-a-flash, lightning]
 - **judge-brain-map** — [hub, index, navigation]
 - **judge-calls-and-appeals** — [tournament, trp, judge-call, appeals]
