@@ -276,3 +276,85 @@ items:
   routing:
     action: brain-note
     ref: lean-vs-briefed-identity-validation
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-11T04:10:00Z'
+iteration:
+  task: Card Vault true-text integration + ix- interaction cache + human-validation
+    loop (standalone knowledge session, stretch 2)
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: other
+  severity: low
+  summary: Human-in-the-loop API capture (browser DevTools request pasted mid-run)
+    combined with a parallel bundle-reverse-engineering agent found working endpoints
+    far faster than either alone
+  detail: User pasted the working advanced-search curl from DevTools while an agent
+    grepped the SPA bundle; the agent was redirected via SendMessage with the confirmed
+    recipe and only had to find the remaining detail route (card_id/<slug>/).
+  generalized: When reverse-engineering an undocumented API, run a bundle-analysis
+    agent AND invite the human to paste a captured browser request; feed the human's
+    capture to the agent mid-flight to narrow its remaining search.
+  routing:
+    action: brain-note
+    ref: api-reverse-engineering-with-human-capture
+- category: worked-well
+  area: other
+  severity: medium
+  summary: Testing whether browser-header spoofing was actually required before shipping
+    it revealed the API was fully open, so an honest identifying User-Agent was shipped
+    instead of a spoofed one
+  detail: All headers were dropped one by one; search and detail both returned 200
+    with none. The client now sends a truthful tool UA.
+  generalized: 'Never cargo-cult spoofed browser headers into a shipped client: test
+    the minimal header set first, and identify honestly when the API allows it.'
+  routing:
+    action: brain-note
+    ref: test-minimal-headers-before-spoofing
+- category: worked-well
+  area: brains
+  severity: medium
+  summary: 'Human-validation loop for cached rulings: after relaying an adjudication,
+    a structured three-option question (correct / not / unsure) maps to confidence
+    transitions on the cached note, with disputed answers forcing document-confirmed
+    re-derivation rather than say-so edits'
+  generalized: Cache adjudicated answers as notes with an explicit confidence line,
+    then ask the human a structured correct/not/unsure question after each answer;
+    wire each response to a confidence transition, and treat human objections as suggestions
+    requiring source-document confirmation, never direct edits.
+  routing:
+    action: brain-note
+    ref: human-validation-confidence-loop
+- category: friction
+  area: brains
+  severity: medium
+  summary: A subagent consulting an identity skipped protocol steps that had been
+    minted into the identity's brain earlier in the same session — recall-based protocol
+    adherence lags freshly-minted protocol notes, and the orchestrator had to close
+    the loop manually
+  detail: The ask-identity run answered correctly but skipped the true-text double-check
+    and the cache-write step, both added to card-interaction-protocol earlier in the
+    session; likely the agent's recall never surfaced the fresh note.
+  generalized: Freshly-minted protocol notes are not reliably picked up by same-session
+    identity consults that depend on recall; until a protocol note has settled into
+    links and role docs, delegating prompts should inject the protocol reference explicitly.
+  routing:
+    action: brain-note
+    ref: inject-protocol-refs-in-delegation
+- category: recommendation
+  area: brains
+  severity: medium
+  summary: Skills and prompts that delegate identity consults should pass the identity's
+    operative protocol note by name instead of trusting recall to find it
+  generalized: When delegating a consult to a brain-backed identity, name the operative
+    protocol note in the delegation prompt (one line); recall is for knowledge discovery,
+    not for guaranteeing procedure compliance.
+  routing:
+    action: brain-note
+    ref: inject-protocol-refs-in-delegation

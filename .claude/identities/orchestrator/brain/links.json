@@ -1,4 +1,9 @@
 {
+  "api-reverse-engineering-with-human-capture->test-minimal-headers-before-spoofing": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "brain-bulk-writes-need-link-reindex->scripted-knowledge-ingestion": {
     "fires": 0,
     "last": null,
@@ -29,6 +34,26 @@
     "last": null,
     "weight": 0.5
   },
+  "human-validation-confidence-loop->lean-vs-briefed-identity-validation": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "human-validation-confidence-loop->recall-needs-structural-links": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "inject-protocol-refs-in-delegation->lean-vs-briefed-identity-validation": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "inject-protocol-refs-in-delegation->recall-needs-structural-links": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "lean-vs-briefed-identity-validation->recall-needs-structural-links": {
     "fires": 0,
     "last": null,
@@ -55,6 +80,11 @@
     "weight": 0.5
   },
   "template-checker-manifest-pattern->shared-corpus-symlink-pattern": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "test-minimal-headers-before-spoofing->api-reverse-engineering-with-human-capture": {
     "fires": 0,
     "last": null,
     "weight": 0.5

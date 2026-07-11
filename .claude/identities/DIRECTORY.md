@@ -5657,16 +5657,20 @@ _(no notes)_
 - **zone-move-and-reset-rulings** — [cr, adjudication, zones]
 
 ## orchestrator
+- **api-reverse-engineering-with-human-capture** — [api, reverse-engineering, agents, pattern]
 - **board-as-config-projection** — [board, config, pattern]
 - **brain-bulk-writes-need-link-reindex** — [brains, tooling, pitfall]
 - **bulk-corpora-generate-dont-mint** — [brains, generators, corpus]
 - **directory-bloat-generated-brains** — [brains, directory]
 - **distill-external-docs-via-agent-fanout** — [brains, ingestion, agents, pattern]
+- **human-validation-confidence-loop** — [brains, validation, confidence, human-in-the-loop]
+- **inject-protocol-refs-in-delegation** — [brains, delegation, protocol, agents]
 - **lean-vs-briefed-identity-validation** — [brains, validation, identities, pattern]
 - **recall-needs-structural-links** — [brains, recall, links, generators]
 - **scripted-knowledge-ingestion** — [brains, ingestion, pattern]
 - **shared-corpus-symlink-pattern** — [brains, symlinks, keywords]
 - **template-checker-manifest-pattern** — [brains, validation, templates]
+- **test-minimal-headers-before-spoofing** — [api, http, honesty, pattern]
 - **verify-dated-sources-supersession** — [brains, ingestion, verification, pattern]
 
 ## player
