@@ -5659,9 +5659,13 @@ _(no notes)_
 - **brain-bulk-writes-need-link-reindex** — [brains, tooling, pitfall]
 - **bulk-corpora-generate-dont-mint** — [brains, generators, corpus]
 - **directory-bloat-generated-brains** — [brains, directory]
+- **distill-external-docs-via-agent-fanout** — [brains, ingestion, agents, pattern]
+- **lean-vs-briefed-identity-validation** — [brains, validation, identities, pattern]
+- **recall-needs-structural-links** — [brains, recall, links, generators]
 - **scripted-knowledge-ingestion** — [brains, ingestion, pattern]
 - **shared-corpus-symlink-pattern** — [brains, symlinks, keywords]
 - **template-checker-manifest-pattern** — [brains, validation, templates]
+- **verify-dated-sources-supersession** — [brains, ingestion, verification, pattern]
 
 ## player
 - **abilities-and-functionality** — [cr, abilities]

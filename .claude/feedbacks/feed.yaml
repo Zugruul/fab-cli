@@ -182,3 +182,97 @@ items:
   routing:
     action: brain-note
     ref: template-checker-manifest-pattern
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-11T03:25:00Z'
+iteration:
+  task: release-notes ingestion + identity validation (standalone knowledge session)
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: brains
+  severity: low
+  summary: Parallel per-source distiller agents with a fixed digest schema let one
+    orchestrator ingest 20 long external documents into cited brain notes without
+    context overflow
+  detail: 14 + 6 fabtcg.com release-notes pages fanned out to one agent each; digests
+    capped at ~600 words with fixed sections (SET/NEW-MECHANICS/RULINGS/CHANGES/POSSIBLY-OUTDATED);
+    orchestrator minted incrementally as digests arrived, which also protected against
+    context compaction.
+  generalized: When ingesting many long external documents into a brain, fan out one
+    distiller subagent per document with a strict fixed-format digest cap, and mint
+    notes incrementally as digests arrive rather than batching at the end.
+  routing:
+    action: brain-note
+    ref: distill-external-docs-via-agent-fanout
+- category: worked-well
+  area: brains
+  severity: medium
+  summary: A dedicated claim-by-claim verification agent checking dated ingested claims
+    against the current authoritative document caught genuinely changed rules and
+    cleared false alarms before anything stale entered the brain
+  detail: Older set pages' possibly-outdated flags were verified against the vendored
+    CR by one agent returning STILL-TRUE/CHANGED/UNCLEAR verdicts with section cites
+    (7 changed, 16 confirmed); SUPERSEDED markers were written inline in the affected
+    notes and mirrored in a hub index note.
+  generalized: When ingesting dated sources into a brain, add an explicit verification
+    pass against the current authoritative document and record supersession inline
+    in the affected notes plus a hub note, rather than trusting distiller suspicion
+    or ingesting verbatim.
+  routing:
+    action: brain-note
+    ref: verify-dated-sources-supersession
+- category: friction
+  area: brains
+  severity: medium
+  summary: Lean identity recall answered correctly from directly-linked notes but
+    missed knowledge living in notes reachable only via an entity attribute, because
+    no structural wikilink existed from the entity note to the attribute's context
+    note
+  detail: 'Judge lean ask-identity run found both card notes and keyword notes but
+    never recalled the release-notes set notes carrying the set-specific rulings;
+    card notes carry sets frontmatter but no wikilink into the release-notes corpus.
+    Stopgap fix: minted a card-interaction-protocol note and mandated the set-to-release-notes
+    recall hop in the judge ROLE.md.'
+  generalized: 'Brain recall only traverses explicit links: if knowledge about an
+    entity lives in a note keyed by one of the entity''s attributes, generated entity
+    notes must emit a wikilink to that attribute''s note, or a protocol note must
+    mandate the extra recall hop — frontmatter metadata alone is invisible to recall.'
+  routing:
+    action: brain-note
+    ref: recall-needs-structural-links
+- category: recommendation
+  area: brains
+  severity: medium
+  summary: Note generators should derive wikilinks from entity attributes to the corresponding
+    context notes at generation time, so recall traversal works structurally instead
+    of relying on protocol discipline
+  detail: The card-vault generator should emit a release-notes set wikilink per card
+    note derived from its sets frontmatter (5,051 notes to regenerate). The protocol
+    note is the stopgap; the structural link is the durable fix.
+  generalized: When a generator produces per-entity notes, derive wikilinks from entity
+    attributes to the corresponding context notes at generation time; protocol instructions
+    asking the reader to make the hop manually are a weaker substitute.
+  proposal:
+    target: card-vault note generator
+    change: emit release-notes-<set> wikilinks from sets frontmatter during generation
+  routing:
+    action: brain-note
+    ref: recall-needs-structural-links
+- category: worked-well
+  area: brains
+  severity: low
+  summary: Validating a brain-backed identity by asking the same question twice —
+    once fully briefed, once with only the bare question — cleanly separated unaided
+    capability from prompted capability and located the exact recall gap
+  generalized: To validate a brain-backed identity, run lean-vs-briefed A/B asks of
+    the same question; the delta between the answers is a direct map of missing links
+    or missing protocol steps.
+  routing:
+    action: brain-note
+    ref: lean-vs-briefed-identity-validation
