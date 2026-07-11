@@ -9,7 +9,27 @@
     "last": null,
     "weight": 0.5
   },
+  "bulk-corpora-generate-dont-mint->shared-corpus-symlink-pattern": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "directory-bloat-generated-brains->bulk-corpora-generate-dont-mint": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "scripted-knowledge-ingestion->brain-bulk-writes-need-link-reindex": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shared-corpus-symlink-pattern->template-checker-manifest-pattern": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "template-checker-manifest-pattern->shared-corpus-symlink-pattern": {
     "fires": 0,
     "last": null,
     "weight": 0.5

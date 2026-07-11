@@ -135,6 +135,9 @@ items:
     files directly with an idempotent check/diff mode, reserving mint for hand-curated
     knowledge; recall matches exact tags, so generators must deliberately engineer
     the tag surface.
+  routing:
+    action: brain-note
+    ref: bulk-corpora-generate-dont-mint
 - category: worked-well
   area: brains
   severity: medium
@@ -148,6 +151,9 @@ items:
     copy and relative-symlink it into the other brains — desync becomes impossible
     by construction; guard the write-through hazard (writing via a symlink edits the
     shared file) with role rules and a hash manifest.
+  routing:
+    action: brain-note
+    ref: shared-corpus-symlink-pattern
 - category: friction
   area: brains
   severity: low
@@ -158,6 +164,9 @@ items:
   generalized: Brain directory generation needs a collapse convention for large generated
     corpora (a count + pointer line instead of thousands of entries), or per-brain
     opt-out, so bulk brains don't drown the hand-curated ones.
+  routing:
+    action: brain-note
+    ref: directory-bloat-generated-brains
 - category: recommendation
   area: brains
   severity: low
@@ -170,3 +179,6 @@ items:
   generalized: 'Shared/canonical brain corpora benefit from a strict machine-validated
     note template and a committed hash manifest: the checker attributes drift (canon
     changed vs copy drifted) and refuses to propagate malformed knowledge.'
+  routing:
+    action: brain-note
+    ref: template-checker-manifest-pattern
