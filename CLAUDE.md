@@ -16,6 +16,7 @@ src/cognito.ts      — Cognito login + token refresh
 src/types.ts        — Shared TypeScript interfaces
 src/meta.ts         — Meta results from content.fabrary.net (hero win rates, period discovery)
 src/fabtcg.ts       — fabtcg.com: events, tournament coverage, decklists, standings
+src/cardvault.ts    — official Card Vault API: card search + TRUE text (authoritative per CR 2.0.2)
 src/lore.ts         — F&B lore KB: index/search/OKF from the fablore submodule
 
 scripts/best-decks-by-hero.ts — Reusable batch report: best N decks per hero for a format
@@ -135,6 +136,24 @@ fab-cli fabrary meta-shift [--format cc] [--ban <heroId>...] [--nerf <heroId>...
 - Useful for tournament prep (e.g. accounting for known bans)
 
 Period aliases: `7d` → `last-7-days`, `30d` → `last-30-days`. Otherwise pass `YYYY-MM` or a season slug.
+
+### fabtcg Card Vault (TRUE text)
+
+```bash
+fab-cli fabtcg card "<name or text>"           # search + TRUE text + printed-text diff + legality
+fab-cli fabtcg card --name snatch --pitch 1    # advanced filters (combinable)
+fab-cli fabtcg card --class Illusionist --talent Lightning --subtype Aura --set OMN --list-only
+fab-cli fabtcg card "<name>" --json            # raw detail record
+```
+
+- **Card Vault (cardvault.fabtcg.com) is the text authority per CR 2.0.2** — its True Text is the
+  current authoritative wording; printings may carry older text (errata/re-templating).
+- Output: true text, every distinct English printed wording that differs (with print IDs),
+  rulings/errata count, per-format legality, and the cardvault URL.
+- Reminder text (italic parentheticals) is ignored when diffing printed vs true text.
+- Filters: `--name --text --pitch --cost --power --defense --talent --class --subtype --format --rarity --set --artist -n --list-only --json`.
+- **Use this to double-check the true text of any card when precision matters** (adjudication,
+  rulings, errata questions). The offline corpus (`cards local`) may lag behind errata.
 
 ### fabtcg Events
 
@@ -296,6 +315,7 @@ These are common ways the user asks for things — translate them to the right C
 | "decks in the last N days" | add `--days N` |
 | "decks with results / matchups" | add `--has-results` / `--has-matchups` |
 | "search for card X" | `fab-cli fabrary cards search "<text>"` |
+| "true text of card X" / "official text" / "was card X errata'd" | `fab-cli fabtcg card "<name>"` — Card Vault true text + printed diff |
 | "compare decks" | fetch each with `deck --decklist-only`, display both |
 | "find similar decks to X" / "what's closest to this list" | fetch X via GraphQL (may be unlisted), fetch top N for that hero, run similarity script |
 | "fetch / download this deck" (unlisted URL) | tsx script using `getDeck` via GraphQL with `getValidToken()` from `src/config.ts` |
@@ -397,6 +417,13 @@ fab-cli lore show "demonastery"        # read the full page
 - Formats: `classic-constructed`, `silver-age`, `blitz`, `living-legend`, `ultimate-pit-fight`
 - Periods: `last-7-days`, `last-30-days`, `YYYY-MM`, or season slugs
 - JSON shape: `{ heroResults: [{ heroIdentifier, results: [{ opposingHeroIdentifier, plays, wins, ... }] }] }`
+
+**Card Vault API** — official card DB with TRUE text, no auth, no browser-header spoofing needed.
+- Search: `https://api.cardvault.fabtcg.com/carddb/api/v1/advanced-search/?q=<text>&page_size=60&page=1&orderby=relevance`
+  - Filter params: `name`, `text`, `pitch`+`pitch_lookup=exact` (same for cost/power/defense/life/intellect), `talents`, `classes`, `subtype`, `legal_formats`, `rarities`, `set_code`, `product_name`, `artist_name`, `language`
+  - Returns `printed_*` fields only + `card_id`/`print_id`
+- Detail: `https://api.cardvault.fabtcg.com/carddb/api/v1/card_id/<card_id>/` (literal `card_id/` segment, trailing slash required)
+  - `cores[].textbox` = TRUE text (`{br}` line breaks, `{r}`/`{d}`/`{p}` icons); `card_prints[]` per printing with `print_language` + `faces[].printed_rules_text`; `card_legality` per format; `rulings_errata[]`
 
 **fabtcg.com WordPress REST API** — tournament/decklist data, no auth required (browser headers required).
 - Tournaments: `https://fabtcg.com/api/wp/v2/tournament?search=<name>`

@@ -5063,7 +5063,7 @@ _(no notes)_
 - **accessibility-and-coverage** — [trp, accessibility, coverage]
 - **attack-proxies-and-rulings** — [cr, adjudication, combat]
 - **card-anatomy-visual** — [cards, anatomy, visual, reference]
-- **card-interaction-protocol** — [protocol, adjudication, interactions, recall, cache]
+- **card-interaction-protocol** — [protocol, adjudication, interactions, recall, cache, true-text]
 - **card-legality-live-fetch** — [reference, card-legality, live-fetch]
 - **card-text-from-json** — [reference, card-text, data]
 - **casual-rel-procedures** — [casual, rel, procedures]

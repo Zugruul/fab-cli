@@ -146,6 +146,26 @@ fab-cli fabrary meta-shift --format cc --ban oscilio-constella-intelligence --my
 
 ---
 
+## Card Vault (official true text)
+
+The official [Card Vault](https://cardvault.fabtcg.com/) is the text authority for cards
+(CR 2.0.2): its **True Text** is the current authoritative wording, which can differ from
+what's printed on any given printing (errata, re-templating).
+
+```bash
+# Search + true text, printed-text diff, and per-format legality
+fab-cli fabtcg card "phantasmal footsteps"
+
+# Advanced filters (all optional, combinable)
+fab-cli fabtcg card --name snatch --pitch 1
+fab-cli fabtcg card --class Illusionist --talent Lightning --subtype Aura
+fab-cli fabtcg card --set MON --rarity legendary --list-only
+fab-cli fabtcg card "command and conquer" --json   # raw detail record
+```
+
+Shows: true text, printed text when it differs, rulings/errata count, and legality per
+format straight from the Card Vault API.
+
 ## Tournament Coverage
 
 ### Events

@@ -33,6 +33,7 @@ import {
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "./display";
 import { fetchMetaPeriods, fetchMetaResults, computeMetaShift, resolveMetaFormat, resolveMetaPeriod } from "./meta";
 import { fetchEvents, searchTournament, fetchCoverageIndex, fetchStandings, searchTournamentDecklists, fetchDecklistCards, fetchPlayerPath, searchPlayerInEvent, heroNameToIdentifier } from "./fabtcg";
+import { searchCardVault, fetchCardVaultCard, renderTextbox } from "./cardvault";
 import { findFabraryDeck } from "./algolia";
 import { computeDeckStats, computeResultStats } from "./stats";
 import { loadConfig, saveConfig, getAuthToken, getValidToken } from "./config";
@@ -710,6 +711,127 @@ fabtcg
     });
     process.stdout.write("                  \r");
     printEventsTable(events);
+  });
+
+fabtcg
+  .command("card [query...]")
+  .description("Official Card Vault (cardvault.fabtcg.com): TRUE text (authoritative per CR 2.0.2), printed text, legality")
+  .option("--name <text>", "Card name contains")
+  .option("--text <text>", "Rules text contains")
+  .option("--pitch <n>", "Exact pitch value")
+  .option("--cost <n>", "Exact cost value")
+  .option("--power <n>", "Exact power value")
+  .option("--defense <n>", "Exact defense value")
+  .option("--talent <talent>", "Talent (e.g. Ice, Shadow)")
+  .option("--class <class>", "Class (e.g. Illusionist, Bard)")
+  .option("--subtype <subtype>", "Subtype (e.g. Aura, (2H))")
+  .option("--format <fmt>", "Legal in format (e.g. \"Classic Constructed\")")
+  .option("--rarity <rarity>", "Rarity (e.g. common, majestic)")
+  .option("--set <code>", "Set code (e.g. WTR, MON)")
+  .option("--artist <name>", "Artist name")
+  .option("-n, --limit <n>", "Max results to list", "10")
+  .option("--list-only", "Only list matches; skip the true-text detail fetch")
+  .option("--json", "Raw JSON of the detail record")
+  .action(async (query: string[], opts: {
+    name?: string; text?: string; pitch?: string; cost?: string; power?: string;
+    defense?: string; talent?: string; class?: string; subtype?: string; format?: string;
+    rarity?: string; set?: string; artist?: string; limit: string; listOnly?: boolean; json?: boolean;
+  }) => {
+    const q = query.join(" ").trim();
+    if (!q && !opts.name && !opts.text && !opts.set && !opts.artist && !opts.class && !opts.talent) {
+      console.log(chalk.yellow("Give a search query or at least one filter (--name, --text, --set, …)"));
+      return;
+    }
+    process.stdout.write(chalk.dim("Searching Card Vault…\r"));
+    const results = await searchCardVault({
+      q: q || undefined,
+      name: opts.name,
+      text: opts.text,
+      pitch: opts.pitch ? parseInt(opts.pitch) : undefined,
+      cost: opts.cost ? parseInt(opts.cost) : undefined,
+      power: opts.power ? parseInt(opts.power) : undefined,
+      defense: opts.defense ? parseInt(opts.defense) : undefined,
+      talents: opts.talent,
+      classes: opts.class,
+      subtype: opts.subtype,
+      legalFormats: opts.format,
+      rarities: opts.rarity,
+      setCode: opts.set,
+      artistName: opts.artist,
+      pageSize: parseInt(opts.limit),
+    });
+    process.stdout.write("                        \r");
+    if (results.length === 0) {
+      console.log(chalk.yellow("No Card Vault matches."));
+      return;
+    }
+    if (results.length > 1 || opts.listOnly) {
+      for (const r of results) {
+        const pitch = r.printed_pitch ? ` ${"●".repeat(parseInt(r.printed_pitch) || 0)}` : "";
+        console.log(`${chalk.bold(r.printed_name)}${pitch} ${chalk.dim(`— ${r.printed_typebox} [${r.print_id}]`)}`);
+      }
+      if (opts.listOnly) return;
+      console.log();
+    }
+
+    const card = await fetchCardVaultCard(results[0].card_id);
+    if (!card) {
+      console.log(chalk.yellow(`No detail record for ${results[0].card_id}.`));
+      return;
+    }
+    if (opts.json) {
+      console.log(JSON.stringify(card, null, 2));
+      return;
+    }
+    for (const core of card.cores) {
+      const display = core.name.includes("---") ? core.name.split("---")[1] : core.name;
+      console.log(chalk.bold.cyan(display) + chalk.dim(`  (${card.card_id})`));
+      console.log(chalk.dim(core.typebox));
+      const stats = [
+        core.pitch_value && `pitch ${core.pitch_value}`,
+        core.cost_value && `cost ${core.cost_value}`,
+        core.power_value && `power ${core.power_value}`,
+        core.defense_value && `defense ${core.defense_value}`,
+        core.life_value && `life ${core.life_value}`,
+        core.intellect_value && `intellect ${core.intellect_value}`,
+      ].filter(Boolean).join(" · ");
+      if (stats) console.log(chalk.dim(stats));
+      console.log(chalk.green.bold("\nTRUE TEXT") + chalk.dim(" (authoritative, CR 2.0.2):"));
+      console.log(renderTextbox(core.textbox));
+    }
+    // Flag every distinct English printed wording that differs from the true text.
+    // Reminder text (italic parentheticals) and bold markers aren't rules text — strip
+    // them before comparing, so a print differing only in reminder text isn't flagged.
+    const norm = (s: string) =>
+      renderTextbox(s)
+        .replace(/_\([^)]*\)_/g, "")
+        .replace(/\*\*/g, "")
+        .replace(/[.\s]+$/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    const trueFlat = norm(card.cores.map((c) => c.textbox).join("{br}"));
+    const divergent = new Map<string, string[]>(); // printed text -> print ids
+    for (const p of card.card_prints.filter((p) => p.print_language === "en")) {
+      const printed = p.faces[0]?.printed_rules_text ?? "";
+      if (printed && norm(printed) !== trueFlat) {
+        const ids = divergent.get(printed) ?? [];
+        ids.push(p.print_id);
+        divergent.set(printed, ids);
+      }
+    }
+    for (const [printed, ids] of divergent) {
+      console.log(chalk.yellow.bold(`\nPRINTED TEXT DIFFERS (${ids.join(", ")}):`));
+      console.log(chalk.dim(renderTextbox(printed)));
+    }
+    if (card.rulings_errata.length > 0) {
+      console.log(chalk.magenta.bold(`\nRulings/errata: ${card.rulings_errata.length} — see https://cardvault.fabtcg.com/card/${card.card_id}/`));
+    }
+    console.log(chalk.bold("\nLegality:"));
+    for (const [fmt, info] of Object.entries(card.card_legality)) {
+      const mark = info.legality === "legal" ? chalk.green("legal") : chalk.red(info.legality);
+      console.log(`  ${fmt.padEnd(20)} ${mark}${info.reason ? chalk.dim(` (${info.reason})`) : ""}`);
+    }
+    console.log(chalk.dim(`\nhttps://cardvault.fabtcg.com/card/${card.card_id}/`));
   });
 
 /** Fetch a decklist by slug, cross-reference Fabrary, and print it. */
