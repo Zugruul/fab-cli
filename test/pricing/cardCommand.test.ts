@@ -8,7 +8,7 @@ import {
   type CardCommandDeps,
 } from "../../src/pricing/cardCommand";
 import type { Group, Product, TcgcsvPriceRow } from "../../src/pricing/tcgcsv";
-import type { ConditionPriceMap } from "../../src/pricing/tcgplayerSearch";
+import type { FinishConditionPriceMap } from "../../src/pricing/tcgplayerSearch";
 import type {
   CardmarketData,
   CardmarketPriceGuideRow,
@@ -156,8 +156,14 @@ function makeDeps(overrides: Partial<CardCommandDeps> = {}): CardCommandDeps {
     },
   ];
 
-  const conditionMap: Map<number, ConditionPriceMap> = new Map([
-    [1, { NM: 9.25, "SP/LP": 9.0, MP: null, HP: null }],
+  const conditionMap: Map<number, FinishConditionPriceMap> = new Map([
+    [
+      1,
+      {
+        normal: { NM: 9.25, "SP/LP": 9.0, MP: null, HP: null },
+        foil: { NM: null, "SP/LP": null, MP: null, HP: null },
+      },
+    ],
   ]);
 
   const cmProducts: CardmarketProduct[] = [
@@ -239,7 +245,15 @@ describe("assembleCardComparison", () => {
   it("real-data-only: a TCGplayer row with no listings at all is empty and reported no-price, never market-filled", async () => {
     const deps = makeDeps({
       fetchProductConditions: vi.fn().mockResolvedValue(
-        new Map([[1, { NM: null, "SP/LP": null, MP: null, HP: null }]]),
+        new Map<number, FinishConditionPriceMap>([
+          [
+            1,
+            {
+              normal: { NM: null, "SP/LP": null, MP: null, HP: null },
+              foil: { NM: null, "SP/LP": null, MP: null, HP: null },
+            },
+          ],
+        ]),
       ),
     });
     const result = await assembleCardComparison("command and conquer", deps);
@@ -256,6 +270,155 @@ describe("assembleCardComparison", () => {
     ).toBe(true);
   });
 
+  it("per-finish listing correctness: normal and foil rows use only their own finish's listings, never cross-contaminated", async () => {
+    // productId 1 has BOTH a normal and a foil tcgcsv price row (like the
+    // real Haze Bending/Everfest product), and fetchProductConditions
+    // returns distinct listing prices per finish — the normal row must show
+    // only normal-printing prices, the foil row only foil-printing prices.
+    const deps = makeDeps({
+      fetchGroupPrices: vi.fn().mockResolvedValue([
+        {
+          productId: 1,
+          lowPrice: 0.05,
+          midPrice: 0.44,
+          highPrice: 4.95,
+          marketPrice: 0.38,
+          directLowPrice: null,
+          subTypeName: "1st Edition Normal",
+        },
+        {
+          productId: 1,
+          lowPrice: 0.25,
+          midPrice: 1.18,
+          highPrice: 4.49,
+          marketPrice: 0.9,
+          directLowPrice: null,
+          subTypeName: "1st Edition Rainbow Foil",
+        },
+      ] satisfies TcgcsvPriceRow[]),
+      fetchProductConditions: vi.fn().mockResolvedValue(
+        new Map<number, FinishConditionPriceMap>([
+          [
+            1,
+            {
+              normal: { NM: 0.25, "SP/LP": 0.3, MP: null, HP: null },
+              foil: { NM: 0.77, "SP/LP": 0.85, MP: null, HP: null },
+            },
+          ],
+        ]),
+      ),
+    });
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    const normalRow = result.tcgplayerRows.find((r) => r.finish === "normal")!;
+    const foilRow = result.tcgplayerRows.find((r) => r.finish === "foil")!;
+    expect(normalRow.conditions.NM).toEqual({ price: 0.25, source: "listing" });
+    expect(normalRow.conditions["SP/LP"]).toEqual({
+      price: 0.3,
+      source: "listing",
+    });
+    expect(foilRow.conditions.NM).toEqual({ price: 0.77, source: "listing" });
+    expect(foilRow.conditions["SP/LP"]).toEqual({
+      price: 0.85,
+      source: "listing",
+    });
+  });
+
+  it("subTypeName real-world values ('1st Edition Rainbow Foil') are classified as foil, not silently dropped into normal", async () => {
+    // A prior bug compared subTypeName with exact equality against the
+    // literal "Foil", which never matches TCGplayer's real subTypeName
+    // strings — every foil row was misclassified as normal and the foil
+    // finish row went missing entirely.
+    const deps = makeDeps({
+      fetchGroupPrices: vi.fn().mockResolvedValue([
+        {
+          productId: 1,
+          lowPrice: 0.05,
+          midPrice: 0.44,
+          highPrice: 4.95,
+          marketPrice: 0.38,
+          directLowPrice: null,
+          subTypeName: "1st Edition Normal",
+        },
+        {
+          productId: 1,
+          lowPrice: 0.25,
+          midPrice: 1.18,
+          highPrice: 4.49,
+          marketPrice: 0.9,
+          directLowPrice: null,
+          subTypeName: "1st Edition Rainbow Foil",
+        },
+      ] satisfies TcgcsvPriceRow[]),
+      fetchProductConditions: vi.fn().mockResolvedValue(
+        new Map<number, FinishConditionPriceMap>([
+          [
+            1,
+            {
+              normal: { NM: 0.25, "SP/LP": null, MP: null, HP: null },
+              foil: { NM: 0.77, "SP/LP": null, MP: null, HP: null },
+            },
+          ],
+        ]),
+      ),
+    });
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    expect(result.tcgplayerRows.map((r) => r.finish).sort()).toEqual([
+      "foil",
+      "normal",
+    ]);
+  });
+
+  it("a foil variant with real live listings but no tcgcsv Foil price row still gets a row (mirrors Cardmarket's foil-skip rule)", async () => {
+    const deps = makeDeps({
+      // Only a normal tcgcsv price row exists for this product...
+      fetchGroupPrices: vi.fn().mockResolvedValue([
+        {
+          productId: 1,
+          lowPrice: 8,
+          midPrice: 9,
+          highPrice: 12,
+          marketPrice: 9.5,
+          directLowPrice: 8,
+          subTypeName: "Normal",
+        },
+      ] satisfies TcgcsvPriceRow[]),
+      // ...but real foil listings do exist.
+      fetchProductConditions: vi.fn().mockResolvedValue(
+        new Map<number, FinishConditionPriceMap>([
+          [
+            1,
+            {
+              normal: { NM: 9.25, "SP/LP": 9.0, MP: null, HP: null },
+              foil: { NM: 20, "SP/LP": null, MP: null, HP: null },
+            },
+          ],
+        ]),
+      ),
+    });
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    const foilRow = result.tcgplayerRows.find((r) => r.finish === "foil");
+    expect(foilRow).toBeDefined();
+    expect(foilRow!.conditions.NM).toEqual({ price: 20, source: "listing" });
+  });
+
+  it("no tcgcsv Foil price row and no real foil listings: no foil row is manufactured", async () => {
+    const deps = makeDeps(); // default: normal-only tcgcsv row, foil listings all null
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    expect(result.tcgplayerRows.some((r) => r.finish === "foil")).toBe(false);
+  });
+
   it("real-data-only: a Cardmarket row with no 'low' field is empty across all four condition columns", async () => {
     const deps = makeDeps({
       fetchCardmarketData: vi.fn().mockResolvedValue({
@@ -266,7 +429,10 @@ describe("assembleCardComparison", () => {
           [100, { idProduct: 100, trend: 7, low: null }],
         ]),
         productsById: new Map([
-          [100, { idProduct: 100, name: "Command and Conquer", idExpansion: 42 }],
+          [
+            100,
+            { idProduct: 100, name: "Command and Conquer", idExpansion: 42 },
+          ],
         ]),
       }),
     });
