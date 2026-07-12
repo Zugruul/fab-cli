@@ -162,8 +162,9 @@ describe("runExport — happy path", () => {
     );
 
     expect(result.pricesCardmarketCsv).toContain("# currency: EUR");
+    // #67: only NM carries the 'low' cell — SP/LP, MP, HP are always empty.
     expect(result.pricesCardmarketCsv).toContain(
-      "Command and Conquer (Red),Everfest,normal,9,low,9,low,9,low,9,low,,",
+      "Command and Conquer (Red),Everfest,normal,9,low,,,,,,,,",
     );
 
     expect(result.ratioTcgplayerCardmarketCsv).toContain(

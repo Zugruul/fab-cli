@@ -4,6 +4,10 @@ import {
   computeRatioCells,
   formatRatioPct,
 } from "../../src/pricing/compare";
+import {
+  resolvePrices,
+  type CardmarketPriceGuideRow,
+} from "../../src/pricing/cardmarket";
 import type {
   ConditionColumn,
   ConditionPrices,
@@ -203,6 +207,59 @@ describe("computeRatioCells", () => {
     });
     expect(result.NM!.pct).toBeCloseTo(0, 10);
     expect(result.HP).toBeNull();
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Cardmarket-side ratio propagation (§8.3/§8.4, issue #67): since
+// resolvePrices now only ever fills conditions.NM, no ratio cell can ever
+// exist for SP/LP, MP, HP on the Cardmarket pairing — verify this end to
+// end (resolvePrices -> computeRatioCells), not just via a hand-built
+// ConditionPrices fixture.
+// ---------------------------------------------------------------------------
+
+describe("computeRatioCells against real resolvePrices output (#67)", () => {
+  const fx: FxRate = {
+    rate: 1.2,
+    date: "2026-07-11",
+    base: "EUR",
+    quote: "USD",
+  };
+
+  it("only NM ever produces a ratio cell for a Cardmarket row; SP/LP, MP, HP are always null", () => {
+    const guideRow: CardmarketPriceGuideRow = { idProduct: 1, low: 10 };
+    const cardmarket = resolvePrices(guideRow, "normal").conditions;
+    const tcgplayer = fillTcgplayerConditions({
+      listings: { NM: 12, "SP/LP": 12, MP: 12, HP: 12 },
+    });
+
+    const result = computeRatioCells(tcgplayer, cardmarket, {
+      fx,
+      currencyA: "USD",
+      currencyB: "EUR",
+    });
+
+    expect(result.NM).not.toBeNull();
+    expect(result.NM!.basis).toBe("listing/low");
+    expect(result["SP/LP"]).toBeNull();
+    expect(result.MP).toBeNull();
+    expect(result.HP).toBeNull();
+  });
+
+  it("stays null on every column when the Cardmarket row has no 'low' at all", () => {
+    const guideRow: CardmarketPriceGuideRow = { idProduct: 1, low: null };
+    const cardmarket = resolvePrices(guideRow, "normal").conditions;
+    const tcgplayer = fillTcgplayerConditions({
+      listings: { NM: 12, "SP/LP": 12, MP: 12, HP: 12 },
+    });
+
+    const result = computeRatioCells(tcgplayer, cardmarket, {
+      fx,
+      currencyA: "USD",
+      currencyB: "EUR",
+    });
+
+    expect(result).toEqual({ NM: null, "SP/LP": null, MP: null, HP: null });
   });
 });
 
