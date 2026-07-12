@@ -49,7 +49,7 @@ describe("renderPricePageCsv", () => {
     const lines = csv.split("\n");
     expect(lines[0]).toBe("# currency: USD");
     expect(lines[1]).toBe(
-      "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
+      "Name,Set,Finish,Code,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
     );
   });
 
@@ -58,7 +58,7 @@ describe("renderPricePageCsv", () => {
     const lines = csv.split("\n");
     expect(lines[0]).toBe("# currency: EUR");
     expect(lines[1]).toBe(
-      "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
+      "Name,Set,Finish,Code,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
     );
   });
 
@@ -68,7 +68,8 @@ describe("renderPricePageCsv", () => {
       { currency: "USD", trendColumn: true },
     );
     const dataLine = csv.split("\n").at(-1)!;
-    expect(dataLine).toBe("Snatch,Everfest,normal,,,,,,,,,,");
+    // Snatch has no Everfest printing in the real vendored DB -> empty Code.
+    expect(dataLine).toBe("Snatch,Everfest,normal,,,,,,,,,,,");
   });
 
   it("renders a real price cell with its source", () => {
@@ -77,7 +78,18 @@ describe("renderPricePageCsv", () => {
       { currency: "USD" },
     );
     const dataLine = csv.split("\n").at(-1)!;
-    expect(dataLine).toBe("Snatch,Everfest,normal,9.25,listing,,,,,,");
+    expect(dataLine).toBe("Snatch,Everfest,normal,,9.25,listing,,,,,,");
+  });
+
+  it("renders the official printing code when the vendored DB has a match", () => {
+    const csv = renderPricePageCsv(
+      [priceRow("Haze Bending", "Everfest", "normal", 9.25)],
+      { currency: "USD" },
+    );
+    const dataLine = csv.split("\n").at(-1)!;
+    expect(dataLine).toBe(
+      "Haze Bending,Everfest,normal,EVR141,9.25,listing,,,,,,",
+    );
   });
 
   it("escapes a name/set containing a comma or quote", () => {
@@ -87,7 +99,7 @@ describe("renderPricePageCsv", () => {
     );
     const dataLine = csv.split("\n").at(-1)!;
     expect(dataLine).toBe(
-      '"Command, ""and"" Conquer","Dusk, till Dawn",normal,5,listing,,,,,,',
+      '"Command, ""and"" Conquer","Dusk, till Dawn",normal,,5,listing,,,,,,',
     );
   });
 
@@ -161,7 +173,7 @@ describe("renderRatioPageCsv", () => {
     expect(lines[0]).toBe("# ratio: tcgplayer / cardmarket");
     expect(lines[1]).toBe("# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)");
     expect(lines[2]).toBe(
-      "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
+      "Name,Set,Finish,Code,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
     );
   });
 
@@ -175,7 +187,19 @@ describe("renderRatioPageCsv", () => {
       fx,
     });
     const dataLine = csv.split("\n").at(-1)!;
-    expect(dataLine).toBe("Snatch,Everfest,normal,+40.2%,listing/low,,,,,,");
+    // Snatch has no Everfest printing in the real vendored DB -> empty Code.
+    expect(dataLine).toBe("Snatch,Everfest,normal,,+40.2%,listing/low,,,,,,");
+  });
+
+  it("renders the official printing code when the vendored DB has a match", () => {
+    const r = row("Haze Bending", "Everfest");
+    const map = new Map([[r, ratios({})]]);
+    const csv = renderRatioPageCsv([r], map, {
+      pairLabel: "tcgplayer / cardmarket",
+      fx,
+    });
+    const dataLine = csv.split("\n").at(-1)!;
+    expect(dataLine).toBe("Haze Bending,Everfest,normal,EVR141,,,,,,,,");
   });
 
   it("propagates empty cells when a ratio is absent for a condition", () => {
@@ -186,7 +210,7 @@ describe("renderRatioPageCsv", () => {
       fx,
     });
     const dataLine = csv.split("\n").at(-1)!;
-    expect(dataLine).toBe("Snatch,Everfest,normal,,,,,,,,");
+    expect(dataLine).toBe("Snatch,Everfest,normal,,,,,,,,,");
   });
 
   it("orders rows by set then name then finish, same as price pages", () => {
@@ -226,10 +250,27 @@ describe("renderUnmatchedCsv", () => {
     ];
     const csv = renderUnmatchedCsv(unmatched);
     const lines = csv.split("\n");
-    expect(lines[0]).toBe("Provider,Name,Set,Finish,Reason");
-    expect(lines[1]).toBe("tcgplayer,Snatch,Everfest,normal,no-counterpart");
+    expect(lines[0]).toBe("Provider,Name,Set,Finish,Code,Reason");
+    // Snatch has no Everfest printing, and cm-expansion-99 never matches a
+    // real set name -> both rows get an empty Code.
+    expect(lines[1]).toBe("tcgplayer,Snatch,Everfest,normal,,no-counterpart");
     expect(lines[2]).toBe(
-      "cardmarket,Zeal,cm-expansion-99,foil,unmapped-expansion",
+      "cardmarket,Zeal,cm-expansion-99,foil,,unmapped-expansion",
+    );
+  });
+
+  it("renders the official printing code when the vendored DB has a match", () => {
+    const csv = renderUnmatchedCsv([
+      {
+        provider: "tcgplayer",
+        name: "Haze Bending",
+        set: "Everfest",
+        finish: "normal",
+        reason: "no-counterpart",
+      },
+    ]);
+    expect(csv.split("\n")[1]).toBe(
+      "tcgplayer,Haze Bending,Everfest,normal,EVR141,no-counterpart",
     );
   });
 
@@ -244,7 +285,7 @@ describe("renderUnmatchedCsv", () => {
       },
     ]);
     expect(csv.split("\n")[1]).toBe(
-      'tcgplayer,"Command, and Conquer",Everfest,normal,no-price',
+      'tcgplayer,"Command, and Conquer",Everfest,normal,,no-price',
     );
   });
 });

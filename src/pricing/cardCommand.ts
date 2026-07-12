@@ -53,6 +53,7 @@ import {
   type UnmatchedRow,
 } from "./compare";
 import { renderPricePageCsv, renderRatioPageCsv } from "./csv";
+import { lookupCardCode } from "./cardCode";
 import {
   CONDITION_COLUMNS,
   type ConditionCell,
@@ -412,8 +413,8 @@ function renderPriceTable(
     return;
   }
   const table = new Table({
-    head: ["Name", "Set", "Finish", "NM", "SP/LP", "MP", "HP"].map((h) =>
-      chalk.cyan(h),
+    head: ["Name", "Set", "Finish", "Code", "NM", "SP/LP", "MP", "HP"].map(
+      (h) => chalk.cyan(h),
     ),
     style: { compact: true },
     wordWrap: false,
@@ -423,6 +424,7 @@ function renderPriceTable(
       row.name,
       row.set,
       row.finish,
+      lookupCardCode(row.name, row.set, row.finish) ?? chalk.dim("—"),
       priceCellText(row.conditions.NM, providerId),
       priceCellText(row.conditions["SP/LP"], providerId),
       priceCellText(row.conditions.MP, providerId),
@@ -448,9 +450,17 @@ function renderCardmarketPriceTable(
     return;
   }
   const table = new Table({
-    head: ["Name", "Set", "Finish", "NM", "SP/LP", "MP", "HP", "Trend"].map(
-      (h) => chalk.cyan(h),
-    ),
+    head: [
+      "Name",
+      "Set",
+      "Finish",
+      "Code",
+      "NM",
+      "SP/LP",
+      "MP",
+      "HP",
+      "Trend",
+    ].map((h) => chalk.cyan(h)),
     style: { compact: true },
     wordWrap: false,
   });
@@ -459,6 +469,7 @@ function renderCardmarketPriceTable(
       row.name,
       row.set,
       row.finish,
+      lookupCardCode(row.name, row.set, row.finish) ?? chalk.dim("—"),
       priceCellText(row.conditions.NM, "cardmarket"),
       priceCellText(row.conditions["SP/LP"], "cardmarket"),
       priceCellText(row.conditions.MP, "cardmarket"),
@@ -482,8 +493,8 @@ function renderRatioTable(
 ): void {
   console.log(chalk.bold.cyan(title));
   const table = new Table({
-    head: ["Name", "Set", "Finish", "NM", "SP/LP", "MP", "HP"].map((h) =>
-      chalk.cyan(h),
+    head: ["Name", "Set", "Finish", "Code", "NM", "SP/LP", "MP", "HP"].map(
+      (h) => chalk.cyan(h),
     ),
     style: { compact: true },
     wordWrap: false,
@@ -494,6 +505,7 @@ function renderRatioTable(
       row.name,
       row.set,
       row.finish,
+      lookupCardCode(row.name, row.set, row.finish) ?? chalk.dim("—"),
       ratioCellText(ratios.NM),
       ratioCellText(ratios["SP/LP"]),
       ratioCellText(ratios.MP),
