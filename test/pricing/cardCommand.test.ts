@@ -221,12 +221,13 @@ describe("assembleCardComparison", () => {
     expect(tcg.MP).toBeNull();
     expect(tcg.HP).toBeNull();
 
-    // Cardmarket: all four condition columns are the 'low' cell.
+    // Cardmarket (#67): only NM carries the 'low' cell — SP/LP, MP, HP are
+    // always empty since Cardmarket has no real per-condition data.
     const cm = row.conditionsByProvider.cardmarket;
     expect(cm.NM).toEqual({ price: 6, source: "low" });
-    expect(cm["SP/LP"]).toEqual({ price: 6, source: "low" });
-    expect(cm.MP).toEqual({ price: 6, source: "low" });
-    expect(cm.HP).toEqual({ price: 6, source: "low" });
+    expect(cm["SP/LP"]).toBeNull();
+    expect(cm.MP).toBeNull();
+    expect(cm.HP).toBeNull();
 
     // Trend is a separate reference-only value carried on the raw Cardmarket
     // row, not part of the matched conditionsByProvider structure.
@@ -534,8 +535,9 @@ describe("renderCsv", () => {
     const cmLine = csv1
       .split("\n")
       .find((l) => l.startsWith("Command and Conquer,Everfest,normal,6,low"));
+    // #67: only NM is populated (from 'low'); SP/LP, MP, HP are always empty.
     expect(cmLine).toBe(
-      "Command and Conquer,Everfest,normal,6,low,6,low,6,low,6,low,7,trend",
+      "Command and Conquer,Everfest,normal,6,low,,,,,,,7,trend",
     );
 
     const ratioLine = csv1
@@ -544,11 +546,14 @@ describe("renderCsv", () => {
       .find((l) => l.startsWith("Command and Conquer"));
     // NM: listing 9.25 USD / low 6 EUR (at rate 1.1 -> 6.6 USD) - 1
     expect(ratioLine).toContain("listing/low");
-    // MP/HP have no TCGplayer real cell (real-data-only), so the ratio is
-    // empty even though Cardmarket has a real low price — both sides must
-    // be real (§8.4 amended).
+    // SP/LP now has no Cardmarket real cell (#67 — CM only ever fills NM),
+    // and MP/HP have no TCGplayer real cell (real-data-only) — so only NM
+    // ever produces a ratio on the Cardmarket side (both sides must be
+    // real, §8.4).
     const ratioCells = ratioLine!.split(",");
     // Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis
+    expect(ratioCells[5]).toBe(""); // SP/LP ratio
+    expect(ratioCells[6]).toBe(""); // SP/LP basis
     expect(ratioCells[7]).toBe(""); // MP ratio
     expect(ratioCells[8]).toBe(""); // MP basis
   });
@@ -615,9 +620,9 @@ describe("renderCsv", () => {
       .split("\n")
       .filter((l) => l.startsWith("Command and Conquer"));
     expect(dataLines).toHaveLength(1);
-    // cheapest low (9 vs 12 -> 9) across all four columns; cheapest trend (10 vs 6 -> 6)
+    // cheapest low (9 vs 12 -> 9) on NM only (#67 — SP/LP/MP/HP always empty); cheapest trend (10 vs 6 -> 6)
     expect(dataLines[0]).toBe(
-      "Command and Conquer,Everfest,normal,9,low,9,low,9,low,9,low,6,trend",
+      "Command and Conquer,Everfest,normal,9,low,,,,,,,6,trend",
     );
   });
 });
@@ -631,7 +636,7 @@ describe("renderCsv", () => {
 // ---------------------------------------------------------------------------
 
 describe("renderCsv — characterization (pre/post csv.ts refactor)", () => {
-  it("is byte-identical to the pre-refactor inline-writer output for the standard fixture", async () => {
+  it("is byte-identical to the pre-refactor inline-writer output for the standard fixture (post-#67: Cardmarket NM-only)", async () => {
     const deps = makeDeps();
     const result = await assembleCardComparison("command and conquer", deps);
     expect(result.kind).toBe("found");
@@ -648,19 +653,19 @@ describe("renderCsv — characterization (pre/post csv.ts refactor)", () => {
         "# page 2 — Cardmarket prices (EUR)",
         "# currency: EUR",
         "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
-        "Command and Conquer,Everfest,normal,6,low,6,low,6,low,6,low,7,trend",
+        "Command and Conquer,Everfest,normal,6,low,,,,,,,7,trend",
         "",
         "# page 3 — Ratio: tcgplayer / cardmarket",
         "# ratio: tcgplayer / cardmarket",
         "# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)",
         "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
-        "Command and Conquer,Everfest,normal,+40.2%,listing/low,+36.4%,listing/low,,,,",
+        "Command and Conquer,Everfest,normal,+40.2%,listing/low,,,,,,",
         "",
         "# page 4 — Ratio: cardmarket / tcgplayer",
         "# ratio: cardmarket / tcgplayer",
         "# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)",
         "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
-        "Command and Conquer,Everfest,normal,-28.6%,low/listing,-26.7%,low/listing,,,,",
+        "Command and Conquer,Everfest,normal,-28.6%,low/listing,,,,,,",
       ].join("\n"),
     );
   });

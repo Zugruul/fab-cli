@@ -51,7 +51,6 @@ import {
   CONDITION_COLUMNS,
   type ConditionCell,
   type ConditionColumn,
-  type ConditionPrices,
   type Finish,
   type PriceRow,
 } from "./types";
@@ -244,10 +243,6 @@ interface ExportCardmarketRow extends PriceRow {
   trend: ConditionCell | null;
 }
 
-function conditionsFromLow(low: ConditionCell | null): ConditionPrices {
-  return { NM: low, "SP/LP": low, MP: low, HP: low };
-}
-
 function buildCardmarketRowsForExport(
   data: CardmarketData,
   anchorMap: ExpansionAnchorMap,
@@ -271,23 +266,26 @@ function buildCardmarketRowsForExport(
     const guideRow = data.priceGuideByProduct.get(product.idProduct);
     const normal = guideRow
       ? resolvePrices(guideRow, "normal")
-      : { conditions: null, trend: null };
+      : {
+          conditions: { NM: null, "SP/LP": null, MP: null, HP: null },
+          trend: null,
+        };
     rows.push({
       name: product.name,
       set,
       finish: "normal",
-      conditions: conditionsFromLow(normal.conditions),
+      conditions: normal.conditions,
       trend: normal.trend,
     });
 
     if (guideRow) {
       const foil = resolvePrices(guideRow, "foil");
-      if (foil.conditions != null || foil.trend != null) {
+      if (foil.conditions.NM != null || foil.trend != null) {
         rows.push({
           name: product.name,
           set,
           finish: "foil",
-          conditions: conditionsFromLow(foil.conditions),
+          conditions: foil.conditions,
           trend: foil.trend,
         });
       }

@@ -57,7 +57,6 @@ import {
   CONDITION_COLUMNS,
   type ConditionCell,
   type ConditionColumn,
-  type ConditionPrices,
   type Finish,
   type PriceRow,
 } from "./types";
@@ -265,11 +264,6 @@ export interface CardmarketPriceRow extends PriceRow {
   trend: ConditionCell | null;
 }
 
-/** All four condition columns share the one real 'low' cell (§8.3, real-data-only). */
-function conditionsFromLow(low: ConditionCell | null): ConditionPrices {
-  return { NM: low, "SP/LP": low, MP: low, HP: low };
-}
-
 async function buildCardmarketRows(
   canonicalName: string,
   anchorMap: ExpansionAnchorMap,
@@ -288,12 +282,15 @@ async function buildCardmarketRows(
 
     const normal = guideRow
       ? resolvePrices(guideRow, "normal")
-      : { conditions: null, trend: null };
+      : {
+          conditions: { NM: null, "SP/LP": null, MP: null, HP: null },
+          trend: null,
+        };
     rows.push({
       name: product.name,
       set,
       finish: "normal",
-      conditions: conditionsFromLow(normal.conditions),
+      conditions: normal.conditions,
       trend: normal.trend,
     });
 
@@ -302,12 +299,12 @@ async function buildCardmarketRows(
       // Only emit a foil row when there's an actual foil price — otherwise
       // this would manufacture a spurious all-null "no-price" row for a
       // product that may not even have a foil printing.
-      if (foil.conditions != null || foil.trend != null) {
+      if (foil.conditions.NM != null || foil.trend != null) {
         rows.push({
           name: product.name,
           set,
           finish: "foil",
-          conditions: conditionsFromLow(foil.conditions),
+          conditions: foil.conditions,
           trend: foil.trend,
         });
       }

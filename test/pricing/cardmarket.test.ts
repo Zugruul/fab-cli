@@ -155,11 +155,15 @@ describe("fetchCardmarketData", () => {
   });
 });
 
-describe("resolvePrices (real-data-only reshape, issue #61)", () => {
-  // §8.3 amended: all four condition columns (NM, SP/LP, MP, HP) share one
-  // `low`-sourced cell (`conditions`); `trend` is a SEPARATE reference-only
-  // value (the §8.3 cascade trend->avg30->avg7->avg1, no longer falling
-  // back to `low` — `low` is now exclusively the conditions cell's source).
+describe("resolvePrices (NM-only Cardmarket condition fill, issue #67)", () => {
+  // §8.3 amended (#67): Cardmarket has no real per-condition data at all —
+  // only ONE aggregate `low` value. Fanning that single number into all
+  // four condition columns falsely implies per-condition granularity that
+  // doesn't exist. So `conditions.NM` is the only populated column (still
+  // sourced from `low`/`low-foil`); SP/LP, MP, HP are ALWAYS null,
+  // regardless of what `low` resolves to. `trend` is unchanged: a SEPARATE
+  // reference-only value (the §8.3 cascade trend->avg30->avg7->avg1, never
+  // falling back to `low`).
   function rowFor(idProduct: number): CardmarketPriceGuideRow {
     const fixture = loadFixture("price_guide_16") as {
       priceGuides: CardmarketPriceGuideRow[];
@@ -169,9 +173,14 @@ describe("resolvePrices (real-data-only reshape, issue #61)", () => {
     return row;
   }
 
-  it("normal: conditions cell is always 'low', regardless of trend", () => {
+  it("normal: conditions.NM is 'low', SP/LP, MP, HP are always null", () => {
     const result = resolvePrices(rowFor(100), "normal");
-    expect(result.conditions).toEqual({ price: 3.0, source: "low" });
+    expect(result.conditions).toEqual({
+      NM: { price: 3.0, source: "low" },
+      "SP/LP": null,
+      MP: null,
+      HP: null,
+    });
   });
 
   it("normal: trend reference column uses trend when present", () => {
@@ -187,19 +196,32 @@ describe("resolvePrices (real-data-only reshape, issue #61)", () => {
   it("normal: trend is null (not low) when trend/avg30/avg7/avg1 are all null — low never backs the Trend column", () => {
     const result = resolvePrices(rowFor(102), "normal");
     expect(result.trend).toBeNull();
-    expect(result.conditions).toEqual({ price: 0.2, source: "low" });
+    expect(result.conditions.NM).toEqual({ price: 0.2, source: "low" });
+    expect(result.conditions["SP/LP"]).toBeNull();
+    expect(result.conditions.MP).toBeNull();
+    expect(result.conditions.HP).toBeNull();
   });
 
-  it("normal: both conditions and trend are null when every field is null", () => {
+  it("normal: conditions.NM and trend are both null when every field is null", () => {
     const result = resolvePrices(rowFor(103), "normal");
-    expect(result.conditions).toBeNull();
+    expect(result.conditions).toEqual({
+      NM: null,
+      "SP/LP": null,
+      MP: null,
+      HP: null,
+    });
     expect(result.trend).toBeNull();
   });
 
-  it("foil: uses the -foil field variants for both conditions and trend", () => {
+  it("foil: uses the -foil field variants for both conditions.NM and trend; SP/LP, MP, HP still null", () => {
     const result = resolvePrices(rowFor(100), "foil");
     expect(result.trend).toEqual({ price: 12.75, source: "trend" });
-    expect(result.conditions).toEqual({ price: 9.0, source: "low" });
+    expect(result.conditions).toEqual({
+      NM: { price: 9.0, source: "low" },
+      "SP/LP": null,
+      MP: null,
+      HP: null,
+    });
   });
 
   it("foil: treats trend-foil of 0 as no-data and cascades to avg30-foil", () => {
@@ -218,12 +240,17 @@ describe("resolvePrices (real-data-only reshape, issue #61)", () => {
   it("handles missing keys entirely (not just null) safely", () => {
     const result = resolvePrices(rowFor(105), "normal");
     expect(result.trend).toEqual({ price: 4.0, source: "trend" });
-    expect(result.conditions).toBeNull();
+    expect(result.conditions.NM).toBeNull();
   });
 
   it("foil: missing keys entirely for the row's foil fields resolve to null", () => {
     const result = resolvePrices(rowFor(105), "foil");
-    expect(result.conditions).toBeNull();
+    expect(result.conditions).toEqual({
+      NM: null,
+      "SP/LP": null,
+      MP: null,
+      HP: null,
+    });
     expect(result.trend).toBeNull();
   });
 });
