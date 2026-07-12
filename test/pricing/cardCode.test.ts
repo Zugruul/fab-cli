@@ -14,14 +14,47 @@ describe("lookupCardCode", () => {
   });
 
   it("distinguishes normal vs foil when they carry different codes", () => {
-    // Ironsong Response's Local Game Store Promos printings: LGS008 is the
-    // Standard (normal) row, LGS029 is a distinct Rainbow Foil row.
+    // Ironsong Response is a 3-pitch card, so its Local Game Store Promos
+    // printings need the (Red) pitch suffix to resolve unambiguously:
+    // LGS008 is the Standard (normal) row, LGS029 a distinct Rainbow Foil row.
     expect(
-      lookupCardCode("Ironsong Response", "Local Game Store Promos", "normal"),
+      lookupCardCode(
+        "Ironsong Response (Red)",
+        "Local Game Store Promos",
+        "normal",
+      ),
     ).toBe("LGS008");
     expect(
-      lookupCardCode("Ironsong Response", "Local Game Store Promos", "foil"),
+      lookupCardCode(
+        "Ironsong Response (Red)",
+        "Local Game Store Promos",
+        "foil",
+      ),
     ).toBe("LGS029");
+  });
+
+  it("routes a marketplace pitch suffix to the matching pitch printing (multi-pitch card)", () => {
+    // Bare Fangs has 3 separate pitch entries in the vendored DB (pitch
+    // "1"/"2"/"3"), each with its own Everfest code — the card.json `name`
+    // field never carries the suffix, only marketplace product names do.
+    expect(lookupCardCode("Bare Fangs (Red)", "Everfest", "normal")).toBe(
+      "EVR008",
+    );
+    expect(lookupCardCode("Bare Fangs (Yellow)", "Everfest", "normal")).toBe(
+      "EVR009",
+    );
+    expect(lookupCardCode("Bare Fangs (Blue)", "Everfest", "normal")).toBe(
+      "EVR010",
+    );
+  });
+
+  it("never guesses a pitch for a multi-pitch card looked up without a suffix", () => {
+    // Ironsong Response has 3 distinct pitch printings in this set (LGS008/
+    // LGS029, LGS030, LGS031) — with no (Red)/(Yellow)/(Blue) suffix telling
+    // us which one, returning any single one would be a guess, not a match.
+    expect(
+      lookupCardCode("Ironsong Response", "Local Game Store Promos", "normal"),
+    ).toBe(null);
   });
 
   it("returns null (never throws) for an unknown card name", () => {
