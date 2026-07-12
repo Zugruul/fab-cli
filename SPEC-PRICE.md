@@ -136,7 +136,7 @@ Each condition cell is `{ price, source }`; `source` states exactly where the nu
 
 No per-condition source exists (§6.3), so deterministically:
 
-- NM = `trend` (or `trend-foil` for foil rows), source `trend`; IF trend is null/0 THEN fall back to `avg30`→`avg7`→`avg1`→`low` in that order, keeping the field name as source.
+- NM = `trend` (or `trend-foil` for foil rows), source `trend`; IF the field is null or absent THEN fall back to `avg30`→`avg7`→`avg1`→`low` in that order, keeping the field name as source. For the foil finish only, a `trend-foil` value of exactly `0` is ALSO treated as no-data (Cardmarket's observed upstream marker for "no trend price recorded") and triggers the same fallback cascade. A normal-finish `trend` of `0` is a genuine price and is used as-is with source `trend` — it never triggers the fallback.
 - SP/LP, MP, HP = `low` (or `low-foil`), source `low` — always flagged as fallback since `low` is the cheapest listing of *any* condition.
 - IF every field is null THEN all cells empty, reason `no-price`.
 
