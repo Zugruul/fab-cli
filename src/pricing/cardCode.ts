@@ -72,7 +72,9 @@ function buildIndex(): Map<string, CodeBucket> {
   if (!fs.existsSync(CARD_DB_PATH) || !fs.existsSync(SET_DB_PATH)) {
     return new Map();
   }
-  const cards = JSON.parse(fs.readFileSync(CARD_DB_PATH, "utf-8")) as CardEntry[];
+  const cards = JSON.parse(
+    fs.readFileSync(CARD_DB_PATH, "utf-8"),
+  ) as CardEntry[];
   const sets = JSON.parse(fs.readFileSync(SET_DB_PATH, "utf-8")) as SetEntry[];
 
   const setIdToName = new Map<string, string>();

@@ -21,6 +21,18 @@ import {
 import type { ComparisonRow, RatioCell, UnmatchedRow } from "./compare";
 import { formatRatioPct } from "./compare";
 import type { FxRate } from "./fx";
+import { lookupCardCode } from "./cardCode";
+
+/**
+ * The official FAB printing code (e.g. "EVR141") for a row, or "" when the
+ * vendored card DB has no matching (name, set, finish) — the empty-cell
+ * convention every other CSV field already follows. Looked up here, not
+ * carried on the row types (compare.ts's ComparisonRow/UnmatchedRow don't
+ * have a `code` field), so every CSV writer applies it uniformly.
+ */
+function codeCell(name: string, set: string, finish: Finish): string {
+  return lookupCardCode(name, set, finish) ?? "";
+}
 
 // ---------------------------------------------------------------------------
 // Escaping + row helpers
@@ -87,8 +99,8 @@ export function renderPricePageCsv(
   opts: RenderPricePageOptions,
 ): string {
   const header = opts.trendColumn
-    ? "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source"
-    : "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source";
+    ? "Name,Set,Finish,Code,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source"
+    : "Name,Set,Finish,Code,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source";
   const lines = [`# currency: ${opts.currency}`, header];
 
   const sorted = sortRows(rows, opts.compareSets);
@@ -101,7 +113,14 @@ export function renderPricePageCsv(
       ? [row.trend ? row.trend.price : "", row.trend ? row.trend.source : ""]
       : [];
     lines.push(
-      csvRow([row.name, row.set, row.finish, ...cells, ...trendCells]),
+      csvRow([
+        row.name,
+        row.set,
+        row.finish,
+        codeCell(row.name, row.set, row.finish),
+        ...cells,
+        ...trendCells,
+      ]),
     );
   }
   return lines.join("\n");
@@ -133,7 +152,7 @@ export function renderRatioPageCsv(
   const lines = [
     `# ratio: ${opts.pairLabel}`,
     `# fx: 1 EUR = ${opts.fx.rate} USD (ECB ${opts.fx.date})`,
-    "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
+    "Name,Set,Finish,Code,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
   ];
 
   const sorted = sortRows(rows, opts.compareSets);
@@ -143,7 +162,15 @@ export function renderRatioPageCsv(
       const cell = rowRatios?.[column];
       return [cell ? formatRatioPct(cell.pct) : "", cell ? cell.basis : ""];
     });
-    lines.push(csvRow([row.name, row.set, row.finish, ...cells]));
+    lines.push(
+      csvRow([
+        row.name,
+        row.set,
+        row.finish,
+        codeCell(row.name, row.set, row.finish),
+        ...cells,
+      ]),
+    );
   }
   return lines.join("\n");
 }
@@ -153,16 +180,23 @@ export function renderRatioPageCsv(
 // ---------------------------------------------------------------------------
 
 /**
- * Renders `unmatched.csv`: `Provider,Name,Set,Finish,Reason`. Row order
+ * Renders `unmatched.csv`: `Provider,Name,Set,Finish,Code,Reason`. Row order
  * follows the input order (buildComparisonRows already produces `unmatched`
  * deterministically from deterministic provider input) — §9.3's set/name/
  * finish ordering rule is scoped to the price/ratio pages, not this report.
  */
 export function renderUnmatchedCsv(unmatched: UnmatchedRow[]): string {
-  const lines = ["Provider,Name,Set,Finish,Reason"];
+  const lines = ["Provider,Name,Set,Finish,Code,Reason"];
   for (const row of unmatched) {
     lines.push(
-      csvRow([row.provider, row.name, row.set, row.finish, row.reason]),
+      csvRow([
+        row.provider,
+        row.name,
+        row.set,
+        row.finish,
+        codeCell(row.name, row.set, row.finish),
+        row.reason,
+      ]),
     );
   }
   return lines.join("\n");
