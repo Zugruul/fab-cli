@@ -104,6 +104,9 @@ async function fetchJson(url: string, opts: FxOptions): Promise<unknown> {
  * (never a raw TypeError) for any missing/malformed field.
  */
 function parseFxRate(raw: FrankfurterResponse): FxRate {
+  if (raw == null || typeof raw !== "object") {
+    throw new FxDataError("response is not an object");
+  }
   if (typeof raw.date !== "string" || raw.date.length === 0) {
     throw new FxDataError("missing or non-string date");
   }
