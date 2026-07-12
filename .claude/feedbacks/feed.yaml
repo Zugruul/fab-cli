@@ -632,3 +632,46 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/nudge-idle-subagents
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T05:05:00Z'
+iteration:
+  task: PRICE-003
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Reviewer proved red-first TDD by running tests in an isolated worktree
+    at the test-only commit
+  detail: Stronger than log-ordering inspection; also caught a real crash-on-missing-key
+    bug on the client's primary path.
+  evidence:
+  - fab-cli#52
+  generalized: Verifying TDD by executing the test commit in an isolated worktree
+    (tests must fail red without the implementation) is cheap and unfakeable, and
+    pairs well with hunting unguarded optional fields in clients of untyped external
+    APIs.
+  routing:
+    action: brain-note
+    ref: reviewer/isolated-worktree-tdd-proof
+- category: friction
+  area: testing
+  severity: low
+  summary: Shared-checkout node_modules drifted from package.json, failing an unrelated
+    test suite mid-task
+  detail: A declared dependency was missing from node_modules; the dev ran npm install
+    to heal it. Likely caused by concurrent lanes installing at different times.
+  evidence:
+  - fab-cli#52
+  generalized: In shared checkouts worked by multiple agent lanes, node_modules can
+    drift from the lockfile mid-task; briefs should treat missing-module test failures
+    as environment drift (reinstall) rather than code regressions.
+  routing:
+    action: brain-note
+    ref: dev/untyped-api-optional-fields

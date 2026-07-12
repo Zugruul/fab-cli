@@ -13,5 +13,15 @@
     "fires": 1,
     "last": "2026-07-12",
     "weight": 0.5
+  },
+  "untyped-api-optional-fields->pricing-cache-contract": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "untyped-api-optional-fields->provider-prefixed-raw-types": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }

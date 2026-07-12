@@ -1,1 +1,7 @@
-{}
+{
+  "isolated-worktree-tdd-proof->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}
