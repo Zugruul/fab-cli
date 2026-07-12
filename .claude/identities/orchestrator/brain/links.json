@@ -74,6 +74,11 @@
     "last": null,
     "weight": 0.5
   },
+  "peer-agent-cleanup-requires-authorization->nudge-idle-subagents": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "recall-needs-structural-links->brain-bulk-writes-need-link-reindex": {
     "fires": 0,
     "last": null,
