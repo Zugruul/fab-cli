@@ -4,7 +4,14 @@ import globals from "globals";
 
 export default tseslint.config(
   {
-    ignores: ["third_party/**", "lore/**", "node_modules/**", "dist/**"],
+    ignores: [
+      "third_party/**",
+      "lore/**",
+      "node_modules/**",
+      "dist/**",
+      ".claude/**",
+      ".venv*/**",
+    ],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
