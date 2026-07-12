@@ -1,7 +1,7 @@
 ---
 task: PRICE-061
 spec: price
-sections: ["§8.1", "§8.2", "§8.3", "§8.4", "§6.4", "§9.1", "§9.3"]
+sections: ["§6.1", "§6.2", "§8.1", "§8.2", "§8.3", "§8.4", "§6.4", "§9.1", "§9.3"]
 ---
 
 **Reason:** the user validated `fab-cli price-comparison card` output against
@@ -13,6 +13,45 @@ Cardmarket) diverged from what a buyer would actually see. Ruling: real data
 or nothing — an empty cell is honest, a fabricated cell is a bug. This delta
 removes every fabricated-fill path and reshapes the Cardmarket price page to
 show real, observable data plus one clearly-labeled reference column.
+
+## §6.1 tcgcsv.com (TCGplayer catalog + market prices) — MODIFIED
+
+**Reason:** validated against the live tcgcsv response for a real dual-finish
+product (Everfest Haze Bending, productId 261479): `subTypeName` is NOT the
+plain `"Normal"|"Foil"` literal the spec assumed — real values are e.g.
+`"1st Edition Normal"`, `"Unlimited Edition Normal"`, `"1st Edition Rainbow
+Foil"`, `"Cold Foil"`. Code that compared `subTypeName === "Foil"` exactly
+never matched, so every real foil price row was silently misclassified as
+normal and no foil row ever rendered for any dual-finish product.
+
+**Original wording:**
+
+> Price rows: `{ productId, lowPrice, midPrice, highPrice, marketPrice, directLowPrice, subTypeName: "Normal"|"Foil" }`.
+
+**Replacement wording:**
+
+> Price rows: `{ productId, lowPrice, midPrice, highPrice, marketPrice, directLowPrice, subTypeName: string }`. `subTypeName` is NOT a plain `"Normal"|"Foil"` literal in production — observed real values include `"1st Edition Normal"`, `"Unlimited Edition Normal"`, `"1st Edition Rainbow Foil"`, `"Cold Foil"`. Every foil variant string observed to date contains the substring `"Foil"`; every normal variant does not. Callers determining finish SHALL check for that substring, never an exact-match comparison against a literal `"Foil"`.
+
+## §6.2 TCGplayer storefront search (per-condition live listings) — MODIFIED
+
+**Reason:** the storefront search caps how many listings it returns per
+product to a small number (observed: as few as 3), ranked price-ascending
+ACROSS ALL PRINTINGS when no printing filter is given. For a card with both
+a normal and a foil printing, a cheap finish's listings can fill that cap
+entirely, crowding the other finish's real listings out of the response —
+this is exactly the kind of cross-finish contamination §8.2's real-data-only
+rule (PRICE-061) forbids, and is why a product's foil row could be silently
+missing from `card` output even when live foil listings exist. Verified live
+that adding a `printing` term filter with the finish's known printing
+strings correctly isolates each finish's listings.
+
+**Original wording:**
+
+> `POST https://mp-search-api.tcgplayer.com/v1/search/request` with browser-like headers (User-Agent, Origin/Referer `https://www.tcgplayer.com`). Body filters: `productLineName: ["flesh-and-blood-tcg"]`, optional `setName`, and `listingSearch.filters.term` with `condition: [<one condition>]`, `sellerStatus: "Live"`, `quantity ≥ 1`; sort price-ascending. Each returned product embeds its cheapest matching listings → lowest listing per (product, condition).
+
+**Replacement wording:**
+
+> `POST https://mp-search-api.tcgplayer.com/v1/search/request` with browser-like headers (User-Agent, Origin/Referer `https://www.tcgplayer.com`). Body filters: `productLineName: ["flesh-and-blood-tcg"]`, optional `setName`, and `listingSearch.filters.term` with `condition: [<one condition>]`, `sellerStatus: "Live"`, `quantity ≥ 1`, **and `printing: [<finish's known printing strings>]`** — the single-card `card` command's `fetchProductConditions` (PRICE-012) queries every condition TWICE, once per finish, each with its finish's printing-term filter (`NORMAL_PRINTINGS` = `["Normal", "1st Edition Normal", "Unlimited Edition Normal"]`; `FOIL_PRINTINGS` = `["Foil", "Cold Foil", "Rainbow Foil", "1st Edition Rainbow Foil", "Unlimited Edition Rainbow Foil"]`) — so a product's normal and foil listings are never mixed within the search API's per-product listing cap. Sort price-ascending. Each returned product embeds its cheapest matching listings for that (condition, finish) → lowest listing per (product, condition, finish).
 
 ## §8.1 General rule — MODIFIED
 
@@ -171,6 +210,12 @@ show real, observable data plus one clearly-labeled reference column.
 >   `trend`-cascade `-foil` fields) is present and not the Cardmarket
 >   "no data" marker (§8.3). Everything else about foil-row emission is
 >   unchanged from the original wording.
+> - The TCGplayer side has the analogous rule (new, §6.2/§8.2): a foil row
+>   is emitted for a product whenever EITHER a tcgcsv Foil-variant price row
+>   exists (per §6.1's amended `subTypeName` substring check) OR at least
+>   one real foil-finish listing exists (per §6.2's per-finish printing
+>   filter) — never manufactured, never silently dropped when real foil data
+>   exists on only one of those two sources.
 > - Ratio table Basis cells now read `listing/low` (or are empty) — see §8.4.
 
 ## §9.3 CSV format — MODIFIED

@@ -14,6 +14,13 @@
 // bold/footnote fallback marker anywhere — a cell is either a real price or
 // empty ('—'). The Cardmarket price page additionally carries a reference-
 // only Trend column (never used in ratio cells).
+//
+// PER-FINISH LISTING QUERIES (issue #61 follow-up): fetchProductConditions
+// now returns listings split by finish (normal/foil) — querying without a
+// finish filter let a cheaper finish's listings crowd out the other's
+// within the search API's per-product listing cap, both fabricating
+// cross-finish prices and silently dropping foil rows entirely. See
+// tcgplayerSearch.ts's NORMAL_PRINTINGS/FOIL_PRINTINGS doc comment.
 
 import chalk from "chalk";
 import Table from "cli-table3";
@@ -26,7 +33,7 @@ import {
   type TcgcsvPriceRow,
 } from "./tcgcsv";
 import type {
-  ConditionPriceMap,
+  FinishConditionPriceMap,
   TcgplayerSearchOptions,
 } from "./tcgplayerSearch";
 import type { CardmarketData, CardmarketOptions } from "./cardmarket";
@@ -50,6 +57,7 @@ import {
   type ConditionCell,
   type ConditionColumn,
   type ConditionPrices,
+  type Finish,
   type PriceRow,
 } from "./types";
 
@@ -130,7 +138,7 @@ export interface CardCommandDeps {
   fetchProductConditions(
     q: string,
     opts?: TcgplayerSearchOptions,
-  ): Promise<Map<number, ConditionPriceMap>>;
+  ): Promise<Map<number, FinishConditionPriceMap>>;
   fetchCardmarketData(opts?: CardmarketOptions): Promise<CardmarketData>;
   fetchEurUsdRate(opts?: FxOptions): Promise<FxRate>;
   expansionAnchorMap: ExpansionAnchorMap;
@@ -188,9 +196,12 @@ async function buildTcgplayerRows(
 
   const rows: PriceRow[] = [];
   for (const entry of entries) {
-    const listings =
-      conditionsByProduct.get(entry.productId) ??
-      ({ NM: null, "SP/LP": null, MP: null, HP: null } as ConditionPriceMap);
+    const finishListings: FinishConditionPriceMap = conditionsByProduct.get(
+      entry.productId,
+    ) ?? {
+      normal: { NM: null, "SP/LP": null, MP: null, HP: null },
+      foil: { NM: null, "SP/LP": null, MP: null, HP: null },
+    };
     const priceRows = priceRowsByProductId.get(entry.productId) ?? [];
     const finishRows =
       priceRows.length > 0
@@ -202,9 +213,17 @@ async function buildTcgplayerRows(
             } as TcgcsvPriceRow,
           ];
 
-    const seenFinishes = new Set<string>();
+    const seenFinishes = new Set<Finish>();
     for (const priceRow of finishRows) {
-      const finish = priceRow.subTypeName === "Foil" ? "foil" : "normal";
+      // Real subTypeName values are NOT a plain "Normal"/"Foil" literal
+      // (e.g. "1st Edition Rainbow Foil", "Cold Foil") — see tcgcsv.ts's
+      // TcgcsvPriceRow doc comment. A substring check is required; an exact
+      // match silently classified every real foil row as normal, which is
+      // why a product's foil row could go missing entirely (issue #61
+      // follow-up).
+      const finish: Finish = priceRow.subTypeName.includes("Foil")
+        ? "foil"
+        : "normal";
       if (seenFinishes.has(finish)) continue; // one row per finish per product
       seenFinishes.add(finish);
 
@@ -212,8 +231,29 @@ async function buildTcgplayerRows(
         name: entry.name,
         set: entry.groupName,
         finish,
-        conditions: fillTcgplayerConditions({ listings }),
+        conditions: fillTcgplayerConditions({
+          listings: finishListings[finish],
+        }),
       });
+    }
+
+    // A foil variant with real live listings but no tcgcsv Foil price row
+    // still gets a row — never silently dropped — mirroring Cardmarket's
+    // "emit only when something real backs it" foil-skip rule (§9.1).
+    if (!seenFinishes.has("foil")) {
+      const hasFoilListing = CONDITION_COLUMNS.some(
+        (c) => finishListings.foil[c] != null,
+      );
+      if (hasFoilListing) {
+        rows.push({
+          name: entry.name,
+          set: entry.groupName,
+          finish: "foil",
+          conditions: fillTcgplayerConditions({
+            listings: finishListings.foil,
+          }),
+        });
+      }
     }
   }
   return rows;
