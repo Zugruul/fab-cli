@@ -42,6 +42,21 @@ assign the foil-exclusive row its own distinct id (e.g. Local Game Store
 Promos' Ironsong Response: `LGS008` normal, `LGS029` foil). The lookup is
 therefore keyed by finish too, not collapsed across foilings.
 
+**Pitch disambiguation (post-review amendment):** a multi-pitch card is
+represented as three separate entries in the vendored DB — one per pitch,
+each with its own `pitch` field ("1"/"2"/"3") — and the DB's `name` field
+never carries a pitch suffix on any of them (e.g. three "Bare Fangs"
+entries, pitch 1/2/3, each with its own distinct Everfest code: `EVR008`/
+`EVR009`/`EVR010`). Marketplace product names DO carry the `(Red)`/
+`(Yellow)`/`(Blue)` suffix for these cards, which `normalizeCardName`
+deliberately preserves (§7.1) — so the Code lookup parses that suffix back
+out and routes it to the DB's matching `pitch` field, rather than treating
+`(name, set)` alone as the key. Looking up a multi-pitch card WITHOUT a
+pitch suffix is ambiguous (three candidate codes, no way to pick the right
+one) and returns empty rather than guessing; a single-pitch card resolves
+regardless of any suffix, since there is no competing pitch entry to
+confuse it with.
+
 ## §9.1 `card` command — ADDED
 
 The TCGplayer price table, the Cardmarket price table, and both ratio
