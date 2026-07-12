@@ -621,3 +621,47 @@ describe("renderCsv", () => {
     );
   });
 });
+
+// ---------------------------------------------------------------------------
+// Characterization test (PRICE-020): locks the exact byte-for-byte renderCsv
+// output captured from cardCommand.ts's original inline CSV writer BEFORE it
+// was refactored to delegate into src/pricing/csv.ts. This must still pass,
+// unmodified, after the refactor — that's the acceptance bar for "lift,
+// don't duplicate" (docs/design/price-E2.md).
+// ---------------------------------------------------------------------------
+
+describe("renderCsv — characterization (pre/post csv.ts refactor)", () => {
+  it("is byte-identical to the pre-refactor inline-writer output for the standard fixture", async () => {
+    const deps = makeDeps();
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    const csv = renderCsv(result);
+    expect(csv).toBe(
+      [
+        "# page 1 — TCGplayer prices (USD)",
+        "# currency: USD",
+        "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
+        "Command and Conquer,Everfest,normal,9.25,listing,9,listing,,,,",
+        "",
+        "# page 2 — Cardmarket prices (EUR)",
+        "# currency: EUR",
+        "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
+        "Command and Conquer,Everfest,normal,6,low,6,low,6,low,6,low,7,trend",
+        "",
+        "# page 3 — Ratio: tcgplayer / cardmarket",
+        "# ratio: tcgplayer / cardmarket",
+        "# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)",
+        "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
+        "Command and Conquer,Everfest,normal,+40.2%,listing/low,+36.4%,listing/low,,,,",
+        "",
+        "# page 4 — Ratio: cardmarket / tcgplayer",
+        "# ratio: cardmarket / tcgplayer",
+        "# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)",
+        "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
+        "Command and Conquer,Everfest,normal,-28.6%,low/listing,-26.7%,low/listing,,,,",
+      ].join("\n"),
+    );
+  });
+});

@@ -52,6 +52,7 @@ import {
   type RatioCell,
   type UnmatchedRow,
 } from "./compare";
+import { renderPricePageCsv, renderRatioPageCsv } from "./csv";
 import {
   CONDITION_COLUMNS,
   type ConditionCell,
@@ -583,104 +584,32 @@ export function printCardComparison(
 }
 
 // ---------------------------------------------------------------------------
-// CSV rendering (§9.3-shaped) — kept local to this command; PRICE-020 (E2)
-// builds the shared csv.ts writer for `export`. If that lands first and this
-// is trivial to delegate to it, do so there; this is intentionally minimal.
+// CSV rendering (§9.3-shaped) — delegates to the shared src/pricing/csv.ts
+// writers (PRICE-020/E2). This command owns only the `# page N` separators
+// and the per-page collapse/ratio-map plumbing csv.ts expects as input;
+// csv.ts owns the actual line format, ordering, and escaping.
 // ---------------------------------------------------------------------------
 
-function csvEscape(value: string): string {
-  if (/[",\n]/.test(value)) return `"${value.replace(/"/g, '""')}"`;
-  return value;
-}
-
-function csvRow(values: (string | number)[]): string {
-  return values.map((v) => csvEscape(String(v))).join(",");
-}
-
-function pricePageCsv(rawRows: PriceRow[]): string {
-  // Same collapse as renderPriceTable (§4.2) — see its comment.
-  const rows = collapseDuplicates(rawRows);
-  const lines = [
-    "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
-  ];
-  const sorted = [...rows].sort(
-    (a, b) =>
-      a.set.localeCompare(b.set) ||
-      a.name.localeCompare(b.name) ||
-      (a.finish === b.finish ? 0 : a.finish === "normal" ? -1 : 1),
-  );
-  for (const row of sorted) {
-    const cells = CONDITION_COLUMNS.flatMap((column) => {
-      const cell = row.conditions[column];
-      return [cell ? cell.price : "", cell ? cell.source : ""];
-    });
-    lines.push(csvRow([row.name, row.set, row.finish, ...cells]));
-  }
-  return lines.join("\n");
-}
-
-/**
- * Cardmarket price page CSV (issue #61): same header as `pricePageCsv` plus
- * a trailing `Trend,Trend Source` companion pair (§9.3).
- */
-function cardmarketPriceCsv(rawRows: CardmarketPriceRow[]): string {
-  const rows = collapseDuplicates(rawRows);
-  const lines = [
-    "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
-  ];
-  const sorted = [...rows].sort(
-    (a, b) =>
-      a.set.localeCompare(b.set) ||
-      a.name.localeCompare(b.name) ||
-      (a.finish === b.finish ? 0 : a.finish === "normal" ? -1 : 1),
-  );
-  for (const row of sorted) {
-    const cells = CONDITION_COLUMNS.flatMap((column) => {
-      const cell = row.conditions[column];
-      return [cell ? cell.price : "", cell ? cell.source : ""];
-    });
-    const trendCells = [
-      row.trend ? row.trend.price : "",
-      row.trend ? row.trend.source : "",
-    ];
-    lines.push(
-      csvRow([row.name, row.set, row.finish, ...cells, ...trendCells]),
-    );
-  }
-  return lines.join("\n");
-}
-
-function ratioPageCsv(
+/** Builds the ratio-cells-per-row map renderRatioPageCsv expects (§8.4). */
+function buildRatioMap(
   rows: ComparisonRow[],
+  providerAKey: PriceProviderId,
+  providerBKey: PriceProviderId,
   currencyA: "USD" | "EUR",
   currencyB: "USD" | "EUR",
   fx: FxRate,
   common: "usd" | "eur",
-  providerAKey: "tcgplayer" | "cardmarket",
-  providerBKey: "tcgplayer" | "cardmarket",
-): string {
-  const lines = [
-    "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
-  ];
-  const sorted = [...rows].sort(
-    (a, b) => a.set.localeCompare(b.set) || a.name.localeCompare(b.name),
-  );
-  for (const row of sorted) {
+): Map<ComparisonRow, Record<ConditionColumn, RatioCell | null>> {
+  const map = new Map<
+    ComparisonRow,
+    Record<ConditionColumn, RatioCell | null>
+  >();
+  for (const row of rows) {
     const a = row.conditionsByProvider[providerAKey];
     const b = row.conditionsByProvider[providerBKey];
-    const ratios = computeRatioCells(a, b, {
-      fx,
-      currencyA,
-      currencyB,
-      common,
-    });
-    const cells = CONDITION_COLUMNS.flatMap((column) => {
-      const cell = ratios[column];
-      return [cell ? formatRatioPct(cell.pct) : "", cell ? cell.basis : ""];
-    });
-    lines.push(csvRow([row.name, row.set, row.finish, ...cells]));
+    map.set(row, computeRatioCells(a, b, { fx, currencyA, currencyB, common }));
   }
-  return lines.join("\n");
+  return map;
 }
 
 /** Renders the full §9.3-shaped, `# page N` separated CSV for the `card` command. */
@@ -690,10 +619,16 @@ export function renderCsv(
   const pages: string[] = [];
 
   pages.push(
-    `# page 1 — TCGplayer prices (USD)\n# currency: USD\n${pricePageCsv(result.tcgplayerRows)}`,
+    `# page 1 — TCGplayer prices (USD)\n${renderPricePageCsv(
+      collapseDuplicates(result.tcgplayerRows),
+      { currency: "USD" },
+    )}`,
   );
   pages.push(
-    `# page 2 — Cardmarket prices (EUR)\n# currency: EUR\n${cardmarketPriceCsv(result.cardmarketRows)}`,
+    `# page 2 — Cardmarket prices (EUR)\n${renderPricePageCsv(
+      collapseDuplicates(result.cardmarketRows),
+      { currency: "EUR", trendColumn: true },
+    )}`,
   );
 
   if (result.ratioError || !result.fx) {
@@ -703,27 +638,35 @@ export function renderCsv(
     return pages.join("\n\n");
   }
 
-  const fxLine = `# fx: 1 EUR = ${result.fx.rate} USD (ECB ${result.fx.date})`;
+  const fx = result.fx;
   pages.push(
-    `# page 3 — Ratio: tcgplayer / cardmarket\n# ratio: tcgplayer / cardmarket\n${fxLine}\n${ratioPageCsv(
+    `# page 3 — Ratio: tcgplayer / cardmarket\n${renderRatioPageCsv(
       result.comparisonRows,
-      "USD",
-      "EUR",
-      result.fx,
-      result.currency,
-      "tcgplayer",
-      "cardmarket",
+      buildRatioMap(
+        result.comparisonRows,
+        "tcgplayer",
+        "cardmarket",
+        "USD",
+        "EUR",
+        fx,
+        result.currency,
+      ),
+      { pairLabel: "tcgplayer / cardmarket", fx },
     )}`,
   );
   pages.push(
-    `# page 4 — Ratio: cardmarket / tcgplayer\n# ratio: cardmarket / tcgplayer\n${fxLine}\n${ratioPageCsv(
+    `# page 4 — Ratio: cardmarket / tcgplayer\n${renderRatioPageCsv(
       result.comparisonRows,
-      "EUR",
-      "USD",
-      result.fx,
-      result.currency,
-      "cardmarket",
-      "tcgplayer",
+      buildRatioMap(
+        result.comparisonRows,
+        "cardmarket",
+        "tcgplayer",
+        "EUR",
+        "USD",
+        fx,
+        result.currency,
+      ),
+      { pairLabel: "cardmarket / tcgplayer", fx },
     )}`,
   );
 
