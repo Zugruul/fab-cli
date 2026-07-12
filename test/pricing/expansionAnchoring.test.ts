@@ -252,14 +252,14 @@ describe("buildExpansionAnchorMap — unique-name voting + majority", () => {
 });
 
 describe("isPlausibleMatch", () => {
-  it("accepts a CM product count within 1.5x the tcgcsv group's product count", () => {
+  it("accepts a CM product count within 2.5x the tcgcsv group's product count", () => {
     expect(isPlausibleMatch(30, 28)).toBe(true);
-    expect(isPlausibleMatch(42, 28)).toBe(true); // exactly 1.5x
+    expect(isPlausibleMatch(70, 28)).toBe(true); // exactly 2.5x
   });
 
-  it("rejects a CM product count exceeding 1.5x the tcgcsv group's product count", () => {
+  it("rejects a CM product count exceeding 2.5x the tcgcsv group's product count", () => {
     expect(isPlausibleMatch(472, 1)).toBe(false);
-    expect(isPlausibleMatch(43, 28)).toBe(false);
+    expect(isPlausibleMatch(71, 28)).toBe(false);
   });
 
   it("rejects a nonzero CM product count against an empty tcgcsv group", () => {
