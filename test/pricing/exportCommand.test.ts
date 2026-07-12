@@ -154,17 +154,19 @@ describe("runExport — happy path", () => {
     const result = await runExport(baseDeps());
 
     expect(result.pricesTcgplayerCsv).toContain("# currency: USD");
+    // The "(Red)" pitch suffix on these synthetic fixture names doesn't
+    // match any vendored DB entry -> empty Code for every row here.
     expect(result.pricesTcgplayerCsv).toContain(
-      "Command and Conquer (Red),Everfest,normal,10,listing,8,listing,6,listing,4,listing",
+      "Command and Conquer (Red),Everfest,normal,,10,listing,8,listing,6,listing,4,listing",
     );
     expect(result.pricesTcgplayerCsv).toContain(
-      "Snatch (Red),Dusk till Dawn,normal,5,listing,4,listing,3,listing,2,listing",
+      "Snatch (Red),Dusk till Dawn,normal,,5,listing,4,listing,3,listing,2,listing",
     );
 
     expect(result.pricesCardmarketCsv).toContain("# currency: EUR");
     // #67: only NM carries the 'low' cell — SP/LP, MP, HP are always empty.
     expect(result.pricesCardmarketCsv).toContain(
-      "Command and Conquer (Red),Everfest,normal,9,low,,,,,,,,",
+      "Command and Conquer (Red),Everfest,normal,,9,low,,,,,,,,",
     );
 
     expect(result.ratioTcgplayerCardmarketCsv).toContain(
@@ -175,7 +177,7 @@ describe("runExport — happy path", () => {
     );
     expect(result.ratioError).toBeUndefined();
 
-    expect(result.unmatchedCsv).toBe("Provider,Name,Set,Finish,Reason");
+    expect(result.unmatchedCsv).toBe("Provider,Name,Set,Finish,Code,Reason");
 
     expect(result.summary.setsProcessed).toBe(2);
     expect(result.summary.rowsPerPage).toEqual({ tcgplayer: 2, cardmarket: 2 });
@@ -244,11 +246,11 @@ describe("runExport — 403-degraded mode", () => {
     // tcgplayer condition cell is empty — never a marketPrice/lowPrice
     // stand-in (§6.4/§8.2 PRICE-021 amendment).
     expect(result.pricesTcgplayerCsv).toContain(
-      "Command and Conquer (Red),Everfest,normal,,,,,,,,",
+      "Command and Conquer (Red),Everfest,normal,,,,,,,,,",
     );
     // The un-degraded set is unaffected.
     expect(result.pricesTcgplayerCsv).toContain(
-      "Snatch (Red),Dusk till Dawn,normal,5,listing,4,listing,3,listing,2,listing",
+      "Snatch (Red),Dusk till Dawn,normal,,5,listing,4,listing,3,listing,2,listing",
     );
   });
 
@@ -278,7 +280,7 @@ describe("runExport — FX failure", () => {
     // Price pages and unmatched.csv are unaffected.
     expect(result.pricesTcgplayerCsv).toContain("Command and Conquer");
     expect(result.pricesCardmarketCsv).toContain("Command and Conquer");
-    expect(result.unmatchedCsv).toBe("Provider,Name,Set,Finish,Reason");
+    expect(result.unmatchedCsv).toBe("Provider,Name,Set,Finish,Code,Reason");
   });
 });
 
@@ -312,7 +314,7 @@ describe("runExport — unmatched reporting (I7)", () => {
     const result = await runExport(baseDeps({ fetchCardmarketData }));
 
     expect(result.unmatchedCsv).toContain(
-      "cardmarket,Only On Cardmarket,Everfest,normal,no-counterpart",
+      "cardmarket,Only On Cardmarket,Everfest,normal,,no-counterpart",
     );
     expect(result.summary.matchRate).toBeLessThan(1);
   });
