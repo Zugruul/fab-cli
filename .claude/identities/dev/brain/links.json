@@ -14,6 +14,11 @@
     "last": null,
     "weight": 0.5
   },
+  "cardmarket-single-aggregate-not-per-condition->real-data-only-doctrine": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "empirical-threshold-tuning->real-data-only-doctrine": {
     "fires": 0,
     "last": null,
