@@ -72,6 +72,36 @@ describe("fetchGroups", () => {
 });
 
 describe("fetchGroupProducts / fetchGroupPrices / fetchGroupData", () => {
+  it("fetchGroupProducts unwraps the results envelope into a typed products list", async () => {
+    const fixture = loadFixture("products-2947");
+    const fetchFn = vi.fn(routedFetchFn({ "/2947/products": fixture }));
+
+    const products = await fetchGroupProducts(2947, {
+      cacheDir: tmpDir,
+      fetchFn,
+    });
+
+    expect(products).toHaveLength(2);
+    expect(products[0]).toMatchObject({
+      productId: 255918,
+      name: "Command and Conquer (Red)",
+      groupId: 2947,
+    });
+  });
+
+  it("fetchGroupPrices unwraps the results envelope into typed price rows", async () => {
+    const fixture = loadFixture("prices-2947");
+    const fetchFn = vi.fn(routedFetchFn({ "/2947/prices": fixture }));
+
+    const prices = await fetchGroupPrices(2947, { cacheDir: tmpDir, fetchFn });
+
+    expect(prices).toHaveLength(3);
+    expect(prices[0]).toMatchObject({
+      productId: 255918,
+      subTypeName: "Normal",
+    });
+  });
+
   it("joins products and prices by productId via pricesByProductId", async () => {
     const products = loadFixture("products-2947");
     const prices = loadFixture("prices-2947");
