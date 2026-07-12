@@ -35,7 +35,9 @@ describe("applyAdjacencyFallback — exhaustive presence patterns", () => {
     HP: 400,
   };
 
-  function buildInput(present: Record<ConditionColumn, boolean>): ConditionPrices {
+  function buildInput(
+    present: Record<ConditionColumn, boolean>,
+  ): ConditionPrices {
     const out = {} as ConditionPrices;
     for (const col of CONDITION_COLUMNS) {
       out[col] = present[col] ? cell(REAL_PRICE[col], "listing") : null;
@@ -266,9 +268,16 @@ describe("fillTcgplayerConditions", () => {
 // ---------------------------------------------------------------------------
 
 describe("computeRatioCells", () => {
-  const fx: FxRate = { rate: 1.2, date: "2026-07-11", base: "EUR", quote: "USD" };
+  const fx: FxRate = {
+    rate: 1.2,
+    date: "2026-07-11",
+    base: "EUR",
+    quote: "USD",
+  };
 
-  function prices(p: Partial<Record<ConditionColumn, ConditionCell | null>>): ConditionPrices {
+  function prices(
+    p: Partial<Record<ConditionColumn, ConditionCell | null>>,
+  ): ConditionPrices {
     return {
       NM: p.NM ?? null,
       "SP/LP": p["SP/LP"] ?? null,
