@@ -32,11 +32,12 @@ npm install -g . --force
 
 ## Quick Start
 
-The CLI has two top-level namespaces:
+The CLI has three top-level namespaces:
 
 ```
-fab-cli fabrary <command>   # deck/card search and meta analysis via fabrary.net
-fab-cli fabtcg  <command>   # tournament coverage, events, decklists via fabtcg.com
+fab-cli fabrary          <command>   # deck/card search and meta analysis via fabrary.net
+fab-cli fabtcg           <command>   # tournament coverage, events, decklists via fabtcg.com
+fab-cli price-comparison <command>   # TCGplayer vs Cardmarket price comparison
 ```
 
 ---
@@ -165,6 +166,57 @@ fab-cli fabtcg card "command and conquer" --json   # raw detail record
 
 Shows: true text, printed text when it differs, rulings/errata count, and legality per
 format straight from the Card Vault API.
+
+---
+
+## Price Comparison
+
+Compare Flesh & Blood single-card prices across [TCGplayer](https://www.tcgplayer.com/) (USD)
+and [Cardmarket](https://www.cardmarket.com/) (EUR), per printing and per condition, plus
+cross-marketplace ratio tables so you can see where a card is cheaper and by how much.
+
+```bash
+# Full comparison: 4 pages — TCGplayer prices, Cardmarket prices, and a ratio
+# table in each direction (TCGplayer/Cardmarket and Cardmarket/TCGplayer)
+fab-cli price-comparison card "fyendals spring tunic"
+
+# Emit the same data as CSV instead of tables
+fab-cli price-comparison card "fyendals spring tunic" --csv
+fab-cli price-comparison card "fyendals spring tunic" --csv output.csv
+
+# Bypass the disk cache and re-fetch live
+fab-cli price-comparison card "fyendals spring tunic" --refresh
+
+# Convert ratio tables to EUR instead of the default USD
+fab-cli price-comparison card "fyendals spring tunic" --currency eur
+```
+
+An empty cell (`—`) means no real price was found for that condition on that marketplace —
+the tool never fabricates or estimates a price to fill a gap, so what you see is always a
+real observed value.
+
+Condition columns are always **NM, SP/LP, MP, HP** (Near Mint → Heavily Played). Cardmarket
+doesn't publish per-condition prices, so all four of its columns use the same price-guide
+`low` value, with a separate reference-only `Trend` column alongside them (not used in ratio
+math).
+
+Export the full catalog (or a subset) to CSV for offline analysis:
+
+```bash
+# Full FAB singles catalog — can take a while; --set is recommended for a quick test
+fab-cli price-comparison export
+
+# Just one or a few sets
+fab-cli price-comparison export --set "Dusk till Dawn"
+fab-cli price-comparison export --set "Dusk till Dawn" --set "Heavy Hitters"
+
+# Custom output directory, EUR ratio pages, force refresh
+fab-cli price-comparison export --out ./prices/ --currency eur --refresh
+```
+
+`export` writes 5 files: `prices-tcgplayer.csv`, `prices-cardmarket.csv`,
+`ratio-tcgplayer-cardmarket.csv`, `ratio-cardmarket-tcgplayer.csv`, and `unmatched.csv`
+(rows that couldn't be priced or matched across marketplaces, with a reason).
 
 ## Tournament Coverage
 
@@ -377,4 +429,7 @@ fab-cli fabrary auth <token>
 
 fab-cli fabtcg events [--world-tour] [--upcoming] [--with-coverage] [--year <n>] [--format <fmt>]
 fab-cli fabtcg coverage <slug> [--round <n|final>] [--field] [--decklists] [--player <name>] [--path <name>] [--search-player <name>]
+
+fab-cli price-comparison card <name> [--csv [file]] [--refresh] [--currency usd|eur]
+fab-cli price-comparison export [--set <name...>] [--out <dir>] [--refresh] [--currency usd|eur]
 ```
