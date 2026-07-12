@@ -78,6 +78,21 @@ describe("buildComparisonRows — normalization", () => {
     expect(unmatched.every((u) => u.reason === "no-counterpart")).toBe(true);
   });
 
+  it("matches despite internal whitespace differences in the set name", () => {
+    const tcg = [
+      row("Snatch (Red)", "Dusk  till   Dawn", "normal", conditions({ NM: 5 })),
+    ];
+    const cm = [
+      row("Snatch (Red)", " Dusk till Dawn ", "normal", conditions({ NM: 4 })),
+    ];
+    const { rows, unmatched } = buildComparisonRows({
+      tcgplayer: tcg,
+      cardmarket: cm,
+    });
+    expect(unmatched).toEqual([]);
+    expect(rows).toHaveLength(1);
+  });
+
   it("matches despite diacritics and case differences", () => {
     const tcg = [
       row("Émigré Wanderer", "Everfest", "normal", conditions({ NM: 3 })),
