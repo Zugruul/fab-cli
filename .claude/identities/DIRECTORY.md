@@ -3644,6 +3644,7 @@ _(no notes)_
 - **ix-command-and-conquer-x-uzuri-switchblade** — [interaction, cards, command-and-conquer, uzuri-switchblade, defense-reactions, stealth]
 - **ix-deadwood-dirge-x-spellbound-creepers** — [interaction, cards, deadwood-dirge, spellbound-creepers, runechant, runeblade]
 - **ix-fleeing-starbreeze-x-gone-in-a-flash** — [interaction, cards, fleeing-starbreeze, gone-in-a-flash, lightning]
+- **ix-gone-in-a-flash-general** — [interaction, cards, gone-in-a-flash, instant, lightning, stack-window]
 - **judge-brain-map** — [hub, index, navigation]
 - **judge-calls-and-appeals** — [tournament, trp, judge-call, appeals]
 - **keyword-interaction-rulings** — [cr, adjudication, keywords]
