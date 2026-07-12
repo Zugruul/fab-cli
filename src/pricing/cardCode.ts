@@ -12,6 +12,18 @@
 // foil-exclusive row (e.g. Ironsong Response's Local Game Store Promos
 // printings: LGS008 normal, LGS029 foil). So the index keeps one code per
 // (name, set, finish) bucket rather than collapsing foiling variants.
+//
+// PITCH DISAMBIGUATION (review finding, #68): a multi-pitch card is THREE
+// separate entries in card.json — one per pitch, each with its own `pitch`
+// field ("1"/"2"/"3") — and `name` never carries a pitch suffix on any of
+// them (e.g. three "Bare Fangs" entries, pitch 1/2/3, each with a distinct
+// Everfest code). Marketplace product names DO carry the suffix for these
+// cards ("Bare Fangs (Red)"), which normalizeCardName deliberately
+// preserves (§7.1) — so the suffix has to be parsed back out and routed to
+// the matching pitch, not just stripped. Looking a multi-pitch card up
+// WITHOUT a suffix is ambiguous (which of the 3 codes?) and returns null
+// rather than guessing one; a single-pitch card (no competing pitch
+// entries under that name) resolves regardless of any suffix.
 
 import * as fs from "fs";
 import * as path from "path";
@@ -44,6 +56,7 @@ interface CardPrinting {
 
 interface CardEntry {
   name: string;
+  pitch?: string;
   printings?: CardPrinting[];
 }
 
@@ -66,9 +79,31 @@ function finishOf(foiling: string): Finish {
   return foiling === "S" ? "normal" : "foil";
 }
 
-let index: Map<string, CodeBucket> | null = null;
+/** Marketplace pitch-suffix convention (§7.1) -> the vendored DB's `pitch` field values. */
+const PITCH_BY_COLOR: Record<string, string> = {
+  red: "1",
+  yellow: "2",
+  blue: "3",
+};
+const PITCH_SUFFIX = /\s*\((red|yellow|blue)\)\s*$/i;
 
-function buildIndex(): Map<string, CodeBucket> {
+/** Splits a trailing "(Red)"/"(Yellow)"/"(Blue)" pitch suffix off a card name, if present. */
+function splitPitchSuffix(name: string): {
+  base: string;
+  pitch: string | null;
+} {
+  const m = name.match(PITCH_SUFFIX);
+  if (!m) return { base: name, pitch: null };
+  return {
+    base: name.slice(0, m.index),
+    pitch: PITCH_BY_COLOR[m[1].toLowerCase()],
+  };
+}
+
+/** name|set -> pitch ("" for cards with no pitch, e.g. equipment/heroes) -> code bucket. */
+let index: Map<string, Map<string, CodeBucket>> | null = null;
+
+function buildIndex(): Map<string, Map<string, CodeBucket>> {
   if (!fs.existsSync(CARD_DB_PATH) || !fs.existsSync(SET_DB_PATH)) {
     return new Map();
   }
@@ -80,18 +115,24 @@ function buildIndex(): Map<string, CodeBucket> {
   const setIdToName = new Map<string, string>();
   for (const s of sets) setIdToName.set(s.id, s.name);
 
-  const result = new Map<string, CodeBucket>();
+  const result = new Map<string, Map<string, CodeBucket>>();
   for (const card of cards) {
     const nameKey = normalizeCardName(card.name);
+    const pitchKey = card.pitch ?? "";
     for (const printing of card.printings ?? []) {
       const setName = setIdToName.get(printing.set_id);
       if (!setName) continue;
 
       const key = `${nameKey}|${normalizeSetName(setName)}`;
-      let bucket = result.get(key);
+      let pitchMap = result.get(key);
+      if (!pitchMap) {
+        pitchMap = new Map();
+        result.set(key, pitchMap);
+      }
+      let bucket = pitchMap.get(pitchKey);
       if (!bucket) {
         bucket = { normal: null, foil: null };
-        result.set(key, bucket);
+        pitchMap.set(pitchKey, bucket);
       }
       const finish = finishOf(printing.foiling);
       // First-seen wins per bucket — deterministic (card.json array order),
@@ -104,27 +145,38 @@ function buildIndex(): Map<string, CodeBucket> {
   return result;
 }
 
-function getIndex(): Map<string, CodeBucket> {
+function getIndex(): Map<string, Map<string, CodeBucket>> {
   if (!index) index = buildIndex();
   return index;
 }
 
 /**
  * Looks up the official FAB printing code for (name, set display name,
- * finish). `name`/`set` are normalized the same way as the rest of
- * src/pricing (expansionAnchoring.ts's `normalizeCardName` for the card
- * name; a matching trim/lowercase/whitespace-collapse for the set name).
- * Returns null — never throws — when the vendored DB has no matching
- * card/set/finish combo (unmapped Cardmarket expansions, or genuinely
- * absent data).
+ * finish). `name` may carry a marketplace pitch suffix ("Bare Fangs
+ * (Red)") — required to disambiguate a multi-pitch card, since the
+ * vendored DB has one entry per pitch under the same bare name. `set` is
+ * normalized the same way as the rest of src/pricing (a matching
+ * trim/lowercase/whitespace-collapse). Returns null — never throws — when
+ * the vendored DB has no matching card/set/finish combo, OR when a
+ * multi-pitch card is looked up without a pitch suffix (ambiguous: which
+ * of its pitch variants' codes would we return? — never guessed).
  */
 export function lookupCardCode(
   name: string,
   set: string,
   finish: Finish,
 ): string | null {
-  const key = `${normalizeCardName(name)}|${normalizeSetName(set)}`;
-  const bucket = getIndex().get(key);
-  if (!bucket) return null;
-  return bucket[finish];
+  const { base, pitch } = splitPitchSuffix(name);
+  const key = `${normalizeCardName(base)}|${normalizeSetName(set)}`;
+  const pitchMap = getIndex().get(key);
+  if (!pitchMap) return null;
+
+  if (pitchMap.size === 1) {
+    // Single-pitch card (or a card whose set/name key otherwise has no
+    // competing pitch variant) — the suffix, if any, is irrelevant.
+    return pitchMap.values().next().value![finish];
+  }
+  if (pitch == null) return null; // multiple pitches exist, no suffix given
+  const bucket = pitchMap.get(pitch);
+  return bucket ? bucket[finish] : null;
 }
