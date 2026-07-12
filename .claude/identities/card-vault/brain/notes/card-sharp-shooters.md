@@ -1,5 +1,5 @@
 ---
-tags: [card, sharp-shooters, sharp, shooters, ranger, equipment, arms, battleworn]
+tags: [card, sharp-shooters, sharp, shooters, ranger, equipment, arms, battleworn, aaz006, jdg033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dbWtMTc6H6qKnbwKnLfRc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: dbWtMTc6H6qKnbwKnLfRc
 sets: [AAZ, JDG]
+codes: [AAZ006, JDG033]
 ---
 
 **Sharp Shooters** — Ranger Equipment - Arms · 1 defense

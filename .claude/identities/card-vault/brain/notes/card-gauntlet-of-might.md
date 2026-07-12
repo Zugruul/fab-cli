@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlet-of-might, gauntlet, might, brute, guardian, equipment, arms, blade-break]
+tags: [card, gauntlet-of-might, gauntlet, might, brute, guardian, equipment, arms, blade-break, bet006, hvy135, kyo005, rhi006, vic006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CHNL9gtPrf8NhTwLWjT6w) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: CHNL9gtPrf8NhTwLWjT6w
 sets: [BET, HVY, KYO, RHI, VIC]
+codes: [BET006, HVY135, KYO005, RHI006, VIC006]
 ---
 
 **Gauntlet of Might** — Brute / Guardian Equipment - Arms · 1 defense

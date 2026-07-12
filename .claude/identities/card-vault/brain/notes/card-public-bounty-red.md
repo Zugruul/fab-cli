@@ -1,5 +1,5 @@
 ---
-tags: [card, public-bounty, public, bounty, generic, action, mark, go-again, pitch-1, cost-1]
+tags: [card, public-bounty, public, bounty, generic, action, mark, go-again, pitch-1, cost-1, hnt241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tBg8fnqMkfmjJgNFPmKKf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Mark, Go again]
 unique-id: tBg8fnqMkfmjJgNFPmKKf
 sets: [HNT]
+codes: [HNT241]
 ---
 
 **Public Bounty (red)** — Generic Action · cost 1 · 2 defense

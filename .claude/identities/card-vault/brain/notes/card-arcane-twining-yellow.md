@@ -1,5 +1,5 @@
 ---
-tags: [card, arcane-twining, arcane, twining, wizard, action, pitch-2, cost-0]
+tags: [card, arcane-twining, arcane, twining, wizard, action, pitch-2, cost-0, ros187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qKj6WNWcF9RtfbwRRNnbT) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: qKj6WNWcF9RtfbwRRNnbT
 sets: [ROS]
+codes: [ROS187]
 ---
 
 **Arcane Twining (yellow)** — Wizard Action · cost 0 · 3 defense

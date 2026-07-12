@@ -1,5 +1,5 @@
 ---
-tags: [card, conqueror-of-the-high-seas, conqueror, high, seas, pirate, action, attack, high-tide, go-again, pitch-1, cost-4]
+tags: [card, conqueror-of-the-high-seas, conqueror, high, seas, pirate, action, attack, high-tide, go-again, pitch-1, cost-4, fab355, sea130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gHzNJcBw6rtnCgNqfftPz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [High Tide, Go again]
 unique-id: gHzNJcBw6rtnCgNqfftPz
 sets: [FAB, SEA]
+codes: [FAB355, SEA130]
 ---
 
 **Conqueror of the High Seas (red)** — Pirate Action - Attack · cost 4 · 7 power · 3 defense

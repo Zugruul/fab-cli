@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-skull, golden, skull, pirate, necromancer, action, item, go-again, watery-grave, pitch-2, cost-0]
+tags: [card, golden-skull, golden, skull, pirate, necromancer, action, item, go-again, watery-grave, pitch-2, cost-0, omn240]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9PLjGPKQTdWLMhrwDDptm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again, Watery Grave]
 unique-id: 9PLjGPKQTdWLMhrwDDptm
 sets: [OMN]
+codes: [OMN240]
 ---
 
 **Golden Skull (yellow)** — Pirate Necromancer Action - Item · cost 0

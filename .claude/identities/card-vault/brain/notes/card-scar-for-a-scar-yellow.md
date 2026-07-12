@@ -1,5 +1,5 @@
 ---
-tags: [card, scar-for-a-scar, scar, generic, action, attack, go-again, pitch-2, cost-0]
+tags: [card, scar-for-a-scar, scar, generic, action, attack, go-again, pitch-2, cost-0, 1hp397, upr210, wtr192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LwdKpBTcMk6rLjDwG8r6G) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: LwdKpBTcMk6rLjDwG8r6G
 sets: [1HP, UPR, WTR]
+codes: [1HP397, UPR210, WTR192]
 ---
 
 **Scar for a Scar (yellow)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

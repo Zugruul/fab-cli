@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-protection, herald, protection, illusionist, light, action, attack, phantasm, pitch-1, cost-2]
+tags: [card, herald-of-protection, herald, protection, illusionist, light, action, attack, phantasm, pitch-1, cost-2, apr007, dtd014, fab029, mon014, psm009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LrjRbqHNNKbLGfqDPjp7R) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: LrjRbqHNNKbLGfqDPjp7R
 sets: [APR, DTD, FAB, MON, PSM]
+codes: [APR007, DTD014, FAB029, MON014, PSM009]
 ---
 
 **Herald of Protection (red)** — Light Illusionist Action - Attack · cost 2 · 7 power · 3 defense

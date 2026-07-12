@@ -1,5 +1,5 @@
 ---
-tags: [card, regrowth-shock, regrowth, shock, runeblade, earth, lightning, action, instant, meld, go-again, pitch-3, cost-0]
+tags: [card, regrowth-shock, regrowth, shock, runeblade, earth, lightning, action, instant, meld, go-again, pitch-3, cost-0, lgs356, ros253]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k8CgTdPKWcmLb78HKgHjk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action, Instant]
 keywords: [Meld, Go again]
 unique-id: k8CgTdPKWcmLb78HKgHjk
 sets: [LGS, ROS]
+codes: [LGS356, ROS253]
 ---
 
 **Regrowth // Shock (blue)** — Earth Runeblade Action // Lightning Instant · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, pack-hunt, pack, hunt, brute, action, attack, intimidate, pitch-1, cost-2]
+tags: [card, pack-hunt, pack, hunt, brute, action, attack, intimidate, pitch-1, cost-2, 1hp025, hvy032, rhi013, rnr009, rvd010, wtr023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ckjckdp6twK8nfwqGch7J) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Intimidate]
 unique-id: ckjckdp6twK8nfwqGch7J
 sets: [1HP, HVY, RHI, RNR, RVD, WTR]
+codes: [1HP025, HVY032, RHI013, RNR009, RVD010, WTR023]
 ---
 
 **Pack Hunt (red)** — Brute Action - Attack · cost 2 · 6 power · 3 defense

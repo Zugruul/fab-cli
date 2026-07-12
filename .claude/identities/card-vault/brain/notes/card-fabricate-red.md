@@ -1,5 +1,5 @@
 ---
-tags: [card, fabricate, mechanologist, instant, pitch-1, cost-0]
+tags: [card, fabricate, mechanologist, instant, pitch-1, cost-0, evo146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cjJpkCtJwndP7FwzwDDQc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Mechanologist]
 types: [Instant]
 unique-id: cjJpkCtJwndP7FwzwDDQc
 sets: [EVO]
+codes: [EVO146]
 ---
 
 **Fabricate (red)** — Mechanologist Instant · cost 0

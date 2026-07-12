@@ -1,5 +1,5 @@
 ---
-tags: [card, dusk-path-pilgrimage, dusk, path, pilgrimage, warrior, action, go-again, pitch-1, cost-1]
+tags: [card, dusk-path-pilgrimage, dusk, path, pilgrimage, warrior, action, go-again, pitch-1, cost-1, bol029, lgs060, mon110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kPfFLfQ8phzz6tpjd9gMb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: kPfFLfQ8phzz6tpjd9gMb
 sets: [BOL, LGS, MON]
+codes: [BOL029, LGS060, MON110]
 ---
 
 **Dusk Path Pilgrimage (red)** — Warrior Action · cost 1 · 3 defense

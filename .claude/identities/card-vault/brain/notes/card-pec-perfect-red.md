@@ -1,5 +1,5 @@
 ---
-tags: [card, pec-perfect, pec, perfect, guardian, action, attack, clash, pitch-1, cost-5]
+tags: [card, pec-perfect, pec, perfect, guardian, action, attack, clash, pitch-1, cost-5, mpg017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LNtDknLJmNDk6wDhQdQb8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: LNtDknLJmNDk6wDhQdQb8
 sets: [MPG]
+codes: [MPG017]
 ---
 
 **Pec Perfect (red)** — Guardian Action - Attack · cost 5 · 9 power · 3 defense

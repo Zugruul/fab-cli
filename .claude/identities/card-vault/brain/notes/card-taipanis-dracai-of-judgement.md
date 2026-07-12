@@ -1,5 +1,5 @@
 ---
-tags: [card, taipanis-dracai-of-judgement, taipanis, dracai, judgement, adjudicator, draconic, hero, adult]
+tags: [card, taipanis-dracai-of-judgement, taipanis, dracai, judgement, adjudicator, draconic, hero, adult, jdg001, jdg002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtGCjcNCNGg9MkDMwtKCN) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Hero]
 unique-id: FtGCjcNCNGg9MkDMwtKCN
 sets: [JDG]
+codes: [JDG001, JDG002]
 ---
 
 **Taipanis, Dracai of Judgement** — Draconic Adjudicator Hero · 20 health · 4 int

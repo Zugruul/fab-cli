@@ -1,5 +1,5 @@
 ---
-tags: [card, bleed-out, bleed, out, assassin, ninja, action, attack, go-again, pitch-1, cost-2]
+tags: [card, bleed-out, bleed, out, assassin, ninja, action, attack, go-again, pitch-1, cost-2, ben007, out145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gcnq79gmpgkBRdwdGMmTw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: gcnq79gmpgkBRdwdGMmTw
 sets: [BEN, OUT]
+codes: [BEN007, OUT145]
 ---
 
 **Bleed Out (red)** — Assassin / Ninja Action - Attack · cost 2 · 4 power · 2 defense

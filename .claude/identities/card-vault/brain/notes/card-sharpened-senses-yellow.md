@@ -1,5 +1,5 @@
 ---
-tags: [card, sharpened-senses, sharpened, senses, warrior, action, aura, go-again, pitch-2, cost-0]
+tags: [card, sharpened-senses, sharpened, senses, warrior, action, aura, go-again, pitch-2, cost-0, hnt118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RD7rFNprgNp9HBwwTTk88) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: RD7rFNprgNp9HBwwTTk88
 sets: [HNT]
+codes: [HNT118]
 ---
 
 **Sharpened Senses (yellow)** — Warior Action - Aura · cost 0 · 3 defense

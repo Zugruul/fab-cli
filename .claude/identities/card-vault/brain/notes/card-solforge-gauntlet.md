@@ -1,5 +1,5 @@
 ---
-tags: [card, solforge-gauntlet, solforge, gauntlet, light, equipment, arms, arcane-barrier-1]
+tags: [card, solforge-gauntlet, solforge, gauntlet, light, equipment, arms, arcane-barrier-1, pen179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BnN6JDzQwHnC8NTGPnrJB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1]
 unique-id: BnN6JDzQwHnC8NTGPnrJB
 sets: [PEN]
+codes: [PEN179]
 ---
 
 **Solforge Gauntlet** — Light Equipment - Arms · 1 defense

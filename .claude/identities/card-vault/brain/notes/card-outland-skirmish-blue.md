@@ -1,5 +1,5 @@
 ---
-tags: [card, outland-skirmish, outland, skirmish, warrior, action, go-again, pitch-3, cost-0]
+tags: [card, outland-skirmish, outland, skirmish, warrior, action, go-again, pitch-3, cost-0, evr068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6NqHrDGMBKrbmcCKQG6Hd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 6NqHrDGMBKrbmcCKQG6Hd
 sets: [EVR]
+codes: [EVR068]
 ---
 
 **Outland Skirmish (blue)** — Warrior Action · cost 0 · 3 defense

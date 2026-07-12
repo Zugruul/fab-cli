@@ -1,5 +1,5 @@
 ---
-tags: [card, push-the-point, push, point, generic, action, attack, pitch-1, cost-1]
+tags: [card, push-the-point, push, point, generic, action, attack, pitch-1, cost-1, arc188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JgbBkhwf8bRTnJCB6HLrD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JgbBkhwf8bRTnJCB6HLrD
 sets: [ARC]
+codes: [ARC188]
 ---
 
 **Push the Point (red)** — Generic Action - Attack · cost 1 · 4 power · 2 defense

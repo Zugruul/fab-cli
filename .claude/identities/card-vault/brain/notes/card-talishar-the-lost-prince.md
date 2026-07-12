@@ -1,5 +1,5 @@
 ---
-tags: [card, talishar-the-lost-prince, talishar, lost, prince, generic, weapon, sword, 2h]
+tags: [card, talishar-the-lost-prince, talishar, lost, prince, generic, weapon, sword, 2h, 1hp367, cru177, sda003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CrHbRjngmzcwbkWMg9gb) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: 8CrHbRjngmzcwbkWMg9gb
 sets: [1HP, CRU, SDA]
+codes: [1HP367, CRU177, SDA003]
 ---
 
 **Talishar, the Lost Prince** — Generic Weapon - Sword (2H) · 4 power

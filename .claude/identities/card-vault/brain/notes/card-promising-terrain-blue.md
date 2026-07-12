@@ -1,5 +1,5 @@
 ---
-tags: [card, promising-terrain, promising, terrain, guardian, action, aura, go-again, pitch-3, cost-0]
+tags: [card, promising-terrain, promising, terrain, guardian, action, aura, go-again, pitch-3, cost-0, lgs390, mpg045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jFpwffNmqGB8nTHt7mzp9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: jFpwffNmqGB8nTHt7mzp9
 sets: [LGS, MPG]
+codes: [LGS390, MPG045]
 ---
 
 **Promising Terrain (blue)** — Guardian Action - Aura · cost 0 · 3 defense

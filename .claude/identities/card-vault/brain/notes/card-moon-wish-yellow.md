@@ -1,5 +1,5 @@
 ---
-tags: [card, moon-wish, moon, wish, generic, action, attack, pitch-2, cost-2]
+tags: [card, moon-wish, moon, wish, generic, action, attack, pitch-2, cost-2, arc186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B6bKcfDKzkQrTgCnbQKW7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: B6bKcfDKzkQrTgCnbQKW7
 sets: [ARC]
+codes: [ARC186]
 ---
 
 **Moon Wish (yellow)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

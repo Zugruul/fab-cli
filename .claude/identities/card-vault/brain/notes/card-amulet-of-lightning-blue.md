@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-lightning, amulet, lightning, action, item, go-again, pitch-3, cost-0]
+tags: [card, amulet-of-lightning, amulet, lightning, action, item, go-again, pitch-3, cost-0, ele201, lgs065, lxi021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fCzgQtjJ9Q8gdrPq9t7Wc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: fCzgQtjJ9Q8gdrPq9t7Wc
 sets: [ELE, LGS, LXI]
+codes: [ELE201, LGS065, LXI021]
 ---
 
 **Amulet of Lightning (blue)** — Lightning Action - Item · cost 0

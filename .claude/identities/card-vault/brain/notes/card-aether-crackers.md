@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-crackers, aether, crackers, runeblade, equipment, arms]
+tags: [card, aether-crackers, aether, crackers, runeblade, equipment, arms, aur005, fab334]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BhFQMNHMHH9ddMH86tqQ9) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: BhFQMNHMHH9ddMH86tqQ9
 sets: [AUR, FAB]
+codes: [AUR005, FAB334]
 ---
 
 **Aether Crackers** — Runeblade Equipment - Arms · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blacktek-whisperers, blacktek, whisperers, assassin, equipment, legs, battleworn, go-again]
+tags: [card, blacktek-whisperers, blacktek, whisperers, assassin, equipment, legs, battleworn, go-again, dyn117, fab110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HpMt88NkhFBNw7fpC6tkN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn, Go again]
 unique-id: HpMt88NkhFBNw7fpC6tkN
 sets: [DYN, FAB]
+codes: [DYN117, FAB110]
 ---
 
 **Blacktek Whisperers** — Assassin Equipment - Legs · 1 defense

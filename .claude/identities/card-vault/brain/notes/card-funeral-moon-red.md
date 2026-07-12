@@ -1,5 +1,5 @@
 ---
-tags: [card, funeral-moon, funeral, moon, runeblade, shadow, action, blood-debt, pitch-1, cost-0]
+tags: [card, funeral-moon, funeral, moon, runeblade, shadow, action, blood-debt, pitch-1, cost-0, dtd140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fc8bQjfzWBbCMnrzFCwP7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: Fc8bQjfzWBbCMnrzFCwP7
 sets: [DTD]
+codes: [DTD140]
 ---
 
 **Funeral Moon (red)** — Shadow Runeblade Action · cost 0 · 3 defense

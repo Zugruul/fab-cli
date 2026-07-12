@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-the-imperial-forge, visit, imperial, forge, warrior, action, go-again, piercing-2, pitch-2, cost-0]
+tags: [card, visit-the-imperial-forge, visit, imperial, forge, warrior, action, go-again, piercing-2, pitch-2, cost-0, dyn086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hfMFhLPRrGcHDGr7cGqBm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Piercing 2]
 unique-id: hfMFhLPRrGcHDGr7cGqBm
 sets: [DYN]
+codes: [DYN086]
 ---
 
 **Visit the Imperial Forge (yellow)** — Warrior Action · cost 0 · 3 defense

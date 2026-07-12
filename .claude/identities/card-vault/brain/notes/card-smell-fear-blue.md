@@ -1,5 +1,5 @@
 ---
-tags: [card, smell-fear, smell, fear, brute, action, beat-chest, go-again, intimidate, pitch-3, cost-0]
+tags: [card, smell-fear, smell, fear, brute, action, beat-chest, go-again, intimidate, pitch-3, cost-0, arr028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QwkRmndddLgfWPBLLMKMB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Beat Chest, Go again, Intimidate]
 unique-id: QwkRmndddLgfWPBLLMKMB
 sets: [ARR]
+codes: [ARR028]
 ---
 
 **Smell Fear (blue)** — Brute Action · cost 0 · 3 defense

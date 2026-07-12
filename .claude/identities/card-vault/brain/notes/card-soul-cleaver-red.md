@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-cleaver, soul, cleaver, shadow, action, attack, blood-debt, go-again, pitch-1, cost-2]
+tags: [card, soul-cleaver, soul, cleaver, shadow, action, attack, blood-debt, go-again, pitch-1, cost-2, dtd184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGpj8kWJ9dRHnn7KRcbP8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt, Go again]
 unique-id: KGpj8kWJ9dRHnn7KRcbP8
 sets: [DTD]
+codes: [DTD184]
 ---
 
 **Soul Cleaver (red)** — Shadow Action - Attack · cost 2 · 6 power · 2 defense

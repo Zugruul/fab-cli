@@ -1,5 +1,5 @@
 ---
-tags: [card, suraya-archangel-of-knowledge, suraya, archangel, knowledge, illusionist, light, angel, ally, ward-4]
+tags: [card, suraya-archangel-of-knowledge, suraya, archangel, knowledge, illusionist, light, angel, ally, ward-4, dyn212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7GqwMzK8mCrkKQ9kdpF7W) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: 7GqwMzK8mCrkKQ9kdpF7W
 sets: [DYN]
+codes: [DYN212]
 ---
 
 **Suraya, Archangel of Knowledge** — Light Illusionist - Angel Ally · 4 power · 4 health

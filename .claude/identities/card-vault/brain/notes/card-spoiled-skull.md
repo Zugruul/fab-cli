@@ -1,5 +1,5 @@
 ---
-tags: [card, spoiled-skull, spoiled, skull, brute, shadow, equipment, head, arcane-barrier-1, blood-debt, go-again]
+tags: [card, spoiled-skull, spoiled, skull, brute, shadow, equipment, head, arcane-barrier-1, blood-debt, go-again, dtd106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jtjBwktMzPCDdwFgKtWT6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1, Blood Debt, Go again]
 unique-id: jtjBwktMzPCDdwFgKtWT6
 sets: [DTD]
+codes: [DTD106]
 ---
 
 **Spoiled Skull** — Shadow Brute Equipment - Head

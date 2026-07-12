@@ -1,5 +1,5 @@
 ---
-tags: [card, holo-shield, holo, shield, illusionist, lightning, instant, aura, ward-x, pitch-2, cost-1]
+tags: [card, holo-shield, holo, shield, illusionist, lightning, instant, aura, ward-x, pitch-2, cost-1, omn031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gQbKw7QPrQtQ7TTKDfLbb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward X]
 unique-id: gQbKw7QPrQtQ7TTKDfLbb
 sets: [OMN]
+codes: [OMN031]
 ---
 
 **Holo Shield (yellow)** — Lightning Illusionist Instant - Aura · cost 1

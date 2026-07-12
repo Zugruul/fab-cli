@@ -1,5 +1,5 @@
 ---
-tags: [card, flex-claws, flex, claws, ninja, action, attack, go-again, pitch-2, cost-1]
+tags: [card, flex-claws, flex, claws, ninja, action, attack, go-again, pitch-2, cost-1, dyn051, mst180, tcc093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MGFhzzHdwLqwChD6TLkjk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: MGFhzzHdwLqwChD6TLkjk
 sets: [DYN, MST, TCC]
+codes: [DYN051, MST180, TCC093]
 ---
 
 **Flex Claws (yellow)** — Ninja Action - Attack · cost 1 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hit-the-high-notes, hit, high, notes, runeblade, action, attack, pitch-3, cost-1]
+tags: [card, hit-the-high-notes, hit, high, notes, runeblade, action, attack, pitch-3, cost-1, aua021, ros142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7mWHRdqJGNzTkHwBqD78D) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7mWHRdqJGNzTkHwBqD78D
 sets: [AUA, ROS]
+codes: [AUA021, ROS142]
 ---
 
 **Hit the High Notes (blue)** — Runeblade Action - Attack · cost 1 · 2 power · 3 defense

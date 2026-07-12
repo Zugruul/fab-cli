@@ -1,5 +1,5 @@
 ---
-tags: [card, galaxxi-black, galaxxi, black, runeblade, shadow, weapon, sword, 2h]
+tags: [card, galaxxi-black, galaxxi, black, runeblade, shadow, weapon, sword, 2h, chn003, lgs046, mon155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r8Bq8zBCNdzGPkmMcr6QL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: r8Bq8zBCNdzGPkmMcr6QL
 sets: [CHN, LGS, MON]
+codes: [CHN003, LGS046, MON155]
 ---
 
 **Galaxxi Black** — Shadow Runeblade Weapon - Sword (2H) · 1 power

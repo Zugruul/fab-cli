@@ -1,5 +1,5 @@
 ---
-tags: [card, become-the-cup, become, cup, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, become-the-cup, become, cup, ninja, action, attack, go-again, pitch-1, cost-0, pen040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtqJQk8hdRWHTgKMKRWG6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: NtqJQk8hdRWHTgKMKRWG6
 sets: [PEN]
+codes: [PEN040]
 ---
 
 **Become the Cup (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

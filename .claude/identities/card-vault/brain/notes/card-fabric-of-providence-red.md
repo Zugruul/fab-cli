@@ -1,5 +1,5 @@
 ---
-tags: [card, fabric-of-providence, fabric, providence, generic, action, construct, legendary, negate, pitch-1, cost-0]
+tags: [card, fabric-of-providence, fabric, providence, generic, action, construct, legendary, negate, pitch-1, cost-0, lss013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jRmPPnCdbT97fBdhK9jhq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Legendary, Negate]
 unique-id: jRmPPnCdbT97fBdhK9jhq
 sets: [LSS]
+codes: [LSS013]
 ---
 
 **Fabric of Providence (red)** — Generic Action - Construct · cost 0 · 2 defense

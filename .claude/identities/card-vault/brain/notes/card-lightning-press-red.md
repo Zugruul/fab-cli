@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-press, lightning, press, instant, pitch-1, cost-0]
+tags: [card, lightning-press, lightning, press, instant, pitch-1, cost-0, ast021, ele183, fab262, lxi018, sba032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QWgWwdcd8GPj8dCjCmRCR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: QWgWwdcd8GPj8dCjCmRCR
 sets: [AST, ELE, FAB, LXI, SBA]
+codes: [AST021, ELE183, FAB262, LXI018, SBA032]
 ---
 
 **Lightning Press (red)** — Lightning Instant · cost 0

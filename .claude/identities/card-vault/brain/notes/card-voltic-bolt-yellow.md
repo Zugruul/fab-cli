@@ -1,5 +1,5 @@
 ---
-tags: [card, voltic-bolt, voltic, bolt, wizard, action, pitch-2, cost-2]
+tags: [card, voltic-bolt, voltic, bolt, wizard, action, pitch-2, cost-2, 1hp336, arc148, lgs042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rzwzDWjwdGDFHcpnnBKtf) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: rzwzDWjwdGDFHcpnnBKtf
 sets: [1HP, ARC, LGS]
+codes: [1HP336, ARC148, LGS042]
 ---
 
 **Voltic Bolt (yellow)** — Wizard Action · cost 2 · 3 defense

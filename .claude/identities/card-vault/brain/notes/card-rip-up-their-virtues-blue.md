@@ -1,5 +1,5 @@
 ---
-tags: [card, rip-up-their-virtues, rip, up, their, virtues, instant, reviled, pitch-3, cost-0]
+tags: [card, rip-up-their-virtues, rip, up, their, virtues, instant, reviled, pitch-3, cost-0, sup088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g89MkbrrTtJkGwFwDKpfB) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Instant]
 other-types: [Reviled]
 unique-id: g89MkbrrTtJkGwFwDKpfB
 sets: [SUP]
+codes: [SUP088]
 ---
 
 **Rip Up Their Virtues (blue)** — Reviled Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, comet-collision, comet, collision, wizard, lightning, action, starfall, pitch-2, cost-0]
+tags: [card, comet-collision, comet, collision, wizard, lightning, action, starfall, pitch-2, cost-0, omn110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kLgnHP8nHtnMwHfqN9zkp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Starfall]
 unique-id: kLgnHP8nHtnMwHfqN9zkp
 sets: [OMN]
+codes: [OMN110]
 ---
 
 **Comet Collision (yellow)** — Lightning Wizard Instant · cost 0 · 3 defense

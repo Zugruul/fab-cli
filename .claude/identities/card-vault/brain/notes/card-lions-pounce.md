@@ -1,5 +1,5 @@
 ---
-tags: [card, lions-pounce, lions, pounce, event]
+tags: [card, lions-pounce, lions, pounce, event, smp028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pdQGjBWQgfnrqhhLDGMkC) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ power: 3
 types: [Event]
 unique-id: pdQGjBWQgfnrqhhLDGMkC
 sets: [SMP]
+codes: [SMP028]
 ---
 
 **Lion's Pounce** — Event · 3 power

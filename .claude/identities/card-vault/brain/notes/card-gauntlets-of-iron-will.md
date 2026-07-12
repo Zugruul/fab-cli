@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlets-of-iron-will, gauntlets, iron, will, guardian, equipment, arms, temper]
+tags: [card, gauntlets-of-iron-will, gauntlets, iron, will, guardian, equipment, arms, temper, fab181, hvy053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6GNFrJctrhjhmJMLFQt9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Temper]
 unique-id: z6GNFrJctrhjhmJMLFQt9
 sets: [FAB, HVY]
+codes: [FAB181, HVY053]
 ---
 
 **Gauntlets of Iron Will** — Guardian Equipment - Arms · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, dustup, illusionist, draconic, action, attack, transform, pitch-3, cost-0]
+tags: [card, dustup, illusionist, draconic, action, attack, transform, pitch-3, cost-0, upr026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t9JLzLpkTqwMQmzjkcDG8) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Transform]
 unique-id: t9JLzLpkTqwMQmzjkcDG8
 sets: [UPR]
+codes: [UPR026]
 ---
 
 **Dustup (blue)** — Draconic Illusionist Action - Attack · cost 0 · 2 power · 3 defense

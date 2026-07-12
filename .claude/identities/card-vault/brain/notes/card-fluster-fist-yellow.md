@@ -1,5 +1,5 @@
 ---
-tags: [card, fluster-fist, fluster, fist, ninja, action, attack, combo, pitch-2, cost-0]
+tags: [card, fluster-fist, fluster, fist, ninja, action, attack, combo, pitch-2, cost-0, wtr087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HGNCdBCQmdRqQGggmrLjg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: HGNCdBCQmdRqQGggmrLjg
 sets: [WTR]
+codes: [WTR087]
 ---
 
 **Fluster Fist (yellow)** — Ninja Action - Attack · cost 0 · 3 power · 3 defense

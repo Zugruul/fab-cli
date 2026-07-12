@@ -1,5 +1,5 @@
 ---
-tags: [card, conflicting-thoughts, conflicting, thoughts, generic, action, attack, opt-1, pitch-3, cost-0]
+tags: [card, conflicting-thoughts, conflicting, thoughts, generic, action, attack, opt-1, pitch-3, cost-0, omn221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FM6BwCnpcNT6TQCJmqWgf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Opt 1]
 unique-id: FM6BwCnpcNT6TQCJmqWgf
 sets: [OMN]
+codes: [OMN221]
 ---
 
 **Conflicting Thoughts (blue)** — Generic Action - Attack · cost 0 · 2 power · 3 defense

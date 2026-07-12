@@ -1,5 +1,5 @@
 ---
-tags: [card, chest-puff, chest, puff, generic, action, attack, pitch-1, cost-2]
+tags: [card, chest-puff, chest, puff, generic, action, attack, pitch-1, cost-2, sup222]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmdFwhcDWLWTfL7MwkhPp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hmdFwhcDWLWTfL7MwkhPp
 sets: [SUP]
+codes: [SUP222]
 ---
 
 **Chest Puff (red)** — Generic Action - Attack · cost 2 · 7 power · 3 defense

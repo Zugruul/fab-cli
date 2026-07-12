@@ -1,5 +1,5 @@
 ---
-tags: [card, courageous-steelhand, courageous, steelhand, warrior, light, attack-reaction, pitch-2, cost-0]
+tags: [card, courageous-steelhand, courageous, steelhand, warrior, light, attack-reaction, pitch-2, cost-0, bol018, mon058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WKHF6LbqnjdPn6FrHDKcg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Light]
 types: [Attack Reaction]
 unique-id: WKHF6LbqnjdPn6FrHDKcg
 sets: [BOL, MON]
+codes: [BOL018, MON058]
 ---
 
 **Courageous Steelhand (yellow)** — Light Warrior Attack Reaction · cost 0 · 2 defense

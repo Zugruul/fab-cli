@@ -1,5 +1,5 @@
 ---
-tags: [card, winters-bite, winters, bite, ice, action, go-again, pitch-2, cost-0]
+tags: [card, winters-bite, winters, bite, ice, action, go-again, pitch-2, cost-0, ele170, old016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WHq8cwrRDpm99fMJ7MCT8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: WHq8cwrRDpm99fMJ7MCT8
 sets: [ELE, OLD]
+codes: [ELE170, OLD016]
 ---
 
 **Winter's Bite (yellow)** — Ice Action · cost 0 · 2 defense

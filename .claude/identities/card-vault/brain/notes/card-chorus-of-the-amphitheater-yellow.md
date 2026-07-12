@@ -1,5 +1,5 @@
 ---
-tags: [card, chorus-of-the-amphitheater, chorus, amphitheater, wizard, action, pitch-2, cost-2]
+tags: [card, chorus-of-the-amphitheater, chorus, amphitheater, wizard, action, pitch-2, cost-2, ros171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CzFbG6pFWFPw6fcHHLDp8) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: CzFbG6pFWFPw6fcHHLDp8
 sets: [ROS]
+codes: [ROS171]
 ---
 
 **Chorus of the Amphitheater (yellow)** — Wizard Action · cost 2 · 2 defense

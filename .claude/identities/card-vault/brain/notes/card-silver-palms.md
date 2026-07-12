@@ -1,5 +1,5 @@
 ---
-tags: [card, silver-palms, silver, palms, merchant, equipment, arms, blade-break]
+tags: [card, silver-palms, silver, palms, merchant, equipment, arms, blade-break, evr086, fab077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gCgcRpmr76G6zmFgpprRw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: gCgcRpmr76G6zmFgpprRw
 sets: [EVR, FAB]
+codes: [EVR086, FAB077]
 ---
 
 **Silver Palms** — Merchant Equipment - Arms · 2 defense

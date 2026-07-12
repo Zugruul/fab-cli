@@ -1,5 +1,5 @@
 ---
-tags: [card, deathly-delight, deathly, delight, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-2, cost-2]
+tags: [card, deathly-delight, deathly, delight, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-2, cost-2, dtd144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DTPnFNqr9N8NcWNpDDC8B) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: DTPnFNqr9N8NcWNpDDC8B
 sets: [DTD]
+codes: [DTD144]
 ---
 
 **Deathly Delight (yellow)** — Shadow Runeblade Action - Attack · cost 2 · 4 power · 3 defense

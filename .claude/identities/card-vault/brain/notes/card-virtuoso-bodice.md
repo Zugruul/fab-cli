@@ -1,5 +1,5 @@
 ---
-tags: [card, virtuoso-bodice, virtuoso, bodice, guardian, equipment, chest, blade-break]
+tags: [card, virtuoso-bodice, virtuoso, bodice, guardian, equipment, chest, blade-break, aps005, sup273]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qrgHbhCHptKd9Lj7hzDQQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: qrgHbhCHptKd9Lj7hzDQQ
 sets: [APS, SUP]
+codes: [APS005, SUP273]
 ---
 
 **Virtuoso Bodice** — Guardian Equipment - Chest · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, seekers-mitts, seekers, mitts, generic, equipment, arms]
+tags: [card, seekers-mitts, seekers, mitts, generic, equipment, arms, omn207, out177, sbz006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gBgzTTTb9BCd8wCwhW8jB) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: gBgzTTTb9BCd8wCwhW8jB
 sets: [OMN, OUT, SBZ]
+codes: [OMN207, OUT177, SBZ006]
 ---
 
 **Seeker's Mitts** — Generic Equipment - Arms

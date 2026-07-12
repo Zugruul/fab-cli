@@ -1,5 +1,5 @@
 ---
-tags: [card, spears-of-surreality, spears, surreality, illusionist, action, attack, phantasm, go-again, pitch-1, cost-1]
+tags: [card, spears-of-surreality, spears, surreality, illusionist, action, attack, phantasm, go-again, pitch-1, cost-1, dro019, mon101, tnp016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gGNMr8mcpnDbqBpGLfMrN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm, Go again]
 unique-id: gGNMr8mcpnDbqBpGLfMrN
 sets: [DRO, MON, TNP]
+codes: [DRO019, MON101, TNP016]
 ---
 
 **Spears of Surreality (red)** — Illusionist Action - Attack · cost 1 · 5 power · 3 defense

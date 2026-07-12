@@ -1,5 +1,5 @@
 ---
-tags: [card, point-of-engagement, point, engagement, warrior, action, go-again, pitch-2, cost-0]
+tags: [card, point-of-engagement, point, engagement, warrior, action, go-again, pitch-2, cost-0, hnt138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cqpqWdPdBWCLfHzrR9rHt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: cqpqWdPdBWCLfHzrR9rHt
 sets: [HNT]
+codes: [HNT138]
 ---
 
 **Point of Engagement (yellow)** — Warrior Action · cost 0 · 3 defense

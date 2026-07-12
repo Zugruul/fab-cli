@@ -1,5 +1,5 @@
 ---
-tags: [card, perk-up, perk, up, mechanologist, action, go-again, pitch-1, cost-1]
+tags: [card, perk-up, perk, up, mechanologist, action, go-again, pitch-1, cost-1, sea040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nrwKjjNcwNLF9KwWNLmHP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nrwKjjNcwNLF9KwWNLmHP
 sets: [SEA]
+codes: [SEA040]
 ---
 
 **Perk Up (red)** — Mechanologist Action · cost 1 · 2 defense

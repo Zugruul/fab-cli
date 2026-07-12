@@ -1,5 +1,5 @@
 ---
-tags: [card, fleeing-starbreeze, fleeing, starbreeze, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0]
+tags: [card, fleeing-starbreeze, fleeing, starbreeze, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0, azs027, omn037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qPDJLjQBMWtW8fJ8Kdznp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: qPDJLjQBMWtW8fJ8Kdznp
 sets: [AZS, OMN]
+codes: [AZS027, OMN037]
 ---
 
 **Fleeing Starbreeze (blue)** — Lightning Illusionist Instant - Aura · cost 0

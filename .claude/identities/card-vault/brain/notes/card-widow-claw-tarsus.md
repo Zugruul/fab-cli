@@ -1,5 +1,5 @@
 ---
-tags: [card, widow-claw-tarsus, widow, claw, tarsus, assassin, equipment, arms, arcane-barrier-1, spellvoid-1]
+tags: [card, widow-claw-tarsus, widow, claw, tarsus, assassin, equipment, arms, arcane-barrier-1, spellvoid-1, ros241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zCDtKnHDDB7DNN9GQkGRz) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1, Spellvoid 1]
 unique-id: zCDtKnHDDB7DNN9GQkGRz
 sets: [ROS]
+codes: [ROS241]
 ---
 
 **Widow Claw Tarsus** — Assassin Equipment - Arms

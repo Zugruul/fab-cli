@@ -1,5 +1,5 @@
 ---
-tags: [card, system-reset, system, reset, mechanologist, action, pitch-2]
+tags: [card, system-reset, system, reset, mechanologist, action, pitch-2, evo145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bh7RktHmCjjn9mKNmT6QK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Mechanologist]
 types: [Action]
 unique-id: bh7RktHmCjjn9mKNmT6QK
 sets: [EVO]
+codes: [EVO145]
 ---
 
 **System Reset (yellow)** — Mechanologist Action · cost X · 3 defense

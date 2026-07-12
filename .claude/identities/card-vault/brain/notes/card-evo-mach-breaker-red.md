@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-mach-breaker, evo, mach, breaker, mechanologist, instant, equipment, legs, transform, pitch-1, cost-0]
+tags: [card, evo-mach-breaker, evo, mach, breaker, mechanologist, instant, equipment, legs, transform, pitch-1, cost-0, evo033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LHkFKd9GfdqN7cR6PgPQG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Legs]
 keywords: [Transform]
 unique-id: LHkFKd9GfdqN7cR6PgPQG
 sets: [EVO]
+codes: [EVO033]
 ---
 
 **Evo Mach Breaker (red)** — Mechanologist Instant Equipment - Evo Legs · cost 0 · 0 defense

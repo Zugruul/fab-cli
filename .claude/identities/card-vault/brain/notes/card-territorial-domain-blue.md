@@ -1,5 +1,5 @@
 ---
-tags: [card, territorial-domain, territorial, domain, ninja, defense-reaction, pitch-3, cost-0]
+tags: [card, territorial-domain, territorial, domain, ninja, defense-reaction, pitch-3, cost-0, mst163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DJQQGbkdhhkMkqpDzWwrw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Defense Reaction]
 unique-id: DJQQGbkdhhkMkqpDzWwrw
 sets: [MST]
+codes: [MST163]
 ---
 
 **Territorial Domain (blue)** — Ninja Defense Reaction · cost 0 · 2 defense

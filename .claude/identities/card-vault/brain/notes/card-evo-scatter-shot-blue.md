@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-scatter-shot, evo, scatter, shot, mechanologist, action, equipment, arms, transform, battleworn, pitch-3, cost-3]
+tags: [card, evo-scatter-shot, evo, scatter, shot, mechanologist, action, equipment, arms, transform, battleworn, pitch-3, cost-3, evo040, tcc009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CJ9PkdfKF78Khqf88zDmM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Transform, Battleworn]
 unique-id: CJ9PkdfKF78Khqf88zDmM
 sets: [EVO, TCC]
+codes: [EVO040, TCC009]
 ---
 
 **Evo Scatter Shot (blue)** — Mechanologist Action Equipment - Evo Arms · cost 3 · 2 defense

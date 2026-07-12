@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-perdition, mask, perdition, assassin, equipment, head, battleworn]
+tags: [card, mask-of-perdition, mask, perdition, assassin, equipment, head, battleworn, ark003, dyn118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RnjfWPNBLBd9nGR8RdhnT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: RnjfWPNBLBd9nGR8RdhnT
 sets: [ARK, DYN]
+codes: [ARK003, DYN118]
 ---
 
 **Mask of Perdition** — Assassin Equipment - Head · 1 defense

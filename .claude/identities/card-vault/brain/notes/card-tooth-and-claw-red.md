@@ -1,5 +1,5 @@
 ---
-tags: [card, tooth-and-claw, tooth, claw, ninja, mystic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, tooth-and-claw, tooth, claw, ninja, mystic, action, attack, go-again, pitch-1, cost-0, mst051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cLkt677NMWGgPTNCBcJjn) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: cLkt677NMWGgPTNCBcJjn
 sets: [MST]
+codes: [MST051]
 ---
 
 **Tooth and Claw (red)** — Mystic Ninja Action - Attack · cost 0 · 4 power · 3 defense

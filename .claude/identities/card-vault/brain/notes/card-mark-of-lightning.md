@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-of-lightning, mark, lightning, equipment, arms]
+tags: [card, mark-of-lightning, mark, lightning, equipment, arms, ele174, lxi005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FRDf9rPtwMg7MjfK6wWNP) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: FRDf9rPtwMg7MjfK6wWNP
 sets: [ELE, LXI]
+codes: [ELE174, LXI005]
 ---
 
 **Mark of Lightning** — Lightning Equipment - Arms · 0 defense

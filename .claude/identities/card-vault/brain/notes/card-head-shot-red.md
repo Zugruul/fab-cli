@@ -1,5 +1,5 @@
 ---
-tags: [card, head-shot, head, shot, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, head-shot, head, shot, ranger, action, arrow, attack, pitch-1, cost-1, 1hp240, arc057, sea111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KjdKWBHLWtqdF66zPzRwG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: KjdKWBHLWtqdF66zPzRwG
 sets: [1HP, ARC, SEA]
+codes: [1HP240, ARC057, SEA111]
 ---
 
 **Head Shot (red)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

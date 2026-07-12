@@ -1,5 +1,5 @@
 ---
-tags: [card, concoct-disorder, concoct, disorder, chaos, action, attack, go-again, pitch-1, cost-1]
+tags: [card, concoct-disorder, concoct, disorder, chaos, action, attack, go-again, pitch-1, cost-1, pen279, sar011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wTwJPcMRB8jf7rwCKzKPF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wTwJPcMRB8jf7rwCKzKPF
 sets: [PEN, SAR]
+codes: [PEN279, SAR011]
 ---
 
 **Concoct Disorder (red)** — Chaos Action - Attack · cost 1 · 4 power · 3 defense

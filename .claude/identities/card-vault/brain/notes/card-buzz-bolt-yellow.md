@@ -1,5 +1,5 @@
 ---
-tags: [card, buzz-bolt, buzz, bolt, ranger, elemental, action, arrow, attack, lightning-fusion, pitch-2, cost-1]
+tags: [card, buzz-bolt, buzz, bolt, ranger, elemental, action, arrow, attack, lightning-fusion, pitch-2, cost-1, ele048, lxi011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tMGQrpkw6rBLHRfLtQwgK) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Lightning Fusion]
 unique-id: tMGQrpkw6rBLHRfLtQwgK
 sets: [ELE, LXI]
+codes: [ELE048, LXI011]
 ---
 
 **Buzz Bolt (yellow)** — Elemental Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

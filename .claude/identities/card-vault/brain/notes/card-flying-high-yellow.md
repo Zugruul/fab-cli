@@ -1,5 +1,5 @@
 ---
-tags: [card, flying-high, flying, high, generic, action, go-again, pitch-2, cost-0]
+tags: [card, flying-high, flying, high, generic, action, go-again, pitch-2, cost-0, lgs412, sea207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6cjnMQdchnmhcWTkNMrbK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 6cjnMQdchnmhcWTkNMrbK
 sets: [LGS, SEA]
+codes: [LGS412, SEA207]
 ---
 
 **Flying High (yellow)** — Generic Action · cost 0 · 2 defense

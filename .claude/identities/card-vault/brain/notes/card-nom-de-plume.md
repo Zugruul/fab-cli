@@ -1,5 +1,5 @@
 ---
-tags: [card, nom-de-plume, nom, de, plume, bard, equipment, head]
+tags: [card, nom-de-plume, nom, de, plume, bard, equipment, head, lgs213, tcc051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GkMGqFmbbrpwRCGHJknjt) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: GkMGqFmbbrpwRCGHJknjt
 sets: [LGS, TCC]
+codes: [LGS213, TCC051]
 ---
 
 **Nom de Plume** — Bard Equipment - Head · 0 defense

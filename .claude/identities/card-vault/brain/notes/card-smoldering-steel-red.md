@@ -1,5 +1,5 @@
 ---
-tags: [card, smoldering-steel, smoldering, steel, warrior, draconic, attack-reaction, pitch-1, cost-0]
+tags: [card, smoldering-steel, smoldering, steel, warrior, draconic, attack-reaction, pitch-1, cost-0, pen251]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fnwmJgw6ktTLBrnD7QHFN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: fnwmJgw6ktTLBrnD7QHFN
 sets: [PEN]
+codes: [PEN251]
 ---
 
 **Smoldering Steel (red)** — Draconic Warrior Attack Reaction · cost 0 · 3 defense

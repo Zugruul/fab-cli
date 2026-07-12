@@ -1,5 +1,5 @@
 ---
-tags: [card, sonata-fantasmia, sonata, fantasmia, runeblade, action, viserai-specialization, pitch-3]
+tags: [card, sonata-fantasmia, sonata, fantasmia, runeblade, action, viserai-specialization, pitch-3, evo242]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LQ8bccmDBnnTLLzJRBb8k) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Viserai Specialization]
 unique-id: LQ8bccmDBnnTLLzJRBb8k
 sets: [EVO]
+codes: [EVO242]
 ---
 
 **Sonata Fantasmia (blue)** — Runeblade Action · cost XX · 3 defense

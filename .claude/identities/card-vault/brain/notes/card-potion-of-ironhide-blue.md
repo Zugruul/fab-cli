@@ -1,5 +1,5 @@
 ---
-tags: [card, potion-of-ironhide, potion, ironhide, generic, action, item, pitch-3, cost-0]
+tags: [card, potion-of-ironhide, potion, ironhide, generic, action, item, pitch-3, cost-0, evr186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LRdKLkdKnTJ8CCczKmwzw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: LRdKLkdKnTJ8CCczKmwzw
 sets: [EVR]
+codes: [EVR186]
 ---
 
 **Potion of Ironhide (blue)** — Generic Action - Item · cost 0

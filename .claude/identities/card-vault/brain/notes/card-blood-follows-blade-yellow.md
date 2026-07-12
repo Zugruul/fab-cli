@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-follows-blade, blood, follows, blade, warrior, attack-reaction, kassai-specialization, go-again, pitch-2, cost-0]
+tags: [card, blood-follows-blade, blood, follows, blade, warrior, attack-reaction, kassai-specialization, go-again, pitch-2, cost-0, sup252]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MBgNKqpNwzwM8n6KjMtFN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Kassai Specialization, Go again]
 unique-id: MBgNKqpNwzwM8n6KjMtFN
 sets: [SUP]
+codes: [SUP252]
 ---
 
 **Blood Follows Blade (yellow)** — Warrior Attack Reaction · cost 0 · 3 defense

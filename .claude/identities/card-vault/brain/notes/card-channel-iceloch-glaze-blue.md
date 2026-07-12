@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-iceloch-glaze, channel, iceloch, glaze, ice, action, aura, go-again, freeze, channel-ice, pitch-3, cost-0]
+tags: [card, channel-iceloch-glaze, channel, iceloch, glaze, ice, action, aura, go-again, freeze, channel-ice, pitch-3, cost-0, pen229]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fBkzc8fHBKTCqGTJJP8cP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Freeze, Channel Ice]
 unique-id: fBkzc8fHBKTCqGTJJP8cP
 sets: [PEN]
+codes: [PEN229]
 ---
 
 **Channel Iceloch Glaze (blue)** — Ice Action - Aura · cost 0 · 3 defense

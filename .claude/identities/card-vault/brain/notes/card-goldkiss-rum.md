@@ -1,5 +1,5 @@
 ---
-tags: [card, goldkiss-rum, goldkiss, rum, generic, token, item, go-again]
+tags: [card, goldkiss-rum, goldkiss, rum, generic, token, item, go-again, fab354, sea245]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9KpmmRGnpbdND9Q8GJnT6) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: 9KpmmRGnpbdND9Q8GJnT6
 sets: [FAB, SEA]
+codes: [FAB354, SEA245]
 ---
 
 **Goldkiss Rum** — Generic Token - Item

@@ -1,5 +1,5 @@
 ---
-tags: [card, seismic-stir, seismic, stir, guardian, action, go-again, pitch-3, cost-2]
+tags: [card, seismic-stir, seismic, stir, guardian, action, go-again, pitch-3, cost-2, evr032, mpg096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h7n8tCF66mwtfWfqLLz87) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: h7n8tCF66mwtfWfqLLz87
 sets: [EVR, MPG]
+codes: [EVR032, MPG096]
 ---
 
 **Seismic Stir (blue)** — Guardian Action · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, starlight-striders, starlight, striders, runeblade, lightning, equipment, legs, blade-break]
+tags: [card, starlight-striders, starlight, striders, runeblade, lightning, equipment, legs, blade-break, ast006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dCkbCnQ7pcjfbQ7k8GhFk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: dCkbCnQ7pcjfbQ7k8GhFk
 sets: [AST]
+codes: [AST006]
 ---
 
 **Starlight Striders** — Lightning Runeblade Equipment - Legs · 1 defense

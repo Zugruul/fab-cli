@@ -1,5 +1,5 @@
 ---
-tags: [card, reach-beyond-the-grave, reach, beyond, grave, necromancer, equipment, arms, battleworn]
+tags: [card, reach-beyond-the-grave, reach, beyond, grave, necromancer, equipment, arms, battleworn, pen154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HWDPBPpKBd7kdJdHpbw9t) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: HWDPBPpKBd7kdJdHpbw9t
 sets: [PEN]
+codes: [PEN154]
 ---
 
 **Reach Beyond the Grave** — Necromancer Equipment - Arms · 1 defense

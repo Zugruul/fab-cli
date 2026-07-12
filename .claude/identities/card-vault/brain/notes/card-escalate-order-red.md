@@ -1,5 +1,5 @@
 ---
-tags: [card, escalate-order, escalate, order, action, attack, revered, pitch-1, cost-2]
+tags: [card, escalate-order, escalate, order, action, attack, revered, pitch-1, cost-2, sup022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MpFfQjRhkdrL8QhmgbhgM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: MpFfQjRhkdrL8QhmgbhgM
 sets: [SUP]
+codes: [SUP022]
 ---
 
 **Escalate Order (red)** — Revered Action - Attack · cost 2 · 6 power · 3 defense

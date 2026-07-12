@@ -1,5 +1,5 @@
 ---
-tags: [card, kyloria, illusionist, draconic, dragon, ally]
+tags: [card, kyloria, illusionist, draconic, dragon, ally, upr011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PHgMJBpk9fJcWNrrnqztz) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: PHgMJBpk9fJcWNrrnqztz
 sets: [UPR]
+codes: [UPR011]
 ---
 
 **Kyloria** — Draconic Illusionist - Dragon Ally · 4 power · 2 health

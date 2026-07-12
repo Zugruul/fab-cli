@@ -1,5 +1,5 @@
 ---
-tags: [card, preach-modesty, preach, modesty, ninja, action, aura, pitch-1, cost-0]
+tags: [card, preach-modesty, preach, modesty, ninja, action, aura, pitch-1, cost-0, sea252]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PzGjPPLt9cWDqTWCQnzTC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: PzGjPPLt9cWDqTWCQnzTC
 sets: [SEA]
+codes: [SEA252]
 ---
 
 **Preach Modesty (red)** — Ninja Action - Aura · cost 0 · 2 defense

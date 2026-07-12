@@ -1,5 +1,5 @@
 ---
-tags: [card, fleet-foot-sandals, fleet, foot, sandals, generic, equipment, legs, go-again]
+tags: [card, fleet-foot-sandals, fleet, foot, sandals, generic, equipment, legs, go-again, ben006, out182]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gJnrmh7M9pLPfkfNnzfMk) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Legs]
 keywords: [Go again]
 unique-id: gJnrmh7M9pLPfkfNnzfMk
 sets: [BEN, OUT]
+codes: [BEN006, OUT182]
 ---
 
 **Fleet Foot Sandals** — Generic Equipment - Legs

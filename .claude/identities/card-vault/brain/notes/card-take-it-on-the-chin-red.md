@@ -1,5 +1,5 @@
 ---
-tags: [card, take-it-on-the-chin, take, it, chin, brute, warrior, instant, pitch-1, cost-0]
+tags: [card, take-it-on-the-chin, take, it, chin, brute, warrior, instant, pitch-1, cost-0, hvy160, ksi017, lgs256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TChD6cjwh6bQmkf7kQFqP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute, Warrior]
 types: [Instant]
 unique-id: TChD6cjwh6bQmkf7kQFqP
 sets: [HVY, KSI, LGS]
+codes: [HVY160, KSI017, LGS256]
 ---
 
 **Take it on the Chin (red)** — Brute / Warrior Instant · cost 0

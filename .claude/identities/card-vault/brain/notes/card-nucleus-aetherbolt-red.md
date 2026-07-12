@@ -1,5 +1,5 @@
 ---
-tags: [card, nucleus-aetherbolt, nucleus, aetherbolt, wizard, action, pitch-1, cost-0]
+tags: [card, nucleus-aetherbolt, nucleus, aetherbolt, wizard, action, pitch-1, cost-0, omn135]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8zKwdDwBMQ79DjgrwJTTn) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: 8zKwdDwBMQ79DjgrwJTTn
 sets: [OMN]
+codes: [OMN135]
 ---
 
 **Nucleus Aetherbolt (red)** — Wizard Action · cost 0 · 2 defense

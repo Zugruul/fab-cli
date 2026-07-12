@@ -1,5 +1,5 @@
 ---
-tags: [card, cognition-nodes, cognition, nodes, mechanologist, action, item, pitch-3, cost-1]
+tags: [card, cognition-nodes, cognition, nodes, mechanologist, action, item, pitch-3, cost-1, 1hp200, arc018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kqmkn6mpNKLqKQdRPjMmt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: Kqmkn6mpNKLqKQdRPjMmt
 sets: [1HP, ARC]
+codes: [1HP200, ARC018]
 ---
 
 **Cognition Nodes (blue)** — Mechanologist Action - Item · cost 1

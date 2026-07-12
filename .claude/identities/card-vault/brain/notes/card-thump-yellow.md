@@ -1,5 +1,5 @@
 ---
-tags: [card, thump, guardian, action, attack, dominate, pitch-2, cost-4]
+tags: [card, thump, guardian, action, attack, dominate, pitch-2, cost-4, ele210, mpg086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KqkGkTqrW7f8w8TfBhWQm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: KqkGkTqrW7f8w8TfBhWQm
 sets: [ELE, MPG]
+codes: [ELE210, MPG086]
 ---
 
 **Thump (yellow)** — Guardian Action - Attack · cost 4 · 5 power · 3 defense

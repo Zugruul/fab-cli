@@ -1,5 +1,5 @@
 ---
-tags: [card, challenge-the-alpha, challenge, alpha, brute, action, attack, pitch-2, cost-3]
+tags: [card, challenge-the-alpha, challenge, alpha, brute, action, attack, pitch-2, cost-3, sup129]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7hj8PM86DzGwgkdK7LqGM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7hj8PM86DzGwgkdK7LqGM
 sets: [SUP]
+codes: [SUP129]
 ---
 
 **Challenge the Alpha (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

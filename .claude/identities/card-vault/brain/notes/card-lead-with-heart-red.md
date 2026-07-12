@@ -1,5 +1,5 @@
 ---
-tags: [card, lead-with-heart, lead, heart, guardian, warrior, action, go-again, pitch-1, cost-1]
+tags: [card, lead-with-heart, lead, heart, guardian, warrior, action, go-again, pitch-1, cost-1, hvy192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CTq6Kdn7WcJ87LzrmznkH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: CTq6Kdn7WcJ87LzrmznkH
 sets: [HVY]
+codes: [HVY192]
 ---
 
 **Lead with Heart (red)** — Guardian / Warrior Action · cost 1 · 2 defense

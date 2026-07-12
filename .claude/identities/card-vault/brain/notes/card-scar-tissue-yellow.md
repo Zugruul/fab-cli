@@ -1,5 +1,5 @@
 ---
-tags: [card, scar-tissue, scar, tissue, assassin, warrior, attack-reaction, mark, pitch-2, cost-0]
+tags: [card, scar-tissue, scar, tissue, assassin, warrior, attack-reaction, mark, pitch-2, cost-0, hnt209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GHfNcPpwFnQttfmWMDq86) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Mark]
 unique-id: GHfNcPpwFnQttfmWMDq86
 sets: [HNT]
+codes: [HNT209]
 ---
 
 **Scar Tissue (yellow)** — Assassin / Warrior Attack Reaction · cost 0 · 2 defense

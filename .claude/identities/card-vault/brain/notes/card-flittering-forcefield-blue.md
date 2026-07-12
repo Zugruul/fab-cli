@@ -1,5 +1,5 @@
 ---
-tags: [card, flittering-forcefield, flittering, forcefield, lightning, defense-reaction, pitch-3, cost-0]
+tags: [card, flittering-forcefield, flittering, forcefield, lightning, defense-reaction, pitch-3, cost-0, omn183]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gRQQM97BJrfQFQjB8jPzz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Lightning]
 types: [Defense Reaction]
 unique-id: gRQQM97BJrfQFQjB8jPzz
 sets: [OMN]
+codes: [OMN183]
 ---
 
 **Flittering Forcefield (blue)** — Lightning Defense Reaction · cost 0 · 1 defense

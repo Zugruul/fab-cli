@@ -1,5 +1,5 @@
 ---
-tags: [card, den-of-the-spider, den, spider, assassin, warrior, defense-reaction, trap, mark, pitch-1, cost-0]
+tags: [card, den-of-the-spider, den, spider, assassin, warrior, defense-reaction, trap, mark, pitch-1, cost-0, hnt214, lgs383, sar023, wod016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jmNMNj8FrgJCR8dCcbmTr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Mark]
 unique-id: jmNMNj8FrgJCR8dCcbmTr
 sets: [HNT, LGS, SAR, WOD]
+codes: [HNT214, LGS383, SAR023, WOD016]
 ---
 
 **Den of the Spider (red)** — Assassin / Warrior Action Defense Reaction - Trap · cost 0 · 3 defense

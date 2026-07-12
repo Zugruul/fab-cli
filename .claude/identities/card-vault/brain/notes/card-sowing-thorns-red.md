@@ -1,5 +1,5 @@
 ---
-tags: [card, sowing-thorns, sowing, thorns, wizard, earth, action, decompose, pitch-1, cost-0]
+tags: [card, sowing-thorns, sowing, thorns, wizard, earth, action, decompose, pitch-1, cost-0, pen214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zmnWwB6cwgPFBqTLWGDDb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Decompose]
 unique-id: zmnWwB6cwgPFBqTLWGDDb
 sets: [PEN]
+codes: [PEN214]
 ---
 
 **Sowing Thorns (red)** — Earth Wizard Action · cost 0 · 3 defense

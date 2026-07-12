@@ -1,5 +1,5 @@
 ---
-tags: [card, horrors-of-the-past, horrors, past, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, horrors-of-the-past, horrors, past, assassin, action, attack, stealth, pitch-2, cost-0, aac022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dCFNBWG66KFGWzrfkM7cQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: dCFNBWG66KFGWzrfkM7cQ
 sets: [AAC]
+codes: [AAC022]
 ---
 
 **Horrors of the Past (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

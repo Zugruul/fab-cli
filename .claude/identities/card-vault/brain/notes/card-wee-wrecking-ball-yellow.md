@@ -1,5 +1,5 @@
 ---
-tags: [card, wee-wrecking-ball, wee, wrecking, ball, guardian, action, attack, crush, pitch-2, cost-0]
+tags: [card, wee-wrecking-ball, wee, wrecking, ball, guardian, action, attack, crush, pitch-2, cost-0, sly023, sup194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DHrjJHjkLLHGd8FPnBrwW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: DHrjJHjkLLHGd8FPnBrwW
 sets: [SLY, SUP]
+codes: [SLY023, SUP194]
 ---
 
 **Wee Wrecking Ball (yellow)** — Guardian Action - Attack · cost 0 · 3 power · 3 defense

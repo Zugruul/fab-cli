@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-rapid-fire, evo, rapid, fire, mechanologist, action, equipment, legs, transform, battleworn, go-again, pitch-3, cost-3]
+tags: [card, evo-rapid-fire, evo, rapid, fire, mechanologist, action, equipment, legs, transform, battleworn, go-again, pitch-3, cost-3, evo041, tcc010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RMcmPNFfqQp6rpn6dkJ9H) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Legs]
 keywords: [Transform, Battleworn, Go again]
 unique-id: RMcmPNFfqQp6rpn6dkJ9H
 sets: [EVO, TCC]
+codes: [EVO041, TCC010]
 ---
 
 **Evo Rapid Fire (blue)** — Mechanologist Action Equipment - Evo Legs · cost 3 · 2 defense

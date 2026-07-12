@@ -1,5 +1,5 @@
 ---
-tags: [card, electrostatic-discharge, electrostatic, discharge, lightning, instant, pitch-1, cost-0]
+tags: [card, electrostatic-discharge, electrostatic, discharge, lightning, instant, pitch-1, cost-0, ast020, aua018, lgs347, osc020, ros110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NFLNtzkpfQDgdPkHfjknf) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: NFLNtzkpfQDgdPkHfjknf
 sets: [AST, AUA, LGS, OSC, ROS]
+codes: [AST020, AUA018, LGS347, OSC020, ROS110]
 ---
 
 **Electrostatic Discharge (red)** — Lightning Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodied-helm, bloodied, helm, event, equipment, head]
+tags: [card, bloodied-helm, bloodied, helm, event, equipment, head, smp014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjWHLmGhtLQTKjzGRRrdF) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Event, Equipment]
 subtypes: [Head]
 unique-id: HjWHLmGhtLQTKjzGRRrdF
 sets: [SMP]
+codes: [SMP014]
 ---
 
 **Bloodied Helm** — Event Equipment - Head · 0 defense

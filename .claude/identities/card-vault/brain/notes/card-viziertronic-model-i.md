@@ -1,5 +1,5 @@
 ---
-tags: [card, viziertronic-model-i, viziertronic, model, mechanologist, equipment, head, arcane-barrier-2]
+tags: [card, viziertronic-model-i, viziertronic, model, mechanologist, equipment, head, arcane-barrier-2, 1hp187, cru102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFbLkp7H79TMzLwJfGMCp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 2]
 unique-id: PFbLkp7H79TMzLwJfGMCp
 sets: [1HP, CRU]
+codes: [1HP187, CRU102]
 ---
 
 **Viziertronic Model i** — Mechanologist Equipment - Head · 0 defense

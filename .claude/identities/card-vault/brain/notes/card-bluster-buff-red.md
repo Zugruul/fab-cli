@@ -1,5 +1,5 @@
 ---
-tags: [card, bluster-buff, bluster, buff, generic, action, attack, pitch-1, cost-1]
+tags: [card, bluster-buff, bluster, buff, generic, action, attack, pitch-1, cost-1, sup221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rmgJwFTgdKNFc8LcPKbJJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rmgJwFTgdKNFc8LcPKbJJ
 sets: [SUP]
+codes: [SUP221]
 ---
 
 **Bluster Buff (red)** — Generic Action - Attack · cost 1 · 6 power · 3 defense

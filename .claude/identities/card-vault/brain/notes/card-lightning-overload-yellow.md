@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-overload, lightning, overload, wizard, action, starfall, pitch-2, cost-1]
+tags: [card, lightning-overload, lightning, overload, wizard, action, starfall, pitch-2, cost-1, omn116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tBQtc8qMLfnmmGWCtFH9z) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Starfall]
 unique-id: tBQtc8qMLfnmmGWCtFH9z
 sets: [OMN]
+codes: [OMN116]
 ---
 
 **Lightning Overload (yellow)** — Lightning Wizard Action · cost 1 · 3 defense

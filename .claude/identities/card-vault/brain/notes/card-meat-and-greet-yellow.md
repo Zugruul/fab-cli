@@ -1,5 +1,5 @@
 ---
-tags: [card, meat-and-greet, meat, greet, runeblade, action, attack, go-again, pitch-2, cost-1]
+tags: [card, meat-and-greet, meat, greet, runeblade, action, attack, go-again, pitch-2, cost-1, 1hp286, cru152, ros147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7cFGrC8JzLcFjRzJ8fnWH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 7cFGrC8JzLcFjRzJ8fnWH
 sets: [1HP, CRU, ROS]
+codes: [1HP286, CRU152, ROS147]
 ---
 
 **Meat and Greet (yellow)** — Runeblade Action - Attack · cost 1 · 3 power · 3 defense

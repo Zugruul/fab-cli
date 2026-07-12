@@ -1,5 +1,5 @@
 ---
-tags: [card, hold-firm, hold, firm, equipment, arms, revered, blade-break]
+tags: [card, hold-firm, hold, firm, equipment, arms, revered, blade-break, sup018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6cfpHFn7czfqJDTRhw7fp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Revered]
 keywords: [Blade Break]
 unique-id: 6cfpHFn7czfqJDTRhw7fp
 sets: [SUP]
+codes: [SUP018]
 ---
 
 **Hold Firm** — Revered Equipment - Arms · 1 defense

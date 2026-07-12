@@ -1,5 +1,5 @@
 ---
-tags: [card, pink-visor, pink, visor, merchant, equipment, head, ruudi-specialization]
+tags: [card, pink-visor, pink, visor, merchant, equipment, head, ruudi-specialization, lss007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fq6Pbr7BmJdqbLFqdfdTW) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Head]
 keywords: [Ruu'di Specialization]
 unique-id: fq6Pbr7BmJdqbLFqdfdTW
 sets: [LSS]
+codes: [LSS007]
 ---
 
 **Pink Visor** — Merchant Equipment - Head

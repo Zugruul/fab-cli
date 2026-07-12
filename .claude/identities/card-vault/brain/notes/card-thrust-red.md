@@ -1,5 +1,5 @@
 ---
-tags: [card, thrust, generic, attack-reaction, pitch-1, cost-1]
+tags: [card, thrust, generic, attack-reaction, pitch-1, cost-1, ddd009, dvr014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M6pzcFzDLQDQLFLqPz9nd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Attack Reaction]
 unique-id: M6pzcFzDLQDQLFLqPz9nd
 sets: [DDD, DVR]
+codes: [DDD009, DVR014]
 ---
 
 **Thrust (red)** — Generic Attack Reaction · cost 1 · 2 defense

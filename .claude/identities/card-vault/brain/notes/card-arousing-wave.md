@@ -1,5 +1,5 @@
 ---
-tags: [card, arousing-wave, arousing, wave, assassin, mystic, equipment, arms, battleworn]
+tags: [card, arousing-wave, arousing, wave, assassin, mystic, equipment, arms, battleworn, lgs269, mst006, nuu005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6hzjr7zdqfrh8nQMf6CH) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: z6hzjr7zdqfrh8nQMf6CH
 sets: [LGS, MST, NUU]
+codes: [LGS269, MST006, NUU005]
 ---
 
 **Arousing Wave** — Mystic Assassin Equipment - Arms · 1 defense

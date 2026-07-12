@@ -1,5 +1,5 @@
 ---
-tags: [card, mbrio-base-walkers, mbrio, base, walkers, mechanologist, equipment, legs, quell-1]
+tags: [card, mbrio-base-walkers, mbrio, base, walkers, mechanologist, equipment, legs, quell-1, pen061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dBjPM7HpftQtBRzdTwhQj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Legs]
 keywords: [Quell 1]
 unique-id: dBjPM7HpftQtBRzdTwhQj
 sets: [PEN]
+codes: [PEN061]
 ---
 
 **mBrio Base Walkers** — Mechanologist Equipment - Base Legs · 0 defense

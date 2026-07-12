@@ -1,5 +1,5 @@
 ---
-tags: [card, blast-rig, blast, rig, mechanologist, action, attack, evo-upgrade, boost, pitch-1, cost-0]
+tags: [card, blast-rig, blast, rig, mechanologist, action, attack, evo-upgrade, boost, pitch-1, cost-0, gem120, pen064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JRNzhJqgLDf7Nr87B9KBT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade, Boost]
 unique-id: JRNzhJqgLDf7Nr87B9KBT
 sets: [GEM, PEN]
+codes: [GEM120, PEN064]
 ---
 
 **Blast Rig (red)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

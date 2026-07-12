@@ -1,5 +1,5 @@
 ---
-tags: [card, zephyr-needle, zephyr, needle, ninja, weapon, dagger, 1h]
+tags: [card, zephyr-needle, zephyr, needle, ninja, weapon, dagger, 1h, 1hp093, 1hp094, cru051, cru052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DC8RfMDzMnthBkWJgmWpQ) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Dagger, 1H]
 unique-id: DC8RfMDzMnthBkWJgmWpQ
 sets: [1HP, CRU]
+codes: [1HP093, 1HP094, CRU051, CRU052]
 ---
 
 **Zephyr Needle** — Ninja Weapon - Dagger (1H) · 2 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, lair-of-the-spider, lair, spider, assassin, ninja, defense-reaction, trap, mark, pitch-1, cost-0]
+tags: [card, lair-of-the-spider, lair, spider, assassin, ninja, defense-reaction, trap, mark, pitch-1, cost-0, hnt191, lgs382, sar026, wod017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mMzzGF76cFfFHJQJTFcnB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Mark]
 unique-id: mMzzGF76cFfFHJQJTFcnB
 sets: [HNT, LGS, SAR, WOD]
+codes: [HNT191, LGS382, SAR026, WOD017]
 ---
 
 **Lair of the Spider (red)** — Assassin / Ninja Action Defense Reaction - Trap · cost 0 · 3 defense

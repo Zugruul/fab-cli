@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-the-winner-takes-all, visit, winner, takes, all, event, wager]
+tags: [card, visit-the-winner-takes-all, visit, winner, takes, all, event, wager, smp013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 69MBWzRNRPKgtQhz8PbML) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ types: [Event]
 keywords: [Wager]
 unique-id: 69MBWzRNRPKgtQhz8PbML
 sets: [SMP]
+codes: [SMP013]
 ---
 
 **Visit the 'Winner Takes All'** — Event

@@ -1,5 +1,5 @@
 ---
-tags: [card, beseech-the-demigon, beseech, demigon, shadow, action, go-again, pitch-3, cost-0]
+tags: [card, beseech-the-demigon, beseech, demigon, shadow, action, go-again, pitch-3, cost-0, dtd189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kB67fM6fFzGPc79Mqrn9Q) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: kB67fM6fFzGPc79Mqrn9Q
 sets: [DTD]
+codes: [DTD189]
 ---
 
 **Beseech the Demigon (blue)** — Shadow Action · cost 0 · 2 defense

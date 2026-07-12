@@ -1,5 +1,5 @@
 ---
-tags: [card, cogwerx-workshop, cogwerx, workshop, mechanologist, action, pitch-3, cost-1]
+tags: [card, cogwerx-workshop, cogwerx, workshop, mechanologist, action, pitch-3, cost-1, sea014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtGRcJrNgDN6LcQtcN7Qb) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Mechanologist]
 types: [Action]
 unique-id: NtGRcJrNgDN6LcQtcN7Qb
 sets: [SEA]
+codes: [SEA014]
 ---
 
 **Cogwerx Workshop (blue)** — Mechanologist Action · cost 1 · 3 defense

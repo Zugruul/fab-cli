@@ -1,5 +1,5 @@
 ---
-tags: [card, void-wraith, void, wraith, shadow, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, void-wraith, void, wraith, shadow, action, attack, blood-debt, pitch-1, cost-2, mon209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MpjDdrJPbQTg9HWknt8m8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: MpjDdrJPbQTg9HWknt8m8
 sets: [MON]
+codes: [MON209]
 ---
 
 **Void Wraith (red)** — Shadow Action - Attack · cost 2 · 5 power · 3 defense

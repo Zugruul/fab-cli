@@ -1,5 +1,5 @@
 ---
-tags: [card, silver, generic, token, item]
+tags: [card, silver, generic, token, item, ark027, dyn245, evr195, fab056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TNJz9fCgqmhhLz9rP9tkt) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Item]
 unique-id: TNJz9fCgqmhhLz9rP9tkt
 sets: [ARK, DYN, EVR, FAB]
+codes: [ARK027, DYN245, EVR195, FAB056]
 ---
 
 **Silver** — Generic Token - Item

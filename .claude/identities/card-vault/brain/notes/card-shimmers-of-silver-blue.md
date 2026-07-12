@@ -1,5 +1,5 @@
 ---
-tags: [card, shimmers-of-silver, shimmers, silver, illusionist, action, aura, spectra, pitch-3, cost-0]
+tags: [card, shimmers-of-silver, shimmers, silver, illusionist, action, aura, spectra, pitch-3, cost-0, apr027, evr140, jdg026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bjggdCWtfTmLNBzq8Jt9L) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra]
 unique-id: bjggdCWtfTmLNBzq8Jt9L
 sets: [APR, EVR, JDG]
+codes: [APR027, EVR140, JDG026]
 ---
 
 **Shimmers of Silver (blue)** — Illusionist Action - Aura · cost 0 · 2 defense

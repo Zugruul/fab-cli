@@ -1,5 +1,5 @@
 ---
-tags: [card, frontline-scout, frontline, scout, generic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, frontline-scout, frontline, scout, generic, action, attack, go-again, pitch-1, cost-0, mon272]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DRqd8NPqtJjrKTPNkNzjg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: DRqd8NPqtJjrKTPNkNzjg
 sets: [MON]
+codes: [MON272]
 ---
 
 **Frontline Scout (red)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

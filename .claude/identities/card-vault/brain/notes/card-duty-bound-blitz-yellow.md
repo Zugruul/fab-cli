@@ -1,5 +1,5 @@
 ---
-tags: [card, duty-bound-blitz, duty, bound, blitz, light, action, attack, go-again, pitch-2, cost-0]
+tags: [card, duty-bound-blitz, duty, bound, blitz, light, action, attack, go-again, pitch-2, cost-0, pen184, sbl026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MgpKjPckTnKBCqnGHmTGc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: MgpKjPckTnKBCqnGHmTGc
 sets: [PEN, SBL]
+codes: [PEN184, SBL026]
 ---
 
 **Duty Bound Blitz (yellow)** — Light Action - Attack · cost 0 · 4 power · 2 defense

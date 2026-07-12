@@ -1,5 +1,5 @@
 ---
-tags: [card, trip-the-light-fantastic, trip, light, fantastic, lightning, action, attack, pitch-2, cost-1]
+tags: [card, trip-the-light-fantastic, trip, light, fantastic, lightning, action, attack, pitch-2, cost-1, ros105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CNJjHNFRzNwCmBRJw6mt6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: CNJjHNFRzNwCmBRJw6mt6
 sets: [ROS]
+codes: [ROS105]
 ---
 
 **Trip the Light Fantastic (yellow)** — Lightning Action - Attack · cost 1 · 4 power · 2 defense

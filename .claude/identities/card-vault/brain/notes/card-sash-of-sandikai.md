@@ -1,5 +1,5 @@
 ---
-tags: [card, sash-of-sandikai, sash, sandikai, draconic, equipment, chest]
+tags: [card, sash-of-sandikai, sash, sandikai, draconic, equipment, chest, fai004, upr085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9BqdPQckmdgcfzwtjw7BP) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: 9BqdPQckmdgcfzwtjw7BP
 sets: [FAI, UPR]
+codes: [FAI004, UPR085]
 ---
 
 **Sash of Sandikai** — Draconic Equipment - Chest · 0 defense

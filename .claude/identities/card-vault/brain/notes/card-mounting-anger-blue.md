@@ -1,5 +1,5 @@
 ---
-tags: [card, mounting-anger, mounting, anger, ninja, draconic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, mounting-anger, mounting, anger, ninja, draconic, action, attack, go-again, pitch-3, cost-1, upr056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kCHmfqF7QQHKTczPTgM8z) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: kCHmfqF7QQHKTczPTgM8z
 sets: [UPR]
+codes: [UPR056]
 ---
 
 **Mounting Anger (blue)** — Draconic Ninja Action - Attack · cost 1 · 2 power · 2 defense

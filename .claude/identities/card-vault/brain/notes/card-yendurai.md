@@ -1,5 +1,5 @@
 ---
-tags: [card, yendurai, illusionist, draconic, dragon, ally]
+tags: [card, yendurai, illusionist, draconic, dragon, ally, upr017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqTpfTkztdLpN8W6TpRtR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: gqTpfTkztdLpN8W6TpRtR
 sets: [UPR]
+codes: [UPR017]
 ---
 
 **Yendurai** — Draconic Illusionist - Dragon Ally · 3 power · 3 health

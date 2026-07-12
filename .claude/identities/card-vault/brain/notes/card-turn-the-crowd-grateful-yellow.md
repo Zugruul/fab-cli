@@ -1,5 +1,5 @@
 ---
-tags: [card, turn-the-crowd-grateful, turn, crowd, grateful, action, attack, revered, the-crowd-cheers, pitch-2, cost-3]
+tags: [card, turn-the-crowd-grateful, turn, crowd, grateful, action, attack, revered, the-crowd-cheers, pitch-2, cost-3, sup050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DL9MJCFT6dnwF6njTbWRR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: DL9MJCFT6dnwF6njTbWRR
 sets: [SUP]
+codes: [SUP050]
 ---
 
 **Turn the Crowd Grateful (yellow)** — Revered Action - Attack · cost 3 · 6 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, bone-basher, bone, basher, brute, weapon, club, 2h]
+tags: [card, bone-basher, bone, basher, brute, weapon, club, 2h, rvd002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LCbjKjHJJd8JJDNWrd6CC) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Club, 2H]
 unique-id: LCbjKjHJJd8JJDNWrd6CC
 sets: [RVD]
+codes: [RVD002]
 ---
 
 **Bone Basher** — Brute Weapon - Club (2H) · 4 power

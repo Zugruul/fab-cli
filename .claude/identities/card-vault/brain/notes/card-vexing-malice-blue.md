@@ -1,5 +1,5 @@
 ---
-tags: [card, vexing-malice, vexing, malice, runeblade, action, attack, pitch-3, cost-1]
+tags: [card, vexing-malice, vexing, malice, runeblade, action, attack, pitch-3, cost-1, lgs059, mon234, svi028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7zjjndpnJwKGK9gLzmzKq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7zjjndpnJwKGK9gLzmzKq
 sets: [LGS, MON, SVI]
+codes: [LGS059, MON234, SVI028]
 ---
 
 **Vexing Malice (blue)** — Runeblade Action - Attack · cost 1 · 1 power · 3 defense

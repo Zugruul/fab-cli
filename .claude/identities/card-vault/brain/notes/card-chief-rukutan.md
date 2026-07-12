@@ -1,5 +1,5 @@
 ---
-tags: [card, chief-rukutan, chief, rukutan, brute, mentor, intimidate]
+tags: [card, chief-rukutan, chief, rukutan, brute, mentor, intimidate, lgs145, rvd007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LrjhhdFHqndpWG8d66GJz) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Mentor]
 keywords: [Intimidate]
 unique-id: LrjhhdFHqndpWG8d66GJz
 sets: [LGS, RVD]
+codes: [LGS145, RVD007]
 ---
 
 **Chief Ruk'utan** — Brute Mentor · 3 defense

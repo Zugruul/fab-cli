@@ -1,5 +1,5 @@
 ---
-tags: [card, teklo-leveler, teklo, leveler, mechanologist, weapon, gun, 2h]
+tags: [card, teklo-leveler, teklo, leveler, mechanologist, weapon, gun, 2h, evo009, lgs190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JR8LzTchKj8QmqkCN7GHw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Gun, 2H]
 unique-id: JR8LzTchKj8QmqkCN7GHw
 sets: [EVO, LGS]
+codes: [EVO009, LGS190]
 ---
 
 **Teklo Leveler** — Mechanologist Weapon - Gun (2H) · 2 power

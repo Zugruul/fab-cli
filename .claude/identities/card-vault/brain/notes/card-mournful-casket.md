@@ -1,5 +1,5 @@
 ---
-tags: [card, mournful-casket, mournful, casket, necromancer, equipment, chest, temper]
+tags: [card, mournful-casket, mournful, casket, necromancer, equipment, chest, temper, pen153, sgb004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N7WdmmWqLrgc7hhzmpjbD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: N7WdmmWqLrgc7hhzmpjbD
 sets: [PEN, SGB]
+codes: [PEN153, SGB004]
 ---
 
 **Mournful Casket** — Necromancer Equipment - Chest · 1 defense

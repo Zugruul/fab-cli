@@ -1,5 +1,5 @@
 ---
-tags: [card, cognition-field, cognition, field, mechanologist, block, galvanize, pitch-3]
+tags: [card, cognition-field, cognition, field, mechanologist, block, galvanize, pitch-3, evo119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HK9PTNh6JKQcNK7cqg6Dq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Galvanize]
 unique-id: HK9PTNh6JKQcNK7cqg6Dq
 sets: [EVO]
+codes: [EVO119]
 ---
 
 **Cognition Field (blue)** — Mechanologist Block · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, unhallowed-rites, unhallowed, rites, runeblade, shadow, action, attack, blood-debt, pitch-3, cost-1]
+tags: [card, unhallowed-rites, unhallowed, rites, runeblade, shadow, action, attack, blood-debt, pitch-3, cost-1, mon161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DBDkGQDnNMDRfMNK7JFWN) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: DBDkGQDnNMDRfMNK7JFWN
 sets: [MON]
+codes: [MON161]
 ---
 
 **Unhallowed Rites (blue)** — Shadow Runeblade Action - Attack · cost 1 · 2 power · 3 defense

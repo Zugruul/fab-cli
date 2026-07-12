@@ -1,5 +1,5 @@
 ---
-tags: [card, tricorn-of-saltwater-death, tricorn, saltwater, death, pirate, necromancer, equipment, head, blade-break]
+tags: [card, tricorn-of-saltwater-death, tricorn, saltwater, death, pirate, necromancer, equipment, head, blade-break, agb004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hBqjdnFmnpdFC8wpQGgfB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: hBqjdnFmnpdFC8wpQGgfB
 sets: [AGB]
+codes: [AGB004]
 ---
 
 **Tricorn of Saltwater Death** — Pirate Necromancer Equipment - Head · 1 defense

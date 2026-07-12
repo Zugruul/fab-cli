@@ -1,5 +1,5 @@
 ---
-tags: [card, perch-grapplers, perch, grapplers, ranger, equipment, legs, blade-break, go-again]
+tags: [card, perch-grapplers, perch, grapplers, ranger, equipment, legs, blade-break, go-again, 1hp227, cru122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CLhBWj6dbMgg9gfPCQjH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break, Go again]
 unique-id: 8CLhBWj6dbMgg9gfPCQjH
 sets: [1HP, CRU]
+codes: [1HP227, CRU122]
 ---
 
 **Perch Grapplers** — Ranger Equipment - Legs · 2 defense

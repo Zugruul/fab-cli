@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-the-floating-dojo, visit, floating, dojo, ninja, instant, katsu-specialization, pitch-3, cost-0]
+tags: [card, visit-the-floating-dojo, visit, floating, dojo, ninja, instant, katsu-specialization, pitch-3, cost-0, out055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zTKjp9zwk8Whfjr7bKpbn) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Katsu Specialization]
 unique-id: zTKjp9zwk8Whfjr7bKpbn
 sets: [OUT]
+codes: [OUT055]
 ---
 
 **Visit the Floating Dojo (blue)** — Ninja Instant · cost 0

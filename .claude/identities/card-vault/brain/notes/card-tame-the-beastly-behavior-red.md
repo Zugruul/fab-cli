@@ -1,5 +1,5 @@
 ---
-tags: [card, tame-the-beastly-behavior, tame, beastly, behavior, action, attack, revered, pitch-1, cost-3]
+tags: [card, tame-the-beastly-behavior, tame, beastly, behavior, action, attack, revered, pitch-1, cost-3, sup024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JWhM8H7f8tLhnHtgtGkMn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: JWhM8H7f8tLhnHtgtGkMn
 sets: [SUP]
+codes: [SUP024]
 ---
 
 **Tame the Beastly Behavior (red)** — Revered Action - Attack · cost 3 · 7 power · 3 defense

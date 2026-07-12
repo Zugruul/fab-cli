@@ -1,5 +1,5 @@
 ---
-tags: [card, data-link, data, link, mechanologist, action, attack, boost, opt-1, pitch-3, cost-0]
+tags: [card, data-link, data, link, mechanologist, action, attack, boost, opt-1, pitch-3, cost-0, aio021, evo188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qfgqjM7QnmJKDnPkmgHTw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost, Opt 1]
 unique-id: qfgqjM7QnmJKDnPkmgHTw
 sets: [AIO, EVO]
+codes: [AIO021, EVO188]
 ---
 
 **Data Link (blue)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

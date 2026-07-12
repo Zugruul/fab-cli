@@ -1,5 +1,5 @@
 ---
-tags: [card, cloud-skiff, cloud, skiff, mechanologist, action, attack, go-again, pitch-2, cost-1]
+tags: [card, cloud-skiff, cloud, skiff, mechanologist, action, attack, go-again, pitch-2, cost-1, sea025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kkfTJq9f9rMqbkPkbJm8R) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: kkfTJq9f9rMqbkPkbJm8R
 sets: [SEA]
+codes: [SEA025]
 ---
 
 **Cloud Skiff (yellow)** — Mechanologist Action - Attack · cost 1 · 4 power · 3 defense

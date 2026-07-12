@@ -1,5 +1,5 @@
 ---
-tags: [card, retrace-the-past, retrace, past, ninja, action, attack, katsu-specialization, combo, pitch-3, cost-0]
+tags: [card, retrace-the-past, retrace, past, ninja, action, attack, katsu-specialization, combo, pitch-3, cost-0, hnt249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RTbHRmf96T8Pz7MD7KLc7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Katsu Specialization, Combo]
 unique-id: RTbHRmf96T8Pz7MD7KLc7
 sets: [HNT]
+codes: [HNT249]
 ---
 
 **Retrace the Past (blue)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ram-raider, ram, raider, brute, shadow, action, attack, blood-debt, go-again, pitch-1, cost-2]
+tags: [card, ram-raider, ram, raider, brute, shadow, action, attack, blood-debt, go-again, pitch-1, cost-2, dtd112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RpM6tCjLdHHdfWcFbJrK6) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt, Go again]
 unique-id: RpM6tCjLdHHdfWcFbJrK6
 sets: [DTD]
+codes: [DTD112]
 ---
 
 **Ram Raider (red)** — Shadow Brute Action - Attack · cost 2 · 6 power · 3 defense

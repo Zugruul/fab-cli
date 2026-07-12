@@ -1,5 +1,5 @@
 ---
-tags: [card, manifestation-of-miragai, manifestation, miragai, illusionist, mystic, instant, aura, ward-x, pitch-3, cost-3]
+tags: [card, manifestation-of-miragai, manifestation, miragai, illusionist, mystic, instant, aura, ward-x, pitch-3, cost-3, mst031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f8QrwNNrtgKcB8MwLRQh8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward X]
 unique-id: f8QrwNNrtgKcB8MwLRQh8
 sets: [MST]
+codes: [MST031]
 ---
 
 **Manifestation of Miragai (blue)** — Mystic Illusionist Instant - Aura · cost 3

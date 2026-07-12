@@ -1,5 +1,5 @@
 ---
-tags: [card, skybody-keikoi, skybody, keikoi, mystic, equipment, chest, cloaked]
+tags: [card, skybody-keikoi, skybody, keikoi, mystic, equipment, chest, cloaked, lgs279, mst072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rLzdPNHmqwPfmRFLhWM8R) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Cloaked]
 unique-id: rLzdPNHmqwPfmRFLhWM8R
 sets: [LGS, MST]
+codes: [LGS279, MST072]
 ---
 
 **Skybody Keikoi** — Mystic Equipment - Chest

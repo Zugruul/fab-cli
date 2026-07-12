@@ -1,5 +1,5 @@
 ---
-tags: [card, argh-smash, argh, smash, brute, action, go-again, pitch-2, cost-3]
+tags: [card, argh-smash, argh, smash, brute, action, go-again, pitch-2, cost-3, cru009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g6JbT9QmdqT8nQwH8cFCh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: g6JbT9QmdqT8nQwH8cFCh
 sets: [CRU]
+codes: [CRU009]
 ---
 
 **Argh... Smash! (yellow)** — Brute Action · cost 3 · 3 defense

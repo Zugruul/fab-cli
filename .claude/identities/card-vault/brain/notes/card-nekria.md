@@ -1,5 +1,5 @@
 ---
-tags: [card, nekria, illusionist, draconic, dragon, ally]
+tags: [card, nekria, illusionist, draconic, dragon, ally, upr013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b886KqRJLbpj78kHWMQJ9) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: b886KqRJLbpj78kHWMQJ9
 sets: [UPR]
+codes: [UPR013]
 ---
 
 **Nekria** — Draconic Illusionist - Dragon Ally · 4 power · 7 health

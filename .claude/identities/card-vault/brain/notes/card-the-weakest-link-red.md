@@ -1,5 +1,5 @@
 ---
-tags: [card, the-weakest-link, weakest, link, generic, action, attack, pitch-1, cost-2]
+tags: [card, the-weakest-link, weakest, link, generic, action, attack, pitch-1, cost-2, anq016, mst192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JjHcGC99TqTf6Mz697hng) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JjHcGC99TqTf6Mz697hng
 sets: [ANQ, MST]
+codes: [ANQ016, MST192]
 ---
 
 **The Weakest Link (red)** — Generic Action - Attack · cost 2 · 6 power · 3 defense

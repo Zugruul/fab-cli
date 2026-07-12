@@ -1,5 +1,5 @@
 ---
-tags: [card, ancestral-empowerment, ancestral, empowerment, ninja, attack-reaction, pitch-1, cost-0]
+tags: [card, ancestral-empowerment, ancestral, empowerment, ninja, attack-reaction, pitch-1, cost-0, 1hp103, wtr082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCDqQNmzPzM8DfbRPBqWj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Attack Reaction]
 unique-id: qCDqQNmzPzM8DfbRPBqWj
 sets: [1HP, WTR]
+codes: [1HP103, WTR082]
 ---
 
 **Ancestral Empowerment (red)** — Ninja Attack Reaction · cost 0 · 3 defense

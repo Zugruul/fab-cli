@@ -1,5 +1,5 @@
 ---
-tags: [card, hocus-pocus, hocus, pocus, runeblade, action, attack, pitch-2, cost-0]
+tags: [card, hocus-pocus, hocus, pocus, runeblade, action, attack, pitch-2, cost-0, ros144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kNCRpnpttdTCbrWkzkmfQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kNCRpnpttdTCbrWkzkmfQ
 sets: [ROS]
+codes: [ROS144]
 ---
 
 **Hocus Pocus (yellow)** — Runeblade Action - Attack · cost 0 · 2 power · 3 defense

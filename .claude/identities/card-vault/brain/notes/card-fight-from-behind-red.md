@@ -1,5 +1,5 @@
 ---
-tags: [card, fight-from-behind, fight, behind, action, attack, revered, the-crowd-cheers, pitch-1, cost-2]
+tags: [card, fight-from-behind, fight, behind, action, attack, revered, the-crowd-cheers, pitch-1, cost-2, sup040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fpbDMC7pMtnNHCJrkcTww) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: fpbDMC7pMtnNHCJrkcTww
 sets: [SUP]
+codes: [SUP040]
 ---
 
 **Fight from Behind (red)** — Revered Action - Attack · cost 2 · 6 power · 2 defense

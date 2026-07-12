@@ -1,5 +1,5 @@
 ---
-tags: [card, shadow-of-ursur, shadow, ursur, runeblade, action, attack, go-again, blood-debt, pitch-3, cost-0]
+tags: [card, shadow-of-ursur, shadow, ursur, runeblade, action, attack, go-again, blood-debt, pitch-3, cost-0, mon156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pntf8jrgBbNzC8jBkChDJ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Blood Debt]
 unique-id: pntf8jrgBbNzC8jBkChDJ
 sets: [MON]
+codes: [MON156]
 ---
 
 **Shadow of Ursur (blue)** — Shadow Runeblade Action - Attack · cost 0 · 2 power · 3 defense

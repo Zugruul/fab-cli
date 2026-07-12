@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-in-the-water, blood, water, pirate, necromancer, defense-reaction, pitch-1, cost-0]
+tags: [card, blood-in-the-water, blood, water, pirate, necromancer, defense-reaction, pitch-1, cost-0, sea047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mhWb9WptjzMQtB99PWNBr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Pirate, Necromancer]
 types: [Defense Reaction]
 unique-id: mhWb9WptjzMQtB99PWNBr
 sets: [SEA]
+codes: [SEA047]
 ---
 
 **Blood in the Water (red)** — Pirate Necromancer Defense Reaction · cost 0 · 4 defense

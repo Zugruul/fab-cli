@@ -1,5 +1,5 @@
 ---
-tags: [card, spring-a-leak, spring, leak, mechanologist, action, attack, boost, pitch-2, cost-2]
+tags: [card, spring-a-leak, spring, leak, mechanologist, action, attack, boost, pitch-2, cost-2, evo151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KjQzCrccMrqpFdRPQwthr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: KjQzCrccMrqpFdRPQwthr
 sets: [EVO]
+codes: [EVO151]
 ---
 
 **Spring a Leak (yellow)** — Mechanologist Action - Attack · cost 2 · 4 power · 3 defense

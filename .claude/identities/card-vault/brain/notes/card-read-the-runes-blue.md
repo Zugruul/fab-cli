@@ -1,5 +1,5 @@
 ---
-tags: [card, read-the-runes, read, runes, runeblade, action, pitch-3, cost-0]
+tags: [card, read-the-runes, read, runes, runeblade, action, pitch-3, cost-0, 1hp296, arc111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6QfkfBbmfr77GMbDTTbLw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Runeblade]
 types: [Action]
 unique-id: 6QfkfBbmfr77GMbDTTbLw
 sets: [1HP, ARC]
+codes: [1HP296, ARC111]
 ---
 
 **Read the Runes (blue)** — Runeblade Action · cost 0 · 2 defense

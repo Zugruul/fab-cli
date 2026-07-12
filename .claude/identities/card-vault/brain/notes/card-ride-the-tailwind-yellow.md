@@ -1,5 +1,5 @@
 ---
-tags: [card, ride-the-tailwind, ride, tailwind, ninja, action, attack, go-again, pitch-2, cost-0]
+tags: [card, ride-the-tailwind, ride, tailwind, ninja, action, attack, go-again, pitch-2, cost-0, evr045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDfh7R89gWDg8wLLkGz6q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: HDfh7R89gWDg8wLLkGz6q
 sets: [EVR]
+codes: [EVR045]
 ---
 
 **Ride the Tailwind (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 2 defense

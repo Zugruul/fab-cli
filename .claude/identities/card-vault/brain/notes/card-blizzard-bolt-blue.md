@@ -1,5 +1,5 @@
 ---
-tags: [card, blizzard-bolt, blizzard, bolt, ranger, elemental, action, arrow, attack, ice-fusion, pitch-3, cost-1]
+tags: [card, blizzard-bolt, blizzard, bolt, ranger, elemental, action, arrow, attack, ice-fusion, pitch-3, cost-1, ele046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gJCkLbwKKhftmCtmQqr7r) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Ice Fusion]
 unique-id: gJCkLbwKKhftmCtmQqr7r
 sets: [ELE]
+codes: [ELE046]
 ---
 
 **Blizzard Bolt (blue)** — Elemental Ranger Action - Arrow Attack · cost 1 · 3 power · 3 defense

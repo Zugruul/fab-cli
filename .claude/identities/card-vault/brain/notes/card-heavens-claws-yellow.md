@@ -1,5 +1,5 @@
 ---
-tags: [card, heavens-claws, heavens, claws, lightning, action, attack, pitch-2, cost-1]
+tags: [card, heavens-claws, heavens, claws, lightning, action, attack, pitch-2, cost-1, aur017, ele193, lxi019, omn173, ros096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NMTzJw6qfQ7rBdDpgMCzL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: NMTzJw6qfQ7rBdDpgMCzL
 sets: [AUR, ELE, LXI, OMN, ROS]
+codes: [AUR017, ELE193, LXI019, OMN173, ROS096]
 ---
 
 **Heaven's Claws (yellow)** — Lightning Action - Attack · cost 1 · 4 power · 3 defense

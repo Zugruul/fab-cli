@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-greed, runechant, greed, runeblade, instant, aura, pitch-2, cost-0]
+tags: [card, runechant-of-greed, runechant, greed, runeblade, instant, aura, pitch-2, cost-0, gem177, iar145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MT8LQJTF6w8gPqMzNTrkr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: MT8LQJTF6w8gPqMzNTrkr
 sets: [GEM, IAR]
+codes: [GEM177, IAR145]
 ---
 
 **Runechant of Greed (yellow)** — Runeblade Instant - Aura · cost 0

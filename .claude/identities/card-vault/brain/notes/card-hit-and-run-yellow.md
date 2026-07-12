@@ -1,5 +1,5 @@
 ---
-tags: [card, hit-and-run, hit, run, warrior, action, go-again, pitch-2, cost-0]
+tags: [card, hit-and-run, hit, run, warrior, action, go-again, pitch-2, cost-0, 1hp175, cru092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qbjpM6PbCPWjjQTfdt9TM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qbjpM6PbCPWjjQTfdt9TM
 sets: [1HP, CRU]
+codes: [1HP175, CRU092]
 ---
 
 **Hit and Run (yellow)** — Warrior Action · cost 0 · 3 defense

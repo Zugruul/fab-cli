@@ -1,5 +1,5 @@
 ---
-tags: [card, pursue-to-the-edge-of-oblivion, pursue, edge, oblivion, generic, action, attack, mark, pitch-1, cost-0]
+tags: [card, pursue-to-the-edge-of-oblivion, pursue, edge, oblivion, generic, action, attack, mark, pitch-1, cost-0, hnt224]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W6dTQMgChGpqBdDnrp6g8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Mark]
 unique-id: W6dTQMgChGpqBdDnrp6g8
 sets: [HNT]
+codes: [HNT224]
 ---
 
 **Pursue to the Edge of Oblivion (red)** — Generic Action - Attack · cost 0 · 4 power · 3 defense

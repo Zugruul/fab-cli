@@ -1,5 +1,5 @@
 ---
-tags: [card, enact-vengeance, enact, vengeance, ninja, action, attack, combo, pitch-1, cost-2]
+tags: [card, enact-vengeance, enact, vengeance, ninja, action, attack, combo, pitch-1, cost-2, asr008, gem116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jR8M7zkdc97kKqDjw7RWD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: jR8M7zkdc97kKqDjw7RWD
 sets: [ASR, GEM]
+codes: [ASR008, GEM116]
 ---
 
 **Enact Vengeance (red)** — Ninja Action - Attack · cost 2 · 6 power · 3 defense

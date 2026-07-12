@@ -1,5 +1,5 @@
 ---
-tags: [card, swordmasters-shine, swordmasters, shine, warrior, attack-reaction, pitch-1, cost-3]
+tags: [card, swordmasters-shine, swordmasters, shine, warrior, attack-reaction, pitch-1, cost-3, pen048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ngQmpGCLgQBbmwzpwgfcp) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: ngQmpGCLgQBbmwzpwgfcp
 sets: [PEN]
+codes: [PEN048]
 ---
 
 **Swordmaster's Shine (red)** — Warrior Attack Reaction · cost 3 · 3 defense

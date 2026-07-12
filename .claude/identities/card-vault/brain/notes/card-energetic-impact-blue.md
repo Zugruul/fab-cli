@@ -1,5 +1,5 @@
 ---
-tags: [card, energetic-impact, energetic, impact, brute, action, attack, pitch-3, cost-3]
+tags: [card, energetic-impact, energetic, impact, brute, action, attack, pitch-3, cost-3, gem098, sup131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gjGhfGCFbTtWRGrfcgMQN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gjGhfGCFbTtWRGrfcgMQN
 sets: [GEM, SUP]
+codes: [GEM098, SUP131]
 ---
 
 **Energetic Impact (blue)** — Brute Action - Attack · cost 3 · 5 power · 3 defense

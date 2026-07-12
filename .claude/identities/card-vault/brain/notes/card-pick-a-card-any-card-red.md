@@ -1,5 +1,5 @@
 ---
-tags: [card, pick-a-card-any-card, pick, any, generic, action, go-again, pitch-1, cost-0]
+tags: [card, pick-a-card-any-card, pick, any, generic, action, go-again, pitch-1, cost-0, evr167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bLmknjcbt6Bjn6RTmTBMF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bLmknjcbt6Bjn6RTmTBMF
 sets: [EVR]
+codes: [EVR167]
 ---
 
 **Pick a Card, Any Card (red)** — Generic Action · cost 0 · 2 defense

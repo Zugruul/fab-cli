@@ -1,5 +1,5 @@
 ---
-tags: [card, barkskin-of-the-millennium-tree, barkskin, millennium, tree, earth, equipment, chest, temper]
+tags: [card, barkskin-of-the-millennium-tree, barkskin, millennium, tree, earth, equipment, chest, temper, fab250, ros028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qdDLqzd6FfmjfPGHLD6NW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: qdDLqzd6FfmjfPGHLD6NW
 sets: [FAB, ROS]
+codes: [FAB250, ROS028]
 ---
 
 **Barkskin of the Millennium Tree** — Earth Equipment - Chest · 2 defense

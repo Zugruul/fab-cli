@@ -1,5 +1,5 @@
 ---
-tags: [card, courageous-crossing, courageous, crossing, ranger, action, trap, go-again, pitch-3, cost-0]
+tags: [card, courageous-crossing, courageous, crossing, ranger, action, trap, go-again, pitch-3, cost-0, pen086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7H6zRGbKbL8BpgNMgwh97) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Go again]
 unique-id: 7H6zRGbKbL8BpgNMgwh97
 sets: [PEN]
+codes: [PEN086]
 ---
 
 **Courageous Crossing (blue)** — Ranger Action - Trap · cost 0 · 3 defense

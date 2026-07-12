@@ -1,5 +1,5 @@
 ---
-tags: [card, teklo-blaster, teklo, blaster, mechanologist, weapon, gun, 2h]
+tags: [card, teklo-blaster, teklo, blaster, mechanologist, weapon, gun, 2h, tcc002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fwNFw9pTWMpgz8t9dCgMD) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Gun, 2H]
 unique-id: fwNFw9pTWMpgz8t9dCgMD
 sets: [TCC]
+codes: [TCC002]
 ---
 
 **Teklo Blaster** — Mechanologist Weapon - Gun (2H) · 2 power

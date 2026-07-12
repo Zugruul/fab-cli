@@ -1,5 +1,5 @@
 ---
-tags: [card, stabbing-pain, stabbing, pain, warrior, draconic, attack-reaction, mark, pitch-1, cost-1]
+tags: [card, stabbing-pain, stabbing, pain, warrior, draconic, attack-reaction, mark, pitch-1, cost-1, fng017, hnt114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jw97fMLCLqmLbfc9CmW7R) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Attack Reaction]
 keywords: [Mark]
 unique-id: Jw97fMLCLqmLbfc9CmW7R
 sets: [FNG, HNT]
+codes: [FNG017, HNT114]
 ---
 
 **Stabbing Pain (red)** — Draconic Warrior Attack Reaction · cost 1 · 2 defense

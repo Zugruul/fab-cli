@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-cog, golden, cog, mechanologist, token, item, crank]
+tags: [card, golden-cog, golden, cog, mechanologist, token, item, crank, fab353, sea042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H6nDPCh7gTgWLfzGdhHB7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Cog, Item]
 keywords: [Crank]
 unique-id: H6nDPCh7gTgWLfzGdhHB7
 sets: [FAB, SEA]
+codes: [FAB353, SEA042]
 ---
 
 **Golden Cog** — Mechanologist Token - Cog Item

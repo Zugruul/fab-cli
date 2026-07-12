@@ -1,5 +1,5 @@
 ---
-tags: [card, pilfer-the-tomb, pilfer, tomb, generic, instant, pitch-3, cost-0]
+tags: [card, pilfer-the-tomb, pilfer, tomb, generic, instant, pitch-3, cost-0, pen329]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pQjcMbpRPhTG8DkHftnK9) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: pQjcMbpRPhTG8DkHftnK9
 sets: [PEN]
+codes: [PEN329]
 ---
 
 **Pilfer the Tomb (blue)** — Generic Instant · cost 0

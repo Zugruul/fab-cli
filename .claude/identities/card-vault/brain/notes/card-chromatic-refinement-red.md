@@ -1,5 +1,5 @@
 ---
-tags: [card, chromatic-refinement, chromatic, refinement, lightning, instant, aura, pitch-1, cost-0]
+tags: [card, chromatic-refinement, chromatic, refinement, lightning, instant, aura, pitch-1, cost-0, omn193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PmfNcqdqDJ89QGFqqLjnz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: PmfNcqdqDJ89QGFqqLjnz
 sets: [OMN]
+codes: [OMN193]
 ---
 
 **Chromatic Refinement (red)** — Lightning Instant - Aura · cost 0

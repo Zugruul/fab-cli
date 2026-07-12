@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-tekloscope, evo, tekloscope, mechanologist, action, equipment, head, transform, battleworn, pitch-3, cost-3]
+tags: [card, evo-tekloscope, evo, tekloscope, mechanologist, action, equipment, head, transform, battleworn, pitch-3, cost-3, evo038, tcc007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCj8gpDLNQpKTNfhM8jbL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Head]
 keywords: [Transform, Battleworn]
 unique-id: qCj8gpDLNQpKTNfhM8jbL
 sets: [EVO, TCC]
+codes: [EVO038, TCC007]
 ---
 
 **Evo Tekloscope (blue)** — Mechanologist Action Equipment - Evo Head · cost 3 · 2 defense

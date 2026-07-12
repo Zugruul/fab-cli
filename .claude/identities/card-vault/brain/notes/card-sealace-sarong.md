@@ -1,5 +1,5 @@
 ---
-tags: [card, sealace-sarong, sealace, sarong, ranger, equipment, legs, blade-break, go-again]
+tags: [card, sealace-sarong, sealace, sarong, ranger, equipment, legs, blade-break, go-again, fab338, sea095]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hqP98JGRBnqGr9QnPCmHC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break, Go again]
 unique-id: hqP98JGRBnqGr9QnPCmHC
 sets: [FAB, SEA]
+codes: [FAB338, SEA095]
 ---
 
 **Sealace Sarong** — Ranger Equipment - Legs · 2 defense

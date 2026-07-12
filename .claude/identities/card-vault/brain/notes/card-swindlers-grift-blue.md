@@ -1,5 +1,5 @@
 ---
-tags: [card, swindlers-grift, swindlers, grift, pirate, action, attack, pitch-3, cost-2]
+tags: [card, swindlers-grift, swindlers, grift, pirate, action, attack, pitch-3, cost-2, sea171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gdgW96DqcRG69KdjcLBjr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gdgW96DqcRG69KdjcLBjr
 sets: [SEA]
+codes: [SEA171]
 ---
 
 **Swindler's Grift (blue)** — Pirate Action - Attack · cost 2 · 4 power · 2 defense

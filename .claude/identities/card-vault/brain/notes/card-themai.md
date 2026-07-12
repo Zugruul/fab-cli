@@ -1,5 +1,5 @@
 ---
-tags: [card, themai, illusionist, draconic, dragon, ally]
+tags: [card, themai, illusionist, draconic, dragon, ally, upr015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HBMfgJPgbmbWzJrRtJCjk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: HBMfgJPgbmbWzJrRtJCjk
 sets: [UPR]
+codes: [UPR015]
 ---
 
 **Themai** — Draconic Illusionist - Dragon Ally · 3 power · 4 health

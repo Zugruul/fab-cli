@@ -1,5 +1,5 @@
 ---
-tags: [card, browbeat, generic, action, attack, pitch-3, cost-0]
+tags: [card, browbeat, generic, action, attack, pitch-3, cost-0, omn213]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RffddJzMgBmzDwQd6JCnf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RffddJzMgBmzDwQd6JCnf
 sets: [OMN]
+codes: [OMN213]
 ---
 
 **Browbeat (blue)** — Generic Action - Attack · cost 0 · 1 power · 3 defense

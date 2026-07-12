@@ -1,5 +1,5 @@
 ---
-tags: [card, mutiny-on-the-battalion-barque, mutiny, battalion, barque, pirate, action, go-again, steal, pitch-3, cost-0]
+tags: [card, mutiny-on-the-battalion-barque, mutiny, battalion, barque, pirate, action, go-again, steal, pitch-3, cost-0, sea176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6TFrJmTqf9DjPmgPrmd8m) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Steal]
 unique-id: 6TFrJmTqf9DjPmgPrmd8m
 sets: [SEA]
+codes: [SEA176]
 ---
 
 **Mutiny on the Battalion Barque (blue)** — Pirate Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, embrace-adversity, embrace, adversity, generic, equipment, arms, blade-break]
+tags: [card, embrace-adversity, embrace, adversity, generic, equipment, arms, blade-break, hvy200]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7LBccf7qnHMdgb996CcWz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: 7LBccf7qnHMdgb996CcWz
 sets: [HVY]
+codes: [HVY200]
 ---
 
 **Embrace Adversity** — Generic Equipment - Arms · 2 defense

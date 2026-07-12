@@ -1,5 +1,5 @@
 ---
-tags: [card, flowstate-embodiment, flowstate, embodiment, lightning, action, attack, pitch-1, cost-0]
+tags: [card, flowstate-embodiment, flowstate, embodiment, lightning, action, attack, pitch-1, cost-0, fab476, omn146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HWwCcqHRHkB69mfHDdJfk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HWwCcqHRHkB69mfHDdJfk
 sets: [FAB, OMN]
+codes: [FAB476, OMN146]
 ---
 
 **Flowstate Embodiment (red)** — Lightning Action - Attack · cost 0 · 4 power · 3 defense

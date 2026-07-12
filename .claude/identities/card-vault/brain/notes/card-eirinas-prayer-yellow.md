@@ -1,5 +1,5 @@
 ---
-tags: [card, eirinas-prayer, eirinas, prayer, generic, instant, pitch-2, cost-1]
+tags: [card, eirinas-prayer, eirinas, prayer, generic, instant, pitch-2, cost-1, 1hp385, arc174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kmz8jrQKpgQbqpTJFzJ6N) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: kmz8jrQKpgQbqpTJFzJ6N
 sets: [1HP, ARC]
+codes: [1HP385, ARC174]
 ---
 
 **Eirina's Prayer (yellow)** — Generic Instant · cost 1

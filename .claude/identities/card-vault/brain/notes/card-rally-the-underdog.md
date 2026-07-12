@@ -1,5 +1,5 @@
 ---
-tags: [card, rally-the-underdog, rally, underdog, event]
+tags: [card, rally-the-underdog, rally, underdog, event, smp030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRRgnn9nCqGDpqQNHhwJm) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Rally the Underdog"
 types: [Event]
 unique-id: hRRgnn9nCqGDpqQNHhwJm
 sets: [SMP]
+codes: [SMP030]
 ---
 
 **Rally the Underdog** — Event

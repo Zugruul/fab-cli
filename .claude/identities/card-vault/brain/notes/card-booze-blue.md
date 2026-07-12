@@ -1,5 +1,5 @@
 ---
-tags: [card, booze, action, aura, reviled, go-again, the-crowd-boos, pitch-3, cost-0]
+tags: [card, booze, action, aura, reviled, go-again, the-crowd-boos, pitch-3, cost-0, lgs433, sly030, sup117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6JztkHqwkFCGJgfBwKgq8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ other-types: [Reviled]
 keywords: [Go again, The Crowd Boos]
 unique-id: 6JztkHqwkFCGJgfBwKgq8
 sets: [LGS, SLY, SUP]
+codes: [LGS433, SLY030, SUP117]
 ---
 
 **Booze! (blue)** — Reviled Action - Aura · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, lexi-livewire, lexi, livewire, ranger, elemental, hero, adult, essence-of-ice-and-lightning, go-again]
+tags: [card, lexi-livewire, lexi, livewire, ranger, elemental, hero, adult, essence-of-ice-and-lightning, go-again, ele031, her043, her049, win014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFmgFK9dFr8q6PrpJFpPG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Ice and Lightning, Go again]
 unique-id: PFmgFK9dFr8q6PrpJFpPG
 sets: [ELE, HER, WIN]
+codes: [ELE031, HER043, HER049, WIN014]
 ---
 
 **Lexi, Livewire** — Elemental Ranger Hero · 40 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, hamstring-shot, hamstring, shot, ranger, action, arrow, attack, pitch-2, cost-1]
+tags: [card, hamstring-shot, hamstring, shot, ranger, action, arrow, attack, pitch-2, cost-1, arc061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WchNMmcctDfbrfJDpMTC8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: WchNMmcctDfbrfJDpMTC8
 sets: [ARC]
+codes: [ARC061]
 ---
 
 **Hamstring Shot (yellow)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

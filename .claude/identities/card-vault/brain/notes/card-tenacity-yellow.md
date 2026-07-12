@@ -1,5 +1,5 @@
 ---
-tags: [card, tenacity, generic, action, attack, pitch-2, cost-0]
+tags: [card, tenacity, generic, action, attack, pitch-2, cost-0, anq015, hvy211]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hJbgjmKWm7PKWGrrRhMf6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hJbgjmKWm7PKWGrrRhMf6
 sets: [ANQ, HVY]
+codes: [ANQ015, HVY211]
 ---
 
 **Tenacity (yellow)** — Generic Action - Attack · cost 0 · 2 power · 3 defense

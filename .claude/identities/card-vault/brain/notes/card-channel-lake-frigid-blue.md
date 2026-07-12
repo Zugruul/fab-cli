@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-lake-frigid, channel, lake, frigid, ice, action, aura, go-again, channel-ice, pitch-3, cost-2]
+tags: [card, channel-lake-frigid, channel, lake, frigid, ice, action, aura, go-again, channel-ice, pitch-3, cost-2, ele146, lgs386]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid frQkkTNgtwqhkN6Hgq6cj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Ice]
 unique-id: frQkkTNgtwqhkN6Hgq6cj
 sets: [ELE, LGS]
+codes: [ELE146, LGS386]
 ---
 
 **Channel Lake Frigid (blue)** — Ice Action - Aura · cost 2 · 3 defense

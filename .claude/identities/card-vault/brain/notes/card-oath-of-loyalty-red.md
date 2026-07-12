@@ -1,5 +1,5 @@
 ---
-tags: [card, oath-of-loyalty, oath, loyalty, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, oath-of-loyalty, oath, loyalty, draconic, action, attack, go-again, pitch-1, cost-0, hnt149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NdCm9WBnzPthfNNLrNggG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: NdCm9WBnzPthfNNLrNggG
 sets: [HNT]
+codes: [HNT149]
 ---
 
 **Oath of Loyalty (red)** — Draconic Action - Attack · cost 0 · 4 power · 3 defense

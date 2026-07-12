@@ -1,5 +1,5 @@
 ---
-tags: [card, scarf-for-a-scarf, scarf, generic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, scarf-for-a-scarf, scarf, generic, action, attack, go-again, pitch-1, cost-0, lss019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HQpCLnmftkcKMJrjjczGK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: HQpCLnmftkcKMJrjjczGK
 sets: [LSS]
+codes: [LSS019]
 ---
 
 **Scarf for a Scarf (red)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

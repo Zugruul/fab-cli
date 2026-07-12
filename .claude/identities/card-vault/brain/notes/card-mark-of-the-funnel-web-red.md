@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-of-the-funnel-web, mark, funnel, web, assassin, action, attack, stealth, pitch-1, cost-0]
+tags: [card, mark-of-the-funnel-web, mark, funnel, web, assassin, action, attack, stealth, pitch-1, cost-0, aac013, gem022, hnt035, sar015, wod010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JwCpdKkGbHhD6JfmK687) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 9JwCpdKkGbHhD6JfmK687
 sets: [AAC, GEM, HNT, SAR, WOD]
+codes: [AAC013, GEM022, HNT035, SAR015, WOD010]
 ---
 
 **Mark of the Funnel Web (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

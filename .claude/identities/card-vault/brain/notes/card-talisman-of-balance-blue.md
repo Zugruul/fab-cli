@@ -1,5 +1,5 @@
 ---
-tags: [card, talisman-of-balance, talisman, balance, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, talisman-of-balance, talisman, balance, generic, action, item, go-again, pitch-3, cost-0, evr188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LWWn7QHqCdDCQRFqPKBJM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: LWWn7QHqCdDCQRFqPKBJM
 sets: [EVR]
+codes: [EVR188]
 ---
 
 **Talisman of Balance (blue)** — Generic Action - Item · cost 0

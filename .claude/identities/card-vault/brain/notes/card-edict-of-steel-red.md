@@ -1,5 +1,5 @@
 ---
-tags: [card, edict-of-steel, edict, steel, warrior, action, sharpen, go-again, pitch-1, cost-0]
+tags: [card, edict-of-steel, edict, steel, warrior, action, sharpen, go-again, pitch-1, cost-0, aha012, sbl020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wKQrdNKc6tbpWbGfNDtcn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Sharpen, Go again]
 unique-id: wKQrdNKc6tbpWbGfNDtcn
 sets: [AHA, SBL]
+codes: [AHA012, SBL020]
 ---
 
 **Edict of Steel (red)** — Warrior Action · cost 0 · 3 defense

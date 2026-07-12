@@ -1,5 +1,5 @@
 ---
-tags: [card, diamond-hands, diamond, hands, merchant, equipment, arms, ruudi-specialization, blade-break]
+tags: [card, diamond-hands, diamond, hands, merchant, equipment, arms, ruudi-specialization, blade-break, lss008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7wcw6w9b7dwfdQwf67MmK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Ruu'di Specialization, Blade Break]
 unique-id: 7wcw6w9b7dwfdQwf67MmK
 sets: [LSS]
+codes: [LSS008]
 ---
 
 **Diamond Hands** — Merchant Equipment - Arms · 1 defense

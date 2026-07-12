@@ -1,5 +1,5 @@
 ---
-tags: [card, path-of-vengeance, path, vengeance, draconic, equipment, legs, blade-break, go-again]
+tags: [card, path-of-vengeance, path, vengeance, draconic, equipment, legs, blade-break, go-again, hnt147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLFcr8MRb7J7mDBzh6Lhk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break, Go again]
 unique-id: MLFcr8MRb7J7mDBzh6Lhk
 sets: [HNT]
+codes: [HNT147]
 ---
 
 **Path of Vengeance** — Draconic Equipment - Legs · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-aegis, blessing, aegis, light, action, aura, go-again, pitch-2, cost-0]
+tags: [card, blessing-of-aegis, blessing, aegis, light, action, aura, go-again, pitch-2, cost-0, omn244]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TrbtmgBqkrbJJkHhzFKMP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: TrbtmgBqkrbJJkHhzFKMP
 sets: [OMN]
+codes: [OMN244]
 ---
 
 **Blessing of Aegis (yellow)** — Light Action - Aura · cost 0 · 3 defense

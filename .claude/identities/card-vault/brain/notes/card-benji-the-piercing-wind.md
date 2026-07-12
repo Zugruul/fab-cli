@@ -1,5 +1,5 @@
 ---
-tags: [card, benji-the-piercing-wind, benji, piercing, wind, ninja, hero, young]
+tags: [card, benji-the-piercing-wind, benji, piercing, wind, ninja, hero, young, 1hp088, ben001, cru047, her026, out047, pen335]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HT8r8mg8rHmbWJthCFHfH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Ninja]
 types: [Hero]
 unique-id: HT8r8mg8rHmbWJthCFHfH
 sets: [1HP, BEN, CRU, HER, OUT, PEN]
+codes: [1HP088, BEN001, CRU047, HER026, OUT047, PEN335]
 ---
 
 **Benji, the Piercing Wind** — Ninja Hero - Young · 17 health · 4 int

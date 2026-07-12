@@ -1,5 +1,5 @@
 ---
-tags: [card, slither, assassin, mystic, attack-reaction, ephemeral, cost-0]
+tags: [card, slither, assassin, mystic, attack-reaction, ephemeral, cost-0, fab242, lgs267, mst024, nuu029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zBDwTqgQTKrNRwjQmMr9g) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Attack Reaction]
 keywords: [Ephemeral]
 unique-id: zBDwTqgQTKrNRwjQmMr9g
 sets: [FAB, LGS, MST, NUU]
+codes: [FAB242, LGS267, MST024, NUU029]
 ---
 
 **Slither** — Mystic Assassin Attack Reaction · cost 0

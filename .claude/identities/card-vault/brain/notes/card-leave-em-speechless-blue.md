@@ -1,5 +1,5 @@
 ---
-tags: [card, leave-em-speechless, leave, em, speechless, action, aura, reviled, pitch-3, cost-0]
+tags: [card, leave-em-speechless, leave, em, speechless, action, aura, reviled, pitch-3, cost-0, pen301]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FB7cMqjrQpWQqFhmPn7Hk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 other-types: [Reviled]
 unique-id: FB7cMqjrQpWQqFhmPn7Hk
 sets: [PEN]
+codes: [PEN301]
 ---
 
 **Leave 'Em Speechless (blue)** — Reviled Action - Aura · cost 0 · 2 defense

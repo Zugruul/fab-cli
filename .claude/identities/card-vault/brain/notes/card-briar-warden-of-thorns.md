@@ -1,5 +1,5 @@
 ---
-tags: [card, briar-warden-of-thorns, briar, warden, thorns, runeblade, elemental, hero, adult, essence-of-earth-and-lightning]
+tags: [card, briar-warden-of-thorns, briar, warden, thorns, runeblade, elemental, hero, adult, essence-of-earth-and-lightning, ele062, her044, her050, her063, ros254, win015, xxx011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cjDzkKdjNrGqL9tnDc7zd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth and Lightning]
 unique-id: cjDzkKdjNrGqL9tnDc7zd
 sets: [ELE, HER, ROS, WIN, XXX]
+codes: [ELE062, HER044, HER050, HER063, ROS254, WIN015, XXX011]
 ---
 
 **Briar, Warden of Thorns** — Elemental Runeblade Hero · 40 health · 4 int

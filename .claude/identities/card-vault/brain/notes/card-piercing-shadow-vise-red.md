@@ -1,5 +1,5 @@
 ---
-tags: [card, piercing-shadow-vise, piercing, shadow, vise, runeblade, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, piercing-shadow-vise, piercing, shadow, vise, runeblade, action, attack, blood-debt, pitch-1, cost-2, chn010, mon171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GFFhw8QtwPpDJWNqJdwCb) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: GFFhw8QtwPpDJWNqJdwCb
 sets: [CHN, MON]
+codes: [CHN010, MON171]
 ---
 
 **Piercing Shadow Vise (red)** — Shadow Runeblade Action - Attack · cost 2 · 4 power · 3 defense

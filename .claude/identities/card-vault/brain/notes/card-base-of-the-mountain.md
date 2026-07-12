@@ -1,5 +1,5 @@
 ---
-tags: [card, base-of-the-mountain, base, mountain, generic, equipment, legs, blade-break]
+tags: [card, base-of-the-mountain, base, mountain, generic, equipment, legs, blade-break, mpg113]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gBQnWLRkrTJNGGm7dWPBN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: gBQnWLRkrTJNGGm7dWPBN
 sets: [MPG]
+codes: [MPG113]
 ---
 
 **Base of the Mountain** — Generic Equipment - Legs · * defense

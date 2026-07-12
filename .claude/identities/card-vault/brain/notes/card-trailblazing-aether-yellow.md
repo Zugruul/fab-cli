@@ -1,5 +1,5 @@
 ---
-tags: [card, trailblazing-aether, trailblazing, aether, wizard, action, surge, pitch-2, cost-0]
+tags: [card, trailblazing-aether, trailblazing, aether, wizard, action, surge, pitch-2, cost-0, ros208]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DhMTNwfDKnwhRqgkPB6gq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: DhMTNwfDKnwhRqgkPB6gq
 sets: [ROS]
+codes: [ROS208]
 ---
 
 **Trailblazing Aether (yellow)** — Wizard Action · cost 0 · 3 defense

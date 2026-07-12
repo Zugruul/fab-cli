@@ -1,5 +1,5 @@
 ---
-tags: [card, dominia, illusionist, draconic, dragon, ally]
+tags: [card, dominia, illusionist, draconic, dragon, ally, upr008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hjggcdqWwpwNKCrTBj6J7) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: hjggcdqWwpwNKCrTBj6J7
 sets: [UPR]
+codes: [UPR008]
 ---
 
 **Dominia** — Draconic Illusionist - Dragon Ally · 4 power · 4 health

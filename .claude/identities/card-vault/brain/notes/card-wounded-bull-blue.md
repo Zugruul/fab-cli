@@ -1,5 +1,5 @@
 ---
-tags: [card, wounded-bull, wounded, bull, generic, action, attack, pitch-3, cost-3]
+tags: [card, wounded-bull, wounded, bull, generic, action, attack, pitch-3, cost-3, bvo026, wtr202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gFQQLWKpNnLW9TPg86kL7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gFQQLWKpNnLW9TPg86kL7
 sets: [BVO, WTR]
+codes: [BVO026, WTR202]
 ---
 
 **Wounded Bull (blue)** — Generic Action - Attack · cost 3 · 5 power · 2 defense

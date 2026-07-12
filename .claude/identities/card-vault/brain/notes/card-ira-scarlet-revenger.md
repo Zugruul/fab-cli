@@ -1,5 +1,5 @@
 ---
-tags: [card, ira-scarlet-revenger, ira, scarlet, revenger, ninja, hero, adult]
+tags: [card, ira-scarlet-revenger, ira, scarlet, revenger, ninja, hero, adult, asr001, her123, her124, her125, win040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DBKWbWMbrt7WK7KwmNQRL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Ninja]
 types: [Hero]
 unique-id: DBKWbWMbrt7WK7KwmNQRL
 sets: [ASR, HER, WIN]
+codes: [ASR001, HER123, HER124, HER125, WIN040]
 ---
 
 **Ira, Scarlet Revenger** — Ninja Hero · 40 health · 4 int

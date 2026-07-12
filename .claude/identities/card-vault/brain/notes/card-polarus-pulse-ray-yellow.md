@@ -1,5 +1,5 @@
 ---
-tags: [card, polarus-pulse-ray, polarus, pulse, ray, illusionist, lightning, action, attack, fragment, pitch-2, cost-2]
+tags: [card, polarus-pulse-ray, polarus, pulse, ray, illusionist, lightning, action, attack, fragment, pitch-2, cost-2, omn010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cjgpLNMgcd7HBcnJnDJ6j) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: cjgpLNMgcd7HBcnJnDJ6j
 sets: [OMN]
+codes: [OMN010]
 ---
 
 **Polarus Pulse Ray (yellow)** — Lightning Illusionist Action - Attack · cost 2 · 6 power · 3 defense

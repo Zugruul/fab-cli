@@ -1,5 +1,5 @@
 ---
-tags: [card, morlock-hill, morlock, hill, warrior, instant, pitch-3, cost-0]
+tags: [card, morlock-hill, morlock, hill, warrior, instant, pitch-3, cost-0, dtd209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8pHBB7MrH9TG7MnnJgMRT) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Warrior]
 types: [Instant]
 unique-id: 8pHBB7MrH9TG7MnnJgMRT
 sets: [DTD]
+codes: [DTD209]
 ---
 
 **Morlock Hill (blue)** — Warrior Instant · cost 0

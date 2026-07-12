@@ -1,5 +1,5 @@
 ---
-tags: [card, invoke-dominia, invoke, dominia, illusionist, draconic, action, invocation, legendary, transform, go-again, pitch-1, cost-4]
+tags: [card, invoke-dominia, invoke, dominia, illusionist, draconic, action, invocation, legendary, transform, go-again, pitch-1, cost-4, upr008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wjwFgpKPTgkKNGgr8Q7JK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Invocation]
 keywords: [Legendary, Transform, Go again]
 unique-id: wjwFgpKPTgkKNGgr8Q7JK
 sets: [UPR]
+codes: [UPR008]
 ---
 
 **Invoke Dominia (red)** — Draconic Illusionist Action - Invocation · cost 4 · 3 defense

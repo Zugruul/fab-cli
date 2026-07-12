@@ -1,5 +1,5 @@
 ---
-tags: [card, flurry-foot-dance, flurry, foot, dance, warrior, defense-reaction, pitch-2, cost-0]
+tags: [card, flurry-foot-dance, flurry, foot, dance, warrior, defense-reaction, pitch-2, cost-0, aha016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CRcjBPdh8TCq96GKpcmBc) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Defense Reaction]
 unique-id: CRcjBPdh8TCq96GKpcmBc
 sets: [AHA]
+codes: [AHA016]
 ---
 
 **Flurry Foot Dance (yellow)** — Warrior Defense Reaction · cost 0 · 2 defense

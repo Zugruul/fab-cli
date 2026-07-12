@@ -1,5 +1,5 @@
 ---
-tags: [card, sunkwater-exoshell, sunkwater, exoshell, generic, equipment, chest, blade-break]
+tags: [card, sunkwater-exoshell, sunkwater, exoshell, generic, equipment, chest, blade-break, mpg115]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9zBtmGnckbkJ9TKNQfkj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: D9zBtmGnckbkJ9TKNQfkj
 sets: [MPG]
+codes: [MPG115]
 ---
 
 **Sunkwater Exoshell** — Generic Equipment - Chest · 0 defense

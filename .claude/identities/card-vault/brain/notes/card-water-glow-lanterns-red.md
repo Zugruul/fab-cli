@@ -1,5 +1,5 @@
 ---
-tags: [card, water-glow-lanterns, water, glow, lanterns, illusionist, action, go-again, pitch-1, cost-0]
+tags: [card, water-glow-lanterns, water, glow, lanterns, illusionist, action, go-again, pitch-1, cost-0, dyn230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tB76Jz9T9FcQTtbFDpbmN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: tB76Jz9T9FcQTtbFDpbmN
 sets: [DYN]
+codes: [DYN230]
 ---
 
 **Water Glow Lanterns (red)** — Illusionist Action · cost 0 · 2 defense

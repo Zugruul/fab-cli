@@ -1,5 +1,5 @@
 ---
-tags: [card, venomback-fabric, venomback, fabric, generic, action, construct, legendary, negate, pitch-2, cost-0]
+tags: [card, venomback-fabric, venomback, fabric, generic, action, construct, legendary, negate, pitch-2, cost-0, lss018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PL9FMwTgW7WnnKfbhRWRG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Legendary, Negate]
 unique-id: PL9FMwTgW7WnnKfbhRWRG
 sets: [LSS]
+codes: [LSS018]
 ---
 
 **Venomback Fabric (yellow)** — Generic Action - Construct · cost 0 · 3 defense

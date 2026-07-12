@@ -1,5 +1,5 @@
 ---
-tags: [card, vexing-quillhand, vexing, quillhand, runeblade, equipment, arms, arcane-barrier-1]
+tags: [card, vexing-quillhand, vexing, quillhand, runeblade, equipment, arms, arcane-barrier-1, avs005, evr103, fab080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wQh8rPTLTrzGqHhfbGnq6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1]
 unique-id: wQh8rPTLTrzGqHhfbGnq6
 sets: [AVS, EVR, FAB]
+codes: [AVS005, EVR103, FAB080]
 ---
 
 **Vexing Quillhand** — Runeblade Equipment - Arms · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, levia, brute, shadow, hero, young]
+tags: [card, levia, brute, shadow, hero, young, dtd104, her036, lev001, mon120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WwzJLfPwhRTkFLDNjJPrk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Shadow]
 types: [Hero]
 unique-id: WwzJLfPwhRTkFLDNjJPrk
 sets: [DTD, HER, LEV, MON]
+codes: [DTD104, HER036, LEV001, MON120]
 ---
 
 **Levia** — Shadow Brute Hero - Young · 20 health · 4 int

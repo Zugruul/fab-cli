@@ -1,5 +1,5 @@
 ---
-tags: [card, shifting-tides, shifting, tides, pirate, action, aura, go-again, pitch-3, cost-0]
+tags: [card, shifting-tides, shifting, tides, pirate, action, aura, go-again, pitch-3, cost-0, sea148]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R7Q6MhPq9nCBT6DhbQMDL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: R7Q6MhPq9nCBT6DhbQMDL
 sets: [SEA]
+codes: [SEA148]
 ---
 
 **Shifting Tides (blue)** — Pirate Action - Aura · cost 0 · 3 defense

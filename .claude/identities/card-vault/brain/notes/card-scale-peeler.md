@@ -1,5 +1,5 @@
 ---
-tags: [card, scale-peeler, scale, peeler, assassin, weapon, dagger, 1h, piercing-1]
+tags: [card, scale-peeler, scale, peeler, assassin, weapon, dagger, 1h, piercing-1, out009, out010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFTttdrTGWGwd8dbpfN6M) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Piercing 1]
 unique-id: rFTttdrTGWGwd8dbpfN6M
 sets: [OUT]
+codes: [OUT009, OUT010]
 ---
 
 **Scale Peeler** — Assassin Weapon - Dagger (1H) · 1 power

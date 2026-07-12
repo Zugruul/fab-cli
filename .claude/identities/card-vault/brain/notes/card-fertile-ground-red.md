@@ -1,5 +1,5 @@
 ---
-tags: [card, fertile-ground, fertile, ground, earth, instant, pitch-1, cost-2]
+tags: [card, fertile-ground, fertile, ground, earth, instant, pitch-1, cost-2, ros067, ver016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BM9WbbJkzGzdmtqMcMLJ6) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Earth]
 types: [Instant]
 unique-id: BM9WbbJkzGzdmtqMcMLJ6
 sets: [ROS, VER]
+codes: [ROS067, VER016]
 ---
 
 **Fertile Ground (red)** — Earth Instant · cost 2

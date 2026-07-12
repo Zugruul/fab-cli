@@ -1,5 +1,5 @@
 ---
-tags: [card, censor, generic, action, attack, pitch-1, cost-1]
+tags: [card, censor, generic, action, attack, pitch-1, cost-1, anq012, dtd226]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gNqK8KBP7kPKcnpWrmq8p) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gNqK8KBP7kPKcnpWrmq8p
 sets: [ANQ, DTD]
+codes: [ANQ012, DTD226]
 ---
 
 **Censor (red)** — Generic Action - Attack · cost 1 · 5 power · 3 defense

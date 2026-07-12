@@ -1,5 +1,5 @@
 ---
-tags: [card, shifting-winds-of-the-mystic-beast, shifting, winds, mystic, beast, ninja, action, go-again, pitch-3, cost-1]
+tags: [card, shifting-winds-of-the-mystic-beast, shifting, winds, mystic, beast, ninja, action, go-again, pitch-3, cost-1, mst052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WznLQmk7B6QQKMmT6TJJC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: WznLQmk7B6QQKMmT6TJJC
 sets: [MST]
+codes: [MST052]
 ---
 
 **Shifting Winds of the Mystic Beast (blue)** — Mystic Ninja Action · cost 1 · 3 defense

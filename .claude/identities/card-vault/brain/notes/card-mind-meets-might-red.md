@@ -1,5 +1,5 @@
 ---
-tags: [card, mind-meets-might, mind, meets, might, illusionist, action, attack, mirage, pitch-1, cost-3]
+tags: [card, mind-meets-might, mind, meets, might, illusionist, action, attack, mirage, pitch-1, cost-3, pen128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QNqdkrjrQND77MrKwwMtm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Mirage]
 unique-id: QNqdkrjrQND77MrKwwMtm
 sets: [PEN]
+codes: [PEN128]
 ---
 
 **Mind Meets Might (red)** — Illusionist Action - Attack · cost 3 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-energy, rising, energy, guardian, warrior, action, attack, pitch-2, cost-2]
+tags: [card, rising-energy, rising, energy, guardian, warrior, action, attack, pitch-2, cost-2, hvy184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8q67M7Fw6zfwfRktjNP7J) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 8q67M7Fw6zfwfRktjNP7J
 sets: [HVY]
+codes: [HVY184]
 ---
 
 **Rising Energy (yellow)** — Guardian / Warrior Action - Attack · cost 2 · 5 power · 2 defense

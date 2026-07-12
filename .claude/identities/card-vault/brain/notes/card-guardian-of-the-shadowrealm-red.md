@@ -1,5 +1,5 @@
 ---
-tags: [card, guardian-of-the-shadowrealm, guardian, shadowrealm, shadow, defense-reaction, blood-debt, pitch-1, cost-2]
+tags: [card, guardian-of-the-shadowrealm, guardian, shadowrealm, shadow, defense-reaction, blood-debt, pitch-1, cost-2, mon192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wLbNLfGtn86JfCTKBdMRg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Blood Debt]
 unique-id: wLbNLfGtn86JfCTKBdMRg
 sets: [MON]
+codes: [MON192]
 ---
 
 **Guardian of the Shadowrealm (red)** — Shadow Defense Reaction · cost 2 · 6 defense

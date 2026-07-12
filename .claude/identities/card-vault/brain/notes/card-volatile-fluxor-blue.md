@@ -1,5 +1,5 @@
 ---
-tags: [card, volatile-fluxor, volatile, fluxor, lightning, action, attack, go-again, pitch-3, cost-0]
+tags: [card, volatile-fluxor, volatile, fluxor, lightning, action, attack, go-again, pitch-3, cost-0, omn180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cQcb7dCwJWGt6jMrDdtRz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: cQcb7dCwJWGt6jMrDdtRz
 sets: [OMN]
+codes: [OMN180]
 ---
 
 **Volatile Fluxor (blue)** — Lightning Action - Attack · cost 0 · 0 power · 3 defense

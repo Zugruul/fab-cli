@@ -1,5 +1,5 @@
 ---
-tags: [card, command-respect, command, respect, guardian, action, attack, pitch-2, cost-3]
+tags: [card, command-respect, command, respect, guardian, action, attack, pitch-2, cost-3, hvy072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wgbL9K6GfgnDk8GJDfFqF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wgbL9K6GfgnDk8GJDfFqF
 sets: [HVY]
+codes: [HVY072]
 ---
 
 **Command Respect (yellow)** — Guardian Action - Attack · cost 3 · 5 power · 3 defense

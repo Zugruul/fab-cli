@@ -1,5 +1,5 @@
 ---
-tags: [card, oscilio-constella-intelligence, oscilio, constella, intelligence, wizard, elemental, hero, adult, essence-of-lightning]
+tags: [card, oscilio-constella-intelligence, oscilio, constella, intelligence, wizard, elemental, hero, adult, essence-of-lightning, her122, ros019, win039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bd8JQMtjbmwQ7W6GLt7KL) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Lightning]
 unique-id: Bd8JQMtjbmwQ7W6GLt7KL
 sets: [HER, ROS, WIN]
+codes: [HER122, ROS019, WIN039]
 ---
 
 **Oscilio, Constella Intelligence** — Elemental Wizard Hero · 36 health · 4 int

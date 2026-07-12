@@ -1,5 +1,5 @@
 ---
-tags: [card, pour-the-mold, pour, mold, mechanologist, action, go-again, pitch-1, cost-0]
+tags: [card, pour-the-mold, pour, mold, mechanologist, action, go-again, pitch-1, cost-0, arc014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MhtpFzdKHmtPPrnLwWhnq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: MhtpFzdKHmtPPrnLwWhnq
 sets: [ARC]
+codes: [ARC014]
 ---
 
 **Pour the Mold (red)** — Mechanologist Action · cost 0 · 3 defense

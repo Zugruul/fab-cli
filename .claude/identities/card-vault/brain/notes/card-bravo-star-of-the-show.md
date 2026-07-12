@@ -1,5 +1,5 @@
 ---
-tags: [card, bravo-star-of-the-show, bravo, star, show, guardian, elemental, hero, adult, essence-of-earth, ice, and-lightning, dominate, go-again]
+tags: [card, bravo-star-of-the-show, bravo, star, show, guardian, elemental, hero, adult, essence-of-earth, ice, and-lightning, dominate, go-again, evr017, win016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFJnMWQNfr6jMMzJhjB9H) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth, Ice, and Lightning, Dominate, Go again]
 unique-id: PFJnMWQNfr6jMMzJhjB9H
 sets: [EVR, WIN]
+codes: [EVR017, WIN016]
 ---
 
 **Bravo, Star of the Show** — Elemental Guardian Hero · 40 health · 4 int

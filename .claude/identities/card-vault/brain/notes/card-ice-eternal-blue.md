@@ -1,5 +1,5 @@
 ---
-tags: [card, ice-eternal, ice, eternal, wizard, elemental, action, iyslander-specialization, ice-fusion, pitch-3]
+tags: [card, ice-eternal, ice, eternal, wizard, elemental, action, iyslander-specialization, ice-fusion, pitch-3, lgs110, siy028, upr109]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zBQGRp777Mj9QPL7zTb9d) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Iyslander Specialization, Ice Fusion]
 unique-id: zBQGRp777Mj9QPL7zTb9d
 sets: [LGS, SIY, UPR]
+codes: [LGS110, SIY028, UPR109]
 ---
 
 **Ice Eternal (blue)** — Elemental Wizard Action · cost XX · 3 defense

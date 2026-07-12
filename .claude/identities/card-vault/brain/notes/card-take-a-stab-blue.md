@@ -1,5 +1,5 @@
 ---
-tags: [card, take-a-stab, take, stab, assassin, warrior, attack-reaction, pitch-3, cost-0]
+tags: [card, take-a-stab, take, stab, assassin, warrior, attack-reaction, pitch-3, cost-0, hnt213, wod025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mrHRpJzKbQPN9TnLb6mjd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Warrior]
 types: [Attack Reaction]
 unique-id: mrHRpJzKbQPN9TnLb6mjd
 sets: [HNT, WOD]
+codes: [HNT213, WOD025]
 ---
 
 **Take a Stab (blue)** — Assassin / Warrior Attack Reaction · cost 0 · 2 defense

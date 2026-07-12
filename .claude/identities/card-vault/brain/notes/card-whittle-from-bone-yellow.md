@@ -1,5 +1,5 @@
 ---
-tags: [card, whittle-from-bone, whittle, bone, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, whittle-from-bone, whittle, bone, assassin, action, attack, stealth, pitch-2, cost-0, hnt021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQKjHgDgPhRzrhQTkTf7N) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: qQKjHgDgPhRzrhQTkTf7N
 sets: [HNT]
+codes: [HNT021]
 ---
 
 **Whittle from Bone (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

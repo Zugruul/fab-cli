@@ -1,5 +1,5 @@
 ---
-tags: [card, apex-bonebreaker, apex, bonebreaker, brute, equipment, arms, temper]
+tags: [card, apex-bonebreaker, apex, bonebreaker, brute, equipment, arms, temper, fab179, hvy008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QTpCnrrjTbQhdRdLBzLzB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Temper]
 unique-id: QTpCnrrjTbQhdRdLBzLzB
 sets: [FAB, HVY]
+codes: [FAB179, HVY008]
 ---
 
 **Apex Bonebreaker** — Brute Equipment - Arms · 2 defense

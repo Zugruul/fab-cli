@@ -1,5 +1,5 @@
 ---
-tags: [card, swift-pickup, swift, pickup, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, swift-pickup, swift, pickup, ninja, action, attack, go-again, pitch-1, cost-0, omn231]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtNFHNGDQcCQzfcCGqgHP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: mtNFHNGDQcCQzfcCGqgHP
 sets: [OMN]
+codes: [OMN231]
 ---
 
 **Swift Pickup (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, minds-desire, minds, desire, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, minds-desire, minds, desire, assassin, action, attack, stealth, pitch-2, cost-0, mst125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQRkbt6WDKDMNbMRrqPC9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: qQRkbt6WDKDMNbMRrqPC9
 sets: [MST]
+codes: [MST125]
 ---
 
 **Mind's Desire (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

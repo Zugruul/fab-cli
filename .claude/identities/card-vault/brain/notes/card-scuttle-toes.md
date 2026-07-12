@@ -1,5 +1,5 @@
 ---
-tags: [card, scuttle-toes, scuttle, toes, necromancer, equipment, legs, arcane-barrier-1]
+tags: [card, scuttle-toes, scuttle, toes, necromancer, equipment, legs, arcane-barrier-1, pen155, sgb009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gMWRNPMTzMTfCqzFGkbTG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1]
 unique-id: gMWRNPMTzMTfCqzFGkbTG
 sets: [PEN, SGB]
+codes: [PEN155, SGB009]
 ---
 
 **Scuttle Toes** — Necromancer Equipment - Legs · 0 defense

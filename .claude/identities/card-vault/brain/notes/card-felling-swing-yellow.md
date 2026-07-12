@@ -1,5 +1,5 @@
 ---
-tags: [card, felling-swing, felling, swing, warrior, action, go-again, pitch-2, cost-3]
+tags: [card, felling-swing, felling, swing, warrior, action, go-again, pitch-2, cost-3, dyn083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RNTCqkRgmcHbcjjNph96G) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: RNTCqkRgmcHbcjjNph96G
 sets: [DYN]
+codes: [DYN083]
 ---
 
 **Felling Swing (yellow)** — Warrior Action · cost 3 · 3 defense

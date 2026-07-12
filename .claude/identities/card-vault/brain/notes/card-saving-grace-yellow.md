@@ -1,5 +1,5 @@
 ---
-tags: [card, saving-grace, saving, grace, warrior, light, defense-reaction, charge, pitch-2, cost-0]
+tags: [card, saving-grace, saving, grace, warrior, light, defense-reaction, charge, pitch-2, cost-0, asb025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WKb8wmGL6MRRzwLnzqLBj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Defense Reaction]
 keywords: [Charge]
 unique-id: WKb8wmGL6MRRzwLnzqLBj
 sets: [ASB]
+codes: [ASB025]
 ---
 
 **Saving Grace (yellow)** — Light Warrior Defense Reaction · cost 0 · 3 defense

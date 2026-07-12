@@ -1,5 +1,5 @@
 ---
-tags: [card, cromai, illusionist, draconic, dragon, ally]
+tags: [card, cromai, illusionist, draconic, dragon, ally, upr010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hnnpkTnnFPR76kw7qg7mr) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: hnnpkTnnFPR76kw7qg7mr
 sets: [UPR]
+codes: [UPR010]
 ---
 
 **Cromai** — Draconic Illusionist - Dragon Ally · 3 power · 2 health

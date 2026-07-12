@@ -1,5 +1,5 @@
 ---
-tags: [card, blasmophet-the-soul-harvester, blasmophet, soul, harvester, shadow, token, demon, ally]
+tags: [card, blasmophet-the-soul-harvester, blasmophet, soul, harvester, shadow, token, demon, ally, fab021, fab041, mon219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qJ8HCWnpHbPRGRGpt86Cb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Token]
 subtypes: [Demon, Ally]
 unique-id: qJ8HCWnpHbPRGRGpt86Cb
 sets: [FAB, MON]
+codes: [FAB021, FAB041, MON219]
 ---
 
 **Blasmophet, the Soul Harvester** — Shadow Token - Demon Ally · 6 power · 6 health

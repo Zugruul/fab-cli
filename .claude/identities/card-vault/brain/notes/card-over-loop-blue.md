@@ -1,5 +1,5 @@
 ---
-tags: [card, over-loop, over, loop, mechanologist, action, attack, boost, pitch-3, cost-2]
+tags: [card, over-loop, over, loop, mechanologist, action, attack, boost, pitch-3, cost-2, 1hp207, arc022, evo221, lgs034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CMTbqWQL99gDnd8L7tthp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: CMTbqWQL99gDnd8L7tthp
 sets: [1HP, ARC, EVO, LGS]
+codes: [1HP207, ARC022, EVO221, LGS034]
 ---
 
 **Over Loop (blue)** — Mechanologist Action - Attack · cost 2 · 3 power · 3 defense

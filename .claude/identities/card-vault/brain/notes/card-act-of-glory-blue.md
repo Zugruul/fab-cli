@@ -1,5 +1,5 @@
 ---
-tags: [card, act-of-glory, act, glory, guardian, instant, aura, suspense, pitch-3, cost-4]
+tags: [card, act-of-glory, act, glory, guardian, instant, aura, suspense, pitch-3, cost-4, aps022, sup197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mb9NWzptP6Cnzk9tjMP8f) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: mb9NWzptP6Cnzk9tjMP8f
 sets: [APS, SUP]
+codes: [APS022, SUP197]
 ---
 
 **Act of Glory (blue)** — Guardian Instant - Aura · cost 4 · 3 defense

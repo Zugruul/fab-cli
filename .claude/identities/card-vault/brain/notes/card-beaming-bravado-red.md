@@ -1,5 +1,5 @@
 ---
-tags: [card, beaming-bravado, beaming, bravado, warrior, light, action, attack, charge, pitch-1, cost-0]
+tags: [card, beaming-bravado, beaming, bravado, warrior, light, action, attack, charge, pitch-1, cost-0, asb007, dtd057, sbl011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8RTWmNwPzJnQp8GKbmK86) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: 8RTWmNwPzJnQp8GKbmK86
 sets: [ASB, DTD, SBL]
+codes: [ASB007, DTD057, SBL011]
 ---
 
 **Beaming Bravado (red)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

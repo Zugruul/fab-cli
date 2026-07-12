@@ -1,5 +1,5 @@
 ---
-tags: [card, resounding-courage, resounding, courage, warrior, light, attack-reaction, pitch-3, cost-1]
+tags: [card, resounding-courage, resounding, courage, warrior, light, attack-reaction, pitch-3, cost-1, dtd071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gW8BgNnBNK8JNCH7DC8cd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Light]
 types: [Attack Reaction]
 unique-id: gW8BgNnBNK8JNCH7DC8cd
 sets: [DTD]
+codes: [DTD071]
 ---
 
 **Resounding Courage (blue)** — Light Warrior Attack Reaction · cost 1 · 3 defense

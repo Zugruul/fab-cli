@@ -1,5 +1,5 @@
 ---
-tags: [card, arknight-ascendancy, arknight, ascendancy, runeblade, action, attack, viserai-specialization, dominate, pitch-1, cost-6]
+tags: [card, arknight-ascendancy, arknight, ascendancy, runeblade, action, attack, viserai-specialization, dominate, pitch-1, cost-6, 1hp265, arc080, avs008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hKGMtQDHtqLhzg8Lzmjmc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Viserai Specialization, Dominate]
 unique-id: hKGMtQDHtqLhzg8Lzmjmc
 sets: [1HP, ARC, AVS]
+codes: [1HP265, ARC080, AVS008]
 ---
 
 **Arknight Ascendancy (red)** — Runeblade Action - Attack · cost 6 · 5 power · 3 defense

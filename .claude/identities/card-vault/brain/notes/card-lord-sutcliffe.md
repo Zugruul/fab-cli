@@ -1,5 +1,5 @@
 ---
-tags: [card, lord-sutcliffe, lord, sutcliffe, runeblade, mentor]
+tags: [card, lord-sutcliffe, lord, sutcliffe, runeblade, mentor, chn002, fab046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WprpWWNjq6F8BwRrTPFmM) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ classes: [Runeblade]
 types: [Mentor]
 unique-id: WprpWWNjq6F8BwRrTPFmM
 sets: [CHN, FAB]
+codes: [CHN002, FAB046]
 ---
 
 **Lord Sutcliffe** — Runeblade Mentor · 3 defense

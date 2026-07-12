@@ -1,5 +1,5 @@
 ---
-tags: [card, heirloom-of-snake-hide, heirloom, snake, hide, assassin, mystic, equipment, chest, cloaked, battleworn]
+tags: [card, heirloom-of-snake-hide, heirloom, snake, hide, assassin, mystic, equipment, chest, cloaked, battleworn, mst005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqzWn8rMcWhGwNQfKtWtG) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Chest]
 keywords: [Cloaked, Battleworn]
 unique-id: wqzWn8rMcWhGwNQfKtWtG
 sets: [MST]
+codes: [MST005]
 ---
 
 **Heirloom of Snake Hide** — Mystic Assassin Equipment - Chest · 2 defense

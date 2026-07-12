@@ -1,5 +1,5 @@
 ---
-tags: [card, hot-streak, hot, streak, warrior, weapon, sword, 1h, go-again]
+tags: [card, hot-streak, hot, streak, warrior, weapon, sword, 1h, go-again, hvy095, ksi003, lgs241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WKGJ7ktHDWrtCBnC9J7gW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Sword, 1H]
 keywords: [Go again]
 unique-id: WKGJ7ktHDWrtCBnC9J7gW
 sets: [HVY, KSI, LGS]
+codes: [HVY095, KSI003, LGS241]
 ---
 
 **Hot Streak** — Warrior Weapon - Sword (1H) · 2 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, hulk-up, hulk, up, action, attack, revered, pitch-1, cost-4]
+tags: [card, hulk-up, hulk, up, action, attack, revered, pitch-1, cost-4, pen291]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dqMTFcnkTFmRwgHjKFhkz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: dqMTFcnkTFmRwgHjKFhkz
 sets: [PEN]
+codes: [PEN291]
 ---
 
 **Hulk Up (red)** — Revered Action - Attack · cost 4 · 8 power · 2 defense

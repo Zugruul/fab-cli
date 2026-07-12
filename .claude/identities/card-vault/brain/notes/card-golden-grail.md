@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-grail, golden, grail, warrior, weapon, sword, 2h]
+tags: [card, golden-grail, golden, grail, warrior, weapon, sword, 2h, aol002, mpw007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqpL7k7Gc78Pw6tzMNQwN) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: NqpL7k7Gc78Pw6tzMNQwN
 sets: [AOL, MPW]
+codes: [AOL002, MPW007]
 ---
 
 **Golden Grail** — Warrior Weapon - Sword (2H) · 3 power

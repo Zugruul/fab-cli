@@ -1,5 +1,5 @@
 ---
-tags: [card, dragon-power, dragon, power, ninja, action, attack, pitch-3, cost-1]
+tags: [card, dragon-power, dragon, power, ninja, action, attack, pitch-3, cost-1, cin023, hnt079, sfa033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dbTzPk8nMMBcPzTnnnDRk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: dbTzPk8nMMBcPzTnnnDRk
 sets: [CIN, HNT, SFA]
+codes: [CIN023, HNT079, SFA033]
 ---
 
 **Dragon Power (blue)** — Ninja Action - Attack · cost 1 · 2 power · 3 defense

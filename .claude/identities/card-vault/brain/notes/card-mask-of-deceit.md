@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-deceit, mask, deceit, assassin, equipment, head, arakni-specialization, blade-break]
+tags: [card, mask-of-deceit, mask, deceit, assassin, equipment, head, arakni-specialization, blade-break, fab291, hnt011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mTf6RCrQ8NpGBBdbC6dQj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arakni Specialization, Blade Break]
 unique-id: mTf6RCrQ8NpGBBdbC6dQj
 sets: [FAB, HNT]
+codes: [FAB291, HNT011]
 ---
 
 **Mask of Deceit** — Assassin Equipment - Head · 2 defense

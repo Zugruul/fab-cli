@@ -1,5 +1,5 @@
 ---
-tags: [card, hundred-winds, hundred, winds, ninja, action, attack, combo, go-again, pitch-1, cost-0]
+tags: [card, hundred-winds, hundred, winds, ninja, action, attack, combo, go-again, pitch-1, cost-0, evr041]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pGDD7t8RQzK7gdJkjdhdQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: pGDD7t8RQzK7gdJkjdhdQ
 sets: [EVR]
+codes: [EVR041]
 ---
 
 **Hundred Winds (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

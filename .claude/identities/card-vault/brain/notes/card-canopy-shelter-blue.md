@@ -1,5 +1,5 @@
 ---
-tags: [card, canopy-shelter, canopy, shelter, earth, block, pitch-3]
+tags: [card, canopy-shelter, canopy, shelter, earth, block, pitch-3, ter027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6FgtcT8gMP7PMj7hCkgP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Earth]
 types: [Block]
 unique-id: N6FgtcT8gMP7PMj7hCkgP
 sets: [TER]
+codes: [TER027]
 ---
 
 **Canopy Shelter (blue)** — Earth Block · 2 defense

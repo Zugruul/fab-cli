@@ -1,5 +1,5 @@
 ---
-tags: [card, trip-the-light-fantastic, trip, light, fantastic, lightning, action, attack, pitch-1, cost-1]
+tags: [card, trip-the-light-fantastic, trip, light, fantastic, lightning, action, attack, pitch-1, cost-1, fab275, ros104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7GkCr8MrPLnHfLc6JfQMH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7GkCr8MrPLnHfLc6JfQMH
 sets: [FAB, ROS]
+codes: [FAB275, ROS104]
 ---
 
 **Trip the Light Fantastic (red)** — Lightning Action - Attack · cost 1 · 5 power · 2 defense

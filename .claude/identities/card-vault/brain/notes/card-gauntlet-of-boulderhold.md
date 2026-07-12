@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlet-of-boulderhold, gauntlet, boulderhold, guardian, equipment, arms, battleworn]
+tags: [card, gauntlet-of-boulderhold, gauntlet, boulderhold, guardian, equipment, arms, battleworn, mpg007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GPRfKmdq6LnRwNQCG8jnR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: GPRfKmdq6LnRwNQCG8jnR
 sets: [MPG]
+codes: [MPG007]
 ---
 
 **Gauntlet of Boulderhold** — Guardian Equipment - Arms · 1 defense

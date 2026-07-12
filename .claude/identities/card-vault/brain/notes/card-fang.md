@@ -1,5 +1,5 @@
 ---
-tags: [card, fang, warrior, royal, draconic, hero, young]
+tags: [card, fang, warrior, royal, draconic, hero, young, fng001, hnt099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RBcRMcBrm89m6pcTDQnP9) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Royal, Draconic]
 types: [Hero]
 unique-id: RBcRMcBrm89m6pcTDQnP9
 sets: [FNG, HNT]
+codes: [FNG001, HNT099]
 ---
 
 **Fang** — Royal Draconic Warrior Hero - Young · 20 health · 4 int

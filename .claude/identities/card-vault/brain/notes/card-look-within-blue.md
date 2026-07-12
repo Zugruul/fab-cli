@@ -1,5 +1,5 @@
 ---
-tags: [card, look-within, look, within, mystic, action, go-again, pitch-3, cost-0]
+tags: [card, look-within, look, within, mystic, action, go-again, pitch-3, cost-0, pen273]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zn7jChRWnFCRdJTRbMmbw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: zn7jChRWnFCRdJTRbMmbw
 sets: [PEN]
+codes: [PEN273]
 ---
 
 **Look Within (blue)** — Mystic Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hyper-inflation, hyper, inflation, chaos, action, attack, go-again, pitch-3, cost-0]
+tags: [card, hyper-inflation, hyper, inflation, chaos, action, attack, go-again, pitch-3, cost-0, pen284]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BKJbdNkwdHcnC987TRDwg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: BKJbdNkwdHcnC987TRDwg
 sets: [PEN]
+codes: [PEN284]
 ---
 
 **Hyper Inflation (blue)** — Chaos Action - Attack · cost 0 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, seeds-of-strength, seeds, strength, guardian, elemental, action, earth-bond, pitch-3, cost-2]
+tags: [card, seeds-of-strength, seeds, strength, guardian, elemental, action, earth-bond, pitch-3, cost-2, ter025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BWnMgK7JcL6p9NDrQJMW7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Earth Bond]
 unique-id: BWnMgK7JcL6p9NDrQJMW7
 sets: [TER]
+codes: [TER025]
 ---
 
 **Seeds of Strength (blue)** — Elemental Guardian Action · cost 2 · 3 defense

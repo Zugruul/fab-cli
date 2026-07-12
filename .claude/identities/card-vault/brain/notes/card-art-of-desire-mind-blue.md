@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-desire-mind, art, desire, mind, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, art-of-desire-mind, art, desire, mind, assassin, action, attack, stealth, pitch-3, cost-0, mst108, sar028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbgBc7fQLWMjtWQDhnwkm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: JbgBc7fQLWMjtWQDhnwkm
 sets: [MST, SAR]
+codes: [MST108, SAR028]
 ---
 
 **Art of Desire: Mind (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

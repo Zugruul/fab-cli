@@ -1,5 +1,5 @@
 ---
-tags: [card, blast-to-oblivion, blast, oblivion, lightning, action, attack, pitch-1, cost-0]
+tags: [card, blast-to-oblivion, blast, oblivion, lightning, action, attack, pitch-1, cost-0, aua007, osc007, ros079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P8KJ8nmGmLRgmccLWcz8p) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: P8KJ8nmGmLRgmccLWcz8p
 sets: [AUA, OSC, ROS]
+codes: [AUA007, OSC007, ROS079]
 ---
 
 **Blast to Oblivion (red)** — Lightning Action - Attack · cost 0 · 4 power · 2 defense

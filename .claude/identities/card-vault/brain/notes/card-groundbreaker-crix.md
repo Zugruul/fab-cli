@@ -1,5 +1,5 @@
 ---
-tags: [card, groundbreaker-crix, groundbreaker, crix, guardian, hero, pit-fighter, adult, clash, protect]
+tags: [card, groundbreaker-crix, groundbreaker, crix, guardian, hero, pit-fighter, adult, clash, protect, her155, smp004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JzRH98DmhDN98PnGR8bcg) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Pit-Fighter]
 keywords: [Clash, Protect]
 unique-id: JzRH98DmhDN98PnGR8bcg
 sets: [HER, SMP]
+codes: [HER155, SMP004]
 ---
 
 **Groundbreaker Crix** — Guardian Hero - Pit-Fighter · 20 health · 4 int

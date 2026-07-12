@@ -1,5 +1,5 @@
 ---
-tags: [card, brainstorm, wizard, instant, pitch-3, cost-3]
+tags: [card, brainstorm, wizard, instant, pitch-3, cost-3, dyn196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FhmDr7MmkjB9rnmnqdbTd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Wizard]
 types: [Instant]
 unique-id: FhmDr7MmkjB9rnmnqdbTd
 sets: [DYN]
+codes: [DYN196]
 ---
 
 **Brainstorm (blue)** — Wizard Instant · cost 3

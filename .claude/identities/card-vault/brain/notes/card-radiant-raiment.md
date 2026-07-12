@@ -1,5 +1,5 @@
 ---
-tags: [card, radiant-raiment, radiant, raiment, light, equipment, chest]
+tags: [card, radiant-raiment, radiant, raiment, light, equipment, chest, dtd076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gmKLgjmBKHDRjnCf7Q7kh) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: gmKLgjmBKHDRjnCf7Q7kh
 sets: [DTD]
+codes: [DTD076]
 ---
 
 **Radiant Raiment** — Light Equipment - Chest

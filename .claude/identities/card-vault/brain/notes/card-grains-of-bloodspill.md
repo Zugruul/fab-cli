@@ -1,5 +1,5 @@
 ---
-tags: [card, grains-of-bloodspill, grains, bloodspill, warrior, equipment, chest, temper]
+tags: [card, grains-of-bloodspill, grains, bloodspill, warrior, equipment, chest, temper, fab182, hvy097, mpw010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FhJWwcJKQjbQhHGRcNFTf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: FhJWwcJKQjbQhHGRcNFTf
 sets: [FAB, HVY, MPW]
+codes: [FAB182, HVY097, MPW010]
 ---
 
 **Grains of Bloodspill** — Warrior Equipment - Chest · 2 defense

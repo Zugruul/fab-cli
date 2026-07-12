@@ -1,5 +1,5 @@
 ---
-tags: [card, two-steps-forward, two, steps, forward, ninja, equipment, legs, battleworn]
+tags: [card, two-steps-forward, two, steps, forward, ninja, equipment, legs, battleworn, pen033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Twn68rHRjHKDjmnpDQddH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: Twn68rHRjHKDjmnpDQddH
 sets: [PEN]
+codes: [PEN033]
 ---
 
 **Two Steps Forward** — Ninja Equipment - Legs · 1 defense

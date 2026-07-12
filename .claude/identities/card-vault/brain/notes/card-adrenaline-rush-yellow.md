@@ -1,5 +1,5 @@
 ---
-tags: [card, adrenaline-rush, adrenaline, rush, generic, action, attack, pitch-2, cost-2]
+tags: [card, adrenaline-rush, adrenaline, rush, generic, action, attack, pitch-2, cost-2, hvy223, mon264]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KjgnpjTfDBhndccFCCDHn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: KjgnpjTfDBhndccFCCDHn
 sets: [HVY, MON]
+codes: [HVY223, MON264]
 ---
 
 **Adrenaline Rush (yellow)** — Generic Action - Attack · cost 2 · 3 power · 2 defense

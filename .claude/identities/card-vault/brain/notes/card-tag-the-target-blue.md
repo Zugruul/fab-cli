@@ -1,5 +1,5 @@
 ---
-tags: [card, tag-the-target, tag, target, ninja, action, attack, go-again, mark, pitch-3, cost-0]
+tags: [card, tag-the-target, tag, target, ninja, action, attack, go-again, mark, pitch-3, cost-0, cin026, hnt094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qnKjmr6mDJDGbhn6mQdkp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Mark]
 unique-id: qnKjmr6mDJDGbhn6mQdkp
 sets: [CIN, HNT]
+codes: [CIN026, HNT094]
 ---
 
 **Tag the Target (blue)** — Ninja Action - Attack · cost 0 · 1 power · 2 defense

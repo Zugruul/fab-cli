@@ -1,5 +1,5 @@
 ---
-tags: [card, flight-path, flight, path, ranger, equipment, legs, battleworn, go-again]
+tags: [card, flight-path, flight, path, ranger, equipment, legs, battleworn, go-again, aaz007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mRMLQ9PM6rhFMcMKWdcbm) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn, Go again]
 unique-id: mRMLQ9PM6rhFMcMKWdcbm
 sets: [AAZ]
+codes: [AAZ007]
 ---
 
 **Flight Path** — Ranger Equipment - Legs · 1 defense

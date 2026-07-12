@@ -1,5 +1,5 @@
 ---
-tags: [card, embraforged-gauntlet, embraforged, gauntlet, shadow, equipment, arms, temper, blood-debt]
+tags: [card, embraforged-gauntlet, embraforged, gauntlet, shadow, equipment, arms, temper, blood-debt, pen192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8D9wTFwLWtN9hkFwDgRWW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Temper, Blood Debt]
 unique-id: 8D9wTFwLWtN9hkFwDgRWW
 sets: [PEN]
+codes: [PEN192]
 ---
 
 **Embraforged Gauntlet** — Shadow Equipment - Arms · 2 defense

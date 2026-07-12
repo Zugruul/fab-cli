@@ -1,5 +1,5 @@
 ---
-tags: [card, ice-quake, ice, quake, action, go-again, pitch-2, cost-1]
+tags: [card, ice-quake, ice, quake, action, go-again, pitch-2, cost-1, ele152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kTNdJ7FzJFNzgLpBWgTPM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: kTNdJ7FzJFNzgLpBWgTPM
 sets: [ELE]
+codes: [ELE152]
 ---
 
 **Ice Quake (yellow)** — Ice Action · cost 1 · 2 defense

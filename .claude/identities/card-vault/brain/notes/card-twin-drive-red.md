@@ -1,5 +1,5 @@
 ---
-tags: [card, twin-drive, twin, drive, mechanologist, action, attack, boost, pitch-1, cost-2]
+tags: [card, twin-drive, twin, drive, mechanologist, action, attack, boost, pitch-1, cost-2, evo142, lgs432]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BB6TLbtFwBCqtH7H7wBjj) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: BB6TLbtFwBCqtH7H7wBjj
 sets: [EVO, LGS]
+codes: [EVO142, LGS432]
 ---
 
 **Twin Drive (red)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

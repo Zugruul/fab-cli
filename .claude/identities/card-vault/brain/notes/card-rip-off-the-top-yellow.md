@@ -1,5 +1,5 @@
 ---
-tags: [card, rip-off-the-top, rip, off, top, brute, action, go-again, pitch-2, cost-1]
+tags: [card, rip-off-the-top, rip, off, top, brute, action, go-again, pitch-2, cost-1, pen008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NNFqk8C7PnFchKpGJMfph) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: NNFqk8C7PnFchKpGJMfph
 sets: [PEN]
+codes: [PEN008]
 ---
 
 **Rip Off the Top (yellow)** — Brute Action · cost 1 · 2 defense

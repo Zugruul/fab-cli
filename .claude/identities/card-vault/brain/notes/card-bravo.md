@@ -1,5 +1,5 @@
 ---
-tags: [card, bravo, guardian, hero, young, dominate]
+tags: [card, bravo, guardian, hero, young, dominate, 1hp044, bvo002, her006, her055, mpg129, wtr039, xxx002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tzTbzLkLhDzmW9QMJr9KF) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Dominate]
 unique-id: tzTbzLkLhDzmW9QMJr9KF
 sets: [1HP, BVO, HER, MPG, WTR, XXX]
+codes: [1HP044, BVO002, HER006, HER055, MPG129, WTR039, XXX002]
 ---
 
 **Bravo** — Guardian Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-resentment, rising, resentment, ninja, draconic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, rising-resentment, rising, resentment, ninja, draconic, action, attack, go-again, pitch-3, cost-0, upr077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6FrQwLkL6fft9mWQcDM6R) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 6FrQwLkL6fft9mWQcDM6R
 sets: [UPR]
+codes: [UPR077]
 ---
 
 **Rising Resentment (blue)** — Draconic Ninja Action - Attack · cost 0 · 1 power · 2 defense

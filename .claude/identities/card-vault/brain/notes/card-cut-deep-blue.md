@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-deep, cut, deep, warrior, action, go-again, pitch-3, cost-0]
+tags: [card, cut-deep, cut, deep, warrior, action, go-again, pitch-3, cost-0, fng023, hnt130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kn7f7Dn6KnfF7JW8TMnLz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Kn7f7Dn6KnfF7JW8TMnLz
 sets: [FNG, HNT]
+codes: [FNG023, HNT130]
 ---
 
 **Cut Deep (blue)** — Warrior Action · cost 0 · 3 defense

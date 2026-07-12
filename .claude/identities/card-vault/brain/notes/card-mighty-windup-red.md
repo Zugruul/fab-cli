@@ -1,5 +1,5 @@
 ---
-tags: [card, mighty-windup, mighty, windup, brute, guardian, action, attack, pitch-1, cost-3]
+tags: [card, mighty-windup, mighty, windup, brute, guardian, action, attack, pitch-1, cost-3, hvy143, rhi012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RGHRQgGJdBhBPgM9Pfgw7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RGHRQgGJdBhBPgM9Pfgw7
 sets: [HVY, RHI]
+codes: [HVY143, RHI012]
 ---
 
 **Mighty Windup (red)** — Brute / Guardian Action - Attack · cost 3 · 7 power · 2 defense

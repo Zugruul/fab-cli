@@ -1,5 +1,5 @@
 ---
-tags: [card, sandscour-greatbow, sandscour, greatbow, ranger, weapon, bow, 2h]
+tags: [card, sandscour-greatbow, sandscour, greatbow, ranger, weapon, bow, 2h, dyn151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7kf9MgCRrqFckmcHLjtKb) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Bow, 2H]
 unique-id: 7kf9MgCRrqFckmcHLjtKb
 sets: [DYN]
+codes: [DYN151]
 ---
 
 **Sandscour Greatbow** — Ranger Weapon - Bow (2H)

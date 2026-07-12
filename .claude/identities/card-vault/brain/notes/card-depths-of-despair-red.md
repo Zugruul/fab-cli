@@ -1,5 +1,5 @@
 ---
-tags: [card, depths-of-despair, depths, despair, shadow, action, attack, blood-debt, pitch-1, cost-3]
+tags: [card, depths-of-despair, depths, despair, shadow, action, attack, blood-debt, pitch-1, cost-3, pen195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ngf9kPWFqDFPcKrt9hwnq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: Ngf9kPWFqDFPcKrt9hwnq
 sets: [PEN]
+codes: [PEN195]
 ---
 
 **Depths of Despair (red)** — Shadow Action - Attack · cost 3 · 7 power · 3 defense

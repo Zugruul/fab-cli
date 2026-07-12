@@ -1,5 +1,5 @@
 ---
-tags: [card, pulsewave-harpoon, pulsewave, harpoon, mechanologist, action, attack, boost, pitch-1, cost-1]
+tags: [card, pulsewave-harpoon, pulsewave, harpoon, mechanologist, action, attack, boost, pitch-1, cost-1, dyn090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RhmtDg8Qcz8wtFLFQLh98) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: RhmtDg8Qcz8wtFLFQLh98
 sets: [DYN]
+codes: [DYN090]
 ---
 
 **Pulsewave Harpoon (red)** — Mechanologist Action - Attack · cost 1 · 4 power · 3 defense

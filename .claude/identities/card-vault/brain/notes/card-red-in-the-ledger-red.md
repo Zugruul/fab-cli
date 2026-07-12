@@ -1,5 +1,5 @@
 ---
-tags: [card, red-in-the-ledger, red, ledger, ranger, action, arrow, attack, azalea-specialization, pitch-1, cost-1]
+tags: [card, red-in-the-ledger, red, ledger, ranger, action, arrow, attack, azalea-specialization, pitch-1, cost-1, 1hp229, aaz013, arc043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FLHmj9MjCgFPBzgFGKRFW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Azalea Specialization]
 unique-id: FLHmj9MjCgFPBzgFGKRFW
 sets: [1HP, AAZ, ARC]
+codes: [1HP229, AAZ013, ARC043]
 ---
 
 **Red in the Ledger (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

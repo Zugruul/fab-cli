@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-justaucorpse, graven, justaucorpse, necromancer, equipment, chest, battleworn]
+tags: [card, graven-justaucorpse, graven, justaucorpse, necromancer, equipment, chest, battleworn, agb005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wTC7KKjRHpQdTrHCTgkJj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: wTC7KKjRHpQdTrHCTgkJj
 sets: [AGB]
+codes: [AGB005]
 ---
 
 **Graven Justaucorpse** — Necromancer Equipment - Chest · 1 defense

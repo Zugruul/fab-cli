@@ -1,5 +1,5 @@
 ---
-tags: [card, release-the-tension, release, tension, ranger, action, go-again, pitch-2, cost-0]
+tags: [card, release-the-tension, release, tension, ranger, action, go-again, pitch-2, cost-0, evr092, lgs097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PF6BCk9FDPwPzgr6PhKw7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: PF6BCk9FDPwPzgr6PhKw7
 sets: [EVR, LGS]
+codes: [EVR092, LGS097]
 ---
 
 **Release the Tension (yellow)** — Ranger Action · cost 0 · 2 defense

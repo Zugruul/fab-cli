@@ -1,5 +1,5 @@
 ---
-tags: [card, cranial-crush, cranial, crush, guardian, action, attack, pitch-3, cost-6]
+tags: [card, cranial-crush, cranial, crush, guardian, action, attack, pitch-3, cost-6, tcc046, wtr045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wc9L9bCGdNwhFrRD9Ntr6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: wc9L9bCGdNwhFrRD9Ntr6
 sets: [TCC, WTR]
+codes: [TCC046, WTR045]
 ---
 
 **Cranial Crush (blue)** — Guardian Action - Attack · cost 6 · 8 power · 3 defense

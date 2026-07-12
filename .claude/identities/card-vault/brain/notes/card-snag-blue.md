@@ -1,5 +1,5 @@
 ---
-tags: [card, snag, generic, instant, pitch-3, cost-0]
+tags: [card, snag, generic, instant, pitch-3, cost-0, cru182, sup271]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rGc7TPKW7CDRmPRCLg6Jd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: rGc7TPKW7CDRmPRCLg6Jd
 sets: [CRU, SUP]
+codes: [CRU182, SUP271]
 ---
 
 **Snag (blue)** — Generic Instant · cost 0

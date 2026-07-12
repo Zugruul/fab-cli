@@ -1,5 +1,5 @@
 ---
-tags: [card, spinning-wheel-kick, spinning, wheel, kick, ninja, action, attack, combo, go-again, pitch-3, cost-1]
+tags: [card, spinning-wheel-kick, spinning, wheel, kick, ninja, action, attack, combo, go-again, pitch-3, cost-1, lgs143, out064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wdbnJz7TQDCJ6gWW7WNch) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: wdbnJz7TQDCJ6gWW7WNch
 sets: [LGS, OUT]
+codes: [LGS143, OUT064]
 ---
 
 **Spinning Wheel Kick (blue)** — Ninja Action - Attack · cost 1 · 2 power · 2 defense

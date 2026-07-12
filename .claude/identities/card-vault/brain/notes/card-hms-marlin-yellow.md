@@ -1,5 +1,5 @@
 ---
-tags: [card, hms-marlin, hms, marlin, pirate, action, attack, high-tide, overpower, pitch-2, cost-4]
+tags: [card, hms-marlin, hms, marlin, pirate, action, attack, high-tide, overpower, pitch-2, cost-4, sea136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NPjFdzCwz8HKdGkcwLPmw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [High Tide, Overpower]
 unique-id: NPjFdzCwz8HKdGkcwLPmw
 sets: [SEA]
+codes: [SEA136]
 ---
 
 **HMS Marlin (yellow)** — Pirate Action - Attack · cost 4 · 6 power · 3 defense

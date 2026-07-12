@@ -1,5 +1,5 @@
 ---
-tags: [card, wash-away, wash, away, mystic, defense-reaction, pitch-3, cost-2]
+tags: [card, wash-away, wash, away, mystic, defense-reaction, pitch-3, cost-2, mst091]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wdLw8WtkJzf79bfKPbzj9) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Mystic]
 types: [Defense Reaction]
 unique-id: wdLw8WtkJzf79bfKPbzj9
 sets: [MST]
+codes: [MST091]
 ---
 
 **Wash Away (blue)** — Mystic Defense Reaction · cost 2 · 3 defense

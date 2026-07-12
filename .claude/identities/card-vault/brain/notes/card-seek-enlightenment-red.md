@@ -1,5 +1,5 @@
 ---
-tags: [card, seek-enlightenment, seek, enlightenment, light, action, go-again, pitch-1, cost-1]
+tags: [card, seek-enlightenment, seek, enlightenment, light, action, go-again, pitch-1, cost-1, mon081, psm022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rJd6rP8HgrgcfzDBT8bWB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rJd6rP8HgrgcfzDBT8bWB
 sets: [MON, PSM]
+codes: [MON081, PSM022]
 ---
 
 **Seek Enlightenment (red)** — Light Action · cost 1 · 2 defense

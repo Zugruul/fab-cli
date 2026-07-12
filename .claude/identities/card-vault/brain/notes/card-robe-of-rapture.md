@@ -1,5 +1,5 @@
 ---
-tags: [card, robe-of-rapture, robe, rapture, wizard, equipment, chest, arcane-barrier-1]
+tags: [card, robe-of-rapture, robe, rapture, wizard, equipment, chest, arcane-barrier-1, 1hp306, arc117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKdtt7jhNp8DK9QzCqGkz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: CKdtt7jhNp8DK9QzCqGkz
 sets: [1HP, ARC]
+codes: [1HP306, ARC117]
 ---
 
 **Robe of Rapture** — Wizard Equipment - Chest · 0 defense

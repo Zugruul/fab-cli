@@ -1,5 +1,5 @@
 ---
-tags: [card, fraying-lifeforce, fraying, lifeforce, illusionist, lightning, action, attack, fragment, pitch-1, cost-2]
+tags: [card, fraying-lifeforce, fraying, lifeforce, illusionist, lightning, action, attack, fragment, pitch-1, cost-2, omn007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MQCrDKpjPzkPHDGKztTTr) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: MQCrDKpjPzkPHDGKztTTr
 sets: [OMN]
+codes: [OMN007]
 ---
 
 **Fraying Lifeforce (red)** — Lightning Illusionist Action - Attack · cost 2 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, stormwhirl, lightning, instant, go-again, pitch-3, cost-1]
+tags: [card, stormwhirl, lightning, instant, go-again, pitch-3, cost-1, omn192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bmGcLFqnPwP6k88kJH6Bw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Go again]
 unique-id: bmGcLFqnPwP6k88kJH6Bw
 sets: [OMN]
+codes: [OMN192]
 ---
 
 **Stormwhirl (blue)** — Lightning Instant · cost 1

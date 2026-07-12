@@ -1,5 +1,5 @@
 ---
-tags: [card, wounded-bull, wounded, bull, generic, action, attack, pitch-2, cost-3]
+tags: [card, wounded-bull, wounded, bull, generic, action, attack, pitch-2, cost-3, rnr021, rvd020, wtr201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WdmT8cBmQFfGfdR8hknCT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WdmT8cBmQFfGfdR8hknCT
 sets: [RNR, RVD, WTR]
+codes: [RNR021, RVD020, WTR201]
 ---
 
 **Wounded Bull (yellow)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

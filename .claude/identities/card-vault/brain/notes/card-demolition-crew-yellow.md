@@ -1,5 +1,5 @@
 ---
-tags: [card, demolition-crew, demolition, crew, generic, action, attack, dominate, pitch-2, cost-2]
+tags: [card, demolition-crew, demolition, crew, generic, action, attack, dominate, pitch-2, cost-2, wtr180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ckct9HBQDcCqzRKpnLKRR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: Ckct9HBQDcCqzRKpnLKRR
 sets: [WTR]
+codes: [WTR180]
 ---
 
 **Demolition Crew (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

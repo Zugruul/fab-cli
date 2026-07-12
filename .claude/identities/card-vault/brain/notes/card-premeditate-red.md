@@ -1,5 +1,5 @@
 ---
-tags: [card, premeditate, generic, action, go-again, pitch-1, cost-0]
+tags: [card, premeditate, generic, action, go-again, pitch-1, cost-0, anq022, out188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fMgQnGBfTgfGdLFMDjDWJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fMgQnGBfTgfGdLFMDjDWJ
 sets: [ANQ, OUT]
+codes: [ANQ022, OUT188]
 ---
 
 **Premeditate (red)** — Generic Action · cost 0 · 2 defense

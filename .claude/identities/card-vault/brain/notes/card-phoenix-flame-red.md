@@ -1,5 +1,5 @@
 ---
-tags: [card, phoenix-flame, phoenix, flame, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, phoenix-flame, phoenix, flame, draconic, action, attack, go-again, pitch-1, cost-0, fai008, lgs104, pen261, sfa021, upr101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kCbPmp8tjpdK8BFq9z9wQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: kCbPmp8tjpdK8BFq9z9wQ
 sets: [FAI, LGS, PEN, SFA, UPR]
+codes: [FAI008, LGS104, PEN261, SFA021, UPR101]
 ---
 
 **Phoenix Flame (red)** — Draconic Action - Attack · cost 0 · 0 power

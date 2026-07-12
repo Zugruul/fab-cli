@@ -1,5 +1,5 @@
 ---
-tags: [card, high-roller, high, roller, brute, action, intimidate, go-again, pitch-2, cost-0]
+tags: [card, high-roller, high, roller, brute, action, intimidate, go-again, pitch-2, cost-0, evr006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kg6pf7HDqczBhNpddC6KH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Intimidate, Go again]
 unique-id: Kg6pf7HDqczBhNpddC6KH
 sets: [EVR]
+codes: [EVR006]
 ---
 
 **High Roller (yellow)** — Brute Action · cost 0 · 3 defense

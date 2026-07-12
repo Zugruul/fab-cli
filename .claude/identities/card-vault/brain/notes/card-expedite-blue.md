@@ -1,5 +1,5 @@
 ---
-tags: [card, expedite, mechanologist, action, attack, boost, pitch-3, cost-0]
+tags: [card, expedite, mechanologist, action, attack, boost, pitch-3, cost-0, aio022, evo200]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wKjTzmD9hzNBRc6PjLwf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: 9wKjTzmD9hzNBRc6PjLwf
 sets: [AIO, EVO]
+codes: [AIO022, EVO200]
 ---
 
 **Expedite (blue)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

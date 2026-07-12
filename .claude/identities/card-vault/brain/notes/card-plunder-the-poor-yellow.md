@@ -1,5 +1,5 @@
 ---
-tags: [card, plunder-the-poor, plunder, poor, assassin, action, attack, contract, pitch-2, cost-0]
+tags: [card, plunder-the-poor, plunder, poor, assassin, action, attack, contract, pitch-2, cost-0, dyn125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NjJNnbrqJgdh7MW9wkMWP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: NjJNnbrqJgdh7MW9wkMWP
 sets: [DYN]
+codes: [DYN125]
 ---
 
 **Plunder the Poor (yellow)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

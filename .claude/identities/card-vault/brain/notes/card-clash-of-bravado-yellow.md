@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-bravado, clash, bravado, guardian, action, attack, pitch-2, cost-4]
+tags: [card, clash-of-bravado, clash, bravado, guardian, action, attack, pitch-2, cost-4, mpg015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GFNmknDkQm8tdbNCcWGR9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: GFNmknDkQm8tdbNCcWGR9
 sets: [MPG]
+codes: [MPG015]
 ---
 
 **Clash of Bravado (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

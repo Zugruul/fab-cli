@@ -1,5 +1,5 @@
 ---
-tags: [card, lace-with-bloodrot, lace, bloodrot, ranger, action, go-again, pitch-1, cost-0]
+tags: [card, lace-with-bloodrot, lace, bloodrot, ranger, action, go-again, pitch-1, cost-0, aaz017, lgs134, out112, saz022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gdFrmMtzgg8DcqjN6tfBM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: gdFrmMtzgg8DcqjN6tfBM
 sets: [AAZ, LGS, OUT, SAZ]
+codes: [AAZ017, LGS134, OUT112, SAZ022]
 ---
 
 **Lace with Bloodrot (red)** — Ranger Action · cost 0 · 2 defense

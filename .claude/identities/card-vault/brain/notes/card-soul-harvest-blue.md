@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-harvest, soul, harvest, shadow, action, attack, legendary, levia-specialization, pitch-3, cost-6]
+tags: [card, soul-harvest, soul, harvest, shadow, action, attack, legendary, levia-specialization, pitch-3, cost-6, lev008, mon198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G8kbQ7Q6wgqdrcQgLGQpP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Legendary, Levia Specialization]
 unique-id: G8kbQ7Q6wgqdrcQgLGQpP
 sets: [LEV, MON]
+codes: [LEV008, MON198]
 ---
 
 **Soul Harvest (blue)** — Shadow Action - Attack · cost 6 · 6 power · 3 defense

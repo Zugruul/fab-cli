@@ -1,5 +1,5 @@
 ---
-tags: [card, fast-and-furious, fast, furious, mechanologist, action, attack, boost, pitch-1, cost-0]
+tags: [card, fast-and-furious, fast, furious, mechanologist, action, attack, boost, pitch-1, cost-0, aio009, gem104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TCKTLR7jQp6BDTkbdpfJn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: TCKTLR7jQp6BDTkbdpfJn
 sets: [AIO, GEM]
+codes: [AIO009, GEM104]
 ---
 
 **Fast and Furious (red)** — Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

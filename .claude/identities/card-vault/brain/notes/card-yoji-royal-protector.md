@@ -1,5 +1,5 @@
 ---
-tags: [card, yoji-royal-protector, yoji, royal, protector, guardian, hero, young]
+tags: [card, yoji-royal-protector, yoji, royal, protector, guardian, hero, young, dyn025, her075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ncc6tmdrfHgnz9DhPqnwC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Guardian]
 types: [Hero]
 unique-id: ncc6tmdrfHgnz9DhPqnwC
 sets: [DYN, HER]
+codes: [DYN025, HER075]
 ---
 
 **Yoji, Royal Protector** — Guardian Hero - Young · 22 health · 4 int

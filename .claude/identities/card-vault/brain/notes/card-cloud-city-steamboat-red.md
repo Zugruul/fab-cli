@@ -1,5 +1,5 @@
 ---
-tags: [card, cloud-city-steamboat, cloud, city, steamboat, mechanologist, action, attack, pitch-1, cost-2]
+tags: [card, cloud-city-steamboat, cloud, city, steamboat, mechanologist, action, attack, pitch-1, cost-2, sea015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rPqkgWJCRBcDzDGPgMzBj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rPqkgWJCRBcDzDGPgMzBj
 sets: [SEA]
+codes: [SEA015]
 ---
 
 **Cloud City Steamboat (red)** — Mechanologist Action - Attack · cost 2 · 6 power · 3 defense

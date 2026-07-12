@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-conductivity, sigil, conductivity, lightning, instant, aura, arcane-shelter-1, pitch-3, cost-0]
+tags: [card, sigil-of-conductivity, sigil, conductivity, lightning, instant, aura, arcane-shelter-1, pitch-3, cost-0, lgs324, osc024, ros088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cJDgKwKhP89PKhhhcqrgg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Arcane Shelter 1]
 unique-id: cJDgKwKhP89PKhhhcqrgg
 sets: [LGS, OSC, ROS]
+codes: [LGS324, OSC024, ROS088]
 ---
 
 **Sigil of Conductivity (blue)** — Lightning Instant - Aura · cost 0

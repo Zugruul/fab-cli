@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-sentry-base-legs, evo, sentry, base, legs, mechanologist, action, equipment, transform, battleworn, pitch-1, cost-2]
+tags: [card, evo-sentry-base-legs, evo, sentry, base, legs, mechanologist, action, equipment, transform, battleworn, pitch-1, cost-2, evo045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nmGPgfcDFHDb8gkndLkfM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Legs]
 keywords: [Transform, Battleworn]
 unique-id: nmGPgfcDFHDb8gkndLkfM
 sets: [EVO]
+codes: [EVO045]
 ---
 
 **Evo Sentry Base Legs (red)** — Mechanologist Action Equipment - Evo Base Legs · cost 2 · 2 defense

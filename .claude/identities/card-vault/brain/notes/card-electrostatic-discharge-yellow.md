@@ -1,5 +1,5 @@
 ---
-tags: [card, electrostatic-discharge, electrostatic, discharge, lightning, instant, pitch-2, cost-0]
+tags: [card, electrostatic-discharge, electrostatic, discharge, lightning, instant, pitch-2, cost-0, lgs348, ros111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gMQ9qN89b76Fz9CwfBf6q) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: gMQ9qN89b76Fz9CwfBf6q
 sets: [LGS, ROS]
+codes: [LGS348, ROS111]
 ---
 
 **Electrostatic Discharge (yellow)** — Lightning Instant · cost 0

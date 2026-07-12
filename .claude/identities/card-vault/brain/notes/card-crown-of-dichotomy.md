@@ -1,5 +1,5 @@
 ---
-tags: [card, crown-of-dichotomy, crown, dichotomy, runeblade, equipment, head, arcane-barrier-1]
+tags: [card, crown-of-dichotomy, crown, dichotomy, runeblade, equipment, head, arcane-barrier-1, 1hp263, arc079, sba005, svi004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQLdjjNmHTMfDnqzW6TLg) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1]
 unique-id: CQLdjjNmHTMfDnqzW6TLg
 sets: [1HP, ARC, SBA, SVI]
+codes: [1HP263, ARC079, SBA005, SVI004]
 ---
 
 **Crown of Dichotomy** — Runeblade Equipment - Head · 0 defense

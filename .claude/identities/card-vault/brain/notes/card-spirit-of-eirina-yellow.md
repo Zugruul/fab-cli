@@ -1,5 +1,5 @@
 ---
-tags: [card, spirit-of-eirina, spirit, eirina, warrior, light, action, item, legendary, pitch-2, cost-0]
+tags: [card, spirit-of-eirina, spirit, eirina, warrior, light, action, item, legendary, pitch-2, cost-0, dyn066]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hcRgHbGGNmwCTQMBF6CQh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Item]
 keywords: [Legendary]
 unique-id: hcRgHbGGNmwCTQMBF6CQh
 sets: [DYN]
+codes: [DYN066]
 ---
 
 **Spirit of Eirina (yellow)** — Light Warrior Action - Item · cost 0

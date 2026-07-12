@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-echoes, amulet, echoes, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, amulet-of-echoes, amulet, echoes, generic, action, item, go-again, pitch-3, cost-0, evr177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fgWtKprkRGWMhWwkCPJFm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: fgWtKprkRGWMhWwkCPJFm
 sets: [EVR]
+codes: [EVR177]
 ---
 
 **Amulet of Echoes (blue)** — Generic Action - Item · cost 0

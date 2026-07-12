@@ -1,5 +1,5 @@
 ---
-tags: [card, nix-the-nimble, nix, nimble, assassin, action, attack, contract, pitch-2, cost-1]
+tags: [card, nix-the-nimble, nix, nimble, assassin, action, attack, contract, pitch-2, cost-1, dyn140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tGhCqd6bBfRGGdrmrFnLk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: tGhCqd6bBfRGGdrmrFnLk
 sets: [DYN]
+codes: [DYN140]
 ---
 
 **Nix the Nimble (yellow)** — Assassin Action - Attack · cost 1 · 4 power · 3 defense

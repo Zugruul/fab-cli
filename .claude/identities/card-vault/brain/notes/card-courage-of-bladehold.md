@@ -1,5 +1,5 @@
 ---
-tags: [card, courage-of-bladehold, courage, bladehold, warrior, equipment, chest, temper]
+tags: [card, courage-of-bladehold, courage, bladehold, warrior, equipment, chest, temper, 1hp146, cru081, fab073]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cH7LdkrKdFnjP7PLwFDhD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: cH7LdkrKdFnjP7PLwFDhD
 sets: [1HP, CRU, FAB]
+codes: [1HP146, CRU081, FAB073]
 ---
 
 **Courage of Bladehold** — Warrior Equipment - Chest · 2 defense

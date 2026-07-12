@@ -1,5 +1,5 @@
 ---
-tags: [card, thunk, guardian, action, attack, pitch-3, cost-5]
+tags: [card, thunk, guardian, action, attack, pitch-3, cost-5, hvy079, vic025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7HFBMWtFrdmQpQkLLwHGJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7HFBMWtFrdmQpQkLLwHGJ
 sets: [HVY, VIC]
+codes: [HVY079, VIC025]
 ---
 
 **Thunk (blue)** — Guardian Action - Attack · cost 5 · 6 power · 3 defense

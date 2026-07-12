@@ -1,5 +1,5 @@
 ---
-tags: [card, twinning-blade, twinning, blade, warrior, attack-reaction, pitch-2, cost-0]
+tags: [card, twinning-blade, twinning, blade, warrior, attack-reaction, pitch-2, cost-0, 1hp150, cru082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hcrwmGkbzW8zBft77cKpj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: hcrwmGkbzW8zBft77cKpj
 sets: [1HP, CRU]
+codes: [1HP150, CRU082]
 ---
 
 **Twinning Blade (yellow)** — Warrior Attack Reaction · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blade-flash, blade, flash, generic, attack-reaction, go-again, pitch-3, cost-1]
+tags: [card, blade-flash, blade, flash, generic, attack-reaction, go-again, pitch-3, cost-1, ddd013, dvr023, lgs149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BmMFHFgmDWmHn9H7QHBdF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: BmMFHFgmDWmHn9H7QHBdF
 sets: [DDD, DVR, LGS]
+codes: [DDD013, DVR023, LGS149]
 ---
 
 **Blade Flash (blue)** — Generic Attack Reaction · cost 1 · 2 defense

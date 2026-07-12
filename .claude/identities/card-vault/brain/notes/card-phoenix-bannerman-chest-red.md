@@ -1,5 +1,5 @@
 ---
-tags: [card, phoenix-bannerman-chest, phoenix, bannerman, chest, draconic, action, legendary, go-again, pitch-1, cost-0]
+tags: [card, phoenix-bannerman-chest, phoenix, bannerman, chest, draconic, action, legendary, go-again, pitch-1, cost-0, pen258]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7H7Q8F8wdjf6gJq6MGcz6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Legendary, Go again]
 unique-id: 7H7Q8F8wdjf6gJq6MGcz6
 sets: [PEN]
+codes: [PEN258]
 ---
 
 **Phoenix Bannerman: Chest (red)** — Draconic Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, glyph-power-spell, glyph, power, spell, wizard, action, pitch-1, cost-2]
+tags: [card, glyph-power-spell, glyph, power, spell, wizard, action, pitch-1, cost-2, pen113]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6KW6hmRbDRRcrThDpMDDT) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: 6KW6hmRbDRRcrThDpMDDT
 sets: [PEN]
+codes: [PEN113]
 ---
 
 **Glyph Power Spell (red)** — Wizard Action · cost 2 · 3 defense

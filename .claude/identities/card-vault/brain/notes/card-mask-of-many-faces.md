@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-many-faces, mask, many, faces, ninja, equipment, head, blade-break]
+tags: [card, mask-of-many-faces, mask, many, faces, ninja, equipment, head, blade-break, kat003, out049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7qrdPcNmtPt9HN6TQHNJR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: 7qrdPcNmtPt9HN6TQHNJR
 sets: [KAT, OUT]
+codes: [KAT003, OUT049]
 ---
 
 **Mask of Many Faces** — Ninja Equipment - Head · 1 defense

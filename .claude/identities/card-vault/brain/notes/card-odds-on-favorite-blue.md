@@ -1,5 +1,5 @@
 ---
-tags: [card, odds-on-favorite, odds, favorite, warrior, action, go-again, wager, pitch-3, cost-0]
+tags: [card, odds-on-favorite, odds, favorite, warrior, action, go-again, wager, pitch-3, cost-0, aol026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PcKQPM7Qw6JQGpqbkDNWD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ keywords: [Go again, Wager]
 traits: [Go again]
 unique-id: PcKQPM7Qw6JQGpqbkDNWD
 sets: [AOL]
+codes: [AOL026]
 ---
 
 **Odds on Favorite (blue)** — Warrior Action · cost 0 · 3 defense

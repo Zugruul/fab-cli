@@ -1,5 +1,5 @@
 ---
-tags: [card, bonds-of-memory, bonds, memory, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, bonds-of-memory, bonds, memory, assassin, action, attack, stealth, pitch-3, cost-0, mst117, nuu017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RGd9j6fF9Nn8NFB9B6pfN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: RGd9j6fF9Nn8NFB9B6pfN
 sets: [MST, NUU]
+codes: [MST117, NUU017]
 ---
 
 **Bonds of Memory (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

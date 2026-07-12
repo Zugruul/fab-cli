@@ -1,5 +1,5 @@
 ---
-tags: [card, silent-stilettos, silent, stilettos, illusionist, equipment, legs, arcane-barrier-1]
+tags: [card, silent-stilettos, silent, stilettos, illusionist, equipment, legs, arcane-barrier-1, sen009, upr152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtJLcqGChkjz6FTmL9pKT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1]
 unique-id: mtJLcqGChkjz6FTmL9pKT
 sets: [SEN, UPR]
+codes: [SEN009, UPR152]
 ---
 
 **Silent Stilettos** — Illusionist Equipment - Legs · 0 defense

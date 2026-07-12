@@ -1,5 +1,5 @@
 ---
-tags: [card, strength-rules-all, strength, rules, all, brute, action, attack, pitch-1, cost-2]
+tags: [card, strength-rules-all, strength, rules, all, brute, action, attack, pitch-1, cost-2, ako013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wkMNPQJWpdNNqHpHtrbqT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wkMNPQJWpdNNqHpHtrbqT
 sets: [AKO]
+codes: [AKO013]
 ---
 
 **Strength Rules All (red)** — Brute Action - Attack · cost 2 · 6 power · 3 defense

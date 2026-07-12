@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-savagery, blessing, savagery, brute, action, aura, pitch-1, cost-1]
+tags: [card, blessing-of-savagery, blessing, savagery, brute, action, aura, pitch-1, cost-1, dyn013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MdwP9pznTNRcCR7z7LhgK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: MdwP9pznTNRcCR7z7LhgK
 sets: [DYN]
+codes: [DYN013]
 ---
 
 **Blessing of Savagery (red)** — Brute Action - Aura · cost 1 · 3 defense

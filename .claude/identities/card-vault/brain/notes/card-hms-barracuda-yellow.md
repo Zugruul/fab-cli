@@ -1,5 +1,5 @@
 ---
-tags: [card, hms-barracuda, hms, barracuda, pirate, action, attack, high-tide, overpower, pitch-2, cost-4]
+tags: [card, hms-barracuda, hms, barracuda, pirate, action, attack, high-tide, overpower, pitch-2, cost-4, sea134]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bkMchLmgcWQfPCf7MtjnF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [High Tide, Overpower]
 unique-id: bkMchLmgcWQfPCf7MtjnF
 sets: [SEA]
+codes: [SEA134]
 ---
 
 **HMS Barracuda (yellow)** — Pirate Action - Attack · cost 4 · 6 power · 3 defense

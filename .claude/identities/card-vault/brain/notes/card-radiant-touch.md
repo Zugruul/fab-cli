@@ -1,5 +1,5 @@
 ---
-tags: [card, radiant-touch, radiant, touch, light, equipment, arms]
+tags: [card, radiant-touch, radiant, touch, light, equipment, arms, dtd077, sbl008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c6fzD8D8LdtQ8cwnqgTgq) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: c6fzD8D8LdtQ8cwnqgTgq
 sets: [DTD, SBL]
+codes: [DTD077, SBL008]
 ---
 
 **Radiant Touch** — Light Equipment - Arms

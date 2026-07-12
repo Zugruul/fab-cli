@@ -1,5 +1,5 @@
 ---
-tags: [card, calming-cloak, calming, cloak, illusionist, equipment, chest, arcane-barrier-1]
+tags: [card, calming-cloak, calming, cloak, illusionist, equipment, chest, arcane-barrier-1, ros249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T68MkCWcwQhqChRPKNR6C) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: T68MkCWcwQhqChRPKNR6C
 sets: [ROS]
+codes: [ROS249]
 ---
 
 **Calming Cloak** — Illusionist Equipment - Chest

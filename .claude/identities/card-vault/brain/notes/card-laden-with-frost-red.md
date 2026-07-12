@@ -1,5 +1,5 @@
 ---
-tags: [card, laden-with-frost, laden, frost, elemental, action, ice-bond, go-again, pitch-1, cost-1]
+tags: [card, laden-with-frost, laden, frost, elemental, action, ice-bond, go-again, pitch-1, cost-1, pen211]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kRfJmWQQmDCrHtkFtmLQt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Ice Bond, Go again]
 unique-id: kRfJmWQQmDCrHtkFtmLQt
 sets: [PEN]
+codes: [PEN211]
 ---
 
 **Laden with Frost (red)** — Elemental Action · cost 1 · 2 defense

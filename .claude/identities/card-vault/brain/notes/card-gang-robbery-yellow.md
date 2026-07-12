@@ -1,5 +1,5 @@
 ---
-tags: [card, gang-robbery, gang, robbery, action, attack, reviled, steal, pitch-2, cost-0]
+tags: [card, gang-robbery, gang, robbery, action, attack, reviled, steal, pitch-2, cost-0, sup085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cdzFBWhFnBfNbH7cMppct) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [Steal]
 unique-id: cdzFBWhFnBfNbH7cMppct
 sets: [SUP]
+codes: [SUP085]
 ---
 
 **Gang Robbery (yellow)** — Reviled Action - Attack · cost 0 · 1 power · 3 defense

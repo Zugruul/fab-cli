@@ -1,5 +1,5 @@
 ---
-tags: [card, for-the-realm, realm, draconic, action, attack, pitch-1, cost-2]
+tags: [card, for-the-realm, realm, draconic, action, attack, pitch-1, cost-2, fab320, hnt160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bFDwJwbqJQPJpcnHRjLCj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: bFDwJwbqJQPJpcnHRjLCj
 sets: [FAB, HNT]
+codes: [FAB320, HNT160]
 ---
 
 **For the Realm (red)** — Draconic Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-larinkmorth-white, song, larinkmorth, white, bard, action, pitch-3, cost-0]
+tags: [card, song-of-larinkmorth-white, song, larinkmorth, white, bard, action, pitch-3, cost-0, pen150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mpzgL9GqgdGMPdGMnDKrw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Song]
 unique-id: mpzgL9GqgdGMPdGMnDKrw
 sets: [PEN]
+codes: [PEN150]
 ---
 
 **Song of Larinkmorth White (blue)** — Bard Action - Song · cost 0 · 3 defense

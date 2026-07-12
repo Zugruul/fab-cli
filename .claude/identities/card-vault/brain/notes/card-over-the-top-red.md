@@ -1,5 +1,5 @@
 ---
-tags: [card, over-the-top, over, top, guardian, action, attack, overpower, pitch-1, cost-3]
+tags: [card, over-the-top, over, top, guardian, action, attack, overpower, pitch-1, cost-3, bet010, hvy065]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BRQTgW6LNkTcB7MQFWTNL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: BRQTgW6LNkTcB7MQFWTNL
 sets: [BET, HVY]
+codes: [BET010, HVY065]
 ---
 
 **Over the Top (red)** — Guardian Action - Attack · cost 3 · 6 power · 3 defense

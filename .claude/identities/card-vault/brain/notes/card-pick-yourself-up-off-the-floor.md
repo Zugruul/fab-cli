@@ -1,5 +1,5 @@
 ---
-tags: [card, pick-yourself-up-off-the-floor, pick, yourself, up, off, floor, event]
+tags: [card, pick-yourself-up-off-the-floor, pick, yourself, up, off, floor, event, smp029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B9jHdDTw8qwQW7DnqdQPn) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Pick Yourself Up Off the Floor"
 types: [Event]
 unique-id: B9jHdDTw8qwQW7DnqdQPn
 sets: [SMP]
+codes: [SMP029]
 ---
 
 **Pick Yourself Up Off the Floor** — Event

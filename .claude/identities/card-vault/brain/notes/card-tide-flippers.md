@@ -1,5 +1,5 @@
 ---
-tags: [card, tide-flippers, tide, flippers, ninja, equipment, legs, arcane-barrier-1, go-again]
+tags: [card, tide-flippers, tide, flippers, ninja, equipment, legs, arcane-barrier-1, go-again, upr159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TDJfbQjqKCwLRT7RczDrM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1, Go again]
 unique-id: TDJfbQjqKCwLRT7RczDrM
 sets: [UPR]
+codes: [UPR159]
 ---
 
 **Tide Flippers** — Ninja Equipment - Legs · 0 defense

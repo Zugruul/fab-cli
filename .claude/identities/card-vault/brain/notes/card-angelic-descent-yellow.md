@@ -1,5 +1,5 @@
 ---
-tags: [card, angelic-descent, angelic, descent, illusionist, light, instant, go-again, pitch-2, cost-0]
+tags: [card, angelic-descent, angelic, descent, illusionist, light, instant, go-again, pitch-2, cost-0, dtd033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GNPNfqF7phg8dcbCBRjtC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Go again]
 unique-id: GNPNfqF7phg8dcbCBRjtC
 sets: [DTD]
+codes: [DTD033]
 ---
 
 **Angelic Descent (yellow)** — Light Illusionist Instant · cost 0

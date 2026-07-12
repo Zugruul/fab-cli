@@ -1,5 +1,5 @@
 ---
-tags: [card, bunker-beard, bunker, beard, generic, equipment, head]
+tags: [card, bunker-beard, bunker, beard, generic, equipment, head, hnt220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qdzb6znQFtcJHcPNnkFF7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: qdzb6znQFtcJHcPNnkFF7
 sets: [HNT]
+codes: [HNT220]
 ---
 
 **Bunker Beard** — Generic Equipment - Head · 0 defense

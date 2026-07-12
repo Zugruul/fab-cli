@@ -1,5 +1,5 @@
 ---
-tags: [card, ancestral-harmony, ancestral, harmony, ninja, action, go-again, pitch-3, cost-0]
+tags: [card, ancestral-harmony, ancestral, harmony, ninja, action, go-again, pitch-3, cost-0, hvy247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qdbgkqgpTRMQQPr7jcdQL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qdbgkqgpTRMQQPr7jcdQL
 sets: [HVY]
+codes: [HVY247]
 ---
 
 **Ancestral Harmony (blue)** — Ninja Action · cost 0 · 3 defense

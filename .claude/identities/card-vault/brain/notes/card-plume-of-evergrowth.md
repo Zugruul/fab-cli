@@ -1,5 +1,5 @@
 ---
-tags: [card, plume-of-evergrowth, plume, evergrowth, earth, equipment, head]
+tags: [card, plume-of-evergrowth, plume, evergrowth, earth, equipment, head, bri005, ele116, fab257]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CRDtq9LpbDjKKbCkfcC7H) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: CRDtq9LpbDjKKbCkfcC7H
 sets: [BRI, ELE, FAB]
+codes: [BRI005, ELE116, FAB257]
 ---
 
 **Plume of Evergrowth** — Earth Equipment - Head · 0 defense

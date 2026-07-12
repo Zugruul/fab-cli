@@ -1,5 +1,5 @@
 ---
-tags: [card, ominous-respite, ominous, respite, generic, instant, pitch-2, cost-1]
+tags: [card, ominous-respite, ominous, respite, generic, instant, pitch-2, cost-1, omn218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dbpfNKKDCMKCPHDkL6BJf) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: dbpfNKKDCMKCPHDkL6BJf
 sets: [OMN]
+codes: [OMN218]
 ---
 
 **Ominous Respite (yellow)** — Generic Instant · cost 1

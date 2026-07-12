@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-mountains, clash, mountains, guardian, action, attack, pitch-2, cost-4]
+tags: [card, clash-of-mountains, clash, mountains, guardian, action, attack, pitch-2, cost-4, mpg062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GGLrgHcQbNtpBQDwjLzJm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: GGLrgHcQbNtpBQDwjLzJm
 sets: [MPG]
+codes: [MPG062]
 ---
 
 **Clash of Mountains (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

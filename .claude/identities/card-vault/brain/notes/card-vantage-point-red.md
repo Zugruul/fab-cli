@@ -1,5 +1,5 @@
 ---
-tags: [card, vantage-point, vantage, point, runeblade, action, attack, overpower, pitch-1, cost-3]
+tags: [card, vantage-point, vantage, point, runeblade, action, attack, overpower, pitch-1, cost-3, flr010, ros124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HbzHpFQDj9pBBtDbNKqwC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: HbzHpFQDj9pBBtDbNKqwC
 sets: [FLR, ROS]
+codes: [FLR010, ROS124]
 ---
 
 **Vantage Point (red)** — Runeblade Action - Attack · cost 3 · 7 power · 3 defense

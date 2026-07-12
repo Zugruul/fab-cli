@@ -1,5 +1,5 @@
 ---
-tags: [card, already-dead, already, dead, assassin, action, attack, contract, pitch-1, cost-2]
+tags: [card, already-dead, already, dead, assassin, action, attack, contract, pitch-1, cost-2, evo236]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7nk7cnttWTLRfKgLWnWwP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: 7nk7cnttWTLRfKgLWnWwP
 sets: [EVO]
+codes: [EVO236]
 ---
 
 **Already Dead (red)** — Assassin Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-with-magma, mark, magma, ninja, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, mark-with-magma, mark, magma, ninja, draconic, action, attack, go-again, pitch-1, cost-1, cin016, hnt069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DcFccRh7KttKMbFkHnPqh) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Mark]
 unique-id: DcFccRh7KttKMbFkHnPqh
 sets: [CIN, HNT]
+codes: [CIN016, HNT069]
 ---
 
 **Mark with Magma (red)** — Draconic Ninja Action - Attack · cost 1 · 4 power · 3 defense

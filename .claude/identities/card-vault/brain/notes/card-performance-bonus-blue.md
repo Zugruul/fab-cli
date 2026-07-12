@@ -1,5 +1,5 @@
 ---
-tags: [card, performance-bonus, performance, bonus, generic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, performance-bonus, performance, bonus, generic, action, attack, go-again, pitch-3, cost-0, hvy227, vic027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RnL78Jfhr8nfnqbgFFQwk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: RnL78Jfhr8nfnqbgFFQwk
 sets: [HVY, VIC]
+codes: [HVY227, VIC027]
 ---
 
 **Performance Bonus (blue)** — Generic Action - Attack · cost 0 · 1 power · 2 defense

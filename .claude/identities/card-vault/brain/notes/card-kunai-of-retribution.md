@@ -1,5 +1,5 @@
 ---
-tags: [card, kunai-of-retribution, kunai, retribution, ninja, draconic, weapon, dagger, 1h]
+tags: [card, kunai-of-retribution, kunai, retribution, ninja, draconic, weapon, dagger, 1h, cin002, gem002, gem003, hnt056, lgs373]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kcf6QQMkQC8Mw9DBk78KN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Dagger, 1H]
 unique-id: kcf6QQMkQC8Mw9DBk78KN
 sets: [CIN, GEM, HNT, LGS]
+codes: [CIN002, GEM002, GEM003, HNT056, LGS373]
 ---
 
 **Kunai of Retribution** — Draconic Ninja Weapon - Dagger (1H) · 1 power

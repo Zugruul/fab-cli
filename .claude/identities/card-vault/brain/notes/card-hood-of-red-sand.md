@@ -1,5 +1,5 @@
 ---
-tags: [card, hood-of-red-sand, hood, red, sand, warrior, equipment, head, kassai-specialization, battleworn]
+tags: [card, hood-of-red-sand, hood, red, sand, warrior, equipment, head, kassai-specialization, battleworn, hvy099, ksi004, lgs235, lgs249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6ntF8Rdm7PqLkHWnPMkrF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Kassai Specialization, Battleworn]
 unique-id: 6ntF8Rdm7PqLkHWnPMkrF
 sets: [HVY, KSI, LGS]
+codes: [HVY099, KSI004, LGS235, LGS249]
 ---
 
 **Hood of Red Sand** — Warrior Equipment - Head · 1 defense

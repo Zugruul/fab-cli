@@ -1,5 +1,5 @@
 ---
-tags: [card, frosting, wizard, ice, action, pitch-2, cost-0]
+tags: [card, frosting, wizard, ice, action, pitch-2, cost-0, upr131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wQwFMHb6LtTgHF6FJKnqQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Ice]
 types: [Action]
 unique-id: wQwFMHb6LtTgHF6FJKnqQ
 sets: [UPR]
+codes: [UPR131]
 ---
 
 **Frosting (yellow)** — Ice Wizard Action · cost 0 · 3 defense

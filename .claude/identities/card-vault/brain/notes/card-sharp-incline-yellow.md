@@ -1,5 +1,5 @@
 ---
-tags: [card, sharp-incline, sharp, incline, warrior, action, sharpen, go-again, pitch-2, cost-0]
+tags: [card, sharp-incline, sharp, incline, warrior, action, sharpen, go-again, pitch-2, cost-0, aha018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qqhLtH6j9JNr7g6NHzCHR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Sharpen, Go again]
 unique-id: qqhLtH6j9JNr7g6NHzCHR
 sets: [AHA]
+codes: [AHA018]
 ---
 
 **Sharp Incline (yellow)** — Warrior Action · cost 0 · 3 defense

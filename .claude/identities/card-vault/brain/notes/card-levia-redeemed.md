@@ -1,5 +1,5 @@
 ---
-tags: [card, levia-redeemed, levia, redeemed, shadow, demi-hero, legendary, levia-specialization]
+tags: [card, levia-redeemed, levia, redeemed, shadow, demi-hero, legendary, levia-specialization, dtd164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qjqqRn6kHWHGz6PQGWd7z) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Demi-Hero]
 keywords: [Legendary, Levia Specialization]
 unique-id: qjqqRn6kHWHGz6PQGWd7z
 sets: [DTD]
+codes: [DTD164]
 ---
 
 **Levia, Redeemed** — Shadow Demi-Hero · 8 health · 4 int

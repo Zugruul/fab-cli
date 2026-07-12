@@ -1,5 +1,5 @@
 ---
-tags: [card, earthlore-surge, earthlore, surge, earth, action, go-again, pitch-1, cost-2]
+tags: [card, earthlore-surge, earthlore, surge, earth, action, go-again, pitch-1, cost-2, bri019, ele137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cmFpRgfCJfJWFWPBgc7dw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: cmFpRgfCJfJWFWPBgc7dw
 sets: [BRI, ELE]
+codes: [BRI019, ELE137]
 ---
 
 **Earthlore Surge (red)** — Earth Action · cost 2 · 2 defense

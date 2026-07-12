@@ -1,5 +1,5 @@
 ---
-tags: [card, cadaverous-contraband, cadaverous, contraband, generic, action, attack, pitch-2, cost-2]
+tags: [card, cadaverous-contraband, cadaverous, contraband, generic, action, attack, pitch-2, cost-2, arc180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RKW7z89gLBwpKqrWPfgHH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RKW7z89gLBwpKqrWPfgHH
 sets: [ARC]
+codes: [ARC180]
 ---
 
 **Cadaverous Contraband (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

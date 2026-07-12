@@ -1,5 +1,5 @@
 ---
-tags: [card, cerebellum-processor, cerebellum, processor, mechanologist, action, item, crank, pitch-3, cost-0]
+tags: [card, cerebellum-processor, cerebellum, processor, mechanologist, action, item, crank, pitch-3, cost-0, aio026, lgs410]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tmCzWCtfttrQdLCbWGC6B) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: tmCzWCtfttrQdLCbWGC6B
 sets: [AIO, LGS]
+codes: [AIO026, LGS410]
 ---
 
 **Cerebellum Processor (blue)** — Mechanologist Action - Item · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, big-bully, big, bully, brute, action, attack, reviled, the-crowd-boos, pitch-1, cost-2]
+tags: [card, big-bully, big, bully, brute, action, attack, reviled, the-crowd-boos, pitch-1, cost-2, sup067]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QwPWQnB7zg7kBPkNT9Mqp) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ other-types: [Reviled]
 keywords: [The Crowd Boos]
 unique-id: QwPWQnB7zg7kBPkNT9Mqp
 sets: [SUP]
+codes: [SUP067]
 ---
 
 **Big Bully (red)** — Reviled Brute Action - Attack · cost 2 · 4 power · 3 defense

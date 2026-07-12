@@ -1,5 +1,5 @@
 ---
-tags: [card, jack-be-nimble, jack, be, nimble, generic, action, attack, go-again, steal, pitch-1, cost-0]
+tags: [card, jack-be-nimble, jack, be, nimble, generic, action, attack, go-again, steal, pitch-1, cost-0, sea201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JfdLrjqqCPgLQkrhtFqcz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Steal]
 unique-id: JfdLrjqqCPgLQkrhtFqcz
 sets: [SEA]
+codes: [SEA201]
 ---
 
 **Jack Be Nimble (red)** — Generic Action - Attack · cost 0 · 3 power · 3 defense

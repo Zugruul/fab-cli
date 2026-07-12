@@ -1,5 +1,5 @@
 ---
-tags: [card, war-machine, war, machine, mechanologist, action, attack, overpower, pitch-1, cost-6]
+tags: [card, war-machine, war, machine, mechanologist, action, attack, overpower, pitch-1, cost-6, evo056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h6MnCpMCpWw8jn6GL6TtD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: h6MnCpMCpWw8jn6GL6TtD
 sets: [EVO]
+codes: [EVO056]
 ---
 
 **War Machine (red)** — Mechanologist Action - Attack · cost 6 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, miraging-metamorph, miraging, metamorph, illusionist, action, attack, phantasm, pitch-1, cost-1]
+tags: [card, miraging-metamorph, miraging, metamorph, illusionist, action, attack, phantasm, pitch-1, cost-1, azs010, evr139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pHgFMqh8jQ6QNGKmNr67Q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: pHgFMqh8jQ6QNGKmNr67Q
 sets: [AZS, EVR]
+codes: [AZS010, EVR139]
 ---
 
 **Miraging Metamorph (red)** — Illusionist Action - Attack · cost 1 · 7 power · 3 defense

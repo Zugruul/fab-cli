@@ -1,5 +1,5 @@
 ---
-tags: [card, display-of-craftsmanship, display, craftsmanship, warrior, attack-reaction, pitch-2, cost-2]
+tags: [card, display-of-craftsmanship, display, craftsmanship, warrior, attack-reaction, pitch-2, cost-2, pen052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mDdzHTPPwKp6NfdR8PjBP) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: mDdzHTPPwKp6NfdR8PjBP
 sets: [PEN]
+codes: [PEN052]
 ---
 
 **Display of Craftsmanship (yellow)** — Warrior Attack Reaction · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-voltaris, sigil, voltaris, runeblade, lightning, instant, aura, pitch-3, cost-0]
+tags: [card, sigil-of-voltaris, sigil, voltaris, runeblade, lightning, instant, aura, pitch-3, cost-0, pen237]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCQmJTff79gRj7bChFTM7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: QCQmJTff79gRj7bChFTM7
 sets: [PEN]
+codes: [PEN237]
 ---
 
 **Sigil of Voltaris (blue)** — Lightning Runeblade Instant - Aura · cost 0

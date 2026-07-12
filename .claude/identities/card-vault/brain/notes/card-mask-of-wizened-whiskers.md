@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-wizened-whiskers, mask, wizened, whiskers, ninja, equipment, head, blade-break]
+tags: [card, mask-of-wizened-whiskers, mask, wizened, whiskers, ninja, equipment, head, blade-break, lgs268, mst160, zen003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W9G8Kpb9cNTqNqpm8nJdz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: W9G8Kpb9cNTqNqpm8nJdz
 sets: [LGS, MST, ZEN]
+codes: [LGS268, MST160, ZEN003]
 ---
 
 **Mask of Wizened Whiskers** — Ninja Equipment - Head · 1 defense

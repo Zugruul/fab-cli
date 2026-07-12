@@ -1,5 +1,5 @@
 ---
-tags: [card, frost-fang, frost, fang, ice, action, attack, pitch-3, cost-2]
+tags: [card, frost-fang, frost, fang, ice, action, attack, pitch-3, cost-2, ele150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dcLgct9B7DmJnG6WbHpQk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: dcLgct9B7DmJnG6WbHpQk
 sets: [ELE]
+codes: [ELE150]
 ---
 
 **Frost Fang (blue)** — Ice Action - Attack · cost 2 · 3 power · 2 defense

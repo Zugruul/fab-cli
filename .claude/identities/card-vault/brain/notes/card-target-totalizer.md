@@ -1,5 +1,5 @@
 ---
-tags: [card, target-totalizer, target, totalizer, ranger, equipment, head]
+tags: [card, target-totalizer, target, totalizer, ranger, equipment, head, aaz004, jdg039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBPpDnWkrTkRMnJBkjHLq) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: QBPpDnWkrTkRMnJBkjHLq
 sets: [AAZ, JDG]
+codes: [AAZ004, JDG039]
 ---
 
 **Target Totalizer** — Ranger Equipment - Head

@@ -1,5 +1,5 @@
 ---
-tags: [card, verdance, wizard, elemental, hero, young, essence-of-earth]
+tags: [card, verdance, wizard, elemental, hero, young, essence-of-earth, ros014, ver001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d77Rnf7QF6pfMd6MNgGtm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth]
 unique-id: d77Rnf7QF6pfMd6MNgGtm
 sets: [ROS, VER]
+codes: [ROS014, VER001]
 ---
 
 **Verdance** — Elemental Wizard Hero - Young · 20 health · 4 int

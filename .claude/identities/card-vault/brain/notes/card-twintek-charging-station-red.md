@@ -1,5 +1,5 @@
 ---
-tags: [card, twintek-charging-station, twintek, charging, station, mechanologist, action, go-again, pitch-1, cost-0]
+tags: [card, twintek-charging-station, twintek, charging, station, mechanologist, action, go-again, pitch-1, cost-0, amx018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdpKjkTrwkF8rBrG8pCTd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: CdpKjkTrwkF8rBrG8pCTd
 sets: [AMX]
+codes: [AMX018]
 ---
 
 **Twintek Charging Station (red)** — Mechanologist Action · cost 0 · 2 defense

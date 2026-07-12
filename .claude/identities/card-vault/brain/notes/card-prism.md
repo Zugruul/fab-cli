@@ -1,5 +1,5 @@
 ---
-tags: [card, prism, illusionist, light, hero, young]
+tags: [card, prism, illusionist, light, hero, young, her034, mon002, pen343, psm001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NGkHQHjzkFqfmGLKmRCpj) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Hero]
 unique-id: NGkHQHjzkFqfmGLKmRCpj
 sets: [HER, MON, PEN, PSM]
+codes: [HER034, MON002, PEN343, PSM001]
 ---
 
 **Prism** — Light Illusionist Hero - Young · 20 health · 4 int

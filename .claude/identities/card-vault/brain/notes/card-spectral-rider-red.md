@@ -1,5 +1,5 @@
 ---
-tags: [card, spectral-rider, spectral, rider, illusionist, action, attack, overpower, phantasm, pitch-1, cost-3]
+tags: [card, spectral-rider, spectral, rider, illusionist, action, attack, overpower, phantasm, pitch-1, cost-3, dyn227]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9FhWr8BprqnfjCqHrWLPm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower, Phantasm]
 unique-id: 9FhWr8BprqnfjCqHrWLPm
 sets: [DYN]
+codes: [DYN227]
 ---
 
 **Spectral Rider (red)** — Illusionist Action - Attack · cost 3 · 8 power · 3 defense

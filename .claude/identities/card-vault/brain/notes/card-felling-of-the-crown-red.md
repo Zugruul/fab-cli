@@ -1,5 +1,5 @@
 ---
-tags: [card, felling-of-the-crown, felling, crown, earth, action, attack, decompose, pitch-1, cost-3]
+tags: [card, felling-of-the-crown, felling, crown, earth, action, attack, decompose, pitch-1, cost-3, fab260, ros031, sup261]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PkQPFgMNLn69hmMnq7jCC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Decompose]
 unique-id: PkQPFgMNLn69hmMnq7jCC
 sets: [FAB, ROS, SUP]
+codes: [FAB260, ROS031, SUP261]
 ---
 
 **Felling of the Crown (red)** — Earth Action - Attack · cost 3 · 4 power · 3 defense

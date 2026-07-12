@@ -1,5 +1,5 @@
 ---
-tags: [card, battered-not-broken, battered, not, broken, brute, guardian, instant, pitch-1, cost-0]
+tags: [card, battered-not-broken, battered, not, broken, brute, guardian, instant, pitch-1, cost-0, hvy140, lgs255]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RKqGdm6WndJLgwRtTQkpc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute, Guardian]
 types: [Instant]
 unique-id: RKqGdm6WndJLgwRtTQkpc
 sets: [HVY, LGS]
+codes: [HVY140, LGS255]
 ---
 
 **Battered Not Broken (red)** — Brute / Guardian Instant · cost 0

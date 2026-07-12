@@ -1,5 +1,5 @@
 ---
-tags: [card, concealed-sedative, concealed, sedative, ranger, equipment, chest, trap, cloaked]
+tags: [card, concealed-sedative, concealed, sedative, ranger, equipment, chest, trap, cloaked, pen081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QFf8JBQK6HBJ6Tqdzm9HJ) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest, Trap]
 keywords: [Cloaked]
 unique-id: QFf8JBQK6HBJ6Tqdzm9HJ
 sets: [PEN]
+codes: [PEN081]
 ---
 
 **Concealed Sedative** — Ranger Equipment - Chest Trap

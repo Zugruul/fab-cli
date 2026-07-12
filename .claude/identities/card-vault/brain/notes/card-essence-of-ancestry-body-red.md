@@ -1,5 +1,5 @@
 ---
-tags: [card, essence-of-ancestry-body, essence, ancestry, body, illusionist, action, aura, ward-2, pitch-1, cost-0]
+tags: [card, essence-of-ancestry-body, essence, ancestry, body, illusionist, action, aura, ward-2, pitch-1, cost-0, mst137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qMzCjGnnHpbqRJPtJfp6T) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: qMzCjGnnHpbqRJPtJfp6T
 sets: [MST]
+codes: [MST137]
 ---
 
 **Essence of Ancestry: Body (red)** — Illusionist Action - Aura · cost 0 · 3 defense

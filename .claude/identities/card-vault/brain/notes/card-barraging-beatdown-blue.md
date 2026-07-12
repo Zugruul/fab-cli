@@ -1,5 +1,5 @@
 ---
-tags: [card, barraging-beatdown, barraging, beatdown, brute, action, intimidate, go-again, pitch-3, cost-0]
+tags: [card, barraging-beatdown, barraging, beatdown, brute, action, intimidate, go-again, pitch-3, cost-0, 1hp024, arr024, rnr025, wtr019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mnDGzj8JLF997nnwpFpBH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Intimidate, Go again]
 unique-id: mnDGzj8JLF997nnwpFpBH
 sets: [1HP, ARR, RNR, WTR]
+codes: [1HP024, ARR024, RNR025, WTR019]
 ---
 
 **Barraging Beatdown (blue)** — Brute Action · cost 0 · 3 defense

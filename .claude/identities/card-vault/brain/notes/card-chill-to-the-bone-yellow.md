@@ -1,5 +1,5 @@
 ---
-tags: [card, chill-to-the-bone, chill, bone, ice, action, go-again, pitch-2, cost-0]
+tags: [card, chill-to-the-bone, chill, bone, ice, action, go-again, pitch-2, cost-0, ele164, lxi024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 78zTbm7gJD7r866HNpHGW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 78zTbm7gJD7r866HNpHGW
 sets: [ELE, LXI]
+codes: [ELE164, LXI024]
 ---
 
 **Chill to the Bone (yellow)** — Ice Action · cost 0 · 2 defense

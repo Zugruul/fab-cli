@@ -1,5 +1,5 @@
 ---
-tags: [card, fiddle-dee, fiddle, dee, bard, equipment, arms]
+tags: [card, fiddle-dee, fiddle, dee, bard, equipment, arms, lgs215, tcc053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p7CLrzj7kGMtt8cLfMdqT) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: p7CLrzj7kGMtt8cLfMdqT
 sets: [LGS, TCC]
+codes: [LGS215, TCC053]
 ---
 
 **Fiddle-dee** — Bard Equipment - Arms · 0 defense

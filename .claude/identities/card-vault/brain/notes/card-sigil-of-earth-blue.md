@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-earth, sigil, earth, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sigil-of-earth, sigil, earth, action, aura, go-again, pitch-3, cost-0, ajv022, lgs310, ros070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tHjRjBqDhJFRwbPwgwdzj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: tHjRjBqDhJFRwbPwgwdzj
 sets: [AJV, LGS, ROS]
+codes: [AJV022, LGS310, ROS070]
 ---
 
 **Sigil of Earth (blue)** — Earth Action - Aura · cost 0 · 2 defense

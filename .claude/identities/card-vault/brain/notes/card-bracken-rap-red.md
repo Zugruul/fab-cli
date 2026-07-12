@@ -1,5 +1,5 @@
 ---
-tags: [card, bracken-rap, bracken, rap, guardian, elemental, action, attack, earth-bond, pitch-1, cost-3]
+tags: [card, bracken-rap, bracken, rap, guardian, elemental, action, attack, earth-bond, pitch-1, cost-3, ter008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ddWqPQBnFfqdkkMh87RKw) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Bond]
 unique-id: ddWqPQBnFfqdkkMh87RKw
 sets: [TER]
+codes: [TER008]
 ---
 
 **Bracken Rap (red)** — Elemental Guardian Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, crash-and-bash, crash, bash, guardian, block, pitch-3]
+tags: [card, crash-and-bash, crash, bash, guardian, block, pitch-3, bdd018, mpg111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CtmRqKLjmGkqD8bgDjTd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Block]
 unique-id: 8CtmRqKLjmGkqD8bgDjTd
 sets: [BDD, MPG]
+codes: [BDD018, MPG111]
 ---
 
 **Crash and Bash (blue)** — Guardian Block · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, time-flies-when-youre-having-fun, time, flies, when, youre, having, fun, generic, action, go-again, pitch-1, cost-0]
+tags: [card, time-flies-when-youre-having-fun, time, flies, when, youre, having, fun, generic, action, go-again, pitch-1, cost-0, sup220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LGdLm7LrmzDDnWFRnnw9J) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LGdLm7LrmzDDnWFRnnw9J
 sets: [SUP]
+codes: [SUP220]
 ---
 
 **Time Flies When You're Having Fun (red)** — Generic Action · cost 0 · 2 defense

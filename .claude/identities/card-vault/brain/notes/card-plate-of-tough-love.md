@@ -1,5 +1,5 @@
 ---
-tags: [card, plate-of-tough-love, plate, tough, love, guardian, equipment, chest, revered, blade-break]
+tags: [card, plate-of-tough-love, plate, tough, love, guardian, equipment, chest, revered, blade-break, sup011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qRKjzf8nTgdBt8BMMgRPJ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Revered]
 keywords: [Blade Break]
 unique-id: qRKjzf8nTgdBt8BMMgRPJ
 sets: [SUP]
+codes: [SUP011]
 ---
 
 **Plate of Tough Love** — Revered Guardian Equipment - Chest · 1 defense

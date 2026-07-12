@@ -1,5 +1,5 @@
 ---
-tags: [card, freezing-point, freezing, point, wizard, elemental, action, ice-fusion, pitch-1, cost-3]
+tags: [card, freezing-point, freezing, point, wizard, elemental, action, ice-fusion, pitch-1, cost-3, upr105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bTtrCGpnGPrnC7pNFt6pw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion]
 unique-id: bTtrCGpnGPrnC7pNFt6pw
 sets: [UPR]
+codes: [UPR105]
 ---
 
 **Freezing Point (red)** — Elemental Wizard Action · cost 3 · 3 defense

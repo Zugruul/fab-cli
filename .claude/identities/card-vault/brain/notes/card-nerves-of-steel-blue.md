@@ -1,5 +1,5 @@
 ---
-tags: [card, nerves-of-steel, nerves, steel, guardian, action, aura, pitch-3, cost-3]
+tags: [card, nerves-of-steel, nerves, steel, guardian, action, aura, pitch-3, cost-3, evr023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9QGbrGqFpTRQrq7WTGmGN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: 9QGbrGqFpTRQrq7WTGmGN
 sets: [EVR]
+codes: [EVR023]
 ---
 
 **Nerves of Steel (blue)** — Guardian Action - Aura · cost 3 · 3 defense

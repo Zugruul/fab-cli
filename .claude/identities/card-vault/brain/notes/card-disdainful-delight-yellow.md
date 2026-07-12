@@ -1,5 +1,5 @@
 ---
-tags: [card, disdainful-delight, disdainful, delight, block, reviled, pitch-2]
+tags: [card, disdainful-delight, disdainful, delight, block, reviled, pitch-2, sup123]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qmrkpcDjBHQb9g6pqCFMd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Block]
 other-types: [Reviled]
 unique-id: qmrkpcDjBHQb9g6pqCFMd
 sets: [SUP]
+codes: [SUP123]
 ---
 
 **Disdainful Delight (yellow)** — Reviled Block · 3 defense

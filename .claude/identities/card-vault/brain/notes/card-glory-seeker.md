@@ -1,5 +1,5 @@
 ---
-tags: [card, glory-seeker, glory, seeker, generic, equipment, head]
+tags: [card, glory-seeker, glory, seeker, generic, equipment, head, hvy196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FcfhgdgwB6BBHjbNHkFtL) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: FcfhgdgwB6BBHjbNHkFtL
 sets: [HVY]
+codes: [HVY196]
 ---
 
 **Glory Seeker** — Generic Equipment - Head

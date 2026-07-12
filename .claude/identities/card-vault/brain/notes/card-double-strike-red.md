@@ -1,5 +1,5 @@
 ---
-tags: [card, double-strike, double, strike, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, double-strike, double, strike, ninja, action, attack, go-again, pitch-1, cost-0, upr160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PrzDDzhJCLMPdrJDzrrpr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: PrzDDzhJCLMPdrJDzrrpr
 sets: [UPR]
+codes: [UPR160]
 ---
 
 **Double Strike (red)** — Nina Action - Attack · cost 0 · 1 power · 2 defense

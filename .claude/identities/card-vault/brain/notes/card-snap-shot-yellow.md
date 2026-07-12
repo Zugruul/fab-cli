@@ -1,5 +1,5 @@
 ---
-tags: [card, snap-shot, snap, shot, ranger, elemental, action, arrow, attack, lightning-fusion, pitch-2, cost-0]
+tags: [card, snap-shot, snap, shot, ranger, elemental, action, arrow, attack, lightning-fusion, pitch-2, cost-0, ele042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HfNNH6tjw9PgJ8KHpkpBL) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Lightning Fusion]
 unique-id: HfNNH6tjw9PgJ8KHpkpBL
 sets: [ELE]
+codes: [ELE042]
 ---
 
 **Snap Shot (yellow)** — Elemental Ranger Action - Arrow Attack · cost 0 · 3 power · 3 defense

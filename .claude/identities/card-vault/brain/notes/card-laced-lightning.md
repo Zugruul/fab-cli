@@ -1,5 +1,5 @@
 ---
-tags: [card, laced-lightning, laced, lightning, equipment, legs]
+tags: [card, laced-lightning, laced, lightning, equipment, legs, omn144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kb99nwFrrpTQJTpqN6kCt) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: Kb99nwFrrpTQJTpqN6kCt
 sets: [OMN]
+codes: [OMN144]
 ---
 
 **Laced Lightning** — Lightning Equipment - Legs · 0 defense

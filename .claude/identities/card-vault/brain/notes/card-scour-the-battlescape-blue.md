@@ -1,5 +1,5 @@
 ---
-tags: [card, scour-the-battlescape, scour, battlescape, generic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, scour-the-battlescape, scour, battlescape, generic, action, attack, go-again, pitch-3, cost-0, ksu026, rnr028, tea027, wtr196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CBWFq7pbJbWfwGPNFRwpN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: CBWFq7pbJbWfwGPNFRwpN
 sets: [KSU, RNR, TEA, WTR]
+codes: [KSU026, RNR028, TEA027, WTR196]
 ---
 
 **Scour the Battlescape (blue)** — Generic Action - Attack · cost 0 · 1 power · 2 defense

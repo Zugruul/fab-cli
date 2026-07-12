@@ -1,5 +1,5 @@
 ---
-tags: [card, crush-the-weak, crush, weak, guardian, action, attack, pitch-2, cost-3]
+tags: [card, crush-the-weak, crush, weak, guardian, action, attack, pitch-2, cost-3, cru033, mpg068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M8JWqJCWzWJWnbKQ7BjG6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: M8JWqJCWzWJWnbKQ7BjG6
 sets: [CRU, MPG]
+codes: [CRU033, MPG068]
 ---
 
 **Crush the Weak (yellow)** — Guardian Action - Attack · cost 3 · 6 power · 3 defense

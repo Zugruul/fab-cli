@@ -1,5 +1,5 @@
 ---
-tags: [card, dramatic-pause, dramatic, pause, guardian, instant, aura, suspense, pitch-1, cost-0]
+tags: [card, dramatic-pause, dramatic, pause, guardian, instant, aura, suspense, pitch-1, cost-0, lgs436, sup198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hwD7gkp8L8WgQjjdGPdtD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: hwD7gkp8L8WgQjjdGPdtD
 sets: [LGS, SUP]
+codes: [LGS436, SUP198]
 ---
 
 **Dramatic Pause (red)** — Guardian Instant - Aura · cost 0

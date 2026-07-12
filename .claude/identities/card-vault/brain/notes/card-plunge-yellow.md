@@ -1,5 +1,5 @@
 ---
-tags: [card, plunge, assassin, ninja, action, attack, go-again, pitch-2, cost-1]
+tags: [card, plunge, assassin, ninja, action, attack, go-again, pitch-2, cost-1, ben019, out152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g6BdLTWJMrQrbR77nnDrf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: g6BdLTWJMrQrbR77nnDrf
 sets: [BEN, OUT]
+codes: [BEN019, OUT152]
 ---
 
 **Plunge (yellow)** — Assassin / Ninja Action - Attack · cost 1 · 2 power · 2 defense

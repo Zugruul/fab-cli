@@ -1,5 +1,5 @@
 ---
-tags: [card, fluid-motion, fluid, motion, mystic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, fluid-motion, fluid, motion, mystic, action, attack, go-again, pitch-3, cost-0, pen269, sen022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DfDQKGMfKrkdtfkJKLQch) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: DfDQKGMfKrkdtfkJKLQch
 sets: [PEN, SEN]
+codes: [PEN269, SEN022]
 ---
 
 **Fluid Motion (blue)** — Mystic Action - Attack · cost 0 · 2 power · 3 defense

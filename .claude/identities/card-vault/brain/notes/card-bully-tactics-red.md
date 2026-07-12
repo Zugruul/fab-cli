@@ -1,5 +1,5 @@
 ---
-tags: [card, bully-tactics, bully, tactics, action, attack, reviled, intimidate, pitch-1, cost-0]
+tags: [card, bully-tactics, bully, tactics, action, attack, reviled, intimidate, pitch-1, cost-0, fab380, sup081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tk7rTRCHCTKrRtffjFQGC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [Intimidate]
 unique-id: tk7rTRCHCTKrRtffjFQGC
 sets: [FAB, SUP]
+codes: [FAB380, SUP081]
 ---
 
 **Bully Tactics (red)** — Reviled Action - Attack · cost 0 · 3 power · 3 defense

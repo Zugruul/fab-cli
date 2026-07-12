@@ -1,5 +1,5 @@
 ---
-tags: [card, bequest-the-vast-beyond, bequest, vast, beyond, runeblade, action, viserai-specialization, go-again, pitch-1, cost-0]
+tags: [card, bequest-the-vast-beyond, bequest, vast, beyond, runeblade, action, viserai-specialization, go-again, pitch-1, cost-0, dtd212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m6KTfwtJkzqRLKFtMFjBn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Viserai Specialization, Go again]
 unique-id: m6KTfwtJkzqRLKFtMFjBn
 sets: [DTD]
+codes: [DTD212]
 ---
 
 **Bequest the Vast Beyond (red)** — Runeblade Action · cost 0 · 2 defense

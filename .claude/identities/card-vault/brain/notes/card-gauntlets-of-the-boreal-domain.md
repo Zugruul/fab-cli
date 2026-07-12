@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlets-of-the-boreal-domain, gauntlets, boreal, domain, guardian, earth, ice, equipment, arms, temper, dominate]
+tags: [card, gauntlets-of-the-boreal-domain, gauntlets, boreal, domain, guardian, earth, ice, equipment, arms, temper, dominate, ajv006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HTF6WHdnfmgHD7pBFhMQL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Temper, Dominate]
 unique-id: HTF6WHdnfmgHD7pBFhMQL
 sets: [AJV]
+codes: [AJV006]
 ---
 
 **Gauntlets of the Boreal Domain** — Earth Ice Guardian Equipment - Arms · 2 defense

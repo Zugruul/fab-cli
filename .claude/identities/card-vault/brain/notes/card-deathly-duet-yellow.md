@@ -1,5 +1,5 @@
 ---
-tags: [card, deathly-duet, deathly, duet, runeblade, action, attack, pitch-2, cost-2]
+tags: [card, deathly-duet, deathly, duet, runeblade, action, attack, pitch-2, cost-2, dyn177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NG9nKh7TTkLt6qtCJzGjB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: NG9nKh7TTkLt6qtCJzGjB
 sets: [DYN]
+codes: [DYN177]
 ---
 
 **Deathly Duet (yellow)** — Runeblade Action - Attack · cost 2 · 3 power · 3 defense

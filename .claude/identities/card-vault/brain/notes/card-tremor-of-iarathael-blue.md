@@ -1,5 +1,5 @@
 ---
-tags: [card, tremor-of-iarathael, tremor, iarathael, generic, action, attack, pitch-3, cost-1]
+tags: [card, tremor-of-iarathael, tremor, iarathael, generic, action, attack, pitch-3, cost-1, mon256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gpbqrrjM8cpnFbm8dLcKz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gpbqrrjM8cpnFbm8dLcKz
 sets: [MON]
+codes: [MON256]
 ---
 
 **Tremor of íArathael (blue)** — Generic Action - Attack · cost 1 · 2 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, entwine-lightning, entwine, lightning, elemental, action, attack, lightning-fusion, go-again, pitch-3, cost-0]
+tags: [card, entwine-lightning, entwine, lightning, elemental, action, attack, lightning-fusion, go-again, pitch-3, cost-0, ele102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JqTFK6frf7P9WngJCg76P) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Lightning Fusion, Go again]
 unique-id: JqTFK6frf7P9WngJCg76P
 sets: [ELE]
+codes: [ELE102]
 ---
 
 **Entwine Lightning (blue)** — Elemental Action - Attack · cost 0 · 2 power · 2 defense

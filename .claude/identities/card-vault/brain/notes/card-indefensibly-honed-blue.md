@@ -1,5 +1,5 @@
 ---
-tags: [card, indefensibly-honed, indefensibly, honed, warrior, action, sharpen, go-again, pitch-3, cost-0]
+tags: [card, indefensibly-honed, indefensibly, honed, warrior, action, sharpen, go-again, pitch-3, cost-0, aha023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NnJrnKHWM6F8hLqrD6QW9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Sharpen, Go again]
 unique-id: NnJrnKHWM6F8hLqrD6QW9
 sets: [AHA]
+codes: [AHA023]
 ---
 
 **Indefensibly Honed (blue)** — Warrior Action · cost 0 · 3 defense

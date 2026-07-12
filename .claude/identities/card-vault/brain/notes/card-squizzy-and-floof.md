@@ -1,5 +1,5 @@
 ---
-tags: [card, squizzy-and-floof, squizzy, floof, merchant, hero, young]
+tags: [card, squizzy-and-floof, squizzy, floof, merchant, hero, young, her100, her101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid czfMfgfthg6qKLtKBMQjD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Merchant]
 types: [Hero]
 unique-id: czfMfgfthg6qKLtKBMQjD
 sets: [HER]
+codes: [HER100, HER101]
 ---
 
 **Squizzy & Floof** — Merchant Hero - Young · 20 health · 4 int

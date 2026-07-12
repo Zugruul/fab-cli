@@ -1,5 +1,5 @@
 ---
-tags: [card, imperial-ledger, imperial, ledger, generic, action, item, legendary, pitch-1, cost-0]
+tags: [card, imperial-ledger, imperial, ledger, generic, action, item, legendary, pitch-1, cost-0, dyn241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BNbrWmM6dzGqMfrLHtbQh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary]
 unique-id: BNbrWmM6dzGqMfrLHtbQh
 sets: [DYN]
+codes: [DYN241]
 ---
 
 **Imperial Ledger (red)** — Generic Action - Item · cost 0

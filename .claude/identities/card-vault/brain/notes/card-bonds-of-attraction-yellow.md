@@ -1,5 +1,5 @@
 ---
-tags: [card, bonds-of-attraction, bonds, attraction, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, bonds-of-attraction, bonds, attraction, assassin, action, attack, stealth, pitch-2, cost-0, mst110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ffNt7P8KbGTzB8NBf9jD8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: ffNt7P8KbGTzB8NBf9jD8
 sets: [MST]
+codes: [MST110]
 ---
 
 **Bonds of Attraction (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

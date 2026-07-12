@@ -1,5 +1,5 @@
 ---
-tags: [card, trench-of-sunken-treasure, trench, sunken, treasure, ranger, equipment, chest, arcane-barrier-1, blade-break]
+tags: [card, trench-of-sunken-treasure, trench, sunken, treasure, ranger, equipment, chest, arcane-barrier-1, blade-break, fab125, out094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rmTKDcDNJrDFRMdKrRmdH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1, Blade Break]
 unique-id: rmTKDcDNJrDFRMdKrRmdH
 sets: [FAB, OUT]
+codes: [FAB125, OUT094]
 ---
 
 **Trench of Sunken Treasure** — Ranger Equipment - Chest · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tripwire-trap, tripwire, trap, ranger, defense-reaction, pitch-1, cost-0]
+tags: [card, tripwire-trap, tripwire, trap, ranger, defense-reaction, pitch-1, cost-0, cru126, lgs150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WBpk6grrPj6wP8qgc9q9h) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: WBpk6grrPj6wP8qgc9q9h
 sets: [CRU, LGS]
+codes: [CRU126, LGS150]
 ---
 
 **Tripwire Trap (red)** — Ranger Defense Reaction - Trap · cost 0 · 4 defense

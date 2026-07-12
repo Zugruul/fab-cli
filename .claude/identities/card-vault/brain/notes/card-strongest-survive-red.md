@@ -1,5 +1,5 @@
 ---
-tags: [card, strongest-survive, strongest, survive, brute, action, attack, pitch-1, cost-3]
+tags: [card, strongest-survive, strongest, survive, brute, action, attack, pitch-1, cost-3, arr014, ska018, sup135]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RdDHPzqPQmtJhjpcgcRhh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RdDHPzqPQmtJhjpcgcRhh
 sets: [ARR, SKA, SUP]
+codes: [ARR014, SKA018, SUP135]
 ---
 
 **Strongest Survive (red)** — Brute Action - Attack · cost 3 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, intoxicating-shot, intoxicating, shot, ranger, action, arrow, attack, riptide-specialization, pitch-3, cost-0]
+tags: [card, intoxicating-shot, intoxicating, shot, ranger, action, arrow, attack, riptide-specialization, pitch-3, cost-0, evo241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BzRzJh9PcztPDn7fhNLF9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Riptide Specialization]
 unique-id: BzRzJh9PcztPDn7fhNLF9
 sets: [EVO]
+codes: [EVO241]
 ---
 
 **Intoxicating Shot (blue)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

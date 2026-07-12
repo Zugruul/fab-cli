@@ -1,5 +1,5 @@
 ---
-tags: [card, breaker-helm-protos, breaker, helm, protos, mechanologist, equipment, base, head, temper]
+tags: [card, breaker-helm-protos, breaker, helm, protos, mechanologist, equipment, base, head, temper, amx003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MHDhBfch9wDpjrhrR6R7d) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Head]
 keywords: [Temper]
 unique-id: MHDhBfch9wDpjrhrR6R7d
 sets: [AMX]
+codes: [AMX003]
 ---
 
 **Breaker Helm Protos** — Mechanologist Equipment - Base Head · 1 defense

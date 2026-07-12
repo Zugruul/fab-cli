@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-engine-room, evo, engine, room, mechanologist, action, equipment, chest, transform, blade-break, pitch-2, cost-3]
+tags: [card, evo-engine-room, evo, engine, room, mechanologist, action, equipment, chest, transform, blade-break, pitch-2, cost-3, evo035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DpRWWLNTqjtBtjMjpnm7J) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Chest]
 keywords: [Transform, Blade Break]
 unique-id: DpRWWLNTqjtBtjMjpnm7J
 sets: [EVO]
+codes: [EVO035]
 ---
 
 **Evo Engine Room (yellow)** — Mechanologist Action Equipment - Evo Chest · cost 3 · 3 defense

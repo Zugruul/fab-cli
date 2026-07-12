@@ -1,5 +1,5 @@
 ---
-tags: [card, plasma-purifier, plasma, purifier, mechanologist, action, item, pitch-1, cost-2]
+tags: [card, plasma-purifier, plasma, purifier, mechanologist, action, item, pitch-1, cost-2, 1hp190, cru105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rmdHP7ttKz7NqLwwwGGKg) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: rmdHP7ttKz7NqLwwwGGKg
 sets: [1HP, CRU]
+codes: [1HP190, CRU105]
 ---
 
 **Plasma Purifier (red)** — Mechanologist Action - Item · cost 2

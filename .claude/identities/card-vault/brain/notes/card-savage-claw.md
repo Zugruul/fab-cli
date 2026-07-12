@@ -1,5 +1,5 @@
 ---
-tags: [card, savage-claw, savage, claw, brute, weapon, 1h]
+tags: [card, savage-claw, savage, claw, brute, weapon, 1h, gem107, pen001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cM6R7TqbFHp76wfPTjrzM) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Claw, 1H]
 unique-id: cM6R7TqbFHp76wfPTjrzM
 sets: [GEM, PEN]
+codes: [GEM107, PEN001]
 ---
 
 **Savage Claw** — Brute Weapon - Claw (1H) · 3 power

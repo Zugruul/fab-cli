@@ -1,5 +1,5 @@
 ---
-tags: [card, feign-death, feign, death, ranger, instant, pitch-2, cost-1]
+tags: [card, feign-death, feign, death, ranger, instant, pitch-2, cost-1, 1hp233, cru125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pdwzQtmTgqMnFqkPQKNhq) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Ranger]
 types: [Instant]
 unique-id: pdwzQtmTgqMnFqkPQKNhq
 sets: [1HP, CRU]
+codes: [1HP233, CRU125]
 ---
 
 **Feign Death (yellow)** — Ranger Instant · cost 1

@@ -1,5 +1,5 @@
 ---
-tags: [card, fai, ninja, draconic, hero, young]
+tags: [card, fai, ninja, draconic, hero, young, fai001, her061, pen348, sfa001, upr045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QHNfbDkffrKWgwDw7MjwQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Hero]
 unique-id: QHNfbDkffrKWgwDw7MjwQ
 sets: [FAI, HER, PEN, SFA, UPR]
+codes: [FAI001, HER061, PEN348, SFA001, UPR045]
 ---
 
 **Fai** — Draconic Ninja Hero - Young · 20 health · 4 int

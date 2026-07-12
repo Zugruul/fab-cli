@@ -1,5 +1,5 @@
 ---
-tags: [card, frail-swingline, frail, swingline, ranger, action, trap, go-again, pitch-3, cost-0]
+tags: [card, frail-swingline, frail, swingline, ranger, action, trap, go-again, pitch-3, cost-0, pen087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wtKDkD6MRwz77CmthMHMz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Go again]
 unique-id: wtKDkD6MRwz77CmthMHMz
 sets: [PEN]
+codes: [PEN087]
 ---
 
 **Frail Swingline (blue)** — Ranger Action - Trap · cost 0 · 3 defense

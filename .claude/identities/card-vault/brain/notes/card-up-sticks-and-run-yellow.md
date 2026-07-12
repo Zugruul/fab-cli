@@ -1,5 +1,5 @@
 ---
-tags: [card, up-sticks-and-run, up, sticks, run, assassin, ninja, action, go-again, retrieve, pitch-2, cost-0]
+tags: [card, up-sticks-and-run, up, sticks, run, assassin, ninja, action, go-again, retrieve, pitch-2, cost-0, hnt180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPMcMNpWM8w8FThmLkgBH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Retrieve]
 unique-id: wPMcMNpWM8w8FThmLkgBH
 sets: [HNT]
+codes: [HNT180]
 ---
 
 **Up Sticks and Run (yellow)** — Assassin / Ninja Action · cost 0 · 2 defense

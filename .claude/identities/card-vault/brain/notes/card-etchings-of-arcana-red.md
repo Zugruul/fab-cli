@@ -1,5 +1,5 @@
 ---
-tags: [card, etchings-of-arcana, etchings, arcana, wizard, action, surge, pitch-1, cost-0]
+tags: [card, etchings-of-arcana, etchings, arcana, wizard, action, surge, pitch-1, cost-0, osc014, ros189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9QB9tNFgJJrW87DhjjdrM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: 9QB9tNFgJJrW87DhjjdrM
 sets: [OSC, ROS]
+codes: [OSC014, ROS189]
 ---
 
 **Etchings of Arcana (red)** — Wizard Action · cost 0 · 3 defense

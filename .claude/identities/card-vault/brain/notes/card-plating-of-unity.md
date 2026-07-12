@@ -1,5 +1,5 @@
 ---
-tags: [card, plating-of-unity, plating, unity, warrior, equipment, chest, temper]
+tags: [card, plating-of-unity, plating, unity, warrior, equipment, chest, temper, pen045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RKfqhH8h8jnhfC9fcDPmc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Unity, Temper]
 unique-id: RKfqhH8h8jnhfC9fcDPmc
 sets: [PEN]
+codes: [PEN045]
 ---
 
 **Plating of Unity** — Warrior Equipment - Chest · 1 defense

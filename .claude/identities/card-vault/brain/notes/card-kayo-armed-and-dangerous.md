@@ -1,5 +1,5 @@
 ---
-tags: [card, kayo-armed-and-dangerous, kayo, armed, dangerous, brute, hero, adult]
+tags: [card, kayo-armed-and-dangerous, kayo, armed, dangerous, brute, hero, adult, ako001, her108, hvy001, win028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qdLHRPTdGkw6TjpMjPTW7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Brute]
 types: [Hero]
 unique-id: qdLHRPTdGkw6TjpMjPTW7
 sets: [AKO, HER, HVY, WIN]
+codes: [AKO001, HER108, HVY001, WIN028]
 ---
 
 **Kayo, Armed and Dangerous** — Brute Hero · 40 health · 4 int

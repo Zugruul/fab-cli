@@ -1,5 +1,5 @@
 ---
-tags: [card, stinging-sprite, stinging, sprite, runeblade, lightning, action, attack, pitch-3, cost-0]
+tags: [card, stinging-sprite, stinging, sprite, runeblade, lightning, action, attack, pitch-3, cost-0, omn058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fccdnhg8DpLB6cTgjFgcw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Fccdnhg8DpLB6cTgjFgcw
 sets: [OMN]
+codes: [OMN058]
 ---
 
 **Stinging Sprite (blue)** — Lightning Runeblade Action - Attack · cost 0 · 1 power · 2 defense

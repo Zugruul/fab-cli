@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-steel-soul-processor, evo, steel, soul, processor, mechanologist, action, equipment, base, chest, transform, temper, pitch-3, cost-4]
+tags: [card, evo-steel-soul-processor, evo, steel, soul, processor, mechanologist, action, equipment, base, chest, transform, temper, pitch-3, cost-4, evo027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mmwtq8HtKPFpp6TcrF9fM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Chest]
 keywords: [Transform, Temper]
 unique-id: Mmwtq8HtKPFpp6TcrF9fM
 sets: [EVO]
+codes: [EVO027]
 ---
 
 **Evo Steel Soul Processor (blue)** — Mechanologist Action Equipment - Evo Base Chest · cost 4 · 3 defense

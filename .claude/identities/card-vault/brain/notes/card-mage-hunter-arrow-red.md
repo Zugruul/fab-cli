@@ -1,5 +1,5 @@
 ---
-tags: [card, mage-hunter-arrow, mage, hunter, arrow, ranger, action, attack, pitch-1, cost-1]
+tags: [card, mage-hunter-arrow, mage, hunter, arrow, ranger, action, attack, pitch-1, cost-1, sup257]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NgGrjfPkc9BMGcrDBKNCT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: NgGrjfPkc9BMGcrDBKNCT
 sets: [SUP]
+codes: [SUP257]
 ---
 
 **Mage Hunter Arrow (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

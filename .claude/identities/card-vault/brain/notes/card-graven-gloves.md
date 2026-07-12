@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-gloves, graven, gloves, assassin, equipment, arms, blade-break]
+tags: [card, graven-gloves, graven, gloves, assassin, equipment, arms, blade-break, pen139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tbhqDHnRMTh9JtkGdpwpG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: tbhqDHnRMTh9JtkGdpwpG
 sets: [PEN]
+codes: [PEN139]
 ---
 
 **Graven Gloves** — Assassin Equipment - Arms · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shock-frock, shock, frock, lightning, equipment, chest, battleworn]
+tags: [card, shock-frock, shock, frock, lightning, equipment, chest, battleworn, ast004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wwCjCpWgjmHMPNGhtQBwT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: wwCjCpWgjmHMPNGhtQBwT
 sets: [AST]
+codes: [AST004]
 ---
 
 **Shock Frock** — Lightning Equipment - Chest · 1 defense

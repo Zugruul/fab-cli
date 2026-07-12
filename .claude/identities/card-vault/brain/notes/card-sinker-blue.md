@@ -1,5 +1,5 @@
 ---
-tags: [card, sinker, ranger, action, go-again, overpower, pitch-3, cost-0]
+tags: [card, sinker, ranger, action, go-again, overpower, pitch-3, cost-0, sea105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z8hRmWFtTQPPC8pDR9jTw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Overpower]
 unique-id: z8hRmWFtTQPPC8pDR9jTw
 sets: [SEA]
+codes: [SEA105]
 ---
 
 **Sinker (blue)** — Ranger Action · cost 0 · 3 defense

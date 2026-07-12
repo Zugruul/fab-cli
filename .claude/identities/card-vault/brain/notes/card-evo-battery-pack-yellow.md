@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-battery-pack, evo, battery, pack, mechanologist, action, equipment, chest, transform, blade-break, pitch-2, cost-0]
+tags: [card, evo-battery-pack, evo, battery, pack, mechanologist, action, equipment, chest, transform, blade-break, pitch-2, cost-0, evo047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kD7rTHdWjpwfWR9mw8qG7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Chest]
 keywords: [Transform, Blade Break]
 unique-id: kD7rTHdWjpwfWR9mw8qG7
 sets: [EVO]
+codes: [EVO047]
 ---
 
 **Evo Battery Pack (yellow)** — Mechanologist Action Equipment - Evo Chest · cost 0 · 2 defense

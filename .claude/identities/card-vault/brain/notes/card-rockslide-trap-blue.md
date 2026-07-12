@@ -1,5 +1,5 @@
 ---
-tags: [card, rockslide-trap, rockslide, trap, ranger, defense-reaction, pitch-3, cost-0]
+tags: [card, rockslide-trap, rockslide, trap, ranger, defense-reaction, pitch-3, cost-0, cru128, lgs152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tJgBqNwrFDtHPqpzftbMj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: tJgBqNwrFDtHPqpzftbMj
 sets: [CRU, LGS]
+codes: [CRU128, LGS152]
 ---
 
 **Rockslide Trap (blue)** — Ranger Defense Reaction - Trap · cost 0 · 2 defense

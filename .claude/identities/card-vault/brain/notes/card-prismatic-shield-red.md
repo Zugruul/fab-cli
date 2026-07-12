@@ -1,5 +1,5 @@
 ---
-tags: [card, prismatic-shield, prismatic, shield, illusionist, instant, pitch-1, cost-3]
+tags: [card, prismatic-shield, prismatic, shield, illusionist, instant, pitch-1, cost-3, mon092, psm026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KHwWtFzhjTgbrJJrkGjFc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Illusionist]
 types: [Instant]
 unique-id: KHwWtFzhjTgbrJJrkGjFc
 sets: [MON, PSM]
+codes: [MON092, PSM026]
 ---
 
 **Prismatic Shield (red)** — Illusionist Instant · cost 3

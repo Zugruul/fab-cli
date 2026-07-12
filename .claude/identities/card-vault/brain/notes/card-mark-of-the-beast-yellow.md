@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-of-the-beast, mark, beast, brute, shadow, action, attack, blood-debt, pitch-2, cost-2]
+tags: [card, mark-of-the-beast, mark, beast, brute, shadow, action, attack, blood-debt, pitch-2, cost-2, mon124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bQMPhRRzw8c6RgGK6crJn) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: bQMPhRRzw8c6RgGK6crJn
 sets: [MON]
+codes: [MON124]
 ---
 
 **Mark of the Beast (yellow)** — Shadow Brute Action - Attack · cost 2 · 6 power · 3 defense

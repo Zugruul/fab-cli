@@ -1,5 +1,5 @@
 ---
-tags: [card, crash-site-salvage, crash, site, salvage, pirate, mechanologist, action, attack, scrap, go-again, pitch-2, cost-0]
+tags: [card, crash-site-salvage, crash, site, salvage, pirate, mechanologist, action, attack, scrap, go-again, pitch-2, cost-0, omn239]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KbCmqdmczTM6BRmGhmnLn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap, Go again]
 unique-id: KbCmqdmczTM6BRmGhmnLn
 sets: [OMN]
+codes: [OMN239]
 ---
 
 **Crash Site Salvage (yellow)** — Pirate Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, dry-powder-shot, dry, powder, shot, ranger, action, arrow, attack, pitch-1, cost-0]
+tags: [card, dry-powder-shot, dry, powder, shot, ranger, action, arrow, attack, pitch-1, cost-0, gem059, saz012, sea106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c98tqCFBpDpkCNbkkT8mg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: c98tqCFBpDpkCNbkkT8mg
 sets: [GEM, SAZ, SEA]
+codes: [GEM059, SAZ012, SEA106]
 ---
 
 **Dry Powder Shot (red)** — Ranger Action - Arrow Attack · cost 0 · 3 power · 3 defense

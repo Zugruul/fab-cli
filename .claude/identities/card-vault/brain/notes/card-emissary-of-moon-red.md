@@ -1,5 +1,5 @@
 ---
-tags: [card, emissary-of-moon, emissary, moon, generic, action, attack, pitch-1, cost-0]
+tags: [card, emissary-of-moon, emissary, moon, generic, action, attack, pitch-1, cost-0, lgs299, mst197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DgQfj8jGQBWmBQKW9kngT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DgQfj8jGQBWmBQKW9kngT
 sets: [LGS, MST]
+codes: [LGS299, MST197]
 ---
 
 **Emissary of Moon (red)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

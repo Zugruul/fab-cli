@@ -1,5 +1,5 @@
 ---
-tags: [card, jittery-bones, jittery, bones, pirate, necromancer, action, attack, go-again, pitch-2, cost-0]
+tags: [card, jittery-bones, jittery, bones, pirate, necromancer, action, attack, go-again, pitch-2, cost-0, sea069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CRn7J9kmnRCDPDRKbckQQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: CRn7J9kmnRCDPDRKbckQQ
 sets: [SEA]
+codes: [SEA069]
 ---
 
 **Jittery Bones (yellow)** — Pirate Necromancer Action - Attack · cost 0 · 3 power · 3 defense

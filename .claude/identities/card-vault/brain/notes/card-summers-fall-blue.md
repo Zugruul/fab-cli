@@ -1,5 +1,5 @@
 ---
-tags: [card, summers-fall, summers, fall, earth, action, attack, decompose, pitch-3, cost-2]
+tags: [card, summers-fall, summers, fall, earth, action, attack, decompose, pitch-3, cost-2, ros041, ver022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CbcjKgjJbTDrfbtDhMkW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Decompose]
 unique-id: 6CbcjKgjJbTDrfbtDhMkW
 sets: [ROS, VER]
+codes: [ROS041, VER022]
 ---
 
 **Summer's Fall (blue)** — Earth Action - Attack · cost 2 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, thunderous-retort, thunderous, retort, lightning, instant, aura, arcane-barrier-3, go-again, pitch-1, cost-0]
+tags: [card, thunderous-retort, thunderous, retort, lightning, instant, aura, arcane-barrier-3, go-again, pitch-1, cost-0, omn196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmgMzMGKkrgdQKkJdF7GQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Arcane Barrier 3, Go again]
 unique-id: hmgMzMGKkrgdQKkJdF7GQ
 sets: [OMN]
+codes: [OMN196]
 ---
 
 **Thunderous Retort (red)** — Lightning Instant - Aura · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, sneak-attack, sneak, attack, assassin, action, pitch-2, cost-2]
+tags: [card, sneak-attack, sneak, attack, assassin, action, pitch-2, cost-2, out019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7TPWrWF6KhgNLGbJT7CHb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7TPWrWF6KhgNLGbJT7CHb
 sets: [OUT]
+codes: [OUT019]
 ---
 
 **Sneak Attack (yellow)** — Assassin Action - Attack · cost 2 · 2 power · 2 defense

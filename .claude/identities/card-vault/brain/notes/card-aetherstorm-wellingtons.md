@@ -1,5 +1,5 @@
 ---
-tags: [card, aetherstorm-wellingtons, aetherstorm, wellingtons, wizard, equipment, legs, arcane-barrier-2]
+tags: [card, aetherstorm-wellingtons, aetherstorm, wellingtons, wizard, equipment, legs, arcane-barrier-2, pen110, sbz007, siy008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hTQgmpCHwLFgQnFbgf6tC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 2]
 unique-id: hTQgmpCHwLFgQnFbgf6tC
 sets: [PEN, SBZ, SIY]
+codes: [PEN110, SBZ007, SIY008]
 ---
 
 **Aetherstorm Wellingtons** — Wizard Equipment - Legs · 0 defense

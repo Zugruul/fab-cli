@@ -1,5 +1,5 @@
 ---
-tags: [card, soulbead-strike, soulbead, strike, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, soulbead-strike, soulbead, strike, ninja, action, attack, go-again, pitch-1, cost-0, 1hp122, asr014, cru066]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DH8zBCdjRpQmLKgbnRF8q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: DH8zBCdjRpQmLKgbnRF8q
 sets: [1HP, ASR, CRU]
+codes: [1HP122, ASR014, CRU066]
 ---
 
 **Soulbead Strike (red)** — Ninja Action - Attack · cost 0 · 4 power · 3 defense

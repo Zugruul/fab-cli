@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-dripping-frenzy, blood, dripping, frenzy, brute, shadow, action, go-again, pitch-3, cost-2]
+tags: [card, blood-dripping-frenzy, blood, dripping, frenzy, brute, shadow, action, go-again, pitch-3, cost-2, dtd111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kj7CLmtKN9BmpmkcT6zMm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: kj7CLmtKN9BmpmkcT6zMm
 sets: [DTD]
+codes: [DTD111]
 ---
 
 **Blood Dripping Frenzy (blue)** — Shadow Brute Action · cost 2 · 3 defense

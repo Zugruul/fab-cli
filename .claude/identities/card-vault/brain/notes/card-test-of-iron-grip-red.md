@@ -1,5 +1,5 @@
 ---
-tags: [card, test-of-iron-grip, test, iron, grip, guardian, block, clash, pitch-1]
+tags: [card, test-of-iron-grip, test, iron, grip, guardian, block, clash, pitch-1, mpg025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kMbtCPhmRMRr9fJnGRtPj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: kMbtCPhmRMRr9fJnGRtPj
 sets: [MPG]
+codes: [MPG025]
 ---
 
 **Test of Iron Grip (red)** — Guardian Block · 4 defense

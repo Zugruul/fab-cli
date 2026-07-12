@@ -1,5 +1,5 @@
 ---
-tags: [card, great-library-of-solana, great, library, solana, light, action, landmark, legendary, cost-2]
+tags: [card, great-library-of-solana, great, library, solana, light, action, landmark, legendary, cost-2, mon000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fNGtM6WDcWMR6DcmjtRdw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Landmark]
 keywords: [Legendary]
 unique-id: fNGtM6WDcWMR6DcmjtRdw
 sets: [MON]
+codes: [MON000]
 ---
 
 **Great Library of Solana** — Light Action - Landmark · cost 2

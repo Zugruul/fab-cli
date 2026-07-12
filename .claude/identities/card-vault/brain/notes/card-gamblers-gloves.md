@@ -1,5 +1,5 @@
 ---
-tags: [card, gamblers-gloves, gamblers, gloves, generic, equipment, arms]
+tags: [card, gamblers-gloves, gamblers, gloves, generic, equipment, arms, 1hp358, cru179, fab074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nC7DHjMkPCgnPbjPdCTdj) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: nC7DHjMkPCgnPbjPdCTdj
 sets: [1HP, CRU, FAB]
+codes: [1HP358, CRU179, FAB074]
 ---
 
 **Gambler's Gloves** — Generic Equipment - Arms · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rob-the-rich, rob, rich, assassin, action, attack, contract, pitch-3, cost-1]
+tags: [card, rob-the-rich, rob, rich, assassin, action, attack, contract, pitch-3, cost-1, dyn129]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LKppkHRwJHjnccLKhNHGG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: LKppkHRwJHjnccLKhNHGG
 sets: [DYN]
+codes: [DYN129]
 ---
 
 **Rob the Rich (blue)** — Assassin Action - Attack · cost 1 · 3 power · 3 defense

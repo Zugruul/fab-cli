@@ -1,5 +1,5 @@
 ---
-tags: [card, levia-shadowborn-abomination, levia, shadowborn, abomination, brute, shadow, hero, adult]
+tags: [card, levia-shadowborn-abomination, levia, shadowborn, abomination, brute, shadow, hero, adult, dtd103, her032, her040, mon119, win011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCwnGqDJtnmJfth7fn8Qq) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Shadow]
 types: [Hero]
 unique-id: KCwnGqDJtnmJfth7fn8Qq
 sets: [DTD, HER, MON, WIN]
+codes: [DTD103, HER032, HER040, MON119, WIN011]
 ---
 
 **Levia, Shadowborn Abomination** — Shadow Brute Hero · 40 health · 4 int

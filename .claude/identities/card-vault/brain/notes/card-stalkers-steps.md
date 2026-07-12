@@ -1,5 +1,5 @@
 ---
-tags: [card, stalkers-steps, stalkers, steps, assassin, equipment, legs, arcane-barrier-1, go-again]
+tags: [card, stalkers-steps, stalkers, steps, assassin, equipment, legs, arcane-barrier-1, go-again, aac007, sar009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mknwdmQhzHPbhmdtNqMfj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1, Go again]
 unique-id: mknwdmQhzHPbhmdtNqMfj
 sets: [AAC, SAR]
+codes: [AAC007, SAR009]
 ---
 
 **Stalker's Steps** — Assassin Equipment - Legs · 0 defense

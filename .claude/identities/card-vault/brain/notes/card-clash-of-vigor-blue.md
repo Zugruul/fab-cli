@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-vigor, clash, vigor, guardian, warrior, action, attack, pitch-3, cost-2]
+tags: [card, clash-of-vigor, clash, vigor, guardian, warrior, action, attack, pitch-3, cost-2, hvy179, sbr026, vic021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBjNr7MRTR6L7LMKT8j9d) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: pBjNr7MRTR6L7LMKT8j9d
 sets: [HVY, SBR, VIC]
+codes: [HVY179, SBR026, VIC021]
 ---
 
 **Clash of Vigor (blue)** — Guardian / Warrior Action - Attack · cost 2 · 4 power · 3 defense

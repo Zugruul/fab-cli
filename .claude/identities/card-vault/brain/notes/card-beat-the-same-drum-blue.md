@@ -1,5 +1,5 @@
 ---
-tags: [card, beat-the-same-drum, beat, same, drum, generic, action, go-again, pitch-3, cost-0]
+tags: [card, beat-the-same-drum, beat, same, drum, generic, action, go-again, pitch-3, cost-0, sup219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KjRNNfzGJJh68Fwk7QmWc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: KjRNNfzGJJh68Fwk7QmWc
 sets: [SUP]
+codes: [SUP219]
 ---
 
 **Beat the Same Drum (blue)** — Generic Action · cost 0 · 3 defense

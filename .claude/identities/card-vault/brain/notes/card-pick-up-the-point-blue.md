@@ -1,5 +1,5 @@
 ---
-tags: [card, pick-up-the-point, pick, up, point, assassin, ninja, action, attack, go-again, retrieve, pitch-3, cost-0]
+tags: [card, pick-up-the-point, pick, up, point, assassin, ninja, action, attack, go-again, retrieve, pitch-3, cost-0, hnt184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tT8mDTnn7nddCF7WNRLHt) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Retrieve]
 unique-id: tT8mDTnn7nddCF7WNRLHt
 sets: [HNT]
+codes: [HNT184]
 ---
 
 **Pick Up the Point (blue)** — Assassin / Ninja Action - Attack · cost 0 · 1 power · 2 defense

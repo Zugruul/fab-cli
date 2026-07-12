@@ -1,5 +1,5 @@
 ---
-tags: [card, shuck, warrior, action, pitch-3, cost-0]
+tags: [card, shuck, warrior, action, pitch-3, cost-0, aha024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rq8CK88DfJfrn9F8BjcLH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Action]
 unique-id: Rq8CK88DfJfrn9F8BjcLH
 sets: [AHA]
+codes: [AHA024]
 ---
 
 **Shuck (blue)** — Warrior Action · cost 0 · 3 defense

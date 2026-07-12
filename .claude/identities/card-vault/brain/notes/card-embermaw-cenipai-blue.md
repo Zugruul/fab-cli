@@ -1,5 +1,5 @@
 ---
-tags: [card, embermaw-cenipai, embermaw, cenipai, illusionist, draconic, action, attack, phantasm, pitch-3, cost-2]
+tags: [card, embermaw-cenipai, embermaw, cenipai, illusionist, draconic, action, attack, phantasm, pitch-3, cost-2, upr029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fkrcRbTfRgjF8tpTKPMNH) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: fkrcRbTfRgjF8tpTKPMNH
 sets: [UPR]
+codes: [UPR029]
 ---
 
 **Embermaw Cenipai (blue)** — Draconic Illusionist Action - Attack · cost 2 · 6 power · 3 defense

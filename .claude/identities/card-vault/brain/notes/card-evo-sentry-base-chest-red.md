@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-sentry-base-chest, evo, sentry, base, chest, mechanologist, action, equipment, transform, battleworn, pitch-1, cost-2]
+tags: [card, evo-sentry-base-chest, evo, sentry, base, chest, mechanologist, action, equipment, transform, battleworn, pitch-1, cost-2, evo043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gbKHPCw8zzPmQcKWN9gnC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Chest]
 keywords: [Transform, Battleworn]
 unique-id: gbKHPCw8zzPmQcKWN9gnC
 sets: [EVO]
+codes: [EVO043]
 ---
 
 **Evo Sentry Base Chest (red)** — Mechanologist Action Equipment - Evo Base Chest · cost 2 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, break-tide, break, tide, ninja, action, attack, combo, dominate, pitch-2, cost-0]
+tags: [card, break-tide, break, tide, ninja, action, attack, combo, dominate, pitch-2, cost-0, evr038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wgLPnnJb8QW7WH6zRFbNr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Dominate]
 unique-id: wgLPnnJb8QW7WH6zRFbNr
 sets: [EVR]
+codes: [EVR038]
 ---
 
 **Break Tide (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

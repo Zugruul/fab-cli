@@ -1,5 +1,5 @@
 ---
-tags: [card, sea-floor-salvage, sea, floor, salvage, pirate, action, go-again, pitch-3, cost-0]
+tags: [card, sea-floor-salvage, sea, floor, salvage, pirate, action, go-again, pitch-3, cost-0, sea146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D6fPnQdQ7FKpWDB9ktTJ6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: D6fPnQdQ7FKpWDB9ktTJ6
 sets: [SEA]
+codes: [SEA146]
 ---
 
 **Sea Floor Salvage (blue)** — Pirate Action · cost 0 · 3 defense

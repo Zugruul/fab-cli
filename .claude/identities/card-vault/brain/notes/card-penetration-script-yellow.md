@@ -1,5 +1,5 @@
 ---
-tags: [card, penetration-script, penetration, script, mechanologist, action, item, crank, pitch-2, cost-1]
+tags: [card, penetration-script, penetration, script, mechanologist, action, item, crank, pitch-2, cost-1, evo079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qGKR8rcj7wrHQdF6kBwmk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: qGKR8rcj7wrHQdF6kBwmk
 sets: [EVO]
+codes: [EVO079]
 ---
 
 **Penetration Script (yellow)** — Mechanologist Action - Item · cost 1

@@ -1,5 +1,5 @@
 ---
-tags: [card, ravenous-meataxe, ravenous, meataxe, brute, weapon, axe, 2h]
+tags: [card, ravenous-meataxe, ravenous, meataxe, brute, weapon, axe, 2h, lev003, lgs047, mon221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kfqdk6PhqBd9tKM8T8hmN) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Axe, 2H]
 unique-id: Kfqdk6PhqBd9tKM8T8hmN
 sets: [LEV, LGS, MON]
+codes: [LEV003, LGS047, MON221]
 ---
 
 **Ravenous Meataxe** — Brute Weapon - Axe (2H) · 3 power

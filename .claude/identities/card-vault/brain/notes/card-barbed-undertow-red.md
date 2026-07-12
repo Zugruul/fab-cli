@@ -1,5 +1,5 @@
 ---
-tags: [card, barbed-undertow, barbed, undertow, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, barbed-undertow, barbed, undertow, ranger, action, arrow, attack, pitch-1, cost-1, aaz008, out101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jNbd7cDQccq8zTwgTT8Rb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: jNbd7cDQccq8zTwgTT8Rb
 sets: [AAZ, OUT]
+codes: [AAZ008, OUT101]
 ---
 
 **Barbed Undertow (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

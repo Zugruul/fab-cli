@@ -1,5 +1,5 @@
 ---
-tags: [card, squires-bracers, squires, bracers, warrior, equipment, arms]
+tags: [card, squires-bracers, squires, bracers, warrior, equipment, arms, ddd005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CrWnj9gJQRggnbjQtnPLh) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: CrWnj9gJQRggnbjQtnPLh
 sets: [DDD]
+codes: [DDD005]
 ---
 
 **Squire's Bracers** — Warrior Equipment - Arms · 0 defense

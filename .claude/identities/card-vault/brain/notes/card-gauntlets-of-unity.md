@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlets-of-unity, gauntlets, unity, warrior, equipment, arms, temper]
+tags: [card, gauntlets-of-unity, gauntlets, unity, warrior, equipment, arms, temper, pen046, sbl007, sdo007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LjJ9tpDPzKQ8P68jQp7jF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Unity, Temper]
 unique-id: LjJ9tpDPzKQ8P68jQp7jF
 sets: [PEN, SBL, SDO]
+codes: [PEN046, SBL007, SDO007]
 ---
 
 **Gauntlets of Unity** — Warrior Equipment - Arms · 1 defense

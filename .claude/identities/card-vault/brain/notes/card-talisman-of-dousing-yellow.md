@@ -1,5 +1,5 @@
 ---
-tags: [card, talisman-of-dousing, talisman, dousing, generic, action, item, go-again, spellvoid-1, pitch-2, cost-0]
+tags: [card, talisman-of-dousing, talisman, dousing, generic, action, item, go-again, spellvoid-1, pitch-2, cost-0, mon302]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RnBBWkdHbRb6tCRPF8Mpq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again, Spellvoid 1]
 unique-id: RnBBWkdHbRb6tCRPF8Mpq
 sets: [MON]
+codes: [MON302]
 ---
 
 **Talisman of Dousing (yellow)** — Generic Action - Item · cost 0

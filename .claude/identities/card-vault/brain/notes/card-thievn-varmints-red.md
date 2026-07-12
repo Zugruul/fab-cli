@@ -1,5 +1,5 @@
 ---
-tags: [card, thievn-varmints, thievn, varmints, pirate, action, attack, pitch-1, cost-0]
+tags: [card, thievn-varmints, thievn, varmints, pirate, action, attack, pitch-1, cost-0, sea172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mGJzBdWQ7W7FHH6QnLzNj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: mGJzBdWQ7W7FHH6QnLzNj
 sets: [SEA]
+codes: [SEA172]
 ---
 
 **Thiev'n Varmints (red)** — Pirate Action - Attack · cost 0 · 4 power · 3 defense

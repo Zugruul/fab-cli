@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-harvests, tome, harvests, earth, action, go-again, pitch-3, cost-3]
+tags: [card, tome-of-harvests, tome, harvests, earth, action, go-again, pitch-3, cost-3, ele118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JJpJbMqqCTKTJGnLfqnd6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: JJpJbMqqCTKTJGnLfqnd6
 sets: [ELE]
+codes: [ELE118]
 ---
 
 **Tome of Harvests (blue)** — Earth Action · cost 3 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, steel-street-hoons, steel, street, hoons, mechanologist, action, attack, boost, galvanize, pitch-3, cost-3]
+tags: [card, steel-street-hoons, steel, street, hoons, mechanologist, action, attack, boost, galvanize, pitch-3, cost-3, evo141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MGGw9K9QMqmFBjLLTrbhq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost, Galvanize]
 unique-id: MGGw9K9QMqmFBjLLTrbhq
 sets: [EVO]
+codes: [EVO141]
 ---
 
 **Steel Street Hoons (blue)** — Mechanologist Action - Attack · cost 3 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, vantage-point, vantage, point, runeblade, action, attack, overpower, pitch-3, cost-3]
+tags: [card, vantage-point, vantage, point, runeblade, action, attack, overpower, pitch-3, cost-3, ros126]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QtH7PBLtrgwf8tLG8HpWD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: QtH7PBLtrgwf8tLG8HpWD
 sets: [ROS]
+codes: [ROS126]
 ---
 
 **Vantage Point (blue)** — Runeblade Action - Attack · cost 3 · 5 power · 3 defense

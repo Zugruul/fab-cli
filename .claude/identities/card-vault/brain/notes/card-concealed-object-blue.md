@@ -1,5 +1,5 @@
 ---
-tags: [card, concealed-object, concealed, object, instant, item, reviled, the-crowd-boos, pitch-3, cost-0]
+tags: [card, concealed-object, concealed, object, instant, item, reviled, the-crowd-boos, pitch-3, cost-0, sly031, sup097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DdnDzmhwpNWtCjm7TqFQM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [The Crowd Boos]
 unique-id: DdnDzmhwpNWtCjm7TqFQM
 sets: [SLY, SUP]
+codes: [SLY031, SUP097]
 ---
 
 **Concealed Object (blue)** — Reviled Instant - Item · cost 0

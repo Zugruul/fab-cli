@@ -1,5 +1,5 @@
 ---
-tags: [card, unicycle, mechanologist, equipment, legs, battleworn]
+tags: [card, unicycle, mechanologist, equipment, legs, battleworn, sea010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hp8cr9fLGCnpNCfrgKFJN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: Hp8cr9fLGCnpNCfrgKFJN
 sets: [SEA]
+codes: [SEA010]
 ---
 
 **Unicycle** — Mechanologist Equipment - Legs · 1 defense

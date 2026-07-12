@@ -1,5 +1,5 @@
 ---
-tags: [card, battlefield-breaker, battlefield, breaker, brute, shadow, action, attack, blood-debt, pitch-2, cost-3]
+tags: [card, battlefield-breaker, battlefield, breaker, brute, shadow, action, attack, blood-debt, pitch-2, cost-3, dtd122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z8khMLCjBPBbkRRq6z8Nw) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: z8khMLCjBPBbkRRq6z8Nw
 sets: [DTD]
+codes: [DTD122]
 ---
 
 **Battlefield Breaker (yellow)** — Shadow Brute Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sacred-art-jade-tiger-domain, sacred, art, jade, tiger, domain, ninja, mystic, instant, legendary, transcend, pitch-3, cost-3]
+tags: [card, sacred-art-jade-tiger-domain, sacred, art, jade, tiger, domain, ninja, mystic, instant, legendary, transcend, pitch-3, cost-3, fab233, mst053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GJzhGm6bb6gW8nMBgQRbz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: GJzhGm6bb6gW8nMBgQRbz
 sets: [FAB, MST]
+codes: [FAB233, MST053]
 ---
 
 **Sacred Art: Jade Tiger Domain (blue)** — Mystic Ninja Instant · cost 3

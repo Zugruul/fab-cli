@@ -1,5 +1,5 @@
 ---
-tags: [card, voltic-veil, voltic, veil, wizard, elemental, instant, lightning-bond, pitch-1, cost-1]
+tags: [card, voltic-veil, voltic, veil, wizard, elemental, instant, lightning-bond, pitch-1, cost-1, pen204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T8LpTQg8Cqnk7jQgf9FhJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Lightning Bond]
 unique-id: T8LpTQg8Cqnk7jQgf9FhJ
 sets: [PEN]
+codes: [PEN204]
 ---
 
 **Voltic Veil (red)** — Elemental Wizard Instant · cost 1

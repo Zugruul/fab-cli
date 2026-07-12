@@ -1,5 +1,5 @@
 ---
-tags: [card, optekal-monocle, optekal, monocle, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, optekal-monocle, optekal, monocle, mechanologist, action, item, pitch-3, cost-0, 1hp219, arc037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6Wcpcb7DQ8GMGMTwjdQTR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: 6Wcpcb7DQ8GMGMTwjdQTR
 sets: [1HP, ARC]
+codes: [1HP219, ARC037]
 ---
 
 **Optekal Monocle (blue)** — Mechanologist Action - Item · cost 0

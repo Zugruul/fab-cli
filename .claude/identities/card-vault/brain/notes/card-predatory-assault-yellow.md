@@ -1,5 +1,5 @@
 ---
-tags: [card, predatory-assault, predatory, assault, brute, action, attack, dominate, pitch-2, cost-2]
+tags: [card, predatory-assault, predatory, assault, brute, action, attack, dominate, pitch-2, cost-2, cru014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzkNcddzgqbwg8k6KmD8c) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: dzkNcddzgqbwg8k6KmD8c
 sets: [CRU]
+codes: [CRU014]
 ---
 
 **Predatory Assault (yellow)** — Brute Action - Attack · cost 2 · 5 power · 3 defense

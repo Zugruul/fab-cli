@@ -1,5 +1,5 @@
 ---
-tags: [card, good-natured-brutality, good, natured, brutality, brute, action, attack, revered, the-crowd-cheers, pitch-2, cost-2]
+tags: [card, good-natured-brutality, good, natured, brutality, brute, action, attack, revered, the-crowd-cheers, pitch-2, cost-2, sup004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nRPwcrgmmKKKtqgdFW8jd) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: nRPwcrgmmKKKtqgdFW8jd
 sets: [SUP]
+codes: [SUP004]
 ---
 
 **Good Natured Brutality (yellow)** — Revered Brute Action - Attack · cost 2 · 6 power · 0 defense

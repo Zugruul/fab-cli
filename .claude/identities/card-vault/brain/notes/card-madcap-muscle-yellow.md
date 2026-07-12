@@ -1,5 +1,5 @@
 ---
-tags: [card, madcap-muscle, madcap, muscle, brute, action, attack, pitch-2, cost-3]
+tags: [card, madcap-muscle, madcap, muscle, brute, action, attack, pitch-2, cost-3, dyn020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JwfGnKbwmrTdnztBM89Wb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JwfGnKbwmrTdnztBM89Wb
 sets: [DYN]
+codes: [DYN020]
 ---
 
 **Madcap Muscle (yellow)** — Brute Action - Attack · cost 3 · 5 power · 3 defense

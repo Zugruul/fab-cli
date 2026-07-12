@@ -1,5 +1,5 @@
 ---
-tags: [card, knick-knack-bric-a-brac, knick, knack, bric, brac, generic, action, pitch-1, cost-3]
+tags: [card, knick-knack-bric-a-brac, knick, knack, bric, brac, generic, action, pitch-1, cost-3, evr159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jtJnCFHwQf7w9hwzbBtQt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Action]
 unique-id: jtJnCFHwQf7w9hwzbBtQt
 sets: [EVR]
+codes: [EVR159]
 ---
 
 **Knick Knack Bric-a-brac (red)** — Generic Action · cost 3 · 2 defense

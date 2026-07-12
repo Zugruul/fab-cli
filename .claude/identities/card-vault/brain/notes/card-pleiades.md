@@ -1,5 +1,5 @@
 ---
-tags: [card, pleiades, guardian, hero, revered, young]
+tags: [card, pleiades, guardian, hero, revered, young, aps002, sup010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DcwnhL66BkhqjFcfzwwfQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Revered]
 unique-id: DcwnhL66BkhqjFcfzwwfQ
 sets: [APS, SUP]
+codes: [APS002, SUP010]
 ---
 
 **Pleiades** — Revered Guardian Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, aqua-seeing-shell, aqua, seeing, shell, mystic, equipment, head, cloaked]
+tags: [card, aqua-seeing-shell, aqua, seeing, shell, mystic, equipment, head, cloaked, lgs274, mst067, nuu003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NbbDrzwLMP7CH69PHcWfK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Cloaked]
 unique-id: NbbDrzwLMP7CH69PHcWfK
 sets: [LGS, MST, NUU]
+codes: [LGS274, MST067, NUU003]
 ---
 
 **Aqua Seeing Shell** — Mystic Equipment - Head · 1 defense

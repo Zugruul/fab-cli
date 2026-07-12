@@ -1,5 +1,5 @@
 ---
-tags: [card, exposed, generic, attack-reaction, mark, pitch-3, cost-0]
+tags: [card, exposed, generic, attack-reaction, mark, pitch-3, cost-0, hnt237]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d7bwjcFhcrtN6btzhrdWB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Attack Reaction]
 keywords: [Mark]
 unique-id: d7bwjcFhcrtN6btzhrdWB
 sets: [HNT]
+codes: [HNT237]
 ---
 
 **Exposed (blue)** — Generic Attack Reaction · cost 0

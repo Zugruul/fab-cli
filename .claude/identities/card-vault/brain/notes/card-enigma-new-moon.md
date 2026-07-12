@@ -1,5 +1,5 @@
 ---
-tags: [card, enigma-new-moon, enigma, new, moon, illusionist, mystic, hero, young, cloaked]
+tags: [card, enigma-new-moon, enigma, new, moon, illusionist, mystic, hero, young, cloaked, mst238]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9HfDfRR8m8cLKDdg88gjm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Cloaked]
 unique-id: 9HfDfRR8m8cLKDdg88gjm
 sets: [MST]
+codes: [MST238]
 ---
 
 **Enigma, New Moon** — Mystic Illusionist Hero - Young · 20 health · 4 int

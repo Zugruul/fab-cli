@@ -1,5 +1,5 @@
 ---
-tags: [card, hadron-collider, hadron, collider, mechanologist, action, item, crank, pitch-3, cost-1]
+tags: [card, hadron-collider, hadron, collider, mechanologist, action, item, crank, pitch-3, cost-1, evo092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CPgdwbjRGNNfKrgPn6ngL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: CPgdwbjRGNNfKrgPn6ngL
 sets: [EVO]
+codes: [EVO092]
 ---
 
 **Hadron Collider (blue)** — Mechanologist Action - Item · cost 1

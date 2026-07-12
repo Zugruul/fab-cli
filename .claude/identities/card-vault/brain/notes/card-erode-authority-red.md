@@ -1,5 +1,5 @@
 ---
-tags: [card, erode-authority, erode, authority, illusionist, action, attack, dominate, fragment, pitch-1, cost-3]
+tags: [card, erode-authority, erode, authority, illusionist, action, attack, dominate, fragment, pitch-1, cost-3, omn044]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dmGpmBBdMCt7dTpGHmjmr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate, Fragment]
 unique-id: dmGpmBBdMCt7dTpGHmjmr
 sets: [OMN]
+codes: [OMN044]
 ---
 
 **Erode Authority (red)** — Illusionist Action - Attack · cost 3 · 7 power · 3 defense

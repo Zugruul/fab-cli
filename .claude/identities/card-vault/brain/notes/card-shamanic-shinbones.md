@@ -1,5 +1,5 @@
 ---
-tags: [card, shamanic-shinbones, shamanic, shinbones, brute, equipment, legs, arcane-barrier-1]
+tags: [card, shamanic-shinbones, shamanic, shinbones, brute, equipment, legs, arcane-barrier-1, pen005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bMdwPwTh7FJBpzbqTctKB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1]
 unique-id: bMdwPwTh7FJBpzbqTctKB
 sets: [PEN]
+codes: [PEN005]
 ---
 
 **Shamanic Shinbones** — Brute Equipment - Legs · 0 defense

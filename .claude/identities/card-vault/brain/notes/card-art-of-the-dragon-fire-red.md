@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-the-dragon-fire, art, dragon, fire, ninja, action, attack, pitch-1, cost-1]
+tags: [card, art-of-the-dragon-fire, art, dragon, fire, ninja, action, attack, pitch-1, cost-1, cin007, fab309, hnt075, sfa010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KrwdmQ7RpjpPhf8Hmg6ct) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: KrwdmQ7RpjpPhf8Hmg6ct
 sets: [CIN, FAB, HNT, SFA]
+codes: [CIN007, FAB309, HNT075, SFA010]
 ---
 
 **Art of the Dragon: Fire (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

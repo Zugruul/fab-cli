@@ -1,5 +1,5 @@
 ---
-tags: [card, four-finger-gloves, four, finger, gloves, generic, equipment, arms]
+tags: [card, four-finger-gloves, four, finger, gloves, generic, equipment, arms, lgs322, ros214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hqnLfCpjbMKBrjTHQNRfk) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: hqnLfCpjbMKBrjTHQNRfk
 sets: [LGS, ROS]
+codes: [LGS322, ROS214]
 ---
 
 **Four Finger Gloves** — Generic Equipment - Arms · 0 defense

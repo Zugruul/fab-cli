@@ -1,5 +1,5 @@
 ---
-tags: [card, aspect-of-tiger-mind, aspect, tiger, mind, ninja, action, attack, combo, go-again, pitch-3, cost-0]
+tags: [card, aspect-of-tiger-mind, aspect, tiger, mind, ninja, action, attack, combo, go-again, pitch-3, cost-0, mst166, zen019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6nMGj9fLB8p9HFDhrJRP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: p6nMGj9fLB8p9HFDhrJRP
 sets: [MST, ZEN]
+codes: [MST166, ZEN019]
 ---
 
 **Aspect of Tiger: Mind (blue)** — Ninja Action - Attack · cost 0 · 1 power · 3 defense

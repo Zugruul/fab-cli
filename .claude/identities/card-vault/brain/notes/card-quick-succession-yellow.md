@@ -1,5 +1,5 @@
 ---
-tags: [card, quick-succession, quick, succession, runeblade, lightning, action, go-again, pitch-2, cost-0]
+tags: [card, quick-succession, quick, succession, runeblade, lightning, action, go-again, pitch-2, cost-0, omn084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WLRcb8jRrktGNqbttwfWF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: WLRcb8jRrktGNqbttwfWF
 sets: [OMN]
+codes: [OMN084]
 ---
 
 **Quick Succession (yellow)** — Lightning Runeblade Action · cost 0 · 2 defense

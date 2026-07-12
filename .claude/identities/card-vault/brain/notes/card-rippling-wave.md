@@ -1,5 +1,5 @@
 ---
-tags: [card, rippling-wave, rippling, wave, mystic, equipment, arms, cloaked, blade-break]
+tags: [card, rippling-wave, rippling, wave, mystic, equipment, arms, cloaked, blade-break, pen265]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rW8N7tr9TF98TM8fwMfJd) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Cloaked, Blade Break]
 unique-id: rW8N7tr9TF98TM8fwMfJd
 sets: [PEN]
+codes: [PEN265]
 ---
 
 **Rippling Wave** — Mystic Equipment - Arms · 3 defense

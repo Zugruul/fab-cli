@@ -1,5 +1,5 @@
 ---
-tags: [card, steelblade-shunt, steelblade, shunt, warrior, defense-reaction, pitch-3, cost-1]
+tags: [card, steelblade-shunt, steelblade, shunt, warrior, defense-reaction, pitch-3, cost-1, 1hp158, wtr128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CqjGDbBG9WMHfdcpF8fqJ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Defense Reaction]
 unique-id: CqjGDbBG9WMHfdcpF8fqJ
 sets: [1HP, WTR]
+codes: [1HP158, WTR128]
 ---
 
 **Steelblade Shunt (blue)** — Warrior Defense Reaction · cost 1 · 4 defense

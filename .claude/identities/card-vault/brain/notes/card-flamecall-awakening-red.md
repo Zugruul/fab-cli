@@ -1,5 +1,5 @@
 ---
-tags: [card, flamecall-awakening, flamecall, awakening, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, flamecall-awakening, flamecall, awakening, draconic, action, attack, go-again, pitch-1, cost-1, fai012, sfa017, upr096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjFbJmPHHbLwqfnbPfFML) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: HjFbJmPHHbLwqfnbPfFML
 sets: [FAI, SFA, UPR]
+codes: [FAI012, SFA017, UPR096]
 ---
 
 **Flamecall Awakening (red)** — Draconic Action - Attack · cost 1 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, edge-of-their-seats, edge, their, seats, guardian, instant, aura, suspense, pitch-2, cost-3]
+tags: [card, edge-of-their-seats, edge, their, seats, guardian, instant, aura, suspense, pitch-2, cost-3, sup202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKQCQDMCGjNqJJDzQ8tbR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: gKQCQDMCGjNqJJDzQ8tbR
 sets: [SUP]
+codes: [SUP202]
 ---
 
 **Edge of Their Seats (yellow)** — Guardian Instant - Aura · cost 3 · 3 defense

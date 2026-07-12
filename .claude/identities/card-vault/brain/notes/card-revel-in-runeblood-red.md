@@ -1,5 +1,5 @@
 ---
-tags: [card, revel-in-runeblood, revel, runeblood, runeblade, action, go-again, pitch-1, cost-0]
+tags: [card, revel-in-runeblood, revel, runeblood, runeblade, action, go-again, pitch-1, cost-0, avs018, evr106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z9Jm6MkWcjqRHwQWkgRDj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: z9Jm6MkWcjqRHwQWkgRDj
 sets: [AVS, EVR]
+codes: [AVS018, EVR106]
 ---
 
 **Revel in Runeblood (red)** — Runeblade Action · cost 0 · 2 defense

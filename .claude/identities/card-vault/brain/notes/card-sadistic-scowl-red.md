@@ -1,5 +1,5 @@
 ---
-tags: [card, sadistic-scowl, sadistic, scowl, action, reviled, intimidate, go-again, pitch-1, cost-3]
+tags: [card, sadistic-scowl, sadistic, scowl, action, reviled, intimidate, go-again, pitch-1, cost-3, sly014, sup095]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jFTctWqJnnwKqbbdphWjQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Intimidate, Go again]
 unique-id: jFTctWqJnnwKqbbdphWjQ
 sets: [SLY, SUP]
+codes: [SLY014, SUP095]
 ---
 
 **Sadistic Scowl (red)** — Reviled Action · cost 3 · 2 defense

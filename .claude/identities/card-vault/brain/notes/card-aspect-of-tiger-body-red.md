@@ -1,5 +1,5 @@
 ---
-tags: [card, aspect-of-tiger-body, aspect, tiger, body, ninja, action, attack, combo, go-again, pitch-1, cost-0]
+tags: [card, aspect-of-tiger-body, aspect, tiger, body, ninja, action, attack, combo, go-again, pitch-1, cost-0, mst164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cFgpPh7JLB8jCtrTd6nKG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: cFgpPh7JLB8jCtrTd6nKG
 sets: [MST]
+codes: [MST164]
 ---
 
 **Aspect of Tiger: Body (red)** — Ninja Action - Attack · cost 0 · 3 power · 3 defense

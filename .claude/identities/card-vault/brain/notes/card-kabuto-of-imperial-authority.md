@@ -1,5 +1,5 @@
 ---
-tags: [card, kabuto-of-imperial-authority, kabuto, imperial, authority, warrior, equipment, head, blade-break]
+tags: [card, kabuto-of-imperial-authority, kabuto, imperial, authority, warrior, equipment, head, blade-break, fab292, hnt115]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QmJTKzcT6dtHwqktKqBFk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: QmJTKzcT6dtHwqktKqBFk
 sets: [FAB, HNT]
+codes: [FAB292, HNT115]
 ---
 
 **Kabuto of Imperial Authority** — Warrior Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodspill-invocation, bloodspill, invocation, runeblade, action, aura, go-again, pitch-2, cost-1]
+tags: [card, bloodspill-invocation, bloodspill, invocation, runeblade, action, aura, go-again, pitch-2, cost-1, 1hp292, arc107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cww8rKzD9W6Nf7TfwTBwL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: Cww8rKzD9W6Nf7TfwTBwL
 sets: [1HP, ARC]
+codes: [1HP292, ARC107]
 ---
 
 **Bloodspill Invocation (yellow)** — Runeblade Action - Aura · cost 1 · 2 defense

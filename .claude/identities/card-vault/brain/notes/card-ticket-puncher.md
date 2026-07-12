@@ -1,5 +1,5 @@
 ---
-tags: [card, ticket-puncher, ticket, puncher, generic, equipment, arms, blade-break]
+tags: [card, ticket-puncher, ticket, puncher, generic, equipment, arms, blade-break, hvy204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d8qcmDrkwJ7D6FnMjQDW9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: d8qcmDrkwJ7D6FnMjQDW9
 sets: [HVY]
+codes: [HVY204]
 ---
 
 **Ticket Puncher** — Generic Equipment - Arms · * defense

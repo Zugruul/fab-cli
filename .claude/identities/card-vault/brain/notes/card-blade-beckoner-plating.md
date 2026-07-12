@@ -1,5 +1,5 @@
 ---
-tags: [card, blade-beckoner-plating, blade, beckoner, plating, generic, equipment, chest, guardwell]
+tags: [card, blade-beckoner-plating, blade, beckoner, plating, generic, equipment, chest, guardwell, cin004, hnt217, sly007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m8GfTFCJ9DkNWwmJbKBth) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Guardwell]
 unique-id: m8GfTFCJ9DkNWwmJbKBth
 sets: [CIN, HNT, SLY]
+codes: [CIN004, HNT217, SLY007]
 ---
 
 **Blade Beckoner Plating** — Generic Equipment - Chest · 1 defense

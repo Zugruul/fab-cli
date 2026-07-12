@@ -1,5 +1,5 @@
 ---
-tags: [card, volatile-fluxor, volatile, fluxor, lightning, action, attack, go-again, pitch-2, cost-0]
+tags: [card, volatile-fluxor, volatile, fluxor, lightning, action, attack, go-again, pitch-2, cost-0, omn179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gDcLCrcfPQKNNpq8DkMFp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: gDcLCrcfPQKNNpq8DkMFp
 sets: [OMN]
+codes: [OMN179]
 ---
 
 **Volatile Fluxor (yellow)** — Lightning Action - Attack · cost 0 · 0 power · 3 defense

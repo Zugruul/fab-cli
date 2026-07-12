@@ -1,5 +1,5 @@
 ---
-tags: [card, okana-scar-wraps, okana, scar, wraps, ninja, equipment, arms, blade-break]
+tags: [card, okana-scar-wraps, okana, scar, wraps, ninja, equipment, arms, blade-break, asr005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ph6zmRnbqhCtD7T7FwpdB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: ph6zmRnbqhCtD7T7FwpdB
 sets: [ASR]
+codes: [ASR005]
 ---
 
 **Okana Scar Wraps** — Ninja Equipment - Arms · 2 defense

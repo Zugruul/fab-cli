@@ -1,5 +1,5 @@
 ---
-tags: [card, dimenxxional-crossroads, dimenxxional, crossroads, runeblade, shadow, action, aura, go-again, pitch-2, cost-2]
+tags: [card, dimenxxional-crossroads, dimenxxional, crossroads, runeblade, shadow, action, aura, go-again, pitch-2, cost-2, mon157]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fpmdrrdQ9QwCh6bdphJ68) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: fpmdrrdQ9QwCh6bdphJ68
 sets: [MON]
+codes: [MON157]
 ---
 
 **Dimenxxional Crossroads (yellow)** — Shadow Runeblade Action - Aura · cost 2 · 3 defense

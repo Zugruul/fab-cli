@@ -1,5 +1,5 @@
 ---
-tags: [card, searing-gaze, searing, gaze, warrior, draconic, attack-reaction, mark, pitch-1, cost-0]
+tags: [card, searing-gaze, searing, gaze, warrior, draconic, attack-reaction, mark, pitch-1, cost-0, fng016, hnt111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f7Gk6PJDmMhpGpGjpp866) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Attack Reaction]
 keywords: [Mark]
 unique-id: f7Gk6PJDmMhpGpGjpp866
 sets: [FNG, HNT]
+codes: [FNG016, HNT111]
 ---
 
 **Searing Gaze (red)** — Draconic Warrior Attack Reaction · cost 0 · 2 defense

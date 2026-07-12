@@ -1,5 +1,5 @@
 ---
-tags: [card, yo-ho-ho, yo, ho, pirate, necromancer, action, go-again, pitch-3, cost-0]
+tags: [card, yo-ho-ho, yo, ho, pirate, necromancer, action, go-again, pitch-3, cost-0, gem053, sea058, sgb033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PGQMRR7h9kBt98fnhgnNt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: PGQMRR7h9kBt98fnhgnNt
 sets: [GEM, SEA, SGB]
+codes: [GEM053, SEA058, SGB033]
 ---
 
 **Yo Ho Ho! (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

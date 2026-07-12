@@ -1,5 +1,5 @@
 ---
-tags: [card, plow-under, plow, under, earth, action, attack, decompose, pitch-2, cost-2]
+tags: [card, plow-under, plow, under, earth, action, attack, decompose, pitch-2, cost-2, ros032, sup262]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n9NTHWCRGQq9gMFwfcg6C) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Decompose]
 unique-id: n9NTHWCRGQq9gMFwfcg6C
 sets: [ROS, SUP]
+codes: [ROS032, SUP262]
 ---
 
 **Plow Under (yellow)** — Earth Action - Attack · cost 2 · 2 power · 3 defense

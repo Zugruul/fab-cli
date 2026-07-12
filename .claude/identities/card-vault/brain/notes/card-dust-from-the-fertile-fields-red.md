@@ -1,5 +1,5 @@
 ---
-tags: [card, dust-from-the-fertile-fields, dust, fertile, fields, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0]
+tags: [card, dust-from-the-fertile-fields, dust, fertile, fields, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0, ros252]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JC99fDzqfnbBCGkMCRhtw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ash]
 keywords: [Material, Phantasm]
 unique-id: JC99fDzqfnbBCGkMCRhtw
 sets: [ROS]
+codes: [ROS252]
 ---
 
 **Dust from the Fertile Fields (red)** — Draconic Illusionist Action - Ash · cost 0 · 3 defense

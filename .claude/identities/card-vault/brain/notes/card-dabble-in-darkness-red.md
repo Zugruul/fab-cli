@@ -1,5 +1,5 @@
 ---
-tags: [card, dabble-in-darkness, dabble, darkness, shadow, action, attack, blood-debt, pitch-1, cost-0]
+tags: [card, dabble-in-darkness, dabble, darkness, shadow, action, attack, blood-debt, pitch-1, cost-0, dtd169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ddqz6QF9FNMT8qJjjr8Q9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: Ddqz6QF9FNMT8qJjjr8Q9
 sets: [DTD]
+codes: [DTD169]
 ---
 
 **Dabble in Darkness (red)** — Shadow Action - Attack · cost 0 · 5 power · 3 defense

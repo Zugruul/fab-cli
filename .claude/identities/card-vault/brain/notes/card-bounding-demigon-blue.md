@@ -1,5 +1,5 @@
 ---
-tags: [card, bounding-demigon, bounding, demigon, runeblade, shadow, action, attack, blood-debt, pitch-3, cost-0]
+tags: [card, bounding-demigon, bounding, demigon, runeblade, shadow, action, attack, blood-debt, pitch-3, cost-0, mon170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FJLJfPT9G9rjCCqjGNnrm) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: FJLJfPT9G9rjCCqjGNnrm
 sets: [MON]
+codes: [MON170]
 ---
 
 **Bounding Demigon (blue)** — Shadow Runeblade Action - Attack · cost 0 · 1 power · 3 defense

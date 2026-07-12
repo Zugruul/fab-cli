@@ -1,5 +1,5 @@
 ---
-tags: [card, rites-of-replenishment, rites, replenishment, runeblade, elemental, action, attack, earth-fusion, pitch-2, cost-2]
+tags: [card, rites-of-replenishment, rites, replenishment, runeblade, elemental, action, attack, earth-fusion, pitch-2, cost-2, ele080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zjNjqfQnkMnJ7Tmgctt96) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: zjNjqfQnkMnJ7Tmgctt96
 sets: [ELE]
+codes: [ELE080]
 ---
 
 **Rites of Replenishment (yellow)** — Elemental Runeblade Action - Attack · cost 2 · 5 power · 3 defense

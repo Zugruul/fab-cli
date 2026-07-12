@@ -1,5 +1,5 @@
 ---
-tags: [card, ira-crimson-haze, ira, crimson, haze, ninja, hero, young]
+tags: [card, ira-crimson-haze, ira, crimson, haze, ninja, hero, young, 1hp089, cru046, her000, ira001, tcc077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GCRQMpBtqBHWrk68GqnGP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Ninja]
 types: [Hero]
 unique-id: GCRQMpBtqBHWrk68GqnGP
 sets: [1HP, CRU, HER, IRA, TCC]
+codes: [1HP089, CRU046, HER000, IRA001, TCC077]
 ---
 
 **Ira, Crimson Haze** — Ninja Hero - Young · 20 health · 4 int

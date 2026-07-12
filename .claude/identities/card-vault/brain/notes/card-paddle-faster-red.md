@@ -1,5 +1,5 @@
 ---
-tags: [card, paddle-faster, paddle, faster, pirate, necromancer, action, attack, go-again, pitch-1, cost-0]
+tags: [card, paddle-faster, paddle, faster, pirate, necromancer, action, attack, go-again, pitch-1, cost-0, agb010, fab348, sea054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PJQgmWWftPgbC9Nz7zzKD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: PJQgmWWftPgbC9Nz7zzKD
 sets: [AGB, FAB, SEA]
+codes: [AGB010, FAB348, SEA054]
 ---
 
 **Paddle Faster (red)** — Pirate Necromancer Action - Attack · cost 0 · 4 power · 3 defense

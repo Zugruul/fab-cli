@@ -1,5 +1,5 @@
 ---
-tags: [card, quickdodge-flexors, quickdodge, flexors, generic, equipment, legs]
+tags: [card, quickdodge-flexors, quickdodge, flexors, generic, equipment, legs, anq008, fab294, hnt215, pen313]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kg7JPwP7pDg9wGqqQ76HT) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: kg7JPwP7pDg9wGqqQ76HT
 sets: [ANQ, FAB, HNT, PEN]
+codes: [ANQ008, FAB294, HNT215, PEN313]
 ---
 
 **Quickdodge Flexors** — Generic Equipment - Legs · 0 defense

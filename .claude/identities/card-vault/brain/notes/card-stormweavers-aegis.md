@@ -1,5 +1,5 @@
 ---
-tags: [card, stormweavers-aegis, stormweavers, aegis, lightning, equipment, chest, arcane-barrier-1]
+tags: [card, stormweavers-aegis, stormweavers, aegis, lightning, equipment, chest, arcane-barrier-1, pen239]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jGpmP7RtNPqn6WnmJkLwQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: jGpmP7RtNPqn6WnmJkLwQ
 sets: [PEN]
+codes: [PEN239]
 ---
 
 **Stormweaver's Aegis** — Lightning Equipment - Chest · 0 defense

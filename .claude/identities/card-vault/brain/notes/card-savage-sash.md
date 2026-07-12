@@ -1,5 +1,5 @@
 ---
-tags: [card, savage-sash, savage, sash, brute, equipment, chest, temper]
+tags: [card, savage-sash, savage, sash, brute, equipment, chest, temper, ako004, gem082, jdg040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WPkcWHhWGzFKcNWQFM7hf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: WPkcWHhWGzFKcNWQFM7hf
 sets: [AKO, GEM, JDG]
+codes: [AKO004, GEM082, JDG040]
 ---
 
 **Savage Sash** — Brute Equipment - Chest · 2 defense

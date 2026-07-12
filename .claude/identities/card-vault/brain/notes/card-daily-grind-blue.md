@@ -1,5 +1,5 @@
 ---
-tags: [card, daily-grind, daily, grind, guardian, action, aura, clash, pitch-3, cost-0]
+tags: [card, daily-grind, daily, grind, guardian, action, aura, clash, pitch-3, cost-0, mpg022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wKRRTFLrpKDJRLQTnb7Ld) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Clash]
 unique-id: wKRRTFLrpKDJRLQTnb7Ld
 sets: [MPG]
+codes: [MPG022]
 ---
 
 **Daily Grind (blue)** — Guardian Action - Aura · cost 0 · 3 defense

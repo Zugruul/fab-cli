@@ -1,5 +1,5 @@
 ---
-tags: [card, intimate-inducement, intimate, inducement, assassin, mystic, attack-reaction, pitch-3, cost-0]
+tags: [card, intimate-inducement, intimate, inducement, assassin, mystic, attack-reaction, pitch-3, cost-0, mst019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b8WGTGmWNGDdGwCWP7r66) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Mystic]
 types: [Attack Reaction]
 unique-id: b8WGTGmWNGDdGwCWP7r66
 sets: [MST]
+codes: [MST019]
 ---
 
 **Intimate Inducement (blue)** — Mystic Assassin Attack Reaction · cost 0 · 3 defense

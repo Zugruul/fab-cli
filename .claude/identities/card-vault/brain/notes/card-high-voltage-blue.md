@@ -1,5 +1,5 @@
 ---
-tags: [card, high-voltage, high, voltage, lightning, instant, amp-1, pitch-3, cost-0]
+tags: [card, high-voltage, high, voltage, lightning, instant, amp-1, pitch-3, cost-0, ros078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g8DkhdLpGnDhj8WmkqTgr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Amp 1]
 unique-id: g8DkhdLpGnDhj8WmkqTgr
 sets: [ROS]
+codes: [ROS078]
 ---
 
 **High Voltage (blue)** — Lightning Instant · cost 0

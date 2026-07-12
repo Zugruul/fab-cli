@@ -1,5 +1,5 @@
 ---
-tags: [card, astral-assault, astral, assault, lightning, action, attack, pitch-1, cost-2]
+tags: [card, astral-assault, astral, assault, lightning, action, attack, pitch-1, cost-2, omn160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rNhqkLtwRGdRf7Pkh6b7b) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rNhqkLtwRGdRf7Pkh6b7b
 sets: [OMN]
+codes: [OMN160]
 ---
 
 **Astral Assault (red)** — Lightning Action - Attack · cost 2 · 5 power · 2 defense

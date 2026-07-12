@@ -1,5 +1,5 @@
 ---
-tags: [card, inspire-lightning, inspire, lightning, runeblade, elemental, action, lightning-fusion, pitch-3, cost-1]
+tags: [card, inspire-lightning, inspire, lightning, runeblade, elemental, action, lightning-fusion, pitch-3, cost-1, ele090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W8hhkFmqt8rDrBnTfCCPw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Lightning Fusion]
 unique-id: W8hhkFmqt8rDrBnTfCCPw
 sets: [ELE]
+codes: [ELE090]
 ---
 
 **Inspire Lightning (blue)** — Elemental Runeblade Action · cost 1 · 2 defense

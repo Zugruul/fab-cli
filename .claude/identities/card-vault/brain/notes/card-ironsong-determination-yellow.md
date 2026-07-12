@@ -1,5 +1,5 @@
 ---
-tags: [card, ironsong-determination, ironsong, determination, warrior, action, go-again, dominate, pitch-2, cost-0]
+tags: [card, ironsong-determination, ironsong, determination, warrior, action, go-again, dominate, pitch-2, cost-0, wtr122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PqNCC7zzLf8kFWDCpj7g6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: PqNCC7zzLf8kFWDCpj7g6
 sets: [WTR]
+codes: [WTR122]
 ---
 
 **Ironsong Determination (yellow)** — Warrior Action · cost 0 · 3 defense

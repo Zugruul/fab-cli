@@ -1,5 +1,5 @@
 ---
-tags: [card, find-center, find, center, ninja, action, attack, combo, pitch-3, cost-0]
+tags: [card, find-center, find, center, ninja, action, attack, combo, pitch-3, cost-0, 1hp098, cru054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PHz8kWCt6rw6Q6jMgbdQC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: PHz8kWCt6rw6Q6jMgbdQC
 sets: [1HP, CRU]
+codes: [1HP098, CRU054]
 ---
 
 **Find Center (blue)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

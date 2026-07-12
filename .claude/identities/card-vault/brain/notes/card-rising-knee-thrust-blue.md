@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-knee-thrust, rising, knee, thrust, ninja, action, attack, combo, go-again, pitch-3, cost-0]
+tags: [card, rising-knee-thrust, rising, knee, thrust, ninja, action, attack, combo, go-again, pitch-3, cost-0, 1hp121, wtr106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jdLb9qCbwmwjj9N6rNrnn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: jdLb9qCbwmwjj9N6rNrnn
 sets: [1HP, WTR]
+codes: [1HP121, WTR106]
 ---
 
 **Rising Knee Thrust (blue)** — Ninja Action - Attack · cost 0 · 1 power · 3 defense

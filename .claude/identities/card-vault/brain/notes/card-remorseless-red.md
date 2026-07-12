@@ -1,5 +1,5 @@
 ---
-tags: [card, remorseless, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, remorseless, ranger, action, arrow, attack, pitch-1, cost-1, 1hp230, cru123]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M9wDtMRwDFB9chfhJRNWJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: M9wDtMRwDFB9chfhJRNWJ
 sets: [1HP, CRU]
+codes: [1HP230, CRU123]
 ---
 
 **Remorseless (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

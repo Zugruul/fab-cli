@@ -1,5 +1,5 @@
 ---
-tags: [card, barbed-castaway, barbed, castaway, ranger, weapon, bow, 2h]
+tags: [card, barbed-castaway, barbed, castaway, ranger, weapon, bow, 2h, azl002, lgs129, out093, rip002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jPfMCnKDptNbCbp6T96dT) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Bow, 2H]
 unique-id: jPfMCnKDptNbCbp6T96dT
 sets: [AZL, LGS, OUT, RIP]
+codes: [AZL002, LGS129, OUT093, RIP002]
 ---
 
 **Barbed Castaway** — Ranger Weapon - Bow (2H)

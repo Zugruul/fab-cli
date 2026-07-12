@@ -1,5 +1,5 @@
 ---
-tags: [card, silken-shroud, silken, shroud, illusionist, equipment, head, ward-1]
+tags: [card, silken-shroud, silken, shroud, illusionist, equipment, head, ward-1, pen123]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cBrmgjgrfDdgTW7g9djcF) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Head]
 keywords: [Ward 1]
 unique-id: cBrmgjgrfDdgTW7g9djcF
 sets: [PEN]
+codes: [PEN123]
 ---
 
 **Silken Shroud** — Illusionist Equipment - Head

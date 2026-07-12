@@ -1,5 +1,5 @@
 ---
-tags: [card, portside-exchange, portside, exchange, pirate, action, go-again, pitch-3, cost-0]
+tags: [card, portside-exchange, portside, exchange, pirate, action, go-again, pitch-3, cost-0, agb029, sea145, sgb031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PRkRJkPDTwbd7RLCKPkNt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: PRkRJkPDTwbd7RLCKPkNt
 sets: [AGB, SEA, SGB]
+codes: [AGB029, SEA145, SGB031]
 ---
 
 **Portside Exchange (blue)** — Pirate Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shroud-of-darkness, shroud, darkness, shadow, equipment, head, blood-debt]
+tags: [card, shroud-of-darkness, shroud, darkness, shadow, equipment, head, blood-debt, dtd165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lzr8Htn8MrNnMggczHwGd) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Head]
 keywords: [Blood Debt]
 unique-id: Lzr8Htn8MrNnMggczHwGd
 sets: [DTD]
+codes: [DTD165]
 ---
 
 **Shroud of Darkness** — Shadow Equipment - Head

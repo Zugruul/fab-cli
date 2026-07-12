@@ -1,5 +1,5 @@
 ---
-tags: [card, arakni-funnel-web, arakni, funnel, web, assassin, chaos, demi-hero]
+tags: [card, arakni-funnel-web, arakni, funnel, web, assassin, chaos, demi-hero, hnt004, lgs377, sar035, wod028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QrrLFqPwPhPkqTwqnzCMq) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Demi-Hero]
 traits: [Agent of Chaos]
 unique-id: QrrLFqPwPhPkqTwqnzCMq
 sets: [HNT, LGS, SAR, WOD]
+codes: [HNT004, LGS377, SAR035, WOD028]
 ---
 
 **Arakni, Funnel Web** — Chaos Assassin Demi-Hero · * health · 4 int

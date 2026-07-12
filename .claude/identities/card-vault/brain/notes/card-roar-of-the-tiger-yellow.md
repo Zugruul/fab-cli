@@ -1,5 +1,5 @@
 ---
-tags: [card, roar-of-the-tiger, roar, tiger, ninja, action, go-again, pitch-2, cost-0]
+tags: [card, roar-of-the-tiger, roar, tiger, ninja, action, go-again, pitch-2, cost-0, dyn049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kh8MDbwK76BTHkdjzDFTK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Kh8MDbwK76BTHkdjzDFTK
 sets: [DYN]
+codes: [DYN049]
 ---
 
 **Roar of the Tiger (yellow)** — Ninja Action · cost 0 · 3 defense

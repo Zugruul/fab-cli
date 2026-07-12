@@ -1,5 +1,5 @@
 ---
-tags: [card, dishonor, ninja, action, attack, combo, pitch-3, cost-0]
+tags: [card, dishonor, ninja, action, attack, combo, pitch-3, cost-0, out051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WRhC8n6HHNkRn6MjzDHDL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: WRhC8n6HHNkRn6MjzDHDL
 sets: [OUT]
+codes: [OUT051]
 ---
 
 **Dishonor (blue)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

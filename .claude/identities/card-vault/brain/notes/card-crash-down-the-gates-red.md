@@ -1,5 +1,5 @@
 ---
-tags: [card, crash-down-the-gates, crash, down, gates, generic, action, attack, pitch-1, cost-3]
+tags: [card, crash-down-the-gates, crash, down, gates, generic, action, attack, pitch-1, cost-3, sea198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 78qm8bGbrcGwf7chnPrqj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 78qm8bGbrcGwf7chnPrqj
 sets: [SEA]
+codes: [SEA198]
 ---
 
 **Crash Down the Gates (red)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

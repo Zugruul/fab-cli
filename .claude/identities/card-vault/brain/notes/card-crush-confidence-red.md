@@ -1,5 +1,5 @@
 ---
-tags: [card, crush-confidence, crush, confidence, guardian, action, attack, pitch-1, cost-3]
+tags: [card, crush-confidence, crush, confidence, guardian, action, attack, pitch-1, cost-3, 1hp073, mpg064, wtr063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gNMFmq7hhbDCRHHzhRKRK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: gNMFmq7hhbDCRHHzhRKRK
 sets: [1HP, MPG, WTR]
+codes: [1HP073, MPG064, WTR063]
 ---
 
 **Crush Confidence (red)** — Guardian Action - Attack · cost 3 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blaze-firemind, blaze, firemind, wizard, hero, young]
+tags: [card, blaze-firemind, blaze, firemind, wizard, hero, young, her117, sbz001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hJdWJJWrBzNBBFz9BCJDw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Wizard]
 types: [Hero]
 unique-id: hJdWJJWrBzNBBFz9BCJDw
 sets: [HER, SBZ]
+codes: [HER117, SBZ001]
 ---
 
 **Blaze, Firemind** — Wizard Hero - Young · 17 health · 4 int

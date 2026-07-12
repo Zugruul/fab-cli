@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-serenity, blessing, serenity, guardian, instant, pitch-3, cost-0]
+tags: [card, blessing-of-serenity, blessing, serenity, guardian, instant, pitch-3, cost-0, cru043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hrDjqDGGDc8QBdbwpgKzH) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Instant]
 unique-id: hrDjqDGGDc8QBdbwpgKzH
 sets: [CRU]
+codes: [CRU043]
 ---
 
 **Blessing of Serenity (blue)** — Guardian Instant · cost 0

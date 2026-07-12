@@ -1,5 +1,5 @@
 ---
-tags: [card, fog-down, fog, down, generic, action, aura, pitch-2, cost-3]
+tags: [card, fog-down, fog, down, generic, action, aura, pitch-2, cost-3, upr190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tKf7fDRqqJHHn7QgrKjdR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: tKf7fDRqqJHHn7QgrKjdR
 sets: [UPR]
+codes: [UPR190]
 ---
 
 **Fog Down (yellow)** — Generic Action - Aura · cost 3 · 3 defense

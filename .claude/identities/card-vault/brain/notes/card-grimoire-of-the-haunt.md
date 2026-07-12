@@ -1,5 +1,5 @@
 ---
-tags: [card, grimoire-of-the-haunt, grimoire, haunt, runeblade, shadow, equipment, off-hand, blood-debt, arcane-barrier-1]
+tags: [card, grimoire-of-the-haunt, grimoire, haunt, runeblade, shadow, equipment, off-hand, blood-debt, arcane-barrier-1, dtd136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bpcWc9DJf9pzfBczMWczJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Blood Debt, Arcane Barrier 1]
 unique-id: bpcWc9DJf9pzfBczMWczJ
 sets: [DTD]
+codes: [DTD136]
 ---
 
 **Grimoire of the Haunt** — Shadow Runeblade Equipment - Off-Hand

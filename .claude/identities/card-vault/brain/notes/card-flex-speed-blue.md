@@ -1,5 +1,5 @@
 ---
-tags: [card, flex-speed, flex, speed, brute, action, attack, go-again, pitch-3, cost-2]
+tags: [card, flex-speed, flex, speed, brute, action, attack, go-again, pitch-3, cost-2, sup148]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTdKt8WpBT7m9WpGMQFmw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: gTdKt8WpBT7m9WpGMQFmw
 sets: [SUP]
+codes: [SUP148]
 ---
 
 **Flex Speed (blue)** — Brute Action - Attack · cost 2 · 3 power · 3 defense

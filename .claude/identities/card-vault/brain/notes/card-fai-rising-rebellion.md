@@ -1,5 +1,5 @@
 ---
-tags: [card, fai-rising-rebellion, fai, rising, rebellion, ninja, draconic, hero, adult]
+tags: [card, fai-rising-rebellion, fai, rising, rebellion, ninja, draconic, hero, adult, her058, her065, upr044, win017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RjNJbgTJn7bJrjJHBdfC8) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Hero]
 unique-id: RjNJbgTJn7bJrjJHBdfC8
 sets: [HER, UPR, WIN]
+codes: [HER058, HER065, UPR044, WIN017]
 ---
 
 **Fai, Rising Rebellion** — Draconic Ninja Hero · 40 health · 4 int

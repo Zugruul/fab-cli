@@ -1,5 +1,5 @@
 ---
-tags: [card, sloggism, generic, action, go-again, pitch-2, cost-3]
+tags: [card, sloggism, generic, action, go-again, pitch-2, cost-3, 1hp421, wtr222]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b9jb87Hf88HzTMTFBRtwB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: b9jb87Hf88HzTMTFBRtwB
 sets: [1HP, WTR]
+codes: [1HP421, WTR222]
 ---
 
 **Sloggism (yellow)** — Generic Action · cost 3 · 2 defense

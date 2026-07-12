@@ -1,5 +1,5 @@
 ---
-tags: [card, breakwater-undertow, breakwater, undertow, pirate, necromancer, equipment, legs, blade-break, go-again]
+tags: [card, breakwater-undertow, breakwater, undertow, pirate, necromancer, equipment, legs, blade-break, go-again, agb007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid J8LhcKQG9z8mnTm6bMnFp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break, Go again]
 unique-id: J8LhcKQG9z8mnTm6bMnFp
 sets: [AGB]
+codes: [AGB007]
 ---
 
 **Breakwater Undertow** — Pirate Necromancer Equipment - Legs · 1 defense

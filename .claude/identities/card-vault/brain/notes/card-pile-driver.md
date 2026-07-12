@@ -1,5 +1,5 @@
 ---
-tags: [card, pile-driver, pile, driver, guardian, weapon, log, 2h, betsy-specialization, wager]
+tags: [card, pile-driver, pile, driver, guardian, weapon, log, 2h, betsy-specialization, wager, gem146, omn230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WnNfc9fJMFnH9DGwFRC9F) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Log, 2H]
 keywords: [Betsy Specialization, Wager]
 unique-id: WnNfc9fJMFnH9DGwFRC9F
 sets: [GEM, OMN]
+codes: [GEM146, OMN230]
 ---
 
 **Pile Driver** — Guardian Weapon - Log (2H) · 6 power

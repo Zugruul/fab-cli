@@ -1,5 +1,5 @@
 ---
-tags: [card, standing-ovation, standing, ovation, guardian, action, attack, revered, pitch-3, cost-6]
+tags: [card, standing-ovation, standing, ovation, guardian, action, attack, revered, pitch-3, cost-6, aps019, gem072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GzWDLbC8WgKLHkgBnQ8mc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: GzWDLbC8WgKLHkgBnQ8mc
 sets: [APS, GEM]
+codes: [APS019, GEM072]
 ---
 
 **Standing Ovation (blue)** — Revered Guardian Action - Attack · cost 6 · 8 power · 3 defense

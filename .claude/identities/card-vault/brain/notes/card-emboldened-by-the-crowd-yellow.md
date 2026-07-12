@@ -1,5 +1,5 @@
 ---
-tags: [card, emboldened-by-the-crowd, emboldened, by, crowd, defense-reaction, revered, pitch-2, cost-3]
+tags: [card, emboldened-by-the-crowd, emboldened, by, crowd, defense-reaction, revered, pitch-2, cost-3, pen290]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ncdtKzpTdWBQLQq8bqtKk) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Defense Reaction]
 other-types: [Revered]
 unique-id: ncdtKzpTdWBQLQq8bqtKk
 sets: [PEN]
+codes: [PEN290]
 ---
 
 **Emboldened by the Crowd (yellow)** — Revered Defense Reaction · cost 3 · 6 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, memorial-ground, memorial, ground, generic, instant, pitch-2, cost-0]
+tags: [card, memorial-ground, memorial, ground, generic, instant, pitch-2, cost-0, aaz026, mon304, saz033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6qKrNNGTDhDB9mWtqWpq) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: N6qKrNNGTDhDB9mWtqWpq
 sets: [AAZ, MON, SAZ]
+codes: [AAZ026, MON304, SAZ033]
 ---
 
 **Memorial Ground (yellow)** — Generic Instant · cost 0

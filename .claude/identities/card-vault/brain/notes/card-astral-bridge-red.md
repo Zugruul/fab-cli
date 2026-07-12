@@ -1,5 +1,5 @@
 ---
-tags: [card, astral-bridge, astral, bridge, wizard, lightning, instant, starfall, pitch-1, cost-0]
+tags: [card, astral-bridge, astral, bridge, wizard, lightning, instant, starfall, pitch-1, cost-0, omn098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h6tW6K9N8LRqtbQrJLpgC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Starfall]
 unique-id: h6tW6K9N8LRqtbQrJLpgC
 sets: [OMN]
+codes: [OMN098]
 ---
 
 **Astral Bridge (red)** — Lightning Wizard Instant · cost 0

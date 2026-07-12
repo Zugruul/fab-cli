@@ -1,5 +1,5 @@
 ---
-tags: [card, zen-tamer-of-purpose, zen, tamer, purpose, ninja, mystic, hero, adult]
+tags: [card, zen-tamer-of-purpose, zen, tamer, purpose, ninja, mystic, hero, adult, her115, mst046, win035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GDbCgdDrFKCWWthrgD6h6) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Hero]
 unique-id: GDbCgdDrFKCWWthrgD6h6
 sets: [HER, MST, WIN]
+codes: [HER115, MST046, WIN035]
 ---
 
 **Zen, Tamer of Purpose** — Mystic Ninja Hero · 40 health · 4 int

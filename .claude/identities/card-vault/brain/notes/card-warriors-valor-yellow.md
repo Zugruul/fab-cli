@@ -1,5 +1,5 @@
 ---
-tags: [card, warriors-valor, warriors, valor, warrior, action, go-again, pitch-2, cost-1]
+tags: [card, warriors-valor, warriors, valor, warrior, action, go-again, pitch-2, cost-1, 1hp160, sdo024, tea018, tnp011, wtr130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g97rMMDfMbRgmgfjzgJnL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: g97rMMDfMbRgmgfjzgJnL
 sets: [1HP, SDO, TEA, TNP, WTR]
+codes: [1HP160, SDO024, TEA018, TNP011, WTR130]
 ---
 
 **Warrior's Valor (yellow)** — Warrior Action · cost 1 · 3 defense

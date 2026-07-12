@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-bond-belief, soul, bond, belief, light, action, attack, pitch-2, cost-0]
+tags: [card, soul-bond-belief, soul, bond, belief, light, action, attack, pitch-2, cost-0, pen187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K9HdghRPpD7mJzfBpmBMP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: K9HdghRPpD7mJzfBpmBMP
 sets: [PEN]
+codes: [PEN187]
 ---
 
 **Soul Bond Belief (yellow)** — Light Action - Attack · cost 0 · 2 power · 3 defense

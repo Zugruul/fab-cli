@@ -1,5 +1,5 @@
 ---
-tags: [card, snatch, generic, action, attack, pitch-2, cost-0]
+tags: [card, snatch, generic, action, attack, pitch-2, cost-0, 1hp372, wtr168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jBtfGzCwLCCTGrtzKPRJW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: jBtfGzCwLCCTGrtzKPRJW
 sets: [1HP, WTR]
+codes: [1HP372, WTR168]
 ---
 
 **Snatch (yellow)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

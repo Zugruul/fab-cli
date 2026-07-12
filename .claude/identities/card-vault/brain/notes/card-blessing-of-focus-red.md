@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-focus, blessing, focus, ranger, action, aura, opt-1, pitch-1, cost-1]
+tags: [card, blessing-of-focus, blessing, focus, ranger, action, aura, opt-1, pitch-1, cost-1, dyn159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JGzwzpcMFt7QHmwBrDHC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Opt 1]
 unique-id: 9JGzwzpcMFt7QHmwBrDHC
 sets: [DYN]
+codes: [DYN159]
 ---
 
 **Blessing of Focus (red)** — Ranger Action - Aura · cost 1 · 3 defense

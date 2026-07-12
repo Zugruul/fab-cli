@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-beta-base-legs, evo, beta, base, legs, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0]
+tags: [card, evo-beta-base-legs, evo, beta, base, legs, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0, pen071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GQDtpfrtDcDkPDFPwjRmf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Legs]
 keywords: [Transform, Battleworn]
 unique-id: GQDtpfrtDcDkPDFPwjRmf
 sets: [PEN]
+codes: [PEN071]
 ---
 
 **Evo Beta Base Legs (blue)** — Mechanologist Action Equipment - Evo Base Legs · cost 0 · 1 defense

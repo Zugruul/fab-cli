@@ -1,5 +1,5 @@
 ---
-tags: [card, singularity, mechanologist, action, construct, transform, legendary, teklovossen-specialization, pitch-1, cost-6]
+tags: [card, singularity, mechanologist, action, construct, transform, legendary, teklovossen-specialization, pitch-1, cost-6, evo010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 67zdgKFWD7qzcPppbRHNB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Transform, Legendary, Teklovossen Specialization]
 unique-id: 67zdgKFWD7qzcPppbRHNB
 sets: [EVO]
+codes: [EVO010]
 ---
 
 **Singularity (red)** — Mechanologist Action - Construct · cost 6 · 3 defense

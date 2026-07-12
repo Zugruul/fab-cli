@@ -1,5 +1,5 @@
 ---
-tags: [card, pack-call, pack, call, brute, action, attack, pitch-1, cost-3]
+tags: [card, pack-call, pack, call, brute, action, attack, pitch-1, cost-3, hvy020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MzqJQdLGgrHNQnLjMG99B) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: MzqJQdLGgrHNQnLjMG99B
 sets: [HVY]
+codes: [HVY020]
 ---
 
 **Pack Call (red)** — Brute Action - Attack · cost 3 · 7 power · 3 defense

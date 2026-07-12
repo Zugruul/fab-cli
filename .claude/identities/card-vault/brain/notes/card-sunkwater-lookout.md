@@ -1,5 +1,5 @@
 ---
-tags: [card, sunkwater-lookout, sunkwater, lookout, generic, equipment, head, blade-break]
+tags: [card, sunkwater-lookout, sunkwater, lookout, generic, equipment, head, blade-break, mpg114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DQLmKzJKKHKfFWBqQkgCT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: DQLmKzJKKHKfFWBqQkgCT
 sets: [MPG]
+codes: [MPG114]
 ---
 
 **Sunkwater Lookout** — Generic Equipment - Head · 0 defense

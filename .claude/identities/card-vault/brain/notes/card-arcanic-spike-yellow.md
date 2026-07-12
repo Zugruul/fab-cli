@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanic-spike, arcanic, spike, runeblade, action, attack, pitch-2, cost-2]
+tags: [card, arcanic-spike, arcanic, spike, runeblade, action, attack, pitch-2, cost-2, ros135]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T6w9bHBQFhbH9CbnqcTcz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: T6w9bHBQFhbH9CbnqcTcz
 sets: [ROS]
+codes: [ROS135]
 ---
 
 **Arcanic Spike (yellow)** — Runeblade Action - Attack · cost 2 · 4 power · 3 defense

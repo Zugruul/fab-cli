@@ -1,5 +1,5 @@
 ---
-tags: [card, boom-grenade, boom, grenade, mechanologist, action, item, crank, pitch-2, cost-0]
+tags: [card, boom-grenade, boom, grenade, mechanologist, action, item, crank, pitch-2, cost-0, aio020, evo085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCBGzFbQJnMCpTdwRWfK8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: bCBGzFbQJnMCpTdwRWfK8
 sets: [AIO, EVO]
+codes: [AIO020, EVO085]
 ---
 
 **Boom Grenade (yellow)** — Mechanologist Action - Item · cost 0

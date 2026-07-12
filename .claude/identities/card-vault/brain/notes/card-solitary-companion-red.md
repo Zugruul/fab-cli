@@ -1,5 +1,5 @@
 ---
-tags: [card, solitary-companion, solitary, companion, illusionist, action, aura, ward-3, pitch-1, cost-0]
+tags: [card, solitary-companion, solitary, companion, illusionist, action, aura, ward-3, pitch-1, cost-0, mst149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NwK66fmnJNBBbTBprQkFG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 3]
 unique-id: NwK66fmnJNBBbTBprQkFG
 sets: [MST]
+codes: [MST149]
 ---
 
 **Solitary Companion (red)** — Illusionist Action - Aura · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, crown-of-seeds, crown, seeds, earth, equipment, head]
+tags: [card, crown-of-seeds, crown, seeds, earth, equipment, head, ele115, fab052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lbp8pFhph9wMqMHDw8JWq) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: Lbp8pFhph9wMqMHDw8JWq
 sets: [ELE, FAB]
+codes: [ELE115, FAB052]
 ---
 
 **Crown of Seeds** — Earth Equipment - Head · 0 defense

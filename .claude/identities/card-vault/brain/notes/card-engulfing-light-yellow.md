@@ -1,5 +1,5 @@
 ---
-tags: [card, engulfing-light, engulfing, light, warrior, action, attack, charge, pitch-2, cost-0]
+tags: [card, engulfing-light, engulfing, light, warrior, action, attack, charge, pitch-2, cost-0, mon049, sbl027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tf7BQQcnH9LR6jFQTKJrC) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: tf7BQQcnH9LR6jFQTKJrC
 sets: [MON, SBL]
+codes: [MON049, SBL027]
 ---
 
 **Engulfing Light (yellow)** — Light Warrior Action - Attack · cost 0 · 2 power · 3 defense

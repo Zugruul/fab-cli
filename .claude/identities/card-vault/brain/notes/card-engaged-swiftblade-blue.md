@@ -1,5 +1,5 @@
 ---
-tags: [card, engaged-swiftblade, engaged, swiftblade, warrior, action, go-again, pitch-3, cost-1]
+tags: [card, engaged-swiftblade, engaged, swiftblade, warrior, action, go-again, pitch-3, cost-1, hvy129, ksi026, ola026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MDPTg8tjBW6CC9gFrGWFQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: MDPTg8tjBW6CC9gFrGWFQ
 sets: [HVY, KSI, OLA]
+codes: [HVY129, KSI026, OLA026]
 ---
 
 **Engaged Swiftblade (blue)** — Warrior Action · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, pulping, brute, action, attack, dominate, go-again, pitch-3, cost-2]
+tags: [card, pulping, brute, action, attack, dominate, go-again, pitch-3, cost-2, lgs053, mon225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qmgKfChbmD6w66dbDz7K6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 keywords: [Dominate, Go again]
 unique-id: qmgKfChbmD6w66dbDz7K6
 sets: [LGS, MON]
+codes: [LGS053, MON225]
 ---
 
 **Pulping (blue)** — Brute Action - Attack · cost 2 · 4 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, frontline-gauntlets, frontline, gauntlets, generic, equipment, arms, blade-break]
+tags: [card, frontline-gauntlets, frontline, gauntlets, generic, equipment, arms, blade-break, dtd224]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9WFrC8Knr9qdtRbfCWq8c) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: 9WFrC8Knr9qdtRbfCWq8c
 sets: [DTD]
+codes: [DTD224]
 ---
 
 **Frontline Gauntlets** — Generic Equipment - Arms · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, v-of-the-vanguard, vanguard, warrior, light, action, attack, boltyn-specialization, charge, pitch-2, cost-1]
+tags: [card, v-of-the-vanguard, vanguard, warrior, light, action, attack, boltyn-specialization, charge, pitch-2, cost-1, asb023, bol009, mon035, sbl030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bChp6GBR8QhHJLgpzKC6J) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Boltyn Specialization, Charge]
 unique-id: bChp6GBR8QhHJLgpzKC6J
 sets: [ASB, BOL, MON, SBL]
+codes: [ASB023, BOL009, MON035, SBL030]
 ---
 
 **V of the Vanguard (yellow)** — Light Warrior Action - Attack · cost 1 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, adaptive-alpha-mold, adaptive, alpha, mold, mechanologist, equipment, base, modular, battleworn]
+tags: [card, adaptive-alpha-mold, adaptive, alpha, mold, mechanologist, equipment, base, modular, battleworn, sup253]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wmr8NmHdQCmPCbMBPncTq) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base]
 keywords: [Modular, Battleworn]
 unique-id: Wmr8NmHdQCmPCbMBPncTq
 sets: [SUP]
+codes: [SUP253]
 ---
 
 **Adaptive Alpha Mold** — Mechanologist Equipment - Base · 1 defense

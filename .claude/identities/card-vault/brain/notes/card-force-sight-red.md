@@ -1,5 +1,5 @@
 ---
-tags: [card, force-sight, force, sight, generic, action, opt-2, go-again, pitch-1, cost-1]
+tags: [card, force-sight, force, sight, generic, action, opt-2, go-again, pitch-1, cost-1, arc206]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RN8gkCHTdn6DLWt7BzNfW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 2, Go again]
 unique-id: RN8gkCHTdn6DLWt7BzNfW
 sets: [ARC]
+codes: [ARC206]
 ---
 
 **Force Sight (red)** — Generic Action · cost 1 · 2 defense

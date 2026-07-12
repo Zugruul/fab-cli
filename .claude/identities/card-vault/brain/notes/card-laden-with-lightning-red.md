@@ -1,5 +1,5 @@
 ---
-tags: [card, laden-with-lightning, laden, lightning, elemental, action, lightning-bond, go-again, pitch-1, cost-1]
+tags: [card, laden-with-lightning, laden, lightning, elemental, action, lightning-bond, go-again, pitch-1, cost-1, pen212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kg8PPbzPQHbJBccCwwh6f) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Lightning Bond, Go again]
 unique-id: kg8PPbzPQHbJBccCwwh6f
 sets: [PEN]
+codes: [PEN212]
 ---
 
 **Laden with Lightning (red)** — Elemental Action · cost 1 · 2 defense

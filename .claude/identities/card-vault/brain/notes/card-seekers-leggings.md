@@ -1,5 +1,5 @@
 ---
-tags: [card, seekers-leggings, seekers, leggings, generic, equipment, legs]
+tags: [card, seekers-leggings, seekers, leggings, generic, equipment, legs, omn208, out178]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RpqBfPnFtnfqfGHkGNWqH) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: RpqBfPnFtnfqfGHkGNWqH
 sets: [OMN, OUT]
+codes: [OMN208, OUT178]
 ---
 
 **Seeker's Leggings** — Generic Equipment - Legs

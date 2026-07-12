@@ -1,5 +1,5 @@
 ---
-tags: [card, wrecker-romp, wrecker, romp, brute, action, attack, pitch-2, cost-2]
+tags: [card, wrecker-romp, wrecker, romp, brute, action, attack, pitch-2, cost-2, 1hp038, lgs021, wtr030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HhfPFLHfgBhNMMnMqNRf9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HhfPFLHfgBhNMMnMqNRf9
 sets: [1HP, LGS, WTR]
+codes: [1HP038, LGS021, WTR030]
 ---
 
 **Wrecker Romp (yellow)** — Brute Action - Attack · cost 2 · 7 power · 3 defense

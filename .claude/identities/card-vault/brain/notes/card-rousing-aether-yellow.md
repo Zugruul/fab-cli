@@ -1,5 +1,5 @@
 ---
-tags: [card, rousing-aether, rousing, aether, wizard, action, pitch-2, cost-2]
+tags: [card, rousing-aether, rousing, aether, wizard, action, pitch-2, cost-2, cru172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FcLnCMGp9RCkzjm8mRR9r) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: FcLnCMGp9RCkzjm8mRR9r
 sets: [CRU]
+codes: [CRU172]
 ---
 
 **Rousing Aether (yellow)** — Wizard Action · cost 2 · 3 defense

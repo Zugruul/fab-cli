@@ -1,5 +1,5 @@
 ---
-tags: [card, rift-skitter, rift, skitter, runeblade, shadow, action, attack, rune-gate, go-again, blood-debt, pitch-3, cost-3]
+tags: [card, rift-skitter, rift, skitter, runeblade, shadow, action, attack, rune-gate, go-again, blood-debt, pitch-3, cost-3, dtd154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LpKnp8tDfwH9cR7qLGjzc) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Go again, Blood Debt]
 unique-id: LpKnp8tDfwH9cR7qLGjzc
 sets: [DTD]
+codes: [DTD154]
 ---
 
 **Rift Skitter (blue)** — Shadow Runeblade Action - Attack · cost 3 · 2 power · 3 defense

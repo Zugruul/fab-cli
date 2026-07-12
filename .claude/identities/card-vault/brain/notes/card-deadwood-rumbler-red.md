@@ -1,5 +1,5 @@
 ---
-tags: [card, deadwood-rumbler, deadwood, rumbler, brute, shadow, action, attack, blood-debt, pitch-1, cost-3]
+tags: [card, deadwood-rumbler, deadwood, rumbler, brute, shadow, action, attack, blood-debt, pitch-1, cost-3, lev010, mon138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLgW7JWBFfhtLQddmChnh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: RLgW7JWBFfhtLQddmChnh
 sets: [LEV, MON]
+codes: [LEV010, MON138]
 ---
 
 **Deadwood Rumbler (red)** — Shadow Brute Action - Attack · cost 3 · 8 power

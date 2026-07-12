@@ -1,5 +1,5 @@
 ---
-tags: [card, primed-to-fight, primed, fight, guardian, action, attack, pitch-1, cost-5]
+tags: [card, primed-to-fight, primed, fight, guardian, action, attack, pitch-1, cost-5, hvy058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DTNR6KNnBDCBqkczc9PnT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DTNR6KNnBDCBqkczc9PnT
 sets: [HVY]
+codes: [HVY058]
 ---
 
 **Primed to Fight (red)** — Guardian Action - Attack · cost 5 · 9 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, metex, mechanologist, action, attack, boost, pitch-1, cost-1]
+tags: [card, metex, mechanologist, action, attack, boost, pitch-1, cost-1, evo201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FPCtrDJKLwTRHh7C6ckd6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: FPCtrDJKLwTRHh7C6ckd6
 sets: [EVO]
+codes: [EVO201]
 ---
 
 **MetEx (red)** — Mechanologist Action - Attack · cost 1 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-galcias-cradle, channel, galcias, cradle, ice, action, aura, freeze, channel-ice, pitch-3, cost-0]
+tags: [card, channel-galcias-cradle, channel, galcias, cradle, ice, action, aura, freeze, channel-ice, pitch-3, cost-0, pen230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqgk7BtqLmhWB7tCbPjKd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Freeze, Channel Ice]
 unique-id: wqgk7BtqLmhWB7tCbPjKd
 sets: [PEN]
+codes: [PEN230]
 ---
 
 **Channel Galcia's Cradle (blue)** — Ice Action - Aura · cost 0 · 2 defense

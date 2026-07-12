@@ -1,5 +1,5 @@
 ---
-tags: [card, surging-strike, surging, strike, ninja, action, attack, go-again, pitch-3, cost-2]
+tags: [card, surging-strike, surging, strike, ninja, action, attack, go-again, pitch-3, cost-2, 1hp127, kat024, out085, wtr109]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KtHkGCQfc6Td7Dg8htCcJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: KtHkGCQfc6Td7Dg8htCcJ
 sets: [1HP, KAT, OUT, WTR]
+codes: [1HP127, KAT024, OUT085, WTR109]
 ---
 
 **Surging Strike (blue)** — Ninja Action - Attack · cost 2 · 3 power · 2 defense

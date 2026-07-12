@@ -1,5 +1,5 @@
 ---
-tags: [card, never-give-up, never, give, up, block, revered, pitch-2]
+tags: [card, never-give-up, never, give, up, block, revered, pitch-2, aps015, sup026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid knzHtdhJNF9wrJgzWmwMW) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Block]
 other-types: [Revered]
 unique-id: knzHtdhJNF9wrJgzWmwMW
 sets: [APS, SUP]
+codes: [APS015, SUP026]
 ---
 
 **Never Give Up (yellow)** — Revered Block · 3 defense

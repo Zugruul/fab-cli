@@ -1,5 +1,5 @@
 ---
-tags: [card, rainbow-goo-trap, rainbow, goo, trap, ranger, defense-reaction, pitch-1, cost-0]
+tags: [card, rainbow-goo-trap, rainbow, goo, trap, ranger, defense-reaction, pitch-1, cost-0, gem122, pen085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jkdq8cLQJQjrgGcLmPzM6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: jkdq8cLQJQjrgGcLmPzM6
 sets: [GEM, PEN]
+codes: [GEM122, PEN085]
 ---
 
 **Rainbow Goo Trap (red)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

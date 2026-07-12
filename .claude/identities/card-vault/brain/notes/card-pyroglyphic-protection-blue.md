@@ -1,5 +1,5 @@
 ---
-tags: [card, pyroglyphic-protection, pyroglyphic, protection, wizard, action, aura, pitch-3, cost-2]
+tags: [card, pyroglyphic-protection, pyroglyphic, protection, wizard, action, aura, pitch-3, cost-2, evr133, siy030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PRh9NpRhN76FHztmTm7nt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: PRh9NpRhN76FHztmTm7nt
 sets: [EVR, SIY]
+codes: [EVR133, SIY030]
 ---
 
 **Pyroglyphic Protection (blue)** — Wizard Action - Aura · cost 2 · 2 defense

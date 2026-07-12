@@ -1,5 +1,5 @@
 ---
-tags: [card, tearing-shuko, tearing, shuko, ninja, equipment, arms, battleworn]
+tags: [card, tearing-shuko, tearing, shuko, ninja, equipment, arms, battleworn, dyn046, sfa008, tcc081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hwnbrjRKLGTmzF8wf6QDH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: hwnbrjRKLGTmzF8wf6QDH
 sets: [DYN, SFA, TCC]
+codes: [DYN046, SFA008, TCC081]
 ---
 
 **Tearing Shuko** — Ninja Equipment - Arms · 1 defense

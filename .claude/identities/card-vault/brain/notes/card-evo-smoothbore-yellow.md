@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-smoothbore, evo, smoothbore, mechanologist, action, equipment, arms, transform, blade-break, pitch-2, cost-3]
+tags: [card, evo-smoothbore, evo, smoothbore, mechanologist, action, equipment, arms, transform, blade-break, pitch-2, cost-3, evo036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mmMwHD8tLPdGBDtnCgWkR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Transform, Blade Break]
 unique-id: mmMwHD8tLPdGBDtnCgWkR
 sets: [EVO]
+codes: [EVO036]
 ---
 
 **Evo Smoothbore (yellow)** — Mechanologist Action Equipment - Evo Arms · cost 3 · 3 defense

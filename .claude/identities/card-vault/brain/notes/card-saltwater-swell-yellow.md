@@ -1,5 +1,5 @@
 ---
-tags: [card, saltwater-swell, saltwater, swell, pirate, action, attack, go-again, pitch-2, cost-1]
+tags: [card, saltwater-swell, saltwater, swell, pirate, action, attack, go-again, pitch-2, cost-1, sea142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rBz7GBhR7FPkbzKwRWmdp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: rBz7GBhR7FPkbzKwRWmdp
 sets: [SEA]
+codes: [SEA142]
 ---
 
 **Saltwater Swell (yellow)** — Pirate Action - Attack · cost 1 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blade-flurry, blade, flurry, warrior, attack-reaction, pitch-1, cost-0]
+tags: [card, blade-flurry, blade, flurry, warrior, attack-reaction, pitch-1, cost-0, hvy101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9Frf6rQGgmQ9bqWRDzzjM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: 9Frf6rQGgmQ9bqWRDzzjM
 sets: [HVY]
+codes: [HVY101]
 ---
 
 **Blade Flurry (red)** — Warrior Attack Reaction · cost 0 · 3 defense

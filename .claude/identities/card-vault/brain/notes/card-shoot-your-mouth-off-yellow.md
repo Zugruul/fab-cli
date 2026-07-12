@@ -1,5 +1,5 @@
 ---
-tags: [card, shoot-your-mouth-off, shoot, your, mouth, off, guardian, action, attack, pitch-2, cost-3]
+tags: [card, shoot-your-mouth-off, shoot, your, mouth, off, guardian, action, attack, pitch-2, cost-3, sup190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JhCTzpKz8JCrQGBLBMwnM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JhCTzpKz8JCrQGBLBMwnM
 sets: [SUP]
+codes: [SUP190]
 ---
 
 **Shoot Your Mouth Off (yellow)** — Guardian Action - Attack · cost 3 · 7 power · 2 defense

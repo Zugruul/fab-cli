@@ -1,5 +1,5 @@
 ---
-tags: [card, sap, wizard, action, surge, pitch-3, cost-0]
+tags: [card, sap, wizard, action, surge, pitch-3, cost-0, dyn208, fab117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pGWLw8bBqKqTQHnrhg6b6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: pGWLw8bBqKqTQHnrhg6b6
 sets: [DYN, FAB]
+codes: [DYN208, FAB117]
 ---
 
 **Sap (blue)** — Wizard Action · cost 0 · 3 defense

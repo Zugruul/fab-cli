@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-permafrost, sigil, permafrost, wizard, elemental, defense-reaction, ice-fusion, pitch-1, cost-1]
+tags: [card, sigil-of-permafrost, sigil, permafrost, wizard, elemental, defense-reaction, ice-fusion, pitch-1, cost-1, upr106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NHCQbrdqqK7FbcWgKnwWn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Defense Reaction]
 keywords: [Ice Fusion]
 unique-id: NHCQbrdqqK7FbcWgKnwWn
 sets: [UPR]
+codes: [UPR106]
 ---
 
 **Sigil of Permafrost (red)** — Elemental Wizard Defense Reaction · cost 1 · 4 defense

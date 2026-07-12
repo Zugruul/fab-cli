@@ -1,5 +1,5 @@
 ---
-tags: [card, tough-old-wrench, tough, old, wrench, mechanologist, action, attack, galvanize, pitch-3, cost-2]
+tags: [card, tough-old-wrench, tough, old, wrench, mechanologist, action, attack, galvanize, pitch-3, cost-2, sea035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zLMWLzKGcdNnndTcD89gT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Galvanize]
 unique-id: zLMWLzKGcdNnndTcD89gT
 sets: [SEA]
+codes: [SEA035]
 ---
 
 **Tough Old Wrench (blue)** — Mechanologist Action - Attack · cost 2 · 4 power · 2 defense

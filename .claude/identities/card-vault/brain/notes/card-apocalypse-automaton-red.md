@@ -1,5 +1,5 @@
 ---
-tags: [card, apocalypse-automaton, apocalypse, automaton, mechanologist, action, attack, evo-upgrade, pitch-1, cost-3]
+tags: [card, apocalypse-automaton, apocalypse, automaton, mechanologist, action, attack, evo-upgrade, pitch-1, cost-3, fab175, tcc011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mHnppNNqw9hMncFgCJdCB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: mHnppNNqw9hMncFgCJdCB
 sets: [FAB, TCC]
+codes: [FAB175, TCC011]
 ---
 
 **Apocalypse Automaton (red)** — Mechanologist Action - Attack · cost 3 · 6 power · 3 defense

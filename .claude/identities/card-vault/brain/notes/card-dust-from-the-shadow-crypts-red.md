@@ -1,5 +1,5 @@
 ---
-tags: [card, dust-from-the-shadow-crypts, dust, shadow, crypts, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0]
+tags: [card, dust-from-the-shadow-crypts, dust, shadow, crypts, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0, dyn004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zKQg9cTc7WMNdRbq6pwRk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ash]
 keywords: [Material, Phantasm]
 unique-id: zKQg9cTc7WMNdRbq6pwRk
 sets: [DYN]
+codes: [DYN004]
 ---
 
 **Dust from the Shadow Crypts (red)** — Draconic Illusionist Action - Ash · cost 0 · 3 defense

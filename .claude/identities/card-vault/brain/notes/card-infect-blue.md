@@ -1,5 +1,5 @@
 ---
-tags: [card, infect, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, infect, assassin, action, attack, stealth, pitch-3, cost-0, ara022, out026, uzu021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q8zWBnk8WGTkgwzHG8pcp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: Q8zWBnk8WGTkgwzHG8pcp
 sets: [ARA, OUT, UZU]
+codes: [ARA022, OUT026, UZU021]
 ---
 
 **Infect (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

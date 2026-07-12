@@ -1,5 +1,5 @@
 ---
-tags: [card, act-of-glory, act, glory, guardian, instant, aura, suspense, pitch-2, cost-4]
+tags: [card, act-of-glory, act, glory, guardian, instant, aura, suspense, pitch-2, cost-4, sup196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c7L7tfCdjwwjb9MQfTNDQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: c7L7tfCdjwwjb9MQfTNDQ
 sets: [SUP]
+codes: [SUP196]
 ---
 
 **Act of Glory (yellow)** — Guardian Instant - Aura · cost 4 · 3 defense

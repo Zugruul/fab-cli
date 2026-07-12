@@ -1,5 +1,5 @@
 ---
-tags: [card, voltbound-duality, voltbound, duality, runeblade, lightning, action, attack, pitch-1, cost-0]
+tags: [card, voltbound-duality, voltbound, duality, runeblade, lightning, action, attack, pitch-1, cost-0, fab466, omn077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ChgnM7DhdJNqhDRww6Qbz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: ChgnM7DhdJNqhDRww6Qbz
 sets: [FAB, OMN]
+codes: [FAB466, OMN077]
 ---
 
 **Voltbound Duality (red)** — Lightning Runeblade Action - Attack · cost 0 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, war-cry-of-bellona, war, cry, bellona, warrior, light, attack-reaction, pitch-2, cost-0]
+tags: [card, war-cry-of-bellona, war, cry, bellona, warrior, light, attack-reaction, pitch-2, cost-0, hnt258]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FCbzNdDDP9jrLfWCBPPdr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Light]
 types: [Attack Reaction]
 unique-id: FCbzNdDDP9jrLfWCBPPdr
 sets: [HNT]
+codes: [HNT258]
 ---
 
 **War Cry of Bellona (yellow)** — Light Warrior Attack Reaction · cost 0 · 3 defense

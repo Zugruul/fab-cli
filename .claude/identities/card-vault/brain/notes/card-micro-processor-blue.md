@@ -1,5 +1,5 @@
 ---
-tags: [card, micro-processor, micro, processor, mechanologist, action, item, data-doll-specialization, pitch-3, cost-2]
+tags: [card, micro-processor, micro, processor, mechanologist, action, item, data-doll-specialization, pitch-3, cost-2, evr070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r8fjLMCFnQhFrRjwpMTgK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Data Doll Specialization]
 unique-id: r8fjLMCFnQhFrRjwpMTgK
 sets: [EVR]
+codes: [EVR070]
 ---
 
 **Micro-processor (blue)** — Mechanologist Action - Item · cost 2

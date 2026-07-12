@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-the-bleak-expanse, channel, bleak, expanse, ice, action, aura, go-again, channel-ice, pitch-3, cost-1]
+tags: [card, channel-the-bleak-expanse, channel, bleak, expanse, ice, action, aura, go-again, channel-ice, pitch-3, cost-1, upr138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GNKLdtBGNh9BrPr9dTm69) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Ice]
 unique-id: GNKLdtBGNh9BrPr9dTm69
 sets: [UPR]
+codes: [UPR138]
 ---
 
 **Channel the Bleak Expanse (blue)** — Ice Action - Aura · cost 1 · 2 defense

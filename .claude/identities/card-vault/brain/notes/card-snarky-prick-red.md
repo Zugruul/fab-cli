@@ -1,5 +1,5 @@
 ---
-tags: [card, snarky-prick, snarky, prick, action, attack, reviled, pitch-1, cost-0]
+tags: [card, snarky-prick, snarky, prick, action, attack, reviled, pitch-1, cost-0, gem139, pen302]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rLCRmrjNR6HMnG8pFkNCB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: rLCRmrjNR6HMnG8pFkNCB
 sets: [GEM, PEN]
+codes: [GEM139, PEN302]
 ---
 
 **Snarky Prick (red)** — Reviled Action - Attack · cost 0 · 1 power · 3 defense

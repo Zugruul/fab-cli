@@ -1,5 +1,5 @@
 ---
-tags: [card, primeval-bellow, primeval, bellow, brute, action, go-again, pitch-1, cost-0]
+tags: [card, primeval-bellow, primeval, bellow, brute, action, go-again, pitch-1, cost-0, 1hp040, wtr035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HFHk96nMLCb7djccbnWpR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: HFHk96nMLCb7djccbnWpR
 sets: [1HP, WTR]
+codes: [1HP040, WTR035]
 ---
 
 **Primeval Bellow (red)** — Brute Action · cost 0 · 3 defense

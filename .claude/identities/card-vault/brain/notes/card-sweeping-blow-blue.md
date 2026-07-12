@@ -1,5 +1,5 @@
 ---
-tags: [card, sweeping-blow, sweeping, blow, illusionist, draconic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, sweeping-blow, sweeping, blow, illusionist, draconic, action, attack, go-again, pitch-3, cost-1, dro018, upr032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NgdLmcdGCGFwQG98dqGwB) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: NgdLmcdGCGFwQG98dqGwB
 sets: [DRO, UPR]
+codes: [DRO018, UPR032]
 ---
 
 **Sweeping Blow (blue)** — Draconic Illusionist Action - Attack · cost 1 · 1 power · 3 defense

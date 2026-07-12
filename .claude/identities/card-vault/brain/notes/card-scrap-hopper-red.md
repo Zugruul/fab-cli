@@ -1,5 +1,5 @@
 ---
-tags: [card, scrap-hopper, scrap, hopper, mechanologist, action, attack, pitch-1, cost-0]
+tags: [card, scrap-hopper, scrap, hopper, mechanologist, action, attack, pitch-1, cost-0, evo108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tJDKNg7fm6FHNcCtjznN8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap]
 unique-id: tJDKNg7fm6FHNcCtjznN8
 sets: [EVO]
+codes: [EVO108]
 ---
 
 **Scrap Hopper (red)** — Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

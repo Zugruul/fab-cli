@@ -1,5 +1,5 @@
 ---
-tags: [card, log-fall, log, fall, guardian, elemental, action, attack, earth-bond, overpower, pitch-1, cost-3]
+tags: [card, log-fall, log, fall, guardian, elemental, action, attack, earth-bond, overpower, pitch-1, cost-3, ter011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tBBCd9hNgWjQkTGDj7dPq) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Bond, Overpower]
 unique-id: tBBCd9hNgWjQkTGDj7dPq
 sets: [TER]
+codes: [TER011]
 ---
 
 **Log Fall (red)** — Elemental Guardian Action - Attack · cost 3 · 5 power · 3 defense

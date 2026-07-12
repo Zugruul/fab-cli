@@ -1,5 +1,5 @@
 ---
-tags: [card, bare-fangs, bare, fangs, brute, action, attack, pitch-2, cost-2]
+tags: [card, bare-fangs, bare, fangs, brute, action, attack, pitch-2, cost-2, ako016, evr009, hvy030, kyo017, ska021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zznJbCwttpMHdRkQHccHp) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: zznJbCwttpMHdRkQHccHp
 sets: [AKO, EVR, HVY, KYO, SKA]
+codes: [AKO016, EVR009, HVY030, KYO017, SKA021]
 ---
 
 **Bare Fangs (yellow)** — Brute Action - Attack · cost 2 · 5 power

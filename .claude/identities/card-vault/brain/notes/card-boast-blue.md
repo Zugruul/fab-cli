@@ -1,5 +1,5 @@
 ---
-tags: [card, boast, guardian, block, pitch-3]
+tags: [card, boast, guardian, block, pitch-3, fab189, hvy060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LmKFmh8JznLWB8mTjmRcC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Block]
 unique-id: LmKFmh8JznLWB8mTjmRcC
 sets: [FAB, HVY]
+codes: [FAB189, HVY060]
 ---
 
 **Boast (blue)** — Guardian Block · 3 defense

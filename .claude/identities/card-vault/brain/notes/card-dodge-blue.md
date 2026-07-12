@@ -1,5 +1,5 @@
 ---
-tags: [card, dodge, generic, defense-reaction, pitch-3, cost-0]
+tags: [card, dodge, generic, defense-reaction, pitch-3, cost-0, rvd026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bzkCGg6kcffpBcBhgHrkH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: bzkCGg6kcffpBcBhgHrkH
 sets: [RVD]
+codes: [RVD026]
 ---
 
 **Dodge (blue)** — Generic Defense Reaction · cost 0 · 2 defense

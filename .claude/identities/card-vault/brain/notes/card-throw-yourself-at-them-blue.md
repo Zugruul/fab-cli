@@ -1,5 +1,5 @@
 ---
-tags: [card, throw-yourself-at-them, throw, yourself, them, assassin, ninja, action, attack, go-again, pitch-3, cost-1]
+tags: [card, throw-yourself-at-them, throw, yourself, them, assassin, ninja, action, attack, go-again, pitch-3, cost-1, hnt190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NKpphfCpKhWhntbBzBghc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: NKpphfCpKhWhntbBzBghc
 sets: [HNT]
+codes: [HNT190]
 ---
 
 **Throw Yourself at Them (blue)** — Assassin / Ninja Action - Attack · cost 1 · 1 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sun-kiss, sun, kiss, generic, action, go-again, pitch-3, cost-0]
+tags: [card, sun-kiss, sun, kiss, generic, action, go-again, pitch-3, cost-0, arc214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcCgrhCWrcPC9RGFqMqm9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rcCgrhCWrcPC9RGFqMqm9
 sets: [ARC]
+codes: [ARC214]
 ---
 
 **Sun Kiss (blue)** — Generic Action · cost 0 · 2 defense

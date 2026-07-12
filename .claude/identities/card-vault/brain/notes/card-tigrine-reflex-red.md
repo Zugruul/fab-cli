@@ -1,5 +1,5 @@
 ---
-tags: [card, tigrine-reflex, tigrine, reflex, ninja, action, attack, combo, go-again, pitch-1, cost-0]
+tags: [card, tigrine-reflex, tigrine, reflex, ninja, action, attack, combo, go-again, pitch-1, cost-0, pen035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DmG6qBFhfRpqfBGbC8dnG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: DmG6qBFhfRpqfBGbC8dnG
 sets: [PEN]
+codes: [PEN035]
 ---
 
 **Tigrine Reflex (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

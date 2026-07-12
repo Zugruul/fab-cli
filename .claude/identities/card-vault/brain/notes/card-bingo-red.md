@@ -1,5 +1,5 @@
 ---
-tags: [card, bingo, generic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, bingo, generic, action, attack, go-again, pitch-1, cost-1, evr156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qHRGLQzBMMQ8hcqPJdM9W) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: qHRGLQzBMMQ8hcqPJdM9W
 sets: [EVR]
+codes: [EVR156]
 ---
 
 **Bingo (red)** — Generic Action - Attack · cost 1 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, bastion-of-unity, bastion, unity, warrior, equipment, off-hand, temper]
+tags: [card, bastion-of-unity, bastion, unity, warrior, equipment, off-hand, temper, dtd206]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QKgbfzgpnzfq7HKgWTzRg) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Unity, Temper]
 unique-id: QKgbfzgpnzfq7HKgWTzRg
 sets: [DTD]
+codes: [DTD206]
 ---
 
 **Bastion of Unity** — Warrior Equipment - Off-hand · 1 defense

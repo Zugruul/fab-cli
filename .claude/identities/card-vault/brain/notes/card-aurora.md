@@ -1,5 +1,5 @@
 ---
-tags: [card, aurora, runeblade, elemental, hero, young, essence-of-lightning]
+tags: [card, aurora, runeblade, elemental, hero, young, essence-of-lightning, aua001, aur001, ros008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TDrmKkRWGKWnqfQkT9QML) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Lightning]
 unique-id: TDrmKkRWGKWnqfQkT9QML
 sets: [AUA, AUR, ROS]
+codes: [AUA001, AUR001, ROS008]
 ---
 
 **Aurora** — Elemental Runeblade Hero - Young · 20 health · 4 int

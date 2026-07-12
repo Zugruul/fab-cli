@@ -1,5 +1,5 @@
 ---
-tags: [card, phoenix-bannerman-head, phoenix, bannerman, head, draconic, action, legendary, go-again, pitch-1, cost-0]
+tags: [card, phoenix-bannerman-head, phoenix, bannerman, head, draconic, action, legendary, go-again, pitch-1, cost-0, pen257]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tFPLw7nPCjf7rqbGhCBTr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Legendary, Go again]
 unique-id: tFPLw7nPCjf7rqbGhCBTr
 sets: [PEN]
+codes: [PEN257]
 ---
 
 **Phoenix Bannerman: Head (red)** — Draconic Action · cost 0 · 3 defense

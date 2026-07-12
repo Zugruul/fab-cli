@@ -1,5 +1,5 @@
 ---
-tags: [card, sonic-boom, sonic, boom, wizard, action, pitch-2, cost-2]
+tags: [card, sonic-boom, sonic, boom, wizard, action, pitch-2, cost-2, 1hp312, arc119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fbm7LndJccMBQqdCWQmd6) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: fbm7LndJccMBQqdCWQmd6
 sets: [1HP, ARC]
+codes: [1HP312, ARC119]
 ---
 
 **Sonic Boom (yellow)** — Wizard Action · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ouvia, illusionist, draconic, dragon, ally, transform]
+tags: [card, ouvia, illusionist, draconic, dragon, ally, transform, upr014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dR8hjTth9bHpdLfTBPLNM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ other-types: [Dragon, Ally]
 keywords: [Transform]
 unique-id: dR8hjTth9bHpdLfTBPLNM
 sets: [UPR]
+codes: [UPR014]
 ---
 
 **Ouvia** — Draconic Illusionist - Dragon Ally · 1 power · 6 health

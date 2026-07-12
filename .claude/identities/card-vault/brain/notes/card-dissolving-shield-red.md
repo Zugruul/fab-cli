@@ -1,5 +1,5 @@
 ---
-tags: [card, dissolving-shield, dissolving, shield, mechanologist, action, item, crank, pitch-1, cost-0]
+tags: [card, dissolving-shield, dissolving, shield, mechanologist, action, item, crank, pitch-1, cost-0, aio017, evo087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BkCG6nzTtpmBmKCfkPrM6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: BkCG6nzTtpmBmKCfkPrM6
 sets: [AIO, EVO]
+codes: [AIO017, EVO087]
 ---
 
 **Dissolving Shield (red)** — Mechanologist Action - Item · cost 0

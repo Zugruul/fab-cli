@@ -1,5 +1,5 @@
 ---
-tags: [card, pulse-of-volthaven, pulse, volthaven, lightning, ice, instant, legendary, pitch-1, cost-0]
+tags: [card, pulse-of-volthaven, pulse, volthaven, lightning, ice, instant, legendary, pitch-1, cost-0, ele112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k6WKFM77fCwDqKTTBBDmK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary]
 unique-id: k6WKFM77fCwDqKTTBBDmK
 sets: [ELE]
+codes: [ELE112]
 ---
 
 **Pulse of Volthaven (red)** — Lightning Ice Instant · cost 0

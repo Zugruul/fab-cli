@@ -1,5 +1,5 @@
 ---
-tags: [card, static-shelter, static, shelter, lightning, defense-reaction, pitch-2, cost-0]
+tags: [card, static-shelter, static, shelter, lightning, defense-reaction, pitch-2, cost-0, omn147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BwLkmCpwbHmgKTDdHThfG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Lightning]
 types: [Defense Reaction]
 unique-id: BwLkmCpwbHmgKTDdHThfG
 sets: [OMN]
+codes: [OMN147]
 ---
 
 **Static Shelter (yellow)** — Lightning Defense Reaction · cost 0 · 3 defense

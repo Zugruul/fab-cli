@@ -1,5 +1,5 @@
 ---
-tags: [card, desires-of-flesh, desires, flesh, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, desires-of-flesh, desires, flesh, assassin, action, attack, stealth, pitch-3, cost-0, mst120, nuu019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pCbzCcWBdprHzJk68tGWB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: pCbzCcWBdprHzJk68tGWB
 sets: [MST, NUU]
+codes: [MST120, NUU019]
 ---
 
 **Desires of Flesh (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

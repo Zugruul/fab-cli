@@ -1,5 +1,5 @@
 ---
-tags: [card, gloves-of-astral-sanctuary, gloves, astral, sanctuary, generic, equipment, arms]
+tags: [card, gloves-of-astral-sanctuary, gloves, astral, sanctuary, generic, equipment, arms, lgs454, omn211]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BMkwBQtHCCnhhwjTCbLGR) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: BMkwBQtHCCnhhwjTCbLGR
 sets: [LGS, OMN]
+codes: [LGS454, OMN211]
 ---
 
 **Gloves of Astral Sanctuary** — Generic Equipment - Arms · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, robe-of-resourcefulness, robe, resourcefulness, wizard, equipment, chest, blade-break]
+tags: [card, robe-of-resourcefulness, robe, resourcefulness, wizard, equipment, chest, blade-break, pen108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tPk9crbnHLtHTFPgJRWHC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: tPk9crbnHLtHTFPgJRWHC
 sets: [PEN]
+codes: [PEN108]
 ---
 
 **Robe of Resourcefulness** — Wizard Equipment - Chest · 0 defense

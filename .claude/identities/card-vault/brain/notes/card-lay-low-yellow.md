@@ -1,5 +1,5 @@
 ---
-tags: [card, lay-low, lay, low, generic, defense-reaction, pitch-2, cost-0]
+tags: [card, lay-low, lay, low, generic, defense-reaction, pitch-2, cost-0, hnt236]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fnrjjBNqBwWQb7PhMtmzC) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: fnrjjBNqBwWQb7PhMtmzC
 sets: [HNT]
+codes: [HNT236]
 ---
 
 **Lay Low (yellow)** — Generic Defense Reaction · cost 0 · 3 defense

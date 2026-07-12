@@ -1,5 +1,5 @@
 ---
-tags: [card, bad-beats, bad, beats, brute, action, go-again, pitch-3, cost-0]
+tags: [card, bad-beats, bad, beats, brute, action, go-again, pitch-3, cost-0, evr016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B7rWtLgFHDgNJ6LJmCqJc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: B7rWtLgFHDgNJ6LJmCqJc
 sets: [EVR]
+codes: [EVR016]
 ---
 
 **Bad Beats (blue)** — Brute Action · cost 0 · 3 defense

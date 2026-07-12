@@ -1,5 +1,5 @@
 ---
-tags: [card, fight-fair, fight, fair, action, attack, revered, pitch-1, cost-2]
+tags: [card, fight-fair, fight, fair, action, attack, revered, pitch-1, cost-2, sup033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7ckBwwLJzbdbMHW7kWnNw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: 7ckBwwLJzbdbMHW7kWnNw
 sets: [SUP]
+codes: [SUP033]
 ---
 
 **Fight Fair (red)** — Revered Action - Attack · cost 2 · 6 power · 2 defense

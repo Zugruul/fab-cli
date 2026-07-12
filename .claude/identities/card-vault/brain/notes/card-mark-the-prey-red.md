@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-the-prey, mark, prey, assassin, action, attack, stealth, pitch-1, cost-0]
+tags: [card, mark-the-prey, mark, prey, assassin, action, attack, stealth, pitch-1, cost-0, gem023, hnt038, sar016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qDPLzntJrMhgwd86gTN97) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Mark]
 unique-id: qDPLzntJrMhgwd86gTN97
 sets: [GEM, HNT, SAR]
+codes: [GEM023, HNT038, SAR016]
 ---
 
 **Mark the Prey (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

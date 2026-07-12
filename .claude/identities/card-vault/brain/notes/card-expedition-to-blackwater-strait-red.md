@@ -1,5 +1,5 @@
 ---
-tags: [card, expedition-to-blackwater-strait, expedition, blackwater, strait, pirate, action, attack, pitch-1, cost-1]
+tags: [card, expedition-to-blackwater-strait, expedition, blackwater, strait, pirate, action, attack, pitch-1, cost-1, sea156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qpnnMW6TWQPQqMLqrbD8d) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: qpnnMW6TWQPQqMLqrbD8d
 sets: [SEA]
+codes: [SEA156]
 ---
 
 **Expedition to Blackwater Strait (red)** — Pirate Action - Attack · cost 1 · 5 power · 2 defense

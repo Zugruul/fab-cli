@@ -1,5 +1,5 @@
 ---
-tags: [card, crankshaft, mechanologist, action, attack, boost, pitch-1, cost-2]
+tags: [card, crankshaft, mechanologist, action, attack, boost, pitch-1, cost-2, amx007, dyn101, evo174, sda012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDnfHcMqHHBkwtWpgbMPF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: HDnfHcMqHHBkwtWpgbMPF
 sets: [AMX, DYN, EVO, SDA]
+codes: [AMX007, DYN101, EVO174, SDA012]
 ---
 
 **Crankshaft (red)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

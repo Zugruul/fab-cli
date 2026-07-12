@@ -1,5 +1,5 @@
 ---
-tags: [card, thick-hide-hunter, thick, hide, hunter, brute, action, attack, pitch-2, cost-2]
+tags: [card, thick-hide-hunter, thick, hide, hunter, brute, action, attack, pitch-2, cost-2, hnt246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QDH7qtJbC6HLbqnGzDBkR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: QDH7qtJbC6HLbqnGzDBkR
 sets: [HNT]
+codes: [HNT246]
 ---
 
 **Thick Hide Hunter (yellow)** — Brute Action - Attack · cost 2 · 6 power · 6 defense

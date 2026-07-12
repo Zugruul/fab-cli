@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-splattered-vest, blood, splattered, vest, assassin, ninja, equipment, chest, blade-break]
+tags: [card, blood-splattered-vest, blood, splattered, vest, assassin, ninja, equipment, chest, blade-break, fab293, hnt168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P8RBh6qWkwRjcJQMWKNQG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: P8RBh6qWkwRjcJQMWKNQG
 sets: [FAB, HNT]
+codes: [FAB293, HNT168]
 ---
 
 **Blood Splattered Vest** — Assassin / Ninja Equipment - Chest · 1 defense

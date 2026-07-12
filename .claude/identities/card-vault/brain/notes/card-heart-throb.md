@@ -1,5 +1,5 @@
 ---
-tags: [card, heart-throb, heart, throb, bard, equipment, chest]
+tags: [card, heart-throb, heart, throb, bard, equipment, chest, lgs214, tcc052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h7NLHrBf7dNmKLN8zqRLn) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: h7NLHrBf7dNmKLN8zqRLn
 sets: [LGS, TCC]
+codes: [LGS214, TCC052]
 ---
 
 **Heart-throb** — Bard Equipment - Chest · 0 defense

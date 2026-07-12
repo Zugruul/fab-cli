@@ -1,5 +1,5 @@
 ---
-tags: [card, shiver, ranger, elemental, weapon, bow, 2h, dominate]
+tags: [card, shiver, ranger, elemental, weapon, bow, 2h, dominate, ele033, lgs067, lxi002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8GDdMNbcnhmwGmTgqnJJK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Bow, 2H]
 keywords: [Dominate]
 unique-id: 8GDdMNbcnhmwGmTgqnJJK
 sets: [ELE, LGS, LXI]
+codes: [ELE033, LGS067, LXI002]
 ---
 
 **Shiver** — Elemental Ranger Weapon - Bow (2H)

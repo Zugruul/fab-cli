@@ -1,5 +1,5 @@
 ---
-tags: [card, tiger-eye-reflex, tiger, eye, reflex, ninja, block, ambush, pitch-2]
+tags: [card, tiger-eye-reflex, tiger, eye, reflex, ninja, block, ambush, pitch-2, tcc098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gftbNkkj9bNCBFRpnbdtq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Ambush]
 unique-id: gftbNkkj9bNCBFRpnbdtq
 sets: [TCC]
+codes: [TCC098]
 ---
 
 **Tiger Eye Reflex (yellow)** — Ninja Block · 3 defense

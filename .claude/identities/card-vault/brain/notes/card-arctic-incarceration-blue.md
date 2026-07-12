@@ -1,5 +1,5 @@
 ---
-tags: [card, arctic-incarceration, arctic, incarceration, ice, action, pitch-3, cost-0]
+tags: [card, arctic-incarceration, arctic, incarceration, ice, action, pitch-3, cost-0, upr146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fq8bJCMprNbTn6rKbchgB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Ice]
 types: [Action]
 unique-id: Fq8bJCMprNbTn6rKbchgB
 sets: [UPR]
+codes: [UPR146]
 ---
 
 **Arctic Incarceration (blue)** — Ice Action · cost 0 · 2 defense

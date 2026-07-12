@@ -1,5 +1,5 @@
 ---
-tags: [card, overcrowded, generic, action, attack, ambush, pitch-3, cost-0]
+tags: [card, overcrowded, generic, action, attack, ambush, pitch-3, cost-0, lgs426, sup216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9zW8NL8CktpnMwmD7dWrh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Ambush]
 unique-id: 9zW8NL8CktpnMwmD7dWrh
 sets: [LGS, SUP]
+codes: [LGS426, SUP216]
 ---
 
 **Overcrowded (blue)** — Generic Action - Attack · cost 0 · 1 power · 2 defense

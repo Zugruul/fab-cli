@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-unity, helm, unity, warrior, equipment, head, temper]
+tags: [card, helm-of-unity, helm, unity, warrior, equipment, head, temper, pen044, sbl004, sdo003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pwMHKpWQbDFMbH8pm77qd) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Unity, Temper]
 unique-id: pwMHKpWQbDFMbH8pm77qd
 sets: [PEN, SBL, SDO]
+codes: [PEN044, SBL004, SDO003]
 ---
 
 **Helm of Unity** — Warrior Equipment - Head · 1 defense

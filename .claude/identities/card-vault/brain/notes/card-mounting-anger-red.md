@@ -1,5 +1,5 @@
 ---
-tags: [card, mounting-anger, mounting, anger, ninja, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, mounting-anger, mounting, anger, ninja, draconic, action, attack, go-again, pitch-1, cost-1, sfa020, upr054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zm8RTpG8Jw7T8PznjNrdn) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: zm8RTpG8Jw7T8PznjNrdn
 sets: [SFA, UPR]
+codes: [SFA020, UPR054]
 ---
 
 **Mounting Anger (red)** — Draconic Ninja Action - Attack · cost 1 · 4 power · 2 defense

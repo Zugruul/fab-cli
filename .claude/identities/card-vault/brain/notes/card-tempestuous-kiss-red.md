@@ -1,5 +1,5 @@
 ---
-tags: [card, tempestuous-kiss, tempestuous, kiss, runeblade, lightning, action, attack, quickstrike, pitch-1, cost-2]
+tags: [card, tempestuous-kiss, tempestuous, kiss, runeblade, lightning, action, attack, quickstrike, pitch-1, cost-2, omn051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJkKN8JqCpJTtG9TPHM7n) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Quickstrike]
 unique-id: dJkKN8JqCpJTtG9TPHM7n
 sets: [OMN]
+codes: [OMN051]
 ---
 
 **Tempestuous Kiss (red)** — Lightning Runeblade Action - Attack · cost 2 · 5 power · 3 defense

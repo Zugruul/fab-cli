@@ -1,5 +1,5 @@
 ---
-tags: [card, outed, generic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, outed, generic, action, attack, go-again, pitch-1, cost-0, hnt235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jhHRPW9NgMWC66TRC9G8d) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: jhHRPW9NgMWC66TRC9G8d
 sets: [HNT]
+codes: [HNT235]
 ---
 
 **Outed (red)** — Generic Action - Attack · cost 0 · 3 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, flash-bolt, flash, bolt, wizard, lightning, instant, pitch-3, cost-2]
+tags: [card, flash-bolt, flash, bolt, wizard, lightning, instant, pitch-3, cost-2, omn108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PhD7nmCtwWrmPpQ7NG8tz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: PhD7nmCtwWrmPpQ7NG8tz
 sets: [OMN]
+codes: [OMN108]
 ---
 
 **Flash Bolt (blue)** — Lightning Wizard Instant · cost 2

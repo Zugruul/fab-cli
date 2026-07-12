@@ -1,5 +1,5 @@
 ---
-tags: [card, bastion-of-duty, bastion, duty, guardian, equipment, off-hand, protect, temper]
+tags: [card, bastion-of-duty, bastion, duty, guardian, equipment, off-hand, protect, temper, lgs206, tcc029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8QrLPLnBTwCjng6NzNtgp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Protect, Temper]
 unique-id: 8QrLPLnBTwCjng6NzNtgp
 sets: [LGS, TCC]
+codes: [LGS206, TCC029]
 ---
 
 **Bastion of Duty** — Guardian Equipment - Off-Hand · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, kayo-berserker-runt, kayo, berserker, runt, brute, hero, young]
+tags: [card, kayo-berserker-runt, kayo, berserker, runt, brute, hero, young, 1hp003, cru002, her025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NcQMQ79gb9P7CTMfWfBz8) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Brute]
 types: [Hero]
 unique-id: NcQMQ79gb9P7CTMfWfBz8
 sets: [1HP, CRU, HER]
+codes: [1HP003, CRU002, HER025]
 ---
 
 **Kayo, Berserker Runt** — Brute Hero - Young · 19 health · 4 int

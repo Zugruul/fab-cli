@@ -1,5 +1,5 @@
 ---
-tags: [card, harness-lightning, harness, lightning, runeblade, elemental, action, lightning-flow, pitch-2, cost-0]
+tags: [card, harness-lightning, harness, lightning, runeblade, elemental, action, lightning-flow, pitch-2, cost-0, aur020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FrLnt7LBFzJbWTFFWhWQj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Lightning Flow]
 unique-id: FrLnt7LBFzJbWTFFWhWQj
 sets: [AUR]
+codes: [AUR020]
 ---
 
 **Harness Lightning (yellow)** — Elemental Runeblade Action · cost 0 · 2 defense

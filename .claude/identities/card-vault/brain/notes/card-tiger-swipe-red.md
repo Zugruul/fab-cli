@@ -1,5 +1,5 @@
 ---
-tags: [card, tiger-swipe, tiger, swipe, ninja, action, attack, combo, go-again, pitch-1, cost-0]
+tags: [card, tiger-swipe, tiger, swipe, ninja, action, attack, combo, go-again, pitch-1, cost-0, dyn047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mFNK7nKtRMLWdHJzrngNb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: mFNK7nKtRMLWdHJzrngNb
 sets: [DYN]
+codes: [DYN047]
 ---
 
 **Tiger Swipe (red)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

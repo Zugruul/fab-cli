@@ -1,5 +1,5 @@
 ---
-tags: [card, blossoming-spellblade, blossoming, spellblade, runeblade, elemental, action, attack, earth-and-lightning-fusion, pitch-1, cost-2]
+tags: [card, blossoming-spellblade, blossoming, spellblade, runeblade, elemental, action, attack, earth-and-lightning-fusion, pitch-1, cost-2, ele064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDWpQJCqCqHJM6WbhD7GN) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth and Lightning Fusion]
 unique-id: nDWpQJCqCqHJM6WbhD7GN
 sets: [ELE]
+codes: [ELE064]
 ---
 
 **Blossoming Spellblade (red)** — Elemental Runeblade Action - Attack · cost 2 · 6 power · 3 defense

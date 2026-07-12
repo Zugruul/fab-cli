@@ -1,5 +1,5 @@
 ---
-tags: [card, burly-bones, burly, bones, pirate, necromancer, action, attack, overpower, pitch-3, cost-2]
+tags: [card, burly-bones, burly, bones, pirate, necromancer, action, attack, overpower, pitch-3, cost-2, sea067]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hCT6MJC6bWrdHTmCjJfF6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: hCT6MJC6bWrdHTmCjJfF6
 sets: [SEA]
+codes: [SEA067]
 ---
 
 **Burly Bones (blue)** — Pirate Necromancer Action - Attack · cost 2 · 4 power · 3 defense

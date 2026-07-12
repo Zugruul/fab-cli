@@ -1,5 +1,5 @@
 ---
-tags: [card, cartilage-crush, cartilage, crush, guardian, action, attack, pitch-3, cost-3]
+tags: [card, cartilage-crush, cartilage, crush, guardian, action, attack, pitch-3, cost-3, 1hp069, bvo017, mpg057, wtr062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tcjTRLGRtwRW7Khb6HfKB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: tcjTRLGRtwRW7Khb6HfKB
 sets: [1HP, BVO, MPG, WTR]
+codes: [1HP069, BVO017, MPG057, WTR062]
 ---
 
 **Cartilage Crush (blue)** — Guardian Action - Attack · cost 3 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hurl, assassin, ninja, action, attack, go-again, pitch-3, cost-0]
+tags: [card, hurl, assassin, ninja, action, attack, go-again, pitch-3, cost-0, out150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KJT8g9znGjfbKW9BhHrNc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: KJT8g9znGjfbKW9BhHrNc
 sets: [OUT]
+codes: [OUT150]
 ---
 
 **Hurl (blue)** — Assassin / Ninja Action - Attack · cost 0 · 1 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-the-small-talk, cut, small, talk, guardian, action, attack, tower, pitch-2, cost-0]
+tags: [card, cut-the-small-talk, cut, small, talk, guardian, action, attack, tower, pitch-2, cost-0, sup174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D77NtkfPpRhpwjGbPJd8n) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Tower]
 unique-id: D77NtkfPpRhpwjGbPJd8n
 sets: [SUP]
+codes: [SUP174]
 ---
 
 **Cut the Small Talk (yellow)** — Guardian Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, reckless-swing, reckless, swing, brute, defense-reaction, pitch-3, cost-0]
+tags: [card, reckless-swing, reckless, swing, brute, defense-reaction, pitch-3, cost-0, 1hp013, wtr008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mmtHRdGFhPtwR8LF8tq6p) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Brute]
 types: [Defense Reaction]
 unique-id: mmtHRdGFhPtwR8LF8tq6p
 sets: [1HP, WTR]
+codes: [1HP013, WTR008]
 ---
 
 **Reckless Swing (blue)** — Brute Defense Reaction · cost 0 · 4 defense

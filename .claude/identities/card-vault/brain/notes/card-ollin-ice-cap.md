@@ -1,5 +1,5 @@
 ---
-tags: [card, ollin-ice-cap, ollin, ice, cap, guardian, equipment, head, blade-break]
+tags: [card, ollin-ice-cap, ollin, ice, cap, guardian, equipment, head, blade-break, ajv004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W89dCjCrz8cQKd78zHFBR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: W89dCjCrz8cQKd78zHFBR
 sets: [AJV]
+codes: [AJV004]
 ---
 
 **Ollin Ice Cap** — Ice Guardian Equipment - Head · 1 defense

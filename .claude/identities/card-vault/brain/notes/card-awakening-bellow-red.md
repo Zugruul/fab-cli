@@ -1,5 +1,5 @@
 ---
-tags: [card, awakening-bellow, awakening, bellow, brute, action, intimidate, go-again, pitch-1, cost-1]
+tags: [card, awakening-bellow, awakening, bellow, brute, action, intimidate, go-again, pitch-1, cost-1, rnr014, rvd014, wtr032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9cwfNrcbMw6CTpLWWwKnh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Intimidate, Go again]
 unique-id: 9cwfNrcbMw6CTpLWWwKnh
 sets: [RNR, RVD, WTR]
+codes: [RNR014, RVD014, WTR032]
 ---
 
 **Awakening Bellow (red)** — Brute Action · cost 1 · 3 defense

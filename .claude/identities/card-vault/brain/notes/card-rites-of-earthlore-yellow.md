@@ -1,5 +1,5 @@
 ---
-tags: [card, rites-of-earthlore, rites, earthlore, guardian, action, aura, pitch-2, cost-0]
+tags: [card, rites-of-earthlore, rites, earthlore, guardian, action, aura, pitch-2, cost-0, pen027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BjKkfgpdLQGfLjTWmBPwk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: BjKkfgpdLQGfLjTWmBPwk
 sets: [PEN]
+codes: [PEN027]
 ---
 
 **Rites of Earthlore (yellow)** — Guardian Action - Aura · cost 0 · 3 defense

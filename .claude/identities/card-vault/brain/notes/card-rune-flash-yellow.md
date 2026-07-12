@@ -1,5 +1,5 @@
 ---
-tags: [card, rune-flash, rune, flash, runeblade, action, attack, go-again, pitch-2, cost-3]
+tags: [card, rune-flash, rune, flash, runeblade, action, attack, go-again, pitch-2, cost-3, 1hp289, arc101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FCJjCLKrKbQ7nhwhHwbHB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: FCJjCLKrKbQ7nhwhHwbHB
 sets: [1HP, ARC]
+codes: [1HP289, ARC101]
 ---
 
 **Rune Flash (yellow)** — Runeblade Action - Attack · cost 3 · 3 power · 3 defense

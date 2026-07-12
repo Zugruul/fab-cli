@@ -1,5 +1,5 @@
 ---
-tags: [card, howl-from-beyond, howl, beyond, shadow, action, go-again, blood-debt, pitch-1, cost-2]
+tags: [card, howl-from-beyond, howl, beyond, shadow, action, go-again, blood-debt, pitch-1, cost-2, chn022, mon200]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hGgJfbfTpknpFCTCgQCzw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Blood Debt]
 unique-id: hGgJfbfTpknpFCTCgQCzw
 sets: [CHN, MON]
+codes: [CHN022, MON200]
 ---
 
 **Howl from Beyond (red)** — Shadow Action · cost 2 · 2 defense

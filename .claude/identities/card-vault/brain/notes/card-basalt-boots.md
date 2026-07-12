@@ -1,5 +1,5 @@
 ---
-tags: [card, basalt-boots, basalt, boots, guardian, equipment, legs, temper]
+tags: [card, basalt-boots, basalt, boots, guardian, equipment, legs, temper, pen019, sbr012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cW9gnhd9dmMghRfHjzdgF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Temper]
 unique-id: cW9gnhd9dmMghRfHjzdgF
 sets: [PEN, SBR]
+codes: [PEN019, SBR012]
 ---
 
 **Basalt Boots** — Guardian Equipment - Legs · 1 defense

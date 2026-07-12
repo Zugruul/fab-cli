@@ -1,5 +1,5 @@
 ---
-tags: [card, fervent-forerunner, fervent, forerunner, generic, action, attack, opt-2, go-again, pitch-1, cost-0]
+tags: [card, fervent-forerunner, fervent, forerunner, generic, action, attack, opt-2, go-again, pitch-1, cost-0, arc182]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cDDzQzMWRRDWjQdBC6PqN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Opt 2, Go again]
 unique-id: cDDzQzMWRRDWjQdBC6PqN
 sets: [ARC]
+codes: [ARC182]
 ---
 
 **Fervent Forerunner (red)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

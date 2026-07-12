@@ -1,5 +1,5 @@
 ---
-tags: [card, ripple-away, ripple, away, generic, action, attack, pitch-3, cost-2]
+tags: [card, ripple-away, ripple, away, generic, action, attack, pitch-3, cost-2, anq014, hvy209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QqfKkBhgJfFFnDLmwcHfL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: QqfKkBhgJfFFnDLmwcHfL
 sets: [ANQ, HVY]
+codes: [ANQ014, HVY209]
 ---
 
 **Ripple Away (blue)** — Generic Action - Attack · cost 2 · 4 power · 3 defense

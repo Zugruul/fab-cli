@@ -1,5 +1,5 @@
 ---
-tags: [card, take-up-the-mantle, take, up, mantle, assassin, attack-reaction, pitch-2, cost-0]
+tags: [card, take-up-the-mantle, take, up, mantle, assassin, attack-reaction, pitch-2, cost-0, aac024, hnt014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C7rGNWzwQJpMRcmLBbbQP) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: C7rGNWzwQJpMRcmLBbbQP
 sets: [AAC, HNT]
+codes: [AAC024, HNT014]
 ---
 
 **Take Up the Mantle (yellow)** — Assassin Attack Reaction · cost 0 · 3 defense

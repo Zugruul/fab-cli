@@ -1,5 +1,5 @@
 ---
-tags: [card, well-grounded, well, grounded, earth, equipment, legs]
+tags: [card, well-grounded, well, grounded, earth, equipment, legs, flr006, lgs313, ros030, ver006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zngmGjhrGpJfmnbMP87JP) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: zngmGjhrGpJfmnbMP87JP
 sets: [FLR, LGS, ROS, VER]
+codes: [FLR006, LGS313, ROS030, VER006]
 ---
 
 **Well Grounded** — Earth Equipment - Legs · 0 defense

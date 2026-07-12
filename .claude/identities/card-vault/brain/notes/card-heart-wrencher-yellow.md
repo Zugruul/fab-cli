@@ -1,5 +1,5 @@
 ---
-tags: [card, heart-wrencher, heart, wrencher, mechanologist, action, wrench, attack, boost, pitch-2, cost-0]
+tags: [card, heart-wrencher, heart, wrencher, mechanologist, action, wrench, attack, boost, pitch-2, cost-0, pen076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bQHRKzBGCWzR8JQnHRKqc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Wrench, Attack]
 keywords: [Boost]
 unique-id: bQHRKzBGCWzR8JQnHRKqc
 sets: [PEN]
+codes: [PEN076]
 ---
 
 **Heart Wrencher (yellow)** — Mechanologist Action - Wrench Attack · cost 0 · 2 power · 3 defense

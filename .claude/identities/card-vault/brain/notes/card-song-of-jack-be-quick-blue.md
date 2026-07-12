@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-jack-be-quick, song, jack, be, quick, bard, action, pitch-3, cost-0]
+tags: [card, song-of-jack-be-quick, song, jack, be, quick, bard, action, pitch-3, cost-0, lgs217, tcc064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PCLwwwtFMQmLLpj6TD7hj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Song]
 unique-id: PCLwwwtFMQmLLpj6TD7hj
 sets: [LGS, TCC]
+codes: [LGS217, TCC064]
 ---
 
 **Song of Jack-be-Quick (blue)** — Bard Action - Song · cost 0 · 3 defense

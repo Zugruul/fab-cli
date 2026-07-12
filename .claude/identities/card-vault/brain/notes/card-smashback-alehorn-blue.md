@@ -1,5 +1,5 @@
 ---
-tags: [card, smashback-alehorn, smashback, alehorn, brute, action, go-again, pitch-3, cost-0]
+tags: [card, smashback-alehorn, smashback, alehorn, brute, action, go-again, pitch-3, cost-0, arr027, hvy044, lgs245, rhi027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 87pqdhz7F6GRCGzpD7cjj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 87pqdhz7F6GRCGzpD7cjj
 sets: [ARR, HVY, LGS, RHI]
+codes: [ARR027, HVY044, LGS245, RHI027]
 ---
 
 **Smashback Alehorn (blue)** — Brute Action · cost 0 · 2 defense

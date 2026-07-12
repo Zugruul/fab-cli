@@ -1,5 +1,5 @@
 ---
-tags: [card, bear-hug, bear, hug, brute, action, attack, pitch-1, cost-2]
+tags: [card, bear-hug, bear, hug, brute, action, attack, pitch-1, cost-2, pen012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbPPdLhqj6mFbd8RmP8Kq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JbPPdLhqj6mFbd8RmP8Kq
 sets: [PEN]
+codes: [PEN012]
 ---
 
 **Bear Hug (red)** — Brute Action - Attack · cost 2 · 7 power · 3 defense

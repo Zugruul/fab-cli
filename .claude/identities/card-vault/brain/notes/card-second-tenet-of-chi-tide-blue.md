@@ -1,5 +1,5 @@
 ---
-tags: [card, second-tenet-of-chi-tide, second, tenet, chi, tide, mystic, action, attack, pitch-3, cost-3]
+tags: [card, second-tenet-of-chi-tide, second, tenet, chi, tide, mystic, action, attack, pitch-3, cost-3, eng019, lgs297, mst082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fLCJkLgGtkfJd6pBq8fJK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: fLCJkLgGtkfJd6pBq8fJK
 sets: [ENG, LGS, MST]
+codes: [ENG019, LGS297, MST082]
 ---
 
 **Second Tenet of Chi: Tide (blue)** — Mystic Action - Attack · cost 3 · 5 power · 3 defense

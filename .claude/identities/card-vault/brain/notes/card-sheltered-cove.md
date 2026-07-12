@@ -1,5 +1,5 @@
 ---
-tags: [card, sheltered-cove, sheltered, cove, generic, equipment, head]
+tags: [card, sheltered-cove, sheltered, cove, generic, equipment, head, hvy197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PfLGWkcf8RngRHztHDfFT) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: PfLGWkcf8RngRHztHDfFT
 sets: [HVY]
+codes: [HVY197]
 ---
 
 **Sheltered Cove** — Generic Equipment - Head

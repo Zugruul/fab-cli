@@ -1,5 +1,5 @@
 ---
-tags: [card, reincarnate, brute, action, attack, pitch-3, cost-3]
+tags: [card, reincarnate, brute, action, attack, pitch-3, cost-3, ako022, dyn012, ska029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DPDqwkWf9krhLLDWpmDwD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DPDqwkWf9krhLLDWpmDwD
 sets: [AKO, DYN, SKA]
+codes: [AKO022, DYN012, SKA029]
 ---
 
 **Reincarnate (blue)** — Brute Action - Attack · cost 3 · 5 power · 3 defense

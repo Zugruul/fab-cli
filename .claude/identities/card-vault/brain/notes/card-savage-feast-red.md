@@ -1,5 +1,5 @@
 ---
-tags: [card, savage-feast, savage, feast, brute, action, attack, pitch-1, cost-1]
+tags: [card, savage-feast, savage, feast, brute, action, attack, pitch-1, cost-1, 1hp019, rnr010, ska017, wtr014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mFdkTGPQDnWjLB9Tgmdmm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: mFdkTGPQDnWjLB9Tgmdmm
 sets: [1HP, RNR, SKA, WTR]
+codes: [1HP019, RNR010, SKA017, WTR014]
 ---
 
 **Savage Feast (red)** — Brute Action - Attack · cost 1 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, red-fin-harpoon, red, fin, harpoon, pirate, ranger, action, arrow, attack, go-fish, pitch-3, cost-2]
+tags: [card, red-fin-harpoon, red, fin, harpoon, pirate, ranger, action, arrow, attack, go-fish, pitch-3, cost-2, gem055, sea090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tnznnMJqJfzTqCn8QBgBz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Go Fish]
 unique-id: tnznnMJqJfzTqCn8QBgBz
 sets: [GEM, SEA]
+codes: [GEM055, SEA090]
 ---
 
 **Red Fin Harpoon (blue)** — Pirate Ranger Action - Arrow Attack · cost 2 · 4 power · 3 defense

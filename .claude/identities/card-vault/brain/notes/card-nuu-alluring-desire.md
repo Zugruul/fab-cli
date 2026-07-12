@@ -1,5 +1,5 @@
 ---
-tags: [card, nuu-alluring-desire, nuu, alluring, desire, assassin, mystic, hero, adult]
+tags: [card, nuu-alluring-desire, nuu, alluring, desire, assassin, mystic, hero, adult, her113, her128, mst001, win033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MghLPDjq8CfBJ8RzNc7Ft) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Hero]
 unique-id: MghLPDjq8CfBJ8RzNc7Ft
 sets: [HER, MST, WIN]
+codes: [HER113, HER128, MST001, WIN033]
 ---
 
 **Nuu, Alluring Desire** — Mystic Assassin Hero · 40 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, teeth-of-the-cog, teeth, cog, mechanologist, action, attack, galvanize, pitch-1, cost-0]
+tags: [card, teeth-of-the-cog, teeth, cog, mechanologist, action, attack, galvanize, pitch-1, cost-0, sea030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9fgDH76FTCT7NWzJmBRGk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Galvanize]
 unique-id: 9fgDH76FTCT7NWzJmBRGk
 sets: [SEA]
+codes: [SEA030]
 ---
 
 **Teeth of the Cog (red)** — Mechanologist Action - Attack · cost 0 · 4 power · 2 defense

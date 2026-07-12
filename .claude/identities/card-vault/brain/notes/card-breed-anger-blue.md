@@ -1,5 +1,5 @@
 ---
-tags: [card, breed-anger, breed, anger, ninja, action, attack, combo, go-again, pitch-3, cost-1]
+tags: [card, breed-anger, breed, anger, ninja, action, attack, combo, go-again, pitch-3, cost-1, mst178]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mbtPRkBfzdTWWGGDFGmPB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: mbtPRkBfzdTWWGGDFGmPB
 sets: [MST]
+codes: [MST178]
 ---
 
 **Breed Anger (blue)** — Ninja Action - Attack · cost 1 · 2 power · 3 defense

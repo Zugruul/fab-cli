@@ -1,5 +1,5 @@
 ---
-tags: [card, grim-feast, grim, feast, shadow, action, blood-debt, pitch-3, cost-3]
+tags: [card, grim-feast, grim, feast, shadow, action, blood-debt, pitch-3, cost-3, dtd177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BkFwNf9wHWK8LBdN9b9t6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: BkFwNf9wHWK8LBdN9b9t6
 sets: [DTD]
+codes: [DTD177]
 ---
 
 **Grim Feast (blue)** — Shadow Action · cost 3 · 2 defense

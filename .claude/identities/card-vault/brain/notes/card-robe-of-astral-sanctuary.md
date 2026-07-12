@@ -1,5 +1,5 @@
 ---
-tags: [card, robe-of-astral-sanctuary, robe, astral, sanctuary, generic, equipment, chest]
+tags: [card, robe-of-astral-sanctuary, robe, astral, sanctuary, generic, equipment, chest, lgs453, omn210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RT8TnMD9BHtJg8Fr6DLRF) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: RT8TnMD9BHtJg8Fr6DLRF
 sets: [LGS, OMN]
+codes: [LGS453, OMN210]
 ---
 
 **Robe of Astral Sanctuary** — Generic Equipment - Chest · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, diamond, generic, token, item]
+tags: [card, diamond, generic, token, item, fab165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HRTwtGRhPJkpHT8fN9DGp) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Item]
 unique-id: HRTwtGRhPJkpHT8fN9DGp
 sets: [FAB]
+codes: [FAB165]
 ---
 
 **Diamond** — Generic Token - Item

@@ -1,5 +1,5 @@
 ---
-tags: [card, captains-call, captains, call, generic, action, go-again, pitch-3, cost-0]
+tags: [card, captains-call, captains, call, generic, action, go-again, pitch-3, cost-0, ast026, fab352, mon262]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cBJGmpJFKmg9RLDnrtzNJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: cBJGmpJFKmg9RLDnrtzNJ
 sets: [AST, FAB, MON]
+codes: [AST026, FAB352, MON262]
 ---
 
 **Captain's Call (blue)** — Generic Action · cost 0 · 2 defense

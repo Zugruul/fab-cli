@@ -1,5 +1,5 @@
 ---
-tags: [card, two-faced, two, faced, equipment, head, reviled, blade-break]
+tags: [card, two-faced, two, faced, equipment, head, reviled, blade-break, fab414, pen299]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n6twqPttCHFQnTLKBfzKz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Reviled]
 keywords: [Blade Break]
 unique-id: n6twqPttCHFQnTLKBfzKz
 sets: [FAB, PEN]
+codes: [FAB414, PEN299]
 ---
 
 **Two-Faced** — Reviled Equipment - Head · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, maul, ninja, attack-reaction, pitch-2, cost-0]
+tags: [card, maul, ninja, attack-reaction, pitch-2, cost-0, mst162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F7Btpwc6Cgn79D67Hkbpd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Attack Reaction]
 unique-id: F7Btpwc6Cgn79D67Hkbpd
 sets: [MST]
+codes: [MST162]
 ---
 
 **Maul (yellow)** — Ninja Attack Reaction · cost 0 · 3 defense

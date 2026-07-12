@@ -1,5 +1,5 @@
 ---
-tags: [card, sunkwater-scalers, sunkwater, scalers, generic, equipment, legs, blade-break]
+tags: [card, sunkwater-scalers, sunkwater, scalers, generic, equipment, legs, blade-break, mpg117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kRzbQwnrjfkgzbncc9QQn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: kRzbQwnrjfkgzbncc9QQn
 sets: [MPG]
+codes: [MPG117]
 ---
 
 **Sunkwater Scalers** — Generic Equipment - Legs · 0 defense

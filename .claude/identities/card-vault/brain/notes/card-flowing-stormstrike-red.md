@@ -1,5 +1,5 @@
 ---
-tags: [card, flowing-stormstrike, flowing, stormstrike, lightning, action, attack, pitch-1, cost-0]
+tags: [card, flowing-stormstrike, flowing, stormstrike, lightning, action, attack, pitch-1, cost-0, azs009, fab471, omn152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KQhHqHjdrF8cFkRhQDQWq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: KQhHqHjdrF8cFkRhQDQWq
 sets: [AZS, FAB, OMN]
+codes: [AZS009, FAB471, OMN152]
 ---
 
 **Flowing Stormstrike (red)** — Lightning Action - Attack · cost 0 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, first-tenet-of-chi-wind, first, tenet, chi, wind, mystic, action, go-again, pitch-3, cost-0]
+tags: [card, first-tenet-of-chi-wind, first, tenet, chi, wind, mystic, action, go-again, pitch-3, cost-0, lgs304, mst094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tCjqz6rHFKTmDpDkfHmzm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: tCjqz6rHFKTmDpDkfHmzm
 sets: [LGS, MST]
+codes: [LGS304, MST094]
 ---
 
 **First Tenet of Chi: Wind (blue)** — Mystic Action · cost 0 · 3 defense

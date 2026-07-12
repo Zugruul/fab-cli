@@ -1,5 +1,5 @@
 ---
-tags: [card, hemorrhage-bore, hemorrhage, bore, ranger, action, arrow, attack, pitch-2, cost-1]
+tags: [card, hemorrhage-bore, hemorrhage, bore, ranger, action, arrow, attack, pitch-2, cost-1, dyn163, lgs120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KWpp9Jg6QBftjK9HKNNKW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: KWpp9Jg6QBftjK9HKNNKW
 sets: [DYN, LGS]
+codes: [DYN163, LGS120]
 ---
 
 **Hemorrhage Bore (yellow)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

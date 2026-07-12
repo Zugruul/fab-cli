@@ -1,5 +1,5 @@
 ---
-tags: [card, heart-of-vengeance, heart, vengeance, draconic, equipment, chest, blade-break]
+tags: [card, heart-of-vengeance, heart, vengeance, draconic, equipment, chest, blade-break, hnt145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CkRKLHpzHJLkmDdBFJCwM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: CkRKLHpzHJLkmDdBFJCwM
 sets: [HNT]
+codes: [HNT145]
 ---
 
 **Heart of Vengeance** — Draconic Equipment - Chest · 1 defense

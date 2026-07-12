@@ -1,5 +1,5 @@
 ---
-tags: [card, tarantula-toxin, tarantula, toxin, assassin, attack-reaction, pitch-1, cost-0]
+tags: [card, tarantula-toxin, tarantula, toxin, assassin, attack-reaction, pitch-1, cost-0, fab315, hnt015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BfCHDqCQHfNgqQGckhq7d) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: BfCHDqCQHfNgqQGckhq7d
 sets: [FAB, HNT]
+codes: [FAB315, HNT015]
 ---
 
 **Tarantula Toxin (red)** — Assassin Attack Reaction · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, vambrace-of-determination, vambrace, determination, generic, equipment, arms, blade-break]
+tags: [card, vambrace-of-determination, vambrace, determination, generic, equipment, arms, blade-break, fab127, out174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTjmk7Th7CGNPfmL6CDnD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: KTjmk7Th7CGNPfmL6CDnD
 sets: [FAB, OUT]
+codes: [FAB127, OUT174]
 ---
 
 **Vambrace of Determination** — Generic Equipment - Arms · 0 defense

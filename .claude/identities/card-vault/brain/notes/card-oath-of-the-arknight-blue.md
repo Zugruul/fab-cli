@@ -1,5 +1,5 @@
 ---
-tags: [card, oath-of-the-arknight, oath, arknight, runeblade, action, go-again, pitch-3, cost-2]
+tags: [card, oath-of-the-arknight, oath, arknight, runeblade, action, go-again, pitch-3, cost-2, 1hp281, arc093, ros160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GWfQC8Lqd9Jz8dnkNdrwt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: GWfQC8Lqd9Jz8dnkNdrwt
 sets: [1HP, ARC, ROS]
+codes: [1HP281, ARC093, ROS160]
 ---
 
 **Oath of the Arknight (blue)** — Runeblade Action · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rusty-harpoon, rusty, harpoon, pirate, ranger, action, arrow, attack, pitch-3, cost-0]
+tags: [card, rusty-harpoon, rusty, harpoon, pirate, ranger, action, arrow, attack, pitch-3, cost-0, gem057, sea092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CMbMkj6F86Kj9kPKNBwPN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: CMbMkj6F86Kj9kPKNBwPN
 sets: [GEM, SEA]
+codes: [GEM057, SEA092]
 ---
 
 **Rusty Harpoon (blue)** — Pirate Ranger Action - Arrow Attack · cost 0 · 1 power · 3 defense

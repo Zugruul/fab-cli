@@ -1,5 +1,5 @@
 ---
-tags: [card, sacred-art-immortal-lunar-shrine, sacred, art, immortal, lunar, shrine, illusionist, mystic, instant, legendary, transcend, pitch-3, cost-3]
+tags: [card, sacred-art-immortal-lunar-shrine, sacred, art, immortal, lunar, shrine, illusionist, mystic, instant, legendary, transcend, pitch-3, cost-3, fab234, mst032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cdb8cTqP9MRgwqr7Q6rHQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: cdb8cTqP9MRgwqr7Q6rHQ
 sets: [FAB, MST]
+codes: [FAB234, MST032]
 ---
 
 **Sacred Art: Immortal Lunar Shrine (blue)** — Mystic Illusionist Instant · cost 3

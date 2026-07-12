@@ -1,5 +1,5 @@
 ---
-tags: [card, sunkwater-pincers, sunkwater, pincers, generic, equipment, arms, blade-break]
+tags: [card, sunkwater-pincers, sunkwater, pincers, generic, equipment, arms, blade-break, mpg116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qBMWrpjH8JGrk6Tw7FrHL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: qBMWrpjH8JGrk6Tw7FrHL
 sets: [MPG]
+codes: [MPG116]
 ---
 
 **Sunkwater Pincers** — Generic Equipment - Arms · 0 defense

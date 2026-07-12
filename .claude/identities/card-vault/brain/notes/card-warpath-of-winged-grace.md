@@ -1,5 +1,5 @@
 ---
-tags: [card, warpath-of-winged-grace, warpath, winged, grace, warrior, light, equipment, legs, charge, blade-break]
+tags: [card, warpath-of-winged-grace, warpath, winged, grace, warrior, light, equipment, legs, charge, blade-break, asb006, jdg042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rdKrHRBf66GR7WdzL8dpN) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Legs]
 keywords: [Charge, Blade Break]
 unique-id: rdKrHRBf66GR7WdzL8dpN
 sets: [ASB, JDG]
+codes: [ASB006, JDG042]
 ---
 
 **Warpath of Winged Grace** — Light Warrior Equipment - Legs · 2 defense

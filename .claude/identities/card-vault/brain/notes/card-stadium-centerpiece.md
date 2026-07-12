@@ -1,5 +1,5 @@
 ---
-tags: [card, stadium-centerpiece, stadium, centerpiece, generic, equipment, chest, blade-break]
+tags: [card, stadium-centerpiece, stadium, centerpiece, generic, equipment, chest, blade-break, hvy203]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L6FBCMGPMwNfTBBKrhqDT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: L6FBCMGPMwNfTBBKrhqDT
 sets: [HVY]
+codes: [HVY203]
 ---
 
 **Stadium Centerpiece** — Generic Equipment - Chest · * defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, the-hand-that-pulls-the-strings, hand, that, pulls, strings, mentor, arakni, go-again]
+tags: [card, the-hand-that-pulls-the-strings, hand, that, pulls, strings, mentor, arakni, go-again, ark007, lgs391]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LLJdk7zHFrCth9m68rmf6) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ other-types: [Arakni]
 keywords: [Go again]
 unique-id: LLJdk7zHFrCth9m68rmf6
 sets: [ARK, LGS]
+codes: [ARK007, LGS391]
 ---
 
 **The Hand that Pulls the Strings** — Arakni Mentor · 4 defense

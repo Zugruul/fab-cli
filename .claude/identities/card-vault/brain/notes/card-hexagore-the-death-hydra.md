@@ -1,5 +1,5 @@
 ---
-tags: [card, hexagore-the-death-hydra, hexagore, death, hydra, brute, shadow, weapon, flail, 2h]
+tags: [card, hexagore-the-death-hydra, hexagore, death, hydra, brute, shadow, weapon, flail, 2h, fab186, mon121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zCRpPtm9BTfzBJFNkdpNw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Flail, 2H]
 unique-id: zCRpPtm9BTfzBJFNkdpNw
 sets: [FAB, MON]
+codes: [FAB186, MON121]
 ---
 
 **Hexagore, the Death Hydra** — Shadow Brute Weapon - Flail (2H) · 6 power

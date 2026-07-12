@@ -1,5 +1,5 @@
 ---
-tags: [card, powder-keg, powder, keg, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, powder-keg, powder, keg, mechanologist, action, item, pitch-3, cost-0, dyn094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dkT9ghbNpFJ9qCfrPQq88) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: dkT9ghbNpFJ9qCfrPQq88
 sets: [DYN]
+codes: [DYN094]
 ---
 
 **Powder Keg (blue)** — Mechanologist Action - Item · cost 0

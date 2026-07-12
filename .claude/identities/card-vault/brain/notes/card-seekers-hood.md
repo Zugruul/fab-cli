@@ -1,5 +1,5 @@
 ---
-tags: [card, seekers-hood, seekers, hood, generic, equipment, head]
+tags: [card, seekers-hood, seekers, hood, generic, equipment, head, omn205, out175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t9hhCk9PrwgchGMcLkRMt) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: t9hhCk9PrwgchGMcLkRMt
 sets: [OMN, OUT]
+codes: [OMN205, OUT175]
 ---
 
 **Seeker's Hood** — Generic Equipment - Head

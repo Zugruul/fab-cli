@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-cowl, graven, cowl, assassin, equipment, head, blade-break]
+tags: [card, graven-cowl, graven, cowl, assassin, equipment, head, blade-break, pen137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ctk8ztqbzqLTRGNrQkJwf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: ctk8ztqbzqLTRGNrQkJwf
 sets: [PEN]
+codes: [PEN137]
 ---
 
 **Graven Cowl** — Assassin Equipment - Head · 2 defense

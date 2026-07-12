@@ -1,5 +1,5 @@
 ---
-tags: [card, glory-plate, glory, plate, equipment, chest, revered, guardwell]
+tags: [card, glory-plate, glory, plate, equipment, chest, revered, guardwell, pen287]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BbPCr6FPrbC9wdCFMgDFr) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Revered]
 keywords: [Guardwell]
 unique-id: BbPCr6FPrbC9wdCFMgDFr
 sets: [PEN]
+codes: [PEN287]
 ---
 
 **Glory Plate** — Revered Equipment - Chest · 0 defense

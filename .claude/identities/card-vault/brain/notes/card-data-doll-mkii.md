@@ -1,5 +1,5 @@
 ---
-tags: [card, data-doll-mkii, data, doll, mkii, mechanologist, hero, young]
+tags: [card, data-doll-mkii, data, doll, mkii, mechanologist, hero, young, 1hp182, cru099, her027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kbdzm8R7MHCpWC79RdTGH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Mechanologist]
 types: [Hero]
 unique-id: kbdzm8R7MHCpWC79RdTGH
 sets: [1HP, CRU, HER]
+codes: [1HP182, CRU099, HER027]
 ---
 
 **Data Doll MKII** — Mechanologist Hero - Young · 20 health · 3 int

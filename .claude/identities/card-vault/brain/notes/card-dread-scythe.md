@@ -1,5 +1,5 @@
 ---
-tags: [card, dread-scythe, dread, scythe, runeblade, weapon, 2h]
+tags: [card, dread-scythe, dread, scythe, runeblade, weapon, 2h, fab255, mon229]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cpF9wnTcmHLtGWND7hbKF) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Scythe, 2H]
 unique-id: cpF9wnTcmHLtGWND7hbKF
 sets: [FAB, MON]
+codes: [FAB255, MON229]
 ---
 
 **Dread Scythe** — Runeblade Weapon - Scythe (2H) · 3 power

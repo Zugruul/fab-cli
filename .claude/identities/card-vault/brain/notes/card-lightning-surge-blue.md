@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-surge, lightning, surge, action, attack, go-again, pitch-3, cost-0]
+tags: [card, lightning-surge, lightning, surge, action, attack, go-again, pitch-3, cost-0, ele191, ros100]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CrqfmG7dCTFgNzLbKtcc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 6CrqfmG7dCTFgNzLbKtcc
 sets: [ELE, ROS]
+codes: [ELE191, ROS100]
 ---
 
 **Lightning Surge (blue)** — Lightning Action - Attack · cost 0 · 2 power · 2 defense

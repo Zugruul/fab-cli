@@ -1,5 +1,5 @@
 ---
-tags: [card, vengeance-never-rests, vengeance, never, rests, ninja, action, attack, combo, go-again, pitch-3, cost-1]
+tags: [card, vengeance-never-rests, vengeance, never, rests, ninja, action, attack, combo, go-again, pitch-3, cost-1, asr025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kdjPjG7p7GJHQrBQh6TFQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: kdjPjG7p7GJHQrBQh6TFQ
 sets: [ASR]
+codes: [ASR025]
 ---
 
 **Vengeance Never Rests (blue)** — Ninja Action - Attack · cost 1 · 3 power · 3 defense

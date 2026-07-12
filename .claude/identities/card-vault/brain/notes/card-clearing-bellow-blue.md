@@ -1,5 +1,5 @@
 ---
-tags: [card, clearing-bellow, clearing, bellow, brute, action, intimidate, go-again, pitch-3, cost-0]
+tags: [card, clearing-bellow, clearing, bellow, brute, action, intimidate, go-again, pitch-3, cost-0, arr026, lgs147, rvd025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qBRhRDtgwwmgTb68dqTQW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Intimidate, Go again]
 unique-id: qBRhRDtgwwmgTb68dqTQW
 sets: [ARR, LGS, RVD]
+codes: [ARR026, LGS147, RVD025]
 ---
 
 **Clearing Bellow (blue)** — Brute Action · cost 0 · 3 defense

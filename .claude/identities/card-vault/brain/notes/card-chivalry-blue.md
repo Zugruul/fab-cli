@@ -1,5 +1,5 @@
 ---
-tags: [card, chivalry, guardian, block, protect, pitch-3]
+tags: [card, chivalry, guardian, block, protect, pitch-3, jdg036, lgs211, tcc048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WtQz7cpTHPLGqtFLFJwjj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Protect]
 unique-id: WtQz7cpTHPLGqtFLFJwjj
 sets: [JDG, LGS, TCC]
+codes: [JDG036, LGS211, TCC048]
 ---
 
 **Chivalry (blue)** — Guardian Block · 3 defense

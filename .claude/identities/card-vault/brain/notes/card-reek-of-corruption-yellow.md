@@ -1,5 +1,5 @@
 ---
-tags: [card, reek-of-corruption, reek, corruption, runeblade, action, attack, pitch-2, cost-2]
+tags: [card, reek-of-corruption, reek, corruption, runeblade, action, attack, pitch-2, cost-2, evr114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MGLnDGFfchbLBBBzHRGFD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: MGLnDGFfchbLBBBzHRGFD
 sets: [EVR]
+codes: [EVR114]
 ---
 
 **Reek of Corruption (yellow)** — Runeblade Action - Attack · cost 2 · 3 power · 3 defense

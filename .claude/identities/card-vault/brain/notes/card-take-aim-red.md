@@ -1,5 +1,5 @@
 ---
-tags: [card, take-aim, take, aim, ranger, action, reload, go-again, pitch-1, cost-0]
+tags: [card, take-aim, take, aim, ranger, action, reload, go-again, pitch-1, cost-0, 1hp237, arc054, lxi028, saz029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hFhjbTW96DmWQPBP8C8HF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Reload, Go again]
 unique-id: hFhjbTW96DmWQPBP8C8HF
 sets: [1HP, ARC, LXI, SAZ]
+codes: [1HP237, ARC054, LXI028, SAZ029]
 ---
 
 **Take Aim (red)** — Ranger Action · cost 0 · 2 defense

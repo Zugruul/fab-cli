@@ -1,5 +1,5 @@
 ---
-tags: [card, invoke-dracona-optimai, invoke, dracona, optimai, illusionist, draconic, action, invocation, legendary, transform, go-again, pitch-1, cost-6]
+tags: [card, invoke-dracona-optimai, invoke, dracona, optimai, illusionist, draconic, action, invocation, legendary, transform, go-again, pitch-1, cost-6, upr006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BPPzktrTM7CqMKmbmmkDH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Invocation]
 keywords: [Legendary, Transform, Go again]
 unique-id: BPPzktrTM7CqMKmbmmkDH
 sets: [UPR]
+codes: [UPR006]
 ---
 
 **Invoke Dracona Optimai (red)** — Draconic Illusionist Action - Invocation · cost 6 · 3 defense

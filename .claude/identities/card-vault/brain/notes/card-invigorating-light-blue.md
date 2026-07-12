@@ -1,5 +1,5 @@
 ---
-tags: [card, invigorating-light, invigorating, light, action, attack, pitch-3, cost-3]
+tags: [card, invigorating-light, invigorating, light, action, attack, pitch-3, cost-3, mon068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BjJDkrf7WQzCdfTwJrgtf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: BjJDkrf7WQzCdfTwJrgtf
 sets: [MON]
+codes: [MON068]
 ---
 
 **Invigorating Light (blue)** — Light Action - Attack · cost 3 · 4 power · 2 defense

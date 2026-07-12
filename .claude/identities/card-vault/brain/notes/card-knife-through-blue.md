@@ -1,5 +1,5 @@
 ---
-tags: [card, knife-through, knife, through, assassin, action, attack, stealth, go-again, pitch-3, cost-0]
+tags: [card, knife-through, knife, through, assassin, action, attack, stealth, go-again, pitch-3, cost-0, pen149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zdbmNLTKjH8QqFBbWhKCF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Go again]
 unique-id: zdbmNLTKjH8QqFBbWhKCF
 sets: [PEN]
+codes: [PEN149]
 ---
 
 **Knife Through (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

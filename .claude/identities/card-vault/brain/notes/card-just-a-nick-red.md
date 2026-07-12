@@ -1,5 +1,5 @@
 ---
-tags: [card, just-a-nick, just, nick, assassin, attack-reaction, pitch-1, cost-0]
+tags: [card, just-a-nick, just, nick, assassin, attack-reaction, pitch-1, cost-0, mst105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JpTPzw6fB8bK6JjRpTmPC) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: JpTPzw6fB8bK6JjRpTmPC
 sets: [MST]
+codes: [MST105]
 ---
 
 **Just a Nick (red)** — Assassin Attack Reaction · cost 0 · 3 defense

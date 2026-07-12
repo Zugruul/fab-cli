@@ -1,5 +1,5 @@
 ---
-tags: [card, skyhold-keikoi, skyhold, keikoi, mystic, equipment, arms, cloaked]
+tags: [card, skyhold-keikoi, skyhold, keikoi, mystic, equipment, arms, cloaked, lgs280, mst073]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LhPHmJ9Wmq6R6RDjDGtwC) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Arms]
 keywords: [Cloaked]
 unique-id: LhPHmJ9Wmq6R6RDjDGtwC
 sets: [LGS, MST]
+codes: [LGS280, MST073]
 ---
 
 **Skyhold Keikoi** — Mystic Equipment - Arms

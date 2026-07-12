@@ -1,5 +1,5 @@
 ---
-tags: [card, zenith-blade, zenith, blade, warrior, weapon, sword, 2h, hala-specialization, go-again]
+tags: [card, zenith-blade, zenith, blade, warrior, weapon, sword, 2h, hala-specialization, go-again, aha002, mpw005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D8JcCHRDPNWCRtgCMgbtp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Sword, 2H]
 keywords: [Hala Specialization, Go again]
 unique-id: D8JcCHRDPNWCRtgCMgbtp
 sets: [AHA, MPW]
+codes: [AHA002, MPW005]
 ---
 
 **Zenith Blade** — Warrior Weapon - Sword (2H) · 3 power

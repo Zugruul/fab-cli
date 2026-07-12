@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-anvilheim, visit, anvilheim, guardian, action, pitch-3]
+tags: [card, visit-anvilheim, visit, anvilheim, guardian, action, pitch-3, mpg021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mTbD9zFpgmNQc7qzmfG8M) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Guardian]
 types: [Action]
 unique-id: mTbD9zFpgmNQc7qzmfG8M
 sets: [MPG]
+codes: [MPG021]
 ---
 
 **Visit Anvilheim (blue)** — Guardian Action · cost X · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, mauling-qi, mauling, qi, ninja, action, attack, combo, pitch-1, cost-1]
+tags: [card, mauling-qi, mauling, qi, ninja, action, attack, combo, pitch-1, cost-1, tcc088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Dg8tJh9RNQKhFWfqd8qDT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: Dg8tJh9RNQKhFWfqd8qDT
 sets: [TCC]
+codes: [TCC088]
 ---
 
 **Mauling Qi (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

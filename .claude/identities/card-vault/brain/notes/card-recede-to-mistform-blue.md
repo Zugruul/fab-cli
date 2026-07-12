@@ -1,5 +1,5 @@
 ---
-tags: [card, recede-to-mistform, recede, mistform, mystic, instant, pitch-3]
+tags: [card, recede-to-mistform, recede, mistform, mystic, instant, pitch-3, pen268]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6rMqWGtD7TMCrTRwdN6hH) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Instant]
 unique-id: 6rMqWGtD7TMCrTRwdN6hH
 sets: [PEN]
+codes: [PEN268]
 ---
 
 **Recede to Mistform (blue)** — Mystic Instant · cost X

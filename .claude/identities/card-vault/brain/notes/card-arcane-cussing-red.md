@@ -1,5 +1,5 @@
 ---
-tags: [card, arcane-cussing, arcane, cussing, runeblade, action, aura, go-again, pitch-1, cost-1]
+tags: [card, arcane-cussing, arcane, cussing, runeblade, action, aura, go-again, pitch-1, cost-1, flr012, ros152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rft8fQBq9gz7bRh6BfjRC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: Rft8fQBq9gz7bRh6BfjRC
 sets: [FLR, ROS]
+codes: [FLR012, ROS152]
 ---
 
 **Arcane Cussing (red)** — Runeblade Action - Aura · cost 1 · 2 defense

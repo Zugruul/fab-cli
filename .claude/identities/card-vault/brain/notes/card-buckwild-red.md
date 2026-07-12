@@ -1,5 +1,5 @@
 ---
-tags: [card, buckwild, brute, action, attack, go-again, pitch-1, cost-3]
+tags: [card, buckwild, brute, action, attack, go-again, pitch-1, cost-3, gem101, ska011, sup143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qPtfkpzfNL8qGRFBWQN7D) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: qPtfkpzfNL8qGRFBWQN7D
 sets: [GEM, SKA, SUP]
+codes: [GEM101, SKA011, SUP143]
 ---
 
 **Buckwild (red)** — Brute Action - Attack · cost 3 · 7 power · 2 defense

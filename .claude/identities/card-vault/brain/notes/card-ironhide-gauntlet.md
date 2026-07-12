@@ -1,5 +1,5 @@
 ---
-tags: [card, ironhide-gauntlet, ironhide, gauntlet, generic, equipment, arms]
+tags: [card, ironhide-gauntlet, ironhide, gauntlet, generic, equipment, arms, fab150, mon243, rvd005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FWzdtMmz6kCcWBpWDMLmM) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: FWzdtMmz6kCcWBpWDMLmM
 sets: [FAB, MON, RVD]
+codes: [FAB150, MON243, RVD005]
 ---
 
 **Ironhide Gauntlet** — Generic Equipment - Arms · 0 defense

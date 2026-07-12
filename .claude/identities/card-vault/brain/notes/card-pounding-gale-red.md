@@ -1,5 +1,5 @@
 ---
-tags: [card, pounding-gale, pounding, gale, ninja, action, attack, combo, pitch-1, cost-1]
+tags: [card, pounding-gale, pounding, gale, ninja, action, attack, combo, pitch-1, cost-1, wtr085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBBDQjBmrCk9CR7BG8wmH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: QBBDQjBmrCk9CR7BG8wmH
 sets: [WTR]
+codes: [WTR085]
 ---
 
 **Pounding Gale (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

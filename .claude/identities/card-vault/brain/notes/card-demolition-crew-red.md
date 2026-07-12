@@ -1,5 +1,5 @@
 ---
-tags: [card, demolition-crew, demolition, crew, generic, action, attack, dominate, pitch-1, cost-2]
+tags: [card, demolition-crew, demolition, crew, generic, action, attack, dominate, pitch-1, cost-2, uzu010, wtr179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6wnMt8LFtDnM9LLwB7ghN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: 6wnMt8LFtDnM9LLwB7ghN
 sets: [UZU, WTR]
+codes: [UZU010, WTR179]
 ---
 
 **Demolition Crew (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

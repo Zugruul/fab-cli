@@ -1,5 +1,5 @@
 ---
-tags: [card, emerging-power, emerging, power, guardian, action, aura, go-again, pitch-1, cost-2]
+tags: [card, emerging-power, emerging, power, guardian, action, aura, go-again, pitch-1, cost-2, bvo012, mpg100, wtr069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dNCDnH6TKq6bCW8ndKHGn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: dNCDnH6TKq6bCW8ndKHGn
 sets: [BVO, MPG, WTR]
+codes: [BVO012, MPG100, WTR069]
 ---
 
 **Emerging Power (red)** — Guardian Action - Aura · cost 2 · 3 defense

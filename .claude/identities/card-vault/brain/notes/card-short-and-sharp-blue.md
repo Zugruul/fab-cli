@@ -1,5 +1,5 @@
 ---
-tags: [card, short-and-sharp, short, sharp, assassin, ninja, attack-reaction, pitch-3, cost-1]
+tags: [card, short-and-sharp, short, sharp, assassin, ninja, attack-reaction, pitch-3, cost-1, out156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JpPtMLzwkcGrbt9K8tBW) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Ninja]
 types: [Attack Reaction]
 unique-id: 9JpPtMLzwkcGrbt9K8tBW
 sets: [OUT]
+codes: [OUT156]
 ---
 
 **Short and Sharp (blue)** — Assassin / Ninja Attack Reaction · cost 1 · 2 defense

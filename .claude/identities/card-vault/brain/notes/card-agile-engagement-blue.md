@@ -1,5 +1,5 @@
 ---
-tags: [card, agile-engagement, agile, engagement, warrior, attack-reaction, pitch-3, cost-1]
+tags: [card, agile-engagement, agile, engagement, warrior, attack-reaction, pitch-3, cost-1, hvy117, ksi023, ola023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mj9fkHtdrzzmDw8RNCKmT) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: Mj9fkHtdrzzmDw8RNCKmT
 sets: [HVY, KSI, OLA]
+codes: [HVY117, KSI023, OLA023]
 ---
 
 **Agile Engagement (blue)** — Warrior Attack Reaction · cost 1 · 2 defense

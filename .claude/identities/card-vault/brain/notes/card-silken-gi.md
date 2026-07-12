@@ -1,5 +1,5 @@
 ---
-tags: [card, silken-gi, silken, gi, generic, equipment, chest]
+tags: [card, silken-gi, silken, gi, generic, equipment, chest, ben004, out179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PpF7WhbMCTMBrK9cLtPmR) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: PpF7WhbMCTMBrK9cLtPmR
 sets: [BEN, OUT]
+codes: [BEN004, OUT179]
 ---
 
 **Silken Gi** — Generic Equipment - Chest

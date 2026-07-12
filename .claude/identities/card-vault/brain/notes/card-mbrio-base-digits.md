@@ -1,5 +1,5 @@
 ---
-tags: [card, mbrio-base-digits, mbrio, base, digits, mechanologist, equipment, arms, temper]
+tags: [card, mbrio-base-digits, mbrio, base, digits, mechanologist, equipment, arms, temper, pen060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RDcn7fQgNLdCnRwjJ8pPK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Arms]
 keywords: [Temper]
 unique-id: RDcn7fQgNLdCnRwjJ8pPK
 sets: [PEN]
+codes: [PEN060]
 ---
 
 **mBrio Base Digits** — Mechanologist Equipment - Base Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, quelling-robe, quelling, robe, generic, equipment, chest, quell-1]
+tags: [card, quelling-robe, quelling, robe, generic, equipment, chest, quell-1, upr184, uzu004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k8d9d7n7fJRwkRDWG7Kcn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Quell 1]
 unique-id: k8d9d7n7fJRwkRDWG7Kcn
 sets: [UPR, UZU]
+codes: [UPR184, UZU004]
 ---
 
 **Quelling Robe** — Generic Equipment - Chest · 0 defense

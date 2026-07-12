@@ -1,5 +1,5 @@
 ---
-tags: [card, grind-them-down, grind, them, down, guardian, action, attack, crush, pitch-3, cost-3]
+tags: [card, grind-them-down, grind, them, down, guardian, action, attack, crush, pitch-3, cost-3, bdd015, mpg081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kdLqQ7BbpnTnCkJ9LzPTT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: kdLqQ7BbpnTnCkJ9LzPTT
 sets: [BDD, MPG]
+codes: [BDD015, MPG081]
 ---
 
 **Grind Them Down (blue)** — Guardian Action - Attack · cost 3 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, fleece-the-frail, fleece, frail, assassin, action, attack, contract, pitch-2, cost-0]
+tags: [card, fleece-the-frail, fleece, frail, assassin, action, attack, contract, pitch-2, cost-0, dyn137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pTkGCNJD989J9TkqLnfRb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: pTkGCNJD989J9TkqLnfRb
 sets: [DYN]
+codes: [DYN137]
 ---
 
 **Fleece the Frail (yellow)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, drag-down, drag, down, generic, defense-reaction, pitch-3, cost-0]
+tags: [card, drag-down, drag, down, generic, defense-reaction, pitch-3, cost-0, pen333]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCKRPnMGTCBhwWKN68hmr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: QCKRPnMGTCBhwWKN68hmr
 sets: [PEN]
+codes: [PEN333]
 ---
 
 **Drag Down (blue)** — Generic Defense Reaction · cost 0 · 0 defense

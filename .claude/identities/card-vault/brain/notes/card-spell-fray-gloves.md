@@ -1,5 +1,5 @@
 ---
-tags: [card, spell-fray-gloves, spell, fray, gloves, generic, equipment, arms, spellvoid-1]
+tags: [card, spell-fray-gloves, spell, fray, gloves, generic, equipment, arms, spellvoid-1, chn006, dyn238]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ct8dbmGW77wb6TkJwJkFT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Spellvoid 1]
 unique-id: ct8dbmGW77wb6TkJwJkFT
 sets: [CHN, DYN]
+codes: [CHN006, DYN238]
 ---
 
 **Spell Fray Gloves** — Generic Equipment - Arms · 0 defense

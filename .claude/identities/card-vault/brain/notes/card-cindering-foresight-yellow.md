@@ -1,5 +1,5 @@
 ---
-tags: [card, cindering-foresight, cindering, foresight, wizard, action, opt-2, pitch-2, cost-0]
+tags: [card, cindering-foresight, cindering, foresight, wizard, action, opt-2, pitch-2, cost-0, 1hp318, cru166, sbz021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nmkkNMhcPwJqzMjBRhPhh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 2]
 unique-id: nmkkNMhcPwJqzMjBRhPhh
 sets: [1HP, CRU, SBZ]
+codes: [1HP318, CRU166, SBZ021]
 ---
 
 **Cindering Foresight (yellow)** — Wizard Action · cost 0 · 2 defense

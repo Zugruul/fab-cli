@@ -1,5 +1,5 @@
 ---
-tags: [card, little-big-foot, little, big, foot, guardian, action, attack, pitch-3, cost-4]
+tags: [card, little-big-foot, little, big, foot, guardian, action, attack, pitch-3, cost-4, mpg040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DTzNKfTmjP6QLP8W8TpdF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DTzNKfTmjP6QLP8W8TpdF
 sets: [MPG]
+codes: [MPG040]
 ---
 
 **Little Big Foot (blue)** — Guardian Action - Attack · cost 4 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ice-bolt, ice, bolt, wizard, action, pitch-2, cost-2]
+tags: [card, ice-bolt, ice, bolt, wizard, action, pitch-2, cost-2, upr134]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MTLmmmcPGLhQ9p8z6HbDF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Ice]
 types: [Action]
 unique-id: MTLmmmcPGLhQ9p8z6HbDF
 sets: [UPR]
+codes: [UPR134]
 ---
 
 **Ice Bolt (yellow)** — Ice Wizard Action · cost 2 · 3 defense

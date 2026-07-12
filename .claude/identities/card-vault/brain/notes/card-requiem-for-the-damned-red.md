@@ -1,5 +1,5 @@
 ---
-tags: [card, requiem-for-the-damned, requiem, damned, runeblade, shadow, action, blood-debt, pitch-1, cost-0]
+tags: [card, requiem-for-the-damned, requiem, damned, runeblade, shadow, action, blood-debt, pitch-1, cost-0, dtd141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dkWqMzLQfPdRHktgJrMK8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: dkWqMzLQfPdRHktgJrMK8
 sets: [DTD]
+codes: [DTD141]
 ---
 
 **Requiem for the Damned (red)** — Shadow Runeblade Action · cost 0 · 3 defense

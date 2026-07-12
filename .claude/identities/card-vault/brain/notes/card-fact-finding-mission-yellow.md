@@ -1,5 +1,5 @@
 ---
-tags: [card, fact-finding-mission, fact, finding, mission, generic, action, attack, pitch-2, cost-2]
+tags: [card, fact-finding-mission, fact, finding, mission, generic, action, attack, pitch-2, cost-2, mst207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MdHHgpMCDBkpJFFNh9wqd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: MdHHgpMCDBkpJFFNh9wqd
 sets: [MST]
+codes: [MST207]
 ---
 
 **Fact-Finding Mission (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

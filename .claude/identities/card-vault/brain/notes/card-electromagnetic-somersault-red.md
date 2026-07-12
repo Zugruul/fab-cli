@@ -1,5 +1,5 @@
 ---
-tags: [card, electromagnetic-somersault, electromagnetic, somersault, lightning, instant, pitch-1, cost-0]
+tags: [card, electromagnetic-somersault, electromagnetic, somersault, lightning, instant, pitch-1, cost-0, ast019, ros085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BM6cWKkWT7zRBLb7P77pg) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: BM6cWKkWT7zRBLb7P77pg
 sets: [AST, ROS]
+codes: [AST019, ROS085]
 ---
 
 **Electromagnetic Somersault (red)** — Lightning Instant · cost 0

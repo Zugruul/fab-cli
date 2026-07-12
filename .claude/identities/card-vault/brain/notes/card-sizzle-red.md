@@ -1,5 +1,5 @@
 ---
-tags: [card, sizzle, lightning, action, go-again, pitch-1, cost-0]
+tags: [card, sizzle, lightning, action, go-again, pitch-1, cost-0, ast018, aur014, fab274, sba027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jkbMCtNCWghQGKqkDtGQr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: jkbMCtNCWghQGKqkDtGQr
 sets: [AST, AUR, FAB, SBA]
+codes: [AST018, AUR014, FAB274, SBA027]
 ---
 
 **Sizzle (red)** — Lightning Action · cost 0 · 2 defense

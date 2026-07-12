@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-the-prey, mark, prey, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, mark-the-prey, mark, prey, assassin, action, attack, stealth, pitch-3, cost-0, hnt040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7qKwRbLbdMzcBLLJK9d6R) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Mark]
 unique-id: 7qKwRbLbdMzcBLLJK9d6R
 sets: [HNT]
+codes: [HNT040]
 ---
 
 **Mark the Prey (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

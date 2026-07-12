@@ -1,5 +1,5 @@
 ---
-tags: [card, gloves-of-azure-waves, gloves, azure, waves, pirate, equipment, arms, arcane-barrier-1, high-tide, blade-break]
+tags: [card, gloves-of-azure-waves, gloves, azure, waves, pirate, equipment, arms, arcane-barrier-1, high-tide, blade-break, pen167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gJbTFDQTW7HfKnkpwgLCw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1, High Tide, Blade Break]
 unique-id: gJbTFDQTW7HfKnkpwgLCw
 sets: [PEN]
+codes: [PEN167]
 ---
 
 **Gloves of Azure Waves** — Pirate Equipment - Arms · 0 defense

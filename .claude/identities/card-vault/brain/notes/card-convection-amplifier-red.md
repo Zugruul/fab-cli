@@ -1,5 +1,5 @@
 ---
-tags: [card, convection-amplifier, convection, amplifier, mechanologist, action, item, dominate, pitch-1, cost-0]
+tags: [card, convection-amplifier, convection, amplifier, mechanologist, action, item, dominate, pitch-1, cost-0, 1hp201, aio016, arc019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tcQQjwMNMtrMM8jnBHN8Q) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Dominate]
 unique-id: tcQQjwMNMtrMM8jnBHN8Q
 sets: [1HP, AIO, ARC]
+codes: [1HP201, AIO016, ARC019]
 ---
 
 **Convection Amplifier (red)** — Mechanologist Action - Item · cost 0

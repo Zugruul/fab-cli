@@ -1,5 +1,5 @@
 ---
-tags: [card, power-of-make-believe, power, make, believe, illusionist, action, attack, mirage, pitch-2, cost-3]
+tags: [card, power-of-make-believe, power, make, believe, illusionist, action, attack, mirage, pitch-2, cost-3, pen131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zrz9QBLtdGfJWhDqtQrCB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Mirage]
 unique-id: zrz9QBLtdGfJWhDqtQrCB
 sets: [PEN]
+codes: [PEN131]
 ---
 
 **Power of Make Believe (yellow)** — Illusionist Action - Attack · cost 3 · 6 power · 3 defense

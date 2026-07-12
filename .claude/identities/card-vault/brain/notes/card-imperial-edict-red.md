@@ -1,5 +1,5 @@
 ---
-tags: [card, imperial-edict, imperial, edict, generic, action, item, legendary, pitch-1, cost-1]
+tags: [card, imperial-edict, imperial, edict, generic, action, item, legendary, pitch-1, cost-1, dyn240]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFBm6FppdwTJDPRbrgqcg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary]
 unique-id: rFBm6FppdwTJDPRbrgqcg
 sets: [DYN]
+codes: [DYN240]
 ---
 
 **Imperial Edict (red)** — Generic Action - Item · cost 1

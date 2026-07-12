@@ -1,5 +1,5 @@
 ---
-tags: [card, hope-merchants-hood, hope, merchants, hood, generic, equipment, head]
+tags: [card, hope-merchants-hood, hope, merchants, hood, generic, equipment, head, 1hp350, fai003, lss012, mpg118, sda005, sfa004, tea004, wtr151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DW7LjrR6RwKPhNB8d9CGM) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: DW7LjrR6RwKPhNB8d9CGM
 sets: [1HP, FAI, LSS, MPG, SDA, SFA, TEA, WTR]
+codes: [1HP350, FAI003, LSS012, MPG118, SDA005, SFA004, TEA004, WTR151]
 ---
 
 **Hope Merchant's Hood** — Generic Equipment - Head · 0 defense

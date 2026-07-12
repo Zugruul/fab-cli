@@ -1,5 +1,5 @@
 ---
-tags: [card, ninth-blade-of-the-blood-oath, ninth, blade, blood, oath, runeblade, action, attack, pitch-2, cost-9]
+tags: [card, ninth-blade-of-the-blood-oath, ninth, blade, blood, oath, runeblade, action, attack, pitch-2, cost-9, arc082, avs020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rz79tn8mdQLDqNnhFdngk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rz79tn8mdQLDqNnhFdngk
 sets: [ARC, AVS]
+codes: [ARC082, AVS020]
 ---
 
 **Ninth Blade of the Blood Oath (yellow)** — Runeblade Action - Attack · cost 9 · 9 power · 3 defense

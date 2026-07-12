@@ -1,5 +1,5 @@
 ---
-tags: [card, big-bop, big, bop, guardian, action, aura, wager, pitch-3, cost-3]
+tags: [card, big-bop, big, bop, guardian, action, aura, wager, pitch-3, cost-3, bet023, hvy085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LFnMwmW9pgdNwzHCtfNnL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Wager]
 unique-id: LFnMwmW9pgdNwzHCtfNnL
 sets: [BET, HVY]
+codes: [BET023, HVY085]
 ---
 
 **Big Bop (blue)** — Guardian Action - Aura · cost 3 · 2 defense

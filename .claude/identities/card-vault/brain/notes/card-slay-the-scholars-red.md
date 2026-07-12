@@ -1,5 +1,5 @@
 ---
-tags: [card, slay-the-scholars, slay, scholars, assassin, action, attack, contract, pitch-1, cost-0]
+tags: [card, slay-the-scholars, slay, scholars, assassin, action, attack, contract, pitch-1, cost-0, ark013, dyn145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cM7zthPFbLMJ6KQQmB6P9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: cM7zthPFbLMJ6KQQmB6P9
 sets: [ARK, DYN]
+codes: [ARK013, DYN145]
 ---
 
 **Slay the Scholars (red)** — Assassin Action - Attack · cost 0 · 4 power · 3 defense

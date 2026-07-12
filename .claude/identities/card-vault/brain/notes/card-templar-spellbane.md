@@ -1,5 +1,5 @@
 ---
-tags: [card, templar-spellbane, templar, spellbane, warrior, equipment, head, battleworn]
+tags: [card, templar-spellbane, templar, spellbane, warrior, equipment, head, battleworn, pen043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QF7w8mPkmCmLGmtzDLDPM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: QF7w8mPkmCmLGmtzDLDPM
 sets: [PEN]
+codes: [PEN043]
 ---
 
 **Templar Spellbane** — Warrior Equipment - Head · 1 defense

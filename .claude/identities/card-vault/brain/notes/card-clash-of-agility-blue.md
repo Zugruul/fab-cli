@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-agility, clash, agility, brute, warrior, action, attack, pitch-3, cost-2]
+tags: [card, clash-of-agility, clash, agility, brute, warrior, action, attack, pitch-3, cost-2, hvy159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ghCPQqFqNjMq9cn7nTrzJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: ghCPQqFqNjMq9cn7nTrzJ
 sets: [HVY]
+codes: [HVY159]
 ---
 
 **Clash of Agility (blue)** — Brute / Warrior Action - Attack · cost 2 · 4 power · 3 defense

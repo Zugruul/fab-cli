@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-walkers, graven, walkers, assassin, equipment, legs, blade-break]
+tags: [card, graven-walkers, graven, walkers, assassin, equipment, legs, blade-break, pen140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PjpbjQFgwwt6Bc6BcwRr9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: PjpbjQFgwwt6Bc6BcwRr9
 sets: [PEN]
+codes: [PEN140]
 ---
 
 **Graven Walkers** — Assassin Equipment - Legs · 2 defense

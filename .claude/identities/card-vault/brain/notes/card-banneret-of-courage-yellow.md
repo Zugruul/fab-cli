@@ -1,5 +1,5 @@
 ---
-tags: [card, banneret-of-courage, banneret, courage, warrior, light, action, attack, solflare, pitch-2, cost-1]
+tags: [card, banneret-of-courage, banneret, courage, warrior, light, action, attack, solflare, pitch-2, cost-1, dtd048, fab161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PtBr9hn97WqBzgMqNHzFp) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Solflare]
 unique-id: PtBr9hn97WqBzgMqNHzFp
 sets: [DTD, FAB]
+codes: [DTD048, FAB161]
 ---
 
 **Banneret of Courage (yellow)** — Light Warrior Action - Attack · cost 1 · 4 power · 3 defense

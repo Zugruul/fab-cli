@@ -1,5 +1,5 @@
 ---
-tags: [card, crane-dance, crane, dance, ninja, action, attack, combo, pitch-3, cost-0]
+tags: [card, crane-dance, crane, dance, ninja, action, attack, combo, pitch-3, cost-0, 1hp109, cru059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KWNMNMjTzTQMRK7FF9J6T) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: KWNMNMjTzTQMRK7FF9J6T
 sets: [1HP, CRU]
+codes: [1HP109, CRU059]
 ---
 
 **Crane Dance (blue)** — Ninja Action - Attack · cost 0 · 1 power · 3 defense

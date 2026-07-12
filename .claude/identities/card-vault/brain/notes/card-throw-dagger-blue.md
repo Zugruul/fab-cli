@@ -1,5 +1,5 @@
 ---
-tags: [card, throw-dagger, throw, dagger, assassin, ninja, attack-reaction, pitch-3, cost-0]
+tags: [card, throw-dagger, throw, dagger, assassin, ninja, attack-reaction, pitch-3, cost-0, hnt175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cr8bTCLKLcfKLDTk7zcWn) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Ninja]
 types: [Attack Reaction]
 unique-id: cr8bTCLKLcfKLDTk7zcWn
 sets: [HNT]
+codes: [HNT175]
 ---
 
 **Throw Dagger (blue)** — Assassin / Ninja Attack Reaction · cost 0 · 3 defense

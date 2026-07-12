@@ -1,5 +1,5 @@
 ---
-tags: [card, drawn-to-the-dark-dimension, drawn, dark, dimension, runeblade, action, attack, pitch-3, cost-2]
+tags: [card, drawn-to-the-dark-dimension, drawn, dark, dimension, runeblade, action, attack, pitch-3, cost-2, arc099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PMm7cqpbBL7wGwbqcqMcz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: PMm7cqpbBL7wGwbqcqMcz
 sets: [ARC]
+codes: [ARC099]
 ---
 
 **Drawn to the Dark Dimension (blue)** — Runeblade Action - Attack · cost 2 · 1 power · 3 defense

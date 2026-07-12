@@ -1,5 +1,5 @@
 ---
-tags: [card, loot-the-hold, loot, hold, pirate, necromancer, action, go-again, pitch-3, cost-0]
+tags: [card, loot-the-hold, loot, hold, pirate, necromancer, action, go-again, pitch-3, cost-0, agb028, gem084, sgb030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bthMFnn9GbPQBnBT8cNj8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bthMFnn9GbPQBnBT8cNj8
 sets: [AGB, GEM, SGB]
+codes: [AGB028, GEM084, SGB030]
 ---
 
 **Loot the Hold (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

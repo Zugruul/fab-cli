@@ -1,5 +1,5 @@
 ---
-tags: [card, oblivion, runeblade, shadow, instant, legendary, vynnset-specialization, pitch-3, cost-0]
+tags: [card, oblivion, runeblade, shadow, instant, legendary, vynnset-specialization, pitch-3, cost-0, dtd142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F6nMWMTR7mjDm9LMjhgpd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Legendary, Vynnset Specialization]
 unique-id: F6nMWMTR7mjDm9LMjhgpd
 sets: [DTD]
+codes: [DTD142]
 ---
 
 **Oblivion (blue)** — Shadow Runeblade Instant · cost 0

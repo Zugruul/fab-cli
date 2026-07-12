@@ -1,5 +1,5 @@
 ---
-tags: [card, lionclaw-maul, lionclaw, maul, guardian, weapon, hammer, axe, 1h, reviled, the-crowd-boos]
+tags: [card, lionclaw-maul, lionclaw, maul, guardian, weapon, hammer, axe, 1h, reviled, the-crowd-boos, gem145, omn247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRDd7cPpPd6KgTNtRPhbQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Reviled]
 keywords: [The Crowd Boos]
 unique-id: zRDd7cPpPd6KgTNtRPhbQ
 sets: [GEM, OMN]
+codes: [GEM145, OMN247]
 ---
 
 **Lionclaw Maul** — Reviled Guardian Weapon - Hammer Axe (1H) · 1 power

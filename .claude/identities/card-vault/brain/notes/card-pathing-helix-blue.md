@@ -1,5 +1,5 @@
 ---
-tags: [card, pathing-helix, pathing, helix, ranger, action, arrow, attack, pitch-3, cost-0]
+tags: [card, pathing-helix, pathing, helix, ranger, action, arrow, attack, pitch-3, cost-0, cru131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b7DpNcDrnBrhFD78gQPdD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: b7DpNcDrnBrhFD78gQPdD
 sets: [CRU]
+codes: [CRU131]
 ---
 
 **Pathing Helix (blue)** — Ranger Action - Arrow Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, immobilizing-shot, immobilizing, shot, ranger, action, arrow, attack, pitch-1, cost-0]
+tags: [card, immobilizing-shot, immobilizing, shot, ranger, action, arrow, attack, pitch-1, cost-0, dyn154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JwFbJDJCkQdfFGLCjQz6P) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: JwFbJDJCkQdfFGLCjQz6P
 sets: [DYN]
+codes: [DYN154]
 ---
 
 **Immobilizing Shot (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

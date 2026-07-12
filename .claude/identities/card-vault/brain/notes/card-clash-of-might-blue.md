@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-might, clash, might, brute, guardian, action, attack, pitch-3, cost-2]
+tags: [card, clash-of-might, clash, might, brute, guardian, action, attack, pitch-3, cost-2, hvy139, vic020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KnJTJP7KPKfpNC7FNLJB8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: KnJTJP7KPKfpNC7FNLJB8
 sets: [HVY, VIC]
+codes: [HVY139, VIC020]
 ---
 
 **Clash of Might (blue)** — Brute / Guardian Action - Attack · cost 2 · 4 power · 3 defense

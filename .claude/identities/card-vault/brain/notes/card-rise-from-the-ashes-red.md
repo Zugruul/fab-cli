@@ -1,5 +1,5 @@
 ---
-tags: [card, rise-from-the-ashes, rise, ashes, ninja, draconic, action, go-again, pitch-1, cost-0]
+tags: [card, rise-from-the-ashes, rise, ashes, ninja, draconic, action, go-again, pitch-1, cost-0, fai009, sfa027, upr057]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MgfGgqG7wRNbwNGNmjKJr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: MgfGgqG7wRNbwNGNmjKJr
 sets: [FAI, SFA, UPR]
+codes: [FAI009, SFA027, UPR057]
 ---
 
 **Rise from the Ashes (red)** — Draconic Ninja Action · cost 0 · 2 defense

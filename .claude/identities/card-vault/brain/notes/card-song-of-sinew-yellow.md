@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-sinew, song, sinew, brute, action, go-again, pitch-2, cost-0]
+tags: [card, song-of-sinew, song, sinew, brute, action, go-again, pitch-2, cost-0, sup134]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gG6NLRhhPKLPh6Q7nJHBT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: gG6NLRhhPKLPh6Q7nJHBT
 sets: [SUP]
+codes: [SUP134]
 ---
 
 **Song of Sinew (yellow)** — Brute Action · cost 0 · 2 defense

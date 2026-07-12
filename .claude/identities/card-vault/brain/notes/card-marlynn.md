@@ -1,5 +1,5 @@
 ---
-tags: [card, marlynn, pirate, ranger, hero, young]
+tags: [card, marlynn, pirate, ranger, hero, young, sea083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N7PFFQLkdzRMDhzDWJWwW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Pirate, Ranger]
 types: [Hero]
 unique-id: N7PFFQLkdzRMDhzDWJWwW
 sets: [SEA]
+codes: [SEA083]
 ---
 
 **Marlynn** — Pirate Ranger Hero - Young · 20 health · 4 int

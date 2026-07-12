@@ -1,5 +1,5 @@
 ---
-tags: [card, sanctuary-of-aria, sanctuary, aria, macro, rosetta]
+tags: [card, sanctuary-of-aria, sanctuary, aria, macro, rosetta, aua029, flr029, lgs309, osc028, ros027, ver028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bMJBmMJt99tBDWrznqMBR) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ types: [Macro]
 other-types: [Rosetta]
 unique-id: bMJBmMJt99tBDWrznqMBR
 sets: [AUA, FLR, LGS, OSC, ROS, VER]
+codes: [AUA029, FLR029, LGS309, OSC028, ROS027, VER028]
 ---
 
 **Sanctuary of Aria** — Rosetta Macro

@@ -1,5 +1,5 @@
 ---
-tags: [card, ruudi-gem-keeper, ruudi, gem, keeper, merchant, hero, adult]
+tags: [card, ruudi-gem-keeper, ruudi, gem, keeper, merchant, hero, adult, lss001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRMhmf8qkn6pR7TWQLqgb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Merchant]
 types: [Hero]
 unique-id: hRMhmf8qkn6pR7TWQLqgb
 sets: [LSS]
+codes: [LSS001]
 ---
 
 **Ruu'di, Gem Keeper** — Hero - Merchant · 40 health · 4 int

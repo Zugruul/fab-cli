@@ -1,5 +1,5 @@
 ---
-tags: [card, truce, generic, action, aura, pitch-3, cost-2]
+tags: [card, truce, generic, action, aura, pitch-3, cost-2, anq025, ros219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gGtb9f6ghPNqrTL7PhcHk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: gGtb9f6ghPNqrTL7PhcHk
 sets: [ANQ, ROS]
+codes: [ANQ025, ROS219]
 ---
 
 **Truce (blue)** — Generic Action - Aura · cost 2 · 3 defense

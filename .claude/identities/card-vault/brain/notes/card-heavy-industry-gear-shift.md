@@ -1,5 +1,5 @@
 ---
-tags: [card, heavy-industry-gear-shift, heavy, industry, gear, shift, mechanologist, equipment, legs, battleworn]
+tags: [card, heavy-industry-gear-shift, heavy, industry, gear, shift, mechanologist, equipment, legs, battleworn, aio006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PtcNWqrmfGgdQmLzBQWtp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: PtcNWqrmfGgdQmLzBQWtp
 sets: [AIO]
+codes: [AIO006]
 ---
 
 **Heavy Industry Gear Shift** — Mechanologist Equipment - Legs · 1 defense

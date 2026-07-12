@@ -1,5 +1,5 @@
 ---
-tags: [card, chokeslam, guardian, action, attack, crush, pitch-3, cost-4]
+tags: [card, chokeslam, guardian, action, attack, crush, pitch-3, cost-4, 1hp072, cru037, mpg060, sbr025, tcc045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hTcPj7fQfqChgCnpMCDPB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: hTcPj7fQfqChgCnpMCDPB
 sets: [1HP, CRU, MPG, SBR, TCC]
+codes: [1HP072, CRU037, MPG060, SBR025, TCC045]
 ---
 
 **Chokeslam (blue)** — Guardian Action - Attack · cost 4 · 6 power · 3 defense

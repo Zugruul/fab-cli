@@ -1,5 +1,5 @@
 ---
-tags: [card, sapwood-elixir, sapwood, elixir, generic, action, go-again, pitch-1, cost-1]
+tags: [card, sapwood-elixir, sapwood, elixir, generic, action, go-again, pitch-1, cost-1, pen326]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WQnrwMqz7KtLWb9nfzNDf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: WQnrwMqz7KtLWb9nfzNDf
 sets: [PEN]
+codes: [PEN326]
 ---
 
 **Sapwood Elixir (red)** — Generic Action · cost 1 · 3 defense

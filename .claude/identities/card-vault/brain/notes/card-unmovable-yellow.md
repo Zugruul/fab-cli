@@ -1,5 +1,5 @@
 ---
-tags: [card, unmovable, generic, defense-reaction, pitch-2, cost-3]
+tags: [card, unmovable, generic, defense-reaction, pitch-2, cost-3, 1hp412, wtr213]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WFmqwG7cjpf6QFgpP9gmD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: WFmqwG7cjpf6QFgpP9gmD
 sets: [1HP, WTR]
+codes: [1HP412, WTR213]
 ---
 
 **Unmovable (yellow)** — Generic Defense Reaction · cost 3 · 6 defense

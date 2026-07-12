@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-gluttony, runechant, gluttony, runeblade, instant, aura, pitch-2, cost-0]
+tags: [card, runechant-of-gluttony, runechant, gluttony, runeblade, instant, aura, pitch-2, cost-0, gem179, iar153]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wdzWnFf7J6nmL86nFhtN) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: 9wdzWnFf7J6nmL86nFhtN
 sets: [GEM, IAR]
+codes: [GEM179, IAR153]
 ---
 
 **Runechant of Gluttony (yellow)** — Runeblade Instant - Aura · cost 0

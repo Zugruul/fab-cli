@@ -1,5 +1,5 @@
 ---
-tags: [card, call-to-the-grave, call, grave, generic, action, go-again, pitch-3, cost-0]
+tags: [card, call-to-the-grave, call, grave, generic, action, go-again, pitch-3, cost-0, agb026, anq019, ros218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gDhFGHDrPKRwCP6qRF6zd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: gDhFGHDrPKRwCP6qRF6zd
 sets: [AGB, ANQ, ROS]
+codes: [AGB026, ANQ019, ROS218]
 ---
 
 **Call to the Grave (blue)** — Generic Action · cost 0 · 2 defense

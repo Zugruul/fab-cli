@@ -1,5 +1,5 @@
 ---
-tags: [card, hornets-sting, hornets, sting, ranger, equipment, arms, blade-break]
+tags: [card, hornets-sting, hornets, sting, ranger, equipment, arms, blade-break, dyn152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kHTFbHM7GGctRFhMm8hBg) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: kHTFbHM7GGctRFhMm8hBg
 sets: [DYN]
+codes: [DYN152]
 ---
 
 **Hornet's Sting** — Ranger Equipment - Arms · 1 defense

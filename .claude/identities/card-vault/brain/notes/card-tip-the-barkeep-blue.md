@@ -1,5 +1,5 @@
 ---
-tags: [card, tip-the-barkeep, tip, barkeep, pirate, action, go-again, pitch-3, cost-0]
+tags: [card, tip-the-barkeep, tip, barkeep, pirate, action, go-again, pitch-3, cost-0, sea132]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gzHcjD7dKLpDfKtnKW8p8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: gzHcjD7dKLpDfKtnKW8p8
 sets: [SEA]
+codes: [SEA132]
 ---
 
 **Tip the Barkeep (blue)** — Pirate Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ire-of-the-crowd, ire, crowd, event]
+tags: [card, ire-of-the-crowd, ire, crowd, event, smp026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7TBhRR7QqNj86D7Crj6Rq) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Ire of the Crowd"
 types: [Event]
 unique-id: 7TBhRR7QqNj86D7Crj6Rq
 sets: [SMP]
+codes: [SMP026]
 ---
 
 **Ire of the Crowd** — Event

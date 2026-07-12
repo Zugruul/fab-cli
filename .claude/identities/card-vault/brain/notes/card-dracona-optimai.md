@@ -1,5 +1,5 @@
 ---
-tags: [card, dracona-optimai, dracona, optimai, illusionist, draconic, dragon, ally]
+tags: [card, dracona-optimai, dracona, optimai, illusionist, draconic, dragon, ally, upr006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 78FGMN9nn9QR9FDzC9z68) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: 78FGMN9nn9QR9FDzC9z68
 sets: [UPR]
+codes: [UPR006]
 ---
 
 **Dracona Optimai** — Draconic Illusionist - Dragon Ally · 6 power · 6 health

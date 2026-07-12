@@ -1,5 +1,5 @@
 ---
-tags: [card, sic-em-shot, sic, em, shot, ranger, action, arrow, attack, go-again, pitch-1, cost-1]
+tags: [card, sic-em-shot, sic, em, shot, ranger, action, arrow, attack, go-again, pitch-1, cost-1, 1hp252, arc072, lgs014, lgs035, sea117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TrRC6WMrRhbCtKzpRQLPM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Go again]
 unique-id: TrRC6WMrRhbCtKzpRQLPM
 sets: [1HP, ARC, LGS, SEA]
+codes: [1HP252, ARC072, LGS014, LGS035, SEA117]
 ---
 
 **Sic 'Em Shot (red)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

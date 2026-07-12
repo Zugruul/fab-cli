@@ -1,5 +1,5 @@
 ---
-tags: [card, nix-the-nimble, nix, nimble, assassin, action, attack, contract, pitch-1, cost-1]
+tags: [card, nix-the-nimble, nix, nimble, assassin, action, attack, contract, pitch-1, cost-1, ark010, dyn139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mk6tMhn9RtfkbRpcLL8Ht) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: Mk6tMhn9RtfkbRpcLL8Ht
 sets: [ARK, DYN]
+codes: [ARK010, DYN139]
 ---
 
 **Nix the Nimble (red)** — Assassin Action - Attack · cost 1 · 5 power · 3 defense

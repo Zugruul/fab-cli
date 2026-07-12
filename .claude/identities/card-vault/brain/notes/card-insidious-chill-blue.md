@@ -1,5 +1,5 @@
 ---
-tags: [card, insidious-chill, insidious, chill, ice, action, aura, pitch-3, cost-3]
+tags: [card, insidious-chill, insidious, chill, ice, action, aura, pitch-3, cost-3, upr140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gfrwTGTGJhqjTPKbcd96P) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: gfrwTGTGJhqjTPKbcd96P
 sets: [UPR]
+codes: [UPR140]
 ---
 
 **Insidious Chill (blue)** — Ice Action - Aura · cost 3 · 2 defense

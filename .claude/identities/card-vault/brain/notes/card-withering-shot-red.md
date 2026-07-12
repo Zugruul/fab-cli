@@ -1,5 +1,5 @@
 ---
-tags: [card, withering-shot, withering, shot, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, withering-shot, withering, shot, ranger, action, arrow, attack, pitch-1, cost-1, azl016, out136, rip020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hKhfnNtkWGHNfWNmdFPCn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: hKhfnNtkWGHNfWNmdFPCn
 sets: [AZL, OUT, RIP]
+codes: [AZL016, OUT136, RIP020]
 ---
 
 **Withering Shot (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

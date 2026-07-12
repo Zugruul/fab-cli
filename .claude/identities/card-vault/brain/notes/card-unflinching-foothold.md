@@ -1,5 +1,5 @@
 ---
-tags: [card, unflinching-foothold, unflinching, foothold, generic, equipment, legs, battleworn]
+tags: [card, unflinching-foothold, unflinching, foothold, generic, equipment, legs, battleworn, pen318]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gMJRbhDCMTJD8NW8H6BTf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: gMJRbhDCMTJD8NW8H6BTf
 sets: [PEN]
+codes: [PEN318]
 ---
 
 **Unflinching Foothold** — Generic Equipment - Legs · 1 defense

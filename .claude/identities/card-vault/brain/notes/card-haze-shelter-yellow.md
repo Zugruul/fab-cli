@@ -1,5 +1,5 @@
 ---
-tags: [card, haze-shelter, haze, shelter, illusionist, mystic, instant, aura, ward-x, pitch-2, cost-2]
+tags: [card, haze-shelter, haze, shelter, illusionist, mystic, instant, aura, ward-x, pitch-2, cost-2, mst038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DpC7pdbKCcfcgDRCNHkch) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward X]
 unique-id: DpC7pdbKCcfcgDRCNHkch
 sets: [MST]
+codes: [MST038]
 ---
 
 **Haze Shelter (yellow)** — Mystic Illusionist Instant - Aura · cost 2

@@ -1,5 +1,5 @@
 ---
-tags: [card, lumina-ascension, lumina, ascension, warrior, light, action, boltyn-specialization, go-again, pitch-2, cost-0]
+tags: [card, lumina-ascension, lumina, ascension, warrior, light, action, boltyn-specialization, go-again, pitch-2, cost-0, asb026, mon034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L8wq9HzdqTwM8tLWCRGcR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Boltyn Specialization, Go again]
 unique-id: L8wq9HzdqTwM8tLWCRGcR
 sets: [ASB, MON]
+codes: [ASB026, MON034]
 ---
 
 **Lumina Ascension (yellow)** — Light Warrior Action · cost 0 · 3 defense

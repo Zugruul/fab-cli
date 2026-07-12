@@ -1,5 +1,5 @@
 ---
-tags: [card, unforgetting-unforgiving, unforgetting, unforgiving, guardian, block, jarl-specialization, pitch-1]
+tags: [card, unforgetting-unforgiving, unforgetting, unforgiving, guardian, block, jarl-specialization, pitch-1, ajv013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DKFj9DK7f9nHrQffkdfDm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Jarl Specialization]
 unique-id: DKFj9DK7f9nHrQffkdfDm
 sets: [AJV]
+codes: [AJV013]
 ---
 
 **Unforgetting Unforgiving (red)** — Guardian Block · 4 defense

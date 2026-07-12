@@ -1,5 +1,5 @@
 ---
-tags: [card, cintari-sellsword, cintari, sellsword, warrior, token, mercenary, ally]
+tags: [card, cintari-sellsword, cintari, sellsword, warrior, token, mercenary, ally, fab191, fab201, hvy134]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CcGMKpDNfnzz8mKDqmqnc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Token]
 subtypes: [Mercenary, Ally]
 unique-id: CcGMKpDNfnzz8mKDqmqnc
 sets: [FAB, HVY]
+codes: [FAB191, FAB201, HVY134]
 ---
 
 **Cintari Sellsword** — Warrior Token - Mercenary Ally · 3 power · 2 health

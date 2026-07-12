@@ -1,5 +1,5 @@
 ---
-tags: [card, halo-of-lumina-light, halo, lumina, light, illusionist, equipment, head, spellvoid-2]
+tags: [card, halo-of-lumina-light, halo, lumina, light, illusionist, equipment, head, spellvoid-2, apr003, gem080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ghPKp8NCBqQNbKLGpqkGM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Spellvoid 2]
 unique-id: ghPKp8NCBqQNbKLGpqkGM
 sets: [APR, GEM]
+codes: [APR003, GEM080]
 ---
 
 **Halo of Lumina Light** — Light Illusionist Equipment - Head

@@ -1,5 +1,5 @@
 ---
-tags: [card, runic-fellingsong, runic, fellingsong, runeblade, action, attack, pitch-1, cost-3]
+tags: [card, runic-fellingsong, runic, fellingsong, runeblade, action, attack, pitch-1, cost-3, pen100, svi015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FrwgNQ6rgmfkn8DnNwTDH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: FrwgNQ6rgmfkn8DnNwTDH
 sets: [PEN, SVI]
+codes: [PEN100, SVI015]
 ---
 
 **Runic Fellingsong (red)** — Runeblade Action - Attack · cost 3 · 7 power · 3 defense

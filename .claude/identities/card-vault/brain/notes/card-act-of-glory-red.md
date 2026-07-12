@@ -1,5 +1,5 @@
 ---
-tags: [card, act-of-glory, act, glory, guardian, instant, aura, suspense, pitch-1, cost-4]
+tags: [card, act-of-glory, act, glory, guardian, instant, aura, suspense, pitch-1, cost-4, aps011, lgs435, sly016, sup195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gDzD7QkWQPMFTHNmGpHbJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: gDzD7QkWQPMFTHNmGpHbJ
 sets: [APS, LGS, SLY, SUP]
+codes: [APS011, LGS435, SLY016, SUP195]
 ---
 
 **Act of Glory (red)** — Guardian Instant - Aura · cost 4 · 3 defense

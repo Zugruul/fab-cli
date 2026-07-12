@@ -1,5 +1,5 @@
 ---
-tags: [card, havoc-wrap, havoc, wrap, chaos, equipment, chest, battleworn]
+tags: [card, havoc-wrap, havoc, wrap, chaos, equipment, chest, battleworn, pen275]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FHdcQjB7mGbTgzJnmPmhc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: FHdcQjB7mGbTgzJnmPmhc
 sets: [PEN]
+codes: [PEN275]
 ---
 
 **Havoc Wrap** — Chaos Equipment - Chest · 1 defense

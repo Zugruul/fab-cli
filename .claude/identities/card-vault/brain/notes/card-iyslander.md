@@ -1,5 +1,5 @@
 ---
-tags: [card, iyslander, wizard, elemental, hero, young, essence-of-ice]
+tags: [card, iyslander, wizard, elemental, hero, young, essence-of-ice, evr120, her052, siy001, upr103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TmKrpP8tDg8bmpnqMPtgj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Ice]
 unique-id: TmKrpP8tDg8bmpnqMPtgj
 sets: [EVR, HER, SIY, UPR]
+codes: [EVR120, HER052, SIY001, UPR103]
 ---
 
 **Iyslander** — Elemental Wizard Hero - Young · 18 health · 4 int

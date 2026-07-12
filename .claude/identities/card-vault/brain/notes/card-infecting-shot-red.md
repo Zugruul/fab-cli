@@ -1,5 +1,5 @@
 ---
-tags: [card, infecting-shot, infecting, shot, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, infecting-shot, infecting, shot, ranger, action, arrow, attack, pitch-1, cost-1, aaz011, azl009, out118, saz014, tnp004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8fFPCT68cgF9gbWKppDgQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: 8fFPCT68cgF9gbWKppDgQ
 sets: [AAZ, AZL, OUT, SAZ, TNP]
+codes: [AAZ011, AZL009, OUT118, SAZ014, TNP004]
 ---
 
 **Infecting Shot (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

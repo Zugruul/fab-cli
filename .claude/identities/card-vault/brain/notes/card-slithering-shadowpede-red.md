@@ -1,5 +1,5 @@
 ---
-tags: [card, slithering-shadowpede, slithering, shadowpede, brute, shadow, action, attack, blood-debt, pitch-1, cost-1]
+tags: [card, slithering-shadowpede, slithering, shadowpede, brute, shadow, action, attack, blood-debt, pitch-1, cost-1, dtd109]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qB6nBWTRKkJWQrmNRNN8t) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: qB6nBWTRKkJWQrmNRNN8t
 sets: [DTD]
+codes: [DTD109]
 ---
 
 **Slithering Shadowpede (red)** — Shadow Brute Action - Attack · cost 1 · 6 power

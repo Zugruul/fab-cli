@@ -1,5 +1,5 @@
 ---
-tags: [card, redback-shroud, redback, shroud, assassin, equipment, chest, battleworn]
+tags: [card, redback-shroud, redback, shroud, assassin, equipment, chest, battleworn, fab123, out011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7PtLHnBmRQffFP9ghNpJG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: 7PtLHnBmRQffFP9ghNpJG
 sets: [FAB, OUT]
+codes: [FAB123, OUT011]
 ---
 
 **Redback Shroud** — Assassin Equipment - Chest · 1 defense

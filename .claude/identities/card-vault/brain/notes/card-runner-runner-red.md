@@ -1,5 +1,5 @@
 ---
-tags: [card, runner-runner, runner, brute, warrior, action, attack, pitch-1, cost-2]
+tags: [card, runner-runner, runner, brute, warrior, action, attack, pitch-1, cost-2, fab193, hvy156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hPQ9NCmMKDdgMkzpkpGb6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hPQ9NCmMKDdgMkzpkpGb6
 sets: [FAB, HVY]
+codes: [FAB193, HVY156]
 ---
 
 **Runner Runner (red)** — Brute / Warrior Action - Attack · cost 2 · 6 power · 3 defense

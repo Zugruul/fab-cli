@@ -1,5 +1,5 @@
 ---
-tags: [card, unified-decree, unified, decree, warrior, attack-reaction, reprise, pitch-2, cost-2]
+tags: [card, unified-decree, unified, decree, warrior, attack-reaction, reprise, pitch-2, cost-2, cru083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kKGgdbFMjjhBjggrzwzkM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: kKGgdbFMjjhBjggrzwzkM
 sets: [CRU]
+codes: [CRU083]
 ---
 
 **Unified Decree (yellow)** — Warrior Attack Reaction · cost 2 · 3 defense

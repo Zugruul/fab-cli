@@ -1,5 +1,5 @@
 ---
-tags: [card, pitfall-trap, pitfall, trap, ranger, defense-reaction, pitch-2, cost-0]
+tags: [card, pitfall-trap, pitfall, trap, ranger, defense-reaction, pitch-2, cost-0, cru127, lgs151, lxi029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NDJfTHzHkWNMz77HPFkgD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: NDJfTHzHkWNMz77HPFkgD
 sets: [CRU, LGS, LXI]
+codes: [CRU127, LGS151, LXI029]
 ---
 
 **Pitfall Trap (yellow)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

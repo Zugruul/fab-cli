@@ -1,5 +1,5 @@
 ---
-tags: [card, beckoning-brilliance, beckoning, brilliance, lightning, action, attack, pitch-1, cost-0]
+tags: [card, beckoning-brilliance, beckoning, brilliance, lightning, action, attack, pitch-1, cost-0, gem170, omn148]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tbJKjHrCbwffmbGt6hhTM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: tbJKjHrCbwffmbGt6hhTM
 sets: [GEM, OMN]
+codes: [GEM170, OMN148]
 ---
 
 **Beckoning Brilliance (red)** — Lightning Action - Attack · cost 0 · 4 power · 2 defense

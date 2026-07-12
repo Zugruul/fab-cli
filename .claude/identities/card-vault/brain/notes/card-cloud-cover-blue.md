@@ -1,5 +1,5 @@
 ---
-tags: [card, cloud-cover, cloud, cover, lightning, instant, pitch-3, cost-0]
+tags: [card, cloud-cover, cloud, cover, lightning, instant, pitch-3, cost-0, pen248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MDn7MHgDmW7tJ6tGkG7cz) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: MDn7MHgDmW7tJ6tGkG7cz
 sets: [PEN]
+codes: [PEN248]
 ---
 
 **Cloud Cover (blue)** — Lightning Instant · cost 0

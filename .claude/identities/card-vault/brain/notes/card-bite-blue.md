@@ -1,5 +1,5 @@
 ---
-tags: [card, bite, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, bite, assassin, action, attack, stealth, pitch-3, cost-0, hnt019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K7CMNqCLndJQdztbmmmcM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: K7CMNqCLndJQdztbmmmcM
 sets: [HNT]
+codes: [HNT019]
 ---
 
 **Bite (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

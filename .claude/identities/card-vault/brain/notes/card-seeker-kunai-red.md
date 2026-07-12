@@ -1,5 +1,5 @@
 ---
-tags: [card, seeker-kunai, seeker, kunai, assassin, instant, item, pitch-1, cost-0]
+tags: [card, seeker-kunai, seeker, kunai, assassin, instant, item, pitch-1, cost-0, gem111, pen142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rrDrf6H8zBKhcz8tQbnm9) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Item]
 unique-id: rrDrf6H8zBKhcz8tQbnm9
 sets: [GEM, PEN]
+codes: [GEM111, PEN142]
 ---
 
 **Seeker Kunai (red)** — Assassin Instant - Item · cost 0

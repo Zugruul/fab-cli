@@ -1,5 +1,5 @@
 ---
-tags: [card, plan-for-the-worst, plan, worst, ranger, action, pitch-3, cost-0]
+tags: [card, plan-for-the-worst, plan, worst, ranger, action, pitch-3, cost-0, ros247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bPKFtQtwzWcRjWkFwztdf) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ranger]
 types: [Action]
 unique-id: bPKFtQtwzWcRjWkFwztdf
 sets: [ROS]
+codes: [ROS247]
 ---
 
 **Plan for the Worst (blue)** — Ranger Action · cost 0 · 3 defense

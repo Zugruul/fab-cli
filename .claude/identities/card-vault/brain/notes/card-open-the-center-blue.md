@@ -1,5 +1,5 @@
 ---
-tags: [card, open-the-center, open, center, ninja, action, attack, combo, go-again, dominate, pitch-3, cost-2]
+tags: [card, open-the-center, open, center, ninja, action, attack, combo, go-again, dominate, pitch-3, cost-2, wtr097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CChttCnwGwHMcBKm6LhNR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again, Dominate]
 unique-id: CChttCnwGwHMcBKm6LhNR
 sets: [WTR]
+codes: [WTR097]
 ---
 
 **Open the Center (blue)** — Ninja Action - Attack · cost 2 · 3 power · 3 defense

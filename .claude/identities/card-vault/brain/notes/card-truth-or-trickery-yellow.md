@@ -1,5 +1,5 @@
 ---
-tags: [card, truth-or-trickery, truth, or, trickery, guardian, block, reviled, pitch-2]
+tags: [card, truth-or-trickery, truth, or, trickery, guardian, block, reviled, pitch-2, sup077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KhTmHGFqNFKzPkBdQJDgQ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 other-types: [Reviled]
 unique-id: KhTmHGFqNFKzPkBdQJDgQ
 sets: [SUP]
+codes: [SUP077]
 ---
 
 **Truth or Trickery (yellow)** — Reviled Guardian Block · 3 defense

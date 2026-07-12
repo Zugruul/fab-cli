@@ -1,5 +1,5 @@
 ---
-tags: [card, alluring-inducement, alluring, inducement, shapeshifter, action, attack, shiyana-specialization, unity, pitch-2, cost-2]
+tags: [card, alluring-inducement, alluring, inducement, shapeshifter, action, attack, shiyana-specialization, unity, pitch-2, cost-2, dtd215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nBf66Gt7ghRTqhn7nNqKh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Shiyana Specialization, Unity]
 unique-id: nBf66Gt7ghRTqhn7nNqKh
 sets: [DTD]
+codes: [DTD215]
 ---
 
 **Alluring Inducement (yellow)** — Shapeshifter Action - Attack · cost 2 · 2 power · 2 defense

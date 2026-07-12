@@ -1,5 +1,5 @@
 ---
-tags: [card, storm-striders, storm, striders, wizard, equipment, legs, arcane-barrier-2]
+tags: [card, storm-striders, storm, striders, wizard, equipment, legs, arcane-barrier-2, 1hp305, arc116, fab011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hpMnhtBmjM7zFBTDMkf87) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 2]
 unique-id: hpMnhtBmjM7zFBTDMkf87
 sets: [1HP, ARC, FAB]
+codes: [1HP305, ARC116, FAB011]
 ---
 
 **Storm Striders** — Wizard Equipment - Legs · 0 defense

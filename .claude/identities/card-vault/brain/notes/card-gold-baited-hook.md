@@ -1,5 +1,5 @@
 ---
-tags: [card, gold-baited-hook, gold, baited, hook, pirate, equipment, arms, battleworn]
+tags: [card, gold-baited-hook, gold, baited, hook, pirate, equipment, arms, battleworn, fab339, sea125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FmmqBdRdbrjzcQ7cp6jKq) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: FmmqBdRdbrjzcQ7cp6jKq
 sets: [FAB, SEA]
+codes: [FAB339, SEA125]
 ---
 
 **Gold-Baited Hook** — Pirate Equipment - Arms · 1 defense

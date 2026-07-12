@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-assertiveness, amulet, assertiveness, generic, action, item, go-again, pitch-2, cost-0]
+tags: [card, amulet-of-assertiveness, amulet, assertiveness, generic, action, item, go-again, pitch-2, cost-0, evr176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zDfRfgF6fn7WGTKcj67JK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: zDfRfgF6fn7WGTKcj67JK
 sets: [EVR]
+codes: [EVR176]
 ---
 
 **Amulet of Assertiveness (yellow)** — Generic Action - Item · cost 0

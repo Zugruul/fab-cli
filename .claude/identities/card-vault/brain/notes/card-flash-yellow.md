@@ -1,5 +1,5 @@
 ---
-tags: [card, flash, lightning, action, go-again, pitch-2, cost-0]
+tags: [card, flash, lightning, action, go-again, pitch-2, cost-0, bri031, ele178, ros108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 67fGrFQnnpt8PLBckjKdG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 67fGrFQnnpt8PLBckjKdG
 sets: [BRI, ELE, ROS]
+codes: [BRI031, ELE178, ROS108]
 ---
 
 **Flash (yellow)** — Lightning Action · cost 0 · 2 defense

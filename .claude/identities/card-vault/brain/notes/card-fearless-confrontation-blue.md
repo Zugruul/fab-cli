@@ -1,5 +1,5 @@
 ---
-tags: [card, fearless-confrontation, fearless, confrontation, generic, action, attack, pitch-3, cost-3]
+tags: [card, fearless-confrontation, fearless, confrontation, generic, action, attack, pitch-3, cost-3, mpg128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h6J7CzPwdkTCKcbK7Jc8T) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: h6J7CzPwdkTCKcbK7Jc8T
 sets: [MPG]
+codes: [MPG128]
 ---
 
 **Fearless Confrontation (blue)** — Generic Action - Attack · cost 3 · 5 power · 3 defense

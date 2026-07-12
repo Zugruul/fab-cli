@@ -1,5 +1,5 @@
 ---
-tags: [card, scowling-flesh-bag, scowling, flesh, bag, brute, equipment, head, intimidate, blade-break]
+tags: [card, scowling-flesh-bag, scowling, flesh, bag, brute, equipment, head, intimidate, blade-break, dtd200, fab140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid czpGHfkkmgF6kFCQjfcC8) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Intimidate, Blade Break]
 unique-id: czpGHfkkmgF6kFCQjfcC8
 sets: [DTD, FAB]
+codes: [DTD200, FAB140]
 ---
 
 **Scowling Flesh Bag** — Brute Equipment - Head · 2 defense

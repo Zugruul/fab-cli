@@ -1,5 +1,5 @@
 ---
-tags: [card, victoria-archangel-of-triumph, victoria, archangel, triumph, light, angel, ally, ward-4]
+tags: [card, victoria-archangel-of-triumph, victoria, archangel, triumph, light, angel, ally, ward-4, dtd011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RCqkLt7cqwdWMNrmFqpc8) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: RCqkLt7cqwdWMNrmFqpc8
 sets: [DTD]
+codes: [DTD011]
 ---
 
 **Victoria, Archangel of Triumph** — Light - Angel Ally · 4 power · 4 health

@@ -1,5 +1,5 @@
 ---
-tags: [card, battlefront-bastion, battlefront, bastion, generic, action, attack, pitch-2, cost-3]
+tags: [card, battlefront-bastion, battlefront, bastion, generic, action, attack, pitch-2, cost-3, eng012, fab236, mst204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jdKRbHgdf6Dwcw7dwHHjh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: jdKRbHgdf6Dwcw7dwHHjh
 sets: [ENG, FAB, MST]
+codes: [ENG012, FAB236, MST204]
 ---
 
 **Battlefront Bastion (yellow)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

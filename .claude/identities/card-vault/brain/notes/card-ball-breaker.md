@@ -1,5 +1,5 @@
 ---
-tags: [card, ball-breaker, ball, breaker, brute, weapon, flail, 1h]
+tags: [card, ball-breaker, ball, breaker, brute, weapon, flail, 1h, hvy006, lgs237, rhi002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jW9czbpr7pQHgHwcq9dNH) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Flail, 1H]
 unique-id: jW9czbpr7pQHgHwcq9dNH
 sets: [HVY, LGS, RHI]
+codes: [HVY006, LGS237, RHI002]
 ---
 
 **Ball Breaker** — Brute Weapon - Flail (1H) · 3 power

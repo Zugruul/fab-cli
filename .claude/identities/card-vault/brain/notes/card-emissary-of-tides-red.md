@@ -1,5 +1,5 @@
 ---
-tags: [card, emissary-of-tides, emissary, tides, generic, action, attack, pitch-1, cost-0]
+tags: [card, emissary-of-tides, emissary, tides, generic, action, attack, pitch-1, cost-0, lgs295, mst198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zFJbjDkLPqmCzQFwjtdFc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: zFJbjDkLPqmCzQFwjtdFc
 sets: [LGS, MST]
+codes: [LGS295, MST198]
 ---
 
 **Emissary of Tides (red)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

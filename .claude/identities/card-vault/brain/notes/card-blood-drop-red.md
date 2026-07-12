@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-drop, blood, drop, ninja, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, blood-drop, blood, drop, ninja, draconic, action, attack, go-again, pitch-1, cost-1, hnt062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRDdtf8Tm6tfzKtjcThCC) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: zRDdtf8Tm6tfzKtjcThCC
 sets: [HNT]
+codes: [HNT062]
 ---
 
 **Blood Drop (red)** — Draconic Ninja Action - Attack · cost 1 · 2 power · 3 defense

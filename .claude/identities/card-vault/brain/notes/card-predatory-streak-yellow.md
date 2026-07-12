@@ -1,5 +1,5 @@
 ---
-tags: [card, predatory-streak, predatory, streak, ninja, action, go-again, pitch-2, cost-0]
+tags: [card, predatory-streak, predatory, streak, ninja, action, go-again, pitch-2, cost-0, dyn063, lgs123, tcc097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fgtKgMrhTRwMmQqMfg9FH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fgtKgMrhTRwMmQqMfg9FH
 sets: [DYN, LGS, TCC]
+codes: [DYN063, LGS123, TCC097]
 ---
 
 **Predatory Streak (yellow)** — Ninja Action · cost 0 · 2 defense

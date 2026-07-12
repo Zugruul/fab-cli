@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-circuit-breaker, evo, circuit, breaker, mechanologist, instant, equipment, head, transform, pitch-1, cost-0]
+tags: [card, evo-circuit-breaker, evo, circuit, breaker, mechanologist, instant, equipment, head, transform, pitch-1, cost-0, evo030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNkCtbWQNhtGkb77cFzhF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Head]
 keywords: [Transform]
 unique-id: hNkCtbWQNhtGkb77cFzhF
 sets: [EVO]
+codes: [EVO030]
 ---
 
 **Evo Circuit Breaker (red)** — Mechanologist Instant Equipment - Evo Head · cost 0 · 0 defense

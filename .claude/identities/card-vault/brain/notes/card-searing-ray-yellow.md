@@ -1,5 +1,5 @@
 ---
-tags: [card, searing-ray, searing, ray, light, action, attack, pitch-2, cost-1]
+tags: [card, searing-ray, searing, ray, light, action, attack, pitch-2, cost-1, dtd098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WWnjTMBz9qJNpHmNgdRN9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WWnjTMBz9qJNpHmNgdRN9
 sets: [DTD]
+codes: [DTD098]
 ---
 
 **Searing Ray (yellow)** — Light Action - Attack · cost 1 · 3 power · 2 defense

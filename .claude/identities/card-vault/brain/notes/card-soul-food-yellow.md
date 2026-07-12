@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-food, soul, food, light, action, pitch-2, cost-0]
+tags: [card, soul-food, soul, food, light, action, pitch-2, cost-0, mon064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kkcHdRDmJT7pHqPzMRRwp) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Action]
 unique-id: kkcHdRDmJT7pHqPzMRRwp
 sets: [MON]
+codes: [MON064]
 ---
 
 **Soul Food (yellow)** — Light Action · cost 0 · 2 defense

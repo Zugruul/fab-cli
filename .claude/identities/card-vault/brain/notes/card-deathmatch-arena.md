@@ -1,5 +1,5 @@
 ---
-tags: [card, deathmatch-arena, deathmatch, arena, generic, action, landmark, legendary, go-again, cost-0]
+tags: [card, deathmatch-arena, deathmatch, arena, generic, action, landmark, legendary, go-again, cost-0, hvy000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F78CPMJgBqhTfNMLM7TH6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Landmark]
 keywords: [Legendary, Go again]
 unique-id: F78CPMJgBqhTfNMLM7TH6
 sets: [HVY]
+codes: [HVY000]
 ---
 
 **Deathmatch Arena** — Generic Action - Landmark · cost 0

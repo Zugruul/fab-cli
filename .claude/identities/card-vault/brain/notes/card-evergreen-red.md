@@ -1,5 +1,5 @@
 ---
-tags: [card, evergreen, earth, action, attack, pitch-1, cost-3]
+tags: [card, evergreen, earth, action, attack, pitch-1, cost-3, bri018, ele119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tfdr8MdNBHPQjKn9FJCT6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: tfdr8MdNBHPQjKn9FJCT6
 sets: [BRI, ELE]
+codes: [BRI018, ELE119]
 ---
 
 **Evergreen (red)** — Earth Action - Attack · cost 3 · 7 power · 2 defense

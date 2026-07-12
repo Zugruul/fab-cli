@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-drop-brocade, blood, drop, brocade, generic, equipment, chest]
+tags: [card, blood-drop-brocade, blood, drop, brocade, generic, equipment, chest, mon238]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JfBCWJdFBcrnhdkjRj6tz) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: JfBCWJdFBcrnhdkjRj6tz
 sets: [MON]
+codes: [MON238]
 ---
 
 **Blood Drop Brocade** — Generic Equipment - Chest · 0 defense

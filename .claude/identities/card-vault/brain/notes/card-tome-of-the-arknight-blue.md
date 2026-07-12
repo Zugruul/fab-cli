@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-the-arknight, tome, arknight, runeblade, action, go-again, pitch-3, cost-1]
+tags: [card, tome-of-the-arknight, tome, arknight, runeblade, action, go-again, pitch-3, cost-1, arc084, avs029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cWMCP7TF8MkHKQDgjj6jk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: cWMCP7TF8MkHKQDgjj6jk
 sets: [ARC, AVS]
+codes: [ARC084, AVS029]
 ---
 
 **Tome of the Arknight (blue)** — Runeblade Action · cost 1 · 2 defense

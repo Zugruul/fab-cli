@@ -1,5 +1,5 @@
 ---
-tags: [card, tear-asunder, tear, asunder, guardian, action, go-again, dominate, pitch-3, cost-3]
+tags: [card, tear-asunder, tear, asunder, guardian, action, go-again, dominate, pitch-3, cost-3, aps021, ele205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C8r9mHpCfPTcgggPdbMLB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: C8r9mHpCfPTcgggPdbMLB
 sets: [APS, ELE]
+codes: [APS021, ELE205]
 ---
 
 **Tear Asunder (blue)** — Guardian Action · cost 3 · 3 defense

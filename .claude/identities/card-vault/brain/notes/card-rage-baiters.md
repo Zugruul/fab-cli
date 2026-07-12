@@ -1,5 +1,5 @@
 ---
-tags: [card, rage-baiters, rage, baiters, assassin, equipment, arms, blade-break, mark]
+tags: [card, rage-baiters, rage, baiters, assassin, equipment, arms, blade-break, mark, aac006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6fz9gMGF7DDJWfj7D6Wp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break, Mark]
 unique-id: z6fz9gMGF7DDJWfj7D6Wp
 sets: [AAC]
+codes: [AAC006]
 ---
 
 **Rage Baiters** — Assassin Equipment - Arms · 1 defense

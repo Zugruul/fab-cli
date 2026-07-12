@@ -1,5 +1,5 @@
 ---
-tags: [card, display-loyalty, display, loyalty, ninja, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, display-loyalty, display, loyalty, ninja, draconic, action, attack, go-again, pitch-1, cost-0, cin010, gem010, hnt060, sfa013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cKp6hPc7WTW8Q98cHPM9P) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: cKp6hPc7WTW8Q98cHPM9P
 sets: [CIN, GEM, HNT, SFA]
+codes: [CIN010, GEM010, HNT060, SFA013]
 ---
 
 **Display Loyalty (red)** — Draconic Ninja Action - Attack · cost 0 · 3 power · 2 defense

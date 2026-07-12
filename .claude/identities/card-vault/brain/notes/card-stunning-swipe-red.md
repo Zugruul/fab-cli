@@ -1,5 +1,5 @@
 ---
-tags: [card, stunning-swipe, stunning, swipe, runeblade, lightning, action, attack, quickstrike, pitch-1, cost-0]
+tags: [card, stunning-swipe, stunning, swipe, runeblade, lightning, action, attack, quickstrike, pitch-1, cost-0, omn074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fg6fdKmQkGmCgkGprpKRR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Quickstrike]
 unique-id: fg6fdKmQkGmCgkGprpKRR
 sets: [OMN]
+codes: [OMN074]
 ---
 
 **Stunning Swipe (red)** — Lightning Runeblade Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tribute-to-the-legions-of-doom, tribute, legions, doom, brute, shadow, action, attack, blood-debt, pitch-3, cost-3]
+tags: [card, tribute-to-the-legions-of-doom, tribute, legions, doom, brute, shadow, action, attack, blood-debt, pitch-3, cost-3, dtd132]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KqJPNjpMbNhDNDkL8T8gM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: KqJPNjpMbNhDNDkL8T8gM
 sets: [DTD]
+codes: [DTD132]
 ---
 
 **Tribute to the Legions of Doom (blue)** — Shadow Brute Action - Attack · cost 3 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shadowrealm-horror, shadowrealm, horror, brute, shadow, action, attack, go-again, blood-debt, pitch-1, cost-2]
+tags: [card, shadowrealm-horror, shadowrealm, horror, brute, shadow, action, attack, go-again, blood-debt, pitch-1, cost-2, mst236]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q9rhJWLhqmFgpRdrb6LGM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Blood Debt]
 unique-id: q9rhJWLhqmFgpRdrb6LGM
 sets: [MST]
+codes: [MST236]
 ---
 
 **Shadowrealm Horror (red)** — Shadow Brute Action - Attack · cost 2 · 6 power · 3 defense

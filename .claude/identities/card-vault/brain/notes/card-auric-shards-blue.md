@@ -1,5 +1,5 @@
 ---
-tags: [card, auric-shards, auric, shards, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-1]
+tags: [card, auric-shards, auric, shards, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-1, omn029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KbN76qW8BpGFCBchTLHGh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: KbN76qW8BpGFCBchTLHGh
 sets: [OMN]
+codes: [OMN029]
 ---
 
 **Auric Shards (blue)** — Lightning Illusionist Instant - Aura · cost 1

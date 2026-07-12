@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-yesteryears, song, yesteryears, bard, action, pitch-3, cost-0]
+tags: [card, song-of-yesteryears, song, yesteryears, bard, action, pitch-3, cost-0, lgs222, tcc069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nzRWpgWz8fR6ChrGQWWdm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Song]
 unique-id: nzRWpgWz8fR6ChrGQWWdm
 sets: [LGS, TCC]
+codes: [LGS222, TCC069]
 ---
 
 **Song of Yesteryears (blue)** — Bard Action - Song · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, snap-fingers, snap, fingers, runeblade, lightning, equipment, arms]
+tags: [card, snap-fingers, snap, fingers, runeblade, lightning, equipment, arms, omn050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9t6zhmKcwhjTK8RRGCnTz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: 9t6zhmKcwhjTK8RRGCnTz
 sets: [OMN]
+codes: [OMN050]
 ---
 
 **Snap Fingers** — Lightning Runeblade Equipment - Arms · 0 defense

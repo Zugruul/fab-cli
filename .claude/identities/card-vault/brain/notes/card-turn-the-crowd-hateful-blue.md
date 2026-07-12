@@ -1,5 +1,5 @@
 ---
-tags: [card, turn-the-crowd-hateful, turn, crowd, hateful, action, attack, reviled, the-crowd-boos, pitch-3, cost-3]
+tags: [card, turn-the-crowd-hateful, turn, crowd, hateful, action, attack, reviled, the-crowd-boos, pitch-3, cost-3, sup116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqbjwbhDzHzdjzP8WdBCn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [The Crowd Boos]
 unique-id: gqbjwbhDzHzdjzP8WdBCn
 sets: [SUP]
+codes: [SUP116]
 ---
 
 **Turn the Crowd Hateful (blue)** — Reviled Action - Attack · cost 3 · 3 power · 2 defense

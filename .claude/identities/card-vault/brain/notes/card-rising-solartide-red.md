@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-solartide, rising, solartide, light, action, attack, pitch-1, cost-1]
+tags: [card, rising-solartide, rising, solartide, light, action, attack, pitch-1, cost-1, bol025, mon078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Dr8NPdFcFHJzh7rGjbpFw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Dr8NPdFcFHJzh7rGjbpFw
 sets: [BOL, MON]
+codes: [BOL025, MON078]
 ---
 
 **Rising Solartide (red)** — Light Action - Attack · cost 1 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, katsu, ninja, hero, young]
+tags: [card, katsu, ninja, hero, young, 1hp087, her007, her056, kat001, ksu002, out046, wtr077, xxx004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QnGJNBGBFw98q9n9NCdRW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Ninja]
 types: [Hero]
 unique-id: QnGJNBGBFw98q9n9NCdRW
 sets: [1HP, HER, KAT, KSU, OUT, WTR, XXX]
+codes: [1HP087, HER007, HER056, KAT001, KSU002, OUT046, WTR077, XXX004]
 ---
 
 **Katsu** — Ninja Hero - Young · 20 health · 4 int

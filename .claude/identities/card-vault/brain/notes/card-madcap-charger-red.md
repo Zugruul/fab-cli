@@ -1,5 +1,5 @@
 ---
-tags: [card, madcap-charger, madcap, charger, brute, action, attack, go-again, pitch-1, cost-1]
+tags: [card, madcap-charger, madcap, charger, brute, action, attack, go-again, pitch-1, cost-1, dyn016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FpCPnCGzzFrgrPpjpFP66) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: FpCPnCGzzFrgrPpjpFP66
 sets: [DYN]
+codes: [DYN016]
 ---
 
 **Madcap Charger (red)** — Brute Action - Attack · cost 1 · 5 power · 3 defense

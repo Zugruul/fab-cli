@@ -1,5 +1,5 @@
 ---
-tags: [card, embody-greatness, embody, greatness, shapeshifter, instant, shiyana-specialization, pitch-2, cost-0]
+tags: [card, embody-greatness, embody, greatness, shapeshifter, instant, shiyana-specialization, pitch-2, cost-0, pen121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MNDjrGBMKh8LtjTdhPrfz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Shiyana Specialization]
 unique-id: MNDjrGBMKh8LtjTdhPrfz
 sets: [PEN]
+codes: [PEN121]
 ---
 
 **Embody Greatness (yellow)** — Shapeshifter Instant · cost 0

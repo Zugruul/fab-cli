@@ -1,5 +1,5 @@
 ---
-tags: [card, empyrean-rapture, empyrean, rapture, illusionist, light, equipment, chest]
+tags: [card, empyrean-rapture, empyrean, rapture, illusionist, light, equipment, chest, dtd004, fab138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mr6TbnRrKTrJWndKh8QwF) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: Mr6TbnRrKTrJWndKh8QwF
 sets: [DTD, FAB]
+codes: [DTD004, FAB138]
 ---
 
 **Empyrean Rapture** — Light Illusionist Equipment - Chest

@@ -1,5 +1,5 @@
 ---
-tags: [card, pouncing-qi, pouncing, qi, ninja, action, attack, combo, go-again, pitch-1, cost-0]
+tags: [card, pouncing-qi, pouncing, qi, ninja, action, attack, combo, go-again, pitch-1, cost-0, dyn056, mst182, tcc089, zen011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jDjbmKWW9RHJwwncKDDfK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: jDjbmKWW9RHJwwncKDDfK
 sets: [DYN, MST, TCC, ZEN]
+codes: [DYN056, MST182, TCC089, ZEN011]
 ---
 
 **Pouncing Qi (red)** — Ninja Action - Attack · cost 0 · 3 power · 3 defense

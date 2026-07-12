@@ -1,5 +1,5 @@
 ---
-tags: [card, lead-with-power, lead, power, brute, guardian, action, go-again, pitch-1, cost-1]
+tags: [card, lead-with-power, lead, power, brute, guardian, action, go-again, pitch-1, cost-1, hvy152, kyo013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zCCQtzBrr9QWp6fqDQNrC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: zCCQtzBrr9QWp6fqDQNrC
 sets: [HVY, KYO]
+codes: [HVY152, KYO013]
 ---
 
 **Lead with Power (red)** — Brute / Guardian Action · cost 1 · 2 defense

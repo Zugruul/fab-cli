@@ -1,5 +1,5 @@
 ---
-tags: [card, frazzle, ranger, elemental, action, arrow, attack, lightning-fusion, pitch-3, cost-1]
+tags: [card, frazzle, ranger, elemental, action, arrow, attack, lightning-fusion, pitch-3, cost-1, ele061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nQMFLbtnFwQJhgzFMMcrd) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Lightning Fusion]
 unique-id: nQMFLbtnFwQJhgzFMMcrd
 sets: [ELE]
+codes: [ELE061]
 ---
 
 **Frazzle (blue)** — Elemental Ranger Action - Arrow Attack · cost 1 · 3 power · 3 defense

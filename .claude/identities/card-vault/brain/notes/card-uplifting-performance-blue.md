@@ -1,5 +1,5 @@
 ---
-tags: [card, uplifting-performance, uplifting, performance, guardian, action, attack, revered, pitch-3, cost-3]
+tags: [card, uplifting-performance, uplifting, performance, guardian, action, attack, revered, pitch-3, cost-3, aps020, lgs419, sup016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQLpnnKFRhCrdMnwgdNHH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: PQLpnnKFRhCrdMnwgdNHH
 sets: [APS, LGS, SUP]
+codes: [APS020, LGS419, SUP016]
 ---
 
 **Uplifting Performance (blue)** — Revered Guardian Action - Attack · cost 3 · 5 power · 3 defense

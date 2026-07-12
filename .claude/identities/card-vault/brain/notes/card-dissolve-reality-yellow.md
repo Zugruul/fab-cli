@@ -1,5 +1,5 @@
 ---
-tags: [card, dissolve-reality, dissolve, reality, illusionist, action, go-again, pitch-2, cost-0]
+tags: [card, dissolve-reality, dissolve, reality, illusionist, action, go-again, pitch-2, cost-0, hvy253]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gnCCKC87FkrLRgfz9dhFf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: gnCCKC87FkrLRgfz9dhFf
 sets: [HVY]
+codes: [HVY253]
 ---
 
 **Dissolve Reality (yellow)** — Illusionist Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, engulfing-light, engulfing, light, warrior, action, attack, charge, pitch-3, cost-0]
+tags: [card, engulfing-light, engulfing, light, warrior, action, attack, charge, pitch-3, cost-0, bol023, mon050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DbFJncpjwQmp8mg99RPqL) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: DbFJncpjwQmp8mg99RPqL
 sets: [BOL, MON]
+codes: [BOL023, MON050]
 ---
 
 **Engulfing Light (blue)** — Light Warrior Action - Attack · cost 0 · 1 power · 3 defense

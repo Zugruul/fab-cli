@@ -1,5 +1,5 @@
 ---
-tags: [card, coax-a-commotion, coax, commotion, generic, action, attack, pitch-1, cost-0]
+tags: [card, coax-a-commotion, coax, commotion, generic, action, attack, pitch-1, cost-0, 1hp359, cru180, tcc055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LzjkDR6QcL9WBztfDTRt9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: LzjkDR6QcL9WBztfDTRt9
 sets: [1HP, CRU, TCC]
+codes: [1HP359, CRU180, TCC055]
 ---
 
 **Coax a Commotion (red)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

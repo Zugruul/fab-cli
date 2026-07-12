@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-steel-soul-controller, evo, steel, soul, controller, mechanologist, action, equipment, base, arms, transform, temper, pitch-3, cost-4]
+tags: [card, evo-steel-soul-controller, evo, steel, soul, controller, mechanologist, action, equipment, base, arms, transform, temper, pitch-3, cost-4, evo028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hrt698DhrRNhNtJ8qFN8w) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Arms]
 keywords: [Transform, Temper]
 unique-id: Hrt698DhrRNhNtJ8qFN8w
 sets: [EVO]
+codes: [EVO028]
 ---
 
 **Evo Steel Soul Controller (blue)** — Mechanologist Action Equipment - Evo Base Arms · cost 4 · 3 defense

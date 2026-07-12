@@ -1,5 +1,5 @@
 ---
-tags: [card, distant-rumbling, distant, rumbling, guardian, action, aura, pitch-3, cost-0]
+tags: [card, distant-rumbling, distant, rumbling, guardian, action, aura, pitch-3, cost-0, pen025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kKWd9BMLq8LnWhMm7gqN8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: kKWd9BMLq8LnWhMm7gqN8
 sets: [PEN]
+codes: [PEN025]
 ---
 
 **Distant Rumbling (blue)** — Guardian Action - Aura · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, quantum-processor, quantum, processor, mechanologist, action, item, crank, pitch-2, cost-1]
+tags: [card, quantum-processor, quantum, processor, mechanologist, action, item, crank, pitch-2, cost-1, evo072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c8tGz8c7GKmBJRLTcQHfJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: c8tGz8c7GKmBJRLTcQHfJ
 sets: [EVO]
+codes: [EVO072]
 ---
 
 **Quantum Processor (yellow)** — Mechanologist Action - Item · cost 1

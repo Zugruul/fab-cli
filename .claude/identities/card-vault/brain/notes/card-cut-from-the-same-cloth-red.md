@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-from-the-same-cloth, cut, same, cloth, assassin, warrior, action, mark, go-again, pitch-1, cost-0]
+tags: [card, cut-from-the-same-cloth, cut, same, cloth, assassin, warrior, action, mark, go-again, pitch-1, cost-0, hnt202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D6JbcW8RH7kTQqrp9CLwb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Mark, Go again]
 unique-id: D6JbcW8RH7kTQqrp9CLwb
 sets: [HNT]
+codes: [HNT202]
 ---
 
 **Cut from the Same Cloth (red)** — Assassin / Warrior Action · cost 0 · 2 defense

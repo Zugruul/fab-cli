@@ -1,5 +1,5 @@
 ---
-tags: [card, hala-bladesaint-of-the-vow, hala, bladesaint, vow, warrior, hero, adult]
+tags: [card, hala-bladesaint-of-the-vow, hala, bladesaint, vow, warrior, hero, adult, aha001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FQFkLFgp9pJqdd8mQkJTQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: FQFkLFgp9pJqdd8mQkJTQ
 sets: [AHA]
+codes: [AHA001]
 ---
 
 **Hala, Bladesaint of the Vow** — Warrior Hero · 40 health · 4 int

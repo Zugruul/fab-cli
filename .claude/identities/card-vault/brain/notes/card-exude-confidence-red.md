@@ -1,5 +1,5 @@
 ---
-tags: [card, exude-confidence, exude, confidence, generic, action, attack, pitch-1, cost-0]
+tags: [card, exude-confidence, exude, confidence, generic, action, attack, pitch-1, cost-0, mon245]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RmRmtQCGDHrktQmrn7KhF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RmRmtQCGDHrktQmrn7KhF
 sets: [MON]
+codes: [MON245]
 ---
 
 **Exude Confidence (red)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

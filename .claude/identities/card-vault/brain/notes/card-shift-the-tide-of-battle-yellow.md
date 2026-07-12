@@ -1,5 +1,5 @@
 ---
-tags: [card, shift-the-tide-of-battle, shift, tide, battle, warrior, attack-reaction, go-again, pitch-2, cost-0]
+tags: [card, shift-the-tide-of-battle, shift, tide, battle, warrior, attack-reaction, go-again, pitch-2, cost-0, hvy102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tpMDpBjtFznFdgjFtnqQf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: tpMDpBjtFznFdgjFtnqQf
 sets: [HVY]
+codes: [HVY102]
 ---
 
 **Shift the Tide of Battle (yellow)** — Warrior Attack Reaction · cost 0 · 3 defense

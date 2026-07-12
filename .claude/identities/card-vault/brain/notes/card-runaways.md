@@ -1,5 +1,5 @@
 ---
-tags: [card, runaways, generic, equipment, legs]
+tags: [card, runaways, generic, equipment, legs, aua006, ele236, ros215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QFg6Qh7ckkNzfhkDrJdrh) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: QFg6Qh7ckkNzfhkDrJdrh
 sets: [AUA, ELE, ROS]
+codes: [AUA006, ELE236, ROS215]
 ---
 
 **Runaways** — Generic Equipment - Legs · 0 defense

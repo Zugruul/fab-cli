@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanic-shockwave, arcanic, shockwave, runeblade, elemental, action, attack, lightning-fusion, pitch-3, cost-0]
+tags: [card, arcanic-shockwave, arcanic, shockwave, runeblade, elemental, action, attack, lightning-fusion, pitch-3, cost-0, ele075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fHRbFnj8CDThpRPckFMQB) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Fusion]
 unique-id: fHRbFnj8CDThpRPckFMQB
 sets: [ELE]
+codes: [ELE075]
 ---
 
 **Arcanic Shockwave (blue)** — Elemental Runeblade Action - Attack · cost 0 · 2 power · 3 defense

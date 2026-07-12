@@ -1,5 +1,5 @@
 ---
-tags: [card, heavy-industry-surveillance, heavy, industry, surveillance, mechanologist, equipment, head, temper]
+tags: [card, heavy-industry-surveillance, heavy, industry, surveillance, mechanologist, equipment, head, temper, aio003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDgpj7cmFJwFWqdrHgngk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Temper]
 unique-id: HDgpj7cmFJwFWqdrHgngk
 sets: [AIO]
+codes: [AIO003]
 ---
 
 **Heavy Industry Surveillance** — Mechanologist Equipment - Head · 1 defense

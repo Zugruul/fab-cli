@@ -1,5 +1,5 @@
 ---
-tags: [card, skyzyk, lightning, action, attack, pitch-1, cost-0]
+tags: [card, skyzyk, lightning, action, attack, pitch-1, cost-0, ast013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HHt6w8PmCTDJkCtGdKjbm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HHt6w8PmCTDJkCtGdKjbm
 sets: [AST]
+codes: [AST013]
 ---
 
 **Skyzyk (red)** — Lightning Action - Attack · cost 0 · 3 power · 3 defense

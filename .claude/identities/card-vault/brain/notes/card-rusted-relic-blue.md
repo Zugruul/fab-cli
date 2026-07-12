@@ -1,5 +1,5 @@
 ---
-tags: [card, rusted-relic, rusted, relic, generic, action, item, arcane-barrier-1, pitch-3, cost-0]
+tags: [card, rusted-relic, rusted, relic, generic, action, item, arcane-barrier-1, pitch-3, cost-0, anq023, arc163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CCwMfr7DptzKNpLPDwtDc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Arcane Barrier 1]
 unique-id: CCwMfr7DptzKNpLPDwtDc
 sets: [ANQ, ARC]
+codes: [ANQ023, ARC163]
 ---
 
 **Rusted Relic (blue)** — Generic Action - Item · cost 0

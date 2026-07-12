@@ -1,5 +1,5 @@
 ---
-tags: [card, riled-up, riled, up, brute, action, attack, pitch-2, cost-3]
+tags: [card, riled-up, riled, up, brute, action, attack, pitch-2, cost-3, 1hp029, cru017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B9HmMb6jB9M8kWFLH86fT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: B9HmMb6jB9M8kWFLH86fT
 sets: [1HP, CRU]
+codes: [1HP029, CRU017]
 ---
 
 **Riled Up (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

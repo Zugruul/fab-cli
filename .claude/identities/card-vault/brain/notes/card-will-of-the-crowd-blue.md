@@ -1,5 +1,5 @@
 ---
-tags: [card, will-of-the-crowd, will, crowd, block, revered, pitch-3]
+tags: [card, will-of-the-crowd, will, crowd, block, revered, pitch-3, sup035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TTmc9j7H9WLgM9D6NfnbN) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Block]
 other-types: [Revered]
 unique-id: TTmc9j7H9WLgM9D6NfnbN
 sets: [SUP]
+codes: [SUP035]
 ---
 
 **Will of the Crowd (blue)** — Revered Block · 2 defense

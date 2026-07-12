@@ -1,5 +1,5 @@
 ---
-tags: [card, arc-ramp, arc, ramp, wizard, lightning, action, go-again, amp-1, pitch-3, cost-0]
+tags: [card, arc-ramp, arc, ramp, wizard, lightning, action, go-again, amp-1, pitch-3, cost-0, omn102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9btBbfjNhPmdQwJLTNnGq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again, Amp 1]
 unique-id: 9btBbfjNhPmdQwJLTNnGq
 sets: [OMN]
+codes: [OMN102]
 ---
 
 **Arc Ramp (blue)** — Lightning Wizard Action · cost 0 · 2 defense

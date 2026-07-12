@@ -1,5 +1,5 @@
 ---
-tags: [card, riddle-with-regret, riddle, regret, chaos, action, aura, go-again, pitch-1, cost-0]
+tags: [card, riddle-with-regret, riddle, regret, chaos, action, aura, go-again, pitch-1, cost-0, sea256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QTCtQrNNqdCGRr8CFmqcp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: QTCtQrNNqdCGRr8CFmqcp
 sets: [SEA]
+codes: [SEA256]
 ---
 
 **Riddle with Regret (red)** — Chaos Action - Aura · cost 0 · 2 defense

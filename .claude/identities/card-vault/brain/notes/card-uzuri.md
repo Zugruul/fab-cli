@@ -1,5 +1,5 @@
 ---
-tags: [card, uzuri, assassin, hero, young]
+tags: [card, uzuri, assassin, hero, young, her076, her083, out002, uzu001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QmqN6fJJMnLDjLHKF7g97) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Assassin]
 types: [Hero]
 unique-id: QmqN6fJJMnLDjLHKF7g97
 sets: [HER, OUT, UZU]
+codes: [HER076, HER083, OUT002, UZU001]
 ---
 
 **Uzuri** — Assassin Hero - Young · 20 health · 4 int

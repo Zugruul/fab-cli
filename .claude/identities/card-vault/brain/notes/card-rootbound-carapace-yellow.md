@@ -1,5 +1,5 @@
 ---
-tags: [card, rootbound-carapace, rootbound, carapace, earth, defense-reaction, decompose, pitch-2, cost-0]
+tags: [card, rootbound-carapace, rootbound, carapace, earth, defense-reaction, decompose, pitch-2, cost-0, lgs353, ros043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rHt7wrBkFcGCKBNq8BckW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Decompose]
 unique-id: rHt7wrBkFcGCKBNq8BckW
 sets: [LGS, ROS]
+codes: [LGS353, ROS043]
 ---
 
 **Rootbound Carapace (yellow)** — Earth Defense Reaction · cost 0 · 2 defense

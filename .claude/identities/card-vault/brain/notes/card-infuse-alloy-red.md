@@ -1,5 +1,5 @@
 ---
-tags: [card, infuse-alloy, infuse, alloy, mechanologist, action, attack, galvanize, pitch-1, cost-0]
+tags: [card, infuse-alloy, infuse, alloy, mechanologist, action, attack, galvanize, pitch-1, cost-0, evo120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gGFjwC7rpLfpdBWDdQwgn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Galvanize]
 unique-id: gGFjwC7rpLfpdBWDdQwgn
 sets: [EVO]
+codes: [EVO120]
 ---
 
 **Infuse Alloy (red)** — Mechanologist Action - Attack · cost 0 · 4 power · 2 defense

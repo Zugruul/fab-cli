@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-gaslight, graven, gaslight, assassin, equipment, off-hand, spellvoid-1]
+tags: [card, graven-gaslight, graven, gaslight, assassin, equipment, off-hand, spellvoid-1, gem106, pen136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wkgMjwtjQk7NCGLFt9wDw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Off-Hand]
 keywords: [Spellvoid 1]
 unique-id: wkgMjwtjQk7NCGLFt9wDw
 sets: [GEM, PEN]
+codes: [GEM106, PEN136]
 ---
 
 **Graven Gaslight** — Assassin Equipment - Off-Hand

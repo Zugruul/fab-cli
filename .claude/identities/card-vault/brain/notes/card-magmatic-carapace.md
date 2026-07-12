@@ -1,5 +1,5 @@
 ---
-tags: [card, magmatic-carapace, magmatic, carapace, guardian, equipment, chest, guardwell]
+tags: [card, magmatic-carapace, magmatic, carapace, guardian, equipment, chest, guardwell, pen017, sbr007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JH8mLKJQjfKTt9Nb7Whf6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Guardwell]
 unique-id: JH8mLKJQjfKTt9Nb7Whf6
 sets: [PEN, SBR]
+codes: [PEN017, SBR007]
 ---
 
 **Magmatic Carapace** — Guardian Equipment - Chest · 2 defense

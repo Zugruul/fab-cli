@@ -1,5 +1,5 @@
 ---
-tags: [card, mutated-mass, mutated, mass, shadow, action, attack, blood-debt, pitch-3, cost-1]
+tags: [card, mutated-mass, mutated, mass, shadow, action, attack, blood-debt, pitch-3, cost-1, mon191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fw7hr8tGFkDbJkJB8Gjhk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: Fw7hr8tGFkDbJkJB8Gjhk
 sets: [MON]
+codes: [MON191]
 ---
 
 **Mutated Mass (blue)** — Shadow Action - Attack · cost 1 · * power · * defense

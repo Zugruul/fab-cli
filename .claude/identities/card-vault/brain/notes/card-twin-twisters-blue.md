@@ -1,5 +1,5 @@
 ---
-tags: [card, twin-twisters, twin, twisters, ninja, action, attack, go-again, pitch-3, cost-1]
+tags: [card, twin-twisters, twin, twisters, ninja, action, attack, go-again, pitch-3, cost-1, evr049, out088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RrMqgK8fbbhbJMTqcKbdM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: RrMqgK8fbbhbJMTqcKbdM
 sets: [EVR, OUT]
+codes: [EVR049, OUT088]
 ---
 
 **Twin Twisters (blue)** — Ninja Action - Attack · cost 1 · 1 power · 2 defense

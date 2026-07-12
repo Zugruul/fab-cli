@@ -1,5 +1,5 @@
 ---
-tags: [card, phoenix-bannerman-legs, phoenix, bannerman, legs, draconic, action, legendary, go-again, pitch-1, cost-0]
+tags: [card, phoenix-bannerman-legs, phoenix, bannerman, legs, draconic, action, legendary, go-again, pitch-1, cost-0, pen260]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pzRnkq7DmN7n6DhwpH7jL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Legendary, Go again]
 unique-id: pzRnkq7DmN7n6DhwpH7jL
 sets: [PEN]
+codes: [PEN260]
 ---
 
 **Phoenix Bannerman: Legs (red)** — Draconic Action · cost 0 · 3 defense

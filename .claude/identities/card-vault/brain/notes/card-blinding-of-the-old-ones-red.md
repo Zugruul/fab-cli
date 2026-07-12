@@ -1,5 +1,5 @@
 ---
-tags: [card, blinding-of-the-old-ones, blinding, old, ones, guardian, action, attack, crush, heave-2, pitch-1, cost-6]
+tags: [card, blinding-of-the-old-ones, blinding, old, ones, guardian, action, attack, crush, heave-2, pitch-1, cost-6, mpg026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mdLNBgt6kTMfdG9c97jP9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush, Heave 2]
 unique-id: mdLNBgt6kTMfdG9c97jP9
 sets: [MPG]
+codes: [MPG026]
 ---
 
 **Blinding of the Old Ones (red)** — Guardian Action - Attack · cost 6 · 10 power · 3 defense

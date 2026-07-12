@@ -1,5 +1,5 @@
 ---
-tags: [card, money-or-your-life, money, or, your, life, generic, action, attack, pitch-3, cost-3]
+tags: [card, money-or-your-life, money, or, your, life, generic, action, attack, pitch-3, cost-3, sea205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FG8PKbFmKK7Tgck8BjrdW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: FG8PKbFmKK7Tgck8BjrdW
 sets: [SEA]
+codes: [SEA205]
 ---
 
 **Money or Your Life? (blue)** — Generic Action - Attack · cost 3 · 4 power · 2 defense

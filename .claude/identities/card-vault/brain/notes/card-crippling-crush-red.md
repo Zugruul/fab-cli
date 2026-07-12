@@ -1,5 +1,5 @@
 ---
-tags: [card, crippling-crush, crippling, crush, guardian, action, attack, bravo-specialization, pitch-1, cost-7]
+tags: [card, crippling-crush, crippling, crush, guardian, action, attack, bravo-specialization, pitch-1, cost-7, 1hp050, wtr043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid j8jjnw6NmpTpf9cWThfgg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Bravo Specialization, Crush]
 unique-id: j8jjnw6NmpTpf9cWThfgg
 sets: [1HP, WTR]
+codes: [1HP050, WTR043]
 ---
 
 **Crippling Crush (red)** — Guardian Action - Attack · cost 7 · 11 power · 3 defense

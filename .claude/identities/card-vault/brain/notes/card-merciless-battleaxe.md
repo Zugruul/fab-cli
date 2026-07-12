@@ -1,5 +1,5 @@
 ---
-tags: [card, merciless-battleaxe, merciless, battleaxe, warrior, weapon, axe, 2h, overpower]
+tags: [card, merciless-battleaxe, merciless, battleaxe, warrior, weapon, axe, 2h, overpower, dyn068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nGkpNDKckjzwbzBqM7N8f) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Axe, 2H]
 keywords: [Overpower]
 unique-id: nGkpNDKckjzwbzBqM7N8f
 sets: [DYN]
+codes: [DYN068]
 ---
 
 **Merciless Battleaxe** — Warrior Weapon - Axe (2H) · 3 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, thespian-charm, thespian, charm, guardian, instant, revered, the-crowd-cheers, pitch-2, cost-0]
+tags: [card, thespian-charm, thespian, charm, guardian, instant, revered, the-crowd-cheers, pitch-2, cost-0, aps014, fab371, lgs423, sup013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NwWCLDRkRhtkT8JrRnFgt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: NwWCLDRkRhtkT8JrRnFgt
 sets: [APS, FAB, LGS, SUP]
+codes: [APS014, FAB371, LGS423, SUP013]
 ---
 
 **Thespian Charm (yellow)** — Revered Guardian Instant · cost 0

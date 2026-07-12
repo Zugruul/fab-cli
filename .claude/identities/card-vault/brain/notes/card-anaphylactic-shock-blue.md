@@ -1,5 +1,5 @@
 ---
-tags: [card, anaphylactic-shock, anaphylactic, shock, assassin, instant, trap, pitch-3, cost-0]
+tags: [card, anaphylactic-shock, anaphylactic, shock, assassin, instant, trap, pitch-3, cost-0, hnt016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b8QzFkMC9fKfngpQHwNBK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Trap]
 unique-id: b8QzFkMC9fKfngpQHwNBK
 sets: [HNT]
+codes: [HNT016]
 ---
 
 **Anaphylactic Shock (blue)** — Assassin Instant - Trap · cost 0

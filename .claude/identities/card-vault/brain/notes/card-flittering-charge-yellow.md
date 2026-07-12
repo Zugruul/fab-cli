@@ -1,5 +1,5 @@
 ---
-tags: [card, flittering-charge, flittering, charge, lightning, action, attack, go-again, pitch-2, cost-0]
+tags: [card, flittering-charge, flittering, charge, lightning, action, attack, go-again, pitch-2, cost-0, lgs338, ros090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQbd6FrtTPTWfWQLT6Gr7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: PQbd6FrtTPTWfWQLT6Gr7
 sets: [LGS, ROS]
+codes: [LGS338, ROS090]
 ---
 
 **Flittering Charge (yellow)** — Lightning Action - Attack · cost 0 · 3 power · 2 defense

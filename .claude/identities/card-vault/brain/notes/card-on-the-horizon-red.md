@@ -1,5 +1,5 @@
 ---
-tags: [card, on-the-horizon, horizon, generic, block, pitch-1]
+tags: [card, on-the-horizon, horizon, generic, block, pitch-1, gem067, sea241, sen018, siy017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LqpTFf7TmpdtPgf8WtdfQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Block]
 unique-id: LqpTFf7TmpdtPgf8WtdfQ
 sets: [GEM, SEA, SEN, SIY]
+codes: [GEM067, SEA241, SEN018, SIY017]
 ---
 
 **On the Horizon (red)** — Generic Block · 4 defense

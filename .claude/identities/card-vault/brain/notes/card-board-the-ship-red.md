@@ -1,5 +1,5 @@
 ---
-tags: [card, board-the-ship, board, ship, pirate, necromancer, action, attack, overpower, pitch-1, cost-2]
+tags: [card, board-the-ship, board, ship, pirate, necromancer, action, attack, overpower, pitch-1, cost-2, fab347, sea053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nGCNDPFfPdhBFqBQBPWwk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: nGCNDPFfPdhBFqBQBPWwk
 sets: [FAB, SEA]
+codes: [FAB347, SEA053]
 ---
 
 **Board the Ship (red)** — Pirate Necromancer Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, stalagmite-bastion-of-isenloft, stalagmite, bastion, isenloft, guardian, ice, equipment, off-hand, temper]
+tags: [card, stalagmite-bastion-of-isenloft, stalagmite, bastion, isenloft, guardian, ice, equipment, off-hand, temper, evr018, fab078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BCpDT6GfzNwKW8qz7WbrN) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Off-Hand]
 keywords: [Temper]
 unique-id: BCpDT6GfzNwKW8qz7WbrN
 sets: [EVR, FAB]
+codes: [EVR018, FAB078]
 ---
 
 **Stalagmite, Bastion of Isenloft** — Ice Guardian Equipment - Off-Hand · 2 defense

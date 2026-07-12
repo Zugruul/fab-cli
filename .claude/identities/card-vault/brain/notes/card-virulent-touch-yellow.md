@@ -1,5 +1,5 @@
 ---
-tags: [card, virulent-touch, virulent, touch, assassin, ranger, action, attack, pitch-2, cost-0]
+tags: [card, virulent-touch, virulent, touch, assassin, ranger, action, attack, pitch-2, cost-0, out169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hw9HLQQjJ9nzWtBGFzWgc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hw9HLQQjJ9nzWtBGFzWgc
 sets: [OUT]
+codes: [OUT169]
 ---
 
 **Virulent Touch (yellow)** — Assassin / Ranger Action - Attack · cost 0 · 3 power · 2 defense

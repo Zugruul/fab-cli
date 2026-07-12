@@ -1,5 +1,5 @@
 ---
-tags: [card, glyph-overlay, glyph, overlay, wizard, action, surge, pitch-2, cost-1]
+tags: [card, glyph-overlay, glyph, overlay, wizard, action, surge, pitch-2, cost-1, ros174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R9WwPqkfTJnGhpN8fmnCt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: R9WwPqkfTJnGhpN8fmnCt
 sets: [ROS]
+codes: [ROS174]
 ---
 
 **Glyph Overlay (yellow)** — Wizard Action · cost 1 · 3 defense

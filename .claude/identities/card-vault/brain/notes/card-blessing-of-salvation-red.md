@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-salvation, blessing, salvation, light, action, pitch-1, cost-1]
+tags: [card, blessing-of-salvation, blessing, salvation, light, action, pitch-1, cost-1, dtd085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wrBQwfbdTLz8HzMWFQWRn) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Action]
 unique-id: wrBQwfbdTLz8HzMWFQWRn
 sets: [DTD]
+codes: [DTD085]
 ---
 
 **Blessing of Salvation (red)** — Light Action · cost 1 · 2 defense

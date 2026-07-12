@@ -1,5 +1,5 @@
 ---
-tags: [card, scuttle-the-canal, scuttle, canal, assassin, action, attack, stealth, go-again, pitch-1, cost-0]
+tags: [card, scuttle-the-canal, scuttle, canal, assassin, action, attack, stealth, go-again, pitch-1, cost-0, aac017, gem025, hnt047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CN9QrzcRcRDrRhPRqJCwk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Go again]
 unique-id: CN9QrzcRcRDrRhPRqJCwk
 sets: [AAC, GEM, HNT]
+codes: [AAC017, GEM025, HNT047]
 ---
 
 **Scuttle the Canal (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

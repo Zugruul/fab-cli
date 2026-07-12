@@ -1,5 +1,5 @@
 ---
-tags: [card, phantasmal-footsteps, phantasmal, footsteps, illusionist, equipment, legs]
+tags: [card, phantasmal-footsteps, phantasmal, footsteps, illusionist, equipment, legs, con002, fab019, mon089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDKn8nJQDRBKdgdTcjqh9) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: HDKn8nJQDRBKdgdTcjqh9
 sets: [CON, FAB, MON]
+codes: [CON002, FAB019, MON089]
 ---
 
 **Phantasmal Footsteps** — Illusionist Equipment - Legs · 0 defense

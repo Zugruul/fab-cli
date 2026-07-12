@@ -1,5 +1,5 @@
 ---
-tags: [card, bone-puppetry, bone, puppetry, necromancer, equipment, arms, blade-break]
+tags: [card, bone-puppetry, bone, puppetry, necromancer, equipment, arms, blade-break, pen151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wzmJ9hckLQFhDgbbJntzz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: wzmJ9hckLQFhDgbbJntzz
 sets: [PEN]
+codes: [PEN151]
 ---
 
 **Bone Puppetry** — Necromancer Equipment - Arms · 2 defense

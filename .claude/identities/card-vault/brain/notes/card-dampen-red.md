@@ -1,5 +1,5 @@
 ---
-tags: [card, dampen, wizard, action, pitch-1, cost-2]
+tags: [card, dampen, wizard, action, pitch-1, cost-2, upr170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rzGrbqkdk7nptwNhTJKCb) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: rzGrbqkdk7nptwNhTJKCb
 sets: [UPR]
+codes: [UPR170]
 ---
 
 **Dampen (red)** — Wizard Action · cost 2 · 3 defense

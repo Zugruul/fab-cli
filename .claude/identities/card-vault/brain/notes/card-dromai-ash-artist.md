@@ -1,5 +1,5 @@
 ---
-tags: [card, dromai-ash-artist, dromai, ash, artist, illusionist, draconic, hero, adult, go-again]
+tags: [card, dromai-ash-artist, dromai, ash, artist, illusionist, draconic, hero, adult, go-again, her059, her066, upr001, win018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PrJkWBKNgtNdzhqhWLGFw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: PrJkWBKNgtNdzhqhWLGFw
 sets: [HER, UPR, WIN]
+codes: [HER059, HER066, UPR001, WIN018]
 ---
 
 **Dromai, Ash Artist** — Draconic Illusionist Hero · 40 health · 4 int

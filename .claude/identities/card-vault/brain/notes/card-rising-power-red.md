@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-power, rising, power, brute, guardian, action, attack, pitch-1, cost-2]
+tags: [card, rising-power, rising, power, brute, guardian, action, attack, pitch-1, cost-2, hvy146, kyo011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HNT9PzL7tQJdKdKP8fNRz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HNT9PzL7tQJdKdKP8fNRz
 sets: [HVY, KYO]
+codes: [HVY146, KYO011]
 ---
 
 **Rising Power (red)** — Brute / Guardian Action - Attack · cost 2 · 6 power · 2 defense

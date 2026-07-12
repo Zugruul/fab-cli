@@ -1,5 +1,5 @@
 ---
-tags: [card, proclamation-of-production, proclamation, production, adjudicator, equipment, off-hand]
+tags: [card, proclamation-of-production, proclamation, production, adjudicator, equipment, off-hand, jdg019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7tzgdpf9qnJbqRp6PTNj7) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: 7tzgdpf9qnJbqRp6PTNj7
 sets: [JDG]
+codes: [JDG019]
 ---
 
 **Proclamation of Production** — Adjudicator Equipment - Off-Hand

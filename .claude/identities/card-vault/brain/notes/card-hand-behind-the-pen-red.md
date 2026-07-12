@@ -1,5 +1,5 @@
 ---
-tags: [card, hand-behind-the-pen, hand, behind, pen, generic, action, attack, pitch-1, cost-2]
+tags: [card, hand-behind-the-pen, hand, behind, pen, generic, action, attack, pitch-1, cost-2, fab271, ros220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBBtgw6Ft8RrfLHrjnnp6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: pBBtgw6Ft8RrfLHrjnnp6
 sets: [FAB, ROS]
+codes: [FAB271, ROS220]
 ---
 
 **Hand Behind the Pen (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

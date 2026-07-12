@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-war, figment, war, illusionist, light, instant, legendary, pitch-2, cost-4]
+tags: [card, figment-of-war, figment, war, illusionist, light, instant, legendary, pitch-2, cost-4, dtd012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qrhLKPQDzcR99cHLz7jgq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary]
 unique-id: qrhLKPQDzcR99cHLz7jgq
 sets: [DTD]
+codes: [DTD012]
 ---
 
 **Figment of War (yellow)** — Light Illusionist Instant - Figment · cost 4

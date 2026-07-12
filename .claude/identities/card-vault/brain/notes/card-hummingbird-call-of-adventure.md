@@ -1,5 +1,5 @@
 ---
-tags: [card, hummingbird-call-of-adventure, hummingbird, call, adventure, bard, weapon, lute, 2h]
+tags: [card, hummingbird-call-of-adventure, hummingbird, call, adventure, bard, weapon, lute, 2h, fab094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mgrmPqRmdHfMbptFfDcbC) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Lute, 2H]
 unique-id: mgrmPqRmdHfMbptFfDcbC
 sets: [FAB]
+codes: [FAB094]
 ---
 
 **Hummingbird, Call of Adventure** — Bard Weapon - Lute (2H)

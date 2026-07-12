@@ -1,5 +1,5 @@
 ---
-tags: [card, dominate-the-competition, dominate, competition, event]
+tags: [card, dominate-the-competition, dominate, competition, event, smp023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DmQPbpRWTzKJcwKLdB88B) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ types: [Event]
 keywords: [Dominate]
 unique-id: DmQPbpRWTzKJcwKLdB88B
 sets: [SMP]
+codes: [SMP023]
 ---
 
 **Dominate the Competition** — Event

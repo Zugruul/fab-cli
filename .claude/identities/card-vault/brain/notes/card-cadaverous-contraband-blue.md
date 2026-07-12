@@ -1,5 +1,5 @@
 ---
-tags: [card, cadaverous-contraband, cadaverous, contraband, generic, action, attack, pitch-3, cost-2]
+tags: [card, cadaverous-contraband, cadaverous, contraband, generic, action, attack, pitch-3, cost-2, arc181]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wzF9jpgGN8tPLtfrtrHfm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wzF9jpgGN8tPLtfrtrHfm
 sets: [ARC]
+codes: [ARC181]
 ---
 
 **Cadaverous Contraband (blue)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

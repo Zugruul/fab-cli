@@ -1,5 +1,5 @@
 ---
-tags: [card, jump-start, jump, start, mechanologist, action, attack, boost, pitch-1, cost-2]
+tags: [card, jump-start, jump, start, mechanologist, action, attack, boost, pitch-1, cost-2, amx011, dyn104, evo180, sda014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid drBDmHmGtr8qtbmgztwdH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: drBDmHmGtr8qtbmgztwdH
 sets: [AMX, DYN, EVO, SDA]
+codes: [AMX011, DYN104, EVO180, SDA014]
 ---
 
 **Jump Start (red)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

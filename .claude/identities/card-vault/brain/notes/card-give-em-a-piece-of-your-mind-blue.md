@@ -1,5 +1,5 @@
 ---
-tags: [card, give-em-a-piece-of-your-mind, give, em, piece, your, mind, brute, action, attack, pitch-3, cost-2]
+tags: [card, give-em-a-piece-of-your-mind, give, em, piece, your, mind, brute, action, attack, pitch-3, cost-2, sup154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fDRTh9GqLf8Hb8QpGbTH9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: fDRTh9GqLf8Hb8QpGbTH9
 sets: [SUP]
+codes: [SUP154]
 ---
 
 **Give 'Em a Piece of Your Mind (blue)** — Brute Action - Attack · cost 2 · 5 power · 2 defense

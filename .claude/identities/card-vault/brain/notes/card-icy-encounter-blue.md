@@ -1,5 +1,5 @@
 ---
-tags: [card, icy-encounter, icy, encounter, ice, action, attack, pitch-3, cost-2]
+tags: [card, icy-encounter, icy, encounter, ice, action, attack, pitch-3, cost-2, ele159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nCkGmQKJwMhgGgKWNWbGH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nCkGmQKJwMhgGgKWNWbGH
 sets: [ELE]
+codes: [ELE159]
 ---
 
 **Icy Encounter (blue)** — Ice Action - Attack · cost 2 · 4 power · 2 defense

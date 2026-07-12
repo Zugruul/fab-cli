@@ -1,5 +1,5 @@
 ---
-tags: [card, spectral-procession, spectral, procession, illusionist, action, attack, phantasm, pitch-1, cost-0]
+tags: [card, spectral-procession, spectral, procession, illusionist, action, attack, phantasm, pitch-1, cost-0, dyn216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qt6KzpDJ8JKfc9wNzgbmW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: qt6KzpDJ8JKfc9wNzgbmW
 sets: [DYN]
+codes: [DYN216]
 ---
 
 **Spectral Procession (red)** — Illusionist Action - Attack · cost 0 · * power · 3 defense

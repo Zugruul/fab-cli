@@ -1,5 +1,5 @@
 ---
-tags: [card, reya-the-unyielding, reya, unyielding, guardian, hero, pit-fighter, adult]
+tags: [card, reya-the-unyielding, reya, unyielding, guardian, hero, pit-fighter, adult, smp005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KnwNm8LC9DNpT8wMzDnFn) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 subtypes: [Pit-Fighter]
 unique-id: KnwNm8LC9DNpT8wMzDnFn
 sets: [SMP]
+codes: [SMP005]
 ---
 
 **Reya, the Unyielding** — Guardian Hero - Pit-Fighter · 21 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, barbed-barrage, barbed, barrage, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, barbed-barrage, barbed, barrage, ranger, action, arrow, attack, pitch-1, cost-1, sea098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qbkqDjRTCdJznpTWt8j67) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: qbkqDjRTCdJznpTWt8j67
 sets: [SEA]
+codes: [SEA098]
 ---
 
 **Barbed Barrage (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

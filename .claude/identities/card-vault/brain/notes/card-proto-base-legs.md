@@ -1,5 +1,5 @@
 ---
-tags: [card, proto-base-legs, proto, base, legs, mechanologist, equipment]
+tags: [card, proto-base-legs, proto, base, legs, mechanologist, equipment, evo025, lgs185, tcc006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nggPgQmcj9hBWttfDrKtn) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Base, Legs]
 unique-id: nggPgQmcj9hBWttfDrKtn
 sets: [EVO, LGS, TCC]
+codes: [EVO025, LGS185, TCC006]
 ---
 
 **Proto Base Legs** — Mechanologist Equipment - Base Legs

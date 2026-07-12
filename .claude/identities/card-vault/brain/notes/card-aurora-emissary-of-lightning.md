@@ -1,5 +1,5 @@
 ---
-tags: [card, aurora-emissary-of-lightning, aurora, emissary, lightning, runeblade, hero, young]
+tags: [card, aurora-emissary-of-lightning, aurora, emissary, lightning, runeblade, hero, young, omn048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WwKdgRBmtM6CpRjwM97Lh) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Hero]
 unique-id: WwKdgRBmtM6CpRjwM97Lh
 sets: [OMN]
+codes: [OMN048]
 ---
 
 **Aurora, Emissary of Lightning** — Lightning Runeblade Hero - Young · 20 health · 4 int

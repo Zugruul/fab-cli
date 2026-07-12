@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-of-the-black-widow, mark, black, widow, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, mark-of-the-black-widow, mark, black, widow, assassin, action, attack, stealth, pitch-2, cost-0, hnt033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8PNj9qcfb8mnpfGwQBncz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 8PNj9qcfb8mnpfGwQBncz
 sets: [HNT]
+codes: [HNT033]
 ---
 
 **Mark of the Black Widow (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

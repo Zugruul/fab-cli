@@ -1,5 +1,5 @@
 ---
-tags: [card, grimoire-of-fellingsong, grimoire, fellingsong, runeblade, equipment, off-hand]
+tags: [card, grimoire-of-fellingsong, grimoire, fellingsong, runeblade, equipment, off-hand, gem110, pen092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fjzKPPn6MD6qHWGTbwWtM) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: fjzKPPn6MD6qHWGTbwWtM
 sets: [GEM, PEN]
+codes: [GEM110, PEN092]
 ---
 
 **Grimoire of Fellingsong** — Runeblade Equipment - Off-Hand

@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-zip-line, evo, zip, line, mechanologist, instant, equipment, legs, transform, go-again, pitch-2, cost-0]
+tags: [card, evo-zip-line, evo, zip, line, mechanologist, instant, equipment, legs, transform, go-again, pitch-2, cost-0, evo053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MdmK9dmLDpbC7GFcz6W7C) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Legs]
 keywords: [Transform, Go again]
 unique-id: MdmK9dmLDpbC7GFcz6W7C
 sets: [EVO]
+codes: [EVO053]
 ---
 
 **Evo Zip Line (yellow)** — Mechanologist Instant Equipment - Evo Legs · cost 0 · 0 defense

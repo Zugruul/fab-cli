@@ -1,5 +1,5 @@
 ---
-tags: [card, weeping-battleground, weeping, battleground, runeblade, defense-reaction, pitch-3, cost-0]
+tags: [card, weeping-battleground, weeping, battleground, runeblade, defense-reaction, pitch-3, cost-0, pen105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7p7hTRTHwWpBMrpW7HzD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Runeblade]
 types: [Defense Reaction]
 unique-id: m7p7hTRTHwWpBMrpW7HzD
 sets: [PEN]
+codes: [PEN105]
 ---
 
 **Weeping Battleground (blue)** — Runeblade Defense Reaction · cost 0 · 3 defense

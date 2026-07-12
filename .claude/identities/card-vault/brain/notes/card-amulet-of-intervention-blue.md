@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-intervention, amulet, intervention, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, amulet-of-intervention, amulet, intervention, generic, action, item, go-again, pitch-3, cost-0, evr180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77HjThGWgwMQMqDRNBLMc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: 77HjThGWgwMQMqDRNBLMc
 sets: [EVR]
+codes: [EVR180]
 ---
 
 **Amulet of Intervention (blue)** — Generic Action - Item · cost 0

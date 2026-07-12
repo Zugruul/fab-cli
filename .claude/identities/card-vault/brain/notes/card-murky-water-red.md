@@ -1,5 +1,5 @@
 ---
-tags: [card, murky-water, murky, water, ranger, action, arrow, attack, riptide-specialization, dominate, pitch-1, cost-2]
+tags: [card, murky-water, murky, water, ranger, action, arrow, attack, riptide-specialization, dominate, pitch-1, cost-2, mst233]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RmpWGrQMtkjKRfd8QqrGJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Riptide Specialization, Dominate]
 unique-id: RmpWGrQMtkjKRfd8QqrGJ
 sets: [MST]
+codes: [MST233]
 ---
 
 **Murky Water (red)** — Ranger Action - Arrow Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hundred-winds, hundred, winds, ninja, action, attack, combo, go-again, pitch-2, cost-0]
+tags: [card, hundred-winds, hundred, winds, ninja, action, attack, combo, go-again, pitch-2, cost-0, evr042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gcfNgcdDLzRGCmpfWnKqF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: gcfNgcdDLzRGCmpfWnKqF
 sets: [EVR]
+codes: [EVR042]
 ---
 
 **Hundred Winds (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, entangling-shot, entangling, shot, ranger, action, arrow, attack, pitch-1, cost-0]
+tags: [card, entangling-shot, entangling, shot, ranger, action, arrow, attack, pitch-1, cost-0, gem060, saz013, sea107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JKqPrBhgGqjjWjnwBPpJN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: JKqPrBhgGqjjWjnwBPpJN
 sets: [GEM, SAZ, SEA]
+codes: [GEM060, SAZ013, SEA107]
 ---
 
 **Entangling Shot (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

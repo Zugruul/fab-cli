@@ -1,5 +1,5 @@
 ---
-tags: [card, harvest-season, harvest, season, earth, action, aura, go-again, pitch-2, cost-1]
+tags: [card, harvest-season, harvest, season, earth, action, aura, go-again, pitch-2, cost-1, ros062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7Dzp8kPW6kJPj7tQKL79w) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: 7Dzp8kPW6kJPj7tQKL79w
 sets: [ROS]
+codes: [ROS062]
 ---
 
 **Harvest Season (yellow)** — Earth Action - Aura · cost 1 · 2 defense

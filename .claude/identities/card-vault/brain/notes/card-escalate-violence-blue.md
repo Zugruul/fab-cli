@@ -1,5 +1,5 @@
 ---
-tags: [card, escalate-violence, escalate, violence, action, attack, reviled, pitch-3, cost-1]
+tags: [card, escalate-violence, escalate, violence, action, attack, reviled, pitch-3, cost-1, sup084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CrhRqD9BkQGpHpmRN8JwC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: CrhRqD9BkQGpHpmRN8JwC
 sets: [SUP]
+codes: [SUP084]
 ---
 
 **Escalate Violence (blue)** — Reviled Action - Attack · cost 1 · 3 power · 3 defense

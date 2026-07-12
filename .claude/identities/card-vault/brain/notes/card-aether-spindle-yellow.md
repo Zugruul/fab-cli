@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-spindle, aether, spindle, wizard, action, opt-x, pitch-2, cost-2]
+tags: [card, aether-spindle, aether, spindle, wizard, action, opt-x, pitch-2, cost-2, 1hp315, arc127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7kLCKQ6thffmpJQpLhzzJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt X]
 unique-id: 7kLCKQ6thffmpJQpLhzzJ
 sets: [1HP, ARC]
+codes: [1HP315, ARC127]
 ---
 
 **Aether Spindle (yellow)** — Wizard Action · cost 2 · 3 defense

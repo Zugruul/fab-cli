@@ -1,5 +1,5 @@
 ---
-tags: [card, thunder-quake, thunder, quake, guardian, action, attack, heave-3, pitch-1, cost-6]
+tags: [card, thunder-quake, thunder, quake, guardian, action, attack, heave-3, pitch-1, cost-6, bdd009, evr024, mpg088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8L9nbmwtGjCRCDdDBqRQc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Heave 3]
 unique-id: 8L9nbmwtGjCRCDdDBqRQc
 sets: [BDD, EVR, MPG]
+codes: [BDD009, EVR024, MPG088]
 ---
 
 **Thunder Quake (red)** — Guardian Action - Attack · cost 6 · 10 power · 3 defense

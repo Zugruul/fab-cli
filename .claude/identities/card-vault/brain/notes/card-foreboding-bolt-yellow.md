@@ -1,5 +1,5 @@
 ---
-tags: [card, foreboding-bolt, foreboding, bolt, wizard, action, opt-1, pitch-2, cost-1]
+tags: [card, foreboding-bolt, foreboding, bolt, wizard, action, opt-1, pitch-2, cost-1, cru169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cdpfM6bdKzrfhDf6TTwQH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 1]
 unique-id: cdpfM6bdKzrfhDf6TTwQH
 sets: [CRU]
+codes: [CRU169]
 ---
 
 **Foreboding Bolt (yellow)** — Wizard Action · cost 1 · 3 defense

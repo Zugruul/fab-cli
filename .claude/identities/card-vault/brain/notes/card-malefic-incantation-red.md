@@ -1,5 +1,5 @@
 ---
-tags: [card, malefic-incantation, malefic, incantation, runeblade, action, aura, go-again, pitch-1, cost-0]
+tags: [card, malefic-incantation, malefic, incantation, runeblade, action, aura, go-again, pitch-1, cost-0, avs015, flr015, gem075, ros130, svi021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CwJMHg9zGWTRtRFhbWNbf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: CwJMHg9zGWTRtRFhbWNbf
 sets: [AVS, FLR, GEM, ROS, SVI]
+codes: [AVS015, FLR015, GEM075, ROS130, SVI021]
 ---
 
 **Malefic Incantation (red)** — Runeblade Action - Aura · cost 0 · 2 defense

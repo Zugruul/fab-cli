@@ -1,5 +1,5 @@
 ---
-tags: [card, bubble-to-the-surface, bubble, surface, draconic, instant, pitch-1, cost-2]
+tags: [card, bubble-to-the-surface, bubble, surface, draconic, instant, pitch-1, cost-2, hnt154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CGLDFnpbfg9LbF7z7GndP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Instant]
 unique-id: CGLDFnpbfg9LbF7z7GndP
 sets: [HNT]
+codes: [HNT154]
 ---
 
 **Bubble to the Surface (red)** — Draconic Instant · cost 2

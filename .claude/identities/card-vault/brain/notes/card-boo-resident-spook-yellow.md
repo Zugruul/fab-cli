@@ -1,5 +1,5 @@
 ---
-tags: [card, boo-resident-spook, boo, resident, spook, pirate, necromancer, action, ally, spellvoid-2, watery-grave, pitch-2, cost-1]
+tags: [card, boo-resident-spook, boo, resident, spook, pirate, necromancer, action, ally, spellvoid-2, watery-grave, pitch-2, cost-1, pen156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8gGBjzcNg9D9fnFQRpMqz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Spellvoid 2, Watery Grave]
 unique-id: 8gGBjzcNg9D9fnFQRpMqz
 sets: [PEN]
+codes: [PEN156]
 ---
 
 **Boo, Resident Spook (yellow)** — Pirate Necromancer Action - Ally · cost 1 · 2 power · 2 defense

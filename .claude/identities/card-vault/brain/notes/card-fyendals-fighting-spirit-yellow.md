@@ -1,5 +1,5 @@
 ---
-tags: [card, fyendals-fighting-spirit, fyendals, fighting, spirit, generic, action, attack, pitch-2, cost-3]
+tags: [card, fyendals-fighting-spirit, fyendals, fighting, spirit, generic, action, attack, pitch-2, cost-3, ros228, upr195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7NWDCLJnCJHrTpzbzw7Hw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7NWDCLJnCJHrTpzbzw7Hw
 sets: [ROS, UPR]
+codes: [ROS228, UPR195]
 ---
 
 **Fyendal's Fighting Spirit (yellow)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

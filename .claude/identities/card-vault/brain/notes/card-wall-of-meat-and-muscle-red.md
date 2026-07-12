@@ -1,5 +1,5 @@
 ---
-tags: [card, wall-of-meat-and-muscle, wall, meat, muscle, brute, guardian, block, pitch-1]
+tags: [card, wall-of-meat-and-muscle, wall, meat, muscle, brute, guardian, block, pitch-1, hvy142, lgs250]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JrqgkhzCLT6cDgrhNjnKJ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute, Guardian]
 types: [Block]
 unique-id: JrqgkhzCLT6cDgrhNjnKJ
 sets: [HVY, LGS]
+codes: [HVY142, LGS250]
 ---
 
 **Wall of Meat and Muscle (red)** — Brute / Guardian Block · 3 defense

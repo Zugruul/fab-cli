@@ -1,5 +1,5 @@
 ---
-tags: [card, pursuit-of-knowledge, pursuit, knowledge, generic, action, attack, pitch-3, cost-2]
+tags: [card, pursuit-of-knowledge, pursuit, knowledge, generic, action, attack, pitch-3, cost-2, arc161, lgs442]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFbQN9BfpLzzgrmGMrBzb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: PFbQN9BfpLzzgrmGMrBzb
 sets: [ARC, LGS]
+codes: [ARC161, LGS442]
 ---
 
 **Pursuit of Knowledge (blue)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

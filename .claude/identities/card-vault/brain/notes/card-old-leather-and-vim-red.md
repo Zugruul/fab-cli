@@ -1,5 +1,5 @@
 ---
-tags: [card, old-leather-and-vim, old, leather, vim, brute, action, attack, revered, pitch-1, cost-2]
+tags: [card, old-leather-and-vim, old, leather, vim, brute, action, attack, revered, pitch-1, cost-2, lgs418, sup008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CDWJGrPLQbrqwkj7mzQ8B) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: CDWJGrPLQbrqwkj7mzQ8B
 sets: [LGS, SUP]
+codes: [LGS418, SUP008]
 ---
 
 **Old Leather and Vim (red)** — Revered Brute Action - Attack · cost 2 · 6 power · 3 defense

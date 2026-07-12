@@ -1,5 +1,5 @@
 ---
-tags: [card, fender-bender, fender, bender, mechanologist, action, attack, boost, pitch-3, cost-1]
+tags: [card, fender-bender, fender, bender, mechanologist, action, attack, boost, pitch-3, cost-1, evo212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gjCWLwWCRRfm6J66cNL7q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: gjCWLwWCRRfm6J66cNL7q
 sets: [EVO]
+codes: [EVO212]
 ---
 
 **Fender Bender (blue)** — Mechanologist Action - Attack · cost 1 · 2 power · 3 defense

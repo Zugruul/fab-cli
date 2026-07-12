@@ -1,5 +1,5 @@
 ---
-tags: [card, flurry-stance, flurry, stance, warrior, action, aura, go-again, pitch-1, cost-0]
+tags: [card, flurry-stance, flurry, stance, warrior, action, aura, go-again, pitch-1, cost-0, fab312, hnt126]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G8kKjJCFCz6GMTWhQkdzT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: G8kKjJCFCz6GMTWhQkdzT
 sets: [FAB, HNT]
+codes: [FAB312, HNT126]
 ---
 
 **Flurry Stance (red)** — Warrior Action - Aura · cost 0 · 3 defense

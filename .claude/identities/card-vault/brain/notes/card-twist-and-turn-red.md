@@ -1,5 +1,5 @@
 ---
-tags: [card, twist-and-turn, twist, turn, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, twist-and-turn, twist, turn, warrior, action, go-again, pitch-1, cost-0, hnt122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7mtjcMPmpC86wkdPPKztq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 7mtjcMPmpC86wkdPPKztq
 sets: [HNT]
+codes: [HNT122]
 ---
 
 **Twist and Turn (red)** — Warrior Action · cost 0 · 3 defense

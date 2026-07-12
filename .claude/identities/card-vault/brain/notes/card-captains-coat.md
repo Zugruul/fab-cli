@@ -1,5 +1,5 @@
 ---
-tags: [card, captains-coat, captains, coat, generic, equipment, chest]
+tags: [card, captains-coat, captains, coat, generic, equipment, chest, sea181]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmr8mCTP6dhctND9KcFjp) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: hmr8mCTP6dhctND9KcFjp
 sets: [SEA]
+codes: [SEA181]
 ---
 
 **Captain's Coat** — Generic Equipment - Chest · 0 defense

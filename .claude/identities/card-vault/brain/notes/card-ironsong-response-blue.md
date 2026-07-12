@@ -1,5 +1,5 @@
 ---
-tags: [card, ironsong-response, ironsong, response, warrior, attack-reaction, reprise, pitch-3, cost-0]
+tags: [card, ironsong-response, ironsong, response, warrior, attack-reaction, reprise, pitch-3, cost-0, 1hp164, lgs031, sdo025, tea021, wtr134]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tnLDhJDNRMRQrcTzBkTF9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: tnLDhJDNRMRQrcTzBkTF9
 sets: [1HP, LGS, SDO, TEA, WTR]
+codes: [1HP164, LGS031, SDO025, TEA021, WTR134]
 ---
 
 **Ironsong Response (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

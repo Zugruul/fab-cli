@@ -1,5 +1,5 @@
 ---
-tags: [card, flittering-spike, flittering, spike, lightning, action, attack, pitch-3, cost-1]
+tags: [card, flittering-spike, flittering, spike, lightning, action, attack, pitch-3, cost-1, omn168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hLpJwQM8kntLtkwcqdrrF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hLpJwQM8kntLtkwcqdrrF
 sets: [OMN]
+codes: [OMN168]
 ---
 
 **Flittering Spike (blue)** — Lightning Action - Attack · cost 1 · 2 power · 3 defense

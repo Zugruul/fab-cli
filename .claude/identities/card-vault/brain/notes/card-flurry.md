@@ -1,5 +1,5 @@
 ---
-tags: [card, flurry, warrior, token, aura]
+tags: [card, flurry, warrior, token, aura, aha027, sbl036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jdkmHT8QfQmMbPLBHPrHJ) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: jdkmHT8QfQmMbPLBHPrHJ
 sets: [AHA, SBL]
+codes: [AHA027, SBL036]
 ---
 
 **Flurry** — Warrior Token - Aura

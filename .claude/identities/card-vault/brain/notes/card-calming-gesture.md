@@ -1,5 +1,5 @@
 ---
-tags: [card, calming-gesture, calming, gesture, illusionist, equipment, arms, arcane-barrier-1]
+tags: [card, calming-gesture, calming, gesture, illusionist, equipment, arms, arcane-barrier-1, apr005, ros250]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDkh8FDGwNNpLghj6grmK) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1]
 unique-id: nDkh8FDGwNNpLghj6grmK
 sets: [APR, ROS]
+codes: [APR005, ROS250]
 ---
 
 **Calming Gesture** — Illusionist Equipment - Arms

@@ -1,5 +1,5 @@
 ---
-tags: [card, point-the-tip, point, tip, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, point-the-tip, point, tip, ranger, action, go-again, pitch-3, cost-0, dyn170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m8D6pkbQNGJqRRJTkGkCT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: m8D6pkbQNGJqRRJTkGkCT
 sets: [DYN]
+codes: [DYN170]
 ---
 
 **Point the Tip (blue)** — Ranger Action · cost 0 · 2 defense

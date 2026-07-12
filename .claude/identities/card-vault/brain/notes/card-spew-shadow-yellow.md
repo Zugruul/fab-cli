@@ -1,5 +1,5 @@
 ---
-tags: [card, spew-shadow, spew, shadow, action, go-again, pitch-2, cost-2]
+tags: [card, spew-shadow, spew, shadow, action, go-again, pitch-2, cost-2, chn024, mon213]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lb9qp9DQWRbtkTmdqdNBh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Lb9qp9DQWRbtkTmdqdNBh
 sets: [CHN, MON]
+codes: [CHN024, MON213]
 ---
 
 **Spew Shadow (yellow)** — Shadow Action · cost 2 · 2 defense

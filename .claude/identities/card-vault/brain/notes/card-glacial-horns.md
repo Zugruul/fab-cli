@@ -1,5 +1,5 @@
 ---
-tags: [card, glacial-horns, glacial, horns, ice, equipment, head]
+tags: [card, glacial-horns, glacial, horns, ice, equipment, head, upr137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CmLHBGBBhfKTP7ghq8kTL) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: CmLHBGBBhfKTP7ghq8kTL
 sets: [UPR]
+codes: [UPR137]
 ---
 
 **Glacial Horns** — Ice Equipment - Head · 0 defense

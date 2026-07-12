@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-slash, aether, slash, runeblade, action, attack, pitch-3, cost-1]
+tags: [card, aether-slash, aether, slash, runeblade, action, attack, pitch-3, cost-1, dyn184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PgRT6QwWgcLdGhcNLHfmj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: PgRT6QwWgcLdGhcNLHfmj
 sets: [DYN]
+codes: [DYN184]
 ---
 
 **Aether Slash (blue)** — Runeblade Action - Attack · cost 1 · 2 power · 3 defense

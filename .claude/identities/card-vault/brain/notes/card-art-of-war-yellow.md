@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-war, art, war, generic, instant, pitch-2, cost-1]
+tags: [card, art-of-war, art, war, generic, instant, pitch-2, cost-1, 1hp366, arc160, jdg015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G7bRDqbhCJD76fH77Mfm7) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: G7bRDqbhCJD76fH77Mfm7
 sets: [1HP, ARC, JDG]
+codes: [1HP366, ARC160, JDG015]
 ---
 
 **Art of War (yellow)** — Generic Instant · cost 1

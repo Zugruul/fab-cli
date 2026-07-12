@@ -1,5 +1,5 @@
 ---
-tags: [card, taylor, shapeshifter, hero, young]
+tags: [card, taylor, shapeshifter, hero, young, lss003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PkD89rQPqTmdPjzH6GMhf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Shapeshifter]
 types: [Hero]
 unique-id: PkD89rQPqTmdPjzH6GMhf
 sets: [LSS]
+codes: [LSS003]
 ---
 
 **Taylor** — Shapeshifter Hero - Young · 18 health · 4 int

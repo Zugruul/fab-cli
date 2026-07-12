@@ -1,5 +1,5 @@
 ---
-tags: [card, arcane-seeds-life, arcane, seeds, life, runeblade, earth, action, instant, meld, go-again, pitch-1, cost-0]
+tags: [card, arcane-seeds-life, arcane, seeds, life, runeblade, earth, action, instant, meld, go-again, pitch-1, cost-0, flr013, lgs350, ros006, sba024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f8bDMcqJ78QTCBznWpwwN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action, Instant]
 keywords: [Meld, Go again]
 unique-id: f8bDMcqJ78QTCBznWpwwN
 sets: [FLR, LGS, ROS, SBA]
+codes: [FLR013, LGS350, ROS006, SBA024]
 ---
 
 **Arcane Seeds // Life (red)** — Runeblade Action // Earth Instant · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, junkyard-dogg, junkyard, dogg, mechanologist, action, attack, scrap, pitch-2, cost-3]
+tags: [card, junkyard-dogg, junkyard, dogg, mechanologist, action, attack, scrap, pitch-2, cost-3, evo127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTdJqkNfNt9HgCwbF8PwG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap]
 unique-id: gTdJqkNfNt9HgCwbF8PwG
 sets: [EVO]
+codes: [EVO127]
 ---
 
 **Junkyard Dogg (yellow)** — Mechanologist Action - Attack · cost 3 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, break-ground, break, ground, earth, action, attack, pitch-2, cost-3]
+tags: [card, break-ground, break, ground, earth, action, attack, pitch-2, cost-3, ele132]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bmLJpC7grdNJm9cdfhTTc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: bmLJpC7grdNJm9cdfhTTc
 sets: [ELE]
+codes: [ELE132]
 ---
 
 **Break Ground (yellow)** — Earth Action - Attack · cost 3 · 6 power · 2 defense

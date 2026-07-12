@@ -1,5 +1,5 @@
 ---
-tags: [card, flex-strength, flex, strength, brute, action, attack, pitch-1, cost-2]
+tags: [card, flex-strength, flex, strength, brute, action, attack, pitch-1, cost-2, sup149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dRp7czHgccGwbFTQjLPCk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: dRp7czHgccGwbFTQjLPCk
 sets: [SUP]
+codes: [SUP149]
 ---
 
 **Flex Strength (red)** — Brute Action - Attack · cost 2 · 4 power · 3 defense

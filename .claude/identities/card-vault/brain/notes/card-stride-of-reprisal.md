@@ -1,5 +1,5 @@
 ---
-tags: [card, stride-of-reprisal, stride, reprisal, ninja, mystic, equipment, legs, blade-break]
+tags: [card, stride-of-reprisal, stride, reprisal, ninja, mystic, equipment, legs, blade-break, lgs273, mst050, zen006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DhKMQzczm7mmf9HnhWhdL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: DhKMQzczm7mmf9HnhWhdL
 sets: [LGS, MST, ZEN]
+codes: [LGS273, MST050, ZEN006]
 ---
 
 **Stride of Reprisal** — Mystic Ninja Equipment - Legs · 1 defense

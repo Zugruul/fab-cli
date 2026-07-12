@@ -1,5 +1,5 @@
 ---
-tags: [card, king-shark-harpoon, king, shark, harpoon, pirate, ranger, action, arrow, attack, go-fish, pitch-1, cost-2]
+tags: [card, king-shark-harpoon, king, shark, harpoon, pirate, ranger, action, arrow, attack, go-fish, pitch-1, cost-2, sea086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TGmtp7HrQ86JjWhcMfgrh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Go Fish]
 unique-id: TGmtp7HrQ86JjWhcMfgrh
 sets: [SEA]
+codes: [SEA086]
 ---
 
 **King Shark Harpoon (red)** — Pirate Ranger Action - Arrow Attack · cost 2 · 6 power · 3 defense

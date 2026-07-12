@@ -1,5 +1,5 @@
 ---
-tags: [card, bruised-leather, bruised, leather, generic, equipment, chest]
+tags: [card, bruised-leather, bruised, leather, generic, equipment, chest, lgs321, ros213, ver004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wkBCfWK6wNKKNjWQwkGzj) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: wkBCfWK6wNKKNjWQwkGzj
 sets: [LGS, ROS, VER]
+codes: [LGS321, ROS213, VER004]
 ---
 
 **Bruised Leather** — Generic Equipment - Chest · 0 defense

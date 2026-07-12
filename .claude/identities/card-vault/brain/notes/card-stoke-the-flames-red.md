@@ -1,5 +1,5 @@
 ---
-tags: [card, stoke-the-flames, stoke, flames, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, stoke-the-flames, stoke, flames, draconic, action, attack, go-again, pitch-1, cost-1, fai014, upr100]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PbTTdKnFz9jptJ7WkbB6K) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: PbTTdKnFz9jptJ7WkbB6K
 sets: [FAI, UPR]
+codes: [FAI014, UPR100]
 ---
 
 **Stoke the Flames (red)** — Draconic Action - Attack · cost 1 · 4 power · 3 defense

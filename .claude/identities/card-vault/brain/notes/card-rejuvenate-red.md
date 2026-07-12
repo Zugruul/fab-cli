@@ -1,5 +1,5 @@
 ---
-tags: [card, rejuvenate, elemental, action, pitch-1, cost-1]
+tags: [card, rejuvenate, elemental, action, pitch-1, cost-1, ele106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K6DhzmKQ7HwHDGrnMkMTR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Elemental]
 types: [Action]
 unique-id: K6DhzmKQ7HwHDGrnMkMTR
 sets: [ELE]
+codes: [ELE106]
 ---
 
 **Rejuvenate (red)** — Elemental Action · cost 1 · 2 defense

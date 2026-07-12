@@ -1,5 +1,5 @@
 ---
-tags: [card, leaven-sheath, leaven, sheath, elemental, defense-reaction, earth-bond, pitch-1, cost-1]
+tags: [card, leaven-sheath, leaven, sheath, elemental, defense-reaction, earth-bond, pitch-1, cost-1, fab428, pen208]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qftcQd6NJhpQkfCczqLF7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Earth Bond]
 unique-id: qftcQd6NJhpQkfCczqLF7
 sets: [FAB, PEN]
+codes: [FAB428, PEN208]
 ---
 
 **Leaven Sheath (red)** — Elemental Defense Reaction · cost 1 · 5 defense

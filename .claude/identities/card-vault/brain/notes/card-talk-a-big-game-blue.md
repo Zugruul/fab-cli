@@ -1,5 +1,5 @@
 ---
-tags: [card, talk-a-big-game, talk, big, game, brute, guardian, action, go-again, pitch-3, cost-0]
+tags: [card, talk-a-big-game, talk, big, game, brute, guardian, action, go-again, pitch-3, cost-0, fab195, hvy136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cqr7rhqq8hQPPhpHQBCHr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Cqr7rhqq8hQPPhpHQBCHr
 sets: [FAB, HVY]
+codes: [FAB195, HVY136]
 ---
 
 **Talk a Big Game (blue)** — Brute / Guardian Action · cost 0 · 3 defense

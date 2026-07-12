@@ -1,5 +1,5 @@
 ---
-tags: [card, agility-stance, agility, stance, warrior, action, aura, go-again, pitch-2, cost-0]
+tags: [card, agility-stance, agility, stance, warrior, action, aura, go-again, pitch-2, cost-0, fab313, hnt125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DfHHPcLzbncDMhkJgQKKm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: DfHHPcLzbncDMhkJgQKKm
 sets: [FAB, HNT]
+codes: [FAB313, HNT125]
 ---
 
 **Agility Stance (yellow)** — Warrior Action - Aura · cost 0 · 3 defense

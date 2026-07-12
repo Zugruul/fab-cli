@@ -1,5 +1,5 @@
 ---
-tags: [card, sapphire-amulet, sapphire, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0]
+tags: [card, sapphire-amulet, sapphire, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0, sea197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8n9Fkr9DLNbMhKJRJTkLL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary, Watery Grave]
 unique-id: 8n9Fkr9DLNbMhKJRJTkLL
 sets: [SEA]
+codes: [SEA197]
 ---
 
 **Sapphire Amulet (blue)** — Generic Action - Item · cost 0

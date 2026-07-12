@@ -1,5 +1,5 @@
 ---
-tags: [card, jolly-bludger, jolly, bludger, pirate, mechanologist, action, attack, overpower, steal, pitch-2, cost-2]
+tags: [card, jolly-bludger, jolly, bludger, pirate, mechanologist, action, attack, overpower, steal, pitch-2, cost-2, sea005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6cNLLnWnpJdfmdpQHMFMb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower, Steal]
 unique-id: 6cNLLnWnpJdfmdpQHMFMb
 sets: [SEA]
+codes: [SEA005]
 ---
 
 **Jolly Bludger (yellow)** — Pirate Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

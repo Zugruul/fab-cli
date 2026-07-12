@@ -1,5 +1,5 @@
 ---
-tags: [card, shaden-swing, shaden, swing, brute, shadow, action, attack, blood-debt, pitch-1, cost-1]
+tags: [card, shaden-swing, shaden, swing, brute, shadow, action, attack, blood-debt, pitch-1, cost-1, dtd124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HtPKB7kWnFRGtqN6RjdRW) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: HtPKB7kWnFRGtqN6RjdRW
 sets: [DTD]
+codes: [DTD124]
 ---
 
 **Shaden Swing (red)** — Shadow Brute Action - Attack · cost 1 · 7 power · 3 defense

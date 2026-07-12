@@ -1,5 +1,5 @@
 ---
-tags: [card, geyser-of-seismic-stirrings, geyser, seismic, stirrings, guardian, action, aura, go-again, pitch-2, cost-2]
+tags: [card, geyser-of-seismic-stirrings, geyser, seismic, stirrings, guardian, action, aura, go-again, pitch-2, cost-2, mpg104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wmWRPQHrrDHMcQw69k6MP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: wmWRPQHrrDHMcQw69k6MP
 sets: [MPG]
+codes: [MPG104]
 ---
 
 **Geyser of Seismic Stirrings (yellow)** — Guardian Action - Aura · cost 2 · 3 defense

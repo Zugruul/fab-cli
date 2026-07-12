@@ -1,5 +1,5 @@
 ---
-tags: [card, trounce, guardian, block, clash, pitch-1]
+tags: [card, trounce, guardian, block, clash, pitch-1, hvy061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9Mw8DBq9hPqKnPRrwCHz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: p9Mw8DBq9hPqKnPRrwCHz
 sets: [HVY]
+codes: [HVY061]
 ---
 
 **Trounce (red)** — Guardian Block · 3 defense

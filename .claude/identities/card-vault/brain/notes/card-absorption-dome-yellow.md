@@ -1,5 +1,5 @@
 ---
-tags: [card, absorption-dome, absorption, dome, mechanologist, action, item, pitch-2, cost-0]
+tags: [card, absorption-dome, absorption, dome, mechanologist, action, item, pitch-2, cost-0, cru104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6j7RrdTPfczH7PhHm8Brq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: 6j7RrdTPfczH7PhHm8Brq
 sets: [CRU]
+codes: [CRU104]
 ---
 
 **Absorption Dome (yellow)** — Mechanologist Action - Item · cost 0

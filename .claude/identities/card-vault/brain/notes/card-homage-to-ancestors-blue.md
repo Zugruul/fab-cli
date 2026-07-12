@@ -1,5 +1,5 @@
 ---
-tags: [card, homage-to-ancestors, homage, ancestors, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, homage-to-ancestors, homage, ancestors, mystic, instant, legendary, transcend, pitch-3, cost-0, eng026, lgs283, mst096, sen032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mzKLGwTBmFHFd8KNdPQ7n) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: mzKLGwTBmFHFd8KNdPQ7n
 sets: [ENG, LGS, MST, SEN]
+codes: [ENG026, LGS283, MST096, SEN032]
 ---
 
 **Homage to Ancestors (blue)** — Mystic Instant · cost 0

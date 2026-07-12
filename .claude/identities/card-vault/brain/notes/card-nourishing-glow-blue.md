@@ -1,5 +1,5 @@
 ---
-tags: [card, nourishing-glow, nourishing, glow, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0]
+tags: [card, nourishing-glow, nourishing, glow, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0, omn038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MqKhDHHHkLfFrdh7mBzcR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: MqKhDHHHkLfFrdh7mBzcR
 sets: [OMN]
+codes: [OMN038]
 ---
 
 **Nourishing Glow (blue)** — Lightning Illusionist Instant - Aura · cost 0

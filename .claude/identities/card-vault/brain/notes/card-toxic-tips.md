@@ -1,5 +1,5 @@
 ---
-tags: [card, toxic-tips, toxic, tips, assassin, ranger, equipment, arms, blade-break]
+tags: [card, toxic-tips, toxic, tips, assassin, ranger, equipment, arms, blade-break, ara005, out158, rip006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCKJqg6QMPR9pLPBCJQJK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: QCKJqg6QMPR9pLPBCJQJK
 sets: [ARA, OUT, RIP]
+codes: [ARA005, OUT158, RIP006]
 ---
 
 **Toxic Tips** — Assassin / Ranger Equipment - Arms · 1 defense

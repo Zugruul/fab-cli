@@ -1,5 +1,5 @@
 ---
-tags: [card, sonata-galaxia, sonata, galaxia, runeblade, action, go-again, pitch-1]
+tags: [card, sonata-galaxia, sonata, galaxia, runeblade, action, go-again, pitch-1, hvy251]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PbJPpjMq7L7zQDGnfhm8G) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: PbJPpjMq7L7zQDGnfhm8G
 sets: [HVY]
+codes: [HVY251]
 ---
 
 **Sonata Galaxia (red)** — Runeblade Action · cost XX · 2 defense

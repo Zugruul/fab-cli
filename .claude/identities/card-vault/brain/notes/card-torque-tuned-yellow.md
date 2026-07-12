@@ -1,5 +1,5 @@
 ---
-tags: [card, torque-tuned, torque, tuned, mechanologist, action, attack, overpower, galvanize, pitch-2, cost-2]
+tags: [card, torque-tuned, torque, tuned, mechanologist, action, attack, overpower, galvanize, pitch-2, cost-2, evo115]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rjgh7kQCWKkTdChRmWt7w) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower, Galvanize]
 unique-id: Rjgh7kQCWKkTdChRmWt7w
 sets: [EVO]
+codes: [EVO115]
 ---
 
 **Torque Tuned (yellow)** — Mechanologist Action - Attack · cost 2 · 5 power · 2 defense

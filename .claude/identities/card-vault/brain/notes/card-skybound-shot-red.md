@@ -1,5 +1,5 @@
 ---
-tags: [card, skybound-shot, skybound, shot, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, skybound-shot, skybound, shot, ranger, action, arrow, attack, pitch-1, cost-1, azl013, out127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QtbWQ6Lr8QmMRJHnpkB9L) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: QtbWQ6Lr8QmMRJHnpkB9L
 sets: [AZL, OUT]
+codes: [AZL013, OUT127]
 ---
 
 **Skybound Shot (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

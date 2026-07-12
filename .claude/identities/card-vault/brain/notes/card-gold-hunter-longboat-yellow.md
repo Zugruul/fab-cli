@@ -1,5 +1,5 @@
 ---
-tags: [card, gold-hunter-longboat, gold, hunter, longboat, pirate, action, attack, pitch-2, cost-0]
+tags: [card, gold-hunter-longboat, gold, hunter, longboat, pirate, action, attack, pitch-2, cost-0, sea163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FMtqqPTBz8J7KdLNCbzcb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: FMtqqPTBz8J7KdLNCbzcb
 sets: [SEA]
+codes: [SEA163]
 ---
 
 **Gold Hunter Longboat (yellow)** — Pirate Action - Attack · cost 0 · 3 power · 2 defense

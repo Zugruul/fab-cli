@@ -1,5 +1,5 @@
 ---
-tags: [card, dragon-power, dragon, power, ninja, action, attack, pitch-1, cost-1]
+tags: [card, dragon-power, dragon, power, ninja, action, attack, pitch-1, cost-1, hnt077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QGp9LdRwfGKzQnpHrbJtN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: QGp9LdRwfGKzQnpHrbJtN
 sets: [HNT]
+codes: [HNT077]
 ---
 
 **Dragon Power (red)** — Ninja Action - Attack · cost 1 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, buckling-blow, buckling, blow, guardian, action, attack, crush, pitch-2, cost-4]
+tags: [card, buckling-blow, buckling, blow, guardian, action, attack, crush, pitch-2, cost-4, bdd011, mpg053, wtr058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDPdWgLqnPCTqDDMKFfM9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: HDPdWgLqnPCTqDDMKFfM9
 sets: [BDD, MPG, WTR]
+codes: [BDD011, MPG053, WTR058]
 ---
 
 **Buckling Blow (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

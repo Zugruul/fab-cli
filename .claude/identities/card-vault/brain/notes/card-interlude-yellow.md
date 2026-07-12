@@ -1,5 +1,5 @@
 ---
-tags: [card, interlude, bard, instant, pitch-2, cost-0]
+tags: [card, interlude, bard, instant, pitch-2, cost-0, tcc062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hkmQgBRgHRJJh6jmzGW8G) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Bard]
 types: [Instant]
 unique-id: hkmQgBRgHRJJh6jmzGW8G
 sets: [TCC]
+codes: [TCC062]
 ---
 
 **Interlude (yellow)** — Bard Instant · cost 0

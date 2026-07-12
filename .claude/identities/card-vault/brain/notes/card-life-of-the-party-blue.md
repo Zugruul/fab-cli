@@ -1,5 +1,5 @@
 ---
-tags: [card, life-of-the-party, life, party, generic, action, attack, go-again, pitch-3, cost-2]
+tags: [card, life-of-the-party, life, party, generic, action, attack, go-again, pitch-3, cost-2, evr163, lgs086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bbgPwChkMppQBfwfrfTtL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: bbgPwChkMppQBfwfrfTtL
 sets: [EVR, LGS]
+codes: [EVR163, LGS086]
 ---
 
 **Life of the Party (blue)** — Generic Action - Attack · cost 2 · 2 power · 2 defense

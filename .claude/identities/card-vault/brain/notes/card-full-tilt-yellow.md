@@ -1,5 +1,5 @@
 ---
-tags: [card, full-tilt, full, tilt, mechanologist, action, attack, boost, pitch-2, cost-2]
+tags: [card, full-tilt, full, tilt, mechanologist, action, attack, boost, pitch-2, cost-2, evo169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nfg6BhjddbLDCRHQgLzkf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: Nfg6BhjddbLDCRHQgLzkf
 sets: [EVO]
+codes: [EVO169]
 ---
 
 **Full Tilt (yellow)** — Mechanologist Action - Attack · cost 2 · 4 power · 3 defense

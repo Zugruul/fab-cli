@@ -1,5 +1,5 @@
 ---
-tags: [card, douse-in-runeblood, douse, runeblood, runeblade, action, attack, go-again, pitch-1, cost-1]
+tags: [card, douse-in-runeblood, douse, runeblood, runeblade, action, attack, go-again, pitch-1, cost-1, hnt254]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fGFfbMPbQFn6qKPqCtJdB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: fGFfbMPbQFn6qKPqCtJdB
 sets: [HNT]
+codes: [HNT254]
 ---
 
 **Douse in Runeblood (red)** — Runeblade Action - Attack · cost 1 · 4 power · 3 defense

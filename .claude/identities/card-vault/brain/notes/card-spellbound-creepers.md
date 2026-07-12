@@ -1,5 +1,5 @@
 ---
-tags: [card, spellbound-creepers, spellbound, creepers, runeblade, equipment, legs, blade-break]
+tags: [card, spellbound-creepers, spellbound, creepers, runeblade, equipment, legs, blade-break, con004, ele224, fab051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GrRfK6zQrd8DHzTHFhFfh) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: GrRfK6zQrd8DHzTHFhFfh
 sets: [CON, ELE, FAB]
+codes: [CON004, ELE224, FAB051]
 ---
 
 **Spellbound Creepers** — Runeblade Equipment - Legs · 1 defense

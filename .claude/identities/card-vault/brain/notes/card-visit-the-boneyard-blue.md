@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-the-boneyard, visit, boneyard, brute, instant, pitch-3, cost-0]
+tags: [card, visit-the-boneyard, visit, boneyard, brute, instant, pitch-3, cost-0, sup139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HRTFfPJmFpCdgpmFPtrMp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute]
 types: [Instant]
 unique-id: HRTFfPJmFpCdgpmFPtrMp
 sets: [SUP]
+codes: [SUP139]
 ---
 
 **Visit the Boneyard (blue)** — Brute Instant · cost 0

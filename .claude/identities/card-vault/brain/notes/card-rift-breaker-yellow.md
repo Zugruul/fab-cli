@@ -1,5 +1,5 @@
 ---
-tags: [card, rift-breaker, rift, breaker, lightning, action, attack, pitch-2, cost-2]
+tags: [card, rift-breaker, rift, breaker, lightning, action, attack, pitch-2, cost-2, omn156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NTTNLDR97DQMKrFCDz8FT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: NTTNLDR97DQMKrFCDz8FT
 sets: [OMN]
+codes: [OMN156]
 ---
 
 **Rift Breaker (yellow)** — Lightning Action - Attack · cost 2 · 5 power · 2 defense

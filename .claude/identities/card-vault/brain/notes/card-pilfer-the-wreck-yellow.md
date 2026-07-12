@@ -1,5 +1,5 @@
 ---
-tags: [card, pilfer-the-wreck, pilfer, wreck, pirate, action, attack, pitch-2, cost-3]
+tags: [card, pilfer-the-wreck, pilfer, wreck, pirate, action, attack, pitch-2, cost-3, sea139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid frFC8JrBBcmKCbDTjLbKc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: frFC8JrBBcmKCbDTjLbKc
 sets: [SEA]
+codes: [SEA139]
 ---
 
 **Pilfer the Wreck (yellow)** — Pirate Action - Attack · cost 3 · 6 power · 2 defense

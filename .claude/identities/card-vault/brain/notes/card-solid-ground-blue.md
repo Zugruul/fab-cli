@@ -1,5 +1,5 @@
 ---
-tags: [card, solid-ground, solid, ground, guardian, defense-reaction, pitch-3, cost-3]
+tags: [card, solid-ground, solid, ground, guardian, defense-reaction, pitch-3, cost-3, mpg019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PPhTHwN7HKT6Hj9JNbDmt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Guardian]
 types: [Defense Reaction]
 unique-id: PPhTHwN7HKT6Hj9JNbDmt
 sets: [MPG]
+codes: [MPG019]
 ---
 
 **Solid Ground (blue)** — Guardian Defense Reaction · cost 3 · 5 defense

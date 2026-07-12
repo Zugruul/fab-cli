@@ -1,5 +1,5 @@
 ---
-tags: [card, condemn-to-slaughter, condemn, slaughter, runeblade, action, go-again, pitch-2, cost-1]
+tags: [card, condemn-to-slaughter, condemn, slaughter, runeblade, action, go-again, pitch-2, cost-1, ros128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q7RgDrnHQD8zhhqFhMCFn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: q7RgDrnHQD8zhhqFhMCFn
 sets: [ROS]
+codes: [ROS128]
 ---
 
 **Condemn to Slaughter (yellow)** — Runeblade Action · cost 1 · 3 defense

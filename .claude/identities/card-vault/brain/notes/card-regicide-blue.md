@@ -1,5 +1,5 @@
 ---
-tags: [card, regicide, assassin, action, attack, legendary, arakni-specialization, pitch-3, cost-0]
+tags: [card, regicide, assassin, action, attack, legendary, arakni-specialization, pitch-3, cost-0, dyn121, fab122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NBHQRhkBP8d99d8Nm96zb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Legendary, Arakni Specialization]
 unique-id: NBHQRhkBP8d99d8Nm96zb
 sets: [DYN, FAB]
+codes: [DYN121, FAB122]
 ---
 
 **Regicide (blue)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

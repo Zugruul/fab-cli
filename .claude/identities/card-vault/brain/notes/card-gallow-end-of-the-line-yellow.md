@@ -1,5 +1,5 @@
 ---
-tags: [card, gallow-end-of-the-line, gallow, end, line, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-3]
+tags: [card, gallow-end-of-the-line, gallow, end, line, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-3, sup267]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WPRGGkHPnLnLhMPFjjkfF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: WPRGGkHPnLnLhMPFjjkfF
 sets: [SUP]
+codes: [SUP267]
 ---
 
 **Gallow, End of the Line (yellow)** — Pirate Necromancer Action - Ally · cost 3 · 4 power · 3 health

@@ -1,5 +1,5 @@
 ---
-tags: [card, mistcloak-gully, mistcloak, gully, mystic, instant, landmark, legendary, transcend, cost-1]
+tags: [card, mistcloak-gully, mistcloak, gully, mystic, instant, landmark, legendary, transcend, cost-1, mst000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gJH8NpPRNdFtTbDQTDzHL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Landmark]
 keywords: [Legendary, Transcend]
 unique-id: gJH8NpPRNdFtTbDQTDzHL
 sets: [MST]
+codes: [MST000]
 ---
 
 **Mistcloak Gully** — Mystic Instant - Landmark · cost 1

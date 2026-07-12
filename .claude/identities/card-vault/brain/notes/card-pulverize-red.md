@@ -1,5 +1,5 @@
 ---
-tags: [card, pulverize, guardian, action, attack, heave-3, pitch-1, cost-10]
+tags: [card, pulverize, guardian, action, attack, heave-3, pitch-1, cost-10, evr021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FkNKF7G8Tn79TtGrgKNpn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Heave 3]
 unique-id: FkNKF7G8Tn79TtGrgKNpn
 sets: [EVR]
+codes: [EVR021]
 ---
 
 **Pulverize (red)** — Guardian Action - Attack · cost 10 · 14 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-data-mine, evo, data, mine, mechanologist, action, equipment, head, transform, blade-break, pitch-2, cost-0]
+tags: [card, evo-data-mine, evo, data, mine, mechanologist, action, equipment, head, transform, blade-break, pitch-2, cost-0, evo046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JnqPMkpqMBFTQhb7RBqdJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Head]
 keywords: [Transform, Blade Break]
 unique-id: JnqPMkpqMBFTQhb7RBqdJ
 sets: [EVO]
+codes: [EVO046]
 ---
 
 **Evo Data Mine (yellow)** — Mechanologist Action Equipment - Evo Head · cost 0 · 2 defense

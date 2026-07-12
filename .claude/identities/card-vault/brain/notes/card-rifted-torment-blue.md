@@ -1,5 +1,5 @@
 ---
-tags: [card, rifted-torment, rifted, torment, runeblade, shadow, action, attack, blood-debt, pitch-3, cost-2]
+tags: [card, rifted-torment, rifted, torment, runeblade, shadow, action, attack, blood-debt, pitch-3, cost-2, chn020, mon179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BCHMTFpN9Nb7JrWh6T6nk) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: BCHMTFpN9Nb7JrWh6T6nk
 sets: [CHN, MON]
+codes: [CHN020, MON179]
 ---
 
 **Rifted Torment (blue)** — Shadow Runeblade Action - Attack · cost 2 · 2 power · 3 defense

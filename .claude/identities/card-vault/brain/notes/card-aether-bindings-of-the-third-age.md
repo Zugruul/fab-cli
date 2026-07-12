@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-bindings-of-the-third-age, aether, bindings, third, age, wizard, equipment, arms, battleworn]
+tags: [card, aether-bindings-of-the-third-age, aether, bindings, third, age, wizard, equipment, arms, battleworn, fab253, ros163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8rwTJkbzktjbhbQbPCKrc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: 8rwTJkbzktjbhbQbPCKrc
 sets: [FAB, ROS]
+codes: [FAB253, ROS163]
 ---
 
 **Aether Bindings of the Third Age** — Wizard Equipment - Arms · 1 defense

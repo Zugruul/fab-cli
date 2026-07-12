@@ -1,5 +1,5 @@
 ---
-tags: [card, stadium-security, stadium, security, action, attack, revered, ambush, pitch-1, cost-3]
+tags: [card, stadium-security, stadium, security, action, attack, revered, ambush, pitch-1, cost-3, pen294]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zdgHmFzPbHbrhRwfCqF8H) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [Ambush]
 unique-id: zdgHmFzPbHbrhRwfCqF8H
 sets: [PEN]
+codes: [PEN294]
 ---
 
 **Stadium Security (red)** — Revered Action - Attack · cost 3 · 7 power · 2 defense

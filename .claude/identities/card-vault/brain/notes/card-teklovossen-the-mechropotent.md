@@ -1,5 +1,5 @@
 ---
-tags: [card, teklovossen-the-mechropotent, teklovossen, mechropotent, mechanologist, shadow, demi-hero, equipment, evo, battleworn, go-again]
+tags: [card, teklovossen-the-mechropotent, teklovossen, mechropotent, mechanologist, shadow, demi-hero, equipment, evo, battleworn, go-again, evo010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BRpMLJdMBPgfJNJLJWDFg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo]
 keywords: [Battleworn, Go again]
 unique-id: BRpMLJdMBPgfJNJLJWDFg
 sets: [EVO]
+codes: [EVO010]
 ---
 
 **Teklovossen, the Mechropotent** — Shadow Mechanologist Demi-Hero Equipment - Evo · 6 power · 6 defense · * health · 3 int

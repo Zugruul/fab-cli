@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-press, lightning, press, instant, pitch-2, cost-0]
+tags: [card, lightning-press, lightning, press, instant, pitch-2, cost-0, ele184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CNgPdMm79nkPHpnqGQCFd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: CNgPdMm79nkPHpnqGQCFd
 sets: [ELE]
+codes: [ELE184]
 ---
 
 **Lightning Press (yellow)** — Lightning Instant · cost 0

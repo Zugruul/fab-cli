@@ -1,5 +1,5 @@
 ---
-tags: [card, putrid-stirrings, putrid, stirrings, runeblade, shadow, action, blood-debt, go-again, pitch-2, cost-3]
+tags: [card, putrid-stirrings, putrid, stirrings, runeblade, shadow, action, blood-debt, go-again, pitch-2, cost-3, dtd162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kcp6zfhjQtdpz8PpKfPPh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Blood Debt, Go again]
 unique-id: Kcp6zfhjQtdpz8PpKfPPh
 sets: [DTD]
+codes: [DTD162]
 ---
 
 **Putrid Stirrings (yellow)** — Shadow Runeblade Action · cost 3 · 3 defense

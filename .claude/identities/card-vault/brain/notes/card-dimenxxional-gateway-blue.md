@@ -1,5 +1,5 @@
 ---
-tags: [card, dimenxxional-gateway, dimenxxional, gateway, runeblade, shadow, action, opt-1, go-again, pitch-3, cost-1]
+tags: [card, dimenxxional-gateway, dimenxxional, gateway, runeblade, shadow, action, opt-1, go-again, pitch-3, cost-1, mon164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rKp6tbNNd6qzQcJrqL9fG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Opt 1, Go again]
 unique-id: rKp6tbNNd6qzQcJrqL9fG
 sets: [MON]
+codes: [MON164]
 ---
 
 **Dimenxxional Gateway (blue)** — Shadow Runeblade Action · cost 1 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, backside-of-the-blade, backside, blade, warrior, attack-reaction, pitch-3, cost-2]
+tags: [card, backside-of-the-blade, backside, blade, warrior, attack-reaction, pitch-3, cost-2, aha019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gHKL66LFPJ6Jq7qkqFQqn) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: gHKL66LFPJ6Jq7qkqFQqn
 sets: [AHA]
+codes: [AHA019]
 ---
 
 **Backside of the Blade (blue)** — Warrior Attack Reaction · cost 2 · 3 defense

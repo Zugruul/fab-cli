@@ -1,5 +1,5 @@
 ---
-tags: [card, scorpio-comet-tail, scorpio, comet, tail, runeblade, lightning, weapon, sword, 2h]
+tags: [card, scorpio-comet-tail, scorpio, comet, tail, runeblade, lightning, weapon, sword, 2h, gem143, omn049, sba002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cGDjfwq76gpNQpWDMtLt9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: cGDjfwq76gpNQpWDMtLt9
 sets: [GEM, OMN, SBA]
+codes: [GEM143, OMN049, SBA002]
 ---
 
 **Scorpio, Comet Tail** — Lightning Runeblade Weapon - Sword (2H) · 1 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, surgent-aethertide, surgent, aethertide, wizard, weapon, staff, 2h]
+tags: [card, surgent-aethertide, surgent, aethertide, wizard, weapon, staff, 2h, dyn192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g69J9qNWrLQRfCbT8D9jk) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Staff, 2H]
 unique-id: g69J9qNWrLQRfCbT8D9jk
 sets: [DYN]
+codes: [DYN192]
 ---
 
 **Surgent Aethertide** — Wizard Weapon - Staff (2H)

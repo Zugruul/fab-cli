@@ -1,5 +1,5 @@
 ---
-tags: [card, cryptic-crossing, cryptic, crossing, runeblade, action, attack, pitch-2, cost-3]
+tags: [card, cryptic-crossing, cryptic, crossing, runeblade, action, attack, pitch-2, cost-3, dyn173]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JfndQHGQ9CTQ8FPcFC6RH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JfndQHGQ9CTQ8FPcFC6RH
 sets: [DYN]
+codes: [DYN173]
 ---
 
 **Cryptic Crossing (yellow)** — Runeblade Action - Attack · cost 3 · 6 power · 3 defense

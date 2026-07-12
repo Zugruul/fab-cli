@@ -1,5 +1,5 @@
 ---
-tags: [card, promise-of-plenty, promise, plenty, generic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, promise-of-plenty, promise, plenty, generic, action, attack, go-again, pitch-3, cost-0, cru185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g9LhkTgkgNBCtwmcPCgdP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: g9LhkTgkgNBCtwmcPCgdP
 sets: [CRU]
+codes: [CRU185]
 ---
 
 **Promise of Plenty (blue)** — Generic Action - Attack · cost 0 · 1 power · 2 defense

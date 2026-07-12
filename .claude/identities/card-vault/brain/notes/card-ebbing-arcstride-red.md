@@ -1,5 +1,5 @@
 ---
-tags: [card, ebbing-arcstride, ebbing, arcstride, illusionist, lightning, action, attack, go-again, fragment, pitch-1, cost-0]
+tags: [card, ebbing-arcstride, ebbing, arcstride, illusionist, lightning, action, attack, go-again, fragment, pitch-1, cost-0, azs008, gem150, omn018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zC8NQNnj7RpgrR7LzKRmz) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Fragment]
 unique-id: zC8NQNnj7RpgrR7LzKRmz
 sets: [AZS, GEM, OMN]
+codes: [AZS008, GEM150, OMN018]
 ---
 
 **Ebbing Arcstride (red)** — Lightning Illusionist Action - Attack · cost 0 · 5 power · 3 defense

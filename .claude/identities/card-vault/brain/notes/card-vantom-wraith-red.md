@@ -1,5 +1,5 @@
 ---
-tags: [card, vantom-wraith, vantom, wraith, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-2]
+tags: [card, vantom-wraith, vantom, wraith, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-2, dtd158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kLzphMK8g6dLhFRf7Tdph) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: kLzphMK8g6dLhFRf7Tdph
 sets: [DTD]
+codes: [DTD158]
 ---
 
 **Vantom Wraith (red)** — Shadow Runeblade Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rewind, wizard, instant, negate, pitch-3, cost-1]
+tags: [card, rewind, wizard, instant, negate, pitch-3, cost-1, upr169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jBcWwLwbkkMjtgW7pTW8J) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Negate]
 unique-id: jBcWwLwbkkMjtgW7pTW8J
 sets: [UPR]
+codes: [UPR169]
 ---
 
 **Rewind (blue)** — Wizard Instant · cost 1

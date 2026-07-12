@@ -1,5 +1,5 @@
 ---
-tags: [card, flying-kick, flying, kick, ninja, action, attack, pitch-2, cost-2]
+tags: [card, flying-kick, flying, kick, ninja, action, attack, pitch-2, cost-2, cru064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R7RwbN6Gw8g79hw7wwPMf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: R7RwbN6Gw8g79hw7wwPMf
 sets: [CRU]
+codes: [CRU064]
 ---
 
 **Flying Kick (yellow)** — Ninja Action - Attack · cost 2 · 4 power · 3 defense

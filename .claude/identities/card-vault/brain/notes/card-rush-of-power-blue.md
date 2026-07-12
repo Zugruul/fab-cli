@@ -1,5 +1,5 @@
 ---
-tags: [card, rush-of-power, rush, power, runeblade, lightning, action, attack, quickstrike, pitch-3, cost-0]
+tags: [card, rush-of-power, rush, power, runeblade, lightning, action, attack, quickstrike, pitch-3, cost-0, omn070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mr9jJffnHHHcrG9p8fdMP) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Quickstrike]
 unique-id: mr9jJffnHHHcrG9p8fdMP
 sets: [OMN]
+codes: [OMN070]
 ---
 
 **Rush of Power (blue)** — Lightning Runeblade Action - Attack · cost 0 · 1 power · 3 defense

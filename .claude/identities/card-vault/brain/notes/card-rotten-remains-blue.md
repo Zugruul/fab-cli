@@ -1,5 +1,5 @@
 ---
-tags: [card, rotten-remains, rotten, remains, generic, action, attack, pitch-3, cost-0]
+tags: [card, rotten-remains, rotten, remains, generic, action, attack, pitch-3, cost-0, hnt221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kMcJmLgJPhnbtBkWkPH77) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kMcJmLgJPhnbtBkWkPH77
 sets: [HNT]
+codes: [HNT221]
 ---
 
 **Rotten Remains (blue)** — Generic Action - Attack · cost 0 · 1 power · 3 defense

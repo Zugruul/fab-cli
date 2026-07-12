@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-ignition, amulet, ignition, generic, action, item, go-again, pitch-2, cost-0]
+tags: [card, amulet-of-ignition, amulet, ignition, generic, action, item, go-again, pitch-2, cost-0, evr179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LPkdwMCjwHHMC6wkHCbRb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: LPkdwMCjwHHMC6wkHCbRb
 sets: [EVR]
+codes: [EVR179]
 ---
 
 **Amulet of Ignition (yellow)** — Generic Action - Item · cost 0

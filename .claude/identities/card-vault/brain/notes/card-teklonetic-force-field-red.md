@@ -1,5 +1,5 @@
 ---
-tags: [card, teklonetic-force-field, teklonetic, force, field, mechanologist, block, pitch-1]
+tags: [card, teklonetic-force-field, teklonetic, force, field, mechanologist, block, pitch-1, evo231]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHn8rJBnGbggWjkLcJjJL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Mechanologist]
 types: [Block]
 unique-id: RHn8rJBnGbggWjkLcJjJL
 sets: [EVO]
+codes: [EVO231]
 ---
 
 **Teklonetic Force Field (red)** — Mechanologist Block · 3 defense

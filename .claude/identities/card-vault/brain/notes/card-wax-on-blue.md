@@ -1,5 +1,5 @@
 ---
-tags: [card, wax-on, wax, ninja, defense-reaction, pitch-3, cost-0]
+tags: [card, wax-on, wax, ninja, defense-reaction, pitch-3, cost-0, evr052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zhnWgKpnzfCzCwN6cJBgW) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Defense Reaction]
 unique-id: zhnWgKpnzfCzCwN6cJBgW
 sets: [EVR]
+codes: [EVR052]
 ---
 
 **Wax On (blue)** — Ninja Defense Reaction · cost 0 · 1 defense

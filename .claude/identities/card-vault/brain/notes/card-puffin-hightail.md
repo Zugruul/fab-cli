@@ -1,5 +1,5 @@
 ---
-tags: [card, puffin-hightail, puffin, hightail, pirate, mechanologist, hero, adult]
+tags: [card, puffin-hightail, puffin, hightail, pirate, mechanologist, hero, adult, sea001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DghbPmFhwLkT9whJJjL9f) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Pirate, Mechanologist]
 types: [Hero]
 unique-id: DghbPmFhwLkT9whJJjL9f
 sets: [SEA]
+codes: [SEA001]
 ---
 
 **Puffin, Hightail** — Pirate Mechanologist Hero · 40 health · 4 int

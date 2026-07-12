@@ -1,5 +1,5 @@
 ---
-tags: [card, fiddlers-green, fiddlers, green, generic, block, pitch-1]
+tags: [card, fiddlers-green, fiddlers, green, generic, block, pitch-1, agb013, anq037, gem066, sea212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6dNCtnqWjTwr88JCckKDG) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Block]
 unique-id: 6dNCtnqWjTwr88JCckKDG
 sets: [AGB, ANQ, GEM, SEA]
+codes: [AGB013, ANQ037, GEM066, SEA212]
 ---
 
 **Fiddler's Green (red)** — Generic Block · 1 defense

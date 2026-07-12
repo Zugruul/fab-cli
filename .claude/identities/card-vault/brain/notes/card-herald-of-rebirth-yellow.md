@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-rebirth, herald, rebirth, illusionist, light, action, attack, phantasm, pitch-2, cost-2]
+tags: [card, herald-of-rebirth, herald, rebirth, illusionist, light, action, attack, phantasm, pitch-2, cost-2, dtd021, fab033, mon021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WzgPPdjkL9zHrrqpjHbNJ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: WzgPPdjkL9zHrrqpjHbNJ
 sets: [DTD, FAB, MON]
+codes: [DTD021, FAB033, MON021]
 ---
 
 **Herald of Rebirth (yellow)** — Light Illusionist Action - Attack · cost 2 · 6 power · 3 defense

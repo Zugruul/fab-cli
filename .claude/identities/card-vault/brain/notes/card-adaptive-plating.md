@@ -1,5 +1,5 @@
 ---
-tags: [card, adaptive-plating, adaptive, plating, mechanologist, equipment, modular, galvanize, blade-break]
+tags: [card, adaptive-plating, adaptive, plating, mechanologist, equipment, modular, galvanize, blade-break, evo013, fab169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mkTDPKqkm7cprrDzWbF9z) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 keywords: [Modular, Galvanize, Blade Break]
 unique-id: mkTDPKqkm7cprrDzWbF9z
 sets: [EVO, FAB]
+codes: [EVO013, FAB169]
 ---
 
 **Adaptive Plating** — Mechanologist Equipment · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, gravy-bones, gravy, bones, pirate, necromancer, hero, young]
+tags: [card, gravy-bones, gravy, bones, pirate, necromancer, hero, young, agb002, sea044, sgb001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fq9Cg9pKGFKrTbfHq9mBb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Pirate, Necromancer]
 types: [Hero]
 unique-id: Fq9Cg9pKGFKrTbfHq9mBb
 sets: [AGB, SEA, SGB]
+codes: [AGB002, SEA044, SGB001]
 ---
 
 **Gravy Bones** — Pirate Necromancer Hero - Young · 20 health · 4 int

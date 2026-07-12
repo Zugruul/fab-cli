@@ -1,5 +1,5 @@
 ---
-tags: [card, rake-the-embers, rake, embers, illusionist, draconic, action, transform, go-again, pitch-2, cost-1]
+tags: [card, rake-the-embers, rake, embers, illusionist, draconic, action, transform, go-again, pitch-2, cost-1, upr034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ctP6TMfCKqwK6QpjG7wLH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Transform, Go again]
 unique-id: ctP6TMfCKqwK6QpjG7wLH
 sets: [UPR]
+codes: [UPR034]
 ---
 
 **Rake the Embers (yellow)** — Draconic Illusionist Action · cost 1 · 2 defense

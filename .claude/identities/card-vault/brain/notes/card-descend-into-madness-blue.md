@@ -1,5 +1,5 @@
 ---
-tags: [card, descend-into-madness, descend, into, madness, chaos, attack-reaction, pitch-3, cost-0]
+tags: [card, descend-into-madness, descend, into, madness, chaos, attack-reaction, pitch-3, cost-0, pen278]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 68gf9fggmcjDR7Tk78zJm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Chaos]
 types: [Attack Reaction]
 unique-id: 68gf9fggmcjDR7Tk78zJm
 sets: [PEN]
+codes: [PEN278]
 ---
 
 **Descend into Madness (blue)** — Chaos Attack Reaction · cost 0 · 3 defense

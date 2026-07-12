@@ -1,5 +1,5 @@
 ---
-tags: [card, spellbane-sigil, spellbane, sigil, lightning, instant, aura, arcane-barrier-x, pitch-3, cost-0]
+tags: [card, spellbane-sigil, spellbane, sigil, lightning, instant, aura, arcane-barrier-x, pitch-3, cost-0, omn201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid knGQQqjCfQqzWj6JjN6CR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Arcane Barrier X]
 unique-id: knGQQqjCfQqzWj6JjN6CR
 sets: [OMN]
+codes: [OMN201]
 ---
 
 **Spellbane Sigil (blue)** — Lightning Instant - Aura · cost 0

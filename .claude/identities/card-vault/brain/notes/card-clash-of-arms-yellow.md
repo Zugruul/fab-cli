@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-arms, clash, arms, guardian, block, pitch-2]
+tags: [card, clash-of-arms, clash, arms, guardian, block, pitch-2, mpg049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wc9KrwW6FrgLgFz7dqfcq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: Wc9KrwW6FrgLgFz7dqfcq
 sets: [MPG]
+codes: [MPG049]
 ---
 
 **Clash of Arms (yellow)** — Guardian Block · 4 defense

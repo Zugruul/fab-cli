@@ -1,5 +1,5 @@
 ---
-tags: [card, serpents-kiss, serpents, kiss, assassin, mystic, action, attack, stealth, pitch-3, cost-0]
+tags: [card, serpents-kiss, serpents, kiss, assassin, mystic, action, attack, stealth, pitch-3, cost-0, pen262]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PBkK9jFkGPKGqTwmTwrzW) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: PBkK9jFkGPKGqTwmTwrzW
 sets: [PEN]
+codes: [PEN262]
 ---
 
 **Serpent's Kiss (blue)** — Mystic Assassin Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, snow-under, snow, under, guardian, elemental, action, attack, ice-fusion, pitch-3, cost-3]
+tags: [card, snow-under, snow, under, guardian, elemental, action, attack, ice-fusion, pitch-3, cost-3, ele024, old011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NzNjkqqJgrbPbJpWQ8RWp) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Ice Fusion]
 unique-id: NzNjkqqJgrbPbJpWQ8RWp
 sets: [ELE, OLD]
+codes: [ELE024, OLD011]
 ---
 
 **Snow Under (blue)** — Elemental Guardian Action - Attack · cost 3 · 5 power · 3 defense

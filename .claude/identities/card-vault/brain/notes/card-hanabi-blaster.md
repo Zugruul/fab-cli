@@ -1,5 +1,5 @@
 ---
-tags: [card, hanabi-blaster, hanabi, blaster, mechanologist, weapon, gun, 2h, overpower]
+tags: [card, hanabi-blaster, hanabi, blaster, mechanologist, weapon, gun, 2h, overpower, dyn088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TbNWLjgL9QKkCMf7FJR6p) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Gun, 2H]
 keywords: [Overpower]
 unique-id: TbNWLjgL9QKkCMf7FJR6p
 sets: [DYN]
+codes: [DYN088]
 ---
 
 **Hanabi Blaster** — Mechanologist Weapon - Gun (2H) · 5 power

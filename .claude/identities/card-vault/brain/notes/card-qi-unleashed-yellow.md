@@ -1,5 +1,5 @@
 ---
-tags: [card, qi-unleashed, qi, unleashed, ninja, action, attack, combo, pitch-2, cost-2]
+tags: [card, qi-unleashed, qi, unleashed, ninja, action, attack, combo, pitch-2, cost-2, dyn060, mst168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hrPnGKq9czRctFqJqWknC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: hrPnGKq9czRctFqJqWknC
 sets: [DYN, MST]
+codes: [DYN060, MST168]
 ---
 
 **Qi Unleashed (yellow)** — Ninja Action - Attack · cost 2 · 2 power · 3 defense

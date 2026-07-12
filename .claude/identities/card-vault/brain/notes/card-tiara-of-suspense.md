@@ -1,5 +1,5 @@
 ---
-tags: [card, tiara-of-suspense, tiara, suspense, guardian, equipment, head, revered, guardwell]
+tags: [card, tiara-of-suspense, tiara, suspense, guardian, equipment, head, revered, guardwell, aps004, sup272]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7QtkDW9dbfgKbkWcbR68) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Revered]
 keywords: [Guardwell]
 unique-id: m7QtkDW9dbfgKbkWcbR68
 sets: [APS, SUP]
+codes: [APS004, SUP272]
 ---
 
 **Tiara of Suspense** — Revered Guardian Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, not-so-tuff, not, so, tuff, block, reviled, pitch-3]
+tags: [card, not-so-tuff, not, so, tuff, block, reviled, pitch-3, sup124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNbHKGgQDmpBmQWDDTnkR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Block]
 other-types: [Reviled]
 unique-id: hNbHKGgQDmpBmQWDDTnkR
 sets: [SUP]
+codes: [SUP124]
 ---
 
 **Not So Tuff (blue)** — Reviled Block · 2 defense

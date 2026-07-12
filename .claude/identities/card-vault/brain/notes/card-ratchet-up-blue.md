@@ -1,5 +1,5 @@
 ---
-tags: [card, ratchet-up, ratchet, up, mechanologist, action, attack, galvanize, pitch-3, cost-1]
+tags: [card, ratchet-up, ratchet, up, mechanologist, action, attack, galvanize, pitch-3, cost-1, evo107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nwqRtHp9hhnB9RQgQLkpd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Galvanize]
 unique-id: nwqRtHp9hhnB9RQgQLkpd
 sets: [EVO]
+codes: [EVO107]
 ---
 
 **Ratchet Up (blue)** — Mechanologist Action - Attack · cost 1 · 3 power · 2 defense

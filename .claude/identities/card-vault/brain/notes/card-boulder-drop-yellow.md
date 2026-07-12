@@ -1,5 +1,5 @@
 ---
-tags: [card, boulder-drop, boulder, drop, guardian, action, attack, crush, pitch-2, cost-3]
+tags: [card, boulder-drop, boulder, drop, guardian, action, attack, crush, pitch-2, cost-3, tcc039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jLqRGt6GqBn9NbHrzbKKm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: jLqRGt6GqBn9NbHrzbKKm
 sets: [TCC]
+codes: [TCC039]
 ---
 
 **Boulder Drop (yellow)** — Guardian Action - Attack · cost 3 · 6 power · 3 defense

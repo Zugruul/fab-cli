@@ -1,5 +1,5 @@
 ---
-tags: [card, good-deeds-dont-go-unnoticed, good, deeds, dont, go, unnoticed, generic, action, aura, pitch-2, cost-0]
+tags: [card, good-deeds-dont-go-unnoticed, good, deeds, dont, go, unnoticed, generic, action, aura, pitch-2, cost-0, lss006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nnFHwzGctzmqqwMTrfBpQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: nnFHwzGctzmqqwMTrfBpQ
 sets: [LSS]
+codes: [LSS006]
 ---
 
 **Good Deeds Don't Go Unnoticed (yellow)** — Generic Action - Aura · cost 0 · 3 defense

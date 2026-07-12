@@ -1,5 +1,5 @@
 ---
-tags: [card, fealty, draconic, token, aura]
+tags: [card, fealty, draconic, token, aura, cin028, fng028, hnt167, sfa037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n9FtLHDg97rfrTNJDMBG6) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: n9FtLHDg97rfrTNJDMBG6
 sets: [CIN, FNG, HNT, SFA]
+codes: [CIN028, FNG028, HNT167, SFA037]
 ---
 
 **Fealty** — Draconic Token - Aura

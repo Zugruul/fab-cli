@@ -1,5 +1,5 @@
 ---
-tags: [card, confidence, generic, token, aura]
+tags: [card, confidence, generic, token, aura, aps031, fab394, sly034, sup239]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WBFjTCfmbwHCr8WNmz8RQ) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: WBFjTCfmbwHCr8WNmz8RQ
 sets: [APS, FAB, SLY, SUP]
+codes: [APS031, FAB394, SLY034, SUP239]
 ---
 
 **Confidence** — Generic Token - Aura

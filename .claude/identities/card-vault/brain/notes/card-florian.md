@@ -1,5 +1,5 @@
 ---
-tags: [card, florian, runeblade, elemental, hero, young, essence-of-earth]
+tags: [card, florian, runeblade, elemental, hero, young, essence-of-earth, flr001, ros002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ht8qhJWDMHjjMjzqgf6KG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth]
 unique-id: Ht8qhJWDMHjjMjzqgf6KG
 sets: [FLR, ROS]
+codes: [FLR001, ROS002]
 ---
 
 **Florian** — Elemental Runeblade Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, mangle, guardian, action, attack, crush, pitch-1, cost-4]
+tags: [card, mangle, guardian, action, attack, crush, pitch-1, cost-4, 1hp051, ajv011, cru026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q7GfHcHBpWqCbtghcpnTj) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: q7GfHcHBpWqCbtghcpnTj
 sets: [1HP, AJV, CRU]
+codes: [1HP051, AJV011, CRU026]
 ---
 
 **Mangle (red)** — Guardian Action - Attack · cost 4 · 8 power · 3 defense

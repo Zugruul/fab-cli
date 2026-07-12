@@ -1,5 +1,5 @@
 ---
-tags: [card, ironsong-versus, ironsong, versus, warrior, equipment, arms, temper]
+tags: [card, ironsong-versus, ironsong, versus, warrior, equipment, arms, temper, dtd207, fab141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JtPhDg9PkWmHb6jpCCPjz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Temper]
 unique-id: JtPhDg9PkWmHb6jpCCPjz
 sets: [DTD, FAB]
+codes: [DTD207, FAB141]
 ---
 
 **Ironsong Versus** — Warrior Equipment - Arms · 2 defense

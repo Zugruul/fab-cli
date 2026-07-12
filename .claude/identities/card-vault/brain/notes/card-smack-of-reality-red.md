@@ -1,5 +1,5 @@
 ---
-tags: [card, smack-of-reality, smack, reality, guardian, action, attack, tower, pitch-1, cost-5]
+tags: [card, smack-of-reality, smack, reality, guardian, action, attack, tower, pitch-1, cost-5, bet011, hvy064, tcc036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bbLpjmWJ6cpDGhhgmCBTR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Tower]
 unique-id: bbLpjmWJ6cpDGhhgmCBTR
 sets: [BET, HVY, TCC]
+codes: [BET011, HVY064, TCC036]
 ---
 
 **Smack of Reality (red)** — Guardian Action - Attack · cost 5 · 9 power · 3 defense

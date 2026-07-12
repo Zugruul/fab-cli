@@ -1,5 +1,5 @@
 ---
-tags: [card, backup-protocol-blu, backup, protocol, blu, mechanologist, action, item, crank, pitch-3, cost-0]
+tags: [card, backup-protocol-blu, backup, protocol, blu, mechanologist, action, item, crank, pitch-3, cost-0, aio025, evo083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6QzjLDc9KbnJWrFqd8zjW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: 6QzjLDc9KbnJWrFqd8zjW
 sets: [AIO, EVO]
+codes: [AIO025, EVO083]
 ---
 
 **Backup Protocol: BLU (blue)** — Mechanologist Action - Item · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, conduit-of-frostburn, conduit, frostburn, wizard, ice, equipment, arms, quell-1]
+tags: [card, conduit-of-frostburn, conduit, frostburn, wizard, ice, equipment, arms, quell-1, upr125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzP7wmmnGhcPk78jJpwQ6) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Quell 1]
 unique-id: dzP7wmmnGhcPk78jJpwQ6
 sets: [UPR]
+codes: [UPR125]
 ---
 
 **Conduit of Frostburn** — Ice Wizard Equipment - Arms · 0 defense

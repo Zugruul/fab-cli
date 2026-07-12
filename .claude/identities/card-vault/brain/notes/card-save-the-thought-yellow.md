@@ -1,5 +1,5 @@
 ---
-tags: [card, save-the-thought, save, thought, wizard, instant, pitch-2, cost-2]
+tags: [card, save-the-thought, save, thought, wizard, instant, pitch-2, cost-2, ros180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7P7nqWCFNDmbR7QJqhfJf) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Wizard]
 types: [Instant]
 unique-id: 7P7nqWCFNDmbR7QJqhfJf
 sets: [ROS]
+codes: [ROS180]
 ---
 
 **Save the Thought (yellow)** — Wizard Instant · cost 2

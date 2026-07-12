@@ -1,5 +1,5 @@
 ---
-tags: [card, spreading-mist, spreading, mist, mystic, action, go-again, pitch-3, cost-0]
+tags: [card, spreading-mist, spreading, mist, mystic, action, go-again, pitch-3, cost-0, pen274]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PF8fPNMCGHtNBbQRGqMPK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: PF8fPNMCGHtNBbQRGqMPK
 sets: [PEN]
+codes: [PEN274]
 ---
 
 **Spreading Mist (blue)** — Mystic Action · cost 0 · 2 defense

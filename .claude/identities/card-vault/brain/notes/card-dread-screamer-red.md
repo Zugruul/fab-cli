@@ -1,5 +1,5 @@
 ---
-tags: [card, dread-screamer, dread, screamer, brute, shadow, action, attack, go-again, blood-debt, pitch-1, cost-2]
+tags: [card, dread-screamer, dread, screamer, brute, shadow, action, attack, go-again, blood-debt, pitch-1, cost-2, lev011, mon141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p76hRkCFwWPHGjzNmD9PP) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Blood Debt]
 unique-id: p76hRkCFwWPHGjzNmD9PP
 sets: [LEV, MON]
+codes: [LEV011, MON141]
 ---
 
 **Dread Screamer (red)** — Shadow Brute Action - Attack · cost 2 · 6 power · 3 defense

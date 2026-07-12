@@ -1,5 +1,5 @@
 ---
-tags: [card, vestige-of-flagellation, vestige, flagellation, shadow, equipment, chest, blade-break]
+tags: [card, vestige-of-flagellation, vestige, flagellation, shadow, equipment, chest, blade-break, pen191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WnnC99QDftcbRMNcKKwmk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: WnnC99QDftcbRMNcKKwmk
 sets: [PEN]
+codes: [PEN191]
 ---
 
 **Vestige of Flagellation** — Shadow Equipment - Chest · 2 defense

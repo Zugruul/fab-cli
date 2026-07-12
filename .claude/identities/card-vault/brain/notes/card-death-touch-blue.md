@@ -1,5 +1,5 @@
 ---
-tags: [card, death-touch, death, touch, assassin, ranger, action, attack, pitch-3, cost-1]
+tags: [card, death-touch, death, touch, assassin, ranger, action, attack, pitch-3, cost-1, out164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tHhztGzBGFRrLKTWCtg7f) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: tHhztGzBGFRrLKTWCtg7f
 sets: [OUT]
+codes: [OUT164]
 ---
 
 **Death Touch (blue)** — Assassin / Ranger Action - Attack · cost 1 · 4 power · 2 defense

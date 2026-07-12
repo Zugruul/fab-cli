@@ -1,5 +1,5 @@
 ---
-tags: [card, affirm-loyalty, affirm, loyalty, warrior, draconic, attack-reaction, pitch-1, cost-0]
+tags: [card, affirm-loyalty, affirm, loyalty, warrior, draconic, attack-reaction, pitch-1, cost-0, fng009, gem012, hnt103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7brgFMk9NrkLtzqKrhFFW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: 7brgFMk9NrkLtzqKrhFFW
 sets: [FNG, GEM, HNT]
+codes: [FNG009, GEM012, HNT103]
 ---
 
 **Affirm Loyalty (red)** — Draconic Warrior Attack Reaction · cost 0 · 2 defense

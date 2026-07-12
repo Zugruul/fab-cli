@@ -1,5 +1,5 @@
 ---
-tags: [card, invoke-nekria, invoke, nekria, illusionist, draconic, action, invocation, transform, go-again, pitch-1, cost-3]
+tags: [card, invoke-nekria, invoke, nekria, illusionist, draconic, action, invocation, transform, go-again, pitch-1, cost-3, upr013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QjT7Pt8nTWqtfT6GbrQnJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Invocation]
 keywords: [Transform, Go again]
 unique-id: QjT7Pt8nTWqtfT6GbrQnJ
 sets: [UPR]
+codes: [UPR013]
 ---
 
 **Invoke Nekria (red)** — Draconic Illusionist Action - Invocation · cost 3 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, darling-of-the-crowd, darling, crowd, block, revered, pitch-2]
+tags: [card, darling-of-the-crowd, darling, crowd, block, revered, pitch-2, sup061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFpG8LW6fRmGgJ6dpWj8Q) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Block]
 other-types: [Revered]
 unique-id: rFpG8LW6fRmGgJ6dpWj8Q
 sets: [SUP]
+codes: [SUP061]
 ---
 
 **Darling of the Crowd (yellow)** — Revered Block · 3 defense

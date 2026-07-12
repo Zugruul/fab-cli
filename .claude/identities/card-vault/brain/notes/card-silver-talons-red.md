@@ -1,5 +1,5 @@
 ---
-tags: [card, silver-talons, silver, talons, ninja, action, attack, pitch-1, cost-0]
+tags: [card, silver-talons, silver, talons, ninja, action, attack, pitch-1, cost-0, cin019, hnt080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBdRfJk6kfmbcf6RLDrPJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: QBdRfJk6kfmbcf6RLDrPJ
 sets: [CIN, HNT]
+codes: [CIN019, HNT080]
 ---
 
 **Silver Talons (red)** — Ninja Action - Attack · cost 0 · 4 power · 3 defense

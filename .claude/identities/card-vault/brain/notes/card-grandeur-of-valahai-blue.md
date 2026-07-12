@@ -1,5 +1,5 @@
 ---
-tags: [card, grandeur-of-valahai, grandeur, valahai, guardian, resource, gem, legendary, pitch-3]
+tags: [card, grandeur-of-valahai, grandeur, valahai, guardian, resource, gem, legendary, pitch-3, evr000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pwfB8pHmJRDD8CfP8mTbr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: pwfB8pHmJRDD8CfP8mTbr
 sets: [EVR]
+codes: [EVR000]
 ---
 
 **Grandeur of Valahai (blue)** — Guardian Resource - Gem

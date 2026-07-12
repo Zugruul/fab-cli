@@ -1,5 +1,5 @@
 ---
-tags: [card, gaze-the-ages, gaze, ages, wizard, action, opt-2, pitch-3, cost-0]
+tags: [card, gaze-the-ages, gaze, ages, wizard, action, opt-2, pitch-3, cost-0, cru163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RzdGctLgfrTtr7MWkBwWr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 2]
 unique-id: RzdGctLgfrTtr7MWkBwWr
 sets: [CRU]
+codes: [CRU163]
 ---
 
 **Gaze the Ages (blue)** — Wizard Action · cost 0 · 3 defense

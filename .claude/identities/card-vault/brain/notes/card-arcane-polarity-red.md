@@ -1,5 +1,5 @@
 ---
-tags: [card, arcane-polarity, arcane, polarity, generic, instant, pitch-1, cost-0]
+tags: [card, arcane-polarity, arcane, polarity, generic, instant, pitch-1, cost-0, lgs458, ros231, sba030, sbz020, sfa028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9rcH7g9C8Gt8WbPHbPWg) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: p9rcH7g9C8Gt8WbPHbPWg
 sets: [LGS, ROS, SBA, SBZ, SFA]
+codes: [LGS458, ROS231, SBA030, SBZ020, SFA028]
 ---
 
 **Arcane Polarity (red)** — Generic Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, frankie-make-ends-meat, frankie, make, ends, meat, necromancer, hero, young]
+tags: [card, frankie-make-ends-meat, frankie, make, ends, meat, necromancer, hero, young, lss021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qJdwq7GGjFb96CzLDqCdk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Necromancer]
 types: [Hero]
 unique-id: qJdwq7GGjFb96CzLDqCdk
 sets: [LSS]
+codes: [LSS021]
 ---
 
 **Frankie, Make Ends Meat** — Necromancer Hero - Young · 20 health · 4 int

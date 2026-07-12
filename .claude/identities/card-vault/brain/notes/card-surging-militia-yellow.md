@@ -1,5 +1,5 @@
 ---
-tags: [card, surging-militia, surging, militia, generic, action, attack, pitch-2, cost-2]
+tags: [card, surging-militia, surging, militia, generic, action, attack, pitch-2, cost-2, mon288]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tPGH6kTnMBWB6KwfqmDtr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: tPGH6kTnMBWB6KwfqmDtr
 sets: [MON]
+codes: [MON288]
 ---
 
 **Surging Militia (yellow)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, astravolt-elemental, astravolt, elemental, lightning, action, attack, pitch-1, cost-0]
+tags: [card, astravolt-elemental, astravolt, elemental, lightning, action, attack, pitch-1, cost-0, pen241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LgNWtWWTNFLDnWzjbkTqT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: LgNWtWWTNFLDnWzjbkTqT
 sets: [PEN]
+codes: [PEN241]
 ---
 
 **Astravolt Elemental (red)** — Lightning Action - Attack · cost 0 · 3 power · 3 defense

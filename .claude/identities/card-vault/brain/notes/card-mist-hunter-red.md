@@ -1,5 +1,5 @@
 ---
-tags: [card, mist-hunter, mist, hunter, assassin, action, attack, contract, pitch-1, cost-0]
+tags: [card, mist-hunter, mist, hunter, assassin, action, attack, contract, pitch-1, cost-0, pen143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJkMnrWFtbnjLLtkCr6zC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: wJkMnrWFtbnjLLtkCr6zC
 sets: [PEN]
+codes: [PEN143]
 ---
 
 **Mist Hunter (red)** — Assassin Action - Attack · cost 0 · 4 power · 3 defense

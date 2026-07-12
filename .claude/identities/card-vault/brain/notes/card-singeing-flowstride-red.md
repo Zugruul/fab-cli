@@ -1,5 +1,5 @@
 ---
-tags: [card, singeing-flowstride, singeing, flowstride, runeblade, lightning, action, attack, quickstrike, pitch-1, cost-1]
+tags: [card, singeing-flowstride, singeing, flowstride, runeblade, lightning, action, attack, quickstrike, pitch-1, cost-1, omn071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mzq9qrLQtHKjNTgkDqtwB) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Quickstrike]
 unique-id: Mzq9qrLQtHKjNTgkDqtwB
 sets: [OMN]
+codes: [OMN071]
 ---
 
 **Singeing Flowstride (red)** — Lightning Runeblade Action - Attack · cost 1 · 4 power · 3 defense

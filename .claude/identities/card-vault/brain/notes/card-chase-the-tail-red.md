@@ -1,5 +1,5 @@
 ---
-tags: [card, chase-the-tail, chase, tail, ninja, action, attack, combo, pitch-1, cost-1]
+tags: [card, chase-the-tail, chase, tail, ninja, action, attack, combo, pitch-1, cost-1, mst161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WRGBnNRjPprcPjd67kBqM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: WRGBnNRjPprcPjd67kBqM
 sets: [MST]
+codes: [MST161]
 ---
 
 **Chase the Tail (red)** — Ninja Action - Attack · cost 1 · 4 power · 3 defense

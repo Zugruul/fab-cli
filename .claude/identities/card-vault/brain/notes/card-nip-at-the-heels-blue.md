@@ -1,5 +1,5 @@
 ---
-tags: [card, nip-at-the-heels, nip, heels, generic, attack-reaction, pitch-3, cost-0]
+tags: [card, nip-at-the-heels, nip, heels, generic, attack-reaction, pitch-3, cost-0, fab326, hnt239, sdo026, sfa034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wk8pbbnHPWfp6ndkJb6QD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Attack Reaction]
 unique-id: Wk8pbbnHPWfp6ndkJb6QD
 sets: [FAB, HNT, SDO, SFA]
+codes: [FAB326, HNT239, SDO026, SFA034]
 ---
 
 **Nip at the Heels (blue)** — Generic Attack Reaction · cost 0 · 3 defense

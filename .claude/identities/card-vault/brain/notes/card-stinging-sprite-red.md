@@ -1,5 +1,5 @@
 ---
-tags: [card, stinging-sprite, stinging, sprite, runeblade, lightning, action, attack, pitch-1, cost-0]
+tags: [card, stinging-sprite, stinging, sprite, runeblade, lightning, action, attack, pitch-1, cost-0, gem153, omn056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9g9FTKT6DqqrcKHnMGdWD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 9g9FTKT6DqqrcKHnMGdWD
 sets: [GEM, OMN]
+codes: [GEM153, OMN056]
 ---
 
 **Stinging Sprite (red)** — Lightning Runeblade Action - Attack · cost 0 · 3 power · 2 defense

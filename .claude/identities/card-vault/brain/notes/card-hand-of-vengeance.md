@@ -1,5 +1,5 @@
 ---
-tags: [card, hand-of-vengeance, hand, vengeance, draconic, equipment, arms, blade-break]
+tags: [card, hand-of-vengeance, hand, vengeance, draconic, equipment, arms, blade-break, hnt146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8qzF9KbHtkNHpGzpdGWhk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: 8qzF9KbHtkNHpGzpdGWhk
 sets: [HNT]
+codes: [HNT146]
 ---
 
 **Hand of Vengeance** — Draconic Equipment - Arms · 1 defense

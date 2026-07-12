@@ -1,5 +1,5 @@
 ---
-tags: [card, shadow-puppetry, shadow, puppetry, action, go-again, pitch-1, cost-0]
+tags: [card, shadow-puppetry, shadow, puppetry, action, go-again, pitch-1, cost-0, mon193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 97JfCpcf7hpfrDdQw8Btz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 97JfCpcf7hpfrDdQw8Btz
 sets: [MON]
+codes: [MON193]
 ---
 
 **Shadow Puppetry (red)** — Shadow Action · cost 0 · 2 defense

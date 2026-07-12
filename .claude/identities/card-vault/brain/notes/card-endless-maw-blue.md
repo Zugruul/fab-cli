@@ -1,5 +1,5 @@
 ---
-tags: [card, endless-maw, endless, maw, brute, shadow, action, attack, blood-debt, pitch-3, cost-3]
+tags: [card, endless-maw, endless, maw, brute, shadow, action, attack, blood-debt, pitch-3, cost-3, mon128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cp7q8KGCNJQDTqDNBGMGD) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: Cp7q8KGCNJQDTqDNBGMGD
 sets: [MON]
+codes: [MON128]
 ---
 
 **Endless Maw (blue)** — Shadow Brute Action - Attack · cost 3 · 4 power · 3 defense

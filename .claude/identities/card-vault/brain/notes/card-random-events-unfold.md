@@ -1,5 +1,5 @@
 ---
-tags: [card, random-events-unfold, random, events, unfold, event]
+tags: [card, random-events-unfold, random, events, unfold, event, smp012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gcgCpfj86Wq8pMRnjtWpm) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Random Events Unfold"
 types: [Event]
 unique-id: gcgCpfj86Wq8pMRnjtWpm
 sets: [SMP]
+codes: [SMP012]
 ---
 
 **Random Events Unfold** — Event

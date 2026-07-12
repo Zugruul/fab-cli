@@ -1,5 +1,5 @@
 ---
-tags: [card, emerging-avalanche, emerging, avalanche, guardian, elemental, action, aura, ice-fusion, go-again, pitch-3, cost-2]
+tags: [card, emerging-avalanche, emerging, avalanche, guardian, elemental, action, aura, ice-fusion, go-again, pitch-3, cost-2, ajv019, ele027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NDkNqCchBdrhwz7RCBn77) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Aura]
 keywords: [Ice Fusion, Go again]
 unique-id: NDkNqCchBdrhwz7RCBn77
 sets: [AJV, ELE]
+codes: [AJV019, ELE027]
 ---
 
 **Emerging Avalanche (blue)** — Elemental Guardian Action - Aura · cost 2 · 3 defense

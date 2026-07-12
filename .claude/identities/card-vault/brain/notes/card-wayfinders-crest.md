@@ -1,5 +1,5 @@
 ---
-tags: [card, wayfinders-crest, wayfinders, crest, ranger, equipment, head, blade-break]
+tags: [card, wayfinders-crest, wayfinders, crest, ranger, equipment, head, blade-break, azl004, out099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rtR8zKcQtHFKrqQKLwBWC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: rtR8zKcQtHFKrqQKLwBWC
 sets: [AZL, OUT]
+codes: [AZL004, OUT099]
 ---
 
 **Wayfinder's Crest** — Ranger Equipment - Head · 1 defense

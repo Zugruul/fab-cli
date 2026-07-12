@@ -1,5 +1,5 @@
 ---
-tags: [card, constella-waves, constella, waves, wizard, lightning, equipment, arms]
+tags: [card, constella-waves, constella, waves, wizard, lightning, equipment, arms, omn097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hFfmQg8Rc6gttfrhzpcPh) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: hFfmQg8Rc6gttfrhzpcPh
 sets: [OMN]
+codes: [OMN097]
 ---
 
 **Constella Waves** — Lightning Wizard Equipment - Arms · 0 defense

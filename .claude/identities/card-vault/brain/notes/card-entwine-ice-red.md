@@ -1,5 +1,5 @@
 ---
-tags: [card, entwine-ice, entwine, ice, elemental, action, attack, ice-fusion, dominate, pitch-1, cost-1]
+tags: [card, entwine-ice, entwine, ice, elemental, action, attack, ice-fusion, dominate, pitch-1, cost-1, ele097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jHLRPPQDpFDLGHJkPKQtz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Ice Fusion, Dominate]
 unique-id: jHLRPPQDpFDLGHJkPKQtz
 sets: [ELE]
+codes: [ELE097]
 ---
 
 **Entwine Ice (red)** — Elemental Action - Attack · cost 1 · 5 power · 2 defense

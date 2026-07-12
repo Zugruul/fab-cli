@@ -1,5 +1,5 @@
 ---
-tags: [card, prey-spotters, prey, spotters, assassin, equipment, head, battleworn]
+tags: [card, prey-spotters, prey, spotters, assassin, equipment, head, battleworn, aac004, sar003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9Rc87J7TGt8DWffqnKjCf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: 9Rc87J7TGt8DWffqnKjCf
 sets: [AAC, SAR]
+codes: [AAC004, SAR003]
 ---
 
 **Prey Spotters** — Assassin Equipment - Head · 1 defense

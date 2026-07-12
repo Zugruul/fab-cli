@@ -1,5 +1,5 @@
 ---
-tags: [card, annexation-of-the-forge, annexation, forge, guardian, action, attack, crush, pitch-2, cost-5]
+tags: [card, annexation-of-the-forge, annexation, forge, guardian, action, attack, crush, pitch-2, cost-5, mpg031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HnrThKwGrgQMmz69wNbBP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: HnrThKwGrgQMmz69wNbBP
 sets: [MPG]
+codes: [MPG031]
 ---
 
 **Annexation of the Forge (yellow)** — Guardian Action - Attack · cost 5 · 8 power · 3 defense

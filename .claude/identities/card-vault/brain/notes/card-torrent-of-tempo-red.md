@@ -1,5 +1,5 @@
 ---
-tags: [card, torrent-of-tempo, torrent, tempo, ninja, action, attack, go-again, pitch-1, cost-1]
+tags: [card, torrent-of-tempo, torrent, tempo, ninja, action, attack, go-again, pitch-1, cost-1, 1hp128, asr015, cru069, ira006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9F67fMDKzMkLMJFr7GN67) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 9F67fMDKzMkLMJFr7GN67
 sets: [1HP, ASR, CRU, IRA]
+codes: [1HP128, ASR015, CRU069, IRA006]
 ---
 
 **Torrent of Tempo (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

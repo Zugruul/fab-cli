@@ -1,5 +1,5 @@
 ---
-tags: [card, professor-teklovossen, professor, teklovossen, mechanologist, hero, young]
+tags: [card, professor-teklovossen, professor, teklovossen, mechanologist, hero, young, her104, tcc001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BLCMLHnwnbRKbdhPJ9DQp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Mechanologist]
 types: [Hero]
 unique-id: BLCMLHnwnbRKbdhPJ9DQp
 sets: [HER, TCC]
+codes: [HER104, TCC001]
 ---
 
 **Professor Teklovossen** — Mechanologist Hero - Young · 20 health · 4 int

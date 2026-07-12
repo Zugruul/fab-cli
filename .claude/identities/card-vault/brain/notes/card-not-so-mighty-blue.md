@@ -1,5 +1,5 @@
 ---
-tags: [card, not-so-mighty, not, so, mighty, block, revered, pitch-3]
+tags: [card, not-so-mighty, not, so, mighty, block, revered, pitch-3, sup062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wmGCKjjh6QbD6WTqNFqn9) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Block]
 other-types: [Revered]
 unique-id: wmGCKjjh6QbD6WTqNFqn9
 sets: [SUP]
+codes: [SUP062]
 ---
 
 **Not So Mighty (blue)** — Revered Block · 2 defense

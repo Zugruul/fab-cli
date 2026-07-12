@@ -1,5 +1,5 @@
 ---
-tags: [card, scramble-pulse, scramble, pulse, mechanologist, action, attack, boost, pitch-2, cost-2]
+tags: [card, scramble-pulse, scramble, pulse, mechanologist, action, attack, boost, pitch-2, cost-2, dyn096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bqj7zQj6nRg69nWJpqhdG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: Bqj7zQj6nRg69nWJpqhdG
 sets: [DYN]
+codes: [DYN096]
 ---
 
 **Scramble Pulse (yellow)** — Mechanologist Action - Attack · cost 2 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sand-sketched-plan, sand, sketched, plan, brute, action, rhinar-specialization, pitch-3, cost-0]
+tags: [card, sand-sketched-plan, sand, sketched, plan, brute, action, rhinar-specialization, pitch-3, cost-0, 1hp015, wtr009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BpjDRjGcMhFQkKQLnLLkQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Rhinar Specialization]
 unique-id: BpjDRjGcMhFQkKQLnLLkQ
 sets: [1HP, WTR]
+codes: [1HP015, WTR009]
 ---
 
 **Sand Sketched Plan (blue)** — Brute Action · cost 0 · 3 defense

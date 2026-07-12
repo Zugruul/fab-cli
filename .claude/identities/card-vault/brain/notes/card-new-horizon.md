@@ -1,5 +1,5 @@
 ---
-tags: [card, new-horizon, new, horizon, ranger, equipment, head, blade-break]
+tags: [card, new-horizon, new, horizon, ranger, equipment, head, blade-break, ele213, fab050, sup256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BqJ76BGQWgFpPddRMQrQc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: BqJ76BGQWgFpPddRMQrQc
 sets: [ELE, FAB, SUP]
+codes: [ELE213, FAB050, SUP256]
 ---
 
 **New Horizon** — Ranger Equipment - Head · 2 defense

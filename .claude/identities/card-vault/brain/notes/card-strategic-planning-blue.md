@@ -1,5 +1,5 @@
 ---
-tags: [card, strategic-planning, strategic, planning, generic, action, go-again, pitch-3, cost-1]
+tags: [card, strategic-planning, strategic, planning, generic, action, go-again, pitch-3, cost-1, upr202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rBMdcdDm68TGL6qp6JbKf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rBMdcdDm68TGL6qp6JbKf
 sets: [UPR]
+codes: [UPR202]
 ---
 
 **Strategic Planning (blue)** — Generic Action · cost 1 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, grandstand-legplates, grandstand, legplates, generic, equipment, legs, blade-break]
+tags: [card, grandstand-legplates, grandstand, legplates, generic, equipment, legs, blade-break, hvy205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zBCwfCKHpdpkngRHWMFhN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: zBCwfCKHpdpkngRHWMFhN
 sets: [HVY]
+codes: [HVY205]
 ---
 
 **Grandstand Legplates** — Generic Equipment - Legs · * defense

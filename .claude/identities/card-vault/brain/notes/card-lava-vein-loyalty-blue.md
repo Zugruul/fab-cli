@@ -1,5 +1,5 @@
 ---
-tags: [card, lava-vein-loyalty, lava, vein, loyalty, ninja, draconic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, lava-vein-loyalty, lava, vein, loyalty, ninja, draconic, action, attack, go-again, pitch-3, cost-0, fai025, upr071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTF8r6hgr8f89Gn9PpGn6) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: KTF8r6hgr8f89Gn9PpGn6
 sets: [FAI, UPR]
+codes: [FAI025, UPR071]
 ---
 
 **Lava Vein Loyalty (blue)** — Draconic Ninja Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hunters-klaive, hunters, klaive, assassin, weapon, dagger, 1h, mark, piercing-1]
+tags: [card, hunters-klaive, hunters, klaive, assassin, weapon, dagger, 1h, mark, piercing-1, aac002, gem068, hnt009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QTkWJ8jqCgbMCTcNpmMmC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Mark, Piercing 1]
 unique-id: QTkWJ8jqCgbMCTcNpmMmC
 sets: [AAC, GEM, HNT]
+codes: [AAC002, GEM068, HNT009]
 ---
 
 **Hunter's Klaive** — Assassin Weapon - Dagger (1H) · 1 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, speed-demon, speed, demon, mechanologist, action, attack, scrap, pitch-1, cost-0]
+tags: [card, speed-demon, speed, demon, mechanologist, action, attack, scrap, pitch-1, cost-0, gem166, pen065]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TftHKTdmTmqMGK7cRNcCD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap]
 unique-id: TftHKTdmTmqMGK7cRNcCD
 sets: [GEM, PEN]
+codes: [GEM166, PEN065]
 ---
 
 **Speed Demon (red)** — Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

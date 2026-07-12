@@ -1,5 +1,5 @@
 ---
-tags: [card, rough-up, rough, up, brute, action, attack, pitch-2, cost-2]
+tags: [card, rough-up, rough, up, brute, action, attack, pitch-2, cost-2, sup159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DhnFPrT6QqFMWbKMkWGPq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DhnFPrT6QqFMWbKMkWGPq
 sets: [SUP]
+codes: [SUP159]
 ---
 
 **Rough Up (yellow)** — Brute Action - Attack · cost 2 · 5 power · 3 defense

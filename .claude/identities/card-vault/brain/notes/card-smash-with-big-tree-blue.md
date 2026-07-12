@@ -1,5 +1,5 @@
 ---
-tags: [card, smash-with-big-tree, smash, big, tree, brute, action, attack, pitch-3, cost-2]
+tags: [card, smash-with-big-tree, smash, big, tree, brute, action, attack, pitch-3, cost-2, mon228]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7hdNz98BfjDQmrckcQzLh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7hdNz98BfjDQmrckcQzLh
 sets: [MON]
+codes: [MON228]
 ---
 
 **Smash with Big Tree (blue)** — Brute Action - Attack · cost 2 · 5 power

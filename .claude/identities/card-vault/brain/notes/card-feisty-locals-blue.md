@@ -1,5 +1,5 @@
 ---
-tags: [card, feisty-locals, feisty, locals, generic, action, attack, pitch-3, cost-0]
+tags: [card, feisty-locals, feisty, locals, generic, action, attack, pitch-3, cost-0, out209, sup232]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BtFKjW9dLTMfpqcB8jkwT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: BtFKjW9dLTMfpqcB8jkwT
 sets: [OUT, SUP]
+codes: [OUT209, SUP232]
 ---
 
 **Feisty Locals (blue)** — Generic Action - Attack · cost 0 · 1 power · 2 defense

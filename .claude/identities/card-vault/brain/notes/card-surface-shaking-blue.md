@@ -1,5 +1,5 @@
 ---
-tags: [card, surface-shaking, surface, shaking, guardian, action, aura, go-again, pitch-3, cost-3]
+tags: [card, surface-shaking, surface, shaking, guardian, action, aura, go-again, pitch-3, cost-3, sea251]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wQW7bhgz9hpPLfMW9fq7h) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: wQW7bhgz9hpPLfMW9fq7h
 sets: [SEA]
+codes: [SEA251]
 ---
 
 **Surface Shaking (blue)** — Guardian Action - Aura · cost 3 · 3 defense

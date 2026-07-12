@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-sink, aether, sink, mechanologist, action, item, pitch-2, cost-1]
+tags: [card, aether-sink, aether, sink, mechanologist, action, item, pitch-2, cost-1, 1hp199, arc017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b7h97MzpKF8mNqMr8B9Fq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: b7h97MzpKF8mNqMr8B9Fq
 sets: [1HP, ARC]
+codes: [1HP199, ARC017]
 ---
 
 **Aether Sink (yellow)** — Mechanologist Action - Item · cost 1

@@ -1,5 +1,5 @@
 ---
-tags: [card, open-the-flood-gates, open, flood, gates, wizard, action, surge, pitch-1, cost-2]
+tags: [card, open-the-flood-gates, open, flood, gates, wizard, action, surge, pitch-1, cost-2, ros195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FwtKQ8HK8JLbHFWbFQDPg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: FwtKQ8HK8JLbHFWbFQDPg
 sets: [ROS]
+codes: [ROS195]
 ---
 
 **Open the Flood Gates (red)** — Wizard Action · cost 2 · 3 defense

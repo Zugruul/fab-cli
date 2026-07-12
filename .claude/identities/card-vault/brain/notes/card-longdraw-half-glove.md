@@ -1,5 +1,5 @@
 ---
-tags: [card, longdraw-half-glove, longdraw, half, glove, ranger, equipment, arms, battleworn]
+tags: [card, longdraw-half-glove, longdraw, half, glove, ranger, equipment, arms, battleworn, mst232]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tNBLJKrbDpBL9TMb678wM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: tNBLJKrbDpBL9TMb678wM
 sets: [MST]
+codes: [MST232]
 ---
 
 **Longdraw Half-glove** — Ranger Equipment - Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, dimenxxional-vortex, dimenxxional, vortex, shadow, action, blood-debt, cost-3]
+tags: [card, dimenxxional-vortex, dimenxxional, vortex, shadow, action, blood-debt, cost-3, dtd171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JdCmtgpzCdnNWrD7FB7mp) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: JdCmtgpzCdnNWrD7FB7mp
 sets: [DTD]
+codes: [DTD171]
 ---
 
 **Dimenxxional Vortex** — Shadow Action · cost 3

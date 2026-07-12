@@ -1,5 +1,5 @@
 ---
-tags: [card, arakni-orb-weaver, arakni, orb, weaver, assassin, chaos, demi-hero]
+tags: [card, arakni-orb-weaver, arakni, orb, weaver, assassin, chaos, demi-hero, hnt005, lgs378, sar036, wod029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hJDM6fWpRRf6jLqrW8KRr) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Demi-Hero]
 traits: [Agent of Chaos]
 unique-id: hJDM6fWpRRf6jLqrW8KRr
 sets: [HNT, LGS, SAR, WOD]
+codes: [HNT005, LGS378, SAR036, WOD029]
 ---
 
 **Arakni, Orb-Weaver** — Chaos Assassin Demi-Hero · * health · 4 int

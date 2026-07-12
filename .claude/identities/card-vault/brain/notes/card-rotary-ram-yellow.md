@@ -1,5 +1,5 @@
 ---
-tags: [card, rotary-ram, rotary, ram, mechanologist, action, go-again, pitch-2, cost-0]
+tags: [card, rotary-ram, rotary, ram, mechanologist, action, go-again, pitch-2, cost-0, evr083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HqttnTjTP6NRFhLcmPN89) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: HqttnTjTP6NRFhLcmPN89
 sets: [EVR]
+codes: [EVR083]
 ---
 
 **Rotary Ram (yellow)** — Mechanologist Action · cost 0 · 3 defense

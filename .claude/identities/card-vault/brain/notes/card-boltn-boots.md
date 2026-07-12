@@ -1,5 +1,5 @@
 ---
-tags: [card, boltn-boots, boltn, boots, ranger, equipment, legs, battleworn, go-again]
+tags: [card, boltn-boots, boltn, boots, ranger, equipment, legs, battleworn, go-again, pen082, saz008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dMgNNhpNmBbDpjQHKC8j7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn, Go again]
 unique-id: dMgNNhpNmBbDpjQHKC8j7
 sets: [PEN, SAZ]
+codes: [PEN082, SAZ008]
 ---
 
 **Bolt'n Boots** — Ranger Equipment - Legs · 1 defense

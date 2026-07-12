@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-call, graven, call, assassin, weapon, dagger, 1h, piercing-1]
+tags: [card, graven-call, graven, call, assassin, weapon, dagger, 1h, piercing-1, hvy245]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ng9LqqDzcwcTmQmDzWzjT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Piercing 1]
 unique-id: Ng9LqqDzcwcTmQmDzWzjT
 sets: [HVY]
+codes: [HVY245]
 ---
 
 **Graven Call** — Assassin Weapon - Dagger (1H) · 1 power

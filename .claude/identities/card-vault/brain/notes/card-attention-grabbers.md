@@ -1,5 +1,5 @@
 ---
-tags: [card, attention-grabbers, attention, grabbers, guardian, equipment, arms, blade-break]
+tags: [card, attention-grabbers, attention, grabbers, guardian, equipment, arms, blade-break, aps006, sup274]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wGgcM7RtPfm8PtFhrcchm) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: wGgcM7RtPfm8PtFhrcchm
 sets: [APS, SUP]
+codes: [APS006, SUP274]
 ---
 
 **Attention Grabbers** — Guardian Equipment - Arms · 1 defense

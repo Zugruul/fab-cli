@@ -1,5 +1,5 @@
 ---
-tags: [card, dyadic-carapace, dyadic, carapace, runeblade, equipment, chest, arcane-barrier-2, temper]
+tags: [card, dyadic-carapace, dyadic, carapace, runeblade, equipment, chest, arcane-barrier-2, temper, dtd211, fab142, gem149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C7NCzqwTbKtcQKjwHRzBK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 2, Temper]
 unique-id: C7NCzqwTbKtcQKjwHRzBK
 sets: [DTD, FAB, GEM]
+codes: [DTD211, FAB142, GEM149]
 ---
 
 **Dyadic Carapace** — Runeblade Equipment - Chest · 2 defense

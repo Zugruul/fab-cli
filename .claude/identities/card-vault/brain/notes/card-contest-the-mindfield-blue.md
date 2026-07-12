@@ -1,5 +1,5 @@
 ---
-tags: [card, contest-the-mindfield, contest, mindfield, wizard, action, aura, pitch-3, cost-2]
+tags: [card, contest-the-mindfield, contest, mindfield, wizard, action, aura, pitch-3, cost-2, evo243]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qKNBCCbrmp7W96dbb8gFb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: qKNBCCbrmp7W96dbb8gFb
 sets: [EVO]
+codes: [EVO243]
 ---
 
 **Contest the Mindfield (blue)** — Wizard Action - Aura · cost 2 · 2 defense

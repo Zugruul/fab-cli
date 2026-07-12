@@ -1,5 +1,5 @@
 ---
-tags: [card, sprocket-rocket, sprocket, rocket, mechanologist, action, attack, boost, pitch-1, cost-0]
+tags: [card, sprocket-rocket, sprocket, rocket, mechanologist, action, attack, boost, pitch-1, cost-0, amx012, evo192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzMTMbL8qfHbFmCJB8GG7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: dzMTMbL8qfHbFmCJB8GG7
 sets: [AMX, EVO]
+codes: [AMX012, EVO192]
 ---
 
 **Sprocket Rocket (red)** — Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

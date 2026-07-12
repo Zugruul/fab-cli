@@ -1,5 +1,5 @@
 ---
-tags: [card, towering-titan, towering, titan, guardian, action, aura, pitch-2, cost-9]
+tags: [card, towering-titan, towering, titan, guardian, action, aura, pitch-2, cost-9, 1hp065, cru030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6QjFBg8DFzJBbLNmzKjPj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: 6QjFBg8DFzJBbLNmzKjPj
 sets: [1HP, CRU]
+codes: [1HP065, CRU030]
 ---
 
 **Towering Titan (yellow)** — Guardian Action - Aura · cost 9 · 3 defense

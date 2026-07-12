@@ -1,5 +1,5 @@
 ---
-tags: [card, boots-of-astral-sanctuary, boots, astral, sanctuary, generic, equipment, legs]
+tags: [card, boots-of-astral-sanctuary, boots, astral, sanctuary, generic, equipment, legs, lgs455, omn212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CTRdQTjDrHNjCDh9nnDGB) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: CTRdQTjDrHNjCDh9nnDGB
 sets: [LGS, OMN]
+codes: [LGS455, OMN212]
 ---
 
 **Boots of Astral Sanctuary** — Generic Equipment - Legs · 0 defense

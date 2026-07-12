@@ -1,5 +1,5 @@
 ---
-tags: [card, shield-wall, shield, wall, guardian, defense-reaction, pitch-3, cost-6]
+tags: [card, shield-wall, shield, wall, guardian, defense-reaction, pitch-3, cost-6, dyn038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qD7tKdD8zMjjRBmhhRmGm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Guardian]
 types: [Defense Reaction]
 unique-id: qD7tKdD8zMjjRBmhhRmGm
 sets: [DYN]
+codes: [DYN038]
 ---
 
 **Shield Wall (blue)** — Guardian Defense Reaction · cost 6 · 5 defense

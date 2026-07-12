@@ -1,5 +1,5 @@
 ---
-tags: [card, anothos, guardian, weapon, hammer, 2h]
+tags: [card, anothos, guardian, weapon, hammer, 2h, 1hp045, bvo003, cru023, fab061, lgs002, wtr040, xxx006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BFWbnQjgKgRBjw88jK8KH) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Hammer, 2H]
 unique-id: BFWbnQjgKgRBjw88jK8KH
 sets: [1HP, BVO, CRU, FAB, LGS, WTR, XXX]
+codes: [1HP045, BVO003, CRU023, FAB061, LGS002, WTR040, XXX006]
 ---
 
 **Anothos** — Guardian Weapon - Hammer (2H) · 4 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, medkit, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, medkit, mechanologist, action, item, pitch-3, cost-0, evo076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BWQhCMHmkKGCnHfNQ8jKH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: BWQhCMHmkKGCnHfNQ8jKH
 sets: [EVO]
+codes: [EVO076]
 ---
 
 **Medkit (blue)** — Mechanologist Action - Item · cost 0

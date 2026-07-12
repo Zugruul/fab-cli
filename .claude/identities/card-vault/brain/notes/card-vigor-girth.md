@@ -1,5 +1,5 @@
 ---
-tags: [card, vigor-girth, vigor, girth, guardian, warrior, equipment, chest, blade-break]
+tags: [card, vigor-girth, vigor, girth, guardian, warrior, equipment, chest, blade-break, bet005, hvy175, ksi005, ola005, vic005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GpQBzCwwRFCKjWNq8Hgtj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: GpQBzCwwRFCKjWNq8Hgtj
 sets: [BET, HVY, KSI, OLA, VIC]
+codes: [BET005, HVY175, KSI005, OLA005, VIC005]
 ---
 
 **Vigor Girth** — Guardian / Warrior Equipment - Chest · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-judgment, figment, judgment, illusionist, light, instant, legendary, pitch-2, cost-4]
+tags: [card, figment-of-judgment, figment, judgment, illusionist, light, instant, legendary, pitch-2, cost-4, dtd006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKQKG87JCtBgqDDrcBmcF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary]
 unique-id: gKQKG87JCtBgqDDrcBmcF
 sets: [DTD]
+codes: [DTD006]
 ---
 
 **Figment of Judgment (yellow)** — Light Illusionist Instant - Figment · cost 4

@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-n-carve, cut, carve, warrior, action, sharpen, go-again, dominate, pitch-1, cost-0]
+tags: [card, cut-n-carve, cut, carve, warrior, action, sharpen, go-again, dominate, pitch-1, cost-0, pen054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cNbCGczPqzHpKLzTrMMMc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Sharpen, Go again, Dominate]
 unique-id: cNbCGczPqzHpKLzTrMMMc
 sets: [PEN]
+codes: [PEN054]
 ---
 
 **Cut n' Carve (red)** — Warrior Action · cost 0 · 3 defense

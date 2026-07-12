@@ -1,5 +1,5 @@
 ---
-tags: [card, quickening-sand, quickening, sand, ranger, action, trap, go-again, pitch-3, cost-0]
+tags: [card, quickening-sand, quickening, sand, ranger, action, trap, go-again, pitch-3, cost-0, pen088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wB8rTc8NzdB9FkwWqwWwH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Go again]
 unique-id: wB8rTc8NzdB9FkwWqwWwH
 sets: [PEN]
+codes: [PEN088]
 ---
 
 **Quickening Sand (blue)** — Ranger Action - Trap · cost 0 · 3 defense

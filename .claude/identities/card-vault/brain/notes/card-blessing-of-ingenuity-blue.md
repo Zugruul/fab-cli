@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-ingenuity, blessing, ingenuity, mechanologist, action, aura, pitch-3, cost-1]
+tags: [card, blessing-of-ingenuity, blessing, ingenuity, mechanologist, action, aura, pitch-3, cost-1, dyn100]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zbcJDTbkLqBMjqwf7P6QR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: zbcJDTbkLqBMjqwf7P6QR
 sets: [DYN]
+codes: [DYN100]
 ---
 
 **Blessing of Ingenuity (blue)** — Mechanologist Action - Aura · cost 1 · 3 defense

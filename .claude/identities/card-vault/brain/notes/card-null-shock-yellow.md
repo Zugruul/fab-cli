@@ -1,5 +1,5 @@
 ---
-tags: [card, null-shock, null, shock, wizard, lightning, instant, meld, negate, pitch-2, cost-1]
+tags: [card, null-shock, null, shock, wizard, lightning, instant, meld, negate, pitch-2, cost-1, lgs336, ros023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JTrNBd8TcnPmB6KdDmjRN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant, Instant]
 keywords: [Meld, Negate]
 unique-id: JTrNBd8TcnPmB6KdDmjRN
 sets: [LGS, ROS]
+codes: [LGS336, ROS023]
 ---
 
 **Null // Shock (yellow)** — Wizard Instant // Lightning Instant · cost 1

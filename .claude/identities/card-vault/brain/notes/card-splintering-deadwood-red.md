@@ -1,5 +1,5 @@
 ---
-tags: [card, splintering-deadwood, splintering, deadwood, runeblade, action, attack, pitch-1, cost-3]
+tags: [card, splintering-deadwood, splintering, deadwood, runeblade, action, attack, pitch-1, cost-3, ros121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ccMrKMKrqCHDBFcnQFCFB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: ccMrKMKrqCHDBFcnQFCFB
 sets: [ROS]
+codes: [ROS121]
 ---
 
 **Splintering Deadwood (red)** — Runeblade Action - Attack · cost 3 · 7 power · 3 defense

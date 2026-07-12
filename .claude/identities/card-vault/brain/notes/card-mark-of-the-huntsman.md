@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-of-the-huntsman, mark, huntsman, assassin, weapon, dagger, 1h]
+tags: [card, mark-of-the-huntsman, mark, huntsman, assassin, weapon, dagger, 1h, gem006, gem007, hnt010, lgs375, sar002, wod002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M9DL6cPLrKkmDhGpQL7Mg) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Mark]
 unique-id: M9DL6cPLrKkmDhGpQL7Mg
 sets: [GEM, HNT, LGS, SAR, WOD]
+codes: [GEM006, GEM007, HNT010, LGS375, SAR002, WOD002]
 ---
 
 **Mark of the Huntsman** — Assassin Weapon - Dagger (1H) · 1 power

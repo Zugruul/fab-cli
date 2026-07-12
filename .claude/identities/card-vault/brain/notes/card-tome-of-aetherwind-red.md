@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-aetherwind, tome, aetherwind, wizard, action, pitch-1, cost-0]
+tags: [card, tome-of-aetherwind, tome, aetherwind, wizard, action, pitch-1, cost-0, 1hp313, arc122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cMM8DcmR9zCpcRPwrhbTc) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: cMM8DcmR9zCpcRPwrhbTc
 sets: [1HP, ARC]
+codes: [1HP313, ARC122]
 ---
 
 **Tome of Aetherwind (red)** — Wizard Action · cost 0 · 2 defense

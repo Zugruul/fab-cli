@@ -1,5 +1,5 @@
 ---
-tags: [card, money-where-ya-mouth-is, money, where, ya, mouth, is, generic, action, go-again, wager, pitch-3, cost-1]
+tags: [card, money-where-ya-mouth-is, money, where, ya, mouth, is, generic, action, go-again, wager, pitch-3, cost-1, bet025, hvy237]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9BM9L9zrh8BgBWkPDdJgf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Wager]
 unique-id: 9BM9L9zrh8BgBWkPDdJgf
 sets: [BET, HVY]
+codes: [BET025, HVY237]
 ---
 
 **Money Where Ya Mouth Is (blue)** — Generic Action · cost 1 · 2 defense

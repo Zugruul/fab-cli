@@ -1,5 +1,5 @@
 ---
-tags: [card, comeback-kid, comeback, kid, action, attack, revered, the-crowd-cheers, pitch-1, cost-3]
+tags: [card, comeback-kid, comeback, kid, action, attack, revered, the-crowd-cheers, pitch-1, cost-3, fab377, sup027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLDRbkhHqH6DQCjtqPrMQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: RLDRbkhHqH6DQCjtqPrMQ
 sets: [FAB, SUP]
+codes: [FAB377, SUP027]
 ---
 
 **Comeback Kid (red)** — Revered Action - Attack · cost 3 · 7 power · 3 defense

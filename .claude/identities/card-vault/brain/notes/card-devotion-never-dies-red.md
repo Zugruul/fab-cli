@@ -1,5 +1,5 @@
 ---
-tags: [card, devotion-never-dies, devotion, never, dies, ninja, action, attack, go-again, pitch-1, cost-1]
+tags: [card, devotion-never-dies, devotion, never, dies, ninja, action, attack, go-again, pitch-1, cost-1, hnt072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wdQd78FWKJBKQCGTHtpDb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wdQd78FWKJBKQCGTHtpDb
 sets: [HNT]
+codes: [HNT072]
 ---
 
 **Devotion Never Dies (red)** — Ninja Action - Attack · cost 1 · 4 power · 2 defense

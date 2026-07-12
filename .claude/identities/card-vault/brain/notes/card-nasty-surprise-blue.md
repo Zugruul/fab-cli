@@ -1,5 +1,5 @@
 ---
-tags: [card, nasty-surprise, nasty, surprise, generic, action, attack, pitch-3, cost-0]
+tags: [card, nasty-surprise, nasty, surprise, generic, action, attack, pitch-3, cost-0, hvy207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fgPwzMt7tqqtN77zFbjzP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: fgPwzMt7tqqtN77zFbjzP
 sets: [HVY]
+codes: [HVY207]
 ---
 
 **Nasty Surprise (blue)** — Generic Action - Attack · cost 0 · 2 power · 3 defense

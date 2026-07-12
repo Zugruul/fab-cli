@@ -1,5 +1,5 @@
 ---
-tags: [card, gloves-of-erasure, gloves, erasure, wizard, equipment, arms, blade-break]
+tags: [card, gloves-of-erasure, gloves, erasure, wizard, equipment, arms, blade-break, pen109]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gmwg8fzdNG8rMfrHgD7kw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: gmwg8fzdNG8rMfrHgD7kw
 sets: [PEN]
+codes: [PEN109]
 ---
 
 **Gloves of Erasure** — Wizard Equipment - Arms · 0 defense

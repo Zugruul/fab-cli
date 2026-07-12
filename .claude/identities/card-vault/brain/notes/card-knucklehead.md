@@ -1,5 +1,5 @@
 ---
-tags: [card, knucklehead, brute, equipment, head, kayo-specialization, temper]
+tags: [card, knucklehead, brute, equipment, head, kayo-specialization, temper, ako003, hvy009, kyo003, lgs231, lgs243, ska003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WqDtDMqJhHBhHfdjTRRFb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Kayo Specialization, Temper]
 unique-id: WqDtDMqJhHBhHfdjTRRFb
 sets: [AKO, HVY, KYO, LGS, SKA]
+codes: [AKO003, HVY009, KYO003, LGS231, LGS243, SKA003]
 ---
 
 **Knucklehead** — Brute Equipment - Head · 2 defense

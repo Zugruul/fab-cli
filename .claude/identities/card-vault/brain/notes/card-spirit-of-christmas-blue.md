@@ -1,5 +1,5 @@
 ---
-tags: [card, spirit-of-christmas, spirit, christmas, generic, action, go-again, pitch-3, cost-0]
+tags: [card, spirit-of-christmas, spirit, christmas, generic, action, go-again, pitch-3, cost-0, lgs355]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bQ8GJhJQwBd9JRFkcJQqG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bQ8GJhJQwBd9JRFkcJQqG
 sets: [LGS]
+codes: [LGS355]
 ---
 
 **Spirit of Christmas (blue)** — Generic Action · cost 0 · 3 defense

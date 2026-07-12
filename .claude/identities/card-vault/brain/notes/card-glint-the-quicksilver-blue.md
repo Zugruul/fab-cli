@@ -1,5 +1,5 @@
 ---
-tags: [card, glint-the-quicksilver, glint, quicksilver, warrior, attack-reaction, reprise, go-again, pitch-3, cost-0]
+tags: [card, glint-the-quicksilver, glint, quicksilver, warrior, attack-reaction, reprise, go-again, pitch-3, cost-0, 1hp147, wtr118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QDgDmcwTqJPDctWrbqMLt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise, Go again]
 unique-id: QDgDmcwTqJPDctWrbqMLt
 sets: [1HP, WTR]
+codes: [1HP147, WTR118]
 ---
 
 **Glint the Quicksilver (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

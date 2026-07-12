@@ -1,5 +1,5 @@
 ---
-tags: [card, jack-be-quick, jack, be, quick, generic, action, attack, go-again, steal, pitch-1, cost-0]
+tags: [card, jack-be-quick, jack, be, quick, generic, action, attack, go-again, steal, pitch-1, cost-0, sba014, sea202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hKpL79WLFdLkgBhmhtdQJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Steal]
 unique-id: hKpL79WLFdLkgBhmhtdQJ
 sets: [SBA, SEA]
+codes: [SBA014, SEA202]
 ---
 
 **Jack Be Quick (red)** — Generic Action - Attack · cost 0 · 3 power · 3 defense

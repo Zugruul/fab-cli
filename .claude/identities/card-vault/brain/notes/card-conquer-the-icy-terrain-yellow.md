@@ -1,5 +1,5 @@
 ---
-tags: [card, conquer-the-icy-terrain, conquer, icy, terrain, ice, action, attack, pitch-2, cost-3]
+tags: [card, conquer-the-icy-terrain, conquer, icy, terrain, ice, action, attack, pitch-2, cost-3, pen232]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid j6CmmkDpqRc7nKtL9Hkc7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: j6CmmkDpqRc7nKtL9Hkc7
 sets: [PEN]
+codes: [PEN232]
 ---
 
 **Conquer the Icy Terrain (yellow)** — Ice Action - Attack · cost 3 · 6 power · 2 defense

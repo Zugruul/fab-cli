@@ -1,5 +1,5 @@
 ---
-tags: [card, diadem-of-dreamstate, diadem, dreamstate, illusionist, equipment, head, ward-2]
+tags: [card, diadem-of-dreamstate, diadem, dreamstate, illusionist, equipment, head, ward-2, dtd217, fab143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LFhRKcJC6fbfQjKdqLqp7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Head]
 keywords: [Ward 2]
 unique-id: LFhRKcJC6fbfQjKdqLqp7
 sets: [DTD, FAB]
+codes: [DTD217, FAB143]
 ---
 
 **Diadem of Dreamstate** — Illusionist Equipment - Head

@@ -1,5 +1,5 @@
 ---
-tags: [card, meganetic-protocol, meganetic, protocol, mechanologist, action, attack, evo-upgrade, pitch-3, cost-3]
+tags: [card, meganetic-protocol, meganetic, protocol, mechanologist, action, attack, evo-upgrade, pitch-3, cost-3, evo059, fab172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mBBqLnhkqmdBbQKnq7DMF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: mBBqLnhkqmdBbQKnq7DMF
 sets: [EVO, FAB]
+codes: [EVO059, FAB172]
 ---
 
 **Meganetic Protocol (blue)** — Mechanologist Action - Attack · cost 3 · 5 power · 3 defense

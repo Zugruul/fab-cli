@@ -1,5 +1,5 @@
 ---
-tags: [card, stains-of-the-redback, stains, redback, assassin, attack-reaction, go-again, pitch-3, cost-1]
+tags: [card, stains-of-the-redback, stains, redback, assassin, attack-reaction, go-again, pitch-3, cost-1, hnt025, wod024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kzPMkNT6bGwHTdGCqGBBj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: kzPMkNT6bGwHTdGCqGBBj
 sets: [HNT, WOD]
+codes: [HNT025, WOD024]
 ---
 
 **Stains of the Redback (blue)** — Assassin Attack Reaction · cost 1 · 3 defense

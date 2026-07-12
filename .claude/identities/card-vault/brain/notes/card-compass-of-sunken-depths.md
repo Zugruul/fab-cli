@@ -1,5 +1,5 @@
 ---
-tags: [card, compass-of-sunken-depths, compass, sunken, depths, pirate, necromancer, equipment, off-hand, go-again]
+tags: [card, compass-of-sunken-depths, compass, sunken, depths, pirate, necromancer, equipment, off-hand, go-again, agb003, gem037, lgs398, sea045, sgb002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cPR8tmfTh9wKmwtzbtRKR) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Off-Hand]
 keywords: [Go again]
 unique-id: cPR8tmfTh9wKmwtzbtRKR
 sets: [AGB, GEM, LGS, SEA, SGB]
+codes: [AGB003, GEM037, LGS398, SEA045, SGB002]
 ---
 
 **Compass of Sunken Depths** — Pirate Necromancer Equipment - Off-Hand

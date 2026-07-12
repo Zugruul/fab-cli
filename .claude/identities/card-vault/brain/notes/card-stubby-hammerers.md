@@ -1,5 +1,5 @@
 ---
-tags: [card, stubby-hammerers, stubby, hammerers, generic, equipment, arms]
+tags: [card, stubby-hammerers, stubby, hammerers, generic, equipment, arms, mon239]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wj7qpMrzMjDbn8tmtfPL7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: wj7qpMrzMjDbn8tmtfPL7
 sets: [MON]
+codes: [MON239]
 ---
 
 **Stubby Hammerers** — Generic Equipment - Arms · 0 defense

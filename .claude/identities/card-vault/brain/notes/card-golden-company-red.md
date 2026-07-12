@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-company, golden, company, warrior, defense-reaction, pitch-1, cost-2]
+tags: [card, golden-company, golden, company, warrior, defense-reaction, pitch-1, cost-2, fab481, mpw053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bnQmtqDtDLfpqzfLfFqMR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Defense Reaction]
 unique-id: bnQmtqDtDLfpqzfLfFqMR
 sets: [FAB, MPW]
+codes: [FAB481, MPW053]
 ---
 
 **Golden Company (red)** — Warrior Defense Reaction · cost 2 · 6 defense

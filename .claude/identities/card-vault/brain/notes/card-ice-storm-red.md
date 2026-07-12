@@ -1,5 +1,5 @@
 ---
-tags: [card, ice-storm, ice, storm, ranger, elemental, action, ice-and-lightning-fusion, go-again, pitch-1, cost-0]
+tags: [card, ice-storm, ice, storm, ranger, elemental, action, ice-and-lightning-fusion, go-again, pitch-1, cost-0, ele037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8f6PJ8ztqJhcQRFDLR9nG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice and Lightning Fusion, Go again]
 unique-id: 8f6PJ8ztqJhcQRFDLR9nG
 sets: [ELE]
+codes: [ELE037]
 ---
 
 **Ice Storm (red)** — Elemental Ranger Action · cost 0 · 2 defense

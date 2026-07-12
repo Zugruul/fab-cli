@@ -1,5 +1,5 @@
 ---
-tags: [card, eclipse, shadow, instant, legendary, chane-specialization, pitch-3, cost-0]
+tags: [card, eclipse, shadow, instant, legendary, chane-specialization, pitch-3, cost-0, mon190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PDHFDfPrn8TwBGw6h7cFr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Chane Specialization]
 unique-id: PDHFDfPrn8TwBGw6h7cFr
 sets: [MON]
+codes: [MON190]
 ---
 
 **Eclipse (blue)** — Shadow Instant · cost 0

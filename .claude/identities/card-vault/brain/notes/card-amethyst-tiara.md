@@ -1,5 +1,5 @@
 ---
-tags: [card, amethyst-tiara, amethyst, tiara, runeblade, equipment, head, blade-break, spellvoid-1]
+tags: [card, amethyst-tiara, amethyst, tiara, runeblade, equipment, head, blade-break, spellvoid-1, dyn171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tqL9KdjgkjfnQ98H97dJw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break, Spellvoid 1]
 unique-id: tqL9KdjgkjfnQ98H97dJw
 sets: [DYN]
+codes: [DYN171]
 ---
 
 **Amethyst Tiara** — Runeblade Equipment - Head · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tremor-of-resistance, tremor, resistance, guardian, equipment, off-hand, blade-break]
+tags: [card, tremor-of-resistance, tremor, resistance, guardian, equipment, off-hand, blade-break, mpg012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M9wMDWRkKRKjz7MBLMWLk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Blade Break]
 unique-id: M9wMDWRkKRKjz7MBLMWLk
 sets: [MPG]
+codes: [MPG012]
 ---
 
 **Tremor of Resistance** — Guardian Equipment - Off-Hand · 0 defense

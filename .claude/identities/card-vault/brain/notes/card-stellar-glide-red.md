@@ -1,5 +1,5 @@
 ---
-tags: [card, stellar-glide, stellar, glide, lightning, action, attack, go-again, pitch-1, cost-2]
+tags: [card, stellar-glide, stellar, glide, lightning, action, attack, go-again, pitch-1, cost-2, omn175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RcbDmpjTgR9FJbgqzb8Tq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: RcbDmpjTgR9FJbgqzb8Tq
 sets: [OMN]
+codes: [OMN175]
 ---
 
 **Stellar Glide (red)** — Lightning Action - Attack · cost 2 · 5 power · 2 defense

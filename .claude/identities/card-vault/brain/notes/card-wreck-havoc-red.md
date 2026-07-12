@@ -1,5 +1,5 @@
 ---
-tags: [card, wreck-havoc, wreck, havoc, generic, action, attack, pitch-1, cost-2]
+tags: [card, wreck-havoc, wreck, havoc, generic, action, attack, pitch-1, cost-2, ako015, out198, sdo010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JwTrbpHfNtCHmMnBmqrtb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JwTrbpHfNtCHmMnBmqrtb
 sets: [AKO, OUT, SDO]
+codes: [AKO015, OUT198, SDO010]
 ---
 
 **Wreck Havoc (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

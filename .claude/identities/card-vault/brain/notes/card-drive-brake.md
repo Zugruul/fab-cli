@@ -1,5 +1,5 @@
 ---
-tags: [card, drive-brake, drive, brake, mechanologist, equipment, legs, battleworn]
+tags: [card, drive-brake, drive, brake, mechanologist, equipment, legs, battleworn, amx006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GjBLFNBbqRDNHcgKcFnnP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: GjBLFNBbqRDNHcgKcFnnP
 sets: [AMX]
+codes: [AMX006]
 ---
 
 **Drive Brake** — Mechanologist Equipment - Legs · 1 defense

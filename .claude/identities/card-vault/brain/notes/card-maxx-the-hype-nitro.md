@@ -1,5 +1,5 @@
 ---
-tags: [card, maxx-the-hype-nitro, maxx, hype, nitro, mechanologist, hero, adult, crank]
+tags: [card, maxx-the-hype-nitro, maxx, hype, nitro, mechanologist, hero, adult, crank, amx001, evo004, gem105, her090, her095, win026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tqBKqzRbFHWtBLQ7hhDgW) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Crank]
 unique-id: tqBKqzRbFHWtBLQ7hhDgW
 sets: [AMX, EVO, GEM, HER, WIN]
+codes: [AMX001, EVO004, GEM105, HER090, HER095, WIN026]
 ---
 
 **Maxx 'The Hype' Nitro** — Mechanologist Hero · 40 health · 4 int

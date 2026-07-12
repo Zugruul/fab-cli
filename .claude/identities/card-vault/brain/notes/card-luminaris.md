@@ -1,5 +1,5 @@
 ---
-tags: [card, luminaris, illusionist, light, weapon, scepter, 2h, go-again]
+tags: [card, luminaris, illusionist, light, weapon, scepter, 2h, go-again, apr002, con001, fab109, mon003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TQ7Twhtm6zfkTTHTKdpJK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Scepter, 2H]
 keywords: [Go again]
 unique-id: TQ7Twhtm6zfkTTHTKdpJK
 sets: [APR, CON, FAB, MON]
+codes: [APR002, CON001, FAB109, MON003]
 ---
 
 **Luminaris** — Light Illusionist Weapon - Scepter (2H)

@@ -1,5 +1,5 @@
 ---
-tags: [card, fang-strike, fang, strike, assassin, mystic, attack-reaction, ephemeral, cost-0]
+tags: [card, fang-strike, fang, strike, assassin, mystic, attack-reaction, ephemeral, cost-0, fab243, lgs266, mst023, nuu028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QqDQKkgCz9TM6HDgFkqcL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Attack Reaction]
 keywords: [Ephemeral]
 unique-id: QqDQKkgCz9TM6HDgFkqcL
 sets: [FAB, LGS, MST, NUU]
+codes: [FAB243, LGS266, MST023, NUU028]
 ---
 
 **Fang Strike** — Mystic Assassin Attack Reaction · cost 0

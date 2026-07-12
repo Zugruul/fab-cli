@@ -1,5 +1,5 @@
 ---
-tags: [card, headliner-helm, headliner, helm, generic, equipment, head, blade-break]
+tags: [card, headliner-helm, headliner, helm, generic, equipment, head, blade-break, hvy202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BB7nwJkKWfznpRkt6gcCF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: BB7nwJkKWfznpRkt6gcCF
 sets: [HVY]
+codes: [HVY202]
 ---
 
 **Headliner Helm** — Generic Equipment - Head · * defense

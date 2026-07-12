@@ -1,5 +1,5 @@
 ---
-tags: [card, headbutt, guardian, action, attack, crush, pitch-3, cost-4]
+tags: [card, headbutt, guardian, action, attack, crush, pitch-3, cost-4, mpg016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WgJjBtrhDPDrQgnzTtqCT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: WgJjBtrhDPDrQgnzTtqCT
 sets: [MPG]
+codes: [MPG016]
 ---
 
 **Headbutt (blue)** — Guardian Action - Attack · cost 4 · 6 power · 3 defense

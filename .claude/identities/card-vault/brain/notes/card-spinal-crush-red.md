@@ -1,5 +1,5 @@
 ---
-tags: [card, spinal-crush, spinal, crush, guardian, action, attack, pitch-1, cost-5]
+tags: [card, spinal-crush, spinal, crush, guardian, action, attack, pitch-1, cost-5, 1hp053, aps010, wtr044]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BwgjdFCGncmNwKPkrznN7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: BwgjdFCGncmNwKPkrznN7
 sets: [1HP, APS, WTR]
+codes: [1HP053, APS010, WTR044]
 ---
 
 **Spinal Crush (red)** — Guardian Action - Attack · cost 5 · 9 power · 3 defense

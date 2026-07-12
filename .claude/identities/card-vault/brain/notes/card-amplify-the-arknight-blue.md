@@ -1,5 +1,5 @@
 ---
-tags: [card, amplify-the-arknight, amplify, arknight, runeblade, action, attack, pitch-3, cost-3]
+tags: [card, amplify-the-arknight, amplify, arknight, runeblade, action, attack, pitch-3, cost-3, 1hp284, arc096, avs023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zmmpt8q8HqPFwPKK66Mjm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: zmmpt8q8HqPFwPKK66Mjm
 sets: [1HP, ARC, AVS]
+codes: [1HP284, ARC096, AVS023]
 ---
 
 **Amplify the Arknight (blue)** — Runeblade Action - Attack · cost 3 · 4 power · 3 defense

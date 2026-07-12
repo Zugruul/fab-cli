@@ -1,5 +1,5 @@
 ---
-tags: [card, smash-with-big-tree, smash, big, tree, brute, action, attack, pitch-2, cost-2]
+tags: [card, smash-with-big-tree, smash, big, tree, brute, action, attack, pitch-2, cost-2, lev027, mon227, rvd017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nTrqQhGFhgg6HJGBWgjmq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nTrqQhGFhgg6HJGBWgjmq
 sets: [LEV, MON, RVD]
+codes: [LEV027, MON227, RVD017]
 ---
 
 **Smash with Big Tree (yellow)** — Brute Action - Attack · cost 2 · 6 power

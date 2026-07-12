@@ -1,5 +1,5 @@
 ---
-tags: [card, seerstone, wizard, weapon, orb, 2h]
+tags: [card, seerstone, wizard, weapon, orb, 2h, dyn193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FKc7CtkbBDTrzHr7t8DMQ) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Orb, 2H]
 unique-id: FKc7CtkbBDTrzHr7t8DMQ
 sets: [DYN]
+codes: [DYN193]
 ---
 
 **Seerstone** — Wizard Weapon - Orb (2H)

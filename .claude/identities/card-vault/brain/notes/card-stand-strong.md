@@ -1,5 +1,5 @@
 ---
-tags: [card, stand-strong, stand, strong, guardian, equipment, legs, blade-break]
+tags: [card, stand-strong, stand, strong, guardian, equipment, legs, blade-break, sly010, sup169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ggMjPPrkLjJJwWPFGdnDq) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: ggMjPPrkLjJJwWPFGdnDq
 sets: [SLY, SUP]
+codes: [SLY010, SUP169]
 ---
 
 **Stand Strong** — Guardian Equipment - Legs · 1 defense

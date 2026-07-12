@@ -1,5 +1,5 @@
 ---
-tags: [card, skywalker-keikoi, skywalker, keikoi, mystic, equipment, legs, cloaked]
+tags: [card, skywalker-keikoi, skywalker, keikoi, mystic, equipment, legs, cloaked, eng006, lgs281, mst074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rn7bzNz8BdmwrcTBkMHM6) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Legs]
 keywords: [Cloaked]
 unique-id: Rn7bzNz8BdmwrcTBkMHM6
 sets: [ENG, LGS, MST]
+codes: [ENG006, LGS281, MST074]
 ---
 
 **Skywalker Keikoi** — Mystic Equipment - Legs

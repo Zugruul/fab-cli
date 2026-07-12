@@ -1,5 +1,5 @@
 ---
-tags: [card, zealous-belting, zealous, belting, generic, action, attack, go-again, pitch-3, cost-2]
+tags: [card, zealous-belting, zealous, belting, generic, action, attack, go-again, pitch-3, cost-2, mon295]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6djPj8nJPB6mFWrjrj7ft) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 6djPj8nJPB6mFWrjrj7ft
 sets: [MON]
+codes: [MON295]
 ---
 
 **Zealous Belting (blue)** — Generic Action - Attack · cost 2 · 3 power · 2 defense

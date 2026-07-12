@@ -1,5 +1,5 @@
 ---
-tags: [card, monolith-of-galcia, monolith, galcia, guardian, ice, action, pitch-3, cost-3]
+tags: [card, monolith-of-galcia, monolith, galcia, guardian, ice, action, pitch-3, cost-3, pen225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wq7t69bcdmMbLRdgRMLpk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Ice]
 types: [Action]
 unique-id: wq7t69bcdmMbLRdgRMLpk
 sets: [PEN]
+codes: [PEN225]
 ---
 
 **Monolith of Galcia (blue)** — Ice Guardian Action · cost 3 · 2 defense

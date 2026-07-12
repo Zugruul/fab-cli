@@ -1,5 +1,5 @@
 ---
-tags: [card, ode-to-wrath, ode, wrath, illusionist, light, instant, aura, spectra, go-again, pitch-2, cost-4]
+tags: [card, ode-to-wrath, ode, wrath, illusionist, light, instant, aura, spectra, go-again, pitch-2, cost-4, apr019, fab027, mon013, psm015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DWcKpdjNKBcK67WpPb9Qf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra, Go again]
 unique-id: DWcKpdjNKBcK67WpPb9Qf
 sets: [APR, FAB, MON, PSM]
+codes: [APR019, FAB027, MON013, PSM015]
 ---
 
 **Ode to Wrath (yellow)** — Light Illusionist Instant - Aura · cost 4

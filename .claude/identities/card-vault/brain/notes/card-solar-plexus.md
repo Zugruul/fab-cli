@@ -1,5 +1,5 @@
 ---
-tags: [card, solar-plexus, solar, plexus, light, equipment, chest]
+tags: [card, solar-plexus, solar, plexus, light, equipment, chest, asb004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GJbRTN6kqNnDtGWzTkdPT) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: GJbRTN6kqNnDtGWzTkdPT
 sets: [ASB]
+codes: [ASB004]
 ---
 
 **Solar Plexus** — Light Equipment - Chest

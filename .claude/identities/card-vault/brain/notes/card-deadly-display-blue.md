@@ -1,5 +1,5 @@
 ---
-tags: [card, deadly-display, deadly, display, warrior, attack-reaction, pitch-3, cost-1]
+tags: [card, deadly-display, deadly, display, warrior, attack-reaction, pitch-3, cost-1, aha020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FpzTKHqqhbqgK7zQkJtTk) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: FpzTKHqqhbqgK7zQkJtTk
 sets: [AHA]
+codes: [AHA020]
 ---
 
 **Deadly Display (blue)** — Warrior Attack Reaction · cost 1 · 2 defense

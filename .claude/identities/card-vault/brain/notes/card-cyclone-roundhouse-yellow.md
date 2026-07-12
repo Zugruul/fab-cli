@@ -1,5 +1,5 @@
 ---
-tags: [card, cyclone-roundhouse, cyclone, roundhouse, ninja, action, attack, combo, pitch-2, cost-2]
+tags: [card, cyclone-roundhouse, cyclone, roundhouse, ninja, action, attack, combo, pitch-2, cost-2, out050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fMTdMtzzft7bLzG9DpjNc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: fMTdMtzzft7bLzG9DpjNc
 sets: [OUT]
+codes: [OUT050]
 ---
 
 **Cyclone Roundhouse (yellow)** — Ninja Action - Attack · cost 2 · 5 power · 3 defense

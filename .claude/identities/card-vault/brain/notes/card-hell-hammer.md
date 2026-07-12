@@ -1,5 +1,5 @@
 ---
-tags: [card, hell-hammer, hell, hammer, brute, shadow, weapon, 2h, blood-debt]
+tags: [card, hell-hammer, hell, hammer, brute, shadow, weapon, 2h, blood-debt, dtd105, lgs164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zMbD7hqPwGNQCcDC6DPB9) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Hammer, 2H]
 keywords: [Blood Debt]
 unique-id: zMbD7hqPwGNQCcDC6DPB9
 sets: [DTD, LGS]
+codes: [DTD105, LGS164]
 ---
 
 **Hell Hammer** — Shadow Brute Weapon - Hammer (2H) · 6 power

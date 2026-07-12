@@ -1,5 +1,5 @@
 ---
-tags: [card, growl, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, growl, ninja, action, attack, go-again, pitch-1, cost-0, tcc086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqJnkdRN8WkHKtFNtPTgN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: gqJnkdRN8WkHKtFNtPTgN
 sets: [TCC]
+codes: [TCC086]
 ---
 
 **Growl (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

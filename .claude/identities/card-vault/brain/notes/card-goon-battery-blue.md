@@ -1,5 +1,5 @@
 ---
-tags: [card, goon-battery, goon, battery, action, attack, reviled, pitch-3, cost-0]
+tags: [card, goon-battery, goon, battery, action, attack, reviled, pitch-3, cost-0, sup104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WnzRKrcc8cLMN8BKPhnck) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: WnzRKrcc8cLMN8BKPhnck
 sets: [SUP]
+codes: [SUP104]
 ---
 
 **Goon Battery (blue)** — Reviled Action - Attack · cost 0 · 1 power · 3 defense

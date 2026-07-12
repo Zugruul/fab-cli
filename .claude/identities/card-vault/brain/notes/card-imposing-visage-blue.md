@@ -1,5 +1,5 @@
 ---
-tags: [card, imposing-visage, imposing, visage, guardian, action, go-again, pitch-3]
+tags: [card, imposing-visage, imposing, visage, guardian, action, go-again, pitch-3, evr022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nkMztM7pPg8mQGhMzKqtj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nkMztM7pPg8mQGhMzKqtj
 sets: [EVR]
+codes: [EVR022]
 ---
 
 **Imposing Visage (blue)** — Guardian Action · cost X3 · 3 defense

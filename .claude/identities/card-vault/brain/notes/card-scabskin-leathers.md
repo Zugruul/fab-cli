@@ -1,5 +1,5 @@
 ---
-tags: [card, scabskin-leathers, scabskin, leathers, brute, equipment, legs, battleworn]
+tags: [card, scabskin-leathers, scabskin, leathers, brute, equipment, legs, battleworn, 1hp007, fab003, lss018, wtr004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nkCCKCB8ftPdMCHHWHWtk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: nkCCKCB8ftPdMCHHWHWtk
 sets: [1HP, FAB, LSS, WTR]
+codes: [1HP007, FAB003, LSS018, WTR004]
 ---
 
 **Scabskin Leathers** — Brute Equipment - Legs · 2 defense

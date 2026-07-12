@@ -1,5 +1,5 @@
 ---
-tags: [card, fabric-of-hope, fabric, hope, generic, action, construct, negate, pitch-1, cost-0]
+tags: [card, fabric-of-hope, fabric, hope, generic, action, construct, negate, pitch-1, cost-0, lss012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7hQbqFfrRpbMKBWT8DG97) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Negate]
 unique-id: 7hQbqFfrRpbMKBWT8DG97
 sets: [LSS]
+codes: [LSS012]
 ---
 
 **Fabric of Hope (red)** — Generic Action - Construct · cost 0 · 2 defense

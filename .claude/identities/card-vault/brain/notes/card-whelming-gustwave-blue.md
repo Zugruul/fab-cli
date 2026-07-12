@@ -1,5 +1,5 @@
 ---
-tags: [card, whelming-gustwave, whelming, gustwave, ninja, action, attack, combo, go-again, pitch-3, cost-0]
+tags: [card, whelming-gustwave, whelming, gustwave, ninja, action, attack, combo, go-again, pitch-3, cost-0, 1hp133, kat023, ksu024, lgs028, wtr112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M7gFnB7zpwHWCbzWCWKpd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: M7gFnB7zpwHWCbzWCWKpd
 sets: [1HP, KAT, KSU, LGS, WTR]
+codes: [1HP133, KAT023, KSU024, LGS028, WTR112]
 ---
 
 **Whelming Gustwave (blue)** — Ninja Action - Attack · cost 0 · 1 power · 3 defense

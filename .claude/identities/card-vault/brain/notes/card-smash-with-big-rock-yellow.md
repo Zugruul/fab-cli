@@ -1,5 +1,5 @@
 ---
-tags: [card, smash-with-big-rock, smash, big, rock, brute, action, attack, pitch-2, cost-2]
+tags: [card, smash-with-big-rock, smash, big, rock, brute, action, attack, pitch-2, cost-2, sup133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CmrzJNdGDLzk9RdzkDT8H) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: CmrzJNdGDLzk9RdzkDT8H
 sets: [SUP]
+codes: [SUP133]
 ---
 
 **Smash with Big Rock (yellow)** — Brute Action - Attack · cost 2 · 6 power · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, crown-of-everbloom, crown, everbloom, earth, equipment, head, arcane-barrier-2]
+tags: [card, crown-of-everbloom, crown, everbloom, earth, equipment, head, arcane-barrier-2, pen215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid trMzKPpJWJGpqnpDTMzbp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 2]
 unique-id: trMzKPpJWJGpqnpDTMzbp
 sets: [PEN]
+codes: [PEN215]
 ---
 
 **Crown of Everbloom** — Earth Equipment - Head · 0 defense

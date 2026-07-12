@@ -1,5 +1,5 @@
 ---
-tags: [card, reinforce-the-line, reinforce, line, generic, instant, pitch-2, cost-0]
+tags: [card, reinforce-the-line, reinforce, line, generic, instant, pitch-2, cost-0, cru190, hvy220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9phFJ8cHN7MGqDp8Kppw7) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: 9phFJ8cHN7MGqDp8Kppw7
 sets: [CRU, HVY]
+codes: [CRU190, HVY220]
 ---
 
 **Reinforce the Line (yellow)** — Generic Instant · cost 0

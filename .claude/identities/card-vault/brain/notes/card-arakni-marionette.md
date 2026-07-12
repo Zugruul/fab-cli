@@ -1,5 +1,5 @@
 ---
-tags: [card, arakni-marionette, arakni, marionette, assassin, chaos, hero, adult, go-again]
+tags: [card, arakni-marionette, arakni, marionette, assassin, chaos, hero, adult, go-again, her132, hnt001, win043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rzm9GQbbBrrDzLQRcB6kK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: rzm9GQbbBrrDzLQRcB6kK
 sets: [HER, HNT, WIN]
+codes: [HER132, HNT001, WIN043]
 ---
 
 **Arakni, Marionette** — Chaos Assassin Hero · 40 health · 4 int

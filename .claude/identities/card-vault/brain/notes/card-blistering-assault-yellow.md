@@ -1,5 +1,5 @@
 ---
-tags: [card, blistering-assault, blistering, assault, light, action, attack, go-again, pitch-2, cost-2]
+tags: [card, blistering-assault, blistering, assault, light, action, attack, go-again, pitch-2, cost-2, dtd092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kMB9htzpJkJjKrWpPFF8R) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: kMB9htzpJkJjKrWpPFF8R
 sets: [DTD]
+codes: [DTD092]
 ---
 
 **Blistering Assault (yellow)** — Light Action - Attack · cost 2 · 4 power · 2 defense

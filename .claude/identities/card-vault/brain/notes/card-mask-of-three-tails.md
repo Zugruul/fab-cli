@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-three-tails, mask, three, tails, ninja, equipment, head]
+tags: [card, mask-of-three-tails, mask, three, tails, ninja, equipment, head, lgs258, tcc079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pdCLkLqDkmFhBtp7MFMfP) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: pdCLkLqDkmFhBtp7MFMfP
 sets: [LGS, TCC]
+codes: [LGS258, TCC079]
 ---
 
 **Mask of Three Tails** — Ninja Equipment - Head · 0 defense

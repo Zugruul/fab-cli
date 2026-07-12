@@ -1,5 +1,5 @@
 ---
-tags: [card, nettling-shot, nettling, shot, ranger, action, arrow, attack, pitch-1, cost-0]
+tags: [card, nettling-shot, nettling, shot, ranger, action, arrow, attack, pitch-1, cost-0, sea108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fhmnPQWbBz77qwmWDL6hT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: fhmnPQWbBz77qwmWDL6hT
 sets: [SEA]
+codes: [SEA108]
 ---
 
 **Nettling Shot (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

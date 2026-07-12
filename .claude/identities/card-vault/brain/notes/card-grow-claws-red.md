@@ -1,5 +1,5 @@
 ---
-tags: [card, grow-claws, grow, claws, ninja, action, attack, go-again, pitch-1, cost-1]
+tags: [card, grow-claws, grow, claws, ninja, action, attack, go-again, pitch-1, cost-1, cin013, hnt086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LT6DJwbzTFg8pwp6dGG6M) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: LT6DJwbzTFg8pwp6dGG6M
 sets: [CIN, HNT]
+codes: [CIN013, HNT086]
 ---
 
 **Grow Claws (red)** — Ninja Action - Attack · cost 1 · 4 power · 2 defense

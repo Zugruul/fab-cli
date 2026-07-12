@@ -1,5 +1,5 @@
 ---
-tags: [card, steam-canister, steam, canister, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, steam-canister, steam, canister, mechanologist, action, item, pitch-3, cost-0, aio027, evo077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G8bkfPWkjKCjR6qWKBLFF) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: G8bkfPWkjKCjR6qWKBLFF
 sets: [AIO, EVO]
+codes: [AIO027, EVO077]
 ---
 
 **Steam Canister (blue)** — Mechanologist Action - Item · cost 0

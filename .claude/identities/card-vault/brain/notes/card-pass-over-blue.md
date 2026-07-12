@@ -1,5 +1,5 @@
 ---
-tags: [card, pass-over, pass, over, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, pass-over, pass, over, mystic, instant, legendary, transcend, pitch-3, cost-0, lgs284, mst097, nuu026, sen033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m9tj8WGNNjQPt8wjMqFFf) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: m9tj8WGNNjQPt8wjMqFFf
 sets: [LGS, MST, NUU, SEN]
+codes: [LGS284, MST097, NUU026, SEN033]
 ---
 
 **Pass Over (blue)** — Mystic Instant · cost 0

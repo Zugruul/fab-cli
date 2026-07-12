@@ -1,5 +1,5 @@
 ---
-tags: [card, writhing-beast-hulk, writhing, beast, hulk, brute, shadow, action, attack, dominate, blood-debt, pitch-2, cost-2]
+tags: [card, writhing-beast-hulk, writhing, beast, hulk, brute, shadow, action, attack, dominate, blood-debt, pitch-2, cost-2, mon130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gWTPCGnFgDrH9cFnFgg7F) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Dominate, Blood Debt]
 unique-id: gWTPCGnFgDrH9cFnFgg7F
 sets: [MON]
+codes: [MON130]
 ---
 
 **Writhing Beast Hulk (yellow)** — Shadow Brute Action - Attack · cost 2 · 5 power · 3 defense

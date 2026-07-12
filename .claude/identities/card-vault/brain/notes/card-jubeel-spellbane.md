@@ -1,5 +1,5 @@
 ---
-tags: [card, jubeel-spellbane, jubeel, spellbane, warrior, weapon, sword, 2h]
+tags: [card, jubeel-spellbane, jubeel, spellbane, warrior, weapon, sword, 2h, dyn067, fab137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kfCPfkdm8jrFqmHMNGj8h) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: kfCPfkdm8jrFqmHMNGj8h
 sets: [DYN, FAB]
+codes: [DYN067, FAB137]
 ---
 
 **Jubeel, Spellbane** — Warrior Weapon - Sword (2H) · 3 power

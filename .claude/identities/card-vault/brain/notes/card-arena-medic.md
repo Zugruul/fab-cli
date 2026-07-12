@@ -1,5 +1,5 @@
 ---
-tags: [card, arena-medic, arena, medic, event]
+tags: [card, arena-medic, arena, medic, event, smp019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BTJDM7m8qmwQBbqFNK6Fr) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Arena Medic"
 types: [Event]
 unique-id: BTJDM7m8qmwQBbqFNK6Fr
 sets: [SMP]
+codes: [SMP019]
 ---
 
 **Arena Medic** — Event

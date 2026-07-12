@@ -1,5 +1,5 @@
 ---
-tags: [card, lighten-the-load, lighten, load, pirate, action, attack, go-again, pitch-3, cost-0]
+tags: [card, lighten-the-load, lighten, load, pirate, action, attack, go-again, pitch-3, cost-0, pen173]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JHthWCT8wtfWqQqnMLjb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 9JHthWCT8wtfWqQqnMLjb
 sets: [PEN]
+codes: [PEN173]
 ---
 
 **Lighten the Load (blue)** — Pirate Action - Attack · cost 0 · 2 power · 2 defense

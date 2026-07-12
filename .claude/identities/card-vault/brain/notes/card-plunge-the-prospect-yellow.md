@@ -1,5 +1,5 @@
 ---
-tags: [card, plunge-the-prospect, plunge, prospect, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, plunge-the-prospect, plunge, prospect, assassin, action, attack, stealth, pitch-2, cost-0, hnt042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r7GmThKTHQtDW6RcFbdPR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: r7GmThKTHQtDW6RcFbdPR
 sets: [HNT]
+codes: [HNT042]
 ---
 
 **Plunge the Prospect (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

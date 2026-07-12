@@ -1,5 +1,5 @@
 ---
-tags: [card, swiftwater-sloop, swiftwater, sloop, pirate, action, attack, high-tide, pitch-2, cost-2]
+tags: [card, swiftwater-sloop, swiftwater, sloop, pirate, action, attack, high-tide, pitch-2, cost-2, sea167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9H8LCJNgGQJCRNPLFKqPN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [High Tide]
 unique-id: 9H8LCJNgGQJCRNPLFKqPN
 sets: [SEA]
+codes: [SEA167]
 ---
 
 **Swiftwater Sloop (yellow)** — Pirate Action - Attack · cost 2 · 5 power · 2 defense

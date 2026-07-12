@@ -1,5 +1,5 @@
 ---
-tags: [card, seeds-of-agony, seeds, agony, runeblade, shadow, action, go-again, blood-debt, pitch-3, cost-0]
+tags: [card, seeds-of-agony, seeds, agony, runeblade, shadow, action, go-again, blood-debt, pitch-3, cost-0, mon185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BnQtggKJtBNmpqKR7NWBH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again, Blood Debt]
 unique-id: BnQtggKJtBNmpqKR7NWBH
 sets: [MON]
+codes: [MON185]
 ---
 
 **Seeds of Agony (blue)** — Shadow Runeblade Action · cost 0 · 2 defense

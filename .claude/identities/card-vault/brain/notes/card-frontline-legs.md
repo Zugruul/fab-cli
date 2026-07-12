@@ -1,5 +1,5 @@
 ---
-tags: [card, frontline-legs, frontline, legs, generic, equipment, blade-break]
+tags: [card, frontline-legs, frontline, legs, generic, equipment, blade-break, dtd225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zLkjmfmJ7mgnMJCC8WbbW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: zLkjmfmJ7mgnMJCC8WbbW
 sets: [DTD]
+codes: [DTD225]
 ---
 
 **Frontline Legs** — Generic Equipment - Legs · 2 defense

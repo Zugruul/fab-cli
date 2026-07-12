@@ -1,5 +1,5 @@
 ---
-tags: [card, driftwood-quiver, driftwood, quiver, ranger, equipment, riptide-specialization]
+tags: [card, driftwood-quiver, driftwood, quiver, ranger, equipment, riptide-specialization, lgs137, out098, rip003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6GbtFTnH86TCFdKLMdrPk) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Quiver]
 keywords: [Riptide Specialization]
 unique-id: 6GbtFTnH86TCFdKLMdrPk
 sets: [LGS, OUT, RIP]
+codes: [LGS137, OUT098, RIP003]
 ---
 
 **Driftwood Quiver** — Ranger Equipment - Quiver

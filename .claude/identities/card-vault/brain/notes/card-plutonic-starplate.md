@@ -1,5 +1,5 @@
 ---
-tags: [card, plutonic-starplate, plutonic, starplate, lightning, equipment, chest, arcane-barrier-1]
+tags: [card, plutonic-starplate, plutonic, starplate, lightning, equipment, chest, arcane-barrier-1, omn141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jJdBmPDP6DkFFwwDG6wNg) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: jJdBmPDP6DkFFwwDG6wNg
 sets: [OMN]
+codes: [OMN141]
 ---
 
 **Plutonic Starplate** — Lightning Equipment - Chest · 0 defense

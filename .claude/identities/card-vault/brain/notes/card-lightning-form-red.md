@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-form, lightning, form, action, attack, pitch-1, cost-1]
+tags: [card, lightning-form, lightning, form, action, attack, pitch-1, cost-1, aua012, lgs308, omn150, ros082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DdtptrGpgDbnbDJgktBtk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DdtptrGpgDbnbDJgktBtk
 sets: [AUA, LGS, OMN, ROS]
+codes: [AUA012, LGS308, OMN150, ROS082]
 ---
 
 **Lightning Form (red)** — Lightning Action - Attack · cost 1 · 5 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, fortitude-of-anvilheim, fortitude, anvilheim, guardian, warrior, equipment, off-hand, guardwell]
+tags: [card, fortitude-of-anvilheim, fortitude, anvilheim, guardian, warrior, equipment, off-hand, guardwell, omn242]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6BCMqFPmmMJDgMPCrKh9Q) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Guardwell]
 unique-id: 6BCMqFPmmMJDgMPCrKh9Q
 sets: [OMN]
+codes: [OMN242]
 ---
 
 **Fortitude of Anvilheim** — Guardian / Warrior Equipment - Off-Hand · 2 defense

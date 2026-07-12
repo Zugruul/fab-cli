@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodtorn-bodice, bloodtorn, bodice, runeblade, equipment, chest]
+tags: [card, bloodtorn-bodice, bloodtorn, bodice, runeblade, equipment, chest, aua004, flr004, lgs316, ros115]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPrJfDdHDTrz6BHRdBFMq) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: KPrJfDdHDTrz6BHRdBFMq
 sets: [AUA, FLR, LGS, ROS]
+codes: [AUA004, FLR004, LGS316, ROS115]
 ---
 
 **Bloodtorn Bodice** — Runeblade Equipment - Chest · 0 defense

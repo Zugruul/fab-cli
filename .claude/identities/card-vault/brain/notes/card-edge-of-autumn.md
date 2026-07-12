@@ -1,5 +1,5 @@
 ---
-tags: [card, edge-of-autumn, edge, autumn, ninja, weapon, sword, 2h]
+tags: [card, edge-of-autumn, edge, autumn, ninja, weapon, sword, 2h, 1hp090, asr002, cru050, ira002, tcc078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FfRMHD8fbLP7FjLJdmbtM) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: FfRMHD8fbLP7FjLJdmbtM
 sets: [1HP, ASR, CRU, IRA, TCC]
+codes: [1HP090, ASR002, CRU050, IRA002, TCC078]
 ---
 
 **Edge of Autumn** — Ninja Weapon - Sword (2H) · 1 power

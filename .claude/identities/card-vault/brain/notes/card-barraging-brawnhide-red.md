@@ -1,5 +1,5 @@
 ---
-tags: [card, barraging-brawnhide, barraging, brawnhide, generic, action, attack, pitch-1, cost-3]
+tags: [card, barraging-brawnhide, barraging, brawnhide, generic, action, attack, pitch-1, cost-3, wtr176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8h9W9mdd6djDk6JCMCdGt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 8h9W9mdd6djDk6JCMCdGt
 sets: [WTR]
+codes: [WTR176]
 ---
 
 **Barraging Brawnhide (red)** — Generic Action - Attack · cost 3 · 7 power · 2 defense

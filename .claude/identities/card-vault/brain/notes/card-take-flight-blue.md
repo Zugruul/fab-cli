@@ -1,5 +1,5 @@
 ---
-tags: [card, take-flight, take, flight, warrior, light, action, attack, charge, pitch-3, cost-1]
+tags: [card, take-flight, take, flight, warrior, light, action, attack, charge, pitch-3, cost-1, mon056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hhQwdkFWGnMzRtpDBTzQ9) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: hhQwdkFWGnMzRtpDBTzQ9
 sets: [MON]
+codes: [MON056]
 ---
 
 **Take Flight (blue)** — Light Warrior Action - Attack · cost 1 · 2 power · 3 defense

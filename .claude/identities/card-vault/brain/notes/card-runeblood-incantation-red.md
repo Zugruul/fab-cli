@@ -1,5 +1,5 @@
 ---
-tags: [card, runeblood-incantation, runeblood, incantation, runeblade, action, aura, go-again, pitch-1, cost-1]
+tags: [card, runeblood-incantation, runeblood, incantation, runeblade, action, aura, go-again, pitch-1, cost-1, evr107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HP8HBbKwHCRChp7n7MgDB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: HP8HBbKwHCRChp7n7MgDB
 sets: [EVR]
+codes: [EVR107]
 ---
 
 **Runeblood Incantation (red)** — Runeblade Action - Aura · cost 1 · 2 defense

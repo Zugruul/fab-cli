@@ -1,5 +1,5 @@
 ---
-tags: [card, be-like-water, be, like, water, ninja, action, attack, go-again, pitch-2, cost-0]
+tags: [card, be-like-water, be, like, water, ninja, action, attack, go-again, pitch-2, cost-0, ben018, kat020, out069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h8P7JrccDgT7kRb67RHPm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: h8P7JrccDgT7kRb67RHPm
 sets: [BEN, KAT, OUT]
+codes: [BEN018, KAT020, OUT069]
 ---
 
 **Be Like Water (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, limbs-of-lignum-vitae, limbs, lignum, vitae, earth, equipment, arms, blade-break]
+tags: [card, limbs-of-lignum-vitae, limbs, lignum, vitae, earth, equipment, arms, blade-break, pen216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R6NHGRHdjzP77nfqbDGHM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: R6NHGRHdjzP77nfqbDGHM
 sets: [PEN]
+codes: [PEN216]
 ---
 
 **Limbs of Lignum Vitae** — Earth Equipment - Arms · 1 defense

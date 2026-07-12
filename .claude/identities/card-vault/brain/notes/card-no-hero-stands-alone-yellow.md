@@ -1,5 +1,5 @@
 ---
-tags: [card, no-hero-stands-alone, no, hero, stands, alone, action, attack, revered, ambush, clash, pitch-2, cost-3]
+tags: [card, no-hero-stands-alone, no, hero, stands, alone, action, attack, revered, ambush, clash, pitch-2, cost-3, sup020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtL6dWRqtnwQzBnQGPRhT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [Ambush, Clash]
 unique-id: FtL6dWRqtnwQzBnQGPRhT
 sets: [SUP]
+codes: [SUP020]
 ---
 
 **No Hero Stands Alone (yellow)** — Revered Action - Attack · cost 3 · 6 power · 0 defense

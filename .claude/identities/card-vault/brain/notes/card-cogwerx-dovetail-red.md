@@ -1,5 +1,5 @@
 ---
-tags: [card, cogwerx-dovetail, cogwerx, dovetail, mechanologist, action, attack, go-again, pitch-1, cost-1]
+tags: [card, cogwerx-dovetail, cogwerx, dovetail, mechanologist, action, attack, go-again, pitch-1, cost-1, sea011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dnhGwzTLMbDMGLfrBgnzz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dnhGwzTLMbDMGLfrBgnzz
 sets: [SEA]
+codes: [SEA011]
 ---
 
 **Cogwerx Dovetail (red)** — Mechanologist Action - Attack · cost 1 · 5 power · 3 defense

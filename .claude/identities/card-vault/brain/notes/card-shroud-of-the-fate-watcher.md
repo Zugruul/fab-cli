@@ -1,5 +1,5 @@
 ---
-tags: [card, shroud-of-the-fate-watcher, shroud, fate, watcher, wizard, equipment, head, blade-break]
+tags: [card, shroud-of-the-fate-watcher, shroud, fate, watcher, wizard, equipment, head, blade-break, pen107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dBmtb8rdJtFtKh7Lqjw6r) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: dBmtb8rdJtFtKh7Lqjw6r
 sets: [PEN]
+codes: [PEN107]
 ---
 
 **Shroud of the Fate Watcher** — Wizard Equipment - Head · 0 defense

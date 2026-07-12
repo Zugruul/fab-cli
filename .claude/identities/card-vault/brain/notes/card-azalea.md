@@ -1,5 +1,5 @@
 ---
-tags: [card, azalea, ranger, hero, young, dominate]
+tags: [card, azalea, ranger, hero, young, dominate, 1hp222, arc039, azl001, her014, her071, out090, pen340, saz001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fc8mPQBjrNq6Fg9LW9RLc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Dominate]
 unique-id: Fc8mPQBjrNq6Fg9LW9RLc
 sets: [1HP, ARC, AZL, HER, OUT, PEN, SAZ]
+codes: [1HP222, ARC039, AZL001, HER014, HER071, OUT090, PEN340, SAZ001]
 ---
 
 **Azalea** — Ranger Hero - Young · 20 health · 4 int

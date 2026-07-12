@@ -1,5 +1,5 @@
 ---
-tags: [card, sutcliffes-suede-hides, sutcliffes, suede, hides, runeblade, equipment, legs, go-again]
+tags: [card, sutcliffes-suede-hides, sutcliffes, suede, hides, runeblade, equipment, legs, go-again, avs006, bri008, ele225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nMfgFcrcDq7KRfmMzrrh8) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Go again]
 unique-id: nMfgFcrcDq7KRfmMzrrh8
 sets: [AVS, BRI, ELE]
+codes: [AVS006, BRI008, ELE225]
 ---
 
 **Sutcliffe's Suede Hides** — Runeblade Equipment - Legs · 0 defense

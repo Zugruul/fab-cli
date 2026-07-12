@@ -1,5 +1,5 @@
 ---
-tags: [card, destructive-deliberation, destructive, deliberation, generic, action, attack, pitch-3, cost-2]
+tags: [card, destructive-deliberation, destructive, deliberation, generic, action, attack, pitch-3, cost-2, out206]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid THJWhmjtGRtWfPMRFFkdd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: THJWhmjtGRtWfPMRFFkdd
 sets: [OUT]
+codes: [OUT206]
 ---
 
 **Destructive Deliberation (blue)** — Generic Action - Attack · cost 2 · 3 power · 2 defense

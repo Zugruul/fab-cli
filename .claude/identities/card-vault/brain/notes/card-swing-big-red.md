@@ -1,5 +1,5 @@
 ---
-tags: [card, swing-big, swing, big, brute, action, attack, pitch-1, cost-2]
+tags: [card, swing-big, swing, big, brute, action, attack, pitch-1, cost-2, evr002, lgs427]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jPMgW9kwNF8Cj69gwJntt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: jPMgW9kwNF8Cj69gwJntt
 sets: [EVR, LGS]
+codes: [EVR002, LGS427]
 ---
 
 **Swing Big (red)** — Brute Action - Attack · cost 2 · 8 power · 3 defense

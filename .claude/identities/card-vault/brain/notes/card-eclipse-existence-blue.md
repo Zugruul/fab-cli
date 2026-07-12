@@ -1,5 +1,5 @@
 ---
-tags: [card, eclipse-existence, eclipse, existence, shadow, instant, pitch-3, cost-0]
+tags: [card, eclipse-existence, eclipse, existence, shadow, instant, pitch-3, cost-0, lgs045, mon218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mJGB9zwRwKTg7zhpbPRnP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Shadow]
 types: [Instant]
 unique-id: mJGB9zwRwKTg7zhpbPRnP
 sets: [LGS, MON]
+codes: [LGS045, MON218]
 ---
 
 **Eclipse Existence (blue)** — Shadow Instant · cost 0

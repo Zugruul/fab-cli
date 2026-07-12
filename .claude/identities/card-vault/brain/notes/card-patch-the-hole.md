@@ -1,5 +1,5 @@
 ---
-tags: [card, patch-the-hole, patch, hole, ranger, equipment, head]
+tags: [card, patch-the-hole, patch, hole, ranger, equipment, head, sea096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nJMKbnPpBCWztRhwhngTw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: nJMKbnPpBCWztRhwhngTw
 sets: [SEA]
+codes: [SEA096]
 ---
 
 **Patch the Hole** — Ranger Equipment - Head · 0 defense

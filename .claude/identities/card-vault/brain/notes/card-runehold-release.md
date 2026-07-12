@@ -1,5 +1,5 @@
 ---
-tags: [card, runehold-release, runehold, release, runeblade, equipment, arms]
+tags: [card, runehold-release, runehold, release, runeblade, equipment, arms, aua005, flr005, lgs317, ros116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zzWc8BBmC9T6bfQwDMBPH) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: zzWc8BBmC9T6bfQwDMBPH
 sets: [AUA, FLR, LGS, ROS]
+codes: [AUA005, FLR005, LGS317, ROS116]
 ---
 
 **Runehold Release** — Runeblade Equipment - Arms · 0 defense

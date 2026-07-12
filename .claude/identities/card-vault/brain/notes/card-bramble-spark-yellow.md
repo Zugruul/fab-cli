@@ -1,5 +1,5 @@
 ---
-tags: [card, bramble-spark, bramble, spark, runeblade, elemental, action, earth-fusion, go-again, pitch-2, cost-0]
+tags: [card, bramble-spark, bramble, spark, runeblade, elemental, action, earth-fusion, go-again, pitch-2, cost-0, ele086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zgdPgqpCdGFqgFwjm6JW8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Earth Fusion, Go again]
 unique-id: zgdPgqpCdGFqgFwjm6JW8
 sets: [ELE]
+codes: [ELE086]
 ---
 
 **Bramble Spark (yellow)** — Elemental Runeblade Action · cost 0 · 2 defense

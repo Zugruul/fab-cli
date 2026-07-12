@@ -1,5 +1,5 @@
 ---
-tags: [card, shattering-flowtide, shattering, flowtide, illusionist, lightning, action, attack, fragment, pitch-3, cost-0]
+tags: [card, shattering-flowtide, shattering, flowtide, illusionist, lightning, action, attack, fragment, pitch-3, cost-0, azs023, omn026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rhwctgbpc8DkRWbfPbpKg) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: Rhwctgbpc8DkRWbfPbpKg
 sets: [AZS, OMN]
+codes: [AZS023, OMN026]
 ---
 
 **Shattering Flowtide (blue)** — Lightning Illusionist Action - Attack · cost 0 · 3 power · 3 defense

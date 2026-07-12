@@ -1,5 +1,5 @@
 ---
-tags: [card, light-up-the-leaves, light, up, leaves, wizard, earth, action, pitch-1, cost-3]
+tags: [card, light-up-the-leaves, light, up, leaves, wizard, earth, action, pitch-1, cost-3, sup264]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hcPBRGtmCKRBDMFBTJFbT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Earth]
 types: [Action]
 unique-id: hcPBRGtmCKRBDMFBTJFbT
 sets: [SUP]
+codes: [SUP264]
 ---
 
 **Light Up the Leaves (red)** — Earth Wizard Action · cost 3 · 3 defense

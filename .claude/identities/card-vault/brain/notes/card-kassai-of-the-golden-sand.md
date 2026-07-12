@@ -1,5 +1,5 @@
 ---
-tags: [card, kassai-of-the-golden-sand, kassai, golden, sand, warrior, hero, adult]
+tags: [card, kassai-of-the-golden-sand, kassai, golden, sand, warrior, hero, adult, her110, her146, hvy090, win031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ffKGNQcWnLkfQD7w66MRL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: ffKGNQcWnLkfQD7w66MRL
 sets: [HER, HVY, WIN]
+codes: [HER110, HER146, HVY090, WIN031]
 ---
 
 **Kassai of the Golden Sand** — Warrior Hero · 40 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, crazy-brew, crazy, brew, generic, action, item, pitch-3, cost-0]
+tags: [card, crazy-brew, crazy, brew, generic, action, item, pitch-3, cost-0, 1hp363, fab016, tcc070, wtr162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zHBTDcDtMLgTrqfnmTB9q) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: zHBTDcDtMLgTrqfnmTB9q
 sets: [1HP, FAB, TCC, WTR]
+codes: [1HP363, FAB016, TCC070, WTR162]
 ---
 
 **Crazy Brew (blue)** — Generic Action - Item · cost 0

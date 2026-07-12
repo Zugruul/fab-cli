@@ -1,5 +1,5 @@
 ---
-tags: [card, stand-tall, stand, tall, warrior, block, pitch-2]
+tags: [card, stand-tall, stand, tall, warrior, block, pitch-2, mpw037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PPhWjKkrPQmCFfrrWcddD) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Warrior]
 types: [Block]
 unique-id: PPhWjKkrPQmCFfrrWcddD
 sets: [MPW]
+codes: [MPW037]
 ---
 
 **Stand Tall (yellow)** — Warrior Block · 3 defense

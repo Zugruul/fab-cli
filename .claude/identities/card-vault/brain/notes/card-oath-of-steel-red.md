@@ -1,5 +1,5 @@
 ---
-tags: [card, oath-of-steel, oath, steel, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, oath-of-steel, oath, steel, warrior, action, go-again, pitch-1, cost-0, evr056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mKPnFPDQQW6DJjfktTKm7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: mKPnFPDQQW6DJjfktTKm7
 sets: [EVR]
+codes: [EVR056]
 ---
 
 **Oath of Steel (red)** — Warrior Action · cost 0 · 3 defense

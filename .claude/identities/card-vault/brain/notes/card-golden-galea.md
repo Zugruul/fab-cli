@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-galea, golden, galea, warrior, equipment, head, legendary, olympia-specialization, temper]
+tags: [card, golden-galea, golden, galea, warrior, equipment, head, legendary, olympia-specialization, temper, sup247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RWHJMQ9jdRHFHKNqcJDMD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Legendary, Olympia Specialization, Temper]
 unique-id: RWHJMQ9jdRHFHKNqcJDMD
 sets: [SUP]
+codes: [SUP247]
 ---
 
 **Golden Galea** — Warrior Equipment - Head · 2 defense

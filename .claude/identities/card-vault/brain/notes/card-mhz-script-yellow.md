@@ -1,5 +1,5 @@
 ---
-tags: [card, mhz-script, mhz, script, mechanologist, action, item, crank, go-again, pitch-2, cost-0]
+tags: [card, mhz-script, mhz, script, mechanologist, action, item, crank, go-again, pitch-2, cost-0, evo097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MBGNCzRpfLJ6bqMpMzppm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank, Go again]
 unique-id: MBGNCzRpfLJ6bqMpMzppm
 sets: [EVO]
+codes: [EVO097]
 ---
 
 **MHz Script (yellow)** — Mechanologist Action - Item · cost 0

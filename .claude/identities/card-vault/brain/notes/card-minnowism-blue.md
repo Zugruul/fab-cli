@@ -1,5 +1,5 @@
 ---
-tags: [card, minnowism, generic, action, go-again, pitch-3, cost-0]
+tags: [card, minnowism, generic, action, go-again, pitch-3, cost-0, mon298]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BNMTzb6WbFTGp7PFnHD6d) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: BNMTzb6WbFTGp7PFnHD6d
 sets: [MON]
+codes: [MON298]
 ---
 
 **Minnowism (blue)** — Generic Action · cost 0 · 2 defense

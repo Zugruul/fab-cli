@@ -1,5 +1,5 @@
 ---
-tags: [card, whispering-mist, whispering, mist, mystic, instant, pitch-3, cost-0]
+tags: [card, whispering-mist, whispering, mist, mystic, instant, pitch-3, cost-0, pen267]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DJPrmWbggDQJdhkhgJG6q) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Instant]
 unique-id: DJPrmWbggDQJdhkhgJG6q
 sets: [PEN]
+codes: [PEN267]
 ---
 
 **Whispering Mist (blue)** — Mystic Instant · cost 0

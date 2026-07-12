@@ -1,5 +1,5 @@
 ---
-tags: [card, to-be-continued, be, continued, guardian, instant, aura, suspense, pitch-3, cost-0]
+tags: [card, to-be-continued, be, continued, guardian, instant, aura, suspense, pitch-3, cost-0, aps027, sup208]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RrLpMzrnbdgWFJh7D8r6q) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: RrLpMzrnbdgWFJh7D8r6q
 sets: [APS, SUP]
+codes: [APS027, SUP208]
 ---
 
 **To Be Continued... (blue)** — Guardian Instant - Aura · cost 0 · 2 defense

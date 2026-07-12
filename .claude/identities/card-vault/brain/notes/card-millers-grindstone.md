@@ -1,5 +1,5 @@
 ---
-tags: [card, millers-grindstone, millers, grindstone, guardian, weapon, hammer, 1h, clash]
+tags: [card, millers-grindstone, millers, grindstone, guardian, weapon, hammer, 1h, clash, hvy050, lgs240, vic002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RRfwzgrbMbFGNqppnD8rB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Hammer, 1H]
 keywords: [Clash]
 unique-id: RRfwzgrbMbFGNqppnD8rB
 sets: [HVY, LGS, VIC]
+codes: [HVY050, LGS240, VIC002]
 ---
 
 **Miller's Grindstone** — Guardian Weapon - Hammer (1H) · 4 power

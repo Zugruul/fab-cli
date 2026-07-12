@@ -1,5 +1,5 @@
 ---
-tags: [card, pursue-to-the-pits-of-despair, pursue, pits, despair, generic, action, attack, mark, pitch-1, cost-1]
+tags: [card, pursue-to-the-pits-of-despair, pursue, pits, despair, generic, action, attack, mark, pitch-1, cost-1, hnt225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w7prWHb7LbrPMChNMdHzq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Mark]
 unique-id: w7prWHb7LbrPMChNMdHzq
 sets: [HNT]
+codes: [HNT225]
 ---
 
 **Pursue to the Pits of Despair (red)** — Generic Action - Attack · cost 1 · 5 power · 3 defense

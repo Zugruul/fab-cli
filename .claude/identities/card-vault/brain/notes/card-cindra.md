@@ -1,5 +1,5 @@
 ---
-tags: [card, cindra, ninja, royal, draconic, hero, young]
+tags: [card, cindra, ninja, royal, draconic, hero, young, cin001, hnt055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7hWTmtRzJnrtqtfLLR6M) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Royal, Draconic]
 types: [Hero]
 unique-id: m7hWTmtRzJnrtqtfLLR6M
 sets: [CIN, HNT]
+codes: [CIN001, HNT055]
 ---
 
 **Cindra** — Royal Draconic Ninja Hero - Young · 20 health · 4 int

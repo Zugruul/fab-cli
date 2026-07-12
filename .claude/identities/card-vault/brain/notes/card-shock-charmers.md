@@ -1,5 +1,5 @@
 ---
-tags: [card, shock-charmers, shock, charmers, lightning, equipment, arms, spellvoid-2]
+tags: [card, shock-charmers, shock, charmers, lightning, equipment, arms, spellvoid-2, ele173, fab054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JkPgFzHTpzdNfzJCwQCmt) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Spellvoid 2]
 unique-id: JkPgFzHTpzdNfzJCwQCmt
 sets: [ELE, FAB]
+codes: [ELE173, FAB054]
 ---
 
 **Shock Charmers** — Lightning Equipment - Arms · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, crackling, runeblade, elemental, action, attack, lightning-flow, pitch-1, cost-0]
+tags: [card, crackling, runeblade, elemental, action, attack, lightning-flow, pitch-1, cost-0, aur007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tmNrkK9dghWBkfmgLH7MG) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Flow]
 unique-id: tmNrkK9dghWBkfmgLH7MG
 sets: [AUR]
+codes: [AUR007]
 ---
 
 **Crackling (red)** — Elemental Runeblade Action - Attack · cost 0 · 3 power · 3 defense

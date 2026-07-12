@@ -1,5 +1,5 @@
 ---
-tags: [card, autosave-script, autosave, script, mechanologist, action, item, crank, pitch-3, cost-0]
+tags: [card, autosave-script, autosave, script, mechanologist, action, item, crank, pitch-3, cost-0, evo098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Frp76KgppTJBPkQGbJ87J) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: Frp76KgppTJBPkQGbJ87J
 sets: [EVO]
+codes: [EVO098]
 ---
 
 **Autosave Script (blue)** — Mechanologist Action - Item · cost 0

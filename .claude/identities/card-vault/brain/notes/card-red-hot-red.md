@@ -1,5 +1,5 @@
 ---
-tags: [card, red-hot, red, hot, draconic, action, attack, dromai-or-fai-specialization, rupture, pitch-1, cost-2]
+tags: [card, red-hot, red, hot, draconic, action, attack, dromai-or-fai-specialization, rupture, pitch-1, cost-2, dro009, lgs108, upr090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GRJN6ctjz9wPmFn9K7WHn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dromai or Fai Specialization, Rupture]
 unique-id: GRJN6ctjz9wPmFn9K7WHn
 sets: [DRO, LGS, UPR]
+codes: [DRO009, LGS108, UPR090]
 ---
 
 **Red Hot (red)** — Draconic Action - Attack · cost 2 · 4 power · 3 defense

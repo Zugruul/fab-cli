@@ -1,5 +1,5 @@
 ---
-tags: [card, staff-of-verdant-shoots, staff, verdant, shoots, wizard, earth, weapon, 2h]
+tags: [card, staff-of-verdant-shoots, staff, verdant, shoots, wizard, earth, weapon, 2h, lgs333, ros015, ver002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQgjdCTFwm89BmcWP9n7d) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Staff, 2H]
 unique-id: PQgjdCTFwm89BmcWP9n7d
 sets: [LGS, ROS, VER]
+codes: [LGS333, ROS015, VER002]
 ---
 
 **Staff of Verdant Shoots** — Earth Wizard Weapon - Staff (2H)

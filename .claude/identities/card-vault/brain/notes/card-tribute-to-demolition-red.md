@@ -1,5 +1,5 @@
 ---
-tags: [card, tribute-to-demolition, tribute, demolition, brute, shadow, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, tribute-to-demolition, tribute, demolition, brute, shadow, action, attack, blood-debt, pitch-1, cost-2, dtd127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9DzCbwH7RdNQ7cJCHpCKC) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: 9DzCbwH7RdNQ7cJCHpCKC
 sets: [DTD]
+codes: [DTD127]
 ---
 
 **Tribute to Demolition (red)** — Shadow Brute Action - Attack · cost 2 · 6 power · 3 defense

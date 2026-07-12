@@ -1,5 +1,5 @@
 ---
-tags: [card, red-alert-gloves, red, alert, gloves, assassin, warrior, equipment, arms, blade-break]
+tags: [card, red-alert-gloves, red, alert, gloves, assassin, warrior, equipment, arms, blade-break, hnt194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid j9NnkHbJbdLdDLg9QtPht) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: j9NnkHbJbdLdDLg9QtPht
 sets: [HNT]
+codes: [HNT194]
 ---
 
 **Red Alert Gloves** — Assassin / Warrior Equipment - Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, flicker-reality, flicker, reality, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0]
+tags: [card, flicker-reality, flicker, reality, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0, omn005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pDcNGgGpPKKtj9wkD7jQR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: pDcNGgGpPKKtj9wkD7jQR
 sets: [OMN]
+codes: [OMN005]
 ---
 
 **Flicker Reality (blue)** — Lightning Illusionist Instant - Aura · cost 0

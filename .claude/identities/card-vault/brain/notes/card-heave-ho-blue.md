@@ -1,5 +1,5 @@
 ---
-tags: [card, heave-ho, heave, ho, pirate, necromancer, action, go-again, overpower, pitch-3, cost-0]
+tags: [card, heave-ho, heave, ho, pirate, necromancer, action, go-again, overpower, pitch-3, cost-0, gem052, sea057]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6HTFGH8fzF8THpGNjpmHR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Overpower]
 unique-id: 6HTFGH8fzF8THpGNjpmHR
 sets: [GEM, SEA]
+codes: [GEM052, SEA057]
 ---
 
 **Heave Ho! (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, call-for-backup, call, backup, generic, action, attack, pitch-1, cost-3]
+tags: [card, call-for-backup, call, backup, generic, action, attack, pitch-1, cost-3, mpg126]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JCcpbgdrTMnnLdhGJcDGD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JCcpbgdrTMnnLdhGJcDGD
 sets: [MPG]
+codes: [MPG126]
 ---
 
 **Call for Backup (red)** — Generic Action - Attack · cost 3 · 7 power · 2 defense

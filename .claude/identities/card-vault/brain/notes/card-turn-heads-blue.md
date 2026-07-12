@@ -1,5 +1,5 @@
 ---
-tags: [card, turn-heads, turn, heads, guardian, instant, aura, suspense, pitch-3, cost-3]
+tags: [card, turn-heads, turn, heads, guardian, instant, aura, suspense, pitch-3, cost-3, sup176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RcNNBLRcBbGCWnNjqzPdQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: RcNNBLRcBbGCWnNjqzPdQ
 sets: [SUP]
+codes: [SUP176]
 ---
 
 **Turn Heads (blue)** — Guardian Instant - Aura · cost 3 · 3 defense

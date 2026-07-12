@@ -1,5 +1,5 @@
 ---
-tags: [card, double-trouble, double, trouble, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, double-trouble, double, trouble, assassin, action, attack, stealth, pitch-3, cost-0, mst114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8r7DqKfDrBG6C8mTDRKN7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 8r7DqKfDrBG6C8mTDRKN7
 sets: [MST]
+codes: [MST114]
 ---
 
 **Double Trouble (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

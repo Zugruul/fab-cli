@@ -1,5 +1,5 @@
 ---
-tags: [card, stir-the-aetherwinds, stir, aetherwinds, wizard, action, pitch-2, cost-2]
+tags: [card, stir-the-aetherwinds, stir, aetherwinds, wizard, action, pitch-2, cost-2, 1hp321, arc130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nPwjcRFWBmzNQWM6BMcgB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: nPwjcRFWBmzNQWM6BMcgB
 sets: [1HP, ARC]
+codes: [1HP321, ARC130]
 ---
 
 **Stir the Aetherwinds (yellow)** — Wizard Action · cost 2 · 2 defense

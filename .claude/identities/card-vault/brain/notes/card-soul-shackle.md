@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-shackle, soul, shackle, runeblade, shadow, token, aura]
+tags: [card, soul-shackle, soul, shackle, runeblade, shadow, token, aura, chn030, fab120, mon186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9F6H6kTdQdcHrDrRCDmLP) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: 9F6H6kTdQdcHrDrRCDmLP
 sets: [CHN, FAB, MON]
+codes: [CHN030, FAB120, MON186]
 ---
 
 **Soul Shackle** — Shadow Runeblade Token - Aura

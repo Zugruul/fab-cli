@@ -1,5 +1,5 @@
 ---
-tags: [card, in-the-palm-of-your-hand, palm, your, hand, guardian, instant, aura, suspense, pitch-1, cost-2]
+tags: [card, in-the-palm-of-your-hand, palm, your, hand, guardian, instant, aura, suspense, pitch-1, cost-2, lgs431, sup171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qqDbjmjjfHK9d8KJ8PcGm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: qqDbjmjjfHK9d8KJ8PcGm
 sets: [LGS, SUP]
+codes: [LGS431, SUP171]
 ---
 
 **In the Palm of Your Hand (red)** — Guardian Instant - Aura · cost 2 · 3 defense

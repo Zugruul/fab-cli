@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-sekem, herald, sekem, illusionist, light, action, attack, phantasm, pitch-1, cost-2]
+tags: [card, herald-of-sekem, herald, sekem, illusionist, light, action, attack, phantasm, pitch-1, cost-2, sea260]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8KBRjnQQ7cTq7M9q9CgCN) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: 8KBRjnQQ7cTq7M9q9CgCN
 sets: [SEA]
+codes: [SEA260]
 ---
 
 **Herald of Sekem (red)** — Light Illusionist Action - Attack · cost 2 · 7 power · 3 defense

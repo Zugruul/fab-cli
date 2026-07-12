@@ -1,5 +1,5 @@
 ---
-tags: [card, mutiny-on-the-swiftwater, mutiny, swiftwater, pirate, action, go-again, steal, pitch-3, cost-0]
+tags: [card, mutiny-on-the-swiftwater, mutiny, swiftwater, pirate, action, go-again, steal, pitch-3, cost-0, sea178]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JwdBp6DFwFkG9npJ78jbK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Steal]
 unique-id: JwdBp6DFwFkG9npJ78jbK
 sets: [SEA]
+codes: [SEA178]
 ---
 
 **Mutiny on the Swiftwater (blue)** — Pirate Action · cost 0 · 2 defense

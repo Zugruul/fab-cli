@@ -1,5 +1,5 @@
 ---
-tags: [card, topsy-turvy, topsy, turvy, chaos, equipment, head, arcane-barrier-1]
+tags: [card, topsy-turvy, topsy, turvy, chaos, equipment, head, arcane-barrier-1, pen276, sar004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gkBJQ6tmkftT69RrRPRJq) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1]
 unique-id: gkBJQ6tmkftT69RrRPRJq
 sets: [PEN, SAR]
+codes: [PEN276, SAR004]
 ---
 
 **Topsy Turvy** — Chaos Equipment - Head · 0 defense

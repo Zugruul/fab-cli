@@ -1,5 +1,5 @@
 ---
-tags: [card, cogwerx-zeppelin, cogwerx, zeppelin, mechanologist, action, attack, pitch-1, cost-2]
+tags: [card, cogwerx-zeppelin, cogwerx, zeppelin, mechanologist, action, attack, pitch-1, cost-2, sea018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMNLQNgmCHD7FwnFFq6dG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WMNLQNgmCHD7FwnFFq6dG
 sets: [SEA]
+codes: [SEA018]
 ---
 
 **Cogwerx Zeppelin (red)** — Mechanologist Action - Attack · cost 2 · 6 power · 3 defense

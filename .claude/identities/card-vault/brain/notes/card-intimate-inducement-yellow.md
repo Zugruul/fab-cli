@@ -1,5 +1,5 @@
 ---
-tags: [card, intimate-inducement, intimate, inducement, assassin, mystic, attack-reaction, pitch-2, cost-0]
+tags: [card, intimate-inducement, intimate, inducement, assassin, mystic, attack-reaction, pitch-2, cost-0, mst018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrBknpNwPbrNbzmfKMnKw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Mystic]
 types: [Attack Reaction]
 unique-id: jrBknpNwPbrNbzmfKMnKw
 sets: [MST]
+codes: [MST018]
 ---
 
 **Intimate Inducement (yellow)** — Mystic Assassin Attack Reaction · cost 0 · 3 defense

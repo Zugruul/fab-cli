@@ -1,5 +1,5 @@
 ---
-tags: [card, spectral-manifestations, spectral, manifestations, illusionist, action, go-again, pitch-2, cost-2]
+tags: [card, spectral-manifestations, spectral, manifestations, illusionist, action, go-again, pitch-2, cost-2, mst153]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCjWqFfWGjHnrGnPcw6p7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bCjWqFfWGjHnrGnPcw6p7
 sets: [MST]
+codes: [MST153]
 ---
 
 **Spectral Manifestations (yellow)** — Illusionist Action · cost 2 · 2 defense

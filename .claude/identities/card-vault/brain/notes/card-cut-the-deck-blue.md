@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-the-deck, cut, deck, warrior, attack-reaction, pitch-3, cost-1]
+tags: [card, cut-the-deck, cut, deck, warrior, attack-reaction, pitch-3, cost-1, hvy108, ola024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid knbbJdFrQgDbdzh8r8hTd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: knbbJdFrQgDbdzh8r8hTd
 sets: [HVY, OLA]
+codes: [HVY108, OLA024]
 ---
 
 **Cut the Deck (blue)** — Warrior Attack Reaction · cost 1 · 3 defense

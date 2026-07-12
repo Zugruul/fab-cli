@@ -1,5 +1,5 @@
 ---
-tags: [card, gold-hunter-lightsail, gold, hunter, lightsail, pirate, action, attack, pitch-2, cost-1]
+tags: [card, gold-hunter-lightsail, gold, hunter, lightsail, pirate, action, attack, pitch-2, cost-1, sea162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NrW7LgbzfgBGPCwhBRkKL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: NrW7LgbzfgBGPCwhBRkKL
 sets: [SEA]
+codes: [SEA162]
 ---
 
 **Gold Hunter Lightsail (yellow)** — Pirate Action - Attack · cost 1 · 4 power · 2 defense

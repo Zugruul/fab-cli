@@ -1,5 +1,5 @@
 ---
-tags: [card, hyper-driver, hyper, driver, mechanologist, token, item]
+tags: [card, hyper-driver, hyper, driver, mechanologist, token, item, amx028, evo234, fab176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FwwCqJKcNDNMjJn9mTCgg) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Item]
 unique-id: FwwCqJKcNDNMjJn9mTCgg
 sets: [AMX, EVO, FAB]
+codes: [AMX028, EVO234, FAB176]
 ---
 
 **Hyper Driver** — Mechanologist Token - Item

@@ -1,5 +1,5 @@
 ---
-tags: [card, shiyana-diamond-gemini, shiyana, diamond, gemini, shapeshifter, hero, young]
+tags: [card, shiyana-diamond-gemini, shiyana, diamond, gemini, shapeshifter, hero, young, cru097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n9r77QwMzdWJmnfhPLN9J) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Shapeshifter]
 types: [Hero]
 unique-id: n9r77QwMzdWJmnfhPLN9J
 sets: [CRU]
+codes: [CRU097]
 ---
 
 **Shiyana, Diamond Gemini** — Shapeshifter Hero - Young · 20 health · 4 int

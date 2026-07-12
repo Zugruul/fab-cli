@@ -1,5 +1,5 @@
 ---
-tags: [card, oscilio, wizard, elemental, hero, young, essence-of-lightning]
+tags: [card, oscilio, wizard, elemental, hero, young, essence-of-lightning, osc001, ros020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jC7KWzhP9jMrPDNCHJWtk) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Lightning]
 unique-id: jC7KWzhP9jMrPDNCHJWtk
 sets: [OSC, ROS]
+codes: [OSC001, ROS020]
 ---
 
 **Oscilio** — Elemental Wizard Hero - Young · 18 health · 4 int

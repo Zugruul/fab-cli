@@ -1,5 +1,5 @@
 ---
-tags: [card, leap-frog-slime-skin, leap, frog, slime, skin, assassin, ninja, equipment, chest, blade-break]
+tags: [card, leap-frog-slime-skin, leap, frog, slime, skin, assassin, ninja, equipment, chest, blade-break, ark004, hnt170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TQL89gnkPdTLrbr8HNtgf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: TQL89gnkPdTLrbr8HNtgf
 sets: [ARK, HNT]
+codes: [ARK004, HNT170]
 ---
 
 **Leap Frog Slime Skin** — Assassin / Ninja Equipment - Chest · 1 defense

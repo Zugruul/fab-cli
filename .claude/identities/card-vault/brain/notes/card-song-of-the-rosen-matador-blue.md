@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-the-rosen-matador, song, rosen, matador, bard, action, pitch-3, cost-0]
+tags: [card, song-of-the-rosen-matador, song, rosen, matador, bard, action, pitch-3, cost-0, lgs218, tcc066]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jRGGnkWgcLPMMQ6D7bdnk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Song]
 unique-id: jRGGnkWgcLPMMQ6D7bdnk
 sets: [LGS, TCC]
+codes: [LGS218, TCC066]
 ---
 
 **Song of the Rosen Matador (blue)** — Bard Action - Song · cost 0 · 3 defense

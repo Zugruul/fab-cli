@@ -1,5 +1,5 @@
 ---
-tags: [card, murderous-rabble, murderous, rabble, pirate, action, attack, go-again, pitch-3, cost-0]
+tags: [card, murderous-rabble, murderous, rabble, pirate, action, attack, go-again, pitch-3, cost-0, agb023, sea137, sgb024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jDPCKWMC9wbhQHtDj8fzM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: jDPCKWMC9wbhQHtDj8fzM
 sets: [AGB, SEA, SGB]
+codes: [AGB023, SEA137, SGB024]
 ---
 
 **Murderous Rabble (blue)** — Pirate Action - Attack · cost 0 · 0 power · 3 defense

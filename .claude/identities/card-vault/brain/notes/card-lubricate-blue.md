@@ -1,5 +1,5 @@
 ---
-tags: [card, lubricate, mechanologist, instant, pitch-3, cost-0]
+tags: [card, lubricate, mechanologist, instant, pitch-3, cost-0, gem044, sea022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pKtKBmHB8P6Nwr8TP7p6D) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Mechanologist]
 types: [Instant]
 unique-id: pKtKBmHB8P6Nwr8TP7p6D
 sets: [GEM, SEA]
+codes: [GEM044, SEA022]
 ---
 
 **Lubricate (blue)** — Mechanologist Instant · cost 0

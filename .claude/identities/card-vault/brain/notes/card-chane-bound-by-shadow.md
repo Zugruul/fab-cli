@@ -1,5 +1,5 @@
 ---
-tags: [card, chane-bound-by-shadow, chane, bound, by, shadow, runeblade, hero, adult, go-again]
+tags: [card, chane-bound-by-shadow, chane, bound, by, shadow, runeblade, hero, adult, go-again, her033, her041, mon153, win012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MhBTRHCCft7RbrMmkwwGw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: MhBTRHCCft7RbrMmkwwGw
 sets: [HER, MON, WIN]
+codes: [HER033, HER041, MON153, WIN012]
 ---
 
 **Chane, Bound by Shadow** — Shadow Runeblade Hero · 40 health · 4 int

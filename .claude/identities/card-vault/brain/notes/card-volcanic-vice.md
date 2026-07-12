@@ -1,5 +1,5 @@
 ---
-tags: [card, volcanic-vice, volcanic, vice, guardian, equipment, arms, spellvoid-3]
+tags: [card, volcanic-vice, volcanic, vice, guardian, equipment, arms, spellvoid-3, pen018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8tGLHwNjzzJdqkjhhKBRb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Spellvoid 3]
 unique-id: 8tGLHwNjzzJdqkjhhKBRb
 sets: [PEN]
+codes: [PEN018]
 ---
 
 **Volcanic Vice** — Gaurdian Equipment - Arms · 0 defense

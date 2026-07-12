@@ -1,5 +1,5 @@
 ---
-tags: [card, murkmire-grapnel, murkmire, grapnel, ranger, action, arrow, attack, pitch-1, cost-0]
+tags: [card, murkmire-grapnel, murkmire, grapnel, ranger, action, arrow, attack, pitch-1, cost-0, azl010, out121, rip016, saz015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pwFkWbwFjKnnhTNQzgLJK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: pwFkWbwFjKnnhTNQzgLJK
 sets: [AZL, OUT, RIP, SAZ]
+codes: [AZL010, OUT121, RIP016, SAZ015]
 ---
 
 **Murkmire Grapnel (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

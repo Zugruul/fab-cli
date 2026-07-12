@@ -1,5 +1,5 @@
 ---
-tags: [card, photon-rush, photon, rush, runeblade, elemental, action, attack, lightning-flow, go-again, pitch-3, cost-0]
+tags: [card, photon-rush, photon, rush, runeblade, elemental, action, attack, lightning-flow, go-again, pitch-3, cost-0, aur024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmwDMcWw9jwmjmpk8rBjR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Flow, Go again]
 unique-id: hmwDMcWw9jwmjmpk8rBjR
 sets: [AUR]
+codes: [AUR024]
 ---
 
 **Photon Rush (blue)** — Elemental Runeblade Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, prized-galea, prized, galea, warrior, equipment, head, olympia-specialization, temper]
+tags: [card, prized-galea, prized, galea, warrior, equipment, head, olympia-specialization, temper, hvy098, lgs236, lgs254, ola004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mRCfW6wBLjzRzjnNrKqQn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Olympia Specialization, Temper]
 unique-id: mRCfW6wBLjzRzjnNrKqQn
 sets: [HVY, LGS, OLA]
+codes: [HVY098, LGS236, LGS254, OLA004]
 ---
 
 **Prized Galea** — Warrior Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, future-sight, future, sight, wizard, instant, pitch-3, cost-1]
+tags: [card, future-sight, future, sight, wizard, instant, pitch-3, cost-1, pen119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JdkJpKTbhNmzgKkBWffjk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Wizard]
 types: [Instant]
 unique-id: JdkJpKTbhNmzgKkBWffjk
 sets: [PEN]
+codes: [PEN119]
 ---
 
 **Future Sight (blue)** — Wizard Instant · cost 1

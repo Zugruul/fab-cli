@@ -1,5 +1,5 @@
 ---
-tags: [card, throw-caution-to-the-wind, throw, caution, wind, pirate, instant, pitch-3, cost-0]
+tags: [card, throw-caution-to-the-wind, throw, caution, wind, pirate, instant, pitch-3, cost-0, sea150, sgb034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QjCCMBLNTHkwzPqmjCTqN) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Pirate]
 types: [Instant]
 unique-id: QjCCMBLNTHkwzPqmjCTqN
 sets: [SEA, SGB]
+codes: [SEA150, SGB034]
 ---
 
 **Throw Caution to the Wind (blue)** — Pirate Instant · cost 0

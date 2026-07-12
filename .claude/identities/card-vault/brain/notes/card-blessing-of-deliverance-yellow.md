@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-deliverance, blessing, deliverance, guardian, action, aura, go-again, pitch-2, cost-2]
+tags: [card, blessing-of-deliverance, blessing, deliverance, guardian, action, aura, go-again, pitch-2, cost-2, 1hp062, lgs024, wtr055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fPm6WdzfPTdDqG7Q6d6Tc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: fPm6WdzfPTdDqG7Q6d6Tc
 sets: [1HP, LGS, WTR]
+codes: [1HP062, LGS024, WTR055]
 ---
 
 **Blessing of Deliverance (yellow)** — Guardian Action - Aura · cost 2 · 3 defense

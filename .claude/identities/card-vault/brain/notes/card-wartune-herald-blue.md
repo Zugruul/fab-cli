@@ -1,5 +1,5 @@
 ---
-tags: [card, wartune-herald, wartune, herald, illusionist, light, action, attack, phantasm, pitch-3, cost-1]
+tags: [card, wartune-herald, wartune, herald, illusionist, light, action, attack, phantasm, pitch-3, cost-1, apr023, dtd031, fab037, mon028, psm020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qN9rt6FWmjTRwNC9cTrPW) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: qN9rt6FWmjTRwNC9cTrPW
 sets: [APR, DTD, FAB, MON, PSM]
+codes: [APR023, DTD031, FAB037, MON028, PSM020]
 ---
 
 **Wartune Herald (blue)** — Light Illusionist Action - Attack · cost 1 · 5 power · 3 defense

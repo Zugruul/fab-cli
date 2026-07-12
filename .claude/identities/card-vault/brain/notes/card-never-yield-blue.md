@@ -1,5 +1,5 @@
 ---
-tags: [card, never-yield, never, yield, guardian, action, aura, pitch-3, cost-3]
+tags: [card, never-yield, never, yield, guardian, action, aura, pitch-3, cost-3, dyn029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JtmjqNPR7JcNHJGFNtWNR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: JtmjqNPR7JcNHJGFNtWNR
 sets: [DYN]
+codes: [DYN029]
 ---
 
 **Never Yield (blue)** — Guardian Action - Aura · cost 3 · 3 defense

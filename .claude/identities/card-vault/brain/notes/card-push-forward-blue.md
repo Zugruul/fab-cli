@@ -1,5 +1,5 @@
 ---
-tags: [card, push-forward, push, forward, warrior, action, go-again, dominate, pitch-3, cost-1]
+tags: [card, push-forward, push, forward, warrior, action, go-again, dominate, pitch-3, cost-1, cru096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zwNPbN7wMRmNPhzmBhGLD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: zwNPbN7wMRmNPhzmBhGLD
 sets: [CRU]
+codes: [CRU096]
 ---
 
 **Push Forward (blue)** — Warrior Action · cost 1 · 3 defense

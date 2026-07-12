@@ -1,5 +1,5 @@
 ---
-tags: [card, volzar-meteor-storm, volzar, meteor, storm, wizard, lightning, weapon, staff, 2h]
+tags: [card, volzar-meteor-storm, volzar, meteor, storm, wizard, lightning, weapon, staff, 2h, gem144, omn096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zfTFn8L8fMNW9bmRcn8Lw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Staff, 2H]
 unique-id: zfTFn8L8fMNW9bmRcn8Lw
 sets: [GEM, OMN]
+codes: [GEM144, OMN096]
 ---
 
 **Volzar, Meteor Storm** — Lightning Wizard Weapon - Staff (2H)

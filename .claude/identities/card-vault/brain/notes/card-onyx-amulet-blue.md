@@ -1,5 +1,5 @@
 ---
-tags: [card, onyx-amulet, onyx, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0]
+tags: [card, onyx-amulet, onyx, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0, sea191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hpQCHKmzQGrjhJFJR8pBP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary, Watery Grave]
 unique-id: hpQCHKmzQGrjhJFJR8pBP
 sets: [SEA]
+codes: [SEA191]
 ---
 
 **Onyx Amulet (blue)** — Generic Action - Item · cost 0

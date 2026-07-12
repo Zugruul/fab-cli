@@ -1,5 +1,5 @@
 ---
-tags: [card, spellbane-trap, spellbane, trap, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, spellbane-trap, spellbane, trap, ranger, action, go-again, pitch-3, cost-0, pen091]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dqwWnfmK6rdFDd7GgMKfz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Go again]
 unique-id: dqwWnfmK6rdFDd7GgMKfz
 sets: [PEN]
+codes: [PEN091]
 ---
 
 **Spellbane Trap (blue)** — Ranger Action - Trap · cost 0 · 2 defense

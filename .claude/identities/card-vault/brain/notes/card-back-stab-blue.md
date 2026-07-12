@@ -1,5 +1,5 @@
 ---
-tags: [card, back-stab, back, stab, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, back-stab, back, stab, assassin, action, attack, stealth, pitch-3, cost-0, out017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rdwhCnq7qjDG97zMqzDkz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: rdwhCnq7qjDG97zMqzDkz
 sets: [OUT]
+codes: [OUT017]
 ---
 
 **Back Stab (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

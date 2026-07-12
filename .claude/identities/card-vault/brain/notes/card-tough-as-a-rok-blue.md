@@ -1,5 +1,5 @@
 ---
-tags: [card, tough-as-a-rok, tough, as, rok, brute, action, attack, revered, pitch-3, cost-3]
+tags: [card, tough-as-a-rok, tough, as, rok, brute, action, attack, revered, pitch-3, cost-3, pen285]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tcgLRpmfGcfgfDkBwGWbk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: tcgLRpmfGcfgfDkBwGWbk
 sets: [PEN]
+codes: [PEN285]
 ---
 
 **Tough as a Rok (blue)** — Revered Brute Action - Attack · cost 3 · * power · 3 defense

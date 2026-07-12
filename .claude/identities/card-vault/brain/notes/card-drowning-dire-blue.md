@@ -1,5 +1,5 @@
 ---
-tags: [card, drowning-dire, drowning, dire, runeblade, action, attack, dominate, pitch-3, cost-2]
+tags: [card, drowning-dire, drowning, dire, runeblade, action, attack, dominate, pitch-3, cost-2, evr112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GhDWNg68bbPjPMPcGfK7Q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: GhDWNg68bbPjPMPcGfK7Q
 sets: [EVR]
+codes: [EVR112]
 ---
 
 **Drowning Dire (blue)** — Runeblade Action - Attack · cost 2 · 3 power · 3 defense

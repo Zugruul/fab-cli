@@ -1,5 +1,5 @@
 ---
-tags: [card, verdance-thorn-of-the-rose, verdance, thorn, rose, wizard, elemental, hero, adult, essence-of-earth]
+tags: [card, verdance-thorn-of-the-rose, verdance, thorn, rose, wizard, elemental, hero, adult, essence-of-earth, her121, ros013, win038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJMCMFqcQfRJmK96kc8qM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth]
 unique-id: wJMCMFqcQfRJmK96kc8qM
 sets: [HER, ROS, WIN]
+codes: [HER121, ROS013, WIN038]
 ---
 
 **Verdance, Thorn of the Rose** — Elemental Wizard Hero · 40 health · 4 int

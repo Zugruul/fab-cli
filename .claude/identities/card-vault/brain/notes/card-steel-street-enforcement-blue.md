@@ -1,5 +1,5 @@
 ---
-tags: [card, steel-street-enforcement, steel, street, enforcement, mechanologist, block, evo-upgrade, pitch-3]
+tags: [card, steel-street-enforcement, steel, street, enforcement, mechanologist, block, evo-upgrade, pitch-3, evo060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RhgwRgbM8Q8WBdBMTtwQR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Evo Upgrade]
 unique-id: RhgwRgbM8Q8WBdBMTtwQR
 sets: [EVO]
+codes: [EVO060]
 ---
 
 **Steel Street Enforcement (blue)** — Mechanologist Block · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlet-of-sword-and-sorcery, gauntlet, sword, sorcery, runeblade, equipment, arms, arcane-barrier-1]
+tags: [card, gauntlet-of-sword-and-sorcery, gauntlet, sword, sorcery, runeblade, equipment, arms, arcane-barrier-1, omn086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rjwJT7bmgDjKNjwgm7bKF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1]
 unique-id: rjwJT7bmgDjKNjwgm7bKF
 sets: [OMN]
+codes: [OMN086]
 ---
 
 **Gauntlet of Sword and Sorcery** — Runeblade Equipment - Arms · 0 defense

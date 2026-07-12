@@ -1,5 +1,5 @@
 ---
-tags: [card, the-moat-exchange, moat, exchange, event]
+tags: [card, the-moat-exchange, moat, exchange, event, smp031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qhgBBWfkQcrgzKMTqQ7RC) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "The Moat Exchange"
 types: [Event]
 unique-id: qhgBBWfkQcrgzKMTqQ7RC
 sets: [SMP]
+codes: [SMP031]
 ---
 
 **The Moat Exchange** — Event

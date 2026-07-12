@@ -1,5 +1,5 @@
 ---
-tags: [card, walk-in-my-shoes, walk, my, shoes, guardian, action, attack, reviled, crush, pitch-2, cost-0]
+tags: [card, walk-in-my-shoes, walk, my, shoes, guardian, action, attack, reviled, crush, pitch-2, cost-0, pen298, sly022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zHQcgpbCGjrKCBFg6CmTw) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ other-types: [Reviled]
 keywords: [Crush]
 unique-id: zHQcgpbCGjrKCBFg6CmTw
 sets: [PEN, SLY]
+codes: [PEN298, SLY022]
 ---
 
 **Walk in My Shoes (yellow)** — Reviled Guardian Action - Attack · cost 0 · 3 power · 3 defense

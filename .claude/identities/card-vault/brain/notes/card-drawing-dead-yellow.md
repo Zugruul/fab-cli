@@ -1,5 +1,5 @@
 ---
-tags: [card, drawing-dead, drawing, dead, warrior, attack-reaction, wager, pitch-2, cost-0]
+tags: [card, drawing-dead, drawing, dead, warrior, attack-reaction, wager, pitch-2, cost-0, fab486, mpw044]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P9zCBnmGGJLqgH79R89Br) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Wager]
 unique-id: P9zCBnmGGJLqgH79R89Br
 sets: [FAB, MPW]
+codes: [FAB486, MPW044]
 ---
 
 **Drawing Dead (yellow)** — Warrior Attack Reaction · cost 0 · 3 defense

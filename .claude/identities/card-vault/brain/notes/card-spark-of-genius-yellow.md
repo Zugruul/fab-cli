@@ -1,5 +1,5 @@
 ---
-tags: [card, spark-of-genius, spark, genius, mechanologist, action, dash-specialization, pitch-2]
+tags: [card, spark-of-genius, spark, genius, mechanologist, action, dash-specialization, pitch-2, 1hp191, arc009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tqpr9PgWLMcrmggBmfL9B) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Dash Specialization]
 unique-id: tqpr9PgWLMcrmggBmfL9B
 sets: [1HP, ARC]
+codes: [1HP191, ARC009]
 ---
 
 **Spark of Genius (yellow)** — Mechanologist Action · cost XX · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, dual-threat, dual, threat, generic, action, go-again, pitch-2, cost-0]
+tags: [card, dual-threat, dual, threat, generic, action, go-again, pitch-2, cost-0, hnt223]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FnPjLR9FPNJzBcJpCf8mQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: FnPjLR9FPNJzBcJpCf8mQ
 sets: [HNT]
+codes: [HNT223]
 ---
 
 **Dual Threat (yellow)** — Generic Action · cost 0 · 3 defense

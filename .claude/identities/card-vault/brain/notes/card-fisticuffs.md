@@ -1,5 +1,5 @@
 ---
-tags: [card, fisticuffs, generic, equipment, arms]
+tags: [card, fisticuffs, generic, equipment, arms, ben005, kat005, out181, uzu005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FwDRt9TR7CCJd9NnNBmfP) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: FwDRt9TR7CCJd9NnNBmfP
 sets: [BEN, KAT, OUT, UZU]
+codes: [BEN005, KAT005, OUT181, UZU005]
 ---
 
 **Fisticuffs** — Generic Equipment - Arms

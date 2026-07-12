@@ -1,5 +1,5 @@
 ---
-tags: [card, big-blue-sky, big, blue, sky, mystic, defense-reaction, pitch-3, cost-0]
+tags: [card, big-blue-sky, big, blue, sky, mystic, defense-reaction, pitch-3, cost-0, eng015, fab238, mst086, sen028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9GHTwjj8W9dWDtc9zbfmc) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Mystic]
 types: [Defense Reaction]
 unique-id: 9GHTwjj8W9dWDtc9zbfmc
 sets: [ENG, FAB, MST, SEN]
+codes: [ENG015, FAB238, MST086, SEN028]
 ---
 
 **Big Blue Sky (blue)** — Mystic Defense Reaction · cost 0 · 2 defense

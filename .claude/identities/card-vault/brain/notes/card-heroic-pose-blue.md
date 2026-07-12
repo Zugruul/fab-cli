@@ -1,5 +1,5 @@
 ---
-tags: [card, heroic-pose, heroic, pose, action, revered, go-again, the-crowd-cheers, pitch-3, cost-1]
+tags: [card, heroic-pose, heroic, pose, action, revered, go-again, the-crowd-cheers, pitch-3, cost-1, sup059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KMChcRLgKq8tLHQwffNpP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Revered]
 keywords: [Go again, The Crowd Cheers]
 unique-id: KMChcRLgKq8tLHQwffNpP
 sets: [SUP]
+codes: [SUP059]
 ---
 
 **Heroic Pose (blue)** — Revered Action · cost 1 · 2 defense

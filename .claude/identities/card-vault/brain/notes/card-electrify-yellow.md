@@ -1,5 +1,5 @@
 ---
-tags: [card, electrify, lightning, action, go-again, pitch-2, cost-1]
+tags: [card, electrify, lightning, action, go-again, pitch-2, cost-1, bri030, ele199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LqMR9rC9RfztPzqRkhDgB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LqMR9rC9RfztPzqRkhDgB
 sets: [BRI, ELE]
+codes: [BRI030, ELE199]
 ---
 
 **Electrify (yellow)** — Lightning Action · cost 1 · 2 defense

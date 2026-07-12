@@ -1,5 +1,5 @@
 ---
-tags: [card, pierce-reality, pierce, reality, illusionist, action, aura, spectra, pitch-3, cost-0]
+tags: [card, pierce-reality, pierce, reality, illusionist, action, aura, spectra, pitch-3, cost-0, apr026, azs024, evr143, lgs095]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCBQJK7dFkKt66K98gkPk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra]
 unique-id: KCBQJK7dFkKt66K98gkPk
 sets: [APR, AZS, EVR, LGS]
+codes: [APR026, AZS024, EVR143, LGS095]
 ---
 
 **Pierce Reality (blue)** — Illusionist Action - Aura · cost 0 · 2 defense

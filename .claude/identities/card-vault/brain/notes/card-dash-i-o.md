@@ -1,5 +1,5 @@
 ---
-tags: [card, dash-i-o, dash, mechanologist, hero, adult]
+tags: [card, dash-i-o, dash, mechanologist, hero, adult, aio001, evo001, gem141, her089, her094, her156, win025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LkqQpr7QL8KpnqMh7dHpR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Mechanologist]
 types: [Hero]
 unique-id: LkqQpr7QL8KpnqMh7dHpR
 sets: [AIO, EVO, GEM, HER, WIN]
+codes: [AIO001, EVO001, GEM141, HER089, HER094, HER156, WIN025]
 ---
 
 **Dash I/O** — Mechanologist Hero · 36 health · 4 int

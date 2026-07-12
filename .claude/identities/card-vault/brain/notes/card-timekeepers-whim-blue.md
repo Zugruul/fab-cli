@@ -1,5 +1,5 @@
 ---
-tags: [card, timekeepers-whim, timekeepers, whim, wizard, action, pitch-3, cost-3]
+tags: [card, timekeepers-whim, timekeepers, whim, wizard, action, pitch-3, cost-3, evr136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dmQ8Fr7wDgKwfw6BLpdzH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: dmQ8Fr7wDgKwfw6BLpdzH
 sets: [EVR]
+codes: [EVR136]
 ---
 
 **Timekeeper's Whim (blue)** — Wizard Action · cost 3 · 3 defense

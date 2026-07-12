@@ -1,5 +1,5 @@
 ---
-tags: [card, bios-update, bios, update, mechanologist, action, go-again, pitch-1, cost-0]
+tags: [card, bios-update, bios, update, mechanologist, action, go-again, pitch-1, cost-0, dyn091]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nnHDmPJLGkjdkwkTRPjRg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nnHDmPJLGkjdkwkTRPjRg
 sets: [DYN]
+codes: [DYN091]
 ---
 
 **Bios Update (red)** — Mechanologist Action · cost 0 · 3 defense

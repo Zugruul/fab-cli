@@ -1,5 +1,5 @@
 ---
-tags: [card, cutting-couriers, cutting, couriers, warrior, equipment, legs, go-again]
+tags: [card, cutting-couriers, cutting, couriers, warrior, equipment, legs, go-again, ddd006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rfTDjNMz8cqGFTkBQPmHQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Go again]
 unique-id: rfTDjNMz8cqGFTkBQPmHQ
 sets: [DDD]
+codes: [DDD006]
 ---
 
 **Cutting Couriers** — Warrior Equipment - Legs · 0 defense

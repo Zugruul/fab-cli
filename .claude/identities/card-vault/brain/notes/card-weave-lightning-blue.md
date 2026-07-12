@@ -1,5 +1,5 @@
 ---
-tags: [card, weave-lightning, weave, lightning, action, go-again, pitch-3, cost-0]
+tags: [card, weave-lightning, weave, lightning, action, go-again, pitch-3, cost-0, ele182, lgs077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bc9QPMHJ7dP6c8mtrhjrQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Bc9QPMHJ7dP6c8mtrhjrQ
 sets: [ELE, LGS]
+codes: [ELE182, LGS077]
 ---
 
 **Weave Lightning (blue)** — Lightning Action · cost 0 · 2 defense

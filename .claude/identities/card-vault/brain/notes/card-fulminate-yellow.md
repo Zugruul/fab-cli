@@ -1,5 +1,5 @@
 ---
-tags: [card, fulminate, elemental, action, earth-and-or-lightning-fusion, go-again, pitch-2, cost-2]
+tags: [card, fulminate, elemental, action, earth-and-or-lightning-fusion, go-again, pitch-2, cost-2, ele091]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8RMfQqNQGhPfD6WrdPzHG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Earth and/or Lightning Fusion, Go again]
 unique-id: 8RMfQqNQGhPfD6WrdPzHG
 sets: [ELE]
+codes: [ELE091]
 ---
 
 **Fulminate (yellow)** — Elemental Action · cost 2 · 2 defense

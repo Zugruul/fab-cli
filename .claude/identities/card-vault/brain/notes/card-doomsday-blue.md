@@ -1,5 +1,5 @@
 ---
-tags: [card, doomsday, shadow, instant, legendary, levia-specialization, pitch-3, cost-0]
+tags: [card, doomsday, shadow, instant, legendary, levia-specialization, pitch-3, cost-0, mon189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w7HdMtLpHDBRNJcKHWHpc) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Levia Specialization]
 unique-id: w7HdMtLpHDBRNJcKHWHpc
 sets: [MON]
+codes: [MON189]
 ---
 
 **Doomsday (blue)** — Shadow Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, metacarpus-node, metacarpus, node, wizard, equipment, arms, arcane-barrier-1]
+tags: [card, metacarpus-node, metacarpus, node, wizard, equipment, arms, arcane-barrier-1, 1hp307, cru161, fab108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RDTDDzfpjwLc9QrLWhqtB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1]
 unique-id: RDTDDzfpjwLc9QrLWhqtB
 sets: [1HP, CRU, FAB]
+codes: [1HP307, CRU161, FAB108]
 ---
 
 **Metacarpus Node** — Wizard Equipment - Arms · 0 defense

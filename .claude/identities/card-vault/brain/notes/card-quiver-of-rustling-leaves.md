@@ -1,5 +1,5 @@
 ---
-tags: [card, quiver-of-rustling-leaves, quiver, rustling, leaves, ranger, equipment]
+tags: [card, quiver-of-rustling-leaves, quiver, rustling, leaves, ranger, equipment, out096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Pc9dDNQmwKnmDbgf6jrLH) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Quiver]
 unique-id: Pc9dDNQmwKnmDbgf6jrLH
 sets: [OUT]
+codes: [OUT096]
 ---
 
 **Quiver of Rustling Leaves** — Ranger Equipment - Quiver

@@ -1,5 +1,5 @@
 ---
-tags: [card, sacred-art-undercurrent-desires, sacred, art, undercurrent, desires, assassin, mystic, instant, legendary, transcend, pitch-3, cost-3]
+tags: [card, sacred-art-undercurrent-desires, sacred, art, undercurrent, desires, assassin, mystic, instant, legendary, transcend, pitch-3, cost-3, fab232, mst010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c8CdW9QBrMJPh6nwJGJ6Q) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: c8CdW9QBrMJPh6nwJGJ6Q
 sets: [FAB, MST]
+codes: [FAB232, MST010]
 ---
 
 **Sacred Art: Undercurrent Desires (blue)** — Mystic Assassin Instant · cost 3

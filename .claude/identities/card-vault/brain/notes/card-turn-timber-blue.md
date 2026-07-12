@@ -1,5 +1,5 @@
 ---
-tags: [card, turn-timber, turn, timber, guardian, elemental, defense-reaction, earth-fusion, pitch-3, cost-2]
+tags: [card, turn-timber, turn, timber, guardian, elemental, defense-reaction, earth-fusion, pitch-3, cost-2, ele012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jR6rqDqWjjg79LTCFHMNQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Defense Reaction]
 keywords: [Earth Fusion]
 unique-id: jR6rqDqWjjg79LTCFHMNQ
 sets: [ELE]
+codes: [ELE012]
 ---
 
 **Turn Timber (blue)** — Elemental Guardian Defense Reaction · cost 2 · 4 defense

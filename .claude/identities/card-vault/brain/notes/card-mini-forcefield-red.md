@@ -1,5 +1,5 @@
 ---
-tags: [card, mini-forcefield, mini, forcefield, mechanologist, action, item, crank, ward-x, pitch-1, cost-1]
+tags: [card, mini-forcefield, mini, forcefield, mechanologist, action, item, crank, ward-x, pitch-1, cost-1, evo093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JcKjfFNMNnBQDB8NWhm9C) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank, Ward X]
 unique-id: JcKjfFNMNnBQDB8NWhm9C
 sets: [EVO]
+codes: [EVO093]
 ---
 
 **Mini Forcefield (red)** — Mechanologist Action - Item · cost 1

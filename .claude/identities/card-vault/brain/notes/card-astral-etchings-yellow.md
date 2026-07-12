@@ -1,5 +1,5 @@
 ---
-tags: [card, astral-etchings, astral, etchings, illusionist, action, pitch-2, cost-1]
+tags: [card, astral-etchings, astral, etchings, illusionist, action, pitch-2, cost-1, mst135]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cmknRBBPtjNQzhkQPWpcJ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Illusionist]
 types: [Action]
 unique-id: cmknRBBPtjNQzhkQPWpcJ
 sets: [MST]
+codes: [MST135]
 ---
 
 **Astral Etchings (yellow)** — Illusionist Action · cost 1 · 3 defense

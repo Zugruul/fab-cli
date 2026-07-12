@@ -1,5 +1,5 @@
 ---
-tags: [card, echoflash, wizard, lightning, instant, pitch-2, cost-1]
+tags: [card, echoflash, wizard, lightning, instant, pitch-2, cost-1, omn099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wzqz9DGw687RGfqhgBPBm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: wzqz9DGw687RGfqhgBPBm
 sets: [OMN]
+codes: [OMN099]
 ---
 
 **Echoflash (yellow)** — Lightning Wizard Instant · cost 1

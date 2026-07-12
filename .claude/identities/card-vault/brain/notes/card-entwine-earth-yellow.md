@@ -1,5 +1,5 @@
 ---
-tags: [card, entwine-earth, entwine, earth, elemental, action, attack, earth-fusion, pitch-2, cost-2]
+tags: [card, entwine-earth, entwine, earth, elemental, action, attack, earth-fusion, pitch-2, cost-2, ele095]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMfcGGztRCRgfDdhgKmQc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: WMfcGGztRCRgfDdhgKmQc
 sets: [ELE]
+codes: [ELE095]
 ---
 
 **Entwine Earth (yellow)** — Elemental Action - Attack · cost 2 · 5 power · 2 defense

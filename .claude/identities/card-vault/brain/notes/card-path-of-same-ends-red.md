@@ -1,5 +1,5 @@
 ---
-tags: [card, path-of-same-ends, path, same, ends, runeblade, lightning, action, attack, go-again, pitch-1, cost-0]
+tags: [card, path-of-same-ends, path, same, ends, runeblade, lightning, action, attack, go-again, pitch-1, cost-0, gem155, omn065, sba016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LBFrKWRLJkKBgLc9nKmBb) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: LBFrKWRLJkKBgLc9nKmBb
 sets: [GEM, OMN, SBA]
+codes: [GEM155, OMN065, SBA016]
 ---
 
 **Path of Same Ends (red)** — Lightning Runeblade Action - Attack · cost 0 · 3 power · 2 defense

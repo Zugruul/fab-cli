@@ -1,5 +1,5 @@
 ---
-tags: [card, proto-base-arms, proto, base, arms, mechanologist, equipment]
+tags: [card, proto-base-arms, proto, base, arms, mechanologist, equipment, evo024, lgs184, tcc005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kWMK7khntdgCmPBhqmkJ9) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Base, Arms]
 unique-id: kWMK7khntdgCmPBhqmkJ9
 sets: [EVO, LGS, TCC]
+codes: [EVO024, LGS184, TCC005]
 ---
 
 **Proto Base Arms** — Mechanologist Equipment - Base Arms

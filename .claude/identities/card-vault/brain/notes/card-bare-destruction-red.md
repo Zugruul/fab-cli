@@ -1,5 +1,5 @@
 ---
-tags: [card, bare-destruction, bare, destruction, brute, action, attack, beat-chest, go-again, pitch-1, cost-2]
+tags: [card, bare-destruction, bare, destruction, brute, action, attack, beat-chest, go-again, pitch-1, cost-2, arr008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWcTdDfFHrQjKz8dLqfTp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Beat Chest, Go again]
 unique-id: CWcTdDfFHrQjKz8dLqfTp
 sets: [ARR]
+codes: [ARR008]
 ---
 
 **Bare Destruction (red)** — Brute Action - Attack · cost 2 · 6 power · 3 defense

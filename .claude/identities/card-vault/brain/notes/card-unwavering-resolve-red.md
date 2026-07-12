@@ -1,5 +1,5 @@
 ---
-tags: [card, unwavering-resolve, unwavering, resolve, generic, action, attack, go-again, pitch-1, cost-3]
+tags: [card, unwavering-resolve, unwavering, resolve, generic, action, attack, go-again, pitch-1, cost-3, sup218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9tDcwRQnBbDwBW7LdTgGc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 9tDcwRQnBbDwBW7LdTgGc
 sets: [SUP]
+codes: [SUP218]
 ---
 
 **Unwavering Resolve (red)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

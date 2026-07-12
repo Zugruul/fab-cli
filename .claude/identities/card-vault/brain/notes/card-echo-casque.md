@@ -1,5 +1,5 @@
 ---
-tags: [card, echo-casque, echo, casque, brute, equipment, head, battleworn]
+tags: [card, echo-casque, echo, casque, brute, equipment, head, battleworn, arr003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P8KtKdKjn8HN6rLmckJkP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: P8KtKdKjn8HN6rLmckJkP
 sets: [ARR]
+codes: [ARR003]
 ---
 
 **Echo Casque** — Brute Equipment - Head · 1 defense

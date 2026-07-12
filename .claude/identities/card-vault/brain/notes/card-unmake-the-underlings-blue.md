@@ -1,5 +1,5 @@
 ---
-tags: [card, unmake-the-underlings, unmake, underlings, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, unmake-the-underlings, unmake, underlings, assassin, action, attack, stealth, pitch-3, cost-0, omn228]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTd7wkMzdRch6J8zqtKGR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: KTd7wkMzdRch6J8zqtKGR
 sets: [OMN]
+codes: [OMN228]
 ---
 
 **Unmake the Underlings (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sit, guardian, block, pitch-1]
+tags: [card, sit, guardian, block, pitch-1, sup210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QFPqG8Wtc6WdDKhn7fzBk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Block]
 unique-id: QFPqG8Wtc6WdDKhn7fzBk
 sets: [SUP]
+codes: [SUP210]
 ---
 
 **Sit! (red)** — Guardian Block · 2 defense

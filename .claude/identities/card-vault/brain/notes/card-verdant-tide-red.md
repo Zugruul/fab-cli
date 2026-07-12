@@ -1,5 +1,5 @@
 ---
-tags: [card, verdant-tide, verdant, tide, runeblade, elemental, action, earth-bond, go-again, pitch-1, cost-1]
+tags: [card, verdant-tide, verdant, tide, runeblade, elemental, action, earth-bond, go-again, pitch-1, cost-1, pen203]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QpMtrnpTR8gr7KQGDn6Jk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Earth Bond, Go again]
 unique-id: QpMtrnpTR8gr7KQGDn6Jk
 sets: [PEN]
+codes: [PEN203]
 ---
 
 **Verdant Tide (red)** — Elemental Runeblade Action · cost 1 · 2 defense

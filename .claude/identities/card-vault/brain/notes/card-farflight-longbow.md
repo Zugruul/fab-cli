@@ -1,5 +1,5 @@
 ---
-tags: [card, farflight-longbow, farflight, longbow, ranger, weapon, bow, 2h]
+tags: [card, farflight-longbow, farflight, longbow, ranger, weapon, bow, 2h, gem109, pen078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pLKmGWGTTQdcHmhckhcNh) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Bow, 2H]
 unique-id: pLKmGWGTTQdcHmhckhcNh
 sets: [GEM, PEN]
+codes: [GEM109, PEN078]
 ---
 
 **Farflight Longbow** — Ranger Weapon - Bow (2H)

@@ -1,5 +1,5 @@
 ---
-tags: [card, tectonic-instability, tectonic, instability, guardian, action, go-again, pitch-3, cost-0]
+tags: [card, tectonic-instability, tectonic, instability, guardian, action, go-again, pitch-3, cost-0, mpg046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JFDFLn6NdmhgRFdTDg9Nz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: JFDFLn6NdmhgRFdTDg9Nz
 sets: [MPG]
+codes: [MPG046]
 ---
 
 **Tectonic Instability (blue)** — Guardian Action · cost 0 · 3 defense

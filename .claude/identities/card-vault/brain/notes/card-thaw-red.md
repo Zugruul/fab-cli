@@ -1,5 +1,5 @@
 ---
-tags: [card, thaw, draconic, action, attack, unfreeze, pitch-1, cost-2]
+tags: [card, thaw, draconic, action, attack, unfreeze, pitch-1, cost-2, upr086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJCRQcRmp7mhMTNDRgFN8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Unfreeze]
 unique-id: dJCRQcRmp7mhMTNDRgFN8
 sets: [UPR]
+codes: [UPR086]
 ---
 
 **Thaw (red)** — Draconic Action - Attack · cost 2 · 6 power · 2 defense

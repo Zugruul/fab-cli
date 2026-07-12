@@ -1,5 +1,5 @@
 ---
-tags: [card, burn-away, burn, away, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, burn-away, burn, away, draconic, action, attack, go-again, pitch-1, cost-0, upr094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kDgcBghDT7wRQwQWmpWRb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: kDgcBghDT7wRQwQWmpWRb
 sets: [UPR]
+codes: [UPR094]
 ---
 
 **Burn Away (red)** — Draconic Action - Attack · cost 0 · 2 power · 3 defense

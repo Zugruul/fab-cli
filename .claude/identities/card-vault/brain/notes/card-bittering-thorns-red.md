@@ -1,5 +1,5 @@
 ---
-tags: [card, bittering-thorns, bittering, thorns, ninja, action, attack, go-again, pitch-1, cost-1]
+tags: [card, bittering-thorns, bittering, thorns, ninja, action, attack, go-again, pitch-1, cost-1, asr007, lgs445, tcc083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dLdBfMKhPbj8qppT6LgdL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dLdBfMKhPbj8qppT6LgdL
 sets: [ASR, LGS, TCC]
+codes: [ASR007, LGS445, TCC083]
 ---
 
 **Bittering Thorns (red)** — Ninja Action - Attack · cost 1 · 4 power · 2 defense

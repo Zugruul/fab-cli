@@ -1,5 +1,5 @@
 ---
-tags: [card, iyslander-stormbind, iyslander, stormbind, wizard, elemental, hero, adult, essence-of-ice]
+tags: [card, iyslander-stormbind, iyslander, stormbind, wizard, elemental, hero, adult, essence-of-ice, her060, her067, upr102, win019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8KRCDf6drqhFMKK7hJhbM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Ice]
 unique-id: 8KRCDf6drqhFMKK7hJhbM
 sets: [HER, UPR, WIN]
+codes: [HER060, HER067, UPR102, WIN019]
 ---
 
 **Iyslander, Stormbind** — Elemental Wizard Hero · 36 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, dust-from-the-red-desert, dust, red, desert, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0]
+tags: [card, dust-from-the-red-desert, dust, red, desert, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0, dyn003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gq8F9nHbQ6N8rrPzdhJzn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ash]
 keywords: [Material, Phantasm]
 unique-id: Gq8F9nHbQ6N8rrPzdhJzn
 sets: [DYN]
+codes: [DYN003]
 ---
 
 **Dust from the Red Desert (red)** — Draconic Illusionist Action - Ash · cost 0 · 3 defense

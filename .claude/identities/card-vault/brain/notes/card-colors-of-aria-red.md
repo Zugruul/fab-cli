@@ -1,5 +1,5 @@
 ---
-tags: [card, colors-of-aria, colors, aria, elemental, action, attack, pitch-1, cost-3]
+tags: [card, colors-of-aria, colors, aria, elemental, action, attack, pitch-1, cost-3, fab426, pen206]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQkQQG8z8z8kQLNm8PHDM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: CQkQQG8z8z8kQLNm8PHDM
 sets: [FAB, PEN]
+codes: [FAB426, PEN206]
 ---
 
 **Colors of Aria (red)** — Elemental Action - Attack · cost 3 · 7 power · 3 defense

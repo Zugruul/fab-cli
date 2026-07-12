@@ -1,5 +1,5 @@
 ---
-tags: [card, judge-jury-executioner, judge, jury, executioner, ranger, action, arrow, attack, legendary, azalea-specialization, pitch-1, cost-1]
+tags: [card, judge-jury-executioner, judge, jury, executioner, ranger, action, arrow, attack, legendary, azalea-specialization, pitch-1, cost-1, hvy249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9N8LLTrcrbm9pk7HnPqN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Legendary, Azalea Specialization]
 unique-id: D9N8LLTrcrbm9pk7HnPqN
 sets: [HVY]
+codes: [HVY249]
 ---
 
 **Judge, Jury, Executioner (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

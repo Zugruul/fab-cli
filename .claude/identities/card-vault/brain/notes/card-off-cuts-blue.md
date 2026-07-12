@@ -1,5 +1,5 @@
 ---
-tags: [card, off-cuts, off, cuts, necromancer, action, frankie-specialization, go-again, pitch-3, cost-3]
+tags: [card, off-cuts, off, cuts, necromancer, action, frankie-specialization, go-again, pitch-3, cost-3, lss022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HrhpmTCdRFLw9HnqcqCrT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ keywords: [Frankie Specialization, Go again]
 traits: [Frankie Specialization, Go again]
 unique-id: HrhpmTCdRFLw9HnqcqCrT
 sets: [LSS]
+codes: [LSS022]
 ---
 
 **Off Cuts (blue)** — Necromancer Action · cost 3 · 3 defense

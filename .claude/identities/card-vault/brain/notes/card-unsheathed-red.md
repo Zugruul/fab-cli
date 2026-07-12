@@ -1,5 +1,5 @@
 ---
-tags: [card, unsheathed, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, unsheathed, warrior, action, go-again, pitch-1, cost-0, ros248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bjpwqRpN6hpdB9gMLWbmW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bjpwqRpN6hpdB9gMLWbmW
 sets: [ROS]
+codes: [ROS248]
 ---
 
 **Unsheathed (red)** — Warrior Action · cost 0 · 3 defense

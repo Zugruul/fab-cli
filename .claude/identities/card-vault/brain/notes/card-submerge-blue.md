@@ -1,5 +1,5 @@
 ---
-tags: [card, submerge, pirate, action, attack, pitch-3, cost-0]
+tags: [card, submerge, pirate, action, attack, pitch-3, cost-0, pen176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TwwCRKdKRK7BLDfNWdL7w) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: TwwCRKdKRK7BLDfNWdL7w
 sets: [PEN]
+codes: [PEN176]
 ---
 
 **Submerge (blue)** — Pirate Action - Attack · cost 0 · 4 power · 3 defense

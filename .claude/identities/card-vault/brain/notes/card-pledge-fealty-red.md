@@ -1,5 +1,5 @@
 ---
-tags: [card, pledge-fealty, pledge, fealty, draconic, instant, pitch-1, cost-0]
+tags: [card, pledge-fealty, pledge, fealty, draconic, instant, pitch-1, cost-0, fng020, hnt164, lgs385]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LQDwqpNddrmqQQb8J9dht) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Instant]
 unique-id: LQDwqpNddrmqQQb8J9dht
 sets: [FNG, HNT, LGS]
+codes: [FNG020, HNT164, LGS385]
 ---
 
 **Pledge Fealty (red)** — Draconic Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, painful-premonition, painful, premonition, wizard, action, pitch-3, cost-0]
+tags: [card, painful-premonition, painful, premonition, wizard, action, pitch-3, cost-0, pen116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W9kDJQqdh6k8CGr9gctd6) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: W9kDJQqdh6k8CGr9gctd6
 sets: [PEN]
+codes: [PEN116]
 ---
 
 **Painful Premonition (blue)** — Wizard Action · cost 0 · 3 defense

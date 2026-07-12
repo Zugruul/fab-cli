@@ -1,5 +1,5 @@
 ---
-tags: [card, teklo-foundry-heart, teklo, foundry, heart, mechanologist, equipment, chest, battleworn]
+tags: [card, teklo-foundry-heart, teklo, foundry, heart, mechanologist, equipment, chest, battleworn, 1hp185, arc004, evo012, fab008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tBqFrtGcBNQt7GnMFTPPB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: tBqFrtGcBNQt7GnMFTPPB
 sets: [1HP, ARC, EVO, FAB]
+codes: [1HP185, ARC004, EVO012, FAB008]
 ---
 
 **Teklo Foundry Heart** — Mechanologist Equipment - Chest · 2 defense

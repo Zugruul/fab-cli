@@ -1,5 +1,5 @@
 ---
-tags: [card, hatchet-of-mind, hatchet, mind, warrior, weapon, axe, 1h]
+tags: [card, hatchet-of-mind, hatchet, mind, warrior, weapon, axe, 1h, bol004, lgs050, mon106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TCDKdFdzFT6nJnBBRbCLL) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Axe, 1H]
 unique-id: TCDKdFdzFT6nJnBBRbCLL
 sets: [BOL, LGS, MON]
+codes: [BOL004, LGS050, MON106]
 ---
 
 **Hatchet of Mind** — Warrior Weapon - Axe (1H) · 2 power

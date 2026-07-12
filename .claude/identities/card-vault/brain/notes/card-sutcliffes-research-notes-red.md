@@ -1,5 +1,5 @@
 ---
-tags: [card, sutcliffes-research-notes, sutcliffes, research, notes, runeblade, action, go-again, pitch-1, cost-1]
+tags: [card, sutcliffes-research-notes, sutcliffes, research, notes, runeblade, action, go-again, pitch-1, cost-1, 1hp297, cru154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QQMpBBLgqWwtCHqdfRBkR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: QQMpBBLgqWwtCHqdfRBkR
 sets: [1HP, CRU]
+codes: [1HP297, CRU154]
 ---
 
 **Sutcliffe's Research Notes (red)** — Runeblade Action · cost 1 · 2 defense

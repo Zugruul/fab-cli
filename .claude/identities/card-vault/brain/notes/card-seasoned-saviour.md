@@ -1,5 +1,5 @@
 ---
-tags: [card, seasoned-saviour, seasoned, saviour, guardian, equipment, off-hand, battleworn]
+tags: [card, seasoned-saviour, seasoned, saviour, guardian, equipment, off-hand, battleworn, dyn026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MmJd7JwGC8rjPmLNLPCCW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Battleworn]
 unique-id: MmJd7JwGC8rjPmLNLPCCW
 sets: [DYN]
+codes: [DYN026]
 ---
 
 **Seasoned Saviour** — Guardian Equipment - Off-Hand · 3 defense

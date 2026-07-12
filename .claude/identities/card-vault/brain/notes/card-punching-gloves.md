@@ -1,5 +1,5 @@
 ---
-tags: [card, punching-gloves, punching, gloves, generic, equipment, arms]
+tags: [card, punching-gloves, punching, gloves, generic, equipment, arms, lgs416, sup213]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BJrdzPnKR6zFhPhpWkLqr) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: BJrdzPnKR6zFhPhpWkLqr
 sets: [LGS, SUP]
+codes: [LGS416, SUP213]
 ---
 
 **Punching Gloves** — Generic Equipment - Arms · 0 defense

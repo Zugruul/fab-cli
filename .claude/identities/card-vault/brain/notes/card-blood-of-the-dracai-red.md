@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-of-the-dracai, blood, dracai, draconic, resource, gem, legendary, pitch-1]
+tags: [card, blood-of-the-dracai, blood, dracai, draconic, resource, gem, legendary, pitch-1, upr000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nqFNHFqP79nMk7TKM9r8T) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: nqFNHFqP79nMk7TKM9r8T
 sets: [UPR]
+codes: [UPR000]
 ---
 
 **Blood of the Dracai (red)** — Draconic Resource - Gem

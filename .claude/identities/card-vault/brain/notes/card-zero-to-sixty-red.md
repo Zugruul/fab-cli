@@ -1,5 +1,5 @@
 ---
-tags: [card, zero-to-sixty, zero, sixty, mechanologist, action, attack, boost, pitch-1, cost-0]
+tags: [card, zero-to-sixty, zero, sixty, mechanologist, action, attack, boost, pitch-1, cost-0, 1hp211, aio012, amx016, arc026, fab177, sda020, tcc017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FgPpQpjMRLqL88FKhFPq6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: FgPpQpjMRLqL88FKhFPq6
 sets: [1HP, AIO, AMX, ARC, FAB, SDA, TCC]
+codes: [1HP211, AIO012, AMX016, ARC026, FAB177, SDA020, TCC017]
 ---
 
 **Zero to Sixty (red)** — Mechanologist Action - Attack · cost 0 · 4 power · 3 defense

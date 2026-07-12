@@ -1,5 +1,5 @@
 ---
-tags: [card, zero-to-fifty, zero, fifty, mechanologist, action, attack, boost, pitch-2, cost-0]
+tags: [card, zero-to-fifty, zero, fifty, mechanologist, action, attack, boost, pitch-2, cost-0, evo163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q7QqrKP8wnWdwdptDwHfP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: q7QqrKP8wnWdwdptDwHfP
 sets: [EVO]
+codes: [EVO163]
 ---
 
 **Zero to Fifty (yellow)** — Mechanologist Action - Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, autumns-touch, autumns, touch, earth, action, attack, pitch-2, cost-3]
+tags: [card, autumns-touch, autumns, touch, earth, action, attack, pitch-2, cost-3, bri022, ele129, ros047, ter013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pKdGGghdpnBCzrjwPmkPg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: pKdGGghdpnBCzrjwPmkPg
 sets: [BRI, ELE, ROS, TER]
+codes: [BRI022, ELE129, ROS047, TER013]
 ---
 
 **Autumn's Touch (yellow)** — Earth Action - Attack · cost 3 · 6 power · 3 defense

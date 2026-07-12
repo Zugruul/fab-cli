@@ -1,5 +1,5 @@
 ---
-tags: [card, searing-emberblade, searing, emberblade, ninja, draconic, weapon, sword, 2h]
+tags: [card, searing-emberblade, searing, emberblade, ninja, draconic, weapon, sword, 2h, fab147, fai002, lgs105, sfa002, upr046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jqRDtJRT9rF7rwC6pdfJD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: jqRDtJRT9rF7rwC6pdfJD
 sets: [FAB, FAI, LGS, SFA, UPR]
+codes: [FAB147, FAI002, LGS105, SFA002, UPR046]
 ---
 
 **Searing Emberblade** — Draconic Ninja Weapon - Sword (2H) · 3 power

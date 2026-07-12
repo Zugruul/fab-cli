@@ -1,5 +1,5 @@
 ---
-tags: [card, critical-strike, critical, strike, generic, action, attack, pitch-1, cost-1]
+tags: [card, critical-strike, critical, strike, generic, action, attack, pitch-1, cost-1, dro023, upr206]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QHhGzKbHqzz6fgGBhWcKR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: QHhGzKbHqzz6fgGBhWcKR
 sets: [DRO, UPR]
+codes: [DRO023, UPR206]
 ---
 
 **Critical Strike (red)** — Generic Action - Attack · cost 1 · 5 power · 3 defense

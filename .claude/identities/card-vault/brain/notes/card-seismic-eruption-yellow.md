@@ -1,5 +1,5 @@
 ---
-tags: [card, seismic-eruption, seismic, eruption, guardian, instant, pitch-2, cost-0]
+tags: [card, seismic-eruption, seismic, eruption, guardian, instant, pitch-2, cost-0, mpg024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t9g6gbzgFL9RmRQBBNrP7) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Instant]
 unique-id: t9g6gbzgFL9RmRQBBNrP7
 sets: [MPG]
+codes: [MPG024]
 ---
 
 **Seismic Eruption (yellow)** — Guardian Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, balance-of-justice, balance, justice, generic, equipment, head, guardwell]
+tags: [card, balance-of-justice, balance, justice, generic, equipment, head, guardwell, anq004, fab183, hvy195, pen309]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fFHTT7tCd9NDBqn9qCgh6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Guardwell]
 unique-id: fFHTT7tCd9NDBqn9qCgh6
 sets: [ANQ, FAB, HVY, PEN]
+codes: [ANQ004, FAB183, HVY195, PEN309]
 ---
 
 **Balance of Justice** — Generic Equipment - Head · 2 defense

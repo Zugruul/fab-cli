@@ -1,5 +1,5 @@
 ---
-tags: [card, summerwood-shelter, summerwood, shelter, earth, instant, pitch-3, cost-0]
+tags: [card, summerwood-shelter, summerwood, shelter, earth, instant, pitch-3, cost-0, ele127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R8JRnKHBzwRGBw8hnrJrg) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Earth]
 types: [Instant]
 unique-id: R8JRnKHBzwRGBw8hnrJrg
 sets: [ELE]
+codes: [ELE127]
 ---
 
 **Summerwood Shelter (blue)** — Earth Instant · cost 0

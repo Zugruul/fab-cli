@@ -1,5 +1,5 @@
 ---
-tags: [card, long-whisker-loyalty, long, whisker, loyalty, warrior, draconic, attack-reaction, pitch-1, cost-0]
+tags: [card, long-whisker-loyalty, long, whisker, loyalty, warrior, draconic, attack-reaction, pitch-1, cost-0, fab317, hnt102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 969HqThPzMmQtFhM9mNq8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: 969HqThPzMmQtFhM9mNq8
 sets: [FAB, HNT]
+codes: [FAB317, HNT102]
 ---
 
 **Long Whisker Loyalty (red)** — Draconic Warrior Attack Reaction · cost 0 · 3 defense

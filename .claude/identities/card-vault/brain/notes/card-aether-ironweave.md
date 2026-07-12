@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-ironweave, aether, ironweave, runeblade, equipment, chest, battleworn]
+tags: [card, aether-ironweave, aether, ironweave, runeblade, equipment, chest, battleworn, chn005, fab149, mon230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wd9TtjtPGfbWKQPprJfj9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: wd9TtjtPGfbWKQPprJfj9
 sets: [CHN, FAB, MON]
+codes: [CHN005, FAB149, MON230]
 ---
 
 **Aether Ironweave** — Runeblade Equipment - Chest · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, flic-flak, flic, flak, ninja, defense-reaction, pitch-2, cost-0]
+tags: [card, flic-flak, flic, flak, ninja, defense-reaction, pitch-2, cost-0, 1hp114, tnp023, wtr093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NWTPMPpLT7TL7qzkBLTHF) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Defense Reaction]
 unique-id: NWTPMPpLT7TL7qzkBLTHF
 sets: [1HP, TNP, WTR]
+codes: [1HP114, TNP023, WTR093]
 ---
 
 **Flic Flak (yellow)** — Ninja Defense Reaction · cost 0 · 3 defense

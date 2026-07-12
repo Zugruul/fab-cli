@@ -1,5 +1,5 @@
 ---
-tags: [card, convulsions-from-the-bellows-of-hell, convulsions, bellows, hell, brute, shadow, action, go-again, dominate, pitch-2, cost-2]
+tags: [card, convulsions-from-the-bellows-of-hell, convulsions, bellows, hell, brute, shadow, action, go-again, dominate, pitch-2, cost-2, mon133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9BbJPr8gHhRKn6GJtLn8R) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: 9BbJPr8gHhRKn6GJtLn8R
 sets: [MON]
+codes: [MON133]
 ---
 
 **Convulsions from the Bellows of Hell (yellow)** — Shadow Brute Action · cost 2 · 3 defense

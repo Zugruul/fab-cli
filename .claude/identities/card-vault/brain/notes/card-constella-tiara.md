@@ -1,5 +1,5 @@
 ---
-tags: [card, constella-tiara, constella, tiara, lightning, equipment, head]
+tags: [card, constella-tiara, constella, tiara, lightning, equipment, head, omn142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CwhpPfrRGmdGNkjR6Fg8G) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: CwhpPfrRGmdGNkjR6Fg8G
 sets: [OMN]
+codes: [OMN142]
 ---
 
 **Constella Tiara** — Lightning Equipment - Head · 0 defense

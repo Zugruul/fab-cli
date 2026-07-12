@@ -1,5 +1,5 @@
 ---
-tags: [card, light-the-way, light, way, warrior, action, attack, charge, go-again, pitch-1, cost-0]
+tags: [card, light-the-way, light, way, warrior, action, attack, charge, go-again, pitch-1, cost-0, asb011, dtd066, sbl016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJkTjzNPzkH9fc98PJdDk) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge, Go again]
 unique-id: dJkTjzNPzkH9fc98PJdDk
 sets: [ASB, DTD, SBL]
+codes: [ASB011, DTD066, SBL016]
 ---
 
 **Light the Way (red)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

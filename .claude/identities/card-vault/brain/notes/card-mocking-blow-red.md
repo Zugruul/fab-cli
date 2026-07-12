@@ -1,5 +1,5 @@
 ---
-tags: [card, mocking-blow, mocking, blow, action, attack, reviled, the-crowd-boos, pitch-1, cost-0]
+tags: [card, mocking-blow, mocking, blow, action, attack, reviled, the-crowd-boos, pitch-1, cost-0, fab381, sly011, sup090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7nLdbTgfJKmdQrmCDTcq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [The Crowd Boos]
 unique-id: m7nLdbTgfJKmdQrmCDTcq
 sets: [FAB, SLY, SUP]
+codes: [FAB381, SLY011, SUP090]
 ---
 
 **Mocking Blow (red)** — Reviled Action - Attack · cost 0 · 1 power · 3 defense

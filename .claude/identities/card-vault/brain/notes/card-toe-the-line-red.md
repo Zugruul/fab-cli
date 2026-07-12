@@ -1,5 +1,5 @@
 ---
-tags: [card, toe-the-line, toe, line, warrior, instant, pitch-1, cost-0]
+tags: [card, toe-the-line, toe, line, warrior, instant, pitch-1, cost-0, aha015, gem165, sbl022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9dQLNwfWwhJGtMhNd9KzC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Warrior]
 types: [Instant]
 unique-id: 9dQLNwfWwhJGtMhNd9KzC
 sets: [AHA, GEM, SBL]
+codes: [AHA015, GEM165, SBL022]
 ---
 
 **Toe the Line (red)** — Warrior Instant · cost 0

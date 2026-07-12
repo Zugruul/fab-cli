@@ -1,5 +1,5 @@
 ---
-tags: [card, unexpected-backhand, unexpected, backhand, brute, action, attack, pitch-3, cost-3]
+tags: [card, unexpected-backhand, unexpected, backhand, brute, action, attack, pitch-3, cost-3, ska033, sup163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cm8pHKrnCKB7NtmbjkKBd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: cm8pHKrnCKB7NtmbjkKBd
 sets: [SKA, SUP]
+codes: [SKA033, SUP163]
 ---
 
 **Unexpected Backhand (blue)** — Brute Action - Attack · cost 3 · 5 power · 3 defense

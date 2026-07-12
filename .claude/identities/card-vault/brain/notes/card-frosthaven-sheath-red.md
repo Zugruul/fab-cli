@@ -1,5 +1,5 @@
 ---
-tags: [card, frosthaven-sheath, frosthaven, sheath, elemental, defense-reaction, ice-bond, pitch-1, cost-1]
+tags: [card, frosthaven-sheath, frosthaven, sheath, elemental, defense-reaction, ice-bond, pitch-1, cost-1, fab427, pen207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bGjFwg8ztdMPhnRmdmfRn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Ice Bond]
 unique-id: bGjFwg8ztdMPhnRmdmfRn
 sets: [FAB, PEN]
+codes: [FAB427, PEN207]
 ---
 
 **Frosthaven Sheath (red)** — Elemental Defense Reaction · cost 1 · 5 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, the-old-switcheroo, old, switcheroo, action, attack, reviled, pitch-3, cost-0]
+tags: [card, the-old-switcheroo, old, switcheroo, action, attack, reviled, pitch-3, cost-0, sup087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QhRMMbB6zPRzJJk7hJQwj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: QhRMMbB6zPRzJJk7hJQwj
 sets: [SUP]
+codes: [SUP087]
 ---
 
 **The Old Switcheroo (blue)** — Reviled Action - Attack · cost 0 · 2 power · 3 defense

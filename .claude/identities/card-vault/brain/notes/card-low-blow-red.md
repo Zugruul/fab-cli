@@ -1,5 +1,5 @@
 ---
-tags: [card, low-blow, low, blow, action, attack, reviled, pitch-1, cost-1]
+tags: [card, low-blow, low, blow, action, attack, reviled, pitch-1, cost-1, gem093, sup110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mnFrMd8TfpRFw7zrQ7b8B) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: mnFrMd8TfpRFw7zrQ7b8B
 sets: [GEM, SUP]
+codes: [GEM093, SUP110]
 ---
 
 **Low Blow (red)** — Reviled Action - Attack · cost 1 · 3 power · 3 defense

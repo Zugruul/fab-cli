@@ -1,5 +1,5 @@
 ---
-tags: [card, first-tenet-of-chi-moon, first, tenet, chi, moon, mystic, action, go-again, pitch-3, cost-0]
+tags: [card, first-tenet-of-chi-moon, first, tenet, chi, moon, mystic, action, go-again, pitch-3, cost-0, eng018, lgs300, mst092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BwjpdtTFfBRTJHgKMM6rn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: BwjpdtTFfBRTJHgKMM6rn
 sets: [ENG, LGS, MST]
+codes: [ENG018, LGS300, MST092]
 ---
 
 **First Tenet of Chi: Moon (blue)** — Mystic Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-pride, runechant, pride, runeblade, instant, aura, pitch-2, cost-0]
+tags: [card, runechant-of-pride, runechant, pride, runeblade, instant, aura, pitch-2, cost-0, gem181, iar155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HqGFdH8tMH6fR8bNMkTjq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: HqGFdH8tMH6fR8bNMkTjq
 sets: [GEM, IAR]
+codes: [GEM181, IAR155]
 ---
 
 **Runechant of Pride (yellow)** — Runeblade Instant - Aura · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, copper-cog, copper, cog, mechanologist, action, item, unlimited, crank, pitch-3, cost-0]
+tags: [card, copper-cog, copper, cog, mechanologist, action, item, unlimited, crank, pitch-3, cost-0, fab351, sea021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kzBc7Bmrk7TfHNwhQK6Lj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Cog, Item]
 keywords: [Unlimited, Crank]
 unique-id: kzBc7Bmrk7TfHNwhQK6Lj
 sets: [FAB, SEA]
+codes: [FAB351, SEA021]
 ---
 
 **Copper Cog (blue)** — Mechanologist Action - Cog Item · cost 0

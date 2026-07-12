@@ -1,5 +1,5 @@
 ---
-tags: [card, crumble-to-eternity, crumble, eternity, ice, earth, action, aura, jarl-specialization, dominate, pitch-3, cost-0]
+tags: [card, crumble-to-eternity, crumble, eternity, ice, earth, action, aura, jarl-specialization, dominate, pitch-3, cost-0, ajv018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mnKzqjmdQbtKgBLT6bFBj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Jarl Specialization, Dominate]
 unique-id: mnKzqjmdQbtKgBLT6bFBj
 sets: [AJV]
+codes: [AJV018]
 ---
 
 **Crumble to Eternity (blue)** — Ice Earth Action - Aura · cost 0 · 3 defense

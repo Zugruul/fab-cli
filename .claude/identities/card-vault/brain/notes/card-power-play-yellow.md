@@ -1,5 +1,5 @@
 ---
-tags: [card, power-play, power, play, guardian, action, attack, pitch-2, cost-3]
+tags: [card, power-play, power, play, guardian, action, attack, pitch-2, cost-3, sup187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r7J9m7TcMRndwCLRTKBjN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: r7J9m7TcMRndwCLRTKBjN
 sets: [SUP]
+codes: [SUP187]
 ---
 
 **Power Play (yellow)** — Guardian Action - Attack · cost 3 · 2 power · 3 defense

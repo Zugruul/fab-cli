@@ -1,5 +1,5 @@
 ---
-tags: [card, olympia, warrior, hero, young]
+tags: [card, olympia, warrior, hero, young, hvy093, mpw006, ola001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t7H7JCQcTb9TTjjCbNwDH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: t7H7JCQcTb9TTjjCbNwDH
 sets: [HVY, MPW, OLA]
+codes: [HVY093, MPW006, OLA001]
 ---
 
 **Olympia** — Warrior Hero - Young · 20 health · 4 int

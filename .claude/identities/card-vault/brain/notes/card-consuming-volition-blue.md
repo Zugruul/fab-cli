@@ -1,5 +1,5 @@
 ---
-tags: [card, consuming-volition, consuming, volition, runeblade, action, attack, pitch-3, cost-1]
+tags: [card, consuming-volition, consuming, volition, runeblade, action, attack, pitch-3, cost-1, cru150, ros139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CFMcBQt8WGbLtPDqbQHKH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: CFMcBQt8WGbLtPDqbQHKH
 sets: [CRU, ROS]
+codes: [CRU150, ROS139]
 ---
 
 **Consuming Volition (blue)** — Runeblade Action - Attack · cost 1 · 2 power · 3 defense

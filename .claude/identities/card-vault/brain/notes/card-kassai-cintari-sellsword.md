@@ -1,5 +1,5 @@
 ---
-tags: [card, kassai-cintari-sellsword, kassai, cintari, sellsword, warrior, hero, young]
+tags: [card, kassai-cintari-sellsword, kassai, cintari, sellsword, warrior, hero, young, 1hp140, cru077, her029, pen336]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wWmP8RJRq7MWk7kBh9q7w) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: wWmP8RJRq7MWk7kBh9q7w
 sets: [1HP, CRU, HER, PEN]
+codes: [1HP140, CRU077, HER029, PEN336]
 ---
 
 **Kassai, Cintari Sellsword** — Warrior Hero - Young · 20 health · 4 int

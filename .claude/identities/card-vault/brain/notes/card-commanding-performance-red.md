@@ -1,5 +1,5 @@
 ---
-tags: [card, commanding-performance, commanding, performance, warrior, action, go-again, pitch-1, cost-1]
+tags: [card, commanding-performance, commanding, performance, warrior, action, go-again, pitch-1, cost-1, hvy104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 89mKDmGqtctqmbdpthJhz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 89mKDmGqtctqmbdpthJhz
 sets: [HVY]
+codes: [HVY104]
 ---
 
 **Commanding Performance (red)** — Warrior Action · cost 1 · 3 defense

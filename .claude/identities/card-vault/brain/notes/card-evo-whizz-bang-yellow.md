@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-whizz-bang, evo, whizz, bang, mechanologist, instant, equipment, arms, transform, pitch-2, cost-0]
+tags: [card, evo-whizz-bang, evo, whizz, bang, mechanologist, instant, equipment, arms, transform, pitch-2, cost-0, evo052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9th8QzMpd9n9fpzbHbwJJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Transform]
 unique-id: 9th8QzMpd9n9fpzbHbwJJ
 sets: [EVO]
+codes: [EVO052]
 ---
 
 **Evo Whizz Bang (yellow)** — Mechanologist Instant Equipment - Evo Arms · cost 0 · 0 defense

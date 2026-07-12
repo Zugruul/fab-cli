@@ -1,5 +1,5 @@
 ---
-tags: [card, chain-of-brutality, chain, brutality, brute, action, attack, reviled, go-again, pitch-1, cost-0]
+tags: [card, chain-of-brutality, chain, brutality, brute, action, attack, reviled, go-again, pitch-1, cost-0, pen297]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kJhgfCfT9nhBbdDPndnJR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ other-types: [Reviled]
 keywords: [Go again]
 unique-id: kJhgfCfT9nhBbdDPndnJR
 sets: [PEN]
+codes: [PEN297]
 ---
 
 **Chain of Brutality (red)** — Reviled Brute Action - Attack · cost 0 · 2 power · 3 defense

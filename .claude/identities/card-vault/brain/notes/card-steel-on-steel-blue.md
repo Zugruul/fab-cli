@@ -1,5 +1,5 @@
 ---
-tags: [card, steel-on-steel, steel, warrior, defense-reaction, pitch-3, cost-0]
+tags: [card, steel-on-steel, steel, warrior, defense-reaction, pitch-3, cost-0, ddd015, mpw098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gt6TDJd9dG8CcMfwHqdtP) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Defense Reaction]
 unique-id: gt6TDJd9dG8CcMfwHqdtP
 sets: [DDD, MPW]
+codes: [DDD015, MPW098]
 ---
 
 **Steel on Steel (blue)** — Warrior Defense Reaction · cost 0 · 1 defense

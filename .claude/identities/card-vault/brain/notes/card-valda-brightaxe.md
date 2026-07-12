@@ -1,5 +1,5 @@
 ---
-tags: [card, valda-brightaxe, valda, brightaxe, guardian, hero, young, dominate]
+tags: [card, valda-brightaxe, valda, brightaxe, guardian, hero, young, dominate, evr019, her051, mpg002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zWhGF8kMMdmKdhMNdj6NH) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Dominate]
 unique-id: zWhGF8kMMdmKdhMNdj6NH
 sets: [EVR, HER, MPG]
+codes: [EVR019, HER051, MPG002]
 ---
 
 **Valda Brightaxe** — Guardian Hero - Young · 21 health · 4 int

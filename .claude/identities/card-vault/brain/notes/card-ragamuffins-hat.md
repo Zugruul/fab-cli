@@ -1,5 +1,5 @@
 ---
-tags: [card, ragamuffins-hat, ragamuffins, hat, generic, equipment, head]
+tags: [card, ragamuffins-hat, ragamuffins, hat, generic, equipment, head, ele233, fab187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bfbfWCWnHw6zP7bfrPGdC) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: bfbfWCWnHw6zP7bfrPGdC
 sets: [ELE, FAB]
+codes: [ELE233, FAB187]
 ---
 
 **Ragamuffin's Hat** — Generic Equipment - Head · 0 defense

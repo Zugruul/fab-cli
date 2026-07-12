@@ -1,5 +1,5 @@
 ---
-tags: [card, pound-of-flesh, pound, flesh, brute, shadow, action, go-again, pitch-3, cost-0]
+tags: [card, pound-of-flesh, pound, flesh, brute, shadow, action, go-again, pitch-3, cost-0, pen189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRnmhw6LKLJCh9MqM8RPq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: hRnmhw6LKLJCh9MqM8RPq
 sets: [PEN]
+codes: [PEN189]
 ---
 
 **Pound of Flesh (blue)** — Shadow Brute Action · cost 0 · 3 defense

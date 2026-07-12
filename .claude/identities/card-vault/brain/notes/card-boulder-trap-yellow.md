@@ -1,5 +1,5 @@
 ---
-tags: [card, boulder-trap, boulder, trap, ranger, defense-reaction, pitch-2, cost-0]
+tags: [card, boulder-trap, boulder, trap, ranger, defense-reaction, pitch-2, cost-0, lgs138, out106, rip011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9T6MpdKGz7bnbQpJrNQjq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: 9T6MpdKGz7bnbQpJrNQjq
 sets: [LGS, OUT, RIP]
+codes: [LGS138, OUT106, RIP011]
 ---
 
 **Boulder Trap (yellow)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

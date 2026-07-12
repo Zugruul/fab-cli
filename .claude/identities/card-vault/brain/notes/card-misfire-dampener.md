@@ -1,5 +1,5 @@
 ---
-tags: [card, misfire-dampener, misfire, dampener, mechanologist, equipment, arms, blade-break]
+tags: [card, misfire-dampener, misfire, dampener, mechanologist, equipment, arms, blade-break, hnt250]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCqKMLLRmjkM7K9TPKrNb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: bCqKMLLRmjkM7K9TPKrNb
 sets: [HNT]
+codes: [HNT250]
 ---
 
 **Misfire Dampener** — Mechanologist Equipment - Arms · 1 defense

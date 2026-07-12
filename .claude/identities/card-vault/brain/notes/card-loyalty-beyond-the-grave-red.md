@@ -1,5 +1,5 @@
 ---
-tags: [card, loyalty-beyond-the-grave, loyalty, beyond, grave, draconic, defense-reaction, pitch-1, cost-0]
+tags: [card, loyalty-beyond-the-grave, loyalty, beyond, grave, draconic, defense-reaction, pitch-1, cost-0, hnt150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9PCRhmGdjtCwJcn8hgn6t) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Draconic]
 types: [Defense Reaction]
 unique-id: 9PCRhmGdjtCwJcn8hgn6t
 sets: [HNT]
+codes: [HNT150]
 ---
 
 **Loyalty Beyond the Grave (red)** — Draconic, Defense Reaction · cost 0 · 3 defense

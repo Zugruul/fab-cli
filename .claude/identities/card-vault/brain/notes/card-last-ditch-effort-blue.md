@@ -1,5 +1,5 @@
 ---
-tags: [card, last-ditch-effort, last, ditch, effort, generic, action, attack, go-again, pitch-3, cost-3]
+tags: [card, last-ditch-effort, last, ditch, effort, generic, action, attack, go-again, pitch-3, cost-3, 1hp362, jdg017, wtr161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qmzNwRPnh8gkrdKdLwCbt) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: qmzNwRPnh8gkrdKdLwCbt
 sets: [1HP, JDG, WTR]
+codes: [1HP362, JDG017, WTR161]
 ---
 
 **Last Ditch Effort (blue)** — Generic Action - Attack · cost 3 · 4 power · 3 defense

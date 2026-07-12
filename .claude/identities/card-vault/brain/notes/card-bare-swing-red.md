@@ -1,5 +1,5 @@
 ---
-tags: [card, bare-swing, bare, swing, brute, action, attack, beat-chest, pitch-1, cost-3]
+tags: [card, bare-swing, bare, swing, brute, action, attack, beat-chest, pitch-1, cost-3, arr009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M6MBhFjDJcgfrm8mdNccR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Beat Chest]
 unique-id: M6MBhFjDJcgfrm8mdNccR
 sets: [ARR]
+codes: [ARR009]
 ---
 
 **Bare Swing (red)** — Brute Action - Attack · cost 3 · 7 power · 3 defense

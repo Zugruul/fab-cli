@@ -1,5 +1,5 @@
 ---
-tags: [card, snapdragon-scalers, snapdragon, scalers, generic, equipment, legs]
+tags: [card, snapdragon-scalers, snapdragon, scalers, generic, equipment, legs, 1hp353, ara006, asr006, bol008, chn007, fab065, lss017, rnr007, wtr154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gGmbgrQrzhKpFdtcRTF9h) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: gGmbgrQrzhKpFdtcRTF9h
 sets: [1HP, ARA, ASR, BOL, CHN, FAB, LSS, RNR, WTR]
+codes: [1HP353, ARA006, ASR006, BOL008, CHN007, FAB065, LSS017, RNR007, WTR154]
 ---
 
 **Snapdragon Scalers** — Generic Equipment - Legs · 0 defense

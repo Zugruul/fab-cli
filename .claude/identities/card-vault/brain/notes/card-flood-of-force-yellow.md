@@ -1,5 +1,5 @@
 ---
-tags: [card, flood-of-force, flood, force, ninja, action, attack, combo, go-again, pitch-2, cost-0]
+tags: [card, flood-of-force, flood, force, ninja, action, attack, combo, go-again, pitch-2, cost-0, 1hp099, cru055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9QkzLM66JjHbrMD9M6KDf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: 9QkzLM66JjHbrMD9M6KDf
 sets: [1HP, CRU]
+codes: [1HP099, CRU055]
 ---
 
 **Flood of Force (yellow)** — Ninja Action - Attack · cost 0 · 1 power · 3 defense

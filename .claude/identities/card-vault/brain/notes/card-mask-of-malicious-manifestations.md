@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-malicious-manifestations, mask, malicious, manifestations, assassin, ranger, equipment, head, blade-break]
+tags: [card, mask-of-malicious-manifestations, mask, malicious, manifestations, assassin, ranger, equipment, head, blade-break, ara003, out157, rip004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WLbcgwmGhWDWgdcbdjgWt) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade break]
 unique-id: WLbcgwmGhWDWgdcbdjgWt
 sets: [ARA, OUT, RIP]
+codes: [ARA003, OUT157, RIP004]
 ---
 
 **Mask of Malicious Manifestations** — Assassin / Ranger Equipment - Head · 1 defense

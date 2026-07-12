@@ -1,5 +1,5 @@
 ---
-tags: [card, bask-in-your-own-greatness, bask, your, own, greatness, action, attack, reviled, pitch-1, cost-0]
+tags: [card, bask-in-your-own-greatness, bask, your, own, greatness, action, attack, reviled, pitch-1, cost-0, fab387, sup098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kJzkbhWtqDJcCD6ngwkBH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: kJzkbhWtqDJcCD6ngwkBH
 sets: [FAB, SUP]
+codes: [FAB387, SUP098]
 ---
 
 **Bask in Your Own Greatness (red)** — Reviled Action - Attack · cost 0 · 4 power · 2 defense

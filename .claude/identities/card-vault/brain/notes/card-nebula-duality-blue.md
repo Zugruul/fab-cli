@@ -1,5 +1,5 @@
 ---
-tags: [card, nebula-duality, nebula, duality, wizard, lightning, action, pitch-3, cost-0]
+tags: [card, nebula-duality, nebula, duality, wizard, lightning, action, pitch-3, cost-0, omn123]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NrmFkQH9q78BrzKJ8L9DJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Lightning]
 types: [Action]
 unique-id: NrmFkQH9q78BrzKJ8L9DJ
 sets: [OMN]
+codes: [OMN123]
 ---
 
 **Nebula Duality (blue)** — Lightning Wizard Action · cost 0 · 3 defense

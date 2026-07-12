@@ -1,5 +1,5 @@
 ---
-tags: [card, skittering-sands, skittering, sands, illusionist, draconic, action, transform, go-again, pitch-1, cost-0]
+tags: [card, skittering-sands, skittering, sands, illusionist, draconic, action, transform, go-again, pitch-1, cost-0, dro013, upr036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cjk6KqfdDWCF6pLdpQFdj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Transform, Go again]
 unique-id: cjk6KqfdDWCF6pLdpQFdj
 sets: [DRO, UPR]
+codes: [DRO013, UPR036]
 ---
 
 **Skittering Sands (red)** — Draconic Illusionist Action · cost 0 · 2 defense

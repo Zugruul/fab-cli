@@ -1,5 +1,5 @@
 ---
-tags: [card, tip-off, tip, off, generic, action, attack, pitch-1, cost-1]
+tags: [card, tip-off, tip, off, generic, action, attack, pitch-1, cost-1, hnt232, wod012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9CjK6W9dqPdJrfthqqKCD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 9CjK6W9dqPdJrfthqqKCD
 sets: [HNT, WOD]
+codes: [HNT232, WOD012]
 ---
 
 **Tip-Off (red)** — Generic Action - Attack · cost 1 · 5 power · 2 defense

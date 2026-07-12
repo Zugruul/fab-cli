@@ -1,5 +1,5 @@
 ---
-tags: [card, splintering-deadwood, splintering, deadwood, runeblade, action, attack, pitch-2, cost-3]
+tags: [card, splintering-deadwood, splintering, deadwood, runeblade, action, attack, pitch-2, cost-3, ros122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DrMHRGghQK9rb9NdTTKmj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DrMHRGghQK9rb9NdTTKmj
 sets: [ROS]
+codes: [ROS122]
 ---
 
 **Splintering Deadwood (yellow)** — Runeblade Action - Attack · cost 3 · 6 power · 3 defense

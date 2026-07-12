@@ -1,5 +1,5 @@
 ---
-tags: [card, poison-the-tips, poison, tips, ranger, action, reload, go-again, pitch-2, cost-0]
+tags: [card, poison-the-tips, poison, tips, ranger, action, reload, go-again, pitch-2, cost-0, cru124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LpcMH9ftTRHRc9gw9j6hw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Reload, Go again]
 unique-id: LpcMH9ftTRHRc9gw9j6hw
 sets: [CRU]
+codes: [CRU124]
 ---
 
 **Poison the Tips (yellow)** — Ranger Action · cost 0 · 2 defense

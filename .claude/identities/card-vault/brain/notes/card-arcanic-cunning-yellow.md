@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanic-cunning, arcanic, cunning, runeblade, action, attack, pitch-2, cost-0]
+tags: [card, arcanic-cunning, arcanic, cunning, runeblade, action, attack, pitch-2, cost-0, omn089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtmwgMQkDf6BgBGNGJHRF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: mtmwgMQkDf6BgBGNGJHRF
 sets: [OMN]
+codes: [OMN089]
 ---
 
 **Arcanic Cunning (yellow)** — Runeblade Action - Attack · cost 0 · 3 power · 3 defense

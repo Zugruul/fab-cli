@@ -1,5 +1,5 @@
 ---
-tags: [card, strong-yield, strong, yield, earth, action, aura, go-again, pitch-1, cost-1]
+tags: [card, strong-yield, strong, yield, earth, action, aura, go-again, pitch-1, cost-1, flr017, ros064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DrQ9nkJKpqLJCr9TgDMNn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: DrQ9nkJKpqLJCr9TgDMNn
 sets: [FLR, ROS]
+codes: [FLR017, ROS064]
 ---
 
 **Strong Yield (red)** — Earth Action - Aura · cost 1 · 2 defense

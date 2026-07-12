@@ -1,5 +1,5 @@
 ---
-tags: [card, battlefield-beacon, battlefield, beacon, warrior, light, action, attack, pitch-2, cost-0]
+tags: [card, battlefield-beacon, battlefield, beacon, warrior, light, action, attack, pitch-2, cost-0, sup266]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pNc7mQN79mQRRB86pnwGt) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: pNc7mQN79mQRRB86pnwGt
 sets: [SUP]
+codes: [SUP266]
 ---
 
 **Battlefield Beacon (yellow)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hms-kraken, hms, kraken, pirate, action, attack, high-tide, overpower, pitch-2, cost-4]
+tags: [card, hms-kraken, hms, kraken, pirate, action, attack, high-tide, overpower, pitch-2, cost-4, sea135]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7p9qhCT76DDh6MQ9zFDwK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [High Tide, Overpower]
 unique-id: 7p9qhCT76DDh6MQ9zFDwK
 sets: [SEA]
+codes: [SEA135]
 ---
 
 **HMS Kraken (yellow)** — Pirate Action - Attack · cost 4 · 6 power · 3 defense

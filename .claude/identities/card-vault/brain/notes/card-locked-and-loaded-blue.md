@@ -1,5 +1,5 @@
 ---
-tags: [card, locked-and-loaded, locked, loaded, mechanologist, action, opt-1, go-again, pitch-3, cost-0]
+tags: [card, locked-and-loaded, locked, loaded, mechanologist, action, opt-1, go-again, pitch-3, cost-0, arc034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nTqfpprmJbKkPMdNbdhRg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 1, Go again]
 unique-id: nTqfpprmJbKkPMdNbdhRg
 sets: [ARC]
+codes: [ARC034]
 ---
 
 **Locked and Loaded (blue)** — Mechanologist Action · cost 0 · 3 defense

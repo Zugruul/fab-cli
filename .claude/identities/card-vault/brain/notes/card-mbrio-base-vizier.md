@@ -1,5 +1,5 @@
 ---
-tags: [card, mbrio-base-vizier, mbrio, base, vizier, mechanologist, equipment, head, arcane-barrier-1]
+tags: [card, mbrio-base-vizier, mbrio, base, vizier, mechanologist, equipment, head, arcane-barrier-1, pen058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLfgFRDKbTbWj8fBgMrjJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Head]
 keywords: [Arcane Barrier 1]
 unique-id: MLfgFRDKbTbWj8fBgMrjJ
 sets: [PEN]
+codes: [PEN058]
 ---
 
 **mBrio Base Vizier** — Mechanologist Equipment - Base Head · 0 defense

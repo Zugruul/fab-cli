@@ -1,5 +1,5 @@
 ---
-tags: [card, coalescence-mirage, coalescence, mirage, illusionist, action, attack, phantasm, pitch-1, cost-2]
+tags: [card, coalescence-mirage, coalescence, mirage, illusionist, action, attack, phantasm, pitch-1, cost-2, evr144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JBkC6qp77CfhzhkphHMPC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: JBkC6qp77CfhzhkphHMPC
 sets: [EVR]
+codes: [EVR144]
 ---
 
 **Coalescence Mirage (red)** — Illusionist Action - Attack · cost 2 · 7 power · 3 defense
