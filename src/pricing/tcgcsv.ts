@@ -28,7 +28,7 @@ export interface Product {
   url?: string;
 }
 
-export interface PriceRow {
+export interface TcgcsvPriceRow {
   productId: number;
   lowPrice: number | null;
   midPrice: number | null;
@@ -40,9 +40,9 @@ export interface PriceRow {
 
 export interface GroupData {
   products: Product[];
-  prices: PriceRow[];
+  prices: TcgcsvPriceRow[];
   /** Prices for a productId, one entry per subTypeName (Normal/Foil). */
-  pricesByProductId: Map<number, PriceRow[]>;
+  pricesByProductId: Map<number, TcgcsvPriceRow[]>;
   /** True when the prices endpoint returned 0 rows (e.g. a just-released set — SPEC §6.1). */
   emptyPrices: boolean;
 }
@@ -130,10 +130,10 @@ export async function fetchGroupProducts(
 export async function fetchGroupPrices(
   groupId: number,
   opts: TcgcsvOptions = {},
-): Promise<PriceRow[]> {
+): Promise<TcgcsvPriceRow[]> {
   return cachedFetch(
     `tcgcsv-prices-${groupId}`,
-    () => fetchEnvelope<PriceRow>(`${BASE_URL}/${groupId}/prices`, opts),
+    () => fetchEnvelope<TcgcsvPriceRow>(`${BASE_URL}/${groupId}/prices`, opts),
     opts,
   );
 }
@@ -148,7 +148,7 @@ export async function fetchGroupData(
     fetchGroupPrices(groupId, opts),
   ]);
 
-  const pricesByProductId = new Map<number, PriceRow[]>();
+  const pricesByProductId = new Map<number, TcgcsvPriceRow[]>();
   for (const price of prices) {
     const existing = pricesByProductId.get(price.productId);
     if (existing) existing.push(price);
