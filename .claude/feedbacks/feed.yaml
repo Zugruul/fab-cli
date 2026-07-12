@@ -675,3 +675,61 @@ items:
   routing:
     action: brain-note
     ref: dev/untyped-api-optional-fields
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T05:35:00Z'
+iteration:
+  task: PRICE-004
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Review caught a client missing cross-cutting HTTP semantics its sibling
+    modules all had, plus a test that could not falsify its named behavior
+  detail: Retry/backoff existed in two sibling clients but not the new one; a zero-price
+    edge test used fixture data that never exercised the zero path.
+  evidence:
+  - fab-cli#53
+  generalized: Reviews of Nth-sibling modules should diff cross-cutting behaviors
+    (retry, typed errors, option names) against existing siblings, and check that
+    edge-case tests use fixture data that actually diverges under the guard being
+    tested.
+  routing:
+    action: brain-note
+    ref: dev/sibling-pattern-parity
+- category: worked-well
+  area: docs
+  severity: medium
+  summary: Spec-delta flow turned a disclosed implementation deviation into a formal
+    contract amendment folded at merge time
+  detail: Dev disclosed an asymmetric zero-handling rule; orchestrator required a
+    delta file on the branch; folded into the spec on the QA transition.
+  evidence:
+  - fab-cli#53
+  generalized: Requiring a paste-ready spec delta on the same branch as a justified
+    deviation keeps the canonical spec describing merged reality instead of accumulating
+    code comments that contradict it.
+  routing:
+    action: brain-note
+    ref: orchestrator/spec-delta-for-approved-deviations
+- category: friction
+  area: permissions
+  severity: low
+  summary: A workflow helper script required a Python package unavailable in the externally-managed
+    system environment
+  detail: gate.sh needs PyYAML; pip install is PEP-668 blocked on this machine; dev
+    worked around with --user --break-system-packages.
+  evidence:
+  - fab-cli#53
+  generalized: Workflow scripts that import third-party Python packages fail on PEP-668
+    externally-managed hosts; they should vendor pure-stdlib parsing or document a
+    supported install path.
+  routing:
+    action: upstream
+    ref: 'plugin: gate.sh PyYAML dependency vs PEP-668 hosts'

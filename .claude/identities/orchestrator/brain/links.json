@@ -79,6 +79,11 @@
     "last": null,
     "weight": 0.5
   },
+  "spec-delta-for-approved-deviations->gate-ambient-contamination": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "test-minimal-headers-before-spoofing->api-reverse-engineering-with-human-capture": {
     "fires": 0,
     "last": null,
