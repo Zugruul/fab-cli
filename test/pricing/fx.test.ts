@@ -154,6 +154,29 @@ describe("fetchEurUsdRate", () => {
         fetchEurUsdRate({ cacheDir: tmpDir, fetchFn }),
       ).rejects.toThrow(FxDataError);
     });
+
+    it("rejects with FxDataError (not a raw TypeError) when the response body is null", async () => {
+      const fetchFn: FetchFn = async () => jsonResponse(null);
+
+      await expect(
+        fetchEurUsdRate({ cacheDir: tmpDir, fetchFn }),
+      ).rejects.toThrow(FxDataError);
+
+      try {
+        await fetchEurUsdRate({ cacheDir: tmpDir, fetchFn, refresh: true });
+        throw new Error("expected fetchEurUsdRate to reject");
+      } catch (e) {
+        expect(isFxError(e)).toBe(true);
+      }
+    });
+
+    it("rejects with FxDataError when the response body is a non-object primitive", async () => {
+      const fetchFn: FetchFn = async () => jsonResponse("not-an-object");
+
+      await expect(
+        fetchEurUsdRate({ cacheDir: tmpDir, fetchFn }),
+      ).rejects.toThrow(FxDataError);
+    });
   });
 });
 
