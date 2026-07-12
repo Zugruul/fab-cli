@@ -509,3 +509,69 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/human-directive-vs-readonly-consult
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T04:15:00Z'
+iteration:
+  task: PRICE-001
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: friction
+  area: testing
+  severity: high
+  summary: Repo-wide lint in the gate lets ambient tree state block a clean branch's
+    recorded pass
+  detail: npm run gate lint scanned sibling agents' worktrees under .claude/worktrees/**,
+    a vendored venv, and another lane's untracked src WIP — 99 errors, none from the
+    task branch. Fixed the first two via eslint ignores; untracked WIP in src/ remains
+    a cross-lane hazard.
+  evidence:
+  - fab-cli#48
+  - fab-cli#47
+  generalized: A quality gate that lints the entire working tree lets one lane's untracked
+    WIP or sibling worktrees redden every other lane's gate; gates should ignore agent-worktree/venv
+    dirs by default and ideally scope lint to tracked files.
+  proposal:
+    target: skills/build-next
+    change: Recommend eslint/prettier ignores for .claude/** and .venv*/** at project
+      setup, or a tracked-files-only lint mode for the gate.
+  routing:
+    action: brain-note
+    ref: orchestrator/gate-ambient-contamination
+- category: incident
+  area: merge
+  severity: medium
+  summary: Merge command reported a local fast-forward fatal while the remote merge
+    had succeeded
+  detail: 'gh pr merge --squash --delete-branch printed ''fatal: Not possible to fast-forward''
+    from the local post-merge branch switch on a diverged main; the remote squash-merge
+    had succeeded, and the local switch also reverted a working-tree file.'
+  evidence:
+  - fab-cli#47
+  generalized: Merge tooling that chains remote merge with local branch cleanup can
+    surface a local error that masks a successful remote merge; verify the PR's remote
+    state before retrying, and expect the local cleanup to alter working-tree state.
+  routing:
+    action: brain-note
+    ref: orchestrator/gh-pr-merge-diverged-local
+- category: worked-well
+  area: review
+  severity: low
+  summary: Independent reviewer reproduced gate claims and cross-checked the whole
+    spec instead of trusting citations
+  detail: Reviewer re-ran the gate on the branch to validate the contamination claim
+    and grepped the full spec before flagging apparent scope creep that a later section
+    actually required; approved in one round.
+  evidence:
+  - fab-cli#47
+  generalized: Reviewers that re-run the gate themselves and search the entire spec
+    (not just the sections a PR cites) avoid both accepting false excuses and raising
+    false scope-creep findings.
+  routing:
+    action: brain-note
+    ref: reviewer/reproduce-gate-claims
