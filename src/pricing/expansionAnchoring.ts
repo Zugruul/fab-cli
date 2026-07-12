@@ -13,7 +13,7 @@
 //      tiebreak — a tie is not a majority).
 //   2. Size-plausibility guard: the CM idExpansion's total product count
 //      (all CM products sharing that idExpansion, not just the voting
-//      ones) must be within 1.5x the winning tcgcsv group's total product
+//      ones) must be within 2.5x the winning tcgcsv group's total product
 //      count. A CM expansion much larger than the group it "won" almost
 //      always means Cardmarket merged multiple physical products under
 //      one idExpansion — the vote is kept but the name is untrustworthy,
