@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "errors": [],
+  "results": [
+    {
+      "groupId": 2947,
+      "name": "Everfest",
+      "abbreviation": "EVR",
+      "isSupplemental": false,
+      "publishedOn": "2023-03-24T00:00:00",
+      "modifiedOn": "2023-03-24T00:00:00",
+      "categoryId": 62
+    },
+    {
+      "groupId": 3050,
+      "name": "Dusk till Dawn",
+      "abbreviation": "DTD",
+      "isSupplemental": false,
+      "publishedOn": "2023-06-30T00:00:00",
+      "modifiedOn": "2023-06-30T00:00:00",
+      "categoryId": 62
+    }
+  ]
+}
