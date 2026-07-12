@@ -161,7 +161,9 @@ export function renderRatioPageCsv(
 export function renderUnmatchedCsv(unmatched: UnmatchedRow[]): string {
   const lines = ["Provider,Name,Set,Finish,Reason"];
   for (const row of unmatched) {
-    lines.push(csvRow([row.provider, row.name, row.set, row.finish, row.reason]));
+    lines.push(
+      csvRow([row.provider, row.name, row.set, row.finish, row.reason]),
+    );
   }
   return lines.join("\n");
 }

@@ -9,7 +9,11 @@ import {
   renderRatioPageCsv,
   renderUnmatchedCsv,
 } from "../../src/pricing/csv";
-import type { ComparisonRow, RatioCell, UnmatchedRow } from "../../src/pricing/compare";
+import type {
+  ComparisonRow,
+  RatioCell,
+  UnmatchedRow,
+} from "../../src/pricing/compare";
 import type { ConditionColumn } from "../../src/pricing/types";
 import type { FxRate } from "../../src/pricing/fx";
 
@@ -141,7 +145,12 @@ describe("renderRatioPageCsv", () => {
     };
   }
 
-  const fx: FxRate = { rate: 1.1, date: "2026-07-11", base: "EUR", quote: "USD" };
+  const fx: FxRate = {
+    rate: 1.1,
+    date: "2026-07-11",
+    base: "EUR",
+    quote: "USD",
+  };
 
   it("emits pairLabel and fx comment lines above the header", () => {
     const csv = renderRatioPageCsv([], new Map(), {
