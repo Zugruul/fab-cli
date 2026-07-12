@@ -109,6 +109,49 @@ specs:
     - 'Doubts involving specific cards resolve by consulting the card sources for exact current text (third_party/flesh-and-blood-cards + Card Vault rulings), reviewing the relevant CR rules, and deriving the interaction from text + rules together — never from remembered card text.'
     - 'Knowledge flows one way between the advisory brains: the JUDGE brain is the source of truth for rules/keyword knowledge; the player asks the judge when in doubt; the judge, when in doubt, consults the official documents and updates its own notes; the judge NEVER learns from the player — player suggestions enter the judge brain only after confirmation against the real documents.'
     - 'Vendored knowledge submodules (third_party/fablore, third_party/flesh-and-blood-cards) and the rules KB must be kept regularly up to date: refresh before use when older than their TTL (24h default), commit pin bumps; stale vendored data must never silently answer a freshness-sensitive question.'
+-   id: price
+    title: Marketplace price comparison
+    board: main
+    specPath: SPEC-PRICE.md
+    backlogPath: docs/BACKLOG-PRICE.md
+    taskPrefix: PRICE
+    epics:
+    -   id: E0
+        title: 'Foundations: providers & clients'
+        taskRanges:
+        -   - 1
+            - 9
+        blockedBy: []
+    -   id: E1
+        title: Comparison engine + card command
+        taskRanges:
+        -   - 10
+            - 19
+        blockedBy:
+        -   epic: E0
+            untilStatus: Deployed
+    -   id: E2
+        title: Export + CSV pages
+        taskRanges:
+        -   - 20
+            - 29
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: EI
+        title: Infra reserve
+        taskRanges:
+        -   - 90
+            - 99
+        blockedBy: []
+    invariants:
+    - Marketplace access is keyless — never require, store, or ship TCGplayer/Cardmarket API credentials; no auth command exists in the price-comparison namespace.
+    - Keep concurrency ≤4 per external host with retry/backoff; a 403 from mp-search-api is rate-limiting/bot protection — degrade to market-price fallback, never hammer or retry-storm.
+    - All merge-gating tests run with the network disabled; live HTTP happens only behind explicit user commands.
+    - 'Every price cell that is not an exact per-condition value carries a source label saying where it came from (adjacent:<COL>, market, trend, low); no unlabeled fallback number ever reaches output.'
+    - Ratio cells are computed only from prices converted to one common currency with a dated ECB rate recorded in the output; never divide raw USD by raw EUR.
+    - Never scrape Cloudflare-protected Cardmarket pages or spoof authenticated browser sessions; only public keyless endpoints.
+    - Unmatched or unpriced rows are reported (unmatched.csv / summary), never silently dropped.
 commands:
     gate: npm run gate
     gateFast: npm run test:run
