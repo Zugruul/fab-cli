@@ -3,7 +3,6 @@ import {
   matchCardProducts,
   resolveCardProducts,
   assembleCardComparison,
-  isFallbackCell,
   renderCsv,
   type CatalogEntry,
   type CardCommandDeps,
@@ -127,6 +126,8 @@ describe("resolveCardProducts", () => {
 
 // ---------------------------------------------------------------------------
 // assembleCardComparison — full assembly with mocked clients
+// (real-data-only semantics, issue #61: no market/adjacent fill; Cardmarket
+// condition columns are all 'low'; Trend is a separate reference field)
 // ---------------------------------------------------------------------------
 
 function anchorMap(): ExpansionAnchorMap {
@@ -156,7 +157,7 @@ function makeDeps(overrides: Partial<CardCommandDeps> = {}): CardCommandDeps {
   ];
 
   const conditionMap: Map<number, ConditionPriceMap> = new Map([
-    [1, { NM: null, "SP/LP": null, MP: null, HP: null }],
+    [1, { NM: 9.25, "SP/LP": 9.0, MP: null, HP: null }],
   ]);
 
   const cmProducts: CardmarketProduct[] = [
@@ -198,7 +199,7 @@ function makeDeps(overrides: Partial<CardCommandDeps> = {}): CardCommandDeps {
 }
 
 describe("assembleCardComparison", () => {
-  it("happy path: fill-before-match — a TCGplayer row with no listings but a marketPrice is priced (source market), not unmatched no-price", async () => {
+  it("happy path: real listings only — TCGplayer NM/SP-LP priced from listings, MP/HP empty (no adjacency copy)", async () => {
     const deps = makeDeps();
     const result = await assembleCardComparison("command and conquer", deps);
 
@@ -209,19 +210,22 @@ describe("assembleCardComparison", () => {
     expect(result.comparisonRows).toHaveLength(1);
     const row = result.comparisonRows[0];
     const tcg = row.conditionsByProvider.tcgplayer;
-    expect(tcg.NM).toEqual({ price: 9.5, source: "market" });
-    expect(tcg["SP/LP"]).toEqual({ price: 9.5, source: "adjacent:NM" });
+    expect(tcg.NM).toEqual({ price: 9.25, source: "listing" });
+    expect(tcg["SP/LP"]).toEqual({ price: 9.0, source: "listing" });
+    expect(tcg.MP).toBeNull();
+    expect(tcg.HP).toBeNull();
 
-    // No unmatched no-price entries — the market-filled row matched cleanly.
-    expect(
-      result.unmatched.some(
-        (u) => u.provider === "tcgplayer" && u.reason === "no-price",
-      ),
-    ).toBe(false);
-
+    // Cardmarket: all four condition columns are the 'low' cell.
     const cm = row.conditionsByProvider.cardmarket;
-    expect(cm.NM).toEqual({ price: 7, source: "trend" });
+    expect(cm.NM).toEqual({ price: 6, source: "low" });
     expect(cm["SP/LP"]).toEqual({ price: 6, source: "low" });
+    expect(cm.MP).toEqual({ price: 6, source: "low" });
+    expect(cm.HP).toEqual({ price: 6, source: "low" });
+
+    // Trend is a separate reference-only value carried on the raw Cardmarket
+    // row, not part of the matched conditionsByProvider structure.
+    const cmRow = result.cardmarketRows[0];
+    expect(cmRow.trend).toEqual({ price: 7, source: "trend" });
 
     expect(result.fx).toEqual({
       rate: 1.1,
@@ -230,6 +234,55 @@ describe("assembleCardComparison", () => {
       quote: "USD",
     });
     expect(result.ratioError).toBeUndefined();
+  });
+
+  it("real-data-only: a TCGplayer row with no listings at all is empty and reported no-price, never market-filled", async () => {
+    const deps = makeDeps({
+      fetchProductConditions: vi.fn().mockResolvedValue(
+        new Map([[1, { NM: null, "SP/LP": null, MP: null, HP: null }]]),
+      ),
+    });
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    // No TCGplayer counterpart survives matching (all-null conditions), so
+    // the row is reported no-price and does not appear in comparisonRows.
+    expect(result.comparisonRows).toHaveLength(0);
+    expect(
+      result.unmatched.some(
+        (u) => u.provider === "tcgplayer" && u.reason === "no-price",
+      ),
+    ).toBe(true);
+  });
+
+  it("real-data-only: a Cardmarket row with no 'low' field is empty across all four condition columns", async () => {
+    const deps = makeDeps({
+      fetchCardmarketData: vi.fn().mockResolvedValue({
+        products: [
+          { idProduct: 100, name: "Command and Conquer", idExpansion: 42 },
+        ],
+        priceGuideByProduct: new Map([
+          [100, { idProduct: 100, trend: 7, low: null }],
+        ]),
+        productsById: new Map([
+          [100, { idProduct: 100, name: "Command and Conquer", idExpansion: 42 }],
+        ]),
+      }),
+    });
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    const cmRow = result.cardmarketRows.find((r) => r.finish === "normal")!;
+    expect(cmRow.conditions).toEqual({
+      NM: null,
+      "SP/LP": null,
+      MP: null,
+      HP: null,
+    });
+    // The row still carries the trend reference value even with no low price.
+    expect(cmRow.trend).toEqual({ price: 7, source: "trend" });
   });
 
   it("ambiguous name resolves without hitting the assembly clients", async () => {
@@ -282,53 +335,8 @@ describe("assembleCardComparison", () => {
 });
 
 // ---------------------------------------------------------------------------
-// isFallbackCell — pure bold-marking decision
-// ---------------------------------------------------------------------------
-
-describe("isFallbackCell", () => {
-  it("tcgplayer: listing source is not a fallback", () => {
-    expect(
-      isFallbackCell({ price: 5, source: "listing" }, "tcgplayer", "NM"),
-    ).toBe(false);
-  });
-
-  it("tcgplayer: market/adjacent sources are fallbacks", () => {
-    expect(
-      isFallbackCell({ price: 5, source: "market" }, "tcgplayer", "NM"),
-    ).toBe(true);
-    expect(
-      isFallbackCell({ price: 5, source: "adjacent:NM" }, "tcgplayer", "SP/LP"),
-    ).toBe(true);
-  });
-
-  it("cardmarket: NM with trend source is not a fallback", () => {
-    expect(
-      isFallbackCell({ price: 5, source: "trend" }, "cardmarket", "NM"),
-    ).toBe(false);
-  });
-
-  it("cardmarket: NM cascaded to avg30 is a fallback", () => {
-    expect(
-      isFallbackCell({ price: 5, source: "avg30" }, "cardmarket", "NM"),
-    ).toBe(true);
-  });
-
-  it("cardmarket: SP/LP, MP, HP are always fallbacks (always sourced from low)", () => {
-    expect(
-      isFallbackCell({ price: 5, source: "low" }, "cardmarket", "SP/LP"),
-    ).toBe(true);
-    expect(
-      isFallbackCell({ price: 5, source: "low" }, "cardmarket", "HP"),
-    ).toBe(true);
-  });
-
-  it("null cells are never flagged as fallback (nothing to bold)", () => {
-    expect(isFallbackCell(null, "tcgplayer", "NM")).toBe(false);
-  });
-});
-
-// ---------------------------------------------------------------------------
-// renderCsv — deterministic §9.3-shaped CSV
+// renderCsv — deterministic §9.3-shaped CSV, now with a Trend column on the
+// Cardmarket page and no bold/fallback markers anywhere (issue #61)
 // ---------------------------------------------------------------------------
 
 describe("renderCsv", () => {
@@ -350,10 +358,33 @@ describe("renderCsv", () => {
       "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
     );
     expect(csv1).toContain(
+      "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
+    );
+    expect(csv1).toContain(
       "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
     );
     expect(csv1).toContain("# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)");
-    expect(csv1).toMatchSnapshot();
+
+    const cmLine = csv1
+      .split("\n")
+      .find((l) => l.startsWith("Command and Conquer,Everfest,normal,6,low"));
+    expect(cmLine).toBe(
+      "Command and Conquer,Everfest,normal,6,low,6,low,6,low,6,low,7,trend",
+    );
+
+    const ratioLine = csv1
+      .split("# page 3")[1]
+      .split("\n")
+      .find((l) => l.startsWith("Command and Conquer"));
+    // NM: listing 9.25 USD / low 6 EUR (at rate 1.1 -> 6.6 USD) - 1
+    expect(ratioLine).toContain("listing/low");
+    // MP/HP have no TCGplayer real cell (real-data-only), so the ratio is
+    // empty even though Cardmarket has a real low price — both sides must
+    // be real (§8.4 amended).
+    const ratioCells = ratioLine!.split(",");
+    // Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis
+    expect(ratioCells[7]).toBe(""); // MP ratio
+    expect(ratioCells[8]).toBe(""); // MP basis
   });
 
   it("omits ratio pages and notes the FX failure when FX is unavailable", async () => {
@@ -379,6 +410,7 @@ describe("renderCsv", () => {
     // ONE row for this identity with the cheapest price per condition, not
     // two duplicate lines (the ratio page already collapses via
     // buildComparisonRows; the raw price pages must apply the same rule).
+    // Trend, being reference-only, also collapses to the cheaper value.
     const cmProducts: CardmarketProduct[] = [
       { idProduct: 100, name: "Command and Conquer", idExpansion: 42 },
       { idProduct: 101, name: "Command and Conquer", idExpansion: 42 },
@@ -417,9 +449,9 @@ describe("renderCsv", () => {
       .split("\n")
       .filter((l) => l.startsWith("Command and Conquer"));
     expect(dataLines).toHaveLength(1);
-    // cheapest NM (trend: 10 vs 6 -> 6) and cheapest SP/LP (low: 9 vs 12 -> 9)
+    // cheapest low (9 vs 12 -> 9) across all four columns; cheapest trend (10 vs 6 -> 6)
     expect(dataLines[0]).toBe(
-      "Command and Conquer,Everfest,normal,6,trend,9,low,9,low,9,low",
+      "Command and Conquer,Everfest,normal,9,low,9,low,9,low,9,low,6,trend",
     );
   });
 });

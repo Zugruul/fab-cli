@@ -155,7 +155,11 @@ describe("fetchCardmarketData", () => {
   });
 });
 
-describe("resolvePrices", () => {
+describe("resolvePrices (real-data-only reshape, issue #61)", () => {
+  // §8.3 amended: all four condition columns (NM, SP/LP, MP, HP) share one
+  // `low`-sourced cell (`conditions`); `trend` is a SEPARATE reference-only
+  // value (the §8.3 cascade trend->avg30->avg7->avg1, no longer falling
+  // back to `low` — `low` is now exclusively the conditions cell's source).
   function rowFor(idProduct: number): CardmarketPriceGuideRow {
     const fixture = loadFixture("price_guide_16") as {
       priceGuides: CardmarketPriceGuideRow[];
@@ -165,41 +169,42 @@ describe("resolvePrices", () => {
     return row;
   }
 
-  it("normal: uses trend for NM when present", () => {
+  it("normal: conditions cell is always 'low', regardless of trend", () => {
     const result = resolvePrices(rowFor(100), "normal");
-    expect(result.nm).toEqual({ price: 5.75, source: "trend" });
+    expect(result.conditions).toEqual({ price: 3.0, source: "low" });
   });
 
-  it("normal: SP/LP, MP, HP all use low, source 'low'", () => {
+  it("normal: trend reference column uses trend when present", () => {
     const result = resolvePrices(rowFor(100), "normal");
-    expect(result.others).toEqual({ price: 3.0, source: "low" });
+    expect(result.trend).toEqual({ price: 5.75, source: "trend" });
   });
 
-  it("normal: cascades trend -> avg30 when trend is null", () => {
+  it("normal: trend cascades trend -> avg30 when trend is null", () => {
     const result = resolvePrices(rowFor(101), "normal");
-    expect(result.nm).toEqual({ price: 1.8, source: "avg30" });
+    expect(result.trend).toEqual({ price: 1.8, source: "avg30" });
   });
 
-  it("normal: cascades all the way to low when trend/avg30/avg7/avg1 are all null", () => {
+  it("normal: trend is null (not low) when trend/avg30/avg7/avg1 are all null — low never backs the Trend column", () => {
     const result = resolvePrices(rowFor(102), "normal");
-    expect(result.nm).toEqual({ price: 0.2, source: "low" });
+    expect(result.trend).toBeNull();
+    expect(result.conditions).toEqual({ price: 0.2, source: "low" });
   });
 
-  it("normal: both nm and others are null when every field is null", () => {
+  it("normal: both conditions and trend are null when every field is null", () => {
     const result = resolvePrices(rowFor(103), "normal");
-    expect(result.nm).toBeNull();
-    expect(result.others).toBeNull();
+    expect(result.conditions).toBeNull();
+    expect(result.trend).toBeNull();
   });
 
-  it("foil: uses the -foil field variants", () => {
+  it("foil: uses the -foil field variants for both conditions and trend", () => {
     const result = resolvePrices(rowFor(100), "foil");
-    expect(result.nm).toEqual({ price: 12.75, source: "trend" });
-    expect(result.others).toEqual({ price: 9.0, source: "low" });
+    expect(result.trend).toEqual({ price: 12.75, source: "trend" });
+    expect(result.conditions).toEqual({ price: 9.0, source: "low" });
   });
 
   it("foil: treats trend-foil of 0 as no-data and cascades to avg30-foil", () => {
     const result = resolvePrices(rowFor(104), "foil");
-    expect(result.nm).toEqual({ price: 7.5, source: "avg30" });
+    expect(result.trend).toEqual({ price: 7.5, source: "avg30" });
   });
 
   it("normal trend of 0 is NOT treated as no-data (only trend-foil's 0 marker is)", () => {
@@ -207,19 +212,19 @@ describe("resolvePrices", () => {
     // fallback available — if 0 were wrongly treated as no-data this would
     // cascade to avg30 instead of returning the real 0 price.
     const result = resolvePrices(rowFor(107), "normal");
-    expect(result.nm).toEqual({ price: 0, source: "trend" });
+    expect(result.trend).toEqual({ price: 0, source: "trend" });
   });
 
   it("handles missing keys entirely (not just null) safely", () => {
     const result = resolvePrices(rowFor(105), "normal");
-    expect(result.nm).toEqual({ price: 4.0, source: "trend" });
-    expect(result.others).toBeNull();
+    expect(result.trend).toEqual({ price: 4.0, source: "trend" });
+    expect(result.conditions).toBeNull();
   });
 
   it("foil: missing keys entirely for the row's foil fields resolve to null", () => {
     const result = resolvePrices(rowFor(105), "foil");
-    expect(result.nm).toBeNull();
-    expect(result.others).toBeNull();
+    expect(result.conditions).toBeNull();
+    expect(result.trend).toBeNull();
   });
 });
 
