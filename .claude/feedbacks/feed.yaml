@@ -575,3 +575,60 @@ items:
   routing:
     action: brain-note
     ref: reviewer/reproduce-gate-claims
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T04:40:00Z'
+iteration:
+  task: PRICE-002
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: brains
+  severity: low
+  summary: Recalled brain lessons injected into the dev brief prevented repeat mistakes
+    from the prior iteration
+  detail: Dev reported both recalled lessons (cache contract, scoped-green verification)
+    held with no surprises; no CONSULT round-trips needed.
+  evidence:
+  - fab-cli#50
+  generalized: Injecting the previous iterations' minted lessons into the next dev
+    brief measurably reduces repeated friction — the dev avoided the exact pitfalls
+    the prior lane hit.
+  routing:
+    action: brain-note
+    ref: dev/pricing-cache-contract
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Forward-compat review of a foundation module caught a type-name collision
+    before the next task depended on it
+  detail: Reviewer read the NEXT backlog tasks and flagged the raw tcgcsv row type
+    shadowing the domain row type; fixed in one round.
+  evidence:
+  - fab-cli#50
+  generalized: Having reviewers evaluate foundation PRs against upcoming backlog tasks
+    (not just the PR's own AC) catches breaking-change hazards while they cost one
+    rename instead of a refactor.
+  routing:
+    action: brain-note
+    ref: reviewer/foundation-pr-forward-compat
+- category: friction
+  area: concurrency
+  severity: low
+  summary: A spawned implementation agent went idle mid-task with unpushed work and
+    no report
+  detail: Dev agent idled after committing tests+impl but before gate/push/PR; a SendMessage
+    nudge listing exact remaining steps recovered it quickly.
+  evidence:
+  - fab-cli#50
+  generalized: Subagents can stop before completing their briefed endgame (push/PR/report);
+    orchestrators should verify lane ground truth on idle notifications and nudge
+    with concrete remaining steps rather than waiting or respawning.
+  routing:
+    action: brain-note
+    ref: orchestrator/nudge-idle-subagents

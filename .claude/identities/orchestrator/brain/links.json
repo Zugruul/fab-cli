@@ -64,6 +64,11 @@
     "last": null,
     "weight": 0.5
   },
+  "nudge-idle-subagents->gate-ambient-contamination": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "recall-needs-structural-links->brain-bulk-writes-need-link-reindex": {
     "fires": 0,
     "last": null,

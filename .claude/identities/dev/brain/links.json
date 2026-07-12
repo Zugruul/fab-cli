@@ -1,12 +1,17 @@
 {
   "pricing-cache-contract->scoped-green-verification": {
+    "fires": 1,
+    "last": "2026-07-12",
+    "weight": 0.5
+  },
+  "provider-prefixed-raw-types->pricing-cache-contract": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "scoped-green-verification->pricing-cache-contract": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-12",
     "weight": 0.5
   }
 }

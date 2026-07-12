@@ -1,0 +1,6 @@
+{"event": "seed", "note": "pricing-cache-contract", "activation": 1.1, "ts": "2026-07-12T04:00:50+00:00", "role": "dev"}
+{"event": "seed", "note": "scoped-green-verification", "activation": 1.1, "ts": "2026-07-12T04:00:50+00:00", "role": "dev"}
+{"event": "hop", "note": "scoped-green-verification", "activation": 0.275, "link": "pricing-cache-contract->scoped-green-verification", "ts": "2026-07-12T04:00:50+00:00", "role": "dev"}
+{"event": "hop", "note": "pricing-cache-contract", "activation": 0.275, "link": "scoped-green-verification->pricing-cache-contract", "ts": "2026-07-12T04:00:50+00:00", "role": "dev"}
+{"event": "inject", "note": "pricing-cache-contract", "activation": 1.1, "ts": "2026-07-12T04:00:50+00:00", "role": "dev"}
+{"event": "inject", "note": "scoped-green-verification", "activation": 1.1, "ts": "2026-07-12T04:00:50+00:00", "role": "dev"}
