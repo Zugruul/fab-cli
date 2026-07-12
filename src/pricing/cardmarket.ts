@@ -9,7 +9,12 @@
 // cachedFetch (src/pricing/cache.ts) with a 24h default TTL.
 
 import { cachedFetch, type CachedFetchOptions } from "./cache";
-import type { ConditionCell, Finish, PriceSource } from "./types";
+import type {
+  ConditionCell,
+  ConditionPrices,
+  Finish,
+  PriceSource,
+} from "./types";
 
 const PRICE_GUIDE_URL =
   "https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_16.json";
@@ -186,12 +191,13 @@ export async function fetchCardmarketData(
 
 export interface ResolvedCardmarketPrices {
   /**
-   * All four condition columns (NM, SP/LP, MP, HP) share this one cell —
-   * the `low` (or `low-foil`) price-guide field, source 'low'; null if
-   * `low` is unavailable (§8.3, real-data-only per issue #61 — CM listings
-   * are overwhelmingly NM, so `low` is empirically the cheapest NM price).
+   * NM is the only populated column — the `low` (or `low-foil`)
+   * price-guide field, source 'low'; null if `low` is unavailable.
+   * SP/LP, MP, HP are ALWAYS null: Cardmarket publishes no per-condition
+   * data, so fanning the single `low` aggregate into those columns would
+   * falsely imply granularity that doesn't exist (§8.3, issue #67).
    */
-  conditions: ConditionCell | null;
+  conditions: ConditionPrices;
   /**
    * Reference-only value for the Trend column: trend, cascading trend ->
    * avg30 -> avg7 -> avg1 (never falling back to `low` — `low` is reserved
@@ -225,26 +231,32 @@ function fieldValue(
 
 /**
  * Resolves Cardmarket's non-per-condition price guide row into the domain's
- * shapes per SPEC-PRICE §8.3 (real-data-only, issue #61):
+ * shapes per SPEC-PRICE §8.3 (NM-only, issue #67):
  *
- * - `conditions` = low (or low-foil), source 'low' — shared across all four
- *   condition columns (NM, SP/LP, MP, HP); null if `low` is unavailable.
+ * - `conditions.NM` = low (or low-foil), source 'low'; null if `low` is
+ *   unavailable. `conditions["SP/LP"]`, `conditions.MP`, `conditions.HP`
+ *   are ALWAYS null — Cardmarket has no real per-condition data, so those
+ *   columns never get a fanned-out copy of `low`.
  * - `trend` (reference-only, never used in ratio cells) = trend (or
  *   trend-foil), source 'trend'; if null/missing (or, for foil only,
  *   exactly 0 — Cardmarket's observed no-data marker for `trend-foil`)
  *   cascade avg30 -> avg7 -> avg1, keeping the field name actually used as
  *   the source label. Does NOT fall back to `low` — `low` is exclusively
- *   `conditions`'s source.
- * - If every field is null/missing, both `conditions` and `trend` are null
- *   (§7.3 no-price).
+ *   `conditions.NM`'s source.
+ * - If `low` is unavailable, `conditions` is all-null; if `trend` is also
+ *   unavailable, the whole row carries no data (§7.3 no-price).
  */
 export function resolvePrices(
   row: CardmarketPriceGuideRow,
   finish: Finish,
 ): ResolvedCardmarketPrices {
   const lowValue = fieldValue(row, "low", finish);
-  const conditions: ConditionCell | null =
-    lowValue != null ? { price: lowValue, source: "low" } : null;
+  const conditions: ConditionPrices = {
+    NM: lowValue != null ? { price: lowValue, source: "low" } : null,
+    "SP/LP": null,
+    MP: null,
+    HP: null,
+  };
 
   let trend: ConditionCell | null = null;
   for (const field of NM_CASCADE_FIELDS) {
