@@ -33,6 +33,7 @@ import {
   applyAdjacencyFallback,
   buildComparisonRows,
   cardmarketSetName,
+  collapseDuplicates,
   computeRatioCells,
   fillTcgplayerConditions,
   formatRatioPct,
@@ -406,9 +407,14 @@ function priceCellText(
 
 function renderPriceTable(
   title: string,
-  rows: PriceRow[],
+  rawRows: PriceRow[],
   providerId: PriceProviderId,
 ): void {
+  // Collapse same-identity duplicates before rendering (§4.2) — the ratio
+  // page gets this for free from ComparisonRow[] (already collapsed inside
+  // buildComparisonRows); the raw per-provider rows behind the price pages
+  // need the same collapse applied explicitly.
+  const rows = collapseDuplicates(rawRows);
   console.log(chalk.bold.cyan(title));
   if (rows.length === 0) {
     console.log(chalk.yellow("  No rows."));
@@ -570,7 +576,9 @@ function csvRow(values: (string | number)[]): string {
   return values.map((v) => csvEscape(String(v))).join(",");
 }
 
-function pricePageCsv(rows: PriceRow[]): string {
+function pricePageCsv(rawRows: PriceRow[]): string {
+  // Same collapse as renderPriceTable (§4.2) — see its comment.
+  const rows = collapseDuplicates(rawRows);
   const lines = [
     "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
   ];
