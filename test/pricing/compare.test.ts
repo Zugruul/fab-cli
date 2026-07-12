@@ -95,18 +95,20 @@ describe("buildComparisonRows — normalization", () => {
 });
 
 describe("buildComparisonRows — within-provider duplicate collapse", () => {
-  it("collapses 1st Edition / Unlimited duplicates, cheapest per condition wins", () => {
-    // 1st Ed cheaper on NM, Unlimited cheaper on SP/LP — a naive
+  it("collapses 1st Edition / Unlimited duplicates (same identity, two printings), cheapest per condition wins", () => {
+    // Same canonical identity — e.g. one PriceRow per printing (1st Ed,
+    // Unlimited) sharing (name, set, finish) but differing per-condition
+    // prices. 1st Ed cheaper on NM, Unlimited cheaper on SP/LP — a naive
     // "pick one printing" implementation would get one of these wrong.
     const tcg = [
       row(
-        "Rally the Rearguard (Red) - 1st Edition",
+        "Rally the Rearguard (Red)",
         "Everfest",
         "normal",
         conditions({ NM: 5, "SP/LP": 9 }),
       ),
       row(
-        "Rally the Rearguard (Red) - Unlimited Edition",
+        "Rally the Rearguard (Red)",
         "Everfest",
         "normal",
         conditions({ NM: 7, "SP/LP": 4 }),
