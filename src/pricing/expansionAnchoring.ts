@@ -5,8 +5,22 @@
 // Algorithm: for every normalized card name that exists in exactly one
 // tcgcsv set AND whose Cardmarket products all share exactly one
 // idExpansion, cast one vote idExpansion -> tcgcsv group name. Each
-// idExpansion is then assigned its majority-vote name (ties broken
-// lexicographically by name, smallest wins, for determinism).
+// idExpansion is then assigned its majority-vote name, subject to two
+// confidence guards (§7.2, #60) applied before a name is written to
+// `votes`:
+//   1. Tie guard: if the top vote count is shared by 2+ candidate names,
+//      the idExpansion is omitted from `votes` entirely (no lexicographic
+//      tiebreak — a tie is not a majority).
+//   2. Size-plausibility guard: the CM idExpansion's total product count
+//      (all CM products sharing that idExpansion, not just the voting
+//      ones) must be within 2.5x the winning tcgcsv group's total product
+//      count. A CM expansion much larger than the group it "won" almost
+//      always means Cardmarket merged multiple physical products under
+//      one idExpansion — the vote is kept but the name is untrustworthy,
+//      so it's omitted rather than assigned.
+// Both guards make regeneration idempotent: `votes` is always rebuilt from
+// scratch, so a previously-passing entry that no longer clears a guard is
+// dropped, not carried forward.
 
 import type { Group, Product } from "./tcgcsv";
 import type { CardmarketProduct } from "./cardmarket";
@@ -38,6 +52,46 @@ export function normalizeCardName(name: string): string {
     .replace(/[^a-z0-9()\s]/g, "") // drop punctuation, keep parens
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/**
+ * Size-plausibility guard (§7.2, #60): a CM idExpansion's total product
+ * count SHALL be within 2.5x the winning tcgcsv group's total product count.
+ * A ratio above that strongly suggests Cardmarket merged multiple physical
+ * products (e.g. several small decks) under one idExpansion.
+ *
+ * Ratio chosen from a full empirical pass over the live data (not just the
+ * bug case): legitimate full-size expansions consistently land at 1.4x-2.0x
+ * (CM catalogs more finish/variant rows per card than a tcgcsv group does —
+ * e.g. Dynasty 1.98x, Everfest 1.83x, Uprising 1.85x, Compendium of Rathe
+ * 1.80x — Dynasty's 1.98x was the highest observed legitimate ratio). Actual
+ * merged-expansion cases are far above that band: idExpansion 4501 (the
+ * reported "Armory Deck: Azalea" bug, a 34-card Armory Deck merged with
+ * ~14 other small CM products) sits at 13.9x, and a second real case found
+ * during regeneration (idExpansion 6014, "GEM Pack 4") sits at 5.6x. 2.5x
+ * sits in the gap between the two clusters, comfortably above every
+ * legitimate ratio observed and comfortably below every merge case found.
+ */
+const PLAUSIBILITY_RATIO = 2.5;
+
+export function isPlausibleMatch(
+  cmProductCount: number,
+  tcgGroupProductCount: number,
+): boolean {
+  if (tcgGroupProductCount === 0) return cmProductCount === 0;
+  return cmProductCount <= tcgGroupProductCount * PLAUSIBILITY_RATIO;
+}
+
+/** Builds idExpansion -> total count of CM products sharing it. */
+function idExpansionProductCounts(
+  cardmarketProducts: CardmarketProduct[],
+): Map<number, number> {
+  const counts = new Map<number, number>();
+  for (const product of cardmarketProducts) {
+    if (product.idExpansion == null) continue;
+    counts.set(product.idExpansion, (counts.get(product.idExpansion) ?? 0) + 1);
+  }
+  return counts;
 }
 
 /** Builds normalized-name -> set of tcgcsv groupIds it appears in. */
@@ -104,8 +158,10 @@ export function buildExpansionAnchorMap(
   overrides: Record<string, string> = {},
 ): ExpansionAnchorMap {
   const groupNameById = new Map(groups.map((g) => [g.groupId, g.name]));
+  const groupIdByName = new Map(groups.map((g) => [g.name, g.groupId]));
   const nameGroupIds = nameToGroupIds(productsByGroupId);
   const nameExpansion = nameToSingleExpansion(cardmarketProducts);
+  const cmCounts = idExpansionProductCounts(cardmarketProducts);
 
   // idExpansion -> groupName -> vote count
   const tally = new Map<number, Map<string, number>>();
@@ -131,9 +187,25 @@ export function buildExpansionAnchorMap(
   for (const [expansion, byName] of tally) {
     const ranked = [...byName.entries()].sort((a, b) => {
       if (b[1] !== a[1]) return b[1] - a[1]; // votes desc
-      return a[0].localeCompare(b[0]); // tie: lexicographically smallest name
+      return a[0].localeCompare(b[0]); // stable ordering only (not a tiebreak)
     });
     const [topName, topVotes] = ranked[0];
+
+    // Tie guard: 2+ candidates sharing the top vote count is not a
+    // majority — omit the idExpansion entirely rather than silently
+    // picking one via lexicographic order.
+    if (ranked.length > 1 && ranked[1][1] === topVotes) continue;
+
+    // Size-plausibility guard: the CM expansion's total product count must
+    // be within PLAUSIBILITY_RATIO of the winning tcgcsv group's size.
+    const winningGroupId = groupIdByName.get(topName);
+    const tcgGroupProductCount =
+      winningGroupId != null
+        ? (productsByGroupId.get(winningGroupId)?.length ?? 0)
+        : 0;
+    const cmProductCount = cmCounts.get(expansion) ?? 0;
+    if (!isPlausibleMatch(cmProductCount, tcgGroupProductCount)) continue;
+
     const vote: ExpansionVote = { name: topName, votes: topVotes };
     if (ranked.length > 1) {
       const [runnerUpName, runnerUpVotes] = ranked[1];

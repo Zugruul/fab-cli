@@ -3,6 +3,7 @@ import {
   normalizeCardName,
   buildExpansionAnchorMap,
   resolveExpansionName,
+  isPlausibleMatch,
   type ExpansionAnchorMap,
 } from "../../src/pricing/expansionAnchoring";
 import type { Group, Product } from "../../src/pricing/tcgcsv";
@@ -132,7 +133,10 @@ describe("buildExpansionAnchorMap — unique-name voting + majority", () => {
     });
   });
 
-  it("breaks a tied vote by lexicographically smallest name (deterministic)", () => {
+  it("omits an idExpansion entirely when the top vote is tied between 2+ candidates (no lexicographic tiebreak)", () => {
+    // Regression for the "Armory Deck: Azalea" bug (#60): idExpansion 4501
+    // had 1 vote for two different tcgcsv set names and the old lexicographic
+    // tiebreak silently picked one, mislabeling a 472-product CM expansion.
     const catalog = tcgcsv(
       [
         { groupId: 1, name: "Zzz Set" },
@@ -155,13 +159,115 @@ describe("buildExpansionAnchorMap — unique-name voting + majority", () => {
       GENERATED_AT,
     );
 
-    // Both names have 1 vote each — deterministic tiebreak picks the
-    // lexicographically smallest group name.
-    expect(map.votes["42"]).toEqual({
-      name: "Aaa Set",
-      votes: 1,
-      runnerUp: { name: "Zzz Set", votes: 1 },
+    // Both names have 1 vote each — a tie at the top is treated the same as
+    // no votes: the idExpansion is omitted from `votes` entirely.
+    expect(map.votes["42"]).toBeUndefined();
+  });
+
+  it("omits an idExpansion whose CM total product count is implausible vs. the winning tcgcsv group's size", () => {
+    // Regression for #60: idExpansion 4501 (472 CM products, an Armory Deck
+    // sized set of ~30 cards) won a 1-vote non-tied ballot for a small group.
+    // Even with a clear (non-tied) winner, a CM expansion that is far larger
+    // than the tcgcsv group it "won" almost certainly merges multiple
+    // physical products under one idExpansion and should not be trusted.
+    const catalog = tcgcsv([{ groupId: 1, name: "Armory Deck: Azalea" }], {
+      1: [{ productId: 10, name: "Card A", groupId: 1 }],
     });
+    const cmProducts: CardmarketProduct[] = [
+      { idProduct: 100, name: "Card A", idExpansion: 4501 },
+      // 471 more CM products share idExpansion 4501 but don't qualify for a
+      // vote themselves (e.g. reprinted names) — still counted toward the
+      // expansion's total size for the plausibility check.
+      ...Array.from({ length: 471 }, (_, i) => ({
+        idProduct: 200 + i,
+        name: `Other Card ${i}`,
+        idExpansion: 4501,
+      })),
+    ];
+
+    const map = buildExpansionAnchorMap(
+      catalog.groups,
+      catalog.productsByGroupId,
+      cmProducts,
+      GENERATED_AT,
+    );
+
+    expect(map.votes["4501"]).toBeUndefined();
+  });
+
+  it("keeps a clear-majority, size-plausible winner (regression: unaffected by the new guards)", () => {
+    const catalog = tcgcsv([{ groupId: 1, name: "Everfest" }], {
+      1: Array.from({ length: 28 }, (_, i) => ({
+        productId: 10 + i,
+        name: `Card ${i}`,
+        groupId: 1,
+      })),
+    });
+    const cmProducts: CardmarketProduct[] = Array.from(
+      { length: 28 },
+      (_, i) => ({
+        idProduct: 100 + i,
+        name: `Card ${i}`,
+        idExpansion: 4500,
+      }),
+    );
+
+    const map = buildExpansionAnchorMap(
+      catalog.groups,
+      catalog.productsByGroupId,
+      cmProducts,
+      GENERATED_AT,
+    );
+
+    expect(map.votes["4500"]).toEqual({ name: "Everfest", votes: 28 });
+  });
+
+  it("idempotently shrinks votes on regeneration: a previously-passing entry that no longer clears the guard is removed, not kept", () => {
+    // Simulates re-running the generator against fresher CM data where
+    // idExpansion 42 has since accreted many more products than the small
+    // tcgcsv group it voted for — the regenerated `votes` output must not
+    // carry the stale entry forward just because it existed before.
+    const catalog = tcgcsv([{ groupId: 1, name: "Small Set" }], {
+      1: [{ productId: 10, name: "Card A", groupId: 1 }],
+    });
+    const cmProducts: CardmarketProduct[] = [
+      { idProduct: 100, name: "Card A", idExpansion: 42 },
+      ...Array.from({ length: 50 }, (_, i) => ({
+        idProduct: 200 + i,
+        name: `Filler ${i}`,
+        idExpansion: 42,
+      })),
+    ];
+
+    const map = buildExpansionAnchorMap(
+      catalog.groups,
+      catalog.productsByGroupId,
+      cmProducts,
+      GENERATED_AT,
+      {},
+    );
+
+    expect(map.votes["42"]).toBeUndefined();
+  });
+});
+
+describe("isPlausibleMatch", () => {
+  it("accepts a CM product count within 2.5x the tcgcsv group's product count", () => {
+    expect(isPlausibleMatch(30, 28)).toBe(true);
+    expect(isPlausibleMatch(70, 28)).toBe(true); // exactly 2.5x
+  });
+
+  it("rejects a CM product count exceeding 2.5x the tcgcsv group's product count", () => {
+    expect(isPlausibleMatch(472, 1)).toBe(false);
+    expect(isPlausibleMatch(71, 28)).toBe(false);
+  });
+
+  it("rejects a nonzero CM product count against an empty tcgcsv group", () => {
+    expect(isPlausibleMatch(1, 0)).toBe(false);
+  });
+
+  it("accepts a zero/zero edge case", () => {
+    expect(isPlausibleMatch(0, 0)).toBe(true);
   });
 });
 
