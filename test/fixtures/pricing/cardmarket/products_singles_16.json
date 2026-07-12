@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "createdAt": "2026-07-11T00:00:00+0000",
+  "products": [
+    {
+      "idProduct": 100,
+      "name": "Command and Conquer",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 42,
+      "idMetacard": 900,
+      "dateAdded": "2023-03-24 00:00:00"
+    },
+    {
+      "idProduct": 101,
+      "name": "Snatch (Blue)",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 42,
+      "idMetacard": 901,
+      "dateAdded": "2023-03-24 00:00:00"
+    },
+    {
+      "idProduct": 102,
+      "name": "Enlightened Strike (Red)",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 43,
+      "idMetacard": 902,
+      "dateAdded": "2023-06-30 00:00:00"
+    },
+    {
+      "idProduct": 103,
+      "name": "Obscure Rare Foil",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 43,
+      "idMetacard": 903,
+      "dateAdded": "2023-06-30 00:00:00"
+    },
+    {
+      "idProduct": 104,
+      "name": "Foil Trendless Card",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 43,
+      "idMetacard": 904,
+      "dateAdded": "2023-06-30 00:00:00"
+    },
+    {
+      "idProduct": 105,
+      "name": "Sparse Fields Card",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 43,
+      "idMetacard": 905,
+      "dateAdded": "2023-06-30 00:00:00"
+    },
+    {
+      "idProduct": 200,
+      "name": "No Guide Row Card",
+      "idCategory": 16,
+      "categoryName": "Flesh and Blood Singles",
+      "idExpansion": 44,
+      "idMetacard": 906,
+      "dateAdded": "2023-09-01 00:00:00"
+    }
+  ]
+}
