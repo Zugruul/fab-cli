@@ -42,7 +42,7 @@ import { loginWithPassword } from "./cognito";
 import { ensureIndex, buildIndex, loadIndex, search as searchLore, findDoc, readDocBody, updateSubmodule } from "./lore";
 import { updateRulesDocs, commitRulesDocs, RULES_DIR } from "./rulesDocs";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
-import { fetchGroups, fetchGroupProducts, fetchGroupPrices, type FetchFn as TcgcsvFetchFn } from "./pricing/tcgcsv";
+import { fetchGroups, fetchGroupProducts, fetchGroupPrices, fetchGroupData } from "./pricing/tcgcsv";
 import { fetchProductConditions } from "./pricing/tcgplayerSearch";
 import { fetchCardmarketData } from "./pricing/cardmarket";
 import { fetchEurUsdRate } from "./pricing/fx";
@@ -53,22 +53,11 @@ import * as fs from "fs";
 
 const cardmarketExpansionAnchorMap = expansionAnchorMapJson as unknown as ExpansionAnchorMap;
 
-/**
- * tcgcsv.com 401s requests with no User-Agent header (Node's default fetch
- * sends none) — see scripts/cardmarket-expansions.ts for the same fix. The
- * client itself doesn't default one, so command wiring supplies it here.
- */
-const TCGCSV_USER_AGENT = "Mozilla/5.0";
-const tcgcsvFetchWithUserAgent: TcgcsvFetchFn = (url) =>
-  fetch(url, { headers: { "User-Agent": TCGCSV_USER_AGENT } }) as ReturnType<TcgcsvFetchFn>;
-
 function buildCardCommandDeps(): CardCommandDeps {
   return {
-    fetchGroups: (opts) => fetchGroups({ ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
-    fetchGroupProducts: (groupId, opts) =>
-      fetchGroupProducts(groupId, { ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
-    fetchGroupPrices: (groupId, opts) =>
-      fetchGroupPrices(groupId, { ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
+    fetchGroups,
+    fetchGroupProducts,
+    fetchGroupPrices,
     fetchProductConditions: (q, opts) => fetchProductConditions(q, opts),
     fetchCardmarketData: (opts) => fetchCardmarketData(opts),
     fetchEurUsdRate: (opts) => fetchEurUsdRate(opts),

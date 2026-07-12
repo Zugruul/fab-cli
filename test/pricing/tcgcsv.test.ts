@@ -56,6 +56,37 @@ beforeEach(async () => {
 afterEach(async () => {
   await fs.promises.rm(tmpDir, { recursive: true, force: true });
   vi.restoreAllMocks();
+  vi.unstubAllGlobals();
+});
+
+describe("default User-Agent (issue #45)", () => {
+  it("sends a browser User-Agent header when no fetchFn override is provided", async () => {
+    const fixture = loadFixture("groups");
+    const fetchSpy = vi.fn(async (_url: string, _init?: RequestInit) =>
+      jsonResponse(fixture),
+    );
+    vi.stubGlobal("fetch", fetchSpy);
+
+    const groups = await fetchGroups({ cacheDir: tmpDir });
+
+    expect(groups).toHaveLength(2);
+    expect(fetchSpy).toHaveBeenCalledTimes(1);
+    const [, init] = fetchSpy.mock.calls[0];
+    expect(init).toMatchObject({
+      headers: { "User-Agent": expect.any(String) },
+    });
+  });
+
+  it("does not send the default header when a fetchFn override is provided", async () => {
+    const fixture = loadFixture("groups");
+    const fetchFn = vi.fn(routedFetchFn({ "/groups": fixture }));
+
+    await fetchGroups({ cacheDir: tmpDir, fetchFn });
+
+    // The override's own signature has no init/headers argument — proves
+    // the default UA wiring never runs when fetchFn is supplied.
+    expect(fetchFn).toHaveBeenCalledWith(expect.stringContaining("/groups"));
+  });
 });
 
 describe("fetchGroups", () => {
