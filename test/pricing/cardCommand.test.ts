@@ -10,7 +10,11 @@ import {
 } from "../../src/pricing/cardCommand";
 import type { Group, Product, TcgcsvPriceRow } from "../../src/pricing/tcgcsv";
 import type { ConditionPriceMap } from "../../src/pricing/tcgplayerSearch";
-import type { CardmarketData, CardmarketPriceGuideRow, CardmarketProduct } from "../../src/pricing/cardmarket";
+import type {
+  CardmarketData,
+  CardmarketPriceGuideRow,
+  CardmarketProduct,
+} from "../../src/pricing/cardmarket";
 import type { FxRate } from "../../src/pricing/fx";
 import { FxHttpError } from "../../src/pricing/fx";
 import type { ExpansionAnchorMap } from "../../src/pricing/expansionAnchoring";
@@ -102,7 +106,9 @@ describe("resolveCardProducts", () => {
 
   it("fetches all groups' products and resolves an unambiguous match", async () => {
     const fetchGroups = vi.fn().mockResolvedValue(groups);
-    const fetchGroupProducts = vi.fn(async (groupId: number) => productsFor(groupId));
+    const fetchGroupProducts = vi.fn(async (groupId: number) =>
+      productsFor(groupId),
+    );
 
     const result = await resolveCardProducts("command and conquer", {
       fetchGroups,
@@ -172,7 +178,12 @@ function makeDeps(overrides: Partial<CardCommandDeps> = {}): CardCommandDeps {
     productsById: new Map([[100, cmProducts[0]]]),
   };
 
-  const fx: FxRate = { rate: 1.1, date: "2026-07-11", base: "EUR", quote: "USD" };
+  const fx: FxRate = {
+    rate: 1.1,
+    date: "2026-07-11",
+    base: "EUR",
+    quote: "USD",
+  };
 
   return {
     fetchGroups: vi.fn().mockResolvedValue(groups),
@@ -237,7 +248,9 @@ describe("assembleCardComparison", () => {
   });
 
   it("no card found", async () => {
-    const deps = makeDeps({ fetchGroupProducts: vi.fn().mockResolvedValue([]) });
+    const deps = makeDeps({
+      fetchGroupProducts: vi.fn().mockResolvedValue([]),
+    });
     const result = await assembleCardComparison("nothing here", deps);
     expect(result.kind).toBe("none");
   });
@@ -284,11 +297,7 @@ describe("isFallbackCell", () => {
       isFallbackCell({ price: 5, source: "market" }, "tcgplayer", "NM"),
     ).toBe(true);
     expect(
-      isFallbackCell(
-        { price: 5, source: "adjacent:NM" },
-        "tcgplayer",
-        "SP/LP",
-      ),
+      isFallbackCell({ price: 5, source: "adjacent:NM" }, "tcgplayer", "SP/LP"),
     ).toBe(true);
   });
 
@@ -337,8 +346,12 @@ describe("renderCsv", () => {
     expect(csv1).toContain("# page 2 — Cardmarket prices (EUR)");
     expect(csv1).toContain("# page 3 — Ratio: tcgplayer / cardmarket");
     expect(csv1).toContain("# page 4 — Ratio: cardmarket / tcgplayer");
-    expect(csv1).toContain("Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source");
-    expect(csv1).toContain("Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis");
+    expect(csv1).toContain(
+      "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source",
+    );
+    expect(csv1).toContain(
+      "Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis",
+    );
     expect(csv1).toContain("# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)");
     expect(csv1).toMatchSnapshot();
   });

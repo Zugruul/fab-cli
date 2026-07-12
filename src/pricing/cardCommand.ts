@@ -20,7 +20,10 @@ import {
   type TcgcsvOptions,
   type TcgcsvPriceRow,
 } from "./tcgcsv";
-import type { ConditionPriceMap, TcgplayerSearchOptions } from "./tcgplayerSearch";
+import type {
+  ConditionPriceMap,
+  TcgplayerSearchOptions,
+} from "./tcgplayerSearch";
 import type { CardmarketData, CardmarketOptions } from "./cardmarket";
 import { resolvePrices } from "./cardmarket";
 import { type FxOptions, type FxRate, isFxError } from "./fx";
@@ -95,7 +98,10 @@ export function matchCardProducts(
   }
 
   if (candidates.length > 1) {
-    return { kind: "ambiguous", candidates: [...candidates].sort((a, b) => a.localeCompare(b)) };
+    return {
+      kind: "ambiguous",
+      candidates: [...candidates].sort((a, b) => a.localeCompare(b)),
+    };
   }
 
   return {
@@ -112,7 +118,10 @@ export function matchCardProducts(
 export interface CardCommandDeps {
   fetchGroups(opts?: TcgcsvOptions): Promise<Group[]>;
   fetchGroupProducts(groupId: number, opts?: TcgcsvOptions): Promise<Product[]>;
-  fetchGroupPrices(groupId: number, opts?: TcgcsvOptions): Promise<TcgcsvPriceRow[]>;
+  fetchGroupPrices(
+    groupId: number,
+    opts?: TcgcsvOptions,
+  ): Promise<TcgcsvPriceRow[]>;
   fetchProductConditions(
     q: string,
     opts?: TcgplayerSearchOptions,
@@ -137,14 +146,12 @@ export async function resolveCardProducts(
   const groups = await deps.fetchGroups(opts);
   const productLists = await mapWithConcurrency(groups, 4, async (group) => {
     const products = await deps.fetchGroupProducts(group.groupId, opts);
-    return products.map(
-      (p): CatalogEntry => ({
-        productId: p.productId,
-        name: p.name,
-        groupId: group.groupId,
-        groupName: group.name,
-      }),
-    );
+    return products.map((p): CatalogEntry => ({
+      productId: p.productId,
+      name: p.name,
+      groupId: group.groupId,
+      groupName: group.name,
+    }));
   });
   return matchCardProducts(productLists.flat(), nameArg);
 }
@@ -183,7 +190,12 @@ async function buildTcgplayerRows(
     const finishRows =
       priceRows.length > 0
         ? priceRows
-        : [{ productId: entry.productId, subTypeName: "Normal" } as TcgcsvPriceRow];
+        : [
+            {
+              productId: entry.productId,
+              subTypeName: "Normal",
+            } as TcgcsvPriceRow,
+          ];
 
     const seenFinishes = new Set<string>();
     for (const priceRow of finishRows) {
@@ -225,7 +237,9 @@ async function buildCardmarketRows(
 ): Promise<PriceRow[]> {
   const data = await deps.fetchCardmarketData();
   const target = normalizeCardName(canonicalName);
-  const matches = data.products.filter((p) => normalizeCardName(p.name) === target);
+  const matches = data.products.filter(
+    (p) => normalizeCardName(p.name) === target,
+  );
 
   const rows: PriceRow[] = [];
   for (const product of matches) {
@@ -377,9 +391,16 @@ function fallbackSourcesOnPage(
 // Terminal rendering (cli-table3 + chalk, matching src/display.ts conventions)
 // ---------------------------------------------------------------------------
 
-function priceCellText(cell: ConditionCell | null, providerId: PriceProviderId, column: ConditionColumn): string {
+function priceCellText(
+  cell: ConditionCell | null,
+  providerId: PriceProviderId,
+  column: ConditionColumn,
+): string {
   if (cell == null) return chalk.dim("—");
-  const text = `$${cell.price.toFixed(2)}`.replace("$", providerId === "tcgplayer" ? "$" : "€");
+  const text = `$${cell.price.toFixed(2)}`.replace(
+    "$",
+    providerId === "tcgplayer" ? "$" : "€",
+  );
   return isFallbackCell(cell, providerId, column) ? chalk.bold(text) : text;
 }
 
@@ -462,7 +483,9 @@ function renderRatioTable(
 }
 
 /** Prints the full 4-page (or 2-page, if FX failed) output for the `card` command. */
-export function printCardComparison(result: CardCommandResult & { kind: "found" }): void {
+export function printCardComparison(
+  result: CardCommandResult & { kind: "found" },
+): void {
   renderPriceTable(
     `TCGplayer prices (USD) — ${result.canonicalName}`,
     result.tcgplayerRows,
@@ -484,9 +507,7 @@ export function printCardComparison(result: CardCommandResult & { kind: "found" 
 
   console.log();
   console.log(
-    chalk.dim(
-      `fx: 1 EUR = ${result.fx.rate} USD (ECB ${result.fx.date})`,
-    ),
+    chalk.dim(`fx: 1 EUR = ${result.fx.rate} USD (ECB ${result.fx.date})`),
   );
 
   const tcgCmRatios = new Map<
@@ -521,9 +542,17 @@ export function printCardComparison(result: CardCommandResult & { kind: "found" 
   }
 
   console.log();
-  renderRatioTable("Ratio: tcgplayer / cardmarket", result.comparisonRows, tcgCmRatios);
+  renderRatioTable(
+    "Ratio: tcgplayer / cardmarket",
+    result.comparisonRows,
+    tcgCmRatios,
+  );
   console.log();
-  renderRatioTable("Ratio: cardmarket / tcgplayer", result.comparisonRows, cmTcgRatios);
+  renderRatioTable(
+    "Ratio: cardmarket / tcgplayer",
+    result.comparisonRows,
+    cmTcgRatios,
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -579,7 +608,12 @@ function ratioPageCsv(
   for (const row of sorted) {
     const a = row.conditionsByProvider[providerAKey];
     const b = row.conditionsByProvider[providerBKey];
-    const ratios = computeRatioCells(a, b, { fx, currencyA, currencyB, common });
+    const ratios = computeRatioCells(a, b, {
+      fx,
+      currencyA,
+      currencyB,
+      common,
+    });
     const cells = CONDITION_COLUMNS.flatMap((column) => {
       const cell = ratios[column];
       return [cell ? formatRatioPct(cell.pct) : "", cell ? cell.basis : ""];
@@ -590,7 +624,9 @@ function ratioPageCsv(
 }
 
 /** Renders the full §9.3-shaped, `# page N` separated CSV for the `card` command. */
-export function renderCsv(result: CardCommandResult & { kind: "found" }): string {
+export function renderCsv(
+  result: CardCommandResult & { kind: "found" },
+): string {
   const pages: string[] = [];
 
   pages.push(
@@ -601,7 +637,9 @@ export function renderCsv(result: CardCommandResult & { kind: "found" }): string
   );
 
   if (result.ratioError || !result.fx) {
-    pages.push(`# ratio unavailable: ${result.ratioError ?? "FX rate not available"}`);
+    pages.push(
+      `# ratio unavailable: ${result.ratioError ?? "FX rate not available"}`,
+    );
     return pages.join("\n\n");
   }
 
