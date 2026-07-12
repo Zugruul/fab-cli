@@ -850,3 +850,51 @@ items:
   routing:
     action: brain-note
     ref: dev/real-data-only-doctrine
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T00:00:00Z'
+iteration:
+  task: ad-hoc
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: friction
+  area: other
+  component: neural-view
+  severity: low
+  summary: neural-view's "frontmatter" search filter only scans the paths and source
+    fields, not the note's actual custom frontmatter keys
+  detail: 'Added a new frontmatter key (a per-card printing-code list) to a knowledge-brain
+    note generator, expecting it to be searchable via neural-view''s "frontmatter"
+    search filter toggle. It wasn''t: searchNoteMatches() in the neural-view template
+    only pushes nd.paths and nd.source into the search haystack under that filter
+    name, not the note''s other frontmatter fields. The filter''s name implies coverage
+    of all frontmatter, so a new field is silently unsearchable until someone notices
+    a zero-match search and reads the template source to find out why. Worked around
+    by also folding the new values into `tags` (the documented recall surface), but
+    the naming mismatch remains.
+
+    '
+  generalized: 'In a note-based knowledge-brain UI with a search filter literally
+    labeled "frontmatter", a new custom frontmatter field added by a project''s note
+    generator is not discoverable through that filter unless it happens to be one
+    of the few hardcoded fields the filter actually scans (e.g. paths/source) — the
+    filter''s name overpromises its coverage. Either broaden the filter to scan a
+    note''s full frontmatter generically, or rename it to reflect what it truly scans,
+    and document "tags" as the only guaranteed-searchable custom-field surface so
+    generator authors don''t have to discover this by reading frontend source.
+
+    '
+  proposal:
+    target: neural-view search
+    change: Broaden the "frontmatter" filter to scan all frontmatter key/value pairs
+      of a note (not just paths/source), or rename it and document that custom fields
+      must be echoed into tags to be searchable.
+  routing:
+    action: upstream
+    ref: 'development-skills (neural-view.html: broaden ''frontmatter'' search filter
+      to scan a note''s full frontmatter, not just paths/source, or rename the toggle)'
