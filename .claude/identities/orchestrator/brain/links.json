@@ -19,6 +19,16 @@
     "last": null,
     "weight": 0.5
   },
+  "gate-ambient-contamination->gh-pr-merge-diverged-local": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gh-pr-merge-diverged-local->gate-ambient-contamination": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "human-directive-vs-readonly-consult->human-validation-confidence-loop": {
     "fires": 0,
     "last": null,

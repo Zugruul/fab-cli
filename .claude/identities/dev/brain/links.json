@@ -1,1 +1,12 @@
-{}
+{
+  "pricing-cache-contract->scoped-green-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "scoped-green-verification->pricing-cache-contract": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}
