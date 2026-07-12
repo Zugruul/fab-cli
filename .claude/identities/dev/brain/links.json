@@ -39,6 +39,16 @@
     "last": null,
     "weight": 0.5
   },
+  "typed-error-boundary-guards->test-must-falsify": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "typed-error-boundary-guards->untyped-api-optional-fields": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "untyped-api-optional-fields->pricing-cache-contract": {
     "fires": 0,
     "last": null,

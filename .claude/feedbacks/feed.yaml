@@ -776,3 +776,31 @@ items:
   routing:
     action: brain-note
     ref: dev/tcgcsv-requires-user-agent
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T06:25:00Z'
+iteration:
+  task: PRICE-006
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Reviewer wrote a live probe test to demonstrate a typed-error contract
+    violation instead of arguing from reading
+  detail: Fed the client a fetchFn returning a null 200 body and showed the raw TypeError
+    escaping; the accumulated lesson corpus (falsifying tests, optional-field guards)
+    is visibly raising both dev baseline and reviewer depth each iteration.
+  evidence:
+  - fab-cli#55
+  generalized: Reviewers who execute a minimal probe against the claimed contract
+    (rather than only reading the code) convert style opinions into reproducible findings,
+    and iteratively minted lessons compound across a multi-task epic.
+  routing:
+    action: brain-note
+    ref: dev/typed-error-boundary-guards
