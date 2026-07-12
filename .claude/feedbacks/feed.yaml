@@ -733,3 +733,46 @@ items:
   routing:
     action: upstream
     ref: 'plugin: gate.sh PyYAML dependency vs PEP-668 hosts'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T06:00:00Z'
+iteration:
+  task: PRICE-005
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Reviewer re-ran the live generation script and reproduced the committed
+    artifact byte-for-byte before approving
+  detail: Also root-caused apparent low mapping coverage to upstream duplicate catalog
+    entries rather than an algorithm bug, by inspecting the raw data.
+  evidence:
+  - fab-cli#54
+  generalized: For PRs that commit generated artifacts, the reviewer reproducing the
+    generation run and diffing against the committed file is the decisive check —
+    it separates data quirks from algorithm bugs and proves the artifact wasn't hand-edited.
+  routing:
+    action: brain-note
+    ref: reviewer/isolated-worktree-tdd-proof
+- category: recommendation
+  area: briefing
+  severity: low
+  summary: Upstream API quirks discovered mid-task should be recorded where the NEXT
+    task will look
+  detail: The 401-without-User-Agent quirk was scoped correctly for this task, and
+    a note was left on the future export task's issue so it isn't rediscovered.
+  evidence:
+  - fab-cli#54
+  - fab-cli#45
+  generalized: When a task discovers a permanent upstream API quirk with a locally-scoped
+    workaround, leave the finding as a comment on the future task that will hit it
+    — briefs are assembled from issues, so that's where it gets recalled.
+  routing:
+    action: brain-note
+    ref: dev/tcgcsv-requires-user-agent

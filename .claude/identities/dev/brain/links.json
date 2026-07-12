@@ -1,4 +1,9 @@
 {
+  "cardmarket-duplicate-expansions->tcgcsv-requires-user-agent": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "pricing-cache-contract->scoped-green-verification": {
     "fires": 1,
     "last": "2026-07-12",
@@ -20,6 +25,11 @@
     "weight": 0.5
   },
   "sibling-pattern-parity->untyped-api-optional-fields": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tcgcsv-requires-user-agent->sibling-pattern-parity": {
     "fires": 0,
     "last": null,
     "weight": 0.5
