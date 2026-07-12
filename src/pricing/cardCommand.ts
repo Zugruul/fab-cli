@@ -9,6 +9,11 @@
 // condition FILL (fillTcgplayerConditions / resolvePrices) runs BEFORE
 // buildComparisonRows. assembleCardComparison below fills both providers'
 // rows first, then matches — never the other way around.
+//
+// REAL-DATA-ONLY (issue #61, spec delta PRICE-061): no fabricated fill, no
+// bold/footnote fallback marker anywhere — a cell is either a real price or
+// empty ('—'). The Cardmarket price page additionally carries a reference-
+// only Trend column (never used in ratio cells).
 
 import chalk from "chalk";
 import Table from "cli-table3";
@@ -30,7 +35,6 @@ import { type FxOptions, type FxRate, isFxError } from "./fx";
 import { normalizeCardName } from "./expansionAnchoring";
 import type { ExpansionAnchorMap } from "./expansionAnchoring";
 import {
-  applyAdjacencyFallback,
   buildComparisonRows,
   cardmarketSetName,
   collapseDuplicates,
@@ -208,53 +212,48 @@ async function buildTcgplayerRows(
         name: entry.name,
         set: entry.groupName,
         finish,
-        conditions: fillTcgplayerConditions({
-          listings,
-          marketPrice: priceRow.marketPrice,
-          lowPrice: priceRow.lowPrice,
-        }),
+        conditions: fillTcgplayerConditions({ listings }),
       });
     }
   }
   return rows;
 }
 
-function conditionsFromResolved(
-  nm: ConditionCell | null,
-  others: ConditionCell | null,
-): ConditionPrices {
-  return applyAdjacencyFallback({
-    NM: nm,
-    "SP/LP": others,
-    MP: others,
-    HP: others,
-  });
+/** A Cardmarket price row plus its reference-only Trend value (issue #61). */
+export interface CardmarketPriceRow extends PriceRow {
+  trend: ConditionCell | null;
+}
+
+/** All four condition columns share the one real 'low' cell (§8.3, real-data-only). */
+function conditionsFromLow(low: ConditionCell | null): ConditionPrices {
+  return { NM: low, "SP/LP": low, MP: low, HP: low };
 }
 
 async function buildCardmarketRows(
   canonicalName: string,
   anchorMap: ExpansionAnchorMap,
   deps: CardCommandDeps,
-): Promise<PriceRow[]> {
+): Promise<CardmarketPriceRow[]> {
   const data = await deps.fetchCardmarketData();
   const target = normalizeCardName(canonicalName);
   const matches = data.products.filter(
     (p) => normalizeCardName(p.name) === target,
   );
 
-  const rows: PriceRow[] = [];
+  const rows: CardmarketPriceRow[] = [];
   for (const product of matches) {
     const guideRow = data.priceGuideByProduct.get(product.idProduct);
     const set = cardmarketSetName(product.idExpansion, anchorMap);
 
     const normal = guideRow
       ? resolvePrices(guideRow, "normal")
-      : { nm: null, others: null };
+      : { conditions: null, trend: null };
     rows.push({
       name: product.name,
       set,
       finish: "normal",
-      conditions: conditionsFromResolved(normal.nm, normal.others),
+      conditions: conditionsFromLow(normal.conditions),
+      trend: normal.trend,
     });
 
     if (guideRow) {
@@ -262,12 +261,13 @@ async function buildCardmarketRows(
       // Only emit a foil row when there's an actual foil price — otherwise
       // this would manufacture a spurious all-null "no-price" row for a
       // product that may not even have a foil printing.
-      if (foil.nm != null || foil.others != null) {
+      if (foil.conditions != null || foil.trend != null) {
         rows.push({
           name: product.name,
           set,
           finish: "foil",
-          conditions: conditionsFromResolved(foil.nm, foil.others),
+          conditions: conditionsFromLow(foil.conditions),
+          trend: foil.trend,
         });
       }
     }
@@ -286,7 +286,7 @@ export type CardCommandResult =
       kind: "found";
       canonicalName: string;
       tcgplayerRows: PriceRow[];
-      cardmarketRows: PriceRow[];
+      cardmarketRows: CardmarketPriceRow[];
       comparisonRows: ComparisonRow[];
       unmatched: UnmatchedRow[];
       currency: "usd" | "eur";
@@ -342,67 +342,20 @@ export async function assembleCardComparison(
 }
 
 // ---------------------------------------------------------------------------
-// Bold-fallback decision (§9.1: "fallback-sourced prices render bold") — pure
+// Terminal rendering (cli-table3 + chalk, matching src/display.ts
+// conventions). Real-data-only (issue #61): no bold/fallback marking — a
+// cell is either a real price or empty ('—').
 // ---------------------------------------------------------------------------
 
 export type PriceProviderId = "tcgplayer" | "cardmarket";
 
-/**
- * The "exact" (non-fallback) source for a column on a given provider's price
- * page (§8): tcgplayer's exact source is 'listing'; cardmarket's only exact
- * source is 'trend', and only for the NM column — SP/LP, MP, HP are always
- * sourced from 'low' (§8.3), so they are always considered fallback there.
- */
-function exactSource(
-  providerId: PriceProviderId,
-  column: ConditionColumn,
-): string | null {
-  if (providerId === "tcgplayer") return "listing";
-  return column === "NM" ? "trend" : null;
-}
-
-export function isFallbackCell(
-  cell: ConditionCell | null,
-  providerId: PriceProviderId,
-  column: ConditionColumn,
-): boolean {
-  if (cell == null) return false;
-  const exact = exactSource(providerId, column);
-  if (exact == null) return true;
-  return cell.source !== exact;
-}
-
-function fallbackSourcesOnPage(
-  rows: PriceRow[],
-  providerId: PriceProviderId,
-): string[] {
-  const sources = new Set<string>();
-  for (const row of rows) {
-    for (const column of CONDITION_COLUMNS) {
-      const cell = row.conditions[column];
-      if (isFallbackCell(cell, providerId, column) && cell) {
-        sources.add(cell.source);
-      }
-    }
-  }
-  return [...sources].sort();
-}
-
-// ---------------------------------------------------------------------------
-// Terminal rendering (cli-table3 + chalk, matching src/display.ts conventions)
-// ---------------------------------------------------------------------------
-
 function priceCellText(
   cell: ConditionCell | null,
   providerId: PriceProviderId,
-  column: ConditionColumn,
 ): string {
   if (cell == null) return chalk.dim("—");
-  const text = `$${cell.price.toFixed(2)}`.replace(
-    "$",
-    providerId === "tcgplayer" ? "$" : "€",
-  );
-  return isFallbackCell(cell, providerId, column) ? chalk.bold(text) : text;
+  const symbol = providerId === "tcgplayer" ? "$" : "€";
+  return `${symbol}${cell.price.toFixed(2)}`;
 }
 
 function renderPriceTable(
@@ -432,21 +385,50 @@ function renderPriceTable(
       row.name,
       row.set,
       row.finish,
-      priceCellText(row.conditions.NM, providerId, "NM"),
-      priceCellText(row.conditions["SP/LP"], providerId, "SP/LP"),
-      priceCellText(row.conditions.MP, providerId, "MP"),
-      priceCellText(row.conditions.HP, providerId, "HP"),
+      priceCellText(row.conditions.NM, providerId),
+      priceCellText(row.conditions["SP/LP"], providerId),
+      priceCellText(row.conditions.MP, providerId),
+      priceCellText(row.conditions.HP, providerId),
     ]);
   }
   console.log(table.toString());
-  const sources = fallbackSourcesOnPage(rows, providerId);
-  if (sources.length > 0) {
-    console.log(
-      chalk.dim(
-        `bold = price not found for this condition; taken from: ${sources.join(", ")}`,
-      ),
-    );
+}
+
+/**
+ * Cardmarket-specific price table (issue #61): same four condition columns
+ * (all sourced from 'low') plus a trailing reference-only Trend column,
+ * never used in ratio cells.
+ */
+function renderCardmarketPriceTable(
+  title: string,
+  rawRows: CardmarketPriceRow[],
+): void {
+  const rows = collapseDuplicates(rawRows);
+  console.log(chalk.bold.cyan(title));
+  if (rows.length === 0) {
+    console.log(chalk.yellow("  No rows."));
+    return;
   }
+  const table = new Table({
+    head: ["Name", "Set", "Finish", "NM", "SP/LP", "MP", "HP", "Trend"].map(
+      (h) => chalk.cyan(h),
+    ),
+    style: { compact: true },
+    wordWrap: false,
+  });
+  for (const row of rows) {
+    table.push([
+      row.name,
+      row.set,
+      row.finish,
+      priceCellText(row.conditions.NM, "cardmarket"),
+      priceCellText(row.conditions["SP/LP"], "cardmarket"),
+      priceCellText(row.conditions.MP, "cardmarket"),
+      priceCellText(row.conditions.HP, "cardmarket"),
+      priceCellText(row.trend, "cardmarket"),
+    ]);
+  }
+  console.log(table.toString());
 }
 
 function ratioCellText(cell: RatioCell | null): string {
@@ -498,10 +480,9 @@ export function printCardComparison(
     "tcgplayer",
   );
   console.log();
-  renderPriceTable(
+  renderCardmarketPriceTable(
     `Cardmarket prices (EUR) — ${result.canonicalName}`,
     result.cardmarketRows,
-    "cardmarket",
   );
 
   if (result.ratioError) {
@@ -598,6 +579,37 @@ function pricePageCsv(rawRows: PriceRow[]): string {
   return lines.join("\n");
 }
 
+/**
+ * Cardmarket price page CSV (issue #61): same header as `pricePageCsv` plus
+ * a trailing `Trend,Trend Source` companion pair (§9.3).
+ */
+function cardmarketPriceCsv(rawRows: CardmarketPriceRow[]): string {
+  const rows = collapseDuplicates(rawRows);
+  const lines = [
+    "Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source,Trend,Trend Source",
+  ];
+  const sorted = [...rows].sort(
+    (a, b) =>
+      a.set.localeCompare(b.set) ||
+      a.name.localeCompare(b.name) ||
+      (a.finish === b.finish ? 0 : a.finish === "normal" ? -1 : 1),
+  );
+  for (const row of sorted) {
+    const cells = CONDITION_COLUMNS.flatMap((column) => {
+      const cell = row.conditions[column];
+      return [cell ? cell.price : "", cell ? cell.source : ""];
+    });
+    const trendCells = [
+      row.trend ? row.trend.price : "",
+      row.trend ? row.trend.source : "",
+    ];
+    lines.push(
+      csvRow([row.name, row.set, row.finish, ...cells, ...trendCells]),
+    );
+  }
+  return lines.join("\n");
+}
+
 function ratioPageCsv(
   rows: ComparisonRow[],
   currencyA: "USD" | "EUR",
@@ -641,7 +653,7 @@ export function renderCsv(
     `# page 1 — TCGplayer prices (USD)\n# currency: USD\n${pricePageCsv(result.tcgplayerRows)}`,
   );
   pages.push(
-    `# page 2 — Cardmarket prices (EUR)\n# currency: EUR\n${pricePageCsv(result.cardmarketRows)}`,
+    `# page 2 — Cardmarket prices (EUR)\n# currency: EUR\n${cardmarketPriceCsv(result.cardmarketRows)}`,
   );
 
   if (result.ratioError || !result.fx) {
