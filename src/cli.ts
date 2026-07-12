@@ -1004,7 +1004,7 @@ async function callWithToken<T>(fn: (token: string) => Promise<T>): Promise<T> {
     token = await getValidToken();
   } catch {
     console.error(chalk.red("Not logged in. Run: fab-cli fabrary login"));
-    process.exit(1) as never;
+    return process.exit(1);
   }
   try {
     return await fn(token);
@@ -1016,7 +1016,7 @@ async function callWithToken<T>(fn: (token: string) => Promise<T>): Promise<T> {
         fresh = await getValidToken({ force: true });
       } catch {
         console.error(chalk.red("Session expired. Run: fab-cli fabrary login"));
-        process.exit(1) as never;
+        return process.exit(1);
       }
       return await fn(fresh);
     }

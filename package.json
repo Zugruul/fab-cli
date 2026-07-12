@@ -11,6 +11,9 @@
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "gate": "npm run typecheck && npm run lint && npm run format:check && npm run test:run",
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "test:run": "vitest run",
     "dev": "tsx src/cli.ts",
     "postinstall": "node scripts/postinstall.mjs",
     "lore:sync": "tsx src/cli.ts lore sync"
@@ -25,8 +28,14 @@
     "commander": "^14.0.3"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^25.6.0",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.5",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.63.0",
+    "vitest": "^4.1.10"
   }
 }

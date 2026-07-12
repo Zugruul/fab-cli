@@ -1,4 +1,4 @@
-import type { AlgoliaSearchResult, SearchOptions } from "./types";
+import type { AlgoliaDeck, AlgoliaSearchResult, SearchOptions } from "./types";
 
 const ALGOLIA_URL =
   "https://4e2ysy5y4i-dsn.algolia.net/1/indexes/*/queries";
