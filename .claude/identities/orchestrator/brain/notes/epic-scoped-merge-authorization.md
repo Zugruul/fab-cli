@@ -1,10 +1,10 @@
 ---
 tags: [process, permissions, auto-merge]
 paths: ["**"]
-strength: 1
-source: "PR#65, PR#66"
+strength: 2
+source: "PR#65, PR#66, session-end retro"
 graduated: false
 created: 2026-07-12
 ---
 
-The auto-merge self-approval classifier is per-PR, not standing — user authorization to merge one PR ("merge it yourself") does NOT extend to the next PR even in the same epic/session. Ask again each time it triggers; never assume a prior "yes" covers a new PR. Observed on PRICE-021 (#65) and PRICE-022 (#66) despite 8 prior auto-merges succeeding without a prompt in the same session — the classifier's threshold/trigger conditions aren't fully predictable, so don't rely on autoMerge:true alone for late-epic PRs.
+The auto-merge self-approval classifier is per-PR, not standing — a user's "merge it yourself" for one PR does NOT carry to the next, even minutes later in the same epic/session. Triggered unpredictably on PRICE-021 and PRICE-022 despite 8 prior auto-merges succeeding without a prompt earlier in the SAME session under the same autoMerge:true config, with no obvious pattern (branch age, PR size, review depth didn't differ). Treat each trigger as needing its own fresh human confirmation; don't assume a prior override is standing.

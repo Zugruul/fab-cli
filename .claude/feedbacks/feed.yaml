@@ -898,3 +898,72 @@ items:
     action: upstream
     ref: 'development-skills (neural-view.html: broaden ''frontmatter'' search filter
       to scan a note''s full frontmatter, not just paths/source, or rename the toggle)'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T15:10:00Z'
+iteration:
+  task: PRICE-022
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: brains
+  severity: high
+  summary: A per-task lesson-mint-and-recall loop compounded review depth and dev
+    quality over a long multi-task epic
+  detail: Reviewer briefs repeatedly cited lessons from earlier PRs in the same session
+    (empirical threshold verification, isolated-worktree TDD proof, real-data-only
+    doctrine) and caught real defects because of it; dev briefs likewise avoided repeat
+    mistakes.
+  evidence: []
+  generalized: For a long multi-PR feature build, minting a brain note after every
+    PR close and re-injecting the relevant subset into the NEXT PR's dev/reviewer
+    briefs measurably compounds quality — later reviews in the sequence catch subtler
+    issues than earlier ones, and devs stop repeating earlier mistakes. This value
+    grows with epic length, so it's worth the minting overhead especially on long-running
+    builds.
+  routing:
+    action: brain-note
+    ref: orchestrator/lesson-compounding-value
+- category: incident
+  area: permissions
+  severity: medium
+  summary: The auto-merge self-approval classifier fired inconsistently across a long
+    session, blocking two late-epic merges after eight earlier ones succeeded without
+    a prompt under the same standing autoMerge configuration
+  detail: No pattern was evident (branch age, PR size, review depth didn't obviously
+    differ); each block required a fresh, PR-specific human authorization that did
+    not carry over from the prior block.
+  evidence: []
+  generalized: An orchestrator relying on a repo's standing auto-merge authorization
+    should expect the self-approval permission classifier to trigger unpredictably
+    even mid-session with no config change, and should treat each trigger as needing
+    its own human confirmation rather than assuming one prior override covers subsequent
+    merges.
+  routing:
+    action: brain-note
+    ref: orchestrator/epic-scoped-merge-authorization
+- category: worked-well
+  area: review
+  severity: high
+  summary: Briefing reviewers to independently re-run live smoke tests and recompute
+    cited empirical numbers (not just read the diff) caught real defects that pure
+    code review missed
+  detail: A user comparing tool output to the actual external marketplace pages caught
+    two real defects that had already passed gate-green code review with fixture tests;
+    subsequent reviewer briefs that mandated live re-verification against real external
+    data (not just mocked fixtures) then caught further issues before merge.
+  evidence: []
+  generalized: For any feature whose correctness is defined by matching an external
+    live system, code review is insufficient on its own — fixtures can encode the
+    same wrong assumption as the implementation. Brief reviewers to independently
+    reproduce cited empirical claims and re-run at least one live smoke test against
+    the real external source before approving, not just review the diff and trust
+    fixture-passing tests.
+  routing:
+    action: brain-note
+    ref: reviewer/live-verification-over-fixtures
