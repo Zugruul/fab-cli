@@ -16,6 +16,9 @@ const PRICE_GUIDE_URL =
 const PRODUCTS_URL =
   "https://downloads.s3.cardmarket.com/productCatalog/productList/products_singles_16.json";
 
+/** Attempts on 429/5xx are retried, per SPEC-PRICE §6.4. */
+const MAX_ATTEMPTS = 3;
+
 /**
  * One row of Cardmarket's price guide. No field is guaranteed present — the
  * upstream JSON omits keys rather than sending null (SPEC-PRICE §6.3), so
@@ -89,6 +92,16 @@ export class CardmarketHttpError extends Error {
 export interface CardmarketOptions extends CachedFetchOptions {
   /** Injectable fetch implementation; defaults to global fetch. Lets tests run fully offline. */
   fetchFn?: FetchFn;
+  /** Base delay (ms) for exponential retry backoff. Defaults to 300ms. */
+  retryBaseMs?: number;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryableStatus(status: number): boolean {
+  return status === 429 || status >= 500;
 }
 
 async function fetchJson(
@@ -96,9 +109,19 @@ async function fetchJson(
   opts: CardmarketOptions,
 ): Promise<unknown> {
   const fetchFn = opts.fetchFn ?? (fetch as unknown as FetchFn);
-  const res = await fetchFn(url);
-  if (!res.ok) throw new CardmarketHttpError(url, res.status);
-  return res.json();
+  const retryBaseMs = opts.retryBaseMs ?? 300;
+
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    const res = await fetchFn(url);
+    if (res.ok) return res.json();
+    if (isRetryableStatus(res.status) && attempt < MAX_ATTEMPTS) {
+      await sleep(retryBaseMs * 2 ** (attempt - 1));
+      continue;
+    }
+    throw new CardmarketHttpError(url, res.status);
+  }
+  // Unreachable: the loop above always returns or throws.
+  throw new CardmarketHttpError(url, 0);
 }
 
 export async function fetchPriceGuide(
