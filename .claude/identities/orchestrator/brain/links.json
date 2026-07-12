@@ -4,27 +4,7 @@
     "last": null,
     "weight": 0.5
   },
-  "brain-bulk-writes-need-link-reindex->scripted-knowledge-ingestion": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "brain-bulk-writes-need-link-reindex->targets": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "bulk-corpora-generate-dont-mint->shared-corpus-symlink-pattern": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
   "concurrent-loop-can-branch-switch-under-you->background-session-cwd-resets-between-calls": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "directory-bloat-generated-brains->bulk-corpora-generate-dont-mint": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -35,6 +15,16 @@
     "weight": 0.5
   },
   "distill-external-docs-via-agent-fanout->verify-dated-sources-supersession": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "human-directive-vs-readonly-consult->human-validation-confidence-loop": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "human-validation-confidence-loop->human-directive-vs-readonly-consult": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -70,21 +60,6 @@
     "weight": 0.5
   },
   "recall-needs-structural-links->bulk-corpora-generate-dont-mint": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "scripted-knowledge-ingestion->brain-bulk-writes-need-link-reindex": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "shared-corpus-symlink-pattern->template-checker-manifest-pattern": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "template-checker-manifest-pattern->shared-corpus-symlink-pattern": {
     "fires": 0,
     "last": null,
     "weight": 0.5

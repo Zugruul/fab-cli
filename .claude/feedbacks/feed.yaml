@@ -450,3 +450,62 @@ items:
   routing:
     action: brain-note
     ref: orchestrator
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T03:30:00Z'
+iteration:
+  task: none
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: brains
+  severity: low
+  summary: Cache-check step in an identity's answering protocol produced an instant,
+    fully-grounded answer on a repeat question
+  detail: The judge brain's ix- interaction-note cache hit on the first recall; the
+    cached ruling carried its CR-build stamp and confidence line, making staleness
+    assessment trivial.
+  generalized: Caching adjudicated Q&A as per-question brain notes stamped with the
+    source-document version makes repeat consults instant and makes staleness detection
+    a simple version comparison.
+  routing:
+    action: brain-note
+    ref: orchestrator/human-validation-confidence-loop
+- category: recommendation
+  area: brains
+  severity: medium
+  summary: Cached answers should be labeled as cached, re-verified live after the
+    fast answer, and always closed with a human validation question offering a preview
+  detail: The human directed a three-part upgrade to the judge protocol - (1) explicitly
+    label a cache-sourced answer with its adjudication date, (2) answer fast then
+    re-verify sources and confirm, (3) always AskUserQuestion with a preview and Correct/Incorrect/Unsure
+    options, appending reaffirmation timestamps on Correct. Implemented in the role's
+    protocol note this session.
+  generalized: For any role answering from cached knowledge notes, adopt a fast-answer-then-verify
+    loop - label the answer as previously adjudicated, immediately re-verify against
+    live sources, then always close with a structured human validation question (preview
+    shown, Correct/Incorrect/Unsure, notes allowed) and record reaffirmation timestamps
+    so confidence accrues toward graduation.
+  routing:
+    action: brain-note
+    ref: orchestrator/human-validation-confidence-loop
+- category: friction
+  area: docs
+  severity: low
+  summary: A read-only consult skill met a human request to change role behavior mid-consult,
+    with no sanctioned in-skill path for it
+  detail: ask-identity forbids brain writes, but the human explicitly directed a protocol
+    change during the consult; resolved by editing the protocol note directly as the
+    session orchestrator, outside the skill's letter.
+  generalized: Read-only consult skills should state what to do when the human directs
+    a behavior/protocol change mid-consult - e.g. hand off to the orchestrator-level
+    edit path explicitly - so the agent does not have to choose between the skill's
+    no-write rule and a direct human instruction.
+  routing:
+    action: brain-note
+    ref: orchestrator/human-directive-vs-readonly-consult
