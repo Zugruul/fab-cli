@@ -7,6 +7,7 @@ import {
   fetchProducts,
   fetchCardmarketData,
   resolvePrices,
+  CardmarketHttpError,
   type CardmarketPriceGuideRow,
   type FetchFn,
 } from "../../src/pricing/cardmarket";
@@ -71,7 +72,7 @@ describe("fetchPriceGuide", () => {
 
     const rows = await fetchPriceGuide({ cacheDir: tmpDir, fetchFn });
 
-    expect(rows).toHaveLength(7);
+    expect(rows).toHaveLength(8);
     expect(rows[0]).toMatchObject({ idProduct: 100, trend: 5.75 });
   });
 
@@ -202,10 +203,11 @@ describe("resolvePrices", () => {
   });
 
   it("normal trend of 0 is NOT treated as no-data (only trend-foil's 0 marker is)", () => {
-    // idProduct 100's normal trend is a real nonzero value; sanity-check that
-    // resolvePrices doesn't apply the foil-only zero rule to normal rows.
-    const result = resolvePrices(rowFor(100), "normal");
-    expect(result.nm?.source).toBe("trend");
+    // idProduct 107 has a genuine normal trend of 0 with a nonzero avg30
+    // fallback available — if 0 were wrongly treated as no-data this would
+    // cascade to avg30 instead of returning the real 0 price.
+    const result = resolvePrices(rowFor(107), "normal");
+    expect(result.nm).toEqual({ price: 0, source: "trend" });
   });
 
   it("handles missing keys entirely (not just null) safely", () => {
@@ -218,5 +220,58 @@ describe("resolvePrices", () => {
     const result = resolvePrices(rowFor(105), "foil");
     expect(result.nm).toBeNull();
     expect(result.others).toBeNull();
+  });
+});
+
+describe("retry / backoff (SPEC-PRICE §6.4)", () => {
+  it("retries once on 429 then succeeds", async () => {
+    const fixture = loadFixture("price_guide_16");
+    let calls = 0;
+    const fetchFn: FetchFn = vi.fn(async () => {
+      calls++;
+      if (calls === 1) return jsonResponse({}, 429);
+      return jsonResponse(fixture);
+    });
+
+    const rows = await fetchPriceGuide({
+      cacheDir: tmpDir,
+      fetchFn,
+      retryBaseMs: 1,
+    });
+
+    expect(rows).toHaveLength(8);
+    expect(calls).toBe(2);
+  });
+
+  it("retries on 5xx up to the attempt cap then throws a typed error", async () => {
+    const fetchFn: FetchFn = vi.fn(async () => jsonResponse({}, 503));
+
+    await expect(
+      fetchPriceGuide({ cacheDir: tmpDir, fetchFn, retryBaseMs: 1 }),
+    ).rejects.toThrow(CardmarketHttpError);
+
+    expect(fetchFn).toHaveBeenCalledTimes(3);
+  });
+
+  it("does not retry on a non-retryable 4xx status", async () => {
+    const fetchFn: FetchFn = vi.fn(async () => jsonResponse({}, 404));
+
+    await expect(
+      fetchProducts({ cacheDir: tmpDir, fetchFn, retryBaseMs: 1 }),
+    ).rejects.toThrow(CardmarketHttpError);
+
+    expect(fetchFn).toHaveBeenCalledTimes(1);
+  });
+
+  it("a fetcher error propagates and is not cached (nothing written to disk)", async () => {
+    const fetchFn: FetchFn = vi.fn(async () => jsonResponse({}, 500));
+
+    await expect(
+      fetchPriceGuide({ cacheDir: tmpDir, fetchFn, retryBaseMs: 1 }),
+    ).rejects.toThrow();
+
+    expect(
+      fs.existsSync(path.join(tmpDir, "cardmarket-price-guide.json")),
+    ).toBe(false);
   });
 });

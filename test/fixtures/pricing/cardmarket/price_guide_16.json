@@ -88,6 +88,22 @@
       "trend": 4.0
     },
     {
+      "idProduct": 107,
+      "idCategory": 16,
+      "avg": 8.0,
+      "low": 6.5,
+      "trend": 0,
+      "avg1": 9.8,
+      "avg7": 9.85,
+      "avg30": 9.9,
+      "avg-foil": null,
+      "low-foil": null,
+      "trend-foil": null,
+      "avg1-foil": null,
+      "avg7-foil": null,
+      "avg30-foil": null
+    },
+    {
       "idProduct": 106,
       "idCategory": 16,
       "avg": 1.0,
