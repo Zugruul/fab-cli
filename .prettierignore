@@ -17,6 +17,7 @@ scripts/best-decks-by-hero.ts
 scripts/postinstall.mjs
 src/algolia.ts
 src/carddb.ts
+src/cardvault.ts
 src/cli.ts
 src/cognito.ts
 src/config.ts
