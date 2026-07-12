@@ -804,3 +804,49 @@ items:
   routing:
     action: brain-note
     ref: dev/typed-error-boundary-guards
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-12T07:15:00Z'
+iteration:
+  task: PRICE-061
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: testing
+  severity: high
+  summary: A merged, gate-green feature shipped with fabricated data because fixtures
+    encoded the same wrong assumption as the implementation
+  detail: adjacency-fallback and an exact-match string comparison against a wrong
+    enum literal both passed all fixture tests; only a human comparing output to the
+    real live source caught the divergence.
+  evidence:
+  - fab-cli#61
+  - fab-cli#58
+  generalized: For any feature whose output claims to represent an external live system,
+    fixture-only testing cannot catch a shared wrong mental model between implementation
+    and fixtures — schedule or require at least one live-data smoke against the actual
+    external source before calling the feature done, in addition to the offline gate.
+  routing:
+    action: brain-note
+    ref: orchestrator/user-live-validation-catches-real-bugs
+- category: worked-well
+  area: review
+  severity: medium
+  summary: An independent reviewer ran a live network smoke test against real APIs
+    as part of approving a high-stakes fix, not just fixture-based verification
+  detail: The reviewer briefing explicitly asked for this given the user-caught nature
+    of the defect; the reviewer executed it and reported the actual live numbers.
+  evidence:
+  - fab-cli#62
+  generalized: When a task's stakes come from a real-world data-accuracy defect, briefing
+    the reviewer to run a live smoke test (not just gate/fixtures) against the actual
+    external source is a cheap, high-value verification step worth doing by default
+    for that class of fix.
+  routing:
+    action: brain-note
+    ref: dev/real-data-only-doctrine

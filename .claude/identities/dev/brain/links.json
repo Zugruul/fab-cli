@@ -1,4 +1,14 @@
 {
+  "api-field-type-assumptions->real-data-only-doctrine": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "api-field-type-assumptions->untyped-api-optional-fields": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "cardmarket-duplicate-expansions->tcgcsv-requires-user-agent": {
     "fires": 0,
     "last": null,
@@ -15,6 +25,11 @@
     "weight": 0.5
   },
   "provider-prefixed-raw-types->pricing-cache-contract": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "real-data-only-doctrine->typed-error-boundary-guards": {
     "fires": 0,
     "last": null,
     "weight": 0.5

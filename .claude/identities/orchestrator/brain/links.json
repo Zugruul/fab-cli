@@ -94,6 +94,11 @@
     "last": null,
     "weight": 0.5
   },
+  "user-live-validation-catches-real-bugs->real-data-only-doctrine": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "verify-dated-sources-supersession->distill-external-docs-via-agent-fanout": {
     "fires": 0,
     "last": null,
