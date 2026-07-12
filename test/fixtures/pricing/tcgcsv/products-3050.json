@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "errors": [],
+  "results": [
+    {
+      "productId": 260100,
+      "name": "Fresh Start (Blue)",
+      "cleanName": "Fresh Start (Blue)",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/260100_200w.jpg",
+      "categoryId": 62,
+      "groupId": 3050,
+      "url": "https://www.tcgplayer.com/product/260100/flesh-and-blood-tcg-dusk-till-dawn-fresh-start-blue",
+      "modifiedOn": "2023-06-30T00:00:00"
+    }
+  ]
+}

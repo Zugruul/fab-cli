@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "errors": [],
+  "results": [
+    {
+      "productId": 255918,
+      "name": "Command and Conquer (Red)",
+      "cleanName": "Command and Conquer (Red)",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/255918_200w.jpg",
+      "categoryId": 62,
+      "groupId": 2947,
+      "url": "https://www.tcgplayer.com/product/255918/flesh-and-blood-tcg-everfest-command-and-conquer-red",
+      "modifiedOn": "2023-03-24T00:00:00"
+    },
+    {
+      "productId": 255919,
+      "name": "Command and Conquer (Yellow)",
+      "cleanName": "Command and Conquer (Yellow)",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/255919_200w.jpg",
+      "categoryId": 62,
+      "groupId": 2947,
+      "url": "https://www.tcgplayer.com/product/255919/flesh-and-blood-tcg-everfest-command-and-conquer-yellow",
+      "modifiedOn": "2023-03-24T00:00:00"
+    }
+  ]
+}
