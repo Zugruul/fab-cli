@@ -3,5 +3,10 @@
     "fires": 0,
     "last": null,
     "weight": 0.5
+  },
+  "verify-empirical-claims-independently->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }
