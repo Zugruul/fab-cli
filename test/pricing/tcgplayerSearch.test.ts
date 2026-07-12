@@ -120,6 +120,20 @@ describe("searchProductListings", () => {
     expect(page.products[0].lowestListing).toBeNull();
   });
 
+  it("returns null lowestListing (not a throw) when a product omits the listings key entirely", async () => {
+    const { fetchFn } = sequenceFetchFn([
+      jsonResponse(loadJsonFixture("hp-missing-listings-key")),
+    ]);
+
+    const page = await searchProductListings(
+      { q: "command and conquer", condition: "Heavily Played" },
+      { fetchFn },
+    );
+
+    expect(page.products).toHaveLength(1);
+    expect(page.products[0].lowestListing).toBeNull();
+  });
+
   it("includes setName in the request body when provided", async () => {
     const { fetchFn, calls } = sequenceFetchFn([
       jsonResponse(loadJsonFixture("set-page-1")),

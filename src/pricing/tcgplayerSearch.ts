@@ -61,7 +61,8 @@ export interface StorefrontProductResult {
   rarityName?: string;
   marketPrice?: number | null;
   printing?: string;
-  listings: StorefrontListing[];
+  /** Absent entirely for some products with zero listings, not just an empty array — never assume the key is present. */
+  listings?: StorefrontListing[];
 }
 
 interface StorefrontSearchResponseBody {
@@ -246,23 +247,26 @@ export async function searchProductListings(
   const result = response.results[0];
   const rawProducts = result?.results ?? [];
 
-  const products: ParsedStorefrontProduct[] = rawProducts.map((p) => ({
-    productId: p.productId,
-    productUrlName: p.productUrlName,
-    setUrlName: p.setUrlName,
-    rarityName: p.rarityName,
-    marketPrice: p.marketPrice,
-    printing: p.printing,
-    lowestListing:
-      p.listings.length > 0
-        ? {
-            condition: query.condition,
-            price: p.listings[0].price,
-            shippingPrice: p.listings[0].shippingPrice,
-            sellerName: p.listings[0].sellerName,
-          }
-        : null,
-  }));
+  const products: ParsedStorefrontProduct[] = rawProducts.map((p) => {
+    const listings = p.listings ?? [];
+    return {
+      productId: p.productId,
+      productUrlName: p.productUrlName,
+      setUrlName: p.setUrlName,
+      rarityName: p.rarityName,
+      marketPrice: p.marketPrice,
+      printing: p.printing,
+      lowestListing:
+        listings.length > 0
+          ? {
+              condition: query.condition,
+              price: listings[0].price,
+              shippingPrice: listings[0].shippingPrice,
+              sellerName: listings[0].sellerName,
+            }
+          : null,
+    };
+  });
 
   return {
     totalResults: result?.totalResults ?? products.length,
