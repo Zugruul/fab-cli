@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "totalResults": 3,
+      "aggregations": {},
+      "results": [
+        {
+          "productId": 1003,
+          "productUrlName": "card-three-blue",
+          "setUrlName": "everfest",
+          "rarityName": "Rare",
+          "marketPrice": 20.0,
+          "printing": "Normal",
+          "listings": [
+            {
+              "condition": "Near Mint",
+              "printing": "Normal",
+              "price": 18.25,
+              "shippingPrice": 3.99,
+              "quantity": 1,
+              "sellerName": "GammaTCG"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
