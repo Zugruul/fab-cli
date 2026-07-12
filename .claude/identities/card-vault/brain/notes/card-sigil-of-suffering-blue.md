@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-suffering, sigil, suffering, runeblade, defense-reaction, pitch-3, cost-0]
+tags: [card, sigil-of-suffering, sigil, suffering, runeblade, defense-reaction, pitch-3, cost-0, ele229]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kbKrbhCMmgKghWMMpWMh7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Runeblade]
 types: [Defense Reaction]
 unique-id: kbKrbhCMmgKghWMMpWMh7
 sets: [ELE]
+codes: [ELE229]
 ---
 
 **Sigil of Suffering (blue)** — Runeblade Defense Reaction · cost 0 · 1 defense

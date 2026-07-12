@@ -1,5 +1,5 @@
 ---
-tags: [card, haboob, illusionist, draconic, action, aura, go-again, pitch-1, cost-0]
+tags: [card, haboob, illusionist, draconic, action, aura, go-again, pitch-1, cost-0, pen249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PhqfJGJnp8FkNNqQb9crd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: PhqfJGJnp8FkNNqQb9crd
 sets: [PEN]
+codes: [PEN249]
 ---
 
 **Haboob (red)** — Draconic Illusionist Action - Aura · cost 0 · 3 defense

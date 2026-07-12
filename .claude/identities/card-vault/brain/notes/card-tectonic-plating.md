@@ -1,5 +1,5 @@
 ---
-tags: [card, tectonic-plating, tectonic, plating, guardian, equipment, chest, battleworn]
+tags: [card, tectonic-plating, tectonic, plating, guardian, equipment, chest, battleworn, 1hp047, fab004, wtr041]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TN6DmN7GK9DtMKd9pnmwF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: TN6DmN7GK9DtMKd9pnmwF
 sets: [1HP, FAB, WTR]
+codes: [1HP047, FAB004, WTR041]
 ---
 
 **Tectonic Plating** — Guardian Equipment - Chest · 2 defense

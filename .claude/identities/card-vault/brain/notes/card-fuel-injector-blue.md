@@ -1,5 +1,5 @@
 ---
-tags: [card, fuel-injector, fuel, injector, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, fuel-injector, fuel, injector, mechanologist, action, item, pitch-3, cost-0, evo075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DnfHnbnMCChJD9zfLbgmJ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: DnfHnbnMCChJD9zfLbgmJ
 sets: [EVO]
+codes: [EVO075]
 ---
 
 **Fuel Injector (blue)** — Mechanologist Action - Item · cost 0

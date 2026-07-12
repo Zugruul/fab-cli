@@ -1,5 +1,5 @@
 ---
-tags: [card, revolting-gesture, revolting, gesture, action, reviled, go-again, pitch-1, cost-1]
+tags: [card, revolting-gesture, revolting, gesture, action, reviled, go-again, pitch-1, cost-1, sup119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GCrJthLPkqzBMpRFmnFFK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Go again]
 unique-id: GCrJthLPkqzBMpRFmnFFK
 sets: [SUP]
+codes: [SUP119]
 ---
 
 **Revolting Gesture (red)** — Reviled Action · cost 1 · 2 defense

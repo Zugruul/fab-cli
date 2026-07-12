@@ -1,5 +1,5 @@
 ---
-tags: [card, dumpster-dive, dumpster, dive, mechanologist, action, attack, boost, pitch-3, cost-1]
+tags: [card, dumpster-dive, dumpster, dive, mechanologist, action, attack, boost, pitch-3, cost-1, evo197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nbJdjHJjHRjNNQhdpCrDF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: nbJdjHJjHRjNNQhdpCrDF
 sets: [EVO]
+codes: [EVO197]
 ---
 
 **Dumpster Dive (blue)** — Mechanologist Action - Attack · cost 1 · 2 power · 3 defense

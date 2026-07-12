@@ -1,5 +1,5 @@
 ---
-tags: [card, assault-and-battery, assault, battery, brute, action, attack, beat-chest, pitch-2, cost-3]
+tags: [card, assault-and-battery, assault, battery, brute, action, attack, beat-chest, pitch-2, cost-3, arr016, hvy027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qPCk966FkDC7zpqffQpqD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Beat Chest]
 unique-id: qPCk966FkDC7zpqffQpqD
 sets: [ARR, HVY]
+codes: [ARR016, HVY027]
 ---
 
 **Assault and Battery (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

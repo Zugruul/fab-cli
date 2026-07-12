@@ -1,5 +1,5 @@
 ---
-tags: [card, brush-of-heavenly-rites, brush, heavenly, rites, adjudicator, weapon, 1h]
+tags: [card, brush-of-heavenly-rites, brush, heavenly, rites, adjudicator, weapon, 1h, jdg030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DFPwWqL9PCzLTKJjDzJzJ) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Brush, 1H]
 unique-id: DFPwWqL9PCzLTKJjDzJzJ
 sets: [JDG]
+codes: [JDG030]
 ---
 
 **Brush of Heavenly Rites** — Adjudicator Weapon - Brush (1H)

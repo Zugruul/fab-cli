@@ -1,5 +1,5 @@
 ---
-tags: [card, flex, generic, action, attack, pitch-2, cost-0]
+tags: [card, flex, generic, action, attack, pitch-2, cost-0, upr192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jPD7Qr9HHgnr6BrLCpFBK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: jPD7Qr9HHgnr6BrLCpFBK
 sets: [UPR]
+codes: [UPR192]
 ---
 
 **Flex (yellow)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

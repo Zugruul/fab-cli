@@ -1,5 +1,5 @@
 ---
-tags: [card, proclamation-of-requisition, proclamation, requisition, adjudicator, equipment, off-hand]
+tags: [card, proclamation-of-requisition, proclamation, requisition, adjudicator, equipment, off-hand, jdg003, jdg004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nPNcp7BDrghp6dLPfHnNp) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: nPNcp7BDrghp6dLPfHnNp
 sets: [JDG]
+codes: [JDG003, JDG004]
 ---
 
 **Proclamation of Requisition** — Adjudicator Equipment - Off-Hand

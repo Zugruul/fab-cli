@@ -1,5 +1,5 @@
 ---
-tags: [card, ghostly-visit, ghostly, visit, shadow, action, attack, blood-debt, pitch-2, cost-1]
+tags: [card, ghostly-visit, ghostly, visit, shadow, action, attack, blood-debt, pitch-2, cost-1, fab039, mon204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mCrNQktkbzMwG6fBR7TzP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: mCrNQktkbzMwG6fBR7TzP
 sets: [FAB, MON]
+codes: [FAB039, MON204]
 ---
 
 **Ghostly Visit (yellow)** — Shadow Action - Attack · cost 1 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shield-beater, shield, beater, guardian, weapon, hammer, 1h, go-again]
+tags: [card, shield-beater, shield, beater, guardian, weapon, hammer, 1h, go-again, gem108, pen015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t86nFWmmtDFMPJr9R9jwN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Hammer, 1H]
 keywords: [Go again]
 unique-id: t86nFWmmtDFMPJr9R9jwN
 sets: [GEM, PEN]
+codes: [GEM108, PEN015]
 ---
 
 **Shield Beater** — Guardian Weapon - Hammer (1H) · 5 power

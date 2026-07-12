@@ -1,5 +1,5 @@
 ---
-tags: [card, break-of-dawn, break, dawn, light, instant, pitch-2, cost-0]
+tags: [card, break-of-dawn, break, dawn, light, instant, pitch-2, cost-0, dtd101, lgs170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L9ckNFnGCDh9tQtCg8rm6) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Instant]
 unique-id: L9ckNFnGCDh9tQtCg8rm6
 sets: [DTD, LGS]
+codes: [DTD101, LGS170]
 ---
 
 **Break of Dawn (yellow)** — Light Instant · cost 0

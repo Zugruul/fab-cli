@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-beta-base-arms, evo, beta, base, arms, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0]
+tags: [card, evo-beta-base-arms, evo, beta, base, arms, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0, pen070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QT9MbtNRBFHRQdGhckjpk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Arms]
 keywords: [Transform, Battleworn]
 unique-id: QT9MbtNRBFHRQdGhckjpk
 sets: [PEN]
+codes: [PEN070]
 ---
 
 **Evo Beta Base Arms (blue)** — Mechanologist Action Equipment - Evo Base Arms · cost 0 · 1 defense

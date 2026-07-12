@@ -1,5 +1,5 @@
 ---
-tags: [card, corrosive-space-dust, corrosive, space, dust, illusionist, lightning, instant, aura, ward-x, pitch-1, cost-1]
+tags: [card, corrosive-space-dust, corrosive, space, dust, illusionist, lightning, instant, aura, ward-x, pitch-1, cost-1, azs016, omn012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QPTGQGKCgD6B7fR9Nngdn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward X]
 unique-id: QPTGQGKCgD6B7fR9Nngdn
 sets: [AZS, OMN]
+codes: [AZS016, OMN012]
 ---
 
 **Corrosive Space Dust (red)** — Lightning Illusionist Instant - Aura · cost 1

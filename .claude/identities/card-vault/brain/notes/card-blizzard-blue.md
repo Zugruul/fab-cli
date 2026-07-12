@@ -1,5 +1,5 @@
 ---
-tags: [card, blizzard, ice, instant, pitch-3, cost-0]
+tags: [card, blizzard, ice, instant, pitch-3, cost-0, ele147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FgqfGWQfPqmQFNpn8cPMW) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Ice]
 types: [Instant]
 unique-id: FgqfGWQfPqmQFNpn8cPMW
 sets: [ELE]
+codes: [ELE147]
 ---
 
 **Blizzard (blue)** — Ice Instant · cost 0

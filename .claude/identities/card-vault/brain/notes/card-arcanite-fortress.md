@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanite-fortress, arcanite, fortress, generic, equipment, chest, spellvoid-x, guardwell]
+tags: [card, arcanite-fortress, arcanite, fortress, generic, equipment, chest, spellvoid-x, guardwell, fab254, ros211]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 876Q8WnHQCPctd89zd8tn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Spellvoid X, Guardwell]
 unique-id: 876Q8WnHQCPctd89zd8tn
 sets: [FAB, ROS]
+codes: [FAB254, ROS211]
 ---
 
 **Arcanite Fortress** — Generic Equipment - Chest · * defense

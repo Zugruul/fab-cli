@@ -1,5 +1,5 @@
 ---
-tags: [card, red-liner, red, liner, ranger, weapon, bow, 2h]
+tags: [card, red-liner, red, liner, ranger, weapon, bow, 2h, 1hp224, cru121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6fGDjThJfHN7ttFCHGGnC) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Bow, 2H]
 unique-id: 6fGDjThJfHN7ttFCHGGnC
 sets: [1HP, CRU]
+codes: [1HP224, CRU121]
 ---
 
 **Red Liner** — Ranger Weapon - Bow (2H)

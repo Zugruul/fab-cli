@@ -1,5 +1,5 @@
 ---
-tags: [card, a-drop-in-the-ocean, drop, ocean, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, a-drop-in-the-ocean, drop, ocean, mystic, instant, legendary, transcend, pitch-3, cost-0, eng025, lgs282, mst095, sen031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CqNB8MLzfCh6tRP6RRMdj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: CqNB8MLzfCh6tRP6RRMdj
 sets: [ENG, LGS, MST, SEN]
+codes: [ENG025, LGS282, MST095, SEN031]
 ---
 
 **A Drop in the Ocean (blue)** — Mystic Instant · cost 0

@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "totalResults": 1,
+      "aggregations": {},
+      "results": [
+        {
+          "productId": 255918,
+          "productUrlName": "command-and-conquer-red",
+          "setUrlName": "everfest",
+          "rarityName": "Legendary",
+          "marketPrice": 400.0,
+          "printing": "1st Edition Rainbow Foil",
+          "listings": [
+            {
+              "condition": "Moderately Played",
+              "printing": "1st Edition Rainbow Foil",
+              "price": 160.0,
+              "shippingPrice": 4.99,
+              "quantity": 1,
+              "sellerName": "FoilFolks"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

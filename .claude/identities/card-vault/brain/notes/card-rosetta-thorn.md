@@ -1,5 +1,5 @@
 ---
-tags: [card, rosetta-thorn, rosetta, thorn, runeblade, weapon, sword, 2h]
+tags: [card, rosetta-thorn, rosetta, thorn, runeblade, weapon, sword, 2h, bri004, ele222, fab099, lgs068, ros256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cbHrfwmLrMjWdhdBtzbff) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: cbHrfwmLrMjWdhdBtzbff
 sets: [BRI, ELE, FAB, LGS, ROS]
+codes: [BRI004, ELE222, FAB099, LGS068, ROS256]
 ---
 
 **Rosetta Thorn** — Runeblade Weapon - Sword (2H) · 2 power

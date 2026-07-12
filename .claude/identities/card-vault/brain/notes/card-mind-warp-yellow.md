@@ -1,5 +1,5 @@
 ---
-tags: [card, mind-warp, mind, warp, wizard, action, surge, pitch-2, cost-0]
+tags: [card, mind-warp, mind, warp, wizard, action, surge, pitch-2, cost-0, dyn194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LBLTcF8zccK7mKLcDqgPb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: LBLTcF8zccK7mKLcDqgPb
 sets: [DYN]
+codes: [DYN194]
 ---
 
 **Mind Warp (yellow)** — Wizard Action · cost 0 · 3 defense

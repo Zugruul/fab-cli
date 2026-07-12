@@ -1,5 +1,5 @@
 ---
-tags: [card, minds-desire, minds, desire, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, minds-desire, minds, desire, assassin, action, attack, stealth, pitch-3, cost-0, mst126, nuu022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7n96D77LqTKKkhnMrNTwr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 7n96D77LqTKKkhnMrNTwr
 sets: [MST, NUU]
+codes: [MST126, NUU022]
 ---
 
 **Mind's Desire (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

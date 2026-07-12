@@ -1,5 +1,5 @@
 ---
-tags: [card, blossoming-decay, blossoming, decay, earth, action, attack, decompose, pitch-3, cost-2]
+tags: [card, blossoming-decay, blossoming, decay, earth, action, attack, decompose, pitch-3, cost-2, ros051, ver019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hrH8MTCmLwnnJHhdNggMP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Decompose]
 unique-id: hrH8MTCmLwnnJHhdNggMP
 sets: [ROS, VER]
+codes: [ROS051, VER019]
 ---
 
 **Blossoming Decay (blue)** — Earth Action - Attack · cost 2 · 3 power · 2 defense

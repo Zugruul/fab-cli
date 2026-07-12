@@ -1,5 +1,5 @@
 ---
-tags: [card, perennial-aetherbloom, perennial, aetherbloom, wizard, action, surge, pitch-2, cost-0]
+tags: [card, perennial-aetherbloom, perennial, aetherbloom, wizard, action, surge, pitch-2, cost-0, ros202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NCTn7FNh8QCgcJnFzHcGK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: NCTn7FNh8QCgcJnFzHcGK
 sets: [ROS]
+codes: [ROS202]
 ---
 
 **Perennial Aetherbloom (yellow)** — Wizard Action · cost 0 · 3 defense

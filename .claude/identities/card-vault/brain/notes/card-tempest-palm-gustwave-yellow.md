@@ -1,5 +1,5 @@
 ---
-tags: [card, tempest-palm-gustwave, tempest, palm, gustwave, ninja, action, attack, combo, go-again, pitch-2, cost-0]
+tags: [card, tempest-palm-gustwave, tempest, palm, gustwave, ninja, action, attack, combo, go-again, pitch-2, cost-0, sup246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9rHcGbwmfHRQw9CkhHFd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: D9rHcGbwmfHRQw9CkhHFd
 sets: [SUP]
+codes: [SUP246]
 ---
 
 **Tempest Palm Gustwave (yellow)** — Ninja Action - Attack · cost 0 · 3 power · 3 defense

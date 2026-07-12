@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-shelter, sigil, shelter, guardian, instant, pitch-2, cost-0]
+tags: [card, sigil-of-shelter, sigil, shelter, guardian, instant, pitch-2, cost-0, ter020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NrTrgtDHQTLpnHWD9CLp6) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Instant]
 unique-id: NrTrgtDHQTLpnHWD9CLp6
 sets: [TER]
+codes: [TER020]
 ---
 
 **Sigil of Shelter (yellow)** — Guardian Instant · cost 0

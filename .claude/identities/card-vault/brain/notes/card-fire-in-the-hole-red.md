@@ -1,5 +1,5 @@
 ---
-tags: [card, fire-in-the-hole, fire, hole, ranger, action, go-again, pitch-1, cost-0]
+tags: [card, fire-in-the-hole, fire, hole, ranger, action, go-again, pitch-1, cost-0, sea101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qnr8rHRmfzBbrgbjM9GjG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qnr8rHRmfzBbrgbjM9GjG
 sets: [SEA]
+codes: [SEA101]
 ---
 
 **Fire in the Hole (red)** — Ranger Action · cost 0 · 2 defense

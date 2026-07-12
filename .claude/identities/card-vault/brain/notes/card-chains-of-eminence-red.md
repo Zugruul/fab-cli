@@ -1,5 +1,5 @@
 ---
-tags: [card, chains-of-eminence, chains, eminence, generic, action, aura, go-again, pitch-1, cost-0]
+tags: [card, chains-of-eminence, chains, eminence, generic, action, aura, go-again, pitch-1, cost-0, arc162, jdg022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kmWrWK6PhLjLdr86QDDWP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: kmWrWK6PhLjLdr86QDDWP
 sets: [ARC, JDG]
+codes: [ARC162, JDG022]
 ---
 
 **Chains of Eminence (red)** — Generic Action - Aura · cost 0 · 2 defense

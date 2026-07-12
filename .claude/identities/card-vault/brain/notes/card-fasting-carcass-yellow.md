@@ -1,5 +1,5 @@
 ---
-tags: [card, fasting-carcass, fasting, carcass, shadow, action, go-again, blood-debt, pitch-2, cost-0]
+tags: [card, fasting-carcass, fasting, carcass, shadow, action, go-again, blood-debt, pitch-2, cost-0, pen199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TPJFqgd8n6gkwz7W9QDGm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Blood Debt]
 unique-id: TPJFqgd8n6gkwz7W9QDGm
 sets: [PEN]
+codes: [PEN199]
 ---
 
 **Fasting Carcass (yellow)** — Shadow Action · cost 0 · 3 defense

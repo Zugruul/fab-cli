@@ -1,5 +1,5 @@
 ---
-tags: [card, impulsive-desire, impulsive, desire, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, impulsive-desire, impulsive, desire, assassin, action, attack, stealth, pitch-2, cost-0, mst122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 99gF9qJ67mCbKjkjHCFfR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 99gF9qJ67mCbKjkjHCFfR
 sets: [MST]
+codes: [MST122]
 ---
 
 **Impulsive Desire (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

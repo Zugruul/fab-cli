@@ -1,5 +1,5 @@
 ---
-tags: [card, beaming-bravado, beaming, bravado, warrior, light, action, attack, charge, pitch-3, cost-0]
+tags: [card, beaming-bravado, beaming, bravado, warrior, light, action, attack, charge, pitch-3, cost-0, dtd059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mGnLtgpdjnhKbGFhzBnrj) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: mGnLtgpdjnhKbGFhzBnrj
 sets: [DTD]
+codes: [DTD059]
 ---
 
 **Beaming Bravado (blue)** — Light Warrior Action - Attack · cost 0 · 1 power · 3 defense

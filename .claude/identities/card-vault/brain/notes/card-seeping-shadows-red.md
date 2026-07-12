@@ -1,5 +1,5 @@
 ---
-tags: [card, seeping-shadows, seeping, shadows, runeblade, shadow, action, go-again, blood-debt, pitch-1, cost-3]
+tags: [card, seeping-shadows, seeping, shadows, runeblade, shadow, action, go-again, blood-debt, pitch-1, cost-3, mon165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jFP6BqHQnT7tnrw7Fw9hh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again, Blood Debt]
 unique-id: jFP6BqHQnT7tnrw7Fw9hh
 sets: [MON]
+codes: [MON165]
 ---
 
 **Seeping Shadows (red)** — Shadow Runeblade Action · cost 3 · 2 defense

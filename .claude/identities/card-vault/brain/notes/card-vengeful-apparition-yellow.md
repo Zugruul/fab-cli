@@ -1,5 +1,5 @@
 ---
-tags: [card, vengeful-apparition, vengeful, apparition, illusionist, action, aura, ward-1, pitch-2, cost-0]
+tags: [card, vengeful-apparition, vengeful, apparition, illusionist, action, aura, ward-1, pitch-2, cost-0, mst156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dD77fLzCjbgCCzMTRCBjt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: dD77fLzCjbgCCzMTRCBjt
 sets: [MST]
+codes: [MST156]
 ---
 
 **Vengeful Apparition (yellow)** — Illusionist Action - Aura · cost 0 · 3 defense

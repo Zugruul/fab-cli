@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-sun-setting-moon, rising, sun, setting, moon, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, rising-sun-setting-moon, rising, sun, setting, moon, mystic, instant, legendary, transcend, pitch-3, cost-0, eng028, lgs287, mst100, sen035, zen026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PtqHmkzqPMf9KBfk88QrR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: PtqHmkzqPMf9KBfk88QrR
 sets: [ENG, LGS, MST, SEN, ZEN]
+codes: [ENG028, LGS287, MST100, SEN035, ZEN026]
 ---
 
 **Rising Sun, Setting Moon (blue)** — Mystic Instant · cost 0

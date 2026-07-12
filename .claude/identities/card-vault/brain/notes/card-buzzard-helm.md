@@ -1,5 +1,5 @@
 ---
-tags: [card, buzzard-helm, buzzard, helm, brute, equipment, head, temper]
+tags: [card, buzzard-helm, buzzard, helm, brute, equipment, head, temper, pen002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kw9PPtD6DbnRWtNctNrbD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Temper]
 unique-id: Kw9PPtD6DbnRWtNctNrbD
 sets: [PEN]
+codes: [PEN002]
 ---
 
 **Buzzard Helm** — Brute Equipment - Head · 1 defense

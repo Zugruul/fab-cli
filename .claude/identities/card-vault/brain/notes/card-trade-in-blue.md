@@ -1,5 +1,5 @@
 ---
-tags: [card, trade-in, trade, generic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, trade-in, trade, generic, action, attack, go-again, pitch-3, cost-0, hvy233, sea234, upr214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TDCnCP7tnLRMNgHNJPTRF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: TDCnCP7tnLRMNgHNJPTRF
 sets: [HVY, SEA, UPR]
+codes: [HVY233, SEA234, UPR214]
 ---
 
 **Trade In (blue)** — Generic Action - Attack · cost 0 · 1 power · 2 defense

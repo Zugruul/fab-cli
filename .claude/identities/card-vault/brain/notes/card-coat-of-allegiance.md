@@ -1,5 +1,5 @@
 ---
-tags: [card, coat-of-allegiance, coat, allegiance, draconic, equipment, chest]
+tags: [card, coat-of-allegiance, coat, allegiance, draconic, equipment, chest, fng004, hnt148]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FdMpkDBJtRgkrP6zK6rfQ) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: FdMpkDBJtRgkrP6zK6rfQ
 sets: [FNG, HNT]
+codes: [FNG004, HNT148]
 ---
 
 **Coat of Allegiance** — Draconic Equipment - Chest · 0 defense

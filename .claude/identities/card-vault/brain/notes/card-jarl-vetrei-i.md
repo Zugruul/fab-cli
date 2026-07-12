@@ -1,5 +1,5 @@
 ---
-tags: [card, jarl-vetrei-i, jarl, vetrei, guardian, elemental, hero, adult, essence-of-earth-and-ice]
+tags: [card, jarl-vetrei-i, jarl, vetrei, guardian, elemental, hero, adult, essence-of-earth-and-ice, ajv001, gem076, mpg000, win041]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9QL68DDb9hCqhWWhgnQgR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth and Ice]
 unique-id: 9QL68DDb9hCqhWWhgnQgR
 sets: [AJV, GEM, MPG, WIN]
+codes: [AJV001, GEM076, MPG000, WIN041]
 ---
 
 **Jarl Vetreiði** — Elemental Guardian Hero · 40 health · 4 int

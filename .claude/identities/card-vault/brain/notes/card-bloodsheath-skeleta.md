@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodsheath-skeleta, bloodsheath, skeleta, runeblade, equipment, chest, temper]
+tags: [card, bloodsheath-skeleta, bloodsheath, skeleta, runeblade, equipment, chest, temper, 1hp264, avs004, cru141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nGHhHDgKmGgb7gjwWjHJF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: nGHhHDgKmGgb7gjwWjHJF
 sets: [1HP, AVS, CRU]
+codes: [1HP264, AVS004, CRU141]
 ---
 
 **Bloodsheath Skeleta** — Runeblade Equipment - Chest · 2 defense

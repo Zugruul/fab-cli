@@ -1,5 +1,5 @@
 ---
-tags: [card, rally-the-coast-guard, rally, coast, guard, generic, action, attack, pitch-2, cost-3]
+tags: [card, rally-the-coast-guard, rally, coast, guard, generic, action, attack, pitch-2, cost-3, sea224]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d6WrKcWGr7BHGtWHWT6dt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: d6WrKcWGr7BHGtWHWT6dt
 sets: [SEA]
+codes: [SEA224]
 ---
 
 **Rally the Coast Guard (yellow)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

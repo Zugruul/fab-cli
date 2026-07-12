@@ -1,5 +1,5 @@
 ---
-tags: [card, zyggy, illusionist, lightning, hero, young]
+tags: [card, zyggy, illusionist, lightning, hero, young, omn002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqp7pLMMBLrRjGgzDgzT7) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Hero]
 unique-id: gqp7pLMMBLrRjGgzDgzT7
 sets: [OMN]
+codes: [OMN002]
 ---
 
 **Zyggy** — Lightning Illusionist Hero - Young · 20 health · 4 int

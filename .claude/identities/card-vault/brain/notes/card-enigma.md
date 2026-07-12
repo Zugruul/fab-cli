@@ -1,5 +1,5 @@
 ---
-tags: [card, enigma, illusionist, mystic, hero, young]
+tags: [card, enigma, illusionist, mystic, hero, young, eng001, mst026, sen001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JKPFKKFqnLtmctLkwNCmc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Hero]
 unique-id: JKPFKKFqnLtmctLkwNCmc
 sets: [ENG, MST, SEN]
+codes: [ENG001, MST026, SEN001]
 ---
 
 **Enigma** — Mystic Illusionist Hero - Young · 20 health · 4 int

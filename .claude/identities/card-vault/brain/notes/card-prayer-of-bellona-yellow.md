@@ -1,5 +1,5 @@
 ---
-tags: [card, prayer-of-bellona, prayer, bellona, warrior, light, action, charge, go-again, pitch-2, cost-1]
+tags: [card, prayer-of-bellona, prayer, bellona, warrior, light, action, charge, go-again, pitch-2, cost-1, dtd053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RznwHPTkhd7rfzzJc9dp8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Charge, Go again]
 unique-id: RznwHPTkhd7rfzzJc9dp8
 sets: [DTD]
+codes: [DTD053]
 ---
 
 **Prayer of Bellona (yellow)** — Light Warrior Action · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, biting-blade, biting, blade, warrior, attack-reaction, reprise, pitch-2, cost-2]
+tags: [card, biting-blade, biting, blade, warrior, attack-reaction, reprise, pitch-2, cost-2, wtr136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CpgzmBH67WMWJMj9JF8jw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: CpgzmBH67WMWJMj9JF8jw
 sets: [WTR]
+codes: [WTR136]
 ---
 
 **Biting Blade (yellow)** — Warrior Attack Reaction · cost 2 · 3 defense

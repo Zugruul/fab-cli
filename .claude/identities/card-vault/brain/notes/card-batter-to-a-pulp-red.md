@@ -1,5 +1,5 @@
 ---
-tags: [card, batter-to-a-pulp, batter, pulp, guardian, action, attack, crush, pitch-1, cost-6]
+tags: [card, batter-to-a-pulp, batter, pulp, guardian, action, attack, crush, pitch-1, cost-6, lgs387, lgs388]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t79k8WMTmQBDnk6DcqzP8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: t79k8WMTmQBDnk6DcqzP8
 sets: [LGS]
+codes: [LGS387, LGS388]
 ---
 
 **Batter to a Pulp (red)** — Guardian Action - Attack · cost 6 · 10 power · 3 defense

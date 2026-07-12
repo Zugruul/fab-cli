@@ -1,5 +1,5 @@
 ---
-tags: [card, overpower, warrior, attack-reaction, reprise, pitch-2, cost-3]
+tags: [card, overpower, warrior, attack-reaction, reprise, pitch-2, cost-3, 1hp154, wtr124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 688rBwm6gmkFjGPrchjCq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: 688rBwm6gmkFjGPrchjCq
 sets: [1HP, WTR]
+codes: [1HP154, WTR124]
 ---
 
 **Overpower (yellow)** — Warrior Attack Reaction · cost 3 · 3 defense

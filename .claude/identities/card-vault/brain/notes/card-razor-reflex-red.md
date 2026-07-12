@@ -1,5 +1,5 @@
 ---
-tags: [card, razor-reflex, razor, reflex, generic, attack-reaction, go-again, pitch-1, cost-1]
+tags: [card, razor-reflex, razor, reflex, generic, attack-reaction, go-again, pitch-1, cost-1, 1hp402, ark016, asr016, fab475, gem032, hnt227, tea016, wtr209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MTkdbnhrJNznC69Jg7NLj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: MTkdbnhrJNznC69Jg7NLj
 sets: [1HP, ARK, ASR, FAB, GEM, HNT, TEA, WTR]
+codes: [1HP402, ARK016, ASR016, FAB475, GEM032, HNT227, TEA016, WTR209]
 ---
 
 **Razor Reflex (red)** — Generic Attack Reaction · cost 1 · 2 defense

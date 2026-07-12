@@ -1,5 +1,5 @@
 ---
-tags: [card, pendulum-trap, pendulum, trap, ranger, defense-reaction, pitch-2, cost-0]
+tags: [card, pendulum-trap, pendulum, trap, ranger, defense-reaction, pitch-2, cost-0, lgs139, out107, rip012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QGHNhTQCTGmdJ9FRDbTNC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: QGHNhTQCTGmdJ9FRDbTNC
 sets: [LGS, OUT, RIP]
+codes: [LGS139, OUT107, RIP012]
 ---
 
 **Pendulum Trap (yellow)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, biting-blade, biting, blade, warrior, attack-reaction, reprise, pitch-3, cost-2]
+tags: [card, biting-blade, biting, blade, warrior, attack-reaction, reprise, pitch-3, cost-2, tea020, wtr137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid McjPm9GcmnWLq7cJTrPdm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: McjPm9GcmnWLq7cJTrPdm
 sets: [TEA, WTR]
+codes: [TEA020, WTR137]
 ---
 
 **Biting Blade (blue)** — Warrior Attack Reaction · cost 2 · 3 defense

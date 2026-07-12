@@ -1,5 +1,5 @@
 ---
-tags: [card, tremor-of-anticipation, tremor, anticipation, event]
+tags: [card, tremor-of-anticipation, tremor, anticipation, event, smp032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fKbwfGWzk7zrpWBTNcrjd) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Tremor of Anticipation"
 types: [Event]
 unique-id: fKbwfGWzk7zrpWBTNcrjd
 sets: [SMP]
+codes: [SMP032]
 ---
 
 **Tremor of Anticipation** — Event

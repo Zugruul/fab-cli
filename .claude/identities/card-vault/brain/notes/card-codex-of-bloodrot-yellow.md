@@ -1,5 +1,5 @@
 ---
-tags: [card, codex-of-bloodrot, codex, bloodrot, assassin, ranger, action, go-again, pitch-2, cost-0]
+tags: [card, codex-of-bloodrot, codex, bloodrot, assassin, ranger, action, go-again, pitch-2, cost-0, out159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tjnCb9JGD7mzznFPfDzHp) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: tjnCb9JGD7mzznFPfDzHp
 sets: [OUT]
+codes: [OUT159]
 ---
 
 **Codex of Bloodrot (yellow)** — Assassin / Ranger Action · cost 0 · 2 defense

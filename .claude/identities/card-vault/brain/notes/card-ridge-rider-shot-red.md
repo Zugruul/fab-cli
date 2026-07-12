@@ -1,5 +1,5 @@
 ---
-tags: [card, ridge-rider-shot, ridge, rider, shot, ranger, action, arrow, attack, opt-1, pitch-1, cost-0]
+tags: [card, ridge-rider-shot, ridge, rider, shot, ranger, action, arrow, attack, opt-1, pitch-1, cost-0, 1hp243, arc063, saz016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nRKmkHTJRpnDWndNgfTwk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Opt 1]
 unique-id: nRKmkHTJRpnDWndNgfTwk
 sets: [1HP, ARC, SAZ]
+codes: [1HP243, ARC063, SAZ016]
 ---
 
 **Ridge Rider Shot (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, flock-of-the-feather-walkers, flock, feather, walkers, generic, action, attack, pitch-3, cost-1]
+tags: [card, flock-of-the-feather-walkers, flock, feather, walkers, generic, action, attack, pitch-3, cost-1, 1hp392, rnr027, tea026, wtr184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6fB9pCdHTN9WBhTBF7D6D) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 6fB9pCdHTN9WBhTBF7D6D
 sets: [1HP, RNR, TEA, WTR]
+codes: [1HP392, RNR027, TEA026, WTR184]
 ---
 
 **Flock of the Feather Walkers (blue)** — Generic Action - Attack · cost 1 · 3 power · 2 defense

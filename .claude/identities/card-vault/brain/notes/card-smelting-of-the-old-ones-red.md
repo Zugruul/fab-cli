@@ -1,5 +1,5 @@
 ---
-tags: [card, smelting-of-the-old-ones, smelting, old, ones, guardian, action, attack, crush, heave-2, pitch-1, cost-6]
+tags: [card, smelting-of-the-old-ones, smelting, old, ones, guardian, action, attack, crush, heave-2, pitch-1, cost-6, mpg028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6q8j8bjLPkBrkJCBPGbKb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush, Heave 2]
 unique-id: 6q8j8bjLPkBrkJCBPGbKb
 sets: [MPG]
+codes: [MPG028]
 ---
 
 **Smelting of the Old Ones (red)** — Guardian Action - Attack · cost 6 · 10 power · 3 defense

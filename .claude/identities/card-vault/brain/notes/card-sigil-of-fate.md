@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-fate, sigil, fate, wizard, token, aura, opt-1]
+tags: [card, sigil-of-fate, sigil, fate, wizard, token, aura, opt-1, fab402, pen120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qBqzbKjQwMKKnBtM7GJGH) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Aura]
 keywords: [Opt 1]
 unique-id: qBqzbKjQwMKKnBtM7GJGH
 sets: [FAB, PEN]
+codes: [FAB402, PEN120]
 ---
 
 **Sigil of Fate** — Wizard Token - Aura

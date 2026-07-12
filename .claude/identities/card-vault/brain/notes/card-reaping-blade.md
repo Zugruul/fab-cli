@@ -1,5 +1,5 @@
 ---
-tags: [card, reaping-blade, reaping, blade, runeblade, weapon, sword, 2h]
+tags: [card, reaping-blade, reaping, blade, runeblade, weapon, sword, 2h, 1hp261, con003, cru140, svi002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HrWqnWfcFNdKB7TLnBLtC) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: HrWqnWfcFNdKB7TLnBLtC
 sets: [1HP, CON, CRU, SVI]
+codes: [1HP261, CON003, CRU140, SVI002]
 ---
 
 **Reaping Blade** — Runeblade Weapon - Sword (2H) · 3 power

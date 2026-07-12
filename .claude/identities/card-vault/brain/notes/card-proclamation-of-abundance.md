@@ -1,5 +1,5 @@
 ---
-tags: [card, proclamation-of-abundance, proclamation, abundance, adjudicator, equipment, off-hand]
+tags: [card, proclamation-of-abundance, proclamation, abundance, adjudicator, equipment, off-hand, jdg009, jdg010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wQcpct8M6ddWK6BkKMMgC) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: wQcpct8M6ddWK6BkKMMgC
 sets: [JDG]
+codes: [JDG009, JDG010]
 ---
 
 **Proclamation of Abundance** — Adjudicator Equipment - Off-Hand

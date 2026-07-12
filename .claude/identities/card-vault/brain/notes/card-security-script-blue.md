@@ -1,5 +1,5 @@
 ---
-tags: [card, security-script, security, script, mechanologist, action, item, crank, pitch-3, cost-1]
+tags: [card, security-script, security, script, mechanologist, action, item, crank, pitch-3, cost-1, evo080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fBt7wHjJKcKKhftG6cGmW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: fBt7wHjJKcKKhftG6cGmW
 sets: [EVO]
+codes: [EVO080]
 ---
 
 **Security Script (blue)** — Mechanologist Action - Item · cost 1

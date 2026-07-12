@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-the-adored, helm, adored, equipment, head, revered, the-crowd-cheers, blade-break]
+tags: [card, helm-of-the-adored, helm, adored, equipment, head, revered, the-crowd-cheers, blade-break, sup017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cWfNbbz7WB9nfNd8BbcNM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers, Blade Break]
 unique-id: cWfNbbz7WB9nfNd8BbcNM
 sets: [SUP]
+codes: [SUP017]
 ---
 
 **Helm of the Adored** — Revered Equipment - Head · 1 defense

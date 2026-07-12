@@ -1,5 +1,5 @@
 ---
-tags: [card, eloquent-eulogy, eloquent, eulogy, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-1]
+tags: [card, eloquent-eulogy, eloquent, eulogy, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-1, mst237]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zjjTKPFFzRh9fMGmR6jPR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: zjjTKPFFzRh9fMGmR6jPR
 sets: [MST]
+codes: [MST237]
 ---
 
 **Eloquent Eulogy (red)** — Shadow Runeblade Action - Attack · cost 1 · 4 power · 3 defense

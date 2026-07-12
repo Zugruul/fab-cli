@@ -1,5 +1,5 @@
 ---
-tags: [card, life-for-a-life, life, generic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, life-for-a-life, life, generic, action, attack, go-again, pitch-1, cost-1, 1hp368, arc164, sea217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qqzmLCbJJ6nwQGtzrJMcL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: qqzmLCbJJ6nwQGtzrJMcL
 sets: [1HP, ARC, SEA]
+codes: [1HP368, ARC164, SEA217]
 ---
 
 **Life for a Life (red)** — Generic Action - Attack · cost 1 · 4 power · 2 defense

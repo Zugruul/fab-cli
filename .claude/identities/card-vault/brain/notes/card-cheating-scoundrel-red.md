@@ -1,5 +1,5 @@
 ---
-tags: [card, cheating-scoundrel, cheating, scoundrel, pirate, action, go-again, wager, pitch-1, cost-0]
+tags: [card, cheating-scoundrel, cheating, scoundrel, pirate, action, go-again, wager, pitch-1, cost-0, pen169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DCtpFfTpFgWqgtWkkMQjT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Wager]
 unique-id: DCtpFfTpFgWqgtWkkMQjT
 sets: [PEN]
+codes: [PEN169]
 ---
 
 **Cheating Scoundrel (red)** — Pirate Action · cost 0 · 3 defense

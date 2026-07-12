@@ -1,5 +1,5 @@
 ---
-tags: [card, shrill-of-skullform, shrill, skullform, runeblade, action, attack, pitch-1, cost-2]
+tags: [card, shrill-of-skullform, shrill, skullform, runeblade, action, attack, pitch-1, cost-2, evr116, svi016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hBpbr8Rkc89bfNLHhwMR8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hBpbr8Rkc89bfNLHhwMR8
 sets: [EVR, SVI]
+codes: [EVR116, SVI016]
 ---
 
 **Shrill of Skullform (red)** — Runeblade Action - Attack · cost 2 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, put-on-ice, put, ice, action, freeze, go-again, pitch-3, cost-1]
+tags: [card, put-on-ice, put, ice, action, freeze, go-again, pitch-3, cost-1, pen236]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GBLfqjhh9PnPJFJPThWWn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Freeze, Go again]
 unique-id: GBLfqjhh9PnPJFJPThWWn
 sets: [PEN]
+codes: [PEN236]
 ---
 
 **Put on Ice (blue)** — Ice Action · cost 1 · 2 defense

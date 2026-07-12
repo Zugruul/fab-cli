@@ -1,5 +1,5 @@
 ---
-tags: [card, ransack-and-raze, ransack, raze, generic, action, go-again, pitch-3]
+tags: [card, ransack-and-raze, ransack, raze, generic, action, go-again, pitch-3, pen327]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6mcbQprDMBHRMTfwnDfL9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 6mcbQprDMBHRMTfwnDfL9
 sets: [PEN]
+codes: [PEN327]
 ---
 
 **Ransack and Raze (blue)** — Generic Action · cost X · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, test-of-vigor, test, vigor, guardian, warrior, block, clash, pitch-1]
+tags: [card, test-of-vigor, test, vigor, guardian, warrior, block, clash, pitch-1, hvy182, lgs262, vic014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zt8NGKPrTHDJ8pDrDdJgw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: zt8NGKPrTHDJ8pDrDdJgw
 sets: [HVY, LGS, VIC]
+codes: [HVY182, LGS262, VIC014]
 ---
 
 **Test of Vigor (red)** — Guardian / Warrior Block · 4 defense

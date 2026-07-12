@@ -1,5 +1,5 @@
 ---
-tags: [card, earth-form, earth, form, action, attack, pitch-2, cost-3]
+tags: [card, earth-form, earth, form, action, attack, pitch-2, cost-3, ros037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rbDcWtf9Dm6L9wrBj7Cnz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rbDcWtf9Dm6L9wrBj7Cnz
 sets: [ROS]
+codes: [ROS037]
 ---
 
 **Earth Form (yellow)** — Earth Action - Attack · cost 3 · 6 power · 2 defense

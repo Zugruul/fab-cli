@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-command-center, evo, command, center, mechanologist, action, equipment, head, transform, blade-break, pitch-2, cost-3]
+tags: [card, evo-command-center, evo, command, center, mechanologist, action, equipment, head, transform, blade-break, pitch-2, cost-3, evo034, fab207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G9PPQckWnzpDTBpWnt9M8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Head]
 keywords: [Transform, Blade Break]
 unique-id: G9PPQckWnzpDTBpWnt9M8
 sets: [EVO, FAB]
+codes: [EVO034, FAB207]
 ---
 
 **Evo Command Center (yellow)** — Mechanologist Action Equipment - Evo Head · cost 3 · 3 defense

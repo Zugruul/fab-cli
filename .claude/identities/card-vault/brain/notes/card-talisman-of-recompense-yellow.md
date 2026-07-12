@@ -1,5 +1,5 @@
 ---
-tags: [card, talisman-of-recompense, talisman, recompense, generic, action, item, go-again, pitch-2, cost-0]
+tags: [card, talisman-of-recompense, talisman, recompense, generic, action, item, go-again, pitch-2, cost-0, evr191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9ttJWT9drbGLKtmTFMDqM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: 9ttJWT9drbGLKtmTFMDqM
 sets: [EVR]
+codes: [EVR191]
 ---
 
 **Talisman of Recompense (yellow)** — Generic Action - Item · cost 0

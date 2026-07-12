@@ -1,5 +1,5 @@
 ---
-tags: [card, call-in-the-big-guns, call, big, guns, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, call-in-the-big-guns, call, big, guns, ranger, action, go-again, pitch-3, cost-0, sea122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QLDR6B8G7KPBBTF8C9JKJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: QLDR6B8G7KPBBTF8C9JKJ
 sets: [SEA]
+codes: [SEA122]
 ---
 
 **Call in the Big Guns (blue)** — Ranger Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rawhide-rumble, rawhide, rumble, brute, action, attack, beat-chest, intimidate, pitch-3, cost-2]
+tags: [card, rawhide-rumble, rawhide, rumble, brute, action, attack, beat-chest, intimidate, pitch-3, cost-2, hvy025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kQKHchJfQHNR7zbbBPQCR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Beat Chest, Intimidate]
 unique-id: kQKHchJfQHNR7zbbBPQCR
 sets: [HVY]
+codes: [HVY025]
 ---
 
 **Rawhide Rumble (blue)** — Brute Action - Attack · cost 2 · 4 power · 3 defense

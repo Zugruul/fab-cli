@@ -1,5 +1,5 @@
 ---
-tags: [card, miragai, illusionist, draconic, dragon, ally]
+tags: [card, miragai, illusionist, draconic, dragon, ally, upr012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nhdt8dQ86kQhLgFd8cd8z) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: Nhdt8dQ86kQhLgFd8cd8z
 sets: [UPR]
+codes: [UPR012]
 ---
 
 **Miragai** — Draconic Illusionist - Dragon Ally · 2 power · 4 health

@@ -1,5 +1,5 @@
 ---
-tags: [card, gear-turner, gear, turner, mechanologist, action, attack, pitch-1, cost-1]
+tags: [card, gear-turner, gear, turner, mechanologist, action, attack, pitch-1, cost-1, omn235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tg9TRmR87BpWm6RNLQgzg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: tg9TRmR87BpWm6RNLQgzg
 sets: [OMN]
+codes: [OMN235]
 ---
 
 **Gear Turner (red)** — Mechanologist Action - Attack · cost 1 · 5 power · 3 defense

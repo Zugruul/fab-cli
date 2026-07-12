@@ -1,5 +1,5 @@
 ---
-tags: [card, offensive-behavior, offensive, behavior, brute, action, attack, reviled, pitch-3, cost-0]
+tags: [card, offensive-behavior, offensive, behavior, brute, action, attack, reviled, pitch-3, cost-0, lgs420, sup070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLttRBczGdzDtWNtFTGMn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: qLttRBczGdzDtWNtFTGMn
 sets: [LGS, SUP]
+codes: [LGS420, SUP070]
 ---
 
 **Offensive Behavior (blue)** — Reviled Brute Action - Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-gauntlets, golden, gauntlets, warrior, equipment, arms, legendary, olympia-specialization, temper]
+tags: [card, golden-gauntlets, golden, gauntlets, warrior, equipment, arms, legendary, olympia-specialization, temper, sup249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hBNhqr7gCLz6QMzBDLk8F) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Legendary, Olympia Specialization, Temper]
 unique-id: hBNhqr7gCLz6QMzBDLk8F
 sets: [SUP]
+codes: [SUP249]
 ---
 
 **Golden Gauntlets** — Warrior Equipment - Arms · 2 defense

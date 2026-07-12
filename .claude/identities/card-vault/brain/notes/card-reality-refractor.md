@@ -1,5 +1,5 @@
 ---
-tags: [card, reality-refractor, reality, refractor, illusionist, weapon, orb, 2h, attack]
+tags: [card, reality-refractor, reality, refractor, illusionist, weapon, orb, 2h, attack, dtd216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T8JJgk7GLGpcDQWWN9RH7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Orb, 2H]
 keywords: [Attack]
 unique-id: T8JJgk7GLGpcDQWWN9RH7
 sets: [DTD]
+codes: [DTD216]
 ---
 
 **Reality Refractor** — Illusionist Weapon - Orb (2H)

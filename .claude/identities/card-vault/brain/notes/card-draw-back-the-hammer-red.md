@@ -1,5 +1,5 @@
 ---
-tags: [card, draw-back-the-hammer, draw, back, hammer, mechanologist, action, go-again, pitch-1, cost-1]
+tags: [card, draw-back-the-hammer, draw, back, hammer, mechanologist, action, go-again, pitch-1, cost-1, sea039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L9p7KwzTpjnpPGqjnDgqn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: L9p7KwzTpjnpPGqjnDgqn
 sets: [SEA]
+codes: [SEA039]
 ---
 
 **Draw Back the Hammer (red)** — Mechanologist Action · cost 1 · 2 defense

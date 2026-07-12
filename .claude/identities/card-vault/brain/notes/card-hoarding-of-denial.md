@@ -1,5 +1,5 @@
 ---
-tags: [card, hoarding-of-denial, hoarding, denial, guardian, equipment, off-hand, blade-break]
+tags: [card, hoarding-of-denial, hoarding, denial, guardian, equipment, off-hand, blade-break, mpg009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m78fRjCfRBzTwhbrdDBBc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Blade Break]
 unique-id: m78fRjCfRBzTwhbrdDBBc
 sets: [MPG]
+codes: [MPG009]
 ---
 
 **Hoarding of Denial** — Guardian Equipment - Off-Hand · 0 defense

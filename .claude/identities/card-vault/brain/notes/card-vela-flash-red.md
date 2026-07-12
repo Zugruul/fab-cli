@@ -1,5 +1,5 @@
 ---
-tags: [card, vela-flash, vela, flash, runeblade, elemental, action, attack, lightning-fusion, pitch-1, cost-1]
+tags: [card, vela-flash, vela, flash, runeblade, elemental, action, attack, lightning-fusion, pitch-1, cost-1, ele076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JfGgTRqtGKdzpcQKTrFRf) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Fusion]
 unique-id: JfGgTRqtGKdzpcQKTrFRf
 sets: [ELE]
+codes: [ELE076]
 ---
 
 **Vela Flash (red)** — Elemental Runeblade Action - Attack · cost 1 · 5 power · 3 defense

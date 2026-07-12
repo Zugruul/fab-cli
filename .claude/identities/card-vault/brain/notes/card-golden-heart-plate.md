@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-heart-plate, golden, heart, plate, warrior, equipment, chest, legendary, olympia-specialization, temper]
+tags: [card, golden-heart-plate, golden, heart, plate, warrior, equipment, chest, legendary, olympia-specialization, temper, sup248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nTWKhGp7pwKwMmtFnB8hc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Legendary, Olympia Specialization, Temper]
 unique-id: nTWKhGp7pwKwMmtFnB8hc
 sets: [SUP]
+codes: [SUP248]
 ---
 
 **Golden Heart Plate** — Warrior Equipment - Chest · 2 defense

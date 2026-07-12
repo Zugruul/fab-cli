@@ -1,5 +1,5 @@
 ---
-tags: [card, disembody, action, attack, revered, pitch-1, cost-3]
+tags: [card, disembody, action, attack, revered, pitch-1, cost-3, sup031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PLpmc6rb9nqRdNGDczpg7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: PLpmc6rb9nqRdNGDczpg7
 sets: [SUP]
+codes: [SUP031]
 ---
 
 **Disembody (red)** — Revered Action - Attack · cost 3 · 7 power · 3 defense

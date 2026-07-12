@@ -1,5 +1,5 @@
 ---
-tags: [card, disable, guardian, action, attack, crush, pitch-1, cost-5]
+tags: [card, disable, guardian, action, attack, crush, pitch-1, cost-5, 1hp055, bvo011, mpg073, wtr048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TtMnqPqJNGgrjmMJ99KWn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: TtMnqPqJNGgrjmMJ99KWn
 sets: [1HP, BVO, MPG, WTR]
+codes: [1HP055, BVO011, MPG073, WTR048]
 ---
 
 **Disable (red)** — Guardian Action - Attack · cost 5 · 9 power · 3 defense

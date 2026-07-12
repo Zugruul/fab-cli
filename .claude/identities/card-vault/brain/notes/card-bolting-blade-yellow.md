@@ -1,5 +1,5 @@
 ---
-tags: [card, bolting-blade, bolting, blade, warrior, light, action, attack, pitch-2, cost-4]
+tags: [card, bolting-blade, bolting, blade, warrior, light, action, attack, pitch-2, cost-4, mon032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 76KHBFmKK6NdFdc7zcmHk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 76KHBFmKK6NdFdc7zcmHk
 sets: [MON]
+codes: [MON032]
 ---
 
 **Bolting Blade (yellow)** — Light Warrior Action - Attack · cost 4 · 7 power · 3 defense

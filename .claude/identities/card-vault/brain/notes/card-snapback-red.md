@@ -1,5 +1,5 @@
 ---
-tags: [card, snapback, wizard, action, pitch-1, cost-1]
+tags: [card, snapback, wizard, action, pitch-1, cost-1, 1hp332, cru174, sbz016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FfHKcc6HWkdkbC76BwgqQ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: FfHKcc6HWkdkbC76BwgqQ
 sets: [1HP, CRU, SBZ]
+codes: [1HP332, CRU174, SBZ016]
 ---
 
 **Snapback (red)** — Wizard Action · cost 1 · 3 defense

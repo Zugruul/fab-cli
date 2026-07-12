@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-the-blacksmith, visit, blacksmith, generic, action, go-again, pitch-3, cost-0]
+tags: [card, visit-the-blacksmith, visit, blacksmith, generic, action, go-again, pitch-3, cost-0, dvr022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7JJG6Pdjw7Fq9rHGtmPBJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 7JJG6Pdjw7Fq9rHGtmPBJ
 sets: [DVR]
+codes: [DVR022]
 ---
 
 **Visit the Blacksmith (blue)** — Generic Action · cost 0 · 2 defense

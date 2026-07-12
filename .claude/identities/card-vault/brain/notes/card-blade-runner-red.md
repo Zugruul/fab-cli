@@ -1,5 +1,5 @@
 ---
-tags: [card, blade-runner, blade, runner, warrior, attack-reaction, go-again, pitch-1, cost-1]
+tags: [card, blade-runner, blade, runner, warrior, attack-reaction, go-again, pitch-1, cost-1, evr060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JpPbKrMTptDdR7BCKqQbC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: JpPbKrMTptDdR7BCKqQbC
 sets: [EVR]
+codes: [EVR060]
 ---
 
 **Blade Runner (red)** — Warrior Attack Reaction · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, fatal-engagement, fatal, engagement, warrior, attack-reaction, pitch-1, cost-2]
+tags: [card, fatal-engagement, fatal, engagement, warrior, attack-reaction, pitch-1, cost-2, hvy109, ola013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqdJLJhMF9r9NnLdppgtK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: NqdJLJhMF9r9NnLdppgtK
 sets: [HVY, OLA]
+codes: [HVY109, OLA013]
 ---
 
 **Fatal Engagement (red)** — Warrior Attack Reaction · cost 2 · 3 defense

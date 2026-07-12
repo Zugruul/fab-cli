@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanic-crackle, arcanic, crackle, runeblade, action, attack, pitch-1, cost-0]
+tags: [card, arcanic-crackle, arcanic, crackle, runeblade, action, attack, pitch-1, cost-0, ast007, mon235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H87pKGPFG9qBRFBnR8MTL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: H87pKGPFG9qBRFBnR8MTL
 sets: [AST, MON]
+codes: [AST007, MON235]
 ---
 
 **Arcanic Crackle (red)** — Runeblade Action - Attack · cost 0 · 3 power · 3 defense

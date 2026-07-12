@@ -1,5 +1,5 @@
 ---
-tags: [card, banneret-of-resilience, banneret, resilience, warrior, light, action, attack, solflare, pitch-2, cost-0]
+tags: [card, banneret-of-resilience, banneret, resilience, warrior, light, action, attack, solflare, pitch-2, cost-0, asb017, dtd054, lgs179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BJNg8JCdrjgzCwM6N8786) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Solflare]
 unique-id: BJNg8JCdrjgzCwM6N8786
 sets: [ASB, DTD, LGS]
+codes: [ASB017, DTD054, LGS179]
 ---
 
 **Banneret of Resilience (yellow)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

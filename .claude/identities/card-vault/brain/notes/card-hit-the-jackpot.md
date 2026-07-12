@@ -1,5 +1,5 @@
 ---
-tags: [card, hit-the-jackpot, hit, jackpot, event]
+tags: [card, hit-the-jackpot, hit, jackpot, event, smp011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CDPJ7MNMhpFCmpRn79TP7) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Hit the Jackpot"
 types: [Event]
 unique-id: CDPJ7MNMhpFCmpRn79TP7
 sets: [SMP]
+codes: [SMP011]
 ---
 
 **Hit the Jackpot** — Event

@@ -1,5 +1,5 @@
 ---
-tags: [card, sound-the-alarm, sound, alarm, generic, action, attack, pitch-1, cost-1]
+tags: [card, sound-the-alarm, sound, alarm, generic, action, attack, pitch-1, cost-1, hnt226]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TGDrGkM6WHKGtC9HQbzcT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: TGDrGkM6WHKGtC9HQbzcT
 sets: [HNT]
+codes: [HNT226]
 ---
 
 **Sound the Alarm (red)** — Generic Action - Attack · cost 1 · 5 power · 3 defense

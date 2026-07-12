@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-deadwood, sigil, deadwood, runeblade, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sigil-of-deadwood, sigil, deadwood, runeblade, action, aura, go-again, pitch-3, cost-0, aua025, lgs326, ros161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fkJz8TmrMw8zMngz6qQDm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: fkJz8TmrMw8zMngz6qQDm
 sets: [AUA, LGS, ROS]
+codes: [AUA025, LGS326, ROS161]
 ---
 
 **Sigil of Deadwood (blue)** — Runeblade Action - Aura · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, flick-knives, flick, knives, assassin, ninja, equipment, arms, blade-break]
+tags: [card, flick-knives, flick, knives, assassin, ninja, equipment, arms, blade-break, fab124, out139, sup244]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bh6NHMCNrhdwbHb7CJRb7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: Bh6NHMCNrhdwbHb7CJRb7
 sets: [FAB, OUT, SUP]
+codes: [FAB124, OUT139, SUP244]
 ---
 
 **Flick Knives** — Assassin / Ninja Equipment - Arms · 1 defense

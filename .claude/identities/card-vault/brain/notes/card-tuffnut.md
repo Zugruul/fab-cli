@@ -1,5 +1,5 @@
 ---
-tags: [card, tuffnut, brute, hero, revered, young]
+tags: [card, tuffnut, brute, hero, revered, young, sup002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wKnhnNTHKHqFfjgdn9LLP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Revered]
 unique-id: wKnhnNTHKHqFfjgdn9LLP
 sets: [SUP]
+codes: [SUP002]
 ---
 
 **Tuffnut** — Revered Brute Hero - Young · 20 health · 3 int

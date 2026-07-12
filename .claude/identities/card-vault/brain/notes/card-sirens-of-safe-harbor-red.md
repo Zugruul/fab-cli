@@ -1,5 +1,5 @@
 ---
-tags: [card, sirens-of-safe-harbor, sirens, safe, harbor, generic, action, attack, pitch-1, cost-2]
+tags: [card, sirens-of-safe-harbor, sirens, safe, harbor, generic, action, attack, pitch-1, cost-2, gem063, sea226]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMwJ8b97zqNWbjdHqRNRK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WMwJ8b97zqNWbjdHqRNRK
 sets: [GEM, SEA]
+codes: [GEM063, SEA226]
 ---
 
 **Sirens of Safe Harbor (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

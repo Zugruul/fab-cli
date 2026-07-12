@@ -1,5 +1,5 @@
 ---
-tags: [card, touch-of-reality, touch, reality, illusionist, equipment, arms, ward-x]
+tags: [card, touch-of-reality, touch, reality, illusionist, equipment, arms, ward-x, pen122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nbLtg9mnTztkwRwnf6BL7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Arms]
 keywords: [Ward X]
 unique-id: nbLtg9mnTztkwRwnf6BL7
 sets: [PEN]
+codes: [PEN122]
 ---
 
 **Touch of Reality** — Illusionist Equipment - Arms

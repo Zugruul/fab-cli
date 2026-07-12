@@ -1,5 +1,5 @@
 ---
-tags: [card, payload, mechanologist, action, attack, dominate, pitch-2, cost-2]
+tags: [card, payload, mechanologist, action, attack, dominate, pitch-2, cost-2, evr077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KBdJqh9KgdGzkRTbGDn7W) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: KBdJqh9KgdGzkRTbGDn7W
 sets: [EVR]
+codes: [EVR077]
 ---
 
 **Payload (yellow)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

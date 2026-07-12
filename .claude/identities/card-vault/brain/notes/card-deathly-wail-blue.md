@@ -1,5 +1,5 @@
 ---
-tags: [card, deathly-wail, deathly, wail, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-3, cost-3]
+tags: [card, deathly-wail, deathly, wail, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-3, cost-3, dtd148]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fn8bTWKkJC77cqjfPmkjC) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: Fn8bTWKkJC77cqjfPmkjC
 sets: [DTD]
+codes: [DTD148]
 ---
 
 **Deathly Wail (blue)** — Shadow Runeblade Action - Attack · cost 3 · 4 power · 3 defense

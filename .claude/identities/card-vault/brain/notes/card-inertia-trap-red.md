@@ -1,5 +1,5 @@
 ---
-tags: [card, inertia-trap, inertia, trap, assassin, ranger, defense-reaction, pitch-1, cost-0]
+tags: [card, inertia-trap, inertia, trap, assassin, ranger, defense-reaction, pitch-1, cost-0, out173, rip010, sar025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jb6MjpJPRLbM99RJC8qKR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: Jb6MjpJPRLbM99RJC8qKR
 sets: [OUT, RIP, SAR]
+codes: [OUT173, RIP010, SAR025]
 ---
 
 **Inertia Trap (red)** — Assassin / Ranger Defense Reaction - Trap · cost 0 · 3 defense

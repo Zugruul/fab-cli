@@ -1,5 +1,5 @@
 ---
-tags: [card, heirloom-of-tiger-hide, heirloom, tiger, hide, ninja, mystic, equipment, chest, cloaked, blade-break]
+tags: [card, heirloom-of-tiger-hide, heirloom, tiger, hide, ninja, mystic, equipment, chest, cloaked, blade-break, mst049, zen004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6F7r7J6hRpwwH8hrtjdTp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Chest]
 keywords: [Cloaked, Blade Break]
 unique-id: 6F7r7J6hRpwwH8hrtjdTp
 sets: [MST, ZEN]
+codes: [MST049, ZEN004]
 ---
 
 **Heirloom of Tiger Hide** — Mystic Ninja Equipment - Chest · 3 defense

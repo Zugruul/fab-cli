@@ -1,5 +1,5 @@
 ---
-tags: [card, cold-wave, cold, wave, ranger, elemental, action, arrow, attack, ice-fusion, pitch-1, cost-1]
+tags: [card, cold-wave, cold, wave, ranger, elemental, action, arrow, attack, ice-fusion, pitch-1, cost-1, ele038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DdKKrgzFQJQz6mJtmKFqN) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Ice Fusion]
 unique-id: DdKKrgzFQJQz6mJtmKFqN
 sets: [ELE]
+codes: [ELE038]
 ---
 
 **Cold Wave (red)** — Elemental Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

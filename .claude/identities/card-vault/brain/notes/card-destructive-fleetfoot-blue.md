@@ -1,5 +1,5 @@
 ---
-tags: [card, destructive-fleetfoot, destructive, fleetfoot, runeblade, lightning, action, attack, quickstrike, pitch-3, cost-0]
+tags: [card, destructive-fleetfoot, destructive, fleetfoot, runeblade, lightning, action, attack, quickstrike, pitch-3, cost-0, omn064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d9tCqMqtdwFCmHMbRFGzd) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Quickstrike]
 unique-id: d9tCqMqtdwFCmHMbRFGzd
 sets: [OMN]
+codes: [OMN064]
 ---
 
 **Destructive Fleetfoot (blue)** — Lightning Runeblade Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, parry-blade, parry, blade, warrior, weapon, equipment, sword, 1h, blade-break]
+tags: [card, parry-blade, parry, blade, warrior, weapon, equipment, sword, 1h, blade-break, hvy096, lgs242, ola003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8RgDcJhnpLP9j6DqNqPfp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Sword, 1H]
 keywords: [Blade Break]
 unique-id: 8RgDcJhnpLP9j6DqNqPfp
 sets: [HVY, LGS, OLA]
+codes: [HVY096, LGS242, OLA003]
 ---
 
 **Parry Blade** — Warror Weapon Equipment - Sword (1H) · 2 power · 0 defense

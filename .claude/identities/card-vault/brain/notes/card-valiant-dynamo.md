@@ -1,5 +1,5 @@
 ---
-tags: [card, valiant-dynamo, valiant, dynamo, warrior, equipment, legs, battleworn]
+tags: [card, valiant-dynamo, valiant, dynamo, warrior, equipment, legs, battleworn, fab020, mon107, mpw012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wB9f6wWqbBzPf8KBqWqTf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: wB9f6wWqbBzPf8KBqWqTf
 sets: [FAB, MON, MPW]
+codes: [FAB020, MON107, MPW012]
 ---
 
 **Valiant Dynamo** — Warrior Equipment - Legs · 1 defense

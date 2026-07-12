@@ -1,5 +1,5 @@
 ---
-tags: [card, boneyard-marauder, boneyard, marauder, brute, shadow, action, attack, blood-debt, pitch-3, cost-1]
+tags: [card, boneyard-marauder, boneyard, marauder, brute, shadow, action, attack, blood-debt, pitch-3, cost-1, lev018, mon137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cW9DC9PbTtg8nqwr7JcLD) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: cW9DC9PbTtg8nqwr7JcLD
 sets: [LEV, MON]
+codes: [LEV018, MON137]
 ---
 
 **Boneyard Marauder (blue)** — Shadow Brute Action - Attack · cost 1 · 4 power · 3 defense

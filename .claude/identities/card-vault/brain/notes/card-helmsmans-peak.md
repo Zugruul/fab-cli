@@ -1,5 +1,5 @@
 ---
-tags: [card, helmsmans-peak, helmsmans, peak, generic, equipment, head, blade-break]
+tags: [card, helmsmans-peak, helmsmans, peak, generic, equipment, head, blade-break, sea180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PMh8LjJm6jmBKfm8FqfkW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: PMh8LjJm6jmBKfm8FqfkW
 sets: [SEA]
+codes: [SEA180]
 ---
 
 **Helmsman's Peak** — Generic Equipment - Head · 1 defense

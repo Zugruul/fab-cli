@@ -1,5 +1,5 @@
 ---
-tags: [card, potion-of-luck, potion, luck, generic, action, item, pitch-3, cost-0]
+tags: [card, potion-of-luck, potion, luck, generic, action, item, pitch-3, cost-0, evr187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K6NjFFzbnPdFpFCDRLMrK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: K6NjFFzbnPdFpFCDRLMrK
 sets: [EVR]
+codes: [EVR187]
 ---
 
 **Potion of Luck (blue)** — Generic Action - Item · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, chane, runeblade, shadow, hero, young, go-again]
+tags: [card, chane, runeblade, shadow, hero, young, go-again, chn001, her037, mon154, pen344]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mCCnJrJQkqJ7KfqKNHGnc) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: mCCnJrJQkqJ7KfqKNHGnc
 sets: [CHN, HER, MON, PEN]
+codes: [CHN001, HER037, MON154, PEN344]
 ---
 
 **Chane** — Shadow Runeblade Hero - Young · 20 health · 4 int

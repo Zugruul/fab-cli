@@ -1,5 +1,5 @@
 ---
-tags: [card, mischievous-meeps, mischievous, meeps, generic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, mischievous-meeps, mischievous, meeps, generic, action, attack, go-again, pitch-1, cost-1, dtd227]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dhmDDqtfNCPcBnzfTKzrp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dhmDDqtfNCPcBnzfTKzrp
 sets: [DTD]
+codes: [DTD227]
 ---
 
 **Mischievous Meeps (red)** — Generic Action - Attack · cost 1 · 2 power · 2 defense

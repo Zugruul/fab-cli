@@ -1,5 +1,5 @@
 ---
-tags: [card, graven-vestment, graven, vestment, assassin, equipment, chest, blade-break]
+tags: [card, graven-vestment, graven, vestment, assassin, equipment, chest, blade-break, pen138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JccrcTgJrBnTWHqk6GnTP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: JccrcTgJrBnTWHqk6GnTP
 sets: [PEN]
+codes: [PEN138]
 ---
 
 **Graven Vestment** — Assassin Equipment - Chest · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, melody-sing-along, melody, sing, along, bard, hero, young]
+tags: [card, melody-sing-along, melody, sing, along, bard, hero, young, her103, tcc049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid npDPz98H6BnJGDzHBmdGk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Bard]
 types: [Hero]
 unique-id: npDPz98H6BnJGDzHBmdGk
 sets: [HER, TCC]
+codes: [HER103, TCC049]
 ---
 
 **Melody, Sing-along** — Bard Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, rugged-roller, rugged, roller, brute, weapon, club, 2h]
+tags: [card, rugged-roller, rugged, roller, brute, weapon, club, 2h, dtd199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JGTWPHkq97qTw6qtMgNHN) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Club, 2H]
 unique-id: JGTWPHkq97qTw6qtMgNHN
 sets: [DTD]
+codes: [DTD199]
 ---
 
 **Rugged Roller** — Brute Weapon - Club (2H) · 6 power

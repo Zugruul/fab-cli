@@ -1,5 +1,5 @@
 ---
-tags: [card, dynastic-dedication, dynastic, dedication, warrior, draconic, attack-reaction, pitch-1, cost-2]
+tags: [card, dynastic-dedication, dynastic, dedication, warrior, draconic, attack-reaction, pitch-1, cost-2, fng011, hnt108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tbfnpFfBddccMGLcDNbJC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: tbfnpFfBddccMGLcDNbJC
 sets: [FNG, HNT]
+codes: [FNG011, HNT108]
 ---
 
 **Dynastic Dedication (red)** — Draconic Warrior Attack Reaction · cost 2 · 2 defense

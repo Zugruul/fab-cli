@@ -1,5 +1,5 @@
 ---
-tags: [card, trench-of-watery-depths, trench, watery, depths, pirate, equipment, chest, blade-break]
+tags: [card, trench-of-watery-depths, trench, watery, depths, pirate, equipment, chest, blade-break, pen168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wr9jWmbRhHJ7th99rbPGd) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: wr9jWmbRhHJ7th99rbPGd
 sets: [PEN]
+codes: [PEN168]
 ---
 
 **Trench of Watery Depths** — Pirate Equipment - Chest · 1 defense

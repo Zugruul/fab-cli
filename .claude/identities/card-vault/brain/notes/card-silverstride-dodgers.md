@@ -1,5 +1,5 @@
 ---
-tags: [card, silverstride-dodgers, silverstride, dodgers, warrior, equipment, legs, temper]
+tags: [card, silverstride-dodgers, silverstride, dodgers, warrior, equipment, legs, temper, aha006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLHCbFDHBQbzKGTTBq8PW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Temper]
 unique-id: qLHCbFDHBQbzKGTTBq8PW
 sets: [AHA]
+codes: [AHA006]
 ---
 
 **Silverstride Dodgers** — Warrior Equipment - Legs · 1 defense

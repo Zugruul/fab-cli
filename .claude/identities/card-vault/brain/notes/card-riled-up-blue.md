@@ -1,5 +1,5 @@
 ---
-tags: [card, riled-up, riled, up, brute, action, attack, pitch-3, cost-3]
+tags: [card, riled-up, riled, up, brute, action, attack, pitch-3, cost-3, 1hp030, ako023, cru018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gnjKkBhQtpnDgQ6Q6KD9G) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gnjKkBhQtpnDgQ6Q6KD9G
 sets: [1HP, AKO, CRU]
+codes: [1HP030, AKO023, CRU018]
 ---
 
 **Riled Up (blue)** — Brute Action - Attack · cost 3 · 5 power · 3 defense

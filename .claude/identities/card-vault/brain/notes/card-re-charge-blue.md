@@ -1,5 +1,5 @@
 ---
-tags: [card, re-charge, re, charge, mechanologist, action, go-again, pitch-3, cost-1]
+tags: [card, re-charge, re, charge, mechanologist, action, go-again, pitch-3, cost-1, evo230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CmJqfQdnpC6Htbq7LTrWN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: CmJqfQdnpC6Htbq7LTrWN
 sets: [EVO]
+codes: [EVO230]
 ---
 
 **Re-Charge! (blue)** — Mechanologist Action · cost 1 · 2 defense

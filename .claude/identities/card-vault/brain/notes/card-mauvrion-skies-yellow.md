@@ -1,5 +1,5 @@
 ---
-tags: [card, mauvrion-skies, mauvrion, skies, runeblade, action, go-again, pitch-2, cost-0]
+tags: [card, mauvrion-skies, mauvrion, skies, runeblade, action, go-again, pitch-2, cost-0, 1hp277, cru146, tnp026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qgBwpjpHqRJFddcwwbCK8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qgBwpjpHqRJFddcwwbCK8
 sets: [1HP, CRU, TNP]
+codes: [1HP277, CRU146, TNP026]
 ---
 
 **Mauvrion Skies (yellow)** — Runeblade Action · cost 0 · 2 defense

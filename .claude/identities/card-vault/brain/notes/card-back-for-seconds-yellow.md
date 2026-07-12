@@ -1,5 +1,5 @@
 ---
-tags: [card, back-for-seconds, back, seconds, warrior, attack-reaction, pitch-2, cost-1]
+tags: [card, back-for-seconds, back, seconds, warrior, attack-reaction, pitch-2, cost-1, ddd011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqtmztMtrJGPNNG9hNdQP) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: NqtmztMtrJGPNNG9hNdQP
 sets: [DDD]
+codes: [DDD011]
 ---
 
 **Back for Seconds (yellow)** — Warrior Attack Reaction · cost 1 · 2 defense

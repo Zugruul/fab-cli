@@ -1,5 +1,5 @@
 ---
-tags: [card, let-me-buy-you-a-drink, let, me, buy, you, drink, event]
+tags: [card, let-me-buy-you-a-drink, let, me, buy, you, drink, event, smp027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tgkMhwLnr8kh6pcR86nR6) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Let Me Buy You a Drink"
 types: [Event]
 unique-id: tgkMhwLnr8kh6pcR86nR6
 sets: [SMP]
+codes: [SMP027]
 ---
 
 **Let Me Buy You a Drink** — Event

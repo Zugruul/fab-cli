@@ -1,5 +1,5 @@
 ---
-tags: [card, gate-to-iarathael, gate, iarathael, shadow, token, aura]
+tags: [card, gate-to-iarathael, gate, iarathael, shadow, token, aura, iar222]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JtkWt6Kzpgz9qpPLPp8Ff) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: JtkWt6Kzpgz9qpPLPp8Ff
 sets: [IAR]
+codes: [IAR222]
 ---
 
 **Gate to íArathael** — Shadow Token - Aura

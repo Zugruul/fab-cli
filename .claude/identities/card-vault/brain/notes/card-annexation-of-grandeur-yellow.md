@@ -1,5 +1,5 @@
 ---
-tags: [card, annexation-of-grandeur, annexation, grandeur, guardian, action, attack, crush, pitch-2, cost-5]
+tags: [card, annexation-of-grandeur, annexation, grandeur, guardian, action, attack, crush, pitch-2, cost-5, mpg030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hrRRtK6qNccfpgphQJwMd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: hrRRtK6qNccfpgphQJwMd
 sets: [MPG]
+codes: [MPG030]
 ---
 
 **Annexation of Grandeur (yellow)** — Guardian Action - Attack · cost 5 · 8 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-might, clash, might, brute, guardian, action, attack, pitch-1, cost-2]
+tags: [card, clash-of-might, clash, might, brute, guardian, action, attack, pitch-1, cost-2, hvy137, ska013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NGMpfnrcHzjWtB6bmGC6C) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: NGMpfnrcHzjWtB6bmGC6C
 sets: [HVY, SKA]
+codes: [HVY137, SKA013]
 ---
 
 **Clash of Might (red)** — Brute / Guardian Action - Attack · cost 2 · 6 power · 3 defense

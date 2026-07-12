@@ -1,5 +1,5 @@
 ---
-tags: [card, overload-script, overload, script, mechanologist, action, item, crank, overpower, pitch-1, cost-0]
+tags: [card, overload-script, overload, script, mechanologist, action, item, crank, overpower, pitch-1, cost-0, evo096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zqwKN9QMKKMpNCJF6RwWN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank, Overpower]
 unique-id: zqwKN9QMKKMpNCJF6RwWN
 sets: [EVO]
+codes: [EVO096]
 ---
 
 **Overload Script (red)** — Mechanologist Action - Item · cost 0

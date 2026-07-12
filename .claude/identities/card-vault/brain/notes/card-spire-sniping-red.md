@@ -1,5 +1,5 @@
 ---
-tags: [card, spire-sniping, spire, sniping, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, spire-sniping, spire, sniping, ranger, action, arrow, attack, pitch-1, cost-1, azl014, out130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ngbkbt7KfrCHnQkTPJRb8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: Ngbkbt7KfrCHnQkTPJRb8
 sets: [AZL, OUT]
+codes: [AZL014, OUT130]
 ---
 
 **Spire Sniping (red)** — Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

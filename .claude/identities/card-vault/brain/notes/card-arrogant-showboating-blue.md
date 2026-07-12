@@ -1,5 +1,5 @@
 ---
-tags: [card, arrogant-showboating, arrogant, showboating, instant, reviled, pitch-3, cost-0]
+tags: [card, arrogant-showboating, arrogant, showboating, instant, reviled, pitch-3, cost-0, sup096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mcgDWKjwLQ9thKbjmqBJG) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Instant]
 other-types: [Reviled]
 unique-id: mcgDWKjwLQ9thKbjmqBJG
 sets: [SUP]
+codes: [SUP096]
 ---
 
 **Arrogant Showboating (blue)** — Reviled Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-magneto, evo, magneto, mechanologist, action, equipment, arms, temper, pitch-3, cost-1]
+tags: [card, evo-magneto, evo, magneto, mechanologist, action, equipment, arms, temper, pitch-3, cost-1, hvy248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DDTHnwBGLRMwrDLd6bMwc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Temper]
 unique-id: DDTHnwBGLRMwrDLd6bMwc
 sets: [HVY]
+codes: [HVY248]
 ---
 
 **Evo Magneto (blue)** — Mechanologist Action Equipment - Evo Arms · cost 1 · 2 defense

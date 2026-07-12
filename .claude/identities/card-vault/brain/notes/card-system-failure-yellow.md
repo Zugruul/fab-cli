@@ -1,5 +1,5 @@
 ---
-tags: [card, system-failure, system, failure, mechanologist, action, pitch-2, cost-1]
+tags: [card, system-failure, system, failure, mechanologist, action, pitch-2, cost-1, evo144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTWTq8HRqQM9nCCqQcTPD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Mechanologist]
 types: [Action]
 unique-id: GTWTq8HRqQM9nCCqQcTPD
 sets: [EVO]
+codes: [EVO144]
 ---
 
 **System Failure (yellow)** — Mechanologist Action · cost 1 · 2 defense

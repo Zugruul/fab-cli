@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-buzz-hive, evo, buzz, hive, mechanologist, instant, equipment, chest, transform, pitch-2, cost-0]
+tags: [card, evo-buzz-hive, evo, buzz, hive, mechanologist, instant, equipment, chest, transform, pitch-2, cost-0, evo051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CdLzKHrrnjKTFKG77GjM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Chest]
 keywords: [Transform]
 unique-id: 8CdLzKHrrnjKTFKG77GjM
 sets: [EVO]
+codes: [EVO051]
 ---
 
 **Evo Buzz Hive (yellow)** — Mechanologist Instant Equipment - Evo Chest · cost 0 · 0 defense

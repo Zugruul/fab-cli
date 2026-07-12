@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanic-cunning, arcanic, cunning, runeblade, action, attack, pitch-1, cost-0]
+tags: [card, arcanic-cunning, arcanic, cunning, runeblade, action, attack, pitch-1, cost-0, omn088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JH8zBb9R8WgDTGFmjNrRp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JH8zBb9R8WgDTGFmjNrRp
 sets: [OMN]
+codes: [OMN088]
 ---
 
 **Arcanic Cunning (red)** — Runeblade Action - Attack · cost 0 · 4 power · 3 defense

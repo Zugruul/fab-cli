@@ -1,5 +1,5 @@
 ---
-tags: [card, tremorshield-sabatons, tremorshield, sabatons, guardian, equipment, legs, blade-break]
+tags: [card, tremorshield-sabatons, tremorshield, sabatons, guardian, equipment, legs, blade-break, hnt247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mwWqPrQzL7fmQkzCFfttc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: mwWqPrQzL7fmQkzCFfttc
 sets: [HNT]
+codes: [HNT247]
 ---
 
 **Tremorshield Sabatons** — Guardian Equipment - Legs · 1 defense

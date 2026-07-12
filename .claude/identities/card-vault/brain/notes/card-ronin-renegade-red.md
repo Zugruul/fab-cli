@@ -1,5 +1,5 @@
 ---
-tags: [card, ronin-renegade, ronin, renegade, ninja, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, ronin-renegade, ronin, renegade, ninja, draconic, action, attack, go-again, pitch-1, cost-0, cin018, fai019, hnt070, sfa023, upr078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JWGCCknwHPjTKzpwpnBcJ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: JWGCCknwHPjTKzpwpnBcJ
 sets: [CIN, FAI, HNT, SFA, UPR]
+codes: [CIN018, FAI019, HNT070, SFA023, UPR078]
 ---
 
 **Ronin Renegade (red)** — Draconic Ninja Action - Attack · cost 0 · 3 power · 2 defense

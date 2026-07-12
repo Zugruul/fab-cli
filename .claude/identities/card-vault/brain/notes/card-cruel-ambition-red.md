@@ -1,5 +1,5 @@
 ---
-tags: [card, cruel-ambition, cruel, ambition, action, reviled, go-again, pitch-1, cost-0]
+tags: [card, cruel-ambition, cruel, ambition, action, reviled, go-again, pitch-1, cost-0, gem096, sup118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fJjNtpB6PRFbDhM9Brndh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Go again]
 unique-id: fJjNtpB6PRFbDhM9Brndh
 sets: [GEM, SUP]
+codes: [GEM096, SUP118]
 ---
 
 **Cruel Ambition (red)** — Reviled Action · cost 0 · 2 defense

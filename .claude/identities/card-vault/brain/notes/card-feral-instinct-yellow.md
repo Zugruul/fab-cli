@@ -1,5 +1,5 @@
 ---
-tags: [card, feral-instinct, feral, instinct, brute, action, attack, pitch-2, cost-3]
+tags: [card, feral-instinct, feral, instinct, brute, action, attack, pitch-2, cost-3, omn229]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CPNhjTPwJ9W6Mm6cNRFHd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: CPNhjTPwJ9W6Mm6cNRFHd
 sets: [OMN]
+codes: [OMN229]
 ---
 
 **Feral Instinct (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-temporal-manipulation, sigil, temporal, manipulation, wizard, instant, aura, pitch-3, cost-0]
+tags: [card, sigil-of-temporal-manipulation, sigil, temporal, manipulation, wizard, instant, aura, pitch-3, cost-0, lgs328, ros182]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HcFDpBjqzK8KBzjF6Tbnp) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: HcFDpBjqzK8KBzjF6Tbnp
 sets: [LGS, ROS]
+codes: [LGS328, ROS182]
 ---
 
 **Sigil of Temporal Manipulation (blue)** — Wizard Instant - Aura · cost 0

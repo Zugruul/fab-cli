@@ -1,5 +1,5 @@
 ---
-tags: [card, expedition-to-azuro-keys, expedition, azuro, keys, pirate, action, attack, pitch-1, cost-0]
+tags: [card, expedition-to-azuro-keys, expedition, azuro, keys, pirate, action, attack, pitch-1, cost-0, sea155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LhN9jPcQHGJ796r79BqGR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: LhN9jPcQHGJ796r79BqGR
 sets: [SEA]
+codes: [SEA155]
 ---
 
 **Expedition to Azuro Keys (red)** — Pirate Action - Attack · cost 0 · 4 power · 2 defense

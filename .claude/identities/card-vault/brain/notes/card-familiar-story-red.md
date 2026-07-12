@@ -1,5 +1,5 @@
 ---
-tags: [card, familiar-story, familiar, story, guardian, action, attack, pitch-1, cost-3]
+tags: [card, familiar-story, familiar, story, guardian, action, attack, pitch-1, cost-3, sup185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pNJRPDHg7LnKQWhNctPkD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: pNJRPDHg7LnKQWhNctPkD
 sets: [SUP]
+codes: [SUP185]
 ---
 
 **Familiar Story (red)** — Guardian Action - Attack · cost 3 · 7 power · 2 defense

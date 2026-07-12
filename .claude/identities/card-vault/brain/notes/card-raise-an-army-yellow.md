@@ -1,5 +1,5 @@
 ---
-tags: [card, raise-an-army, raise, army, warrior, action, kassai-specialization, go-again, pitch-2, cost-0]
+tags: [card, raise-an-army, raise, army, warrior, action, kassai-specialization, go-again, pitch-2, cost-0, fab192, hvy105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JW7fjRH9gMGGLdgQRjNGk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Kassai Specialization, Go again]
 unique-id: JW7fjRH9gMGGLdgQRjNGk
 sets: [FAB, HVY]
+codes: [FAB192, HVY105]
 ---
 
 **Raise an Army (yellow)** — Warrior Action · cost 0 · 3 defense

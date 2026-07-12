@@ -1,5 +1,5 @@
 ---
-tags: [card, scattering-conflux, scattering, conflux, illusionist, lightning, action, attack, fragment, pitch-1, cost-2]
+tags: [card, scattering-conflux, scattering, conflux, illusionist, lightning, action, attack, fragment, pitch-1, cost-2, azs012, omn008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DDNkGQ7L9kNzzFthTtTKH) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: DDNkGQ7L9kNzzFthTtTKH
 sets: [AZS, OMN]
+codes: [AZS012, OMN008]
 ---
 
 **Scattering Conflux (red)** — Lightning Illusionist Action - Attack · cost 2 · 7 power · 3 defense

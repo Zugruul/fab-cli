@@ -1,5 +1,5 @@
 ---
-tags: [card, genis-wotchuneed, genis, wotchuneed, merchant, hero, young]
+tags: [card, genis-wotchuneed, genis, wotchuneed, merchant, hero, young, evr085, her053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mqj9K8NgJ7LFBwMKWk6L7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Merchant]
 types: [Hero]
 unique-id: Mqj9K8NgJ7LFBwMKWk6L7
 sets: [EVR, HER]
+codes: [EVR085, HER053]
 ---
 
 **Genis Wotchuneed** — Merchant Hero - Young · 20 health · 4 int

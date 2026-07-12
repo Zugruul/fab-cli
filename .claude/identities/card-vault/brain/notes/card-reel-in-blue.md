@@ -1,5 +1,5 @@
 ---
-tags: [card, reel-in, reel, ranger, instant, reload, pitch-3]
+tags: [card, reel-in, reel, ranger, instant, reload, pitch-3, hvy250]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QPHcwktfpnPBPfqHCDfKw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Reload]
 unique-id: QPHcwktfpnPBPfqHCDfKw
 sets: [HVY]
+codes: [HVY250]
 ---
 
 **Reel In (blue)** — Ranger Instant · cost X

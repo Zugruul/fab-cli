@@ -1,5 +1,5 @@
 ---
-tags: [card, beckoning-haunt, beckoning, haunt, runeblade, equipment, arms, guardwell]
+tags: [card, beckoning-haunt, beckoning, haunt, runeblade, equipment, arms, guardwell, pen095, svi007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KrfHMt9FRGmFqPrRqRrfL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Guardwell]
 unique-id: KrfHMt9FRGmFqPrRqRrfL
 sets: [PEN, SVI]
+codes: [PEN095, SVI007]
 ---
 
 **Beckoning Haunt** — Runeblade Equipment - Arms · 2 defense

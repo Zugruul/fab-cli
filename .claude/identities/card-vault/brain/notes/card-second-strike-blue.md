@@ -1,5 +1,5 @@
 ---
-tags: [card, second-strike, second, strike, lightning, action, attack, go-again, pitch-3, cost-0]
+tags: [card, second-strike, second, strike, lightning, action, attack, go-again, pitch-3, cost-0, ros103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wdT9WhkFKfwrHdJMWWcDQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wdT9WhkFKfwrHdJMWWcDQ
 sets: [ROS]
+codes: [ROS103]
 ---
 
 **Second Strike (blue)** — Lightning Action - Attack · cost 0 · 1 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, essence-of-ancestry-soul, essence, ancestry, soul, illusionist, action, aura, ward-2, pitch-2, cost-0]
+tags: [card, essence-of-ancestry-soul, essence, ancestry, soul, illusionist, action, aura, ward-2, pitch-2, cost-0, mst138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nw6hkj6NCpWtBN9BcTFcq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: Nw6hkj6NCpWtBN9BcTFcq
 sets: [MST]
+codes: [MST138]
 ---
 
 **Essence of Ancestry: Soul (yellow)** — Illusionist Action - Aura · cost 0 · 3 defense

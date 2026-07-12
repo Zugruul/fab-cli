@@ -1,5 +1,5 @@
 ---
-tags: [card, omens-of-arcana, omens, arcana, macro, omens-of-the-third-age, spellvoid-1]
+tags: [card, omens-of-arcana, omens, arcana, macro, omens-of-the-third-age, spellvoid-1, fab467, omn227]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjprN8T6mMh9pcWCmgPrN) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ other-types: [Omens of the Third Age]
 keywords: [Spellvoid 1]
 unique-id: mjprN8T6mMh9pcWCmgPrN
 sets: [FAB, OMN]
+codes: [FAB467, OMN227]
 ---
 
 **Omens of Arcana** — Omens of the Third Age Macro

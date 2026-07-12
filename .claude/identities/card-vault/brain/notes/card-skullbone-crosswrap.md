@@ -1,5 +1,5 @@
 ---
-tags: [card, skullbone-crosswrap, skullbone, crosswrap, ranger, equipment, head, arcane-barrier-1, blade-break]
+tags: [card, skullbone-crosswrap, skullbone, crosswrap, ranger, equipment, head, arcane-barrier-1, blade-break, 1hp225, arc041, fab009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pLT6mqkb86GG9jHh8kFRp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1, Blade Break]
 unique-id: pLT6mqkb86GG9jHh8kFRp
 sets: [1HP, ARC, FAB]
+codes: [1HP225, ARC041, FAB009]
 ---
 
 **Skullbone Crosswrap** — Ranger Equipment - Head · 1 defense

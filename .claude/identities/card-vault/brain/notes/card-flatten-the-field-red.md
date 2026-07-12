@@ -1,5 +1,5 @@
 ---
-tags: [card, flatten-the-field, flatten, field, guardian, action, attack, crush, pitch-1, cost-4]
+tags: [card, flatten-the-field, flatten, field, guardian, action, attack, crush, pitch-1, cost-4, mpg076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RJjbqnMGDRbB9LMT8LpDk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: RJjbqnMGDRbB9LMT8LpDk
 sets: [MPG]
+codes: [MPG076]
 ---
 
 **Flatten the Field (red)** — Guardian Action - Attack · cost 4 · 8 power · 3 defense

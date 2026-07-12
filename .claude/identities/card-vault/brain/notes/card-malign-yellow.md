@@ -1,5 +1,5 @@
 ---
-tags: [card, malign, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, malign, assassin, action, attack, stealth, pitch-2, cost-0, out031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MTrq7nz6z7Gh7wPpKRwRb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: MTrq7nz6z7Gh7wPpKRwRb
 sets: [OUT]
+codes: [OUT031]
 ---
 
 **Malign (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

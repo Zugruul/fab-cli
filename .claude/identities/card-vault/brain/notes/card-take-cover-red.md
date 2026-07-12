@@ -1,5 +1,5 @@
 ---
-tags: [card, take-cover, take, cover, ranger, defense-reaction, reload, pitch-1, cost-0]
+tags: [card, take-cover, take, cover, ranger, defense-reaction, reload, pitch-1, cost-0, 1hp234, arc048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid grtHjPTGHTGG9WkdcktdH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Reload]
 unique-id: grtHjPTGHTGG9WkdcktdH
 sets: [1HP, ARC]
+codes: [1HP234, ARC048]
 ---
 
 **Take Cover (red)** — Ranger Defense Reaction · cost 0 · 4 defense

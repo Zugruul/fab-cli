@@ -1,5 +1,5 @@
 ---
-tags: [card, force-of-nature, force, nature, runeblade, elemental, action, briar-specialization, earth-fusion, go-again, pitch-3, cost-0]
+tags: [card, force-of-nature, force, nature, runeblade, elemental, action, briar-specialization, earth-fusion, go-again, pitch-3, cost-0, ele066]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GwJdwRwJFbjNNWLzCqr6M) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Briar Specialization, Earth Fusion, Go again]
 unique-id: GwJdwRwJFbjNNWLzCqr6M
 sets: [ELE]
+codes: [ELE066]
 ---
 
 **Force of Nature (blue)** — Elemental Runeblade Action · cost 0 · 3 defense

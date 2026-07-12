@@ -1,5 +1,5 @@
 ---
-tags: [card, asking-for-trouble, asking, trouble, brute, block, pitch-2]
+tags: [card, asking-for-trouble, asking, trouble, brute, block, pitch-2, sup140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTFpc8PnjzBtjcJkzcCbt) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute]
 types: [Block]
 unique-id: gTFpc8PnjzBtjcJkzcCbt
 sets: [SUP]
+codes: [SUP140]
 ---
 
 **Asking for Trouble (yellow)** — Brute Block · 4 defense

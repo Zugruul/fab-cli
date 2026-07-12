@@ -1,5 +1,5 @@
 ---
-tags: [card, conflicting-thoughts, conflicting, thoughts, generic, action, attack, opt-1, pitch-1, cost-0]
+tags: [card, conflicting-thoughts, conflicting, thoughts, generic, action, attack, opt-1, pitch-1, cost-0, gem175, omn219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bLTggK96grfrGWTLqGrqR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Opt 1]
 unique-id: bLTggK96grfrGWTLqGrqR
 sets: [GEM, OMN]
+codes: [GEM175, OMN219]
 ---
 
 **Conflicting Thoughts (red)** — Generic Action - Attack · cost 0 · 4 power · 3 defense

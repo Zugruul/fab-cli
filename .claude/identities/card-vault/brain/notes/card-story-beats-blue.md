@@ -1,5 +1,5 @@
 ---
-tags: [card, story-beats, story, beats, guardian, action, attack, pitch-3, cost-3]
+tags: [card, story-beats, story, beats, guardian, action, attack, pitch-3, cost-3, sup183]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f6WNBKPkNJzpTBMTfkTHG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: f6WNBKPkNJzpTBMTfkTHG
 sets: [SUP]
+codes: [SUP183]
 ---
 
 **Story Beats (blue)** — Guardian Action - Attack · cost 3 · 5 power · 2 defense

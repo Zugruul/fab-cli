@@ -1,5 +1,5 @@
 ---
-tags: [card, ravenous-rabble, ravenous, rabble, generic, action, attack, go-again, pitch-2, cost-0]
+tags: [card, ravenous-rabble, ravenous, rabble, generic, action, attack, go-again, pitch-2, cost-0, 1hp394, arc192, out214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nqzb8D8Kkdw8pjk9R9Wb7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: Nqzb8D8Kkdw8pjk9R9Wb7
 sets: [1HP, ARC, OUT]
+codes: [1HP394, ARC192, OUT214]
 ---
 
 **Ravenous Rabble (yellow)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

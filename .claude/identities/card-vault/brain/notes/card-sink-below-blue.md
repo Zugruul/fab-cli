@@ -1,5 +1,5 @@
 ---
-tags: [card, sink-below, sink, below, generic, defense-reaction, pitch-3, cost-0]
+tags: [card, sink-below, sink, below, generic, defense-reaction, pitch-3, cost-0, 1hp410, wtr217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bHRdHqLRCthfzcrffPNQH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: bHRdHqLRCthfzcrffPNQH
 sets: [1HP, WTR]
+codes: [1HP410, WTR217]
 ---
 
 **Sink Below (blue)** — Generic Defense Reaction · cost 0 · 2 defense

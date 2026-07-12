@@ -1,5 +1,5 @@
 ---
-tags: [card, rise-from-the-ashes, rise, ashes, ninja, draconic, action, go-again, pitch-3, cost-0]
+tags: [card, rise-from-the-ashes, rise, ashes, ninja, draconic, action, go-again, pitch-3, cost-0, upr059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JNchKhPQf6PpwzgqNQQM9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: JNchKhPQf6PpwzgqNQQM9
 sets: [UPR]
+codes: [UPR059]
 ---
 
 **Rise from the Ashes (blue)** — Draconic Ninja Action · cost 0 · 2 defense

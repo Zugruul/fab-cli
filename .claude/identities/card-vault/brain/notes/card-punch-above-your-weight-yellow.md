@@ -1,5 +1,5 @@
 ---
-tags: [card, punch-above-your-weight, punch, above, your, weight, generic, action, attack, pitch-2, cost-0]
+tags: [card, punch-above-your-weight, punch, above, your, weight, generic, action, attack, pitch-2, cost-0, sup225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9g6wWCRkpgW7brDgFb7Bg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 9g6wWCRkpgW7brDgFb7Bg
 sets: [SUP]
+codes: [SUP225]
 ---
 
 **Punch Above Your Weight (yellow)** — Generic Action - Attack · cost 0 · 2 power · 2 defense

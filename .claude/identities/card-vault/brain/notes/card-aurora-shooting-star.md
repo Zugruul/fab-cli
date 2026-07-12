@@ -1,5 +1,5 @@
 ---
-tags: [card, aurora-shooting-star, aurora, shooting, star, runeblade, elemental, hero, adult, essence-of-lightning]
+tags: [card, aurora-shooting-star, aurora, shooting, star, runeblade, elemental, hero, adult, essence-of-lightning, ast001, her120, ros007, win037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mHBtPppktRTkWpnf69dHj) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Lightning]
 unique-id: mHBtPppktRTkWpnf69dHj
 sets: [AST, HER, ROS, WIN]
+codes: [AST001, HER120, ROS007, WIN037]
 ---
 
 **Aurora, Shooting Star** — Elemental Runeblade Hero · 40 health · 4 int

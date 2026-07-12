@@ -1,5 +1,5 @@
 ---
-tags: [card, seismic-shelter, seismic, shelter, guardian, action, aura, go-again, pitch-3, cost-0]
+tags: [card, seismic-shelter, seismic, shelter, guardian, action, aura, go-again, pitch-3, cost-0, mpg023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wcmmpmGPLhHLFJfdWcpzm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: wcmmpmGPLhHLFJfdWcpzm
 sets: [MPG]
+codes: [MPG023]
 ---
 
 **Seismic Shelter (blue)** — Guardian Action - Aura · cost 0 · 3 defense

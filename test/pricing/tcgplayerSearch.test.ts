@@ -171,24 +171,92 @@ describe("fetchConditionListingsForSet", () => {
   });
 });
 
+/**
+ * Routes each request by (condition, finish) inferred from the request
+ * body's `listingSearch.filters.term.printing` array — issue #61 follow-up:
+ * fetchProductConditions now queries every condition TWICE, once per finish,
+ * with a printing-term filter so a product's normal and foil listings never
+ * mix (real-data-only: no cross-finish contamination in a condition cell).
+ */
+function conditionFinishRoutedFetchFn(): {
+  fetchFn: FetchFn;
+  calls: unknown[];
+} {
+  const calls: unknown[] = [];
+  const fixtureByKey: Record<string, unknown> = {
+    "Near Mint|normal": loadJsonFixture("nm-page"),
+    "Near Mint|foil": loadJsonFixture("nm-foil-page"),
+    "Lightly Played|normal": loadJsonFixture("lp-single"),
+    "Lightly Played|foil": loadJsonFixture("lp-foil-single"),
+    "Moderately Played|normal": loadJsonFixture("mp-single"),
+    "Moderately Played|foil": loadJsonFixture("mp-foil-single"),
+    "Heavily Played|normal": loadJsonFixture("hp-single"),
+    "Heavily Played|foil": loadJsonFixture("hp-foil-single"),
+  };
+  const fetchFn: FetchFn = vi.fn(async (url, init) => {
+    const body = JSON.parse(String(init.body)) as {
+      listingSearch: {
+        filters: { term: { condition: string[]; printing?: string[] } };
+      };
+    };
+    calls.push(body);
+    const condition = body.listingSearch.filters.term.condition[0];
+    const printing = body.listingSearch.filters.term.printing ?? [];
+    const isFoil = printing.some((p) => p.includes("Foil"));
+    const key = `${condition}|${isFoil ? "foil" : "normal"}`;
+    return jsonResponse(fixtureByKey[key]);
+  });
+  return { fetchFn, calls };
+}
+
 describe("fetchProductConditions", () => {
-  it("fetches all four conditions for one query and returns per-productId lowest prices", async () => {
-    const { fetchFn } = sequenceFetchFn([
-      jsonResponse(loadJsonFixture("nm-page")),
-      jsonResponse(loadJsonFixture("lp-single")),
-      jsonResponse(loadJsonFixture("mp-single")),
-      jsonResponse(loadJsonFixture("hp-single")),
-    ]);
+  it("fetches all four conditions x both finishes and returns per-productId, per-finish lowest prices", async () => {
+    const { fetchFn } = conditionFinishRoutedFetchFn();
 
     const result = await fetchProductConditions("command and conquer", {
       fetchFn,
     });
 
     const red = result.get(255918)!;
-    expect(red.NM).toBe(165.5);
-    expect(red["SP/LP"]).toBe(150.0);
-    expect(red.MP).toBe(120.0);
-    expect(red.HP).toBe(95.0);
+    expect(red.normal).toEqual({
+      NM: 165.5,
+      "SP/LP": 150.0,
+      MP: 120.0,
+      HP: 95.0,
+    });
+    expect(red.foil).toEqual({
+      NM: 200.0,
+      "SP/LP": 180.0,
+      MP: 160.0,
+      HP: 140.0,
+    });
+  });
+
+  it("filters each query by a printing term matching only that finish's real printing strings", async () => {
+    const { fetchFn, calls } = conditionFinishRoutedFetchFn();
+
+    await fetchProductConditions("command and conquer", { fetchFn });
+
+    const bodies = calls as {
+      listingSearch: {
+        filters: { term: { condition: string[]; printing?: string[] } };
+      };
+    }[];
+    expect(bodies).toHaveLength(8);
+    for (const body of bodies) {
+      const printing = body.listingSearch.filters.term.printing;
+      expect(printing).toBeDefined();
+      expect(printing!.length).toBeGreaterThan(0);
+    }
+    const normalPrintings = bodies.find(
+      (b) =>
+        !b.listingSearch.filters.term.printing!.some((p) => p.includes("Foil")),
+    )!.listingSearch.filters.term.printing!;
+    const foilPrintings = bodies.find((b) =>
+      b.listingSearch.filters.term.printing!.some((p) => p.includes("Foil")),
+    )!.listingSearch.filters.term.printing!;
+    expect(normalPrintings.every((p) => !p.includes("Foil"))).toBe(true);
+    expect(foilPrintings.every((p) => p.includes("Foil"))).toBe(true);
   });
 
   it("respects the CONDITION_TO_COLUMN mapping (TCG condition -> domain column)", () => {

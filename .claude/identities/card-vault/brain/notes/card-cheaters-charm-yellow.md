@@ -1,5 +1,5 @@
 ---
-tags: [card, cheaters-charm, cheaters, charm, brute, instant, reviled, steal, the-crowd-boos, pitch-2, cost-0]
+tags: [card, cheaters-charm, cheaters, charm, brute, instant, reviled, steal, the-crowd-boos, pitch-2, cost-0, fab372, lgs424, sup068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7bfH9wkNGQKGzHKfGrQfd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Steal, The Crowd Boos]
 unique-id: 7bfH9wkNGQKGzHKfGrQfd
 sets: [FAB, LGS, SUP]
+codes: [FAB372, LGS424, SUP068]
 ---
 
 **Cheater's Charm (yellow)** — Reviled Brute Instant · cost 0

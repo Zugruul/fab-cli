@@ -1,5 +1,5 @@
 ---
-tags: [card, waxing-specter, waxing, specter, illusionist, mystic, instant, aura, ward-1, pitch-3, cost-2]
+tags: [card, waxing-specter, waxing, specter, illusionist, mystic, instant, aura, ward-1, pitch-3, cost-2, mst045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hQGwctG9wQDRPbNzJWTnW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: hQGwctG9wQDRPbNzJWTnW
 sets: [MST]
+codes: [MST045]
 ---
 
 **Waxing Specter (blue)** — Mystic Illusionist Instant - Aura · cost 2

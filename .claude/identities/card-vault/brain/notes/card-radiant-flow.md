@@ -1,5 +1,5 @@
 ---
-tags: [card, radiant-flow, radiant, flow, light, equipment, legs]
+tags: [card, radiant-flow, radiant, flow, light, equipment, legs, dtd078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GcD9dDfgTK8tmn7H8ccTk) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: GcD9dDfgTK8tmn7H8ccTk
 sets: [DTD]
+codes: [DTD078]
 ---
 
 **Radiant Flow** — Light Equipment - Legs

@@ -1,5 +1,5 @@
 ---
-tags: [card, take-the-bait, take, bait, ranger, action, riptide-specialization, go-again, pitch-1, cost-0]
+tags: [card, take-the-bait, take, bait, ranger, action, riptide-specialization, go-again, pitch-1, cost-0, sup258]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MhmQ8chFGLcdjP66Jgj6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Riptide Specialization, Go again]
 unique-id: 7MhmQ8chFGLcdjP66Jgj6
 sets: [SUP]
+codes: [SUP258]
 ---
 
 **Take the Bait (red)** — Ranger Action · cost 0 · 3 defense

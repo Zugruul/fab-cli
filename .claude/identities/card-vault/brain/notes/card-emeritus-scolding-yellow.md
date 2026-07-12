@@ -1,5 +1,5 @@
 ---
-tags: [card, emeritus-scolding, emeritus, scolding, wizard, action, pitch-2, cost-2]
+tags: [card, emeritus-scolding, emeritus, scolding, wizard, action, pitch-2, cost-2, evr126, lgs091, sbz022, tnp008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zrQ8nHpjJBbtRTpRDjfMf) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: zrQ8nHpjJBbtRTpRDjfMf
 sets: [EVR, LGS, SBZ, TNP]
+codes: [EVR126, LGS091, SBZ022, TNP008]
 ---
 
 **Emeritus Scolding (yellow)** — Wizard Action · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, two-steps-ahead, two, steps, ahead, guardian, action, aura, reviled, pitch-3, cost-0]
+tags: [card, two-steps-ahead, two, steps, ahead, guardian, action, aura, reviled, pitch-3, cost-0, sup075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdDbm8CBpkbBRg9d6Hdck) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 other-types: [Reviled]
 unique-id: CdDbm8CBpkbBRg9d6Hdck
 sets: [SUP]
+codes: [SUP075]
 ---
 
 **Two Steps Ahead (blue)** — Reviled Guardian Action - Aura · cost 0 · 3 defense

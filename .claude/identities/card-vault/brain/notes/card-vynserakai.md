@@ -1,5 +1,5 @@
 ---
-tags: [card, vynserakai, illusionist, draconic, dragon, ally]
+tags: [card, vynserakai, illusionist, draconic, dragon, ally, upr016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MFrJG8G8RgrhkpfkD8KWj) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: MFrJG8G8RgrhkpfkD8KWj
 sets: [UPR]
+codes: [UPR016]
 ---
 
 **Vynserakai** — Draconic Illusionist - Dragon Ally · 6 power · 1 health

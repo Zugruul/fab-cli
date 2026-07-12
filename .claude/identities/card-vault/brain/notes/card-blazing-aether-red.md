@@ -1,5 +1,5 @@
 ---
-tags: [card, blazing-aether, blazing, aether, wizard, action, kano-specialization, pitch-1, cost-0]
+tags: [card, blazing-aether, blazing, aether, wizard, action, kano-specialization, pitch-1, cost-0, 1hp308, arc118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjKPwTWCd7MTFkBpg6QzM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Kano Specialization]
 unique-id: mjKPwTWCd7MTFkBpg6QzM
 sets: [1HP, ARC]
+codes: [1HP308, ARC118]
 ---
 
 **Blazing Aether (red)** — Wizard Action · cost 0 · 3 defense

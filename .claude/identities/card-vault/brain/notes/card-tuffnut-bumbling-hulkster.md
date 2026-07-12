@@ -1,5 +1,5 @@
 ---
-tags: [card, tuffnut-bumbling-hulkster, tuffnut, bumbling, hulkster, brute, hero, revered, adult]
+tags: [card, tuffnut-bumbling-hulkster, tuffnut, bumbling, hulkster, brute, hero, revered, adult, her146, sup001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqmMJj8PqzNHg7Q7LMqTR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Revered]
 unique-id: wqmMJj8PqzNHg7Q7LMqTR
 sets: [HER, SUP]
+codes: [HER146, SUP001]
 ---
 
 **Tuffnut, Bumbling Hulkster** — Revered Brute Hero · 40 health · 3 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, carrion-crown, carrion, crown, necromancer, equipment, head, blade-break]
+tags: [card, carrion-crown, carrion, crown, necromancer, equipment, head, blade-break, pen152, sgb003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pFgDCjG98QkNLjGpgB7PH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: pFgDCjG98QkNLjGpgB7PH
 sets: [PEN, SGB]
+codes: [PEN152, SGB003]
 ---
 
 **Carrion Crown** — Necromancer Equipment - Head · 2 defense

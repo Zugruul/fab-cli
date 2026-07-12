@@ -1,5 +1,5 @@
 ---
-tags: [card, diabolic-offering, diabolic, offering, brute, shadow, action, attack, blood-debt, pitch-3, cost-1]
+tags: [card, diabolic-offering, diabolic, offering, brute, shadow, action, attack, blood-debt, pitch-3, cost-1, dtd107, fab164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NJnDKMhtRtcWptfC8pwWM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: NJnDKMhtRtcWptfC8pwWM
 sets: [DTD, FAB]
+codes: [DTD107, FAB164]
 ---
 
 **Diabolic Offering (blue)** — Shadow Brute Action - Attack · cost 1 · * power · * defense

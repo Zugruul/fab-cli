@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-judgment, herald, judgment, illusionist, light, action, attack, prism-specialization, phantasm, pitch-2, cost-2]
+tags: [card, herald-of-judgment, herald, judgment, illusionist, light, action, attack, prism-specialization, phantasm, pitch-2, cost-2, dtd013, fab028, mon007, psm008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z7fKMTdrJ6jGBFWTMTbnF) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Prism Specialization, Phantasm]
 unique-id: z7fKMTdrJ6jGBFWTMTbnF
 sets: [DTD, FAB, MON, PSM]
+codes: [DTD013, FAB028, MON007, PSM008]
 ---
 
 **Herald of Judgment (yellow)** — Light Illusionist Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-bellona, blessing, bellona, light, action, aura, go-again, pitch-2, cost-0]
+tags: [card, blessing-of-bellona, blessing, bellona, light, action, aura, go-again, pitch-2, cost-0, pen181]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLLnbfp9zC8Fcm9Tn9pQf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: RLLnbfp9zC8Fcm9Tn9pQf
 sets: [PEN]
+codes: [PEN181]
 ---
 
 **Blessing of Bellona (yellow)** — Light Action - Aura · cost 0 · 3 defense

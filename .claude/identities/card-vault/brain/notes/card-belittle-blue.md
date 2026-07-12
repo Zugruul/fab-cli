@@ -1,5 +1,5 @@
 ---
-tags: [card, belittle, generic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, belittle, generic, action, attack, go-again, pitch-3, cost-1, mon268]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dgBTMrWQ8F7gTCt6m7ngM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dgBTMrWQ8F7gTCt6m7ngM
 sets: [MON]
+codes: [MON268]
 ---
 
 **Belittle (blue)** — Generic Action - Attack · cost 1 · 1 power · 2 defense

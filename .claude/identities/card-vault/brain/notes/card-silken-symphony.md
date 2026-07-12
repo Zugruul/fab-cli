@@ -1,5 +1,5 @@
 ---
-tags: [card, silken-symphony, silken, symphony, illusionist, equipment, arms, ward-1]
+tags: [card, silken-symphony, silken, symphony, illusionist, equipment, arms, ward-1, pen125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rf6WpqLLPHDgGbF89b6jD) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Arms]
 keywords: [Ward 1]
 unique-id: rf6WpqLLPHDgGbF89b6jD
 sets: [PEN]
+codes: [PEN125]
 ---
 
 **Silken Symphony** — Illusionist Equipment - Arms

@@ -1,5 +1,5 @@
 ---
-tags: [card, short-shrift, short, shrift, guardian, action, attack, crush, pitch-2, cost-0]
+tags: [card, short-shrift, short, shrift, guardian, action, attack, crush, pitch-2, cost-0, sly021, sup192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NLqGrKTD8WmMfrFcrwRhc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: NLqGrKTD8WmMfrFcrwRhc
 sets: [SLY, SUP]
+codes: [SLY021, SUP192]
 ---
 
 **Short Shrift (yellow)** — Guardian Action - Attack · cost 0 · 3 power · 3 defense

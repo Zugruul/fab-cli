@@ -1,5 +1,5 @@
 ---
-tags: [card, strength-of-sequoia, strength, sequoia, guardian, elemental, action, aura, earth-fusion, go-again, pitch-2, cost-2]
+tags: [card, strength-of-sequoia, strength, sequoia, guardian, elemental, action, aura, earth-fusion, go-again, pitch-2, cost-2, ele029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LgRfr8GwTMrwtm9HwFJkb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Aura]
 keywords: [Earth Fusion, Go again]
 unique-id: LgRfr8GwTMrwtm9HwFJkb
 sets: [ELE]
+codes: [ELE029]
 ---
 
 **Strength of Sequoia (yellow)** — Elemental Guardian Action - Aura · cost 2 · 3 defense

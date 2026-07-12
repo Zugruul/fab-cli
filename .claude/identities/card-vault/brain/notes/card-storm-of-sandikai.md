@@ -1,5 +1,5 @@
 ---
-tags: [card, storm-of-sandikai, storm, sandikai, illusionist, draconic, weapon, scepter, 2h, attack]
+tags: [card, storm-of-sandikai, storm, sandikai, illusionist, draconic, weapon, scepter, 2h, attack, dro004, lgs107, upr003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQm7zFjBPCzc68JDd8D6z) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Scepter, 2H]
 keywords: [Attack]
 unique-id: PQm7zFjBPCzc68JDd8D6z
 sets: [DRO, LGS, UPR]
+codes: [DRO004, LGS107, UPR003]
 ---
 
 **Storm of Sandikai** — Draconic Illusionist Weapon - Scepter (2H)

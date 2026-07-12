@@ -1,5 +1,5 @@
 ---
-tags: [card, gold-hunter-ketch, gold, hunter, ketch, pirate, action, attack, pitch-2, cost-4]
+tags: [card, gold-hunter-ketch, gold, hunter, ketch, pirate, action, attack, pitch-2, cost-4, sea165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kjjm76jCB6TCdfprGprtD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Kjjm76jCB6TCdfprGprtD
 sets: [SEA]
+codes: [SEA165]
 ---
 
 **Gold Hunter Ketch (yellow)** — Pirate Action - Attack · cost 4 · 7 power · 2 defense

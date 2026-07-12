@@ -1,5 +1,5 @@
 ---
-tags: [card, smoke-out, smoke, out, draconic, defense-reaction, mark, pitch-1, cost-0]
+tags: [card, smoke-out, smoke, out, draconic, defense-reaction, mark, pitch-1, cost-0, fng018, gem017, hnt162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kt98RmWMpHzwR8R6Hrccq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Mark]
 unique-id: kt98RmWMpHzwR8R6Hrccq
 sets: [FNG, GEM, HNT]
+codes: [FNG018, GEM017, HNT162]
 ---
 
 **Smoke Out (red)** — Draconic Defense Reaction · cost 0 · 3 defense

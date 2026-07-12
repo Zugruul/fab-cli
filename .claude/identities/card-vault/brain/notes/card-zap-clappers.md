@@ -1,5 +1,5 @@
 ---
-tags: [card, zap-clappers, zap, clappers, runeblade, lightning, equipment, arms, blade-break]
+tags: [card, zap-clappers, zap, clappers, runeblade, lightning, equipment, arms, blade-break, ast005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TgrQPtPTGpMznMJPJKPGC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: TgrQPtPTGpMznMJPJKPGC
 sets: [AST]
+codes: [AST005]
 ---
 
 **Zap Clappers** — Lightning Runeblade Equipment - Arms · 2 defense

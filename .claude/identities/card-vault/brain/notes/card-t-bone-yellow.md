@@ -1,5 +1,5 @@
 ---
-tags: [card, t-bone, bone, mechanologist, action, attack, boost, pitch-2, cost-0]
+tags: [card, t-bone, bone, mechanologist, action, attack, boost, pitch-2, cost-0, evr074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QkHWwDgWHtWPqbHHrcBLM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: QkHWwDgWHtWPqbHHrcBLM
 sets: [EVR]
+codes: [EVR074]
 ---
 
 **T-Bone (yellow)** — Mechanologist Action - Attack · cost 0 · 2 power · 3 defense

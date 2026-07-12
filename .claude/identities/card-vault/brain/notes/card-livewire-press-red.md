@@ -1,5 +1,5 @@
 ---
-tags: [card, livewire-press, livewire, press, lightning, instant, pitch-1, cost-1]
+tags: [card, livewire-press, livewire, press, lightning, instant, pitch-1, cost-1, omn159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HfTqKQj6gGzCwwdFhdLQL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: HfTqKQj6gGzCwwdFhdLQL
 sets: [OMN]
+codes: [OMN159]
 ---
 
 **Livewire Press (red)** — Lightning Instant · cost 1

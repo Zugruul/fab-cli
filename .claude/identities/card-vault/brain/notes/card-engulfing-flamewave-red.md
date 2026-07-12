@@ -1,5 +1,5 @@
 ---
-tags: [card, engulfing-flamewave, engulfing, flamewave, ninja, draconic, action, attack, go-again, pitch-1, cost-2]
+tags: [card, engulfing-flamewave, engulfing, flamewave, ninja, draconic, action, attack, go-again, pitch-1, cost-2, upr051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9GLmGhw9CCzhbkKBFzQzH) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 9GLmGhw9CCzhbkKBFzQzH
 sets: [UPR]
+codes: [UPR051]
 ---
 
 **Engulfing Flamewave (red)** — Draconic Ninja Action - Attack · cost 2 · 5 power · 2 defense

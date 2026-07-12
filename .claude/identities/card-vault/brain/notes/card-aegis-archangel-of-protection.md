@@ -1,5 +1,5 @@
 ---
-tags: [card, aegis-archangel-of-protection, aegis, archangel, protection, light, angel, ally, ward-4]
+tags: [card, aegis-archangel-of-protection, aegis, archangel, protection, light, angel, ally, ward-4, dtd007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KtgRgFrrFDpzMQDJLLMwt) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: KtgRgFrrFDpzMQDJLLMwt
 sets: [DTD]
+codes: [DTD007]
 ---
 
 **Aegis, Archangel of Protection** — Light - Angel Ally · 4 power · 4 health

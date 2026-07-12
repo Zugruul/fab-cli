@@ -1,5 +1,5 @@
 ---
-tags: [card, fatigue-shot, fatigue, shot, ranger, action, arrow, attack, pitch-3, cost-1]
+tags: [card, fatigue-shot, fatigue, shot, ranger, action, arrow, attack, pitch-3, cost-1, evr096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wDQpwcjHkdqjhpJhCHLft) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: wDQpwcjHkdqjhpJhCHLft
 sets: [EVR]
+codes: [EVR096]
 ---
 
 **Fatigue Shot (blue)** — Ranger Action - Arrow Attack · cost 1 · 3 power · 3 defense

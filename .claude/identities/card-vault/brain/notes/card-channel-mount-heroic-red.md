@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-mount-heroic, channel, mount, heroic, earth, action, aura, go-again, channel-earth, pitch-1, cost-3]
+tags: [card, channel-mount-heroic, channel, mount, heroic, earth, action, aura, go-again, channel-earth, pitch-1, cost-3, ele117, lgs306]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCBB8CThnKNQBNGwmrtpn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Earth]
 unique-id: KCBB8CThnKNQBNGwmrtpn
 sets: [ELE, LGS]
+codes: [ELE117, LGS306]
 ---
 
 **Channel Mount Heroic (red)** — Earth Action - Aura · cost 3 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, in-the-swing, swing, warrior, attack-reaction, pitch-1, cost-0]
+tags: [card, in-the-swing, swing, warrior, attack-reaction, pitch-1, cost-0, ddd007, dvr015, evr063, fab057, mpw084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tFcNdRJcpB69qcCBpTL7c) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: tFcNdRJcpB69qcCBpTL7c
 sets: [DDD, DVR, EVR, FAB, MPW]
+codes: [DDD007, DVR015, EVR063, FAB057, MPW084]
 ---
 
 **In the Swing (red)** — Warrior Attack Reaction · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-shields, clash, shields, guardian, block, pitch-2]
+tags: [card, clash-of-shields, clash, shields, guardian, block, pitch-2, mpg051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R8tkQLNHj6QjtNW968NDf) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: R8tkQLNHj6QjtNW968NDf
 sets: [MPG]
+codes: [MPG051]
 ---
 
 **Clash of Shields (yellow)** — Guardian Block · 4 defense

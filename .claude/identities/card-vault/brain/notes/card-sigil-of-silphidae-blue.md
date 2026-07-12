@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-silphidae, sigil, silphidae, runeblade, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sigil-of-silphidae, sigil, silphidae, runeblade, action, aura, go-again, pitch-3, cost-0, pen099, svi032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rND7FTTmHRmpR6DbR8PBQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: rND7FTTmHRmpR6DbR8PBQ
 sets: [PEN, SVI]
+codes: [PEN099, SVI032]
 ---
 
 **Sigil of Silphidae (blue)** — Runeblade Action - Aura · cost 0 · 3 defense

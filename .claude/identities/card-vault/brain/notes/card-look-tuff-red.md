@@ -1,5 +1,5 @@
 ---
-tags: [card, look-tuff, look, tuff, generic, action, attack, pitch-1, cost-3]
+tags: [card, look-tuff, look, tuff, generic, action, attack, pitch-1, cost-3, sbz010, sen011, siy011, sup223]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MFbG9dt7gfRHbqpNKTJwR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: MFbG9dt7gfRHbqpNKTJwR
 sets: [SBZ, SEN, SIY, SUP]
+codes: [SBZ010, SEN011, SIY011, SUP223]
 ---
 
 **Look Tuff (red)** — Generic Action - Attack · cost 3 · 8 power · 3 defense

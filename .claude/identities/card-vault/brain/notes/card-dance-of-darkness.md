@@ -1,5 +1,5 @@
 ---
-tags: [card, dance-of-darkness, dance, darkness, shadow, equipment, legs, blood-debt]
+tags: [card, dance-of-darkness, dance, darkness, shadow, equipment, legs, blood-debt, dtd168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjgMJg6DrhJqR6fMnp6fc) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Legs]
 keywords: [Blood Debt]
 unique-id: HjgMJg6DrhJqR6fMnp6fc
 sets: [DTD]
+codes: [DTD168]
 ---
 
 **Dance of Darkness** — Shadow Equipment - Legs

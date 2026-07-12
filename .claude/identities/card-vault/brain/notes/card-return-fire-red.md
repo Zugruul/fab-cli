@@ -1,5 +1,5 @@
 ---
-tags: [card, return-fire, return, fire, ranger, block, pitch-1]
+tags: [card, return-fire, return, fire, ranger, block, pitch-1, sea099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CDPwNh676DmWHj7dJzD6N) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Ranger]
 types: [Block]
 unique-id: CDPwNh676DmWHj7dJzD6N
 sets: [SEA]
+codes: [SEA099]
 ---
 
 **Return Fire (red)** — Ranger Block · 4 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, halo-of-illumination, halo, illumination, light, equipment, head, spellvoid-2]
+tags: [card, halo-of-illumination, halo, illumination, light, equipment, head, spellvoid-2, bol005, fab103, mon061, psm004, sbl003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid phPFrDkRwGDrqrwq8M8T6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Spellvoid 2]
 unique-id: phPFrDkRwGDrqrwq8M8T6
 sets: [BOL, FAB, MON, PSM, SBL]
+codes: [BOL005, FAB103, MON061, PSM004, SBL003]
 ---
 
 **Halo of Illumination** — Light Equipment - Head · 0 defense

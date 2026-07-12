@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-sentry-base-head, evo, sentry, base, head, mechanologist, action, equipment, transform, battleworn, pitch-1, cost-2]
+tags: [card, evo-sentry-base-head, evo, sentry, base, head, mechanologist, action, equipment, transform, battleworn, pitch-1, cost-2, evo042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JCpttFGTtgBH7BKwJ6T7r) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Head]
 keywords: [Transform, Battleworn]
 unique-id: JCpttFGTtgBH7BKwJ6T7r
 sets: [EVO]
+codes: [EVO042]
 ---
 
 **Evo Sentry Base Head (red)** — Mechanologist Action Equipment - Evo Base Head · cost 2 · 2 defense

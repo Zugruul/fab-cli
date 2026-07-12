@@ -1,5 +1,5 @@
 ---
-tags: [card, invoke-azvolai, invoke, azvolai, illusionist, draconic, action, invocation, transform, go-again, pitch-1, cost-0]
+tags: [card, invoke-azvolai, invoke, azvolai, illusionist, draconic, action, invocation, transform, go-again, pitch-1, cost-0, upr009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QJKrt7FrgBJqNBhfjbmCP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Invocation]
 keywords: [Transform, Go again]
 unique-id: QJKrt7FrgBJqNBhfjbmCP
 sets: [UPR]
+codes: [UPR009]
 ---
 
 **Invoke Azvolai (red)** — Draconic Illusionist Action - Invocation · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, dawnblade, warrior, weapon, sword, 2h]
+tags: [card, dawnblade, warrior, weapon, sword, 2h, 1hp143, cru078, fab062, lgs004, mpw156, sdo002, tea003, wtr115, xxx007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NDjHqNJrckK6pjK7LwfMW) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: NDjHqNJrckK6pjK7LwfMW
 sets: [1HP, CRU, FAB, LGS, MPW, SDO, TEA, WTR, XXX]
+codes: [1HP143, CRU078, FAB062, LGS004, MPW156, SDO002, TEA003, WTR115, XXX007]
 ---
 
 **Dawnblade** — Warrior Weapon - Sword (2H) · 3 power

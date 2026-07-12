@@ -1,5 +1,5 @@
 ---
-tags: [card, weave-ice, weave, ice, action, go-again, dominate, pitch-3, cost-0]
+tags: [card, weave-ice, weave, ice, action, go-again, dominate, pitch-3, cost-0, ele156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H9kPHngR9Dh6j8QbmDkBL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: H9kPHngR9Dh6j8QbmDkBL
 sets: [ELE]
+codes: [ELE156]
 ---
 
 **Weave Ice (blue)** — Ice Action · cost 0 · 2 defense

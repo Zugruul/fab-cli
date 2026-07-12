@@ -1,5 +1,5 @@
 ---
-tags: [card, kano-dracai-of-aether, kano, dracai, aether, wizard, hero, adult]
+tags: [card, kano-dracai-of-aether, kano, dracai, aether, wizard, hero, adult, 1hp301, arc113, cru158, her012, her020, win008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kRPqHdCckKBKfRwjbfzNT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Wizard]
 types: [Hero]
 unique-id: kRPqHdCckKBKfRwjbfzNT
 sets: [1HP, ARC, CRU, HER, WIN]
+codes: [1HP301, ARC113, CRU158, HER012, HER020, WIN008]
 ---
 
 **Kano, Dracai of Aether** — Wizard Hero · 30 health · 4 int

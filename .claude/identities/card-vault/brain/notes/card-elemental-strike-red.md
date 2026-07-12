@@ -1,5 +1,5 @@
 ---
-tags: [card, elemental-strike, elemental, strike, action, attack, go-again, dominate, pitch-1, cost-0]
+tags: [card, elemental-strike, elemental, strike, action, attack, go-again, dominate, pitch-1, cost-0, fab425, pen205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gn89Bw77qcNMHW6fTCRTj) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Dominate]
 unique-id: Gn89Bw77qcNMHW6fTCRTj
 sets: [FAB, PEN]
+codes: [FAB425, PEN205]
 ---
 
 **Elemental Strike (red)** — Elemental Action - Attack · cost 0 · 5 power · 3 defense

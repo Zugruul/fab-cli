@@ -1,5 +1,5 @@
 ---
-tags: [card, quick-clicks, quick, clicks, generic, equipment, legs]
+tags: [card, quick-clicks, quick, clicks, generic, equipment, legs, saz009, sba010, sea186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BzRFcMpm9fmqgDPNdCRQ9) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Legs]
 unique-id: BzRFcMpm9fmqgDPNdCRQ9
 sets: [SAZ, SBA, SEA]
+codes: [SAZ009, SBA010, SEA186]
 ---
 
 **Quick Clicks** — Generic Equipment - Legs · 0 defense

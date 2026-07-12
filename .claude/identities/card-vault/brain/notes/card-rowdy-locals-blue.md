@@ -1,5 +1,5 @@
 ---
-tags: [card, rowdy-locals, rowdy, locals, generic, action, attack, pitch-3, cost-0]
+tags: [card, rowdy-locals, rowdy, locals, generic, action, attack, pitch-3, cost-0, mst191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G6zJNLBqTJDLhPgDqpT6w) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: G6zJNLBqTJDLhPgDqpT6w
 sets: [MST]
+codes: [MST191]
 ---
 
 **Rowdy Locals (blue)** — Generic Action - Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, high-current-currency, high, current, currency, generic, action, pitch-3, cost-0]
+tags: [card, high-current-currency, high, current, currency, generic, action, pitch-3, cost-0, pen323]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnrq67PgHWrKbHNDbhLWc) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Action]
 unique-id: pnrq67PgHWrKbHNDbhLWc
 sets: [PEN]
+codes: [PEN323]
 ---
 
 **High Current Currency (blue)** — Generic Action · cost 0 · 3 defense

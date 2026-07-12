@@ -1,5 +1,5 @@
 ---
-tags: [card, angelic-wrath, angelic, wrath, illusionist, light, instant, pitch-3, cost-0]
+tags: [card, angelic-wrath, angelic, wrath, illusionist, light, instant, pitch-3, cost-0, dtd037, lgs163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QDrMdfMCqDCjTpkBQmdJD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Instant]
 unique-id: QDrMdfMCqDCjTpkBQmdJD
 sets: [DTD, LGS]
+codes: [DTD037, LGS163]
 ---
 
 **Angelic Wrath (blue)** — Light Illusionist Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, evasive-nageboshi, evasive, nageboshi, ninja, instant, shuriken, item, legendary, pitch-3, cost-0]
+tags: [card, evasive-nageboshi, evasive, nageboshi, ninja, instant, shuriken, item, legendary, pitch-3, cost-0, omn232]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cgbzzLfPLKTTbpdGrnLGP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Shuriken, Item]
 keywords: [Legendary]
 unique-id: cgbzzLfPLKTTbpdGrnLGP
 sets: [OMN]
+codes: [OMN232]
 ---
 
 **Evasive Nageboshi (blue)** — Ninja Instant - Shuriken Item · cost 0 · 1 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, fluttersteps, illusionist, equipment, legs, ward-1]
+tags: [card, fluttersteps, illusionist, equipment, legs, ward-1, ros251]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PGmLNJTqFnRhJwBgdc698) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Legs]
 keywords: [Ward 1]
 unique-id: PGmLNJTqFnRhJwBgdc698
 sets: [ROS]
+codes: [ROS251]
 ---
 
 **Fluttersteps** — Illusionist Equipment - Legs

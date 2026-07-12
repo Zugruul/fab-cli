@@ -1,5 +1,5 @@
 ---
-tags: [card, jinglewood-smash-hit, jinglewood, smash, hit, bard, weapon, fiddle, 2h]
+tags: [card, jinglewood-smash-hit, jinglewood, smash, hit, bard, weapon, fiddle, 2h, lgs212, tcc050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GK6TKkztnwHHwqKPrGR9k) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Fiddle, 2H]
 unique-id: GK6TKkztnwHHwqKPrGR9k
 sets: [LGS, TCC]
+codes: [LGS212, TCC050]
 ---
 
 **Jinglewood, Smash Hit** — Bard Weapon - Fiddle (2H) · 2 power

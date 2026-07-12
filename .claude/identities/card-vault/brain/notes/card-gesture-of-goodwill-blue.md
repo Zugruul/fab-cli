@@ -1,5 +1,5 @@
 ---
-tags: [card, gesture-of-goodwill, gesture, goodwill, generic, block, protect, pitch-3]
+tags: [card, gesture-of-goodwill, gesture, goodwill, generic, block, protect, pitch-3, lgs361]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KRf9kpGR6rQKwWCdwJL8b) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Protect]
 unique-id: KRf9kpGR6rQKwWCdwJL8b
 sets: [LGS]
+codes: [LGS361]
 ---
 
 **Gesture of Goodwill (blue)** — Generic Block · 3 defense

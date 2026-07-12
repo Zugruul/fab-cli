@@ -1,5 +1,5 @@
 ---
-tags: [card, sedation-shot, sedation, shot, ranger, action, arrow, attack, pitch-2, cost-1]
+tags: [card, sedation-shot, sedation, shot, ranger, action, arrow, attack, pitch-2, cost-1, azl021, out125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KHcpQKMtfHB7Cbr7hdCB9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: KHcpQKMtfHB7Cbr7hdCB9
 sets: [AZL, OUT]
+codes: [AZL021, OUT125]
 ---
 
 **Sedation Shot (yellow)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-form, lightning, form, action, attack, pitch-2, cost-1]
+tags: [card, lightning-form, lightning, form, action, attack, pitch-2, cost-1, ros083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qkQLJNc7RM6LcztMdbrfz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: qkQLJNc7RM6LcztMdbrfz
 sets: [ROS]
+codes: [ROS083]
 ---
 
 **Lightning Form (yellow)** — Lightning Action - Attack · cost 1 · 4 power · 2 defense

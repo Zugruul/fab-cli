@@ -1,5 +1,5 @@
 ---
-tags: [card, imperial-intent, imperial, intent, warrior, draconic, attack-reaction, pitch-1, cost-1]
+tags: [card, imperial-intent, imperial, intent, warrior, draconic, attack-reaction, pitch-1, cost-1, hnt109]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9jMhDp7f8QpfCNk9fMmzD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: 9jMhDp7f8QpfCNk9fMmzD
 sets: [HNT]
+codes: [HNT109]
 ---
 
 **Imperial Intent (red)** — Draconic Warrior Attack Reaction · cost 1 · 2 defense

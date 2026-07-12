@@ -1,5 +1,5 @@
 ---
-tags: [card, tap-lessons-past, tap, lessons, past, wizard, lightning, action, pitch-1, cost-1]
+tags: [card, tap-lessons-past, tap, lessons, past, wizard, lightning, action, pitch-1, cost-1, omn124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pJ9nmwqTCCHnPdCKhmCpj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Lightning]
 types: [Action]
 unique-id: pJ9nmwqTCCHnPdCKhmCpj
 sets: [OMN]
+codes: [OMN124]
 ---
 
 **Tap Lessons Past (red)** — Lightning Wizard Action · cost 1 · 3 defense

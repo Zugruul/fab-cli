@@ -1,5 +1,5 @@
 ---
-tags: [card, static-shock, static, shock, runeblade, elemental, action, attack, lightning-flow, pitch-2, cost-0]
+tags: [card, static-shock, static, shock, runeblade, elemental, action, attack, lightning-flow, pitch-2, cost-0, aur019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mwKQwF9C99qwcj9M7bpwd) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Flow]
 unique-id: mwKQwF9C99qwcj9M7bpwd
 sets: [AUR]
+codes: [AUR019]
 ---
 
 **Static Shock (yellow)** — Elemental Runeblade Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, arakni-huntsman, arakni, huntsman, assassin, hero, adult]
+tags: [card, arakni-huntsman, arakni, huntsman, assassin, hero, adult, dyn113, her074, hnt263, win020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKtFCgnGdwMDBh7dzDqqz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Assassin]
 types: [Hero]
 unique-id: CKtFCgnGdwMDBh7dzDqqz
 sets: [DYN, HER, HNT, WIN]
+codes: [DYN113, HER074, HNT263, WIN020]
 ---
 
 **Arakni, Huntsman** — Assassin Hero · 40 health · 4 int

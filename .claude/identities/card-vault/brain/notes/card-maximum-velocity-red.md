@@ -1,5 +1,5 @@
 ---
-tags: [card, maximum-velocity, maximum, velocity, mechanologist, action, attack, pitch-1, cost-2]
+tags: [card, maximum-velocity, maximum, velocity, mechanologist, action, attack, pitch-1, cost-2, aio010, arc008, evo139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mkDw7d9PKRDtJT7bCCRjh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: mkDw7d9PKRDtJT7bCCRjh
 sets: [AIO, ARC, EVO]
+codes: [AIO010, ARC008, EVO139]
 ---
 
 **Maximum Velocity (red)** — Mechanologist Action - Attack · cost 2 · 10 power · 3 defense

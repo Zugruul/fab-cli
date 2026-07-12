@@ -1,5 +1,5 @@
 ---
-tags: [card, sand-cover, sand, cover, illusionist, draconic, instant, ward-4, pitch-1, cost-0]
+tags: [card, sand-cover, sand, cover, illusionist, draconic, instant, ward-4, pitch-1, cost-0, fab090, upr039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DHhDFNgTHdTJ7NpWWm8jm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Ward 4]
 unique-id: DHhDFNgTHdTJ7NpWWm8jm
 sets: [FAB, UPR]
+codes: [FAB090, UPR039]
 ---
 
 **Sand Cover (red)** — Draconic Illusionist Instant · cost 0

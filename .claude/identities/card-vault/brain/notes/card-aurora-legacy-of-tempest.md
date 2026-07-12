@@ -1,5 +1,5 @@
 ---
-tags: [card, aurora-legacy-of-tempest, aurora, legacy, tempest, runeblade, lightning, hero, adult]
+tags: [card, aurora-legacy-of-tempest, aurora, legacy, tempest, runeblade, lightning, hero, adult, omn047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WDhGzj9m8MWhkkfRMB7Jg) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Hero]
 unique-id: WDhGzj9m8MWhkkfRMB7Jg
 sets: [OMN]
+codes: [OMN047]
 ---
 
 **Aurora, Legacy of Tempest** — Lightning Runeblade Hero · 40 health · 4 int

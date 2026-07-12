@@ -1,5 +1,5 @@
 ---
-tags: [card, wounding-blow, wounding, blow, generic, action, attack, pitch-3, cost-0]
+tags: [card, wounding-blow, wounding, blow, generic, action, attack, pitch-3, cost-0, fai027, ksu027, mst217, wtr205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nGQcDzcjQ8gw8HGzwCGnF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nGQcDzcjQ8gw8HGzwCGnF
 sets: [FAI, KSU, MST, WTR]
+codes: [FAI027, KSU027, MST217, WTR205]
 ---
 
 **Wounding Blow (blue)** — Generic Action - Attack · cost 0 · 2 power · 3 defense

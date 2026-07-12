@@ -1,5 +1,5 @@
 ---
-tags: [card, tectonic-crust, tectonic, crust, guardian, earth, equipment, chest, temper]
+tags: [card, tectonic-crust, tectonic, crust, guardian, earth, equipment, chest, temper, ajv005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gjCz8rLDrG7h7MQpBwGHz) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: gjCz8rLDrG7h7MQpBwGHz
 sets: [AJV]
+codes: [AJV005]
 ---
 
 **Tectonic Crust** — Earth Guardian Equipment - Chest · 2 defense

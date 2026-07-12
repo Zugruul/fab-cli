@@ -1,5 +1,5 @@
 ---
-tags: [card, bait, ranger, token, aura]
+tags: [card, bait, ranger, token, aura, fab393, sup259]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ndNkP7p6FDnNWzt7ckjPf) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: ndNkP7p6FDnNWzt7ckjPf
 sets: [FAB, SUP]
+codes: [FAB393, SUP259]
 ---
 
 **Bait** — Ranger Token - Aura · 0 power

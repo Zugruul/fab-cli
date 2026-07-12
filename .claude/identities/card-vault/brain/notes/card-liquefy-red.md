@@ -1,5 +1,5 @@
 ---
-tags: [card, liquefy, draconic, attack-reaction, rupture, pitch-1, cost-1]
+tags: [card, liquefy, draconic, attack-reaction, rupture, pitch-1, cost-1, upr087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qKWKLWtD8fBWHrRbKrwkT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Rupture]
 unique-id: qKWKLWtD8fBWHrRbKrwkT
 sets: [UPR]
+codes: [UPR087]
 ---
 
 **Liquefy (red)** — Draconic Attack Reaction · cost 1 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, splatter-skull, splatter, skull, brute, action, attack, pitch-1, cost-2]
+tags: [card, splatter-skull, splatter, skull, brute, action, attack, pitch-1, cost-2, ros243]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LwHFKjjChb9JFQjLmrGMq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: LwHFKjjChb9JFQjLmrGMq
 sets: [ROS]
+codes: [ROS243]
 ---
 
 **Splatter Skull (red)** — Brute Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, overswing, guardian, action, go-again, heave-2, pitch-1, cost-2]
+tags: [card, overswing, guardian, action, go-again, heave-2, pitch-1, cost-2, mpg091]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M9TP7nmfQ7FhJQbJfnkRW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Heave 2]
 unique-id: M9TP7nmfQ7FhJQbJfnkRW
 sets: [MPG]
+codes: [MPG091]
 ---
 
 **Overswing (red)** — Guardian Action · cost 2 · 3 defense

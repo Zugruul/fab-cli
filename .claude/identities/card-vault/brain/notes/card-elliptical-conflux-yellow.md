@@ -1,5 +1,5 @@
 ---
-tags: [card, elliptical-conflux, elliptical, conflux, illusionist, lightning, instant, aura, ward-2, pitch-2, cost-1]
+tags: [card, elliptical-conflux, elliptical, conflux, illusionist, lightning, instant, aura, ward-2, pitch-2, cost-1, azs019, omn034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Tr6LzWfrtqMkKjM7JpHjC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: Tr6LzWfrtqMkKjM7JpHjC
 sets: [AZS, OMN]
+codes: [AZS019, OMN034]
 ---
 
 **Elliptical Conflux (yellow)** — Lightning Illusionist Instant - Aura · cost 1

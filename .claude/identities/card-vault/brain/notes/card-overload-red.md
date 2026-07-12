@@ -1,5 +1,5 @@
 ---
-tags: [card, overload, generic, action, attack, dominate, go-again, pitch-1, cost-0]
+tags: [card, overload, generic, action, attack, dominate, go-again, pitch-1, cost-0, mon275]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jjzTRHWhnQT7M7FwKjjpq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate, Go again]
 unique-id: jjzTRHWhnQT7M7FwKjjpq
 sets: [MON]
+codes: [MON275]
 ---
 
 **Overload (red)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

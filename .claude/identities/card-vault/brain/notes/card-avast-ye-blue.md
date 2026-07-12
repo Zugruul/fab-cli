@@ -1,5 +1,5 @@
 ---
-tags: [card, avast-ye, avast, ye, pirate, necromancer, action, go-again, pitch-3, cost-0]
+tags: [card, avast-ye, avast, ye, pirate, necromancer, action, go-again, pitch-3, cost-0, agb025, gem051, sea056, sgb027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9hfD6tJzWCzbTMBnzgnBL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 9hfD6tJzWCzbTMBnzgnBL
 sets: [AGB, GEM, SEA, SGB]
+codes: [AGB025, GEM051, SEA056, SGB027]
 ---
 
 **Avast Ye! (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

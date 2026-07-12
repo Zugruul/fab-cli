@@ -1,5 +1,5 @@
 ---
-tags: [card, galvanic-bender, galvanic, bender, mechanologist, equipment, arms, material, battleworn]
+tags: [card, galvanic-bender, galvanic, bender, mechanologist, equipment, arms, material, battleworn, dyn089, fab188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FdBq9qFfNpMbk67f7FRFL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Material, Battleworn]
 unique-id: FdBq9qFfNpMbk67f7FRFL
 sets: [DYN, FAB]
+codes: [DYN089, FAB188]
 ---
 
 **Galvanic Bender** — Mechanologist Equipment - Arms · 1 defense

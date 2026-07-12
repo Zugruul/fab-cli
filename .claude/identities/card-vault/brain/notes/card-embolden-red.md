@@ -1,5 +1,5 @@
 ---
-tags: [card, embolden, guardian, action, aura, go-again, pitch-1, cost-4]
+tags: [card, embolden, guardian, action, aura, go-again, pitch-1, cost-4, ele206, mpg097, old030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nFFr6KgcT7gWPgbfRQQhW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: nFFr6KgcT7gWPgbfRQQhW
 sets: [ELE, MPG, OLD]
+codes: [ELE206, MPG097, OLD030]
 ---
 
 **Embolden (red)** — Guardian Action - Aura · cost 4 · 3 defense

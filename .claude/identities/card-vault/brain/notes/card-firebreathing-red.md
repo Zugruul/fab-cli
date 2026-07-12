@@ -1,5 +1,5 @@
 ---
-tags: [card, firebreathing, generic, action, attack, pitch-1, cost-2]
+tags: [card, firebreathing, generic, action, attack, pitch-1, cost-2, evr157]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FKCrQMngDF9nMT99qzNjn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: FKCrQMngDF9nMT99qzNjn
 sets: [EVR]
+codes: [EVR157]
 ---
 
 **Firebreathing (red)** — Generic Action - Attack · cost 2 · 3 power · 3 defense

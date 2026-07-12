@@ -1,5 +1,5 @@
 ---
-tags: [card, bark-obscenities, bark, obscenities, brute, action, go-again, pitch-1, cost-0]
+tags: [card, bark-obscenities, bark, obscenities, brute, action, go-again, pitch-1, cost-0, sup167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b9pTrmh7f78CMLGgtTrhB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: b9pTrmh7f78CMLGgtTrhB
 sets: [SUP]
+codes: [SUP167]
 ---
 
 **Bark Obscenities (red)** — Brute Action · cost 0 · 2 defense

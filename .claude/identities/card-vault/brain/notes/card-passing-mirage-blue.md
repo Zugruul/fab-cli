@@ -1,5 +1,5 @@
 ---
-tags: [card, passing-mirage, passing, mirage, illusionist, action, aura, spectra, pitch-3, cost-0]
+tags: [card, passing-mirage, passing, mirage, illusionist, action, aura, spectra, pitch-3, cost-0, apr025, evr142, lgs094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NBnFFCH9njbMMhBLc6jzw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra]
 unique-id: NBnFFCH9njbMMhBLc6jzw
 sets: [APR, EVR, LGS]
+codes: [APR025, EVR142, LGS094]
 ---
 
 **Passing Mirage (blue)** — Illusionist Action - Aura · cost 0 · 2 defense

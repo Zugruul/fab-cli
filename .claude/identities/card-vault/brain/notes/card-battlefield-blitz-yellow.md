@@ -1,5 +1,5 @@
 ---
-tags: [card, battlefield-blitz, battlefield, blitz, warrior, light, action, attack, go-again, pitch-2, cost-1]
+tags: [card, battlefield-blitz, battlefield, blitz, warrior, light, action, attack, go-again, pitch-2, cost-1, asb019, mon037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wg7zz9866gDH6BmjMNGd8) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: Wg7zz9866gDH6BmjMNGd8
 sets: [ASB, MON]
+codes: [ASB019, MON037]
 ---
 
 **Battlefield Blitz (yellow)** — Light Warrior Action - Attack · cost 1 · 4 power · 3 defense

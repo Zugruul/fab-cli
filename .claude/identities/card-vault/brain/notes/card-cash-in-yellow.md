@@ -1,5 +1,5 @@
 ---
-tags: [card, cash-in, cash, generic, action, go-again, pitch-2, cost-4]
+tags: [card, cash-in, cash, generic, action, go-again, pitch-2, cost-4, cru188, jdg013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ld6twwNTNGTcWFw9rRWfh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Ld6twwNTNGTcWFw9rRWfh
 sets: [CRU, JDG]
+codes: [CRU188, JDG013]
 ---
 
 **Cash In (yellow)** — Generic Action · cost 4 · 2 defense

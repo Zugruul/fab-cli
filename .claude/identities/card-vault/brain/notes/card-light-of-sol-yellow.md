@@ -1,5 +1,5 @@
 ---
-tags: [card, light-of-sol, light, sol, resource, gem, legendary, pitch-2]
+tags: [card, light-of-sol, light, sol, resource, gem, legendary, pitch-2, dtd000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 76cHnpRhNn7GWNNfFbNhL) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: 76cHnpRhNn7GWNNfFbNhL
 sets: [DTD]
+codes: [DTD000]
 ---
 
 **Light of Sol (yellow)** — Light Resource - Gem

@@ -1,5 +1,5 @@
 ---
-tags: [card, flittering-charge, flittering, charge, lightning, action, attack, go-again, pitch-1, cost-0]
+tags: [card, flittering-charge, flittering, charge, lightning, action, attack, go-again, pitch-1, cost-0, ast010, aua008, lgs337, osc008, ros089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rPFqdQD8MGWwJh9th7NGz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: rPFqdQD8MGWwJh9th7NGz
 sets: [AST, AUA, LGS, OSC, ROS]
+codes: [AST010, AUA008, LGS337, OSC008, ROS089]
 ---
 
 **Flittering Charge (red)** — Lightning Action - Attack · cost 0 · 4 power · 2 defense

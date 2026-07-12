@@ -1,5 +1,5 @@
 ---
-tags: [card, searing-ray, searing, ray, light, action, attack, pitch-3, cost-1]
+tags: [card, searing-ray, searing, ray, light, action, attack, pitch-3, cost-1, dtd099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cmgTkM7PKHKtkLHkJPDPk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: cmgTkM7PKHKtkLHkJPDPk
 sets: [DTD]
+codes: [DTD099]
 ---
 
 **Searing Ray (blue)** — Light Action - Attack · cost 1 · 2 power · 2 defense

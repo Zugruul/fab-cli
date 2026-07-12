@@ -1,5 +1,5 @@
 ---
-tags: [card, spirit-of-war, spirit, war, warrior, light, action, attack, charge, pitch-1, cost-0]
+tags: [card, spirit-of-war, spirit, war, warrior, light, action, attack, charge, pitch-1, cost-0, dtd052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nh7kN9dhkWQhjfr7CfKW7) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: Nh7kN9dhkWQhjfr7CfKW7
 sets: [DTD]
+codes: [DTD052]
 ---
 
 **Spirit of War (red)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

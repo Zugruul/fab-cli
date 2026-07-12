@@ -1,5 +1,5 @@
 ---
-tags: [card, scrap-trader, scrap, trader, mechanologist, action, pitch-1, cost-0]
+tags: [card, scrap-trader, scrap, trader, mechanologist, action, pitch-1, cost-0, evo101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQpHCDTdJdmJgn8hGJrgq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Scrap]
 unique-id: CQpHCDTdJdmJgn8hGJrgq
 sets: [EVO]
+codes: [EVO101]
 ---
 
 **Scrap Trader (red)** — Mechanologist Action · cost 0 · 2 defense

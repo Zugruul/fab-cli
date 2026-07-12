@@ -1,5 +1,5 @@
 ---
-tags: [card, flourish, earth, action, go-again, pitch-3, cost-0]
+tags: [card, flourish, earth, action, go-again, pitch-3, cost-0, ter024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PK8zK8ngMjKPzjTLR9zfB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: PK8zK8ngMjKPzjTLR9zfB
 sets: [TER]
+codes: [TER024]
 ---
 
 **Flourish (blue)** — Earth Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, raise-blades, raise, blades, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, raise-blades, raise, blades, warrior, action, go-again, pitch-1, cost-0, mpw032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MrHJtqLPBJqcQnJ9fNk9z) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: MrHJtqLPBJqcQnJ9fNk9z
 sets: [MPW]
+codes: [MPW032]
 ---
 
 **Raise Blades (red)** — Warrior Action · cost 0 · 3 defense

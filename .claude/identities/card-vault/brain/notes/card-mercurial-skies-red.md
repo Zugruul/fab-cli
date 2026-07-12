@@ -1,5 +1,5 @@
 ---
-tags: [card, mercurial-skies, mercurial, skies, runeblade, lightning, action, go-again, pitch-1, cost-0]
+tags: [card, mercurial-skies, mercurial, skies, runeblade, lightning, action, go-again, pitch-1, cost-0, omn059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7ctThgNHLCTRztRgQKhk7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 7ctThgNHLCTRztRgQKhk7
 sets: [OMN]
+codes: [OMN059]
 ---
 
 **Mercurial Skies (red)** — Lightning Runeblade Action · cost 0 · 2 defense

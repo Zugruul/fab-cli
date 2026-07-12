@@ -1,5 +1,5 @@
 ---
-tags: [card, cold-snap, cold, snap, ice, action, go-again, freeze, pitch-1, cost-1]
+tags: [card, cold-snap, cold, snap, ice, action, go-again, freeze, pitch-1, cost-1, upr147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RGTFQcwQp66wkFBWJBk6T) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Freeze]
 unique-id: RGTFQcwQp66wkFBWJBk6T
 sets: [UPR]
+codes: [UPR147]
 ---
 
 **Cold Snap (red)** — Ice Action · cost 1 · 2 defense

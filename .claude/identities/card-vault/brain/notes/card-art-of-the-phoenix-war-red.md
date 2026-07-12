@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-the-phoenix-war, art, phoenix, war, draconic, instant, pitch-1, cost-1]
+tags: [card, art-of-the-phoenix-war, art, phoenix, war, draconic, instant, pitch-1, cost-1, pen254]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6RzzhHKt8kjPMkfmQ9LqJ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Instant]
 unique-id: 6RzzhHKt8kjPMkfmQ9LqJ
 sets: [PEN]
+codes: [PEN254]
 ---
 
 **Art of the Phoenix: War (red)** — Draconic Instant · cost 1

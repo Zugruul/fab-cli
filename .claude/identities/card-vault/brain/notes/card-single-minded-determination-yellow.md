@@ -1,5 +1,5 @@
 ---
-tags: [card, single-minded-determination, single, minded, determination, illusionist, action, aura, ward-2, pitch-2, cost-2]
+tags: [card, single-minded-determination, single, minded, determination, illusionist, action, aura, ward-2, pitch-2, cost-2, mst147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7n6JMpGRwqrWnFrTb88c9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: 7n6JMpGRwqrWnFrTb88c9
 sets: [MST]
+codes: [MST147]
 ---
 
 **Single Minded Determination (yellow)** — Illusionist Action - Aura · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, jaws-of-victory, jaws, victory, brute, action, attack, revered, the-crowd-cheers, go-again, pitch-1, cost-2]
+tags: [card, jaws-of-victory, jaws, victory, brute, action, attack, revered, the-crowd-cheers, go-again, pitch-1, cost-2, sup005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7TWGJzNdq8bQ7Rr8LWmdn) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers, Go again]
 unique-id: 7TWGJzNdq8bQ7Rr8LWmdn
 sets: [SUP]
+codes: [SUP005]
 ---
 
 **Jaws of Victory (red)** — Revered Brute Action - Attack · cost 2 · 6 power · 3 defense

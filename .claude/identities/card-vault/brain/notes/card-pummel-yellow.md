@@ -1,5 +1,5 @@
 ---
-tags: [card, pummel, generic, attack-reaction, pitch-2, cost-2]
+tags: [card, pummel, generic, attack-reaction, pitch-2, cost-2, 1hp400, wtr207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pG9mTDdBkd7gPmGkPhpGd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Attack Reaction]
 unique-id: pG9mTDdBkd7gPmGkPhpGd
 sets: [1HP, WTR]
+codes: [1HP400, WTR207]
 ---
 
 **Pummel (yellow)** — Generic Attack Reaction · cost 2 · 2 defense

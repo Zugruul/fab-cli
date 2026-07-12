@@ -1,5 +1,5 @@
 ---
-tags: [card, leap-frog-vocal-sac, leap, frog, vocal, sac, assassin, ninja, equipment, head, blade-break]
+tags: [card, leap-frog-vocal-sac, leap, frog, vocal, sac, assassin, ninja, equipment, head, blade-break, hnt169, wod003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6Gqn7z8PhLkHtBnF7MmwJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: 6Gqn7z8PhLkHtBnF7MmwJ
 sets: [HNT, WOD]
+codes: [HNT169, WOD003]
 ---
 
 **Leap Frog Vocal Sac** — Assassin / Ninja Equipment - Head · 1 defense

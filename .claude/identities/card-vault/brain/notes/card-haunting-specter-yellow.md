@@ -1,5 +1,5 @@
 ---
-tags: [card, haunting-specter, haunting, specter, illusionist, action, aura, ward-3, pitch-2, cost-2]
+tags: [card, haunting-specter, haunting, specter, illusionist, action, aura, ward-3, pitch-2, cost-2, mst141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTj8JGDq7LfKj8HjpNhmn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 3]
 unique-id: GTj8JGDq7LfKj8HjpNhmn
 sets: [MST]
+codes: [MST141]
 ---
 
 **Haunting Specter (yellow)** — Illusionist Action - Aura · cost 2 · 2 defense

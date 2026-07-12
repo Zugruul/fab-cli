@@ -1,5 +1,5 @@
 ---
-tags: [card, angry-bones, angry, bones, pirate, necromancer, action, attack, pitch-3, cost-2]
+tags: [card, angry-bones, angry, bones, pirate, necromancer, action, attack, pitch-3, cost-2, sea064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MCWwM6pBCDcRdFRmTJRC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7MCWwM6pBCDcRdFRmTJRC
 sets: [SEA]
+codes: [SEA064]
 ---
 
 **Angry Bones (blue)** — Pirate Necromancer Action - Attack · cost 2 · 4 power · 3 defense

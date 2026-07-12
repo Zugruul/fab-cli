@@ -1,5 +1,5 @@
 ---
-tags: [card, northern-winds, northern, winds, ice, action, oldhim-specialization, unity, freeze, pitch-3, cost-0]
+tags: [card, northern-winds, northern, winds, ice, action, oldhim-specialization, unity, freeze, pitch-3, cost-0, dtd197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CGhtqrGGT7TL9C89GjF8R) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Oldhim Specialization, Unity, Freeze]
 unique-id: CGhtqrGGT7TL9C89GjF8R
 sets: [DTD]
+codes: [DTD197]
 ---
 
 **Northern Winds (blue)** — Ice Action · cost 0 · 2 defense

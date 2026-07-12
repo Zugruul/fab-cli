@@ -1,5 +1,5 @@
 ---
-tags: [card, flake-out, flake, out, ranger, elemental, action, arrow, attack, ice-fusion, dominate, pitch-2, cost-1]
+tags: [card, flake-out, flake, out, ranger, elemental, action, arrow, attack, ice-fusion, dominate, pitch-2, cost-1, ele057]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jwrDJnLHdGdWnWNMd6RnB) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Ice Fusion, Dominate]
 unique-id: jwrDJnLHdGdWnWNMd6RnB
 sets: [ELE]
+codes: [ELE057]
 ---
 
 **Flake Out (yellow)** — Elemental Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

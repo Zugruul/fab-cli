@@ -1,5 +1,5 @@
 ---
-tags: [card, nerve-scalpel, nerve, scalpel, assassin, weapon, dagger, 1h, piercing-1]
+tags: [card, nerve-scalpel, nerve, scalpel, assassin, weapon, dagger, 1h, piercing-1, out005, out006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pWGjB9PckfFJgNBppfbfT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Piercing 1]
 unique-id: pWGjB9PckfFJgNBppfbfT
 sets: [OUT]
+codes: [OUT005, OUT006]
 ---
 
 **Nerve Scalpel** — Assassin Weapon - Dagger (1H) · 1 power

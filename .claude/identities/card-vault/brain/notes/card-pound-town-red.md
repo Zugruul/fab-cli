@@ -1,5 +1,5 @@
 ---
-tags: [card, pound-town, pound, town, brute, action, attack, beat-chest, pitch-1, cost-3]
+tags: [card, pound-town, pound, town, brute, action, attack, beat-chest, pitch-1, cost-3, arr011, hvy035, rhi014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jkPdKzd9rfgc7W87rjr6r) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Beat Chest]
 unique-id: jkPdKzd9rfgc7W87rjr6r
 sets: [ARR, HVY, RHI]
+codes: [ARR011, HVY035, RHI014]
 ---
 
 **Pound Town (red)** — Brute Action - Attack · cost 3 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, firewall, mechanologist, block, pitch-2]
+tags: [card, firewall, mechanologist, block, pitch-2, evo160, tcc022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRdT7QbmBfgd7DKBwjfGd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Mechanologist]
 types: [Block]
 unique-id: zRdT7QbmBfgd7DKBwjfGd
 sets: [EVO, TCC]
+codes: [EVO160, TCC022]
 ---
 
 **Firewall (yellow)** — Mechanologist Block · 3 defense

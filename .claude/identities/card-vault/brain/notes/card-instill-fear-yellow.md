@@ -1,5 +1,5 @@
 ---
-tags: [card, instill-fear, instill, fear, action, attack, reviled, intimidate, pitch-2, cost-0]
+tags: [card, instill-fear, instill, fear, action, attack, reviled, intimidate, pitch-2, cost-0, sup108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6rkDBBFc9rN7rpqqNbnrD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [Intimidate]
 unique-id: 6rkDBBFc9rN7rpqqNbnrD
 sets: [SUP]
+codes: [SUP108]
 ---
 
 **Instill Fear (yellow)** — Reviled Action - Attack · cost 0 · 2 power · 3 defense

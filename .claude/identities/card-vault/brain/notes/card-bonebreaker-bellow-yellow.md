@@ -1,5 +1,5 @@
 ---
-tags: [card, bonebreaker-bellow, bonebreaker, bellow, brute, action, beat-chest, go-again, pitch-2, cost-1]
+tags: [card, bonebreaker-bellow, bonebreaker, bellow, brute, action, beat-chest, go-again, pitch-2, cost-1, hvy042, rhi020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TDLFjnMHgTRGkfnwrFkLh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Beat Chest, Go again]
 unique-id: TDLFjnMHgTRGkfnwrFkLh
 sets: [HVY, RHI]
+codes: [HVY042, RHI020]
 ---
 
 **Bonebreaker Bellow (yellow)** — Brute Action · cost 1 · 3 defense

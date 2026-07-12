@@ -1,5 +1,5 @@
 ---
-tags: [card, hook, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, hook, ranger, action, go-again, pitch-3, cost-0, sea103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9tPpWpwwJdjzdcBppcpQq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 9tPpWpwwJdjzdcBppcpQq
 sets: [SEA]
+codes: [SEA103]
 ---
 
 **Hook (blue)** — Ranger Action · cost 0 · 3 defense

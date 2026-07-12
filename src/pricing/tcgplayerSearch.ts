@@ -6,7 +6,7 @@
 // Deliberately uncached (unlike tcgcsv.ts): listing prices are live data, so
 // callers get a fresh page on every call.
 
-import type { ConditionColumn } from "./types";
+import type { ConditionColumn, Finish } from "./types";
 import { mapWithConcurrency } from "./tcgcsv";
 
 const SEARCH_BASE_URL = "https://mp-search-api.tcgplayer.com/v1/search/request";
@@ -130,7 +130,7 @@ function buildRequestBody(params: {
   q?: string;
   setName?: string;
   condition: TcgplayerCondition;
-  printing?: string;
+  printing?: string | string[];
   from: number;
   size: number;
 }): unknown {
@@ -144,7 +144,11 @@ function buildRequestBody(params: {
     channelId: 0,
     condition: [params.condition],
   };
-  if (params.printing) listingTerm.printing = [params.printing];
+  if (params.printing) {
+    listingTerm.printing = Array.isArray(params.printing)
+      ? params.printing
+      : [params.printing];
+  }
 
   return {
     algorithm: "sales_synonym_v2",
@@ -205,7 +209,7 @@ export interface SearchProductListingsQuery {
   q?: string;
   setName?: string;
   condition: TcgplayerCondition;
-  printing?: string;
+  printing?: string | string[];
   from?: number;
   size?: number;
 }
@@ -309,36 +313,94 @@ export async function fetchConditionListingsForSet(
 /** Per-productId lowest listing price, one entry per domain condition column (null when that condition has no listing). */
 export type ConditionPriceMap = Record<ConditionColumn, number | null>;
 
+/** Per-productId lowest listing prices, split by finish (issue #61 follow-up). */
+export type FinishConditionPriceMap = Record<Finish, ConditionPriceMap>;
+
 function emptyConditionPriceMap(): ConditionPriceMap {
   return { NM: null, "SP/LP": null, MP: null, HP: null };
 }
 
+function emptyFinishConditionPriceMap(): FinishConditionPriceMap {
+  return { normal: emptyConditionPriceMap(), foil: emptyConditionPriceMap() };
+}
+
 /**
- * For a single search query, fetches all four conditions (concurrency capped
- * at 4, matching MAX_CONCURRENCY) and returns each product's lowest listing
- * price per domain condition column. Used by the single-card command
+ * TCGplayer printing strings observed for each domain Finish (SPEC-PRICE
+ * §4.1/§8.2, issue #61 follow-up). Passed as the listingSearch `printing`
+ * term filter so a per-finish query only ever returns that finish's live
+ * listings: the storefront search caps how many listings it returns per
+ * product (a handful, price-ascending across ALL printings when no printing
+ * filter is given), so without this filter a cheaper finish's listings can
+ * silently crowd out the other finish's within that cap — exactly the kind
+ * of cross-finish contamination §8.2's real-data-only rule forbids, and the
+ * reason a product's foil row could go entirely missing. Every foil variant
+ * string contains "Foil"; if TCGplayer adds a new foil variant name not
+ * listed here, widen this table (this is an exact-match term filter, not a
+ * substring match — unlike the response-side "Foil" substring check in
+ * cardCommand.ts's finish detection, which IS robust to unlisted names).
+ */
+export const NORMAL_PRINTINGS: readonly string[] = [
+  "Normal",
+  "1st Edition Normal",
+  "Unlimited Edition Normal",
+];
+
+export const FOIL_PRINTINGS: readonly string[] = [
+  "Foil",
+  "Cold Foil",
+  "Rainbow Foil",
+  "1st Edition Rainbow Foil",
+  "Unlimited Edition Rainbow Foil",
+];
+
+function printingsForFinish(finish: Finish): readonly string[] {
+  return finish === "foil" ? FOIL_PRINTINGS : NORMAL_PRINTINGS;
+}
+
+const ALL_FINISHES: readonly Finish[] = ["normal", "foil"];
+
+/**
+ * For a single search query, fetches all four conditions x both finishes
+ * (concurrency capped at 4, matching MAX_CONCURRENCY — 8 combos run as two
+ * capped batches) and returns each product's lowest listing price per
+ * domain condition column, split by finish so normal and foil listings
+ * never mix (issue #61 follow-up). Used by the single-card command
  * (PRICE-012).
  */
 export async function fetchProductConditions(
   q: string,
   opts: TcgplayerSearchOptions = {},
-): Promise<Map<number, ConditionPriceMap>> {
+): Promise<Map<number, FinishConditionPriceMap>> {
   const size = opts.pageSize ?? DEFAULT_PAGE_SIZE;
 
-  const pages = await mapWithConcurrency(
-    ALL_CONDITIONS as TcgplayerCondition[],
-    MAX_CONCURRENCY,
-    (condition) => searchProductListings({ q, condition, from: 0, size }, opts),
+  const combos = (ALL_CONDITIONS as TcgplayerCondition[]).flatMap((condition) =>
+    ALL_FINISHES.map((finish) => ({ condition, finish })),
   );
 
-  const byProductId = new Map<number, ConditionPriceMap>();
+  const pages = await mapWithConcurrency(
+    combos,
+    MAX_CONCURRENCY,
+    ({ condition, finish }) =>
+      searchProductListings(
+        {
+          q,
+          condition,
+          printing: [...printingsForFinish(finish)],
+          from: 0,
+          size,
+        },
+        opts,
+      ),
+  );
+
+  const byProductId = new Map<number, FinishConditionPriceMap>();
   pages.forEach((page, i) => {
-    const condition = ALL_CONDITIONS[i];
+    const { condition, finish } = combos[i];
     const column = CONDITION_TO_COLUMN[condition];
     for (const product of page.products) {
       const entry =
-        byProductId.get(product.productId) ?? emptyConditionPriceMap();
-      entry[column] = product.lowestListing
+        byProductId.get(product.productId) ?? emptyFinishConditionPriceMap();
+      entry[finish][column] = product.lowestListing
         ? product.lowestListing.price
         : null;
       byProductId.set(product.productId, entry);

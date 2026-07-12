@@ -1,5 +1,5 @@
 ---
-tags: [card, give-no-quarter, give, no, quarter, pirate, necromancer, action, go-again, pitch-3, cost-0]
+tags: [card, give-no-quarter, give, no, quarter, pirate, necromancer, action, go-again, pitch-3, cost-0, sea049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dMBRGmmzWTNGjDRbRMzMn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: dMBRGmmzWTNGjDRbRMzMn
 sets: [SEA]
+codes: [SEA049]
 ---
 
 **Give No Quarter (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, razzle-dazzle, razzle, dazzle, mechanologist, action, attack, boost, pitch-3, cost-1]
+tags: [card, razzle-dazzle, razzle, dazzle, mechanologist, action, attack, boost, pitch-3, cost-1, evo167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LHFcqHMhT7L6wb8RFQd9k) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: LHFcqHMhT7L6wb8RFQd9k
 sets: [EVO]
+codes: [EVO167]
 ---
 
 **Razzle Dazzle (blue)** — Mechanologist Action - Attack · cost 1 · 2 power · 3 defense

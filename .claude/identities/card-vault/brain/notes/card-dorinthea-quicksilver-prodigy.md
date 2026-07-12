@@ -1,5 +1,5 @@
 ---
-tags: [card, dorinthea-quicksilver-prodigy, dorinthea, quicksilver, prodigy, warrior, hero, young]
+tags: [card, dorinthea-quicksilver-prodigy, dorinthea, quicksilver, prodigy, warrior, hero, young, ddd001, dvr001, her167, mpw001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NJJCGNjdCFzrjLqGfL6mR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: NJJCGNjdCFzrjLqGfL6mR
 sets: [DDD, DVR, HER, MPW]
+codes: [DDD001, DVR001, HER167, MPW001]
 ---
 
 **Dorinthea, Quicksilver Prodigy** — Warrior Hero - Young · 20 health · 4 int

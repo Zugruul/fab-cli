@@ -1,5 +1,5 @@
 ---
-tags: [card, steadfast, guardian, instant, pitch-2, cost-3]
+tags: [card, steadfast, guardian, instant, pitch-2, cost-3, evr034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid J6wkdw6GbBPtzKqHrWbhC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Instant]
 unique-id: J6wkdw6GbBPtzKqHrWbhC
 sets: [EVR]
+codes: [EVR034]
 ---
 
 **Steadfast (yellow)** — Guardian Instant · cost 3

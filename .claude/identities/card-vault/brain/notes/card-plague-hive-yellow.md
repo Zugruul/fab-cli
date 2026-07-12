@@ -1,5 +1,5 @@
 ---
-tags: [card, plague-hive, plague, hive, assassin, ranger, resource, gem, legendary, pitch-2]
+tags: [card, plague-hive, plague, hive, assassin, ranger, resource, gem, legendary, pitch-2, out000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GKWhbqnhnR6ztt9gCzmLw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: GKWhbqnhnR6ztt9gCzmLw
 sets: [OUT]
+codes: [OUT000]
 ---
 
 **Plague Hive (yellow)** — Assassin / Ranger Resource - Gem

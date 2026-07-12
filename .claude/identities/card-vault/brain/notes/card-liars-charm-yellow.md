@@ -1,5 +1,5 @@
 ---
-tags: [card, liars-charm, liars, charm, guardian, instant, reviled, steal, the-crowd-boos, pitch-2, cost-0]
+tags: [card, liars-charm, liars, charm, guardian, instant, reviled, steal, the-crowd-boos, pitch-2, cost-0, fab373, lgs425, sup076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cHPKptkbztKtj7bQnWmmP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Steal, The Crowd Boos]
 unique-id: cHPKptkbztKtj7bQnWmmP
 sets: [FAB, LGS, SUP]
+codes: [FAB373, LGS425, SUP076]
 ---
 
 **Liar's Charm (yellow)** — Reviled Guardian Instant · cost 0

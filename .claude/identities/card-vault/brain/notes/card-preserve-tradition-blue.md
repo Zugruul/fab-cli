@@ -1,5 +1,5 @@
 ---
-tags: [card, preserve-tradition, preserve, tradition, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, preserve-tradition, preserve, tradition, mystic, instant, legendary, transcend, pitch-3, cost-0, eng027, lgs286, mst099, sen034, zen025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jpWjmrzckFnCzG8tFMppt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: jpWjmrzckFnCzG8tFMppt
 sets: [ENG, LGS, MST, SEN, ZEN]
+codes: [ENG027, LGS286, MST099, SEN034, ZEN025]
 ---
 
 **Preserve Tradition (blue)** — Mystic Instant · cost 0

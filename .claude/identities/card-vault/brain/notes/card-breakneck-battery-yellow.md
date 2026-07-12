@@ -1,5 +1,5 @@
 ---
-tags: [card, breakneck-battery, breakneck, battery, brute, action, attack, go-again, pitch-2, cost-2]
+tags: [card, breakneck-battery, breakneck, battery, brute, action, attack, go-again, pitch-2, cost-2, 1hp017, wtr012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jk9DMwtQDGFNpG7CBghpw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: jk9DMwtQDGFNpG7CBghpw
 sets: [1HP, WTR]
+codes: [1HP017, WTR012]
 ---
 
 **Breakneck Battery (yellow)** — Brute Action - Attack · cost 2 · 5 power · 3 defense

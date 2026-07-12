@@ -1,5 +1,5 @@
 ---
-tags: [card, dense-blue-mist, dense, blue, mist, mystic, instant, pitch-3, cost-1]
+tags: [card, dense-blue-mist, dense, blue, mist, mystic, instant, pitch-3, cost-1, mst079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNdDhKhhpGwKTCT7wMRCp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Instant]
 unique-id: hNdDhKhhpGwKTCT7wMRCp
 sets: [MST]
+codes: [MST079]
 ---
 
 **Dense Blue Mist (blue)** — Mystic Instant · cost 1

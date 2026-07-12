@@ -1,5 +1,5 @@
 ---
-tags: [card, quiver-of-abyssal-depths, quiver, abyssal, depths, ranger, equipment]
+tags: [card, quiver-of-abyssal-depths, quiver, abyssal, depths, ranger, equipment, fab126, out095]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FcJ9DMBN6LLbBJGhJ9Kkt) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Quiver]
 unique-id: FcJ9DMBN6LLbBJGhJ9Kkt
 sets: [FAB, OUT]
+codes: [FAB126, OUT095]
 ---
 
 **Quiver of Abyssal Depths** — Ranger Equipment - Quiver

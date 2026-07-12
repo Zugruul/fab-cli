@@ -1,5 +1,5 @@
 ---
-tags: [card, lunartide-plunderer, lunartide, plunderer, shadow, action, attack, pitch-2, cost-3]
+tags: [card, lunartide-plunderer, lunartide, plunderer, shadow, action, attack, pitch-2, cost-3, chn023, lev024, mon207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GkJfHHnhbDNWnfwGNTznm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: GkJfHHnhbDNWnfwGNTznm
 sets: [CHN, LEV, MON]
+codes: [CHN023, LEV024, MON207]
 ---
 
 **Lunartide Plunderer (yellow)** — Shadow Action - Attack · cost 3 · 6 power · 2 defense

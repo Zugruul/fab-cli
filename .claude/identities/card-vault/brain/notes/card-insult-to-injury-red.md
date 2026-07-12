@@ -1,5 +1,5 @@
 ---
-tags: [card, insult-to-injury, insult, injury, action, attack, reviled, go-again, pitch-1, cost-0]
+tags: [card, insult-to-injury, insult, injury, action, attack, reviled, go-again, pitch-1, cost-0, pen303]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TthpPbn8nP88GGghn9wDr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [Go again]
 unique-id: TthpPbn8nP88GGghn9wDr
 sets: [PEN]
+codes: [PEN303]
 ---
 
 **Insult to Injury (red)** — Reviled Action - Attack · cost 0 · 3 power · 3 defense

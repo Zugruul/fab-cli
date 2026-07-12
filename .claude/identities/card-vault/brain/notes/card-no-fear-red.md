@@ -1,5 +1,5 @@
 ---
-tags: [card, no-fear, no, fear, brute, instant, pitch-1, cost-0]
+tags: [card, no-fear, no, fear, brute, instant, pitch-1, cost-0, hvy016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nQpD6DkRrkPWthN78mh8P) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute]
 types: [Instant]
 unique-id: nQpD6DkRrkPWthN78mh8P
 sets: [HVY]
+codes: [HVY016]
 ---
 
 **No Fear (red)** — Brute Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, searing-shot, searing, shot, ranger, action, arrow, attack, pitch-1, cost-0]
+tags: [card, searing-shot, searing, shot, ranger, action, arrow, attack, pitch-1, cost-0, 1hp249, arc069, rip018, saz017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GWJzpmmcLCPm6bbfM8zR9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: GWJzpmmcLCPm6bbfM8zR9
 sets: [1HP, ARC, RIP, SAZ]
+codes: [1HP249, ARC069, RIP018, SAZ017]
 ---
 
 **Searing Shot (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

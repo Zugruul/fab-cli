@@ -1,5 +1,5 @@
 ---
-tags: [card, a-bit-off-the-side, bit, off, side, guardian, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, a-bit-off-the-side, bit, off, side, guardian, warrior, action, go-again, pitch-1, cost-0, omn243]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NWf8zDGMgnph8dnzkmng6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: NWf8zDGMgnph8dnzkmng6
 sets: [OMN]
+codes: [OMN243]
 ---
 
 **A Bit off the Side (red)** — Guardian / Warrior Action · cost 0 · 3 defense

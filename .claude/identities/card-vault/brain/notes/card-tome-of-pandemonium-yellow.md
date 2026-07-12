@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-pandemonium, tome, pandemonium, chaos, action, go-again, pitch-2, cost-1]
+tags: [card, tome-of-pandemonium, tome, pandemonium, chaos, action, go-again, pitch-2, cost-1, pen277]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mgDTDhJcfztFMhLrtcpBF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: mgDTDhJcfztFMhLrtcpBF
 sets: [PEN]
+codes: [PEN277]
 ---
 
 **Tome of Pandemonium (yellow)** — Chaos Action · cost 1 · 2 defense

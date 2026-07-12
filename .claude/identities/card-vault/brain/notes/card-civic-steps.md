@@ -1,5 +1,5 @@
 ---
-tags: [card, civic-steps, civic, steps, guardian, equipment, legs, temper]
+tags: [card, civic-steps, civic, steps, guardian, equipment, legs, temper, jdg034, lgs210, tcc033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQ9JC8BtngfRq7n9pqpKM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Temper]
 unique-id: qQ9JC8BtngfRq7n9pqpKM
 sets: [JDG, LGS, TCC]
+codes: [JDG034, LGS210, TCC033]
 ---
 
 **Civic Steps** — Guardian Equipment - Legs · 2 defense

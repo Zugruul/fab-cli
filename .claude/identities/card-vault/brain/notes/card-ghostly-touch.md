@@ -1,5 +1,5 @@
 ---
-tags: [card, ghostly-touch, ghostly, touch, illusionist, equipment, arms]
+tags: [card, ghostly-touch, ghostly, touch, illusionist, equipment, arms, fab085, upr151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rmdqRKFwTMWr97GPqNd6Q) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: rmdqRKFwTMWr97GPqNd6Q
 sets: [FAB, UPR]
+codes: [FAB085, UPR151]
 ---
 
 **Ghostly Touch** — Illusionist Equipment - Arms · 0 defense

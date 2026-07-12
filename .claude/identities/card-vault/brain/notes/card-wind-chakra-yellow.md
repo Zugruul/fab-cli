@@ -1,5 +1,5 @@
 ---
-tags: [card, wind-chakra, wind, chakra, ninja, mystic, action, go-again, pitch-2, cost-0]
+tags: [card, wind-chakra, wind, chakra, ninja, mystic, action, go-again, pitch-2, cost-0, mst055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MpfqmCMGhHCTwgQKRdDGW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: MpfqmCMGhHCTwgQKRdDGW
 sets: [MST]
+codes: [MST055]
 ---
 
 **Wind Chakra (yellow)** — Mystic Ninja Action · cost 0 · 3 defense

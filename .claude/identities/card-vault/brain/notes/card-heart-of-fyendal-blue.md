@@ -1,5 +1,5 @@
 ---
-tags: [card, heart-of-fyendal, heart, fyendal, generic, resource, gem, legendary, pitch-3]
+tags: [card, heart-of-fyendal, heart, fyendal, generic, resource, gem, legendary, pitch-3, anq001, wtr000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBpLPQ7kg6mkBpNMMPdCD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: pBpLPQ7kg6mkBpNMMPdCD
 sets: [ANQ, WTR]
+codes: [ANQ001, WTR000]
 ---
 
 **Heart of Fyendal (blue)** — Generic Resource - Gem

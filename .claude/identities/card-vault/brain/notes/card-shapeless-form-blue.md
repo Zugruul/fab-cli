@@ -1,5 +1,5 @@
 ---
-tags: [card, shapeless-form, shapeless, form, ninja, mystic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, shapeless-form, shapeless, form, ninja, mystic, action, attack, go-again, pitch-3, cost-0, pen264]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bQPW8LTTB7jJdTjprpGtm) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: bQPW8LTTB7jJdTjprpGtm
 sets: [PEN]
+codes: [PEN264]
 ---
 
 **Shapeless Form (blue)** — Mystic Ninja Action - Attack · cost 0 · 1 power · 2 defense

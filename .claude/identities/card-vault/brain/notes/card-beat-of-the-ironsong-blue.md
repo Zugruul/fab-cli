@@ -1,5 +1,5 @@
 ---
-tags: [card, beat-of-the-ironsong, beat, ironsong, warrior, attack-reaction, go-again, pitch-3, cost-0]
+tags: [card, beat-of-the-ironsong, beat, ironsong, warrior, attack-reaction, go-again, pitch-3, cost-0, sup251]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kGqgWbR9dbWjWQNC6JCCm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: kGqgWbR9dbWjWQNC6JCCm
 sets: [SUP]
+codes: [SUP251]
 ---
 
 **Beat of the Ironsong (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

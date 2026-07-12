@@ -1,5 +1,5 @@
 ---
-tags: [card, honing-hood, honing, hood, ranger, equipment, head, cost-0]
+tags: [card, honing-hood, honing, hood, ranger, equipment, head, cost-0, ele214, lxi003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zc8n8JQRfBTPHGfnBmw8L) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: zc8n8JQRfBTPHGfnBmw8L
 sets: [ELE, LXI]
+codes: [ELE214, LXI003]
 ---
 
 **Honing Hood** — Ranger Equipment - Head · cost 0 · 0 defense

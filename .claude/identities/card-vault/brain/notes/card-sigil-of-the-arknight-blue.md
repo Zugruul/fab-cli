@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-the-arknight, sigil, arknight, runeblade, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sigil-of-the-arknight, sigil, arknight, runeblade, action, aura, go-again, pitch-3, cost-0, avs028, lgs325, ros133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wWD8D9JqHhnzctrrTrBDW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: wWD8D9JqHhnzctrrTrBDW
 sets: [AVS, LGS, ROS]
+codes: [AVS028, LGS325, ROS133]
 ---
 
 **Sigil of the Arknight (blue)** — Runeblade Action - Aura · cost 0 · 2 defense

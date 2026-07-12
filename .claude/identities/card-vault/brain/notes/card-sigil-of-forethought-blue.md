@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-forethought, sigil, forethought, wizard, instant, aura, pitch-3, cost-0]
+tags: [card, sigil-of-forethought, sigil, forethought, wizard, instant, aura, pitch-3, cost-0, lgs327, osc025, ros210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcHhthcM7zrmd8nFWQtLz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: rcHhthcM7zrmd8nFWQtLz
 sets: [LGS, OSC, ROS]
+codes: [LGS327, OSC025, ROS210]
 ---
 
 **Sigil of Forethought (blue)** — Wizard Instant - Aura · cost 0

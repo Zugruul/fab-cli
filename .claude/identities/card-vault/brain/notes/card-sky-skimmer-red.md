@@ -1,5 +1,5 @@
 ---
-tags: [card, sky-skimmer, sky, skimmer, mechanologist, action, attack, pitch-1, cost-0]
+tags: [card, sky-skimmer, sky, skimmer, mechanologist, action, attack, pitch-1, cost-0, gem042, sea027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MjtP6GFTmC7j96tmLrJ97) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: MjtP6GFTmC7j96tmLrJ97
 sets: [GEM, SEA]
+codes: [GEM042, SEA027]
 ---
 
 **Sky Skimmer (red)** — Mechanologist Action - Attack · cost 0 · 4 power · 3 defense

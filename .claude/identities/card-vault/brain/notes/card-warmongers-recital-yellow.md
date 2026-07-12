@@ -1,5 +1,5 @@
 ---
-tags: [card, warmongers-recital, warmongers, recital, generic, action, go-again, pitch-2, cost-1]
+tags: [card, warmongers-recital, warmongers, recital, generic, action, go-again, pitch-2, cost-1, chn029, mon300]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fgtdwK9LKpQLht8bnpG6L) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fgtdwK9LKpQLht8bnpG6L
 sets: [CHN, MON]
+codes: [CHN029, MON300]
 ---
 
 **Warmonger's Recital (yellow)** — Generic Action · cost 1 · 2 defense

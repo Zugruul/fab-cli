@@ -1,5 +1,5 @@
 ---
-tags: [card, swell-tidings, swell, tidings, wizard, action, surge, pitch-1, cost-2]
+tags: [card, swell-tidings, swell, tidings, wizard, action, surge, pitch-1, cost-2, dyn195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9Hp7c9HFRmwLFQ7WtKd86) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: 9Hp7c9HFRmwLFQ7WtKd86
 sets: [DYN]
+codes: [DYN195]
 ---
 
 **Swell Tidings (red)** — Wizard Action · cost 2 · 3 defense

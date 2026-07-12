@@ -1,5 +1,5 @@
 ---
-tags: [card, hatchet-of-body, hatchet, body, warrior, weapon, axe, 1h]
+tags: [card, hatchet-of-body, hatchet, body, warrior, weapon, axe, 1h, bol003, lgs049, mon105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 99B9LdcMnLqBhwjQmrHRG) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Axe, 1H]
 unique-id: 99B9LdcMnLqBhwjQmrHRG
 sets: [BOL, LGS, MON]
+codes: [BOL003, LGS049, MON105]
 ---
 
 **Hatchet of Body** — Warrior Weapon - Axe (1H) · 2 power

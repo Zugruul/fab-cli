@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-fyendal, sigil, fyendal, generic, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sigil-of-fyendal, sigil, fyendal, generic, action, aura, go-again, pitch-3, cost-0, lgs330, ros230, ver026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bgHQJbkCNNBDT9kKdCW8w) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: bgHQJbkCNNBDT9kKdCW8w
 sets: [LGS, ROS, VER]
+codes: [LGS330, ROS230, VER026]
 ---
 
 **Sigil of Fyendal (blue)** — Generic Action - Aura · cost 0 · 2 defense

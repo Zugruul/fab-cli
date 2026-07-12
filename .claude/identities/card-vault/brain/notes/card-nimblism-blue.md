@@ -1,5 +1,5 @@
 ---
-tags: [card, nimblism, generic, action, go-again, pitch-3, cost-0]
+tags: [card, nimblism, generic, action, go-again, pitch-3, cost-0, 1hp419, mst223, sea240, wtr220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cQD9DmppBQNGqb9CdqCRc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: cQD9DmppBQNGqb9CdqCRc
 sets: [1HP, MST, SEA, WTR]
+codes: [1HP419, MST223, SEA240, WTR220]
 ---
 
 **Nimblism (blue)** — Generic Action · cost 0 · 2 defense

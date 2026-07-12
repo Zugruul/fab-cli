@@ -1,5 +1,5 @@
 ---
-tags: [card, cadaverous-tilling, cadaverous, tilling, earth, action, attack, decompose, pitch-3, cost-3]
+tags: [card, cadaverous-tilling, cadaverous, tilling, earth, action, attack, decompose, pitch-3, cost-3, flr020, ros054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zqbcPKK9npDdLNNLNhdnN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Decompose]
 unique-id: zqbcPKK9npDdLNNLNhdnN
 sets: [FLR, ROS]
+codes: [FLR020, ROS054]
 ---
 
 **Cadaverous Tilling (blue)** — Earth Action - Attack · cost 3 · 4 power · 2 defense

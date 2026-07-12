@@ -1,5 +1,5 @@
 ---
-tags: [card, silver-the-tip, silver, tip, ranger, action, go-again, pitch-3, cost-1]
+tags: [card, silver-the-tip, silver, tip, ranger, action, go-again, pitch-3, cost-1, arc053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDmnNfBFfmgphJMhDCt7T) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: HDmnNfBFfmgphJMhDCt7T
 sets: [ARC]
+codes: [ARC053]
 ---
 
 **Silver the Tip (blue)** — Ranger Action · cost 1 · 2 defense

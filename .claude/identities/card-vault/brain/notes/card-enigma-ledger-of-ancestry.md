@@ -1,5 +1,5 @@
 ---
-tags: [card, enigma-ledger-of-ancestry, enigma, ledger, ancestry, illusionist, mystic, hero, adult]
+tags: [card, enigma-ledger-of-ancestry, enigma, ledger, ancestry, illusionist, mystic, hero, adult, her114, her116, mst025, win034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tJhRRN9kkMCnGQdQJ8TWg) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Hero]
 unique-id: tJhRRN9kkMCnGQdQJ8TWg
 sets: [HER, MST, WIN]
+codes: [HER114, HER116, MST025, WIN034]
 ---
 
 **Enigma, Ledger of Ancestry** — Mystic Illusionist Hero · 40 health · 4 int

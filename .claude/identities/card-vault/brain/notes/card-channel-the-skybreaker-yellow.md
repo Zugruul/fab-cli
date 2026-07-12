@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-the-skybreaker, channel, skybreaker, earth, action, aura, go-again, channel-earth, pitch-2, cost-2]
+tags: [card, channel-the-skybreaker, channel, skybreaker, earth, action, aura, go-again, channel-earth, pitch-2, cost-2, pen217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8Q8tDLjqHRbJLh8CTpkwr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Earth]
 unique-id: 8Q8tDLjqHRbJLh8CTpkwr
 sets: [PEN]
+codes: [PEN217]
 ---
 
 **Channel the Skybreaker (yellow)** — Earth Action - Aura · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, expedition-to-dreadfall-reach, expedition, dreadfall, reach, pirate, action, attack, pitch-1, cost-2]
+tags: [card, expedition-to-dreadfall-reach, expedition, dreadfall, reach, pirate, action, attack, pitch-1, cost-2, sea157]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDzNGcF9bfPwfHrztkHdL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nDzNGcF9bfPwfHrztkHdL
 sets: [SEA]
+codes: [SEA157]
 ---
 
 **Expedition to Dreadfall Reach (red)** — Pirate Action - Attack · cost 2 · 6 power · 2 defense

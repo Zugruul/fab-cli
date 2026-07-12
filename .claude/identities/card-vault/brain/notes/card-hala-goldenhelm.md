@@ -1,5 +1,5 @@
 ---
-tags: [card, hala-goldenhelm, hala, goldenhelm, warrior, mentor, go-again]
+tags: [card, hala-goldenhelm, hala, goldenhelm, warrior, mentor, go-again, dvr007, lgs144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rWqFtWTCDnrgzPJthDHkR) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Mentor]
 keywords: [Go again]
 unique-id: rWqFtWTCDnrgzPJthDHkR
 sets: [DVR, LGS]
+codes: [DVR007, LGS144]
 ---
 
 **Hala Goldenhelm** — Warrior Mentor · 3 defense

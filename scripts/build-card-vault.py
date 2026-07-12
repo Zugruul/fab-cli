@@ -17,7 +17,8 @@ name+pitch is unique corpus-wide (verified), so slugs are stable.
 Frontmatter: standard brain keys (tags = the recall surface), then card facts —
 name (exact), full-name ("Snatch (red)") + color for pitched cards, stats that
 exist for the card's type (hero: health/intelligence; weapon: power; equipment:
-defense; ...), classes/talents/types/subtypes, keywords, unique-id, sets.
+defense; ...), classes/talents/types/subtypes, keywords, unique-id, sets, codes
+(per-printing set codes, e.g. MST131 — the identifier for a specific printing).
 NO legality data — card legality ALWAYS comes from the live policy page.
 
 Commands:
@@ -188,6 +189,8 @@ def build_note(c, slug, variants, lineage, kw_slugs, date):
         if tok in kw_slugs and tok not in kw_links:
             kw_links.append(tok)
 
+    codes = list(dict.fromkeys(p.get("id", "") for p in c.get("printings", []) if p.get("id")))
+
     # ---- tags: the recall surface
     tags = ["card", kebab(name)]
     tags += [w for w in kebab(name).split("-") if w not in STOPWORDS and len(w) > 1]
@@ -200,6 +203,7 @@ def build_note(c, slug, variants, lineage, kw_slugs, date):
     cost = c.get("cost", "")
     if cost and cost.isdigit():
         tags.append("cost-" + cost)
+    tags += [kebab(code) for code in codes]
     tags = list(dict.fromkeys(tags))
 
     # ---- frontmatter
@@ -239,6 +243,8 @@ def build_note(c, slug, variants, lineage, kw_slugs, date):
     fm.append("unique-id: %s" % c["unique_id"])
     sets = list(dict.fromkeys(p.get("set_id", "") for p in c.get("printings", []) if p.get("set_id")))
     fm.append("sets: " + fm_list(sets))
+    if codes:
+        fm.append("codes: " + fm_list(codes))
     fm.append("---")
 
     # ---- body

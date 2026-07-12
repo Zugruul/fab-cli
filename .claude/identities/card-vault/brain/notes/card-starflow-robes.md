@@ -1,5 +1,5 @@
 ---
-tags: [card, starflow-robes, starflow, robes, lightning, equipment, chest]
+tags: [card, starflow-robes, starflow, robes, lightning, equipment, chest, omn143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7cRzGcKGcWdbccLB8KnRn) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: 7cRzGcKGcWdbccLB8KnRn
 sets: [OMN]
+codes: [OMN143]
 ---
 
 **Starflow Robes** — Lightning Equipment - Chest · 0 defense

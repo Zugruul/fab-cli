@@ -1,5 +1,5 @@
 ---
-tags: [card, runic-fellingsong, runic, fellingsong, runeblade, action, attack, pitch-2, cost-3]
+tags: [card, runic-fellingsong, runic, fellingsong, runeblade, action, attack, pitch-2, cost-3, pen101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCkCjwwFqqmmmzMDRJbdw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: KCkCjwwFqqmmmzMDRJbdw
 sets: [PEN]
+codes: [PEN101]
 ---
 
 **Runic Fellingsong (yellow)** — Runeblade Action - Attack · cost 3 · 6 power · 3 defense

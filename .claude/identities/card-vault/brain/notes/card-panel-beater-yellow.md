@@ -1,5 +1,5 @@
 ---
-tags: [card, panel-beater, panel, beater, mechanologist, action, attack, boost, pitch-2, cost-2]
+tags: [card, panel-beater, panel, beater, mechanologist, action, attack, boost, pitch-2, cost-2, evo214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dMqghRmmRF9DfFnqrBPbP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: dMqghRmmRF9DfFnqrBPbP
 sets: [EVO]
+codes: [EVO214]
 ---
 
 **Panel Beater (yellow)** — Mechanologist Action - Attack · cost 2 · 4 power · 3 defense

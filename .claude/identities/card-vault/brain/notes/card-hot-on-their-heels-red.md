@@ -1,5 +1,5 @@
 ---
-tags: [card, hot-on-their-heels, hot, their, heels, ninja, draconic, action, attack, go-again, mark, pitch-1, cost-0]
+tags: [card, hot-on-their-heels, hot, their, heels, ninja, draconic, action, attack, go-again, mark, pitch-1, cost-0, cin014, hnt067, sfa018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dDw6tLrTHJMDftM86zRjK) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Mark]
 unique-id: dDw6tLrTHJMDftM86zRjK
 sets: [CIN, HNT, SFA]
+codes: [CIN014, HNT067, SFA018]
 ---
 
 **Hot on Their Heels (red)** — Draconic Ninja Action - Attack · cost 0 · 3 power · 3 defense

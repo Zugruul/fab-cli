@@ -1,5 +1,5 @@
 ---
-tags: [card, meganetic-lockwave, meganetic, lockwave, mechanologist, action, go-again, pitch-3]
+tags: [card, meganetic-lockwave, meganetic, lockwave, mechanologist, action, go-again, pitch-3, evo143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DG7DRnLw6kjDcMGH6hCmg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go Again]
 unique-id: DG7DRnLw6kjDcMGH6hCmg
 sets: [EVO]
+codes: [EVO143]
 ---
 
 **Meganetic Lockwave (blue)** — Mechanologist Action · cost XXX · 3 defense

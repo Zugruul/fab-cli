@@ -1,5 +1,5 @@
 ---
-tags: [card, evergreen, earth, action, attack, pitch-2, cost-3]
+tags: [card, evergreen, earth, action, attack, pitch-2, cost-3, ele120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JTc7kdrn9kHtq7LdJ8pQW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JTc7kdrn9kHtq7LdJ8pQW
 sets: [ELE]
+codes: [ELE120]
 ---
 
 **Evergreen (yellow)** — Earth Action - Attack · cost 3 · 6 power · 2 defense

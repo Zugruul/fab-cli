@@ -1,5 +1,5 @@
 ---
-tags: [card, hunt-a-killer, hunt, killer, warrior, action, go-again, mark, pitch-3, cost-1]
+tags: [card, hunt-a-killer, hunt, killer, warrior, action, go-again, mark, pitch-3, cost-1, fng024, hnt133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GjDhhCcNjbQcc7Tt9rJkC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Mark]
 unique-id: GjDhhCcNjbQcc7Tt9rJkC
 sets: [FNG, HNT]
+codes: [FNG024, HNT133]
 ---
 
 **Hunt a Killer (blue)** — Warrior Action · cost 1 · 3 defense

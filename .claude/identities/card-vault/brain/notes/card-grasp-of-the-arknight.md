@@ -1,5 +1,5 @@
 ---
-tags: [card, grasp-of-the-arknight, grasp, arknight, runeblade, equipment, arms, battleworn]
+tags: [card, grasp-of-the-arknight, grasp, arknight, runeblade, equipment, arms, battleworn, 1hp262, arc078, fab010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6WM7PKt9BCGmw7wQzn7k6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: 6WM7PKt9BCGmw7wQzn7k6
 sets: [1HP, ARC, FAB]
+codes: [1HP262, ARC078, FAB010]
 ---
 
 **Grasp of the Arknight** — Runeblade Equipment - Arms · 2 defense

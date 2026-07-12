@@ -1,5 +1,5 @@
 ---
-tags: [card, caress-of-the-reaper, caress, reaper, runeblade, action, attack, pitch-1, cost-1]
+tags: [card, caress-of-the-reaper, caress, reaper, runeblade, action, attack, pitch-1, cost-1, omn087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ChBRBzBFFFMhqj9tp8mBd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: ChBRBzBFFFMhqj9tp8mBd
 sets: [OMN]
+codes: [OMN087]
 ---
 
 **Caress of the Reaper (red)** — Runeblade Action - Attack · cost 1 · 5 power · 3 defense

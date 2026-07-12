@@ -1,5 +1,5 @@
 ---
-tags: [card, biting-gale, biting, gale, guardian, elemental, defense-reaction, ice-fusion, pitch-2, cost-2]
+tags: [card, biting-gale, biting, gale, guardian, elemental, defense-reaction, ice-fusion, pitch-2, cost-2, ele008, old012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8FjQLQhnCTmmfHRBLc6tN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Defense Reaction]
 keywords: [Ice Fusion]
 unique-id: 8FjQLQhnCTmmfHRBLc6tN
 sets: [ELE, OLD]
+codes: [ELE008, OLD012]
 ---
 
 **Biting Gale (yellow)** — Elemental Guardian Defense Reaction · cost 2 · 3 defense

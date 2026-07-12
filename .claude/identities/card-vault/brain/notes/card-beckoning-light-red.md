@@ -1,5 +1,5 @@
 ---
-tags: [card, beckoning-light, beckoning, light, warrior, action, attack, charge, pitch-1, cost-0]
+tags: [card, beckoning-light, beckoning, light, warrior, action, attack, charge, pitch-1, cost-0, dtd051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KHpc7bwPqmLjMF977CjcR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: KHpc7bwPqmLjMF977CjcR
 sets: [DTD]
+codes: [DTD051]
 ---
 
 **Beckoning Light (red)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

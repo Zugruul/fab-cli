@@ -1,5 +1,5 @@
 ---
-tags: [card, anticipating-gaze, anticipating, gaze, warrior, equipment, head, blade-break]
+tags: [card, anticipating-gaze, anticipating, gaze, warrior, equipment, head, blade-break, aha003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b8JRFt6dF7JckNz8N6kDN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: b8JRFt6dF7JckNz8N6kDN
 sets: [AHA]
+codes: [AHA003]
 ---
 
 **Anticipating Gaze** — Warrior Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, stonewall-impasse, stonewall, impasse, guardian, equipment, off-hand, temper, clash]
+tags: [card, stonewall-impasse, stonewall, impasse, guardian, equipment, off-hand, temper, clash, hvy052, sly004, vic003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CrKfkzFgFLWFD7tFgT9H) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Temper, Clash]
 unique-id: 6CrKfkzFgFLWFD7tFgT9H
 sets: [HVY, SLY, VIC]
+codes: [HVY052, SLY004, VIC003]
 ---
 
 **Stonewall Impasse** — Guardian Equipment - Off-Hand · 1 defense

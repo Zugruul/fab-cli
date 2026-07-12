@@ -1,5 +1,5 @@
 ---
-tags: [card, smoldering-scales, smoldering, scales, draconic, equipment, chest, guardwell]
+tags: [card, smoldering-scales, smoldering, scales, draconic, equipment, chest, guardwell, pen253]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mKGPnwbkjcGbmPn7JJNBF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Guardwell]
 unique-id: mKGPnwbkjcGbmPn7JJNBF
 sets: [PEN]
+codes: [PEN253]
 ---
 
 **Smoldering Scales** — Draconic Equipment - Chest · 2 defense

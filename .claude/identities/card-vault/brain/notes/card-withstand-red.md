@@ -1,5 +1,5 @@
 ---
-tags: [card, withstand, guardian, instant, pitch-1, cost-2]
+tags: [card, withstand, guardian, instant, pitch-1, cost-2, dyn042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KtFRrP9HJRGKTJtHrCtwD) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Instant]
 unique-id: KtFRrP9HJRGKTJtHrCtwD
 sets: [DYN]
+codes: [DYN042]
 ---
 
 **Withstand (red)** — Guardian Instant · cost 2

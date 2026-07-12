@@ -1,5 +1,5 @@
 ---
-tags: [card, beast-within, beast, within, brute, action, attack, pitch-2, cost-3]
+tags: [card, beast-within, beast, within, brute, action, attack, pitch-2, cost-3, 1hp011, arr018, cru007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dHNcBPjwggj8GdFnqbkrD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: dHNcBPjwggj8GdFnqbkrD
 sets: [1HP, ARR, CRU]
+codes: [1HP011, ARR018, CRU007]
 ---
 
 **Beast Within (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

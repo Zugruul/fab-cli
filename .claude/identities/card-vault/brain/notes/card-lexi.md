@@ -1,5 +1,5 @@
 ---
-tags: [card, lexi, ranger, elemental, hero, young, essence-of-ice-and-lightning, go-again]
+tags: [card, lexi, ranger, elemental, hero, young, essence-of-ice-and-lightning, go-again, ele032, her046, lxi001, pen346]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GFc7t8wNTwC8rCFwrqTfh) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Ice and Lightning, Go again]
 unique-id: GFc7t8wNTwC8rCFwrqTfh
 sets: [ELE, HER, LXI, PEN]
+codes: [ELE032, HER046, LXI001, PEN346]
 ---
 
 **Lexi** — Elemental Ranger Hero - Young · 20 health · 4 int

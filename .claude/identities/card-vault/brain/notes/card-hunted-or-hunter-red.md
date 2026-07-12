@@ -1,5 +1,5 @@
 ---
-tags: [card, hunted-or-hunter, hunted, or, hunter, assassin, defense-reaction, trap, pitch-1, cost-0]
+tags: [card, hunted-or-hunter, hunted, or, hunter, assassin, defense-reaction, trap, pitch-1, cost-0, ark017, hnt052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ckmHzhDHLgzTzzDgKfWgH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: ckmHzhDHLgzTzzDgKfWgH
 sets: [ARK, HNT]
+codes: [ARK017, HNT052]
 ---
 
 **Hunted or Hunter (red)** — Assassin Defense Reaction - Trap · cost 0 · 3 defense

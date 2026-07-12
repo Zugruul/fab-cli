@@ -1,5 +1,5 @@
 ---
-tags: [card, bellona-archangel-of-war, bellona, archangel, war, light, angel, ally, ward-4]
+tags: [card, bellona-archangel-of-war, bellona, archangel, war, light, angel, ally, ward-4, dtd012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QLkz9dFQmJGnCtCRLJ9QC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: QLkz9dFQmJGnCtCRLJ9QC
 sets: [DTD]
+codes: [DTD012]
 ---
 
 **Bellona, Archangel of War** — Light - Angel Ally · 4 power · 4 health

@@ -1,5 +1,5 @@
 ---
-tags: [card, awakening, guardian, elemental, instant, earth-fusion, pitch-3, cost-2]
+tags: [card, awakening, guardian, elemental, instant, earth-fusion, pitch-3, cost-2, ele006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid phCFwdjG8dKDCmr7d7F7M) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Earth Fusion]
 unique-id: phCFwdjG8dKDCmr7d7F7M
 sets: [ELE]
+codes: [ELE006]
 ---
 
 **Awakening (blue)** — Elemental Guardian Instant · cost 2

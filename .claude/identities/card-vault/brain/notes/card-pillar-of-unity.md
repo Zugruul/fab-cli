@@ -1,5 +1,5 @@
 ---
-tags: [card, pillar-of-unity, pillar, unity, warrior, equipment, legs, temper]
+tags: [card, pillar-of-unity, pillar, unity, warrior, equipment, legs, temper, pen047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P9cr8mkGcJcfgQQQpNjTG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Unity, Temper]
 unique-id: P9cr8mkGcJcfgQQQpNjTG
 sets: [PEN]
+codes: [PEN047]
 ---
 
 **Pillar of Unity** — Warrior Equipment - Legs · 1 defense

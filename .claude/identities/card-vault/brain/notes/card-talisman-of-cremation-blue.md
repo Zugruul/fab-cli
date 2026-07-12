@@ -1,5 +1,5 @@
 ---
-tags: [card, talisman-of-cremation, talisman, cremation, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, talisman-of-cremation, talisman, cremation, generic, action, item, go-again, pitch-3, cost-0, evr189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gndDzrf8p9pprWwb6HwtL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: gndDzrf8p9pprWwb6HwtL
 sets: [EVR]
+codes: [EVR189]
 ---
 
 **Talisman of Cremation (blue)** — Generic Action - Item · cost 0

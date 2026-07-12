@@ -1,5 +1,5 @@
 ---
-tags: [card, rip-through-reality, rip, through, reality, runeblade, shadow, action, attack, go-again, blood-debt, pitch-1, cost-2]
+tags: [card, rip-through-reality, rip, through, reality, runeblade, shadow, action, attack, go-again, blood-debt, pitch-1, cost-2, chn013, mon180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9dRcPdjTTpWLNzbfhJwqB) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again, Blood Debt]
 unique-id: 9dRcPdjTTpWLNzbfhJwqB
 sets: [CHN, MON]
+codes: [CHN013, MON180]
 ---
 
 **Rip Through Reality (red)** — Shadow Runeblade Action - Attack · cost 2 · 4 power · 3 defense

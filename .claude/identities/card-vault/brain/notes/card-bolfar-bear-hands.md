@@ -1,5 +1,5 @@
 ---
-tags: [card, bolfar-bear-hands, bolfar, bear, hands, guardian, hero, pit-fighter, adult]
+tags: [card, bolfar-bear-hands, bolfar, bear, hands, guardian, hero, pit-fighter, adult, smp001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdFkL9pbDdFj8DKnRHHGn) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 subtypes: [Pit-Fighter]
 unique-id: CdFkL9pbDdFj8DKnRHHGn
 sets: [SMP]
+codes: [SMP001]
 ---
 
 **Bolfar, Bear Hands** — Guardian Hero - Pit-Fighter · 20 health · 4 int

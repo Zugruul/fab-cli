@@ -1,5 +1,5 @@
 ---
-tags: [card, test-of-agility, test, agility, brute, warrior, block, clash, pitch-1]
+tags: [card, test-of-agility, test, agility, brute, warrior, block, clash, pitch-1, hvy162, lgs261]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6ChQcHfgrFqCLTrFppwQG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: 6ChQcHfgrFqCLTrFppwQG
 sets: [HVY, LGS]
+codes: [HVY162, LGS261]
 ---
 
 **Test of Agility (red)** — Brute / Warrior Block · 4 defense

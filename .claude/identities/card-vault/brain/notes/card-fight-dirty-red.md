@@ -1,5 +1,5 @@
 ---
-tags: [card, fight-dirty, fight, dirty, action, attack, reviled, pitch-1, cost-3]
+tags: [card, fight-dirty, fight, dirty, action, attack, reviled, pitch-1, cost-3, sup089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdcPgtHftqzGHjTcWNBJp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: CdcPgtHftqzGHjTcWNBJp
 sets: [SUP]
+codes: [SUP089]
 ---
 
 **Fight Dirty (red)** — Reviled Action - Attack · cost 3 · 7 power · 2 defense

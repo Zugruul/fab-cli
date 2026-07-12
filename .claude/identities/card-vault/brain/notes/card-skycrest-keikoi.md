@@ -1,5 +1,5 @@
 ---
-tags: [card, skycrest-keikoi, skycrest, keikoi, mystic, equipment, head, cloaked]
+tags: [card, skycrest-keikoi, skycrest, keikoi, mystic, equipment, head, cloaked, lgs278, mst071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pfbmHDDCBzPj7kPKLHtJj) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Head]
 keywords: [Cloaked]
 unique-id: pfbmHDDCBzPj7kPKLHtJj
 sets: [LGS, MST]
+codes: [LGS278, MST071]
 ---
 
 **Skycrest Keikoi** — Mystic Equipment - Head

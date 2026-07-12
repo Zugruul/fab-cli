@@ -1,5 +1,5 @@
 ---
-tags: [card, vaporize-shock, vaporize, shock, runeblade, lightning, instant, meld, pitch-2, cost-0]
+tags: [card, vaporize-shock, vaporize, shock, runeblade, lightning, instant, meld, pitch-2, cost-0, lgs346, ros011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NMfPbTgbMbP9pnnCKMQD9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant, Instant]
 keywords: [Meld]
 unique-id: NMfPbTgbMbP9pnnCKMQD9
 sets: [LGS, ROS]
+codes: [LGS346, ROS011]
 ---
 
 **Vaporize // Shock (yellow)** — Runeblade Instant // Lightning Instant · cost 0

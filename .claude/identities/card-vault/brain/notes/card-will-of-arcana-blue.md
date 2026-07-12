@@ -1,5 +1,5 @@
 ---
-tags: [card, will-of-arcana, will, arcana, wizard, resource, gem, legendary, amp-1, pitch-3]
+tags: [card, will-of-arcana, will, arcana, wizard, resource, gem, legendary, amp-1, pitch-3, ros000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r8Tw7FhnRPfndW8kWB7Rr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary, Amp 1]
 unique-id: r8Tw7FhnRPfndW8kWB7Rr
 sets: [ROS]
+codes: [ROS000]
 ---
 
 **Will of Arcana (blue)** — Wizard Resource - Gem

@@ -1,5 +1,5 @@
 ---
-tags: [card, lace-with-frailty, lace, frailty, ranger, action, go-again, pitch-1, cost-0]
+tags: [card, lace-with-frailty, lace, frailty, ranger, action, go-again, pitch-1, cost-0, aaz018, lgs135, out113, saz023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cztrB96QNb9CqKDgBRwcN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: cztrB96QNb9CqKDgBRwcN
 sets: [AAZ, LGS, OUT, SAZ]
+codes: [AAZ018, LGS135, OUT113, SAZ023]
 ---
 
 **Lace with Frailty (red)** — Ranger Action · cost 0 · 2 defense

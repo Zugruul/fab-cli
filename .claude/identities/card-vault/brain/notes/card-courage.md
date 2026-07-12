@@ -1,5 +1,5 @@
 ---
-tags: [card, courage, generic, token, aura]
+tags: [card, courage, generic, token, aura, asb027, dtd232, fab153, sbl035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fQTg89mpRjTDTRmPGkQb6) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: fQTg89mpRjTDTRmPGkQb6
 sets: [ASB, DTD, FAB, SBL]
+codes: [ASB027, DTD232, FAB153, SBL035]
 ---
 
 **Courage** — Generic Token - Aura

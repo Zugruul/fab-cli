@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-safe-haven, helm, safe, haven, generic, equipment, head, blade-break]
+tags: [card, helm-of-safe-haven, helm, safe, haven, generic, equipment, head, blade-break, pen314]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDD8FDbbhgKFmpHBGCL9c) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: HDD8FDbbhgKFmpHBGCL9c
 sets: [PEN]
+codes: [PEN314]
 ---
 
 **Helm of Safe Haven** — Generic Equipment - Head · 2 defense

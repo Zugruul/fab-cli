@@ -1,5 +1,5 @@
 ---
-tags: [card, blackout-kick, blackout, kick, ninja, action, attack, combo, pitch-2, cost-1]
+tags: [card, blackout-kick, blackout, kick, ninja, action, attack, combo, pitch-2, cost-1, 1hp105, wtr090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BKjJWmhTkQrpQLCcgr8Jb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: BKjJWmhTkQrpQLCcgr8Jb
 sets: [1HP, WTR]
+codes: [1HP105, WTR090]
 ---
 
 **Blackout Kick (yellow)** — Ninja Action - Attack · cost 1 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, quelling-sleeves, quelling, sleeves, generic, equipment, arms, quell-1]
+tags: [card, quelling-sleeves, quelling, sleeves, generic, equipment, arms, quell-1, upr185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QdCcTgDwqq66NHp6qDdTz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Quell 1]
 unique-id: QdCcTgDwqq66NHp6qDdTz
 sets: [UPR]
+codes: [UPR185]
 ---
 
 **Quelling Sleeves** — Generic Equipment - Arms · 0 defense

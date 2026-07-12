@@ -1,5 +1,5 @@
 ---
-tags: [card, spiders-bite, spiders, bite, assassin, weapon, dagger, 1h, piercing-1]
+tags: [card, spiders-bite, spiders, bite, assassin, weapon, dagger, 1h, piercing-1, aac003, ara002, ark002, dyn115, dyn116, lgs111, out004, uzu002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hDzHTgkgGfqFCn8mmR9M6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Piercing 1]
 unique-id: hDzHTgkgGfqFCn8mmR9M6
 sets: [AAC, ARA, ARK, DYN, LGS, OUT, UZU]
+codes: [AAC003, ARA002, ARK002, DYN115, DYN116, LGS111, OUT004, UZU002]
 ---
 
 **Spider's Bite** — Assassin Weapon - Dagger (1H) · 1 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, diced, warrior, attack-reaction, pitch-3, cost-0]
+tags: [card, diced, warrior, attack-reaction, pitch-3, cost-0, hnt121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnrmmPMcwr7twfKQnHhcm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: pnrmmPMcwr7twfKQnHhcm
 sets: [HNT]
+codes: [HNT121]
 ---
 
 **Diced (blue)** — Warrior Attack Reaction · cost 0 · 2 defense

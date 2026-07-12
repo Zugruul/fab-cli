@@ -1,5 +1,5 @@
 ---
-tags: [card, index, wizard, action, pitch-2, cost-0]
+tags: [card, index, wizard, action, pitch-2, cost-0, arc136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g7hJCTWLMLLjNGWM89PzC) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: g7hJCTWLMLLjNGWM89PzC
 sets: [ARC]
+codes: [ARC136]
 ---
 
 **Index (yellow)** — Wizard Action · cost 0 · 2 defense

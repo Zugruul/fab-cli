@@ -1,5 +1,5 @@
 ---
-tags: [card, driving-blade, driving, blade, warrior, action, go-again, pitch-3, cost-2]
+tags: [card, driving-blade, driving, blade, warrior, action, go-again, pitch-3, cost-2, 1hp173, tea022, wtr146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N7zmTD6zCgLQQzqWg8fgQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: N7zmTD6zCgLQQzqWg8fgQ
 sets: [1HP, TEA, WTR]
+codes: [1HP173, TEA022, WTR146]
 ---
 
 **Driving Blade (blue)** — Warrior Action · cost 2 · 3 defense

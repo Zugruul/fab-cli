@@ -1,5 +1,5 @@
 ---
-tags: [card, concealed-blade, concealed, blade, assassin, ninja, attack-reaction, pitch-3, cost-0]
+tags: [card, concealed-blade, concealed, blade, assassin, ninja, attack-reaction, pitch-3, cost-0, out143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GQzfCQbchkDFn7crcnkrg) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Ninja]
 types: [Attack Reaction]
 unique-id: GQzfCQbchkDFn7crcnkrg
 sets: [OUT]
+codes: [OUT143]
 ---
 
 **Concealed Blade (blue)** — Assassin / Ninja Attack Reaction · cost 0 · 3 defense

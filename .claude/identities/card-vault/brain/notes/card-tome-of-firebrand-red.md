@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-firebrand, tome, firebrand, draconic, instant, pitch-1, cost-1]
+tags: [card, tome-of-firebrand, tome, firebrand, draconic, instant, pitch-1, cost-1, upr089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MJFjT8CfpnpjtWTPgjPQ9) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Instant]
 unique-id: MJFjT8CfpnpjtWTPgjPQ9
 sets: [UPR]
+codes: [UPR089]
 ---
 
 **Tome of Firebrand (red)** — Draconic Instant · cost 1

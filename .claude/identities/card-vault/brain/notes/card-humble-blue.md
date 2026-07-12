@@ -1,5 +1,5 @@
 ---
-tags: [card, humble, generic, action, attack, pitch-3, cost-2]
+tags: [card, humble, generic, action, attack, pitch-3, cost-2, out191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JnQ8mtr69DWrhqmrWkJ8z) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JnQ8mtr69DWrhqmrWkJ8z
 sets: [OUT]
+codes: [OUT191]
 ---
 
 **Humble (blue)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

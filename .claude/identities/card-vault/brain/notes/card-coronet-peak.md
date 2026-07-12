@@ -1,5 +1,5 @@
 ---
-tags: [card, coronet-peak, coronet, peak, ice, equipment, head, blade-break]
+tags: [card, coronet-peak, coronet, peak, ice, equipment, head, blade-break, fab086, upr136]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9b7hjHNnGDBkfL8jL89bf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: 9b7hjHNnGDBkfL8jL89bf
 sets: [FAB, UPR]
+codes: [FAB086, UPR136]
 ---
 
 **Coronet Peak** — Ice Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, celestial-reprimand, celestial, reprimand, illusionist, light, instant, pitch-3, cost-0]
+tags: [card, celestial-reprimand, celestial, reprimand, illusionist, light, instant, pitch-3, cost-0, dtd040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKwppWjqB6NhjDKqcgPjM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Instant]
 unique-id: CKwppWjqB6NhjDKqcgPjM
 sets: [DTD]
+codes: [DTD040]
 ---
 
 **Celestial Reprimand (blue)** — Light Illusionist Instant · cost 0

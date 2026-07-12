@@ -1,5 +1,5 @@
 ---
-tags: [card, punch-above-your-weight, punch, above, your, weight, generic, action, attack, pitch-1, cost-0]
+tags: [card, punch-above-your-weight, punch, above, your, weight, generic, action, attack, pitch-1, cost-0, fab374, sup224]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nfWLDhWBqKhGMtQMKFjdm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nfWLDhWBqKhGMtQMKFjdm
 sets: [FAB, SUP]
+codes: [FAB374, SUP224]
 ---
 
 **Punch Above Your Weight (red)** — Generic Action - Attack · cost 0 · 2 power · 2 defense

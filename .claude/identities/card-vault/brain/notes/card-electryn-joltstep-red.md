@@ -1,5 +1,5 @@
 ---
-tags: [card, electryn-joltstep, electryn, joltstep, runeblade, lightning, action, go-again, pitch-1, cost-1]
+tags: [card, electryn-joltstep, electryn, joltstep, runeblade, lightning, action, go-again, pitch-1, cost-1, gem154, omn080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKGFjmKNk6mhMHThPGmK6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: CKGFjmKNk6mhMHThPGmK6
 sets: [GEM, OMN]
+codes: [GEM154, OMN080]
 ---
 
 **Electryn Joltstep (red)** — Lightning Runeblade Action · cost 1 · 3 defense

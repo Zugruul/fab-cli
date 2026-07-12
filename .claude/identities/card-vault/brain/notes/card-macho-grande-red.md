@@ -1,5 +1,5 @@
 ---
-tags: [card, macho-grande, macho, grande, guardian, action, attack, dominate, pitch-1, cost-7]
+tags: [card, macho-grande, macho, grande, guardian, action, attack, dominate, pitch-1, cost-7, evr027, lgs087, mpg041]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DRLzM9pggPjG76K6pFPt7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: DRLzM9pggPjG76K6pFPt7
 sets: [EVR, LGS, MPG]
+codes: [EVR027, LGS087, MPG041]
 ---
 
 **Macho Grande (red)** — Guardian Action - Attack · cost 7 · 10 power · 3 defense

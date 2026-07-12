@@ -1,5 +1,5 @@
 ---
-tags: [card, to-the-point, point, assassin, warrior, attack-reaction, pitch-3, cost-0]
+tags: [card, to-the-point, point, assassin, warrior, attack-reaction, pitch-3, cost-0, hnt201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7tkH9LH8hHKQLmBGNJrM6) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Warrior]
 types: [Attack Reaction]
 unique-id: 7tkH9LH8hHKQLmBGNJrM6
 sets: [HNT]
+codes: [HNT201]
 ---
 
 **To the Point (blue)** — Assassin / Warrior Attack Reaction · cost 0 · 2 defense

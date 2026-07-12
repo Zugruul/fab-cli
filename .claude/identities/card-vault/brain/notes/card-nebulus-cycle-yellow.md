@@ -1,5 +1,5 @@
 ---
-tags: [card, nebulus-cycle, nebulus, cycle, illusionist, lightning, instant, aura, ward-2, pitch-2, cost-1]
+tags: [card, nebulus-cycle, nebulus, cycle, illusionist, lightning, instant, aura, ward-2, pitch-2, cost-1, omn035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid knQ7hzFBj6fFLH9LTd8MD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: knQ7hzFBj6fFLH9LTd8MD
 sets: [OMN]
+codes: [OMN035]
 ---
 
 **Nebulus Cycle (yellow)** — Lightning Illusionist Instant - Aura · cost 1

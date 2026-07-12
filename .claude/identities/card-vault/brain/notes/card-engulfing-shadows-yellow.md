@@ -1,5 +1,5 @@
 ---
-tags: [card, engulfing-shadows, engulfing, shadows, shadow, defense-reaction, blood-debt, pitch-2, cost-0]
+tags: [card, engulfing-shadows, engulfing, shadows, shadow, defense-reaction, blood-debt, pitch-2, cost-0, gem137, pen194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrJHMtHfhk7bGFqhNkD8K) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Blood Debt]
 unique-id: jrJHMtHfhk7bGFqhNkD8K
 sets: [GEM, PEN]
+codes: [GEM137, PEN194]
 ---
 
 **Engulfing Shadows (yellow)** — Shadow Defense Reaction · cost 0 · 4 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, thistle-bloom-life, thistle, bloom, life, runeblade, earth, action, instant, meld, pitch-2, cost-0]
+tags: [card, thistle-bloom-life, thistle, bloom, life, runeblade, earth, action, instant, meld, pitch-2, cost-0, lgs351, ros005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLzWh7MWcDdN8wnwQWwMN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action, Instant]
 keywords: [Meld]
 unique-id: MLzWh7MWcDdN8wnwQWwMN
 sets: [LGS, ROS]
+codes: [LGS351, ROS005]
 ---
 
 **Thistle Bloom // Life (yellow)** — Runeblade Action // Earth Instant · cost 0 · 3 defense

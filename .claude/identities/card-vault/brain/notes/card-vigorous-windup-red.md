@@ -1,5 +1,5 @@
 ---
-tags: [card, vigorous-windup, vigorous, windup, guardian, warrior, action, attack, pitch-1, cost-3]
+tags: [card, vigorous-windup, vigorous, windup, guardian, warrior, action, attack, pitch-1, cost-3, hvy186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6DkjQLNmzwdBmwhfGWTJG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 6DkjQLNmzwdBmwhfGWTJG
 sets: [HVY]
+codes: [HVY186]
 ---
 
 **Vigorous Windup (red)** — Guardian / Warrior Action - Attack · cost 3 · 7 power · 2 defense

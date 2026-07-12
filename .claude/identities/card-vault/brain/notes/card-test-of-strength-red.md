@@ -1,5 +1,5 @@
 ---
-tags: [card, test-of-strength, test, strength, generic, block, clash, pitch-1]
+tags: [card, test-of-strength, test, strength, generic, block, clash, pitch-1, fab199, hvy239, sen019, vic013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zmkd9LqrNQFfqHCWKcQNr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: zmkd9LqrNQFfqHCWKcQNr
 sets: [FAB, HVY, SEN, VIC]
+codes: [FAB199, HVY239, SEN019, VIC013]
 ---
 
 **Test of Strength (red)** — Generic Block · 4 defense

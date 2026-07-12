@@ -1,5 +1,5 @@
 ---
-tags: [card, under-the-trap-door, under, trap, door, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, under-the-trap-door, under, trap, door, assassin, action, attack, stealth, pitch-3, cost-0, hnt013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TdH7kmMbcGfRPpcGCfFkT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: TdH7kmMbcGfRPpcGCfFkT
 sets: [HNT]
+codes: [HNT013]
 ---
 
 **Under the Trap-Door (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

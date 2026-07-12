@@ -1,5 +1,5 @@
 ---
-tags: [card, orb-weaver-spinneret, orb, weaver, spinneret, assassin, action, go-again, pitch-3, cost-0]
+tags: [card, orb-weaver-spinneret, orb, weaver, spinneret, assassin, action, go-again, pitch-3, cost-0, hnt028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDJFD6zmgqHN9jfNNMDCD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: HDJFD6zmgqHN9jfNNMDCD
 sets: [HNT]
+codes: [HNT028]
 ---
 
 **Orb-Weaver Spinneret (blue)** — Assassin Action · cost 0 · 3 defense

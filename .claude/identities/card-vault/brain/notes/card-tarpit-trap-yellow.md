@@ -1,5 +1,5 @@
 ---
-tags: [card, tarpit-trap, tarpit, trap, ranger, defense-reaction, pitch-2, cost-0]
+tags: [card, tarpit-trap, tarpit, trap, ranger, defense-reaction, pitch-2, cost-0, lgs140, out108, rip013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BPHDqTPTT6nKHGjRqjFzR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: BPHDqTPTT6nKHGjRqjFzR
 sets: [LGS, OUT, RIP]
+codes: [LGS140, OUT108, RIP013]
 ---
 
 **Tarpit Trap (yellow)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

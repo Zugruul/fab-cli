@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-quandaries, tome, quandaries, wizard, instant, pitch-3, cost-0]
+tags: [card, tome-of-quandaries, tome, quandaries, wizard, instant, pitch-3, cost-0, omn133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CfjtgbzgrFRD6QPzPdkdW) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Instant]
 unique-id: CfjtgbzgrFRD6QPzPdkdW
 sets: [OMN]
+codes: [OMN133]
 ---
 
 **Tome of Quandaries (blue)** — Wizard Instant · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-beta-base-chest, evo, beta, base, chest, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0]
+tags: [card, evo-beta-base-chest, evo, beta, base, chest, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0, pen069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid km9fGmwfBqRwGhccLtgJm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Chest]
 keywords: [Transform, Battleworn]
 unique-id: km9fGmwfBqRwGhccLtgJm
 sets: [PEN]
+codes: [PEN069]
 ---
 
 **Evo Beta Base Chest (blue)** — Mechanologist Action Equipment - Evo Base Chest · cost 0 · 1 defense

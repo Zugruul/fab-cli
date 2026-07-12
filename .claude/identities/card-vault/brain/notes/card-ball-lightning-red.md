@@ -1,5 +1,5 @@
 ---
-tags: [card, ball-lightning, ball, lightning, action, attack, go-again, pitch-1, cost-0]
+tags: [card, ball-lightning, ball, lightning, action, attack, go-again, pitch-1, cost-0, ele186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TJdbQPDBpnLGpNmmN7fhg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: TJdbQPDBpnLGpNmmN7fhg
 sets: [ELE]
+codes: [ELE186]
 ---
 
 **Ball Lightning (red)** — Lightning Action - Attack · cost 0 · 3 power · 0 defense

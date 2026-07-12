@@ -1,5 +1,5 @@
 ---
-tags: [card, chart-the-high-seas, chart, high, seas, pirate, necromancer, action, go-again, pitch-3, cost-0]
+tags: [card, chart-the-high-seas, chart, high, seas, pirate, necromancer, action, go-again, pitch-3, cost-0, fab344, sea048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jMMDM8cd7Dc8LdWWN7GzR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: jMMDM8cd7Dc8LdWWN7GzR
 sets: [FAB, SEA]
+codes: [FAB344, SEA048]
 ---
 
 **Chart the High Seas (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

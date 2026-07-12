@@ -1,5 +1,5 @@
 ---
-tags: [card, hack-to-reality, hack, reality, generic, action, go-again, pitch-2, cost-1]
+tags: [card, hack-to-reality, hack, reality, generic, action, go-again, pitch-2, cost-1, dtd229]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LPNDBTkkJ9gfhfnqrctfJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LPNDBTkkJ9gfhfnqrctfJ
 sets: [DTD]
+codes: [DTD229]
 ---
 
 **Hack to Reality (yellow)** — Generic Action · cost 1 · 2 defense

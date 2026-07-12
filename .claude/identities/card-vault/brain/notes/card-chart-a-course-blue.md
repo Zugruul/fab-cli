@@ -1,5 +1,5 @@
 ---
-tags: [card, chart-a-course, chart, course, pirate, action, go-again, pitch-3, cost-0]
+tags: [card, chart-a-course, chart, course, pirate, action, go-again, pitch-3, cost-0, sea175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jmdFFT8D6MhJWJLRbz6dt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: jmdFFT8D6MhJWJLRbz6dt
 sets: [SEA]
+codes: [SEA175]
 ---
 
 **Chart a Course (blue)** — Pirate Action · cost 0 · 2 defense

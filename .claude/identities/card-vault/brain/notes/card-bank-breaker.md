@@ -1,5 +1,5 @@
 ---
-tags: [card, bank-breaker, bank, breaker, mechanologist, weapon, wrench, 2h, overpower, go-again]
+tags: [card, bank-breaker, bank, breaker, mechanologist, weapon, wrench, 2h, overpower, go-again, amx022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hHTFWRhbq9F7CwwbQqNQ8) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Wrench, 2H]
 keywords: [Overpower, Go again]
 unique-id: hHTFWRhbq9F7CwwbQqNQ8
 sets: [AMX]
+codes: [AMX022]
 ---
 
 **Bank Breaker** — Mechanologist Weapon - Wrench (2H) · 3 power

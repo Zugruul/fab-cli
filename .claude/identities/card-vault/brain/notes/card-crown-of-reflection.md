@@ -1,5 +1,5 @@
 ---
-tags: [card, crown-of-reflection, crown, reflection, illusionist, equipment, head, arcane-barrier-1]
+tags: [card, crown-of-reflection, crown, reflection, illusionist, equipment, head, arcane-barrier-1, evr137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MkjQ7zw7Bpc8BMJDnJ9fC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1]
 unique-id: MkjQ7zw7Bpc8BMJDnJ9fC
 sets: [EVR]
+codes: [EVR137]
 ---
 
 **Crown of Reflection** — Illusionist Equipment - Head · 0 defense

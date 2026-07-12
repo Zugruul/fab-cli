@@ -1,5 +1,5 @@
 ---
-tags: [card, down-but-not-out, down, but, not, out, generic, action, attack, overpower, pitch-1, cost-3]
+tags: [card, down-but-not-out, down, but, not, out, generic, action, attack, overpower, pitch-1, cost-3, hvy213, kyo009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JFKn8JgrMchwh6D6dCQNw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: JFKn8JgrMchwh6D6dCQNw
 sets: [HVY, KYO]
+codes: [HVY213, KYO009]
 ---
 
 **Down But Not Out (red)** — Generic Action - Attack · cost 3 · 5 power · 3 defense

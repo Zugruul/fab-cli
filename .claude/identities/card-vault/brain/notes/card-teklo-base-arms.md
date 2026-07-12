@@ -1,5 +1,5 @@
 ---
-tags: [card, teklo-base-arms, teklo, base, arms, mechanologist, equipment, blade-break]
+tags: [card, teklo-base-arms, teklo, base, arms, mechanologist, equipment, blade-break, evo020, lgs188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ddc8cKjhFDgfDQqdpcRjB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Arms]
 keywords: [Blade Break]
 unique-id: ddc8cKjhFDgfDQqdpcRjB
 sets: [EVO, LGS]
+codes: [EVO020, LGS188]
 ---
 
 **Teklo Base Arms** — Mechanologist Equipment - Base Arms · 1 defense

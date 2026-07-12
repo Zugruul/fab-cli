@@ -1,5 +1,5 @@
 ---
-tags: [card, air-of-a-comeback, air, comeback, event]
+tags: [card, air-of-a-comeback, air, comeback, event, smp007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BcJhMTnwWRcdhGHMCpr8H) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Air of a Comeback"
 types: [Event]
 unique-id: BcJhMTnwWRcdhGHMCpr8H
 sets: [SMP]
+codes: [SMP007]
 ---
 
 **Air of a Comeback** — Event

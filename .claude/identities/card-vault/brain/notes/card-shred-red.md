@@ -1,5 +1,5 @@
 ---
-tags: [card, shred, assassin, attack-reaction, pitch-1, cost-0]
+tags: [card, shred, assassin, attack-reaction, pitch-1, cost-0, dyn130, tnp013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 88L7NzD77t8wk8QdnrwKR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: 88L7NzD77t8wk8QdnrwKR
 sets: [DYN, TNP]
+codes: [DYN130, TNP013]
 ---
 
 **Shred (red)** — Assassin Attack Reaction · cost 0 · 3 defense

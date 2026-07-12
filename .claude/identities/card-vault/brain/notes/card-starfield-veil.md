@@ -1,5 +1,5 @@
 ---
-tags: [card, starfield-veil, starfield, veil, illusionist, lightning, equipment, head, guardwell]
+tags: [card, starfield-veil, starfield, veil, illusionist, lightning, equipment, head, guardwell, azs003, omn248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MkzmkbbNf7DMHkzMkDrLk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Head]
 keywords: [Guardwell]
 unique-id: MkzmkbbNf7DMHkzMkDrLk
 sets: [AZS, OMN]
+codes: [AZS003, OMN248]
 ---
 
 **Starfield Veil** — Lightning Illusionist Equipment - Head · 2 defense

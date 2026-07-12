@@ -1,5 +1,5 @@
 ---
-tags: [card, cleansing-light, cleansing, light, action, pitch-3, cost-3]
+tags: [card, cleansing-light, cleansing, light, action, pitch-3, cost-3, dtd090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HCKWqMfzpnwHL9rrPfKrF) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Action]
 unique-id: HCKWqMfzpnwHL9rrPfKrF
 sets: [DTD]
+codes: [DTD090]
 ---
 
 **Cleansing Light (blue)** — Light Action · cost 3 · 2 defense

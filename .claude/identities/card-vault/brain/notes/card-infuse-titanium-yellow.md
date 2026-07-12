@@ -1,5 +1,5 @@
 ---
-tags: [card, infuse-titanium, infuse, titanium, mechanologist, action, attack, galvanize, pitch-2, cost-3]
+tags: [card, infuse-titanium, infuse, titanium, mechanologist, action, attack, galvanize, pitch-2, cost-3, evo124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQbcdmqJw9tPqqDBnDpH9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Galvanize]
 unique-id: qQbcdmqJw9tPqqDBnDpH9
 sets: [EVO]
+codes: [EVO124]
 ---
 
 **Infuse Titanium (yellow)** — Mechanologist Action - Attack · cost 3 · 6 power · 2 defense

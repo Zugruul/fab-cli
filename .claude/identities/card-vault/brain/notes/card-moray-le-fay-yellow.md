@@ -1,5 +1,5 @@
 ---
-tags: [card, moray-le-fay, moray, le, fay, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-0]
+tags: [card, moray-le-fay, moray, le, fay, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-0, gem047, sea051]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HNFBzNgGjf6JnH9h6PKFJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: HNFBzNgGjf6JnH9h6PKFJ
 sets: [GEM, SEA]
+codes: [GEM047, SEA051]
 ---
 
 **Moray le Fay (yellow)** — Pirate Necromancer Action - Ally · cost 0 · 0 power · 3 health

@@ -1,5 +1,5 @@
 ---
-tags: [card, flashfreeze, elemental, action, ice-and-or-lightning-fusion, go-again, dominate, pitch-1, cost-1]
+tags: [card, flashfreeze, elemental, action, ice-and-or-lightning-fusion, go-again, dominate, pitch-1, cost-1, ele092]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGMH76KLtDChtw8JBqMbJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Ice and/or Lightning Fusion, Go again, Dominate]
 unique-id: KGMH76KLtDChtw8JBqMbJ
 sets: [ELE]
+codes: [ELE092]
 ---
 
 **Flashfreeze (red)** — Elemental Action · cost 1 · 2 defense

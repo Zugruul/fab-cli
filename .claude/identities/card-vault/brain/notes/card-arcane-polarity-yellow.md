@@ -1,5 +1,5 @@
 ---
-tags: [card, arcane-polarity, arcane, polarity, generic, instant, pitch-2, cost-0]
+tags: [card, arcane-polarity, arcane, polarity, generic, instant, pitch-2, cost-0, ros232]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QW7gqb6tmznfRQNnMkWmW) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: QW7gqb6tmznfRQNnMkWmW
 sets: [ROS]
+codes: [ROS232]
 ---
 
 **Arcane Polarity (yellow)** — Generic Instant · cost 0

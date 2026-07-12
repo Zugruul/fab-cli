@@ -1,5 +1,5 @@
 ---
-tags: [card, plunder-run, plunder, run, generic, action, go-again, pitch-1, cost-0]
+tags: [card, plunder-run, plunder, run, generic, action, go-again, pitch-1, cost-0, 1hp378, arc170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fwF67FGHHq7rCKdPRz77f) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fwF67FGHHq7rCKdPRz77f
 sets: [1HP, ARC]
+codes: [1HP378, ARC170]
 ---
 
 **Plunder Run (red)** — Generic Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, cutting-retort, cutting, retort, generic, action, attack, pitch-1, cost-0]
+tags: [card, cutting-retort, cutting, retort, generic, action, attack, pitch-1, cost-0, sup215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8mP7k9zMRB7P6bnKCbKmr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 8mP7k9zMRB7P6bnKCbKmr
 sets: [SUP]
+codes: [SUP215]
 ---
 
 **Cutting Retort (red)** — Generic Action - Attack · cost 0 · 4 power · 3 defense

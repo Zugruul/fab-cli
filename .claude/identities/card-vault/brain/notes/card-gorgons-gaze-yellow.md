@@ -1,5 +1,5 @@
 ---
-tags: [card, gorgons-gaze, gorgons, gaze, assassin, mystic, attack-reaction, pitch-2, cost-2]
+tags: [card, gorgons-gaze, gorgons, gaze, assassin, mystic, attack-reaction, pitch-2, cost-2, mst008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tFjCKTzpnNCbMGwgtMjFn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Mystic]
 types: [Attack Reaction]
 unique-id: tFjCKTzpnNCbMGwgtMjFn
 sets: [MST]
+codes: [MST008]
 ---
 
 **Gorgon's Gaze (yellow)** — Mystic Assassin Attack Reaction · cost 2 · 3 defense

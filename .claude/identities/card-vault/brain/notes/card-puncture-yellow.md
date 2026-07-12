@@ -1,5 +1,5 @@
 ---
-tags: [card, puncture, warrior, attack-reaction, piercing-1, pitch-2, cost-1]
+tags: [card, puncture, warrior, attack-reaction, piercing-1, pitch-2, cost-1, dyn080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q9wCKDmjFwjdjdL6rkcLJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Piercing 1]
 unique-id: Q9wCKDmjFwjdjdL6rkcLJ
 sets: [DYN]
+codes: [DYN080]
 ---
 
 **Puncture (yellow)** — Warrior Attack Reaction · cost 1 · 3 defense

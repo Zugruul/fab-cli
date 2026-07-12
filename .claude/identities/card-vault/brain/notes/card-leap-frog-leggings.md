@@ -1,5 +1,5 @@
 ---
-tags: [card, leap-frog-leggings, leap, frog, leggings, assassin, ninja, equipment, legs, blade-break]
+tags: [card, leap-frog-leggings, leap, frog, leggings, assassin, ninja, equipment, legs, blade-break, cin006, hnt172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8mrLmWTr8TBJgjCpzBzmB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: 8mrLmWTr8TBJgjCpzBzmB
 sets: [CIN, HNT]
+codes: [CIN006, HNT172]
 ---
 
 **Leap Frog Leggings** — Assassin / Ninja Equipment - Legs · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, call-down-the-lightning, call, down, lightning, action, lexi-specialization, go-again, unity, pitch-2, cost-0]
+tags: [card, call-down-the-lightning, call, down, lightning, action, lexi-specialization, go-again, unity, pitch-2, cost-0, dtd198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8jWbpb8RHQWpKwDdnt9rw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Lexi Specialization, Go again, Unity]
 unique-id: 8jWbpb8RHQWpKwDdnt9rw
 sets: [DTD]
+codes: [DTD198]
 ---
 
 **Call Down the Lightning (yellow)** — Lightning Action · cost 0 · 2 defense

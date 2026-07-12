@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-havencall, amulet, havencall, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, amulet-of-havencall, amulet, havencall, generic, action, item, go-again, pitch-3, cost-0, evr178]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77rfcbF6JzTp98njhmLrq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: 77rfcbF6JzTp98njhmLrq
 sets: [EVR]
+codes: [EVR178]
 ---
 
 **Amulet of Havencall (blue)** — Generic Action - Item · cost 0

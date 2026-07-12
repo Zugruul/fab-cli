@@ -1,5 +1,5 @@
 ---
-tags: [card, radiant-forcefield, radiant, forcefield, light, instant, aura, pitch-2, cost-0]
+tags: [card, radiant-forcefield, radiant, forcefield, light, instant, aura, pitch-2, cost-0, dtd081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rtJ8hLmrbcrkzLjGjjfJk) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: rtJ8hLmrbcrkzLjGjjfJk
 sets: [DTD]
+codes: [DTD081]
 ---
 
 **Radiant Forcefield (yellow)** — Light Instant - Aura · cost 0

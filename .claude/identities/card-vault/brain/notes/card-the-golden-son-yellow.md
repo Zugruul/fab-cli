@@ -1,5 +1,5 @@
 ---
-tags: [card, the-golden-son, golden, son, guardian, action, attack, victor-specialization, overpower, pitch-2, cost-4]
+tags: [card, the-golden-son, golden, son, guardian, action, attack, victor-specialization, overpower, pitch-2, cost-4, hvy059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPnWnDTdFfnjghqkQB88C) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Victor Specialization, Overpower]
 unique-id: wPnWnDTdFfnjghqkQB88C
 sets: [HVY]
+codes: [HVY059]
 ---
 
 **The Golden Son (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

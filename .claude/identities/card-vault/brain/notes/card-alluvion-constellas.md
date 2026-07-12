@@ -1,5 +1,5 @@
 ---
-tags: [card, alluvion-constellas, alluvion, constellas, wizard, equipment, chest, arcane-barrier-1]
+tags: [card, alluvion-constellas, alluvion, constellas, wizard, equipment, chest, arcane-barrier-1, fab084, upr166]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DgpbP8LBpCffdNgH8t9LB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: DgpbP8LBpCffdNgH8t9LB
 sets: [FAB, UPR]
+codes: [FAB084, UPR166]
 ---
 
 **Alluvion Constellas** — Wizard Equipment - Chest · 0 defense

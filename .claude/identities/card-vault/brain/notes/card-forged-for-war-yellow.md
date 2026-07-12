@@ -1,5 +1,5 @@
 ---
-tags: [card, forged-for-war, forged, war, guardian, action, aura, go-again, pitch-2, cost-2]
+tags: [card, forged-for-war, forged, war, guardian, action, aura, go-again, pitch-2, cost-2, wtr046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fdTzMwFCfWtRTwC6qDMRt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: fdTzMwFCfWtRTwC6qDMRt
 sets: [WTR]
+codes: [WTR046]
 ---
 
 **Forged for War (yellow)** — Guardian Action - Aura · cost 2 · 3 defense

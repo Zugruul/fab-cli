@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-sloth, runechant, sloth, runeblade, instant, aura, go-again, pitch-2, cost-0]
+tags: [card, runechant-of-sloth, runechant, sloth, runeblade, instant, aura, go-again, pitch-2, cost-0, gem182, iar156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BMgj68hT9jQHQ6nFqhTDT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: BMgj68hT9jQHQ6nFqhTDT
 sets: [GEM, IAR]
+codes: [GEM182, IAR156]
 ---
 
 **Runechant of Sloth (yellow)** — Runeblade Instant - Aura · cost 0

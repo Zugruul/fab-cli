@@ -1,5 +1,5 @@
 ---
-tags: [card, bone-vizier, bone, vizier, brute, equipment, head, blade-break]
+tags: [card, bone-vizier, bone, vizier, brute, equipment, head, blade-break, fab106, rvd003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 96FgPdNpKj7CpbmtgGCjR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: 96FgPdNpKj7CpbmtgGCjR
 sets: [FAB, RVD]
+codes: [FAB106, RVD003]
 ---
 
 **Bone Vizier** — Brute Equipment - Head · 1 defense

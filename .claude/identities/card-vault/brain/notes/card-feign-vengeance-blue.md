@@ -1,5 +1,5 @@
 ---
-tags: [card, feign-vengeance, feign, vengeance, ninja, action, attack, go-again, pitch-3, cost-0]
+tags: [card, feign-vengeance, feign, vengeance, ninja, action, attack, go-again, pitch-3, cost-0, gem117, pen036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcQDk66HmLFR6mKt78BWT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: rcQDk66HmLFR6mKt78BWT
 sets: [GEM, PEN]
+codes: [GEM117, PEN036]
 ---
 
 **Feign Vengeance (blue)** — Ninja Action - Attack · cost 0 · 0 power · 3 defense

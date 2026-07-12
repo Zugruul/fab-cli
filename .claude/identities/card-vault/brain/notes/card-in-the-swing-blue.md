@@ -1,5 +1,5 @@
 ---
-tags: [card, in-the-swing, swing, warrior, attack-reaction, pitch-3, cost-0]
+tags: [card, in-the-swing, swing, warrior, attack-reaction, pitch-3, cost-0, evr065]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jjbWn8gPgq9nzqTHpNr8h) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: jjbWn8gPgq9nzqTHpNr8h
 sets: [EVR]
+codes: [EVR065]
 ---
 
 **In the Swing (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

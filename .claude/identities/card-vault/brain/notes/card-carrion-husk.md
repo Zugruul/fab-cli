@@ -1,5 +1,5 @@
 ---
-tags: [card, carrion-husk, carrion, husk, shadow, equipment, chest, blood-debt]
+tags: [card, carrion-husk, carrion, husk, shadow, equipment, chest, blood-debt, fab018, mon187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KLtwtTdQqjdTJNhcQHJhd) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blood Debt]
 unique-id: KLtwtTdQqjdTJNhcQHJhd
 sets: [FAB, MON]
+codes: [FAB018, MON187]
 ---
 
 **Carrion Husk** — Shadow Equipment - Chest · 6 defense

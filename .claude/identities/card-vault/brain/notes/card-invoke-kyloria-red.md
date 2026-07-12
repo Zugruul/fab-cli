@@ -1,5 +1,5 @@
 ---
-tags: [card, invoke-kyloria, invoke, kyloria, illusionist, draconic, action, invocation, transform, go-again, pitch-1, cost-1]
+tags: [card, invoke-kyloria, invoke, kyloria, illusionist, draconic, action, invocation, transform, go-again, pitch-1, cost-1, upr011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qRbQCrnwpWm7mtbfpcFn7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Invocation]
 keywords: [Transform, Go again]
 unique-id: qRbQCrnwpWm7mtbfpcFn7
 sets: [UPR]
+codes: [UPR011]
 ---
 
 **Invoke Kyloria (red)** — Draconic Illusionist Action - Invocation · cost 1 · 3 defense

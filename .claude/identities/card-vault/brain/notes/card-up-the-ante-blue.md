@@ -1,5 +1,5 @@
 ---
-tags: [card, up-the-ante, up, ante, warrior, attack-reaction, olympia-specialization, wager, pitch-3]
+tags: [card, up-the-ante, up, ante, warrior, attack-reaction, olympia-specialization, wager, pitch-3, hvy103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W7QPrj9bzNgddWCCFFCRw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Olympia Specialization, Wager]
 unique-id: W7QPrj9bzNgddWCCFFCRw
 sets: [HVY]
+codes: [HVY103]
 ---
 
 **Up the Ante (blue)** — Warrior Attack Reaction · cost X · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, flow-through, flow, through, lightning, instant, pitch-3, cost-0]
+tags: [card, flow-through, flow, through, lightning, instant, pitch-3, cost-0, omn158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PcCQGjz68TjzgQrMfRnLQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: PcCQGjz68TjzgQrMfRnLQ
 sets: [OMN]
+codes: [OMN158]
 ---
 
 **Flow Through (blue)** — Lightning Instant · cost 0

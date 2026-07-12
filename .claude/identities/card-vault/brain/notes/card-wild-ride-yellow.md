@@ -1,5 +1,5 @@
 ---
-tags: [card, wild-ride, wild, ride, brute, action, attack, go-again, pitch-2, cost-2]
+tags: [card, wild-ride, wild, ride, brute, action, attack, go-again, pitch-2, cost-2, evr012, hvy039, kyo021, ska024, tnp002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bPtqgMTnhqqJcHF7BJJWw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: bPtqgMTnhqqJcHF7BJJWw
 sets: [EVR, HVY, KYO, SKA, TNP]
+codes: [EVR012, HVY039, KYO021, SKA024, TNP002]
 ---
 
 **Wild Ride (yellow)** — Brute Action - Attack · cost 2 · 5 power

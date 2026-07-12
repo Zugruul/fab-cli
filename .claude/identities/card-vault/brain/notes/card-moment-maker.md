@@ -1,5 +1,5 @@
 ---
-tags: [card, moment-maker, moment, maker, guardian, weapon, hammer, axe, 2h, revered, the-crowd-cheers]
+tags: [card, moment-maker, moment, maker, guardian, weapon, hammer, axe, 2h, revered, the-crowd-cheers, aps003, gem071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6kFn87DgtCPtJ9J9M6zGL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: 6kFn87DgtCPtJ9J9M6zGL
 sets: [APS, GEM]
+codes: [APS003, GEM071]
 ---
 
 **Moment Maker** — Revered Guardian Weapon - Hammer Axe (2H) · 4 power

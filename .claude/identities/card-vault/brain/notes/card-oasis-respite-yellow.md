@@ -1,5 +1,5 @@
 ---
-tags: [card, oasis-respite, oasis, respite, generic, instant, pitch-2, cost-1]
+tags: [card, oasis-respite, oasis, respite, generic, instant, pitch-2, cost-1, upr222]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLLHrD676q8LL6ngKMb6c) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: MLLHrD676q8LL6ngKMb6c
 sets: [UPR]
+codes: [UPR222]
 ---
 
 **Oasis Respite (yellow)** — Generic Instant · cost 1

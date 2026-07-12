@@ -1,5 +1,5 @@
 ---
-tags: [card, reinforce-steel, reinforce, steel, guardian, action, pitch-3, cost-2]
+tags: [card, reinforce-steel, reinforce, steel, guardian, action, pitch-3, cost-2, dyn041]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gG7HktC9HdknC8z8pMGjw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Guardian]
 types: [Action]
 unique-id: gG7HktC9HdknC8z8pMGjw
 sets: [DYN]
+codes: [DYN041]
 ---
 
 **Reinforce Steel (blue)** — Guardian Action · cost 2 · 3 defense

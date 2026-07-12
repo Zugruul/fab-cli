@@ -1,5 +1,5 @@
 ---
-tags: [card, root-bound-trunks, root, bound, trunks, guardian, earth, equipment, legs, blade-break]
+tags: [card, root-bound-trunks, root, bound, trunks, guardian, earth, equipment, legs, blade-break, ajv007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jnM9JWHGJqdtjPmLCbGMm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: jnM9JWHGJqdtjPmLCbGMm
 sets: [AJV]
+codes: [AJV007]
 ---
 
 **Root-Bound Trunks** — Earth Guardian Equipment - Legs · 1 defense

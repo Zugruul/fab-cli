@@ -1,5 +1,5 @@
 ---
-tags: [card, genesis, illusionist, light, instant, aura, spectra, pitch-2, cost-4]
+tags: [card, genesis, illusionist, light, instant, aura, spectra, pitch-2, cost-4, apr017, lgs172, mon006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8TtCrkgJBC6h8TWjMgk8m) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra]
 unique-id: 8TtCrkgJBC6h8TWjMgk8m
 sets: [APR, LGS, MON]
+codes: [APR017, LGS172, MON006]
 ---
 
 **Genesis (yellow)** — Light Illusionist Instant - Aura · cost 4

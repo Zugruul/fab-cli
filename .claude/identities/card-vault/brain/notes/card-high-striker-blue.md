@@ -1,5 +1,5 @@
 ---
-tags: [card, high-striker, high, striker, generic, action, go-again, pitch-3, cost-0]
+tags: [card, high-striker, high, striker, generic, action, go-again, pitch-3, cost-0, evr166]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RFdQdrNDp9QHmpffbKFfg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: RFdQdrNDp9QHmpffbKFfg
 sets: [EVR]
+codes: [EVR166]
 ---
 
 **High Striker (blue)** — Generic Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, toughen-up, toughen, up, generic, defense-reaction, pitch-3, cost-2]
+tags: [card, toughen-up, toughen, up, generic, defense-reaction, pitch-3, cost-2, dvr024, gem176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QQJMKL7hLRfLcMhQCwTpN) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: QQJMKL7hLRfLcMhQCwTpN
 sets: [DVR, GEM]
+codes: [DVR024, GEM176]
 ---
 
 **Toughen Up (blue)** — Generic Defense Reaction · cost 2 · 4 defense

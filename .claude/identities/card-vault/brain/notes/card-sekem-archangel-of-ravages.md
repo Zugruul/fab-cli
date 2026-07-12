@@ -1,5 +1,5 @@
 ---
-tags: [card, sekem-archangel-of-ravages, sekem, archangel, ravages, light, angel, ally, ward-4]
+tags: [card, sekem-archangel-of-ravages, sekem, archangel, ravages, light, angel, ally, ward-4, dtd008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PBFbJTw6qrKRHPHPDCrMT) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: PBFbJTw6qrKRHPHPDCrMT
 sets: [DTD]
+codes: [DTD008]
 ---
 
 **Sekem, Archangel of Ravages** — Light - Angel Ally · 4 power · 4 health

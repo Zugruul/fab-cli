@@ -1,5 +1,5 @@
 ---
-tags: [card, soaring-strike, soaring, strike, ninja, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, soaring-strike, soaring, strike, ninja, draconic, action, attack, go-again, pitch-1, cost-1, upr081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6pkDBRPmCgD7GmJ9FTrQR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 6pkDBRPmCgD7GmJ9FTrQR
 sets: [UPR]
+codes: [UPR081]
 ---
 
 **Soaring Strike (red)** — Draconic Ninja Action - Attack · cost 1 · 4 power · 2 defense

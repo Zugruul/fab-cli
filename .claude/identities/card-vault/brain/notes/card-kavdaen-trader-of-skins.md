@@ -1,5 +1,5 @@
 ---
-tags: [card, kavdaen-trader-of-skins, kavdaen, trader, skins, merchant, hero, young]
+tags: [card, kavdaen-trader-of-skins, kavdaen, trader, skins, merchant, hero, young, 1hp220, cru118, her028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rgq8FqBMdhn9khbwjDK6Q) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Merchant]
 types: [Hero]
 unique-id: rgq8FqBMdhn9khbwjDK6Q
 sets: [1HP, CRU, HER]
+codes: [1HP220, CRU118, HER028]
 ---
 
 **Kavdaen, Trader of Skins** — Merchant Hero - Young · 20 health · 4 int

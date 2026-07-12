@@ -1,5 +1,5 @@
 ---
-tags: [card, battalion-barque, battalion, barque, pirate, action, attack, high-tide, pitch-3, cost-4]
+tags: [card, battalion-barque, battalion, barque, pirate, action, attack, high-tide, pitch-3, cost-4, sea154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKgkPBMkGRkNzrDbdRttC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [High Tide]
 unique-id: CKgkPBMkGRkNzrDbdRttC
 sets: [SEA]
+codes: [SEA154]
 ---
 
 **Battalion Barque (blue)** — Pirate Action - Attack · cost 4 · 5 power · 3 defense

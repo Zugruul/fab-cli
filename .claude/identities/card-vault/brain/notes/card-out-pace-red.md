@@ -1,5 +1,5 @@
 ---
-tags: [card, out-pace, out, pace, mechanologist, action, attack, boost, pitch-1, cost-1]
+tags: [card, out-pace, out, pace, mechanologist, action, attack, boost, pitch-1, cost-1, evo204, sda015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCNfk6P8BPNNwfP7WCczg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: QCNfk6P8BPNNwfP7WCczg
 sets: [EVO, SDA]
+codes: [EVO204, SDA015]
 ---
 
 **Out Pace (red)** — Mechanologist Action - Attack · cost 1 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ironhide-plate, ironhide, plate, generic, equipment, chest]
+tags: [card, ironhide-plate, ironhide, plate, generic, equipment, chest, mon242]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qq8NfJ7zgchWbMfM8BJBG) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: qq8NfJ7zgchWbMfM8BJBG
 sets: [MON]
+codes: [MON242]
 ---
 
 **Ironhide Plate** — Generic Equipment - Chest · 0 defense

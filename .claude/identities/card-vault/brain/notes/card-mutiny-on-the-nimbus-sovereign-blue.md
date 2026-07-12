@@ -1,5 +1,5 @@
 ---
-tags: [card, mutiny-on-the-nimbus-sovereign, mutiny, nimbus, sovereign, pirate, action, go-again, steal, overpower, pitch-3, cost-0]
+tags: [card, mutiny-on-the-nimbus-sovereign, mutiny, nimbus, sovereign, pirate, action, go-again, steal, overpower, pitch-3, cost-0, sea177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JnzNgM8krkHCW67dfWJLP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Steal, Overpower]
 unique-id: JnzNgM8krkHCW67dfWJLP
 sets: [SEA]
+codes: [SEA177]
 ---
 
 **Mutiny on the Nimbus Sovereign (blue)** — Pirate Action · cost 0 · 2 defense

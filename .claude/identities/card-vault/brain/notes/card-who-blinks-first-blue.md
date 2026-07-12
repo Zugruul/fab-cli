@@ -1,5 +1,5 @@
 ---
-tags: [card, who-blinks-first, who, blinks, first, guardian, instant, aura, suspense, pitch-3, cost-3]
+tags: [card, who-blinks-first, who, blinks, first, guardian, instant, aura, suspense, pitch-3, cost-3, sup177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9R96qhGFQKHCLr8jzKTKg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: 9R96qhGFQKHCLr8jzKTKg
 sets: [SUP]
+codes: [SUP177]
 ---
 
 **Who Blinks First? (blue)** — Guardian Instant - Aura · cost 3 · 3 defense

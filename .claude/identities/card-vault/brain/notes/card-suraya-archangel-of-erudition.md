@@ -1,5 +1,5 @@
 ---
-tags: [card, suraya-archangel-of-erudition, suraya, archangel, erudition, light, angel, ally, ward-4]
+tags: [card, suraya-archangel-of-erudition, suraya, archangel, erudition, light, angel, ally, ward-4, dtd005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JR9JmbdnQ8mTLfjMHf9n8) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: JR9JmbdnQ8mTLfjMHf9n8
 sets: [DTD]
+codes: [DTD005]
 ---
 
 **Suraya, Archangel of Erudition** — Light - Angel Ally · 4 power · 4 health

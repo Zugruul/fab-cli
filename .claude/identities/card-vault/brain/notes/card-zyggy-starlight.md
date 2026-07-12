@@ -1,5 +1,5 @@
 ---
-tags: [card, zyggy-starlight, zyggy, starlight, illusionist, lightning, hero, adult]
+tags: [card, zyggy-starlight, zyggy, starlight, illusionist, lightning, hero, adult, azs001, omn001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnwGDgknLbHc96Ghg8f67) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Hero]
 unique-id: pnwGDgknLbHc96Ghg8f67
 sets: [AZS, OMN]
+codes: [AZS001, OMN001]
 ---
 
 **Zyggy Starlight** — Lightning Illusionist Hero · 40 health · 4 int

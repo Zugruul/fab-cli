@@ -1,5 +1,5 @@
 ---
-tags: [card, heat-wave, heat, wave, ninja, draconic, equipment, arms, quell-1]
+tags: [card, heat-wave, heat, wave, ninja, draconic, equipment, arms, quell-1, fai005, upr047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Prkf9mwfBCbLDHncK6CPP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Quell 1]
 unique-id: Prkf9mwfBCbLDHncK6CPP
 sets: [FAI, UPR]
+codes: [FAI005, UPR047]
 ---
 
 **Heat Wave** — Draconic Ninja Equipment - Arms · 0 defense

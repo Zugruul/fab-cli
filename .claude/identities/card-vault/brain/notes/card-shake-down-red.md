@@ -1,5 +1,5 @@
 ---
-tags: [card, shake-down, shake, down, assassin, action, attack, uzuri-specialization, pitch-1, cost-2]
+tags: [card, shake-down, shake, down, assassin, action, attack, uzuri-specialization, pitch-1, cost-2, out013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DMH8PRWDTmMm6mWtQqttn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Uzuri Specialization]
 unique-id: DMH8PRWDTmMm6mWtQqttn
 sets: [OUT]
+codes: [OUT013]
 ---
 
 **Shake Down (red)** — Assassin Action - Attack · cost 2 · 6 power · 3 defense

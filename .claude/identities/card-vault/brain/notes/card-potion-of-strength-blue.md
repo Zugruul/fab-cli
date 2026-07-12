@@ -1,5 +1,5 @@
 ---
-tags: [card, potion-of-strength, potion, strength, generic, action, item, pitch-3, cost-0]
+tags: [card, potion-of-strength, potion, strength, generic, action, item, pitch-3, cost-0, 1hp382, bvo028, fab013, tcc073, wtr171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fNMMHHpLGMCjHh8KQG8nW) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: fNMMHHpLGMCjHh8KQG8nW
 sets: [1HP, BVO, FAB, TCC, WTR]
+codes: [1HP382, BVO028, FAB013, TCC073, WTR171]
 ---
 
 **Potion of Strength (blue)** — Generic Action - Item · cost 0

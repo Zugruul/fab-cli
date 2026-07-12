@@ -1,5 +1,5 @@
 ---
-tags: [card, high-pitched-howl, high, pitched, howl, brute, action, attack, pitch-2, cost-2]
+tags: [card, high-pitched-howl, high, pitched, howl, brute, action, attack, pitch-2, cost-2, sup156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khhbD7jztHMLmBGbqNdgf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: khhbD7jztHMLmBGbqNdgf
 sets: [SUP]
+codes: [SUP156]
 ---
 
 **High Pitched Howl (yellow)** — Brute Action - Attack · cost 2 · 5 power · 3 defense

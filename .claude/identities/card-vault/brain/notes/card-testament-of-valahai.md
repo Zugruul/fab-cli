@@ -1,5 +1,5 @@
 ---
-tags: [card, testament-of-valahai, testament, valahai, guardian, equipment, off-hand, guardwell]
+tags: [card, testament-of-valahai, testament, valahai, guardian, equipment, off-hand, guardwell, mpg004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qtGQDP6NNRnFFgNhKjCkd) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Guardwell]
 unique-id: qtGQDP6NNRnFFgNhKjCkd
 sets: [MPG]
+codes: [MPG004]
 ---
 
 **Testament of Valahai** — Guardian Equipment - Off-Hand · 1 defense

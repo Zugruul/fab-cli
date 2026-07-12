@@ -1,5 +1,5 @@
 ---
-tags: [card, evasive-leap, evasive, leap, generic, defense-reaction, pitch-2, cost-0]
+tags: [card, evasive-leap, evasive, leap, generic, defense-reaction, pitch-2, cost-0, mst219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid whmMnfgwjqMJCHKGBHfq7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: whmMnfgwjqMJCHKGBHfq7
 sets: [MST]
+codes: [MST219]
 ---
 
 **Evasive Leap (yellow)** — Generic Defense Reaction · cost 0 · 2 defense

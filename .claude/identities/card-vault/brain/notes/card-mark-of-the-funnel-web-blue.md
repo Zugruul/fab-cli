@@ -1,5 +1,5 @@
 ---
-tags: [card, mark-of-the-funnel-web, mark, funnel, web, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, mark-of-the-funnel-web, mark, funnel, web, assassin, action, attack, stealth, pitch-3, cost-0, aac026, hnt037, wod021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PPzjfmqjC76wFt8RHT8K8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: PPzjfmqjC76wFt8RHT8K8
 sets: [AAC, HNT, WOD]
+codes: [AAC026, HNT037, WOD021]
 ---
 
 **Mark of the Funnel Web (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

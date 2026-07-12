@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-erudition, herald, erudition, illusionist, light, action, attack, dominate, phantasm, pitch-2, cost-2]
+tags: [card, herald-of-erudition, herald, erudition, illusionist, light, action, attack, dominate, phantasm, pitch-2, cost-2, apr011, mon004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9BPFcP6dTCwRdJKJBbqCc) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Dominate, Phantasm]
 unique-id: 9BPFcP6dTCwRdJKJBbqCc
 sets: [APR, MON]
+codes: [APR011, MON004]
 ---
 
 **Herald of Erudition (yellow)** — Light Illusionist Action - Attack · cost 2 · 5 power · 3 defense

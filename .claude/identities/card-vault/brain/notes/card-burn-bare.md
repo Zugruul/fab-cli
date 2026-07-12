@@ -1,5 +1,5 @@
 ---
-tags: [card, burn-bare, burn, bare, wizard, action, cost-3]
+tags: [card, burn-bare, burn, bare, wizard, action, cost-3, sea255]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FRftJtrB9LzbkMfcJKCmb) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: FRftJtrB9LzbkMfcJKCmb
 sets: [SEA]
+codes: [SEA255]
 ---
 
 **Burn Bare** — Wizard Action · cost 3 · 3 defense

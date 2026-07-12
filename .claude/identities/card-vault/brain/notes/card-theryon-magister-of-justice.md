@@ -1,5 +1,5 @@
 ---
-tags: [card, theryon-magister-of-justice, theryon, magister, justice, adjudicator, light, hero, adult]
+tags: [card, theryon-magister-of-justice, theryon, magister, justice, adjudicator, light, hero, adult, jdg006, jdg008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DbqmMdc6Mw9jGpPQBcwRd) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Hero]
 unique-id: DbqmMdc6Mw9jGpPQBcwRd
 sets: [JDG]
+codes: [JDG006, JDG008]
 ---
 
 **Theryon, Magister of Justice** — Light Adjudicator Hero · 20 health · 4 int

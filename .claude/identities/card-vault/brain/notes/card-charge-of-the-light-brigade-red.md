@@ -1,5 +1,5 @@
 ---
-tags: [card, charge-of-the-light-brigade, charge, light, brigade, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, charge-of-the-light-brigade, charge, light, brigade, warrior, action, go-again, pitch-1, cost-0, dtd072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rWccJ7CMn69khJP7QJ7G9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rWccJ7CMn69khJP7QJ7G9
 sets: [DTD]
+codes: [DTD072]
 ---
 
 **Charge of the Light Brigade (red)** — Light Warrior Action · cost 0 · 3 defense

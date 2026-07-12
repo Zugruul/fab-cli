@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-triumph, herald, triumph, illusionist, light, action, attack, phantasm, pitch-2, cost-2]
+tags: [card, herald-of-triumph, herald, triumph, illusionist, light, action, attack, phantasm, pitch-2, cost-2, apr013, dtd027, fab159, mon009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pKzcGJ6MbDD7pBM6HNJpf) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: pKzcGJ6MbDD7pBM6HNJpf
 sets: [APR, DTD, FAB, MON]
+codes: [APR013, DTD027, FAB159, MON009]
 ---
 
 **Herald of Triumph (yellow)** — Light Illusionist Action - Attack · cost 2 · 6 power · 3 defense

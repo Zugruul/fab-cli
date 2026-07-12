@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-wrath, runechant, wrath, runeblade, instant, aura, overpower, pitch-2, cost-0]
+tags: [card, runechant-of-wrath, runechant, wrath, runeblade, instant, aura, overpower, pitch-2, cost-0, gem183, iar157]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qwpdn8CJWGgkHLqdhDtgh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Overpower]
 unique-id: qwpdn8CJWGgkHLqdhDtgh
 sets: [GEM, IAR]
+codes: [GEM183, IAR157]
 ---
 
 **Runechant of Wrath (yellow)** — Runeblade Instant - Aura · cost 0

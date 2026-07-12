@@ -1,5 +1,5 @@
 ---
-tags: [card, expedite, mechanologist, action, attack, boost, pitch-1, cost-0]
+tags: [card, expedite, mechanologist, action, attack, boost, pitch-1, cost-0, amx009, evo198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dHGPHrcmzW8TJT6m8mrPp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: dHGPHrcmzW8TJT6m8mrPp
 sets: [AMX, EVO]
+codes: [AMX009, EVO198]
 ---
 
 **Expedite (red)** — Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

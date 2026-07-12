@@ -1,5 +1,5 @@
 ---
-tags: [card, tiger-trap, tiger, trap, ranger, defense-reaction, pitch-1, cost-0]
+tags: [card, tiger-trap, tiger, trap, ranger, defense-reaction, pitch-1, cost-0, pen083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWGFNLDJbWHtLQhW7GtMJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: CWGFNLDJbWHtLQhW7GtMJ
 sets: [PEN]
+codes: [PEN083]
 ---
 
 **Tiger Trap (red)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

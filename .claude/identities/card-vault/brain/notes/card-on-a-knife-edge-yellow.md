@@ -1,5 +1,5 @@
 ---
-tags: [card, on-a-knife-edge, knife, edge, generic, action, go-again, pitch-2, cost-0]
+tags: [card, on-a-knife-edge, knife, edge, generic, action, go-again, pitch-2, cost-0, dvr019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rC98Cch9DNGTfpggrNBh6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rC98Cch9DNGTfpggrNBh6
 sets: [DVR]
+codes: [DVR019]
 ---
 
 **On a Knife Edge (yellow)** — Generic Action · cost 0 · 2 defense

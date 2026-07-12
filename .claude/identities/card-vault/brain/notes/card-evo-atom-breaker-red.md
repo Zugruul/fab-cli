@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-atom-breaker, evo, atom, breaker, mechanologist, instant, equipment, chest, transform, pitch-1, cost-0]
+tags: [card, evo-atom-breaker, evo, atom, breaker, mechanologist, instant, equipment, chest, transform, pitch-1, cost-0, evo031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tGhCtnrQTn8KtcmnJdqmq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Chest]
 keywords: [Transform]
 unique-id: tGhCtnrQTn8KtcmnJdqmq
 sets: [EVO]
+codes: [EVO031]
 ---
 
 **Evo Atom Breaker (red)** — Mechanologist Instant Equipment - Evo Chest · cost 0 · 0 defense

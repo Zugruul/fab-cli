@@ -1,5 +1,5 @@
 ---
-tags: [card, second-tenet-of-chi-wind, second, tenet, chi, wind, mystic, action, attack, go-again, pitch-3, cost-3]
+tags: [card, second-tenet-of-chi-wind, second, tenet, chi, wind, mystic, action, attack, go-again, pitch-3, cost-3, lgs305, mst083, sen025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T6hdfgDWQgPTm8RJ8HpfQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: T6hdfgDWQgPTm8RJ8HpfQ
 sets: [LGS, MST, SEN]
+codes: [LGS305, MST083, SEN025]
 ---
 
 **Second Tenet of Chi: Wind (blue)** — Mystic Action - Attack · cost 3 · 5 power · 3 defense

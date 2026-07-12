@@ -1,5 +1,5 @@
 ---
-tags: [card, big-bertha, big, bertha, mechanologist, action, attack, boost, pitch-3, cost-3]
+tags: [card, big-bertha, big, bertha, mechanologist, action, attack, boost, pitch-3, cost-3, amx024, evo179, sda028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BbhMcGn9tRzPq6qdt8f8W) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: BbhMcGn9tRzPq6qdt8f8W
 sets: [AMX, EVO, SDA]
+codes: [AMX024, EVO179, SDA028]
 ---
 
 **Big Bertha (blue)** — Mechanologist Action - Attack · cost 3 · 4 power · 3 defense

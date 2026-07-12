@@ -1,5 +1,5 @@
 ---
-tags: [card, phantasmal-haze, phantasmal, haze, illusionist, action, attack, phantasm, pitch-3, cost-3]
+tags: [card, phantasmal-haze, phantasmal, haze, illusionist, action, attack, phantasm, pitch-3, cost-3, evr149, sen024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JqK88CP9ND6FCGjTGRMgj) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: JqK88CP9ND6FCGjTGRMgj
 sets: [EVR, SEN]
+codes: [EVR149, SEN024]
 ---
 
 **Phantasmal Haze (blue)** — Illusionist Action - Attack · cost 3 · 6 power · 3 defense

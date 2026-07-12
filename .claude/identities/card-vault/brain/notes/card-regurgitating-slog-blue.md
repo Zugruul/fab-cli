@@ -1,5 +1,5 @@
 ---
-tags: [card, regurgitating-slog, regurgitating, slog, generic, action, attack, dominate, pitch-3, cost-2]
+tags: [card, regurgitating-slog, regurgitating, slog, generic, action, attack, dominate, pitch-3, cost-2, wtr199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid br9CQqckKLHbJmqnrLnfR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: br9CQqckKLHbJmqnrLnfR
 sets: [WTR]
+codes: [WTR199]
 ---
 
 **Regurgitating Slog (blue)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

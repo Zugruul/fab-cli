@@ -1,5 +1,5 @@
 ---
-tags: [card, crackling, runeblade, elemental, action, attack, lightning-flow, pitch-2, cost-0]
+tags: [card, crackling, runeblade, elemental, action, attack, lightning-flow, pitch-2, cost-0, aur015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DKNCGmjBWngRMjmTCbKLr) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Flow]
 unique-id: DKNCGmjBWngRMjmTCbKLr
 sets: [AUR]
+codes: [AUR015]
 ---
 
 **Crackling (yellow)** — Elemental Runeblade Action - Attack · cost 0 · 2 power · 3 defense

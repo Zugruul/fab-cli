@@ -1,5 +1,5 @@
 ---
-tags: [card, full-of-bravado, full, bravado, guardian, action, attack, pitch-3, cost-3]
+tags: [card, full-of-bravado, full, bravado, guardian, action, attack, pitch-3, cost-3, sly025, sup180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDH7rpttjqDt8Nb9zD768) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nDH7rpttjqDt8Nb9zD768
 sets: [SLY, SUP]
+codes: [SLY025, SUP180]
 ---
 
 **Full of Bravado (blue)** — Guardian Action - Attack · cost 3 · 5 power · 2 defense

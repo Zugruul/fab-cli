@@ -1,5 +1,5 @@
 ---
-tags: [card, ready-to-roll, ready, roll, brute, action, kayo-specialization, go-again, pitch-3, cost-0]
+tags: [card, ready-to-roll, ready, roll, brute, action, kayo-specialization, go-again, pitch-3, cost-0, evr003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ppcpmnFc99GT8bbwbCBth) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Kayo Specialization, Go again]
 unique-id: ppcpmnFc99GT8bbwbCBth
 sets: [EVR]
+codes: [EVR003]
 ---
 
 **Ready to Roll (blue)** — Brute Action · cost 0 · 3 defense

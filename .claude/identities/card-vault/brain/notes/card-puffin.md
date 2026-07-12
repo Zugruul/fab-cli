@@ -1,5 +1,5 @@
 ---
-tags: [card, puffin, pirate, mechanologist, hero, young]
+tags: [card, puffin, pirate, mechanologist, hero, young, sea002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m8MzjMMWBw88jJj9gt9Qj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Pirate, Mechanologist]
 types: [Hero]
 unique-id: m8MzjMMWBw88jJj9gt9Qj
 sets: [SEA]
+codes: [SEA002]
 ---
 
 **Puffin** — Pirate Mechanologist Hero - Young · 20 health · 4 int

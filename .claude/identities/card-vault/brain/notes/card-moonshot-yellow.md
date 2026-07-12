@@ -1,5 +1,5 @@
 ---
-tags: [card, moonshot, mechanologist, action, attack, overpower, pitch-2]
+tags: [card, moonshot, mechanologist, action, attack, overpower, pitch-2, evo140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khj76ndGTj7gDDQNwzjqw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: khj76ndGTj7gDDQNwzjqw
 sets: [EVO]
+codes: [EVO140]
 ---
 
 **Moonshot (yellow)** — Mechanologist Action - Attack · cost XX · 3 power · 3 defense

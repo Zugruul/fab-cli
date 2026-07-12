@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-ravages, herald, ravages, illusionist, light, action, attack, phantasm, pitch-3, cost-2]
+tags: [card, herald-of-ravages, herald, ravages, illusionist, light, action, attack, phantasm, pitch-3, cost-2, dtd019, lgs155, mon019, psm017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6kKnCBgtcwPWzKhHLDPLn) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: 6kKnCBgtcwPWzKhHLDPLn
 sets: [DTD, LGS, MON, PSM]
+codes: [DTD019, LGS155, MON019, PSM017]
 ---
 
 **Herald of Ravages (blue)** — Light Illusionist Action - Attack · cost 2 · 5 power · 3 defense

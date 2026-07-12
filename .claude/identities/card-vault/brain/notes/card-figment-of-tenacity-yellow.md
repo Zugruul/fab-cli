@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-tenacity, figment, tenacity, illusionist, light, instant, legendary, dominate, pitch-2, cost-4]
+tags: [card, figment-of-tenacity, figment, tenacity, illusionist, light, instant, legendary, dominate, pitch-2, cost-4, dtd010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtTHBQB9qrJDzrMpJtfRw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary, Dominate]
 unique-id: mtTHBQB9qrJDzrMpJtfRw
 sets: [DTD]
+codes: [DTD010]
 ---
 
 **Figment of Tenacity (yellow)** — Light Illusionist Instant - Figment · cost 4

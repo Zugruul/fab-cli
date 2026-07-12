@@ -1,5 +1,5 @@
 ---
-tags: [card, over-flex, over, flex, ranger, action, reload, go-again, pitch-3, cost-1]
+tags: [card, over-flex, over, flex, ranger, action, reload, go-again, pitch-3, cost-1, ele221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid btndHckBR7ffBqCwHRJfD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Reload, Go again]
 unique-id: btndHckBR7ffBqCwHRJfD
 sets: [ELE]
+codes: [ELE221]
 ---
 
 **Over Flex (blue)** — Ranger Action · cost 1 · 2 defense

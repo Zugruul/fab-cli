@@ -1,5 +1,5 @@
 ---
-tags: [card, viserai-rune-blood, viserai, rune, blood, runeblade, hero, adult]
+tags: [card, viserai-rune-blood, viserai, rune, blood, runeblade, hero, adult, 1hp258, arc075, avs001, cru138, her011, her019, her127, win007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TKbRWjjBLJThMmLkTFb6q) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Runeblade]
 types: [Hero]
 unique-id: TKbRWjjBLJThMmLkTFb6q
 sets: [1HP, ARC, AVS, CRU, HER, WIN]
+codes: [1HP258, ARC075, AVS001, CRU138, HER011, HER019, HER127, WIN007]
 ---
 
 **Viserai, Rune Blood** — Runeblade Hero · 40 health · 4 int

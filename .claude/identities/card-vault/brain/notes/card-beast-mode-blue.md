@@ -1,5 +1,5 @@
 ---
-tags: [card, beast-mode, beast, mode, brute, action, attack, pitch-3, cost-3]
+tags: [card, beast-mode, beast, mode, brute, action, attack, pitch-3, cost-3, hvy019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gtz9rhLqmgQNLCBWWrhn6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Gtz9rhLqmgQNLCBWWrhn6
 sets: [HVY]
+codes: [HVY019]
 ---
 
 **Beast Mode (blue)** — Brute Action - Attack · cost 3 · 4 power · 3 defense

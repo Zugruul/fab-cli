@@ -1,5 +1,5 @@
 ---
-tags: [card, savage-beatdown, savage, beatdown, brute, action, attack, pitch-1, cost-3]
+tags: [card, savage-beatdown, savage, beatdown, brute, action, attack, pitch-1, cost-3, ako012, dyn007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7mdh968cg9r9JB7dfzcFW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7mdh968cg9r9JB7dfzcFW
 sets: [AKO, DYN]
+codes: [AKO012, DYN007]
 ---
 
 **Savage Beatdown (red)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

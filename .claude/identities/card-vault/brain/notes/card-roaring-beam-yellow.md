@@ -1,5 +1,5 @@
 ---
-tags: [card, roaring-beam, roaring, beam, warrior, light, attack-reaction, charge, pitch-2, cost-0]
+tags: [card, roaring-beam, roaring, beam, warrior, light, attack-reaction, charge, pitch-2, cost-0, gem129, pen178, sbl032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fDngpw7GRrGQTN9L8wtTf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Attack Reaction]
 keywords: [Charge]
 unique-id: fDngpw7GRrGQTN9L8wtTf
 sets: [GEM, PEN, SBL]
+codes: [GEM129, PEN178, SBL032]
 ---
 
 **Roaring Beam (yellow)** — Light Warrior Attack Reaction · cost 0 · 3 defense

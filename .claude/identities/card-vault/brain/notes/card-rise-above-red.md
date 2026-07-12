@@ -1,5 +1,5 @@
 ---
-tags: [card, rise-above, rise, above, generic, defense-reaction, pitch-1, cost-2]
+tags: [card, rise-above, rise, above, generic, defense-reaction, pitch-1, cost-2, mon257]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qPpWLgMftfnqDktRHcCWB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: qPpWLgMftfnqDktRHcCWB
 sets: [MON]
+codes: [MON257]
 ---
 
 **Rise Above (red)** — Generic Defense Reaction · cost 2 · 4 defense

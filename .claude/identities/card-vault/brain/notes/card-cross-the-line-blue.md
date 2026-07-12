@@ -1,5 +1,5 @@
 ---
-tags: [card, cross-the-line, cross, line, warrior, light, action, attack, charge, pitch-3, cost-1]
+tags: [card, cross-the-line, cross, line, warrior, light, action, attack, charge, pitch-3, cost-1, mon047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CfHfrPNdfKGhM7qJjtzQt) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: CfHfrPNdfKGhM7qJjtzQt
 sets: [MON]
+codes: [MON047]
 ---
 
 **Cross the Line (blue)** — Light Warrior Action - Attack · cost 1 · 3 power · 3 defense

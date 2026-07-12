@@ -1,5 +1,5 @@
 ---
-tags: [card, frontline-plating, frontline, plating, generic, equipment, chest, blade-break]
+tags: [card, frontline-plating, frontline, plating, generic, equipment, chest, blade-break, dtd223]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rWGNRWnzMBzgWzth9676b) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: rWGNRWnzMBzgWzth9676b
 sets: [DTD]
+codes: [DTD223]
 ---
 
 **Frontline Plating** — Generic Equipment - Chest · 2 defense

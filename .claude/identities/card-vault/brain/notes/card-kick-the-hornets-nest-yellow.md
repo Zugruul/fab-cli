@@ -1,5 +1,5 @@
 ---
-tags: [card, kick-the-hornets-nest, kick, hornets, nest, generic, action, attack, pitch-2, cost-3]
+tags: [card, kick-the-hornets-nest, kick, hornets, nest, generic, action, attack, pitch-2, cost-3, sup217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wzfdd9ktHKGhFkCKDhTWT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wzfdd9ktHKGhFkCKDhTWT
 sets: [SUP]
+codes: [SUP217]
 ---
 
 **Kick the Hornet's Nest (yellow)** — Generic Action - Attack · cost 3 · 6 power · 3 defense

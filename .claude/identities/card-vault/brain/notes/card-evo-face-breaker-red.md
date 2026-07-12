@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-face-breaker, evo, face, breaker, mechanologist, instant, equipment, arms, transform, pitch-1, cost-0]
+tags: [card, evo-face-breaker, evo, face, breaker, mechanologist, instant, equipment, arms, transform, pitch-1, cost-0, evo032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qR9dqP7WCqkzp69ctCNcp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Transform]
 unique-id: qR9dqP7WCqkzp69ctCNcp
 sets: [EVO]
+codes: [EVO032]
 ---
 
 **Evo Face Breaker (red)** — Mechanologist Instant Equipment - Evo Arms · cost 0 · 0 defense

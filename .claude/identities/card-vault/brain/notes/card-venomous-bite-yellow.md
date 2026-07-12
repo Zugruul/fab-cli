@@ -1,5 +1,5 @@
 ---
-tags: [card, venomous-bite, venomous, bite, assassin, mystic, attack-reaction, pitch-2, cost-1]
+tags: [card, venomous-bite, venomous, bite, assassin, mystic, attack-reaction, pitch-2, cost-1, mst021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wKjt69bgRQjH79KWdJGn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Mystic]
 types: [Attack Reaction]
 unique-id: 9wKjt69bgRQjH79KWdJGn
 sets: [MST]
+codes: [MST021]
 ---
 
 **Venomous Bite (yellow)** — Mystic Assassin Attack Reaction · cost 1 · 3 defense

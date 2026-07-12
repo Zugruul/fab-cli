@@ -1,5 +1,5 @@
 ---
-tags: [card, prime-the-crowd, prime, crowd, generic, action, the-crowd-cheers, the-crowd-boos, go-again, pitch-3, cost-2]
+tags: [card, prime-the-crowd, prime, crowd, generic, action, the-crowd-cheers, the-crowd-boos, go-again, pitch-3, cost-2, sup238]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8N7gGzcDDNK7d8jFGPrR6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [The Crowd Cheers, The Crowd Boos, Go again]
 unique-id: 8N7gGzcDDNK7d8jFGPrR6
 sets: [SUP]
+codes: [SUP238]
 ---
 
 **Prime the Crowd (blue)** — Generic Action · cost 2 · 2 defense

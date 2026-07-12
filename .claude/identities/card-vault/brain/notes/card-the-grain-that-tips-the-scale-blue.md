@@ -1,5 +1,5 @@
 ---
-tags: [card, the-grain-that-tips-the-scale, grain, that, tips, scale, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, the-grain-that-tips-the-scale, grain, that, tips, scale, mystic, instant, legendary, transcend, pitch-3, cost-0, lgs289, mst102, zen028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DgHLhRDccpLbjGT9nN8Jm) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: DgHLhRDccpLbjGT9nN8Jm
 sets: [LGS, MST, ZEN]
+codes: [LGS289, MST102, ZEN028]
 ---
 
 **The Grain that Tips the Scale (blue)** — Mystic Instant · cost 0

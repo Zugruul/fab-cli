@@ -1,5 +1,5 @@
 ---
-tags: [card, oath-of-oak, oath, oak, earth, action, pitch-1, cost-0]
+tags: [card, oath-of-oak, oath, oak, earth, action, pitch-1, cost-0, pen219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzjNwbBR9WMqhDD8mkBnp) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Earth]
 types: [Action]
 unique-id: dzjNwbBR9WMqhDD8mkBnp
 sets: [PEN]
+codes: [PEN219]
 ---
 
 **Oath of Oak (red)** — Earth Action · cost 0 · 2 defense

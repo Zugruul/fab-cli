@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-greaves, lightning, greaves, equipment, legs, arcane-barrier-1, battleworn, go-again]
+tags: [card, lightning-greaves, lightning, greaves, equipment, legs, arcane-barrier-1, battleworn, go-again, fab251, ros071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dpPzdRQgfkBRgcHbWMQpt) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1, Battleworn, Go again]
 unique-id: dpPzdRQgfkBRgcHbWMQpt
 sets: [FAB, ROS]
+codes: [FAB251, ROS071]
 ---
 
 **Lightning Greaves** — Lightning Equipment - Legs · 1 defense

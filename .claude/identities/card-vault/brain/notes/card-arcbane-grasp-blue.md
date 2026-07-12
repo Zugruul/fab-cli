@@ -1,5 +1,5 @@
 ---
-tags: [card, arcbane-grasp, arcbane, grasp, mechanologist, instant, equipment, evo, base, arms, arcane-barrier-1, transform, pitch-3, cost-0]
+tags: [card, arcbane-grasp, arcbane, grasp, mechanologist, instant, equipment, evo, base, arms, arcane-barrier-1, transform, pitch-3, cost-0, omn236]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zBm89zN88pdhTqkjCNzqG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Arms]
 keywords: [Arcane Barrier 1, Transform]
 unique-id: zBm89zN88pdhTqkjCNzqG
 sets: [OMN]
+codes: [OMN236]
 ---
 
 **Arcbane Grasp (blue)** — Mechanologist Instant Equipment - Evo Base Arms · cost 0 · 0 defense

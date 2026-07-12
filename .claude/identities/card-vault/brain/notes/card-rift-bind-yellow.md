@@ -1,5 +1,5 @@
 ---
-tags: [card, rift-bind, rift, bind, runeblade, shadow, action, attack, blood-debt, pitch-2, cost-1]
+tags: [card, rift-bind, rift, bind, runeblade, shadow, action, attack, blood-debt, pitch-2, cost-1, mon175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTbwfNgmD8J97RzwqhQMD) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: KTbwfNgmD8J97RzwqhQMD
 sets: [MON]
+codes: [MON175]
 ---
 
 **Rift Bind (yellow)** — Shadow Runeblade Action - Attack · cost 1 · 2 power · 3 defense

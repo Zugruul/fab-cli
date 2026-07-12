@@ -1,5 +1,5 @@
 ---
-tags: [card, the-librarian, librarian, illusionist, mentor]
+tags: [card, the-librarian, librarian, illusionist, mentor, fab043, psm002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QcgncKTnLcdGKQnwDjqdz) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ classes: [Illusionist]
 types: [Mentor]
 unique-id: QcgncKTnLcdGKQnwDjqdz
 sets: [FAB, PSM]
+codes: [FAB043, PSM002]
 ---
 
 **The Librarian** — Illusionist Mentor · 3 defense

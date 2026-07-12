@@ -1,5 +1,5 @@
 ---
-tags: [card, sisters-of-fire, sisters, fire, warrior, draconic, attack-reaction, pitch-1, cost-0]
+tags: [card, sisters-of-fire, sisters, fire, warrior, draconic, attack-reaction, pitch-1, cost-0, hnt112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hbpw6FWPgCtwPKCnW8jMQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: Hbpw6FWPgCtwPKCnW8jMQ
 sets: [HNT]
+codes: [HNT112]
 ---
 
 **Sisters of Fire (red)** — Draconic Warrior Attack Reaction · cost 0 · 3 defense

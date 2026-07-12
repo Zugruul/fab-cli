@@ -1,5 +1,5 @@
 ---
-tags: [card, visit-the-dawnsmith, visit, dawnsmith, warrior, action, aura, sharpen, pitch-3, cost-0]
+tags: [card, visit-the-dawnsmith, visit, dawnsmith, warrior, action, aura, sharpen, pitch-3, cost-0, aha026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KBJQtrMQQWfRNdRrt8wdD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Sharpen]
 unique-id: KBJQtrMQQWfRNdRrt8wdD
 sets: [AHA]
+codes: [AHA026]
 ---
 
 **Visit the Dawnsmith (blue)** — Warrior Action - Aura · cost 0 · 3 defense

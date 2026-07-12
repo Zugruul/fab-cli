@@ -1,5 +1,5 @@
 ---
-tags: [card, destructive-deliberation, destructive, deliberation, generic, action, attack, pitch-1, cost-2]
+tags: [card, destructive-deliberation, destructive, deliberation, generic, action, attack, pitch-1, cost-2, out204, uzu011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cqwf78hdKQTfgCtbkcrdL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Cqwf78hdKQTfgCtbkcrdL
 sets: [OUT, UZU]
+codes: [OUT204, UZU011]
 ---
 
 **Destructive Deliberation (red)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

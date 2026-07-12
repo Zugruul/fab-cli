@@ -1,5 +1,5 @@
 ---
-tags: [card, solray-plating, solray, plating, light, equipment, chest, blade-break]
+tags: [card, solray-plating, solray, plating, light, equipment, chest, blade-break, pen180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8PCQKGK7CgNzbdJfhrftK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: 8PCQKGK7CgNzbdJfhrftK
 sets: [PEN]
+codes: [PEN180]
 ---
 
 **Solray Plating** — Light Equipment - Chest · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, braveforge-bracers, braveforge, bracers, warrior, equipment, arms, battleworn]
+tags: [card, braveforge-bracers, braveforge, bracers, warrior, equipment, arms, battleworn, 1hp144, fab006, mpw011, wtr116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GJBb8BW9zTQ8CkGbzFqmN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: GJBb8BW9zTQ8CkGbzFqmN
 sets: [1HP, FAB, MPW, WTR]
+codes: [1HP144, FAB006, MPW011, WTR116]
 ---
 
 **Braveforge Bracers** — Warrior Equipment - Arms · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, victor-goldmane, victor, goldmane, guardian, hero, young, clash]
+tags: [card, victor-goldmane, victor, goldmane, guardian, hero, young, clash, hvy048, vic001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kHmRR6Q7mJPjQgdQJcjpQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Clash]
 unique-id: kHmRR6Q7mJPjQgdQJcjpQ
 sets: [HVY, VIC]
+codes: [HVY048, VIC001]
 ---
 
 **Victor Goldmane** — Guardian Hero - Young · 20 health · 4 int

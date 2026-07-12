@@ -1,5 +1,5 @@
 ---
-tags: [card, shock-striker, shock, striker, lightning, action, attack, pitch-2, cost-1]
+tags: [card, shock-striker, shock, striker, lightning, action, attack, pitch-2, cost-1, ele196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid THjm6N9TQgQdbdkpqJnmR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: THjm6N9TQgQdbdkpqJnmR
 sets: [ELE]
+codes: [ELE196]
 ---
 
 **Shock Striker (yellow)** — Lightning Action - Attack · cost 1 · 4 power · 2 defense

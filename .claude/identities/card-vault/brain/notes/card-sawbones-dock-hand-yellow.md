@@ -1,5 +1,5 @@
 ---
-tags: [card, sawbones-dock-hand, sawbones, dock, hand, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-2]
+tags: [card, sawbones-dock-hand, sawbones, dock, hand, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-2, agb019, sea264]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q8R69DNJCThNGkddBPW6k) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: Q8R69DNJCThNGkddBPW6k
 sets: [AGB, SEA]
+codes: [AGB019, SEA264]
 ---
 
 **Sawbones, Dock Hand (yellow)** — Pirate Necromancer Action - Ally · cost 2 · 6 power · 2 health

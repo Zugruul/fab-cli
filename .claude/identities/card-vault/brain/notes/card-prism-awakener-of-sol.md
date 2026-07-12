@@ -1,5 +1,5 @@
 ---
-tags: [card, prism-awakener-of-sol, prism, awakener, sol, illusionist, light, hero, adult]
+tags: [card, prism-awakener-of-sol, prism, awakener, sol, illusionist, light, hero, adult, dtd001, gem069, her086, her111, win023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrQcdHwPDPTt8PWTdNLqk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Hero]
 unique-id: jrQcdHwPDPTt8PWTdNLqk
 sets: [DTD, GEM, HER, WIN]
+codes: [DTD001, GEM069, HER086, HER111, WIN023]
 ---
 
 **Prism, Awakener of Sol** — Light Illusionist Hero · 32 health · 4 int

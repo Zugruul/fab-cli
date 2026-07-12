@@ -1,5 +1,5 @@
 ---
-tags: [card, overcharge, lightning, action, attack, go-again, pitch-1, cost-1]
+tags: [card, overcharge, lightning, action, attack, go-again, pitch-1, cost-1, pen243]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WLw6Ft6qgMDH7fwMpNdWR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: WLw6Ft6qgMDH7fwMpNdWR
 sets: [PEN]
+codes: [PEN243]
 ---
 
 **Overcharge (red)** — Lightning Action - Attack · cost 1 · 1 power · 3 defense

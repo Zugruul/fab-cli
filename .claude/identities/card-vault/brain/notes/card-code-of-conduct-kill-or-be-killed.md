@@ -1,5 +1,5 @@
 ---
-tags: [card, code-of-conduct-kill-or-be-killed, code, conduct, kill, or, be, killed, event]
+tags: [card, code-of-conduct-kill-or-be-killed, code, conduct, kill, or, be, killed, event, smp010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9f8tgdNwfwg7bhkkDLdPK) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Code of Conduct: Kill or Be Killed"
 types: [Event]
 unique-id: 9f8tgdNwfwg7bhkkDLdPK
 sets: [SMP]
+codes: [SMP010]
 ---
 
 **Code of Conduct: Kill or Be Killed** — Event

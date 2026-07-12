@@ -1,5 +1,5 @@
 ---
-tags: [card, man-overboard, man, overboard, pirate, necromancer, action, attack, go-again, pitch-3, cost-0]
+tags: [card, man-overboard, man, overboard, pirate, necromancer, action, attack, go-again, pitch-3, cost-0, pen161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPjK8RMLkQcp7BDrTLfpc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wPjK8RMLkQcp7BDrTLfpc
 sets: [PEN]
+codes: [PEN161]
 ---
 
 **Man Overboard (blue)** — Pirate Necromancer Action - Attack · cost 0 · 1 power · 3 defense

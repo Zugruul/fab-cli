@@ -1,5 +1,5 @@
 ---
-tags: [card, prismatic-lens, prismatic, lens, mechanologist, action, item, crank, pitch-2, cost-1]
+tags: [card, prismatic-lens, prismatic, lens, mechanologist, action, item, crank, pitch-2, cost-1, evo071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WtGmJPqkJc7nWGRBCFwww) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: WtGmJPqkJc7nWGRBCFwww
 sets: [EVO]
+codes: [EVO071]
 ---
 
 **Prismatic Lens (yellow)** — Mechanologist Action - Item · cost 1

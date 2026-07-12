@@ -1,5 +1,5 @@
 ---
-tags: [card, clap-em-in-irons, clap, em, irons, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, clap-em-in-irons, clap, em, irons, generic, action, item, go-again, pitch-3, cost-0, sea209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rz7gTL7CQrDCtn9n87jGK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: Rz7gTL7CQrDCtn9n87jGK
 sets: [SEA]
+codes: [SEA209]
 ---
 
 **Clap 'Em in Irons (blue)** — Generic Action - Item · cost 0

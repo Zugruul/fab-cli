@@ -1,5 +1,5 @@
 ---
-tags: [card, shitty-xmas-present, shitty, xmas, present, generic, action, pitch-2, cost-0]
+tags: [card, shitty-xmas-present, shitty, xmas, present, generic, action, pitch-2, cost-0, lgs099]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WDJgQgDCwjbKRTJ8BTz8C) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Action]
 unique-id: WDJgQgDCwjbKRTJ8BTz8C
 sets: [LGS]
+codes: [LGS099]
 ---
 
 **Shitty Xmas Present (yellow)** — Generic Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-solitude, sigil, solitude, illusionist, action, aura, ward-2, pitch-3, cost-0]
+tags: [card, sigil-of-solitude, sigil, solitude, illusionist, action, aura, ward-2, pitch-3, cost-0, mst145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7kLtC7NJPccD6nD9MRBkw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: 7kLtC7NJPccD6nD9MRBkw
 sets: [MST]
+codes: [MST145]
 ---
 
 **Sigil of Solitude (blue)** — Illusionist Action - Aura · cost 0 · 2 defense

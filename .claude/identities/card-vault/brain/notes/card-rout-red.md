@@ -1,5 +1,5 @@
 ---
-tags: [card, rout, warrior, attack-reaction, reprise, pitch-1, cost-2]
+tags: [card, rout, warrior, attack-reaction, reprise, pitch-1, cost-2, 1hp148, wtr120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKGT9RtDz7RGgtLWKkhgJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: gKGT9RtDz7RGgtLWKkhgJ
 sets: [1HP, WTR]
+codes: [1HP148, WTR120]
 ---
 
 **Rout (red)** — Warrior Attack Reaction · cost 2 · 3 defense

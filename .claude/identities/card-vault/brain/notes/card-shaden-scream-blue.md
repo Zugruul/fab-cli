@@ -1,5 +1,5 @@
 ---
-tags: [card, shaden-scream, shaden, scream, brute, shadow, action, go-again, pitch-3, cost-0]
+tags: [card, shaden-scream, shaden, scream, brute, shadow, action, go-again, pitch-3, cost-0, dtd120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WgNzKLhLbwpCnMTmLWkhf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: WgNzKLhLbwpCnMTmLWkhf
 sets: [DTD]
+codes: [DTD120]
 ---
 
 **Shaden Scream (blue)** — Shadow Brute Action · cost 0 · 3 defense

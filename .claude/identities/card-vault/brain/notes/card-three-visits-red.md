@@ -1,5 +1,5 @@
 ---
-tags: [card, three-visits, three, visits, illusionist, mystic, instant, aura, ward-x, pitch-1, cost-3]
+tags: [card, three-visits, three, visits, illusionist, mystic, instant, aura, ward-x, pitch-1, cost-3, mst033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJbhLJjdgzzQg7rtmnP9k) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward X]
 unique-id: dJbhLJjdgzzQg7rtmnP9k
 sets: [MST]
+codes: [MST033]
 ---
 
 **Three Visits (red)** — Mystic Illusionist Instant - Aura · cost 3

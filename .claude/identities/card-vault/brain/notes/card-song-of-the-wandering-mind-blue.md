@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-the-wandering-mind, song, wandering, mind, bard, action, pitch-3, cost-0]
+tags: [card, song-of-the-wandering-mind, song, wandering, mind, bard, action, pitch-3, cost-0, lgs221, tcc068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mdMHPhNzNwbQnHLrgLccp) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Song]
 unique-id: mdMHPhNzNwbQnHLrgLccp
 sets: [LGS, TCC]
+codes: [LGS221, TCC068]
 ---
 
 **Song of the Wandering Mind (blue)** — Bard Action - Song · cost 0 · 3 defense

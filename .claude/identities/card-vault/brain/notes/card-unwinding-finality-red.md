@@ -1,5 +1,5 @@
 ---
-tags: [card, unwinding-finality, unwinding, finality, illusionist, lightning, action, attack, fragment, pitch-1, cost-0]
+tags: [card, unwinding-finality, unwinding, finality, illusionist, lightning, action, attack, fragment, pitch-1, cost-0, omn004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QGcNgm9FQLDfT8LtBcGB7) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: QGcNgm9FQLDfT8LtBcGB7
 sets: [OMN]
+codes: [OMN004]
 ---
 
 **Unwinding Finality (red)** — Lightning Illusionist Action - Attack · cost 0 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shining-courage, shining, courage, instant, revered, the-crowd-cheers, pitch-1, cost-0]
+tags: [card, shining-courage, shining, courage, instant, revered, the-crowd-cheers, pitch-1, cost-0, gem090, sup034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FngCwjRtgtcHbcNJnPmJM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: FngCwjRtgtcHbcNJnPmJM
 sets: [GEM, SUP]
+codes: [GEM090, SUP034]
 ---
 
 **Shining Courage (red)** — Revered Instant · cost 0

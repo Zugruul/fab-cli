@@ -1,5 +1,5 @@
 ---
-tags: [card, meet-madness, meet, madness, assassin, chaos, action, attack, stealth, pitch-1, cost-0]
+tags: [card, meet-madness, meet, madness, assassin, chaos, action, attack, stealth, pitch-1, cost-0, aac014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GmnHWfMKzgJgpWKhQBmrM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: GmnHWfMKzgJgpWKhQBmrM
 sets: [AAC]
+codes: [AAC014]
 ---
 
 **Meet Madness (red)** — Chaos Assassin Action - Attack · cost 0 · 3 power · 3 defense

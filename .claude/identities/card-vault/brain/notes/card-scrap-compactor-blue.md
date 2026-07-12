@@ -1,5 +1,5 @@
 ---
-tags: [card, scrap-compactor, scrap, compactor, mechanologist, action, attack, pitch-3, cost-0]
+tags: [card, scrap-compactor, scrap, compactor, mechanologist, action, attack, pitch-3, cost-0, evo131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KQpFGWBFTN6kKBFwGCwqK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap]
 unique-id: KQpFGWBFTN6kKBFwGCwqK
 sets: [EVO]
+codes: [EVO131]
 ---
 
 **Scrap Compactor (blue)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

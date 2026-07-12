@@ -1,5 +1,5 @@
 ---
-tags: [card, zen, ninja, mystic, hero, young]
+tags: [card, zen, ninja, mystic, hero, young, mst047, zen001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7FHM67fkfjCjzwWzKfFKH) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Hero]
 unique-id: 7FHM67fkfjCjzwWzKfFKH
 sets: [MST, ZEN]
+codes: [MST047, ZEN001]
 ---
 
 **Zen** — Mystic Ninja Hero - Young · 20 health · 4 int

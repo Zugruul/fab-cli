@@ -1,5 +1,5 @@
 ---
-tags: [card, temporal-wobble, temporal, wobble, wizard, instant, negate, pitch-1, cost-0]
+tags: [card, temporal-wobble, temporal, wobble, wizard, instant, negate, pitch-1, cost-0, pen112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lw6p6ntgdBwB7tDPJtDjG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Negate]
 unique-id: Lw6p6ntgdBwB7tDPJtDjG
 sets: [PEN]
+codes: [PEN112]
 ---
 
 **Temporal Wobble (red)** — Wizard Instant · cost 0

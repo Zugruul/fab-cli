@@ -1,5 +1,5 @@
 ---
-tags: [card, gentle-breeze, gentle, breeze, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, gentle-breeze, gentle, breeze, ninja, action, attack, go-again, pitch-1, cost-0, pen034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TkhWN8KJQzTkHQkjMwpgh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: TkhWN8KJQzTkHQkjMwpgh
 sets: [PEN]
+codes: [PEN034]
 ---
 
 **Gentle Breeze (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

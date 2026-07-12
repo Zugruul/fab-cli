@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-qi, blessing, qi, ninja, action, aura, pitch-1, cost-1]
+tags: [card, blessing-of-qi, blessing, qi, ninja, action, aura, pitch-1, cost-1, dyn053, mst170, tcc091]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TjwzWpWmkqtGd6WhLCmwN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: TjwzWpWmkqtGd6WhLCmwN
 sets: [DYN, MST, TCC]
+codes: [DYN053, MST170, TCC091]
 ---
 
 **Blessing of Qi (red)** — Ninja Action - Aura · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-the-swarming-claw, mask, swarming, claw, ninja, equipment, head, arcane-barrier-1, spellvoid-x]
+tags: [card, mask-of-the-swarming-claw, mask, swarming, claw, ninja, equipment, head, arcane-barrier-1, spellvoid-x, pen030, sfa005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g87mMPgfPPFTprgJCCkrQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1, Spellvoid X]
 unique-id: g87mMPgfPPFTprgJCCkrQ
 sets: [PEN, SFA]
+codes: [PEN030, SFA005]
 ---
 
 **Mask of the Swarming Claw** — Ninja Equipment - Head · 0 defense

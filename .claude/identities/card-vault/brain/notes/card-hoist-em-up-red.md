@@ -1,5 +1,5 @@
 ---
-tags: [card, hoist-em-up, hoist, em, up, pirate, necromancer, block, pitch-1]
+tags: [card, hoist-em-up, hoist, em, up, pirate, necromancer, block, pitch-1, fab349, sea055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rLgf6HdKBBDFTcJrkwgtT) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Pirate, Necromancer]
 types: [Block]
 unique-id: rLgf6HdKBBDFTcJrkwgtT
 sets: [FAB, SEA]
+codes: [FAB349, SEA055]
 ---
 
 **Hoist 'Em Up (red)** — Pirate Necromancer Block · 4 defense

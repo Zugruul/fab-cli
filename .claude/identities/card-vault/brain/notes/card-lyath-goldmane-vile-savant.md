@@ -1,5 +1,5 @@
 ---
-tags: [card, lyath-goldmane-vile-savant, lyath, goldmane, vile, savant, guardian, hero, reviled, adult]
+tags: [card, lyath-goldmane-vile-savant, lyath, goldmane, vile, savant, guardian, hero, reviled, adult, her149, sup071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MgKprw8PQjNKC7JDmppHh) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Reviled]
 unique-id: MgKprw8PQjNKC7JDmppHh
 sets: [HER, SUP]
+codes: [HER149, SUP071]
 ---
 
 **Lyath Goldmane, Vile Savant** — Reviled Guardian Hero · 40 health · 5 int

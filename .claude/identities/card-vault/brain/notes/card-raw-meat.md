@@ -1,5 +1,5 @@
 ---
-tags: [card, raw-meat, raw, meat, brute, equipment, chest, temper]
+tags: [card, raw-meat, raw, meat, brute, equipment, chest, temper, hvy011, kyo004, rhi005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mgcdBrjHkNTmKKjwnJKF9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: mgcdBrjHkNTmKKjwnJKF9
 sets: [HVY, KYO, RHI]
+codes: [HVY011, KYO004, RHI005]
 ---
 
 **Raw Meat** — Brute Equipment - Chest · 0 defense

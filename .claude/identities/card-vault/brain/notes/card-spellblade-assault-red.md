@@ -1,5 +1,5 @@
 ---
-tags: [card, spellblade-assault, spellblade, assault, runeblade, action, attack, pitch-1, cost-2]
+tags: [card, spellblade-assault, spellblade, assault, runeblade, action, attack, pitch-1, cost-2, 1hp270, arc085, svi017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QnWbfrP7C7ttrrWgtbMcp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: QnWbfrP7C7ttrrWgtbMcp
 sets: [1HP, ARC, SVI]
+codes: [1HP270, ARC085, SVI017]
 ---
 
 **Spellblade Assault (red)** — Runeblade Action - Attack · cost 2 · 4 power · 3 defense

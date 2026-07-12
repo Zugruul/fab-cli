@@ -1,5 +1,5 @@
 ---
-tags: [card, dromai, illusionist, draconic, hero, young, go-again]
+tags: [card, dromai, illusionist, draconic, hero, young, go-again, dro001, her062, pen347, upr002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Dz6FcRBNMFdBt9fJPMB7d) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: Dz6FcRBNMFdBt9fJPMB7d
 sets: [DRO, HER, PEN, UPR]
+codes: [DRO001, HER062, PEN347, UPR002]
 ---
 
 **Dromai** — Draconic Illusionist Hero - Young · 20 health · 4 int

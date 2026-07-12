@@ -1,5 +1,5 @@
 ---
-tags: [card, cast-bones, cast, bones, brute, action, pitch-1, cost-0]
+tags: [card, cast-bones, cast, bones, brute, action, pitch-1, cost-0, hvy014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6KQdhWqcGdhFgmRzwBrnh) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Brute]
 types: [Action]
 unique-id: 6KQdhWqcGdhFgmRzwBrnh
 sets: [HVY]
+codes: [HVY014]
 ---
 
 **Cast Bones (red)** — Brute Action · cost 0 · 3 defense

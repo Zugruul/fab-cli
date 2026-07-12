@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-the-dragon-blood, art, dragon, blood, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, art-of-the-dragon-blood, art, dragon, blood, ninja, action, attack, go-again, pitch-1, cost-0, fab307, hnt071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GpCFNqmnBGdcrgqPHQMGC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: GpCFNqmnBGdcrgqPHQMGC
 sets: [FAB, HNT]
+codes: [FAB307, HNT071]
 ---
 
 **Art of the Dragon: Blood (red)** — Ninja Action - Attack · cost 0 · 4 power · 3 defense

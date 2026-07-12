@@ -1,5 +1,5 @@
 ---
-tags: [card, tick-tock-clock, tick, tock, clock, mechanologist, action, item, crank, pitch-1, cost-0]
+tags: [card, tick-tock-clock, tick, tock, clock, mechanologist, action, item, crank, pitch-1, cost-0, evo074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hhfqThRH8RttBMmDMr7H6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: hhfqThRH8RttBMmDMr7H6
 sets: [EVO]
+codes: [EVO074]
 ---
 
 **Tick Tock Clock (red)** — Mechanologist Action - Item · cost 0

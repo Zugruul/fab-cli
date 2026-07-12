@@ -1,5 +1,5 @@
 ---
-tags: [card, clench-the-upper-hand, clench, upper, hand, action, attack, reviled, the-crowd-boos, pitch-2, cost-0]
+tags: [card, clench-the-upper-hand, clench, upper, hand, action, attack, reviled, the-crowd-boos, pitch-2, cost-0, sup102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtrtdmqhkkjnQNNk7kFr8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [The Crowd Boos]
 unique-id: mtrtdmqhkkjnQNNk7kFr8
 sets: [SUP]
+codes: [SUP102]
 ---
 
 **Clench the Upper Hand (yellow)** — Reviled Action - Attack · cost 0 · 3 power · 2 defense

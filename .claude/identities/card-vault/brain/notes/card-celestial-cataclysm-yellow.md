@@ -1,5 +1,5 @@
 ---
-tags: [card, celestial-cataclysm, celestial, cataclysm, light, action, attack, go-again, pitch-2, cost-0]
+tags: [card, celestial-cataclysm, celestial, cataclysm, light, action, attack, go-again, pitch-2, cost-0, apr010, mon062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLBLjtFb8gPjJLmTPL9j9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: RLBLjtFb8gPjJLmTPL9j9
 sets: [APR, MON]
+codes: [APR010, MON062]
 ---
 
 **Celestial Cataclysm (yellow)** — Light Action - Attack · cost 0 · 7 power · 3 defense

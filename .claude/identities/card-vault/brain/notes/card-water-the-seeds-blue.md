@@ -1,5 +1,5 @@
 ---
-tags: [card, water-the-seeds, water, seeds, generic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, water-the-seeds, water, seeds, generic, action, attack, go-again, pitch-3, cost-1, mst214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q6NPtH8N8MJcmBc9pkpHL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: Q6NPtH8N8MJcmBc9pkpHL
 sets: [MST]
+codes: [MST214]
 ---
 
 **Water the Seeds (blue)** — Generic Action - Attack · cost 1 · 1 power · 2 defense

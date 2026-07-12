@@ -1,5 +1,5 @@
 ---
-tags: [card, doubling-season, doubling, season, earth, action, attack, pitch-1, cost-3]
+tags: [card, doubling-season, doubling, season, earth, action, attack, pitch-1, cost-3, gem133, pen218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NN9HKRrHF7JDFfnmdRJ6D) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: NN9HKRrHF7JDFfnmdRJ6D
 sets: [GEM, PEN]
+codes: [GEM133, PEN218]
 ---
 
 **Doubling Season (red)** — Earth Action - Attack · cost 3 · 0 power · 3 defense

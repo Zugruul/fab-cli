@@ -1,5 +1,5 @@
 ---
-tags: [card, blue-sea-tricorn, blue, sea, tricorn, pirate, equipment, head, blade-break]
+tags: [card, blue-sea-tricorn, blue, sea, tricorn, pirate, equipment, head, blade-break, lgs392, sea126]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8TbK6kFJcDtRjqwNzBbmp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: 8TbK6kFJcDtRjqwNzBbmp
 sets: [LGS, SEA]
+codes: [LGS392, SEA126]
 ---
 
 **Blue Sea Tricorn** — Pirate Equipment - Head · 1 defense

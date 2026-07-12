@@ -1,5 +1,5 @@
 ---
-tags: [card, deep-blue-sea, deep, blue, sea, mystic, action, attack, pitch-3, cost-4]
+tags: [card, deep-blue-sea, deep, blue, sea, mystic, action, attack, pitch-3, cost-4, fab240, mst084, nuu018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rkfqjFKJHdtqRLKJwgQNG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rkfqjFKJHdtqRLKJwgQNG
 sets: [FAB, MST, NUU]
+codes: [FAB240, MST084, NUU018]
 ---
 
 **Deep Blue Sea (blue)** — Mystic Action - Attack · cost 4 · 5 power · 2 defense

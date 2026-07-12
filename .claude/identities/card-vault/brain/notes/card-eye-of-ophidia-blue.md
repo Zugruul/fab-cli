@@ -1,5 +1,5 @@
 ---
-tags: [card, eye-of-ophidia, eye, ophidia, generic, resource, gem, legendary, opt-2, pitch-3]
+tags: [card, eye-of-ophidia, eye, ophidia, generic, resource, gem, legendary, opt-2, pitch-3, anq002, arc000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N77hdGp96fNQnzc79hqN9) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary, Opt 2]
 unique-id: N77hdGp96fNQnzc79hqN9
 sets: [ANQ, ARC]
+codes: [ANQ002, ARC000]
 ---
 
 **Eye of Ophidia (blue)** — Generic Resource - Gem

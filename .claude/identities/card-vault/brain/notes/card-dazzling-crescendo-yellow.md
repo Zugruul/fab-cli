@@ -1,5 +1,5 @@
 ---
-tags: [card, dazzling-crescendo, dazzling, crescendo, ranger, elemental, action, arrow, attack, lightning-fusion, go-again, pitch-2, cost-0]
+tags: [card, dazzling-crescendo, dazzling, crescendo, ranger, elemental, action, arrow, attack, lightning-fusion, go-again, pitch-2, cost-0, ele054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPftqbndp9fTd67GqNhzM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Lightning Fusion, Go again]
 unique-id: KPftqbndp9fTd67GqNhzM
 sets: [ELE]
+codes: [ELE054]
 ---
 
 **Dazzling Crescendo (yellow)** — Elemental Ranger Action - Arrow Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, titans-fist, titans, fist, guardian, weapon, hammer, 1h]
+tags: [card, titans-fist, titans, fist, guardian, weapon, hammer, 1h, ele202, lgs066, old002, sbr003, sly002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cTRhTc7kkHWQrwpRgtrM9) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Hammer, 1H]
 unique-id: cTRhTc7kkHWQrwpRgtrM9
 sets: [ELE, LGS, OLD, SBR, SLY]
+codes: [ELE202, LGS066, OLD002, SBR003, SLY002]
 ---
 
 **Titan's Fist** — Guardian Weapon - Hammer (1H) · 3 power

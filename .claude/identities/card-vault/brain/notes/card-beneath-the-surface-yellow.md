@@ -1,5 +1,5 @@
 ---
-tags: [card, beneath-the-surface, beneath, surface, pirate, necromancer, defense-reaction, watery-grave, pitch-2, cost-2]
+tags: [card, beneath-the-surface, beneath, surface, pirate, necromancer, defense-reaction, watery-grave, pitch-2, cost-2, gem167, pen158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h9LPFJG86fdMPQmqwWNQw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Watery Grave]
 unique-id: h9LPFJG86fdMPQmqwWNQw
 sets: [GEM, PEN]
+codes: [GEM167, PEN158]
 ---
 
 **Beneath the Surface (yellow)** — Pirate Necromancer Defense Reaction · cost 2 · 5 defense

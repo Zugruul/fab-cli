@@ -1,5 +1,5 @@
 ---
-tags: [card, leave-no-witnesses, leave, no, witnesses, assassin, action, attack, contract, pitch-1, cost-0]
+tags: [card, leave-no-witnesses, leave, no, witnesses, assassin, action, attack, contract, pitch-1, cost-0, dyn120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zWjNwt6zMt9hMq9TDKJWp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: zWjNwt6zMt9hMq9TDKJWp
 sets: [DYN]
+codes: [DYN120]
 ---
 
 **Leave No Witnesses (red)** — Assassin Action - Attack · cost 0 · 4 power · 3 defense

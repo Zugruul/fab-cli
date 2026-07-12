@@ -1,5 +1,5 @@
 ---
-tags: [card, raging-onslaught, raging, onslaught, generic, action, attack, pitch-1, cost-3]
+tags: [card, raging-onslaught, raging, onslaught, generic, action, attack, pitch-1, cost-3, wtr188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6C9QJwPPMFCtRjjTmFq7z) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 6C9QJwPPMFCtRjjTmFq7z
 sets: [WTR]
+codes: [WTR188]
 ---
 
 **Raging Onslaught (red)** — Generic Action - Attack · cost 3 · 7 power · 3 defense

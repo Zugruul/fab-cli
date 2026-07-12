@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-themis, blessing, themis, light, action, aura, go-again, pitch-2, cost-0]
+tags: [card, blessing-of-themis, blessing, themis, light, action, aura, go-again, pitch-2, cost-0, pen182]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dbBBGHkdzwBz9QBG8MzHh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: dbBBGHkdzwBz9QBG8MzHh
 sets: [PEN]
+codes: [PEN182]
 ---
 
 **Blessing of Themis (yellow)** — Light Action - Aura · cost 0 · 3 defense

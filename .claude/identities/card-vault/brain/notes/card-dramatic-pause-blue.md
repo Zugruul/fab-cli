@@ -1,5 +1,5 @@
 ---
-tags: [card, dramatic-pause, dramatic, pause, guardian, instant, aura, suspense, pitch-3, cost-0]
+tags: [card, dramatic-pause, dramatic, pause, guardian, instant, aura, suspense, pitch-3, cost-0, sup200]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pQNwNwRMwLPkfq96NB7GP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: pQNwNwRMwLPkfq96NB7GP
 sets: [SUP]
+codes: [SUP200]
 ---
 
 **Dramatic Pause (blue)** — Guardian Instant - Aura · cost 0

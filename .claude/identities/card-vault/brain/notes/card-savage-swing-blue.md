@@ -1,5 +1,5 @@
 ---
-tags: [card, savage-swing, savage, swing, brute, action, attack, pitch-3, cost-1]
+tags: [card, savage-swing, savage, swing, brute, action, attack, pitch-3, cost-1, 1hp033, wtr022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7zdfJDbhwjMnMNqkDJ9Qb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 7zdfJDbhwjMnMNqkDJ9Qb
 sets: [1HP, WTR]
+codes: [1HP033, WTR022]
 ---
 
 **Savage Swing (blue)** — Brute Action - Attack · cost 1 · 5 power · 3 defense

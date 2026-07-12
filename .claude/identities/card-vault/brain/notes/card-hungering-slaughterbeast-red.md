@@ -1,5 +1,5 @@
 ---
-tags: [card, hungering-slaughterbeast, hungering, slaughterbeast, brute, shadow, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, hungering-slaughterbeast, hungering, slaughterbeast, brute, shadow, action, attack, blood-debt, pitch-1, cost-2, lev014, mon147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NPGdfQqhRB8krzLLHpzDC) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: NPGdfQqhRB8krzLLHpzDC
 sets: [LEV, MON]
+codes: [LEV014, MON147]
 ---
 
 **Hungering Slaughterbeast (red)** — Shadow Brute Action - Attack · cost 2 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tranquil-passing, tranquil, passing, illusionist, action, aura, ward-1, pitch-1, cost-1]
+tags: [card, tranquil-passing, tranquil, passing, illusionist, action, aura, ward-1, pitch-1, cost-1, dyn221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JqKMJnbpL76gbCMHj7JPt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: JqKMJnbpL76gbCMHj7JPt
 sets: [DYN]
+codes: [DYN221]
 ---
 
 **Tranquil Passing (red)** — Illusionist Action - Aura · cost 1 · 2 defense

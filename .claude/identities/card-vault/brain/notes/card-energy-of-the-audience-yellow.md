@@ -1,5 +1,5 @@
 ---
-tags: [card, energy-of-the-audience, energy, audience, guardian, action, attack, revered, pitch-2, cost-3]
+tags: [card, energy-of-the-audience, energy, audience, guardian, action, attack, revered, pitch-2, cost-3, gem159, pen286]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid phNWtHpDC6BQhhbKT79HT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: phNWtHpDC6BQhhbKT79HT
 sets: [GEM, PEN]
+codes: [GEM159, PEN286]
 ---
 
 **Energy of the Audience (yellow)** — Revered Guardian Action - Attack · cost 3 · 6 power · 3 defense

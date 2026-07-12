@@ -1,5 +1,5 @@
 ---
-tags: [card, smash-instinct, smash, instinct, brute, action, attack, intimidate, pitch-1, cost-3]
+tags: [card, smash-instinct, smash, instinct, brute, action, attack, intimidate, pitch-1, cost-3, 1hp034, rnr012, wtr026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WNp6DbGwLqPchCNDmGq66) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Intimidate]
 unique-id: WNp6DbGwLqPchCNDmGq66
 sets: [1HP, RNR, WTR]
+codes: [1HP034, RNR012, WTR026]
 ---
 
 **Smash Instinct (red)** — Brute Action - Attack · cost 3 · 7 power · 3 defense

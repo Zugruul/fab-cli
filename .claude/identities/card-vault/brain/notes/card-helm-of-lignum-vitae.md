@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-lignum-vitae, helm, lignum, vitae, earth, equipment, head, blade-break]
+tags: [card, helm-of-lignum-vitae, helm, lignum, vitae, earth, equipment, head, blade-break, flr003, lgs312, ros029, ver003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7gkkzWWDprGtBpfq8QPWC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: 7gkkzWWDprGtBpfq8QPWC
 sets: [FLR, LGS, ROS, VER]
+codes: [FLR003, LGS312, ROS029, VER003]
 ---
 
 **Helm of Lignum Vitae** — Earth Equipment - Head · 1 defense

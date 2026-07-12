@@ -1,5 +1,5 @@
 ---
-tags: [card, malefic-incantation, malefic, incantation, runeblade, action, aura, go-again, pitch-3, cost-0]
+tags: [card, malefic-incantation, malefic, incantation, runeblade, action, aura, go-again, pitch-3, cost-0, ros132]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9GqP669FDfnpMzmL7t7JW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: 9GqP669FDfnpMzmL7t7JW
 sets: [ROS]
+codes: [ROS132]
 ---
 
 **Malefic Incantation (blue)** — Runeblade Action - Aura · cost 0 · 2 defense

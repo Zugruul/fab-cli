@@ -1,5 +1,5 @@
 ---
-tags: [card, good-time-chapeau, good, time, chapeau, guardian, equipment, head, betsy-specialization, temper, wager]
+tags: [card, good-time-chapeau, good, time, chapeau, guardian, equipment, head, betsy-specialization, temper, wager, bet004, hvy055, lgs234, lgs248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JJqgR7zTPJmjWNtnFdQ88) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Betsy Specialization, Temper, Wager]
 unique-id: JJqgR7zTPJmjWNtnFdQ88
 sets: [BET, HVY, LGS]
+codes: [BET004, HVY055, LGS234, LGS248]
 ---
 
 **Good Time Chapeau** — Guardian Equipment - Head · 2 defense

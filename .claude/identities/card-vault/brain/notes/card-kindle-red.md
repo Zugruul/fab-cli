@@ -1,5 +1,5 @@
 ---
-tags: [card, kindle, wizard, instant, amp-1, pitch-1, cost-0]
+tags: [card, kindle, wizard, instant, amp-1, pitch-1, cost-0, mst234]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jGBBjz7wKwnLPrnMBRBht) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Amp 1]
 unique-id: jGBBjz7wKwnLPrnMBRBht
 sets: [MST]
+codes: [MST234]
 ---
 
 **Kindle (red)** — Wizard Instant · cost 0

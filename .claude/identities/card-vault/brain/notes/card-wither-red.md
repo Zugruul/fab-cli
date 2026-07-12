@@ -1,5 +1,5 @@
 ---
-tags: [card, wither, assassin, action, attack, stealth, pitch-1, cost-0]
+tags: [card, wither, assassin, action, attack, stealth, pitch-1, cost-0, ara013, out039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gr8bpnbjFntzpQjWk9DTh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: gr8bpnbjFntzpQjWk9DTh
 sets: [ARA, OUT]
+codes: [ARA013, OUT039]
 ---
 
 **Wither (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

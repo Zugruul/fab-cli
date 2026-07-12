@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanic-reproach, arcanic, reproach, runeblade, lightning, instant, aura, pitch-3, cost-0]
+tags: [card, arcanic-reproach, arcanic, reproach, runeblade, lightning, instant, aura, pitch-3, cost-0, omn052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jm9pR68kPHDjmkLRcJq9p) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: jm9pR68kPHDjmkLRcJq9p
 sets: [OMN]
+codes: [OMN052]
 ---
 
 **Arcanic Reproach (blue)** — Lightning Runeblade Instant - Aura · cost 0 · 3 defense

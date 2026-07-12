@@ -1,5 +1,5 @@
 ---
-tags: [card, sting-of-sorcery, sting, sorcery, runeblade, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sting-of-sorcery, sting, sorcery, runeblade, action, aura, go-again, pitch-3, cost-0, ele226]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cqMtqGpkpQKD6bPB8pT9N) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: cqMtqGpkpQKD6bPB8pT9N
 sets: [ELE]
+codes: [ELE226]
 ---
 
 **Sting of Sorcery (blue)** — Runeblade Action - Aura · cost 0 · 2 defense

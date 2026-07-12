@@ -1,5 +1,5 @@
 ---
-tags: [card, humble, generic, action, attack, pitch-1, cost-2]
+tags: [card, humble, generic, action, attack, pitch-1, cost-2, ako009, out189, uzu012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ck8jCNWQmgKkcmD98bdjG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Ck8jCNWQmgKkcmD98bdjG
 sets: [AKO, OUT, UZU]
+codes: [AKO009, OUT189, UZU012]
 ---
 
 **Humble (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

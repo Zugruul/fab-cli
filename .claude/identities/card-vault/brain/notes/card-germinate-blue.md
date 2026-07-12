@@ -1,5 +1,5 @@
 ---
-tags: [card, germinate, runeblade, earth, action, florian-specialization, pitch-3]
+tags: [card, germinate, runeblade, earth, action, florian-specialization, pitch-3, fab267, ros004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid drgrrjBH9rz9k67qc6WnF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Florian Specialization]
 unique-id: drgrrjBH9rz9k67qc6WnF
 sets: [FAB, ROS]
+codes: [FAB267, ROS004]
 ---
 
 **Germinate (blue)** — Earth Runeblade Action · cost XX · 3 defense

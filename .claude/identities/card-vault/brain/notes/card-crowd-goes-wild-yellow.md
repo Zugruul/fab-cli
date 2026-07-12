@@ -1,5 +1,5 @@
 ---
-tags: [card, crowd-goes-wild, crowd, goes, wild, action, attack, revered, pitch-2, cost-3]
+tags: [card, crowd-goes-wild, crowd, goes, wild, action, attack, revered, pitch-2, cost-3, fab376, sup019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HF9r7w6kkD9C7Qddqn8kR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: HF9r7w6kkD9C7Qddqn8kR
 sets: [FAB, SUP]
+codes: [FAB376, SUP019]
 ---
 
 **Crowd Goes Wild (yellow)** — Revered Action - Attack · cost 3 · 6 power · 3 defense

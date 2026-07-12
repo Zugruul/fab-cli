@@ -1,5 +1,5 @@
 ---
-tags: [card, succumb-to-temptation, succumb, temptation, runeblade, action, go-again, pitch-2, cost-0]
+tags: [card, succumb-to-temptation, succumb, temptation, runeblade, action, go-again, pitch-2, cost-0, ros119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CNNCgwHGzCBKNMHCWhdTR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: CNNCgwHGzCBKNMHCWhdTR
 sets: [ROS]
+codes: [ROS119]
 ---
 
 **Succumb to Temptation (yellow)** — Runeblade Action · cost 0 · 3 defense

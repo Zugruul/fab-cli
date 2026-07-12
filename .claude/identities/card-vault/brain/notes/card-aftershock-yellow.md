@@ -1,5 +1,5 @@
 ---
-tags: [card, aftershock, guardian, action, attack, pitch-2, cost-4]
+tags: [card, aftershock, guardian, action, attack, pitch-2, cost-4, mpg036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qjmwqndpkqntDpKCcTcbp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: qjmwqndpkqntDpKCcTcbp
 sets: [MPG]
+codes: [MPG036]
 ---
 
 **Aftershock (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

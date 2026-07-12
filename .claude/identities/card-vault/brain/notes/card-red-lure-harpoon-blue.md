@@ -1,5 +1,5 @@
 ---
-tags: [card, red-lure-harpoon, red, lure, harpoon, pirate, ranger, action, arrow, attack, pitch-3, cost-2]
+tags: [card, red-lure-harpoon, red, lure, harpoon, pirate, ranger, action, arrow, attack, pitch-3, cost-2, omn241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NLQzm9gf8hckWCdCrC8bp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: NLQzm9gf8hckWCdCrC8bp
 sets: [OMN]
+codes: [OMN241]
 ---
 
 **Red Lure Harpoon (blue)** — Pirate Ranger Action - Arrow Attack · cost 2 · 4 power · 3 defense

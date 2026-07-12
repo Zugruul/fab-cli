@@ -1,5 +1,5 @@
 ---
-tags: [card, didnt-see-that-coming, didnt, see, that, coming, event]
+tags: [card, didnt-see-that-coming, didnt, see, that, coming, event, smp022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JgNNMtHdhBt6qJFPd8NDR) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Didn't See That Coming"
 types: [Event]
 unique-id: JgNNMtHdhBt6qJFPd8NDR
 sets: [SMP]
+codes: [SMP022]
 ---
 
 **Didn't See That Coming** — Event

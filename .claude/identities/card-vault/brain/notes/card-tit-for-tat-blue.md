@@ -1,5 +1,5 @@
 ---
-tags: [card, tit-for-tat, tit, tat, generic, action, go-again, pitch-3, cost-0]
+tags: [card, tit-for-tat, tit, tat, generic, action, go-again, pitch-3, cost-0, sea211]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid knKbmDwjgK9qD8rmJNTQq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: knKbmDwjgK9qD8rmJNTQq
 sets: [SEA]
+codes: [SEA211]
 ---
 
 **Tit for Tat (blue)** — Generic Action · cost 0 · 2 defense

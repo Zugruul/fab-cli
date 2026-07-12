@@ -1,5 +1,5 @@
 ---
-tags: [card, scar-tissue, scar, tissue, assassin, warrior, attack-reaction, mark, pitch-1, cost-0]
+tags: [card, scar-tissue, scar, tissue, assassin, warrior, attack-reaction, mark, pitch-1, cost-0, fng015, gem030, hnt208, sar019, wod014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t6JCJM8LbB8DcqTwHj7Mk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Mark]
 unique-id: t6JCJM8LbB8DcqTwHj7Mk
 sets: [FNG, GEM, HNT, SAR, WOD]
+codes: [FNG015, GEM030, HNT208, SAR019, WOD014]
 ---
 
 **Scar Tissue (red)** — Assassin / Warrior Attack Reaction · cost 0 · 2 defense

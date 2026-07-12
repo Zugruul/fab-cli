@@ -1,5 +1,5 @@
 ---
-tags: [card, chum-friendly-first-mate, chum, friendly, first, mate, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-4]
+tags: [card, chum-friendly-first-mate, chum, friendly, first, mate, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-4, gem046, sea050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mwBrbdjPn7h8nPpCNzpMR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: mwBrbdjPn7h8nPpCNzpMR
 sets: [GEM, SEA]
+codes: [GEM046, SEA050]
 ---
 
 **Chum, Friendly First Mate (yellow)** — Pirate Necromancer Action - Ally · cost 4 · 4 power · 6 health

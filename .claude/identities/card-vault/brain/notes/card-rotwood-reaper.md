@@ -1,5 +1,5 @@
 ---
-tags: [card, rotwood-reaper, rotwood, reaper, runeblade, earth, weapon, sword, 2h]
+tags: [card, rotwood-reaper, rotwood, reaper, runeblade, earth, weapon, sword, 2h, flr002, lgs331, ros003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HmQ8dbfPL8BLMkJDGGGm8) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: HmQ8dbfPL8BLMkJDGGGm8
 sets: [FLR, LGS, ROS]
+codes: [FLR002, LGS331, ROS003]
 ---
 
 **Rotwood Reaper** — Earth Runeblade Weapon - Sword (2H) · 2 power

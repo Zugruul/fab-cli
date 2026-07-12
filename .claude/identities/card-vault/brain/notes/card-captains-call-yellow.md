@@ -1,5 +1,5 @@
 ---
-tags: [card, captains-call, captains, call, generic, action, go-again, pitch-2, cost-0]
+tags: [card, captains-call, captains, call, generic, action, go-again, pitch-2, cost-0, mon261]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MrtQj7pkfbNpNGjLk8GP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 7MrtQj7pkfbNpNGjLk8GP
 sets: [MON]
+codes: [MON261]
 ---
 
 **Captain's Call (yellow)** — Generic Action · cost 0 · 2 defense

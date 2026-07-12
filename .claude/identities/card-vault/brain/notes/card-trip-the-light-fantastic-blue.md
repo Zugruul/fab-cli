@@ -1,5 +1,5 @@
 ---
-tags: [card, trip-the-light-fantastic, trip, light, fantastic, lightning, action, attack, pitch-3, cost-1]
+tags: [card, trip-the-light-fantastic, trip, light, fantastic, lightning, action, attack, pitch-3, cost-1, aua023, ros106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WbmtPhzqpRtfC7rRHgB7k) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WbmtPhzqpRtfC7rRHgB7k
 sets: [AUA, ROS]
+codes: [AUA023, ROS106]
 ---
 
 **Trip the Light Fantastic (blue)** — Lightning Action - Attack · cost 1 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, soulbond-resolve, soulbond, resolve, warrior, light, equipment, chest, charge, temper]
+tags: [card, soulbond-resolve, soulbond, resolve, warrior, light, equipment, chest, charge, temper, dtd047, fab139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPcKCKn8CpthtjNrk6fC8) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Chest]
 keywords: [Charge, Temper]
 unique-id: KPcKCKn8CpthtjNrk6fC8
 sets: [DTD, FAB]
+codes: [DTD047, FAB139]
 ---
 
 **Soulbond Resolve** — Light Warrior Equipment - Chest · 2 defense

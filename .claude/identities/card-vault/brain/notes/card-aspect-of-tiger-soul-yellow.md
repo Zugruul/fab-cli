@@ -1,5 +1,5 @@
 ---
-tags: [card, aspect-of-tiger-soul, aspect, tiger, soul, ninja, action, attack, combo, go-again, pitch-2, cost-0]
+tags: [card, aspect-of-tiger-soul, aspect, tiger, soul, ninja, action, attack, combo, go-again, pitch-2, cost-0, mst165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khwtPrnQkQFfNBccCczht) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: khwtPrnQkQFfNBccCczht
 sets: [MST]
+codes: [MST165]
 ---
 
 **Aspect of Tiger: Soul (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

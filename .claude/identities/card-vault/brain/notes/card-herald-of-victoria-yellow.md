@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-victoria, herald, victoria, illusionist, light, action, attack, phantasm, pitch-2, cost-2]
+tags: [card, herald-of-victoria, herald, victoria, illusionist, light, action, attack, phantasm, pitch-2, cost-2, pen177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qpqwfj8MqTkWLqpbDgrd8) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: qpqwfj8MqTkWLqpbDgrd8
 sets: [PEN]
+codes: [PEN177]
 ---
 
 **Herald of Victoria (yellow)** — Light Illusionist Action - Attack · cost 2 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, captain-of-the-guard, captain, guard, generic, action, attack, pitch-3, cost-3]
+tags: [card, captain-of-the-guard, captain, guard, generic, action, attack, pitch-3, cost-3, mpg127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HpFndzDqQGcQWpzcKjJLc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HpFndzDqQGcQWpzcKjJLc
 sets: [MPG]
+codes: [MPG127]
 ---
 
 **Captain of the Guard (blue)** — Generic Action - Attack · cost 3 · 5 power · 2 defense

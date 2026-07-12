@@ -1,5 +1,5 @@
 ---
-tags: [card, bash-guardian, bash, guardian, brute, action, attack, pitch-1, cost-2]
+tags: [card, bash-guardian, bash, guardian, brute, action, attack, pitch-1, cost-2, sup141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MdMgf8jkmJP6gGqNrTqRF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: MdMgf8jkmJP6gGqNrTqRF
 sets: [SUP]
+codes: [SUP141]
 ---
 
 **Bash Guardian (red)** — Brute Action - Attack · cost 2 · 6 power · 2 defense

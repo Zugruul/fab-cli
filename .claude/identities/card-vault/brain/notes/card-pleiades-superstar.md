@@ -1,5 +1,5 @@
 ---
-tags: [card, pleiades-superstar, pleiades, superstar, guardian, hero, revered, adult]
+tags: [card, pleiades-superstar, pleiades, superstar, guardian, hero, revered, adult, aps001, her147, sup009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JhgRJb6nfctWkndbzrgnj) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Revered]
 unique-id: JhgRJb6nfctWkndbzrgnj
 sets: [APS, HER, SUP]
+codes: [APS001, HER147, SUP009]
 ---
 
 **Pleiades, Superstar** — Revered Guardian Hero · 40 health · 4 int

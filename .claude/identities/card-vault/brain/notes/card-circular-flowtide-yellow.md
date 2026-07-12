@@ -1,5 +1,5 @@
 ---
-tags: [card, circular-flowtide, circular, flowtide, illusionist, lightning, instant, aura, ward-2, pitch-2, cost-1]
+tags: [card, circular-flowtide, circular, flowtide, illusionist, lightning, instant, aura, ward-2, pitch-2, cost-1, azs018, omn033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FgRQdMbgkGgJ6RwGjwgHr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: FgRQdMbgkGgJ6RwGjwgHr
 sets: [AZS, OMN]
+codes: [AZS018, OMN033]
 ---
 
 **Circular Flowtide (yellow)** — Lightning Illusionist Instant - Aura · cost 1

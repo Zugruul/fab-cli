@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-dart, aether, dart, wizard, action, pitch-2, cost-0]
+tags: [card, aether-dart, aether, dart, wizard, action, pitch-2, cost-0, upr174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cdTzctFmkNMpNK6HzT8nd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: cdTzctFmkNMpNK6HzT8nd
 sets: [UPR]
+codes: [UPR174]
 ---
 
 **Aether Dart (yellow)** — Wizard Action · cost 0 · 3 defense

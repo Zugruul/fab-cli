@@ -1,5 +1,5 @@
 ---
-tags: [card, small-problem, small, problem, guardian, action, attack, crush, pitch-2, cost-0]
+tags: [card, small-problem, small, problem, guardian, action, attack, crush, pitch-2, cost-0, sup193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mqR8pjFLG8mK6km6KBTFh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: mqR8pjFLG8mK6km6KBTFh
 sets: [SUP]
+codes: [SUP193]
 ---
 
 **Small Problem (yellow)** — Guardian Action - Attack · cost 0 · 3 power · 3 defense

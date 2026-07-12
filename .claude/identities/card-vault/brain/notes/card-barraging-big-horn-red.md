@@ -1,5 +1,5 @@
 ---
-tags: [card, barraging-big-horn, barraging, big, horn, brute, action, attack, go-again, pitch-1, cost-2]
+tags: [card, barraging-big-horn, barraging, big, horn, brute, action, attack, go-again, pitch-1, cost-2, cru010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pRffgdg8BcqHjP9FfppLP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: pRffgdg8BcqHjP9FfppLP
 sets: [CRU]
+codes: [CRU010]
 ---
 
 **Barraging Big Horn (red)** — Brute Action - Attack · cost 2 · 7 power · 3 defense

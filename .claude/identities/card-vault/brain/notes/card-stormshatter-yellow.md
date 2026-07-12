@@ -1,5 +1,5 @@
 ---
-tags: [card, stormshatter, lightning, instant, pitch-2, cost-1]
+tags: [card, stormshatter, lightning, instant, pitch-2, cost-1, omn191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDkhnPHFCdnwmfMDrmHPN) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: HDkhnPHFCdnwmfMDrmHPN
 sets: [OMN]
+codes: [OMN191]
 ---
 
 **Stormshatter (yellow)** — Lightning Instant · cost 1

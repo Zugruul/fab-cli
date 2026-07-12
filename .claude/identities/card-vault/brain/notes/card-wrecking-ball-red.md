@@ -1,5 +1,5 @@
 ---
-tags: [card, wrecking-ball, wrecking, ball, brute, action, attack, intimidate, pitch-1, cost-3]
+tags: [card, wrecking-ball, wrecking, ball, brute, action, attack, intimidate, pitch-1, cost-3, lgs101, rvd013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zLnFQ6KLkBQbNQ7RhQnKb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 keywords: [Intimidate]
 unique-id: zLnFQ6KLkBQbNQ7RhQnKb
 sets: [LGS, RVD]
+codes: [LGS101, RVD013]
 ---
 
 **Wrecking Ball (red)** — Brute Action - Attack · cost 3 · 6 power

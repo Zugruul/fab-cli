@@ -1,5 +1,5 @@
 ---
-tags: [card, envelop-in-darkness, envelop, darkness, runeblade, shadow, action, go-again, pitch-2, cost-1]
+tags: [card, envelop-in-darkness, envelop, darkness, runeblade, shadow, action, go-again, pitch-2, cost-1, dtd150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H9jP9mrrKwWtGdbnq99dd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: H9jP9mrrKwWtGdbnq99dd
 sets: [DTD]
+codes: [DTD150]
 ---
 
 **Envelop in Darkness (yellow)** — Shadow Runeblade Action · cost 1 · 2 defense

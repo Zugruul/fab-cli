@@ -1,5 +1,5 @@
 ---
-tags: [card, endless-winter, endless, winter, guardian, elemental, action, attack, oldhim-specialization, ice-fusion, pitch-1, cost-4]
+tags: [card, endless-winter, endless, winter, guardian, elemental, action, attack, oldhim-specialization, ice-fusion, pitch-1, cost-4, ele004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dncM8DzP7fJ9JWDqqWfHj) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Oldhim Specialization, Ice Fusion]
 unique-id: dncM8DzP7fJ9JWDqqWfHj
 sets: [ELE]
+codes: [ELE004]
 ---
 
 **Endless Winter (red)** — Elemental Guardian Action - Attack · cost 4 · 8 power · 3 defense

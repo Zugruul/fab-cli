@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-divinity, tome, divinity, light, instant, pitch-2, cost-4]
+tags: [card, tome-of-divinity, tome, divinity, light, instant, pitch-2, cost-4, mon065]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHqhRWwFMkFRF9dLMkPtw) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Instant]
 unique-id: RHqhRWwFMkFRF9dLMkPtw
 sets: [MON]
+codes: [MON065]
 ---
 
 **Tome of Divinity (yellow)** — Light Instant · cost 4

@@ -1,5 +1,5 @@
 ---
-tags: [card, hulk-up, hulk, up, action, attack, revered, pitch-3, cost-4]
+tags: [card, hulk-up, hulk, up, action, attack, revered, pitch-3, cost-4, gem138, pen293]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mJKcWjzzzGmbTchphggNT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: mJKcWjzzzGmbTchphggNT
 sets: [GEM, PEN]
+codes: [GEM138, PEN293]
 ---
 
 **Hulk Up (blue)** — Revered Action - Attack · cost 4 · 6 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, brain-freeze, brain, freeze, wizard, elemental, action, ice-fusion, pitch-2, cost-0]
+tags: [card, brain-freeze, brain, freeze, wizard, elemental, action, ice-fusion, pitch-2, cost-0, upr117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CrPNmfmJ97gdcPcBtfHzR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion]
 unique-id: CrPNmfmJ97gdcPcBtfHzR
 sets: [UPR]
+codes: [UPR117]
 ---
 
 **Brain Freeze (yellow)** — Elemental Wizard Action · cost 0 · 3 defense

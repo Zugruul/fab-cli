@@ -1,5 +1,5 @@
 ---
-tags: [card, cloud-skiff, cloud, skiff, mechanologist, action, attack, go-again, pitch-3, cost-1]
+tags: [card, cloud-skiff, cloud, skiff, mechanologist, action, attack, go-again, pitch-3, cost-1, sea026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nNnqFQD7WfGFGRnrMw8nh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: nNnqFQD7WfGFGRnrMw8nh
 sets: [SEA]
+codes: [SEA026]
 ---
 
 **Cloud Skiff (blue)** — Mechanologist Action - Attack · cost 1 · 3 power · 3 defense

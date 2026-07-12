@@ -1,5 +1,5 @@
 ---
-tags: [card, fingers-of-fragmentation, fingers, fragmentation, illusionist, equipment, arms]
+tags: [card, fingers-of-fragmentation, fingers, fragmentation, illusionist, equipment, arms, omn039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PgCtkKz6JjJQ9mgKK679T) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: PgCtkKz6JjJQ9mgKK679T
 sets: [OMN]
+codes: [OMN039]
 ---
 
 **Fingers of Fragmentation** — Illusionist Equipment - Arms · 0 defense

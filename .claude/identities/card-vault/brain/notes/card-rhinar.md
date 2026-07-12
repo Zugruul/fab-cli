@@ -1,5 +1,5 @@
 ---
-tags: [card, rhinar, brute, hero, young, intimidate]
+tags: [card, rhinar, brute, hero, young, intimidate, 1hp002, her005, her054, hvy004, pen334, rhi001, rnr002, rvd001, wtr002, xxx003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wNRqrHCn6rrKLhrDkqPwp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Intimidate]
 unique-id: wNRqrHCn6rrKLhrDkqPwp
 sets: [1HP, HER, HVY, PEN, RHI, RNR, RVD, WTR, XXX]
+codes: [1HP002, HER005, HER054, HVY004, PEN334, RHI001, RNR002, RVD001, WTR002, XXX003]
 ---
 
 **Rhinar** — Brute Hero - Young · 20 health · 4 int

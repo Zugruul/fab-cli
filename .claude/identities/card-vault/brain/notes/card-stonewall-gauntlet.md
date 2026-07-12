@@ -1,5 +1,5 @@
 ---
-tags: [card, stonewall-gauntlet, stonewall, gauntlet, generic, equipment, arms, blade-break]
+tags: [card, stonewall-gauntlet, stonewall, gauntlet, generic, equipment, arms, blade-break, anq007, fab229, mst190, pen312]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gmd8mLNNzBJgQNdhDjCwH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: gmd8mLNNzBJgQNdhDjCwH
 sets: [ANQ, FAB, MST, PEN]
+codes: [ANQ007, FAB229, MST190, PEN312]
 ---
 
 **Stonewall Gauntlet** — Generic Equipment - Arms · 1 defense

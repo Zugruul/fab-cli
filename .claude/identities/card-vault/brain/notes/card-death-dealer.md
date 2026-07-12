@@ -1,5 +1,5 @@
 ---
-tags: [card, death-dealer, death, dealer, ranger, weapon, bow, 2h]
+tags: [card, death-dealer, death, dealer, ranger, weapon, bow, 2h, 1hp223, aaz002, arc040, cru120, fab096, lgs010, saz002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nnmtz6GrR6MWMcptb6wD7) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Bow, 2H]
 unique-id: Nnmtz6GrR6MWMcptb6wD7
 sets: [1HP, AAZ, ARC, CRU, FAB, LGS, SAZ]
+codes: [1HP223, AAZ002, ARC040, CRU120, FAB096, LGS010, SAZ002]
 ---
 
 **Death Dealer** — Ranger Weapon - Bow (2H)

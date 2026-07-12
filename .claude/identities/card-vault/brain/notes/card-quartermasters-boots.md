@@ -1,5 +1,5 @@
 ---
-tags: [card, quartermasters-boots, quartermasters, boots, generic, equipment, legs, blade-break]
+tags: [card, quartermasters-boots, quartermasters, boots, generic, equipment, legs, blade-break, sea185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KbcGqTJFnNLmLWMpfzPbT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: KbcGqTJFnNLmLWMpfzPbT
 sets: [SEA]
+codes: [SEA185]
 ---
 
 **Quartermaster's Boots** — Generic Equipment - Legs · 1 defense

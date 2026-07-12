@@ -1,5 +1,5 @@
 ---
-tags: [card, vile-inquisition, vile, inquisition, shadow, action, blood-debt, pitch-2, cost-2]
+tags: [card, vile-inquisition, vile, inquisition, shadow, action, blood-debt, pitch-2, cost-2, dtd179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TTGbBdCMpzDM8HhBdJFmf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: TTGbBdCMpzDM8HhBdJFmf
 sets: [DTD]
+codes: [DTD179]
 ---
 
 **Vile Inquisition (yellow)** — Shadow Action · cost 2 · 3 defense

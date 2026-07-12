@@ -1,5 +1,5 @@
 ---
-tags: [card, current-funnel, current, funnel, lightning, action, attack, go-again, pitch-3, cost-0]
+tags: [card, current-funnel, current, funnel, lightning, action, attack, go-again, pitch-3, cost-0, ros074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bN7nrfGCGqKNJMWzDNBb9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: bN7nrfGCGqKNJMWzDNBb9
 sets: [ROS]
+codes: [ROS074]
 ---
 
 **Current Funnel (blue)** — Lightning Action - Attack · cost 0 · 2 power · 3 defense

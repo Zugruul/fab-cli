@@ -1,5 +1,5 @@
 ---
-tags: [card, trampling-trackers, trampling, trackers, brute, equipment, legs, temper]
+tags: [card, trampling-trackers, trampling, trackers, brute, equipment, legs, temper, arr006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bkdFB6qNrhLBgrTrmRpNJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Temper]
 unique-id: bkdFB6qNrhLBgrTrmRpNJ
 sets: [ARR]
+codes: [ARR006]
 ---
 
 **Trampling Trackers** — Brute Equipment - Legs · 2 defense

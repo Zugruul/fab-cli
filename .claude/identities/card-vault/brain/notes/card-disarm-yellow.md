@@ -1,5 +1,5 @@
 ---
-tags: [card, disarm, action, attack, revered, pitch-2, cost-3]
+tags: [card, disarm, action, attack, revered, pitch-2, cost-3, sup030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WjfRfczmQcbQknfRdD8JJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: WjfRfczmQcbQknfRdD8JJ
 sets: [SUP]
+codes: [SUP030]
 ---
 
 **Disarm (yellow)** — Revered Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, oldhim, guardian, elemental, hero, young, essence-of-earth-and-ice]
+tags: [card, oldhim, guardian, elemental, hero, young, essence-of-earth-and-ice, ele002, her045, old001, pen345]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hw6qHfWdqQGfRPfKJMgR7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth and Ice]
 unique-id: hw6qHfWdqQGfRPfKJMgR7
 sets: [ELE, HER, OLD, PEN]
+codes: [ELE002, HER045, OLD001, PEN345]
 ---
 
 **Oldhim** — Elemental Guardian Hero - Young · 20 health · 4 int

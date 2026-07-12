@@ -1,5 +1,5 @@
 ---
-tags: [card, wage-vigor, wage, vigor, guardian, warrior, action, attack, wager, pitch-3, cost-3]
+tags: [card, wage-vigor, wage, vigor, guardian, warrior, action, attack, wager, pitch-3, cost-3, hvy191, ola022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9t79HPQncwtwKtBg8MhRH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Wager]
 unique-id: 9t79HPQncwtwKtBg8MhRH
 sets: [HVY, OLA]
+codes: [HVY191, OLA022]
 ---
 
 **Wage Vigor (blue)** — Guardian / Warrior Action - Attack · cost 3 · 5 power · 2 defense

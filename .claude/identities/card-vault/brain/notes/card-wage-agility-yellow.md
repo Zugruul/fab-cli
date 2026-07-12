@@ -1,5 +1,5 @@
 ---
-tags: [card, wage-agility, wage, agility, brute, warrior, action, attack, wager, pitch-2, cost-3]
+tags: [card, wage-agility, wage, agility, brute, warrior, action, attack, wager, pitch-2, cost-3, hvy170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WmzwN8GGDC6dhhLB9NbMc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Wager]
 unique-id: WmzwN8GGDC6dhhLB9NbMc
 sets: [HVY]
+codes: [HVY170]
 ---
 
 **Wage Agility (yellow)** — Brute / Warrior Action - Attack · cost 3 · 6 power · 2 defense

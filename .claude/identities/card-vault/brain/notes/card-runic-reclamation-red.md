@@ -1,5 +1,5 @@
 ---
-tags: [card, runic-reclamation, runic, reclamation, runeblade, action, attack, pitch-1, cost-3]
+tags: [card, runic-reclamation, runic, reclamation, runeblade, action, attack, pitch-1, cost-3, evr104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gBdLwdzLq6zrMGbHKpKfw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: gBdLwdzLq6zrMGbHKpKfw
 sets: [EVR]
+codes: [EVR104]
 ---
 
 **Runic Reclamation (red)** — Runeblade Action - Attack · cost 3 · 7 power · 3 defense

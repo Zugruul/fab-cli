@@ -1,5 +1,5 @@
 ---
-tags: [card, washed-up-wave, washed, up, wave, pirate, necromancer, equipment, arms, blade-break]
+tags: [card, washed-up-wave, washed, up, wave, pirate, necromancer, equipment, arms, blade-break, agb006, sea046, sgb007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QtHWQMww79tzzPLJfbQBp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: QtHWQMww79tzzPLJfbQBp
 sets: [AGB, SEA, SGB]
+codes: [AGB006, SEA046, SGB007]
 ---
 
 **Washed Up Wave** — Pirate Necromancer Equipment - Arms · 0 defense

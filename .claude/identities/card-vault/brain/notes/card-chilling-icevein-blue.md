@@ -1,5 +1,5 @@
 ---
-tags: [card, chilling-icevein, chilling, icevein, ranger, elemental, action, arrow, attack, ice-fusion, pitch-3, cost-1]
+tags: [card, chilling-icevein, chilling, icevein, ranger, elemental, action, arrow, attack, ice-fusion, pitch-3, cost-1, ele052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cgPN7GPMwTTwzrwn6fcm8) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Ice Fusion]
 unique-id: cgPN7GPMwTTwzrwn6fcm8
 sets: [ELE]
+codes: [ELE052]
 ---
 
 **Chilling Icevein (blue)** — Elemental Ranger Action - Arrow Attack · cost 1 · 3 power · 3 defense

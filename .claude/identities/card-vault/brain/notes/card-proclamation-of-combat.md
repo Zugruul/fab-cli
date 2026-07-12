@@ -1,5 +1,5 @@
 ---
-tags: [card, proclamation-of-combat, proclamation, combat, adjudicator, equipment, off-hand]
+tags: [card, proclamation-of-combat, proclamation, combat, adjudicator, equipment, off-hand, jdg025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LwtRft6CKgLFgbDKrwTJn) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: LwtRft6CKgLFgbDKrwTJn
 sets: [JDG]
+codes: [JDG025]
 ---
 
 **Proclamation of Combat** — Adjudicator Equipment - Off-Hand

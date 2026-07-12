@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-ravages, figment, ravages, illusionist, light, instant, legendary, pitch-2, cost-4]
+tags: [card, figment-of-ravages, figment, ravages, illusionist, light, instant, legendary, pitch-2, cost-4, dtd008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kJdRmr6CLhJ9LznJkmcJb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary]
 unique-id: kJdRmr6CLhJ9LznJkmcJb
 sets: [DTD]
+codes: [DTD008]
 ---
 
 **Figment of Ravages (yellow)** — Light Illusionist Instant - Figment · cost 4

@@ -1,5 +1,5 @@
 ---
-tags: [card, rampant-growth-life, rampant, growth, life, wizard, earth, instant, meld, amp-x, pitch-2, cost-0]
+tags: [card, rampant-growth-life, rampant, growth, life, wizard, earth, instant, meld, amp-x, pitch-2, cost-0, lgs341, ros017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CTr7nqzhbgDkPtb8WpCN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant, Instant]
 keywords: [Meld, Amp X]
 unique-id: 8CTr7nqzhbgDkPtb8WpCN
 sets: [LGS, ROS]
+codes: [LGS341, ROS017]
 ---
 
 **Rampant Growth // Life (yellow)** — Wizard Instant // Earth Instant · cost 0

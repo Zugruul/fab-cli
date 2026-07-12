@@ -1,5 +1,5 @@
 ---
-tags: [card, shelly-hardened-traveler, shelly, hardened, traveler, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-2]
+tags: [card, shelly-hardened-traveler, shelly, hardened, traveler, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-2, lgs408, sea078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rc7mWBhpMFfgWcfhmTJCN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: rc7mWBhpMFfgWcfhmTJCN
 sets: [LGS, SEA]
+codes: [LGS408, SEA078]
 ---
 
 **Shelly, Hardened Traveler (yellow)** — Pirate Necromancer Action - Ally · cost 2 · 4 power · 5 health

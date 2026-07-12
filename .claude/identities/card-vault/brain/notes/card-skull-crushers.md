@@ -1,5 +1,5 @@
 ---
-tags: [card, skull-crushers, skull, crushers, brute, equipment, arms, battleworn]
+tags: [card, skull-crushers, skull, crushers, brute, equipment, arms, battleworn, evr001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KccqWCmJhTfHpcNQJfdMQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: KccqWCmJhTfHpcNQJfdMQ
 sets: [EVR]
+codes: [EVR001]
 ---
 
 **Skull Crushers** — Brute Equipment - Arms · 1 defense

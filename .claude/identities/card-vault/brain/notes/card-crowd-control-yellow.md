@@ -1,5 +1,5 @@
 ---
-tags: [card, crowd-control, crowd, control, bard, block, pitch-2]
+tags: [card, crowd-control, crowd, control, bard, block, pitch-2, tcc063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9MMPg6FzLBnGmNtjnFtCQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Bard]
 types: [Block]
 unique-id: 9MMPg6FzLBnGmNtjnFtCQ
 sets: [TCC]
+codes: [TCC063]
 ---
 
 **Crowd Control (yellow)** — Bard Block · 3 defense

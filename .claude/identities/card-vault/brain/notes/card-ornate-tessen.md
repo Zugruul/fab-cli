@@ -1,5 +1,5 @@
 ---
-tags: [card, ornate-tessen, ornate, tessen, generic, equipment, off-hand]
+tags: [card, ornate-tessen, ornate, tessen, generic, equipment, off-hand, dyn235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JwhRzNPr9KNpMHzP8kWNG) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: JwhRzNPr9KNpMHzP8kWNG
 sets: [DYN]
+codes: [DYN235]
 ---
 
 **Ornate Tessen** — Generic Equipment - Off-Hand

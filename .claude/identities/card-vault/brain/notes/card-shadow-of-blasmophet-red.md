@@ -1,5 +1,5 @@
 ---
-tags: [card, shadow-of-blasmophet, shadow, blasmophet, brute, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, shadow-of-blasmophet, shadow, blasmophet, brute, action, attack, blood-debt, pitch-1, cost-2, mon125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wHLwWJFBzB7DwgjKqzcq7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: wHLwWJFBzB7DwgjKqzcq7
 sets: [MON]
+codes: [MON125]
 ---
 
 **Shadow of Blasmophet (red)** — Shadow Brute Action - Attack · cost 2 · 6 power

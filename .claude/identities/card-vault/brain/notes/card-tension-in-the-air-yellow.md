@@ -1,5 +1,5 @@
 ---
-tags: [card, tension-in-the-air, tension, air, guardian, instant, aura, suspense, pitch-2, cost-2]
+tags: [card, tension-in-the-air, tension, air, guardian, instant, aura, suspense, pitch-2, cost-2, sup205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GKfLHFwG6TzTggQRmt9Nr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: GKfLHFwG6TzTggQRmt9Nr
 sets: [SUP]
+codes: [SUP205]
 ---
 
 **Tension in the Air (yellow)** — Guardian Instant - Aura · cost 2 · 3 defense

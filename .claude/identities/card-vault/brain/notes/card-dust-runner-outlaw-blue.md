@@ -1,5 +1,5 @@
 ---
-tags: [card, dust-runner-outlaw, dust, runner, outlaw, ninja, draconic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, dust-runner-outlaw, dust, runner, outlaw, ninja, draconic, action, attack, go-again, pitch-3, cost-1, fai024, upr068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JjcbfdJBzNznwtrHkDN98) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: JjcbfdJBzNznwtrHkDN98
 sets: [FAI, UPR]
+codes: [FAI024, UPR068]
 ---
 
 **Dust Runner Outlaw (blue)** — Draconic Ninja Action - Attack · cost 1 · 2 power · 2 defense

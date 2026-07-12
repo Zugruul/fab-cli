@@ -1,15 +1,17 @@
 // PURE comparison engine — see SPEC-PRICE.md §4.2, §7.1, §7.3, §8.1-§8.4,
 // §10 I4 I5 I7, and docs/design/price-E1.md. No fetch, no fs here. This
 // module owns the row-matching half (PRICE-010) and the condition
-// fill/fallback/ratio math half (PRICE-011) — one module, two logical
-// halves per the design doc.
+// fill/ratio math half (PRICE-011) — one module, two logical halves per the
+// design doc.
+//
+// REAL-DATA-ONLY (issue #61, spec delta PRICE-061): there is no fabricated
+// fill anymore. fillTcgplayerConditions only ever uses real per-condition
+// listings; Cardmarket's resolvePrices only ever uses the real 'low' field
+// for condition cells. A condition with no real price is an empty cell.
 //
 // ORDERING CONTRACT (orchestrator decision, carried from PR #56 review):
 // per-provider condition FILL (fillTcgplayerConditions / Cardmarket's
-// resolvePrices + applyAdjacencyFallback) MUST run BEFORE
-// buildComparisonRows. A listing-less TCGplayer row with a valid
-// marketPrice needs to be filled (source 'market') before matching, or it
-// gets misreported as no-price / no-counterpart here. Wiring this order is
+// resolvePrices) MUST run BEFORE buildComparisonRows — wiring this order is
 // PRICE-012's job; this module only requires that callers already pass in
 // filled ConditionPrices.
 
@@ -91,23 +93,29 @@ function mergeConditions(
  * two same-identity rows must never appear as separate lines on a price
  * page while the ratio page (built from the already-collapsed
  * ComparisonRow[]) shows one.
+ *
+ * Generic over T so callers that attach extra reference-only fields (e.g.
+ * Cardmarket's `trend` column, issue #61) get them merged too: any optional
+ * `trend` cell present is merged with the same cheaper-wins rule as the
+ * condition columns; every other extra field is carried from the
+ * first-seen occurrence.
  */
-export function collapseDuplicates(rows: PriceRow[]): PriceRow[] {
+export function collapseDuplicates<
+  T extends PriceRow & { trend?: ConditionCell | null },
+>(rows: T[]): T[] {
   const order: string[] = [];
-  const byKey = new Map<string, PriceRow>();
+  const byKey = new Map<string, T>();
   for (const r of rows) {
     const key = matchKey(r.name, r.set, r.finish);
     const existing = byKey.get(key);
     if (!existing) {
-      byKey.set(key, {
-        name: r.name,
-        set: r.set,
-        finish: r.finish,
-        conditions: r.conditions,
-      });
+      byKey.set(key, { ...r });
       order.push(key);
     } else {
       existing.conditions = mergeConditions(existing.conditions, r.conditions);
+      if ("trend" in r) {
+        existing.trend = cheaperCell(existing.trend ?? null, r.trend ?? null);
+      }
     }
   }
   return order.map((key) => byKey.get(key)!);
@@ -225,106 +233,29 @@ export function cardmarketSetName(
 }
 
 // ---------------------------------------------------------------------------
-// PRICE-011 — condition fill + adjacency fallback + ratio math (§8.1-§8.4)
+// PRICE-011 — condition fill + ratio math (§8.1-§8.4)
 // ---------------------------------------------------------------------------
-
-/** Column order distance for the adjacency fallback rule (§8.2). */
-const COLUMN_INDEX: Record<ConditionColumn, number> = {
-  NM: 0,
-  "SP/LP": 1,
-  MP: 2,
-  HP: 3,
-};
-
-/**
- * Generic §8.2 adjacency fallback: every null column is filled from the
- * nearest column that already holds a REAL price (i.e. a value present on
- * input to this function — never a value this same call produced), with
- * distance measured in column order and ties broken toward the better
- * (closer-to-NM) condition. This is a single pass over the original input,
- * so a fallback cell is always sourced from real data and fallbacks never
- * chain off one another (no copy-of-a-copy drift).
- *
- * All-null input passes through unchanged. Used directly for Cardmarket
- * rows (resolvePrices already produces §8.3 cells; this is a defensive
- * pass-through for the normal case and a real fill for all-null rows) and
- * internally by `fillTcgplayerConditions`.
- */
-export function applyAdjacencyFallback(
-  cells: ConditionPrices,
-): ConditionPrices {
-  const realColumns = CONDITION_COLUMNS.filter((c) => cells[c] != null);
-  const result = {} as ConditionPrices;
-  for (const column of CONDITION_COLUMNS) {
-    if (cells[column] != null) {
-      result[column] = cells[column];
-      continue;
-    }
-    if (realColumns.length === 0) {
-      result[column] = null;
-      continue;
-    }
-    // realColumns is already in NM->HP order, so the first strictly-nearest
-    // match found also wins any tie (it has the smaller index, i.e. the
-    // better condition), giving the §8.2 tie-break for free.
-    let best: ConditionColumn = realColumns[0];
-    let bestDist = Math.abs(COLUMN_INDEX[best] - COLUMN_INDEX[column]);
-    for (const candidate of realColumns.slice(1)) {
-      const dist = Math.abs(COLUMN_INDEX[candidate] - COLUMN_INDEX[column]);
-      if (dist < bestDist) {
-        best = candidate;
-        bestDist = dist;
-      }
-    }
-    const source = cells[best]!;
-    result[column] = { price: source.price, source: `adjacent:${best}` };
-  }
-  return result;
-}
 
 /** Raw per-condition input for `fillTcgplayerConditions` (§8.2). */
 export interface TcgplayerFillInput {
   listings: Partial<Record<ConditionColumn, number | null>>;
-  marketPrice?: number | null;
-  lowPrice?: number | null;
 }
 
 /**
- * TCGplayer condition fill (§8.2):
- * - A condition with a listing price uses it, source 'listing'.
- * - IF no condition has any listing THEN NM is filled from marketPrice
- *   (falling back to lowPrice if marketPrice is null/undefined), source
- *   'market'; the remaining columns are then adjacency-filled from NM.
- * - Missing individual conditions (while at least one other condition has a
- *   listing) are filled via the generic adjacency rule from the real
- *   listing columns — market/lowPrice are NOT consulted in that case.
- * - If neither listings nor marketPrice/lowPrice exist, all four cells are
- *   null.
+ * TCGplayer condition fill (§8.2, real-data-only per issue #61): a condition
+ * with a live listing price uses it, source 'listing'. A condition with no
+ * listing is left empty (null) — there is no adjacency copy and no
+ * marketPrice/lowPrice stand-in anymore.
  */
 export function fillTcgplayerConditions(
   input: TcgplayerFillInput,
 ): ConditionPrices {
-  const base = {} as ConditionPrices;
-  let anyListing = false;
+  const result = {} as ConditionPrices;
   for (const column of CONDITION_COLUMNS) {
     const value = input.listings[column];
-    if (value != null) {
-      base[column] = { price: value, source: "listing" };
-      anyListing = true;
-    } else {
-      base[column] = null;
-    }
+    result[column] = value != null ? { price: value, source: "listing" } : null;
   }
-
-  if (!anyListing) {
-    const marketValue = input.marketPrice ?? input.lowPrice;
-    if (marketValue == null) {
-      return { NM: null, "SP/LP": null, MP: null, HP: null };
-    }
-    base.NM = { price: marketValue, source: "market" };
-  }
-
-  return applyAdjacencyFallback(base);
+  return result;
 }
 
 /** One ratio cell (§8.4): signed pct as a fraction (0.3 = +30%) + basis label. */

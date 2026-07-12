@@ -1,5 +1,5 @@
 ---
-tags: [card, sworn-vengeance, sworn, vengeance, warrior, action, go-again, mark, pitch-2, cost-0]
+tags: [card, sworn-vengeance, sworn, vengeance, warrior, action, go-again, mark, pitch-2, cost-0, fng022, hnt141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TH9GfGKwbnJRcWcgT8Gwc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Mark]
 unique-id: TH9GfGKwbnJRcWcgT8Gwc
 sets: [FNG, HNT]
+codes: [FNG022, HNT141]
 ---
 
 **Sworn Vengeance (yellow)** — Warrior Action · cost 0 · 3 defense

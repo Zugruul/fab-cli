@@ -1,5 +1,5 @@
 ---
-tags: [card, wax-and-wane, wax, wane, illusionist, mystic, instant, pitch-3, cost-0]
+tags: [card, wax-and-wane, wax, wane, illusionist, mystic, instant, pitch-3, cost-0, pen263]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zPGgKrwrbdqC6jHnnJzbt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Mystic]
 types: [Instant]
 unique-id: zPGgKrwrbdqC6jHnnJzbt
 sets: [PEN]
+codes: [PEN263]
 ---
 
 **Wax and Wane (blue)** — Mystic Illusionist Instant · cost 0

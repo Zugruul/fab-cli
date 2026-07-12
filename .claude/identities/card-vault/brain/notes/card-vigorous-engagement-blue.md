@@ -1,5 +1,5 @@
 ---
-tags: [card, vigorous-engagement, vigorous, engagement, warrior, attack-reaction, pitch-3, cost-1]
+tags: [card, vigorous-engagement, vigorous, engagement, warrior, attack-reaction, pitch-3, cost-1, hvy120, ksi024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KKQzqtKwzCTR9z7khM7Bp) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: KKQzqtKwzCTR9z7khM7Bp
 sets: [HVY, KSI]
+codes: [HVY120, KSI024]
 ---
 
 **Vigorous Engagement (blue)** — Warrior Attack Reaction · cost 1 · 2 defense

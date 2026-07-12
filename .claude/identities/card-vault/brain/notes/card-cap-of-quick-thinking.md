@@ -1,5 +1,5 @@
 ---
-tags: [card, cap-of-quick-thinking, cap, quick, thinking, lightning, equipment, head]
+tags: [card, cap-of-quick-thinking, cap, quick, thinking, lightning, equipment, head, ast003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GkcwtGfWGcDBmQ7BbFNRt) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: GkcwtGfWGcDBmQ7BbFNRt
 sets: [AST]
+codes: [AST003]
 ---
 
 **Cap of Quick Thinking** — Lightning Equipment - Head

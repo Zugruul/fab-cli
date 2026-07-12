@@ -1,5 +1,5 @@
 ---
-tags: [card, imperial-warhorn, imperial, warhorn, generic, action, item, legendary, pitch-1, cost-2]
+tags: [card, imperial-warhorn, imperial, warhorn, generic, action, item, legendary, pitch-1, cost-2, dyn242]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CkGNJTJPDRwwqrWKJKzn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary]
 unique-id: 6CkGNJTJPDRwwqrWKJKzn
 sets: [DYN]
+codes: [DYN242]
 ---
 
 **Imperial Warhorn (red)** — Generic Action - Item · cost 2

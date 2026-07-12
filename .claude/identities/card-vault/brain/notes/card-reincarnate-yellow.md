@@ -1,5 +1,5 @@
 ---
-tags: [card, reincarnate, brute, action, attack, pitch-2, cost-3]
+tags: [card, reincarnate, brute, action, attack, pitch-2, cost-3, dyn011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Qww77MgHTjLnBWCJ7NTDp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Qww77MgHTjLnBWCJ7NTDp
 sets: [DYN]
+codes: [DYN011]
 ---
 
 **Reincarnate (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

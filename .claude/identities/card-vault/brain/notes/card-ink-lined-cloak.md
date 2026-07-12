@@ -1,5 +1,5 @@
 ---
-tags: [card, ink-lined-cloak, ink, lined, cloak, wizard, equipment, chest]
+tags: [card, ink-lined-cloak, ink, lined, cloak, wizard, equipment, chest, lgs318, osc004, ros164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TPQdbDWdpDjBznGcwfF7g) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: TPQdbDWdpDjBznGcwfF7g
 sets: [LGS, OSC, ROS]
+codes: [LGS318, OSC004, ROS164]
 ---
 
 **Ink-lined Cloak** — Wizard Equipment - Chest · 0 defense

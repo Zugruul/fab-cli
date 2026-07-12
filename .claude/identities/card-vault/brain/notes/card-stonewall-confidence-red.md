@@ -1,5 +1,5 @@
 ---
-tags: [card, stonewall-confidence, stonewall, confidence, guardian, action, aura, go-again, pitch-1, cost-2]
+tags: [card, stonewall-confidence, stonewall, confidence, guardian, action, aura, go-again, pitch-1, cost-2, 1hp082, mpg106, wtr072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9TtNBLtzhLBjgHtLcc999) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: 9TtNBLtzhLBjgHtLcc999
 sets: [1HP, MPG, WTR]
+codes: [1HP082, MPG106, WTR072]
 ---
 
 **Stonewall Confidence (red)** — Guardian Action - Aura · cost 2 · 3 defense

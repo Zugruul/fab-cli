@@ -1,5 +1,5 @@
 ---
-tags: [card, nock-the-deathwhistle, nock, deathwhistle, ranger, action, azalea-specialization, reload, go-again, pitch-3, cost-0]
+tags: [card, nock-the-deathwhistle, nock, deathwhistle, ranger, action, azalea-specialization, reload, go-again, pitch-3, cost-0, 1hp231, aaz029, arc046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zDLrkgc8QGm77T8qPGwqd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Azalea Specialization, Reload, Go again]
 unique-id: zDLrkgc8QGm77T8qPGwqd
 sets: [1HP, AAZ, ARC]
+codes: [1HP231, AAZ029, ARC046]
 ---
 
 **Nock the Deathwhistle (blue)** — Ranger Action · cost 0 · 3 defense

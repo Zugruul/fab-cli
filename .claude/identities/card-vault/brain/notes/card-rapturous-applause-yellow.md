@@ -1,5 +1,5 @@
 ---
-tags: [card, rapturous-applause, rapturous, applause, action, attack, revered, the-crowd-cheers, pitch-2, cost-3]
+tags: [card, rapturous-applause, rapturous, applause, action, attack, revered, the-crowd-cheers, pitch-2, cost-3, gem089, sup044]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zH7KjrFjPkpQdjFLzN7Kd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: zH7KjrFjPkpQdjFLzN7Kd
 sets: [GEM, SUP]
+codes: [GEM089, SUP044]
 ---
 
 **Rapturous Applause (yellow)** — Revered Action - Attack · cost 3 · 6 power · 3 defense

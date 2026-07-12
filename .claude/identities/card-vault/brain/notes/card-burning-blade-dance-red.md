@@ -1,5 +1,5 @@
 ---
-tags: [card, burning-blade-dance, burning, blade, dance, ninja, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, burning-blade-dance, burning, blade, dance, ninja, draconic, action, attack, go-again, pitch-1, cost-0, cin009, hnt064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GgH7CLN7mwL6HtRcjBjqR) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: GgH7CLN7mwL6HtRcjBjqR
 sets: [CIN, HNT]
+codes: [CIN009, HNT064]
 ---
 
 **Burning Blade Dance (red)** — Draconic Ninja Action - Attack · cost 0 · 3 power · 3 defense

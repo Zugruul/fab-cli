@@ -1,5 +1,5 @@
 ---
-tags: [card, adaptive-dissolver, adaptive, dissolver, mechanologist, equipment, base, modular, arcane-barrier-1]
+tags: [card, adaptive-dissolver, adaptive, dissolver, mechanologist, equipment, base, modular, arcane-barrier-1, ros246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8TPwpCdF6GRn7cQRRGjQJ) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Base]
 keywords: [Modular, Arcane Barrier 1]
 unique-id: 8TPwpCdF6GRn7cQRRGjQJ
 sets: [ROS]
+codes: [ROS246]
 ---
 
 **Adaptive Dissolver** — Mechanologist Equipment - Base

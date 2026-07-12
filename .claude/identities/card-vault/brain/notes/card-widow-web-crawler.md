@@ -1,5 +1,5 @@
 ---
-tags: [card, widow-web-crawler, widow, web, crawler, assassin, equipment, legs, arcane-barrier-1, spellvoid-1]
+tags: [card, widow-web-crawler, widow, web, crawler, assassin, equipment, legs, arcane-barrier-1, spellvoid-1, ros242]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6QKhRnpgcFmhcGgQKNH8K) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1, Spellvoid 1]
 unique-id: 6QKhRnpgcFmhcGgQKNH8K
 sets: [ROS]
+codes: [ROS242]
 ---
 
 **Widow Web Crawler** — Assassin Equipment - Legs

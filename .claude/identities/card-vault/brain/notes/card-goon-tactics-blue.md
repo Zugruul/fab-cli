@@ -1,5 +1,5 @@
 ---
-tags: [card, goon-tactics, goon, tactics, action, attack, reviled, pitch-3, cost-0]
+tags: [card, goon-tactics, goon, tactics, action, attack, reviled, pitch-3, cost-0, sly027, sup106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QmJG8pMhhgzJHgRRJTGb6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: QmJG8pMhhgzJHgRRJTGb6
 sets: [SLY, SUP]
+codes: [SLY027, SUP106]
 ---
 
 **Goon Tactics (blue)** — Reviled Action - Attack · cost 0 · 1 power · 3 defense

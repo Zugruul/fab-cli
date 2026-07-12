@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-protection, sigil, protection, generic, action, aura, ward-3, pitch-2, cost-1]
+tags: [card, sigil-of-protection, sigil, protection, generic, action, aura, ward-3, pitch-2, cost-1, upr219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G9cDhnLB8kWQRgkFcpM8T) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 3]
 unique-id: G9cDhnLB8kWQRgkFcpM8T
 sets: [UPR]
+codes: [UPR219]
 ---
 
 **Sigil of Protection (yellow)** — Generic Action - Aura · cost 1 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, fang-dracai-of-blades, fang, dracai, blades, warrior, royal, draconic, hero, adult]
+tags: [card, fang-dracai-of-blades, fang, dracai, blades, warrior, royal, draconic, hero, adult, her134, hnt098, win045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P9DWCqqTwtKLnhNzLHnnp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Royal, Draconic]
 types: [Hero]
 unique-id: P9DWCqqTwtKLnhNzLHnnp
 sets: [HER, HNT, WIN]
+codes: [HER134, HNT098, WIN045]
 ---
 
 **Fang, Dracai of Blades** — Royal Draconic Warrior Hero · 40 health · 4 int

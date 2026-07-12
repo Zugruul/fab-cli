@@ -1,5 +1,5 @@
 ---
-tags: [card, plasma-barrel-shot, plasma, barrel, shot, mechanologist, weapon, gun, 2h]
+tags: [card, plasma-barrel-shot, plasma, barrel, shot, mechanologist, weapon, gun, 2h, 1hp183, cru101, sda002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPMtkfh8Dd6Dt9LJjGQLw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Gun, 2H]
 unique-id: KPMtkfh8Dd6Dt9LJjGQLw
 sets: [1HP, CRU, SDA]
+codes: [1HP183, CRU101, SDA002]
 ---
 
 **Plasma Barrel Shot** — Mechanologist Weapon - Gun (2H) · X power

@@ -1,5 +1,5 @@
 ---
-tags: [card, nullrune-hood, nullrune, hood, generic, equipment, head, arcane-barrier-1]
+tags: [card, nullrune-hood, nullrune, hood, generic, equipment, head, arcane-barrier-1, 1hp346, arc155, fab068, fab245, lgs369, sda006, sdo004, sen004, siy004, ska004, sly006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9DNnTrggQrJWn8CMFJJhf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1]
 unique-id: 9DNnTrggQrJWn8CMFJJhf
 sets: [1HP, ARC, FAB, LGS, SDA, SDO, SEN, SIY, SKA, SLY]
+codes: [1HP346, ARC155, FAB068, FAB245, LGS369, SDA006, SDO004, SEN004, SIY004, SKA004, SLY006]
 ---
 
 **Nullrune Hood** — Generic Equipment - Head · 0 defense

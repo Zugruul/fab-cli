@@ -1,5 +1,5 @@
 ---
-tags: [card, dust-from-stillwater-shrine, dust, stillwater, shrine, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0]
+tags: [card, dust-from-stillwater-shrine, dust, stillwater, shrine, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0, mst235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NJkbhctpNJqK9FRDBmzKr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ash]
 keywords: [Material, Phantasm]
 unique-id: NJkbhctpNJqK9FRDBmzKr
 sets: [MST]
+codes: [MST235]
 ---
 
 **Dust from Stillwater Shrine (red)** — Draconic Illusionist Action - Ash · cost 0 · 3 defense

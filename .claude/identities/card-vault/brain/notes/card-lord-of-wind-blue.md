@@ -1,5 +1,5 @@
 ---
-tags: [card, lord-of-wind, lord, wind, ninja, action, attack, katsu-specialization, combo, pitch-3, cost-0]
+tags: [card, lord-of-wind, lord, wind, ninja, action, attack, katsu-specialization, combo, pitch-3, cost-0, 1hp101, wtr081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hTMnFLppC7Pjdk6hq8nWb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Katsu Specialization, Combo]
 unique-id: hTMnFLppC7Pjdk6hq8nWb
 sets: [1HP, WTR]
+codes: [1HP101, WTR081]
 ---
 
 **Lord of Wind (blue)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

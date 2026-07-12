@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-beta-base-head, evo, beta, base, head, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0]
+tags: [card, evo-beta-base-head, evo, beta, base, head, mechanologist, action, equipment, transform, battleworn, pitch-3, cost-0, pen068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hwJJhrDhBFrkWr678FMrL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Head]
 keywords: [Transform, Battleworn]
 unique-id: hwJJhrDhBFrkWr678FMrL
 sets: [PEN]
+codes: [PEN068]
 ---
 
 **Evo Beta Base Head (blue)** — Mechanologist Action Equipment - Evo Base Head · cost 0 · 1 defense

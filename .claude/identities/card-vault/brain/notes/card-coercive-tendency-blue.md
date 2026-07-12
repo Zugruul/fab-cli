@@ -1,5 +1,5 @@
 ---
-tags: [card, coercive-tendency, coercive, tendency, assassin, attack-reaction, arakni-specialization, go-again, pitch-3, cost-0]
+tags: [card, coercive-tendency, coercive, tendency, assassin, attack-reaction, arakni-specialization, go-again, pitch-3, cost-0, hvy246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KP7QFDQPWfTW9DwmgBJq9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Arakni Specialization, Go again]
 unique-id: KP7QFDQPWfTW9DwmgBJq9
 sets: [HVY]
+codes: [HVY246]
 ---
 
 **Coercive Tendency (blue)** — Assassin Attack Reaction · cost 0 · 3 defense

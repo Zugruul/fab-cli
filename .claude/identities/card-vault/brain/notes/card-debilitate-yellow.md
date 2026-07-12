@@ -1,5 +1,5 @@
 ---
-tags: [card, debilitate, guardian, action, attack, crush, pitch-2, cost-4]
+tags: [card, debilitate, guardian, action, attack, crush, pitch-2, cost-4, 1hp077, bvo013, mpg071, wtr067]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pb9kwPfCFccrmCDgGq7bJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: pb9kwPfCFccrmCDgGq7bJ
 sets: [1HP, BVO, MPG, WTR]
+codes: [1HP077, BVO013, MPG071, WTR067]
 ---
 
 **Debilitate (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

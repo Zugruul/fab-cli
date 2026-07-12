@@ -1,5 +1,5 @@
 ---
-tags: [card, lead-with-speed, lead, speed, brute, warrior, action, go-again, pitch-1, cost-1]
+tags: [card, lead-with-speed, lead, speed, brute, warrior, action, go-again, pitch-1, cost-1, hvy172, ksi016, kyo014, ola018, sdo018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W8LHRTQFddrfnG8ptNjHW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: W8LHRTQFddrfnG8ptNjHW
 sets: [HVY, KSI, KYO, OLA, SDO]
+codes: [HVY172, KSI016, KYO014, OLA018, SDO018]
 ---
 
 **Lead with Speed (red)** — Brute / Warrior Action · cost 1 · 2 defense

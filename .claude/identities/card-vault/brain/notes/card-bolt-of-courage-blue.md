@@ -1,5 +1,5 @@
 ---
-tags: [card, bolt-of-courage, bolt, courage, warrior, light, action, attack, charge, pitch-3, cost-0]
+tags: [card, bolt-of-courage, bolt, courage, warrior, light, action, attack, charge, pitch-3, cost-0, bol022, mon044]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8H9zn9bBbkGfwbDrRjCRQ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: 8H9zn9bBbkGfwbDrRjCRQ
 sets: [BOL, MON]
+codes: [BOL022, MON044]
 ---
 
 **Bolt of Courage (blue)** — Light Warrior Action - Attack · cost 0 · 1 power · 3 defense

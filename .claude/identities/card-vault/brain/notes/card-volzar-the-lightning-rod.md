@@ -1,5 +1,5 @@
 ---
-tags: [card, volzar-the-lightning-rod, volzar, lightning, rod, wizard, weapon, staff, 2h]
+tags: [card, volzar-the-lightning-rod, volzar, lightning, rod, wizard, weapon, staff, 2h, lgs334, osc002, ros021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CzwrwtC7LkmK6mchdpzB7) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Staff, 2H]
 unique-id: CzwrwtC7LkmK6mchdpzB7
 sets: [LGS, OSC, ROS]
+codes: [LGS334, OSC002, ROS021]
 ---
 
 **Volzar, the Lightning Rod** — Lightning Wizard Weapon - Staff (2H)

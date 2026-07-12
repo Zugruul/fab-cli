@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-protection, sigil, protection, generic, action, aura, ward-4, pitch-1, cost-1]
+tags: [card, sigil-of-protection, sigil, protection, generic, action, aura, ward-4, pitch-1, cost-1, upr218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QC96CLBjnjN8qPJz7PGBT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 4]
 unique-id: QC96CLBjnjN8qPJz7PGBT
 sets: [UPR]
+codes: [UPR218]
 ---
 
 **Sigil of Protection (red)** — Generic Action - Aura · cost 1 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tear-through-the-portal, tear, through, portal, shadow, action, go-again, pitch-1, cost-0]
+tags: [card, tear-through-the-portal, tear, through, portal, shadow, action, go-again, pitch-1, cost-0, dtd190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RFMBB9GfNJQLM6GJkRz9W) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: RFMBB9GfNJQLM6GJkRz9W
 sets: [DTD]
+codes: [DTD190]
 ---
 
 **Tear Through the Portal (red)** — Shadow Action · cost 0 · 2 defense

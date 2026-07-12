@@ -1,5 +1,5 @@
 ---
-tags: [card, urgent-delivery, urgent, delivery, mechanologist, action, attack, pitch-1, cost-0]
+tags: [card, urgent-delivery, urgent, delivery, mechanologist, action, attack, pitch-1, cost-0, dyn107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bthDkmzDqLG6dQ6gLprDD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: bthDkmzDqLG6dQ6gLprDD
 sets: [DYN]
+codes: [DYN107]
 ---
 
 **Urgent Delivery (red)** — Mechanologist Action - Attack · cost 0 · 4 power · 3 defense

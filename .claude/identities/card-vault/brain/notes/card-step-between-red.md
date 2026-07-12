@@ -1,5 +1,5 @@
 ---
-tags: [card, step-between, step, between, generic, action, attack, pitch-1, cost-0]
+tags: [card, step-between, step, between, generic, action, attack, pitch-1, cost-0, omn214]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BFczG87kDHQnkhk8FmJnP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: BFczG87kDHQnkhk8FmJnP
 sets: [OMN]
+codes: [OMN214]
 ---
 
 **Step Between (red)** — Generic Action - Attack · cost 0 · 4 power · 2 defense

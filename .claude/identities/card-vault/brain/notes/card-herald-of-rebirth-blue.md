@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-rebirth, herald, rebirth, illusionist, light, action, attack, phantasm, pitch-3, cost-2]
+tags: [card, herald-of-rebirth, herald, rebirth, illusionist, light, action, attack, phantasm, pitch-3, cost-2, dtd022, fab034, mon022, psm018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wHPGqnKDg8mRNzmwfmh8W) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: wHPGqnKDg8mRNzmwfmh8W
 sets: [DTD, FAB, MON, PSM]
+codes: [DTD022, FAB034, MON022, PSM018]
 ---
 
 **Herald of Rebirth (blue)** — Light Illusionist Action - Attack · cost 2 · 5 power · 3 defense

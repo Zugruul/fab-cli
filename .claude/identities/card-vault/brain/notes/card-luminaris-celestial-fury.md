@@ -1,5 +1,5 @@
 ---
-tags: [card, luminaris-celestial-fury, luminaris, celestial, fury, illusionist, light, weapon, scepter, 2h, instant, go-again]
+tags: [card, luminaris-celestial-fury, luminaris, celestial, fury, illusionist, light, weapon, scepter, 2h, instant, go-again, dtd003, fab166, lgs160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z8GG8N7Lkg6BQR7FnWcwp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Scepter, 2H]
 keywords: [Instant, Go again]
 unique-id: z8GG8N7Lkg6BQR7FnWcwp
 sets: [DTD, FAB, LGS]
+codes: [DTD003, FAB166, LGS160]
 ---
 
 **Luminaris, Celestial Fury** — Light Illusionist Weapon - Scepter (2H)

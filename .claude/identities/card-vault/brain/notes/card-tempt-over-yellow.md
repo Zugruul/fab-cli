@@ -1,5 +1,5 @@
 ---
-tags: [card, tempt-over, tempt, over, generic, action, attack, steal, pitch-2, cost-0]
+tags: [card, tempt-over, tempt, over, generic, action, attack, steal, pitch-2, cost-0, omn215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gQztCktdLJmWRdNfPNM6q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Steal]
 unique-id: gQztCktdLJmWRdNfPNM6q
 sets: [OMN]
+codes: [OMN215]
 ---
 
 **Tempt Over (yellow)** — Generic Action - Attack · cost 0 · 3 power · 3 defense

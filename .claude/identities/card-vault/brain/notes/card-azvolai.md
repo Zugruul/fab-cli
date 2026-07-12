@@ -1,5 +1,5 @@
 ---
-tags: [card, azvolai, illusionist, draconic, dragon, ally]
+tags: [card, azvolai, illusionist, draconic, dragon, ally, upr009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wBNMRCQPNBjPcfJwgrf9j) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: wBNMRCQPNBjPcfJwgrf9j
 sets: [UPR]
+codes: [UPR009]
 ---
 
 **Azvolai** — Draconic Illusionist - Dragon Ally · 2 power · 3 health

@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-chests, clash, chests, guardian, block, pitch-2]
+tags: [card, clash-of-chests, clash, chests, guardian, block, pitch-2, mpg048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D7hcKhLqRRjk9JjCwGWmK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: D7hcKhLqRRjk9JjCwGWmK
 sets: [MPG]
+codes: [MPG048]
 ---
 
 **Clash of Chests (yellow)** — Guardian Block · 4 defense

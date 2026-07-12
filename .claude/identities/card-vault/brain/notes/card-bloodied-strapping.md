@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodied-strapping, bloodied, strapping, event, equipment, chest]
+tags: [card, bloodied-strapping, bloodied, strapping, event, equipment, chest, smp015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fMrFHR8DtpGQkCcHDCrDM) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Event, Equipment]
 subtypes: [Chest]
 unique-id: fMrFHR8DtpGQkCcHDCrDM
 sets: [SMP]
+codes: [SMP015]
 ---
 
 **Bloodied Strapping** — Event Equipment - Chest · 0 defense

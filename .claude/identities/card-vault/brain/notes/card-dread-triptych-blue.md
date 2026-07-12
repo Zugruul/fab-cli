@@ -1,5 +1,5 @@
 ---
-tags: [card, dread-triptych, dread, triptych, runeblade, action, attack, pitch-3, cost-3]
+tags: [card, dread-triptych, dread, triptych, runeblade, action, attack, pitch-3, cost-3, 1hp266, cru142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HtQhWhjqqqtPNWbzNPjPf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HtQhWhjqqqtPNWbzNPjPf
 sets: [1HP, CRU]
+codes: [1HP266, CRU142]
 ---
 
 **Dread Triptych (blue)** — Runeblade Action - Attack · cost 3 · 4 power · 3 defense

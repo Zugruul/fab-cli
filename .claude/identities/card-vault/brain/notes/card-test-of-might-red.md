@@ -1,5 +1,5 @@
 ---
-tags: [card, test-of-might, test, might, brute, guardian, block, clash, pitch-1]
+tags: [card, test-of-might, test, might, brute, guardian, block, clash, pitch-1, hvy141, lgs260, ska020, vic012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBwMd7jJGmz7cFKLRDjHd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: QBwMd7jJGmz7cFKLRDjHd
 sets: [HVY, LGS, SKA, VIC]
+codes: [HVY141, LGS260, SKA020, VIC012]
 ---
 
 **Test of Might (red)** — Brute / Guardian Block · 4 defense

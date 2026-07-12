@@ -1,5 +1,5 @@
 ---
-tags: [card, cash-out, cash, out, generic, action, go-again, pitch-3, cost-0]
+tags: [card, cash-out, cash, out, generic, action, go-again, pitch-3, cost-0, evr158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tWjDdc6FFdnDNk7dLgzt7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: tWjDdc6FFdnDNk7dLgzt7
 sets: [EVR]
+codes: [EVR158]
 ---
 
 **Cash Out (blue)** — Generic Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, nimby, generic, action, attack, pitch-1, cost-0]
+tags: [card, nimby, generic, action, attack, pitch-1, cost-0, gem062, sea220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TwN6BKbDJDrJBf7DPGcP8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: TwN6BKbDJDrJBf7DPGcP8
 sets: [GEM, SEA]
+codes: [GEM062, SEA220]
 ---
 
 **Nimby (red)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

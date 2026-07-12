@@ -1,5 +1,5 @@
 ---
-tags: [card, rapturous-applause, rapturous, applause, action, attack, revered, the-crowd-cheers, pitch-1, cost-3]
+tags: [card, rapturous-applause, rapturous, applause, action, attack, revered, the-crowd-cheers, pitch-1, cost-3, sup043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hnc99LmRWtdBFGgrdMNnr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: Hnc99LmRWtdBFGgrdMNnr
 sets: [SUP]
+codes: [SUP043]
 ---
 
 **Rapturous Applause (red)** — Revered Action - Attack · cost 3 · 7 power · 3 defense

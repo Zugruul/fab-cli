@@ -1,5 +1,5 @@
 ---
-tags: [card, tri-shot, tri, shot, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, tri-shot, tri, shot, ranger, action, go-again, pitch-3, cost-0, evr089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6GBcGgr77phGjWjbjNbRn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 6GBcGgr77phGjWjbjNbRn
 sets: [EVR]
+codes: [EVR089]
 ---
 
 **Tri-shot (blue)** — Ranger Action · cost 0 · 3 defense

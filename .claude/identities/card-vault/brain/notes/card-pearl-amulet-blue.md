@@ -1,5 +1,5 @@
 ---
-tags: [card, pearl-amulet, pearl, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0]
+tags: [card, pearl-amulet, pearl, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0, sea193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rKb97mmPGtmm9R9dMDW8d) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary, Watery Grave]
 unique-id: rKb97mmPGtmm9R9dMDW8d
 sets: [SEA]
+codes: [SEA193]
 ---
 
 **Pearl Amulet (blue)** — Generic Action - Item · cost 0

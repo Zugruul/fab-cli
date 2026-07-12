@@ -1,5 +1,5 @@
 ---
-tags: [card, crowd-roars-fight, crowd, roars, fight, event]
+tags: [card, crowd-roars-fight, crowd, roars, fight, event, smp020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fj6DCwFDczkFfd7dtnd9J) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Crowd Roars Fight!"
 types: [Event]
 unique-id: Fj6DCwFDczkFfd7dtnd9J
 sets: [SMP]
+codes: [SMP020]
 ---
 
 **Crowd Roars Fight!** — Event

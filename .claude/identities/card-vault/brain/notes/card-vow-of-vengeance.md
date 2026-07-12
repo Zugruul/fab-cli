@@ -1,5 +1,5 @@
 ---
-tags: [card, vow-of-vengeance, vow, vengeance, draconic, equipment, head, blade-break]
+tags: [card, vow-of-vengeance, vow, vengeance, draconic, equipment, head, blade-break, cin003, fng003, hnt144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtdP6wgpMpd6LJbpJ79TM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: mtdP6wgpMpd6LJbpJ79TM
 sets: [CIN, FNG, HNT]
+codes: [CIN003, FNG003, HNT144]
 ---
 
 **Vow of Vengeance** — Draconic Equipment - Head · 1 defense

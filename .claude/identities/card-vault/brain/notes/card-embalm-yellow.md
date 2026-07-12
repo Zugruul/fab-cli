@@ -1,5 +1,5 @@
 ---
-tags: [card, embalm, shadow, action, go-again, blood-debt, pitch-2, cost-0]
+tags: [card, embalm, shadow, action, go-again, blood-debt, pitch-2, cost-0, pen193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RD7BHJDcDPPKNGPKj7fHP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Blood Debt]
 unique-id: RD7BHJDcDPPKNGPKj7fHP
 sets: [PEN]
+codes: [PEN193]
 ---
 
 **Embalm (yellow)** — Shadow Action · cost 0 · 3 defense

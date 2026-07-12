@@ -1,5 +1,5 @@
 ---
-tags: [card, sedate, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, sedate, assassin, action, attack, stealth, pitch-3, cost-0, ara024, out038, uzu024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qg77MwwLDDmNPnWmtjLPh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: qg77MwwLDDmNPnWmtjLPh
 sets: [ARA, OUT, UZU]
+codes: [ARA024, OUT038, UZU024]
 ---
 
 **Sedate (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

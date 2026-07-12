@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-solace, sigil, solace, generic, instant, pitch-1, cost-0]
+tags: [card, sigil-of-solace, sigil, solace, generic, instant, pitch-1, cost-0, 1hp387, anq036, dro026, fab136, fab178, hnt231, tcc059, wtr173]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kzW8BKdWcm9LwtTCTdqRK) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: kzW8BKdWcm9LwtTCTdqRK
 sets: [1HP, ANQ, DRO, FAB, HNT, TCC, WTR]
+codes: [1HP387, ANQ036, DRO026, FAB136, FAB178, HNT231, TCC059, WTR173]
 ---
 
 **Sigil of Solace (red)** — Generic Instant · cost 0

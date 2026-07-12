@@ -1,5 +1,5 @@
 ---
-tags: [card, high-riser, high, riser, guardian, weapon, hammer, 1h]
+tags: [card, high-riser, high, riser, guardian, weapon, hammer, 1h, bet002, hvy049, lgs239, mpg003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qRkrJ8t9RgGhDgpMpBBFd) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Hammer, 1H]
 unique-id: qRkrJ8t9RgGhDgpMpBBFd
 sets: [BET, HVY, LGS, MPG]
+codes: [BET002, HVY049, LGS239, MPG003]
 ---
 
 **High Riser** — Guardian Weapon - Hammer (1H) · 3 power

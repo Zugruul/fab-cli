@@ -1,5 +1,5 @@
 ---
-tags: [card, meridian-pathway, meridian, pathway, illusionist, mystic, equipment, legs, ward-3]
+tags: [card, meridian-pathway, meridian, pathway, illusionist, mystic, equipment, legs, ward-3, mst027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GgRFLW8zdKbNJtgfFTFkp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Ward 3]
 unique-id: GgRFLW8zdKbNJtgfFTFkp
 sets: [MST]
+codes: [MST027]
 ---
 
 **Meridian Pathway** — Mystic Illusionist Equipment - Legs

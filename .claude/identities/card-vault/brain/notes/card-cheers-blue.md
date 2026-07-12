@@ -1,5 +1,5 @@
 ---
-tags: [card, cheers, action, aura, revered, go-again, the-crowd-cheers, pitch-3, cost-0]
+tags: [card, cheers, action, aura, revered, go-again, the-crowd-cheers, pitch-3, cost-0, lgs434, sup055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KdtJWqCTGNwRGHbhB8dbq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ other-types: [Revered]
 keywords: [Go again, The Crowd Cheers]
 unique-id: KdtJWqCTGNwRGHbhB8dbq
 sets: [LGS, SUP]
+codes: [LGS434, SUP055]
 ---
 
 **Cheers! (blue)** — Revered Action - Aura · cost 0 · 3 defense

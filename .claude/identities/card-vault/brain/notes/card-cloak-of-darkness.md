@@ -1,5 +1,5 @@
 ---
-tags: [card, cloak-of-darkness, cloak, darkness, shadow, equipment, chest, blood-debt]
+tags: [card, cloak-of-darkness, cloak, darkness, shadow, equipment, chest, blood-debt, dtd166]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TtgGwwdkkjjMHBbMztjrG) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Blood Debt]
 unique-id: TtgGwwdkkjjMHBbMztjrG
 sets: [DTD]
+codes: [DTD166]
 ---
 
 **Cloak of Darkness** — Shadow Equipment - Chest

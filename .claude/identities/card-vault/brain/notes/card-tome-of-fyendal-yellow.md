@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-fyendal, tome, fyendal, generic, action, pitch-2, cost-1]
+tags: [card, tome-of-fyendal, tome, fyendal, generic, action, pitch-2, cost-1, 1hp365, wtr160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nbKRgzWzF87HzTG8TWMBw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Action]
 unique-id: nbKRgzWzF87HzTG8TWMBw
 sets: [1HP, WTR]
+codes: [1HP365, WTR160]
 ---
 
 **Tome of Fyendal (yellow)** — Generic Action · cost 1 · 2 defense

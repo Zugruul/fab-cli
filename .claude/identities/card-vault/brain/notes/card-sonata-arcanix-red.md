@@ -1,5 +1,5 @@
 ---
-tags: [card, sonata-arcanix, sonata, arcanix, runeblade, action, go-again, pitch-1]
+tags: [card, sonata-arcanix, sonata, arcanix, runeblade, action, go-again, pitch-1, avs019, mon231]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LwghKjpd8Gch7JHrGLMwP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LwghKjpd8Gch7JHrGLMwP
 sets: [AVS, MON]
+codes: [AVS019, MON231]
 ---
 
 **Sonata Arcanix (red)** — Runeblade Action · cost XX · 2 defense

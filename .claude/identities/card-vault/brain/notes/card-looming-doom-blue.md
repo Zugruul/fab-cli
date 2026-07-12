@@ -1,5 +1,5 @@
 ---
-tags: [card, looming-doom, looming, doom, runeblade, action, aura, pitch-3, cost-3]
+tags: [card, looming-doom, looming, doom, runeblade, action, aura, pitch-3, cost-3, dyn175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NdGdjWwfTnfdWGFL6tRwz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: NdGdjWwfTnfdWGFL6tRwz
 sets: [DYN]
+codes: [DYN175]
 ---
 
 **Looming Doom (blue)** — Runeblade Action - Aura · cost 3 · 3 defense

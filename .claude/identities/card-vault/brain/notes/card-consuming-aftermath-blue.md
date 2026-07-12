@@ -1,5 +1,5 @@
 ---
-tags: [card, consuming-aftermath, consuming, aftermath, shadow, action, attack, dominate, pitch-3, cost-3]
+tags: [card, consuming-aftermath, consuming, aftermath, shadow, action, attack, dominate, pitch-3, cost-3, mon197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tGbgpCzdw6Jzk99PLb9Cm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: tGbgpCzdw6Jzk99PLb9Cm
 sets: [MON]
+codes: [MON197]
 ---
 
 **Consuming Aftermath (blue)** — Shadow Action - Attack · cost 3 · 4 power · 2 defense

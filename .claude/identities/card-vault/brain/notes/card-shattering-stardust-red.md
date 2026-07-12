@@ -1,5 +1,5 @@
 ---
-tags: [card, shattering-stardust, shattering, stardust, illusionist, lightning, action, attack, amp-1, fragment, pitch-1, cost-0]
+tags: [card, shattering-stardust, shattering, stardust, illusionist, lightning, action, attack, amp-1, fragment, pitch-1, cost-0, azs014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f8JQwHjkfMqRtMcFgPCj9) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Amp 1, Fragment]
 unique-id: f8JQwHjkfMqRtMcFgPCj9
 sets: [AZS]
+codes: [AZS014]
 ---
 
 **Shattering Stardust (red)** — Lightning Illusionist Action - Attack · cost 0 · 5 power · 3 defense

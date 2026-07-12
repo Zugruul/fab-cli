@@ -1,5 +1,5 @@
 ---
-tags: [card, hostile-encroachment, hostile, encroachment, guardian, action, attack, crush, pitch-1, cost-3]
+tags: [card, hostile-encroachment, hostile, encroachment, guardian, action, attack, crush, pitch-1, cost-3, fab329, mpg033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NKBJGDhp7TDQ7CzdQtpJM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: NKBJGDhp7TDQ7CzdQtpJM
 sets: [FAB, MPG]
+codes: [FAB329, MPG033]
 ---
 
 **Hostile Encroachment (red)** — Guardian Action - Attack · cost 3 · 8 power · 3 defense

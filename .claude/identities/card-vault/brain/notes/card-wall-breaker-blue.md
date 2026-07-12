@@ -1,5 +1,5 @@
 ---
-tags: [card, wall-breaker, wall, breaker, brute, shadow, action, attack, overpower, blood-debt, pitch-3, cost-2]
+tags: [card, wall-breaker, wall, breaker, brute, shadow, action, attack, overpower, blood-debt, pitch-3, cost-2, dtd117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PPzmrDdFPbkKphtPwrwW7) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Overpower, Blood Debt]
 unique-id: PPzmrDdFPbkKphtPwrwW7
 sets: [DTD]
+codes: [DTD117]
 ---
 
 **Wall Breaker (blue)** — Shadow Brute Action - Attack · cost 2 · 4 power · 3 defense

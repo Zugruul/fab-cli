@@ -1,5 +1,5 @@
 ---
-tags: [card, dream-weavers, dream, weavers, illusionist, equipment, arms, spellvoid-1]
+tags: [card, dream-weavers, dream, weavers, illusionist, equipment, arms, spellvoid-1, mon090, psm006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQbkJKNDtz8TkbPcb6hbF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Spellvoid 1]
 unique-id: CQbkJKNDtz8TkbPcb6hbF
 sets: [MON, PSM]
+codes: [MON090, PSM006]
 ---
 
 **Dream Weavers** — Illusionist Equipment - Arms · 0 defense

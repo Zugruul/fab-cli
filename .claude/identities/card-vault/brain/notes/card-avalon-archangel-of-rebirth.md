@@ -1,5 +1,5 @@
 ---
-tags: [card, avalon-archangel-of-rebirth, avalon, archangel, rebirth, light, angel, ally, ward-4]
+tags: [card, avalon-archangel-of-rebirth, avalon, archangel, rebirth, light, angel, ally, ward-4, dtd009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mc6fWtzKjhpfgWd9h99nh) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: Mc6fWtzKjhpfgWd9h99nh
 sets: [DTD]
+codes: [DTD009]
 ---
 
 **Avalon, Archangel of Rebirth** — Light - Angel Ally · 4 power · 4 health

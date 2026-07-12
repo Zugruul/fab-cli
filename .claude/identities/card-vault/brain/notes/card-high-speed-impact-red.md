@@ -1,5 +1,5 @@
 ---
-tags: [card, high-speed-impact, high, speed, impact, mechanologist, action, attack, boost, dominate, pitch-1, cost-1]
+tags: [card, high-speed-impact, high, speed, impact, mechanologist, action, attack, boost, dominate, pitch-1, cost-1, 1hp193, cru106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7wmJfzLNM6WKW6wNGtTkN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost, Dominate]
 unique-id: 7wmJfzLNM6WKW6wNGtTkN
 sets: [1HP, CRU]
+codes: [1HP193, CRU106]
 ---
 
 **High Speed Impact (red)** — Mechanologist Action - Attack · cost 1 · 4 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, not-so-fast, not, so, fast, pirate, instant, scurv-specialization, pitch-2, cost-0]
+tags: [card, not-so-fast, not, so, fast, pirate, instant, scurv-specialization, pitch-2, cost-0, sea149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F7mqQWTKzmNmMfgmQbHFw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Scurv Specialization]
 unique-id: F7mqQWTKzmNmMfgmQbHFw
 sets: [SEA]
+codes: [SEA149]
 ---
 
 **Not So Fast (yellow)** — Pirate Instant · cost 0

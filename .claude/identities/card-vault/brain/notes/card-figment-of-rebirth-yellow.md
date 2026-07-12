@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-rebirth, figment, rebirth, illusionist, light, instant, legendary, pitch-2, cost-4]
+tags: [card, figment-of-rebirth, figment, rebirth, illusionist, light, instant, legendary, pitch-2, cost-4, dtd009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ThhTfhmkkjr6DJR8hwQjt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary]
 unique-id: ThhTfhmkkjr6DJR8hwQjt
 sets: [DTD]
+codes: [DTD009]
 ---
 
 **Figment of Rebirth (yellow)** — Light Illusionist Instant - Figment · cost 4

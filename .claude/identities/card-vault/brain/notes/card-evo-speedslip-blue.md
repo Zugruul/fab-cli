@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-speedslip, evo, speedslip, mechanologist, instant, equipment, legs, arcane-barrier-1, boost, pitch-3, cost-0]
+tags: [card, evo-speedslip, evo, speedslip, mechanologist, instant, equipment, legs, arcane-barrier-1, boost, pitch-3, cost-0, mst231]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FrqBWn7PHJgkQr7wHMNjq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Legs]
 keywords: [Arcane Barrier 1, Boost]
 unique-id: FrqBWn7PHJgkQr7wHMNjq
 sets: [MST]
+codes: [MST231]
 ---
 
 **Evo Speedslip (blue)** — Mechanologist Instant Equipment - Evo Legs · cost 0 · 0 defense

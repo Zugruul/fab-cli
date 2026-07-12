@@ -1,5 +1,5 @@
 ---
-tags: [card, zen-state, zen, state, ninja, token, aura]
+tags: [card, zen-state, zen, state, ninja, token, aura, 1hp137, cru075, fab244, jdg044, mst189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HhTPF8HGRqhFbTT8HnBBh) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: HhTPF8HGRqhFbTT8HnBBh
 sets: [1HP, CRU, FAB, JDG, MST]
+codes: [1HP137, CRU075, FAB244, JDG044, MST189]
 ---
 
 **Zen State** — Ninja Token - Aura

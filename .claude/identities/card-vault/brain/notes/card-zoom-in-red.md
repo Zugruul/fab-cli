@@ -1,5 +1,5 @@
 ---
-tags: [card, zoom-in, zoom, mechanologist, action, attack, opt-x, boost, pitch-1, cost-2]
+tags: [card, zoom-in, zoom, mechanologist, action, attack, opt-x, boost, pitch-1, cost-2, evr079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mKPhjBjD8Nq9n8c68WmWQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Opt X, Boost]
 unique-id: mKPhjBjD8Nq9n8c68WmWQ
 sets: [EVR]
+codes: [EVR079]
 ---
 
 **Zoom In (red)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

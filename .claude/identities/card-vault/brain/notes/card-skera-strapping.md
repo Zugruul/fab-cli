@@ -1,5 +1,5 @@
 ---
-tags: [card, skera-strapping, skera, strapping, brute, equipment, arms, spellvoid-3]
+tags: [card, skera-strapping, skera, strapping, brute, equipment, arms, spellvoid-3, pen004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LB6wBhCKpBWCJqd9tFR8B) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Spellvoid 3]
 unique-id: LB6wBhCKpBWCJqd9tFR8B
 sets: [PEN]
+codes: [PEN004]
 ---
 
 **Skera Strapping** — Brute Equipment - Arms · 0 defense

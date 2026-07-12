@@ -1,5 +1,5 @@
 ---
-tags: [card, craterhoof, guardian, equipment, legs, battleworn, dominate]
+tags: [card, craterhoof, guardian, equipment, legs, battleworn, dominate, mpg008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8LDQbNHPK7NC9Lg8phzrk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn, Dominate]
 unique-id: 8LDQbNHPK7NC9Lg8phzrk
 sets: [MPG]
+codes: [MPG008]
 ---
 
 **Craterhoof** — Guardian Equipment - Legs · 1 defense

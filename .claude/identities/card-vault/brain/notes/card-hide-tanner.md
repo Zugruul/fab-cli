@@ -1,5 +1,5 @@
 ---
-tags: [card, hide-tanner, hide, tanner, brute, equipment, arms, battleworn]
+tags: [card, hide-tanner, hide, tanner, brute, equipment, arms, battleworn, ako005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MNrGmWN7jTtR99LrWNm7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: 7MNrGmWN7jTtR99LrWNm7
 sets: [AKO]
+codes: [AKO005]
 ---
 
 **Hide Tanner** — Brute Equipment - Arms · 1 defense

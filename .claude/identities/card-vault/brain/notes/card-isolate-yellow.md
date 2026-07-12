@@ -1,5 +1,5 @@
 ---
-tags: [card, isolate, assassin, action, attack, stealth, dominate, pitch-2, cost-0]
+tags: [card, isolate, assassin, action, attack, stealth, dominate, pitch-2, cost-0, out028, uzu018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HHKcFqDJTmCB6bwFzjdcF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Dominate]
 unique-id: HHKcFqDJTmCB6bwFzjdcF
 sets: [OUT, UZU]
+codes: [OUT028, UZU018]
 ---
 
 **Isolate (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

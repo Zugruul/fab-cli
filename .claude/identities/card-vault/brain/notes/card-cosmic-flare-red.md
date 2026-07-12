@@ -1,5 +1,5 @@
 ---
-tags: [card, cosmic-flare, cosmic, flare, lightning, instant, pitch-1, cost-0]
+tags: [card, cosmic-flare, cosmic, flare, lightning, instant, pitch-1, cost-0, omn187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TqcHrNkPMppfprqPbDRRm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: TqcHrNkPMppfprqPbDRRm
 sets: [OMN]
+codes: [OMN187]
 ---
 
 **Cosmic Flare (red)** — Lightning Instant · cost 0

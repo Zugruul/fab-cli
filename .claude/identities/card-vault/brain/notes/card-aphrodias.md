@@ -1,5 +1,5 @@
 ---
-tags: [card, aphrodias, illusionist, lightning, weapon, orb, 2h]
+tags: [card, aphrodias, illusionist, lightning, weapon, orb, 2h, azs002, gem142, omn003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wQmDNJMgNTftTKBHcb9Rc) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Orb, 2H]
 unique-id: wQmDNJMgNTftTKBHcb9Rc
 sets: [AZS, GEM, OMN]
+codes: [AZS002, GEM142, OMN003]
 ---
 
 **Aphrodias** — Lightning Illusionist Weapon - Orb (2H)

@@ -1,5 +1,5 @@
 ---
-tags: [card, ironhide-helm, ironhide, helm, generic, equipment, head]
+tags: [card, ironhide-helm, ironhide, helm, generic, equipment, head, dro005, mon241]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kJJJmpKfCzqkzCM9DW9Nw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: kJJJmpKfCzqkzCM9DW9Nw
 sets: [DRO, MON]
+codes: [DRO005, MON241]
 ---
 
 **Ironhide Helm** — Generic Equipment - Head · 0 defense

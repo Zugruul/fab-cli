@@ -1,5 +1,5 @@
 ---
-tags: [card, entwine-ice, entwine, ice, elemental, action, attack, ice-fusion, dominate, pitch-2, cost-1]
+tags: [card, entwine-ice, entwine, ice, elemental, action, attack, ice-fusion, dominate, pitch-2, cost-1, ele098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gt9gmN9KWC9cDJNbFH7KN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Ice Fusion, Dominate]
 unique-id: gt9gmN9KWC9cDJNbFH7KN
 sets: [ELE]
+codes: [ELE098]
 ---
 
 **Entwine Ice (yellow)** — Elemental Action - Attack · cost 1 · 4 power · 2 defense

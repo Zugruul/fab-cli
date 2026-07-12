@@ -1,5 +1,5 @@
 ---
-tags: [card, falcon-wing, falcon, wing, ranger, action, arrow, attack, go-again, pitch-3, cost-0]
+tags: [card, falcon-wing, falcon, wing, ranger, action, arrow, attack, go-again, pitch-3, cost-0, azl023, out117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MgM8rpdGfh97ChtG7RQ9L) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Go again]
 unique-id: MgM8rpdGfh97ChtG7RQ9L
 sets: [AZL, OUT]
+codes: [AZL023, OUT117]
 ---
 
 **Falcon Wing (blue)** — Ranger Action - Arrow Attack · cost 0 · 1 power · 3 defense

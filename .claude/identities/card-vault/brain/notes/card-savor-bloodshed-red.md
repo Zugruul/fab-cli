@@ -1,5 +1,5 @@
 ---
-tags: [card, savor-bloodshed, savor, bloodshed, assassin, warrior, action, go-again, pitch-1, cost-0]
+tags: [card, savor-bloodshed, savor, bloodshed, assassin, warrior, action, go-again, pitch-1, cost-0, hnt198]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nmc8wLKtTmPhJFb7FH8BG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nmc8wLKtTmPhJFb7FH8BG
 sets: [HNT]
+codes: [HNT198]
 ---
 
 **Savor Bloodshed (red)** — Assassin / Warrior Action · cost 0 · 3 defense

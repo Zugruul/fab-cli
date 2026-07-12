@@ -1,5 +1,5 @@
 ---
-tags: [card, traverse-the-universe, traverse, universe, mystic, equipment, head, blade-break]
+tags: [card, traverse-the-universe, traverse, universe, mystic, equipment, head, blade-break, mst066]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dgBPpWggJ6wkFQG8t9Jqc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: dgBPpWggJ6wkFQG8t9Jqc
 sets: [MST]
+codes: [MST066]
 ---
 
 **Traverse the Universe** — Mystic Equipment - Head · 2 defense

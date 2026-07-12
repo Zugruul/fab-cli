@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-lightning, sigil, lightning, instant, aura, pitch-3, cost-0]
+tags: [card, sigil-of-lightning, sigil, lightning, instant, aura, pitch-3, cost-0, aua026, lgs311, omn200, osc026, ros113]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gzzft6DHbbNJGGCfCJrz7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: gzzft6DHbbNJGGCfCJrz7
 sets: [AUA, LGS, OMN, OSC, ROS]
+codes: [AUA026, LGS311, OMN200, OSC026, ROS113]
 ---
 
 **Sigil of Lightning (blue)** — Lightning Instant - Aura · cost 0

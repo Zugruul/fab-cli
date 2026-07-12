@@ -1,5 +1,5 @@
 ---
-tags: [card, haunting-rendition, haunting, rendition, runeblade, block, pitch-1]
+tags: [card, haunting-rendition, haunting, rendition, runeblade, block, pitch-1, ros120]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qp7f9b6WNBmRWJfPbKtDm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Runeblade]
 types: [Block]
 unique-id: qp7f9b6WNBmRWJfPbKtDm
 sets: [ROS]
+codes: [ROS120]
 ---
 
 **Haunting Rendition (red)** — Runeblade Block · 4 defense

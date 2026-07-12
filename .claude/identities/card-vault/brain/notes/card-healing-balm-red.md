@@ -1,5 +1,5 @@
 ---
-tags: [card, healing-balm, healing, balm, generic, action, pitch-1, cost-0]
+tags: [card, healing-balm, healing, balm, generic, action, pitch-1, cost-0, dro025, upr215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hwFjtcMfQHTbj6whzfhk6) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Action]
 unique-id: hwFjtcMfQHTbj6whzfhk6
 sets: [DRO, UPR]
+codes: [DRO025, UPR215]
 ---
 
 **Healing Balm (red)** — Generic Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, nourishing-emptiness, nourishing, emptiness, generic, action, attack, dominate, pitch-1, cost-2]
+tags: [card, nourishing-emptiness, nourishing, emptiness, generic, action, attack, dominate, pitch-1, cost-2, jdg027, mon246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7Tpfm7Ccf8rKcztfFngM9) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: 7Tpfm7Ccf8rKcztfFngM9
 sets: [JDG, MON]
+codes: [JDG027, MON246]
 ---
 
 **Nourishing Emptiness (red)** — Generic Action - Attack · cost 2 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, power-stance, power, stance, warrior, action, aura, go-again, pitch-3, cost-0]
+tags: [card, power-stance, power, stance, warrior, action, aura, go-again, pitch-3, cost-0, fab314, hnt127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qFzrQChhnbgNcnQ7d9tKW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: qFzrQChhnbgNcnQ7d9tKW
 sets: [FAB, HNT]
+codes: [FAB314, HNT127]
 ---
 
 **Power Stance (blue)** — Warrior Action - Aura · cost 0 · 3 defense

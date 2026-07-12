@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-legs, clash, legs, guardian, block, pitch-2]
+tags: [card, clash-of-legs, clash, legs, guardian, block, pitch-2, mpg050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f7TPgGBKhDGFMRhNGBtBw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: f7TPgGBKhDGFMRhNGBtBw
 sets: [MPG]
+codes: [MPG050]
 ---
 
 **Clash of Legs (yellow)** — Guardian Block · 4 defense

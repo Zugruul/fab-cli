@@ -1,5 +1,5 @@
 ---
-tags: [card, surgical-extraction, surgical, extraction, assassin, action, attack, contract, pitch-3, cost-2]
+tags: [card, surgical-extraction, surgical, extraction, assassin, action, attack, contract, pitch-3, cost-2, dyn122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wkmf8d6QjLGFqWMF8bcw6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: Wkmf8d6QjLGFqWMF8bcw6
 sets: [DYN]
+codes: [DYN122]
 ---
 
 **Surgical Extraction (blue)** — Assassin Action - Attack · cost 2 · 4 power · 3 defense

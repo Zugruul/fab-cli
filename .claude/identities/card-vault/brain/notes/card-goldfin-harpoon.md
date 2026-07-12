@@ -1,5 +1,5 @@
 ---
-tags: [card, goldfin-harpoon, goldfin, harpoon, pirate, ranger, action, arrow, attack, cost-0]
+tags: [card, goldfin-harpoon, goldfin, harpoon, pirate, ranger, action, arrow, attack, cost-0, sea093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9pFJWk6TCzMCLKPB68KG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: p9pFJWk6TCzMCLKPB68KG
 sets: [SEA]
+codes: [SEA093]
 ---
 
 **Goldfin Harpoon** — Pirate Ranger Action - Arrow Attack · cost 0 · 2 power

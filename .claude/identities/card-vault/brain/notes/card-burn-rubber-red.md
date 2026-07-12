@@ -1,5 +1,5 @@
 ---
-tags: [card, burn-rubber, burn, rubber, mechanologist, action, attack, pitch-1, cost-3]
+tags: [card, burn-rubber, burn, rubber, mechanologist, action, attack, pitch-1, cost-3, evo154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jbpNpCbdRQh9bFqg9Mjh6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: jbpNpCbdRQh9bFqg9Mjh6
 sets: [EVO]
+codes: [EVO154]
 ---
 
 **Burn Rubber (red)** — Mechanologist Action - Attack · cost 3 · 5 power · 3 defense

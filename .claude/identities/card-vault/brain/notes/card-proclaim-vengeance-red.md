@@ -1,5 +1,5 @@
 ---
-tags: [card, proclaim-vengeance, proclaim, vengeance, draconic, instant, mark, pitch-1, cost-0]
+tags: [card, proclaim-vengeance, proclaim, vengeance, draconic, instant, mark, pitch-1, cost-0, gem018, hnt165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G7WBwbd7TnnMMp8R9tkMw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Mark]
 unique-id: G7WBwbd7TnnMMp8R9tkMw
 sets: [GEM, HNT]
+codes: [GEM018, HNT165]
 ---
 
 **Proclaim Vengeance (red)** — Draconic Instant · cost 0

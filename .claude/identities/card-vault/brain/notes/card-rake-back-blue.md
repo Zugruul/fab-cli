@@ -1,5 +1,5 @@
 ---
-tags: [card, rake-back, rake, back, warrior, action, go-again, wager, pitch-3, cost-2]
+tags: [card, rake-back, rake, back, warrior, action, go-again, wager, pitch-3, cost-2, mpw033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tPwwHTwt6hkdjgfzDtMfB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Wager]
 unique-id: tPwwHTwt6hkdjgfzDtMfB
 sets: [MPW]
+codes: [MPW033]
 ---
 
 **Rake Back (blue)** — Warrior Action · cost 2 · 3 defense

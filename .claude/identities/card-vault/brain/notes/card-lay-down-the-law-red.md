@@ -1,5 +1,5 @@
 ---
-tags: [card, lay-down-the-law, lay, down, law, guardian, action, attack, tower, pitch-1, cost-3]
+tags: [card, lay-down-the-law, lay, down, law, guardian, action, attack, tower, pitch-1, cost-3, hvy063, tcc035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid trdLjTnNnn6NjM7DzrcQh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Tower]
 unique-id: trdLjTnNnn6NjM7DzrcQh
 sets: [HVY, TCC]
+codes: [HVY063, TCC035]
 ---
 
 **Lay Down the Law (red)** — Guardian Action - Attack · cost 3 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rough-up, rough, up, brute, action, attack, pitch-1, cost-2]
+tags: [card, rough-up, rough, up, brute, action, attack, pitch-1, cost-2, ska016, sup158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fHdJPFcMkDBRMTqThPG7w) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: fHdJPFcMkDBRMTqThPG7w
 sets: [SKA, SUP]
+codes: [SKA016, SUP158]
 ---
 
 **Rough Up (red)** — Brute Action - Attack · cost 2 · 6 power · 3 defense

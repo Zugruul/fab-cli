@@ -1,5 +1,5 @@
 ---
-tags: [card, lace-with-inertia, lace, inertia, ranger, action, go-again, pitch-1, cost-0]
+tags: [card, lace-with-inertia, lace, inertia, ranger, action, go-again, pitch-1, cost-0, aaz019, lgs136, out114, saz024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n877nqgWkLDfjQBwM7DM7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: n877nqgWkLDfjQBwM7DM7
 sets: [AAZ, LGS, OUT, SAZ]
+codes: [AAZ019, LGS136, OUT114, SAZ024]
 ---
 
 **Lace with Inertia (red)** — Ranger Action · cost 0 · 2 defense

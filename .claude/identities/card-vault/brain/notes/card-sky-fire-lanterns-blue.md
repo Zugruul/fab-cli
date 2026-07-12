@@ -1,5 +1,5 @@
 ---
-tags: [card, sky-fire-lanterns, sky, fire, lanterns, runeblade, action, go-again, pitch-3, cost-0]
+tags: [card, sky-fire-lanterns, sky, fire, lanterns, runeblade, action, go-again, pitch-3, cost-0, dyn190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LhNtnmRzpc7mfbcgDcJk8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LhNtnmRzpc7mfbcgDcJk8
 sets: [DYN]
+codes: [DYN190]
 ---
 
 **Sky Fire Lanterns (blue)** — Runeblade Action · cost 0 · 2 defense

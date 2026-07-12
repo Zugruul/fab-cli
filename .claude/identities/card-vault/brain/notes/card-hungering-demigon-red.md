@@ -1,5 +1,5 @@
 ---
-tags: [card, hungering-demigon, hungering, demigon, shadow, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, hungering-demigon, hungering, demigon, shadow, action, attack, blood-debt, pitch-1, cost-2, dtd172, lgs165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCTrnKTgwNCWbWrMFDTHr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: bCTrnKTgwNCWbWrMFDTHr
 sets: [DTD, LGS]
+codes: [DTD172, LGS165]
 ---
 
 **Hungering Demigon (red)** — Shadow Action - Attack · cost 2 · 6 power · 3 defense

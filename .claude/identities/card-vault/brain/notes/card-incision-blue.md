@@ -1,5 +1,5 @@
 ---
-tags: [card, incision, assassin, warrior, attack-reaction, pitch-3, cost-0]
+tags: [card, incision, assassin, warrior, attack-reaction, pitch-3, cost-0, ark023, hnt207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RNrdzq87MmgFMG6WPHhhz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Warrior]
 types: [Attack Reaction]
 unique-id: RNrdzq87MmgFMG6WPHhhz
 sets: [ARK, HNT]
+codes: [ARK023, HNT207]
 ---
 
 **Incision (blue)** — Assassin / Warrior Attack Reaction · cost 0 · 3 defense

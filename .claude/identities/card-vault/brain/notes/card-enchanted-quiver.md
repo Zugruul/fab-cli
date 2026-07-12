@@ -1,5 +1,5 @@
 ---
-tags: [card, enchanted-quiver, enchanted, quiver, ranger, equipment]
+tags: [card, enchanted-quiver, enchanted, quiver, ranger, equipment, hnt252]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWPHzh8wWpWNgwmQWgt7C) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Quiver]
 unique-id: CWPHzh8wWpWNgwmQWgt7C
 sets: [HNT]
+codes: [HNT252]
 ---
 
 **Enchanted Quiver** — Ranger Equipment - Quiver

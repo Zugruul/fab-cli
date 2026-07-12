@@ -1,5 +1,5 @@
 ---
-tags: [card, silversheen-needle, silversheen, needle, generic, equipment, off-hand, go-again]
+tags: [card, silversheen-needle, silversheen, needle, generic, equipment, off-hand, go-again, lss009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NmgpFhWdc8zCKPKMBmttP) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Off-Hand]
 keywords: [Go again]
 unique-id: NmgpFhWdc8zCKPKMBmttP
 sets: [LSS]
+codes: [LSS009]
 ---
 
 **Silversheen Needle** — Generic Equipment - Off-Hand

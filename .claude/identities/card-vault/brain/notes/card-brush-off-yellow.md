@@ -1,5 +1,5 @@
 ---
-tags: [card, brush-off, brush, off, generic, instant, pitch-2, cost-0]
+tags: [card, brush-off, brush, off, generic, instant, pitch-2, cost-0, omn223, out229, ros235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H6HqHg669zTz9nb6qGdcg) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: H6HqHg669zTz9nb6qGdcg
 sets: [OMN, OUT, ROS]
+codes: [OMN223, OUT229, ROS235]
 ---
 
 **Brush Off (yellow)** — Generic Instant · cost 0

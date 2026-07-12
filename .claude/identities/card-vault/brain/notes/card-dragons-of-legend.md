@@ -1,5 +1,5 @@
 ---
-tags: [card, dragons-of-legend, dragons, legend, invocation, placeholder-card]
+tags: [card, dragons-of-legend, dragons, legend, invocation, placeholder-card, upr225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nFBgGfC6HwTwNFCgmnCRn) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ types: [Invocation, Placeholder Card]
 other-types: [Invocation, Placeholder Card]
 unique-id: nFBgGfC6HwTwNFCgmnCRn
 sets: [UPR]
+codes: [UPR225]
 ---
 
 **Dragons of Legend** — Invocation Placeholder Card

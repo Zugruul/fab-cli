@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-desire-soul, art, desire, soul, assassin, action, attack, stealth, pitch-2, cost-0]
+tags: [card, art-of-desire-soul, art, desire, soul, assassin, action, attack, stealth, pitch-2, cost-0, mst107]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8rJMBH8Bm7WcLrH8T9WbN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 8rJMBH8Bm7WcLrH8T9WbN
 sets: [MST]
+codes: [MST107]
 ---
 
 **Art of Desire: Soul (yellow)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

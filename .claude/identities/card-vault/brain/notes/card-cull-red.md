@@ -1,5 +1,5 @@
 ---
-tags: [card, cull, runeblade, shadow, action, blood-debt, pitch-1, cost-0]
+tags: [card, cull, runeblade, shadow, action, blood-debt, pitch-1, cost-0, hnt259]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7RhQ7rthWCfHkgfdHFFJm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: 7RhQ7rthWCfHkgfdHFFJm
 sets: [HNT]
+codes: [HNT259]
 ---
 
 **Cull (red)** — Shadow, Runeblade, Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, kelpie-tangled-mess, kelpie, tangled, mess, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-0]
+tags: [card, kelpie-tangled-mess, kelpie, tangled, mess, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-0, lgs404, sea059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCKrPkcL9crDhmNhQTnPc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: QCKrPkcL9crDhmNhQTnPc
 sets: [LGS, SEA]
+codes: [LGS404, SEA059]
 ---
 
 **Kelpie, Tangled Mess (yellow)** — Pirate Necromancer Action - Ally · cost 0 · 1 power · 3 health

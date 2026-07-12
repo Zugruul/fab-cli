@@ -1,5 +1,5 @@
 ---
-tags: [card, cogwerx-base-legs, cogwerx, base, legs, mechanologist, equipment]
+tags: [card, cogwerx-base-legs, cogwerx, base, legs, mechanologist, equipment, evo017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6cgRTrMmWfjk6hCLH9Jt) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Base, Legs]
 unique-id: p6cgRTrMmWfjk6hCLH9Jt
 sets: [EVO]
+codes: [EVO017]
 ---
 
 **Cogwerx Base Legs** — Mechanologist Equipment - Base Legs

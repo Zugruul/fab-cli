@@ -1,5 +1,5 @@
 ---
-tags: [card, under-loop, under, loop, mechanologist, action, attack, boost, pitch-3, cost-1]
+tags: [card, under-loop, under, loop, mechanologist, action, attack, boost, pitch-3, cost-1, evo218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tkh7Bb7tfHCfKPfMLchCP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: tkh7Bb7tfHCfKPfMLchCP
 sets: [EVO]
+codes: [EVO218]
 ---
 
 **Under Loop (blue)** — Mechanologist Action - Attack · cost 1 · 2 power · 3 defense

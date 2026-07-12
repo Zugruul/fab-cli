@@ -1,5 +1,5 @@
 ---
-tags: [card, drop-the-anchor, drop, anchor, ranger, action, go-again, pitch-1, cost-0]
+tags: [card, drop-the-anchor, drop, anchor, ranger, action, go-again, pitch-1, cost-0, saz021, sea100]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nzhkqMtnDtP7HP8NRWpTP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nzhkqMtnDtP7HP8NRWpTP
 sets: [SAZ, SEA]
+codes: [SAZ021, SEA100]
 ---
 
 **Drop the Anchor (red)** — Ranger Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, v-for-valor, valor, warrior, light, action, aura, pitch-2, cost-0]
+tags: [card, v-for-valor, valor, warrior, light, action, aura, pitch-2, cost-0, dtd061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dhwrK7dkJkdwjFBjJWHg9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: dhwrK7dkJkdwjFBjJWHg9
 sets: [DTD]
+codes: [DTD061]
 ---
 
 **V for Valor (yellow)** — Light Warrior Action - Aura · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, imperial-seal-of-command, imperial, seal, command, generic, action, item, legendary, pitch-1, cost-0]
+tags: [card, imperial-seal-of-command, imperial, seal, command, generic, action, item, legendary, pitch-1, cost-0, fab305, hnt228]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHB7WdBLKPhLTzJHTWJQq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary]
 unique-id: RHB7WdBLKPhLTzJHTWJQq
 sets: [FAB, HNT]
+codes: [FAB305, HNT228]
 ---
 
 **Imperial Seal of Command (red)** — Generic Action - Item · cost 0

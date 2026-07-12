@@ -1,5 +1,5 @@
 ---
-tags: [card, scour, wizard, action, pitch-3]
+tags: [card, scour, wizard, action, pitch-3, evr124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9hDNGJWktKbqR8bFFzmMf) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: 9hDNGJWktKbqR8bFFzmMf
 sets: [EVR]
+codes: [EVR124]
 ---
 
 **Scour (blue)** — Wizard Action · cost X · 3 defense

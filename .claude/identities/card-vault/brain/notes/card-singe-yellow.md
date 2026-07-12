@@ -1,5 +1,5 @@
 ---
-tags: [card, singe, wizard, action, pitch-2, cost-1]
+tags: [card, singe, wizard, action, pitch-2, cost-1, upr180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h7MzmDDJRnbDwtMjqfcm6) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: h7MzmDDJRnbDwtMjqfcm6
 sets: [UPR]
+codes: [UPR180]
 ---
 
 **Singe (yellow)** — Wizard Action · cost 1 · 3 defense

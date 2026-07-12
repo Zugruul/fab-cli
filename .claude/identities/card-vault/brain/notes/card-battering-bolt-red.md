@@ -1,5 +1,5 @@
 ---
-tags: [card, battering-bolt, battering, bolt, ranger, action, arrow, attack, pitch-1, cost-2]
+tags: [card, battering-bolt, battering, bolt, ranger, action, arrow, attack, pitch-1, cost-2, evr088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jnptttBbHJCwHBC99PMkF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: jnptttBbHJCwHBC99PMkF
 sets: [EVR]
+codes: [EVR088]
 ---
 
 **Battering Bolt (red)** — Ranger Action - Arrow Attack · cost 2 · 6 power · 3 defense

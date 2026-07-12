@@ -1,5 +1,5 @@
 ---
-tags: [card, annals-of-sutcliffe, annals, sutcliffe, runeblade, weapon, book, 2h]
+tags: [card, annals-of-sutcliffe, annals, sutcliffe, runeblade, weapon, book, 2h, dyn172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9gnHtCMJBbDQjqk8cWmhN) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Book, 2H]
 unique-id: 9gnHtCMJBbDQjqk8cWmhN
 sets: [DYN]
+codes: [DYN172]
 ---
 
 **Annals of Sutcliffe** — Runeblade Weapon - Book (2H)

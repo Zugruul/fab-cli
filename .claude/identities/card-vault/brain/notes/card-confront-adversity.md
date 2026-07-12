@@ -1,5 +1,5 @@
 ---
-tags: [card, confront-adversity, confront, adversity, generic, equipment, chest, blade-break]
+tags: [card, confront-adversity, confront, adversity, generic, equipment, chest, blade-break, hvy199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GtL9zmpkGKMqgBcFfCQgN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: GtL9zmpkGKMqgBcFfCQgN
 sets: [HVY]
+codes: [HVY199]
 ---
 
 **Confront Adversity** — Generic Equipment - Chest · 2 defense

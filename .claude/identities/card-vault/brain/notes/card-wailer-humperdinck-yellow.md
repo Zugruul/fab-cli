@@ -1,5 +1,5 @@
 ---
-tags: [card, wailer-humperdinck, wailer, humperdinck, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-6]
+tags: [card, wailer-humperdinck, wailer, humperdinck, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-6, gem048, sea052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jqwmB7FLCpBPgTJz9ztGJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: jqwmB7FLCpBPgTJz9ztGJ
 sets: [GEM, SEA]
+codes: [GEM048, SEA052]
 ---
 
 **Wailer Humperdinck (yellow)** — Pirate Necromancer Action - Ally · cost 6 · 11 power · 7 health

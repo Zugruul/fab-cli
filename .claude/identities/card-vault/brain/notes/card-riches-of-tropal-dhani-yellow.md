@@ -1,5 +1,5 @@
 ---
-tags: [card, riches-of-tropal-dhani, riches, tropal, dhani, generic, resource, gem, legendary, pitch-2]
+tags: [card, riches-of-tropal-dhani, riches, tropal, dhani, generic, resource, gem, legendary, pitch-2, anq003, sea000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TwgRkcgHd9bW9Fb8JjwdF) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: TwgRkcgHd9bW9Fb8JjwdF
 sets: [ANQ, SEA]
+codes: [ANQ003, SEA000]
 ---
 
 **Riches of Trōpal-Dhani (yellow)** — Generic Resource - Gem

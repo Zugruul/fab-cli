@@ -1,5 +1,5 @@
 ---
-tags: [card, pulse-of-candlehold, pulse, candlehold, earth, lightning, action, legendary, go-again, pitch-2, cost-0]
+tags: [card, pulse-of-candlehold, pulse, candlehold, earth, lightning, action, legendary, go-again, pitch-2, cost-0, ele113]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LChfNqqwjw9Njbdntwcz7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Legendary, Go again]
 unique-id: LChfNqqwjw9Njbdntwcz7
 sets: [ELE]
+codes: [ELE113]
 ---
 
 **Pulse of Candlehold (yellow)** — Earth Lightning Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, weave-earth, weave, earth, action, go-again, pitch-3, cost-0]
+tags: [card, weave-earth, weave, earth, action, go-again, pitch-3, cost-0, ele124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rQw9rhKpgW6Lt7hWJq87J) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rQw9rhKpgW6Lt7hWJq87J
 sets: [ELE]
+codes: [ELE124]
 ---
 
 **Weave Earth (blue)** — Earth Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, teklovossen, mechanologist, hero, young]
+tags: [card, teklovossen, mechanologist, hero, young, evo008, her093, her099, pen339]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6PPFnJ8tNtPKN6Km7NWpp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Mechanologist]
 types: [Hero]
 unique-id: 6PPFnJ8tNtPKN6Km7NWpp
 sets: [EVO, HER, PEN]
+codes: [EVO008, HER093, HER099, PEN339]
 ---
 
 **Teklovossen** — Mechanologist Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, burn-them-all, burn, them, all, illusionist, draconic, action, aura, go-again, pitch-1, cost-0]
+tags: [card, burn-them-all, burn, them, all, illusionist, draconic, action, aura, go-again, pitch-1, cost-0, upr005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TKBfNBhjRmp7qF9rMQ9bK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: TKBfNBhjRmp7qF9rMQ9bK
 sets: [UPR]
+codes: [UPR005]
 ---
 
 **Burn Them All (red)** — Draconic Illusionist Action - Aura · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-butcher, soul, butcher, shadow, action, attack, blood-debt, pitch-1, cost-2]
+tags: [card, soul-butcher, soul, butcher, shadow, action, attack, blood-debt, pitch-1, cost-2, dtd181]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LPRLWKpH6RBtzL6Jh7L7z) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: LPRLWKpH6RBtzL6Jh7L7z
 sets: [DTD]
+codes: [DTD181]
 ---
 
 **Soul Butcher (red)** — Shadow Action - Attack · cost 2 · 6 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-ashwing, aether, ashwing, illusionist, draconic, token, dragon, ally, arcane-barrier-1]
+tags: [card, aether-ashwing, aether, ashwing, illusionist, draconic, token, dragon, ally, arcane-barrier-1, dro003, upr042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pLwDDWbJgbKkQCpzDrc7Q) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Dragon, Ally]
 keywords: [Arcane Barrier 1]
 unique-id: pLwDDWbJgbKkQCpzDrc7Q
 sets: [DRO, UPR]
+codes: [DRO003, UPR042]
 ---
 
 **Aether Ashwing** — Draconic Illusionist Token - Dragon Ally · 1 power · 1 health

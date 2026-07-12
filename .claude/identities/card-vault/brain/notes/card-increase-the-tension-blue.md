@@ -1,5 +1,5 @@
 ---
-tags: [card, increase-the-tension, increase, tension, ranger, action, go-again, pitch-3, cost-1]
+tags: [card, increase-the-tension, increase, tension, ranger, action, go-again, pitch-3, cost-1, cru137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nnJzbrqgGRnJ8bbLjQPtN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nnJzbrqgGRnJ8bbLjQPtN
 sets: [CRU]
+codes: [CRU137]
 ---
 
 **Increase the Tension (blue)** — Ranger Action · cost 1 · 2 defense

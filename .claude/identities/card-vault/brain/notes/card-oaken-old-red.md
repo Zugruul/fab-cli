@@ -1,5 +1,5 @@
 ---
-tags: [card, oaken-old, oaken, old, guardian, elemental, action, attack, earth-and-ice-fusion, dominate, pitch-1, cost-3]
+tags: [card, oaken-old, oaken, old, guardian, elemental, action, attack, earth-and-ice-fusion, dominate, pitch-1, cost-3, ele005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JfJ7hNnCDL9GDCwfrWBBc) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth and Ice Fusion, Dominate]
 unique-id: JfJ7hNnCDL9GDCwfrWBBc
 sets: [ELE]
+codes: [ELE005]
 ---
 
 **Oaken Old (red)** — Elemental Guardian Action - Attack · cost 3 · 7 power · 3 defense

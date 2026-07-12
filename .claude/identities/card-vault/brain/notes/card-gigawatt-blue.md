@@ -1,5 +1,5 @@
 ---
-tags: [card, gigawatt, mechanologist, action, go-again, pitch-3, cost-1]
+tags: [card, gigawatt, mechanologist, action, go-again, pitch-3, cost-1, evo158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LqjLWfPCwPRnNCmJzn7Bg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LqjLWfPCwPRnNCmJzn7Bg
 sets: [EVO]
+codes: [EVO158]
 ---
 
 **Gigawatt (blue)** — Mechanologist Action · cost 1 · 2 defense

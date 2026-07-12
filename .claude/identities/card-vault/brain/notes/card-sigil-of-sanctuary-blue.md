@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-sanctuary, sigil, sanctuary, earth, instant, aura, arcane-shelter-1, pitch-3, cost-0]
+tags: [card, sigil-of-sanctuary, sigil, sanctuary, earth, instant, aura, arcane-shelter-1, pitch-3, cost-0, flr026, lgs323, ros045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pW9RcR7zcbrJDfgGFdrgR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Arcane Shelter 1]
 unique-id: pW9RcR7zcbrJDfgGFdrgR
 sets: [FLR, LGS, ROS]
+codes: [FLR026, LGS323, ROS045]
 ---
 
 **Sigil of Sanctuary (blue)** — Earth Instant - Aura · cost 0

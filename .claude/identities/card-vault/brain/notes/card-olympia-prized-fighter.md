@@ -1,5 +1,5 @@
 ---
-tags: [card, olympia-prized-fighter, olympia, prized, fighter, warrior, hero, adult]
+tags: [card, olympia-prized-fighter, olympia, prized, fighter, warrior, hero, adult, aol001, her107, her170, hvy092, win032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JqrM7dbgfG87L6tPghrM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: 9JqrM7dbgfG87L6tPghrM
 sets: [AOL, HER, HVY, WIN]
+codes: [AOL001, HER107, HER170, HVY092, WIN032]
 ---
 
 **Olympia, Prized Fighter** — Warrior Hero · 40 health · 4 int

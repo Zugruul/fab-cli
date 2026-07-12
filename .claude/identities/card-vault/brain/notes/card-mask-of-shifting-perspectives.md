@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-shifting-perspectives, mask, shifting, perspectives, assassin, ninja, equipment, head, blade-break]
+tags: [card, mask-of-shifting-perspectives, mask, shifting, perspectives, assassin, ninja, equipment, head, blade-break, ben003, out140, uzu003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bbr8GPmnDkdphMkdpWkcM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: bbr8GPmnDkdphMkdpWkcM
 sets: [BEN, OUT, UZU]
+codes: [BEN003, OUT140, UZU003]
 ---
 
 **Mask of Shifting Perspectives** — Assassin / Ninja Equipment - Head · 1 defense

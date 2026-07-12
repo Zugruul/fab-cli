@@ -1,5 +1,5 @@
 ---
-tags: [card, pain-in-the-backside, pain, backside, assassin, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, pain-in-the-backside, pain, backside, assassin, ninja, action, attack, go-again, pitch-1, cost-0, hnt174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6LPcMrTJHqQGMctQKWTQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: N6LPcMrTJHqQGMctQKWTQ
 sets: [HNT]
+codes: [HNT174]
 ---
 
 **Pain in the Backside (red)** — Assassin / Ninja Action - Attack · cost 0 · 3 power · 2 defense

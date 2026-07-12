@@ -1,5 +1,5 @@
 ---
-tags: [card, extinguish-the-flames, extinguish, flames, assassin, action, attack, stealth, contract, pitch-1, cost-0]
+tags: [card, extinguish-the-flames, extinguish, flames, assassin, action, attack, stealth, contract, pitch-1, cost-0, hnt031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CzcCpTjr7dMR96NzwhLdk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Contract]
 unique-id: CzcCpTjr7dMR96NzwhLdk
 sets: [HNT]
+codes: [HNT031]
 ---
 
 **Extinguish the Flames (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

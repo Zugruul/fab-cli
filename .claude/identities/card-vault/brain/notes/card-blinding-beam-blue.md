@@ -1,5 +1,5 @@
 ---
-tags: [card, blinding-beam, blinding, beam, light, instant, pitch-3, cost-1]
+tags: [card, blinding-beam, blinding, beam, light, instant, pitch-3, cost-1, mon086]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BRpW7fcWGrCNrL6F67kkc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Instant]
 unique-id: BRpW7fcWGrCNrL6F67kkc
 sets: [MON]
+codes: [MON086]
 ---
 
 **Blinding Beam (blue)** — Light Instant · cost 1

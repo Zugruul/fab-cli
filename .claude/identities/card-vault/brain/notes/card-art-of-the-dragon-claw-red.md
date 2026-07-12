@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-the-dragon-claw, art, dragon, claw, ninja, action, attack, pitch-1, cost-1]
+tags: [card, art-of-the-dragon-claw, art, dragon, claw, ninja, action, attack, pitch-1, cost-1, fab308, hnt074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NFwCqzTPKgDMPwMdFhbP7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: NFwCqzTPKgDMPwMdFhbP7
 sets: [FAB, HNT]
+codes: [FAB308, HNT074]
 ---
 
 **Art of the Dragon: Claw (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

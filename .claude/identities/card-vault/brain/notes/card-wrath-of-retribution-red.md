@@ -1,5 +1,5 @@
 ---
-tags: [card, wrath-of-retribution, wrath, retribution, ninja, draconic, action, attack, legendary, go-again, pitch-1, cost-3]
+tags: [card, wrath-of-retribution, wrath, retribution, ninja, draconic, action, attack, legendary, go-again, pitch-1, cost-3, cin021, hnt061]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7pkFmgqjTzWQnPg7PLHDw) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Legendary, Go again]
 unique-id: 7pkFmgqjTzWQnPg7PLHDw
 sets: [CIN, HNT]
+codes: [CIN021, HNT061]
 ---
 
 **Wrath of Retribution (red)** — Draconic Ninja Action - Attack · cost 3 · 3 power · 3 defense

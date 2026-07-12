@@ -1,5 +1,5 @@
 ---
-tags: [card, brand-with-cinderclaw, brand, cinderclaw, ninja, draconic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, brand-with-cinderclaw, brand, cinderclaw, ninja, draconic, action, attack, go-again, pitch-3, cost-0, sfa031, upr062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KpmrMGn8pRtQnBbdCznbf) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: KpmrMGn8pRtQnBbdCznbf
 sets: [SFA, UPR]
+codes: [SFA031, UPR062]
 ---
 
 **Brand with Cinderclaw (blue)** — Draconic Ninja Action - Attack · cost 0 · 1 power · 2 defense

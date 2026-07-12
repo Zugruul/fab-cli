@@ -1,5 +1,5 @@
 ---
-tags: [card, gauntlets-of-tyrannical-rex, gauntlets, tyrannical, rex, brute, equipment, arms, temper]
+tags: [card, gauntlets-of-tyrannical-rex, gauntlets, tyrannical, rex, brute, equipment, arms, temper, sup125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pFdwP78gRGn89wqbB9prr) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Temper]
 unique-id: pFdwP78gRGn89wqbB9prr
 sets: [SUP]
+codes: [SUP125]
 ---
 
 **Gauntlets of Tyrannical Rex** — Brute Equipment - Arms · 2 defense

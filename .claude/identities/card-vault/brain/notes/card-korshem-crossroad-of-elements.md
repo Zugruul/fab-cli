@@ -1,5 +1,5 @@
 ---
-tags: [card, korshem-crossroad-of-elements, korshem, crossroad, elements, elemental, action, landmark, legendary, go-again, cost-1]
+tags: [card, korshem-crossroad-of-elements, korshem, crossroad, elements, elemental, action, landmark, legendary, go-again, cost-1, ele000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jbDgmHNWr6GGD6GqmBCTf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Landmark]
 keywords: [Legendary, Go again]
 unique-id: jbDgmHNWr6GGD6GqmBCTf
 sets: [ELE]
+codes: [ELE000]
 ---
 
 **Korshem, Crossroad of Elements** — Elemental Action - Landmark · cost 1

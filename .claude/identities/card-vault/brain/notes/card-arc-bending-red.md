@@ -1,5 +1,5 @@
 ---
-tags: [card, arc-bending, arc, bending, ranger, elemental, action, arrow, attack, lightning-bond, go-again, pitch-1, cost-1]
+tags: [card, arc-bending, arc, bending, ranger, elemental, action, arrow, attack, lightning-bond, go-again, pitch-1, cost-1, pen202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NQWmfLtTzfWhgHqwznD7g) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Lightning Bond, Go again]
 unique-id: NQWmfLtTzfWhgHqwznD7g
 sets: [PEN]
+codes: [PEN202]
 ---
 
 **Arc Bending (red)** — Elemental Ranger Action - Arrow Attack · cost 1 · 5 power · 3 defense

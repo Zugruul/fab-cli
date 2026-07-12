@@ -1,5 +1,5 @@
 ---
-tags: [card, cheap-shot, cheap, shot, action, reviled, pitch-2, cost-0]
+tags: [card, cheap-shot, cheap, shot, action, reviled, pitch-2, cost-0, sup094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQzMRpfQWLmdbqNQqjWnH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 other-types: [Reviled]
 unique-id: PQzMRpfQWLmdbqNQqjWnH
 sets: [SUP]
+codes: [SUP094]
 ---
 
 **Cheap Shot (yellow)** — Reviled Action · cost 0 · 2 defense

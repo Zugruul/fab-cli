@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-on-her-hands, blood, her, hands, warrior, action, kassai-specialization, go-again, pitch-2, cost-0]
+tags: [card, blood-on-her-hands, blood, her, hands, warrior, action, kassai-specialization, go-again, pitch-2, cost-0, evr055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHrBnDBNJwLh8PDLGBmch) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Kassai Specialization, Go again]
 unique-id: RHrBnDBNJwLh8PDLGBmch
 sets: [EVR]
+codes: [EVR055]
 ---
 
 **Blood on Her Hands (yellow)** — Warrior Action · cost 0 · 3 defense

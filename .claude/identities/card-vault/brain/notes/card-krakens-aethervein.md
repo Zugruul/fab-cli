@@ -1,5 +1,5 @@
 ---
-tags: [card, krakens-aethervein, krakens, aethervein, wizard, weapon, staff, 2h]
+tags: [card, krakens-aethervein, krakens, aethervein, wizard, weapon, staff, 2h, evr121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cd6PTGH6CqTHmt7LQmBMp) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Staff, 2H]
 unique-id: Cd6PTGH6CqTHmt7LQmBMp
 sets: [EVR]
+codes: [EVR121]
 ---
 
 **Kraken's Aethervein** — Wizard Weapon - Staff (2H)

@@ -1,5 +1,5 @@
 ---
-tags: [card, mugenshi-release, mugenshi, release, ninja, action, attack, katsu-specialization, combo, go-again, pitch-2, cost-1]
+tags: [card, mugenshi-release, mugenshi, release, ninja, action, attack, katsu-specialization, combo, go-again, pitch-2, cost-1, 1hp102, wtr083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zjzpNfJzKkkQPptTjCthC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Katsu Specialization, Combo, Go again]
 unique-id: zjzpNfJzKkkQPptTjCthC
 sets: [1HP, WTR]
+codes: [1HP102, WTR083]
 ---
 
 **Mugenshi: RELEASE (yellow)** — Ninja Action - Attack · cost 1 · 4 power · 3 defense

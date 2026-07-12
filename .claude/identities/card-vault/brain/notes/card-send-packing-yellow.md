@@ -1,5 +1,5 @@
 ---
-tags: [card, send-packing, send, packing, brute, action, attack, pitch-2, cost-3]
+tags: [card, send-packing, send, packing, brute, action, attack, pitch-2, cost-3, hvy012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WQtbdGwPbtmLmmkRjQzqj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WQtbdGwPbtmLmmkRjQzqj
 sets: [HVY]
+codes: [HVY012]
 ---
 
 **Send Packing (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-momentum, mask, momentum, ninja, equipment, head, blade-break]
+tags: [card, mask-of-momentum, mask, momentum, ninja, equipment, head, blade-break, 1hp095, fab005, wtr079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GrB8WmQjkqnGJhDBwKQtn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: GrB8WmQjkqnGJhDBwKQtn
 sets: [1HP, FAB, WTR]
+codes: [1HP095, FAB005, WTR079]
 ---
 
 **Mask of Momentum** — Ninja Equipment - Head · 2 defense

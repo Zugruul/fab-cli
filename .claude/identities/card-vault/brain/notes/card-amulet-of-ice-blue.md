@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-ice, amulet, ice, action, item, go-again, pitch-3, cost-0]
+tags: [card, amulet-of-ice, amulet, ice, action, item, go-again, pitch-3, cost-0, ajv026, ele172, lgs064, old018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t6MkmHjPRNghmMcMQbqch) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: t6MkmHjPRNghmMcMQbqch
 sets: [AJV, ELE, LGS, OLD]
+codes: [AJV026, ELE172, LGS064, OLD018]
 ---
 
 **Amulet of Ice (blue)** — Ice Action - Item · cost 0

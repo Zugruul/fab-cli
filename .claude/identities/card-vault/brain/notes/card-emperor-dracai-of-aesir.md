@@ -1,5 +1,5 @@
 ---
-tags: [card, emperor-dracai-of-aesir, emperor, dracai, aesir, warrior, wizard, royal, draconic, hero, young]
+tags: [card, emperor-dracai-of-aesir, emperor, dracai, aesir, warrior, wizard, royal, draconic, hero, young, dyn001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgqNQGbtcF6NNBMDbDMhh) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Royal, Draconic]
 types: [Hero]
 unique-id: QgqNQGbtcF6NNBMDbDMhh
 sets: [DYN]
+codes: [DYN001]
 ---
 
 **Emperor, Dracai of Aesir** — Royal Draconic Warrior Wizard Hero - Young · 15 health · 4 int

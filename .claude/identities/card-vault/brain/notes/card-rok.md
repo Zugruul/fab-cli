@@ -1,5 +1,5 @@
 ---
-tags: [card, rok, brute, weapon, rock, 2h]
+tags: [card, rok, brute, weapon, rock, 2h, dyn005, gem078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KrjrwRtnjcK7hNhcBdH9h) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Rock, 2H]
 unique-id: KrjrwRtnjcK7hNhcBdH9h
 sets: [DYN, GEM]
+codes: [DYN005, GEM078]
 ---
 
 **Rok** — Brute Weapon - Rock (2H) · 7 power

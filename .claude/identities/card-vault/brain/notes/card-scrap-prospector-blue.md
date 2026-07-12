@@ -1,5 +1,5 @@
 ---
-tags: [card, scrap-prospector, scrap, prospector, mechanologist, action, attack, pitch-3, cost-0]
+tags: [card, scrap-prospector, scrap, prospector, mechanologist, action, attack, pitch-3, cost-0, evo137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w7tg6Pd8qbmgTCznmqtwM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap]
 unique-id: w7tg6Pd8qbmgTCznmqtwM
 sets: [EVO]
+codes: [EVO137]
 ---
 
 **Scrap Prospector (blue)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, visionary-of-orbits, visionary, orbits, lightning, action, attack, pitch-1, cost-3]
+tags: [card, visionary-of-orbits, visionary, orbits, lightning, action, attack, pitch-1, cost-3, omn151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LKrMGGMMHFKbbcM6LQ9WN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: LKrMGGMMHFKbbcM6LQ9WN
 sets: [OMN]
+codes: [OMN151]
 ---
 
 **Visionary of Orbits (red)** — Lightning Action - Attack · cost 3 · 7 power · 2 defense

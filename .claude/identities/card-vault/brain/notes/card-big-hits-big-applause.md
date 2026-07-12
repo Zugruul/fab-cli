@@ -1,5 +1,5 @@
 ---
-tags: [card, big-hits-big-applause, big, hits, applause, event, clash]
+tags: [card, big-hits-big-applause, big, hits, applause, event, clash, smp009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jzkqdWBRMj7Hp8hQj8tDp) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ types: [Event]
 keywords: [Clash]
 unique-id: jzkqdWBRMj7Hp8hQj8tDp
 sets: [SMP]
+codes: [SMP009]
 ---
 
 **Big Hits, Big Applause** — Event

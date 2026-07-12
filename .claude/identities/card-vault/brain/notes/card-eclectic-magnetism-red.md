@@ -1,5 +1,5 @@
 ---
-tags: [card, eclectic-magnetism, eclectic, magnetism, lightning, action, attack, pitch-1, cost-1]
+tags: [card, eclectic-magnetism, eclectic, magnetism, lightning, action, attack, pitch-1, cost-1, ros075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJcJBPNg8mD6m9778FnLn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wJcJBPNg8mD6m9778FnLn
 sets: [ROS]
+codes: [ROS075]
 ---
 
 **Eclectic Magnetism (red)** — Lightning Action - Attack · cost 1 · 5 power · 3 defense

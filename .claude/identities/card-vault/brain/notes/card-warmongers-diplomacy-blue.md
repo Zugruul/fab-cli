@@ -1,5 +1,5 @@
 ---
-tags: [card, warmongers-diplomacy, warmongers, diplomacy, generic, action, pitch-3, cost-0]
+tags: [card, warmongers-diplomacy, warmongers, diplomacy, generic, action, pitch-3, cost-0, dtd230, sup270]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BkpMHRn6L8dpcgjgrPm9H) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Action]
 unique-id: BkpMHRn6L8dpcgjgrPm9H
 sets: [DTD, SUP]
+codes: [DTD230, SUP270]
 ---
 
 **Warmonger's Diplomacy (blue)** — Generic Action · cost 0 · 3 defense

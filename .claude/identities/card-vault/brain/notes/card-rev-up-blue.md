@@ -1,5 +1,5 @@
 ---
-tags: [card, rev-up, rev, up, mechanologist, action, attack, boost, pitch-3, cost-3]
+tags: [card, rev-up, rev, up, mechanologist, action, attack, boost, pitch-3, cost-3, evo185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f7f6TfTFjkgtcbQJ9rhDC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: f7f6TfTFjkgtcbQJ9rhDC
 sets: [EVO]
+codes: [EVO185]
 ---
 
 **Rev Up (blue)** — Mechanologist Action - Attack · cost 3 · 4 power · 3 defense

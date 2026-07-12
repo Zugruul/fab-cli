@@ -1,5 +1,5 @@
 ---
-tags: [card, hala, warrior, hero, young]
+tags: [card, hala, warrior, hero, young, mpw004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PCcMjhHfKKrmH8hR9LQBc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: PCcMjhHfKKrmH8hR9LQBc
 sets: [MPW]
+codes: [MPW004]
 ---
 
 **Hala** — Warrior Hero - Young · 20 health · 4 int

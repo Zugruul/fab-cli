@@ -1,5 +1,5 @@
 ---
-tags: [card, emerging-dominance, emerging, dominance, guardian, action, aura, dominate, pitch-2, cost-2]
+tags: [card, emerging-dominance, emerging, dominance, guardian, action, aura, dominate, pitch-2, cost-2, 1hp080, cru039]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dBh9zHWmcNHhCHBJjcNWQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Dominate]
 unique-id: dBh9zHWmcNHhCHBJjcNWQ
 sets: [1HP, CRU]
+codes: [1HP080, CRU039]
 ---
 
 **Emerging Dominance (yellow)** — Guardian Action - Aura · cost 2 · 3 defense

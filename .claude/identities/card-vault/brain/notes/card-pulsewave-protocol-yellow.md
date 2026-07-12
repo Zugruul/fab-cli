@@ -1,5 +1,5 @@
 ---
-tags: [card, pulsewave-protocol, pulsewave, protocol, mechanologist, action, attack, evo-upgrade, pitch-2, cost-3]
+tags: [card, pulsewave-protocol, pulsewave, protocol, mechanologist, action, attack, evo-upgrade, pitch-2, cost-3, evo058, fab173]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nqr9cJGNPNKtQqKKrC7Fc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: Nqr9cJGNPNKtQqKKrC7Fc
 sets: [EVO, FAB]
+codes: [EVO058, FAB173]
 ---
 
 **Pulsewave Protocol (yellow)** — Mechanologist Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, blitz-kicks, blitz, kicks, lightning, equipment, legs, arcane-barrier-1]
+tags: [card, blitz-kicks, blitz, kicks, lightning, equipment, legs, arcane-barrier-1, azs006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QFLGnzGbKKr9tHdGQChRP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Arcane Barrier 1]
 unique-id: QFLGnzGbKKr9tHdGQChRP
 sets: [AZS]
+codes: [AZS006]
 ---
 
 **Blitz Kicks** — Lightning Equipment - Legs · 0 defense

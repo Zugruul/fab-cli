@@ -1,5 +1,5 @@
 ---
-tags: [card, deadly-duo, deadly, duo, ninja, action, attack, go-again, pitch-2, cost-1]
+tags: [card, deadly-duo, deadly, duo, ninja, action, attack, go-again, pitch-2, cost-1, out072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q6DTC9d8krW76gpTCpfmg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: q6DTC9d8krW76gpTCpfmg
 sets: [OUT]
+codes: [OUT072]
 ---
 
 **Deadly Duo (yellow)** — Ninja Action - Attack · cost 1 · 2 power · 2 defense

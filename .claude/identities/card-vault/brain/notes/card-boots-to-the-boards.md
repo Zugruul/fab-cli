@@ -1,5 +1,5 @@
 ---
-tags: [card, boots-to-the-boards, boots, boards, equipment, legs, revered, temper]
+tags: [card, boots-to-the-boards, boots, boards, equipment, legs, revered, temper, aps007, sup275]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCKDD6gGb8dKzNdprDzff) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Revered]
 keywords: [Temper]
 unique-id: bCKDD6gGb8dKzNdprDzff
 sets: [APS, SUP]
+codes: [APS007, SUP275]
 ---
 
 **Boots to the Boards** — Revered Equipment - Legs · 2 defense

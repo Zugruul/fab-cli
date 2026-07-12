@@ -1,5 +1,5 @@
 ---
-tags: [card, widowmaker, ranger, action, arrow, attack, pitch-1, cost-1]
+tags: [card, widowmaker, ranger, action, arrow, attack, pitch-1, cost-1, azl015, out133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fMN6zwqRJGg7mHLpNJM8C) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: fMN6zwqRJGg7mHLpNJM8C
 sets: [AZL, OUT]
+codes: [AZL015, OUT133]
 ---
 
 **Widowmaker (red)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

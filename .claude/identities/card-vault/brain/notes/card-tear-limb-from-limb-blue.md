@@ -1,5 +1,5 @@
 ---
-tags: [card, tear-limb-from-limb, tear, limb, brute, action, go-again, pitch-3, cost-2]
+tags: [card, tear-limb-from-limb, tear, limb, brute, action, go-again, pitch-3, cost-2, mon222]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6FrqKM6Ckpz9NCG8wGcGq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 6FrqKM6Ckpz9NCG8wGcGq
 sets: [MON]
+codes: [MON222]
 ---
 
 **Tear Limb from Limb (blue)** — Brute Action · cost 2

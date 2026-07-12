@@ -1,5 +1,5 @@
 ---
-tags: [card, double-cross-strap, double, cross, strap, ninja, equipment, chest, arcane-barrier-1]
+tags: [card, double-cross-strap, double, cross, strap, ninja, equipment, chest, arcane-barrier-1, pen031, sfa007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QnFfpGtbFWTWCRjMrJnc7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: QnFfpGtbFWTWCRjMrJnc7
 sets: [PEN, SFA]
+codes: [PEN031, SFA007]
 ---
 
 **Double Cross Strap** — Ninja Equipment - Chest · 0 defense

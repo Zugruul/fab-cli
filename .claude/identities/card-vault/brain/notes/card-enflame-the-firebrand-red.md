@@ -1,5 +1,5 @@
 ---
-tags: [card, enflame-the-firebrand, enflame, firebrand, ninja, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, enflame-the-firebrand, enflame, firebrand, ninja, draconic, action, attack, go-again, pitch-1, cost-0, pen250, sfa014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mpzTpgpKkq6TDRT8JK7fF) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: mpzTpgpKkq6TDRT8JK7fF
 sets: [PEN, SFA]
+codes: [PEN250, SFA014]
 ---
 
 **Enflame the Firebrand (red)** — Draconic Ninja Action - Attack · cost 0 · 2 power · 3 defense

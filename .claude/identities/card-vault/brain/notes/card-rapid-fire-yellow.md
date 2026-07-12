@@ -1,5 +1,5 @@
 ---
-tags: [card, rapid-fire, rapid, fire, ranger, action, reload, go-again, pitch-2, cost-0]
+tags: [card, rapid-fire, rapid, fire, ranger, action, reload, go-again, pitch-2, cost-0, arc047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DbKkp8BjFgtCBGjQCbwjH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Reload, Go again]
 unique-id: DbKkp8BjFgtCBGjQCbwjH
 sets: [ARC]
+codes: [ARC047]
 ---
 
 **Rapid Fire (yellow)** — Ranger Action · cost 0 · 2 defense

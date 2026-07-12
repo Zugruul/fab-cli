@@ -1,5 +1,5 @@
 ---
-tags: [card, buccaneers-bounty, buccaneers, bounty, pirate, equipment, chest, blade-break]
+tags: [card, buccaneers-bounty, buccaneers, bounty, pirate, equipment, chest, blade-break, lgs393, sea127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KL6rbKJcpRFhNFLwbkbbg) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: KL6rbKJcpRFhNFLwbkbbg
 sets: [LGS, SEA]
+codes: [LGS393, SEA127]
 ---
 
 **Buccaneer's Bounty** — Pirate Equipment - Chest · 1 defense

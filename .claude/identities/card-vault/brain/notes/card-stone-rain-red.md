@@ -1,5 +1,5 @@
 ---
-tags: [card, stone-rain, stone, rain, ranger, action, arrow, attack, dominate, pitch-1, cost-0]
+tags: [card, stone-rain, stone, rain, ranger, action, arrow, attack, dominate, pitch-1, cost-0, aaz016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LknHqj6JMJ6CRNpDNBtHG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Dominate]
 unique-id: LknHqj6JMJ6CRNpDNBtHG
 sets: [AAZ]
+codes: [AAZ016]
 ---
 
 **Stone Rain (red)** — Ranger Action - Arrow Attack · cost 0 · 4 power · 3 defense

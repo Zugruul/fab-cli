@@ -1,5 +1,5 @@
 ---
-tags: [card, exposed-to-the-elements, exposed, elements, elemental, instant, earth-and-or-ice-fusion, pitch-3, cost-2]
+tags: [card, exposed-to-the-elements, exposed, elements, elemental, instant, earth-and-or-ice-fusion, pitch-3, cost-2, ajv027, ele093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bg7WdCTFT99CBNprwhWP8) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Earth and/or Ice Fusion]
 unique-id: bg7WdCTFT99CBNprwhWP8
 sets: [AJV, ELE]
+codes: [AJV027, ELE093]
 ---
 
 **Exposed to the Elements (blue)** — Elemental Instant · cost 2

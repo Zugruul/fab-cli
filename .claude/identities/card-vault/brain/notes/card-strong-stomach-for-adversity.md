@@ -1,5 +1,5 @@
 ---
-tags: [card, strong-stomach-for-adversity, strong, stomach, adversity, guardian, equipment, chest, reviled, blade-break]
+tags: [card, strong-stomach-for-adversity, strong, stomach, adversity, guardian, equipment, chest, reviled, blade-break, sup073]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BdnFGgLNjHbmMd7jQnjQz) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Reviled]
 keywords: [Blade Break]
 unique-id: BdnFGgLNjHbmMd7jQnjQz
 sets: [SUP]
+codes: [SUP073]
 ---
 
 **Strong Stomach for Adversity** — Reviled Guardian Equipment - Chest · 1 defense

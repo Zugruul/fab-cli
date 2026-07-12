@@ -1,5 +1,5 @@
 ---
-tags: [card, solitary-companion, solitary, companion, illusionist, action, aura, ward-1, pitch-3, cost-0]
+tags: [card, solitary-companion, solitary, companion, illusionist, action, aura, ward-1, pitch-3, cost-0, eng021, mst151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WpfnDkqH9NqLMtWCfCgnh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: WpfnDkqH9NqLMtWCfCgnh
 sets: [ENG, MST]
+codes: [ENG021, MST151]
 ---
 
 **Solitary Companion (blue)** — Illusionist Action - Aura · cost 0 · 2 defense

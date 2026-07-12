@@ -1,5 +1,5 @@
 ---
-tags: [card, fruits-of-the-forest, fruits, forest, earth, action, attack, pitch-2, cost-3]
+tags: [card, fruits-of-the-forest, fruits, forest, earth, action, attack, pitch-2, cost-3, lgs343, ros056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DHRFRqdNnjCBwF6cfkMhR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DHRFRqdNnjCBwF6cfkMhR
 sets: [LGS, ROS]
+codes: [LGS343, ROS056]
 ---
 
 **Fruits of the Forest (yellow)** — Earth Action - Attack · cost 3 · 6 power · 2 defense

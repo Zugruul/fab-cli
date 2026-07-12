@@ -1,5 +1,5 @@
 ---
-tags: [card, dyed-silk-sleeves, dyed, silk, sleeves, ninja, equipment, arms, blade-break]
+tags: [card, dyed-silk-sleeves, dyed, silk, sleeves, ninja, equipment, arms, blade-break, pen032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6DFGcBD8MKkJmGmFLwQbc) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: 6DFGcBD8MKkJmGmFLwQbc
 sets: [PEN]
+codes: [PEN032]
 ---
 
 **Dyed Silk Sleeves** — Ninja Equipment - Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-wildfire, aether, wildfire, wizard, action, pitch-1, cost-2]
+tags: [card, aether-wildfire, aether, wildfire, wizard, action, pitch-1, cost-2, evr123]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CrWjLrqtQtppQhQCMt9LH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: CrWjLrqtQtppQhQCMt9LH
 sets: [EVR]
+codes: [EVR123]
 ---
 
 **Aether Wildfire (red)** — Wizard Action · cost 2 · 3 defense

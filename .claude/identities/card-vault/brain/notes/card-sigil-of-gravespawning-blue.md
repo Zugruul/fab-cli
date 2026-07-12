@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-gravespawning, sigil, gravespawning, runeblade, action, aura, go-again, pitch-3, cost-1]
+tags: [card, sigil-of-gravespawning, sigil, gravespawning, runeblade, action, aura, go-again, pitch-3, cost-1, pen098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DKNrgnhnpbKFJLHhKKRRm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: DKNrgnhnpbKFJLHhKKRRm
 sets: [PEN]
+codes: [PEN098]
 ---
 
 **Sigil of Gravespawning (blue)** — Runeblade Action - Aura · cost 1 · 3 defense

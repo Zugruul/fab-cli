@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-mount-isen, channel, mount, isen, ice, action, aura, go-again, channel-ice, pitch-3, cost-0]
+tags: [card, channel-mount-isen, channel, mount, isen, ice, action, aura, go-again, channel-ice, pitch-3, cost-0, ajv017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFbFBgmNfJzFbdwhrJrgB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Ice]
 unique-id: rFbFBgmNfJzFbdwhrJrgB
 sets: [AJV]
+codes: [AJV017]
 ---
 
 **Channel Mount Isen (blue)** — Ice Action - Aura · cost 0 · 3 defense

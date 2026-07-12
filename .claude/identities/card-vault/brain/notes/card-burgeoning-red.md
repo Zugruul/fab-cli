@@ -1,5 +1,5 @@
 ---
-tags: [card, burgeoning, earth, action, attack, pitch-1, cost-2]
+tags: [card, burgeoning, earth, action, attack, pitch-1, cost-2, bri017, ele134, lgs069, ter009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HFHTwwNzfP98TwzjLdFjK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HFHTwwNzfP98TwzjLdFjK
 sets: [BRI, ELE, LGS, TER]
+codes: [BRI017, ELE134, LGS069, TER009]
 ---
 
 **Burgeoning (red)** — Earth Action - Attack · cost 2 · 6 power · 2 defense

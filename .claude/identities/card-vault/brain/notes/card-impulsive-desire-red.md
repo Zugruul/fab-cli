@@ -1,5 +1,5 @@
 ---
-tags: [card, impulsive-desire, impulsive, desire, assassin, action, attack, stealth, pitch-1, cost-0]
+tags: [card, impulsive-desire, impulsive, desire, assassin, action, attack, stealth, pitch-1, cost-0, mst121, nuu011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 68HKwDLNHwFdPpdpFMJBg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: 68HKwDLNHwFdPpdpFMJBg
 sets: [MST, NUU]
+codes: [MST121, NUU011]
 ---
 
 **Impulsive Desire (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

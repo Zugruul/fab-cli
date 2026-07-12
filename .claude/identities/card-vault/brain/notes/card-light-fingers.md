@@ -1,5 +1,5 @@
 ---
-tags: [card, light-fingers, light, fingers, generic, equipment, arms, blade-break]
+tags: [card, light-fingers, light, fingers, generic, equipment, arms, blade-break, sea184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCpd7ctKhtN7LCP8FqkmP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: QCpd7ctKhtN7LCP8FqkmP
 sets: [SEA]
+codes: [SEA184]
 ---
 
 **Light Fingers** — Generic Equipment - Arms · 1 defense

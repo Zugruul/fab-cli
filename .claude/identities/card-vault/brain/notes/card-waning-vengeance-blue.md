@@ -1,5 +1,5 @@
 ---
-tags: [card, waning-vengeance, waning, vengeance, illusionist, mystic, instant, aura, ward-1, pitch-3, cost-1]
+tags: [card, waning-vengeance, waning, vengeance, illusionist, mystic, instant, aura, ward-1, pitch-3, cost-1, eng024, mst042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rhc9fGptBBhtNFDWbKGW8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: Rhc9fGptBBhtNFDWbKGW8
 sets: [ENG, MST]
+codes: [ENG024, MST042]
 ---
 
 **Waning Vengeance (blue)** — Mystic Illusionist Instant - Aura · cost 1

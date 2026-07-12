@@ -1,5 +1,5 @@
 ---
-tags: [card, stir-the-aetherwinds, stir, aetherwinds, wizard, action, pitch-3, cost-2]
+tags: [card, stir-the-aetherwinds, stir, aetherwinds, wizard, action, pitch-3, cost-2, 1hp322, arc131, siy031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k8wMFCFHtGTtTRfnzKGqQ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: k8wMFCFHtGTtTRfnzKGqQ
 sets: [1HP, ARC, SIY]
+codes: [1HP322, ARC131, SIY031]
 ---
 
 **Stir the Aetherwinds (blue)** — Wizard Action · cost 2 · 2 defense

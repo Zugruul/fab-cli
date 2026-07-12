@@ -1,5 +1,5 @@
 ---
-tags: [card, turning-point, turning, point, guardian, block, revered, the-crowd-cheers, pitch-3]
+tags: [card, turning-point, turning, point, guardian, block, revered, the-crowd-cheers, pitch-3, aps030, gem086, sup015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zqWPPdtm6zfjmbFnTMGM6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: zqWPPdtm6zfjmbFnTMGM6
 sets: [APS, GEM, SUP]
+codes: [APS030, GEM086, SUP015]
 ---
 
 **Turning Point (blue)** — Revered Guardian Block · 2 defense

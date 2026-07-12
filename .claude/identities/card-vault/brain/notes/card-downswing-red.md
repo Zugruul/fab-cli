@@ -1,5 +1,5 @@
 ---
-tags: [card, downswing, warrior, attack-reaction, wager, pitch-1, cost-0]
+tags: [card, downswing, warrior, attack-reaction, wager, pitch-1, cost-0, fab485, mpw043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8fP9qJWHNqgWf6BgfBqLw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Wager]
 unique-id: 8fP9qJWHNqgWf6BgfBqLw
 sets: [FAB, MPW]
+codes: [FAB485, MPW043]
 ---
 
 **Downswing (red)** — Warrior Attack Reaction · cost 0 · 3 defense

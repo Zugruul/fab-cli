@@ -1,5 +1,5 @@
 ---
-tags: [card, banneret-of-salvation, banneret, salvation, warrior, light, action, attack, solflare, pitch-2, cost-0]
+tags: [card, banneret-of-salvation, banneret, salvation, warrior, light, action, attack, solflare, pitch-2, cost-0, dtd055, lgs180, sbl023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H7rF9J86RzTp6dbPjmMRm) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Solflare]
 unique-id: H7rF9J86RzTp6dbPjmMRm
 sets: [DTD, LGS, SBL]
+codes: [DTD055, LGS180, SBL023]
 ---
 
 **Banneret of Salvation (yellow)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

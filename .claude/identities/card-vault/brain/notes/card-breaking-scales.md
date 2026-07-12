@@ -1,5 +1,5 @@
 ---
-tags: [card, breaking-scales, breaking, scales, ninja, equipment, arms, battleworn]
+tags: [card, breaking-scales, breaking, scales, ninja, equipment, arms, battleworn, 1hp096, fab148, ksu007, wtr080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6dMC789mNcrmnMPWGMdhb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: 6dMC789mNcrmnMPWGMdhb
 sets: [1HP, FAB, KSU, WTR]
+codes: [1HP096, FAB148, KSU007, WTR080]
 ---
 
 **Breaking Scales** — Ninja Equipment - Arms · 1 defense

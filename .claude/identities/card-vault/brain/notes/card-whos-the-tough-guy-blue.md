@@ -1,5 +1,5 @@
 ---
-tags: [card, whos-the-tough-guy, whos, tough, guy, action, attack, revered, pitch-3, cost-2]
+tags: [card, whos-the-tough-guy, whos, tough, guy, action, attack, revered, pitch-3, cost-2, sup054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kKGTFjLBcLrKRcJzHRRnQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: kKGTFjLBcLrKRcJzHRRnQ
 sets: [SUP]
+codes: [SUP054]
 ---
 
 **Who's the Tough Guy? (blue)** — Revered Action - Attack · cost 2 · 5 power · 2 defense

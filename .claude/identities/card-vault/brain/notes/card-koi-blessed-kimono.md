@@ -1,5 +1,5 @@
 ---
-tags: [card, koi-blessed-kimono, koi, blessed, kimono, mystic, equipment, chest, cloaked]
+tags: [card, koi-blessed-kimono, koi, blessed, kimono, mystic, equipment, chest, cloaked, lgs275, mst068, nuu004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mccHtdK6wgfhL6g98CKMT) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Cloaked]
 unique-id: mccHtdK6wgfhL6g98CKMT
 sets: [LGS, MST, NUU]
+codes: [LGS275, MST068, NUU004]
 ---
 
 **Koi Blessed Kimono** — Mystic Equipment - Chest

@@ -1,5 +1,5 @@
 ---
-tags: [card, timidity-point, timidity, point, ranger, action, arrow, attack, pitch-2, cost-1]
+tags: [card, timidity-point, timidity, point, ranger, action, arrow, attack, pitch-2, cost-1, evr098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RFmtPCHdfDHpqhLnr9hTD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: RFmtPCHdfDHpqhLnr9hTD
 sets: [EVR]
+codes: [EVR098]
 ---
 
 **Timidity Point (yellow)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

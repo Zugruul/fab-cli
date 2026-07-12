@@ -1,5 +1,5 @@
 ---
-tags: [card, loan-shark, loan, shark, pirate, action, aura, go-again, pitch-2, cost-0]
+tags: [card, loan-shark, loan, shark, pirate, action, aura, go-again, pitch-2, cost-0, sea131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 88GhcGBpR8WDWQRr87hcn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: 88GhcGBpR8WDWQRr87hcn
 sets: [SEA]
+codes: [SEA131]
 ---
 
 **Loan Shark (yellow)** — Pirate Action - Aura · cost 0 · 3 defense

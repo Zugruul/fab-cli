@@ -1,5 +1,5 @@
 ---
-tags: [card, boots-of-omnis-ward, boots, omnis, ward, generic, equipment, legs, temper]
+tags: [card, boots-of-omnis-ward, boots, omnis, ward, generic, equipment, legs, temper, omn204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bqhGbpG9NhgMcGGKdLwRM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Temper]
 unique-id: bqhGbpG9NhgMcGGKdLwRM
 sets: [OMN]
+codes: [OMN204]
 ---
 
 **Boots of Omnis Ward** — Generic Equipment - Legs · 1 defense

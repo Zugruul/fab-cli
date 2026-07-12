@@ -1,5 +1,5 @@
 ---
-tags: [card, long-shot, long, shot, ranger, action, arrow, attack, pitch-3, cost-0]
+tags: [card, long-shot, long, shot, ranger, action, arrow, attack, pitch-3, cost-0, dyn167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wcQzjTdhBwLkDWQbjLG8c) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: wcQzjTdhBwLkDWQbjLG8c
 sets: [DYN]
+codes: [DYN167]
 ---
 
 **Long Shot (blue)** — Ranger Action - Arrow Attack · cost 0 · 1 power · 3 defense

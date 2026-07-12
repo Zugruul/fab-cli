@@ -1,5 +1,5 @@
 ---
-tags: [card, liquid-cooled-mayhem, liquid, cooled, mayhem, mechanologist, action, attack, evo-upgrade, pitch-2, cost-4]
+tags: [card, liquid-cooled-mayhem, liquid, cooled, mayhem, mechanologist, action, attack, evo-upgrade, pitch-2, cost-4, evo065, lgs199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BzhRqCc9TLjNgJ9dKDPfc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: BzhRqCc9TLjNgJ9dKDPfc
 sets: [EVO, LGS]
+codes: [EVO065, LGS199]
 ---
 
 **Liquid-Cooled Mayhem (yellow)** — Mechanologist Action - Attack · cost 4 · 5 power · 3 defense

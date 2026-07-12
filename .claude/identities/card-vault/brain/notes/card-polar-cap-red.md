@@ -1,5 +1,5 @@
 ---
-tags: [card, polar-cap, polar, cap, wizard, elemental, action, ice-fusion, pitch-1, cost-2]
+tags: [card, polar-cap, polar, cap, wizard, elemental, action, ice-fusion, pitch-1, cost-2, siy015, upr122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pdJnb8zmwpRcmqbcH7JTH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion]
 unique-id: pdJnb8zmwpRcmqbcH7JTH
 sets: [SIY, UPR]
+codes: [SIY015, UPR122]
 ---
 
 **Polar Cap (red)** — Elemental Wizard Action · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ion-charged, ion, charged, lightning, instant, pitch-2, cost-0]
+tags: [card, ion-charged, ion, charged, lightning, instant, pitch-2, cost-0, gem135, pen242]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rrN8b6TLpjCHQJRKBpJFm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: rrN8b6TLpjCHQJRKBpJFm
 sets: [GEM, PEN]
+codes: [GEM135, PEN242]
 ---
 
 **Ion Charged (yellow)** — Lightning Instant · cost 0

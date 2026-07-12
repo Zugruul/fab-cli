@@ -1,5 +1,5 @@
 ---
-tags: [card, rushing-river, rushing, river, ninja, action, attack, combo, go-again, pitch-3, cost-0]
+tags: [card, rushing-river, rushing, river, ninja, action, attack, combo, go-again, pitch-3, cost-0, 1hp112, cru062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tMDDnhBrcpCL8c9MW7BgC) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: tMDDnhBrcpCL8c9MW7BgC
 sets: [1HP, CRU]
+codes: [1HP112, CRU062]
 ---
 
 **Rushing River (blue)** — Ninja Action - Attack · cost 0 · 1 power · 3 defense

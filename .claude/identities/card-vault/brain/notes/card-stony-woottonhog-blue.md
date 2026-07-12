@@ -1,5 +1,5 @@
 ---
-tags: [card, stony-woottonhog, stony, woottonhog, generic, action, attack, pitch-3, cost-2]
+tags: [card, stony-woottonhog, stony, woottonhog, generic, action, attack, pitch-3, cost-2, mon286]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hDrpDgFFTLFGDTHrBCfzC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hDrpDgFFTLFGDTHrBCfzC
 sets: [MON]
+codes: [MON286]
 ---
 
 **Stony Woottonhog (blue)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

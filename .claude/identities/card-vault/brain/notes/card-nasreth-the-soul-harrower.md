@@ -1,5 +1,5 @@
 ---
-tags: [card, nasreth-the-soul-harrower, nasreth, soul, harrower, shadow, token, demon, ally]
+tags: [card, nasreth-the-soul-harrower, nasreth, soul, harrower, shadow, token, demon, ally, dtd193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GpmN8jcWjbH7fMHd7hWjJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Token]
 subtypes: [Demon, Ally]
 unique-id: GpmN8jcWjbH7fMHd7hWjJ
 sets: [DTD]
+codes: [DTD193]
 ---
 
 **Nasreth, the Soul Harrower** — Shadow Token - Demon Ally · 6 power · 6 health

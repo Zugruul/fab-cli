@@ -1,5 +1,5 @@
 ---
-tags: [card, fire-tenet-strike-first, fire, tenet, strike, first, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, fire-tenet-strike-first, fire, tenet, strike, first, ninja, action, attack, go-again, pitch-1, cost-0, cin012, hnt083, sfa015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fJ6NzRBP9hRRcQLPLTDrf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: fJ6NzRBP9hRRcQLPLTDrf
 sets: [CIN, HNT, SFA]
+codes: [CIN012, HNT083, SFA015]
 ---
 
 **Fire Tenet: Strike First (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

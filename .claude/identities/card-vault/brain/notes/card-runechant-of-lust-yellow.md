@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-lust, runechant, lust, runeblade, instant, aura, pitch-2, cost-0]
+tags: [card, runechant-of-lust, runechant, lust, runeblade, instant, aura, pitch-2, cost-0, gem180, iar154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FpMpBwHGNgTGDjgfpWBKB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: FpMpBwHGNgTGDjgfpWBKB
 sets: [GEM, IAR]
+codes: [GEM180, IAR154]
 ---
 
 **Runechant of Lust (yellow)** — Runeblade Instant - Aura · cost 0

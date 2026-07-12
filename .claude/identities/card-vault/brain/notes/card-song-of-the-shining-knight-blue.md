@@ -1,5 +1,5 @@
 ---
-tags: [card, song-of-the-shining-knight, song, shining, knight, bard, action, pitch-3, cost-0]
+tags: [card, song-of-the-shining-knight, song, shining, knight, bard, action, pitch-3, cost-0, lgs219, tcc067]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqkBRhGqcjNCjBhMq8qpF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Song]
 unique-id: NqkBRhGqcjNCjBhMq8qpF
 sets: [LGS, TCC]
+codes: [LGS219, TCC067]
 ---
 
 **Song of the Shining Knight (blue)** — Bard Action - Song · cost 0 · 3 defense

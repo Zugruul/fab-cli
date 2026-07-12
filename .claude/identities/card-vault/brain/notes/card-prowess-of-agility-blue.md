@@ -1,5 +1,5 @@
 ---
-tags: [card, prowess-of-agility, prowess, agility, ninja, action, aura, pitch-3, cost-0]
+tags: [card, prowess-of-agility, prowess, agility, ninja, action, aura, pitch-3, cost-0, hnt073]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9BrCpJrGhbWC8BwDbkjW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: D9BrCpJrGhbWC8BwDbkjW
 sets: [HNT]
+codes: [HNT073]
 ---
 
 **Prowess of Agility (blue)** — Ninja Action - Aura · cost 0 · 3 defense

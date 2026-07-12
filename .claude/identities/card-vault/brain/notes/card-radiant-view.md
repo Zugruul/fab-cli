@@ -1,5 +1,5 @@
 ---
-tags: [card, radiant-view, radiant, view, light, equipment, head]
+tags: [card, radiant-view, radiant, view, light, equipment, head, dtd075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mMbkbwz6rkpPTLcjthNJT) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: mMbkbwz6rkpPTLcjthNJT
 sets: [DTD]
+codes: [DTD075]
 ---
 
 **Radiant View** — Light Equipment - Head

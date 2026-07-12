@@ -1,5 +1,5 @@
 ---
-tags: [card, smashing-performance, smashing, performance, brute, action, attack, pitch-2, cost-3]
+tags: [card, smashing-performance, smashing, performance, brute, action, attack, pitch-2, cost-3, evo237]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cHd8RnCfp9h8MNkQnL9Md) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: cHd8RnCfp9h8MNkQnL9Md
 sets: [EVO]
+codes: [EVO237]
 ---
 
 **Smashing Performance (yellow)** — Brute Action - Attack · cost 3 · 6 power

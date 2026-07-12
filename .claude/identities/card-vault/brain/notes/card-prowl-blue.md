@@ -1,5 +1,5 @@
 ---
-tags: [card, prowl, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, prowl, assassin, action, attack, stealth, pitch-3, cost-0, ara023, out035, uzu023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wTwdrMPDDFkHJhhhMCJ9b) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: wTwdrMPDDFkHJhhhMCJ9b
 sets: [ARA, OUT, UZU]
+codes: [ARA023, OUT035, UZU023]
 ---
 
 **Prowl (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

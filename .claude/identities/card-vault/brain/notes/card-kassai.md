@@ -1,5 +1,5 @@
 ---
-tags: [card, kassai, warrior, hero, young]
+tags: [card, kassai, warrior, hero, young, hvy091, ksi001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GwMRRqcL8rDHFRDTfqWzt) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: GwMRRqcL8rDHFRDTfqWzt
 sets: [HVY, KSI]
+codes: [HVY091, KSI001]
 ---
 
 **Kassai** — Warrior Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, old-knocker, old, knocker, generic, equipment, chest, blade-break]
+tags: [card, old-knocker, old, knocker, generic, equipment, chest, blade-break, sea182]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTh89nLtmJWQcQQJPwgDW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: KTh89nLtmJWQcQQJPwgDW
 sets: [SEA]
+codes: [SEA182]
 ---
 
 **Old Knocker** — Generic Equipment - Chest · 1 defense

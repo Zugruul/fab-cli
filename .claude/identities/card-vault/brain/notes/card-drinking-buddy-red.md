@@ -1,5 +1,5 @@
 ---
-tags: [card, drinking-buddy, drinking, buddy, generic, action, attack, go-again, pitch-1, cost-2]
+tags: [card, drinking-buddy, drinking, buddy, generic, action, attack, go-again, pitch-1, cost-2, lss023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GH7npwLtcpTqqpKRzdnNg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: GH7npwLtcpTqqpKRzdnNg
 sets: [LSS]
+codes: [LSS023]
 ---
 
 **Drinking Buddy (red)** — Generic Action - Attack · cost 2 · 6 power · 3 defense

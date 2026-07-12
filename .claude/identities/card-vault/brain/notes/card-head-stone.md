@@ -1,5 +1,5 @@
 ---
-tags: [card, head-stone, head, stone, necromancer, equipment, battleworn]
+tags: [card, head-stone, head, stone, necromancer, equipment, battleworn, sea081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Pm8jQMDcJhBnT8wj6rwFD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: Pm8jQMDcJhBnT8wj6rwFD
 sets: [SEA]
+codes: [SEA081]
 ---
 
 **Head Stone** — Necromancer Equipment - Head · 1 defense

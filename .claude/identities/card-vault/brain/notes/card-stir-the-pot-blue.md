@@ -1,5 +1,5 @@
 ---
-tags: [card, stir-the-pot, stir, pot, mystic, instant, legendary, transcend, pitch-3, cost-0]
+tags: [card, stir-the-pot, stir, pot, mystic, instant, legendary, transcend, pitch-3, cost-0, lgs288, mst101, zen027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pjpcnH9bKnGR6KFCFGz6Q) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend]
 unique-id: pjpcnH9bKnGR6KFCFGz6Q
 sets: [LGS, MST, ZEN]
+codes: [LGS288, MST101, ZEN027]
 ---
 
 **Stir the Pot (blue)** — Mystic Instant · cost 0

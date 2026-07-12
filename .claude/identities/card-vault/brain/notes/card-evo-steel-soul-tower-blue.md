@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-steel-soul-tower, evo, steel, soul, tower, mechanologist, action, equipment, base, legs, transform, temper, pitch-3, cost-4]
+tags: [card, evo-steel-soul-tower, evo, steel, soul, tower, mechanologist, action, equipment, base, legs, transform, temper, pitch-3, cost-4, evo029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tP6fcfbgwkrhMPdrrgqMw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Legs]
 keywords: [Transform, Temper]
 unique-id: tP6fcfbgwkrhMPdrrgqMw
 sets: [EVO]
+codes: [EVO029]
 ---
 
 **Evo Steel Soul Tower (blue)** — Mechanologist Action Equipment - Evo Base Legs · cost 4 · 3 defense

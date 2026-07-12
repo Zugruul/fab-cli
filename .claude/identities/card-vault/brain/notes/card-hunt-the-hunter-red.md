@@ -1,5 +1,5 @@
 ---
-tags: [card, hunt-the-hunter, hunt, hunter, draconic, action, attack, mark, pitch-1, cost-1]
+tags: [card, hunt-the-hunter, hunt, hunter, draconic, action, attack, mark, pitch-1, cost-1, gem014, hnt161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kD7jpPzWkNtFz6LTkk8HQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Mark]
 unique-id: kD7jpPzWkNtFz6LTkk8HQ
 sets: [GEM, HNT]
+codes: [GEM014, HNT161]
 ---
 
 **Hunt the Hunter (red)** — Draconic Action - Attack · cost 1 · 5 power · 3 defense

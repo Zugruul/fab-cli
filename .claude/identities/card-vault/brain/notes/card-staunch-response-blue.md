@@ -1,5 +1,5 @@
 ---
-tags: [card, staunch-response, staunch, response, guardian, defense-reaction, pitch-3, cost-2]
+tags: [card, staunch-response, staunch, response, guardian, defense-reaction, pitch-3, cost-2, 1hp060, bvo020, tnp021, wtr053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CJmNCDkwJKGMbhbnjh6Q9) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Guardian]
 types: [Defense Reaction]
 unique-id: CJmNCDkwJKGMbhbnjh6Q9
 sets: [1HP, BVO, TNP, WTR]
+codes: [1HP060, BVO020, TNP021, WTR053]
 ---
 
 **Staunch Response (blue)** — Guardian Defense Reaction · cost 2 · 5 defense

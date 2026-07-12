@@ -1,5 +1,5 @@
 ---
-tags: [card, lead-the-charge, lead, charge, generic, action, go-again, pitch-1, cost-0]
+tags: [card, lead-the-charge, lead, charge, generic, action, go-again, pitch-1, cost-0, arc209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qcTNqDCwM6jHP7QjBb7tN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qcTNqDCwM6jHP7QjBb7tN
 sets: [ARC]
+codes: [ARC209]
 ---
 
 **Lead the Charge (red)** — Generic Action · cost 0 · 2 defense

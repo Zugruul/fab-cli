@@ -1,5 +1,5 @@
 ---
-tags: [card, jack-o-lantern, jack, lantern, runeblade, shadow, action, go-again, pitch-2, cost-0]
+tags: [card, jack-o-lantern, jack, lantern, runeblade, shadow, action, go-again, pitch-2, cost-0, lgs177]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KmMWLT6fF88QdfKTJ9GFf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: KmMWLT6fF88QdfKTJ9GFf
 sets: [LGS]
+codes: [LGS177]
 ---
 
 **Jack-o'-lantern (yellow)** — Shadow Runeblade Action · cost 0 · 2 defense

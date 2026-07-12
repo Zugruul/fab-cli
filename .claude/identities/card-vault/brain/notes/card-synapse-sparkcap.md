@@ -1,5 +1,5 @@
 ---
-tags: [card, synapse-sparkcap, synapse, sparkcap, mechanologist, equipment, base, head, battleworn]
+tags: [card, synapse-sparkcap, synapse, sparkcap, mechanologist, equipment, base, head, battleworn, pen057]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HGKWRtMqN8D6rtGHkb7RB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Head]
 keywords: [Battleworn]
 unique-id: HGKWRtMqN8D6rtGHkb7RB
 sets: [PEN]
+codes: [PEN057]
 ---
 
 **Synapse Sparkcap** — Mechanologist Equipment - Base Head · 1 defense

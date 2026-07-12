@@ -1,5 +1,5 @@
 ---
-tags: [card, crackle-from-afar, crackle, afar, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0]
+tags: [card, crackle-from-afar, crackle, afar, illusionist, lightning, instant, aura, ward-1, pitch-3, cost-0, azs026, omn036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCCLqQp6m8CngWnnQqNrp) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: KCCLqQp6m8CngWnnQqNrp
 sets: [AZS, OMN]
+codes: [AZS026, OMN036]
 ---
 
 **Crackle from Afar (blue)** — Lightning Illusionist Instant - Aura · cost 0

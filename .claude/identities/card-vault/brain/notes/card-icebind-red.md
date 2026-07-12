@@ -1,5 +1,5 @@
 ---
-tags: [card, icebind, wizard, elemental, action, ice-fusion, freeze, pitch-1, cost-0]
+tags: [card, icebind, wizard, elemental, action, ice-fusion, freeze, pitch-1, cost-0, upr119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6wknmpgBbdgQBjD7LR6rb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion, Freeze]
 unique-id: 6wknmpgBbdgQBjD7LR6rb
 sets: [UPR]
+codes: [UPR119]
 ---
 
 **Icebind (red)** — Elemental Wizard Action · cost 0 · 3 defense

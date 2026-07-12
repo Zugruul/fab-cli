@@ -1,5 +1,5 @@
 ---
-tags: [card, expendable-limbs, expendable, limbs, brute, shadow, defense-reaction, pitch-3, cost-0]
+tags: [card, expendable-limbs, expendable, limbs, brute, shadow, defense-reaction, pitch-3, cost-0, dtd110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dWbFtRKNWnmPBPpBLrFqF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Shadow]
 types: [Defense Reaction]
 unique-id: dWbFtRKNWnmPBPpBLrFqF
 sets: [DTD]
+codes: [DTD110]
 ---
 
 **Expendable Limbs (blue)** — Shadow Brute Defense Reaction · cost 0 · 4 defense

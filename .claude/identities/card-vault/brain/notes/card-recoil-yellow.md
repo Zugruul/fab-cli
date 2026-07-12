@@ -1,5 +1,5 @@
 ---
-tags: [card, recoil, ninja, action, attack, combo, pitch-2, cost-0]
+tags: [card, recoil, ninja, action, attack, combo, pitch-2, cost-0, out060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g8kNtFJgzPzDjzrhChg7D) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: g8kNtFJgzPzDjzrhChg7D
 sets: [OUT]
+codes: [OUT060]
 ---
 
 **Recoil (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

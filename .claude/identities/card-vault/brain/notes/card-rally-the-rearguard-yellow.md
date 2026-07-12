@@ -1,5 +1,5 @@
 ---
-tags: [card, rally-the-rearguard, rally, rearguard, generic, action, attack, pitch-2, cost-2]
+tags: [card, rally-the-rearguard, rally, rearguard, generic, action, attack, pitch-2, cost-2, hvy229, kyo019, mon282, vic017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hKdWPHqc8bLM9Nkbwmncc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: hKdWPHqc8bLM9Nkbwmncc
 sets: [HVY, KYO, MON, VIC]
+codes: [HVY229, KYO019, MON282, VIC017]
 ---
 
 **Rally the Rearguard (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

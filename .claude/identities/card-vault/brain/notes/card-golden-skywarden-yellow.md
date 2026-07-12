@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-skywarden, golden, skywarden, pirate, mechanologist, action, attack, galvanize, pitch-2, cost-4]
+tags: [card, golden-skywarden, golden, skywarden, pirate, mechanologist, action, attack, galvanize, pitch-2, cost-4, fab343, sea004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cTchBtPqMqnNgDGGW89Gp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Galvanize]
 unique-id: cTchBtPqMqnNgDGGW89Gp
 sets: [FAB, SEA]
+codes: [FAB343, SEA004]
 ---
 
 **Golden Skywarden (yellow)** — Pirate Mechanologist Action - Attack · cost 4 · 7 power · 2 defense

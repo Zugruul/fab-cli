@@ -1,5 +1,5 @@
 ---
-tags: [card, throttle, mechanologist, action, attack, boost, pitch-2, cost-2]
+tags: [card, throttle, mechanologist, action, attack, boost, pitch-2, cost-2, 1hp209, arc024, tcc020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6bkFRTMhgjKWfftkpqtD6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: 6bkFRTMhgjKWfftkpqtD6
 sets: [1HP, ARC, TCC]
+codes: [1HP209, ARC024, TCC020]
 ---
 
 **Throttle (yellow)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

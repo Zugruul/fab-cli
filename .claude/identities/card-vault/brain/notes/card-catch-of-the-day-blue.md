@@ -1,5 +1,5 @@
 ---
-tags: [card, catch-of-the-day, catch, day, pirate, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, catch-of-the-day, catch, day, pirate, ranger, action, go-again, pitch-3, cost-0, sup268]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fwLrdwk7MMpphzHTLPCNK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fwLrdwk7MMpphzHTLPCNK
 sets: [SUP]
+codes: [SUP268]
 ---
 
 **Catch of the Day (blue)** — Pirate Ranger Action · cost 0 · 3 defense

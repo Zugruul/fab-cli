@@ -1,5 +1,5 @@
 ---
-tags: [card, wax-off, wax, off, ninja, defense-reaction, pitch-3, cost-0]
+tags: [card, wax-off, wax, off, ninja, defense-reaction, pitch-3, cost-0, evo239]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RGqFf9CnkWKhjMgfrTbdz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Defense Reaction]
 unique-id: RGqFf9CnkWKhjMgfrTbdz
 sets: [EVO]
+codes: [EVO239]
 ---
 
 **Wax Off (blue)** — Ninja Defense Reaction · cost 0 · 2 defense

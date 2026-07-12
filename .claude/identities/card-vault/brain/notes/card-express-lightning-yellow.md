@@ -1,5 +1,5 @@
 ---
-tags: [card, express-lightning, express, lightning, warrior, light, action, attack, charge, pitch-2, cost-0]
+tags: [card, express-lightning, express, lightning, warrior, light, action, attack, charge, pitch-2, cost-0, bol020, mon052]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DCdPb6ccGkkjwDprnLRPF) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: DCdPb6ccGkkjwDprnLRPF
 sets: [BOL, MON]
+codes: [BOL020, MON052]
 ---
 
 **Express Lightning (yellow)** — Light Warrior Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-sharp-eye, helm, sharp, eye, warrior, equipment, head, battleworn]
+tags: [card, helm-of-sharp-eye, helm, sharp, eye, warrior, equipment, head, battleworn, evr053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MfBtnKK96JRR8Nb7RWMBn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: MfBtnKK96JRR8Nb7RWMBn
 sets: [EVR]
+codes: [EVR053]
 ---
 
 **Helm of Sharp Eye** — Warrior Equipment - Head · 1 defense

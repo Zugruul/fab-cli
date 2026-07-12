@@ -1,5 +1,5 @@
 ---
-tags: [card, entwine-earth, entwine, earth, elemental, action, attack, earth-fusion, pitch-1, cost-2]
+tags: [card, entwine-earth, entwine, earth, elemental, action, attack, earth-fusion, pitch-1, cost-2, bri016, ele094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DdJT86P9h6tQ77czjkwBc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: DdJT86P9h6tQ77czjkwBc
 sets: [BRI, ELE]
+codes: [BRI016, ELE094]
 ---
 
 **Entwine Earth (red)** — Elemental Action - Attack · cost 2 · 6 power · 2 defense

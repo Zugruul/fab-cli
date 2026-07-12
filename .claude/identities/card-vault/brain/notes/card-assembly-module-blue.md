@@ -1,5 +1,5 @@
 ---
-tags: [card, assembly-module, assembly, module, mechanologist, action, item, crank, pitch-3, cost-0]
+tags: [card, assembly-module, assembly, module, mechanologist, action, item, crank, pitch-3, cost-0, pen067]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BkRHdjBwFhwMwmBfDhpfb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: BkRHdjBwFhwMwmBfDhpfb
 sets: [PEN]
+codes: [PEN067]
 ---
 
 **Assembly Module (blue)** — Mechanologist Action - Item · cost 0

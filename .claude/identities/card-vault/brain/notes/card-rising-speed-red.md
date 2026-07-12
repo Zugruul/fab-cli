@@ -1,5 +1,5 @@
 ---
-tags: [card, rising-speed, rising, speed, brute, warrior, action, attack, go-again, pitch-1, cost-2]
+tags: [card, rising-speed, rising, speed, brute, warrior, action, attack, go-again, pitch-1, cost-2, hvy166, ksi010, ola009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cDdGBtFJkhzCrmgC6bmfb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: cDdGBtFJkhzCrmgC6bmfb
 sets: [HVY, KSI, OLA]
+codes: [HVY166, KSI010, OLA009]
 ---
 
 **Rising Speed (red)** — Brute / Warrior Action - Attack · cost 2 · 5 power · 2 defense

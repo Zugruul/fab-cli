@@ -1,5 +1,5 @@
 ---
-tags: [card, civic-peak, civic, peak, guardian, equipment, head, temper]
+tags: [card, civic-peak, civic, peak, guardian, equipment, head, temper, lgs207, tcc030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CjRzTWJcLTzzfkhwCRK7K) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Temper]
 unique-id: CjRzTWJcLTzzfkhwCRK7K
 sets: [LGS, TCC]
+codes: [LGS207, TCC030]
 ---
 
 **Civic Peak** — Guardian Equipment - Head · 2 defense

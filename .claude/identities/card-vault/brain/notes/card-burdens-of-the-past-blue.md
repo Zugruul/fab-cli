@@ -1,5 +1,5 @@
 ---
-tags: [card, burdens-of-the-past, burdens, past, generic, action, go-again, pitch-3, cost-0]
+tags: [card, burdens-of-the-past, burdens, past, generic, action, go-again, pitch-3, cost-0, out187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCr7BCMzbRDWdBCJfTdTM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bCr7BCMzbRDWdBCJfTdTM
 sets: [OUT]
+codes: [OUT187]
 ---
 
 **Burdens of the Past (blue)** — Generic Action · cost 0 · 3 defense

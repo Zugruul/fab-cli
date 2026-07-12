@@ -1,5 +1,5 @@
 ---
-tags: [card, drop-of-dragon-blood, drop, dragon, blood, draconic, instant, legendary, pitch-1, cost-2]
+tags: [card, drop-of-dragon-blood, drop, dragon, blood, draconic, instant, legendary, pitch-1, cost-2, hnt155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBTGtg7LJbjTBWDGQDknH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary]
 unique-id: pBTGtg7LJbjTBWDGQDknH
 sets: [HNT]
+codes: [HNT155]
 ---
 
 **Drop of Dragon Blood (red)** — Draconic Instant · cost 2

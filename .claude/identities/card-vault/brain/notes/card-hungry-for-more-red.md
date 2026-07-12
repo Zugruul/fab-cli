@@ -1,5 +1,5 @@
 ---
-tags: [card, hungry-for-more, hungry, more, guardian, instant, aura, suspense, pitch-1, cost-1]
+tags: [card, hungry-for-more, hungry, more, guardian, instant, aura, suspense, pitch-1, cost-1, lgs438, sup175]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6pmddtzdHzQ77rjGrM6mw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: 6pmddtzdHzQ77rjGrM6mw
 sets: [LGS, SUP]
+codes: [LGS438, SUP175]
 ---
 
 **Hungry for More (red)** — Guardian Instant - Aura · cost 1 · 2 defense

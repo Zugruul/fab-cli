@@ -1,5 +1,5 @@
 ---
-tags: [card, knives-out, knives, out, assassin, ninja, attack-reaction, pitch-3, cost-0]
+tags: [card, knives-out, knives, out, assassin, ninja, attack-reaction, pitch-3, cost-0, out144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BCBmbhp7nbzkzBHcpzjp7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Ninja]
 types: [Attack Reaction]
 unique-id: BCBmbhp7nbzkzBHcpzjp7
 sets: [OUT]
+codes: [OUT144]
 ---
 
 **Knives Out (blue)** — Assassin / Ninja Attack Reaction · cost 0 · 3 defense

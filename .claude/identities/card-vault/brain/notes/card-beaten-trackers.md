@@ -1,5 +1,5 @@
 ---
-tags: [card, beaten-trackers, beaten, trackers, brute, equipment, legs, battleworn]
+tags: [card, beaten-trackers, beaten, trackers, brute, equipment, legs, battleworn, ako006, dyn006, ska009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zCWhR7jRCmH7D7fKDGKcF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: zCWhR7jRCmH7D7fKDGKcF
 sets: [AKO, DYN, SKA]
+codes: [AKO006, DYN006, SKA009]
 ---
 
 **Beaten Trackers** — Brute Equipment - Legs · 1 defense

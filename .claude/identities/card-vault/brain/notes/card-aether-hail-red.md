@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-hail, aether, hail, wizard, ice, action, pitch-1, cost-1]
+tags: [card, aether-hail, aether, hail, wizard, ice, action, pitch-1, cost-1, upr127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QKhbmNTMMfFNmDkp7gcRd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Ice]
 types: [Action]
 unique-id: QKhbmNTMMfFNmDkp7gcRd
 sets: [UPR]
+codes: [UPR127]
 ---
 
 **Aether Hail (red)** — Ice Wizard Action · cost 1 · 3 defense

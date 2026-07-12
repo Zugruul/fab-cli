@@ -1,5 +1,5 @@
 ---
-tags: [card, unexpected-backhand, unexpected, backhand, brute, action, attack, pitch-2, cost-3]
+tags: [card, unexpected-backhand, unexpected, backhand, brute, action, attack, pitch-2, cost-3, sup162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WrcmbDDzNGLwfGmd9CMmR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WrcmbDDzNGLwfGmd9CMmR
 sets: [SUP]
+codes: [SUP162]
 ---
 
 **Unexpected Backhand (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

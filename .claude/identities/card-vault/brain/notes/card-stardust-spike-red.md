@@ -1,5 +1,5 @@
 ---
-tags: [card, stardust-spike, stardust, spike, illusionist, lightning, instant, aura, amp-1, ward-2, pitch-1, cost-0]
+tags: [card, stardust-spike, stardust, spike, illusionist, lightning, instant, aura, amp-1, ward-2, pitch-1, cost-0, azs017, gem148]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HRGLg7cLFFWpNbMqkTBHF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Amp 1, Ward 2]
 unique-id: HRGLg7cLFFWpNbMqkTBHF
 sets: [AZS, GEM]
+codes: [AZS017, GEM148]
 ---
 
 **Stardust Spike (red)** — Lightning Illusionist Instant - Aura · cost 0

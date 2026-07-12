@@ -1,5 +1,5 @@
 ---
-tags: [card, the-librarian-magister-of-history, librarian, magister, history, adjudicator, light, hero, adult, go-again]
+tags: [card, the-librarian-magister-of-history, librarian, magister, history, adjudicator, light, hero, adult, go-again, jdg062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MkgbKjT77G7hCnBdpdqKH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: MkgbKjT77G7hCnBdpdqKH
 sets: [JDG]
+codes: [JDG062]
 ---
 
 **The Librarian, Magister of History** — Light Adjudicator Hero · 20 health · 4 int

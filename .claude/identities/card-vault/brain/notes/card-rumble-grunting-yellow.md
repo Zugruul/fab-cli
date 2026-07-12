@@ -1,5 +1,5 @@
 ---
-tags: [card, rumble-grunting, rumble, grunting, brute, action, go-again, pitch-2, cost-0]
+tags: [card, rumble-grunting, rumble, grunting, brute, action, go-again, pitch-2, cost-0, dyn023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9ctkKznmBQTFqD9DDfbRr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 9ctkKznmBQTFqD9DDfbRr
 sets: [DYN]
+codes: [DYN023]
 ---
 
 **Rumble Grunting (yellow)** — Brute Action · cost 0 · 3 defense

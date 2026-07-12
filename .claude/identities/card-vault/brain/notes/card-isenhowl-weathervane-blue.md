@@ -1,5 +1,5 @@
 ---
-tags: [card, isenhowl-weathervane, isenhowl, weathervane, ice, action, go-again, pitch-3, cost-1]
+tags: [card, isenhowl-weathervane, isenhowl, weathervane, ice, action, go-again, pitch-3, cost-1, upr143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QcJHqRnCpgHQ7KBMHmbWT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: QcJHqRnCpgHQ7KBMHmbWT
 sets: [UPR]
+codes: [UPR143]
 ---
 
 **Isenhowl Weathervane (blue)** — Ice Action · cost 1 · 2 defense

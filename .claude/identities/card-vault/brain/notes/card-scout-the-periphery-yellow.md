@@ -1,5 +1,5 @@
 ---
-tags: [card, scout-the-periphery, scout, periphery, generic, action, go-again, pitch-2, cost-0]
+tags: [card, scout-the-periphery, scout, periphery, generic, action, go-again, pitch-2, cost-0, out226, rip027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7WFnnN9jPJ8cpCzrKkwcG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 7WFnnN9jPJ8cpCzrKkwcG
 sets: [OUT, RIP]
+codes: [OUT226, RIP027]
 ---
 
 **Scout the Periphery (yellow)** — Generic Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rouse-the-ancients, rouse, ancients, generic, action, attack, go-again, pitch-3, cost-3]
+tags: [card, rouse-the-ancients, rouse, ancients, generic, action, attack, go-again, pitch-3, cost-3, jdg021, mon247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wL86pzwQw6qq8P6RpGTd6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wL86pzwQw6qq8P6RpGTd6
 sets: [JDG, MON]
+codes: [JDG021, MON247]
 ---
 
 **Rouse the Ancients (blue)** — Generic Action - Attack · cost 3 · 0 power · 2 defense

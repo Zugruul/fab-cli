@@ -1,5 +1,5 @@
 ---
-tags: [card, parched-terrain, parched, terrain, draconic, instant, aura, pitch-1, cost-1]
+tags: [card, parched-terrain, parched, terrain, draconic, instant, aura, pitch-1, cost-1, sup260]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9HncGgPTznnKwPwHCJMgb) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: 9HncGgPTznnKwPwHCJMgb
 sets: [SUP]
+codes: [SUP260]
 ---
 
 **Parched Terrain (red)** — Draconic Instant - Aura · cost 1

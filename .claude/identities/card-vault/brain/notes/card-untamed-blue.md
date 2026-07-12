@@ -1,5 +1,5 @@
 ---
-tags: [card, untamed, ninja, action, attack, go-again, pitch-3, cost-1]
+tags: [card, untamed, ninja, action, attack, go-again, pitch-3, cost-1, mst187, zen024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BfJLtP7NqCGQM8m6LGHdq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: BfJLtP7NqCGQM8m6LGHdq
 sets: [MST, ZEN]
+codes: [MST187, ZEN024]
 ---
 
 **Untamed (blue)** — Ninja Action - Attack · cost 1 · 2 power · 2 defense

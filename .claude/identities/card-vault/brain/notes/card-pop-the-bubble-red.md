@@ -1,5 +1,5 @@
 ---
-tags: [card, pop-the-bubble, pop, bubble, wizard, action, surge, pitch-1, cost-0]
+tags: [card, pop-the-bubble, pop, bubble, wizard, action, surge, pitch-1, cost-0, ros176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QMpq7DpJhfwJKkBfr6JKF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: QMpq7DpJhfwJKkBfr6JKF
 sets: [ROS]
+codes: [ROS176]
 ---
 
 **Pop the Bubble (red)** — Wizard Action · cost 0 · 3 defense

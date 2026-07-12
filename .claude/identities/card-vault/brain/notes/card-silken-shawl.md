@@ -1,5 +1,5 @@
 ---
-tags: [card, silken-shawl, silken, shawl, illusionist, equipment, chest, ward-1]
+tags: [card, silken-shawl, silken, shawl, illusionist, equipment, chest, ward-1, pen124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kLbJBc8mpCQPMf8bmKchp) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Ward 1]
 unique-id: kLbJBc8mpCQPMf8bmKchp
 sets: [PEN]
+codes: [PEN124]
 ---
 
 **Silken Shawl** — Illusionist Equipment - Chest

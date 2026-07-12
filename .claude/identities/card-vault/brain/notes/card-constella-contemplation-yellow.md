@@ -1,5 +1,5 @@
 ---
-tags: [card, constella-contemplation, constella, contemplation, wizard, lightning, instant, starfall, pitch-2, cost-0]
+tags: [card, constella-contemplation, constella, contemplation, wizard, lightning, instant, starfall, pitch-2, cost-0, gem156, omn130]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnDhdJwLcgC8zgTmK9Tkw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Starfall]
 unique-id: pnDhdJwLcgC8zgTmK9Tkw
 sets: [GEM, OMN]
+codes: [GEM156, OMN130]
 ---
 
 **Constella Contemplation (yellow)** — Lightning Wizard Instant · cost 0

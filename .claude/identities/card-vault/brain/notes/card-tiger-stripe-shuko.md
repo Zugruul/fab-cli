@@ -1,5 +1,5 @@
 ---
-tags: [card, tiger-stripe-shuko, tiger, stripe, shuko, ninja, equipment, arms, blade-break]
+tags: [card, tiger-stripe-shuko, tiger, stripe, shuko, ninja, equipment, arms, blade-break, fab083, upr158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gtzjLhHGpPmFgcLdpTBFH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: gtzjLhHGpPmFgcLdpTBFH
 sets: [FAB, UPR]
+codes: [FAB083, UPR158]
 ---
 
 **Tiger Stripe Shuko** — Ninja Equipment - Arms · 2 defense

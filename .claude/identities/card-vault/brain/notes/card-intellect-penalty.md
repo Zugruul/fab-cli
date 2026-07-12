@@ -1,5 +1,5 @@
 ---
-tags: [card, intellect-penalty, intellect, penalty, macro]
+tags: [card, intellect-penalty, intellect, penalty, macro, jdg000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QGjhRDwJdHr68gtkNqCWm) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Intellect Penalty"
 types: [Macro]
 unique-id: QGjhRDwJdHr68gtkNqCWm
 sets: [JDG]
+codes: [JDG000]
 ---
 
 **Intellect Penalty** — Macro

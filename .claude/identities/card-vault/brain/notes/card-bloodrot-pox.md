@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodrot-pox, bloodrot, pox, generic, token, aura]
+tags: [card, bloodrot-pox, bloodrot, pox, generic, token, aura, aac030, aaz030, ara027, azl028, fab133, lgs125, out234, rip028, saz034, uzu028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid drbBwrNtMRPTJ79LBQWWB) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: drbBwrNtMRPTJ79LBQWWB
 sets: [AAC, AAZ, ARA, AZL, FAB, LGS, OUT, RIP, SAZ, UZU]
+codes: [AAC030, AAZ030, ARA027, AZL028, FAB133, LGS125, OUT234, RIP028, SAZ034, UZU028]
 ---
 
 **Bloodrot Pox** — Generic Token - Aura

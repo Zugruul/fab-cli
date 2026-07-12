@@ -1,5 +1,5 @@
 ---
-tags: [card, reckless-charge, reckless, charge, brute, action, kayo-specialization, pitch-3, cost-0]
+tags: [card, reckless-charge, reckless, charge, brute, action, kayo-specialization, pitch-3, cost-0, hvy015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mRjQC9fPztGKb7NJ68gkc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Kayo Specialization]
 unique-id: mRjQC9fPztGKb7NJ68gkc
 sets: [HVY]
+codes: [HVY015]
 ---
 
 **Reckless Charge (blue)** — Brute Action · cost 0 · 3 defense

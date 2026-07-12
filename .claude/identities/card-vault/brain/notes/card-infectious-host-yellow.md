@@ -1,5 +1,5 @@
 ---
-tags: [card, infectious-host, infectious, host, generic, action, attack, pitch-2, cost-0]
+tags: [card, infectious-host, infectious, host, generic, action, attack, pitch-2, cost-0, out193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9hQDRdBpQpb8B8kJ9Lq8J) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 9hQDRdBpQpb8B8kJ9Lq8J
 sets: [OUT]
+codes: [OUT193]
 ---
 
 **Infectious Host (yellow)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

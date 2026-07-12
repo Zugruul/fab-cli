@@ -1,5 +1,5 @@
 ---
-tags: [card, reverberate, wizard, action, pitch-1, cost-1]
+tags: [card, reverberate, wizard, action, pitch-1, cost-1, 1hp326, arc138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8qnmTn7hKdCQzbhF7bNHD) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: 8qnmTn7hKdCQzbhF7bNHD
 sets: [1HP, ARC]
+codes: [1HP326, ARC138]
 ---
 
 **Reverberate (red)** — Wizard Action · cost 1 · 3 defense

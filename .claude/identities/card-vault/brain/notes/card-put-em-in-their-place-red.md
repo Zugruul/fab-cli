@@ -1,5 +1,5 @@
 ---
-tags: [card, put-em-in-their-place, put, em, their, place, guardian, action, attack, valda-specialization, crush, pitch-1, cost-6]
+tags: [card, put-em-in-their-place, put, em, their, place, guardian, action, attack, valda-specialization, crush, pitch-1, cost-6, mpg018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FB87tWPkwcRzmzjLcDfMD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Valda Specialization, Crush]
 unique-id: FB87tWPkwcRzmzjLcDfMD
 sets: [MPG]
+codes: [MPG018]
 ---
 
 **Put 'Em In Their Place (red)** — Guardian Action - Attack · cost 6 · 10 power · 3 defense

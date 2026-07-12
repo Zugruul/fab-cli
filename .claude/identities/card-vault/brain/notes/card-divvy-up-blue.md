@@ -1,5 +1,5 @@
 ---
-tags: [card, divvy-up, divvy, up, pirate, action, pitch-3, cost-0]
+tags: [card, divvy-up, divvy, up, pirate, action, pitch-3, cost-0, sea144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wBNFNMMLnnBTDczrjjgRH) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Pirate]
 types: [Action]
 unique-id: wBNFNMMLnnBTDczrjjgRH
 sets: [SEA]
+codes: [SEA144]
 ---
 
 **Divvy Up (blue)** — Pirate Action · cost 0 · 3 defense

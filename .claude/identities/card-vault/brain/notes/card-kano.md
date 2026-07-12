@@ -1,5 +1,5 @@
 ---
-tags: [card, kano, wizard, hero, young]
+tags: [card, kano, wizard, hero, young, 1hp302, arc114, her016, her072, pen342]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q9B8TDhTdfDLN8ccnBThK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Wizard]
 types: [Hero]
 unique-id: Q9B8TDhTdfDLN8ccnBThK
 sets: [1HP, ARC, HER, PEN]
+codes: [1HP302, ARC114, HER016, HER072, PEN342]
 ---
 
 **Kano** — Wizard Hero - Young · 15 health · 4 int

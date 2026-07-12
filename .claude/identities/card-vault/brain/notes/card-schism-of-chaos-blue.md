@@ -1,5 +1,5 @@
 ---
-tags: [card, schism-of-chaos, schism, chaos, resource, gem, legendary, pitch-3]
+tags: [card, schism-of-chaos, schism, chaos, resource, gem, legendary, pitch-3, hnt000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G7MWPzRtWqBpdW7K8MQDd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: G7MWPzRtWqBpdW7K8MQDd
 sets: [HNT]
+codes: [HNT000]
 ---
 
 **Schism of Chaos (blue)** — Chaos Resource - Gem

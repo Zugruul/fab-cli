@@ -1,5 +1,5 @@
 ---
-tags: [card, diamond-amulet, diamond, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0]
+tags: [card, diamond-amulet, diamond, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0, sea190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KKLmtWbhTRtcffWGpz7CN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary, Watery Grave]
 unique-id: KKLmtWbhTRtcffWGpz7CN
 sets: [SEA]
+codes: [SEA190]
 ---
 
 **Diamond Amulet (blue)** — Generic Action - Item · cost 0

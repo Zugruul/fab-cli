@@ -1,5 +1,5 @@
 ---
-tags: [card, mulch, guardian, elemental, action, attack, earth-fusion, pitch-2, cost-4]
+tags: [card, mulch, guardian, elemental, action, attack, earth-fusion, pitch-2, cost-4, ele020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TR6gqd7DKzPwdLdF9FCbP) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: TR6gqd7DKzPwdLdF9FCbP
 sets: [ELE]
+codes: [ELE020]
 ---
 
 **Mulch (yellow)** — Elemental Guardian Action - Attack · cost 4 · 7 power · 3 defense

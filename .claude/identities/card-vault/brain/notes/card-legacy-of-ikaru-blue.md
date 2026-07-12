@@ -1,5 +1,5 @@
 ---
-tags: [card, legacy-of-ikaru, legacy, ikaru, ninja, attack-reaction, pitch-3, cost-0]
+tags: [card, legacy-of-ikaru, legacy, ikaru, ninja, attack-reaction, pitch-3, cost-0, asr026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JcTJrnMgfhqHj6b8ckr8W) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Ninja]
 types: [Attack Reaction]
 unique-id: JcTJrnMgfhqHj6b8ckr8W
 sets: [ASR]
+codes: [ASR026]
 ---
 
 **Legacy of Ikaru (blue)** — Ninja Attack Reaction · cost 0 · 3 defense

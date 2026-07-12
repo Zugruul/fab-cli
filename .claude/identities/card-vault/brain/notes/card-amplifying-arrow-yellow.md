@@ -1,5 +1,5 @@
 ---
-tags: [card, amplifying-arrow, amplifying, arrow, ranger, action, attack, pitch-2, cost-0]
+tags: [card, amplifying-arrow, amplifying, arrow, ranger, action, attack, pitch-2, cost-0, out100]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQpfrfHQMP8ND8NjBK6pM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: qQpfrfHQMP8ND8NjBK6pM
 sets: [OUT]
+codes: [OUT100]
 ---
 
 **Amplifying Arrow (yellow)** — Ranger Action - Arrow Attack · cost 0 · 2 power · 3 defense

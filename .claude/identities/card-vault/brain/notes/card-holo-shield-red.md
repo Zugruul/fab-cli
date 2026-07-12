@@ -1,5 +1,5 @@
 ---
-tags: [card, holo-shield, holo, shield, illusionist, lightning, instant, aura, ward-x, pitch-1, cost-1]
+tags: [card, holo-shield, holo, shield, illusionist, lightning, instant, aura, ward-x, pitch-1, cost-1, omn030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f9C7rd9WgL9b8bgFMrP9h) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward X]
 unique-id: f9C7rd9WgL9b8bgFMrP9h
 sets: [OMN]
+codes: [OMN030]
 ---
 
 **Holo Shield (red)** — Lightning Illusionist Instant - Aura · cost 1

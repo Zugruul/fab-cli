@@ -1,5 +1,5 @@
 ---
-tags: [card, rubble-raiser, rubble, raiser, guardian, action, attack, heave-2, pitch-2, cost-4]
+tags: [card, rubble-raiser, rubble, raiser, guardian, action, attack, heave-2, pitch-2, cost-4, mpg083]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLfWBpdJqQ8GwRdLqwJGG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Heave 2]
 unique-id: MLfWBpdJqQ8GwRdLqwJGG
 sets: [MPG]
+codes: [MPG083]
 ---
 
 **Rubble Raiser (yellow)** — Guardian Action - Attack · cost 4 · 7 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, skyward-serenade, skyward, serenade, runeblade, lightning, action, go-again, pitch-2, cost-0]
+tags: [card, skyward-serenade, skyward, serenade, runeblade, lightning, action, go-again, pitch-2, cost-0, ast023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g8tjHjKCPpR6tDpqnhrN9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: g8tjHjKCPpR6tDpqnhrN9
 sets: [AST]
+codes: [AST023]
 ---
 
 **Skyward Serenade (yellow)** — Lightning Runeblade Action · cost 0 · 2 defense

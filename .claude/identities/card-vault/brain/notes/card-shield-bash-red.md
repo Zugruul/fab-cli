@@ -1,5 +1,5 @@
 ---
-tags: [card, shield-bash, shield, bash, guardian, defense-reaction, pitch-1, cost-3]
+tags: [card, shield-bash, shield, bash, guardian, defense-reaction, pitch-1, cost-3, dyn030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cJPFBnkLWpF7cKKwzRNTq) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Guardian]
 types: [Defense Reaction]
 unique-id: cJPFBnkLWpF7cKKwzRNTq
 sets: [DYN]
+codes: [DYN030]
 ---
 
 **Shield Bash (red)** — Guardian Defense Reaction · cost 3 · 6 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, predatory-plating, predatory, plating, brute, equipment, chest, guardwell]
+tags: [card, predatory-plating, predatory, plating, brute, equipment, chest, guardwell, pen003, ska006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JRcHqqHkwdJML7wfMRhM7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Guardwell]
 unique-id: JRcHqqHkwdJML7wfMRhM7
 sets: [PEN, SKA]
+codes: [PEN003, SKA006]
 ---
 
 **Predatory Plating** — Brute Equipment - Chest · 2 defense

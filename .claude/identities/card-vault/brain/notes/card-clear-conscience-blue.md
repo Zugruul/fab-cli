@@ -1,5 +1,5 @@
 ---
-tags: [card, clear-conscience, clear, conscience, illusionist, action, attack, fragment, pitch-3, cost-3]
+tags: [card, clear-conscience, clear, conscience, illusionist, action, attack, fragment, pitch-3, cost-3, azs020, omn043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mftrgDLcgF69QrzBgK6HB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: mftrgDLcgF69QrzBgK6HB
 sets: [AZS, OMN]
+codes: [AZS020, OMN043]
 ---
 
 **Clear Conscience (blue)** — Illusionist Action - Attack · cost 3 · 6 power · 3 defense

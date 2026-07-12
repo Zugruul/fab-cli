@@ -1,5 +1,5 @@
 ---
-tags: [card, kayo-underhanded-cheat, kayo, underhanded, cheat, brute, hero, reviled, adult]
+tags: [card, kayo-underhanded-cheat, kayo, underhanded, cheat, brute, hero, reviled, adult, her148, sup063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fMDbBJHTPL7dcMMFNkCCm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Reviled]
 unique-id: fMDbBJHTPL7dcMMFNkCCm
 sets: [HER, SUP]
+codes: [HER148, SUP063]
 ---
 
 **Kayo, Underhanded Cheat** — Reviled Brute Hero · 40 health · 4 int

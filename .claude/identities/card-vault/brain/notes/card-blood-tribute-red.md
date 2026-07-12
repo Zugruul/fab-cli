@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-tribute, blood, tribute, shadow, instant, opt-3, pitch-1, cost-0]
+tags: [card, blood-tribute, blood, tribute, shadow, instant, opt-3, pitch-1, cost-0, mon215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lmfc89kGcH66W6BRqCfb7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Opt 3]
 unique-id: Lmfc89kGcH66W6BRqCfb7
 sets: [MON]
+codes: [MON215]
 ---
 
 **Blood Tribute (red)** — Shadow Instant · cost 0

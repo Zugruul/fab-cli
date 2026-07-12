@@ -1,5 +1,5 @@
 ---
-tags: [card, parable-of-humility, parable, humility, illusionist, light, instant, aura, spectra, pitch-2, cost-4]
+tags: [card, parable-of-humility, parable, humility, illusionist, light, instant, aura, spectra, pitch-2, cost-4, apr020, fab025, mon011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gq8RtNNrR7hz6QB9gj7CG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra]
 unique-id: Gq8RtNNrR7hz6QB9gj7CG
 sets: [APR, FAB, MON]
+codes: [APR020, FAB025, MON011]
 ---
 
 **Parable of Humility (yellow)** — Light Illusionist Instant - Aura · cost 4

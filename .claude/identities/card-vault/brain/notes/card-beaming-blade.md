@@ -1,5 +1,5 @@
 ---
-tags: [card, beaming-blade, beaming, blade, warrior, light, weapon, sword, 2h]
+tags: [card, beaming-blade, beaming, blade, warrior, light, weapon, sword, 2h, dtd046, lgs168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kG8dtfK6bQqncJjNm6wNL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: kG8dtfK6bQqncJjNm6wNL
 sets: [DTD, LGS]
+codes: [DTD046, LGS168]
 ---
 
 **Beaming Blade** — Light Warrior Weapon - Sword (2H) · 0 power

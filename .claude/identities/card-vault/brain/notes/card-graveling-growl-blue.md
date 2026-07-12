@@ -1,5 +1,5 @@
 ---
-tags: [card, graveling-growl, graveling, growl, brute, shadow, action, attack, blood-debt, pitch-3, cost-1]
+tags: [card, graveling-growl, graveling, growl, brute, shadow, action, attack, blood-debt, pitch-3, cost-1, mon146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid njTt7R6g7QzNHm96wQQDb) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: njTt7R6g7QzNHm96wQQDb
 sets: [MON]
+codes: [MON146]
 ---
 
 **Graveling Growl (blue)** — Shadow Brute Action - Attack · cost 1 · 5 power · 3 defense

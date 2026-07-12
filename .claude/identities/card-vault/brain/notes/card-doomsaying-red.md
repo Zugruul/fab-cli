@@ -1,5 +1,5 @@
 ---
-tags: [card, doomsaying, runeblade, action, aura, go-again, pitch-1, cost-0]
+tags: [card, doomsaying, runeblade, action, aura, go-again, pitch-1, cost-0, pen097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pgCtKBCMMg6wmhBQHB6Tq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: pgCtKBCMMg6wmhBQHB6Tq
 sets: [PEN]
+codes: [PEN097]
 ---
 
 **Doomsaying (red)** — Runeblade Action - Aura · cost 0 · 3 defense

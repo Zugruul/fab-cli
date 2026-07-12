@@ -1,5 +1,5 @@
 ---
-tags: [card, sprout-strength, sprout, strength, earth, action, go-again, pitch-1, cost-0]
+tags: [card, sprout-strength, sprout, strength, earth, action, go-again, pitch-1, cost-0, pen222, sba028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9fBHnrhq6fhfnKprqnGLG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 9fBHnrhq6fhfnKprqnGLG
 sets: [PEN, SBA]
+codes: [PEN222, SBA028]
 ---
 
 **Sprout Strength (red)** — Earth Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, anka-drag-under, anka, drag, under, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-2]
+tags: [card, anka-drag-under, anka, drag, under, pirate, necromancer, action, ally, watery-grave, pitch-2, cost-2, agb014, sea262]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JjKJRwQPTtgpcCcLrDRwF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ally]
 keywords: [Watery Grave]
 unique-id: JjKJRwQPTtgpcCcLrDRwF
 sets: [AGB, SEA]
+codes: [AGB014, SEA262]
 ---
 
 **Anka, Drag Under (yellow)** — Pirate Necromancer Action - Ally · cost 2 · 5 power · 3 health

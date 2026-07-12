@@ -1,5 +1,5 @@
 ---
-tags: [card, sizzling-steel, sizzling, steel, warrior, draconic, attack-reaction, pitch-1, cost-1]
+tags: [card, sizzling-steel, sizzling, steel, warrior, draconic, attack-reaction, pitch-1, cost-1, hnt113]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DPh9t9CPG8qjfbPNPbfBK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: DPh9t9CPG8qjfbPNPbfBK
 sets: [HNT]
+codes: [HNT113]
 ---
 
 **Sizzling Steel (red)** — Draconic Warrior Attack Reaction · cost 1 · 2 defense

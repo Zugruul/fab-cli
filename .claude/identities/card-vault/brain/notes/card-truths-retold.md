@@ -1,5 +1,5 @@
 ---
-tags: [card, truths-retold, truths, retold, illusionist, mystic, equipment, head, cloaked, ward-1]
+tags: [card, truths-retold, truths, retold, illusionist, mystic, equipment, head, cloaked, ward-1, eng003, lgs271, mst029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WnPNGc8HLQHhbFKFrLkPM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Cloaked, Ward 1]
 unique-id: WnPNGc8HLQHhbFKFrLkPM
 sets: [ENG, LGS, MST]
+codes: [ENG003, LGS271, MST029]
 ---
 
 **Truths Retold** — Mystic Illusionist Equipment - Head

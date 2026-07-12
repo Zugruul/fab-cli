@@ -1,5 +1,5 @@
 ---
-tags: [card, inverters-nightcowl, inverters, nightcowl, assassin, equipment, chest, battleworn]
+tags: [card, inverters-nightcowl, inverters, nightcowl, assassin, equipment, chest, battleworn, aac005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gMWcDdjLpcdzMFDTBNpmM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: gMWcDdjLpcdzMFDTBNpmM
 sets: [AAC]
+codes: [AAC005]
 ---
 
 **Inverter's Nightcowl** — Assassin Equipment - Chest · 1 defense

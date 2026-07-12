@@ -1,5 +1,5 @@
 ---
-tags: [card, widespread-ruin, widespread, ruin, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-2]
+tags: [card, widespread-ruin, widespread, ruin, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-2, dtd139]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K8qRnknckRfM9fJ9fhrcm) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: K8qRnknckRfM9fJ9fhrcm
 sets: [DTD]
+codes: [DTD139]
 ---
 
 **Widespread Ruin (red)** — Shadow Runeblade Action - Attack · cost 2 · 6 power · 3 defense

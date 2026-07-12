@@ -1,5 +1,5 @@
 ---
-tags: [card, haven-veil, haven, veil, wizard, instant, aura, pitch-1, cost-0]
+tags: [card, haven-veil, haven, veil, wizard, instant, aura, pitch-1, cost-0, omn137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnnF9jgBnbK7W67t7KrHG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: PnnF9jgBnbK7W67t7KrHG
 sets: [OMN]
+codes: [OMN137]
 ---
 
 **Haven Veil (red)** — Wizard Instant - Aura · cost 0

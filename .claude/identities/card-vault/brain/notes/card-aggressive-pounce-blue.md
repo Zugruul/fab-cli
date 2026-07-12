@@ -1,5 +1,5 @@
 ---
-tags: [card, aggressive-pounce, aggressive, pounce, brute, action, attack, go-again, pitch-3, cost-2]
+tags: [card, aggressive-pounce, aggressive, pounce, brute, action, attack, go-again, pitch-3, cost-2, pen011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JCRhKzfTd6pJCpdrwL8rt) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: JCRhKzfTd6pJCpdrwL8rt
 sets: [PEN]
+codes: [PEN011]
 ---
 
 **Aggressive Pounce (blue)** — Brute Action - Attack · cost 2 · 4 power · 3 defense

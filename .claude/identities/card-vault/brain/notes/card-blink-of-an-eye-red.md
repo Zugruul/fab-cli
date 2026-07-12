@@ -1,5 +1,5 @@
 ---
-tags: [card, blink-of-an-eye, blink, eye, illusionist, lightning, action, attack, fragment, pitch-1, cost-2]
+tags: [card, blink-of-an-eye, blink, eye, illusionist, lightning, action, attack, fragment, pitch-1, cost-2, azs007, omn006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cmf8GkhNpRqdpkwLg9RnK) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: Cmf8GkhNpRqdpkwLg9RnK
 sets: [AZS, OMN]
+codes: [AZS007, OMN006]
 ---
 
 **Blink of an Eye (red)** — Lightning Illusionist Action - Attack · cost 2 · 7 power · 3 defense

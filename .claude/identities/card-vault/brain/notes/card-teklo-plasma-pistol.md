@@ -1,5 +1,5 @@
 ---
-tags: [card, teklo-plasma-pistol, teklo, plasma, pistol, mechanologist, weapon, 2h]
+tags: [card, teklo-plasma-pistol, teklo, plasma, pistol, mechanologist, weapon, 2h, 1hp184, arc003, cru100, fab144, lgs009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fNFqtdWLq6tCPnnwjLLWL) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Pistol, 2H]
 unique-id: fNFqtdWLq6tCPnnwjLLWL
 sets: [1HP, ARC, CRU, FAB, LGS]
+codes: [1HP184, ARC003, CRU100, FAB144, LGS009]
 ---
 
 **Teklo Plasma Pistol** — Mechanologist Weapon - Pistol (2H) · 2 power

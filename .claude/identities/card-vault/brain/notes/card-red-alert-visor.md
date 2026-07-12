@@ -1,5 +1,5 @@
 ---
-tags: [card, red-alert-visor, red, alert, visor, assassin, warrior, equipment, head, blade-break]
+tags: [card, red-alert-visor, red, alert, visor, assassin, warrior, equipment, head, blade-break, hnt192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lf6kGcR7qqdFHCHLnGkng) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: Lf6kGcR7qqdFHCHLnGkng
 sets: [HNT]
+codes: [HNT192]
 ---
 
 **Red Alert Visor** — Assassin / Warrior Equipment - Head · 1 defense

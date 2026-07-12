@@ -1,5 +1,5 @@
 ---
-tags: [card, pulping, brute, action, attack, dominate, go-again, pitch-1, cost-2]
+tags: [card, pulping, brute, action, attack, dominate, go-again, pitch-1, cost-2, ako010, lgs051, mon223, ska015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hpdjj6RbkDfKMmNqQmwTR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 keywords: [Dominate, Go again]
 unique-id: Hpdjj6RbkDfKMmNqQmwTR
 sets: [AKO, LGS, MON, SKA]
+codes: [AKO010, LGS051, MON223, SKA015]
 ---
 
 **Pulping (red)** — Brute Action - Attack · cost 2 · 6 power

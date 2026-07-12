@@ -1,5 +1,5 @@
 ---
-tags: [card, reinforce-the-line, reinforce, line, generic, instant, pitch-3, cost-0]
+tags: [card, reinforce-the-line, reinforce, line, generic, instant, pitch-3, cost-0, bdd017, cru191, hvy221]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GKhGdJJjhHfK7N6jFkQBC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: GKhGdJJjhHfK7N6jFkQBC
 sets: [BDD, CRU, HVY]
+codes: [BDD017, CRU191, HVY221]
 ---
 
 **Reinforce the Line (blue)** — Generic Instant · cost 0

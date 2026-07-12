@@ -1,5 +1,5 @@
 ---
-tags: [card, meteoric-impact, meteoric, impact, wizard, lightning, action, starfall, pitch-1, cost-1]
+tags: [card, meteoric-impact, meteoric, impact, wizard, lightning, action, starfall, pitch-1, cost-1, omn118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kLWrkbbDknfq8fR8TgHnL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Starfall]
 unique-id: kLWrkbbDknfq8fR8TgHnL
 sets: [OMN]
+codes: [OMN118]
 ---
 
 **Meteoric Impact (red)** — Lightning Wizard Action · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hydraulic-press, hydraulic, press, mechanologist, action, attack, scrap, overpower, pitch-3, cost-3]
+tags: [card, hydraulic-press, hydraulic, press, mechanologist, action, attack, scrap, overpower, pitch-3, cost-3, evo104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HCR9pfkgzwfMgnwHdt8TP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap, Overpower]
 unique-id: HCR9pfkgzwfMgnwHdt8TP
 sets: [EVO]
+codes: [EVO104]
 ---
 
 **Hydraulic Press (blue)** — Mechanologist Action - Attack · cost 3 · 4 power · 3 defense

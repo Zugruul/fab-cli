@@ -1,5 +1,5 @@
 ---
-tags: [card, slice-and-dice, slice, dice, warrior, action, go-again, pitch-3, cost-0]
+tags: [card, slice-and-dice, slice, dice, warrior, action, go-again, pitch-3, cost-0, evr059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bJcbjBkHkqdKmzkBDcWqp) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bJcbjBkHkqdKmzkBDcWqp
 sets: [EVR]
+codes: [EVR059]
 ---
 
 **Slice and Dice (blue)** — Warrior Action · cost 0 · 3 defense

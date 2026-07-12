@@ -1,5 +1,5 @@
 ---
-tags: [card, hooves-of-the-shadowbeast, hooves, shadowbeast, brute, shadow, equipment, legs, battleworn]
+tags: [card, hooves-of-the-shadowbeast, hooves, shadowbeast, brute, shadow, equipment, legs, battleworn, lev007, mon122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khP7tT6NRCgzjJMWB8JHm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: khP7tT6NRCgzjJMWB8JHm
 sets: [LEV, MON]
+codes: [LEV007, MON122]
 ---
 
 **Hooves of the Shadowbeast** — Shadow Brute Equipment - Legs · 1 defense

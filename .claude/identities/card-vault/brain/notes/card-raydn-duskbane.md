@@ -1,5 +1,5 @@
 ---
-tags: [card, raydn-duskbane, raydn, duskbane, warrior, light, weapon, sword, 2h]
+tags: [card, raydn-duskbane, raydn, duskbane, warrior, light, weapon, sword, 2h, asb002, fab145, mon031, sbl002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zBjL8PJJGGwQPqHrk7RnP) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: zBjL8PJJGGwQPqHrk7RnP
 sets: [ASB, FAB, MON, SBL]
+codes: [ASB002, FAB145, MON031, SBL002]
 ---
 
 **Raydn, Duskbane** — Light Warrior Weapon - Sword (2H) · 0 power

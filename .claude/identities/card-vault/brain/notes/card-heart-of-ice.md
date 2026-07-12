@@ -1,5 +1,5 @@
 ---
-tags: [card, heart-of-ice, heart, ice, equipment, chest, arcane-barrier-1, blade-break]
+tags: [card, heart-of-ice, heart, ice, equipment, chest, arcane-barrier-1, blade-break, ele144, fab053]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PpQBJwQCfFrHzKM9TkcbD) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1, Blade Break]
 unique-id: PpQBJwQCfFrHzKM9TkcbD
 sets: [ELE, FAB]
+codes: [ELE144, FAB053]
 ---
 
 **Heart of Ice** — Ice Equipment - Chest · 1 defense

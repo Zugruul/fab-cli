@@ -1,5 +1,5 @@
 ---
-tags: [card, down-and-dirty, down, dirty, generic, action, attack, pitch-1, cost-2]
+tags: [card, down-and-dirty, down, dirty, generic, action, attack, pitch-1, cost-2, out184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HgLNTDb7kMk7MdJrTjn8T) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HgLNTDb7kMk7MdJrTjn8T
 sets: [OUT]
+codes: [OUT184]
 ---
 
 **Down and Dirty (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

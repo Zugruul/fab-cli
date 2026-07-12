@@ -1,5 +1,5 @@
 ---
-tags: [card, vengeful-apparition, vengeful, apparition, illusionist, action, aura, ward-1, pitch-1, cost-0]
+tags: [card, vengeful-apparition, vengeful, apparition, illusionist, action, aura, ward-1, pitch-1, cost-0, mst155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pc7tf6hwQmpPJnngCLdhT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: pc7tf6hwQmpPJnngCLdhT
 sets: [MST]
+codes: [MST155]
 ---
 
 **Vengeful Apparition (red)** — Illusionist Action - Aura · cost 0 · 3 defense

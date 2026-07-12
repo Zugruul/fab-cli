@@ -1,5 +1,5 @@
 ---
-tags: [card, victor-goldmane-high-and-mighty, victor, goldmane, high, mighty, guardian, hero, adult, clash]
+tags: [card, victor-goldmane-high-and-mighty, victor, goldmane, high, mighty, guardian, hero, adult, clash, her106, her145, hvy047, win030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fc8jMwTprwnhRbPKDmF9J) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Clash]
 unique-id: fc8jMwTprwnhRbPKDmF9J
 sets: [HER, HVY, WIN]
+codes: [HER106, HER145, HVY047, WIN030]
 ---
 
 **Victor Goldmane, High and Mighty** — Guardian Hero · 40 health · 4 int

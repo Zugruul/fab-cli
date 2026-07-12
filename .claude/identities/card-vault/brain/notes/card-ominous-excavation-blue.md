@@ -1,5 +1,5 @@
 ---
-tags: [card, ominous-excavation, ominous, excavation, generic, instant, pitch-3, cost-0]
+tags: [card, ominous-excavation, ominous, excavation, generic, instant, pitch-3, cost-0, omn217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MNTwwGcGgbWBPrnDdKtBb) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: MNTwwGcGgbWBPrnDdKtBb
 sets: [OMN]
+codes: [OMN217]
 ---
 
 **Ominous Excavation (blue)** — Generic Instant · cost 0

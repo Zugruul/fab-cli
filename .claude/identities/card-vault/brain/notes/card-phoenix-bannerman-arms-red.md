@@ -1,5 +1,5 @@
 ---
-tags: [card, phoenix-bannerman-arms, phoenix, bannerman, arms, draconic, action, legendary, go-again, pitch-1, cost-0]
+tags: [card, phoenix-bannerman-arms, phoenix, bannerman, arms, draconic, action, legendary, go-again, pitch-1, cost-0, pen259]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TMj8cMnKjDbTPMnfTL8tL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Legendary, Go again]
 unique-id: TMj8cMnKjDbTPMnfTL8tL
 sets: [PEN]
+codes: [PEN259]
 ---
 
 **Phoenix Bannerman: Arms (red)** — Draconic Action · cost 0 · 3 defense

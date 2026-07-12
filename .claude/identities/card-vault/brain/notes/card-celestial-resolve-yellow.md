@@ -1,5 +1,5 @@
 ---
-tags: [card, celestial-resolve, celestial, resolve, illusionist, light, instant, pitch-2, cost-0]
+tags: [card, celestial-resolve, celestial, resolve, illusionist, light, instant, pitch-2, cost-0, dtd042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nC6bfnQB8FMqmR7njpDkh) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Instant]
 unique-id: nC6bfnQB8FMqmR7njpDkh
 sets: [DTD]
+codes: [DTD042]
 ---
 
 **Celestial Resolve (yellow)** — Light Illusionist Instant · cost 0

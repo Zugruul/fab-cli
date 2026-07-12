@@ -1,5 +1,5 @@
 ---
-tags: [card, art-of-the-dragon-scale, art, dragon, scale, ninja, action, attack, pitch-1, cost-1]
+tags: [card, art-of-the-dragon-scale, art, dragon, scale, ninja, action, attack, pitch-1, cost-1, fab310, hnt076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cNjtmFrD8bMPtTfgzmcJf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: cNjtmFrD8bMPtTfgzmcJf
 sets: [FAB, HNT]
+codes: [FAB310, HNT076]
 ---
 
 **Art of the Dragon: Scale (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, starfield-carapace, starfield, carapace, illusionist, lightning, equipment, chest, blade-break]
+tags: [card, starfield-carapace, starfield, carapace, illusionist, lightning, equipment, chest, blade-break, azs004, omn249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NfgpHMJczznbc7PJKt7Kw) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: NfgpHMJczznbc7PJKt7Kw
 sets: [AZS, OMN]
+codes: [AZS004, OMN249]
 ---
 
 **Starfield Carapace** — Lightning Illusionist Equipment - Chest · 1 defense

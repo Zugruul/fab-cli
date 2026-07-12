@@ -1,5 +1,5 @@
 ---
-tags: [card, righteous-cleansing, righteous, cleansing, guardian, action, attack, crush, pitch-2, cost-7]
+tags: [card, righteous-cleansing, righteous, cleansing, guardian, action, attack, crush, pitch-2, cost-7, 1hp052, cru027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WjTbCjjCgPncF9w7WH9Q8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: WjTbCjjCgPncF9w7WH9Q8
 sets: [1HP, CRU]
+codes: [1HP052, CRU027]
 ---
 
 **Righteous Cleansing (yellow)** — Guardian Action - Attack · cost 7 · 10 power · 3 defense

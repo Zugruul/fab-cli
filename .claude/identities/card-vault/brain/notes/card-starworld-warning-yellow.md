@@ -1,5 +1,5 @@
 ---
-tags: [card, starworld-warning, starworld, warning, lightning, instant, pitch-2, cost-1]
+tags: [card, starworld-warning, starworld, warning, lightning, instant, pitch-2, cost-1, omn188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CPGCwntgcMqcqCBLh6nBL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: CPGCwntgcMqcqCBLh6nBL
 sets: [OMN]
+codes: [OMN188]
 ---
 
 **Starworld Warning (yellow)** — Lightning Instant · cost 1

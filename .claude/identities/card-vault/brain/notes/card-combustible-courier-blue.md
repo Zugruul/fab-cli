@@ -1,5 +1,5 @@
 ---
-tags: [card, combustible-courier, combustible, courier, mechanologist, action, attack, boost, pitch-3, cost-2]
+tags: [card, combustible-courier, combustible, courier, mechanologist, action, attack, boost, pitch-3, cost-2, 1hp204, cru111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRWWLdH9LMtHDr6kRpHmF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: zRWWLdH9LMtHDr6kRpHmF
 sets: [1HP, CRU]
+codes: [1HP204, CRU111]
 ---
 
 **Combustible Courier (blue)** — Mechanologist Action - Attack · cost 2 · 2 power · 3 defense

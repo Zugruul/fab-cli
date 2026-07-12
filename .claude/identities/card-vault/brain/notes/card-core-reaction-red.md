@@ -1,5 +1,5 @@
 ---
-tags: [card, core-reaction, core, reaction, wizard, lightning, instant, aura, pitch-1, cost-2]
+tags: [card, core-reaction, core, reaction, wizard, lightning, instant, aura, pitch-1, cost-2, omn103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C8dnFRThpKLT7Gkh7TJTm) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: C8dnFRThpKLT7Gkh7TJTm
 sets: [OMN]
+codes: [OMN103]
 ---
 
 **Core Reaction (red)** — Lightning Wizard Instant - Aura · cost 2

@@ -1,5 +1,5 @@
 ---
-tags: [card, supercell, mechanologist, action, pitch-3]
+tags: [card, supercell, mechanologist, action, pitch-3, mst227]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H99k8wdCTRgwmHP7ftWt7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Mechanologist]
 types: [Action]
 unique-id: H99k8wdCTRgwmHP7ftWt7
 sets: [MST]
+codes: [MST227]
 ---
 
 **Supercell (blue)** — Mechanologist Action · cost X · 2 defense

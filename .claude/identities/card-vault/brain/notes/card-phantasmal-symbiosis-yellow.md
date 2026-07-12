@@ -1,5 +1,5 @@
 ---
-tags: [card, phantasmal-symbiosis, phantasmal, symbiosis, illusionist, action, attack, phantasm, pitch-2, cost-1]
+tags: [card, phantasmal-symbiosis, phantasmal, symbiosis, illusionist, action, attack, phantasm, pitch-2, cost-1, dyn215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MMzFRrNNFDjrbKDjtpNzL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: MMzFRrNNFDjrbKDjtpNzL
 sets: [DYN]
+codes: [DYN215]
 ---
 
 **Phantasmal Symbiosis (yellow)** — Illusionist Action - Attack · cost 1 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-shortcircuit, evo, shortcircuit, mechanologist, instant, equipment, arms, arcane-barrier-1, pitch-3, cost-0]
+tags: [card, evo-shortcircuit, evo, shortcircuit, mechanologist, instant, equipment, arms, arcane-barrier-1, pitch-3, cost-0, mst230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtRJdNDbtJKWHJBPFn7Pc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Arcane Barrier 1]
 unique-id: NtRJdNDbtJKWHJBPFn7Pc
 sets: [MST]
+codes: [MST230]
 ---
 
 **Evo Shortcircuit (blue)** — Mechanologist Instant Equipment - Evo Arms · cost 0 · 0 defense

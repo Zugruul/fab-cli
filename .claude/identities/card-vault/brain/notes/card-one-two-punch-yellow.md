@@ -1,5 +1,5 @@
 ---
-tags: [card, one-two-punch, one, two, punch, ninja, action, attack, combo, pitch-2, cost-0]
+tags: [card, one-two-punch, one, two, punch, ninja, action, attack, combo, pitch-2, cost-0, ben016, kat016, out081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nCKMcTCR7mjKgkhQk7TWc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: nCKMcTCR7mjKgkhQk7TWc
 sets: [BEN, KAT, OUT]
+codes: [BEN016, KAT016, OUT081]
 ---
 
 **One-Two Punch (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

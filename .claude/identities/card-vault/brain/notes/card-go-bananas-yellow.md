@@ -1,5 +1,5 @@
 ---
-tags: [card, go-bananas, go, bananas, generic, instant, pitch-2, cost-0]
+tags: [card, go-bananas, go, bananas, generic, instant, pitch-2, cost-0, lss002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ngk6PkmH6JQnfdC9zg8fQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: Ngk6PkmH6JQnfdC9zg8fQ
 sets: [LSS]
+codes: [LSS002]
 ---
 
 **Go Bananas (yellow)** — Generic Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, wind-chakra, wind, chakra, ninja, mystic, action, go-again, pitch-1, cost-0]
+tags: [card, wind-chakra, wind, chakra, ninja, mystic, action, go-again, pitch-1, cost-0, lgs265, mst054, zen016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KRLHmjMcJTWNdrHrHqbkt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: KRLHmjMcJTWNdrHrHqbkt
 sets: [LGS, MST, ZEN]
+codes: [LGS265, MST054, ZEN016]
 ---
 
 **Wind Chakra (red)** — Mystic Ninja Action · cost 0 · 3 defense

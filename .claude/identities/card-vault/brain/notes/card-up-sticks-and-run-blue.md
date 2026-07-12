@@ -1,5 +1,5 @@
 ---
-tags: [card, up-sticks-and-run, up, sticks, run, assassin, ninja, action, go-again, retrieve, pitch-3, cost-0]
+tags: [card, up-sticks-and-run, up, sticks, run, assassin, ninja, action, go-again, retrieve, pitch-3, cost-0, ark026, hnt181, wod026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TKNGKNCqH8chr9RwpjkfH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Retrieve]
 unique-id: TKNGKNCqH8chr9RwpjkfH
 sets: [ARK, HNT, WOD]
+codes: [ARK026, HNT181, WOD026]
 ---
 
 **Up Sticks and Run (blue)** — Assassin / Ninja Action · cost 0 · 2 defense

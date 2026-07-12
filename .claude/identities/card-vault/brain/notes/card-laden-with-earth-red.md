@@ -1,5 +1,5 @@
 ---
-tags: [card, laden-with-earth, laden, earth, elemental, action, earth-bond, go-again, pitch-1, cost-1]
+tags: [card, laden-with-earth, laden, earth, elemental, action, earth-bond, go-again, pitch-1, cost-1, pen210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgJQKQKbPcQRM9BJ9qkGG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Earth Bond, Go again]
 unique-id: QgJQKQKbPcQRM9BJ9qkGG
 sets: [PEN]
+codes: [PEN210]
 ---
 
 **Laden with Earth (red)** — Elemental Action · cost 1 · 2 defense

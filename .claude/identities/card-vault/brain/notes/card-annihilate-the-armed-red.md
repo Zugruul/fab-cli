@@ -1,5 +1,5 @@
 ---
-tags: [card, annihilate-the-armed, annihilate, armed, assassin, action, attack, contract, pitch-1, cost-1]
+tags: [card, annihilate-the-armed, annihilate, armed, assassin, action, attack, contract, pitch-1, cost-1, ark008, dyn133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qJfJ7wBLmBtGnBpqQttNK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: qJfJ7wBLmBtGnBpqQttNK
 sets: [ARK, DYN]
+codes: [ARK008, DYN133]
 ---
 
 **Annihilate the Armed (red)** — Assassin Action - Attack · cost 1 · 5 power · 3 defense

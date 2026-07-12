@@ -1,5 +1,5 @@
 ---
-tags: [card, red-alert-vest, red, alert, vest, assassin, warrior, equipment, chest, blade-break]
+tags: [card, red-alert-vest, red, alert, vest, assassin, warrior, equipment, chest, blade-break, hnt193, wod004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cTk6wFnMDN7z6WHfDPmrQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: cTk6wFnMDN7z6WHfDPmrQ
 sets: [HNT, WOD]
+codes: [HNT193, WOD004]
 ---
 
 **Red Alert Vest** — Assassin / Warrior Equipment - Chest · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, cleansing-light, cleansing, light, action, pitch-1, cost-3]
+tags: [card, cleansing-light, cleansing, light, action, pitch-1, cost-3, dtd088]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8fNNR6wFmtQfKWqgkB6pb) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Action]
 unique-id: 8fNNR6wFmtQfKWqgkB6pb
 sets: [DTD]
+codes: [DTD088]
 ---
 
 **Cleansing Light (red)** — Light Action · cost 3 · 2 defense

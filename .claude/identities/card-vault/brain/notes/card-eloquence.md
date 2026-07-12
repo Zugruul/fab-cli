@@ -1,5 +1,5 @@
 ---
-tags: [card, eloquence, generic, token, aura, go-again]
+tags: [card, eloquence, generic, token, aura, go-again, dtd233, fab154]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jKhMgndCGwjzKLHQMM7Cj) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: jKhMgndCGwjzKLHQMM7Cj
 sets: [DTD, FAB]
+codes: [DTD233, FAB154]
 ---
 
 **Eloquence** — Generic Token - Aura

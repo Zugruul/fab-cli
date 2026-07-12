@@ -1,5 +1,5 @@
 ---
-tags: [card, leg-tap, leg, tap, ninja, action, attack, go-again, pitch-3, cost-1]
+tags: [card, leg-tap, leg, tap, ninja, action, attack, go-again, pitch-3, cost-1, 1hp118, wtr103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dcWdcd8Q6tnPKDT6nKkjH) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dcWdcd8Q6tnPKDT6nKkjH
 sets: [1HP, WTR]
+codes: [1HP118, WTR103]
 ---
 
 **Leg Tap (blue)** — Ninja Action - Attack · cost 1 · 2 power · 2 defense

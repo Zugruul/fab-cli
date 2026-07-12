@@ -1,5 +1,5 @@
 ---
-tags: [card, rune-snare, rune, snare, ranger, action, trap, go-again, pitch-1, cost-0]
+tags: [card, rune-snare, rune, snare, ranger, action, trap, go-again, pitch-1, cost-0, pen084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HnWJDF9KtC8DgPRLtC9z9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Go again]
 unique-id: HnWJDF9KtC8DgPRLtC9z9
 sets: [PEN]
+codes: [PEN084]
 ---
 
 **Rune Snare (red)** — Ranger Action - Trap · cost 0 · 2 defense

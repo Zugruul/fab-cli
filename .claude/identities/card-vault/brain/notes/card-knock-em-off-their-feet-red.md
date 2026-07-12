@@ -1,5 +1,5 @@
 ---
-tags: [card, knock-em-off-their-feet, knock, em, off, their, feet, guardian, action, attack, crush, pitch-1, cost-4]
+tags: [card, knock-em-off-their-feet, knock, em, off, their, feet, guardian, action, attack, crush, pitch-1, cost-4, bdd008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bWBL7WwPLgdD9j9KkmDHW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: bWBL7WwPLgdD9j9KkmDHW
 sets: [BDD]
+codes: [BDD008]
 ---
 
 **Knock 'Em Off Their Feet (red)** — Guardian Action - Attack · cost 4 · 8 power · 3 defense

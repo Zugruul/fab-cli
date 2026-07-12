@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-charging-rods, evo, charging, rods, mechanologist, action, equipment, legs, transform, blade-break, pitch-2, cost-0]
+tags: [card, evo-charging-rods, evo, charging, rods, mechanologist, action, equipment, legs, transform, blade-break, pitch-2, cost-0, evo049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PzB6NcbhjdFqq7QBgTLgg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Legs]
 keywords: [Transform, Blade Break]
 unique-id: PzB6NcbhjdFqq7QBgTLgg
 sets: [EVO]
+codes: [EVO049]
 ---
 
 **Evo Charging Rods (yellow)** — Mechanologist Action Equipment - Evo Legs · cost 0 · 2 defense

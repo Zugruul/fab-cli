@@ -1,5 +1,5 @@
 ---
-tags: [card, incision, assassin, warrior, attack-reaction, pitch-2, cost-0]
+tags: [card, incision, assassin, warrior, attack-reaction, pitch-2, cost-0, hnt206]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pLrkq7WBQfk9LjdzLHNBw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Warrior]
 types: [Attack Reaction]
 unique-id: pLrkq7WBQfk9LjdzLHNBw
 sets: [HNT]
+codes: [HNT206]
 ---
 
 **Incision (yellow)** — Assassin / Warrior Attack Reaction · cost 0 · 3 defense

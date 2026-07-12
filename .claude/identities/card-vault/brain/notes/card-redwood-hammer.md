@@ -1,5 +1,5 @@
 ---
-tags: [card, redwood-hammer, redwood, hammer, guardian, earth, weapon, 1h]
+tags: [card, redwood-hammer, redwood, hammer, guardian, earth, weapon, 1h, lgs364, ter002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8BgkFbrc7PmgQhT8bK6BC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Hammer, 1H]
 unique-id: 8BgkFbrc7PmgQhT8bK6BC
 sets: [LGS, TER]
+codes: [LGS364, TER002]
 ---
 
 **Redwood Hammer** — Earth Guardian Weapon - Hammer (1H) · 3 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, sack-the-shifty, sack, shifty, assassin, action, attack, contract, pitch-3, cost-0]
+tags: [card, sack-the-shifty, sack, shifty, assassin, action, attack, contract, pitch-3, cost-0, dyn144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GCBnJqcCCpBHQwzBgdNbh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: GCBnJqcCCpBHQwzBgdNbh
 sets: [DYN]
+codes: [DYN144]
 ---
 
 **Sack the Shifty (blue)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, perforate, assassin, warrior, attack-reaction, pitch-2, cost-1]
+tags: [card, perforate, assassin, warrior, attack-reaction, pitch-2, cost-1, hnt197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kcWTWNfgMCjmWT9BNKwmJ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin, Warrior]
 types: [Attack Reaction]
 unique-id: kcWTWNfgMCjmWT9BNKwmJ
 sets: [HNT]
+codes: [HNT197]
 ---
 
 **Perforate (yellow)** — Assassin / Warrior Attack Reaction · cost 1 · 3 defense

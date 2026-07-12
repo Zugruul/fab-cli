@@ -1,5 +1,5 @@
 ---
-tags: [card, regain-composure, regain, composure, generic, action, go-again, pitch-3, cost-0]
+tags: [card, regain-composure, regain, composure, generic, action, go-again, pitch-3, cost-0, sea210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qWzngwMHHKwBJT6BKkF9r) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qWzngwMHHKwBJT6BKkF9r
 sets: [SEA]
+codes: [SEA210]
 ---
 
 **Regain Composure (blue)** — Generic Action · cost 0 · 2 defense

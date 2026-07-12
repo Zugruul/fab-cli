@@ -1,5 +1,5 @@
 ---
-tags: [card, moon-chakra, moon, chakra, illusionist, mystic, instant, pitch-1, cost-0]
+tags: [card, moon-chakra, moon, chakra, illusionist, mystic, instant, pitch-1, cost-0, lgs263, mst034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pDpQ79NgQN6MQtz9zQrCW) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Mystic]
 types: [Instant]
 unique-id: pDpQ79NgQN6MQtz9zQrCW
 sets: [LGS, MST]
+codes: [LGS263, MST034]
 ---
 
 **Moon Chakra (red)** — Mystic Illusionist Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, wall-breaker, wall, breaker, brute, shadow, action, attack, overpower, blood-debt, pitch-2, cost-2]
+tags: [card, wall-breaker, wall, breaker, brute, shadow, action, attack, overpower, blood-debt, pitch-2, cost-2, dtd116]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PTwFjp7bRMhWjwr6dcj68) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Overpower, Blood Debt]
 unique-id: PTwFjp7bRMhWjwr6dcj68
 sets: [DTD]
+codes: [DTD116]
 ---
 
 **Wall Breaker (yellow)** — Shadow Brute Action - Attack · cost 2 · 5 power · 3 defense

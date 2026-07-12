@@ -1,5 +1,5 @@
 ---
-tags: [card, rend-flesh, rend, flesh, warrior, action, go-again, pitch-3, cost-0]
+tags: [card, rend-flesh, rend, flesh, warrior, action, go-again, pitch-3, cost-0, pen050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPRqFt9jMPmdRLQmhb8jt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: wPRqFt9jMPmdRLQmhb8jt
 sets: [PEN]
+codes: [PEN050]
 ---
 
 **Rend Flesh (blue)** — Warrior Action · cost 0 · 3 defense

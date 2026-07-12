@@ -1,5 +1,5 @@
 ---
-tags: [card, mbrio-base-cortex, mbrio, base, cortex, mechanologist, equipment, chest, guardwell]
+tags: [card, mbrio-base-cortex, mbrio, base, cortex, mechanologist, equipment, chest, guardwell, pen059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JgFBnrrK6K8qTw8nk9jK9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Base, Chest]
 keywords: [Guardwell]
 unique-id: JgFBnrrK6K8qTw8nk9jK9
 sets: [PEN]
+codes: [PEN059]
 ---
 
 **mBrio Base Cortex** — Mechanologist Equipment - Base Chest · 0 defense

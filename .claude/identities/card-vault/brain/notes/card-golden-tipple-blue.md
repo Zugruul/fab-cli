@@ -1,5 +1,5 @@
 ---
-tags: [card, golden-tipple, golden, tipple, pirate, action, attack, go-again, pitch-3, cost-1]
+tags: [card, golden-tipple, golden, tipple, pirate, action, attack, go-again, pitch-3, cost-1, agb021, sea161, sgb022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QctzddqGNk8RgCTBMWPMN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: QctzddqGNk8RgCTBMWPMN
 sets: [AGB, SEA, SGB]
+codes: [AGB021, SEA161, SGB022]
 ---
 
 **Golden Tipple (blue)** — Pirate Action - Attack · cost 1 · 1 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, phantom-tidemaw, phantom, tidemaw, illusionist, instant, aura, phantasm, ward-1, pitch-3, cost-0]
+tags: [card, phantom-tidemaw, phantom, tidemaw, illusionist, instant, aura, phantasm, ward-1, pitch-3, cost-0, evo244]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NBLbpCJJdNCtpKQndQ6nL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Phantasm, Ward 1]
 unique-id: NBLbpCJJdNCtpKQndQ6nL
 sets: [EVO]
+codes: [EVO244]
 ---
 
 **Phantom Tidemaw (blue)** — Illusionist Instant - Aura · cost 0

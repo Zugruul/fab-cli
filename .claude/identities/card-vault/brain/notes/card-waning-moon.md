@@ -1,5 +1,5 @@
 ---
-tags: [card, waning-moon, waning, moon, wizard, weapon, staff, 2h]
+tags: [card, waning-moon, waning, moon, wizard, weapon, staff, 2h, lgs109, upr165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kzzwCj8LJwfMf9MTntgtt) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Staff, 2H]
 unique-id: kzzwCj8LJwfMf9MTntgtt
 sets: [LGS, UPR]
+codes: [LGS109, UPR165]
 ---
 
 **Waning Moon** — Wizard Weapon - Staff (2H)

@@ -1,5 +1,5 @@
 ---
-tags: [card, dragonscaler-flight-path, dragonscaler, flight, path, draconic, equipment, legs, battleworn, go-again]
+tags: [card, dragonscaler-flight-path, dragonscaler, flight, path, draconic, equipment, legs, battleworn, go-again, fab290, hnt143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Tn6HrNTBn7GQJt8pGTLwQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn, Go again]
 unique-id: Tn6HrNTBn7GQJt8pGTLwQ
 sets: [FAB, HNT]
+codes: [FAB290, HNT143]
 ---
 
 **Dragonscaler Flight Path** — Draconic Equipment - Legs · 1 defense

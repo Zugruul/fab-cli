@@ -1,5 +1,5 @@
 ---
-tags: [card, plasma-mainline, plasma, mainline, mechanologist, action, item, pitch-1, cost-2]
+tags: [card, plasma-mainline, plasma, mainline, mechanologist, action, item, pitch-1, cost-2, dyn093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fCmcQjBCJ9BRGBQDWk9Dw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: fCmcQjBCJ9BRGBQDWk9Dw
 sets: [DYN]
+codes: [DYN093]
 ---
 
 **Plasma Mainline (red)** — Mechanologist Action - Item · cost 2

@@ -1,5 +1,5 @@
 ---
-tags: [card, peg-leg, peg, leg, pirate, equipment, legs, blade-break, go-again]
+tags: [card, peg-leg, peg, leg, pirate, equipment, legs, blade-break, go-again, lgs395, sea129]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wcP88wJc6CFbLQpQFJcCn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break, Go again]
 unique-id: wcP88wJc6CFbLQpQFJcCn
 sets: [LGS, SEA]
+codes: [LGS395, SEA129]
 ---
 
 **Peg Leg** — Pirate Equipment - Legs · 1 defense

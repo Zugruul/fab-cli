@@ -1,5 +1,5 @@
 ---
-tags: [card, bam-bam, bam, brute, action, attack, pitch-2, cost-3]
+tags: [card, bam-bam, bam, brute, action, attack, pitch-2, cost-3, sea250]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k6CHfQ7NKhD8f7kPPhBdK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: k6CHfQ7NKhD8f7kPPhBdK
 sets: [SEA]
+codes: [SEA250]
 ---
 
 **Bam Bam (yellow)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

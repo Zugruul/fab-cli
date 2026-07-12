@@ -1,5 +1,5 @@
 ---
-tags: [card, whisper-of-the-oracle, whisper, oracle, generic, action, opt-3, go-again, pitch-2, cost-0]
+tags: [card, whisper-of-the-oracle, whisper, oracle, generic, action, opt-3, go-again, pitch-2, cost-0, 1hp424, arc216, sbz023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HpcmJjndDjCmChMWWDnnc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 3, Go again]
 unique-id: HpcmJjndDjCmChMWWDnnc
 sets: [1HP, ARC, SBZ]
+codes: [1HP424, ARC216, SBZ023]
 ---
 
 **Whisper of the Oracle (yellow)** — Generic Action · cost 0 · 3 defense

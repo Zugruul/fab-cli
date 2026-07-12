@@ -1,5 +1,5 @@
 ---
-tags: [card, overblast, mechanologist, action, attack, pitch-1, cost-2]
+tags: [card, overblast, mechanologist, action, attack, pitch-1, cost-2, cru112, sda016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wpLckQt7zw66h87TbjcWt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wpLckQt7zw66h87TbjcWt
 sets: [CRU, SDA]
+codes: [CRU112, SDA016]
 ---
 
 **Overblast (red)** — Mechanologist Action - Attack · cost 2 · 5 power · 3 defense

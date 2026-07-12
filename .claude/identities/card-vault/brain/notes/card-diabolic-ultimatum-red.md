@@ -1,5 +1,5 @@
 ---
-tags: [card, diabolic-ultimatum, diabolic, ultimatum, runeblade, action, pitch-1, cost-3]
+tags: [card, diabolic-ultimatum, diabolic, ultimatum, runeblade, action, pitch-1, cost-3, dyn174]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LcqN7tjqc8FDhkQ9m6n6N) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Runeblade]
 types: [Action]
 unique-id: LcqN7tjqc8FDhkQ9m6n6N
 sets: [DYN]
+codes: [DYN174]
 ---
 
 **Diabolic Ultimatum (red)** — Runeblade Action · cost 3 · 2 defense

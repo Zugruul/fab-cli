@@ -1,5 +1,5 @@
 ---
-tags: [card, spreading-flames, spreading, flames, ninja, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, spreading-flames, spreading, flames, ninja, draconic, action, attack, go-again, pitch-1, cost-1, upr049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cLFGmrkNKKHNwq8cFFGDT) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: cLFGmrkNKKHNwq8cFFGDT
 sets: [UPR]
+codes: [UPR049]
 ---
 
 **Spreading Flames (red)** — Draconic Ninja Action - Attack · cost 1 · 3 power · 2 defense

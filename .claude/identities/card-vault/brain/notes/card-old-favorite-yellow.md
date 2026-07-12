@@ -1,5 +1,5 @@
 ---
-tags: [card, old-favorite, old, favorite, action, attack, revered, pitch-2, cost-3]
+tags: [card, old-favorite, old, favorite, action, attack, revered, pitch-2, cost-3, sup023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9WTLj9NnpqnWnpJNjpW6F) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: 9WTLj9NnpqnWnpJNjpW6F
 sets: [SUP]
+codes: [SUP023]
 ---
 
 **Old Favorite (yellow)** — Revered Action - Attack · cost 3 · 6 power · 3 defense

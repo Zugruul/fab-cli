@@ -1,5 +1,5 @@
 ---
-tags: [card, gravekeeping, generic, action, attack, pitch-2, cost-1]
+tags: [card, gravekeeping, generic, action, attack, pitch-2, cost-1, mst201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q8bTDr6MqMQK6GPrKJRQb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: q8bTDr6MqMQK6GPrKJRQb
 sets: [MST]
+codes: [MST201]
 ---
 
 **Gravekeeping (yellow)** — Generic Action - Attack · cost 1 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, red-alert-boots, red, alert, boots, assassin, warrior, equipment, legs, blade-break]
+tags: [card, red-alert-boots, red, alert, boots, assassin, warrior, equipment, legs, blade-break, fng006, hnt195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kcj8HPFjdMwbgFTNw7GmJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: kcj8HPFjdMwbgFTNw7GmJ
 sets: [FNG, HNT]
+codes: [FNG006, HNT195]
 ---
 
 **Red Alert Boots** — Assassin / Warrior Equipment - Legs · 1 defense

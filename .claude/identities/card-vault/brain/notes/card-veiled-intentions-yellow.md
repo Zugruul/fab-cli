@@ -1,5 +1,5 @@
 ---
-tags: [card, veiled-intentions, veiled, intentions, illusionist, action, go-again, pitch-2, cost-1]
+tags: [card, veiled-intentions, veiled, intentions, illusionist, action, go-again, pitch-2, cost-1, evr151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hnzRDH86Qm9PGp7PJ9qPG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: hnzRDH86Qm9PGp7PJ9qPG
 sets: [EVR]
+codes: [EVR151]
 ---
 
 **Veiled Intentions (yellow)** — Illusionist Action · cost 1 · 2 defense

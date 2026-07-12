@@ -1,5 +1,5 @@
 ---
-tags: [card, inflame, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, inflame, draconic, action, attack, go-again, pitch-1, cost-0, fai011, upr097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pq96Kr6wpqctKgCCQRL9z) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: pq96Kr6wpqctKgCCQRL9z
 sets: [FAI, UPR]
+codes: [FAI011, UPR097]
 ---
 
 **Inflame (red)** — Draconic Action - Attack · cost 0 · 1 power · 2 defense

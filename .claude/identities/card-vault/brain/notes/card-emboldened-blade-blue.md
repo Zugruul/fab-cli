@@ -1,5 +1,5 @@
 ---
-tags: [card, emboldened-blade, emboldened, blade, warrior, action, go-again, pitch-3, cost-0]
+tags: [card, emboldened-blade, emboldened, blade, warrior, action, go-again, pitch-3, cost-0, evo240]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nRGKwwb7q7HQnfGQLr6gp) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nRGKwwb7q7HQnfGQLr6gp
 sets: [EVO]
+codes: [EVO240]
 ---
 
 **Emboldened Blade (blue)** — Warrior Action · cost 0 · 3 defense

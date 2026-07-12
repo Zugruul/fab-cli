@@ -1,5 +1,5 @@
 ---
-tags: [card, hammer-of-havenhold, hammer, havenhold, guardian, weapon, 1h]
+tags: [card, hammer-of-havenhold, hammer, havenhold, guardian, weapon, 1h, lgs205, tcc028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DLCqPPF6cRwMCgdhRBj6F) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Hammer, 1H]
 unique-id: DLCqPPF6cRwMCgdhRBj6F
 sets: [LGS, TCC]
+codes: [LGS205, TCC028]
 ---
 
 **Hammer of Havenhold** — Guardian Weapon - Hammer (1H) · 3 power

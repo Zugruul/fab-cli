@@ -1,5 +1,5 @@
 ---
-tags: [card, rebellious-rush, rebellious, rush, ninja, draconic, action, attack, go-again, pitch-2, cost-2]
+tags: [card, rebellious-rush, rebellious, rush, ninja, draconic, action, attack, go-again, pitch-2, cost-2, upr073]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rPWHqNjBzFDtRjRhLqqDG) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: rPWHqNjBzFDtRjRhLqqDG
 sets: [UPR]
+codes: [UPR073]
 ---
 
 **Rebellious Rush (yellow)** — Draconic Ninja Action - Attack · cost 2 · 4 power · 2 defense

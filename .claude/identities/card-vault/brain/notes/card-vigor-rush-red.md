@@ -1,5 +1,5 @@
 ---
-tags: [card, vigor-rush, vigor, rush, generic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, vigor-rush, vigor, rush, generic, action, attack, go-again, pitch-1, cost-1, arc197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dQR8fwBWNN6HPz7tzBCbk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dQR8fwBWNN6HPz7tzBCbk
 sets: [ARC]
+codes: [ARC197]
 ---
 
 **Vigor Rush (red)** — Generic Action - Attack · cost 1 · 4 power · 2 defense

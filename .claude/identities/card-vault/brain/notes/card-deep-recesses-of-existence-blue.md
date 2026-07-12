@@ -1,5 +1,5 @@
 ---
-tags: [card, deep-recesses-of-existence, deep, recesses, existence, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-3, cost-4]
+tags: [card, deep-recesses-of-existence, deep, recesses, existence, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-3, cost-4, pen190]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KC6KQzjk8FkMhwN7zMKLQ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: KC6KQzjk8FkMhwN7zMKLQ
 sets: [PEN]
+codes: [PEN190]
 ---
 
 **Deep Recesses of Existence (blue)** — Shadow Runeblade Action - Attack · cost 4 · 6 power · 3 defense

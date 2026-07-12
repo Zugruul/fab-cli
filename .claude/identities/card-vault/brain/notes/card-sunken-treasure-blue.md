@@ -1,5 +1,5 @@
 ---
-tags: [card, sunken-treasure, sunken, treasure, pirate, block, pitch-3]
+tags: [card, sunken-treasure, sunken, treasure, pirate, block, pitch-3, sea133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RjKRwHmnd9Dh87HHhr9mw) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Pirate]
 types: [Block]
 unique-id: RjKRwHmnd9Dh87HHhr9mw
 sets: [SEA]
+codes: [SEA133]
 ---
 
 **Sunken Treasure (blue)** — Pirate Block · 3 defense

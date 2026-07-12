@@ -1,5 +1,5 @@
 ---
-tags: [card, freewheeling-renegades, freewheeling, renegades, generic, action, attack, pitch-2, cost-1]
+tags: [card, freewheeling-renegades, freewheeling, renegades, generic, action, attack, pitch-2, cost-1, out211]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rd8NkggL9QCtdLG8Bd8WG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Rd8NkggL9QCtdLG8Bd8WG
 sets: [OUT]
+codes: [OUT211]
 ---
 
 **Freewheeling Renegades (yellow)** — Generic Action - Attack · cost 1 · 5 power · 2 defense

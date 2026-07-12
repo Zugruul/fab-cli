@@ -1,5 +1,5 @@
 ---
-tags: [card, persuasive-prognosis, persuasive, prognosis, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, persuasive-prognosis, persuasive, prognosis, assassin, action, attack, stealth, pitch-3, cost-0, mst104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnfqGpznd7LM8JQHQJfPB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: pnfqGpznd7LM8JQHQJfPB
 sets: [MST]
+codes: [MST104]
 ---
 
 **Persuasive Prognosis (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

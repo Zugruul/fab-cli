@@ -1,5 +1,5 @@
 ---
-tags: [card, mindstate-of-tiger, mindstate, tiger, ninja, action, aura, pitch-3, cost-0]
+tags: [card, mindstate-of-tiger, mindstate, tiger, ninja, action, aura, pitch-3, cost-0, dyn048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnhGtMCHdMDGwzLj9JGwQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: PnhGtMCHdMDGwzLj9JGwQ
 sets: [DYN]
+codes: [DYN048]
 ---
 
 **Mindstate of Tiger (blue)** — Ninja Action - Aura · cost 0 · 3 defense

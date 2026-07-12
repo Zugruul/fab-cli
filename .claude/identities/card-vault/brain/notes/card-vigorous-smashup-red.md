@@ -1,5 +1,5 @@
 ---
-tags: [card, vigorous-smashup, vigorous, smashup, brute, action, attack, clash, pitch-1, cost-3]
+tags: [card, vigorous-smashup, vigorous, smashup, brute, action, attack, clash, pitch-1, cost-3, sup164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C8KwDBgMJ9rrbpdgkFTNm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: C8KwDBgMJ9rrbpdgkFTNm
 sets: [SUP]
+codes: [SUP164]
 ---
 
 **Vigorous Smashup (red)** — Brute Action - Attack · cost 3 · 7 power · 3 defense

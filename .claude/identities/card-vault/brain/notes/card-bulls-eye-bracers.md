@@ -1,5 +1,5 @@
 ---
-tags: [card, bulls-eye-bracers, bulls, eye, bracers, ranger, equipment, arms, arcane-barrier-1]
+tags: [card, bulls-eye-bracers, bulls, eye, bracers, ranger, equipment, arms, arcane-barrier-1, 1hp226, arc042, fab102, saz007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FLfrm7mBczWhFLBTKmBgJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Arcane Barrier 1]
 unique-id: FLfrm7mBczWhFLBTKmBgJ
 sets: [1HP, ARC, FAB, SAZ]
+codes: [1HP226, ARC042, FAB102, SAZ007]
 ---
 
 **Bull's Eye Bracers** — Ranger Equipment - Arms · 0 defense

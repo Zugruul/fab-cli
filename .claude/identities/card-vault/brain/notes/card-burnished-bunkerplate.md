@@ -1,5 +1,5 @@
 ---
-tags: [card, burnished-bunkerplate, burnished, bunkerplate, generic, equipment, chest]
+tags: [card, burnished-bunkerplate, burnished, bunkerplate, generic, equipment, chest, pen316]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C6zqr6WKMwc8MqGjnqRLK) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: C6zqr6WKMwc8MqGjnqRLK
 sets: [PEN]
+codes: [PEN316]
 ---
 
 **Burnished Bunkerplate** — Generic Equipment - Chest · 0 defense

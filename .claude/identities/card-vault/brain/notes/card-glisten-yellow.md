@@ -1,5 +1,5 @@
 ---
-tags: [card, glisten, light, instant, pitch-2, cost-2]
+tags: [card, glisten, light, instant, pitch-2, cost-2, mon070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8Wp6TB6rJGhP7PJ8hzpgc) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Instant]
 unique-id: 8Wp6TB6rJGhP7PJ8hzpgc
 sets: [MON]
+codes: [MON070]
 ---
 
 **Glisten (yellow)** — Light Instant · cost 2

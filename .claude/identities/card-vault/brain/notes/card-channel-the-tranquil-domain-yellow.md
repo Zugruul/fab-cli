@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-the-tranquil-domain, channel, tranquil, domain, earth, action, aura, go-again, channel-earth, pitch-2, cost-3]
+tags: [card, channel-the-tranquil-domain, channel, tranquil, domain, earth, action, aura, go-again, channel-earth, pitch-2, cost-3, sup263]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jwTLJMTw6FMzm6KrTGzkW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Earth]
 unique-id: jwTLJMTw6FMzm6KrTGzkW
 sets: [SUP]
+codes: [SUP263]
 ---
 
 **Channel the Tranquil Domain (yellow)** — Earth Action - Aura · cost 3 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, glaring-impact, glaring, impact, warrior, light, action, attack, charge, overpower, pitch-1, cost-1]
+tags: [card, glaring-impact, glaring, impact, warrior, light, action, attack, charge, overpower, pitch-1, cost-1, dtd063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tzWfhPkkqnMRWQtGWjRh8) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge, Overpower]
 unique-id: tzWfhPkkqnMRWQtGWjRh8
 sets: [DTD]
+codes: [DTD063]
 ---
 
 **Glaring Impact (red)** — Light Warrior Action - Attack · cost 1 · 4 power · 3 defense

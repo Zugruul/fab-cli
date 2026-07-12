@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodspill-invocation, bloodspill, invocation, runeblade, action, aura, go-again, pitch-3, cost-1]
+tags: [card, bloodspill-invocation, bloodspill, invocation, runeblade, action, aura, go-again, pitch-3, cost-1, 1hp293, arc108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qbzLPGM6RCTWWhGKdnCNf) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: qbzLPGM6RCTWWhGKdnCNf
 sets: [1HP, ARC]
+codes: [1HP293, ARC108]
 ---
 
 **Bloodspill Invocation (blue)** — Runeblade Action - Aura · cost 1 · 2 defense

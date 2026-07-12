@@ -1,5 +1,5 @@
 ---
-tags: [card, sticky-fingers, sticky, fingers, companion, off-hand, ally, scurv, perched, steal]
+tags: [card, sticky-fingers, sticky, fingers, companion, off-hand, ally, scurv, perched, steal, sea124]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mdtMRhRMbMkBRntzQzcbJ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Scurv]
 keywords: [Perched, Steal]
 unique-id: mdtMRhRMbMkBRntzQzcbJ
 sets: [SEA]
+codes: [SEA124]
 ---
 
 **Sticky Fingers** — Scurv Companion - Off-Hand Ally · 2 power · 2 health

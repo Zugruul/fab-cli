@@ -1,5 +1,5 @@
 ---
-tags: [card, take-the-tempo, take, tempo, ninja, action, attack, pitch-1, cost-1]
+tags: [card, take-the-tempo, take, tempo, ninja, action, attack, pitch-1, cost-1, upr161]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TtF8Q9WNQqPmJdrd6qp7k) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: TtF8Q9WNQqPmJdrd6qp7k
 sets: [UPR]
+codes: [UPR161]
 ---
 
 **Take the Tempo (red)** — Ninja Action - Attack · cost 1 · 5 power · 3 defense

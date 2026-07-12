@@ -1,5 +1,5 @@
 ---
-tags: [card, critical-strike, critical, strike, generic, action, attack, pitch-2, cost-1]
+tags: [card, critical-strike, critical, strike, generic, action, attack, pitch-2, cost-1, upr207]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kn9MM8LWgKN9WdmCWJjWG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kn9MM8LWgKN9WdmCWJjWG
 sets: [UPR]
+codes: [UPR207]
 ---
 
 **Critical Strike (yellow)** — Generic Action - Attack · cost 1 · 4 power · 3 defense

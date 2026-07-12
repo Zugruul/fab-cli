@@ -1,5 +1,5 @@
 ---
-tags: [card, kayo-strong-arm, kayo, strong, arm, brute, hero, reviled, young]
+tags: [card, kayo-strong-arm, kayo, strong, arm, brute, hero, reviled, young, sup064]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rwntmhkHtPGcKCbzJWjNn) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Reviled]
 unique-id: rwntmhkHtPGcKCbzJWjNn
 sets: [SUP]
+codes: [SUP064]
 ---
 
 **Kayo, Strong-arm** — Reviled Brute Hero - Young · 20 health · 4 int

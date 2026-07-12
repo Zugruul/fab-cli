@@ -1,5 +1,5 @@
 ---
-tags: [card, crushing-impact, crushing, impact, event]
+tags: [card, crushing-impact, crushing, impact, event, smp021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9qQTtRm6phFRbknPqHqM6) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Crushing Impact"
 types: [Event]
 unique-id: 9qQTtRm6phFRbknPqHqM6
 sets: [SMP]
+codes: [SMP021]
 ---
 
 **Crushing Impact** — Event

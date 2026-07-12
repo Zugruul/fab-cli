@@ -1,5 +1,5 @@
 ---
-tags: [card, leave-a-dent, leave, dent, guardian, action, go-again, crush, pitch-3, cost-0]
+tags: [card, leave-a-dent, leave, dent, guardian, action, go-again, crush, pitch-3, cost-0, mpg020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WpmPhMcL97wRCPfz8nzgR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Crush]
 unique-id: WpmPhMcL97wRCPfz8nzgR
 sets: [MPG]
+codes: [MPG020]
 ---
 
 **Leave a Dent (blue)** — Guardian Action · cost 0 · 3 defense

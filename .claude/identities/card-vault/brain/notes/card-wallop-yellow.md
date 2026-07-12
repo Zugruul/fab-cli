@@ -1,5 +1,5 @@
 ---
-tags: [card, wallop, guardian, action, attack, pitch-2, cost-4]
+tags: [card, wallop, guardian, action, attack, pitch-2, cost-4, hvy081, vic019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rppddnbcWR8QzfQzQFHWR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rppddnbcWR8QzfQzQFHWR
 sets: [HVY, VIC]
+codes: [HVY081, VIC019]
 ---
 
 **Wallop (yellow)** — Guardian Action - Attack · cost 4 · 6 power · 3 defense

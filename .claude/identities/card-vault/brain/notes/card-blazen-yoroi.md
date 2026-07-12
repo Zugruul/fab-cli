@@ -1,5 +1,5 @@
 ---
-tags: [card, blazen-yoroi, blazen, yoroi, ninja, equipment, chest, blade-break]
+tags: [card, blazen-yoroi, blazen, yoroi, ninja, equipment, chest, blade-break, dyn045]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fm6dT9jM6BhLtRphtfrFR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: Fm6dT9jM6BhLtRphtfrFR
 sets: [DYN]
+codes: [DYN045]
 ---
 
 **Blazen Yoroi** — Ninja Equipment - Chest · 1 defense

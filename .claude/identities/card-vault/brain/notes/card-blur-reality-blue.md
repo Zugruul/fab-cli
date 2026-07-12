@@ -1,5 +1,5 @@
 ---
-tags: [card, blur-reality, blur, reality, illusionist, lightning, instant, pitch-3, cost-0]
+tags: [card, blur-reality, blur, reality, illusionist, lightning, instant, pitch-3, cost-0, azs025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9prz8nBBPGdwQqttNdJJz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: 9prz8nBBPGdwQqttNdJJz
 sets: [AZS]
+codes: [AZS025]
 ---
 
 **Blur Reality (blue)** — Lightning, Illusionist, Instant · cost 0

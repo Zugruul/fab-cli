@@ -1,5 +1,5 @@
 ---
-tags: [card, stamp-authority, stamp, authority, guardian, action, aura, pitch-3, cost-3]
+tags: [card, stamp-authority, stamp, authority, guardian, action, aura, pitch-3, cost-3, cru028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6nBW69HNQRGM7mpMzNCGB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: 6nBW69HNQRGM7mpMzNCGB
 sets: [CRU]
+codes: [CRU028]
 ---
 
 **Stamp Authority (blue)** — Guardian Action - Aura · cost 3 · 3 defense

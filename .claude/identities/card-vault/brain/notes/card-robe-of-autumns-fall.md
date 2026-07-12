@@ -1,5 +1,5 @@
 ---
-tags: [card, robe-of-autumns-fall, robe, autumns, fall, ninja, equipment, chest, arcane-barrier-1]
+tags: [card, robe-of-autumns-fall, robe, autumns, fall, ninja, equipment, chest, arcane-barrier-1, asr004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W99DkNW9tQLbq6w6prDQB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: W99DkNW9tQLbq6w6prDQB
 sets: [ASR]
+codes: [ASR004]
 ---
 
 **Robe of Autumn's Fall** — Ninja Equipment - Chest · 0 defense

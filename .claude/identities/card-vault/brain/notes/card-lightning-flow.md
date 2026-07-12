@@ -1,5 +1,5 @@
 ---
-tags: [card, lightning-flow, lightning, flow, elemental, token, aura]
+tags: [card, lightning-flow, lightning, flow, elemental, token, aura, fab470, omn203]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NzHWJJzD6JwJ88LmRTTGQ) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: NzHWJJzD6JwJ88LmRTTGQ
 sets: [FAB, OMN]
+codes: [FAB470, OMN203]
 ---
 
 **Lightning Flow** — Elemental Token - Aura

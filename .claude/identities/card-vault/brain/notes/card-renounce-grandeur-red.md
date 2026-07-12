@@ -1,5 +1,5 @@
 ---
-tags: [card, renounce-grandeur, renounce, grandeur, guardian, action, attack, crush, pitch-1, cost-3]
+tags: [card, renounce-grandeur, renounce, grandeur, guardian, action, attack, crush, pitch-1, cost-3, fab330, mpg034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6dCLFb9TTGPNKHFqH7mzw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: 6dCLFb9TTGPNKHFqH7mzw
 sets: [FAB, MPG]
+codes: [FAB330, MPG034]
 ---
 
 **Renounce Grandeur (red)** — Guardian Action - Attack · cost 3 · 7 power · 3 defense

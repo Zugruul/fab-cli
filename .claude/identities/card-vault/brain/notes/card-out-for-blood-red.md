@@ -1,5 +1,5 @@
 ---
-tags: [card, out-for-blood, out, blood, warrior, attack-reaction, reprise, pitch-1, cost-1]
+tags: [card, out-for-blood, out, blood, warrior, attack-reaction, reprise, pitch-1, cost-1, 1hp165, cru088, sdo014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gNPcP7pPgPCh6PCPBh9R8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: gNPcP7pPgPCh6PCPBh9R8
 sets: [1HP, CRU, SDO]
+codes: [1HP165, CRU088, SDO014]
 ---
 
 **Out for Blood (red)** — Warrior Attack Reaction · cost 1 · 3 defense

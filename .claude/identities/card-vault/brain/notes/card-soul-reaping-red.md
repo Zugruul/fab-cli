@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-reaping, soul, reaping, shadow, action, attack, legendary, chane-specialization, go-again, pitch-1, cost-6]
+tags: [card, soul-reaping, soul, reaping, shadow, action, attack, legendary, chane-specialization, go-again, pitch-1, cost-6, chn008, mon199]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wbTGmgDqLtMmbDgcPzCmJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Legendary, Chane Specialization, Go again]
 unique-id: wbTGmgDqLtMmbDgcPzCmJ
 sets: [CHN, MON]
+codes: [CHN008, MON199]
 ---
 
 **Soul Reaping (red)** — Shadow Action - Attack · cost 6 · 6 power · 3 defense

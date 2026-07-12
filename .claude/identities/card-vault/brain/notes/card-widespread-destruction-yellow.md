@@ -1,5 +1,5 @@
 ---
-tags: [card, widespread-destruction, widespread, destruction, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-2, cost-3]
+tags: [card, widespread-destruction, widespread, destruction, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-2, cost-3, dtd138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dTJpQ9hGCQBrDGzt6jgCC) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: dTJpQ9hGCQBrDGzt6jgCC
 sets: [DTD]
+codes: [DTD138]
 ---
 
 **Widespread Destruction (yellow)** — Shadow Runeblade Action - Attack · cost 3 · 6 power · 3 defense

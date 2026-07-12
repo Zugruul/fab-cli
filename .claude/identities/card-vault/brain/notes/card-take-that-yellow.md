@@ -1,5 +1,5 @@
 ---
-tags: [card, take-that, take, that, action, attack, reviled, pitch-2, cost-0]
+tags: [card, take-that, take, that, action, attack, reviled, pitch-2, cost-0, sup112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nqzj9MrbgtzjcKdhdGcf8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Reviled]
 unique-id: Nqzj9MrbgtzjcKdhdGcf8
 sets: [SUP]
+codes: [SUP112]
 ---
 
 **Take That! (yellow)** — Reviled Action - Attack · cost 0 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, second-tenet-of-chi-moon, second, tenet, chi, moon, mystic, action, attack, pitch-3, cost-3]
+tags: [card, second-tenet-of-chi-moon, second, tenet, chi, moon, mystic, action, attack, pitch-3, cost-3, lgs301, mst081]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HFtcFTzQwfjNwk89mLRjD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HFtcFTzQwfjNwk89mLRjD
 sets: [LGS, MST]
+codes: [LGS301, MST081]
 ---
 
 **Second Tenet of Chi: Moon (blue)** — Mystic Action - Attack · cost 3 · 5 power · 3 defense

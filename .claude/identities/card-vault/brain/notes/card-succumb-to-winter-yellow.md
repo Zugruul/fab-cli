@@ -1,5 +1,5 @@
 ---
-tags: [card, succumb-to-winter, succumb, winter, wizard, elemental, action, ice-fusion, pitch-2, cost-3]
+tags: [card, succumb-to-winter, succumb, winter, wizard, elemental, action, ice-fusion, pitch-2, cost-3, upr111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FDhnc6LFDpgBcwQGpJwrC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion]
 unique-id: FDhnc6LFDpgBcwQGpJwrC
 sets: [UPR]
+codes: [UPR111]
 ---
 
 **Succumb to Winter (yellow)** — Elemental Wizard Action · cost 3 · 3 defense

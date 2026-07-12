@@ -1,5 +1,5 @@
 ---
-tags: [card, puffer-jacket, puffer, jacket, mechanologist, equipment, chest, temper]
+tags: [card, puffer-jacket, puffer, jacket, mechanologist, equipment, chest, temper, amx004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fJTDNGKmzzzmwzrpCdgbT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: fJTDNGKmzzzmwzrpCdgbT
 sets: [AMX]
+codes: [AMX004]
 ---
 
 **Puffer Jacket** — Mechanologist Equipment - Chest · 2 defense

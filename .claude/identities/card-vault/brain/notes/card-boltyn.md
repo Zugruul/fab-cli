@@ -1,5 +1,5 @@
 ---
-tags: [card, boltyn, warrior, light, hero, young, go-again]
+tags: [card, boltyn, warrior, light, hero, young, go-again, bol001, dtd045, her035, her160, mon030, sbl001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fmf8trg9w8B8BBbWrf8w9) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: Fmf8trg9w8B8BBbWrf8w9
 sets: [BOL, DTD, HER, MON, SBL]
+codes: [BOL001, DTD045, HER035, HER160, MON030, SBL001]
 ---
 
 **Boltyn** — Light Warrior Hero - Young · 20 health · 4 int

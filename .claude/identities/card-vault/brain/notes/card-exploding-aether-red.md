@@ -1,5 +1,5 @@
 ---
-tags: [card, exploding-aether, exploding, aether, wizard, action, amp-3, go-again, pitch-1, cost-2]
+tags: [card, exploding-aether, exploding, aether, wizard, action, amp-3, go-again, pitch-1, cost-2, osc015, ros192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPLfnbgJtbFDq7kgKjW6r) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Amp 3, Go again]
 unique-id: wPLfnbgJtbFDq7kgKjW6r
 sets: [OSC, ROS]
+codes: [OSC015, ROS192]
 ---
 
 **Exploding Aether (red)** — Wizard Action · cost 2 · 2 defense

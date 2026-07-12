@@ -1,5 +1,5 @@
 ---
-tags: [card, fish-fingers, fish, fingers, pirate, equipment, arms, blade-break]
+tags: [card, fish-fingers, fish, fingers, pirate, equipment, arms, blade-break, lgs394, sea128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGqmhqzwPDDcr6MNr76gB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: KGqmhqzwPDDcr6MNr76gB
 sets: [LGS, SEA]
+codes: [LGS394, SEA128]
 ---
 
 **Fish Fingers** — Pirate Equipment - Arms · 1 defense

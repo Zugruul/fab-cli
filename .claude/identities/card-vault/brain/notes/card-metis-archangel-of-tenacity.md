@@ -1,5 +1,5 @@
 ---
-tags: [card, metis-archangel-of-tenacity, metis, archangel, tenacity, light, angel, ally, ward-4, dominate]
+tags: [card, metis-archangel-of-tenacity, metis, archangel, tenacity, light, angel, ally, ward-4, dominate, dtd010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9FTLChcm8Jkpnhmhh8CPK) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4, Dominate]
 unique-id: 9FTLChcm8Jkpnhmhh8CPK
 sets: [DTD]
+codes: [DTD010]
 ---
 
 **Metis, Archangel of Tenacity** — Light - Angel Ally · 4 power · 4 health

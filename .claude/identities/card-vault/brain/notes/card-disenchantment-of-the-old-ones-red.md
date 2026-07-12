@@ -1,5 +1,5 @@
 ---
-tags: [card, disenchantment-of-the-old-ones, disenchantment, old, ones, guardian, action, attack, crush, heave-2, pitch-1, cost-6]
+tags: [card, disenchantment-of-the-old-ones, disenchantment, old, ones, guardian, action, attack, crush, heave-2, pitch-1, cost-6, mpg027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CkHnpRcfgkcrmJqTpDztp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush, Heave 2]
 unique-id: CkHnpRcfgkcrmJqTpDztp
 sets: [MPG]
+codes: [MPG027]
 ---
 
 **Disenchantment of the Old Ones (red)** — Guardian Action - Attack · cost 6 · 10 power · 3 defense

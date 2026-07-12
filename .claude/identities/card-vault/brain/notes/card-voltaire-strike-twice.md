@@ -1,5 +1,5 @@
 ---
-tags: [card, voltaire-strike-twice, voltaire, strike, twice, ranger, elemental, weapon, bow, 2h, go-again]
+tags: [card, voltaire-strike-twice, voltaire, strike, twice, ranger, elemental, weapon, bow, 2h, go-again, ele034, fab075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nzpgn9HrbNfkzM8CkwCQp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Bow, 2H]
 keywords: [Go again]
 unique-id: Nzpgn9HrbNfkzM8CkwCQp
 sets: [ELE, FAB]
+codes: [ELE034, FAB075]
 ---
 
 **Voltaire, Strike Twice** — Elemental Ranger Weapon - Bow (2H)

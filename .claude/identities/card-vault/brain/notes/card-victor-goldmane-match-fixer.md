@@ -1,5 +1,5 @@
 ---
-tags: [card, victor-goldmane-match-fixer, victor, goldmane, match, fixer, guardian, hero, pit-fighter, adult, dominate]
+tags: [card, victor-goldmane-match-fixer, victor, goldmane, match, fixer, guardian, hero, pit-fighter, adult, dominate, smp006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jHHWGcnRpjzF8NMMKmdfF) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Pit-Fighter]
 keywords: [Dominate]
 unique-id: jHHWGcnRpjzF8NMMKmdfF
 sets: [SMP]
+codes: [SMP006]
 ---
 
 **Victor Goldmane, Match Fixer** — Guardian Hero - Pit-Fighter · 20 health · 4 int

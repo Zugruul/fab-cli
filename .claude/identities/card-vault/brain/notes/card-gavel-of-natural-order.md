@@ -1,5 +1,5 @@
 ---
-tags: [card, gavel-of-natural-order, gavel, natural, order, adjudicator, weapon, hammer, 1h, pairs]
+tags: [card, gavel-of-natural-order, gavel, natural, order, adjudicator, weapon, hammer, 1h, pairs, jdg005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tpgGtDJmWntFC6QcdhhgW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Hammer, 1H]
 keywords: [Pairs]
 unique-id: tpgGtDJmWntFC6QcdhhgW
 sets: [JDG]
+codes: [JDG005]
 ---
 
 **Gavel of Natural Order** — Adjudicator Weapon - Hammer (1H) · 2 power

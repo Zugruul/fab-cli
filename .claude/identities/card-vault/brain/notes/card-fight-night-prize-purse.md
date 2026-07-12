@@ -1,5 +1,5 @@
 ---
-tags: [card, fight-night-prize-purse, fight, night, prize, purse, event]
+tags: [card, fight-night-prize-purse, fight, night, prize, purse, event, smp025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TMKn79cNDqQp6PJGGrBqj) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Fight Night Prize Purse"
 types: [Event]
 unique-id: TMKn79cNDqQp6PJGGrBqj
 sets: [SMP]
+codes: [SMP025]
 ---
 
 **Fight Night Prize Purse** — Event

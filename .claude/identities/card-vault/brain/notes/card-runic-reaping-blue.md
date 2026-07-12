@@ -1,5 +1,5 @@
 ---
-tags: [card, runic-reaping, runic, reaping, runeblade, action, go-again, pitch-3, cost-1]
+tags: [card, runic-reaping, runic, reaping, runeblade, action, go-again, pitch-3, cost-1, dyn187]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JKhQ7hPQnhbqnwpfcBzQh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: JKhQ7hPQnhbqnwpfcBzQh
 sets: [DYN]
+codes: [DYN187]
 ---
 
 **Runic Reaping (blue)** — Runeblade Action · cost 1 · 2 defense

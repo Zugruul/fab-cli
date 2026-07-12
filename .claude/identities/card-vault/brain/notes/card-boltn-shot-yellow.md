@@ -1,5 +1,5 @@
 ---
-tags: [card, boltn-shot, boltn, shot, ranger, action, arrow, attack, go-again, reload, pitch-2, cost-0]
+tags: [card, boltn-shot, boltn, shot, ranger, action, arrow, attack, go-again, reload, pitch-2, cost-0, ele217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rD7Jt7QKft9cPBKgjmTNq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Go again, Reload]
 unique-id: rD7Jt7QKft9cPBKgjmTNq
 sets: [ELE]
+codes: [ELE217]
 ---
 
 **Bolt'n' Shot (yellow)** — Ranger Action - Arrow Attack · cost 0 · 3 power · 3 defense

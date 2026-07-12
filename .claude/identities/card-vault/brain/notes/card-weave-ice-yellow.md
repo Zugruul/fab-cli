@@ -1,5 +1,5 @@
 ---
-tags: [card, weave-ice, weave, ice, action, go-again, dominate, pitch-2, cost-0]
+tags: [card, weave-ice, weave, ice, action, go-again, dominate, pitch-2, cost-0, ele155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPwF6bRtdtmNbMbQztGdN) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: wPwF6bRtdtmNbMbQztGdN
 sets: [ELE]
+codes: [ELE155]
 ---
 
 **Weave Ice (yellow)** — Ice Action · cost 0 · 2 defense

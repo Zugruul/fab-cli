@@ -1,5 +1,5 @@
 ---
-tags: [card, spellblade-strike, spellblade, strike, runeblade, action, attack, pitch-3, cost-1]
+tags: [card, spellblade-strike, spellblade, strike, runeblade, action, attack, pitch-3, cost-1, arc105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6LzhNhWTWGWzFLDbCktPt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 6LzhNhWTWGWzFLDbCktPt
 sets: [ARC]
+codes: [ARC105]
 ---
 
 **Spellblade Strike (blue)** — Runeblade Action - Attack · cost 1 · 2 power · 3 defense

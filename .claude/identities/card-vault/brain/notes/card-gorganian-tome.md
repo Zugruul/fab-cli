@@ -1,5 +1,5 @@
 ---
-tags: [card, gorganian-tome, gorganian, tome, generic, action, legendary, go-again, cost-0]
+tags: [card, gorganian-tome, gorganian, tome, generic, action, legendary, go-again, cost-0, 1hp364, anq020, cru181]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rbMGNnJJBHjnNMdRCWBhw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Action]
 keywords: [Legendary, Go again]
 unique-id: rbMGNnJJBHjnNMdRCWBhw
 sets: [1HP, ANQ, CRU]
+codes: [1HP364, ANQ020, CRU181]
 ---
 
 **Gorganian Tome** — Generic Action · cost 0

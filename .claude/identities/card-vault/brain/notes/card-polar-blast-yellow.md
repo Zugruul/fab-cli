@@ -1,5 +1,5 @@
 ---
-tags: [card, polar-blast, polar, blast, ice, action, go-again, dominate, pitch-2, cost-1]
+tags: [card, polar-blast, polar, blast, ice, action, go-again, dominate, pitch-2, cost-1, ele167, lgs073, old015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kqkwTjFqGH99hzDwWJN98) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: kqkwTjFqGH99hzDwWJN98
 sets: [ELE, LGS, OLD]
+codes: [ELE167, LGS073, OLD015]
 ---
 
 **Polar Blast (yellow)** — Ice Action · cost 1 · 2 defense

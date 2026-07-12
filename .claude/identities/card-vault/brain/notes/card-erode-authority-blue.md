@@ -1,5 +1,5 @@
 ---
-tags: [card, erode-authority, erode, authority, illusionist, action, attack, dominate, fragment, pitch-3, cost-3]
+tags: [card, erode-authority, erode, authority, illusionist, action, attack, dominate, fragment, pitch-3, cost-3, omn046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B9PzLK6qCpDjDpPHmmFdF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate, Fragment]
 unique-id: B9PzLK6qCpDjDpPHmmFdF
 sets: [OMN]
+codes: [OMN046]
 ---
 
 **Erode Authority (blue)** — Illusionist Action - Attack · cost 3 · 5 power · 3 defense

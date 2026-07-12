@@ -1,5 +1,5 @@
 ---
-tags: [card, demonstrate-devotion, demonstrate, devotion, ninja, draconic, action, attack, go-again, pitch-1, cost-1]
+tags: [card, demonstrate-devotion, demonstrate, devotion, ninja, draconic, action, attack, go-again, pitch-1, cost-1, gem011, hnt059]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wmdN6gnj6gdcdfWDMnqK6) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wmdN6gnj6gdcdfWDMnqK6
 sets: [GEM, HNT]
+codes: [GEM011, HNT059]
 ---
 
 **Demonstrate Devotion (red)** — Draconic Ninja Action - Attack · cost 1 · 4 power · 2 defense

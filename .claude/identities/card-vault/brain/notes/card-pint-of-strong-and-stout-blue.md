@@ -1,5 +1,5 @@
 ---
-tags: [card, pint-of-strong-and-stout, pint, strong, stout, guardian, action, go-again, pitch-3, cost-0]
+tags: [card, pint-of-strong-and-stout, pint, strong, stout, guardian, action, go-again, pitch-3, cost-0, bet026, hvy089, lgs246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bRM9LLRrhJ8LLqBrGKCgb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: bRM9LLRrhJ8LLqBrGKCgb
 sets: [BET, HVY, LGS]
+codes: [BET026, HVY089, LGS246]
 ---
 
 **Pint of Strong and Stout (blue)** — Guardian Action · cost 0 · 2 defense

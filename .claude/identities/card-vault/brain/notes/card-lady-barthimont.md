@@ -1,5 +1,5 @@
 ---
-tags: [card, lady-barthimont, lady, barthimont, brute, mentor, dominate]
+tags: [card, lady-barthimont, lady, barthimont, brute, mentor, dominate, fab045, lev002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rpqF9GbWN7Kkb6hPKPnJk) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Mentor]
 keywords: [Dominate]
 unique-id: rpqF9GbWN7Kkb6hPKPnJk
 sets: [FAB, LEV]
+codes: [FAB045, LEV002]
 ---
 
 **Lady Barthimont** — Brute Mentor · 3 defense

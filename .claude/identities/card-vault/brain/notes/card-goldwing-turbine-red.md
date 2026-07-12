@@ -1,5 +1,5 @@
 ---
-tags: [card, goldwing-turbine, goldwing, turbine, mechanologist, action, pitch-1, cost-2]
+tags: [card, goldwing-turbine, goldwing, turbine, mechanologist, action, pitch-1, cost-2, gem043, sea036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8nwFDqnJ8nCHfBMLrwBnr) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Mechanologist]
 types: [Action]
 unique-id: 8nwFDqnJ8nCHfBMLrwBnr
 sets: [GEM, SEA]
+codes: [GEM043, SEA036]
 ---
 
 **Goldwing Turbine (red)** — Mechanologist Action · cost 2 · 3 defense

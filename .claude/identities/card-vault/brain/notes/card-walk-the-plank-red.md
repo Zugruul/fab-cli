@@ -1,5 +1,5 @@
 ---
-tags: [card, walk-the-plank, walk, plank, generic, action, attack, pitch-1, cost-3]
+tags: [card, walk-the-plank, walk, plank, generic, action, attack, pitch-1, cost-3, sea235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLQrqhLnpqbkKh8qLRtnn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RLQrqhLnpqbkKh8qLRtnn
 sets: [SEA]
+codes: [SEA235]
 ---
 
 **Walk the Plank (red)** — Generic Action - Attack · cost 3 · 7 power · 2 defense

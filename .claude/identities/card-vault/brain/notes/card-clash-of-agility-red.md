@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-agility, clash, agility, brute, warrior, action, attack, pitch-1, cost-2]
+tags: [card, clash-of-agility, clash, agility, brute, warrior, action, attack, pitch-1, cost-2, ako008, hvy157, ska012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gRpHwzjCr7Q6RQwnGTT7t) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: gRpHwzjCr7Q6RQwnGTT7t
 sets: [AKO, HVY, SKA]
+codes: [AKO008, HVY157, SKA012]
 ---
 
 **Clash of Agility (red)** — Brute / Warrior Action - Attack · cost 2 · 6 power · 3 defense

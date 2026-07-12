@@ -1,5 +1,5 @@
 ---
-tags: [card, fault-line, fault, line, guardian, action, attack, crush, pitch-1, cost-3]
+tags: [card, fault-line, fault, line, guardian, action, attack, crush, pitch-1, cost-3, aps009, fab328, mpg032, sbr018]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bzPDgqKBRNH7JQjcqWbfk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: bzPDgqKBRNH7JQjcqWbfk
 sets: [APS, FAB, MPG, SBR]
+codes: [APS009, FAB328, MPG032, SBR018]
 ---
 
 **Fault Line (red)** — Guardian Action - Attack · cost 3 · 7 power · 3 defense

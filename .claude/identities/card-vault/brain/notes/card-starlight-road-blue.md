@@ -1,5 +1,5 @@
 ---
-tags: [card, starlight-road, starlight, road, lightning, instant, pitch-3, cost-0]
+tags: [card, starlight-road, starlight, road, lightning, instant, pitch-3, cost-0, gem174, omn189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Qrk8RRBkp7q98qbGDTgDB) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: Qrk8RRBkp7q98qbGDTgDB
 sets: [GEM, OMN]
+codes: [GEM174, OMN189]
 ---
 
 **Starlight Road (blue)** — Lightning Instant · cost 0

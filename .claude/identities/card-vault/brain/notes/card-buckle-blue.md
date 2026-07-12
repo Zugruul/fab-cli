@@ -1,5 +1,5 @@
 ---
-tags: [card, buckle, guardian, action, go-again, dominate, pitch-3, cost-3]
+tags: [card, buckle, guardian, action, go-again, dominate, pitch-3, cost-3, dyn028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TctkW8gCmpjnHwQ6dfdMg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: TctkW8gCmpjnHwQ6dfdMg
 sets: [DYN]
+codes: [DYN028]
 ---
 
 **Buckle (blue)** — Guardian Action · cost 3 · 3 defense

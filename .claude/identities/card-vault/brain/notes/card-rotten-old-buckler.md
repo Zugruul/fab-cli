@@ -1,5 +1,5 @@
 ---
-tags: [card, rotten-old-buckler, rotten, old, buckler, guardian, equipment, off-hand, blade-break]
+tags: [card, rotten-old-buckler, rotten, old, buckler, guardian, equipment, off-hand, blade-break, ele204, mpg010, old003, ter003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6nGBJrh8MDLD7JJBD6NPK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Off-Hand]
 keywords: [Blade Break]
 unique-id: 6nGBJrh8MDLD7JJBD6NPK
 sets: [ELE, MPG, OLD, TER]
+codes: [ELE204, MPG010, OLD003, TER003]
 ---
 
 **Rotten Old Buckler** — Guardian Equipment - Off-Hand · 1 defense

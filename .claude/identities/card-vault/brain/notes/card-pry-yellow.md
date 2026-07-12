@@ -1,5 +1,5 @@
 ---
-tags: [card, pry, wizard, action, pitch-2, cost-0]
+tags: [card, pry, wizard, action, pitch-2, cost-0, evr129]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wrf8qfHNtcKLG9WrKDWL9) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: wrf8qfHNtcKLG9WrKDWL9
 sets: [EVR]
+codes: [EVR129]
 ---
 
 **Pry (yellow)** — Wizard Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, crash-and-bash, crash, bash, guardian, block, pitch-1]
+tags: [card, crash-and-bash, crash, bash, guardian, block, pitch-1, mpg109, sbr022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jDPdqfjkbzLjMGk6nPPgn) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian]
 types: [Block]
 unique-id: jDPdqfjkbzLjMGk6nPPgn
 sets: [MPG, SBR]
+codes: [MPG109, SBR022]
 ---
 
 **Crash and Bash (red)** — Guardian Block · 4 defense

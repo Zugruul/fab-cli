@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-to-the-chase, cut, chase, assassin, attack-reaction, pitch-1, cost-0]
+tags: [card, cut-to-the-chase, cut, chase, assassin, attack-reaction, pitch-1, cost-0, ark014, dyn148, lgs113]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N8LcRHMmCMTbwRNRm9P7q) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: N8LcRHMmCMTbwRNRm9P7q
 sets: [ARK, DYN, LGS]
+codes: [ARK014, DYN148, LGS113]
 ---
 
 **Cut to the Chase (red)** — Assassin Attack Reaction · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, remembrance, generic, instant, pitch-2, cost-0]
+tags: [card, remembrance, generic, instant, pitch-2, cost-0, anq026, wtr163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fJpTHprkwHkCQhK9nzFDR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: fJpTHprkwHkCQhK9nzFDR
 sets: [ANQ, WTR]
+codes: [ANQ026, WTR163]
 ---
 
 **Remembrance (yellow)** — Generic Instant · cost 0

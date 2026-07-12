@@ -1,5 +1,5 @@
 ---
-tags: [card, banneret-of-gallantry, banneret, gallantry, warrior, light, action, attack, solflare, pitch-2, cost-1]
+tags: [card, banneret-of-gallantry, banneret, gallantry, warrior, light, action, attack, solflare, pitch-2, cost-1, dtd049, fab162]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MT7rdNFQjRncfm9DzmLdH) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Solflare]
 unique-id: MT7rdNFQjRncfm9DzmLdH
 sets: [DTD, FAB]
+codes: [DTD049, FAB162]
 ---
 
 **Banneret of Gallantry (yellow)** — Light Warrior Action - Attack · cost 1 · 4 power · 3 defense

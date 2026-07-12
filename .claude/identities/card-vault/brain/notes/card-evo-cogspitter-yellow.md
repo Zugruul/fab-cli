@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-cogspitter, evo, cogspitter, mechanologist, action, equipment, arms, transform, blade-break, pitch-2, cost-0]
+tags: [card, evo-cogspitter, evo, cogspitter, mechanologist, action, equipment, arms, transform, blade-break, pitch-2, cost-0, evo048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gDhRftBzcK9cMp7tRmCTB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Arms]
 keywords: [Transform, Blade Break]
 unique-id: gDhRftBzcK9cMp7tRmCTB
 sets: [EVO]
+codes: [EVO048]
 ---
 
 **Evo Cogspitter (yellow)** — Mechanologist Action Equipment - Evo Arms · cost 0 · 2 defense

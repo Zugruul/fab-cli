@@ -1,5 +1,5 @@
 ---
-tags: [card, arakni-trap-door, arakni, trap, door, assassin, chaos, demi-hero]
+tags: [card, arakni-trap-door, arakni, trap, door, assassin, chaos, demi-hero, hnt008, lgs381, sar039, wod032]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dkzRfmwLkcGrgmnzTQzcJ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Demi-Hero]
 traits: [Agent of Chaos]
 unique-id: dkzRfmwLkcGrgmnzTQzcJ
 sets: [HNT, LGS, SAR, WOD]
+codes: [HNT008, LGS381, SAR039, WOD032]
 ---
 
 **Arakni, Trap-Door** — Chaos Assassin Demi-Hero · * health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, sleep-dart, sleep, dart, ranger, action, arrow, attack, pitch-2, cost-1]
+tags: [card, sleep-dart, sleep, dart, ranger, action, arrow, attack, pitch-2, cost-1, 1hp256, cru133]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJ9r77rRnPFfdMmLWzHH7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: wJ9r77rRnPFfdMmLWzHH7
 sets: [1HP, CRU]
+codes: [1HP256, CRU133]
 ---
 
 **Sleep Dart (yellow)** — Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

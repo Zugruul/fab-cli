@@ -1,5 +1,5 @@
 ---
-tags: [card, vigorous-roar, vigorous, roar, brute, action, go-again, pitch-1, cost-0]
+tags: [card, vigorous-roar, vigorous, roar, brute, action, go-again, pitch-1, cost-0, sup138]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nGGg68Dh6CFMNzbcLHCnT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nGGg68Dh6CFMNzbcLHCnT
 sets: [SUP]
+codes: [SUP138]
 ---
 
 **Vigorous Roar (red)** — Brute Action · cost 0 · 2 defense

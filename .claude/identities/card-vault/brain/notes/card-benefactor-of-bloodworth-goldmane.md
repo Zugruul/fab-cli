@@ -1,5 +1,5 @@
 ---
-tags: [card, benefactor-of-bloodworth-goldmane, benefactor, bloodworth, goldmane, event]
+tags: [card, benefactor-of-bloodworth-goldmane, benefactor, bloodworth, goldmane, event, smp008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w6dzmjnGppFHCRgmKMFbW) · https://cardvault.fabtcg.com/"
@@ -9,6 +9,7 @@ name: "Benefactor of Bloodworth Goldmane"
 types: [Event]
 unique-id: w6dzmjnGppFHCRgmKMFbW
 sets: [SMP]
+codes: [SMP008]
 ---
 
 **Benefactor of Bloodworth Goldmane** — Event

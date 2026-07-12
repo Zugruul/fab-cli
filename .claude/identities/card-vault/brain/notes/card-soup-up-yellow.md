@@ -1,5 +1,5 @@
 ---
-tags: [card, soup-up, soup, up, mechanologist, action, attack, go-again, galvanize, pitch-2, cost-0]
+tags: [card, soup-up, soup, up, mechanologist, action, attack, go-again, galvanize, pitch-2, cost-0, evo112, lgs196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B7PppLKHtbMhBMnmLnRDp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Galvanize]
 unique-id: B7PppLKHtbMhBMnmLnRDp
 sets: [EVO, LGS]
+codes: [EVO112, LGS196]
 ---
 
 **Soup Up (yellow)** — Mechanologist Action - Attack · cost 0 · 3 power · 2 defense

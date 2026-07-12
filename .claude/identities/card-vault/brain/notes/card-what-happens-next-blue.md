@@ -1,5 +1,5 @@
 ---
-tags: [card, what-happens-next, what, happens, next, guardian, instant, aura, suspense, pitch-3, cost-0]
+tags: [card, what-happens-next, what, happens, next, guardian, instant, aura, suspense, pitch-3, cost-0, aps029, sup209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zLcR9wbtJCfBQLFpntDFg) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Suspense]
 unique-id: zLcR9wbtJCfBQLFpntDFg
 sets: [APS, SUP]
+codes: [APS029, SUP209]
 ---
 
 **What Happens Next? (blue)** — Guardian Instant - Aura · cost 0 · 2 defense

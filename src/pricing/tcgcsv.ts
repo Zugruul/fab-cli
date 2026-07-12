@@ -35,7 +35,13 @@ export interface TcgcsvPriceRow {
   highPrice: number | null;
   marketPrice: number | null;
   directLowPrice: number | null;
-  subTypeName: "Normal" | "Foil";
+  /**
+   * NOT a plain "Normal"/"Foil" literal in production — observed real values
+   * include "1st Edition Normal", "Unlimited Edition Normal", "1st Edition
+   * Rainbow Foil", "Cold Foil" (issue #61 follow-up). Callers determining
+   * finish MUST check `.includes("Foil")`, never an exact-match comparison.
+   */
+  subTypeName: string;
 }
 
 export interface GroupData {

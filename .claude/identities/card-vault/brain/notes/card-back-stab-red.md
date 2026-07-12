@@ -1,5 +1,5 @@
 ---
-tags: [card, back-stab, back, stab, assassin, action, attack, stealth, pitch-1, cost-0]
+tags: [card, back-stab, back, stab, assassin, action, attack, stealth, pitch-1, cost-0, hnt029, out015, wod007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CkjpBRMfBFdf6fK6rbdWg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: CkjpBRMfBFdf6fK6rbdWg
 sets: [HNT, OUT, WOD]
+codes: [HNT029, OUT015, WOD007]
 ---
 
 **Back Stab (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

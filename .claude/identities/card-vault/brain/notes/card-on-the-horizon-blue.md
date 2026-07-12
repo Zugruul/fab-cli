@@ -1,5 +1,5 @@
 ---
-tags: [card, on-the-horizon, horizon, generic, block, pitch-3]
+tags: [card, on-the-horizon, horizon, generic, block, pitch-3, sea243]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqfJ6k7rFMpbcHMqjDJKR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Block]
 unique-id: gqfJ6k7rFMpbcHMqjDJKR
 sets: [SEA]
+codes: [SEA243]
 ---
 
 **On the Horizon (blue)** — Generic Block · 2 defense

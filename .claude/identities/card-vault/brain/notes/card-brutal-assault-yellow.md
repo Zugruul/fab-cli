@@ -1,5 +1,5 @@
 ---
-tags: [card, brutal-assault, brutal, assault, generic, action, attack, pitch-2, cost-2]
+tags: [card, brutal-assault, brutal, assault, generic, action, attack, pitch-2, cost-2, cru193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JdRbp7cnCzB8PLFTQ8rLM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JdRbp7cnCzB8PLFTQ8rLM
 sets: [CRU]
+codes: [CRU193]
 ---
 
 **Brutal Assault (yellow)** — Generic Action - Attack · cost 2 · 5 power · 3 defense

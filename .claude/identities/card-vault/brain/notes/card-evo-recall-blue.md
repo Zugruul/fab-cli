@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-recall, evo, recall, mechanologist, instant, equipment, head, arcane-barrier-1, pitch-3, cost-0]
+tags: [card, evo-recall, evo, recall, mechanologist, instant, equipment, head, arcane-barrier-1, pitch-3, cost-0, mst228]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Pwqq9mKTNnKBPMrH9NHk6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Head]
 keywords: [Arcane Barrier 1]
 unique-id: Pwqq9mKTNnKBPMrH9NHk6
 sets: [MST]
+codes: [MST228]
 ---
 
 **Evo Recall (blue)** — Mechanologist Instant Equipment - Evo Head · cost 0 · 0 defense

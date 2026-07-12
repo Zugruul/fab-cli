@@ -1,5 +1,5 @@
 ---
-tags: [card, bare-fangs, bare, fangs, brute, action, attack, pitch-1, cost-2]
+tags: [card, bare-fangs, bare, fangs, brute, action, attack, pitch-1, cost-2, ako007, evr008, hvy029, kyo008, rhi010, rvd011, ska010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WDqWgDfRpTjWdMdTMM666) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WDqWgDfRpTjWdMdTMM666
 sets: [AKO, EVR, HVY, KYO, RHI, RVD, SKA]
+codes: [AKO007, EVR008, HVY029, KYO008, RHI010, RVD011, SKA010]
 ---
 
 **Bare Fangs (red)** — Brute Action - Attack · cost 2 · 6 power

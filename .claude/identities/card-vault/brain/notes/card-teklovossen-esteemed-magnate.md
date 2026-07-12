@@ -1,5 +1,5 @@
 ---
-tags: [card, teklovossen-esteemed-magnate, teklovossen, esteemed, magnate, mechanologist, hero, adult]
+tags: [card, teklovossen-esteemed-magnate, teklovossen, esteemed, magnate, mechanologist, hero, adult, evo007, her088, her096, win027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ndKnMFtcDt8JmPFD6bfbk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Mechanologist]
 types: [Hero]
 unique-id: ndKnMFtcDt8JmPFD6bfbk
 sets: [EVO, HER, WIN]
+codes: [EVO007, HER088, HER096, WIN027]
 ---
 
 **Teklovossen, Esteemed Magnate** — Mechanologist Hero · 40 health · 4 int

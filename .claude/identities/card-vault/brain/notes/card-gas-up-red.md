@@ -1,5 +1,5 @@
 ---
-tags: [card, gas-up, gas, up, mechanologist, action, go-again, pitch-1, cost-1]
+tags: [card, gas-up, gas, up, mechanologist, action, go-again, pitch-1, cost-1, evo222, lgs202]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FFM9wDc8wcmkbhTL8fpCG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: FFM9wDc8wcmkbhTL8fpCG
 sets: [EVO, LGS]
+codes: [EVO222, LGS202]
 ---
 
 **Gas Up (red)** — Mechanologist Action · cost 1 · 2 defense

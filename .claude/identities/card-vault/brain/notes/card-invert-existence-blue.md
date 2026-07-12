@@ -1,5 +1,5 @@
 ---
-tags: [card, invert-existence, invert, existence, runeblade, shadow, instant, blood-debt, pitch-3, cost-1]
+tags: [card, invert-existence, invert, existence, runeblade, shadow, instant, blood-debt, pitch-3, cost-1, mon158]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8qkczmhLhHzTCTpbgwJbD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Blood Debt]
 unique-id: 8qkczmhLhHzTCTpbgwJbD
 sets: [MON]
+codes: [MON158]
 ---
 
 **Invert Existence (blue)** — Shadow Runeblade Instant · cost 1

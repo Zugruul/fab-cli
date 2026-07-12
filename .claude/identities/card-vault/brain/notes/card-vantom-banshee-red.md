@@ -1,5 +1,5 @@
 ---
-tags: [card, vantom-banshee, vantom, banshee, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-3]
+tags: [card, vantom-banshee, vantom, banshee, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-1, cost-3, dtd155, lgs157]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9PJCCqpT8JhfHkfftKjwH) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: 9PJCCqpT8JhfHkfftKjwH
 sets: [DTD, LGS]
+codes: [DTD155, LGS157]
 ---
 
 **Vantom Banshee (red)** — Shadow Runeblade Action - Attack · cost 3 · 7 power · 3 defense

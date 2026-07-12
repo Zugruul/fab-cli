@@ -1,5 +1,5 @@
 ---
-tags: [card, ironsong-pride, ironsong, pride, warrior, instant, aura, pitch-1, cost-1]
+tags: [card, ironsong-pride, ironsong, pride, warrior, instant, aura, pitch-1, cost-1, dyn072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DWRBqLngTDmHThkjT6LFn) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: DWRBqLngTDmHThkjT6LFn
 sets: [DYN]
+codes: [DYN072]
 ---
 
 **Ironsong Pride (red)** — Warrior Instant - Aura · cost 1

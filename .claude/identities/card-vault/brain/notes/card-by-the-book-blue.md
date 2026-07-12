@@ -1,5 +1,5 @@
 ---
-tags: [card, by-the-book, by, book, action, aura, revered, pitch-3, cost-0]
+tags: [card, by-the-book, by, book, action, aura, revered, pitch-3, cost-0, pen289]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zQMJwgRd9B7zbF6fqb7Hk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 other-types: [Revered]
 unique-id: zQMJwgRd9B7zbF6fqb7Hk
 sets: [PEN]
+codes: [PEN289]
 ---
 
 **By the Book (blue)** — Revered Action - Aura · cost 0 · 2 defense

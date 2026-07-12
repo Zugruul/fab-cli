@@ -1,5 +1,5 @@
 ---
-tags: [card, kimono-of-layered-lessons, kimono, layered, lessons, mystic, equipment, chest, cloaked]
+tags: [card, kimono-of-layered-lessons, kimono, layered, lessons, mystic, equipment, chest, cloaked, pen266]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmNrmWJFJzgW6PDFGLBHM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Cloaked]
 unique-id: hmNrmWJFJzgW6PDFGLBHM
 sets: [PEN]
+codes: [PEN266]
 ---
 
 **Kimono of Layered Lessons** — Mystic Equipment - Chest · 1 defense

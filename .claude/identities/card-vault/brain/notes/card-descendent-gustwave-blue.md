@@ -1,5 +1,5 @@
 ---
-tags: [card, descendent-gustwave, descendent, gustwave, ninja, action, attack, combo, go-again, pitch-3, cost-1]
+tags: [card, descendent-gustwave, descendent, gustwave, ninja, action, attack, combo, go-again, pitch-3, cost-1, out076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d7D9nzdhjfKmppBnFdFLm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: d7D9nzdhjfKmppBnFdFLm
 sets: [OUT]
+codes: [OUT076]
 ---
 
 **Descendent Gustwave (blue)** — Ninja Action - Attack · cost 1 · 1 power · 2 defense

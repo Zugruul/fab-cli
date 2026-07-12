@@ -1,5 +1,5 @@
 ---
-tags: [card, heavy-artillery, heavy, artillery, mechanologist, action, attack, evo-upgrade, pitch-2, cost-3]
+tags: [card, heavy-artillery, heavy, artillery, mechanologist, action, attack, evo-upgrade, pitch-2, cost-3, evo062, lgs192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zMKfFNMHWRtL67cqWCnL8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: zMKfFNMHWRtL67cqWCnL8
 sets: [EVO, LGS]
+codes: [EVO062, LGS192]
 ---
 
 **Heavy Artillery (yellow)** — Mechanologist Action - Attack · cost 3 · 5 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, durendal, warrior, weapon, sword, 2h]
+tags: [card, durendal, warrior, weapon, sword, 2h, mpw008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gzLPbbGKHBB9fKJdkGdJg) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Sword, 2H]
 unique-id: gzLPbbGKHBB9fKJdkGdJg
 sets: [MPW]
+codes: [MPW008]
 ---
 
 **Durendal** — Warrior Weapon - Sword (2H) · 3 power

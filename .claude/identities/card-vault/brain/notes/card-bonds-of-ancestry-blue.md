@@ -1,5 +1,5 @@
 ---
-tags: [card, bonds-of-ancestry, bonds, ancestry, ninja, action, attack, combo, go-again, pitch-3, cost-2]
+tags: [card, bonds-of-ancestry, bonds, ancestry, ninja, action, attack, combo, go-again, pitch-3, cost-2, out058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrHMpbmnF6Hh97PffFzG8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: jrHMpbmnF6Hh97PffFzG8
 sets: [OUT]
+codes: [OUT058]
 ---
 
 **Bonds of Ancestry (blue)** — Ninja Action - Attack · cost 2 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shallow-water-shark-harpoon, shallow, water, shark, harpoon, pirate, ranger, action, arrow, attack, pitch-2, cost-2]
+tags: [card, shallow-water-shark-harpoon, shallow, water, shark, harpoon, pirate, ranger, action, arrow, attack, pitch-2, cost-2, gem127, pen166]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LktKqzw6D9wQtcctzwKbF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Arrow, Attack]
 unique-id: LktKqzw6D9wQtcctzwKbF
 sets: [GEM, PEN]
+codes: [GEM127, PEN166]
 ---
 
 **Shallow Water Shark Harpoon (yellow)** — Pirate Ranger Action - Arrow Attack · cost 2 · 5 power · 3 defense

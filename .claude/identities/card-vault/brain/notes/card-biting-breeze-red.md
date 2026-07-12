@@ -1,5 +1,5 @@
 ---
-tags: [card, biting-breeze, biting, breeze, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, biting-breeze, biting, breeze, ninja, action, attack, go-again, pitch-1, cost-0, mst173, zen007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 87m6C8jLpLWWnJP9BHkbK) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 87m6C8jLpLWWnJP9BHkbK
 sets: [MST, ZEN]
+codes: [MST173, ZEN007]
 ---
 
 **Biting Breeze (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, meganetic-shockwave, meganetic, shockwave, mechanologist, action, attack, pitch-3, cost-2]
+tags: [card, meganetic-shockwave, meganetic, shockwave, mechanologist, action, attack, pitch-3, cost-2, cru103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8hKgjhRrpGHqPGg76pzBN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 8hKgjhRrpGHqPGg76pzBN
 sets: [CRU]
+codes: [CRU103]
 ---
 
 **Meganetic Shockwave (blue)** — Mechanologist Action - Attack · cost 2 · 4 power · 3 defense

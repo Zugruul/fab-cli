@@ -1,5 +1,5 @@
 ---
-tags: [card, glide-through-starlight, glide, through, starlight, lightning, action, attack, pitch-2, cost-1]
+tags: [card, glide-through-starlight, glide, through, starlight, lightning, action, attack, pitch-2, cost-1, omn170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cq6dc8kNzfPMfDcBNBpHM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: cq6dc8kNzfPMfDcBNBpHM
 sets: [OMN]
+codes: [OMN170]
 ---
 
 **Glide Through Starlight (yellow)** — Lightning Action - Attack · cost 1 · 4 power · 2 defense

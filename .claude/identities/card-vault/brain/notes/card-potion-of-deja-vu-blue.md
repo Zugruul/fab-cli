@@ -1,5 +1,5 @@
 ---
-tags: [card, potion-of-deja-vu, potion, deja, vu, generic, action, item, pitch-3, cost-0]
+tags: [card, potion-of-deja-vu, potion, deja, vu, generic, action, item, pitch-3, cost-0, evr185]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLwNCBR9FCfnnPtPjkWNp) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: qLwNCBR9FCfnnPtPjkWNp
 sets: [EVR]
+codes: [EVR185]
 ---
 
 **Potion of Déjà Vu (blue)** — Generic Action - Item · cost 0

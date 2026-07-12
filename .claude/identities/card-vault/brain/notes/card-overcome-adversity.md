@@ -1,5 +1,5 @@
 ---
-tags: [card, overcome-adversity, overcome, adversity, generic, equipment, legs, blade-break]
+tags: [card, overcome-adversity, overcome, adversity, generic, equipment, legs, blade-break, hvy201]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BrCKk9JLw8r69fGgNt8BH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Blade Break]
 unique-id: BrCKk9JLw8r69fGgNt8BH
 sets: [HVY]
+codes: [HVY201]
 ---
 
 **Overcome Adversity** — Generic Equipment - Legs · 2 defense

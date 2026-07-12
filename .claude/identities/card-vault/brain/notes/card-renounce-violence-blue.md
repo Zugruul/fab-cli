@@ -1,5 +1,5 @@
 ---
-tags: [card, renounce-violence, renounce, violence, instant, revered, pitch-3, cost-0]
+tags: [card, renounce-violence, renounce, violence, instant, revered, pitch-3, cost-0, sup025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LCjKgbbdRKBLnqPnhdncC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Instant]
 other-types: [Revered]
 unique-id: LCjKgbbdRKBLnqPnhdncC
 sets: [SUP]
+codes: [SUP025]
 ---
 
 **Renounce Violence (blue)** — Revered Instant · cost 0

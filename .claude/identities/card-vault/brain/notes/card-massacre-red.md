@@ -1,5 +1,5 @@
 ---
-tags: [card, massacre, brute, action, attack, intimidate, pitch-1, cost-3]
+tags: [card, massacre, brute, action, attack, intimidate, pitch-1, cost-3, 1hp012, arr010, cru008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dGqFDHg9FqzfbDcNcLPtP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Intimidate]
 unique-id: dGqFDHg9FqzfbDcNcLPtP
 sets: [1HP, ARR, CRU]
+codes: [1HP012, ARR010, CRU008]
 ---
 
 **Massacre (red)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

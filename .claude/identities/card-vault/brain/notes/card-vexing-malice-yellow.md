@@ -1,5 +1,5 @@
 ---
-tags: [card, vexing-malice, vexing, malice, runeblade, action, attack, pitch-2, cost-1]
+tags: [card, vexing-malice, vexing, malice, runeblade, action, attack, pitch-2, cost-1, lgs058, mon233]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WppPJNLCfdp8kwwjHDgBT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WppPJNLCfdp8kwwjHDgBT
 sets: [LGS, MON]
+codes: [LGS058, MON233]
 ---
 
 **Vexing Malice (yellow)** — Runeblade Action - Attack · cost 1 · 2 power · 3 defense

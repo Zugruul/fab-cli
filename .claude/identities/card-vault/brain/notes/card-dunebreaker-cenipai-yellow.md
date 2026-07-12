@@ -1,5 +1,5 @@
 ---
-tags: [card, dunebreaker-cenipai, dunebreaker, cenipai, illusionist, draconic, action, attack, phantasm, go-again, pitch-2, cost-1]
+tags: [card, dunebreaker-cenipai, dunebreaker, cenipai, illusionist, draconic, action, attack, phantasm, go-again, pitch-2, cost-1, upr022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C89BtPGzhFfFBmBtLPJw7) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Phantasm, Go again]
 unique-id: C89BtPGzhFfFBmBtLPJw7
 sets: [UPR]
+codes: [UPR022]
 ---
 
 **Dunebreaker Cenipai (yellow)** — Draconic Illusionist Action - Attack · cost 1 · 4 power · 3 defense

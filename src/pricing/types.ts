@@ -12,19 +12,17 @@ export const CONDITION_COLUMNS: readonly ConditionColumn[] = [
 ];
 
 /**
- * Where a condition cell's price came from. Every non-exact fallback carries
- * a label (repo invariant I4) so no unlabeled fallback number ever reaches
- * output.
+ * Where a condition cell's price came from. Real-data-only (issue #61, spec
+ * delta PRICE-061): every source here names an actual observed value —
+ * TCGplayer's exact lowest live listing (`listing`) or one of Cardmarket's
+ * price-guide fields (`low`, or the reference-only Trend cascade `trend` /
+ * `avg30` / `avg7` / `avg1`). There is no fabricated-fill source anymore —
+ * a condition with no real price is an empty cell, never a copy or stand-in
+ * (repo invariant I4 still applies: every cell that IS filled carries a
+ * label naming its real source).
  */
 export type PriceSource =
-  | "listing"
-  | "market"
-  | "trend"
-  | "low"
-  | "avg30"
-  | "avg7"
-  | "avg1"
-  | `adjacent:${ConditionColumn}`;
+  "listing" | "trend" | "low" | "avg30" | "avg7" | "avg1";
 
 /** A filled price cell. Cells may be absent (null) in a row. */
 export interface ConditionCell {

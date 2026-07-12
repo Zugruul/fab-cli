@@ -1,5 +1,5 @@
 ---
-tags: [card, rockyard-rodeo, rockyard, rodeo, generic, action, attack, pitch-3, cost-3]
+tags: [card, rockyard-rodeo, rockyard, rodeo, generic, action, attack, pitch-3, cost-3, pen322]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wrwkrjbdCPTBpTKjrQNdJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wrwkrjbdCPTBpTKjrQNdJ
 sets: [PEN]
+codes: [PEN322]
 ---
 
 **Rockyard Rodeo (blue)** — Generic Action - Attack · cost 3 · * power · 2 defense

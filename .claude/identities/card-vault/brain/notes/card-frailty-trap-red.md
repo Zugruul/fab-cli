@@ -1,5 +1,5 @@
 ---
-tags: [card, frailty-trap, frailty, trap, assassin, ranger, defense-reaction, pitch-1, cost-0]
+tags: [card, frailty-trap, frailty, trap, assassin, ranger, defense-reaction, pitch-1, cost-0, out172, rip009, sar024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gpwqqHDD7DwWNrJPdpzRT) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: gpwqqHDD7DwWNrJPdpzRT
 sets: [OUT, RIP, SAR]
+codes: [OUT172, RIP009, SAR024]
 ---
 
 **Frailty Trap (red)** — Assassin / Ranger Defense Reaction - Trap · cost 0 · 3 defense

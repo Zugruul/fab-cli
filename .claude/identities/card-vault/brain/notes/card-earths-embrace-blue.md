@@ -1,5 +1,5 @@
 ---
-tags: [card, earths-embrace, earths, embrace, earth, action, aura, go-again, pitch-3, cost-1]
+tags: [card, earths-embrace, earths, embrace, earth, action, aura, go-again, pitch-3, cost-1, ros034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dd7RLKpk8jcWcN8JdQQDW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: dd7RLKpk8jcWcN8JdQQDW
 sets: [ROS]
+codes: [ROS034]
 ---
 
 **Earth's Embrace (blue)** — Earth Action - Aura · cost 1 · 2 defense

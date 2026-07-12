@@ -1,5 +1,5 @@
 ---
-tags: [card, mental-block, mental, block, wizard, pitch-3]
+tags: [card, mental-block, mental, block, wizard, pitch-3, ros169]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TkhKrkDWhcwTJbHng7TrP) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Wizard]
 types: [Block]
 unique-id: TkhKrkDWhcwTJbHng7TrP
 sets: [ROS]
+codes: [ROS169]
 ---
 
 **Mental Block (blue)** — Wizard Block · 2 defense

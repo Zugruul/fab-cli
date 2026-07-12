@@ -1,5 +1,5 @@
 ---
-tags: [card, baalghor-omen-of-the-end, baalghor, omen, end, shadow, hero, demon, young]
+tags: [card, baalghor-omen-of-the-end, baalghor, omen, end, shadow, hero, demon, young, iar159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FmWWpM8FLJCCzQLKBwwKk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 subtypes: [Demon]
 unique-id: FmWWpM8FLJCCzQLKBwwKk
 sets: [IAR]
+codes: [IAR159]
 ---
 
 **Baalghor, Omen of the End** — Shadow Hero - Young Demon · 33 health · 3 int

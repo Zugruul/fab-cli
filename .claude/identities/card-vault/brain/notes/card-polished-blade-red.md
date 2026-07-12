@@ -1,5 +1,5 @@
 ---
-tags: [card, polished-blade, polished, blade, warrior, attack-reaction, go-again, pitch-1, cost-0]
+tags: [card, polished-blade, polished, blade, warrior, attack-reaction, go-again, pitch-1, cost-0, aha009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gggJzRrtDDmNMKht6Whk7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: gggJzRrtDDmNMKht6Whk7
 sets: [AHA]
+codes: [AHA009]
 ---
 
 **Polished Blade (red)** — Warrior Attack Reaction · cost 0 · 3 defense

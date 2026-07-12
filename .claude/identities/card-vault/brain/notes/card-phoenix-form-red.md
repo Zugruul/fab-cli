@@ -1,5 +1,5 @@
 ---
-tags: [card, phoenix-form, phoenix, form, ninja, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, phoenix-form, phoenix, form, ninja, draconic, action, attack, go-again, pitch-1, cost-0, upr048]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8RGTWgzLGh69FcNbLCfJc) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 8RGTWgzLGh69FcNbLCfJc
 sets: [UPR]
+codes: [UPR048]
 ---
 
 **Phoenix Form (red)** — Draconic Ninja Action - Attack · cost 0 · 3 power · 3 defense

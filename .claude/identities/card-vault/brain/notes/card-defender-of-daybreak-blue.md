@@ -1,5 +1,5 @@
 ---
-tags: [card, defender-of-daybreak, defender, daybreak, light, action, attack, pitch-3, cost-0]
+tags: [card, defender-of-daybreak, defender, daybreak, light, action, attack, pitch-3, cost-0, dtd096]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DqhRkJzzzrN7jH9FbqmRn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DqhRkJzzzrN7jH9FbqmRn
 sets: [DTD]
+codes: [DTD096]
 ---
 
 **Defender of Daybreak (blue)** — Light Action - Attack · cost 0 · 2 power · 2 defense

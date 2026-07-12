@@ -1,5 +1,5 @@
 ---
-tags: [card, opal-amulet, opal, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0]
+tags: [card, opal-amulet, opal, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0, sea192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rdG6zR6dgDWwzw9KKtq78) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary, Watery Grave]
 unique-id: rdG6zR6dgDWwzw9KKtq78
 sets: [SEA]
+codes: [SEA192]
 ---
 
 **Opal Amulet (blue)** — Generic Action - Item · cost 0

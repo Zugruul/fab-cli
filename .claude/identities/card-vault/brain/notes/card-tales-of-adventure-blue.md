@@ -1,5 +1,5 @@
 ---
-tags: [card, tales-of-adventure, tales, adventure, bard, action, yorick-specialization, pitch-3, cost-0]
+tags: [card, tales-of-adventure, tales, adventure, bard, action, yorick-specialization, pitch-3, cost-0, lss005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zbnpfqW7d6CqN9wT8Dcft) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Yorick Specialization]
 unique-id: zbnpfqW7d6CqN9wT8Dcft
 sets: [LSS]
+codes: [LSS005]
 ---
 
 **Tales of Adventure (blue)** — Bard Action · cost 0 · 3 defense

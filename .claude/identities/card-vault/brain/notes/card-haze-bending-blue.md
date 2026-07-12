@@ -1,5 +1,5 @@
 ---
-tags: [card, haze-bending, haze, bending, illusionist, action, aura, spectra, pitch-3, cost-0]
+tags: [card, haze-bending, haze, bending, illusionist, action, aura, spectra, pitch-3, cost-0, apr024, evr141, lgs093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RFRrT7hMB7bMJ9jcjzJgj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Spectra]
 unique-id: RFRrT7hMB7bMJ9jcjzJgj
 sets: [APR, EVR, LGS]
+codes: [APR024, EVR141, LGS093]
 ---
 
 **Haze Bending (blue)** — Illusionist Action - Aura · cost 0 · 2 defense

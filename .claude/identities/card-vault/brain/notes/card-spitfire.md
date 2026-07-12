@@ -1,5 +1,5 @@
 ---
-tags: [card, spitfire, mechanologist, weapon, gun, 2h]
+tags: [card, spitfire, mechanologist, weapon, gun, 2h, gem036, lgs397, sea007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BfnKt6gbqBFmB6Bw6zGkd) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Gun, 2H]
 unique-id: BfnKt6gbqBFmB6Bw6zGkd
 sets: [GEM, LGS, SEA]
+codes: [GEM036, LGS397, SEA007]
 ---
 
 **Spitfire** — Mechanologist Weapon - Gun (2H) · 2 power

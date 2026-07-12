@@ -1,5 +1,5 @@
 ---
-tags: [card, united-we-stand, united, we, stand, light, action, attack, unity, pitch-2, cost-3]
+tags: [card, united-we-stand, united, we, stand, light, action, attack, unity, pitch-2, cost-3, dtd079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wB6PP9TgHBpBbDDFrhgF7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Unity]
 unique-id: wB6PP9TgHBpBbDDFrhgF7
 sets: [DTD]
+codes: [DTD079]
 ---
 
 **United We Stand (yellow)** — Light Action - Attack · cost 3 · 6 power · 2 defense

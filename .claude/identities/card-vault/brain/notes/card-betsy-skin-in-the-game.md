@@ -1,5 +1,5 @@
 ---
-tags: [card, betsy-skin-in-the-game, betsy, skin, game, guardian, hero, adult, overpower]
+tags: [card, betsy-skin-in-the-game, betsy, skin, game, guardian, hero, adult, overpower, her109, hvy045, win029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7WjNjrtmfKdLfqPLWDHw) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Overpower]
 unique-id: m7WjNjrtmfKdLfqPLWDHw
 sets: [HER, HVY, WIN]
+codes: [HER109, HVY045, WIN029]
 ---
 
 **Betsy, Skin in the Game** — Guardian Hero · 40 health · 4 int

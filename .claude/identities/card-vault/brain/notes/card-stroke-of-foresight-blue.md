@@ -1,5 +1,5 @@
 ---
-tags: [card, stroke-of-foresight, stroke, foresight, warrior, attack-reaction, reprise, pitch-3, cost-1]
+tags: [card, stroke-of-foresight, stroke, foresight, warrior, attack-reaction, reprise, pitch-3, cost-1, 1hp170, wtr140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8TnQLCqNKhPqNhD9CmGPz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Reprise]
 unique-id: 8TnQLCqNKhPqNhD9CmGPz
 sets: [1HP, WTR]
+codes: [1HP170, WTR140]
 ---
 
 **Stroke of Foresight (blue)** — Warrior Attack Reaction · cost 1 · 3 defense

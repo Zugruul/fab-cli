@@ -1,5 +1,5 @@
 ---
-tags: [card, mechanical-strength, mechanical, strength, mechanologist, action, attack, evo-upgrade, pitch-1, cost-3]
+tags: [card, mechanical-strength, mechanical, strength, mechanologist, action, attack, evo-upgrade, pitch-1, cost-3, evo067, lgs224, tcc013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KFh8LdDmdJdmn9RJc8hhJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: KFh8LdDmdJdmn9RJc8hhJ
 sets: [EVO, LGS, TCC]
+codes: [EVO067, LGS224, TCC013]
 ---
 
 **Mechanical Strength (red)** — Mechanologist Action - Attack · cost 3 · 5 power · 3 defense

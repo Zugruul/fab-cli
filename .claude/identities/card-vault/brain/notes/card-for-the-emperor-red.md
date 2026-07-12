@@ -1,5 +1,5 @@
 ---
-tags: [card, for-the-emperor, emperor, draconic, action, attack, pitch-1, cost-1]
+tags: [card, for-the-emperor, emperor, draconic, action, attack, pitch-1, cost-1, fab319, hnt159]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kfQHGNNdKjPpG8nWkfB9P) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kfQHGNNdKjPpG8nWkfB9P
 sets: [FAB, HNT]
+codes: [FAB319, HNT159]
 ---
 
 **For the Emperor (red)** — Draconic Action - Attack · cost 1 · 5 power · 3 defense

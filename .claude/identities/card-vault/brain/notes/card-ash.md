@@ -1,5 +1,5 @@
 ---
-tags: [card, ash, illusionist, draconic, token, material, phantasm]
+tags: [card, ash, illusionist, draconic, token, material, phantasm, dro002, upr043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G6CnbFqjfGgKqqqmnCbMh) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Ash]
 keywords: [Material, Phantasm]
 unique-id: G6CnbFqjfGgKqqqmnCbMh
 sets: [DRO, UPR]
+codes: [DRO002, UPR043]
 ---
 
 **Ash** — Draconic Illusionist Token - Ash

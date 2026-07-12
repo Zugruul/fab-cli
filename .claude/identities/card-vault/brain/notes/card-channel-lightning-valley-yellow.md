@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-lightning-valley, channel, lightning, valley, instant, aura, channel-lightning, pitch-2, cost-0]
+tags: [card, channel-lightning-valley, channel, lightning, valley, instant, aura, channel-lightning, pitch-2, cost-0, fab264, ros077]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PWbNdrFrhPDk99CRG7QfM) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Channel Lightning]
 unique-id: PWbNdrFrhPDk99CRG7QfM
 sets: [FAB, ROS]
+codes: [FAB264, ROS077]
 ---
 
 **Channel Lightning Valley (yellow)** — Lightning Instant - Aura · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, valda-seismic-impact, valda, seismic, impact, guardian, hero, adult, dominate]
+tags: [card, valda-seismic-impact, valda, seismic, impact, guardian, hero, adult, dominate, her135, mpg001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bjLbTMgMm6QRWBRrw8chQ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Dominate]
 unique-id: bjLbTMgMm6QRWBRrw8chQ
 sets: [HER, MPG]
+codes: [HER135, MPG001]
 ---
 
 **Valda, Seismic Impact** — Guardian Hero · 40 health · 4 int

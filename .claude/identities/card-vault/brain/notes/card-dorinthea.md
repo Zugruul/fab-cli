@@ -1,5 +1,5 @@
 ---
-tags: [card, dorinthea, warrior, hero, young]
+tags: [card, dorinthea, warrior, hero, young, 1hp139, her008, her057, sdo001, tea002, wtr114, xxx001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGqRPDfRrnPqdj7Cm76fr) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Warrior]
 types: [Hero]
 unique-id: KGqRPDfRrnPqdj7Cm76fr
 sets: [1HP, HER, SDO, TEA, WTR, XXX]
+codes: [1HP139, HER008, HER057, SDO001, TEA002, WTR114, XXX001]
 ---
 
 **Dorinthea** — Warrior Hero - Young · 20 health · 4 int

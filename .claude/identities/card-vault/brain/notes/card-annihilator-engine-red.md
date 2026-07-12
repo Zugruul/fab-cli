@@ -1,5 +1,5 @@
 ---
-tags: [card, annihilator-engine, annihilator, engine, mechanologist, action, attack, overpower, pitch-1, cost-6]
+tags: [card, annihilator-engine, annihilator, engine, mechanologist, action, attack, overpower, pitch-1, cost-6, evo054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7ncNDLjkpLkn9MmfKqfKM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: 7ncNDLjkpLkn9MmfKqfKM
 sets: [EVO]
+codes: [EVO054]
 ---
 
 **Annihilator Engine (red)** — Mechanologist Action - Attack · cost 6 · 6 power · 3 defense

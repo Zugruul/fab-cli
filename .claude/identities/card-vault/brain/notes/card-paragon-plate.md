@@ -1,5 +1,5 @@
 ---
-tags: [card, paragon-plate, paragon, plate, warrior, equipment, chest, temper]
+tags: [card, paragon-plate, paragon, plate, warrior, equipment, chest, temper, aha004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWDdwtBckLgb6gR6KqnD9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: CWDdwtBckLgb6gR6KqnD9
 sets: [AHA]
+codes: [AHA004]
 ---
 
 **Paragon Plate** — Warrior Equipment - Chest · 2 defense

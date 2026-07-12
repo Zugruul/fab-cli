@@ -1,5 +1,5 @@
 ---
-tags: [card, arc-light-sentinel, arc, light, sentinel, illusionist, instant, aura, prism-specialization, spectra, pitch-2, cost-6]
+tags: [card, arc-light-sentinel, arc, light, sentinel, illusionist, instant, aura, prism-specialization, spectra, pitch-2, cost-6, apr016, jdg011, mon005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hD7Tgjzp9pwjttPmcFttW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Prism Specialization, Spectra]
 unique-id: hD7Tgjzp9pwjttPmcFttW
 sets: [APR, JDG, MON]
+codes: [APR016, JDG011, MON005]
 ---
 
 **Arc Light Sentinel (yellow)** — Light Illusionist Instant - Aura · cost 6

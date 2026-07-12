@@ -1,5 +1,5 @@
 ---
-tags: [card, iris-of-the-blossom, iris, blossom, ninja, equipment, head, blade-break]
+tags: [card, iris-of-the-blossom, iris, blossom, ninja, equipment, head, blade-break, asr003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MNKMPhrDfjjDqqBJW99jk) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: MNKMPhrDfjjDqqBJW99jk
 sets: [ASR]
+codes: [ASR003]
 ---
 
 **Iris of the Blossom** — Ninja Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, amulet-of-earth, amulet, earth, action, item, go-again, pitch-3, cost-0]
+tags: [card, amulet-of-earth, amulet, earth, action, item, go-again, pitch-3, cost-0, bri026, ele143, lgs063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8PgrwjDp8NNrz9mDGDP8B) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: 8PgrwjDp8NNrz9mDGDP8B
 sets: [BRI, ELE, LGS]
+codes: [BRI026, ELE143, LGS063]
 ---
 
 **Amulet of Earth (blue)** — Earth Action - Item · cost 0

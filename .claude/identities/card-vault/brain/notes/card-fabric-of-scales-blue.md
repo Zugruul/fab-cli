@@ -1,5 +1,5 @@
 ---
-tags: [card, fabric-of-scales, fabric, scales, generic, action, construct, negate, pitch-3, cost-0]
+tags: [card, fabric-of-scales, fabric, scales, generic, action, construct, negate, pitch-3, cost-0, lss017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6LLwpNzLJBgr8c8nTqdmr) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Negate]
 unique-id: 6LLwpNzLJBgr8c8nTqdmr
 sets: [LSS]
+codes: [LSS017]
 ---
 
 **Fabric of Scales (blue)** — Generic Action - Construct · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, show-no-mercy, show, no, mercy, brute, action, attack, rhinar-specialization, intimidate, pitch-1, cost-3]
+tags: [card, show-no-mercy, show, no, mercy, brute, action, attack, rhinar-specialization, intimidate, pitch-1, cost-3, arr013, hvy013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qDc8bfW6zw8HrDpgdJcJz) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Rhinar Specialization, Intimidate]
 unique-id: qDc8bfW6zw8HrDpgdJcJz
 sets: [ARR, HVY]
+codes: [ARR013, HVY013]
 ---
 
 **Show No Mercy (red)** — Brute Action - Attack · cost 3 · 6 power · 3 defense

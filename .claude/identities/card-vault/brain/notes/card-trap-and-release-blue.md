@@ -1,5 +1,5 @@
 ---
-tags: [card, trap-and-release, trap, release, ninja, action, attack, go-again, mark, pitch-3, cost-1]
+tags: [card, trap-and-release, trap, release, ninja, action, attack, go-again, mark, pitch-3, cost-1, hnt097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6DK6rNGjz8HrpwNmCgQL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Mark]
 unique-id: p6DK6rNGjz8HrpwNmCgQL
 sets: [HNT]
+codes: [HNT097]
 ---
 
 **Trap and Release (blue)** — Ninja Action - Attack · cost 1 · 2 power · 2 defense

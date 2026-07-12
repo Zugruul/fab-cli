@@ -1,5 +1,5 @@
 ---
-tags: [card, eradicate, assassin, action, attack, contract, pitch-2, cost-1]
+tags: [card, eradicate, assassin, action, attack, contract, pitch-2, cost-1, dyn119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CnzHmjrhb7TTzGJppkpfc) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: CnzHmjrhb7TTzGJppkpfc
 sets: [DYN]
+codes: [DYN119]
 ---
 
 **Eradicate (yellow)** — Assassin Action - Attack · cost 1 · 4 power · 3 defense

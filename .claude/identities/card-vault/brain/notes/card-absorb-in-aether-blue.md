@@ -1,5 +1,5 @@
 ---
-tags: [card, absorb-in-aether, absorb, aether, wizard, defense-reaction, pitch-3, cost-1]
+tags: [card, absorb-in-aether, absorb, aether, wizard, defense-reaction, pitch-3, cost-1, arc125]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WkDkrkTDzRnqWBh7WHJfh) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Defense Reaction]
 unique-id: WkDkrkTDzRnqWBh7WHJfh
 sets: [ARC]
+codes: [ARC125]
 ---
 
 **Absorb in Aether (blue)** — Wizard Defense Reaction · cost 1 · 2 defense

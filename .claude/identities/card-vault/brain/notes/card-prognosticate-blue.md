@@ -1,5 +1,5 @@
 ---
-tags: [card, prognosticate, wizard, action, surge, opt-1, pitch-3, cost-0]
+tags: [card, prognosticate, wizard, action, surge, opt-1, pitch-3, cost-0, dyn205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6nPhzmrgb6bf6Km6gDBFG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge, Opt 1]
 unique-id: 6nPhzmrgb6bf6Km6gDBFG
 sets: [DYN]
+codes: [DYN205]
 ---
 
 **Prognosticate (blue)** — Wizard Action · cost 0 · 3 defense

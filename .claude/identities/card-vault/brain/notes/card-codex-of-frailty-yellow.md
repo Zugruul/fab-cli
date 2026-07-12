@@ -1,5 +1,5 @@
 ---
-tags: [card, codex-of-frailty, codex, frailty, assassin, ranger, action, go-again, pitch-2, cost-0]
+tags: [card, codex-of-frailty, codex, frailty, assassin, ranger, action, go-again, pitch-2, cost-0, out160, sea248]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7pc6MTFPJjzjNTRH6zdNh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 7pc6MTFPJjzjNTRH6zdNh
 sets: [OUT, SEA]
+codes: [OUT160, SEA248]
 ---
 
 **Codex of Frailty (yellow)** — Assassin / Ranger Action · cost 0 · 2 defense

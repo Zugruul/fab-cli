@@ -1,5 +1,5 @@
 ---
-tags: [card, rampart-of-the-rams-head, rampart, rams, head, guardian, equipment, off-hand]
+tags: [card, rampart-of-the-rams-head, rampart, rams, head, guardian, equipment, off-hand, ele203, fab049, gem079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dfzBMM9Tm8Q8jRWdQKp97) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Off-Hand]
 unique-id: dfzBMM9Tm8Q8jRWdQKp97
 sets: [ELE, FAB, GEM]
+codes: [ELE203, FAB049, GEM079]
 ---
 
 **Rampart of the Ram's Head** — Guardian Equipment - Off-Hand · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, double-down, double, down, guardian, warrior, action, go-again, overpower, pitch-1, cost-2]
+tags: [card, double-down, double, down, guardian, warrior, action, go-again, overpower, pitch-1, cost-2, fab194, hvy176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8JF8CGqcQRDnGWNBhkhtD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Overpower]
 unique-id: 8JF8CGqcQRDnGWNBhkhtD
 sets: [FAB, HVY]
+codes: [FAB194, HVY176]
 ---
 
 **Double Down (red)** — Guardian / Warrior Action · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, shatter, warrior, attack-reaction, pitch-2, cost-0]
+tags: [card, shatter, warrior, attack-reaction, pitch-2, cost-0, evr054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RJNjgKCzrKtWJfdqRPMhg) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: RJNjgKCzrKtWJfdqRPMhg
 sets: [EVR]
+codes: [EVR054]
 ---
 
 **Shatter (yellow)** — Warrior Attack Reaction · cost 0 · 3 defense

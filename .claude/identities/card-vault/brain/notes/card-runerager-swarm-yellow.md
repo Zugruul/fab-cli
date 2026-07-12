@@ -1,5 +1,5 @@
 ---
-tags: [card, runerager-swarm, runerager, swarm, runeblade, action, attack, go-again, pitch-2, cost-0]
+tags: [card, runerager-swarm, runerager, swarm, runeblade, action, attack, go-again, pitch-2, cost-0, avs021, ros150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8zcbgBnjjdmM6G9hCqC9f) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 8zcbgBnjjdmM6G9hCqC9f
 sets: [AVS, ROS]
+codes: [AVS021, ROS150]
 ---
 
 **Runerager Swarm (yellow)** — Runeblade Action - Attack · cost 0 · 2 power · 3 defense

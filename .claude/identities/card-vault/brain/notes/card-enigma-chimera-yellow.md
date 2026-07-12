@@ -1,5 +1,5 @@
 ---
-tags: [card, enigma-chimera, enigma, chimera, illusionist, action, attack, phantasm, pitch-2, cost-2]
+tags: [card, enigma-chimera, enigma, chimera, illusionist, action, attack, phantasm, pitch-2, cost-2, mon099, psm027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QFJ7cfqhj6TqrwLQQJNFL) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: QFJ7cfqhj6TqrwLQQJNFL
 sets: [MON, PSM]
+codes: [MON099, PSM027]
 ---
 
 **Enigma Chimera (yellow)** — Illusionist Action - Attack · cost 2 · 7 power · 3 defense

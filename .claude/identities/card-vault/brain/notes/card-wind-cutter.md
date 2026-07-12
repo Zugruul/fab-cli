@@ -1,5 +1,5 @@
 ---
-tags: [card, wind-cutter, wind, cutter, ninja, equipment, arms, blade-break]
+tags: [card, wind-cutter, wind, cutter, ninja, equipment, arms, blade-break, pen029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nP6cCbptBCkzLqKfPrKNb) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: nP6cCbptBCkzLqKfPrKNb
 sets: [PEN]
+codes: [PEN029]
 ---
 
 **Wind Cutter** — Ninja Equipment - Arms · 1 defense

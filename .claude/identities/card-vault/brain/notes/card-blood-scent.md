@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-scent, blood, scent, ninja, equipment, chest, battleworn]
+tags: [card, blood-scent, blood, scent, ninja, equipment, chest, battleworn, lgs259, sfa006, tcc080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WQzcLfDqKwCFFJMBcddJ6) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: WQzcLfDqKwCFFJMBcddJ6
 sets: [LGS, SFA, TCC]
+codes: [LGS259, SFA006, TCC080]
 ---
 
 **Blood Scent** — Ninja Equipment - Chest · 1 defense

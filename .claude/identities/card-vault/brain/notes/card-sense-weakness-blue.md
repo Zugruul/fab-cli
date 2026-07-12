@@ -1,5 +1,5 @@
 ---
-tags: [card, sense-weakness, sense, weakness, guardian, action, go-again, dominate, pitch-3, cost-3]
+tags: [card, sense-weakness, sense, weakness, guardian, action, go-again, dominate, pitch-3, cost-3, pen021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7kmnQ69hTHJcPwTPWNwmz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Dominate]
 unique-id: 7kmnQ69hTHJcPwTPWNwmz
 sets: [PEN]
+codes: [PEN021]
 ---
 
 **Sense Weakness (blue)** — Guardian Action · cost 3 · 3 defense

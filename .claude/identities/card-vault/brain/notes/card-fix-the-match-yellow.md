@@ -1,5 +1,5 @@
 ---
-tags: [card, fix-the-match, fix, match, action, attack, reviled, clash, pitch-2, cost-0]
+tags: [card, fix-the-match, fix, match, action, attack, reviled, clash, pitch-2, cost-0, sup082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R7B9m6hKjCKhRFpfcNzbT) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [Clash]
 unique-id: R7B9m6hKjCKhRFpfcNzbT
 sets: [SUP]
+codes: [SUP082]
 ---
 
 **Fix the Match (yellow)** — Reviled Action - Attack · cost 0 · 3 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ghost-protocol-mainframe, ghost, protocol, mainframe, mechanologist, action, attack, evo-upgrade, pitch-3, cost-0]
+tags: [card, ghost-protocol-mainframe, ghost, protocol, mainframe, mechanologist, action, attack, evo-upgrade, pitch-3, cost-0, lgs443, pen063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HJ9JjdmGt7JdNcJ7MT68w) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: HJ9JjdmGt7JdNcJ7MT68w
 sets: [LGS, PEN]
+codes: [LGS443, PEN063]
 ---
 
 **Ghost Protocol: Mainframe (blue)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

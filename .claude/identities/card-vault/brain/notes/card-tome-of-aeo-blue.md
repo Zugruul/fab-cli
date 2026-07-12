@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-aeo, tome, aeo, illusionist, action, aura, ward-1, pitch-3, cost-1]
+tags: [card, tome-of-aeo, tome, aeo, illusionist, action, aura, ward-1, pitch-3, cost-1, dyn217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jdmqz8NgGbBJp88BN8TwK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: Jdmqz8NgGbBJp88BN8TwK
 sets: [DYN]
+codes: [DYN217]
 ---
 
 **Tome of Aeo (blue)** — Illusionist Action - Aura · cost 1 · 2 defense

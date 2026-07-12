@@ -1,5 +1,5 @@
 ---
-tags: [card, vestige-of-sol, vestige, sol, light, equipment, chest, blade-break]
+tags: [card, vestige-of-sol, vestige, sol, light, equipment, chest, blade-break, fab017, mon060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PTjbDJpDMHwR6TdJkBLtr) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: PTjbDJpDMHwR6TdJkBLtr
 sets: [FAB, MON]
+codes: [FAB017, MON060]
 ---
 
 **Vestige of Sol** — Light Equipment - Chest · 1 defense

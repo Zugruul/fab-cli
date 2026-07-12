@@ -1,5 +1,5 @@
 ---
-tags: [card, induce-panic, induce, panic, chaos, block, pitch-2]
+tags: [card, induce-panic, induce, panic, chaos, block, pitch-2, omn246]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JQtbmKdrD67q9w6pr8rFD) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Chaos]
 types: [Block]
 unique-id: JQtbmKdrD67q9w6pr8rFD
 sets: [OMN]
+codes: [OMN246]
 ---
 
 **Induce Panic (yellow)** — Chaos Block · 2 defense

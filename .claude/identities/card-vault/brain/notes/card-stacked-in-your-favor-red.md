@@ -1,5 +1,5 @@
 ---
-tags: [card, stacked-in-your-favor, stacked, your, favor, guardian, action, aura, go-again, pitch-1, cost-2]
+tags: [card, stacked-in-your-favor, stacked, your, favor, guardian, action, aura, go-again, pitch-1, cost-2, hvy068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jW9jRfpRdt7tWjpdNCTCz) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: jW9jRfpRdt7tWjpdNCTCz
 sets: [HVY]
+codes: [HVY068]
 ---
 
 **Stacked in Your Favor (red)** — Guardian Action - Aura · cost 2 · 2 defense

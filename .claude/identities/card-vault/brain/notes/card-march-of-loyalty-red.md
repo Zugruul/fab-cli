@@ -1,5 +1,5 @@
 ---
-tags: [card, march-of-loyalty, march, loyalty, draconic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, march-of-loyalty, march, loyalty, draconic, action, attack, go-again, pitch-1, cost-0, gem016, hnt153]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RbgFbTMtHzGhq8dmDLwpG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: RbgFbTMtHzGhq8dmDLwpG
 sets: [GEM, HNT]
+codes: [GEM016, HNT153]
 ---
 
 **March of Loyalty (red)** — Draconic Action - Attack · cost 0 · 4 power · 3 defense

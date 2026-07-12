@@ -1,5 +1,5 @@
 ---
-tags: [card, strong-wood, strong, wood, guardian, elemental, action, attack, earth-bond, pitch-1, cost-3]
+tags: [card, strong-wood, strong, wood, guardian, elemental, action, attack, earth-bond, pitch-1, cost-3, ter012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7KdwKrNcWjFQMnpq8DfmQ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Bond]
 unique-id: 7KdwKrNcWjFQMnpq8DfmQ
 sets: [TER]
+codes: [TER012]
 ---
 
 **Strong Wood (red)** — Elemental Guardian Action - Attack · cost 3 · 6 power · 3 defense

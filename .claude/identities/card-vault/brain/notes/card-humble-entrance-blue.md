@@ -1,5 +1,5 @@
 ---
-tags: [card, humble-entrance, humble, entrance, action, revered, go-again, pitch-3, cost-0]
+tags: [card, humble-entrance, humble, entrance, action, revered, go-again, pitch-3, cost-0, gem092, sup060]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R8W7dzcQdMj9BNjKQp6bd) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Revered]
 keywords: [Go again]
 unique-id: R8W7dzcQdMj9BNjKQp6bd
 sets: [GEM, SUP]
+codes: [GEM092, SUP060]
 ---
 
 **Humble Entrance (blue)** — Revered Action · cost 0 · 2 defense

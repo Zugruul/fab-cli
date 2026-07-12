@@ -1,5 +1,5 @@
 ---
-tags: [card, starfield-touch, starfield, touch, illusionist, lightning, equipment, arms, battleworn]
+tags: [card, starfield-touch, starfield, touch, illusionist, lightning, equipment, arms, battleworn, azs005, omn250]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kRwtJCMHKNcKNrdk8LFnC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: kRwtJCMHKNcKNrdk8LFnC
 sets: [AZS, OMN]
+codes: [AZS005, OMN250]
 ---
 
 **Starfield Touch** — Lightning Illusionist Equipment - Arms · 1 defense

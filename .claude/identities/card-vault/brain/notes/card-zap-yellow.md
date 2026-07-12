@@ -1,5 +1,5 @@
 ---
-tags: [card, zap, wizard, action, pitch-2, cost-0]
+tags: [card, zap, wizard, action, pitch-2, cost-0, 1hp339, arc145]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cNDwrcdgP7RdhDqDjdknB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: cNDwrcdgP7RdhDqDjdknB
 sets: [1HP, ARC]
+codes: [1HP339, ARC145]
 ---
 
 **Zap (yellow)** — Wizard Action · cost 0 · 3 defense

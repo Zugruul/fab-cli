@@ -1,5 +1,5 @@
 ---
-tags: [card, companion-of-the-claw, companion, claw, ninja, mystic, action, attack, go-again, pitch-2, cost-2]
+tags: [card, companion-of-the-claw, companion, claw, ninja, mystic, action, attack, go-again, pitch-2, cost-2, mst058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6hwzWtTQ8pPqmNwL9dDFP) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 6hwzWtTQ8pPqmNwL9dDFP
 sets: [MST]
+codes: [MST058]
 ---
 
 **Companion of the Claw (yellow)** — Mystic Ninja Action - Attack · cost 2 · 3 power · 2 defense

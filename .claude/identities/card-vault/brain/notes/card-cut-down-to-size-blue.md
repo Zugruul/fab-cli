@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-down-to-size, cut, down, size, generic, action, attack, pitch-3, cost-2]
+tags: [card, cut-down-to-size, cut, down, size, generic, action, attack, pitch-3, cost-2, out203]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wDqGGmznKnwnMBQT6thmt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wDqGGmznKnwnMBQT6thmt
 sets: [OUT]
+codes: [OUT203]
 ---
 
 **Cut Down to Size (blue)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

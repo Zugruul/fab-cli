@@ -1,5 +1,5 @@
 ---
-tags: [card, clamp-press, clamp, press, mechanologist, action, item, crank, pitch-3, cost-2]
+tags: [card, clamp-press, clamp, press, mechanologist, action, item, crank, pitch-3, cost-2, amx026, gem074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9G9hzcppH7WtgccPwfdGC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: 9G9hzcppH7WtgccPwfdGC
 sets: [AMX, GEM]
+codes: [AMX026, GEM074]
 ---
 
 **Clamp Press (blue)** — Mechanologist Action - Item · cost 2

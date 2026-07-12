@@ -1,5 +1,5 @@
 ---
-tags: [card, ez-sqeez-bookie-syndicate, ez, sqeez, bookie, syndicate, event, wager]
+tags: [card, ez-sqeez-bookie-syndicate, ez, sqeez, bookie, syndicate, event, wager, smp024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzTtNhGMLKzQj8FpPffbB) · https://cardvault.fabtcg.com/"
@@ -10,6 +10,7 @@ types: [Event]
 keywords: [Wager]
 unique-id: dzTtNhGMLKzQj8FpPffbB
 sets: [SMP]
+codes: [SMP024]
 ---
 
 **Ez Sqeez Bookie Syndicate** — Event

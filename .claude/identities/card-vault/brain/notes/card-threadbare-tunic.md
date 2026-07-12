@@ -1,5 +1,5 @@
 ---
-tags: [card, threadbare-tunic, threadbare, tunic, generic, equipment, chest]
+tags: [card, threadbare-tunic, threadbare, tunic, generic, equipment, chest, azl005, fab258, out180, rip005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ggGjPCWdGwktGGF8gjbDc) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: ggGjPCWdGwktGGF8gjbDc
 sets: [AZL, FAB, OUT, RIP]
+codes: [AZL005, FAB258, OUT180, RIP005]
 ---
 
 **Threadbare Tunic** — Generic Equipment - Chest

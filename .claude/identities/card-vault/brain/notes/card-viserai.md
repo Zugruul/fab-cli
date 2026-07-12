@@ -1,5 +1,5 @@
 ---
-tags: [card, viserai, runeblade, hero, young]
+tags: [card, viserai, runeblade, hero, young, 1hp259, arc076, her015, svi001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHnFkKb8FKdFzp9rdzGjF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Runeblade]
 types: [Hero]
 unique-id: RHnFkKb8FKdFzp9rdzGjF
 sets: [1HP, ARC, HER, SVI]
+codes: [1HP259, ARC076, HER015, SVI001]
 ---
 
 **Viserai** — Runeblade Hero - Young · 20 health · 4 int

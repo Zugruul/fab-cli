@@ -1,5 +1,5 @@
 ---
-tags: [card, path-well-traveled, path, well, traveled, mystic, instant, legendary, transcend, go-again, pitch-3, cost-0]
+tags: [card, path-well-traveled, path, well, traveled, mystic, instant, legendary, transcend, go-again, pitch-3, cost-0, lgs285, mst098, nuu027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7fN6NNBdf9KQF9gWWpdzL) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Legendary, Transcend, Go again]
 unique-id: 7fN6NNBdf9KQF9gWWpdzL
 sets: [LGS, MST, NUU]
+codes: [LGS285, MST098, NUU027]
 ---
 
 **Path Well Traveled (blue)** — Mystic Instant · cost 0

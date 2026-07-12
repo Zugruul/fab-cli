@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-halos-grace, helm, halos, grace, warrior, light, equipment, head, charge, blade-break]
+tags: [card, helm-of-halos-grace, helm, halos, grace, warrior, light, equipment, head, charge, blade-break, asb003, jdg031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TKbBnD6hMmqHfhDPtmHjL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Head]
 keywords: [Charge, Blade Break]
 unique-id: TKbBnD6hMmqHfhDPtmHjL
 sets: [ASB, JDG]
+codes: [ASB003, JDG031]
 ---
 
 **Helm of Halo's Grace** — Light Warrior Equipment - Head · 2 defense

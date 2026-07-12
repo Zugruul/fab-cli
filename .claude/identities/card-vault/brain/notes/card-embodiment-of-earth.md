@@ -1,5 +1,5 @@
 ---
-tags: [card, embodiment-of-earth, embodiment, earth, elemental, token, aura]
+tags: [card, embodiment-of-earth, embodiment, earth, elemental, token, aura, ajv028, bri003, dtd194, ele109, fab118, flr027, ros025, ros257, sba034, ver027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrcdWNnMQCtrjQqKjd9Fw) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: jrcdWNnMQCtrjQqKjd9Fw
 sets: [AJV, BRI, DTD, ELE, FAB, FLR, ROS, SBA, VER]
+codes: [AJV028, BRI003, DTD194, ELE109, FAB118, FLR027, ROS025, ROS257, SBA034, VER027]
 ---
 
 **Embodiment of Earth** — Elemental Token - Aura

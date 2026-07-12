@@ -1,5 +1,5 @@
 ---
-tags: [card, helm-of-might-and-magic, helm, might, magic, runeblade, equipment, head, blade-break, spellvoid-1]
+tags: [card, helm-of-might-and-magic, helm, might, magic, runeblade, equipment, head, blade-break, spellvoid-1, pen093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcjgBWntdrDcMT7gHdgjF) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break, Spellvoid 1]
 unique-id: rcjgBWntdrDcMT7gHdgjF
 sets: [PEN]
+codes: [PEN093]
 ---
 
 **Helm of Might and Magic** — Runeblade Equipment - Head · 1 defense

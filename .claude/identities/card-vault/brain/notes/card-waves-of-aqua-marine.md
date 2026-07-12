@@ -1,5 +1,5 @@
 ---
-tags: [card, waves-of-aqua-marine, waves, aqua, marine, mystic, equipment, arms, cloaked]
+tags: [card, waves-of-aqua-marine, waves, aqua, marine, mystic, equipment, arms, cloaked, lgs276, mst069, zen005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zmtr9qmT89RLcGDGLRgLM) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Cloaked]
 unique-id: zmtr9qmT89RLcGDGLRgLM
 sets: [LGS, MST, ZEN]
+codes: [LGS276, MST069, ZEN005]
 ---
 
 **Waves of Aqua Marine** — Mystic Equipment - Arms · 1 defense

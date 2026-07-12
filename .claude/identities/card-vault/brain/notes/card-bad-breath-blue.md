@@ -1,5 +1,5 @@
 ---
-tags: [card, bad-breath, bad, breath, action, reviled, intimidate, go-again, pitch-3, cost-0]
+tags: [card, bad-breath, bad, breath, action, reviled, intimidate, go-again, pitch-3, cost-0, pen308]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JkhmjLMQ9h9hfwJprNRMk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Intimidate, Go again]
 unique-id: JkhmjLMQ9h9hfwJprNRMk
 sets: [PEN]
+codes: [PEN308]
 ---
 
 **Bad Breath (blue)** — Reviled Action · cost 0 · 2 defense

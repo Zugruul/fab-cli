@@ -1,5 +1,5 @@
 ---
-tags: [card, cosmic-duality, cosmic, duality, illusionist, lightning, action, attack, fragment, pitch-1, cost-2]
+tags: [card, cosmic-duality, cosmic, duality, illusionist, lightning, action, attack, fragment, pitch-1, cost-2, fab464, omn015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tWqk8FWtf7TD9RgWBpKPP) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: tWqk8FWtf7TD9RgWBpKPP
 sets: [FAB, OMN]
+codes: [FAB464, OMN015]
 ---
 
 **Cosmic Duality (red)** — Lightning Illusionist Action - Attack · cost 2 · 7 power · 3 defense

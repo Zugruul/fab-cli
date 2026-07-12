@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-steel-soul-memory, evo, steel, soul, memory, mechanologist, action, equipment, base, head, transform, temper, pitch-3, cost-4]
+tags: [card, evo-steel-soul-memory, evo, steel, soul, memory, mechanologist, action, equipment, base, head, transform, temper, pitch-3, cost-4, evo026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cqk7QPJBgLDdNCnfgMwrH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Base, Head]
 keywords: [Transform, Temper]
 unique-id: cqk7QPJBgLDdNCnfgMwrH
 sets: [EVO]
+codes: [EVO026]
 ---
 
 **Evo Steel Soul Memory (blue)** — Mechanologist Action Equipment - Evo Base Head · cost 4 · 3 defense

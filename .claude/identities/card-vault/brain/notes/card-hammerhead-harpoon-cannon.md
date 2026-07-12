@@ -1,5 +1,5 @@
 ---
-tags: [card, hammerhead-harpoon-cannon, hammerhead, harpoon, cannon, pirate, ranger, weapon, bow, 2h, overpower]
+tags: [card, hammerhead-harpoon-cannon, hammerhead, harpoon, cannon, pirate, ranger, weapon, bow, 2h, overpower, gem038, lgs399, sea084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mTpzzz7FRDn6pfwQkQtRw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Bow, Cannon, 2H]
 keywords: [Overpower]
 unique-id: mTpzzz7FRDn6pfwQkQtRw
 sets: [GEM, LGS, SEA]
+codes: [GEM038, LGS399, SEA084]
 ---
 
 **Hammerhead, Harpoon Cannon** — Pirate Ranger Weapon - Bow Cannon (2H)

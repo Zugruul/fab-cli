@@ -1,5 +1,5 @@
 ---
-tags: [card, become-the-arknight, become, arknight, runeblade, action, viserai-specialization, go-again, pitch-3, cost-0]
+tags: [card, become-the-arknight, become, arknight, runeblade, action, viserai-specialization, go-again, pitch-3, cost-0, 1hp267, arc083, avs026]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FzmdMTfjQrhzn8bNBhhDw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Viserai Specialization, Go again]
 unique-id: FzmdMTfjQrhzn8bNBhhDw
 sets: [1HP, ARC, AVS]
+codes: [1HP267, ARC083, AVS026]
 ---
 
 **Become the Arknight (blue)** — Runeblade Action · cost 0 · 3 defense

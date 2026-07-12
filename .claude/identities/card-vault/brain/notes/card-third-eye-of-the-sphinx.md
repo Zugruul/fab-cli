@@ -1,5 +1,5 @@
 ---
-tags: [card, third-eye-of-the-sphinx, third, eye, sphinx, illusionist, wizard, equipment, head, spellvoid-1, blade-break]
+tags: [card, third-eye-of-the-sphinx, third, eye, sphinx, illusionist, wizard, equipment, head, spellvoid-1, blade-break, omn140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cqk6dND8KnJ6gBjQNQjCq) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Spellvoid 1, Blade Break]
 unique-id: Cqk6dND8KnJ6gBjQNQjCq
 sets: [OMN]
+codes: [OMN140]
 ---
 
 **Third Eye of the Sphinx** — Illusionist / Wizard Equipment - Head · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hidden-agenda, hidden, agenda, ranger, equipment, chest, arcane-barrier-1]
+tags: [card, hidden-agenda, hidden, agenda, ranger, equipment, chest, arcane-barrier-1, aaz005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dwfCfQLjJJNLpwrnmhcPt) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Arcane Barrier 1]
 unique-id: dwfCfQLjJJNLpwrnmhcPt
 sets: [AAZ]
+codes: [AAZ005]
 ---
 
 **Hidden Agenda** — Ranger Equipment - Chest

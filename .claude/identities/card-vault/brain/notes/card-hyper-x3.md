@@ -1,5 +1,5 @@
 ---
-tags: [card, hyper-x3, hyper, x3, mechanologist, equipment, head, battleworn]
+tags: [card, hyper-x3, hyper, x3, mechanologist, equipment, head, battleworn, evo011, fab170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WkJPkznH7gWGLmhtcmrrR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Battleworn]
 unique-id: WkJPkznH7gWGLmhtcmrrR
 sets: [EVO, FAB]
+codes: [EVO011, FAB170]
 ---
 
 **Hyper-X3** — Mechanologist Equipment - Head · 1 defense

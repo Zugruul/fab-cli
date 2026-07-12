@@ -1,5 +1,5 @@
 ---
-tags: [card, leap-frog-gloves, leap, frog, gloves, assassin, ninja, equipment, arms, blade-break]
+tags: [card, leap-frog-gloves, leap, frog, gloves, assassin, ninja, equipment, arms, blade-break, hnt171]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RBnkrB6LWQHFDcD8RjcWT) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: RBnkrB6LWQHFDcD8RjcWT
 sets: [HNT]
+codes: [HNT171]
 ---
 
 **Leap Frog Gloves** — Assassin / Ninja Equipment - Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, mighty-windup, mighty, windup, brute, guardian, action, attack, pitch-3, cost-3]
+tags: [card, mighty-windup, mighty, windup, brute, guardian, action, attack, pitch-3, cost-3, ako020, hvy145, kyo023, vic024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RjjGjcfnzzmwGGw6DcLWj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RjjGjcfnzzmwGGw6DcLWj
 sets: [AKO, HVY, KYO, VIC]
+codes: [AKO020, HVY145, KYO023, VIC024]
 ---
 
 **Mighty Windup (blue)** — Brute / Guardian Action - Attack · cost 3 · 5 power · 2 defense

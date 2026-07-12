@@ -1,5 +1,5 @@
 ---
-tags: [card, dead-threads, dead, threads, necromancer, equipment, chest, blade-break]
+tags: [card, dead-threads, dead, threads, necromancer, equipment, chest, blade-break, fab337, sea080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nQLzhKtPNctwzTqMNf7LJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Blade Break]
 unique-id: nQLzhKtPNctwzTqMNf7LJ
 sets: [FAB, SEA]
+codes: [FAB337, SEA080]
 ---
 
 **Dead Threads** — Necromancer Equipment - Chest · 1 defense

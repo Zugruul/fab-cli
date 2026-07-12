@@ -1,5 +1,5 @@
 ---
-tags: [card, lost-in-transit, lost, transit, pirate, block, pitch-2]
+tags: [card, lost-in-transit, lost, transit, pirate, block, pitch-2, sea151]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KddkfBmzB78rpH6j6CfBC) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Pirate]
 types: [Block]
 unique-id: KddkfBmzB78rpH6j6CfBC
 sets: [SEA]
+codes: [SEA151]
 ---
 
 **Lost in Transit (yellow)** — Pirate Block · 3 defense

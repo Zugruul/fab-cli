@@ -1,5 +1,5 @@
 ---
-tags: [card, bone-head-barrier, bone, head, barrier, brute, instant, pitch-2, cost-1]
+tags: [card, bone-head-barrier, bone, head, barrier, brute, instant, pitch-2, cost-1, wtr010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtpGCGDBMdRPgcbb7MTdM) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Brute]
 types: [Instant]
 unique-id: FtpGCGDBMdRPgcbb7MTdM
 sets: [WTR]
+codes: [WTR010]
 ---
 
 **Bone Head Barrier (yellow)** — Brute Instant · cost 1

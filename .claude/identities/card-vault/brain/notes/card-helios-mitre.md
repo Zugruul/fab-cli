@@ -1,5 +1,5 @@
 ---
-tags: [card, helios-mitre, helios, mitre, generic, equipment, head]
+tags: [card, helios-mitre, helios, mitre, generic, equipment, head, lgs103, upr183]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gjgpkHgC6p7HNTPpCJdCh) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: gjgpkHgC6p7HNTPpCJdCh
 sets: [LGS, UPR]
+codes: [LGS103, UPR183]
 ---
 
 **Helio's Mitre** — Generic Equipment - Head · 0 defense

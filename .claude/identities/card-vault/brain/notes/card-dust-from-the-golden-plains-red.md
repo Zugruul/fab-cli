@@ -1,5 +1,5 @@
 ---
-tags: [card, dust-from-the-golden-plains, dust, golden, plains, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0]
+tags: [card, dust-from-the-golden-plains, dust, golden, plains, illusionist, draconic, action, ash, material, phantasm, pitch-1, cost-0, dyn002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KfcLhpjL6Jc6Mr8WTQMdn) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Ash]
 keywords: [Material, Phantasm]
 unique-id: KfcLhpjL6Jc6Mr8WTQMdn
 sets: [DYN]
+codes: [DYN002]
 ---
 
 **Dust from the Golden Plains (red)** — Draconic Illusionist Action - Ash · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, pouncing-paws, pouncing, paws, ninja, equipment, legs, battleworn]
+tags: [card, pouncing-paws, pouncing, paws, ninja, equipment, legs, battleworn, sfa009, tcc082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjFKhRGTDGJDk8NGmdFjB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: HjFKhRGTDGJDk8NGmdFjB
 sets: [SFA, TCC]
+codes: [SFA009, TCC082]
 ---
 
 **Pouncing Paws** — Ninja Equipment - Legs · 1 defense

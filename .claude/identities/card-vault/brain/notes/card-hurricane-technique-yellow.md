@@ -1,5 +1,5 @@
 ---
-tags: [card, hurricane-technique, hurricane, technique, ninja, action, attack, combo, go-again, pitch-2, cost-1]
+tags: [card, hurricane-technique, hurricane, technique, ninja, action, attack, combo, go-again, pitch-2, cost-1, wtr084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BRbggWh7bBGWNgDPP7Rrg) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: BRbggWh7bBGWNgDPP7Rrg
 sets: [WTR]
+codes: [WTR084]
 ---
 
 **Hurricane Technique (yellow)** — Ninja Action - Attack · cost 1 · 4 power · 3 defense

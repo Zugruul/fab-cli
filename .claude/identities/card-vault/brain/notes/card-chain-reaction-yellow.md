@@ -1,5 +1,5 @@
 ---
-tags: [card, chain-reaction, chain, reaction, ranger, defense-reaction, trap, pitch-2, cost-0]
+tags: [card, chain-reaction, chain, reaction, ranger, defense-reaction, trap, pitch-2, cost-0, hnt253]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9j8NKt8hTkdwGPgrdcQrp) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: 9j8NKt8hTkdwGPgrdcQrp
 sets: [HNT]
+codes: [HNT253]
 ---
 
 **Chain Reaction (yellow)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

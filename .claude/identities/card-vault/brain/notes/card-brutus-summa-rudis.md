@@ -1,5 +1,5 @@
 ---
-tags: [card, brutus-summa-rudis, brutus, summa, rudis, adjudicator, hero, adult]
+tags: [card, brutus-summa-rudis, brutus, summa, rudis, adjudicator, hero, adult, jdg024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Dh8tPtFJwkqg8jbGTjNWQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Adjudicator]
 types: [Hero]
 unique-id: Dh8tPtFJwkqg8jbGTjNWQ
 sets: [JDG]
+codes: [JDG024]
 ---
 
 **Brutus, Summa Rudis** — Adjudicator Hero · 20 health · 4 int

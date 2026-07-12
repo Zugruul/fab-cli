@@ -1,5 +1,5 @@
 ---
-tags: [card, ten-foot-tall-and-bulletproof, ten, foot, tall, bulletproof, generic, action, attack, pitch-1, cost-3]
+tags: [card, ten-foot-tall-and-bulletproof, ten, foot, tall, bulletproof, generic, action, attack, pitch-1, cost-3, ros217]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F8hkwqJTR9m8bRKnbr6JB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: F8hkwqJTR9m8bRKnbr6JB
 sets: [ROS]
+codes: [ROS217]
 ---
 
 **Ten Foot Tall and Bulletproof (red)** — Generic Action - Attack · cost 3 · 10 power · 10 defense

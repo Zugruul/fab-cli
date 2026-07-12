@@ -1,5 +1,5 @@
 ---
-tags: [card, collapsing-trap, collapsing, trap, ranger, defense-reaction, legendary, riptide-specialization, pitch-3, cost-0]
+tags: [card, collapsing-trap, collapsing, trap, ranger, defense-reaction, legendary, riptide-specialization, pitch-3, cost-0, out103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NzT7pTMkkPCfNr79ftFtG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Legendary, Riptide Specialization]
 unique-id: NzT7pTMkkPCfNr79ftFtG
 sets: [OUT]
+codes: [OUT103]
 ---
 
 **Collapsing Trap (blue)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

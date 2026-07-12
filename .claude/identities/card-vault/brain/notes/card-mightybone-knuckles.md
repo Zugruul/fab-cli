@@ -1,5 +1,5 @@
 ---
-tags: [card, mightybone-knuckles, mightybone, knuckles, equipment, arms, reviled, blade-break]
+tags: [card, mightybone-knuckles, mightybone, knuckles, equipment, arms, reviled, blade-break, sup080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kjJTFcHjQdjkfFNr8kRQw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Reviled]
 keywords: [Blade Break]
 unique-id: kjJTFcHjQdjkfFNr8kRQw
 sets: [SUP]
+codes: [SUP080]
 ---
 
 **Mightybone Knuckles** — Reviled Equipment - Arms · 1 defense

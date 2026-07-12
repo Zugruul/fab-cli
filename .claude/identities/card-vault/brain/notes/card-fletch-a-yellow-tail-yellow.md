@@ -1,5 +1,5 @@
 ---
-tags: [card, fletch-a-yellow-tail, fletch, yellow, tail, ranger, action, go-again, pitch-2, cost-1]
+tags: [card, fletch-a-yellow-tail, fletch, yellow, tail, ranger, action, go-again, pitch-2, cost-1, out110]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wFb9Nd9dBWPJrmNQNQdW8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: wFb9Nd9dBWPJrmNQNQdW8
 sets: [OUT]
+codes: [OUT110]
 ---
 
 **Fletch a Yellow Tail (yellow)** — Ranger Action · cost 1 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, chains-of-mephetis, chains, mephetis, shadow, action, aura, blood-debt, pitch-3, cost-0]
+tags: [card, chains-of-mephetis, chains, mephetis, shadow, action, aura, blood-debt, pitch-3, cost-0, dtd170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gGnbNjCkPfRrfc8QTMjgT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Blood Debt]
 unique-id: gGnbNjCkPfRrfc8QTMjgT
 sets: [DTD]
+codes: [DTD170]
 ---
 
 **Chains of Mephetis (blue)** — Shadow Action - Aura · cost 0 · 3 defense

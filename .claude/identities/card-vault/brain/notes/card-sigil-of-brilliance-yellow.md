@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-brilliance, sigil, brilliance, wizard, lightning, instant, aura, oscilio-specialization, pitch-2, cost-0]
+tags: [card, sigil-of-brilliance, sigil, brilliance, wizard, lightning, instant, aura, oscilio-specialization, pitch-2, cost-0, fab270, ros022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HnMKfF8fQMj9KJfhGBkdG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Oscilio Specialization]
 unique-id: HnMKfF8fQMj9KJfhGBkdG
 sets: [FAB, ROS]
+codes: [FAB270, ROS022]
 ---
 
 **Sigil of Brilliance (yellow)** — Lightning Wizard Instant - Aura · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, fire-and-brimstone, fire, brimstone, warrior, draconic, attack-reaction, legendary, pitch-1, cost-2]
+tags: [card, fire-and-brimstone, fire, brimstone, warrior, draconic, attack-reaction, legendary, pitch-1, cost-2, fng013, hnt105]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P8MBHdhfJLMQ6qdPdWpCL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Attack Reaction]
 keywords: [Legendary]
 unique-id: P8MBHdhfJLMQ6qdPdWpCL
 sets: [FNG, HNT]
+codes: [FNG013, HNT105]
 ---
 
 **Fire and Brimstone (red)** — Draconic Warrior Attack Reaction · cost 2 · 3 defense

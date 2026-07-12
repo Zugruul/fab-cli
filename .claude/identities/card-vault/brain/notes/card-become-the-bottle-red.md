@@ -1,5 +1,5 @@
 ---
-tags: [card, become-the-bottle, become, bottle, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, become-the-bottle, become, bottle, ninja, action, attack, go-again, pitch-1, cost-0, pen037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HfC6DCG8tfLwCTmzrwfzt) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: HfC6DCG8tfLwCTmzrwfzt
 sets: [PEN]
+codes: [PEN037]
 ---
 
 **Become the Bottle (red)** — Ninja Action - Attack · cost 0 · 3 power · 2 defense

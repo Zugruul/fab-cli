@@ -1,5 +1,5 @@
 ---
-tags: [card, decimator-great-axe, decimator, great, axe, warrior, weapon, 2h]
+tags: [card, decimator-great-axe, decimator, great, axe, warrior, weapon, 2h, dtd205]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8h7fn6dk7PfNnckbW668r) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Weapon]
 subtypes: [Axe, 2H]
 unique-id: 8h7fn6dk7PfNnckbW668r
 sets: [DTD]
+codes: [DTD205]
 ---
 
 **Decimator Great Axe** — Warrior Weapon - Axe (2H) · 4 power

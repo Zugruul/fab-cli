@@ -1,5 +1,5 @@
 ---
-tags: [card, bolt-of-courage, bolt, courage, warrior, light, action, attack, charge, pitch-2, cost-0]
+tags: [card, bolt-of-courage, bolt, courage, warrior, light, action, attack, charge, pitch-2, cost-0, asb021, mon043, sbl025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JhtJmJPBBhtrnzgBNBngL) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Charge]
 unique-id: JhtJmJPBBhtrnzgBNBngL
 sets: [ASB, MON, SBL]
+codes: [ASB021, MON043, SBL025]
 ---
 
 **Bolt of Courage (yellow)** — Light Warrior Action - Attack · cost 0 · 2 power · 3 defense

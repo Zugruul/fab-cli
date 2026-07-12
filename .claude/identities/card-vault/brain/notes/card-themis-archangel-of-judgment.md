@@ -1,5 +1,5 @@
 ---
-tags: [card, themis-archangel-of-judgment, themis, archangel, judgment, light, angel, ally, ward-4]
+tags: [card, themis-archangel-of-judgment, themis, archangel, judgment, light, angel, ally, ward-4, dtd006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8cQmdjw8zKNzddKkwcHWj) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Angel, Ally]
 keywords: [Ward 4]
 unique-id: 8cQmdjw8zKNzddKkwcHWj
 sets: [DTD]
+codes: [DTD006]
 ---
 
 **Themis, Archangel of Judgment** — Light - Angel Ally · 4 power · 4 health

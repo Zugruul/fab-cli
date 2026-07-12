@@ -1,5 +1,5 @@
 ---
-tags: [card, summit-the-unforgiving, summit, unforgiving, guardian, earth, ice, weapon, polearm, 1h, heavy]
+tags: [card, summit-the-unforgiving, summit, unforgiving, guardian, earth, ice, weapon, polearm, 1h, heavy, ajv002, gem070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mdKJt7RCqRRrW6PbnJztL) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Polearm, 1H]
 keywords: [Heavy]
 unique-id: mdKJt7RCqRRrW6PbnJztL
 sets: [AJV, GEM]
+codes: [AJV002, GEM070]
 ---
 
 **Summit, the Unforgiving** — Earth Ice Guardian Weapon - Polearm (1H) · 4 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, wage-might, wage, might, brute, guardian, action, attack, wager, pitch-1, cost-3]
+tags: [card, wage-might, wage, might, brute, guardian, action, attack, wager, pitch-1, cost-3, bet013, hvy149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LRqdhhQnNFKCpttQmMJKq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Wager]
 unique-id: LRqdhhQnNFKCpttQmMJKq
 sets: [BET, HVY]
+codes: [BET013, HVY149]
 ---
 
 **Wage Might (red)** — Brute / Guardian Action - Attack · cost 3 · 7 power · 2 defense

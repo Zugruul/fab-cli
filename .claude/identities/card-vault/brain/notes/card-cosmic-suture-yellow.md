@@ -1,5 +1,5 @@
 ---
-tags: [card, cosmic-suture, cosmic, suture, wizard, lightning, instant, starfall, pitch-2, cost-2]
+tags: [card, cosmic-suture, cosmic, suture, wizard, lightning, instant, starfall, pitch-2, cost-2, omn128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PhWgpcwRmzjQ6bDcqcPbW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Starfall]
 unique-id: PhWgpcwRmzjQ6bDcqcPbW
 sets: [OMN]
+codes: [OMN128]
 ---
 
 **Cosmic Suture (yellow)** — Lightning Wizard Instant · cost 2

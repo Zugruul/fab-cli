@@ -1,5 +1,5 @@
 ---
-tags: [card, sneak-attack, sneak, attack, assassin, action, pitch-1, cost-2]
+tags: [card, sneak-attack, sneak, attack, assassin, action, pitch-1, cost-2, out018, uzu007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RJgjqhgWBPnfhC76CRLjt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: RJgjqhgWBPnfhC76CRLjt
 sets: [OUT, UZU]
+codes: [OUT018, UZU007]
 ---
 
 **Sneak Attack (red)** — Assassin Action - Attack · cost 2 · 3 power · 2 defense

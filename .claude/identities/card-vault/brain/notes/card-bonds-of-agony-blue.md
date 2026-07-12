@@ -1,5 +1,5 @@
 ---
-tags: [card, bonds-of-agony, bonds, agony, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, bonds-of-agony, bonds, agony, assassin, action, attack, stealth, pitch-3, cost-0, mst103]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJtCpBD9Hd8TzNRghPzFM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: wJtCpBD9Hd8TzNRghPzFM
 sets: [MST]
+codes: [MST103]
 ---
 
 **Bonds of Agony (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

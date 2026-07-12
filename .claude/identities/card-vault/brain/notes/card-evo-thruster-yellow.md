@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-thruster, evo, thruster, mechanologist, action, equipment, legs, transform, blade-break, pitch-2, cost-3]
+tags: [card, evo-thruster, evo, thruster, mechanologist, action, equipment, legs, transform, blade-break, pitch-2, cost-3, evo037]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bfbgtw7tPPWCMgFh8gDmc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Legs]
 keywords: [Transform, Blade Break]
 unique-id: Bfbgtw7tPPWCMgFh8gDmc
 sets: [EVO]
+codes: [EVO037]
 ---
 
 **Evo Thruster (yellow)** — Mechanologist Action Equipment - Evo Legs · cost 3 · 3 defense

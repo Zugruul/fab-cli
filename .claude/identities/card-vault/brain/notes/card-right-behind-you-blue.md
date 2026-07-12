@@ -1,5 +1,5 @@
 ---
-tags: [card, right-behind-you, right, behind, you, generic, action, attack, pitch-3, cost-3]
+tags: [card, right-behind-you, right, behind, you, generic, action, attack, pitch-3, cost-3, sup235]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKzzwp7mqrF6C68bPDcHm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: CKzzwp7mqrF6C68bPDcHm
 sets: [SUP]
+codes: [SUP235]
 ---
 
 **Right Behind You (blue)** — Generic Action - Attack · cost 3 · 5 power · 2 defense

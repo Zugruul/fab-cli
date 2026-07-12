@@ -1,5 +1,5 @@
 ---
-tags: [card, sow-tomorrow, sow, tomorrow, earth, action, go-again, pitch-1, cost-1]
+tags: [card, sow-tomorrow, sow, tomorrow, earth, action, go-again, pitch-1, cost-1, bri020, ele140]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nHTRFgmcjhjRWrN9jWn9k) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: nHTRFgmcjhjRWrN9jWn9k
 sets: [BRI, ELE]
+codes: [BRI020, ELE140]
 ---
 
 **Sow Tomorrow (red)** — Earth Action · cost 1 · 2 defense

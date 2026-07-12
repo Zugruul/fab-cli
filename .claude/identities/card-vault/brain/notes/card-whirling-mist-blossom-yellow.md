@@ -1,5 +1,5 @@
 ---
-tags: [card, whirling-mist-blossom, whirling, mist, blossom, ninja, action, attack, ira-specialization, go-again, pitch-2, cost-1]
+tags: [card, whirling-mist-blossom, whirling, mist, blossom, ninja, action, attack, ira-specialization, go-again, pitch-2, cost-1, 1hp136, asr019, cru074, ira003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w98kfFNz9prGgmD88ptJR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Ira Specialization, Go again]
 unique-id: w98kfFNz9prGgmD88ptJR
 sets: [1HP, ASR, CRU, IRA]
+codes: [1HP136, ASR019, CRU074, IRA003]
 ---
 
 **Whirling Mist Blossom (yellow)** — Ninja Action - Attack · cost 1 · 2 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, hungering-slaughterbeast, hungering, slaughterbeast, brute, shadow, action, attack, blood-debt, pitch-3, cost-2]
+tags: [card, hungering-slaughterbeast, hungering, slaughterbeast, brute, shadow, action, attack, blood-debt, pitch-3, cost-2, mon149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mhddn6pK9fJTpdqWP67tL) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: mhddn6pK9fJTpdqWP67tL
 sets: [MON]
+codes: [MON149]
 ---
 
 **Hungering Slaughterbeast (blue)** — Shadow Brute Action - Attack · cost 2 · 5 power · 3 defense

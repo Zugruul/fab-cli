@@ -1,5 +1,5 @@
 ---
-tags: [card, steelblade-supremacy, steelblade, supremacy, warrior, action, dorinthea-specialization, go-again, pitch-1, cost-1]
+tags: [card, steelblade-supremacy, steelblade, supremacy, warrior, action, dorinthea-specialization, go-again, pitch-1, cost-1, 1hp152, wtr119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LD76nrjCTwzcf6Qk8cCjW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Dorinthea Specialization, Go again]
 unique-id: LD76nrjCTwzcf6Qk8cCjW
 sets: [1HP, WTR]
+codes: [1HP152, WTR119]
 ---
 
 **Steelblade Supremacy (red)** — Warrior Action · cost 1 · 3 defense

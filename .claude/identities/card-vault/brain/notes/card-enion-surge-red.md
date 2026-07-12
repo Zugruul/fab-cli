@@ -1,5 +1,5 @@
 ---
-tags: [card, enion-surge, enion, surge, wizard, lightning, action, pitch-1, cost-0]
+tags: [card, enion-surge, enion, surge, wizard, lightning, action, pitch-1, cost-0, omn112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzMffTNHqjw8q8jkDjGwD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Lightning]
 types: [Action]
 unique-id: dzMffTNHqjw8q8jkDjGwD
 sets: [OMN]
+codes: [OMN112]
 ---
 
 **Enion Surge (red)** — Lightning Wizard Action · cost 0 · 3 defense

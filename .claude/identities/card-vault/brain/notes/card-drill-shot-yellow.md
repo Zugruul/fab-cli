@@ -1,5 +1,5 @@
 ---
-tags: [card, drill-shot, drill, shot, ranger, action, arrow, attack, piercing-1, pitch-2, cost-0]
+tags: [card, drill-shot, drill, shot, ranger, action, arrow, attack, piercing-1, pitch-2, cost-0, dyn157]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cCncrjr8QBWBmQRnwjPdp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Arrow, Attack]
 keywords: [Piercing 1]
 unique-id: cCncrjr8QBWBmQRnwjPdp
 sets: [DYN]
+codes: [DYN157]
 ---
 
 **Drill Shot (yellow)** — Ranger Action - Arrow Attack · cost 0 · 3 power · 3 defense

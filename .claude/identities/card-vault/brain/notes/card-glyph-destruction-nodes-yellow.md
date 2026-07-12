@@ -1,5 +1,5 @@
 ---
-tags: [card, glyph-destruction-nodes, glyph, destruction, nodes, wizard, action, pitch-2, cost-0]
+tags: [card, glyph-destruction-nodes, glyph, destruction, nodes, wizard, action, pitch-2, cost-0, pen111]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTk9tDTjGDw9c9dM87gTR) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: gTk9tDTjGDw9c9dM87gTR
 sets: [PEN]
+codes: [PEN111]
 ---
 
 **Glyph Destruction Nodes (yellow)** — Wizard Action · cost 0 · 3 defense

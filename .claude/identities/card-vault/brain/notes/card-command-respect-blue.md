@@ -1,5 +1,5 @@
 ---
-tags: [card, command-respect, command, respect, guardian, action, attack, pitch-3, cost-3]
+tags: [card, command-respect, command, respect, guardian, action, attack, pitch-3, cost-3, bet019, hvy073, vic022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JkQtdwTJzQ7Bw8g8wNtCh) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: JkQtdwTJzQ7Bw8g8wNtCh
 sets: [BET, HVY, VIC]
+codes: [BET019, HVY073, VIC022]
 ---
 
 **Command Respect (blue)** — Guardian Action - Attack · cost 3 · 4 power · 3 defense

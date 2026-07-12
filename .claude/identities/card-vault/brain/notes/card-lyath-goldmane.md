@@ -1,5 +1,5 @@
 ---
-tags: [card, lyath-goldmane, lyath, goldmane, guardian, hero, reviled, young]
+tags: [card, lyath-goldmane, lyath, goldmane, guardian, hero, reviled, young, sly001, sup072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QrHJnzKzpMwgfJMcKQ8Dp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 other-types: [Reviled]
 unique-id: QrHJnzKzpMwgfJMcKQ8Dp
 sets: [SLY, SUP]
+codes: [SLY001, SUP072]
 ---
 
 **Lyath Goldmane** — Reviled Guardian Hero - Young · 20 health · 5 int

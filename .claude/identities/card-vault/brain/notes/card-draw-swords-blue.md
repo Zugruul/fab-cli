@@ -1,5 +1,5 @@
 ---
-tags: [card, draw-swords, draw, swords, warrior, action, go-again, pitch-3, cost-3]
+tags: [card, draw-swords, draw, swords, warrior, action, go-again, pitch-3, cost-3, hvy123, ksi025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fbfLBzMKtdBhJDLbBrPtg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fbfLBzMKtdBhJDLbBrPtg
 sets: [HVY, KSI]
+codes: [HVY123, KSI025]
 ---
 
 **Draw Swords (blue)** — Warrior Action · cost 3 · 3 defense

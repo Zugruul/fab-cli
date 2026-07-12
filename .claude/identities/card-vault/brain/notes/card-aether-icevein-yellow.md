@@ -1,5 +1,5 @@
 ---
-tags: [card, aether-icevein, aether, icevein, wizard, elemental, action, ice-fusion, pitch-2, cost-3]
+tags: [card, aether-icevein, aether, icevein, wizard, elemental, action, ice-fusion, pitch-2, cost-3, siy018, upr114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DJDqrcJFQNWHPfPjhQNG8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion]
 unique-id: DJDqrcJFQNWHPfPjhQNG8
 sets: [SIY, UPR]
+codes: [SIY018, UPR114]
 ---
 
 **Aether Icevein (yellow)** — Elemental Wizard Action · cost 3 · 3 defense

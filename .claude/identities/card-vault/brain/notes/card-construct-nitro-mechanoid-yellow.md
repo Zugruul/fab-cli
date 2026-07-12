@@ -1,5 +1,5 @@
 ---
-tags: [card, construct-nitro-mechanoid, construct, nitro, mechanoid, mechanologist, action, transform, negate, go-again, pitch-2, cost-4]
+tags: [card, construct-nitro-mechanoid, construct, nitro, mechanoid, mechanologist, action, transform, negate, go-again, pitch-2, cost-4, dyn092, gem119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjFjGKmpGbTCnrJR6fN79) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Transform, Negate, Go again]
 unique-id: mjFjGKmpGbTCnrJR6fN79
 sets: [DYN, GEM]
+codes: [DYN092, GEM119]
 ---
 
 **Construct Nitro Mechanoid (yellow)** — Mechanologist Action - Construct · cost 4 · 3 defense

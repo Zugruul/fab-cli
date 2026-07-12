@@ -1,5 +1,5 @@
 ---
-tags: [card, fools-gold, fools, gold, generic, resource, pitch-2]
+tags: [card, fools-gold, fools, gold, generic, resource, pitch-2, fab350, sea215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t9FQnwWKw7RWz7pPBGf7f) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Generic]
 types: [Resource]
 unique-id: t9FQnwWKw7RWz7pPBGf7f
 sets: [FAB, SEA]
+codes: [FAB350, SEA215]
 ---
 
 **Fool's Gold (yellow)** — Generic Resource

@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-cycles, sigil, cycles, generic, action, aura, go-again, pitch-3, cost-0]
+tags: [card, sigil-of-cycles, sigil, cycles, generic, action, aura, go-again, pitch-3, cost-0, lgs329, ros226]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcFTPCqNgzqcTfnknBmRq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: rcFTPCqNgzqcTfnknBmRq
 sets: [LGS, ROS]
+codes: [LGS329, ROS226]
 ---
 
 **Sigil of Cycles (blue)** — Generic Action - Aura · cost 0 · 2 defense

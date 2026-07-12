@@ -1,5 +1,5 @@
 ---
-tags: [card, vigorous-engagement, vigorous, engagement, warrior, attack-reaction, pitch-2, cost-1]
+tags: [card, vigorous-engagement, vigorous, engagement, warrior, attack-reaction, pitch-2, cost-1, hvy119]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MqGBqBNK77NbbzGrBmLFz) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: MqGBqBNK77NbbzGrBmLFz
 sets: [HVY]
+codes: [HVY119]
 ---
 
 **Vigorous Engagement (yellow)** — Warrior Attack Reaction · cost 1 · 2 defense

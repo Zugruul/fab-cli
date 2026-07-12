@@ -1,5 +1,5 @@
 ---
-tags: [card, crown-of-dominion, crown, dominion, generic, equipment, head]
+tags: [card, crown-of-dominion, crown, dominion, generic, equipment, head, dyn234, fab111, gem112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QbRRGgm9QNjFGchhLkbtF) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: QbRRGgm9QNjFGchhLkbtF
 sets: [DYN, FAB, GEM]
+codes: [DYN234, FAB111, GEM112]
 ---
 
 **Crown of Dominion** — Generic Equipment - Head

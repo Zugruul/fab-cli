@@ -1,5 +1,5 @@
 ---
-tags: [card, pinion-sentry, pinion, sentry, mechanologist, block, pitch-3]
+tags: [card, pinion-sentry, pinion, sentry, mechanologist, block, pitch-3, gem045, sea023]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gQdQfNwNMgDLJfkcNWmhH) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Mechanologist]
 types: [Block]
 unique-id: gQdQfNwNMgDLJfkcNWmhH
 sets: [GEM, SEA]
+codes: [GEM045, SEA023]
 ---
 
 **Pinion Sentry (blue)** — Mechanologist Block · 3 defense

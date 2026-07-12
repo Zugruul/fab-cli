@@ -1,5 +1,5 @@
 ---
-tags: [card, spur-locked, spur, locked, chaos, action, go-again, pitch-3, cost-0]
+tags: [card, spur-locked, spur, locked, chaos, action, go-again, pitch-3, cost-0, hnt255]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MfDRbDBGdmNDzQdNhHDqq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: MfDRbDBGdmNDzQdNhHDqq
 sets: [HNT]
+codes: [HNT255]
 ---
 
 **Spur Locked (blue)** — Chaos Action · cost 0 · 3 defense

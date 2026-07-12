@@ -1,5 +1,5 @@
 ---
-tags: [card, dreadbore, ranger, weapon, bow, 2h]
+tags: [card, dreadbore, ranger, weapon, bow, 2h, evr087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7WhjMkMzcRQ9M7cpzFcpH) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Bow, 2H]
 unique-id: 7WhjMkMzcRQ9M7cpzFcpH
 sets: [EVR]
+codes: [EVR087]
 ---
 
 **Dreadbore** — Ranger Weapon - Bow (2H)

@@ -1,5 +1,5 @@
 ---
-tags: [card, ominous-aggression, ominous, aggression, generic, instant, pitch-1, cost-2]
+tags: [card, ominous-aggression, ominous, aggression, generic, instant, pitch-1, cost-2, omn216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LFBD7NtGwCjpmBCBkkpG8) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: LFBD7NtGwCjpmBCBkkpG8
 sets: [OMN]
+codes: [OMN216]
 ---
 
 **Ominous Aggression (red)** — Generic Instant · cost 2

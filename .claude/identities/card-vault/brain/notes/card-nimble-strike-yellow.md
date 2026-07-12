@@ -1,5 +1,5 @@
 ---
-tags: [card, nimble-strike, nimble, strike, generic, action, attack, pitch-2, cost-1]
+tags: [card, nimble-strike, nimble, strike, generic, action, attack, pitch-2, cost-1, mst210, wtr186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6M6NPTgtR8MTpJJrDMtRW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 6M6NPTgtR8MTpJJrDMtRW
 sets: [MST, WTR]
+codes: [MST210, WTR186]
 ---
 
 **Nimble Strike (yellow)** — Generic Action - Attack · cost 1 · 3 power · 2 defense

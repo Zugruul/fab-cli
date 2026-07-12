@@ -1,5 +1,5 @@
 ---
-tags: [card, draco-fire, draco, fire, draconic, instant, pitch-1, cost-0]
+tags: [card, draco-fire, draco, fire, draconic, instant, pitch-1, cost-0, omn245]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRLzQChgG7cPDkkhhC6MM) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Instant]
 unique-id: hRLzQChgG7cPDkkhhC6MM
 sets: [OMN]
+codes: [OMN245]
 ---
 
 **Draco Fire (red)** — Draconic Instant · cost 0

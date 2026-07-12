@@ -1,5 +1,5 @@
 ---
-tags: [card, stasis-cell, stasis, cell, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, stasis-cell, stasis, cell, mechanologist, action, item, pitch-3, cost-0, evo073]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fdQ8rf8W6d7KgDhprdm9k) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: fdQ8rf8W6d7KgDhprdm9k
 sets: [EVO]
+codes: [EVO073]
 ---
 
 **Stasis Cell (blue)** — Mechanologist Action - Item · cost 0

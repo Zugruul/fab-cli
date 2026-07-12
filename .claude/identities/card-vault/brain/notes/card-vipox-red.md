@@ -1,5 +1,5 @@
 ---
-tags: [card, vipox, generic, action, attack, pitch-1, cost-0]
+tags: [card, vipox, generic, action, attack, pitch-1, cost-0, upr188]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mcF6F69HgBntfh7QKkHWw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: mcF6F69HgBntfh7QKkHWw
 sets: [UPR]
+codes: [UPR188]
 ---
 
 **Vipox (red)** — Generic Action - Attack · cost 0 · 1 power · 3 defense

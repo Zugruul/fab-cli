@@ -1,5 +1,5 @@
 ---
-tags: [card, stir-the-wildwood, stir, wildwood, runeblade, elemental, action, attack, earth-fusion, pitch-1, cost-2]
+tags: [card, stir-the-wildwood, stir, wildwood, runeblade, elemental, action, attack, earth-fusion, pitch-1, cost-2, bri011, ele082, fab047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8cCrr6Bd9HchgpQHnztTb) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: 8cCrr6Bd9HchgpQHnztTb
 sets: [BRI, ELE, FAB]
+codes: [BRI011, ELE082, FAB047]
 ---
 
 **Stir the Wildwood (red)** — Elemental Runeblade Action - Attack · cost 2 · 5 power · 3 defense

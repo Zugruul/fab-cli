@@ -1,5 +1,5 @@
 ---
-tags: [card, betsy, guardian, hero, young, overpower]
+tags: [card, betsy, guardian, hero, young, overpower, bet001, hvy046]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zdWrPkDgdbWdGBWjCLnhj) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Overpower]
 unique-id: zdWrPkDgdbWdGBWjCLnhj
 sets: [BET, HVY]
+codes: [BET001, HVY046]
 ---
 
 **Betsy** — Guardian Hero - Young · 20 health · 4 int

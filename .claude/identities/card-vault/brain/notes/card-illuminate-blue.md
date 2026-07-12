@@ -1,5 +1,5 @@
 ---
-tags: [card, illuminate, light, action, attack, pitch-3, cost-0]
+tags: [card, illuminate, light, action, attack, pitch-3, cost-0, bol027, mon074, psm024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qq9JDbPD9HrD7wG7CWbKj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: qq9JDbPD9HrD7wG7CWbKj
 sets: [BOL, MON, PSM]
+codes: [BOL027, MON074, PSM024]
 ---
 
 **Illuminate (blue)** — Light Action - Attack · cost 0 · 2 power · 3 defense

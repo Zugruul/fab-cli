@@ -1,5 +1,5 @@
 ---
-tags: [card, spike-with-frailty, spike, frailty, assassin, attack-reaction, pitch-1, cost-1]
+tags: [card, spike-with-frailty, spike, frailty, assassin, attack-reaction, pitch-1, cost-1, lgs131, out022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NHhCjBzmNwbfFMfL7TKf8) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: NHhCjBzmNwbfFMfL7TKf8
 sets: [LGS, OUT]
+codes: [LGS131, OUT022]
 ---
 
 **Spike with Frailty (red)** — Assassin Attack Reaction · cost 1 · 3 defense

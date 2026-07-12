@@ -1,5 +1,5 @@
 ---
-tags: [card, back-heel-kick, back, heel, kick, ninja, action, attack, combo, pitch-2, cost-0]
+tags: [card, back-heel-kick, back, heel, kick, ninja, action, attack, combo, pitch-2, cost-0, ben014, out066]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6gMmQCFkPbTT7hJ7frhrJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: 6gMmQCFkPbTT7hJ7frhrJ
 sets: [BEN, OUT]
+codes: [BEN014, OUT066]
 ---
 
 **Back Heel Kick (yellow)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

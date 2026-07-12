@@ -1,5 +1,5 @@
 ---
-tags: [card, line-crossers, line, crossers, equipment, arms, reviled, blade-break]
+tags: [card, line-crossers, line, crossers, equipment, arms, reviled, blade-break, pen300, sly009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7DfN7NwW9WbTpDNhFW8qW) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Reviled]
 keywords: [Blade Break]
 unique-id: 7DfN7NwW9WbTpDNhFW8qW
 sets: [PEN, SLY]
+codes: [PEN300, SLY009]
 ---
 
 **Line Crossers** — Reviled Equipment - Arms · 1 defense

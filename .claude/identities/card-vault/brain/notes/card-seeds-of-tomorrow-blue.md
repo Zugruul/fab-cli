@@ -1,5 +1,5 @@
 ---
-tags: [card, seeds-of-tomorrow, seeds, tomorrow, earth, instant, pitch-3, cost-0]
+tags: [card, seeds-of-tomorrow, seeds, tomorrow, earth, instant, pitch-3, cost-0, ros035]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mcffqz8hhNjNgTGMHJwhR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Earth]
 types: [Instant]
 unique-id: Mcffqz8hhNjNgTGMHJwhR
 sets: [ROS]
+codes: [ROS035]
 ---
 
 **Seeds of Tomorrow (blue)** — Earth Instant · cost 0

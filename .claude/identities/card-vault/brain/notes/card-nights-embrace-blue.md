@@ -1,5 +1,5 @@
 ---
-tags: [card, nights-embrace, nights, embrace, assassin, attack-reaction, pitch-3]
+tags: [card, nights-embrace, nights, embrace, assassin, attack-reaction, pitch-3, aac028, sar031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qt8PTt8T8bzqm9jFJ8c8F) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: qt8PTt8T8bzqm9jFJ8c8F
 sets: [AAC, SAR]
+codes: [AAC028, SAR031]
 ---
 
 **Night's Embrace (blue)** — Assassin Attack Reaction · 3 defense

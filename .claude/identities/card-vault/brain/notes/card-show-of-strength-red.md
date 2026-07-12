@@ -1,5 +1,5 @@
 ---
-tags: [card, show-of-strength, show, strength, brute, action, attack, pitch-1, cost-2]
+tags: [card, show-of-strength, show, strength, brute, action, attack, pitch-1, cost-2, sup128]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jdn7kNmFnCNPDRjp7mg9m) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Jdn7kNmFnCNPDRjp7mg9m
 sets: [SUP]
+codes: [SUP128]
 ---
 
 **Show of Strength (red)** — Brute Action - Attack · cost 2 · 8 power · 3 defense

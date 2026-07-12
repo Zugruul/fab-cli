@@ -1,5 +1,5 @@
 ---
-tags: [card, herald-of-tenacity, herald, tenacity, illusionist, light, action, attack, dominate, phantasm, pitch-3, cost-2]
+tags: [card, herald-of-tenacity, herald, tenacity, illusionist, light, action, attack, dominate, phantasm, pitch-3, cost-2, dtd025, lgs175, mon025, psm019]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jgC7fqfp9rGLjPdJQNRBM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Dominate, Phantasm]
 unique-id: jgC7fqfp9rGLjPdJQNRBM
 sets: [DTD, LGS, MON, PSM]
+codes: [DTD025, LGS175, MON025, PSM019]
 ---
 
 **Herald of Tenacity (blue)** — Light Illusionist Action - Attack · cost 2 · 4 power · 3 defense

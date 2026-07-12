@@ -1,5 +1,5 @@
 ---
-tags: [card, loot-the-arsenal, loot, arsenal, pirate, necromancer, action, go-again, pitch-3, cost-0]
+tags: [card, loot-the-arsenal, loot, arsenal, pirate, necromancer, action, go-again, pitch-3, cost-0, agb027, gem083, sgb029]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lz787nr8ndnM9BrnPtjDC) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: Lz787nr8ndnM9BrnPtjDC
 sets: [AGB, GEM, SGB]
+codes: [AGB027, GEM083, SGB029]
 ---
 
 **Loot the Arsenal (blue)** — Pirate Necromancer Action · cost 0 · 3 defense

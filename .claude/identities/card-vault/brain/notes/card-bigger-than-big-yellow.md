@@ -1,5 +1,5 @@
 ---
-tags: [card, bigger-than-big, bigger, than, big, guardian, action, aura, wager, pitch-2, cost-3]
+tags: [card, bigger-than-big, bigger, than, big, guardian, action, aura, wager, pitch-2, cost-3, hvy087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zGd78mnnbrJdQLzn7TqRk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Wager]
 unique-id: zGd78mnnbrJdQLzn7TqRk
 sets: [HVY]
+codes: [HVY087]
 ---
 
 **Bigger Than Big (yellow)** — Guardian Action - Aura · cost 3 · 2 defense

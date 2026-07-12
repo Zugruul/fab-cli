@@ -1,5 +1,5 @@
 ---
-tags: [card, pulsing-cardia, pulsing, cardia, illusionist, lightning, action, attack, fragment, pitch-2, cost-0]
+tags: [card, pulsing-cardia, pulsing, cardia, illusionist, lightning, action, attack, fragment, pitch-2, cost-0, omn022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FJNBWQGCMNzBKLc6qPC9q) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: FJNBWQGCMNzBKLc6qPC9q
 sets: [OMN]
+codes: [OMN022]
 ---
 
 **Pulsing Cardia (yellow)** — Lightning Illusionist Action - Attack · cost 0 · 4 power · 3 defense

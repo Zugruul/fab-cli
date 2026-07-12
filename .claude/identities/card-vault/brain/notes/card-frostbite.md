@@ -1,5 +1,5 @@
 ---
-tags: [card, frostbite, elemental, token, aura]
+tags: [card, frostbite, elemental, token, aura, ajv029, ele111, evr197, fab081, lxi030, old031, siy035, upr150]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GHG6KkBzPkHDnMf7hL7K7) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Aura]
 unique-id: GHG6KkBzPkHDnMf7hL7K7
 sets: [AJV, ELE, EVR, FAB, LXI, OLD, SIY, UPR]
+codes: [AJV029, ELE111, EVR197, FAB081, LXI030, OLD031, SIY035, UPR150]
 ---
 
 **Frostbite** — Elemental Token - Aura

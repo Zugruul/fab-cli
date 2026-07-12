@@ -1,5 +1,5 @@
 ---
-tags: [card, garland-of-spring, garland, spring, generic, equipment, chest]
+tags: [card, garland-of-spring, garland, spring, generic, equipment, chest, lgs415, sbl005, sup212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cz8WjTHRfmKBGtRfPrCWr) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: cz8WjTHRfmKBGtRfPrCWr
 sets: [LGS, SBL, SUP]
+codes: [LGS415, SBL005, SUP212]
 ---
 
 **Garland of Spring** — Generic Equipment - Chest · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, signal-jammer, signal, jammer, mechanologist, action, item, pitch-3, cost-0]
+tags: [card, signal-jammer, signal, jammer, mechanologist, action, item, pitch-3, cost-0, evr071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bqTcgLnMrzmpGJHFznhG6) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: bqTcgLnMrzmpGJHFznhG6
 sets: [EVR]
+codes: [EVR071]
 ---
 
 **Signal Jammer (blue)** — Mechanologist Action - Item · cost 0

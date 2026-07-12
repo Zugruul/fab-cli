@@ -1,5 +1,5 @@
 ---
-tags: [card, stormwind-sheath, stormwind, sheath, elemental, defense-reaction, lightning-bond, pitch-1, cost-1]
+tags: [card, stormwind-sheath, stormwind, sheath, elemental, defense-reaction, lightning-bond, pitch-1, cost-1, fab429, pen209]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jwDzJCPgGpnn6QgPJkNTH) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Lightning Bond]
 unique-id: jwDzJCPgGpnn6QgPJkNTH
 sets: [FAB, PEN]
+codes: [FAB429, PEN209]
 ---
 
 **Stormwind Sheath (red)** — Elemental Defense Reaction · cost 1 · 5 defense

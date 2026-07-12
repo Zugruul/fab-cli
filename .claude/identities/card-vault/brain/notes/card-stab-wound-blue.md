@@ -1,5 +1,5 @@
 ---
-tags: [card, stab-wound, stab, wound, assassin, ninja, action, attack, pitch-3, cost-0]
+tags: [card, stab-wound, stab, wound, assassin, ninja, action, attack, pitch-3, cost-0, out142]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kGnRg6Kgz9P68LnjncPGj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kGnRg6Kgz9P68LnjncPGj
 sets: [OUT]
+codes: [OUT142]
 ---
 
 **Stab Wound (blue)** — Assassin / Ninja Action - Attack · cost 0 · 2 power · 3 defense

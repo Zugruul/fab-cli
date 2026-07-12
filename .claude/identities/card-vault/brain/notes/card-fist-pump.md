@@ -1,5 +1,5 @@
 ---
-tags: [card, fist-pump, fist, pump, mechanologist, equipment, arms, battleworn]
+tags: [card, fist-pump, fist, pump, mechanologist, equipment, arms, battleworn, amx005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PGCBWLPcTWcHRh7CwW8K7) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: PGCBWLPcTWcHRh7CwW8K7
 sets: [AMX]
+codes: [AMX005]
 ---
 
 **Fist Pump** — Mechanologist Equipment - Arms · 1 defense

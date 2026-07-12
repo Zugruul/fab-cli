@@ -1,5 +1,5 @@
 ---
-tags: [card, dive-through-data, dive, through, data, mechanologist, action, attack, boost, opt-1, pitch-3, cost-1]
+tags: [card, dive-through-data, dive, through, data, mechanologist, action, attack, boost, opt-1, pitch-3, cost-1, evo191]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q87bjWTPpRz8LHrN8drrd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost, Opt 1]
 unique-id: q87bjWTPpRz8LHrN8drrd
 sets: [EVO]
+codes: [EVO191]
 ---
 
 **Dive Through Data (blue)** — Mechanologist Action - Attack · cost 1 · 2 power · 3 defense

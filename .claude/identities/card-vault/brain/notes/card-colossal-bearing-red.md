@@ -1,5 +1,5 @@
 ---
-tags: [card, colossal-bearing, colossal, bearing, guardian, action, attack, tower, pitch-1, cost-4]
+tags: [card, colossal-bearing, colossal, bearing, guardian, action, attack, tower, pitch-1, cost-4, hvy062, tcc034]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p89Wnh7dDNTLmhGjhMkKD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Tower]
 unique-id: p89Wnh7dDNTLmhGjhMkKD
 sets: [HVY, TCC]
+codes: [HVY062, TCC034]
 ---
 
 **Colossal Bearing (red)** — Guardian Action - Attack · cost 4 · 8 power · 3 defense

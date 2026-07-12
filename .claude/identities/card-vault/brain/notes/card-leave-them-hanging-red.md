@@ -1,5 +1,5 @@
 ---
-tags: [card, leave-them-hanging, leave, them, hanging, guardian, instant, aura, reviled, suspense, intimidate, pitch-1, cost-3]
+tags: [card, leave-them-hanging, leave, them, hanging, guardian, instant, aura, reviled, suspense, intimidate, pitch-1, cost-3, sup074]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jhcWTqd8Thf6gwbNGKqwh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Reviled]
 keywords: [Suspense, Intimidate]
 unique-id: jhcWTqd8Thf6gwbNGKqwh
 sets: [SUP]
+codes: [SUP074]
 ---
 
 **Leave Them Hanging (red)** — Reviled Guardian Instant - Aura · cost 3 · 3 defense

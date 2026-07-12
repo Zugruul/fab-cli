@@ -1,5 +1,5 @@
 ---
-tags: [card, relentless-pursuit, relentless, pursuit, generic, action, mark, go-again, pitch-3, cost-0]
+tags: [card, relentless-pursuit, relentless, pursuit, generic, action, mark, go-again, pitch-3, cost-0, hnt229, lgs384]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DDBjrbFWMHqkc7Pkqr6f6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Mark, Go again]
 unique-id: DDBjrbFWMHqkc7Pkqr6f6
 sets: [HNT, LGS]
+codes: [HNT229, LGS384]
 ---
 
 **Relentless Pursuit (blue)** — Generic Action · cost 0 · 3 defense

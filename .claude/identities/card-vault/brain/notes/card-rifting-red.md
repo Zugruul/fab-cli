@@ -1,5 +1,5 @@
 ---
-tags: [card, rifting, generic, action, attack, pitch-1, cost-2]
+tags: [card, rifting, generic, action, attack, pitch-1, cost-2, arc194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fbKhDHT7dDzFfh7cpBjkJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: fbKhDHT7dDzFfh7cpBjkJ
 sets: [ARC]
+codes: [ARC194]
 ---
 
 **Rifting (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

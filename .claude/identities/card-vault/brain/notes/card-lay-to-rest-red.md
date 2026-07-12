@@ -1,5 +1,5 @@
 ---
-tags: [card, lay-to-rest, lay, rest, light, action, attack, pitch-1, cost-1]
+tags: [card, lay-to-rest, lay, rest, light, action, attack, pitch-1, cost-1, dtd082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jw6CQTrR7njDNnNMCfNC7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Jw6CQTrR7njDNnNMCfNC7
 sets: [DTD]
+codes: [DTD082]
 ---
 
 **Lay to Rest (red)** — Light Action - Attack · cost 1 · 5 power · 3 defense

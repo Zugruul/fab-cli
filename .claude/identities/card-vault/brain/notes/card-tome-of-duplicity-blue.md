@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-duplicity, tome, duplicity, wizard, action, pitch-3, cost-3]
+tags: [card, tome-of-duplicity, tome, duplicity, wizard, action, pitch-3, cost-3, upr168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DjB6FNdbDR9f7bLMc9CBM) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: DjB6FNdbDR9f7bLMc9CBM
 sets: [UPR]
+codes: [UPR168]
 ---
 
 **Tome of Duplicity (blue)** — Wizard Action · cost 3 · 2 defense

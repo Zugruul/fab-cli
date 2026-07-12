@@ -1,5 +1,5 @@
 ---
-tags: [card, meteoric-rise, meteoric, rise, lightning, action, attack, pitch-1, cost-1]
+tags: [card, meteoric-rise, meteoric, rise, lightning, action, attack, pitch-1, cost-1, fab472, omn153]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cmbfFHBr6hjhrdmNNQGg6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: cmbfFHBr6hjhrdmNNQGg6
 sets: [FAB, OMN]
+codes: [FAB472, OMN153]
 ---
 
 **Meteoric Rise (red)** — Lightning Action - Attack · cost 1 · 5 power · 2 defense

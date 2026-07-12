@@ -1,5 +1,5 @@
 ---
-tags: [card, enchanting-melody, enchanting, melody, generic, action, aura, go-again, pitch-2, cost-2]
+tags: [card, enchanting-melody, enchanting, melody, generic, action, aura, go-again, pitch-2, cost-2, 1hp376, arc168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LKNtHHFMTDbfMHnGLM9Wm) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: LKNtHHFMTDbfMHnGLM9Wm
 sets: [1HP, ARC]
+codes: [1HP376, ARC168]
 ---
 
 **Enchanting Melody (yellow)** — Generic Action - Aura · cost 2 · 2 defense

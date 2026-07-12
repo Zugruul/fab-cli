@@ -1,5 +1,5 @@
 ---
-tags: [card, symbiosis-shot, symbiosis, shot, mechanologist, weapon, gun, 2h, dash-specialization]
+tags: [card, symbiosis-shot, symbiosis, shot, mechanologist, weapon, gun, 2h, dash-specialization, aio002, evo003, lgs194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tPW6ffbwKnNCWf9hKLKTN) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Gun, 2H]
 keywords: [Dash Specialization]
 unique-id: tPW6ffbwKnNCWf9hKLKTN
 sets: [AIO, EVO, LGS]
+codes: [AIO002, EVO003, LGS194]
 ---
 
 **Symbiosis Shot** — Mechanologist Weapon - Gun (2H) · 2 power

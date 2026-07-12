@@ -1,5 +1,5 @@
 ---
-tags: [card, read-the-ripples, read, ripples, wizard, action, aura, opt-1, pitch-1, cost-0]
+tags: [card, read-the-ripples, read, ripples, wizard, action, aura, opt-1, pitch-1, cost-0, upr176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zThcPg6qzTqM7KB9CWfPR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Opt 1]
 unique-id: zThcPg6qzTqM7KB9CWfPR
 sets: [UPR]
+codes: [UPR176]
 ---
 
 **Read the Ripples (red)** — Wizard Action - Aura · cost 0 · 2 defense

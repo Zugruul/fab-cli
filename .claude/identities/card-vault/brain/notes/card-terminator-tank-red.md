@@ -1,5 +1,5 @@
 ---
-tags: [card, terminator-tank, terminator, tank, mechanologist, action, attack, overpower, pitch-1, cost-6]
+tags: [card, terminator-tank, terminator, tank, mechanologist, action, attack, overpower, pitch-1, cost-6, evo055]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zknqNdwtDMrHbRpgKkBJw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: zknqNdwtDMrHbRpgKkBJw
 sets: [EVO]
+codes: [EVO055]
 ---
 
 **Terminator Tank (red)** — Mechanologist Action - Attack · cost 6 · 6 power · 3 defense

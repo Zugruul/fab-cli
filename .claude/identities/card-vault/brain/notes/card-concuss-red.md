@@ -1,5 +1,5 @@
 ---
-tags: [card, concuss, guardian, action, attack, pitch-1, cost-3]
+tags: [card, concuss, guardian, action, attack, pitch-1, cost-3, bet009, hvy074, ter010, vic009]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LFHpbg9HjJqrGt8jHNGHN) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: LFHpbg9HjJqrGt8jHNGHN
 sets: [BET, HVY, TER, VIC]
+codes: [BET009, HVY074, TER010, VIC009]
 ---
 
 **Concuss (red)** — Guardian Action - Attack · cost 3 · 6 power · 3 defense

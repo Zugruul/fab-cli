@@ -1,5 +1,5 @@
 ---
-tags: [card, scepter-of-pain, scepter, pain, runeblade, weapon, 1h]
+tags: [card, scepter-of-pain, scepter, pain, runeblade, weapon, 1h, dtd210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jktJDQ97DD6rnkQjhNdD8) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Weapon]
 subtypes: [Scepter, 1H]
 unique-id: jktJDQ97DD6rnkQjhNdD8
 sets: [DTD]
+codes: [DTD210]
 ---
 
 **Scepter of Pain** — Runeblade Weapon - Scepter (1H)

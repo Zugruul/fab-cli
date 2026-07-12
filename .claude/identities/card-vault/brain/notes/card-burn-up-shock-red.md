@@ -1,5 +1,5 @@
 ---
-tags: [card, burn-up-shock, burn, up, shock, runeblade, lightning, action, instant, go-again, meld, pitch-1, cost-0]
+tags: [card, burn-up-shock, burn, up, shock, runeblade, lightning, action, instant, go-again, meld, pitch-1, cost-0, ast017, aua017, lgs345, ros012, sba025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RmwkmHccFCW9T8HNbmBFq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action, Instant]
 keywords: [Go again, Meld]
 unique-id: RmwkmHccFCW9T8HNbmBFq
 sets: [AST, AUA, LGS, ROS, SBA]
+codes: [AST017, AUA017, LGS345, ROS012, SBA025]
 ---
 
 **Burn Up // Shock (red)** — Runeblade Action // Lightning Instant · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, machinations-of-dominion, machinations, dominion, runeblade, action, go-again, overpower, pitch-3, cost-0]
+tags: [card, machinations-of-dominion, machinations, dominion, runeblade, action, go-again, overpower, pitch-3, cost-0, ros118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M67DjmFprnQ9rpr6wjbtG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Overpower]
 unique-id: M67DjmFprnQ9rpr6wjbtG
 sets: [ROS]
+codes: [ROS118]
 ---
 
 **Machinations of Dominion (blue)** — Runeblade Action · cost 0 · 3 defense

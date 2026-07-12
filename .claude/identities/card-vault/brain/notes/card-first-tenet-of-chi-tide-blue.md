@@ -1,5 +1,5 @@
 ---
-tags: [card, first-tenet-of-chi-tide, first, tenet, chi, tide, mystic, action, go-again, pitch-3, cost-0]
+tags: [card, first-tenet-of-chi-tide, first, tenet, chi, tide, mystic, action, go-again, pitch-3, cost-0, lgs296, mst093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rtLfTrnFcDBQhtbFprGRD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rtLfTrnFcDBQhtbFprGRD
 sets: [LGS, MST]
+codes: [LGS296, MST093]
 ---
 
 **First Tenet of Chi: Tide (blue)** — Mystic Action · cost 0 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, gore-belching, gore, belching, generic, action, attack, pitch-1, cost-0]
+tags: [card, gore-belching, gore, belching, generic, action, attack, pitch-1, cost-0, out186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mJbdJCLQD9jgQRMPjBrLB) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: mJbdJCLQD9jgQRMPjBrLB
 sets: [OUT]
+codes: [OUT186]
 ---
 
 **Gore Belching (red)** — Generic Action - Attack · cost 0 · 7 power

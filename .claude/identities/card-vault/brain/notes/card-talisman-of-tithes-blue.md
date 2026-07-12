@@ -1,5 +1,5 @@
 ---
-tags: [card, talisman-of-tithes, talisman, tithes, generic, action, item, go-again, pitch-3, cost-0]
+tags: [card, talisman-of-tithes, talisman, tithes, generic, action, item, go-again, pitch-3, cost-0, evr192]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zhgmgL9kJnkNLdL9LK6kn) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: zhgmgL9kJnkNLdL9LK6kn
 sets: [EVR]
+codes: [EVR192]
 ---
 
 **Talisman of Tithes (blue)** — Generic Action - Item · cost 0

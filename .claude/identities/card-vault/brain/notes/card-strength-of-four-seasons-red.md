@@ -1,5 +1,5 @@
 ---
-tags: [card, strength-of-four-seasons, strength, four, seasons, earth, action, attack, pitch-1, cost-2]
+tags: [card, strength-of-four-seasons, strength, four, seasons, earth, action, attack, pitch-1, cost-2, ros058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d9qKg6JJHbcknbg8zhpbM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: d9qKg6JJHbcknbg8zhpbM
 sets: [ROS]
+codes: [ROS058]
 ---
 
 **Strength of Four Seasons (red)** — Earth Action - Attack · cost 2 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-through-the-facade, cut, through, facade, generic, action, attack, pitch-1, cost-3]
+tags: [card, cut-through-the-facade, cut, through, facade, generic, action, attack, pitch-1, cost-3, anq013, ros216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fPzhqRh86kP9zhkBKdCjq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: fPzhqRh86kP9zhkBKdCjq
 sets: [ANQ, ROS]
+codes: [ANQ013, ROS216]
 ---
 
 **Cut Through the Facade (red)** — Generic Action - Attack · cost 3 · 7 power · 2 defense

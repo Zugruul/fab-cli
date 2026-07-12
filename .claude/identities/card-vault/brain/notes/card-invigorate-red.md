@@ -1,5 +1,5 @@
 ---
-tags: [card, invigorate, elemental, action, go-again, pitch-1, cost-0]
+tags: [card, invigorate, elemental, action, go-again, pitch-1, cost-0, ele103, lgs080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T8JWb9PmhhbtHkRwdPdMQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: T8JWb9PmhhbtHkRwdPdMQ
 sets: [ELE, LGS]
+codes: [ELE103, LGS080]
 ---
 
 **Invigorate (red)** — Elemental Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, riptide-lurker-of-the-deep, riptide, lurker, deep, ranger, hero, adult]
+tags: [card, riptide-lurker-of-the-deep, riptide, lurker, deep, ranger, hero, adult, gem033, her078, out091, win022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RNfgGmc8wHgBrmC6gkqBd) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Ranger]
 types: [Hero]
 unique-id: RNfgGmc8wHgBrmC6gkqBd
 sets: [GEM, HER, OUT, WIN]
+codes: [GEM033, HER078, OUT091, WIN022]
 ---
 
 **Riptide, Lurker of the Deep** — Ranger Hero · 38 health · 4 int

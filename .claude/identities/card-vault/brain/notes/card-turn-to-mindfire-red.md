@@ -1,5 +1,5 @@
 ---
-tags: [card, turn-to-mindfire, turn, mindfire, wizard, action, pitch-1, cost-2]
+tags: [card, turn-to-mindfire, turn, mindfire, wizard, action, pitch-1, cost-2, omn136, sbz017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JRHmPKJqfrMgNgJj6ngBt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: JRHmPKJqfrMgNgJj6ngBt
 sets: [OMN, SBZ]
+codes: [OMN136, SBZ017]
 ---
 
 **Turn to Mindfire (red)** — Wizard Action · cost 2 · 2 defense

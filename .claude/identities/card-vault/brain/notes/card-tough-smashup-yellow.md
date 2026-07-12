@@ -1,5 +1,5 @@
 ---
-tags: [card, tough-smashup, tough, smashup, action, attack, revered, clash, pitch-2, cost-3]
+tags: [card, tough-smashup, tough, smashup, action, attack, revered, clash, pitch-2, cost-3, sup047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jJhngckczLmdhGHBKPkrB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [Clash]
 unique-id: jJhngckczLmdhGHBKPkrB
 sets: [SUP]
+codes: [SUP047]
 ---
 
 **Tough Smashup (yellow)** — Revered Action - Attack · cost 3 · 6 power · 3 defense

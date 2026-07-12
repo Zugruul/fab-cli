@@ -1,5 +1,5 @@
 ---
-tags: [card, swiftstrike-bracers, swiftstrike, bracers, generic, equipment, arms]
+tags: [card, swiftstrike-bracers, swiftstrike, bracers, generic, equipment, arms, sba008, sea183]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 69mRCnm9t6Dcjkk9H8RhG) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: 69mRCnm9t6Dcjkk9H8RhG
 sets: [SBA, SEA]
+codes: [SBA008, SEA183]
 ---
 
 **Swiftstrike Bracers** — Generic Equipment - Arms · 0 defense

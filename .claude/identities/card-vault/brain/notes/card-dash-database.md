@@ -1,5 +1,5 @@
 ---
-tags: [card, dash-database, dash, database, mechanologist, hero, young]
+tags: [card, dash-database, dash, database, mechanologist, hero, young, evo002, her091, her097, pen337]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6TDqDNWfKfrz6G6jNrQQ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Mechanologist]
 types: [Hero]
 unique-id: N6TDqDNWfKfrz6G6jNrQQ
 sets: [EVO, HER, PEN]
+codes: [EVO002, HER091, HER097, PEN337]
 ---
 
 **Dash, Database** — Mechanologist Hero - Young · 18 health · 4 int

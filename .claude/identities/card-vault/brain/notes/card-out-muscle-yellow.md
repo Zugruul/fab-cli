@@ -1,5 +1,5 @@
 ---
-tags: [card, out-muscle, out, muscle, generic, action, attack, go-again, pitch-2, cost-3]
+tags: [card, out-muscle, out, muscle, generic, action, attack, go-again, pitch-2, cost-3, mon249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dRFbtRTF8qzzBwbqHkWtF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: dRFbtRTF8qzzBwbqHkWtF
 sets: [MON]
+codes: [MON249]
 ---
 
 **Out Muscle (yellow)** — Generic Action - Attack · cost 3 · 5 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, encase, wizard, elemental, action, ice-fusion, freeze, pitch-1, cost-0]
+tags: [card, encase, wizard, elemental, action, ice-fusion, freeze, pitch-1, cost-0, upr104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzMtpNHjPcPNCFFkrR9QJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Ice Fusion, Freeze]
 unique-id: dzMtpNHjPcPNCFFkrR9QJ
 sets: [UPR]
+codes: [UPR104]
 ---
 
 **Encase (red)** — Elemental Wizard Action · cost 0 · 3 defense

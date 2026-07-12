@@ -1,5 +1,5 @@
 ---
-tags: [card, fabric-of-spring, fabric, spring, generic, action, construct, legendary, negate, pitch-2, cost-0]
+tags: [card, fabric-of-spring, fabric, spring, generic, action, construct, legendary, negate, pitch-2, cost-0, lss011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NTnphGB9GCpfrLRQRcNbj) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Construct]
 keywords: [Legendary, Negate]
 unique-id: NTnphGB9GCpfrLRQRcNbj
 sets: [LSS]
+codes: [LSS011]
 ---
 
 **Fabric of Spring (yellow)** — Generic Action - Construct · cost 0 · 2 defense

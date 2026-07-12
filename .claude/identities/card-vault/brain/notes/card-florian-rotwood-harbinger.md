@@ -1,5 +1,5 @@
 ---
-tags: [card, florian-rotwood-harbinger, florian, rotwood, harbinger, runeblade, elemental, hero, adult, essence-of-earth]
+tags: [card, florian-rotwood-harbinger, florian, rotwood, harbinger, runeblade, elemental, hero, adult, essence-of-earth, her119, her158, ros001, win036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hjMQGwKgDTh8LzFdnk8Rg) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth]
 unique-id: hjMQGwKgDTh8LzFdnk8Rg
 sets: [HER, ROS, WIN]
+codes: [HER119, HER158, ROS001, WIN036]
 ---
 
 **Florian, Rotwood Harbinger** — Elemental Runeblade Hero · 40 health · 4 int

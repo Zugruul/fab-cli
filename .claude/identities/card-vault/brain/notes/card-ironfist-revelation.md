@@ -1,5 +1,5 @@
 ---
-tags: [card, ironfist-revelation, ironfist, revelation, guardian, equipment, arms, temper]
+tags: [card, ironfist-revelation, ironfist, revelation, guardian, equipment, arms, temper, sup168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mPjzJQcPgCcjqgqjCPzLH) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Temper]
 unique-id: mPjzJQcPgCcjqgqjCPzLH
 sets: [SUP]
+codes: [SUP168]
 ---
 
 **Ironfist Revelation** — Guardian Equipment - Arms · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tome-of-torment, tome, torment, shadow, action, blood-debt, pitch-1, cost-0]
+tags: [card, tome-of-torment, tome, torment, shadow, action, blood-debt, pitch-1, cost-0, mon194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9pjp9qfKHnzCCpjwhTPFK) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 keywords: [Blood Debt]
 unique-id: 9pjp9qfKHnzCCpjwhTPFK
 sets: [MON]
+codes: [MON194]
 ---
 
 **Tome of Torment (red)** — Shadow Action · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-triumph, figment, triumph, illusionist, light, instant, legendary, pitch-2, cost-4]
+tags: [card, figment-of-triumph, figment, triumph, illusionist, light, instant, legendary, pitch-2, cost-4, dtd011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zcGjRmHTgMkN7Fwzhkkp6) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary]
 unique-id: zcGjRmHTgMkN7Fwzhkkp6
 sets: [DTD]
+codes: [DTD011]
 ---
 
 **Figment of Triumph (yellow)** — Light Illusionist Instant - Figment · cost 4

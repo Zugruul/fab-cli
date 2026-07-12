@@ -1,5 +1,5 @@
 ---
-tags: [card, anthem-of-spring, anthem, spring, earth, action, briar-specialization, unity, go-again, pitch-3, cost-0]
+tags: [card, anthem-of-spring, anthem, spring, earth, action, briar-specialization, unity, go-again, pitch-3, cost-0, dtd196]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJQMt6Lpf6D9JFQ8BW898) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Briar Specialization, Unity, Go again]
 unique-id: wJQMt6Lpf6D9JFQ8BW898
 sets: [DTD]
+codes: [DTD196]
 ---
 
 **Anthem of Spring (blue)** — Earth Action · cost 0 · 2 defense

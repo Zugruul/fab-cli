@@ -1,5 +1,5 @@
 ---
-tags: [card, winters-wail, winters, wail, guardian, elemental, weapon, hammer, 1h]
+tags: [card, winters-wail, winters, wail, guardian, elemental, weapon, hammer, 1h, ele003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pCdJMzmgBMD8Mt8qhM7nC) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Weapon]
 subtypes: [Hammer, 1H]
 unique-id: pCdJMzmgBMD8Mt8qhM7nC
 sets: [ELE]
+codes: [ELE003]
 ---
 
 **Winter's Wail** — Elemental Guardian Weapon - Hammer (1H) · 4 power

@@ -1,5 +1,5 @@
 ---
-tags: [card, seek-vengeance, seek, vengeance, ninja, action, attack, combo, go-again, pitch-3, cost-0]
+tags: [card, seek-vengeance, seek, vengeance, ninja, action, attack, combo, go-again, pitch-3, cost-0, asr022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GgTjfBKgfWdMRNRhCcPt7) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo, Go again]
 unique-id: GgTjfBKgfWdMRNRhCcPt7
 sets: [ASR]
+codes: [ASR022]
 ---
 
 **Seek Vengeance (blue)** — Ninja Action - Attack · cost 0 · 2 power · 3 defense

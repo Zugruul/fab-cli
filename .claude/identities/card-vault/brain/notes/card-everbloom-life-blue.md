@@ -1,5 +1,5 @@
 ---
-tags: [card, everbloom-life, everbloom, life, earth, action, instant, go-again, meld, pitch-3, cost-0]
+tags: [card, everbloom-life, everbloom, life, earth, action, instant, go-again, meld, pitch-3, cost-0, sea258]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nnQpNFFKqfMwJbRQ6brJ6) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action, Instant]
 keywords: [Go again, Meld]
 unique-id: nnQpNFFKqfMwJbRQ6brJ6
 sets: [SEA]
+codes: [SEA258]
 ---
 
 **Everbloom // Life (blue)** — Earth Action // Instant · cost 0 · 3 defense

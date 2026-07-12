@@ -1,5 +1,5 @@
 ---
-tags: [card, face-purgatory, face, purgatory, runeblade, equipment, head, blade-break]
+tags: [card, face-purgatory, face, purgatory, runeblade, equipment, head, blade-break, fab252, ros114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q8bMrFtWrMrdPC7KtGbFz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: Q8bMrFtWrMrdPC7KtGbFz
 sets: [FAB, ROS]
+codes: [FAB252, ROS114]
 ---
 
 **Face Purgatory** — Runeblade Equipment - Head · 2 defense

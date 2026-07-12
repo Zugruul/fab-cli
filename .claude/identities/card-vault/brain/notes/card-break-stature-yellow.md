@@ -1,5 +1,5 @@
 ---
-tags: [card, break-stature, break, stature, guardian, action, attack, crush, pitch-2, cost-5]
+tags: [card, break-stature, break, stature, guardian, action, attack, crush, pitch-2, cost-5, mpg014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GLqfqt8qLhgfwrM6rWckN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Crush]
 unique-id: GLqfqt8qLhgfwrM6rWckN
 sets: [MPG]
+codes: [MPG014]
 ---
 
 **Break Stature (yellow)** — Guardian Action - Attack · cost 5 · 8 power · 3 defense

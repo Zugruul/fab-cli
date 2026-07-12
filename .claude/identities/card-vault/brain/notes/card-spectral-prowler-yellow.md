@@ -1,5 +1,5 @@
 ---
-tags: [card, spectral-prowler, spectral, prowler, illusionist, action, attack, go-again, phantasm, pitch-2, cost-0]
+tags: [card, spectral-prowler, spectral, prowler, illusionist, action, attack, go-again, phantasm, pitch-2, cost-0, dyn225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pKQkqkQhCrTkJtgCHH768) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Phantasm]
 unique-id: pKQkqkQhCrTkJtgCHH768
 sets: [DYN]
+codes: [DYN225]
 ---
 
 **Spectral Prowler (yellow)** — Illusionist Action - Attack · cost 0 · 3 power · 3 defense

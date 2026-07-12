@@ -1,5 +1,5 @@
 ---
-tags: [card, run-roughshod, run, roughshod, brute, action, attack, pitch-3, cost-1]
+tags: [card, run-roughshod, run, roughshod, brute, action, attack, pitch-3, cost-1, ako024, gem162, ska030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WLNGdRBzRcLqzhdrMbDG8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: WLNGdRBzRcLqzhdrMbDG8
 sets: [AKO, GEM, SKA]
+codes: [AKO024, GEM162, SKA030]
 ---
 
 **Run Roughshod (blue)** — Brute Action - Attack · cost 1 · 5 power · 3 defense

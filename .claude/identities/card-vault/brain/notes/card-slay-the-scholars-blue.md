@@ -1,5 +1,5 @@
 ---
-tags: [card, slay-the-scholars, slay, scholars, assassin, action, attack, contract, pitch-3, cost-0]
+tags: [card, slay-the-scholars, slay, scholars, assassin, action, attack, contract, pitch-3, cost-0, dyn147]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Tp786HHGgNbgmp8NJDtRQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: Tp786HHGgNbgmp8NJDtRQ
 sets: [DYN]
+codes: [DYN147]
 ---
 
 **Slay the Scholars (blue)** — Assassin Action - Attack · cost 0 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, tentacular-toll, tentacular, toll, pirate, necromancer, action, go-again, pitch-2, cost-0]
+tags: [card, tentacular-toll, tentacular, toll, pirate, necromancer, action, go-again, pitch-2, cost-0, pen163]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D8Kkjdr8wPKPzcnbqJNnt) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: D8Kkjdr8wPKPzcnbqJNnt
 sets: [PEN]
+codes: [PEN163]
 ---
 
 **Tentacular Toll (yellow)** — Pirate Necromancer Action · cost 0 · 3 defense

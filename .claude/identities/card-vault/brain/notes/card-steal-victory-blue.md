@@ -1,5 +1,5 @@
 ---
-tags: [card, steal-victory, steal, victory, brute, block, reviled, pitch-3]
+tags: [card, steal-victory, steal, victory, brute, block, reviled, pitch-3, gem087, sup069]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GFNmBDr67mL9cbfjDdGf9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Steal]
 unique-id: GFNmBDr67mL9cbfjDdGf9
 sets: [GEM, SUP]
+codes: [GEM087, SUP069]
 ---
 
 **Steal Victory (blue)** — Reviled Brute Block · 3 defense

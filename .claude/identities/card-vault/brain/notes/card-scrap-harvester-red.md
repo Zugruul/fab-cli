@@ -1,5 +1,5 @@
 ---
-tags: [card, scrap-harvester, scrap, harvester, mechanologist, action, attack, pitch-1, cost-3]
+tags: [card, scrap-harvester, scrap, harvester, mechanologist, action, attack, pitch-1, cost-3, evo132]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BTh7CrHFccLPDQBzLccbw) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Scrap]
 unique-id: BTh7CrHFccLPDQBzLccbw
 sets: [EVO]
+codes: [EVO132]
 ---
 
 **Scrap Harvester (red)** — Mechanologist Action - Attack · cost 3 · 6 power · 3 defense

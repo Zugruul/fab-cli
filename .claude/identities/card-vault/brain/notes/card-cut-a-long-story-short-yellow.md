@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-a-long-story-short, cut, long, story, short, guardian, action, attack, tower, pitch-2, cost-0]
+tags: [card, cut-a-long-story-short, cut, long, story, short, guardian, action, attack, tower, pitch-2, cost-0, sup172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mhdJ9hGfrqrKPzgf687RG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Tower]
 unique-id: mhdJ9hGfrqrKPzgf687RG
 sets: [SUP]
+codes: [SUP172]
 ---
 
 **Cut a Long Story Short (yellow)** — Guardian Action - Attack · cost 0 · 3 power · 3 defense

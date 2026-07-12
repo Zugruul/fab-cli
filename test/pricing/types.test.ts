@@ -24,33 +24,28 @@ describe("pricing/types — CONDITION_COLUMNS", () => {
 });
 
 describe("pricing/types — type shapes (compile-time + basic runtime sanity)", () => {
-  it("accepts every PriceSource variant, incl. templated adjacent:<COL>", () => {
+  it("accepts every PriceSource variant (real-data-only: no market/adjacent)", () => {
     const sources: PriceSource[] = [
       "listing",
-      "market",
       "trend",
       "low",
       "avg30",
       "avg7",
       "avg1",
-      "adjacent:NM",
-      "adjacent:SP/LP",
-      "adjacent:MP",
-      "adjacent:HP",
     ];
-    expect(sources).toHaveLength(11);
+    expect(sources).toHaveLength(6);
   });
 
   it("builds a ConditionCell", () => {
-    const cell: ConditionCell = { price: 4.5, source: "market" };
+    const cell: ConditionCell = { price: 4.5, source: "low" };
     expect(cell.price).toBe(4.5);
-    expect(cell.source).toBe("market");
+    expect(cell.source).toBe("low");
   });
 
   it("builds ConditionPrices with all four columns, some null", () => {
     const prices: ConditionPrices = {
       NM: { price: 10, source: "listing" },
-      "SP/LP": { price: 8, source: "adjacent:NM" },
+      "SP/LP": { price: 8, source: "listing" },
       MP: null,
       HP: null,
     };

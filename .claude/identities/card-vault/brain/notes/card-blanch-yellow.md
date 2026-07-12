@@ -1,5 +1,5 @@
 ---
-tags: [card, blanch, generic, action, attack, pitch-2, cost-3]
+tags: [card, blanch, generic, action, attack, pitch-2, cost-3, mst195]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rNKN6PqmhhkTDLLhJmkGw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: rNKN6PqmhhkTDLLhJmkGw
 sets: [MST]
+codes: [MST195]
 ---
 
 **Blanch (yellow)** — Generic Action - Attack · cost 3 · 6 power · 2 defense

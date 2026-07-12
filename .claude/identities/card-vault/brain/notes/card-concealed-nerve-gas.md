@@ -1,5 +1,5 @@
 ---
-tags: [card, concealed-nerve-gas, concealed, nerve, gas, ranger, equipment, chest, trap, cloaked]
+tags: [card, concealed-nerve-gas, concealed, nerve, gas, ranger, equipment, chest, trap, cloaked, pen079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zNKcJKn8rMnzTNrm6jrQM) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest, Trap]
 keywords: [Cloaked]
 unique-id: zNKcJKn8rMnzTNrm6jrQM
 sets: [PEN]
+codes: [PEN079]
 ---
 
 **Concealed Nerve Gas** — Ranger Equipment - Chest Trap

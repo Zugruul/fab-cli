@@ -1,5 +1,5 @@
 ---
-tags: [card, condemn-to-slaughter, condemn, slaughter, runeblade, action, go-again, pitch-1, cost-1]
+tags: [card, condemn-to-slaughter, condemn, slaughter, runeblade, action, go-again, pitch-1, cost-1, avs013, ros127, svi020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mhDbfFjrccQgTtFbcBMkz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: mhDbfFjrccQgTtFbcBMkz
 sets: [AVS, ROS, SVI]
+codes: [AVS013, ROS127, SVI020]
 ---
 
 **Condemn to Slaughter (red)** — Runeblade Action · cost 1 · 3 defense

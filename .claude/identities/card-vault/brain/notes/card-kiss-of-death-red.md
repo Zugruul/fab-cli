@@ -1,5 +1,5 @@
 ---
-tags: [card, kiss-of-death, kiss, death, assassin, action, dagger, attack, stealth, pitch-1, cost-0]
+tags: [card, kiss-of-death, kiss, death, assassin, action, dagger, attack, stealth, pitch-1, cost-0, hnt012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rkRhTdHrdkwMhFwHnPGMk) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Dagger, Attack]
 keywords: [Stealth]
 unique-id: rkRhTdHrdkwMhFwHnPGMk
 sets: [HNT]
+codes: [HNT012]
 ---
 
 **Kiss of Death (red)** — Assassin Action - Dagger Attack · cost 0 · 3 power · 3 defense

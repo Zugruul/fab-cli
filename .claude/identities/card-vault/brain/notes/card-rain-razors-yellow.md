@@ -1,5 +1,5 @@
 ---
-tags: [card, rain-razors, rain, razors, ranger, instant, pitch-2, cost-0]
+tags: [card, rain-razors, rain, razors, ranger, instant, pitch-2, cost-0, evr090]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K7KgTFCHdGNnqTkJfPtTG) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Ranger]
 types: [Instant]
 unique-id: K7KgTFCHdGNnqTkJfPtTG
 sets: [EVR]
+codes: [EVR090]
 ---
 
 **Rain Razors (yellow)** — Ranger Instant · cost 0

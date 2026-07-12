@@ -1,5 +1,5 @@
 ---
-tags: [card, ghost-protocol-architect, ghost, protocol, architect, mechanologist, action, attack, evo-upgrade, pitch-1, cost-0]
+tags: [card, ghost-protocol-architect, ghost, protocol, architect, mechanologist, action, attack, evo-upgrade, pitch-1, cost-0, lgs444, pen062]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7qQ8nJLhDkq7b78HKHgHQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Evo Upgrade]
 unique-id: 7qQ8nJLhDkq7b78HKHgHQ
 sets: [LGS, PEN]
+codes: [LGS444, PEN062]
 ---
 
 **Ghost Protocol: Architect (red)** — Mechanologist Action - Attack · cost 0 · 1 power · 3 defense

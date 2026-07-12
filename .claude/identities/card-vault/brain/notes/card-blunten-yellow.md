@@ -1,5 +1,5 @@
 ---
-tags: [card, blunten, warrior, block, pitch-2]
+tags: [card, blunten, warrior, block, pitch-2, pen049]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHPQfjcCgDTBLmWrNKGbR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Warrior]
 types: [Block]
 unique-id: RHPQfjcCgDTBLmWrNKGbR
 sets: [PEN]
+codes: [PEN049]
 ---
 
 **Blunten (yellow)** — Warrior Block · 2 defense

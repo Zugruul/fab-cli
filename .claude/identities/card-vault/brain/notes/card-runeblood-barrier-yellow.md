@@ -1,5 +1,5 @@
 ---
-tags: [card, runeblood-barrier, runeblood, barrier, runeblade, action, aura, pitch-2, cost-3]
+tags: [card, runeblood-barrier, runeblood, barrier, runeblade, action, aura, pitch-2, cost-3, 1hp269, cru144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NNF6jp7QzRTLGJwdK7Cdz) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: NNF6jp7QzRTLGJwdK7Cdz
 sets: [1HP, CRU]
+codes: [1HP269, CRU144]
 ---
 
 **Runeblood Barrier (yellow)** — Runeblade Action - Aura · cost 3 · 2 defense

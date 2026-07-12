@@ -1,5 +1,5 @@
 ---
-tags: [card, kayo, brute, hero, young]
+tags: [card, kayo, brute, hero, young, hvy002, kyo001, ska001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HhFFJJRzq78LdNWPJP88t) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Brute]
 types: [Hero]
 unique-id: HhFFJJRzq78LdNWPJP88t
 sets: [HVY, KYO, SKA]
+codes: [HVY002, KYO001, SKA001]
 ---
 
 **Kayo** — Brute Hero - Young · 20 health · 4 int

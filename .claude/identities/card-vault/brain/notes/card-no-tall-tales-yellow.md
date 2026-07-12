@@ -1,5 +1,5 @@
 ---
-tags: [card, no-tall-tales, no, tall, tales, guardian, action, attack, tower, pitch-2, cost-0]
+tags: [card, no-tall-tales, no, tall, tales, guardian, action, attack, tower, pitch-2, cost-0, sup170]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kJDpLCpqNQ6wCC8g9nFHB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Tower]
 unique-id: kJDpLCpqNQ6wCC8g9nFHB
 sets: [SUP]
+codes: [SUP170]
 ---
 
 **No Tall Tales (yellow)** — Guardian Action - Attack · cost 0 · 3 power · 3 defense

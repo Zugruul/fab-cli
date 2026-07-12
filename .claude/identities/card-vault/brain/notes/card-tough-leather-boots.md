@@ -1,5 +1,5 @@
 ---
-tags: [card, tough-leather-boots, tough, leather, boots, brute, equipment, legs, revered, blade-break]
+tags: [card, tough-leather-boots, tough, leather, boots, brute, equipment, legs, revered, blade-break, sup003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BPkPddj9wRpjhfhWcb6bw) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Revered]
 keywords: [Blade Break]
 unique-id: BPkPddj9wRpjhfhWcb6bw
 sets: [SUP]
+codes: [SUP003]
 ---
 
 **Tough Leather Boots** — Revered Brute Equipment - Legs · 1 defense

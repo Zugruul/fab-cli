@@ -1,5 +1,5 @@
 ---
-tags: [card, prism-advent-of-thrones, prism, advent, thrones, illusionist, light, hero, young]
+tags: [card, prism-advent-of-thrones, prism, advent, thrones, illusionist, light, hero, young, dtd002, her084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dhbhdcr8CB6ngRrf9GTgm) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Light]
 types: [Hero]
 unique-id: dhbhdcr8CB6ngRrf9GTgm
 sets: [DTD, HER]
+codes: [DTD002, HER084]
 ---
 
 **Prism, Advent of Thrones** — Light Illusionist Hero - Young · 16 health · 4 int

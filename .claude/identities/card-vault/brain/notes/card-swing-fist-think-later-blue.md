@@ -1,5 +1,5 @@
 ---
-tags: [card, swing-fist-think-later, swing, fist, think, later, brute, action, attack, go-again, pitch-3, cost-1]
+tags: [card, swing-fist-think-later, swing, fist, think, later, brute, action, attack, go-again, pitch-3, cost-1, cru021]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtFNN8f6NTbJtkPNGMmfJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: FtFNN8f6NTbJtkPNGMmfJ
 sets: [CRU]
+codes: [CRU021]
 ---
 
 **Swing Fist, Think Later (blue)** — Brute Action - Attack · cost 1 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, destructive-aethertide, destructive, aethertide, wizard, action, surge, pitch-3, cost-0]
+tags: [card, destructive-aethertide, destructive, aethertide, wizard, action, surge, pitch-3, cost-0, ros166]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B9gmDwNBCkqFHpWgJBmhq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Surge]
 unique-id: B9gmDwNBCkqFHpWgJBmhq
 sets: [ROS]
+codes: [ROS166]
 ---
 
 **Destructive Aethertide (blue)** — Wizard Action · cost 0 · 3 defense

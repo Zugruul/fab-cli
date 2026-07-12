@@ -1,5 +1,5 @@
 ---
-tags: [card, undercover-acquisition, undercover, acquisition, assassin, action, attack, stealth, steal, pitch-1, cost-0]
+tags: [card, undercover-acquisition, undercover, acquisition, assassin, action, attack, stealth, steal, pitch-1, cost-0, aac018, sea249]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnMQ8tr9B76DfQQNT6gKb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Steal]
 unique-id: PnMQ8tr9B76DfQQNT6gKb
 sets: [AAC, SEA]
+codes: [AAC018, SEA249]
 ---
 
 **Undercover Acquisition (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, earthlore-empowerment, earthlore, empowerment, guardian, action, aura, pitch-1, cost-3]
+tags: [card, earthlore-empowerment, earthlore, empowerment, guardian, action, aura, pitch-1, cost-3, tcc038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pMKqgFjgdR8rmMKpdjP7q) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: pMKqgFjgdR8rmMKpdjP7q
 sets: [TCC]
+codes: [TCC038]
 ---
 
 **Earthlore Empowerment (red)** — Guardian Action - Aura · cost 3 · 3 defense

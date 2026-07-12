@@ -1,5 +1,5 @@
 ---
-tags: [card, voltic-vanguard, voltic, vanguard, lightning, equipment, head]
+tags: [card, voltic-vanguard, voltic, vanguard, lightning, equipment, head, pen240]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WKpW6KJR9RhPrTwj6Gwcw) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: WKpW6KJR9RhPrTwj6Gwcw
 sets: [PEN]
+codes: [PEN240]
 ---
 
 **Voltic Vanguard** — Lightning Equipment - Head · 0 defense

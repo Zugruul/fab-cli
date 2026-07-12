@@ -1,5 +1,5 @@
 ---
-tags: [card, spike-with-bloodrot, spike, bloodrot, assassin, attack-reaction, pitch-1, cost-1]
+tags: [card, spike-with-bloodrot, spike, bloodrot, assassin, attack-reaction, pitch-1, cost-1, aac020, ara018, fab324, lgs130, out021, sar020]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c6tgbGMBbR77gJWhJCzhh) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Assassin]
 types: [Attack Reaction]
 unique-id: c6tgbGMBbR77gJWhJCzhh
 sets: [AAC, ARA, FAB, LGS, OUT, SAR]
+codes: [AAC020, ARA018, FAB324, LGS130, OUT021, SAR020]
 ---
 
 **Spike with Bloodrot (red)** — Assassin Attack Reaction · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, beckon-steel, beckon, steel, warrior, attack-reaction, sharpen, attack, pitch-3, cost-0]
+tags: [card, beckon-steel, beckon, steel, warrior, attack-reaction, sharpen, attack, pitch-3, cost-0, omn238]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6zdg7pmncFthJQtLB79Jc) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Sharpen, Attack]
 unique-id: 6zdg7pmncFthJQtLB79Jc
 sets: [OMN]
+codes: [OMN238]
 ---
 
 **Beckon Steel (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

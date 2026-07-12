@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodrot-trap, bloodrot, trap, assassin, ranger, defense-reaction, pitch-1, cost-0]
+tags: [card, bloodrot-trap, bloodrot, trap, assassin, ranger, defense-reaction, pitch-1, cost-0, ara019, out171, rip008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MrtrMDKjt868mrrb9cjJW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 subtypes: [Trap]
 unique-id: MrtrMDKjt868mrrb9cjJW
 sets: [ARA, OUT, RIP]
+codes: [ARA019, OUT171, RIP008]
 ---
 
 **Bloodrot Trap (red)** — Assassin / Ranger Defense Reaction - Trap · cost 0 · 3 defense

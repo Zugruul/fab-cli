@@ -1,5 +1,5 @@
 ---
-tags: [card, hyper-driver, hyper, driver, mechanologist, action, item, pitch-3, cost-1]
+tags: [card, hyper-driver, hyper, driver, mechanologist, action, item, pitch-3, cost-1, amx027, dyn112]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid chD7n8jHMM6brNhDGJtfG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Action]
 subtypes: [Item]
 unique-id: chD7n8jHMM6brNhDGJtfG
 sets: [AMX, DYN]
+codes: [AMX027, DYN112]
 ---
 
 **Hyper Driver (blue)** — Mechanologist Action - Item · cost 1

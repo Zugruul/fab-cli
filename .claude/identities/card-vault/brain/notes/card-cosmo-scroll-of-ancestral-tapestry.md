@@ -1,5 +1,5 @@
 ---
-tags: [card, cosmo-scroll-of-ancestral-tapestry, cosmo, scroll, ancestral, tapestry, illusionist, weapon, 2h, go-again]
+tags: [card, cosmo-scroll-of-ancestral-tapestry, cosmo, scroll, ancestral, tapestry, illusionist, weapon, 2h, go-again, eng002, lgs291, lgs298, mst130, sen002]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zMC89pqnzTP7bkmfjmTzQ) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Scroll, 2H]
 keywords: [Go again]
 unique-id: zMC89pqnzTP7bkmfjmTzQ
 sets: [ENG, LGS, MST, SEN]
+codes: [ENG002, LGS291, LGS298, MST130, SEN002]
 ---
 
 **Cosmo, Scroll of Ancestral Tapestry** — Illusionist Weapon - Scroll (2H)

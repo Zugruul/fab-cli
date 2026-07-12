@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-occult, blessing, occult, runeblade, action, aura, pitch-2, cost-1]
+tags: [card, blessing-of-occult, blessing, occult, runeblade, action, aura, pitch-2, cost-1, dyn180]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ncDWFWLcMDM9ngWMWpJtr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: ncDWFWLcMDM9ngWMWpJtr
 sets: [DYN]
+codes: [DYN180]
 ---
 
 **Blessing of Occult (yellow)** — Runeblade Action - Aura · cost 1 · 2 defense

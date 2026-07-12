@@ -1,5 +1,5 @@
 ---
-tags: [card, pound-for-pound, pound, generic, action, attack, dominate, pitch-3, cost-3]
+tags: [card, pound-for-pound, pound, generic, action, attack, dominate, pitch-3, cost-3, mon280]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HGLJL8mtz7JNN9djNW68Q) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Dominate]
 unique-id: HGLJL8mtz7JNN9djNW68Q
 sets: [MON]
+codes: [MON280]
 ---
 
 **Pound for Pound (blue)** — Generic Action - Attack · cost 3 · 4 power · 2 defense

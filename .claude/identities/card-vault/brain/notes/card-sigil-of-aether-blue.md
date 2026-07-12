@@ -1,5 +1,5 @@
 ---
-tags: [card, sigil-of-aether, sigil, aether, wizard, instant, aura, amp-1, pitch-3, cost-0]
+tags: [card, sigil-of-aether, sigil, aether, wizard, instant, aura, amp-1, pitch-3, cost-0, lgs366, ros168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRCmqmDrDLdDwnc9Td6j7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Aura]
 keywords: [Amp 1]
 unique-id: zRCmqmDrDLdDwnc9Td6j7
 sets: [LGS, ROS]
+codes: [LGS366, ROS168]
 ---
 
 **Sigil of Aether (blue)** — Wizard Instant - Aura · cost 0

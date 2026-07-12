@@ -1,5 +1,5 @@
 ---
-tags: [card, slap-happy, slap, happy, guardian, warrior, instant, pitch-1, cost-0]
+tags: [card, slap-happy, slap, happy, guardian, warrior, instant, pitch-1, cost-0, hvy180, lgs257]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6JWDWhqwDrdDPnGfqMQQR) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Guardian, Warrior]
 types: [Instant]
 unique-id: 6JWDWhqwDrdDPnGfqMQQR
 sets: [HVY, LGS]
+codes: [HVY180, LGS257]
 ---
 
 **Slap-Happy (red)** — Guardian / Warrior Instant · cost 0

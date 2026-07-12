@@ -1,5 +1,5 @@
 ---
-tags: [card, light-it-up, light, it, up, ranger, elemental, action, arrow, attack, lexi-specialization, lightning-fusion, pitch-2, cost-1]
+tags: [card, light-it-up, light, it, up, ranger, elemental, action, arrow, attack, lexi-specialization, lightning-fusion, pitch-2, cost-1, ele036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7hLgJ6QwzWmFrG8phh9qb) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Arrow, Attack]
 keywords: [Lexi Specialization, Lightning Fusion]
 unique-id: 7hLgJ6QwzWmFrG8phh9qb
 sets: [ELE]
+codes: [ELE036]
 ---
 
 **Light it Up (yellow)** — Elemental Ranger Action - Arrow Attack · cost 1 · 4 power · 3 defense

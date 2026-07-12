@@ -1,5 +1,5 @@
 ---
-tags: [card, drone-of-brutality, drone, brutality, generic, action, attack, pitch-2, cost-2]
+tags: [card, drone-of-brutality, drone, brutality, generic, action, attack, pitch-2, cost-2, wtr165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nhmj8MBNCmWFC68JkhkNC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: Nhmj8MBNCmWFC68JkhkNC
 sets: [WTR]
+codes: [WTR165]
 ---
 
 **Drone of Brutality (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

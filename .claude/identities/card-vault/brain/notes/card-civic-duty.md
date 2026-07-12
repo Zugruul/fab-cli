@@ -1,5 +1,5 @@
 ---
-tags: [card, civic-duty, civic, duty, guardian, equipment, chest, temper]
+tags: [card, civic-duty, civic, duty, guardian, equipment, chest, temper, lgs208, tcc031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TwcL67rLrL9CfqgFdPF9t) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: TwcL67rLrL9CfqgFdPF9t
 sets: [LGS, TCC]
+codes: [LGS208, TCC031]
 ---
 
 **Civic Duty** — Guardian Equipment - Chest · 2 defense

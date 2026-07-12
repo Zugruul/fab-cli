@@ -1,5 +1,5 @@
 ---
-tags: [card, tomeltai, illusionist, draconic, dragon, ally]
+tags: [card, tomeltai, illusionist, draconic, dragon, ally, upr007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JQqp6Ctw7QMLRDMgTnW6g) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Draconic, Illusionist, Dragon, Ally]
 other-types: [Dragon, Ally]
 unique-id: JQqp6Ctw7QMLRDMgTnW6g
 sets: [UPR]
+codes: [UPR007]
 ---
 
 **Tomeltai** — Draconic Illusionist - Dragon Ally · 5 power · 5 health

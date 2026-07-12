@@ -1,5 +1,5 @@
 ---
-tags: [card, soul-shield, soul, shield, light, defense-reaction, pitch-2, cost-2]
+tags: [card, soul-shield, soul, shield, light, defense-reaction, pitch-2, cost-2, apr015, mon063]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BczHzGkDc8h997tK8RrbQ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Light]
 types: [Defense Reaction]
 unique-id: BczHzGkDc8h997tK8RrbQ
 sets: [APR, MON]
+codes: [APR015, MON063]
 ---
 
 **Soul Shield (yellow)** — Light Defense Reaction · cost 2 · 6 defense

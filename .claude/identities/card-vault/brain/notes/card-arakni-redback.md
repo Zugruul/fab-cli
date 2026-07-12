@@ -1,5 +1,5 @@
 ---
-tags: [card, arakni-redback, arakni, redback, assassin, chaos, demi-hero, go-again]
+tags: [card, arakni-redback, arakni, redback, assassin, chaos, demi-hero, go-again, hnt006, lgs379, sar037, wod030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dhHz8JT9mMD79KJqNWNnB) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ keywords: [Go again]
 traits: [Agent of Chaos]
 unique-id: dhHz8JT9mMD79KJqNWNnB
 sets: [HNT, LGS, SAR, WOD]
+codes: [HNT006, LGS379, SAR037, WOD030]
 ---
 
 **Arakni, Redback** — Chaos Assassin Demi-Hero · * health · 4 int

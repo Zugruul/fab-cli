@@ -1,5 +1,5 @@
 ---
-tags: [card, glacial-footsteps, glacial, footsteps, guardian, elemental, action, attack, ice-fusion, dominate, pitch-2, cost-6]
+tags: [card, glacial-footsteps, glacial, footsteps, guardian, elemental, action, attack, ice-fusion, dominate, pitch-2, cost-6, ele017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gc8brnt6KtTr7wf9hfjrF) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Ice Fusion, Dominate]
 unique-id: gc8brnt6KtTr7wf9hfjrF
 sets: [ELE]
+codes: [ELE017]
 ---
 
 **Glacial Footsteps (yellow)** — Elemental Guardian Action - Attack · cost 6 · 9 power · 3 defense

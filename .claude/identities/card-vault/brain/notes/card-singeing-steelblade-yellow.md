@@ -1,5 +1,5 @@
 ---
-tags: [card, singeing-steelblade, singeing, steelblade, runeblade, action, attack, pitch-2, cost-1]
+tags: [card, singeing-steelblade, singeing, steelblade, runeblade, action, attack, pitch-2, cost-1, ele231]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HQkFFfDPwngtdD6LwK7gC) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: HQkFFfDPwngtdD6LwK7gC
 sets: [ELE]
+codes: [ELE231]
 ---
 
 **Singeing Steelblade (yellow)** — Runeblade Action - Attack · cost 1 · 3 power · 3 defense

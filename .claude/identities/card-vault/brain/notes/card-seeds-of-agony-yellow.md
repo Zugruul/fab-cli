@@ -1,5 +1,5 @@
 ---
-tags: [card, seeds-of-agony, seeds, agony, runeblade, shadow, action, go-again, blood-debt, pitch-2, cost-0]
+tags: [card, seeds-of-agony, seeds, agony, runeblade, shadow, action, go-again, blood-debt, pitch-2, cost-0, chn016, mon184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g9ckPjGmpNNkmbgChTQNR) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again, Blood Debt]
 unique-id: g9ckPjGmpNNkmbgChTQNR
 sets: [CHN, MON]
+codes: [CHN016, MON184]
 ---
 
 **Seeds of Agony (yellow)** — Shadow Runeblade Action · cost 0 · 2 defense

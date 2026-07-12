@@ -1,5 +1,5 @@
 ---
-tags: [card, flamescale-furnace, flamescale, furnace, draconic, equipment, chest, temper]
+tags: [card, flamescale-furnace, flamescale, furnace, draconic, equipment, chest, temper, fab087, upr084]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fg6Mc9mLLBCDFdrTpTpTB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: Fg6Mc9mLLBCDFdrTpTpTB
 sets: [FAB, UPR]
+codes: [FAB087, UPR084]
 ---
 
 **Flamescale Furnace** — Draconic Equipment - Chest · 2 defense

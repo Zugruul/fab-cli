@@ -1,5 +1,5 @@
 ---
-tags: [card, painful-passage, painful, passage, runeblade, shadow, action, go-again, pitch-1, cost-0]
+tags: [card, painful-passage, painful, passage, runeblade, shadow, action, go-again, pitch-1, cost-0, sup269]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNMR9pM9djfm8m9FHdmRb) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: hNMR9pM9djfm8m9FHdmRb
 sets: [SUP]
+codes: [SUP269]
 ---
 
 **Painful Passage (red)** — Shadow Runeblade Action · cost 0 · 3 defense

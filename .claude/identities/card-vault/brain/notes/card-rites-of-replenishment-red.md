@@ -1,5 +1,5 @@
 ---
-tags: [card, rites-of-replenishment, rites, replenishment, runeblade, elemental, action, attack, earth-fusion, pitch-1, cost-2]
+tags: [card, rites-of-replenishment, rites, replenishment, runeblade, elemental, action, attack, earth-fusion, pitch-1, cost-2, bri010, ele079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qTbnWfWzCJMrcf8BqjNqg) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: qTbnWfWzCJMrcf8BqjNqg
 sets: [BRI, ELE]
+codes: [BRI010, ELE079]
 ---
 
 **Rites of Replenishment (red)** — Elemental Runeblade Action - Attack · cost 2 · 6 power · 3 defense

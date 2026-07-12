@@ -1,5 +1,5 @@
 ---
-tags: [card, edge-ahead, edge, ahead, warrior, action, go-again, wager, pitch-1, cost-1]
+tags: [card, edge-ahead, edge, ahead, warrior, action, go-again, wager, pitch-1, cost-1, hvy124, ola015]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid J8WjCNLBmFtppjBfWqjtW) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Wager]
 unique-id: J8WjCNLBmFtppjBfWqjtW
 sets: [HVY, OLA]
+codes: [HVY124, OLA015]
 ---
 
 **Edge Ahead (red)** — Warrior Action · cost 1 · 3 defense

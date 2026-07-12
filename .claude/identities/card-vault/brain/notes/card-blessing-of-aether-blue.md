@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-aether, blessing, aether, wizard, action, aura, pitch-3, cost-1]
+tags: [card, blessing-of-aether, blessing, aether, wizard, action, aura, pitch-3, cost-1, dyn202, lgs118]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T8NmK9Tfdr6dJgG6DgQzG) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: T8NmK9Tfdr6dJgG6DgQzG
 sets: [DYN, LGS]
+codes: [DYN202, LGS118]
 ---
 
 **Blessing of Aether (blue)** — Wizard Action - Aura · cost 1 · 2 defense

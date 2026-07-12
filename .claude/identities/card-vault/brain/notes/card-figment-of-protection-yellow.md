@@ -1,5 +1,5 @@
 ---
-tags: [card, figment-of-protection, figment, protection, illusionist, light, instant, legendary, pitch-2, cost-4]
+tags: [card, figment-of-protection, figment, protection, illusionist, light, instant, legendary, pitch-2, cost-4, dtd007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FhzPFCDrDhK8QbjFRfHLk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Figment]
 keywords: [Legendary]
 unique-id: FhzPFCDrDhK8QbjFRfHLk
 sets: [DTD]
+codes: [DTD007]
 ---
 
 **Figment of Protection (yellow)** — Light Illusionist Instant - Figment · cost 4

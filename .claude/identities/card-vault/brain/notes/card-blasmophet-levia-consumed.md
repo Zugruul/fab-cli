@@ -1,5 +1,5 @@
 ---
-tags: [card, blasmophet-levia-consumed, blasmophet, levia, consumed, shadow, demi-hero, demon, legendary, levia-specialization, transform]
+tags: [card, blasmophet-levia-consumed, blasmophet, levia, consumed, shadow, demi-hero, demon, legendary, levia-specialization, transform, dtd164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dbrfzmNJ9ccB9CW68pmQp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Demon]
 keywords: [Legendary, Levia Specialization, Transform]
 unique-id: dbrfzmNJ9ccB9CW68pmQp
 sets: [DTD]
+codes: [DTD164]
 ---
 
 **Blasmophet, Levia Consumed** — Shadow Demi-Hero - Demon · 13 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, silverwind-shuriken, silverwind, shuriken, ninja, action, item, attack-reaction, pitch-3, cost-0]
+tags: [card, silverwind-shuriken, silverwind, shuriken, ninja, action, item, attack-reaction, pitch-3, cost-0, out054]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JthBWKRDhpngQP6FcKtRR) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Shuriken, Item]
 keywords: [Attack Reaction]
 unique-id: JthBWKRDhpngQP6FcKtRR
 sets: [OUT]
+codes: [OUT054]
 ---
 
 **Silverwind Shuriken (blue)** — Ninja Action - Shuriken Item · cost 0

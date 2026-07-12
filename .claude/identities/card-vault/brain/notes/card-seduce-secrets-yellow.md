@@ -1,5 +1,5 @@
 ---
-tags: [card, seduce-secrets, seduce, secrets, generic, instant, pitch-2, cost-0]
+tags: [card, seduce-secrets, seduce, secrets, generic, instant, pitch-2, cost-0, anq027, hvy212]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wnz6M6QrJktmmcPLgpbr) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: 9wnz6M6QrJktmmcPLgpbr
 sets: [ANQ, HVY]
+codes: [ANQ027, HVY212]
 ---
 
 **Seduce Secrets (yellow)** — Generic Instant · cost 0

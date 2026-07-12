@@ -1,5 +1,5 @@
 ---
-tags: [card, defang-the-dragon, defang, dragon, assassin, action, attack, stealth, contract, pitch-1, cost-0]
+tags: [card, defang-the-dragon, defang, dragon, assassin, action, attack, stealth, contract, pitch-1, cost-0, hnt030]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WtHNCTfp87TNpG7jLRKFR) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Contract]
 unique-id: WtHNCTfp87TNpG7jLRKFR
 sets: [HNT]
+codes: [HNT030]
 ---
 
 **Defang the Dragon (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

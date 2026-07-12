@@ -1,5 +1,5 @@
 ---
-tags: [card, dynastic-diadem, dynastic, diadem, draconic, equipment, head, temper]
+tags: [card, dynastic-diadem, dynastic, diadem, draconic, equipment, head, temper, pen252]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HPN7nhMQcqfdzzkQh6TjB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Temper]
 unique-id: HPN7nhMQcqfdzzkQh6TjB
 sets: [PEN]
+codes: [PEN252]
 ---
 
 **Dynastic Diadem** — Draconic Equipment - Head · 1 defense

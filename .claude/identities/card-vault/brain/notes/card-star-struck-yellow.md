@@ -1,5 +1,5 @@
 ---
-tags: [card, star-struck, star, struck, guardian, action, attack, bravo-specialization, crush, unity, pitch-2, cost-7]
+tags: [card, star-struck, star, struck, guardian, action, attack, bravo-specialization, crush, unity, pitch-2, cost-7, dtd203]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zzHRCMBmNTF9KpJMqKWq8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Bravo Specialization, Crush, Unity]
 unique-id: zzHRCMBmNTF9KpJMqKWq8
 sets: [DTD]
+codes: [DTD203]
 ---
 
 **Star Struck (yellow)** — Guardian Action - Attack · cost 7 · 10 power · 3 defense

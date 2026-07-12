@@ -1,5 +1,5 @@
 ---
-tags: [card, authority-of-ataya, authority, ataya, generic, resource, gem, legendary, pitch-3]
+tags: [card, authority-of-ataya, authority, ataya, generic, resource, gem, legendary, pitch-3, sup000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wkg8Fp6Wg7Cnb8rzHGqFh) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: Wkg8Fp6Wg7Cnb8rzHGqFh
 sets: [SUP]
+codes: [SUP000]
 ---
 
 **Authority of Ataya (blue)** — Generic Resource - Gem

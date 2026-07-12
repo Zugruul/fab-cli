@@ -1,5 +1,5 @@
 ---
-tags: [card, spring-load, spring, load, generic, action, attack, pitch-1, cost-1]
+tags: [card, spring-load, spring, load, generic, action, attack, pitch-1, cost-1, ara015, ben012, out219]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tnnFttPCJmktbfMWcNLbT) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: tnnFttPCJmktbfMWcNLbT
 sets: [ARA, BEN, OUT]
+codes: [ARA015, BEN012, OUT219]
 ---
 
 **Spring Load (red)** — Generic Action - Attack · cost 1 · 2 power · 2 defense

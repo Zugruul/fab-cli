@@ -1,5 +1,5 @@
 ---
-tags: [card, creep, assassin, action, attack, stealth, go-again, pitch-1, cost-0]
+tags: [card, creep, assassin, action, attack, stealth, go-again, pitch-1, cost-0, aac009, gem160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77dWGRQb88WqJDbh6dtcd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth, Go again]
 unique-id: 77dWGRQb88WqJDbh6dtcd
 sets: [AAC, GEM]
+codes: [AAC009, GEM160]
 ---
 
 **Creep (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

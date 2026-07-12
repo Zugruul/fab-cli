@@ -1,5 +1,5 @@
 ---
-tags: [card, bare-fangs, bare, fangs, brute, action, attack, pitch-3, cost-2]
+tags: [card, bare-fangs, bare, fangs, brute, action, attack, pitch-3, cost-2, evr010, hvy031]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g7DBTGtKGzCtWWfLKdFcr) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: g7DBTGtKGzCtWWfLKdFcr
 sets: [EVR, HVY]
+codes: [EVR010, HVY031]
 ---
 
 **Bare Fangs (blue)** — Brute Action - Attack · cost 2 · 4 power

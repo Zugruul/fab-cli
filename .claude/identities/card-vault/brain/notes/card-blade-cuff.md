@@ -1,5 +1,5 @@
 ---
-tags: [card, blade-cuff, blade, cuff, assassin, ninja, equipment, arms, blade-break]
+tags: [card, blade-cuff, blade, cuff, assassin, ninja, equipment, arms, blade-break, out141]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wLNgpgF6DJHmgfFHMnnpK) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Blade Break]
 unique-id: wLNgpgF6DJHmgfFHMnnpK
 sets: [OUT]
+codes: [OUT141]
 ---
 
 **Blade Cuff** — Assassin / Ninja Equipment - Arms · 1 defense

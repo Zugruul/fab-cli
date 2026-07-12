@@ -1,5 +1,5 @@
 ---
-tags: [card, master-cog, master, cog, mechanologist, resource, gem, legendary, pitch-2]
+tags: [card, master-cog, master, cog, mechanologist, resource, gem, legendary, pitch-2, evo000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLR9kCDtWdr7c67FQtNw7) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary]
 unique-id: MLR9kCDtWdr7c67FQtNw7
 sets: [EVO]
+codes: [EVO000]
 ---
 
 **Master Cog (yellow)** — Mechanologist Resource - Gem

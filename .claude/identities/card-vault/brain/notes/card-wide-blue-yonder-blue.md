@@ -1,5 +1,5 @@
 ---
-tags: [card, wide-blue-yonder, wide, blue, yonder, mystic, attack-reaction, pitch-3, cost-0]
+tags: [card, wide-blue-yonder, wide, blue, yonder, mystic, attack-reaction, pitch-3, cost-0, fab239, mst085]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GHJwMBntf9h6wFk7Dfk7j) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ talents: [Mystic]
 types: [Attack Reaction]
 unique-id: GHJwMBntf9h6wFk7Dfk7j
 sets: [FAB, MST]
+codes: [FAB239, MST085]
 ---
 
 **Wide Blue Yonder (blue)** — Mystic Attack Reaction · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, buckwild, brute, action, attack, go-again, pitch-2, cost-3]
+tags: [card, buckwild, brute, action, attack, go-again, pitch-2, cost-3, arr019, sup144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tCkMg9kPCkhTDTbJkdHjB) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: tCkMg9kPCkhTDTbJkdHjB
 sets: [ARR, SUP]
+codes: [ARR019, SUP144]
 ---
 
 **Buckwild (yellow)** — Brute Action - Attack · cost 3 · 6 power · 2 defense

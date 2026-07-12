@@ -1,5 +1,5 @@
 ---
-tags: [card, laughing-knee-slappers, laughing, knee, slappers, brute, equipment, legs, reviled, blade-break]
+tags: [card, laughing-knee-slappers, laughing, knee, slappers, brute, equipment, legs, reviled, blade-break, sup065]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mm6rHKbCkKKfD6h6tCMcK) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ other-types: [Reviled]
 keywords: [Blade Break]
 unique-id: mm6rHKbCkKKfD6h6tCMcK
 sets: [SUP]
+codes: [SUP065]
 ---
 
 **Laughing Knee-Slappers** — Reviled Brute Equipment - Legs · 1 defense

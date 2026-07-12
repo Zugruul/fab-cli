@@ -1,5 +1,5 @@
 ---
-tags: [card, danger-digits, danger, digits, assassin, ninja, equipment, arms]
+tags: [card, danger-digits, danger, digits, assassin, ninja, equipment, arms, ark005, cin005, hnt173, sar007, wod005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kDCzjqmjjMT9hdnJTfRJb) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: kDCzjqmjjMT9hdnJTfRJb
 sets: [ARK, CIN, HNT, SAR, WOD]
+codes: [ARK005, CIN005, HNT173, SAR007, WOD005]
 ---
 
 **Danger Digits** — Assassin / Ninja Equipment - Arms · 0 defense

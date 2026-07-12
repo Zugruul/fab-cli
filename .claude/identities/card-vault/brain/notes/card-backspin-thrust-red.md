@@ -1,5 +1,5 @@
 ---
-tags: [card, backspin-thrust, backspin, thrust, mechanologist, action, attack, pitch-1, cost-0]
+tags: [card, backspin-thrust, backspin, thrust, mechanologist, action, attack, pitch-1, cost-0, sup254]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pTJRQBLb8phGGHPHgwdQk) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: pTJRQBLb8phGGHPHgwdQk
 sets: [SUP]
+codes: [SUP254]
 ---
 
 **Backspin Thrust (red)** — Mechanologist Action - Attack · cost 0 · 4 power · 3 defense

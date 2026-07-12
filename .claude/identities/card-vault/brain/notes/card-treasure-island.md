@@ -1,5 +1,5 @@
 ---
-tags: [card, treasure-island, treasure, island, macro, landmark, high-seas]
+tags: [card, treasure-island, treasure, island, macro, landmark, high-seas, fab340, sea247]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jnR9QPhTfLmGWF7TPTQgp) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ subtypes: [Landmark]
 other-types: [High Seas]
 unique-id: jnR9QPhTfLmGWF7TPTQgp
 sets: [FAB, SEA]
+codes: [FAB340, SEA247]
 ---
 
 **Treasure Island** — High Seas Macro - Landmark

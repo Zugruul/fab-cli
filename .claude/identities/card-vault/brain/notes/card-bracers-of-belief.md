@@ -1,5 +1,5 @@
 ---
-tags: [card, bracers-of-belief, bracers, belief, generic, equipment, arms]
+tags: [card, bracers-of-belief, bracers, belief, generic, equipment, arms, 1hp355, arc153, azl006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c9BtftttMG7WNrKgnfJFt) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Arms]
 unique-id: c9BtftttMG7WNrKgnfJFt
 sets: [1HP, ARC, AZL]
+codes: [1HP355, ARC153, AZL006]
 ---
 
 **Bracers of Belief** — Generic Equipment - Arms · 0 defense

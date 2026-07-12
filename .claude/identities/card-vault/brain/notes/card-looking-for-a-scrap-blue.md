@@ -1,5 +1,5 @@
 ---
-tags: [card, looking-for-a-scrap, looking, scrap, generic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, looking-for-a-scrap, looking, scrap, generic, action, attack, go-again, pitch-3, cost-1, out197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bpQN7JWMfcWndWkjWkJwb) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: bpQN7JWMfcWndWkjWkJwb
 sets: [OUT]
+codes: [OUT197]
 ---
 
 **Looking for a Scrap (blue)** — Generic Action - Attack · cost 1 · 2 power · 2 defense

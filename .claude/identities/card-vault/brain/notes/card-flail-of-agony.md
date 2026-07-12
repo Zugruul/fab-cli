@@ -1,5 +1,5 @@
 ---
-tags: [card, flail-of-agony, flail, agony, runeblade, shadow, weapon, 1h, vynnset-specialization]
+tags: [card, flail-of-agony, flail, agony, runeblade, shadow, weapon, 1h, vynnset-specialization, dtd135, fab167, lgs156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KthQj9HCRMDRfngK88kCw) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Flail, 1H]
 keywords: [Vynnset Specialization]
 unique-id: KthQj9HCRMDRfngK88kCw
 sets: [DTD, FAB, LGS]
+codes: [DTD135, FAB167, LGS156]
 ---
 
 **Flail of Agony** — Shadow Runeblade Weapon - Flail (1H) · 1 power

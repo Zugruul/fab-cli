@@ -1,5 +1,5 @@
 ---
-tags: [card, back-alley-breakline, back, alley, breakline, generic, action, attack, pitch-1, cost-1]
+tags: [card, back-alley-breakline, back, alley, breakline, generic, action, attack, pitch-1, cost-1, arc176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kFW8PcC89jw6rGKkhfpBt) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kFW8PcC89jw6rGKkhfpBt
 sets: [ARC]
+codes: [ARC176]
 ---
 
 **Back Alley Breakline (red)** — Generic Action - Attack · cost 1 · 5 power · 2 defense

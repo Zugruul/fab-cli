@@ -1,5 +1,5 @@
 ---
-tags: [card, photon-splicing, photon, splicing, wizard, action, pitch-1, cost-1]
+tags: [card, photon-splicing, photon, splicing, wizard, action, pitch-1, cost-1, osc018, ros204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 89wCCJfjJTCb8gqHftG8g) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Wizard]
 types: [Action]
 unique-id: 89wCCJfjJTCb8gqHftG8g
 sets: [OSC, ROS]
+codes: [OSC018, ROS204]
 ---
 
 **Photon Splicing (red)** — Wizard Action · cost 1 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, monkey-powder, monkey, powder, ranger, action, go-again, overpower, pitch-1, cost-3]
+tags: [card, monkey-powder, monkey, powder, ranger, action, go-again, overpower, pitch-1, cost-3, sea102]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qrzhp6bWn7rbTFt9fHw7k) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again, Overpower]
 unique-id: qrzhp6bWn7rbTFt9fHw7k
 sets: [SEA]
+codes: [SEA102]
 ---
 
 **Monkey Powder (red)** — Ranger Action · cost 3 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rally-the-rearguard, rally, rearguard, generic, action, attack, pitch-1, cost-2]
+tags: [card, rally-the-rearguard, rally, rearguard, generic, action, attack, pitch-1, cost-2, ako011, hvy228, kyo010, lev028, mon281, vic010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 68J8LFDffgJ8j6RJ6FhmD) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 68J8LFDffgJ8j6RJ6FhmD
 sets: [AKO, HVY, KYO, LEV, MON, VIC]
+codes: [AKO011, HVY228, KYO010, LEV028, MON281, VIC010]
 ---
 
 **Rally the Rearguard (red)** — Generic Action - Attack · cost 2 · 6 power · 2 defense

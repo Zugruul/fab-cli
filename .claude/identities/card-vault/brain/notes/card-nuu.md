@@ -1,5 +1,5 @@
 ---
-tags: [card, nuu, assassin, mystic, hero, young]
+tags: [card, nuu, assassin, mystic, hero, young, mst002, nuu001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid prMJkPd8w9KQHQ9BjgMmG) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Mystic]
 types: [Hero]
 unique-id: prMJkPd8w9KQHQ9BjgMmG
 sets: [MST, NUU]
+codes: [MST002, NUU001]
 ---
 
 **Nuu** — Mystic Assassin Hero - Young · 20 health · 4 int

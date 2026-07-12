@@ -1,5 +1,5 @@
 ---
-tags: [card, toxicity, assassin, ranger, action, go-again, pitch-3, cost-0]
+tags: [card, toxicity, assassin, ranger, action, go-again, pitch-3, cost-0, azl027, fab130, out167]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F9KLhWk9DbmqRwtRggPjF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: F9KLhWk9DbmqRwtRggPjF
 sets: [AZL, FAB, OUT]
+codes: [AZL027, FAB130, OUT167]
 ---
 
 **Toxicity (blue)** — Assassin / Ranger Action · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, earthlore-bounty, earthlore, bounty, guardian, equipment, chest, temper]
+tags: [card, earthlore-bounty, earthlore, bounty, guardian, equipment, chest, temper, evr020, fab076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCwM6LGq87rrqGQFk8rKG) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Temper]
 unique-id: qCwM6LGq87rrqGQFk8rKG
 sets: [EVR, FAB]
+codes: [EVR020, FAB076]
 ---
 
 **Earthlore Bounty** — Guardian Equipment - Chest · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, herons-flight, herons, flight, ninja, action, attack, combo, pitch-1, cost-0]
+tags: [card, herons-flight, herons, flight, ninja, action, attack, combo, pitch-1, cost-0, 1hp100, cru056]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid j8jNwqCDtMqHPbCrnLcbf) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Combo]
 unique-id: j8jNwqCDtMqHPbCrnLcbf
 sets: [1HP, CRU]
+codes: [1HP100, CRU056]
 ---
 
 **Heron's Flight (red)** — Ninja Action - Attack · cost 0 · 3 power · 3 defense

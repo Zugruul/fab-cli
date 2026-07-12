@@ -1,5 +1,5 @@
 ---
-tags: [card, brandish, generic, action, attack, go-again, pitch-2, cost-1]
+tags: [card, brandish, generic, action, attack, go-again, pitch-2, cost-1, mon270]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QjLfPrBc8Rn76HhBcNbhj) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: QjLfPrBc8Rn76HhBcNbhj
 sets: [MON]
+codes: [MON270]
 ---
 
 **Brandish (yellow)** — Generic Action - Attack · cost 1 · 2 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, dig-in, dig, action, attack, revered, pitch-1, cost-3]
+tags: [card, dig-in, dig, action, attack, revered, pitch-1, cost-3, fab384, sup036]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gncL7pDCJzDJffqCnGGQM) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Attack]
 other-types: [Revered]
 unique-id: gncL7pDCJzDJffqCnGGQM
 sets: [FAB, SUP]
+codes: [FAB384, SUP036]
 ---
 
 **Dig In (red)** — Revered Action - Attack · cost 3 · 7 power · 3 defense

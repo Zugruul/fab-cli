@@ -1,5 +1,5 @@
 ---
-tags: [card, smashing-good-time, smashing, good, time, generic, action, go-again, pitch-3, cost-0]
+tags: [card, smashing-good-time, smashing, good, time, generic, action, go-again, pitch-3, cost-0, evr172]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qKcPMkLrbMpqn9Nck97WL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: qKcPMkLrbMpqn9Nck97WL
 sets: [EVR]
+codes: [EVR172]
 ---
 
 **Smashing Good Time (blue)** — Generic Action · cost 0 · 2 defense

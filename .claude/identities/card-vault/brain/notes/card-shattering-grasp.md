@@ -1,5 +1,5 @@
 ---
-tags: [card, shattering-grasp, shattering, grasp, ice, equipment, arms, battleworn]
+tags: [card, shattering-grasp, shattering, grasp, ice, equipment, arms, battleworn, pen228]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DrfFF7FFQTbwwcbDckGH9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: DrfFF7FFQTbwwcbDckGH9
 sets: [PEN]
+codes: [PEN228]
 ---
 
 **Shattering Grasp** — Ice Equipment - Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, torc-of-vim, torc, vim, brute, equipment, chest, battleworn]
+tags: [card, torc-of-vim, torc, vim, brute, equipment, chest, battleworn, arr004]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pwjrCwDQn9Tb7MgRRRnGf) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: pwjrCwDQn9Tb7MgRRRnGf
 sets: [ARR]
+codes: [ARR004]
 ---
 
 **Torc of Vim** — Brute Equipment - Chest · 1 defense

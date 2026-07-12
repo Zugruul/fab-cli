@@ -1,5 +1,5 @@
 ---
-tags: [card, copper, generic, token, item]
+tags: [card, copper, generic, token, item, 1hp426, cru197, evr194, fab055, tcc103, tcc108]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gzDGmdfm6gHWctgrcgfKf) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Token]
 subtypes: [Item]
 unique-id: gzDGmdfm6gHWctgrcgfKf
 sets: [1HP, CRU, EVR, FAB, TCC]
+codes: [1HP426, CRU197, EVR194, FAB055, TCC103, TCC108]
 ---
 
 **Copper** — Generic Token - Item

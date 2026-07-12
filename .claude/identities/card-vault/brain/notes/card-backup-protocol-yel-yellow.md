@@ -1,5 +1,5 @@
 ---
-tags: [card, backup-protocol-yel, backup, protocol, yel, mechanologist, action, item, crank, pitch-2, cost-0]
+tags: [card, backup-protocol-yel, backup, protocol, yel, mechanologist, action, item, crank, pitch-2, cost-0, evo082]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NhtzDBJkQ8cFtFkW7NLgf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: NhtzDBJkQ8cFtFkW7NLgf
 sets: [EVO]
+codes: [EVO082]
 ---
 
 **Backup Protocol: YEL (yellow)** — Mechanologist Action - Item · cost 0

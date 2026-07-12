@@ -1,5 +1,5 @@
 ---
-tags: [card, hit-the-gas, hit, gas, mechanologist, action, maxx-specialization, pitch-3, cost-0]
+tags: [card, hit-the-gas, hit, gas, mechanologist, action, maxx-specialization, pitch-3, cost-0, sup255]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C8RCCpMWmdNnF6JW7KQhP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Maxx Specialization]
 unique-id: C8RCCpMWmdNnF6JW7KQhP
 sets: [SUP]
+codes: [SUP255]
 ---
 
 **Hit the Gas (blue)** — Mechanologist Action · cost 0 · 3 defense

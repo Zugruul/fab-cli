@@ -1,5 +1,5 @@
 ---
-tags: [card, rites-of-lightning, rites, lightning, runeblade, elemental, action, attack, lightning-fusion, go-again, pitch-2, cost-1]
+tags: [card, rites-of-lightning, rites, lightning, runeblade, elemental, action, attack, lightning-fusion, go-again, pitch-2, cost-1, ele071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pLLbKwrPTTKBgzbQB6mhT) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Fusion, Go again]
 unique-id: pLLbKwrPTTKBgzbQB6mhT
 sets: [ELE]
+codes: [ELE071]
 ---
 
 **Rites of Lightning (yellow)** — Elemental Runeblade Action - Attack · cost 1 · 3 power · 3 defense

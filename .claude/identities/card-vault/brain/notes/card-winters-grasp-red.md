@@ -1,5 +1,5 @@
 ---
-tags: [card, winters-grasp, winters, grasp, ice, action, attack, pitch-1, cost-2]
+tags: [card, winters-grasp, winters, grasp, ice, action, attack, pitch-1, cost-2, ele160]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b9rTHdGpFNRhfDTJL6gzc) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: b9rTHdGpFNRhfDTJL6gzc
 sets: [ELE]
+codes: [ELE160]
 ---
 
 **Winter's Grasp (red)** — Ice Action - Attack · cost 2 · 6 power · 3 defense

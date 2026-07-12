@@ -1,5 +1,5 @@
 ---
-tags: [card, brothers-in-arms, brothers, arms, generic, action, attack, pitch-2, cost-2]
+tags: [card, brothers-in-arms, brothers, arms, generic, action, attack, pitch-2, cost-2, sup228, upr204]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B7BNkF6nJChrRQ6kpWKPw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: B7BNkF6nJChrRQ6kpWKPw
 sets: [SUP, UPR]
+codes: [SUP228, UPR204]
 ---
 
 **Brothers in Arms (yellow)** — Generic Action - Attack · cost 2 · 5 power · 2 defense

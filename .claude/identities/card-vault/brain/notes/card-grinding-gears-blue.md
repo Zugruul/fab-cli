@@ -1,5 +1,5 @@
 ---
-tags: [card, grinding-gears, grinding, gears, mechanologist, action, item, crank, pitch-3, cost-0]
+tags: [card, grinding-gears, grinding, gears, mechanologist, action, item, crank, pitch-3, cost-0, evo070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TNGCHzzLBft9q77QhkW9d) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: TNGCHzzLBft9q77QhkW9d
 sets: [EVO]
+codes: [EVO070]
 ---
 
 **Grinding Gears (blue)** — Mechanologist Action - Item · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, richter-scale, richter, scale, guardian, equipment, chest, battleworn]
+tags: [card, richter-scale, richter, scale, guardian, equipment, chest, battleworn, mpg006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dp6nprbWWLQwqMdcwW6Wz) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Chest]
 keywords: [Battleworn]
 unique-id: dp6nprbWWLQwqMdcwW6Wz
 sets: [MPG]
+codes: [MPG006]
 ---
 
 **Richter Scale** — Guardian Equipment - Chest · 1 defense

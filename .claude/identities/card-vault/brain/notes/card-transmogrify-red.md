@@ -1,5 +1,5 @@
 ---
-tags: [card, transmogrify, illusionist, action, go-again, pitch-1, cost-1]
+tags: [card, transmogrify, illusionist, action, go-again, pitch-1, cost-1, upr155]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9tDrPFwK9mMzTBFjHzR9G) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 9tDrPFwK9mMzTBFjHzR9G
 sets: [UPR]
+codes: [UPR155]
 ---
 
 **Transmogrify (red)** — Illusionist Action · cost 1 · 2 defense

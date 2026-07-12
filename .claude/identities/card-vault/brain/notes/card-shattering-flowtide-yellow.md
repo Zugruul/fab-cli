@@ -1,5 +1,5 @@
 ---
-tags: [card, shattering-flowtide, shattering, flowtide, illusionist, lightning, action, attack, fragment, pitch-2, cost-0]
+tags: [card, shattering-flowtide, shattering, flowtide, illusionist, lightning, action, attack, fragment, pitch-2, cost-0, omn025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fHzPHtqP68CcwPG6JGGMJ) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: fHzPHtqP68CcwPG6JGGMJ
 sets: [OMN]
+codes: [OMN025]
 ---
 
 **Shattering Flowtide (yellow)** — Lightning Illusionist Action - Attack · cost 0 · 4 power · 3 defense

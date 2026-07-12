@@ -1,5 +1,5 @@
 ---
-tags: [card, shimmering-mirage, shimmering, mirage, illusionist, defense-reaction, pitch-3, cost-0]
+tags: [card, shimmering-mirage, shimmering, mirage, illusionist, defense-reaction, pitch-3, cost-0, gem125, pen129]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RmJNprW8pD7hPmcMJ6Q7N) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Mirage]
 unique-id: RmJNprW8pD7hPmcMJ6Q7N
 sets: [GEM, PEN]
+codes: [GEM125, PEN129]
 ---
 
 **Shimmering Mirage (blue)** — Illusionist Defense Reaction · cost 0 · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, myrkhellir-helm, myrkhellir, helm, generic, equipment, head, temper]
+tags: [card, myrkhellir-helm, myrkhellir, helm, generic, equipment, head, temper, pen315]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zJ9h7zCdQcttTrmgLR6q9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Temper]
 unique-id: zJ9h7zCdQcttTrmgLR6q9
 sets: [PEN]
+codes: [PEN315]
 ---
 
 **Myrkhellir Helm** — Generic Equipment - Head · 1 defense

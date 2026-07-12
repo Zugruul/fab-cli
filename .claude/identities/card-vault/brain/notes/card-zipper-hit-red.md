@@ -1,5 +1,5 @@
 ---
-tags: [card, zipper-hit, zipper, hit, mechanologist, action, attack, boost, pitch-1, cost-1]
+tags: [card, zipper-hit, zipper, hit, mechanologist, action, attack, boost, pitch-1, cost-1, 1hp214, aio013, amx017, arc029, sda021, tcc018, tnp028]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H9hHm8NHT7B6LMrLJ8wbW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: H9hHm8NHT7B6LMrLJ8wbW
 sets: [1HP, AIO, AMX, ARC, SDA, TCC, TNP]
+codes: [1HP214, AIO013, AMX017, ARC029, SDA021, TCC018, TNP028]
 ---
 
 **Zipper Hit (red)** — Mechanologist Action - Attack · cost 1 · 5 power · 3 defense

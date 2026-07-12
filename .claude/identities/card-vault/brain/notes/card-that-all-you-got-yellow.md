@@ -1,5 +1,5 @@
 ---
-tags: [card, that-all-you-got, that, all, you, got, generic, defense-reaction, pitch-2, cost-0]
+tags: [card, that-all-you-got, that, all, you, got, generic, defense-reaction, pitch-2, cost-0, anq018, upr189]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 89p6tjT7cTLrGWkKrRkjt) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: 89p6tjT7cTLrGWkKrRkjt
 sets: [ANQ, UPR]
+codes: [ANQ018, UPR189]
 ---
 
 **That All You Got? (yellow)** — Generic Defense Reaction · cost 0 · 3 defense

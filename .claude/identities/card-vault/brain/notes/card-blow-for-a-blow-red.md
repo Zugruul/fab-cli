@@ -1,5 +1,5 @@
 ---
-tags: [card, blow-for-a-blow, blow, generic, action, attack, go-again, pitch-1, cost-2]
+tags: [card, blow-for-a-blow, blow, generic, action, attack, go-again, pitch-1, cost-2, sea216]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fp6nwdwf88LdLLcTJcFHr) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: Fp6nwdwf88LdLLcTJcFHr
 sets: [SEA]
+codes: [SEA216]
 ---
 
 **Blow for a Blow (red)** — Generic Action - Attack · cost 2 · 4 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, terra, guardian, elemental, hero, young, essence-of-earth]
+tags: [card, terra, guardian, elemental, hero, young, essence-of-earth, her129, ter001]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbQPwq8DkLpDdjHCP9www) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Hero]
 keywords: [Essence of Earth]
 unique-id: JbQPwq8DkLpDdjHCP9www
 sets: [HER, TER]
+codes: [HER129, TER001]
 ---
 
 **Terra** — Elemental Guardian Hero - Young · 20 health · 4 int

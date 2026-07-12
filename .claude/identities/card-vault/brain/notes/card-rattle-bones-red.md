@@ -1,5 +1,5 @@
 ---
-tags: [card, rattle-bones, rattle, bones, runeblade, action, go-again, pitch-1, cost-2]
+tags: [card, rattle-bones, rattle, bones, runeblade, action, go-again, pitch-1, cost-2, cru143]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fQW6hh8zJtbjJrQMzjkpD) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: fQW6hh8zJtbjJrQMzjkpD
 sets: [CRU]
+codes: [CRU143]
 ---
 
 **Rattle Bones (red)** — Runeblade Action · cost 2 · 3 defense

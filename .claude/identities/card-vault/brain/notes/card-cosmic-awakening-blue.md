@@ -1,5 +1,5 @@
 ---
-tags: [card, cosmic-awakening, cosmic, awakening, mystic, action, attack, pitch-3, cost-9]
+tags: [card, cosmic-awakening, cosmic, awakening, mystic, action, attack, pitch-3, cost-9, mst076]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L7GjnTRkPzCWDfwjfBj7n) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: L7GjnTRkPzCWDfwjfBj7n
 sets: [MST]
+codes: [MST076]
 ---
 
 **Cosmic Awakening (blue)** — Mystic Action - Attack · cost 9 · * power · 3 defense

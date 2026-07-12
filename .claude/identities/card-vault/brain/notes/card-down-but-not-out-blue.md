@@ -1,5 +1,5 @@
 ---
-tags: [card, down-but-not-out, down, but, not, out, generic, action, attack, overpower, pitch-3, cost-3]
+tags: [card, down-but-not-out, down, but, not, out, generic, action, attack, overpower, pitch-3, cost-3, hvy215]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PCCtHrqDfnnmwFJwMNGDW) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: PCCtHrqDfnnmwFJwMNGDW
 sets: [HVY]
+codes: [HVY215]
 ---
 
 **Down But Not Out (blue)** — Generic Action - Attack · cost 3 · 3 power · 3 defense

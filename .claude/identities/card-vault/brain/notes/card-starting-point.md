@@ -1,5 +1,5 @@
 ---
-tags: [card, starting-point, starting, point, assassin, warrior, equipment, legs, go-again]
+tags: [card, starting-point, starting, point, assassin, warrior, equipment, legs, go-again, ark006, hnt196, wod006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h8WG7GncNP7qN7hnzTdN9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Go again]
 unique-id: h8WG7GncNP7qN7hnzTdN9
 sets: [ARK, HNT, WOD]
+codes: [ARK006, HNT196, WOD006]
 ---
 
 **Starting Point** — Assassin / Warrior Equipment - Legs · 0 defense

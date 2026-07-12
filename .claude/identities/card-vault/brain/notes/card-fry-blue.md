@@ -1,5 +1,5 @@
 ---
-tags: [card, fry, lightning, action, attack, go-again, pitch-3, cost-0]
+tags: [card, fry, lightning, action, attack, go-again, pitch-3, cost-0, ros094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KkjQW9nDMGL8nRqGK96GD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: KkjQW9nDMGL8nRqGK96GD
 sets: [ROS]
+codes: [ROS094]
 ---
 
 **Fry (blue)** — Lightning Action - Attack · cost 0 · 1 power · 0 defense

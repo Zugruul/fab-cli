@@ -1,5 +1,5 @@
 ---
-tags: [card, spark-spray, spark, spray, lightning, action, attack, pitch-3, cost-0]
+tags: [card, spark-spray, spark, spray, lightning, action, attack, pitch-3, cost-0, aur025]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kk9mFcfzzzPL6RH9tcBw8) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: kk9mFcfzzzPL6RH9tcBw8
 sets: [AUR]
+codes: [AUR025]
 ---
 
 **Spark Spray (blue)** — Lightning Action - Attack · cost 0 · 2 power · 2 defense

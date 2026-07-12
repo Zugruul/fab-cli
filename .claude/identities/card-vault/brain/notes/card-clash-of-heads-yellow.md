@@ -1,5 +1,5 @@
 ---
-tags: [card, clash-of-heads, clash, heads, guardian, block, pitch-2]
+tags: [card, clash-of-heads, clash, heads, guardian, block, pitch-2, mpg047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qTWFgWrznmRnFtJH9hwcd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Block]
 keywords: [Clash]
 unique-id: qTWFgWrznmRnFtJH9hwcd
 sets: [MPG]
+codes: [MPG047]
 ---
 
 **Clash of Heads (yellow)** — Guardian Block · 4 defense

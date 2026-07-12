@@ -1,5 +1,5 @@
 ---
-tags: [card, arknight-shard, arknight, shard, runeblade, resource, gem, legendary, viserai-specialization, pitch-3]
+tags: [card, arknight-shard, arknight, shard, runeblade, resource, gem, legendary, viserai-specialization, pitch-3, cru000]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pkMGCRh9fDT98dRgnQF8W) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ subtypes: [Gem]
 keywords: [Legendary, Viserai Specialization]
 unique-id: pkMGCRh9fDT98dRgnQF8W
 sets: [CRU]
+codes: [CRU000]
 ---
 
 **Arknight Shard (blue)** — Runeblade Resource - Gem

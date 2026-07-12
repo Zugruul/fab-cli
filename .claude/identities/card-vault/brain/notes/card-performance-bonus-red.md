@@ -1,5 +1,5 @@
 ---
-tags: [card, performance-bonus, performance, bonus, generic, action, attack, go-again, pitch-1, cost-0]
+tags: [card, performance-bonus, performance, bonus, generic, action, attack, go-again, pitch-1, cost-0, fab202, hvy225, ksi008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NJcrQWnf8KF9jd7FGDg8p) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: NJcrQWnf8KF9jd7FGDg8p
 sets: [FAB, HVY, KSI]
+codes: [FAB202, HVY225, KSI008]
 ---
 
 **Performance Bonus (red)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

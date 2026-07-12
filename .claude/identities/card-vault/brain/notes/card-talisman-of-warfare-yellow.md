@@ -1,5 +1,5 @@
 ---
-tags: [card, talisman-of-warfare, talisman, warfare, generic, action, item, go-again, pitch-2, cost-0]
+tags: [card, talisman-of-warfare, talisman, warfare, generic, action, item, go-again, pitch-2, cost-0, evr193]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid prmFpdjrdCqD9hDmHTfPK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Go again]
 unique-id: prmFpdjrdCqD9hDmHTfPK
 sets: [EVR]
+codes: [EVR193]
 ---
 
 **Talisman of Warfare (yellow)** — Generic Action - Item · cost 0

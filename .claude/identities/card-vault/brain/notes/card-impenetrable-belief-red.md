@@ -1,5 +1,5 @@
 ---
-tags: [card, impenetrable-belief, impenetrable, belief, light, action, attack, pitch-1, cost-2]
+tags: [card, impenetrable-belief, impenetrable, belief, light, action, attack, pitch-1, cost-2, mon075]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nBFJ7C89G7d8kd7NgNGkG) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: nBFJ7C89G7d8kd7NgNGkG
 sets: [MON]
+codes: [MON075]
 ---
 
 **Impenetrable Belief (red)** — Light Action - Attack · cost 2 · 5 power · 2 defense

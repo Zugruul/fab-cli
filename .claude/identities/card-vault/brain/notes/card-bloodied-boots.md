@@ -1,5 +1,5 @@
 ---
-tags: [card, bloodied-boots, bloodied, boots, event, equipment, legs]
+tags: [card, bloodied-boots, bloodied, boots, event, equipment, legs, smp017]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G7PgmckBqgBGmPgFbCnDP) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Event, Equipment]
 subtypes: [Legs]
 unique-id: G7PgmckBqgBGmPgFbCnDP
 sets: [SMP]
+codes: [SMP017]
 ---
 
 **Bloodied Boots** — Event Equipment - Legs · 0 defense

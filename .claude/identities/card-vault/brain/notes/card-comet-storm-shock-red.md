@@ -1,5 +1,5 @@
 ---
-tags: [card, comet-storm-shock, comet, storm, shock, wizard, lightning, action, instant, meld, pitch-1, cost-2]
+tags: [card, comet-storm-shock, comet, storm, shock, wizard, lightning, action, instant, meld, pitch-1, cost-2, lgs335, osc013, ros024]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNtpt77b8dGgTbkCqzCLB) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action, Instant]
 keywords: [Meld]
 unique-id: hNtpt77b8dGgTbkCqzCLB
 sets: [LGS, OSC, ROS]
+codes: [LGS335, OSC013, ROS024]
 ---
 
 **Comet Storm // Shock (red)** — Wizard Action // Lightning Instant · cost 2 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, single-minded-determination, single, minded, determination, illusionist, action, aura, ward-2, pitch-1, cost-2]
+tags: [card, single-minded-determination, single, minded, determination, illusionist, action, aura, ward-2, pitch-1, cost-2, mst146]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C8jqfdnRnWRfnnnFrMwFq) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 2]
 unique-id: C8jqfdnRnWRfnnnFrMwFq
 sets: [MST]
+codes: [MST146]
 ---
 
 **Single Minded Determination (red)** — Illusionist Action - Aura · cost 2 · 3 defense

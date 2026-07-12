@@ -1,5 +1,5 @@
 ---
-tags: [card, celestial-kimono, celestial, kimono, illusionist, equipment, chest, ward-1]
+tags: [card, celestial-kimono, celestial, kimono, illusionist, equipment, chest, ward-1, dyn213]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BJtgTRQQmrbDwrGQMmqm6) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Chest]
 keywords: [Ward 1]
 unique-id: BJtgTRQQmrbDwrGQMmqm6
 sets: [DYN]
+codes: [DYN213]
 ---
 
 **Celestial Kimono** — Illusionist Equipment - Chest

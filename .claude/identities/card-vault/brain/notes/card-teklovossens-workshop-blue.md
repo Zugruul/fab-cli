@@ -1,5 +1,5 @@
 ---
-tags: [card, teklovossens-workshop, teklovossens, workshop, mechanologist, action, opt-x, pitch-3, cost-0]
+tags: [card, teklovossens-workshop, teklovossens, workshop, mechanologist, action, opt-x, pitch-3, cost-0, cru117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6PjmQ69L8rmnHwCQ8DzQ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt X]
 unique-id: p6PjmQ69L8rmnHwCQ8DzQ
 sets: [CRU]
+codes: [CRU117]
 ---
 
 **Teklovossen's Workshop (blue)** — Mechanologist Action · cost 0 · 3 defense

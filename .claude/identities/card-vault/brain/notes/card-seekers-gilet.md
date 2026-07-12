@@ -1,5 +1,5 @@
 ---
-tags: [card, seekers-gilet, seekers, gilet, generic, equipment, chest]
+tags: [card, seekers-gilet, seekers, gilet, generic, equipment, chest, omn206, out176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JmTd86pJBGfrCtpNRCjdn) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Chest]
 unique-id: JmTd86pJBGfrCtpNRCjdn
 sets: [OMN, OUT]
+codes: [OMN206, OUT176]
 ---
 
 **Seeker's Gilet** — Generic Equipment - Chest

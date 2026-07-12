@@ -1,5 +1,5 @@
 ---
-tags: [card, evo-zoom-call, evo, zoom, call, mechanologist, instant, equipment, head, transform, pitch-2, cost-0]
+tags: [card, evo-zoom-call, evo, zoom, call, mechanologist, instant, equipment, head, transform, pitch-2, cost-0, evo050]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gwnNzfNWWNnk6KRQnp7MW) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Evo, Head]
 keywords: [Transform]
 unique-id: gwnNzfNWWNnk6KRQnp7MW
 sets: [EVO]
+codes: [EVO050]
 ---
 
 **Evo Zoom Call (yellow)** — Mechanologist Instant Equipment - Evo Head · cost 0 · 0 defense

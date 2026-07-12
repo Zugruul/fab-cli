@@ -1,5 +1,5 @@
 ---
-tags: [card, quickfire, mechanologist, action, go-again, pitch-3, cost-2]
+tags: [card, quickfire, mechanologist, action, go-again, pitch-3, cost-2, evo227]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BGtcnnDGHpFQJt8HpJLkh) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: BGtcnnDGHpFQJt8HpJLkh
 sets: [EVO]
+codes: [EVO227]
 ---
 
 **Quickfire (blue)** — Mechanologist Action · cost 2 · 2 defense

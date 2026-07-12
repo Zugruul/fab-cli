@@ -1,5 +1,5 @@
 ---
-tags: [card, pick-to-pieces, pick, pieces, assassin, action, attack, stealth, pitch-3, cost-0]
+tags: [card, pick-to-pieces, pick, pieces, assassin, action, attack, stealth, pitch-3, cost-0, mst129]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTNPMFWmcDcDdcJP7WhNd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: GTNPMFWmcDcDdcJP7WhNd
 sets: [MST]
+codes: [MST129]
 ---
 
 **Pick to Pieces (blue)** — Assassin Action - Attack · cost 0 · 1 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, rage-specter, rage, specter, illusionist, action, aura, ward-1, ward-6, pitch-3, cost-2]
+tags: [card, rage-specter, rage, specter, illusionist, action, aura, ward-1, ward-6, pitch-3, cost-2, mst132]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nfhcD8HGDHLDNCGhfLnKK) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1, Ward 6]
 unique-id: nfhcD8HGDHLDNCGhfLnKK
 sets: [MST]
+codes: [MST132]
 ---
 
 **Rage Specter (blue)** — Illusionist Action - Aura · cost 2 · 3 defense

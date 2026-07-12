@@ -1,5 +1,5 @@
 ---
-tags: [card, widespread-annihilation, widespread, annihilation, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-3, cost-4]
+tags: [card, widespread-annihilation, widespread, annihilation, runeblade, shadow, action, attack, rune-gate, blood-debt, pitch-3, cost-4, dtd137]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QMWDbQKHnWCcj8zrpmTMk) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Rune Gate, Blood Debt]
 unique-id: QMWDbQKHnWCcj8zrpmTMk
 sets: [DTD]
+codes: [DTD137]
 ---
 
 **Widespread Annihilation (blue)** — Shadow Runeblade Action - Attack · cost 4 · 6 power · 3 defense

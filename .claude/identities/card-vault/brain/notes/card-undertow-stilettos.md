@@ -1,5 +1,5 @@
 ---
-tags: [card, undertow-stilettos, undertow, stilettos, assassin, mystic, equipment, legs, battleworn]
+tags: [card, undertow-stilettos, undertow, stilettos, assassin, mystic, equipment, legs, battleworn, lgs270, mst007, nuu006]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7FKzc7kNTqjg78RNqwM77) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Legs]
 keywords: [Battleworn]
 unique-id: 7FKzc7kNTqjg78RNqwM77
 sets: [LGS, MST, NUU]
+codes: [LGS270, MST007, NUU006]
 ---
 
 **Undertow Stilettos** — Mystic Assassin Equipment - Legs · 1 defense

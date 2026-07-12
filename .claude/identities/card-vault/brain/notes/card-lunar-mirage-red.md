@@ -1,5 +1,5 @@
 ---
-tags: [card, lunar-mirage, lunar, mirage, illusionist, action, attack, go-again, pitch-1, cost-0]
+tags: [card, lunar-mirage, lunar, mirage, illusionist, action, attack, go-again, pitch-1, cost-0, pen127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HBpzWTwf7hkB8JC8FgNRG) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again, Mirage]
 unique-id: HBpzWTwf7hkB8JC8FgNRG
 sets: [PEN]
+codes: [PEN127]
 ---
 
 **Lunar Mirage (red)** — Illusionist Action - Attack · cost 0 · 3 power · 3 defense

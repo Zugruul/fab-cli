@@ -1,5 +1,5 @@
 ---
-tags: [card, cracker-bauble, cracker, bauble, generic, resource, pitch-2, cost-0]
+tags: [card, cracker-bauble, cracker, bauble, generic, resource, pitch-2, cost-0, lgs360]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FzFpckchjNncjDCnzQ7Tp) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Resource]
 unique-id: FzFpckchjNncjDCnzQ7Tp
 sets: [LGS]
+codes: [LGS360]
 ---
 
 **Cracker Bauble (yellow)** — Generic Resource · cost 0

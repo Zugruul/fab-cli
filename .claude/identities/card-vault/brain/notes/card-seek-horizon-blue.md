@@ -1,5 +1,5 @@
 ---
-tags: [card, seek-horizon, seek, horizon, generic, action, attack, go-again, pitch-3, cost-0]
+tags: [card, seek-horizon, seek, horizon, generic, action, attack, go-again, pitch-3, cost-0, mon253, out218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKfz9fDKmTChbm7FmMgjh) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: gKfz9fDKmTChbm7FmMgjh
 sets: [MON, OUT]
+codes: [MON253, OUT218]
 ---
 
 **Seek Horizon (blue)** — Generic Action - Attack · cost 0 · 2 power · 2 defense

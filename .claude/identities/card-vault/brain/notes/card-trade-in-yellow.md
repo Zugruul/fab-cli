@@ -1,5 +1,5 @@
 ---
-tags: [card, trade-in, trade, generic, action, attack, go-again, pitch-2, cost-0]
+tags: [card, trade-in, trade, generic, action, attack, go-again, pitch-2, cost-0, hvy232, ksi018, sea233, upr213]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gbMdbHtkbGnzcfpqHBFBq) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: gbMdbHtkbGnzcfpqHBFBq
 sets: [HVY, KSI, SEA, UPR]
+codes: [HVY232, KSI018, SEA233, UPR213]
 ---
 
 **Trade In (yellow)** — Generic Action - Attack · cost 0 · 2 power · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, ring-of-roses, ring, roses, wizard, earth, action, aura, legendary, verdance-specialization, pitch-2, cost-0]
+tags: [card, ring-of-roses, ring, roses, wizard, earth, action, aura, legendary, verdance-specialization, pitch-2, cost-0, hnt256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCzFmGMk9nBPJPWMwdL97) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Aura]
 keywords: [Legendary, Verdance Specialization]
 unique-id: qCzFmGMk9nBPJPWMwdL97
 sets: [HNT]
+codes: [HNT256]
 ---
 
 **Ring of Roses (yellow)** — Earth Wizard Action - Aura · cost 0 · 3 defense

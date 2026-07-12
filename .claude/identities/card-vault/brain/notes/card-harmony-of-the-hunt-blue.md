@@ -1,5 +1,5 @@
 ---
-tags: [card, harmony-of-the-hunt, harmony, hunt, ninja, mystic, action, attack, go-again, pitch-3, cost-1]
+tags: [card, harmony-of-the-hunt, harmony, hunt, ninja, mystic, action, attack, go-again, pitch-3, cost-1, mst062, zen022]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 96qhpHbkmGTNFKQNjFrwq) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: 96qhpHbkmGTNFKQNjFrwq
 sets: [MST, ZEN]
+codes: [MST062, ZEN022]
 ---
 
 **Harmony of the Hunt (blue)** — Mystic Ninja Action - Attack · cost 1 · 1 power · 2 defense

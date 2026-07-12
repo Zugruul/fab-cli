@@ -1,5 +1,5 @@
 ---
-tags: [card, read-the-glide-path, read, glide, path, ranger, action, opt-1, go-again, pitch-2, cost-0]
+tags: [card, read-the-glide-path, read, glide, path, ranger, action, opt-1, go-again, pitch-2, cost-0, aaz025, evr101]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MzRFtCdNMBczjRpGjwwqJ) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Opt 1, Go again]
 unique-id: MzRFtCdNMBczjRpGjwwqJ
 sets: [AAZ, EVR]
+codes: [AAZ025, EVR101]
 ---
 
 **Read the Glide Path (yellow)** — Ranger Action · cost 0 · 2 defense

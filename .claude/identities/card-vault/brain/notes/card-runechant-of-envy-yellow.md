@@ -1,5 +1,5 @@
 ---
-tags: [card, runechant-of-envy, runechant, envy, runeblade, instant, aura, pitch-2, cost-0]
+tags: [card, runechant-of-envy, runechant, envy, runeblade, instant, aura, pitch-2, cost-0, gem178, iar152]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDtcFpfJGnLpQW7LfmM7k) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: HDtcFpfJGnLpQW7LfmM7k
 sets: [GEM, IAR]
+codes: [GEM178, IAR152]
 ---
 
 **Runechant of Envy (yellow)** — Runeblade Instant - Aura · cost 0

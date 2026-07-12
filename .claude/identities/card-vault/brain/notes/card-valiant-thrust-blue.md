@@ -1,5 +1,5 @@
 ---
-tags: [card, valiant-thrust, valiant, thrust, warrior, light, action, attack, pitch-3, cost-1]
+tags: [card, valiant-thrust, valiant, thrust, warrior, light, action, attack, pitch-3, cost-1, mon041]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DqhggQR7Tcr9jQJ8QRrHd) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: DqhggQR7Tcr9jQJ8QRrHd
 sets: [MON]
+codes: [MON041]
 ---
 
 **Valiant Thrust (blue)** — Light Warrior Action - Attack · cost 1 · 2 power · 3 defense

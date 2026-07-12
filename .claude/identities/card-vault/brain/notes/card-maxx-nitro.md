@@ -1,5 +1,5 @@
 ---
-tags: [card, maxx-nitro, maxx, nitro, mechanologist, hero, young, crank]
+tags: [card, maxx-nitro, maxx, nitro, mechanologist, hero, young, crank, evo005, her092, her098]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z7bLz9hhPDcwmTdQGf6TK) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Crank]
 unique-id: z7bLz9hhPDcwmTdQGf6TK
 sets: [EVO, HER]
+codes: [EVO005, HER092, HER098]
 ---
 
 **Maxx Nitro** — Mechanologist Hero - Young · 20 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, snuff-out, snuff, out, runeblade, action, attack, pitch-1, cost-1]
+tags: [card, snuff-out, snuff, out, runeblade, action, attack, pitch-1, cost-1, ros117]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8HT69P8zhwhtmb6gbtLDd) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 8HT69P8zhwhtmb6gbtLDd
 sets: [ROS]
+codes: [ROS117]
 ---
 
 **Snuff Out (red)** — Runeblade Action - Attack · cost 1 · 5 power · 3 defense

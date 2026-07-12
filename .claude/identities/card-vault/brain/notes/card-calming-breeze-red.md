@@ -1,5 +1,5 @@
 ---
-tags: [card, calming-breeze, calming, breeze, generic, instant, pitch-1, cost-0]
+tags: [card, calming-breeze, calming, breeze, generic, instant, pitch-1, cost-0, gem031, hnt230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kmP89HM9Rq9WdwgCbCC7q) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: kmP89HM9Rq9WdwgCbCC7q
 sets: [GEM, HNT]
+codes: [GEM031, HNT230]
 ---
 
 **Calming Breeze (red)** — Generic Instant · cost 0

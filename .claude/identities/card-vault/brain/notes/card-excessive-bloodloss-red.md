@@ -1,5 +1,5 @@
 ---
-tags: [card, excessive-bloodloss, excessive, bloodloss, assassin, action, attack, contract, pitch-1, cost-1]
+tags: [card, excessive-bloodloss, excessive, bloodloss, assassin, action, attack, contract, pitch-1, cost-1, pen144]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KMpjC8BHFrCfjpbNQTGnP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Contract]
 unique-id: KMpjC8BHFrCfjpbNQTGnP
 sets: [PEN]
+codes: [PEN144]
 ---
 
 **Excessive Bloodloss (red)** — Assassin Action - Attack · cost 1 · 5 power · 3 defense

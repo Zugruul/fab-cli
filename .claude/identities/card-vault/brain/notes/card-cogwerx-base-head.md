@@ -1,5 +1,5 @@
 ---
-tags: [card, cogwerx-base-head, cogwerx, base, head, mechanologist, equipment]
+tags: [card, cogwerx-base-head, cogwerx, base, head, mechanologist, equipment, evo014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGBQtW9fTBCjQpqQTpHNz) · https://cardvault.fabtcg.com/"
@@ -11,6 +11,7 @@ types: [Equipment]
 subtypes: [Base, Head]
 unique-id: KGBQtW9fTBCjQpqQTpHNz
 sets: [EVO]
+codes: [EVO014]
 ---
 
 **Cogwerx Base Head** — Mechanologist Equipment - Base Head

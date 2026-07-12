@@ -1,5 +1,5 @@
 ---
-tags: [card, shelter-from-the-storm, shelter, storm, generic, defense-reaction, pitch-1, cost-0]
+tags: [card, shelter-from-the-storm, shelter, storm, generic, defense-reaction, pitch-1, cost-0, anq010, hnt222, pen321]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BgPLgpRRpkb7bgRMfcL9N) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Generic]
 types: [Defense Reaction]
 unique-id: BgPLgpRRpkb7bgRMfcL9N
 sets: [ANQ, HNT, PEN]
+codes: [ANQ010, HNT222, PEN321]
 ---
 
 **Shelter from the Storm (red)** — Generic Defense Reaction · cost 0 · 4 defense

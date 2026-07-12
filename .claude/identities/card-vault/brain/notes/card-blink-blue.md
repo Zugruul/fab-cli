@@ -1,5 +1,5 @@
 ---
-tags: [card, blink, lightning, instant, pitch-3, cost-0]
+tags: [card, blink, lightning, instant, pitch-3, cost-0, ele176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NBRB8MLKNqNdcQGwwFKgB) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: NBRB8MLKNqNdcQGwwFKgB
 sets: [ELE]
+codes: [ELE176]
 ---
 
 **Blink (blue)** — Lightning Instant · cost 0

@@ -1,5 +1,5 @@
 ---
-tags: [card, pay-up, pay, up, generic, action, attack, overpower, pitch-1, cost-3]
+tags: [card, pay-up, pay, up, generic, action, attack, overpower, pitch-1, cost-3, hvy208]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 97PpjPGqWTWDfNdPCGKLM) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: 97PpjPGqWTWDfNdPCGKLM
 sets: [HVY]
+codes: [HVY208]
 ---
 
 **Pay Up (red)** — Generic Action - Attack · cost 3 · 6 power · 3 defense

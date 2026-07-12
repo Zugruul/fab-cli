@@ -1,5 +1,5 @@
 ---
-tags: [card, razor-reflex, razor, reflex, generic, attack-reaction, go-again, pitch-2, cost-1]
+tags: [card, razor-reflex, razor, reflex, generic, attack-reaction, go-again, pitch-2, cost-1, 1hp403, wtr210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bcGWPgwCmKhHWHBQgQgh9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: bcGWPgwCmKhHWHBQgQgh9
 sets: [1HP, WTR]
+codes: [1HP403, WTR210]
 ---
 
 **Razor Reflex (yellow)** — Generic Attack Reaction · cost 1 · 2 defense

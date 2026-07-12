@@ -1,5 +1,5 @@
 ---
-tags: [card, stand-ground, stand, ground, guardian, equipment, legs, temper]
+tags: [card, stand-ground, stand, ground, guardian, equipment, legs, temper, bet007, hvy056, vic007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WJzNjPfQGqdTtjTHQP6rL) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Temper]
 unique-id: WJzNjPfQGqdTtjTHQP6rL
 sets: [BET, HVY, VIC]
+codes: [BET007, HVY056, VIC007]
 ---
 
 **Stand Ground** — Guardian Equipment - Legs · 0 defense

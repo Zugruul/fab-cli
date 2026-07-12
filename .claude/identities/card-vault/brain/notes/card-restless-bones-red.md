@@ -1,5 +1,5 @@
 ---
-tags: [card, restless-bones, restless, bones, pirate, necromancer, action, attack, go-again, pitch-1, cost-2]
+tags: [card, restless-bones, restless, bones, pirate, necromancer, action, attack, go-again, pitch-1, cost-2, agb011, sea071]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DrDF9kFdf8r9M7chBwcK6) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: DrDF9kFdf8r9M7chBwcK6
 sets: [AGB, SEA]
+codes: [AGB011, SEA071]
 ---
 
 **Restless Bones (red)** — Pirate Necromancer Action - Attack · cost 2 · 6 power · 3 defense

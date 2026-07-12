@@ -1,5 +1,5 @@
 ---
-tags: [card, lumina-lance, lumina, lance, light, attack-reaction, go-again, pitch-2, cost-0]
+tags: [card, lumina-lance, lumina, lance, light, attack-reaction, go-again, pitch-2, cost-0, dtd080]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mrnPzLtk7hmh6qnznHRzK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Go again]
 unique-id: mrnPzLtk7hmh6qnznHRzK
 sets: [DTD]
+codes: [DTD080]
 ---
 
 **Lumina Lance (yellow)** — Light Attack Reaction · cost 0 · 3 defense

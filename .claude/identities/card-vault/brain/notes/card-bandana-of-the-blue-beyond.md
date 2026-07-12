@@ -1,5 +1,5 @@
 ---
-tags: [card, bandana-of-the-blue-beyond, bandana, blue, beyond, generic, equipment, head]
+tags: [card, bandana-of-the-blue-beyond, bandana, blue, beyond, generic, equipment, head, sea179]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFtnRCDzmJrrJwfJfWnFC) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ types: [Equipment]
 subtypes: [Head]
 unique-id: rFtnRCDzmJrrJwfJfWnFC
 sets: [SEA]
+codes: [SEA179]
 ---
 
 **Bandana of the Blue Beyond** — Generic Equipment - Head · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, spillover, mystic, action, attack, pitch-3, cost-2]
+tags: [card, spillover, mystic, action, attack, pitch-3, cost-2, eng014, mst089]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PTbtpLNBrfMq9nNffBmMJ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: PTbtpLNBrfMq9nNffBmMJ
 sets: [ENG, MST]
+codes: [ENG014, MST089]
 ---
 
 **Spillover (blue)** — Mystic Action - Attack · cost 2 · 4 power · 2 defense

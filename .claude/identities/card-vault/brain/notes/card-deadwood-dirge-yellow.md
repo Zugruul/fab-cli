@@ -1,5 +1,5 @@
 ---
-tags: [card, deadwood-dirge, deadwood, dirge, runeblade, action, go-again, pitch-2, cost-0]
+tags: [card, deadwood-dirge, deadwood, dirge, runeblade, action, go-again, pitch-2, cost-0, ros156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N9QrfGfPbL9NHPcRT6Nd7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: N9QrfGfPbL9NHPcRT6Nd7
 sets: [ROS]
+codes: [ROS156]
 ---
 
 **Deadwood Dirge (yellow)** — Runeblade Action · cost 0 · 2 defense

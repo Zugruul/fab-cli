@@ -1,5 +1,5 @@
 ---
-tags: [card, crash-down, crash, down, guardian, action, aura, pitch-2, cost-3]
+tags: [card, crash-down, crash, down, guardian, action, aura, pitch-2, cost-3, tcc042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TgrNMPfTmLkB9DtNtkccP) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 subtypes: [Aura]
 unique-id: TgrNMPfTmLkB9DtNtkccP
 sets: [TCC]
+codes: [TCC042]
 ---
 
 **Crash Down (yellow)** — Guardian Action - Aura · cost 3 · 3 defense

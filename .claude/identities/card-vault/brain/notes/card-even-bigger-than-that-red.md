@@ -1,5 +1,5 @@
 ---
-tags: [card, even-bigger-than-that, even, bigger, than, that, generic, instant, opt-3, pitch-1, cost-0]
+tags: [card, even-bigger-than-that, even, bigger, than, that, generic, instant, opt-3, pitch-1, cost-0, evr173, fab058]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WQQFCnb8FKJn9HrzCNDmG) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 keywords: [Opt 3]
 unique-id: WQQFCnb8FKJn9HrzCNDmG
 sets: [EVR, FAB]
+codes: [EVR173, FAB058]
 ---
 
 **Even Bigger Than That! (red)** — Generic Instant · cost 0

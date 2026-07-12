@@ -1,5 +1,5 @@
 ---
-tags: [card, enigma-chimera, enigma, chimera, illusionist, action, attack, phantasm, pitch-1, cost-2]
+tags: [card, enigma-chimera, enigma, chimera, illusionist, action, attack, phantasm, pitch-1, cost-2, dro020, mon098, sen010]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPm87t9nFjpM9jzrM7hzp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Phantasm]
 unique-id: KPm87t9nFjpM9jzrM7hzp
 sets: [DRO, MON, SEN]
+codes: [DRO020, MON098, SEN010]
 ---
 
 **Enigma Chimera (red)** — Illusionist Action - Attack · cost 2 · 8 power · 3 defense

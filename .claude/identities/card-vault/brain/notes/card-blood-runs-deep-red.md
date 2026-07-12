@@ -1,5 +1,5 @@
 ---
-tags: [card, blood-runs-deep, blood, runs, deep, ninja, draconic, action, attack, pitch-1, cost-2]
+tags: [card, blood-runs-deep, blood, runs, deep, ninja, draconic, action, attack, pitch-1, cost-2, fab316, hnt057]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PtT7qcpC9QCBBMq6mHP88) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: PtT7qcpC9QCBBMq6mHP88
 sets: [FAB, HNT]
+codes: [FAB316, HNT057]
 ---
 
 **Blood Runs Deep (red)** — Draconic Ninja Action - Attack · cost 2 · 2 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, reckless-stampede, reckless, stampede, brute, action, attack, clash, pitch-1, cost-2]
+tags: [card, reckless-stampede, reckless, stampede, brute, action, attack, clash, pitch-1, cost-2, sup127]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bK9BLkb6M9JHT798FHgLP) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Clash]
 unique-id: bK9BLkb6M9JHT798FHgLP
 sets: [SUP]
+codes: [SUP127]
 ---
 
 **Reckless Stampede (red)** — Brute Action - Attack · cost 2 · 7 power · 0 defense

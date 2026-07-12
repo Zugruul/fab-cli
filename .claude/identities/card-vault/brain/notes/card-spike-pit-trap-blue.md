@@ -1,5 +1,5 @@
 ---
-tags: [card, spike-pit-trap, spike, pit, trap, ranger, defense-reaction, legendary, riptide-specialization, pitch-3, cost-0]
+tags: [card, spike-pit-trap, spike, pit, trap, ranger, defense-reaction, legendary, riptide-specialization, pitch-3, cost-0, out104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRPmCL8MkNKkwkKb7GRbn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Trap]
 keywords: [Legendary, Riptide Specialization]
 unique-id: zRPmCL8MkNKkwkKb7GRbn
 sets: [OUT]
+codes: [OUT104]
 ---
 
 **Spike Pit Trap (blue)** — Ranger Defense Reaction - Trap · cost 0 · 3 defense

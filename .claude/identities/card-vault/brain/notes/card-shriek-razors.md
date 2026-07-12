@@ -1,5 +1,5 @@
 ---
-tags: [card, shriek-razors, shriek, razors, assassin, equipment, arms, battleworn]
+tags: [card, shriek-razors, shriek, razors, assassin, equipment, arms, battleworn, evo235, fab168]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DjWkHNPRFf8JgdpzGd96L) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: DjWkHNPRFf8JgdpzGd96L
 sets: [EVO, FAB]
+codes: [EVO235, FAB168]
 ---
 
 **Shriek Razors** — Assassin Equipment - Arms · 1 defense

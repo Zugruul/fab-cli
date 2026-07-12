@@ -1,5 +1,5 @@
 ---
-tags: [card, ursur-the-soul-reaper, ursur, soul, reaper, shadow, token, demon, ally]
+tags: [card, ursur-the-soul-reaper, ursur, soul, reaper, shadow, token, demon, ally, fab022, fab042, mon220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pN9zPNQfc6GGrwdgMBLkj) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ types: [Token]
 subtypes: [Demon, Ally]
 unique-id: pN9zPNQfc6GGrwdgMBLkj
 sets: [FAB, MON]
+codes: [FAB022, FAB042, MON220]
 ---
 
 **Ursur, the Soul Reaper** — Shadow Token - Demon Ally · 6 power · 6 health

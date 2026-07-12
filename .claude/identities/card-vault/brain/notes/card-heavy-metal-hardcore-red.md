@@ -1,5 +1,5 @@
 ---
-tags: [card, heavy-metal-hardcore, heavy, metal, hardcore, mechanologist, action, attack, boost, pitch-1, cost-0]
+tags: [card, heavy-metal-hardcore, heavy, metal, hardcore, mechanologist, action, attack, boost, pitch-1, cost-0, pen072]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kcf7qcRNnNdCk8NL9N7NJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost]
 unique-id: kcf7qcRNnNdCk8NL9N7NJ
 sets: [PEN]
+codes: [PEN072]
 ---
 
 **Heavy Metal Hardcore (red)** — Mechanologist Action - Attack · cost 0 · 3 power · 3 defense

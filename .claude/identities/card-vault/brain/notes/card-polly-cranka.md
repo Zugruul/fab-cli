@@ -1,5 +1,5 @@
 ---
-tags: [card, polly-cranka, polly, cranka, companion, off-hand, ally, puffin, crank, perched]
+tags: [card, polly-cranka, polly, cranka, companion, off-hand, ally, puffin, crank, perched, sea003]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMTq8GLHDK9ztDckQNDDw) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Puffin]
 keywords: [Crank, Perched]
 unique-id: WMTq8GLHDK9ztDckQNDDw
 sets: [SEA]
+codes: [SEA003]
 ---
 
 **Polly Cranka** — Puffin Companion - Off-Hand Ally · 1 health

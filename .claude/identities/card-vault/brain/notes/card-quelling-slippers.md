@@ -1,5 +1,5 @@
 ---
-tags: [card, quelling-slippers, quelling, slippers, generic, equipment, legs, quell-1]
+tags: [card, quelling-slippers, quelling, slippers, generic, equipment, legs, quell-1, fai006, kat006, upr186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DMht6KBFhqWNdGBJNL7NB) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Legs]
 keywords: [Quell 1]
 unique-id: DMht6KBFhqWNdGBJNL7NB
 sets: [FAI, KAT, UPR]
+codes: [FAI006, KAT006, UPR186]
 ---
 
 **Quelling Slippers** — Generic Equipment - Legs · 0 defense

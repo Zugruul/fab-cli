@@ -1,5 +1,5 @@
 ---
-tags: [card, rites-of-lightning, rites, lightning, runeblade, elemental, action, attack, lightning-fusion, go-again, pitch-1, cost-1]
+tags: [card, rites-of-lightning, rites, lightning, runeblade, elemental, action, attack, lightning-fusion, go-again, pitch-1, cost-1, bri027, ele070]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bq8bmCkrPKHgb7fMRPkjM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Lightning Fusion, Go again]
 unique-id: bq8bmCkrPKHgb7fMRPkjM
 sets: [BRI, ELE]
+codes: [BRI027, ELE070]
 ---
 
 **Rites of Lightning (red)** — Elemental Runeblade Action - Attack · cost 1 · 4 power · 3 defense

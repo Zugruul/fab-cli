@@ -1,5 +1,5 @@
 ---
-tags: [card, up-on-a-pedestal, up, pedestal, guardian, instant, aura, revered, suspense, pitch-3, cost-0]
+tags: [card, up-on-a-pedestal, up, pedestal, guardian, instant, aura, revered, suspense, pitch-3, cost-0, aps028, lgs441, sup014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qGKpfJNFKgrQqDrwLzqdQ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ other-types: [Revered]
 keywords: [Suspense]
 unique-id: qGKpfJNFKgrQqDrwLzqdQ
 sets: [APS, LGS, SUP]
+codes: [APS028, LGS441, SUP014]
 ---
 
 **Up on a Pedestal (blue)** — Revered Guardian Instant - Aura · cost 0 · 2 defense

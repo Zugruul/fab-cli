@@ -1,5 +1,5 @@
 ---
-tags: [card, comeback-kicks, comeback, kicks, equipment, legs, revered, battleworn]
+tags: [card, comeback-kicks, comeback, kicks, equipment, legs, revered, battleworn, pen288]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6fPwHjKFPwPTCfRgmrkB9) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ other-types: [Revered]
 keywords: [Battleworn]
 unique-id: 6fPwHjKFPwPTCfRgmrkB9
 sets: [PEN]
+codes: [PEN288]
 ---
 
 **Comeback Kicks** — Revered Equipment - Legs · 1 defense

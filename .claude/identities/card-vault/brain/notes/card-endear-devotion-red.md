@@ -1,5 +1,5 @@
 ---
-tags: [card, endear-devotion, endear, devotion, warrior, draconic, attack-reaction, pitch-1, cost-1]
+tags: [card, endear-devotion, endear, devotion, warrior, draconic, attack-reaction, pitch-1, cost-1, fng012, gem013, hnt104]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9zPDb7dgNqTgDTpGNDQHg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: 9zPDb7dgNqTgDTpGNDQHg
 sets: [FNG, GEM, HNT]
+codes: [FNG012, GEM013, HNT104]
 ---
 
 **Endear Devotion (red)** — Draconic Warrior Attack Reaction · cost 1 · 2 defense

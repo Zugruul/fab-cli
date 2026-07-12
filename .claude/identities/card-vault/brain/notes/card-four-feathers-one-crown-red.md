@@ -1,5 +1,5 @@
 ---
-tags: [card, four-feathers-one-crown, four, feathers, one, crown, draconic, action, attack, pitch-1, cost-0]
+tags: [card, four-feathers-one-crown, four, feathers, one, crown, draconic, action, attack, pitch-1, cost-0, pen256]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnpHhBNBrWPC89LLC8td7) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: PnpHhBNBrWPC89LLC8td7
 sets: [PEN]
+codes: [PEN256]
 ---
 
 **Four Feathers One Crown (red)** — Draconic Action - Attack · cost 0 · 2 power · 3 defense

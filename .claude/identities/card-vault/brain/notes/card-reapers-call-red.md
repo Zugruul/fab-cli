@@ -1,5 +1,5 @@
 ---
-tags: [card, reapers-call, reapers, call, assassin, action, attack, stealth, pitch-1, cost-0]
+tags: [card, reapers-call, reapers, call, assassin, action, attack, stealth, pitch-1, cost-0, hnt044, wod011]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bMLgLcCJHFbLj6bwqqNRN) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Stealth]
 unique-id: bMLgLcCJHFbLj6bwqqNRN
 sets: [HNT, WOD]
+codes: [HNT044, WOD011]
 ---
 
 **Reaper's Call (red)** — Assassin Action - Attack · cost 0 · 3 power · 3 defense

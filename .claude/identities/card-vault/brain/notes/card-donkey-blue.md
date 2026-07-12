@@ -1,5 +1,5 @@
 ---
-tags: [card, donkey, warrior, attack-reaction, wager, pitch-3, cost-0]
+tags: [card, donkey, warrior, attack-reaction, wager, pitch-3, cost-0, fab484, mpw042]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NmQKTmjkndPjrGGW8bBLk) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Attack Reaction]
 keywords: [Wager]
 unique-id: NmQKTmjkndPjrGGW8bBLk
 sets: [FAB, MPW]
+codes: [FAB484, MPW042]
 ---
 
 **Donkey (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

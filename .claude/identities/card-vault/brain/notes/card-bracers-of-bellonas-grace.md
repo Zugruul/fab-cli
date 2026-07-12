@@ -1,5 +1,5 @@
 ---
-tags: [card, bracers-of-bellonas-grace, bracers, bellonas, grace, warrior, light, equipment, arms, charge, blade-break]
+tags: [card, bracers-of-bellonas-grace, bracers, bellonas, grace, warrior, light, equipment, arms, charge, blade-break, asb005]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kkh8t7dFfWtf7WBRJWNNJ) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ subtypes: [Arms]
 keywords: [Charge, Blade Break]
 unique-id: Kkh8t7dFfWtf7WBRJWNNJ
 sets: [ASB]
+codes: [ASB005]
 ---
 
 **Bracers of Bellona's Grace** — Light Warrior Equipment - Arms · 2 defense

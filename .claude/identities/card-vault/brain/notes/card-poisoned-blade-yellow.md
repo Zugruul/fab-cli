@@ -1,5 +1,5 @@
 ---
-tags: [card, poisoned-blade, poisoned, blade, assassin, ninja, action, attack, go-again, pitch-2, cost-1]
+tags: [card, poisoned-blade, poisoned, blade, assassin, ninja, action, attack, go-again, pitch-2, cost-1, hnt186]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HK8KdHmNDkgcFgTPcdKbD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: HK8KdHmNDkgcFgTPcdKbD
 sets: [HNT]
+codes: [HNT186]
 ---
 
 **Poisoned Blade (yellow)** — Assassin / Ninja Action - Attack · cost 1 · 2 power · 2 defense

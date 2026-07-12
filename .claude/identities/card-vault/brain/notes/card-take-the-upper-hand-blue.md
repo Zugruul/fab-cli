@@ -1,5 +1,5 @@
 ---
-tags: [card, take-the-upper-hand, take, upper, hand, warrior, attack-reaction, pitch-3, cost-0]
+tags: [card, take-the-upper-hand, take, upper, hand, warrior, attack-reaction, pitch-3, cost-0, hvy114]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8fDjHmMPJKnqMtqcHbQBw) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: 8fDjHmMPJKnqMtqcHbQBw
 sets: [HVY]
+codes: [HVY114]
 ---
 
 **Take the Upper Hand (blue)** — Warrior Attack Reaction · cost 0 · 3 defense

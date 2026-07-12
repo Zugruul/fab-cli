@@ -1,5 +1,5 @@
 ---
-tags: [card, escalate-bloodshed, escalate, bloodshed, warrior, instant, aura, pitch-1, cost-0]
+tags: [card, escalate-bloodshed, escalate, bloodshed, warrior, instant, aura, pitch-1, cost-0, sea253]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NdcgmHW9WJnCHKNfLRhDd) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ types: [Instant]
 subtypes: [Aura]
 unique-id: NdcgmHW9WJnCHKNfLRhDd
 sets: [SEA]
+codes: [SEA253]
 ---
 
 **Escalate Bloodshed (red)** — Warrior Instant - Aura · cost 0

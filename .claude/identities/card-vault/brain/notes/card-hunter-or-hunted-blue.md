@@ -1,5 +1,5 @@
 ---
-tags: [card, hunter-or-hunted, hunter, or, hunted, assassin, defense-reaction, contract, pitch-3, cost-3]
+tags: [card, hunter-or-hunted, hunter, or, hunted, assassin, defense-reaction, contract, pitch-3, cost-3, sup245]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9ktNWqbdPNrBJPNnCQCgb) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Contract]
 unique-id: 9ktNWqbdPNrBJPNnCQCgb
 sets: [SUP]
+codes: [SUP245]
 ---
 
 **Hunter or Hunted? (blue)** — Assassin Defense Reaction · cost 3 · 4 defense

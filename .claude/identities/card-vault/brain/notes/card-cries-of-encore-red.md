@@ -1,5 +1,5 @@
 ---
-tags: [card, cries-of-encore, cries, encore, guardian, action, attack, revered, the-crowd-cheers, pitch-1, cost-3]
+tags: [card, cries-of-encore, cries, encore, guardian, action, attack, revered, the-crowd-cheers, pitch-1, cost-3, sup012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JdRffqrPCN9BQRd8gq9BW) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: JdRffqrPCN9BQRd8gq9BW
 sets: [SUP]
+codes: [SUP012]
 ---
 
 **Cries of Encore (red)** — Revered Guardian Action - Attack · cost 3 · 7 power · 3 defense

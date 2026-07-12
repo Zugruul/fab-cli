@@ -1,5 +1,5 @@
 ---
-tags: [card, calmveil-of-volthaven, calmveil, volthaven, lightning, instant, pitch-1, cost-2]
+tags: [card, calmveil-of-volthaven, calmveil, volthaven, lightning, instant, pitch-1, cost-2, omn184]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HcTHkbNfWbQNCbNdmnhBB) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Instant]
 unique-id: HcTHkbNfWbQNCbNdmnhBB
 sets: [OMN]
+codes: [OMN184]
 ---
 
 **Calmveil of Volthaven (red)** — Lightning Instant · cost 2

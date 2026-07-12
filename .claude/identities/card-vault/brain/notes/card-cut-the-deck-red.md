@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-the-deck, cut, deck, warrior, attack-reaction, pitch-1, cost-1]
+tags: [card, cut-the-deck, cut, deck, warrior, attack-reaction, pitch-1, cost-1, hvy106, ksi014]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6jHQz9TfCjcddBGqKkWgJ) · https://cardvault.fabtcg.com/"
@@ -15,6 +15,7 @@ classes: [Warrior]
 types: [Attack Reaction]
 unique-id: 6jHQz9TfCjcddBGqKkWgJ
 sets: [HVY, KSI]
+codes: [HVY106, KSI014]
 ---
 
 **Cut the Deck (red)** — Warrior Attack Reaction · cost 1 · 3 defense

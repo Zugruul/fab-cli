@@ -1,5 +1,5 @@
 ---
-tags: [card, big-shot, big, shot, mechanologist, action, attack, pitch-1, cost-3]
+tags: [card, big-shot, big, shot, mechanologist, action, attack, pitch-1, cost-3, evo153]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8FG8jW7HFB6fmBR6mkQdn) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 8FG8jW7HFB6fmBR6mkQdn
 sets: [EVO]
+codes: [EVO153]
 ---
 
 **Big Shot (red)** — Mechanologist Action - Attack · cost 3 · 6 power · 3 defense

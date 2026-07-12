@@ -1,5 +1,5 @@
 ---
-tags: [card, bull-bar, bull, bar, mechanologist, action, attack, boost, overpower, pitch-3, cost-2]
+tags: [card, bull-bar, bull, bar, mechanologist, action, attack, boost, overpower, pitch-3, cost-2, evo149]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 69rMfrhmMBTgKkhmqHn6W) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost, Overpower]
 unique-id: 69rMfrhmMBTgKkhmqHn6W
 sets: [EVO]
+codes: [EVO149]
 ---
 
 **Bull Bar (blue)** — Mechanologist Action - Attack · cost 2 · 3 power · 3 defense

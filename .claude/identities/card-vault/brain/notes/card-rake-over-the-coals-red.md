@@ -1,5 +1,5 @@
 ---
-tags: [card, rake-over-the-coals, rake, over, coals, draconic, instant, pitch-1, cost-0]
+tags: [card, rake-over-the-coals, rake, over, coals, draconic, instant, pitch-1, cost-0, gem019, hnt156]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rp7FC6BPnwwPtMWdhWnJD) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Draconic]
 types: [Instant]
 unique-id: Rp7FC6BPnwwPtMWdhWnJD
 sets: [GEM, HNT]
+codes: [GEM019, HNT156]
 ---
 
 **Rake Over the Coals (red)** — Draconic Instant · cost 0

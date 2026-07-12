@@ -1,5 +1,5 @@
 ---
-tags: [card, tempest-aurora, tempest, aurora, wizard, action, go-again, pitch-2, cost-0]
+tags: [card, tempest-aurora, tempest, aurora, wizard, action, go-again, pitch-2, cost-0, dyn210]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LWgK7g7ftJ6kWhjg9RQH7) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: LWgK7g7ftJ6kWhjg9RQH7
 sets: [DYN]
+codes: [DYN210]
 ---
 
 **Tempest Aurora (yellow)** — Wizard Action · cost 0 · 2 defense

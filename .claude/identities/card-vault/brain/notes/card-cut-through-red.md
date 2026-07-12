@@ -1,5 +1,5 @@
 ---
-tags: [card, cut-through, cut, through, assassin, ninja, action, attack, go-again, pitch-1, cost-0]
+tags: [card, cut-through, cut, through, assassin, ninja, action, attack, go-again, pitch-1, cost-0, gem027, hnt176]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qwHFTzdTJW6mjr8hmtnWp) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: qwHFTzdTJW6mjr8hmtnWp
 sets: [GEM, HNT]
+codes: [GEM027, HNT176]
 ---
 
 **Cut Through (red)** — Assassin / Ninja Action - Attack · cost 0 · 3 power · 2 defense

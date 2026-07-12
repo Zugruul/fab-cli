@@ -1,5 +1,5 @@
 ---
-tags: [card, sift, generic, action, go-again, pitch-1, cost-0]
+tags: [card, sift, generic, action, go-again, pitch-1, cost-0, upr197]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFQzCPdqFTwbhn7jMKkjg) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: rFQzCPdqFTwbhn7jMKkjg
 sets: [UPR]
+codes: [UPR197]
 ---
 
 **Sift (red)** — Generic Action · cost 0 · 3 defense

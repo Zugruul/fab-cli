@@ -1,5 +1,5 @@
 ---
-tags: [card, mask-of-the-pouncing-lynx, mask, pouncing, lynx, ninja, equipment, head, blade-break]
+tags: [card, mask-of-the-pouncing-lynx, mask, pouncing, lynx, ninja, equipment, head, blade-break, evr037, fab079]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GBDFTmjdTmgRCdHngGWNR) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: GBDFTmjdTmgRCdHngGWNR
 sets: [EVR, FAB]
+codes: [EVR037, FAB079]
 ---
 
 **Mask of the Pouncing Lynx** — Ninja Equipment - Head · 2 defense

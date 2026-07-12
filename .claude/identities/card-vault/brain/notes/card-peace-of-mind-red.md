@@ -1,5 +1,5 @@
 ---
-tags: [card, peace-of-mind, peace, mind, generic, instant, pitch-1, cost-2]
+tags: [card, peace-of-mind, peace, mind, generic, instant, pitch-1, cost-2, fab131, out231, uzu016]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NGjkmJLnHHqG7GGcGFk69) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: NGjkmJLnHHqG7GGcGFk69
 sets: [FAB, OUT, UZU]
+codes: [FAB131, OUT231, UZU016]
 ---
 
 **Peace of Mind (red)** — Generic Instant · cost 2

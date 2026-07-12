@@ -1,5 +1,5 @@
 ---
-tags: [card, breaking-point, breaking, point, draconic, action, attack, rupture, pitch-1, cost-1]
+tags: [card, breaking-point, breaking, point, draconic, action, attack, rupture, pitch-1, cost-1, fab091, upr093]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qT78mFRmt9KQfQdGwfnJD) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Rupture]
 unique-id: qT78mFRmt9KQfQdGwfnJD
 sets: [FAB, UPR]
+codes: [FAB091, UPR093]
 ---
 
 **Breaking Point (red)** — Draconic Action - Attack · cost 1 · 5 power · 3 defense

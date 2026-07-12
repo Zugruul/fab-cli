@@ -1,5 +1,5 @@
 ---
-tags: [card, gold-hunter-marauder, gold, hunter, marauder, pirate, action, attack, overpower, pitch-2, cost-3]
+tags: [card, gold-hunter-marauder, gold, hunter, marauder, pirate, action, attack, overpower, pitch-2, cost-3, sea164]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KgPDCHhKBMbLfN6c8kwBJ) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Overpower]
 unique-id: KgPDCHhKBMbLfN6c8kwBJ
 sets: [SEA]
+codes: [SEA164]
 ---
 
 **Gold Hunter Marauder (yellow)** — Pirate Action - Attack · cost 3 · 6 power · 2 defense

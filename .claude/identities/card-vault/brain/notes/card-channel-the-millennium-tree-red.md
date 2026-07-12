@@ -1,5 +1,5 @@
 ---
-tags: [card, channel-the-millennium-tree, channel, millennium, tree, earth, action, aura, go-again, channel-earth, amp-3, pitch-1, cost-3]
+tags: [card, channel-the-millennium-tree, channel, millennium, tree, earth, action, aura, go-again, channel-earth, amp-3, pitch-1, cost-3, fab263, ros033]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wkHBqcWJQwCLr9fLKLpdw) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again, Channel Earth, Amp 3]
 unique-id: wkHBqcWJQwCLr9fLKLpdw
 sets: [FAB, ROS]
+codes: [FAB263, ROS033]
 ---
 
 **Channel the Millennium Tree (red)** — Earth Action - Aura · cost 3 · 3 defense

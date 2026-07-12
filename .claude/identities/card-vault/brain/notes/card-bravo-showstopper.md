@@ -1,5 +1,5 @@
 ---
-tags: [card, bravo-showstopper, bravo, showstopper, guardian, hero, adult, dominate]
+tags: [card, bravo-showstopper, bravo, showstopper, guardian, hero, adult, dominate, 1hp043, bvo001, cru022, her002, her022, win002, wtr038]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtLDgPBR7HqDqhDzJMHmk) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Dominate]
 unique-id: NtLDgPBR7HqDqhDzJMHmk
 sets: [1HP, BVO, CRU, HER, WIN, WTR]
+codes: [1HP043, BVO001, CRU022, HER002, HER022, WIN002, WTR038]
 ---
 
 **Bravo, Showstopper** — Guardian Hero · 40 health · 4 int

@@ -1,5 +1,5 @@
 ---
-tags: [card, scurv-stowaway, scurv, stowaway, pirate, thief, hero, young, go-again]
+tags: [card, scurv-stowaway, scurv, stowaway, pirate, thief, hero, young, go-again, sea123]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKgfQDwNnGH8GtfL9RkPG) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ types: [Hero]
 keywords: [Go again]
 unique-id: gKgfQDwNnGH8GtfL9RkPG
 sets: [SEA]
+codes: [SEA123]
 ---
 
 **Scurv, Stowaway** — Pirate Thief Hero - Young · 20 health · 4 int

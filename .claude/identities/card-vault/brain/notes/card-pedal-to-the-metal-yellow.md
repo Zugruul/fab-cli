@@ -1,5 +1,5 @@
 ---
-tags: [card, pedal-to-the-metal, pedal, metal, mechanologist, action, attack, boost, dominate, pitch-2, cost-2]
+tags: [card, pedal-to-the-metal, pedal, metal, mechanologist, action, attack, boost, dominate, pitch-2, cost-2, 1hp197, arc012]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hqdkcKzDpMTrNrNjKPk7n) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Boost, Dominate]
 unique-id: hqdkcKzDpMTrNrNjKPk7n
 sets: [1HP, ARC]
+codes: [1HP197, ARC012]
 ---
 
 **Pedal to the Metal (yellow)** — Mechanologist Action - Attack · cost 2 · 4 power · 3 defense

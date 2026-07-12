@@ -1,5 +1,5 @@
 ---
-tags: [card, polarity-reversal-script, polarity, reversal, script, mechanologist, action, item, crank, pitch-1, cost-1]
+tags: [card, polarity-reversal-script, polarity, reversal, script, mechanologist, action, item, crank, pitch-1, cost-1, evo078]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jfHbfHfWB7KPd8NTmqDd9) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Crank]
 unique-id: jfHbfHfWB7KPd8NTmqDd9
 sets: [EVO]
+codes: [EVO078]
 ---
 
 **Polarity Reversal Script (red)** — Mechanologist Action - Item · cost 1

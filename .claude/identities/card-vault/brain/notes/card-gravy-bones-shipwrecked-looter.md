@@ -1,5 +1,5 @@
 ---
-tags: [card, gravy-bones-shipwrecked-looter, gravy, bones, shipwrecked, looter, pirate, necromancer, hero, adult]
+tags: [card, gravy-bones-shipwrecked-looter, gravy, bones, shipwrecked, looter, pirate, necromancer, hero, adult, agb001, sea043]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wbjNnhBq6cMwDfwdtrkhn) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ classes: [Pirate, Necromancer]
 types: [Hero]
 unique-id: wbjNnhBq6cMwDfwdtrkhn
 sets: [AGB, SEA]
+codes: [AGB001, SEA043]
 ---
 
 **Gravy Bones, Shipwrecked Looter** — Pirate Necromancer Hero · 40 health · 4 int

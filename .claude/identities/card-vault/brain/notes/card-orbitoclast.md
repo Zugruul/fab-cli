@@ -1,5 +1,5 @@
 ---
-tags: [card, orbitoclast, assassin, weapon, dagger, 1h, piercing-1]
+tags: [card, orbitoclast, assassin, weapon, dagger, 1h, piercing-1, out007, out008]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wrBpz9J66tTJtRK67FWdp) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Dagger, 1H]
 keywords: [Piercing 1]
 unique-id: wrBpz9J66tTJtRK67FWdp
 sets: [OUT]
+codes: [OUT007, OUT008]
 ---
 
 **Orbitoclast** — Assassin Weapon - Dagger (1H) · 1 power

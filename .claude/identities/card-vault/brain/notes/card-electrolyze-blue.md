@@ -1,5 +1,5 @@
 ---
-tags: [card, electrolyze, lightning, action, attack, go-again, pitch-3, cost-1]
+tags: [card, electrolyze, lightning, action, attack, go-again, pitch-3, cost-1, omn165]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wmn7GbbMWqtGtTpqBk6QF) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go again]
 unique-id: wmn7GbbMWqtGtTpqBk6QF
 sets: [OMN]
+codes: [OMN165]
 ---
 
 **Electrolyze (blue)** — Lightning Action - Attack · cost 1 · 2 power · 0 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, arcanite-skullcap, arcanite, skullcap, generic, equipment, head, arcane-barrier-3, battleworn]
+tags: [card, arcanite-skullcap, arcanite, skullcap, generic, equipment, head, arcane-barrier-3, battleworn, arc150, evr154, fab007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NQDNdGfjP6bd8WHP8QNnt) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 3, Battleworn]
 unique-id: NQDNdGfjP6bd8WHP8QNnt
 sets: [ARC, EVR, FAB]
+codes: [ARC150, EVR154, FAB007]
 ---
 
 **Arcanite Skullcap** — Generic Equipment - Head · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, oscilio-forked-continuum, oscilio, forked, continuum, wizard, lightning, hero, adult]
+tags: [card, oscilio-forked-continuum, oscilio, forked, continuum, wizard, lightning, hero, adult, omn094]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nqbttmdCrgTbFBjJBzLtz) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ talents: [Lightning]
 types: [Hero]
 unique-id: nqbttmdCrgTbFBjJBzLtz
 sets: [OMN]
+codes: [OMN094]
 ---
 
 **Oscilio, Forked Continuum** — Lightning Wizard Hero · 38 health · 4 int

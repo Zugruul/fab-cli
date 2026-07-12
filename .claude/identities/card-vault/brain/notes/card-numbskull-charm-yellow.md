@@ -1,5 +1,5 @@
 ---
-tags: [card, numbskull-charm, numbskull, charm, brute, instant, revered, the-crowd-cheers, pitch-2, cost-0]
+tags: [card, numbskull-charm, numbskull, charm, brute, instant, revered, the-crowd-cheers, pitch-2, cost-0, fab370, lgs422, sup007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wHhtChfRBPBbjKqcmrMJf) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Revered]
 keywords: [The Crowd Cheers]
 unique-id: wHhtChfRBPBbjKqcmrMJf
 sets: [FAB, LGS, SUP]
+codes: [FAB370, LGS422, SUP007]
 ---
 
 **Numbskull Charm (yellow)** — Revered Brute Instant · cost 0

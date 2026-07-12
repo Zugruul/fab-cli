@@ -1,5 +1,5 @@
 ---
-tags: [card, amnesia, generic, action, attack, pitch-1, cost-2]
+tags: [card, amnesia, generic, action, attack, pitch-1, cost-2, anq011, out183]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 87BJMWWHfPLKMqPbtmFHQ) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: 87BJMWWHfPLKMqPbtmFHQ
 sets: [ANQ, OUT]
+codes: [ANQ011, OUT183]
 ---
 
 **Amnesia (red)** — Generic Action - Attack · cost 2 · 6 power · 3 defense

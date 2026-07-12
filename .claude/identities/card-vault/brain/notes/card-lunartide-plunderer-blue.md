@@ -1,5 +1,5 @@
 ---
-tags: [card, lunartide-plunderer, lunartide, plunderer, shadow, action, attack, pitch-3, cost-3]
+tags: [card, lunartide-plunderer, lunartide, plunderer, shadow, action, attack, pitch-3, cost-3, mon208]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wFPpjqhRHHNdNkDbRffBF) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: wFPpjqhRHHNdNkDbRffBF
 sets: [MON]
+codes: [MON208]
 ---
 
 **Lunartide Plunderer (blue)** — Shadow Action - Attack · cost 3 · 5 power · 2 defense

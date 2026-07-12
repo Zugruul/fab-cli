@@ -1,5 +1,5 @@
 ---
-tags: [card, flicker-trick, flicker, trick, illusionist, defense-reaction, mirage, pitch-1, cost-0]
+tags: [card, flicker-trick, flicker, trick, illusionist, defense-reaction, mirage, pitch-1, cost-0, dtd218]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kCKqHQb8W96FJTWqnNhCj) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Defense Reaction]
 keywords: [Mirage]
 unique-id: kCKqHQb8W96FJTWqnNhCj
 sets: [DTD]
+codes: [DTD218]
 ---
 
 **Flicker Trick (red)** — Illusionist Defense Reaction · cost 0 · 5 defense

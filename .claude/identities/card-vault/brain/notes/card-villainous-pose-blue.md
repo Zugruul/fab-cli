@@ -1,5 +1,5 @@
 ---
-tags: [card, villainous-pose, villainous, pose, action, reviled, go-again, the-crowd-boos, pitch-3, cost-2]
+tags: [card, villainous-pose, villainous, pose, action, reviled, go-again, the-crowd-boos, pitch-3, cost-2, sup122]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hJgFfDPRWWmknCPnHCrrL) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ other-types: [Reviled]
 keywords: [Go again, The Crowd Boos]
 unique-id: hJgFfDPRWWmknCPnHCrrL
 sets: [SUP]
+codes: [SUP122]
 ---
 
 **Villainous Pose (blue)** — Reviled Action · cost 2 · 2 defense

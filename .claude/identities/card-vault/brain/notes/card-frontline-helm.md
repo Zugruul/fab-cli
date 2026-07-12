@@ -1,5 +1,5 @@
 ---
-tags: [card, frontline-helm, frontline, helm, generic, equipment, head, blade-break]
+tags: [card, frontline-helm, frontline, helm, generic, equipment, head, blade-break, dtd222]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dw8F9WDckzGdK6hhQWnTt) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Head]
 keywords: [Blade Break]
 unique-id: dw8F9WDckzGdK6hhQWnTt
 sets: [DTD]
+codes: [DTD222]
 ---
 
 **Frontline Helm** — Generic Equipment - Head · 2 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, entangle, guardian, elemental, action, attack, earth-fusion, pitch-1, cost-3]
+tags: [card, entangle, guardian, elemental, action, attack, earth-fusion, pitch-1, cost-3, ele013]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LBzMBqHhtB9Tqqn8PTqMM) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: LBzMBqHhtB9Tqqn8PTqMM
 sets: [ELE]
+codes: [ELE013]
 ---
 
 **Entangle (red)** — Elemental Guardian Action - Attack · cost 3 · 7 power · 3 defense

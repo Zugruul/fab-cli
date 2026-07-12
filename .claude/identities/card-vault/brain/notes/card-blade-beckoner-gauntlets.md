@@ -1,5 +1,5 @@
 ---
-tags: [card, blade-beckoner-gauntlets, blade, beckoner, gauntlets, generic, equipment, arms, guardwell]
+tags: [card, blade-beckoner-gauntlets, blade, beckoner, gauntlets, generic, equipment, arms, guardwell, fng005, hnt218, sba007, sbr009, sbz005, sda008, siy006, ska007]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BtThQJzWQFwCfzfHWbjdJ) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Guardwell]
 unique-id: BtThQJzWQFwCfzfHWbjdJ
 sets: [FNG, HNT, SBA, SBR, SBZ, SDA, SIY, SKA]
+codes: [FNG005, HNT218, SBA007, SBR009, SBZ005, SDA008, SIY006, SKA007]
 ---
 
 **Blade Beckoner Gauntlets** — Generic Equipment - Arms · 1 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, titanium-bauble, titanium, bauble, generic, resource, pitch-3]
+tags: [card, titanium-bauble, titanium, bauble, generic, resource, pitch-3, dvr027, rvd027]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mc7J7CkCptbQQttbfJGMt) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Resource]
 unique-id: mc7J7CkCptbQQttbfJGMt
 sets: [DVR, RVD]
+codes: [DVR027, RVD027]
 ---
 
 **Titanium Bauble (blue)** — Generic Resource · 3 defense

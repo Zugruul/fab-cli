@@ -1,5 +1,5 @@
 ---
-tags: [card, big-game-trophy-shot, big, game, trophy, shot, pirate, ranger, action, go-again, pitch-2, cost-2]
+tags: [card, big-game-trophy-shot, big, game, trophy, shot, pirate, ranger, action, go-again, pitch-2, cost-2, fab345, sea087]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mcWPGtmMHtkG7RrMpnKgq) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: mcWPGtmMHtkG7RrMpnKgq
 sets: [FAB, SEA]
+codes: [FAB345, SEA087]
 ---
 
 **Big Game Trophy Shot (yellow)** — Pirate Ranger Action · cost 2 · 3 defense

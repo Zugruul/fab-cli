@@ -1,5 +1,5 @@
 ---
-tags: [card, hyper-scrapper, hyper, scrapper, mechanologist, action, attack, go-again, pitch-3]
+tags: [card, hyper-scrapper, hyper, scrapper, mechanologist, action, attack, go-again, pitch-3, evo100]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mC76qgRmwnBBqMkgTTfJ8) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Go Again]
 unique-id: mC76qgRmwnBBqMkgTTfJ8
 sets: [EVO]
+codes: [EVO100]
 ---
 
 **Hyper Scrapper (blue)** — Mechanologist Action - Attack · cost X · 2 power · 3 defense

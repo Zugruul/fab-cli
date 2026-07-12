@@ -1,5 +1,5 @@
 ---
-tags: [card, draw-a-crowd, draw, crowd, guardian, action, aura, go-again, pitch-3, cost-2]
+tags: [card, draw-a-crowd, draw, crowd, guardian, action, aura, go-again, pitch-3, cost-2, lgs389, mpg044]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tfzkkkrLtW9kkWFjpPLQP) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Go again]
 unique-id: tfzkkkrLtW9kkWFjpPLQP
 sets: [LGS, MPG]
+codes: [LGS389, MPG044]
 ---
 
 **Draw a Crowd (blue)** — Guardian Action - Aura · cost 2 · 3 defense

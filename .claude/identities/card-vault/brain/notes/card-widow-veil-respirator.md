@@ -1,5 +1,5 @@
 ---
-tags: [card, widow-veil-respirator, widow, veil, respirator, assassin, equipment, head, arcane-barrier-1, spellvoid-1]
+tags: [card, widow-veil-respirator, widow, veil, respirator, assassin, equipment, head, arcane-barrier-1, spellvoid-1, ros239]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid J9FcLDpkPpWNwfDgBqhm9) · https://cardvault.fabtcg.com/"
@@ -12,6 +12,7 @@ subtypes: [Head]
 keywords: [Arcane Barrier 1, Spellvoid 1]
 unique-id: J9FcLDpkPpWNwfDgBqhm9
 sets: [ROS]
+codes: [ROS239]
 ---
 
 **Widow Veil Respirator** — Assassin Equipment - Head

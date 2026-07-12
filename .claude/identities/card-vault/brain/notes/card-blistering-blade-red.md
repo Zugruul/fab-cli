@@ -1,5 +1,5 @@
 ---
-tags: [card, blistering-blade, blistering, blade, warrior, draconic, attack-reaction, pitch-1, cost-0]
+tags: [card, blistering-blade, blistering, blade, warrior, draconic, attack-reaction, pitch-1, cost-0, fng010, hnt106]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PRNMJn6THmFNCk9h68Bcw) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ talents: [Draconic]
 types: [Attack Reaction]
 unique-id: PRNMJn6THmFNCk9h68Bcw
 sets: [FNG, HNT]
+codes: [FNG010, HNT106]
 ---
 
 **Blistering Blade (red)** — Draconic Warrior Attack Reaction · cost 0 · 2 defense

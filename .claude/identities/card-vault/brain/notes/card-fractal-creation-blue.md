@@ -1,5 +1,5 @@
 ---
-tags: [card, fractal-creation, fractal, creation, illusionist, action, attack, fragment, pitch-3, cost-3]
+tags: [card, fractal-creation, fractal, creation, illusionist, action, attack, fragment, pitch-3, cost-3, omn040]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K6PPGtffFCcGHLNkQbdpm) · https://cardvault.fabtcg.com/"
@@ -18,6 +18,7 @@ subtypes: [Attack]
 keywords: [Fragment]
 unique-id: K6PPGtffFCcGHLNkQbdpm
 sets: [OMN]
+codes: [OMN040]
 ---
 
 **Fractal Creation (blue)** — Illusionist Action - Attack · cost 3 · 6 power · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, strike-gold, strike, gold, generic, action, attack, pitch-2, cost-0]
+tags: [card, strike-gold, strike, gold, generic, action, attack, pitch-2, cost-0, sea230]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GzCQMQGTHq66mwH7GbpQL) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ types: [Action]
 subtypes: [Attack]
 unique-id: GzCQMQGTHq66mwH7GbpQL
 sets: [SEA]
+codes: [SEA230]
 ---
 
 **Strike Gold (yellow)** — Generic Action - Attack · cost 0 · 3 power · 2 defense

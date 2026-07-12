@@ -1,5 +1,5 @@
 ---
-tags: [card, platinum-amulet, platinum, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0]
+tags: [card, platinum-amulet, platinum, amulet, generic, action, item, legendary, watery-grave, pitch-3, cost-0, sea194]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QmBfhgrGL6JDrhkn6ccg8) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ subtypes: [Item]
 keywords: [Legendary, Watery Grave]
 unique-id: QmBfhgrGL6JDrhkn6ccg8
 sets: [SEA]
+codes: [SEA194]
 ---
 
 **Platinum Amulet (blue)** — Generic Action - Item · cost 0

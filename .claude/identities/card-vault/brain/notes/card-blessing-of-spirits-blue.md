@@ -1,5 +1,5 @@
 ---
-tags: [card, blessing-of-spirits, blessing, spirits, illusionist, action, aura, ward-1, pitch-3, cost-1]
+tags: [card, blessing-of-spirits, blessing, spirits, illusionist, action, aura, ward-1, pitch-3, cost-1, dyn220]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rgrMj9dqrqq6mftqJ8Jq9) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Ward 1]
 unique-id: rgrMj9dqrqq6mftqJ8Jq9
 sets: [DYN]
+codes: [DYN220]
 ---
 
 **Blessing of Spirits (blue)** — Illusionist Action - Aura · cost 1 · 2 defense

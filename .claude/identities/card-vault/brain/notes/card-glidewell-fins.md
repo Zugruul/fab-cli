@@ -1,5 +1,5 @@
 ---
-tags: [card, glidewell-fins, glidewell, fins, ranger, equipment, arms, battleworn]
+tags: [card, glidewell-fins, glidewell, fins, ranger, equipment, arms, battleworn, sea097]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N8krkMtHG86TBmG8Fp69t) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Arms]
 keywords: [Battleworn]
 unique-id: N8krkMtHG86TBmG8Fp69t
 sets: [SEA]
+codes: [SEA097]
 ---
 
 **Glidewell Fins** — Ranger Equipment - Arms · 1 defense

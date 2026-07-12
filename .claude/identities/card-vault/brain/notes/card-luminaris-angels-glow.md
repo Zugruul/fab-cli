@@ -1,5 +1,5 @@
 ---
-tags: [card, luminaris-angels-glow, luminaris, angels, glow, illusionist, light, weapon, scepter, 2h, go-again]
+tags: [card, luminaris-angels-glow, luminaris, angels, glow, illusionist, light, weapon, scepter, 2h, go-again, hvy254]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zcHmW9zd8TRqMMGc8PHmh) · https://cardvault.fabtcg.com/"
@@ -13,6 +13,7 @@ subtypes: [Scepter, 2H]
 keywords: [Go again]
 unique-id: zcHmW9zd8TRqMMGc8PHmh
 sets: [HVY]
+codes: [HVY254]
 ---
 
 **Luminaris, Angel's Glow** — Light Illusionist Weapon - Scepter (2H)

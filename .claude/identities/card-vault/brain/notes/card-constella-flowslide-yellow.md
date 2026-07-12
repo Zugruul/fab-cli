@@ -1,5 +1,5 @@
 ---
-tags: [card, constella-flowslide, constella, flowslide, wizard, lightning, instant, starfall, pitch-2, cost-0]
+tags: [card, constella-flowslide, constella, flowslide, wizard, lightning, instant, starfall, pitch-2, cost-0, gem157, omn131]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TCdgGPCgzDgGCJrwQgdpF) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Instant]
 keywords: [Starfall]
 unique-id: TCdgGPCgzDgGCJrwQgdpF
 sets: [GEM, OMN]
+codes: [GEM157, OMN131]
 ---
 
 **Constella Flowslide (yellow)** — Lightning Wizard Instant · cost 0

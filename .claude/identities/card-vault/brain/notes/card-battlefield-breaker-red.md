@@ -1,5 +1,5 @@
 ---
-tags: [card, battlefield-breaker, battlefield, breaker, brute, shadow, action, attack, blood-debt, pitch-1, cost-3]
+tags: [card, battlefield-breaker, battlefield, breaker, brute, shadow, action, attack, blood-debt, pitch-1, cost-3, dtd121]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6bcFGQTBQ7pcWRkWTz8m) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Blood Debt]
 unique-id: N6bcFGQTBQ7pcWRkWTz8m
 sets: [DTD]
+codes: [DTD121]
 ---
 
 **Battlefield Breaker (red)** — Shadow Brute Action - Attack · cost 3 · 7 power · 3 defense

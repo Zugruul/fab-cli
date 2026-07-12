@@ -1,5 +1,5 @@
 ---
-tags: [card, tectonic-rift, tectonic, rift, guardian, action, go-again, pitch-3]
+tags: [card, tectonic-rift, tectonic, rift, guardian, action, go-again, pitch-3, evo238]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 69TdTgmPz69bNLRWPHLpK) · https://cardvault.fabtcg.com/"
@@ -16,6 +16,7 @@ types: [Action]
 keywords: [Go again]
 unique-id: 69TdTgmPz69bNLRWPHLpK
 sets: [EVO]
+codes: [EVO238]
 ---
 
 **Tectonic Rift (blue)** — Guardian Action · cost X · 2 defense

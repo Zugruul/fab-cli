@@ -1,5 +1,5 @@
 ---
-tags: [card, count-your-blessings, count, your, blessings, generic, instant, pitch-3, cost-2]
+tags: [card, count-your-blessings, count, your, blessings, generic, instant, pitch-3, cost-2, lgs359, ros225]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7c9ChFNmpbPDdgD7DNKth) · https://cardvault.fabtcg.com/"
@@ -14,6 +14,7 @@ classes: [Generic]
 types: [Instant]
 unique-id: 7c9ChFNmpbPDdgD7DNKth
 sets: [LGS, ROS]
+codes: [LGS359, ROS225]
 ---
 
 **Count Your Blessings (blue)** — Generic Instant · cost 2

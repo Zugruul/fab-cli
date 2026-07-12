@@ -1,5 +1,5 @@
 ---
-tags: [card, show-time, show, time, guardian, action, aura, bravo-specialization, pitch-3, cost-3]
+tags: [card, show-time, show, time, guardian, action, aura, bravo-specialization, pitch-3, cost-3, 1hp054, wtr047]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hMQTg6qwCLqnHBdGbP6wH) · https://cardvault.fabtcg.com/"
@@ -17,6 +17,7 @@ subtypes: [Aura]
 keywords: [Bravo Specialization]
 unique-id: hMQTg6qwCLqnHBdGbP6wH
 sets: [1HP, WTR]
+codes: [1HP054, WTR047]
 ---
 
 **Show Time! (blue)** — Guardian Action - Aura · cost 3 · 3 defense

@@ -1,5 +1,5 @@
 ---
-tags: [card, explosive-growth, explosive, growth, runeblade, elemental, action, attack, earth-fusion, pitch-2, cost-1]
+tags: [card, explosive-growth, explosive, growth, runeblade, elemental, action, attack, earth-fusion, pitch-2, cost-1, ele068]
 paths: []
 strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RTjbpgTNHN9bKgKNdKwpP) · https://cardvault.fabtcg.com/"
@@ -19,6 +19,7 @@ subtypes: [Attack]
 keywords: [Earth Fusion]
 unique-id: RTjbpgTNHN9bKgKNdKwpP
 sets: [ELE]
+codes: [ELE068]
 ---
 
 **Explosive Growth (yellow)** — Elemental Runeblade Action - Attack · cost 1 · 2 power · 3 defense
