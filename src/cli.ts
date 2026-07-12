@@ -42,6 +42,39 @@ import { loginWithPassword } from "./cognito";
 import { ensureIndex, buildIndex, loadIndex, search as searchLore, findDoc, readDocBody, updateSubmodule } from "./lore";
 import { updateRulesDocs, commitRulesDocs, RULES_DIR } from "./rulesDocs";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
+import { fetchGroups, fetchGroupProducts, fetchGroupPrices, type FetchFn as TcgcsvFetchFn } from "./pricing/tcgcsv";
+import { fetchProductConditions } from "./pricing/tcgplayerSearch";
+import { fetchCardmarketData } from "./pricing/cardmarket";
+import { fetchEurUsdRate } from "./pricing/fx";
+import { assembleCardComparison, printCardComparison, renderCsv, type CardCommandDeps } from "./pricing/cardCommand";
+import type { ExpansionAnchorMap } from "./pricing/expansionAnchoring";
+import expansionAnchorMapJson from "../data/cardmarket-expansions.json";
+import * as fs from "fs";
+
+const cardmarketExpansionAnchorMap = expansionAnchorMapJson as unknown as ExpansionAnchorMap;
+
+/**
+ * tcgcsv.com 401s requests with no User-Agent header (Node's default fetch
+ * sends none) — see scripts/cardmarket-expansions.ts for the same fix. The
+ * client itself doesn't default one, so command wiring supplies it here.
+ */
+const TCGCSV_USER_AGENT = "Mozilla/5.0";
+const tcgcsvFetchWithUserAgent: TcgcsvFetchFn = (url) =>
+  fetch(url, { headers: { "User-Agent": TCGCSV_USER_AGENT } }) as ReturnType<TcgcsvFetchFn>;
+
+function buildCardCommandDeps(): CardCommandDeps {
+  return {
+    fetchGroups: (opts) => fetchGroups({ ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
+    fetchGroupProducts: (groupId, opts) =>
+      fetchGroupProducts(groupId, { ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
+    fetchGroupPrices: (groupId, opts) =>
+      fetchGroupPrices(groupId, { ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
+    fetchProductConditions: (q, opts) => fetchProductConditions(q, opts),
+    fetchCardmarketData: (opts) => fetchCardmarketData(opts),
+    fetchEurUsdRate: (opts) => fetchEurUsdRate(opts),
+    expansionAnchorMap: cardmarketExpansionAnchorMap,
+  };
+}
 
 const program = new Command();
 
@@ -1161,6 +1194,52 @@ lore
     if (opts.filter) docs = docs.filter((d) => d.title.toLowerCase().includes(opts.filter!.toLowerCase()));
     for (const d of docs) console.log(`  ${chalk.bold(d.title)}  ${chalk.dim(d.path)}`);
     console.log(chalk.dim(`\n  ${docs.length} document(s)`));
+  });
+
+const priceComparison = program
+  .command("price-comparison")
+  .description("Compare Flesh & Blood single-card prices across TCGplayer and Cardmarket");
+
+priceComparison
+  .command("card <name>")
+  .description("Show per-condition prices for a card on every printing, plus cross-marketplace ratio tables")
+  .option("--csv [file]", "Emit the §9.3 CSV layout instead of tables (stdout, or a file path if given)")
+  .option("--refresh", "Bypass the tcgcsv/Cardmarket/FX disk caches and re-fetch")
+  .option("--currency <usd|eur>", "Common currency ratio tables convert to", "usd")
+  .action(async (name: string, opts: { csv?: boolean | string; refresh?: boolean; currency?: string }) => {
+    const currency = opts.currency === "eur" ? "eur" : "usd";
+    process.stdout.write(chalk.dim("Fetching price data…\r"));
+    const result = await assembleCardComparison(name, buildCardCommandDeps(), {
+      refresh: opts.refresh,
+      currency,
+    });
+    process.stdout.write("                        \r");
+
+    if (result.kind === "none") {
+      console.log(chalk.yellow(`No card matching "${name}" found in the TCGplayer catalog.`));
+      process.exitCode = 1;
+      return;
+    }
+    if (result.kind === "ambiguous") {
+      console.log(chalk.yellow(`"${name}" matches multiple cards — be more specific:`));
+      for (const candidate of result.candidates) console.log(`  ${candidate}`);
+      process.exitCode = 1;
+      return;
+    }
+
+    if (opts.csv) {
+      const csv = renderCsv(result);
+      if (typeof opts.csv === "string") {
+        fs.writeFileSync(opts.csv, csv + "\n");
+        console.log(chalk.dim(`Wrote ${opts.csv}`));
+      } else {
+        console.log(csv);
+      }
+    } else {
+      printCardComparison(result);
+    }
+
+    if (result.ratioError) process.exitCode = 1;
   });
 
 program.parseAsync(process.argv).catch((err: Error) => {

@@ -82,21 +82,19 @@ function mergeConditions(
   return merged;
 }
 
-interface CollapsedRow {
-  name: string;
-  set: string;
-  finish: Finish;
-  conditions: ConditionPrices;
-}
-
 /**
  * Collapses duplicate identities within a single provider's rows, cheapest
  * price per condition winning across the duplicates (§4.2). Preserves first-
- * seen order of each identity's first occurrence.
+ * seen order of each identity's first occurrence. Exported so callers that
+ * render a single provider's raw rows (e.g. the `card` command's price
+ * pages) apply the same collapse the matching engine applies internally —
+ * two same-identity rows must never appear as separate lines on a price
+ * page while the ratio page (built from the already-collapsed
+ * ComparisonRow[]) shows one.
  */
-function collapseDuplicates(rows: PriceRow[]): CollapsedRow[] {
+export function collapseDuplicates(rows: PriceRow[]): PriceRow[] {
   const order: string[] = [];
-  const byKey = new Map<string, CollapsedRow>();
+  const byKey = new Map<string, PriceRow>();
   for (const r of rows) {
     const key = matchKey(r.name, r.set, r.finish);
     const existing = byKey.get(key);
@@ -130,14 +128,14 @@ export function buildComparisonRows(
       : Object.entries(providerRows);
 
   const providerIds = entries.map(([id]) => id);
-  const collapsedByProvider = new Map<string, CollapsedRow[]>();
+  const collapsedByProvider = new Map<string, PriceRow[]>();
   for (const [providerId, rows] of entries) {
     collapsedByProvider.set(providerId, collapseDuplicates(rows));
   }
 
   // key -> providerId -> collapsed row (first-seen key order overall)
   const keyOrder: string[] = [];
-  const byKey = new Map<string, Map<string, CollapsedRow>>();
+  const byKey = new Map<string, Map<string, PriceRow>>();
 
   for (const providerId of providerIds) {
     for (const row of collapsedByProvider.get(providerId)!) {

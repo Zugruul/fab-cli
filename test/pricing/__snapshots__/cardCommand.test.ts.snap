@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renderCsv > emits 4 page comment headers and is byte-identical on repeated render 1`] = `
+"# page 1 — TCGplayer prices (USD)
+# currency: USD
+Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source
+Command and Conquer,Everfest,normal,9.5,market,9.5,adjacent:NM,9.5,adjacent:NM,9.5,adjacent:NM
+
+# page 2 — Cardmarket prices (EUR)
+# currency: EUR
+Name,Set,Finish,NM,NM Source,SP/LP,SP/LP Source,MP,MP Source,HP,HP Source
+Command and Conquer,Everfest,normal,7,trend,6,low,6,low,6,low
+
+# page 3 — Ratio: tcgplayer / cardmarket
+# ratio: tcgplayer / cardmarket
+# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)
+Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis
+Command and Conquer,Everfest,normal,+23.4%,market/trend,+43.9%,adjacent:NM/low,+43.9%,adjacent:NM/low,+43.9%,adjacent:NM/low
+
+# page 4 — Ratio: cardmarket / tcgplayer
+# ratio: cardmarket / tcgplayer
+# fx: 1 EUR = 1.1 USD (ECB 2026-07-11)
+Name,Set,Finish,NM,NM Basis,SP/LP,SP/LP Basis,MP,MP Basis,HP,HP Basis
+Command and Conquer,Everfest,normal,-18.9%,trend/market,-30.5%,low/adjacent:NM,-30.5%,low/adjacent:NM,-30.5%,low/adjacent:NM"
+`;

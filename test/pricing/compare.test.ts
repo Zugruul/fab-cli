@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import {
   buildComparisonRows,
   cardmarketSetName,
+  collapseDuplicates,
 } from "../../src/pricing/compare";
 import type { PriceRow, ConditionPrices } from "../../src/pricing/types";
 import type { ExpansionAnchorMap } from "../../src/pricing/expansionAnchoring";
@@ -166,6 +167,37 @@ describe("buildComparisonRows — within-provider duplicate collapse", () => {
     const normalRow = rows.find((r) => r.finish === "normal");
     expect(foilRow?.conditionsByProvider.tcgplayer.NM?.price).toBe(20);
     expect(normalRow?.conditionsByProvider.tcgplayer.NM?.price).toBe(1);
+  });
+});
+
+describe("collapseDuplicates (exported for single-provider rendering)", () => {
+  it("collapses same-identity rows into one, cheapest per condition winning", () => {
+    const rows = [
+      row(
+        "Command and Conquer",
+        "Everfest",
+        "normal",
+        conditions({ NM: 10, "SP/LP": 4 }),
+      ),
+      row(
+        "Command and Conquer",
+        "Everfest",
+        "normal",
+        conditions({ NM: 6, "SP/LP": 9 }),
+      ),
+    ];
+    const collapsed = collapseDuplicates(rows);
+    expect(collapsed).toHaveLength(1);
+    expect(collapsed[0].conditions.NM?.price).toBe(6);
+    expect(collapsed[0].conditions["SP/LP"]?.price).toBe(4);
+  });
+
+  it("leaves distinct identities (different set/finish) as separate rows", () => {
+    const rows = [
+      row("Command and Conquer", "Everfest", "normal", conditions({ NM: 10 })),
+      row("Command and Conquer", "Dynasty", "normal", conditions({ NM: 6 })),
+    ];
+    expect(collapseDuplicates(rows)).toHaveLength(2);
   });
 });
 
