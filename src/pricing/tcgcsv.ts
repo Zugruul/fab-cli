@@ -62,6 +62,20 @@ export type FetchResponse = {
 
 export type FetchFn = (url: string) => Promise<FetchResponse>;
 
+/**
+ * tcgcsv.com 401s requests with no User-Agent header (Node's default fetch
+ * sends none) — issue #45's OWNER comment. Only used when a caller doesn't
+ * inject its own `fetchFn` (tests, or a caller with different needs) — an
+ * override always wins, preserving test injectability.
+ */
+const DEFAULT_USER_AGENT = "Mozilla/5.0";
+
+function defaultFetchFn(url: string): Promise<FetchResponse> {
+  return fetch(url, {
+    headers: { "User-Agent": DEFAULT_USER_AGENT },
+  }) as unknown as Promise<FetchResponse>;
+}
+
 export class TcgcsvHttpError extends Error {
   constructor(
     public readonly url: string,
@@ -95,7 +109,7 @@ async function fetchEnvelope<T>(
   url: string,
   opts: TcgcsvOptions,
 ): Promise<T[]> {
-  const fetchFn = opts.fetchFn ?? (fetch as unknown as FetchFn);
+  const fetchFn = opts.fetchFn ?? defaultFetchFn;
   const retryBaseMs = opts.retryBaseMs ?? 300;
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {

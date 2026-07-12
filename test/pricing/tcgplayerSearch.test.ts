@@ -4,6 +4,7 @@ import * as path from "path";
 import {
   searchProductListings,
   fetchConditionListingsForSet,
+  fetchSetConditionListings,
   fetchProductConditions,
   StorefrontBlockedError,
   StorefrontHttpError,
@@ -158,16 +159,78 @@ describe("fetchConditionListingsForSet", () => {
       jsonResponse(loadJsonFixture("set-page-2")),
     ]);
 
-    const map = await fetchConditionListingsForSet("everfest", "Near Mint", {
-      fetchFn,
-      pageSize: 2,
-    });
+    const map = await fetchConditionListingsForSet(
+      "everfest",
+      "Near Mint",
+      "normal",
+      { fetchFn, pageSize: 2 },
+    );
 
     expect(calls).toHaveLength(2);
     expect(map.get(1001)).toBe(9.5);
     expect(map.get(1002)).toBe(4.75);
     expect(map.get(1003)).toBe(18.25);
     expect(map.size).toBe(3);
+  });
+
+  it("filters by a printing term matching only the requested finish (issue #61 follow-up applied to per-set batching)", async () => {
+    const { fetchFn, calls } = sequenceFetchFn([
+      jsonResponse(loadJsonFixture("set-page-1")),
+    ]);
+
+    await fetchConditionListingsForSet("everfest", "Near Mint", "foil", {
+      fetchFn,
+    });
+
+    const body = calls[0].body as {
+      listingSearch: { filters: { term: { printing?: string[] } } };
+    };
+    expect(body.listingSearch.filters.term.printing).toBeDefined();
+    expect(
+      body.listingSearch.filters.term.printing!.every((p) =>
+        p.includes("Foil"),
+      ),
+    ).toBe(true);
+  });
+});
+
+describe("fetchSetConditionListings", () => {
+  it("fetches all 4 conditions x 2 finishes for a set and returns per-productId, per-finish lowest prices", async () => {
+    const { fetchFn } = conditionFinishRoutedFetchFn();
+
+    const result = await fetchSetConditionListings("command-and-conquer", {
+      fetchFn,
+    });
+
+    const red = result.get(255918)!;
+    expect(red.normal).toEqual({
+      NM: 165.5,
+      "SP/LP": 150.0,
+      MP: 120.0,
+      HP: 95.0,
+    });
+    expect(red.foil).toEqual({
+      NM: 200.0,
+      "SP/LP": 180.0,
+      MP: 160.0,
+      HP: 140.0,
+    });
+  });
+
+  it("never issues more than 4 concurrent requests against the search host", async () => {
+    let active = 0;
+    let maxActive = 0;
+    const fetchFn: FetchFn = vi.fn(async () => {
+      active++;
+      maxActive = Math.max(maxActive, active);
+      await new Promise((resolve) => setTimeout(resolve, 5));
+      active--;
+      return jsonResponse(loadJsonFixture("nm-page"));
+    });
+
+    await fetchSetConditionListings("everfest", { fetchFn });
+
+    expect(maxActive).toBeLessThanOrEqual(4);
   });
 });
 

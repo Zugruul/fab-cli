@@ -42,34 +42,37 @@ import { loginWithPassword } from "./cognito";
 import { ensureIndex, buildIndex, loadIndex, search as searchLore, findDoc, readDocBody, updateSubmodule } from "./lore";
 import { updateRulesDocs, commitRulesDocs, RULES_DIR } from "./rulesDocs";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "./types";
-import { fetchGroups, fetchGroupProducts, fetchGroupPrices, type FetchFn as TcgcsvFetchFn } from "./pricing/tcgcsv";
-import { fetchProductConditions } from "./pricing/tcgplayerSearch";
+import { fetchGroups, fetchGroupProducts, fetchGroupPrices, fetchGroupData } from "./pricing/tcgcsv";
+import { fetchProductConditions, fetchSetConditionListings } from "./pricing/tcgplayerSearch";
 import { fetchCardmarketData } from "./pricing/cardmarket";
 import { fetchEurUsdRate } from "./pricing/fx";
 import { assembleCardComparison, printCardComparison, renderCsv, type CardCommandDeps } from "./pricing/cardCommand";
+import { runExport, type ExportCommandDeps } from "./pricing/exportCommand";
 import type { ExpansionAnchorMap } from "./pricing/expansionAnchoring";
 import expansionAnchorMapJson from "../data/cardmarket-expansions.json";
 import * as fs from "fs";
+import * as path from "path";
 
 const cardmarketExpansionAnchorMap = expansionAnchorMapJson as unknown as ExpansionAnchorMap;
 
-/**
- * tcgcsv.com 401s requests with no User-Agent header (Node's default fetch
- * sends none) — see scripts/cardmarket-expansions.ts for the same fix. The
- * client itself doesn't default one, so command wiring supplies it here.
- */
-const TCGCSV_USER_AGENT = "Mozilla/5.0";
-const tcgcsvFetchWithUserAgent: TcgcsvFetchFn = (url) =>
-  fetch(url, { headers: { "User-Agent": TCGCSV_USER_AGENT } }) as ReturnType<TcgcsvFetchFn>;
-
 function buildCardCommandDeps(): CardCommandDeps {
   return {
-    fetchGroups: (opts) => fetchGroups({ ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
-    fetchGroupProducts: (groupId, opts) =>
-      fetchGroupProducts(groupId, { ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
-    fetchGroupPrices: (groupId, opts) =>
-      fetchGroupPrices(groupId, { ...opts, fetchFn: tcgcsvFetchWithUserAgent }),
+    fetchGroups,
+    fetchGroupProducts,
+    fetchGroupPrices,
     fetchProductConditions: (q, opts) => fetchProductConditions(q, opts),
+    fetchCardmarketData: (opts) => fetchCardmarketData(opts),
+    fetchEurUsdRate: (opts) => fetchEurUsdRate(opts),
+    expansionAnchorMap: cardmarketExpansionAnchorMap,
+  };
+}
+
+function buildExportCommandDeps(): ExportCommandDeps {
+  return {
+    fetchGroups,
+    fetchGroupData,
+    fetchSetConditionListings: (setName, opts) =>
+      fetchSetConditionListings(setName, opts),
     fetchCardmarketData: (opts) => fetchCardmarketData(opts),
     fetchEurUsdRate: (opts) => fetchEurUsdRate(opts),
     expansionAnchorMap: cardmarketExpansionAnchorMap,
@@ -1240,6 +1243,70 @@ priceComparison
     }
 
     if (result.ratioError) process.exitCode = 1;
+  });
+
+priceComparison
+  .command("export")
+  .description("Export the full FAB singles catalog price comparison to CSV files (SPEC-PRICE §9.2)")
+  .option("--out <dir>", "Output directory", "./price-comparison/")
+  .option("--set <name...>", "Filter by tcgcsv group name (case-insensitive, repeatable). Default: full catalog")
+  .option("--refresh", "Bypass the tcgcsv/Cardmarket/FX disk caches and re-fetch")
+  .option("--currency <usd|eur>", "Common currency ratio pages convert to", "usd")
+  .action(async (opts: { out?: string; set?: string[]; refresh?: boolean; currency?: string }) => {
+    const currency = opts.currency === "eur" ? "eur" : "usd";
+    const outDir = opts.out ?? "./price-comparison/";
+
+    let result;
+    try {
+      result = await runExport(buildExportCommandDeps(), {
+        sets: opts.set,
+        currency,
+        refresh: opts.refresh,
+        onSetProgress: ({ index, total, groupName, productCount }) => {
+          console.log(
+            chalk.dim(`[${index}/${total}] ${groupName} — ${productCount} products`),
+          );
+        },
+      });
+    } catch (err) {
+      console.error(chalk.red(`Export aborted: ${(err as Error).message}`));
+      process.exitCode = 1;
+      return;
+    }
+
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, "prices-tcgplayer.csv"), result.pricesTcgplayerCsv + "\n");
+    fs.writeFileSync(path.join(outDir, "prices-cardmarket.csv"), result.pricesCardmarketCsv + "\n");
+    fs.writeFileSync(path.join(outDir, "unmatched.csv"), result.unmatchedCsv + "\n");
+    if (!result.ratioError) {
+      fs.writeFileSync(
+        path.join(outDir, "ratio-tcgplayer-cardmarket.csv"),
+        result.ratioTcgplayerCardmarketCsv + "\n",
+      );
+      fs.writeFileSync(
+        path.join(outDir, "ratio-cardmarket-tcgplayer.csv"),
+        result.ratioCardmarketTcgplayerCsv + "\n",
+      );
+    }
+
+    console.log();
+    console.log(chalk.bold(`Sets processed: ${result.summary.setsProcessed}`));
+    console.log(
+      `Rows — tcgplayer: ${result.summary.rowsPerPage.tcgplayer}, cardmarket: ${result.summary.rowsPerPage.cardmarket}`,
+    );
+    console.log(`Match rate: ${(result.summary.matchRate * 100).toFixed(1)}%`);
+    if (result.summary.degradedSets.length > 0) {
+      console.log(
+        chalk.yellow(`Degraded sets (tcgplayer 403): ${result.summary.degradedSets.join(", ")}`),
+      );
+    }
+    console.log(chalk.dim(`Elapsed: ${(result.summary.elapsedMs / 1000).toFixed(1)}s`));
+    console.log(chalk.dim(`Wrote output to ${outDir}`));
+
+    if (result.ratioError) {
+      console.log(chalk.red(result.ratioError));
+      process.exitCode = 1;
+    }
   });
 
 program.parseAsync(process.argv).catch((err: Error) => {

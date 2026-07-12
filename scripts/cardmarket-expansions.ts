@@ -38,14 +38,6 @@ const OUTPUT_PATH = path.join(
   "cardmarket-expansions.json",
 );
 
-/**
- * tcgcsv.com 401s requests with no User-Agent header (Node's default fetch
- * sends none); a plain browser-like UA is sufficient. Injected via the
- * client's existing `fetchFn` override rather than patching tcgcsv.ts.
- */
-const fetchWithUserAgent = (url: string) =>
-  fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } });
-
 function loadExistingOverrides(): Record<string, string> {
   if (!fs.existsSync(OUTPUT_PATH)) return {};
   const raw = fs.readFileSync(OUTPUT_PATH, "utf8");
@@ -64,15 +56,13 @@ function sortedByNumericKey<T>(record: Record<string, T>): Record<string, T> {
 
 async function main(): Promise<void> {
   console.log("Fetching tcgcsv groups...");
-  const groups = await fetchGroups({ fetchFn: fetchWithUserAgent });
+  const groups = await fetchGroups();
   console.log(`  ${groups.length} groups`);
 
   console.log("Fetching tcgcsv products per group (concurrency 4)...");
   const productsByGroupId = new Map<number, Product[]>();
   await mapWithConcurrency(groups, 4, async (group, index) => {
-    const products = await fetchGroupProducts(group.groupId, {
-      fetchFn: fetchWithUserAgent,
-    });
+    const products = await fetchGroupProducts(group.groupId);
     productsByGroupId.set(group.groupId, products);
     console.log(
       `  [${index + 1}/${groups.length}] ${group.name} — ${products.length} products`,

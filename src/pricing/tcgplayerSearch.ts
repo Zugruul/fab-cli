@@ -275,24 +275,34 @@ export async function searchProductListings(
 }
 
 /**
- * Paginates a (set, condition) storefront search until all product pages are
- * consumed. Export batching per SPEC-PRICE §6.2: one such call per (set,
- * condition), size ≈50.
+ * Paginates a (set, condition, finish) storefront search until all product
+ * pages are consumed. Export batching per SPEC-PRICE §6.2: one such call per
+ * (set, condition, finish), size ≈50.
+ *
+ * Finish-aware (PRICE-021, applying the same fix `fetchProductConditions`
+ * got in issue #61): the search API caps how many listings it returns per
+ * product, ranked price-ascending across ALL printings when no printing
+ * filter is given — so without a per-finish `printing` term filter, a
+ * cheaper finish's listings silently crowd out the other finish's within
+ * that cap. This is the same bug and the same fix as `fetchProductConditions`
+ * — see its NORMAL_PRINTINGS/FOIL_PRINTINGS doc comment.
  */
 export async function fetchConditionListingsForSet(
   setUrlValue: string,
   condition: TcgplayerCondition,
+  finish: Finish,
   opts: TcgplayerSearchOptions = {},
 ): Promise<Map<number, number>> {
   const size = opts.pageSize ?? DEFAULT_PAGE_SIZE;
   const lowestByProductId = new Map<number, number>();
+  const printing = [...printingsForFinish(finish)];
 
   let from = 0;
   let total = Infinity;
 
   while (from < total) {
     const page = await searchProductListings(
-      { setName: setUrlValue, condition, from, size },
+      { setName: setUrlValue, condition, printing, from, size },
       opts,
     );
     total = page.totalResults;
@@ -308,6 +318,42 @@ export async function fetchConditionListingsForSet(
   }
 
   return lowestByProductId;
+}
+
+/**
+ * Fetches an entire set's per-condition, per-finish lowest listing prices
+ * (8 combos: 4 conditions x 2 finishes, each paginated), concurrency capped
+ * at 4. Used by the `export` command (PRICE-021) — the per-set batched
+ * counterpart to `fetchProductConditions`'s per-product query.
+ */
+export async function fetchSetConditionListings(
+  setUrlValue: string,
+  opts: TcgplayerSearchOptions = {},
+): Promise<Map<number, FinishConditionPriceMap>> {
+  const combos = (ALL_CONDITIONS as TcgplayerCondition[]).flatMap((condition) =>
+    ALL_FINISHES.map((finish) => ({ condition, finish })),
+  );
+
+  const maps = await mapWithConcurrency(
+    combos,
+    MAX_CONCURRENCY,
+    ({ condition, finish }) =>
+      fetchConditionListingsForSet(setUrlValue, condition, finish, opts),
+  );
+
+  const byProductId = new Map<number, FinishConditionPriceMap>();
+  maps.forEach((map, i) => {
+    const { condition, finish } = combos[i];
+    const column = CONDITION_TO_COLUMN[condition];
+    for (const [productId, price] of map) {
+      const entry =
+        byProductId.get(productId) ?? emptyFinishConditionPriceMap();
+      entry[finish][column] = price;
+      byProductId.set(productId, entry);
+    }
+  });
+
+  return byProductId;
 }
 
 /** Per-productId lowest listing price, one entry per domain condition column (null when that condition has no listing). */
