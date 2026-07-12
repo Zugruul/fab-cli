@@ -10,9 +10,7 @@ describe("lookupCardCode", () => {
   it("returns the correct code for an exact card/set/finish match", () => {
     // Haze Bending's Everfest printing (id EVR141) carries both a Standard
     // (normal) and a Rainbow Foil row under the same printing id.
-    expect(lookupCardCode("Haze Bending", "Everfest", "normal")).toBe(
-      "EVR141",
-    );
+    expect(lookupCardCode("Haze Bending", "Everfest", "normal")).toBe("EVR141");
   });
 
   it("distinguishes normal vs foil when they carry different codes", () => {
@@ -30,9 +28,9 @@ describe("lookupCardCode", () => {
     expect(() =>
       lookupCardCode("Not A Real Card Name Xyz", "Everfest", "normal"),
     ).not.toThrow();
-    expect(lookupCardCode("Not A Real Card Name Xyz", "Everfest", "normal")).toBe(
-      null,
-    );
+    expect(
+      lookupCardCode("Not A Real Card Name Xyz", "Everfest", "normal"),
+    ).toBe(null);
   });
 
   it("returns null (never throws) for an unknown set on a known card", () => {
@@ -71,8 +69,8 @@ describe("lookupCardCode", () => {
   });
 
   it("normalizes the set name (case/whitespace-insensitive)", () => {
-    expect(
-      lookupCardCode("Haze Bending", "  everfest  ", "normal"),
-    ).toBe("EVR141");
+    expect(lookupCardCode("Haze Bending", "  everfest  ", "normal")).toBe(
+      "EVR141",
+    );
   });
 });
