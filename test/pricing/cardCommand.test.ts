@@ -371,4 +371,55 @@ describe("renderCsv", () => {
     expect(csv).not.toContain("# page 3");
     expect(csv).toContain("# ratio unavailable:");
   });
+
+  it("collapses same-identity duplicate rows on the price pages (§4.2) — cheapest per condition, one line", async () => {
+    // Two distinct Cardmarket idProducts that both normalize to the same
+    // name and anchor to the same set ("Everfest") — e.g. two listings for
+    // the same physical print. SPEC §4.2 requires the price page to show
+    // ONE row for this identity with the cheapest price per condition, not
+    // two duplicate lines (the ratio page already collapses via
+    // buildComparisonRows; the raw price pages must apply the same rule).
+    const cmProducts: CardmarketProduct[] = [
+      { idProduct: 100, name: "Command and Conquer", idExpansion: 42 },
+      { idProduct: 101, name: "Command and Conquer", idExpansion: 42 },
+    ];
+    const guideA: CardmarketPriceGuideRow = {
+      idProduct: 100,
+      trend: 10,
+      low: 9,
+    };
+    const guideB: CardmarketPriceGuideRow = {
+      idProduct: 101,
+      trend: 6,
+      low: 12,
+    };
+    const deps = makeDeps({
+      fetchCardmarketData: vi.fn().mockResolvedValue({
+        products: cmProducts,
+        priceGuideByProduct: new Map([
+          [100, guideA],
+          [101, guideB],
+        ]),
+        productsById: new Map([
+          [100, cmProducts[0]],
+          [101, cmProducts[1]],
+        ]),
+      }),
+    });
+    const result = await assembleCardComparison("command and conquer", deps);
+    expect(result.kind).toBe("found");
+    if (result.kind !== "found") return;
+
+    const csv = renderCsv(result);
+    const cmSection = csv.split("# page 2")[1].split("# page 3")[0];
+    const dataLines = cmSection
+      .trim()
+      .split("\n")
+      .filter((l) => l.startsWith("Command and Conquer"));
+    expect(dataLines).toHaveLength(1);
+    // cheapest NM (trend: 10 vs 6 -> 6) and cheapest SP/LP (low: 9 vs 12 -> 9)
+    expect(dataLines[0]).toBe(
+      "Command and Conquer,Everfest,normal,6,trend,9,low,9,low,9,low",
+    );
+  });
 });
