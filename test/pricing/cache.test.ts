@@ -107,7 +107,7 @@ describe("cachedFetch", () => {
     fs.writeFileSync(
       cacheFile,
       JSON.stringify({
-        fetchedAt: Date.now() - (23 * 60 * 60 * 1000), // 23h ago: still fresh
+        fetchedAt: Date.now() - 23 * 60 * 60 * 1000, // 23h ago: still fresh
         value: { v: "cached" },
       }),
     );
