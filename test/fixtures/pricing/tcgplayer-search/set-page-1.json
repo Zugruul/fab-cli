@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "totalResults": 3,
+      "aggregations": {},
+      "results": [
+        {
+          "productId": 1001,
+          "productUrlName": "card-one-red",
+          "setUrlName": "everfest",
+          "rarityName": "Rare",
+          "marketPrice": 10.0,
+          "printing": "Normal",
+          "listings": [
+            {
+              "condition": "Near Mint",
+              "printing": "Normal",
+              "price": 9.5,
+              "shippingPrice": 2.99,
+              "quantity": 4,
+              "sellerName": "AlphaCards"
+            }
+          ]
+        },
+        {
+          "productId": 1002,
+          "productUrlName": "card-two-yellow",
+          "setUrlName": "everfest",
+          "rarityName": "Rare",
+          "marketPrice": 5.0,
+          "printing": "Normal",
+          "listings": [
+            {
+              "condition": "Near Mint",
+              "printing": "Normal",
+              "price": 4.75,
+              "shippingPrice": 2.99,
+              "quantity": 2,
+              "sellerName": "BetaGames"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "totalResults": 2,
+      "aggregations": {},
+      "results": [
+        {
+          "productId": 255918,
+          "productUrlName": "command-and-conquer-red",
+          "setUrlName": "everfest",
+          "rarityName": "Legendary",
+          "marketPrice": 180.0,
+          "printing": "Normal",
+          "listings": [
+            {
+              "condition": "Near Mint",
+              "printing": "Normal",
+              "price": 165.5,
+              "shippingPrice": 4.99,
+              "quantity": 2,
+              "sellerName": "AlphaCards"
+            },
+            {
+              "condition": "Near Mint",
+              "printing": "Normal",
+              "price": 172.0,
+              "shippingPrice": 3.99,
+              "quantity": 1,
+              "sellerName": "BetaGames"
+            }
+          ]
+        },
+        {
+          "productId": 255919,
+          "productUrlName": "command-and-conquer-yellow",
+          "setUrlName": "everfest",
+          "rarityName": "Legendary",
+          "marketPrice": 40.0,
+          "printing": "Normal",
+          "listings": [
+            {
+              "condition": "Near Mint",
+              "printing": "Normal",
+              "price": 35.25,
+              "shippingPrice": 3.99,
+              "quantity": 3,
+              "sellerName": "GammaTCG"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

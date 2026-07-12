@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "totalResults": 1,
+      "aggregations": {},
+      "results": [
+        {
+          "productId": 255918,
+          "productUrlName": "command-and-conquer-red",
+          "setUrlName": "everfest",
+          "rarityName": "Legendary",
+          "marketPrice": 180.0,
+          "printing": "Normal",
+          "listings": [
+            {
+              "condition": "Moderately Played",
+              "printing": "Normal",
+              "price": 120.0,
+              "shippingPrice": 4.99,
+              "quantity": 1,
+              "sellerName": "AlphaCards"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
