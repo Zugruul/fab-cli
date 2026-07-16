@@ -1,17 +1,17 @@
 {
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "live-verification-over-fixtures->isolated-worktree-tdd-proof": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "live-verification-over-fixtures->reproduce-gate-claims": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "verify-empirical-claims-independently->reproduce-gate-claims": {

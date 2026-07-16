@@ -25,13 +25,13 @@
     "weight": 0.5
   },
   "exhaustive-pattern-tables->test-must-falsify": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "pricing-cache-contract->scoped-green-verification": {
-    "fires": 1,
-    "last": "2026-07-12",
+    "fires": 2,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "provider-prefixed-raw-types->pricing-cache-contract": {
@@ -45,28 +45,28 @@
     "weight": 0.5
   },
   "scoped-green-verification->pricing-cache-contract": {
-    "fires": 1,
-    "last": "2026-07-12",
+    "fires": 2,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "sibling-pattern-parity->pricing-cache-contract": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "sibling-pattern-parity->untyped-api-optional-fields": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "tcgcsv-requires-user-agent->sibling-pattern-parity": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "test-must-falsify->untyped-api-optional-fields": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "typed-error-boundary-guards->test-must-falsify": {
@@ -80,13 +80,13 @@
     "weight": 0.5
   },
   "untyped-api-optional-fields->pricing-cache-contract": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   },
   "untyped-api-optional-fields->provider-prefixed-raw-types": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-16",
     "weight": 0.5
   }
 }

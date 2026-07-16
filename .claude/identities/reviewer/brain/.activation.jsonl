@@ -1,0 +1,8 @@
+{"event": "seed", "note": "isolated-worktree-tdd-proof", "activation": 1.1, "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "seed", "note": "live-verification-over-fixtures", "activation": 1.1, "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "seed", "note": "reproduce-gate-claims", "activation": 1.1, "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "hop", "note": "reproduce-gate-claims", "activation": 0.275, "link": "isolated-worktree-tdd-proof->reproduce-gate-claims", "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "hop", "note": "isolated-worktree-tdd-proof", "activation": 0.275, "link": "live-verification-over-fixtures->isolated-worktree-tdd-proof", "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "hop", "note": "reproduce-gate-claims", "activation": 0.275, "link": "live-verification-over-fixtures->reproduce-gate-claims", "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "inject", "note": "isolated-worktree-tdd-proof", "activation": 1.1, "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
+{"event": "inject", "note": "reproduce-gate-claims", "activation": 1.1, "ts": "2026-07-16T06:14:55+00:00", "role": "reviewer"}
