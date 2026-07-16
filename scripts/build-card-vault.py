@@ -68,6 +68,7 @@ def root():
 ROOT = root()
 NOTES = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "notes")
 LINKS = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "links.json")
+SCHEMA = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "SCHEMA.json")
 CORPUS = os.path.join(ROOT, "third_party", "flesh-and-blood-cards",
                       "json", "english", "card.json")
 
@@ -356,6 +357,52 @@ def hero_lineage(by_slug):
     return out
 
 
+NUMERIC_FACETS = [("pitch", "Pitch"), ("cost", "Cost"), ("power", "Power"),
+                  ("defense", "Defense"), ("health", "Health")]
+# compound presets: appearsIn the first facet's group, tags in `sets` are the
+# same kebab tag values the enum facet rows use (see classify_types/kebab
+# above) — no per-facet prefix here, unlike neural-view's built-in rarity/
+# interacts-with special-casing (facetTagToValue/facetValueToTag), since
+# card-vault's own facet tags are already unprefixed.
+SHORTCUTS = [
+    {"key": "attack-action", "label": "Attack Action", "appearsIn": "type",
+     "sets": {"type": ["action"], "subtype": ["attack"]}},
+    {"key": "attack-instant", "label": "Attack Instant", "appearsIn": "type",
+     "sets": {"type": ["instant"], "subtype": ["attack"]}},
+]
+
+
+def build_schema(by_slug):
+    """SCHEMA.json for neural-view's facet-filter panel (GET /schema/<repo>/
+    <role>) — enum facets (type/subtype/class/talent, values = whatever the
+    corpus actually uses, tag = the same kebab tag build_note() already puts
+    on the note, so no separate tag convention to keep in sync) plus numeric
+    facets for the stat fields build_note() emits verbatim from the corpus."""
+    types, subtypes, classes, talents = set(), set(), set(), set()
+    for c in by_slug.values():
+        t, cl, ct, sub, other = classify_types(c["types"])
+        talents.update(t)
+        classes.update(cl)
+        types.update(ct)
+        subtypes.update(sub)
+        subtypes.update(other)
+
+    def values(vocab):
+        return [{"tag": kebab(v), "label": v} for v in sorted(vocab)]
+
+    # numeric facets first — a quick cost/power/defense/health/pitch range
+    # check is the more common first filter than the longer enum lists below.
+    facets = [{"key": key, "label": label, "type": "numeric"}
+              for key, label in NUMERIC_FACETS]
+    facets += [
+        {"key": "type", "label": "Type", "values": values(types)},
+        {"key": "subtype", "label": "Subtype", "values": values(subtypes)},
+        {"key": "class", "label": "Class", "values": values(classes)},
+        {"key": "talent", "label": "Talent", "values": values(talents)},
+    ]
+    return {"facets": facets, "shortcuts": SHORTCUTS}
+
+
 def generate_all():
     by_slug, by_name = load_corpus()
     lineage = hero_lineage(by_slug)
@@ -375,7 +422,8 @@ def generate_all():
                 unresolved.add(k)
     hub_created = existing_created(os.path.join(NOTES, "card-vault-map.md")) or date
     notes["card-vault-map"] = HUB % hub_created
-    return notes, all_links, unresolved
+    schema = build_schema(by_slug)
+    return notes, all_links, unresolved, schema
 
 
 def write_links(all_links):
@@ -395,8 +443,18 @@ def write_links(all_links):
     return added
 
 
+def write_schema(schema):
+    """Write SCHEMA.json only if its content actually changed (same
+    read-compare-write discipline as the note files above)."""
+    text = json.dumps(schema, indent=1, sort_keys=True) + "\n"
+    if os.path.isfile(SCHEMA) and open(SCHEMA, encoding="utf-8").read() == text:
+        return False
+    open(SCHEMA, "w", encoding="utf-8").write(text)
+    return True
+
+
 def cmd_build():
-    notes, all_links, unresolved = generate_all()
+    notes, all_links, unresolved, schema = generate_all()
     written = unchanged = 0
     for slug, text in notes.items():
         p = os.path.join(NOTES, slug + ".md")
@@ -412,9 +470,10 @@ def cmd_build():
             os.remove(os.path.join(NOTES, f))
             removed += 1
     edges = write_links(all_links)
+    schema_changed = write_schema(schema)
     regenerate_entity_index()
-    print("card-vault: %d notes written, %d unchanged, %d removed, %d link edge(s) added"
-          % (written, unchanged, removed, edges))
+    print("card-vault: %d notes written, %d unchanged, %d removed, %d link edge(s) added%s"
+          % (written, unchanged, removed, edges, ", SCHEMA.json updated" if schema_changed else ""))
     if unresolved:
         print("keywords with no kw-* note (cards link nothing for these): %s"
               % ", ".join(sorted(unresolved)))
@@ -422,7 +481,7 @@ def cmd_build():
 
 
 def cmd_check():
-    notes, _, unresolved = generate_all()
+    notes, _, unresolved, schema = generate_all()
     stale = []
     for slug, text in notes.items():
         p = os.path.join(NOTES, slug + ".md")
@@ -430,6 +489,9 @@ def cmd_check():
             stale.append(slug)
     extra = [f[:-3] for f in os.listdir(NOTES)
              if f.startswith("card-") and f.endswith(".md") and f[:-3] not in notes]
+    schema_text = json.dumps(schema, indent=1, sort_keys=True) + "\n"
+    if not os.path.isfile(SCHEMA) or open(SCHEMA, encoding="utf-8").read() != schema_text:
+        stale.append(".claude/identities/card-vault/brain/SCHEMA.json")
     if not entity_index_is_fresh(ROOT, {"card": ROLE, "keyword": ROLE}):
         stale.append(".claude/identities/entity-index.json")
     if stale or extra:

@@ -1,0 +1,513 @@
+{
+ "facets": [
+  {
+   "key": "pitch",
+   "label": "Pitch",
+   "type": "numeric"
+  },
+  {
+   "key": "cost",
+   "label": "Cost",
+   "type": "numeric"
+  },
+  {
+   "key": "power",
+   "label": "Power",
+   "type": "numeric"
+  },
+  {
+   "key": "defense",
+   "label": "Defense",
+   "type": "numeric"
+  },
+  {
+   "key": "health",
+   "label": "Health",
+   "type": "numeric"
+  },
+  {
+   "key": "type",
+   "label": "Type",
+   "values": [
+    {
+     "label": "Action",
+     "tag": "action"
+    },
+    {
+     "label": "Attack Reaction",
+     "tag": "attack-reaction"
+    },
+    {
+     "label": "Block",
+     "tag": "block"
+    },
+    {
+     "label": "Companion",
+     "tag": "companion"
+    },
+    {
+     "label": "Defense Reaction",
+     "tag": "defense-reaction"
+    },
+    {
+     "label": "Demi-Hero",
+     "tag": "demi-hero"
+    },
+    {
+     "label": "Equipment",
+     "tag": "equipment"
+    },
+    {
+     "label": "Event",
+     "tag": "event"
+    },
+    {
+     "label": "Hero",
+     "tag": "hero"
+    },
+    {
+     "label": "Instant",
+     "tag": "instant"
+    },
+    {
+     "label": "Macro",
+     "tag": "macro"
+    },
+    {
+     "label": "Mentor",
+     "tag": "mentor"
+    },
+    {
+     "label": "Resource",
+     "tag": "resource"
+    },
+    {
+     "label": "Token",
+     "tag": "token"
+    },
+    {
+     "label": "Weapon",
+     "tag": "weapon"
+    }
+   ]
+  },
+  {
+   "key": "subtype",
+   "label": "Subtype",
+   "values": [
+    {
+     "label": "1H",
+     "tag": "1h"
+    },
+    {
+     "label": "2H",
+     "tag": "2h"
+    },
+    {
+     "label": "Affliction",
+     "tag": "affliction"
+    },
+    {
+     "label": "Ally",
+     "tag": "ally"
+    },
+    {
+     "label": "Angel",
+     "tag": "angel"
+    },
+    {
+     "label": "Arakni",
+     "tag": "arakni"
+    },
+    {
+     "label": "Arms",
+     "tag": "arms"
+    },
+    {
+     "label": "Arrow",
+     "tag": "arrow"
+    },
+    {
+     "label": "Ash",
+     "tag": "ash"
+    },
+    {
+     "label": "Attack",
+     "tag": "attack"
+    },
+    {
+     "label": "Aura",
+     "tag": "aura"
+    },
+    {
+     "label": "Axe",
+     "tag": "axe"
+    },
+    {
+     "label": "Base",
+     "tag": "base"
+    },
+    {
+     "label": "Book",
+     "tag": "book"
+    },
+    {
+     "label": "Bow",
+     "tag": "bow"
+    },
+    {
+     "label": "Brush",
+     "tag": "brush"
+    },
+    {
+     "label": "Cannon",
+     "tag": "cannon"
+    },
+    {
+     "label": "Chest",
+     "tag": "chest"
+    },
+    {
+     "label": "Chi",
+     "tag": "chi"
+    },
+    {
+     "label": "Claw",
+     "tag": "claw"
+    },
+    {
+     "label": "Club",
+     "tag": "club"
+    },
+    {
+     "label": "Cog",
+     "tag": "cog"
+    },
+    {
+     "label": "Construct",
+     "tag": "construct"
+    },
+    {
+     "label": "Dagger",
+     "tag": "dagger"
+    },
+    {
+     "label": "Demon",
+     "tag": "demon"
+    },
+    {
+     "label": "Dragon",
+     "tag": "dragon"
+    },
+    {
+     "label": "Evo",
+     "tag": "evo"
+    },
+    {
+     "label": "Fiddle",
+     "tag": "fiddle"
+    },
+    {
+     "label": "Figment",
+     "tag": "figment"
+    },
+    {
+     "label": "Flail",
+     "tag": "flail"
+    },
+    {
+     "label": "Gem",
+     "tag": "gem"
+    },
+    {
+     "label": "Gun",
+     "tag": "gun"
+    },
+    {
+     "label": "Hammer",
+     "tag": "hammer"
+    },
+    {
+     "label": "Head",
+     "tag": "head"
+    },
+    {
+     "label": "High Seas",
+     "tag": "high-seas"
+    },
+    {
+     "label": "Invocation",
+     "tag": "invocation"
+    },
+    {
+     "label": "Item",
+     "tag": "item"
+    },
+    {
+     "label": "Landmark",
+     "tag": "landmark"
+    },
+    {
+     "label": "Legs",
+     "tag": "legs"
+    },
+    {
+     "label": "Log",
+     "tag": "log"
+    },
+    {
+     "label": "Lute",
+     "tag": "lute"
+    },
+    {
+     "label": "Mercenary",
+     "tag": "mercenary"
+    },
+    {
+     "label": "Off-Hand",
+     "tag": "off-hand"
+    },
+    {
+     "label": "Omens of the Third Age",
+     "tag": "omens-of-the-third-age"
+    },
+    {
+     "label": "Orb",
+     "tag": "orb"
+    },
+    {
+     "label": "Pistol",
+     "tag": "pistol"
+    },
+    {
+     "label": "Pit-Fighter",
+     "tag": "pit-fighter"
+    },
+    {
+     "label": "Placeholder Card",
+     "tag": "placeholder-card"
+    },
+    {
+     "label": "Polearm",
+     "tag": "polearm"
+    },
+    {
+     "label": "Puffin",
+     "tag": "puffin"
+    },
+    {
+     "label": "Quiver",
+     "tag": "quiver"
+    },
+    {
+     "label": "Revered",
+     "tag": "revered"
+    },
+    {
+     "label": "Reviled",
+     "tag": "reviled"
+    },
+    {
+     "label": "Rock",
+     "tag": "rock"
+    },
+    {
+     "label": "Rosetta",
+     "tag": "rosetta"
+    },
+    {
+     "label": "Scepter",
+     "tag": "scepter"
+    },
+    {
+     "label": "Scroll",
+     "tag": "scroll"
+    },
+    {
+     "label": "Scurv",
+     "tag": "scurv"
+    },
+    {
+     "label": "Scythe",
+     "tag": "scythe"
+    },
+    {
+     "label": "Shuriken",
+     "tag": "shuriken"
+    },
+    {
+     "label": "Song",
+     "tag": "song"
+    },
+    {
+     "label": "Staff",
+     "tag": "staff"
+    },
+    {
+     "label": "Sword",
+     "tag": "sword"
+    },
+    {
+     "label": "Trap",
+     "tag": "trap"
+    },
+    {
+     "label": "Wrench",
+     "tag": "wrench"
+    }
+   ]
+  },
+  {
+   "key": "class",
+   "label": "Class",
+   "values": [
+    {
+     "label": "Adjudicator",
+     "tag": "adjudicator"
+    },
+    {
+     "label": "Assassin",
+     "tag": "assassin"
+    },
+    {
+     "label": "Bard",
+     "tag": "bard"
+    },
+    {
+     "label": "Brute",
+     "tag": "brute"
+    },
+    {
+     "label": "Generic",
+     "tag": "generic"
+    },
+    {
+     "label": "Guardian",
+     "tag": "guardian"
+    },
+    {
+     "label": "Illusionist",
+     "tag": "illusionist"
+    },
+    {
+     "label": "Mechanologist",
+     "tag": "mechanologist"
+    },
+    {
+     "label": "Merchant",
+     "tag": "merchant"
+    },
+    {
+     "label": "Necromancer",
+     "tag": "necromancer"
+    },
+    {
+     "label": "Ninja",
+     "tag": "ninja"
+    },
+    {
+     "label": "Pirate",
+     "tag": "pirate"
+    },
+    {
+     "label": "Ranger",
+     "tag": "ranger"
+    },
+    {
+     "label": "Runeblade",
+     "tag": "runeblade"
+    },
+    {
+     "label": "Shapeshifter",
+     "tag": "shapeshifter"
+    },
+    {
+     "label": "Thief",
+     "tag": "thief"
+    },
+    {
+     "label": "Warrior",
+     "tag": "warrior"
+    },
+    {
+     "label": "Wizard",
+     "tag": "wizard"
+    }
+   ]
+  },
+  {
+   "key": "talent",
+   "label": "Talent",
+   "values": [
+    {
+     "label": "Chaos",
+     "tag": "chaos"
+    },
+    {
+     "label": "Draconic",
+     "tag": "draconic"
+    },
+    {
+     "label": "Earth",
+     "tag": "earth"
+    },
+    {
+     "label": "Elemental",
+     "tag": "elemental"
+    },
+    {
+     "label": "Ice",
+     "tag": "ice"
+    },
+    {
+     "label": "Light",
+     "tag": "light"
+    },
+    {
+     "label": "Lightning",
+     "tag": "lightning"
+    },
+    {
+     "label": "Mystic",
+     "tag": "mystic"
+    },
+    {
+     "label": "Royal",
+     "tag": "royal"
+    },
+    {
+     "label": "Shadow",
+     "tag": "shadow"
+    }
+   ]
+  }
+ ],
+ "shortcuts": [
+  {
+   "appearsIn": "type",
+   "key": "attack-action",
+   "label": "Attack Action",
+   "sets": {
+    "subtype": [
+     "attack"
+    ],
+    "type": [
+     "action"
+    ]
+   }
+  },
+  {
+   "appearsIn": "type",
+   "key": "attack-instant",
+   "label": "Attack Instant",
+   "sets": {
+    "subtype": [
+     "attack"
+    ],
+    "type": [
+     "instant"
+    ]
+   }
+  }
+ ]
+}
