@@ -135,6 +135,33 @@ and the marked agility test passed. Command and Conquer is the card discussed.
             mod.propose_entities(text, cards),
         )
 
+    def test_known_multiword_domain_term_is_explicitly_rejected(self):
+        mod = load_script("backfill-entities.py")
+        text = """---
+tags: [penalty, policy, intellect-penalty]
+---
+The PPG intellect penalty reduces the player's intellect as a sanction.
+"""
+        self.assertEqual(
+            [],
+            mod.propose_entities(text, {"intellect-penalty": "Intellect Penalty"}),
+        )
+
+    def test_reconciling_rejected_proposal_restores_original_bytes(self):
+        mod = load_script("backfill-entities.py")
+        baseline = """---
+tags: [penalty, policy]
+paths: []
+created: 2026-01-01
+---
+
+Hand-owned prose.
+"""
+        proposed = mod.add_entities(baseline, ["card:intellect-penalty"])
+        self.assertNotEqual(baseline.encode(), proposed.encode())
+        restored = mod.add_entities(proposed, [], reconcile=True)
+        self.assertEqual(baseline.encode(), restored.encode())
+
 
 class RegenerationSafetyTests(unittest.TestCase):
     def test_real_build_and_sync_twice_preserve_hand_notes_and_index(self):
