@@ -5,7 +5,7 @@ strength: 1
 source: "CR 7.7.2c (worked example) — third_party/fab-rules/en-fab-cr.txt; cards: Luminaris, Spectral Shield (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:exposed, card:luminaris, card:spectral-shield]
+entities: [card:spectral-shield]
 
 ---
 

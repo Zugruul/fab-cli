@@ -5,7 +5,7 @@ strength: 1
 source: "CR 2026-06-10 (en-fab-cr.txt 7.0.4a, 7.4, 8.1.2-8.1.3) + Card Vault true text verified 2026-07-11 + release-notes-outsiders/arcane-rising"
 graduated: false
 created: 2026-07-11
-entities: [card:command-and-conquer, card:confidence, card:uzuri-switchblade]
+entities: [card:command-and-conquer, card:uzuri-switchblade]
 
 ---
 

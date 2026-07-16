@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [amnesia, back-heel-kick, be-like-water, buzzsaw-trap, flick-knives, give-and-take, hurl, infiltrate, malign, mask-of-many-faces, mask-of-momentum, murkmire-grapnel, prowl, riptide, shake-down, sneak-attack, tarpit-trap, uzuri-switchblade]
 keywords: [dagger-flicking, go-again, quiver, stealth, token-bloodrot-pox, token-frailty, token-inertia, trap, ward]
-entities: [card:amnesia, card:back-heel-kick, card:be-like-water, card:buzzsaw-trap, card:flick-knives, card:frailty, card:give-and-take, card:inertia, card:infiltrate, card:malign, card:mask-of-many-faces, card:mask-of-momentum, card:murkmire-grapnel, card:riptide, card:shake-down, card:sneak-attack, card:tarpit-trap, card:uzuri-switchblade]
+entities: [card:back-heel-kick, card:be-like-water, card:buzzsaw-trap, card:flick-knives, card:give-and-take, card:mask-of-many-faces, card:mask-of-momentum, card:murkmire-grapnel, card:shake-down, card:sneak-attack, card:tarpit-trap, card:uzuri-switchblade]
 
 ---
 

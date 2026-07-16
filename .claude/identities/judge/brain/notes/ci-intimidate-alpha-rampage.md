@@ -5,7 +5,7 @@ strength: 1
 source: "CR 8.5.10b — third_party/fab-rules/en-fab-cr.txt; card: Alpha Rampage (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:alpha-rampage, card:rhinar]
+entities: [card:alpha-rampage]
 
 ---
 

@@ -5,7 +5,7 @@ strength: 1
 source: "CR 8.3.15, 8.3.15a — third_party/fab-rules/en-fab-cr.txt; cards: Arcanite Fortress, Claw of Vynserakai (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:arcanite-fortress, card:claw-of-vynserakai, card:vynserakai]
+entities: [card:arcanite-fortress, card:claw-of-vynserakai]
 
 ---
 

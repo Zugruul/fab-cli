@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 9)"
 graduated: false
 created: 2026-07-10
-entities: [card:chains-of-eminence, card:inner-chi, card:marked, card:nitro-mechanoid, card:stir-the-pot]
+entities: [card:chains-of-eminence, card:inner-chi, card:nitro-mechanoid, card:stir-the-pot]
 
 ---
 

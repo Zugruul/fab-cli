@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [ball-lightning, briar, buzz-bolt, channel-mount-heroic, frost-lock, heart-of-fyendal, heart-of-ice, korshem, mark-of-lightning, oldhim]
 keywords: [arcane-barrier, blade-break, channel, dominate, elemental, essence, flow, fusion, go-again, off-hand, spellvoid, token-frostbite]
-entities: [card:ball-lightning, card:buzz-bolt, card:channel-mount-heroic, card:frost-lock, card:frostbite, card:heart-of-fyendal, card:heart-of-ice, card:mark-of-lightning, card:oldhim]
+entities: [card:ball-lightning, card:buzz-bolt, card:channel-mount-heroic, card:frost-lock, card:heart-of-fyendal, card:heart-of-ice, card:mark-of-lightning]
 
 ---
 

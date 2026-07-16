@@ -5,7 +5,6 @@ strength: 4
 source: "derived from ask-identity validation sessions 2026-07-11; sources per judge ROLE.md"
 graduated: false
 created: 2026-07-11
-entities: [card:confidence]
 
 ---
 

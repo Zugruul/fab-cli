@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [blanch, dense-blue-mist, enigma-new-moon, frost-lock, gorgons-gaze, intimate-inducement, nuu, orihon-of-mystic-tenets, potion-of-deja-vu, sirens-call]
 keywords: [amp, chi, cloaked, go-again, token-frostbite, token-spectral-shield, token-zen-state, transcend, ward]
-entities: [card:blanch, card:dense-blue-mist, card:enigma, card:enigma-new-moon, card:frost-lock, card:frostbite, card:gorgons-gaze, card:inner-chi, card:intimate-inducement, card:orihon-of-mystic-tenets, card:sirens-call, card:spectral-shield]
+entities: [card:dense-blue-mist, card:enigma-new-moon, card:frost-lock, card:gorgons-gaze, card:inner-chi, card:intimate-inducement, card:orihon-of-mystic-tenets, card:sirens-call, card:spectral-shield]
 
 ---
 

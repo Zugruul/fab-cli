@@ -5,7 +5,7 @@ strength: 3
 source: "CR 2026-06-10 (en-fab-cr.txt) + Card Vault true text (deadwood-dirge-1, spellbound-creepers) + CR 8.6.3; adjudicated 2026-07-11"
 graduated: false
 created: 2026-07-12
-entities: [card:confidence, card:deadwood-dirge, card:runechant, card:spellbound-creepers]
+entities: [card:deadwood-dirge, card:spellbound-creepers]
 
 ---
 

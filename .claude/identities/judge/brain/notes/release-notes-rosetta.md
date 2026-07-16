@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [electromagnetic-somersault, florian, lightning-greaves, null, oscilio, ripple-away, widow]
 keywords: [amp, arcane-barrier, arcane-shelter, bond, decompose, go-again, macro, meld, negate, spellvoid, split-cards, token-frostbite, token-lightning-flow, ward]
-entities: [card:electromagnetic-somersault, card:florian, card:frostbite, card:lightning-flow, card:lightning-greaves, card:oscilio, card:ripple-away]
+entities: [card:electromagnetic-somersault, card:lightning-flow, card:lightning-greaves, card:ripple-away]
 
 ---
 

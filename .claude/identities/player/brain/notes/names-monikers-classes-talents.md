@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 2.7, 2.10-2.11)"
 graduated: false
 created: 2026-07-10
-entities: [card:blazing-aether, card:bravo-star-of-the-show, card:censor, card:trailblazing-aether]
+entities: [card:blazing-aether, card:bravo-star-of-the-show, card:trailblazing-aether]
 
 ---
 

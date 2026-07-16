@@ -5,7 +5,7 @@ strength: 1
 source: "CR 8.5.35, 8.5.35a, 8.5.54, 8.5.54a — third_party/fab-rules/en-fab-cr.txt; cards: Mutiny on the Battalion Barque, Kyloria (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:battalion-barque, card:kyloria, card:mutiny-on-the-battalion-barque]
+entities: [card:battalion-barque, card:mutiny-on-the-battalion-barque]
 
 ---
 

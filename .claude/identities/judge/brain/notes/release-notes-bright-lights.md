@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [hammer-of-havenhold, hyper-driver, master-cog, qi-unbound, qi-unleashed, singularity, teklovossen-the-mechropotent, twin-drive]
 keywords: [ambush, battleworn, blade-break, block, boost, crank, evo-upgrade, galvanize, go-again, modular, overpower, phantasm, piercing, protect, reprise, scrap, steam-counters, temper, tower]
-entities: [card:chivalry, card:hammer-of-havenhold, card:hyper-driver, card:master-cog, card:overpower, card:qi-unleashed, card:singularity, card:teklovossen, card:teklovossen-the-mechropotent, card:twin-drive]
+entities: [card:hammer-of-havenhold, card:hyper-driver, card:master-cog, card:qi-unleashed, card:teklovossen-the-mechropotent, card:twin-drive]
 
 ---
 

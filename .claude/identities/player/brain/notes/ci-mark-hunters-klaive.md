@@ -5,7 +5,7 @@ strength: 1
 source: "CR 8.5.50, 9.3.2b, 9.3.3 — third_party/fab-rules/en-fab-cr.txt; card: Hunter's Klaive (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:hunters-klaive, card:marked]
+entities: [card:hunters-klaive]
 
 ---
 

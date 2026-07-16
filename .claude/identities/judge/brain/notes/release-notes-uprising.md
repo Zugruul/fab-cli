@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [double-strike, dromai, erase-face, frost-hex, hypothermia, insidious-chill, iyslander, red-hot, rising-resentment, semblance, themai, tiger-stripe-shuko]
 keywords: [affliction, arcane-barrier, freeze, fusion, go-again, invocation, material, phantasm, quell, rupture, token-ash, token-frostbite, transform, ward]
-entities: [card:double-strike, card:dromai, card:erase-face, card:frost-hex, card:frostbite, card:hypothermia, card:insidious-chill, card:iyslander, card:red-hot, card:rising-resentment, card:semblance, card:themai, card:tiger-stripe-shuko, card:uprising]
+entities: [card:double-strike, card:erase-face, card:frost-hex, card:insidious-chill, card:red-hot, card:rising-resentment, card:tiger-stripe-shuko]
 
 ---
 

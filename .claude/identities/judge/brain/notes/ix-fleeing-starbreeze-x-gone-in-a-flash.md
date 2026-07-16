@@ -5,7 +5,7 @@ strength: 1
 source: "CR 2026-06-10 (en-fab-cr.txt) + card-vault notes + release-notes-omens/rosetta; adjudicated 2026-07-11"
 graduated: false
 created: 2026-07-11
-entities: [card:confidence, card:electromagnetic-somersault, card:fleeing-starbreeze, card:gone-in-a-flash]
+entities: [card:electromagnetic-somersault, card:fleeing-starbreeze, card:gone-in-a-flash]
 
 ---
 

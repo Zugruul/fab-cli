@@ -6,7 +6,7 @@ source: "CR 2026-06-10 (en-fab-cr.txt) + Card Vault true text + card DB sweep; a
 learned-from: ask-identity judge session 2026-07-12 (player-suggested stack-window line, CR-verified)
 graduated: false
 created: 2026-07-12
-entities: [card:aetherize, card:amulet-of-lightning, card:beckoning-brilliance, card:blast-to-oblivion, card:cap-of-quick-thinking, card:chain-lightning, card:cindering-foresight, card:cloud-cover, card:confidence, card:cosmic-flare, card:cosmic-suture, card:disarm, card:eclectic-magnetism, card:electromagnetic-somersault, card:flash-bolt, card:flittering-charge, card:flow-through, card:flowshard-elemental, card:flowstate-embodiment, card:gone-in-a-flash, card:high-voltage, card:lightning-press, card:livewire-press, card:oblivion, card:oscilio]
+entities: [card:amulet-of-lightning, card:beckoning-brilliance, card:blast-to-oblivion, card:cap-of-quick-thinking, card:chain-lightning, card:cindering-foresight, card:cloud-cover, card:cosmic-flare, card:cosmic-suture, card:eclectic-magnetism, card:electromagnetic-somersault, card:flash-bolt, card:flittering-charge, card:flow-through, card:flowshard-elemental, card:flowstate-embodiment, card:gone-in-a-flash, card:high-voltage, card:lightning-press, card:livewire-press]
 
 ---
 

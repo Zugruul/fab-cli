@@ -5,7 +5,6 @@ strength: 1
 source: "FAB judge Discord #ask-a-judge"
 graduated: false
 created: 2026-07-10
-entities: [card:fabricate]
 
 ---
 

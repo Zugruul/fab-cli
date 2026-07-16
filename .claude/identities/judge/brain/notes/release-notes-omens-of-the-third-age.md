@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [auroras-embodiment, beckon-steel, fractal-creation, glide-through-starlight, starflow-robes, step-between, stormshard]
 keywords: [attack-queue, fragment, go-again, holo-counters, quickstrike, spellvoid, starfall, token-frostbite, token-lightning-flow, token-runechant, ward]
-entities: [card:aurora, card:beckon-steel, card:fractal-creation, card:frostbite, card:glide-through-starlight, card:lightning-flow, card:runechant, card:starflow-robes, card:step-between, card:stormshard]
+entities: [card:beckon-steel, card:fractal-creation, card:glide-through-starlight, card:lightning-flow, card:starflow-robes, card:step-between]
 
 ---
 

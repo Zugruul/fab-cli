@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [anothos, bravo, dorinthea, heart-of-fyendal, kodachi, mask-of-momentum, nimblism, rhinar, sharpen-steel]
 keywords: [battleworn, blade-break, combo, crush, dominate, go-again, intimidate, reprise]
-entities: [card:anothos, card:dorinthea, card:heart-of-fyendal, card:marked, card:mask-of-momentum, card:nimblism, card:rhinar, card:sharpen-steel]
+entities: [card:heart-of-fyendal, card:mask-of-momentum, card:sharpen-steel]
 
 ---
 

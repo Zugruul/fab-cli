@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 9)"
 graduated: false
 created: 2026-07-10
-entities: [card:bonds-of-agony, card:marked, card:oasis-respite]
+entities: [card:bonds-of-agony, card:oasis-respite]
 
 ---
 

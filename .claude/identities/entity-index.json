@@ -200,8 +200,7 @@
     "card:aetherize": {
       "anchor": "card-vault/card-aetherize-blue",
       "notes": [
-        ["card-vault", "card-aetherize-blue"],
-        ["judge", "ix-gone-in-a-flash-general"]
+        ["card-vault", "card-aetherize-blue"]
       ]
     },
     "card:aethersling": {
@@ -257,11 +256,7 @@
     "card:agility": {
       "anchor": "card-vault/card-agility",
       "notes": [
-        ["card-vault", "card-agility"],
-        ["judge", "ci-clash-no-power"],
-        ["judge", "gl-agility"],
-        ["judge", "glossary-index"],
-        ["player", "ci-clash-no-power"]
+        ["card-vault", "card-agility"]
       ]
     },
     "card:agility-stance": {
@@ -323,8 +318,7 @@
     "card:amnesia": {
       "anchor": "card-vault/card-amnesia-red",
       "notes": [
-        ["card-vault", "card-amnesia-red"],
-        ["judge", "release-notes-outsiders"]
+        ["card-vault", "card-amnesia-red"]
       ]
     },
     "card:amplify-the-arknight": {
@@ -501,8 +495,7 @@
     "card:anothos": {
       "anchor": "card-vault/card-anothos",
       "notes": [
-        ["card-vault", "card-anothos"],
-        ["judge", "release-notes-welcome-to-rathe"]
+        ["card-vault", "card-anothos"]
       ]
     },
     "card:anthem-of-spring": {
@@ -550,8 +543,7 @@
     "card:arakni": {
       "anchor": "card-vault/card-arakni",
       "notes": [
-        ["card-vault", "card-arakni"],
-        ["judge", "release-notes-the-hunted"]
+        ["card-vault", "card-arakni"]
       ]
     },
     "card:arakni-5l-p3d-7hru-7h3-cr4x": {
@@ -952,9 +944,7 @@
     "card:aurora": {
       "anchor": "card-vault/card-aurora",
       "notes": [
-        ["card-vault", "card-aurora"],
-        ["judge", "release-notes-omens-of-the-third-age"],
-        ["player", "continuous-effects-and-durations"]
+        ["card-vault", "card-aurora"]
       ]
     },
     "card:aurora-emissary-of-lightning": {
@@ -1823,9 +1813,7 @@
       "notes": [
         ["card-vault", "card-blanch-blue"],
         ["card-vault", "card-blanch-red"],
-        ["card-vault", "card-blanch-yellow"],
-        ["judge", "release-notes-high-seas"],
-        ["judge", "release-notes-part-the-mistveil"]
+        ["card-vault", "card-blanch-yellow"]
       ]
     },
     "card:blasmophet-levia-consumed": {
@@ -3058,8 +3046,7 @@
     "card:censor": {
       "anchor": "card-vault/card-censor-red",
       "notes": [
-        ["card-vault", "card-censor-red"],
-        ["player", "names-monikers-classes-talents"]
+        ["card-vault", "card-censor-red"]
       ]
     },
     "card:cerebellum-processor": {
@@ -3271,9 +3258,7 @@
     "card:chivalry": {
       "anchor": "card-vault/card-chivalry-blue",
       "notes": [
-        ["card-vault", "card-chivalry-blue"],
-        ["judge", "release-notes-bright-lights"],
-        ["judge", "release-notes-index"]
+        ["card-vault", "card-chivalry-blue"]
       ]
     },
     "card:chokeslam": {
@@ -3875,8 +3860,7 @@
       "notes": [
         ["card-vault", "card-concuss-blue"],
         ["card-vault", "card-concuss-red"],
-        ["card-vault", "card-concuss-yellow"],
-        ["judge", "release-notes-heavy-hitters"]
+        ["card-vault", "card-concuss-yellow"]
       ]
     },
     "card:condemn-to-slaughter": {
@@ -3896,16 +3880,7 @@
     "card:confidence": {
       "anchor": "card-vault/card-confidence",
       "notes": [
-        ["card-vault", "card-confidence"],
-        ["judge", "card-interaction-protocol"],
-        ["judge", "gl-confidence"],
-        ["judge", "glossary-index"],
-        ["judge", "ix-command-and-conquer-x-uzuri-switchblade"],
-        ["judge", "ix-deadwood-dirge-x-spellbound-creepers"],
-        ["judge", "ix-fleeing-starbreeze-x-gone-in-a-flash"],
-        ["judge", "ix-gone-in-a-flash-general"],
-        ["judge", "release-notes-monarch"],
-        ["judge", "release-notes-super-slam"]
+        ["card-vault", "card-confidence"]
       ]
     },
     "card:conflicting-thoughts": {
@@ -4025,10 +4000,7 @@
     "card:copper": {
       "anchor": "card-vault/card-copper",
       "notes": [
-        ["card-vault", "card-copper"],
-        ["judge", "gl-copper"],
-        ["judge", "glossary-index"],
-        ["judge", "release-notes-high-seas"]
+        ["card-vault", "card-copper"]
       ]
     },
     "card:copper-cog": {
@@ -4107,8 +4079,7 @@
     "card:courage": {
       "anchor": "card-vault/card-courage",
       "notes": [
-        ["card-vault", "card-courage"],
-        ["judge", "release-notes-dusk-till-dawn"]
+        ["card-vault", "card-courage"]
       ]
     },
     "card:courage-of-bladehold": {
@@ -4964,8 +4935,7 @@
     "card:disarm": {
       "anchor": "card-vault/card-disarm-yellow",
       "notes": [
-        ["card-vault", "card-disarm-yellow"],
-        ["judge", "ix-gone-in-a-flash-general"]
+        ["card-vault", "card-disarm-yellow"]
       ]
     },
     "card:disdainful-delight": {
@@ -5105,9 +5075,7 @@
     "card:dorinthea": {
       "anchor": "card-vault/card-dorinthea",
       "notes": [
-        ["card-vault", "card-dorinthea"],
-        ["judge", "release-notes-crucible-of-war"],
-        ["judge", "release-notes-welcome-to-rathe"]
+        ["card-vault", "card-dorinthea"]
       ]
     },
     "card:dorinthea-ironsong": {
@@ -5343,8 +5311,7 @@
     "card:dromai": {
       "anchor": "card-vault/card-dromai",
       "notes": [
-        ["card-vault", "card-dromai"],
-        ["judge", "release-notes-uprising"]
+        ["card-vault", "card-dromai"]
       ]
     },
     "card:dromai-ash-artist": {
@@ -5708,8 +5675,7 @@
     "card:eloquence": {
       "anchor": "card-vault/card-eloquence",
       "notes": [
-        ["card-vault", "card-eloquence"],
-        ["judge", "release-notes-dusk-till-dawn"]
+        ["card-vault", "card-eloquence"]
       ]
     },
     "card:eloquent-eulogy": {
@@ -5985,8 +5951,7 @@
     "card:enigma": {
       "anchor": "card-vault/card-enigma",
       "notes": [
-        ["card-vault", "card-enigma"],
-        ["judge", "release-notes-part-the-mistveil"]
+        ["card-vault", "card-enigma"]
       ]
     },
     "card:enigma-chimera": {
@@ -6466,10 +6431,7 @@
     "card:exposed": {
       "anchor": "card-vault/card-exposed-blue",
       "notes": [
-        ["card-vault", "card-exposed-blue"],
-        ["judge", "gl-exposed"],
-        ["judge", "glossary-index"],
-        ["player", "ci-luminaris-spectral-shield-close"]
+        ["card-vault", "card-exposed-blue"]
       ]
     },
     "card:exposed-to-the-elements": {
@@ -6544,8 +6506,7 @@
     "card:fabricate": {
       "anchor": "card-vault/card-fabricate-red",
       "notes": [
-        ["card-vault", "card-fabricate-red"],
-        ["judge", "escalation-ask-a-judge"]
+        ["card-vault", "card-fabricate-red"]
       ]
     },
     "card:face-adversity": {
@@ -6671,10 +6632,7 @@
     "card:fealty": {
       "anchor": "card-vault/card-fealty",
       "notes": [
-        ["card-vault", "card-fealty"],
-        ["judge", "gl-fealty"],
-        ["judge", "glossary-index"],
-        ["judge", "release-notes-the-hunted"]
+        ["card-vault", "card-fealty"]
       ]
     },
     "card:fearless-confrontation": {
@@ -7174,8 +7132,7 @@
     "card:florian": {
       "anchor": "card-vault/card-florian",
       "notes": [
-        ["card-vault", "card-florian"],
-        ["judge", "release-notes-rosetta"]
+        ["card-vault", "card-florian"]
       ]
     },
     "card:florian-rotwood-harbinger": {
@@ -7380,10 +7337,7 @@
     "card:frailty": {
       "anchor": "card-vault/card-frailty",
       "notes": [
-        ["card-vault", "card-frailty"],
-        ["judge", "gl-frailty"],
-        ["judge", "glossary-index"],
-        ["judge", "release-notes-outsiders"]
+        ["card-vault", "card-frailty"]
       ]
     },
     "card:frailty-trap": {
@@ -7496,17 +7450,7 @@
     "card:frostbite": {
       "anchor": "card-vault/card-frostbite",
       "notes": [
-        ["card-vault", "card-frostbite"],
-        ["judge", "gl-frostbite"],
-        ["judge", "glossary-index"],
-        ["judge", "release-notes-dusk-till-dawn"],
-        ["judge", "release-notes-everfest"],
-        ["judge", "release-notes-omens-of-the-third-age"],
-        ["judge", "release-notes-part-the-mistveil"],
-        ["judge", "release-notes-rosetta"],
-        ["judge", "release-notes-tales-of-aria"],
-        ["judge", "release-notes-uprising"],
-        ["judge", "start-and-end-of-game-rulings"]
+        ["card-vault", "card-frostbite"]
       ]
     },
     "card:frosthaven-sheath": {
@@ -8555,8 +8499,7 @@
     "card:headbutt": {
       "anchor": "card-vault/card-headbutt-blue",
       "notes": [
-        ["card-vault", "card-headbutt-blue"],
-        ["judge", "release-notes-mastery-pack-guardian-smash-palace"]
+        ["card-vault", "card-headbutt-blue"]
       ]
     },
     "card:headliner-helm": {
@@ -9328,10 +9271,7 @@
     "card:hypothermia": {
       "anchor": "card-vault/card-hypothermia-blue",
       "notes": [
-        ["card-vault", "card-hypothermia-blue"],
-        ["judge", "continuous-effect-staging-detail"],
-        ["judge", "release-notes-uprising"],
-        ["player", "continuous-effects-and-durations"]
+        ["card-vault", "card-hypothermia-blue"]
       ]
     },
     "card:ice-bolt": {
@@ -9492,11 +9432,7 @@
       "notes": [
         ["card-vault", "card-index-blue"],
         ["card-vault", "card-index-red"],
-        ["card-vault", "card-index-yellow"],
-        ["judge", "glossary-index"],
-        ["judge", "judge-brain-map"],
-        ["judge", "release-notes-index"],
-        ["player", "player-brain-map"]
+        ["card-vault", "card-index-yellow"]
       ]
     },
     "card:induce-panic": {
@@ -9514,11 +9450,7 @@
     "card:inertia": {
       "anchor": "card-vault/card-inertia",
       "notes": [
-        ["card-vault", "card-inertia"],
-        ["judge", "gl-inertia"],
-        ["judge", "glossary-index"],
-        ["judge", "release-notes-outsiders"],
-        ["player", "defending-rules-detail"]
+        ["card-vault", "card-inertia"]
       ]
     },
     "card:inertia-trap": {
@@ -9555,8 +9487,7 @@
     "card:infiltrate": {
       "anchor": "card-vault/card-infiltrate-red",
       "notes": [
-        ["card-vault", "card-infiltrate-red"],
-        ["judge", "release-notes-outsiders"]
+        ["card-vault", "card-infiltrate-red"]
       ]
     },
     "card:inflame": {
@@ -9907,9 +9838,7 @@
     "card:iyslander": {
       "anchor": "card-vault/card-iyslander",
       "notes": [
-        ["card-vault", "card-iyslander"],
-        ["judge", "release-notes-everfest"],
-        ["judge", "release-notes-uprising"]
+        ["card-vault", "card-iyslander"]
       ]
     },
     "card:iyslander-stormbind": {
@@ -10209,9 +10138,7 @@
     "card:kyloria": {
       "anchor": "card-vault/card-kyloria",
       "notes": [
-        ["card-vault", "card-kyloria"],
-        ["judge", "ci-steal-is-gain-control"],
-        ["player", "ci-steal-is-gain-control"]
+        ["card-vault", "card-kyloria"]
       ]
     },
     "card:lace-with-bloodrot": {
@@ -10827,12 +10754,7 @@
     "card:luminaris": {
       "anchor": "card-vault/card-luminaris",
       "notes": [
-        ["card-vault", "card-luminaris"],
-        ["judge", "ci-luminaris-spectral-shield-close"],
-        ["judge", "last-known-information"],
-        ["player", "ci-luminaris-spectral-shield-close"],
-        ["player", "continuous-effects-and-durations"],
-        ["player", "last-known-information"]
+        ["card-vault", "card-luminaris"]
       ]
     },
     "card:luminaris-angels-glow": {
@@ -10948,8 +10870,7 @@
       "notes": [
         ["card-vault", "card-malign-blue"],
         ["card-vault", "card-malign-red"],
-        ["card-vault", "card-malign-yellow"],
-        ["judge", "release-notes-outsiders"]
+        ["card-vault", "card-malign-yellow"]
       ]
     },
     "card:man-overboard": {
@@ -10969,8 +10890,7 @@
     "card:mangle": {
       "anchor": "card-vault/card-mangle-red",
       "notes": [
-        ["card-vault", "card-mangle-red"],
-        ["judge", "release-notes-crucible-of-war"]
+        ["card-vault", "card-mangle-red"]
       ]
     },
     "card:manifest-muscle": {
@@ -11045,37 +10965,13 @@
     "card:marked": {
       "anchor": "card-vault/card-marked",
       "notes": [
-        ["card-vault", "card-marked"],
-        ["judge", "ci-mark-hunters-klaive"],
-        ["judge", "counters-markers-dice-sleeves"],
-        ["judge", "deck-checks"],
-        ["judge", "doc-map-cr"],
-        ["judge", "doc-map-ppg"],
-        ["judge", "doc-map-trp"],
-        ["judge", "double-faced-split-rulings"],
-        ["judge", "gameplay-infractions-overview"],
-        ["judge", "gameplay-logistics-rulings"],
-        ["judge", "gl-mark"],
-        ["judge", "head-judge-authority"],
-        ["judge", "proxies-placeholders-tokens"],
-        ["judge", "release-notes-the-hunted"],
-        ["judge", "release-notes-welcome-to-rathe"],
-        ["judge", "shuffling-and-marked-cards"],
-        ["judge", "start-of-game-procedure"],
-        ["judge", "tournament-infractions-detail"],
-        ["judge", "tournament-infractions-overview"],
-        ["judge", "tournament-roles"],
-        ["player", "ci-mark-hunters-klaive"],
-        ["player", "doc-map-cr"],
-        ["player", "double-faced-split-and-marked"],
-        ["player", "player-brain-map"]
+        ["card-vault", "card-marked"]
       ]
     },
     "card:marlynn": {
       "anchor": "card-vault/card-marlynn",
       "notes": [
-        ["card-vault", "card-marlynn"],
-        ["judge", "release-notes-high-seas"]
+        ["card-vault", "card-marlynn"]
       ]
     },
     "card:marlynn-treasure-hunter": {
@@ -11459,8 +11355,7 @@
       "notes": [
         ["card-vault", "card-minnowism-blue"],
         ["card-vault", "card-minnowism-red"],
-        ["card-vault", "card-minnowism-yellow"],
-        ["judge", "continuous-effect-staging-detail"]
+        ["card-vault", "card-minnowism-yellow"]
       ]
     },
     "card:miragai": {
@@ -11791,8 +11686,7 @@
       "notes": [
         ["card-vault", "card-nimblism-blue"],
         ["card-vault", "card-nimblism-red"],
-        ["card-vault", "card-nimblism-yellow"],
-        ["judge", "release-notes-welcome-to-rathe"]
+        ["card-vault", "card-nimblism-yellow"]
       ]
     },
     "card:nimby": {
@@ -11947,8 +11841,7 @@
     "card:numbskull": {
       "anchor": "card-vault/card-numbskull-red",
       "notes": [
-        ["card-vault", "card-numbskull-red"],
-        ["judge", "release-notes-dusk-till-dawn"]
+        ["card-vault", "card-numbskull-red"]
       ]
     },
     "card:numbskull-charm": {
@@ -12015,9 +11908,7 @@
     "card:oblivion": {
       "anchor": "card-vault/card-oblivion-blue",
       "notes": [
-        ["card-vault", "card-oblivion-blue"],
-        ["judge", "ix-gone-in-a-flash-general"],
-        ["judge", "release-notes-dusk-till-dawn"]
+        ["card-vault", "card-oblivion-blue"]
       ]
     },
     "card:obsidian-fire-vein": {
@@ -12077,8 +11968,7 @@
     "card:oldhim": {
       "anchor": "card-vault/card-oldhim",
       "notes": [
-        ["card-vault", "card-oldhim"],
-        ["judge", "release-notes-tales-of-aria"]
+        ["card-vault", "card-oldhim"]
       ]
     },
     "card:oldhim-grandfather-of-eternity": {
@@ -12222,9 +12112,7 @@
     "card:oscilio": {
       "anchor": "card-vault/card-oscilio",
       "notes": [
-        ["card-vault", "card-oscilio"],
-        ["judge", "ix-gone-in-a-flash-general"],
-        ["judge", "release-notes-rosetta"]
+        ["card-vault", "card-oscilio"]
       ]
     },
     "card:oscilio-constella-intelligence": {
@@ -12366,8 +12254,7 @@
       "notes": [
         ["card-vault", "card-overload-blue"],
         ["card-vault", "card-overload-red"],
-        ["card-vault", "card-overload-yellow"],
-        ["player", "ci-fusion-aether-icevein"]
+        ["card-vault", "card-overload-yellow"]
       ]
     },
     "card:overload-script": {
@@ -12381,28 +12268,7 @@
       "notes": [
         ["card-vault", "card-overpower-blue"],
         ["card-vault", "card-overpower-red"],
-        ["card-vault", "card-overpower-yellow"],
-        ["judge", "ci-annihilator-overpower"],
-        ["judge", "combat-step-rulings"],
-        ["judge", "gl-overpower"],
-        ["judge", "glossary-index"],
-        ["judge", "keyword-interaction-rulings"],
-        ["judge", "release-notes-bright-lights"],
-        ["judge", "release-notes-dynasty"],
-        ["judge", "release-notes-high-seas"],
-        ["judge", "release-notes-mastery-pack-guardian-smash-palace"],
-        ["judge", "release-notes-the-hunted"],
-        ["judge", "rules-precedence"],
-        ["player", "ability-keywords-complete"],
-        ["player", "ci-annihilator-overpower"],
-        ["player", "defending-from-hand"],
-        ["player", "hit-events-and-what-counts"],
-        ["player", "keyword-attack-labels"],
-        ["player", "keyword-dominate-overpower"],
-        ["player", "keyword-intimidate"],
-        ["player", "keyword-piercing"],
-        ["player", "player-brain-map"],
-        ["player", "rules-precedence"]
+        ["card-vault", "card-overpower-yellow"]
       ]
     },
     "card:overswing": {
@@ -13059,9 +12925,7 @@
     "card:ponder": {
       "anchor": "card-vault/card-ponder",
       "notes": [
-        ["card-vault", "card-ponder"],
-        ["judge", "gl-ponder"],
-        ["judge", "glossary-index"]
+        ["card-vault", "card-ponder"]
       ]
     },
     "card:pop-the-bubble": {
@@ -13421,8 +13285,7 @@
     "card:provoke": {
       "anchor": "card-vault/card-provoke-blue",
       "notes": [
-        ["card-vault", "card-provoke-blue"],
-        ["judge", "release-notes-the-hunted"]
+        ["card-vault", "card-provoke-blue"]
       ]
     },
     "card:prowess-of-agility": {
@@ -13694,9 +13557,7 @@
     "card:quicken": {
       "anchor": "card-vault/card-quicken",
       "notes": [
-        ["card-vault", "card-quicken"],
-        ["judge", "gl-quicken"],
-        ["judge", "glossary-index"]
+        ["card-vault", "card-quicken"]
       ]
     },
     "card:quickening-sand": {
@@ -14288,8 +14149,7 @@
     "card:remembrance": {
       "anchor": "card-vault/card-remembrance-yellow",
       "notes": [
-        ["card-vault", "card-remembrance-yellow"],
-        ["judge", "effects-grammar-rulings"]
+        ["card-vault", "card-remembrance-yellow"]
       ]
     },
     "card:remorseless": {
@@ -14400,16 +14260,7 @@
     "card:rewind": {
       "anchor": "card-vault/card-rewind-blue",
       "notes": [
-        ["card-vault", "card-rewind-blue"],
-        ["judge", "casual-rel-procedures"],
-        ["judge", "fixing-game-states"],
-        ["judge", "game-state-actions-and-death"],
-        ["judge", "gameplay-infractions-detail"],
-        ["judge", "gameplay-infractions-overview"],
-        ["judge", "play-process-and-resolution-rulings"],
-        ["judge", "tournament-infractions-detail"],
-        ["judge", "tournament-infractions-overview"],
-        ["player", "playing-a-card-nine-steps"]
+        ["card-vault", "card-rewind-blue"]
       ]
     },
     "card:reya-the-unyielding": {
@@ -14421,9 +14272,7 @@
     "card:rhinar": {
       "anchor": "card-vault/card-rhinar",
       "notes": [
-        ["card-vault", "card-rhinar"],
-        ["judge", "ci-intimidate-alpha-rampage"],
-        ["judge", "release-notes-welcome-to-rathe"]
+        ["card-vault", "card-rhinar"]
       ]
     },
     "card:rhinar-reckless-rampage": {
@@ -14578,8 +14427,7 @@
     "card:riptide": {
       "anchor": "card-vault/card-riptide",
       "notes": [
-        ["card-vault", "card-riptide"],
-        ["judge", "release-notes-outsiders"]
+        ["card-vault", "card-riptide"]
       ]
     },
     "card:riptide-lurker-of-the-deep": {
@@ -14955,14 +14803,7 @@
     "card:runechant": {
       "anchor": "card-vault/card-runechant",
       "notes": [
-        ["card-vault", "card-runechant"],
-        ["judge", "gl-runechant"],
-        ["judge", "glossary-index"],
-        ["judge", "ix-deadwood-dirge-x-spellbound-creepers"],
-        ["judge", "release-notes-arcane-rising"],
-        ["judge", "release-notes-dusk-till-dawn"],
-        ["judge", "release-notes-dynasty"],
-        ["judge", "release-notes-omens-of-the-third-age"]
+        ["card-vault", "card-runechant"]
       ]
     },
     "card:runechant-of-envy": {
@@ -15711,8 +15552,7 @@
     "card:semblance": {
       "anchor": "card-vault/card-semblance-blue",
       "notes": [
-        ["card-vault", "card-semblance-blue"],
-        ["judge", "release-notes-uprising"]
+        ["card-vault", "card-semblance-blue"]
       ]
     },
     "card:send-packing": {
@@ -16315,21 +16155,7 @@
     "card:silver": {
       "anchor": "card-vault/card-silver",
       "notes": [
-        ["card-vault", "card-silver"],
-        ["judge", "constructed-format-specs"],
-        ["judge", "gl-silver"],
-        ["judge", "glossary-index"],
-        ["judge", "official-formats"],
-        ["judge", "release-notes-everfest"],
-        ["player", "card-legality-pointer"],
-        ["player", "format-blitz"],
-        ["player", "format-classic-constructed"],
-        ["player", "format-construction-specs"],
-        ["player", "format-limited-draft-sealed"],
-        ["player", "format-silver-age"],
-        ["player", "format-ultimate-pit-fight"],
-        ["player", "objective-and-life"],
-        ["player", "player-brain-map"]
+        ["card-vault", "card-silver"]
       ]
     },
     "card:silver-palms": {
@@ -16419,8 +16245,7 @@
     "card:singularity": {
       "anchor": "card-vault/card-singularity-red",
       "notes": [
-        ["card-vault", "card-singularity-red"],
-        ["judge", "release-notes-bright-lights"]
+        ["card-vault", "card-singularity-red"]
       ]
     },
     "card:sink-below": {
@@ -17591,8 +17416,7 @@
       "notes": [
         ["card-vault", "card-steadfast-blue"],
         ["card-vault", "card-steadfast-red"],
-        ["card-vault", "card-steadfast-yellow"],
-        ["judge", "release-notes-everfest"]
+        ["card-vault", "card-steadfast-yellow"]
       ]
     },
     "card:steal-victory": {
@@ -17760,8 +17584,7 @@
     "card:stormshard": {
       "anchor": "card-vault/card-stormshard-red",
       "notes": [
-        ["card-vault", "card-stormshard-red"],
-        ["judge", "release-notes-omens-of-the-third-age"]
+        ["card-vault", "card-stormshard-red"]
       ]
     },
     "card:stormshatter": {
@@ -18378,8 +18201,7 @@
     "card:taylor": {
       "anchor": "card-vault/card-taylor",
       "notes": [
-        ["card-vault", "card-taylor"],
-        ["judge", "start-and-end-of-game-rulings"]
+        ["card-vault", "card-taylor"]
       ]
     },
     "card:tear-asunder": {
@@ -18524,8 +18346,7 @@
     "card:teklovossen": {
       "anchor": "card-vault/card-teklovossen",
       "notes": [
-        ["card-vault", "card-teklovossen"],
-        ["judge", "release-notes-bright-lights"]
+        ["card-vault", "card-teklovossen"]
       ]
     },
     "card:teklovossen-esteemed-magnate": {
@@ -18748,8 +18569,7 @@
     "card:themai": {
       "anchor": "card-vault/card-themai",
       "notes": [
-        ["card-vault", "card-themai"],
-        ["judge", "release-notes-uprising"]
+        ["card-vault", "card-themai"]
       ]
     },
     "card:themis-archangel-of-judgment": {
@@ -18822,8 +18642,7 @@
     "card:thrive": {
       "anchor": "card-vault/card-thrive-yellow",
       "notes": [
-        ["card-vault", "card-thrive-yellow"],
-        ["judge", "attack-proxies-and-rulings"]
+        ["card-vault", "card-thrive-yellow"]
       ]
     },
     "card:throttle": {
@@ -19245,11 +19064,7 @@
     "card:toughness": {
       "anchor": "card-vault/card-toughness",
       "notes": [
-        ["card-vault", "card-toughness"],
-        ["judge", "ci-freeze-ambush-arsenal"],
-        ["judge", "gl-toughness"],
-        ["judge", "glossary-index"],
-        ["judge", "release-notes-super-slam"]
+        ["card-vault", "card-toughness"]
       ]
     },
     "card:towering-titan": {
@@ -19376,8 +19191,7 @@
     "card:tri-shot": {
       "anchor": "card-vault/card-tri-shot-blue",
       "notes": [
-        ["card-vault", "card-tri-shot-blue"],
-        ["player", "activated-abilities-and-attack-counts"]
+        ["card-vault", "card-tri-shot-blue"]
       ]
     },
     "card:tribute-to-demolition": {
@@ -19554,8 +19368,7 @@
     "card:two-faced": {
       "anchor": "card-vault/card-two-faced",
       "notes": [
-        ["card-vault", "card-two-faced"],
-        ["judge", "release-notes-compendium-of-rathe"]
+        ["card-vault", "card-two-faced"]
       ]
     },
     "card:two-sides-to-the-blade": {
@@ -19743,10 +19556,7 @@
     "card:uprising": {
       "anchor": "card-vault/card-uprising-red",
       "notes": [
-        ["card-vault", "card-uprising-red"],
-        ["judge", "release-notes-index"],
-        ["judge", "release-notes-uprising"],
-        ["judge", "set-specific-limited-rules"]
+        ["card-vault", "card-uprising-red"]
       ]
     },
     "card:urgent-delivery": {
@@ -20074,8 +19884,7 @@
     "card:viserai": {
       "anchor": "card-vault/card-viserai",
       "notes": [
-        ["card-vault", "card-viserai"],
-        ["judge", "release-notes-arcane-rising"]
+        ["card-vault", "card-viserai"]
       ]
     },
     "card:viserai-rune-blood": {
@@ -20254,9 +20063,7 @@
     "card:vynserakai": {
       "anchor": "card-vault/card-vynserakai",
       "notes": [
-        ["card-vault", "card-vynserakai"],
-        ["judge", "ci-spellvoid-arcanite-stacking"],
-        ["player", "ci-spellvoid-arcanite-stacking"]
+        ["card-vault", "card-vynserakai"]
       ]
     },
     "card:wage-agility": {
@@ -20330,8 +20137,7 @@
       "notes": [
         ["card-vault", "card-wallop-blue"],
         ["card-vault", "card-wallop-red"],
-        ["card-vault", "card-wallop-yellow"],
-        ["judge", "release-notes-heavy-hitters"]
+        ["card-vault", "card-wallop-yellow"]
       ]
     },
     "card:wander-with-purpose": {

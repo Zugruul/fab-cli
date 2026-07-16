@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-ppg.txt (PPG 3)"
 graduated: false
 created: 2026-07-10
-entities: [card:cracked-bauble, card:marked, card:rewind]
+entities: [card:cracked-bauble]
 
 ---
 

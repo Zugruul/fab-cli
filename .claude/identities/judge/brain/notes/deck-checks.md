@@ -5,7 +5,6 @@ strength: 1
 source: "TRP §3.8"
 graduated: false
 created: 2026-07-10
-entities: [card:marked]
 
 ---
 

@@ -5,7 +5,7 @@ strength: 2
 source: "https://fabtcg.com/rules-and-policy-center/release-notes/ + CR verification 2026-06-10"
 graduated: false
 created: 2026-07-10
-entities: [card:back-heel-kick, card:chivalry, card:give-and-take, card:index, card:qi-unleashed, card:seeds-of-agony, card:uprising, card:vestige-of-sol]
+entities: [card:back-heel-kick, card:give-and-take, card:qi-unleashed, card:seeds-of-agony, card:vestige-of-sol]
 
 ---
 

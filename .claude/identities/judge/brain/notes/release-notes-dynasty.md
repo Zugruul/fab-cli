@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [amulet-of-havencall, command-and-conquer, crouching-tiger, crown-of-dominion, emperor-dracai-of-aesir, immobilizing-shot, looming-doom, nitro-mechanoid, rok, scramble-pulse, seasoned-saviour, spectral-prowler, spirit-of-eirina, yoji-royal-protector]
 keywords: [charge, construct, contract, ephemeral, material, overpower, piercing, surge, temper, token-runechant, token-spectral-shield, ward]
-entities: [card:amulet-of-havencall, card:command-and-conquer, card:crouching-tiger, card:crown-of-dominion, card:emperor-dracai-of-aesir, card:immobilizing-shot, card:looming-doom, card:nitro-mechanoid, card:overpower, card:runechant, card:scramble-pulse, card:seasoned-saviour, card:spectral-prowler, card:spirit-of-eirina, card:yoji-royal-protector]
+entities: [card:amulet-of-havencall, card:command-and-conquer, card:crouching-tiger, card:crown-of-dominion, card:emperor-dracai-of-aesir, card:immobilizing-shot, card:looming-doom, card:nitro-mechanoid, card:scramble-pulse, card:seasoned-saviour, card:spectral-prowler, card:spirit-of-eirina, card:yoji-royal-protector]
 
 ---
 

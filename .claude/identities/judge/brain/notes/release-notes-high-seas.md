@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [arc-light-sentinel, aurum-aegis, barbed-barrage, blanch, copper-cog, marlynn, riches-of-tropal-dhani, treasure-island]
 keywords: [companion, crank, dominate, give, go-fish, high-tide, macro, overpower, perched, spectra, steal, tap, token-gold, unlimited, untap, watery-grave]
-entities: [card:arc-light-sentinel, card:aurum-aegis, card:barbed-barrage, card:blanch, card:copper, card:copper-cog, card:marlynn, card:overpower, card:riches-of-tropal-dhani, card:treasure-island]
+entities: [card:arc-light-sentinel, card:aurum-aegis, card:barbed-barrage, card:copper-cog, card:riches-of-tropal-dhani, card:treasure-island]
 
 ---
 

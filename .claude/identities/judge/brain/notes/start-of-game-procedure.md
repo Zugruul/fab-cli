@@ -5,7 +5,6 @@ strength: 1
 source: "CR §4.1; TRP §3.3"
 graduated: false
 created: 2026-07-10
-entities: [card:marked]
 
 ---
 

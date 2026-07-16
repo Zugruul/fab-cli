@@ -5,7 +5,6 @@ strength: 1
 source: "Flesh and Blood Casual Procedure Guide (2023-10-13)"
 graduated: false
 created: 2026-07-10
-entities: [card:rewind]
 
 ---
 

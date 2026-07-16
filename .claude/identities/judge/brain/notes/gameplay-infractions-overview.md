@@ -5,7 +5,6 @@ strength: 1
 source: "PPG §2"
 graduated: false
 created: 2026-07-10
-entities: [card:marked, card:rewind]
 
 ---
 

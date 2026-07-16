@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [aether-spindle, arknight-shard, command-and-conquer, forked-lightning, hamstring-shot, pedal-to-the-metal, ravenous-rabble, take-cover, viserai]
 keywords: [arcane-barrier, arcane-damage, boost, dominate, go-again, opt, reload, specialization, token-runechant]
-entities: [card:aether-spindle, card:arknight-shard, card:command-and-conquer, card:forked-lightning, card:hamstring-shot, card:pedal-to-the-metal, card:ravenous-rabble, card:runechant, card:take-cover, card:viserai]
+entities: [card:aether-spindle, card:arknight-shard, card:command-and-conquer, card:forked-lightning, card:hamstring-shot, card:pedal-to-the-metal, card:ravenous-rabble, card:take-cover]
 
 ---
 

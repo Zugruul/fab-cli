@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [arakni-marionette, blood-runs-deep, demonstrate-devotion, erase-face, kiss-of-death, kunai-of-retribution, levia-redeemed, mask-of-momentum, mechropotent, shiyana, take-up-the-mantle]
 keywords: [dagger-flicking, demi-hero, dominate, go-again, mark, overpower, phantasm, retrieve, return-to-the-brood, token-fealty, transform, trap]
-entities: [card:arakni, card:arakni-marionette, card:blood-runs-deep, card:demonstrate-devotion, card:erase-face, card:fealty, card:kiss-of-death, card:kunai-of-retribution, card:marked, card:mask-of-momentum, card:overpower, card:provoke, card:take-up-the-mantle]
+entities: [card:arakni-marionette, card:blood-runs-deep, card:demonstrate-devotion, card:erase-face, card:kiss-of-death, card:kunai-of-retribution, card:mask-of-momentum, card:take-up-the-mantle]
 
 ---
 

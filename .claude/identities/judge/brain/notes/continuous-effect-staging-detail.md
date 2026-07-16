@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 6.3)"
 graduated: false
 created: 2026-07-10
-entities: [card:erase-face, card:hypothermia, card:minnowism]
+entities: [card:erase-face]
 
 ---
 

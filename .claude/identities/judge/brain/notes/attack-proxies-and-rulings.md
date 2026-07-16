@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 1.4)"
 graduated: false
 created: 2026-07-10
-entities: [card:sharpen-steel, card:thrive]
+entities: [card:sharpen-steel]
 
 ---
 

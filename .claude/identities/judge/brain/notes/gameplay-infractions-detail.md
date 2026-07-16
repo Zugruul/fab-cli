@@ -5,7 +5,6 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-ppg.txt (PPG 2)"
 graduated: false
 created: 2026-07-10
-entities: [card:rewind]
 
 ---
 

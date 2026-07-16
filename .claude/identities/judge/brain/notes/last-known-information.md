@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 1.2.3)"
 graduated: false
 created: 2026-07-10
-entities: [card:auric-shards, card:endless-arrow, card:luminaris, card:midas-touch]
+entities: [card:auric-shards, card:endless-arrow, card:midas-touch]
 
 ---
 

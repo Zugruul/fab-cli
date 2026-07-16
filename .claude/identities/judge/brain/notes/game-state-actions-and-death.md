@@ -5,7 +5,6 @@ strength: 1
 source: "CR §1.10"
 graduated: false
 created: 2026-07-10
-entities: [card:rewind]
 
 ---
 

@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [aurum-aegis, cintari-sellsword, command-respect, concuss, deathmatch-arena, double-down, gauntlets-of-iron-will, kayo-armed-and-dangerous, no-fear, ripple-away, send-packing, the-golden-son, thunk, victor-goldmane, wallop]
 keywords: [beat-chest, clash, dominate, guardwell, intimidate, overpower, phantasm, temper, token-gold, token-might, token-vigor, universal, wager]
-entities: [card:aurum-aegis, card:cintari-sellsword, card:command-respect, card:concuss, card:deathmatch-arena, card:double-down, card:gauntlets-of-iron-will, card:kayo-armed-and-dangerous, card:no-fear, card:ripple-away, card:send-packing, card:the-golden-son, card:victor-goldmane, card:wallop]
+entities: [card:aurum-aegis, card:cintari-sellsword, card:command-respect, card:deathmatch-arena, card:double-down, card:gauntlets-of-iron-will, card:kayo-armed-and-dangerous, card:no-fear, card:ripple-away, card:send-packing, card:the-golden-son, card:victor-goldmane]
 
 ---
 

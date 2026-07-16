@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 5.2)"
 graduated: false
 created: 2026-07-10
-entities: [card:blood-on-her-hands, card:tri-shot, card:twinning-blade]
+entities: [card:blood-on-her-hands, card:twinning-blade]
 
 ---
 

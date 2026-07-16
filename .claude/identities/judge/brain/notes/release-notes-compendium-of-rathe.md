@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [bear-hug, cheating-scoundrel, colors-of-aria, crown-of-frozen-thoughts, descend-into-madness, doubling-season, graven-gaslight, lunar-mirage, recede-to-mistform, seek-horizon, tiger-trap, topsy-turvy, two-faced, vestige-of-flagellation]
 keywords: [bond, channel, decompose, fusion, intimidate, opt, phantasm, sharpen, spellvoid, unity, wager, ward]
-entities: [card:bear-hug, card:cheating-scoundrel, card:colors-of-aria, card:crown-of-frozen-thoughts, card:descend-into-madness, card:doubling-season, card:graven-gaslight, card:lunar-mirage, card:recede-to-mistform, card:seek-horizon, card:tiger-trap, card:topsy-turvy, card:two-faced, card:vestige-of-flagellation]
+entities: [card:bear-hug, card:cheating-scoundrel, card:colors-of-aria, card:crown-of-frozen-thoughts, card:descend-into-madness, card:doubling-season, card:graven-gaslight, card:lunar-mirage, card:recede-to-mistform, card:seek-horizon, card:tiger-trap, card:topsy-turvy, card:vestige-of-flagellation]
 
 ---
 

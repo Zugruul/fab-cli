@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [aether-wildfire, fractal-replication, haze-bending, iyslander, miraging-metamorph, nerves-of-steel, ready-to-roll, revel-in-runeblood, skull-crushers, steadfast, talisman-of-tithes]
 keywords: [battleworn, boost, go-again, heave, intimidate, phantasm, spectra, temper, token-frostbite, token-seismic-surge, token-silver]
-entities: [card:aether-wildfire, card:fractal-replication, card:frostbite, card:haze-bending, card:iyslander, card:miraging-metamorph, card:nerves-of-steel, card:ready-to-roll, card:revel-in-runeblood, card:silver, card:skull-crushers, card:steadfast, card:talisman-of-tithes]
+entities: [card:aether-wildfire, card:fractal-replication, card:haze-bending, card:miraging-metamorph, card:nerves-of-steel, card:ready-to-roll, card:revel-in-runeblood, card:skull-crushers, card:talisman-of-tithes]
 
 ---
 

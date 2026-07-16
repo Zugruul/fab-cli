@@ -5,7 +5,7 @@ strength: 1
 source: "TRP §5.11, §5.13; PPG §3.7, §3.8"
 graduated: false
 created: 2026-07-10
-entities: [card:cracked-bauble, card:marked]
+entities: [card:cracked-bauble]
 
 ---
 

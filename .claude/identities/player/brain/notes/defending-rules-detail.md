@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 7.0.5, 7.3)"
 graduated: false
 created: 2026-07-10
-entities: [card:bastion-of-unity, card:inertia, card:inertia-trap, card:surging-militia]
+entities: [card:bastion-of-unity, card:inertia-trap, card:surging-militia]
 
 ---
 

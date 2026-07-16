@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [annexation-of-forge, annexation-of-grandeur, base-of-the-mountain, blinding-of-the-old-ones, bolfar, bravo-flattering-showman, break-stature, crix, headbutt, kox, leave-a-dent, lions-pounce, reya, valda-seismic-impact, victor-goldmane, visit-anvilheim]
 keywords: [clash, crush, dominate, event-equipment, guardwell, heave, overpower, protect, token-seismic-surge, wager]
-entities: [card:annexation-of-grandeur, card:base-of-the-mountain, card:blinding-of-the-old-ones, card:bravo-flattering-showman, card:break-stature, card:headbutt, card:leave-a-dent, card:lions-pounce, card:overpower, card:valda-seismic-impact, card:victor-goldmane, card:visit-anvilheim]
+entities: [card:annexation-of-grandeur, card:base-of-the-mountain, card:blinding-of-the-old-ones, card:bravo-flattering-showman, card:break-stature, card:leave-a-dent, card:lions-pounce, card:valda-seismic-impact, card:victor-goldmane, card:visit-anvilheim]
 
 ---
 

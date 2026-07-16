@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [a-good-clean-fight, big-bully, chains-of-eminence, gallow-end-of-the-line, kayo-underhanded-cheat, lyath-goldmane, shiyana, the-old-switcheroo, victor-goldmane]
 keywords: [ambush, block, charms, clash, go-again, revered, reviled, suspense, the-crowd-cheers-the-crowd-boos, token-confidence, token-might, token-toughness, token-vigor]
-entities: [card:a-good-clean-fight, card:big-bully, card:chains-of-eminence, card:confidence, card:gallow-end-of-the-line, card:kayo-underhanded-cheat, card:lyath-goldmane, card:the-old-switcheroo, card:toughness, card:victor-goldmane]
+entities: [card:a-good-clean-fight, card:big-bully, card:chains-of-eminence, card:gallow-end-of-the-line, card:kayo-underhanded-cheat, card:lyath-goldmane, card:the-old-switcheroo, card:victor-goldmane]
 
 ---
 

@@ -5,7 +5,7 @@ strength: 1
 source: "CR 8.5.34, 8.3.28, 8.5.32 — third_party/fab-rules/en-fab-cr.txt; cards: Cold Snap, Stadium Security (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:cold-snap, card:stadium-security, card:toughness]
+entities: [card:cold-snap, card:stadium-security]
 
 ---
 

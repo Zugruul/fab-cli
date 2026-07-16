@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 7.5)"
 graduated: false
 created: 2026-07-10
-entities: [card:feign-death, card:overpower, card:stamp-authority, card:whirling-mist-blossom]
+entities: [card:feign-death, card:stamp-authority, card:whirling-mist-blossom]
 
 ---
 

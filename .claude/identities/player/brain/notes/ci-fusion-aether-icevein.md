@@ -5,7 +5,7 @@ strength: 1
 source: "CR 8.3.17b, 8.3.17c — third_party/fab-rules/en-fab-cr.txt; card: Aether Icevein (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
-entities: [card:aether-icevein, card:overload]
+entities: [card:aether-icevein]
 
 ---
 

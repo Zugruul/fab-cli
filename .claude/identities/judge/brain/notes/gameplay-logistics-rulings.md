@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-trp.txt (TRP 5.9-5.14)"
 graduated: false
 created: 2026-07-10
-entities: [card:fyendals-spring-tunic, card:marked]
+entities: [card:fyendals-spring-tunic]
 
 ---
 

@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [blasmophet-levia-consumed, chains-of-mephetis, cleansing-light, figment-archangel, morlock-hill, numbskull, oblivion, poison-the-well, reality-refractor]
 keywords: [awaken, blood-debt, demi-hero, figment, go-again, mirage, rune-gate, solflare, token-courage, token-eloquence, token-frostbite, token-runechant, unity, ward]
-entities: [card:blasmophet-levia-consumed, card:chains-of-mephetis, card:cleansing-light, card:courage, card:eloquence, card:frostbite, card:morlock-hill, card:numbskull, card:oblivion, card:poison-the-well, card:reality-refractor, card:runechant]
+entities: [card:blasmophet-levia-consumed, card:chains-of-mephetis, card:cleansing-light, card:morlock-hill, card:poison-the-well, card:reality-refractor]
 
 ---
 

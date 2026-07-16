@@ -46,6 +46,12 @@ def propose_entities(text, cards):
     folded = body.casefold()
     proposals = set()
     for slug, display in cards.items():
+        # Single-word card names overlap heavily with keywords, tokens, rules
+        # terms, and ordinary editorial prose. Neither a reused tag nor a prose
+        # occurrence is enough evidence that a hand-owned note is about that
+        # card, so the one-shot proposer leaves them for explicit human minting.
+        if len(display.split()) == 1:
+            continue
         if slug in tags:
             proposals.add("card:" + slug)
             continue
@@ -64,13 +70,19 @@ def propose_entities(text, cards):
     return sorted(proposals)
 
 
-def add_entities(text, proposals):
-    if not proposals:
+def add_entities(text, proposals, reconcile=False):
+    if not proposals and not reconcile:
         return text
     fm, end = frontmatter(text)
+    if fm is None:
+        return text
     existing = list_field(fm, "entities")
-    merged = sorted(set(existing) | set(proposals))
+    preserved = [e for e in existing if not e.startswith("card:")] if reconcile else existing
+    merged = sorted(set(preserved) | set(proposals))
     line = "entities: [%s]" % ", ".join(merged)
+    if reconcile and not merged:
+        new_fm = re.sub(r"^entities:.*\n?", "", fm, flags=re.M)
+        return "---\n" + new_fm + text[end:]
     if re.search(r"^entities:", fm, re.M):
         new_fm = re.sub(r"^entities:.*$", line, fm, flags=re.M)
     else:
@@ -84,7 +96,7 @@ def card_names(repo):
     return {kebab(card["name"]): card["name"] for card in cards}
 
 
-def run(repo, check=False):
+def run(repo, check=False, reconcile=False):
     cards = card_names(repo)
     changed = []
     for role in ("judge", "player"):
@@ -95,7 +107,7 @@ def run(repo, check=False):
                 continue
             text = open(path, encoding="utf-8").read()
             proposals = propose_entities(text, cards)
-            updated = add_entities(text, proposals)
+            updated = add_entities(text, proposals, reconcile)
             if updated != text:
                 changed.append((role, fn, proposals))
                 if not check:
@@ -112,8 +124,13 @@ def run(repo, check=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="report without writing")
+    parser.add_argument(
+        "--reconcile",
+        action="store_true",
+        help="replace prior proposed card entities with the current conservative proposal set",
+    )
     args = parser.parse_args()
-    return run(root(), args.check)
+    return run(root(), args.check, args.reconcile)
 
 
 if __name__ == "__main__":

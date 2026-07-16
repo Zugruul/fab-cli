@@ -5,7 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 6.2)"
 graduated: false
 created: 2026-07-10
-entities: [card:aurora, card:cut-deep, card:hypothermia, card:kiss-of-death, card:luminaris, card:tear-limb-from-limb, card:tempest-aurora]
+entities: [card:cut-deep, card:kiss-of-death, card:tear-limb-from-limb, card:tempest-aurora]
 
 ---
 

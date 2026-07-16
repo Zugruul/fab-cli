@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [benji, dash, dorinthea, fyendals-spring-tunic, ira-crimson-haze, kano, katsu-the-wanderer, mangle, shiyana, tripwire-trap, twinning-blade, zephyr-needle]
 keywords: [battleworn, boost, crush, dominate, go-again, intimidate, negate, reload, reprise, specialization, temper]
-entities: [card:dorinthea, card:fyendals-spring-tunic, card:ira-crimson-haze, card:katsu-the-wanderer, card:mangle, card:tripwire-trap, card:twinning-blade, card:zephyr-needle]
+entities: [card:fyendals-spring-tunic, card:ira-crimson-haze, card:katsu-the-wanderer, card:tripwire-trap, card:twinning-blade, card:zephyr-needle]
 
 ---
 

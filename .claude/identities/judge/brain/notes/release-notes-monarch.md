@@ -7,7 +7,7 @@ graduated: false
 created: 2026-07-10
 cards: [bolting-blade, exude-confidence, levia, merciful-retribution, rise-above, seeds-of-agony, spirit-of-eirina, vestige-of-sol, wartune-herald]
 keywords: [ally, arcane-barrier, blood-debt, charge, go-again, instant-auras, mentor, phantasm, soul, spectra, spellvoid, token-spectral-shield]
-entities: [card:bolting-blade, card:confidence, card:exude-confidence, card:merciful-retribution, card:rise-above, card:seeds-of-agony, card:spectral-shield, card:spirit-of-eirina, card:vestige-of-sol, card:wartune-herald]
+entities: [card:bolting-blade, card:exude-confidence, card:merciful-retribution, card:rise-above, card:seeds-of-agony, card:spectral-shield, card:spirit-of-eirina, card:vestige-of-sol, card:wartune-herald]
 
 ---
 

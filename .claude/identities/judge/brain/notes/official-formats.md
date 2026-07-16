@@ -5,7 +5,6 @@ strength: 1
 source: "TRP §1.3, §7"
 graduated: false
 created: 2026-07-10
-entities: [card:silver]
 
 ---
 
