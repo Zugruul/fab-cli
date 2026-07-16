@@ -209,7 +209,8 @@ fabrary
   .option("--has-matchups", "Only decks with matchup guides")
   .option("--has-results", "Only decks with recorded results")
   .option("--tournament-only", "Only tournament decks")
-  .option("-q, --query <text>", "Text search (deck name, card name)")
+  .option("-q, --query <text>", "Text search (deck name, author, hero, card name)")
+  .option("--latest-search <text>", "Alias for --query (matches fabrary.net's Public tab search field / latest_search URL param)")
   .option("-n, --limit <n>", "Max results", int, 20)
   .option("-p, --page <n>", "Page number (0-based)", int, 0)
   .action(async (opts: {
@@ -220,9 +221,11 @@ fabrary
     hasResults?: boolean;
     tournamentOnly?: boolean;
     query?: string;
+    latestSearch?: string;
     limit: number;
     page: number;
   }) => {
+    opts.query = opts.query ?? opts.latestSearch;
     const searchOpts = buildSearchOpts(opts);
     process.stdout.write(chalk.dim("Searching…\r"));
     const result = await searchDecks(searchOpts);
