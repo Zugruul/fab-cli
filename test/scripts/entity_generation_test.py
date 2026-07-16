@@ -114,6 +114,82 @@ Art of Warfare is not the card name. Fyendal's Spring Tunic blocks one.
             mod.propose_entities(text, cards),
         )
 
+    def test_common_single_word_names_require_tag_corroboration(self):
+        mod = load_script("backfill-entities.py")
+        cards = {
+            "confidence": "Confidence",
+            "overpower": "Overpower",
+            "toughness": "Toughness",
+            "marked": "Marked",
+            "agility": "Agility",
+            "command-and-conquer": "Command and Conquer",
+        }
+        text = """---
+tags: [protocol, command-and-conquer]
+---
+CONFIDENCE: verified. The attack was overpowering, toughness mattered,
+and the marked agility test passed. Command and Conquer is the card discussed.
+"""
+        self.assertEqual(
+            ["card:command-and-conquer"],
+            mod.propose_entities(text, cards),
+        )
+
+
+class RegenerationSafetyTests(unittest.TestCase):
+    def test_real_build_and_sync_twice_preserve_hand_notes_and_index(self):
+        card_mod = load_script("build-card-vault.py")
+        keyword_mod = load_script("keyword-sync.py")
+        with tempfile.TemporaryDirectory() as td:
+            root = pathlib.Path(td)
+            identities = root / ".claude" / "identities"
+            home = identities / "card-vault" / "brain"
+            judge = identities / "judge" / "brain"
+            player = identities / "player" / "brain"
+            for brain in (home, judge, player):
+                (brain / "notes").mkdir(parents=True)
+                (brain / "links.json").write_text("{}\n")
+            corpus = root / "cards.json"
+            corpus.write_text(json.dumps([card("Alpha Strike", uid="alpha")]))
+            kw = home / "notes" / "kw-go-again.md"
+            kw.write_text(
+                """---
+tags: [cr, keyword, ability, go-again]
+paths: []
+strength: 1
+source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.3.1) — vendored: third_party/fab-rules/en-fab-cr.txt"
+graduated: false
+created: 2026-01-01
+entities: [keyword:go-again]
+---
+
+**Go again** — ability keyword (CR 8.3.1).
+Index: [[keywords-index]]. When ruling, cite CR 8.3.1; verify against the vendored artifact.
+"""
+            )
+            hand_paths = []
+            for brain, role in ((judge, "judge"), (player, "player")):
+                path = brain / "notes" / (role + "-hand.md")
+                path.write_text(
+                    "---\ntags: [alpha-strike]\nentities: [card:alpha-strike]\n---\n\nHand-owned.\n"
+                )
+                hand_paths.append(path)
+            before = {p: p.read_bytes() for p in hand_paths}
+
+            card_mod.ROOT = keyword_mod.ROOT = str(root)
+            card_mod.NOTES = str(home / "notes")
+            card_mod.LINKS = str(home / "links.json")
+            card_mod.CORPUS = str(corpus)
+            keyword_mod.IDENT = str(identities)
+            for _ in range(2):
+                self.assertEqual(0, card_mod.cmd_build())
+                self.assertEqual(0, keyword_mod.cmd_sync())
+                self.assertEqual(before, {p: p.read_bytes() for p in hand_paths})
+                index = (identities / "entity-index.json").read_bytes()
+                if "first_index" in locals():
+                    self.assertEqual(first_index, index)
+                first_index = index
+
 
 class EntityIndexTests(unittest.TestCase):
     def test_regeneration_is_deterministic_and_symlinks_count_once(self):
