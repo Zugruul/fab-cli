@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P8CJhgBHBcQwFQrK6jzWq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:thunder-quake]
 name: "Thunder Quake"
 full-name: "Thunder Quake (yellow)"
 color: yellow

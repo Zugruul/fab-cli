@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbTqngDd8rPbwpJtWc6cf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:unhallowed-rites]
 name: "Unhallowed Rites"
 full-name: "Unhallowed Rites (yellow)"
 color: yellow

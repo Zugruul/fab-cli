@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jmNMNj8FrgJCR8dCcbmTr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:den-of-the-spider]
 name: "Den of the Spider"
 full-name: "Den of the Spider (red)"
 color: red

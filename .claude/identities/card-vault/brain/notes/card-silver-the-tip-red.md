@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jc7QRqTTh6cccdTjFmBf9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:silver-the-tip]
 name: "Silver the Tip"
 full-name: "Silver the Tip (red)"
 color: red

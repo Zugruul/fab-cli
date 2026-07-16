@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qRkrJ8t9RgGhDgpMpBBFd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:high-riser]
 name: "High Riser"
 power: 3
 classes: [Guardian]

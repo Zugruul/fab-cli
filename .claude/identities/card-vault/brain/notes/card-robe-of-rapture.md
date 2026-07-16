@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKdtt7jhNp8DK9QzCqGkz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:robe-of-rapture]
 name: "Robe of Rapture"
 defense: 0
 classes: [Wizard]

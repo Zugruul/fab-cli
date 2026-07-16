@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MTjzGdRDGRGGqHmpn6zCH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:edge-of-their-seats]
 name: "Edge of Their Seats"
 full-name: "Edge of Their Seats (blue)"
 color: blue

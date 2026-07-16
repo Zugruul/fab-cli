@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MT8LQJTF6w8gPqMzNTrkr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runechant-of-greed]
 name: "Runechant of Greed"
 full-name: "Runechant of Greed (yellow)"
 color: yellow

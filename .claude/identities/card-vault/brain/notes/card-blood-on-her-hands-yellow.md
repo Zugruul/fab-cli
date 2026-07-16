@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHrBnDBNJwLh8PDLGBmch) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blood-on-her-hands]
 name: "Blood on Her Hands"
 full-name: "Blood on Her Hands (yellow)"
 color: yellow

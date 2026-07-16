@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRMhmf8qkn6pR7TWQLqgb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ruudi-gem-keeper]
 name: "Ruu'di, Gem Keeper"
 health: 40
 intelligence: 4

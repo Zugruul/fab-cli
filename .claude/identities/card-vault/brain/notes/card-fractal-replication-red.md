@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NmpnLBpB9D6ghMfqNfDKm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fractal-replication]
 name: "Fractal Replication"
 full-name: "Fractal Replication (red)"
 color: red

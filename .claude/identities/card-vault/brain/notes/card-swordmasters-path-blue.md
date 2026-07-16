@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tpmhpDqjKq6NwtnKCBJwd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:swordmasters-path]
 name: "Swordmaster's Path"
 full-name: "Swordmaster's Path (blue)"
 color: blue

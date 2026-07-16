@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBBtgw6Ft8RrfLHrjnnp6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hand-behind-the-pen]
 name: "Hand Behind the Pen"
 full-name: "Hand Behind the Pen (red)"
 color: red

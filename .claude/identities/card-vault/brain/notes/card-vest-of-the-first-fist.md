@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dcMMQNzjpzQ76GQPpnQwz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vest-of-the-first-fist]
 name: "Vest of the First Fist"
 defense: 0
 classes: [Generic]

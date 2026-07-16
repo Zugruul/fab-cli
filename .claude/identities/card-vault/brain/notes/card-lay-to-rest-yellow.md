@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zr9nbKgKmqFGbQTntjT8p) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lay-to-rest]
 name: "Lay to Rest"
 full-name: "Lay to Rest (yellow)"
 color: yellow

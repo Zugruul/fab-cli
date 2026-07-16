@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnMQ8tr9B76DfQQNT6gKb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:undercover-acquisition]
 name: "Undercover Acquisition"
 full-name: "Undercover Acquisition (red)"
 color: red

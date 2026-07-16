@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WfqwhCzMFNJrtQdBjn6WN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:charge-of-the-light-brigade]
 name: "Charge of the Light Brigade"
 full-name: "Charge of the Light Brigade (yellow)"
 color: yellow

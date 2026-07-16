@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wL86pzwQw6qq8P6RpGTd6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rouse-the-ancients]
 name: "Rouse the Ancients"
 full-name: "Rouse the Ancients (blue)"
 color: blue

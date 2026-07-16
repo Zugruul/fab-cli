@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gQztCktdLJmWRdNfPNM6q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tempt-over]
 name: "Tempt Over"
 full-name: "Tempt Over (yellow)"
 color: yellow

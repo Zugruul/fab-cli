@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9hnm7hf7fWbFWtqKbKFb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hurl]
 name: "Hurl"
 full-name: "Hurl (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D6fPnQdQ7FKpWDB9ktTJ6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sea-floor-salvage]
 name: "Sea Floor Salvage"
 full-name: "Sea Floor Salvage (blue)"
 color: blue

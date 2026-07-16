@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CNkgfHmrWLL6QDRK8zWzz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glide-through-starlight]
 name: "Glide Through Starlight"
 full-name: "Glide Through Starlight (blue)"
 color: blue

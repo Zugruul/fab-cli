@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6hwzWtTQ8pPqmNwL9dDFP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:companion-of-the-claw]
 name: "Companion of the Claw"
 full-name: "Companion of the Claw (yellow)"
 color: yellow

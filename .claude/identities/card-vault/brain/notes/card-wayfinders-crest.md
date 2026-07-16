@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rtR8zKcQtHFKrqQKLwBWC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wayfinders-crest]
 name: "Wayfinder's Crest"
 defense: 1
 classes: [Ranger]

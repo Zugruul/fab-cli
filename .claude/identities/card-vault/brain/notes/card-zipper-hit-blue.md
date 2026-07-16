@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n6kmDfMCtWLDjQ7jgKW6z) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:zipper-hit]
 name: "Zipper Hit"
 full-name: "Zipper Hit (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t68gtGcPf8H9wTGBCfj8L) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:monstrous-veil]
 name: "Monstrous Veil"
 defense: 1
 classes: [Brute]

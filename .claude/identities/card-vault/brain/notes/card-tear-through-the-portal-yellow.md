@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fC686brzCdJgKGMp6M7WC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tear-through-the-portal]
 name: "Tear Through the Portal"
 full-name: "Tear Through the Portal (yellow)"
 color: yellow

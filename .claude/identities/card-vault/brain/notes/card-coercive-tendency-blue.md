@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KP7QFDQPWfTW9DwmgBJq9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:coercive-tendency]
 name: "Coercive Tendency"
 full-name: "Coercive Tendency (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LfddJTKKb9HwPzHMBH9w9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sink-below]
 name: "Sink Below"
 full-name: "Sink Below (red)"
 color: red

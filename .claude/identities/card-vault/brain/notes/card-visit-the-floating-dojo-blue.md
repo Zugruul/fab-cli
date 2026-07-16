@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zTKjp9zwk8Whfjr7bKpbn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:visit-the-floating-dojo]
 name: "Visit the Floating Dojo"
 full-name: "Visit the Floating Dojo (blue)"
 color: blue

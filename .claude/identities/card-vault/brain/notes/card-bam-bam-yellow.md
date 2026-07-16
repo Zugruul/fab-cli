@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k6CHfQ7NKhD8f7kPPhBdK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bam-bam]
 name: "Bam Bam"
 full-name: "Bam Bam (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRWWLdH9LMtHDr6kRpHmF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:combustible-courier]
 name: "Combustible Courier"
 full-name: "Combustible Courier (blue)"
 color: blue

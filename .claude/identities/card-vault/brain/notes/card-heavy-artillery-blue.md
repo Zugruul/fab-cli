@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9h6KqtDtctfGjqNTBBjJF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heavy-artillery]
 name: "Heavy Artillery"
 full-name: "Heavy Artillery (blue)"
 color: blue

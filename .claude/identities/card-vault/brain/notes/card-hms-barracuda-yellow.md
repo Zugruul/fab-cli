@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bkMchLmgcWQfPCf7MtjnF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hms-barracuda]
 name: "HMS Barracuda"
 full-name: "HMS Barracuda (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w6BQnKDGdGkHCTzjF6htg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-dart]
 name: "Aether Dart"
 full-name: "Aether Dart (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjprN8T6mMh9pcWCmgPrN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:omens-of-arcana]
 name: "Omens of Arcana"
 types: [Macro]
 other-types: [Omens of the Third Age]

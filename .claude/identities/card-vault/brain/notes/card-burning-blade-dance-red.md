@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GgH7CLN7mwL6HtRcjBjqR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:burning-blade-dance]
 name: "Burning Blade Dance"
 full-name: "Burning Blade Dance (red)"
 color: red

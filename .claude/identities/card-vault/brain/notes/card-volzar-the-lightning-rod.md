@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CzwrwtC7LkmK6mchdpzB7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:volzar-the-lightning-rod]
 name: "Volzar, the Lightning Rod"
 classes: [Wizard]
 talents: [Lightning]

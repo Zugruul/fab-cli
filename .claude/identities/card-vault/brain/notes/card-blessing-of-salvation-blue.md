@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8gG7TFrTqGj6rGFCCHztP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-salvation]
 name: "Blessing of Salvation"
 full-name: "Blessing of Salvation (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7LBccf7qnHMdgb996CcWz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:embrace-adversity]
 name: "Embrace Adversity"
 defense: 2
 classes: [Generic]

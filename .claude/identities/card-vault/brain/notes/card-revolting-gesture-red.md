@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GCrJthLPkqzBMpRFmnFFK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:revolting-gesture]
 name: "Revolting Gesture"
 full-name: "Revolting Gesture (red)"
 color: red

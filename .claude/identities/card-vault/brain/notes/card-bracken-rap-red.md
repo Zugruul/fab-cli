@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ddWqPQBnFfqdkkMh87RKw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bracken-rap]
 name: "Bracken Rap"
 full-name: "Bracken Rap (red)"
 color: red

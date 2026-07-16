@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kmP89HM9Rq9WdwgCbCC7q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:calming-breeze]
 name: "Calming Breeze"
 full-name: "Calming Breeze (red)"
 color: red

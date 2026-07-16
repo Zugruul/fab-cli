@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kTNdJ7FzJFNzgLpBWgTPM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ice-quake]
 name: "Ice Quake"
 full-name: "Ice Quake (yellow)"
 color: yellow

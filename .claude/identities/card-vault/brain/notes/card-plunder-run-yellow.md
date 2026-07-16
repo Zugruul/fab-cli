@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MGt8wLQqdFk9F8LBQnD9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plunder-run]
 name: "Plunder Run"
 full-name: "Plunder Run (yellow)"
 color: yellow

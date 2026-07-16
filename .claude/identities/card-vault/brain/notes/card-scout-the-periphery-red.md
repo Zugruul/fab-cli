@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kH9PnLPwkjrBjBPWR7FBq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scout-the-periphery]
 name: "Scout the Periphery"
 full-name: "Scout the Periphery (red)"
 color: red

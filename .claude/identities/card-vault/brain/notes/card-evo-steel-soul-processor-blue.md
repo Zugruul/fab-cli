@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mmwtq8HtKPFpp6TcrF9fM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-steel-soul-processor]
 name: "Evo Steel Soul Processor"
 full-name: "Evo Steel Soul Processor (blue)"
 color: blue

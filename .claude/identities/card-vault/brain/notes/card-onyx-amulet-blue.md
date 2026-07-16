@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hpQCHKmzQGrjhJFJR8pBP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:onyx-amulet]
 name: "Onyx Amulet"
 full-name: "Onyx Amulet (blue)"
 color: blue

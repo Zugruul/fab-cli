@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6LLwpNzLJBgr8c8nTqdmr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fabric-of-scales]
 name: "Fabric of Scales"
 full-name: "Fabric of Scales (blue)"
 color: blue

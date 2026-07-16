@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WbmtPhzqpRtfC7rRHgB7k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:trip-the-light-fantastic]
 name: "Trip the Light Fantastic"
 full-name: "Trip the Light Fantastic (blue)"
 color: blue

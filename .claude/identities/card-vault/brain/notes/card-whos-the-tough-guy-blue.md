@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kKGTFjLBcLrKRcJzHRRnQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:whos-the-tough-guy]
 name: "Who's the Tough Guy?"
 full-name: "Who's the Tough Guy? (blue)"
 color: blue

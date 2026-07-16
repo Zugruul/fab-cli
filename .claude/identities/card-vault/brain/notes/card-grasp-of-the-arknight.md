@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6WM7PKt9BCGmw7wQzn7k6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:grasp-of-the-arknight]
 name: "Grasp of the Arknight"
 defense: 2
 classes: [Runeblade]

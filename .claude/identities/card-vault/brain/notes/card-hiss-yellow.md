@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KWTp66RpbjrmqQPg87jbm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hiss]
 name: "Hiss"
 full-name: "Hiss (yellow)"
 color: yellow

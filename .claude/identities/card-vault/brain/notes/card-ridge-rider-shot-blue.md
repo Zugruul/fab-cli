@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mDmCFWkbbbfR7dD87Fnc8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ridge-rider-shot]
 name: "Ridge Rider Shot"
 full-name: "Ridge Rider Shot (blue)"
 color: blue

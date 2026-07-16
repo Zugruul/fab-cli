@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zn8NpMnDBcKzGhLj9Cp6J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stunning-swipe]
 name: "Stunning Swipe"
 full-name: "Stunning Swipe (yellow)"
 color: yellow

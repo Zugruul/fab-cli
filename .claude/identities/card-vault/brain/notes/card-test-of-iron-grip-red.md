@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kMbtCPhmRMRr9fJnGRtPj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:test-of-iron-grip]
 name: "Test of Iron Grip"
 full-name: "Test of Iron Grip (red)"
 color: red

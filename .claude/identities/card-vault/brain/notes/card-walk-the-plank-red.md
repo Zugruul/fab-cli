@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLQrqhLnpqbkKh8qLRtnn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:walk-the-plank]
 name: "Walk the Plank"
 full-name: "Walk the Plank (red)"
 color: red

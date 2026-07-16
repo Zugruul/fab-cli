@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BPkPddj9wRpjhfhWcb6bw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tough-leather-boots]
 name: "Tough Leather Boots"
 defense: 1
 classes: [Brute]

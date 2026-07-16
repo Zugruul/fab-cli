@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PWbNdrFrhPDk99CRG7QfM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:channel-lightning-valley]
 name: "Channel Lightning Valley"
 full-name: "Channel Lightning Valley (yellow)"
 color: yellow

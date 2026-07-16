@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9BqdPQckmdgcfzwtjw7BP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sash-of-sandikai]
 name: "Sash of Sandikai"
 defense: 0
 talents: [Draconic]

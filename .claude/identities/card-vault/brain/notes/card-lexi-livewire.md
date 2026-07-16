@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFmgFK9dFr8q6PrpJFpPG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lexi-livewire]
 name: "Lexi, Livewire"
 health: 40
 intelligence: 4

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FwdNLdm6dDRk6bjk9qwBQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ratchet-up]
 name: "Ratchet Up"
 full-name: "Ratchet Up (yellow)"
 color: yellow

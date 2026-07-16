@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MhmQ8chFGLcdjP66Jgj6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:take-the-bait]
 name: "Take the Bait"
 full-name: "Take the Bait (red)"
 color: red

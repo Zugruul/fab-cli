@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QjCCMBLNTHkwzPqmjCTqN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:throw-caution-to-the-wind]
 name: "Throw Caution to the Wind"
 full-name: "Throw Caution to the Wind (blue)"
 color: blue

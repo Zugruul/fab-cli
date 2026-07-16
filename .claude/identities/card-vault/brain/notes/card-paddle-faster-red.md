@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PJQgmWWftPgbC9Nz7zzKD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:paddle-faster]
 name: "Paddle Faster"
 full-name: "Paddle Faster (red)"
 color: red

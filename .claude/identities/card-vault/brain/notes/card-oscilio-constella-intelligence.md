@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bd8JQMtjbmwQ7W6GLt7KL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oscilio-constella-intelligence]
 name: "Oscilio, Constella Intelligence"
 health: 36
 intelligence: 4

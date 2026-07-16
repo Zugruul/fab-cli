@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nNnqFQD7WfGFGRnrMw8nh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cloud-skiff]
 name: "Cloud Skiff"
 full-name: "Cloud Skiff (blue)"
 color: blue

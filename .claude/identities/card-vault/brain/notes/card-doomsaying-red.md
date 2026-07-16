@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pgCtKBCMMg6wmhBQHB6Tq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:doomsaying]
 name: "Doomsaying"
 full-name: "Doomsaying (red)"
 color: red

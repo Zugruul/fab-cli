@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kCKqHQb8W96FJTWqnNhCj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flicker-trick]
 name: "Flicker Trick"
 full-name: "Flicker Trick (red)"
 color: red

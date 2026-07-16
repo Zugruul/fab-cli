@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nq9dPQ8KmtgWjCczcJQfz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:muscle-mutt]
 name: "Muscle Mutt"
 full-name: "Muscle Mutt (yellow)"
 color: yellow

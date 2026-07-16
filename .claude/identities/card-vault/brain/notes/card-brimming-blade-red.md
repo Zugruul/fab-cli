@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BJKkfCPh7LmMrT9bDn6wz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:brimming-blade]
 name: "Brimming Blade"
 full-name: "Brimming Blade (red)"
 color: red

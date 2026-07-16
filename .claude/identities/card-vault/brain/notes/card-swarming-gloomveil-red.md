@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtnBPQH6gdBtgKCRmKtFg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:swarming-gloomveil]
 name: "Swarming Gloomveil"
 full-name: "Swarming Gloomveil (red)"
 color: red

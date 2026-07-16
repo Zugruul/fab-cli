@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cHPKptkbztKtj7bQnWmmP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:liars-charm]
 name: "Liar's Charm"
 full-name: "Liar's Charm (yellow)"
 color: yellow

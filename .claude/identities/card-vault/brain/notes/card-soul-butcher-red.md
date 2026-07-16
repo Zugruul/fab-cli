@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LPRLWKpH6RBtzL6Jh7L7z) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:soul-butcher]
 name: "Soul Butcher"
 full-name: "Soul Butcher (red)"
 color: red

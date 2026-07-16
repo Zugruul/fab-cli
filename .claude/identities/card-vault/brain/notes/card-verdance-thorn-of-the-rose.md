@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJMCMFqcQfRJmK96kc8qM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:verdance-thorn-of-the-rose]
 name: "Verdance, Thorn of the Rose"
 health: 40
 intelligence: 4

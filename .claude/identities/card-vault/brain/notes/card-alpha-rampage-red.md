@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GgDFFHhLh8Kc7tJK8nBLj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:alpha-rampage]
 name: "Alpha Rampage"
 full-name: "Alpha Rampage (red)"
 color: red

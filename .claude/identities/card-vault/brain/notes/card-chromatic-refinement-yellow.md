@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BnzFFnTJdw9HP9cP6fqP8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chromatic-refinement]
 name: "Chromatic Refinement"
 full-name: "Chromatic Refinement (yellow)"
 color: yellow

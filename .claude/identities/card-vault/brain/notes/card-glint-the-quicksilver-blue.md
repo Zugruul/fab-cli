@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QDgDmcwTqJPDctWrbqMLt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glint-the-quicksilver]
 name: "Glint the Quicksilver"
 full-name: "Glint the Quicksilver (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Crtn9djMPnRdwjKnhWRpk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:singing-steelblade]
 name: "Singing Steelblade"
 full-name: "Singing Steelblade (yellow)"
 color: yellow

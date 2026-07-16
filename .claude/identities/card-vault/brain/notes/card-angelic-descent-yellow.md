@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GNPNfqF7phg8dcbCBRjtC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:angelic-descent]
 name: "Angelic Descent"
 full-name: "Angelic Descent (yellow)"
 color: yellow

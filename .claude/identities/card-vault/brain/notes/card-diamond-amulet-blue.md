@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KKLmtWbhTRtcffWGpz7CN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:diamond-amulet]
 name: "Diamond Amulet"
 full-name: "Diamond Amulet (blue)"
 color: blue

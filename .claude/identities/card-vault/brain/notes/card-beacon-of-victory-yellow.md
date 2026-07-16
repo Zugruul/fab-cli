@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rq9WWJHNRbbmNDBzmHtJN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beacon-of-victory]
 name: "Beacon of Victory"
 full-name: "Beacon of Victory (yellow)"
 color: yellow

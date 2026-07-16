@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dhfWgpW6bPJrPMcKrFRdt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:astral-assault]
 name: "Astral Assault"
 full-name: "Astral Assault (yellow)"
 color: yellow

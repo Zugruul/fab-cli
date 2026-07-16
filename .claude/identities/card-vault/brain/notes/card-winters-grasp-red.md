@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b9rTHdGpFNRhfDTJL6gzc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:winters-grasp]
 name: "Winter's Grasp"
 full-name: "Winter's Grasp (red)"
 color: red

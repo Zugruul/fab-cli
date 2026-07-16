@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DPh9t9CPG8qjfbPNPbfBK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sizzling-steel]
 name: "Sizzling Steel"
 full-name: "Sizzling Steel (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NhtzDBJkQ8cFtFkW7NLgf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:backup-protocol-yel]
 name: "Backup Protocol: YEL"
 full-name: "Backup Protocol: YEL (yellow)"
 color: yellow

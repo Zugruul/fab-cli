@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M7nPGBJMNj6tbtDgzMNqc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tiger-taming-khakkara]
 name: "Tiger Taming Khakkara"
 power: 2
 classes: [Ninja]

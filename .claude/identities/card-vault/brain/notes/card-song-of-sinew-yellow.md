@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gG6NLRhhPKLPh6Q7nJHBT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:song-of-sinew]
 name: "Song of Sinew"
 full-name: "Song of Sinew (yellow)"
 color: yellow

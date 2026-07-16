@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mcffqz8hhNjNgTGMHJwhR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seeds-of-tomorrow]
 name: "Seeds of Tomorrow"
 full-name: "Seeds of Tomorrow (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pNc7mQN79mQRRB86pnwGt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:battlefield-beacon]
 name: "Battlefield Beacon"
 full-name: "Battlefield Beacon (yellow)"
 color: yellow

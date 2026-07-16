@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F8BfQTc6BwC9qbDmQzn7g) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ghostly-visit]
 name: "Ghostly Visit"
 full-name: "Ghostly Visit (red)"
 color: red

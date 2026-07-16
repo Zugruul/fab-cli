@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cH7H7wcqh9qtMrNtJ7wdF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tome-of-imperial-flame]
 name: "Tome of Imperial Flame"
 full-name: "Tome of Imperial Flame (red)"
 color: red

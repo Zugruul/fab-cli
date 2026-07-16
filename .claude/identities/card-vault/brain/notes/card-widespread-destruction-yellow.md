@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dTJpQ9hGCQBrDGzt6jgCC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:widespread-destruction]
 name: "Widespread Destruction"
 full-name: "Widespread Destruction (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtGRcJrNgDN6LcQtcN7Qb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cogwerx-workshop]
 name: "Cogwerx Workshop"
 full-name: "Cogwerx Workshop (blue)"
 color: blue

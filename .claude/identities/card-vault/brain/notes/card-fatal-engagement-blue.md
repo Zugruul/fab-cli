@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HFtJKqJgR6tQqRNF99gmq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fatal-engagement]
 name: "Fatal Engagement"
 full-name: "Fatal Engagement (blue)"
 color: blue

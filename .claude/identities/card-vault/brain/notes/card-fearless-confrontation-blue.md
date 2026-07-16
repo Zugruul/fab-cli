@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h6J7CzPwdkTCKcbK7Jc8T) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fearless-confrontation]
 name: "Fearless Confrontation"
 full-name: "Fearless Confrontation (blue)"
 color: blue

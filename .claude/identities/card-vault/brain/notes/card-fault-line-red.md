@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bzPDgqKBRNH7JQjcqWbfk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fault-line]
 name: "Fault Line"
 full-name: "Fault Line (red)"
 color: red

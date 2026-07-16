@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Tp7nmGfdwmJP7gzgftM9T) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rift-skitter]
 name: "Rift Skitter"
 full-name: "Rift Skitter (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCKJqg6QMPR9pLPBCJQJK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:toxic-tips]
 name: "Toxic Tips"
 defense: 1
 classes: [Assassin, Ranger]

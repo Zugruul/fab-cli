@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fdTzMwFCfWtRTwC6qDMRt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:forged-for-war]
 name: "Forged for War"
 full-name: "Forged for War (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gRpHwzjCr7Q6RQwnGTT7t) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clash-of-agility]
 name: "Clash of Agility"
 full-name: "Clash of Agility (red)"
 color: red

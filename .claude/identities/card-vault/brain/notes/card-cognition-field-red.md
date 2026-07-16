@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WLn8D67P6kfgMj6bmRHhz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cognition-field]
 name: "Cognition Field"
 full-name: "Cognition Field (red)"
 color: red

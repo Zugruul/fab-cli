@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tWqk8FWtf7TD9RgWBpKPP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cosmic-duality]
 name: "Cosmic Duality"
 full-name: "Cosmic Duality (red)"
 color: red

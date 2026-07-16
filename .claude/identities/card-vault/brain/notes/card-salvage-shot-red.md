@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9pnrkbM9DbqCqqkbDCC8N) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:salvage-shot]
 name: "Salvage Shot"
 full-name: "Salvage Shot (red)"
 color: red

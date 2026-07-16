@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dFm9z7KzTbWHCbw9CgN7h) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arcanic-shockwave]
 name: "Arcanic Shockwave"
 full-name: "Arcanic Shockwave (red)"
 color: red

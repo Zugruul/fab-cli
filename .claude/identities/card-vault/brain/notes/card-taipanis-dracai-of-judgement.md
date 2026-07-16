@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtGCjcNCNGg9MkDMwtKCN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:taipanis-dracai-of-judgement]
 name: "Taipanis, Dracai of Judgement"
 health: 20
 intelligence: 4

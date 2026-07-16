@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NHCQbrdqqK7FbcWgKnwWn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-permafrost]
 name: "Sigil of Permafrost"
 full-name: "Sigil of Permafrost (red)"
 color: red

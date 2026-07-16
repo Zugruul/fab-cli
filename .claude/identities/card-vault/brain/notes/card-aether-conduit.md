@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HFnfqgNGj6JdDwMjDC7KQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-conduit]
 name: "Aether Conduit"
 classes: [Wizard]
 types: [Weapon]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GcD9dDfgTK8tmn7H8ccTk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:radiant-flow]
 name: "Radiant Flow"
 talents: [Light]
 types: [Equipment]

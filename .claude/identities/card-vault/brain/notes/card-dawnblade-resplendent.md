@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kTzjGBrWbwncJCt7wLTrH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dawnblade-resplendent]
 name: "Dawnblade, Resplendent"
 power: 2
 classes: [Warrior]

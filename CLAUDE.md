@@ -418,6 +418,8 @@ The repo vendors external knowledge under `third_party/`:
 
 **Keyword corpus (HARD RULE):** the `kw-*` notes + generated `keywords-index` are ONE physical copy living in the card-vault brain, symlinked (relative) into the judge and player brains — all brains read the same bytes. Editorial authority is the judge's; notes follow a strict template; the index is generated; NEVER write through a `kw-*` symlink outside judge editorial. Verify/repair with `python3 scripts/keyword-sync.py check|sync`; full template + protocol: `.claude/identities/KEYWORD-SYNC.md`.
 
+**Cross-identity entities:** generated card/keyword notes declare stable `card:`/`keyword:` keys and builders refresh `.claude/identities/entity-index.json`. `python3 scripts/backfill-entities.py --check` previews conservative proposals for hand-owned judge/player notes; omit `--check` to write a reviewable diff (the script never stages or commits). Interaction notes should be minted with `--entities card:<a>,card:<b>` when those card files exist.
+
 **Before answering any question that draws on these sources (card text, card facts, lore), check freshness and update first** if the submodule hasn't been pulled in >24h: `git submodule update --remote third_party/<name>` (fablore has its own TTL auto-sync via `lore search`). Never answer card-text questions from model memory — read the card from the submodule. The submodule's `banned-*.json` files may be stale: **card legality ALWAYS comes from the live policy page** (https://fabtcg.com/rules-and-policy-center/card-legality-policy/), never from the submodule, cache, or memory. When bumping a submodule pin, commit the change.
 
 ## Lore (legendarystories.net / fablore)

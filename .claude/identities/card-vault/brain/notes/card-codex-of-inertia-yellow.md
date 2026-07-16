@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GtdbFwh9DGwF76LrNhJrn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:codex-of-inertia]
 name: "Codex of Inertia"
 full-name: "Codex of Inertia (yellow)"
 color: yellow

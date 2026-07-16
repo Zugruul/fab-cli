@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JcTJrnMgfhqHj6b8ckr8W) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:legacy-of-ikaru]
 name: "Legacy of Ikaru"
 full-name: "Legacy of Ikaru (blue)"
 color: blue

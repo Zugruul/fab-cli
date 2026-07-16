@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mLQbHGnCHtLpmJh6LWLbP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:volatile-fluxor]
 name: "Volatile Fluxor"
 full-name: "Volatile Fluxor (red)"
 color: red

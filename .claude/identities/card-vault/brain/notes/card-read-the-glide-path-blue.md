@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dN67MttzDLBTqmCWdDQ9M) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:read-the-glide-path]
 name: "Read the Glide Path"
 full-name: "Read the Glide Path (blue)"
 color: blue

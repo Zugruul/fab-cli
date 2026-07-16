@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JH89Ctbgtj6bFhjNKr9BL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-solitude]
 name: "Sigil of Solitude"
 full-name: "Sigil of Solitude (red)"
 color: red

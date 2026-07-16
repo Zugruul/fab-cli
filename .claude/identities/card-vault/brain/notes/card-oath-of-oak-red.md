@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzjNwbBR9WMqhDD8mkBnp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oath-of-oak]
 name: "Oath of Oak"
 full-name: "Oath of Oak (red)"
 color: red

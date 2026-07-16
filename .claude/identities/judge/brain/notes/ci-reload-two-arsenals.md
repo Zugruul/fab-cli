@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.5.23a — third_party/fab-rules/en-fab-cr.txt; cards: Bolt'n' Shot, New Horizon (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:boltn-shot, card:new-horizon]
+
 ---
 
 **Bolt'n' Shot** (Ranger Action Arrow Attack): "If Bolt'n' Shot's {p} is greater than its base {p}, it has go again and 'If this hits, reload.'" **New Horizon** (Ranger Equipment Head): "If you have a face up card in your arsenal, you have an additional arsenal zone." Reload (CR 8.5.23): "To reload a card, if the player's arsenal is empty and they choose to do so, move it from the player's hand to their arsenal face-down." CR 8.5.23a: "If the player has two or more arsenal zones, all of those arsenal zones must be empty for the player's arsenal to be considered empty."

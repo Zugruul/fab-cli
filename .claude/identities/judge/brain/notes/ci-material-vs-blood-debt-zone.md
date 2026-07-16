@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.4.5, 8.3.11, 3.0.14a — third_party/fab-rules/en-fab-cr.txt; cards: Ash token, Battlefield Breaker (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:battlefield-breaker]
+
 ---
 
 **Ash** (Token Ash): "Material - While Ash is under a permanent, that permanent has phantasm." Material (CR 8.4.5) explicitly functions only "while this is under a permanent." CR 3.0.14a: "A card is only considered to be under a permanent if specified by a rule or effect." By contrast, **Battlefield Breaker**'s Blood Debt (CR 8.3.11): "While this is in your banished zone, at the beginning of your end phase, lose 1{h}" — an ability explicitly scoped to function FROM the banished zone, no "under" requirement.

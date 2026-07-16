@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cgFCqbggd6BNB8kHFWNKJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wage-vigor]
 name: "Wage Vigor"
 full-name: "Wage Vigor (red)"
 color: red

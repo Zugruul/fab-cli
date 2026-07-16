@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQm7zFjBPCzc68JDd8D6z) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:storm-of-sandikai]
 name: "Storm of Sandikai"
 classes: [Illusionist]
 talents: [Draconic]

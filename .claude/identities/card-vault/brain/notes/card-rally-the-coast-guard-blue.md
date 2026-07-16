@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wL7qNGJ7hn86bLDB7kGDG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rally-the-coast-guard]
 name: "Rally the Coast Guard"
 full-name: "Rally the Coast Guard (blue)"
 color: blue

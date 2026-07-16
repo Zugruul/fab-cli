@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T6GTpNNkdNMhBWqfPfK8P) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shield-bash]
 name: "Shield Bash"
 full-name: "Shield Bash (blue)"
 color: blue

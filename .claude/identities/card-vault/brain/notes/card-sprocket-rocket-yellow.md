@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kQRmk6tcgNqLqhd887DBB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sprocket-rocket]
 name: "Sprocket Rocket"
 full-name: "Sprocket Rocket (yellow)"
 color: yellow

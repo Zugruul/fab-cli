@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MWfDtTFgd8f8zNzQgDJjt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:demolition-protocol]
 name: "Demolition Protocol"
 full-name: "Demolition Protocol (red)"
 color: red

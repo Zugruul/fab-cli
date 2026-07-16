@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RRfwzgrbMbFGNqppnD8rB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:millers-grindstone]
 name: "Miller's Grindstone"
 power: 4
 classes: [Guardian]

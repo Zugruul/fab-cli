@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jnM9JWHGJqdtjPmLCbGMm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:root-bound-trunks]
 name: "Root-Bound Trunks"
 defense: 1
 classes: [Guardian]

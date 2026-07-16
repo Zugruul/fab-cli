@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ktngNfHpLWzFFqzbFCFct) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:venomous-bite]
 name: "Venomous Bite"
 full-name: "Venomous Bite (blue)"
 color: blue

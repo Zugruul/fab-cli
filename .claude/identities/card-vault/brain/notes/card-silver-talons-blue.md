@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zhP7z88wWHj68BTGFKpFw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:silver-talons]
 name: "Silver Talons"
 full-name: "Silver Talons (blue)"
 color: blue

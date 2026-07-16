@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TjdM8c7NpJjpjdLDbt7KG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:electromagnetic-somersault]
 name: "Electromagnetic Somersault"
 full-name: "Electromagnetic Somersault (blue)"
 color: blue

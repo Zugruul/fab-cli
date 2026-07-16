@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CqjGDbBG9WMHfdcpF8fqJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:steelblade-shunt]
 name: "Steelblade Shunt"
 full-name: "Steelblade Shunt (blue)"
 color: blue

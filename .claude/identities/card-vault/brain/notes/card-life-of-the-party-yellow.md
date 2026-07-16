@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7frtgrpJFT9fmwbnbfrP6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:life-of-the-party]
 name: "Life of the Party"
 full-name: "Life of the Party (yellow)"
 color: yellow

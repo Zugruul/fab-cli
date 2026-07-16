@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DqhggQR7Tcr9jQJ8QRrHd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:valiant-thrust]
 name: "Valiant Thrust"
 full-name: "Valiant Thrust (blue)"
 color: blue

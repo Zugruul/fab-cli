@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n6jb6thTHT9TpcTdRjdQm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:down-but-not-out]
 name: "Down But Not Out"
 full-name: "Down But Not Out (yellow)"
 color: yellow

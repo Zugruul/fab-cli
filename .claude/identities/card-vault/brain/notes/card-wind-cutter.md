@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nP6cCbptBCkzLqKfPrKNb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wind-cutter]
 name: "Wind Cutter"
 defense: 1
 classes: [Ninja]

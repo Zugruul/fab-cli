@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 88GhcGBpR8WDWQRr87hcn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:loan-shark]
 name: "Loan Shark"
 full-name: "Loan Shark (yellow)"
 color: yellow

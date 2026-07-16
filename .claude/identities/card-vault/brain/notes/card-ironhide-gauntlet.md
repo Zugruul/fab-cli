@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FWzdtMmz6kCcWBpWDMLmM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ironhide-gauntlet]
 name: "Ironhide Gauntlet"
 defense: 0
 classes: [Generic]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mh9bPkdPw6Hf7NCQhTqgp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:polarus-pulse-ray]
 name: "Polarus Pulse Ray"
 full-name: "Polarus Pulse Ray (blue)"
 color: blue

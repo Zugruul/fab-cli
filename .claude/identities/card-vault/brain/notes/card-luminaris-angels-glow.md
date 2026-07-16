@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zcHmW9zd8TRqMMGc8PHmh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:luminaris-angels-glow]
 name: "Luminaris, Angel's Glow"
 classes: [Illusionist]
 talents: [Light]

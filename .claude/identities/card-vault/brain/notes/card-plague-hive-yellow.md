@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GKWhbqnhnR6ztt9gCzmLw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plague-hive]
 name: "Plague Hive"
 full-name: "Plague Hive (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mdLNBgt6kTMfdG9c97jP9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blinding-of-the-old-ones]
 name: "Blinding of the Old Ones"
 full-name: "Blinding of the Old Ones (red)"
 color: red

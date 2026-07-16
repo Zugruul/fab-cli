@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tcgLRpmfGcfgfDkBwGWbk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tough-as-a-rok]
 name: "Tough as a Rok"
 full-name: "Tough as a Rok (blue)"
 color: blue

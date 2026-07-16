@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJkKN8JqCpJTtG9TPHM7n) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tempestuous-kiss]
 name: "Tempestuous Kiss"
 full-name: "Tempestuous Kiss (red)"
 color: red

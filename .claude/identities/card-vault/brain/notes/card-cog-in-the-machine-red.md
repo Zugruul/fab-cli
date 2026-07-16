@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jqrFDnJPwhw6bcQCcrLQT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cog-in-the-machine]
 name: "Cog in the Machine"
 full-name: "Cog in the Machine (red)"
 color: red

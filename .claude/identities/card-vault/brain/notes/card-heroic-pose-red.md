@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z8f8PqBmdGwK9ftBbcBMb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heroic-pose]
 name: "Heroic Pose"
 full-name: "Heroic Pose (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dQ9DC6fLBNbBQdrcrKtQW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pyroglyphic-protection]
 name: "Pyroglyphic Protection"
 full-name: "Pyroglyphic Protection (yellow)"
 color: yellow

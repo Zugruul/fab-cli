@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7BHmLFHMLWwnzR7Fhf667) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glistening-steelblade]
 name: "Glistening Steelblade"
 full-name: "Glistening Steelblade (yellow)"
 color: yellow

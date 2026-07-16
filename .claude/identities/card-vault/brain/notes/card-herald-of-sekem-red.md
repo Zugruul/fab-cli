@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8KBRjnQQ7cTq7M9q9CgCN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:herald-of-sekem]
 name: "Herald of Sekem"
 full-name: "Herald of Sekem (red)"
 color: red

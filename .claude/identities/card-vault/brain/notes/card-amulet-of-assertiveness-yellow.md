@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zDfRfgF6fn7WGTKcj67JK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-assertiveness]
 name: "Amulet of Assertiveness"
 full-name: "Amulet of Assertiveness (yellow)"
 color: yellow

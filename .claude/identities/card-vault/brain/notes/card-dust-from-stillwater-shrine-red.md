@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NJkbhctpNJqK9FRDBmzKr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dust-from-stillwater-shrine]
 name: "Dust from Stillwater Shrine"
 full-name: "Dust from Stillwater Shrine (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rJd6rP8HgrgcfzDBT8bWB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seek-enlightenment]
 name: "Seek Enlightenment"
 full-name: "Seek Enlightenment (red)"
 color: red

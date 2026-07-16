@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DgHLhRDccpLbjGT9nN8Jm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:the-grain-that-tips-the-scale]
 name: "The Grain that Tips the Scale"
 full-name: "The Grain that Tips the Scale (blue)"
 color: blue

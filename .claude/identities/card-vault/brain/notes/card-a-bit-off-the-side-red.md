@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NWf8zDGMgnph8dnzkmng6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:a-bit-off-the-side]
 name: "A Bit off the Side"
 full-name: "A Bit off the Side (red)"
 color: red

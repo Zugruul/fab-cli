@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jdn7kNmFnCNPDRjp7mg9m) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:show-of-strength]
 name: "Show of Strength"
 full-name: "Show of Strength (red)"
 color: red

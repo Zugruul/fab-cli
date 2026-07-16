@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid whJmFnkNbtrd8D98KGg8d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gas-up]
 name: "Gas Up"
 full-name: "Gas Up (blue)"
 color: blue

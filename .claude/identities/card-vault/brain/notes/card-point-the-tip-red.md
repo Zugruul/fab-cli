@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tqJNQ68KhJHWdJN8mFrdq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:point-the-tip]
 name: "Point the Tip"
 full-name: "Point the Tip (red)"
 color: red

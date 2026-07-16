@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9R96qhGFQKHCLr8jzKTKg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:who-blinks-first]
 name: "Who Blinks First?"
 full-name: "Who Blinks First? (blue)"
 color: blue

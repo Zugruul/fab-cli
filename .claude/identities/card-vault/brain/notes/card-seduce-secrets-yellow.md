@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wnz6M6QrJktmmcPLgpbr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seduce-secrets]
 name: "Seduce Secrets"
 full-name: "Seduce Secrets (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JjM6fT8dmFTMdKMpRjqCJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heavy-metal-hardcore]
 name: "Heavy Metal Hardcore"
 full-name: "Heavy Metal Hardcore (yellow)"
 color: yellow

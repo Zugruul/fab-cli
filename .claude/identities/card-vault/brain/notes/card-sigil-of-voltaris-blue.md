@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCQmJTff79gRj7bChFTM7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-voltaris]
 name: "Sigil of Voltaris"
 full-name: "Sigil of Voltaris (blue)"
 color: blue

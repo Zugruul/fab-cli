@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LKTc8bNLczk7p78FwWzTw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spoils-of-war]
 name: "Spoils of War"
 full-name: "Spoils of War (red)"
 color: red

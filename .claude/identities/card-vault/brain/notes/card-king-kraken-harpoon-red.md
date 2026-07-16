@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnjKtMh8BcRHL8NJkFWpL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:king-kraken-harpoon]
 name: "King Kraken Harpoon"
 full-name: "King Kraken Harpoon (red)"
 color: red

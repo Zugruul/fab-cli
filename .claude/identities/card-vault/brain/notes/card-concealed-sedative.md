@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QFf8JBQK6HBJ6Tqdzm9HJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:concealed-sedative]
 name: "Concealed Sedative"
 classes: [Ranger]
 types: [Equipment]

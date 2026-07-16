@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mC76qgRmwnBBqMkgTTfJ8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hyper-scrapper]
 name: "Hyper Scrapper"
 full-name: "Hyper Scrapper (blue)"
 color: blue

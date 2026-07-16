@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H7QLKkw7fPCLfntKj86qp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wind-up-the-crowd]
 name: "Wind Up the Crowd"
 full-name: "Wind Up the Crowd (blue)"
 color: blue

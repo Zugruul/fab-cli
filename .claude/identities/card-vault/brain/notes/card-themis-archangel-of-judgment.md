@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8cQmdjw8zKNzddKkwcHWj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:themis-archangel-of-judgment]
 name: "Themis, Archangel of Judgment"
 power: 4
 health: 4

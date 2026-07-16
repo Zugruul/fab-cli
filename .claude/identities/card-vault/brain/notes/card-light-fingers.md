@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCpd7ctKhtN7LCP8FqkmP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:light-fingers]
 name: "Light Fingers"
 defense: 1
 classes: [Generic]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QKhbmNTMMfFNmDkp7gcRd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-hail]
 name: "Aether Hail"
 full-name: "Aether Hail (red)"
 color: red

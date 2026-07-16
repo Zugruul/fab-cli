@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JrjbG9mbwQC8zQcnPRhHg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:virulent-touch]
 name: "Virulent Touch"
 full-name: "Virulent Touch (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qGKR8rcj7wrHQdF6kBwmk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:penetration-script]
 name: "Penetration Script"
 full-name: "Penetration Script (yellow)"
 color: yellow

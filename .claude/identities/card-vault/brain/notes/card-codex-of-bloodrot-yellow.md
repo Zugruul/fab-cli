@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tjnCb9JGD7mzznFPfDzHp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:codex-of-bloodrot]
 name: "Codex of Bloodrot"
 full-name: "Codex of Bloodrot (yellow)"
 color: yellow

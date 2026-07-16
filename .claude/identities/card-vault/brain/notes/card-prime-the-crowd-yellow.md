@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DnWNQrGqLW69pqRdTDhmT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:prime-the-crowd]
 name: "Prime the Crowd"
 full-name: "Prime the Crowd (yellow)"
 color: yellow

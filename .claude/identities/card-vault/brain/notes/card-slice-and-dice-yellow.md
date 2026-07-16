@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N9gqKRghrpWNHBqnCHt9m) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:slice-and-dice]
 name: "Slice and Dice"
 full-name: "Slice and Dice (yellow)"
 color: yellow

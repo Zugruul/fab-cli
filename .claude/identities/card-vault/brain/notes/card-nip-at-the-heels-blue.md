@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wk8pbbnHPWfp6ndkJb6QD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nip-at-the-heels]
 name: "Nip at the Heels"
 full-name: "Nip at the Heels (blue)"
 color: blue

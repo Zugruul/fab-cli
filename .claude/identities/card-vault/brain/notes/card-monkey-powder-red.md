@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qrzhp6bWn7rbTFt9fHw7k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:monkey-powder]
 name: "Monkey Powder"
 full-name: "Monkey Powder (red)"
 color: red

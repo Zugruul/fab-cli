@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pfNbbR8kGzBCDCMnFLmNH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:express-lightning]
 name: "Express Lightning"
 full-name: "Express Lightning (red)"
 color: red

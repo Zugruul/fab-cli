@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fMdnz9D9MRDrzMrBFf7Kr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stir-the-aetherwinds]
 name: "Stir the Aetherwinds"
 full-name: "Stir the Aetherwinds (red)"
 color: red

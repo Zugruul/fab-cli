@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bkdFB6qNrhLBgrTrmRpNJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:trampling-trackers]
 name: "Trampling Trackers"
 defense: 2
 classes: [Brute]

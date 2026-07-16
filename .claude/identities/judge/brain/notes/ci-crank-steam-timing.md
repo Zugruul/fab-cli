@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.29, 8.3.29a — third_party/fab-rules/en-fab-cr.txt; card: Assembly Module (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:assembly-module]
+
 ---
 
 **Assembly Module** (Mechanologist Action Item): "Crank — This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it." Crank itself (CR 8.3.29) is a static ability meaning "As this enters the arena, you may remove a steam counter from it. If you do, gain an action point."

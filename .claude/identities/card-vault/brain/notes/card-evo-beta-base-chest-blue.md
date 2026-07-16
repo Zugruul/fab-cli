@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid km9fGmwfBqRwGhccLtgJm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-beta-base-chest]
 name: "Evo Beta Base Chest"
 full-name: "Evo Beta Base Chest (blue)"
 color: blue

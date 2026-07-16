@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrRgGDGgCCbTG8gkfgJjb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:smash-and-grab]
 name: "Smash and Grab"
 full-name: "Smash and Grab (red)"
 color: red

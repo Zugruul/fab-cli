@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jPfMCnKDptNbCbp6T96dT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:barbed-castaway]
 name: "Barbed Castaway"
 classes: [Ranger]
 types: [Weapon]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zThcPg6qzTqM7KB9CWfPR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:read-the-ripples]
 name: "Read the Ripples"
 full-name: "Read the Ripples (red)"
 color: red

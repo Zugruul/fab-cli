@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBDrnc9CmJD6BdzzhQGjJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fleece-the-frail]
 name: "Fleece the Frail"
 full-name: "Fleece the Frail (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BdnFGgLNjHbmMd7jQnjQz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:strong-stomach-for-adversity]
 name: "Strong Stomach for Adversity"
 defense: 1
 classes: [Guardian]

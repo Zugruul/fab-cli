@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G9mhTdpGKD9kzDnBtgdkP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drink-em-under-the-table]
 name: "Drink 'Em Under the Table"
 full-name: "Drink 'Em Under the Table (red)"
 color: red

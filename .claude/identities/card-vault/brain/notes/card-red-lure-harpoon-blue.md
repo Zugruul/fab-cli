@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NLQzm9gf8hckWCdCrC8bp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:red-lure-harpoon]
 name: "Red Lure Harpoon"
 full-name: "Red Lure Harpoon (blue)"
 color: blue

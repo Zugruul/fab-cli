@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tR69zGf7gHHC9pTwwwnkH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flowshard-elemental]
 name: "Flowshard Elemental"
 full-name: "Flowshard Elemental (red)"
 color: red

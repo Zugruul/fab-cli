@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LJGBBqfmC7pzLNMWH7wdW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deadwood-rumbler]
 name: "Deadwood Rumbler"
 full-name: "Deadwood Rumbler (blue)"
 color: blue

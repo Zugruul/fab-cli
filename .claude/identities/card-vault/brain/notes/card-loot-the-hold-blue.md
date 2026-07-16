@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bthMFnn9GbPQBnBT8cNj8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:loot-the-hold]
 name: "Loot the Hold"
 full-name: "Loot the Hold (blue)"
 color: blue

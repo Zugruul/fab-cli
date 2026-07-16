@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjBQKcDzJp8dwN6wJ7f6M) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stir-the-wildwood]
 name: "Stir the Wildwood"
 full-name: "Stir the Wildwood (yellow)"
 color: yellow

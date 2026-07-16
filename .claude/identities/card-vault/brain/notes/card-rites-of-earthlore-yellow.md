@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BjKkfgpdLQGfLjTWmBPwk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rites-of-earthlore]
 name: "Rites of Earthlore"
 full-name: "Rites of Earthlore (yellow)"
 color: yellow

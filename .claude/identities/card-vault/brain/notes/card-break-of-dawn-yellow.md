@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L9ckNFnGCDh9tQtCg8rm6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:break-of-dawn]
 name: "Break of Dawn"
 full-name: "Break of Dawn (yellow)"
 color: yellow

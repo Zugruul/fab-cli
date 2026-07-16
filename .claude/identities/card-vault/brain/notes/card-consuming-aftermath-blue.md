@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tGbgpCzdw6Jzk99PLb9Cm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:consuming-aftermath]
 name: "Consuming Aftermath"
 full-name: "Consuming Aftermath (blue)"
 color: blue

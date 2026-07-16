@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8FNgPpkdWdNw6n9HjbWzM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arcanic-crackle]
 name: "Arcanic Crackle"
 full-name: "Arcanic Crackle (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FkNKF7G8Tn79TtGrgKNpn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pulverize]
 name: "Pulverize"
 full-name: "Pulverize (red)"
 color: red

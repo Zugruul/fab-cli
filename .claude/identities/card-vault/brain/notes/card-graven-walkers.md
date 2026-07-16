@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PjpbjQFgwwt6Bc6BcwRr9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:graven-walkers]
 name: "Graven Walkers"
 defense: 2
 classes: [Assassin]

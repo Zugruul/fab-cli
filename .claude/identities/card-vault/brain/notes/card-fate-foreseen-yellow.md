@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w8QN7hhNck8pQJHcc9rFj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fate-foreseen]
 name: "Fate Foreseen"
 full-name: "Fate Foreseen (yellow)"
 color: yellow

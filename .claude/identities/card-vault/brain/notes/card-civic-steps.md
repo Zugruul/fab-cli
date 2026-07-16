@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQ9JC8BtngfRq7n9pqpKM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:civic-steps]
 name: "Civic Steps"
 defense: 2
 classes: [Guardian]

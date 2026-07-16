@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TNGCHzzLBft9q77QhkW9d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:grinding-gears]
 name: "Grinding Gears"
 full-name: "Grinding Gears (blue)"
 color: blue

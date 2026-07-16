@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DqMQ7mbcWcfL8QjDcCMJr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:depths-of-despair]
 name: "Depths of Despair"
 full-name: "Depths of Despair (yellow)"
 color: yellow

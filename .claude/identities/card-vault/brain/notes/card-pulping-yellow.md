@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KpDFLFJMK7zK8PC7gr6nJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pulping]
 name: "Pulping"
 full-name: "Pulping (yellow)"
 color: yellow

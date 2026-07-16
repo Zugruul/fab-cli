@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qh6Ww9QDjpGFfHG8gJgb7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bolt-of-courage]
 name: "Bolt of Courage"
 full-name: "Bolt of Courage (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FnPjLR9FPNJzBcJpCf8mQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dual-threat]
 name: "Dual Threat"
 full-name: "Dual Threat (yellow)"
 color: yellow

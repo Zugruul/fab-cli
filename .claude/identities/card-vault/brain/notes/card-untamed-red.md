@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qTJLpcMt6WFTDHRgD87tw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:untamed]
 name: "Untamed"
 full-name: "Untamed (red)"
 color: red

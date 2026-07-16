@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCBGzFbQJnMCpTdwRWfK8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:boom-grenade]
 name: "Boom Grenade"
 full-name: "Boom Grenade (yellow)"
 color: yellow

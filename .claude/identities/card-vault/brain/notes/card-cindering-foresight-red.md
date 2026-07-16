@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzJfMfd9gL8JjpJ6hNKMk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cindering-foresight]
 name: "Cindering Foresight"
 full-name: "Cindering Foresight (red)"
 color: red

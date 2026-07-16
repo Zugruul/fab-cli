@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7H7Q8F8wdjf6gJq6MGcz6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:phoenix-bannerman-chest]
 name: "Phoenix Bannerman: Chest"
 full-name: "Phoenix Bannerman: Chest (red)"
 color: red

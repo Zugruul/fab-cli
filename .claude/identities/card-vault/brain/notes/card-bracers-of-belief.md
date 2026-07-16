@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c9BtftttMG7WNrKgnfJFt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bracers-of-belief]
 name: "Bracers of Belief"
 defense: 0
 classes: [Generic]

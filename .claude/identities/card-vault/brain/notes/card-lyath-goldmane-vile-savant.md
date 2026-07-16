@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MgKprw8PQjNKC7JDmppHh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lyath-goldmane-vile-savant]
 name: "Lyath Goldmane, Vile Savant"
 health: 40
 intelligence: 5

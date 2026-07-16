@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PPhTHwN7HKT6Hj9JNbDmt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:solid-ground]
 name: "Solid Ground"
 full-name: "Solid Ground (blue)"
 color: blue

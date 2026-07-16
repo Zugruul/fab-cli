@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JC99fDzqfnbBCGkMCRhtw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dust-from-the-fertile-fields]
 name: "Dust from the Fertile Fields"
 full-name: "Dust from the Fertile Fields (red)"
 color: red

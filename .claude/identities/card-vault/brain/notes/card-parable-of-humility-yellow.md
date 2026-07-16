@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gq8RtNNrR7hz6QB9gj7CG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:parable-of-humility]
 name: "Parable of Humility"
 full-name: "Parable of Humility (yellow)"
 color: yellow

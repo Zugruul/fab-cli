@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6fB9pCdHTN9WBhTBF7D6D) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flock-of-the-feather-walkers]
 name: "Flock of the Feather Walkers"
 full-name: "Flock of the Feather Walkers (blue)"
 color: blue

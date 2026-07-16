@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pQjcMbpRPhTG8DkHftnK9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pilfer-the-tomb]
 name: "Pilfer the Tomb"
 full-name: "Pilfer the Tomb (blue)"
 color: blue

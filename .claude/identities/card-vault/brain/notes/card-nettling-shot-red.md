@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fhmnPQWbBz77qwmWDL6hT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nettling-shot]
 name: "Nettling Shot"
 full-name: "Nettling Shot (red)"
 color: red

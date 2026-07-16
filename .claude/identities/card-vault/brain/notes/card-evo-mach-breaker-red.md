@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LHkFKd9GfdqN7cR6PgPQG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-mach-breaker]
 name: "Evo Mach Breaker"
 full-name: "Evo Mach Breaker (red)"
 color: red

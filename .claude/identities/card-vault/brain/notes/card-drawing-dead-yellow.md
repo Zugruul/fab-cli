@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P9zCBnmGGJLqgH79R89Br) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drawing-dead]
 name: "Drawing Dead"
 full-name: "Drawing Dead (yellow)"
 color: yellow

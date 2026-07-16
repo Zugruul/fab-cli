@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jNbd7cDQccq8zTwgTT8Rb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:barbed-undertow]
 name: "Barbed Undertow"
 full-name: "Barbed Undertow (red)"
 color: red

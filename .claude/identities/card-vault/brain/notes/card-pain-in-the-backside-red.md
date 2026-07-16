@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6LPcMrTJHqQGMctQKWTQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pain-in-the-backside]
 name: "Pain in the Backside"
 full-name: "Pain in the Backside (red)"
 color: red

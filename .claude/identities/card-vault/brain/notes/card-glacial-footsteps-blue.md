@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6RffdjmzwF6NbD96cLDWR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glacial-footsteps]
 name: "Glacial Footsteps"
 full-name: "Glacial Footsteps (blue)"
 color: blue

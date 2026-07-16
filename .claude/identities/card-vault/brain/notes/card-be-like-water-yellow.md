@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h8P7JrccDgT7kRb67RHPm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:be-like-water]
 name: "Be Like Water"
 full-name: "Be Like Water (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hD7Tgjzp9pwjttPmcFttW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arc-light-sentinel]
 name: "Arc Light Sentinel"
 full-name: "Arc Light Sentinel (yellow)"
 color: yellow

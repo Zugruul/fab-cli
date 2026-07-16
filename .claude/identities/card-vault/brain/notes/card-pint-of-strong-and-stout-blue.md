@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bRM9LLRrhJ8LLqBrGKCgb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pint-of-strong-and-stout]
 name: "Pint of Strong and Stout"
 full-name: "Pint of Strong and Stout (blue)"
 color: blue

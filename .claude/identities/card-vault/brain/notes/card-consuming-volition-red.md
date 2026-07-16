@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G6JkJJNJC8NHMMcDKWGf8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:consuming-volition]
 name: "Consuming Volition"
 full-name: "Consuming Volition (red)"
 color: red

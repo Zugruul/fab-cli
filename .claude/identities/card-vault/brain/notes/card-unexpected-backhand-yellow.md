@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WrcmbDDzNGLwfGmd9CMmR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:unexpected-backhand]
 name: "Unexpected Backhand"
 full-name: "Unexpected Backhand (yellow)"
 color: yellow

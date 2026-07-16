@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G78pTWjgm7fW77FWfLpkM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nix-the-nimble]
 name: "Nix the Nimble"
 full-name: "Nix the Nimble (blue)"
 color: blue

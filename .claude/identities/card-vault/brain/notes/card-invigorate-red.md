@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T8JWb9PmhhbtHkRwdPdMQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:invigorate]
 name: "Invigorate"
 full-name: "Invigorate (red)"
 color: red

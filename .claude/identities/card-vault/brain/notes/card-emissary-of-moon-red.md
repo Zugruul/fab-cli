@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DgQfj8jGQBWmBQKW9kngT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:emissary-of-moon]
 name: "Emissary of Moon"
 full-name: "Emissary of Moon (red)"
 color: red

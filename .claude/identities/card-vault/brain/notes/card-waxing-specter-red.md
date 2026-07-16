@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lb7B6FTJbHFtCfcLm9dJh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:waxing-specter]
 name: "Waxing Specter"
 full-name: "Waxing Specter (red)"
 color: red

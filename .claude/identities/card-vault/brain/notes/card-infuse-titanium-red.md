@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnfMD9zp7JgTwTmJTQkwz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:infuse-titanium]
 name: "Infuse Titanium"
 full-name: "Infuse Titanium (red)"
 color: red

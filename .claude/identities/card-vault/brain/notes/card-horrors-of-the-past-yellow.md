@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dCFNBWG66KFGWzrfkM7cQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:horrors-of-the-past]
 name: "Horrors of the Past"
 full-name: "Horrors of the Past (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qmrkpcDjBHQb9g6pqCFMd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:disdainful-delight]
 name: "Disdainful Delight"
 full-name: "Disdainful Delight (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jwWWMBhk9KQdTDBgCLKKj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:break-open-the-chests]
 name: "Break Open the Chests!"
 full-name: "Break Open the Chests! (yellow)"
 color: yellow

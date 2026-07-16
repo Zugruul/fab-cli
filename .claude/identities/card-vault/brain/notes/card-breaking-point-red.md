@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qT78mFRmt9KQfQdGwfnJD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:breaking-point]
 name: "Breaking Point"
 full-name: "Breaking Point (red)"
 color: red

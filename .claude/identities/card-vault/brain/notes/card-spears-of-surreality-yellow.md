@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W9PMtDzWthTBKqBnfLWfb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spears-of-surreality]
 name: "Spears of Surreality"
 full-name: "Spears of Surreality (yellow)"
 color: yellow

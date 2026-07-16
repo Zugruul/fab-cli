@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rWtcmPrWgJwnmKNhj8nMk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arctic-incarceration]
 name: "Arctic Incarceration"
 full-name: "Arctic Incarceration (red)"
 color: red

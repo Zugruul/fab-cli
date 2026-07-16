@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjFKhRGTDGJDk8NGmdFjB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pouncing-paws]
 name: "Pouncing Paws"
 defense: 1
 classes: [Ninja]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tznCbwFPngzWgKH6TzBKN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gigawatt]
 name: "Gigawatt"
 full-name: "Gigawatt (yellow)"
 color: yellow

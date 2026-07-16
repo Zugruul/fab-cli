@@ -5,6 +5,8 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR Glossary) — vendored: third_party/fab-rules/en-fab-cr.txt"
 graduated: false
 created: 2026-07-10
+entities: [card:lightning-flow]
+
 ---
 
 **Lightning Flow** (CR Glossary): label: See Flow. token: An elemental aura token.[8.6.38] Index: [[glossary-index]].

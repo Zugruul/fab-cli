@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid b9pTrmh7f78CMLGgtTrhB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bark-obscenities]
 name: "Bark Obscenities"
 full-name: "Bark Obscenities (red)"
 color: red

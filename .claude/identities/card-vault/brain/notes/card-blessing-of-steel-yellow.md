@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mTPMbhpLLtDP7TmtwpthR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-steel]
 name: "Blessing of Steel"
 full-name: "Blessing of Steel (yellow)"
 color: yellow

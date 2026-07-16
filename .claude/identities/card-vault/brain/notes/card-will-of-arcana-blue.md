@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r8Tw7FhnRPfndW8kWB7Rr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:will-of-arcana]
 name: "Will of Arcana"
 full-name: "Will of Arcana (blue)"
 color: blue

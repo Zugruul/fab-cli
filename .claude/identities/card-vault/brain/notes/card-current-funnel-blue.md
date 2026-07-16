@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bN7nrfGCGqKNJMWzDNBb9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:current-funnel]
 name: "Current Funnel"
 full-name: "Current Funnel (blue)"
 color: blue

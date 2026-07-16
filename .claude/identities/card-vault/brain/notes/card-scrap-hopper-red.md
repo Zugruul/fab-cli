@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tJDKNg7fm6FHNcCtjznN8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scrap-hopper]
 name: "Scrap Hopper"
 full-name: "Scrap Hopper (red)"
 color: red

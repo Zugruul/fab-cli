@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RmJNprW8pD7hPmcMJ6Q7N) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shimmering-mirage]
 name: "Shimmering Mirage"
 full-name: "Shimmering Mirage (blue)"
 color: blue

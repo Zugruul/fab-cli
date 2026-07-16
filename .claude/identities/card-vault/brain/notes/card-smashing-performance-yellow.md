@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cHd8RnCfp9h8MNkQnL9Md) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:smashing-performance]
 name: "Smashing Performance"
 full-name: "Smashing Performance (yellow)"
 color: yellow

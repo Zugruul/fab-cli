@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r8fjLMCFnQhFrRjwpMTgK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:micro-processor]
 name: "Micro-processor"
 full-name: "Micro-processor (blue)"
 color: blue

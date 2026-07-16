@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mK6zddQhzHTpR9Jnw8chw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:unravel-aggression]
 name: "Unravel Aggression"
 full-name: "Unravel Aggression (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c8CdW9QBrMJPh6nwJGJ6Q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sacred-art-undercurrent-desires]
 name: "Sacred Art: Undercurrent Desires"
 full-name: "Sacred Art: Undercurrent Desires (blue)"
 color: blue

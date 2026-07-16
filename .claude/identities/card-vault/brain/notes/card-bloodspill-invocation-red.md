@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qMJTpNtk6pbwMTqkRzhRG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bloodspill-invocation]
 name: "Bloodspill Invocation"
 full-name: "Bloodspill Invocation (red)"
 color: red

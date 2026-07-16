@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MMzFRrNNFDjrbKDjtpNzL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:phantasmal-symbiosis]
 name: "Phantasmal Symbiosis"
 full-name: "Phantasmal Symbiosis (yellow)"
 color: yellow

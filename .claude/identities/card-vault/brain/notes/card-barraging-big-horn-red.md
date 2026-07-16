@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pRffgdg8BcqHjP9FfppLP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:barraging-big-horn]
 name: "Barraging Big Horn"
 full-name: "Barraging Big Horn (red)"
 color: red

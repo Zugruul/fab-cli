@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RdzmGtLg9BgTTbC6BjFdk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glaring-impact]
 name: "Glaring Impact"
 full-name: "Glaring Impact (blue)"
 color: blue

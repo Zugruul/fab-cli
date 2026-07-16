@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bChp6GBR8QhHJLgpzKC6J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:v-of-the-vanguard]
 name: "V of the Vanguard"
 full-name: "V of the Vanguard (yellow)"
 color: yellow

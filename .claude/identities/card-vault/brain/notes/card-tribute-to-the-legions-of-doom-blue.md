@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KqJPNjpMbNhDNDkL8T8gM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tribute-to-the-legions-of-doom]
 name: "Tribute to the Legions of Doom"
 full-name: "Tribute to the Legions of Doom (blue)"
 color: blue

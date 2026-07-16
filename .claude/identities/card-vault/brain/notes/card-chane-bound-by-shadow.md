@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MhBTRHCCft7RbrMmkwwGw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chane-bound-by-shadow]
 name: "Chane, Bound by Shadow"
 health: 40
 intelligence: 4

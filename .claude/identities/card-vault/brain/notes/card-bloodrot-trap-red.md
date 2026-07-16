@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MrtrMDKjt868mrrb9cjJW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bloodrot-trap]
 name: "Bloodrot Trap"
 full-name: "Bloodrot Trap (red)"
 color: red

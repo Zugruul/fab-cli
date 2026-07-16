@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 67PfThWHNmFmMj68D7WLf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:searing-touch]
 name: "Searing Touch"
 full-name: "Searing Touch (red)"
 color: red

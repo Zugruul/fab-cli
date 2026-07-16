@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gt9cjT8zwMBHj77R76H77) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:read-the-runes]
 name: "Read the Runes"
 full-name: "Read the Runes (red)"
 color: red

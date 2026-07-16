@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wmN6kmKhktkmfhWtqLmHm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rushing-river]
 name: "Rushing River"
 full-name: "Rushing River (red)"
 color: red

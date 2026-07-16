@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NcQMQ79gb9P7CTMfWfBz8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kayo-berserker-runt]
 name: "Kayo, Berserker Runt"
 health: 19
 intelligence: 4

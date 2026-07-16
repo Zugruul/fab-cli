@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q7GfHcHBpWqCbtghcpnTj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mangle]
 name: "Mangle"
 full-name: "Mangle (red)"
 color: red

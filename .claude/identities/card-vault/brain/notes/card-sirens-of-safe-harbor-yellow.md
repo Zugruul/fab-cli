@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zrRwzwz7n6KgqcDMnjjDw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sirens-of-safe-harbor]
 name: "Sirens of Safe Harbor"
 full-name: "Sirens of Safe Harbor (yellow)"
 color: yellow

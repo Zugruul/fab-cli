@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Trqb96WQpRWK88QHt9WrL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:familiar-stench]
 name: "Familiar Stench"
 full-name: "Familiar Stench (red)"
 color: red

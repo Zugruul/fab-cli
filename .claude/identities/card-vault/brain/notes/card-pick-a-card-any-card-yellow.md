@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqrpkQtGmHDTpHHdjWHHb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pick-a-card-any-card]
 name: "Pick a Card, Any Card"
 full-name: "Pick a Card, Any Card (yellow)"
 color: yellow

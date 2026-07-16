@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qBRhRDtgwwmgTb68dqTQW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clearing-bellow]
 name: "Clearing Bellow"
 full-name: "Clearing Bellow (blue)"
 color: blue

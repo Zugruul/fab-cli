@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NHdBTDcjh8hGJBKPpcgQ9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:open-the-flood-gates]
 name: "Open the Flood Gates"
 full-name: "Open the Flood Gates (yellow)"
 color: yellow

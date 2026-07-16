@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cMpT98cKjcqFfkprHTQgt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deny-redemption]
 name: "Deny Redemption"
 full-name: "Deny Redemption (red)"
 color: red

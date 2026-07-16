@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CzFbG6pFWFPw6fcHHLDp8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chorus-of-the-amphitheater]
 name: "Chorus of the Amphitheater"
 full-name: "Chorus of the Amphitheater (yellow)"
 color: yellow

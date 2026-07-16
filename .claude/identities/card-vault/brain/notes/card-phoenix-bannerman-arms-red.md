@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TMj8cMnKjDbTPMnfTL8tL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:phoenix-bannerman-arms]
 name: "Phoenix Bannerman: Arms"
 full-name: "Phoenix Bannerman: Arms (red)"
 color: red

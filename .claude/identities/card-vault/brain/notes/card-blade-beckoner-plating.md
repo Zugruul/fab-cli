@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m8GfTFCJ9DkNWwmJbKBth) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blade-beckoner-plating]
 name: "Blade Beckoner Plating"
 defense: 1
 classes: [Generic]

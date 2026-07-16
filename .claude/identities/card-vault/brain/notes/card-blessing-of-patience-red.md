@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G7zGDHtzjtpPmn6fRLCJr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-patience]
 name: "Blessing of Patience"
 full-name: "Blessing of Patience (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PTwFjp7bRMhWjwr6dcj68) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wall-breaker]
 name: "Wall Breaker"
 full-name: "Wall Breaker (yellow)"
 color: yellow

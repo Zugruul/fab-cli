@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QcJRp9NTtCcp6CTBkkGRt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spellbane-trap]
 name: "Spellbane Trap"
 full-name: "Spellbane Trap (yellow)"
 color: yellow

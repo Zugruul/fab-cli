@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcQDk66HmLFR6mKt78BWT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:feign-vengeance]
 name: "Feign Vengeance"
 full-name: "Feign Vengeance (blue)"
 color: blue

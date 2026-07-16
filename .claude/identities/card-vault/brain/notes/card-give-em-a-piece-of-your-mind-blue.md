@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fDRTh9GqLf8Hb8QpGbTH9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:give-em-a-piece-of-your-mind]
 name: "Give 'Em a Piece of Your Mind"
 full-name: "Give 'Em a Piece of Your Mind (blue)"
 color: blue

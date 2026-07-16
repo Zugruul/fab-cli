@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hDzHTgkgGfqFCn8mmR9M6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spiders-bite]
 name: "Spider's Bite"
 power: 1
 classes: [Assassin]

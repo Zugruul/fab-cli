@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KC6KQzjk8FkMhwN7zMKLQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deep-recesses-of-existence]
 name: "Deep Recesses of Existence"
 full-name: "Deep Recesses of Existence (blue)"
 color: blue

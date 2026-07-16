@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f7TPgGBKhDGFMRhNGBtBw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clash-of-legs]
 name: "Clash of Legs"
 full-name: "Clash of Legs (yellow)"
 color: yellow

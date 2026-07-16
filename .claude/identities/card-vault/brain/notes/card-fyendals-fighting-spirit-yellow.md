@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7NWDCLJnCJHrTpzbzw7Hw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fyendals-fighting-spirit]
 name: "Fyendal's Fighting Spirit"
 full-name: "Fyendal's Fighting Spirit (yellow)"
 color: yellow

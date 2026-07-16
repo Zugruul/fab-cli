@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MCtGBgjzJWb8rPmNPTDWp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flying-kick]
 name: "Flying Kick"
 full-name: "Flying Kick (blue)"
 color: blue

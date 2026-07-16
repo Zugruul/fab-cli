@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HfTqKQj6gGzCwwdFhdLQL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:livewire-press]
 name: "Livewire Press"
 full-name: "Livewire Press (red)"
 color: red

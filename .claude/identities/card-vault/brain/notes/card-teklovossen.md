@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6PPFnJ8tNtPKN6Km7NWpp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:teklovossen]
 name: "Teklovossen"
 health: 20
 intelligence: 4

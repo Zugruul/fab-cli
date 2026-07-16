@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCNwjRzWNtWghDNckgKpP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:three-of-a-kind]
 name: "Three of a Kind"
 full-name: "Three of a Kind (red)"
 color: red

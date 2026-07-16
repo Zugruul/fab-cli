@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cqr7rhqq8hQPPhpHQBCHr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:talk-a-big-game]
 name: "Talk a Big Game"
 full-name: "Talk a Big Game (blue)"
 color: blue

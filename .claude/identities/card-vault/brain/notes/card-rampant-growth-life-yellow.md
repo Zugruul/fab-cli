@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CTr7nqzhbgDkPtb8WpCN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rampant-growth-life]
 name: "Rampant Growth // Life"
 full-name: "Rampant Growth // Life (yellow)"
 color: yellow

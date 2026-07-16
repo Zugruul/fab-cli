@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid frQkkTNgtwqhkN6Hgq6cj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:channel-lake-frigid]
 name: "Channel Lake Frigid"
 full-name: "Channel Lake Frigid (blue)"
 color: blue

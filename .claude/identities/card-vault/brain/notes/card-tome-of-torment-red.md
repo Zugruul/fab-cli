@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9pjp9qfKHnzCCpjwhTPFK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tome-of-torment]
 name: "Tome of Torment"
 full-name: "Tome of Torment (red)"
 color: red

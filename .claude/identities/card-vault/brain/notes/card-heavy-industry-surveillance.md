@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDgpj7cmFJwFWqdrHgngk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heavy-industry-surveillance]
 name: "Heavy Industry Surveillance"
 defense: 1
 classes: [Mechanologist]

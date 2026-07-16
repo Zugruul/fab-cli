@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qpnnMW6TWQPQqMLqrbD8d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:expedition-to-blackwater-strait]
 name: "Expedition to Blackwater Strait"
 full-name: "Expedition to Blackwater Strait (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c98tqCFBpDpkCNbkkT8mg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dry-powder-shot]
 name: "Dry Powder Shot"
 full-name: "Dry Powder Shot (red)"
 color: red

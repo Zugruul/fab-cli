@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H6HqHg669zTz9nb6qGdcg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:brush-off]
 name: "Brush Off"
 full-name: "Brush Off (yellow)"
 color: yellow

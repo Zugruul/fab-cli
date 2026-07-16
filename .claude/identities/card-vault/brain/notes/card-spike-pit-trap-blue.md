@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zRPmCL8MkNKkwkKb7GRbn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spike-pit-trap]
 name: "Spike Pit Trap"
 full-name: "Spike Pit Trap (blue)"
 color: blue

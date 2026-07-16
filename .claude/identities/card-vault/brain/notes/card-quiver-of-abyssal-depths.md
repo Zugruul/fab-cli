@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FcJ9DMBN6LLbBJGhJ9Kkt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:quiver-of-abyssal-depths]
 name: "Quiver of Abyssal Depths"
 classes: [Ranger]
 types: [Equipment]

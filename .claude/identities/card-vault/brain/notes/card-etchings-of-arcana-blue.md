@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hnw87jtbJwdMWMNf8NgPk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:etchings-of-arcana]
 name: "Etchings of Arcana"
 full-name: "Etchings of Arcana (blue)"
 color: blue

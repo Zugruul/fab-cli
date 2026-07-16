@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WKGJ7ktHDWrtCBnC9J7gW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hot-streak]
 name: "Hot Streak"
 power: 2
 classes: [Warrior]

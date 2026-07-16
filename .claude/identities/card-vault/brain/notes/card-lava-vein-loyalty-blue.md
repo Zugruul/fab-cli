@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTF8r6hgr8f89Gn9PpGn6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lava-vein-loyalty]
 name: "Lava Vein Loyalty"
 full-name: "Lava Vein Loyalty (blue)"
 color: blue

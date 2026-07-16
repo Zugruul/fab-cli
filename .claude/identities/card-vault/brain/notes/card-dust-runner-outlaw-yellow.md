@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m6TdpWNzf8mTDPrMNbN9q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dust-runner-outlaw]
 name: "Dust Runner Outlaw"
 full-name: "Dust Runner Outlaw (yellow)"
 color: yellow

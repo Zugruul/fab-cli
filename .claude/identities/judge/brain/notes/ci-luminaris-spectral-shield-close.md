@@ -5,6 +5,8 @@ strength: 1
 source: "CR 7.7.2c (worked example) — third_party/fab-rules/en-fab-cr.txt; cards: Luminaris, Spectral Shield (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:spectral-shield]
+
 ---
 
 **Luminaris** (Light Illusionist Weapon Scepter 2H): "During your action phase, Illusionist auras you control are weapons with 1 base {p} and 'Once per Turn Action - 0: Attack.'" **Spectral Shield** (Illusionist Token Aura): "Ward 1." Activating a Spectral Shield token's granted attack ability turns it into an attack-source.

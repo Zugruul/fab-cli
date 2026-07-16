@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6nMGj9fLB8p9HFDhrJRP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aspect-of-tiger-mind]
 name: "Aspect of Tiger: Mind"
 full-name: "Aspect of Tiger: Mind (blue)"
 color: blue

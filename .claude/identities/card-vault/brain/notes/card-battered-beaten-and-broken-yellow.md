@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NdkHWNBQkBdTHTt7FTgFz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:battered-beaten-and-broken]
 name: "Battered, Beaten, and Broken"
 full-name: "Battered, Beaten, and Broken (yellow)"
 color: yellow

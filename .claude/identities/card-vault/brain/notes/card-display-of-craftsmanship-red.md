@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RhP7JKg8zRrqFdMdpGNqF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:display-of-craftsmanship]
 name: "Display of Craftsmanship"
 full-name: "Display of Craftsmanship (red)"
 color: red

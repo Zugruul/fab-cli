@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NQWmfLtTzfWhgHqwznD7g) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arc-bending]
 name: "Arc Bending"
 full-name: "Arc Bending (red)"
 color: red

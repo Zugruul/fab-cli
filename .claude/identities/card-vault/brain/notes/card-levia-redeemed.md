@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qjqqRn6kHWHGz6PQGWd7z) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:levia-redeemed]
 name: "Levia, Redeemed"
 health: 8
 intelligence: 4

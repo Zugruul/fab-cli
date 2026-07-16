@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LWWn7QHqCdDCQRFqPKBJM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:talisman-of-balance]
 name: "Talisman of Balance"
 full-name: "Talisman of Balance (blue)"
 color: blue

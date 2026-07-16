@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DfkBWGW6Wqk8P6NdGjtrz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:crowd-control]
 name: "Crowd Control"
 full-name: "Crowd Control (red)"
 color: red

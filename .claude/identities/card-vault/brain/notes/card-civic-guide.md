@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zFTw6RPr76Gc7cqPMFBzz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:civic-guide]
 name: "Civic Guide"
 defense: 2
 classes: [Guardian]

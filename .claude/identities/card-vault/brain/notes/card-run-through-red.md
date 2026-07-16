@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q9wHzF6BQjrjMwmKWBbpn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:run-through]
 name: "Run Through"
 full-name: "Run Through (red)"
 color: red

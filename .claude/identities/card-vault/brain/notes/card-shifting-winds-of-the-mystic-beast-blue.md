@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WznLQmk7B6QQKMmT6TJJC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shifting-winds-of-the-mystic-beast]
 name: "Shifting Winds of the Mystic Beast"
 full-name: "Shifting Winds of the Mystic Beast (blue)"
 color: blue

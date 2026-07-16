@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pdwzQtmTgqMnFqkPQKNhq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:feign-death]
 name: "Feign Death"
 full-name: "Feign Death (yellow)"
 color: yellow

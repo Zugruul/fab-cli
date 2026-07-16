@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M6JRMPmrkhRWnW9mhPQwP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:constella-uplift]
 name: "Constella Uplift"
 full-name: "Constella Uplift (yellow)"
 color: yellow

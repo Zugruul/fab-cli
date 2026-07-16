@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WBf76MHCnCnh87Wt86w9T) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pack-call]
 name: "Pack Call"
 full-name: "Pack Call (blue)"
 color: blue

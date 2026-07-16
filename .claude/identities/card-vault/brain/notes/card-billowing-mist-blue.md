@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N8WgrfprdwMBzNwgFqmfj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:billowing-mist]
 name: "Billowing Mist"
 full-name: "Billowing Mist (blue)"
 color: blue

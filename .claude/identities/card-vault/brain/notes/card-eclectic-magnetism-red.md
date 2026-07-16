@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJcJBPNg8mD6m9778FnLn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:eclectic-magnetism]
 name: "Eclectic Magnetism"
 full-name: "Eclectic Magnetism (red)"
 color: red

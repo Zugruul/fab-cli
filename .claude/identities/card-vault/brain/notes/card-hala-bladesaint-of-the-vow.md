@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FQFkLFgp9pJqdd8mQkJTQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hala-bladesaint-of-the-vow]
 name: "Hala, Bladesaint of the Vow"
 health: 40
 intelligence: 4

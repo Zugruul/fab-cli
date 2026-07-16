@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLFcr8MRb7J7mDBzh6Lhk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:path-of-vengeance]
 name: "Path of Vengeance"
 defense: 1
 talents: [Draconic]

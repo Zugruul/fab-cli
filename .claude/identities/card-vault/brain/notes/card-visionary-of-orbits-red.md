@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LKrMGGMMHFKbbcM6LQ9WN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:visionary-of-orbits]
 name: "Visionary of Orbits"
 full-name: "Visionary of Orbits (red)"
 color: red

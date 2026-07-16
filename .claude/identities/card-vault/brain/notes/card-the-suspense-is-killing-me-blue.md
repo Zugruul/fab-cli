@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RBWKndBPqQHwdWCzPnj8k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:the-suspense-is-killing-me]
 name: "The Suspense is Killing Me"
 full-name: "The Suspense is Killing Me (blue)"
 color: blue

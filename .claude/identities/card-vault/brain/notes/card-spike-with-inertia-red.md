@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NbddFmpDCff8m7FWk6dnQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spike-with-inertia]
 name: "Spike with Inertia"
 full-name: "Spike with Inertia (red)"
 color: red

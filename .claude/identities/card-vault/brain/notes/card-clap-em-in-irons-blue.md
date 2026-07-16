@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rz7gTL7CQrDCtn9n87jGK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clap-em-in-irons]
 name: "Clap 'Em in Irons"
 full-name: "Clap 'Em in Irons (blue)"
 color: blue

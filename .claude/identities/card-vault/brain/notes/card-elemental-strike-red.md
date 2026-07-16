@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gn89Bw77qcNMHW6fTCRTj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:elemental-strike]
 name: "Elemental Strike"
 full-name: "Elemental Strike (red)"
 color: red

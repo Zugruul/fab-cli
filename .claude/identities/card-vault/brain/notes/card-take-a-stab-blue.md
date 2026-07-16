@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mrHRpJzKbQPN9TnLb6mjd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:take-a-stab]
 name: "Take a Stab"
 full-name: "Take a Stab (blue)"
 color: blue

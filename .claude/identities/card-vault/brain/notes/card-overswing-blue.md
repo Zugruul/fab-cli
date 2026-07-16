@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NMzW9mGgTcFdFQFntwG7P) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:overswing]
 name: "Overswing"
 full-name: "Overswing (blue)"
 color: blue

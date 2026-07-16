@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ktRRh7cTpqgTzFRg8HJK6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pummel]
 name: "Pummel"
 full-name: "Pummel (blue)"
 color: blue

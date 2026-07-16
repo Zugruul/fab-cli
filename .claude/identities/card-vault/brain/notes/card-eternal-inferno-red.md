@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WjPK7cb8rwPzthcDtczmj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:eternal-inferno]
 name: "Eternal Inferno"
 full-name: "Eternal Inferno (red)"
 color: red

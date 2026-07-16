@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LgRfr8GwTMrwtm9HwFJkb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:strength-of-sequoia]
 name: "Strength of Sequoia"
 full-name: "Strength of Sequoia (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DcFccRh7KttKMbFkHnPqh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mark-with-magma]
 name: "Mark with Magma"
 full-name: "Mark with Magma (red)"
 color: red

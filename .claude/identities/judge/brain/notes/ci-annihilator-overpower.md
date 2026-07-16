@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.22a, 8.3.22b — third_party/fab-rules/en-fab-cr.txt; card: Annihilator Engine (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:annihilator-engine]
+
 ---
 
 **Annihilator Engine** (Mechanologist Action Attack) scales with equipped Evos: "...- 3 or more, this gets overpower, - 4 or more, this gets +3{p}." Overpower (CR 8.3.22) means "This can't be defended by more than one action card."

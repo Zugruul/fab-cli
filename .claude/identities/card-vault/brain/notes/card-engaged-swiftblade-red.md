@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BRg6rFMmGRn6kPpT96W89) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:engaged-swiftblade]
 name: "Engaged Swiftblade"
 full-name: "Engaged Swiftblade (red)"
 color: red

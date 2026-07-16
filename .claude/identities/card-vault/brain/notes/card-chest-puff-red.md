@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmdFwhcDWLWTfL7MwkhPp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chest-puff]
 name: "Chest Puff"
 full-name: "Chest Puff (red)"
 color: red

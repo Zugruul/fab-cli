@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pP7GCzgTjQPMNLBFfRbBw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rake-the-embers]
 name: "Rake the Embers"
 full-name: "Rake the Embers (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gWTPCGnFgDrH9cFnFgg7F) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:writhing-beast-hulk]
 name: "Writhing Beast Hulk"
 full-name: "Writhing Beast Hulk (yellow)"
 color: yellow

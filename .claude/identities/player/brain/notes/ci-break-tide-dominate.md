@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.4c, 8.5.32a — third_party/fab-rules/en-fab-cr.txt; card: Break Tide (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:break-tide, card:flood-of-force, card:rushing-river]
+
 ---
 
 **Break Tide**'s Combo clause (gains dominate if Rushing River/Flood of Force was the prior attack) is a state-based static bonus, not a one-time trigger — it's live the instant Break Tide becomes attacking, so the opponent already sees "dominate" when deciding how to defend and can only commit ONE hand card in response (CR 8.3.4a).

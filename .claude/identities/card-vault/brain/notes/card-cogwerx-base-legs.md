@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6cgRTrMmWfjk6hCLH9Jt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cogwerx-base-legs]
 name: "Cogwerx Base Legs"
 classes: [Mechanologist]
 types: [Equipment]

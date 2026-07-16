@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qwpdn8CJWGgkHLqdhDtgh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runechant-of-wrath]
 name: "Runechant of Wrath"
 full-name: "Runechant of Wrath (yellow)"
 color: yellow

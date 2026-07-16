@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rLCRmrjNR6HMnG8pFkNCB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:snarky-prick]
 name: "Snarky Prick"
 full-name: "Snarky Prick (red)"
 color: red

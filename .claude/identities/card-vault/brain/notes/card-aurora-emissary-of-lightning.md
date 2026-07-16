@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WwKdgRBmtM6CpRjwM97Lh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aurora-emissary-of-lightning]
 name: "Aurora, Emissary of Lightning"
 health: 20
 intelligence: 4

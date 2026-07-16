@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qJ8HCWnpHbPRGRGpt86Cb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blasmophet-the-soul-harvester]
 name: "Blasmophet, the Soul Harvester"
 power: 6
 health: 6

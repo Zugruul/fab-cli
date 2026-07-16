@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dBcbb7TPrWTwm9q8Mff9L) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bonds-of-attraction]
 name: "Bonds of Attraction"
 full-name: "Bonds of Attraction (blue)"
 color: blue

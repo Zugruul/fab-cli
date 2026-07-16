@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fJjNtpB6PRFbDhM9Brndh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cruel-ambition]
 name: "Cruel Ambition"
 full-name: "Cruel Ambition (red)"
 color: red

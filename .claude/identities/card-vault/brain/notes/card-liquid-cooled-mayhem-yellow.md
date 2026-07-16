@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BzhRqCc9TLjNgJ9dKDPfc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:liquid-cooled-mayhem]
 name: "Liquid-Cooled Mayhem"
 full-name: "Liquid-Cooled Mayhem (yellow)"
 color: yellow

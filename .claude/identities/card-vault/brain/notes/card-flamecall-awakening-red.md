@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjFbJmPHHbLwqfnbPfFML) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flamecall-awakening]
 name: "Flamecall Awakening"
 full-name: "Flamecall Awakening (red)"
 color: red

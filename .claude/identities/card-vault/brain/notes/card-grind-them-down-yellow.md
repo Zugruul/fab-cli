@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8pDHPwfjKjrCp9CFjbn6t) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:grind-them-down]
 name: "Grind Them Down"
 full-name: "Grind Them Down (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gnCCKC87FkrLRgfz9dhFf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dissolve-reality]
 name: "Dissolve Reality"
 full-name: "Dissolve Reality (yellow)"
 color: yellow

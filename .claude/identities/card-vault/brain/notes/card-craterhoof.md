@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8LDQbNHPK7NC9Lg8phzrk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:craterhoof]
 name: "Craterhoof"
 defense: 1
 classes: [Guardian]

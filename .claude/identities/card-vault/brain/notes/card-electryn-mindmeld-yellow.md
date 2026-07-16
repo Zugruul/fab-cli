@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BBj7tdpTkLpgrhCrq9qRh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:electryn-mindmeld]
 name: "Electryn Mindmeld"
 full-name: "Electryn Mindmeld (yellow)"
 color: yellow

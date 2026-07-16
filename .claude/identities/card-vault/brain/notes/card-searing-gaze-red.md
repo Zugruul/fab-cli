@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f7Gk6PJDmMhpGpGjpp866) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:searing-gaze]
 name: "Searing Gaze"
 full-name: "Searing Gaze (red)"
 color: red

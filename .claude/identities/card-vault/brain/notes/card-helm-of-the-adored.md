@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cWfNbbz7WB9nfNd8BbcNM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-the-adored]
 name: "Helm of the Adored"
 defense: 1
 types: [Equipment]

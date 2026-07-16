@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GKfLHFwG6TzTggQRmt9Nr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tension-in-the-air]
 name: "Tension in the Air"
 full-name: "Tension in the Air (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M9DL6cPLrKkmDhGpQL7Mg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mark-of-the-huntsman]
 name: "Mark of the Huntsman"
 power: 1
 classes: [Assassin]

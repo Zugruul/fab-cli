@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9PCRhmGdjtCwJcn8hgn6t) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:loyalty-beyond-the-grave]
 name: "Loyalty Beyond the Grave"
 full-name: "Loyalty Beyond the Grave (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NCG7Gj8FnzJfDbmHQF6gF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gustwave-of-the-second-wind]
 name: "Gustwave of the Second Wind"
 full-name: "Gustwave of the Second Wind (red)"
 color: red

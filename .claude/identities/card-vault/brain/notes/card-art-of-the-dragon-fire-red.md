@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KrwdmQ7RpjpPhf8Hmg6ct) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:art-of-the-dragon-fire]
 name: "Art of the Dragon: Fire"
 full-name: "Art of the Dragon: Fire (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DgpbP8LBpCffdNgH8t9LB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:alluvion-constellas]
 name: "Alluvion Constellas"
 defense: 0
 classes: [Wizard]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t9FQnwWKw7RWz7pPBGf7f) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fools-gold]
 name: "Fool's Gold"
 full-name: "Fool's Gold (yellow)"
 color: yellow

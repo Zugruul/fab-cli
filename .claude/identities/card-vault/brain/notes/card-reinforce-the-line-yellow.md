@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9phFJ8cHN7MGqDp8Kppw7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reinforce-the-line]
 name: "Reinforce the Line"
 full-name: "Reinforce the Line (yellow)"
 color: yellow

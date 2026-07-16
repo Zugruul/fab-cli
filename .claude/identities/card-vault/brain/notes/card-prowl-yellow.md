@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LCwpKJ8PMK8HqGKPH7RM6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:prowl]
 name: "Prowl"
 full-name: "Prowl (yellow)"
 color: yellow

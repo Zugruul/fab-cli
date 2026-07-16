@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCBQJK7dFkKt66K98gkPk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pierce-reality]
 name: "Pierce Reality"
 full-name: "Pierce Reality (blue)"
 color: blue

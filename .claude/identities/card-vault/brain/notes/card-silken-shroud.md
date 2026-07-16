@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cBrmgjgrfDdgTW7g9djcF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:silken-shroud]
 name: "Silken Shroud"
 classes: [Illusionist]
 types: [Equipment]

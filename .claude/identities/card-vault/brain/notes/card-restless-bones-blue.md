@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G6qbqK8tRPRF7dMhBRf7C) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:restless-bones]
 name: "Restless Bones"
 full-name: "Restless Bones (blue)"
 color: blue

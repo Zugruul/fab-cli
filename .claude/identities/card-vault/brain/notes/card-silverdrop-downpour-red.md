@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqhjGpqqjbh6DfTLR7DGg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:silverdrop-downpour]
 name: "Silverdrop Downpour"
 full-name: "Silverdrop Downpour (red)"
 color: red

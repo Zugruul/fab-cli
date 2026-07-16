@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f8QrwNNrtgKcB8MwLRQh8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:manifestation-of-miragai]
 name: "Manifestation of Miragai"
 full-name: "Manifestation of Miragai (blue)"
 color: blue

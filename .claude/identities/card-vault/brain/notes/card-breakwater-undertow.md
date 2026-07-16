@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid J8LhcKQG9z8mnTm6bMnFp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:breakwater-undertow]
 name: "Breakwater Undertow"
 defense: 1
 classes: [Pirate, Necromancer]

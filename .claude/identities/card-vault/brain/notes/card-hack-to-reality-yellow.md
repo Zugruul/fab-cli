@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LPNDBTkkJ9gfhfnqrctfJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hack-to-reality]
 name: "Hack to Reality"
 full-name: "Hack to Reality (yellow)"
 color: yellow

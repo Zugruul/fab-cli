@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FKc7CtkbBDTrzHr7t8DMQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seerstone]
 name: "Seerstone"
 classes: [Wizard]
 types: [Weapon]

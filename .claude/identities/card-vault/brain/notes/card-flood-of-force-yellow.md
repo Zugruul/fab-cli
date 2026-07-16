@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9QkzLM66JjHbrMD9M6KDf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flood-of-force]
 name: "Flood of Force"
 full-name: "Flood of Force (yellow)"
 color: yellow

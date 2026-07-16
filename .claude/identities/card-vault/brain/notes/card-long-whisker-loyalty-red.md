@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 969HqThPzMmQtFhM9mNq8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:long-whisker-loyalty]
 name: "Long Whisker Loyalty"
 full-name: "Long Whisker Loyalty (red)"
 color: red

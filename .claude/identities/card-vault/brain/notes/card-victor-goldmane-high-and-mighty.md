@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fc8jMwTprwnhRbPKDmF9J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:victor-goldmane-high-and-mighty]
 name: "Victor Goldmane, High and Mighty"
 health: 40
 intelligence: 4

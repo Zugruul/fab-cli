@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zQMJwgRd9B7zbF6fqb7Hk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:by-the-book]
 name: "By the Book"
 full-name: "By the Book (blue)"
 color: blue

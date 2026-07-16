@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fCzgQtjJ9Q8gdrPq9t7Wc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-lightning]
 name: "Amulet of Lightning"
 full-name: "Amulet of Lightning (blue)"
 color: blue

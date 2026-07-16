@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dmGpmBBdMCt7dTpGHmjmr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:erode-authority]
 name: "Erode Authority"
 full-name: "Erode Authority (red)"
 color: red

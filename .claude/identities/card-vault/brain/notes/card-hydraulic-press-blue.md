@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HCR9pfkgzwfMgnwHdt8TP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hydraulic-press]
 name: "Hydraulic Press"
 full-name: "Hydraulic Press (blue)"
 color: blue

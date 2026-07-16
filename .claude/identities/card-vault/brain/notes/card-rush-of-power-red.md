@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jbmgCjPjGMC9g6688q8RM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rush-of-power]
 name: "Rush of Power"
 full-name: "Rush of Power (red)"
 color: red

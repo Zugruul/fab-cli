@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JWhM8H7f8tLhnHtgtGkMn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tame-the-beastly-behavior]
 name: "Tame the Beastly Behavior"
 full-name: "Tame the Beastly Behavior (red)"
 color: red

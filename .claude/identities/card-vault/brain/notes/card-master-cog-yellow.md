@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLR9kCDtWdr7c67FQtNw7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:master-cog]
 name: "Master Cog"
 full-name: "Master Cog (yellow)"
 color: yellow

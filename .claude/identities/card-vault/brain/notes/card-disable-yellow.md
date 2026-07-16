@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fgrK7Mbp8qQcbMtQDwk9F) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:disable]
 name: "Disable"
 full-name: "Disable (yellow)"
 color: yellow

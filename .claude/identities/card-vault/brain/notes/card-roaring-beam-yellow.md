@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fDngpw7GRrGQTN9L8wtTf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:roaring-beam]
 name: "Roaring Beam"
 full-name: "Roaring Beam (yellow)"
 color: yellow

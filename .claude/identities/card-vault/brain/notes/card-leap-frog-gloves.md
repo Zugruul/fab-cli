@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RBnkrB6LWQHFDcD8RjcWT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leap-frog-gloves]
 name: "Leap Frog Gloves"
 defense: 1
 classes: [Assassin, Ninja]

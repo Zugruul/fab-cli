@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PpF7WhbMCTMBrK9cLtPmR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:silken-gi]
 name: "Silken Gi"
 classes: [Generic]
 types: [Equipment]

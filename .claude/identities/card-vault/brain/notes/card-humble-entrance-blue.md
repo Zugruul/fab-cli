@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R8W7dzcQdMj9BNjKQp6bd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:humble-entrance]
 name: "Humble Entrance"
 full-name: "Humble Entrance (blue)"
 color: blue

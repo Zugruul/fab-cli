@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GhBpCcmh8kBf9gKNDPz68) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:summers-fall]
 name: "Summer's Fall"
 full-name: "Summer's Fall (red)"
 color: red

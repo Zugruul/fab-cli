@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RFRrT7hMB7bMJ9jcjzJgj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:haze-bending]
 name: "Haze Bending"
 full-name: "Haze Bending (blue)"
 color: blue

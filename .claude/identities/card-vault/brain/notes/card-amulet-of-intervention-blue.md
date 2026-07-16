@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77HjThGWgwMQMqDRNBLMc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-intervention]
 name: "Amulet of Intervention"
 full-name: "Amulet of Intervention (blue)"
 color: blue

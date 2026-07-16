@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bfbgtw7tPPWCMgFh8gDmc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-thruster]
 name: "Evo Thruster"
 full-name: "Evo Thruster (yellow)"
 color: yellow

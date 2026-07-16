@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nTMBkFzPMg6TtPkF6kBgQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seismic-shift]
 name: "Seismic Shift"
 full-name: "Seismic Shift (red)"
 color: red

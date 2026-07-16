@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qPtfkpzfNL8qGRFBWQN7D) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:buckwild]
 name: "Buckwild"
 full-name: "Buckwild (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kg7JPwP7pDg9wGqqQ76HT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:quickdodge-flexors]
 name: "Quickdodge Flexors"
 defense: 0
 classes: [Generic]

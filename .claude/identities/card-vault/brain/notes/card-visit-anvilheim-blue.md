@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mTbD9zFpgmNQc7qzmfG8M) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:visit-anvilheim]
 name: "Visit Anvilheim"
 full-name: "Visit Anvilheim (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g6KGRbQjr8rg7JbnhFRT6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hocus-pocus]
 name: "Hocus Pocus"
 full-name: "Hocus Pocus (blue)"
 color: blue

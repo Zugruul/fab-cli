@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NHhCjBzmNwbfFMfL7TKf8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spike-with-frailty]
 name: "Spike with Frailty"
 full-name: "Spike with Frailty (red)"
 color: red

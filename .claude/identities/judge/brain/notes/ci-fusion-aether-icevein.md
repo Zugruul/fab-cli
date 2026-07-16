@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.17b, 8.3.17c — third_party/fab-rules/en-fab-cr.txt; card: Aether Icevein (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-icevein]
+
 ---
 
 **Aether Icevein** (Elemental Wizard Action): "Ice Fusion — Deal 5 arcane damage to any target. If Aether Icevein was fused and deals damage to a hero, they discard a card unless they pay {r}{r}." Fusion (CR 8.3.17): "Fusion is an optional additional-cost play-static ability... 'As an additional cost to play this, you may reveal (a/an) [SUPERTYPES] card(s) from your hand.'"

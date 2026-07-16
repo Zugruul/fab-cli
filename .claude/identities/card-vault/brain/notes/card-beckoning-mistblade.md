@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wcm8kJNcrzDtt6zJm9c9R) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beckoning-mistblade]
 name: "Beckoning Mistblade"
 power: 1
 classes: [Assassin]

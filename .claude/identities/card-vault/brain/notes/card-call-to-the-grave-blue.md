@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gDhFGHDrPKRwCP6qRF6zd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:call-to-the-grave]
 name: "Call to the Grave"
 full-name: "Call to the Grave (blue)"
 color: blue

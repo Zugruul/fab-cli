@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RPWBDmM6hG6dk9zMWwr6b) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arakni-black-widow]
 name: "Arakni, Black Widow"
 health: *
 intelligence: 4

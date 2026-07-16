@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hJt6FwT8mhQbcWQLzgHMT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drone-of-brutality]
 name: "Drone of Brutality"
 full-name: "Drone of Brutality (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 96KF7bgGdkjfMm9zRfLKj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reincarnate]
 name: "Reincarnate"
 full-name: "Reincarnate (red)"
 color: red

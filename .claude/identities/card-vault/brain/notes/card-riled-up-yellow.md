@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B9HmMb6jB9M8kWFLH86fT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:riled-up]
 name: "Riled Up"
 full-name: "Riled Up (yellow)"
 color: yellow

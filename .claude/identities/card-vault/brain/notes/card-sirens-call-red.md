@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bczQzLRqRKQpkCBHmTCHf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sirens-call]
 name: "Siren's Call"
 full-name: "Siren's Call (red)"
 color: red

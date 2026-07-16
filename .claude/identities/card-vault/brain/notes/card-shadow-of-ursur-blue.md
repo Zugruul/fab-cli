@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pntf8jrgBbNzC8jBkChDJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shadow-of-ursur]
 name: "Shadow of Ursur"
 full-name: "Shadow of Ursur (blue)"
 color: blue

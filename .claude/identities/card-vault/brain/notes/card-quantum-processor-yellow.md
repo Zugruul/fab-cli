@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c8tGz8c7GKmBJRLTcQHfJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:quantum-processor]
 name: "Quantum Processor"
 full-name: "Quantum Processor (yellow)"
 color: yellow

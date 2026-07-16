@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rkRhTdHrdkwMhFwHnPGMk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kiss-of-death]
 name: "Kiss of Death"
 full-name: "Kiss of Death (red)"
 color: red

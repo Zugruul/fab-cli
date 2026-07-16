@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PcKQPM7Qw6JQGpqbkDNWD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:odds-on-favorite]
 name: "Odds on Favorite"
 full-name: "Odds on Favorite (blue)"
 color: blue

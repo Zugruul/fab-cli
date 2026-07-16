@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dBmtb8rdJtFtKh7Lqjw6r) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shroud-of-the-fate-watcher]
 name: "Shroud of the Fate Watcher"
 defense: 0
 classes: [Wizard]

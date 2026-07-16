@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9g6wWCRkpgW7brDgFb7Bg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:punch-above-your-weight]
 name: "Punch Above Your Weight"
 full-name: "Punch Above Your Weight (yellow)"
 color: yellow

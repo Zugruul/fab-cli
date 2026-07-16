@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RBcRMcBrm89m6pcTDQnP9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fang]
 name: "Fang"
 health: 20
 intelligence: 4

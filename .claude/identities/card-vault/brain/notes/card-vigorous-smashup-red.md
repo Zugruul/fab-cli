@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C8KwDBgMJ9rrbpdgkFTNm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vigorous-smashup]
 name: "Vigorous Smashup"
 full-name: "Vigorous Smashup (red)"
 color: red

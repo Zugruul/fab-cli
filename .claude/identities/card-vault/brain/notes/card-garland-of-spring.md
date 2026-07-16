@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cz8WjTHRfmKBGtRfPrCWr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:garland-of-spring]
 name: "Garland of Spring"
 defense: 0
 classes: [Generic]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P9cr8mkGcJcfgQQQpNjTG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pillar-of-unity]
 name: "Pillar of Unity"
 defense: 1
 classes: [Warrior]

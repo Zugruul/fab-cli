@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTLKqwK6pfzjdmCgRgd9W) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:promise-of-plenty]
 name: "Promise of Plenty"
 full-name: "Promise of Plenty (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HHr8zpKf7prKQkmG9L66B) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:trot-along]
 name: "Trot Along"
 full-name: "Trot Along (blue)"
 color: blue

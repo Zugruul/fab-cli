@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gjgpkHgC6p7HNTPpCJdCh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helios-mitre]
 name: "Helio's Mitre"
 defense: 0
 classes: [Generic]

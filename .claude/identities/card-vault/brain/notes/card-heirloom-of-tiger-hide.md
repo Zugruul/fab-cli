@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6F7r7J6hRpwwH8hrtjdTp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heirloom-of-tiger-hide]
 name: "Heirloom of Tiger Hide"
 defense: 3
 classes: [Ninja]

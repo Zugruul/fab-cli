@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RTbHRmf96T8Pz7MD7KLc7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:retrace-the-past]
 name: "Retrace the Past"
 full-name: "Retrace the Past (blue)"
 color: blue

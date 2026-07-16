@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RhgwRgbM8Q8WBdBMTtwQR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:steel-street-enforcement]
 name: "Steel Street Enforcement"
 full-name: "Steel Street Enforcement (blue)"
 color: blue

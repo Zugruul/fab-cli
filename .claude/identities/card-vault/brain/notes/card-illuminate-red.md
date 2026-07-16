@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m68hqbdgQGTzgFzJhBgTt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:illuminate]
 name: "Illuminate"
 full-name: "Illuminate (red)"
 color: red

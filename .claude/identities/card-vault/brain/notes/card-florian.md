@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ht8qhJWDMHjjMjzqgf6KG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:florian]
 name: "Florian"
 health: 20
 intelligence: 4

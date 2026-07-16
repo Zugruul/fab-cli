@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RNMKPPRN6zPQnrcLWqzwH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spring-a-leak]
 name: "Spring a Leak"
 full-name: "Spring a Leak (red)"
 color: red

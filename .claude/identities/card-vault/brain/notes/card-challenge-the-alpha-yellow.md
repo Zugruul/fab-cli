@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7hj8PM86DzGwgkdK7LqGM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:challenge-the-alpha]
 name: "Challenge the Alpha"
 full-name: "Challenge the Alpha (yellow)"
 color: yellow

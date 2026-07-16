@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FHLMhFd7rHFC8LqNmLcJR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:isenhowl-weathervane]
 name: "Isenhowl Weathervane"
 full-name: "Isenhowl Weathervane (red)"
 color: red

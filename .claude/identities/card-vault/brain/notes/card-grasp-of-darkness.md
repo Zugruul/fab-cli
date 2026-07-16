@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 76MpwMj77CmK8wDp6HMDn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:grasp-of-darkness]
 name: "Grasp of Darkness"
 talents: [Shadow]
 types: [Equipment]

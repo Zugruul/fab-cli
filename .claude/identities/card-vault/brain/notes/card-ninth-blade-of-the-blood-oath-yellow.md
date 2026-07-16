@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rz79tn8mdQLDqNnhFdngk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ninth-blade-of-the-blood-oath]
 name: "Ninth Blade of the Blood Oath"
 full-name: "Ninth Blade of the Blood Oath (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dnhGwzTLMbDMGLfrBgnzz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cogwerx-dovetail]
 name: "Cogwerx Dovetail"
 full-name: "Cogwerx Dovetail (red)"
 color: red

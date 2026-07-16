@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PRkRJkPDTwbd7RLCKPkNt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:portside-exchange]
 name: "Portside Exchange"
 full-name: "Portside Exchange (blue)"
 color: blue

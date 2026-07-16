@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qN9rt6FWmjTRwNC9cTrPW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wartune-herald]
 name: "Wartune Herald"
 full-name: "Wartune Herald (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ndg9MJNHtTFG6BQqK7Lgz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:visit-the-golden-anvil]
 name: "Visit the Golden Anvil"
 full-name: "Visit the Golden Anvil (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rjgh7kQCWKkTdChRmWt7w) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:torque-tuned]
 name: "Torque Tuned"
 full-name: "Torque Tuned (yellow)"
 color: yellow

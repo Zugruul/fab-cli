@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c7LrgMPzh9mcqbCqM9mmw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:big-bop]
 name: "Big Bop"
 full-name: "Big Bop (yellow)"
 color: yellow

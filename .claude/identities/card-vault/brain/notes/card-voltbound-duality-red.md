@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ChgnM7DhdJNqhDRww6Qbz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:voltbound-duality]
 name: "Voltbound Duality"
 full-name: "Voltbound Duality (red)"
 color: red

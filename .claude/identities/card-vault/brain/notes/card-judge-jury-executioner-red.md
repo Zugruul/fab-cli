@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9N8LLTrcrbm9pk7HnPqN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:judge-jury-executioner]
 name: "Judge, Jury, Executioner"
 full-name: "Judge, Jury, Executioner (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjww7bNnkN6g7DtDfRcmW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:timesnap-potion]
 name: "Timesnap Potion"
 full-name: "Timesnap Potion (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FtFNN8f6NTbJtkPNGMmfJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:swing-fist-think-later]
 name: "Swing Fist, Think Later"
 full-name: "Swing Fist, Think Later (blue)"
 color: blue

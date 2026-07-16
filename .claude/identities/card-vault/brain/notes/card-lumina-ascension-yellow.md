@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid L8wq9HzdqTwM8tLWCRGcR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lumina-ascension]
 name: "Lumina Ascension"
 full-name: "Lumina Ascension (yellow)"
 color: yellow

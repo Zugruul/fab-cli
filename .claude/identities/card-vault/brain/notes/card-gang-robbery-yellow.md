@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cdzFBWhFnBfNbH7cMppct) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gang-robbery]
 name: "Gang Robbery"
 full-name: "Gang Robbery (yellow)"
 color: yellow

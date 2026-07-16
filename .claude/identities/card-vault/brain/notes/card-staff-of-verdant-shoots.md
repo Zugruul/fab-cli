@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQgjdCTFwm89BmcWP9n7d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:staff-of-verdant-shoots]
 name: "Staff of Verdant Shoots"
 classes: [Wizard]
 talents: [Earth]

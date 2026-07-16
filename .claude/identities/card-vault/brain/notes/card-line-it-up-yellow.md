@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid htRtFwB8MhppFMqwLnNzK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:line-it-up]
 name: "Line It Up"
 full-name: "Line It Up (yellow)"
 color: yellow

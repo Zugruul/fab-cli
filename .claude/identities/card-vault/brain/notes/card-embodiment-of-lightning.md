@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBwTWNc9FMGQfwHRTTdHj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:embodiment-of-lightning]
 name: "Embodiment of Lightning"
 talents: [Elemental]
 types: [Token]

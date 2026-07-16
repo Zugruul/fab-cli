@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77h7d88mFMjcrqwPHfQKG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rolling-thunder]
 name: "Rolling Thunder"
 full-name: "Rolling Thunder (red)"
 color: red

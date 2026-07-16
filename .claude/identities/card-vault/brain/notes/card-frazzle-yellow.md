@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FfGDLQNdtB6rgKNFdtdzD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:frazzle]
 name: "Frazzle"
 full-name: "Frazzle (yellow)"
 color: yellow

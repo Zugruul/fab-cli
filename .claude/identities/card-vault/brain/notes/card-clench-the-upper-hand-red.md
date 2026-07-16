@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hFdDjPwdMw7dd678RzRPH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clench-the-upper-hand]
 name: "Clench the Upper Hand"
 full-name: "Clench the Upper Hand (red)"
 color: red

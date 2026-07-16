@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LFhRKcJC6fbfQjKdqLqp7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:diadem-of-dreamstate]
 name: "Diadem of Dreamstate"
 classes: [Illusionist]
 types: [Equipment]

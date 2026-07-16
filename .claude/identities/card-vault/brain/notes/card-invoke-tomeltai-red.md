@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid C7PG6mkm7JPNTBWKJwHpt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:invoke-tomeltai]
 name: "Invoke Tomeltai"
 full-name: "Invoke Tomeltai (red)"
 color: red

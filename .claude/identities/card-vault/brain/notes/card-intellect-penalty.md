@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QGjhRDwJdHr68gtkNqCWm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:intellect-penalty]
 name: "Intellect Penalty"
 types: [Macro]
 unique-id: QGjhRDwJdHr68gtkNqCWm

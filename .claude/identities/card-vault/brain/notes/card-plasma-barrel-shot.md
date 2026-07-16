@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPMtkfh8Dd6Dt9LJjGQLw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plasma-barrel-shot]
 name: "Plasma Barrel Shot"
 power: X
 classes: [Mechanologist]

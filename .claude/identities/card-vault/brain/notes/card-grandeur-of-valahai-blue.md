@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pwfB8pHmJRDD8CfP8mTbr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:grandeur-of-valahai]
 name: "Grandeur of Valahai"
 full-name: "Grandeur of Valahai (blue)"
 color: blue

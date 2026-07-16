@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbhrgT86TGzH9rWPpzHBc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hemorrhage-bore]
 name: "Hemorrhage Bore"
 full-name: "Hemorrhage Bore (red)"
 color: red

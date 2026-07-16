@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jgC7fqfp9rGLjPdJQNRBM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:herald-of-tenacity]
 name: "Herald of Tenacity"
 full-name: "Herald of Tenacity (blue)"
 color: blue

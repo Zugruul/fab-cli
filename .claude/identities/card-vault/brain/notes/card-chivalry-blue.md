@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WtQz7cpTHPLGqtFLFJwjj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chivalry]
 name: "Chivalry"
 full-name: "Chivalry (blue)"
 color: blue

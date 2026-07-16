@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9N8KCpFCwjdCgn8CBMQfg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cadaverous-contraband]
 name: "Cadaverous Contraband"
 full-name: "Cadaverous Contraband (red)"
 color: red

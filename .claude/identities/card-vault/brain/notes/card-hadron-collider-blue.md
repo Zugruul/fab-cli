@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CPgdwbjRGNNfKrgPn6ngL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hadron-collider]
 name: "Hadron Collider"
 full-name: "Hadron Collider (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tcQQjwMNMtrMM8jnBHN8Q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:convection-amplifier]
 name: "Convection Amplifier"
 full-name: "Convection Amplifier (red)"
 color: red

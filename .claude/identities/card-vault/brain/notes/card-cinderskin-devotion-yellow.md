@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nJfhFcQjghnHnfbGkd6jW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cinderskin-devotion]
 name: "Cinderskin Devotion"
 full-name: "Cinderskin Devotion (yellow)"
 color: yellow

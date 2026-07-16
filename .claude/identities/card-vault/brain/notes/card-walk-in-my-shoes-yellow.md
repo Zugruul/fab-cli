@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zHQcgpbCGjrKCBFg6CmTw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:walk-in-my-shoes]
 name: "Walk in My Shoes"
 full-name: "Walk in My Shoes (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgqNQGbtcF6NNBMDbDMhh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:emperor-dracai-of-aesir]
 name: "Emperor, Dracai of Aesir"
 health: 15
 intelligence: 4

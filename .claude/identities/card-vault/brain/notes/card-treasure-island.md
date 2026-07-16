@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jnR9QPhTfLmGWF7TPTQgp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:treasure-island]
 name: "Treasure Island"
 types: [Macro]
 subtypes: [Landmark]

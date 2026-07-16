@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BfQnT8rqMhTBmDWCFgdhW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:open-the-center]
 name: "Open the Center"
 full-name: "Open the Center (yellow)"
 color: yellow

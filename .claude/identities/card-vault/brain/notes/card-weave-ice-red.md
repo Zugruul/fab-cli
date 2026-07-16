@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qbMbJK7pFpcktB8zPdrwg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:weave-ice]
 name: "Weave Ice"
 full-name: "Weave Ice (red)"
 color: red

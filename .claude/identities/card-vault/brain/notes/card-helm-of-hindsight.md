@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HKqcfqWBCP9T6CHdQRCtn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-hindsight]
 name: "Helm of Hindsight"
 defense: 0
 classes: [Generic]

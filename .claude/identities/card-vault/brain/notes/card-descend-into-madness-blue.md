@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 68gf9fggmcjDR7Tk78zJm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:descend-into-madness]
 name: "Descend into Madness"
 full-name: "Descend into Madness (blue)"
 color: blue

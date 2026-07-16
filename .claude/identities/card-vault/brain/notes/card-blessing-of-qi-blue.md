@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G9WT8dKmmQFdP7jmtqwqC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-qi]
 name: "Blessing of Qi"
 full-name: "Blessing of Qi (blue)"
 color: blue

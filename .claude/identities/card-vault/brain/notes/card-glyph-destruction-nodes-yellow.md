@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTk9tDTjGDw9c9dM87gTR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glyph-destruction-nodes]
 name: "Glyph Destruction Nodes"
 full-name: "Glyph Destruction Nodes (yellow)"
 color: yellow

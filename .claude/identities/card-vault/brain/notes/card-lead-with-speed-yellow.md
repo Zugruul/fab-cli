@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nwCQmwCJLFCtDCBtH8mfD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lead-with-speed]
 name: "Lead with Speed"
 full-name: "Lead with Speed (yellow)"
 color: yellow

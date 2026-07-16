@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RMzHL8LcWc9KdMbRPP8CB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stacked-in-your-favor]
 name: "Stacked in Your Favor"
 full-name: "Stacked in Your Favor (yellow)"
 color: yellow

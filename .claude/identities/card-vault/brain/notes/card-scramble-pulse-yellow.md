@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bqj7zQj6nRg69nWJpqhdG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scramble-pulse]
 name: "Scramble Pulse"
 full-name: "Scramble Pulse (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gMQ9qN89b76Fz9CwfBf6q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:electrostatic-discharge]
 name: "Electrostatic Discharge"
 full-name: "Electrostatic Discharge (yellow)"
 color: yellow

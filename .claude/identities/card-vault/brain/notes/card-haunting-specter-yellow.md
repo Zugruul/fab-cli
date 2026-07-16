@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTj8JGDq7LfKj8HjpNhmn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:haunting-specter]
 name: "Haunting Specter"
 full-name: "Haunting Specter (yellow)"
 color: yellow

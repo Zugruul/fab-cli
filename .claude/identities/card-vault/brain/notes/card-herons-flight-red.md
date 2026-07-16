@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid j8jNwqCDtMqHPbCrnLcbf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:herons-flight]
 name: "Heron's Flight"
 full-name: "Heron's Flight (red)"
 color: red

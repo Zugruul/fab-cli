@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kFW8PcC89jw6rGKkhfpBt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:back-alley-breakline]
 name: "Back Alley Breakline"
 full-name: "Back Alley Breakline (red)"
 color: red

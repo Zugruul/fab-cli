@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JzpDJJgqRBD7g7qjfFBkW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:release-the-tension]
 name: "Release the Tension"
 full-name: "Release the Tension (red)"
 color: red

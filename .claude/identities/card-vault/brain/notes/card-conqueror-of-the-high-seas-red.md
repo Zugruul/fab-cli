@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gHzNJcBw6rtnCgNqfftPz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:conqueror-of-the-high-seas]
 name: "Conqueror of the High Seas"
 full-name: "Conqueror of the High Seas (red)"
 color: red

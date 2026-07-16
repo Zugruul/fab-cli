@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tPW6ffbwKnNCWf9hKLKTN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:symbiosis-shot]
 name: "Symbiosis Shot"
 power: 2
 classes: [Mechanologist]

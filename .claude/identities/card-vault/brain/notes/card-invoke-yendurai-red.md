@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9J9c98JJDc8mtKnRR9hhq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:invoke-yendurai]
 name: "Invoke Yendurai"
 full-name: "Invoke Yendurai (red)"
 color: red

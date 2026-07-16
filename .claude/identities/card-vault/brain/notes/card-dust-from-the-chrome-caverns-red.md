@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KLL7GmCb6Pb9bQqmbm7Nw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dust-from-the-chrome-caverns]
 name: "Dust from the Chrome Caverns"
 full-name: "Dust from the Chrome Caverns (red)"
 color: red

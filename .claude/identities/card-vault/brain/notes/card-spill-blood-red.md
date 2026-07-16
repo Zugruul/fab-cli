@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6b6WhdH96PdDWBQhMzgLB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spill-blood]
 name: "Spill Blood"
 full-name: "Spill Blood (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PTFnJCdhWD9cFgMMNPqQj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:azalea-ace-in-the-hole]
 name: "Azalea, Ace in the Hole"
 health: 40
 intelligence: 4

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PcCQGjz68TjzgQrMfRnLQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flow-through]
 name: "Flow Through"
 full-name: "Flow Through (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dkWqMzLQfPdRHktgJrMK8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:requiem-for-the-damned]
 name: "Requiem for the Damned"
 full-name: "Requiem for the Damned (red)"
 color: red

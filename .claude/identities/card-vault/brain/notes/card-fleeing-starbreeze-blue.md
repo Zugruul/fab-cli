@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qPDJLjQBMWtW8fJ8Kdznp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fleeing-starbreeze]
 name: "Fleeing Starbreeze"
 full-name: "Fleeing Starbreeze (blue)"
 color: blue

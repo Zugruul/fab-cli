@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NHbgwmKj6z9GrPHGPdCDh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runerager-swarm]
 name: "Runerager Swarm"
 full-name: "Runerager Swarm (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D9rHcGbwmfHRQw9CkhHFd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tempest-palm-gustwave]
 name: "Tempest Palm Gustwave"
 full-name: "Tempest Palm Gustwave (yellow)"
 color: yellow

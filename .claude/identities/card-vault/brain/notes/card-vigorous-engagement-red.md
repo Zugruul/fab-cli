@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wqzz9n7hGCTknBPgFqdTH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vigorous-engagement]
 name: "Vigorous Engagement"
 full-name: "Vigorous Engagement (red)"
 color: red

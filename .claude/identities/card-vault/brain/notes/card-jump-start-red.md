@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid drBDmHmGtr8qtbmgztwdH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jump-start]
 name: "Jump Start"
 full-name: "Jump Start (red)"
 color: red

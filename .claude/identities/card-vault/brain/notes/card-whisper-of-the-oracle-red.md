@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6MRRLJw7g9wgwWPMDhzmT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:whisper-of-the-oracle]
 name: "Whisper of the Oracle"
 full-name: "Whisper of the Oracle (red)"
 color: red

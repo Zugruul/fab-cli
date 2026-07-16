@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QD7K9HmH9g9CLWRPcz87n) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:herald-of-triumph]
 name: "Herald of Triumph"
 full-name: "Herald of Triumph (red)"
 color: red

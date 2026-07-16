@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WnnC99QDftcbRMNcKKwmk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vestige-of-flagellation]
 name: "Vestige of Flagellation"
 defense: 2
 talents: [Shadow]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cr8bTCLKLcfKLDTk7zcWn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:throw-dagger]
 name: "Throw Dagger"
 full-name: "Throw Dagger (blue)"
 color: blue

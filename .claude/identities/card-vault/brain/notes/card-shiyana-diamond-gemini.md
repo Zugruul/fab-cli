@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n9r77QwMzdWJmnfhPLN9J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shiyana-diamond-gemini]
 name: "Shiyana, Diamond Gemini"
 health: 20
 intelligence: 4

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pqtLFGFhtmWgjMTMHDJLQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:concoct-disorder]
 name: "Concoct Disorder"
 full-name: "Concoct Disorder (yellow)"
 color: yellow

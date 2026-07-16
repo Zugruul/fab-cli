@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bQMPhRRzw8c6RgGK6crJn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mark-of-the-beast]
 name: "Mark of the Beast"
 full-name: "Mark of the Beast (yellow)"
 color: yellow

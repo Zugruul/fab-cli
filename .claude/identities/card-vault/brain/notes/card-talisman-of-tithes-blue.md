@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zhgmgL9kJnkNLdL9LK6kn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:talisman-of-tithes]
 name: "Talisman of Tithes"
 full-name: "Talisman of Tithes (blue)"
 color: blue

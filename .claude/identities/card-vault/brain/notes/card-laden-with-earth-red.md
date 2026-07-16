@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgJQKQKbPcQRM9BJ9qkGG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:laden-with-earth]
 name: "Laden with Earth"
 full-name: "Laden with Earth (red)"
 color: red

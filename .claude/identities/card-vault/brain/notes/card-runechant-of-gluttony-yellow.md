@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9wdzWnFf7J6nmL86nFhtN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runechant-of-gluttony]
 name: "Runechant of Gluttony"
 full-name: "Runechant of Gluttony (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6mmfrKtTWkcBJDcphpLdc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tremor-of-iarathael]
 name: "Tremor of íArathael"
 full-name: "Tremor of íArathael (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFpG8LW6fRmGgJ6dpWj8Q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:darling-of-the-crowd]
 name: "Darling of the Crowd"
 full-name: "Darling of the Crowd (yellow)"
 color: yellow

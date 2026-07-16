@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wmGCKjjh6QbD6WTqNFqn9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:not-so-mighty]
 name: "Not So Mighty"
 full-name: "Not So Mighty (blue)"
 color: blue

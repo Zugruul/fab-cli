@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jknWRcgGTGL9hpnMkQCzp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deep-rooted-evil]
 name: "Deep Rooted Evil"
 full-name: "Deep Rooted Evil (yellow)"
 color: yellow

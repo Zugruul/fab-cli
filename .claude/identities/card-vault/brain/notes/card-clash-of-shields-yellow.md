@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R8tkQLNHj6QjtNW968NDf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clash-of-shields]
 name: "Clash of Shields"
 full-name: "Clash of Shields (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid w77zDhDthpW7pp97wHFf7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:soul-cleaver]
 name: "Soul Cleaver"
 full-name: "Soul Cleaver (blue)"
 color: blue

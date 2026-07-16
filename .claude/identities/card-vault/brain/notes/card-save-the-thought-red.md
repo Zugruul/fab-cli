@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H6nGNM7gbPMNpKgnCcgkJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:save-the-thought]
 name: "Save the Thought"
 full-name: "Save the Thought (red)"
 color: red

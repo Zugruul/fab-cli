@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8gGBjzcNg9D9fnFQRpMqz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:boo-resident-spook]
 name: "Boo, Resident Spook"
 full-name: "Boo, Resident Spook (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fCmcQjBCJ9BRGBQDWk9Dw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plasma-mainline]
 name: "Plasma Mainline"
 full-name: "Plasma Mainline (red)"
 color: red

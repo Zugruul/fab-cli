@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kD7rTHdWjpwfWR9mw8qG7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-battery-pack]
 name: "Evo Battery Pack"
 full-name: "Evo Battery Pack (yellow)"
 color: yellow

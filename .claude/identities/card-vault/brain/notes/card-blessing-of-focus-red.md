@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JGzwzpcMFt7QHmwBrDHC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-focus]
 name: "Blessing of Focus"
 full-name: "Blessing of Focus (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qRKjzf8nTgdBt8BMMgRPJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plate-of-tough-love]
 name: "Plate of Tough Love"
 defense: 1
 classes: [Guardian]

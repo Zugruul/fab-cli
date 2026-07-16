@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N7WzjJdqrn8NTh6f8rDb9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blade-beckoner-boots]
 name: "Blade Beckoner Boots"
 defense: 1
 classes: [Generic]

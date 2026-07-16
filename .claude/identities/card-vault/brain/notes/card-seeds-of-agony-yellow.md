@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g9ckPjGmpNNkmbgChTQNR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seeds-of-agony]
 name: "Seeds of Agony"
 full-name: "Seeds of Agony (yellow)"
 color: yellow

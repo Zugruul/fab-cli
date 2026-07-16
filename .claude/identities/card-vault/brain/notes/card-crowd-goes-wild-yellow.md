@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HF9r7w6kkD9C7Qddqn8kR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:crowd-goes-wild]
 name: "Crowd Goes Wild"
 full-name: "Crowd Goes Wild (yellow)"
 color: yellow

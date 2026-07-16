@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WDhGzj9m8MWhkkfRMB7Jg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aurora-legacy-of-tempest]
 name: "Aurora, Legacy of Tempest"
 health: 40
 intelligence: 4

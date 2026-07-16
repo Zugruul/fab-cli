@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kD7jpPzWkNtFz6LTkk8HQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hunt-the-hunter]
 name: "Hunt the Hunter"
 full-name: "Hunt the Hunter (red)"
 color: red

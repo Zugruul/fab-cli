@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HWLzjqBjW6KJQ8gJNbRwJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:redspine-manta]
 name: "Redspine Manta"
 classes: [Ranger]
 types: [Weapon]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KtQQggkn6LkFz7dGHNLWj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blue-fin-harpoon]
 name: "Blue Fin Harpoon"
 full-name: "Blue Fin Harpoon (blue)"
 color: blue

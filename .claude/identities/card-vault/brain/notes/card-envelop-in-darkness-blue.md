@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HBdG9Cpqgz6nj6D66tJHR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:envelop-in-darkness]
 name: "Envelop in Darkness"
 full-name: "Envelop in Darkness (blue)"
 color: blue

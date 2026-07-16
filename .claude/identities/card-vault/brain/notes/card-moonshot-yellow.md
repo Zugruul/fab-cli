@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khj76ndGTj7gDDQNwzjqw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:moonshot]
 name: "Moonshot"
 full-name: "Moonshot (yellow)"
 color: yellow

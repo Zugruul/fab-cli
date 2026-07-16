@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tFPLw7nPCjf7rqbGhCBTr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:phoenix-bannerman-head]
 name: "Phoenix Bannerman: Head"
 full-name: "Phoenix Bannerman: Head (red)"
 color: red

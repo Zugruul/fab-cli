@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDWpQJCqCqHJM6WbhD7GN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blossoming-spellblade]
 name: "Blossoming Spellblade"
 full-name: "Blossoming Spellblade (red)"
 color: red

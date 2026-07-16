@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P8MBHdhfJLMQ6qdPdWpCL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fire-and-brimstone]
 name: "Fire and Brimstone"
 full-name: "Fire and Brimstone (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KHcpQKMtfHB7Cbr7hdCB9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sedation-shot]
 name: "Sedation Shot"
 full-name: "Sedation Shot (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jDjbmKWW9RHJwwncKDDfK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pouncing-qi]
 name: "Pouncing Qi"
 full-name: "Pouncing Qi (red)"
 color: red

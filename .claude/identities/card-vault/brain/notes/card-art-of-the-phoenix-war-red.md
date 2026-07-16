@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6RzzhHKt8kjPMkfmQ9LqJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:art-of-the-phoenix-war]
 name: "Art of the Phoenix: War"
 full-name: "Art of the Phoenix: War (red)"
 color: red

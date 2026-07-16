@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cztrB96QNb9CqKDgBRwcN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lace-with-frailty]
 name: "Lace with Frailty"
 full-name: "Lace with Frailty (red)"
 color: red

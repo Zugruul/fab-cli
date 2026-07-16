@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8r7DqKfDrBG6C8mTDRKN7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:double-trouble]
 name: "Double Trouble"
 full-name: "Double Trouble (blue)"
 color: blue

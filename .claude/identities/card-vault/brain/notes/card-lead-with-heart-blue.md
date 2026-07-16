@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mRhcrTprzbbdTbB9gdTHw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lead-with-heart]
 name: "Lead with Heart"
 full-name: "Lead with Heart (blue)"
 color: blue

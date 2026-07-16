@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nn6WdqdrNhkFMKNGzkbrB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:turn-the-crowd-hateful]
 name: "Turn the Crowd Hateful"
 full-name: "Turn the Crowd Hateful (yellow)"
 color: yellow

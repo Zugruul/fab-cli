@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khP7tT6NRCgzjJMWB8JHm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hooves-of-the-shadowbeast]
 name: "Hooves of the Shadowbeast"
 defense: 1
 classes: [Brute]

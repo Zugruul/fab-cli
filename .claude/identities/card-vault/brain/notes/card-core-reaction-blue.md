@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6mhWMHfB9pFcqz7QJfbhp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:core-reaction]
 name: "Core Reaction"
 full-name: "Core Reaction (blue)"
 color: blue

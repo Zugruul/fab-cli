@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c8GP9JNp9PKhcQg7TkBQR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stony-woottonhog]
 name: "Stony Woottonhog"
 full-name: "Stony Woottonhog (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TQfK9H977kdtTKN9jGRhh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:urgent-delivery]
 name: "Urgent Delivery"
 full-name: "Urgent Delivery (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TKbBnD6hMmqHfhDPtmHjL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-halos-grace]
 name: "Helm of Halo's Grace"
 defense: 2
 classes: [Warrior]

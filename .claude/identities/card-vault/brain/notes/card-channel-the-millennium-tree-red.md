@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wkHBqcWJQwCLr9fLKLpdw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:channel-the-millennium-tree]
 name: "Channel the Millennium Tree"
 full-name: "Channel the Millennium Tree (red)"
 color: red

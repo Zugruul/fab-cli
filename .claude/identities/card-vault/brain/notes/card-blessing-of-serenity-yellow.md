@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fjQgK6kHbkD6TGbRzJDGf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-serenity]
 name: "Blessing of Serenity"
 full-name: "Blessing of Serenity (yellow)"
 color: yellow

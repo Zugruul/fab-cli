@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W99DkNW9tQLbq6w6prDQB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:robe-of-autumns-fall]
 name: "Robe of Autumn's Fall"
 defense: 0
 classes: [Ninja]

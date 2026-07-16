@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WQtbdGwPbtmLmmkRjQzqj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:send-packing]
 name: "Send Packing"
 full-name: "Send Packing (yellow)"
 color: yellow

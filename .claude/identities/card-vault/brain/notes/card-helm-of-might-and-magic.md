@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcjgBWntdrDcMT7gHdgjF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-might-and-magic]
 name: "Helm of Might and Magic"
 defense: 1
 classes: [Runeblade]

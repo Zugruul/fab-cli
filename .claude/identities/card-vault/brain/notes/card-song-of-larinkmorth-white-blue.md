@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mpzgL9GqgdGMPdGMnDKrw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:song-of-larinkmorth-white]
 name: "Song of Larinkmorth White"
 full-name: "Song of Larinkmorth White (blue)"
 color: blue

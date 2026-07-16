@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CDWJGrPLQbrqwkj7mzQ8B) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:old-leather-and-vim]
 name: "Old Leather and Vim"
 full-name: "Old Leather and Vim (red)"
 color: red

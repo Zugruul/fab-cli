@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wFPpjqhRHHNdNkDbRffBF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lunartide-plunderer]
 name: "Lunartide Plunderer"
 full-name: "Lunartide Plunderer (blue)"
 color: blue

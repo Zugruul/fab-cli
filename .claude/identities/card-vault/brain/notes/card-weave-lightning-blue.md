@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Bc9QPMHJ7dP6c8mtrhjrQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:weave-lightning]
 name: "Weave Lightning"
 full-name: "Weave Lightning (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HTF6WHdnfmgHD7pBFhMQL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gauntlets-of-the-boreal-domain]
 name: "Gauntlets of the Boreal Domain"
 defense: 2
 classes: [Guardian]

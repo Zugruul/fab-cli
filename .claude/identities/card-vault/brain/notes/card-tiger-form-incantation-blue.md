@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FwHwtJtb7pmbpjG8RMQ7b) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tiger-form-incantation]
 name: "Tiger Form Incantation"
 full-name: "Tiger Form Incantation (blue)"
 color: blue

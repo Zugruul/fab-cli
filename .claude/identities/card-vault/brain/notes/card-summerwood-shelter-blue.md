@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R8JRnKHBzwRGBw8hnrJrg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:summerwood-shelter]
 name: "Summerwood Shelter"
 full-name: "Summerwood Shelter (blue)"
 color: blue

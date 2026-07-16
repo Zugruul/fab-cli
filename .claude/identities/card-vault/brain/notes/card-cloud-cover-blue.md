@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MDn7MHgDmW7tJ6tGkG7cz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cloud-cover]
 name: "Cloud Cover"
 full-name: "Cloud Cover (blue)"
 color: blue

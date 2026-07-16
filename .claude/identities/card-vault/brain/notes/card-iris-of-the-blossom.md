@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MNKMPhrDfjjDqqBJW99jk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:iris-of-the-blossom]
 name: "Iris of the Blossom"
 defense: 2
 classes: [Ninja]

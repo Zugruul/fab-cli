@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PNLWb9zzTRkcJ6Dbrg67G) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lead-with-power]
 name: "Lead with Power"
 full-name: "Lead with Power (yellow)"
 color: yellow

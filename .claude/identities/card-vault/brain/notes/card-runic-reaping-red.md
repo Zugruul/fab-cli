@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QLtPbbtqrQ9hNtWH6jG6t) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runic-reaping]
 name: "Runic Reaping"
 full-name: "Runic Reaping (red)"
 color: red

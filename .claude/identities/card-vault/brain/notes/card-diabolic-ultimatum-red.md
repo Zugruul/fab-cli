@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LcqN7tjqc8FDhkQ9m6n6N) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:diabolic-ultimatum]
 name: "Diabolic Ultimatum"
 full-name: "Diabolic Ultimatum (red)"
 color: red

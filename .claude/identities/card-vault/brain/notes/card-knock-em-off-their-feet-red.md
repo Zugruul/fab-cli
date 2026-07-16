@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bWBL7WwPLgdD9j9KkmDHW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:knock-em-off-their-feet]
 name: "Knock 'Em Off Their Feet"
 full-name: "Knock 'Em Off Their Feet (red)"
 color: red

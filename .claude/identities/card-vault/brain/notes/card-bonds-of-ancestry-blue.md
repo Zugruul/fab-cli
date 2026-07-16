@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrHMpbmnF6Hh97PffFzG8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bonds-of-ancestry]
 name: "Bonds of Ancestry"
 full-name: "Bonds of Ancestry (blue)"
 color: blue

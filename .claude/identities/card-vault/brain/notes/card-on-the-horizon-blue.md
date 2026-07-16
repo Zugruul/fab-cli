@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqfJ6k7rFMpbcHMqjDJKR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:on-the-horizon]
 name: "On the Horizon"
 full-name: "On the Horizon (blue)"
 color: blue

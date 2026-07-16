@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BCHMTFpN9Nb7JrWh6T6nk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rifted-torment]
 name: "Rifted Torment"
 full-name: "Rifted Torment (blue)"
 color: blue

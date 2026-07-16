@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zgJwfNDg6zwBCGkthNGQz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:voltic-impact]
 name: "Voltic Impact"
 full-name: "Voltic Impact (red)"
 color: red

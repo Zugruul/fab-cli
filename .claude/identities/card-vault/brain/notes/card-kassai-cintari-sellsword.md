@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wWmP8RJRq7MWk7kBh9q7w) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kassai-cintari-sellsword]
 name: "Kassai, Cintari Sellsword"
 health: 20
 intelligence: 4

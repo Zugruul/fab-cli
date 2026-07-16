@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JkQtdwTJzQ7Bw8g8wNtCh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:command-respect]
 name: "Command Respect"
 full-name: "Command Respect (blue)"
 color: blue

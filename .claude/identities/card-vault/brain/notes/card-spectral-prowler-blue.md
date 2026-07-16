@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCpfgTGDPgHt89LMDPQNr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spectral-prowler]
 name: "Spectral Prowler"
 full-name: "Spectral Prowler (blue)"
 color: blue

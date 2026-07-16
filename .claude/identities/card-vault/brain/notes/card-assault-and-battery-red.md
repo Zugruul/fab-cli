@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bnFnGz7gd8tRfQfcmk8nG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:assault-and-battery]
 name: "Assault and Battery"
 full-name: "Assault and Battery (red)"
 color: red

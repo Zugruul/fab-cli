@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CGLDFnpbfg9LbF7z7GndP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bubble-to-the-surface]
 name: "Bubble to the Surface"
 full-name: "Bubble to the Surface (red)"
 color: red

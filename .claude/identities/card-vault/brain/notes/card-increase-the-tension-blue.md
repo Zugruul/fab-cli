@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nnJzbrqgGRnJ8bbLjQPtN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:increase-the-tension]
 name: "Increase the Tension"
 full-name: "Increase the Tension (blue)"
 color: blue

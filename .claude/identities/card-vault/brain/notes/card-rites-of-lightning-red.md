@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bq8bmCkrPKHgb7fMRPkjM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rites-of-lightning]
 name: "Rites of Lightning"
 full-name: "Rites of Lightning (red)"
 color: red

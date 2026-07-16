@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cFgpPh7JLB8jCtrTd6nKG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aspect-of-tiger-body]
 name: "Aspect of Tiger: Body"
 full-name: "Aspect of Tiger: Body (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqgk7BtqLmhWB7tCbPjKd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:channel-galcias-cradle]
 name: "Channel Galcia's Cradle"
 full-name: "Channel Galcia's Cradle (blue)"
 color: blue

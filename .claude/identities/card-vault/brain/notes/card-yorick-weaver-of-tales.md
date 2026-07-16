@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nrMg9kDMg9KwBPPtJLJph) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:yorick-weaver-of-tales]
 name: "Yorick, Weaver of Tales"
 health: 20
 intelligence: 4

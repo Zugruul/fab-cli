@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nnFHwzGctzmqqwMTrfBpQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:good-deeds-dont-go-unnoticed]
 name: "Good Deeds Don't Go Unnoticed"
 full-name: "Good Deeds Don't Go Unnoticed (yellow)"
 color: yellow

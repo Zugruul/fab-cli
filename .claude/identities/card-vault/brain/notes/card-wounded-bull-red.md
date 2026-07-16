@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cbD6dqdgnLGk8zjjQqHCt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wounded-bull]
 name: "Wounded Bull"
 full-name: "Wounded Bull (red)"
 color: red

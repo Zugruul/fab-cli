@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GK6TKkztnwHHwqKPrGR9k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jinglewood-smash-hit]
 name: "Jinglewood, Smash Hit"
 power: 2
 classes: [Bard]

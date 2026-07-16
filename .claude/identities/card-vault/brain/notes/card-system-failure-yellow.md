@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTWTq8HRqQM9nCCqQcTPD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:system-failure]
 name: "System Failure"
 full-name: "System Failure (yellow)"
 color: yellow

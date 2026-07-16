@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDzNGcF9bfPwfHrztkHdL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:expedition-to-dreadfall-reach]
 name: "Expedition to Dreadfall Reach"
 full-name: "Expedition to Dreadfall Reach (red)"
 color: red

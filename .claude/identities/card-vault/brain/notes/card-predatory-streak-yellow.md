@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fgtKgMrhTRwMmQqMfg9FH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:predatory-streak]
 name: "Predatory Streak"
 full-name: "Predatory Streak (yellow)"
 color: yellow

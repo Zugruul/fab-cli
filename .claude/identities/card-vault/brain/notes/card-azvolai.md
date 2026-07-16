@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wBNMRCQPNBjPcfJwgrf9j) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:azvolai]
 name: "Azvolai"
 power: 2
 health: 3

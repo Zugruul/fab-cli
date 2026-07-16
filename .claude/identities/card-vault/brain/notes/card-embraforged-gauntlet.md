@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8D9wTFwLWtN9hkFwDgRWW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:embraforged-gauntlet]
 name: "Embraforged Gauntlet"
 defense: 2
 talents: [Shadow]

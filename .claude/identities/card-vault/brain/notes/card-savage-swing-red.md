@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N8DMCFHgLPLrn9wQhhTjC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:savage-swing]
 name: "Savage Swing"
 full-name: "Savage Swing (red)"
 color: red

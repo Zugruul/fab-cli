@@ -6,6 +6,8 @@ source: "CR 2026-06-10 (en-fab-cr.txt) + Card Vault true text + card DB sweep; a
 learned-from: ask-identity judge session 2026-07-12 (player-suggested stack-window line, CR-verified)
 graduated: false
 created: 2026-07-12
+entities: [card:amulet-of-lightning, card:beckoning-brilliance, card:blast-to-oblivion, card:cap-of-quick-thinking, card:chain-lightning, card:cindering-foresight, card:cloud-cover, card:cosmic-flare, card:cosmic-suture, card:eclectic-magnetism, card:electromagnetic-somersault, card:flash-bolt, card:flittering-charge, card:flow-through, card:flowshard-elemental, card:flowstate-embodiment, card:gone-in-a-flash, card:high-voltage, card:lightning-press, card:livewire-press]
+
 ---
 
 GENERAL INTERACTIONS HUB — Gone in a Flash (red Lightning Action–Attack 4{p}/3{d}, 0-cost). TRUE TEXT (Card Vault, CR 2.0.2 authority): "When this attacks, the next time you play an instant card this chain link, you may return this to its owner's hand." Watcher mechanics (verified, see [[ix-fleeing-starbreeze-x-gone-in-a-flash]]): delayed trigger (6.6.3) installed at the "attack" event 7.2.3; fires on PLAY not resolution; its layer stacks ON TOP of your instant (6.6.6) so the return resolves FIRST; ordinal — consumed by your first instant of the link even if declined (6.6.3a/6.6.5f); window = Attack Step through Damage Step (7.0.3d; CR's own Flittering Charge example fixes the "this chain link" window as Attack→Damage Step); return never closes the chain (7.0.3c).

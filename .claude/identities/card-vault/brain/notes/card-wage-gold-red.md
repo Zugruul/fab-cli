@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PQJbFn9m8g7J6BttmD6LN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wage-gold]
 name: "Wage Gold"
 full-name: "Wage Gold (red)"
 color: red

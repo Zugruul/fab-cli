@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qQpfrfHQMP8ND8NjBK6pM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amplifying-arrow]
 name: "Amplifying Arrow"
 full-name: "Amplifying Arrow (yellow)"
 color: yellow

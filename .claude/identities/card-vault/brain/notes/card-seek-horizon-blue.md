@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKfz9fDKmTChbm7FmMgjh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seek-horizon]
 name: "Seek Horizon"
 full-name: "Seek Horizon (blue)"
 color: blue

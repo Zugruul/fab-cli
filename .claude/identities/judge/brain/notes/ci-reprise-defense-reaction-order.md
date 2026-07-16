@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.4.3, 8.4.3a, 8.1.3b, 7.4.2b — third_party/fab-rules/en-fab-cr.txt; cards: Ironsong Response, Beneath the Surface (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:beneath-the-surface, card:ironsong-response]
+
 ---
 
 **Ironsong Response** (Warrior Attack Reaction): "Reprise — If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}." Reprise (CR 8.4.3): a label for a resolution ability typically written as "Reprise - If the defending hero has defended with a card from their hand this chain link, [EFFECTS]." CR 8.4.3a is explicit: "The condition of a reprise ability effect is checked on resolution - it does not retroactively generate effects if the condition is met after resolution."

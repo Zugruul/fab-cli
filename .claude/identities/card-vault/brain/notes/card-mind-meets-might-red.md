@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QNqdkrjrQND77MrKwwMtm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mind-meets-might]
 name: "Mind Meets Might"
 full-name: "Mind Meets Might (red)"
 color: red

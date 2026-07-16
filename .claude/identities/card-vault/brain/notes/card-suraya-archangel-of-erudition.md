@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JR9JmbdnQ8mTLfjMHf9n8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:suraya-archangel-of-erudition]
 name: "Suraya, Archangel of Erudition"
 power: 4
 health: 4

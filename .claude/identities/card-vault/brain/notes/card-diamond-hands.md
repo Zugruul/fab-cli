@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7wcw6w9b7dwfdQwf67MmK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:diamond-hands]
 name: "Diamond Hands"
 defense: 1
 classes: [Merchant]

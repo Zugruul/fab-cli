@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid k8CgTdPKWcmLb78HKgHjk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:regrowth-shock]
 name: "Regrowth // Shock"
 full-name: "Regrowth // Shock (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Gtz9rhLqmgQNLCBWWrhn6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beast-mode]
 name: "Beast Mode"
 full-name: "Beast Mode (blue)"
 color: blue

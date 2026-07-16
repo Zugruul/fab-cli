@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HJ9JjdmGt7JdNcJ7MT68w) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ghost-protocol-mainframe]
 name: "Ghost Protocol: Mainframe"
 full-name: "Ghost Protocol: Mainframe (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbKQF8GNNBgDNQzBwkM6J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shoot-your-mouth-off]
 name: "Shoot Your Mouth Off"
 full-name: "Shoot Your Mouth Off (red)"
 color: red

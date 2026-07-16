@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kfQHGNNdKjPpG8nWkfB9P) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:for-the-emperor]
 name: "For the Emperor"
 full-name: "For the Emperor (red)"
 color: red

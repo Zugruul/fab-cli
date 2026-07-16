@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zKQg9cTc7WMNdRbq6pwRk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dust-from-the-shadow-crypts]
 name: "Dust from the Shadow Crypts"
 full-name: "Dust from the Shadow Crypts (red)"
 color: red

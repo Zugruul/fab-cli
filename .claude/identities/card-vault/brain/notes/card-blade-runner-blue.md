@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHgCJmWQWbPNf6pTDknLc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blade-runner]
 name: "Blade Runner"
 full-name: "Blade Runner (blue)"
 color: blue

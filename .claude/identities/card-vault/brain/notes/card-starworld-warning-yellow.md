@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CPGCwntgcMqcqCBLh6nBL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:starworld-warning]
 name: "Starworld Warning"
 full-name: "Starworld Warning (yellow)"
 color: yellow

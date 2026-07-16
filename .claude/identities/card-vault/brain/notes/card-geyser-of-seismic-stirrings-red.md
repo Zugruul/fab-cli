@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NLLHBkqNPtnjc6NqJ66c7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:geyser-of-seismic-stirrings]
 name: "Geyser of Seismic Stirrings"
 full-name: "Geyser of Seismic Stirrings (red)"
 color: red

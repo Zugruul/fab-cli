@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7qrdPcNmtPt9HN6TQHNJR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mask-of-many-faces]
 name: "Mask of Many Faces"
 defense: 1
 classes: [Ninja]

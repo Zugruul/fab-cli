@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MJBz8WMNzRWccphkkbMzc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:a-good-clean-fight]
 name: "A Good Clean Fight"
 full-name: "A Good Clean Fight (red)"
 color: red

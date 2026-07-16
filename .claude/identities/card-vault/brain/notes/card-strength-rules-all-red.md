@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wkMNPQJWpdNNqHpHtrbqT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:strength-rules-all]
 name: "Strength Rules All"
 full-name: "Strength Rules All (red)"
 color: red

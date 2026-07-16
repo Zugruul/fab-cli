@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jR6rqDqWjjg79LTCFHMNQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:turn-timber]
 name: "Turn Timber"
 full-name: "Turn Timber (blue)"
 color: blue

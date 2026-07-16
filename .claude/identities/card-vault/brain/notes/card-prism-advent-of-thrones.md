@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dhbhdcr8CB6ngRrf9GTgm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:prism-advent-of-thrones]
 name: "Prism, Advent of Thrones"
 health: 16
 intelligence: 4

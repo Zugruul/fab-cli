@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gcgCpfj86Wq8pMRnjtWpm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:random-events-unfold]
 name: "Random Events Unfold"
 types: [Event]
 unique-id: gcgCpfj86Wq8pMRnjtWpm

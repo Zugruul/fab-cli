@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DKFj9DK7f9nHrQffkdfDm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:unforgetting-unforgiving]
 name: "Unforgetting Unforgiving"
 full-name: "Unforgetting Unforgiving (red)"
 color: red

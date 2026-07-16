@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LGdLm7LrmzDDnWFRnnw9J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:time-flies-when-youre-having-fun]
 name: "Time Flies When You're Having Fun"
 full-name: "Time Flies When You're Having Fun (red)"
 color: red

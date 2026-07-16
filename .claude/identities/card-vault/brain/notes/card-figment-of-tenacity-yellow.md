@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtTHBQB9qrJDzrMpJtfRw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:figment-of-tenacity]
 name: "Figment of Tenacity"
 full-name: "Figment of Tenacity (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B7BNkF6nJChrRQ6kpWKPw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:brothers-in-arms]
 name: "Brothers in Arms"
 full-name: "Brothers in Arms (yellow)"
 color: yellow

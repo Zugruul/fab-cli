@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6MktH8f6TgMJPmPLN8M8R) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heavy-industry-power-plant]
 name: "Heavy Industry Power Plant"
 defense: 2
 classes: [Mechanologist]

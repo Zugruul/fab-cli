@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tBBCd9hNgWjQkTGDj7dPq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:log-fall]
 name: "Log Fall"
 full-name: "Log Fall (red)"
 color: red

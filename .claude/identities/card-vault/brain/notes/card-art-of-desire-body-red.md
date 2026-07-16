@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KmwdjTRNdP6LTTrwm8NN8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:art-of-desire-body]
 name: "Art of Desire: Body"
 full-name: "Art of Desire: Body (red)"
 color: red

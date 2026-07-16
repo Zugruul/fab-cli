@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cTk6wFnMDN7z6WHfDPmrQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:red-alert-vest]
 name: "Red Alert Vest"
 defense: 1
 classes: [Assassin, Warrior]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFbLkp7H79TMzLwJfGMCp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:viziertronic-model-i]
 name: "Viziertronic Model i"
 defense: 0
 classes: [Mechanologist]

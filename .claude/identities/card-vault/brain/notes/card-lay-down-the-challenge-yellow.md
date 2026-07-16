@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8jkrbgKtBmnwdwNR7cKHn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lay-down-the-challenge]
 name: "Lay Down the Challenge"
 full-name: "Lay Down the Challenge (yellow)"
 color: yellow

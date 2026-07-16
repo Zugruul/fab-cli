@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FzmdMTfjQrhzn8bNBhhDw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:become-the-arknight]
 name: "Become the Arknight"
 full-name: "Become the Arknight (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid r96wGNm66Fft8RcWcQj7f) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heroic-grit]
 name: "Heroic Grit"
 full-name: "Heroic Grit (yellow)"
 color: yellow

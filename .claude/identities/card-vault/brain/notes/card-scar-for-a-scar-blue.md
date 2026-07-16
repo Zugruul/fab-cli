@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fBjC6dqfrGN9TG7Whh9TR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scar-for-a-scar]
 name: "Scar for a Scar"
 full-name: "Scar for a Scar (blue)"
 color: blue

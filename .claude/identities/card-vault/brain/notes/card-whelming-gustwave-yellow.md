@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jCrd8h9kPW8rJ9KwgRr8L) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:whelming-gustwave]
 name: "Whelming Gustwave"
 full-name: "Whelming Gustwave (yellow)"
 color: yellow

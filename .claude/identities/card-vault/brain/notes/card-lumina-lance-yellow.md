@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mrnPzLtk7hmh6qnznHRzK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lumina-lance]
 name: "Lumina Lance"
 full-name: "Lumina Lance (yellow)"
 color: yellow

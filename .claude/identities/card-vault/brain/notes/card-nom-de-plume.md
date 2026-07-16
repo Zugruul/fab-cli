@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GkMGqFmbbrpwRCGHJknjt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nom-de-plume]
 name: "Nom de Plume"
 defense: 0
 classes: [Bard]

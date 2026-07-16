@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cp7q8KGCNJQDTqDNBGMGD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:endless-maw]
 name: "Endless Maw"
 full-name: "Endless Maw (blue)"
 color: blue

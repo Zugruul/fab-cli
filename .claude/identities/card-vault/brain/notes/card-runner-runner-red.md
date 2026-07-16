@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hPQ9NCmMKDdgMkzpkpGb6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runner-runner]
 name: "Runner Runner"
 full-name: "Runner Runner (red)"
 color: red

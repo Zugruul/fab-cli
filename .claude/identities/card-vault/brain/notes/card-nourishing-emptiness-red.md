@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7Tpfm7Ccf8rKcztfFngM9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nourishing-emptiness]
 name: "Nourishing Emptiness"
 full-name: "Nourishing Emptiness (red)"
 color: red

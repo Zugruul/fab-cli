@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wc9KrwW6FrgLgFz7dqfcq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clash-of-arms]
 name: "Clash of Arms"
 full-name: "Clash of Arms (yellow)"
 color: yellow

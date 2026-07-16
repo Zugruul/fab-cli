@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qp7f9b6WNBmRWJfPbKtDm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:haunting-rendition]
 name: "Haunting Rendition"
 full-name: "Haunting Rendition (red)"
 color: red

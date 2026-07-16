@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GwMRRqcL8rDHFRDTfqWzt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kassai]
 name: "Kassai"
 health: 20
 intelligence: 4

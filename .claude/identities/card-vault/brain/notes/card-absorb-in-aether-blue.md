@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WkDkrkTDzRnqWBh7WHJfh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:absorb-in-aether]
 name: "Absorb in Aether"
 full-name: "Absorb in Aether (blue)"
 color: blue

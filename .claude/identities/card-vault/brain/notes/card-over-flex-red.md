@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WWPf7JkLnRcmfhdfw8M9g) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:over-flex]
 name: "Over Flex"
 full-name: "Over Flex (red)"
 color: red

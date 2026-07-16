@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CMbMkj6F86Kj9kPKNBwPN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rusty-harpoon]
 name: "Rusty Harpoon"
 full-name: "Rusty Harpoon (blue)"
 color: blue

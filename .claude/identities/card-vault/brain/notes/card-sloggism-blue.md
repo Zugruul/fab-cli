@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PhTkFwKHqwmWW8NjCbKHG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sloggism]
 name: "Sloggism"
 full-name: "Sloggism (blue)"
 color: blue

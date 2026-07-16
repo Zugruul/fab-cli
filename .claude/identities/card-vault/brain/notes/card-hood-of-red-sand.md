@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6ntF8Rdm7PqLkHWnPMkrF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hood-of-red-sand]
 name: "Hood of Red Sand"
 defense: 1
 classes: [Warrior]

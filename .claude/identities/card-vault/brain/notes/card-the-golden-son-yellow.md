@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wPnWnDTdFfnjghqkQB88C) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:the-golden-son]
 name: "The Golden Son"
 full-name: "The Golden Son (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TCPqgq6QMqD9FqJ6DPQjD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:valahai-riven]
 name: "Valahai Riven"
 full-name: "Valahai Riven (yellow)"
 color: yellow

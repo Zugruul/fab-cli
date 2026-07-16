@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLwNCBR9FCfnnPtPjkWNp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:potion-of-deja-vu]
 name: "Potion of Déjà Vu"
 full-name: "Potion of Déjà Vu (blue)"
 color: blue

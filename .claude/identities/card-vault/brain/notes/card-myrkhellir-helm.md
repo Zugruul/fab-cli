@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zJ9h7zCdQcttTrmgLR6q9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:myrkhellir-helm]
 name: "Myrkhellir Helm"
 defense: 1
 classes: [Generic]

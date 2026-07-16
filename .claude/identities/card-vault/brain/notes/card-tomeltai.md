@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JQqp6Ctw7QMLRDMgTnW6g) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tomeltai]
 name: "Tomeltai"
 power: 5
 health: 5
