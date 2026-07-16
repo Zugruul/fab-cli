@@ -5,7 +5,6 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 7.3)"
 graduated: false
 created: 2026-07-10
-
 ---
 
 

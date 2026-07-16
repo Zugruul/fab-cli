@@ -9560,8 +9560,7 @@
     "card:intellect-penalty": {
       "anchor": "card-vault/card-intellect-penalty",
       "notes": [
-        ["card-vault", "card-intellect-penalty"],
-        ["judge", "penalty-severity-ladder"]
+        ["card-vault", "card-intellect-penalty"]
       ]
     },
     "card:interlude": {

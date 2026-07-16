@@ -5,7 +5,6 @@ strength: 2
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR Glossary)"
 graduated: false
 created: 2026-07-10
-
 ---
 
 # CR Glossary index — every defined term (295)

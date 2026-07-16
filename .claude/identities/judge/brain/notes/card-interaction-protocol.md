@@ -5,7 +5,6 @@ strength: 4
 source: "derived from ask-identity validation sessions 2026-07-11; sources per judge ROLE.md"
 graduated: false
 created: 2026-07-11
-
 ---
 
 MINTING — when both referenced card files exist, mint/re-mint interaction notes with `--entities card:<a>,card:<b>`. Entity metadata follows, and never replaces, the editorial verification protocol.

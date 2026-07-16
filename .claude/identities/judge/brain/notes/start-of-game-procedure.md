@@ -5,7 +5,6 @@ strength: 1
 source: "CR §4.1; TRP §3.3"
 graduated: false
 created: 2026-07-10
-
 ---
 
 The start-of-game procedure begins a match; players do NOT get priority during it (CR 4.1.1). Steps (TRP §3.3, CR 4.1):

@@ -5,7 +5,6 @@ strength: 1
 source: "TRP §2"
 graduated: false
 created: 2026-07-10
-
 ---
 
 Every person at a FAB tournament holds one or more roles (TRP §2.1). Tournament officials = TO, Head Judge, Floor Judge, Scorekeeper, Game Attendant. Judge roles = Head Judge + Floor Judge.

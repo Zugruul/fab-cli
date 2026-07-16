@@ -13,6 +13,11 @@ import unicodedata
 
 from entity_index import regenerate as regenerate_entity_index
 
+# Human-reviewed FAB domain collisions: these multiword card names are also
+# established non-card terms in the judge/player corpus. Automatic evidence is
+# therefore insufficient; add them explicitly during minting when appropriate.
+AMBIGUOUS_CARD_NAMES = {"Intellect Penalty"}
+
 
 def root():
     return subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
@@ -46,6 +51,8 @@ def propose_entities(text, cards):
     folded = body.casefold()
     proposals = set()
     for slug, display in cards.items():
+        if display in AMBIGUOUS_CARD_NAMES:
+            continue
         # Single-word card names overlap heavily with keywords, tokens, rules
         # terms, and ordinary editorial prose. Neither a reused tag nor a prose
         # occurrence is enough evidence that a hand-owned note is about that
@@ -82,11 +89,12 @@ def add_entities(text, proposals, reconcile=False):
     line = "entities: [%s]" % ", ".join(merged)
     if reconcile and not merged:
         new_fm = re.sub(r"^entities:.*\n?", "", fm, flags=re.M)
+        new_fm = new_fm.rstrip("\n")
         return "---\n" + new_fm + text[end:]
     if re.search(r"^entities:", fm, re.M):
         new_fm = re.sub(r"^entities:.*$", line, fm, flags=re.M)
     else:
-        new_fm = fm.rstrip("\n") + "\n" + line + "\n"
+        new_fm = fm.rstrip("\n") + "\n" + line
     return "---\n" + new_fm + text[end:]
 
 

@@ -5,7 +5,6 @@ strength: 1
 source: "TRP §3.8"
 graduated: false
 created: 2026-07-10
-
 ---
 
 A deck-check verifies a player's cards against their accepted decklist (TRP §3.8). A REGULAR deck-check collects the deck after the player presents it (before they draw their opening hand) and returns it without guaranteeing order; it confirms cards aren't marked and were presented legally.

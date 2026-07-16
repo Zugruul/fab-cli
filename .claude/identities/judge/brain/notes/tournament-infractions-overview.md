@@ -5,7 +5,6 @@ strength: 1
 source: "PPG §3"
 graduated: false
 created: 2026-07-10
-
 ---
 
 Tournament infractions violate the TRP and are assumed unintentional (intentional → Cheating, PPG §4.2) (PPG §3). If a tournament-rule breach isn't listed here, educate/correct but don't penalize; ignoring the instruction is Unsporting Conduct. Repeat rule: 2+ of the SAME type in a day upgrades one level (max Game Loss); resets daily. Exceptions: Tardiness and Slow Play don't follow the repeat-upgrade.

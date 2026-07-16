@@ -5,7 +5,6 @@ strength: 1
 source: "https://fabtcg.com/gameplay-formats/booster-draft/"
 graduated: false
 created: 2026-07-10
-
 ---
 
 

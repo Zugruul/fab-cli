@@ -5,7 +5,6 @@ strength: 1
 source: "CR §1.10"
 graduated: false
 created: 2026-07-10
-
 ---
 
 Before any player receives priority, the game performs game state actions in order (CR 1.10.2) — FAB's equivalent of checking the board, done automatically:
