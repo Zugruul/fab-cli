@@ -199,8 +199,8 @@ methodology:
   entityKinds:
     card: card-vault
     keyword: card-vault
-    tdd: true
-    maxInProgress: 1
-    autoMerge: true
-    mergeMethod: squash
-    feedback: true
+  tdd: true
+  maxInProgress: 1
+  autoMerge: true
+  mergeMethod: squash
+  feedback: true
