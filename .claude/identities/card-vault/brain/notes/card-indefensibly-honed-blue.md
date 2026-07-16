@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NnJrnKHWM6F8hLqrD6QW9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:indefensibly-honed]
 name: "Indefensibly Honed"
 full-name: "Indefensibly Honed (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GzCQMQGTHq66mwH7GbpQL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:strike-gold]
 name: "Strike Gold"
 full-name: "Strike Gold (yellow)"
 color: yellow

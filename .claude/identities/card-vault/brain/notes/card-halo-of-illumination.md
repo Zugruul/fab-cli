@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid phPFrDkRwGDrqrwq8M8T6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:halo-of-illumination]
 name: "Halo of Illumination"
 defense: 0
 talents: [Light]

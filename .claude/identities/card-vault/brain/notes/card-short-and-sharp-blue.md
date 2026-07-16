@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9JpPtMLzwkcGrbt9K8tBW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:short-and-sharp]
 name: "Short and Sharp"
 full-name: "Short and Sharp (blue)"
 color: blue

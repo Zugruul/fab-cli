@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qJdwq7GGjFb96CzLDqCdk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:frankie-make-ends-meat]
 name: "Frankie, Make Ends Meat"
 health: 20
 intelligence: 4

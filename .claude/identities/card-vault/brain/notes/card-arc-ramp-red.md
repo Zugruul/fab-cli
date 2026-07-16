@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wBbcmhwcnfD8cgzrfk6gQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arc-ramp]
 name: "Arc Ramp"
 full-name: "Arc Ramp (red)"
 color: red

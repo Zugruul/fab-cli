@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Chqpmcpccgmfb7wh7jrdh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:second-swing]
 name: "Second Swing"
 full-name: "Second Swing (blue)"
 color: blue

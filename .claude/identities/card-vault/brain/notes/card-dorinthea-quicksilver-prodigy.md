@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NJJCGNjdCFzrjLqGfL6mR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dorinthea-quicksilver-prodigy]
 name: "Dorinthea, Quicksilver Prodigy"
 health: 20
 intelligence: 4

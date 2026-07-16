@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BwgjdFCGncmNwKPkrznN7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spinal-crush]
 name: "Spinal Crush"
 full-name: "Spinal Crush (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lbp8pFhph9wMqMHDw8JWq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:crown-of-seeds]
 name: "Crown of Seeds"
 defense: 0
 talents: [Earth]

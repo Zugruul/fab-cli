@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QT9MbtNRBFHRQdGhckjpk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-beta-base-arms]
 name: "Evo Beta Base Arms"
 full-name: "Evo Beta Base Arms (blue)"
 color: blue

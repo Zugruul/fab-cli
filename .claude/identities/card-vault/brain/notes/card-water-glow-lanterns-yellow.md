@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bgpJPGPPtgB7BDckBpRdM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:water-glow-lanterns]
 name: "Water Glow Lanterns"
 full-name: "Water Glow Lanterns (yellow)"
 color: yellow

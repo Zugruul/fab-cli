@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dKKCNFfnqk9zMLRzdHHgR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:corrosive-space-dust]
 name: "Corrosive Space Dust"
 full-name: "Corrosive Space Dust (blue)"
 color: blue

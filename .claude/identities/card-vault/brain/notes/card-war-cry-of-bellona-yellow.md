@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FCbzNdDDP9jrLfWCBPPdr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:war-cry-of-bellona]
 name: "War Cry of Bellona"
 full-name: "War Cry of Bellona (yellow)"
 color: yellow

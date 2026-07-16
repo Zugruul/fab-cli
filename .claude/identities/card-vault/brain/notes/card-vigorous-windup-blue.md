@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DCdRpLqtTFj8Q8gghKppK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vigorous-windup]
 name: "Vigorous Windup"
 full-name: "Vigorous Windup (blue)"
 color: blue

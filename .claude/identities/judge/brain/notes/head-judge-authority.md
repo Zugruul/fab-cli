@@ -5,6 +5,8 @@ strength: 1
 source: "TRP §2.5; PPG §1.2"
 graduated: false
 created: 2026-07-10
+entities: [card:marked]
+
 ---
 
 The Head Judge (HJ) is the final on-site authority (TRP §2.5). Their exclusive powers a judge must route to them:

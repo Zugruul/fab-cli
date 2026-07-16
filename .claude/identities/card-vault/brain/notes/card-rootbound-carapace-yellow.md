@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rHt7wrBkFcGCKBNq8BckW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rootbound-carapace]
 name: "Rootbound Carapace"
 full-name: "Rootbound Carapace (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 78zTbm7gJD7r866HNpHGW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chill-to-the-bone]
 name: "Chill to the Bone"
 full-name: "Chill to the Bone (yellow)"
 color: yellow

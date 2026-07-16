@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jdmqz8NgGbBJp88BN8TwK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tome-of-aeo]
 name: "Tome of Aeo"
 full-name: "Tome of Aeo (blue)"
 color: blue

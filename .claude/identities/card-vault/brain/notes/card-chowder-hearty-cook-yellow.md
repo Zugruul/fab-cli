@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 99R9wJLnb9BPbM6WjttDq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chowder-hearty-cook]
 name: "Chowder, Hearty Cook"
 full-name: "Chowder, Hearty Cook (yellow)"
 color: yellow

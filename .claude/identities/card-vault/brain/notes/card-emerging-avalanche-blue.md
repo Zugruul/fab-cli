@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NDkNqCchBdrhwz7RCBn77) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:emerging-avalanche]
 name: "Emerging Avalanche"
 full-name: "Emerging Avalanche (blue)"
 color: blue

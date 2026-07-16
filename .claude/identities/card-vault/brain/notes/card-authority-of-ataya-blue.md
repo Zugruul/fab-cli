@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wkg8Fp6Wg7Cnb8rzHGqFh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:authority-of-ataya]
 name: "Authority of Ataya"
 full-name: "Authority of Ataya (blue)"
 color: blue

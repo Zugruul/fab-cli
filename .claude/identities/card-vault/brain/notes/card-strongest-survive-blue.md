@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mgbKnbTJP7Tj6kBFmgrLJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:strongest-survive]
 name: "Strongest Survive"
 full-name: "Strongest Survive (blue)"
 color: blue

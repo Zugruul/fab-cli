@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hPWBFwq8Nmf96PM87BF6t) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rising-resentment]
 name: "Rising Resentment"
 full-name: "Rising Resentment (red)"
 color: red

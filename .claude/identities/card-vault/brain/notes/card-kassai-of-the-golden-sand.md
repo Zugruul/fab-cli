@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ffKGNQcWnLkfQD7w66MRL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kassai-of-the-golden-sand]
 name: "Kassai of the Golden Sand"
 health: 40
 intelligence: 4

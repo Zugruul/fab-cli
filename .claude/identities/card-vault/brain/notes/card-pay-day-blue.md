@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JJcft9d6mrcTCbwbkQTcB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pay-day]
 name: "Pay Day"
 full-name: "Pay Day (blue)"
 color: blue

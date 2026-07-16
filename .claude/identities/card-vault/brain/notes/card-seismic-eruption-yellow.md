@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t9g6gbzgFL9RmRQBBNrP7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seismic-eruption]
 name: "Seismic Eruption"
 full-name: "Seismic Eruption (yellow)"
 color: yellow

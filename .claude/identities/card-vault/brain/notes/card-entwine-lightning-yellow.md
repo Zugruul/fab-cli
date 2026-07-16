@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8GMQWkrqHKDHkWQzg8nJj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:entwine-lightning]
 name: "Entwine Lightning"
 full-name: "Entwine Lightning (yellow)"
 color: yellow

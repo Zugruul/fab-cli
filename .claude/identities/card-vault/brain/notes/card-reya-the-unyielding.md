@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KnwNm8LC9DNpT8wMzDnFn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reya-the-unyielding]
 name: "Reya, the Unyielding"
 health: 21
 intelligence: 4

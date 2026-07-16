@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wQcpct8M6ddWK6BkKMMgC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:proclamation-of-abundance]
 name: "Proclamation of Abundance"
 classes: [Adjudicator]
 types: [Equipment]

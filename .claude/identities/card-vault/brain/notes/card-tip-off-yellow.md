@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hfwh8FM6w6kLD76KtdhKK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tip-off]
 name: "Tip-Off"
 full-name: "Tip-Off (yellow)"
 color: yellow

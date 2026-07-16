@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TR6gqd7DKzPwdLdF9FCbP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mulch]
 name: "Mulch"
 full-name: "Mulch (yellow)"
 color: yellow

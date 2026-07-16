@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tpgGtDJmWntFC6QcdhhgW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gavel-of-natural-order]
 name: "Gavel of Natural Order"
 power: 2
 classes: [Adjudicator]

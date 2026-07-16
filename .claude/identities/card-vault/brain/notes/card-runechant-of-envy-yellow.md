@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDtcFpfJGnLpQW7LfmM7k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runechant-of-envy]
 name: "Runechant of Envy"
 full-name: "Runechant of Envy (yellow)"
 color: yellow

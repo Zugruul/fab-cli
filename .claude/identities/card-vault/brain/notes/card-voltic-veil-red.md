@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T8LpTQg8Cqnk7jQgf9FhJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:voltic-veil]
 name: "Voltic Veil"
 full-name: "Voltic Veil (red)"
 color: red

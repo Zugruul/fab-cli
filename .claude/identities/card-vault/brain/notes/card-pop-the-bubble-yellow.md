@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dTfFbRdN9zLPKfgWd8mmp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pop-the-bubble]
 name: "Pop the Bubble"
 full-name: "Pop the Bubble (yellow)"
 color: yellow

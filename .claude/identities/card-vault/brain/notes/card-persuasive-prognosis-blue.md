@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pnfqGpznd7LM8JQHQJfPB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:persuasive-prognosis]
 name: "Persuasive Prognosis"
 full-name: "Persuasive Prognosis (blue)"
 color: blue

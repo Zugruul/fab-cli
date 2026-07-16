@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dzMffTNHqjw8q8jkDjGwD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:enion-surge]
 name: "Enion Surge"
 full-name: "Enion Surge (red)"
 color: red

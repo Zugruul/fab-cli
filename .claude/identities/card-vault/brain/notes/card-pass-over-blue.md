@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m9tj8WGNNjQPt8wjMqFFf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pass-over]
 name: "Pass Over"
 full-name: "Pass Over (blue)"
 color: blue

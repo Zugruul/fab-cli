@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HzC8krcLnWNQLrDdHGgCr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:veiled-intentions]
 name: "Veiled Intentions"
 full-name: "Veiled Intentions (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RnBBWkdHbRb6tCRPF8Mpq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:talisman-of-dousing]
 name: "Talisman of Dousing"
 full-name: "Talisman of Dousing (yellow)"
 color: yellow

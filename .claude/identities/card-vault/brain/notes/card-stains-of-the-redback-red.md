@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P768PhtTzKDbp9gCpqtFC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stains-of-the-redback]
 name: "Stains of the Redback"
 full-name: "Stains of the Redback (red)"
 color: red

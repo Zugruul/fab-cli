@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K8qRnknckRfM9fJ9fhrcm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:widespread-ruin]
 name: "Widespread Ruin"
 full-name: "Widespread Ruin (red)"
 color: red

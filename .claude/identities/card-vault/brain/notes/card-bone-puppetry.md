@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wzmJ9hckLQFhDgbbJntzz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bone-puppetry]
 name: "Bone Puppetry"
 defense: 2
 classes: [Necromancer]

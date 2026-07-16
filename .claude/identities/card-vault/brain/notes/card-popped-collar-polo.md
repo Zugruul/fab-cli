@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KLrGzkPn8QfB6cqNqcN8m) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:popped-collar-polo]
 name: "Popped Collar Polo"
 defense: 0
 classes: [Generic]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WppPJNLCfdp8kwwjHDgBT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vexing-malice]
 name: "Vexing Malice"
 full-name: "Vexing Malice (yellow)"
 color: yellow

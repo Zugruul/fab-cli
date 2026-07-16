@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gbKHPCw8zzPmQcKWN9gnC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-sentry-base-chest]
 name: "Evo Sentry Base Chest"
 full-name: "Evo Sentry Base Chest (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6dhcGczKkMnrNJg9gDWdw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sharp-incline]
 name: "Sharp Incline"
 full-name: "Sharp Incline (red)"
 color: red

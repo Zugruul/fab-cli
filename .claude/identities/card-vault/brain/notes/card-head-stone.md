@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Pm8jQMDcJhBnT8wj6rwFD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:head-stone]
 name: "Head Stone"
 defense: 1
 classes: [Necromancer]

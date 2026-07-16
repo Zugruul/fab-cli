@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LHFcqHMhT7L6wb8RFQd9k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:razzle-dazzle]
 name: "Razzle Dazzle"
 full-name: "Razzle Dazzle (blue)"
 color: blue

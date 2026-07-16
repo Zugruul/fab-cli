@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9GHTwjj8W9dWDtc9zbfmc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:big-blue-sky]
 name: "Big Blue Sky"
 full-name: "Big Blue Sky (blue)"
 color: blue

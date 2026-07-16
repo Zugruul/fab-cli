@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hBNhqr7gCLz6QMzBDLk8F) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:golden-gauntlets]
 name: "Golden Gauntlets"
 defense: 2
 classes: [Warrior]

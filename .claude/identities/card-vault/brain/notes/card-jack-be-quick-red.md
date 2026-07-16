@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hKpL79WLFdLkgBhmhtdQJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jack-be-quick]
 name: "Jack Be Quick"
 full-name: "Jack Be Quick (red)"
 color: red

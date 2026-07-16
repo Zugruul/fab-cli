@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CpgzmBH67WMWJMj9JF8jw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:biting-blade]
 name: "Biting Blade"
 full-name: "Biting Blade (yellow)"
 color: yellow

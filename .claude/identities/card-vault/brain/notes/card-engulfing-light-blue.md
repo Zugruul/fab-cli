@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DbFJncpjwQmp8mg99RPqL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:engulfing-light]
 name: "Engulfing Light"
 full-name: "Engulfing Light (blue)"
 color: blue

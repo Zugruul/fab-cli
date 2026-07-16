@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mGmcTdzdtkJWq8D8Tnrgj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:trap-and-release]
 name: "Trap and Release"
 full-name: "Trap and Release (red)"
 color: red

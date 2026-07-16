@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HjgMJg6DrhJqR6fMnp6fc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dance-of-darkness]
 name: "Dance of Darkness"
 talents: [Shadow]
 types: [Equipment]

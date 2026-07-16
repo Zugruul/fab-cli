@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mRMLQ9PM6rhFMcMKWdcbm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flight-path]
 name: "Flight Path"
 defense: 1
 classes: [Ranger]

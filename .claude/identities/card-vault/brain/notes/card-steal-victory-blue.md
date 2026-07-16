@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GFNmBDr67mL9cbfjDdGf9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:steal-victory]
 name: "Steal Victory"
 full-name: "Steal Victory (blue)"
 color: blue

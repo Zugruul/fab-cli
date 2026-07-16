@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kqkwTjFqGH99hzDwWJN98) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:polar-blast]
 name: "Polar Blast"
 full-name: "Polar Blast (yellow)"
 color: yellow

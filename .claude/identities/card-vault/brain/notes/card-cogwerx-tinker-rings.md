@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cqRf8LJ6Dt86pRfcDdJ7H) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cogwerx-tinker-rings]
 name: "Cogwerx Tinker Rings"
 defense: 2
 classes: [Mechanologist]

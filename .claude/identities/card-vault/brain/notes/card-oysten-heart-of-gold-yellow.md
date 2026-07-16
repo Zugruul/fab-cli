@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fDMt9jWjpCQKJPQbfcpWg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oysten-heart-of-gold]
 name: "Oysten, Heart of Gold"
 full-name: "Oysten, Heart of Gold (yellow)"
 color: yellow

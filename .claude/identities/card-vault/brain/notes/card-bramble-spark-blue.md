@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DJr7kwTDTm8MrPrBWn69D) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bramble-spark]
 name: "Bramble Spark"
 full-name: "Bramble Spark (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jwDzJCPgGpnn6QgPJkNTH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stormwind-sheath]
 name: "Stormwind Sheath"
 full-name: "Stormwind Sheath (red)"
 color: red

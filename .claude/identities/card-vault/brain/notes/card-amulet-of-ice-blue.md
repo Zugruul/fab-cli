@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t6MkmHjPRNghmMcMQbqch) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-ice]
 name: "Amulet of Ice"
 full-name: "Amulet of Ice (blue)"
 color: blue

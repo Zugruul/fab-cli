@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RKfqhH8h8jnhfC9fcDPmc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plating-of-unity]
 name: "Plating of Unity"
 defense: 1
 classes: [Warrior]

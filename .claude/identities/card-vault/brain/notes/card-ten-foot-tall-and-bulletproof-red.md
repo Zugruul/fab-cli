@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F8hkwqJTR9m8bRKnbr6JB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ten-foot-tall-and-bulletproof]
 name: "Ten Foot Tall and Bulletproof"
 full-name: "Ten Foot Tall and Bulletproof (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qnr8rHRmfzBbrgbjM9GjG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fire-in-the-hole]
 name: "Fire in the Hole"
 full-name: "Fire in the Hole (red)"
 color: red

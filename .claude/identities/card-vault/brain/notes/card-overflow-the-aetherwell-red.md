@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CMbWnJbGKW8JdmD7TB8JF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:overflow-the-aetherwell]
 name: "Overflow the Aetherwell"
 full-name: "Overflow the Aetherwell (red)"
 color: red

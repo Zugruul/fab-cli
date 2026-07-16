@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M7DR7HgnDFJ8p96tCqDTn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rise-above]
 name: "Rise Above"
 full-name: "Rise Above (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DfHHPcLzbncDMhkJgQKKm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:agility-stance]
 name: "Agility Stance"
 full-name: "Agility Stance (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hMQTg6qwCLqnHBdGbP6wH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:show-time]
 name: "Show Time!"
 full-name: "Show Time! (blue)"
 color: blue

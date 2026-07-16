@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wzfdd9ktHKGhFkCKDhTWT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kick-the-hornets-nest]
 name: "Kick the Hornet's Nest"
 full-name: "Kick the Hornet's Nest (yellow)"
 color: yellow

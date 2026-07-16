@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PBkK9jFkGPKGqTwmTwrzW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:serpents-kiss]
 name: "Serpent's Kiss"
 full-name: "Serpent's Kiss (blue)"
 color: blue

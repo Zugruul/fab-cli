@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mRhKjfhKd6K6DPB8f6Twg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:healing-potion]
 name: "Healing Potion"
 full-name: "Healing Potion (blue)"
 color: blue

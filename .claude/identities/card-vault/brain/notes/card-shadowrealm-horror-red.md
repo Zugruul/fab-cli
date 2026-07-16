@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q9rhJWLhqmFgpRdrb6LGM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shadowrealm-horror]
 name: "Shadowrealm Horror"
 full-name: "Shadowrealm Horror (red)"
 color: red

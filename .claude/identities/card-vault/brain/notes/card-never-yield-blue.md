@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JtmjqNPR7JcNHJGFNtWNR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:never-yield]
 name: "Never Yield"
 full-name: "Never Yield (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tbc6PrGdmPnPJkbN9DW9q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cracker-jax]
 name: "Cracker Jax"
 defense: 0
 classes: [Generic]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tKf7fDRqqJHHn7QgrKjdR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fog-down]
 name: "Fog Down"
 full-name: "Fog Down (yellow)"
 color: yellow

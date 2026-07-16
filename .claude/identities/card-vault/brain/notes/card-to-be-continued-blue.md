@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RrLpMzrnbdgWFJh7D8r6q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:to-be-continued]
 name: "To Be Continued..."
 full-name: "To Be Continued... (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tWjDdc6FFdnDNk7dLgzt7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cash-out]
 name: "Cash Out"
 full-name: "Cash Out (blue)"
 color: blue

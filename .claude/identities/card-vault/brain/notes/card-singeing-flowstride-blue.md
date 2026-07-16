@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJLdrWjMqLQL8r7wMc8Rg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:singeing-flowstride]
 name: "Singeing Flowstride"
 full-name: "Singeing Flowstride (blue)"
 color: blue

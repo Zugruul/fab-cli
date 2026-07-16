@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pj8DmGTHp6bDzpLdz968F) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fletch-a-red-tail]
 name: "Fletch a Red Tail"
 full-name: "Fletch a Red Tail (red)"
 color: red

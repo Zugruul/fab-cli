@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HNFBzNgGjf6JnH9h6PKFJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:moray-le-fay]
 name: "Moray le Fay"
 full-name: "Moray le Fay (yellow)"
 color: yellow

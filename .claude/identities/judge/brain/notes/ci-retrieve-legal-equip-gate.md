@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.5.51, 8.5.51a, 8.5.41c — third_party/fab-rules/en-fab-cr.txt; card: Pick Up the Point (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:pick-up-the-point]
+
 ---
 
 **Pick Up the Point** (Assassin Ninja Action Attack): "When this attacks, you may retrieve a dagger from your graveyard." Retrieve (CR 8.5.51): "To retrieve a card, the player may pay {r} to equip the card." CR 8.5.51a: "The card must exist and be able to be equipped for the player to pay {r}. If the player cannot equip the card, they cannot choose to pay {r}."

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mwKQwF9C99qwcj9M7bpwd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:static-shock]
 name: "Static Shock"
 full-name: "Static Shock (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CrWjLrqtQtppQhQCMt9LH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-wildfire]
 name: "Aether Wildfire"
 full-name: "Aether Wildfire (red)"
 color: red

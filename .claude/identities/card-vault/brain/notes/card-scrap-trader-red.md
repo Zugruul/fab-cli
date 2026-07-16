@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQpHCDTdJdmJgn8hGJrgq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scrap-trader]
 name: "Scrap Trader"
 full-name: "Scrap Trader (red)"
 color: red

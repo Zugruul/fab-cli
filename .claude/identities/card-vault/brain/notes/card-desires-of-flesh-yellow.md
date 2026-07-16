@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qFhpqb6pJPNNg7mBRPTMh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:desires-of-flesh]
 name: "Desires of Flesh"
 full-name: "Desires of Flesh (yellow)"
 color: yellow

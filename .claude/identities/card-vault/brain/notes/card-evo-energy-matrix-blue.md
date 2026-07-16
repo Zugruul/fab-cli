@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6B8TGFRbgK6dQQLKfP8qD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-energy-matrix]
 name: "Evo Energy Matrix"
 full-name: "Evo Energy Matrix (blue)"
 color: blue

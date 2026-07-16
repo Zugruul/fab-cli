@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GwJdwRwJFbjNNWLzCqr6M) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:force-of-nature]
 name: "Force of Nature"
 full-name: "Force of Nature (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jtJnCFHwQf7w9hwzbBtQt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:knick-knack-bric-a-brac]
 name: "Knick Knack Bric-a-brac"
 full-name: "Knick Knack Bric-a-brac (red)"
 color: red

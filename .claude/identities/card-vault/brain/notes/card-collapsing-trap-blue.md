@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NzT7pTMkkPCfNr79ftFtG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:collapsing-trap]
 name: "Collapsing Trap"
 full-name: "Collapsing Trap (blue)"
 color: blue

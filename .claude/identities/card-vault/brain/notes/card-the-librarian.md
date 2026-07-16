@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QcgncKTnLcdGKQnwDjqdz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:the-librarian]
 name: "The Librarian"
 defense: 3
 classes: [Illusionist]

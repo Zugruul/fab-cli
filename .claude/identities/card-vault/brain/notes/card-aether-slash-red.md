@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CNpTdPFLhRdt6N7qgQqkC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-slash]
 name: "Aether Slash"
 full-name: "Aether Slash (red)"
 color: red

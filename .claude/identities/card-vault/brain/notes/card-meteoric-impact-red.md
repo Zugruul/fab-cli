@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kLWrkbbDknfq8fR8TgHnL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:meteoric-impact]
 name: "Meteoric Impact"
 full-name: "Meteoric Impact (red)"
 color: red

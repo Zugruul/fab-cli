@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPftqbndp9fTd67GqNhzM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dazzling-crescendo]
 name: "Dazzling Crescendo"
 full-name: "Dazzling Crescendo (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T6hdfgDWQgPTm8RJ8HpfQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:second-tenet-of-chi-wind]
 name: "Second Tenet of Chi: Wind"
 full-name: "Second Tenet of Chi: Wind (blue)"
 color: blue

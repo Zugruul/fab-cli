@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9K6tW9Kcqfc67PtcgmNTP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leg-tap]
 name: "Leg Tap"
 full-name: "Leg Tap (yellow)"
 color: yellow

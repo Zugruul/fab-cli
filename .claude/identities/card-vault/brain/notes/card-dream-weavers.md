@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQbkJKNDtz8TkbPcb6hbF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dream-weavers]
 name: "Dream Weavers"
 defense: 0
 classes: [Illusionist]

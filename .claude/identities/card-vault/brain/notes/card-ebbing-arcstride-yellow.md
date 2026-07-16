@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HMqtjHBBrQMRpRGjkcPpD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ebbing-arcstride]
 name: "Ebbing Arcstride"
 full-name: "Ebbing Arcstride (yellow)"
 color: yellow

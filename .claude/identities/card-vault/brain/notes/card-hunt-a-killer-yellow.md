@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8gG7kjNqwhwftdGHjCQnq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hunt-a-killer]
 name: "Hunt a Killer"
 full-name: "Hunt a Killer (yellow)"
 color: yellow

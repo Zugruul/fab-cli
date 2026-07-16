@@ -5,6 +5,8 @@ strength: 2
 source: "annotated examples in docs/references/card-anatomy/ + third_party/flesh-and-blood-cards/json/english/card.json (true text: cardvault, CR 2.0.2; layout semantics: CR ch.2)"
 graduated: false
 created: 2026-07-10
+entities: [card:edge-of-autumn, card:ira-crimson-haze, card:ironrot-plate, card:null-shock, card:springboard-somersault, card:torrent-of-tempo]
+
 ---
 
 # Card anatomy — visual layout by card type (annotated examples vendored in docs/references/card-anatomy/)

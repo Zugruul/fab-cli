@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gnCjFF9rFPTrhTrBcjJGc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:goblet-of-bloodrun-wine]
 name: "Goblet of Bloodrun Wine"
 full-name: "Goblet of Bloodrun Wine (blue)"
 color: blue

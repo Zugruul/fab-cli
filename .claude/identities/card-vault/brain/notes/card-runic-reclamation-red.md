@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gBdLwdzLq6zrMGbHKpKfw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runic-reclamation]
 name: "Runic Reclamation"
 full-name: "Runic Reclamation (red)"
 color: red

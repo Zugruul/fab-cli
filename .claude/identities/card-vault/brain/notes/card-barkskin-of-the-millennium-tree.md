@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qdDLqzd6FfmjfPGHLD6NW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:barkskin-of-the-millennium-tree]
 name: "Barkskin of the Millennium Tree"
 defense: 2
 talents: [Earth]

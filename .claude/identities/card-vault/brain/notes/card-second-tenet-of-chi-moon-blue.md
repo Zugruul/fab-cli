@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HFtcFTzQwfjNwk89mLRjD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:second-tenet-of-chi-moon]
 name: "Second Tenet of Chi: Moon"
 full-name: "Second Tenet of Chi: Moon (blue)"
 color: blue

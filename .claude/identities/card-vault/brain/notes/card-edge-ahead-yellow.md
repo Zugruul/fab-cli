@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c6GzLGmQpLLQHMqQBLRNz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:edge-ahead]
 name: "Edge Ahead"
 full-name: "Edge Ahead (yellow)"
 color: yellow

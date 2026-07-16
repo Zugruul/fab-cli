@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nqbttmdCrgTbFBjJBzLtz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oscilio-forked-continuum]
 name: "Oscilio, Forked Continuum"
 health: 38
 intelligence: 4

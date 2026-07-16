@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c6tgbGMBbR77gJWhJCzhh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spike-with-bloodrot]
 name: "Spike with Bloodrot"
 full-name: "Spike with Bloodrot (red)"
 color: red

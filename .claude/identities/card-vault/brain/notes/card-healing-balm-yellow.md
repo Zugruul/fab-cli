@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6Ltnt69ChWMCDBTTdWkL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:healing-balm]
 name: "Healing Balm"
 full-name: "Healing Balm (yellow)"
 color: yellow

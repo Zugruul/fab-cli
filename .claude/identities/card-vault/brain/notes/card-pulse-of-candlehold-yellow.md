@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LChfNqqwjw9Njbdntwcz7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pulse-of-candlehold]
 name: "Pulse of Candlehold"
 full-name: "Pulse of Candlehold (yellow)"
 color: yellow

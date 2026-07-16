@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FHdcQjB7mGbTgzJnmPmhc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:havoc-wrap]
 name: "Havoc Wrap"
 defense: 1
 talents: [Chaos]

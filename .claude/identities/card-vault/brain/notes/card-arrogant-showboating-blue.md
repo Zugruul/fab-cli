@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mcgDWKjwLQ9thKbjmqBJG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arrogant-showboating]
 name: "Arrogant Showboating"
 full-name: "Arrogant Showboating (blue)"
 color: blue

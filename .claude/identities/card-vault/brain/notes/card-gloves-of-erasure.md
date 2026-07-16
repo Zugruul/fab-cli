@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gmwg8fzdNG8rMfrHgD7kw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gloves-of-erasure]
 name: "Gloves of Erasure"
 defense: 0
 classes: [Wizard]

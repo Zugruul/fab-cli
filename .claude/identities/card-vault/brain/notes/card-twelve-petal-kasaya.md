@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kQcrWWddhc7qJJrtdpggp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:twelve-petal-kasaya]
 name: "Twelve Petal Kāṣāya"
 defense: 2
 classes: [Ninja]

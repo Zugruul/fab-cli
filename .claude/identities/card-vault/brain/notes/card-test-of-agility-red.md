@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6ChQcHfgrFqCLTrFppwQG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:test-of-agility]
 name: "Test of Agility"
 full-name: "Test of Agility (red)"
 color: red

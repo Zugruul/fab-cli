@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H6WLbh6cgMkhmdqLhQWrJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:breed-anger]
 name: "Breed Anger"
 full-name: "Breed Anger (red)"
 color: red

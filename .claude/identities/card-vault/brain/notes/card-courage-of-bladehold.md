@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cH7LdkrKdFnjP7PLwFDhD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:courage-of-bladehold]
 name: "Courage of Bladehold"
 defense: 2
 classes: [Warrior]

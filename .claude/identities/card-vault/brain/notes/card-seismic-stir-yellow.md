@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FFGW6Kn6mWFFFWcwkpdHh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seismic-stir]
 name: "Seismic Stir"
 full-name: "Seismic Stir (yellow)"
 color: yellow

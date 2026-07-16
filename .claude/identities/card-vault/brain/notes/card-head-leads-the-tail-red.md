@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p8tbQ7KL7G8RwQTtdKnNH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:head-leads-the-tail]
 name: "Head Leads the Tail"
 full-name: "Head Leads the Tail (red)"
 color: red

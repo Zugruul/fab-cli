@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TGJ8mNQ6DnfnLqzH7WMFg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sledge-of-anvilheim]
 name: "Sledge of Anvilheim"
 power: 6
 classes: [Guardian]

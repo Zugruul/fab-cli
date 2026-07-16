@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KGLtMJpW96RGNDCDf9P7T) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:feisty-locals]
 name: "Feisty Locals"
 full-name: "Feisty Locals (red)"
 color: red

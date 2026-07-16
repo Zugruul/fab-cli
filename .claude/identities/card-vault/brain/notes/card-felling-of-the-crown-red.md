@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PkQPFgMNLn69hmMnq7jCC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:felling-of-the-crown]
 name: "Felling of the Crown"
 full-name: "Felling of the Crown (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NdGdjWwfTnfdWGFL6tRwz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:looming-doom]
 name: "Looming Doom"
 full-name: "Looming Doom (blue)"
 color: blue

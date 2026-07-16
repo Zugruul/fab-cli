@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zbnpfqW7d6CqN9wT8Dcft) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tales-of-adventure]
 name: "Tales of Adventure"
 full-name: "Tales of Adventure (blue)"
 color: blue

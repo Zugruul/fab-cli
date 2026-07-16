@@ -5,6 +5,8 @@ strength: 1
 source: "docs/references/learn-to-play-video-transcript.md"
 graduated: false
 created: 2026-07-10
+entities: [card:sink-below]
+
 ---
 
 

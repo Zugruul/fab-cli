@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid J7J6PfqbMCBzQDKtrMfCD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:billowing-mirage]
 name: "Billowing Mirage"
 full-name: "Billowing Mirage (blue)"
 color: blue

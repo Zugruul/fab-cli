@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mhdJ9hGfrqrKPzgf687RG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cut-a-long-story-short]
 name: "Cut a Long Story Short"
 full-name: "Cut a Long Story Short (yellow)"
 color: yellow

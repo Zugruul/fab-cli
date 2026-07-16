@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JR8LzTchKj8QmqkCN7GHw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:teklo-leveler]
 name: "Teklo Leveler"
 power: 2
 classes: [Mechanologist]

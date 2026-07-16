@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cjJpkCtJwndP7FwzwDDQc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fabricate]
 name: "Fabricate"
 full-name: "Fabricate (red)"
 color: red

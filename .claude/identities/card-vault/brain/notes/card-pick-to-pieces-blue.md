@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GTNPMFWmcDcDdcJP7WhNd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pick-to-pieces]
 name: "Pick to Pieces"
 full-name: "Pick to Pieces (blue)"
 color: blue

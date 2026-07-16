@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kPfFLfQ8phzz6tpjd9gMb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dusk-path-pilgrimage]
 name: "Dusk Path Pilgrimage"
 full-name: "Dusk Path Pilgrimage (red)"
 color: red

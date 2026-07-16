@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tptp9kn8nHrbDfhFp7rCQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arcanic-cunning]
 name: "Arcanic Cunning"
 full-name: "Arcanic Cunning (blue)"
 color: blue

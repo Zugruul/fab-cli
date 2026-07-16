@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NNFqk8C7PnFchKpGJMfph) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rip-off-the-top]
 name: "Rip Off the Top"
 full-name: "Rip Off the Top (yellow)"
 color: yellow

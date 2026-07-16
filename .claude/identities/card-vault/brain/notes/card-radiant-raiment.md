@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gmKLgjmBKHDRjnCf7Q7kh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:radiant-raiment]
 name: "Radiant Raiment"
 talents: [Light]
 types: [Equipment]

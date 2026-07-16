@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BzRQ6f66gRqDbfhkC8TRM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:condemn-to-slaughter]
 name: "Condemn to Slaughter"
 full-name: "Condemn to Slaughter (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wKhBB6Nb9RPQJ8zPFnpgJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deep]
 name: "Deep Blue"
 defense: 0
 classes: [Generic]

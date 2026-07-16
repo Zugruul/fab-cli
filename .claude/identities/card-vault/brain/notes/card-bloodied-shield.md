@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7p6zQ9qPTLtrWq8Wg6zjC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bloodied-shield]
 name: "Bloodied Shield"
 defense: 2
 types: [Event, Equipment]

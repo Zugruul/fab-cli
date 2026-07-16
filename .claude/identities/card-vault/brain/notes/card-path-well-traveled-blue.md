@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7fN6NNBdf9KQF9gWWpdzL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:path-well-traveled]
 name: "Path Well Traveled"
 full-name: "Path Well Traveled (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNbHKGgQDmpBmQWDDTnkR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:not-so-tuff]
 name: "Not So Tuff"
 full-name: "Not So Tuff (blue)"
 color: blue

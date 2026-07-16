@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BfCHDqCQHfNgqQGckhq7d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tarantula-toxin]
 name: "Tarantula Toxin"
 full-name: "Tarantula Toxin (red)"
 color: red

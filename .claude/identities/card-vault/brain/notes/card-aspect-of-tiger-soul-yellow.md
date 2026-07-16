@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid khwtPrnQkQFfNBccCczht) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aspect-of-tiger-soul]
 name: "Aspect of Tiger: Soul"
 full-name: "Aspect of Tiger: Soul (yellow)"
 color: yellow

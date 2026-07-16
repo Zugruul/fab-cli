@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rKb97mmPGtmm9R9dMDW8d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pearl-amulet]
 name: "Pearl Amulet"
 full-name: "Pearl Amulet (blue)"
 color: blue

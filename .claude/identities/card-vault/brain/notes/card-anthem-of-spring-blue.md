@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJQMt6Lpf6D9JFQ8BW898) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:anthem-of-spring]
 name: "Anthem of Spring"
 full-name: "Anthem of Spring (blue)"
 color: blue

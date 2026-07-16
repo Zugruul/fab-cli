@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dMJht8gmwFJG8cKdpzCnw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:raging-onslaught]
 name: "Raging Onslaught"
 full-name: "Raging Onslaught (yellow)"
 color: yellow

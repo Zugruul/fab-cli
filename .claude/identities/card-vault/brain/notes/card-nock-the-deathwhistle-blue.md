@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zDLrkgc8QGm77T8qPGwqd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nock-the-deathwhistle]
 name: "Nock the Deathwhistle"
 full-name: "Nock the Deathwhistle (blue)"
 color: blue

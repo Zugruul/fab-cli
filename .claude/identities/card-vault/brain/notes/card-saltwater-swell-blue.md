@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DN8dWKrTLQzr6H9BJ8kcn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:saltwater-swell]
 name: "Saltwater Swell"
 full-name: "Saltwater Swell (blue)"
 color: blue

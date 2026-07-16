@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pK8JkmbJz7PNtMJCLPTHN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tighten-the-screws]
 name: "Tighten the Screws"
 full-name: "Tighten the Screws (red)"
 color: red

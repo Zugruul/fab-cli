@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bMJBmMJt99tBDWrznqMBR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sanctuary-of-aria]
 name: "Sanctuary of Aria"
 types: [Macro]
 other-types: [Rosetta]

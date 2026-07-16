@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9HfDfRR8m8cLKDdg88gjm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:enigma-new-moon]
 name: "Enigma, New Moon"
 health: 20
 intelligence: 4

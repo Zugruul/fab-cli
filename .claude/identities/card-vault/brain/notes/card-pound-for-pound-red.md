@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kHtKHFpcQzRfhtQ8WGBzF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pound-for-pound]
 name: "Pound for Pound"
 full-name: "Pound for Pound (red)"
 color: red

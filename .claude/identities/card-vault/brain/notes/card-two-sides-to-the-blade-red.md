@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wNtNbFgrfzcjJTMwRbkcg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:two-sides-to-the-blade]
 name: "Two Sides to the Blade"
 full-name: "Two Sides to the Blade (red)"
 color: red

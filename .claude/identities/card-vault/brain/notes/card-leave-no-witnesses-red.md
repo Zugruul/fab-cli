@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zWjNwt6zMt9hMq9TDKJWp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leave-no-witnesses]
 name: "Leave No Witnesses"
 full-name: "Leave No Witnesses (red)"
 color: red

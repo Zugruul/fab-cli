@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kLzphMK8g6dLhFRf7Tdph) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vantom-wraith]
 name: "Vantom Wraith"
 full-name: "Vantom Wraith (red)"
 color: red

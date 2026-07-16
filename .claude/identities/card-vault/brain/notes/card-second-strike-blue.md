@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wdT9WhkFKfwrHdJMWWcDQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:second-strike]
 name: "Second Strike"
 full-name: "Second Strike (blue)"
 color: blue

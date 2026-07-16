@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gwLCKHWBWwMwH7McRRDzF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tongue-tied]
 name: "Tongue Tied"
 full-name: "Tongue Tied (red)"
 color: red

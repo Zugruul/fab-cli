@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bzrT9j7m9tGmr8BbKKk9J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plunge]
 name: "Plunge"
 full-name: "Plunge (blue)"
 color: blue

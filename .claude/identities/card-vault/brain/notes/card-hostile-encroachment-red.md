@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NKBJGDhp7TDQ7CzdQtpJM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hostile-encroachment]
 name: "Hostile Encroachment"
 full-name: "Hostile Encroachment (red)"
 color: red

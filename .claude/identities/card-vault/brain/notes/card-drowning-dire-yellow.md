@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8C6bzbM9ffCRDrLP8H9hg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drowning-dire]
 name: "Drowning Dire"
 full-name: "Drowning Dire (yellow)"
 color: yellow

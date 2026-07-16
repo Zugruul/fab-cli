@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rjhDRz7JGN7kpDdjHQfrg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-isens-peak]
 name: "Helm of Isen's Peak"
 defense: 1
 classes: [Guardian]

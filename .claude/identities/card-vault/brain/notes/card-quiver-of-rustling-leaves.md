@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Pc9dDNQmwKnmDbgf6jrLH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:quiver-of-rustling-leaves]
 name: "Quiver of Rustling Leaves"
 classes: [Ranger]
 types: [Equipment]

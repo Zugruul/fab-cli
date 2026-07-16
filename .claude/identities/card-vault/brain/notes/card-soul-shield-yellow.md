@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BczHzGkDc8h997tK8RrbQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:soul-shield]
 name: "Soul Shield"
 full-name: "Soul Shield (yellow)"
 color: yellow

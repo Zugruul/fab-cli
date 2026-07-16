@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RmCnthNDKJ977KcRNmMbg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mercurial-skies]
 name: "Mercurial Skies"
 full-name: "Mercurial Skies (blue)"
 color: blue

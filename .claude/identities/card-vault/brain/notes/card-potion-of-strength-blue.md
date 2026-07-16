@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fNMMHHpLGMCjHh8KQG8nW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:potion-of-strength]
 name: "Potion of Strength"
 full-name: "Potion of Strength (blue)"
 color: blue

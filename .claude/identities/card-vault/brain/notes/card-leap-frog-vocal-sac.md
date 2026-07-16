@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6Gqn7z8PhLkHtBnF7MmwJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leap-frog-vocal-sac]
 name: "Leap Frog Vocal Sac"
 defense: 1
 classes: [Assassin, Ninja]

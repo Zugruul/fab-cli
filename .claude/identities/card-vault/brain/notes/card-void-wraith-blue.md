@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8cCcw6wqqbhzgDPCTNzmR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:void-wraith]
 name: "Void Wraith"
 full-name: "Void Wraith (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jMMDM8cd7Dc8LdWWN7GzR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chart-the-high-seas]
 name: "Chart the High Seas"
 full-name: "Chart the High Seas (blue)"
 color: blue

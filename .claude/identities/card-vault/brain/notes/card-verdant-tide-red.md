@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QpMtrnpTR8gr7KQGDn6Jk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:verdant-tide]
 name: "Verdant Tide"
 full-name: "Verdant Tide (red)"
 color: red

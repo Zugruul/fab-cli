@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tPwwHTwt6hkdjgfzDtMfB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rake-back]
 name: "Rake Back"
 full-name: "Rake Back (blue)"
 color: blue

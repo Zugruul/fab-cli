@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CGPcNWJRc8pnPfCbQHtwJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reduce-to-runechant]
 name: "Reduce to Runechant"
 full-name: "Reduce to Runechant (yellow)"
 color: yellow

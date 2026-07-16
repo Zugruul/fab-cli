@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nQ8twtLDzDb9JFmDCdG7j) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:take-flight]
 name: "Take Flight"
 full-name: "Take Flight (yellow)"
 color: yellow

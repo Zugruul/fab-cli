@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJhftDhtgzGRMPCt7btf9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:en-garde]
 name: "En Garde"
 full-name: "En Garde (red)"
 color: red

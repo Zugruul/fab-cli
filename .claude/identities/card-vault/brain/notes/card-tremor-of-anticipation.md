@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fKbwfGWzk7zrpWBTNcrjd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tremor-of-anticipation]
 name: "Tremor of Anticipation"
 types: [Event]
 unique-id: fKbwfGWzk7zrpWBTNcrjd

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLLnbfp9zC8Fcm9Tn9pQf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-bellona]
 name: "Blessing of Bellona"
 full-name: "Blessing of Bellona (yellow)"
 color: yellow

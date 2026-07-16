@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jjzTRHWhnQT7M7FwKjjpq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:overload]
 name: "Overload"
 full-name: "Overload (red)"
 color: red

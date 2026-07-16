@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jfHbfHfWB7KPd8NTmqDd9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:polarity-reversal-script]
 name: "Polarity Reversal Script"
 full-name: "Polarity Reversal Script (red)"
 color: red

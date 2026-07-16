@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6JztkHqwkFCGJgfBwKgq8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:booze]
 name: "Booze!"
 full-name: "Booze! (blue)"
 color: blue

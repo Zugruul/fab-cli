@@ -5,6 +5,8 @@ strength: 1
 source: "https://fabtcg.com/gameplay-formats/classic-constructed/"
 graduated: false
 created: 2026-07-10
+entities: [card:silver]
+
 ---
 
 

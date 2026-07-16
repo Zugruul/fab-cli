@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bTCfkj7Q8WQKHcnhGqHCr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:adrenaline-rush]
 name: "Adrenaline Rush"
 full-name: "Adrenaline Rush (blue)"
 color: blue

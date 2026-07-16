@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RFF6Bj8MJNDJLQG9kkpq8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dunebreaker-cenipai]
 name: "Dunebreaker Cenipai"
 full-name: "Dunebreaker Cenipai (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rbzdbLWNThgMnfbcpj7zK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:agile-windup]
 name: "Agile Windup"
 full-name: "Agile Windup (yellow)"
 color: yellow

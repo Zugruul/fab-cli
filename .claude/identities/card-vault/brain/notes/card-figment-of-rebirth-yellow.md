@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ThhTfhmkkjr6DJR8hwQjt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:figment-of-rebirth]
 name: "Figment of Rebirth"
 full-name: "Figment of Rebirth (yellow)"
 color: yellow

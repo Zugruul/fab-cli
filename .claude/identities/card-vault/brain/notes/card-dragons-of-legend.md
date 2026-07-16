@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nFBgGfC6HwTwNFCgmnCRn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dragons-of-legend]
 name: "Dragons of Legend"
 types: [Invocation, Placeholder Card]
 other-types: [Invocation, Placeholder Card]

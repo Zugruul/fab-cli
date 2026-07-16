@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dd7RLKpk8jcWcN8JdQQDW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:earths-embrace]
 name: "Earth's Embrace"
 full-name: "Earth's Embrace (blue)"
 color: blue

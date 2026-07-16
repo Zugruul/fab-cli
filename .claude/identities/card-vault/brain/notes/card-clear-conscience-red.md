@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JMb6zBb6gJ78bJnfCG8wp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clear-conscience]
 name: "Clear Conscience"
 full-name: "Clear Conscience (red)"
 color: red

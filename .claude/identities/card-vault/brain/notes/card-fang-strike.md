@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QqDQKkgCz9TM6HDgFkqcL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fang-strike]
 name: "Fang Strike"
 cost: 0
 classes: [Assassin]

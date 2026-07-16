@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zMbD7hqPwGNQCcDC6DPB9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hell-hammer]
 name: "Hell Hammer"
 power: 6
 classes: [Brute]

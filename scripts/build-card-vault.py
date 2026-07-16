@@ -36,6 +36,9 @@ import subprocess
 import sys
 import unicodedata
 
+from entity_index import is_fresh as entity_index_is_fresh
+from entity_index import regenerate as regenerate_entity_index_file
+
 ROLE = "card-vault"
 COLOR = {"1": "red", "2": "yellow", "3": "blue"}
 STOPWORDS = {"of", "the", "a", "an", "and", "to", "in", "on", "at", "for", "with", "from"}
@@ -173,6 +176,16 @@ def fm_list(vals):
     return "[" + ", ".join(str(v) for v in vals) + "]"
 
 
+def card_entity_key(slug):
+    """Pitch variants share the card note's name-level disambiguator."""
+    base = re.sub(r"-(red|yellow|blue)$", "", slug)
+    return "card:" + re.sub(r"^card-", "", base)
+
+
+def regenerate_entity_index():
+    return regenerate_entity_index_file(ROOT, {"card": ROLE, "keyword": ROLE})
+
+
 def build_note(c, slug, variants, lineage, kw_slugs, date):
     name = c["name"]
     pitch = c.get("pitch", "")
@@ -214,6 +227,7 @@ def build_note(c, slug, variants, lineage, kw_slugs, date):
           'source: "third_party/flesh-and-blood-cards json/english/card.json (uid %s) · https://cardvault.fabtcg.com/"' % c["unique_id"],
           "graduated: false",
           "created: %s" % date,
+          "entities: [%s]" % card_entity_key(slug),
           'name: "%s"' % name.replace('"', "'")]
     if color:
         fm.append('full-name: "%s"' % full_name.replace('"', "'"))
@@ -398,6 +412,7 @@ def cmd_build():
             os.remove(os.path.join(NOTES, f))
             removed += 1
     edges = write_links(all_links)
+    regenerate_entity_index()
     print("card-vault: %d notes written, %d unchanged, %d removed, %d link edge(s) added"
           % (written, unchanged, removed, edges))
     if unresolved:
@@ -415,6 +430,8 @@ def cmd_check():
             stale.append(slug)
     extra = [f[:-3] for f in os.listdir(NOTES)
              if f.startswith("card-") and f.endswith(".md") and f[:-3] not in notes]
+    if not entity_index_is_fresh(ROOT, {"card": ROLE, "keyword": ROLE}):
+        stale.append(".claude/identities/entity-index.json")
     if stale or extra:
         for s in stale[:20]:
             print("STALE %s" % s)

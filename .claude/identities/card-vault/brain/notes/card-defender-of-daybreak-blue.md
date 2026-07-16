@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DqhRkJzzzrN7jH9FbqmRn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:defender-of-daybreak]
 name: "Defender of Daybreak"
 full-name: "Defender of Daybreak (blue)"
 color: blue

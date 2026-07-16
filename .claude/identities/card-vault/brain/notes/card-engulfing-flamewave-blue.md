@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Jwckb9hTJd6N8jzmzf7LR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:engulfing-flamewave]
 name: "Engulfing Flamewave"
 full-name: "Engulfing Flamewave (blue)"
 color: blue

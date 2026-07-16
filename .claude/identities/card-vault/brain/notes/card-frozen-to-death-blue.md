@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f8tNHBndcKqGPGbhQNmWw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:frozen-to-death]
 name: "Frozen to Death"
 full-name: "Frozen to Death (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BwLkmCpwbHmgKTDdHThfG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:static-shelter]
 name: "Static Shelter"
 full-name: "Static Shelter (yellow)"
 color: yellow

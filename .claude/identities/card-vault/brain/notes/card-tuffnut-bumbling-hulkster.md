@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqmMJj8PqzNHg7Q7LMqTR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tuffnut-bumbling-hulkster]
 name: "Tuffnut, Bumbling Hulkster"
 health: 40
 intelligence: 3

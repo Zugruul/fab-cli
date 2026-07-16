@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rRHncwrCNq9TmTcndW8bq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pack-hunt]
 name: "Pack Hunt"
 full-name: "Pack Hunt (yellow)"
 color: yellow

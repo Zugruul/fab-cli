@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DFPwWqL9PCzLTKJjDzJzJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:brush-of-heavenly-rites]
 name: "Brush of Heavenly Rites"
 classes: [Adjudicator]
 types: [Weapon]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Mc6fWtzKjhpfgWd9h99nh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:avalon-archangel-of-rebirth]
 name: "Avalon, Archangel of Rebirth"
 power: 4
 health: 4

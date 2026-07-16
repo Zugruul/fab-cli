@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9hfD6tJzWCzbTMBnzgnBL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:avast-ye]
 name: "Avast Ye!"
 full-name: "Avast Ye! (blue)"
 color: blue

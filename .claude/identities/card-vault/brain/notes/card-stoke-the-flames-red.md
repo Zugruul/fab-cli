@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PbTTdKnFz9jptJ7WkbB6K) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stoke-the-flames]
 name: "Stoke the Flames"
 full-name: "Stoke the Flames (red)"
 color: red

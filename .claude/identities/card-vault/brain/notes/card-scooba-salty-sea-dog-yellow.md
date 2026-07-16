@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9PJ9CMqcgnDMFTR7WW8wq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scooba-salty-sea-dog]
 name: "Scooba, Salty Sea Dog"
 full-name: "Scooba, Salty Sea Dog (yellow)"
 color: yellow

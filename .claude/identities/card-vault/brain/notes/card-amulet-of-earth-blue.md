@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8PgrwjDp8NNrz9mDGDP8B) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-earth]
 name: "Amulet of Earth"
 full-name: "Amulet of Earth (blue)"
 color: blue

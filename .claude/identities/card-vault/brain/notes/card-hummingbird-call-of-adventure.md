@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mgrmPqRmdHfMbptFfDcbC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hummingbird-call-of-adventure]
 name: "Hummingbird, Call of Adventure"
 classes: [Bard]
 types: [Weapon]

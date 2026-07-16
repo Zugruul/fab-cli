@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rW8N7tr9TF98TM8fwMfJd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rippling-wave]
 name: "Rippling Wave"
 defense: 3
 talents: [Mystic]

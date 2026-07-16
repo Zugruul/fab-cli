@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pzRnkq7DmN7n6DhwpH7jL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:phoenix-bannerman-legs]
 name: "Phoenix Bannerman: Legs"
 full-name: "Phoenix Bannerman: Legs (red)"
 color: red

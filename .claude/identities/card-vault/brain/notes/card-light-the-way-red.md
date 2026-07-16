@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dJkTjzNPzkH9fc98PJdDk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:light-the-way]
 name: "Light the Way"
 full-name: "Light the Way (red)"
 color: red

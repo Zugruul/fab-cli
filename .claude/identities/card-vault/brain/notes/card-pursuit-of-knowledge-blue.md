@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PFbQN9BfpLzzgrmGMrBzb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pursuit-of-knowledge]
 name: "Pursuit of Knowledge"
 full-name: "Pursuit of Knowledge (blue)"
 color: blue

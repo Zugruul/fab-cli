@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FpzTKHqqhbqgK7zQkJtTk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deadly-display]
 name: "Deadly Display"
 full-name: "Deadly Display (blue)"
 color: blue

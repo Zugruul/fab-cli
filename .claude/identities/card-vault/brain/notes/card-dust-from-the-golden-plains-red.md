@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KfcLhpjL6Jc6Mr8WTQMdn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dust-from-the-golden-plains]
 name: "Dust from the Golden Plains"
 full-name: "Dust from the Golden Plains (red)"
 color: red

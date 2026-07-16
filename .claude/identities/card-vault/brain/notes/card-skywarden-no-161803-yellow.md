@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fpnNtrfNGgkh6jbnGzjkt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:skywarden-no-161803]
 name: "Skywarden no.161803"
 full-name: "Skywarden no.161803 (yellow)"
 color: yellow

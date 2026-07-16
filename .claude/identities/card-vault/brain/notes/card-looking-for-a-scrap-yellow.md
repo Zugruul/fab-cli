@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ntNzmrhJNcwpc9pbjbFmL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:looking-for-a-scrap]
 name: "Looking for a Scrap"
 full-name: "Looking for a Scrap (yellow)"
 color: yellow

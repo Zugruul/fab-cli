@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GpmN8jcWjbH7fMHd7hWjJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nasreth-the-soul-harrower]
 name: "Nasreth, the Soul Harrower"
 power: 6
 health: 6

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kn9MM8LWgKN9WdmCWJjWG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:critical-strike]
 name: "Critical Strike"
 full-name: "Critical Strike (yellow)"
 color: yellow

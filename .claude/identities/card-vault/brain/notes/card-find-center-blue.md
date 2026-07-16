@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PHz8kWCt6rw6Q6jMgbdQC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:find-center]
 name: "Find Center"
 full-name: "Find Center (blue)"
 color: blue

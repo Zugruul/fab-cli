@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Tn8F8pBjHjqW7rfPLw9Wg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plunge-the-prospect]
 name: "Plunge the Prospect"
 full-name: "Plunge the Prospect (red)"
 color: red

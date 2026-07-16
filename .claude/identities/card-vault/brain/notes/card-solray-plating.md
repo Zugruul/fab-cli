@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8PCQKGK7CgNzbdJfhrftK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:solray-plating]
 name: "Solray Plating"
 defense: 1
 talents: [Light]

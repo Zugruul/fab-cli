@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cTRTRcPz8fzHfqBjHQRH7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:weave-earth]
 name: "Weave Earth"
 full-name: "Weave Earth (red)"
 color: red

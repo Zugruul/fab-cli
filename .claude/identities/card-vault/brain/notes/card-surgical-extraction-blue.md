@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wkmf8d6QjLGFqWMF8bcw6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:surgical-extraction]
 name: "Surgical Extraction"
 full-name: "Surgical Extraction (blue)"
 color: blue

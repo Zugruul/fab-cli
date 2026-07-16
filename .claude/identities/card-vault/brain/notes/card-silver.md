@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TNJz9fCgqmhhLz9rP9tkt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:silver]
 name: "Silver"
 classes: [Generic]
 types: [Token]

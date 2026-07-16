@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bPKFtQtwzWcRjWkFwztdf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plan-for-the-worst]
 name: "Plan for the Worst"
 full-name: "Plan for the Worst (blue)"
 color: blue

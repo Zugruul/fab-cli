@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ng9LqqDzcwcTmQmDzWzjT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:graven-call]
 name: "Graven Call"
 power: 1
 classes: [Assassin]

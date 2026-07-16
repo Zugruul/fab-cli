@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GRJN6ctjz9wPmFn9K7WHn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:red-hot]
 name: "Red Hot"
 full-name: "Red Hot (red)"
 color: red

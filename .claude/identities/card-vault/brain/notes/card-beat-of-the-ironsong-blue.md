@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kGqgWbR9dbWjWQNC6JCCm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beat-of-the-ironsong]
 name: "Beat of the Ironsong"
 full-name: "Beat of the Ironsong (blue)"
 color: blue

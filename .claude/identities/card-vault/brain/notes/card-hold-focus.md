@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mTWd9JgNqM9bGj9H87Jpq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hold-focus]
 name: "Hold Focus"
 defense: 0
 classes: [Wizard]

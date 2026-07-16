@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gkBJQ6tmkftT69RrRPRJq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:topsy-turvy]
 name: "Topsy Turvy"
 defense: 0
 talents: [Chaos]

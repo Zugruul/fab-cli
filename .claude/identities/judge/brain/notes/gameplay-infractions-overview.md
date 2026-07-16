@@ -5,6 +5,8 @@ strength: 1
 source: "PPG §2"
 graduated: false
 created: 2026-07-10
+entities: [card:marked, card:rewind]
+
 ---
 
 Gameplay infractions violate the Comprehensive Rules and are assumed unintentional (intentional → Cheating, PPG §4.2) (PPG §2). Repeat rule: 3+ of the SAME gameplay infraction in a tournament DAY upgrades that infraction by one severity level (max Game Loss); resets daily. Exception: Failure to Maintain Game State never upgrades for repeats.

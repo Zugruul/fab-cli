@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7G8RpL8NqHQQH86gGbnwk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rise-up]
 name: "Rise Up"
 full-name: "Rise Up (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N8LcRHMmCMTbwRNRm9P7q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cut-to-the-chase]
 name: "Cut to the Chase"
 full-name: "Cut to the Chase (red)"
 color: red

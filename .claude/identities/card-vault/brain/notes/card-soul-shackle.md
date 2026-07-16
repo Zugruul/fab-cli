@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9F6H6kTdQdcHrDrRCDmLP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:soul-shackle]
 name: "Soul Shackle"
 classes: [Runeblade]
 talents: [Shadow]

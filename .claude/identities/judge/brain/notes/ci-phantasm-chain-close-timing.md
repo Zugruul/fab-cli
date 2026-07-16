@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.13a, 8.3.13b, 7.7.2c — third_party/fab-rules/en-fab-cr.txt; card: Coalescence Mirage (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:coalescence-mirage]
+
 ---
 
 **Coalescence Mirage** (Illusionist Action Attack): "Phantasm — When Coalescence Mirage is destroyed, you may put an Illusionist aura card with cost 0 from your hand into the arena." Phantasm (CR 8.3.13) itself means "Whenever this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this."

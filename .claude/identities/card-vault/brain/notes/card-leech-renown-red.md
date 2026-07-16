@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mHqPTDJhBrhWtLCrRBWbf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leech-renown]
 name: "Leech Renown"
 full-name: "Leech Renown (red)"
 color: red

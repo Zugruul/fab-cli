@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rcHhthcM7zrmd8nFWQtLz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-forethought]
 name: "Sigil of Forethought"
 full-name: "Sigil of Forethought (blue)"
 color: blue

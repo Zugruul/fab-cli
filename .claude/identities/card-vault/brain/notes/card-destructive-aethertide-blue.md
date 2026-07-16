@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B9gmDwNBCkqFHpWgJBmhq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:destructive-aethertide]
 name: "Destructive Aethertide"
 full-name: "Destructive Aethertide (blue)"
 color: blue

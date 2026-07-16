@@ -14,6 +14,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 
 def load_script(name):
     path = ROOT / "scripts" / name
+    sys.path.insert(0, str(path.parent))
     spec = importlib.util.spec_from_file_location(name.replace("-", "_"), path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -116,10 +117,7 @@ Art of Warfare is not the card name. Fyendal's Spring Tunic blocks one.
 
 class EntityIndexTests(unittest.TestCase):
     def test_regeneration_is_deterministic_and_symlinks_count_once(self):
-        plugin = os.environ.get("CLAUDE_PLUGIN_ROOT")
-        if not plugin:
-            self.skipTest("CLAUDE_PLUGIN_ROOT is required by the project gate")
-        brain = pathlib.Path(plugin) / "scripts" / "brain.py"
+        entity_index = load_script("entity_index.py")
         with tempfile.TemporaryDirectory() as td:
             root = pathlib.Path(td)
             (root / ".claude" / "identities" / "card-vault" / "brain" / "notes").mkdir(parents=True)
@@ -131,7 +129,7 @@ class EntityIndexTests(unittest.TestCase):
             home.write_text("---\nentities: [card:alpha]\n---\n")
             os.symlink(home, root / ".claude" / "identities" / "judge" / "brain" / "notes" / "card-alpha.md")
             for _ in range(2):
-                subprocess.run([sys.executable, str(brain), str(root), "entity-index"], check=True)
+                entity_index.regenerate(str(root), {"card": "card-vault"})
                 content = (root / ".claude" / "identities" / "entity-index.json").read_bytes()
                 if "first" in locals():
                     self.assertEqual(first, content)

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cCBDbFWGMWN7QgWFBznbw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blast-to-oblivion]
 name: "Blast to Oblivion"
 full-name: "Blast to Oblivion (blue)"
 color: blue

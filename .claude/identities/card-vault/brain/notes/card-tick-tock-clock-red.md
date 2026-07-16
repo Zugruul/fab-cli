@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hhfqThRH8RttBMmDMr7H6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tick-tock-clock]
 name: "Tick Tock Clock"
 full-name: "Tick Tock Clock (red)"
 color: red

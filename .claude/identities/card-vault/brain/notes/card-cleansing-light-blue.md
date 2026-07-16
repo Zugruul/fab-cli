@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HCKWqMfzpnwHL9rrPfKrF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cleansing-light]
 name: "Cleansing Light"
 full-name: "Cleansing Light (blue)"
 color: blue

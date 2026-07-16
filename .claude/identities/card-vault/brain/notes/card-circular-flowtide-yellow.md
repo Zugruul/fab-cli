@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FgRQdMbgkGgJ6RwGjwgHr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:circular-flowtide]
 name: "Circular Flowtide"
 full-name: "Circular Flowtide (yellow)"
 color: yellow

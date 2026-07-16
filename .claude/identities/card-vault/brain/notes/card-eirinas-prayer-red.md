@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6KnWFFJk9CkMRMMc8LJ8n) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:eirinas-prayer]
 name: "Eirina's Prayer"
 full-name: "Eirina's Prayer (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z8khMLCjBPBbkRRq6z8Nw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:battlefield-breaker]
 name: "Battlefield Breaker"
 full-name: "Battlefield Breaker (yellow)"
 color: yellow

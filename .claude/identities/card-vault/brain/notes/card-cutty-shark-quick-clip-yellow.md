@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zFb8FTK6fL7wtcRdcR8gj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cutty-shark-quick-clip]
 name: "Cutty Shark, Quick Clip"
 full-name: "Cutty Shark, Quick Clip (yellow)"
 color: yellow

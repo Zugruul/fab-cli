@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DL9MJCFT6dnwF6njTbWRR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:turn-the-crowd-grateful]
 name: "Turn the Crowd Grateful"
 full-name: "Turn the Crowd Grateful (yellow)"
 color: yellow

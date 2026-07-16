@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WGLcqWkRPGH7THqWjQzd7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:coalescence-mirage]
 name: "Coalescence Mirage"
 full-name: "Coalescence Mirage (blue)"
 color: blue

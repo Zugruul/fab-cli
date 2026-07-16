@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qqzmLCbJJ6nwQGtzrJMcL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:life-for-a-life]
 name: "Life for a Life"
 full-name: "Life for a Life (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KTd7wkMzdRch6J8zqtKGR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:unmake-the-underlings]
 name: "Unmake the Underlings"
 full-name: "Unmake the Underlings (blue)"
 color: blue

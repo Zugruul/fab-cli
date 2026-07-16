@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nTWKhGp7pwKwMmtFnB8hc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:golden-heart-plate]
 name: "Golden Heart Plate"
 defense: 2
 classes: [Warrior]

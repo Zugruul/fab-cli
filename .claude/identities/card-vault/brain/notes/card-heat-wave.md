@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Prkf9mwfBCbLDHncK6CPP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heat-wave]
 name: "Heat Wave"
 defense: 0
 classes: [Ninja]

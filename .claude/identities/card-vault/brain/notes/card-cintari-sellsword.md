@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CcGMKpDNfnzz8mKDqmqnc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cintari-sellsword]
 name: "Cintari Sellsword"
 power: 3
 health: 2

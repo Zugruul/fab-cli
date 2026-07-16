@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jrcdWNnMQCtrjQqKjd9Fw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:embodiment-of-earth]
 name: "Embodiment of Earth"
 talents: [Elemental]
 types: [Token]

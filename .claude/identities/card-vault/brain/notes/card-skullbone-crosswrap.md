@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pLT6mqkb86GG9jHh8kFRp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:skullbone-crosswrap]
 name: "Skullbone Crosswrap"
 defense: 1
 classes: [Ranger]

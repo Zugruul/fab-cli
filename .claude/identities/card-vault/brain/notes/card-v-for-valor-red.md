@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7cWwd7rnKPhmw7hTnTqKm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:v-for-valor]
 name: "V for Valor"
 full-name: "V for Valor (red)"
 color: red

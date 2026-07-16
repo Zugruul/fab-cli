@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9rcH7g9C8Gt8WbPHbPWg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arcane-polarity]
 name: "Arcane Polarity"
 full-name: "Arcane Polarity (red)"
 color: red

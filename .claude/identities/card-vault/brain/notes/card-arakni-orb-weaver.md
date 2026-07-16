@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hJDM6fWpRRf6jLqrW8KRr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arakni-orb-weaver]
 name: "Arakni, Orb-Weaver"
 health: *
 intelligence: 4

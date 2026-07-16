@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g89MkbrrTtJkGwFwDKpfB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rip-up-their-virtues]
 name: "Rip Up Their Virtues"
 full-name: "Rip Up Their Virtues (blue)"
 color: blue

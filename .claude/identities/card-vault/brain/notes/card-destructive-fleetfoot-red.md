@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q9GwnnJTPk9KpPNdpW6wL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:destructive-fleetfoot]
 name: "Destructive Fleetfoot"
 full-name: "Destructive Fleetfoot (red)"
 color: red

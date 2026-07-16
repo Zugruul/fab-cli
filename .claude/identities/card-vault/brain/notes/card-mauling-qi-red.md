@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Dg8tJh9RNQKhFWfqd8qDT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mauling-qi]
 name: "Mauling Qi"
 full-name: "Mauling Qi (red)"
 color: red

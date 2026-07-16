@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid njTt7R6g7QzNHm96wQQDb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:graveling-growl]
 name: "Graveling Growl"
 full-name: "Graveling Growl (blue)"
 color: blue

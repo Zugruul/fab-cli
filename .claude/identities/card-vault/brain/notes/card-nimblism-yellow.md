@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M6j9KrDRqMMHwGqw9QLKz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nimblism]
 name: "Nimblism"
 full-name: "Nimblism (yellow)"
 color: yellow

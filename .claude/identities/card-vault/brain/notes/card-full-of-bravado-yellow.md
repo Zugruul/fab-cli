@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NzMLbBFDbWCrRWKbddqGb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:full-of-bravado]
 name: "Full of Bravado"
 full-name: "Full of Bravado (yellow)"
 color: yellow

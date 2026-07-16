@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdpKjkTrwkF8rBrG8pCTd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:twintek-charging-station]
 name: "Twintek Charging Station"
 full-name: "Twintek Charging Station (red)"
 color: red

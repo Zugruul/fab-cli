@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ngDCfBTHCC9RGG6mQFcQp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rifting]
 name: "Rifting"
 full-name: "Rifting (yellow)"
 color: yellow

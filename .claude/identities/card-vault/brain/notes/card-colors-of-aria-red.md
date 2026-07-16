@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CQkQQG8z8z8kQLNm8PHDM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:colors-of-aria]
 name: "Colors of Aria"
 full-name: "Colors of Aria (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cKBWfJd9ttcpKtGrbCJTG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:power-of-make-believe]
 name: "Power of Make Believe"
 full-name: "Power of Make Believe (red)"
 color: red

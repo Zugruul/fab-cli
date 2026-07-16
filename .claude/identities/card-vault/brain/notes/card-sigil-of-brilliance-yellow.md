@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HnMKfF8fQMj9KJfhGBkdG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-brilliance]
 name: "Sigil of Brilliance"
 full-name: "Sigil of Brilliance (yellow)"
 color: yellow

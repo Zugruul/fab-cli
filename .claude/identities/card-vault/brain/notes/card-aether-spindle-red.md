@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hwTCzg9hgmBpj86czpKMq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-spindle]
 name: "Aether Spindle"
 full-name: "Aether Spindle (red)"
 color: red

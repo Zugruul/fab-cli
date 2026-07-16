@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77rDjRrtRKDHTpNwbHWDW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hold-the-line]
 name: "Hold the Line"
 full-name: "Hold the Line (blue)"
 color: blue

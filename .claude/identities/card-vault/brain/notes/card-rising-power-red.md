@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HNT9PzL7tQJdKdKP8fNRz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rising-power]
 name: "Rising Power"
 full-name: "Rising Power (red)"
 color: red

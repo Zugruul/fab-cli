@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fQW6hh8zJtbjJrQMzjkpD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rattle-bones]
 name: "Rattle Bones"
 full-name: "Rattle Bones (red)"
 color: red

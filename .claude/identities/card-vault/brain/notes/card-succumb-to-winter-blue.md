@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid R9Q7mwDPBhRhhgRbtC6dD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:succumb-to-winter]
 name: "Succumb to Winter"
 full-name: "Succumb to Winter (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zt8NGKPrTHDJ8pDrDdJgw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:test-of-vigor]
 name: "Test of Vigor"
 full-name: "Test of Vigor (red)"
 color: red

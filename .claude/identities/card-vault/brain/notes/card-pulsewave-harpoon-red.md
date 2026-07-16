@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RhmtDg8Qcz8wtFLFQLh98) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pulsewave-harpoon]
 name: "Pulsewave Harpoon"
 full-name: "Pulsewave Harpoon (red)"
 color: red

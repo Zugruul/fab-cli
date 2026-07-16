@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jHHWGcnRpjzF8NMMKmdfF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:victor-goldmane-match-fixer]
 name: "Victor Goldmane, Match Fixer"
 health: 20
 intelligence: 4

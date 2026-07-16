@@ -5,6 +5,8 @@ strength: 1
 source: "PPG §1.3"
 graduated: false
 created: 2026-07-10
+entities: [card:rewind]
+
 ---
 
 Procedures restore game-state integrity; use only ones relevant to the infraction — never an irrelevant procedure as a de-facto penalty (PPG §1.3). The toolkit:

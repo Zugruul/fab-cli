@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FhzPFCDrDhK8QbjFRfHLk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:figment-of-protection]
 name: "Figment of Protection"
 full-name: "Figment of Protection (yellow)"
 color: yellow

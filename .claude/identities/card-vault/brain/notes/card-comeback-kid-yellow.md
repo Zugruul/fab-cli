@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gzJRqKbNJcdhdrHTjDRfn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:comeback-kid]
 name: "Comeback Kid"
 full-name: "Comeback Kid (yellow)"
 color: yellow

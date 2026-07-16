@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid N6FgtcT8gMP7PMj7hCkgP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:canopy-shelter]
 name: "Canopy Shelter"
 full-name: "Canopy Shelter (blue)"
 color: blue

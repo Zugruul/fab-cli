@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jqRDtJRT9rF7rwC6pdfJD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:searing-emberblade]
 name: "Searing Emberblade"
 power: 3
 classes: [Ninja]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rBJ7nHKTc9W6d6P8hK7BQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:burly-bones]
 name: "Burly Bones"
 full-name: "Burly Bones (yellow)"
 color: yellow

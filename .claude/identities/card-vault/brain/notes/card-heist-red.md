@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NmRw7kHM96FTDqDF69qJ9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heist]
 name: "Heist"
 full-name: "Heist (red)"
 color: red

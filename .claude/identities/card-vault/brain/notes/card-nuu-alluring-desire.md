@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MghLPDjq8CfBJ8RzNc7Ft) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nuu-alluring-desire]
 name: "Nuu, Alluring Desire"
 health: 40
 intelligence: 4

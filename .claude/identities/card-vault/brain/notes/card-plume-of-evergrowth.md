@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CRDtq9LpbDjKKbCkfcC7H) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:plume-of-evergrowth]
 name: "Plume of Evergrowth"
 defense: 0
 talents: [Earth]

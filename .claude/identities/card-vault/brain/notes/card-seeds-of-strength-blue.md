@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BWnMgK7JcL6p9NDrQJMW7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seeds-of-strength]
 name: "Seeds of Strength"
 full-name: "Seeds of Strength (blue)"
 color: blue

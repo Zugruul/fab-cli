@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qFzrQChhnbgNcnQ7d9tKW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:power-stance]
 name: "Power Stance"
 full-name: "Power Stance (blue)"
 color: blue

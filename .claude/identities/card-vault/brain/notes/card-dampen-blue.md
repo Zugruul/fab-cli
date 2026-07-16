@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jR6fBL9G8hzwjFpmbLdwW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dampen]
 name: "Dampen"
 full-name: "Dampen (blue)"
 color: blue

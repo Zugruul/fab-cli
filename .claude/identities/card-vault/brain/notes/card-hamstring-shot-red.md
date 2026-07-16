@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9kGkjgLHrhWqGFhfh9h8f) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hamstring-shot]
 name: "Hamstring Shot"
 full-name: "Hamstring Shot (red)"
 color: red

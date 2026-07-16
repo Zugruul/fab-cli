@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HMFLP9L76wCJBGGhBKChT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spring-tidings]
 name: "Spring Tidings"
 full-name: "Spring Tidings (yellow)"
 color: yellow

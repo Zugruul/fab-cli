@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gdK9Qh67JW8FkFB6MWPrC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:earthlore-empowerment]
 name: "Earthlore Empowerment"
 full-name: "Earthlore Empowerment (yellow)"
 color: yellow

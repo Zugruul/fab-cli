@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cQbwHf7HLrPGwPhCw88mq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flash]
 name: "Flash"
 full-name: "Flash (red)"
 color: red

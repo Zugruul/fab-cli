@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nqzb8D8Kkdw8pjk9R9Wb7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ravenous-rabble]
 name: "Ravenous Rabble"
 full-name: "Ravenous Rabble (yellow)"
 color: yellow

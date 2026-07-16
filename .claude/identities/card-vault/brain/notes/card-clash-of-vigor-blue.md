@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBjNr7MRTR6L7LMKT8j9d) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clash-of-vigor]
 name: "Clash of Vigor"
 full-name: "Clash of Vigor (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QrKGJL7bHCFKbr9N9MNpm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ser-boltyn-breaker-of-dawn]
 name: "Ser Boltyn, Breaker of Dawn"
 health: 40
 intelligence: 4

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LPkdwMCjwHHMC6wkHCbRb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-ignition]
 name: "Amulet of Ignition"
 full-name: "Amulet of Ignition (yellow)"
 color: yellow

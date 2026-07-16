@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHB7WdBLKPhLTzJHTWJQq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:imperial-seal-of-command]
 name: "Imperial Seal of Command"
 full-name: "Imperial Seal of Command (red)"
 color: red

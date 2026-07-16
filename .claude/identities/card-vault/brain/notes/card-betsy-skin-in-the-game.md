@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7WjNjrtmfKdLfqPLWDHw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:betsy-skin-in-the-game]
 name: "Betsy, Skin in the Game"
 health: 40
 intelligence: 4

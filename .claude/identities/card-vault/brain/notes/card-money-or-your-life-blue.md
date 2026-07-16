@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FG8PKbFmKK7Tgck8BjrdW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:money-or-your-life]
 name: "Money or Your Life?"
 full-name: "Money or Your Life? (blue)"
 color: blue

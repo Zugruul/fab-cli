@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CcjWGnThrTmTQFQ9zHMN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dash-inventor-extraordinaire]
 name: "Dash, Inventor Extraordinaire"
 health: 40
 intelligence: 4

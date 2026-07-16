@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLLHrD676q8LL6ngKMb6c) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oasis-respite]
 name: "Oasis Respite"
 full-name: "Oasis Respite (yellow)"
 color: yellow

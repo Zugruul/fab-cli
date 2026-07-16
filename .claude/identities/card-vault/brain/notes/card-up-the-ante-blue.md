@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W7QPrj9bzNgddWCCFFCRw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:up-the-ante]
 name: "Up the Ante"
 full-name: "Up the Ante (blue)"
 color: blue

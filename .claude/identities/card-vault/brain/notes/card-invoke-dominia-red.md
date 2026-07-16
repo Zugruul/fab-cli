@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wjwFgpKPTgkKNGgr8Q7JK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:invoke-dominia]
 name: "Invoke Dominia"
 full-name: "Invoke Dominia (red)"
 color: red

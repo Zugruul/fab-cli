@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QLkz9dFQmJGnCtCRLJ9QC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bellona-archangel-of-war]
 name: "Bellona, Archangel of War"
 power: 4
 health: 4

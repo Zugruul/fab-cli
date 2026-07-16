@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zFJbjDkLPqmCzQFwjtdFc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:emissary-of-tides]
 name: "Emissary of Tides"
 full-name: "Emissary of Tides (red)"
 color: red

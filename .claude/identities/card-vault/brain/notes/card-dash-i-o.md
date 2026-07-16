@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LkqQpr7QL8KpnqMh7dHpR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dash-i-o]
 name: "Dash I/O"
 health: 36
 intelligence: 4

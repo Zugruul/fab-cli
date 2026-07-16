@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid n6fRnMQh7NKBzqLKMMK68) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:visit-goldmane-estate]
 name: "Visit Goldmane Estate"
 full-name: "Visit Goldmane Estate (blue)"
 color: blue

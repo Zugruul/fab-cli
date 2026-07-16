@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TCdgGPCgzDgGCJrwQgdpF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:constella-flowslide]
 name: "Constella Flowslide"
 full-name: "Constella Flowslide (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m6KTfwtJkzqRLKFtMFjBn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bequest-the-vast-beyond]
 name: "Bequest the Vast Beyond"
 full-name: "Bequest the Vast Beyond (red)"
 color: red

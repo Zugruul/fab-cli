@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QCKRPnMGTCBhwWKN68hmr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drag-down]
 name: "Drag Down"
 full-name: "Drag Down (blue)"
 color: blue

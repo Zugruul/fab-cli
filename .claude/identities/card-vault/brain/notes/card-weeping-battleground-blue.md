@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid m7p7hTRTHwWpBMrpW7HzD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:weeping-battleground]
 name: "Weeping Battleground"
 full-name: "Weeping Battleground (blue)"
 color: blue

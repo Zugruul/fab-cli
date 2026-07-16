@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TbNWLjgL9QKkCMf7FJR6p) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hanabi-blaster]
 name: "Hanabi Blaster"
 power: 5
 classes: [Mechanologist]

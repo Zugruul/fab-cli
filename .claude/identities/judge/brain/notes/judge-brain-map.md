@@ -5,6 +5,8 @@ strength: 1
 source: "TRP/PPG/CR/Casual (rules.fabtcg.com/txt/latest, docs dated 2026-06-10; Casual Guide 2023-10-13)"
 graduated: false
 created: 2026-07-10
+entities: [card:index]
+
 ---
 
 Hub for the JUDGE brain: adjudicating and running Flesh and Blood (FAB) tournaments. FAB ONLY — never import terms or policy from any other card game.

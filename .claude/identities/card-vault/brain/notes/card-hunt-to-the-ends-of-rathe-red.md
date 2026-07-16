@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zTPFF6jKhBgqGLpjtFrGG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hunt-to-the-ends-of-rathe]
 name: "Hunt to the Ends of Rathe"
 full-name: "Hunt to the Ends of Rathe (red)"
 color: red

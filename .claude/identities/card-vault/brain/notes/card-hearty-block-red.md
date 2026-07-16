@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8KcHGzJF7JBb67qmjgNMb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hearty-block]
 name: "Hearty Block"
 full-name: "Hearty Block (red)"
 color: red

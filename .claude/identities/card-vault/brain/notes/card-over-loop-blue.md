@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CMTbqWQL99gDnd8L7tthp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:over-loop]
 name: "Over Loop"
 full-name: "Over Loop (blue)"
 color: blue

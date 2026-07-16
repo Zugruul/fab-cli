@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KkWg6P8mDbHM8thqtMJqQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:convulsions-from-the-bellows-of-hell]
 name: "Convulsions from the Bellows of Hell"
 full-name: "Convulsions from the Bellows of Hell (red)"
 color: red

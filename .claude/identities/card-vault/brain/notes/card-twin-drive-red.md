@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BB6TLbtFwBCqtH7H7wBjj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:twin-drive]
 name: "Twin Drive"
 full-name: "Twin Drive (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tpMDpBjtFznFdgjFtnqQf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shift-the-tide-of-battle]
 name: "Shift the Tide of Battle"
 full-name: "Shift the Tide of Battle (yellow)"
 color: yellow

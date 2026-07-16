@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MNwTgMKtfwcbBTGTLCbzt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:induction-chamber]
 name: "Induction Chamber"
 full-name: "Induction Chamber (red)"
 color: red

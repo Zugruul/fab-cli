@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTNzqJLcQhkLkhBwKrpBQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:harmonized-kodachi]
 name: "Harmonized Kodachi"
 power: 1
 classes: [Ninja]

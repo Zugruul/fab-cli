@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CkHnpRcfgkcrmJqTpDztp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:disenchantment-of-the-old-ones]
 name: "Disenchantment of the Old Ones"
 full-name: "Disenchantment of the Old Ones (red)"
 color: red

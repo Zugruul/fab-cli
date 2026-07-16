@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QLFBGCzhjCqFKrPBn7GFN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:invoke-miragai]
 name: "Invoke Miragai"
 full-name: "Invoke Miragai (red)"
 color: red

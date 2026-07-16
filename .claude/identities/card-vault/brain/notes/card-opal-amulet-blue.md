@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rdG6zR6dgDWwzw9KKtq78) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:opal-amulet]
 name: "Opal Amulet"
 full-name: "Opal Amulet (blue)"
 color: blue

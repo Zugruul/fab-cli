@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kftw7pDQ88fzDgWpHJpWk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-aether]
 name: "Blessing of Aether"
 full-name: "Blessing of Aether (yellow)"
 color: yellow

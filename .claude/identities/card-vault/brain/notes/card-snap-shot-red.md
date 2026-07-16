@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rqcn9Q6JDG6FRCrpt9tb7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:snap-shot]
 name: "Snap Shot"
 full-name: "Snap Shot (red)"
 color: red

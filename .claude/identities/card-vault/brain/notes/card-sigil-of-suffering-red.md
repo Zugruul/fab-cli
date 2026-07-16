@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MQcG9F7KTH7wBznwbDGc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-suffering]
 name: "Sigil of Suffering"
 full-name: "Sigil of Suffering (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LjJ9tpDPzKQ8P68jQp7jF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gauntlets-of-unity]
 name: "Gauntlets of Unity"
 defense: 1
 classes: [Warrior]

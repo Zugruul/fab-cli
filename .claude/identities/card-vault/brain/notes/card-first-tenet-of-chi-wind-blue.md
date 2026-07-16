@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tCjqz6rHFKTmDpDkfHmzm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:first-tenet-of-chi-wind]
 name: "First Tenet of Chi: Wind"
 full-name: "First Tenet of Chi: Wind (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cdb8cTqP9MRgwqr7Q6rHQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sacred-art-immortal-lunar-shrine]
 name: "Sacred Art: Immortal Lunar Shrine"
 full-name: "Sacred Art: Immortal Lunar Shrine (blue)"
 color: blue

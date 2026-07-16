@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zzWc8BBmC9T6bfQwDMBPH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runehold-release]
 name: "Runehold Release"
 defense: 0
 classes: [Runeblade]

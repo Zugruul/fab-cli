@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KPm87t9nFjpM9jzrM7hzp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:enigma-chimera]
 name: "Enigma Chimera"
 full-name: "Enigma Chimera (red)"
 color: red

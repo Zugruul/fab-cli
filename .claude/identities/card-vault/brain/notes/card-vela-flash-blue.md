@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KW9mBkBhNqKJMLf6TkNpg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vela-flash]
 name: "Vela Flash"
 full-name: "Vela Flash (blue)"
 color: blue

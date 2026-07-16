@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7p9qhCT76DDh6MQ9zFDwK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hms-kraken]
 name: "HMS Kraken"
 full-name: "HMS Kraken (yellow)"
 color: yellow

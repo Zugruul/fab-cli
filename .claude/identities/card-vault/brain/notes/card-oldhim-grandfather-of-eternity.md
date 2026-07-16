@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bh96L8jp69mNpjcGRCDbj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oldhim-grandfather-of-eternity]
 name: "Oldhim, Grandfather of Eternity"
 health: 40
 intelligence: 4

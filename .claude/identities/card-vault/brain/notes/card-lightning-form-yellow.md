@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qkQLJNc7RM6LcztMdbrfz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lightning-form]
 name: "Lightning Form"
 full-name: "Lightning Form (yellow)"
 color: yellow

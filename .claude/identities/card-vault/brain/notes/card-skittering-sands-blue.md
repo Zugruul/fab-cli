@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q7JLckkNhtBmRQBKRqnJM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:skittering-sands]
 name: "Skittering Sands"
 full-name: "Skittering Sands (blue)"
 color: blue

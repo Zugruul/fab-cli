@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qBMWrpjH8JGrk6Tw7FrHL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sunkwater-pincers]
 name: "Sunkwater Pincers"
 defense: 0
 classes: [Generic]

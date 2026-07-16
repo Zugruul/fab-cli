@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8bF9mGkJwTtDczM9KNtpL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seeping-shadows]
 name: "Seeping Shadows"
 full-name: "Seeping Shadows (yellow)"
 color: yellow

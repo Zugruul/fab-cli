@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fdPTtmjCBrQLfrMFNQb6P) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reapers-call]
 name: "Reaper's Call"
 full-name: "Reaper's Call (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QBwMd7jJGmz7cFKLRDjHd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:test-of-might]
 name: "Test of Might"
 full-name: "Test of Might (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NzNjkqqJgrbPbJpWQ8RWp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:snow-under]
 name: "Snow Under"
 full-name: "Snow Under (blue)"
 color: blue

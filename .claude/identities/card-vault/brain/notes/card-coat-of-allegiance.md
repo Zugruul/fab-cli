@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FdMpkDBJtRgkrP6zK6rfQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:coat-of-allegiance]
 name: "Coat of Allegiance"
 defense: 0
 talents: [Draconic]

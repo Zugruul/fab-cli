@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gggJzRrtDDmNMKht6Whk7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:polished-blade]
 name: "Polished Blade"
 full-name: "Polished Blade (red)"
 color: red

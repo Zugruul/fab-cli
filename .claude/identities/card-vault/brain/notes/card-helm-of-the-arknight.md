@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ffLDbK7CGgrjL7R68jKJC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-the-arknight]
 name: "Helm of the Arknight"
 defense: 2
 classes: [Runeblade]

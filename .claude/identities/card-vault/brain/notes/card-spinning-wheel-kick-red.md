@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8w9NwkkKWrtCGbmBBcfJR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spinning-wheel-kick]
 name: "Spinning Wheel Kick"
 full-name: "Spinning Wheel Kick (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tqL9KdjgkjfnQ98H97dJw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amethyst-tiara]
 name: "Amethyst Tiara"
 defense: 1
 classes: [Runeblade]

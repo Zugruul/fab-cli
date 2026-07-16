@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mpzTpgpKkq6TDRT8JK7fF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:enflame-the-firebrand]
 name: "Enflame the Firebrand"
 full-name: "Enflame the Firebrand (red)"
 color: red

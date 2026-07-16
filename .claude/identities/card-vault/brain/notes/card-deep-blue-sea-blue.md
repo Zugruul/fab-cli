@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rkfqjFKJHdtqRLKJwgQNG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deep-blue-sea]
 name: "Deep Blue Sea"
 full-name: "Deep Blue Sea (blue)"
 color: blue

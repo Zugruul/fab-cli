@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWDdwtBckLgb6gR6KqnD9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:paragon-plate]
 name: "Paragon Plate"
 defense: 2
 classes: [Warrior]

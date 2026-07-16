@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CHNL9gtPrf8NhTwLWjT6w) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gauntlet-of-might]
 name: "Gauntlet of Might"
 defense: 1
 classes: [Brute, Guardian]

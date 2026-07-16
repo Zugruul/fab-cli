@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CKFCLPKmb6nMQW9Jqjdz8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:graphene-chelicera]
 name: "Graphene Chelicera"
 power: 1
 classes: [Assassin]

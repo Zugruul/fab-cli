@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mtdP6wgpMpd6LJbpJ79TM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vow-of-vengeance]
 name: "Vow of Vengeance"
 defense: 1
 talents: [Draconic]

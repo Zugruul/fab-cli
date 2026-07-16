@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mp8HwB7fRRz7wK9fRrTmw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lightning-overload]
 name: "Lightning Overload"
 full-name: "Lightning Overload (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wKRRTFLrpKDJRLQTnb7Ld) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:daily-grind]
 name: "Daily Grind"
 full-name: "Daily Grind (blue)"
 color: blue

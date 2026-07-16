@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7rnnDLtmFtcWqz6nC8J9M) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bash-brute]
 name: "Bash Brute"
 full-name: "Bash Brute (red)"
 color: red

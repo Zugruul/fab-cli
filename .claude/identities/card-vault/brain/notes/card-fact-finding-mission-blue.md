@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tgTDwMGbBwknnTNjTTKJJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fact-finding-mission]
 name: "Fact-Finding Mission"
 full-name: "Fact-Finding Mission (blue)"
 color: blue

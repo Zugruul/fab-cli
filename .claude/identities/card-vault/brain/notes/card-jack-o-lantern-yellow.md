@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KmMWLT6fF88QdfKTJ9GFf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jack-o-lantern]
 name: "Jack-o'-lantern"
 full-name: "Jack-o'-lantern (yellow)"
 color: yellow

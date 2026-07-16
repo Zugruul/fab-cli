@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fwLrdwk7MMpphzHTLPCNK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:catch-of-the-day]
 name: "Catch of the Day"
 full-name: "Catch of the Day (blue)"
 color: blue

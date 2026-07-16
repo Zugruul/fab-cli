@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JpTPzw6fB8bK6JjRpTmPC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:just-a-nick]
 name: "Just a Nick"
 full-name: "Just a Nick (red)"
 color: red

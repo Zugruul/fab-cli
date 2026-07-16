@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nPNcp7BDrghp6dLPfHnNp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:proclamation-of-requisition]
 name: "Proclamation of Requisition"
 classes: [Adjudicator]
 types: [Equipment]

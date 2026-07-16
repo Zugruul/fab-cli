@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W9B6LwPdtKknpqJ8bKfMr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:payload]
 name: "Payload"
 full-name: "Payload (blue)"
 color: blue

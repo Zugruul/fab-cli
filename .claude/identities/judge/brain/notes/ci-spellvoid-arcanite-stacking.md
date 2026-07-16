@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.15, 8.3.15a — third_party/fab-rules/en-fab-cr.txt; cards: Arcanite Fortress, Claw of Vynserakai (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:arcanite-fortress, card:claw-of-vynserakai, card:vynserakai]
+
 ---
 
 **Arcanite Fortress** (Generic Equipment Chest): "This card's {d} is equal to the number of equipment you control with Arcanite in their name. Spellvoid X, where X is the number of equipment you control with Arcanite in their name." **Claw of Vynserakai** (Draconic Weapon Dagger 1H) separately carries Spellvoid 1. Spellvoid (CR 8.3.15): "If you would be dealt arcane damage, you may destroy this to prevent N of that damage." CR 8.3.15a: "If the controlling player cannot destroy the object with Spellvoid, they cannot apply the optional prevention effect."

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WpmPhMcL97wRCPfz8nzgR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leave-a-dent]
 name: "Leave a Dent"
 full-name: "Leave a Dent (blue)"
 color: blue

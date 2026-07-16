@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QhRMMbB6zPRzJJk7hJQwj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:the-old-switcheroo]
 name: "The Old Switcheroo"
 full-name: "The Old Switcheroo (blue)"
 color: blue

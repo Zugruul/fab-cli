@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PnnF9jgBnbK7W67t7KrHG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:haven-veil]
 name: "Haven Veil"
 full-name: "Haven Veil (red)"
 color: red

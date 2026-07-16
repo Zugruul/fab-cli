@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mQTLKRNWqhbJRtNNdWHHj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:zealous-belting]
 name: "Zealous Belting"
 full-name: "Zealous Belting (red)"
 color: red

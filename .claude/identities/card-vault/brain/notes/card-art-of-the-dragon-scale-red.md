@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cNjtmFrD8bMPtTfgzmcJf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:art-of-the-dragon-scale]
 name: "Art of the Dragon: Scale"
 full-name: "Art of the Dragon: Scale (red)"
 color: red

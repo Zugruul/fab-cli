@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bndJRd9j7KdFrzkwKngmJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bonds-of-memory]
 name: "Bonds of Memory"
 full-name: "Bonds of Memory (red)"
 color: red

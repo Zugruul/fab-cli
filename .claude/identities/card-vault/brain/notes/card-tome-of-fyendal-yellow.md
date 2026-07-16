@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nbKRgzWzF87HzTG8TWMBw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tome-of-fyendal]
 name: "Tome of Fyendal"
 full-name: "Tome of Fyendal (yellow)"
 color: yellow

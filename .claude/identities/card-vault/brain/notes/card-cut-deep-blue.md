@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Kn7f7Dn6KnfF7JW8TMnLz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cut-deep]
 name: "Cut Deep"
 full-name: "Cut Deep (blue)"
 color: blue

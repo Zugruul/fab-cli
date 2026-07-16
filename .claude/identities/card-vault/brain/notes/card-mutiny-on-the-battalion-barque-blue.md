@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6TFrJmTqf9DjPmgPrmd8m) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mutiny-on-the-battalion-barque]
 name: "Mutiny on the Battalion Barque"
 full-name: "Mutiny on the Battalion Barque (blue)"
 color: blue

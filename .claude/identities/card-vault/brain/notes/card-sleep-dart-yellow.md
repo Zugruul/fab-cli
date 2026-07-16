@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wJ9r77rRnPFfdMmLWzHH7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sleep-dart]
 name: "Sleep Dart"
 full-name: "Sleep Dart (yellow)"
 color: yellow

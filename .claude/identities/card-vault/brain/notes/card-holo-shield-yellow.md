@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gQbKw7QPrQtQ7TTKDfLbb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:holo-shield]
 name: "Holo Shield"
 full-name: "Holo Shield (yellow)"
 color: yellow

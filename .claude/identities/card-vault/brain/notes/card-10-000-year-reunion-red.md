@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FM9T9Dg8bj9h9MW7k9HCQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:10-000-year-reunion]
 name: "10,000 Year Reunion"
 full-name: "10,000 Year Reunion (red)"
 color: red

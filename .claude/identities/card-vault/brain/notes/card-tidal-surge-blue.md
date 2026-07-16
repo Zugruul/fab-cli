@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLbkgfKHC7bFpQhKbNdCw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tidal-surge]
 name: "Tidal Surge"
 full-name: "Tidal Surge (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WDqWgDfRpTjWdMdTMM666) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bare-fangs]
 name: "Bare Fangs"
 full-name: "Bare Fangs (red)"
 color: red

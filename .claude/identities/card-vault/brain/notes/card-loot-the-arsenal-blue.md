@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lz787nr8ndnM9BrnPtjDC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:loot-the-arsenal]
 name: "Loot the Arsenal"
 full-name: "Loot the Arsenal (blue)"
 color: blue

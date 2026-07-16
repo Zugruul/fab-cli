@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid f68hNDr6wCPfJ9c9b7Lqf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mocking-blow]
 name: "Mocking Blow"
 full-name: "Mocking Blow (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9b7hjHNnGDBkfL8jL89bf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:coronet-peak]
 name: "Coronet Peak"
 defense: 2
 talents: [Ice]

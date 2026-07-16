@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kcf6QQMkQC8Mw9DBk78KN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kunai-of-retribution]
 name: "Kunai of Retribution"
 power: 1
 classes: [Ninja]

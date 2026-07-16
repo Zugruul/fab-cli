@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BNbrWmM6dzGqMfrLHtbQh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:imperial-ledger]
 name: "Imperial Ledger"
 full-name: "Imperial Ledger (red)"
 color: red

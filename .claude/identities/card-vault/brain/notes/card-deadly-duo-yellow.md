@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid q6DTC9d8krW76gpTCpfmg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:deadly-duo]
 name: "Deadly Duo"
 full-name: "Deadly Duo (yellow)"
 color: yellow

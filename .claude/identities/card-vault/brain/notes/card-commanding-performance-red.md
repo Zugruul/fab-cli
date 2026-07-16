@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 89mKDmGqtctqmbdpthJhz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:commanding-performance]
 name: "Commanding Performance"
 full-name: "Commanding Performance (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wG6tBGKr7rb6TCjP7bBDC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clash-of-mountains]
 name: "Clash of Mountains"
 full-name: "Clash of Mountains (blue)"
 color: blue

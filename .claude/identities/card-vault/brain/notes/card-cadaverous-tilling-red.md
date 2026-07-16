@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMFB7HjQfN9L7hp7dLqhN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cadaverous-tilling]
 name: "Cadaverous Tilling"
 full-name: "Cadaverous Tilling (red)"
 color: red

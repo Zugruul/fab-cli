@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6fz9gMGF7DDJWfj7D6Wp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rage-baiters]
 name: "Rage Baiters"
 defense: 1
 classes: [Assassin]

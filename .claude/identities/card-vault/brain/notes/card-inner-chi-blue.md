@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FRTnBzBCRC7TbNhdKLWqW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:inner-chi]
 name: "Inner Chi"
 full-name: "Inner Chi (blue)"
 color: blue

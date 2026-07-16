@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mjFjGKmpGbTCnrJR6fN79) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:construct-nitro-mechanoid]
 name: "Construct Nitro Mechanoid"
 full-name: "Construct Nitro Mechanoid (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7kmnQ69hTHJcPwTPWNwmz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sense-weakness]
 name: "Sense Weakness"
 full-name: "Sense Weakness (blue)"
 color: blue

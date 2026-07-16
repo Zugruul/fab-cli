@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qLMgQQ8rj8fBDQQLjLMDJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dauntless]
 name: "Dauntless"
 full-name: "Dauntless (blue)"
 color: blue

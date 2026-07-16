@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LHBn8grtppJpC8gBmzfrd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:teklo-base-chest]
 name: "Teklo Base Chest"
 defense: 1
 classes: [Mechanologist]

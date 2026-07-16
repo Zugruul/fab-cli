@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7TWGJzNdq8bQ7Rr8LWmdn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jaws-of-victory]
 name: "Jaws of Victory"
 full-name: "Jaws of Victory (red)"
 color: red

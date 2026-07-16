@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRnmhw6LKLJCh9MqM8RPq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pound-of-flesh]
 name: "Pound of Flesh"
 full-name: "Pound of Flesh (blue)"
 color: blue

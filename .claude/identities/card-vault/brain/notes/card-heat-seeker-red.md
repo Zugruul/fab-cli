@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid H6KCbhR6jqrLJnhjM8GPN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heat-seeker]
 name: "Heat Seeker"
 full-name: "Heat Seeker (red)"
 color: red

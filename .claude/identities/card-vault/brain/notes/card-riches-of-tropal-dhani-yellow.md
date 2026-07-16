@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TwgRkcgHd9bW9Fb8JjwdF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:riches-of-tropal-dhani]
 name: "Riches of Trōpal-Dhani"
 full-name: "Riches of Trōpal-Dhani (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zCRpPtm9BTfzBJFNkdpNw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hexagore-the-death-hydra]
 name: "Hexagore, the Death Hydra"
 power: 6
 classes: [Brute]

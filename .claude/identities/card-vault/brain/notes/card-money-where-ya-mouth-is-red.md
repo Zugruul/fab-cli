@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7mgnPjCmmLc9K9WwLdhJ6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:money-where-ya-mouth-is]
 name: "Money Where Ya Mouth Is"
 full-name: "Money Where Ya Mouth Is (red)"
 color: red

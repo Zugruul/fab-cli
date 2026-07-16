@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kG8dtfK6bQqncJjNm6wNL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beaming-blade]
 name: "Beaming Blade"
 power: 0
 classes: [Warrior]

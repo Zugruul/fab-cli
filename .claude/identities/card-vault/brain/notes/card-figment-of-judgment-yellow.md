@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gKQKG87JCtBgqDDrcBmcF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:figment-of-judgment]
 name: "Figment of Judgment"
 full-name: "Figment of Judgment (yellow)"
 color: yellow

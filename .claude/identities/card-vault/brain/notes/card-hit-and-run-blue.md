@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gqHqnRkFrm7dmJRDf9kzJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hit-and-run]
 name: "Hit and Run"
 full-name: "Hit and Run (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jtk8JgcJHLBK9kqdNf7FG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:puncture]
 name: "Puncture"
 full-name: "Puncture (red)"
 color: red

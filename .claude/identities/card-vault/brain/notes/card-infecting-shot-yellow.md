@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Nct7799R68FjJmTPdkLwc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:infecting-shot]
 name: "Infecting Shot"
 full-name: "Infecting Shot (yellow)"
 color: yellow

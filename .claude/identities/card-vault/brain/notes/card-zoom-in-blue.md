@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P7pftB6CpnWmQHcFrdJqQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:zoom-in]
 name: "Zoom In"
 full-name: "Zoom In (blue)"
 color: blue

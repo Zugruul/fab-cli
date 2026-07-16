@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rft8fQBq9gz7bRh6BfjRC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arcane-cussing]
 name: "Arcane Cussing"
 full-name: "Arcane Cussing (red)"
 color: red

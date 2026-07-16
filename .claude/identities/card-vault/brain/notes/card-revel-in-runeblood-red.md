@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z9Jm6MkWcjqRHwQWkgRDj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:revel-in-runeblood]
 name: "Revel in Runeblood"
 full-name: "Revel in Runeblood (red)"
 color: red

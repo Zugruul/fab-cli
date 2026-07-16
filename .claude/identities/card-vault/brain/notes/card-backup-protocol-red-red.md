@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zkrrwbGgKqBtKwb9qhrgT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:backup-protocol-red]
 name: "Backup Protocol: RED"
 full-name: "Backup Protocol: RED (red)"
 color: red

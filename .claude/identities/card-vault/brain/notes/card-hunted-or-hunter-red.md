@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ckmHzhDHLgzTzzDgKfWgH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hunted-or-hunter]
 name: "Hunted or Hunter"
 full-name: "Hunted or Hunter (red)"
 color: red

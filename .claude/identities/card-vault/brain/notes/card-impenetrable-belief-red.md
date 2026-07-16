@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nBFJ7C89G7d8kd7NgNGkG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:impenetrable-belief]
 name: "Impenetrable Belief"
 full-name: "Impenetrable Belief (red)"
 color: red

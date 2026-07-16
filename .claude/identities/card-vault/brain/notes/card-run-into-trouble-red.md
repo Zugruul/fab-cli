@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wbJtMrPCzqL6NRGrT6fJK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:run-into-trouble]
 name: "Run into Trouble"
 full-name: "Run into Trouble (red)"
 color: red

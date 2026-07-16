@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qhPfDmWPHpHT8gpFmNkkr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:brutal-assault]
 name: "Brutal Assault"
 full-name: "Brutal Assault (blue)"
 color: blue

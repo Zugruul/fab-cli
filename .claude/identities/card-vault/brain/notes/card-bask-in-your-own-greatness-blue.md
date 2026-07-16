@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdnTg7KmhKzWpJcd9JHrR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bask-in-your-own-greatness]
 name: "Bask in Your Own Greatness"
 full-name: "Bask in Your Own Greatness (blue)"
 color: blue

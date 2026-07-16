@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rh8QMDbW9nkbWFwtJhcqQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:electrolyze]
 name: "Electrolyze"
 full-name: "Electrolyze (red)"
 color: red

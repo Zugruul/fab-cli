@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fGFfbMPbQFn6qKPqCtJdB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:douse-in-runeblood]
 name: "Douse in Runeblood"
 full-name: "Douse in Runeblood (red)"
 color: red

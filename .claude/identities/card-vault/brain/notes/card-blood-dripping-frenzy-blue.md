@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kj7CLmtKN9BmpmkcT6zMm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blood-dripping-frenzy]
 name: "Blood Dripping Frenzy"
 full-name: "Blood Dripping Frenzy (blue)"
 color: blue

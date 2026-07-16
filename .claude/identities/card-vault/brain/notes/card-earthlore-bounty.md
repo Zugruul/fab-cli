@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCwM6LGq87rrqGQFk8rKG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:earthlore-bounty]
 name: "Earthlore Bounty"
 defense: 2
 classes: [Guardian]

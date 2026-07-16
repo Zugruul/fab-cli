@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TMKn79cNDqQp6PJGGrBqj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fight-night-prize-purse]
 name: "Fight Night Prize Purse"
 types: [Event]
 unique-id: TMKn79cNDqQp6PJGGrBqj

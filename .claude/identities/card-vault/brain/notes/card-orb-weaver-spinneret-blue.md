@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HDJFD6zmgqHN9jfNNMDCD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:orb-weaver-spinneret]
 name: "Orb-Weaver Spinneret"
 full-name: "Orb-Weaver Spinneret (blue)"
 color: blue

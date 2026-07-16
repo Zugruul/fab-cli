@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wFb9Nd9dBWPJrmNQNQdW8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fletch-a-yellow-tail]
 name: "Fletch a Yellow Tail"
 full-name: "Fletch a Yellow Tail (yellow)"
 color: yellow

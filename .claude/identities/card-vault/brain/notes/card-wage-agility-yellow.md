@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WmzwN8GGDC6dhhLB9NbMc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wage-agility]
 name: "Wage Agility"
 full-name: "Wage Agility (yellow)"
 color: yellow

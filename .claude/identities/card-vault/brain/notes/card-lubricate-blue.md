@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pKtKBmHB8P6Nwr8TP7p6D) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lubricate]
 name: "Lubricate"
 full-name: "Lubricate (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7MCWwM6pBCDcRdFRmTJRC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:angry-bones]
 name: "Angry Bones"
 full-name: "Angry Bones (blue)"
 color: blue

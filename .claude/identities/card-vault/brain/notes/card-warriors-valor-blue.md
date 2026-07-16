@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid czRC9wmKkRGGrwrhJbNqj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:warriors-valor]
 name: "Warrior's Valor"
 full-name: "Warrior's Valor (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gBQnWLRkrTJNGGm7dWPBN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:base-of-the-mountain]
 name: "Base of the Mountain"
 defense: *
 classes: [Generic]

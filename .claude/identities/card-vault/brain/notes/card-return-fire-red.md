@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CDPwNh676DmWHj7dJzD6N) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:return-fire]
 name: "Return Fire"
 full-name: "Return Fire (red)"
 color: red

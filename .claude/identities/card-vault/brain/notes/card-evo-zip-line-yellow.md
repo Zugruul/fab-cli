@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MdmK9dmLDpbC7GFcz6W7C) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-zip-line]
 name: "Evo Zip Line"
 full-name: "Evo Zip Line (yellow)"
 color: yellow

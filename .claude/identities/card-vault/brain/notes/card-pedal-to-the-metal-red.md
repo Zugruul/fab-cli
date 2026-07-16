@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rkKktHBPDLQDfpddktPwn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pedal-to-the-metal]
 name: "Pedal to the Metal"
 full-name: "Pedal to the Metal (red)"
 color: red

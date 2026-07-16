@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hKGMtQDHtqLhzg8Lzmjmc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arknight-ascendancy]
 name: "Arknight Ascendancy"
 full-name: "Arknight Ascendancy (red)"
 color: red

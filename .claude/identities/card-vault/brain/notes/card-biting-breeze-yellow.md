@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RWtpgDMGHmDwhwrrKCDr9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:biting-breeze]
 name: "Biting Breeze"
 full-name: "Biting Breeze (yellow)"
 color: yellow

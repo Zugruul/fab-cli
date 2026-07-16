@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dw8F9WDckzGdK6hhQWnTt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:frontline-helm]
 name: "Frontline Helm"
 defense: 2
 classes: [Generic]

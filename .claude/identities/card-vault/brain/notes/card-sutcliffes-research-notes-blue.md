@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid brKBKrnCrpggpqBPwbpjN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sutcliffes-research-notes]
 name: "Sutcliffe's Research Notes"
 full-name: "Sutcliffe's Research Notes (blue)"
 color: blue

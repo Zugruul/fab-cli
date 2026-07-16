@@ -5,6 +5,8 @@ strength: 2
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR Glossary)"
 graduated: false
 created: 2026-07-10
+entities: [card:agility, card:confidence, card:copper, card:exposed, card:fealty, card:frailty, card:frostbite, card:index, card:inertia, card:overpower, card:ponder, card:quicken, card:runechant, card:silver, card:toughness]
+
 ---
 
 # CR Glossary index — every defined term (295)

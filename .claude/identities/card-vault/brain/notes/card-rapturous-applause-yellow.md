@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zH7KjrFjPkpQdjFLzN7Kd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rapturous-applause]
 name: "Rapturous Applause"
 full-name: "Rapturous Applause (yellow)"
 color: yellow

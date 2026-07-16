@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rnFwQdqLFTRCDWbtT6Jqm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oath-of-the-arknight]
 name: "Oath of the Arknight"
 full-name: "Oath of the Arknight (red)"
 color: red

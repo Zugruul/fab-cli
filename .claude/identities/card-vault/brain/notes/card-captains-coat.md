@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hmr8mCTP6dhctND9KcFjp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:captains-coat]
 name: "Captain's Coat"
 defense: 0
 classes: [Generic]

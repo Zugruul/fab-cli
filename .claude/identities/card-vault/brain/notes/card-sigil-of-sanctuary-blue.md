@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pW9RcR7zcbrJDfgGFdrgR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-sanctuary]
 name: "Sigil of Sanctuary"
 full-name: "Sigil of Sanctuary (blue)"
 color: blue

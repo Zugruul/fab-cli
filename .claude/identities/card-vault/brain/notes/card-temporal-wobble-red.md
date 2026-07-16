@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lw6p6ntgdBwB7tDPJtDjG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:temporal-wobble]
 name: "Temporal Wobble"
 full-name: "Temporal Wobble (red)"
 color: red

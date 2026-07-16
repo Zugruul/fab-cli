@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7Dzp8kPW6kJPj7tQKL79w) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:harvest-season]
 name: "Harvest Season"
 full-name: "Harvest Season (yellow)"
 color: yellow

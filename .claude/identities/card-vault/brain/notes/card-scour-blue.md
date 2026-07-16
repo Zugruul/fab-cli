@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9hDNGJWktKbqR8bFFzmMf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scour]
 name: "Scour"
 full-name: "Scour (blue)"
 color: blue

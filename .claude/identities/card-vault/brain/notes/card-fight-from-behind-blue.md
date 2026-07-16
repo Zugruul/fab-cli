@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid K6zRWPRdP76bFfKgHw7Fd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fight-from-behind]
 name: "Fight from Behind"
 full-name: "Fight from Behind (blue)"
 color: blue

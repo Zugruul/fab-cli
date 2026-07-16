@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fk8qndNHLMFmd9HKQgqWb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:conflicting-thoughts]
 name: "Conflicting Thoughts"
 full-name: "Conflicting Thoughts (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9pFJWk6TCzMCLKPB68KG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:goldfin-harpoon]
 name: "Goldfin Harpoon"
 cost: 0
 power: 2

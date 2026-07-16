@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rd8gCbPjLCWcPLdqbMRWm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fightmaster-kox]
 name: "Fightmaster Kox"
 health: 19
 intelligence: 4

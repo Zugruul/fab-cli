@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NKpQT99rMW9DHw6Jjgrq8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:embermaw-cenipai]
 name: "Embermaw Cenipai"
 full-name: "Embermaw Cenipai (yellow)"
 color: yellow

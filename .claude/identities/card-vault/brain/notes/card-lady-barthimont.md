@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rpqF9GbWN7Kkb6hPKPnJk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lady-barthimont]
 name: "Lady Barthimont"
 defense: 3
 classes: [Brute]

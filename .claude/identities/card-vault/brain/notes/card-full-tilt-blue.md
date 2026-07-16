@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JmQmLGBfp6bRfqBqchfzN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:full-tilt]
 name: "Full Tilt"
 full-name: "Full Tilt (blue)"
 color: blue

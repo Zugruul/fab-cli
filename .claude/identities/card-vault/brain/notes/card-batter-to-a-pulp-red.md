@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid t79k8WMTmQBDnk6DcqzP8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:batter-to-a-pulp]
 name: "Batter to a Pulp"
 full-name: "Batter to a Pulp (red)"
 color: red

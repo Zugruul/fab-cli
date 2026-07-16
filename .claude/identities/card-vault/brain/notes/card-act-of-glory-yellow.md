@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid c7L7tfCdjwwjb9MQfTNDQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:act-of-glory]
 name: "Act of Glory"
 full-name: "Act of Glory (yellow)"
 color: yellow

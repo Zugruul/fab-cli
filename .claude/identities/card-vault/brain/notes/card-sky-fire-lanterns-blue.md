@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LhNtnmRzpc7mfbcgDcJk8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sky-fire-lanterns]
 name: "Sky Fire Lanterns"
 full-name: "Sky Fire Lanterns (blue)"
 color: blue

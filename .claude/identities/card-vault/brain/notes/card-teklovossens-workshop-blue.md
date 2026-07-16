@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p6PjmQ69L8rmnHwCQ8DzQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:teklovossens-workshop]
 name: "Teklovossen's Workshop"
 full-name: "Teklovossen's Workshop (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid G8bkfPWkjKCjR6qWKBLFF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:steam-canister]
 name: "Steam Canister"
 full-name: "Steam Canister (blue)"
 color: blue

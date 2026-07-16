@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WqmtQLDg96n6JTbjD8gjz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:zero-to-fifty]
 name: "Zero to Fifty"
 full-name: "Zero to Fifty (red)"
 color: red

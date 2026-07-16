@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hFFjjMfRw6J8KhBC7Tdzj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:minnowism]
 name: "Minnowism"
 full-name: "Minnowism (red)"
 color: red

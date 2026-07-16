@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zbbcnPDqrfQTdmGgMTzh7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tear-down-the-idols]
 name: "Tear Down the Idols"
 full-name: "Tear Down the Idols (red)"
 color: red

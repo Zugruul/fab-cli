@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d9qKg6JJHbcknbg8zhpbM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:strength-of-four-seasons]
 name: "Strength of Four Seasons"
 full-name: "Strength of Four Seasons (red)"
 color: red

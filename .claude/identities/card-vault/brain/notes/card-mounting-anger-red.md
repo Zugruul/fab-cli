@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zm8RTpG8Jw7T8PznjNrdn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mounting-anger]
 name: "Mounting Anger"
 full-name: "Mounting Anger (red)"
 color: red

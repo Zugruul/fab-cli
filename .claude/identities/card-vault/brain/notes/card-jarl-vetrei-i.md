@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9QL68DDb9hCqhWWhgnQgR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jarl-vetrei-i]
 name: "Jarl Vetreiði"
 health: 40
 intelligence: 4

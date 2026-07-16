@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 77rfcbF6JzTp98njhmLrq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amulet-of-havencall]
 name: "Amulet of Havencall"
 full-name: "Amulet of Havencall (blue)"
 color: blue

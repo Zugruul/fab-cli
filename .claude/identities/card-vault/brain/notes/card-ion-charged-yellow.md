@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rrN8b6TLpjCHQJRKBpJFm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ion-charged]
 name: "Ion Charged"
 full-name: "Ion Charged (yellow)"
 color: yellow

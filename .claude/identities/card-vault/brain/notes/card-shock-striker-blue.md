@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qhkDp7nLqrh6PDNW7QtMq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shock-striker]
 name: "Shock Striker"
 full-name: "Shock Striker (blue)"
 color: blue

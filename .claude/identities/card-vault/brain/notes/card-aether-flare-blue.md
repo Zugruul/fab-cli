@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bbGgprKNzmQPQP9P6CQkL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-flare]
 name: "Aether Flare"
 full-name: "Aether Flare (blue)"
 color: blue

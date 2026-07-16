@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ctk8ztqbzqLTRGNrQkJwf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:graven-cowl]
 name: "Graven Cowl"
 defense: 2
 classes: [Assassin]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mm6rHKbCkKKfD6h6tCMcK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:laughing-knee-slappers]
 name: "Laughing Knee-Slappers"
 defense: 1
 classes: [Brute]

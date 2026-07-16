@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rQ7rcfpMdHMcLkTqtnfHz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heartbeat-of-candlehold]
 name: "Heartbeat of Candlehold"
 full-name: "Heartbeat of Candlehold (blue)"
 color: blue

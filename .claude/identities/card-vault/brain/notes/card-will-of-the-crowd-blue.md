@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TTmc9j7H9WLgM9D6NfnbN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:will-of-the-crowd]
 name: "Will of the Crowd"
 full-name: "Will of the Crowd (blue)"
 color: blue

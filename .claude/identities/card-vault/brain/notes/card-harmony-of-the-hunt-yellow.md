@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6mDWM8jqfRP6NNLrcNjtQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:harmony-of-the-hunt]
 name: "Harmony of the Hunt"
 full-name: "Harmony of the Hunt (yellow)"
 color: yellow

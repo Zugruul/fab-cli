@@ -33,6 +33,9 @@ import re
 import subprocess
 import sys
 
+from entity_index import is_fresh as entity_index_is_fresh
+from entity_index import regenerate as regenerate_entity_index
+
 HOME = "card-vault"           # physical home of the corpus
 MIRRORS = ["judge", "player"]  # brains that hold relative symlinks to it
 INDEX = "keywords-index"
@@ -55,7 +58,7 @@ TRAILER_RE = re.compile(
     r'^Index: \[\[keywords-index\]\]\. When ruling, cite CR ([0-9][0-9a-z.]*);'
     r' verify against the vendored artifact\.$')
 WIKILINK = re.compile(r"\[\[([^\]]+)\]\]")
-FM_KEYS = ["tags", "paths", "strength", "source", "graduated", "created"]
+FM_KEYS = ["tags", "paths", "strength", "source", "graduated", "created", "entities"]
 
 INDEX_PREAMBLE = """# Keywords index — ALL Flesh & Blood keywords (CR chapter 8)
 
@@ -149,6 +152,9 @@ def validate_note(path):
         errs.append("tags must be [cr, keyword, <%s>, %s], got %s"
                     % ("|".join(CAT_NAMES), kwname, tags))
         return ["%s: %s" % (fn, e) for e in errs]
+    expected_entity = "[keyword:%s]" % fn[3:-3]
+    if fm["entities"] != expected_entity:
+        errs.append("entities must be %s, got %s" % (expected_entity, fm["entities"]))
     m_src = SOURCE_RE.match(fm["source"])
     if not m_src:
         errs.append("source line does not match template: %s" % fm["source"])
@@ -181,6 +187,28 @@ def validate_corpus():
             continue
         errs += validate_note(os.path.join(notes_dir(HOME), f))
     return errs
+
+
+def emit_entity_declarations():
+    """Normalize generator-owned kw notes before validation/symlinking."""
+    changed = 0
+    for f in corpus_files():
+        if f == INDEX + ".md":
+            continue
+        path = os.path.join(notes_dir(HOME), f)
+        text = open(path, encoding="utf-8").read()
+        keys, fm, _ = parse_note(text)
+        expected = "[keyword:%s]" % f[3:-3]
+        if fm.get("entities") == expected and keys == FM_KEYS:
+            continue
+        if "entities" in fm:
+            updated = re.sub(r"^entities:.*$", "entities: " + expected, text, flags=re.M)
+        else:
+            updated = re.sub(r"^(created:.*)$", r"\1\nentities: " + expected, text, count=1, flags=re.M)
+        with open(path, "w", encoding="utf-8") as out:
+            out.write(updated)
+        changed += 1
+    return changed
 
 
 # ------------------------------------------------------------ index generation
@@ -343,6 +371,9 @@ def cmd_check():
         if gone:
             infos.append("removed from corpus since baseline: %s" % ", ".join(gone))
 
+    if not entity_index_is_fresh(ROOT, {"card": HOME, "keyword": HOME}):
+        problems.append("ENTITY-INDEX stale or missing (regenerate: keyword-sync.py sync)")
+
     for i in infos:
         print(i)
     if problems:
@@ -372,6 +403,9 @@ def cmd_index():
 
 
 def cmd_sync():
+    emitted = emit_entity_declarations()
+    if emitted:
+        print("emitted entities on %d physical keyword note(s)" % emitted)
     terrs = validate_corpus()
     if terrs:
         print("REFUSING to sync: corpus violates the template:")
@@ -417,6 +451,7 @@ def cmd_sync():
         print("synced %s: %d symlink(s) created, %d fixed, %d removed, %d link edge(s) added"
               % (r, created, fixed, removed, edges))
     write_manifest()
+    regenerate_entity_index(ROOT, {"card": HOME, "keyword": HOME})
     print("manifest rewritten: %s" % os.path.relpath(manifest_path(), ROOT))
     return cmd_check()
 

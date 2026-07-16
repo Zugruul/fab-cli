@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RDTDDzfpjwLc9QrLWhqtB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:metacarpus-node]
 name: "Metacarpus Node"
 defense: 0
 classes: [Wizard]

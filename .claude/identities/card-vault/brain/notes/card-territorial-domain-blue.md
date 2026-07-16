@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DJQQGbkdhhkMkqpDzWwrw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:territorial-domain]
 name: "Territorial Domain"
 full-name: "Territorial Domain (blue)"
 color: blue

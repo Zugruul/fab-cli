@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid M9QNfBrcmp9zBJhztzDM7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fire-tenet-strike-first]
 name: "Fire Tenet: Strike First"
 full-name: "Fire Tenet: Strike First (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 667jCHDNcTc6zNTcjFk8m) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:horns-of-the-despised]
 name: "Horns of the Despised"
 defense: 1
 types: [Equipment]

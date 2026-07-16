@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 688rBwm6gmkFjGPrchjCq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:overpower]
 name: "Overpower"
 full-name: "Overpower (yellow)"
 color: yellow

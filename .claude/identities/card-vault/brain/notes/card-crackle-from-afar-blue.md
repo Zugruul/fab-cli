@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KCCLqQp6m8CngWnnQqNrp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:crackle-from-afar]
 name: "Crackle from Afar"
 full-name: "Crackle from Afar (blue)"
 color: blue

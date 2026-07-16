@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tDtrzbHbnwtKfJkKt9qHc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:winters-bite]
 name: "Winter's Bite"
 full-name: "Winter's Bite (blue)"
 color: blue

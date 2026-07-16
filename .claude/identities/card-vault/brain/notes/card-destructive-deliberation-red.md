@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cqwf78hdKQTfgCtbkcrdL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:destructive-deliberation]
 name: "Destructive Deliberation"
 full-name: "Destructive Deliberation (red)"
 color: red

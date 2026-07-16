@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kqMJRRjLHfnPFBL6nDHPc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rising-solartide]
 name: "Rising Solartide"
 full-name: "Rising Solartide (blue)"
 color: blue

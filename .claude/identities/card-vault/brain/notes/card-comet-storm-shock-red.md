@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hNtpt77b8dGgTbkCqzCLB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:comet-storm-shock]
 name: "Comet Storm // Shock"
 full-name: "Comet Storm // Shock (red)"
 color: red

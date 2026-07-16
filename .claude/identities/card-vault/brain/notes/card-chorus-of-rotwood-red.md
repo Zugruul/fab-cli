@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GRCCwphQgjDcMCzwtWffK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chorus-of-rotwood]
 name: "Chorus of Rotwood"
 full-name: "Chorus of Rotwood (red)"
 color: red

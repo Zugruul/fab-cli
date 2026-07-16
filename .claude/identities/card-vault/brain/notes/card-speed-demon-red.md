@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TftHKTdmTmqMGK7cRNcCD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:speed-demon]
 name: "Speed Demon"
 full-name: "Speed Demon (red)"
 color: red

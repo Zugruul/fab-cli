@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JTc7kdrn9kHtq7LdJ8pQW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evergreen]
 name: "Evergreen"
 full-name: "Evergreen (yellow)"
 color: yellow

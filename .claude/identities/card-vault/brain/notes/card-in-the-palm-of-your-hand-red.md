@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qqDbjmjjfHK9d8KJ8PcGm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:in-the-palm-of-your-hand]
 name: "In the Palm of Your Hand"
 full-name: "In the Palm of Your Hand (red)"
 color: red

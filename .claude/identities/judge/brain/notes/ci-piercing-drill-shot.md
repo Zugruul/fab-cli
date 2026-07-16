@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.23 — third_party/fab-rules/en-fab-cr.txt; card: Drill Shot (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:drill-shot]
+
 ---
 
 **Drill Shot** (Ranger Action Arrow Attack): "If Drill Shot has an aim counter, it has piercing 1. When this hits a hero, put a -1{d} counter on an equipment they control." Piercing (CR 8.3.23): "Piercing N is a static ability that means 'If this is defended by an equipment, it gets +N{p}.'"

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pWf6dmb99RqhghkdKGgT8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beaming-bravado]
 name: "Beaming Bravado"
 full-name: "Beaming Bravado (yellow)"
 color: yellow

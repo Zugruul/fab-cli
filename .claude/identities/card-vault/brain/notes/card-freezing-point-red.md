@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bTtrCGpnGPrnC7pNFt6pw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:freezing-point]
 name: "Freezing Point"
 full-name: "Freezing Point (red)"
 color: red

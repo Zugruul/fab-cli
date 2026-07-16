@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6BCMqFPmmMJDgMPCrKh9Q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fortitude-of-anvilheim]
 name: "Fortitude of Anvilheim"
 defense: 2
 classes: [Guardian, Warrior]

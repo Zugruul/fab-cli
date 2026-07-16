@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fR8fP8Q7BrTwbtKdzhdft) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ride-the-tailwind]
 name: "Ride the Tailwind"
 full-name: "Ride the Tailwind (red)"
 color: red

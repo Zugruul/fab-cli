@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CfjtgbzgrFRD6QPzPdkdW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tome-of-quandaries]
 name: "Tome of Quandaries"
 full-name: "Tome of Quandaries (blue)"
 color: blue

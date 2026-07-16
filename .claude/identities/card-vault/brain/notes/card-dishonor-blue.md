@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WRhC8n6HHNkRn6MjzDHDL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dishonor]
 name: "Dishonor"
 full-name: "Dishonor (blue)"
 color: blue

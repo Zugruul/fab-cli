@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qRcQbB7TW7kzt66g7cKMM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:solitary-companion]
 name: "Solitary Companion"
 full-name: "Solitary Companion (yellow)"
 color: yellow

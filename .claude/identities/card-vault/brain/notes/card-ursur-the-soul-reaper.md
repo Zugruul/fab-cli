@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pN9zPNQfc6GGrwdgMBLkj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ursur-the-soul-reaper]
 name: "Ursur, the Soul Reaper"
 power: 6
 health: 6

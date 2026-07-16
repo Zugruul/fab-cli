@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgWLgwcDwzpDdNrRTzDkW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blessing-of-occult]
 name: "Blessing of Occult"
 full-name: "Blessing of Occult (red)"
 color: red

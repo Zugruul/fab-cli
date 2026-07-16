@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DdnDzmhwpNWtCjm7TqFQM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:concealed-object]
 name: "Concealed Object"
 full-name: "Concealed Object (blue)"
 color: blue

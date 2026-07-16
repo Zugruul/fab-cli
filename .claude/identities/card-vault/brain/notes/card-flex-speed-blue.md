@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gTdKt8WpBT7m9WpGMQFmw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flex-speed]
 name: "Flex Speed"
 full-name: "Flex Speed (blue)"
 color: blue

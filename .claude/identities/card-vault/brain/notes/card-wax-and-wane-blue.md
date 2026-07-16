@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zPGgKrwrbdqC6jHnnJzbt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wax-and-wane]
 name: "Wax and Wane"
 full-name: "Wax and Wane (blue)"
 color: blue

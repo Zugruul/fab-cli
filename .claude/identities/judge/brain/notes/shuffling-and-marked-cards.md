@@ -5,6 +5,8 @@ strength: 1
 source: "TRP §5.11, §5.13; PPG §3.7, §3.8"
 graduated: false
 created: 2026-07-10
+entities: [card:cracked-bauble, card:marked]
+
 ---
 
 Shuffling (TRP §5.11): shuffle = randomize so no player knows the card order. Decks must be shuffled at the start of every game and whenever instructed, then presented to the opponent to cut or shuffle. Recommended: multiple riffle + overhand shuffles then a cut. Pile counting / deterministic methods are NOT sufficient alone. If a player could see any card faces while shuffling, the deck isn't randomized and must be reshuffled.

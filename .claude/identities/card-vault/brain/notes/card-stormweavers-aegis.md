@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jGpmP7RtNPqn6WnmJkLwQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stormweavers-aegis]
 name: "Stormweaver's Aegis"
 defense: 0
 talents: [Lightning]

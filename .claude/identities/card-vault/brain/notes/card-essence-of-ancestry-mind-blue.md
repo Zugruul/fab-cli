@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HMMRL8LDTCdzFRpzgTCkz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:essence-of-ancestry-mind]
 name: "Essence of Ancestry: Mind"
 full-name: "Essence of Ancestry: Mind (blue)"
 color: blue

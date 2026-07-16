@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CRn7J9kmnRCDPDRKbckQQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:jittery-bones]
 name: "Jittery Bones"
 full-name: "Jittery Bones (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9T6MpdKGz7bnbQpJrNQjq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:boulder-trap]
 name: "Boulder Trap"
 full-name: "Boulder Trap (yellow)"
 color: yellow

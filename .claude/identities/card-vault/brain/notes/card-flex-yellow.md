@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jPD7Qr9HHgnr6BrLCpFBK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flex]
 name: "Flex"
 full-name: "Flex (yellow)"
 color: yellow

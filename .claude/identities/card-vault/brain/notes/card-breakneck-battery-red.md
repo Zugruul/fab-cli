@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid h9W6rrHqhh8p7bzH7tKmH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:breakneck-battery]
 name: "Breakneck Battery"
 full-name: "Breakneck Battery (red)"
 color: red

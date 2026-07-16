@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JmTd86pJBGfrCtpNRCjdn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:seekers-gilet]
 name: "Seeker's Gilet"
 classes: [Generic]
 types: [Equipment]

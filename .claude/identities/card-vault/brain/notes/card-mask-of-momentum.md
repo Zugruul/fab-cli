@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GrB8WmQjkqnGJhDBwKQtn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mask-of-momentum]
 name: "Mask of Momentum"
 defense: 2
 classes: [Ninja]

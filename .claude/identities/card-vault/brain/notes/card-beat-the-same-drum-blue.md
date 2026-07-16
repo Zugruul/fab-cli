@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KjRNNfzGJJh68Fwk7QmWc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beat-the-same-drum]
 name: "Beat the Same Drum"
 full-name: "Beat the Same Drum (blue)"
 color: blue

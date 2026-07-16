@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bCLK9nFBJjmHFjLQmL8Kt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tooth-of-the-dragon]
 name: "Tooth of the Dragon"
 full-name: "Tooth of the Dragon (red)"
 color: red

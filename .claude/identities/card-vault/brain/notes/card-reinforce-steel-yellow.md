@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fdn6HgNgF9gtLhHGckWKp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reinforce-steel]
 name: "Reinforce Steel"
 full-name: "Reinforce Steel (yellow)"
 color: yellow

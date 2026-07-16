@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qMBpL7WdHmD7rgtMwQpfR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:obsidian-fire-vein]
 name: "Obsidian Fire Vein"
 power: 1
 classes: [Warrior]

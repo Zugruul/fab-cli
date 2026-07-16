@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MNRCq9PnNd7FdK6MThH7K) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mistborn-protector]
 name: "Mistborn Protector"
 full-name: "Mistborn Protector (blue)"
 color: blue

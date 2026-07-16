@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8CdLzKHrrnjKTFKG77GjM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-buzz-hive]
 name: "Evo Buzz Hive"
 full-name: "Evo Buzz Hive (yellow)"
 color: yellow

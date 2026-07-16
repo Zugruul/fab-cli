@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fj6DCwFDczkFfd7dtnd9J) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:crowd-roars-fight]
 name: "Crowd Roars Fight!"
 types: [Event]
 unique-id: Fj6DCwFDczkFfd7dtnd9J

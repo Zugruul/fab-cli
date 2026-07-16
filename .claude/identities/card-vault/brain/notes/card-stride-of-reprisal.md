@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DhKMQzczm7mmf9HnhWhdL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stride-of-reprisal]
 name: "Stride of Reprisal"
 defense: 1
 classes: [Ninja]

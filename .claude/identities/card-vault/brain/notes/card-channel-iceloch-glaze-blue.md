@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fBkzc8fHBKTCqGTJJP8cP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:channel-iceloch-glaze]
 name: "Channel Iceloch Glaze"
 full-name: "Channel Iceloch Glaze (blue)"
 color: blue

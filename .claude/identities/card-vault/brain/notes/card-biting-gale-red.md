@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fPRWHBw7cmHgJmmJFBt8W) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:biting-gale]
 name: "Biting Gale"
 full-name: "Biting Gale (red)"
 color: red

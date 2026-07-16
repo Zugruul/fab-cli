@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.5.50, 9.3.2b, 9.3.3 — third_party/fab-rules/en-fab-cr.txt; card: Hunter's Klaive (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:hunters-klaive, card:marked]
+
 ---
 
 **Hunter's Klaive** (Assassin Weapon Dagger 1H): "Once per Turn Action - {r}{r}: Attack. Go again. When this hits a hero, mark them. Piercing 1." Mark (CR 8.5.50): "To mark a hero, that hero has the marked condition." Marked (CR 9.3): a hero stays marked until hit by an opponent's source (9.3.2b), and CR 9.3.3 is precise: "When a marked hero is hit by a source controlled by an opponent, the marked condition of that hero is removed as part of the hit event."

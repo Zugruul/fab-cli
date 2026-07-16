@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g8DkhdLpGnDhj8WmkqTgr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:high-voltage]
 name: "High Voltage"
 full-name: "High Voltage (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NLqGrKTD8WmMfrFcrwRhc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:short-shrift]
 name: "Short Shrift"
 full-name: "Short Shrift (yellow)"
 color: yellow

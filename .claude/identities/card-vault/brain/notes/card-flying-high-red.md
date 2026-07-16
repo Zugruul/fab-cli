@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g8DkCdbjNtDPTMWhDFnNf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flying-high]
 name: "Flying High"
 full-name: "Flying High (red)"
 color: red

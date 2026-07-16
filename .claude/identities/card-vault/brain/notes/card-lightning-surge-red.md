@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8BFGd6LjfLGgTBrJdmdqf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lightning-surge]
 name: "Lightning Surge"
 full-name: "Lightning Surge (red)"
 color: red

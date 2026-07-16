@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GpWJp9RKt7nrzt6dCMnbH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:herald-of-protection]
 name: "Herald of Protection"
 full-name: "Herald of Protection (yellow)"
 color: yellow

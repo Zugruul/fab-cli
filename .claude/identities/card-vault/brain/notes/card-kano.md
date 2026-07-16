@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q9B8TDhTdfDLN8ccnBThK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kano]
 name: "Kano"
 health: 15
 intelligence: 4

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CBzHmdKBFTmnLKHzWgk86) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:disturb-the-peace]
 name: "Disturb the Peace"
 full-name: "Disturb the Peace (red)"
 color: red

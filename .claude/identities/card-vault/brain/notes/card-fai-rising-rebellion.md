@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RjNJbgTJn7bJrjJHBdfC8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fai-rising-rebellion]
 name: "Fai, Rising Rebellion"
 health: 40
 intelligence: 4

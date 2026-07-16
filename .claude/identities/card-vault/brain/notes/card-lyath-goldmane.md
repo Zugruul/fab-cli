@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QrHJnzKzpMwgfJMcKQ8Dp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:lyath-goldmane]
 name: "Lyath Goldmane"
 health: 20
 intelligence: 5

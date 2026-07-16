@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9gGmRdPMjFQjFWCzB7kWD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:visit-the-imperial-forge]
 name: "Visit the Imperial Forge"
 full-name: "Visit the Imperial Forge (blue)"
 color: blue

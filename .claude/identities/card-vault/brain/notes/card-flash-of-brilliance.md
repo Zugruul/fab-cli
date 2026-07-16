@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hBDtCDkPFDtWFTm9hGJDq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flash-of-brilliance]
 name: "Flash of Brilliance"
 defense: 1
 talents: [Lightning]

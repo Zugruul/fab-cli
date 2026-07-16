@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kMRjHHLzPtgLw7j7PmQqf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:command-and-conquer]
 name: "Command and Conquer"
 full-name: "Command and Conquer (red)"
 color: red

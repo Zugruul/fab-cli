@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CBc98j9J9PmqRKNdTchgW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:resounding-courage]
 name: "Resounding Courage"
 full-name: "Resounding Courage (red)"
 color: red

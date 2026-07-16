@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JRHmPKJqfrMgNgJj6ngBt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:turn-to-mindfire]
 name: "Turn to Mindfire"
 full-name: "Turn to Mindfire (red)"
 color: red

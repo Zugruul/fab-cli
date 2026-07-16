@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g8kNtFJgzPzDjzrhChg7D) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:recoil]
 name: "Recoil"
 full-name: "Recoil (yellow)"
 color: yellow

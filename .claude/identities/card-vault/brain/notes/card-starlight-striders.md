@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dCkbCnQ7pcjfbQ7k8GhFk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:starlight-striders]
 name: "Starlight Striders"
 defense: 1
 classes: [Runeblade]

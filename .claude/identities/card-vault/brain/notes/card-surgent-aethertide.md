@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid g69J9qNWrLQRfCbT8D9jk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:surgent-aethertide]
 name: "Surgent Aethertide"
 classes: [Wizard]
 types: [Weapon]

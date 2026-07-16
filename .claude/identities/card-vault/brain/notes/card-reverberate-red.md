@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8qnmTn7hKdCQzbhF7bNHD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reverberate]
 name: "Reverberate"
 full-name: "Reverberate (red)"
 color: red

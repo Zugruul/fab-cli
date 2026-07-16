@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Hbpw6FWPgCtwPKCnW8jMQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sisters-of-fire]
 name: "Sisters of Fire"
 full-name: "Sisters of Fire (red)"
 color: red

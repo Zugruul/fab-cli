@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid KHpc7bwPqmLjMF977CjcR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beckoning-light]
 name: "Beckoning Light"
 full-name: "Beckoning Light (red)"
 color: red

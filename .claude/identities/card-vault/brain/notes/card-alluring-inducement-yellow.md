@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nBf66Gt7ghRTqhn7nNqKh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:alluring-inducement]
 name: "Alluring Inducement"
 full-name: "Alluring Inducement (yellow)"
 color: yellow

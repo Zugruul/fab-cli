@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Cqk6dND8KnJ6gBjQNQjCq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:third-eye-of-the-sphinx]
 name: "Third Eye of the Sphinx"
 defense: 1
 classes: [Illusionist, Wizard]

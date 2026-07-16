@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DHrjJHjkLLHGd8FPnBrwW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wee-wrecking-ball]
 name: "Wee Wrecking Ball"
 full-name: "Wee Wrecking Ball (yellow)"
 color: yellow

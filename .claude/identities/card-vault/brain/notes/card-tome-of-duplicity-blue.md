@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DjB6FNdbDR9f7bLMc9CBM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tome-of-duplicity]
 name: "Tome of Duplicity"
 full-name: "Tome of Duplicity (blue)"
 color: blue

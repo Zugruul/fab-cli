@@ -5,6 +5,8 @@ strength: 1
 source: "Flesh and Blood Casual Procedure Guide (2023-10-13)"
 graduated: false
 created: 2026-07-10
+entities: [card:rewind]
+
 ---
 
 Casual REL uses the Flesh and Blood Casual Procedure Guide (dated 2023-10-13), NOT the PPG (Casual Guide, p.i). "Great games" here means friendly, lighthearted, social play; emphasis on education while keeping games fair. Players are encouraged to resolve infractions by mutual agreement before calling a judge; if no judge, the TO fills the role.

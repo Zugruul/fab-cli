@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CWGFNLDJbWHtLQhW7GtMJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tiger-trap]
 name: "Tiger Trap"
 full-name: "Tiger Trap (red)"
 color: red

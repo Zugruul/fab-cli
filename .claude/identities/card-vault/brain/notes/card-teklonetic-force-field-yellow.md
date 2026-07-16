@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WbkFQ7Dn6C8WjHp977dzJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:teklonetic-force-field]
 name: "Teklonetic Force Field"
 full-name: "Teklonetic Force Field (yellow)"
 color: yellow

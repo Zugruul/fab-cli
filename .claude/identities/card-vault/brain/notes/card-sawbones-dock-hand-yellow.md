@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Q8R69DNJCThNGkddBPW6k) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sawbones-dock-hand]
 name: "Sawbones, Dock Hand"
 full-name: "Sawbones, Dock Hand (yellow)"
 color: yellow

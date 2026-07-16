@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBTGtg7LJbjTBWDGQDknH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drop-of-dragon-blood]
 name: "Drop of Dragon Blood"
 full-name: "Drop of Dragon Blood (red)"
 color: red

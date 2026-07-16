@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7n96D77LqTKKkhnMrNTwr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:minds-desire]
 name: "Mind's Desire"
 full-name: "Mind's Desire (blue)"
 color: blue

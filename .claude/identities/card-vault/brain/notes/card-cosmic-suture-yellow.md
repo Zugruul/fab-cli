@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PhWgpcwRmzjQ6bDcqcPbW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cosmic-suture]
 name: "Cosmic Suture"
 full-name: "Cosmic Suture (yellow)"
 color: yellow

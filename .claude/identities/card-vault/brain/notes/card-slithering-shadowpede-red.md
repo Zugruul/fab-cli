@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qB6nBWTRKkJWQrmNRNN8t) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:slithering-shadowpede]
 name: "Slithering Shadowpede"
 full-name: "Slithering Shadowpede (red)"
 color: red

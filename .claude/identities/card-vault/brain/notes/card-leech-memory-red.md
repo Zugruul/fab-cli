@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TqcqHwCjGhFkzkFCthwtd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leech-memory]
 name: "Leech Memory"
 full-name: "Leech Memory (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QDQgkJbfM7Dm8nrm8CDND) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reckless-arithmetic]
 name: "Reckless Arithmetic"
 full-name: "Reckless Arithmetic (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bdCCWJQKkgjTNrH8PbnwQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sack-the-shifty]
 name: "Sack the Shifty"
 full-name: "Sack the Shifty (red)"
 color: red

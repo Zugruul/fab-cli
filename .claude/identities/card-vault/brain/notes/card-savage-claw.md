@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid cM6R7TqbFHp76wfPTjrzM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:savage-claw]
 name: "Savage Claw"
 power: 3
 classes: [Brute]

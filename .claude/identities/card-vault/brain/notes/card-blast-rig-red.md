@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JRNzhJqgLDf7Nr87B9KBT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blast-rig]
 name: "Blast Rig"
 full-name: "Blast Rig (red)"
 color: red

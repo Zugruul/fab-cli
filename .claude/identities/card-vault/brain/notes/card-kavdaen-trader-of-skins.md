@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rgq8FqBMdhn9khbwjDK6Q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:kavdaen-trader-of-skins]
 name: "Kavdaen, Trader of Skins"
 health: 20
 intelligence: 4

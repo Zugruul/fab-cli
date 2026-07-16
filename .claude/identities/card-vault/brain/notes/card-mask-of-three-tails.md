@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pdCLkLqDkmFhBtp7MFMfP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mask-of-three-tails]
 name: "Mask of Three Tails"
 defense: 0
 classes: [Ninja]

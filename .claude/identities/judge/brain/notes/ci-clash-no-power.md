@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.5.45b, 8.5.45c — third_party/fab-rules/en-fab-cr.txt; card: Clash of Agility (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:agility, card:clash-of-agility]
+
 ---
 
 **Clash of Agility** (Brute Warrior Action Attack): "When this defends, clash with the attacking hero. The winner creates an Agility token." Clash (CR 8.5.45): "the clashing players reveal the top card of their respective decks, and then the player that reveals the card with the greatest {p} value wins." CR 8.5.45b: cards without the power property (or a player revealing nothing, e.g. empty deck) are treated as having LOWER power than any revealed card that does have power. CR 8.5.45c: "If none of the players reveals a card with power greater than all other revealed cards, no player is considered to have won the clash."

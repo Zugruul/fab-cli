@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HT8r8mg8rHmbWJthCFHfH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:benji-the-piercing-wind]
 name: "Benji, the Piercing Wind"
 health: 17
 intelligence: 4

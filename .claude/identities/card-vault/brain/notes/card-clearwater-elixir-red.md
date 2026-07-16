@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WffgNjPNdkz9GB9TRT7RT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:clearwater-elixir]
 name: "Clearwater Elixir"
 full-name: "Clearwater Elixir (red)"
 color: red

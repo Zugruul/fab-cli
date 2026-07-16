@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DrMHRGghQK9rb9NdTTKmj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:splintering-deadwood]
 name: "Splintering Deadwood"
 full-name: "Splintering Deadwood (yellow)"
 color: yellow

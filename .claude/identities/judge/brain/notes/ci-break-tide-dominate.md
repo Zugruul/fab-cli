@@ -5,6 +5,8 @@ strength: 1
 source: "CR 8.3.4c, 8.5.32a — third_party/fab-rules/en-fab-cr.txt; card: Break Tide (third_party/flesh-and-blood-cards)"
 graduated: false
 created: 2026-07-10
+entities: [card:break-tide, card:flood-of-force, card:rushing-river]
+
 ---
 
 **Break Tide** (Ninja Action Attack, base 2p/3d) gains dominate mid-combat via Combo: "If Rushing River or Flood of Force was the last attack this combat chain, Break Tide gains +3{p}, dominate, and [banish effect]." (CR 8.4.1 Combo.)

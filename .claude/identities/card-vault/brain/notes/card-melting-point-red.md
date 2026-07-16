@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CfdKKTqndtGPNzdh6gJ8w) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:melting-point]
 name: "Melting Point"
 full-name: "Melting Point (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nM8BHGHd9qLGTPgwtWzkJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:katsu-the-wanderer]
 name: "Katsu, the Wanderer"
 health: 40
 intelligence: 4

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9F67fMDKzMkLMJFr7GN67) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:torrent-of-tempo]
 name: "Torrent of Tempo"
 full-name: "Torrent of Tempo (red)"
 color: red

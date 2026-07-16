@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Tr6LzWfrtqMkKjM7JpHjC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:elliptical-conflux]
 name: "Elliptical Conflux"
 full-name: "Elliptical Conflux (yellow)"
 color: yellow

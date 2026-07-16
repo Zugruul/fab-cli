@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fLCJkLgGtkfJd6pBq8fJK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:second-tenet-of-chi-tide]
 name: "Second Tenet of Chi: Tide"
 full-name: "Second Tenet of Chi: Tide (blue)"
 color: blue

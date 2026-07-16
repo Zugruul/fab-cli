@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RPjrTRkKNrQHCmd6M6DdC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:widowmaker]
 name: "Widowmaker"
 full-name: "Widowmaker (yellow)"
 color: yellow

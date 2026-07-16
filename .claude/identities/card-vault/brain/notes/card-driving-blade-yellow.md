@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RLjzjPgc67fWrMNjjLtBm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:driving-blade]
 name: "Driving Blade"
 full-name: "Driving Blade (yellow)"
 color: yellow

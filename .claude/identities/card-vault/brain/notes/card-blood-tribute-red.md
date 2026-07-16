@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Lmfc89kGcH66W6BRqCfb7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blood-tribute]
 name: "Blood Tribute"
 full-name: "Blood Tribute (red)"
 color: red

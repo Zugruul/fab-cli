@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dHNcBPjwggj8GdFnqbkrD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:beast-within]
 name: "Beast Within"
 full-name: "Beast Within (yellow)"
 color: yellow

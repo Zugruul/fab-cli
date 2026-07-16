@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DW7LjrR6RwKPhNB8d9CGM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hope-merchants-hood]
 name: "Hope Merchant's Hood"
 defense: 0
 classes: [Generic]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jRmPPnCdbT97fBdhK9jhq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fabric-of-providence]
 name: "Fabric of Providence"
 full-name: "Fabric of Providence (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QtTgrgcKwKqCJ8dc9Mbbb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evasive-leap]
 name: "Evasive Leap"
 full-name: "Evasive Leap (red)"
 color: red

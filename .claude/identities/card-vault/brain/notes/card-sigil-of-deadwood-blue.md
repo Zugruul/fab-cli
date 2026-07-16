@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fkJz8TmrMw8zMngz6qQDm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sigil-of-deadwood]
 name: "Sigil of Deadwood"
 full-name: "Sigil of Deadwood (blue)"
 color: blue

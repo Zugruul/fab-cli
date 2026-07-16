@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DTLGtkQ8zNdPQPPfDpg6n) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shield-wall]
 name: "Shield Wall"
 full-name: "Shield Wall (yellow)"
 color: yellow

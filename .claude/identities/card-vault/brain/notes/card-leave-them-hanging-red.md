@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jhcWTqd8Thf6gwbNGKqwh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:leave-them-hanging]
 name: "Leave Them Hanging"
 full-name: "Leave Them Hanging (red)"
 color: red

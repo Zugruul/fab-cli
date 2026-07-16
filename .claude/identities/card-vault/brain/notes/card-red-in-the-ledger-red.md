@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FLHmj9MjCgFPBzgFGKRFW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:red-in-the-ledger]
 name: "Red in the Ledger"
 full-name: "Red in the Ledger (red)"
 color: red

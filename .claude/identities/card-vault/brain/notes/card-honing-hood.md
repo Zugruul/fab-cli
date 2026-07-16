@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zc8n8JQRfBTPHGfnBmw8L) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:honing-hood]
 name: "Honing Hood"
 cost: 0
 defense: 0

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QgkQT8TfFkgPfKbqmF9pb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dig-up-dinner]
 name: "Dig Up Dinner"
 full-name: "Dig Up Dinner (blue)"
 color: blue

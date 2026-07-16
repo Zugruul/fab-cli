@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 69TdTgmPz69bNLRWPHLpK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tectonic-rift]
 name: "Tectonic Rift"
 full-name: "Tectonic Rift (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fm6dT9jM6BhLtRphtfrFR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:blazen-yoroi]
 name: "Blazen Yoroi"
 defense: 1
 classes: [Ninja]

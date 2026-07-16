@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqtmztMtrJGPNNG9hNdQP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:back-for-seconds]
 name: "Back for Seconds"
 full-name: "Back for Seconds (yellow)"
 color: yellow

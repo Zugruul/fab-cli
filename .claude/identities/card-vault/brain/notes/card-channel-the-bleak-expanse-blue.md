@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GNKLdtBGNh9BrPr9dTm69) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:channel-the-bleak-expanse]
 name: "Channel the Bleak Expanse"
 full-name: "Channel the Bleak Expanse (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.6.6) — vendored: third_party/fab-rules/en-fab-cr.txt"
 graduated: false
 created: 2026-07-10
+entities: [keyword:token-blasmophet-the-soul-harvester]
 ---
 
 **Blasmophet, the Soul Harvester** — token keyword (CR 8.6.6).

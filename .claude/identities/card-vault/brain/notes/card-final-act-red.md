@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wrn8fmpTQHjKLzzHtqwNG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:final-act]
 name: "Final Act"
 full-name: "Final Act (red)"
 color: red

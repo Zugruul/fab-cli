@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7hgR7DHjmfrQq9wnbM798) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:yinti-yanti]
 name: "Yinti Yanti"
 full-name: "Yinti Yanti (red)"
 color: red

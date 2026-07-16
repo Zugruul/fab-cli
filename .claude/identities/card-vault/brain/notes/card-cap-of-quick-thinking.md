@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GkcwtGfWGcDBmQ7BbFNRt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cap-of-quick-thinking]
 name: "Cap of Quick Thinking"
 talents: [Lightning]
 types: [Equipment]

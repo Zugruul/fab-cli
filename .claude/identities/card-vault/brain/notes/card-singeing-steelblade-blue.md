@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fbWKm6G9jpPrnL7t7TqDg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:singeing-steelblade]
 name: "Singeing Steelblade"
 full-name: "Singeing Steelblade (blue)"
 color: blue

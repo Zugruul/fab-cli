@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JjHcGC99TqTf6Mz697hng) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:the-weakest-link]
 name: "The Weakest Link"
 full-name: "The Weakest Link (red)"
 color: red

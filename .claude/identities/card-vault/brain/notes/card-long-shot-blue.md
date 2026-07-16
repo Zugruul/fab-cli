@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wcQzjTdhBwLkDWQbjLG8c) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:long-shot]
 name: "Long Shot"
 full-name: "Long Shot (blue)"
 color: blue

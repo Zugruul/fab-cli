@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PqNCC7zzLf8kFWDCpj7g6) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ironsong-determination]
 name: "Ironsong Determination"
 full-name: "Ironsong Determination (yellow)"
 color: yellow

@@ -5,6 +5,8 @@ strength: 1
 source: "https://fabtcg.com/gameplay-formats/blitz/"
 graduated: false
 created: 2026-07-10
+entities: [card:silver]
+
 ---
 
 

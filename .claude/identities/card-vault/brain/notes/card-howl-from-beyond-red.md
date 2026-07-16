@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hGgJfbfTpknpFCTCgQCzw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:howl-from-beyond]
 name: "Howl from Beyond"
 full-name: "Howl from Beyond (red)"
 color: red

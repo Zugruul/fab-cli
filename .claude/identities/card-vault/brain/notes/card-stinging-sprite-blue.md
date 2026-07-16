@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fccdnhg8DpLB6cTgjFgcw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stinging-sprite]
 name: "Stinging Sprite"
 full-name: "Stinging Sprite (blue)"
 color: blue

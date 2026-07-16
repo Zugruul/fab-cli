@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pkMGCRh9fDT98dRgnQF8W) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arknight-shard]
 name: "Arknight Shard"
 full-name: "Arknight Shard (blue)"
 color: blue

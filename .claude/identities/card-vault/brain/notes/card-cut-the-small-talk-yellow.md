@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid D77NtkfPpRhpwjGbPJd8n) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cut-the-small-talk]
 name: "Cut the Small Talk"
 full-name: "Cut the Small Talk (yellow)"
 color: yellow

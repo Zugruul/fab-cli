@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FLfrm7mBczWhFLBTKmBgJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bulls-eye-bracers]
 name: "Bull's Eye Bracers"
 defense: 0
 classes: [Ranger]

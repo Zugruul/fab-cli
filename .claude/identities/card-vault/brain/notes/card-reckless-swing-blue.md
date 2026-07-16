@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mmtHRdGFhPtwR8LF8tq6p) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reckless-swing]
 name: "Reckless Swing"
 full-name: "Reckless Swing (blue)"
 color: blue

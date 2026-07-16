@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hCc9J9k6MLJPh7rgzRhwg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mark-of-the-black-widow]
 name: "Mark of the Black Widow"
 full-name: "Mark of the Black Widow (red)"
 color: red

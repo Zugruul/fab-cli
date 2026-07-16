@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wqzWn8rMcWhGwNQfKtWtG) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heirloom-of-snake-hide]
 name: "Heirloom of Snake Hide"
 defense: 2
 classes: [Assassin]

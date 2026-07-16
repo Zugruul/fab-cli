@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7mtjcMPmpC86wkdPPKztq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:twist-and-turn]
 name: "Twist and Turn"
 full-name: "Twist and Turn (red)"
 color: red

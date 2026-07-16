@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bFDwJwbqJQPJpcnHRjLCj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:for-the-realm]
 name: "For the Realm"
 full-name: "For the Realm (red)"
 color: red

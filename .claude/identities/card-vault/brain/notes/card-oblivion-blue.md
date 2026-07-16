@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid F6nMWMTR7mjDm9LMjhgpd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:oblivion]
 name: "Oblivion"
 full-name: "Oblivion (blue)"
 color: blue

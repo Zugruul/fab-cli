@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NqpL7k7Gc78Pw6tzMNQwN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:golden-grail]
 name: "Golden Grail"
 power: 3
 classes: [Warrior]

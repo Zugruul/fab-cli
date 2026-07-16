@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QzMcw6fdMzggnrQ8M9jbC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:stroke-of-foresight]
 name: "Stroke of Foresight"
 full-name: "Stroke of Foresight (red)"
 color: red

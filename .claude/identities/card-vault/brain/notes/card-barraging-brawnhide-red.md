@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8h9W9mdd6djDk6JCMCdGt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:barraging-brawnhide]
 name: "Barraging Brawnhide"
 full-name: "Barraging Brawnhide (red)"
 color: red

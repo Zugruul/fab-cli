@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid czfMfgfthg6qKLtKBMQjD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:squizzy-and-floof]
 name: "Squizzy & Floof"
 health: 20
 intelligence: 4

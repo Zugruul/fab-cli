@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bK9BLkb6M9JHT798FHgLP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:reckless-stampede]
 name: "Reckless Stampede"
 full-name: "Reckless Stampede (red)"
 color: red

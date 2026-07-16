@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8tnJpPbzJqbBBdPBpc8Wt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cut-from-the-same-cloth]
 name: "Cut from the Same Cloth"
 full-name: "Cut from the Same Cloth (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qGKpfJNFKgrQqDrwLzqdQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:up-on-a-pedestal]
 name: "Up on a Pedestal"
 full-name: "Up on a Pedestal (blue)"
 color: blue

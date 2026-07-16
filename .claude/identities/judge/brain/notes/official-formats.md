@@ -5,6 +5,8 @@ strength: 1
 source: "TRP §1.3, §7"
 graduated: false
 created: 2026-07-10
+entities: [card:silver]
+
 ---
 
 FAB formats fall in three categories: constructed, limited, special (TRP §1.3). Officially supported: Classic Constructed, Living Legend, Blitz, Silver Age (constructed); Booster Draft, Sealed Deck, Blitz Preconstructed (limited); Ira Learn-to-Play, Team, Ultimate Pit Fight (special).

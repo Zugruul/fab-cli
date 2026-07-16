@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HgLNTDb7kMk7MdJrTjn8T) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:down-and-dirty]
 name: "Down and Dirty"
 full-name: "Down and Dirty (red)"
 color: red

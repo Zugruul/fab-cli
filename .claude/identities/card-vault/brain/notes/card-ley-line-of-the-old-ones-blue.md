@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LWD8GBDqqgnWHmLBzdTh7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ley-line-of-the-old-ones]
 name: "Ley Line of the Old Ones"
 full-name: "Ley Line of the Old Ones (blue)"
 color: blue

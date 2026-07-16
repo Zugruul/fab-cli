@@ -5,6 +5,8 @@ strength: 1
 source: "PPG §1.4"
 graduated: false
 created: 2026-07-10
+entities: [card:intellect-penalty]
+
 ---
 
 PPG penalties, ascending severity (PPG §1.4):

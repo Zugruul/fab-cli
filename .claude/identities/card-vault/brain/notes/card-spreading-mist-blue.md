@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PF8fPNMCGHtNBbQRGqMPK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spreading-mist]
 name: "Spreading Mist"
 full-name: "Spreading Mist (blue)"
 color: blue

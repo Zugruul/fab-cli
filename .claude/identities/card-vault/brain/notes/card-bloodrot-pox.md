@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid drbBwrNtMRPTJ79LBQWWB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bloodrot-pox]
 name: "Bloodrot Pox"
 classes: [Generic]
 types: [Token]

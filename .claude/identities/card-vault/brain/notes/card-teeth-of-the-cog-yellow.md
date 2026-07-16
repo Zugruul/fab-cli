@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid d7MbqP6qdjzHWbbJTzCfF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:teeth-of-the-cog]
 name: "Teeth of the Cog"
 full-name: "Teeth of the Cog (yellow)"
 color: yellow

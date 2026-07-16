@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qh8pckPwPHDHtPFj7tztn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:crush-the-weak]
 name: "Crush the Weak"
 full-name: "Crush the Weak (red)"
 color: red

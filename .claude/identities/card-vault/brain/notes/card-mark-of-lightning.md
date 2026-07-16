@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FRDf9rPtwMg7MjfK6wWNP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mark-of-lightning]
 name: "Mark of Lightning"
 defense: 0
 talents: [Lightning]

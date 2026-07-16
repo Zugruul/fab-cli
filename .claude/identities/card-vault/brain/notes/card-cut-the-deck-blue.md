@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid knbbJdFrQgDbdzh8r8hTd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cut-the-deck]
 name: "Cut the Deck"
 full-name: "Cut the Deck (blue)"
 color: blue

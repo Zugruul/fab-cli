@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RHLWQrrJnTDMjfMjpf9m8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:this-rounds-on-me]
 name: "This Round's on Me"
 full-name: "This Round's on Me (blue)"
 color: blue

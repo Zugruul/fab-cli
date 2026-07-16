@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qt8PTt8T8bzqm9jFJ8c8F) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:nights-embrace]
 name: "Night's Embrace"
 full-name: "Night's Embrace (blue)"
 color: blue

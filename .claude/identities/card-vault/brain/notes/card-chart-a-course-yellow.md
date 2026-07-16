@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Rwgrgc7rDQbtj6KhkfjTb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:chart-a-course]
 name: "Chart a Course"
 full-name: "Chart a Course (yellow)"
 color: yellow

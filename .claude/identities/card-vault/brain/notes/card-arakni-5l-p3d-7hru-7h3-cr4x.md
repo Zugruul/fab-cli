@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nkBnGcCDpf9KHChtrrN6b) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arakni-5l-p3d-7hru-7h3-cr4x]
 name: "Arakni, 5L!p3d 7hRu 7h3 cR4X"
 health: 38
 intelligence: 4

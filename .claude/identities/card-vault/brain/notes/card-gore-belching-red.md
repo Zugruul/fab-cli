@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mJbdJCLQD9jgQRMPjBrLB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gore-belching]
 name: "Gore Belching"
 full-name: "Gore Belching (red)"
 color: red

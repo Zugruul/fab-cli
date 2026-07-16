@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mdtMRhRMbMkBRntzQzcbJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sticky-fingers]
 name: "Sticky Fingers"
 power: 2
 health: 2

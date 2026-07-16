@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jPMgW9kwNF8Cj69gwJntt) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:swing-big]
 name: "Swing Big"
 full-name: "Swing Big (red)"
 color: red

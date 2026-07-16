@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6GBcGgr77phGjWjbjNbRn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tri-shot]
 name: "Tri-shot"
 full-name: "Tri-shot (blue)"
 color: blue

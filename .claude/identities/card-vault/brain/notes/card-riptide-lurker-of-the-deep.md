@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RNfgGmc8wHgBrmC6gkqBd) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:riptide-lurker-of-the-deep]
 name: "Riptide, Lurker of the Deep"
 health: 38
 intelligence: 4

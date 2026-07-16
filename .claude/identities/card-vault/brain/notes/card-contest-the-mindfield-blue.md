@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qKNBCCbrmp7W96dbb8gFb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:contest-the-mindfield]
 name: "Contest the Mindfield"
 full-name: "Contest the Mindfield (blue)"
 color: blue

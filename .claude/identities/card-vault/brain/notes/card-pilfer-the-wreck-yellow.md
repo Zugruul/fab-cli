@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid frFC8JrBBcmKCbDTjLbKc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pilfer-the-wreck]
 name: "Pilfer the Wreck"
 full-name: "Pilfer the Wreck (yellow)"
 color: yellow

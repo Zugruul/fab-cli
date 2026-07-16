@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TChD6cjwh6bQmkf7kQFqP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:take-it-on-the-chin]
 name: "Take it on the Chin"
 full-name: "Take it on the Chin (red)"
 color: red

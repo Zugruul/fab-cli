@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid FH6ffcgjbnGTRQTtwwWGh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:scuttle-the-canal]
 name: "Scuttle the Canal"
 full-name: "Scuttle the Canal (blue)"
 color: blue

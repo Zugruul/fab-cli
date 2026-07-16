@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid fBt7wHjJKcKKhftG6cGmW) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:security-script]
 name: "Security Script"
 full-name: "Security Script (blue)"
 color: blue

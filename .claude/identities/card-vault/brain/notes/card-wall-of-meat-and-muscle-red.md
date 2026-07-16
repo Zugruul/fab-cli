@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JrqgkhzCLT6cDgrhNjnKJ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:wall-of-meat-and-muscle]
 name: "Wall of Meat and Muscle"
 full-name: "Wall of Meat and Muscle (red)"
 color: red

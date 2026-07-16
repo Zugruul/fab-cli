@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid p9ccrThgrP8Jt6JNkcTGM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rift-breaker]
 name: "Rift Breaker"
 full-name: "Rift Breaker (blue)"
 color: blue

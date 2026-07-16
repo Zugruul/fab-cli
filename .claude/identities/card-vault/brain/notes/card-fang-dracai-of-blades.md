@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid P9DWCqqTwtKLnhNzLHnnp) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fang-dracai-of-blades]
 name: "Fang, Dracai of Blades"
 health: 40
 intelligence: 4

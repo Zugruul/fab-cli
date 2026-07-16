@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 88L7NzD77t8wk8QdnrwKR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shred]
 name: "Shred"
 full-name: "Shred (red)"
 color: red

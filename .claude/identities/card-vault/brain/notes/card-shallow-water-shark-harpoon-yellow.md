@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid LktKqzw6D9wQtcctzwKbF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shallow-water-shark-harpoon]
 name: "Shallow Water Shark Harpoon"
 full-name: "Shallow Water Shark Harpoon (yellow)"
 color: yellow

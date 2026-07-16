@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid B6QBPpJtzFp6btg87zpqH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spew-shadow]
 name: "Spew Shadow"
 full-name: "Spew Shadow (red)"
 color: red

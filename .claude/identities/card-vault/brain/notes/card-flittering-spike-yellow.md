@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NwMDbH6HdbCPLbKQCCqDh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flittering-spike]
 name: "Flittering Spike"
 full-name: "Flittering Spike (yellow)"
 color: yellow

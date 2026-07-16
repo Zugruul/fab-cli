@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pj9cPfwPz7mHkdwHhbdpf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hit-the-high-notes]
 name: "Hit the High Notes"
 full-name: "Hit the High Notes (yellow)"
 color: yellow

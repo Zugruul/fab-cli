@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Wg7zz9866gDH6BmjMNGd8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:battlefield-blitz]
 name: "Battlefield Blitz"
 full-name: "Battlefield Blitz (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7gkkzWWDprGtBpfq8QPWC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:helm-of-lignum-vitae]
 name: "Helm of Lignum Vitae"
 defense: 1
 talents: [Earth]

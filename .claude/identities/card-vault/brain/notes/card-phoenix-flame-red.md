@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kCbPmp8tjpdK8BFq9z9wQ) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:phoenix-flame]
 name: "Phoenix Flame"
 full-name: "Phoenix Flame (red)"
 color: red

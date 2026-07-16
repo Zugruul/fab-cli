@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gNPcP7pPgPCh6PCPBh9R8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:out-for-blood]
 name: "Out for Blood"
 full-name: "Out for Blood (red)"
 color: red

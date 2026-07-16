@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W8h8fMQhbjGr6hzDbFmq7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:iris-of-reality]
 name: "Iris of Reality"
 classes: [Illusionist]
 types: [Weapon]

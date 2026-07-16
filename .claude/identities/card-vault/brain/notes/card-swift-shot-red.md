@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wFhMnRGdkbwTt6CgpQLHP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:swift-shot]
 name: "Swift Shot"
 full-name: "Swift Shot (red)"
 color: red

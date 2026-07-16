@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wWhJNBLBzbpTBmQQDJMtj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:tribute-to-demolition]
 name: "Tribute to Demolition"
 full-name: "Tribute to Demolition (yellow)"
 color: yellow

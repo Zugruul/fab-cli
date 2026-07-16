@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid RT8TnMD9BHtJg8Fr6DLRF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:robe-of-astral-sanctuary]
 name: "Robe of Astral Sanctuary"
 defense: 0
 classes: [Generic]

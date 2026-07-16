@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid PCLwwwtFMQmLLpj6TD7hj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:song-of-jack-be-quick]
 name: "Song of Jack-be-Quick"
 full-name: "Song of Jack-be-Quick (blue)"
 color: blue

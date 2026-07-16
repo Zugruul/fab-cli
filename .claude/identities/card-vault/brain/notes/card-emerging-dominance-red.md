@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid jd9pfjNMhtjPhWPKqdnpg) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:emerging-dominance]
 name: "Emerging Dominance"
 full-name: "Emerging Dominance (red)"
 color: red

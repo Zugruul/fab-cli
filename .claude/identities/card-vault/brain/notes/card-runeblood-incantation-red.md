@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HP8HBbKwHCRChp7n7MgDB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:runeblood-incantation]
 name: "Runeblood Incantation"
 full-name: "Runeblood Incantation (red)"
 color: red

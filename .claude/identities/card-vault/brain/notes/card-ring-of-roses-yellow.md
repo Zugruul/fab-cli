@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCzFmGMk9nBPJPWMwdL97) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ring-of-roses]
 name: "Ring of Roses"
 full-name: "Ring of Roses (yellow)"
 color: yellow

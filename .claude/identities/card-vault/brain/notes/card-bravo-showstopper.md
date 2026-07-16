@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NtLDgPBR7HqDqhDzJMHmk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bravo-showstopper]
 name: "Bravo, Showstopper"
 health: 40
 intelligence: 4

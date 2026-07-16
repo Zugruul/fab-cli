@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid HGhtMHhF6dqdNccmNK7w8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dissipation-shield]
 name: "Dissipation Shield"
 full-name: "Dissipation Shield (yellow)"
 color: yellow

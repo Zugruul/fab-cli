@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mDRkDQmFkG6BhJrpqmRwr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spring-load]
 name: "Spring Load"
 full-name: "Spring Load (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6MTBD8qkFPNzGtNrtprL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:insult-to-injury]
 name: "Insult to Injury"
 full-name: "Insult to Injury (blue)"
 color: blue

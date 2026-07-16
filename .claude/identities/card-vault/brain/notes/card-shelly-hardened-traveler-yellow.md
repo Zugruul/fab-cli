@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rc7mWBhpMFfgWcfhmTJCN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shelly-hardened-traveler]
 name: "Shelly, Hardened Traveler"
 full-name: "Shelly, Hardened Traveler (yellow)"
 color: yellow

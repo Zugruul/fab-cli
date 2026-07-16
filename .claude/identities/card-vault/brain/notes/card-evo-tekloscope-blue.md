@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qCj8gpDLNQpKTNfhM8jbL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:evo-tekloscope]
 name: "Evo Tekloscope"
 full-name: "Evo Tekloscope (blue)"
 color: blue

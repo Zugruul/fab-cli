@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QbtQ6rBPTTD99TNC7PGRM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:even-bigger-than-that]
 name: "Even Bigger Than That!"
 full-name: "Even Bigger Than That! (yellow)"
 color: yellow

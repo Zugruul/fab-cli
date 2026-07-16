@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JdkJpKTbhNmzgKkBWffjk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:future-sight]
 name: "Future Sight"
 full-name: "Future Sight (blue)"
 color: blue

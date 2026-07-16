@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JnRGGfDChkHqpkHQpr6c8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:thrive]
 name: "Thrive"
 full-name: "Thrive (yellow)"
 color: yellow

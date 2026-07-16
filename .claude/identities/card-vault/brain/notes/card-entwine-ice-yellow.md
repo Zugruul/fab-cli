@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gt9gmN9KWC9cDJNbFH7KN) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:entwine-ice]
 name: "Entwine Ice"
 full-name: "Entwine Ice (yellow)"
 color: yellow

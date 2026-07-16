@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rjwJT7bmgDjKNjwgm7bKF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gauntlet-of-sword-and-sorcery]
 name: "Gauntlet of Sword and Sorcery"
 defense: 0
 classes: [Runeblade]

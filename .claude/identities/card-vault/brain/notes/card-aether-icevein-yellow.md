@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DJDqrcJFQNWHPfPjhQNG8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:aether-icevein]
 name: "Aether Icevein"
 full-name: "Aether Icevein (yellow)"
 color: yellow

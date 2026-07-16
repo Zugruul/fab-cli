@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7kwDMdkW6h7bMH8ctTjPC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:t-bone]
 name: "T-Bone"
 full-name: "T-Bone (red)"
 color: red

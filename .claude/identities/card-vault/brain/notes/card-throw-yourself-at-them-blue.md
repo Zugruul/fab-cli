@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid NKpphfCpKhWhntbBzBghc) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:throw-yourself-at-them]
 name: "Throw Yourself at Them"
 full-name: "Throw Yourself at Them (blue)"
 color: blue

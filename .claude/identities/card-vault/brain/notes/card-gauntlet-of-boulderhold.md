@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid GPRfKmdq6LnRwNQCG8jnR) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:gauntlet-of-boulderhold]
 name: "Gauntlet of Boulderhold"
 defense: 1
 classes: [Guardian]

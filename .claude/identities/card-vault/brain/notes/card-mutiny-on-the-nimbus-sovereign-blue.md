@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JnzNgM8krkHCW67dfWJLP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mutiny-on-the-nimbus-sovereign]
 name: "Mutiny on the Nimbus Sovereign"
 full-name: "Mutiny on the Nimbus Sovereign (blue)"
 color: blue

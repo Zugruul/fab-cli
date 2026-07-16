@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 8mP7k9zMRB7P6bnKCbKmr) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cutting-retort]
 name: "Cutting Retort"
 full-name: "Cutting Retort (red)"
 color: red

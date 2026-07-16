@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid CdDbm8CBpkbBRg9d6Hdck) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:two-steps-ahead]
 name: "Two Steps Ahead"
 full-name: "Two Steps Ahead (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid WMDBhmGwnGHT7MKf7dLdk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pathing-helix]
 name: "Pathing Helix"
 full-name: "Pathing Helix (red)"
 color: red

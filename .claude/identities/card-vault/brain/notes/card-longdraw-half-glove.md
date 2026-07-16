@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid tNBLJKrbDpBL9TMb678wM) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:longdraw-half-glove]
 name: "Longdraw Half-glove"
 defense: 1
 classes: [Ranger]

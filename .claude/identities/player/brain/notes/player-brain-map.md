@@ -5,6 +5,8 @@ strength: 1
 source: "internal"
 graduated: false
 created: 2026-07-10
+entities: [card:index, card:marked, card:overpower, card:silver]
+
 ---
 
 

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z6hzjr7zdqfrh8nQMf6CH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arousing-wave]
 name: "Arousing Wave"
 defense: 1
 classes: [Assassin]

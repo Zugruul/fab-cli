@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid T6w9bHBQFhbH9CbnqcTcz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arcanic-spike]
 name: "Arcanic Spike"
 full-name: "Arcanic Spike (yellow)"
 color: yellow

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid pBpLPQ7kg6mkBpNMMPdCD) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:heart-of-fyendal]
 name: "Heart of Fyendal"
 full-name: "Heart of Fyendal (blue)"
 color: blue

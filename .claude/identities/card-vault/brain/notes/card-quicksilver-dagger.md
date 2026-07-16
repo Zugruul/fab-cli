@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid MLc97c6bqmKcPCtNg9M9q) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:quicksilver-dagger]
 name: "Quicksilver Dagger"
 power: 1
 classes: [Warrior]

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid z9CGRWDmLHHRjKfjfmbWL) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:pick-up-the-point]
 name: "Pick Up the Point"
 full-name: "Pick Up the Point (yellow)"
 color: yellow

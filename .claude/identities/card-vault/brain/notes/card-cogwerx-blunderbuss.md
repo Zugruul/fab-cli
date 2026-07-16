@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mpNCNfJnPMdk9bgrkj8bB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:cogwerx-blunderbuss]
 name: "Cogwerx Blunderbuss"
 power: 2
 classes: [Mechanologist]

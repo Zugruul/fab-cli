@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid mkDw7d9PKRDtJT7bCCRjh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:maximum-velocity]
 name: "Maximum Velocity"
 full-name: "Maximum Velocity (red)"
 color: red

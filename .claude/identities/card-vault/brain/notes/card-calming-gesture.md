@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nDkh8FDGwNNpLghj6grmK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:calming-gesture]
 name: "Calming Gesture"
 classes: [Illusionist]
 types: [Equipment]

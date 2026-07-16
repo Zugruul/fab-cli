@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BwjpdtTFfBRTJHgKMM6rn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:first-tenet-of-chi-moon]
 name: "First Tenet of Chi: Moon"
 full-name: "First Tenet of Chi: Moon (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid gK8d8WKtqrRJKcNhff8Md) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:drill-shot]
 name: "Drill Shot"
 full-name: "Drill Shot (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DTzNKfTmjP6QLP8W8TpdF) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:little-big-foot]
 name: "Little Big Foot"
 full-name: "Little Big Foot (blue)"
 color: blue

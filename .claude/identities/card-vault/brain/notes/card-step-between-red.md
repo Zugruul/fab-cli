@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid BFczG87kDHQnkhk8FmJnP) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:step-between]
 name: "Step Between"
 full-name: "Step Between (red)"
 color: red

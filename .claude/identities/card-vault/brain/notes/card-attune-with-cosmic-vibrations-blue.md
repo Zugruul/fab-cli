@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QTk8NJWmtGQnw9WFTkkP7) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:attune-with-cosmic-vibrations]
 name: "Attune with Cosmic Vibrations"
 full-name: "Attune with Cosmic Vibrations (blue)"
 color: blue

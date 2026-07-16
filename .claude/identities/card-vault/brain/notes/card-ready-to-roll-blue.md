@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid ppcpmnFc99GT8bbwbCBth) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ready-to-roll]
 name: "Ready to Roll"
 full-name: "Ready to Roll (blue)"
 color: blue

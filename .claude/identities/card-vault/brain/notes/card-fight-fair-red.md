@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7ckBwwLJzbdbMHW7kWnNw) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fight-fair]
 name: "Fight Fair"
 full-name: "Fight Fair (red)"
 color: red

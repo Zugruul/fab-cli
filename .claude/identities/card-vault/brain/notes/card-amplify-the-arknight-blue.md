@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zmmpt8q8HqPFwPKK66Mjm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:amplify-the-arknight]
 name: "Amplify the Arknight"
 full-name: "Amplify the Arknight (blue)"
 color: blue

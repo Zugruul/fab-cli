@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid bjggdCWtfTmLNBzq8Jt9L) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:shimmers-of-silver]
 name: "Shimmers of Silver"
 full-name: "Shimmers of Silver (blue)"
 color: blue

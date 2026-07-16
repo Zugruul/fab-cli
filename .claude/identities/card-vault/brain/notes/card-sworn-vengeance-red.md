@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Dm9LL8NBBLmr7qchQ7cpn) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:sworn-vengeance]
 name: "Sworn Vengeance"
 full-name: "Sworn Vengeance (red)"
 color: red

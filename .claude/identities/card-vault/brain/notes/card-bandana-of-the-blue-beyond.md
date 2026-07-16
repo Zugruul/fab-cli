@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rFtnRCDzmJrrJwfJfWnFC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bandana-of-the-blue-beyond]
 name: "Bandana of the Blue Beyond"
 defense: 0
 classes: [Generic]

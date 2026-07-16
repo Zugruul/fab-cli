@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QTkWJ8jqCgbMCTcNpmMmC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hunters-klaive]
 name: "Hunter's Klaive"
 power: 1
 classes: [Assassin]

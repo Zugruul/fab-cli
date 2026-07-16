@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid rLgf6HdKBBDFTcJrkwgtT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hoist-em-up]
 name: "Hoist 'Em Up"
 full-name: "Hoist 'Em Up (red)"
 color: red

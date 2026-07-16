@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid JbrwN8cw6hzWNFg9cMrFH) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:hundred-winds]
 name: "Hundred Winds"
 full-name: "Hundred Winds (blue)"
 color: blue

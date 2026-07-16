@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid hRRgnn9nCqGDpqQNHhwJm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:rally-the-underdog]
 name: "Rally the Underdog"
 types: [Event]
 unique-id: hRRgnn9nCqGDpqQNHhwJm

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid nTrqQhGFhgg6HJGBWgjmq) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:smash-with-big-tree]
 name: "Smash with Big Tree"
 full-name: "Smash with Big Tree (yellow)"
 color: yellow

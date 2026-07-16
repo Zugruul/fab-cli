@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid wdGWQ6BQfP67F9Tb7CFGT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:overwhelming-swing]
 name: "Overwhelming Swing"
 full-name: "Overwhelming Swing (yellow)"
 color: yellow

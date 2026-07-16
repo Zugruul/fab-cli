@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid qgzjH8rNPpg6Jb6PgzggC) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:out-muscle]
 name: "Out Muscle"
 full-name: "Out Muscle (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid dQR8fwBWNN6HPz7tzBCbk) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:vigor-rush]
 name: "Vigor Rush"
 full-name: "Vigor Rush (red)"
 color: red

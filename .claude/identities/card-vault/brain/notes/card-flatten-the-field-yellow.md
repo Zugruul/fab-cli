@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 9TDdTNcJdThkBt9HwmJMK) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flatten-the-field]
 name: "Flatten the Field"
 full-name: "Flatten the Field (yellow)"
 color: yellow

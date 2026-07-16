@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Fg6Mc9mLLBCDFdrTpTpTB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:flamescale-furnace]
 name: "Flamescale Furnace"
 defense: 2
 talents: [Draconic]

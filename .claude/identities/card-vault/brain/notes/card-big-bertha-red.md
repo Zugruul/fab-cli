@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid zgRHgqkpfq7FTNgrjRnbj) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:big-bertha]
 name: "Big Bertha"
 full-name: "Big Bertha (red)"
 color: red

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid kcHGCkMphHJwgcNd7jJcz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:spark-spray]
 name: "Spark Spray"
 full-name: "Spark Spray (yellow)"
 color: yellow

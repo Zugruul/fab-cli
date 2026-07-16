@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid DWcKpdjNKBcK67WpPb9Qf) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ode-to-wrath]
 name: "Ode to Wrath"
 full-name: "Ode to Wrath (yellow)"
 color: yellow

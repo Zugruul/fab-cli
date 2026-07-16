@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid QmBfhgrGL6JDrhkn6ccg8) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:platinum-amulet]
 name: "Platinum Amulet"
 full-name: "Platinum Amulet (blue)"
 color: blue

@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6CRmnh6wbcGBJLpzwPf6M) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:bull-bar]
 name: "Bull Bar"
 full-name: "Bull Bar (red)"
 color: red

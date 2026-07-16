@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid TPJFqgd8n6gkwz7W9QDGm) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:fasting-carcass]
 name: "Fasting Carcass"
 full-name: "Fasting Carcass (yellow)"
 color: yellow

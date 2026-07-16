@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid W9G8Kpb9cNTqNqpm8nJdz) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:mask-of-wizened-whiskers]
 name: "Mask of Wizened Whiskers"
 defense: 1
 classes: [Ninja]

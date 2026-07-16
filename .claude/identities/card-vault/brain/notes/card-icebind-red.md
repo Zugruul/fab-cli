@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6wknmpgBbdgQBjD7LR6rb) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:icebind]
 name: "Icebind"
 full-name: "Icebind (red)"
 color: red

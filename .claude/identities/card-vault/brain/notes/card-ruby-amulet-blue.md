@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid chPNcp7C8zz7FFPhLkMrh) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:ruby-amulet]
 name: "Ruby Amulet"
 full-name: "Ruby Amulet (blue)"
 color: blue

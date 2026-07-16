@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6TdnF7dGqjJJcCBdKb98r) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:herald-of-ravages]
 name: "Herald of Ravages"
 full-name: "Herald of Ravages (red)"
 color: red

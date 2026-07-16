@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid Ddqz6QF9FNMT8qJjjr8Q9) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:dabble-in-darkness]
 name: "Dabble in Darkness"
 full-name: "Dabble in Darkness (red)"
 color: red

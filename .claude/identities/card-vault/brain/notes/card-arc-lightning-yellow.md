@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 7J87gL6NR9MjHMLM6cWGB) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:arc-lightning]
 name: "Arc Lightning"
 full-name: "Arc Lightning (yellow)"
 color: yellow

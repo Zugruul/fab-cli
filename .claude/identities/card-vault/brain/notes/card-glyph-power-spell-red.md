@@ -5,6 +5,7 @@ strength: 1
 source: "third_party/flesh-and-blood-cards json/english/card.json (uid 6KW6hmRbDRRcrThDpMDDT) · https://cardvault.fabtcg.com/"
 graduated: false
 created: 2026-07-10
+entities: [card:glyph-power-spell]
 name: "Glyph Power Spell"
 full-name: "Glyph Power Spell (red)"
 color: red
