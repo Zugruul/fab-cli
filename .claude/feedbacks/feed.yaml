@@ -1694,3 +1694,61 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/rebase-retro-commit-on-concurrent-push-rejection
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T22:05:00Z'
+iteration:
+  task: '10'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: testing
+  severity: medium
+  summary: A dev agent's self-reported 'gate green, format clean' was inaccurate for
+    its own final commit — the merged code had a real prettier violation the orchestrator's
+    own pre-merge gate run also missed
+  detail: An uncommitted local `prettier --write` appears to have silently reformatted
+    the working tree without a corresponding commit at some point, so a pre-merge
+    orchestrator gate run passed against a locally-patched tree that differed from
+    what the merged commit actually contained. The discrepancy only surfaced when
+    re-running the gate fresh on merged main post-merge.
+  evidence: []
+  generalized: Even an orchestrator's own 'I re-ran the gate myself' verification
+    can pass against a tree that silently differs from what's actually committed,
+    if an uncommitted local formatting fix (from any source — an editor, a stray command)
+    sits on top of the checked-out commit at verification time. The only fully trustworthy
+    gate run is one against a clean checkout of the exact commit being merged (e.g.
+    `git stash` or a fresh clone/worktree before the final verification), not just
+    'no uncommitted diff visible right now.'
+  routing:
+    action: brain-note
+    ref: orchestrator/gate-green-can-hide-uncommitted-local-fixes
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Code-quality review traced a subtle two-step-composition consistency bug
+    (a value derived from one function call's result vs. an independently re-fetched
+    version of the same underlying state) by reading the actual control-flow sequencing,
+    not just the final types
+  detail: A confidence signal was computed by re-reading persisted state after a prior
+    call could have mutated it mid-flight, rather than being derived from the exact
+    data structure already returned by that call — the reviewer traced the actual
+    sequencing (what gets written when, what gets read when) to find a case where
+    the two could diverge, then required a realistic (not artificially keyword-stuffed)
+    test proving the exact failure mode.
+  evidence: []
+  generalized: When two pieces of related output are computed by two separate calls/reads
+    against a shared, mutable underlying state (a re-fetched cache, a file re-read
+    from disk, a second query against a table another step just wrote to), the review
+    question is not 'do both calls type-check and return plausible values' but 'can
+    the two reads observe different snapshots of that shared state, and does anything
+    guarantee they can't.' Demanding a realistic reproduction (not a contrived worst-case)
+    keeps the fix targeted at the real risk.
+  routing:
+    action: brain-note
+    ref: reviewer/verify-fix-against-full-corpus
