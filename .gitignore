@@ -23,6 +23,9 @@ __pycache__/
 # Lore retrieval index — rebuilt from the fablore submodule via `fab-cli lore sync`
 lore/index.json
 lore/.sync-state.json
+
+# Rules KB — rebuilt via `fab-cli rules sync`
+kb/rules/
 .claude/CHECKPOINT
 .claude/ITERATIVE_UI_OFF
 .claude/ui-hub/

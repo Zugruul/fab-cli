@@ -77,11 +77,15 @@
   },
   {
     "path": ["rules"],
-    "output": "Usage: fab-cli rules [options] [command]\n\nOfficial FAB rules documents (CR, TRP, PPG) vendored in third_party/fab-rules\n\nOptions:\n  -h, --help             display help for command\n\nCommands:\n  update-docs [options]  Redownload the vendored rules documents; replace only\n                         if validated (size + content sentinel), refresh\n                         VERSIONS.txt\n  help [command]         display help for command\n"
+    "output": "Usage: fab-cli rules [options] [command]\n\nOfficial FAB rules documents (CR, TRP, PPG) vendored in third_party/fab-rules\n\nOptions:\n  -h, --help             display help for command\n\nCommands:\n  update-docs [options]  Redownload the vendored rules documents; replace only\n                         if validated (size + content sentinel), refresh\n                         VERSIONS.txt\n  sync                   Sync the full rules KB (CR, TRP, PPG, CPG, Card\n                         Legality Policy) into kb/rules/ — chunked, cited,\n                         versioned\n  help [command]         display help for command\n"
   },
   {
     "path": ["rules", "update-docs"],
     "output": "Usage: fab-cli rules update-docs [options]\n\nRedownload the vendored rules documents; replace only if validated (size +\ncontent sentinel), refresh VERSIONS.txt\n\nOptions:\n  --commit    Auto-commit third_party/fab-rules when a document actually changed\n  -h, --help  display help for command\n"
+  },
+  {
+    "path": ["rules", "sync"],
+    "output": "Usage: fab-cli rules sync [options]\n\nSync the full rules KB (CR, TRP, PPG, CPG, Card Legality Policy) into kb/rules/\n— chunked, cited, versioned\n\nOptions:\n  -h, --help  display help for command\n"
   },
   {
     "path": ["lore"],
