@@ -2,6 +2,7 @@ import { Command } from "commander";
 import chalk from "chalk";
 import { searchCards } from "../graphql";
 import { printCardsTable, printCardDetail } from "../display";
+import { fetchCardRulings } from "../cardvault";
 import {
   int,
   callWithToken,
@@ -228,6 +229,24 @@ export function registerCards(fabrary: Command): Command {
           chalk.dim(
             `+${cards.length - 1} more results. Run 'fab-cli fabrary cards search "${text}"' to see all.`,
           ),
+        );
+      }
+
+      const rulingsResult = await fetchCardRulings(cards[0].name);
+      if (rulingsResult === null) {
+        console.log(
+          chalk.dim("\nNot found on Card Vault — rulings unavailable."),
+        );
+      } else if (rulingsResult.rulings.length === 0) {
+        console.log(chalk.dim("\nNo official rulings."));
+      } else {
+        const { cardId, rulings } = rulingsResult;
+        console.log(chalk.magenta.bold("\nRulings:"));
+        for (const r of rulings) {
+          console.log(`  ${r.date ? chalk.dim(`[${r.date}] `) : ""}${r.text}`);
+        }
+        console.log(
+          chalk.dim(`Source: https://cardvault.fabtcg.com/card/${cardId}/`),
         );
       }
     });
