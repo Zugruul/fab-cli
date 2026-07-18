@@ -77,7 +77,7 @@
   },
   {
     "path": ["rules"],
-    "output": "Usage: fab-cli rules [options] [command]\n\nOfficial FAB rules documents (CR, TRP, PPG) vendored in third_party/fab-rules\n\nOptions:\n  -h, --help                   display help for command\n\nCommands:\n  update-docs [options]        Redownload the vendored rules documents; replace\n                               only if validated (size + content sentinel),\n                               refresh VERSIONS.txt\n  sync                         Sync the full rules KB (CR, TRP, PPG, CPG, Card\n                               Legality Policy) into kb/rules/ — chunked, cited,\n                               versioned\n  search [options] <query...>  Search the rules KB (CR/TRP/PPG/CPG/legality);\n                               auto-refreshes stale sources, always re-fetches\n                               legality live when it's among the results\n  show <ref>                   Print a rules chunk by ref (<document>/<section>,\n                               e.g. cr/1.1, or a section slug) + its source\n  help [command]               display help for command\n"
+    "output": "Usage: fab-cli rules [options] [command]\n\nOfficial FAB rules documents (CR, TRP, PPG) vendored in third_party/fab-rules\n\nOptions:\n  -h, --help                   display help for command\n\nCommands:\n  update-docs [options]        Redownload the vendored rules documents; replace\n                               only if validated (size + content sentinel),\n                               refresh VERSIONS.txt\n  sync                         Sync the full rules KB (CR, TRP, PPG, CPG, Card\n                               Legality Policy) into kb/rules/ — chunked, cited,\n                               versioned\n  search [options] <query...>  Search the rules KB (CR/TRP/PPG/CPG/legality);\n                               auto-refreshes stale sources, always re-fetches\n                               legality live when it's among the results\n  ask [options] <question...>  Retrieve + cite the most relevant rules passages\n                               for a question, always followed by the judge\n                               Discord #ask-a-judge escalation — this command\n                               retrieves and cites, it never generates an answer\n  show <ref>                   Print a rules chunk by ref (<document>/<section>,\n                               e.g. cr/1.1, or a section slug) + its source\n  help [command]               display help for command\n"
   },
   {
     "path": ["rules", "update-docs"],
@@ -90,6 +90,10 @@
   {
     "path": ["rules", "search"],
     "output": "Usage: fab-cli rules search [options] <query...>\n\nSearch the rules KB (CR/TRP/PPG/CPG/legality); auto-refreshes stale sources,\nalways re-fetches legality live when it's among the results\n\nOptions:\n  -n, --limit <n>  Max results (default: 8)\n  -h, --help       display help for command\n"
+  },
+  {
+    "path": ["rules", "ask"],
+    "output": "Usage: fab-cli rules ask [options] <question...>\n\nRetrieve + cite the most relevant rules passages for a question, always followed\nby the judge Discord #ask-a-judge escalation — this command retrieves and cites,\nit never generates an answer\n\nOptions:\n  -n, --limit <n>  Max passages (default: 8)\n  -h, --help       display help for command\n"
   },
   {
     "path": ["rules", "show"],

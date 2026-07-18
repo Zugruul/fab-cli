@@ -5,7 +5,9 @@ import {
   syncRules,
   searchRules,
   resolveRulesRef,
+  askRules,
   KB_RULES_DIR,
+  ASK_RULES_ESCALATION_FOOTER,
   type RulesChunk,
 } from "../rules";
 import { int } from "./util";
@@ -37,6 +39,21 @@ function makeSnippet(text: string, terms: string[], radius = 160): string {
     text.slice(start, end).replace(/\s+/g, " ").trim() +
     (end < text.length ? "…" : "")
   );
+}
+
+/** Shared result-list formatting, reused by both `rules search` and
+ *  `rules ask` (document/section/source_url/snippet — the citation format
+ *  every command that shows KB passages must match). */
+function printRulesResults(hits: RulesChunk[], query: string): void {
+  console.log(chalk.dim(`\n  ${hits.length} result(s) for "${query}"\n`));
+  const terms = tokenize(query);
+  for (const c of hits) {
+    console.log(
+      `  ${chalk.bold(c.title)}  ${chalk.dim(`[${c.document} ${c.section}]`)}`,
+    );
+    console.log(`  ${chalk.cyan(c.sourceUrl)}`);
+    console.log(`  ${chalk.dim(makeSnippet(c.text, terms))}\n`);
+  }
 }
 
 export function registerRules(program: Command): Command {
@@ -123,15 +140,29 @@ export function registerRules(program: Command): Command {
         console.log(chalk.yellow(`No rules found for "${query}".`));
         return;
       }
-      console.log(chalk.dim(`\n  ${hits.length} result(s) for "${query}"\n`));
-      const terms = tokenize(query);
-      for (const c of hits) {
-        console.log(
-          `  ${chalk.bold(c.title)}  ${chalk.dim(`[${c.document} ${c.section}]`)}`,
-        );
-        console.log(`  ${chalk.cyan(c.sourceUrl)}`);
-        console.log(`  ${chalk.dim(makeSnippet(c.text, terms))}\n`);
+      printRulesResults(hits, query);
+    });
+
+  rules
+    .command("ask <question...>")
+    .description(
+      "Retrieve + cite the most relevant rules passages for a question, always followed by the judge Discord #ask-a-judge escalation — this command retrieves and cites, it never generates an answer",
+    )
+    .option("-n, --limit <n>", "Max passages", int, 8)
+    .action(async (parts: string[], opts: { limit: number }) => {
+      const question = parts.join(" ");
+      const { passages, confident } = await askRules(question, {
+        limit: opts.limit,
+      });
+      if (passages.length) {
+        printRulesResults(passages, question);
+      } else {
+        console.log(chalk.yellow(`No rules passages found for "${question}".`));
       }
+      if (!confident) {
+        console.log(chalk.yellow("  passages don't clearly settle this —"));
+      }
+      console.log(`  ${chalk.cyan(ASK_RULES_ESCALATION_FOOTER)}`);
     });
 
   rules

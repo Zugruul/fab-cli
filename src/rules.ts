@@ -519,16 +519,26 @@ function countOccurrences(haystack: string, term: string): number {
   return n;
 }
 
+export interface ScoredRulesChunk {
+  chunk: RulesChunk;
+  score: number;
+  matchedTerms: number;
+  totalTerms: number;
+}
+
 /** Simple term-overlap ranking over `title`+`text`, matching src/lore.ts's
- *  existing search approach. Tie-broken by document then section. */
-export function rankRulesChunks(
+ *  existing search approach. Tie-broken by document then section. Returns
+ *  the per-chunk score breakdown alongside the chunk itself (used by
+ *  `askRules()` to judge confidence — see rankRulesChunks() below, which is
+ *  a thin projection over this, the single ranking implementation). */
+export function rankRulesChunksScored(
   chunks: RulesChunk[],
   query: string,
   limit = 8,
-): RulesChunk[] {
+): ScoredRulesChunk[] {
   const terms = [...new Set(tokenize(query))];
   if (!terms.length) return [];
-  const scored: { chunk: RulesChunk; score: number }[] = [];
+  const scored: ScoredRulesChunk[] = [];
   for (const chunk of chunks) {
     const title = chunk.title.toLowerCase();
     const text = chunk.text.toLowerCase();
@@ -542,7 +552,12 @@ export function rankRulesChunks(
     }
     if (!matched) continue;
     score += matched === terms.length ? 5 : 0; // bonus when all terms present
-    scored.push({ chunk, score });
+    scored.push({
+      chunk,
+      score,
+      matchedTerms: matched,
+      totalTerms: terms.length,
+    });
   }
   scored.sort(
     (a, b) =>
@@ -550,7 +565,17 @@ export function rankRulesChunks(
       a.chunk.document.localeCompare(b.chunk.document) ||
       a.chunk.section.localeCompare(b.chunk.section),
   );
-  return scored.slice(0, limit).map((s) => s.chunk);
+  return scored.slice(0, limit);
+}
+
+/** Ranked chunks only — a thin wrapper over `rankRulesChunksScored()`, kept
+ *  so there is exactly one ranking implementation. */
+export function rankRulesChunks(
+  chunks: RulesChunk[],
+  query: string,
+  limit = 8,
+): RulesChunk[] {
+  return rankRulesChunksScored(chunks, query, limit).map((r) => r.chunk);
 }
 
 /** Resolve a `showRulesChunk` ref: `<document>/<section>` (case-insensitive
@@ -627,13 +652,17 @@ export async function searchRules(
     results.some((c) => c.document === "legality"),
   );
   if (refreshed) {
-    results = results.map((c) =>
+    const patched = results.map((c) =>
       c.document === "legality"
         ? (refreshed.chunks.find(
             (rc) => rc.document === "legality" && rc.section === c.section,
           ) ?? c)
         : c,
     );
+    // The legality patch can change that chunk's score, so re-rank the
+    // (already-selected) patched set — otherwise `results`' order would
+    // silently go stale relative to the content it now holds.
+    results = rankRulesChunks(patched, query, patched.length);
   }
   return results;
 }
@@ -688,4 +717,47 @@ export async function showRulesChunk(
   opts: SearchRulesOptions = {},
 ): Promise<RulesChunk | null> {
   return (await resolveRulesRef(ref, opts)).chunk;
+}
+
+// ── ask (FAB-022) ────────────────────────────────────────────────────────
+
+export const JUDGE_DISCORD_URL =
+  "https://discord.com/channels/874145774135558164/1020649907314495528";
+
+/** Printed by `rules ask` on every single call, never conditionally
+ *  suppressed (§7.5, invariant I7) — the judge Discord #ask-a-judge channel
+ *  is the authoritative human backstop for every query, not just low-
+ *  confidence ones. */
+export const ASK_RULES_ESCALATION_FOOTER = `judge Discord #ask-a-judge — ${JUDGE_DISCORD_URL}`;
+
+export interface AskRulesResult {
+  /** Same RulesChunk objects searchRules() returns — retrieved KB text with
+   *  citations, never an LLM-generated summary (invariant I1). */
+  passages: RulesChunk[];
+  /** false => passages don't clearly settle the question; the caller must
+   *  additionally highlight the (always-present) escalation footer. */
+  confident: boolean;
+}
+
+/** Retrieve + cite the most relevant rules passages for a question. Pure
+ *  composition over `searchRules()` (reusing its TTL-refresh and
+ *  legality-live guarantees unchanged) plus a confidence judgment computed
+ *  from `rankRulesChunksScored()` over the same chunk set `searchRules()`
+ *  used, so the confidence signal can never disagree with the passages
+ *  actually returned. Does not generate/summarize an answer — retrieval and
+ *  citation only. */
+export async function askRules(
+  question: string,
+  opts: SearchRulesOptions = {},
+): Promise<AskRulesResult> {
+  const passages = await searchRules(question, opts);
+  // Score `passages` itself — the exact chunk set searchRules() returned —
+  // rather than re-reading the index from disk, which could reflect a
+  // legality refresh that happened mid-searchRules()-call and disagree with
+  // the passages actually shown.
+  const scored = rankRulesChunksScored(passages, question, passages.length);
+  const top = scored[0];
+  const confident =
+    passages.length > 0 && !!top && top.matchedTerms / top.totalTerms >= 0.5;
+  return { passages, confident };
 }
