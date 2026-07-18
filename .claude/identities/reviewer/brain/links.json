@@ -1,76 +1,76 @@
 {
   "assert-exact-values-not-just-counts->reproduce-gate-claims": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
-    "fires": 5,
+    "fires": 6,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "live-verification-over-fixtures->isolated-worktree-tdd-proof": {
-    "fires": 5,
+    "fires": 6,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "live-verification-over-fixtures->reproduce-gate-claims": {
-    "fires": 5,
+    "fires": 6,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "reproduce-dont-trust-the-shim->verify-claimed-language-semantics": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "reproduce-dont-trust-the-shim->verify-red-commit-by-running-it": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "self-referential-coverage-tests->verify-repo-pollution-claims-empirically": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "test-double-fidelity-check->verify-red-commit-by-running-it": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-claimed-language-semantics->bash-errexit-guard-audit": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-claimed-language-semantics->reproduce-dont-trust-the-shim": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-fix-against-full-corpus->assert-exact-values-not-just-counts": {
-    "fires": 1,
+    "fires": 2,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-fix-against-full-corpus->reproduce-gate-claims": {
-    "fires": 1,
+    "fires": 2,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-negative-controls-independently->reproduce-gate-claims": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-negative-controls-independently->self-referential-coverage-tests": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "verify-red-commit-by-running-it->test-double-fidelity-check": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
     "weight": 0.5
   }

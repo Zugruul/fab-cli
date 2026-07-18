@@ -1,5 +1,20 @@
 {
+  "gate-green-can-hide-uncommitted-local-fixes->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gate-green-can-hide-uncommitted-local-fixes->scoped-green-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "gh-pr-merge-worktree-branch-lock->gh-pr-merge-diverged-local": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gh-pr-merge-worktree-lock-recurs->gh-pr-merge-worktree-branch-lock": {
     "fires": 0,
     "last": null,
     "weight": 0.5
