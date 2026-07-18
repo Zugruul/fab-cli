@@ -50,6 +50,11 @@ export interface LocalSearchOptions {
   dbPath?: string;
 }
 
+// No invalidation on file mutation — a path's entry is cached for the process
+// lifetime once loaded. Fine for the real CLI (the vendored file doesn't
+// change mid-process) and for tests that use fixed fixture paths; a
+// hypothetical future test that mutates a fixture file mid-run and re-reads
+// it from the SAME path would get the stale cached array.
 const cacheByPath = new Map<string, LocalCard[]>();
 
 export function loadCardDb(dbPath: string = CARD_DB_PATH): LocalCard[] {

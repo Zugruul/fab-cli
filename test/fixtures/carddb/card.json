@@ -23,7 +23,7 @@
     "name": "Screeching Strike",
     "pitch": "1",
     "cost": "1",
-    "types": ["Attack Action"],
+    "types": ["Attack", "Action"],
     "card_keywords": ["Dominate"],
     "granted_keywords": [],
     "ability_and_effect_keywords": [],
