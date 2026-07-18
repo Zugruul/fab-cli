@@ -49,6 +49,11 @@
     "last": "2026-07-18",
     "weight": 0.5
   },
+  "verify-encoding-ambiguity-against-real-endpoint->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "verify-fix-against-full-corpus->assert-exact-values-not-just-counts": {
     "fires": 2,
     "last": "2026-07-18",
