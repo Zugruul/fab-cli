@@ -70,6 +70,9 @@ case "$cmd" in
     ;;
   rebase)
     if [ "$1" = "--abort" ]; then
+      if grep -q '^abort=fail$' "$dir/.fake-state" 2>/dev/null; then
+        exit 1
+      fi
       exit 0
     fi
     branch="$2"
@@ -313,6 +316,96 @@ describe("scripts/talishar-fork-sync.sh", () => {
     for (const repo of REPOS) {
       const dir = join(sb.thirdParty, repo.dir);
       expect(log).toContain(`git -C ${dir} fetch upstream`);
+    }
+  });
+
+  it("reports an error and keeps processing the remaining repos when a push fails", () => {
+    const sb = makeSandbox();
+    seedRepo(sb, "talishar", { mainCounts: [0, 2], state: ["push=fail"] });
+    seedRepo(sb, "talishar-fe", { mainCounts: [0, 0] });
+    seedRepo(sb, "talishar-cardimages", { mainCounts: [0, 0] });
+
+    const { stdout, status } = run(sb);
+    expect(status).not.toBe(0);
+
+    const dir = join(sb.thirdParty, "talishar");
+    const log = readFileSync(sb.log, "utf8");
+    expect(log).toContain(`git -C ${dir} merge --ff-only upstream/main`);
+    expect(log).toContain(`git -C ${dir} push origin main`);
+    expect(stdout).toMatch(
+      /^error: .*talishar push origin main failed — skipping, check manually$/m,
+    );
+    // must not claim success for the repo whose push actually failed
+    expect(stdout).not.toMatch(/^synced: .*talishar /m);
+
+    // the other two repos are still fully processed, not aborted
+    for (const other of ["talishar-fe", "talishar-cardimages"]) {
+      const otherDir = join(sb.thirdParty, other);
+      expect(log).toContain(`git -C ${otherDir} fetch upstream`);
+      expect(stdout).toMatch(
+        new RegExp(
+          `^ok: ${otherDir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+          "m",
+        ),
+      );
+    }
+  });
+
+  it("reports an error and keeps processing the remaining repos when the ff-only merge fails", () => {
+    const sb = makeSandbox();
+    seedRepo(sb, "talishar", { mainCounts: [0, 2], state: ["merge=fail"] });
+    seedRepo(sb, "talishar-fe", { mainCounts: [0, 0] });
+    seedRepo(sb, "talishar-cardimages", { mainCounts: [0, 0] });
+
+    const { stdout, status } = run(sb);
+    expect(status).not.toBe(0);
+
+    const dir = join(sb.thirdParty, "talishar");
+    const log = readFileSync(sb.log, "utf8");
+    expect(log).toContain(`git -C ${dir} merge --ff-only upstream/main`);
+    // a failed merge must never be followed by a push attempt
+    expect(log).not.toContain(`git -C ${dir} push origin main`);
+    expect(stdout).toMatch(
+      /^error: .*talishar merge --ff-only failed — skipping, check manually$/m,
+    );
+
+    for (const other of ["talishar-fe", "talishar-cardimages"]) {
+      const otherDir = join(sb.thirdParty, other);
+      expect(log).toContain(`git -C ${otherDir} fetch upstream`);
+      expect(stdout).toMatch(
+        new RegExp(
+          `^ok: ${otherDir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+          "m",
+        ),
+      );
+    }
+  });
+
+  it("reports an error instead of dying when `git rebase --abort` itself fails, and keeps processing", () => {
+    const sb = makeSandbox();
+    seedRepo(sb, "talishar", {
+      mainCounts: [0, 1],
+      branches: ["feat/x"],
+      branchCounts: { "feat/x": [1, 1] },
+      state: ["rebase-feat/x=fail", "abort=fail"],
+    });
+    seedRepo(sb, "talishar-fe", { mainCounts: [0, 0] });
+    seedRepo(sb, "talishar-cardimages", { mainCounts: [0, 0] });
+
+    const { stdout, status } = run(sb, ["--rebase-branches"]);
+    expect(status).not.toBe(0);
+
+    const dir = join(sb.thirdParty, "talishar");
+    const log = readFileSync(sb.log, "utf8");
+    expect(log).toContain(`git -C ${dir} rebase main feat/x`);
+    expect(log).toContain(`git -C ${dir} rebase --abort`);
+    expect(stdout).toMatch(
+      /^error: .*talishar rebase --abort \(feat\/x\) failed — skipping, check manually$/m,
+    );
+
+    for (const other of ["talishar-fe", "talishar-cardimages"]) {
+      const otherDir = join(sb.thirdParty, other);
+      expect(log).toContain(`git -C ${otherDir} fetch upstream`);
     }
   });
 });
