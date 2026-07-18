@@ -2,10 +2,7 @@ import * as path from "path";
 import { describe, it, expect, vi, afterEach } from "vitest";
 import { loadCardDb, searchLocalCards } from "../src/carddb";
 
-const FIXTURE_DB_PATH = path.resolve(
-  __dirname,
-  "fixtures/carddb/card.json",
-);
+const FIXTURE_DB_PATH = path.resolve(__dirname, "fixtures/carddb/card.json");
 
 describe("carddb — loadCardDb", () => {
   afterEach(() => {
@@ -25,7 +22,10 @@ describe("carddb — loadCardDb", () => {
   });
 
   it("throws a helpful error when dbPath does not exist", () => {
-    const missing = path.resolve(__dirname, "fixtures/carddb/does-not-exist.json");
+    const missing = path.resolve(
+      __dirname,
+      "fixtures/carddb/does-not-exist.json",
+    );
     expect(() => loadCardDb(missing)).toThrow(/card DB missing/);
     expect(() => loadCardDb(missing)).toThrow(missing);
   });
