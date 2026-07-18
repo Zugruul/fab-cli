@@ -119,6 +119,22 @@ describe("matchRulesChunks — ref resolution (pure, no I/O)", () => {
   it("returns no matches for an unknown ref", () => {
     expect(matchRulesChunks(chunks, "cr/9.9")).toEqual([]);
   });
+
+  it("returns multiple candidates for a bare-slug ref that collides across documents (real case: CR/TRP/PPG all have a section '1.1')", () => {
+    const collidingChunks: RulesChunk[] = [
+      { ...chunks[0], document: "CR", section: "1.1", title: "Players" },
+      {
+        ...chunks[0],
+        document: "TRP",
+        section: "1.1",
+        title: "Event and Tournament Types",
+      },
+      { ...chunks[0], document: "PPG", section: "1.1", title: "Philosophy" },
+    ];
+    const m = matchRulesChunks(collidingChunks, "1.1");
+    expect(m.length).toBe(3);
+    expect(m.map((c) => c.document).sort()).toEqual(["CR", "PPG", "TRP"]);
+  });
 });
 
 describe("searchRules / showRulesChunk — TTL refresh + legality-live", () => {
@@ -296,6 +312,21 @@ describe("searchRules / showRulesChunk — TTL refresh + legality-live", () => {
     });
     expect(chunk).toBeNull();
     expect(candidates).toEqual([]);
+  });
+
+  it("resolveRulesRef returns multiple candidates for a bare-slug ref that genuinely collides across documents (CR/TRP/PPG all seed a section '1')", async () => {
+    await buildFreshKb();
+    const { chunk, candidates } = await resolveRulesRef("1", {
+      kbDir,
+      ttlMs: 999_999_999,
+    });
+    expect(chunk).toBeNull();
+    expect(candidates.length).toBe(3);
+    expect(candidates.map((c) => c.document).sort()).toEqual([
+      "CR",
+      "PPG",
+      "TRP",
+    ]);
   });
 
   it("refreshLegality() is the same function syncRules() uses internally (no drift) — calling it standalone updates the on-disk chunk", async () => {
