@@ -49,6 +49,43 @@ function standingsHtml(rows: Array<[number, string, string, number]>): string {
   return `<table>${trs}</table>`;
 }
 
+function matchRow(opts: {
+  player1: string;
+  player1Hero: string;
+  player2: string;
+  player2Hero: string;
+  winner: 1 | 2;
+}): string {
+  const winnerText = opts.winner === 1 ? "Player 1 Win" : "Player 2 Win";
+  return `<tr class="match-row">
+    <td class="player-1-cell"><div class="player-text"><strong>${opts.player1}</strong><br/><span>${opts.player1Hero}</span></div></td>
+    <td class="vs-cell"><span class="winner-pill">${winnerText}</span></td>
+    <td class="player-2-cell"><div class="player-text"><strong>${opts.player2}</strong><br/><span>${opts.player2Hero}</span></div></td>
+  </tr>`;
+}
+
+function decklistSearchResult(opts: {
+  slug: string;
+  url: string;
+  player: string;
+  hero: string;
+  event: string;
+}) {
+  return {
+    slug: opts.slug,
+    link: opts.url,
+    cmb2: {
+      decklist_auto_fields: {
+        decklist_hero: opts.hero,
+        decklist_player_name: opts.player,
+        decklist_event_name: opts.event,
+      },
+    },
+  };
+}
+
+const DECKLIST_HTML = `<!doctype html><html><body><h1>Alice's list</h1></body></html>`;
+
 describe("--json flag: fabtcg events/coverage", () => {
   let mock: MockAgentHandle;
   const logs: string[] = [];
@@ -210,5 +247,391 @@ describe("--json flag: fabtcg events/coverage", () => {
     const parsed = JSON.parse(logs[0]);
     expect(parsed).toHaveProperty("standings");
     expect(parsed).toHaveProperty("field");
+  });
+
+  it("fabtcg coverage <event> --decklists --json emits { index, decklists } (list only, no player)", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) =>
+          p.startsWith("/api/wp/v2/decklist?") && p.includes("search="),
+        method: "GET",
+      })
+      .reply(
+        200,
+        JSON.stringify([
+          decklistSearchResult({
+            slug: "alice-pro-tour-example",
+            url: "https://fabtcg.com/decklists/alice-pro-tour-example/",
+            player: "Alice",
+            hero: "Prism, Awakener of Sol",
+            event: "Pro Tour Example",
+          }),
+        ]),
+        { headers: { "content-type": "application/json" } },
+      );
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      ["fabtcg", "coverage", "pro-tour-example", "--decklists", "--json"],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.decklists).toEqual([
+      {
+        slug: "alice-pro-tour-example",
+        url: "https://fabtcg.com/decklists/alice-pro-tour-example/",
+        player: "Alice",
+        hero: "Prism, Awakener of Sol",
+        event: "Pro Tour Example",
+        format: null,
+      },
+    ]);
+    expect(parsed).not.toHaveProperty("decklist");
+  });
+
+  it("fabtcg coverage <event> --decklists --player <name> --json resolves a single match to { decklist }", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+    const meta = decklistSearchResult({
+      slug: "alice-pro-tour-example",
+      url: "https://fabtcg.com/decklists/alice-pro-tour-example/",
+      player: "Alice",
+      hero: "Prism, Awakener of Sol",
+      event: "Pro Tour Example",
+    });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) =>
+          p.startsWith("/api/wp/v2/decklist?") && p.includes("search="),
+        method: "GET",
+      })
+      .reply(200, JSON.stringify([meta]), {
+        headers: { "content-type": "application/json" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/api/wp/v2/decklist?slug=alice-pro-tour-example",
+        method: "GET",
+      })
+      .reply(200, JSON.stringify([meta]), {
+        headers: { "content-type": "application/json" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/decklists/alice-pro-tour-example/",
+        method: "GET",
+      })
+      .reply(200, DECKLIST_HTML, { headers: { "content-type": "text/html" } });
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      [
+        "fabtcg",
+        "coverage",
+        "pro-tour-example",
+        "--decklists",
+        "--player",
+        "Alice",
+        "--json",
+      ],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.decklists).toHaveLength(1);
+    expect(parsed.decklist).toMatchObject({
+      slug: "alice-pro-tour-example",
+      player: "Alice",
+      hero: "Prism, Awakener of Sol",
+      equipment: [],
+      mainDeck: [],
+    });
+  });
+
+  it("fabtcg coverage <event> --player <name> --json emits { decklists: [] } when nothing matches", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) =>
+          p.startsWith("/api/wp/v2/decklist?") && p.includes("search="),
+        method: "GET",
+      })
+      .reply(200, "[]", { headers: { "content-type": "application/json" } });
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      [
+        "fabtcg",
+        "coverage",
+        "pro-tour-example",
+        "--player",
+        "Nobody",
+        "--json",
+      ],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.decklists).toEqual([]);
+    expect(parsed).not.toHaveProperty("decklist");
+  });
+
+  it("fabtcg coverage <event> --player <name> --json emits only { decklists } (no decklist key) when multiple match", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) =>
+          p.startsWith("/api/wp/v2/decklist?") && p.includes("search="),
+        method: "GET",
+      })
+      .reply(
+        200,
+        JSON.stringify([
+          decklistSearchResult({
+            slug: "alice-cc-pro-tour-example",
+            url: "https://fabtcg.com/decklists/alice-cc-pro-tour-example/",
+            player: "Alice",
+            hero: "Prism, Awakener of Sol",
+            event: "Pro Tour Example",
+          }),
+          decklistSearchResult({
+            slug: "alice-sa-pro-tour-example",
+            url: "https://fabtcg.com/decklists/alice-sa-pro-tour-example/",
+            player: "Alice",
+            hero: "Iyslander, Stormbind",
+            event: "Pro Tour Example",
+          }),
+        ]),
+        { headers: { "content-type": "application/json" } },
+      );
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      ["fabtcg", "coverage", "pro-tour-example", "--player", "Alice", "--json"],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.decklists).toHaveLength(2);
+    expect(parsed).not.toHaveProperty("decklist");
+  });
+
+  it("fabtcg coverage <event> --path <name> --json emits { index, path } when found", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      })
+      .persist();
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/coverage/pro-tour-example/results/1/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        `<table>${matchRow({
+          player1: "Alice",
+          player1Hero: "Dorinthea",
+          player2: "Bob",
+          player2Hero: "Prism",
+          winner: 1,
+        })}</table>`,
+        { headers: { "content-type": "text/html" } },
+      )
+      .persist();
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      ["fabtcg", "coverage", "pro-tour-example", "--path", "Alice", "--json"],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.path).toBeTruthy();
+    expect(parsed.path.player).toBe("Alice");
+    expect(parsed.path.wins).toBe(1);
+    expect(parsed.path.rounds).toHaveLength(1);
+  });
+
+  it("fabtcg coverage <event> --path <name> --json emits { path: null } (explicit) when no pairings found", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      })
+      .persist();
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/coverage/pro-tour-example/results/1/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        `<table>${matchRow({
+          player1: "Alice",
+          player1Hero: "Dorinthea",
+          player2: "Bob",
+          player2Hero: "Prism",
+          winner: 1,
+        })}</table>`,
+        { headers: { "content-type": "text/html" } },
+      )
+      .persist();
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      ["fabtcg", "coverage", "pro-tour-example", "--path", "Nobody", "--json"],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed).toHaveProperty("path");
+    expect(parsed.path).toBeNull();
+  });
+
+  it("fabtcg coverage <event> --search-player <name> --json emits { searchMatches: [] } when nothing matches", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/coverage/pro-tour-example/results/1/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        `<table>${matchRow({
+          player1: "Alice",
+          player1Hero: "Dorinthea",
+          player2: "Bob",
+          player2Hero: "Prism",
+          winner: 1,
+        })}</table>`,
+        { headers: { "content-type": "text/html" } },
+      );
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      [
+        "fabtcg",
+        "coverage",
+        "pro-tour-example",
+        "--search-player",
+        "Nobody",
+        "--json",
+      ],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.searchMatches).toEqual([]);
+    expect(parsed).not.toHaveProperty("path");
+  });
+
+  it("fabtcg coverage <event> --search-player <name> --json auto-runs path for a single match, emitting { searchMatches, path }", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      })
+      .persist();
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/coverage/pro-tour-example/results/1/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        `<table>${matchRow({
+          player1: "Alice",
+          player1Hero: "Dorinthea",
+          player2: "Bob",
+          player2Hero: "Prism",
+          winner: 1,
+        })}</table>`,
+        { headers: { "content-type": "text/html" } },
+      )
+      .persist();
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      [
+        "fabtcg",
+        "coverage",
+        "pro-tour-example",
+        "--search-player",
+        "Alice",
+        "--json",
+      ],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.searchMatches).toEqual([
+      { name: "Alice", hero: "Dorinthea" },
+    ]);
+    expect(parsed.path).toBeTruthy();
+    expect(parsed.path.player).toBe("Alice");
+  });
+
+  it("fabtcg coverage <event> --search-player <name> --json emits only { searchMatches } (no path key) when multiple match", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/coverage/pro-tour-example/results/1/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        `<table>${matchRow({
+          player1: "Alice One",
+          player1Hero: "Dorinthea",
+          player2: "Alice Two",
+          player2Hero: "Prism",
+          winner: 1,
+        })}</table>`,
+        { headers: { "content-type": "text/html" } },
+      );
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      [
+        "fabtcg",
+        "coverage",
+        "pro-tour-example",
+        "--search-player",
+        "Alice",
+        "--json",
+      ],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[0]);
+    expect(parsed.searchMatches).toHaveLength(2);
+    expect(parsed).not.toHaveProperty("path");
   });
 });

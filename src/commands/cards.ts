@@ -2,7 +2,13 @@ import { Command } from "commander";
 import chalk from "chalk";
 import { searchCards } from "../graphql";
 import { printCardsTable, printCardDetail } from "../display";
-import { int, callWithToken, wantsJson, printJson } from "./util";
+import {
+  int,
+  callWithToken,
+  wantsJson,
+  printJson,
+  progressWrite,
+} from "./util";
 
 export function registerCards(fabrary: Command): Command {
   const cardsCmd = fabrary
@@ -178,9 +184,9 @@ export function registerCards(fabrary: Command): Command {
 
         const text = [...words, ...filters].join(" ");
         const json = wantsJson(command);
-        if (!json) process.stdout.write(chalk.dim("Searching cards…\r"));
+        progressWrite(json, chalk.dim("Searching cards…\r"));
         const cards = await callWithToken((t) => searchCards(t, text));
-        if (!json) process.stdout.write("                  \r");
+        progressWrite(json, "                  \r");
 
         const display = opts.limit ? cards.slice(0, opts.limit) : cards;
         if (json) {
@@ -201,9 +207,9 @@ export function registerCards(fabrary: Command): Command {
     .action(async (words: string[], _opts: unknown, command: Command) => {
       const text = words.join(" ");
       const json = wantsJson(command);
-      if (!json) process.stdout.write(chalk.dim("Searching…\r"));
+      progressWrite(json, chalk.dim("Searching…\r"));
       const cards = await callWithToken((t) => searchCards(t, text));
-      if (!json) process.stdout.write("           \r");
+      progressWrite(json, "           \r");
       if (cards.length === 0) {
         if (json) {
           printJson({ card: null });

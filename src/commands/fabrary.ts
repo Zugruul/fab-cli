@@ -10,6 +10,7 @@ import {
   computeWinRate,
   pLimit,
 } from "../graphql";
+import type { DeckCard } from "../graphql";
 import {
   printDecksTable,
   printTopTable,
@@ -555,16 +556,10 @@ export function registerFabrary(program: Command): Command {
             );
             process.exit(1);
           }
-          const matchupCards = versionInfo.cards
-            .map((c) => {
-              const override = c.matchupQuantities?.find(
-                (mq) => mq.matchupId === matchup.matchupId,
-              );
-              const qty =
-                override !== undefined ? override.quantity : c.quantity;
-              return { cardIdentifier: c.cardIdentifier, quantity: qty };
-            })
-            .filter((c) => c.quantity > 0);
+          const matchupCards = cardsForMatchup(
+            versionInfo.cards,
+            matchup.matchupId,
+          );
           if (json) {
             printJson({ deck, matchup, cards: matchupCards });
             return;
@@ -592,19 +587,10 @@ export function registerFabrary(program: Command): Command {
             };
           }
           if (showAll || opts.matchupsOnly) {
-            out.matchups = versionInfo.matchups.map((m) => {
-              const cards = versionInfo.cards
-                .map((c) => {
-                  const override = c.matchupQuantities?.find(
-                    (mq) => mq.matchupId === m.matchupId,
-                  );
-                  const qty =
-                    override !== undefined ? override.quantity : c.quantity;
-                  return { cardIdentifier: c.cardIdentifier, quantity: qty };
-                })
-                .filter((c) => c.quantity > 0);
-              return { matchup: m, cards };
-            });
+            out.matchups = versionInfo.matchups.map((m) => ({
+              matchup: m,
+              cards: cardsForMatchup(versionInfo.cards, m.matchupId),
+            }));
           }
           if (showAll || opts.statsOnly) {
             out.stats = { deckName: deck.name, deckStats, resultStats };
@@ -818,4 +804,21 @@ function buildSearchOpts(opts: {
 function filterByDays(decks: AlgoliaDeck[], days: number): AlgoliaDeck[] {
   const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
   return decks.filter((d) => new Date(d.updatedAt).getTime() >= cutoff);
+}
+
+/** Card list for one matchup — quantity falls back to the base deck quantity
+ *  when the matchup has no override for that card. */
+function cardsForMatchup(
+  cards: DeckCard[],
+  matchupId: string,
+): { cardIdentifier: string; quantity: number }[] {
+  return cards
+    .map((c) => {
+      const override = c.matchupQuantities?.find(
+        (mq) => mq.matchupId === matchupId,
+      );
+      const qty = override !== undefined ? override.quantity : c.quantity;
+      return { cardIdentifier: c.cardIdentifier, quantity: qty };
+    })
+    .filter((c) => c.quantity > 0);
 }
