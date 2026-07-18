@@ -53,7 +53,8 @@ function interceptReprisePage(
     .intercept({
       path: (p: string) =>
         p.startsWith("/api/wp/v2/posts?") &&
-        p.includes("search=rules%20reprise") &&
+        p.includes("search=rules") &&
+        p.includes("reprise") &&
         p.includes(`page=${page}`),
       method: "GET",
     })
@@ -339,10 +340,11 @@ describe("syncReprise — failure isolation", () => {
   }, 10_000);
 
   it("does not partially replace the reprise chunk set when a later page in the same sync fails (all-or-nothing per source)", async () => {
-    // Seed a prior successful reprise sync directly via syncReprise (one page).
+    // Seed a prior successful reprise sync directly via syncReprise (one
+    // short page — perPage=2 with a single result stops after page 1).
     interceptReprisePage(mock, 1, [wpPost()]);
     const seeded = await syncReprise(kbDir, "2026-07-18T00:00:00.000Z", {
-      perPage: 1,
+      perPage: 2,
     });
     expect(seeded.status).toBe("ok");
     const priorFile = path.join(

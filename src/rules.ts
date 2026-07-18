@@ -28,7 +28,13 @@ export const LEGALITY_URL =
   "https://fabtcg.com/rules-and-policy-center/card-legality-policy/";
 export const RULES_TXT_BASE = "https://rules.fabtcg.com/txt/latest";
 
-export type RulesDocument = "CR" | "TRP" | "PPG" | "CPG" | "legality";
+export type RulesDocument =
+  | "CR"
+  | "TRP"
+  | "PPG"
+  | "CPG"
+  | "legality"
+  | "reprise";
 
 export interface RulesChunk {
   document: RulesDocument;
@@ -62,6 +68,8 @@ export interface SyncRulesOptions {
   kbDir?: string;
   /** Override the vendored third_party/fab-rules/ directory (for tests). */
   rulesDir?: string;
+  /** Override the Rules Reprise WP search endpoint base URL (for tests). */
+  repriseUrl?: string;
 }
 
 // ── chunk file I/O ──────────────────────────────────────────────────────────
@@ -369,17 +377,26 @@ function extractMainHtml(html: string): string {
   return main ? main[1] : html;
 }
 
-function stripHtml(html: string): string {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
+// Shared by stripHtml() (full tag-stripping) and the reprise title mapping
+// (which only needs entity decoding — WP escapes titles too, but they're
+// already plain text with no tags to strip).
+function decodeEntities(s: string): string {
+  return s
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#0?39;/g, "'")
-    .replace(/&nbsp;/g, " ")
+    .replace(/&nbsp;/g, " ");
+}
+
+function stripHtml(html: string): string {
+  return decodeEntities(
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " "),
+  )
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -434,6 +451,89 @@ export async function refreshLegality(
   }
 }
 
+// ── Rules Reprise / release-notes ingestion (FAB-024) ───────────────────────
+
+// No dedicated WP category/tag reliably scopes Rules Reprise articles
+// (confirmed live during design) — free-text search on the series name is
+// the only mechanism that reliably surfaces every sampled article.
+export const REPRISE_SEARCH_URL = "https://fabtcg.com/api/wp/v2/posts";
+const REPRISE_QUERY = "rules reprise";
+const REPRISE_PER_PAGE = 50;
+// Safety rail, not an expected limit — the live corpus is dozens, not
+// hundreds, of articles.
+export const MAX_REPRISE_ARTICLES = 200;
+
+interface WpPost {
+  slug: string;
+  date: string;
+  link: string;
+  title: { rendered: string };
+  content: { rendered: string };
+}
+
+export interface RefreshRepriseOptions {
+  /** Override the WP posts search endpoint base URL (for tests). */
+  repriseUrl?: string;
+  /** Override the page size (for tests). */
+  perPage?: number;
+}
+
+/** Paginate `search=rules+reprise` until a page returns fewer than
+ *  `perPage` results, capped at MAX_REPRISE_ARTICLES. Any page's fetch
+ *  failing throws, propagating to syncReprise()'s whole-source failure
+ *  handling (matching the CPG/CR all-or-nothing-per-source precedent). */
+async function fetchRepriseArticles(
+  baseUrl: string,
+  perPage: number,
+): Promise<WpPost[]> {
+  const posts: WpPost[] = [];
+  for (let page = 1; posts.length < MAX_REPRISE_ARTICLES; page++) {
+    const url = `${baseUrl}?search=${encodeURIComponent(REPRISE_QUERY)}&per_page=${perPage}&page=${page}`;
+    const res = await httpFetch(url, { preset: "fabtcgJson" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = (await res.json()) as WpPost[];
+    posts.push(...data);
+    if (data.length < perPage) break;
+  }
+  return posts.slice(0, MAX_REPRISE_ARTICLES);
+}
+
+/** Sync Rules Reprise articles from fabtcg.com's WordPress REST API into
+ *  `kb/rules/reprise/` — one chunk per article (not sub-sectioned), same
+ *  pattern as syncCpg/refreshLegality: per-source failure isolation, whole-
+ *  source atomicity via replaceChunks' "only replace on success" semantics.
+ *  Follows the same TTL-refresh model as CR/TRP/PPG (NOT legality's
+ *  always-live model) — called once per syncRules() orchestration pass. */
+export async function syncReprise(
+  kbDir: string,
+  fetchedAt: string,
+  opts: RefreshRepriseOptions = {},
+): Promise<RulesSyncResult> {
+  const baseUrl = opts.repriseUrl ?? REPRISE_SEARCH_URL;
+  const perPage = opts.perPage ?? REPRISE_PER_PAGE;
+  try {
+    const posts = await fetchRepriseArticles(baseUrl, perPage);
+    const chunks: RulesChunk[] = posts.map((p) => ({
+      document: "reprise",
+      section: p.slug,
+      title: decodeEntities(p.title.rendered).trim(),
+      sourceUrl: p.link,
+      version: p.date,
+      fetchedAt,
+      text: stripHtml(p.content.rendered),
+    }));
+    replaceChunks(kbDir, "reprise", chunks);
+    return { document: "reprise", chunks: chunks.length, status: "ok" };
+  } catch (e) {
+    return {
+      document: "reprise",
+      chunks: countExistingChunks(kbDir, "reprise"),
+      status: "failed",
+      detail: (e as Error).message,
+    };
+  }
+}
+
 // ── orchestration ────────────────────────────────────────────────────────
 
 /** Sync the full rules KB (CR, TRP, PPG, CPG, legality) into kb/rules/.
@@ -462,6 +562,9 @@ export async function syncRules(
   }
   results.push(await syncCpg(kbDir, fetchedAt, cpgPdfPath));
   results.push(await refreshLegality({ kbDir, legalityUrl }));
+  results.push(
+    await syncReprise(kbDir, fetchedAt, { repriseUrl: opts.repriseUrl }),
+  );
 
   rebuildIndex(kbDir);
   return results;

@@ -297,7 +297,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
     expect(results.every((r) => r.status === "ok")).toBe(true);
     expect(results.map((r) => r.document).sort()).toEqual(
-      ["CPG", "CR", "PPG", "TRP", "legality"].sort(),
+      ["CPG", "CR", "PPG", "TRP", "legality", "reprise"].sort(),
     );
 
     const crFile = fs.readFileSync(path.join(kbDir, "cr", "1-1.md"), "utf8");
