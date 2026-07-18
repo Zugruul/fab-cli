@@ -1,57 +1,57 @@
 {
   "bash-if-guard-disables-errexit-in-function->per-item-loop-three-default-cases": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "bash-if-guard-disables-errexit-in-function->shell-test-vitest-path-shims": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "exhaustive-pattern-tables->test-must-falsify": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "git-remote-repair-set-url-or-add->shell-test-vitest-path-shims": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "macos-missing-binary-tests-need-empty-path->shell-test-vitest-path-shims": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "per-item-loop-three-default-cases->bash-if-guard-disables-errexit-in-function": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "pricing-cache-contract->scoped-green-verification": {
-    "fires": 5,
+    "fires": 6,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "regex-fix-scan-whole-file->scoped-green-verification": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "scoped-green-verification->pricing-cache-contract": {
-    "fires": 5,
+    "fires": 6,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "shell-test-vitest-path-shims->git-remote-repair-set-url-or-add": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "shell-test-vitest-path-shims->macos-missing-binary-tests-need-empty-path": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "sibling-pattern-parity->pricing-cache-contract": {
@@ -70,17 +70,17 @@
     "weight": 0.5
   },
   "test-must-falsify->untyped-api-optional-fields": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "untyped-api-optional-fields->pricing-cache-contract": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   },
   "untyped-api-optional-fields->provider-prefixed-raw-types": {
-    "fires": 2,
+    "fires": 3,
     "last": "2026-07-18",
     "weight": 0.5
   }

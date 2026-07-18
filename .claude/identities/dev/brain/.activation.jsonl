@@ -58,3 +58,37 @@
 {"event": "inject", "note": "worktree-gate-needs-npm-install-first", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
 {"event": "inject", "note": "worktree-remove-needs-force-after-npm-install", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
 {"event": "inject", "note": "pricing-cache-contract", "activation": 0.275, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "seed", "note": "exhaustive-pattern-tables", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "fresh-worktree-needs-node-modules-and-submodule-setup", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "macos-missing-binary-tests-need-empty-path", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "per-item-loop-three-default-cases", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "prettier-gate-covers-test-files", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "regex-fix-scan-whole-file", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "scoped-green-verification", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "shell-test-vitest-path-shims", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "test-must-falsify", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "verify-migrated-constants-against-git-history", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "worktree-gate-needs-npm-install-first", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "seed", "note": "worktree-remove-needs-force-after-npm-install", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "test-must-falsify", "activation": 0.275, "link": "exhaustive-pattern-tables->test-must-falsify", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "shell-test-vitest-path-shims", "activation": 0.275, "link": "macos-missing-binary-tests-need-empty-path->shell-test-vitest-path-shims", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "bash-if-guard-disables-errexit-in-function", "activation": 0.275, "link": "per-item-loop-three-default-cases->bash-if-guard-disables-errexit-in-function", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "scoped-green-verification", "activation": 0.275, "link": "regex-fix-scan-whole-file->scoped-green-verification", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "pricing-cache-contract", "activation": 0.275, "link": "scoped-green-verification->pricing-cache-contract", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "git-remote-repair-set-url-or-add", "activation": 0.275, "link": "shell-test-vitest-path-shims->git-remote-repair-set-url-or-add", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "macos-missing-binary-tests-need-empty-path", "activation": 0.275, "link": "shell-test-vitest-path-shims->macos-missing-binary-tests-need-empty-path", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "untyped-api-optional-fields", "activation": 0.275, "link": "test-must-falsify->untyped-api-optional-fields", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "per-item-loop-three-default-cases", "activation": 0.0688, "link": "bash-if-guard-disables-errexit-in-function->per-item-loop-three-default-cases", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "shell-test-vitest-path-shims", "activation": 0.0688, "link": "bash-if-guard-disables-errexit-in-function->shell-test-vitest-path-shims", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "scoped-green-verification", "activation": 0.0688, "link": "pricing-cache-contract->scoped-green-verification", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "shell-test-vitest-path-shims", "activation": 0.0688, "link": "git-remote-repair-set-url-or-add->shell-test-vitest-path-shims", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "pricing-cache-contract", "activation": 0.0688, "link": "untyped-api-optional-fields->pricing-cache-contract", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "hop", "note": "provider-prefixed-raw-types", "activation": 0.0688, "link": "untyped-api-optional-fields->provider-prefixed-raw-types", "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "exhaustive-pattern-tables", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "fresh-worktree-needs-node-modules-and-submodule-setup", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "macos-missing-binary-tests-need-empty-path", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "per-item-loop-three-default-cases", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "prettier-gate-covers-test-files", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "regex-fix-scan-whole-file", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "scoped-green-verification", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}
+{"event": "inject", "note": "shell-test-vitest-path-shims", "activation": 1.1, "ts": "2026-07-18T20:45:43+00:00", "role": "dev"}

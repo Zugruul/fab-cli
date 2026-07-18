@@ -1,1 +1,7 @@
-{}
+{
+  "gh-pr-merge-worktree-branch-lock->gh-pr-merge-diverged-local": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}
