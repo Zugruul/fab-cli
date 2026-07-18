@@ -1752,3 +1752,61 @@ items:
   routing:
     action: brain-note
     ref: reviewer/verify-fix-against-full-corpus
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T21:52:00Z'
+iteration:
+  task: TAL-011
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: testing
+  severity: medium
+  summary: A leftover, actively-locked worktree belonging to a different concurrent
+    session on the same shared checkout injected its own test files into vitest discovery,
+    producing false-looking red on an unrelated task's gate run.
+  detail: 'Discovered while verifying TAL-011''s gate: npm run gate failed on a test
+    file physically located inside .claude/worktrees/fab-012-recovery (another session''s
+    live worktree for an unrelated task). Reproduced identically on main with the
+    TAL-011 diff stashed, confirming it was pre-existing pollution, not caused by
+    the diff under review. Fixed by extending the existing third_party/** vitest exclude
+    to also cover .claude/worktrees/**, mirroring a near-identical gap the immediately
+    preceding task (TAL-010) had already found and fixed for third_party/** itself.'
+  generalized: In a workflow where multiple concurrent sessions each spawn dev/reviewer
+    subagents into git worktrees under a shared, non-gitignored-from-test-discovery
+    directory, a test runner's default discovery glob can pick up another session's
+    in-progress worktree test files and produce false-red failures unrelated to the
+    diff being verified. Any project using worktree-per-agent isolation should proactively
+    exclude its worktree-spawn directory from test discovery, not wait to discover
+    the gap reactively per-task.
+  routing:
+    action: brain-note
+    ref: orchestrator/exclude-worktree-spawn-dir-from-test-discovery-proactively
+- category: recommendation
+  area: review
+  severity: low
+  summary: Reviewer agents distinguishing benign content condensation from problematic
+    content duplication benefit from a two-axis check (phrasing overlap AND net-new-content
+    presence) rather than a single overlap score.
+  detail: The spec-compliance reviewer flagged systemic near-verbatim prose duplication
+    between TAL-011's six new curated files and the already-merged architecture doc.
+    Rather than treating this as a binary pass/fail, it checked whether each file
+    also contained net-new structure (verb lists, checklists, hook enumerations) not
+    present in the source — present in most files, which correctly downgraded the
+    finding from blocking to a quality nit. A single similarity-score check would
+    have either over-blocked (all six files have real phrasing overlap) or missed
+    the genuine outlier case (a section that is pure reorg with zero new value).
+  generalized: 'When reviewing a derivative/condensed document against its source
+    for problematic duplication, check two independent signals rather than one: sentence-level
+    phrasing overlap (near-identical clauses, even reordered) AND whether the derivative
+    adds real net-new information/structure absent from the source. High overlap alone
+    is a quality nit if net-new content is also present; high overlap with zero net-new
+    content is the actual red line worth blocking on.'
+  routing:
+    action: brain-note
+    ref: reviewer/distinguish-paraphrase-condensation-from-copy-paste
