@@ -70,11 +70,7 @@ describe("rankRulesChunksScored — pure logic, no I/O", () => {
   });
 
   it("reports a lower matchedTerms/totalTerms ratio for a partially-matching query", () => {
-    const results = rankRulesChunksScored(
-      chunks,
-      "player foobar bazqux",
-      8,
-    );
+    const results = rankRulesChunksScored(chunks, "player foobar bazqux", 8);
     expect(results[0].chunk.section).toBe("1.1");
     expect(results[0].totalTerms).toBe(3);
     expect(results[0].matchedTerms).toBe(1);
@@ -237,7 +233,9 @@ describe("rules ask CLI — escalation footer always present, highlighted on low
   it("confident answer: shows passages + the escalation footer verbatim, no low-confidence highlight", async () => {
     askSpy.mockResolvedValue({ passages: [chunk()], confident: true });
     const program = buildProgram();
-    await program.parseAsync(["ask", "player person"], { from: "user" });
+    await program.parseAsync(["rules", "ask", "player person"], {
+      from: "user",
+    });
     const output = logs.join("\n");
     expect(output).toContain("Players");
     expect(output).toContain(ASK_RULES_ESCALATION_FOOTER);
@@ -248,7 +246,7 @@ describe("rules ask CLI — escalation footer always present, highlighted on low
   it("zero-result query: no passages, highlighted footer, Discord URL still present verbatim", async () => {
     askSpy.mockResolvedValue({ passages: [], confident: false });
     const program = buildProgram();
-    await program.parseAsync(["ask", "zzyxlmnop qwertyuiop"], {
+    await program.parseAsync(["rules", "ask", "zzyxlmnop qwertyuiop"], {
       from: "user",
     });
     const output = logs.join("\n");
@@ -260,7 +258,7 @@ describe("rules ask CLI — escalation footer always present, highlighted on low
   it("weak-match query: passages shown but footer still highlighted, Discord URL present verbatim", async () => {
     askSpy.mockResolvedValue({ passages: [chunk()], confident: false });
     const program = buildProgram();
-    await program.parseAsync(["ask", "player foobar bazqux"], {
+    await program.parseAsync(["rules", "ask", "player foobar bazqux"], {
       from: "user",
     });
     const output = logs.join("\n");
