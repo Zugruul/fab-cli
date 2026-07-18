@@ -433,6 +433,39 @@ Tokens are stored at `~/.config/fabrary-search/config.json` and auto-refresh.
 
 ---
 
+## Talishar (development aid)
+
+[Talishar](https://talishar.net/) is the open-source, community-run web client for playing
+Flesh & Blood online. fab-cli vendors working copies of its three repos (game engine, frontend,
+card-image pipeline) as a **development aid for contributing card implementations upstream** —
+this is separate from the card/deck/coverage tooling above and adds no new `fab-cli` command.
+
+### Bootstrap
+
+```bash
+bash scripts/talishar-bootstrap.sh
+```
+
+Prerequisites: `git` and an authenticated [`gh`](https://cli.github.com/) CLI. This clones the
+three Talishar repos (backend, frontend, card images) as sibling directories under
+`third_party/`, forking them to your own GitHub account first if you don't already have forks.
+It's safe to re-run any time — it repairs anything wrong and otherwise does nothing.
+
+### Sync with upstream
+
+```bash
+bash scripts/talishar-fork-sync.sh
+```
+
+Fast-forwards your forks to the latest upstream `main` and reports on any local feature
+branches. It never pushes to the official Talishar repos and never force-pushes anywhere — a
+diverged fork is reported for you to resolve by hand. Add `--rebase-branches` to also attempt
+rebasing your local branches onto the freshly-synced `main`.
+
+See `CLAUDE.md` for the full fork contract and report-line reference.
+
+---
+
 ## All Commands
 
 ```
