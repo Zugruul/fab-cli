@@ -911,7 +911,10 @@
     "card:astral-strike": {
       "anchor": "card-vault/card-astral-strike-red",
       "notes": [
-        ["card-vault", "card-astral-strike-red"]
+        ["card-vault", "card-astral-strike-red"],
+        ["talishar", "tal-recipe-base-card"],
+        ["talishar", "tal-recipe-currentturneffect-suffix"],
+        ["talishar", "tal-recipe-modal-choose1"]
       ]
     },
     "card:astravolt-elemental": {
@@ -10495,7 +10498,8 @@
         ["card-vault", "card-lightning-flow"],
         ["judge", "gl-lightning-flow"],
         ["judge", "release-notes-omens-of-the-third-age"],
-        ["judge", "release-notes-rosetta"]
+        ["judge", "release-notes-rosetta"],
+        ["talishar", "tal-recipe-classstate-counter"]
       ]
     },
     "card:lightning-form": {
@@ -11279,7 +11283,8 @@
     "card:might": {
       "anchor": "card-vault/card-might",
       "notes": [
-        ["card-vault", "card-might"]
+        ["card-vault", "card-might"],
+        ["talishar", "tal-recipe-classstate-counter"]
       ]
     },
     "card:mighty-windup": {
@@ -19797,7 +19802,8 @@
     "card:vigor": {
       "anchor": "card-vault/card-vigor",
       "notes": [
-        ["card-vault", "card-vigor"]
+        ["card-vault", "card-vigor"],
+        ["talishar", "tal-recipe-classstate-counter"]
       ]
     },
     "card:vigor-girth": {

@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 
@@ -14,10 +14,16 @@ const INVARIANT_I5 =
   "The talishar brain links to card-vault entities for card/keyword facts and is never added to the keyword-sync MIRRORS list; engine knowledge lives in the talishar brain only.";
 
 describe("talishar identity brain scaffold", () => {
-  it("has an empty notes/ directory", () => {
+  // TAL-013 seeded this brain with the first comprehensive `tal-*` note batch
+  // (SPEC-TALISHAR.md §7.3/§7.6) — the notes/ dir and links.json are no longer
+  // expected empty; see test/talishar-brain-classstate-spotcheck.test.ts for
+  // the seeded-content assertions.
+  it("has a populated notes/ directory", () => {
     const notesDir = join(BRAIN_DIR, "notes");
     expect(existsSync(notesDir)).toBe(true);
     expect(statSync(notesDir).isDirectory()).toBe(true);
+    const mdFiles = readdirSync(notesDir).filter((f) => f.endsWith(".md"));
+    expect(mdFiles.length).toBeGreaterThan(0);
   });
 
   it("has ROLE.md containing invariants I1, I2, I5 verbatim", () => {
@@ -29,11 +35,14 @@ describe("talishar identity brain scaffold", () => {
     expect(role).toContain(INVARIANT_I5);
   });
 
-  it("has an empty links.json link graph", () => {
+  it("has a links.json link graph populated from the seeded notes' [[wikilinks]]", () => {
     const linksPath = join(BRAIN_DIR, "links.json");
     expect(existsSync(linksPath)).toBe(true);
     const links = JSON.parse(readFileSync(linksPath, "utf-8"));
-    expect(links).toEqual({});
+    expect(Object.keys(links).length).toBeGreaterThan(0);
+    for (const key of Object.keys(links)) {
+      expect(key).toMatch(/^tal-(arch|recipe|dev)-[^>]+->/);
+    }
   });
 
   it("has an empty .activation.jsonl recall log", () => {
