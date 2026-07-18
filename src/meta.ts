@@ -1,3 +1,5 @@
+import { httpFetch } from "./http";
+
 const META_BASE = "https://content.fabrary.net/results";
 const META_PAGE = "https://fabrary.net/meta-results";
 
@@ -51,14 +53,6 @@ export interface MetaShiftRow {
   adjustedWinRate: number; // after ban/nerf modifiers
 }
 
-const BROWSER_HEADERS = {
-  "User-Agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-  "Origin": "https://fabrary.net",
-  "Referer": "https://fabrary.net/",
-  "Accept": "application/json, text/html, */*",
-};
-
 // ─── period discovery ────────────────────────────────────────────────────────
 //
 // The fabrary.net/meta-results page is a Vite SPA — the <select id="Time">
@@ -111,8 +105,9 @@ function getMonthlyPeriods(): MetaPeriodOption[] {
 async function getSeasonPeriods(): Promise<MetaPeriodOption[]> {
   // Fetch the app's HTML to find the current JS bundle URL, then extract releases
   try {
-    const pageRes = await fetch(META_PAGE, {
-      headers: { ...BROWSER_HEADERS, Accept: "text/html" },
+    const pageRes = await httpFetch(META_PAGE, {
+      preset: "fabrary",
+      headers: { Accept: "text/html" },
     });
     if (!pageRes.ok) return [];
     const html = await pageRes.text();
@@ -124,7 +119,7 @@ async function getSeasonPeriods(): Promise<MetaPeriodOption[]> {
       ? scriptMatch[1]
       : `https://fabrary.net${scriptMatch[1]}`;
 
-    const bundleRes = await fetch(bundleUrl, { headers: BROWSER_HEADERS });
+    const bundleRes = await httpFetch(bundleUrl, { preset: "fabrary" });
     if (!bundleRes.ok) return [];
     const js = await bundleRes.text();
 
@@ -222,7 +217,7 @@ export async function fetchMetaResults(
   const today = getTodayParam();
   const url = `${META_BASE}/all-${slug}-${p}.json?today=${today}`;
 
-  const res = await fetch(url, { headers: BROWSER_HEADERS });
+  const res = await httpFetch(url, { preset: "fabrary" });
   if (!res.ok) {
     throw new Error(`Failed to fetch meta results (${slug}, ${p}): ${res.status} ${res.statusText}`);
   }

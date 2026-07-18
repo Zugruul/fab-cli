@@ -12,7 +12,9 @@ export const FABTCG_MAX_CONCURRENCY = 5;
 
 /** Creates a bounded-concurrency limiter: `limit(fn)` runs `fn` once fewer
  *  than `max` calls are currently in flight. */
-export function createLimiter(max: number): <T>(fn: () => Promise<T>) => Promise<T> {
+export function createLimiter(
+  max: number,
+): <T>(fn: () => Promise<T>) => Promise<T> {
   let active = 0;
   const queue: Array<() => void> = [];
 

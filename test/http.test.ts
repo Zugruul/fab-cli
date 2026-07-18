@@ -36,7 +36,9 @@ describe("httpFetch — retry/backoff", () => {
 
   it("retries on 429/5xx/403 and eventually succeeds", async () => {
     const pool = mockPool(mock, "https://example.com");
-    pool.intercept({ path: "/thing", method: "GET" }).reply(429, "rate limited");
+    pool
+      .intercept({ path: "/thing", method: "GET" })
+      .reply(429, "rate limited");
     pool.intercept({ path: "/thing", method: "GET" }).reply(503, "unavailable");
     pool.intercept({ path: "/thing", method: "GET" }).reply(403, "forbidden");
     pool.intercept({ path: "/thing", method: "GET" }).reply(200, "ok");
@@ -66,7 +68,10 @@ describe("httpFetch — retry/backoff", () => {
 
   it("gives up after exhausting retries and returns the last failed response", async () => {
     const pool = mockPool(mock, "https://example.com");
-    pool.intercept({ path: "/always-403", method: "GET" }).reply(403, "no").times(3);
+    pool
+      .intercept({ path: "/always-403", method: "GET" })
+      .reply(403, "no")
+      .times(3);
 
     const res = await httpFetch("https://example.com/always-403", {
       retries: 2,
@@ -107,12 +112,15 @@ describe("httpFetch — retry/backoff", () => {
 
     const flat = (h: Record<string, string | string[]>) => {
       const out: Record<string, string> = {};
-      for (const [k, v] of Object.entries(h)) out[k.toLowerCase()] = Array.isArray(v) ? v[0] : v;
+      for (const [k, v] of Object.entries(h))
+        out[k.toLowerCase()] = Array.isArray(v) ? v[0] : v;
       return out;
     };
 
     expect(flat(capturedFabtcg)["referer"]).toBe(FABTCG_HEADERS.Referer);
-    expect(flat(capturedFabtcg)["user-agent"]).toBe(FABTCG_HEADERS["User-Agent"]);
+    expect(flat(capturedFabtcg)["user-agent"]).toBe(
+      FABTCG_HEADERS["User-Agent"],
+    );
     expect(flat(capturedJson)["accept"]).toBe(FABTCG_JSON_HEADERS.Accept);
     expect(flat(capturedFabrary)["origin"]).toBe(FABRARY_HEADERS.Origin);
   });
@@ -122,11 +130,15 @@ describe("getHttpCacheDir", () => {
   afterEach(() => vi.unstubAllEnvs());
 
   it("defaults to ~/.cache/fab-cli", () => {
-    expect(getHttpCacheDir()).toBe(path.join(os.homedir(), ".cache", "fab-cli"));
+    expect(getHttpCacheDir()).toBe(
+      path.join(os.homedir(), ".cache", "fab-cli"),
+    );
   });
 
   it("honors an explicit override", () => {
-    expect(getHttpCacheDir("/tmp/custom-http-cache")).toBe("/tmp/custom-http-cache");
+    expect(getHttpCacheDir("/tmp/custom-http-cache")).toBe(
+      "/tmp/custom-http-cache",
+    );
   });
 
   it("falls back to FAB_HTTP_CACHE_DIR env var when no override given", () => {
@@ -139,7 +151,9 @@ describe("cachedFetch — opt-in TTL disk cache", () => {
   let tmpDir: string;
 
   beforeEach(async () => {
-    tmpDir = await fs.promises.mkdtemp(path.join(os.tmpdir(), "fab-cli-http-cache-"));
+    tmpDir = await fs.promises.mkdtemp(
+      path.join(os.tmpdir(), "fab-cli-http-cache-"),
+    );
   });
 
   afterEach(async () => {
@@ -151,7 +165,9 @@ describe("cachedFetch — opt-in TTL disk cache", () => {
     await cachedFetch("warm-key", fetcher, { cacheDir: tmpDir });
 
     const fetcher2 = vi.fn().mockResolvedValue({ v: "should-not-be-used" });
-    const result = await cachedFetch("warm-key", fetcher2, { cacheDir: tmpDir });
+    const result = await cachedFetch("warm-key", fetcher2, {
+      cacheDir: tmpDir,
+    });
 
     expect(result).toEqual({ v: "fresh" });
     expect(fetcher2).not.toHaveBeenCalled();
