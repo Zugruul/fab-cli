@@ -190,7 +190,6 @@ describe("askRules — composition over searchRules (FAB-022)", () => {
     expect(result.passages.length).toBeGreaterThan(0);
     expect(result.confident).toBe(false);
   });
-
 });
 
 describe("askRules — confidence must track passages[0] across a mid-call legality content change", () => {
@@ -363,10 +362,9 @@ describe("rules ask CLI — escalation footer always present, highlighted on low
   it("Commander's variadic <question...> capture: separate argv tokens are joined with spaces before being passed to askRules", async () => {
     askSpy.mockResolvedValue({ passages: [chunk()], confident: true });
     const program = buildProgram();
-    await program.parseAsync(
-      ["rules", "ask", "player", "person", "damage"],
-      { from: "user" },
-    );
+    await program.parseAsync(["rules", "ask", "player", "person", "damage"], {
+      from: "user",
+    });
     expect(askSpy).toHaveBeenCalledWith(
       "player person damage",
       expect.anything(),
