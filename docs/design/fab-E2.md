@@ -172,3 +172,48 @@ The parser (`parseCardRuling(entry: unknown): CardRuling`) must be defensive —
 
 - `fabtcg card`'s existing rulings-count display — unchanged.
 - Rules Reprise ingestion (FAB-024) — unaffected, different KB entirely (rules KB vs. Card Vault).
+
+## Addendum — FAB-024: Rules Reprise / release-notes ingestion
+
+Grounded in: SPEC §7.2a, §7.2b, §10 I1, I8.
+
+### Components
+
+- `src/rules.ts` gains a `syncReprise()` step in `syncRules()`'s orchestration, following the EXACT same pattern as `syncCpg`/`syncLegality` (per-source failure isolation, supersession via `replaceChunks`, a `RulesSyncResult` entry). `RulesDocument`'s union grows to `"CR" | "TRP" | "PPG" | "CPG" | "legality" | "reprise"` (FAB-020/021 deliberately reserved this variant for this task — see their design sections).
+- **Discovery mechanism (confirmed live)**: `GET https://fabtcg.com/api/wp/v2/posts?search=rules+reprise&per_page=<N>&page=<P>`, using `FABTCG_HEADERS`/`httpFetch` (same as the rest of `fabtcg.ts` — full browser headers required, confirmed live: a bare `curl` without them 403s). Verified live against the real API during design: the search reliably surfaces every "Rules Reprise: <Set Name>" article (e.g. `rules-reprise-omens-of-the-third-age-constructed`, `rules-reprise-high-seas-limited`) plus occasional adjacent "Rules Update" posts as an incidental but welcome side effect (their titles also relate to rule changes) — no dedicated WP category/tag reliably scopes these (the `categories` field was empty or a different taxonomy ID inconsistently across sampled articles, not a usable filter).
+- Paginate through all result pages (WP's `per_page`/`page` params) until a page returns fewer than `per_page` results, with a safety cap (`MAX_REPRISE_ARTICLES = 200`) to bound worst-case ingestion size — SPEC doesn't mandate a specific volume, and the live corpus today is small (dozens, not hundreds), so this cap is a safety rail, not an expected limit in practice.
+- Each WP post's `content.rendered` (HTML) is converted to plain text via the SAME `stripHtml()` helper `syncLegality()` already uses (script/style stripped, tags stripped, entities decoded, whitespace collapsed) — no new HTML-parsing logic. `title.rendered` may itself contain HTML entities (WP escapes titles too) — run it through the same entity-decoding step.
+
+### Data model
+
+No new top-level type — `reprise` chunks use the EXISTING `RulesChunk` shape:
+```ts
+{
+  document: "reprise",
+  section: <post slug>,       // e.g. "rules-reprise-omens-of-the-third-age-constructed"
+  title: <decoded post title>, // e.g. "Rules Reprise: Omens of the Third Age Constructed"
+  sourceUrl: <post's `link` field>, // the real fabtcg.com/articles/... URL, confirmed live
+  version: <post's `date` field>,   // ISO-ish string WP already provides, ready-to-use as-is
+  fetchedAt: <sync timestamp>,
+  text: <stripHtml(content.rendered)>,
+}
+```
+One chunk per article (not sub-sectioned — a Rules Reprise article is a single cohesive piece analyzing a handful of interactions for one set/format, unlike CR/TRP/PPG's numbered-section structure; sub-splitting would fragment closely-related interaction discussions for no benefit, mirroring the legality chunk's same "one chunk, not sub-sectioned" reasoning from FAB-020).
+
+### Interfaces / contracts
+
+- `syncReprise(kbDir, fetchedAt, opts?): Promise<RulesSyncResult>` — same signature shape as the sibling per-source sync functions, called from `syncRules()`'s orchestration alongside CR/TRP/PPG/CPG/legality. On any HTTP/network failure at any page, degrade to `status: "failed"` with whatever chunks were already collected from earlier successful pages (or, simplest and matching the CPG/CR precedent's all-or-nothing per-source behavvior, treat any page failure as a whole-source failure and preserve the PRIOR sync's chunks via `replaceChunks`'s existing "only replace on success" semantics — dev agent's call between these two, but must not partially replace only some of a document's previous chunk set, matching the existing supersession contract's atomicity).
+- Search discovery is env-overridable for tests but NOT for legality-style "always live" semantics — reprise content changes far less frequently than legality (new articles appear per-set-release, not continuously), so it follows the SAME TTL-refresh-on-`rules search`/`show` model as CR/TRP/PPG (FAB-021's `isIndexStale()` check), NOT the legality-always-live model. This is a deliberate distinction: I2's hard "always live" rule is specific to card-legality content, not general rules commentary.
+- `rules search`/`show` (FAB-021, already merged) require ZERO changes — they already operate generically over `kb/rules/index.json` regardless of `document` value, so reprise chunks surface in search results automatically once `syncRules()` writes them. The AC's "rules search surfaces them alongside CR/TRP/PPG hits" is satisfied purely by `syncReprise()` populating the index correctly — confirm this with an integration-level test (sync with a reprise fixture, then `searchRules()` a term known to appear in that fixture, assert a `document: "reprise"` chunk is among the results) rather than assuming it "just works."
+
+### Decisions
+
+- **Discovery via WP search, not a dedicated taxonomy** — confirmed live that Rules Reprise articles don't share a reliable `categories`/`tags` value; free-text search on the literal series name ("rules reprise") is the only mechanism that reliably surfaced every sampled article across a 2024–2026 date range in the live probe. If LSS later adds a stable taxonomy, that would be a cheap future improvement, not a blocker now.
+- **One chunk per article, not sub-sectioned** — matches the legality chunk's precedent reasoning (a cohesive piece, not a numbered-rules document); sub-splitting a Rules Reprise article's prose would lose context between related interaction discussions.
+- **NOT legality-always-live** — reprise content follows the same TTL-based freshness model as CR/TRP/PPG, since I2's "always fetch live" rule is legality-specific, not a general rule for all fabtcg.com content; conflating the two would slow down every `rules search`/`show` call for no invariant-mandated reason.
+- **Reuse `stripHtml()` — no new HTML→text logic.** Consistent with FAB-020's "no new HTML-parsing logic" precedent for the legality page.
+
+### Out of scope for FAB-024
+
+- Any dedicated "release notes" (distinct from "Rules Reprise") ingestion beyond what the "rules reprise" search query incidentally surfaces (e.g. an adjacent "Rules Update" post) — SPEC §7.2a's explicit example and this task's AC are both Rules-Reprise-specific; a broader release-notes taxonomy sweep is a future enhancement, not required here.
+- Any change to `rules ask` (FAB-022, already merged) — it composes over `searchRules()` unchanged, automatically benefiting from reprise chunks with zero code change, same reasoning as `rules search`/`show` above.
