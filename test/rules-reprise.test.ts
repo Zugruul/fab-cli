@@ -88,7 +88,11 @@ describe("syncReprise — WP post -> RulesChunk mapping", () => {
     expect(result.chunks).toBe(1);
 
     const file = fs.readFileSync(
-      path.join(kbDir, "reprise", "rules-reprise-omens-of-the-third-age-constructed.md"),
+      path.join(
+        kbDir,
+        "reprise",
+        "rules-reprise-omens-of-the-third-age-constructed.md",
+      ),
       "utf8",
     );
     expect(file).toContain('document: "reprise"');
@@ -132,8 +136,14 @@ describe("syncReprise — WP post -> RulesChunk mapping", () => {
 
   it("produces one chunk per article — not sub-sectioned", async () => {
     interceptReprisePage(mock, 1, [
-      wpPost({ slug: "article-a", link: "https://fabtcg.com/articles/article-a/" }),
-      wpPost({ slug: "article-b", link: "https://fabtcg.com/articles/article-b/" }),
+      wpPost({
+        slug: "article-a",
+        link: "https://fabtcg.com/articles/article-a/",
+      }),
+      wpPost({
+        slug: "article-b",
+        link: "https://fabtcg.com/articles/article-b/",
+      }),
     ]);
 
     const result = await syncReprise(kbDir, "2026-07-18T00:00:00.000Z", {
@@ -170,7 +180,9 @@ describe("syncReprise — pagination", () => {
       wpPost({ slug: "c", link: "https://fabtcg.com/articles/c/" }),
       wpPost({ slug: "d", link: "https://fabtcg.com/articles/d/" }),
     ];
-    const page3 = [wpPost({ slug: "e", link: "https://fabtcg.com/articles/e/" })];
+    const page3 = [
+      wpPost({ slug: "e", link: "https://fabtcg.com/articles/e/" }),
+    ];
 
     interceptReprisePage(mock, 1, page1);
     interceptReprisePage(mock, 2, page2);
@@ -385,9 +397,9 @@ describe("syncReprise — failure isolation", () => {
     expect(result.status).toBe("failed");
     expect(result.chunks).toBe(1); // the prior chunk count, unchanged
     expect(fs.existsSync(priorFile)).toBe(true);
-    expect(
-      fs.existsSync(path.join(kbDir, "reprise", "new-article.md")),
-    ).toBe(false);
+    expect(fs.existsSync(path.join(kbDir, "reprise", "new-article.md"))).toBe(
+      false,
+    );
   }, 10_000);
 });
 
@@ -399,9 +411,7 @@ describe("syncReprise — search integration (zero changes to searchRules)", () 
 
   beforeEach(() => {
     mock = installHttpMock();
-    tmpRoot = fs.mkdtempSync(
-      path.join(os.tmpdir(), "fab-cli-reprise-search-"),
-    );
+    tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "fab-cli-reprise-search-"));
     kbDir = path.join(tmpRoot, "kb", "rules");
     rulesDir = path.join(tmpRoot, "fab-rules-src");
     fs.mkdirSync(rulesDir, { recursive: true });

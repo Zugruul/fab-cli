@@ -29,12 +29,7 @@ export const LEGALITY_URL =
 export const RULES_TXT_BASE = "https://rules.fabtcg.com/txt/latest";
 
 export type RulesDocument =
-  | "CR"
-  | "TRP"
-  | "PPG"
-  | "CPG"
-  | "legality"
-  | "reprise";
+  "CR" | "TRP" | "PPG" | "CPG" | "legality" | "reprise";
 
 export interface RulesChunk {
   document: RulesDocument;
