@@ -45,12 +45,14 @@ describe("httpFetch — retry/backoff", () => {
 
     const res = await httpFetch("https://example.com/thing", {
       retries: 3,
+      retryBaseMs: 300,
       sleep,
     });
 
     expect(res.status).toBe(200);
     expect(await res.text()).toBe("ok");
-    expect(sleeps.length).toBe(3);
+    // Exponential backoff: retryBaseMs * 2 ** attempt for attempts 0, 1, 2.
+    expect(sleeps).toEqual([300, 600, 1200]);
   });
 
   it("fails fast on a non-retryable status (404), without retrying", async () => {
@@ -75,11 +77,12 @@ describe("httpFetch — retry/backoff", () => {
 
     const res = await httpFetch("https://example.com/always-403", {
       retries: 2,
+      retryBaseMs: 300,
       sleep,
     });
 
     expect(res.status).toBe(403);
-    expect(sleeps.length).toBe(2);
+    expect(sleeps).toEqual([300, 600]);
   });
 
   it("attaches the correct preset headers per host", async () => {
@@ -218,7 +221,10 @@ describe("createLimiter — bounded concurrency", () => {
 
     await Promise.all(Array.from({ length: 10 }, () => limit(task)));
 
+    // Never exceeds max, but with 10 tasks >> max and a shared delay,
+    // concurrency must actually reach max — not silently serialize (max=1).
     expect(peak).toBeLessThanOrEqual(max);
+    expect(peak).toBe(max);
   });
 
   it("exposes the known upstream concurrency constants", () => {
