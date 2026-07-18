@@ -36,3 +36,6 @@ lore/.sync-state.json
 
 # Generated price-comparison export output
 price-comparison/
+
+# Vendored Talishar working copies (cloned by scripts/talishar-bootstrap.sh)
+third_party/talishar*
