@@ -2115,3 +2115,58 @@ items:
     action: ignore
     ref: positive signal already reflected in existing brain notes (foundation-pr-forward-compat),
       no new routing action needed
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T00:20:00Z'
+iteration:
+  task: '22'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Reading an issue's human comments before scoping the dev brief revealed
+    a task's real remaining work was much narrower than its title implied — the underlying
+    feature had already shipped ahead of the board
+  detail: A task titled around vendoring a submodule and building an offline search
+    feature turned out, per an owner comment cross-referenced from a different issue,
+    to already have all of that shipped on main; the only remaining gap was fixture
+    tests. Scoping the dev brief around that comment (rather than the task title/generic
+    AC alone) kept the task small and avoided redundant rebuild work.
+  evidence: []
+  generalized: Before scoping a dev brief from a task's title and generic AC alone,
+    check whether the described deliverable already exists on the current codebase
+    and read every human comment on the issue in full — a comment can redefine the
+    task's actual remaining scope far more precisely than the original seed-time title/AC,
+    especially in a fast-moving repo where features sometimes land ahead of their
+    formal board task.
+  routing:
+    action: brain-note
+    ref: orchestrator/check-existing-code-before-scoping-from-title
+- category: worked-well
+  area: review
+  severity: low
+  summary: A reviewer independently re-derived a caching test's validity by asking
+    'could this pass without the property it claims to test' rather than accepting
+    a reference-equality assertion at face value
+  detail: A test asserted two calls to a caching function returned the identical object
+    reference. The reviewer traced whether that assertion could pass under a NON-caching
+    implementation (e.g. if JSON.parse happened to return a shared reference) before
+    accepting it as proof of real caching, concluding it genuinely could only pass
+    with real caching.
+  evidence: []
+  generalized: When reviewing a test that asserts reference equality (or any other
+    proxy signal) as proof of a behavior (caching, memoization, singleton), explicitly
+    trace whether a plausible non-conforming implementation could still satisfy that
+    exact assertion — a reference-equality check is only meaningful proof if the underlying
+    operation being cached (JSON.parse, a fresh object literal, etc.) would never
+    coincidentally produce a shared reference on its own.
+  routing:
+    action: ignore
+    ref: reinforces an existing rigor pattern (assert-exact-values-not-just-counts),
+      no new note needed
