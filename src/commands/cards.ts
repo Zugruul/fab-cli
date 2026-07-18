@@ -244,9 +244,9 @@ export function registerCards(fabrary: Command): Command {
         for (const r of rulings) {
           console.log(`  ${r.date ? chalk.dim(`[${r.date}] `) : ""}${r.text}`);
         }
-        const cardId = (await searchCardVault({ name: cards[0].name }).catch(
-          () => [],
-        ))[0]?.card_id;
+        const cardId = (
+          await searchCardVault({ name: cards[0].name }).catch(() => [])
+        )[0]?.card_id;
         if (cardId) {
           console.log(
             chalk.dim(`Source: https://cardvault.fabtcg.com/card/${cardId}/`),

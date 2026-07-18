@@ -138,6 +138,12 @@ fab-cli fabrary cards local <terms...> # OFFLINE search of the full vendored car
 **`--json`**: both `cards search` (emits `{cards}`, same array regardless of `--detail`) and
 `cards show` (emits `{card}`, or `{card: null}` when nothing matches) support the global `--json` flag.
 
+`cards show` (non-JSON only) also prints a Card Vault rulings section after the card detail: a
+dated, most-recent-first rulings list citing the Card Vault source URL when rulings exist, "no
+official rulings" when the card is found on Card Vault with zero entries, or a distinct "not
+found on Card Vault" note when no Card Vault match resolves at all — these three states are kept
+visually separate so a lookup miss is never mistaken for an authoritative "no rulings" claim.
+
 ### Meta Analysis
 
 ```bash

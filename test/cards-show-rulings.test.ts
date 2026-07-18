@@ -170,10 +170,9 @@ describe("fabrary cards show — Card Vault rulings section", () => {
     vi.spyOn(console, "log").mockImplementation((s: string) => logs.push(s));
 
     const program = buildJsonProgram();
-    await program.parseAsync(
-      ["fabrary", "cards", "show", "snatch", "--json"],
-      { from: "user" },
-    );
+    await program.parseAsync(["fabrary", "cards", "show", "snatch", "--json"], {
+      from: "user",
+    });
 
     expect(logs).toHaveLength(1);
     const parsed = JSON.parse(logs[0]);

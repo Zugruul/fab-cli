@@ -30,9 +30,11 @@ function cardVaultCard(overrides: Partial<CardVaultCard> = {}): CardVaultCard {
 
 describe("parseCardRuling", () => {
   it("parses { date, text } shape", () => {
-    expect(parseCardRuling({ date: "2024-01-01", text: "A ruling." })).toEqual(
-      { date: "2024-01-01", text: "A ruling.", raw: { date: "2024-01-01", text: "A ruling." } },
-    );
+    expect(parseCardRuling({ date: "2024-01-01", text: "A ruling." })).toEqual({
+      date: "2024-01-01",
+      text: "A ruling.",
+      raw: { date: "2024-01-01", text: "A ruling." },
+    });
   });
 
   it("parses { ruling_date, ruling_text } shape", () => {
