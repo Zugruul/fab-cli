@@ -186,8 +186,21 @@ describe("searchRules / showRulesChunk — TTL refresh + legality-live", () => {
       .reply(200, LEGALITY_HTML());
   }
 
+  // Every syncRules() call now also hits the Rules Reprise WP search
+  // endpoint (FAB-024) — mock it empty by default so pre-existing
+  // search/TTL-focused tests aren't affected by reprise ingestion.
+  function mockRepriseEmpty(): void {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) => p.startsWith("/api/wp/v2/posts?"),
+        method: "GET",
+      })
+      .reply(200, []);
+  }
+
   async function buildFreshKb(): Promise<void> {
     mockLegalityOnce();
+    mockRepriseEmpty();
     await syncRules({ kbDir, rulesDir, cpgPdfPath });
   }
 
@@ -202,6 +215,7 @@ describe("searchRules / showRulesChunk — TTL refresh + legality-live", () => {
   it("stale/missing index triggers a full refresh via syncRules() before searching", async () => {
     // No index.json at all yet == infinitely stale (mirrors lore.ts).
     mockLegalityOnce();
+    mockRepriseEmpty();
     const results = await searchRules("player", {
       kbDir,
       rulesDir,
@@ -222,6 +236,7 @@ describe("searchRules / showRulesChunk — TTL refresh + legality-live", () => {
     vi.mocked(updateRulesDocs).mockClear();
 
     mockLegalityOnce();
+    mockRepriseEmpty();
     await searchRules("player", { kbDir, rulesDir, cpgPdfPath, ttlMs: 1000 });
     expect(updateRulesDocs).toHaveBeenCalledTimes(1);
   });
