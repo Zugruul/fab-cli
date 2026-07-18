@@ -7,20 +7,20 @@ Working reference for the Vite+React SPA's state pipeline
 
 ## SSE connection
 
-The FE opens one `EventSource` per active game in
-`` `third_party/talishar-fe/src/app/GameStateHandler.tsx` ``, pointed at
+Each active game gets its own `EventSource`, opened in
+`` `third_party/talishar-fe/src/app/GameStateHandler.tsx` `` against
 `GetUpdateSSE.php?gameName=...&playerID=...&authKey=...` (backend endpoint:
 `` `third_party/talishar/GetUpdateSSE.php` ``).
 
-Three named SSE event types:
+The backend multiplexes three event names over that one stream:
 
-- **`message`** (default) — carries the full parsed game state.
-- **`typing`** / **`presence`** — ephemeral opponent-activity signals, replacing older polling
-  endpoints (`` `third_party/talishar/GetUpdateSSE.php` ``'s own comment: "This replaces the old
-  CheckOpponentTyping polling entirely").
-- **`hb`** — heartbeat, no payload, sent every 15s of otherwise-silent connection
-  (`` `third_party/talishar/GetUpdateSSE.php` ``'s `if ($currentRealTime - $lastSendTime >= 15)`
-  block) purely to keep the connection alive and reset the FE watchdog's clock.
+- **`message`** (the SSE default) — the full parsed game state.
+- **`typing`** / **`presence`** — lightweight opponent-activity signals that replaced older
+  polling endpoints (per the backend file's own comment: "This replaces the old CheckOpponentTyping
+  polling entirely").
+- **`hb`** — a payload-less heartbeat fired whenever 15s pass with nothing else to send
+  (`if ($currentRealTime - $lastSendTime >= 15)` in `` `third_party/talishar/GetUpdateSSE.php` ``);
+  its only job is keeping the connection alive and resetting the FE watchdog's clock (see below).
 
 ## Parse pipeline: ParseGameState.ts → GameSlice
 
@@ -37,22 +37,22 @@ reducer case) — the single source of truth React components subscribe to.
 
 ## Reconnect behavior
 
-Verified directly against `` `third_party/talishar-fe/src/app/GameStateHandler.tsx` `` (not
-assumed from PR summary text). On `EventSource.onerror`:
+Read directly out of `` `third_party/talishar-fe/src/app/GameStateHandler.tsx` `` (not inferred
+from a PR description). `EventSource.onerror` closes the connection and bumps a retry counter,
+then branches:
 
-- A retry counter increments and the connection closes.
-- If this is the very first error before any message has arrived, retries once quickly (500ms) —
-  transient-page-load recovery.
-- Otherwise, exponential backoff: `Math.min(500 * 2^retryCount, 5000)` ms, up to `MAX_RETRIES = 5`.
-- After `MAX_RETRIES` is exceeded, falls back to a fixed 10s retry interval and surfaces a
-  "Connection to game server lost. Reconnecting..." toast once.
+- First-ever error, before any message has arrived: one quick 500ms retry (covers a slow initial
+  page load, not a real outage).
+- Any later error: exponential backoff, `Math.min(500 * 2^retryCount, 5000)` ms.
+- Past `MAX_RETRIES = 5`: gives up on backoff, switches to a flat 10s retry cadence, and shows a
+  one-time "Connection to game server lost. Reconnecting..." toast.
 
 ## Staleness watchdog
 
-A `setInterval` polling every 10s compares `Date.now()` against the last-received-event timestamp
-(`lastEventTimeRef`, updated by every `message`/`typing`/`presence`/`hb` event) and forces a
-reconnect if more than **45000ms (45s)** has elapsed since anything was received — independent of
-the `onerror` path, so a silently-hung connection (no `error` event fired) is still caught.
+`onerror` isn't the only trigger — a `setInterval` fires every 10s and diffs `Date.now()` against
+`lastEventTimeRef`, a timestamp bumped by every `message`/`typing`/`presence`/`hb` event. Once that
+gap exceeds **45000ms (45s)**, it forces a reconnect on its own, which is what catches a connection
+that has gone silently dead without ever firing `error`.
 
 ## Card list & keyword generation
 

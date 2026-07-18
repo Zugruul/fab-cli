@@ -45,19 +45,18 @@ surfaced to a human — never force-pushed, never resolved automatically.
 
 ## PR conventions observed upstream
 
-Two real merged PRs anchor the observed convention:
 `Talishar/Talishar#1370` ("feat: implement Astral Strike card (OMN145)") and
-`Talishar/Talishar#1369` ("feat: implement Voltbound Duality (OMN077/078/079)"), both authored by
-`brenoos` and reviewed/approved by `Pgibby8`, both with a `## Summary` section listing the card's
-rules text and implementation notes in bullet form, plus a test-plan-style description of how the
-change was validated.
+`Talishar/Talishar#1369` ("feat: implement Voltbound Duality (OMN077/078/079)") are the two merged
+PRs this whole reference set treats as ground truth for "what a good card PR looks like" — both by
+`brenoos`, both approved by `Pgibby8`, both structured as a `## Summary` (rules text +
+implementation notes, in bullets) followed by a description of how the change was validated.
 
-`feat:`/`fix:` title prefixes are a **strong convention for card-implementation PRs specifically**
-(matching `#1370`/`#1369`) — not an enforced repo-wide rule. A sample of the ten most recently
-merged PRs at research time (`gh pr list --repo Talishar/Talishar --state merged --limit 10`)
-included un-prefixed titles like "Fix Spitfire's +1 cog prompt being skipped after declining a
-wager" and "Standardize Cog tap/untap handling across Mechanologist cards" alongside strictly
-prefixed ones.
+Don't over-generalize the `feat:`/`fix:` prefix, though: it's reliably used for
+card-implementation PRs specifically (as in `#1370`/`#1369`), but isn't a repo-wide rule. Pulling
+the ten most recently merged PRs (`gh pr list --repo Talishar/Talishar --state merged --limit 10`)
+turned up un-prefixed titles too — "Fix Spitfire's +1 cog prompt being skipped after declining a
+wager", "Standardize Cog tap/untap handling across Mechanologist cards" — sitting alongside
+strictly-prefixed ones.
 
 **Prepared PR body shape** (per `SPEC-TALISHAR.md` §8.6, for the card-implementation pipeline):
 title `feat: {Card Name} ({SET}{number})`; body with `## Summary` (rules text + implementation
@@ -67,11 +66,12 @@ implementation time — §10 I4, never remembered card text).
 
 ## No formal CONTRIBUTING.md upstream
 
-`` `third_party/talishar/README.md` `` directs contributors and bug reporters to the project
-Discord for coordination. There is no `CONTRIBUTING.md` and no PR template
-(`` `third_party/talishar/.github/` `` contains only `FUNDING.yml` and `dependabot.yml`) — process
-conventions live in the community/Discord and in `` `third_party/talishar/CLAUDE.md` `` /
-`` `third_party/talishar/New Developer Guide.md` `` rather than a formal contributing doc.
+Don't go looking for a written contribution guide — there isn't one.
+`` `third_party/talishar/.github/` `` holds only `FUNDING.yml` and `dependabot.yml` (no
+`CONTRIBUTING.md`, no PR template), and `` `third_party/talishar/README.md` `` just points
+contributors and bug reporters at the project Discord. What passes for process documentation
+instead lives in `` `third_party/talishar/CLAUDE.md` `` and
+`` `third_party/talishar/New Developer Guide.md` ``.
 
 ## Coordination norms
 

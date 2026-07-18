@@ -9,40 +9,43 @@ card implementation recipe see `card-recipe.md`.
 
 ## Request pipeline
 
-Every player action is an HTTP request through a fixed pipeline: `ProcessInput.php` /
-`ProcessInputAPI.php` (validates `gameName`/`playerID`/`authKey`/`mode` GET params, routes input) →
-`ParseGamestate.php` (loads state from `./Games/{gameName}/GameFile.txt`) → `GameLogic.php` /
-`CardLogic.php` / per-type ability files (executes rules) → `WriteGamestate.php` (persists state) →
-`GetNextTurn.php` → `BuildGameState.php` (serializes the JSON response) —
-`` `third_party/talishar/CLAUDE.md` `` ("Architecture"), confirmed at
-`` `third_party/talishar/ProcessInput.php` `` (lines 1–46) and
-`` `third_party/talishar/BuildGameState.php` `` (line 7, `BuildGameStateResponse`).
+Six stages carry a player action from HTTP request to serialized response: `ProcessInput.php` /
+`ProcessInputAPI.php` validate the `gameName`/`playerID`/`authKey`/`mode` GET params and route the
+call; `ParseGamestate.php` hydrates state from `./Games/{gameName}/GameFile.txt`; `GameLogic.php` /
+`CardLogic.php` / the per-type ability files apply the rules; `WriteGamestate.php` persists the
+result; `GetNextTurn.php` and finally `BuildGameState.php` (`BuildGameStateResponse`, line 7) turn
+that into the outbound JSON — `` `third_party/talishar/CLAUDE.md` `` ("Architecture"), cross-checked
+against `` `third_party/talishar/ProcessInput.php` `` lines 1–46.
 
-Two delivery mechanisms exist:
+State reaches the client through one of two mechanisms:
 
-- `` `third_party/talishar/GetNextTurn.php` `` — polling fallback, kept for backwards compatibility.
-- `` `third_party/talishar/GetUpdateSSE.php` `` — the live path (see `frontend.md`): a `while
-  (true)` loop polling the gamestate cache every 50–150ms, pushing a `data:` SSE frame only when
-  the cache's update counter advances.
+- `` `third_party/talishar/GetNextTurn.php` `` — a polling endpoint kept around for backwards
+  compatibility.
+- `` `third_party/talishar/GetUpdateSSE.php` `` — the path actually used in production (see
+  `frontend.md`): a `while (true)` loop that re-checks the gamestate cache every 50–150ms and emits
+  a `data:` SSE frame only once the cache's update counter has moved.
 
 ## GameFile state format & lifecycle
 
-State is file-based, not database-driven (`` `third_party/talishar/CLAUDE.md` ``, "Project
-Overview"). Each game gets `./Games/{gameName}/GameFile.txt`/`gamestate.txt` — a flat, positional,
-`\r\n`-delimited text file, one gamestate "slot" per line, array-valued slots space-joined via
-`implode(" ", ...)`. `` `third_party/talishar/WriteGamestate.php` `` writes this (90+ explicit
-lines); `` `third_party/talishar/ParseGamestate.php` ``'s `ParseGamestate()` (line 27) is the
-inverse, asserting `count($gamestateContent) < 60` as a corruption guard.
+There's no database behind a running game (`` `third_party/talishar/CLAUDE.md` ``, "Project
+Overview") — state lives in `./Games/{gameName}/GameFile.txt`/`gamestate.txt`, a plain-text file
+where each line is a fixed positional "slot" (`\r\n`-separated) and multi-value slots are joined
+with `implode(" ", ...)`. The write side, `` `third_party/talishar/WriteGamestate.php` ``, spells
+out over 90 of these lines explicitly; the read side,
+`` `third_party/talishar/ParseGamestate.php` ``'s `ParseGamestate()` (line 27), unpacks them back
+and treats `count($gamestateContent) >= 60` as evidence of file corruption.
 
-Reads/writes are cache-fronted: `WriteGamestate.php` calls `WriteGamestateCache()` after the file
-write, `ParseGamestate.php` reads via `ReadGamestateCache()` on the hot path — backed by APCu
-(`` `third_party/talishar/Libraries/CacheLibraries.php` `` lines 3–51), falling back to plain file
-I/O when the `apcu` extension isn't loaded. The write path takes `flock($handler, LOCK_EX)` and
-logs (not throws) on lock failure — a lock contention degrades to a dropped write, not a crash.
+Neither side hits disk directly on the hot path: `WriteGamestate.php` also calls
+`WriteGamestateCache()`, and `ParseGamestate.php` prefers `ReadGamestateCache()` — both backed by
+APCu (`` `third_party/talishar/Libraries/CacheLibraries.php` `` lines 3–51), with a plain-file
+fallback when the `apcu` extension is absent. Writing itself is guarded by
+`flock($handler, LOCK_EX)`; if the lock can't be acquired the write is silently skipped and only
+logged, so contention costs you a missed update rather than a crashed request.
 
-Game creation seeds the file: `` `third_party/talishar/MenuFiles/StartHelper.php` ``'s
-`initializePlayerState()` writes the starting per-player lines (including the initial all-zero
-ClassState line — see below and `card-recipe.md` §4) one `fwrite()` per slot.
+A new game's starting state comes from
+`` `third_party/talishar/MenuFiles/StartHelper.php` ``'s `initializePlayerState()`, which
+`fwrite()`s one line per slot for each player — including the all-zero starting ClassState line
+(see below and `card-recipe.md` §4).
 
 ## DecisionQueue & Await (overview — see decision-queue.md for the full verb list)
 
@@ -68,13 +71,13 @@ array. Phase markers include `LAYER`, `PRELAYERS`, `TRIGGER`, `PRETRIGGER`, `ABI
 `IsAttackStep()`, `IsResolutionStep()`, `AfterDamage()` by searching this stack for those markers.
 
 **CombatChain resolution** (`` `third_party/talishar/CombatChain.php` ``, the largest non-generated
-engine file after `CardLogic.php`/`CardDictionary.php`) computes effective attack power via
-`LinkBasePower()` (~line 2038): starts from the card's base `PowerValue()`, walks
-`$currentTurnEffects` and every prior `ChainLinks` entry
-(`` `third_party/talishar/Classes/ChainLinks.php` ``) applying layer continuous buffs/debuffs. A
-card opts in via `Card` class hooks `CombatEffectActive`/`EffectPowerModifier`
-(`` `third_party/talishar/Classes/Card.php` `` lines 106–113) — see `card-recipe.md` §3 for full
-signatures.
+engine file after `CardLogic.php`/`CardDictionary.php`) is where power actually gets computed:
+`LinkBasePower()` (~line 2038) takes the card's base `PowerValue()` as a starting point, then folds
+in every applicable modifier — the current turn's `$currentTurnEffects` plus each earlier chain
+link recorded in `ChainLinks` (`` `third_party/talishar/Classes/ChainLinks.php` ``). A card taps
+into that resolution loop by implementing `CombatEffectActive`/`EffectPowerModifier` on its `Card`
+subclass (`` `third_party/talishar/Classes/Card.php` `` lines 106–113) — see `card-recipe.md` §3
+for the full hook signatures.
 
 ## ClassState mechanism (3-file dance)
 

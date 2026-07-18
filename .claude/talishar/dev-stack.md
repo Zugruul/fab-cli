@@ -25,7 +25,7 @@ directory, then runs `docker compose up -d`.
 
 ### Compose services
 
-From `` `third_party/talishar/docker-compose.yml` `` (4 services):
+`` `third_party/talishar/docker-compose.yml` `` defines 4 services:
 
 | Service | Image/build | Host port | Notes |
 |---|---|---|---|
@@ -78,20 +78,20 @@ transient-only, §10 I3 of `SPEC-TALISHAR.md`). All three clones are gitignored
 
 ## Known gotchas
 
-- **`third_party/talishar-cardimages/README.md`'s clone URL is wrong** — it says `git clone
-  https://github.com/Talishar/Card-Images` (hyphenated, capital "Images"), but the real repo is
-  `Talishar/CardImages` (no hyphen), confirmed via `git -C third_party/talishar-cardimages remote
-  -v`. The hyphenated URL 404s. Trust `CLAUDE.md`'s vendoring layout and the bootstrap script's
-  `Zugruul/CardImages`/`Talishar/CardImages` remote pair instead.
-- **The old README-vs-port discrepancy (8000 vs 8080) is stale and no longer reproducible.** As of
-  this verification, `` `third_party/talishar/README.md` `` states no port at all, and
-  `` `third_party/talishar/CLAUDE.md` `` already states the correct **8080**, matching
-  `docker-compose.yml`'s `ports: ["8080:80"]` and `` `third_party/talishar-fe/vite.config.mts` ``'s
-  `8080` default. If a future refresh finds the README diverging from `docker-compose.yml`/`.env`
-  again, trust the compose file and `CLAUDE.md`, not the prose README.
-- Rate-limit etiquette for CardImages/live image downloads: ≤2 concurrent requests against
-  `talishar.net`/`images.talishar.net`; download only for cards actively being implemented, never
-  bulk mirroring (`SPEC-TALISHAR.md` §11).
+- **Don't follow `third_party/talishar-cardimages/README.md`'s clone instructions.** It tells you to
+  `git clone https://github.com/Talishar/Card-Images` (hyphenated, capital "Images"), which 404s —
+  `git -C third_party/talishar-cardimages remote -v` confirms the real repo is `Talishar/CardImages`
+  (no hyphen). Use `CLAUDE.md`'s vendoring layout / the bootstrap script's `Zugruul/CardImages` ↔
+  `Talishar/CardImages` remote pair instead.
+- **If you've seen "port 8000" mentioned for this backend somewhere, ignore it** — that was a stale
+  README claim that no longer exists in the clone as of this verification pass:
+  `` `third_party/talishar/README.md` `` currently states no port at all, and
+  `` `third_party/talishar/CLAUDE.md` `` already gives the correct **8080**, agreeing with
+  `docker-compose.yml`'s `ports: ["8080:80"]` and the FE's `vite.config.mts` default. Should a
+  future README drift from `docker-compose.yml`/`.env` again, the compose file and `CLAUDE.md` win.
+- Treat `talishar.net`/`images.talishar.net` as rate-limited: cap concurrent requests at 2, and only
+  pull card images for cards you're actively implementing — never mirror in bulk (`SPEC-TALISHAR.md`
+  §11).
 
 ## Curated reference set
 
