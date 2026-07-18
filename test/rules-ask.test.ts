@@ -156,6 +156,14 @@ describe("askRules — composition over searchRules (FAB-022)", () => {
         200,
         fs.readFileSync(path.join(FIXTURES, "legality-page.html"), "utf8"),
       );
+    // syncRules() also hits the Rules Reprise WP search endpoint
+    // (FAB-024) — mock it empty; these tests never assert on reprise content.
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) => p.startsWith("/api/wp/v2/posts?"),
+        method: "GET",
+      })
+      .reply(200, []);
     await syncRules({ kbDir, rulesDir, cpgPdfPath });
   });
 
@@ -243,6 +251,12 @@ describe("askRules — confidence must track passages[0] across a mid-call legal
           "banned and restricted cards. Every deck must be legal for its " +
           "format.</p></article></main>",
       );
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) => p.startsWith("/api/wp/v2/posts?"),
+        method: "GET",
+      })
+      .reply(200, []);
     await syncRules({ kbDir, rulesDir, cpgPdfPath });
   });
 

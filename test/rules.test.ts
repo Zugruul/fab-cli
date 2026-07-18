@@ -262,8 +262,22 @@ describe("syncRules — full KB sync orchestration", () => {
       );
   }
 
+  // Every syncRules() call now also hits the Rules Reprise WP search
+  // endpoint (FAB-024) — mock it empty by default so pre-existing
+  // CR/TRP/PPG/CPG/legality-focused tests aren't affected by reprise
+  // ingestion.
+  function mockRepriseEmpty(): void {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: (p: string) => p.startsWith("/api/wp/v2/posts?"),
+        method: "GET",
+      })
+      .reply(200, []);
+  }
+
   it("calls updateRulesDocs() once to refresh the vendored txt files", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     await syncRules({
       kbDir,
       rulesDir,
@@ -274,6 +288,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
   it("writes chunk files with frontmatter for every source and rebuilds the index", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     const results = await syncRules({
       kbDir,
       rulesDir,
@@ -318,6 +333,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
   it("supersedes stale chunks on re-sync when a document's section layout changes", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     await syncRules({
       kbDir,
       rulesDir,
@@ -332,6 +348,7 @@ describe("syncRules — full KB sync orchestration", () => {
     );
 
     mockLegalityOk();
+    mockRepriseEmpty();
     await syncRules({
       kbDir,
       rulesDir,
@@ -359,6 +376,7 @@ describe("syncRules — full KB sync orchestration", () => {
       })
       .reply(500, "server error")
       .times(4); // httpFetch retries 3x by default before giving up
+    mockRepriseEmpty();
 
     const results = await syncRules({
       kbDir,
@@ -382,6 +400,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
   it("preserves prior legality chunks on disk when a re-sync's fetch fails (offline resilience)", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     await syncRules({
       kbDir,
       rulesDir,
@@ -402,6 +421,7 @@ describe("syncRules — full KB sync orchestration", () => {
       })
       .reply(500, "server error")
       .times(4);
+    mockRepriseEmpty();
 
     const results = await syncRules({
       kbDir,
@@ -421,6 +441,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
   it("re-fetches the legality page live on every sync call — never TTL'd/cached", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     await syncRules({
       kbDir,
       rulesDir,
@@ -429,6 +450,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
     // A second call with no fixture registered must still attempt the network
     // request and fail (proving the first sync's result wasn't cached/reused).
+    mockRepriseEmpty();
     const results = await syncRules({
       kbDir,
       rulesDir,
@@ -440,6 +462,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
   it("does not throw when updateRulesDocs() rejects — still chunks CR/TRP/PPG from the existing vendored txt files", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     vi.mocked(updateRulesDocs).mockRejectedValueOnce(new Error("disk full"));
 
     const results = await syncRules({
@@ -459,6 +482,7 @@ describe("syncRules — full KB sync orchestration", () => {
 
   it("isolates a missing CPG PDF from the other sources", async () => {
     mockLegalityOk();
+    mockRepriseEmpty();
     const results = await syncRules({
       kbDir,
       rulesDir,
