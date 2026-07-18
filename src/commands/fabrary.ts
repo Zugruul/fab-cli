@@ -38,7 +38,13 @@ import { computeDeckStats, computeResultStats } from "../stats";
 import { loadConfig, saveConfig } from "../config";
 import { loginWithPassword } from "../cognito";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "../types";
-import { int, callWithToken, wantsJson, printJson, progressWrite } from "./util";
+import {
+  int,
+  callWithToken,
+  wantsJson,
+  printJson,
+  progressWrite,
+} from "./util";
 import { registerCards } from "./cards";
 
 export function registerFabrary(program: Command): Command {

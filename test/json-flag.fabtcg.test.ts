@@ -7,7 +7,7 @@ import {
   type MockAgentHandle,
 } from "./helpers/http-mock";
 
-const ANSI_RE = /\x1b\[/;
+const ANSI_RE = new RegExp(String.fromCharCode(27) + "\\[");
 
 const EVENTS_HTML = `<!doctype html><html><body>
 <a class="fl-link-card-ssr" href="https://fabtcg.com/organised-play/pro-tour-example/">
@@ -92,9 +92,12 @@ describe("--json flag: fabtcg events/coverage", () => {
       });
 
     const program = buildJsonProgram();
-    await program.parseAsync(["fabtcg", "coverage", "pro-tour-example", "--json"], {
-      from: "user",
-    });
+    await program.parseAsync(
+      ["fabtcg", "coverage", "pro-tour-example", "--json"],
+      {
+        from: "user",
+      },
+    );
 
     expect(logs).toHaveLength(1);
     expect(logs[0]).not.toMatch(ANSI_RE);
@@ -108,9 +111,14 @@ describe("--json flag: fabtcg events/coverage", () => {
   it("fabtcg coverage <event> --round <n> --json emits { index, standings }", async () => {
     mockPool(mock, "https://fabtcg.com")
       .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
-      .reply(200, COVERAGE_INDEX_HTML, { headers: { "content-type": "text/html" } });
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
     mockPool(mock, "https://fabtcg.com")
-      .intercept({ path: "/coverage/pro-tour-example/standings/1/", method: "GET" })
+      .intercept({
+        path: "/coverage/pro-tour-example/standings/1/",
+        method: "GET",
+      })
       .reply(
         200,
         standingsHtml([
@@ -138,9 +146,14 @@ describe("--json flag: fabtcg events/coverage", () => {
   it("fabtcg coverage <event> --field --json emits { index, field } from the latest standings round", async () => {
     mockPool(mock, "https://fabtcg.com")
       .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
-      .reply(200, COVERAGE_INDEX_HTML, { headers: { "content-type": "text/html" } });
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
     mockPool(mock, "https://fabtcg.com")
-      .intercept({ path: "/coverage/pro-tour-example/standings/1/", method: "GET" })
+      .intercept({
+        path: "/coverage/pro-tour-example/standings/1/",
+        method: "GET",
+      })
       .reply(
         200,
         standingsHtml([
@@ -158,18 +171,23 @@ describe("--json flag: fabtcg events/coverage", () => {
 
     const parsed = JSON.parse(logs[0]);
     expect(parsed.field).toHaveLength(2);
-    expect(parsed.field.every((r: { hero: string }) => r.hero === "Dorinthea")).toBe(
-      true,
-    );
+    expect(
+      parsed.field.every((r: { hero: string }) => r.hero === "Dorinthea"),
+    ).toBe(true);
     expect(parsed).not.toHaveProperty("standings");
   });
 
   it("fabtcg coverage <event> --round <n> --field --json combines both sections in one object", async () => {
     mockPool(mock, "https://fabtcg.com")
       .intercept({ path: "/coverage/pro-tour-example/", method: "GET" })
-      .reply(200, COVERAGE_INDEX_HTML, { headers: { "content-type": "text/html" } });
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
     mockPool(mock, "https://fabtcg.com")
-      .intercept({ path: "/coverage/pro-tour-example/standings/1/", method: "GET" })
+      .intercept({
+        path: "/coverage/pro-tour-example/standings/1/",
+        method: "GET",
+      })
       .reply(200, standingsHtml([[1, "Alice", "Dorinthea", 5]]), {
         headers: { "content-type": "text/html" },
       })

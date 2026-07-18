@@ -16,7 +16,8 @@ export function printJson(data: unknown): void {
   console.log(
     JSON.stringify(
       data,
-      (_key, value) => (value instanceof Map ? Object.fromEntries(value) : value),
+      (_key, value) =>
+        value instanceof Map ? Object.fromEntries(value) : value,
       2,
     ),
   );
