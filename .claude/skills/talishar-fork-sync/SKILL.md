@@ -64,9 +64,16 @@ SPEC-TALISHAR.md §6.5/§6.5a/§6.5b for the requirements this implements.
      branch exactly as it was, and reported it. **Never resolve the conflict
      silently or automatically** — surface it and let a human (or a dedicated,
      explicitly-requested follow-up) resolve it by hand.
+   - `error: <dir> <step> failed — skipping, check manually` — a git call for that
+     repo failed transiently (e.g. a rejected push, a failed merge, or even `git
+     rebase --abort` itself). That repo is skipped from that point on, but the run
+     continues with the remaining repos — one repo's failure never aborts the whole
+     sync or hides the others' reports. Investigate the named repo/step by hand
+     before re-running.
 
-4. The script exits non-zero if any repo diverged or any rebase hit a conflict —
-   treat a non-zero exit as "needs human attention," not a bug to route around.
+4. The script exits non-zero if any repo diverged, any rebase hit a conflict, or
+   any repo hit an `error:` — treat a non-zero exit as "needs human attention,"
+   not a bug to route around.
 
 ## What this skill does NOT do
 
