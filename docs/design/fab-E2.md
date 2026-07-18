@@ -94,3 +94,39 @@ Grounded in: SPEC §7.3, §7.4, §10 I1, I2.
 
 - `rules ask` (FAB-022) — composes `searchRules()`'s results with the Discord-escalation footer; not this task.
 - Rules Reprise ingestion (FAB-024) and Card Vault rulings (FAB-023) — unaffected, no `document` union change here.
+
+## Addendum — FAB-022: `rules ask` with Discord escalation
+
+Grounded in: SPEC §7.5, §10 I1, I7.
+
+### Components
+
+- `src/rules.ts` gains one new export: `askRules(question: string, opts?: SearchRulesOptions): Promise<AskRulesResult>` — thin composition over the existing `searchRules()`, adding a confidence judgment. No new HTTP/KB logic; this task is pure composition on top of FAB-021's retrieval layer.
+- `src/commands/rules.ts` gains `rules ask "<question>"` — prints the passages `searchRules()` returns (same citation format as `rules search`'s result list — document/section/source_url/snippet) followed by the escalation footer, ALWAYS, every call, with no flag to suppress it.
+
+### Data model
+
+```ts
+export interface AskRulesResult {
+  passages: RulesChunk[];      // same objects searchRules() already returns
+  confident: boolean;          // false => passages don't clearly settle the question
+}
+```
+
+### Interfaces / contracts
+
+- **Confidence heuristic**: `rankRulesChunks` currently returns only the ranked `RulesChunk[]`, discarding its internal per-chunk score/matched-term-count. Export a scored variant — `rankRulesChunksScored(chunks, query, limit): { chunk: RulesChunk; score: number; matchedTerms: number; totalTerms: number }[]` — and have the existing `rankRulesChunks` become a thin wrapper over it (`.map(r => r.chunk)`) so there is exactly one ranking implementation, not two. `askRules()` calls `searchRules()` for the passages (reusing its TTL/legality-live guarantees unchanged) AND separately needs the scored breakdown to set `confident` — call the scoring function on the same underlying chunk set `searchRules()` used (do not re-rank differently; `confident` must be judged from the SAME ranking that produced the returned passages, or the "low-relevance" signal and the actual passages shown could disagree).
+- **Confidence rule**: `confident = false` when EITHER (a) `passages.length === 0` (nothing matched at all), OR (b) the top-ranked result's `matchedTerms / totalTerms < 0.5` (fewer than half the query's real terms appear anywhere in the best passage — a weak/partial match, not a genuine hit). This is a simple, testable, deterministic threshold — not a subjective judgment call left to the dev agent; implement exactly this rule.
+- **Escalation footer — ALWAYS printed, unconditionally** (§7.5's "ALWAYS print the escalation line" — not just on low confidence): `judge Discord #ask-a-judge — https://discord.com/channels/874145774135558164/1020649907314495528`. WHEN `confident` is `false`, this footer is additionally highlighted/prefixed (e.g. a warning-colored line above it: "passages don't clearly settle this — ") per §7.5's "prominently marked ... when passages don't settle the question." The footer text and link never change; only whether the extra highlight precedes it changes.
+- **Answers contain ONLY KB-sourced text + citations (I1)**: `rules ask`'s output must not synthesize prose "answering" the question — it prints the retrieved passages verbatim (or as snippets, same as `rules search`) with their citations, plus the fixed escalation footer. No LLM-generated summary/paraphrase of passage content; the command itself does no interpretation, only retrieval + composition + the footer.
+
+### Decisions
+
+- **No new KB/HTTP logic — pure composition** — `askRules()` must not duplicate `searchRules()`'s TTL-refresh or legality-live logic; it calls `searchRules()` directly and gets those guarantees for free. This keeps the "one code path" principle from FAB-021's `refreshLegality()` decision consistent here too.
+- **Confidence threshold is a plain, deterministic function of the SAME scored ranking `searchRules()` computed** — not a second, independently-tuned relevance model — so the escalation-highlight decision can never contradict the passages actually shown.
+- **`rankRulesChunksScored` is the single ranking implementation; `rankRulesChunks` becomes a wrapper** — avoids the two-separate-scoring-functions drift risk (same reasoning as FAB-021's `refreshLegality()` extraction: one code path, not two that could diverge).
+
+### Out of scope for FAB-022
+
+- Any LLM-composed/summarized answer text — deliberately out per invariant I1; this command retrieves and cites, it does not "answer" in a generative sense.
+- Rules Reprise ingestion (FAB-024), Card Vault rulings (FAB-023) — unaffected.
