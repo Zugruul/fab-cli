@@ -93,30 +93,32 @@ describe("fetchCardRulings", () => {
   });
 
   it("returns parsed, most-recent-first rulings and the resolved cardId when the card is found with rulings", async () => {
-    const fetchSpy = vi.spyOn(global, "fetch").mockImplementation(async (input) => {
-      const url = String(input);
-      if (url.includes("/advanced-search/")) {
-        return jsonResponse({
-          count: 1,
-          results: [{ card_id: "snatch---snatch" }],
-        });
-      }
-      if (url.includes("/card_id/")) {
-        return jsonResponse({
-          count: 1,
-          results: [
-            cardVaultCard({
-              rulings_errata: [
-                { date: "2021-01-01", text: "Older ruling." },
-                { date: "2023-06-15", text: "Newer ruling." },
-                { text: "Undated ruling." },
-              ],
-            }),
-          ],
-        });
-      }
-      throw new Error(`unexpected fetch: ${url}`);
-    });
+    const fetchSpy = vi
+      .spyOn(global, "fetch")
+      .mockImplementation(async (input) => {
+        const url = String(input);
+        if (url.includes("/advanced-search/")) {
+          return jsonResponse({
+            count: 1,
+            results: [{ card_id: "snatch---snatch" }],
+          });
+        }
+        if (url.includes("/card_id/")) {
+          return jsonResponse({
+            count: 1,
+            results: [
+              cardVaultCard({
+                rulings_errata: [
+                  { date: "2021-01-01", text: "Older ruling." },
+                  { date: "2023-06-15", text: "Newer ruling." },
+                  { text: "Undated ruling." },
+                ],
+              }),
+            ],
+          });
+        }
+        throw new Error(`unexpected fetch: ${url}`);
+      });
 
     const result = await fetchCardRulings("Snatch");
     expect(result).not.toBeNull();
