@@ -1481,3 +1481,76 @@ items:
     verification entirely or writing a test that asserts nothing real.
   routing:
     action: ignore
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T21:00:00Z'
+iteration:
+  task: '8'
+  outcome: merged
+  reviewRounds: 3
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: friction
+  area: board
+  severity: medium
+  summary: board-pick script surfaced candidates whose GitHub issue was already CLOSED/deferred,
+    contradicting the cached board status
+  detail: 'board.sh next picked #19/#20/#21 (FAB-060/061/062), all CLOSED with an
+    owner comment deferring them, while the board''s status field still read Backlog.'
+  evidence:
+  - fab-cli#19
+  - fab-cli#20
+  - fab-cli#21
+  generalized: A board-pick script can surface candidates whose underlying issue-tracker
+    state (closed) contradicts the board's own cached status field (still open/backlog)
+    — a stale-board-item class of bug not caught by epic-sequencing/WIP checks alone,
+    since those only inspect status, not issue open/closed state. Worth a periodic
+    reconciliation check, or having the pick step cross-check live issue state, so
+    autonomous loops don't repeatedly select dead candidates.
+  routing:
+    action: ignore
+    ref: "duplicate of fab-cli#72 iteration's item (2026-07-18T00:00:00Z), same fab-cli#19/fab-cli#20/fab-cli#21
+      stale-board-item finding already routed upstream there"
+- category: friction
+  area: merge
+  severity: low
+  summary: gh pr review --approve fails with 'Can not approve your own pull request'
+    when the authenticated account owns both the PR and the repo
+  detail: Hit this on the first auto-merge attempt of the session; fell back to gh
+    pr comment for the approval record, then gh pr merge directly (branch-protection
+    requirements were 'none').
+  evidence: []
+  generalized: Autonomous auto-merge protocols that call a PR-approve API will hit
+    a deterministic rejection in any single-account setup (no separate bot/reviewer
+    account) — this is an expected failure mode, not an edge case. A fallback of recording
+    approval as a PR/issue comment (when merge requirements are 'none') works, but
+    isn't documented as the default expectation, so it reads like a workaround discovered
+    mid-flight rather than a known path.
+  routing:
+    action: upstream
+    ref: 'development-skills (auto-review.md: document gh-pr-comment fallback as the
+      expected path when the auto-merge account owns both PR and repo, not just gh
+      pr merge directly after a failed self-review attempt)'
+- category: worked-well
+  area: review
+  severity: low
+  summary: Mandating re-derivation of evidence against the full real corpus on every
+    review round (not just re-checking the originally reported example) caught a fix
+    that was only partially correct
+  detail: Round-2 review found a regex false-positive against real vendored data;
+    the fix only addressed the one reported pattern. Round-3 re-review independently
+    re-ran the same real-data check and found a sibling false-positive pattern the
+    narrow fix left untouched.
+  evidence: []
+  generalized: A review protocol that mandates re-running a parser/heuristic against
+    the FULL real corpus after each fix — not just confirming the one reported failing
+    example now passes — can catch a fix that only addressed the reported symptom
+    while leaving a structurally identical sibling defect in place. Reinforces that
+    each review round should re-derive evidence independently rather than merely verifying
+    the specific complaint was addressed.
+  routing:
+    action: brain-note
+    ref: reviewer/verify-fix-against-full-corpus
