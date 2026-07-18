@@ -63,3 +63,34 @@ interface RulesIndex {
 
 - `rules search` / `rules show` (FAB-021), `rules ask` (FAB-022), Rules Reprise ingestion (FAB-024), Card Vault rulings in `cards show` (FAB-023) — all separate tasks consuming `kb/rules/index.json` or extending the `document` union.
 - Brain seeding (E3) — reads from this KB once it exists but isn't part of building it.
+
+## Addendum — FAB-021: `rules search` / `rules show`
+
+Grounded in: SPEC §7.3, §7.4, §10 I1, I2.
+
+### Components
+
+- `src/rules.ts` gains three new exports:
+  - `searchRules(query: string, opts?: SearchRulesOptions): Promise<RulesChunk[]>` — ranked search over `kb/rules/index.json`.
+  - `showRulesChunk(ref: string, opts?): Promise<RulesChunk | null>` — resolve a single chunk by a reference string (see below).
+  - `refreshLegality(opts?): Promise<RulesSyncResult>` — extracted from `syncRules()`'s existing private `syncLegality()` so it can be called standalone (legality-only, no CR/TRP/PPG/CPG refresh) — reused internally by `syncRules()` unchanged, and newly called directly by `searchRules()`/`showRulesChunk()` per the legality-live rule below.
+- `src/commands/rules.ts` gains `rules search <query>` and `rules show <ref>` subcommands, output styled like `lore search`/`lore show` (ranked list with document/section/source_url, then a `show` full-chunk dump) — reuse that command's chalk/formatting idiom, not a new style.
+
+### Interfaces / contracts
+
+- **TTL auto-refresh (§7.3)**: before searching/showing, check `kb/rules/index.json`'s `builtAt` age. If older than `RULES_TTL_MS` (default 7 days, env-overridable — mirror `src/lore.ts`'s `FAB_LORE_TTL_MS` pattern, name it `FAB_RULES_TTL_MS`), call the existing `syncRules()` to refresh the whole KB before searching. If `kb/rules/index.json` doesn't exist yet at all, this is also "stale" (age = infinite) — trigger the same refresh (first-run bootstrap, matching `lore.ts`'s missing-index behavior).
+- **Legality-always-live (§7.4, invariant I2 — hard rule, independent of the TTL check above)**: whenever a search's results include one or more `document: "legality"` chunks, OR `show`'s resolved chunk is a legality chunk, call `refreshLegality()` to re-fetch the live policy page **before** returning that chunk's content to the caller — every single call, never skipped even if the TTL check above just ran a full sync moments earlier in the same invocation (a full sync's legality fetch already satisfies this for that call, so don't double-fetch in the same invocation — but a `search`/`show` call that did NOT trigger the TTL path must still independently refresh legality if its results touch it).
+- **`showRulesChunk(ref)` reference resolution**: `ref` accepts `<document>/<section>` (e.g. `"cr/1.1"`, case-insensitive on document) matching a chunk's `document`+`section` fields, OR a slug matching the chunk filename (`slugSection(section)`, reusing the existing exported... — if `slugSection` isn't exported yet, export it) for cases where `section` isn't a clean lookup key (CPG chunks, whose `section` IS already the slug). Ambiguous/no match → print candidates (search-style) and exit 1, mirroring `lore show`'s existing ambiguous-match handling — do not guess.
+- **Ranking**: simple term-overlap scoring is sufficient (matches `lore.ts`'s existing search approach — no need for a new dependency); rank primarily by how many query terms appear in `title`+`text`, tie-broken by `document` then `section`. Snippet in results should show the matched context, not the full chunk text (full text is `show`'s job).
+- **Offline speed (§11, this task's AC)**: a `search`/`show` call that does NOT need a TTL refresh or a legality touch must complete in-process reading `kb/rules/index.json` from disk only — no network call at all in that path. This is the concrete meaning of "offline search <1s after sync."
+
+### Decisions
+
+- **Legality-live is enforced at the search/show layer, not baked into `syncRules()`** — FAB-020 already guarantees sync-time freshness; FAB-021 adds the query-time guarantee SPEC §7.4 actually requires ("IF a query... touches legality-policy content"), which is necessarily about search/show, not sync. The two freshness guarantees are independent and both must hold.
+- **No new ranking/search dependency** — reuse the plain term-overlap approach already proven in `src/lore.ts`, keeping `rules.ts` consistent with the sibling KB module's idiom and avoiding an unnecessary dependency for a CLI-scale corpus (~850 chunks).
+- **`refreshLegality()` is extracted, not duplicated** — `syncRules()`'s internal legality step and `searchRules()`/`showRulesChunk()`'s query-time legality check must be the exact same code path (same live fetch, same write-through-preserving-last-known-good behavior on failure) — extracting it once avoids the two call sites drifting.
+
+### Out of scope for FAB-021
+
+- `rules ask` (FAB-022) — composes `searchRules()`'s results with the Discord-escalation footer; not this task.
+- Rules Reprise ingestion (FAB-024) and Card Vault rulings (FAB-023) — unaffected, no `document` union change here.
