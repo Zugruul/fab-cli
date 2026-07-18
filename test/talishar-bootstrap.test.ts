@@ -1,5 +1,13 @@
 import { execFileSync } from "node:child_process";
-import { mkdtempSync, mkdirSync, writeFileSync, chmodSync, readFileSync, existsSync, symlinkSync } from "node:fs";
+import {
+  mkdtempSync,
+  mkdirSync,
+  writeFileSync,
+  chmodSync,
+  readFileSync,
+  existsSync,
+  symlinkSync,
+} from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { describe, expect, it, beforeEach } from "vitest";
@@ -115,7 +123,10 @@ function seedExistingRepo(
   const lines: string[] = [];
   if (remotes.origin) lines.push(`origin=${remotes.origin}`);
   if (remotes.upstream) lines.push(`upstream=${remotes.upstream}`);
-  writeFileSync(join(dir, ".fake-remotes"), lines.join("\n") + (lines.length ? "\n" : ""));
+  writeFileSync(
+    join(dir, ".fake-remotes"),
+    lines.join("\n") + (lines.length ? "\n" : ""),
+  );
 }
 
 const REPOS = [
@@ -155,10 +166,15 @@ describe("scripts/talishar-bootstrap.sh", () => {
       expect(existsSync(join(dir, ".git"))).toBe(true);
 
       expect(log).toContain(`git clone ${correctOrigin(repo.name)} ${dir}`);
-      expect(log).toContain(`git -C ${dir} remote add upstream ${correctUpstream(repo.name)}`);
+      expect(log).toContain(
+        `git -C ${dir} remote add upstream ${correctUpstream(repo.name)}`,
+      );
 
       expect(stdout).toMatch(
-        new RegExp(`^cloned: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `, "m"),
+        new RegExp(
+          `^cloned: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+          "m",
+        ),
       );
     }
   });
@@ -207,17 +223,27 @@ describe("scripts/talishar-bootstrap.sh", () => {
 
     const dir = join(sb.thirdParty, wrongRepo.dir);
     const log = readFileSync(sb.log, "utf8");
-    expect(log).toContain(`git -C ${dir} remote set-url origin ${correctOrigin(wrongRepo.name)}`);
-    expect(log).toContain(`git -C ${dir} remote add upstream ${correctUpstream(wrongRepo.name)}`);
+    expect(log).toContain(
+      `git -C ${dir} remote set-url origin ${correctOrigin(wrongRepo.name)}`,
+    );
+    expect(log).toContain(
+      `git -C ${dir} remote add upstream ${correctUpstream(wrongRepo.name)}`,
+    );
     expect(stdout).toMatch(
-      new RegExp(`^repaired: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `, "m"),
+      new RegExp(
+        `^repaired: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+        "m",
+      ),
     );
 
     // untouched repos stay ok, no mutating calls for them
     for (const repo of REPOS.slice(1)) {
       const okDir = join(sb.thirdParty, repo.dir);
       expect(stdout).toMatch(
-        new RegExp(`^ok: ${okDir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `, "m"),
+        new RegExp(
+          `^ok: ${okDir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+          "m",
+        ),
       );
     }
   });
@@ -239,7 +265,10 @@ describe("scripts/talishar-bootstrap.sh", () => {
 
     const dir = join(sb.thirdParty, "talishar");
     expect(stdout).toMatch(
-      new RegExp(`^forked\\+cloned: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `, "m"),
+      new RegExp(
+        `^forked\\+cloned: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+        "m",
+      ),
     );
   });
 
@@ -262,9 +291,14 @@ describe("scripts/talishar-bootstrap.sh", () => {
     const dir = join(sb.thirdParty, REPOS[1].dir);
     const log = readFileSync(sb.log, "utf8");
     expect(log).not.toContain(`git -C ${dir} remote set-url origin`);
-    expect(log).toContain(`git -C ${dir} remote add upstream ${correctUpstream(REPOS[1].name)}`);
+    expect(log).toContain(
+      `git -C ${dir} remote add upstream ${correctUpstream(REPOS[1].name)}`,
+    );
     expect(stdout).toMatch(
-      new RegExp(`^repaired: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `, "m"),
+      new RegExp(
+        `^repaired: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+        "m",
+      ),
     );
   });
 
