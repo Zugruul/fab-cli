@@ -1320,3 +1320,75 @@ items:
   routing:
     action: ignore
     ref: positive signal, no routing action needed
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T07:20:00Z'
+iteration:
+  task: TAL-002
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Reviewer built its own independent test-double harness to reproduce a suspected
+    bug rather than trusting the dev's fixture, and verified a claimed language-semantic
+    justification with a standalone repro
+  generalized: A reviewer agent that reproduces a suspected defect with its own from-scratch
+    test double (not the implementer's fixture) can confirm a bug the implementer's
+    own green suite would mask, and can catch a shim capability nobody's test exercises.
+    Separately, when a fix's justification rests on a specific runtime-language semantic,
+    a cheap standalone repro before accepting it catches confident-sounding-but-wrong
+    claims.
+  detail: Round 1 the reviewer's own fake-git harness reproduced the mid-loop-abort
+    bug the dev's tests hadn't caught. Round 2 the reviewer wrote a 6-line bash repro
+    confirming the dev's claimed 'errexit disabled inside a function called under
+    if' semantic was literally true.
+  evidence: []
+  routing:
+    action: brain-note
+    ref: ''
+- category: incident
+  area: merge
+  severity: medium
+  summary: Orchestrator-side push to main was rejected as non-fast-forward against
+    a remote tip that ls-remote confirmed matched the local fast-forward parent; an
+    immediate retry with an explicit refspec succeeded
+  generalized: In a repo with concurrent build-loop sessions racing pushes to the
+    same branch, a push rejection can be transient/racy rather than a genuine divergence
+    — verify with ls-remote against the true parent before assuming a real conflict
+    requiring rebase/merge, and retry with an explicit refspec (HEAD:branch) once
+    confirmed safe.
+  detail: git push origin main was rejected non-fast-forward twice even though `git
+    ls-remote origin main` matched the local commit's direct parent; a plain `git
+    push origin HEAD:main -v` succeeded immediately after.
+  evidence: []
+  routing:
+    action: ignore
+    ref: ''
+- category: incident
+  area: concurrency
+  severity: high
+  summary: Copying a local brain-state snapshot (identities dir) wholesale into a
+    fresh worktree to commit a retro would have overwritten another session's already-pushed
+    brain updates
+  generalized: Never reconstruct an orchestrator brain commit by copying a locally-held
+    snapshot of the identities directory into a fresh checkout — a concurrent session
+    may have already pushed newer brain state (re-minted notes with bumped strength,
+    new activation/link entries) that a wholesale copy would silently regress. Re-run
+    the mint/prune/directory commands fresh inside a worktree pinned to the current
+    remote tip instead, so only genuinely new material is staged.
+  detail: A first attempt copied .claude/identities/ from the shared checkout into
+    a clean worktree on origin/main; the diff showed one note being overwritten with
+    a lower-strength/staler version that a concurrent session had already improved,
+    plus deletions in other roles' activation/links files. Caught before committing
+    by inspecting the staged diff; recovered by resetting the worktree and re-running
+    brain.sh mint/prune/directory directly against the fresh origin/main tip.
+  evidence: []
+  routing:
+    action: brain-note
+    ref: ''
