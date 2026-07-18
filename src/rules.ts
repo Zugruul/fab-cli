@@ -652,13 +652,17 @@ export async function searchRules(
     results.some((c) => c.document === "legality"),
   );
   if (refreshed) {
-    results = results.map((c) =>
+    const patched = results.map((c) =>
       c.document === "legality"
         ? (refreshed.chunks.find(
             (rc) => rc.document === "legality" && rc.section === c.section,
           ) ?? c)
         : c,
     );
+    // The legality patch can change that chunk's score, so re-rank the
+    // (already-selected) patched set — otherwise `results`' order would
+    // silently go stale relative to the content it now holds.
+    results = rankRulesChunks(patched, query, patched.length);
   }
   return results;
 }
@@ -746,14 +750,12 @@ export async function askRules(
   question: string,
   opts: SearchRulesOptions = {},
 ): Promise<AskRulesResult> {
-  const kbDir = opts.kbDir ?? KB_RULES_DIR;
   const passages = await searchRules(question, opts);
-  const index = loadRulesIndex(kbDir);
-  const scored = rankRulesChunksScored(
-    index?.chunks ?? [],
-    question,
-    opts.limit ?? 8,
-  );
+  // Score `passages` itself — the exact chunk set searchRules() returned —
+  // rather than re-reading the index from disk, which could reflect a
+  // legality refresh that happened mid-searchRules()-call and disagree with
+  // the passages actually shown.
+  const scored = rankRulesChunksScored(passages, question, passages.length);
   const top = scored[0];
   const confident =
     passages.length > 0 && !!top && top.matchedTerms / top.totalTerms >= 0.5;

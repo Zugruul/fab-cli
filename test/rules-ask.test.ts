@@ -359,4 +359,17 @@ describe("rules ask CLI — escalation footer always present, highlighted on low
     expect(output).toContain(ASK_RULES_ESCALATION_FOOTER);
     expect(output).toContain(JUDGE_DISCORD_URL);
   });
+
+  it("Commander's variadic <question...> capture: separate argv tokens are joined with spaces before being passed to askRules", async () => {
+    askSpy.mockResolvedValue({ passages: [chunk()], confident: true });
+    const program = buildProgram();
+    await program.parseAsync(
+      ["rules", "ask", "player", "person", "damage"],
+      { from: "user" },
+    );
+    expect(askSpy).toHaveBeenCalledWith(
+      "player person damage",
+      expect.anything(),
+    );
+  });
 });
