@@ -61,6 +61,28 @@ describe("chunkNumberedDoc — CR/TRP/PPG numbered-section chunking", () => {
       chunkNumberedDoc("just some prose\nwith no headings at all"),
     ).toEqual([]);
   });
+
+  it("folds numeric table-row lines (e.g. TRP time-limit tables) into the preceding heading instead of splitting them into bogus sections", () => {
+    const content = [
+      "8 Tournament Structure",
+      "8.3 Time Limits",
+      "The following time limits are recommended for each round of the tournament.",
+      "Format",
+      "Time Limit",
+      "Classic Constructed",
+      "55 minutes",
+      "Blitz",
+      "35 minutes",
+    ].join("\n");
+
+    const chunks = chunkNumberedDoc(content);
+
+    expect(chunks.map((c) => c.section)).toEqual(["8", "8.3"]);
+    const timeLimits = chunks.find((c) => c.section === "8.3")!;
+    expect(timeLimits.title).toBe("Time Limits");
+    expect(timeLimits.text).toContain("55 minutes");
+    expect(timeLimits.text).toContain("35 minutes");
+  });
 });
 
 describe("chunkCpgText — CPG heading-structure chunking", () => {
