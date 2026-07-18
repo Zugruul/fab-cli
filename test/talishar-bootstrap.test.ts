@@ -14,10 +14,26 @@ import { describe, expect, it, beforeEach } from "vitest";
 
 const REAL_SCRIPT = join(process.cwd(), "scripts", "talishar-bootstrap.sh");
 
+// NOTE: this shim intentionally simplifies real git — it doesn't validate
+// URLs, doesn't touch an actual object database, and only understands the
+// exact subcommands talishar-bootstrap.sh issues (clone, -C <dir> remote
+// get-url/add/set-url). It does mirror one real-git semantic that matters
+// for the tests below: `remote set-url <name>` fails (exit 1, no state
+// change) when <name> doesn't already exist — real git can't set-url a
+// remote that was never added. Don't assume any other git behavior holds.
 const FAKE_GIT = `#!/usr/bin/env bash
 echo "git $*" >> "$FAKE_LOG"
 if [ "$1" = "clone" ]; then
   url="$2"; dir="$3"
+  counter="\${FAKE_CLONE_COUNTER:-}"
+  if [ -n "$counter" ]; then
+    n=$(cat "$counter" 2>/dev/null || echo 0)
+    n=$((n + 1))
+    echo "$n" > "$counter"
+    if [ "$n" -le "\${FAKE_CLONE_FAIL_TIMES:-0}" ]; then
+      exit 1
+    fi
+  fi
   mkdir -p "$dir/.git"
   exit 0
 fi
@@ -39,7 +55,10 @@ if [ "$1" = "-C" ]; then
     fi
     if [ "$action" = "set-url" ]; then
       remote="$5"; url="$6"
-      touch "$state"
+      # Real git: set-url on a remote that doesn't exist yet fails outright.
+      if ! grep -q "^\${remote}=" "$state" 2>/dev/null; then
+        exit 1
+      fi
       grep -v "^\${remote}=" "$state" > "$state.tmp" 2>/dev/null || true
       mv "$state.tmp" "$state"
       echo "\${remote}=\${url}" >> "$state"
@@ -297,6 +316,112 @@ describe("scripts/talishar-bootstrap.sh", () => {
     expect(stdout).toMatch(
       new RegExp(
         `^repaired: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+        "m",
+      ),
+    );
+  });
+
+  it("repairs a dir with no origin remote at all instead of crashing (interrupted clone)", () => {
+    const sb = makeSandbox();
+    const repo = REPOS[0];
+    // .git exists but the remotes state file has neither origin nor
+    // upstream — simulates an interrupted/hand-recovered clone. A naive
+    // `remote set-url origin` would fail here since origin was never added.
+    seedExistingRepo(sb, repo.dir, {});
+    for (const other of REPOS.slice(1)) {
+      seedExistingRepo(sb, other.dir, {
+        origin: correctOrigin(other.name),
+        upstream: correctUpstream(other.name),
+      });
+    }
+
+    const { stdout, status } = run(sb);
+    expect(status).toBe(0);
+
+    const dir = join(sb.thirdParty, repo.dir);
+    const log = readFileSync(sb.log, "utf8");
+    expect(log).toContain(
+      `git -C ${dir} remote add origin ${correctOrigin(repo.name)}`,
+    );
+    expect(log).toContain(
+      `git -C ${dir} remote add upstream ${correctUpstream(repo.name)}`,
+    );
+    expect(stdout).toMatch(
+      new RegExp(
+        `^repaired: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+        "m",
+      ),
+    );
+
+    // the other two repos, seeded correct, are untouched and still ok
+    for (const other of REPOS.slice(1)) {
+      const okDir = join(sb.thirdParty, other.dir);
+      expect(stdout).toMatch(
+        new RegExp(
+          `^ok: ${okDir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+          "m",
+        ),
+      );
+    }
+  });
+
+  it("errors loudly on a dir that exists but isn't a git repo, without crashing the whole run", () => {
+    const sb = makeSandbox();
+    const notGitRepo = REPOS[0];
+    mkdirSync(join(sb.thirdParty, notGitRepo.dir), { recursive: true });
+    // no .git, no .fake-remotes — this is not a git repository at all
+    for (const other of REPOS.slice(1)) {
+      seedExistingRepo(sb, other.dir, {
+        origin: correctOrigin(other.name),
+        upstream: correctUpstream(other.name),
+      });
+    }
+
+    const { stdout, status } = run(sb);
+
+    // overall run signals failure, but it must not abort mid-loop
+    expect(status).not.toBe(0);
+    expect(stdout.toLowerCase()).toContain("not a git repository");
+
+    for (const other of REPOS.slice(1)) {
+      const okDir = join(sb.thirdParty, other.dir);
+      expect(stdout).toMatch(
+        new RegExp(
+          `^ok: ${okDir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
+          "m",
+        ),
+      );
+    }
+  });
+
+  it("retries the clone a few times when it lands right after a fresh fork", () => {
+    const sb = makeSandbox();
+    const counter = join(sb.root, "clone-attempts");
+    writeFileSync(counter, "0");
+
+    const { stdout, status } = run(sb, {
+      FAKE_GH_MISSING: "Zugruul/Talishar",
+      FAKE_CLONE_COUNTER: counter,
+      // fail the first two clone attempts (simulating the fork not being
+      // provisioned yet), succeed on the third
+      FAKE_CLONE_FAIL_TIMES: "2",
+      TALISHAR_BOOTSTRAP_RETRY_SLEEP: "0",
+    });
+
+    expect(status).toBe(0);
+    const log = readFileSync(sb.log, "utf8");
+    const cloneAttempts = log
+      .split("\n")
+      .filter((line) =>
+        line.startsWith(`git clone ${correctOrigin("Talishar")}`),
+      ).length;
+    expect(cloneAttempts).toBe(3);
+
+    const dir = join(sb.thirdParty, "talishar");
+    expect(existsSync(join(dir, ".git"))).toBe(true);
+    expect(stdout).toMatch(
+      new RegExp(
+        `^forked\\+cloned: ${dir.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} `,
         "m",
       ),
     );
