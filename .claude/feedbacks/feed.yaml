@@ -1810,3 +1810,60 @@ items:
   routing:
     action: brain-note
     ref: reviewer/distinguish-paraphrase-condensation-from-copy-paste
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T22:25:00Z'
+iteration:
+  task: '99'
+  outcome: abandoned
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: concurrency
+  severity: medium
+  summary: Two concurrent sessions independently fixed the same small ad-hoc bug —
+    one via a dedicated task/PR, another as unplanned scope-creep bundled into an
+    unrelated PR — and neither noticed until the second PR turned out stale/conflicting
+    at review time
+  detail: A missing test-runner exclude pattern was filed as its own bug task. One
+    session picked it up as a dedicated task with its own branch/PR. A different concurrent
+    session independently noticed and fixed the same root cause as unplanned scope-creep
+    inside an unrelated feature PR, which merged first. The dedicated PR was only
+    discovered to be redundant/conflicting during its own review pass.
+  evidence: []
+  generalized: Board mechanics (WIP limits, epic sequencing) only guard against races
+    on epic-sequenced backlog work — they provide no protection when two different
+    concurrent sessions independently notice and fix the same small, obvious, ad-hoc
+    bug (e.g. a config file, a gate-tooling fix) outside the epic-sequenced flow.
+    Before spawning a dev agent for a freshly-filed ad-hoc bug, check the target file's
+    very recent commit history on the current default branch for an unrelated concurrent
+    fix, not just at review/merge time — catching the race before implementation avoids
+    wasted dev-agent and review-agent effort entirely.
+  routing:
+    action: brain-note
+    ref: orchestrator/concurrent-session-race-on-adhoc-bugfix
+- category: recommendation
+  area: concurrency
+  severity: low
+  summary: Scope-creep fixes bundled into unrelated PRs (fixing an unrelated bug 'while
+    I'm in here') make it harder for other concurrent sessions to discover that a
+    bug they're independently working has already been resolved elsewhere
+  detail: The fix that actually landed first arrived as an uncited addition inside
+    a PR whose title/scope was about a completely different task, rather than as its
+    own PR referencing the bug's issue number — making it invisible to a `git log`
+    scan or issue-search a concurrent session might do before starting the same fix.
+  evidence: []
+  generalized: When a dev agent notices and fixes an unrelated small bug while working
+    a different task, giving that fix its own clearly-labeled commit that references
+    the bug's issue number (even inside a larger PR) — rather than an unlabeled incidental
+    change — measurably helps other concurrent sessions/humans discover via `git log`/issue
+    search that the bug is already resolved before they duplicate the work.
+  routing:
+    action: upstream
+    ref: 'development-skills (implement-task skill: encourage referencing an issue
+      number in any incidental/scope-creep fix commit, even when it''s not the PR''s
+      primary task, so concurrent sessions can discover it via git log)'
