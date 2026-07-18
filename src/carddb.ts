@@ -46,23 +46,32 @@ export interface LocalSearchOptions {
   type?: string;
   class?: string;
   limit?: number;
+  /** override the card DB path — for tests only; the real CLI never sets this */
+  dbPath?: string;
 }
 
-let cache: LocalCard[] | null = null;
+// No invalidation on file mutation — a path's entry is cached for the process
+// lifetime once loaded. Fine for the real CLI (the vendored file doesn't
+// change mid-process) and for tests that use fixed fixture paths; a
+// hypothetical future test that mutates a fixture file mid-run and re-reads
+// it from the SAME path would get the stale cached array.
+const cacheByPath = new Map<string, LocalCard[]>();
 
-export function loadCardDb(): LocalCard[] {
-  if (cache) return cache;
-  if (!fs.existsSync(CARD_DB_PATH)) {
+export function loadCardDb(dbPath: string = CARD_DB_PATH): LocalCard[] {
+  const cached = cacheByPath.get(dbPath);
+  if (cached) return cached;
+  if (!fs.existsSync(dbPath)) {
     throw new Error(
-      `card DB missing: ${CARD_DB_PATH}\nrun: git submodule update --init third_party/flesh-and-blood-cards`
+      `card DB missing: ${dbPath}\nrun: git submodule update --init third_party/flesh-and-blood-cards`
     );
   }
-  cache = JSON.parse(fs.readFileSync(CARD_DB_PATH, "utf-8")) as LocalCard[];
-  return cache;
+  const cards = JSON.parse(fs.readFileSync(dbPath, "utf-8")) as LocalCard[];
+  cacheByPath.set(dbPath, cards);
+  return cards;
 }
 
 export function searchLocalCards(terms: string[], opts: LocalSearchOptions = {}): LocalCard[] {
-  const cards = loadCardDb();
+  const cards = loadCardDb(opts.dbPath);
   if (opts.exact !== undefined) {
     const want = opts.exact.toLowerCase();
     return cards.filter((c) => c.name.toLowerCase() === want);

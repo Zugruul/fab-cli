@@ -217,3 +217,34 @@ One chunk per article (not sub-sectioned — a Rules Reprise article is a single
 
 - Any dedicated "release notes" (distinct from "Rules Reprise") ingestion beyond what the "rules reprise" search query incidentally surfaces (e.g. an adjacent "Rules Update" post) — SPEC §7.2a's explicit example and this task's AC are both Rules-Reprise-specific; a broader release-notes taxonomy sweep is a future enhancement, not required here.
 - Any change to `rules ask` (FAB-022, already merged) — it composes over `searchRules()` unchanged, automatically benefiting from reprise chunks with zero code change, same reasoning as `rules search`/`show` above.
+
+## Addendum — FAB-025: Vendor flesh-and-blood-cards submodule + `cards local` offline search
+
+Grounded in: SPEC §5, §7.7.
+
+### Status quo (confirmed before writing this addendum)
+
+Most of this task's deliverables already exist on `main`, landed ahead of the board (per the OWNER's 2026-07-10 comment on issue #22, cross-referenced from #23/FAB-033): the `third_party/flesh-and-blood-cards` submodule is vendored with its pin committed (`.gitmodules` confirmed), `src/carddb.ts` (`loadCardDb`/`searchLocalCards`) exists and is real, working code, and `fab-cli fabrary cards local` (`src/commands/cards.ts`) is fully wired and documented in `CLAUDE.md`. The OWNER's comment explicitly named the ONLY remaining gap: **fixture tests for `src/carddb.ts`'s offline search**, deferred at the time because E0's gate tooling didn't exist yet. E0 (and every subsequent epic) is long since Deployed — this task's entire remaining scope is closing that one gap.
+
+### Components
+
+- `src/carddb.ts` needs a small, additive testability change: `loadCardDb()` currently resolves `CARD_DB_PATH` from `__dirname` with no override, and caches the parsed JSON in a module-level `let cache` with no reset — both make it untestable against a fixture without monkeypatching the filesystem. Add an optional path parameter: `loadCardDb(dbPath: string = CARD_DB_PATH): LocalCard[]`, and change the cache to be KEYED by the resolved path (a `Map<string, LocalCard[]>`) rather than a single module-level value — so a fixture-path call and the real default-path call never collide or pollute each other across test runs, and repeated calls with the SAME path still hit the cache (preserving the existing perf characteristic for the real CLI path). Thread the same optional `dbPath` through `searchLocalCards(terms, opts)` — either as a new `opts.dbPath` field, or a separate parameter; dev agent's call on whichever composes more naturally with the existing `LocalSearchOptions` shape, but it must not change the DEFAULT (no-`dbPath`-given) behavior observably for the real `cards local` command.
+- No changes to `src/commands/cards.ts`'s `local` action — it doesn't need a `--fixture`/test-only flag; the CLI always uses the real submodule path. The new parameter exists purely for `test/carddb.test.ts` to point at a small synthetic fixture.
+- New `test/fixtures/carddb/card.json` — a small (5-10 entry) synthetic card array matching `LocalCard`'s real shape (`name`, `pitch`, `cost`, `power`, `defense`, `types`, `card_keywords`, `granted_keywords`, `ability_and_effect_keywords`, `functional_text`), covering: a card matched by name-scope, a DIFFERENT card matched only by text-scope (mentions the first card's name in its own functional text — the classic "search text mentions X" case CLAUDE.md documents for the online `cards search --text` flag's identical semantics), a card matched by keyword-scope, cards with distinct pitch/cost/type values to prove filters actually filter (not just pass everything through), and one card whose name collides case-insensitively with another for the `--exact` lookup test.
+
+### Interfaces / contracts
+
+- `searchLocalCards(terms, opts)`'s existing behavior for every currently-documented flag (`scope: name|text|keyword|any`, `exact`, `pitch`, `cost`, `type`, `limit`) must be preserved exactly — this task adds test coverage and one additive testability parameter, it does NOT change matching semantics. If writing the fixture tests reveals an actual bug in the existing matching logic (not merely "untested," but "wrong"), STOP and report it — fixing a real bug found via new tests is in scope, but redesigning working matching logic is not.
+- AC's "filters match online `cards search` flags where data supports them" is a CONFIRMATION check, not new work: compare `LocalSearchOptions`'s fields against `src/commands/cards.ts`'s existing ONLINE `search` command's flag set (already registered, read it) and note in the PR description which flags have an offline equivalent and which don't (e.g. does `--class`/`--talent`/`--subtype`/`--rarity` from the online search exist offline? `searchLocalCards`'s `class` filter currently checks `c.types` — the same array `type` checks — meaning "class" isn't actually a distinct filter from `type` today; this may be a pre-existing minor gap worth a one-line note in the PR, not a redesign).
+- "Full-corpus search works offline" AC: in addition to fixture tests, run one live smoke against the REAL vendored submodule data (already on disk, no network needed) as manual verification — not a gated test, since gate tests must use the small fixture (a full-corpus JSON parse in every `npm run test:run` invocation would be needlessly slow for a unit suite, and the real submodule's exact card count changes over time as LSS prints new sets, which the fixture tests must NOT depend on).
+
+### Decisions
+
+- **Path-keyed cache over a cache-reset function** — a `Map<string, LocalCard[]>` keyed by resolved path is simpler and more correct than adding a `resetCardDbCache()` escape hatch tests would need to remember to call in `afterEach`; it also matches how a real (non-test) caller could theoretically point at a different path without stale-cache surprises, though in practice only the CLI's fixed real path is ever used outside tests.
+- **No CLI-level `--fixture` flag** — the testability change is internal-only; `fab-cli fabrary cards local` always searches the real vendored submodule, matching its documented behavior with zero surface-area change for end users.
+- **This task does not redesign `class` vs `type` filter semantics** even though they're currently identical — that's an existing, working (if perhaps under-differentiated) behavior; scope is testing what exists and fixing genuine bugs the new tests uncover, not a filter-semantics redesign.
+
+### Out of scope for FAB-025
+
+- Adding new filter flags beyond what `searchLocalCards`/`cards local` already support (e.g. a hypothetical `--rarity`/`--talent` for offline search) — not named in this task's AC; a later task if wanted.
+- Any change to the online `cards search`/`cards show` commands — this task is offline-search-only.
