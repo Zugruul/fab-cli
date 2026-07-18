@@ -1,20 +1,35 @@
 {
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
-    "fires": 1,
-    "last": "2026-07-16",
+    "fires": 2,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "live-verification-over-fixtures->isolated-worktree-tdd-proof": {
-    "fires": 1,
-    "last": "2026-07-16",
+    "fires": 2,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "live-verification-over-fixtures->reproduce-gate-claims": {
-    "fires": 1,
-    "last": "2026-07-16",
+    "fires": 2,
+    "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "self-referential-coverage-tests->verify-repo-pollution-claims-empirically": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "verify-empirical-claims-independently->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "verify-negative-controls-independently->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "verify-negative-controls-independently->self-referential-coverage-tests": {
     "fires": 0,
     "last": null,
     "weight": 0.5

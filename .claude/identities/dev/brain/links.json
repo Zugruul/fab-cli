@@ -30,8 +30,8 @@
     "weight": 0.5
   },
   "pricing-cache-contract->scoped-green-verification": {
-    "fires": 2,
-    "last": "2026-07-16",
+    "fires": 3,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "provider-prefixed-raw-types->pricing-cache-contract": {
@@ -45,8 +45,8 @@
     "weight": 0.5
   },
   "scoped-green-verification->pricing-cache-contract": {
-    "fires": 2,
-    "last": "2026-07-16",
+    "fires": 3,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "sibling-pattern-parity->pricing-cache-contract": {
