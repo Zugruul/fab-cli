@@ -1066,3 +1066,87 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/gate-red-not-diff-broken
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T05:56:00Z'
+iteration:
+  task: FAB-011
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: friction
+  area: other
+  severity: medium
+  summary: CLAUDE_PLUGIN_ROOT was unresolved in the orchestrator's shell, forcing
+    a whole-filesystem search to locate gate.sh
+  detail: The build-next skill instructs invoking gate.sh via "$CLAUDE_PLUGIN_ROOT/scripts/gate.sh",
+    but that env var was not set in the shell tool's environment, so the literal path
+    resolved to /scripts/gate.sh (nonexistent). Had to fall back to a repo-wide find
+    across the whole filesystem to locate the correct versioned plugin cache path
+    (spec-workflow/0.25.0), which is slow and risks picking a stale/wrong version
+    if multiple are cached.
+  generalized: When a skill's instructions tell the orchestrator to invoke a helper
+    script via a template env-var path (e.g. "$SOME_PLUGIN_ROOT/scripts/x.sh"), but
+    that env var is unset in the shell the orchestrator's tool calls actually run
+    in, the literal path resolves to a nonexistent location and the orchestrator has
+    no fast way to recover except a broad filesystem search — slow, and risks matching
+    a stale or wrong plugin version if several are cached. Resolving and printing
+    (or exporting) the concrete absolute path once, rather than relying on an env
+    var the invoking shell may not have, would remove this failure mode.
+  evidence: []
+  routing:
+    action: upstream
+    ref: ''
+- category: friction
+  area: board
+  severity: low
+  summary: board.sh comment silently produced a confusing downstream API error when
+    given a positional-argument body instead of piped stdin
+  detail: Passed the comment text as a normal shell argument to board.sh comment 6
+    "..."; it failed with a GraphQL 'Body cannot be blank' error rather than a clear
+    local usage message. Only piping via stdin (printf '%s' "..." | board.sh comment
+    6) worked, matching the skill doc's example — but the doc's requirement isn't
+    obvious until the API-level error is hit.
+  generalized: A board-comment CLI helper that only accepts a comment body via stdin
+    (not also as a positional or flag argument) can produce a confusing downstream
+    API error (e.g. 'Body cannot be blank') rather than a clear local usage message
+    when the caller passes the body the more natural way, as a positional argument.
+    A local argument-count check with a usage hint, or accepting both stdin and positional
+    body, would remove this trap.
+  evidence: []
+  routing:
+    action: upstream
+    ref: ''
+- category: worked-well
+  area: review
+  severity: low
+  summary: Two independent review passes plus an explicit orchestrator-adjudicated
+    declined-findings channel separated genuine defects from out-of-scope scope-creep
+    suggestions without blocking merge
+  detail: Spec-compliance and code-quality ran as two separate reviewer agents. The
+    code-quality pass raised 5 findings; 2 were genuine test-rigor gaps (assertions
+    on call-count/bound only, not exact values) that got fixed in one round, and 2
+    were 'unify this with a sibling module's similar logic' suggestions that contradicted
+    an already-agreed design-doc scope boundary. The orchestrator declined the latter
+    two with a stated rationale (design doc + independent confirmation from the other
+    reviewer), relayed only the real findings to the dev agent, and the task merged
+    cleanly after one fix round. The dev agent also independently caught and fixed
+    a genuine literal-value drift bug (a UA string version) while addressing the relayed
+    findings.
+  generalized: Running spec-compliance and code-quality as two independent review
+    passes, with the orchestrator empowered to decline a reviewer finding that amounts
+    to scope expansion beyond an already-agreed design-doc boundary (while still relaying
+    genuinely valid findings for a fix round), lets real defects get fixed without
+    the task getting stuck re-litigating already-decided scope. Independent re-verification
+    steps (re-running the gate personally, re-checking TDD red-state in an isolated
+    worktree rather than trusting commit order) let the orchestrator adjudicate reviewer/dev
+    disagreements quickly and with concrete evidence rather than deferring to whichever
+    agent argued more persuasively.
+  evidence: []
+  routing:
+    action: ignore
+    ref: positive signal, no routing action needed
