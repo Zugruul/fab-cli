@@ -1,4 +1,9 @@
 {
+  "concurrent-session-race-on-adhoc-bugfix->gh-pr-merge-worktree-branch-lock": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "gate-green-can-hide-uncommitted-local-fixes->reproduce-gate-claims": {
     "fires": 0,
     "last": null,
