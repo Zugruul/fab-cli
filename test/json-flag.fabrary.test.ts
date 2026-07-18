@@ -512,6 +512,15 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
   });
 
   it("fabrary meta --list-periods --json emits { periods }", async () => {
+    // getSeasonPeriods() hits fabrary.net directly for season discovery; mock
+    // it to a non-ok response so it falls back to [] without touching the network.
+    vi.spyOn(global, "fetch").mockResolvedValue({
+      ok: false,
+      status: 404,
+      statusText: "Not Found",
+      json: async () => ({}),
+      text: async () => "",
+    } as Response);
     const logs: string[] = [];
     vi.spyOn(console, "log").mockImplementation((s: string) => logs.push(s));
 
