@@ -1992,3 +1992,70 @@ items:
   routing:
     action: brain-note
     ref: reviewer/verify-self-sufficiency-by-tracing-worked-example
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T23:25:00Z'
+iteration:
+  task: '11'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Code-quality review escalated a dev-flagged 'inefficiency' into a real
+    correctness finding by reasoning about non-determinism, then independently found
+    a second, unrelated bug (a non-transitive sort comparator) via a concrete constructed
+    reproduction
+  detail: The dev agent's own report flagged a redundant network call as worth noting.
+    The reviewer didn't just accept it as a minor efficiency nit — it asked whether
+    two independent calls to the same search endpoint were guaranteed to return the
+    same top result, concluded no, and treated it as a correctness bug with a citable
+    failure mode (result-order drift silently mismatching a citation URL to different
+    content than what's shown). Separately, unprompted, it constructed a 3-element
+    array reproduction that demonstrated an unrelated sort comparator was non-transitive,
+    catching a bug no test in the diff had exercised.
+  evidence: []
+  generalized: When a dev agent's own report flags something as 'just noting this,
+    not necessarily a bug,' the review should still independently re-derive whether
+    the underlying assumption (e.g. 'two calls to the same search will return the
+    same result') actually holds, rather than accepting the dev's own risk assessment.
+    Separately, when reviewing any custom sort comparator, construct a concrete array
+    with a mix of the comparator's different input categories (e.g. parseable-date/unparseable-date)
+    in an order where the 'problem' category sits BETWEEN two 'normal' category elements
+    — this is the shape that catches non-transitive comparators that pass every test
+    where the special-case elements sit at an array boundary.
+  routing:
+    action: brain-note
+    ref: reviewer/expose-internally-resolved-ids-dont-rederive
+- category: recommendation
+  area: briefing
+  severity: low
+  summary: Live-probing an external API extensively before writing a design doc (rather
+    than assuming a schema) surfaced a genuine data-sparsity finding that shaped a
+    more defensive design, and the dev agent's own independent re-probe during implementation
+    reproduced the same finding
+  detail: Before scoping a task around a third-party API's rulings field, an extensive
+    live sample (14+ varied cards) found the field consistently empty. Rather than
+    guessing a schema from memory or documentation, the design doc explicitly sanctioned
+    defensive parsing plus a synthetic fixture for the untestable-live non-empty path,
+    and instructed the dev agent to do one more independent probe before finalizing
+    rather than trusting the orchestrator's finding blindly. The dev agent's own probe
+    (different card sample) reproduced the same empty result, corroborating the design
+    decision rather than discovering it was wrong.
+  evidence: []
+  generalized: When designing an integration against a third-party API whose exact
+    response shape for a given field can't be confirmed live (sparse/empty data, no
+    docs), instruct the implementing agent to independently re-verify the orchestrator's
+    own probing findings before trusting them, rather than treating the design doc's
+    investigation as settled — a second data point from a different sample cheaply
+    corroborates or overturns a scoping assumption before code gets written around
+    it.
+  routing:
+    action: ignore
+    ref: positive signal reinforcing an already-established practice, no new routing
+      action needed
