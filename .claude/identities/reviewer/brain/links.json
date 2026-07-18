@@ -24,7 +24,7 @@
     "last": null,
     "weight": 0.5
   },
-  "verify-empirical-claims-independently->reproduce-gate-claims": {
+  "test-double-fidelity-check->verify-red-commit-by-running-it": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -35,6 +35,11 @@
     "weight": 0.5
   },
   "verify-negative-controls-independently->self-referential-coverage-tests": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "verify-red-commit-by-running-it->test-double-fidelity-check": {
     "fires": 0,
     "last": null,
     "weight": 0.5

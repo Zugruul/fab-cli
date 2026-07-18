@@ -1,52 +1,37 @@
 {
-  "api-field-type-assumptions->real-data-only-doctrine": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "api-field-type-assumptions->untyped-api-optional-fields": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "cardmarket-duplicate-expansions->tcgcsv-requires-user-agent": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "cardmarket-single-aggregate-not-per-condition->real-data-only-doctrine": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "empirical-threshold-tuning->real-data-only-doctrine": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
   "exhaustive-pattern-tables->test-must-falsify": {
-    "fires": 1,
-    "last": "2026-07-16",
+    "fires": 2,
+    "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "git-remote-repair-set-url-or-add->shell-test-vitest-path-shims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "macos-missing-binary-tests-need-empty-path->shell-test-vitest-path-shims": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "pricing-cache-contract->scoped-green-verification": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
-    "weight": 0.5
-  },
-  "provider-prefixed-raw-types->pricing-cache-contract": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "real-data-only-doctrine->typed-error-boundary-guards": {
-    "fires": 0,
-    "last": null,
     "weight": 0.5
   },
   "scoped-green-verification->pricing-cache-contract": {
-    "fires": 3,
+    "fires": 4,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "shell-test-vitest-path-shims->git-remote-repair-set-url-or-add": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shell-test-vitest-path-shims->macos-missing-binary-tests-need-empty-path": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "sibling-pattern-parity->pricing-cache-contract": {
@@ -65,28 +50,18 @@
     "weight": 0.5
   },
   "test-must-falsify->untyped-api-optional-fields": {
-    "fires": 1,
-    "last": "2026-07-16",
-    "weight": 0.5
-  },
-  "typed-error-boundary-guards->test-must-falsify": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "typed-error-boundary-guards->untyped-api-optional-fields": {
-    "fires": 0,
-    "last": null,
+    "fires": 2,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "untyped-api-optional-fields->pricing-cache-contract": {
-    "fires": 1,
-    "last": "2026-07-16",
+    "fires": 2,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "untyped-api-optional-fields->provider-prefixed-raw-types": {
-    "fires": 1,
-    "last": "2026-07-16",
+    "fires": 2,
+    "last": "2026-07-18",
     "weight": 0.5
   }
 }
