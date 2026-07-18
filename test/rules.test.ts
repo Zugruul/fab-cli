@@ -355,6 +355,25 @@ describe("syncRules — full KB sync orchestration", () => {
     expect(legality.status).toBe("failed");
   }, 10_000);
 
+  it("does not throw when updateRulesDocs() rejects — still chunks CR/TRP/PPG from the existing vendored txt files", async () => {
+    mockLegalityOk();
+    vi.mocked(updateRulesDocs).mockRejectedValueOnce(new Error("disk full"));
+
+    const results = await syncRules({
+      kbDir,
+      rulesDir,
+      cpgPdfPath: path.join(FIXTURES, "cpg-fixture.pdf"),
+    });
+
+    const cr = results.find((r) => r.document === "CR")!;
+    expect(cr.status).toBe("ok");
+    expect(cr.chunks).toBeGreaterThan(0);
+    expect(fs.existsSync(path.join(kbDir, "cr", "1-1.md"))).toBe(true);
+
+    const legality = results.find((r) => r.document === "legality")!;
+    expect(legality.status).toBe("ok");
+  });
+
   it("isolates a missing CPG PDF from the other sources", async () => {
     mockLegalityOk();
     const results = await syncRules({
