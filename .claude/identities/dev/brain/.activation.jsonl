@@ -45,3 +45,16 @@
 {"event": "inject", "note": "pricing-cache-contract", "activation": 0.275, "ts": "2026-07-18T06:04:49+00:00", "role": "dev"}
 {"event": "inject", "note": "untyped-api-optional-fields", "activation": 0.275, "ts": "2026-07-18T06:04:49+00:00", "role": "dev"}
 {"event": "inject", "note": "provider-prefixed-raw-types", "activation": 0.0688, "ts": "2026-07-18T06:04:49+00:00", "role": "dev"}
+{"event": "seed", "note": "fresh-worktree-needs-node-modules-and-submodule-setup", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "seed", "note": "scoped-green-verification", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "seed", "note": "verify-migrated-constants-against-git-history", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "seed", "note": "worktree-gate-needs-npm-install-first", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "seed", "note": "worktree-remove-needs-force-after-npm-install", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "hop", "note": "pricing-cache-contract", "activation": 0.275, "link": "scoped-green-verification->pricing-cache-contract", "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "hop", "note": "scoped-green-verification", "activation": 0.0688, "link": "pricing-cache-contract->scoped-green-verification", "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "inject", "note": "fresh-worktree-needs-node-modules-and-submodule-setup", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "inject", "note": "scoped-green-verification", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "inject", "note": "verify-migrated-constants-against-git-history", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "inject", "note": "worktree-gate-needs-npm-install-first", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "inject", "note": "worktree-remove-needs-force-after-npm-install", "activation": 1.1, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}
+{"event": "inject", "note": "pricing-cache-contract", "activation": 0.275, "ts": "2026-07-18T19:32:53+00:00", "role": "dev"}

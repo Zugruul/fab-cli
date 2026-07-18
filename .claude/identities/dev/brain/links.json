@@ -30,12 +30,17 @@
     "weight": 0.5
   },
   "pricing-cache-contract->scoped-green-verification": {
-    "fires": 4,
+    "fires": 5,
     "last": "2026-07-18",
     "weight": 0.5
   },
+  "regex-fix-scan-whole-file->scoped-green-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "scoped-green-verification->pricing-cache-contract": {
-    "fires": 4,
+    "fires": 5,
     "last": "2026-07-18",
     "weight": 0.5
   },
