@@ -92,8 +92,8 @@ describe("fetchCardRulings", () => {
     vi.restoreAllMocks();
   });
 
-  it("returns parsed, most-recent-first rulings when the card is found with rulings", async () => {
-    vi.spyOn(global, "fetch").mockImplementation(async (input) => {
+  it("returns parsed, most-recent-first rulings and the resolved cardId when the card is found with rulings", async () => {
+    const fetchSpy = vi.spyOn(global, "fetch").mockImplementation(async (input) => {
       const url = String(input);
       if (url.includes("/advanced-search/")) {
         return jsonResponse({
@@ -118,16 +118,20 @@ describe("fetchCardRulings", () => {
       throw new Error(`unexpected fetch: ${url}`);
     });
 
-    const rulings = await fetchCardRulings("Snatch");
-    expect(rulings).not.toBeNull();
-    expect(rulings!.map((r) => r.text)).toEqual([
+    const result = await fetchCardRulings("Snatch");
+    expect(result).not.toBeNull();
+    expect(result!.cardId).toBe("snatch---snatch");
+    expect(result!.rulings.map((r) => r.text)).toEqual([
       "Newer ruling.",
       "Older ruling.",
       "Undated ruling.",
     ]);
+    // one search call + one detail call — fetchCardRulings must resolve the
+    // card_id itself, not force a second independent search elsewhere.
+    expect(fetchSpy).toHaveBeenCalledTimes(2);
   });
 
-  it("returns [] when the card is found on Card Vault with zero rulings", async () => {
+  it("returns { cardId, rulings: [] } when the card is found on Card Vault with zero rulings", async () => {
     vi.spyOn(global, "fetch").mockImplementation(async (input) => {
       const url = String(input);
       if (url.includes("/advanced-search/")) {
@@ -145,8 +149,8 @@ describe("fetchCardRulings", () => {
       throw new Error(`unexpected fetch: ${url}`);
     });
 
-    const rulings = await fetchCardRulings("Some Card");
-    expect(rulings).toEqual([]);
+    const result = await fetchCardRulings("Some Card");
+    expect(result).toEqual({ cardId: "some-card---some-card", rulings: [] });
   });
 
   it("returns null when no Card Vault match is found", async () => {
@@ -188,5 +192,42 @@ describe("fetchCardRulings", () => {
 
     const rulings = await fetchCardRulings("Some Card");
     expect(rulings).toBeNull();
+  });
+
+  it("sorts two parseable-date entries correctly even when an unparseable-date entry sits between them", async () => {
+    vi.spyOn(global, "fetch").mockImplementation(async (input) => {
+      const url = String(input);
+      if (url.includes("/advanced-search/")) {
+        return jsonResponse({
+          count: 1,
+          results: [{ card_id: "some-card---some-card" }],
+        });
+      }
+      if (url.includes("/card_id/")) {
+        return jsonResponse({
+          count: 1,
+          results: [
+            cardVaultCard({
+              // Input order deliberately places the unparseable-date entry
+              // BETWEEN the two parseable-date entries, so a non-transitive
+              // comparator (returning 0 whenever either side is unparseable)
+              // never directly compares C-older against A-newer.
+              rulings_errata: [
+                { date: "2021-01-01", text: "C-older" },
+                { date: "not-a-date", text: "B-invalid" },
+                { date: "2023-06-15", text: "A-newer" },
+              ],
+            }),
+          ],
+        });
+      }
+      throw new Error(`unexpected fetch: ${url}`);
+    });
+
+    const result = await fetchCardRulings("Some Card");
+    const parseableOrder = result!.rulings
+      .map((r) => r.text)
+      .filter((t) => t !== "B-invalid");
+    expect(parseableOrder).toEqual(["A-newer", "C-older"]);
   });
 });
