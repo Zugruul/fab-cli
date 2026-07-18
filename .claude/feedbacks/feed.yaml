@@ -1867,3 +1867,71 @@ items:
     ref: 'development-skills (implement-task skill: encourage referencing an issue
       number in any incidental/scope-creep fix commit, even when it''s not the PR''s
       primary task, so concurrent sessions can discover it via git log)'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T22:08:00Z'
+iteration:
+  task: TAL-012
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: concurrency
+  severity: medium
+  summary: The orchestrator committed an unrelated orchestrator-owned artifact (a
+    retro brain-note fix) directly onto a live dev subagent's feature branch instead
+    of mainBranch, because it forgot to switch branches after finishing a prior task's
+    retro before starting the next task's branch-creation step.
+  detail: Right after closing out the previous task's retro (which correctly ended
+    on mainBranch), the orchestrator created the next task's feature branch and moved
+    the board item to In progress, spawned the dev subagent on that branch -- then,
+    mid-way through the dev subagent's work, a late-arriving retro-interview reply
+    for the PREVIOUS task needed a one-line brain-note commit. The orchestrator ran
+    that commit without first checking `git branch --show-current`, landing it on
+    the live feature branch instead of main. Recovery required a git worktree (to
+    touch main without disturbing the shared checkout the subagent was actively writing
+    to) plus a targeted `git rebase --onto`/`--autostash` to extract the commit from
+    the feature branch without losing the subagent's concurrent uncommitted work,
+    followed by a force-push once the subagent had already pushed and reset to the
+    polluted state, requiring a second rebase-and-force-push.
+  generalized: In an orchestration workflow where the orchestrator's own housekeeping
+    commits (retro notes, feedback routing, design-doc edits) are interleaved with
+    actively-running subagents that share the SAME checkout (no worktree isolation),
+    always verify the current branch (git branch --show-current, or git status's branch
+    line) immediately before any orchestrator-authored commit -- especially late-arriving
+    ones that land after a branch switch for the next task has already happened. A
+    one-line `git branch --show-current` check before every orchestrator commit is
+    far cheaper than the multi-step recovery (isolated worktree + targeted rebase
+    + autostash + force-push, potentially twice if the subagent already synced with
+    the polluted state) needed after the fact.
+  routing:
+    action: brain-note
+    ref: orchestrator/concurrent-loop-can-branch-switch-under-you
+- category: recommendation
+  area: concurrency
+  severity: low
+  summary: Running dev/reviewer subagents directly in the orchestrator's own shared
+    checkout (rather than a dedicated worktree per subagent) makes any orchestrator
+    branch-state mistake immediately visible to and entangled with the subagent's
+    live work.
+  detail: This session used the shared checkout directly for dev-tal010/011/012 (matching
+    a prior session's established pattern for that repo, and it worked fine for the
+    first two tasks since checkouts were clean at handoff time). The TAL-012 incident
+    specifically stemmed from the orchestrator switching branches in that same shared
+    checkout mid-subagent-run. A worktree-per-subagent pattern would have made this
+    class of mistake impossible (the orchestrator's own branch switches in the main
+    checkout could never land on a subagent's isolated worktree branch).
+  generalized: When an orchestration workflow's dev/reviewer subagents write directly
+    into the orchestrator's own working directory (shared checkout, not an isolated
+    worktree per subagent), any orchestrator-side branch/checkout operation performed
+    while a subagent is actively working carries real risk of cross-contaminating
+    that subagent's branch. Preferring worktree-per-subagent isolation (already a
+    documented pattern for this workflow) removes an entire class of this kind of
+    mistake, at the cost of setup overhead per subagent.
+  routing:
+    action: brain-note
+    ref: orchestrator/brief-agents-worktree-isolation
