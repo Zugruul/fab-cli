@@ -1,17 +1,1 @@
-{
-  "branch-create-verify-merge-base-not-just-status->review-from-refs-in-isolated-worktree": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "gate-red-not-diff-broken->stale-mock-arity-and-global-leak": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "stale-mock-arity-and-global-leak->gate-red-not-diff-broken": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  }
-}
+{}

@@ -1,4 +1,14 @@
 {
+  "bash-if-guard-disables-errexit-in-function->per-item-loop-three-default-cases": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "bash-if-guard-disables-errexit-in-function->shell-test-vitest-path-shims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "exhaustive-pattern-tables->test-must-falsify": {
     "fires": 2,
     "last": "2026-07-18",
@@ -10,6 +20,11 @@
     "weight": 0.5
   },
   "macos-missing-binary-tests-need-empty-path->shell-test-vitest-path-shims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "per-item-loop-three-default-cases->bash-if-guard-disables-errexit-in-function": {
     "fires": 0,
     "last": null,
     "weight": 0.5

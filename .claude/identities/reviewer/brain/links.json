@@ -19,6 +19,16 @@
     "last": "2026-07-18",
     "weight": 0.5
   },
+  "reproduce-dont-trust-the-shim->verify-claimed-language-semantics": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reproduce-dont-trust-the-shim->verify-red-commit-by-running-it": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "self-referential-coverage-tests->verify-repo-pollution-claims-empirically": {
     "fires": 1,
     "last": "2026-07-18",
@@ -27,6 +37,16 @@
   "test-double-fidelity-check->verify-red-commit-by-running-it": {
     "fires": 1,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "verify-claimed-language-semantics->bash-errexit-guard-audit": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "verify-claimed-language-semantics->reproduce-dont-trust-the-shim": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "verify-negative-controls-independently->reproduce-gate-claims": {
