@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { buildJsonProgram } from "./helpers/jsonProgram";
 import type { FabCard } from "../src/types";
 
-const ANSI_RE = /\x1b\[/;
+const ANSI_RE = new RegExp(String.fromCharCode(27) + "\\[");
 
 function card(overrides: Partial<FabCard> = {}): FabCard {
   return {
@@ -46,9 +46,11 @@ function jsonResponse(data: unknown): Response {
 }
 
 function mockSearchCards(cards: FabCard[]) {
-  return vi.spyOn(global, "fetch").mockImplementation(async () =>
-    jsonResponse({ data: { searchCards: cards } }),
-  );
+  return vi
+    .spyOn(global, "fetch")
+    .mockImplementation(async () =>
+      jsonResponse({ data: { searchCards: cards } }),
+    );
 }
 
 describe("--json flag: fabrary cards search/show", () => {
@@ -72,10 +74,9 @@ describe("--json flag: fabrary cards search/show", () => {
     vi.spyOn(console, "log").mockImplementation((s: string) => logs.push(s));
 
     const program = buildJsonProgram();
-    await program.parseAsync(
-      ["fabrary", "cards", "search", "card", "--json"],
-      { from: "user" },
-    );
+    await program.parseAsync(["fabrary", "cards", "search", "card", "--json"], {
+      from: "user",
+    });
 
     expect(logs).toHaveLength(1);
     expect(logs[0]).not.toMatch(ANSI_RE);

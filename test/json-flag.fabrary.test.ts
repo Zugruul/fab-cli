@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { buildJsonProgram } from "./helpers/jsonProgram";
 import type { AlgoliaDeck } from "../src/types";
 
-const ANSI_RE = /\x1b\[/;
+const ANSI_RE = new RegExp(String.fromCharCode(27) + "\\[");
 
 function deck(overrides: Partial<AlgoliaDeck> = {}): AlgoliaDeck {
   return {
@@ -55,10 +55,18 @@ function installFetchRouter(routes: Route[]) {
 
 function algoliaSearchRoute(hits: AlgoliaDeck[]) {
   return {
-    match: (u: string) => u.includes("4e2ysy5y4i-dsn.algolia.net") && u.includes("queries"),
+    match: (u: string) =>
+      u.includes("4e2ysy5y4i-dsn.algolia.net") && u.includes("queries"),
     json: {
       results: [
-        { hits, nbHits: hits.length, page: 0, nbPages: 1, hitsPerPage: 50, facets: {} },
+        {
+          hits,
+          nbHits: hits.length,
+          page: 0,
+          nbPages: 1,
+          hitsPerPage: 50,
+          facets: {},
+        },
       ],
     },
   };
@@ -131,9 +139,36 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
         getResults: {
           nextToken: null,
           results: [
-            { result: "Won", source: "FaBrary", notes: null, deckId: "d1", gameId: "g1", turns: 8, firstPlayer: true, cardResults: [] },
-            { result: "Won", source: "FaBrary", notes: null, deckId: "d1", gameId: "g2", turns: 9, firstPlayer: false, cardResults: [] },
-            { result: "Lost", source: "FaBrary", notes: null, deckId: "d1", gameId: "g3", turns: 7, firstPlayer: true, cardResults: [] },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "d1",
+              gameId: "g1",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "d1",
+              gameId: "g2",
+              turns: 9,
+              firstPlayer: false,
+              cardResults: [],
+            },
+            {
+              result: "Lost",
+              source: "FaBrary",
+              notes: null,
+              deckId: "d1",
+              gameId: "g3",
+              turns: 7,
+              firstPlayer: true,
+              cardResults: [],
+            },
           ],
         },
       }),
@@ -142,10 +177,9 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
     vi.spyOn(console, "log").mockImplementation((s: string) => logs.push(s));
 
     const program = buildJsonProgram();
-    await program.parseAsync(
-      ["fabrary", "top", "--min-games", "1", "--json"],
-      { from: "user" },
-    );
+    await program.parseAsync(["fabrary", "top", "--min-games", "1", "--json"], {
+      from: "user",
+    });
 
     const parsed = JSON.parse(logs[logs.length - 1]);
     expect(parsed.decks).toHaveLength(2);
@@ -165,7 +199,16 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
         getResults: {
           nextToken: null,
           results: [
-            { result: "Won", source: "FaBrary", notes: null, deckId: "d1", gameId: "g1", turns: 8, firstPlayer: true, cardResults: [] },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "d1",
+              gameId: "g1",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
           ],
         },
       }),
@@ -193,7 +236,16 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
         getResults: {
           nextToken: null,
           results: [
-            { result: "Won", source: "FaBrary", notes: null, deckId: "d1", gameId: "g1", turns: 8, firstPlayer: true, cardResults: [] },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "d1",
+              gameId: "g1",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
           ],
         },
       }),
@@ -220,7 +272,16 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
         getResults: {
           nextToken: null,
           results: [
-            { result: "Won", source: "FaBrary", notes: null, deckId: "d1", gameId: "g1", turns: 8, firstPlayer: true, cardResults: [] },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "d1",
+              gameId: "g1",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
           ],
         },
       }),
@@ -287,8 +348,28 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
         getResults: {
           nextToken: null,
           results: [
-            { result: "Won", source: "FaBrary", notes: null, deckId: "deck-x", gameId: "g1", turns: 8, firstPlayer: true, cardResults: [{ cardIdentifier: "card-a", blocked: 0, pitched: 1, played: 2 }] },
-            { result: "Lost", source: "FaBrary", notes: null, deckId: "deck-x", gameId: "g2", turns: 6, firstPlayer: false, cardResults: [] },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-x",
+              gameId: "g1",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [
+                { cardIdentifier: "card-a", blocked: 0, pitched: 1, played: 2 },
+              ],
+            },
+            {
+              result: "Lost",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-x",
+              gameId: "g2",
+              turns: 6,
+              firstPlayer: false,
+              cardResults: [],
+            },
           ],
         },
       }),
@@ -300,12 +381,30 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
               quantity: 3,
               sideboardQuantity: 1,
               maybeQuantity: 0,
-              matchupQuantities: [{ matchupId: "m1", quantity: 2, sideboardQuantity: 0 }],
-              card: { types: ["Action"], subtypes: [], pitch: 1, cost: 2, power: 3, defense: 0, keywords: [], talents: [], classes: [], rarity: "Common" },
+              matchupQuantities: [
+                { matchupId: "m1", quantity: 2, sideboardQuantity: 0 },
+              ],
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 2,
+                power: 3,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
             },
           ],
           matchups: [
-            { matchupId: "m1", name: "vs Prism", preferredTurnOrder: "first", notes: "Race them." },
+            {
+              matchupId: "m1",
+              name: "vs Prism",
+              preferredTurnOrder: "first",
+              notes: "Race them.",
+            },
           ],
         },
       }),
@@ -322,10 +421,17 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
     expect(logs[0]).not.toMatch(ANSI_RE);
     const parsed = JSON.parse(logs[0]);
     expect(parsed.decklist.deck.name).toBe("Combo Deck");
-    expect(parsed.decklist.winRateStats).toEqual({ wins: 1, losses: 1, total: 2, winRate: 0.5 });
+    expect(parsed.decklist.winRateStats).toEqual({
+      wins: 1,
+      losses: 1,
+      total: 2,
+      winRate: 0.5,
+    });
     expect(parsed.matchups).toHaveLength(1);
     expect(parsed.matchups[0].matchup.name).toBe("vs Prism");
-    expect(parsed.matchups[0].cards).toEqual([{ cardIdentifier: "card-a", quantity: 2 }]);
+    expect(parsed.matchups[0].cards).toEqual([
+      { cardIdentifier: "card-a", quantity: 2 },
+    ]);
     expect(parsed.stats.deckName).toBe("Combo Deck");
     expect(parsed.stats.resultStats.wins).toBe(1);
     expect(parsed.stats.resultStats.losses).toBe(1);
@@ -339,11 +445,31 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
     const d = deck({ deckId: "deck-y" });
     installFetchRouter([
       algoliaGetDeckRoute(d),
-      graphqlRoute("getResults", { getResults: { nextToken: null, results: [] } }),
+      graphqlRoute("getResults", {
+        getResults: { nextToken: null, results: [] },
+      }),
       graphqlRoute("getDeck", {
         getDeck: {
           deckCards: [
-            { cardIdentifier: "card-a", quantity: 2, sideboardQuantity: 0, maybeQuantity: 0, matchupQuantities: null, card: { types: ["Action"], subtypes: [], pitch: 1, cost: 1, power: 1, defense: 0, keywords: [], talents: [], classes: [], rarity: "Common" } },
+            {
+              cardIdentifier: "card-a",
+              quantity: 2,
+              sideboardQuantity: 0,
+              maybeQuantity: 0,
+              matchupQuantities: null,
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 1,
+                power: 1,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
+            },
           ],
           matchups: [],
         },
@@ -368,13 +494,42 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
     const d = deck({ deckId: "deck-z" });
     installFetchRouter([
       algoliaGetDeckRoute(d),
-      graphqlRoute("getResults", { getResults: { nextToken: null, results: [] } }),
+      graphqlRoute("getResults", {
+        getResults: { nextToken: null, results: [] },
+      }),
       graphqlRoute("getDeck", {
         getDeck: {
           deckCards: [
-            { cardIdentifier: "card-a", quantity: 2, sideboardQuantity: 0, maybeQuantity: 0, matchupQuantities: [{ matchupId: "m1", quantity: 1, sideboardQuantity: 0 }], card: { types: ["Action"], subtypes: [], pitch: 1, cost: 1, power: 1, defense: 0, keywords: [], talents: [], classes: [], rarity: "Common" } },
+            {
+              cardIdentifier: "card-a",
+              quantity: 2,
+              sideboardQuantity: 0,
+              maybeQuantity: 0,
+              matchupQuantities: [
+                { matchupId: "m1", quantity: 1, sideboardQuantity: 0 },
+              ],
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 1,
+                power: 1,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
+            },
           ],
-          matchups: [{ matchupId: "m1", name: "vs Levia", preferredTurnOrder: null, notes: null }],
+          matchups: [
+            {
+              matchupId: "m1",
+              name: "vs Levia",
+              preferredTurnOrder: null,
+              notes: null,
+            },
+          ],
         },
       }),
     ]);
@@ -389,7 +544,9 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
 
     const parsed = JSON.parse(logs[0]);
     expect(Object.keys(parsed)).toEqual(["matchups"]);
-    expect(parsed.matchups[0].cards).toEqual([{ cardIdentifier: "card-a", quantity: 1 }]);
+    expect(parsed.matchups[0].cards).toEqual([
+      { cardIdentifier: "card-a", quantity: 1 },
+    ]);
   });
 
   it("fabrary deck <id> --stats-only --json emits only { stats }", async () => {
@@ -400,14 +557,41 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
         getResults: {
           nextToken: null,
           results: [
-            { result: "Won", source: "Talishar", notes: null, deckId: "deck-w", gameId: "g1", turns: 5, firstPlayer: true, cardResults: [] },
+            {
+              result: "Won",
+              source: "Talishar",
+              notes: null,
+              deckId: "deck-w",
+              gameId: "g1",
+              turns: 5,
+              firstPlayer: true,
+              cardResults: [],
+            },
           ],
         },
       }),
       graphqlRoute("getDeck", {
         getDeck: {
           deckCards: [
-            { cardIdentifier: "card-a", quantity: 2, sideboardQuantity: 0, maybeQuantity: 0, matchupQuantities: null, card: { types: ["Action"], subtypes: [], pitch: 1, cost: 1, power: 1, defense: 0, keywords: [], talents: [], classes: [], rarity: "Common" } },
+            {
+              cardIdentifier: "card-a",
+              quantity: 2,
+              sideboardQuantity: 0,
+              maybeQuantity: 0,
+              matchupQuantities: null,
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 1,
+                power: 1,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
+            },
           ],
           matchups: [],
         },
@@ -431,13 +615,42 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
     const d = deck({ deckId: "deck-m" });
     installFetchRouter([
       algoliaGetDeckRoute(d),
-      graphqlRoute("getResults", { getResults: { nextToken: null, results: [] } }),
+      graphqlRoute("getResults", {
+        getResults: { nextToken: null, results: [] },
+      }),
       graphqlRoute("getDeck", {
         getDeck: {
           deckCards: [
-            { cardIdentifier: "card-a", quantity: 2, sideboardQuantity: 0, maybeQuantity: 0, matchupQuantities: [{ matchupId: "m1", quantity: 4, sideboardQuantity: 0 }], card: { types: ["Action"], subtypes: [], pitch: 1, cost: 1, power: 1, defense: 0, keywords: [], talents: [], classes: [], rarity: "Common" } },
+            {
+              cardIdentifier: "card-a",
+              quantity: 2,
+              sideboardQuantity: 0,
+              maybeQuantity: 0,
+              matchupQuantities: [
+                { matchupId: "m1", quantity: 4, sideboardQuantity: 0 },
+              ],
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 1,
+                power: 1,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
+            },
           ],
-          matchups: [{ matchupId: "m1", name: "vs Prism", preferredTurnOrder: "first", notes: null }],
+          matchups: [
+            {
+              matchupId: "m1",
+              name: "vs Prism",
+              preferredTurnOrder: "first",
+              notes: null,
+            },
+          ],
         },
       }),
     ]);
