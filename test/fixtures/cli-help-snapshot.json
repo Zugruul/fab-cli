@@ -1,0 +1,118 @@
+[
+  {
+    "path": [],
+    "output": "Usage: fab-cli [options] [command]\n\nFaBrary CLI — search Flesh & Blood decks, cards, and tournament events\n\nOptions:\n  -V, --version     output the version number\n  -h, --help        display help for command\n\nCommands:\n  fabrary           Deck and card search via fabrary.net\n  fabtcg            Official FAB TCG site data (events, organised play)\n  rules             Official FAB rules documents (CR, TRP, PPG) vendored in\n                    third_party/fab-rules\n  lore              Flesh & Blood lore from legendarystories.net (fablore\n                    submodule)\n  price-comparison  Compare Flesh & Blood single-card prices across TCGplayer\n                    and Cardmarket\n  help [command]    display help for command\n"
+  },
+  {
+    "path": ["fabrary"],
+    "output": "Usage: fab-cli fabrary [options] [command]\n\nDeck and card search via fabrary.net\n\nOptions:\n  -h, --help            display help for command\n\nCommands:\n  auth <token>          Save a raw Cognito access token (advanced — use 'fabrary\n                        login' instead)\n  login [options]       Log in with your fabrary.net email and password\n  heroes [options]      List all heroes with deck counts\n  formats               List all formats with deck counts\n  search [options]      Search decks by filters\n  top [options]         Show top decks ranked by win rate (fetches results for\n                        each deck)\n  deck [options] <id>   Show deck detail with win rate, card list, matchup\n                        guides, and stats\n  cards                 Search Flesh & Blood cards\n  meta [options]        Show hero win rates from the fabrary.net meta results\n                        matrix\n  meta-shift [options]  Compare 7d vs 30d win rates to identify trending heroes\n  help [command]        display help for command\n"
+  },
+  {
+    "path": ["fabrary", "auth"],
+    "output": "Usage: fab-cli fabrary auth [options] <token>\n\nSave a raw Cognito access token (advanced — use 'fabrary login' instead)\n\nOptions:\n  -h, --help  display help for command\n"
+  },
+  {
+    "path": ["fabrary", "login"],
+    "output": "Usage: fab-cli fabrary login [options]\n\nLog in with your fabrary.net email and password\n\nOptions:\n  -u, --username <email>  Your fabrary.net email\n  -h, --help              display help for command\n"
+  },
+  {
+    "path": ["fabrary", "heroes"],
+    "output": "Usage: fab-cli fabrary heroes [options]\n\nList all heroes with deck counts\n\nOptions:\n  -f, --filter <text>  Filter by partial hero name\n  -h, --help           display help for command\n"
+  },
+  {
+    "path": ["fabrary", "formats"],
+    "output": "Usage: fab-cli fabrary formats [options]\n\nList all formats with deck counts\n\nOptions:\n  -h, --help  display help for command\n"
+  },
+  {
+    "path": ["fabrary", "search"],
+    "output": "Usage: fab-cli fabrary search [options]\n\nSearch decks by filters\n\nOptions:\n  --hero <id>             Hero identifier (e.g. prism-awakener-of-sol)\n  --format <format>       Format (e.g. \"Classic Constructed\", CC, Blitz, SA)\n  --days <n>              Only decks updated in the last N days\n  --has-matchups          Only decks with matchup guides\n  --has-results           Only decks with recorded results\n  --tournament-only       Only tournament decks\n  -q, --query <text>      Text search (deck name, author, hero, card name)\n  --latest-search <text>  Alias for --query (matches fabrary.net's Public tab\n                          search field / latest_search URL param)\n  -n, --limit <n>         Max results (default: 20)\n  -p, --page <n>          Page number (0-based) (default: 0)\n  -h, --help              display help for command\n"
+  },
+  {
+    "path": ["fabrary", "top"],
+    "output": "Usage: fab-cli fabrary top [options]\n\nShow top decks ranked by win rate (fetches results for each deck)\n\nOptions:\n  --hero <id>        Hero identifier (e.g. prism-awakener-of-sol)\n  --format <format>  Format (e.g. \"Classic Constructed\", CC, Blitz, SA)\n  --days <n>         Only decks updated in the last N days\n  --min-games <n>    Minimum recorded games (default: 5)\n  --source <src>     Filter by source (FaBrary, Talishar)\n  --tournament-only  Only tournament decks\n  -n, --limit <n>    Max decks to fetch (default: 40)\n  --show <n>         Max rows in output (default: 20)\n  --per-hero         Show best win-rate and most-games deck per hero\n  --top-n <n>        Show top N decks per hero grouped together (implies\n                     --per-hero)\n  --by-class         Group --top-n output by class (fetches all hero class data)\n  --class <name>     Filter by hero class (e.g. Warrior, Ninja, Brute) — uses\n                     live card data\n  --talent <name>    Filter by hero talent (e.g. Shadow, Light, Ice) — uses live\n                     card data\n  --young            Include only young hero versions (default: adult only when\n                     --class/--talent used)\n  --sort <order>     Sort order: winrate (default) or games (default: \"winrate\")\n  -h, --help         display help for command\n"
+  },
+  {
+    "path": ["fabrary", "deck"],
+    "output": "Usage: fab-cli fabrary deck [options] <id>\n\nShow deck detail with win rate, card list, matchup guides, and stats\n\nOptions:\n  --source <src>    Filter results by source (FaBrary, Talishar)\n  --matchup <name>  Show cards for a specific matchup only (partial name match)\n  --decklist-only   Show only the decklist\n  --matchups-only   Show only per-matchup card lists\n  --stats-only      Show only stats\n  -h, --help        display help for command\n"
+  },
+  {
+    "path": ["fabrary", "cards"],
+    "output": "Usage: fab-cli fabrary cards [options] [command]\n\nSearch Flesh & Blood cards\n\nOptions:\n  -h, --help                  display help for command\n\nCommands:\n  local [options] [terms...]  Offline card search over the vendored full card DB (third_party/flesh-and-blood-cards). No auth, no network.\n  Searches name + functional text by default; all terms must match (case-insensitive).\n  Examples:\n    fab-cli fabrary cards local haze bending\n    fab-cli fabrary cards local --text \"spectral shield\"     # cards MENTIONING it in text\n    fab-cli fabrary cards local --exact \"Spectral Shield\"    # the card itself\n    fab-cli fabrary cards local --keyword spectra --limit 50\n  search [options] <text...>  Search cards by text. Supports inline filters: r:Rarity, t:Type, k:Keyword\n    Examples:\n      fab-cli fabrary cards search prism awakener\n      fab-cli fabrary cards search r:Majestic prism\n      fab-cli fabrary cards search vynnset t:Hero\n      fab-cli fabrary cards search vynnset --foiling Cold --set Promos\n  show <text...>              Show full detail for a specific card (first match)\n  help [command]              display help for command\n"
+  },
+  {
+    "path": ["fabrary", "cards", "local"],
+    "output": "Usage: fab-cli fabrary cards local [options] [terms...]\n\nOffline card search over the vendored full card DB\n(third_party/flesh-and-blood-cards). No auth, no network.\nSearches name + functional text by default; all terms must match\n(case-insensitive).\nExamples:\n  fab-cli fabrary cards local haze bending\n  fab-cli fabrary cards local --text \"spectral shield\"     # cards MENTIONING it\nin text\n  fab-cli fabrary cards local --exact \"Spectral Shield\"    # the card itself\n  fab-cli fabrary cards local --keyword spectra --limit 50\n\nOptions:\n  --name          match card names only\n  --text          match functional text only\n  --keyword       match card/granted keywords only\n  --exact <name>  exact (case-insensitive) name match\n  --pitch <n>     filter by pitch value\n  --cost <n>      filter by cost\n  --type <type>   filter by type/subtype/class (exact word, e.g. Aura, Ninja,\n                  Instant)\n  --full          print full JSON record(s)\n  --limit <n>     max results to show (default: \"20\")\n  -h, --help      display help for command\n"
+  },
+  {
+    "path": ["fabrary", "cards", "search"],
+    "output": "Usage: fab-cli fabrary cards search [options] <text...>\n\nSearch cards by text. Supports inline filters: r:Rarity, t:Type, k:Keyword\n  Examples:\n    fab-cli fabrary cards search prism awakener\n    fab-cli fabrary cards search r:Majestic prism\n    fab-cli fabrary cards search vynnset t:Hero\n    fab-cli fabrary cards search vynnset --foiling Cold --set Promos\n\nOptions:\n  -d, --detail             Show full detail for each card\n  -n, --limit <n>          Max results to show\n  --foiling <foiling>      Filter by foiling: Cold, Gold, Rainbow\n  --treatment <treatment>  Filter by art treatment: 'Alternate Art', 'Full Art',\n                           etc.\n  --artist <artist>        Filter by artist name (partial match)\n  --set <set>              Filter by set name (partial match)\n  --spec <hero>            Filter by specialization hero (e.g. Vynnset)\n  --subtype <subtype>      Filter by subtype (e.g. Attack, Young, 1H)\n  --class <class>          Filter by class (e.g. Runeblade, Ninja)\n  --talent <talent>        Filter by talent (e.g. Shadow, Light, Ice)\n  --fusion <element>       Filter by fusion (Earth, Ice, Lightning)\n  --legal <format>         Filter cards legal in format (e.g. CC, Blitz)\n  --pitch <n>              Filter by pitch value (1=red, 2=yellow, 3=blue)\n  --cost <n>               Filter by cost value\n  --defense <n>            Filter by defense value\n  --power <n>              Filter by power value\n  -h, --help               display help for command\n"
+  },
+  {
+    "path": ["fabrary", "cards", "show"],
+    "output": "Usage: fab-cli fabrary cards show [options] <text...>\n\nShow full detail for a specific card (first match)\n\nOptions:\n  -h, --help  display help for command\n"
+  },
+  {
+    "path": ["fabrary", "meta"],
+    "output": "Usage: fab-cli fabrary meta [options]\n\nShow hero win rates from the fabrary.net meta results matrix\n\nOptions:\n  --format <fmt>     Format (cc, sa, blitz, ll, upf) (default: \"cc\")\n  --period <period>  Period: 7d, 30d, 2026-04, or a season slug (default: \"30d\")\n  --hero <id>        Show matchup breakdown for a specific hero\n  --show <n>         Max heroes in output (default: 30)\n  --list-periods     List all valid period slugs and exit\n  -h, --help         display help for command\n"
+  },
+  {
+    "path": ["fabrary", "meta-shift"],
+    "output": "Usage: fab-cli fabrary meta-shift [options]\n\nCompare 7d vs 30d win rates to identify trending heroes\n\nOptions:\n  --format <fmt>          Format (cc, sa, blitz, ll, upf) (default: \"cc\")\n  --ban <ids>             Comma-separated hero identifiers to treat as\n                          banned/removed\n  --nerf <ids>            Comma-separated hero identifiers with minor nerfs\n                          (~-6% WR)\n  --exclude <ids>         Comma-separated hero identifiers to hide from output\n  --my-classes <classes>  Comma-separated classes to filter heroes (e.g.\n                          guardian,warrior)\n  --show <n>              Max heroes in output (default: 20)\n  -h, --help              display help for command\n"
+  },
+  {
+    "path": ["fabtcg"],
+    "output": "Usage: fab-cli fabtcg [options] [command]\n\nOfficial FAB TCG site data (events, organised play)\n\nOptions:\n  -h, --help                  display help for command\n\nCommands:\n  events [options]            Show upcoming organised play events from\n                              fabtcg.com\n  card [options] [query...]   Official Card Vault (cardvault.fabtcg.com): TRUE\n                              text (authoritative per CR 2.0.2), printed text,\n                              legality\n  coverage [options] <event>  Tournament coverage: standings, hero field,\n                              decklists, player path\n  help [command]              display help for command\n"
+  },
+  {
+    "path": ["fabtcg", "events"],
+    "output": "Usage: fab-cli fabtcg events [options]\n\nShow upcoming organised play events from fabtcg.com\n\nOptions:\n  --world-tour     Only Pro Tour, Calling, and World Championship events\n  --upcoming       Only future events (after today)\n  --format <fmt>   Filter by format (partial match)\n  --with-coverage  Only events that have a live coverage page with\n                   results/standings\n  --year <n>       Fetch events from a specific year (e.g. 2025)\n  -h, --help       display help for command\n"
+  },
+  {
+    "path": ["fabtcg", "card"],
+    "output": "Usage: fab-cli fabtcg card [options] [query...]\n\nOfficial Card Vault (cardvault.fabtcg.com): TRUE text (authoritative per CR\n2.0.2), printed text, legality\n\nOptions:\n  --name <text>        Card name contains\n  --text <text>        Rules text contains\n  --pitch <n>          Exact pitch value\n  --cost <n>           Exact cost value\n  --power <n>          Exact power value\n  --defense <n>        Exact defense value\n  --talent <talent>    Talent (e.g. Ice, Shadow)\n  --class <class>      Class (e.g. Illusionist, Bard)\n  --subtype <subtype>  Subtype (e.g. Aura, (2H))\n  --format <fmt>       Legal in format (e.g. \"Classic Constructed\")\n  --rarity <rarity>    Rarity (e.g. common, majestic)\n  --set <code>         Set code (e.g. WTR, MON)\n  --artist <name>      Artist name\n  -n, --limit <n>      Max results to list (default: \"10\")\n  --list-only          Only list matches; skip the true-text detail fetch\n  --json               Raw JSON of the detail record\n  -h, --help           display help for command\n"
+  },
+  {
+    "path": ["fabtcg", "coverage"],
+    "output": "Usage: fab-cli fabtcg coverage [options] <event>\n\nTournament coverage: standings, hero field, decklists, player path\n\nOptions:\n  --round <n>             Show standings for a specific round (number or\n                          'final')\n  --field                 Show hero field breakdown from latest available\n                          standings\n  --decklists             List available decklists for the event\n  --player <name>         Show decklist for a specific player\n  --path <name>           Reconstruct a player's full round-by-round journey\n  --search-player <name>  Find a player by partial name match\n  -h, --help              display help for command\n"
+  },
+  {
+    "path": ["rules"],
+    "output": "Usage: fab-cli rules [options] [command]\n\nOfficial FAB rules documents (CR, TRP, PPG) vendored in third_party/fab-rules\n\nOptions:\n  -h, --help             display help for command\n\nCommands:\n  update-docs [options]  Redownload the vendored rules documents; replace only\n                         if validated (size + content sentinel), refresh\n                         VERSIONS.txt\n  help [command]         display help for command\n"
+  },
+  {
+    "path": ["rules", "update-docs"],
+    "output": "Usage: fab-cli rules update-docs [options]\n\nRedownload the vendored rules documents; replace only if validated (size +\ncontent sentinel), refresh VERSIONS.txt\n\nOptions:\n  --commit    Auto-commit third_party/fab-rules when a document actually changed\n  -h, --help  display help for command\n"
+  },
+  {
+    "path": ["lore"],
+    "output": "Usage: fab-cli lore [options] [command]\n\nFlesh & Blood lore from legendarystories.net (fablore submodule)\n\nOptions:\n  -h, --help                   display help for command\n\nCommands:\n  sync [options]               Update the fablore submodule and rebuild the lore\n                               index + OKF files\n  search [options] <query...>  Search the lore; results link to their\n                               legendarystories.net source\n  show <key...>                Print a lore document (by path, slug, or title) +\n                               its source URL\n  list [options]               List lore documents\n  help [command]               display help for command\n"
+  },
+  {
+    "path": ["lore", "sync"],
+    "output": "Usage: fab-cli lore sync [options]\n\nUpdate the fablore submodule and rebuild the lore index + OKF files\n\nOptions:\n  --no-update  Skip pulling upstream; just rebuild from the current submodule\n  --no-okf     Skip writing OKF markdown files (index only)\n  -h, --help   display help for command\n"
+  },
+  {
+    "path": ["lore", "search"],
+    "output": "Usage: fab-cli lore search [options] <query...>\n\nSearch the lore; results link to their legendarystories.net source\n\nOptions:\n  -n, --limit <n>    Max results (default: 8)\n  --no-sync          Don't refresh the submodule (offline)\n  --force-sync       Refresh upstream now even if recently synced\n  --include-archive  Also search archive/ (older, possibly non-canon lore)\n  -h, --help         display help for command\n"
+  },
+  {
+    "path": ["lore", "show"],
+    "output": "Usage: fab-cli lore show [options] <key...>\n\nPrint a lore document (by path, slug, or title) + its source URL\n\nOptions:\n  -h, --help  display help for command\n"
+  },
+  {
+    "path": ["lore", "list"],
+    "output": "Usage: fab-cli lore list [options]\n\nList lore documents\n\nOptions:\n  -s, --section <name>  Filter by section (e.g. heroes-of-rathe)\n  -q, --filter <text>   Filter by title substring\n  --include-archive     Include archive/ (older, possibly non-canon lore)\n  -h, --help            display help for command\n"
+  },
+  {
+    "path": ["price-comparison"],
+    "output": "Usage: fab-cli price-comparison [options] [command]\n\nCompare Flesh & Blood single-card prices across TCGplayer and Cardmarket\n\nOptions:\n  -h, --help             display help for command\n\nCommands:\n  card [options] <name>  Show per-condition prices for a card on every printing,\n                         plus cross-marketplace ratio tables\n  export [options]       Export the full FAB singles catalog price comparison to\n                         CSV files (SPEC-PRICE §9.2)\n  help [command]         display help for command\n"
+  },
+  {
+    "path": ["price-comparison", "card"],
+    "output": "Usage: fab-cli price-comparison card [options] <name>\n\nShow per-condition prices for a card on every printing, plus cross-marketplace\nratio tables\n\nOptions:\n  --csv [file]          Emit the §9.3 CSV layout instead of tables (stdout, or a\n                        file path if given)\n  --refresh             Bypass the tcgcsv/Cardmarket/FX disk caches and re-fetch\n  --currency <usd|eur>  Common currency ratio tables convert to (default: \"usd\")\n  -h, --help            display help for command\n"
+  },
+  {
+    "path": ["price-comparison", "export"],
+    "output": "Usage: fab-cli price-comparison export [options]\n\nExport the full FAB singles catalog price comparison to CSV files (SPEC-PRICE\n§9.2)\n\nOptions:\n  --out <dir>           Output directory (default: \"./price-comparison/\")\n  --set <name...>       Filter by tcgcsv group name (case-insensitive,\n                        repeatable). Default: full catalog\n  --refresh             Bypass the tcgcsv/Cardmarket/FX disk caches and re-fetch\n  --currency <usd|eur>  Common currency ratio pages convert to (default: \"usd\")\n  -h, --help            display help for command\n"
+  }
+]

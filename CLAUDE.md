@@ -6,7 +6,16 @@ A CLI for searching Flesh & Blood cards and decks via fabrary.net, plus tourname
 
 ```
 bin/fab.js          — Global entry point (uses tsx to run TypeScript directly, no build step)
-src/cli.ts          — All commands and CLI logic (Commander.js)
+src/cli.ts          — Wiring only: builds the Commander program, calls each register*(program)
+src/commands/       — Per-namespace Commander registration (one module per namespace)
+  fabrary.ts        —   fabrary: auth, login, heroes, formats, search, top, deck, meta, meta-shift
+                        (mounts cards.ts's subtree)
+  cards.ts          —   fabrary cards: local, search, show
+  fabtcg.ts         —   fabtcg: events, card, coverage
+  rules.ts          —   rules: update-docs
+  lore.ts           —   lore: sync, search, show, list
+  priceComparison.ts —  price-comparison: card, export
+  util.ts           —   shared helpers (int, callWithToken) used across fabrary.ts/cards.ts
 src/algolia.ts      — Deck search via Algolia (public_decks index) + direct deck lookup by ID
 src/graphql.ts      — Card search and deck results/matchups via AppSync GraphQL
 src/display.ts      — Table and detail output (cli-table3 + chalk)
@@ -18,7 +27,7 @@ src/meta.ts         — Meta results from content.fabrary.net (hero win rates, p
 src/fabtcg.ts       — fabtcg.com: events, tournament coverage, decklists, standings
 src/cardvault.ts    — official Card Vault API: card search + TRUE text (authoritative per CR 2.0.2)
 src/lore.ts         — F&B lore KB: index/search/OKF from the fablore submodule
-src/format.ts       — format alias resolution, shared by cli.ts's --format flag handling
+src/format.ts       — format alias resolution, shared by src/commands/fabrary.ts's --format flag handling
 
 scripts/best-decks-by-hero.ts — Reusable batch report: best N decks per hero for a format
 
