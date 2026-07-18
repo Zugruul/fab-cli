@@ -130,3 +130,45 @@ export interface AskRulesResult {
 
 - Any LLM-composed/summarized answer text — deliberately out per invariant I1; this command retrieves and cites, it does not "answer" in a generative sense.
 - Rules Reprise ingestion (FAB-024), Card Vault rulings (FAB-023) — unaffected.
+
+## Addendum — FAB-023: Card rulings in `cards show` (Card Vault)
+
+Grounded in: SPEC §7.6, §10 I1, I10.
+
+### Components
+
+- `src/cardvault.ts` (existing, from earlier work) already has `fetchCardVaultCard(cardId)` returning `CardVaultCard` with a `rulings_errata: unknown[]` field (currently untyped/unused beyond a count, per the precedent in `src/commands/fabtcg.ts`'s `card` command). This task:
+  1. Types `rulings_errata` properly (see Data model below) — the LIVE shape of a non-empty entry could not be confirmed during design (every card sampled across a broad, varied set — commons, bans, complex heroes — returned an empty `rulings_errata` array; the API field may simply be sparsely populated by LSS today). The dev agent MUST do one more targeted live probe before finalizing the type (try a wider/different card sample, check for an alternate endpoint, or inspect the Card Vault website's own rendering if any card there shows rulings) — but must NOT block on finding a real example; if genuinely always empty right now, type defensively (see below) and rely entirely on a synthetic fixture for the non-empty test path. This is explicitly allowed — the AC's "no official rulings" empty-state path is a first-class, always-correctly-testable requirement regardless of live data density.
+  2. Adds a `fetchCardRulings(cardName: string): Promise<CardRuling[] | null>` (or similar) helper: resolves a `fabrary` card's display name to a Card Vault `card_id` via `searchCardVault({ name })` (existing function), then calls `fetchCardVaultCard()`. Returns `null` when no Card Vault match is found at all (graceful fallback — different from "found the card, zero rulings").
+  3. `src/commands/cards.ts`'s `show` action (the ONLY call site in scope — this is `fabrary cards show`, not `fabtcg card`) gets a new section after the existing card detail render: rulings/errata, dated list with citation, or "no official rulings" when the card was found on Card Vault but has zero entries, or nothing/a distinct "not found on Card Vault" note when no match at all (don't conflate these two empty states — AC says "no official rulings" specifically for the zero-rulings-found case).
+
+### Data model
+
+```ts
+export interface CardRuling {
+  date: string | null;      // whatever date field the live shape actually has, or null if absent
+  text: string;              // the ruling/errata text itself
+  raw?: unknown;              // defensive: the original object, for any field the typed shape misses
+}
+```
+The parser (`parseCardRuling(entry: unknown): CardRuling`) must be defensive — Card Vault's real shape is unconfirmed at design time. Extract `date`/`text` from whichever keys are actually present (try common candidates: `date`/`ruling_date`/`created_at`; `text`/`ruling_text`/`description`/`body`) and fall through to a reasonable default (`date: null`, `text: String(entry)`) rather than throwing, so an unexpected real-world shape degrades to "a ruling exists, shown as best-effort text" instead of crashing the whole `cards show` command.
+
+### Interfaces / contracts
+
+- `fetchCardRulings(cardName)` returns:
+  - `null` — no Card Vault match found for this card name at all (network-reachable but zero search results, OR the search/detail call fails — both cases are "graceful fallback," per AC).
+  - `[]` — a Card Vault match was found, but it has zero `rulings_errata` entries — renders as "no official rulings."
+  - `CardRuling[]` (non-empty) — renders as a dated list, most-recent-first if dates are available (stable original order if not), each entry citing the source: the card's own Card Vault URL (`https://cardvault.fabtcg.com/card/<card_id>/` — same URL pattern already used by `fabtcg card`'s rulings-count line), since individual ruling entries likely don't carry their own distinct URL (unconfirmed, but this matches the one confirmed source-citation mechanism already in the codebase).
+- Card name → Card Vault search: use `searchCardVault({ name: <fabrary card's display name> })` and take the top result's `card_id` (mirrors how `fabtcg card` already resolves a search hit). Card name mismatches (fabrary's identifier-derived title-case names, e.g. "Fyendals Spring Tunic" losing an apostrophe per this repo's own documented `CLAUDE.md` limitation) may occasionally miss a real Card Vault match — that's an accepted, pre-existing cross-referencing limitation (same one `CLAUDE.md`'s "Known Limitations" section already documents for card-name apostrophes), not a new defect to solve in this task.
+- Network: this hits `api.cardvault.fabtcg.com` live, same as the rest of `cardvault.ts` — no caching layer required (matches the existing module's behavior, no TTL/disk-cache precedent to violate here). Must be entirely mocked in gate-time tests (I4).
+
+### Decisions
+
+- **Scope is `fabrary cards show` only** (FAB-023's literal AC target, §7.6) — `fabtcg card` already has its own (count-only) rulings display; this task does NOT change `fabtcg card`'s existing behavior, only adds a new, richer rulings section to the OTHER command (`fabrary cards show`). Out of scope to unify the two commands' rulings rendering — that's a hypothetical future cleanup, not this task.
+- **Defensive parsing over a confirmed schema** — since live data couldn't confirm the real `rulings_errata` entry shape during design, the parser must degrade gracefully on an unrecognized shape rather than assume field names with confidence. Do not treat this as "guessing" that violates I1/I10 (never answer from remembered card text) — this is purely about how to DISPLAY whatever real API data returns, not about fabricating rules content; the actual ruling text always comes verbatim from the live API response.
+- **"No official rulings" (found, zero entries) is distinct from "not found on Card Vault" (no search match)** — the AC's exact phrase ("no official rulings" when empty) refers to the former; conflating the two would misrepresent a lookup failure as an authoritative "this card has no rulings" claim, which is itself a form of answering from insufficient grounding (I1-adjacent risk) — keep them visibly different in output.
+
+### Out of scope for FAB-023
+
+- `fabtcg card`'s existing rulings-count display — unchanged.
+- Rules Reprise ingestion (FAB-024) — unaffected, different KB entirely (rules KB vs. Card Vault).
