@@ -11,16 +11,34 @@ const DOC_PATH = join(process.cwd(), "docs", "TALISHAR-ARCHITECTURE.md");
 const REQUIRED_HEADINGS: { name: string; pattern: RegExp }[] = [
   { name: "engine request pipeline", pattern: /^#{2,}\s.*request pipeline/im },
   { name: "GameFile state format/lifecycle", pattern: /^#{2,}\s.*gamefile/im },
-  { name: "DecisionQueue/Await async model", pattern: /^#{2,}\s.*decisionqueue.*await/im },
-  { name: "layer stack + CombatChain resolution", pattern: /^#{2,}\s.*(layer stack|combatchain)/im },
+  {
+    name: "DecisionQueue/Await async model",
+    pattern: /^#{2,}\s.*decisionqueue.*await/im,
+  },
+  {
+    name: "layer stack + CombatChain resolution",
+    pattern: /^#{2,}\s.*(layer stack|combatchain)/im,
+  },
   { name: "ClassState mechanism", pattern: /^#{2,}\s.*classstate/im },
   { name: "card recipe worked example", pattern: /^#{2,}\s.*card recipe/im },
   { name: "API surface overview", pattern: /^#{2,}\s.*api surface/im },
-  { name: "FE state flow (SSE/ParseGameState/GameSlice)", pattern: /^#{2,}\s.*(frontend|fe) state flow/im },
+  {
+    name: "FE state flow (SSE/ParseGameState/GameSlice)",
+    pattern: /^#{2,}\s.*(frontend|fe) state flow/im,
+  },
   { name: "card-image pipeline", pattern: /^#{2,}\s.*card.image pipeline/im },
-  { name: "local dev stack", pattern: /^#{2,}\s.*(local )?dev(elopment)? stack/im },
-  { name: "upstream contribution conventions", pattern: /^#{2,}\s.*contribut/im },
-  { name: "known stale upstream docs", pattern: /^#{2,}\s.*known stale upstream docs/im },
+  {
+    name: "local dev stack",
+    pattern: /^#{2,}\s.*(local )?dev(elopment)? stack/im,
+  },
+  {
+    name: "upstream contribution conventions",
+    pattern: /^#{2,}\s.*contribut/im,
+  },
+  {
+    name: "known stale upstream docs",
+    pattern: /^#{2,}\s.*known stale upstream docs/im,
+  },
 ];
 
 function headingLines(doc: string): string[] {
@@ -83,7 +101,13 @@ describe("docs/TALISHAR-ARCHITECTURE.md", () => {
     const paragraphs = doc
       .split(/\n\s*\n/)
       .map((p) => p.trim())
-      .filter((p) => p.length > 0 && !p.startsWith("#") && !p.startsWith("|") && !p.startsWith("```"));
+      .filter(
+        (p) =>
+          p.length > 0 &&
+          !p.startsWith("#") &&
+          !p.startsWith("|") &&
+          !p.startsWith("```"),
+      );
     const citedParagraphs = paragraphs.filter(
       (p) =>
         /`third_party\/talishar[^`]*`/.test(p) ||
@@ -97,7 +121,9 @@ describe("docs/TALISHAR-ARCHITECTURE.md", () => {
   it("names the three files of the ClassState dance with citations", () => {
     const section = doc.split(/^#{2,}\s.*classstate/im)[1] ?? "";
     expect(section).toMatch(/`third_party\/talishar\/Constants\.php`/);
-    expect(section).toMatch(/`third_party\/talishar\/MenuFiles\/StartHelper\.php`/);
+    expect(section).toMatch(
+      /`third_party\/talishar\/MenuFiles\/StartHelper\.php`/,
+    );
   });
 
   it("cites a real merged PR number for the card-recipe worked example", () => {
