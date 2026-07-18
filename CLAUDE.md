@@ -92,6 +92,13 @@ Heroes have **young** (Blitz/SA) and **adult** (CC) versions with different slug
 
 **"Sage" = Silver Age (the user's shorthand for "SA").** When the user says "Sage" they mean the **Silver Age format** (`--format sa`), NOT a hero class — there is no Sage class (e.g. Enigma is class Illusionist / talent Mystic). Silver Age is a **young-hero-only format**, which is why "sage only uses young heroes." So "best Sage X decks" → use the young slug (`enigma`, not `enigma-ledger-of-ancestry`) with `--format sa`, and "heroes valid in Sage" → heroes with Silver Age play data (see `fab-cli fabrary meta --format sa`).
 
+**`--json`**: `search`, `top`, and `deck` all support the global `--json` flag (machine-readable output,
+no ANSI/table decoration — see "Machine-readable output" below). `deck --json` respects whichever
+sub-view flag was passed (`--decklist-only`/`--matchups-only`/`--stats-only`/`--matchup <name>`),
+emitting only that slice; with no sub-view flag it emits all three under `decklist`/`matchups`/`stats`
+keys. `top --json`'s shape follows its active mode: `{decks}` (default), `{perHero}` (`--per-hero`),
+`{heroGroups}` (`--top-n`), `{classGroups}` (`--top-n --by-class`).
+
 ### Card Search
 
 ```bash
@@ -128,6 +135,9 @@ fab-cli fabrary cards local <terms...> # OFFLINE search of the full vendored car
 | `--defense` | Defense value | number |
 | `-d, --detail` | Show full card detail instead of table | — |
 
+**`--json`**: both `cards search` (emits `{cards}`, same array regardless of `--detail`) and
+`cards show` (emits `{card}`, or `{card: null}` when nothing matches) support the global `--json` flag.
+
 ### Meta Analysis
 
 ```bash
@@ -147,6 +157,11 @@ fab-cli fabrary meta-shift [--format cc] [--ban <heroId>...] [--nerf <heroId>...
 
 Period aliases: `7d` → `last-7-days`, `30d` → `last-30-days`. Otherwise pass `YYYY-MM` or a season slug.
 
+**`--json`**: `meta` supports the global `--json` flag (`meta-shift` does not — out of scope for
+FAB-012). Shape follows the active branch: `{periods}` (`--list-periods`), `{hero}` (or `{hero: null}`
+when no match, for `--hero <id>`), `{heroes}` (default — sorted by win rate desc, zero-game heroes
+excluded, matching the table view).
+
 ### fabtcg Card Vault (TRUE text)
 
 ```bash
@@ -164,6 +179,9 @@ fab-cli fabtcg card "<name>" --json            # raw detail record
 - Filters: `--name --text --pitch --cost --power --defense --talent --class --subtype --format --rarity --set --artist -n --list-only --json`.
 - **Use this to double-check the true text of any card when precision matters** (adjudication,
   rulings, errata questions). The offline corpus (`cards local`) may lag behind errata.
+- Note: this command's `--json` is a **local, command-specific flag** (raw detail record dump) —
+  unrelated to the global `--json` output flag described under "Machine-readable output" below.
+  `fabtcg card` was not in scope for FAB-012.
 
 ### Price Comparison (TCGplayer vs Cardmarket)
 
@@ -237,6 +255,7 @@ fab-cli fabtcg events [--world-tour] [--upcoming] [--with-coverage] [--format <f
 - `--year <n>`: fetch events from a specific year's page (e.g. `--year 2025`)
 - Output includes a `Slug` column — use it directly: `fab-cli fabtcg coverage <slug>`
 - Default fetches `fabtcg.com/organised-play/`; `--year` fetches `fabtcg.com/organised-play/{year}/`
+- `--json` emits `{events}` (global `--json` flag).
 
 ### fabtcg Tournament Coverage
 
@@ -271,6 +290,14 @@ The command auto-converts spaces to hyphens and falls back to WP API search if t
 - When a player's hero changes across formats, a "Playing" column appears in the round table showing what they piloted each round
 - `--search-player` uses round 1 (CC) pairings to find players — the hero shown there is their CC deck. Their SA deck appears in the path output.
 - Pro Tour Yokohama (April 2025) was one of the first dual-format events with Silver Age. Format split: R1–5 CC → R6–11 SA → R12–18 CC → Top 8 CC.
+
+**`--json`**: `coverage` supports the global `--json` flag. Since its flags are independent (not
+mutually exclusive — you can combine `--round`, `--field`, `--decklists`, `--player`, `--path`,
+`--search-player` in one invocation, each printing its own section today), `--json` mirrors that:
+the result is one object keyed by whichever sections were actually requested —
+`index` (always present), plus any of `standings`, `field`, `decklists`, `decklist` (the single
+full `PlayerDecklist` when `--player`/`--decklists --player` resolves to exactly one match),
+`path`, `searchMatches`. With no flags at all, only `{index}` is emitted.
 
 ## Batch Deck Analysis — Best Decks Per Hero
 
@@ -413,6 +440,7 @@ These are common ways the user asks for things — translate them to the right C
 | "compare prices for card X" / "TCGplayer vs Cardmarket for X" | `fab-cli price-comparison card "<name>"` |
 | "export prices for a set" / "price CSV for set X" | `fab-cli price-comparison export --set "<name>"` |
 | "how much is card X worth" | `fab-cli price-comparison card "<name>"` — note empty cells (`—`) mean no real price found, not zero |
+| "machine-readable output" / "scripting against fab-cli" / "give me JSON" / "pipe to jq" | append `--json` to any of: `fabrary search/top/deck`, `fabrary meta`, `fabrary cards search/show`, `fabtcg events/coverage` |
 
 ## Vendored knowledge repos — keep them up to date (HARD RULE)
 

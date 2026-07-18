@@ -40,6 +40,27 @@ fab-cli fabtcg           <command>   # tournament coverage, events, decklists vi
 fab-cli price-comparison <command>   # TCGplayer vs Cardmarket price comparison
 ```
 
+### Machine-readable output (`--json`)
+
+Append `--json` to any of the commands below to get parseable JSON on stdout instead of a
+formatted table — no ANSI color codes, no progress indicators:
+
+```bash
+fab-cli fabrary search --hero prism-awakener-of-sol --format cc --json | jq '.decks[0].name'
+fab-cli fabrary top --hero prism-awakener-of-sol --format cc --json
+fab-cli fabrary deck 01JRX3FA3MD3NH6F0QVZ1D7QSS --stats-only --json
+fab-cli fabrary meta --format cc --json
+fab-cli fabrary cards search "prism r:Majestic" --json
+fab-cli fabrary cards show "prism, awakener of sol" --json
+fab-cli fabtcg events --world-tour --json
+fab-cli fabtcg coverage pro-tour-example --field --json
+```
+
+Supported on: `fabrary search`, `fabrary top`, `fabrary deck`, `fabrary meta`,
+`fabrary cards search`, `fabrary cards show`, `fabtcg events`, `fabtcg coverage`. Each
+command's sub-modes (e.g. `top --per-hero`, `deck --stats-only`, `coverage --field`) are
+reflected in the JSON shape — see `CLAUDE.md` for the exact keys per command.
+
 ---
 
 ## Deck Search
