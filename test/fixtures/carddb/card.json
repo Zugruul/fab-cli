@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Snatch",
+    "pitch": "1",
+    "cost": "0",
+    "types": ["Action"],
+    "card_keywords": [],
+    "granted_keywords": [],
+    "ability_and_effect_keywords": [],
+    "functional_text": "Once per Turn Action - Play: Look at the top card of target hero's deck. You may banish that card."
+  },
+  {
+    "name": "Command and Conquer",
+    "pitch": "2",
+    "cost": "1",
+    "types": ["Action"],
+    "card_keywords": [],
+    "granted_keywords": [],
+    "ability_and_effect_keywords": [],
+    "functional_text": "Search your deck for a card named Snatch, reveal it and put it into your hand. Shuffle your deck."
+  },
+  {
+    "name": "Screeching Strike",
+    "pitch": "1",
+    "cost": "1",
+    "types": ["Attack Action"],
+    "card_keywords": ["Dominate"],
+    "granted_keywords": [],
+    "ability_and_effect_keywords": [],
+    "functional_text": "Dominate."
+  },
+  {
+    "name": "Blazing Aether",
+    "pitch": "3",
+    "cost": "2",
+    "types": ["Instant"],
+    "card_keywords": [],
+    "granted_keywords": [],
+    "ability_and_effect_keywords": [],
+    "functional_text": "Draw a card."
+  },
+  {
+    "name": "Rally the Rearguard",
+    "pitch": "1",
+    "cost": "1",
+    "types": ["Action"],
+    "card_keywords": [],
+    "granted_keywords": [],
+    "ability_and_effect_keywords": [],
+    "functional_text": "Create a Standard Power Action Token."
+  }
+]
