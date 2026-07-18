@@ -12,9 +12,10 @@ import {
 const FIXTURES = path.join(__dirname, "fixtures", "rules");
 
 vi.mock("../src/rulesDocs", async () => {
-  const actual = await vi.importActual<typeof import("../src/rulesDocs")>(
-    "../src/rulesDocs",
-  );
+  const actual =
+    await vi.importActual<typeof import("../src/rulesDocs")>(
+      "../src/rulesDocs",
+    );
   return { ...actual, updateRulesDocs: vi.fn().mockResolvedValue([]) };
 });
 
@@ -56,7 +57,9 @@ describe("chunkNumberedDoc — CR/TRP/PPG numbered-section chunking", () => {
   });
 
   it("returns no chunks for content with no numbered headings", () => {
-    expect(chunkNumberedDoc("just some prose\nwith no headings at all")).toEqual([]);
+    expect(
+      chunkNumberedDoc("just some prose\nwith no headings at all"),
+    ).toEqual([]);
   });
 });
 
@@ -177,10 +180,7 @@ describe("syncRules — full KB sync orchestration", () => {
       ["CPG", "CR", "PPG", "TRP", "legality"].sort(),
     );
 
-    const crFile = fs.readFileSync(
-      path.join(kbDir, "cr", "1-1.md"),
-      "utf8",
-    );
+    const crFile = fs.readFileSync(path.join(kbDir, "cr", "1-1.md"), "utf8");
     expect(crFile).toMatch(/^---\n/);
     expect(crFile).toContain("document: CR");
     expect(crFile).toContain('section: "1.1"');
@@ -203,9 +203,9 @@ describe("syncRules — full KB sync orchestration", () => {
       fs.readFileSync(path.join(kbDir, "index.json"), "utf8"),
     );
     expect(index.count).toBe(index.chunks.length);
-    expect(index.chunks.some((c: { document: string }) => c.document === "CPG")).toBe(
-      true,
-    );
+    expect(
+      index.chunks.some((c: { document: string }) => c.document === "CPG"),
+    ).toBe(true);
     expect(
       index.chunks.some((c: { document: string }) => c.document === "legality"),
     ).toBe(true);
@@ -282,7 +282,9 @@ describe("syncRules — full KB sync orchestration", () => {
       rulesDir,
       cpgPdfPath: path.join(FIXTURES, "cpg-fixture.pdf"),
     });
-    expect(fs.existsSync(path.join(kbDir, "legality", "current.md"))).toBe(true);
+    expect(fs.existsSync(path.join(kbDir, "legality", "current.md"))).toBe(
+      true,
+    );
     const before = fs.readFileSync(
       path.join(kbDir, "legality", "current.md"),
       "utf8",
