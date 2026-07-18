@@ -176,11 +176,14 @@ export interface ChunkSeed {
   text: string;
 }
 
-// Title must not start with a lowercase letter — rejects numeric table-row
-// lines like "35 minutes" (real in en-fab-trp.txt's time-limit table) while
-// still matching real headings whose title starts with punctuation, e.g.
-// CR's "8.2.1 (1H)".
-const SECTION_HEADING_RE = /^(\d+(?:\.\d+)*)\s+([^a-z\s].*)$/;
+// Title must start with an uppercase letter or "(" — every real heading in
+// CR/TRP/PPG is Title Case, except CR's "8.2.1 (1H)"/"8.2.2 (2H)" which
+// start with "(". This rejects numeric table-row lines like "35 minutes"
+// (TRP's time-limit table) AND dash-range rows like "9 -- 16" / "225 -- 440"
+// (TRP's Swiss-round attendance tables) — both start with a digit, which
+// `[^a-z\s]` alone (a weaker "not lowercase, not whitespace" check) let
+// through as false-positive section headings.
+const SECTION_HEADING_RE = /^(\d+(?:\.\d+)*)\s+([A-Z(].*)$/;
 
 /** Chunk a CR/TRP/PPG txt document by its own numbered-section heading lines
  *  (e.g. "1.1 Players"); non-heading lines (including lettered sub-rules like
