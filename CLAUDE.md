@@ -441,6 +441,8 @@ These are common ways the user asks for things — translate them to the right C
 | "export prices for a set" / "price CSV for set X" | `fab-cli price-comparison export --set "<name>"` |
 | "how much is card X worth" | `fab-cli price-comparison card "<name>"` — note empty cells (`—`) mean no real price found, not zero |
 | "machine-readable output" / "scripting against fab-cli" / "give me JSON" / "pipe to jq" | append `--json` to any of: `fabrary search/top/deck`, `fabrary meta`, `fabrary cards search/show`, `fabtcg events/coverage` |
+| "bootstrap talishar" / "set up the talishar clones" | `bash scripts/talishar-bootstrap.sh` |
+| "sync the talishar fork(s)" / "update talishar from upstream" / "pull upstream talishar changes" | `/talishar-fork-sync` skill (`bash scripts/talishar-fork-sync.sh [--rebase-branches]`) |
 
 ## Vendored knowledge repos — keep them up to date (HARD RULE)
 
@@ -458,6 +460,94 @@ The repo vendors external knowledge under `third_party/`:
 **Cross-identity entities:** generated card/keyword notes declare stable `card:`/`keyword:` keys and builders refresh `.claude/identities/entity-index.json`. `python3 scripts/backfill-entities.py --check` previews conservative proposals for hand-owned judge/player notes; omit `--check` to write a reviewable diff (the script never stages or commits). Interaction notes should be minted with `--entities card:<a>,card:<b>` when those card files exist.
 
 **Before answering any question that draws on these sources (card text, card facts, lore), check freshness and update first** if the submodule hasn't been pulled in >24h: `git submodule update --remote third_party/<name>` (fablore has its own TTL auto-sync via `lore search`). Never answer card-text questions from model memory — read the card from the submodule. The submodule's `banned-*.json` files may be stale: **card legality ALWAYS comes from the live policy page** (https://fabtcg.com/rules-and-policy-center/card-legality-policy/), never from the submodule, cache, or memory. When bumping a submodule pin, commit the change.
+
+## Talishar (development aid, vendored working copies)
+
+[Talishar](https://talishar.net/) is the open-source, community-run web client for playing
+Flesh & Blood online — a PHP game engine (`Talishar/Talishar`), a React SPA
+(`Talishar/Talishar-FE`), and a card-image pipeline (`Talishar/CardImages`). fab-cli vendors
+working copies of the three repos as **development aid tooling** for contributing card
+implementations upstream — this is not a CLI feature surface (no `fab-cli talishar` command
+namespace in v1) and it never runs a hosted instance. Full behavior spec:
+`SPEC-TALISHAR.md`; task list: `docs/BACKLOG-TALISHAR.md`.
+
+### Vendoring layout
+
+Three full clones live as gitignored siblings under `third_party/`:
+
+```
+third_party/talishar/             — Talishar/Talishar (PHP game engine)
+third_party/talishar-fe/          — Talishar/Talishar-FE (Vite + React 18 + Redux Toolkit SPA)
+third_party/talishar-cardimages/  — Talishar/CardImages (image download/resize/crop pipeline)
+```
+
+**They must stay direct siblings of one another** — the backend's docker-compose expects
+`../Talishar-FE` and `../CardImages` next to the `talishar` checkout, so don't nest or rename
+these directories. They are gitignored (`third_party/talishar*` in `.gitignore`) and never
+committed to fab-cli — this is a fourth vendoring pattern alongside submodules (`fablore`,
+`flesh-and-blood-cards`) and committed dirs (`fab-rules`): mutable working copies we push
+branches from, not pinned knowledge. **Never commit anything from inside these clones**,
+especially card images (copyrighted, transient-only — SPEC-TALISHAR.md §10 I3).
+
+### Fork contract
+
+In every vendored clone:
+- `origin` = the user's fork, `git@github.com:Zugruul/<repo>.git` (push target)
+- `upstream` = the official org repo, `https://github.com/Talishar/<repo>.git` (**fetch-only** —
+  nothing is ever pushed here)
+
+**Hard invariants (SPEC-TALISHAR.md §10 I1/I2) — never violate:**
+- Never open, mark ready, approve, or merge a pull request on a `Talishar/*` org repo. Tooling
+  only pushes branches to the user's forks and prepares PR title/body as text — **a human
+  creates every upstream PR.**
+- A fork's `main` that has diverged from `upstream/main` (non-fast-forward) is reported, **never
+  force-pushed.** If you're reaching for `--force` or `push upstream`, stop — that's a human
+  decision.
+
+### Bootstrap: `scripts/talishar-bootstrap.sh`
+
+```bash
+bash scripts/talishar-bootstrap.sh
+```
+
+Idempotent, requires `git` and `gh` on PATH. On a checkout missing any of the three clones, it
+clones each from the user's fork into `third_party/{talishar,talishar-fe,talishar-cardimages}`
+and adds the `upstream` remote — creating the fork first via `gh repo fork Talishar/<repo>
+--clone=false` if it doesn't exist yet (retrying the post-fork clone a few times, since GitHub
+provisions forks asynchronously). For clones that already exist, it verifies the `origin`/
+`upstream` remote contract and repairs (`repaired: ...`) or confirms (`ok: ...`) it — a wrong
+`origin` (e.g. pointing at `Talishar/` instead of `Zugruul/`) is auto-repaired. A clean rerun on
+an already-bootstrapped checkout makes no changes and exits 0. Any clone directory that exists
+but isn't a git repo is left alone and reported as an `error:` line (exit 1) rather than touched.
+
+### Sync: `/talishar-fork-sync` skill
+
+```bash
+bash scripts/talishar-fork-sync.sh                    # fetch + fast-forward + report
+bash scripts/talishar-fork-sync.sh --rebase-branches   # also rebase local feature branches onto updated main
+```
+
+Skill file: `.claude/skills/talishar-fork-sync/SKILL.md`. For each of the three clones (skipping
+any not yet bootstrapped with a `skip:` line), it fetches both remotes and fast-forwards the
+fork's `main` to `upstream/main` (locally, then pushed to `origin`) when there's no divergence.
+Report line prefixes to recognize:
+- `upstream: N new commit(s) on main since fork tip (<dir>)` — how far behind before this run
+- `ok: <dir> main up to date with upstream/main` — nothing to do
+- `synced: <dir> main fast-forwarded N commit(s), pushed to origin` — happy path
+- `diverged: <dir> main is X ahead / Y behind upstream/main — resolve manually, no push` — **stop
+  and surface to a human**, never force-pushed
+- `branch: <dir>/<name> is X ahead / Y behind main` — printed for every local feature branch
+  regardless of `--rebase-branches`
+- `rebased: <dir>/<name> onto updated main (local only, not pushed)` — with `--rebase-branches`;
+  intentionally not pushed (rewriting shared history is a human call)
+- `conflict: <dir>/<name> could not be rebased onto main (aborted, not pushed)` — rebase hit a
+  conflict, `git rebase --abort` ran automatically, never resolved silently
+- `error: <dir> <step> failed — skipping, check manually` — one repo's failure never aborts the
+  rest of the run
+
+Exits non-zero if any repo diverged, any rebase conflicted, or any repo errored — treat that as
+"needs human attention," not a bug to route around. Run this before starting any Talishar
+card-implementation session.
 
 ## Lore (legendarystories.net / fablore)
 
