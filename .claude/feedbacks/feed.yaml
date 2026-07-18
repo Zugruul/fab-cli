@@ -1392,3 +1392,92 @@ items:
   routing:
     action: brain-note
     ref: ''
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T19:30:00Z'
+iteration:
+  task: TAL-003
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: concurrency
+  severity: medium
+  summary: A new iteration's clean checkout had leftover uncommitted retro artifacts
+    from a prior session, plus a separate locked recovery worktree already sitting
+    on main with its own overlapping (but distinct) retro commits for the same earlier
+    task — three different partial records of the same retro spread across three locations.
+  detail: Starting a fresh iteration on the shared checkout, `git status` showed five
+    modified/untracked files (brain notes, a feedback entry, links.json) left uncommitted
+    from a previous session's retro for an already-merged PR. Separately, a `git worktree
+    list` revealed a second, locked worktree also checked out on `main`, itself containing
+    a *different* uncommitted-turned-committed retro for the same prior PR, created
+    during an earlier documented branch-recovery incident. Neither the leftover uncommitted
+    files nor the recovery worktree's commits had reached the shared remote's main
+    branch. Untangling which content was genuinely new versus already-landed required
+    manual ancestry checks (`git merge-base --is-ancestor`) before it was safe to
+    commit anything, and the recovery worktree was left alone entirely (locked, out
+    of scope) rather than reconciled — so the repo still has some retro content that
+    exists in two divergent, unmerged places.
+  generalized: 'When a retro protocol runs at PR close but the session ends (checkpoint,
+    interruption, crash) before its commit lands, the mint/prune/directory-regen output
+    is left as uncommitted working-tree state — and if the NEXT session starts from
+    the same shared checkout without first checking `git status`, it either loses
+    that state or has to manually reconcile it against whatever else accumulated in
+    the meantime (including recovery worktrees from unrelated incidents). A retro
+    that doesn''t reach a completed commit is effectively invisible to later ancestry
+    checks, so it can silently duplicate across sessions. Mitigation that worked here:
+    always run `git status` at the very start of an iteration, before touching the
+    board or main, and treat any uncommitted retro-shaped diff (brain notes, feedback
+    yaml, links.json, DIRECTORY.md) as prior work to commit or investigate, never
+    to discard.'
+  routing:
+    action: brain-note
+- category: worked-well
+  area: merge
+  severity: low
+  summary: The session-level auto-merge consent gate correctly blocked the first autonomous
+    merge attempt of the session until an explicit AskUserQuestion answer was recorded
+    in-transcript, even though the repo config already had autoMerge enabled and a
+    memory note existed from a prior session.
+  detail: The orchestrator reached the merge step for the session's first task, recognized
+    that config-level autoMerge plus any remembered prior authorization were insufficient
+    on their own, asked the human once via AskUserQuestion, received an explicit yes,
+    and proceeded — with no attempt to route around the gate using the config flag
+    or memory as a substitute for consent.
+  generalized: A session-scoped consent gate for autonomous merge (or any other self-approval
+    action) that requires a real in-transcript human answer — and explicitly refuses
+    to treat a config flag or a saved memory note as sufficient substitute — closes
+    the loophole where an agent could effectively grant itself standing permission
+    by writing a note in an earlier session. Asking once per session, not per task,
+    keeps the friction low while still requiring a live human in the loop for the
+    first self-approval action of each session.
+  routing:
+    action: ignore
+- category: worked-well
+  area: review
+  severity: low
+  summary: For a documentation-only task describing existing automation (scripts/skill
+    files), both the implementing and reviewing agents independently converged on
+    the same verification method — building a claim inventory and cross-checking every
+    concrete detail (flag names, exact log-line string literals, exit codes, invariant
+    citations) against the actual source — rather than inventing a placeholder test
+    file just to satisfy a generic "tests written first" checklist item.
+  detail: The task's board checklist included a generic "Tests written first" line
+    inherited from the project's default issue template, but there was no established
+    repo pattern for asserting markdown prose content. Both agents recognized that
+    fabricating a test asserting nothing meaningful would be worse than no test, and
+    instead treated full source cross-referencing as the real verification step, explicitly
+    citing which files backed which claims in their reports.
+  generalized: When a generic "tests written first" checklist item doesn't fit the
+    shape of a task (e.g. pure documentation describing existing, already-tested automation),
+    the correct response is to substitute an equally rigorous but task-appropriate
+    verification method — exhaustive claim-by-claim cross-referencing against source
+    — and state explicitly why a fabricated test was skipped, rather than either skipping
+    verification entirely or writing a test that asserts nothing real.
+  routing:
+    action: ignore
