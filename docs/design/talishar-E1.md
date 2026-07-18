@@ -149,10 +149,80 @@ Grounded in: SPEC-TALISHAR.md §7.5, §7.5a.
   — TAL-013 (brain seeding) and any future card-implementation work (E2) will load this file alone
   in a fresh session, so it cannot assume the reader also has the architecture doc open.
 
+## TAL-012 — Register `talishar` identity + brain scaffold + ROLE.md
+
+Grounded in: SPEC-TALISHAR.md §7.2, §7.2a, §10 I1, I2, I5.
+
+### Components
+
+- `.claude/identities/talishar/brain/notes/` — empty at scaffold time (TAL-013 seeds it); matches
+  the house layout already used by `dev`/`reviewer`/`player`/`judge`.
+- `.claude/identities/talishar/brain/ROLE.md` — advisory-identity charter, modeled on
+  `.claude/identities/player/brain/ROLE.md`'s shape (hard rules up top, knowledge-flow rules,
+  lookup order) but scoped to Talishar engine/architecture/tooling knowledge only.
+- `.claude/identities/talishar/brain/links.json` — empty link graph (`{}` or the house-convention
+  empty-state shape — match whatever `player`'s/`judge`'s freshly-scaffolded shape would be;
+  inspect an existing brain's file for the exact empty-state JSON before writing it by hand).
+- `.claude/identities/talishar/brain/.activation.jsonl` — empty file (append-only recall log,
+  starts empty).
+- `.claude/project.yaml` `delegation.identities.talishar` — new entry, same shape as the existing
+  `player`/`judge` entries (name + email template, **no `models` key** — advisory role, never
+  spawned as a dev/reviewer subagent with its own model budget).
+
+### Interfaces / contracts
+
+- `delegation.identities.talishar` entry: `name: "Talishar Agent - {name}"`,
+  `email: "{local}+talishar_agent@{domain}"` — exact same template mechanics as `player`/`judge`,
+  substituted the same way at commit-identity resolution time. No `models` field (the schema
+  already tolerates this — `player`/`judge` are the precedent).
+- ROLE.md MUST contain, verbatim or in strictly stronger language, all of:
+  - I1: "Never open, mark ready, approve, or merge pull requests on Talishar org repositories;
+    tooling pushes branches only to the user's forks and prepares PR title/body as text — a human
+    creates every upstream PR."
+  - I2: "In every vendored Talishar clone, `origin` must be the user's fork and `upstream` the
+    Talishar org repo, fetch-only; nothing is ever pushed to `upstream`, and a diverged fork main
+    is reported, never force-pushed."
+  - I5: "The talishar brain links to card-vault entities for card/keyword facts and is never added
+    to the keyword-sync MIRRORS list; engine knowledge lives in the talishar brain only."
+  (These are pasted verbatim from `.claude/project.yaml` `specs.talishar.invariants` — TAL-012's
+  job is to make sure the brain's own charter states them too, not just the spec.)
+- ROLE.md additionally encodes (§7.2a, paraphrased is fine here, these aren't invariant IDs):
+  the brain covers Talishar engine/architecture/tooling knowledge only; card/keyword facts are
+  reached by linking to card-vault entities via the entity index, never duplicated locally;
+  vendored code (`third_party/talishar*`) is ground truth — when a note conflicts with current
+  vendored code, the NOTE is updated, not trusted.
+- `board.sh config` must report `VALID` after the `.claude/project.yaml` edit (the AC's literal
+  check) — run it after editing, don't just eyeball the YAML.
+
+### Key sequences
+
+1. Scaffold the four brain paths (empty `notes/`, `ROLE.md`, `links.json`, `.activation.jsonl`) —
+   inspect `player`'s or `judge`'s brain for the exact house-convention shape of an empty
+   `links.json`/`.activation.jsonl` before hand-writing them, don't guess the schema.
+2. Write ROLE.md: hard invariants (I1/I2/I5 verbatim) first, then the knowledge-scope and
+   knowledge-flow rules (§7.2a), following the player ROLE.md's organizational pattern but with
+   Talishar-specific content — this is a NEW charter, not a copy of the player's.
+3. Add the `delegation.identities.talishar` entry to `.claude/project.yaml`.
+4. TDD: write a structural test first (asserting the four brain files/dirs exist, ROLE.md contains
+   the three invariant strings — or a close paraphrase check if verbatim is too brittle — and the
+   YAML has the new identity entry with no `models` key) — red before the scaffold exists, green
+   after. Then run `board.sh config` to confirm `VALID` (this is a manual/dev-agent-time check
+   alongside the automated test, not something the automated test needs to re-implement by parsing
+   YAML itself if a schema validator already exists at `scripts/validate-config.py` or similar —
+   check for one before hand-rolling YAML parsing in the test).
+
+### Decisions
+
+- **No `models` key, matching `player`/`judge`.** This identity is advisory-only — it never gets
+  spawned via `Agent`/`identity.sh dev|reviewer` with a model budget; it exists so brain notes and
+  commit attribution have a home, not so it runs as a subagent role.
+- **ROLE.md is a new document, not a copy of player's/judge's**, even though it follows the same
+  organizational shape (hard rules → scope → knowledge-flow). The content is entirely different
+  (engine/tooling vs. gameplay/rules knowledge).
+
 ## Out of scope for this epic-task
 
-- `talishar` identity/brain scaffold (TAL-012) and brain note minting (TAL-013) — still out of scope
-  for TAL-011; TAL-011 produces reference material those tasks consume, it doesn't touch
-  `.claude/identities/`.
+- Brain note minting (TAL-013) — TAL-012 only scaffolds the empty structure; TAL-013 seeds it from
+  `docs/TALISHAR-ARCHITECTURE.md` and `.claude/talishar/*.md`.
 - Card implementation pipeline (E2) and the latency/DX audit (E3) — both blocked on this epic being
   Deployed and unrelated to the architecture doc's content beyond citing the same vendored code.
