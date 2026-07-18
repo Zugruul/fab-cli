@@ -1213,3 +1213,110 @@ items:
   routing:
     action: upstream
     ref: ''
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T07:15:00Z'
+iteration:
+  task: FAB-012
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: concurrency
+  severity: high
+  summary: A dev-agent branch silently forked from a stale, corrupted HEAD because
+    two build-loop sessions shared one working directory without worktree isolation
+  detail: The orchestrator ran `git switch main && git pull --ff-only` (reported up
+    to date) then `git switch -c <new-branch>` in the shared repo checkout. Between
+    those two commands, or possibly due to the branch creation itself racing another
+    concurrent session's checkout activity in the same directory, the new branch ended
+    up forked from a stale point predating a just-merged epic (an entire shared module
+    was missing) and carried 4 commits from the other session's unrelated task underneath
+    the intended work. The dev agent's own commits were fine — the base was corrupted
+    before it started. Recovery required creating an isolated worktree, cherry-picking
+    only the intended commits onto the current correct base, verifying the diff was
+    clean, and pushing under a new branch name (closing/reopening the PR) rather than
+    force-pushing over the corrupted history in place. Notably, the OTHER session
+    (working on an unrelated task in the same repo) had independently hit and reported
+    a related incident earlier in the same timeframe — this is not a one-off, it is
+    a structural property of multiple agentic sessions sharing one git working directory.
+  generalized: 'When multiple autonomous build-loop sessions operate against the same
+    repository without git-worktree isolation per session/lane, a session''s branch-creation
+    and pull commands are not atomic with respect to another session''s concurrent
+    git operations in the same working directory — a new branch can silently fork
+    from a stale or unrelated HEAD, and mutations (orchestrator retro commits, gate
+    runs reading files, reviewer diffs) can land on or read the wrong branch. This
+    is not a rare edge case; it can recur across unrelated tasks in the same short
+    session. Mitigations that worked: (1) after creating any new branch, immediately
+    verify `git merge-base main <new-branch>` equals the current `main` tip — do not
+    trust a prior pull-status check alone; (2) do ALL verification/review/test-running
+    work in a private git worktree, never in the shared checkout, from the very first
+    command; (3) recover corrupted branches by cherry-picking the intended commits
+    into an isolated worktree and pushing under a fresh branch name, rather than attempting
+    an in-place force-push fix on a branch another session might also be touching.
+    The structural fix — running every concurrent lane/session in its own isolated
+    worktree by default, not as an ad-hoc correction after a near-miss — would prevent
+    this class of incident outright rather than requiring detection-and-recovery after
+    the fact.'
+  evidence: []
+  routing:
+    action: upstream
+    ref: ''
+- category: friction
+  area: testing
+  severity: low
+  summary: A freshly created git worktree produces false-looking gate failures unrelated
+    to the diff under test, because node_modules and git submodules are not automatically
+    present
+  detail: 'Running the full gate in a brand-new worktree (created for branch-corruption
+    recovery) initially showed 9 failing tests in a pricing/CSV module the diff never
+    touched, plus a subprocess-spawn failure in a CLI help-snapshot test. Both were
+    entirely artifacts of the fresh worktree: the vendored card-database git submodule
+    was uninitialized (empty directory), and node_modules (gitignored, not shared
+    automatically across worktrees) was missing so a subprocess-spawning test couldn''t
+    find its dependencies. Neither had anything to do with the branch being verified.
+    Fixed by symlinking node_modules from the main checkout and rsync-copying the
+    submodule''s working-tree content (avoiding `git submodule update`, which itself
+    hung for over two minutes, apparently due to contention with another concurrent
+    session''s git activity on the same shared object store).'
+  generalized: A workflow that spins up ad-hoc git worktrees for isolated verification
+    (recovery, review, or test-running) should account for the fact that a fresh worktree
+    checkout does not inherit gitignored dependency directories (node_modules) or
+    initialized git submodules — both need explicit setup (a symlink to the main checkout's
+    node_modules, and a filesystem copy rather than a git submodule fetch, which can
+    hang under concurrent-session contention on the shared object store) before a
+    gate run there is meaningful. Otherwise a reviewer or recovery process can spend
+    significant time investigating failures that are pure environment artifacts, or
+    worse, misattribute them to the diff under test.
+  evidence: []
+  routing:
+    action: brain-note
+    ref: dev/fresh-worktree-needs-node-modules-and-submodule-setup
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Briefing reviewer agents to explicitly work from git refs and private worktrees,
+    rather than the shared checkout, prevented them from repeating the same corruption
+    that had just been discovered
+  detail: After discovering and recovering from the branch-corruption incident, the
+    orchestrator explicitly instructed both review-pass agents to never run a checkout-changing
+    command in the shared working directory, and instead do all inspection via git
+    refs (diff against a remote ref, gh pr diff) and all test/gate-running inside
+    their own private, disposable git worktrees. Both reviewers followed this correctly
+    and independently reported clean, reproducible results — no further corruption
+    occurred, and the reviewers proactively re-derived the fresh-worktree node_modules/submodule
+    setup steps to run the gate correctly in isolation.
+  generalized: Once a shared-checkout collision risk is identified in a session, explicitly
+    briefing every subsequently spawned agent (reviewers, dev agents) to operate exclusively
+    via git refs and private, disposable worktrees — never touching the shared checkout's
+    HEAD — is an effective, low-overhead mitigation that can be applied immediately
+    without waiting for a structural fix (e.g. automatic per-agent worktree isolation)
+    to land in the underlying tooling.
+  evidence: []
+  routing:
+    action: ignore
+    ref: positive signal, no routing action needed
