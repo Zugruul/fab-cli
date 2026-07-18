@@ -67,10 +67,10 @@ loaded). The write path takes an exclusive file lock (`flock($handler, LOCK_EX)`
 throws) on lock failure — "action not persisted" — so a lock contention degrades to a dropped
 write rather than a crash (`` `third_party/talishar/WriteGamestate.php` ``).
 
-Game creation seeds the initial file: `` `third_party/talishar/MenuFiles/StartHelper.php` `` line
-35's `initializePlayerState()` writes the starting per-player lines (including the initial
-all-zero ClassState line), one `fwrite()` call per slot, matching the same positional format
-`WriteGamestate.php`/`ParseGamestate.php` read and write during play.
+Game creation seeds the initial file: `` `third_party/talishar/MenuFiles/StartHelper.php` ``'s
+`initializePlayerState()` writes the starting per-player lines (including the initial all-zero
+ClassState line, currently the `fwrite()` at line 45), one `fwrite()` call per slot, matching the
+same positional format `WriteGamestate.php`/`ParseGamestate.php` read and write during play.
 
 ## DecisionQueue & Await Async Model
 
@@ -158,10 +158,11 @@ confirmed against a real merged PR that added one (`Talishar/Talishar#1370`, "Ad
    index constant (`$CS_NumLightningFlowDestroyed = 116;`, immediately after the previous highest
    index), adds that variable to the `global` declaration list inside `ResetMainClassState()`
    (line ~673), and initializes it to `0` in the same function's body.
-2. **`` `third_party/talishar/MenuFiles/StartHelper.php` ``** — `initializePlayerState()` (line
-   35) writes the game's starting ClassState line as a space-joined string of literal zeros, one
-   per constant; adding a constant means appending one more `0` to that literal string so the
-   positional `ParseGamestate.php` unpacking stays aligned.
+2. **`` `third_party/talishar/MenuFiles/StartHelper.php` ``** — `initializePlayerState()` writes
+   the game's starting ClassState line (currently the `fwrite()` at line 45, though the exact line
+   number shifts as constants are added — find it by grepping the file for `//Class State`) as a
+   space-joined string of literal zeros, one per constant; adding a constant means appending one
+   more `0` to that literal string so the positional `ParseGamestate.php` unpacking stays aligned.
 3. **The trigger call site** — wherever the tracked event actually happens, call
    `IncrementClassState($player, $CS_YourConstant)`. For `Talishar/Talishar#1370` this is
    `` `third_party/talishar/AuraAbilities.php` ``'s `DestroyAura()`, which now increments the
@@ -201,6 +202,10 @@ pr diff 1370 --repo Talishar/Talishar`) touches exactly:
   when the destroyed aura is `lightning_flow`.
 - `` `third_party/talishar/Classes/CardObjects/OMNCards.php` `` — the new `astral_strike_red`
   class itself.
+- `` `third_party/talishar/CLAUDE.md` `` — the PR also documents the two generalizable patterns it
+  introduces (the ClassState tracking recipe and the Modal Choose-1 / BUTTONINPUT+Await+Trigger
+  pattern) directly in the repo's own agent-guidance file, which is why both patterns are quoted
+  verbatim from that file elsewhere in this document.
 
 The card class shape:
 
@@ -343,7 +348,7 @@ connection (no `error` event fired) is still caught.
 ## Card-Image Pipeline
 
 Card art flows through `third_party/talishar-cardimages` (upstream `Talishar/CardImages`) before
-either engine or FE ever touches it. `` `third_party/talishar-cardimages/scripts/downloadImages.js`` ``
+either engine or FE ever touches it. `` `third_party/talishar-cardimages/scripts/downloadImages.js` ``
 fetches per-language card metadata from the official `cards.fabtcg.com` search API
 (`composeInitialApiUrl`), downloads each card's official image, and — via
 `` `third_party/talishar-cardimages/scripts/utils/sharpHelper.js` `` (`saveCardImage`,
@@ -379,7 +384,7 @@ directory, then runs `docker compose up -d`. The compose file
 - `web-server` — Apache/PHP on host port **8080** (`ports: ["8080:80"]`), mounting the current
   directory plus sibling `../Talishar-FE` (for ad-hoc `zzCardCodeGenerator.php` runs) and Xdebug/
   OPCache/APCu-tuning/Apache-performance config files as read-only overlays.
-- `mysql-server` — MySQL, database `fabonline`, initialized from `` `third_party/talishar/Database/`` ``.
+- `mysql-server` — MySQL, database `fabonline`, initialized from `` `third_party/talishar/Database/` ``.
 - `phpmyadmin` — on host port `5001`.
 - `redis` — on host port `6382` (container-internal `6379`), named `app_redis`.
 

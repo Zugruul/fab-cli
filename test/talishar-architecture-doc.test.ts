@@ -56,13 +56,6 @@ describe("docs/TALISHAR-ARCHITECTURE.md", () => {
     expect(doc.length).toBeGreaterThan(8000);
   });
 
-  it("never cites or references third_party/talishar* as a path the test itself reads", () => {
-    // Sanity check on the test file's own behavior, not the doc's content:
-    // this test must not stat/read anything under third_party/talishar*.
-    // (No filesystem access to that path appears anywhere above.)
-    expect(true).toBe(true);
-  });
-
   it.each(REQUIRED_HEADINGS)("has a heading for: $name", ({ pattern }) => {
     expect(doc).toMatch(pattern);
   });
