@@ -1,4 +1,9 @@
 {
+  "assert-exact-values-not-just-counts->reproduce-gate-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
     "fires": 2,
     "last": "2026-07-18",
