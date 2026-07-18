@@ -11,9 +11,13 @@ import { collectHelpTree } from "./helpers/cliHelpTree";
  * enumerated command paths).
  */
 describe("CLI --help output (zero behavior change)", () => {
-  const fixturePath = path.join(__dirname, "fixtures", "cli-help-snapshot.json");
+  const fixturePath = path.join(
+    __dirname,
+    "fixtures",
+    "cli-help-snapshot.json",
+  );
   const expected: { path: string[]; output: string }[] = JSON.parse(
-    fs.readFileSync(fixturePath, "utf8")
+    fs.readFileSync(fixturePath, "utf8"),
   );
 
   const actual = collectHelpTree();
