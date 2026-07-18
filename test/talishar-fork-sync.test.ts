@@ -5,7 +5,6 @@ import {
   writeFileSync,
   chmodSync,
   readFileSync,
-  existsSync,
   symlinkSync,
 } from "node:fs";
 import { tmpdir } from "node:os";
@@ -74,7 +73,7 @@ case "$cmd" in
       exit 0
     fi
     branch="$2"
-    if grep -q "^rebase-\${branch}=fail\$" "$dir/.fake-state" 2>/dev/null; then
+    if grep -q "^rebase-\${branch}=fail$" "$dir/.fake-state" 2>/dev/null; then
       exit 1
     fi
     exit 0
