@@ -151,3 +151,64 @@ export async function fetchCardVaultCard(cardId: string): Promise<CardVaultCard 
 export function renderTextbox(textbox: string): string {
   return textbox.split("{br}").join("\n");
 }
+
+/** A single Card Vault ruling/errata entry, defensively normalized. */
+export interface CardRuling {
+  date: string | null;
+  text: string;
+  raw?: unknown;
+}
+
+const RULING_DATE_KEYS = ["date", "ruling_date", "created_at"] as const;
+const RULING_TEXT_KEYS = ["text", "ruling_text", "description", "body"] as const;
+
+/**
+ * Normalizes one `rulings_errata` entry into a CardRuling, trying a few
+ * candidate key names since the live API's real entry shape is unconfirmed.
+ * Falls back to stringifying the whole entry rather than throwing on an
+ * unrecognized shape.
+ */
+export function parseCardRuling(entry: unknown): CardRuling {
+  if (entry !== null && typeof entry === "object") {
+    const obj = entry as Record<string, unknown>;
+    const textKey = RULING_TEXT_KEYS.find((k) => typeof obj[k] === "string");
+    if (textKey) {
+      const dateKey = RULING_DATE_KEYS.find((k) => typeof obj[k] === "string");
+      return {
+        date: dateKey ? (obj[dateKey] as string) : null,
+        text: obj[textKey] as string,
+        raw: entry,
+      };
+    }
+  }
+  return { date: null, text: String(entry), raw: entry };
+}
+
+/** Stable sort: most-recent-first where both dates are parseable, original order otherwise. */
+function compareRulingsByDate(a: CardRuling, b: CardRuling): number {
+  const ta = a.date ? Date.parse(a.date) : NaN;
+  const tb = b.date ? Date.parse(b.date) : NaN;
+  if (Number.isNaN(ta) || Number.isNaN(tb)) return 0;
+  return tb - ta;
+}
+
+/**
+ * Resolves `cardName` to a Card Vault card and returns its rulings.
+ * Returns `null` when there is no Card Vault match at all, or on any
+ * network/HTTP error — distinct from `[]`, which means the card was found
+ * but has zero official rulings.
+ */
+export async function fetchCardRulings(
+  cardName: string,
+): Promise<CardRuling[] | null> {
+  try {
+    const results = await searchCardVault({ name: cardName });
+    const top = results[0];
+    if (!top) return null;
+    const card = await fetchCardVaultCard(top.card_id);
+    if (!card) return null;
+    return card.rulings_errata.map(parseCardRuling).sort(compareRulingsByDate);
+  } catch {
+    return null;
+  }
+}
