@@ -184,30 +184,38 @@ export function parseCardRuling(entry: unknown): CardRuling {
   return { date: null, text: String(entry), raw: entry };
 }
 
-/** Stable sort: most-recent-first where both dates are parseable, original order otherwise. */
+/** Most-recent-first; undated entries sink to the end. Transitive (satisfies a total order). */
 function compareRulingsByDate(a: CardRuling, b: CardRuling): number {
   const ta = a.date ? Date.parse(a.date) : NaN;
   const tb = b.date ? Date.parse(b.date) : NaN;
-  if (Number.isNaN(ta) || Number.isNaN(tb)) return 0;
+  if (Number.isNaN(ta) && Number.isNaN(tb)) return 0;
+  if (Number.isNaN(ta)) return 1;
+  if (Number.isNaN(tb)) return -1;
   return tb - ta;
 }
 
 /**
- * Resolves `cardName` to a Card Vault card and returns its rulings.
+ * Resolves `cardName` to a Card Vault card and returns its card_id alongside
+ * its rulings, so callers don't need a second independent search just to
+ * get the card_id — two independent searches aren't guaranteed to agree
+ * on the top result (ties, no documented secondary sort key, catalog drift).
  * Returns `null` when there is no Card Vault match at all, or on any
- * network/HTTP error — distinct from `[]`, which means the card was found
- * but has zero official rulings.
+ * network/HTTP error — distinct from `rulings: []`, which means the card
+ * was found but has zero official rulings.
  */
 export async function fetchCardRulings(
   cardName: string,
-): Promise<CardRuling[] | null> {
+): Promise<{ cardId: string; rulings: CardRuling[] } | null> {
   try {
     const results = await searchCardVault({ name: cardName });
     const top = results[0];
     if (!top) return null;
     const card = await fetchCardVaultCard(top.card_id);
     if (!card) return null;
-    return card.rulings_errata.map(parseCardRuling).sort(compareRulingsByDate);
+    return {
+      cardId: top.card_id,
+      rulings: card.rulings_errata.map(parseCardRuling).sort(compareRulingsByDate),
+    };
   } catch {
     return null;
   }
