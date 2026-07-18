@@ -83,6 +83,89 @@ describe("chunkNumberedDoc — CR/TRP/PPG numbered-section chunking", () => {
     expect(timeLimits.text).toContain("55 minutes");
     expect(timeLimits.text).toContain("35 minutes");
   });
+
+  it("folds dash-range attendance-table rows (e.g. TRP Swiss-round tables) into the preceding heading instead of splitting them into bogus sections that collide with real section numbers", () => {
+    const content = [
+      "8 Tournament Structure",
+      "8.4 Swiss Rounds",
+      "The number of Swiss rounds is determined by attendance.",
+      "Attendance",
+      "Rounds",
+      "Cut",
+      "9 -- 16",
+      "5/4*",
+      "Top 4/8*",
+      "17 -- 32",
+      "5",
+      "Top 8",
+      "9 Special Formats and Rules",
+      "9.1 Draft",
+      "9.1.1 Draft is a limited format.",
+    ].join("\n");
+
+    const chunks = chunkNumberedDoc(content);
+
+    expect(chunks.map((c) => c.section)).toEqual([
+      "8",
+      "8.4",
+      "9",
+      "9.1",
+      "9.1.1",
+    ]);
+    const swissRounds = chunks.find((c) => c.section === "8.4")!;
+    expect(swissRounds.text).toContain("9 -- 16");
+    expect(swissRounds.text).toContain("17 -- 32");
+    const specialFormats = chunks.find((c) => c.section === "9")!;
+    expect(specialFormats.title).toBe("Special Formats and Rules");
+  });
+
+  it("still matches a real heading whose title starts with punctuation, e.g. CR's '8.2.1 (1H)'", () => {
+    const content = [
+      "8.2 Combat Structure",
+      "8.2.1 (1H)",
+      "This subsection applies to one-handed weapons.",
+      "8.2.2 (2H)",
+      "This subsection applies to two-handed weapons.",
+    ].join("\n");
+
+    const chunks = chunkNumberedDoc(content);
+
+    expect(chunks.map((c) => c.section)).toEqual(["8.2", "8.2.1", "8.2.2"]);
+    expect(chunks.find((c) => c.section === "8.2.1")?.title).toBe("(1H)");
+    expect(chunks.find((c) => c.section === "8.2.2")?.title).toBe("(2H)");
+  });
+
+  it("folds both known TRP table shapes (time-limit and dash-range attendance) in one realistic excerpt without losing or corrupting real headings", () => {
+    const content = [
+      "8 Tournament Structure",
+      "8.3 Time Limits",
+      "Format",
+      "Time Limit",
+      "Classic Constructed",
+      "55 minutes",
+      "Blitz",
+      "35 minutes",
+      "8.4 Swiss Rounds",
+      "Attendance",
+      "Rounds",
+      "225 -- 440",
+      "7",
+      "Top 64 or X-2",
+      "441 -- 732",
+      "8",
+      "9 Special Formats and Rules",
+    ].join("\n");
+
+    const chunks = chunkNumberedDoc(content);
+
+    expect(chunks.map((c) => c.section)).toEqual(["8", "8.3", "8.4", "9"]);
+    expect(chunks.find((c) => c.section === "8.4")!.text).toContain(
+      "225 -- 440",
+    );
+    expect(chunks.find((c) => c.section === "9")?.title).toBe(
+      "Special Formats and Rules",
+    );
+  });
 });
 
 describe("chunkCpgText — CPG heading-structure chunking", () => {
