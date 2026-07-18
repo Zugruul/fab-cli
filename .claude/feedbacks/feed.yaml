@@ -1554,3 +1554,76 @@ items:
   routing:
     action: brain-note
     ref: reviewer/verify-fix-against-full-corpus
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T21:30:00Z'
+iteration:
+  task: '9'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: merge
+  severity: low
+  summary: gh pr merge's post-merge local branch-cleanup step failed with a git worktree-lock
+    error even though the remote squash-merge fully succeeded
+  detail: 'Operating from a secondary git worktree while the target branch (main)
+    was checked out in a different, primary worktree of the same repo. gh pr merge
+    --squash --delete-branch printed ''fatal: main is already used by worktree at
+    <path>'' from its own local cleanup step; gh pr view confirmed the remote merge
+    had already gone through cleanly.'
+  evidence:
+  - fab-cli#96
+  generalized: In a multi-worktree setup, a merge CLI that chains a remote merge with
+    local branch cleanup can surface a local git error that has nothing to do with
+    whether the remote merge succeeded — verify the PR's remote merged state independently
+    (state/mergedAt/mergeCommit) before treating the error as a failed merge, and
+    recover locally by detaching to the merged ref rather than fighting for a branch
+    name another worktree holds.
+  routing:
+    action: brain-note
+    ref: orchestrator/gh-pr-merge-worktree-branch-lock
+- category: worked-well
+  area: review
+  severity: low
+  summary: The reviewer independently traced a safety-critical no-double-fetch/no-cross-call-memoization
+    guarantee through actual control flow rather than trusting a doc comment, and
+    confirmed it with a real incrementing-counter test
+  detail: The task's single most safety-critical property (a live network refetch
+    must happen on every call touching a specific content category, never cached across
+    calls) was verified by reading the actual local-variable scoping in the implementation
+    and cross-checking against a test that asserts a real counter increments 1-2-3
+    across three separate invocations, not a loose 'was called' assertion.
+  evidence: []
+  generalized: For any AC that promises a per-call (not per-session) guarantee — freshness,
+    side effects, rate limits — reviewing whether the guaranteeing state is function-local
+    versus module/closure-level scoped is the single highest-value check; pairing
+    that trace with a test that asserts a real counter incrementing across genuinely
+    separate invocations (not just 'called at least once') is what actually falsifies
+    a broken implementation.
+  routing:
+    action: brain-note
+    ref: reviewer/foundation-pr-forward-compat
+- category: recommendation
+  area: docs
+  severity: low
+  summary: When a design doc's 'mirrors X's behavior' claim turns out false, correcting
+    the doc's wording is usually cheaper and more honest than backporting behavior
+    to make the claim retroactively true
+  detail: A design-doc addendum claimed a new command's ambiguous-match handling 'mirrors'
+    an existing sibling command's — the sibling actually had no such handling at all.
+    Fixed by rewording the doc to state the truth (the new command establishes a stricter
+    convention) and noting a backport as an optional future improvement, not a blocking
+    requirement.
+  evidence: []
+  generalized: When review flags a design doc's cross-reference claim ('this matches
+    how X already works') as factually inaccurate, default to correcting the doc's
+    wording over retroactively changing code to match the claim — unless the actual
+    inconsistency between the two components is itself the defect being reviewed.
+  routing:
+    action: brain-note
+    ref: orchestrator/correct-inaccurate-design-claim-dont-overfix
