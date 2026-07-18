@@ -54,11 +54,12 @@ class CardEntityTests(unittest.TestCase):
             notes.mkdir()
             self.mod.NOTES = str(notes)
             self.mod.LINKS = str(pathlib.Path(td) / "links.json")
+            self.mod.SCHEMA = str(pathlib.Path(td) / "SCHEMA.json")
             generated = {
                 "card-alpha": "---\nentities: [card:alpha]\n---\n\nAlpha\n",
                 "card-vault-map": "---\ntags: [hub]\n---\n",
             }
-            self.mod.generate_all = lambda: (generated, {}, set())
+            self.mod.generate_all = lambda: (generated, {}, set(), {})
             self.mod.regenerate_entity_index = mock.Mock()
             self.assertEqual(0, self.mod.cmd_build())
             first = {p.name: p.read_bytes() for p in notes.iterdir()}
@@ -206,6 +207,7 @@ Index: [[keywords-index]]. When ruling, cite CR 8.3.1; verify against the vendor
             card_mod.ROOT = keyword_mod.ROOT = str(root)
             card_mod.NOTES = str(home / "notes")
             card_mod.LINKS = str(home / "links.json")
+            card_mod.SCHEMA = str(home / "SCHEMA.json")
             card_mod.CORPUS = str(corpus)
             keyword_mod.IDENT = str(identities)
             for _ in range(2):
