@@ -1,16 +1,10 @@
+import { httpFetch, createLimiter, FABTCG_MAX_CONCURRENCY } from "./http";
+
 const EVENTS_URL = "https://fabtcg.com/organised-play/";
 const COVERAGE_BASE = "https://fabtcg.com/coverage";
 const WP_API = "https://fabtcg.com/api/wp/v2";
 
-const BROWSER_HEADERS = {
-  "User-Agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-  "Accept-Language": "en-US,en;q=0.9",
-  Referer: "https://fabtcg.com/",
-};
-
-const JSON_HEADERS = { ...BROWSER_HEADERS, Accept: "application/json" };
+const fabtcgLimit = createLimiter(FABTCG_MAX_CONCURRENCY);
 
 export interface TournamentEvent {
   name: string;
@@ -55,7 +49,7 @@ function isWorldTour(event: TournamentEvent): boolean {
 async function checkCoverage(slug: string): Promise<boolean> {
   if (!slug || slug === "#") return false;
   try {
-    const res = await fetch(`${COVERAGE_BASE}/${slug}/`, { headers: BROWSER_HEADERS });
+    const res = await httpFetch(`${COVERAGE_BASE}/${slug}/`, { preset: "fabtcg" });
     if (!res.ok) return false;
     const html = await res.text();
     // Coverage pages with real data have results or standings links
@@ -66,7 +60,7 @@ async function checkCoverage(slug: string): Promise<boolean> {
 }
 
 async function fetchEventsFromUrl(url: string): Promise<TournamentEvent[]> {
-  const res = await fetch(url, { headers: BROWSER_HEADERS });
+  const res = await httpFetch(url, { preset: "fabtcg" });
   if (!res.ok) return [];
   const html = await res.text();
   return parseEventsHtml(html);
@@ -133,7 +127,9 @@ export async function fetchEvents(filters?: {
   }
 
   if (filters?.withCoverage) {
-    const checks = await Promise.all(filtered.map((e) => checkCoverage(e.slug)));
+    const checks = await Promise.all(
+      filtered.map((e) => fabtcgLimit(() => checkCoverage(e.slug))),
+    );
     filtered = filtered.filter((_, i) => checks[i]);
   }
 
@@ -336,7 +332,7 @@ export function heroNameToIdentifier(displayName: string): string {
 
 export async function searchTournament(name: string): Promise<TournamentInfo[]> {
   const url = `${WP_API}/tournament?search=${encodeURIComponent(name)}&per_page=10`;
-  const res = await fetch(url, { headers: JSON_HEADERS });
+  const res = await httpFetch(url, { preset: "fabtcgJson" });
   if (!res.ok) throw new Error(`Tournament search failed: ${res.status}`);
   const data = await res.json() as Array<{ id: number; slug: string; title: { rendered: string } }>;
   return data.map((t) => ({
@@ -354,7 +350,7 @@ export async function searchTournamentDecklists(
   const slugWords = eventSlug.replace(/-/g, " ");
   const q = playerName ? `${playerName} ${slugWords}` : slugWords;
   const url = `${WP_API}/decklist?search=${encodeURIComponent(q)}&per_page=100`;
-  const res = await fetch(url, { headers: JSON_HEADERS });
+  const res = await httpFetch(url, { preset: "fabtcgJson" });
   if (!res.ok) return [];
   const data = await res.json() as Array<{
     slug: string;
@@ -380,7 +376,7 @@ export async function searchTournamentDecklists(
 // ─── coverage index ──────────────────────────────────────────────────────────
 
 export async function fetchCoverageIndex(slug: string): Promise<CoverageIndex> {
-  const res = await fetch(`${COVERAGE_BASE}/${slug}/`, { headers: BROWSER_HEADERS });
+  const res = await httpFetch(`${COVERAGE_BASE}/${slug}/`, { preset: "fabtcg" });
   if (!res.ok) throw new Error(`Coverage page not found for "${slug}" (${res.status})`);
   const html = await res.text();
 
@@ -417,7 +413,7 @@ export async function fetchStandings(
     ? `${COVERAGE_BASE}/${slug}/final-standings/`
     : `${COVERAGE_BASE}/${slug}/standings/${round}/`;
 
-  const res = await fetch(path, { headers: BROWSER_HEADERS });
+  const res = await httpFetch(path, { preset: "fabtcg" });
   if (!res.ok) throw new Error(`Standings fetch failed: ${res.status} (${path})`);
   const html = await res.text();
 
@@ -485,7 +481,7 @@ function extractPlayerCell(cell: string): { name: string; hero: string | null } 
 /** Fetch pairings for a single results round from the coverage pages. */
 export async function fetchRoundPairings(slug: string, round: number): Promise<RoundPairing[]> {
   const url = `${COVERAGE_BASE}/${slug}/results/${round}/`;
-  const res = await fetch(url, { headers: BROWSER_HEADERS });
+  const res = await httpFetch(url, { preset: "fabtcg" });
   if (!res.ok) return [];
   const html = await res.text();
 
@@ -551,7 +547,7 @@ export async function searchPlayerInEvent(
 /** Parse the coverage index page for "Round N - Format" schedule entries. */
 export async function fetchFormatSchedule(slug: string): Promise<Map<number, string>> {
   const schedule = new Map<number, string>();
-  const res = await fetch(`${COVERAGE_BASE}/${slug}/`, { headers: BROWSER_HEADERS });
+  const res = await httpFetch(`${COVERAGE_BASE}/${slug}/`, { preset: "fabtcg" });
   if (!res.ok) return schedule;
   const html = await res.text();
 
@@ -668,7 +664,7 @@ export async function fetchPlayerPath(
 export async function fetchDecklistCards(decklistSlug: string): Promise<PlayerDecklist | null> {
   // Get metadata from WP API
   const apiUrl = `${WP_API}/decklist?slug=${encodeURIComponent(decklistSlug)}`;
-  const apiRes = await fetch(apiUrl, { headers: JSON_HEADERS });
+  const apiRes = await httpFetch(apiUrl, { preset: "fabtcgJson" });
   let meta: DecklistMeta | null = null;
   if (apiRes.ok) {
     const data = await apiRes.json() as Array<{
@@ -690,7 +686,7 @@ export async function fetchDecklistCards(decklistSlug: string): Promise<PlayerDe
 
   // Fetch HTML for card data
   const htmlUrl = meta?.url ?? `https://fabtcg.com/decklists/${decklistSlug}/`;
-  const htmlRes = await fetch(htmlUrl, { headers: BROWSER_HEADERS });
+  const htmlRes = await httpFetch(htmlUrl, { preset: "fabtcg" });
   if (!htmlRes.ok) return null;
   const html = await htmlRes.text();
 
