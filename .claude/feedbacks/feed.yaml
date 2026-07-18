@@ -2059,3 +2059,59 @@ items:
     action: ignore
     ref: positive signal reinforcing an already-established practice, no new routing
       action needed
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T23:50:00Z'
+iteration:
+  task: '12'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: low
+  summary: A code-quality reviewer independently hit the real live third-party API
+    to settle a query-encoding question rather than reasoning about it from documentation/RFC
+    alone
+  detail: The dev agent's own report flagged an unverified assumption (whether an
+    API accepts one URL-encoding style for spaces vs. another). The reviewer resolved
+    it by sending both variants to the real live endpoint and comparing actual responses
+    — settled with certainty in one cheap request rather than left as a caveat.
+  evidence: []
+  generalized: When a review surfaces a genuinely-answerable-by-testing question about
+    a third-party API's real behavior (encoding acceptance, header requirements, response
+    shape for an edge case), a single live probe against the real endpoint is cheap
+    and decisive — prefer it over reasoning from documentation, RFCs, or the dev's
+    own untested assumption, especially when the answer is a binary yes/no that a
+    live request settles immediately.
+  routing:
+    action: brain-note
+    ref: reviewer/verify-encoding-ambiguity-against-real-endpoint
+- category: worked-well
+  area: other
+  severity: low
+  summary: Five sequential tasks in one epic (FAB-020 through FAB-024) each built
+    cleanly on the prior task's committed contracts with zero contract-change friction,
+    because each task's design doc explicitly reserved forward-looking extension points
+    (a document-type union variant, a generic index shape) for the specific future
+    task that would need them
+  detail: FAB-020's design doc explicitly reserved a 'reprise' variant in the RulesDocument
+    union for FAB-024, four tasks in advance, and documented why (so FAB-024 wouldn't
+    need a contract change). When FAB-024 actually landed, it required zero changes
+    to FAB-021/022's search/ask code — proven with an integration test, not just asserted.
+  evidence: []
+  generalized: When an epic's tasks are sequenced with known future extension points
+    (e.g. a closed union type that a later task will add a variant to), documenting
+    the reservation explicitly in the FIRST task's design doc — including which future
+    task will use it and why — lets every intermediate task avoid over-engineering
+    for it while still landing friction-free when the reserving task finally arrives.
+    Verify forward-compatibility claims like 'X will need zero changes' with an actual
+    test proving it, not just an assertion in the PR description.
+  routing:
+    action: ignore
+    ref: positive signal already reflected in existing brain notes (foundation-pr-forward-compat),
+      no new routing action needed
