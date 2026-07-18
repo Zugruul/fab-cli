@@ -967,3 +967,102 @@ items:
   routing:
     action: brain-note
     ref: reviewer/live-verification-over-fixtures
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T00:00:00Z'
+iteration:
+  task: '72'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: board
+  severity: high
+  summary: A queued rate-limited board item-add replayed later and reset an already-progressed
+    item's Status/Priority fields back to creation-time defaults
+  detail: 'Filing a new bug via the board''s add command hit a rate limit and queued
+    the project-item-add step. The underlying GitHub issue was created fine, so work
+    continued on it through several more board-status moves (In progress -> In review
+    -> QA -> Ready -> Deployed). A later, unrelated board audit call triggered the
+    queue to flush, and the original queued item-add replayed with its creation-time
+    default field values, silently resetting Status back to the very first stage and
+    Priority to its default, erasing every intermediate transition that had been recorded
+    in between.
+
+    '
+  generalized: 'When a board mutation queues due to rate-limiting (e.g. a new issue''s
+    project-item-add step gets deferred) and the orchestrator continues advancing
+    that SAME item''s status through several more stages before the queue flushes,
+    the eventual flush of the original queued item-add can silently overwrite the
+    item''s current Status/Priority fields back to add-time defaults, undoing all
+    intermediate progress. Board-reading commands that trigger an implicit queue flush
+    give no warning that the flush is about to clobber a field a later call already
+    changed — after any flush, re-verify the field state of every item that was actively
+    being advanced this session rather than assuming the flush was a no-op.
+
+    '
+  evidence:
+  - fab-cli#72
+  routing:
+    action: upstream
+    ref: 'spec-workflow board.sh queue-replay: flushing a queued item-add after the
+      item was already advanced past its creation-time defaults silently resets Status/Priority'
+- category: friction
+  area: board
+  severity: medium
+  summary: The task picker chose top-priority candidates that were already closed
+    GitHub issues with an explicit owner directive removing them from scope, because
+    picking reads only the board Status field, not issue open/closed state
+  detail: 'Three top-priority unblocked candidates were surfaced by the picker; all
+    three turned out to be CLOSED issues carrying an owner comment explicitly deferring/removing
+    them from the backlog. The board''s own audit command, which reconciles PR/branch/board
+    drift, did not flag this closed-issue-but-open-board-status mismatch as a discrepancy
+    class.
+
+    '
+  generalized: 'A project-board-driven task picker that reads only a Status custom
+    field can surface candidates whose underlying issue is already CLOSED — if an
+    issue is closed directly (bulk cleanup, an out-of-band close) without moving its
+    board Status field through the normal flow, the picker has no way to know and
+    will confidently recommend it. A board-state audit that checks PR/branch/board
+    drift is not guaranteed to also catch this closed-issue/open-status drift class;
+    treat a picked candidate whose issue turns out closed as a signal to skip it and
+    keep searching, not as a picker malfunction to work around ad hoc.
+
+    '
+  evidence:
+  - fab-cli#19
+  - fab-cli#20
+  - fab-cli#21
+  routing:
+    action: upstream
+    ref: spec-workflow next.py picker reads only board Status field, not GitHub issue
+      open/closed state, so closed-but-Backlog-status issues get PICKed
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: Reproducing the quality gate on a clean checkout of main before trusting
+    an "empty eligible backlog" reading surfaced a real upstream blocker that a naive
+    top-candidate pick would have missed
+  detail: 'Every top-priority backlog candidate turned out ineligible (closed, owner-deferred,
+    or blocked by epic sequencing). Rather than reporting an empty backlog, the gate
+    was reproduced on a clean checkout of main first, revealing it was already red
+    there — a stale test mock broken by an unrelated prior change, unrelated to any
+    pending diff. Fixing that gate-red-on-main became the iteration''s actual task.
+
+    '
+  generalized: 'When every top-priority backlog candidate turns out ineligible, don''t
+    just report an empty backlog — reproduce the quality gate on a clean checkout
+    of the main branch first. A red gate on main itself is de-facto the highest-priority
+    unfiled work: it silently blocks every future task''s own gate check, and finding
+    it this way is far cheaper than discovering it mid-review on some unrelated PR.
+
+    '
+  evidence: []
+  routing:
+    action: brain-note
+    ref: orchestrator/gate-red-not-diff-broken
