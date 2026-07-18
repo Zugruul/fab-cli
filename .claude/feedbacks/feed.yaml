@@ -1935,3 +1935,60 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/brief-agents-worktree-isolation
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T22:40:00Z'
+iteration:
+  task: TAL-013
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: low
+  summary: A test that asserts on note body text (specific citations, function names)
+    rather than file existence forced a knowledge-seeding task to produce genuinely
+    self-sufficient content instead of thin stubs, and both review passes independently
+    praised the pattern as a template for future similar tasks.
+  detail: TAL-013's spot-check test read the target note's own prose and asserted
+    specific file/function names appeared in it, rather than just checking the note
+    file existed. Both the spec-compliance and code-quality reviewers called this
+    out unprompted as notably strong and recommended it as a template. The task's
+    real acceptance bar (a spot-check question answerable from the notes' own citations)
+    was met with clear margin rather than barely.
+  generalized: For any content-generation task where the deliverable is prose/knowledge
+    rather than executable logic (documentation, brain notes, curated references),
+    write the accompanying automated test to assert on the DELIVERABLE'S OWN TEXT
+    CONTENT (specific facts, names, citations that must appear) rather than structural
+    existence checks alone. This is the doc-task equivalent of 'assert values not
+    shape' for behavioral tests, and it reliably produces genuinely self-sufficient
+    content instead of stubs that satisfy a shape check.
+  routing:
+    action: brain-note
+    ref: reviewer/verify-self-sufficiency-by-tracing-worked-example
+- category: recommendation
+  area: review
+  severity: low
+  summary: Verifying 'does this add anything beyond an already-merged source document'
+    is fast and reliable via a targeted grep-then-read per claim, rather than a full
+    side-by-side prose diff.
+  detail: The spec-compliance reviewer verified §7.6's 'direct code study beyond the
+    existing docs' requirement by grepping the already-merged architecture doc for
+    the same file/function names the new note cited, then checking whether the old
+    doc only NAMED the thing versus the new note SHOWING its actual shape (verified
+    line-by-line against live source). This is roughly one grep + one Read per claim,
+    and reliably distinguishes real depth from padding without needing to read both
+    documents end-to-end side by side.
+  generalized: When reviewing whether a new artifact adds real value beyond an existing
+    source it's derived from, check specific claims individually (grep the old source
+    for the same term, compare depth) rather than attempting a holistic prose comparison
+    of the two documents. This scales better to long documents and catches 'restates
+    the same fact via different sentences' more reliably than a general similarity
+    read.
+  routing:
+    action: brain-note
+    ref: reviewer/verify-self-sufficiency-by-tracing-worked-example
