@@ -70,7 +70,7 @@ function docDir(kbDir: string, document: RulesDocument): string {
   return path.join(kbDir, document.toLowerCase());
 }
 
-function slugSection(section: string): string {
+export function slugSection(section: string): string {
   return (
     section
       .toLowerCase()
@@ -384,11 +384,23 @@ function stripHtml(html: string): string {
     .trim();
 }
 
-async function syncLegality(
-  kbDir: string,
-  fetchedAt: string,
-  url: string,
+export interface RefreshLegalityOptions {
+  /** Override the kb/rules/ output directory (for tests). */
+  kbDir?: string;
+  /** Override the live legality policy URL (for tests). */
+  legalityUrl?: string;
+}
+
+/** Fetch the live Card Legality Policy page and write it as the single
+ *  `legality/current.md` chunk — never TTL'd/cached, per §10 I2. This is the
+ *  one code path both `syncRules()` and the query-time legality-live check
+ *  in `searchRules()`/`showRulesChunk()` use, so the two never drift. */
+export async function refreshLegality(
+  opts: RefreshLegalityOptions = {},
 ): Promise<RulesSyncResult> {
+  const kbDir = opts.kbDir ?? KB_RULES_DIR;
+  const url = opts.legalityUrl ?? LEGALITY_URL;
+  const fetchedAt = new Date().toISOString();
   try {
     const res = await httpFetch(url, { preset: "fabtcg" });
     if (!res.ok) {
@@ -449,8 +461,231 @@ export async function syncRules(
     results.push(syncTxtDoc(kbDir, rulesDir, document, file, fetchedAt));
   }
   results.push(await syncCpg(kbDir, fetchedAt, cpgPdfPath));
-  results.push(await syncLegality(kbDir, fetchedAt, legalityUrl));
+  results.push(await refreshLegality({ kbDir, legalityUrl }));
 
   rebuildIndex(kbDir);
   return results;
+}
+
+// ── search / show (FAB-021) ─────────────────────────────────────────────────
+
+// How long to trust the last KB build before auto-refreshing (env override),
+// mirroring src/lore.ts's FAB_LORE_TTL_MS pattern.
+export const RULES_TTL_MS =
+  Number(process.env.FAB_RULES_TTL_MS) || 7 * 24 * 60 * 60 * 1000;
+
+export function loadRulesIndex(
+  kbDir: string = KB_RULES_DIR,
+): RulesIndex | null {
+  try {
+    return JSON.parse(
+      fs.readFileSync(path.join(kbDir, "index.json"), "utf8"),
+    ) as RulesIndex;
+  } catch {
+    return null;
+  }
+}
+
+/** True when kb/rules/index.json is missing (infinitely stale, first-run
+ *  bootstrap) or older than the TTL. */
+export function isIndexStale(
+  kbDir: string = KB_RULES_DIR,
+  ttlMs: number = RULES_TTL_MS,
+): boolean {
+  const index = loadRulesIndex(kbDir);
+  if (!index) return true;
+  return Date.now() - new Date(index.builtAt).getTime() > ttlMs;
+}
+
+const STOP = new Set(
+  "the a an and or of to in is are was were be on for with at by from as into".split(
+    " ",
+  ),
+);
+
+function tokenize(s: string): string[] {
+  return (s.toLowerCase().match(/[a-z0-9']+/g) || []).filter(
+    (t) => t.length > 1 && !STOP.has(t),
+  );
+}
+
+function countOccurrences(haystack: string, term: string): number {
+  let n = 0,
+    i = 0;
+  while ((i = haystack.indexOf(term, i)) !== -1) {
+    n++;
+    i += term.length;
+  }
+  return n;
+}
+
+/** Simple term-overlap ranking over `title`+`text`, matching src/lore.ts's
+ *  existing search approach. Tie-broken by document then section. */
+export function rankRulesChunks(
+  chunks: RulesChunk[],
+  query: string,
+  limit = 8,
+): RulesChunk[] {
+  const terms = [...new Set(tokenize(query))];
+  if (!terms.length) return [];
+  const scored: { chunk: RulesChunk; score: number }[] = [];
+  for (const chunk of chunks) {
+    const title = chunk.title.toLowerCase();
+    const text = chunk.text.toLowerCase();
+    let score = 0;
+    let matched = 0;
+    for (const t of terms) {
+      const inTitle = countOccurrences(title, t);
+      const inText = countOccurrences(text, t);
+      if (inTitle + inText > 0) matched++;
+      score += inTitle * 8 + inText;
+    }
+    if (!matched) continue;
+    score += matched === terms.length ? 5 : 0; // bonus when all terms present
+    scored.push({ chunk, score });
+  }
+  scored.sort(
+    (a, b) =>
+      b.score - a.score ||
+      a.chunk.document.localeCompare(b.chunk.document) ||
+      a.chunk.section.localeCompare(b.chunk.section),
+  );
+  return scored.slice(0, limit).map((s) => s.chunk);
+}
+
+/** Resolve a `showRulesChunk` ref: `<document>/<section>` (case-insensitive
+ *  document) first, falling back to a bare slug matching `slugSection(section)`
+ *  (for chunks — e.g. CPG — where `section` is already the slug). */
+export function matchRulesChunks(
+  chunks: RulesChunk[],
+  ref: string,
+): RulesChunk[] {
+  const slash = ref.indexOf("/");
+  if (slash > 0) {
+    const document = ref.slice(0, slash).toUpperCase();
+    const section = ref.slice(slash + 1).toLowerCase();
+    const exact = chunks.filter(
+      (c) =>
+        c.document.toUpperCase() === document &&
+        c.section.toLowerCase() === section,
+    );
+    if (exact.length) return exact;
+  }
+  const slug = slugSection(ref);
+  return chunks.filter((c) => slugSection(c.section) === slug);
+}
+
+export interface SearchRulesOptions extends SyncRulesOptions {
+  /** Max results (default 8). */
+  limit?: number;
+  /** Override the TTL for staleness checks (for tests). */
+  ttlMs?: number;
+}
+
+/** Re-fetch legality live (only if the given results touch it) exactly once
+ *  per call, unless a TTL-triggered full sync already refreshed it in this
+ *  same invocation — never memoized across separate calls (§10 I2, §7.4). */
+async function ensureLegalityFresh(
+  kbDir: string,
+  legalityUrl: string | undefined,
+  alreadyRefreshed: boolean,
+  touchesLegality: boolean,
+): Promise<RulesIndex | null> {
+  if (alreadyRefreshed || !touchesLegality) return null;
+  await refreshLegality({ kbDir, legalityUrl });
+  return rebuildIndex(kbDir);
+}
+
+/** Ranked search over kb/rules/index.json. Auto-refreshes the whole KB when
+ *  stale (§7.3); independently re-fetches the legality page live whenever
+ *  results include a legality chunk (§7.4, I2), even when the TTL path above
+ *  didn't fire. Offline (no network) when the KB is fresh and results don't
+ *  touch legality. */
+export async function searchRules(
+  query: string,
+  opts: SearchRulesOptions = {},
+): Promise<RulesChunk[]> {
+  const kbDir = opts.kbDir ?? KB_RULES_DIR;
+  let legalityRefreshedThisCall = false;
+  if (isIndexStale(kbDir, opts.ttlMs)) {
+    await syncRules({
+      kbDir,
+      rulesDir: opts.rulesDir,
+      cpgPdfPath: opts.cpgPdfPath,
+      legalityUrl: opts.legalityUrl,
+    });
+    legalityRefreshedThisCall = true;
+  }
+  const index = loadRulesIndex(kbDir);
+  if (!index) return [];
+  let results = rankRulesChunks(index.chunks, query, opts.limit ?? 8);
+
+  const refreshed = await ensureLegalityFresh(
+    kbDir,
+    opts.legalityUrl,
+    legalityRefreshedThisCall,
+    results.some((c) => c.document === "legality"),
+  );
+  if (refreshed) {
+    results = results.map((c) =>
+      c.document === "legality"
+        ? (refreshed.chunks.find(
+            (rc) => rc.document === "legality" && rc.section === c.section,
+          ) ?? c)
+        : c,
+    );
+  }
+  return results;
+}
+
+export interface ResolveRulesRefResult {
+  chunk: RulesChunk | null;
+  /** All chunks matching `ref` when resolution wasn't unambiguous (0 or 2+). */
+  candidates: RulesChunk[];
+}
+
+/** Resolve a `showRulesChunk` ref against the (possibly TTL-refreshed) KB,
+ *  applying the same legality-live guarantee as `searchRules()`. Exposes
+ *  candidates so the CLI can print them on an ambiguous/no-match ref. */
+export async function resolveRulesRef(
+  ref: string,
+  opts: SearchRulesOptions = {},
+): Promise<ResolveRulesRefResult> {
+  const kbDir = opts.kbDir ?? KB_RULES_DIR;
+  let legalityRefreshedThisCall = false;
+  if (isIndexStale(kbDir, opts.ttlMs)) {
+    await syncRules({
+      kbDir,
+      rulesDir: opts.rulesDir,
+      cpgPdfPath: opts.cpgPdfPath,
+      legalityUrl: opts.legalityUrl,
+    });
+    legalityRefreshedThisCall = true;
+  }
+  const index = loadRulesIndex(kbDir);
+  if (!index) return { chunk: null, candidates: [] };
+  const matches = matchRulesChunks(index.chunks, ref);
+  if (matches.length !== 1) return { chunk: null, candidates: matches };
+
+  let chunk = matches[0];
+  const refreshed = await ensureLegalityFresh(
+    kbDir,
+    opts.legalityUrl,
+    legalityRefreshedThisCall,
+    chunk.document === "legality",
+  );
+  if (refreshed) {
+    chunk = matchRulesChunks(refreshed.chunks, ref)[0] ?? chunk;
+  }
+  return { chunk, candidates: [chunk] };
+}
+
+/** Resolve a single rules chunk by ref (`<document>/<section>` or a section
+ *  slug). Returns `null` on no match or an ambiguous ref — use
+ *  `resolveRulesRef` when the caller needs the candidate list to disambiguate. */
+export async function showRulesChunk(
+  ref: string,
+  opts: SearchRulesOptions = {},
+): Promise<RulesChunk | null> {
+  return (await resolveRulesRef(ref, opts)).chunk;
 }
