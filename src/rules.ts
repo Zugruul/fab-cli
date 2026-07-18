@@ -107,12 +107,12 @@ function replaceChunks(
 function renderChunkFile(chunk: RulesChunk): string {
   const fm =
     `---\n` +
-    `document: ${chunk.document}\n` +
+    `document: ${JSON.stringify(chunk.document)}\n` +
     `section: ${JSON.stringify(chunk.section)}\n` +
     `title: ${JSON.stringify(chunk.title)}\n` +
-    `source_url: ${chunk.sourceUrl}\n` +
+    `source_url: ${JSON.stringify(chunk.sourceUrl)}\n` +
     `version: ${JSON.stringify(chunk.version)}\n` +
-    `fetched_at: ${chunk.fetchedAt}\n` +
+    `fetched_at: ${JSON.stringify(chunk.fetchedAt)}\n` +
     `---\n\n`;
   return fm + chunk.text.trim() + "\n";
 }
@@ -176,7 +176,11 @@ export interface ChunkSeed {
   text: string;
 }
 
-const SECTION_HEADING_RE = /^(\d+(?:\.\d+)*)\s+(.+)$/;
+// Title must not start with a lowercase letter — rejects numeric table-row
+// lines like "35 minutes" (real in en-fab-trp.txt's time-limit table) while
+// still matching real headings whose title starts with punctuation, e.g.
+// CR's "8.2.1 (1H)".
+const SECTION_HEADING_RE = /^(\d+(?:\.\d+)*)\s+([^a-z\s].*)$/;
 
 /** Chunk a CR/TRP/PPG txt document by its own numbered-section heading lines
  *  (e.g. "1.1 Players"); non-heading lines (including lettered sub-rules like
@@ -429,7 +433,13 @@ export async function syncRules(
   const legalityUrl = opts.legalityUrl ?? LEGALITY_URL;
   const fetchedAt = new Date().toISOString();
 
-  await updateRulesDocs();
+  try {
+    await updateRulesDocs();
+  } catch (e) {
+    console.error(
+      `rules: updateRulesDocs() failed, continuing with existing vendored txt files: ${(e as Error).message}`,
+    );
+  }
 
   const results: RulesSyncResult[] = [];
   for (const { document, file } of TXT_DOCS) {

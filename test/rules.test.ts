@@ -204,11 +204,11 @@ describe("syncRules — full KB sync orchestration", () => {
 
     const crFile = fs.readFileSync(path.join(kbDir, "cr", "1-1.md"), "utf8");
     expect(crFile).toMatch(/^---\n/);
-    expect(crFile).toContain("document: CR");
+    expect(crFile).toContain('document: "CR"');
     expect(crFile).toContain('section: "1.1"');
     expect(crFile).toContain('title: "Players"');
     expect(crFile).toContain(
-      `source_url: https://rules.fabtcg.com/txt/latest/en-fab-cr.txt`,
+      `source_url: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt"`,
     );
     expect(crFile).toContain("A player is a person.");
 
@@ -216,7 +216,7 @@ describe("syncRules — full KB sync orchestration", () => {
       path.join(kbDir, "legality", "current.md"),
       "utf8",
     );
-    expect(legalityFile).toContain("document: legality");
+    expect(legalityFile).toContain('document: "legality"');
     expect(legalityFile).toContain('version: "live"');
     expect(legalityFile).toContain("Enigma Chalice");
     expect(legalityFile).toContain("Living Legend Rotation");
