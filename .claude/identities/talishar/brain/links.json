@@ -1,1 +1,287 @@
-{}
+{
+  "tal-arch-api-surface->tal-arch-fe-state-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-api-surface->tal-arch-request-pipeline": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-card-image-pipeline->tal-arch-card-object-model": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-card-image-pipeline->tal-dev-gotchas": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-card-object-model->tal-arch-decision-queue-await": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-card-object-model->tal-arch-layer-stack-combatchain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-card-object-model->tal-recipe-base-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-card-object-model->tal-recipe-combat-modifiers": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-classstate->tal-arch-gamefile-lifecycle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-classstate->tal-recipe-base-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-classstate->tal-recipe-classstate-counter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-contribution-conventions->tal-arch-dev-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-contribution-conventions->tal-dev-bootstrap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-contribution-conventions->tal-dev-fork-sync": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-decision-queue-await->tal-arch-layer-stack-combatchain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-decision-queue-await->tal-recipe-base-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-decision-queue-await->tal-recipe-modal-choose1": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-dev-stack->tal-arch-gamefile-lifecycle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-dev-stack->tal-dev-bootstrap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-dev-stack->tal-dev-gotchas": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-fe-state-flow->tal-arch-api-surface": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-fe-state-flow->tal-arch-request-pipeline": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-gamefile-lifecycle->tal-arch-classstate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-gamefile-lifecycle->tal-arch-request-pipeline": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-gamefile-lifecycle->tal-recipe-classstate-counter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-layer-stack-combatchain->tal-arch-gamefile-lifecycle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-layer-stack-combatchain->tal-recipe-combat-modifiers": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-request-pipeline->tal-arch-api-surface": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-request-pipeline->tal-arch-decision-queue-await": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-request-pipeline->tal-arch-fe-state-flow": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-request-pipeline->tal-arch-gamefile-lifecycle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-bootstrap->tal-arch-contribution-conventions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-bootstrap->tal-dev-fork-sync": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-fork-sync->tal-arch-contribution-conventions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-fork-sync->tal-dev-bootstrap": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-gotchas->tal-arch-card-image-pipeline": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-gotchas->tal-arch-contribution-conventions": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-dev-gotchas->tal-arch-dev-stack": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-base-card->tal-arch-decision-queue-await": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-base-card->tal-arch-layer-stack-combatchain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-base-card->tal-recipe-classstate-counter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-base-card->tal-recipe-currentturneffect-suffix": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-base-card->tal-recipe-modal-choose1": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-classstate-counter->tal-arch-classstate": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-classstate-counter->tal-recipe-base-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-classstate-counter->tal-recipe-combat-modifiers": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-combat-modifiers->tal-arch-layer-stack-combatchain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-combat-modifiers->tal-recipe-base-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-combat-modifiers->tal-recipe-currentturneffect-suffix": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-currentturneffect-suffix->tal-arch-layer-stack-combatchain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-currentturneffect-suffix->tal-recipe-combat-modifiers": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-currentturneffect-suffix->tal-recipe-modal-choose1": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-modal-choose1->tal-arch-layer-stack-combatchain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-modal-choose1->tal-recipe-base-card": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-modal-choose1->tal-recipe-classstate-counter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-modal-choose1->tal-recipe-currentturneffect-suffix": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-windup-archetype->tal-recipe-modal-choose1": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}
