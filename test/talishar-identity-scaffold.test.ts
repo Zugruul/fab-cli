@@ -47,9 +47,7 @@ describe("project.yaml talishar delegation identity", () => {
   const yaml = readFileSync(PROJECT_YAML, "utf-8");
   // Isolate the `talishar:` block under `delegation: identities:` — bounded
   // by the next same-or-lesser-indented `identities:` child key or EOF.
-  const talisharBlockMatch = yaml.match(
-    /^ {8}talishar:\n((?: {12}.*\n|\n)+)/m,
-  );
+  const talisharBlockMatch = yaml.match(/^ {8}talishar:\n((?: {12}.*\n|\n)+)/m);
 
   it("has a talishar entry under delegation.identities", () => {
     expect(talisharBlockMatch).not.toBeNull();
