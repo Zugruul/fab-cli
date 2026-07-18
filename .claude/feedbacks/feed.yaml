@@ -1150,3 +1150,66 @@ items:
   routing:
     action: ignore
     ref: positive signal, no routing action needed
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T06:35:00Z'
+iteration:
+  task: TAL-001
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: concurrency
+  severity: high
+  summary: Shared checkout contention between concurrent loop sessions misplaced an
+    orchestrator commit and caused a reviewer near-miss
+  generalized: When multiple build-loop sessions share one repo checkout, any git
+    action assuming the current branch (orchestrator retro commits, gate runs, reviewer
+    file reads) can land on or read a branch another session just switched to. Worktree
+    isolation should be the standing default for agents AND orchestrator-side commits,
+    ideally as a built-in helper or brief-template rule rather than an ad-hoc correction
+    after a near-miss.
+  detail: Retro commit landed on a concurrent session's feature branch (recovered
+    via cherry-pick in a worktree; permission classifier correctly blocked rewinding
+    the other session's branch). Earlier the reviewer briefly contaminated the shared
+    tree before self-reverting, and the dev fix round had to be re-briefed into a
+    worktree mid-flight.
+  evidence:
+  - fab-cli#76
+  routing:
+    action: brain-note
+    ref: ''
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Two-round adversarial review with test-double fidelity checking caught
+    a crash bug the green suite masked
+  generalized: Reviewer agents that read test doubles line-by-line for fidelity to
+    the real tool's failure modes (not just assertion coverage) catch bug classes
+    invisible to a green suite; requiring the dev to extend the double to reproduce
+    the finding red-first makes the fix verifiable rather than narrated.
+  detail: Round 1 found a set-url-on-missing-remote crash because the fake git was
+    more permissive than real git; round 2 verified genuine red by running the pre-fix
+    commit in isolation.
+  evidence:
+  - fab-cli#76
+  routing:
+    action: brain-note
+    ref: ''
+- category: friction
+  area: board
+  severity: low
+  summary: Board comment wrapper rejected a body the underlying gh CLI accepted verbatim
+  generalized: The board comment wrapper can fail with 'Body cannot be blank' on punctuation-rich
+    bodies that the gh CLI accepts directly; passing bodies via stdin or a file in
+    the wrapper would remove the need for the fallback.
+  detail: 'Workaround: gh issue comment --body succeeded with the identical text.'
+  evidence:
+  - fab-cli#76
+  routing:
+    action: upstream
+    ref: ''
