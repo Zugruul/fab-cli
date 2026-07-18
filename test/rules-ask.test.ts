@@ -190,6 +190,98 @@ describe("askRules — composition over searchRules (FAB-022)", () => {
     expect(result.passages.length).toBeGreaterThan(0);
     expect(result.confident).toBe(false);
   });
+
+});
+
+describe("askRules — confidence must track passages[0] across a mid-call legality content change", () => {
+  let mock: MockAgentHandle;
+  let tmpRoot: string;
+  let kbDir: string;
+  let rulesDir: string;
+  let cpgPdfPath: string;
+
+  const FIXTURES = path.join(__dirname, "fixtures", "rules");
+  const QUERY = "eligible format legend";
+
+  beforeEach(async () => {
+    mock = installHttpMock();
+    tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "fab-cli-rules-ask-flip-"));
+    kbDir = path.join(tmpRoot, "kb", "rules");
+    rulesDir = path.join(tmpRoot, "fab-rules-src");
+    cpgPdfPath = path.join(FIXTURES, "cpg-fixture.pdf");
+    fs.mkdirSync(rulesDir, { recursive: true });
+    // TRP is the initial top match for QUERY (matches only "format", weak
+    // 1/3 ratio) — deliberately not confident-worthy on its own.
+    fs.writeFileSync(
+      path.join(rulesDir, "en-fab-trp.txt"),
+      "1 Tournament Rules\nAll decks must meet the format requirements. Format legality follows tournament format guidelines.\n",
+    );
+    fs.writeFileSync(
+      path.join(rulesDir, "en-fab-cr.txt"),
+      "1 Preface\nComprehensive Rules preface text.\n1.1 Players\nA player is a person.\n",
+    );
+    fs.writeFileSync(
+      path.join(rulesDir, "en-fab-ppg.txt"),
+      "1 General\nThis guide covers infractions.\n",
+    );
+    fs.writeFileSync(
+      path.join(rulesDir, "VERSIONS.txt"),
+      "en-fab-cr.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 4\n" +
+        "en-fab-trp.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 2\n" +
+        "en-fab-ppg.txt  last-modified: Wed, 10 Jun 2026 19:43:38 GMT  lines: 2\n",
+    );
+    // Initial legality fetch (consumed by syncRules() below): barely
+    // touches the query terms (weak 1/3 ratio, lower score than TRP).
+    const { mockPool } = await import("./helpers/http-mock");
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/rules-and-policy-center/card-legality-policy/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        "<main><article><h1>Card Legality Policy</h1><p>This page lists " +
+          "banned and restricted cards. Every deck must be legal for its " +
+          "format.</p></article></main>",
+      );
+    await syncRules({ kbDir, rulesDir, cpgPdfPath });
+  });
+
+  afterEach(async () => {
+    await restoreHttpMock(mock);
+    fs.rmSync(tmpRoot, { recursive: true, force: true });
+  });
+
+  it("a realistic legality content change mid-call promotes legality to passages[0], and confident must agree with it — not a stale/independently-reread top", async () => {
+    // The query itself matches the legality chunk (weakly), so
+    // `searchRules()` triggers a live legality refetch mid-call (§7.4, I2).
+    // This second response is a realistic rewording/expansion — not
+    // adversarial keyword-stuffing — that legitimately raises legality's
+    // score above TRP's (the pre-refresh top): now a full 3/3 term match
+    // vs. TRP's weak 1/3.
+    const { mockPool } = await import("./helpers/http-mock");
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({
+        path: "/rules-and-policy-center/card-legality-policy/",
+        method: "GET",
+      })
+      .reply(
+        200,
+        "<main><article><h1>Card Legality Policy</h1><p>Eligible decks " +
+          "must meet the format requirements. Format eligibility also " +
+          "depends on the Living Legend rotation; legend status changes " +
+          "rotation eligibility every season.</p></article></main>",
+      );
+
+    const result = await askRules(QUERY, { kbDir, ttlMs: 999_999_999 });
+
+    // The legality chunk now genuinely outranks everything else — it must
+    // be what's actually shown first, and `confident` must be judged from
+    // that same top passage (full 3/3 match => confident), never from an
+    // independent re-rank that disagrees with what passages[0] shows.
+    expect(result.passages[0]?.document).toBe("legality");
+    expect(result.confident).toBe(true);
+  });
 });
 
 describe("rules ask CLI — escalation footer always present, highlighted on low confidence", () => {
