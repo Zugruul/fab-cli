@@ -37,7 +37,7 @@ interface RulesIndex {
 
 - `syncRules(): Promise<{ document: string; chunks: number; status: "ok" | "failed"; detail?: string }[]>` — one result row per source (CR, TRP, PPG, CPG, legality), independent failure isolation: a failed legality fetch (network down) must not block CR/TRP/PPG/CPG chunks from being written, and vice versa (mirrors `updateRulesDocs()`'s per-doc isolation).
 - Every chunk file is markdown with YAML frontmatter (`document`, `section`, `title`, `source_url`, `version`, `fetched_at`) followed by the chunk text — same shape as `lore/**.md`, so a future `rules search`/`show` (FAB-021) can reuse the lore-reader pattern.
-- `kb/rules/` (chunk files + `index.json`) is git-ignored, exactly like `lore/` — rebuildable via `rules sync`, never committed.
+- `kb/rules/` (chunk files + `index.json`) is entirely git-ignored — rebuildable via `rules sync`, never committed. Note this is a stricter ignore than `lore/`'s: `lore/` commits its OKF `.md` files and only ignores the derived `index.json`/`.sync-state.json`; here nothing under `kb/rules/` is committed, since the rules chunks are themselves fully rebuildable from vendored/live sources with no manual curation layer to preserve.
 - Legality re-fetch-always is enforced structurally: `syncRules()` has no TTL/staleness check on the legality source — it fetches unconditionally on every call. This is the mechanism §10 I2 requires; FAB-021 must not add caching on top for legality queries.
 
 ## Key sequences
