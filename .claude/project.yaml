@@ -152,6 +152,57 @@ specs:
     - Ratio cells are computed only from prices converted to one common currency with a dated ECB rate recorded in the output; never divide raw USD by raw EUR.
     - Never scrape Cloudflare-protected Cardmarket pages or spoof authenticated browser sessions; only public keyless endpoints.
     - Unmatched or unpriced rows are reported (unmatched.csv / summary), never silently dropped.
+-   id: talishar
+    title: Talishar development aid
+    board: main
+    specPath: SPEC-TALISHAR.md
+    backlogPath: docs/BACKLOG-TALISHAR.md
+    taskPrefix: TAL
+    epics:
+    -   id: E0
+        title: Vendoring & fork plumbing
+        taskRanges:
+        -   - 1
+            - 9
+        blockedBy: []
+    -   id: E1
+        title: Architecture doc + talishar brain
+        taskRanges:
+        -   - 10
+            - 19
+        blockedBy:
+        -   epic: E0
+            untilStatus: Deployed
+    -   id: E2
+        title: Card implementation pipeline
+        taskRanges:
+        -   - 20
+            - 29
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: E3
+        title: Latency, bug & DX audit
+        taskRanges:
+        -   - 30
+            - 39
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: EI
+        title: Infra reserve
+        taskRanges:
+        -   - 90
+            - 99
+        blockedBy: []
+    invariants:
+    - Never open, mark ready, approve, or merge pull requests on Talishar org repositories; tooling pushes branches only to the user's forks and prepares PR title/body as text — a human creates every upstream PR.
+    - In every vendored Talishar clone, `origin` must be the user's fork and `upstream` the Talishar org repo, fetch-only; nothing is ever pushed to `upstream`, and a diverged fork main is reported, never force-pushed.
+    - third_party/talishar* clones are gitignored; their contents — especially copyrighted card images — are never committed to fab-cli. Image processing is transient and its outputs go only to branches of the Talishar-side repos.
+    - Card behavior implementations are derived from live Card Vault true text plus the-fab-cube stats and the CR at implementation time — never from remembered card text.
+    - The talishar brain links to card-vault entities for card/keyword facts and is never added to the keyword-sync MIRRORS list; engine knowledge lives in the talishar brain only.
+    - All merge-gating tests pass with the network disabled and without the vendored clones present; running the Talishar docker stack or hitting talishar.net/images.talishar.net is only ever user-invoked, never in the gate.
+    - Upstream contributions stay incremental and convention-following (feat:/fix: titles, Summary + Test plan bodies, coordination via the Talishar Discord for large changes); no engine rewrite.
 commands:
     gate: npm run gate
     gateFast: npm run test:run
