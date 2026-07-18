@@ -12,7 +12,11 @@ const program = new Command();
 program
   .name("fab-cli")
   .description("FaBrary CLI — search Flesh & Blood decks, cards, and tournament events")
-  .version("1.0.0");
+  .version("1.0.0")
+  .option(
+    "--json",
+    "Emit machine-readable JSON to stdout instead of formatted tables (no ANSI decoration). Supported on: fabrary search/top/deck, fabrary meta, fabrary cards search/show, fabtcg events/coverage.",
+  );
 
 registerFabrary(program);
 registerFabtcg(program);

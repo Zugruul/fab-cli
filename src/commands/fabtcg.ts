@@ -26,6 +26,7 @@ import {
   printPlayerDecklist,
   printPlayerPath,
 } from "../display";
+import { wantsJson, printJson, progressWrite } from "./util";
 
 export function registerFabtcg(program: Command): Command {
   const fabtcg = program
@@ -47,14 +48,18 @@ export function registerFabtcg(program: Command): Command {
     )
     .option("--year <n>", "Fetch events from a specific year (e.g. 2025)")
     .action(
-      async (opts: {
-        worldTour?: boolean;
-        upcoming?: boolean;
-        format?: string;
-        withCoverage?: boolean;
-        year?: string;
-      }) => {
-        process.stdout.write(chalk.dim("Fetching events…\r"));
+      async (
+        opts: {
+          worldTour?: boolean;
+          upcoming?: boolean;
+          format?: string;
+          withCoverage?: boolean;
+          year?: string;
+        },
+        command: Command,
+      ) => {
+        const json = wantsJson(command);
+        progressWrite(json, chalk.dim("Fetching events…\r"));
         const events = await fetchEvents({
           worldTour: opts.worldTour,
           upcoming: opts.upcoming,
@@ -62,7 +67,11 @@ export function registerFabtcg(program: Command): Command {
           withCoverage: opts.withCoverage,
           year: opts.year ? parseInt(opts.year) : undefined,
         });
-        process.stdout.write("                  \r");
+        progressWrite(json, "                  \r");
+        if (json) {
+          printJson({ events });
+          return;
+        }
         printEventsTable(events);
       },
     );
@@ -305,8 +314,10 @@ export function registerFabtcg(program: Command): Command {
           path?: string;
           searchPlayer?: string;
         },
+        command: Command,
       ) => {
-        process.stdout.write(chalk.dim("Searching tournament…\r"));
+        const json = wantsJson(command);
+        progressWrite(json, chalk.dim("Searching tournament…\r"));
 
         // Resolve slug: try exact slug first, else search via WP API
         let slug = eventName
@@ -316,7 +327,9 @@ export function registerFabtcg(program: Command): Command {
         try {
           // Try to fetch coverage index directly with the slug
           const idx = await fetchCoverageIndex(slug);
-          process.stdout.write("                          \r");
+          progressWrite(json, "                          \r");
+
+          const out: Record<string, unknown> = { index: idx };
 
           if (
             !opts.round &&
@@ -326,75 +339,98 @@ export function registerFabtcg(program: Command): Command {
             !opts.path &&
             !opts.searchPlayer
           ) {
+            if (json) {
+              printJson({ index: idx });
+              return;
+            }
             printCoverageIndex(idx);
             return;
           }
 
           if (opts.round) {
             const r = opts.round === "final" ? "final" : parseInt(opts.round);
-            process.stdout.write(
+            progressWrite(
+              json,
               chalk.dim(`Fetching standings round ${opts.round}…\r`),
             );
             const rows = await fetchStandings(slug, r);
-            process.stdout.write("                                    \r");
-            printStandings(
-              rows,
-              `${idx.title} — Round ${opts.round} Standings`,
-            );
+            progressWrite(json, "                                    \r");
+            out.standings = rows;
+            if (!json) {
+              printStandings(
+                rows,
+                `${idx.title} — Round ${opts.round} Standings`,
+              );
+            }
           }
 
           if (opts.field) {
             // Use latest available standings round for field breakdown
             const latestRound =
               idx.standingRounds[idx.standingRounds.length - 1] ?? 1;
-            process.stdout.write(
+            progressWrite(
+              json,
               chalk.dim(`Fetching field data (round ${latestRound})…\r`),
             );
             const rows = await fetchStandings(slug, latestRound);
-            process.stdout.write(
-              "                                          \r",
-            );
-            printFieldMeta(rows);
+            progressWrite(json, "                                          \r");
+            out.field = rows;
+            if (!json) printFieldMeta(rows);
           }
 
           if (opts.decklists) {
-            process.stdout.write(chalk.dim("Fetching decklists…\r"));
+            progressWrite(json, chalk.dim("Fetching decklists…\r"));
             const decklists = await searchTournamentDecklists(
               slug,
               opts.player,
             );
-            process.stdout.write("                    \r");
+            progressWrite(json, "                    \r");
+            out.decklists = decklists;
             if (opts.player && decklists.length === 1) {
-              await fetchAndPrintDecklist(
-                decklists[0].slug,
-                decklists[0].format,
-              );
-            } else {
+              if (json) {
+                const full = await fetchDecklistCards(decklists[0].slug);
+                out.decklist = full;
+              } else {
+                await fetchAndPrintDecklist(
+                  decklists[0].slug,
+                  decklists[0].format,
+                );
+              }
+            } else if (!json) {
               printDecklistMetas(decklists);
             }
           }
 
           if (opts.player && !opts.decklists) {
-            process.stdout.write(
+            progressWrite(
+              json,
               chalk.dim(`Fetching decklist for ${opts.player}…\r`),
             );
             const decklists = await searchTournamentDecklists(
               slug,
               opts.player,
             );
-            process.stdout.write("                                    \r");
+            progressWrite(json, "                                    \r");
+            out.decklists = decklists;
             if (decklists.length === 0) {
-              console.log(
-                chalk.yellow(
-                  `No decklists found for player "${opts.player}" at ${slug}`,
-                ),
-              );
+              if (!json) {
+                console.log(
+                  chalk.yellow(
+                    `No decklists found for player "${opts.player}" at ${slug}`,
+                  ),
+                );
+              }
             } else if (decklists.length === 1) {
-              await fetchAndPrintDecklist(
-                decklists[0].slug,
-                decklists[0].format,
-              );
-            } else {
+              if (json) {
+                const full = await fetchDecklistCards(decklists[0].slug);
+                out.decklist = full;
+              } else {
+                await fetchAndPrintDecklist(
+                  decklists[0].slug,
+                  decklists[0].format,
+                );
+              }
+            } else if (!json) {
               console.log(
                 chalk.dim(`Multiple decklists found for "${opts.player}":`),
               );
@@ -403,34 +439,47 @@ export function registerFabtcg(program: Command): Command {
           }
 
           if (opts.searchPlayer) {
-            process.stdout.write(
+            progressWrite(
+              json,
               chalk.dim(`Searching for "${opts.searchPlayer}"…\r`),
             );
             const matches = await searchPlayerInEvent(slug, opts.searchPlayer);
-            process.stdout.write("                                    \r");
+            progressWrite(json, "                                    \r");
+            out.searchMatches = matches;
             if (matches.length === 0) {
-              console.log(
-                chalk.yellow(
-                  `No players found matching "${opts.searchPlayer}" at ${slug}`,
-                ),
-              );
+              if (!json) {
+                console.log(
+                  chalk.yellow(
+                    `No players found matching "${opts.searchPlayer}" at ${slug}`,
+                  ),
+                );
+              }
             } else if (matches.length === 1) {
               // Single match — auto-run path
-              console.log(
-                chalk.dim(
-                  `Found: ${matches[0].name}${matches[0].hero ? ` (${matches[0].hero})` : ""} — loading path…\n`,
-                ),
-              );
-              process.stdout.write(
+              if (!json) {
+                console.log(
+                  chalk.dim(
+                    `Found: ${matches[0].name}${matches[0].hero ? ` (${matches[0].hero})` : ""} — loading path…\n`,
+                  ),
+                );
+              }
+              progressWrite(
+                json,
                 chalk.dim(`Building path for ${matches[0].name}…\r`),
               );
               const path = await fetchPlayerPath(slug, matches[0].name);
-              process.stdout.write(
+              progressWrite(
+                json,
                 "                                          \r",
               );
-              if (path) printPlayerPath(path);
-              else console.log(chalk.yellow("No pairings found."));
-            } else {
+              if (path) {
+                out.path = path;
+                if (!json) printPlayerPath(path);
+              } else {
+                out.path = null;
+                if (!json) console.log(chalk.yellow("No pairings found."));
+              }
+            } else if (!json) {
               console.log(
                 chalk.dim(
                   `\n  ${matches.length} players found matching "${opts.searchPlayer}":`,
@@ -450,31 +499,33 @@ export function registerFabtcg(program: Command): Command {
           }
 
           if (opts.path) {
-            process.stdout.write(
-              chalk.dim(`Building path for ${opts.path}…\r`),
-            );
+            progressWrite(json, chalk.dim(`Building path for ${opts.path}…\r`));
             const path = await fetchPlayerPath(slug, opts.path);
-            process.stdout.write(
-              "                                          \r",
-            );
+            progressWrite(json, "                                          \r");
             if (!path) {
-              console.log(
-                chalk.yellow(
-                  `No pairings found for player "${opts.path}" at ${slug}`,
-                ),
-              );
+              out.path = null;
+              if (!json) {
+                console.log(
+                  chalk.yellow(
+                    `No pairings found for player "${opts.path}" at ${slug}`,
+                  ),
+                );
+              }
             } else {
-              printPlayerPath(path);
+              out.path = path;
+              if (!json) printPlayerPath(path);
             }
           }
+
+          if (json) printJson(out);
         } catch {
           // Slug didn't work — try WP API search
-          process.stdout.write(chalk.dim("Searching by name…   \r"));
+          progressWrite(json, chalk.dim("Searching by name…   \r"));
           let tournaments;
           try {
             tournaments = await searchTournament(eventName);
           } catch (e2) {
-            process.stdout.write("                     \r");
+            progressWrite(json, "                     \r");
             console.error(
               chalk.red(
                 `Could not find tournament "${eventName}": ${(e2 as Error).message}`,
@@ -482,15 +533,23 @@ export function registerFabtcg(program: Command): Command {
             );
             process.exit(1);
           }
-          process.stdout.write("                     \r");
+          progressWrite(json, "                     \r");
 
           if (tournaments.length === 0) {
+            if (json) {
+              printJson({ tournaments: [] });
+              return;
+            }
             console.log(
               chalk.yellow(`No tournaments found matching "${eventName}"`),
             );
             return;
           }
           if (tournaments.length > 1) {
+            if (json) {
+              printJson({ tournaments });
+              return;
+            }
             console.log(chalk.dim("Multiple tournaments found:"));
             tournaments.forEach((t, i) =>
               console.log(`  ${i + 1}. ${t.title}  (${t.slug})`),
@@ -505,11 +564,19 @@ export function registerFabtcg(program: Command): Command {
           slug = tournaments[0].slug;
           const idx = await fetchCoverageIndex(slug).catch(() => null);
           if (!idx) {
+            if (json) {
+              printJson({ index: null });
+              return;
+            }
             console.log(
               chalk.yellow(
                 `No coverage page found for "${tournaments[0].title}" (${slug})`,
               ),
             );
+            return;
+          }
+          if (json) {
+            printJson({ index: idx });
             return;
           }
           printCoverageIndex(idx);

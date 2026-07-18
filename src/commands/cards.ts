@@ -2,7 +2,13 @@ import { Command } from "commander";
 import chalk from "chalk";
 import { searchCards } from "../graphql";
 import { printCardsTable, printCardDetail } from "../display";
-import { int, callWithToken } from "./util";
+import {
+  int,
+  callWithToken,
+  wantsJson,
+  printJson,
+  progressWrite,
+} from "./util";
 
 export function registerCards(fabrary: Command): Command {
   const cardsCmd = fabrary
@@ -158,6 +164,7 @@ export function registerCards(fabrary: Command): Command {
           defense?: number;
           power?: number;
         },
+        command: Command,
       ) => {
         const filters: string[] = [];
         if (opts.foiling) filters.push(`foiling:${opts.foiling}`);
@@ -176,11 +183,16 @@ export function registerCards(fabrary: Command): Command {
         if (opts.power !== undefined) filters.push(`power:${opts.power}`);
 
         const text = [...words, ...filters].join(" ");
-        process.stdout.write(chalk.dim("Searching cards…\r"));
+        const json = wantsJson(command);
+        progressWrite(json, chalk.dim("Searching cards…\r"));
         const cards = await callWithToken((t) => searchCards(t, text));
-        process.stdout.write("                  \r");
+        progressWrite(json, "                  \r");
 
         const display = opts.limit ? cards.slice(0, opts.limit) : cards;
+        if (json) {
+          printJson({ cards: display });
+          return;
+        }
         if (opts.detail) {
           for (const c of display) printCardDetail(c);
         } else {
@@ -192,13 +204,22 @@ export function registerCards(fabrary: Command): Command {
   cardsCmd
     .command("show <text...>")
     .description("Show full detail for a specific card (first match)")
-    .action(async (words: string[]) => {
+    .action(async (words: string[], _opts: unknown, command: Command) => {
       const text = words.join(" ");
-      process.stdout.write(chalk.dim("Searching…\r"));
+      const json = wantsJson(command);
+      progressWrite(json, chalk.dim("Searching…\r"));
       const cards = await callWithToken((t) => searchCards(t, text));
-      process.stdout.write("           \r");
+      progressWrite(json, "           \r");
       if (cards.length === 0) {
+        if (json) {
+          printJson({ card: null });
+          return;
+        }
         console.log(chalk.yellow("No cards found."));
+        return;
+      }
+      if (json) {
+        printJson({ card: cards[0] });
         return;
       }
       printCardDetail(cards[0]);

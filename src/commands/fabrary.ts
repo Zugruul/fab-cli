@@ -10,6 +10,7 @@ import {
   computeWinRate,
   pLimit,
 } from "../graphql";
+import type { DeckCard } from "../graphql";
 import {
   printDecksTable,
   printTopTable,
@@ -38,7 +39,13 @@ import { computeDeckStats, computeResultStats } from "../stats";
 import { loadConfig, saveConfig } from "../config";
 import { loginWithPassword } from "../cognito";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "../types";
-import { int, callWithToken } from "./util";
+import {
+  int,
+  callWithToken,
+  wantsJson,
+  printJson,
+  progressWrite,
+} from "./util";
 import { registerCards } from "./cards";
 
 export function registerFabrary(program: Command): Command {
@@ -182,26 +189,35 @@ export function registerFabrary(program: Command): Command {
     .option("-n, --limit <n>", "Max results", int, 20)
     .option("-p, --page <n>", "Page number (0-based)", int, 0)
     .action(
-      async (opts: {
-        hero?: string;
-        format?: string;
-        days?: number;
-        hasMatchups?: boolean;
-        hasResults?: boolean;
-        tournamentOnly?: boolean;
-        query?: string;
-        latestSearch?: string;
-        limit: number;
-        page: number;
-      }) => {
+      async (
+        opts: {
+          hero?: string;
+          format?: string;
+          days?: number;
+          hasMatchups?: boolean;
+          hasResults?: boolean;
+          tournamentOnly?: boolean;
+          query?: string;
+          latestSearch?: string;
+          limit: number;
+          page: number;
+        },
+        command: Command,
+      ) => {
+        const json = wantsJson(command);
         opts.query = opts.query ?? opts.latestSearch;
         const searchOpts = buildSearchOpts(opts);
-        process.stdout.write(chalk.dim("Searching…\r"));
+        progressWrite(json, chalk.dim("Searching…\r"));
         const result = await searchDecks(searchOpts);
-        process.stdout.write("           \r");
+        progressWrite(json, "           \r");
 
         let decks = result.hits;
         if (opts.days) decks = filterByDays(decks, opts.days);
+
+        if (json) {
+          printJson({ decks, page: result.page, nbPages: result.nbPages });
+          return;
+        }
 
         printDecksTable(decks);
         if (result.nbPages > 1) {
@@ -260,23 +276,27 @@ export function registerFabrary(program: Command): Command {
       "winrate",
     )
     .action(
-      async (opts: {
-        hero?: string;
-        format?: string;
-        days?: number;
-        minGames: number;
-        source?: string;
-        limit: number;
-        show: number;
-        perHero?: boolean;
-        topN?: number;
-        byClass?: boolean;
-        class?: string;
-        talent?: string;
-        young?: boolean;
-        tournamentOnly?: boolean;
-        sort: string;
-      }) => {
+      async (
+        opts: {
+          hero?: string;
+          format?: string;
+          days?: number;
+          minGames: number;
+          source?: string;
+          limit: number;
+          show: number;
+          perHero?: boolean;
+          topN?: number;
+          byClass?: boolean;
+          class?: string;
+          talent?: string;
+          young?: boolean;
+          tournamentOnly?: boolean;
+          sort: string;
+        },
+        command: Command,
+      ) => {
+        const json = wantsJson(command);
         const isGrouped = opts.perHero || opts.topN !== undefined;
         const fetchLimit = isGrouped ? Math.max(opts.limit, 200) : opts.limit;
         const searchOpts = buildSearchOpts({
@@ -288,7 +308,7 @@ export function registerFabrary(program: Command): Command {
         // Resolve class/talent filter to a set of hero identifiers via live card search
         let heroFilter: Set<string> | null = null;
         if (opts.class || opts.talent) {
-          process.stdout.write(chalk.dim("Looking up heroes…\r"));
+          progressWrite(json, chalk.dim("Looking up heroes…\r"));
           heroFilter = await callWithToken((t) =>
             getHeroIdentifiers(t, {
               class: opts.class,
@@ -297,12 +317,16 @@ export function registerFabrary(program: Command): Command {
             }),
           );
           if (heroFilter.size === 0) {
+            if (json) {
+              printJson({ decks: [] });
+              return;
+            }
             console.log(chalk.yellow("No heroes found for that class/talent."));
             return;
           }
         }
 
-        process.stdout.write(chalk.dim("Fetching deck list…\r"));
+        progressWrite(json, chalk.dim("Fetching deck list…\r"));
         const result = await searchDecks(searchOpts);
         let decks = result.hits;
         if (opts.days) decks = filterByDays(decks, opts.days);
@@ -310,11 +334,16 @@ export function registerFabrary(program: Command): Command {
           decks = decks.filter((d) => heroFilter!.has(d.heroIdentifier));
 
         if (decks.length === 0) {
+          if (json) {
+            printJson({ decks: [] });
+            return;
+          }
           console.log(chalk.yellow("No decks found."));
           return;
         }
 
-        process.stdout.write(
+        progressWrite(
+          json,
           chalk.dim(`Fetching results for ${decks.length} decks…\r`),
         );
 
@@ -322,14 +351,15 @@ export function registerFabrary(program: Command): Command {
         const tasks = decks.map((deck) => async () => {
           const r = await callWithToken((t) => getDeckResults(t, deck.deckId));
           done++;
-          process.stdout.write(
+          progressWrite(
+            json,
             chalk.dim(`Fetching results… ${done}/${decks.length}\r`),
           );
           return { deck, results: r.results };
         });
 
         const fetched = await pLimit(tasks, 8);
-        process.stdout.write("                                        \r");
+        progressWrite(json, "                                        \r");
 
         const withStats: DeckWithStats[] = fetched
           .map(({ deck, results }) => {
@@ -379,11 +409,11 @@ export function registerFabrary(program: Command): Command {
 
             if (opts.byClass) {
               // Fetch hero→classes map and group heroGroups by class
-              process.stdout.write(chalk.dim("Fetching hero class data…\r"));
+              progressWrite(json, chalk.dim("Fetching hero class data…\r"));
               const heroClassMap = await callWithToken((t) =>
                 getHeroClassMap(t),
               );
-              process.stdout.write("                          \r");
+              progressWrite(json, "                          \r");
 
               const classMap = new Map<string, HeroGroup[]>();
               for (const hg of heroGroups) {
@@ -404,8 +434,16 @@ export function registerFabrary(program: Command): Command {
                   return bTop - aTop;
                 });
 
+              if (json) {
+                printJson({ classGroups });
+                return;
+              }
               printClassGroupedTable(classGroups, opts.topN);
             } else {
+              if (json) {
+                printJson({ heroGroups });
+                return;
+              }
               printGroupedTopTable(heroGroups);
             }
           } else {
@@ -422,6 +460,10 @@ export function registerFabrary(program: Command): Command {
               (a, b) =>
                 (b.topWinRate?.winRate ?? 0) - (a.topWinRate?.winRate ?? 0),
             );
+            if (json) {
+              printJson({ perHero: rows });
+              return;
+            }
             printPerHeroTable(rows);
           }
         } else {
@@ -430,6 +472,10 @@ export function registerFabrary(program: Command): Command {
               opts.sort === "games" ? b.total - a.total : b.winRate - a.winRate,
             )
             .slice(0, opts.show);
+          if (json) {
+            printJson({ decks: sorted });
+            return;
+          }
           printTopTable(sorted);
         }
       },
@@ -460,8 +506,10 @@ export function registerFabrary(program: Command): Command {
           matchupsOnly?: boolean;
           statsOnly?: boolean;
         },
+        command: Command,
       ) => {
-        process.stdout.write(chalk.dim("Fetching deck…\r"));
+        const json = wantsJson(command);
+        progressWrite(json, chalk.dim("Fetching deck…\r"));
 
         const [deck, resultsData, versionInfo] = await Promise.all([
           getDeckById(id),
@@ -469,7 +517,7 @@ export function registerFabrary(program: Command): Command {
           callWithToken((t) => getDeckVersionInfo(t, id)),
         ]);
         const { typeMap } = versionInfo;
-        process.stdout.write("               \r");
+        progressWrite(json, "               \r");
 
         if (!deck) {
           console.error(chalk.red(`Deck ${id} not found.`));
@@ -508,16 +556,14 @@ export function registerFabrary(program: Command): Command {
             );
             process.exit(1);
           }
-          const matchupCards = versionInfo.cards
-            .map((c) => {
-              const override = c.matchupQuantities?.find(
-                (mq) => mq.matchupId === matchup.matchupId,
-              );
-              const qty =
-                override !== undefined ? override.quantity : c.quantity;
-              return { cardIdentifier: c.cardIdentifier, quantity: qty };
-            })
-            .filter((c) => c.quantity > 0);
+          const matchupCards = cardsForMatchup(
+            versionInfo.cards,
+            matchup.matchupId,
+          );
+          if (json) {
+            printJson({ deck, matchup, cards: matchupCards });
+            return;
+          }
           printDeckDetail(
             deck,
             winRateStats.total > 0 ? winRateStats : undefined,
@@ -526,6 +572,30 @@ export function registerFabrary(program: Command): Command {
             versionInfo.inventoryCards,
             typeMap,
           );
+          return;
+        }
+
+        if (json) {
+          const out: Record<string, unknown> = {};
+          if (showAll || opts.decklistOnly) {
+            out.decklist = {
+              deck,
+              winRateStats: winRateStats.total > 0 ? winRateStats : null,
+              matchupNames: versionInfo.matchups.map((m) => m.name),
+              cards: versionInfo.cards,
+              inventoryCards: versionInfo.inventoryCards,
+            };
+          }
+          if (showAll || opts.matchupsOnly) {
+            out.matchups = versionInfo.matchups.map((m) => ({
+              matchup: m,
+              cards: cardsForMatchup(versionInfo.cards, m.matchupId),
+            }));
+          }
+          if (showAll || opts.statsOnly) {
+            out.stats = { deckName: deck.name, deckStats, resultStats };
+          }
+          printJson(out);
           return;
         }
 
@@ -571,41 +641,66 @@ export function registerFabrary(program: Command): Command {
     .option("--show <n>", "Max heroes in output", int, 30)
     .option("--list-periods", "List all valid period slugs and exit")
     .action(
-      async (opts: {
-        format: string;
-        period: string;
-        hero?: string;
-        show: number;
-        listPeriods?: boolean;
-      }) => {
+      async (
+        opts: {
+          format: string;
+          period: string;
+          hero?: string;
+          show: number;
+          listPeriods?: boolean;
+        },
+        command: Command,
+      ) => {
+        const json = wantsJson(command);
         if (opts.listPeriods) {
-          process.stdout.write(chalk.dim("Loading periods…\r"));
+          progressWrite(json, chalk.dim("Loading periods…\r"));
           const groups = await fetchMetaPeriods();
-          process.stdout.write("                  \r");
+          progressWrite(json, "                  \r");
+          if (json) {
+            printJson({ periods: groups });
+            return;
+          }
           printMetaPeriods(groups);
           return;
         }
 
         const formatSlug = resolveMetaFormat(opts.format);
         const period = resolveMetaPeriod(opts.period);
-        process.stdout.write(
+        progressWrite(
+          json,
           chalk.dim(`Fetching meta (${formatSlug}, ${period})…\r`),
         );
         const rows = await fetchMetaResults(opts.format, opts.period);
-        process.stdout.write("                                          \r");
+        progressWrite(json, "                                          \r");
 
         if (opts.hero) {
           const needle = opts.hero.toLowerCase();
           const match = rows.find((r) => r.hero.toLowerCase().includes(needle));
           if (!match) {
+            if (json) {
+              printJson({ hero: null });
+              return;
+            }
             console.log(chalk.yellow(`No hero found matching "${opts.hero}".`));
             console.log(
               chalk.dim("Available: " + rows.map((r) => r.hero).join(", ")),
             );
             return;
           }
+          if (json) {
+            printJson({ hero: match });
+            return;
+          }
           printHeroMatchups(match);
         } else {
+          if (json) {
+            const sorted = rows
+              .filter((r) => r.totalGames > 0)
+              .sort((a, b) => b.overallWinRate - a.overallWinRate)
+              .slice(0, opts.show);
+            printJson({ heroes: sorted });
+            return;
+          }
           printMetaTable(rows, opts.show);
         }
       },
@@ -709,4 +804,21 @@ function buildSearchOpts(opts: {
 function filterByDays(decks: AlgoliaDeck[], days: number): AlgoliaDeck[] {
   const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
   return decks.filter((d) => new Date(d.updatedAt).getTime() >= cutoff);
+}
+
+/** Card list for one matchup — quantity falls back to the base deck quantity
+ *  when the matchup has no override for that card. */
+function cardsForMatchup(
+  cards: DeckCard[],
+  matchupId: string,
+): { cardIdentifier: string; quantity: number }[] {
+  return cards
+    .map((c) => {
+      const override = c.matchupQuantities?.find(
+        (mq) => mq.matchupId === matchupId,
+      );
+      const qty = override !== undefined ? override.quantity : c.quantity;
+      return { cardIdentifier: c.cardIdentifier, quantity: qty };
+    })
+    .filter((c) => c.quantity > 0);
 }
