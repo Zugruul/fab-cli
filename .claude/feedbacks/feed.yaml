@@ -1512,8 +1512,8 @@ items:
     autonomous loops don't repeatedly select dead candidates.
   routing:
     action: ignore
-    ref: "duplicate of fab-cli#72 iteration's item (2026-07-18T00:00:00Z), same fab-cli#19/fab-cli#20/fab-cli#21
-      stale-board-item finding already routed upstream there"
+    ref: duplicate of fab-cli#72 iteration's item (2026-07-18T00:00:00Z), same fab-cli#19/fab-cli#20/fab-cli#21
+      stale-board-item finding already routed upstream there
 - category: friction
   area: merge
   severity: low
@@ -1627,3 +1627,70 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/correct-inaccurate-design-claim-dont-overfix
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-18T21:15:00Z'
+iteration:
+  task: TAL-010
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Adapting TDD to a documentation deliverable via an explicit design-doc
+    decision produced a genuinely falsifiable structural/citation test instead of
+    a vacuous existence check.
+  detail: TAL-010 required a long-form architecture doc with a hard citation-integrity
+    bar. The design doc specified what the red-first test should assert (required
+    headings in order, citation-density thresholds, per-section checks) before any
+    prose was written, and the dev agent followed it faithfully — 108 citations against
+    a >=40 threshold, 82.6% paragraph density against a >30% threshold, not a borderline
+    pass.
+  generalized: For a pure-documentation task where 'TDD' has no obvious meaning, writing
+    the epic design doc's Key-sequences section to specify exactly what a structural/citation-format
+    test should assert (heading presence+order, citation-density thresholds, section-specific
+    claims) before briefing the dev agent turns an otherwise-theater TDD requirement
+    into a real red-to-green cycle with a falsifiable bar.
+  routing:
+    action: brain-note
+    ref: orchestrator/design-doc-specifies-doc-task-tdd-test-shape
+- category: friction
+  area: brains
+  severity: low
+  summary: Minting a retro brain note without first recalling existing notes on the
+    same topic produced a near-duplicate that had to be caught and merged manually.
+  detail: Minted reviewer/verify-red-first-by-running-test-commit-not-trusting-pass-count,
+    then discovered reviewer/verify-red-commit-by-running-it already existed with
+    the same core lesson from a prior task (PR#89). Caught by browsing the notes directory
+    before committing, not by any tooling check; had to delete the new file and fold
+    its novel content into the existing note instead.
+  generalized: The retro mint step should run a recall/grep pass over the target role's
+    existing notes for the same topic BEFORE calling mint — otherwise near-duplicate
+    notes accumulate silently, since mint itself does not check for topical overlap
+    and 'no prune candidates' only catches stale links, not duplicate content.
+  routing:
+    action: brain-note
+    ref: orchestrator/recall-before-mint-to-avoid-duplicate-notes
+- category: friction
+  area: merge
+  severity: low
+  summary: A retro brain-note commit hit a non-fast-forward push rejection from a
+    concurrent session's unrelated merge landing on main between the task's own merge
+    and the retro commit.
+  detail: PR#95 merged cleanly, but by the time the retro commit was ready to push,
+    a concurrent session working an unrelated task (rules search/show) had already
+    pushed two commits to main. Resolved with a plain git pull --rebase; no conflict
+    since the retro commit only touched brain files.
+  generalized: In a multi-session setup where several sessions push to the same mainBranch,
+    expect retro/handoff commits made after a task's own merge to occasionally hit
+    non-fast-forward pushes from concurrent sessions; a plain rebase is the correct,
+    low-risk resolution when the commit only touches orchestrator-owned files (brain
+    notes, directory) that are unlikely to conflict with product code.
+  routing:
+    action: brain-note
+    ref: orchestrator/rebase-retro-commit-on-concurrent-push-rejection
