@@ -16,6 +16,25 @@ copies (§10 I3) — nothing under `third_party/talishar*` is ever committed her
 citation here is accurate as of the commit it was verified against, not a permanent guarantee.
 Refresh sections that look stale during `/talishar-fork-sync` runs (§11 of the spec).
 
+## Curated references
+
+This long-form narrative has six condensed, quick-lookup companions under `.claude/talishar/`
+(§7.5/§7.5a of the spec) — load these instead of this whole document for active Talishar work:
+
+- `.claude/talishar/architecture.md` — engine pipeline + state model, condensed from the sections
+  below.
+- `.claude/talishar/card-recipe.md` — the self-sufficient card implementation recipe (full `Card`
+  class skeleton + hook signatures + ClassState dance), expanding on "Card Recipe: A Worked
+  Example" below.
+- `.claude/talishar/decision-queue.md` — the full DQ verb list and Await function catalog, in more
+  operational depth than "DecisionQueue & Await Async Model" below.
+- `.claude/talishar/frontend.md` — SSE state flow, `ParseGameState.ts`, reconnect/watchdog
+  behavior, expanding on "Frontend State Flow" below.
+- `.claude/talishar/dev-stack.md` — bootstrap, compose services, ports, Xdebug, known gotchas,
+  expanding on "Local Dev Stack" and "Known Stale Upstream Docs" below.
+- `.claude/talishar/contributing.md` — fork contract, PR conventions, Discord coordination, and the
+  I1/I2 invariants verbatim, expanding on "Upstream Contribution Conventions" below.
+
 ## Engine Request Pipeline
 
 Every player action reaches the PHP backend as an HTTP request and flows through a fixed pipeline

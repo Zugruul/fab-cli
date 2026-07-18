@@ -35,13 +35,21 @@ describe(".claude/talishar/*.md curated reference set", () => {
     contents[f] = existsSync(p) ? readFileSync(p, "utf-8") : "";
   }
 
-  it.each(FILES)("%s states a 'Last verified against upstream' date line", (f) => {
-    expect(contents[f]).toMatch(/Last verified against upstream:\s*\d{4}-\d{2}-\d{2}/i);
-  });
+  it.each(FILES)(
+    "%s states a 'Last verified against upstream' date line",
+    (f) => {
+      expect(contents[f]).toMatch(
+        /Last verified against upstream:\s*\d{4}-\d{2}-\d{2}/i,
+      );
+    },
+  );
 
-  it.each(FILES)("%s carries meaningful citation density (>= 5 citations)", (f) => {
-    expect(citationCount(contents[f])).toBeGreaterThanOrEqual(5);
-  });
+  it.each(FILES)(
+    "%s carries meaningful citation density (>= 5 citations)",
+    (f) => {
+      expect(citationCount(contents[f])).toBeGreaterThanOrEqual(5);
+    },
+  );
 
   it.each(FILES)("%s is a substantial working reference, not a stub", (f) => {
     expect(contents[f].length).toBeGreaterThan(1500);
@@ -64,7 +72,9 @@ describe(".claude/talishar/*.md curated reference set", () => {
 
     it("contains a ClassState-related citation (the 3-file dance)", () => {
       expect(doc).toMatch(/`third_party\/talishar\/Constants\.php`/);
-      expect(doc).toMatch(/`third_party\/talishar\/MenuFiles\/StartHelper\.php`/);
+      expect(doc).toMatch(
+        /`third_party\/talishar\/MenuFiles\/StartHelper\.php`/,
+      );
     });
 
     it("cites the worked PR example (#1370/#1369 shape)", () => {
