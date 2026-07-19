@@ -73,7 +73,7 @@
   },
   {
     "path": ["fabtcg", "coverage"],
-    "output": "Usage: fab-cli fabtcg coverage [options] <event>\n\nTournament coverage: standings, hero field, decklists, player path\n\nOptions:\n  --round <n>             Show standings for a specific round (number or\n                          'final')\n  --field                 Show hero field breakdown from latest available\n                          standings\n  --decklists             List available decklists for the event\n  --player <name>         Show decklist for a specific player\n  --path <name>           Reconstruct a player's full round-by-round journey\n  --search-player <name>  Find a player by partial name match\n  -h, --help              display help for command\n"
+    "output": "Usage: fab-cli fabtcg coverage [options] <event>\n\nTournament coverage: standings, hero field, decklists, player path\n\nOptions:\n  --round <n>             Show standings for a specific round (number or\n                          'final')\n  --field                 Show hero field breakdown from latest available\n                          standings\n  --decklists             List available decklists for the event\n  --player <name>         Show decklist for a specific player\n  --path <name>           Reconstruct a player's full round-by-round journey\n  --search-player <name>  Find a player by partial name match\n  --live                  Poll --path/--search-player for live updates until\n                          final standings or Ctrl-C\n  --interval <seconds>    Poll interval in seconds for --live (default: \"60\")\n  -h, --help              display help for command\n"
   },
   {
     "path": ["rules"],

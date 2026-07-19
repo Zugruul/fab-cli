@@ -274,6 +274,7 @@ fab-cli fabtcg coverage <event> --player <name>        # show/fetch decklist for
 fab-cli fabtcg coverage <event> --decklists --player <name>  # combined
 fab-cli fabtcg coverage <event> --path <name>          # player's full round-by-round journey
 fab-cli fabtcg coverage <event> --search-player <name> # find player by partial name (auto-runs --path if unique match)
+fab-cli fabtcg coverage <event> --path <name> --live [--interval <seconds>]  # live-watch a player's journey (default interval 60s)
 ```
 
 `<event>` can be a slug (`pro-tour-yokohama`) or a human-readable name (`"pro tour yokohama"`).
@@ -288,6 +289,15 @@ The command auto-converts spaces to hyphens and falls back to WP API search if t
 - `fabtcg:` link to the official decklist
 - `fabrary:` link to the Fabrary deck (if found)
 - Equipment block + main deck grouped by pitch with pitch dots (● ●● ●●●)
+
+**`--live` (with `--path`/`--search-player`)**: prints the normal static player-path summary once,
+then polls the coverage index (`--interval` seconds, default 60) for new round results, printing
+one timestamped line per newly-seen round as it appears. Exits cleanly on final standings (prints
+a final summary line) or Ctrl-C (prints "Stopped."). An ambiguous name (2+ matches) prints the
+candidates list and exits without starting the poll loop — this is a dedicated, stricter check than
+plain `--path`'s silent first-substring-match, since a long-running watch on the wrong player is a
+worse failure than a one-shot lookup being slightly off. `--live` is not combinable with `--json`
+(it's a continuous text stream, not a structured snapshot).
 
 **Format schedule** for coverage pages is visible at `fabtcg.com/coverage/<slug>/` — the article lists each round with its format (e.g. "Round 1 - Classic Constructed", "Round 6 - Silver Age").
 

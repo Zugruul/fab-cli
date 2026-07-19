@@ -10,6 +10,7 @@ import {
   fetchPlayerPath,
   searchPlayerInEvent,
   heroNameToIdentifier,
+  runLiveFollow,
 } from "../fabtcg";
 import {
   searchCardVault,
@@ -283,6 +284,73 @@ export function registerFabtcg(program: Command): Command {
     printPlayerDecklist(full);
   }
 
+  /** `--live` entry point: disambiguate the player via `searchPlayerInEvent`
+   *  (never `fetchPlayerPath`'s silent-first-match), print the existing
+   *  static summary once, then poll until final standings or Ctrl-C. */
+  async function runCoverageLive(
+    slug: string,
+    liveName: string,
+    intervalMs: number,
+  ): Promise<void> {
+    const matches = await searchPlayerInEvent(slug, liveName);
+    if (matches.length === 0) {
+      console.log(
+        chalk.yellow(`No players found matching "${liveName}" at ${slug}`),
+      );
+      return;
+    }
+    if (matches.length > 1) {
+      console.log(
+        chalk.dim(
+          `\n  ${matches.length} players found matching "${liveName}":`,
+        ),
+      );
+      matches.forEach((m) =>
+        console.log(
+          `  ${chalk.bold(m.name)}${m.hero ? chalk.dim("  " + m.hero) : ""}`,
+        ),
+      );
+      console.log(
+        chalk.dim(`\n  Re-run --live with an exact name to disambiguate.`),
+      );
+      return;
+    }
+
+    const resolvedName = matches[0].name;
+    const path = await fetchPlayerPath(slug, resolvedName);
+    if (!path) {
+      console.log(
+        chalk.yellow(
+          `No pairings found for player "${resolvedName}" at ${slug}`,
+        ),
+      );
+      return;
+    }
+    printPlayerPath(path);
+    console.log(
+      chalk.dim(
+        `\nWatching for live updates every ${intervalMs / 1000}s (Ctrl-C to stop)…`,
+      ),
+    );
+
+    const controller = new AbortController();
+    const onSigint = () => controller.abort();
+    process.on("SIGINT", onSigint);
+    try {
+      const result = await runLiveFollow(slug, resolvedName, {
+        intervalMs,
+        onUpdate: (line) => console.log(line),
+        onFinal: (summary) => console.log(summary),
+        signal: controller.signal,
+      });
+      if (result.reason === "aborted") {
+        console.log(chalk.dim("\nStopped."));
+      }
+    } finally {
+      process.off("SIGINT", onSigint);
+    }
+  }
+
   fabtcg
     .command("coverage <event>")
     .description(
@@ -303,6 +371,11 @@ export function registerFabtcg(program: Command): Command {
       "Reconstruct a player's full round-by-round journey",
     )
     .option("--search-player <name>", "Find a player by partial name match")
+    .option(
+      "--live",
+      "Poll --path/--search-player for live updates until final standings or Ctrl-C",
+    )
+    .option("--interval <seconds>", "Poll interval in seconds for --live", "60")
     .action(
       async (
         eventName: string,
@@ -313,6 +386,8 @@ export function registerFabtcg(program: Command): Command {
           player?: string;
           path?: string;
           searchPlayer?: string;
+          live?: boolean;
+          interval?: string;
         },
         command: Command,
       ) => {
@@ -328,6 +403,29 @@ export function registerFabtcg(program: Command): Command {
           // Try to fetch coverage index directly with the slug
           const idx = await fetchCoverageIndex(slug);
           progressWrite(json, "                          \r");
+
+          if (opts.live) {
+            if (json) {
+              console.log(
+                chalk.yellow(
+                  "--live is not combinable with --json (it's a continuous text stream, not a structured snapshot).",
+                ),
+              );
+              return;
+            }
+            const liveName = opts.path ?? opts.searchPlayer;
+            if (!liveName) {
+              console.log(
+                chalk.yellow("--live requires --path or --search-player"),
+              );
+              return;
+            }
+            const intervalMs = opts.interval
+              ? parseInt(opts.interval) * 1000
+              : 60_000;
+            await runCoverageLive(slug, liveName, intervalMs);
+            return;
+          }
 
           const out: Record<string, unknown> = { index: idx };
 
