@@ -8,8 +8,8 @@ description: Research and implement a Flesh & Blood card in the vendored Talisha
 Orchestrates the four-phase card-implementation pipeline described in
 `docs/design/talishar-E2.md` and `SPEC-TALISHAR.md` §5, §8.1–§8.7:
 
-1. **Dossier** (this task, TAL-020) — research phase, fully specified below.
-2. **Implementation** (TAL-021) — not yet implemented.
+1. **Dossier** (TAL-020) — research phase, fully specified below.
+2. **Implementation** (this task, TAL-021) — writing the `Card` subclass, fully specified below.
 3. **Images** (TAL-022) — not yet implemented.
 4. **Validation + hand-off** (TAL-023) — not yet implemented.
 
@@ -124,11 +124,63 @@ note on why it's the closest pattern match>
 <only present when the card isn't yet in the-fab-cube dataset — see step 4a>
 ```
 
-## Phase 2 — Implementation (not yet implemented)
+## Phase 2 — Implementation
 
-Creating the upstream branch, writing the actual `Card` subclass, touching
-`Constants.php`/ClassState files. See **TAL-021**. Do not attempt this phase until it has its own
-task/skill section — a dossier alone is not enough context to safely write game logic.
+Goal: turn a `dossier`-status dossier into a real, `php -l`-clean `Card` subclass on a local branch
+inside `third_party/talishar`, with every behavioral decision traceable to the dossier's Card
+Vault true text. See `docs/design/talishar-E2.md`'s "TAL-021 — Implementation phase" section for
+the full rationale.
+
+### Steps
+
+1. **Confirm the dossier is current (§10 I4).** Re-read
+   `.claude/talishar/dossiers/<card-slug>.md` and check its `## Status`. If it's missing, stale, or
+   was never taken past `dossier`, STOP and run/refresh Phase 1 first — never write card logic from
+   memory or an assumption about the card's text. Only proceed once you have a real dossier with
+   the true text in hand.
+2. **Sync the fork.** Run `/talishar-fork-sync` (or `bash scripts/talishar-fork-sync.sh` — see that
+   skill file) to fast-forward `third_party/talishar`'s `main` against `upstream/main` before doing
+   anything else. If the sync reports `diverged: ...`, STOP and surface it — never branch off a
+   stale or diverged local `main`, and never force-push (I2).
+3. **Branch.** From `third_party/talishar`, `git checkout -b feat/{card_id} origin/main` using the
+   freshly-synced `main` from step 2 (`{card_id}` is the card's engine `cardID`, e.g.
+   `wrecking_ball_red` — not the dossier's slug, which may differ for multi-pitch cards). `origin`
+   is the user's fork; this phase never branches from or pushes to `upstream` (I2).
+4. **Find the target class.** Locate the (usually commented-out, or entirely absent) placeholder
+   in `third_party/talishar/Classes/CardObjects/{SET}Cards.php` matching the card's `cardID`. If
+   there's no placeholder at all, add a fresh `class {card_id} extends Card { ... }` block in the
+   correct `{SET}Cards.php` file.
+5. **Implement with minimal hooks (§8.3, recipe fidelity).** `zzCardCodeGenerator.php` output
+   already covers stats/types/pitch/cost — add ONLY the specific hooks the true text requires
+   (`PlayAbility`, `SpecificLogic`, `ProcessTrigger`, `CombatEffectActive`, `EffectPowerModifier`,
+   `ResolutionStepAttackTriggers`, etc.), never a hook the card doesn't use. Every hook's behavior
+   must trace to a specific clause of the dossier's Card Vault true text — if you can't point to
+   the clause, stop and re-check the dossier/Card Vault instead of guessing. Before inventing new
+   engine plumbing, grep `third_party/talishar/Classes/CardObjects/` for a card with similar
+   mechanics (the dossier's "Similar existing implementation(s)" section is the starting point) and
+   reuse its exact function-call shape where the true text matches.
+6. **Touch shared engine files ONLY if genuinely needed.** `Constants.php` / `MenuFiles/
+   StartHelper.php` / an ability file (`CharacterAbilities.php`, `ItemAbilities.php`, etc.) only
+   when the card needs a genuinely new `ClassState` counter or a new engine-level hook that doesn't
+   exist yet (see the 3-file `ClassState` pattern in `third_party/talishar/CLAUDE.md`). Most simple
+   cards need none of this — reusing an existing `ClassState`/global helper function (e.g. the
+   global `Intimidate()` function, which already tracks `$CS_HaveIntimidated` internally) is
+   strongly preferred over adding a new one.
+7. **`php -l` every touched file.** Run `php -l <file>` on each PHP file you touched (requires a
+   local `php` binary — `brew install php` if missing) and fix any syntax errors before moving on.
+8. **Confirm no unrelated changes.** `git -C third_party/talishar diff main --stat` (or
+   `diff upstream/main --stat`) on the branch should show ONLY the files this specific card's
+   implementation needs — typically just the one `{SET}Cards.php` file, matching the
+   `Talishar/Talishar#1370`/`#1369` reference shape. If anything else changed, figure out why
+   before continuing (a stray edit, a formatter touching unrelated lines, etc.).
+9. **Update the dossier.** Flip `## Status` from `dossier` to `implementing` and append an
+   `## Implementation Notes` section: the branch name, which file(s) changed, which hooks were
+   added and why (cite the true text clause each one implements), and confirmation of `php -l`
+   clean + no-unrelated-changes.
+10. **Do NOT push the branch anywhere.** Pushing to the fork and preparing PR title/body text is
+    **TAL-023's job** (§8.6/hand-off) — this phase's done state is a local, uncommitted-to-any-
+    remote branch inside `third_party/talishar`. Never push here, and never open/mark-ready/
+    approve/merge a PR on a `Talishar/*` org repo (I1) — that's a human's call, always.
 
 ## Phase 3 — Images (not yet implemented)
 
@@ -141,7 +193,8 @@ itself — see invariant I1). See **TAL-023**.
 
 ## What this skill does NOT do (yet)
 
-- It does not write any `Card` subclass or touch the vendored engine's PHP — that's TAL-021.
+- It does not push the `feat/{card_id}` branch anywhere, or prepare PR title/body text — that's
+  TAL-023.
 - It does not download, resize, or crop card images — that's TAL-022.
 - It does not run the docker dev stack or exercise a real game — that's TAL-023.
 - It never opens, approves, or merges a PR on a `Talishar/*` org repo (I1) — no phase of this

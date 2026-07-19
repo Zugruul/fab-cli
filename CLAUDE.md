@@ -588,22 +588,26 @@ card-implementation session.
 ```
 
 Skill file: `.claude/skills/talishar-implement-card/SKILL.md` (see `docs/design/talishar-E2.md`
-for the full pipeline design). A four-phase pipeline — **dossier** (research), implementation,
-images, validation + hand-off — of which only the dossier phase is implemented so far; the other
-three are stubbed pointers to their future tasks (TAL-021/022/023). The dossier phase assembles,
-for a given card, live Card Vault true text + rulings (`fab-cli fabtcg card`), the-fab-cube stats
-(`fab-cli fabrary cards local --exact`), Fabrary usage context (`fab-cli fabrary cards search`),
-a talishar-brain recall of the closest matching implementation pattern, and the card's official
-image reference, then persists it as `.claude/talishar/dossiers/<card-slug>.md` (gitignored,
-ephemeral working state — never commit a dossier) so a later phase or a resumed session can pick
-up the research without redoing it. If the card isn't yet in the-fab-cube dataset (newly
-announced), the dossier records that gap instead of fabricating stats and flags that
-`zzCardCodeGenerator.php` output needs regeneration once the dataset submodule catches up — this
-is an expected, first-class outcome for brand-new cards, not an error. Pure formatting/gap-
-detection/resume logic lives in `src/talisharDossier.ts` (`slugifyCardName`, `detectDatasetGap`,
-`parseExistingStatus`, `shouldResumeDossier`, `formatDossier`); the live tool orchestration itself
-is only exercised by following the skill's Steps, per the same testing split
-`talishar-fork-sync` uses.
+for the full pipeline design). A four-phase pipeline — **dossier** (research), **implementation**,
+images, validation + hand-off — of which the dossier and implementation phases are fully
+specified; images and validation + hand-off are stubbed pointers to their future tasks
+(TAL-022/023). The dossier phase assembles, for a given card, live Card Vault true text + rulings
+(`fab-cli fabtcg card`), the-fab-cube stats (`fab-cli fabrary cards local --exact`), Fabrary usage
+context (`fab-cli fabrary cards search`), a talishar-brain recall of the closest matching
+implementation pattern, and the card's official image reference, then persists it as
+`.claude/talishar/dossiers/<card-slug>.md` (gitignored, ephemeral working state — never commit a
+dossier) so a later phase or a resumed session can pick up the research without redoing it. If the
+card isn't yet in the-fab-cube dataset (newly announced), the dossier records that gap instead of
+fabricating stats and flags that `zzCardCodeGenerator.php` output needs regeneration once the
+dataset submodule catches up — this is an expected, first-class outcome for brand-new cards, not
+an error. Pure formatting/gap-detection/resume logic lives in `src/talisharDossier.ts`
+(`slugifyCardName`, `detectDatasetGap`, `parseExistingStatus`, `shouldResumeDossier`,
+`formatDossier`). The implementation phase branches `feat/{card_id}` off a freshly-synced
+`origin/main` inside `third_party/talishar` and writes a minimal-hooks `Card` subclass in
+`Classes/CardObjects/{SET}Cards.php`, citing the dossier's true text for every behavioral
+decision — its done-state is a local, unpushed branch (pushing + PR text is TAL-023's job). The
+live tool orchestration for both phases is only exercised by following the skill's Steps, per the
+same testing split `talishar-fork-sync` uses.
 
 ## Lore (legendarystories.net / fablore)
 
