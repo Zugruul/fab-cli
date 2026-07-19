@@ -752,6 +752,7 @@ export async function runLiveFollow(
     if (aborted) return { reason: "aborted" };
 
     const idx = await fetchCoverageIndex(slug);
+    if (opts.signal.aborted) return { reason: "aborted" };
 
     const newRounds = idx.resultRounds
       .filter((r) => !seenRounds.has(r))
@@ -761,6 +762,7 @@ export async function runLiveFollow(
       const line = buildRoundUpdateLine(pairings, lowerName, round);
       seenRounds.add(round);
       if (line) opts.onUpdate(line);
+      if (opts.signal.aborted) return { reason: "aborted" };
     }
 
     if (idx.hasFinalStandings) {
