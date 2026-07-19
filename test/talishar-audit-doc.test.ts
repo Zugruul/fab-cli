@@ -49,10 +49,13 @@ const NO_ISSUE_RE = /no issue found/i;
 // TAL-031 §9.2: the 3 seed bug issues the design doc names as starting points.
 const BUG_SCAN_PATTERN = /^#{2,}\s.*bug scan/im;
 const DX_PATTERN = /^#{2,}\s.*(developer experience|\bdx\b)/im;
-const BUG_SEEDS: { name: string; issueRef: RegExp }[] = [
-  { name: "BE #501 (SSE disconnect)", issueRef: /#501/ },
-  { name: "BE #183 (equipment/lag double-activation)", issueRef: /#183/ },
-  { name: "FE #98 (reload freeze)", issueRef: /#98/ },
+const BUG_SEEDS: { name: string; headingRef: RegExp }[] = [
+  { name: "BE #501 (SSE disconnect)", headingRef: /^#{3,}\s.*#501/im },
+  {
+    name: "BE #183 (equipment/lag double-activation)",
+    headingRef: /^#{3,}\s.*#183/im,
+  },
+  { name: "FE #98 (reload freeze)", headingRef: /^#{3,}\s.*#98/im },
 ];
 // A finding is either a live/reproducible suspect (evidence + impact + fix sketch + rank,
 // same shape as TAL-030's findings) or an explicit already-mitigated / no-issue-found note
@@ -145,18 +148,10 @@ describe("docs/TALISHAR-AUDIT.md", () => {
     });
 
     it.each(BUG_SEEDS)(
-      "covers seed $name with issue-number citation + evidence + a verified-real note",
-      ({ issueRef }) => {
-        // Grab from the seed's own citation forward to the next seed's citation (or end),
-        // so each seed's shape is checked against its own text, not the whole section.
-        const idx = bugScanBody.search(issueRef);
-        expect(idx).toBeGreaterThanOrEqual(0);
-        const rest = bugScanBody.slice(idx);
-        const nextSeedIdxs = BUG_SEEDS.map((s) => {
-          const m = rest.slice(50).search(s.issueRef);
-          return m === -1 ? Infinity : m + 50;
-        });
-        const chunk = rest.slice(0, Math.min(...nextSeedIdxs, rest.length));
+      "covers seed $name with a dedicated subsection: evidence + verified-real note",
+      ({ headingRef }) => {
+        const chunk = sectionBody(bugScanBody, headingRef);
+        expect(chunk.length).toBeGreaterThan(0);
         expect(chunk).toMatch(EVIDENCE_RE);
         expect(chunk).toMatch(VERIFIED_RE);
         // Either a live reproducible suspect (full finding shape) or an explicit
