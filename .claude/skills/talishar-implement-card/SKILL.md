@@ -10,7 +10,7 @@ Orchestrates the four-phase card-implementation pipeline described in
 
 1. **Dossier** (TAL-020) — research phase, fully specified below.
 2. **Implementation** (TAL-021) — writing the `Card` subclass, fully specified below.
-3. **Images** (TAL-022) — not yet implemented.
+3. **Images** (TAL-022) — CardImages/cardList sync, fully specified below.
 4. **Validation + hand-off** (TAL-023) — docker stack, real game exercise, branch push to the
    fork, PR text preparation, fully specified below.
 
@@ -183,9 +183,62 @@ the full rationale.
     remote branch inside `third_party/talishar`. Never push here, and never open/mark-ready/
     approve/merge a PR on a `Talishar/*` org repo (I1) — that's a human's call, always.
 
-## Phase 3 — Images (not yet implemented)
+## Phase 3 — Images
 
-CardImages script runs, FE `generate-cards` refresh. See **TAL-022**.
+Goal: make sure a card's processed images exist in `third_party/talishar-cardimages` and its
+name is present in `third_party/talishar-fe`'s `cardList.ts` — on local branches of those two
+clones' own forks, never touching fab-cli. See `docs/design/talishar-E2.md`'s "TAL-022 — Image
+pipeline step" section for the full rationale, and SPEC-TALISHAR.md §8.4, §10 I3.
+
+### Steps
+
+1. **Confirm this phase actually applies.** Check whether the card's images and cardList entry
+   already exist before touching anything:
+   - `third_party/talishar-fe/src/constants/cardList.ts` stores card **names** (title-case,
+     space-separated, e.g. `"Wrecking Ball"`) — not engine `cardID`s (e.g. `wrecking_ball_red`).
+     Grep for the card's real display name, not a snake_case guess; a snake_case grep against
+     this file is a false negative, not proof the entry is missing.
+   - `third_party/talishar-cardimages/media/uploaded/public/{cardimages,cardsquares,crops}/
+     english/` — grep for the card's `cardID`-based filename.
+   - Both files are independent, full-catalog datasets (the-fab-cube's card list; the official
+     image API) refreshed by their own upstream maintainers regardless of Talishar engine
+     implementation status — a card can easily already have both even if it was only just
+     implemented in Phase 2. **If both already exist, this phase is a no-op: do not run
+     `downloadImages.js` or `generate-cards`, do not create branches on either clone.** Record the
+     finding in the dossier (step 6) and stop here. Only continue to step 2 if something is
+     genuinely missing.
+2. **On a branch of `third_party/talishar-cardimages`'s own fork** (`origin` =
+   `git@github.com:Zugruul/CardImages.git`): `git checkout -b feat/{card_id}_images` (or similar),
+   then edit `scripts/downloadImages.js`'s `composeInitialApiUrl` function in place to target the
+   card/set — the file has commented-out examples for "specific card by card code" and "specific
+   card by name" queries; use whichever fits, replacing the currently-committed query rather than
+   adding a CLI flag (that would be scope creep into the vendored project's own tooling design).
+   Run the script (check `package.json` for the exact invocation, typically `node
+   scripts/downloadImages.js`). Confirm the processed image + square crop land under that clone's
+   own `media/` directories — never fab-cli (§10 I3, hard invariant, never violate: zero image
+   artifacts, processed or raw, ever land under the fab-cli tree, not even transiently).
+   `downloadImages.js` processes one language/card at a time by default (no `Promise.all`
+   concurrency in its main loop) — confirm any concurrency stays ≤2 concurrent CDN requests
+   against `cards.fabtcg.com`; don't add parallelism to raise it.
+3. **Only if the card is a reprint needing translated-collection art variants**, also run
+   `generateTranslatedCollections.js` (README: "Use this script when a new reprint set like
+   History Pack is released") on the same branch. This is conditional, not unconditional — most
+   cards are not reprints; explicitly record in the dossier whether this step ran or was skipped
+   and why, rather than silently assuming either way.
+4. **On a branch of `third_party/talishar-fe`'s own fork** (`origin` =
+   `git@github.com:Zugruul/Talishar-FE.git`): `git checkout -b feat/{card_id}_cardlist` (or
+   similar; check whether `node_modules` exists there first — it's a separate project with its
+   own dependencies, run `npm install` if missing), then run `npm run generate-cards` (`node
+   scripts/card-generator.js && npx prettier --write src/constants/cardList.ts`). Confirm the
+   card's display name now appears in `src/constants/cardList.ts`, well-formed and
+   prettier-formatted (the npm script runs prettier itself).
+5. **Confirm zero fab-cli footprint.** `git status --short` / `git diff --stat` inside the fab-cli
+   repo itself (not either vendored clone) should show nothing changed from steps 2–4 — this
+   phase's only fab-cli-side footprint is this skill-file extension and its test.
+6. **Update the dossier.** Note whether this phase ran for real (steps 2–4) or was a confirmed
+   no-op (step 1); if it ran, cite the branch name(s)/commit(s) on each clone. **Neither branch is
+   pushed as part of this phase** — same "local validated branch" pattern as Phase 2, pushing
+   stays a later/human decision unless separately, explicitly authorized for that specific task.
 
 ## Phase 4 — Validation + hand-off
 
@@ -250,9 +303,8 @@ SPEC-TALISHAR.md §8.5, §8.6, §8.7, §10 I1.
    create`, `gh pr merge`, `gh pr ready`, or any other PR-mutating action against `Talishar/*`; the
    done-state here is a pushed fork branch plus prepared text, nothing more.
 
-## What this skill does NOT do (yet)
+## What this skill does NOT do
 
-- It does not download, resize, or crop card images — that's TAL-022.
 - It never opens, approves, or merges a PR on a `Talishar/*` org repo (I1) — no phase of this
   pipeline ever will; a human creates every upstream PR. It only pushes to `origin` (the fork)
   and prepares PR title/body as text.

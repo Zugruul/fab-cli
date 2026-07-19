@@ -589,8 +589,7 @@ card-implementation session.
 
 Skill file: `.claude/skills/talishar-implement-card/SKILL.md` (see `docs/design/talishar-E2.md`
 for the full pipeline design). A four-phase pipeline — **dossier** (research), **implementation**,
-images, **validation + hand-off** — of which the dossier, implementation, and validation + hand-off
-phases are fully specified; images remains a stubbed pointer to its future task (TAL-022). The
+**images**, **validation + hand-off** — all four phases fully specified. The
 dossier phase assembles, for a given card, live Card Vault true text + rulings
 (`fab-cli fabtcg card`), the-fab-cube stats (`fab-cli fabrary cards local --exact`), Fabrary usage
 context (`fab-cli fabrary cards search`), a talishar-brain recall of the closest matching
@@ -611,9 +610,18 @@ the local docker stack (`start.sh`), exercises the card's hooks via the backend'
 behavior as the dossier's `## Test Plan` section, then — only once validation genuinely passed —
 pushes the branch to `origin` (the fork) and emits a prepared PR title/body as text; per I1 it
 never opens, approves, or merges anything on the `Talishar/Talishar` org repo, and per §8.7 a
-failed validation stops the phase without pushing. The live tool orchestration for all three
-phases is only exercised by following the skill's Steps, per the same testing split
-`talishar-fork-sync` uses.
+failed validation stops the phase without pushing. The images phase (TAL-022) first checks
+whether the card's `cardList.ts` entry (a title-case display name, not the snake_case engine
+`cardID`) and processed images already exist — both are independent, full-catalog datasets
+refreshed by their own upstream maintainers, so a card can already have both even freshly after
+implementation; if so, the phase is a confirmed no-op (no branches, no script runs). Otherwise it
+edits `third_party/talishar-cardimages/scripts/downloadImages.js`'s `composeInitialApiUrl` in
+place on a branch of that clone's own fork, runs it (§10 I3: zero image artifacts ever land under
+fab-cli, ≤2 concurrent CDN requests), conditionally runs `generateTranslatedCollections.js` for
+reprints only, then runs `third_party/talishar-fe`'s `npm run generate-cards` on a branch of its
+own fork to refresh `cardList.ts` — neither branch pushed as part of this phase. The live tool
+orchestration for all four phases is only exercised by following the skill's Steps, per the same
+testing split `talishar-fork-sync` uses.
 
 ## Lore (legendarystories.net / fablore)
 
