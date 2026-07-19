@@ -78,6 +78,7 @@ fab-cli fabrary deck <deckId> --matchups-only
 fab-cli fabrary deck <deckId> --stats-only
 fab-cli fabrary deck <deckId> --matchup <name>   # single matchup guide (partial name match)
 fab-cli fabrary deck <deckId> --source <src>     # filter results by source (FaBrary, Talishar)
+fab-cli fabrary prep --hero <X> --vs <Y> [--format <fmt>]   # matchup prep sheet: X-vs-Y win rate/games (from meta) + each top X deck's Y matchup guide
 ```
 
 Format aliases: `cc` → Classic Constructed, `sa` → Silver Age, `blitz` → Blitz, `ll` → Living Legend, `upf` → Ultimate Pit Fight.
@@ -92,12 +93,22 @@ Heroes have **young** (Blitz/SA) and **adult** (CC) versions with different slug
 
 **"Sage" = Silver Age (the user's shorthand for "SA").** When the user says "Sage" they mean the **Silver Age format** (`--format sa`), NOT a hero class — there is no Sage class (e.g. Enigma is class Illusionist / talent Mystic). Silver Age is a **young-hero-only format**, which is why "sage only uses young heroes." So "best Sage X decks" → use the young slug (`enigma`, not `enigma-ledger-of-ancestry`) with `--format sa`, and "heroes valid in Sage" → heroes with Silver Age play data (see `fab-cli fabrary meta --format sa`).
 
-**`--json`**: `search`, `top`, and `deck` all support the global `--json` flag (machine-readable output,
-no ANSI/table decoration — see "Machine-readable output" below). `deck --json` respects whichever
+**`--json`**: `search`, `top`, `deck`, and `prep` all support the global `--json` flag (machine-readable
+output, no ANSI/table decoration — see "Machine-readable output" below). `deck --json` respects whichever
 sub-view flag was passed (`--decklist-only`/`--matchups-only`/`--stats-only`/`--matchup <name>`),
 emitting only that slice; with no sub-view flag it emits all three under `decklist`/`matchups`/`stats`
 keys. `top --json`'s shape follows its active mode: `{decks}` (default), `{perHero}` (`--per-hero`),
-`{heroGroups}` (`--top-n`), `{classGroups}` (`--top-n --by-class`).
+`{heroGroups}` (`--top-n`), `{classGroups}` (`--top-n --by-class`). `prep --json` emits `{prep}` — a
+`PrepSheet` with `matchupStat` (win rate/games from `meta`, or `null` with `noMatchupStatReason`) and
+`deckGuides` (per-deck sideboard diffs, or `[]` with `noDeckGuidesReason`); `decksWithoutGuide` counts
+top decks checked that had no `--vs`-specific guide.
+
+`prep --hero X --vs Y` aggregates, for hero X's top decks (by win rate, min 5 recorded games, up to 10
+decks — a smaller cap than `top`'s default since each candidate needs a full deck-detail fetch): the
+X-vs-Y win rate/game count (from the same `content.fabrary.net` meta data `meta --hero X` surfaces —
+`GameResult` has no opponent-hero field, so this can't be computed from raw game results) plus each top
+deck's Y-specific matchup guide (sideboard diff, preferred turn order, notes — reusing `deck --matchup`'s
+exact partial-name-match logic), labeled per source deck.
 
 ### Card Search
 
@@ -451,6 +462,7 @@ These are common ways the user asks for things — translate them to the right C
 | "best Prism lists / top lists for hero X" | `fab-cli fabrary top --hero <id> --format cc --sort winrate [--days N]` |
 | "compare these decks / meta evolution" | fetch each with `deck --decklist-only`, compare equipment + main + inventory |
 | "best N decks per hero (valid) in <format>" / "best Sage decks per hero" | `npx tsx scripts/best-decks-by-hero.ts --format <fmt> --min-games 30 --top N --out whatsapp` (Sage = `sa`) |
+| "best lists to prep against hero Y" / "matchup prep sheet for X vs Y" / "how do I beat Y with X" | `fab-cli fabrary prep --hero X --vs Y [--format <fmt>]` |
 | lore / story question ("who is X", "what is the Demonastery", "Arakni's origin") | `fab-cli lore search "<terms>"` + `lore show <page>`; answer ONLY from results, cite each `source_url`, never use memory |
 | "Talishar lists for hero X" | `fab-cli fabrary top --hero <id> --source Talishar` — note: returns empty if those decks log no Talishar results |
 | "compare prices for card X" / "TCGplayer vs Cardmarket for X" | `fab-cli price-comparison card "<name>"` |

@@ -747,4 +747,143 @@ describe("--json flag: fabrary search/top/deck/meta", () => {
     expect(Array.isArray(parsed.periods)).toBe(true);
     expect(parsed.periods.length).toBeGreaterThan(0);
   });
+
+  it("fabrary prep --hero X --vs Y --json emits { prep } aggregating meta stat + deck guide", async () => {
+    const d = deck({
+      deckId: "deck-p",
+      heroIdentifier: "prism-awakener-of-sol",
+    });
+    installFetchRouter([
+      metaRoute({
+        heroResults: [
+          {
+            heroIdentifier: "prism-awakener-of-sol",
+            results: [
+              {
+                opposingHeroIdentifier: "dorinthea-ironsong",
+                plays: 10,
+                wins: 7,
+              },
+            ],
+          },
+        ],
+      }),
+      algoliaSearchRoute([d]),
+      graphqlRoute("getResults", {
+        getResults: {
+          nextToken: null,
+          results: [
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-p",
+              gameId: "g1",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-p",
+              gameId: "g2",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-p",
+              gameId: "g3",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-p",
+              gameId: "g4",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
+            {
+              result: "Won",
+              source: "FaBrary",
+              notes: null,
+              deckId: "deck-p",
+              gameId: "g5",
+              turns: 8,
+              firstPlayer: true,
+              cardResults: [],
+            },
+          ],
+        },
+      }),
+      graphqlRoute("getDeck", {
+        getDeck: {
+          deckCards: [
+            {
+              cardIdentifier: "card-a",
+              quantity: 2,
+              sideboardQuantity: 0,
+              maybeQuantity: 0,
+              matchupQuantities: [
+                { matchupId: "m1", quantity: 0, sideboardQuantity: 0 },
+              ],
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 1,
+                power: 1,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
+            },
+          ],
+          matchups: [
+            {
+              matchupId: "m1",
+              name: "vs Dorinthea",
+              preferredTurnOrder: "first",
+              notes: null,
+            },
+          ],
+        },
+      }),
+    ]);
+    const logs: string[] = [];
+    vi.spyOn(console, "log").mockImplementation((s: string) => logs.push(s));
+
+    const program = buildJsonProgram();
+    await program.parseAsync(
+      [
+        "fabrary",
+        "prep",
+        "--hero",
+        "prism-awakener-of-sol",
+        "--vs",
+        "dorinthea",
+        "--json",
+      ],
+      { from: "user" },
+    );
+
+    const parsed = JSON.parse(logs[logs.length - 1]);
+    expect(parsed.prep.matchupStat.games).toBe(10);
+    expect(parsed.prep.matchupStat.winRate).toBeCloseTo(0.7);
+    expect(parsed.prep.deckGuides).toHaveLength(1);
+    expect(parsed.prep.deckGuides[0].matchup.name).toBe("vs Dorinthea");
+    expect(logs.every((l) => !ANSI_RE.test(l))).toBe(true);
+  });
 });
