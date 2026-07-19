@@ -2637,3 +2637,44 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/route-fixes-back-to-same-reviewer-for-round-2-not-unilateral-judgment
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T04:00:00Z'
+iteration:
+  task: TAL-030
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: friction
+  area: testing
+  severity: low
+  summary: A dev agent briefed to follow the established red-first-then-green commit
+    pattern for a doc-task-adapted TDD deliverable instead landed the structural test
+    and the document content in a single combined commit, breaking from the pattern
+    every prior similar task in the session had followed.
+  detail: The task brief explicitly instructed writing the test first, committing
+    it failing, then writing the document to make it pass -- matching the exact pattern
+    already established by several prior tasks in the same session. The dev agent
+    produced high-quality, independently-verified-genuine content, but skipped the
+    commit-history discipline entirely (one commit containing both). Two reviewers
+    and the orchestrator each had to independently reproduce the red state after the
+    fact (temporarily removing the document, confirming the test failed, restoring
+    it) to establish the artifact was real despite the missing process evidence --
+    extra verification work that a proper red-then-green commit history would have
+    made unnecessary.
+  generalized: Even when a brief explicitly specifies a TDD commit pattern with worked
+    examples from prior tasks in the same session, a dev agent may still collapse
+    the test-and-implementation commits into one. This isn't necessarily a content-quality
+    problem (the artifact can still be genuinely correct and testable), but it forces
+    every downstream reviewer to redo verification work (reproduce red-without-the-artifact)
+    that a compliant commit history would have made self-evident. Consider whether
+    the brief needs an even more explicit, mechanical instruction (e.g. 'run git log
+    after your first commit and confirm it shows exactly ONE file, the test, before
+    proceeding') rather than a prose description of the pattern, if this recurs.
+  routing:
+    action: brain-note
+    ref: dev/verify-own-commit-is-test-only-before-writing-implementation
