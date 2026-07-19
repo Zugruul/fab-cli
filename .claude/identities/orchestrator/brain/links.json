@@ -23,5 +23,10 @@
     "fires": 0,
     "last": null,
     "weight": 0.5
+  },
+  "ttl-equals-poll-interval-is-permanent-miss->pagination-cap-check-before-vs-after-fetch": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }
