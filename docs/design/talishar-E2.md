@@ -141,10 +141,99 @@ title/body), not a machine-only data interchange format.
   the dev agent should judge based on how much real branching logic the gap-detection/resume
   behavior actually needs.
 
+## TAL-021 — Implementation phase
+
+Grounded in: SPEC-TALISHAR.md §8.2, §8.3, §10 I2, I4.
+
+### Components
+
+- `.claude/skills/talishar-implement-card/SKILL.md` — extend the existing skill file's Phase 2
+  (currently stubbed) with fully-specified Steps, following the same "Standing invariants" +
+  numbered "Steps" shape as Phase 1.
+- All actual code changes for a card implementation happen in `third_party/talishar` (the vendored
+  engine clone) — a gitignored, separate git repository. **Nothing in this phase touches fab-cli's
+  own `src/`/`test/` tree for card behavior** — `src/talisharDossier.ts` (TAL-020) stays fab-cli's
+  only card-pipeline-adjacent source file; the actual `Card` subclass PHP lives entirely in the
+  vendored clone.
+
+### Data models
+
+No new fab-cli data model. The dossier (TAL-020's `formatDossier` shape) gains an **Implementation
+Notes** section, appended in place once implementation starts — same file, `## Status` flips from
+`dossier` to `implementing`.
+
+### Interfaces / contracts
+
+- **Branch naming and base** (§8.2): `feat/{card_id}` on `third_party/talishar`, based on a
+  freshly-synced `upstream/main` — run `/talishar-fork-sync` (or its script,
+  `scripts/talishar-fork-sync.sh`) FIRST, every time, before branching. Never branch off a stale
+  local `main`.
+- **Recipe fidelity** (§8.3, grounded in TAL-013's `tal-recipe-*` brain notes and TAL-020's
+  dossier): `zzCardCodeGenerator.php` output covers stats/types/pitch/cost automatically — only add
+  a `class {card_id} extends Card` with the SPECIFIC hooks the card's true text requires
+  (`PlayAbility`/`SpecificLogic`/`ProcessTrigger`/`CombatEffectActive`/`EffectPowerModifier`/etc.),
+  never a hook the card doesn't use. Touch `Constants.php`/`MenuFiles/StartHelper.php`/ability
+  files ONLY if the card genuinely needs new `ClassState` or a new engine-level hook — most simple
+  cards need none of that.
+- **§10 I4 (hard invariant, never violate)**: every behavioral decision in the implementation must
+  trace back to the dossier's Card Vault true text, never to remembered/assumed card text. If the
+  dossier is missing or stale for the target card, STOP and run/refresh the dossier phase first
+  (TAL-020's skill) rather than implementing from memory.
+- **§10 I2 (hard invariant)**: branch and commit only to `origin` (the user's fork) inside
+  `third_party/talishar` — this phase never touches `upstream`, and if the fork's `main` has
+  diverged non-fast-forward from `upstream/main`, that's a `/talishar-fork-sync` finding to
+  surface, not something this phase force-pushes past.
+- **"php -l clean on touched files"** (the task's literal AC) — run `php -l` on every PHP file the
+  implementation touches before considering the phase done. Requires a local `php` binary (install
+  via `brew install php` if missing — a normal one-time dev-environment setup step, not a
+  project-gating dependency).
+- **"diff contains no unrelated changes"** (the task's literal AC) — `git -C third_party/talishar
+  diff upstream/main --stat` on the finished branch should show ONLY the files a real card
+  implementation of this shape touches (compare against the #1370/#1369 shape: typically the
+  `{SET}Cards.php` file, and only `Constants.php`/`StartHelper.php`/an ability file if a genuinely
+  new `ClassState` was needed).
+
+### Key sequences
+
+1. **Choose the target card.** TAL-021's own AC test case: "a modal-or-simpler card" — modal
+   complexity is the UPPER bound, a plainer single-hook card is an equally valid (simpler) choice.
+   Selection criteria: (a) NOT already implemented with real custom hooks in
+   `third_party/talishar/Classes/CardObjects/{SET}Cards.php` (an empty-constructor-only class, or
+   no class at all, both count as "not yet implemented" — `zzCardCodeGenerator.php`-only coverage
+   is not an implementation); (b) has a real, findable rules text via Card Vault (`fab-cli fabtcg
+   card`); (c) mechanically simple enough for a first pipeline exercise — a single on-play/on-hit
+   effect, or at most one modal choice, no exotic archetype (windup, multi-card combos). Use
+   `fab-cli fabrary cards local`/`fab-cli fabtcg card` plus a grep of
+   `third_party/talishar/Classes/CardObjects/` to find a real candidate — do not invent a
+   hypothetical card.
+2. Run `/talishar-fork-sync` to freshly sync `third_party/talishar`'s fork against upstream.
+3. Run the dossier phase (TAL-020's skill, Phase 1) against the chosen card for real — this
+   produces the true text + similar-implementation citation the implementation must be grounded in.
+4. Branch `feat/{card_id}` off the freshly-synced `origin/main` inside `third_party/talishar`.
+5. Implement per §8.3 — minimal hook set, citing the dossier at every behavioral decision point.
+6. `php -l` every touched PHP file; fix any syntax errors.
+7. Update the dossier: `## Status` → `implementing`, append an `## Implementation Notes` section
+   recording which hooks were used and why, citing the dossier's true text for each.
+8. Do NOT push the branch yet (§8.6/hand-off is TAL-023's job) — leave it as a local, validated
+   branch on the vendored clone.
+
+### Decisions
+
+- **This phase's "done" state is a local, uncommitted-to-any-remote branch inside
+  `third_party/talishar`.** Pushing to the fork and preparing PR text is explicitly TAL-023's job
+  (§8.6) — TAL-021 stops at "implemented and `php -l` clean," matching §8.7's "never push a branch
+  whose validation did not run" (validation is TAL-023, via the docker stack).
+- **Card selection is part of this task's own research, not a pre-assigned card name** — the AC
+  only constrains complexity ("modal-or-simpler"), not identity. The dev agent doing TAL-021 picks
+  a real, currently-unimplemented, simple card and documents why it fits the AC's shape.
+- **fab-cli's own TDD/gate is unaffected by this phase.** All the real work (PHP, a separate git
+  repo) happens inside the gitignored `third_party/talishar` clone; fab-cli's `npm run gate` stays
+  green trivially UNLESS this task also extends the skill file (a fab-cli-tracked markdown file),
+  which does need its own structural test update mirroring TAL-020's pattern (Phase 2's Steps now
+  present, not stubbed).
+
 ## Out of scope for this epic-task
 
-- Implementation phase (TAL-021): creating the upstream branch, writing the actual `Card` subclass,
-  touching `Constants.php`/ClassState files.
 - Image pipeline step (TAL-022): CardImages script runs, FE `generate-cards` refresh.
 - Validation + hand-off (TAL-023): docker stack, real game exercise, PR text preparation, branch
   push to the fork.
