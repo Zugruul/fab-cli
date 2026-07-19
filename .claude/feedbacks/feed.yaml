@@ -2170,3 +2170,65 @@ items:
     action: ignore
     ref: reinforces an existing rigor pattern (assert-exact-values-not-just-counts),
       no new note needed
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T01:15:00Z'
+iteration:
+  task: '16'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: other
+  severity: low
+  summary: An orchestrator's own design doc specified a cache TTL equal to a polling
+    loop's own interval, which makes the cache a permanent miss by construction —
+    not caught until independent review
+  detail: The design doc's caching strategy (wrap a per-tick fetch in a disk cache
+    with ttlMs = the polling loop's own interval) seemed reasonable when written,
+    but since the loop's own delay always fires at-or-after the interval, elapsed
+    time between consecutive cache checks can never be strictly less than the TTL
+    — the cache can never hit during normal operation. This wasn't caught during design
+    or initial implementation; two independent review passes both found it when investigating
+    an open question the orchestrator explicitly flagged for their attention.
+  evidence:
+  - fab-cli#16
+  generalized: When designing a cache TTL for state accessed by a recurring timer/poll
+    loop, if the TTL equals the loop's own interval, the cache is mathematically guaranteed
+    to be a permanent miss (the loop's delay never fires strictly before the interval
+    elapses, so elapsed time at each check is always >= TTL). This is worth checking
+    explicitly at design time — sketch out two consecutive access timestamps under
+    the loop's actual delay mechanism and verify the TTL comparison would ever evaluate
+    true — rather than assuming a TTL 'roughly matching' the access cadence provides
+    caching value.
+  routing:
+    action: brain-note
+    ref: orchestrator/ttl-equals-poll-interval-is-permanent-miss
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Explicitly flagging an open design question in a PR description for two
+    independent review passes to separately investigate produced complementary, synthesizable
+    findings rather than one pass simply deferring to the other
+  detail: Rather than deciding a design uncertainty unilaterally, the orchestrator
+    stated the open question directly in the PR body and asked both review passes
+    to independently assess it. Spec-compliance traced WHY the mechanism didn't deliver
+    its intended guarantee (proving round-diffing was the real safety net); code-quality
+    independently recommended WHAT to do about it (remove the dead cache wrapper)
+    and separately warned against a naive alternative fix. Synthesizing both into
+    one fix instruction avoided a fix that addressed only half the concern.
+  evidence:
+  - fab-cli#16
+  generalized: When an orchestrator notices its own design has an unresolved question
+    worth a second opinion, stating it explicitly in the PR/review brief (rather than
+    silently deciding or hoping a reviewer stumbles onto it) and asking multiple independent
+    review passes to assess it separately tends to produce complementary rather than
+    redundant findings — worth doing deliberately for any genuinely uncertain design
+    decision, not just waiting for review to organically surface it.
+  routing:
+    action: brain-note
+    ref: orchestrator/synthesize-both-review-passes-on-shared-question
