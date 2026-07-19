@@ -2448,3 +2448,69 @@ items:
   routing:
     action: brain-note
     ref: dev/stash-reproduce-check-cannot-detect-shared-environment-staleness
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T02:25:00Z'
+iteration:
+  task: TAL-023
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: permissions
+  severity: low
+  summary: Explicitly asking the human for consent before a task involving a new class
+    of externally-visible action (pushing to the user's own GitHub fork of a third-party
+    project) — separate from and beyond the session's earlier general auto-merge consent
+    — surfaced a genuine decision point without over-blocking the rest of the autonomous
+    loop.
+  detail: 'Earlier in the session, the human authorized autonomous merging for fab-cli''s
+    own PRs. TAL-023 involved a different kind of action never covered by that consent:
+    pushing a real branch to the user''s fork of a third-party open-source project
+    (Talishar), visible externally on GitHub. Rather than treating the earlier fab-cli
+    merge consent as blanket authorization for any future GitHub-visible action, the
+    orchestrator asked a single, scoped question before this specific task, offered
+    a middle option (validate but don''t push), and proceeded once the human explicitly
+    said yes. The task then completed with a real, independently-verified push and
+    zero PR-system activity.'
+  generalized: A standing consent for one class of action (e.g. 'auto-merge PRs on
+    this project') does not automatically cover a structurally different class of
+    externally-visible action that arises later (e.g. 'push to a different, third-party
+    repository the user owns'). When a new task would be the first to exercise a materially
+    different kind of GitHub/external-system-visible action, ask once, scoped to that
+    specific action, before proceeding — even in an otherwise fully autonomous session.
+    Offering a middle-ground option (do everything except the risky/visible step)
+    alongside yes/no gives the human a real choice rather than a binary gate.
+  routing:
+    action: brain-note
+    ref: orchestrator/scope-consent-to-the-specific-action-class-not-blanket-from-earlier-grant
+- category: recommendation
+  area: review
+  severity: low
+  summary: For a task making a high-stakes, hard-to-reverse real-world claim (a push
+    to an external repository, a payment, an email sent), briefing the reviewer to
+    treat that specific claim as the highest-priority item to verify — separate from
+    and before the rest of the normal review checklist — produced unusually rigorous,
+    multi-angle verification of exactly the thing that mattered most.
+  detail: The spec-compliance reviewer brief for this task explicitly called out the
+    fork-push-and-zero-PR-anywhere claim as 'the single most important check in this
+    review' and asked for it to be verified first, with specific commands. The resulting
+    review checked the claim from multiple independent angles (branch SHA match, gh
+    pr list from both the org-repo and fork-repo sides, a text search backstop, and
+    cross-referencing raw leftover artifacts the author didn't write to be read) rather
+    than a single confirming check -- the kind of rigor that a review treating this
+    claim as just one item among many equally-weighted checklist entries would likely
+    not have produced.
+  generalized: When briefing a reviewer for a task that makes one especially consequential,
+    hard-to-reverse, or externally-visible claim, explicitly flag that ONE claim as
+    deserving disproportionate scrutiny and multiple independent verification angles
+    — rather than listing it as one bullet among a flat checklist of equally-weighted
+    items. The review's depth on any given item tends to track how the brief framed
+    its stakes, not just whether it was mentioned.
+  routing:
+    action: brain-note
+    ref: orchestrator/brief-reviewers-to-prioritize-the-highest-stakes-claim
