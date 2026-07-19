@@ -24,11 +24,6 @@
     "last": "2026-07-18",
     "weight": 0.5
   },
-  "non-transitive-comparator-with-fallback-entries->assert-exact-values-not-just-counts": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
   "per-item-loop-three-default-cases->bash-if-guard-disables-errexit-in-function": {
     "fires": 2,
     "last": "2026-07-18",
