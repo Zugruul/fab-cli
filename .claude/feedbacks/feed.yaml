@@ -2288,3 +2288,59 @@ items:
   routing:
     action: brain-note
     ref: reviewer/trace-invariant-per-step-and-spot-honest-citation-language
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T01:40:00Z'
+iteration:
+  task: '18'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: A dev agent honestly self-flagged an architectural judgment call in its
+    own PR description rather than silently shipping it, which let review catch a
+    real UX gap before merge
+  detail: The dev agent's own report explicitly called out that it chose a pattern
+    (calling an auth-token function directly from a 'pure data module' rather than
+    the codebase's established command-layer wrapper) and asked for a second look.
+    The code-quality review took this seriously, traced every other data module in
+    the codebase to check whether the pattern was actually established precedent,
+    found it wasn't, and required a fix.
+  evidence: []
+  generalized: When a dev agent notices it made a judgment call that deviates from
+    an otherwise-consistent codebase pattern, explicitly flagging it in the PR description
+    (rather than silently proceeding with a plausible-sounding justification) reliably
+    gets it real scrutiny — review effort naturally concentrates on flagged uncertainties.
+    Encourage this self-flagging behavior in dev briefs generally, not just accept
+    it when it happens.
+  routing:
+    action: brain-note
+    ref: orchestrator/auth-token-belongs-at-command-layer-not-data-module
+- category: incident
+  area: other
+  severity: low
+  summary: A routine git command (discarding a stray uncommitted diff before a branch
+    switch) hung and timed out, in a repo known to have multiple concurrent sessions
+    sharing state
+  detail: '''git checkout -- .'' timed out after 2 minutes with no error output, on
+    a trivial operation that normally completes instantly. No stale lock file was
+    found on retry, and the retry succeeded immediately. Root cause undetermined,
+    but the repo has documented concurrent-session lock contention issues from earlier
+    in the same session''s history.'
+  evidence: []
+  generalized: In a repo where multiple autonomous sessions share underlying git state
+    (even across separate worktrees, which can still share .git/modules/ or other
+    resources), a normally-instant git command hanging is plausibly transient lock
+    contention from a concurrent session rather than a real problem — a bounded retry
+    after confirming no stale lock file exists is a reasonable recovery, not a signal
+    to investigate further or treat as a genuine incident.
+  routing:
+    action: ignore
+    ref: transient, self-resolved on retry, no clear actionable fix — noting for pattern-recognition
+      only
