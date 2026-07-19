@@ -140,6 +140,78 @@ Grounded in: SPEC-TALISHAR.md §9.2, §9.3, §9.4.
 - **Reuse `test/talishar-audit-doc.test.ts`** rather than fragmenting audit-doc testing across
   multiple files, unless the dev agent has a good reason to split it.
 
+## TAL-032 — Fix equipment/card double-activation under lag (BE #183 regression)
+
+Grounded in: TAL-031's finding (`docs/TALISHAR-AUDIT.md`, "BE #183" subsection, PR #115), upstream
+`Talishar/Talishar#183`, SPEC-TALISHAR.md §10 I1/I2/I4.
+
+### Components
+
+- `third_party/talishar/ProcessInput.php` — backend request handler, needs to validate
+  `expectedRevision`/`commandId` (currently reads neither, per TAL-031's zero-match grep).
+- `third_party/talishar-fe/src/routes/game/components/elements/playerHandCard/PlayerHandCard.tsx`
+  — `playCardFunc` needs to gate on `isPlayerInputInProgress`.
+- 8 equipment/hero/arsenal zone components (`WeaponRZone`, `ChestEqZone`, `ArmsEqZone`,
+  `LegsEqZone`, `HeadEqZone`, `WeaponLZone`, `HeroZone`, `ArsenalZone`) — need
+  `preventUseOnClick={isPlayerInputInProgress}` wired into their `<CardDisplay>` calls, matching
+  the pattern already used by `GraveyardZone`/`BanishZone`/`PitchZone`/`OtherInput`.
+
+### Interfaces / contracts
+
+- **Blast radius is real and must be respected**: `ProcessInput.php` is the single dispatch point
+  for EVERY card action in the engine, not just equipment. A validation change here is much
+  higher-risk than a single card's `Card` subclass — it must not reject legitimate, already-working
+  request patterns (e.g. a genuinely-first request for a fresh gamestate, or requests from card
+  types/flows that don't yet send `expectedRevision`/`commandId` at all, if any exist beyond
+  `playCard`/`submitButton`/the third `GameSlice.ts` thunk TAL-031 found).
+- **Research before touching the shared file**: before writing the validation logic, grep
+  `third_party/talishar-fe/src` for EVERY caller that sends `expectedRevision`/`commandId` (TAL-031
+  found 3 call sites in `GameSlice.ts` — confirm that's still the complete set) and every
+  `ProcessInput.php` caller pattern that does NOT send them, so the backend validation degrades
+  gracefully (skip the check, don't reject) for any request shape that legitimately omits these
+  fields rather than treating their absence as automatically invalid.
+- **§10 I4**: derive the exact validation semantics from the upstream issue's own discussion
+  (`gh issue view 183 --repo Talishar/Talishar`) plus the real current code shape — don't invent
+  a generic "reject stale revisions" rule without confirming it matches how `lastUpdate`/gamestate
+  revisioning actually works elsewhere in the engine (check `GetUpdateSSE.php`'s cache-counter
+  mechanism, already documented in TAL-013's `tal-arch-gamefile-lifecycle` brain note, for the
+  existing revision-tracking convention to stay consistent with).
+- **Validation via the docker stack (same pattern as TAL-023)**: bring up the local stack, exercise
+  a normal single-click card play (must still work, unaffected) AND a deliberate rapid-double-click
+  reproduction of the original bug (must now be correctly suppressed/rejected) for at least one
+  equipment card and one hand card.
+- **§10 I1/I2**: same as TAL-021/023 — implement on local branches of the vendored clones' own
+  forks, validate, and STOP before pushing to ask the orchestrator/human explicitly (this is a
+  NEW instance of the fork-push action class, not covered by any earlier session consent for a
+  different task — needs its own explicit check per this session's own established practice).
+
+### Key sequences
+
+1. Re-read TAL-031's finding in full (`docs/TALISHAR-AUDIT.md`'s "BE #183" section) plus the
+   upstream issue thread.
+2. Map every caller of `expectedRevision`/`commandId` (FE) and every code path through
+   `ProcessInput.php` (BE) that would be affected by adding validation — confirm the full
+   blast radius before writing a single line.
+3. Implement the BE validation (reject stale `expectedRevision` and/or dedupe by `commandId`) on a
+   local branch of `third_party/talishar`.
+4. Implement the FE gating (`isPlayerInputInProgress` check in `PlayerHandCard.tsx`,
+   `preventUseOnClick` wiring in the 8 zone components) on a local branch of
+   `third_party/talishar-fe`.
+5. Validate via the docker stack: normal play still works; rapid double-click no longer
+   double-activates.
+6. STOP before pushing anywhere — report readiness and wait for explicit push authorization,
+   same as TAL-023's pattern.
+
+### Decisions
+
+- **This is a genuine bug fix, not a new-card exercise** — unlike TAL-021, there's no "dossier"
+  phase; the research phase here is understanding the existing request-validation surface, not a
+  card's true text.
+- **Fork-push for this task needs its own fresh consent**, even though the user already authorized
+  continuing into TAL-032 generally — per this session's own established practice (and a retro
+  lesson minted from TAL-023), a consent to "do the work" doesn't automatically cover "push to an
+  external fork," which is asked separately when that point is actually reached.
+
 ## Out of scope for this epic-task
 
-(none — TAL-030/031 are E3's only two tasks per the current backlog)
+- TAL-033 (PHPUnit smoke-test coverage) — separate task, tracked independently.
