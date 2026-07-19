@@ -1,20 +1,5 @@
 {
-  "auth-token-belongs-at-command-layer-not-data-module->expose-internally-resolved-ids-dont-rederive": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
   "concurrent-session-race-on-adhoc-bugfix->gh-pr-merge-worktree-branch-lock": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "gate-green-can-hide-uncommitted-local-fixes->reproduce-gate-claims": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "gate-green-can-hide-uncommitted-local-fixes->scoped-green-verification": {
     "fires": 0,
     "last": null,
     "weight": 0.5
@@ -30,16 +15,6 @@
     "weight": 0.5
   },
   "prettier-is-the-easiest-gate-step-to-silently-miss->gate-green-can-hide-uncommitted-local-fixes": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "prettier-is-the-easiest-gate-step-to-silently-miss->scoped-green-verification": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "ttl-equals-poll-interval-is-permanent-miss->pagination-cap-check-before-vs-after-fetch": {
     "fires": 0,
     "last": null,
     "weight": 0.5
