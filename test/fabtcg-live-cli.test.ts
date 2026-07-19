@@ -1,4 +1,7 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
+import * as fs from "node:fs";
+import * as os from "node:os";
+import * as path from "node:path";
 import { buildJsonProgram } from "./helpers/jsonProgram";
 import {
   installHttpMock,
@@ -112,12 +115,17 @@ describe("fabtcg coverage --path --live (CLI wiring)", () => {
   });
 
   it("--live with a single resolved match prints the static summary, then a live update line on the first tick, then stops cleanly on SIGINT", async () => {
+    const tmpCacheDir = await fs.promises.mkdtemp(
+      path.join(os.tmpdir(), "fab-cli-live-cli-cache-"),
+    );
+    vi.stubEnv("FAB_HTTP_CACHE_DIR", tmpCacheDir);
+
     mockPool(mock, "https://fabtcg.com")
       .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
       .reply(200, COVERAGE_INDEX_HTML, {
         headers: { "content-type": "text/html" },
       })
-      .times(3);
+      .persist();
     mockPool(mock, "https://fabtcg.com")
       .intercept({ path: `/coverage/${SLUG}/results/1/`, method: "GET" })
       .reply(
@@ -160,5 +168,7 @@ describe("fabtcg coverage --path --live (CLI wiring)", () => {
     const out = logs.join("\n");
     expect(out).toMatch(/Watching for live updates/);
     expect(out).toMatch(/Stopped/);
+
+    await fs.promises.rm(tmpCacheDir, { recursive: true, force: true });
   });
 });

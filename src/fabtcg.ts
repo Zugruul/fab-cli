@@ -1,4 +1,4 @@
-import { httpFetch, createLimiter, FABTCG_MAX_CONCURRENCY } from "./http";
+import { httpFetch, createLimiter, FABTCG_MAX_CONCURRENCY, cachedFetch } from "./http";
 
 const EVENTS_URL = "https://fabtcg.com/organised-play/";
 const COVERAGE_BASE = "https://fabtcg.com/coverage";
@@ -657,6 +657,128 @@ export async function fetchPlayerPath(
     byes: rounds.filter((r) => r.result === "Bye").length,
     byFormat: [...formatMap.entries()].map(([format, s]) => ({ format, wins: s.wins, losses: s.losses, draws: s.draws })),
   };
+}
+
+// ─── live follow ──────────────────────────────────────────────────────────────
+
+export interface LiveFollowOptions {
+  /** Poll interval, ms. Default 60_000. */
+  intervalMs?: number;
+  /** Called once per newly-seen round result, with a timestamped line. */
+  onUpdate: (line: string) => void;
+  /** Called once, when final standings appear. */
+  onFinal: (summary: string) => void;
+  /** Caller-owned; aborting stops the loop cleanly. */
+  signal: AbortSignal;
+  /** Override the cachedFetch cache directory (testability). */
+  cacheDir?: string;
+}
+
+export interface LiveFollowResult {
+  reason: "final-standings" | "aborted";
+}
+
+/** Resolves `true` if `signal` aborted before `ms` elapsed, `false` if the
+ *  full delay elapsed first. Aborting resolves immediately, not after the
+ *  remaining delay. */
+function cancellableDelay(ms: number, signal: AbortSignal): Promise<boolean> {
+  if (signal.aborted) return Promise.resolve(true);
+  return new Promise((resolve) => {
+    const onAbort = () => {
+      clearTimeout(timer);
+      resolve(true);
+    };
+    const timer = setTimeout(() => {
+      signal.removeEventListener("abort", onAbort);
+      resolve(false);
+    }, ms);
+    signal.addEventListener("abort", onAbort, { once: true });
+  });
+}
+
+function liveTimestamp(): string {
+  return new Date().toTimeString().slice(0, 8);
+}
+
+/** Build the tracked player's result line for a newly-seen round, from that
+ *  round's pairings. Format-agnostic — a round's pairing extraction doesn't
+ *  care which format that round happened to be (dual-format events need no
+ *  special-case handling). */
+function buildRoundUpdateLine(
+  pairings: RoundPairing[],
+  lowerName: string,
+  round: number,
+): string | null {
+  const pairing = pairings.find(
+    (p) =>
+      p.player1.toLowerCase().includes(lowerName) ||
+      p.player2.toLowerCase().includes(lowerName),
+  );
+  if (!pairing) return null;
+
+  const isPlayer1 = pairing.player1.toLowerCase().includes(lowerName);
+  const opponent = isPlayer1 ? pairing.player2 : pairing.player1;
+  const opponentHero = isPlayer1 ? pairing.player2Hero : pairing.player1Hero;
+
+  let result: string;
+  if (pairing.isBye) result = "Bye";
+  else if (pairing.winner === null) result = "D";
+  else result = (isPlayer1 ? pairing.winner === 1 : pairing.winner === 2) ? "W" : "L";
+
+  const heroSuffix = opponentHero ? ` (${opponentHero})` : "";
+  return `[${liveTimestamp()}] Round ${round}: ${result} vs ${opponent}${heroSuffix}`;
+}
+
+function buildFinalSummaryLine(rows: StandingsRow[], lowerName: string): string {
+  const row = rows.find((r) => r.player.toLowerCase().includes(lowerName));
+  if (!row) return `[${liveTimestamp()}] Final standings are up.`;
+  return `[${liveTimestamp()}] Final standings: ${row.player} finished rank ${row.rank} (${row.wins} wins, ${row.hero})`;
+}
+
+/** Poll a tournament's coverage for a tracked player's new round results,
+ *  ending cleanly on final standings or an aborted signal. See
+ *  docs/design/fab-E4.md for the full contract. */
+export async function runLiveFollow(
+  slug: string,
+  playerName: string,
+  opts: LiveFollowOptions,
+): Promise<LiveFollowResult> {
+  const intervalMs = opts.intervalMs ?? 60_000;
+  const lowerName = playerName.toLowerCase();
+
+  const initial = await fetchPlayerPath(slug, playerName);
+  const seenRounds = new Set<number>(initial?.rounds.map((r) => r.round) ?? []);
+  let hasEnded = false;
+
+  for (;;) {
+    const aborted = await cancellableDelay(intervalMs, opts.signal);
+    if (aborted) return { reason: "aborted" };
+
+    const idx = await cachedFetch(
+      `live-index:${slug}`,
+      () => fetchCoverageIndex(slug),
+      { ttlMs: intervalMs, cacheDir: opts.cacheDir },
+    );
+
+    const newRounds = idx.resultRounds
+      .filter((r) => !seenRounds.has(r))
+      .sort((a, b) => a - b);
+    for (const round of newRounds) {
+      const pairings = await fetchRoundPairings(slug, round);
+      const line = buildRoundUpdateLine(pairings, lowerName, round);
+      seenRounds.add(round);
+      if (line) opts.onUpdate(line);
+    }
+
+    if (idx.hasFinalStandings && !hasEnded) {
+      hasEnded = true;
+      const rows = await fetchStandings(slug, "final").catch(
+        () => [] as StandingsRow[],
+      );
+      opts.onFinal(buildFinalSummaryLine(rows, lowerName));
+      return { reason: "final-standings" };
+    }
+  }
 }
 
 // ─── decklist parsing ─────────────────────────────────────────────────────────
