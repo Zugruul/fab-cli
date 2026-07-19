@@ -232,9 +232,81 @@ Notes** section, appended in place once implementation starts — same file, `##
   which does need its own structural test update mirroring TAL-020's pattern (Phase 2's Steps now
   present, not stubbed).
 
+## TAL-023 — Validation + hand-off, end-to-end run
+
+Grounded in: SPEC-TALISHAR.md §8.5, §8.6, §8.7, §10 I1.
+
+### Components
+
+- `.claude/skills/talishar-implement-card/SKILL.md` — extend Phase 4 (currently stubbed) with
+  fully-specified Steps, same shape as Phases 1-2.
+- No new fab-cli source files expected — this phase is almost entirely operational (bring up a
+  docker stack, exercise a card, push a branch), not logic to unit-test. The one fab-cli-tracked
+  artifact is the skill-file extension itself, which gets the same structural-test TDD treatment
+  as Phases 1/2.
+
+### Interfaces / contracts
+
+- **Bring-up**: `bash start.sh` inside `third_party/talishar` (per the already-merged
+  `docs/TALISHAR-ARCHITECTURE.md`'s "Local Dev Stack" section and `tal-dev-*` brain notes) —
+  Apache/PHP on port 8080, MySQL, Redis. Sibling mount requirement (`../Talishar-FE`,
+  `../CardImages`) is already satisfied by this repo's vendoring layout
+  (`third_party/{talishar,talishar-fe,talishar-cardimages}` as direct siblings).
+- **Exercise the card via API, not a browser automation tool** — SPEC §8.5 says "FE or API
+  endpoints"; for an agent, the API path (`third_party/talishar/APIs/*.php` — already mapped in
+  TAL-013's `tal-arch-api-surface` brain note) is far more reliable to script than driving the
+  React FE. Play a game that gets the target card (Wrecking Ball, from TAL-021) into play and
+  attacking, and confirm via the game state response that: the draw happened, the discard
+  happened, and (if the discarded card's power was ≥6) Intimidate applied — or, if it wasn't ≥6,
+  that Intimidate correctly did NOT apply. Exercising BOTH branches of the conditional (if
+  feasible in one or two short games) is stronger evidence than one happy-path run.
+- **Recorded as the dossier's Test Plan** (per TAL-020's dossier shape) — update
+  `.claude/talishar/dossiers/wrecking-ball.md`'s `## Status` to `ready-for-pr` and append a `##
+  Test Plan` section describing exactly what was exercised and observed, in the shape upstream PR
+  bodies use (this becomes the literal PR body's Test Plan section in the next step).
+- **§8.7 (hard invariant)**: if the stack fails to start, or observed behavior doesn't match the
+  dossier's true text, STOP at that phase and update the dossier to describe the blocker — never
+  push a branch whose validation did not run. A failed validation is a legitimate, complete
+  outcome for this task (report it, don't force a push).
+- **Hand-off (§8.6)**: once validation passes, push `feat/wrecking_ball_red` to `origin`
+  (`git@github.com:Zugruul/Talishar.git`, the user's fork) — a normal `git push`, nothing more.
+  Then emit, as TEXT ONLY (never actually create anything on GitHub), a prepared PR title
+  (`feat: {Card Name} ({SET}{number})` — e.g. `feat: Wrecking Ball (RVD013)`) and body (Summary +
+  Test plan, upstream convention, dossier-cited).
+- **§10 I1 (hard invariant, never violate)**: this phase pushes to `origin` (the fork) and STOPS.
+  It NEVER calls `gh pr create`, `gh pr merge`, `gh pr ready`, or any other PR-mutating action
+  against `Talishar/Talishar`. The prepared title/body is text for the human to paste in
+  themselves.
+
+### Key sequences
+
+1. Confirm the dossier's Status is `implementing` (TAL-021's end state) and the target card's PHP
+   change exists on its local branch (from TAL-021).
+2. `cd third_party/talishar && bash start.sh` — bring up the docker stack. If it fails, STOP
+   (§8.7) and report the exact failure (build error, port conflict, etc.) rather than working
+   around it in a way that could mask a real problem.
+3. Once up, use the API endpoints to start a game, get to a state where the target card can
+   attack, and observe the response for the implemented behavior (draw, discard, conditional
+   Intimidate).
+4. Record the observed behavior in the dossier's new `## Test Plan` section.
+5. `git push origin feat/wrecking_ball_red` (from `third_party/talishar`).
+6. Emit the prepared PR title + body as plain text in the task's final report (and, if useful, as
+   a file the human can copy from) — never touch GitHub's `Talishar/Talishar` repo itself.
+7. Bring the docker stack back down (`docker compose down` or equivalent) — don't leave it running
+   after the task ends.
+
+### Decisions
+
+- **API-based validation, not FE browser automation.** SPEC §8.5 permits either; the API path is
+  the practical choice for an autonomous agent (scriptable, deterministic, no browser-automation
+  flakiness) and is already well-mapped by TAL-013's brain notes.
+- **The dossier's Test Plan section is the reusable artifact** — both the human-facing "what did
+  you actually verify" record AND, verbatim or near-verbatim, the eventual PR body's Test Plan.
+  Write it once, in upstream-PR-body-ready prose.
+- **Bringing the stack down after validation is part of "done"** — this task shouldn't leave a
+  docker stack running as a side effect for the next session to discover.
+
 ## Out of scope for this epic-task
 
 - Image pipeline step (TAL-022): CardImages script runs, FE `generate-cards` refresh.
-- Validation + hand-off (TAL-023): docker stack, real game exercise, PR text preparation, branch
-  push to the fork.
 - Latency/DX audit (E3) — unrelated to the card pipeline's dossier phase.
