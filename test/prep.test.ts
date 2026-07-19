@@ -241,7 +241,9 @@ describe("buildPrepSheet", () => {
       getDeckRoute("deck-2", []),
     ]);
 
-    const sheet = await buildPrepSheet("hero-x", "heroy", { format: "cc" });
+    const sheet = await buildPrepSheet("hero-x", "heroy", "test-token", {
+      format: "cc",
+    });
 
     expect(sheet.matchupStat).not.toBeNull();
     expect(sheet.matchupStat?.games).toBe(20);
@@ -277,7 +279,9 @@ describe("buildPrepSheet", () => {
       getDeckRoute("deck-1", []),
     ]);
 
-    const sheet = await buildPrepSheet("hero-x", "heroy", { format: "cc" });
+    const sheet = await buildPrepSheet("hero-x", "heroy", "test-token", {
+      format: "cc",
+    });
 
     expect(sheet.matchupStat).toBeNull();
     expect(sheet.noMatchupStatReason).toMatch(/no.*meta data/i);
@@ -303,7 +307,9 @@ describe("buildPrepSheet", () => {
       getDeckRoute("deck-1", []), // no guide at all
     ]);
 
-    const sheet = await buildPrepSheet("hero-x", "heroy", { format: "cc" });
+    const sheet = await buildPrepSheet("hero-x", "heroy", "test-token", {
+      format: "cc",
+    });
 
     expect(sheet.matchupStat).not.toBeNull();
     expect(sheet.deckGuides).toHaveLength(0);
@@ -337,7 +343,9 @@ describe("buildPrepSheet", () => {
 
     // Partial, lowercase --vs input should still resolve against an uppercase matchup name,
     // matching `deck --matchup <name>`'s case-insensitive substring semantics.
-    const sheet = await buildPrepSheet("hero-x", "hero y", { format: "cc" });
+    const sheet = await buildPrepSheet("hero-x", "hero y", "test-token", {
+      format: "cc",
+    });
 
     expect(sheet.deckGuides).toHaveLength(1);
     expect(sheet.deckGuides[0].matchup.name).toBe("VS HERO Y CONTROL");

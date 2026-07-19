@@ -654,9 +654,9 @@ export function registerFabrary(program: Command): Command {
           json,
           chalk.dim(`Building prep sheet (${opts.hero} vs ${opts.vs})…\r`),
         );
-        const sheet = await buildPrepSheet(opts.hero, opts.vs, {
-          format: opts.format,
-        });
+        const sheet = await callWithToken((t) =>
+          buildPrepSheet(opts.hero, opts.vs, t, { format: opts.format }),
+        );
         progressWrite(
           json,
           "                                                  \r",

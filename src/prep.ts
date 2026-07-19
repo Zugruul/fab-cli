@@ -12,8 +12,11 @@ import {
   pLimit,
   type MatchupSummary,
 } from "./graphql";
-import { buildMatchupCardDiff, type MatchupDiffEntry } from "./display";
-import { getValidToken } from "./config";
+import {
+  buildMatchupCardDiff,
+  findMatchupByPartialName,
+  type MatchupDiffEntry,
+} from "./display";
 import type { AlgoliaDeck } from "./types";
 
 export interface DeckCardDiffEntry {
@@ -67,19 +70,10 @@ function toDiffEntries(
     .map((e) => ({ cardIdentifier: e.id, quantity: e.qty, pitch: e.pitch }));
 }
 
-/** Same case-insensitive substring match `deck --matchup <name>` uses to resolve a
- *  partial matchup-name input. */
-function findMatchupByName(
-  matchups: MatchupSummary[],
-  needle: string,
-): MatchupSummary | undefined {
-  const lower = needle.toLowerCase();
-  return matchups.find((m) => m.name.toLowerCase().includes(lower));
-}
-
 export async function buildPrepSheet(
   heroX: string,
   heroY: string,
+  token: string,
   opts: PrepOptions = {},
 ): Promise<PrepSheet> {
   const deckLimit = opts.deckLimit ?? DEFAULT_DECK_LIMIT;
@@ -112,8 +106,6 @@ export async function buildPrepSheet(
   let decksWithoutGuide = 0;
 
   if (searchResult.hits.length > 0) {
-    const token = await getValidToken();
-
     const resultsTasks = searchResult.hits.map(
       (deck: AlgoliaDeck) => async () => {
         const r = await getDeckResults(token, deck.deckId);
@@ -129,7 +121,7 @@ export async function buildPrepSheet(
 
     const guideTasks = topDecks.map((d) => async () => {
       const info = await getDeckVersionInfo(token, d.deck.deckId);
-      const matchup = findMatchupByName(info.matchups, heroY);
+      const matchup = findMatchupByPartialName(info.matchups, heroY);
       if (!matchup) return null;
       const diff = buildMatchupCardDiff(
         matchup.matchupId,
