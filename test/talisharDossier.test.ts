@@ -11,7 +11,9 @@ import {
 describe("slugifyCardName", () => {
   it("lowercases and hyphenates spaces", () => {
     expect(slugifyCardName("Snatch")).toBe("snatch");
-    expect(slugifyCardName("Fyendal's Spring Tunic")).toBe("fyendals-spring-tunic");
+    expect(slugifyCardName("Fyendal's Spring Tunic")).toBe(
+      "fyendals-spring-tunic",
+    );
   });
 
   it("collapses repeated whitespace/punctuation into a single hyphen", () => {
@@ -45,11 +47,15 @@ describe("parseExistingStatus", () => {
 
   it("extracts a blocked status with its reason intact", () => {
     const content = `# Dossier: Foo\n\n## Status\nblocked: awaiting dataset regen\n\n## Card Vault true text\n...\n`;
-    expect(parseExistingStatus(content)).toBe("blocked: awaiting dataset regen");
+    expect(parseExistingStatus(content)).toBe(
+      "blocked: awaiting dataset regen",
+    );
   });
 
   it("returns null when the file has no Status section", () => {
-    expect(parseExistingStatus("# Dossier: Foo\n\nno status here\n")).toBeNull();
+    expect(
+      parseExistingStatus("# Dossier: Foo\n\nno status here\n"),
+    ).toBeNull();
   });
 });
 
@@ -82,12 +88,13 @@ describe("formatDossier", () => {
     cardVaultUrl: "https://cardvault.fabtcg.com/card/snatch-1/",
     rulings: [],
     stats: { found: true, block: "pitch 1 · cost 0 · power 4 · defense 2" },
-    fabraryContext: "Generic pitch-1/2/3 attack action reprinted across multiple sets; no notable meta signal beyond ubiquity as a cantrip attack.",
+    fabraryContext:
+      "Generic pitch-1/2/3 attack action reprinted across multiple sets; no notable meta signal beyond ubiquity as a cantrip attack.",
     similarImplementations: [
       {
         note: "tal-recipe-base-card",
         reason:
-          "contains the exact on-hit TRIGGER->ProcessTrigger draw-a-card branch (case \"Draw_a_Card\": Draw($this->controller);) that Snatch's single-mode hit trigger needs, even though the full skeleton also carries an unrelated modal gate.",
+          'contains the exact on-hit TRIGGER->ProcessTrigger draw-a-card branch (case "Draw_a_Card": Draw($this->controller);) that Snatch\'s single-mode hit trigger needs, even though the full skeleton also carries an unrelated modal gate.',
       },
     ],
     imageReference: "https://cardvault.fabtcg.com/card/snatch-1/",
