@@ -2381,3 +2381,70 @@ items:
     ref: reinforces already-reported board-staleness feedback from earlier this session
       (fab-cli#19/fab-cli#20/fab-cli#21 finding), no new routing action needed — this
       is the mitigation technique that finding already implies
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T01:20:00Z'
+iteration:
+  task: TAL-021
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Explicitly briefing a dev agent to reject candidate implementations that
+    would require touching shared/central engine files, in favor of ones producing
+    a clean single-file diff, led it to independently evaluate and discard two plausible-looking
+    candidates before settling on a genuinely clean one.
+  detail: The design doc's decision section flagged 'diff contains no unrelated changes'
+    as a literal acceptance criterion. The dev agent used this to reject two real,
+    plausible card candidates specifically because implementing them correctly would
+    require editing a shared engine file (a central switch statement, a hook only
+    wired for a different code path) rather than an isolated card-class file. This
+    produced a genuinely clean single-file diff on the first real attempt rather than
+    discovering the problem mid-implementation.
+  generalized: When a task's acceptance criteria include a scope/blast-radius constraint
+    (e.g. 'diff touches only the target file, no shared/central files'), state that
+    constraint explicitly enough in the brief that the agent uses it as an active
+    FILTER during candidate/approach selection, not just a check applied after implementation
+    is already underway. Catching a scope violation before starting is far cheaper
+    than discovering it mid-implementation and having to restart with a different
+    candidate.
+  routing:
+    action: brain-note
+    ref: orchestrator/brief-scope-constraints-as-selection-filter-not-post-hoc-check
+- category: incident
+  area: testing
+  severity: medium
+  summary: A dev agent's own worktree produced a stale/incorrect gate-failure count
+    (515/525 with 10 "pre-existing" failures) that turned out to be entirely an artifact
+    of an under-synced vendored submodule in that specific worktree, not a real result
+    — caught by the reviewer reproducing the gate independently rather than trusting
+    the PR's self-reported numbers.
+  detail: The dev agent's PR description reported 515/525 passing with 10 failures
+    attributed to 'vendored dataset drift,' confirmed (in its own account) by stashing
+    its changes and reproducing the same failures on the unmodified tree. This confirmation
+    methodology sounds rigorous but didn't catch that the underlying submodule state
+    itself was stale in that worktree — both the modified and unmodified trees shared
+    the same stale submodule, so the stash-and-reproduce check couldn't distinguish
+    'pre-existing on main' from 'artifact of my own environment.' The code-quality
+    reviewer, running in a freshly-synced isolated worktree, got 559/559 clean and
+    flagged the discrepancy; the orchestrator had independently hit and fixed the
+    identical class of issue (uninitialized submodule, broken node_modules symlink)
+    while verifying the same PR.
+  generalized: A dev agent's own 'stash my changes and reproduce the failure on the
+    unmodified tree' check does NOT prove a failure is genuinely pre-existing on the
+    true base branch if the agent's own working environment (a fresh worktree) has
+    independent staleness (an under-synced submodule, a broken dependency symlink)
+    — both the stashed and unstashed states share that same staleness. The check only
+    isolates 'caused by my diff' vs 'not caused by my diff,' not 'real on main' vs
+    'artifact of my setup.' Verifying gate claims from a properly, freshly, independently
+    synced environment (not just the author's own) is what actually distinguishes
+    those two cases.
+  routing:
+    action: brain-note
+    ref: dev/stash-reproduce-check-cannot-detect-shared-environment-staleness
