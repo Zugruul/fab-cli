@@ -1,4 +1,4 @@
-import { httpFetch, createLimiter, FABTCG_MAX_CONCURRENCY, cachedFetch } from "./http";
+import { httpFetch, createLimiter, FABTCG_MAX_CONCURRENCY } from "./http";
 
 const EVENTS_URL = "https://fabtcg.com/organised-play/";
 const COVERAGE_BASE = "https://fabtcg.com/coverage";
@@ -670,8 +670,6 @@ export interface LiveFollowOptions {
   onFinal: (summary: string) => void;
   /** Caller-owned; aborting stops the loop cleanly. */
   signal: AbortSignal;
-  /** Override the cachedFetch cache directory (testability). */
-  cacheDir?: string;
 }
 
 export interface LiveFollowResult {
@@ -753,11 +751,7 @@ export async function runLiveFollow(
     const aborted = await cancellableDelay(intervalMs, opts.signal);
     if (aborted) return { reason: "aborted" };
 
-    const idx = await cachedFetch(
-      `live-index:${slug}`,
-      () => fetchCoverageIndex(slug),
-      { ttlMs: intervalMs, cacheDir: opts.cacheDir },
-    );
+    const idx = await fetchCoverageIndex(slug);
 
     const newRounds = idx.resultRounds
       .filter((r) => !seenRounds.has(r))

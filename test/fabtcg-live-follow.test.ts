@@ -1,9 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
-import * as fs from "node:fs";
-import * as os from "node:os";
-import * as path from "node:path";
-import { cachedFetch } from "../src/http";
-import { fetchCoverageIndex, runLiveFollow } from "../src/fabtcg";
+import { runLiveFollow } from "../src/fabtcg";
 import {
   installHttpMock,
   restoreHttpMock,
@@ -72,20 +68,15 @@ function standingsHtml(rows: Array<[number, string, string, number]>): string {
 
 describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
   let mock: MockAgentHandle;
-  let tmpDir: string;
 
   beforeEach(async () => {
     mock = installHttpMock();
-    tmpDir = await fs.promises.mkdtemp(
-      path.join(os.tmpdir(), "fab-cli-live-follow-cache-"),
-    );
     vi.useFakeTimers();
   });
 
   afterEach(async () => {
     vi.useRealTimers();
     await restoreHttpMock(mock);
-    await fs.promises.rm(tmpDir, { recursive: true, force: true });
   });
 
   it("seeds from the initial player path, then a new round appearing on a tick calls onUpdate exactly once with the correct content", async () => {
@@ -151,7 +142,6 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
       onUpdate,
       onFinal,
       signal: controller.signal,
-      cacheDir: tmpDir,
     });
 
     await vi.advanceTimersByTimeAsync(60_000);
@@ -210,7 +200,6 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
       onUpdate,
       onFinal,
       signal: controller.signal,
-      cacheDir: tmpDir,
     });
 
     await vi.advanceTimersByTimeAsync(60_000);
@@ -266,7 +255,6 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
       onUpdate,
       onFinal,
       signal: controller.signal,
-      cacheDir: tmpDir,
     });
 
     await vi.advanceTimersByTimeAsync(60_000);
@@ -316,7 +304,6 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
       onUpdate,
       onFinal,
       signal: controller.signal,
-      cacheDir: tmpDir,
     });
 
     // Halfway through the (real default) 60s interval — well before the
@@ -391,7 +378,6 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
       onUpdate,
       onFinal: vi.fn(),
       signal: controller.signal,
-      cacheDir: tmpDir,
     });
 
     await vi.advanceTimersByTimeAsync(60_000);
@@ -405,48 +391,5 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
     controller.abort();
     await vi.advanceTimersByTimeAsync(0);
     await resultPromise;
-  });
-});
-
-describe("live-index cache key (cachedFetch mechanism used by runLiveFollow)", () => {
-  let mock: MockAgentHandle;
-  let tmpDir: string;
-
-  beforeEach(async () => {
-    mock = installHttpMock();
-    tmpDir = await fs.promises.mkdtemp(
-      path.join(os.tmpdir(), "fab-cli-live-follow-cache-"),
-    );
-  });
-
-  afterEach(async () => {
-    await restoreHttpMock(mock);
-    await fs.promises.rm(tmpDir, { recursive: true, force: true });
-  });
-
-  it("two checks within the same TTL window produce only ONE real coverage-index fetch", async () => {
-    mockPool(mock, "https://fabtcg.com")
-      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
-      .reply(
-        200,
-        indexHtml({ resultRounds: [1], standingRounds: [1], hasFinal: false }),
-        { headers: { "content-type": "text/html" } },
-      );
-
-    const key = `live-index:${SLUG}`;
-    const first = await cachedFetch(key, () => fetchCoverageIndex(SLUG), {
-      ttlMs: 60_000,
-      cacheDir: tmpDir,
-    });
-    // Second check happens moments later, well within the 60s TTL window —
-    // only one interceptor was registered above, so a second real fetch
-    // would fail loudly (net connect disabled) if the cache didn't hit.
-    const second = await cachedFetch(key, () => fetchCoverageIndex(SLUG), {
-      ttlMs: 60_000,
-      cacheDir: tmpDir,
-    });
-
-    expect(second).toEqual(first);
-    expect(second.resultRounds).toEqual([1]);
   });
 });
