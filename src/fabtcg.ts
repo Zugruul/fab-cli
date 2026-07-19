@@ -748,7 +748,6 @@ export async function runLiveFollow(
 
   const initial = await fetchPlayerPath(slug, playerName);
   const seenRounds = new Set<number>(initial?.rounds.map((r) => r.round) ?? []);
-  let hasEnded = false;
 
   for (;;) {
     const aborted = await cancellableDelay(intervalMs, opts.signal);
@@ -770,8 +769,7 @@ export async function runLiveFollow(
       if (line) opts.onUpdate(line);
     }
 
-    if (idx.hasFinalStandings && !hasEnded) {
-      hasEnded = true;
+    if (idx.hasFinalStandings) {
       const rows = await fetchStandings(slug, "final").catch(
         () => [] as StandingsRow[],
       );

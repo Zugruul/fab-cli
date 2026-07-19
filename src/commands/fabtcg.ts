@@ -375,11 +375,7 @@ export function registerFabtcg(program: Command): Command {
       "--live",
       "Poll --path/--search-player for live updates until final standings or Ctrl-C",
     )
-    .option(
-      "--interval <seconds>",
-      "Poll interval in seconds for --live",
-      "60",
-    )
+    .option("--interval <seconds>", "Poll interval in seconds for --live", "60")
     .action(
       async (
         eventName: string,

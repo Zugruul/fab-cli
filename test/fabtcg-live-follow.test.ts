@@ -29,7 +29,8 @@ function indexHtml(opts: {
     : "";
   const resultsLis = opts.resultRounds
     .map(
-      (r) => `<li><a href="/coverage/${SLUG}/results/${r}/">Round ${r}</a></li>`,
+      (r) =>
+        `<li><a href="/coverage/${SLUG}/results/${r}/">Round ${r}</a></li>`,
     )
     .join("\n");
   return `<!doctype html><html><head><title>Pro Tour Example Coverage | Flesh and Blood TCG</title></head>
