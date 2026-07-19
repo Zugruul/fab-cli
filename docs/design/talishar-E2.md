@@ -306,7 +306,79 @@ Grounded in: SPEC-TALISHAR.md §8.5, §8.6, §8.7, §10 I1.
 - **Bringing the stack down after validation is part of "done"** — this task shouldn't leave a
   docker stack running as a side effect for the next session to discover.
 
+## TAL-022 — Image pipeline step
+
+Grounded in: SPEC-TALISHAR.md §8.4, §10 I3.
+
+### Components
+
+- `.claude/skills/talishar-implement-card/SKILL.md` — extend Phase 3 (currently stubbed) with
+  fully-specified Steps, same shape as Phases 1/2/4.
+- No new fab-cli source files — like TAL-023, this phase is operational (run scripts on two
+  vendored clones' own branches), not fab-cli-side logic.
+
+### Interfaces / contracts
+
+- **When this phase applies**: only WHERE a card's images are actually missing from the pipeline.
+  Wrecking Ball (from TAL-020/021/023) has no `wrecking_ball_red`/similar entry in
+  `third_party/talishar-fe/src/constants/cardList.ts` — confirmed missing, so it's a valid target
+  for exercising this phase for real, keeping continuity with the rest of the pipeline exercise.
+- **`third_party/talishar-cardimages/scripts/downloadImages.js`**: downloads the card image from
+  `cards.fabtcg.com`'s public search API, resizes it, and creates a square crop
+  (`saveCardImage`/`resizeImage`/`combineImages` from `utils/sharpHelper.js`). The script's API
+  query (`composeInitialApiUrl`) is hardcoded per-run to a specific query (currently set-code
+  `AMX` in the committed file) — targeting a different card/set means editing that one line
+  in-place on a branch of `talishar-cardimages`, not a CLI flag. Do this on a `feat/{card_id}`-ish
+  branch of THAT clone (its own fork, own branch — never fab-cli).
+- **`generateTranslatedCollections.js`**: only relevant for reprints (a card with multiple
+  printings needing translated-collection art variants) — Wrecking Ball (RVD013, a single
+  printing per the dossier) likely doesn't need this step; still worth confirming rather than
+  assuming, since "reprints" per §8.4 is the trigger condition, not "always run."
+- **FE `npm run generate-cards`** (`third_party/talishar-fe`, `scripts/card-generator.js` +
+  `prettier --write src/constants/cardList.ts`): regenerates the FE's card-list TypeScript file
+  from the current image/card dataset. Run on a branch of `talishar-fe`'s own fork — this is what
+  actually adds the `wrecking_ball_red` entry TAL-022's AC requires existing "on the respective
+  fork branches."
+- **§10 I3 (hard invariant, never violate)**: zero image artifacts — processed or raw — ever land
+  under the fab-cli tree, not even transiently in a way that could get committed. All image I/O
+  stays inside `third_party/talishar-cardimages`'s own `media/` directories (gitignored from
+  fab-cli, and this task's branches/commits happen entirely in that clone's own separate repo).
+- **≤2 concurrent CDN requests** (the task's literal AC, echoing the project's existing
+  etiquette invariant for `talishar.net`/`images.talishar.net`/similar hosts) — `downloadImages.js`
+  processes one language/card at a time by default; if any concurrency knob exists in the script,
+  confirm it's ≤2, don't raise it.
+
+### Key sequences
+
+1. Confirm the target card (Wrecking Ball, continuing the pipeline exercise) genuinely lacks a
+   `cardList.ts` entry and processed images — don't run this phase on a card that already has
+   them.
+2. On a branch of `third_party/talishar-cardimages`'s own fork: edit `downloadImages.js`'s
+   `composeInitialApiUrl` to target the card/set, run it, confirm the processed image + square
+   crop land under that clone's own `media/` dirs (never fab-cli).
+3. If the card is a reprint needing translated-collection variants, also run
+   `generateTranslatedCollections.js` — otherwise skip and say so explicitly (§8.4 is
+   conditional, not unconditional).
+4. On a branch of `third_party/talishar-fe`'s own fork: run `npm run generate-cards`, confirm the
+   new `cardList.ts` entry for the card exists and is well-formed (prettier-formatted, matches
+   surrounding entries' shape).
+5. Update the dossier: note the image-pipeline step ran, cite the branches/commits on each clone
+   (not pushed anywhere — same "local validated branch" pattern as TAL-021/023, pushing stays a
+   human/later-task decision unless explicitly authorized).
+6. Confirm via `git status`/`git diff --stat` on the FAB-CLI repo itself that literally nothing
+   changed there — this phase's only footprint in fab-cli is the skill-file extension + its test.
+
+### Decisions
+
+- **Two separate vendored clones, two separate local branches** — `talishar-cardimages` for the
+  image processing, `talishar-fe` for the card-list regeneration. Neither gets pushed as part of
+  this task (mirrors TAL-021's "implementation phase produces a local branch, pushing is a later
+  concern" pattern) unless the human has separately authorized it for this specific task, the same
+  way TAL-023's fork push required its own explicit ask.
+- **Editing `downloadImages.js`'s hardcoded query in place, on a branch, is the correct mechanism**
+  — not adding a CLI-args feature to the script (that would be scope creep into the vendored
+  project's own tooling design, not this task's job).
+
 ## Out of scope for this epic-task
 
-- Image pipeline step (TAL-022): CardImages script runs, FE `generate-cards` refresh.
 - Latency/DX audit (E3) — unrelated to the card pipeline's dossier phase.
