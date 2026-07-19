@@ -32,14 +32,17 @@ Higher impact + lower effort ranks first.
 
 **Evidence**: `third_party/talishar/BuildGameState.php` is a single 1606-line file dominated by
 one function, `BuildGameStateResponse()` (line 7–~1475), which both `GetUpdateSSE.php` and
-`GetNextTurn.php` call to serialize the outbound JSON. A grep count finds 94 top-level
-`$response->` field assignments and 28 `for`/`foreach` loops, one per zone per player (hand, deck,
-banish, discard, soul, pitch, arsenal, character, combat chain — e.g. the hand loop at
-`third_party/talishar/BuildGameState.php` lines 626–645, the banish loops at lines 415–421/498,
-the combat-chain loop at line 299). Within the hand loop specifically (lines 626–645), each card
-triggers calls to `IsPlayable()`, `CardBorderColor()`, `GetAbilityTypes()`, and
-`InstantRestricted()` — real rule-engine functions, not simple field copies.
-`third_party/talishar/CardDictionary.php`'s `IsPlayable()` (line 1664) alone reads 13 globals and
+`GetNextTurn.php` call to serialize the outbound JSON. A grep count
+(`grep -c "foreach\s*(\|for\s*("`) finds 94 top-level `$response->` field assignments and 50
+`for`/`foreach` loops — the per-zone-per-player loops (hand, deck, banish, discard, soul, pitch,
+arsenal, character, combat chain — e.g. the hand loop at `third_party/talishar/BuildGameState.php`
+lines 626–645, the banish loops at lines 415–421/498, the combat-chain loop at line 299) plus a
+number of smaller inner loops (e.g. the per-subtype scan at line 545/781 nested inside a zone
+loop) and the Metafy/Patreon community loops near the top of the file (lines 155–245). Within the
+hand loop specifically (lines 626–645), each card triggers calls to `IsPlayable()`,
+`CardBorderColor()`, `GetAbilityTypes()`, and `InstantRestricted()` — real rule-engine functions,
+not simple field copies. `third_party/talishar/CardDictionary.php`'s `IsPlayable()` (line 1664)
+alone reads 15 globals (three `global` declarations at lines 1666–1668, 6+6+3 variables) and
 calls `GetArsenal`/`GetAllies`/`GetAuras`/`GetPlayerCharacter`/`GetHand`/`CardType`/
 `CardSubType`/`GetAbilityType(s)`/`GetAbilityNames`, plus conditionally constructs a `Banish` or
 `CharacterCard` object, per card in hand.
