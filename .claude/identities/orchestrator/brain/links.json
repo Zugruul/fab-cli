@@ -1,4 +1,9 @@
 {
+  "auth-token-belongs-at-command-layer-not-data-module->expose-internally-resolved-ids-dont-rederive": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "concurrent-session-race-on-adhoc-bugfix->gh-pr-merge-worktree-branch-lock": {
     "fires": 0,
     "last": null,
