@@ -2849,3 +2849,96 @@ items:
     action: ignore
     ref: already established/documented precedent (SPEC-TALISHAR.md fork-push consent
       invariant); no new institutional knowledge to preserve
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T07:45:00Z'
+iteration:
+  task: TAL-032
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: high
+  summary: 'code-quality review caught a real, high-blast-radius bug before merge:
+    a fixed-size shared cache buffer silently corrupting on overflow'
+  detail: 'The reviewer independently re-derived the byte budget of a fixed-size shared
+    cache row and found that a seemingly-small new field (a UUID string) would push
+    a realistic populated row over its hard byte limit on the very first exchange
+    in ordinary play, and that the underlying write path had no bounds check and would
+    silently corrupt the ENTIRE shared row, not just the new field. This wasn''t visible
+    from reading the new field''s diff in isolation — it required reconstructing what
+    a realistic pre-existing payload looked like and doing the arithmetic.
+
+    '
+  evidence: []
+  generalized: 'When a diff adds a new persisted field to a fixed-size shared buffer/cache
+    row (not just growing a dynamic structure), a code-quality review pass should
+    explicitly reconstruct a realistic total payload size (existing fields + the new
+    one) and check it against the actual size limit, rather than assessing the new
+    field in isolation. This class of bug — individually-reasonable diff, systemically
+    dangerous when composed with existing state — is easy for both the author and
+    a shallow review to miss, and the failure mode (silent corruption of unrelated
+    shared state) is far worse than a typical logic bug because it doesn''t fail where
+    it was introduced.
+
+    '
+  routing:
+    action: brain-note
+    ref: reviewer/bound-shared-fixed-size-buffer-before-adding-fields
+- category: worked-well
+  area: concurrency
+  severity: medium
+  summary: picking up a peer-session's dev-agent completion report and treating it
+    with the same trust-but-verify rigor as a self-spawned agent worked cleanly
+  detail: 'A dev agent that this orchestrator session did not itself spawn (surfaced
+    via a teammate message, likely from an earlier session before a context clear)
+    reported a completed task with a PR already open. Rather than trusting the report
+    at face value, the orchestrator independently confirmed the PR/branches existed
+    and matched the claimed diff, re-ran the gate, and proceeded through the normal
+    review/merge protocol exactly as if it had spawned the dev agent itself.
+
+    '
+  evidence: []
+  generalized: 'In a workflow where multiple sessions/lanes can work the same board
+    concurrently (WIP limit > 1), a dev-agent completion report arriving from outside
+    this session''s own spawn tree should get identical verification rigor as one
+    this session spawned — confirm the artifact (PR, branch, commit) actually exists
+    and matches the claim before proceeding, rather than assuming a peer''s report
+    is automatically trustworthy just because it looks complete and detailed.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/peer-session-agent-reports-need-same-verification-as-own-spawns
+- category: recommendation
+  area: merge
+  severity: low
+  summary: a task whose real deliverable lives in a gitignored external clone, with
+    only a doc/test update landing in the tracked PR, benefits from being explicit
+    up front about what the PR diff will and won't contain
+  detail: 'The PR''s own diff (2 tracked files, ~19 lines) looked deceptively small
+    relative to the actual engine fix (2 files across 2 external repos, ~110 lines)
+    pasted as text in the PR body. A reviewer or human skimming just `gh pr diff`
+    without reading the full body could easily underestimate the real size/risk of
+    the change.
+
+    '
+  evidence: []
+  generalized: 'When a task''s real code change lives in a vendored/external repo
+    not tracked by the main project''s git history, and only a documentation or test-evidence
+    update lands in the trackable PR, it''s worth the PR title/body making unmistakably
+    clear (not just mentioning in passing) that the tracked diff is a small fraction
+    of the actual change, with the real diff pasted in full — otherwise a reviewer
+    or approver working from `gh pr diff` alone could badly underestimate the change''s
+    real size and risk.
+
+    '
+  routing:
+    action: ignore
+    ref: low severity, already substantially followed in this PR's body (full diff
+      pasted, title/status noted); not worth a dedicated backlog task
