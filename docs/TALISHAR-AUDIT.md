@@ -284,7 +284,7 @@ All three seeds are **verified real, closed issues** (confirmed via `gh issue vi
 | # | Seed | Repo | Status | Current-code verdict |
 |---|------|------|--------|----------------------|
 | 1 | BE #501 — SSE disconnect | `Talishar/Talishar` | Closed, fixed | Already mitigated — superseded by more robust code |
-| 2 | BE #183 — equipment lag double-activation | `Talishar/Talishar` | Closed, weak fix confirmation | **Live suspect found** |
+| 2 | BE #183 — equipment lag double-activation | `Talishar/Talishar` | Closed, weak fix confirmation | **Live suspect found → fixed (TAL-032)** |
 | 3 | FE #98 — reload freeze | `Talishar/Talishar-FE` | Closed, fixed | Already mitigated |
 
 ### BE #501 — SSE disconnect
@@ -371,6 +371,18 @@ same mechanism already proven elsewhere in the component.
 touches `ProcessInput.php`'s existing revision-tracking path rather than adding a new one),
 Impact High (this is a player-facing correctness bug — a duplicated equipment activation or
 duplicated card play is a real-game-state bug, not just a performance cost).
+
+**Status (2026-07-19, TAL-032)**: **fixed on local branches, not yet pushed** — implemented
+exactly the fix sketch above on `fix/183_double_activation` in both
+`third_party/talishar` (`ProcessInput.php` now reads `expectedRevision`/`commandId` and rejects a
+stale/duplicate request) and `third_party/talishar-fe` (`isPlayerInputInProgress` wired into
+`PlayerHandCard.tsx`'s `playCardFunc` and `preventUseOnClick` on the 8 equipment/hero/arsenal
+zones). Validated against the local docker stack: a normal single click still plays/activates a
+card exactly once and advances the gamestate revision counter; a simulated rapid double-click
+(two requests sharing one `expectedRevision`) is now suppressed — the first request processes
+normally, the second is rejected with "Stale request: gamestate has moved on." and the game log
+shows only one action, not two. Per SPEC-TALISHAR.md §10 I1/I2, neither vendored branch has been
+pushed to its fork — that needs its own explicit authorization before a PR can be prepared.
 
 ### FE #98 — reload freeze
 
