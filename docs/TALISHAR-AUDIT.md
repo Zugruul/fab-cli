@@ -269,3 +269,195 @@ equivalent under the deployed SAPI, if available) so it doesn't block the player
 **Rank**: Effort Low-Medium (ring-buffer index is a small, self-contained change; async deferral
 depends on SAPI/runtime support), Impact Medium (frequent, on the critical path, though each
 occurrence is small).
+
+## Bug scan
+
+Per TAL-031 §9.2: triage the design doc's three seed bugs against upstream `Talishar/Talishar`
+and `Talishar/Talishar-FE` issue history, confirm each is real (`gh issue view`, read-only), then
+grep the vendored engine for code matching that bug's **class** — a real, cited location that
+could plausibly cause the same symptom today, not necessarily an unfixed instance of the exact
+original bug.
+
+All three seeds are **verified real, closed issues** (confirmed via `gh issue view <n> --repo
+<owner>/<repo>`, read-only per §10 I1 — no comment/state change made on any `Talishar/*` repo):
+
+| # | Seed | Repo | Status | Current-code verdict |
+|---|------|------|--------|----------------------|
+| 1 | BE #501 — SSE disconnect | `Talishar/Talishar` | Closed, fixed | Already mitigated — superseded by more robust code |
+| 2 | BE #183 — equipment lag double-activation | `Talishar/Talishar` | Closed, weak fix confirmation | **Live suspect found** |
+| 3 | FE #98 — reload freeze | `Talishar/Talishar-FE` | Closed, fixed | Already mitigated |
+
+### BE #501 — SSE disconnect
+
+**Verified**: [github.com/Talishar/Talishar#501](https://github.com/Talishar/Talishar/issues/501),
+closed 2023-05-11, single comment from the collaborator who filed it: "Fixed in 70e38978."
+
+**Evidence**: that commit (`git -C third_party/talishar show 70e38978`, still present in the
+vendored clone's history) moved opponent-disconnect/timeout detection out of the old polling
+endpoint `GetNextTurn3.php` and into `GetUpdateSSE.php`'s persistent loop — a minimal 31-line
+move. Reading the **current** `third_party/talishar/GetUpdateSSE.php` (lines 140–270) shows this
+mechanism has since been substantially hardened well beyond that original fix: an explicit
+`connection_aborted()` check every 2 seconds (`$connectionCheckInterval`, line ~152), a periodic
+game-file-existence check (`$fileCheckInterval`, line ~161), a `$buildFailureStreak` counter that
+tolerates up to 100 transient `BuildGameStateResponse()` failures before giving up (distinguishing
+fatal errors like "Invalid Authkey" from transient ones like a mid-undo revert), and a 15-second
+heartbeat SSE event (`event: hb`) that itself re-checks `connection_aborted()` on every send.
+
+**Impact / verdict**: **already mitigated** — the disconnect-detection mechanism #501 introduced
+is still present and has grown considerably more defensive since. No live suspect matching this
+bug class was found; a future regression here would need to specifically break one of the four
+independent safeguards above, not just remove the original fix.
+
+### BE #183 — equipment lag double-activation
+
+**Verified**: [github.com/Talishar/Talishar#183](https://github.com/Talishar/Talishar/issues/183)
+("Equipment abilities can be activated multiple times due to lag"), closed, but with a notably
+weak fix confirmation — the collaborator's only comment is "I believe I fixed this and did not
+close the issue," and a separate comment on the same thread proposes the right general fix
+("Using equipment, cards, any ability should be idempotent... Perhaps some way of tracking what
+the game frame/turn in requests?") without confirming it was ever implemented.
+
+**Evidence — live, reproducible suspect**: the FE *has* the scaffolding this proposed fix
+describes, but it's never wired to the backend. `third_party/talishar-fe/src/features/game/GameSlice.ts`'s
+`playCard` thunk (lines 183–216) builds its request with both a per-call idempotency key
+(`commandId: createCommandId()`, line 204, a `crypto.randomUUID()`) and an optimistic-concurrency
+token (`expectedRevision: String(game.gameDynamicInfo.lastUpdate ?? 0)`, line 203) — exactly the
+"track what frame/turn the request is for" mechanism #183's own thread called for. The same two
+fields are sent by `submitButton` (lines 234–235) and a third thunk (lines 272–273). But a
+repo-wide grep of the **entire vendored backend** (`grep -rn "commandId\|expectedRevision"
+third_party/talishar --include="*.php"`) returns **zero matches** — `ProcessInput.php` never reads
+either parameter, so nothing on the server rejects a stale `expectedRevision` or deduplicates a
+repeated `commandId`. On the click side, neither call site that dispatches `playCard` guards
+against a second dispatch while the first is still in flight:
+`third_party/talishar-fe/src/routes/game/components/elements/playerHandCard/PlayerHandCard.tsx`'s
+`playCardFunc` (line 184) and
+`third_party/talishar-fe/src/routes/game/components/elements/cardDisplay/CardDisplay.tsx`'s
+`onClick` (line 95) both call `dispatch(playCard(...))` unconditionally. `CardDisplay.tsx` does
+declare a `preventUseOnClick` prop (line 20) that could gate this, and it **is** wired up at
+several call sites — `GraveyardZone.tsx` (line 112), `BanishZone.tsx` (line 110), `PitchZone.tsx`
+(line 97), `OtherInput.tsx` (line 39), and `CardDisplay.tsx`'s own sub-card self-reference (line
+178) all pass it as JSX shorthand (`preventUseOnClick`, no `=`, easy to miss with a
+`preventUseOnClick="` grep). But none of the **equipment zones** pass it: a check of all 6
+equipment-slot components (`WeaponRZone.tsx`, `ChestEqZone.tsx`, `ArmsEqZone.tsx`,
+`LegsEqZone.tsx`, `HeadEqZone.tsx`, `WeaponLZone.tsx`) plus `HeroZone.tsx` and `ArsenalZone.tsx`
+shows every one of them renders `<CardDisplay card={...} isPlayer={isPlayer} />` with no
+`preventUseOnClick` — exactly the zones #183's "equipment abilities" symptom lives in. Separately,
+`GameSlice.ts`'s `isPlayerInputInProgress` flag (set `true` on `playCard.pending`, line 992)
+exists in Redux state but nothing in either click handler reads it to disable the card, and
+`PlayerHandCard.tsx`'s `playCardFunc` doesn't render through `CardDisplay` at all, so
+`preventUseOnClick` couldn't gate it even if passed.
+
+**Impact**: a rapid double-click or a slow/lagged first response (the exact symptom #183
+describes) fires `playCard` twice with two different `commandId`s and, since the backend
+validates neither, both requests are processed as independent, non-idempotent actions against
+`ProcessInput.php` — reproducing the original "activated multiple times" symptom class today, not
+just historically. This is worse than the pre-#183 state in one sense: the client-side scaffolding
+now *looks* like a fix is in place (a reviewer skimming `GameSlice.ts` would reasonably assume
+`commandId`/`expectedRevision` do something), which is its own DX/correctness hazard.
+
+**Fix sketch**: two independent, complementary changes — (1) backend: have `ProcessInput.php`
+read `expectedRevision` and reject (or no-op) a request whose value doesn't match the game's
+current `lastUpdate` counter (already tracked server-side per the "SSE update path" section
+above), and track the last-seen `commandId` per game+player (e.g. alongside the small shmop
+"cache" array) to no-op an exact repeat; (2) frontend: gate both `playCardFunc`
+(`PlayerHandCard.tsx`) and `CardDisplay.tsx`'s `onClick` on `isPlayerInputInProgress` (already
+computed, already in state, just unread by these two call sites) — either disable the click or
+early-return. For `CardDisplay.tsx`'s own `onClick`, wiring `isPlayerInputInProgress` into
+`preventUseOnClick` at the equipment/hero/arsenal zone call sites (mirroring the pattern the
+graveyard/banish/pitch zones already use for a different reason) would close that gap with the
+same mechanism already proven elsewhere in the component.
+
+**Rank**: Effort Low-Medium (frontend gate is a small, localized change; backend validation
+touches `ProcessInput.php`'s existing revision-tracking path rather than adding a new one),
+Impact High (this is a player-facing correctness bug — a duplicated equipment activation or
+duplicated card play is a real-game-state bug, not just a performance cost).
+
+### FE #98 — reload freeze
+
+**Verified**: [github.com/Talishar/Talishar-FE#98](https://github.com/Talishar/Talishar-FE/issues/98)
+("reloading the page causes a freeze"), closed. The fix comment identifies the exact root cause:
+a missing `<base href="/">` in `index.html`, a known React-Router-on-refresh footgun (the
+issue's own linked Stack Overflow explains why: without a `<base>` tag, a client-side route like
+`/game/123` reloaded fresh resolves relative asset URLs against `/game/` instead of `/`, 404ing
+the JS bundle and freezing the page).
+
+**Evidence**: `third_party/talishar-fe/index.html` line 62 currently reads `<base href="/" />` —
+the exact fix the issue's comment prescribed.
+
+**Impact / verdict**: **already mitigated**, no live suspect found for this specific class. One
+caveat worth recording for future deploy changes rather than as a live bug: `href="/"` is a
+hardcoded absolute root — if the app were ever deployed under a subpath (e.g.
+`example.com/talishar/`) rather than domain root, this exact freeze-on-reload symptom would
+reproduce, since the fix is coupled to a root-path deployment assumption. Not a finding against
+the current deployment model, just a note that this fix is deploy-path-specific, not
+subpath-agnostic.
+
+## DX
+
+Friction found while working with the vendored Talishar stack, plus test-coverage and stale-doc
+gaps beyond the port-8000/CardImages-URL drift [[tal-dev-gotchas]] already documented (TAL-013).
+Each item below has a concrete improvement proposal, not just a complaint.
+
+### Finding 1: backend has a configured test framework but almost no card-implementation coverage
+
+`third_party/talishar/composer.json` declares `phpunit/phpunit` as a dev dependency and an
+`autoload-dev` PSR-4 mapping for `Talishar\Tests\` → `tests/`, and
+`third_party/talishar/CLAUDE.md` (lines 21–24) documents `./vendor/bin/phpunit` with three named
+test suites (Security, Validation, Business Logic). The suite is real and non-trivial: 11 test
+files exist (`third_party/talishar/tests/{Security,Validation,BusinessLogic,Engine}/*.php`) —
+`SessionManagementTest.php`, `CSRFProtectionTest.php`, `SQLInjectionTest.php`,
+`XSSPreventionTest.php`, `GameLogicTest.php`, `CombatMathTest.php`,
+`CombatChainStateTest.php`, `ZoneStructureTest.php`, `CardDataTest.php`,
+`InputValidationTest.php` — covering session/security/validation and generic engine mechanics.
+But `third_party/talishar/Classes/CardObjects/` has **53** per-set card-implementation files
+(`grep -c` on the directory) and **zero** of the 11 test files target individual card hooks —
+the exact surface `/talishar-implement-card`'s implementation phase writes to. A new card's only
+verification path today is the skill's own docker-based live HTTP exercise
+(`ProcessInput.php`/`GetUpdateSSE.php`, per this repo's `CLAUDE.md` "Implement a card" section) —
+there's no fast, offline, PHPUnit-level check a contributor (or a future dev-agent implementation
+phase) can run before standing up the full docker stack.
+
+**Proposal**: add one minimal `tests/Engine/CardHookTest.php` (or a `CardObjects/` subdirectory
+under `tests/`) that instantiates a single already-implemented card and asserts its declared hooks
+return the expected shape (e.g. a DQ entry count/type) without a live game session — a template a
+future card-implementation session could copy per new card. This doesn't replace the docker-based
+live validation the skill already does (real game-state behavior can't be unit-tested in
+isolation), but it closes the gap between "phpunit is configured and documented" and "phpunit
+covers zero cards" for at least a smoke-test tier.
+
+### Finding 2: FE test coverage is extremely thin outside a handful of utility modules
+
+`third_party/talishar-fe`'s `package.json` wires `vitest` (`"test": "vitest"`, line 53) and the
+harness works — but a repo-wide count shows only **5** `*.test.ts(x)` files
+(`PlayerPresence.test.ts`, `PreserveIdentities.test.ts`, `multilanguage.test.ts`,
+`matcher.test.ts`, `CardImage.test.tsx`) against **375** non-test `.ts`/`.tsx` source files under
+`third_party/talishar-fe/src` — roughly 1.3% file coverage. The 5 existing tests cluster around
+low-level, pure-function utilities (identity preservation, i18n string lookup, keyword matching,
+presence state); none of the Redux slices that drive gameplay (`GameSlice.ts`, at ~1000+ lines
+the single largest behavioral surface in the FE, including the `playCard`/`isPlayerInputInProgress`
+logic the BE #183 bug-scan finding above turns on) have any test coverage at all.
+
+**Proposal**: rather than a blanket "add more tests" ask, target the highest-leverage gap first —
+a `GameSlice.test.ts` covering the request-building thunks (`playCard`, `submitButton`) and their
+pending/fulfilled/rejected reducers (`isPlayerInputInProgress` transitions in particular) would
+both raise real coverage and directly pin down the exact behavior the #183 fix needs to not
+regress, once implemented.
+
+### Finding 3: no documented convention for when a FE zone must pass `preventUseOnClick`
+
+`CardDisplay.tsx` declares a `preventUseOnClick?: boolean` prop (line 20) that its `onClick`
+handler checks (line 90), and it genuinely **is** used — 5 real call sites pass it as JSX
+shorthand (`GraveyardZone.tsx:112`, `BanishZone.tsx:110`, `PitchZone.tsx:97`,
+`OtherInput.tsx:39`, `CardDisplay.tsx:178`'s own sub-card self-reference), so this is not dead
+code. But nothing documents *why* those 5 zones pass it and the other ~15 `<CardDisplay>` call
+sites (including all 6 equipment zones and `HeroZone`/`ArsenalZone`, per the BE #183 finding
+above) don't — a future contributor adding a new interactive zone has no written rule to consult
+for whether their zone needs it, only prior art to reverse-engineer from reading every existing
+call site.
+
+**Proposal**: a one-line JSDoc comment on the `preventUseOnClick` prop declaration itself
+(`CardDisplay.tsx` line 20) stating the actual convention — e.g. "pass this for any zone where
+the card is display-only / not a legal action target, to suppress the play/activate click" —
+would turn "read every call site to infer the pattern" into "read the prop's own doc comment,"
+the same fix shape as Finding 2's coverage gap: closing a knowledge gap at its source rather than
+downstream.

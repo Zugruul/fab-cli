@@ -46,6 +46,24 @@ const FIX_SKETCH_RE = /fix sketch/i;
 const RANK_RE = /rank/i;
 const NO_ISSUE_RE = /no issue found/i;
 
+// TAL-031 §9.2: the 3 seed bug issues the design doc names as starting points.
+const BUG_SCAN_PATTERN = /^#{2,}\s.*bug scan/im;
+const DX_PATTERN = /^#{2,}\s.*(developer experience|\bdx\b)/im;
+const BUG_SEEDS: { name: string; headingRef: RegExp }[] = [
+  { name: "BE #501 (SSE disconnect)", headingRef: /^#{3,}\s.*#501/im },
+  {
+    name: "BE #183 (equipment/lag double-activation)",
+    headingRef: /^#{3,}\s.*#183/im,
+  },
+  { name: "FE #98 (reload freeze)", headingRef: /^#{3,}\s.*#98/im },
+];
+// A finding is either a live/reproducible suspect (evidence + impact + fix sketch + rank,
+// same shape as TAL-030's findings) or an explicit already-mitigated / no-issue-found note
+// (still evidence-backed — verifying the seed issue's fix is still present in the vendored
+// code is itself a citation-backed claim).
+const MITIGATED_RE = /(already mitigated|no issue found|no live suspect)/i;
+const VERIFIED_RE = /verified|confirmed/i;
+
 describe("docs/TALISHAR-AUDIT.md", () => {
   it("exists", () => {
     expect(existsSync(DOC_PATH)).toBe(true);
@@ -101,9 +119,64 @@ describe("docs/TALISHAR-AUDIT.md", () => {
     expect(doc).toMatch(/^#{2,}\s.*rank/im);
   });
 
-  it("does not include TAL-031's bug-scan/DX sections (out of scope)", () => {
-    expect(doc).not.toMatch(
-      /^#{2,}\s.*(bug.scan|developer experience|\bdx\b)/im,
+  it("has a Bug scan section (TAL-031 §9.2)", () => {
+    expect(doc).toMatch(BUG_SCAN_PATTERN);
+  });
+
+  it("has a DX section (TAL-031 §9.3)", () => {
+    expect(doc).toMatch(DX_PATTERN);
+  });
+
+  it("Bug scan and DX sections come after TAL-030's 5 performance areas", () => {
+    const headings = headingLines(doc);
+    const lastAreaIdx = Math.max(
+      ...REQUIRED_AREAS.map(({ pattern }) =>
+        headings.findIndex((h) => pattern.test(h)),
+      ),
     );
+    const bugScanIdx = headings.findIndex((h) => BUG_SCAN_PATTERN.test(h));
+    const dxIdx = headings.findIndex((h) => DX_PATTERN.test(h));
+    expect(bugScanIdx).toBeGreaterThan(lastAreaIdx);
+    expect(dxIdx).toBeGreaterThan(lastAreaIdx);
+  });
+
+  describe("Bug scan section", () => {
+    const bugScanBody = sectionBody(doc, BUG_SCAN_PATTERN);
+
+    it("is present and substantial", () => {
+      expect(bugScanBody.length).toBeGreaterThan(500);
+    });
+
+    it.each(BUG_SEEDS)(
+      "covers seed $name with a dedicated subsection: evidence + verified-real note",
+      ({ headingRef }) => {
+        const chunk = sectionBody(bugScanBody, headingRef);
+        expect(chunk.length).toBeGreaterThan(0);
+        expect(chunk).toMatch(EVIDENCE_RE);
+        expect(chunk).toMatch(VERIFIED_RE);
+        // Either a live reproducible suspect (full finding shape) or an explicit
+        // already-mitigated / no-issue-found conclusion.
+        if (!MITIGATED_RE.test(chunk)) {
+          expect(chunk).toMatch(IMPACT_RE);
+          expect(chunk).toMatch(FIX_SKETCH_RE);
+          expect(chunk).toMatch(RANK_RE);
+        }
+      },
+    );
+  });
+
+  describe("DX section", () => {
+    const dxBody = sectionBody(doc, DX_PATTERN);
+
+    it("is present and substantial", () => {
+      expect(dxBody.length).toBeGreaterThan(500);
+    });
+
+    it("has at least 3 findings, each with a concrete improvement proposal", () => {
+      const subheadings = dxBody.split("\n").filter((l) => /^#{3,}\s/.test(l));
+      expect(subheadings.length).toBeGreaterThanOrEqual(3);
+      const proposalMentions = dxBody.match(/proposal/gi) ?? [];
+      expect(proposalMentions.length).toBeGreaterThanOrEqual(3);
+    });
   });
 });
