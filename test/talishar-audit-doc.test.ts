@@ -163,6 +163,12 @@ describe("docs/TALISHAR-AUDIT.md", () => {
         }
       },
     );
+
+    it("BE #183 subsection reflects the TAL-032 fix status (fixed locally, not yet pushed)", () => {
+      const chunk = sectionBody(bugScanBody, /^#{3,}\s.*#183/im);
+      expect(chunk).toMatch(/fixed/i);
+      expect(chunk).toMatch(/not yet pushed/i);
+    });
   });
 
   describe("DX section", () => {
