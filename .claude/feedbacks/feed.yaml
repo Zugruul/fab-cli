@@ -2573,3 +2573,67 @@ items:
   routing:
     action: brain-note
     ref: dev/encode-the-discriminator-not-just-the-finding-when-work-is-a-noop
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T03:25:00Z'
+iteration:
+  task: TAL-024
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: testing
+  severity: medium
+  summary: A committed test that reads gitignored, session-local artifact files reported
+    truthfully-green results in the authoring agent's own environment while being
+    permanently broken on any fresh checkout, and this specific failure mode had already
+    occurred once earlier in the same session (a different, non-committed instance)
+    before recurring in a form that actually landed in a PR.
+  detail: Two independent review agents AND the orchestrator each separately reproduced
+    the same failure by cloning/checking-out fresh from the pushed branch -- none
+    of the three trusted the dev agent's own environment, and all three caught the
+    same real bug this way. This is the second time this session that a gate-green
+    claim turned out to be environment-specific rather than reproducible (the first
+    was a stale-numbers case on a different task, caught only by the orchestrator;
+    this time it was independently caught by three separate parties).
+  generalized: When a task's deliverable is a committed automated test, and that test
+    could plausibly read any filesystem state beyond the tracked repo contents (gitignored
+    directories, generated caches, session-local working files), verifying gate-green
+    in the SAME environment that produced the artifact is not sufficient evidence
+    of reproducibility -- it must be independently reproduced from a checkout that
+    never shared that environment's filesystem state. This is now a recurring, identifiable
+    failure class in this workflow (occurred at least twice), not a one-off fluke
+    -- worth treating as a standing checklist item for any review touching a new test
+    file, not just an occasional spot-check.
+  routing:
+    action: brain-note
+    ref: reviewer/reproduce-gate-claims
+- category: worked-well
+  area: review
+  severity: low
+  summary: Sending a fix back to both review agents for an explicit round-2 re-verification,
+    rather than the orchestrator unilaterally deciding the fix was sufficient, caught
+    that the fix genuinely resolved the coupling problem without silently weakening
+    what was being asserted.
+  detail: After the dev agent's fix, the orchestrator independently verified gate-green
+    in a fresh worktree, but ALSO sent both reviewers the fix for their own round-2
+    verdicts rather than treating the orchestrator's own check as sufficient to merge.
+    The code-quality reviewer's round-2 pass specifically diffed what changed in the
+    test's assertions (not just whether they now passed) to confirm the fix moved
+    the artifact SOURCE (file read -> in-memory fixture) without loosening assertion
+    specificity -- a check the orchestrator's own reproduction (which only confirmed
+    'gate is green') would not have performed.
+  generalized: When a dev agent fixes a reviewer-found blocking issue, route the fix
+    back through the SAME reviewer(s) for an explicit round-2 verdict rather than
+    having the orchestrator unilaterally judge the fix sufficient from its own gate-green
+    check alone. A reviewer re-checking a fix asks a different, complementary question
+    ('did this fix the underlying problem without weakening the check') than a gate-green
+    reproduction does ('does the test currently pass') -- both are needed to trust
+    a fix round is genuinely resolved, not just made to look resolved.
+  routing:
+    action: brain-note
+    ref: orchestrator/route-fixes-back-to-same-reviewer-for-round-2-not-unilateral-judgment
