@@ -26,6 +26,7 @@ import {
   printHeroMatchups,
   printMetaShiftTable,
   printMetaPeriods,
+  printPrepSheet,
 } from "../display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "../display";
 import {
@@ -36,6 +37,7 @@ import {
   resolveMetaPeriod,
 } from "../meta";
 import { computeDeckStats, computeResultStats } from "../stats";
+import { buildPrepSheet } from "../prep";
 import { loadConfig, saveConfig } from "../config";
 import { loginWithPassword } from "../cognito";
 import type { AlgoliaDeck, DeckWithStats, SearchOptions } from "../types";
@@ -619,6 +621,51 @@ export function registerFabrary(program: Command): Command {
         if (showAll || opts.statsOnly) {
           printDeckStats(deck.name, deckStats, resultStats);
         }
+      },
+    );
+
+  // ─── prep ──────────────────────────────────────────────────────────────
+
+  fabrary
+    .command("prep")
+    .description(
+      "Matchup prep sheet: X-vs-Y win rate/games plus each top X deck's Y matchup guide",
+    )
+    .requiredOption(
+      "--hero <id>",
+      "Hero identifier to prep (e.g. prism-awakener-of-sol)",
+    )
+    .requiredOption(
+      "--vs <id>",
+      "Opponent hero to prep against (partial name match)",
+    )
+    .option(
+      "--format <format>",
+      'Format (e.g. "Classic Constructed", CC, Blitz, SA)',
+    )
+    .action(
+      async (
+        opts: { hero: string; vs: string; format?: string },
+        command: Command,
+      ) => {
+        const json = wantsJson(command);
+        progressWrite(
+          json,
+          chalk.dim(`Building prep sheet (${opts.hero} vs ${opts.vs})…\r`),
+        );
+        const sheet = await buildPrepSheet(opts.hero, opts.vs, {
+          format: opts.format,
+        });
+        progressWrite(
+          json,
+          "                                                  \r",
+        );
+
+        if (json) {
+          printJson({ prep: sheet });
+          return;
+        }
+        printPrepSheet(sheet, opts.hero, opts.vs);
       },
     );
 

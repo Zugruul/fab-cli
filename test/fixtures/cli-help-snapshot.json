@@ -5,7 +5,7 @@
   },
   {
     "path": ["fabrary"],
-    "output": "Usage: fab-cli fabrary [options] [command]\n\nDeck and card search via fabrary.net\n\nOptions:\n  -h, --help            display help for command\n\nCommands:\n  auth <token>          Save a raw Cognito access token (advanced — use 'fabrary\n                        login' instead)\n  login [options]       Log in with your fabrary.net email and password\n  heroes [options]      List all heroes with deck counts\n  formats               List all formats with deck counts\n  search [options]      Search decks by filters\n  top [options]         Show top decks ranked by win rate (fetches results for\n                        each deck)\n  deck [options] <id>   Show deck detail with win rate, card list, matchup\n                        guides, and stats\n  cards                 Search Flesh & Blood cards\n  meta [options]        Show hero win rates from the fabrary.net meta results\n                        matrix\n  meta-shift [options]  Compare 7d vs 30d win rates to identify trending heroes\n  help [command]        display help for command\n"
+    "output": "Usage: fab-cli fabrary [options] [command]\n\nDeck and card search via fabrary.net\n\nOptions:\n  -h, --help            display help for command\n\nCommands:\n  auth <token>          Save a raw Cognito access token (advanced — use 'fabrary\n                        login' instead)\n  login [options]       Log in with your fabrary.net email and password\n  heroes [options]      List all heroes with deck counts\n  formats               List all formats with deck counts\n  search [options]      Search decks by filters\n  top [options]         Show top decks ranked by win rate (fetches results for\n                        each deck)\n  deck [options] <id>   Show deck detail with win rate, card list, matchup\n                        guides, and stats\n  prep [options]        Matchup prep sheet: X-vs-Y win rate/games plus each top\n                        X deck's Y matchup guide\n  cards                 Search Flesh & Blood cards\n  meta [options]        Show hero win rates from the fabrary.net meta results\n                        matrix\n  meta-shift [options]  Compare 7d vs 30d win rates to identify trending heroes\n  help [command]        display help for command\n"
   },
   {
     "path": ["fabrary", "auth"],
@@ -34,6 +34,10 @@
   {
     "path": ["fabrary", "deck"],
     "output": "Usage: fab-cli fabrary deck [options] <id>\n\nShow deck detail with win rate, card list, matchup guides, and stats\n\nOptions:\n  --source <src>    Filter results by source (FaBrary, Talishar)\n  --matchup <name>  Show cards for a specific matchup only (partial name match)\n  --decklist-only   Show only the decklist\n  --matchups-only   Show only per-matchup card lists\n  --stats-only      Show only stats\n  -h, --help        display help for command\n"
+  },
+  {
+    "path": ["fabrary", "prep"],
+    "output": "Usage: fab-cli fabrary prep [options]\n\nMatchup prep sheet: X-vs-Y win rate/games plus each top X deck's Y matchup guide\n\nOptions:\n  --hero <id>        Hero identifier to prep (e.g. prism-awakener-of-sol)\n  --vs <id>          Opponent hero to prep against (partial name match)\n  --format <format>  Format (e.g. \"Classic Constructed\", CC, Blitz, SA)\n  -h, --help         display help for command\n"
   },
   {
     "path": ["fabrary", "cards"],
