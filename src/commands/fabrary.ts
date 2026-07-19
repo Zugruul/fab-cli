@@ -27,6 +27,7 @@ import {
   printMetaShiftTable,
   printMetaPeriods,
   printPrepSheet,
+  findMatchupByPartialName,
 } from "../display";
 import type { HeroTopEntry, HeroGroup, ClassGroup } from "../display";
 import {
@@ -542,9 +543,9 @@ export function registerFabrary(program: Command): Command {
 
         // Single-matchup view
         if (opts.matchup) {
-          const needle = opts.matchup.toLowerCase();
-          const matchup = versionInfo.matchups.find((m) =>
-            m.name.toLowerCase().includes(needle),
+          const matchup = findMatchupByPartialName(
+            versionInfo.matchups,
+            opts.matchup,
           );
           if (!matchup) {
             console.error(

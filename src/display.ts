@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import Table from "cli-table3";
 import type { AlgoliaDeck, DeckWithStats, FabCard } from "./types";
-import type { DeckCardInventory } from "./graphql";
+import type { DeckCardInventory, MatchupSummary } from "./graphql";
 import type { DeckCompositionStats, ResultStats, CardUsageStat } from "./stats";
 import type { HeroMetaRow, MetaPeriodGroup, MetaShiftRow } from "./meta";
 import type { TournamentEvent, CoverageIndex, StandingsRow, DecklistMeta, PlayerDecklist, PlayerPath } from "./fabtcg";
@@ -461,6 +461,16 @@ export function buildMatchupCardDiff(
   });
 
   return diff;
+}
+
+/** Case-insensitive substring match on matchup name — shared by `deck --matchup <name>`
+ *  and `prep`'s per-deck guide lookup so both resolve a partial name the same way. */
+export function findMatchupByPartialName(
+  matchups: MatchupSummary[],
+  needle: string
+): MatchupSummary | undefined {
+  const lower = needle.toLowerCase();
+  return matchups.find((m) => m.name.toLowerCase().includes(lower));
 }
 
 export function printMatchupCards(
