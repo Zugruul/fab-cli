@@ -40,18 +40,18 @@
     "weight": 0.5
   },
   "tal-arch-classstate->tal-arch-gamefile-lifecycle": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-arch-classstate->tal-recipe-base-card": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-arch-classstate->tal-recipe-classstate-counter": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-arch-contribution-conventions->tal-arch-dev-stack": {
@@ -110,18 +110,18 @@
     "weight": 0.5
   },
   "tal-arch-gamefile-lifecycle->tal-arch-classstate": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-arch-gamefile-lifecycle->tal-arch-request-pipeline": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-arch-gamefile-lifecycle->tal-recipe-classstate-counter": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-arch-layer-stack-combatchain->tal-arch-gamefile-lifecycle": {
@@ -189,59 +189,69 @@
     "last": null,
     "weight": 0.5
   },
-  "tal-recipe-base-card->tal-arch-decision-queue-await": {
+  "tal-recipe-arcane-damage-classstate->tal-arch-classstate": {
     "fires": 0,
     "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-arcane-damage-classstate->tal-recipe-classstate-counter": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-base-card->tal-arch-decision-queue-await": {
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-base-card->tal-arch-layer-stack-combatchain": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-base-card->tal-recipe-classstate-counter": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-base-card->tal-recipe-currentturneffect-suffix": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-base-card->tal-recipe-modal-choose1": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-classstate-counter->tal-arch-classstate": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-classstate-counter->tal-recipe-base-card": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-classstate-counter->tal-recipe-combat-modifiers": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-combat-modifiers->tal-arch-layer-stack-combatchain": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-combat-modifiers->tal-recipe-base-card": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-combat-modifiers->tal-recipe-currentturneffect-suffix": {
-    "fires": 0,
-    "last": null,
+    "fires": 1,
+    "last": "2026-07-18",
     "weight": 0.5
   },
   "tal-recipe-currentturneffect-suffix->tal-arch-layer-stack-combatchain": {
@@ -275,6 +285,16 @@
     "weight": 0.5
   },
   "tal-recipe-modal-choose1->tal-recipe-currentturneffect-suffix": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-next-turn-restriction->tal-recipe-currentturneffect-suffix": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-recipe-next-turn-restriction->tal-recipe-modal-choose1": {
     "fires": 0,
     "last": null,
     "weight": 0.5
