@@ -173,9 +173,7 @@ describe("docs/TALISHAR-AUDIT.md", () => {
     });
 
     it("has at least 3 findings, each with a concrete improvement proposal", () => {
-      const subheadings = dxBody
-        .split("\n")
-        .filter((l) => /^#{3,}\s/.test(l));
+      const subheadings = dxBody.split("\n").filter((l) => /^#{3,}\s/.test(l));
       expect(subheadings.length).toBeGreaterThanOrEqual(3);
       const proposalMentions = dxBody.match(/proposal/gi) ?? [];
       expect(proposalMentions.length).toBeGreaterThanOrEqual(3);
