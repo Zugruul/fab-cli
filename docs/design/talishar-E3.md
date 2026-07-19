@@ -212,6 +212,71 @@ Grounded in: TAL-031's finding (`docs/TALISHAR-AUDIT.md`, "BE #183" subsection, 
   lesson minted from TAL-023), a consent to "do the work" doesn't automatically cover "push to an
   external fork," which is asked separately when that point is actually reached.
 
-## Out of scope for this epic-task
+## TAL-033 — Add PHPUnit smoke-test coverage for Talishar card-hook implementations
 
-- TAL-033 (PHPUnit smoke-test coverage) — separate task, tracked independently.
+Grounded in: TAL-031's DX finding (`docs/TALISHAR-AUDIT.md`, DX section, PR #115) —
+`Classes/CardObjects/` (53 files, the exact surface TAL-020-023's `/talishar-implement-card`
+pipeline writes to) has zero PHPUnit coverage despite the vendored suite being fully configured
+(composer.json + 11 real test files under Security/Validation/BusinessLogic/Engine). Also
+grounded in SPEC-TALISHAR.md §8 (card implementation pipeline) and §10 I6 (fab-cli's own gate
+never depends on the vendored PHP suite or live network).
+
+### Components
+
+- `third_party/talishar/tests/Engine/CardHookTest.php` — new PHPUnit test file, following the
+  existing suite's directory convention (`tests/<Category>/<Thing>Test.php`), on a local branch
+  of the vendored clone's own fork (same pattern as TAL-021/032: `origin` = user's fork,
+  never pushed to `upstream` without explicit consent).
+- No new fab-cli source files — this task's only footprint in fab-cli itself is this design-doc
+  section; the actual test lives in the vendored `third_party/talishar` clone, gitignored, per
+  the same vendoring model TAL-020-023 established.
+
+### Interfaces / contracts
+
+- **Target card**: `wrecking_ball_red` in `third_party/talishar/Classes/CardObjects/RVDCards.php`
+  (already implemented via TAL-021) — chosen because it's a real, already-validated card with
+  concrete hook behavior to assert against, not a hypothetical fixture.
+- **Isolation, not a live game session**: the test must exercise the card's hook methods
+  (constructing the card object, invoking its DQ/on-play hooks with a minimal mocked/stubbed
+  game-state context) directly — it does NOT bring up the docker stack or hit
+  `ProcessInput.php`/`GetUpdateSSE.php` over HTTP. That's TAL-023's validation approach for a
+  full end-to-end run; this task's job is a fast, isolated regression unit test, matching how the
+  existing 11 suite files test Security/Validation/BusinessLogic/Engine mechanics.
+- **Reusable template**: the file's structure (setup boilerplate for constructing a minimal game
+  context, one test method per hook behavior asserted) must be copy-paste-adaptable for a
+  different card — this is the AC, not just "one passing test." A future
+  `/talishar-implement-card` validation phase should be able to duplicate this file, swap the
+  card class, and get a working skeleton.
+- **§10 I6**: this PHPUnit suite runs only inside `third_party/talishar` (gitignored, vendored) —
+  it is never wired into fab-cli's own `npm run gate`, and fab-cli's gate must stay exactly as
+  green/red as before this task (no new dependency, no new fab-cli test file required for this
+  task specifically, since there's no new fab-cli source behavior).
+
+### Key sequences
+
+1. Read the existing suite's conventions: `third_party/talishar/composer.json`'s test config,
+   and 1-2 of the 11 existing test files (e.g. under `tests/Engine/` if that directory exists, or
+   the closest analog) for setup/assertion style to match.
+2. Read `RVDCards.php`'s `wrecking_ball_red` class (and the dossier that documented its true text
+   during TAL-021, if still present) to know exactly which hook behavior to assert.
+3. Write the failing test first against the card's real hook signature (TDD red), then confirm it
+   passes once pointed at the real implementation (green) — since the implementation already
+   exists (TAL-021 shipped it), "red" here means the test file doesn't exist/doesn't compile yet,
+   not that the underlying card behavior is unimplemented.
+4. Run the vendored suite locally (`composer test` or the project's configured PHPUnit invocation
+   — check `composer.json` `scripts`) to confirm the new test passes.
+5. Confirm `npm run gate` (fab-cli's own gate) is unaffected — this task adds no fab-cli source.
+6. Same fork-push discipline as TAL-021/032: implement and validate on a local branch, STOP before
+   pushing to the fork, and ask for explicit push authorization when that point is reached.
+
+### Decisions
+
+- **Wrecking Ball over a hypothetical/simpler card** — reusing an already-implemented,
+  already-dossier'd card (TAL-021) avoids re-doing true-text research from scratch and gives the
+  template real behavior to assert against instead of a toy example.
+- **Isolated hook test, not a docker-stack smoke test** — TAL-023 already owns full end-to-end
+  docker-stack validation; duplicating that here would be redundant and slow. This task's value is
+  a *fast* regression test future card sessions can run without bringing up the stack.
+- **No fab-cli-side test required** — the deliverable lives entirely in the vendored clone; adding
+  a fab-cli test asserting PHP file existence/content would be low-value string-matching against a
+  gitignored path that can't be verified any more directly than reading the PHP itself.
