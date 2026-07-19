@@ -2678,3 +2678,63 @@ items:
   routing:
     action: brain-note
     ref: dev/verify-own-commit-is-test-only-before-writing-implementation
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T04:26:00Z'
+iteration:
+  task: TAL-031
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Explicitly citing the immediately preceding task's specific process mistake
+    in a new task's brief, with a mechanical self-check instruction, prevented the
+    same mistake from recurring in the very next task.
+  detail: The prior task in this same session landed its test and implementation content
+    in a single combined commit rather than the required red-then-green split. The
+    next task's brief explicitly named that exact mistake, quoted the exact remedy
+    ('after your first commit, run git show --stat and confirm it shows ONLY the test
+    file'), and the dev agent produced a genuinely correct, verified-red separate
+    commit this time -- confirmed independently by both reviewers and the orchestrator
+    via isolated-worktree reproduction.
+  generalized: When a process mistake occurs in one task and the same class of task
+    will run again soon in the same session, brief the next instance with the SPECIFIC
+    failure mode named explicitly (not just 'remember to do TDD properly') plus a
+    concrete, mechanical self-verification step the agent can run itself before proceeding.
+    A generic reminder of the rule is less effective than naming the exact way it
+    was violated last time and giving a literal command to check against recurrence.
+  routing:
+    action: brain-note
+    ref: orchestrator/brief-next-task-with-named-prior-mistake-plus-mechanical-check
+- category: incident
+  area: review
+  severity: medium
+  summary: A documentation task whose entire premise is citation precision under deep
+    cross-repo research produced two genuinely false claims from grep patterns that
+    silently missed real matches, both caught by independent review rather than the
+    author's own methodology.
+  detail: One false claim (a prop claimed unused) came from a grep pattern with a
+    trailing character that excluded a real, common syntax variant (JSX shorthand
+    boolean props). The other (a doc gap claimed to exist) came from the same failure
+    mode -- the author's own stated search terms, when actually run by a reviewer,
+    immediately found what was claimed absent. Both were caught only because the reviewer
+    independently re-ran the exact commands the doc claimed to have run, not because
+    the author's own verification process caught them.
+  generalized: For any research task whose findings hinge on 'grep returned zero matches,
+    therefore X doesn't exist/isn't used,' the negative result itself needs verification
+    before it's trusted enough to write into a deliverable -- re-run with at least
+    one meaningfully different pattern (looser anchoring, alternate syntax forms)
+    and confirm the count doesn't change, as a standing step in the research methodology
+    itself, not left to be caught downstream by a reviewer. A review process that
+    independently re-runs an author's own stated search commands is a strong safety
+    net, but it's cheaper for the author to self-check the negative result before
+    writing the finding than to rely on that net catching it.
+  routing:
+    action: brain-note
+    ref: dev/sanity-check-zero-match-grep-with-looser-pattern-before-claiming-absence
