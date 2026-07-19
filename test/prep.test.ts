@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, afterEach } from "vitest";
+import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { buildPrepSheet } from "../src/prep";
 import type { AlgoliaDeck } from "../src/types";
 
@@ -109,7 +109,7 @@ function getResultsRoute(deckId: string, wins: number, losses: number): Route {
         body.variables?.deckId === deckId
       );
     },
-    json: { getResults: { nextToken: null, results } },
+    json: { data: { getResults: { nextToken: null, results } } },
   };
 }
 
@@ -132,60 +132,82 @@ function getDeckRoute(
       );
     },
     json: {
-      getDeck: {
-        deckCards: [
-          {
-            cardIdentifier: "card-a",
-            quantity: 2,
-            sideboardQuantity: 0,
-            maybeQuantity: 0,
-            matchupQuantities: matchups.length
-              ? [{ matchupId: matchups[0].matchupId, quantity: 0, sideboardQuantity: 0 }]
-              : null,
-            card: {
-              types: ["Action"],
-              subtypes: [],
-              pitch: 1,
-              cost: 1,
-              power: 1,
-              defense: 0,
-              keywords: [],
-              talents: [],
-              classes: [],
-              rarity: "Common",
+      data: {
+        getDeck: {
+          deckCards: [
+            {
+              cardIdentifier: "card-a",
+              quantity: 2,
+              sideboardQuantity: 0,
+              maybeQuantity: 0,
+              matchupQuantities: matchups.length
+                ? [
+                    {
+                      matchupId: matchups[0].matchupId,
+                      quantity: 0,
+                      sideboardQuantity: 0,
+                    },
+                  ]
+                : null,
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 1,
+                cost: 1,
+                power: 1,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
             },
-          },
-          {
-            cardIdentifier: "card-b",
-            quantity: 0,
-            sideboardQuantity: 2,
-            maybeQuantity: 0,
-            matchupQuantities: matchups.length
-              ? [{ matchupId: matchups[0].matchupId, quantity: 0, sideboardQuantity: 2 }]
-              : null,
-            card: {
-              types: ["Action"],
-              subtypes: [],
-              pitch: 2,
-              cost: 2,
-              power: 2,
-              defense: 0,
-              keywords: [],
-              talents: [],
-              classes: [],
-              rarity: "Common",
+            {
+              cardIdentifier: "card-b",
+              quantity: 0,
+              sideboardQuantity: 2,
+              maybeQuantity: 0,
+              matchupQuantities: matchups.length
+                ? [
+                    {
+                      matchupId: matchups[0].matchupId,
+                      quantity: 0,
+                      sideboardQuantity: 2,
+                    },
+                  ]
+                : null,
+              card: {
+                types: ["Action"],
+                subtypes: [],
+                pitch: 2,
+                cost: 2,
+                power: 2,
+                defense: 0,
+                keywords: [],
+                talents: [],
+                classes: [],
+                rarity: "Common",
+              },
             },
-          },
-        ],
-        matchups,
+          ],
+          matchups,
+        },
       },
     },
   };
 }
 
 describe("buildPrepSheet", () => {
+  const originalToken = process.env.FABRARY_TOKEN;
+
+  beforeEach(() => {
+    process.env.FABRARY_TOKEN = "test-token";
+  });
+
   afterEach(() => {
     vi.restoreAllMocks();
+    if (originalToken === undefined) delete process.env.FABRARY_TOKEN;
+    else process.env.FABRARY_TOKEN = originalToken;
   });
 
   it("aggregates meta win-rate/games AND per-deck matchup guides for multiple decks", async () => {
@@ -197,7 +219,9 @@ describe("buildPrepSheet", () => {
         heroResults: [
           {
             heroIdentifier: "hero-x",
-            results: [{ opposingHeroIdentifier: "hero-y", plays: 20, wins: 12 }],
+            results: [
+              { opposingHeroIdentifier: "hero-y", plays: 20, wins: 12 },
+            ],
           },
         ],
       }),
@@ -208,7 +232,7 @@ describe("buildPrepSheet", () => {
       getDeckRoute("deck-1", [
         {
           matchupId: "m1",
-          name: "vs Hero Y Aggro",
+          name: "vs HeroY Aggro",
           preferredTurnOrder: "first",
           notes: "Race them down.",
         },
@@ -228,7 +252,7 @@ describe("buildPrepSheet", () => {
     expect(guide.deckId).toBe("deck-1");
     expect(guide.deckName).toBe("Deck One");
     expect(guide.author).toBe("tester");
-    expect(guide.matchup.name).toBe("vs Hero Y Aggro");
+    expect(guide.matchup.name).toBe("vs HeroY Aggro");
     expect(guide.matchup.preferredTurnOrder).toBe("first");
     expect(guide.matchup.notes).toBe("Race them down.");
     // card-a: 2 -> 0 override => removed; card-b: sideboard override 2 => added
@@ -246,9 +270,7 @@ describe("buildPrepSheet", () => {
     const d1 = deck({ deckId: "deck-1" });
     installFetchRouter([
       metaRoute({
-        heroResults: [
-          { heroIdentifier: "hero-x", results: [] },
-        ],
+        heroResults: [{ heroIdentifier: "hero-x", results: [] }],
       }),
       algoliaSearchRoute([d1]),
       getResultsRoute("deck-1", 6, 1),
@@ -270,7 +292,9 @@ describe("buildPrepSheet", () => {
         heroResults: [
           {
             heroIdentifier: "hero-x",
-            results: [{ opposingHeroIdentifier: "hero-y", plays: 20, wins: 12 }],
+            results: [
+              { opposingHeroIdentifier: "hero-y", plays: 20, wins: 12 },
+            ],
           },
         ],
       }),
