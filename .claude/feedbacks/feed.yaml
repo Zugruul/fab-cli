@@ -2514,3 +2514,62 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/brief-reviewers-to-prioritize-the-highest-stakes-claim
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T02:53:00Z'
+iteration:
+  task: TAL-022
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: other
+  severity: medium
+  summary: A verification method's own correctness (checking snake_case IDs against
+    a file that stores title-case names) went unquestioned for two prior tasks in
+    the same pipeline before a later task re-derived and caught it, meaning an earlier
+    task's stated finding ("confirmed missing") was silently wrong and nearly propagated
+    further.
+  detail: TAL-020's dossier phase and TAL-021's implementation task both implicitly
+    treated a card's images/cardlist status as unverified/out of scope for their own
+    work, so the wrong check (from an earlier design-doc assumption) wasn't caught
+    until TAL-022 actually needed to test it directly. The design doc itself had explicitly
+    required re-confirming the premise before acting, which is exactly what caught
+    it -- but the check's own soundness (grep pattern vs data shape) had never been
+    independently verified before being relied on.
+  generalized: In a multi-task pipeline where later tasks consume an earlier task's
+    stated findings, don't assume a finding is correct just because it was stated
+    confidently in a prior task's design doc or report -- the finding's own verification
+    METHOD may be flawed even when its conclusion happens to be directionally right
+    or wrong. Build re-verification into each task's own first step when a design
+    doc's premise could have drifted or been wrong from the start, not just when new
+    information has obviously changed.
+  routing:
+    action: brain-note
+    ref: dev/reverify-inherited-claims-dont-just-trust-prior-task-finding
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Explicitly telling a dev agent that a "nothing to do" outcome must still
+    update the durable artifact (the skill file), not just be narrated in a PR body,
+    led to the discovered bug (a false-negative check) being permanently fixed rather
+    than just documented as a one-off finding.
+  detail: The dev agent, on finding the task's premise was stale, could have simply
+    reported 'nothing to do, already exists' and stopped. Instead it built the corrected
+    check-first logic directly into the skill file's Phase 3 Steps, including the
+    specific data-shape gotcha that caused the original false negative. Both reviewers
+    independently confirmed this durable fix would actually prevent the same mistake
+    from recurring on a future card, not just document that it happened once.
+  generalized: When a task's real work turns out to be a no-op because a premise was
+    stale/wrong, brief the agent (or establish as a standing pattern) that discovering
+    AND correcting the underlying reason for the stale premise in a durable, reusable
+    artifact is itself the task's deliverable — not optional extra credit on top of
+    'report nothing to do.' A narrated one-off finding helps only this session; an
+    encoded fix helps every future instance of the same problem.
+  routing:
+    action: brain-note
+    ref: dev/encode-the-discriminator-not-just-the-finding-when-work-is-a-noop
