@@ -379,6 +379,62 @@ Grounded in: SPEC-TALISHAR.md §8.4, §10 I3.
   — not adding a CLI-args feature to the script (that would be scope creep into the vendored
   project's own tooling design, not this task's job).
 
+## TAL-024 — Stress-test the dossier phase on arcane-damage and mechanically weirder cards
+
+Grounded in: user directive (issue #110, OWNER comment), §7.3/§7.6 (brain seeding is ongoing, never
+"done"), §8.1 (dossier phase reused as-is).
+
+### Scope
+
+Pure research/dossier work — reuse TAL-020's dossier phase (via TAL-020's `src/talisharDossier.ts`
+helpers and the `/talishar-implement-card` skill's Phase 1 Steps) against 2+ mechanically distinct
+cards, chosen to stress a shape Wrecking Ball's dossier never touched:
+
+- **Warmonger's Diplomacy** (Generic Action, pitch 3, no attack/power/defense-as-attack) — a
+  multi-hero, sequential-choice, future-turn-restriction effect ("starting with the hero to your
+  left, each hero chooses..."). Confirmed already implemented in
+  `third_party/talishar/Classes/CardObjects/UPRCards.php` — the dossier can and should cite the
+  real implementation as its "similar existing implementation" finding, exactly as the pipeline
+  intends, even though this task isn't asked to re-implement it.
+- **Aether Dart** (Wizard Action, direct arcane damage: "Deal N arcane damage to any target," no
+  attack step at all) — confirmed already implemented (`Classes/CardObjects/DTDCards.php`), and
+  the engine tracks arcane damage via a dedicated `$CS_ArcaneDamageDealt` ClassState counter
+  (`CardLogic.php` — distinct from the generic `$CS_DamageDealt` combat-damage counter), a pattern
+  none of TAL-013's seeded `tal-recipe-*` notes currently document.
+- A third card is welcome if a natural additional "weird" shape presents itself during research
+  (e.g. a card touching multiple heroes, a persistent aura, or another ClassState family) but is
+  not required — depth on the two named examples matters more than breadth.
+
+### Interfaces / contracts
+
+- Same dossier file shape as TAL-020/021/023 (`.claude/talishar/dossiers/<card-slug>.md`,
+  gitignored, never committed).
+- Per the issue's own scope note: "if a dossier surfaces a genuinely new recipe variation, that's
+  a signal to mint a new `tal-recipe-*` brain note too, not just a one-off dossier." The
+  `$CS_ArcaneDamageDealt` counter pattern and Warmonger's Diplomacy's multi-hero sequential-choice
+  pattern are both real candidates for this — if the research confirms they're genuinely
+  undocumented recipe shapes (not just variations already covered by existing `tal-recipe-*`
+  notes), mint them into the talishar brain, following TAL-013's house frontmatter/citation
+  conventions exactly.
+- No PHP implementation, no docker validation, no fork push in this task — pure dossier +
+  (conditionally) brain-note minting.
+- TDD shape: same doc-task-adapted pattern as TAL-013's brain-seeding spot-check — a structural
+  test asserting the dossier's own text and any newly-minted brain notes name real citations, not
+  just pointers. Given this task is lighter-weight than a full epic phase, a single well-scoped
+  test file covering both cards' dossier completeness + any new brain-note content is sufficient
+  (no need for per-card test files).
+
+### Decisions
+
+- **Both named cards are already implemented in the vendored engine.** That's fine and arguably
+  better for this task — the dossier's "similar existing implementation" section gets to cite the
+  REAL implementation of the exact card being researched (ground truth, not an analog), which is
+  the strongest possible test of whether the dossier phase can find and use real precedent.
+- **This is explicitly a knowledge-growth task, not a pipeline-completeness task** — E2's four
+  phases are already done (TAL-020-023); TAL-024 is testing whether the dossier phase's
+  RESEARCH QUALITY holds up on harder cards, and growing the brain if it finds gaps (mirrors
+  TAL-013's "never done" framing from §7.6).
+
 ## Out of scope for this epic-task
 
 - Latency/DX audit (E3) — unrelated to the card pipeline's dossier phase.
