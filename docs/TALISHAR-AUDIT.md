@@ -333,11 +333,19 @@ against a second dispatch while the first is still in flight:
 `playCardFunc` (line 184) and
 `third_party/talishar-fe/src/routes/game/components/elements/cardDisplay/CardDisplay.tsx`'s
 `onClick` (line 95) both call `dispatch(playCard(...))` unconditionally. `CardDisplay.tsx` does
-declare a `preventUseOnClick` prop (line 20) that could gate this, but a repo-wide grep finds no
-caller ever passes it (`grep -rn "preventUseOnClick=" third_party/talishar-fe/src --include="*.tsx"`
-— no matches) — dead plumbing, not an active guard. Separately, `GameSlice.ts`'s
-`isPlayerInputInProgress` flag (set `true` on `playCard.pending`, line 992) exists in Redux state
-but nothing in either click handler reads it to disable the card.
+declare a `preventUseOnClick` prop (line 20) that could gate this, and it **is** wired up at
+several call sites — `GraveyardZone.tsx` (line 112), `BanishZone.tsx` (line 110), `PitchZone.tsx`
+(line 97), `OtherInput.tsx` (line 39), and `CardDisplay.tsx`'s own sub-card self-reference (line
+178) all pass it as JSX shorthand (`preventUseOnClick`, no `=`, easy to miss with a
+`preventUseOnClick="` grep). But none of the **equipment zones** pass it: a check of all 6
+equipment-slot components (`WeaponRZone.tsx`, `ChestEqZone.tsx`, `ArmsEqZone.tsx`,
+`LegsEqZone.tsx`, `HeadEqZone.tsx`, `WeaponLZone.tsx`) plus `HeroZone.tsx` and `ArsenalZone.tsx`
+shows every one of them renders `<CardDisplay card={...} isPlayer={isPlayer} />` with no
+`preventUseOnClick` — exactly the zones #183's "equipment abilities" symptom lives in. Separately,
+`GameSlice.ts`'s `isPlayerInputInProgress` flag (set `true` on `playCard.pending`, line 992)
+exists in Redux state but nothing in either click handler reads it to disable the card, and
+`PlayerHandCard.tsx`'s `playCardFunc` doesn't render through `CardDisplay` at all, so
+`preventUseOnClick` couldn't gate it even if passed.
 
 **Impact**: a rapid double-click or a slow/lagged first response (the exact symptom #183
 describes) fires `playCard` twice with two different `commandId`s and, since the backend
@@ -354,7 +362,10 @@ above), and track the last-seen `commandId` per game+player (e.g. alongside the 
 "cache" array) to no-op an exact repeat; (2) frontend: gate both `playCardFunc`
 (`PlayerHandCard.tsx`) and `CardDisplay.tsx`'s `onClick` on `isPlayerInputInProgress` (already
 computed, already in state, just unread by these two call sites) — either disable the click or
-early-return, mirroring the pattern the abandoned `preventUseOnClick` prop was clearly meant for.
+early-return. For `CardDisplay.tsx`'s own `onClick`, wiring `isPlayerInputInProgress` into
+`preventUseOnClick` at the equipment/hero/arsenal zone call sites (mirroring the pattern the
+graveyard/banish/pitch zones already use for a different reason) would close that gap with the
+same mechanism already proven elsewhere in the component.
 
 **Rank**: Effort Low-Medium (frontend gate is a small, localized change; backend validation
 touches `ProcessInput.php`'s existing revision-tracking path rather than adding a new one),
@@ -414,39 +425,39 @@ live validation the skill already does (real game-state behavior can't be unit-t
 isolation), but it closes the gap between "phpunit is configured and documented" and "phpunit
 covers zero cards" for at least a smoke-test tier.
 
-### Finding 2: the async Decision Queue model is an undocumented new-contributor trap
+### Finding 2: FE test coverage is extremely thin outside a handful of utility modules
 
-[[tal-arch-decision-queue-await]] (this session's own architecture note, `strength: 1`, not yet
-graduated) already flags this as "the #1 gotcha": DQ (Decision Queue) calls are asynchronous —
-regular PHP code written *after* a block of DQ calls in the same function runs **before** those
-queued DQs execute, not after. Code that must run after a DQ effect needs to itself be queued as
-another DQ command. This is exactly the kind of trap that produces subtly wrong card
-implementations that pass a shallow "does it compile and not crash" check but get the DQ ordering
-wrong — high blast radius for new contributors (which `/talishar-implement-card` exists to
-onboard), and it isn't called out anywhere in `third_party/talishar/CLAUDE.md` or
-`third_party/talishar/New Developer Guide.md` (neither file's DQ-related sections mention the
-ordering gotcha directly — confirmed by grep, no "asynchronous" or "queued" callout near either
-doc's DQ discussion).
+`third_party/talishar-fe`'s `package.json` wires `vitest` (`"test": "vitest"`, line 53) and the
+harness works — but a repo-wide count shows only **5** `*.test.ts(x)` files
+(`PlayerPresence.test.ts`, `PreserveIdentities.test.ts`, `multilanguage.test.ts`,
+`matcher.test.ts`, `CardImage.test.tsx`) against **375** non-test `.ts`/`.tsx` source files under
+`third_party/talishar-fe/src` — roughly 1.3% file coverage. The 5 existing tests cluster around
+low-level, pure-function utilities (identity preservation, i18n string lookup, keyword matching,
+presence state); none of the Redux slices that drive gameplay (`GameSlice.ts`, at ~1000+ lines
+the single largest behavioral surface in the FE, including the `playCard`/`isPlayerInputInProgress`
+logic the BE #183 bug-scan finding above turns on) have any test coverage at all.
 
-**Proposal**: add a short, explicit "DQ calls are asynchronous — code after them runs first"
-callout to `third_party/talishar/New Developer Guide.md`'s existing DQ section (a doc PR against
-the fork, following the same never-touch-upstream-PRs contract as any other Talishar
-contribution) — a one-paragraph addition citing a concrete before/after example would have
-shortened this session's own path to learning the rule from "read `AddDecisionQueue()`'s call
-sites until the pattern became clear" to "read one paragraph."
+**Proposal**: rather than a blanket "add more tests" ask, target the highest-leverage gap first —
+a `GameSlice.test.ts` covering the request-building thunks (`playCard`, `submitButton`) and their
+pending/fulfilled/rejected reducers (`isPlayerInputInProgress` transitions in particular) would
+both raise real coverage and directly pin down the exact behavior the #183 fix needs to not
+regress, once implemented.
 
-### Finding 3: `preventUseOnClick` is dead, unwired prop plumbing
+### Finding 3: no documented convention for when a FE zone must pass `preventUseOnClick`
 
-Found while investigating the BE #183 bug-scan finding above:
-`third_party/talishar-fe/src/routes/game/components/elements/cardDisplay/CardDisplay.tsx` declares
-a `preventUseOnClick?: boolean` prop (line 20) that its own `onClick` handler checks (line 90) —
-but no caller anywhere in the FE (`grep -rn "preventUseOnClick=" third_party/talishar-fe/src
---include="*.tsx"` — zero matches) ever passes it. A contributor reading `CardDisplay.tsx` in
-isolation would reasonably assume double-click protection already exists here; it doesn't fire in
-practice because it's never wired.
+`CardDisplay.tsx` declares a `preventUseOnClick?: boolean` prop (line 20) that its `onClick`
+handler checks (line 90), and it genuinely **is** used — 5 real call sites pass it as JSX
+shorthand (`GraveyardZone.tsx:112`, `BanishZone.tsx:110`, `PitchZone.tsx:97`,
+`OtherInput.tsx:39`, `CardDisplay.tsx:178`'s own sub-card self-reference), so this is not dead
+code. But nothing documents *why* those 5 zones pass it and the other ~15 `<CardDisplay>` call
+sites (including all 6 equipment zones and `HeroZone`/`ArsenalZone`, per the BE #183 finding
+above) don't — a future contributor adding a new interactive zone has no written rule to consult
+for whether their zone needs it, only prior art to reverse-engineer from reading every existing
+call site.
 
-**Proposal**: either wire `preventUseOnClick={isPlayerInputInProgress}` at `CardDisplay.tsx`'s
-call site(s) as the low-effort half of the BE #183 fix sketch above, or — if the prop is
-genuinely obsolete — remove it so the component's real (current) behavior matches what a reader
-sees. Either resolution is small; leaving it as dead plumbing that reads like a live guard is the
-one bad option.
+**Proposal**: a one-line JSDoc comment on the `preventUseOnClick` prop declaration itself
+(`CardDisplay.tsx` line 20) stating the actual convention — e.g. "pass this for any zone where
+the card is display-only / not a legal action target, to suppress the play/activate click" —
+would turn "read every call site to infer the pattern" into "read the prop's own doc comment,"
+the same fix shape as Finding 2's coverage gap: closing a knowledge gap at its source rather than
+downstream.
