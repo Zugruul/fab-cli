@@ -210,6 +210,94 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
     await resultPromise;
   });
 
+  it("two consecutive real ticks: a no-op first tick, then a second tick that produces an update, proving the loop re-delays/re-fetches/re-diffs correctly on re-entry", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
+      .reply(
+        200,
+        indexHtml({ resultRounds: [1], standingRounds: [1], hasFinal: false }),
+        { headers: { "content-type": "text/html" } },
+      )
+      .times(2);
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/results/1/`, method: "GET" })
+      .reply(
+        200,
+        resultsHtml([
+          matchRow({
+            player1: "Alice",
+            player1Hero: "Dorinthea",
+            player2: "Bob",
+            player2Hero: "Prism",
+            winner: 1,
+          }),
+        ]),
+        { headers: { "content-type": "text/html" } },
+      );
+    // Tick 1: index unchanged — no new round.
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
+      .reply(
+        200,
+        indexHtml({ resultRounds: [1], standingRounds: [1], hasFinal: false }),
+        { headers: { "content-type": "text/html" } },
+      );
+    // Tick 2: index now shows round 2.
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
+      .reply(
+        200,
+        indexHtml({
+          resultRounds: [1, 2],
+          standingRounds: [1, 2],
+          hasFinal: false,
+        }),
+        { headers: { "content-type": "text/html" } },
+      );
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/results/2/`, method: "GET" })
+      .reply(
+        200,
+        resultsHtml([
+          matchRow({
+            player1: "Alice",
+            player1Hero: "Dorinthea",
+            player2: "Carol",
+            player2Hero: "Iyslander",
+            winner: 2,
+          }),
+        ]),
+        { headers: { "content-type": "text/html" } },
+      );
+
+    const onUpdate = vi.fn();
+    const onFinal = vi.fn();
+    const controller = new AbortController();
+
+    const resultPromise = runLiveFollow(SLUG, "Alice", {
+      onUpdate,
+      onFinal,
+      signal: controller.signal,
+    });
+
+    await vi.advanceTimersByTimeAsync(60_000);
+    expect(onUpdate).not.toHaveBeenCalled();
+
+    await vi.advanceTimersByTimeAsync(60_000);
+    expect(onUpdate).toHaveBeenCalledTimes(1);
+    const line = onUpdate.mock.calls[0][0] as string;
+    expect(line).toMatch(/Round 2/);
+    expect(line).toMatch(/Carol/);
+    expect(line).toMatch(/Iyslander/);
+    expect(line).toMatch(/L/);
+
+    controller.abort();
+    await vi.advanceTimersByTimeAsync(0);
+    const result = await resultPromise;
+    expect(result).toEqual({ reason: "aborted" });
+    expect(onFinal).not.toHaveBeenCalled();
+  });
+
   it("hasFinalStandings flipping true calls onFinal exactly once with the correct summary and resolves with reason final-standings, with no further ticks", async () => {
     mockPool(mock, "https://fabtcg.com")
       .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
