@@ -114,6 +114,27 @@ describe("fabtcg coverage --path --live (CLI wiring)", () => {
     expect(out).toMatch(/--live requires --path or --search-player/);
   });
 
+  it("--live combined with --json prints a rejection and never starts the poll loop or emits JSON", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
+      .reply(200, COVERAGE_INDEX_HTML, {
+        headers: { "content-type": "text/html" },
+      });
+
+    const program = buildJsonProgram();
+    // No interceptor is registered for /results/1/ or a second index fetch:
+    // if the loop actually started (guard missing), this would fail loudly
+    // via the unmatched-mock assertion, same as the ambiguous-player test.
+    await program.parseAsync(
+      ["fabtcg", "coverage", SLUG, "--path", "Alice", "--live", "--json"],
+      { from: "user" },
+    );
+
+    const out = logs.join("\n");
+    expect(out).toMatch(/--live.*not combinable with --json|--json.*not combinable with --live/i);
+    expect(out).not.toMatch(/^\{/);
+  });
+
   it("--live with a single resolved match prints the static summary, then a live update line on the first tick, then stops cleanly on SIGINT", async () => {
     const tmpCacheDir = await fs.promises.mkdtemp(
       path.join(os.tmpdir(), "fab-cli-live-cli-cache-"),
