@@ -29,6 +29,16 @@
     "last": null,
     "weight": 0.5
   },
+  "prettier-is-the-easiest-gate-step-to-silently-miss->gate-green-can-hide-uncommitted-local-fixes": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "prettier-is-the-easiest-gate-step-to-silently-miss->scoped-green-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "ttl-equals-poll-interval-is-permanent-miss->pagination-cap-check-before-vs-after-fetch": {
     "fires": 0,
     "last": null,
