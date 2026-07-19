@@ -319,6 +319,71 @@ describe("runLiveFollow (offline, HTTP mocked, fake timers)", () => {
     // assertion below only counting the seed's 2 index calls.
   });
 
+  it("aborting mid-tick, right after the index fetch resolves but before round-pairings fetching starts, returns aborted promptly instead of finishing the whole tick", async () => {
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
+      .reply(
+        200,
+        indexHtml({ resultRounds: [1], standingRounds: [1], hasFinal: false }),
+        { headers: { "content-type": "text/html" } },
+      )
+      .times(2);
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/results/1/`, method: "GET" })
+      .reply(
+        200,
+        resultsHtml([
+          matchRow({
+            player1: "Alice",
+            player1Hero: "Dorinthea",
+            player2: "Bob",
+            player2Hero: "Prism",
+            winner: 1,
+          }),
+        ]),
+        { headers: { "content-type": "text/html" } },
+      );
+
+    const controller = new AbortController();
+
+    // The poll tick's index fetch reports a new round 2 — but aborts the
+    // signal as a side effect of resolving, simulating Ctrl-C landing right
+    // between the index fetch and the round-pairings fetch it would trigger.
+    // No interceptor for round 2's pairings is registered: if the abort
+    // check between fetches is missing, the loop presses on into fetching
+    // round 2 pairings and this test fails loudly (net connect disabled)
+    // instead of resolving with {reason: "aborted"}.
+    mockPool(mock, "https://fabtcg.com")
+      .intercept({ path: `/coverage/${SLUG}/`, method: "GET" })
+      .reply(() => {
+        controller.abort();
+        return {
+          statusCode: 200,
+          data: indexHtml({
+            resultRounds: [1, 2],
+            standingRounds: [1, 2],
+            hasFinal: false,
+          }),
+          headers: { "content-type": "text/html" },
+        };
+      });
+
+    const onUpdate = vi.fn();
+    const onFinal = vi.fn();
+
+    const resultPromise = runLiveFollow(SLUG, "Alice", {
+      onUpdate,
+      onFinal,
+      signal: controller.signal,
+    });
+
+    await vi.advanceTimersByTimeAsync(60_000);
+
+    const result = await resultPromise;
+    expect(result).toEqual({ reason: "aborted" });
+    expect(onUpdate).not.toHaveBeenCalled();
+  });
+
   it("resolves ambiguity via searchPlayerInEvent semantics: round diffing is format-agnostic across a dual-format event (a player's hero changes between rounds)", async () => {
     // Round 1 (e.g. Classic Constructed) then round 2 (e.g. Silver Age) —
     // same player, different hero — round-diffing must not special-case this.
