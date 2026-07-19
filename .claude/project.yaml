@@ -254,7 +254,7 @@ methodology:
     card: card-vault
     keyword: card-vault
   tdd: true
-  maxInProgress: 1
+  maxInProgress: 2
   autoMerge: true
   mergeMethod: squash
   feedback: true
