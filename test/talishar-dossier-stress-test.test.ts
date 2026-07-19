@@ -36,7 +36,9 @@ describe("TAL-024: Warmonger's Diplomacy dossier (multi-hero sequential-choice s
 
   it("cites the real true text verbatim from Card Vault", () => {
     const body = readDossier("warmongers-diplomacy.md");
-    expect(body).toMatch(/Starting with the hero to your left, each hero chooses war or peace/);
+    expect(body).toMatch(
+      /Starting with the hero to your left, each hero chooses war or peace/,
+    );
     expect(body).toMatch(
       /only actions they may play or activate during their next turn are weapon and attack actions/,
     );
@@ -92,17 +94,23 @@ describe("TAL-024: brain growth — genuinely new recipe(s) minted from stress-t
   });
 
   it("minted a new tal-recipe note documenting the cross-player next-turn restriction pattern", () => {
-    const files = noteFiles().filter((f) => /next.turn|multi.player|multi.hero|sequential/i.test(f));
+    const files = noteFiles().filter((f) =>
+      /next.turn|multi.player|multi.hero|sequential/i.test(f),
+    );
     expect(files.length).toBeGreaterThan(0);
     const body = files.map(readNote).join("\n\n");
     expect(body).toMatch(/ADDTHEIRNEXTTURNEFFECT/);
     expect(body).toMatch(/AddNextTurnEffect/);
-    expect(body).toMatch(/`third_party\/talishar\/CardDictionaries\/DuskTillDawn\/DTDShared\.php`/);
+    expect(body).toMatch(
+      /`third_party\/talishar\/CardDictionaries\/DuskTillDawn\/DTDShared\.php`/,
+    );
   });
 
   it("every newly-minted note (arcane + next-turn) uses correct house frontmatter", () => {
     const files = noteFiles().filter(
-      (f) => /arcane/i.test(f) || /next.turn|multi.player|multi.hero|sequential/i.test(f),
+      (f) =>
+        /arcane/i.test(f) ||
+        /next.turn|multi.player|multi.hero|sequential/i.test(f),
     );
     expect(files.length).toBeGreaterThanOrEqual(2);
     for (const f of files) {
@@ -113,7 +121,9 @@ describe("TAL-024: brain growth — genuinely new recipe(s) minted from stress-t
       expect(body, `${f} missing strength:`).toMatch(/\nstrength:\s*\d/);
       expect(body, `${f} missing source:`).toMatch(/\nsource:\s*"/);
       expect(body, `${f} missing graduated:`).toMatch(/\ngraduated:\s*false/);
-      expect(body, `${f} missing created:`).toMatch(/\ncreated:\s*\d{4}-\d{2}-\d{2}/);
+      expect(body, `${f} missing created:`).toMatch(
+        /\ncreated:\s*\d{4}-\d{2}-\d{2}/,
+      );
     }
   });
 });
