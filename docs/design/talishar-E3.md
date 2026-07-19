@@ -72,6 +72,74 @@ Grounded in: SPEC-TALISHAR.md §9.1–§9.5, §10 I6.
   such finding that it's an estimate, not a measured number, and what would be needed to measure
   it for real.
 
+## TAL-031 — Bug + DX scan, findings filed as tasks
+
+Grounded in: SPEC-TALISHAR.md §9.2, §9.3, §9.4.
+
+### Components
+
+- `docs/TALISHAR-AUDIT.md` (already merged, TAL-030) — extended with two new `##` sections:
+  "Bug scan" and "DX" (developer experience). Same document, additive change only — TAL-030's
+  five performance sections are untouched.
+- New board task(s) for the top-ranked findings — filed via the `create-inbound` flow. **This is
+  the ORCHESTRATOR's job, not the dev agent's** (dev agents never touch the board, per this
+  workflow's standing rule) — the dev agent's deliverable is the audit content PLUS a clearly
+  ranked list of which findings should become board tasks and why; the orchestrator files them
+  as a follow-up step after reviewing the PR, using the dev agent's proposed title/body text
+  as a starting draft, per the same `create-inbound` dedup-search process already used for
+  TAL-024.
+
+### Interfaces / contracts
+
+- **Bug scan (§9.2)**: triage upstream `Talishar/Talishar` issue history (read-only —
+  `gh issue list --repo Talishar/Talishar --state closed --search "..."` etc.) for recurring bug
+  CLASSES, using the spec's named seeds as starting points (BE #501 SSE disconnect, #183 lag
+  double-activation, FE #98 reload freeze) — confirm these are real issues first
+  (`gh issue view <n> --repo Talishar/Talishar`), don't assume the spec's examples are still
+  accurate without checking. Then scan the VENDORED code (the same clone already used throughout
+  E1-E3) for reproducible suspects matching those bug classes — a real code location that could
+  plausibly cause the same symptom, cited by path.
+- **DX section (§9.3)**: friction in local setup (real, lived experience from this session's own
+  `bash start.sh` runs across TAL-023/024/030), test coverage gaps (in the vendored PHP codebase's
+  own test suite, if any exists — check), stale docs (beyond the `port 8000` and `CardImages` URL
+  gotchas TAL-010/011 already found and documented — look for NEW stale-doc findings, don't just
+  repeat those). Each DX item needs a concrete improvement proposal, not just a complaint.
+- **§9.4 (filing)**: "top-ranked findings" — not every finding needs a board task, only the
+  highest-impact ones (dev agent's judgment on the cutoff, but should be a deliberate cut, not
+  "all of them" or "none of them"). Each filed task must be "independently actionable" (§9.4's
+  literal AC) — a human or a future dev agent picking it up shouldn't need to re-read the whole
+  audit doc to understand the task; the task's own body should be self-contained (what/why/where),
+  linking back to the audit doc section for full context, not substituting for it.
+- Same doc-task-adapted TDD as TAL-030: a structural test asserting the two new sections exist
+  with the required finding shape (evidence/impact/proposal, or explicit "no issue found"),
+  extending `test/talishar-audit-doc.test.ts` (same file, not a new one — TAL-030's test already
+  has a negative check that these sections are ABSENT, which needs updating to assert they're
+  PRESENT with the right shape once this task lands) OR a new dedicated test file — dev agent's
+  call, but don't leave TAL-030's stale negative-check assertion in place unmodified (it would
+  fail once this task's sections exist, or worse, silently stop meaning anything if it's just
+  deleted without replacement).
+
+### Key sequences
+
+1. Read `docs/TALISHAR-AUDIT.md` (merged) in full for context/format precedent.
+2. Bug scan: verify the spec's seed issues are real (`gh issue view`), find their actual
+   root-cause discussion if referenced/linked, then grep the vendored engine for code matching
+   that bug CLASS (not necessarily the exact same bug if already fixed — the class of mistake).
+3. DX scan: draw on this session's own real experience (docker bring-up friction, submodule-init
+   gotchas already captured in brain notes, etc.) plus fresh code/doc reading for anything new.
+4. Write the two new sections into `docs/TALISHAR-AUDIT.md`.
+5. Update/extend the structural test.
+6. Propose a ranked cut of findings to file as board tasks — draft title + self-contained body
+   for each, in the PR description, for the orchestrator to review and file post-merge.
+
+### Decisions
+
+- **Board-task filing happens AFTER PR review/merge, by the orchestrator**, not by the dev agent
+  mid-task — keeps the "dev agents never touch the board" rule intact while still satisfying
+  §9.4's requirement that findings become real, actionable board tasks.
+- **Reuse `test/talishar-audit-doc.test.ts`** rather than fragmenting audit-doc testing across
+  multiple files, unless the dev agent has a good reason to split it.
+
 ## Out of scope for this epic-task
 
-- TAL-031 (bug-scan + DX sections, same file, separate task).
+(none — TAL-030/031 are E3's only two tasks per the current backlog)
