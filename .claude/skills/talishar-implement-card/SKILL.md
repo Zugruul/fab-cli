@@ -9,9 +9,10 @@ Orchestrates the four-phase card-implementation pipeline described in
 `docs/design/talishar-E2.md` and `SPEC-TALISHAR.md` §5, §8.1–§8.7:
 
 1. **Dossier** (TAL-020) — research phase, fully specified below.
-2. **Implementation** (this task, TAL-021) — writing the `Card` subclass, fully specified below.
+2. **Implementation** (TAL-021) — writing the `Card` subclass, fully specified below.
 3. **Images** (TAL-022) — not yet implemented.
-4. **Validation + hand-off** (TAL-023) — not yet implemented.
+4. **Validation + hand-off** (TAL-023) — docker stack, real game exercise, branch push to the
+   fork, PR text preparation, fully specified below.
 
 Invocation: `/talishar-implement-card "<card name>"` or `/talishar-implement-card <set-code>`
 (a set-code invocation implies "assemble dossiers for every not-yet-implemented card in that
@@ -186,16 +187,72 @@ the full rationale.
 
 CardImages script runs, FE `generate-cards` refresh. See **TAL-022**.
 
-## Phase 4 — Validation + hand-off (not yet implemented)
+## Phase 4 — Validation + hand-off
 
-Docker stack, real game exercise, PR text preparation, branch push to the fork (never the PR
-itself — see invariant I1). See **TAL-023**.
+Goal: prove the implementation actually works in the real running engine (not just `php -l`
+clean), record that proof as the dossier's Test Plan, and hand the validated branch off to the
+fork — never touching the `Talishar/Talishar` org repo itself. See `docs/design/talishar-E2.md`'s
+"TAL-023 — Validation + hand-off, end-to-end run" section for the full rationale, and
+SPEC-TALISHAR.md §8.5, §8.6, §8.7, §10 I1.
+
+### Steps
+
+1. **Confirm the implementation is current (§10 I4).** Re-read
+   `.claude/talishar/dossiers/<card-slug>.md` and check its `## Status` is `implementing` (Phase
+   2's end state) and that the card's local branch (`feat/{card_id}`) exists inside
+   `third_party/talishar` with the expected `{SET}Cards.php` diff. If it's missing or stale, STOP
+   and run/resume Phase 2 first — never validate a card that hasn't actually been implemented yet.
+2. **Bring up the docker stack.** `cd third_party/talishar && bash start.sh` — copies
+   `HostFiles/RedirectorTemplate.php`, seeds `Games/`, then `docker compose up -d` (web-server on
+   port 8080, mysql-server, redis, phpmyadmin). Give it a reasonable amount of time on a first run
+   (image build can be slow). Confirm all containers are up (`docker ps`) and the backend responds
+   (`curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/game/` — a PHP response, even a
+   404/403 for an unrouted path, confirms Apache/PHP are serving; a connection failure does not).
+   **§8.7 (hard invariant): if the stack genuinely fails to start after reasonable retries, STOP
+   here** — update the dossier's `## Status` to a `blocked: <exact failure>` line and report it.
+   Do not work around a genuine infra failure in a way that could mask a real problem.
+3. **Exercise the card via the backend's own HTTP API — not FE browser automation (§8.5).** The
+   API path (`third_party/talishar/APIs/*.php`, mapped in the talishar brain's `tal-arch-api-surface`
+   note; live gameplay actions go through `ProcessInput.php`, state reads through
+   `GetUpdateSSE.php` — `GetNextTurn.php` is legacy/fallback and best avoided for a fresh game's
+   very first read) is far more reliable to script than driving the React FE. Typical sequence:
+   `APIs/CreateGame.php` with `deckTestMode` (starts a solo game against the built-in combat
+   dummy, avoiding the need for two live players) → `Start.php` → `ProcessInput.php` calls to play
+   the target card into an attack and drive it through to resolution → `GetUpdateSSE.php` to read
+   the resulting state and game log. If the card's own deck/hero can't be sourced through
+   Talishar's normal deck-import endpoints (they require a production API key not available in a
+   dev checkout), a local flat deck file written directly into `Games/{id}/p1Deck.txt` is a
+   legitimate substitute — it's the exact mechanism `deckTestMode` already uses to seed the AI
+   opponent's deck from `Assets/Dummy.txt`, just applied to player 1 too.
+4. **Observe and confirm the implemented behavior.** For each hook the card added in Phase 2,
+   confirm via the API response / game log that it actually fired as the true text describes —
+   e.g. a draw actually drawing, a discard actually discarding, a conditional trigger (like
+   Intimidate) applying when its condition holds and correctly NOT applying when it doesn't.
+   Exercising **both** branches of a conditional is stronger evidence than one happy-path run when
+   feasible in one or two short games. **§8.7 (hard invariant): if observed behavior doesn't match
+   the dossier's true text, STOP here too** — update the dossier's Status to `blocked: <mismatch
+   description>` and report it. A failed validation is a complete, legitimate outcome; never push
+   a branch whose validation did not run or did not pass.
+5. **Record the outcome as the dossier's Test Plan.** Update
+   `.claude/talishar/dossiers/<card-slug>.md`: flip `## Status` to `ready-for-pr` and append a
+   `## Test Plan` section describing exactly what was exercised and observed, written in the prose
+   style an upstream PR body's Test Plan section would use — this becomes that section, verbatim
+   or near-verbatim, in step 7.
+6. **Bring the docker stack back down.** `docker compose down` inside `third_party/talishar` —
+   don't leave it running as a side effect for the next session to discover.
+7. **Push the validated branch to the fork.** Once (and only once) validation genuinely passed:
+   `git push origin feat/{card_id}` from `third_party/talishar`. `origin` is the user's fork; this
+   step never pushes to `upstream` (I2).
+8. **Prepare the PR title/body as text — never open anything on GitHub (I1).** Compose a PR title
+   (`feat: {Card Name} ({SET}{number})`) and body (a Summary section plus the dossier's Test Plan
+   section, citing the dossier) and emit both as plain text in the task's report for a human to
+   copy into a real PR themselves. This phase — and no phase of this pipeline — ever calls `gh pr
+   create`, `gh pr merge`, `gh pr ready`, or any other PR-mutating action against `Talishar/*`; the
+   done-state here is a pushed fork branch plus prepared text, nothing more.
 
 ## What this skill does NOT do (yet)
 
-- It does not push the `feat/{card_id}` branch anywhere, or prepare PR title/body text — that's
-  TAL-023.
 - It does not download, resize, or crop card images — that's TAL-022.
-- It does not run the docker dev stack or exercise a real game — that's TAL-023.
 - It never opens, approves, or merges a PR on a `Talishar/*` org repo (I1) — no phase of this
-  pipeline ever will; a human creates every upstream PR.
+  pipeline ever will; a human creates every upstream PR. It only pushes to `origin` (the fork)
+  and prepares PR title/body as text.

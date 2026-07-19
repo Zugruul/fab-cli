@@ -589,9 +589,9 @@ card-implementation session.
 
 Skill file: `.claude/skills/talishar-implement-card/SKILL.md` (see `docs/design/talishar-E2.md`
 for the full pipeline design). A four-phase pipeline — **dossier** (research), **implementation**,
-images, validation + hand-off — of which the dossier and implementation phases are fully
-specified; images and validation + hand-off are stubbed pointers to their future tasks
-(TAL-022/023). The dossier phase assembles, for a given card, live Card Vault true text + rulings
+images, **validation + hand-off** — of which the dossier, implementation, and validation + hand-off
+phases are fully specified; images remains a stubbed pointer to its future task (TAL-022). The
+dossier phase assembles, for a given card, live Card Vault true text + rulings
 (`fab-cli fabtcg card`), the-fab-cube stats (`fab-cli fabrary cards local --exact`), Fabrary usage
 context (`fab-cli fabrary cards search`), a talishar-brain recall of the closest matching
 implementation pattern, and the card's official image reference, then persists it as
@@ -605,9 +605,15 @@ an error. Pure formatting/gap-detection/resume logic lives in `src/talisharDossi
 `formatDossier`). The implementation phase branches `feat/{card_id}` off a freshly-synced
 `origin/main` inside `third_party/talishar` and writes a minimal-hooks `Card` subclass in
 `Classes/CardObjects/{SET}Cards.php`, citing the dossier's true text for every behavioral
-decision — its done-state is a local, unpushed branch (pushing + PR text is TAL-023's job). The
-live tool orchestration for both phases is only exercised by following the skill's Steps, per the
-same testing split `talishar-fork-sync` uses.
+decision — its done-state is a local, unpushed branch. The validation + hand-off phase brings up
+the local docker stack (`start.sh`), exercises the card's hooks via the backend's own HTTP API
+(`ProcessInput.php`/`GetUpdateSSE.php` — not FE browser automation), records the observed
+behavior as the dossier's `## Test Plan` section, then — only once validation genuinely passed —
+pushes the branch to `origin` (the fork) and emits a prepared PR title/body as text; per I1 it
+never opens, approves, or merges anything on the `Talishar/Talishar` org repo, and per §8.7 a
+failed validation stops the phase without pushing. The live tool orchestration for all three
+phases is only exercised by following the skill's Steps, per the same testing split
+`talishar-fork-sync` uses.
 
 ## Lore (legendarystories.net / fablore)
 

@@ -47,7 +47,9 @@ describe("talishar-implement-card SKILL.md Phase 4 (validation + hand-off)", () 
 
   it("directs API-based validation, not FE browser automation (§8.5)", () => {
     expect(phase4).toMatch(/API/);
-    expect(phase4.toLowerCase()).toMatch(/not.*browser|instead of.*browser|rather than.*browser/);
+    expect(phase4.toLowerCase()).toMatch(
+      /not.*browser|instead of.*browser|rather than.*browser/,
+    );
   });
 
   it("requires exercising the observable behavior (draw, discard, trigger)", () => {
@@ -78,7 +80,9 @@ describe("talishar-implement-card SKILL.md Phase 4 (validation + hand-off)", () 
   });
 
   it("requires bringing the docker stack back down when done", () => {
-    expect(phase4.toLowerCase()).toMatch(/docker compose down|stop\.sh|bring.*stack.*down/);
+    expect(phase4.toLowerCase()).toMatch(
+      /docker compose down|stop\.sh|bring.*stack.*down/,
+    );
   });
 
   it("is a substantial Steps section, not a one-line stub", () => {
