@@ -2344,3 +2344,40 @@ items:
     action: ignore
     ref: transient, self-resolved on retry, no clear actionable fix — noting for pattern-recognition
       only
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T02:10:00Z'
+iteration:
+  task: session-wrap-up
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: board
+  severity: low
+  summary: Answering a direct human question ('is all non-TAL work done?') by cross-checking
+    every remaining board candidate against live GitHub issue state, rather than trusting
+    the board's cached Status field, gave a confident and correct answer despite the
+    board's own known staleness issues
+  detail: This session repeatedly encountered board items whose cached Status field
+    (Backlog/Ready) contradicted the underlying GitHub issue's real state (Closed)
+    — a known, already-reported discrepancy class. When asked directly whether remaining
+    work was done, a fast gh issue view --json state check on each of the ~5 remaining
+    non-TAL board items confirmed all were genuinely closed, giving a fast, verifiable,
+    non-hand-wavy answer instead of relying on the board list's Status column alone.
+  evidence: []
+  generalized: When a human asks a direct yes/no question about backlog completeness
+    in a repo with a known board-status-vs-issue-state staleness pattern, cross-check
+    each remaining candidate's REAL issue state (gh issue view --json state, or equivalent)
+    rather than answering from the board's cached Status field alone — cheap (one
+    API call per item) and gives a confident, verifiable answer instead of a caveated
+    one.
+  routing:
+    action: ignore
+    ref: reinforces already-reported board-staleness feedback from earlier this session
+      (fab-cli#19/fab-cli#20/fab-cli#21 finding), no new routing action needed — this
+      is the mitigation technique that finding already implies
