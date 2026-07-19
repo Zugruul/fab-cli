@@ -131,7 +131,9 @@ describe("fabtcg coverage --path --live (CLI wiring)", () => {
     );
 
     const out = logs.join("\n");
-    expect(out).toMatch(/--live.*not combinable with --json|--json.*not combinable with --live/i);
+    expect(out).toMatch(
+      /--live.*not combinable with --json|--json.*not combinable with --live/i,
+    );
     expect(out).not.toMatch(/^\{/);
   });
 
