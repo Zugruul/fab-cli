@@ -1,8 +1,8 @@
 ---
 tags: [orchestration, briefing, git]
 paths: ["**"]
-strength: 2
-source: "PR#89 (TAL-001) retro — both agents hit shared-checkout contention; reinforced PR#101 (TAL-012) — orchestrator's own branch switch collided with a subagent's live shared-checkout work"
+strength: 3
+source: "PR#89 (TAL-001) retro — both agents hit shared-checkout contention; reinforced PR#101 (TAL-012) — orchestrator's own branch switch collided with a subagent's live shared-checkout work; confirmed working PR#107 (TAL-020) — a genuinely isolated worktree lane avoided any collision with a concurrent session's simultaneous merges to mainBranch"
 graduated: false
 created: 2026-07-18
 ---

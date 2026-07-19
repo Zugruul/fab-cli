@@ -2232,3 +2232,59 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/synthesize-both-review-passes-on-shared-question
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T00:42:00Z'
+iteration:
+  task: TAL-020
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: concurrency
+  severity: low
+  summary: Raising maxInProgress to 2 and running the second lane in a dedicated git
+    worktree (rather than the shared checkout) avoided any collision with a concurrent
+    session that was actively merging unrelated work in the same repo throughout this
+    task.
+  detail: The orchestrator's own prior task in this same session hit a real incident
+    from operating in a shared checkout while a subagent worked there (an accidental
+    commit landing on the wrong branch, requiring a multi-step recovery). Applying
+    the lesson from that incident, this task's dev agent was briefed to run every
+    single git/npm command with an explicit cd into a dedicated worktree path, never
+    touching the shared checkout. No collision occurred despite a concurrent session
+    merging multiple unrelated PRs to mainBranch during the same window.
+  generalized: When raising a workflow's concurrency limit above 1, prefer opening
+    a genuinely isolated git worktree per new lane rather than reusing the orchestrator's
+    own shared checkout, especially in a multi-session environment where other sessions
+    may be actively committing to the same repo. Brief the subagent explicitly to
+    prefix every command with an absolute cd into its worktree path rather than relying
+    on working-directory persistence across tool calls.
+  routing:
+    action: brain-note
+    ref: orchestrator/brief-agents-worktree-isolation
+- category: recommendation
+  area: review
+  severity: low
+  summary: For a hard invariant restated once in a document's charter section, real
+    verification requires tracing every fact-bearing step of the document individually
+    to confirm each one enforces the invariant, rather than trusting the charter statement
+    as sufficient evidence on its own.
+  detail: The spec-compliance reviewer verified §10 I4 ('never from remembered card
+    text') by checking that each of the new skill's research steps individually routes
+    through a named live tool call with no memory-fallback branch, rather than accepting
+    the invariant's presence in a 'Standing invariants' section as proof it holds
+    throughout the document. This caught the actual enforcement mechanism (or would
+    have caught its absence, had one step been unguarded).
+  generalized: When reviewing a document/skill/procedure that states a hard invariant
+    once in a charter or summary section, verify the invariant by tracing it through
+    every individual step of the procedure that could violate it, not by trusting
+    the charter statement's presence as sufficient. A single unguarded step silently
+    breaks an invariant that reads as fully enforced from the charter alone.
+  routing:
+    action: brain-note
+    ref: reviewer/trace-invariant-per-step-and-spot-honest-citation-language
