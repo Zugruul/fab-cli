@@ -405,6 +405,14 @@ export function registerFabtcg(program: Command): Command {
           progressWrite(json, "                          \r");
 
           if (opts.live) {
+            if (json) {
+              console.log(
+                chalk.yellow(
+                  "--live is not combinable with --json (it's a continuous text stream, not a structured snapshot).",
+                ),
+              );
+              return;
+            }
             const liveName = opts.path ?? opts.searchPlayer;
             if (!liveName) {
               console.log(
