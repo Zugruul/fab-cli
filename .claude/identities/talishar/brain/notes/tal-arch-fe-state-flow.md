@@ -21,12 +21,18 @@ lines) — a pure transform from the backend's wire shape into the FE's `GameSta
 real `number`/`boolean` (e.g. `ParseCard()`'s `card.counters = input.counters ?
 Number(input.counters) : 0`). The result dispatches into Redux via the `receiveGameState` reducer
 case (`third_party/talishar-fe/src/features/game/GameSlice.ts` line 947), which merges into state
-via `mergeReceivedGameState()` (same file, line 291) — a hand-written merge (not a blind overwrite)
-that preserves client-only UI fields (`Name`, `isPatron`, `metafyTiers`, etc.) from the previous
-state when the incoming payload omits them, and calls `preserveIdentities()` on nested
-objects/arrays (`playerOne`, `playerTwo`, `activeChainLink`, `activeLayers`, `oldCombatChain`) —
-likely to keep referential stability for React's diffing rather than force a full re-render on every
-SSE tick.
+via `mergeReceivedGameState()` (same file, line 291) — a hand-written merge (not a blind overwrite).
+For `playerOne`/`playerTwo` as a whole it's a shallow spread with the *incoming* payload winning
+(`{...prevGame.playerOne, ...payload.playerOne}`, lines 306-307) — i.e. the previous value is only
+a fallback for fields the payload omits. But five specific player-identity fields get the opposite,
+**partial-authority** treatment layered on top (lines 309-318): `Name`, `isPatron`,
+`isContributor`, `isPvtVoidPatron`, `metafyTiers` are force-reset back to the *previous* Redux
+value whenever that previous value was not `undefined` — so for these five fields specifically, the
+previous client-held value wins over a fresh incoming one, and only an `undefined` previous value
+lets the incoming payload's value through. `mergeReceivedGameState()` also calls
+`preserveIdentities()` on nested objects/arrays (`playerOne`, `playerTwo`, `activeChainLink`,
+`activeLayers`, `oldCombatChain`) — likely to keep referential stability for React's diffing rather
+than force a full re-render on every SSE tick.
 
 **FE data model shape** (`third_party/talishar-fe/src/features/GameState.ts`): the top-level
 `GameState` interface is large and UI-heavy — alongside `playerOne`/`playerTwo: Player`,

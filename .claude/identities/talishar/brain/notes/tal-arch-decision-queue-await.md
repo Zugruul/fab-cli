@@ -2,7 +2,7 @@
 tags: [talishar, architecture, decision-queue, await]
 paths: []
 strength: 1
-source: "third_party/talishar/CardLogic.php; third_party/talishar/DecisionQueue/AwaitEffects.php; third_party/talishar/New Developer Guide.md"
+source: "third_party/talishar/CardLogic.php; third_party/talishar/DecisionQueue/AwaitEffects.php; third_party/talishar/Search.php; third_party/talishar/MZLogic.php; third_party/talishar/New Developer Guide.md"
 graduated: false
 created: 2026-07-18
 ---
@@ -28,7 +28,9 @@ calls `DeckTopCardsAwait`) or, if it matches a `cardID`, routes to that card obj
 `SpecificLogic()` — replacing the old `SPECIFICCARD` pattern. `$final=true` clears `$dqVars` after
 the sequence's last Await.
 
-Key DQ verbs: `MULTIZONEINDICES` (search a zone, get a MultiZone Index list), `(MAY)CHOOSEMULTIZONE`
+Key DQ verbs: `MULTIZONEINDICES` (search a zone, get a MultiZone Index list — implemented by
+`SearchMultizone()`/`MultiZoneIndices()` in `Search.php`/`MZLogic.php`, see
+[[tal-arch-multizone-targeting]]), `(MAY)CHOOSEMULTIZONE`
 (present a choice from that list), `SETDQCONTEXT` (UI helper text for the pending decision),
 `MZREMOVE` (remove+return a card from its zone, does NOT move it to graveyard),
 `SETLAYERTARGET`, `ELSE` (conditional branch on a prior PASS), `BUTTONINPUT` (present button
