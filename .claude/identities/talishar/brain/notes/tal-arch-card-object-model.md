@@ -2,7 +2,7 @@
 tags: [talishar, architecture, card-recipe, card-object-model]
 paths: []
 strength: 1
-source: "third_party/talishar/Classes/Card.php; third_party/talishar/CardDictionary.php; third_party/talishar/New Developer Guide.md; Talishar/Talishar#1370"
+source: "third_party/talishar/Classes/Card.php; third_party/talishar/Classes/CardObjects/AAZCards.php; third_party/talishar/CardDictionary.php; third_party/talishar/New Developer Guide.md; Talishar/Talishar#1370"
 graduated: false
 created: 2026-07-18
 ---

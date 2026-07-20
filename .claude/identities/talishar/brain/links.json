@@ -74,6 +74,11 @@
     "last": null,
     "weight": 0.5
   },
+  "tal-arch-decision-queue-await->tal-arch-multizone-targeting": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "tal-arch-decision-queue-await->tal-recipe-base-card": {
     "fires": 0,
     "last": null,
@@ -119,6 +124,11 @@
     "last": "2026-07-18",
     "weight": 0.5
   },
+  "tal-arch-gamefile-lifecycle->tal-arch-shmop-cache-row": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "tal-arch-gamefile-lifecycle->tal-recipe-classstate-counter": {
     "fires": 1,
     "last": "2026-07-18",
@@ -155,6 +165,11 @@
     "weight": 0.5
   },
   "tal-arch-request-pipeline->tal-arch-gamefile-lifecycle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "tal-arch-shmop-cache-row->tal-arch-request-pipeline": {
     "fires": 0,
     "last": null,
     "weight": 0.5

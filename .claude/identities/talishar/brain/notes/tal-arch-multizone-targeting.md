@@ -15,7 +15,7 @@ of `third_party/talishar`:
 `SearchHand`, `SearchCharacter`, `SearchPitch`, `SearchDiscard`, `SearchBanish`,
 `SearchCombatChainLink`, `SearchActiveAttack`, `SearchCombatChainAttacks`, `SearchArsenal`,
 `SearchAura`, `SearchItems`, `SearchAllies`, `SearchPermanents`, `SearchLayer`, `SearchLandmarks`,
-`SearchSoul`, and a generic `SearchCardList()` (lines 3-120ish) — each taking the same large set of
+`SearchSoul`, and a generic `SearchCardList()` (lines ~3-120) — each taking the same large set of
 optional filter params (`$type`, `$subtype`, `$maxCost`/`$minCost`, `$class`, `$talent`, `$pitch`,
 `$comboOnly`, `$hasWard`, etc., varying slightly per zone's relevant flags) and delegating the
 actual filtering to a shared `SearchInner()` (line 121). `SearchMultizone($player, $searches)`
