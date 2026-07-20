@@ -18,3 +18,7 @@ e.g. a hash — over a raw long string like a UUID) and verify against the curre
 write rather than silently corrupting the row, but that's a safety net, not license to
 skip the budget check — an oversized write still means your new field never gets
 persisted. See third_party/talishar's `a42810fdf` for the reference fix pattern.
+
+Note: this cache row is a DIFFERENT structure from the gamestate-content shmop segment
+(see [[tal-arch-gamefile-lifecycle]]) — same keying-by-game-name pattern, but this one
+holds small per-game metadata pieces, not the serialized gamestate itself.
