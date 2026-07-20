@@ -2942,3 +2942,92 @@ items:
     action: ignore
     ref: low severity, already substantially followed in this PR's body (full diff
       pasted, title/status noted); not worth a dedicated backlog task
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-19T22:55:00Z'
+iteration:
+  task: talishar-brain-reseed
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: incident
+  area: brains
+  severity: high
+  summary: a brain-note-minting commit silently broke the gate on main and stayed
+    broken for hours before anyone noticed
+  detail: 'Two brain notes minted during a routine retro (after separate code PRs
+    had already passed a full gate run) violated a note-body citation-format test.
+    Because gate was only re-run to verify the CODE change that preceded each retro
+    commit, not the retro commit itself, the regression landed silently and wasn''t
+    caught until an unrelated later task happened to run the full gate again.
+
+    '
+  evidence: []
+  generalized: 'Any commit that changes tracked files — including pure-markdown identity-brain/
+    retro-note commits, not just code changes — needs its own fresh full-gate run
+    before being trusted as green. Treating "just a markdown commit following a code
+    change that already passed gate" as automatically safe is a real gap: the gate
+    can validate content-format invariants (like citation-density checks) that have
+    nothing to do with the code change that prompted the note, so a green gate on
+    the code PR provides no assurance about the follow-on note-minting commit at all.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/gate-must-rerun-after-brain-note-commits
+- category: worked-well
+  area: review
+  severity: medium
+  summary: requiring independent re-verification of every citation (not trusting a
+    research summary) surfaced a genuinely new, high-value finding beyond what was
+    asked
+  detail: 'A dev agent briefed to correct several specific, pre-identified citation
+    gaps was also instructed to independently re-verify everything against live code
+    rather than transcribe the brief. In doing so it found and documented a real,
+    previously-unknown issue (three independent, potentially colliding uses of the
+    same two cache-row slots) that wasn''t in the original brief at all.
+
+    '
+  evidence: []
+  generalized: 'When briefing an agent to correct a knowledge base against a live,
+    ground-truth source, explicitly requiring independent verification of every claim
+    (not just trusting the briefing summary as fact) costs little extra and can surface
+    genuinely new findings beyond the enumerated scope — the agent ends up reading
+    more of the real system than the brief anticipated, and sometimes finds something
+    the briefer missed entirely.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/require-independent-verification-when-briefing-knowledge-agents
+- category: friction
+  area: brains
+  severity: low
+  summary: hand-editing an existing brain note to add a new cross-reference doesn't
+    update the link graph the way a fresh mint does, and this went unnoticed until
+    review
+  detail: 'brain.sh''s mint command auto-registers link-graph entries for cross-references
+    present in a note body at mint time. Hand-editing an already-minted note to add
+    a new cross-reference (rather than re-minting) silently skips that registration
+    step, and a code-quality review pass was needed to catch the resulting graph desync.
+
+    '
+  evidence: []
+  generalized: 'A knowledge-base tool''s "convenience" auto-registration (link-graph
+    entries, derived metadata, etc.) that only fires on the primary write path (mint/create)
+    creates a silent gap whenever content is modified via a secondary path (direct
+    hand-edit of an existing entry) instead. Either the tool should re-scan hand-edited
+    files for the same auto-registration on every touch, or reviewers need an explicit
+    checklist item for "does every new cross-reference/citation in a hand-edited entry
+    have its corresponding derived-metadata entry."
+
+    '
+  routing:
+    action: upstream
+    ref: 'spec-workflow plugin: brain.sh mint auto-registers links.json entries only
+      at mint time, not on hand-edits to existing notes — consider a reindex-links
+      subcommand or re-scan-on-touch'
