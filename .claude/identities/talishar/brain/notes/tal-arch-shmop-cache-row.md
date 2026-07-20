@@ -7,8 +7,9 @@ graduated: false
 created: 2026-07-19
 ---
 
-The shared gamestate cache row (`Libraries/SHMOPLibraries.php`'s `WriteCache`/`ReadCache`,
-keyed per game name) is a FIXED 128-byte shmop segment holding ~18-20 `!`-joined pieces
+The shared gamestate cache row (`third_party/talishar/Libraries/SHMOPLibraries.php`'s
+`WriteCache`/`ReadCache`, keyed per game name) is a FIXED 128-byte shmop segment holding ~18-20
+`!`-joined pieces
 (revision counter, connection timestamps, hero `SetID()` codes, format, chat flags, game
 status, kicked-player info at piece 18, and now commandId dedup hashes at pieces 19/20).
 A realistic populated row already sits around 100-120 of the 128 bytes. Before adding ANY
