@@ -134,6 +134,11 @@
     "last": null,
     "weight": 0.5
   },
+  "tal-arch-multizone-targeting->tal-arch-decision-queue-await": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "tal-arch-request-pipeline->tal-arch-api-surface": {
     "fires": 0,
     "last": null,
