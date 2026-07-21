@@ -45,3 +45,19 @@ third_party/talishar*
 
 # Talishar card-implementation dossiers — ephemeral working state, never committed
 .claude/talishar/dossiers/
+# >>> spec-workflow managed
+.claude/CHECKPOINT
+.claude/ITERATIVE_UI_OFF
+.claude/ui-hub/
+.claude/gate-pass
+.claude/telemetry.jsonl
+.claude/lessons.jsonl
+.claude/board-queue.jsonl
+.claude/board-cache.json
+.claude/board-comments-seen.json
+.claude/neural-view/
+.claude/merge-requirements.json
+.claude/.flush*
+.claude/worktrees/
+.claude/identities/*/brain/index.sqlite3
+# <<< spec-workflow managed

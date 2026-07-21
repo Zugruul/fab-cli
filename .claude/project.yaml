@@ -258,3 +258,4 @@ methodology:
   autoMerge: true
   mergeMethod: squash
   feedback: true
+  serialDelivery: true
