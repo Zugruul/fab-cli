@@ -3031,3 +3031,41 @@ items:
     ref: 'spec-workflow plugin: brain.sh mint auto-registers links.json entries only
       at mint time, not on hand-edits to existing notes — consider a reindex-links
       subcommand or re-scan-on-touch'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-07-22T00:00:00Z'
+iteration:
+  task: loop-reentry-empty-backlog
+  outcome: blocked
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: board
+  severity: low
+  summary: re-checking board state fresh on loop re-entry rather than trusting a prior
+    handoff's snapshot avoided stale-state assumptions
+  detail: 'A recurring loop prompt re-entered the build iteration after a handoff
+    had already recorded an empty backlog. Rather than assuming nothing changed and
+    skipping straight to another handoff, the orchestrator re-ran the actual board
+    list/next/audit commands first, confirmed the state genuinely hadn''t changed,
+    and only then wrote a fresh, dated handoff referencing the new confirmation.
+
+    '
+  evidence: []
+  generalized: 'When a recurring/looping automation re-enters after a prior stop condition
+    (e.g. an empty backlog that triggered a handoff), it''s worth re-verifying the
+    stop condition still holds with fresh reads rather than trusting the previous
+    handoff''s snapshot as still-current — cheap to do, and avoids either silently
+    repeating stale information or, worse, wrongly assuming the blocker persists when
+    it may have actually cleared.
+
+    '
+  routing:
+    action: ignore
+    ref: already covered by build-next's own documented operating rule 2 (ground-truth-over-memory
+      / state-check on wakeup) — this iteration just confirms the rule worked as designed,
+      not a new lesson to preserve
