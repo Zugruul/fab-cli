@@ -30,5 +30,11 @@ Go again"
 
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Rulings: search "Flicker Wisp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE065.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE065.width-450.png)
+
+## Images
+
+![ELE065 - Flicker Wisp (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE065.width-450.png)
+![ELE065 - Flicker Wisp (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE065.width-450.png)
 
 ## Notes

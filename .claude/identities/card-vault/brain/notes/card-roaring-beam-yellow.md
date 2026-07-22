@@ -28,5 +28,12 @@ If there are no cards in your soul, return this to its owner's hand, then charge
 
 Keywords: [[kw-charge]]
 Rulings: search "Roaring Beam" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM129.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN178.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL032.webp)
+
+## Images
+
+![GEM129 - Roaring Beam (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM129.webp)
+![PEN178 - Roaring Beam (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN178.webp)
+![SBL032 - Roaring Beam (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL032.webp)
 
 ## Notes

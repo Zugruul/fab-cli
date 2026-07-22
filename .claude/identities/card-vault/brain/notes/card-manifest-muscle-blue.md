@@ -26,5 +26,11 @@ codes: [PEN270, SEN023]
 "If you've created a card this turn, this gets +1{p}."
 
 Rulings: search "Manifest Muscle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN270.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN023.webp)
+
+## Images
+
+![PEN270 - Manifest Muscle (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN270.webp)
+![SEN023 - Manifest Muscle (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN023.webp)
 
 ## Notes

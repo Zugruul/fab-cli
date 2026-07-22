@@ -27,5 +27,11 @@ If you've pitched a blue card this turn, create a Slither in your hand."
 
 Variants: [[card-hiss-red]] · [[card-hiss-blue]]
 Rulings: search "Hiss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST015.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU015.png)
+
+## Images
+
+![MST015 - Hiss (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST015.png)
+![NUU015 - Hiss (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU015.png)
 
 ## Notes

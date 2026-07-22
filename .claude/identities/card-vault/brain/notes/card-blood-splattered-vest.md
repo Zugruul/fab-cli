@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Blood Splattered Vest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB293.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT168.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT168-EA.png)
+
+## Images
+
+![FAB293 - Blood Splattered Vest](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB293.png)
+![HNT168 - Blood Splattered Vest](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT168.png)
+![HNT168 - Blood Splattered Vest](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT168-EA.png)
 
 ## Notes

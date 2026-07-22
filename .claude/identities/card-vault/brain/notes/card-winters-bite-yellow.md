@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-winters-bite-red]] · [[card-winters-bite-blue]]
 Rulings: search "Winter's Bite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE170.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE170.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/OLD016.width-450.png)
+
+## Images
+
+![ELE170 - Winter's Bite (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE170.width-450.png)
+![ELE170 - Winter's Bite (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE170.width-450.png)
+![OLD016 - Winter's Bite (yellow)](https://storage.googleapis.com/fabmaster/media/images/OLD016.width-450.png)
 
 ## Notes

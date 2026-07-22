@@ -29,5 +29,12 @@ codes: [1HP121, WTR106]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-rising-knee-thrust-red]] · [[card-rising-knee-thrust-yellow]]
 Rulings: search "Rising Knee Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP121.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR106.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR106.png)
+
+## Images
+
+![1HP121 - Rising Knee Thrust (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP121.width-450.png)
+![WTR106 - Rising Knee Thrust (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR106.png)
+![WTR106 - Rising Knee Thrust (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR106.png)
 
 ## Notes

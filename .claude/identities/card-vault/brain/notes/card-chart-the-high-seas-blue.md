@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Chart the High Seas" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB344-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA048.png)
+
+## Images
+
+![FAB344 - Chart the High Seas (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB344-RF.webp)
+![SEA048 - Chart the High Seas (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA048.png)
 
 ## Notes

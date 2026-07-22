@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Aegis, Archangel of Protection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007_BACK_V2.png)
+
+## Images
+
+![DTD007 - Aegis, Archangel of Protection](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007_BACK.png)
+![DTD007 - Aegis, Archangel of Protection](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007_BACK_V2.png)
 
 ## Notes

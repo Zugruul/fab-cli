@@ -26,5 +26,11 @@ codes: [FAB308, HNT074]
 "When this attacks, if it is Draconic, it gets "When this hits a hero, destroy all cards in their arsenal.""
 
 Rulings: search "Art of the Dragon: Claw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB308.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT074.png)
+
+## Images
+
+![FAB308 - Art of the Dragon: Claw (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB308.png)
+![HNT074 - Art of the Dragon: Claw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT074.png)
 
 ## Notes

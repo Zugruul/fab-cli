@@ -30,5 +30,12 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Mark of the Beast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON124.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON124-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON124.width-450.png)
+
+## Images
+
+![MON124 - Mark of the Beast (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON124.width-450.png)
+![MON124 - Mark of the Beast (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON124-RF.png)
+![MON124 - Mark of the Beast (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON124.width-450.png)
 
 ## Notes

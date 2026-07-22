@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Regain Composure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA210.png)
+
+## Images
+
+![SEA210 - Regain Composure (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA210.png)
 
 ## Notes

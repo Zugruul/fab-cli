@@ -27,5 +27,12 @@ codes: [1HP250, ARC070]
 
 Variants: [[card-searing-shot-red]] · [[card-searing-shot-blue]]
 Rulings: search "Searing Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP250.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC070.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC070.png)
+
+## Images
+
+![1HP250 - Searing Shot (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP250.width-450.png)
+![ARC070 - Searing Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC070.png)
+![ARC070 - Searing Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC070.png)
 
 ## Notes

@@ -29,5 +29,12 @@ codes: [BET014, HVY189, OLA011]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-vigor-yellow]] · [[card-wage-vigor-blue]]
 Rulings: search "Wage Vigor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET014.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY189.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA011.png)
+
+## Images
+
+![BET014 - Wage Vigor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET014.png)
+![HVY189 - Wage Vigor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY189.png)
+![OLA011 - Wage Vigor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA011.png)
 
 ## Notes

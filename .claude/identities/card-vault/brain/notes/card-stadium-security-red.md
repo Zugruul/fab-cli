@@ -29,5 +29,10 @@ codes: [PEN294]
 Keywords: [[kw-ambush]]
 Variants: [[card-stadium-security-yellow]] · [[card-stadium-security-blue]]
 Rulings: search "Stadium Security" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN294.webp)
+
+## Images
+
+![PEN294 - Stadium Security (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN294.webp)
 
 ## Notes

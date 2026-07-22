@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Shifting Winds of the Mystic Beast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST052.png)
+
+## Images
+
+![MST052 - Shifting Winds of the Mystic Beast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST052.png)
 
 ## Notes

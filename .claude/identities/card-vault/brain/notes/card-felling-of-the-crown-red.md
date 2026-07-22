@@ -29,5 +29,12 @@ Decompose - When this attacks, you may banish 2 Earth cards and an action card f
 
 Keywords: [[kw-decompose]]
 Rulings: search "Felling of the Crown" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB260.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS031.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP261.webp)
+
+## Images
+
+![FAB260 - Felling of the Crown (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB260.png)
+![ROS031 - Felling of the Crown (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS031.png)
+![SUP261 - Felling of the Crown (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP261.webp)
 
 ## Notes

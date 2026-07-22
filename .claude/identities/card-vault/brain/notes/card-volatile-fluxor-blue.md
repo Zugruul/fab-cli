@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-volatile-fluxor-red]] · [[card-volatile-fluxor-yellow]]
 Rulings: search "Volatile Fluxor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN180.webp)
+
+## Images
+
+![OMN180 - Volatile Fluxor (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN180.webp)
 
 ## Notes

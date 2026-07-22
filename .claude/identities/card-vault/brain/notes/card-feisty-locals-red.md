@@ -27,5 +27,12 @@ codes: [BEN011, OUT207, SUP230]
 
 Variants: [[card-feisty-locals-yellow]] · [[card-feisty-locals-blue]]
 Rulings: search "Feisty Locals" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN011.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT207.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP230.webp)
+
+## Images
+
+![BEN011 - Feisty Locals (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN011.png)
+![OUT207 - Feisty Locals (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT207.width-450.png)
+![SUP230 - Feisty Locals (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP230.webp)
 
 ## Notes

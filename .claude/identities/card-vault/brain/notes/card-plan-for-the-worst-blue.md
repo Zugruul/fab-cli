@@ -25,5 +25,10 @@ codes: [ROS247]
 Search your deck for up to 3 traps, reveal them, put them into your hand, then shuffle 2 cards from your hand into your deck."
 
 Rulings: search "Plan for the Worst" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS247.png)
+
+## Images
+
+![ROS247 - Plan for the Worst (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS247.png)
 
 ## Notes

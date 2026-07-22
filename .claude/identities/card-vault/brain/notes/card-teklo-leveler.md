@@ -25,5 +25,11 @@ codes: [EVO009, LGS190]
 4 or more, this gets +1{p}."
 
 Rulings: search "Teklo Leveler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO009.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS190.png)
+
+## Images
+
+![EVO009 - Teklo Leveler](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO009.png)
+![LGS190 - Teklo Leveler](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS190.png)
 
 ## Notes

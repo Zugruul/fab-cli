@@ -28,5 +28,11 @@ Target attack with stealth gets +1{p} and go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-stains-of-the-redback-red]] · [[card-stains-of-the-redback-yellow]]
 Rulings: search "Stains of the Redback" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT025.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD024.webp)
+
+## Images
+
+![HNT025 - Stains of the Redback (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT025.png)
+![WOD024 - Stains of the Redback (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD024.webp)
 
 ## Notes

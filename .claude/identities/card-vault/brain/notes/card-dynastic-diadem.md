@@ -25,5 +25,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Dynastic Diadem" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN252.webp)
+
+## Images
+
+![PEN252 - Dynastic Diadem](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN252.webp)
 
 ## Notes

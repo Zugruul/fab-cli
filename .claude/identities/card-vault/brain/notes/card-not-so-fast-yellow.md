@@ -26,5 +26,11 @@ The next time an opponent would draw a card from the effect of a Gold token this
 
 Keywords: [[kw-specialization]]
 Rulings: search "Not So Fast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149_V2.png)
+
+## Images
+
+![SEA149 - Not So Fast (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149.png)
+![SEA149 - Not So Fast (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149_V2.png)
 
 ## Notes

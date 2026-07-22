@@ -24,5 +24,10 @@ codes: [EVR034]
 
 Variants: [[card-steadfast-red]] · [[card-steadfast-blue]]
 Rulings: search "Steadfast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR034.width-450.png)
+
+## Images
+
+![EVR034 - Steadfast (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR034.width-450.png)
 
 ## Notes

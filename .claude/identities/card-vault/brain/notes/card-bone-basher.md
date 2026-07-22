@@ -21,5 +21,10 @@ codes: [RVD002]
 "Once per Turn Action - {r}{r}: Attack"
 
 Rulings: search "Bone Basher" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/RVD002.width-450.png)
+
+## Images
+
+![RVD002 - Bone Basher](https://storage.googleapis.com/fabmaster/media/images/RVD002.width-450.png)
 
 ## Notes

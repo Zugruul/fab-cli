@@ -30,5 +30,10 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-heavy-metal-hardcore-yellow]] · [[card-heavy-metal-hardcore-blue]]
 Rulings: search "Heavy Metal Hardcore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN072.webp)
+
+## Images
+
+![PEN072 - Heavy Metal Hardcore (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN072.webp)
 
 ## Notes

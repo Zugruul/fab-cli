@@ -29,5 +29,12 @@ codes: [HVY179, SBR026, VIC021]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-vigor-red]] · [[card-clash-of-vigor-yellow]]
 Rulings: search "Clash of Vigor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY179.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR026.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC021.png)
+
+## Images
+
+![HVY179 - Clash of Vigor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY179.png)
+![SBR026 - Clash of Vigor (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR026.webp)
+![VIC021 - Clash of Vigor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC021.png)
 
 ## Notes

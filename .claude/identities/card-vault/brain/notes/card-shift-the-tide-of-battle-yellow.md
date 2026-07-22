@@ -27,5 +27,10 @@ The next time an opposing hero is dealt damage this turn, create an Agility toke
 
 Keywords: [[kw-go-again]]
 Rulings: search "Shift the Tide of Battle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY102.png)
+
+## Images
+
+![HVY102 - Shift the Tide of Battle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY102.png)
 
 ## Notes

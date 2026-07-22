@@ -23,5 +23,11 @@ codes: [GEM045, SEA023]
 "When this defends, you may {t} a cog you control. If you do, create a Golden Cog token."
 
 Rulings: search "Pinion Sentry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM045.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA023.png)
+
+## Images
+
+![GEM045 - Pinion Sentry (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM045.webp)
+![SEA023 - Pinion Sentry (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA023.png)
 
 ## Notes

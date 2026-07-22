@@ -27,5 +27,12 @@ codes: [ARA015, BEN012, OUT219]
 
 Variants: [[card-spring-load-yellow]] · [[card-spring-load-blue]]
 Rulings: search "Spring Load" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA015.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN012.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT219.width-450.png)
+
+## Images
+
+![ARA015 - Spring Load (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA015.png)
+![BEN012 - Spring Load (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN012.png)
+![OUT219 - Spring Load (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT219.width-450.png)
 
 ## Notes

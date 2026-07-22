@@ -23,5 +23,11 @@ codes: [ELE176]
 "Gain 1 action point."
 
 Rulings: search "Blink" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE176.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE176.width-450.png)
+
+## Images
+
+![ELE176 - Blink (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE176.width-450.png)
+![ELE176 - Blink (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE176.width-450.png)
 
 ## Notes

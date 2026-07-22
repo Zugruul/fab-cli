@@ -31,5 +31,11 @@ If Frost Lock was fused, it gains +1{p} and "If this hits a hero, until the end 
 
 Keywords: [[kw-fusion]]
 Rulings: search "Frost Lock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE035.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE035.width-450.png)
+
+## Images
+
+![ELE035 - Frost Lock (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE035.width-450.png)
+![ELE035 - Frost Lock (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE035.width-450.png)
 
 ## Notes

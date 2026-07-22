@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Gauntlets of Tyrannical Rex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP125-RF.webp)
+
+## Images
+
+![SUP125 - Gauntlets of Tyrannical Rex](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP125-RF.webp)
 
 ## Notes

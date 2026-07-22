@@ -26,5 +26,10 @@ codes: [DYN098]
 
 Variants: [[card-blessing-of-ingenuity-yellow]] · [[card-blessing-of-ingenuity-blue]]
 Rulings: search "Blessing of Ingenuity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN098.png)
+
+## Images
+
+![DYN098 - Blessing of Ingenuity (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN098.png)
 
 ## Notes

@@ -32,5 +32,10 @@ Blood Debt"
 Keywords: [[kw-rune-gate]] · [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-rift-skitter-red]] · [[card-rift-skitter-blue]]
 Rulings: search "Rift Skitter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD153.png)
+
+## Images
+
+![DTD153 - Rift Skitter (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD153.png)
 
 ## Notes

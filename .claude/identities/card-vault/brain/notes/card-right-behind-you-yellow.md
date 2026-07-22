@@ -27,5 +27,10 @@ codes: [SUP234]
 
 Variants: [[card-right-behind-you-red]] · [[card-right-behind-you-blue]]
 Rulings: search "Right Behind You" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP234.webp)
+
+## Images
+
+![SUP234 - Right Behind You (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP234.webp)
 
 ## Notes

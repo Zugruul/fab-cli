@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talk a Big Game" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB195.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY136.png)
+
+## Images
+
+![FAB195 - Talk a Big Game (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB195.png)
+![HVY136 - Talk a Big Game (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY136.png)
 
 ## Notes

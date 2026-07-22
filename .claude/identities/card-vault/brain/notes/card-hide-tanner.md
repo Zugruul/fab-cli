@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Hide Tanner" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO005.png)
+
+## Images
+
+![AKO005 - Hide Tanner](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO005.png)
 
 ## Notes

@@ -25,5 +25,11 @@ codes: [GEM018, HNT165]
 
 Keywords: [[kw-mark]]
 Rulings: search "Proclaim Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM018.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT165.png)
+
+## Images
+
+![GEM018 - Proclaim Vengeance (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM018.webp)
+![HNT165 - Proclaim Vengeance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT165.png)
 
 ## Notes

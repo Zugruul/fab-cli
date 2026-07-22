@@ -24,5 +24,10 @@ codes: [EVR185]
 "Instant - Destroy Potion of Déjà Vu: Put all cards from your pitch zone on top of your deck in any order."
 
 Rulings: search "Potion of Déjà Vu" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR185.width-450.png)
+
+## Images
+
+![EVR185 - Potion of Déjà Vu (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR185.width-450.png)
 
 ## Notes

@@ -25,5 +25,14 @@ codes: [AAC029, ARK025, DYN132, SAR032, TNP015]
 
 Variants: [[card-shred-red]] · [[card-shred-yellow]]
 Rulings: search "Shred" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC029.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK025.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN132.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR032.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP015-MV.webp)
+
+## Images
+
+![AAC029 - Shred (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC029.webp)
+![ARK025 - Shred (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK025.webp)
+![DYN132 - Shred (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN132.png)
+![SAR032 - Shred (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR032.webp)
+![TNP015 - Shred (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP015-MV.webp)
 
 ## Notes

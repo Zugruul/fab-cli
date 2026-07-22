@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Graven Justaucorpse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB005-RF.webp)
+
+## Images
+
+![AGB005 - Graven Justaucorpse](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB005-RF.webp)
 
 ## Notes

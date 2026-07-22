@@ -28,5 +28,11 @@ codes: [GEM054, SEA089]
 
 Keywords: [[kw-go-fish]]
 Rulings: search "Blue Fin Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM054.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA089.png)
+
+## Images
+
+![GEM054 - Blue Fin Harpoon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM054.webp)
+![SEA089 - Blue Fin Harpoon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA089.png)
 
 ## Notes

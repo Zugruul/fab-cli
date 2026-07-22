@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-mark]]
 Variants: [[card-trap-and-release-red]] · [[card-trap-and-release-blue]]
 Rulings: search "Trap and Release" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT096.png)
+
+## Images
+
+![HNT096 - Trap and Release (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT096.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [SUP042]
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-fight-from-behind-red]] · [[card-fight-from-behind-yellow]]
 Rulings: search "Fight from Behind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP042.webp)
+
+## Images
+
+![SUP042 - Fight from Behind (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP042.webp)
 
 ## Notes

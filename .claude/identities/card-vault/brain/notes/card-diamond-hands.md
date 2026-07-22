@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-specialization]] · [[kw-blade-break]]
 Rulings: search "Diamond Hands" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS008.png)
+
+## Images
+
+![LSS008 - Diamond Hands](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS008.png)
 
 ## Notes

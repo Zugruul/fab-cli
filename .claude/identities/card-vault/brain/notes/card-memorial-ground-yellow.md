@@ -24,5 +24,13 @@ codes: [AAZ026, MON304, SAZ033]
 
 Variants: [[card-memorial-ground-red]] · [[card-memorial-ground-blue]]
 Rulings: search "Memorial Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ026.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON304.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON304.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ033.webp)
+
+## Images
+
+![AAZ026 - Memorial Ground (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ026.png)
+![MON304 - Memorial Ground (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON304.width-450.png)
+![MON304 - Memorial Ground (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON304.width-450.png)
+![SAZ033 - Memorial Ground (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ033.webp)
 
 ## Notes

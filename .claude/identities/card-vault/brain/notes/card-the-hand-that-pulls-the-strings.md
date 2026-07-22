@@ -24,5 +24,11 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
 
 Keywords: [[kw-go-again]]
 Rulings: search "The Hand that Pulls the Strings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS391.png)
+
+## Images
+
+![ARK007 - The Hand that Pulls the Strings](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK007.webp)
+![LGS391 - The Hand that Pulls the Strings](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS391.png)
 
 ## Notes

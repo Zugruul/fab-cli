@@ -27,5 +27,10 @@ Whenever you attack, you may destroy 3 Gold you control. If you do, the attack g
 Keywords: [[kw-dominate]]
 Young version: [[card-victor-goldmane]]
 Rulings: search "Victor Goldmane, Match Fixer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP006.webp)
+
+## Images
+
+![SMP006 - Victor Goldmane, Match Fixer](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP006.webp)
 
 ## Notes

@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Grains of Bloodspill" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB182.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW010-RF.webp)
+
+## Images
+
+![FAB182 - Grains of Bloodspill](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB182.png)
+![HVY097 - Grains of Bloodspill](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png)
+![MPW010 - Grains of Bloodspill](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW010-RF.webp)
 
 ## Notes

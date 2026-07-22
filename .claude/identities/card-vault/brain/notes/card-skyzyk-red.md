@@ -26,5 +26,10 @@ codes: [AST013]
 "If this has go again, it gets +1{p}."
 
 Rulings: search "Skyzyk" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST013.webp)
+
+## Images
+
+![AST013 - Skyzyk (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST013.webp)
 
 ## Notes

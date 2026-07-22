@@ -25,5 +25,11 @@ codes: [FNG010, HNT106]
 "Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, instead it gets +3{p}."
 
 Rulings: search "Blistering Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT106.png)
+
+## Images
+
+![FNG010 - Blistering Blade (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG010.webp)
+![HNT106 - Blistering Blade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT106.png)
 
 ## Notes

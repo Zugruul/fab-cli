@@ -18,5 +18,10 @@ codes: [SMP026]
 "At the beginning of your end phase, if you didn't hit a hero this turn, lose 2{h}."
 
 Rulings: search "Ire of the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP026.webp)
+
+## Images
+
+![SMP026 - Ire of the Crowd](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP026.webp)
 
 ## Notes

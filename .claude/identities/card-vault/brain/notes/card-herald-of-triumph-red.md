@@ -32,5 +32,13 @@ Phantasm"
 Keywords: [[kw-phantasm]]
 Variants: [[card-herald-of-triumph-yellow]] · [[card-herald-of-triumph-blue]]
 Rulings: search "Herald of Triumph" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD026.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB158.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON008.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON008.width-450.png)
+
+## Images
+
+![DTD026 - Herald of Triumph (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD026.png)
+![FAB158 - Herald of Triumph (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB158.png)
+![MON008 - Herald of Triumph (red)](https://storage.googleapis.com/fabmaster/media/images/MON008.width-450.png)
+![MON008 - Herald of Triumph (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON008.width-450.png)
 
 ## Notes

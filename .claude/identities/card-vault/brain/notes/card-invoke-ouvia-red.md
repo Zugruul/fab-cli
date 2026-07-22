@@ -28,5 +28,11 @@ codes: [UPR014]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Ouvia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Front.png)
+
+## Images
+
+![UPR014 - Invoke Ouvia (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014.png)
+![UPR014 - Invoke Ouvia (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Front.png)
 
 ## Notes

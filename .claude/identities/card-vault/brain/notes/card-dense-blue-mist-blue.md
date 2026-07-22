@@ -24,5 +24,10 @@ codes: [MST079]
 If a Chi was pitched to play this, effects don't trigger if an attack hits you this turn."
 
 Rulings: search "Dense Blue Mist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST079.png)
+
+## Images
+
+![MST079 - Dense Blue Mist (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST079.png)
 
 ## Notes

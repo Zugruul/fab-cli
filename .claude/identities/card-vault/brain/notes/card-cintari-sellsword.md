@@ -24,5 +24,12 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn."
 
 Keywords: [[kw-token-cintari-sellsword]]
 Rulings: search "Cintari Sellsword" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB191.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB201.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY134.png)
+
+## Images
+
+![FAB191 - Cintari Sellsword](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB191.png)
+![FAB201 - Cintari Sellsword](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB201.png)
+![HVY134 - Cintari Sellsword](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY134.png)
 
 ## Notes

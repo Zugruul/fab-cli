@@ -29,5 +29,10 @@ Ward 2"
 Keywords: [[kw-ward]]
 Variants: [[card-sigil-of-solitude-red]] · [[card-sigil-of-solitude-yellow]]
 Rulings: search "Sigil of Solitude" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST145.png)
+
+## Images
+
+![MST145 - Sigil of Solitude (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST145.png)
 
 ## Notes

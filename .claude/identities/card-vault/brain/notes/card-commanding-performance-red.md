@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Commanding Performance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY104.png)
+
+## Images
+
+![HVY104 - Commanding Performance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY104.png)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [PEN061]
 
 Keywords: [[kw-quell]]
 Rulings: search "mBrio Base Walkers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN061.webp)
+
+## Images
+
+![PEN061 - mBrio Base Walkers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN061.webp)
 
 ## Notes

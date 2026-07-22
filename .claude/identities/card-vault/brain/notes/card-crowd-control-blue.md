@@ -24,5 +24,10 @@ codes: [TCC076]
 
 Variants: [[card-crowd-control-red]] · [[card-crowd-control-yellow]]
 Rulings: search "Crowd Control" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC076.png)
+
+## Images
+
+![TCC076 - Crowd Control (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC076.png)
 
 ## Notes

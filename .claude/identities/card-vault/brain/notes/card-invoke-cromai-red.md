@@ -28,5 +28,11 @@ codes: [UPR010]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Cromai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Front.png)
+
+## Images
+
+![UPR010 - Invoke Cromai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010.png)
+![UPR010 - Invoke Cromai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Front.png)
 
 ## Notes

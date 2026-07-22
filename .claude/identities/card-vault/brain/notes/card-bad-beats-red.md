@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-bad-beats-yellow]] · [[card-bad-beats-blue]]
 Rulings: search "Bad Beats" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR014.width-450.png)
+
+## Images
+
+![EVR014 - Bad Beats (red)](https://storage.googleapis.com/fabmaster/media/images/EVR014.width-450.png)
 
 ## Notes

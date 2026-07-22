@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Confront Adversity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY199.png)
+
+## Images
+
+![HVY199 - Confront Adversity](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY199.png)
 
 ## Notes

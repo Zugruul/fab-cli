@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "En Garde" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DVR009.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS148.png)
+
+## Images
+
+![DVR009 - En Garde (red)](https://storage.googleapis.com/fabmaster/media/images/DVR009.width-450.png)
+![LGS148 - En Garde (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS148.png)
 
 ## Notes

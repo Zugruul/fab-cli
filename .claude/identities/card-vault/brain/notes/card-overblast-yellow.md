@@ -27,5 +27,11 @@ codes: [CRU113]
 
 Variants: [[card-overblast-red]] · [[card-overblast-blue]]
 Rulings: search "Overblast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU113.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU113.png)
+
+## Images
+
+![CRU113 - Overblast (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU113.png)
+![CRU113 - Overblast (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU113.png)
 
 ## Notes

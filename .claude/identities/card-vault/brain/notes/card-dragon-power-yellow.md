@@ -27,5 +27,10 @@ codes: [HNT078]
 
 Variants: [[card-dragon-power-red]] · [[card-dragon-power-blue]]
 Rulings: search "Dragon Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT078.png)
+
+## Images
+
+![HNT078 - Dragon Power (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT078.png)
 
 ## Notes

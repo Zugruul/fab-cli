@@ -26,5 +26,14 @@ Essence of Earth and Ice"
 
 Keywords: [[kw-essence]]
 Rulings: search "Jarl Vetreiði" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV001.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM076.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG000-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG000-MV_BACK.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN041.png)
+
+## Images
+
+![AJV001 - Jarl Vetreiði](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV001.webp)
+![GEM076 - Jarl Vetreiði](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM076.webp)
+![MPG000 - Jarl Vetreiði](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG000-MV.webp)
+![MPG000 - Jarl Vetreiði](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG000-MV_BACK.webp)
+![WIN041 - Jarl Vetreiði](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN041.png)
 
 ## Notes

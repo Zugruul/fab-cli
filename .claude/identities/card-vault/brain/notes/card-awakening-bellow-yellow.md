@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Variants: [[card-awakening-bellow-red]] · [[card-awakening-bellow-blue]]
 Rulings: search "Awakening Bellow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR033.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR033.png)
+
+## Images
+
+![WTR033 - Awakening Bellow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR033.png)
+![WTR033 - Awakening Bellow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR033.png)
 
 ## Notes

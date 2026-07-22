@@ -27,5 +27,10 @@ codes: [PEN176]
 
 Variants: [[card-submerge-red]] · [[card-submerge-yellow]]
 Rulings: search "Submerge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN176.webp)
+
+## Images
+
+![PEN176 - Submerge (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN176.webp)
 
 ## Notes

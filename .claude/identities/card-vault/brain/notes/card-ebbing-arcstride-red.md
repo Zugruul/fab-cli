@@ -31,5 +31,12 @@ Fragment"
 Keywords: [[kw-go-again]] · [[kw-fragment]]
 Variants: [[card-ebbing-arcstride-yellow]] · [[card-ebbing-arcstride-blue]]
 Rulings: search "Ebbing Arcstride" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS008.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM150.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN018.webp)
+
+## Images
+
+![AZS008 - Ebbing Arcstride (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS008.webp)
+![GEM150 - Ebbing Arcstride (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM150.webp)
+![OMN018 - Ebbing Arcstride (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN018.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [MST091]
 "If you've played another blue card this turn, this gets +2{d}."
 
 Rulings: search "Wash Away" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST091.png)
+
+## Images
+
+![MST091 - Wash Away (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST091.png)
 
 ## Notes

@@ -25,5 +25,11 @@ codes: [HVY162, LGS261]
 
 Keywords: [[kw-clash]]
 Rulings: search "Test of Agility" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY162.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS261.original.png)
+
+## Images
+
+![HVY162 - Test of Agility (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY162.png)
+![LGS261 - Test of Agility (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS261.original.png)
 
 ## Notes

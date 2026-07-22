@@ -25,5 +25,12 @@ Blade Break"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-blade-break]]
 Rulings: search "Heart of Ice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE144.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE144.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB053.png)
+
+## Images
+
+![ELE144 - Heart of Ice](https://storage.googleapis.com/fabmaster/media/images/ELE144.width-450.png)
+![ELE144 - Heart of Ice](https://storage.googleapis.com/fabmaster/media/images/U-ELE144.width-450.png)
+![FAB053 - Heart of Ice](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB053.png)
 
 ## Notes

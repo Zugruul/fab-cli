@@ -28,5 +28,10 @@ If you've charged this turn, target attack gets -2{p}."
 
 Keywords: [[kw-charge]]
 Rulings: search "Saving Grace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB025.png)
+
+## Images
+
+![ASB025 - Saving Grace (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB025.png)
 
 ## Notes

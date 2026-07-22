@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-go-again]]
 Variants: [[card-prime-the-crowd-red]] · [[card-prime-the-crowd-blue]]
 Rulings: search "Prime the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP237.webp)
+
+## Images
+
+![SUP237 - Prime the Crowd (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP237.webp)
 
 ## Notes

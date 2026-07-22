@@ -30,5 +30,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-rune-flash-yellow]] · [[card-rune-flash-blue]]
 Rulings: search "Rune Flash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP288.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC100.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC100.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS011.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI013.webp)
+
+## Images
+
+![1HP288 - Rune Flash (red)](https://storage.googleapis.com/fabmaster/media/images/1HP288.width-450.png)
+![ARC100 - Rune Flash (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC100.png)
+![ARC100 - Rune Flash (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC100.png)
+![AVS011 - Rune Flash (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS011.webp)
+![SVI013 - Rune Flash (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI013.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [SUP183]
 
 Variants: [[card-story-beats-red]] · [[card-story-beats-yellow]]
 Rulings: search "Story Beats" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP183.webp)
+
+## Images
+
+![SUP183 - Story Beats (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP183.webp)
 
 ## Notes

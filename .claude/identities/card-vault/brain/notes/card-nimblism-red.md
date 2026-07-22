@@ -28,5 +28,17 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-nimblism-yellow]] · [[card-nimblism-blue]]
 Rulings: search "Nimblism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP417.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM065.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST221.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ025.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA026.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA238.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR218.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR218.png)
+
+## Images
+
+![1HP417 - Nimblism (red)](https://storage.googleapis.com/fabmaster/media/images/1HP417.width-450.png)
+![GEM065 - Nimblism (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM065.webp)
+![MST221 - Nimblism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST221.png)
+![SAZ025 - Nimblism (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ025.webp)
+![SBA026 - Nimblism (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA026.webp)
+![SEA238 - Nimblism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA238.png)
+![WTR218 - Nimblism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR218.png)
+![WTR218 - Nimblism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR218.png)
 
 ## Notes

@@ -22,5 +22,14 @@ codes: [BET002, HVY049, LGS239, MPG003]
 If you've drawn a card this turn, this gets +1{p}."
 
 Rulings: search "High Riser" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY049.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY049_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS239.png) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG003.webp)
+
+## Images
+
+![BET002 - High Riser](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET002.png)
+![HVY049 - High Riser](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY049.png)
+![HVY049 - High Riser](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY049_V2.png)
+![LGS239 - High Riser](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS239.png)
+![MPG003 - High Riser](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG003.webp)
 
 ## Notes

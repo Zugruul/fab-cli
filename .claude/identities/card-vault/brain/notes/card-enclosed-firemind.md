@@ -23,5 +23,11 @@ codes: [PEN016, SBR006]
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Enclosed Firemind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN016.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR006.webp)
+
+## Images
+
+![PEN016 - Enclosed Firemind](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN016.webp)
+![SBR006 - Enclosed Firemind](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR006.webp)
 
 ## Notes

@@ -30,5 +30,10 @@ Unity - When this defends together with a card from hand, create an Eloquence to
 
 Keywords: [[kw-specialization]] · [[kw-unity]]
 Rulings: search "Alluring Inducement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD215.png)
+
+## Images
+
+![DTD215 - Alluring Inducement (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD215.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Phantasm"
 
 Keywords: [[kw-phantasm]]
 Rulings: search "Phantasmaclasm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/fy8w7r78545yit3787efygs8def.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON091.width-450.png)
+
+## Images
+
+![MON091 - Phantasmaclasm (red)](https://storage.googleapis.com/fabmaster/media/images/fy8w7r78545yit3787efygs8def.width-450.png)
+![MON091 - Phantasmaclasm (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON091.width-450.png)
 
 ## Notes

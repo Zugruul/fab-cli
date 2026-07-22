@@ -26,5 +26,10 @@ codes: [SUP264]
 Instant - Discard this and an Earth card: Prevent the next 6 arcane damage target source would deal this turn."
 
 Rulings: search "Light Up the Leaves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP264.webp)
+
+## Images
+
+![SUP264 - Light Up the Leaves (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP264.webp)
 
 ## Notes

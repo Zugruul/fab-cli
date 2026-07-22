@@ -29,5 +29,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
 
 Keywords: [[kw-go-again]]
 Rulings: search "Surface Shaking" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA251.png)
+
+## Images
+
+![SEA251 - Surface Shaking (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA251.png)
 
 ## Notes

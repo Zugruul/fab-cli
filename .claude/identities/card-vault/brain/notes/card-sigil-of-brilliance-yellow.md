@@ -29,5 +29,12 @@ When this leaves the arena, draw a card."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Sigil of Brilliance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB270.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS022.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS022-MV.png)
+
+## Images
+
+![FAB270 - Sigil of Brilliance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB270.png)
+![ROS022 - Sigil of Brilliance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS022.png)
+![ROS022 - Sigil of Brilliance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS022-MV.png)
 
 ## Notes

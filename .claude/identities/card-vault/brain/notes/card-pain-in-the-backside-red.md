@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Pain in the Backside" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT174.png)
+
+## Images
+
+![HNT174 - Pain in the Backside (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT174.png)
 
 ## Notes

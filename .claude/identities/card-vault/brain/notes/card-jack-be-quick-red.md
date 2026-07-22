@@ -29,5 +29,11 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
 
 Keywords: [[kw-go-again]] · [[kw-steal]]
 Rulings: search "Jack Be Quick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA202.png)
+
+## Images
+
+![SBA014 - Jack Be Quick (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA014.webp)
+![SEA202 - Jack Be Quick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA202.png)
 
 ## Notes

@@ -25,5 +25,12 @@ Whenever the crowd cheers you, create a Toughness token."
 
 Adult version: [[card-tuffnut-bumbling-hulkster]]
 Rulings: search "Tuffnut" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP002.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP002-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP002-MV_BACK.webp)
+
+## Images
+
+![SUP002 - Tuffnut](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP002.webp)
+![SUP002 - Tuffnut](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP002-MV.webp)
+![SUP002 - Tuffnut](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP002-MV_BACK.webp)
 
 ## Notes

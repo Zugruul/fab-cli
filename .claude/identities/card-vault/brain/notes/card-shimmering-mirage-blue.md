@@ -27,5 +27,11 @@ Mirage"
 
 Keywords: [[kw-mirage]]
 Rulings: search "Shimmering Mirage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM125.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN129.webp)
+
+## Images
+
+![GEM125 - Shimmering Mirage (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM125.webp)
+![PEN129 - Shimmering Mirage (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN129.webp)
 
 ## Notes

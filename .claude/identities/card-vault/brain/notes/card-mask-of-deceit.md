@@ -25,5 +25,12 @@ Blade Break"
 
 Keywords: [[kw-specialization]] · [[kw-blade-break]]
 Rulings: search "Mask of Deceit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB291.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT011.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT011-CF.webp)
+
+## Images
+
+![FAB291 - Mask of Deceit](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB291.png)
+![HNT011 - Mask of Deceit](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT011.png)
+![HNT011 - Mask of Deceit](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT011-CF.webp)
 
 ## Notes

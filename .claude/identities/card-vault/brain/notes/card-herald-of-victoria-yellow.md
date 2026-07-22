@@ -30,5 +30,10 @@ Phantasm"
 
 Keywords: [[kw-phantasm]]
 Rulings: search "Herald of Victoria" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN177.webp)
+
+## Images
+
+![PEN177 - Herald of Victoria (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN177.webp)
 
 ## Notes

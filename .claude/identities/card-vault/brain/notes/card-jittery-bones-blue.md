@@ -29,5 +29,12 @@ codes: [AGB022, SEA070, SGB023]
 Keywords: [[kw-go-again]]
 Variants: [[card-jittery-bones-red]] · [[card-jittery-bones-yellow]]
 Rulings: search "Jittery Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA070.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB023.webp)
+
+## Images
+
+![AGB022 - Jittery Bones (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB022.webp)
+![SEA070 - Jittery Bones (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA070.png)
+![SGB023 - Jittery Bones (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB023.webp)
 
 ## Notes

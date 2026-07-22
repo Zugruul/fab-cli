@@ -29,5 +29,10 @@ codes: [EVO172]
 Keywords: [[kw-boost]]
 Variants: [[card-gas-guzzler-red]] · [[card-gas-guzzler-blue]]
 Rulings: search "Gas Guzzler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO172.png)
+
+## Images
+
+![EVO172 - Gas Guzzler (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO172.png)
 
 ## Notes

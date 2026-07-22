@@ -29,5 +29,11 @@ codes: [MON250]
 Keywords: [[kw-go-again]]
 Variants: [[card-out-muscle-red]] · [[card-out-muscle-yellow]]
 Rulings: search "Out Muscle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON250.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON250.width-450.png)
+
+## Images
+
+![MON250 - Out Muscle (blue)](https://storage.googleapis.com/fabmaster/media/images/MON250.width-450.png)
+![MON250 - Out Muscle (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON250.width-450.png)
 
 ## Notes

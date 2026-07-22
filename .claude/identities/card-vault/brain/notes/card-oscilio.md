@@ -27,5 +27,13 @@ Essence of Lightning"
 Keywords: [[kw-essence]]
 Adult version: [[card-oscilio-constella-intelligence]] · [[card-oscilio-forked-continuum]]
 Rulings: search "Oscilio" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC001-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS020.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS020-MV.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS020-MV_BACK.png)
+
+## Images
+
+![OSC001 - Oscilio](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC001-RF.webp)
+![ROS020 - Oscilio](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS020.png)
+![ROS020 - Oscilio](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS020-MV.png)
+![ROS020 - Oscilio](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS020-MV_BACK.png)
 
 ## Notes

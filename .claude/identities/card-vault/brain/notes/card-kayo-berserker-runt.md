@@ -28,5 +28,13 @@ codes: [1HP003, CRU002, HER025]
 5 to 6 - Double the attack's base {p}."
 
 Rulings: search "Kayo, Berserker Runt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP003.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU002.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU002.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER025.png)
+
+## Images
+
+![1HP003 - Kayo, Berserker Runt](https://storage.googleapis.com/fabmaster/media/images/1HP003.width-450.png)
+![CRU002 - Kayo, Berserker Runt](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU002.png)
+![CRU002 - Kayo, Berserker Runt](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU002.png)
+![HER025 - Kayo, Berserker Runt](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER025.png)
 
 ## Notes

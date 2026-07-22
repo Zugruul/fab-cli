@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Variants: [[card-high-roller-red]] · [[card-high-roller-yellow]]
 Rulings: search "High Roller" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR007.width-450.png)
+
+## Images
+
+![EVR007 - High Roller (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR007.width-450.png)
 
 ## Notes

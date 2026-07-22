@@ -30,5 +30,11 @@ Dominate"
 Keywords: [[kw-stealth]] · [[kw-dominate]]
 Variants: [[card-isolate-red]] · [[card-isolate-blue]]
 Rulings: search "Isolate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT028.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU018.png)
+
+## Images
+
+![OUT028 - Isolate (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT028.width-450.png)
+![UZU018 - Isolate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU018.png)
 
 ## Notes

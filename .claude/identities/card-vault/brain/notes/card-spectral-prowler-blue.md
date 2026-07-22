@@ -30,5 +30,10 @@ Phantasm"
 Keywords: [[kw-go-again]] · [[kw-phantasm]]
 Variants: [[card-spectral-prowler-red]] · [[card-spectral-prowler-yellow]]
 Rulings: search "Spectral Prowler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN226.png)
+
+## Images
+
+![DYN226 - Spectral Prowler (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN226.png)
 
 ## Notes

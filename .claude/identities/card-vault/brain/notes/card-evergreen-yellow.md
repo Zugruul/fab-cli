@@ -27,5 +27,11 @@ codes: [ELE120]
 
 Variants: [[card-evergreen-red]] · [[card-evergreen-blue]]
 Rulings: search "Evergreen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE120.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE120_Evergreen.width-10000.png)
+
+## Images
+
+![ELE120 - Evergreen (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE120.width-450.png)
+![ELE120 - Evergreen (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE120_Evergreen.width-10000.png)
 
 ## Notes

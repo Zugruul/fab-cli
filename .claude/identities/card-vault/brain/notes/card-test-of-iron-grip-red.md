@@ -25,5 +25,11 @@ codes: [MPG025]
 
 Keywords: [[kw-clash]]
 Rulings: search "Test of Iron Grip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG025.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG025-EA.webp)
+
+## Images
+
+![MPG025 - Test of Iron Grip (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG025.webp)
+![MPG025 - Test of Iron Grip (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG025-EA.webp)
 
 ## Notes

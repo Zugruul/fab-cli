@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Give and Take" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR010.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT185.width-450.png)
+
+## Images
+
+![ASR010 - Give and Take (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR010.webp)
+![OUT185 - Give and Take (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT185.width-450.png)
 
 ## Notes

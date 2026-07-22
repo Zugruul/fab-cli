@@ -25,5 +25,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Redback Shroud" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB123.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT011.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT/EN/OUT011_EA.png)
+
+## Images
+
+![FAB123 - Redback Shroud](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB123.png)
+![OUT011 - Redback Shroud](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT011.width-450.png)
+![OUT011 - Redback Shroud](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT/EN/OUT011_EA.png)
 
 ## Notes

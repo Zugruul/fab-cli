@@ -26,5 +26,11 @@ codes: [EVR010, HVY031]
 
 Variants: [[card-bare-fangs-red]] · [[card-bare-fangs-yellow]]
 Rulings: search "Bare Fangs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR010.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY031.png)
+
+## Images
+
+![EVR010 - Bare Fangs (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR010.width-450.png)
+![HVY031 - Bare Fangs (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY031.png)
 
 ## Notes

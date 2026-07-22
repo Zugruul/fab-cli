@@ -30,5 +30,10 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
 Keywords: [[kw-dominate]]
 Variants: [[card-drowning-dire-yellow]] · [[card-drowning-dire-blue]]
 Rulings: search "Drowning Dire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR110.width-450.png)
+
+## Images
+
+![EVR110 - Drowning Dire (red)](https://storage.googleapis.com/fabmaster/media/images/EVR110.width-450.png)
 
 ## Notes

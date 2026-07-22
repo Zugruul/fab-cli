@@ -25,5 +25,10 @@ codes: [EVO060]
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Steel Street Enforcement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO060.png)
+
+## Images
+
+![EVO060 - Steel Street Enforcement (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO060.png)
 
 ## Notes

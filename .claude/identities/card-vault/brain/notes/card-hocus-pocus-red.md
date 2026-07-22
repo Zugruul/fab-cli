@@ -27,5 +27,11 @@ codes: [AVS010, ROS143]
 
 Variants: [[card-hocus-pocus-yellow]] · [[card-hocus-pocus-blue]]
 Rulings: search "Hocus Pocus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS143.png)
+
+## Images
+
+![AVS010 - Hocus Pocus (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS010.webp)
+![ROS143 - Hocus Pocus (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS143.png)
 
 ## Notes

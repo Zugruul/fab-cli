@@ -25,5 +25,12 @@ codes: [1HP320, ARC129]
 
 Variants: [[card-stir-the-aetherwinds-yellow]] · [[card-stir-the-aetherwinds-blue]]
 Rulings: search "Stir the Aetherwinds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP320.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC129.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC129.png)
+
+## Images
+
+![1HP320 - Stir the Aetherwinds (red)](https://storage.googleapis.com/fabmaster/media/images/1HP320.width-450.png)
+![ARC129 - Stir the Aetherwinds (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC129.png)
+![ARC129 - Stir the Aetherwinds (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC129.png)
 
 ## Notes

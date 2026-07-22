@@ -28,5 +28,11 @@ codes: [PEN269, SEN022]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Fluid Motion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN269.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN022.webp)
+
+## Images
+
+![PEN269 - Fluid Motion (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN269.webp)
+![SEN022 - Fluid Motion (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN022.webp)
 
 ## Notes

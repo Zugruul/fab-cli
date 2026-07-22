@@ -25,5 +25,10 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Kimono of Layered Lessons" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN266.webp)
+
+## Images
+
+![PEN266 - Kimono of Layered Lessons](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN266.webp)
 
 ## Notes

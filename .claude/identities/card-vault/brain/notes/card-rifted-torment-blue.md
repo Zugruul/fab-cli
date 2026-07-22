@@ -31,5 +31,12 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-rifted-torment-red]] · [[card-rifted-torment-yellow]]
 Rulings: search "Rifted Torment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON-CHN/CHN020.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON179.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON179.width-450.png)
+
+## Images
+
+![CHN020 - Rifted Torment (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON-CHN/CHN020.png)
+![MON179 - Rifted Torment (blue)](https://storage.googleapis.com/fabmaster/media/images/MON179.width-450.png)
+![MON179 - Rifted Torment (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON179.width-450.png)
 
 ## Notes

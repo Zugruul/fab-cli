@@ -23,5 +23,13 @@ Whenever this defends, you may pay {r}. If you do, its {d} becomes 1 until end o
 When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {p}, destroy it when the combat chain closes."
 
 Rulings: search "Phantasmal Footsteps" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CON002-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB019.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON089.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/MON089_Phantasmal_Footsteps.width-10000.png)
+
+## Images
+
+![CON002 - Phantasmal Footsteps](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CON002-RF.webp)
+![FAB019 - Phantasmal Footsteps](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB019.png)
+![MON089 - Phantasmal Footsteps](https://storage.googleapis.com/fabmaster/media/images/MON089.width-450.png)
+![MON089 - Phantasmal Footsteps](https://storage.googleapis.com/fabmaster/media/images/MON089_Phantasmal_Footsteps.width-10000.png)
 
 ## Notes

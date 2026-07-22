@@ -27,5 +27,11 @@ codes: [FAB386, SUP038]
 
 Variants: [[card-dig-in-red]] · [[card-dig-in-yellow]]
 Rulings: search "Dig In" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB386-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP038.webp)
+
+## Images
+
+![FAB386 - Dig In (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB386-RF.webp)
+![SUP038 - Dig In (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP038.webp)
 
 ## Notes

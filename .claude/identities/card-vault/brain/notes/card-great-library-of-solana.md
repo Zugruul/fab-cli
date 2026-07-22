@@ -25,5 +25,11 @@ Action - Discard 2 cards with yellow color strips: Destroy Great Library of Sola
 
 Keywords: [[kw-legendary]]
 Rulings: search "Great Library of Solana" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON000.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON000.width-450.png)
+
+## Images
+
+![MON000 - Great Library of Solana](https://storage.googleapis.com/fabmaster/media/images/MON000.width-450.png)
+![MON000 - Great Library of Solana](https://storage.googleapis.com/fabmaster/media/images/U-MON000.width-450.png)
 
 ## Notes

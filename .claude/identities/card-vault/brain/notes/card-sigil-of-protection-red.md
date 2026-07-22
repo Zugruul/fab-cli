@@ -29,5 +29,10 @@ At the beginning of your action phase, destroy Sigil of Protection."
 Keywords: [[kw-ward]]
 Variants: [[card-sigil-of-protection-yellow]] · [[card-sigil-of-protection-blue]]
 Rulings: search "Sigil of Protection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR218.png)
+
+## Images
+
+![UPR218 - Sigil of Protection (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR218.png)
 
 ## Notes

@@ -27,5 +27,14 @@ codes: [1HP270, ARC085, SVI017]
 
 Variants: [[card-spellblade-assault-yellow]] · [[card-spellblade-assault-blue]]
 Rulings: search "Spellblade Assault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP270.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC085.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI017.webp)
+
+## Images
+
+![1HP270 - Spellblade Assault (red)](https://storage.googleapis.com/fabmaster/media/images/1HP270.width-450.png)
+![ARC085 - Spellblade Assault (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085.png)
+![ARC085 - Spellblade Assault (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085-RF.png)
+![ARC085 - Spellblade Assault (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC085.png)
+![SVI017 - Spellblade Assault (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI017.webp)
 
 ## Notes

@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-scout-the-periphery-red]] · [[card-scout-the-periphery-yellow]]
 Rulings: search "Scout the Periphery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL026.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT227.width-450.png)
+
+## Images
+
+![AZL026 - Scout the Periphery (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL026.png)
+![OUT227 - Scout the Periphery (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT227.width-450.png)
 
 ## Notes

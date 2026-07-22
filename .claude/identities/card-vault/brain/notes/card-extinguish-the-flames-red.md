@@ -29,5 +29,10 @@ Contract - You are contracted to hit a marked hero named Cindra. Whenever you co
 
 Keywords: [[kw-stealth]] · [[kw-contract]]
 Rulings: search "Extinguish the Flames" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT031.png)
+
+## Images
+
+![HNT031 - Extinguish the Flames (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT031.png)
 
 ## Notes

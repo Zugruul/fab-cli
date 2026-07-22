@@ -30,5 +30,11 @@ If Entwine Lightning was fused, it gains go again."
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Variants: [[card-entwine-lightning-red]] · [[card-entwine-lightning-blue]]
 Rulings: search "Entwine Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE101.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE101.width-450.png)
+
+## Images
+
+![ELE101 - Entwine Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE101.width-450.png)
+![ELE101 - Entwine Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE101.width-450.png)
 
 ## Notes

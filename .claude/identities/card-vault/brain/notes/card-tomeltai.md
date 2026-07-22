@@ -23,5 +23,11 @@ codes: [UPR007]
 "Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1{d} counters on an equipment they control, then if it has 0{d}, destroy it."
 
 Rulings: search "Tomeltai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Back.png)
+
+## Images
+
+![UPR007 - Tomeltai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png)
+![UPR007 - Tomeltai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Back.png)
 
 ## Notes

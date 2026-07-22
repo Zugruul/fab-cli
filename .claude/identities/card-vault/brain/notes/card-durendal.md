@@ -22,5 +22,12 @@ codes: [MPW008]
 If this has a +1{p} counter, reaction cards get -1{d} while defending it."
 
 Rulings: search "Durendal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW008.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW008-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW008-MV_BACK.webp)
+
+## Images
+
+![MPW008 - Durendal](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW008.webp)
+![MPW008 - Durendal](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW008-MV.webp)
+![MPW008 - Durendal](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW008-MV_BACK.webp)
 
 ## Notes

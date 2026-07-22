@@ -28,5 +28,11 @@ codes: [FAB091, UPR093]
 
 Keywords: [[kw-rupture]]
 Rulings: search "Breaking Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB091.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR093.png)
+
+## Images
+
+![FAB091 - Breaking Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB091.png)
+![UPR093 - Breaking Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR093.png)
 
 ## Notes

@@ -25,5 +25,14 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
 
 Young version: [[card-fang]]
 Rulings: search "Fang, Dracai of Blades" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER134.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT098.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT098-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT098-MV_BACK.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN045.png)
+
+## Images
+
+![HER134 - Fang, Dracai of Blades](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER134.png)
+![HNT098 - Fang, Dracai of Blades](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT098.png)
+![HNT098 - Fang, Dracai of Blades](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT098-MV.webp)
+![HNT098 - Fang, Dracai of Blades](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT098-MV_BACK.webp)
+![WIN045 - Fang, Dracai of Blades](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN045.png)
 
 ## Notes

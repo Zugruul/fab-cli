@@ -25,5 +25,12 @@ codes: [LGS328, ROS182]
 When this leaves the arena, banish the top card of your deck. If it's a non-attack action card, you may play it this turn as though it were an instant."
 
 Rulings: search "Sigil of Temporal Manipulation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS328.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS182.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS182-MV.png)
+
+## Images
+
+![LGS328 - Sigil of Temporal Manipulation (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS328.png)
+![ROS182 - Sigil of Temporal Manipulation (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS182.png)
+![ROS182 - Sigil of Temporal Manipulation (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS182-MV.png)
 
 ## Notes

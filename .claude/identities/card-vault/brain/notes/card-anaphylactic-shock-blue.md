@@ -24,5 +24,11 @@ codes: [HNT016]
 "Each opposing hero and ally that has dealt damage to you this turn loses 1{h}."
 
 Rulings: search "Anaphylactic Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT016.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT016-EA.webp)
+
+## Images
+
+![HNT016 - Anaphylactic Shock (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT016.png)
+![HNT016 - Anaphylactic Shock (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT016-EA.webp)
 
 ## Notes

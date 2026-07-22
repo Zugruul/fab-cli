@@ -23,5 +23,11 @@ codes: [UPR010]
 "Once per turn, when Cromai attacks or leaves the arena, gain 1 action point."
 
 Rulings: search "Cromai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Back.png)
+
+## Images
+
+![UPR010 - Cromai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png)
+![UPR010 - Cromai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Back.png)
 
 ## Notes

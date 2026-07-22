@@ -24,5 +24,14 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Teklo Foundry Heart" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP185.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC004.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC004.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO012.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB008.png)
+
+## Images
+
+![1HP185 - Teklo Foundry Heart](https://storage.googleapis.com/fabmaster/media/images/1HP185.width-450.png)
+![ARC004 - Teklo Foundry Heart](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC004.png)
+![ARC004 - Teklo Foundry Heart](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC004.png)
+![EVO012 - Teklo Foundry Heart](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO012.png)
+![FAB008 - Teklo Foundry Heart](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB008.png)
 
 ## Notes

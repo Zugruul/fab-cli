@@ -24,5 +24,10 @@ High Tide - If there are 2 or more blue cards in your pitch zone, this gets +3{d
 
 Keywords: [[kw-arcane-barrier]] · [[kw-high-tide]] · [[kw-blade-break]]
 Rulings: search "Gloves of Azure Waves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN167.webp)
+
+## Images
+
+![PEN167 - Gloves of Azure Waves](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN167.webp)
 
 ## Notes

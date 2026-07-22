@@ -25,5 +25,11 @@ codes: [MON257]
 
 Variants: [[card-rise-above-yellow]] · [[card-rise-above-blue]]
 Rulings: search "Rise Above" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON257.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON257.width-450.png)
+
+## Images
+
+![MON257 - Rise Above (red)](https://storage.googleapis.com/fabmaster/media/images/MON257.width-450.png)
+![MON257 - Rise Above (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON257.width-450.png)
 
 ## Notes

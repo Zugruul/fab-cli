@@ -29,5 +29,10 @@ Instant - Discard this: Banish target trap from your graveyard. If you do, you m
 
 Keywords: [[kw-stealth]]
 Rulings: search "Under the Trap-Door" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT013.png)
+
+## Images
+
+![HNT013 - Under the Trap-Door (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT013.png)
 
 ## Notes

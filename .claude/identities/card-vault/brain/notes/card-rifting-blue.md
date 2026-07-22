@@ -27,5 +27,11 @@ codes: [ARC196]
 
 Variants: [[card-rifting-red]] · [[card-rifting-yellow]]
 Rulings: search "Rifting" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC196.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC196.png)
+
+## Images
+
+![ARC196 - Rifting (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC196.png)
+![ARC196 - Rifting (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC196.png)
 
 ## Notes

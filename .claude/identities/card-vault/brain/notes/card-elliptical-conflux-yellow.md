@@ -28,5 +28,12 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Elliptical Conflux" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS019.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034-CF.webp)
+
+## Images
+
+![AZS019 - Elliptical Conflux (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS019.webp)
+![OMN034 - Elliptical Conflux (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034.webp)
+![OMN034 - Elliptical Conflux (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034-CF.webp)
 
 ## Notes

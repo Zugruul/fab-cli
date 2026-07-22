@@ -30,5 +30,10 @@ Whenever this banishes an action card, gain 1{h}."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Persuasive Prognosis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST104.png)
+
+## Images
+
+![MST104 - Persuasive Prognosis (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST104.png)
 
 ## Notes

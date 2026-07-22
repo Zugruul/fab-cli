@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Okana Scar Wraps" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR005-RF.webp)
+
+## Images
+
+![ASR005 - Okana Scar Wraps](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR005-RF.webp)
 
 ## Notes

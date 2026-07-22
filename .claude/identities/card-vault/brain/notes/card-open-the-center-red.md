@@ -29,5 +29,13 @@ codes: [KAT012, KSU013, WTR095]
 Keywords: [[kw-combo]] · [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-open-the-center-yellow]] · [[card-open-the-center-blue]]
 Rulings: search "Open the Center" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT012.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/KSU13.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR095.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR095.png)
+
+## Images
+
+![KAT012 - Open the Center (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT012.png)
+![KSU013 - Open the Center (red)](https://storage.googleapis.com/fabmaster/media/images/KSU13.width-450.png)
+![WTR095 - Open the Center (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR095.png)
+![WTR095 - Open the Center (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR095.png)
 
 ## Notes

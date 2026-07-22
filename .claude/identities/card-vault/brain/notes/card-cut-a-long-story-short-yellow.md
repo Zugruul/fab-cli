@@ -29,5 +29,10 @@ Tower - If this has 13 or more {p}, it gets "When this hits a hero, they discard
 
 Keywords: [[kw-tower]]
 Rulings: search "Cut a Long Story Short" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP172.webp)
+
+## Images
+
+![SUP172 - Cut a Long Story Short (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP172.webp)
 
 ## Notes

@@ -31,5 +31,10 @@ If Glacial Footsteps was fused, it gains dominate."
 Keywords: [[kw-fusion]] · [[kw-dominate]]
 Variants: [[card-glacial-footsteps-red]] · [[card-glacial-footsteps-blue]]
 Rulings: search "Glacial Footsteps" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE017.width-450.png)
+
+## Images
+
+![ELE017 - Glacial Footsteps (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE017.width-450.png)
 
 ## Notes

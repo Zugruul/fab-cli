@@ -26,5 +26,10 @@ codes: [EVR104]
 "When Runic Reclamation hits a hero, destroy target aura they control. If you do, create a Runechant token."
 
 Rulings: search "Runic Reclamation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR104.width-450.png)
+
+## Images
+
+![EVR104 - Runic Reclamation (red)](https://storage.googleapis.com/fabmaster/media/images/EVR104.width-450.png)
 
 ## Notes

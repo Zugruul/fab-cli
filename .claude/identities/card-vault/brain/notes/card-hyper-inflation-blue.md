@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-hyper-inflation-red]] · [[card-hyper-inflation-yellow]]
 Rulings: search "Hyper Inflation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN284.webp)
+
+## Images
+
+![PEN284 - Hyper Inflation (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN284.webp)
 
 ## Notes

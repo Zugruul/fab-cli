@@ -24,5 +24,13 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Gorganian Tome" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP364.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ020.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU181.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU181.png)
+
+## Images
+
+![1HP364 - Gorganian Tome](https://storage.googleapis.com/fabmaster/media/images/1HP364.width-450.png)
+![ANQ020 - Gorganian Tome](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ020.webp)
+![CRU181 - Gorganian Tome](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU181.png)
+![CRU181 - Gorganian Tome](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU181.png)
 
 ## Notes

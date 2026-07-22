@@ -28,5 +28,12 @@ When this hits a hero, create a Frailty token under their control."
 
 Variants: [[card-withering-shot-yellow]] · [[card-withering-shot-blue]]
 Rulings: search "Withering Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL016.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT136.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP020.png)
+
+## Images
+
+![AZL016 - Withering Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL016.png)
+![OUT136 - Withering Shot (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT136.width-450.png)
+![RIP020 - Withering Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP020.png)
 
 ## Notes

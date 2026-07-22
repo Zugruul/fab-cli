@@ -30,5 +30,10 @@ Boost"
 Keywords: [[kw-opt]] · [[kw-boost]]
 Variants: [[card-zoom-in-red]] · [[card-zoom-in-yellow]]
 Rulings: search "Zoom In" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR081.width-450.png)
+
+## Images
+
+![EVR081 - Zoom In (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR081.width-450.png)
 
 ## Notes

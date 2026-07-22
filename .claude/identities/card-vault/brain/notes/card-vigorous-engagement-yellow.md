@@ -25,5 +25,10 @@ codes: [HVY119]
 
 Variants: [[card-vigorous-engagement-red]] · [[card-vigorous-engagement-blue]]
 Rulings: search "Vigorous Engagement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY119.png)
+
+## Images
+
+![HVY119 - Vigorous Engagement (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY119.png)
 
 ## Notes

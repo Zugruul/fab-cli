@@ -25,5 +25,11 @@ Temper"
 
 Keywords: [[kw-specialization]] · [[kw-temper]]
 Rulings: search "Aurum Aegis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB180.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY051.png)
+
+## Images
+
+![FAB180 - Aurum Aegis](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB180.png)
+![HVY051 - Aurum Aegis](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY051.png)
 
 ## Notes

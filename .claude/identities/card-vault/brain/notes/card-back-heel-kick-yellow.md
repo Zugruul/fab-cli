@@ -29,5 +29,11 @@ codes: [BEN014, OUT066]
 Keywords: [[kw-combo]]
 Variants: [[card-back-heel-kick-red]] · [[card-back-heel-kick-blue]]
 Rulings: search "Back Heel Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN014.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT066.width-450.png)
+
+## Images
+
+![BEN014 - Back Heel Kick (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN014.png)
+![OUT066 - Back Heel Kick (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT066.width-450.png)
 
 ## Notes

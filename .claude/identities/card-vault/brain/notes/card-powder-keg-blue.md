@@ -24,5 +24,10 @@ codes: [DYN094]
 "Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment."
 
 Rulings: search "Powder Keg" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN094.png)
+
+## Images
+
+![DYN094 - Powder Keg (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN094.png)
 
 ## Notes

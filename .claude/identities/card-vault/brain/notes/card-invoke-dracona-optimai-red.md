@@ -29,5 +29,11 @@ Transform target ash you control into Dracona Optimai. Go again"
 
 Keywords: [[kw-legendary]] · [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Dracona Optimai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Front.png)
+
+## Images
+
+![UPR006 - Invoke Dracona Optimai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006.png)
+![UPR006 - Invoke Dracona Optimai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Front.png)
 
 ## Notes

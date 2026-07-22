@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Crown of Reflection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR137.width-450.png)
+
+## Images
+
+![EVR137 - Crown of Reflection](https://storage.googleapis.com/fabmaster/media/images/EVR137.width-450.png)
 
 ## Notes

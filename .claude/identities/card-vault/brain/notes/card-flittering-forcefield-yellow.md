@@ -25,5 +25,10 @@ codes: [OMN182]
 
 Variants: [[card-flittering-forcefield-red]] · [[card-flittering-forcefield-blue]]
 Rulings: search "Flittering Forcefield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN182.webp)
+
+## Images
+
+![OMN182 - Flittering Forcefield (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN182.webp)
 
 ## Notes

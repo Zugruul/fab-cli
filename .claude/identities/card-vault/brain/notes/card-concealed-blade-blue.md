@@ -24,5 +24,10 @@ codes: [OUT143]
 "Target Assassin or Ninja attack action card gains +1{p} and "When this hits, equip a dagger from your inventory.""
 
 Rulings: search "Concealed Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT143.width-450.png)
+
+## Images
+
+![OUT143 - Concealed Blade (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT143.width-450.png)
 
 ## Notes

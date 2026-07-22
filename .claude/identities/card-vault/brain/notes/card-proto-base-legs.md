@@ -20,5 +20,12 @@ codes: [EVO025, LGS185, TCC006]
 (no text)
 
 Rulings: search "Proto Base Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO025.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS185.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC006.png)
+
+## Images
+
+![EVO025 - Proto Base Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO025.png)
+![LGS185 - Proto Base Legs](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS185.png)
+![TCC006 - Proto Base Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC006.png)
 
 ## Notes

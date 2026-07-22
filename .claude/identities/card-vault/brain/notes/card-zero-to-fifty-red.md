@@ -29,5 +29,11 @@ codes: [AMX015, EVO162]
 Keywords: [[kw-boost]]
 Variants: [[card-zero-to-fifty-yellow]] · [[card-zero-to-fifty-blue]]
 Rulings: search "Zero to Fifty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX015.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO162.png)
+
+## Images
+
+![AMX015 - Zero to Fifty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX015.webp)
+![EVO162 - Zero to Fifty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO162.png)
 
 ## Notes

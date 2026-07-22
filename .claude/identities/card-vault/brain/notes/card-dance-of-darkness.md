@@ -23,5 +23,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Dance of Darkness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD168.png)
+
+## Images
+
+![DTD168 - Dance of Darkness](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD168.png)
 
 ## Notes

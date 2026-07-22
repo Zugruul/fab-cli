@@ -24,5 +24,10 @@ codes: [HNT175]
 "Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit and you draw a card. Destroy the dagger."
 
 Rulings: search "Throw Dagger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT175.png)
+
+## Images
+
+![HNT175 - Throw Dagger (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT175.png)
 
 ## Notes

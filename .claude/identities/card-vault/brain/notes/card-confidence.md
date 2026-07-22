@@ -21,5 +21,12 @@ codes: [APS031, FAB394, SLY034, SUP239]
 
 Keywords: [[kw-token-confidence]]
 Rulings: search "Confidence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS031.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB394-CF.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY034.webp)
+
+## Images
+
+![APS031 - Confidence](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS031.webp)
+![FAB394 - Confidence](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB394-CF.webp)
+![SLY034 - Confidence](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY034.webp)
 
 ## Notes

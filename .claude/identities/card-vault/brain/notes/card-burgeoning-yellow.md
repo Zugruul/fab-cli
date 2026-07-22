@@ -27,5 +27,12 @@ codes: [ELE135, LGS070]
 
 Variants: [[card-burgeoning-red]] · [[card-burgeoning-blue]]
 Rulings: search "Burgeoning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE135.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE135.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS070.png)
+
+## Images
+
+![ELE135 - Burgeoning (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE135.width-450.png)
+![ELE135 - Burgeoning (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE135.width-450.png)
+![LGS070 - Burgeoning (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS070.png)
 
 ## Notes

@@ -25,5 +25,12 @@ codes: [1HP103, WTR082]
 Draw a card."
 
 Rulings: search "Ancestral Empowerment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP103.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR082.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR082.png)
+
+## Images
+
+![1HP103 - Ancestral Empowerment (red)](https://storage.googleapis.com/fabmaster/media/images/1HP103.width-450.png)
+![WTR082 - Ancestral Empowerment (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR082.png)
+![WTR082 - Ancestral Empowerment (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR082.png)
 
 ## Notes

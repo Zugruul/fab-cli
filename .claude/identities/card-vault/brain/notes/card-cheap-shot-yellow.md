@@ -25,5 +25,10 @@ codes: [SUP094]
 Deal 2 damage to target hero unless they discard a card."
 
 Rulings: search "Cheap Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP094.webp)
+
+## Images
+
+![SUP094 - Cheap Shot (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP094.webp)
 
 ## Notes

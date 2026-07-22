@@ -27,5 +27,12 @@ codes: [1HP406, ARC201]
 Keywords: [[kw-opt]]
 Variants: [[card-fate-foreseen-red]] · [[card-fate-foreseen-blue]]
 Rulings: search "Fate Foreseen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP406.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC201.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC201.png)
+
+## Images
+
+![1HP406 - Fate Foreseen (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP406.width-450.png)
+![ARC201 - Fate Foreseen (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC201.png)
+![ARC201 - Fate Foreseen (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC201.png)
 
 ## Notes

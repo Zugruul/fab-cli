@@ -23,5 +23,11 @@ codes: [UPR015]
 "Opponents can't play cards or activate abilities during your turn."
 
 Rulings: search "Themai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_B_Back.png)
+
+## Images
+
+![UPR015 - Themai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png)
+![UPR015 - Themai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_B_Back.png)
 
 ## Notes

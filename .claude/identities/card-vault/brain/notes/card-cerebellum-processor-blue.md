@@ -28,5 +28,11 @@ Once per Turn Action - 0: Draw a card."
 
 Keywords: [[kw-crank]]
 Rulings: search "Cerebellum Processor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS410.png)
+
+## Images
+
+![AIO026 - Cerebellum Processor (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO026.webp)
+![LGS410 - Cerebellum Processor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS410.png)
 
 ## Notes

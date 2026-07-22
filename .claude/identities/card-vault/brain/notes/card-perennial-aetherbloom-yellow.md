@@ -28,5 +28,10 @@ Surge - If this deals more than 2 damage, put it on the bottom of its owner's de
 Keywords: [[kw-surge]]
 Variants: [[card-perennial-aetherbloom-red]] · [[card-perennial-aetherbloom-blue]]
 Rulings: search "Perennial Aetherbloom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS202.png)
+
+## Images
+
+![ROS202 - Perennial Aetherbloom (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS202.png)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [LGS058, MON233]
 
 Variants: [[card-vexing-malice-red]] · [[card-vexing-malice-blue]]
 Rulings: search "Vexing Malice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS058.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON233.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON233.width-450.png)
+
+## Images
+
+![LGS058 - Vexing Malice (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS058.png)
+![MON233 - Vexing Malice (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON233.width-450.png)
+![MON233 - Vexing Malice (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON233.width-450.png)
 
 ## Notes

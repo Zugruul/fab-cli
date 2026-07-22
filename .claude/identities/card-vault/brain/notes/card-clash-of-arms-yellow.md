@@ -25,5 +25,10 @@ codes: [MPG049]
 
 Keywords: [[kw-clash]]
 Rulings: search "Clash of Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG049.webp)
+
+## Images
+
+![MPG049 - Clash of Arms (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG049.webp)
 
 ## Notes

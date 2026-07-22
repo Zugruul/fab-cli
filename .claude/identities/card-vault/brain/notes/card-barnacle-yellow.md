@@ -29,5 +29,14 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Barnacle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB015.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS401.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB015.webp)
+
+## Images
+
+![AGB015 - Barnacle (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB015.webp)
+![LGS401 - Barnacle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS401.png)
+![SEA074 - Barnacle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074.png)
+![SEA074 - Barnacle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074_V2.png)
+![SGB015 - Barnacle (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB015.webp)
 
 ## Notes

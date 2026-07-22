@@ -28,5 +28,12 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Crackle from Afar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS026.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036-CF.webp)
+
+## Images
+
+![AZS026 - Crackle from Afar (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS026.webp)
+![OMN036 - Crackle from Afar (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036.webp)
+![OMN036 - Crackle from Afar (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036-CF.webp)
 
 ## Notes

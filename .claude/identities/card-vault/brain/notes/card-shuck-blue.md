@@ -24,5 +24,10 @@ codes: [AHA024]
 "Create a Flurry token."
 
 Rulings: search "Shuck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA024.webp)
+
+## Images
+
+![AHA024 - Shuck (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA024.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [SUP030]
 When this defends, if it has 6 or more {d}, the attacking hero puts a card from their hand on the bottom of their deck."
 
 Rulings: search "Disarm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP030.webp)
+
+## Images
+
+![SUP030 - Disarm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP030.webp)
 
 ## Notes

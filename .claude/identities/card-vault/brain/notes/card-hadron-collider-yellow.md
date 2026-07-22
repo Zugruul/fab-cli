@@ -29,5 +29,10 @@ When you boost an attack, destroy this. If you do, the attack gets +X{p}, where 
 Keywords: [[kw-crank]]
 Variants: [[card-hadron-collider-red]] · [[card-hadron-collider-blue]]
 Rulings: search "Hadron Collider" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO091.png)
+
+## Images
+
+![EVO091 - Hadron Collider (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO091.png)
 
 ## Notes

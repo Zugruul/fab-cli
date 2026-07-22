@@ -26,5 +26,12 @@ codes: [ANQ023, ARC163]
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Rusted Relic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC163.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC163.png)
+
+## Images
+
+![ANQ023 - Rusted Relic (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ023.webp)
+![ARC163 - Rusted Relic (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC163.png)
+![ARC163 - Rusted Relic (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC163.png)
 
 ## Notes

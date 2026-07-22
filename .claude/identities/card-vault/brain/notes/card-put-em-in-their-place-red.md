@@ -29,5 +29,11 @@ Crush - When this deals 4 or more damage to a hero, they discard their hand, the
 
 Keywords: [[kw-specialization]] · [[kw-crush]]
 Rulings: search "Put 'Em In Their Place" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG018.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG018-EA.webp)
+
+## Images
+
+![MPG018 - Put 'Em In Their Place (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG018.webp)
+![MPG018 - Put 'Em In Their Place (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG018-EA.webp)
 
 ## Notes

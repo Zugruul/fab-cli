@@ -30,5 +30,10 @@ codes: [TER016]
 Keywords: [[kw-bond]]
 Variants: [[card-strong-wood-red]]
 Rulings: search "Strong Wood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER016.webp)
+
+## Images
+
+![TER016 - Strong Wood (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER016.webp)
 
 ## Notes

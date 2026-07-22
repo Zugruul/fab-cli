@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Mask of Wizened Whiskers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS268.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST160.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN003.png)
+
+## Images
+
+![LGS268 - Mask of Wizened Whiskers](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS268.png)
+![MST160 - Mask of Wizened Whiskers](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST160.png)
+![ZEN003 - Mask of Wizened Whiskers](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN003.png)
 
 ## Notes

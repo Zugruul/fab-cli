@@ -27,5 +27,10 @@ codes: [OUT194]
 
 Variants: [[card-infectious-host-red]] · [[card-infectious-host-yellow]]
 Rulings: search "Infectious Host" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT194.width-450.png)
+
+## Images
+
+![OUT194 - Infectious Host (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT194.width-450.png)
 
 ## Notes

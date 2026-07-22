@@ -28,5 +28,10 @@ Your next weapon attack this turn gains +2{p}."
 Keywords: [[kw-go-again]]
 Variants: [[card-blade-runner-red]] · [[card-blade-runner-blue]]
 Rulings: search "Blade Runner" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR061.width-450.png)
+
+## Images
+
+![EVR061 - Blade Runner (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR061.width-450.png)
 
 ## Notes

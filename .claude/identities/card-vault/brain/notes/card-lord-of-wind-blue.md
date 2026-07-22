@@ -29,5 +29,12 @@ Combo - If Mugenshi: RELEASE was the last attack this combat chain, as an additi
 
 Keywords: [[kw-specialization]] · [[kw-combo]]
 Rulings: search "Lord of Wind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP101.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR081.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR081.png)
+
+## Images
+
+![1HP101 - Lord of Wind (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP101.width-450.png)
+![WTR081 - Lord of Wind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR081.png)
+![WTR081 - Lord of Wind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR081.png)
 
 ## Notes

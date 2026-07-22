@@ -22,5 +22,13 @@ codes: [1HP367, CRU177, SDA003]
 At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more rust counters on it, destroy it."
 
 Rulings: search "Talishar, the Lost Prince" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP367.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU177.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU177.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA003.webp)
+
+## Images
+
+![1HP367 - Talishar, the Lost Prince](https://storage.googleapis.com/fabmaster/media/images/1HP367.width-450.png)
+![CRU177 - Talishar, the Lost Prince](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU177.png)
+![CRU177 - Talishar, the Lost Prince](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU177.png)
+![SDA003 - Talishar, the Lost Prince](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA003.webp)
 
 ## Notes

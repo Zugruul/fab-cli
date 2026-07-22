@@ -29,5 +29,11 @@ codes: [FAB373, LGS425, SUP076]
 
 Keywords: [[kw-steal]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Liar's Charm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB373-MV.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP076.webp)
+
+## Images
+
+![FAB373 - Liar's Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB373-MV.webp)
+![SUP076 - Liar's Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP076.webp)
 
 ## Notes

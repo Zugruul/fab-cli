@@ -22,5 +22,12 @@ codes: [GEM036, LGS397, SEA007]
 When this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}."
 
 Rulings: search "Spitfire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM036-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS397.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA007.png)
+
+## Images
+
+![GEM036 - Spitfire](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM036-CF.webp)
+![LGS397 - Spitfire](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS397.png)
+![SEA007 - Spitfire](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA007.png)
 
 ## Notes

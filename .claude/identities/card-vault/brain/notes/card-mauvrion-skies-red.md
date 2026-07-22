@@ -28,5 +28,15 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-mauvrion-skies-yellow]] · [[card-mauvrion-skies-blue]]
 Rulings: search "Mauvrion Skies" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP276.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU145.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI022.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP025-MV.webp)
+
+## Images
+
+![1HP276 - Mauvrion Skies (red)](https://storage.googleapis.com/fabmaster/media/images/1HP276.width-450.png)
+![CRU145 - Mauvrion Skies (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145.png)
+![CRU145 - Mauvrion Skies (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145-RF.png)
+![CRU145 - Mauvrion Skies (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU145.png)
+![SVI022 - Mauvrion Skies (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI022.webp)
+![TNP025 - Mauvrion Skies (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP025-MV.webp)
 
 ## Notes

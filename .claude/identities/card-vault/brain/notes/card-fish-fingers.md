@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Fish Fingers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS394.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA128.png)
+
+## Images
+
+![LGS394 - Fish Fingers](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS394.png)
+![SEA128 - Fish Fingers](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA128.png)
 
 ## Notes

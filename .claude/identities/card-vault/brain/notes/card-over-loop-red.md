@@ -30,5 +30,17 @@ When this hits, put it on the bottom of its owner's deck."
 Keywords: [[kw-boost]]
 Variants: [[card-over-loop-yellow]] · [[card-over-loop-blue]]
 Rulings: search "Over Loop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP205.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/ARC020_Over_Loop.width-10000.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO219.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS013.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS032.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC014.png)
+
+## Images
+
+![1HP205 - Over Loop (red)](https://storage.googleapis.com/fabmaster/media/images/1HP205.width-450.png)
+![ARC020 - Over Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020.png)
+![ARC020 - Over Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020-RF.png)
+![ARC020 - Over Loop (red)](https://storage.googleapis.com/fabmaster/media/images/ARC020_Over_Loop.width-10000.png)
+![EVO219 - Over Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO219.png)
+![LGS013 - Over Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS013.png)
+![LGS032 - Over Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS032.png)
+![TCC014 - Over Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC014.png)
 
 ## Notes

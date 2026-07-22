@@ -21,5 +21,18 @@ codes: [1HP352, ARR005, BVO006, FAB064, LEV006, MPG120, OLD006, WTR153]
 "Action - Destroy this: The next attack action card with cost 2 or more you play this turn gets +2{p}. Go again"
 
 Rulings: search "Goliath Gauntlet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP352.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR005-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/BVO6.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB064.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/LEV006.width-450.png) · [Image #6](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG120.webp) · [Image #7](https://storage.googleapis.com/fabmaster/media/images/OLD006.width-450.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR153.png) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR153.png)
+
+## Images
+
+![1HP352 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/media/images/1HP352.width-450.png)
+![ARR005 - Goliath Gauntlet](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR005-RF.webp)
+![BVO006 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/media/images/BVO6.width-450.png)
+![FAB064 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB064.png)
+![LEV006 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/media/images/LEV006.width-450.png)
+![MPG120 - Goliath Gauntlet](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG120.webp)
+![OLD006 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/media/images/OLD006.width-450.png)
+![WTR153 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR153.png)
+![WTR153 - Goliath Gauntlet](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR153.png)
 
 ## Notes

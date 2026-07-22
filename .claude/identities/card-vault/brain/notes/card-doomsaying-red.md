@@ -28,5 +28,10 @@ At the beginning of your end phase, put a doom counter on this, then each hero d
 
 Keywords: [[kw-go-again]]
 Rulings: search "Doomsaying" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN097.webp)
+
+## Images
+
+![PEN097 - Doomsaying (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN097.webp)
 
 ## Notes

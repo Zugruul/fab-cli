@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-mark]]
 Variants: [[card-tag-the-target-yellow]] · [[card-tag-the-target-blue]]
 Rulings: search "Tag the Target" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN020.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT092.png)
+
+## Images
+
+![CIN020 - Tag the Target (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN020.webp)
+![HNT092 - Tag the Target (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT092.png)
 
 ## Notes

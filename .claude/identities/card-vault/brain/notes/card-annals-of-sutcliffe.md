@@ -20,5 +20,10 @@ codes: [DYN172]
 "Once per Turn Action - {r}{r}{r}: Draw a card. If an attack action card and a 'non-attack' action card were pitched this way, create a Runechant token."
 
 Rulings: search "Annals of Sutcliffe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN172.png)
+
+## Images
+
+![DYN172 - Annals of Sutcliffe](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN172.png)
 
 ## Notes

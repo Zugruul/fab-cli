@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Apex Bonebreaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB179.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png)
+
+## Images
+
+![FAB179 - Apex Bonebreaker](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB179.png)
+![HVY008 - Apex Bonebreaker](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png)
 
 ## Notes

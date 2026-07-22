@@ -26,5 +26,11 @@ If you've fused this turn, you may play Rejuvenate as though it were an instant.
 
 Variants: [[card-rejuvenate-red]] · [[card-rejuvenate-yellow]]
 Rulings: search "Rejuvenate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE108.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE108.width-450.png)
+
+## Images
+
+![ELE108 - Rejuvenate (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE108.width-450.png)
+![ELE108 - Rejuvenate (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE108.width-450.png)
 
 ## Notes

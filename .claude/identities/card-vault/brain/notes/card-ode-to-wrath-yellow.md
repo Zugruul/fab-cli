@@ -29,5 +29,14 @@ Spectra"
 
 Keywords: [[kw-spectra]] · [[kw-go-again]]
 Rulings: search "Ode to Wrath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR019.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB027.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON013.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON013.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/PSM015.width-450.png)
+
+## Images
+
+![APR019 - Ode to Wrath (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR019.webp)
+![FAB027 - Ode to Wrath (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB027.png)
+![MON013 - Ode to Wrath (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON013.width-450.png)
+![MON013 - Ode to Wrath (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON013.width-450.png)
+![PSM015 - Ode to Wrath (yellow)](https://storage.googleapis.com/fabmaster/media/images/PSM015.width-450.png)
 
 ## Notes

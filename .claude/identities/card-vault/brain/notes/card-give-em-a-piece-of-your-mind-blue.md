@@ -27,5 +27,10 @@ codes: [SUP154]
 
 Variants: [[card-give-em-a-piece-of-your-mind-red]] · [[card-give-em-a-piece-of-your-mind-yellow]]
 Rulings: search "Give 'Em a Piece of Your Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP154.webp)
+
+## Images
+
+![SUP154 - Give 'Em a Piece of Your Mind (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP154.webp)
 
 ## Notes

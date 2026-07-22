@@ -28,5 +28,11 @@ codes: [MPG029]
 
 Keywords: [[kw-crush]]
 Rulings: search "Annexation of All Things Known" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG029.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG029-RF.webp)
+
+## Images
+
+![MPG029 - Annexation of All Things Known (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG029.webp)
+![MPG029 - Annexation of All Things Known (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG029-RF.webp)
 
 ## Notes

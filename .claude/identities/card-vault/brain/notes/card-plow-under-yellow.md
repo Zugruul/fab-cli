@@ -29,5 +29,11 @@ Decompose - When this attacks, you may banish 2 Earth cards and an action card f
 
 Keywords: [[kw-decompose]]
 Rulings: search "Plow Under" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS032.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP262.webp)
+
+## Images
+
+![ROS032 - Plow Under (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS032.png)
+![SUP262 - Plow Under (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP262.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ When this hits, create a Lightning Flow token."
 
 Variants: [[card-flittering-spike-red]] · [[card-flittering-spike-yellow]]
 Rulings: search "Flittering Spike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN168.webp)
+
+## Images
+
+![OMN168 - Flittering Spike (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN168.webp)
 
 ## Notes

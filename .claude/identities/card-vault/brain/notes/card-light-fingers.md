@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Light Fingers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA184.png)
+
+## Images
+
+![SEA184 - Light Fingers](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA184.png)
 
 ## Notes

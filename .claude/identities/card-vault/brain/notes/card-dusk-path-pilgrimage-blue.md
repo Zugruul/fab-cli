@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-dusk-path-pilgrimage-red]] · [[card-dusk-path-pilgrimage-yellow]]
 Rulings: search "Dusk Path Pilgrimage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS062.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON112.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON112.width-450.png)
+
+## Images
+
+![LGS062 - Dusk Path Pilgrimage (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS062.png)
+![MON112 - Dusk Path Pilgrimage (blue)](https://storage.googleapis.com/fabmaster/media/images/MON112.width-450.png)
+![MON112 - Dusk Path Pilgrimage (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON112.width-450.png)
 
 ## Notes

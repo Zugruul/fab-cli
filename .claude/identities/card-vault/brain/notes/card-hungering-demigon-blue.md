@@ -31,5 +31,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-hungering-demigon-red]] · [[card-hungering-demigon-yellow]]
 Rulings: search "Hungering Demigon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD174.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS167.png)
+
+## Images
+
+![DTD174 - Hungering Demigon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD174.png)
+![LGS167 - Hungering Demigon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS167.png)
 
 ## Notes

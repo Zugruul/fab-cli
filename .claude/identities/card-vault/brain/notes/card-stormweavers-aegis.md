@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Stormweaver's Aegis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN239.webp)
+
+## Images
+
+![PEN239 - Stormweaver's Aegis](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN239.webp)
 
 ## Notes

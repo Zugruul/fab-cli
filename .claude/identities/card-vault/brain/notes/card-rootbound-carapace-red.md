@@ -27,5 +27,13 @@ codes: [FLR011, LGS352, ROS042, VER011]
 Keywords: [[kw-decompose]]
 Variants: [[card-rootbound-carapace-yellow]] · [[card-rootbound-carapace-blue]]
 Rulings: search "Rootbound Carapace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR011.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS352.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS042.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER011.webp)
+
+## Images
+
+![FLR011 - Rootbound Carapace (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR011.webp)
+![LGS352 - Rootbound Carapace (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS352.png)
+![ROS042 - Rootbound Carapace (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS042.png)
+![VER011 - Rootbound Carapace (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER011.webp)
 
 ## Notes

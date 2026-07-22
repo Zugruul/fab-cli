@@ -26,5 +26,10 @@ codes: [OMN151]
 "When this hits, you may put an instant card from your graveyard on the bottom of your deck."
 
 Rulings: search "Visionary of Orbits" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN151.webp)
+
+## Images
+
+![OMN151 - Visionary of Orbits (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN151.webp)
 
 ## Notes

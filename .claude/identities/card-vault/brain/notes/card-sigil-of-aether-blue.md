@@ -27,5 +27,12 @@ When this leaves the arena, deal 1 arcane damage to any target. If damage is dea
 
 Keywords: [[kw-amp]]
 Rulings: search "Sigil of Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS366.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS168.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS168-MV.png)
+
+## Images
+
+![LGS366 - Sigil of Aether (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS366.png)
+![ROS168 - Sigil of Aether (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS168.png)
+![ROS168 - Sigil of Aether (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS168-MV.png)
 
 ## Notes

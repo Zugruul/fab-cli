@@ -27,5 +27,11 @@ codes: [AZL013, OUT127]
 
 Variants: [[card-skybound-shot-yellow]] · [[card-skybound-shot-blue]]
 Rulings: search "Skybound Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL013.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT127.width-450.png)
+
+## Images
+
+![AZL013 - Skybound Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL013.png)
+![OUT127 - Skybound Shot (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT127.width-450.png)
 
 ## Notes

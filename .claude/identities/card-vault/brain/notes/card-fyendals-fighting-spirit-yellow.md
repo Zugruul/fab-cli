@@ -27,5 +27,11 @@ codes: [ROS228, UPR195]
 
 Variants: [[card-fyendals-fighting-spirit-red]] · [[card-fyendals-fighting-spirit-blue]]
 Rulings: search "Fyendal's Fighting Spirit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS228.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR195.png)
+
+## Images
+
+![ROS228 - Fyendal's Fighting Spirit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS228.png)
+![UPR195 - Fyendal's Fighting Spirit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR195.png)
 
 ## Notes

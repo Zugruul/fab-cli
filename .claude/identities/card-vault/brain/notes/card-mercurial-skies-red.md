@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-mercurial-skies-yellow]] · [[card-mercurial-skies-blue]]
 Rulings: search "Mercurial Skies" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN059.webp)
+
+## Images
+
+![OMN059 - Mercurial Skies (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN059.webp)
 
 ## Notes

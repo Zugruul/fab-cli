@@ -29,5 +29,10 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-auric-shards-red]] · [[card-auric-shards-blue]]
 Rulings: search "Auric Shards" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN028.webp)
+
+## Images
+
+![OMN028 - Auric Shards (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN028.webp)
 
 ## Notes

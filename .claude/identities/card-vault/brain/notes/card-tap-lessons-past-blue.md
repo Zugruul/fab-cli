@@ -27,5 +27,10 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
 
 Variants: [[card-tap-lessons-past-red]] · [[card-tap-lessons-past-yellow]]
 Rulings: search "Tap Lessons Past" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN126.webp)
+
+## Images
+
+![OMN126 - Tap Lessons Past (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN126.webp)
 
 ## Notes

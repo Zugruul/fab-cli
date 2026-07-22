@@ -26,5 +26,12 @@ When this hits, create a Runechant token."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Flail of Agony" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD135.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB167.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS156.png)
+
+## Images
+
+![DTD135 - Flail of Agony](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD135.png)
+![FAB167 - Flail of Agony](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB167.png)
+![LGS156 - Flail of Agony](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS156.png)
 
 ## Notes

@@ -27,5 +27,10 @@ Instant - {r}, discard this: Deal 1 arcane damage to target hero. Create a Light
 
 Variants: [[card-nebula-duality-red]] · [[card-nebula-duality-yellow]]
 Rulings: search "Nebula Duality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN123.webp)
+
+## Images
+
+![OMN123 - Nebula Duality (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN123.webp)
 
 ## Notes

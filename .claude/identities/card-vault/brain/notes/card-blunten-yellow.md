@@ -23,5 +23,11 @@ codes: [PEN049]
 "When this defends a weapon attack, the attacking hero discards a card."
 
 Rulings: search "Blunten" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN049.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN049-RF.webp)
+
+## Images
+
+![PEN049 - Blunten (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN049.webp)
+![PEN049 - Blunten (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN049-RF.webp)
 
 ## Notes

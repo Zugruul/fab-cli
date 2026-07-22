@@ -23,5 +23,11 @@ codes: [APS015, SUP026]
 "Instant - {r}{r}, put this on the bottom of your deck: Target defending action card gets +3{d} this chain link. Activate this only while it's in your graveyard, you have less {h} than each hero, and you've been cheered this turn."
 
 Rulings: search "Never Give Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS015.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP026.webp)
+
+## Images
+
+![APS015 - Never Give Up (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS015.webp)
+![SUP026 - Never Give Up (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP026.webp)
 
 ## Notes

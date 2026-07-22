@@ -21,5 +21,11 @@ codes: [LGS416, SUP213]
 "Action - {r}{r}, destroy this: The next attack card you play this turn gets +2{p}. Go again"
 
 Rulings: search "Punching Gloves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS416-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP213.webp)
+
+## Images
+
+![LGS416 - Punching Gloves](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS416-CF.webp)
+![SUP213 - Punching Gloves](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP213.webp)
 
 ## Notes

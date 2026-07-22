@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Graven Cowl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN137.webp)
+
+## Images
+
+![PEN137 - Graven Cowl](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN137.webp)
 
 ## Notes

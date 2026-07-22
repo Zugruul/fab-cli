@@ -28,5 +28,13 @@ Until end of turn, you may defend with attack action cards from arsenal.
 You may banish an attack action card from your hand. If you do, draw 2 cards."
 
 Rulings: search "Art of War" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP366.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC160.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC160.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG015.png)
+
+## Images
+
+![1HP366 - Art of War (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP366.width-450.png)
+![ARC160 - Art of War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC160.png)
+![ARC160 - Art of War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC160.png)
+![JDG015 - Art of War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG015.png)
 
 ## Notes

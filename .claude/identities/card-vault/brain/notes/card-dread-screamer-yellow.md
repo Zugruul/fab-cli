@@ -32,5 +32,11 @@ Blood Debt"
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-dread-screamer-red]] · [[card-dread-screamer-blue]]
 Rulings: search "Dread Screamer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON142.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON142.width-450.png)
+
+## Images
+
+![MON142 - Dread Screamer (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON142.width-450.png)
+![MON142 - Dread Screamer (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON142.width-450.png)
 
 ## Notes

@@ -23,5 +23,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Calming Cloak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS249.png)
+
+## Images
+
+![ROS249 - Calming Cloak](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS249.png)
 
 ## Notes

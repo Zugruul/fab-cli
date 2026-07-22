@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Civic Peak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS207.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC030.png)
+
+## Images
+
+![LGS207 - Civic Peak](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS207.png)
+![TCC030 - Civic Peak](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC030.png)
 
 ## Notes

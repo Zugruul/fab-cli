@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Prismatic Leyline" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png)
+
+## Images
+
+![MST193 - Prismatic Leyline (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png)
 
 ## Notes

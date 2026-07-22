@@ -24,5 +24,11 @@ codes: [HVY238, LGS228]
 "If you control no Gold tokens, create a Gold token."
 
 Rulings: search "Starting Stake" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY238.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS228.png)
+
+## Images
+
+![HVY238 - Starting Stake (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY238.png)
+![LGS228 - Starting Stake (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS228.png)
 
 ## Notes

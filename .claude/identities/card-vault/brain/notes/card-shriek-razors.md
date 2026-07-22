@@ -25,5 +25,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Shriek Razors" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO235.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB168.png)
+
+## Images
+
+![EVO235 - Shriek Razors](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO235.png)
+![FAB168 - Shriek Razors](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB168.png)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [1HP373, WTR169]
 
 Variants: [[card-snatch-red]] · [[card-snatch-yellow]]
 Rulings: search "Snatch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP373.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR169.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR169.png)
+
+## Images
+
+![1HP373 - Snatch (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP373.width-450.png)
+![WTR169 - Snatch (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR169.png)
+![WTR169 - Snatch (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR169.png)
 
 ## Notes

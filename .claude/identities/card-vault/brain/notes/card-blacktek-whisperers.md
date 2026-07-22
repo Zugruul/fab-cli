@@ -25,5 +25,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Blacktek Whisperers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN117.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB110.png)
+
+## Images
+
+![DYN117 - Blacktek Whisperers](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN117.png)
+![FAB110 - Blacktek Whisperers](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB110.png)
 
 ## Notes

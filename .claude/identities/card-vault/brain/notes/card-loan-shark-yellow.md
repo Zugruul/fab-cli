@@ -29,5 +29,11 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
 
 Keywords: [[kw-go-again]]
 Rulings: search "Loan Shark" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA131.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA131_V2.png)
+
+## Images
+
+![SEA131 - Loan Shark (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA131.png)
+![SEA131 - Loan Shark (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA131_V2.png)
 
 ## Notes

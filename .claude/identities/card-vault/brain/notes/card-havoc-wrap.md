@@ -25,5 +25,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Havoc Wrap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN275.webp)
+
+## Images
+
+![PEN275 - Havoc Wrap](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN275.webp)
 
 ## Notes

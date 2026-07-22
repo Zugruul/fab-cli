@@ -29,5 +29,11 @@ Channel Earth - At the beginning of your end phase, put a flow counter on this, 
 
 Keywords: [[kw-go-again]] · [[kw-channel]]
 Rulings: search "Channel the Tranquil Domain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP263.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP263-CF.webp)
+
+## Images
+
+![SUP263 - Channel the Tranquil Domain (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP263.webp)
+![SUP263 - Channel the Tranquil Domain (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP263-CF.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ When this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to pla
 
 Keywords: [[kw-go-again]]
 Rulings: search "Hyper Scrapper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO100.png)
+
+## Images
+
+![EVO100 - Hyper Scrapper (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO100.png)
 
 ## Notes

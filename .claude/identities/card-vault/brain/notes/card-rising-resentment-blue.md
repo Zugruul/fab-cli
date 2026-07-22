@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-rising-resentment-red]] · [[card-rising-resentment-yellow]]
 Rulings: search "Rising Resentment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR077.png)
+
+## Images
+
+![UPR077 - Rising Resentment (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR077.png)
 
 ## Notes

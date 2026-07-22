@@ -27,5 +27,11 @@ codes: [FAI022, UPR191]
 
 Variants: [[card-flex-yellow]] · [[card-flex-blue]]
 Rulings: search "Flex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR191.png)
+
+## Images
+
+![FAI022 - Flex (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI022.webp)
+![UPR191 - Flex (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR191.png)
 
 ## Notes

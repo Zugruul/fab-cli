@@ -22,5 +22,10 @@ codes: [LSS009]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Silversheen Needle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS009.png)
+
+## Images
+
+![LSS009 - Silversheen Needle](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS009.png)
 
 ## Notes

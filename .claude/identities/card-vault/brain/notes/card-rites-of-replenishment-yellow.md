@@ -32,5 +32,11 @@ When you attack with Rites of Replenishment, if it was fused, you may put an att
 Keywords: [[kw-fusion]]
 Variants: [[card-rites-of-replenishment-red]] · [[card-rites-of-replenishment-blue]]
 Rulings: search "Rites of Replenishment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE080.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE080.width-450.png)
+
+## Images
+
+![ELE080 - Rites of Replenishment (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE080.width-450.png)
+![ELE080 - Rites of Replenishment (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE080.width-450.png)
 
 ## Notes

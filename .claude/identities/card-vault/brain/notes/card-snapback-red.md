@@ -26,5 +26,13 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
 
 Variants: [[card-snapback-yellow]] · [[card-snapback-blue]]
 Rulings: search "Snapback" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP332.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU174.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU174.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ016.webp)
+
+## Images
+
+![1HP332 - Snapback (red)](https://storage.googleapis.com/fabmaster/media/images/1HP332.width-450.png)
+![CRU174 - Snapback (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU174.png)
+![CRU174 - Snapback (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU174.png)
+![SBZ016 - Snapback (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ016.webp)
 
 ## Notes

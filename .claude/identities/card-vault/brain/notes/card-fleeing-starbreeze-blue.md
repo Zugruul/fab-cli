@@ -28,5 +28,12 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Fleeing Starbreeze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS027.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037-CF.webp)
+
+## Images
+
+![AZS027 - Fleeing Starbreeze (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS027.webp)
+![OMN037 - Fleeing Starbreeze (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037.webp)
+![OMN037 - Fleeing Starbreeze (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037-CF.webp)
 
 ## Notes

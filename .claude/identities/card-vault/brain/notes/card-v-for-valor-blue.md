@@ -27,5 +27,10 @@ codes: [DTD062]
 
 Variants: [[card-v-for-valor-red]] · [[card-v-for-valor-yellow]]
 Rulings: search "V for Valor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD062.png)
+
+## Images
+
+![DTD062 - V for Valor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD062.png)
 
 ## Notes

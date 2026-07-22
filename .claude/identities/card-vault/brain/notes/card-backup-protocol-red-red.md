@@ -28,5 +28,12 @@ Instant - {r}{r}, destroy this: Return a red Mechanologist attack action card fr
 
 Keywords: [[kw-crank]]
 Rulings: search "Backup Protocol: RED" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO081.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM073-CF.webp)
+
+## Images
+
+![AIO014 - Backup Protocol: RED (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO014.webp)
+![EVO081 - Backup Protocol: RED (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO081.png)
+![GEM073 - Backup Protocol: RED (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM073-CF.webp)
 
 ## Notes

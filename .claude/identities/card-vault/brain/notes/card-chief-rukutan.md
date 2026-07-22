@@ -23,5 +23,11 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
 
 Keywords: [[kw-intimidate]]
 Rulings: search "Chief Ruk'utan" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS145.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RVD007.width-450.png)
+
+## Images
+
+![LGS145 - Chief Ruk'utan](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS145.png)
+![RVD007 - Chief Ruk'utan](https://storage.googleapis.com/fabmaster/media/images/RVD007.width-450.png)
 
 ## Notes

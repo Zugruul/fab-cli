@@ -24,5 +24,10 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Smoldering Scales" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN253.webp)
+
+## Images
+
+![PEN253 - Smoldering Scales](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN253.webp)
 
 ## Notes

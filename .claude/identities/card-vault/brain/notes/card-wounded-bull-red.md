@@ -27,5 +27,14 @@ codes: [JDG014, SBZ011, SIY012, WTR200]
 
 Variants: [[card-wounded-bull-yellow]] · [[card-wounded-bull-blue]]
 Rulings: search "Wounded Bull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG014.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ011.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY012.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR200.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR200.png)
+
+## Images
+
+![JDG014 - Wounded Bull (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG014.png)
+![SBZ011 - Wounded Bull (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ011.webp)
+![SIY012 - Wounded Bull (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY012.webp)
+![WTR200 - Wounded Bull (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR200.png)
+![WTR200 - Wounded Bull (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR200.png)
 
 ## Notes

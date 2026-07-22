@@ -23,5 +23,11 @@ codes: [WTR010]
 "Roll a 6 sided die. Prevent the next X damage that would be dealt to your hero this turn, where X is the number rolled."
 
 Rulings: search "Bone Head Barrier" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR010.png)
+
+## Images
+
+![WTR010 - Bone Head Barrier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR010.png)
+![WTR010 - Bone Head Barrier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR010.png)
 
 ## Notes

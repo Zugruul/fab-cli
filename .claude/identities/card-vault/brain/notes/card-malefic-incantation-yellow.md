@@ -30,5 +30,12 @@ Once per turn, when you play an attack action card, remove a verse counter from 
 Keywords: [[kw-go-again]]
 Variants: [[card-malefic-incantation-red]] · [[card-malefic-incantation-blue]]
 Rulings: search "Malefic Incantation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS131.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI025.webp)
+
+## Images
+
+![AVS022 - Malefic Incantation (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS022.webp)
+![ROS131 - Malefic Incantation (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS131.png)
+![SVI025 - Malefic Incantation (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI025.webp)
 
 ## Notes

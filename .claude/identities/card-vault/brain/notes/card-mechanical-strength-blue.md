@@ -29,5 +29,12 @@ codes: [EVO069, LGS226, TCC024]
 Keywords: [[kw-evo-upgrade]]
 Variants: [[card-mechanical-strength-red]] · [[card-mechanical-strength-yellow]]
 Rulings: search "Mechanical Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO069.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS226.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC024.png)
+
+## Images
+
+![EVO069 - Mechanical Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO069.png)
+![LGS226 - Mechanical Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS226.png)
+![TCC024 - Mechanical Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC024.png)
 
 ## Notes

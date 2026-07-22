@@ -30,5 +30,11 @@ When this leaves the arena, your next attack this turn gets +4{p}."
 
 Keywords: [[kw-suspense]] · [[kw-intimidate]]
 Rulings: search "Leave Them Hanging" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP074.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP074-CF.webp)
+
+## Images
+
+![SUP074 - Leave Them Hanging (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP074.webp)
+![SUP074 - Leave Them Hanging (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP074-CF.webp)
 
 ## Notes

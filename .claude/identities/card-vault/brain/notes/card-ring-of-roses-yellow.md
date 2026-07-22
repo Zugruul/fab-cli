@@ -29,5 +29,10 @@ The first time you deal arcane damage each turn, gain 1{h}."
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Ring of Roses" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT256.png)
+
+## Images
+
+![HNT256 - Ring of Roses (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT256.png)
 
 ## Notes

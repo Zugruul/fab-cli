@@ -24,5 +24,13 @@ Temper"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-temper]]
 Rulings: search "Dyadic Carapace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD211.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD211_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB142.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM149-RF.webp)
+
+## Images
+
+![DTD211 - Dyadic Carapace](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD211.png)
+![DTD211 - Dyadic Carapace](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD211_V2.png)
+![FAB142 - Dyadic Carapace](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB142.png)
+![GEM149 - Dyadic Carapace](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM149-RF.webp)
 
 ## Notes

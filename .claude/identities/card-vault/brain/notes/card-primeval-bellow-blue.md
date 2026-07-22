@@ -29,5 +29,13 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-primeval-bellow-red]] · [[card-primeval-bellow-yellow]]
 Rulings: search "Primeval Bellow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP042.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RNR26.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR037.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR037.png)
+
+## Images
+
+![1HP042 - Primeval Bellow (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP042.width-450.png)
+![RNR026 - Primeval Bellow (blue)](https://storage.googleapis.com/fabmaster/media/images/RNR26.width-450.png)
+![WTR037 - Primeval Bellow (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR037.png)
+![WTR037 - Primeval Bellow (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR037.png)
 
 ## Notes

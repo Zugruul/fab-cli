@@ -29,5 +29,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-grim-feast-red]] · [[card-grim-feast-yellow]]
 Rulings: search "Grim Feast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD177.png)
+
+## Images
+
+![DTD177 - Grim Feast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD177.png)
 
 ## Notes

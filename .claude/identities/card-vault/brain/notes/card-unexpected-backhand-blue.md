@@ -27,5 +27,11 @@ codes: [SKA033, SUP163]
 
 Variants: [[card-unexpected-backhand-red]] · [[card-unexpected-backhand-yellow]]
 Rulings: search "Unexpected Backhand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA033.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP163.webp)
+
+## Images
+
+![SKA033 - Unexpected Backhand (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA033.webp)
+![SUP163 - Unexpected Backhand (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP163.webp)
 
 ## Notes

@@ -31,5 +31,10 @@ Fragment"
 Keywords: [[kw-fragment]]
 Variants: [[card-pulsing-cardia-red]] · [[card-pulsing-cardia-yellow]]
 Rulings: search "Pulsing Cardia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN023.webp)
+
+## Images
+
+![OMN023 - Pulsing Cardia (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN023.webp)
 
 ## Notes

@@ -21,5 +21,16 @@ codes: [1HP426, CRU197, EVR194, FAB055, TCC103, TCC108]
 
 Keywords: [[kw-token-copper]]
 Rulings: search "Copper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP426.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU197.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU197.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/EVR194.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB055.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC103.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC108.png)
+
+## Images
+
+![1HP426 - Copper](https://storage.googleapis.com/fabmaster/media/images/1HP426.width-450.png)
+![CRU197 - Copper](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU197.png)
+![CRU197 - Copper](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU197.png)
+![EVR194 - Copper](https://storage.googleapis.com/fabmaster/media/images/EVR194.width-450.png)
+![FAB055 - Copper](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB055.png)
+![TCC103 - Copper](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC103.png)
+![TCC108 - Copper](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC108.png)
 
 ## Notes

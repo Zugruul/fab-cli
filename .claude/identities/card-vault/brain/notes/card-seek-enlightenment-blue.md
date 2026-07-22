@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-seek-enlightenment-red]] · [[card-seek-enlightenment-yellow]]
 Rulings: search "Seek Enlightenment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL028.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON083.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON083.width-450.png)
+
+## Images
+
+![BOL028 - Seek Enlightenment (blue)](https://storage.googleapis.com/fabmaster/media/images/BOL028.width-450.png)
+![MON083 - Seek Enlightenment (blue)](https://storage.googleapis.com/fabmaster/media/images/MON083.width-450.png)
+![MON083 - Seek Enlightenment (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON083.width-450.png)
 
 ## Notes

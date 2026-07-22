@@ -24,5 +24,10 @@ Spellvoid 1"
 
 Keywords: [[kw-blade-break]] · [[kw-spellvoid]]
 Rulings: search "Helm of Might and Magic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN093.webp)
+
+## Images
+
+![PEN093 - Helm of Might and Magic](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN093.webp)
 
 ## Notes

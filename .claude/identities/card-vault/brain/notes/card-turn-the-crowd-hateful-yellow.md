@@ -30,5 +30,10 @@ When this hits a Revered hero, the crowd boos you."
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-turn-the-crowd-hateful-red]] · [[card-turn-the-crowd-hateful-blue]]
 Rulings: search "Turn the Crowd Hateful" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP115.webp)
+
+## Images
+
+![SUP115 - Turn the Crowd Hateful (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP115.webp)
 
 ## Notes

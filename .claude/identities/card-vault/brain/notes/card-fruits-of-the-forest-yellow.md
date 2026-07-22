@@ -27,5 +27,11 @@ codes: [LGS343, ROS056]
 
 Variants: [[card-fruits-of-the-forest-red]] · [[card-fruits-of-the-forest-blue]]
 Rulings: search "Fruits of the Forest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS343.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS056.png)
+
+## Images
+
+![LGS343 - Fruits of the Forest (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS343.png)
+![ROS056 - Fruits of the Forest (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS056.png)
 
 ## Notes

@@ -27,5 +27,13 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Lace with Bloodrot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ017.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS134.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT112.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ022.webp)
+
+## Images
+
+![AAZ017 - Lace with Bloodrot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ017.png)
+![LGS134 - Lace with Bloodrot (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS134.png)
+![OUT112 - Lace with Bloodrot (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT112.width-450.png)
+![SAZ022 - Lace with Bloodrot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ022.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Phoenix Bannerman: Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN260.webp)
+
+## Images
+
+![PEN260 - Phoenix Bannerman: Legs (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN260.webp)
 
 ## Notes

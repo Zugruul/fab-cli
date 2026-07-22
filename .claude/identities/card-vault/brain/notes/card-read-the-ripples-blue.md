@@ -28,5 +28,11 @@ codes: [FAB092, UPR178]
 Keywords: [[kw-opt]]
 Variants: [[card-read-the-ripples-red]] · [[card-read-the-ripples-yellow]]
 Rulings: search "Read the Ripples" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB092.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR178.png)
+
+## Images
+
+![FAB092 - Read the Ripples (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB092.png)
+![UPR178 - Read the Ripples (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR178.png)
 
 ## Notes

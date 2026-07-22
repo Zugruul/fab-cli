@@ -25,5 +25,10 @@ codes: [SEA013]
 You may {t} a cog you control. If you do, put this on the bottom of its owner's deck."
 
 Rulings: search "Cog in the Machine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA013.png)
+
+## Images
+
+![SEA013 - Cog in the Machine (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA013.png)
 
 ## Notes

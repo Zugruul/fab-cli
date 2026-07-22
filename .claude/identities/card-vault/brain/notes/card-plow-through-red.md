@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-plow-through-yellow]] · [[card-plow-through-blue]]
 Rulings: search "Plow Through" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON113.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON113.width-450.png)
+
+## Images
+
+![MON113 - Plow Through (red)](https://storage.googleapis.com/fabmaster/media/images/MON113.width-450.png)
+![MON113 - Plow Through (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON113.width-450.png)
 
 ## Notes

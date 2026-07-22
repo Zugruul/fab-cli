@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Glistening Steelblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DVR008.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM118-RF.webp)
+
+## Images
+
+![DVR008 - Glistening Steelblade (yellow)](https://storage.googleapis.com/fabmaster/media/images/DVR008.width-450.png)
+![GEM118 - Glistening Steelblade (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM118-RF.webp)
 
 ## Notes

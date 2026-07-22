@@ -27,5 +27,13 @@ codes: [HVY021, KYO018, RHI019, RVD015]
 
 Variants: [[card-pack-call-red]] · [[card-pack-call-blue]]
 Rulings: search "Pack Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY021.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO018.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR019.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/RVD015.width-450.png)
+
+## Images
+
+![HVY021 - Pack Call (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY021.png)
+![KYO018 - Pack Call (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO018.png)
+![RHI019 - Pack Call (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR019.png)
+![RVD015 - Pack Call (yellow)](https://storage.googleapis.com/fabmaster/media/images/RVD015.width-450.png)
 
 ## Notes

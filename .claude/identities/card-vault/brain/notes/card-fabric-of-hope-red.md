@@ -27,5 +27,10 @@ codes: [LSS012]
 
 Keywords: [[kw-negate]]
 Rulings: search "Fabric of Hope" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LSS012-CF.webp)
+
+## Images
+
+![LSS012 - Fabric of Hope (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LSS012-CF.webp)
 
 ## Notes

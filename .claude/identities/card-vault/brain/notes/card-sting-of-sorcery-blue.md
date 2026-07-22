@@ -29,5 +29,11 @@ At the beginning of your end phase, destroy Sting of Sorcery."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sting of Sorcery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE226.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE226.width-450.png)
+
+## Images
+
+![ELE226 - Sting of Sorcery (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE226.width-450.png)
+![ELE226 - Sting of Sorcery (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE226.width-450.png)
 
 ## Notes

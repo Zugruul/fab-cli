@@ -23,5 +23,10 @@ codes: [PEN005]
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Shamanic Shinbones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN005.webp)
+
+## Images
+
+![PEN005 - Shamanic Shinbones](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN005.webp)
 
 ## Notes

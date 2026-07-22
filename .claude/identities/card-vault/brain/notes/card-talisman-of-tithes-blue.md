@@ -27,5 +27,10 @@ If an opponent would draw 1 or more cards during your action phase, instead dest
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talisman of Tithes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR192.width-450.png)
+
+## Images
+
+![EVR192 - Talisman of Tithes (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR192.width-450.png)
 
 ## Notes

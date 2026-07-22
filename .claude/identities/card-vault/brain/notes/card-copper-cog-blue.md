@@ -28,5 +28,11 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
 
 Keywords: [[kw-unlimited]] · [[kw-crank]]
 Rulings: search "Copper Cog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB351-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA021.png)
+
+## Images
+
+![FAB351 - Copper Cog (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB351-CF.webp)
+![SEA021 - Copper Cog (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA021.png)
 
 ## Notes

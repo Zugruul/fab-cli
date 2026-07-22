@@ -24,5 +24,10 @@ codes: [EVO145]
 "Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control."
 
 Rulings: search "System Reset" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO145.png)
+
+## Images
+
+![EVO145 - System Reset (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO145.png)
 
 ## Notes

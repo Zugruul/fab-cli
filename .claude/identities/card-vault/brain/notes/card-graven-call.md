@@ -25,5 +25,10 @@ Instant - Destroy 2 Silver you control: Equip this with a +1{p} counter. Activat
 
 Keywords: [[kw-piercing]]
 Rulings: search "Graven Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY245.png)
+
+## Images
+
+![HVY245 - Graven Call](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY245.png)
 
 ## Notes

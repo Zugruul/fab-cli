@@ -27,5 +27,12 @@ codes: [BVO025, WTR166]
 
 Variants: [[card-drone-of-brutality-red]] · [[card-drone-of-brutality-yellow]]
 Rulings: search "Drone of Brutality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BVO25.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR166.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR166.png)
+
+## Images
+
+![BVO025 - Drone of Brutality (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO25.width-450.png)
+![WTR166 - Drone of Brutality (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR166.png)
+![WTR166 - Drone of Brutality (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR166.png)
 
 ## Notes

@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Basalt Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN019.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR012.webp)
+
+## Images
+
+![PEN019 - Basalt Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN019.webp)
+![SBR012 - Basalt Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR012.webp)
 
 ## Notes

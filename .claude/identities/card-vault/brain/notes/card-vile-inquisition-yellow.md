@@ -29,5 +29,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-vile-inquisition-red]] · [[card-vile-inquisition-blue]]
 Rulings: search "Vile Inquisition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD179.png)
+
+## Images
+
+![DTD179 - Vile Inquisition (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD179.png)
 
 ## Notes

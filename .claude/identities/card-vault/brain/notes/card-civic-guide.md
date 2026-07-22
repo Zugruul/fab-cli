@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Civic Guide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS209.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC032.png)
+
+## Images
+
+![LGS209 - Civic Guide](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS209.png)
+![TCC032 - Civic Guide](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC032.png)
 
 ## Notes

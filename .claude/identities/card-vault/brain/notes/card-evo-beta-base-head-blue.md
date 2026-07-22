@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Beta Base Head" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN068.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN068-MV.webp)
+
+## Images
+
+![PEN068 - Evo Beta Base Head (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN068.webp)
+![PEN068 - Evo Beta Base Head (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN068-MV.webp)
 
 ## Notes

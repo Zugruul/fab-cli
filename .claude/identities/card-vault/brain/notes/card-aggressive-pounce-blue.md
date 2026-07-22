@@ -29,5 +29,10 @@ codes: [PEN011]
 Keywords: [[kw-go-again]]
 Variants: [[card-aggressive-pounce-red]] · [[card-aggressive-pounce-yellow]]
 Rulings: search "Aggressive Pounce" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN011.webp)
+
+## Images
+
+![PEN011 - Aggressive Pounce (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN011.webp)
 
 ## Notes

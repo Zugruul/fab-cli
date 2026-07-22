@@ -27,5 +27,10 @@ codes: [SUP257]
 When this hits a Runeblade or Wizard hero, you may destroy an aura they control."
 
 Rulings: search "Mage Hunter Arrow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP257.webp)
+
+## Images
+
+![SUP257 - Mage Hunter Arrow (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP257.webp)
 
 ## Notes

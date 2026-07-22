@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Emboldened Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO240.png)
+
+## Images
+
+![EVO240 - Emboldened Blade (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO240.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [SUP162]
 
 Variants: [[card-unexpected-backhand-red]] · [[card-unexpected-backhand-blue]]
 Rulings: search "Unexpected Backhand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP162.webp)
+
+## Images
+
+![SUP162 - Unexpected Backhand (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP162.webp)
 
 ## Notes

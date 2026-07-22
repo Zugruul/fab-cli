@@ -29,5 +29,10 @@ codes: [EVO120]
 Keywords: [[kw-galvanize]]
 Variants: [[card-infuse-alloy-yellow]] · [[card-infuse-alloy-blue]]
 Rulings: search "Infuse Alloy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO120.png)
+
+## Images
+
+![EVO120 - Infuse Alloy (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO120.png)
 
 ## Notes

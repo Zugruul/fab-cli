@@ -27,5 +27,10 @@ At the start of your turn, destroy this, then create 2 Seismic Surge tokens."
 
 Variants: [[card-distant-rumbling-red]] · [[card-distant-rumbling-blue]]
 Rulings: search "Distant Rumbling" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN024.webp)
+
+## Images
+
+![PEN024 - Distant Rumbling (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN024.webp)
 
 ## Notes

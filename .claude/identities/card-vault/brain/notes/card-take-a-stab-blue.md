@@ -25,5 +25,11 @@ codes: [HNT213, WOD025]
 
 Variants: [[card-take-a-stab-red]] · [[card-take-a-stab-yellow]]
 Rulings: search "Take a Stab" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT213.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD025.webp)
+
+## Images
+
+![HNT213 - Take a Stab (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT213.png)
+![WOD025 - Take a Stab (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD025.webp)
 
 ## Notes

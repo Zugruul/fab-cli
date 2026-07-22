@@ -28,5 +28,11 @@ At the beginning of your end phase, destroy this."
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Concealed Object" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY031.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP097.webp)
+
+## Images
+
+![SLY031 - Concealed Object (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY031.webp)
+![SUP097 - Concealed Object (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP097.webp)
 
 ## Notes

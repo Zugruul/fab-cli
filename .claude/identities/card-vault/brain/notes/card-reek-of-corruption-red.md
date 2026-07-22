@@ -27,5 +27,10 @@ codes: [EVR113]
 
 Variants: [[card-reek-of-corruption-yellow]] · [[card-reek-of-corruption-blue]]
 Rulings: search "Reek of Corruption" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR113.width-450.png)
+
+## Images
+
+![EVR113 - Reek of Corruption (red)](https://storage.googleapis.com/fabmaster/media/images/EVR113.width-450.png)
 
 ## Notes

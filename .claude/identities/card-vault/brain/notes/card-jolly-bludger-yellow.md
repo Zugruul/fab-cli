@@ -30,5 +30,10 @@ Thrice per Turn Instant - {t} a cog you control: This gets +1{p}."
 
 Keywords: [[kw-overpower]] · [[kw-steal]]
 Rulings: search "Jolly Bludger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA005.png)
+
+## Images
+
+![SEA005 - Jolly Bludger (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA005.png)
 
 ## Notes

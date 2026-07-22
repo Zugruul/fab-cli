@@ -30,5 +30,12 @@ codes: [FAI026, SFA032, UPR065]
 Keywords: [[kw-go-again]]
 Variants: [[card-cinderskin-devotion-red]] · [[card-cinderskin-devotion-yellow]]
 Rulings: search "Cinderskin Devotion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI026.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA032.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR065.png)
+
+## Images
+
+![FAI026 - Cinderskin Devotion (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI026.webp)
+![SFA032 - Cinderskin Devotion (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA032.webp)
+![UPR065 - Cinderskin Devotion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR065.png)
 
 ## Notes

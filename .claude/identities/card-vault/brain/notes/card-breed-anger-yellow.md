@@ -29,5 +29,10 @@ codes: [MST177]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-breed-anger-red]] · [[card-breed-anger-blue]]
 Rulings: search "Breed Anger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST177.png)
+
+## Images
+
+![MST177 - Breed Anger (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST177.png)
 
 ## Notes

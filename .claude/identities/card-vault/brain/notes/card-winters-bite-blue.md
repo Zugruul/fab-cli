@@ -28,5 +28,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-winters-bite-red]] · [[card-winters-bite-yellow]]
 Rulings: search "Winter's Bite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE171.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE171.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/LXI025.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY033.webp)
+
+## Images
+
+![AJV025 - Winter's Bite (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV025.webp)
+![ELE171 - Winter's Bite (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE171.width-450.png)
+![ELE171 - Winter's Bite (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE171.width-450.png)
+![LXI025 - Winter's Bite (blue)](https://storage.googleapis.com/fabmaster/media/images/LXI025.width-450.png)
+![SIY033 - Winter's Bite (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY033.webp)
 
 ## Notes

@@ -30,5 +30,10 @@ Attack action cards get -1{p} while attacking or defending."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Haboob" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN249.webp)
+
+## Images
+
+![PEN249 - Haboob (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN249.webp)
 
 ## Notes

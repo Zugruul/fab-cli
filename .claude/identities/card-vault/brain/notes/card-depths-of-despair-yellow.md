@@ -30,5 +30,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-depths-of-despair-red]] · [[card-depths-of-despair-blue]]
 Rulings: search "Depths of Despair" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN196.webp)
+
+## Images
+
+![PEN196 - Depths of Despair (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN196.webp)
 
 ## Notes

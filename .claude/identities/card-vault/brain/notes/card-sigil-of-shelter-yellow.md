@@ -24,5 +24,10 @@ codes: [TER020]
 
 Variants: [[card-sigil-of-shelter-blue]]
 Rulings: search "Sigil of Shelter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER020.webp)
+
+## Images
+
+![TER020 - Sigil of Shelter (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER020.webp)
 
 ## Notes

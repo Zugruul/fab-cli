@@ -31,5 +31,10 @@ Blood Debt"
 
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Rulings: search "Eloquent Eulogy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST237.png)
+
+## Images
+
+![MST237 - Eloquent Eulogy (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST237.png)
 
 ## Notes

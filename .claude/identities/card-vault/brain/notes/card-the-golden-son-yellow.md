@@ -30,5 +30,10 @@ When you win a clash revealing this, create a Gold token."
 
 Keywords: [[kw-specialization]] · [[kw-overpower]]
 Rulings: search "The Golden Son" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY059.png)
+
+## Images
+
+![HVY059 - The Golden Son (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY059.png)
 
 ## Notes

@@ -27,5 +27,13 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Mordred Tide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP268.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC081.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ARC081_Mordred_Tide.width-10000.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS016.webp)
+
+## Images
+
+![1HP268 - Mordred Tide (red)](https://storage.googleapis.com/fabmaster/media/images/1HP268.width-450.png)
+![ARC081 - Mordred Tide (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC081.png)
+![ARC081 - Mordred Tide (red)](https://storage.googleapis.com/fabmaster/media/images/ARC081_Mordred_Tide.width-10000.png)
+![AVS016 - Mordred Tide (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS016.webp)
 
 ## Notes

@@ -28,5 +28,12 @@ codes: [TCC046, WTR045]
 
 Keywords: [[kw-crush]]
 Rulings: search "Cranial Crush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC046.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR045.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR045.png)
+
+## Images
+
+![TCC046 - Cranial Crush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC046.png)
+![WTR045 - Cranial Crush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR045.png)
+![WTR045 - Cranial Crush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR045.png)
 
 ## Notes

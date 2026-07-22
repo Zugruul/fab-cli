@@ -31,5 +31,12 @@ If Mulch was fused, it gains "If this hits a hero, put a card from their arsenal
 Keywords: [[kw-fusion]]
 Variants: [[card-mulch-red]] · [[card-mulch-yellow]]
 Rulings: search "Mulch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE021.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE021.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/OLD022.width-450.png)
+
+## Images
+
+![ELE021 - Mulch (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE021.width-450.png)
+![ELE021 - Mulch (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE021.width-450.png)
+![OLD022 - Mulch (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD022.width-450.png)
 
 ## Notes

@@ -23,5 +23,10 @@ Once per Turn Action - {r}: The next card you reveal this turn has its grade inc
 
 Keywords: [[kw-specialization]]
 Rulings: search "Pink Visor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS007.png)
+
+## Images
+
+![LSS007 - Pink Visor](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS007.png)
 
 ## Notes

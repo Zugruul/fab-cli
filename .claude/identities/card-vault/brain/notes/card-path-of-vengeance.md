@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]] · [[kw-go-again]]
 Rulings: search "Path of Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT147.png)
+
+## Images
+
+![HNT147 - Path of Vengeance](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT147.png)
 
 ## Notes

@@ -28,5 +28,10 @@ When this defends and the attacking hero has played or activated a reaction this
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Spike Pit Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT104.width-450.png)
+
+## Images
+
+![OUT104 - Spike Pit Trap (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT104.width-450.png)
 
 ## Notes

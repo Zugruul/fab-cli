@@ -28,5 +28,11 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}."
 
 Variants: [[card-widowmaker-yellow]] · [[card-widowmaker-blue]]
 Rulings: search "Widowmaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL015.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT133.width-450.png)
+
+## Images
+
+![AZL015 - Widowmaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL015.png)
+![OUT133 - Widowmaker (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT133.width-450.png)
 
 ## Notes

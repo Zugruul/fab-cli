@@ -28,5 +28,11 @@ codes: [LGS418, SUP008]
 When this hits a hero, create a Toughness and a Vigor token."
 
 Rulings: search "Old Leather and Vim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS418-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP008.webp)
+
+## Images
+
+![LGS418 - Old Leather and Vim (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS418-CF.webp)
+![SUP008 - Old Leather and Vim (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP008.webp)
 
 ## Notes

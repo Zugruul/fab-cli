@@ -32,5 +32,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-endless-maw-red]] · [[card-endless-maw-yellow]]
 Rulings: search "Endless Maw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/SAy5p6Yoa21bM89UuG8l4.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON128.width-450.png)
+
+## Images
+
+![MON128 - Endless Maw (blue)](https://storage.googleapis.com/fabmaster/media/images/SAy5p6Yoa21bM89UuG8l4.width-450.png)
+![MON128 - Endless Maw (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON128.width-450.png)
 
 ## Notes

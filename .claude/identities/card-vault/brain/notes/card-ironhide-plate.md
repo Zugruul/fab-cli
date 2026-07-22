@@ -21,5 +21,11 @@ codes: [MON242]
 "When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes."
 
 Rulings: search "Ironhide Plate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON242.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON242.width-450.png)
+
+## Images
+
+![MON242 - Ironhide Plate](https://storage.googleapis.com/fabmaster/media/images/MON242.width-450.png)
+![MON242 - Ironhide Plate](https://storage.googleapis.com/fabmaster/media/images/U-MON242.width-450.png)
 
 ## Notes

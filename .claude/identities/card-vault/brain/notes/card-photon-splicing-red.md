@@ -26,5 +26,11 @@ Instant - Discard this: Amp 1"
 
 Variants: [[card-photon-splicing-yellow]] · [[card-photon-splicing-blue]]
 Rulings: search "Photon Splicing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC018.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS204.png)
+
+## Images
+
+![OSC018 - Photon Splicing (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC018.webp)
+![ROS204 - Photon Splicing (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS204.png)
 
 ## Notes

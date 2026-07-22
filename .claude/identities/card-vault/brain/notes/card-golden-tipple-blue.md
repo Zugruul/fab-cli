@@ -30,5 +30,13 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-golden-tipple-red]] · [[card-golden-tipple-yellow]]
 Rulings: search "Golden Tipple" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA161.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA161_V2.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB022.webp)
+
+## Images
+
+![AGB021 - Golden Tipple (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB021.webp)
+![SEA161 - Golden Tipple (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA161.png)
+![SEA161 - Golden Tipple (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA161_V2.png)
+![SGB022 - Golden Tipple (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB022.webp)
 
 ## Notes

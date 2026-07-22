@@ -24,5 +24,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Scuttle Toes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN155.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB009.webp)
+
+## Images
+
+![PEN155 - Scuttle Toes](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN155.webp)
+![SGB009 - Scuttle Toes](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB009.webp)
 
 ## Notes

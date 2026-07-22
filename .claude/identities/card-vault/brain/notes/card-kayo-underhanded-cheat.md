@@ -26,5 +26,13 @@ Whenever the crowd boos you, create a Vigor token."
 
 Young version: [[card-kayo]]
 Rulings: search "Kayo, Underhanded Cheat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER148-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP063.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP063-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP063-MV_BACK.webp)
+
+## Images
+
+![HER148 - Kayo, Underhanded Cheat](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER148-RF.webp)
+![SUP063 - Kayo, Underhanded Cheat](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP063.webp)
+![SUP063 - Kayo, Underhanded Cheat](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP063-MV.webp)
+![SUP063 - Kayo, Underhanded Cheat](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP063-MV_BACK.webp)
 
 ## Notes

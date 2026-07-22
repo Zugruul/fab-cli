@@ -27,5 +27,10 @@ codes: [SUP156]
 
 Variants: [[card-high-pitched-howl-red]] · [[card-high-pitched-howl-blue]]
 Rulings: search "High Pitched Howl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP156.webp)
+
+## Images
+
+![SUP156 - High Pitched Howl (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP156.webp)
 
 ## Notes

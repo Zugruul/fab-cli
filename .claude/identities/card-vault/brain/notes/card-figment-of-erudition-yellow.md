@@ -28,5 +28,11 @@ When this enters the arena, create a Ponder token."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Figment of Erudition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005_V2.png)
+
+## Images
+
+![DTD005 - Figment of Erudition (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005.png)
+![DTD005 - Figment of Erudition (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005_V2.png)
 
 ## Notes

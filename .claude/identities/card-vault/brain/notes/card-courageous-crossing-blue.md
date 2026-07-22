@@ -29,5 +29,10 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
 
 Keywords: [[kw-go-again]]
 Rulings: search "Courageous Crossing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN086.webp)
+
+## Images
+
+![PEN086 - Courageous Crossing (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN086.webp)
 
 ## Notes

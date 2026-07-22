@@ -28,5 +28,10 @@ codes: [ASR025]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Vengeance Never Rests" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR025.webp)
+
+## Images
+
+![ASR025 - Vengeance Never Rests (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR025.webp)
 
 ## Notes

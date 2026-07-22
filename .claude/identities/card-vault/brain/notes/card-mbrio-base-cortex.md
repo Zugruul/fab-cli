@@ -24,5 +24,10 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "mBrio Base Cortex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN059.webp)
+
+## Images
+
+![PEN059 - mBrio Base Cortex](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN059.webp)
 
 ## Notes

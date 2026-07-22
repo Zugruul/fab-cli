@@ -31,5 +31,14 @@ Deal 1 arcane damage to any target."
 
 Keywords: [[kw-go-again]] · [[kw-meld]]
 Rulings: search "Burn Up // Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST017.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA017.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS345.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS012.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA025.webp)
+
+## Images
+
+![AST017 - Burn Up // Shock (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST017.webp)
+![AUA017 - Burn Up // Shock (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA017.webp)
+![LGS345 - Burn Up // Shock (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS345.png)
+![ROS012 - Burn Up // Shock (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS012.png)
+![SBA025 - Burn Up // Shock (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA025.webp)
 
 ## Notes

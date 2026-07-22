@@ -23,5 +23,11 @@ codes: [UPR006]
 "Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control."
 
 Rulings: search "Dracona Optimai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Back.png)
+
+## Images
+
+![UPR006 - Dracona Optimai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png)
+![UPR006 - Dracona Optimai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Back.png)
 
 ## Notes

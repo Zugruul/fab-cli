@@ -24,5 +24,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Double Cross Strap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN031.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA007.webp)
+
+## Images
+
+![PEN031 - Double Cross Strap](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN031.webp)
+![SFA007 - Double Cross Strap](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA007.webp)
 
 ## Notes

@@ -25,5 +25,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Stride of Reprisal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS273.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST050.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN006.png)
+
+## Images
+
+![LGS273 - Stride of Reprisal](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS273.png)
+![MST050 - Stride of Reprisal](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST050.png)
+![ZEN006 - Stride of Reprisal](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN006.png)
 
 ## Notes

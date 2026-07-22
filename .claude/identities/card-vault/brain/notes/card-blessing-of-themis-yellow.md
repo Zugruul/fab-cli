@@ -29,5 +29,10 @@ At the start of your turn, put this into your soul."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blessing of Themis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN182.webp)
+
+## Images
+
+![PEN182 - Blessing of Themis (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN182.webp)
 
 ## Notes

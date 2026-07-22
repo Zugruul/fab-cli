@@ -24,5 +24,10 @@ codes: [PEN118]
 
 Variants: [[card-future-sight-red]] · [[card-future-sight-blue]]
 Rulings: search "Future Sight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN118.webp)
+
+## Images
+
+![PEN118 - Future Sight (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN118.webp)
 
 ## Notes

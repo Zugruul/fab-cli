@@ -24,5 +24,10 @@ codes: [AHA019]
 "Target weapon attack gets +1{p}. If it has go again, you may attack an additional time with the weapon this turn."
 
 Rulings: search "Backside of the Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA019.webp)
+
+## Images
+
+![AHA019 - Backside of the Blade (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA019.webp)
 
 ## Notes

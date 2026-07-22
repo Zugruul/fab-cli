@@ -25,5 +25,10 @@ Blood Debt"
 
 Keywords: [[kw-temper]] · [[kw-blood-debt]]
 Rulings: search "Embraforged Gauntlet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN192.webp)
+
+## Images
+
+![PEN192 - Embraforged Gauntlet](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN192.webp)
 
 ## Notes

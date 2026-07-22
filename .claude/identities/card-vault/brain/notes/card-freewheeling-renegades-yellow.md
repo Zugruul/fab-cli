@@ -27,5 +27,10 @@ codes: [OUT211]
 
 Variants: [[card-freewheeling-renegades-red]] · [[card-freewheeling-renegades-blue]]
 Rulings: search "Freewheeling Renegades" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT211.width-450.png)
+
+## Images
+
+![OUT211 - Freewheeling Renegades (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT211.width-450.png)
 
 ## Notes

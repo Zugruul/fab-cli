@@ -22,5 +22,11 @@ codes: [DYN025, HER075]
 "Once per Turn Instant - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage."
 
 Rulings: search "Yoji, Royal Protector" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN025.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER075.png)
+
+## Images
+
+![DYN025 - Yoji, Royal Protector](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN025.png)
+![HER075 - Yoji, Royal Protector](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER075.png)
 
 ## Notes

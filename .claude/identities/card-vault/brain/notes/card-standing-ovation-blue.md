@@ -27,5 +27,11 @@ codes: [APS019, GEM072]
 "If 3 or more auras of suspense have left the arena this turn, this gets "When this hits a hero, take an extra turn after this one. At the beginning of the next end phase, they draw up to their {i}.""
 
 Rulings: search "Standing Ovation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS019.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM072-RF.webp)
+
+## Images
+
+![APS019 - Standing Ovation (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS019.webp)
+![GEM072 - Standing Ovation (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM072-RF.webp)
 
 ## Notes

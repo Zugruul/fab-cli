@@ -29,5 +29,13 @@ Opt 2"
 Keywords: [[kw-opt]]
 Variants: [[card-cindering-foresight-red]] · [[card-cindering-foresight-blue]]
 Rulings: search "Cindering Foresight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP318.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU166.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU166.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ021.webp)
+
+## Images
+
+![1HP318 - Cindering Foresight (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP318.width-450.png)
+![CRU166 - Cindering Foresight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU166.png)
+![CRU166 - Cindering Foresight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU166.png)
+![SBZ021 - Cindering Foresight (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ021.webp)
 
 ## Notes

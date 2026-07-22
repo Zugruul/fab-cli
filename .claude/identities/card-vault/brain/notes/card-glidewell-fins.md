@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Glidewell Fins" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA097.png)
+
+## Images
+
+![SEA097 - Glidewell Fins](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA097.png)
 
 ## Notes

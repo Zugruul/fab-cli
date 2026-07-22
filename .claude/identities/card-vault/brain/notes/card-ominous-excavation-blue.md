@@ -24,5 +24,10 @@ codes: [OMN217]
 If an aura you control was destroyed this turn, create a Ponder token."
 
 Rulings: search "Ominous Excavation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN217.webp)
+
+## Images
+
+![OMN217 - Ominous Excavation (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN217.webp)
 
 ## Notes

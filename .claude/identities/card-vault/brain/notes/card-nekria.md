@@ -23,5 +23,11 @@ codes: [UPR013]
 "Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token."
 
 Rulings: search "Nekria" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_B_Back.png)
+
+## Images
+
+![UPR013 - Nekria](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png)
+![UPR013 - Nekria](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_B_Back.png)
 
 ## Notes

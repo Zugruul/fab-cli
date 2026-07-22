@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-flourish-blue]]
 Rulings: search "Flourish" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM169.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER017.webp)
+
+## Images
+
+![GEM169 - Flourish (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM169.webp)
+![TER017 - Flourish (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER017.webp)
 
 ## Notes

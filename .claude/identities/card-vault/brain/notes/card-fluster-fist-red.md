@@ -29,5 +29,13 @@ codes: [KAT011, KSU010, WTR086]
 Keywords: [[kw-combo]]
 Variants: [[card-fluster-fist-yellow]] · [[card-fluster-fist-blue]]
 Rulings: search "Fluster Fist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT011.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/KSU10.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR086.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR086.png)
+
+## Images
+
+![KAT011 - Fluster Fist (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT011.png)
+![KSU010 - Fluster Fist (red)](https://storage.googleapis.com/fabmaster/media/images/KSU10.width-450.png)
+![WTR086 - Fluster Fist (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR086.png)
+![WTR086 - Fluster Fist (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR086.png)
 
 ## Notes

@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]] · [[kw-dominate]]
 Rulings: search "Metis, Archangel of Tenacity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010_BACK_V2.png)
+
+## Images
+
+![DTD010 - Metis, Archangel of Tenacity](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010_BACK.png)
+![DTD010 - Metis, Archangel of Tenacity](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010_BACK_V2.png)
 
 ## Notes

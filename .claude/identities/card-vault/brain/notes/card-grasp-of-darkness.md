@@ -23,5 +23,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Grasp of Darkness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD167.png)
+
+## Images
+
+![DTD167 - Grasp of Darkness](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD167.png)
 
 ## Notes

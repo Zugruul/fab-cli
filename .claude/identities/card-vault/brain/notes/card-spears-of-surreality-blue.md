@@ -30,5 +30,14 @@ Go again"
 Keywords: [[kw-phantasm]] · [[kw-go-again]]
 Variants: [[card-spears-of-surreality-red]] · [[card-spears-of-surreality-yellow]]
 Rulings: search "Spears of Surreality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON103.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON103.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/PSM029.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN026.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP018-MV.webp)
+
+## Images
+
+![MON103 - Spears of Surreality (blue)](https://storage.googleapis.com/fabmaster/media/images/MON103.width-450.png)
+![MON103 - Spears of Surreality (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON103.width-450.png)
+![PSM029 - Spears of Surreality (blue)](https://storage.googleapis.com/fabmaster/media/images/PSM029.width-450.png)
+![SEN026 - Spears of Surreality (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN026.webp)
+![TNP018 - Spears of Surreality (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP018-MV.webp)
 
 ## Notes

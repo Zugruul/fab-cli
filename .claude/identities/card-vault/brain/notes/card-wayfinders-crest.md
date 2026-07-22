@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Wayfinder's Crest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL004.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT099.width-450.png)
+
+## Images
+
+![AZL004 - Wayfinder's Crest](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL004.png)
+![OUT099 - Wayfinder's Crest](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT099.width-450.png)
 
 ## Notes

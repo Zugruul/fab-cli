@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Give No Quarter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049_V2.png)
+
+## Images
+
+![SEA049 - Give No Quarter (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049.png)
+![SEA049 - Give No Quarter (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049_V2.png)
 
 ## Notes

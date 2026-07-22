@@ -27,5 +27,11 @@ codes: [SKA014, SUP155]
 
 Variants: [[card-high-pitched-howl-yellow]] · [[card-high-pitched-howl-blue]]
 Rulings: search "High Pitched Howl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA014.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP155.webp)
+
+## Images
+
+![SKA014 - High Pitched Howl (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA014.webp)
+![SUP155 - High Pitched Howl (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP155.webp)
 
 ## Notes

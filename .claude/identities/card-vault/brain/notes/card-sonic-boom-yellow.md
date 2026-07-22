@@ -25,5 +25,12 @@ codes: [1HP312, ARC119]
 If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant and it costs X resource points less to play, where X is the damage dealt by Sonic Boom."
 
 Rulings: search "Sonic Boom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP312.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC119.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC119.png)
+
+## Images
+
+![1HP312 - Sonic Boom (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP312.width-450.png)
+![ARC119 - Sonic Boom (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC119.png)
+![ARC119 - Sonic Boom (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC119.png)
 
 ## Notes

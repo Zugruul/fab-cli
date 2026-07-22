@@ -26,5 +26,10 @@ codes: [UPR190]
 At the beginning of your action phase, destroy Fog Down."
 
 Rulings: search "Fog Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR190.png)
+
+## Images
+
+![UPR190 - Fog Down (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR190.png)
 
 ## Notes

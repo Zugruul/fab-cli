@@ -29,5 +29,10 @@ codes: [SUP102]
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-clench-the-upper-hand-red]] · [[card-clench-the-upper-hand-blue]]
 Rulings: search "Clench the Upper Hand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP102.webp)
+
+## Images
+
+![SUP102 - Clench the Upper Hand (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP102.webp)
 
 ## Notes

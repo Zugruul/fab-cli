@@ -27,5 +27,10 @@ codes: [SEA029]
 
 Variants: [[card-sky-skimmer-red]] · [[card-sky-skimmer-yellow]]
 Rulings: search "Sky Skimmer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA029.png)
+
+## Images
+
+![SEA029 - Sky Skimmer (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA029.png)
 
 ## Notes

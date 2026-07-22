@@ -23,5 +23,10 @@ codes: [DTD209]
 "The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage."
 
 Rulings: search "Morlock Hill" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD209.png)
+
+## Images
+
+![DTD209 - Morlock Hill (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD209.png)
 
 ## Notes

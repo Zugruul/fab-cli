@@ -23,5 +23,12 @@ codes: [OMN048]
 "Instant - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token."
 
 Rulings: search "Aurora, Emissary of Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048-MV_BACK.webp)
+
+## Images
+
+![OMN048 - Aurora, Emissary of Lightning](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048.webp)
+![OMN048 - Aurora, Emissary of Lightning](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048-MV.webp)
+![OMN048 - Aurora, Emissary of Lightning](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048-MV_BACK.webp)
 
 ## Notes

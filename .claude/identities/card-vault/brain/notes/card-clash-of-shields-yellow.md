@@ -25,5 +25,10 @@ codes: [MPG051]
 
 Keywords: [[kw-clash]]
 Rulings: search "Clash of Shields" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG051.webp)
+
+## Images
+
+![MPG051 - Clash of Shields (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG051.webp)
 
 ## Notes

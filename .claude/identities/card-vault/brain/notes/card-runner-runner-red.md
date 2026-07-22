@@ -26,5 +26,11 @@ codes: [FAB193, HVY156]
 "When this attacks, if it has go again, create an Agility token."
 
 Rulings: search "Runner Runner" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB193.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY156.png)
+
+## Images
+
+![FAB193 - Runner Runner (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB193.png)
+![HVY156 - Runner Runner (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY156.png)
 
 ## Notes

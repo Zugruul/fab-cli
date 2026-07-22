@@ -24,5 +24,13 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Metacarpus Node" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP307.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU161.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/CRU161_Metacarpus_Node.width-10000.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB108.png)
+
+## Images
+
+![1HP307 - Metacarpus Node](https://storage.googleapis.com/fabmaster/media/images/1HP307.width-450.png)
+![CRU161 - Metacarpus Node](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU161.png)
+![CRU161 - Metacarpus Node](https://storage.googleapis.com/fabmaster/media/images/CRU161_Metacarpus_Node.width-10000.png)
+![FAB108 - Metacarpus Node](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB108.png)
 
 ## Notes

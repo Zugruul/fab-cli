@@ -25,5 +25,11 @@ Quell 1"
 
 Keywords: [[kw-quell]]
 Rulings: search "Heat Wave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI005.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR047.png)
+
+## Images
+
+![FAI005 - Heat Wave](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI005.webp)
+![UPR047 - Heat Wave](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR047.png)
 
 ## Notes

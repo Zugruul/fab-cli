@@ -29,5 +29,11 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-go-again]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Cheers!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS434.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP055.webp)
+
+## Images
+
+![LGS434 - Cheers! (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS434.webp)
+![SUP055 - Cheers! (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP055.webp)
 
 ## Notes

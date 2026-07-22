@@ -29,5 +29,14 @@ codes: [1HP077, BVO013, MPG071, WTR067]
 Keywords: [[kw-crush]]
 Variants: [[card-debilitate-red]] · [[card-debilitate-blue]]
 Rulings: search "Debilitate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP077.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO13.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG071.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR067.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR067.png)
+
+## Images
+
+![1HP077 - Debilitate (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP077.width-450.png)
+![BVO013 - Debilitate (yellow)](https://storage.googleapis.com/fabmaster/media/images/BVO13.width-450.png)
+![MPG071 - Debilitate (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG071.webp)
+![WTR067 - Debilitate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR067.png)
+![WTR067 - Debilitate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR067.png)
 
 ## Notes

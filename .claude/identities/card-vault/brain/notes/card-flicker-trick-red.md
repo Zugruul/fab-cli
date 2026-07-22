@@ -26,5 +26,10 @@ codes: [DTD218]
 
 Keywords: [[kw-mirage]]
 Rulings: search "Flicker Trick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD218.png)
+
+## Images
+
+![DTD218 - Flicker Trick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD218.png)
 
 ## Notes

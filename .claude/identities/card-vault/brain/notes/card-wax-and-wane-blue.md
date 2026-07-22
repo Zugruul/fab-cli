@@ -27,5 +27,10 @@ codes: [PEN263]
 If you choose both, search your deck for an Inner Chi, reveal it, shuffle, then put it on top of your deck."
 
 Rulings: search "Wax and Wane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN263.webp)
+
+## Images
+
+![PEN263 - Wax and Wane (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN263.webp)
 
 ## Notes

@@ -27,5 +27,11 @@ Legend of the Watery Grave"
 
 Keywords: [[kw-legendary]] · [[kw-watery-grave]]
 Rulings: search "Diamond Amulet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190_V2.png)
+
+## Images
+
+![SEA190 - Diamond Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png)
+![SEA190 - Diamond Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190_V2.png)
 
 ## Notes

@@ -18,5 +18,10 @@ codes: [SMP030]
 "Draw a card. If you have less {h} than an opponent, instead draw 2 cards."
 
 Rulings: search "Rally the Underdog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP030.webp)
+
+## Images
+
+![SMP030 - Rally the Underdog](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP030.webp)
 
 ## Notes

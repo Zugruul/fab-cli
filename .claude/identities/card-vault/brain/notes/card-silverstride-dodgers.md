@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Silverstride Dodgers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA006-RF.webp)
+
+## Images
+
+![AHA006 - Silverstride Dodgers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA006-RF.webp)
 
 ## Notes

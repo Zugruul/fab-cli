@@ -31,5 +31,12 @@ If Entangle was fused, it gains "If this hits a hero, their first attack during 
 Keywords: [[kw-fusion]]
 Variants: [[card-entangle-red]] · [[card-entangle-yellow]]
 Rulings: search "Entangle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE015.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE015.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/OLD021.width-450.png)
+
+## Images
+
+![ELE015 - Entangle (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE015.width-450.png)
+![ELE015 - Entangle (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE015.width-450.png)
+![OLD021 - Entangle (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD021.width-450.png)
 
 ## Notes

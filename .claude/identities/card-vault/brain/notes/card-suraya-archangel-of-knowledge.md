@@ -27,5 +27,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Suraya, Archangel of Knowledge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212_Marvel_Back.png)
+
+## Images
+
+![DYN212 - Suraya, Archangel of Knowledge](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212_BACK.png)
+![DYN212 - Suraya, Archangel of Knowledge](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212_Marvel_Back.png)
 
 ## Notes

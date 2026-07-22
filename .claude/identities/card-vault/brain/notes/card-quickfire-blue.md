@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-quickfire-red]] · [[card-quickfire-yellow]]
 Rulings: search "Quickfire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO227.png)
+
+## Images
+
+![EVO227 - Quickfire (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO227.png)
 
 ## Notes

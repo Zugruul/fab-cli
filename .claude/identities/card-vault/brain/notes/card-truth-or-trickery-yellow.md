@@ -24,5 +24,10 @@ codes: [SUP077]
 "When this defends, you may look at the top card of your deck and choose a color. If you do, the attacking hero guesses if that card is the chosen color, then they look at it. If they guessed wrong, they discard a card."
 
 Rulings: search "Truth or Trickery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP077.webp)
+
+## Images
+
+![SUP077 - Truth or Trickery (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP077.webp)
 
 ## Notes

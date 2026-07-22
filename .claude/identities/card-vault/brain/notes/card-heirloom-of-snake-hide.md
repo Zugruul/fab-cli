@@ -26,5 +26,10 @@ Battleworn"
 
 Keywords: [[kw-cloaked]] · [[kw-battleworn]]
 Rulings: search "Heirloom of Snake Hide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST005.png)
+
+## Images
+
+![MST005 - Heirloom of Snake Hide](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST005.png)
 
 ## Notes

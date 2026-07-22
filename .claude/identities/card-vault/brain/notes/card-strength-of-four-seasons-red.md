@@ -27,5 +27,10 @@ codes: [ROS058]
 
 Variants: [[card-strength-of-four-seasons-yellow]] · [[card-strength-of-four-seasons-blue]]
 Rulings: search "Strength of Four Seasons" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS058.png)
+
+## Images
+
+![ROS058 - Strength of Four Seasons (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS058.png)
 
 ## Notes

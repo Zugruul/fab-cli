@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-smashing-good-time-red]] · [[card-smashing-good-time-blue]]
 Rulings: search "Smashing Good Time" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR171.width-450.png)
+
+## Images
+
+![EVR171 - Smashing Good Time (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR171.width-450.png)
 
 ## Notes

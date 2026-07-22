@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Frontline Gauntlets" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD224.png)
+
+## Images
+
+![DTD224 - Frontline Gauntlets](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD224.png)
 
 ## Notes

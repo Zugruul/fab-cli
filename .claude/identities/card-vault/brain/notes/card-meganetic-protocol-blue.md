@@ -28,5 +28,11 @@ codes: [EVO059, FAB172]
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Meganetic Protocol" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO059.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB172.png)
+
+## Images
+
+![EVO059 - Meganetic Protocol (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO059.png)
+![FAB172 - Meganetic Protocol (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB172.png)
 
 ## Notes

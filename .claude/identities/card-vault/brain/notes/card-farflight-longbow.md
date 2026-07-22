@@ -21,5 +21,11 @@ codes: [GEM109, PEN078]
 Your arrow attacks may target any opposing hero or ally."
 
 Rulings: search "Farflight Longbow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM109-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN078.webp)
+
+## Images
+
+![GEM109 - Farflight Longbow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM109-CF.webp)
+![PEN078 - Farflight Longbow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN078.webp)
 
 ## Notes

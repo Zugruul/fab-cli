@@ -29,5 +29,12 @@ codes: [1HP105, WTR090]
 Keywords: [[kw-combo]]
 Variants: [[card-blackout-kick-red]] · [[card-blackout-kick-blue]]
 Rulings: search "Blackout Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP105.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR090.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR090.png)
+
+## Images
+
+![1HP105 - Blackout Kick (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP105.width-450.png)
+![WTR090 - Blackout Kick (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR090.png)
+![WTR090 - Blackout Kick (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR090.png)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [UPR089]
 Draw 2 cards."
 
 Rulings: search "Tome of Firebrand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR089.png)
+
+## Images
+
+![UPR089 - Tome of Firebrand (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR089.png)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [LGS364, TER002]
 If an Earth card was pitched to attack with this, the attack gets +1{p}."
 
 Rulings: search "Redwood Hammer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS364.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER002.webp)
+
+## Images
+
+![LGS364 - Redwood Hammer](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS364.png)
+![TER002 - Redwood Hammer](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER002.webp)
 
 ## Notes

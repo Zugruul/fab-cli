@@ -21,5 +21,12 @@ codes: [DRO005, MON241]
 "When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Helm.""
 
 Rulings: search "Ironhide Helm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO005.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON241.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON241.width-450.png)
+
+## Images
+
+![DRO005 - Ironhide Helm](https://storage.googleapis.com/fabmaster/media/images/DRO005.width-450.png)
+![MON241 - Ironhide Helm](https://storage.googleapis.com/fabmaster/media/images/MON241.width-450.png)
+![MON241 - Ironhide Helm](https://storage.googleapis.com/fabmaster/media/images/U-MON241.width-450.png)
 
 ## Notes

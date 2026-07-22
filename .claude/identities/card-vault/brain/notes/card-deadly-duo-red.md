@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-deadly-duo-yellow]] · [[card-deadly-duo-blue]]
 Rulings: search "Deadly Duo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT071.width-450.png)
+
+## Images
+
+![OUT071 - Deadly Duo (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT071.width-450.png)
 
 ## Notes

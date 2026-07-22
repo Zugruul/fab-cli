@@ -28,5 +28,11 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Nourishing Glow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN038.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN038-CF.webp)
+
+## Images
+
+![OMN038 - Nourishing Glow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN038.webp)
+![OMN038 - Nourishing Glow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN038-CF.webp)
 
 ## Notes

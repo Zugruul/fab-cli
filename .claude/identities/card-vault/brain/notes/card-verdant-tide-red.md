@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-bond]] · [[kw-go-again]]
 Rulings: search "Verdant Tide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN203.webp)
+
+## Images
+
+![PEN203 - Verdant Tide (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN203.webp)
 
 ## Notes

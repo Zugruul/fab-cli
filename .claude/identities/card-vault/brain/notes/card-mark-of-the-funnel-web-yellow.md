@@ -30,5 +30,10 @@ When this hits a marked hero, banish a card in their arsenal."
 Keywords: [[kw-stealth]]
 Variants: [[card-mark-of-the-funnel-web-red]] · [[card-mark-of-the-funnel-web-blue]]
 Rulings: search "Mark of the Funnel Web" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT036.png)
+
+## Images
+
+![HNT036 - Mark of the Funnel Web (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT036.png)
 
 ## Notes

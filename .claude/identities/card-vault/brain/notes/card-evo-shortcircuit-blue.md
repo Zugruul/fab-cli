@@ -29,5 +29,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Evo Shortcircuit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png)
+
+## Images
+
+![MST230 - Evo Shortcircuit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png)
 
 ## Notes

@@ -124,7 +124,8 @@
       "notes": [
         ["card-vault", "card-aether-dart-blue"],
         ["card-vault", "card-aether-dart-red"],
-        ["card-vault", "card-aether-dart-yellow"]
+        ["card-vault", "card-aether-dart-yellow"],
+        ["talishar", "tal-recipe-arcane-damage-classstate"]
       ]
     },
     "card:aether-flare": {
@@ -20192,7 +20193,8 @@
     "card:warmongers-diplomacy": {
       "anchor": "card-vault/card-warmongers-diplomacy-blue",
       "notes": [
-        ["card-vault", "card-warmongers-diplomacy-blue"]
+        ["card-vault", "card-warmongers-diplomacy-blue"],
+        ["talishar", "tal-recipe-next-turn-restriction"]
       ]
     },
     "card:warmongers-recital": {

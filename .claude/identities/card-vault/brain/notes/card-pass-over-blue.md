@@ -27,5 +27,14 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Pass Over" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS284-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST097.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST097_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU026.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN033.webp)
+
+## Images
+
+![LGS284 - Pass Over (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS284-RF.webp)
+![MST097 - Pass Over (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST097.png)
+![MST097 - Pass Over (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST097_V2.png)
+![NUU026 - Pass Over (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU026.png)
+![SEN033 - Pass Over (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN033.webp)
 
 ## Notes

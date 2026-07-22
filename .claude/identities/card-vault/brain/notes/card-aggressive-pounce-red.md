@@ -29,5 +29,11 @@ codes: [GEM114, PEN009]
 Keywords: [[kw-go-again]]
 Variants: [[card-aggressive-pounce-yellow]] · [[card-aggressive-pounce-blue]]
 Rulings: search "Aggressive Pounce" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM114.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN009.webp)
+
+## Images
+
+![GEM114 - Aggressive Pounce (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM114.webp)
+![PEN009 - Aggressive Pounce (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN009.webp)
 
 ## Notes

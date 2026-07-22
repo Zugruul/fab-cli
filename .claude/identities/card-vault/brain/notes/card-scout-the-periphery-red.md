@@ -29,5 +29,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-scout-the-periphery-yellow]] · [[card-scout-the-periphery-blue]]
 Rulings: search "Scout the Periphery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ022.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL020.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT225.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP023.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ028.webp)
+
+## Images
+
+![AAZ022 - Scout the Periphery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ022.png)
+![AZL020 - Scout the Periphery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL020.png)
+![OUT225 - Scout the Periphery (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT225.width-450.png)
+![RIP023 - Scout the Periphery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP023.png)
+![SAZ028 - Scout the Periphery (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ028.webp)
 
 ## Notes

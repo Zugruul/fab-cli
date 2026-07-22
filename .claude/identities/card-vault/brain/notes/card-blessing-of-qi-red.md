@@ -26,5 +26,12 @@ codes: [DYN053, MST170, TCC091]
 
 Variants: [[card-blessing-of-qi-yellow]] · [[card-blessing-of-qi-blue]]
 Rulings: search "Blessing of Qi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN053.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC091.png)
+
+## Images
+
+![DYN053 - Blessing of Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN053.png)
+![MST170 - Blessing of Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png)
+![TCC091 - Blessing of Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC091.png)
 
 ## Notes

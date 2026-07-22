@@ -20,5 +20,15 @@ codes: [AAC031, CIN029, FAB333, FNG029, HNT244, WOD034]
 
 Keywords: [[kw-mark]]
 Rulings: search "Marked" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC031.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN029.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB333-CF.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG029.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT244.png) · [Image #6](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD034.webp)
+
+## Images
+
+![AAC031 - Marked](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC031.webp)
+![CIN029 - Marked](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN029.webp)
+![FAB333 - Marked](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB333-CF.webp)
+![FNG029 - Marked](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG029.webp)
+![HNT244 - Marked](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT244.png)
+![WOD034 - Marked](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD034.webp)
 
 ## Notes

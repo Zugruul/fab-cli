@@ -26,5 +26,11 @@ codes: [SEA158]
 "When this attacks, you may put a gold counter on Treasure Island."
 
 Rulings: search "Expedition to Horizon's Mantle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158_V2.png)
+
+## Images
+
+![SEA158 - Expedition to Horizon's Mantle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png)
+![SEA158 - Expedition to Horizon's Mantle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158_V2.png)
 
 ## Notes

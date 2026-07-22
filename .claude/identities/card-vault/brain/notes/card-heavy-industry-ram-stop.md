@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Heavy Industry Ram Stop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO005-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG041.png)
+
+## Images
+
+![AIO005 - Heavy Industry Ram Stop](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO005-RF.webp)
+![JDG041 - Heavy Industry Ram Stop](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG041.png)
 
 ## Notes

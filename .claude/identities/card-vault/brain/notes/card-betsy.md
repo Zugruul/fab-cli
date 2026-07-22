@@ -25,5 +25,13 @@ codes: [BET001, HVY046]
 Keywords: [[kw-overpower]]
 Adult version: [[card-betsy-skin-in-the-game]]
 Rulings: search "Betsy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET001.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY046.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY046_MARVEL.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY046_MARVEL_BACK.png)
+
+## Images
+
+![BET001 - Betsy](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET001.png)
+![HVY046 - Betsy](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY046.png)
+![HVY046 - Betsy](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY046_MARVEL.png)
+![HVY046 - Betsy](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY046_MARVEL_BACK.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-piercing]]
 Variants: [[card-visit-the-imperial-forge-yellow]] · [[card-visit-the-imperial-forge-blue]]
 Rulings: search "Visit the Imperial Forge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN085.png)
+
+## Images
+
+![DYN085 - Visit the Imperial Forge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN085.png)
 
 ## Notes

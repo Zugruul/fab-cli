@@ -23,5 +23,12 @@ codes: [AUR028, DYN236, TER029]
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Spell Fray Tiara" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR028.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN236.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER029.webp)
+
+## Images
+
+![AUR028 - Spell Fray Tiara](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR028.webp)
+![DYN236 - Spell Fray Tiara](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN236.png)
+![TER029 - Spell Fray Tiara](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER029.webp)
 
 ## Notes

@@ -29,5 +29,12 @@ codes: [CRU033, MPG068]
 Keywords: [[kw-crush]]
 Variants: [[card-crush-the-weak-red]] · [[card-crush-the-weak-blue]]
 Rulings: search "Crush the Weak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU033.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU033.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG068.webp)
+
+## Images
+
+![CRU033 - Crush the Weak (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU033.png)
+![CRU033 - Crush the Weak (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU033.png)
+![MPG068 - Crush the Weak (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG068.webp)
 
 ## Notes

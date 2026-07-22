@@ -30,5 +30,10 @@ Gain 1{h}"
 
 Keywords: [[kw-go-again]] · [[kw-meld]]
 Rulings: search "Everbloom // Life" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA258.png)
+
+## Images
+
+![SEA258 - Everbloom // Life (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA258.png)
 
 ## Notes

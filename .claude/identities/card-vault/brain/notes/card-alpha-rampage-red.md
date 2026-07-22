@@ -30,5 +30,13 @@ When you attack with Alpha Rampage, intimidate."
 
 Keywords: [[kw-specialization]] · [[kw-intimidate]]
 Rulings: search "Alpha Rampage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP010.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RVD008.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR006.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR006.png)
+
+## Images
+
+![1HP010 - Alpha Rampage (red)](https://storage.googleapis.com/fabmaster/media/images/1HP010.width-450.png)
+![RVD008 - Alpha Rampage (red)](https://storage.googleapis.com/fabmaster/media/images/RVD008.width-450.png)
+![WTR006 - Alpha Rampage (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR006.png)
+![WTR006 - Alpha Rampage (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR006.png)
 
 ## Notes

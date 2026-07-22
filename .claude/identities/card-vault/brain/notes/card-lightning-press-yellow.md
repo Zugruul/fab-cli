@@ -24,5 +24,11 @@ codes: [ELE184]
 
 Variants: [[card-lightning-press-red]] · [[card-lightning-press-blue]]
 Rulings: search "Lightning Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE184.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE184.width-450.png)
+
+## Images
+
+![ELE184 - Lightning Press (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE184.width-450.png)
+![ELE184 - Lightning Press (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE184.width-450.png)
 
 ## Notes

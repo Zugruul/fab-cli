@@ -27,5 +27,11 @@ Starfall - If an instant card has been put into your graveyard this turn, deal 1
 
 Keywords: [[kw-starfall]]
 Rulings: search "Constella Flowslide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM157.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN131.webp)
+
+## Images
+
+![GEM157 - Constella Flowslide (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM157.webp)
+![OMN131 - Constella Flowslide (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN131.webp)
 
 ## Notes

@@ -21,5 +21,10 @@ codes: [SEA179]
 "Action - Discard a card, destroy this: Put a blue card from your graveyard on the bottom of your deck. Go again"
 
 Rulings: search "Bandana of the Blue Beyond" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA179.png)
+
+## Images
+
+![SEA179 - Bandana of the Blue Beyond](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA179.png)
 
 ## Notes

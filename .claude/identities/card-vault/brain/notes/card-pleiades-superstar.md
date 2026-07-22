@@ -25,5 +25,16 @@ Whenever the crowd cheers you, create a Confidence token."
 
 Young version: [[card-pleiades]]
 Rulings: search "Pleiades, Superstar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS001.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER147-RF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP009.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP009-MV.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP009-MV_BACK.webp) · [Image #6](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MI_SUP009-MV.webp) · [Image #7](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MI_SUP009-MV_BACK.webp)
+
+## Images
+
+![APS001 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS001.webp)
+![HER147 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER147-RF.webp)
+![SUP009 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP009.webp)
+![SUP009 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP009-MV.webp)
+![SUP009 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP009-MV_BACK.webp)
+![SUP009 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MI_SUP009-MV.webp)
+![SUP009 - Pleiades, Superstar](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MI_SUP009-MV_BACK.webp)
 
 ## Notes

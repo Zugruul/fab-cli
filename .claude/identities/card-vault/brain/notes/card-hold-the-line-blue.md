@@ -24,5 +24,11 @@ codes: [ANQ017, DTD228]
 "If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn."
 
 Rulings: search "Hold the Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD228.png)
+
+## Images
+
+![ANQ017 - Hold the Line (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ017.webp)
+![DTD228 - Hold the Line (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD228.png)
 
 ## Notes

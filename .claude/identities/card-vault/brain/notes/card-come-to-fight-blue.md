@@ -28,5 +28,15 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-come-to-fight-red]] · [[card-come-to-fight-yellow]]
 Rulings: search "Come to Fight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP416.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC205.png) · [Image #5](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT224.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/RVD024.width-450.png)
+
+## Images
+
+![1HP416 - Come to Fight (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP416.width-450.png)
+![ARC205 - Come to Fight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205.png)
+![ARC205 - Come to Fight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205-RF.png)
+![ARC205 - Come to Fight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC205.png)
+![OUT224 - Come to Fight (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT224.width-450.png)
+![RVD024 - Come to Fight (blue)](https://storage.googleapis.com/fabmaster/media/images/RVD024.width-450.png)
 
 ## Notes

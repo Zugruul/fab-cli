@@ -27,5 +27,10 @@ codes: [ROS122]
 
 Variants: [[card-splintering-deadwood-red]] · [[card-splintering-deadwood-blue]]
 Rulings: search "Splintering Deadwood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS122.png)
+
+## Images
+
+![ROS122 - Splintering Deadwood (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS122.png)
 
 ## Notes

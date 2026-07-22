@@ -20,5 +20,10 @@ codes: [OUT096]
 "Instant - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves."
 
 Rulings: search "Quiver of Rustling Leaves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT096.width-450.png)
+
+## Images
+
+![OUT096 - Quiver of Rustling Leaves](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT096.width-450.png)
 
 ## Notes

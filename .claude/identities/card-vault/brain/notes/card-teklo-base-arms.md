@@ -23,5 +23,11 @@ codes: [EVO020, LGS188]
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Teklo Base Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO020.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS188.png)
+
+## Images
+
+![EVO020 - Teklo Base Arms](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO020.png)
+![LGS188 - Teklo Base Arms](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS188.png)
 
 ## Notes

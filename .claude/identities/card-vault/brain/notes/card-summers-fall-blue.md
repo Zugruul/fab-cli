@@ -29,5 +29,11 @@ codes: [ROS041, VER022]
 Keywords: [[kw-decompose]]
 Variants: [[card-summers-fall-red]] · [[card-summers-fall-yellow]]
 Rulings: search "Summer's Fall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS041.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER022.webp)
+
+## Images
+
+![ROS041 - Summer's Fall (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS041.png)
+![VER022 - Summer's Fall (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER022.webp)
 
 ## Notes

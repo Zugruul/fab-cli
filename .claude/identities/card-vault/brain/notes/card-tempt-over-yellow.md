@@ -28,5 +28,10 @@ codes: [OMN215]
 
 Keywords: [[kw-steal]]
 Rulings: search "Tempt Over" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN215.webp)
+
+## Images
+
+![OMN215 - Tempt Over (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN215.webp)
 
 ## Notes

@@ -25,5 +25,12 @@ Ward 1"
 
 Keywords: [[kw-cloaked]] · [[kw-ward]]
 Rulings: search "Truths Retold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG003.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS271.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST029.png)
+
+## Images
+
+![ENG003 - Truths Retold](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG003.png)
+![LGS271 - Truths Retold](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS271.png)
+![MST029 - Truths Retold](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST029.png)
 
 ## Notes

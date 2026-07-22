@@ -30,5 +30,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Requiem for the Damned" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD141.png)
+
+## Images
+
+![DTD141 - Requiem for the Damned (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD141.png)
 
 ## Notes

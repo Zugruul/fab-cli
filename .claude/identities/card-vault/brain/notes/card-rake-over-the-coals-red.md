@@ -23,5 +23,11 @@ codes: [GEM019, HNT156]
 "Draconic attacks get +1{p} this turn."
 
 Rulings: search "Rake Over the Coals" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM019.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT156.png)
+
+## Images
+
+![GEM019 - Rake Over the Coals (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM019.webp)
+![HNT156 - Rake Over the Coals (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT156.png)
 
 ## Notes

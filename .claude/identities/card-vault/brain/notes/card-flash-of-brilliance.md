@@ -24,5 +24,13 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Flash of Brilliance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA003.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS314.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC003.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS072.png)
+
+## Images
+
+![AUA003 - Flash of Brilliance](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA003.webp)
+![LGS314 - Flash of Brilliance](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS314.png)
+![OSC003 - Flash of Brilliance](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC003.webp)
+![ROS072 - Flash of Brilliance](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS072.png)
 
 ## Notes

@@ -29,5 +29,13 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Swabbie" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS409.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079_V2.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB020.webp)
+
+## Images
+
+![LGS409 - Swabbie (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS409.png)
+![SEA079 - Swabbie (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079.png)
+![SEA079 - Swabbie (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079_V2.png)
+![SGB020 - Swabbie (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB020.webp)
 
 ## Notes

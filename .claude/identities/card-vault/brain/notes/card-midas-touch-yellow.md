@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Midas Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA188.png)
+
+## Images
+
+![ANQ021 - Midas Touch (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ021.webp)
+![SEA188 - Midas Touch (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA188.png)
 
 ## Notes

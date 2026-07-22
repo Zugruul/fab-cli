@@ -28,5 +28,12 @@ Surge - If this deals more than 3 damage, it gets go again."
 Keywords: [[kw-surge]] · [[kw-go-again]]
 Variants: [[card-aether-quickening-red]] · [[card-aether-quickening-blue]]
 Rulings: search "Aether Quickening" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN198.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB113.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS184.png)
+
+## Images
+
+![DYN198 - Aether Quickening (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN198.png)
+![FAB113 - Aether Quickening (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB113.png)
+![ROS184 - Aether Quickening (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS184.png)
 
 ## Notes

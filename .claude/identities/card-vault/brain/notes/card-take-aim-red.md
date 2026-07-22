@@ -29,5 +29,14 @@ Go again"
 Keywords: [[kw-reload]] · [[kw-go-again]]
 Variants: [[card-take-aim-yellow]] · [[card-take-aim-blue]]
 Rulings: search "Take Aim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP237.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC054.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC054.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/LXI028.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ029.webp)
+
+## Images
+
+![1HP237 - Take Aim (red)](https://storage.googleapis.com/fabmaster/media/images/1HP237.width-450.png)
+![ARC054 - Take Aim (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC054.png)
+![ARC054 - Take Aim (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC054.png)
+![LXI028 - Take Aim (red)](https://storage.googleapis.com/fabmaster/media/images/LXI028.width-450.png)
+![SAZ029 - Take Aim (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ029.webp)
 
 ## Notes

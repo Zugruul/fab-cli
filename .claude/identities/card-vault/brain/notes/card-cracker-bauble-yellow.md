@@ -23,5 +23,10 @@ codes: [LGS360]
 "When this is pitched, you and target opponent randomly choose opposite ends of this and pull them until this breaks in half. Then each hero creates the token on the back of their half, and this ceases to exist."
 
 Rulings: search "Cracker Bauble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS360.png)
+
+## Images
+
+![LGS360 - Cracker Bauble (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS360.png)
 
 ## Notes

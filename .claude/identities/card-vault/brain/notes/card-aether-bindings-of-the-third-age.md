@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Aether Bindings of the Third Age" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB253.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS163.png)
+
+## Images
+
+![FAB253 - Aether Bindings of the Third Age](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB253.png)
+![ROS163 - Aether Bindings of the Third Age](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS163.png)
 
 ## Notes

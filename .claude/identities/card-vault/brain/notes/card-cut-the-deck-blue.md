@@ -25,5 +25,11 @@ codes: [HVY108, OLA024]
 
 Variants: [[card-cut-the-deck-red]] · [[card-cut-the-deck-yellow]]
 Rulings: search "Cut the Deck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY108.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA024.png)
+
+## Images
+
+![HVY108 - Cut the Deck (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY108.png)
+![OLA024 - Cut the Deck (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA024.png)
 
 ## Notes

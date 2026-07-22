@@ -23,5 +23,11 @@ codes: [AVS003, GEM081]
 
 Keywords: [[kw-temper]]
 Rulings: search "Helm of the Arknight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS003.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM081-RF.webp)
+
+## Images
+
+![AVS003 - Helm of the Arknight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS003.webp)
+![GEM081 - Helm of the Arknight](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM081-RF.webp)
 
 ## Notes

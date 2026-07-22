@@ -26,5 +26,10 @@ Create a Hyper Driver token with X steam counters.
 If X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your banished zone into your deck."
 
 Rulings: search "Supercell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST227.png)
+
+## Images
+
+![MST227 - Supercell (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST227.png)
 
 ## Notes

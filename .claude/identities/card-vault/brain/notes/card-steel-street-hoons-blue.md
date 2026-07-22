@@ -30,5 +30,10 @@ Galvanize - When this defends, you may destroy an item you control. If you do, t
 
 Keywords: [[kw-boost]] · [[kw-galvanize]]
 Rulings: search "Steel Street Hoons" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO141.png)
+
+## Images
+
+![EVO141 - Steel Street Hoons (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO141.png)
 
 ## Notes

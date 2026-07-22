@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Robe of Resourcefulness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN108.webp)
+
+## Images
+
+![PEN108 - Robe of Resourcefulness](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN108.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [EVO154]
 "If you've boosted 2 or more times this turn, this gets +2{p} and can't be defended by equipment."
 
 Rulings: search "Burn Rubber" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO154.png)
+
+## Images
+
+![EVO154 - Burn Rubber (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO154.png)
 
 ## Notes

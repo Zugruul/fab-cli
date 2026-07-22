@@ -19,5 +19,10 @@ codes: [SMP032]
 Create a Gold token."
 
 Rulings: search "Tremor of Anticipation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP032.webp)
+
+## Images
+
+![SMP032 - Tremor of Anticipation](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP032.webp)
 
 ## Notes

@@ -27,5 +27,11 @@ Opt 3, then reveal the top card of your deck. If it has {p} greater than the amo
 Keywords: [[kw-opt]]
 Variants: [[card-even-bigger-than-that-yellow]] · [[card-even-bigger-than-that-blue]]
 Rulings: search "Even Bigger Than That!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR173.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB058.png)
+
+## Images
+
+![EVR173 - Even Bigger Than That! (red)](https://storage.googleapis.com/fabmaster/media/images/EVR173.width-450.png)
+![FAB058 - Even Bigger Than That! (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB058.png)
 
 ## Notes

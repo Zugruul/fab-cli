@@ -28,5 +28,10 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}."
 
 Variants: [[card-madcap-muscle-red]] · [[card-madcap-muscle-yellow]]
 Rulings: search "Madcap Muscle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN021.png)
+
+## Images
+
+![DYN021 - Madcap Muscle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN021.png)
 
 ## Notes

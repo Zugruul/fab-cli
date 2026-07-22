@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-silver-the-tip-red]] · [[card-silver-the-tip-yellow]]
 Rulings: search "Silver the Tip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC053.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC053.png)
+
+## Images
+
+![ARC053 - Silver the Tip (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC053.png)
+![ARC053 - Silver the Tip (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC053.png)
 
 ## Notes

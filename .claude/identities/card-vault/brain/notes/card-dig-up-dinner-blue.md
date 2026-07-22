@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Dig Up Dinner" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD202.png)
+
+## Images
+
+![DTD202 - Dig Up Dinner (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD202.png)
 
 ## Notes

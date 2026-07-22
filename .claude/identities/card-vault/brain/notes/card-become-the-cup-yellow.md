@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-become-the-cup-red]] · [[card-become-the-cup-blue]]
 Rulings: search "Become the Cup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN041.webp)
+
+## Images
+
+![PEN041 - Become the Cup (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN041.webp)
 
 ## Notes

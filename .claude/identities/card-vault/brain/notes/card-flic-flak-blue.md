@@ -25,5 +25,14 @@ codes: [1HP115, KSU025, TNP024, WTR094]
 
 Variants: [[card-flic-flak-red]] · [[card-flic-flak-yellow]]
 Rulings: search "Flic Flak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP115.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/KSU25.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP024-MV.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR094.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR094.png)
+
+## Images
+
+![1HP115 - Flic Flak (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP115.width-450.png)
+![KSU025 - Flic Flak (blue)](https://storage.googleapis.com/fabmaster/media/images/KSU25.width-450.png)
+![TNP024 - Flic Flak (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP024-MV.webp)
+![WTR094 - Flic Flak (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR094.png)
+![WTR094 - Flic Flak (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR094.png)
 
 ## Notes

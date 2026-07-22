@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Carrion Crown" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN152.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB003.webp)
+
+## Images
+
+![PEN152 - Carrion Crown](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN152.webp)
+![SGB003 - Carrion Crown](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB003.webp)
 
 ## Notes

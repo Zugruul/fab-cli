@@ -30,5 +30,10 @@ If this is attacking a marked hero, this gets +1{p}."
 Keywords: [[kw-stealth]]
 Variants: [[card-plunge-the-prospect-red]] · [[card-plunge-the-prospect-yellow]]
 Rulings: search "Plunge the Prospect" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT043.png)
+
+## Images
+
+![HNT043 - Plunge the Prospect (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT043.png)
 
 ## Notes

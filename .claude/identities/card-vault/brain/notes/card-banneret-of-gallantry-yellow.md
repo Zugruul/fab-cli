@@ -29,5 +29,11 @@ codes: [DTD049, FAB162]
 
 Keywords: [[kw-solflare]]
 Rulings: search "Banneret of Gallantry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD049.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB162.png)
+
+## Images
+
+![DTD049 - Banneret of Gallantry (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD049.png)
+![FAB162 - Banneret of Gallantry (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB162.png)
 
 ## Notes

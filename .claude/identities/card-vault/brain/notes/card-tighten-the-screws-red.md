@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tighten the Screws" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA041.png)
+
+## Images
+
+![SEA041 - Tighten the Screws (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA041.png)
 
 ## Notes

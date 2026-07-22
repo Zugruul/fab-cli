@@ -32,5 +32,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-piercing-shadow-vise-red]] · [[card-piercing-shadow-vise-blue]]
 Rulings: search "Piercing Shadow Vise" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON172.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON172.width-450.png)
+
+## Images
+
+![MON172 - Piercing Shadow Vise (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON172.width-450.png)
+![MON172 - Piercing Shadow Vise (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON172.width-450.png)
 
 ## Notes

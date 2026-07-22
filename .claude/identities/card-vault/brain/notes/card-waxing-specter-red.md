@@ -29,5 +29,12 @@ Ward 3"
 Keywords: [[kw-ward]]
 Variants: [[card-waxing-specter-yellow]] · [[card-waxing-specter-blue]]
 Rulings: search "Waxing Specter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST043.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN016.webp)
+
+## Images
+
+![ENG010 - Waxing Specter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG010.png)
+![MST043 - Waxing Specter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST043.png)
+![SEN016 - Waxing Specter (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN016.webp)
 
 ## Notes

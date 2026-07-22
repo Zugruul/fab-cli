@@ -29,5 +29,10 @@ codes: [HVY151]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-might-red]] · [[card-wage-might-yellow]]
 Rulings: search "Wage Might" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY151.png)
+
+## Images
+
+![HVY151 - Wage Might (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY151.png)
 
 ## Notes

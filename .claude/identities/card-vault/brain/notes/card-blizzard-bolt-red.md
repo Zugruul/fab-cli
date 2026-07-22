@@ -31,5 +31,12 @@ If Blizzard Bolt was fused, whenever an attack deals damage to a hero this turn,
 Keywords: [[kw-fusion]]
 Variants: [[card-blizzard-bolt-yellow]] · [[card-blizzard-bolt-blue]]
 Rulings: search "Blizzard Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE044.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE044.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/LXI022.width-450.png)
+
+## Images
+
+![ELE044 - Blizzard Bolt (red)](https://storage.googleapis.com/fabmaster/media/images/ELE044.width-450.png)
+![ELE044 - Blizzard Bolt (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE044.width-450.png)
+![LXI022 - Blizzard Bolt (red)](https://storage.googleapis.com/fabmaster/media/images/LXI022.width-450.png)
 
 ## Notes

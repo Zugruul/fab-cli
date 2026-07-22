@@ -31,5 +31,11 @@ Go again"
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Variants: [[card-billowing-mirage-yellow]] · [[card-billowing-mirage-blue]]
 Rulings: search "Billowing Mirage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO012.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR018.png)
+
+## Images
+
+![DRO012 - Billowing Mirage (red)](https://storage.googleapis.com/fabmaster/media/images/DRO012.width-450.png)
+![UPR018 - Billowing Mirage (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR018.png)
 
 ## Notes

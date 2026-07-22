@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Bark Obscenities" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP167.webp)
+
+## Images
+
+![SUP167 - Bark Obscenities (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP167.webp)
 
 ## Notes

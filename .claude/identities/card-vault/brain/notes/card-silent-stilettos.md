@@ -24,5 +24,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Silent Stilettos" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN009.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR152.png)
+
+## Images
+
+![SEN009 - Silent Stilettos](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN009.webp)
+![UPR152 - Silent Stilettos](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR152.png)
 
 ## Notes

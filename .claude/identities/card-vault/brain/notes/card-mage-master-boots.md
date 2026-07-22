@@ -23,5 +23,15 @@ codes: [1HP357, APR006, ARC154, FAB067, SGB008]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Mage Master Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP357.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR006.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC154.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC154.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB067.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB008.webp)
+
+## Images
+
+![1HP357 - Mage Master Boots](https://storage.googleapis.com/fabmaster/media/images/1HP357.width-450.png)
+![APR006 - Mage Master Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR006.webp)
+![ARC154 - Mage Master Boots](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC154.png)
+![ARC154 - Mage Master Boots](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC154.png)
+![FAB067 - Mage Master Boots](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB067.png)
+![SGB008 - Mage Master Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB008.webp)
 
 ## Notes

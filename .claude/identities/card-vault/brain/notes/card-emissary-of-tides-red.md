@@ -26,5 +26,11 @@ codes: [LGS295, MST198]
 "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets +2{p}."
 
 Rulings: search "Emissary of Tides" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS295-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST198.png)
+
+## Images
+
+![LGS295 - Emissary of Tides (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS295-RF.webp)
+![MST198 - Emissary of Tides (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST198.png)
 
 ## Notes

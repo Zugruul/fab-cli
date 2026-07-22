@@ -29,5 +29,11 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
 
 Keywords: [[kw-phantasm]]
 Rulings: search "Miraging Metamorph" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR139.width-450.png)
+
+## Images
+
+![AZS010 - Miraging Metamorph (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS010.webp)
+![EVR139 - Miraging Metamorph (red)](https://storage.googleapis.com/fabmaster/media/images/EVR139.width-450.png)
 
 ## Notes

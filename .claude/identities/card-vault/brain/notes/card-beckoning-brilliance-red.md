@@ -26,5 +26,11 @@ codes: [GEM170, OMN148]
 "When this attacks, the next instant card you play this chain link costs {r} less to play."
 
 Rulings: search "Beckoning Brilliance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM170.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN148.webp)
+
+## Images
+
+![GEM170 - Beckoning Brilliance (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM170.webp)
+![OMN148 - Beckoning Brilliance (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN148.webp)
 
 ## Notes

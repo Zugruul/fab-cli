@@ -26,5 +26,10 @@ At the beginning of your action phase, destroy this."
 
 Variants: [[card-haven-veil-red]] · [[card-haven-veil-blue]]
 Rulings: search "Haven Veil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN138.webp)
+
+## Images
+
+![OMN138 - Haven Veil (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN138.webp)
 
 ## Notes

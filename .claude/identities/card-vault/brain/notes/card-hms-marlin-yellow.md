@@ -29,5 +29,11 @@ High Tide - If there are 2 or more blue cards in your pitch zone, this gets +1{p
 
 Keywords: [[kw-high-tide]] · [[kw-overpower]]
 Rulings: search "HMS Marlin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA136.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA136_V2.png)
+
+## Images
+
+![SEA136 - HMS Marlin (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA136.png)
+![SEA136 - HMS Marlin (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA136_V2.png)
 
 ## Notes

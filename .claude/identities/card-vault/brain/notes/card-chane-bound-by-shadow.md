@@ -26,5 +26,14 @@ codes: [HER033, HER041, MON153, WIN012]
 Keywords: [[kw-go-again]]
 Young version: [[card-chane]]
 Rulings: search "Chane, Bound by Shadow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER033.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER041.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON153.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON153.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN012.png)
+
+## Images
+
+![HER033 - Chane, Bound by Shadow](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER033.png)
+![HER041 - Chane, Bound by Shadow](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER041.png)
+![MON153 - Chane, Bound by Shadow](https://storage.googleapis.com/fabmaster/media/images/MON153.width-450.png)
+![MON153 - Chane, Bound by Shadow](https://storage.googleapis.com/fabmaster/media/images/U-MON153.width-450.png)
+![WIN012 - Chane, Bound by Shadow](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN012.png)
 
 ## Notes

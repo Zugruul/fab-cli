@@ -21,5 +21,15 @@ codes: [DRO008, MON244, OLD007, RVD006, UZU006]
 "When you defend with Ironhide Legs, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Legs.""
 
 Rulings: search "Ironhide Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO008.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON244.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON244.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD007.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/RVD006.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU006.png)
+
+## Images
+
+![DRO008 - Ironhide Legs](https://storage.googleapis.com/fabmaster/media/images/DRO008.width-450.png)
+![MON244 - Ironhide Legs](https://storage.googleapis.com/fabmaster/media/images/MON244.width-450.png)
+![MON244 - Ironhide Legs](https://storage.googleapis.com/fabmaster/media/images/U-MON244.width-450.png)
+![OLD007 - Ironhide Legs](https://storage.googleapis.com/fabmaster/media/images/OLD007.width-450.png)
+![RVD006 - Ironhide Legs](https://storage.googleapis.com/fabmaster/media/images/RVD006.width-450.png)
+![UZU006 - Ironhide Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU006.png)
 
 ## Notes

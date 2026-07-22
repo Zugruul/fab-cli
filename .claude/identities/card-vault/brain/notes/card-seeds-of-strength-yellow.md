@@ -29,5 +29,10 @@ Earth Bond - If an Earth card was pitched to play this, instead create 3 Might t
 Keywords: [[kw-bond]]
 Variants: [[card-seeds-of-strength-red]] · [[card-seeds-of-strength-blue]]
 Rulings: search "Seeds of Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER018.webp)
+
+## Images
+
+![TER018 - Seeds of Strength (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER018.webp)
 
 ## Notes

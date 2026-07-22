@@ -30,5 +30,10 @@ Crush - When this deals 4 or more damage to a hero, put a -1{d} counter on a hea
 
 Keywords: [[kw-crush]]
 Rulings: search "Headbutt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG016.webp)
+
+## Images
+
+![MPG016 - Headbutt (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG016.webp)
 
 ## Notes

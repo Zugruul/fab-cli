@@ -26,5 +26,11 @@ Once each turn, you may play a card with blood debt from your banished zone. Whe
 
 Keywords: [[kw-legendary]] · [[kw-specialization]] · [[kw-transform]]
 Rulings: search "Blasmophet, Levia Consumed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164_BACK_V2.png)
+
+## Images
+
+![DTD164 - Blasmophet, Levia Consumed](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164_BACK.png)
+![DTD164 - Blasmophet, Levia Consumed](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164_BACK_V2.png)
 
 ## Notes

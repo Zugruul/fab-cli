@@ -31,5 +31,15 @@ Phantasm"
 Keywords: [[kw-phantasm]]
 Variants: [[card-herald-of-protection-yellow]] · [[card-herald-of-protection-blue]]
 Rulings: search "Herald of Protection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD014.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB029.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/MON014.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-MON014.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/PSM009.width-450.png)
+
+## Images
+
+![APR007 - Herald of Protection (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR007.webp)
+![DTD014 - Herald of Protection (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD014.png)
+![FAB029 - Herald of Protection (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB029.png)
+![MON014 - Herald of Protection (red)](https://storage.googleapis.com/fabmaster/media/images/MON014.width-450.png)
+![MON014 - Herald of Protection (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON014.width-450.png)
+![PSM009 - Herald of Protection (red)](https://storage.googleapis.com/fabmaster/media/images/PSM009.width-450.png)
 
 ## Notes

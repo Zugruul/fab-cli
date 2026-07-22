@@ -23,5 +23,10 @@ codes: [SUP124]
 "When this defends a Revered hero's attack, destroy a Toughness token they control. If you do, create a Might token."
 
 Rulings: search "Not So Tuff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP124.webp)
+
+## Images
+
+![SUP124 - Not So Tuff (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP124.webp)
 
 ## Notes

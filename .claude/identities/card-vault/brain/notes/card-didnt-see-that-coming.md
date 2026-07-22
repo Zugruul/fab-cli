@@ -18,5 +18,10 @@ codes: [SMP022]
 "Each hero who has more {h} than you discards a card."
 
 Rulings: search "Didn't See That Coming" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP022.webp)
+
+## Images
+
+![SMP022 - Didn't See That Coming](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP022.webp)
 
 ## Notes

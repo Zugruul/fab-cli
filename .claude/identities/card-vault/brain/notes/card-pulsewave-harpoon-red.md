@@ -29,5 +29,10 @@ Boost"
 
 Keywords: [[kw-boost]]
 Rulings: search "Pulsewave Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN090.png)
+
+## Images
+
+![DYN090 - Pulsewave Harpoon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN090.png)
 
 ## Notes

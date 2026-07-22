@@ -26,5 +26,10 @@ If you have no cards in hand, draw a card."
 
 Keywords: [[kw-amp]]
 Rulings: search "Kindle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST234.png)
+
+## Images
+
+![MST234 - Kindle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST234.png)
 
 ## Notes

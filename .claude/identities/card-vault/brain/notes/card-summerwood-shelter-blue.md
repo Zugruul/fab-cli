@@ -24,5 +24,11 @@ codes: [ELE127]
 
 Variants: [[card-summerwood-shelter-red]] · [[card-summerwood-shelter-yellow]]
 Rulings: search "Summerwood Shelter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE127.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE127.width-450.png)
+
+## Images
+
+![ELE127 - Summerwood Shelter (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE127.width-450.png)
+![ELE127 - Summerwood Shelter (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE127.width-450.png)
 
 ## Notes

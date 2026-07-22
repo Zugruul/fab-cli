@@ -29,5 +29,11 @@ codes: [CIN024, HNT091]
 Keywords: [[kw-go-again]]
 Variants: [[card-grow-wings-red]] · [[card-grow-wings-yellow]]
 Rulings: search "Grow Wings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT091.png)
+
+## Images
+
+![CIN024 - Grow Wings (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN024.webp)
+![HNT091 - Grow Wings (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT091.png)
 
 ## Notes

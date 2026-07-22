@@ -26,5 +26,10 @@ codes: [MPG126]
 "When this defends, choose 2 attack action cards with different names in your graveyard. An opponent chooses 1 of them. Banish that card and put the other on top of your deck."
 
 Rulings: search "Call for Backup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG126.webp)
+
+## Images
+
+![MPG126 - Call for Backup (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG126.webp)
 
 ## Notes

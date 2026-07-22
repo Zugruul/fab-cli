@@ -31,5 +31,11 @@ If Buzz Bolt was fused, whenever an attack hits a hero this turn, it deals 1 dam
 Keywords: [[kw-fusion]]
 Variants: [[card-buzz-bolt-red]] · [[card-buzz-bolt-yellow]]
 Rulings: search "Buzz Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE049.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE049.width-450.png)
+
+## Images
+
+![ELE049 - Buzz Bolt (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE049.width-450.png)
+![ELE049 - Buzz Bolt (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE049.width-450.png)
 
 ## Notes

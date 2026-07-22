@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Blazen Yoroi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN045.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN045_Marvel.png)
+
+## Images
+
+![DYN045 - Blazen Yoroi](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN045.png)
+![DYN045 - Blazen Yoroi](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN045_Marvel.png)
 
 ## Notes

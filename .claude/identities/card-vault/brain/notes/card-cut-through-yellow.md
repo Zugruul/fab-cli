@@ -29,5 +29,10 @@ codes: [HNT177]
 Keywords: [[kw-go-again]]
 Variants: [[card-cut-through-red]] · [[card-cut-through-blue]]
 Rulings: search "Cut Through" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT177.png)
+
+## Images
+
+![HNT177 - Cut Through (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT177.png)
 
 ## Notes

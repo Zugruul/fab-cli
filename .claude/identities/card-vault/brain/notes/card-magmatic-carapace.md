@@ -24,5 +24,11 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Magmatic Carapace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN017.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR007.webp)
+
+## Images
+
+![PEN017 - Magmatic Carapace](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN017.webp)
+![SBR007 - Magmatic Carapace](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR007.webp)
 
 ## Notes

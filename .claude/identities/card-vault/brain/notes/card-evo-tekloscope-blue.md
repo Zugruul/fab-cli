@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Tekloscope" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO038.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC007.png)
+
+## Images
+
+![EVO038 - Evo Tekloscope (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO038.png)
+![TCC007 - Evo Tekloscope (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC007.png)
 
 ## Notes

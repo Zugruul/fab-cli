@@ -27,5 +27,15 @@ Essence of Earth"
 Keywords: [[kw-essence]]
 Young version: [[card-florian]]
 Rulings: search "Florian, Rotwood Harbinger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER119.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER158.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS001.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS001-MV.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS001-MV_BACK.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN036.png)
+
+## Images
+
+![HER119 - Florian, Rotwood Harbinger](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER119.png)
+![HER158 - Florian, Rotwood Harbinger](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER158.webp)
+![ROS001 - Florian, Rotwood Harbinger](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS001.png)
+![ROS001 - Florian, Rotwood Harbinger](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS001-MV.png)
+![ROS001 - Florian, Rotwood Harbinger](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS001-MV_BACK.png)
+![WIN036 - Florian, Rotwood Harbinger](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN036.png)
 
 ## Notes

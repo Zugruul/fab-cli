@@ -26,5 +26,11 @@ When this is pitched, create a Gold token."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Riches of Trōpal-Dhani" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ003.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA000-RF.webp)
+
+## Images
+
+![ANQ003 - Riches of Trōpal-Dhani (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ003.webp)
+![SEA000 - Riches of Trōpal-Dhani (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA000-RF.webp)
 
 ## Notes

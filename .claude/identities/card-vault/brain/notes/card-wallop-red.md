@@ -27,5 +27,10 @@ codes: [HVY080]
 
 Variants: [[card-wallop-yellow]] · [[card-wallop-blue]]
 Rulings: search "Wallop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY080.png)
+
+## Images
+
+![HVY080 - Wallop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY080.png)
 
 ## Notes

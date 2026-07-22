@@ -30,5 +30,10 @@ Galvanize - When this defends, you may destroy an item you control. If you do, t
 Keywords: [[kw-overpower]] · [[kw-galvanize]]
 Variants: [[card-torque-tuned-yellow]] · [[card-torque-tuned-blue]]
 Rulings: search "Torque Tuned" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO114.png)
+
+## Images
+
+![EVO114 - Torque Tuned (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO114.png)
 
 ## Notes

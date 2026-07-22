@@ -29,5 +29,12 @@ When this leaves the arena, discard a card then draw a card."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of Cycles" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS329.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS226.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS226-MV.png)
+
+## Images
+
+![LGS329 - Sigil of Cycles (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS329.png)
+![ROS226 - Sigil of Cycles (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS226.png)
+![ROS226 - Sigil of Cycles (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS226-MV.png)
 
 ## Notes

@@ -28,5 +28,11 @@ Ward X, where X is the number of +1{p} counters on this."
 
 Keywords: [[kw-ward]]
 Rulings: search "Manifestation of Miragai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031_V2.png)
+
+## Images
+
+![MST031 - Manifestation of Miragai (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031.png)
+![MST031 - Manifestation of Miragai (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031_V2.png)
 
 ## Notes

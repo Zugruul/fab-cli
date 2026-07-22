@@ -24,5 +24,17 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Blade Beckoner Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT219.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR008.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA009.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ008.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA011.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN008.webp) · [Image #7](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY009.webp) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI009.webp)
+
+## Images
+
+![HNT219 - Blade Beckoner Boots](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT219.png)
+![SAR008 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR008.webp)
+![SBA009 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA009.webp)
+![SBZ008 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ008.webp)
+![SDA011 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA011.webp)
+![SEN008 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN008.webp)
+![SIY009 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY009.webp)
+![SVI009 - Blade Beckoner Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI009.webp)
 
 ## Notes

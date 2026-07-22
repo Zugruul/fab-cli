@@ -27,5 +27,13 @@ codes: [MON072, PSM021, SBL015]
 
 Variants: [[card-illuminate-yellow]] · [[card-illuminate-blue]]
 Rulings: search "Illuminate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON072.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON072.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/PSM021.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL015.webp)
+
+## Images
+
+![MON072 - Illuminate (red)](https://storage.googleapis.com/fabmaster/media/images/MON072.width-450.png)
+![MON072 - Illuminate (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON072.width-450.png)
+![PSM021 - Illuminate (red)](https://storage.googleapis.com/fabmaster/media/images/PSM021.width-450.png)
+![SBL015 - Illuminate (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL015.webp)
 
 ## Notes

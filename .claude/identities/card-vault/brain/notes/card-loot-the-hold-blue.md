@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Loot the Hold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB028.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM084.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB030.webp)
+
+## Images
+
+![AGB028 - Loot the Hold (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB028.webp)
+![GEM084 - Loot the Hold (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM084.webp)
+![SGB030 - Loot the Hold (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB030.webp)
 
 ## Notes

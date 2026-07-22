@@ -29,5 +29,16 @@ codes: [1HP025, HVY032, RHI013, RNR009, RVD010, WTR023]
 Keywords: [[kw-intimidate]]
 Variants: [[card-pack-hunt-yellow]] · [[card-pack-hunt-blue]]
 Rulings: search "Pack Hunt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY032.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR013.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/RNR9.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/RVD010.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR023.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR023.png)
+
+## Images
+
+![1HP025 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/media/images/1HP025.width-450.png)
+![HVY032 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY032.png)
+![RHI013 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR013.png)
+![RNR009 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/media/images/RNR9.width-450.png)
+![RVD010 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/media/images/RVD010.width-450.png)
+![WTR023 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR023.png)
+![WTR023 - Pack Hunt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR023.png)
 
 ## Notes

@@ -31,5 +31,12 @@ If you've charged this turn, Engulfing Light gains "If this hits, put it into yo
 Keywords: [[kw-charge]]
 Variants: [[card-engulfing-light-red]] · [[card-engulfing-light-blue]]
 Rulings: search "Engulfing Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON049.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON049.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL027.webp)
+
+## Images
+
+![MON049 - Engulfing Light (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON049.width-450.png)
+![MON049 - Engulfing Light (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON049.width-450.png)
+![SBL027 - Engulfing Light (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL027.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ Action - {t}: Search your deck for a Hyper Driver, put it into the arena, then s
 
 Keywords: [[kw-crank]]
 Rulings: search "Assembly Module" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN067.webp)
+
+## Images
+
+![PEN067 - Assembly Module (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN067.webp)
 
 ## Notes

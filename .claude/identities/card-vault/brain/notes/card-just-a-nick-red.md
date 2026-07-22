@@ -26,5 +26,10 @@ codes: [MST105]
 - Target attack with stealth gets "When this hits a hero, banish the top card of their deck.""
 
 Rulings: search "Just a Nick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png)
+
+## Images
+
+![MST105 - Just a Nick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png)
 
 ## Notes

@@ -28,5 +28,11 @@ Opt 1"
 Keywords: [[kw-opt]]
 Variants: [[card-foreboding-bolt-yellow]] · [[card-foreboding-bolt-blue]]
 Rulings: search "Foreboding Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU168.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU168.png)
+
+## Images
+
+![CRU168 - Foreboding Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU168.png)
+![CRU168 - Foreboding Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU168.png)
 
 ## Notes

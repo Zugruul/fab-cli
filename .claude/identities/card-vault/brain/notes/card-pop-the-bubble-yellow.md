@@ -28,5 +28,10 @@ Surge - If this deals more than 3 damage to a hero, destroy an aura permanent th
 Keywords: [[kw-surge]]
 Variants: [[card-pop-the-bubble-red]] · [[card-pop-the-bubble-blue]]
 Rulings: search "Pop the Bubble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS177.png)
+
+## Images
+
+![ROS177 - Pop the Bubble (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS177.png)
 
 ## Notes

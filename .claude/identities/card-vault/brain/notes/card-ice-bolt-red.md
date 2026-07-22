@@ -26,5 +26,11 @@ codes: [SIY016, UPR133]
 
 Variants: [[card-ice-bolt-yellow]] · [[card-ice-bolt-blue]]
 Rulings: search "Ice Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR133.png)
+
+## Images
+
+![SIY016 - Ice Bolt (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY016.webp)
+![UPR133 - Ice Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR133.png)
 
 ## Notes

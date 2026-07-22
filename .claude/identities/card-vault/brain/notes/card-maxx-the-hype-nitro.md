@@ -25,5 +25,16 @@ Hyper Drivers you control get crank."
 
 Keywords: [[kw-crank]]
 Rulings: search "Maxx 'The Hype' Nitro" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO004.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM105-MV_BACK.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM105-MV.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER090.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER095.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN026.png)
+
+## Images
+
+![AMX001 - Maxx 'The Hype' Nitro](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX001.webp)
+![EVO004 - Maxx 'The Hype' Nitro](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO004.png)
+![GEM105 - Maxx 'The Hype' Nitro](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM105-MV_BACK.webp)
+![GEM105 - Maxx 'The Hype' Nitro](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM105-MV.webp)
+![HER090 - Maxx 'The Hype' Nitro](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER090.png)
+![HER095 - Maxx 'The Hype' Nitro](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER095.png)
+![WIN026 - Maxx 'The Hype' Nitro](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN026.png)
 
 ## Notes

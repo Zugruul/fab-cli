@@ -5421,3 +5421,89 @@
 {"event": "inject", "note": "release-notes-index", "activation": 0.0688, "ts": "2026-07-12T03:31:50+00:00", "role": "judge"}
 {"event": "inject", "note": "rules-precedence", "activation": 0.0688, "ts": "2026-07-12T03:31:50+00:00", "role": "judge"}
 {"event": "inject", "note": "unknown-term-resolution-protocol", "activation": 0.0688, "ts": "2026-07-12T03:31:50+00:00", "role": "judge"}
+{"event": "seed", "note": "ix-command-and-conquer-x-uzuri-switchblade", "activation": 0.3526, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "seed", "note": "ix-deadwood-dirge-x-spellbound-creepers", "activation": 0.4168, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "seed", "note": "ix-fleeing-starbreeze-x-gone-in-a-flash", "activation": 0.3526, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "seed", "note": "ix-gone-in-a-flash-general", "activation": 0.3526, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "card-interaction-protocol", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->card-interaction-protocol", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keyword-interaction-rulings", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->keyword-interaction-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-aura", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-aura", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-go-again", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-go-again", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-instant", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-instant", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-starfall", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-starfall", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ward", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-ward", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "release-notes-omens-of-the-third-age", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-omens-of-the-third-age", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "release-notes-rosetta", "activation": 0.0882, "link": "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-rosetta", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "combat-chain-steps", "activation": 0.022, "link": "card-interaction-protocol->combat-chain-steps", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "combat-step-rulings", "activation": 0.022, "link": "card-interaction-protocol->combat-step-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "escalation-ask-a-judge", "activation": 0.022, "link": "card-interaction-protocol->escalation-ask-a-judge", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "ix-command-and-conquer-x-uzuri-switchblade", "activation": 0.022, "link": "card-interaction-protocol->ix-command-and-conquer-x-uzuri-switchblade", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "ix-fleeing-starbreeze-x-gone-in-a-flash", "activation": 0.022, "link": "card-interaction-protocol->ix-fleeing-starbreeze-x-gone-in-a-flash", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "judge-brain-map", "activation": 0.022, "link": "card-interaction-protocol->judge-brain-map", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keyword-interaction-rulings", "activation": 0.022, "link": "card-interaction-protocol->keyword-interaction-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.022, "link": "card-interaction-protocol->keywords-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "release-notes-index", "activation": 0.022, "link": "card-interaction-protocol->release-notes-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "unknown-term-resolution-protocol", "activation": 0.022, "link": "card-interaction-protocol->unknown-term-resolution-protocol", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "abilities-functionality-rulings", "activation": 0.022, "link": "keyword-interaction-rulings->abilities-functionality-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "combat-step-rulings", "activation": 0.022, "link": "keyword-interaction-rulings->combat-step-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "continuous-effect-staging-detail", "activation": 0.022, "link": "keyword-interaction-rulings->continuous-effect-staging-detail", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "rules-precedence", "activation": 0.022, "link": "keyword-interaction-rulings->rules-precedence", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.022, "link": "kw-aura->keywords-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.022, "link": "kw-go-again->keywords-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.022, "link": "kw-instant->keywords-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.022, "link": "kw-starfall->keywords-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keywords-index", "activation": 0.022, "link": "kw-ward->keywords-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keyword-interaction-rulings", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->keyword-interaction-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-fragment", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->kw-fragment", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-quickstrike", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->kw-quickstrike", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-spellvoid", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->kw-spellvoid", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-starfall", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->kw-starfall", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-lightning-flow", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->kw-token-lightning-flow", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ward", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->kw-ward", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "release-notes-index", "activation": 0.022, "link": "release-notes-omens-of-the-third-age->release-notes-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "keyword-interaction-rulings", "activation": 0.022, "link": "release-notes-rosetta->keyword-interaction-rulings", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-amp", "activation": 0.022, "link": "release-notes-rosetta->kw-amp", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-arcane-shelter", "activation": 0.022, "link": "release-notes-rosetta->kw-arcane-shelter", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-bond", "activation": 0.022, "link": "release-notes-rosetta->kw-bond", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-decompose", "activation": 0.022, "link": "release-notes-rosetta->kw-decompose", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-macro", "activation": 0.022, "link": "release-notes-rosetta->kw-macro", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-meld", "activation": 0.022, "link": "release-notes-rosetta->kw-meld", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-negate", "activation": 0.022, "link": "release-notes-rosetta->kw-negate", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-token-frostbite", "activation": 0.022, "link": "release-notes-rosetta->kw-token-frostbite", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "kw-ward", "activation": 0.022, "link": "release-notes-rosetta->kw-ward", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "hop", "note": "release-notes-index", "activation": 0.022, "link": "release-notes-rosetta->release-notes-index", "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "ix-deadwood-dirge-x-spellbound-creepers", "activation": 0.4168, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "ix-command-and-conquer-x-uzuri-switchblade", "activation": 0.3526, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "ix-fleeing-starbreeze-x-gone-in-a-flash", "activation": 0.3526, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "ix-gone-in-a-flash-general", "activation": 0.3526, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "card-interaction-protocol", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "keyword-interaction-rulings", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-aura", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-go-again", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-instant", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-starfall", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-ward", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "release-notes-omens-of-the-third-age", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "release-notes-rosetta", "activation": 0.0882, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "abilities-functionality-rulings", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "combat-chain-steps", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "combat-step-rulings", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "continuous-effect-staging-detail", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "escalation-ask-a-judge", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "judge-brain-map", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "keywords-index", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-amp", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-arcane-shelter", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-bond", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-decompose", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-fragment", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-macro", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-meld", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-negate", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-quickstrike", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-spellvoid", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-token-frostbite", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "kw-token-lightning-flow", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "release-notes-index", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "rules-precedence", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}
+{"event": "inject", "note": "unknown-term-resolution-protocol", "activation": 0.022, "ts": "2026-07-22T02:22:53+00:00", "role": "judge"}

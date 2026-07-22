@@ -24,5 +24,13 @@ When this is turned face-up, destroy it. Search your deck for an Inner Chi, reve
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Koi Blessed Kimono" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS275.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST068.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST068_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU004.png)
+
+## Images
+
+![LGS275 - Koi Blessed Kimono](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS275.png)
+![MST068 - Koi Blessed Kimono](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST068.png)
+![MST068 - Koi Blessed Kimono](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST068_V2.png)
+![NUU004 - Koi Blessed Kimono](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU004.png)
 
 ## Notes

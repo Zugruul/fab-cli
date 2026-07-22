@@ -28,5 +28,10 @@ codes: [ROS074]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Current Funnel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS074.png)
+
+## Images
+
+![ROS074 - Current Funnel (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS074.png)
 
 ## Notes

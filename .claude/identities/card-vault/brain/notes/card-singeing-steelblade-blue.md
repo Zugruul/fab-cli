@@ -27,5 +27,11 @@ codes: [ELE232]
 
 Variants: [[card-singeing-steelblade-red]] · [[card-singeing-steelblade-yellow]]
 Rulings: search "Singeing Steelblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE232.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE232.width-450.png)
+
+## Images
+
+![ELE232 - Singeing Steelblade (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE232.width-450.png)
+![ELE232 - Singeing Steelblade (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE232.width-450.png)
 
 ## Notes

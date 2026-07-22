@@ -30,5 +30,12 @@ codes: [BOL010, MON036]
 Keywords: [[kw-go-again]]
 Variants: [[card-battlefield-blitz-yellow]] · [[card-battlefield-blitz-blue]]
 Rulings: search "Battlefield Blitz" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL010.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON036.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/UMON036.width-450.png)
+
+## Images
+
+![BOL010 - Battlefield Blitz (red)](https://storage.googleapis.com/fabmaster/media/images/BOL010.width-450.png)
+![MON036 - Battlefield Blitz (red)](https://storage.googleapis.com/fabmaster/media/images/MON036.width-450.png)
+![MON036 - Battlefield Blitz (red)](https://storage.googleapis.com/fabmaster/media/images/UMON036.width-450.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Gain 1{h}"
 
 Keywords: [[kw-meld]] · [[kw-amp]]
 Rulings: search "Rampant Growth // Life" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS341.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS017.png)
+
+## Images
+
+![LGS341 - Rampant Growth // Life (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS341.png)
+![ROS017 - Rampant Growth // Life (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS017.png)
 
 ## Notes

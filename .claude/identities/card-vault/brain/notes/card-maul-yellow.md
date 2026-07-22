@@ -26,5 +26,10 @@ codes: [MST162]
 - Target Crouching Tiger gets "When this hits, create 2 Crouching Tigers in your banished zone. You may play them this turn.""
 
 Rulings: search "Maul" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png)
+
+## Images
+
+![MST162 - Maul (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png)
 
 ## Notes

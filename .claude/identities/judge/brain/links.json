@@ -1,52 +1,52 @@
 {
   "card-interaction-protocol->combat-chain-steps": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->combat-step-rulings": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->escalation-ask-a-judge": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->ix-command-and-conquer-x-uzuri-switchblade": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->ix-fleeing-starbreeze-x-gone-in-a-flash": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->judge-brain-map": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->keyword-interaction-rulings": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->keywords-index": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->release-notes-index": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "card-interaction-protocol->unknown-term-resolution-protocol": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "cheating-vs-error->conduct-infractions-overview": {
@@ -405,48 +405,48 @@
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->card-interaction-protocol": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->keyword-interaction-rulings": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-aura": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-go-again": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-instant": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-starfall": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-ward": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-omens-of-the-third-age": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-rosetta": {
-    "fires": 2,
-    "last": "2026-07-12",
+    "fires": 3,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "judge-brain-map->abilities-functionality-rulings": {
@@ -750,23 +750,23 @@
     "weight": 0.5
   },
   "keyword-interaction-rulings->abilities-functionality-rulings": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "keyword-interaction-rulings->combat-step-rulings": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "keyword-interaction-rulings->continuous-effect-staging-detail": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "keyword-interaction-rulings->rules-precedence": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "keywords-index->doc-map-cr": {
@@ -1800,8 +1800,8 @@
     "weight": 0.5
   },
   "kw-aura->keywords-index": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "kw-awaken->keywords-index": {
@@ -2045,8 +2045,8 @@
     "weight": 0.5
   },
   "kw-go-again->keywords-index": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "kw-go-fish->keywords-index": {
@@ -2085,8 +2085,8 @@
     "weight": 0.5
   },
   "kw-instant->keywords-index": {
-    "fires": 8,
-    "last": "2026-07-12",
+    "fires": 9,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "kw-intimidate->keywords-index": {
@@ -2355,8 +2355,8 @@
     "weight": 0.5
   },
   "kw-starfall->keywords-index": {
-    "fires": 6,
-    "last": "2026-07-12",
+    "fires": 7,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "kw-steal->keywords-index": {
@@ -2645,8 +2645,8 @@
     "weight": 0.5
   },
   "kw-ward->keywords-index": {
-    "fires": 7,
-    "last": "2026-07-12",
+    "fires": 8,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "kw-watery-grave->keywords-index": {
@@ -3575,43 +3575,43 @@
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->keyword-interaction-rulings": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-fragment": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-quickstrike": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-spellvoid": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-starfall": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-token-lightning-flow": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->kw-ward": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-omens-of-the-third-age->release-notes-index": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-outsiders->keyword-interaction-rulings": {
@@ -3695,58 +3695,58 @@
     "weight": 0.5
   },
   "release-notes-rosetta->keyword-interaction-rulings": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-amp": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-arcane-shelter": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-bond": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-decompose": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-macro": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-meld": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-negate": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-token-frostbite": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->kw-ward": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-rosetta->release-notes-index": {
-    "fires": 4,
-    "last": "2026-07-12",
+    "fires": 5,
+    "last": "2026-07-21",
     "weight": 0.5
   },
   "release-notes-super-slam->keyword-interaction-rulings": {

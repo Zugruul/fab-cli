@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Frontline Helm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD222.png)
+
+## Images
+
+![DTD222 - Frontline Helm](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD222.png)
 
 ## Notes

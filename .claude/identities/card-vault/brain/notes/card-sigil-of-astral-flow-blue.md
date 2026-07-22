@@ -25,5 +25,12 @@ codes: [AZS028, OMN199]
 When this leaves the arena, create a Lightning Flow token."
 
 Rulings: search "Sigil of Astral Flow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS028.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199-MV.webp)
+
+## Images
+
+![AZS028 - Sigil of Astral Flow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS028.webp)
+![OMN199 - Sigil of Astral Flow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199.webp)
+![OMN199 - Sigil of Astral Flow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199-MV.webp)
 
 ## Notes

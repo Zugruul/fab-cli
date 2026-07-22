@@ -27,5 +27,10 @@ codes: [OMN052]
 At the start of your action phase, destroy an aura you control."
 
 Rulings: search "Arcanic Reproach" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN052.webp)
+
+## Images
+
+![OMN052 - Arcanic Reproach (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN052.webp)
 
 ## Notes

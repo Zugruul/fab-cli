@@ -29,5 +29,10 @@ Attack Reaction - Discard this: Target Ninja attack gets +1{p}. Create a Crouchi
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Tigrine Reflex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN035.webp)
+
+## Images
+
+![PEN035 - Tigrine Reflex (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN035.webp)
 
 ## Notes

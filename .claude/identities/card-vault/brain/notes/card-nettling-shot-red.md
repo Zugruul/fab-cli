@@ -26,5 +26,10 @@ codes: [SEA108]
 "When this is put face-up into your arsenal, you may {t} target ally."
 
 Rulings: search "Nettling Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA108.png)
+
+## Images
+
+![SEA108 - Nettling Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA108.png)
 
 ## Notes

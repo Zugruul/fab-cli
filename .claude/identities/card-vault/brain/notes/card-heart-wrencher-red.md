@@ -29,5 +29,10 @@ codes: [PEN075]
 Keywords: [[kw-boost]]
 Variants: [[card-heart-wrencher-yellow]] · [[card-heart-wrencher-blue]]
 Rulings: search "Heart Wrencher" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN075.webp)
+
+## Images
+
+![PEN075 - Heart Wrencher (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN075.webp)
 
 ## Notes

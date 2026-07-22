@@ -27,5 +27,14 @@ Instant - Destroy Amulet of Ice: Target hero discards a card unless they pay {r}
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Ice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE172.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE172.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS064.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/OLD018.width-450.png)
+
+## Images
+
+![AJV026 - Amulet of Ice (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV026.webp)
+![ELE172 - Amulet of Ice (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE172.width-450.png)
+![ELE172 - Amulet of Ice (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE172.width-450.png)
+![LGS064 - Amulet of Ice (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS064.png)
+![OLD018 - Amulet of Ice (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD018.width-450.png)
 
 ## Notes

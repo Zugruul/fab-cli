@@ -27,5 +27,11 @@ codes: [HVY022, KYO024]
 
 Variants: [[card-pack-call-red]] · [[card-pack-call-yellow]]
 Rulings: search "Pack Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY022.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO024.png)
+
+## Images
+
+![HVY022 - Pack Call (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY022.png)
+![KYO024 - Pack Call (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO024.png)
 
 ## Notes

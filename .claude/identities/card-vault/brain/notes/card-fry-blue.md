@@ -29,5 +29,10 @@ codes: [ROS094]
 Keywords: [[kw-go-again]]
 Variants: [[card-fry-red]] · [[card-fry-yellow]]
 Rulings: search "Fry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS094.png)
+
+## Images
+
+![ROS094 - Fry (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS094.png)
 
 ## Notes

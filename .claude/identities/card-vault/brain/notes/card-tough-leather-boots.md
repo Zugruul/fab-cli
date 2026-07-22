@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Tough Leather Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP003.webp)
+
+## Images
+
+![SUP003 - Tough Leather Boots](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP003.webp)
 
 ## Notes

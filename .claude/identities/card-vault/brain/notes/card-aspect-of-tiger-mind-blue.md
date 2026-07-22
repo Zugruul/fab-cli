@@ -28,5 +28,11 @@ codes: [MST166, ZEN019]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Aspect of Tiger: Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST166.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN019.png)
+
+## Images
+
+![MST166 - Aspect of Tiger: Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST166.png)
+![ZEN019 - Aspect of Tiger: Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN019.png)
 
 ## Notes

@@ -29,5 +29,13 @@ When this leaves the arena, your next attack this turn gets +3{p}."
 Keywords: [[kw-suspense]]
 Variants: [[card-edge-of-their-seats-red]] · [[card-edge-of-their-seats-yellow]]
 Rulings: search "Edge of Their Seats" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS023.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR033.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY032.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP203.webp)
+
+## Images
+
+![APS023 - Edge of Their Seats (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS023.webp)
+![SBR033 - Edge of Their Seats (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR033.webp)
+![SLY032 - Edge of Their Seats (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY032.webp)
+![SUP203 - Edge of Their Seats (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP203.webp)
 
 ## Notes

@@ -25,5 +25,12 @@ codes: [1HP309, CRU162]
 If you have played another Wizard 'non-attack' action card this turn, deal 3 arcane damage to each opposing hero."
 
 Rulings: search "Chain Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP309.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU162.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU162.png)
+
+## Images
+
+![1HP309 - Chain Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP309.width-450.png)
+![CRU162 - Chain Lightning (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU162.png)
+![CRU162 - Chain Lightning (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU162.png)
 
 ## Notes

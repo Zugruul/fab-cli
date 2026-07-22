@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Leech Renown" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN092.webp)
+
+## Images
+
+![OMN092 - Leech Renown (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN092.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [SUP225]
 
 Variants: [[card-punch-above-your-weight-red]] · [[card-punch-above-your-weight-blue]]
 Rulings: search "Punch Above Your Weight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP225.webp)
+
+## Images
+
+![SUP225 - Punch Above Your Weight (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP225.webp)
 
 ## Notes

@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sweeping-blow-red]] · [[card-sweeping-blow-blue]]
 Rulings: search "Sweeping Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR031.png)
+
+## Images
+
+![UPR031 - Sweeping Blow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR031.png)
 
 ## Notes

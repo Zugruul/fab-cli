@@ -28,5 +28,12 @@ Reprise - If the defending hero has defended with a card from hand this chain li
 
 Keywords: [[kw-specialization]] · [[kw-reprise]]
 Rulings: search "Singing Steelblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP149.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR121.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR121.png)
+
+## Images
+
+![1HP149 - Singing Steelblade (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP149.width-450.png)
+![WTR121 - Singing Steelblade (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR121.png)
+![WTR121 - Singing Steelblade (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR121.png)
 
 ## Notes

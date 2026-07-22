@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-transmogrify-red]] · [[card-transmogrify-blue]]
 Rulings: search "Transmogrify" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR156.png)
+
+## Images
+
+![UPR156 - Transmogrify (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR156.png)
 
 ## Notes

@@ -26,5 +26,11 @@ If your hero would be dealt damage, remove that many steam counters from Absorpt
 When Absorption Dome has no steam counters on it, destroy it."
 
 Rulings: search "Absorption Dome" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU104.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU104.png)
+
+## Images
+
+![CRU104 - Absorption Dome (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU104.png)
+![CRU104 - Absorption Dome (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU104.png)
 
 ## Notes

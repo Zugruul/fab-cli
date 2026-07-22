@@ -26,5 +26,12 @@ codes: [BOL018, MON058]
 
 Variants: [[card-courageous-steelhand-red]] · [[card-courageous-steelhand-blue]]
 Rulings: search "Courageous Steelhand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL018.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON058.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON058.width-450.png)
+
+## Images
+
+![BOL018 - Courageous Steelhand (yellow)](https://storage.googleapis.com/fabmaster/media/images/BOL018.width-450.png)
+![MON058 - Courageous Steelhand (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON058.width-450.png)
+![MON058 - Courageous Steelhand (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON058.width-450.png)
 
 ## Notes

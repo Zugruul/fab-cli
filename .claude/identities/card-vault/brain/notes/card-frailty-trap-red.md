@@ -25,5 +25,12 @@ codes: [OUT172, RIP009, SAR024]
 "When this defends an attack with go again, create a Frailty token under the attacking hero's control."
 
 Rulings: search "Frailty Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT172.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP009.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR024.webp)
+
+## Images
+
+![OUT172 - Frailty Trap (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT172.width-450.png)
+![RIP009 - Frailty Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP009.png)
+![SAR024 - Frailty Trap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR024.webp)
 
 ## Notes

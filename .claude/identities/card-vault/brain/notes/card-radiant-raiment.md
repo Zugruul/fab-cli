@@ -20,5 +20,10 @@ codes: [DTD076]
 "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn."
 
 Rulings: search "Radiant Raiment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD076.png)
+
+## Images
+
+![DTD076 - Radiant Raiment](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD076.png)
 
 ## Notes

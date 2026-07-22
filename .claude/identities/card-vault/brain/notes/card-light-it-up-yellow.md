@@ -32,5 +32,11 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
 
 Keywords: [[kw-specialization]] · [[kw-fusion]]
 Rulings: search "Light it Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE036.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE036.width-450.png)
+
+## Images
+
+![ELE036 - Light it Up (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE036.width-450.png)
+![ELE036 - Light it Up (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE036.width-450.png)
 
 ## Notes

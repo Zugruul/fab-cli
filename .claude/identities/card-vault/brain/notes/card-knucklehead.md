@@ -25,5 +25,15 @@ Temper"
 
 Keywords: [[kw-specialization]] · [[kw-temper]]
 Rulings: search "Knucklehead" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO003.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY009.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO003.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS231.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS243.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA003.webp)
+
+## Images
+
+![AKO003 - Knucklehead](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO003.png)
+![HVY009 - Knucklehead](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY009.png)
+![KYO003 - Knucklehead](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO003.png)
+![LGS231 - Knucklehead](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS231.png)
+![LGS243 - Knucklehead](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS243.png)
+![SKA003 - Knucklehead](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA003.webp)
 
 ## Notes

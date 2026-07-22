@@ -25,5 +25,10 @@ codes: [OMN107]
 
 Variants: [[card-flash-bolt-red]] · [[card-flash-bolt-blue]]
 Rulings: search "Flash Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN107.webp)
+
+## Images
+
+![OMN107 - Flash Bolt (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN107.webp)
 
 ## Notes

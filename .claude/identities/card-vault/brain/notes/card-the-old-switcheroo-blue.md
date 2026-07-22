@@ -26,5 +26,10 @@ codes: [SUP087]
 "Instant - Discard this: the next time you would clash with target hero this turn, instead you reveal the top card of their deck and they reveal the top card of your deck. If you win the clash, they discard a card."
 
 Rulings: search "The Old Switcheroo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP087.webp)
+
+## Images
+
+![SUP087 - The Old Switcheroo (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP087.webp)
 
 ## Notes

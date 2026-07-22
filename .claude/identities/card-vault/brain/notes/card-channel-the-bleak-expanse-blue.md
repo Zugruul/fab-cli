@@ -29,5 +29,10 @@ Channel Ice - At the beginning of your end phase, put a flow counter on Channel 
 
 Keywords: [[kw-go-again]] · [[kw-channel]]
 Rulings: search "Channel the Bleak Expanse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR138.png)
+
+## Images
+
+![UPR138 - Channel the Bleak Expanse (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR138.png)
 
 ## Notes

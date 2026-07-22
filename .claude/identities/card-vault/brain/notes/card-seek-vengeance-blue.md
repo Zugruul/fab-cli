@@ -29,5 +29,10 @@ codes: [ASR022]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-seek-vengeance-red]]
 Rulings: search "Seek Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR022.webp)
+
+## Images
+
+![ASR022 - Seek Vengeance (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR022.webp)
 
 ## Notes

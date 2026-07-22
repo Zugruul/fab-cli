@@ -25,5 +25,11 @@ codes: [EVR072, GEM147]
 Once per turn, when you boost an attack action card, remove a steam counter from this. If you do, the attack gets +2{p}."
 
 Rulings: search "Teklo Pounder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR072.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM147-CF.webp)
+
+## Images
+
+![EVR072 - Teklo Pounder (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR072.width-450.png)
+![GEM147 - Teklo Pounder (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM147-CF.webp)
 
 ## Notes

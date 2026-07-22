@@ -25,5 +25,10 @@ codes: [MPW024]
 Target weapon attack gets +X{p}, where X is twice the number of cards defending it plus 1."
 
 Rulings: search "Overwhelming Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW024.webp)
+
+## Images
+
+![MPW024 - Overwhelming Swing (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW024.webp)
 
 ## Notes

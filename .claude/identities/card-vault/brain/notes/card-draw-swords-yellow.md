@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-draw-swords-red]] · [[card-draw-swords-blue]]
 Rulings: search "Draw Swords" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY122.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI020.png)
+
+## Images
+
+![HVY122 - Draw Swords (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY122.png)
+![KSI020 - Draw Swords (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI020.png)
 
 ## Notes

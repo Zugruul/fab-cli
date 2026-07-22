@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-lead-with-power-yellow]] · [[card-lead-with-power-blue]]
 Rulings: search "Lead with Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY152.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO013.png)
+
+## Images
+
+![HVY152 - Lead with Power (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY152.png)
+![KYO013 - Lead with Power (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO013.png)
 
 ## Notes

@@ -25,5 +25,14 @@ When this attacks a marked hero, the attack gets go again."
 
 Keywords: [[kw-stealth]] · [[kw-go-again]] · [[kw-token-graphene-chelicera]]
 Rulings: search "Graphene Chelicera" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM008-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM009-CF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT053.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR033.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD033.webp)
+
+## Images
+
+![GEM008 - Graphene Chelicera](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM008-CF.webp)
+![GEM009 - Graphene Chelicera](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM009-CF.webp)
+![HNT053 - Graphene Chelicera](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT053.png)
+![SAR033 - Graphene Chelicera](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR033.webp)
+![WOD033 - Graphene Chelicera](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD033.webp)
 
 ## Notes

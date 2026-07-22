@@ -27,5 +27,14 @@ At the beginning of your end phase, if an opponent is marked, you become a rando
 Keywords: [[kw-go-again]]
 Young version: [[card-arakni]]
 Rulings: search "Arakni, Marionette" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER132.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT001.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT001-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT001-MV_BACK.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN043.png)
+
+## Images
+
+![HER132 - Arakni, Marionette](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER132.png)
+![HNT001 - Arakni, Marionette](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT001.png)
+![HNT001 - Arakni, Marionette](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT001-MV.webp)
+![HNT001 - Arakni, Marionette](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT001-MV_BACK.webp)
+![WIN043 - Arakni, Marionette](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN043.png)
 
 ## Notes

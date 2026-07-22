@@ -28,5 +28,10 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-clash]]
 Rulings: search "Daily Grind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG022.webp)
+
+## Images
+
+![MPG022 - Daily Grind (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG022.webp)
 
 ## Notes

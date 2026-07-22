@@ -30,5 +30,13 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 Keywords: [[kw-boost]]
 Variants: [[card-crankshaft-red]] · [[card-crankshaft-yellow]]
 Rulings: search "Crankshaft" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN103.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO176.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA029.webp)
+
+## Images
+
+![AMX025 - Crankshaft (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX025.webp)
+![DYN103 - Crankshaft (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN103.png)
+![EVO176 - Crankshaft (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO176.png)
+![SDA029 - Crankshaft (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA029.webp)
 
 ## Notes

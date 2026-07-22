@@ -27,5 +27,13 @@ codes: [JDG023, RNR015, WTR164]
 
 Variants: [[card-drone-of-brutality-yellow]] · [[card-drone-of-brutality-blue]]
 Rulings: search "Drone of Brutality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG023.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RNR15.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR164.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR164.png)
+
+## Images
+
+![JDG023 - Drone of Brutality (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG023.png)
+![RNR015 - Drone of Brutality (red)](https://storage.googleapis.com/fabmaster/media/images/RNR15.width-450.png)
+![WTR164 - Drone of Brutality (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR164.png)
+![WTR164 - Drone of Brutality (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR164.png)
 
 ## Notes

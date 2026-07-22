@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Loot the Arsenal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB027.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM083.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB029.webp)
+
+## Images
+
+![AGB027 - Loot the Arsenal (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB027.webp)
+![GEM083 - Loot the Arsenal (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM083.webp)
+![SGB029 - Loot the Arsenal (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB029.webp)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [OMN195]
 
 Variants: [[card-chromatic-refinement-red]] · [[card-chromatic-refinement-yellow]]
 Rulings: search "Chromatic Refinement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN195.webp)
+
+## Images
+
+![OMN195 - Chromatic Refinement (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN195.webp)
 
 ## Notes

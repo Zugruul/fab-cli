@@ -27,5 +27,10 @@ Contract - While this is defending, you are contracted to banish opponents' card
 
 Keywords: [[kw-contract]]
 Rulings: search "Hunter or Hunted?" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP245.webp)
+
+## Images
+
+![SUP245 - Hunter or Hunted? (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP245.webp)
 
 ## Notes

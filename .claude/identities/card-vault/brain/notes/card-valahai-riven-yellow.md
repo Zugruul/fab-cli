@@ -23,5 +23,11 @@ codes: [GEM115, PEN022]
 "When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens."
 
 Rulings: search "Valahai Riven" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM115.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN022.webp)
+
+## Images
+
+![GEM115 - Valahai Riven (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM115.webp)
+![PEN022 - Valahai Riven (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN022.webp)
 
 ## Notes

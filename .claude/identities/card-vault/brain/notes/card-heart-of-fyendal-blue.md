@@ -26,5 +26,12 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
 
 Keywords: [[kw-legendary]]
 Rulings: search "Heart of Fyendal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR000.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR000.png)
+
+## Images
+
+![ANQ001 - Heart of Fyendal (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ001.webp)
+![WTR000 - Heart of Fyendal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR000.png)
+![WTR000 - Heart of Fyendal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR000.png)
 
 ## Notes

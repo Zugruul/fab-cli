@@ -26,5 +26,11 @@ codes: [MST088, NUU023]
 "If you've played another blue card this turn, this gets +2{p}."
 
 Rulings: search "Rising Tide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST088.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU023.png)
+
+## Images
+
+![MST088 - Rising Tide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST088.png)
+![NUU023 - Rising Tide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU023.png)
 
 ## Notes

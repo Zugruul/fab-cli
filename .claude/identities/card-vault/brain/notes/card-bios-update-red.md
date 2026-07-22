@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Bios Update" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN091.png)
+
+## Images
+
+![DYN091 - Bios Update (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN091.png)
 
 ## Notes

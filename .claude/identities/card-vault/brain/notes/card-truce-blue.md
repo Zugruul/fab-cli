@@ -27,5 +27,12 @@ At the beginning of their end phase, destroy this and you each gain 3{h}.
 When you or a card you control is the target of an attack they control, destroy this and draw a card."
 
 Rulings: search "Truce" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS219.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS219-EA.png)
+
+## Images
+
+![ANQ025 - Truce (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ025.webp)
+![ROS219 - Truce (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS219.png)
+![ROS219 - Truce (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS219-EA.png)
 
 ## Notes

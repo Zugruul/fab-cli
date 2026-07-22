@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Trampling Trackers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR006.webp)
+
+## Images
+
+![ARR006 - Trampling Trackers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR006.webp)
 
 ## Notes

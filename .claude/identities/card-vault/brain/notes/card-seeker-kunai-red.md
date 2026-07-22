@@ -25,5 +25,11 @@ codes: [GEM111, PEN142]
 While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, return this to the arena."
 
 Rulings: search "Seeker Kunai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM111-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN142.webp)
+
+## Images
+
+![GEM111 - Seeker Kunai (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM111-CF.webp)
+![PEN142 - Seeker Kunai (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN142.webp)
 
 ## Notes

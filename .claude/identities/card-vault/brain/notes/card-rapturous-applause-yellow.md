@@ -29,5 +29,11 @@ codes: [GEM089, SUP044]
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-rapturous-applause-red]] · [[card-rapturous-applause-blue]]
 Rulings: search "Rapturous Applause" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM089.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP044.webp)
+
+## Images
+
+![GEM089 - Rapturous Applause (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM089.webp)
+![SUP044 - Rapturous Applause (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP044.webp)
 
 ## Notes

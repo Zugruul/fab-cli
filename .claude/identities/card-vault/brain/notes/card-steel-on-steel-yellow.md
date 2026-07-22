@@ -25,5 +25,10 @@ codes: [MPW097]
 
 Variants: [[card-steel-on-steel-red]] · [[card-steel-on-steel-blue]]
 Rulings: search "Steel on Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW097.webp)
+
+## Images
+
+![MPW097 - Steel on Steel (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW097.webp)
 
 ## Notes

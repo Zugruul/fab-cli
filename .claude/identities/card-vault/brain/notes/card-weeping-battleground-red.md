@@ -25,5 +25,11 @@ codes: [GEM123, PEN103]
 
 Variants: [[card-weeping-battleground-yellow]] · [[card-weeping-battleground-blue]]
 Rulings: search "Weeping Battleground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM123.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN103.webp)
+
+## Images
+
+![GEM123 - Weeping Battleground (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM123.webp)
+![PEN103 - Weeping Battleground (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN103.webp)
 
 ## Notes

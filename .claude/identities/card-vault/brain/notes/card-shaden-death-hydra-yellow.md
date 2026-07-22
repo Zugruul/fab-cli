@@ -30,5 +30,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Shaden Death Hydra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD108.png)
+
+## Images
+
+![DTD108 - Shaden Death Hydra (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD108.png)
 
 ## Notes

@@ -20,5 +20,10 @@ codes: [HNT252]
 "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2."
 
 Rulings: search "Enchanted Quiver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT252.png)
+
+## Images
+
+![HNT252 - Enchanted Quiver](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT252.png)
 
 ## Notes

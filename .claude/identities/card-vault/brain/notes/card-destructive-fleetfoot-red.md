@@ -31,5 +31,10 @@ When this hits a hero, destroy an aura token they control."
 Keywords: [[kw-quickstrike]]
 Variants: [[card-destructive-fleetfoot-yellow]] · [[card-destructive-fleetfoot-blue]]
 Rulings: search "Destructive Fleetfoot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN062.webp)
+
+## Images
+
+![OMN062 - Destructive Fleetfoot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN062.webp)
 
 ## Notes

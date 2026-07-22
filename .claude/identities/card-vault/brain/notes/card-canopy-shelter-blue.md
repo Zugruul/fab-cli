@@ -23,5 +23,10 @@ codes: [TER027]
 "When this defends, create a Might token."
 
 Rulings: search "Canopy Shelter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER027.webp)
+
+## Images
+
+![TER027 - Canopy Shelter (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER027.webp)
 
 ## Notes

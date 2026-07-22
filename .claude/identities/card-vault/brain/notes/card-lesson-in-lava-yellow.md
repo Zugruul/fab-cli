@@ -28,5 +28,13 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
 
 Keywords: [[kw-specialization]]
 Rulings: search "Lesson in Lava" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP311.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC121.png)
+
+## Images
+
+![1HP311 - Lesson in Lava (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP311.width-450.png)
+![ARC121 - Lesson in Lava (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121.png)
+![ARC121 - Lesson in Lava (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121-RF.png)
+![ARC121 - Lesson in Lava (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC121.png)
 
 ## Notes

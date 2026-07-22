@@ -25,5 +25,10 @@ codes: [DYN030]
 
 Variants: [[card-shield-bash-yellow]] · [[card-shield-bash-blue]]
 Rulings: search "Shield Bash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN030.png)
+
+## Images
+
+![DYN030 - Shield Bash (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN030.png)
 
 ## Notes

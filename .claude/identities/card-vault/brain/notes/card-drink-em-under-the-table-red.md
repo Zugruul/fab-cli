@@ -29,5 +29,10 @@ When this attacks a hero, you may wager with them. The winner draws a card, and 
 
 Keywords: [[kw-specialization]] · [[kw-wager]]
 Rulings: search "Drink 'Em Under the Table" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS244.png)
+
+## Images
+
+![ROS244 - Drink 'Em Under the Table (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS244.png)
 
 ## Notes

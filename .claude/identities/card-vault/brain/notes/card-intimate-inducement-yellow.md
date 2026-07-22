@@ -27,5 +27,10 @@ Look at the top 3 cards of the defending hero's deck and choose a card. If it's 
 
 Variants: [[card-intimate-inducement-red]] · [[card-intimate-inducement-blue]]
 Rulings: search "Intimate Inducement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST018.png)
+
+## Images
+
+![MST018 - Intimate Inducement (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST018.png)
 
 ## Notes

@@ -31,5 +31,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-graveling-growl-red]] · [[card-graveling-growl-blue]]
 Rulings: search "Graveling Growl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON145.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON145.width-450.png)
+
+## Images
+
+![MON145 - Graveling Growl (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON145.width-450.png)
+![MON145 - Graveling Growl (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON145.width-450.png)
 
 ## Notes

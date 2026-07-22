@@ -26,5 +26,11 @@ codes: [SEA157]
 "When this attacks, you may put a gold counter on Treasure Island."
 
 Rulings: search "Expedition to Dreadfall Reach" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157_V2.png)
+
+## Images
+
+![SEA157 - Expedition to Dreadfall Reach (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png)
+![SEA157 - Expedition to Dreadfall Reach (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157_V2.png)
 
 ## Notes

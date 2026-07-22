@@ -27,5 +27,13 @@ codes: [1HP163, LGS030, WTR133]
 Keywords: [[kw-reprise]]
 Variants: [[card-ironsong-response-red]] · [[card-ironsong-response-blue]]
 Rulings: search "Ironsong Response" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP163.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS030.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR133.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR133.png)
+
+## Images
+
+![1HP163 - Ironsong Response (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP163.width-450.png)
+![LGS030 - Ironsong Response (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS030.png)
+![WTR133 - Ironsong Response (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR133.png)
+![WTR133 - Ironsong Response (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR133.png)
 
 ## Notes

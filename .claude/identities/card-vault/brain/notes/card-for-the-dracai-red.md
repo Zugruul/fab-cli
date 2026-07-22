@@ -26,5 +26,12 @@ codes: [FAB318, FNG008, HNT158]
 "When this attacks a marked hero, create a Fealty token."
 
 Rulings: search "For the Dracai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB318.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG008.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT158.png)
+
+## Images
+
+![FAB318 - For the Dracai (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB318.png)
+![FNG008 - For the Dracai (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG008.webp)
+![HNT158 - For the Dracai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT158.png)
 
 ## Notes

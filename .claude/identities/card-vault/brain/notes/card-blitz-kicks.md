@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Blitz Kicks" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS006-RF.webp)
+
+## Images
+
+![AZS006 - Blitz Kicks](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS006-RF.webp)
 
 ## Notes

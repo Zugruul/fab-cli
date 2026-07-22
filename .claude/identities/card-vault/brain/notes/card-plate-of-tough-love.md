@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Plate of Tough Love" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP011.webp)
+
+## Images
+
+![SUP011 - Plate of Tough Love](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP011.webp)
 
 ## Notes

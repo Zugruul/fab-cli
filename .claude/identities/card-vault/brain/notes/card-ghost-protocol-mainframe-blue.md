@@ -29,5 +29,10 @@ Evo Upgrade - This gets +1{p} for each Evo you have equipped."
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Ghost Protocol: Mainframe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN063.webp)
+
+## Images
+
+![PEN063 - Ghost Protocol: Mainframe (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN063.webp)
 
 ## Notes

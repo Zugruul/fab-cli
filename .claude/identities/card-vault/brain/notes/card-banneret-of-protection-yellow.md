@@ -29,5 +29,11 @@ codes: [DTD050, FAB163]
 
 Keywords: [[kw-solflare]]
 Rulings: search "Banneret of Protection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD050.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB163.png)
+
+## Images
+
+![DTD050 - Banneret of Protection (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD050.png)
+![FAB163 - Banneret of Protection (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB163.png)
 
 ## Notes

@@ -29,5 +29,10 @@ If you control 3 or more auras, this gets +3{p}."
 
 Keywords: [[kw-steal]]
 Rulings: search "Gang Robbery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP085.webp)
+
+## Images
+
+![SUP085 - Gang Robbery (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP085.webp)
 
 ## Notes

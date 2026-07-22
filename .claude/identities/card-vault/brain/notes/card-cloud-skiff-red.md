@@ -29,5 +29,11 @@ codes: [GEM041, SEA024]
 Keywords: [[kw-go-again]]
 Variants: [[card-cloud-skiff-yellow]] · [[card-cloud-skiff-blue]]
 Rulings: search "Cloud Skiff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM041.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA024.png)
+
+## Images
+
+![GEM041 - Cloud Skiff (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM041.webp)
+![SEA024 - Cloud Skiff (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA024.png)
 
 ## Notes

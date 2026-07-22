@@ -26,5 +26,10 @@ codes: [HNT107]
 Target dagger attack gets +4{p}."
 
 Rulings: search "Brothers of Flame" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT107.png)
+
+## Images
+
+![HNT107 - Brothers of Flame (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT107.png)
 
 ## Notes

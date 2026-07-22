@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Catch of the Day" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP268.webp)
+
+## Images
+
+![SUP268 - Catch of the Day (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP268.webp)
 
 ## Notes

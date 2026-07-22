@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Feign Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM117.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN036.webp)
+
+## Images
+
+![GEM117 - Feign Vengeance (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM117.webp)
+![PEN036 - Feign Vengeance (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN036.webp)
 
 ## Notes

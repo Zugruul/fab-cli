@@ -29,5 +29,10 @@ codes: [OMN177]
 Keywords: [[kw-go-again]]
 Variants: [[card-stellar-glide-red]] · [[card-stellar-glide-yellow]]
 Rulings: search "Stellar Glide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN177.webp)
+
+## Images
+
+![OMN177 - Stellar Glide (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN177.webp)
 
 ## Notes

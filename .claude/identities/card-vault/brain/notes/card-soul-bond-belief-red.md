@@ -27,5 +27,10 @@ codes: [PEN186]
 
 Variants: [[card-soul-bond-belief-yellow]] · [[card-soul-bond-belief-blue]]
 Rulings: search "Soul Bond Belief" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN186.webp)
+
+## Images
+
+![PEN186 - Soul Bond Belief (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN186.webp)
 
 ## Notes

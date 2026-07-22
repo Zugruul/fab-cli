@@ -28,5 +28,11 @@ codes: [FAB466, OMN077]
 
 Variants: [[card-voltbound-duality-yellow]] · [[card-voltbound-duality-blue]]
 Rulings: search "Voltbound Duality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB466-MV.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN077.webp)
+
+## Images
+
+![FAB466 - Voltbound Duality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB466-MV.webp)
+![OMN077 - Voltbound Duality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN077.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Leap Frog Gloves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT171.png)
+
+## Images
+
+![HNT171 - Leap Frog Gloves](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT171.png)
 
 ## Notes

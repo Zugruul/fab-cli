@@ -24,5 +24,10 @@ codes: [OMN191]
 Target Lightning attack gets -3{p}."
 
 Rulings: search "Stormshatter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN191.webp)
+
+## Images
+
+![OMN191 - Stormshatter (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN191.webp)
 
 ## Notes

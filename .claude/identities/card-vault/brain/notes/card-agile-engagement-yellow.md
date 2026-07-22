@@ -25,5 +25,10 @@ codes: [HVY116]
 
 Variants: [[card-agile-engagement-red]] · [[card-agile-engagement-blue]]
 Rulings: search "Agile Engagement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY116.png)
+
+## Images
+
+![HVY116 - Agile Engagement (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY116.png)
 
 ## Notes

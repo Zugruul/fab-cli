@@ -26,5 +26,10 @@ Perched"
 
 Keywords: [[kw-perched]] · [[kw-steal]]
 Rulings: search "Sticky Fingers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA124.png)
+
+## Images
+
+![SEA124 - Sticky Fingers](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA124.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Twintek Charging Station" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX018.webp)
+
+## Images
+
+![AMX018 - Twintek Charging Station (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX018.webp)
 
 ## Notes

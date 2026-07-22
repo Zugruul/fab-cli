@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Beta Base Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN070.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN070-MV.webp)
+
+## Images
+
+![PEN070 - Evo Beta Base Arms (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN070.webp)
+![PEN070 - Evo Beta Base Arms (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN070-MV.webp)
 
 ## Notes

@@ -22,5 +22,12 @@ codes: [HVY006, LGS237, RHI002]
 If you've discarded a card with 6 or more {p} this turn, this gets +1{p}."
 
 Rulings: search "Ball Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS237.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR002.png)
+
+## Images
+
+![HVY006 - Ball Breaker](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY006.png)
+![LGS237 - Ball Breaker](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS237.png)
+![RHI002 - Ball Breaker](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR002.png)
 
 ## Notes

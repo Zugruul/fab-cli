@@ -26,5 +26,10 @@ Gain 2{h}"
 
 Variants: [[card-blessing-of-salvation-red]] · [[card-blessing-of-salvation-blue]]
 Rulings: search "Blessing of Salvation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD086.png)
+
+## Images
+
+![DTD086 - Blessing of Salvation (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD086.png)
 
 ## Notes

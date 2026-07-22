@@ -30,5 +30,11 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Sawbones, Dock Hand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB019.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA264.png)
+
+## Images
+
+![AGB019 - Sawbones, Dock Hand (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB019.webp)
+![SEA264 - Sawbones, Dock Hand (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA264.png)
 
 ## Notes

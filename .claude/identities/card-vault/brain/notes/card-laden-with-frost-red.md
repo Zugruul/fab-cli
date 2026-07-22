@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-bond]] · [[kw-go-again]]
 Rulings: search "Laden with Frost" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN211.webp)
+
+## Images
+
+![PEN211 - Laden with Frost (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN211.webp)
 
 ## Notes

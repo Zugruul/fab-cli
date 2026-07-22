@@ -27,5 +27,13 @@ codes: [ELE136, LGS071, TER022]
 
 Variants: [[card-burgeoning-red]] · [[card-burgeoning-yellow]]
 Rulings: search "Burgeoning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE136.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE136.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS071.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER022.webp)
+
+## Images
+
+![ELE136 - Burgeoning (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE136.width-450.png)
+![ELE136 - Burgeoning (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE136.width-450.png)
+![LGS071 - Burgeoning (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS071.png)
+![TER022 - Burgeoning (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER022.webp)
 
 ## Notes

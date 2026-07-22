@@ -21,5 +21,10 @@ codes: [DDD005]
 "When your sword attack hits, you may destroy this. If you do, the sword's next attack this turn gets +2{p}."
 
 Rulings: search "Squire's Bracers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD005.webp)
+
+## Images
+
+![DDD005 - Squire's Bracers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD005.webp)
 
 ## Notes

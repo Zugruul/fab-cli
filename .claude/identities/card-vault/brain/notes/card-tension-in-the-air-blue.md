@@ -29,5 +29,11 @@ When this leaves the arena, your next attack this turn gets +2{p}."
 Keywords: [[kw-suspense]]
 Variants: [[card-tension-in-the-air-red]] · [[card-tension-in-the-air-yellow]]
 Rulings: search "Tension in the Air" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS025.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP206.webp)
+
+## Images
+
+![APS025 - Tension in the Air (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS025.webp)
+![SUP206 - Tension in the Air (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP206.webp)
 
 ## Notes

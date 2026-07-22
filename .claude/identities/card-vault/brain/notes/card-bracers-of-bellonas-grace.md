@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-charge]] · [[kw-blade-break]]
 Rulings: search "Bracers of Bellona's Grace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB005.png)
+
+## Images
+
+![ASB005 - Bracers of Bellona's Grace](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB005.png)
 
 ## Notes

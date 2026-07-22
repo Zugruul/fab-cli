@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-brandish-yellow]] · [[card-brandish-blue]]
 Rulings: search "Brandish" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON269.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON269.width-450.png)
+
+## Images
+
+![MON269 - Brandish (red)](https://storage.googleapis.com/fabmaster/media/images/MON269.width-450.png)
+![MON269 - Brandish (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON269.width-450.png)
 
 ## Notes

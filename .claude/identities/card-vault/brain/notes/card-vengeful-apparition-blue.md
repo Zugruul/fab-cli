@@ -29,5 +29,11 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-vengeful-apparition-red]] · [[card-vengeful-apparition-yellow]]
 Rulings: search "Vengeful Apparition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG022.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST157.png)
+
+## Images
+
+![ENG022 - Vengeful Apparition (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG022.png)
+![MST157 - Vengeful Apparition (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST157.png)
 
 ## Notes

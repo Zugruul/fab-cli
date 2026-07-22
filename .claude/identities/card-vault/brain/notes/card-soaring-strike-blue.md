@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-soaring-strike-red]] · [[card-soaring-strike-yellow]]
 Rulings: search "Soaring Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR083.png)
+
+## Images
+
+![UPR083 - Soaring Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR083.png)
 
 ## Notes

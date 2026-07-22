@@ -26,5 +26,10 @@ codes: [SUP022]
 "When this attacks, if you control a Toughness token, create 3 more."
 
 Rulings: search "Escalate Order" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP022.webp)
+
+## Images
+
+![SUP022 - Escalate Order (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP022.webp)
 
 ## Notes

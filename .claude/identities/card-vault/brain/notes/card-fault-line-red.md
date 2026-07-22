@@ -29,5 +29,13 @@ Crush - When this deals 4 or more damage to a hero, put all cards in all arsenal
 
 Keywords: [[kw-crush]]
 Rulings: search "Fault Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS009.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB328-RF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG032.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR018.webp)
+
+## Images
+
+![APS009 - Fault Line (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS009.webp)
+![FAB328 - Fault Line (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB328-RF.webp)
+![MPG032 - Fault Line (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG032.webp)
+![SBR018 - Fault Line (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR018.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ Ward 2"
 Keywords: [[kw-ward]]
 Variants: [[card-single-minded-determination-red]] · [[card-single-minded-determination-blue]]
 Rulings: search "Single Minded Determination" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST147.png)
+
+## Images
+
+![MST147 - Single Minded Determination (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST147.png)
 
 ## Notes

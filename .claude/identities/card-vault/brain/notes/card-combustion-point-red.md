@@ -26,5 +26,10 @@ codes: [UPR050]
 You may banish a non-equipment defending card with {d} less than the number of Draconic chain links you control."
 
 Rulings: search "Combustion Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR050.png)
+
+## Images
+
+![UPR050 - Combustion Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR050.png)
 
 ## Notes

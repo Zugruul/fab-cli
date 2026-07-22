@@ -27,5 +27,10 @@ codes: [SUP130]
 When this hits a Guardian hero, destroy an aura they control."
 
 Rulings: search "Disturb the Peace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP130.webp)
+
+## Images
+
+![SUP130 - Disturb the Peace (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP130.webp)
 
 ## Notes

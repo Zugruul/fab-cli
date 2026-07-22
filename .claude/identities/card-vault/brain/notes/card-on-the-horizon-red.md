@@ -24,5 +24,13 @@ codes: [GEM067, SEA241, SEN018, SIY017]
 
 Variants: [[card-on-the-horizon-yellow]] · [[card-on-the-horizon-blue]]
 Rulings: search "On the Horizon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM067.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA241.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN018.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY017.webp)
+
+## Images
+
+![GEM067 - On the Horizon (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM067.webp)
+![SEA241 - On the Horizon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA241.png)
+![SEN018 - On the Horizon (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN018.webp)
+![SIY017 - On the Horizon (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY017.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [PEN322]
 "This card's {p} is equal to the highest base {p} of weapons you control."
 
 Rulings: search "Rockyard Rodeo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN322.webp)
+
+## Images
+
+![PEN322 - Rockyard Rodeo (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN322.webp)
 
 ## Notes

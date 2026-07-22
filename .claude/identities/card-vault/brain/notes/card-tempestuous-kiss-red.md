@@ -30,5 +30,11 @@ The first time this deals damage to a hero, they discard a card."
 
 Keywords: [[kw-quickstrike]]
 Rulings: search "Tempestuous Kiss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN051.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN051-CF.webp)
+
+## Images
+
+![OMN051 - Tempestuous Kiss (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN051.webp)
+![OMN051 - Tempestuous Kiss (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN051-CF.webp)
 
 ## Notes

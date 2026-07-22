@@ -24,5 +24,14 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
 
 Adult version: [[card-gravy-bones-shipwrecked-looter]]
 Rulings: search "Gravy Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB002-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044_V2_BACK.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB001.webp)
+
+## Images
+
+![AGB002 - Gravy Bones](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB002-RF.webp)
+![SEA044 - Gravy Bones](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044.png)
+![SEA044 - Gravy Bones](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044_V2.png)
+![SEA044 - Gravy Bones](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044_V2_BACK.png)
+![SGB001 - Gravy Bones](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB001.webp)
 
 ## Notes

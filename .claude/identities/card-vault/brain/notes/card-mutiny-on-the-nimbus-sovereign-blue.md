@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-steal]] · [[kw-overpower]]
 Rulings: search "Mutiny on the Nimbus Sovereign" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177_V2.png)
+
+## Images
+
+![SEA177 - Mutiny on the Nimbus Sovereign (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177.png)
+![SEA177 - Mutiny on the Nimbus Sovereign (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177_V2.png)
 
 ## Notes

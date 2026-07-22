@@ -27,5 +27,13 @@ codes: [BOL027, MON074, PSM024]
 
 Variants: [[card-illuminate-red]] · [[card-illuminate-yellow]]
 Rulings: search "Illuminate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL027.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON074.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON074.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/PSM024.width-450.png)
+
+## Images
+
+![BOL027 - Illuminate (blue)](https://storage.googleapis.com/fabmaster/media/images/BOL027.width-450.png)
+![MON074 - Illuminate (blue)](https://storage.googleapis.com/fabmaster/media/images/MON074.width-450.png)
+![MON074 - Illuminate (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON074.width-450.png)
+![PSM024 - Illuminate (blue)](https://storage.googleapis.com/fabmaster/media/images/PSM024.width-450.png)
 
 ## Notes

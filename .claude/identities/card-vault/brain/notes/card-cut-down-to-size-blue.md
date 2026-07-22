@@ -27,5 +27,10 @@ codes: [OUT203]
 
 Variants: [[card-cut-down-to-size-red]] · [[card-cut-down-to-size-yellow]]
 Rulings: search "Cut Down to Size" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT203.width-450.png)
+
+## Images
+
+![OUT203 - Cut Down to Size (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT203.width-450.png)
 
 ## Notes

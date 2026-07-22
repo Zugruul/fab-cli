@@ -28,5 +28,11 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
 
 Keywords: [[kw-go-again]]
 Rulings: search "Flurry Stance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB312.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT126.png)
+
+## Images
+
+![FAB312 - Flurry Stance (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB312.png)
+![HNT126 - Flurry Stance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT126.png)
 
 ## Notes

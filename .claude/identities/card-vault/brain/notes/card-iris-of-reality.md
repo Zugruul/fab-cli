@@ -22,5 +22,15 @@ codes: [FAB098, FAB156, LGS048, MON088, PSM003]
 
 Keywords: [[kw-attack]] · [[kw-go-again]]
 Rulings: search "Iris of Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB098.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB156.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS048.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/MON088.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-MON088.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/PSM003.width-450.png)
+
+## Images
+
+![FAB098 - Iris of Reality](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB098.png)
+![FAB156 - Iris of Reality](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB156.png)
+![LGS048 - Iris of Reality](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS048.png)
+![MON088 - Iris of Reality](https://storage.googleapis.com/fabmaster/media/images/MON088.width-450.png)
+![MON088 - Iris of Reality](https://storage.googleapis.com/fabmaster/media/images/U-MON088.width-450.png)
+![PSM003 - Iris of Reality](https://storage.googleapis.com/fabmaster/media/images/PSM003.width-450.png)
 
 ## Notes

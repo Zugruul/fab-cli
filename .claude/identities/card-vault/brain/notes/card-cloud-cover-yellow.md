@@ -24,5 +24,11 @@ codes: [AUR023, PEN247]
 
 Variants: [[card-cloud-cover-red]] · [[card-cloud-cover-blue]]
 Rulings: search "Cloud Cover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR023.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN247.webp)
+
+## Images
+
+![AUR023 - Cloud Cover (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR023.webp)
+![PEN247 - Cloud Cover (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN247.webp)
 
 ## Notes

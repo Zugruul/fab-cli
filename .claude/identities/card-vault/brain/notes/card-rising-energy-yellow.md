@@ -27,5 +27,10 @@ codes: [HVY184]
 
 Variants: [[card-rising-energy-red]] · [[card-rising-energy-blue]]
 Rulings: search "Rising Energy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY184.png)
+
+## Images
+
+![HVY184 - Rising Energy (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY184.png)
 
 ## Notes

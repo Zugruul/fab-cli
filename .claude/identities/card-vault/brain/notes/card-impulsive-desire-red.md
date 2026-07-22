@@ -31,5 +31,11 @@ Whenever this banishes a reaction or instant card, gain 1{h}."
 Keywords: [[kw-stealth]]
 Variants: [[card-impulsive-desire-yellow]] · [[card-impulsive-desire-blue]]
 Rulings: search "Impulsive Desire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST121.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU011.png)
+
+## Images
+
+![MST121 - Impulsive Desire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST121.png)
+![NUU011 - Impulsive Desire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU011.png)
 
 ## Notes

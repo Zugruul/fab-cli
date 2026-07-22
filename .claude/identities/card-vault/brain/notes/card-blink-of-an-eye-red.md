@@ -30,5 +30,11 @@ Fragment"
 
 Keywords: [[kw-fragment]]
 Rulings: search "Blink of an Eye" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS007.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN006.webp)
+
+## Images
+
+![AZS007 - Blink of an Eye (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS007.webp)
+![OMN006 - Blink of an Eye (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN006.webp)
 
 ## Notes

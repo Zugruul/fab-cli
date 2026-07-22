@@ -31,5 +31,10 @@ Fragment"
 Keywords: [[kw-fragment]]
 Variants: [[card-shattering-flowtide-red]] · [[card-shattering-flowtide-blue]]
 Rulings: search "Shattering Flowtide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN025.webp)
+
+## Images
+
+![OMN025 - Shattering Flowtide (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN025.webp)
 
 ## Notes

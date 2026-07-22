@@ -30,5 +30,11 @@ codes: [MON038]
 Keywords: [[kw-go-again]]
 Variants: [[card-battlefield-blitz-red]] · [[card-battlefield-blitz-yellow]]
 Rulings: search "Battlefield Blitz" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON038.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON038.width-450.png)
+
+## Images
+
+![MON038 - Battlefield Blitz (blue)](https://storage.googleapis.com/fabmaster/media/images/MON038.width-450.png)
+![MON038 - Battlefield Blitz (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON038.width-450.png)
 
 ## Notes

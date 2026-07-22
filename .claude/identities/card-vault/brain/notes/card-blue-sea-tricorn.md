@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Blue Sea Tricorn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS392.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA126.png)
+
+## Images
+
+![LGS392 - Blue Sea Tricorn](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS392.png)
+![SEA126 - Blue Sea Tricorn](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA126.png)
 
 ## Notes

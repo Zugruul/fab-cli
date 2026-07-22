@@ -26,5 +26,11 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Korshem, Crossroad of Elements" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE000_vertical.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE000.width-450.png)
+
+## Images
+
+![ELE000 - Korshem, Crossroad of Elements](https://storage.googleapis.com/fabmaster/media/images/ELE000_vertical.width-450.png)
+![ELE000 - Korshem, Crossroad of Elements](https://storage.googleapis.com/fabmaster/media/images/U-ELE000.width-450.png)
 
 ## Notes

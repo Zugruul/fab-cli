@@ -27,5 +27,11 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Pulse of Isenloft" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE114.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE114.width-450.png)
+
+## Images
+
+![ELE114 - Pulse of Isenloft (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE114.width-450.png)
+![ELE114 - Pulse of Isenloft (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE114.width-450.png)
 
 ## Notes

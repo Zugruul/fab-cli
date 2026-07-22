@@ -25,5 +25,13 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
 
 Adult version: [[card-fang-dracai-of-blades]]
 Rulings: search "Fang" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG001-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT099.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT099-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT099-MV_BACK.webp)
+
+## Images
+
+![FNG001 - Fang](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG001-RF.webp)
+![HNT099 - Fang](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT099.png)
+![HNT099 - Fang](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT099-MV.webp)
+![HNT099 - Fang](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT099-MV_BACK.webp)
 
 ## Notes

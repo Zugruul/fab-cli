@@ -30,5 +30,12 @@ When this hits, put it on the bottom of its owner's deck."
 Keywords: [[kw-boost]]
 Variants: [[card-under-loop-yellow]] · [[card-under-loop-blue]]
 Rulings: search "Under Loop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO216.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA019.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC016.png)
+
+## Images
+
+![EVO216 - Under Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO216.png)
+![SDA019 - Under Loop (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA019.webp)
+![TCC016 - Under Loop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC016.png)
 
 ## Notes

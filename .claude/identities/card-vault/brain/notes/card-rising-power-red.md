@@ -27,5 +27,11 @@ codes: [HVY146, KYO011]
 
 Variants: [[card-rising-power-yellow]] · [[card-rising-power-blue]]
 Rulings: search "Rising Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY146.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO011.png)
+
+## Images
+
+![HVY146 - Rising Power (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY146.png)
+![KYO011 - Rising Power (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO011.png)
 
 ## Notes

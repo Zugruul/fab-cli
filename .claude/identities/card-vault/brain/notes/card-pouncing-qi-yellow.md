@@ -29,5 +29,11 @@ codes: [DYN057, MST183]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-pouncing-qi-red]] · [[card-pouncing-qi-blue]]
 Rulings: search "Pouncing Qi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN057.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST183.png)
+
+## Images
+
+![DYN057 - Pouncing Qi (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN057.png)
+![MST183 - Pouncing Qi (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST183.png)
 
 ## Notes

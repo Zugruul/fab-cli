@@ -27,5 +27,15 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Rising Sun, Setting Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG028.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS287-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST100.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST100_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN035.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN026.png)
+
+## Images
+
+![ENG028 - Rising Sun, Setting Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG028.png)
+![LGS287 - Rising Sun, Setting Moon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS287-RF.webp)
+![MST100 - Rising Sun, Setting Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST100.png)
+![MST100 - Rising Sun, Setting Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST100_V2.png)
+![SEN035 - Rising Sun, Setting Moon (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN035.webp)
+![ZEN026 - Rising Sun, Setting Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN026.png)
 
 ## Notes

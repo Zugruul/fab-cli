@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Mask of Many Faces" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT003.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT049.width-450.png)
+
+## Images
+
+![KAT003 - Mask of Many Faces](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT003.png)
+![OUT049 - Mask of Many Faces](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT049.width-450.png)
 
 ## Notes

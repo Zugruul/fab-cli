@@ -27,5 +27,11 @@ codes: [OUT209, SUP232]
 
 Variants: [[card-feisty-locals-red]] · [[card-feisty-locals-yellow]]
 Rulings: search "Feisty Locals" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT209.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP232.webp)
+
+## Images
+
+![OUT209 - Feisty Locals (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT209.width-450.png)
+![SUP232 - Feisty Locals (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP232.webp)
 
 ## Notes

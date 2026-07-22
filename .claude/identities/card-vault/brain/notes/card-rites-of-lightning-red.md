@@ -32,5 +32,12 @@ If you have dealt arcane damage this turn, Rites of Lightning gains go again."
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Variants: [[card-rites-of-lightning-yellow]] · [[card-rites-of-lightning-blue]]
 Rulings: search "Rites of Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2021-ELE-BRI/BRI027.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE070.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE070.width-450.png)
+
+## Images
+
+![BRI027 - Rites of Lightning (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-ELE-BRI/BRI027.png)
+![ELE070 - Rites of Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/ELE070.width-450.png)
+![ELE070 - Rites of Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE070.width-450.png)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [MST220]
 
 Variants: [[card-evasive-leap-red]] · [[card-evasive-leap-yellow]]
 Rulings: search "Evasive Leap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST220.png)
+
+## Images
+
+![MST220 - Evasive Leap (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST220.png)
 
 ## Notes

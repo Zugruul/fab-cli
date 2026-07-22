@@ -27,5 +27,11 @@ codes: [HNT232, WOD012]
 
 Variants: [[card-tip-off-yellow]] · [[card-tip-off-blue]]
 Rulings: search "Tip-Off" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT232.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD012.webp)
+
+## Images
+
+![HNT232 - Tip-Off (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT232.png)
+![WOD012 - Tip-Off (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD012.webp)
 
 ## Notes

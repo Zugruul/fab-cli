@@ -28,5 +28,11 @@ codes: [EVO057, FAB174]
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Demolition Protocol" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO057.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB174.png)
+
+## Images
+
+![EVO057 - Demolition Protocol (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO057.png)
+![FAB174 - Demolition Protocol (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB174.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [SEA069]
 Keywords: [[kw-go-again]]
 Variants: [[card-jittery-bones-red]] · [[card-jittery-bones-blue]]
 Rulings: search "Jittery Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA069.png)
+
+## Images
+
+![SEA069 - Jittery Bones (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA069.png)
 
 ## Notes

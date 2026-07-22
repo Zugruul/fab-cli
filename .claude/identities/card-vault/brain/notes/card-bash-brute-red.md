@@ -27,5 +27,10 @@ codes: [SUP184]
 When this hits a Brute hero, destroy an aura token they control."
 
 Rulings: search "Bash Brute" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP184.webp)
+
+## Images
+
+![SUP184 - Bash Brute (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP184.webp)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [GEM098, SUP131]
 "When this defends together with a card with 6 or more {p}, create a Vigor token."
 
 Rulings: search "Energetic Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM098.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP131.webp)
+
+## Images
+
+![GEM098 - Energetic Impact (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM098.webp)
+![SUP131 - Energetic Impact (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP131.webp)
 
 ## Notes

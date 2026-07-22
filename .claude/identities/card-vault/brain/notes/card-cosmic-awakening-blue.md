@@ -28,5 +28,10 @@ If 2 Chi were pitched to play this, Cosmic Awakening's {p} is 15.
 If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20."
 
 Rulings: search "Cosmic Awakening" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png)
+
+## Images
+
+![MST076 - Cosmic Awakening (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png)
 
 ## Notes

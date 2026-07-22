@@ -27,5 +27,13 @@ Essence of Earth"
 Keywords: [[kw-essence]]
 Adult version: [[card-verdance-thorn-of-the-rose]]
 Rulings: search "Verdance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS014.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS014-MV.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS014-MV_BACK.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER001-RF.webp)
+
+## Images
+
+![ROS014 - Verdance](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS014.png)
+![ROS014 - Verdance](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS014-MV.png)
+![ROS014 - Verdance](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS014-MV_BACK.png)
+![VER001 - Verdance](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER001-RF.webp)
 
 ## Notes

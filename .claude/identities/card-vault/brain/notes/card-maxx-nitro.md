@@ -25,5 +25,12 @@ Hyper Drivers you control get crank."
 
 Keywords: [[kw-crank]]
 Rulings: search "Maxx Nitro" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO005.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER092.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER098.png)
+
+## Images
+
+![EVO005 - Maxx Nitro](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO005.png)
+![HER092 - Maxx Nitro](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER092.png)
+![HER098 - Maxx Nitro](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER098.png)
 
 ## Notes

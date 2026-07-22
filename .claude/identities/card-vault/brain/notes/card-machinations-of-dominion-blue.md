@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-overpower]]
 Rulings: search "Machinations of Dominion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS118.png)
+
+## Images
+
+![ROS118 - Machinations of Dominion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS118.png)
 
 ## Notes

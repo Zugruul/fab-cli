@@ -23,5 +23,11 @@ codes: [HVY142, LGS250]
 "When this defends, if you control a Might token, you may put an attack action card from your graveyard on top of your deck."
 
 Rulings: search "Wall of Meat and Muscle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY142.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS250.png)
+
+## Images
+
+![HVY142 - Wall of Meat and Muscle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY142.png)
+![LGS250 - Wall of Meat and Muscle (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS250.png)
 
 ## Notes

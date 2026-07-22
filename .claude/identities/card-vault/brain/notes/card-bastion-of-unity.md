@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-unity]] · [[kw-temper]]
 Rulings: search "Bastion of Unity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD206.png)
+
+## Images
+
+![DTD206 - Bastion of Unity](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD206.png)
 
 ## Notes

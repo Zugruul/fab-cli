@@ -27,5 +27,10 @@ Action - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of the
 
 Keywords: [[kw-legendary]]
 Rulings: search "Imperial Warhorn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN242.png)
+
+## Images
+
+![DYN242 - Imperial Warhorn (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN242.png)
 
 ## Notes

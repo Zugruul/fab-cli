@@ -26,5 +26,11 @@ codes: [FAB429, PEN209]
 
 Keywords: [[kw-bond]]
 Rulings: search "Stormwind Sheath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB429.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN209.webp)
+
+## Images
+
+![FAB429 - Stormwind Sheath (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB429.webp)
+![PEN209 - Stormwind Sheath (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN209.webp)
 
 ## Notes

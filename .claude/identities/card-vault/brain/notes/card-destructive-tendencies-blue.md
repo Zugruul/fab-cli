@@ -26,5 +26,10 @@ Remove all counters from target item token.
 Remove all counters from target aura token."
 
 Rulings: search "Destructive Tendencies" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN328.webp)
+
+## Images
+
+![PEN328 - Destructive Tendencies (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN328.webp)
 
 ## Notes

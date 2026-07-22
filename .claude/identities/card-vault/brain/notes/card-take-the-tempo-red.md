@@ -26,5 +26,10 @@ codes: [UPR161]
 "When Take the Tempo hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn."
 
 Rulings: search "Take the Tempo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR161.png)
+
+## Images
+
+![UPR161 - Take the Tempo (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR161.png)
 
 ## Notes

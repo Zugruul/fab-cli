@@ -29,5 +29,10 @@ When this hits a hero, they create a Courage and Quicken token."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Intoxicating Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO241.png)
+
+## Images
+
+![EVO241 - Intoxicating Shot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO241.png)
 
 ## Notes

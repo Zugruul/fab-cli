@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Strong Stomach for Adversity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP073.webp)
+
+## Images
+
+![SUP073 - Strong Stomach for Adversity](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP073.webp)
 
 ## Notes

@@ -27,5 +27,11 @@ Target attack gains +X{p}.
 If you've charged this turn, search your deck for an action card with cost X or less, reveal it, put it into your hand, then shuffle your deck."
 
 Rulings: search "Beacon of Victory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON033.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON033.width-450.png)
+
+## Images
+
+![MON033 - Beacon of Victory (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON033.width-450.png)
+![MON033 - Beacon of Victory (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON033.width-450.png)
 
 ## Notes

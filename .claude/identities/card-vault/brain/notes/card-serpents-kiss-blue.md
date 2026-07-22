@@ -31,5 +31,10 @@ When this hits a hero, look at the top 2 cards of their deck. Banish 1 of them."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Serpent's Kiss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN262.webp)
+
+## Images
+
+![PEN262 - Serpent's Kiss (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN262.webp)
 
 ## Notes

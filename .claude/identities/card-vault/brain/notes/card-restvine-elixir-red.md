@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Restvine Elixir" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN325.webp)
+
+## Images
+
+![PEN325 - Restvine Elixir (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN325.webp)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [DTD041]
 
 Variants: [[card-celestial-resolve-yellow]] · [[card-celestial-resolve-blue]]
 Rulings: search "Celestial Resolve" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD041.png)
+
+## Images
+
+![DTD041 - Celestial Resolve (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD041.png)
 
 ## Notes

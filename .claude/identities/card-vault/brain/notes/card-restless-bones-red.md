@@ -29,5 +29,11 @@ codes: [AGB011, SEA071]
 Keywords: [[kw-go-again]]
 Variants: [[card-restless-bones-yellow]] · [[card-restless-bones-blue]]
 Rulings: search "Restless Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB011.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA071.png)
+
+## Images
+
+![AGB011 - Restless Bones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB011.webp)
+![SEA071 - Restless Bones (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA071.png)
 
 ## Notes

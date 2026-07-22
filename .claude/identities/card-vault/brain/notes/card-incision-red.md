@@ -25,5 +25,13 @@ codes: [ARK015, FNG014, GEM029, HNT205]
 
 Variants: [[card-incision-yellow]] · [[card-incision-blue]]
 Rulings: search "Incision" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK015.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG014.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM029.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT205.png)
+
+## Images
+
+![ARK015 - Incision (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK015.webp)
+![FNG014 - Incision (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG014.webp)
+![GEM029 - Incision (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM029.webp)
+![HNT205 - Incision (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT205.png)
 
 ## Notes

@@ -31,5 +31,11 @@ If Vela Flash was fused, you may play your next 'non-attack' action card this tu
 Keywords: [[kw-fusion]]
 Variants: [[card-vela-flash-red]] · [[card-vela-flash-blue]]
 Rulings: search "Vela Flash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE077.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE077.width-450.png)
+
+## Images
+
+![ELE077 - Vela Flash (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE077.width-450.png)
+![ELE077 - Vela Flash (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE077.width-450.png)
 
 ## Notes

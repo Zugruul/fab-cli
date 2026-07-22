@@ -29,5 +29,14 @@ codes: [1HP071, CRU036, MPG059, TCC040]
 Keywords: [[kw-crush]]
 Variants: [[card-chokeslam-red]] · [[card-chokeslam-blue]]
 Rulings: search "Chokeslam" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP071.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU036.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU036.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG059.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC040.png)
+
+## Images
+
+![1HP071 - Chokeslam (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP071.width-450.png)
+![CRU036 - Chokeslam (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU036.png)
+![CRU036 - Chokeslam (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU036.png)
+![MPG059 - Chokeslam (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG059.webp)
+![TCC040 - Chokeslam (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC040.png)
 
 ## Notes

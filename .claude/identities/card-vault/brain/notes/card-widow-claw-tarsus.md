@@ -23,5 +23,10 @@ Spellvoid 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-spellvoid]]
 Rulings: search "Widow Claw Tarsus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS241.png)
+
+## Images
+
+![ROS241 - Widow Claw Tarsus](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS241.png)
 
 ## Notes

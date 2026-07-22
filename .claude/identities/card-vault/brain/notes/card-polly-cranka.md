@@ -25,5 +25,11 @@ Perched"
 
 Keywords: [[kw-crank]] · [[kw-perched]]
 Rulings: search "Polly Cranka" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003_V2.png)
+
+## Images
+
+![SEA003 - Polly Cranka](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png)
+![SEA003 - Polly Cranka](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003_V2.png)
 
 ## Notes

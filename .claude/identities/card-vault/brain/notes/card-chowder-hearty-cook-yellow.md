@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Chowder, Hearty Cook" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS402.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075_V2.png)
+
+## Images
+
+![LGS402 - Chowder, Hearty Cook (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS402.png)
+![SEA075 - Chowder, Hearty Cook (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075.png)
+![SEA075 - Chowder, Hearty Cook (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075_V2.png)
 
 ## Notes

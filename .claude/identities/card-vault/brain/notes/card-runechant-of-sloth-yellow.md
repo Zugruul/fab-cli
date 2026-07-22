@@ -28,5 +28,11 @@ At the beginning of your action phase or when you play an attack action card, de
 
 Keywords: [[kw-go-again]]
 Rulings: search "Runechant of Sloth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM182-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR156-MV.webp)
+
+## Images
+
+![GEM182 - Runechant of Sloth (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM182-RF.webp)
+![IAR156 - Runechant of Sloth (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR156-MV.webp)
 
 ## Notes

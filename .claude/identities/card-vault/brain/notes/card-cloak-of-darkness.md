@@ -23,5 +23,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Cloak of Darkness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD166.png)
+
+## Images
+
+![DTD166 - Cloak of Darkness](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD166.png)
 
 ## Notes

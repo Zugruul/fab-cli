@@ -23,5 +23,10 @@ codes: [OMN242]
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Fortitude of Anvilheim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN242-RF.webp)
+
+## Images
+
+![OMN242 - Fortitude of Anvilheim](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN242-RF.webp)
 
 ## Notes

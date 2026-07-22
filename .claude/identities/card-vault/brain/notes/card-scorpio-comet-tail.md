@@ -23,5 +23,12 @@ codes: [GEM143, OMN049, SBA002]
 When this hits a hero, deal 1 arcane damage to them."
 
 Rulings: search "Scorpio, Comet Tail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM143-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN049.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA002.webp)
+
+## Images
+
+![GEM143 - Scorpio, Comet Tail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM143-CF.webp)
+![OMN049 - Scorpio, Comet Tail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN049.webp)
+![SBA002 - Scorpio, Comet Tail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA002.webp)
 
 ## Notes

@@ -28,5 +28,12 @@ codes: [BET011, HVY064, TCC036]
 
 Keywords: [[kw-tower]]
 Rulings: search "Smack of Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET011.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY064.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC036.png)
+
+## Images
+
+![BET011 - Smack of Reality (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET011.png)
+![HVY064 - Smack of Reality (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY064.png)
+![TCC036 - Smack of Reality (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC036.png)
 
 ## Notes

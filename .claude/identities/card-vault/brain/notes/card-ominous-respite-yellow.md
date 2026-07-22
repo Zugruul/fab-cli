@@ -23,5 +23,10 @@ codes: [OMN218]
 "Gain 2{h}. If an aura you control was destroyed this turn, instead gain 3{h}."
 
 Rulings: search "Ominous Respite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN218.webp)
+
+## Images
+
+![OMN218 - Ominous Respite (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN218.webp)
 
 ## Notes

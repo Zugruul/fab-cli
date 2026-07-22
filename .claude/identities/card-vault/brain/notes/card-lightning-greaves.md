@@ -25,5 +25,11 @@ Battleworn"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Lightning Greaves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB251.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS071.png)
+
+## Images
+
+![FAB251 - Lightning Greaves](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB251.png)
+![ROS071 - Lightning Greaves](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS071.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Equip Scabskin Leathers. If you don't, negate this."
 
 Keywords: [[kw-legendary]] · [[kw-negate]]
 Rulings: search "Venomback Fabric" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS018.png)
+
+## Images
+
+![LSS018 - Venomback Fabric (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS018.png)
 
 ## Notes

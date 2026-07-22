@@ -25,5 +25,11 @@ codes: [UPR169]
 
 Keywords: [[kw-negate]]
 Rulings: search "Rewind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169_ALT.png)
+
+## Images
+
+![UPR169 - Rewind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169.png)
+![UPR169 - Rewind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169_ALT.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [HNT210]
 Keywords: [[kw-mark]]
 Variants: [[card-scar-tissue-red]] · [[card-scar-tissue-yellow]]
 Rulings: search "Scar Tissue" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT210.png)
+
+## Images
+
+![HNT210 - Scar Tissue (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT210.png)
 
 ## Notes

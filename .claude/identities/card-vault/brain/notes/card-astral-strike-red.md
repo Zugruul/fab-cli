@@ -31,5 +31,11 @@ codes: [FAB469, OMN145]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Astral Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB469-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN145.webp)
+
+## Images
+
+![FAB469 - Astral Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB469-CF.webp)
+![OMN145 - Astral Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN145.webp)
 
 ## Notes

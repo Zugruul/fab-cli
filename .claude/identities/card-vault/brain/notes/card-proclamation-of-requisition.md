@@ -20,5 +20,11 @@ codes: [JDG003, JDG004]
 "Action - Discard a red card, destroy Proclamation of Requisition: Each opponent chooses an item or landmark they control. Gain control of the chosen permanents."
 
 Rulings: search "Proclamation of Requisition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG003.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG004.png)
+
+## Images
+
+![JDG003 - Proclamation of Requisition](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG003.png)
+![JDG004 - Proclamation of Requisition](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG004.png)
 
 ## Notes

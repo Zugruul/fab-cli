@@ -30,5 +30,10 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
 Keywords: [[kw-go-again]]
 Rulings: search "Burn Them All" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR005.png)
+
+## Images
+
+![UPR005 - Burn Them All (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR005.png)
 
 ## Notes

@@ -26,5 +26,10 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
 
 Variants: [[card-pry-red]] · [[card-pry-blue]]
 Rulings: search "Pry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR129.width-450.png)
+
+## Images
+
+![EVR129 - Pry (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR129.width-450.png)
 
 ## Notes

@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-electryn-joltstep-yellow]] · [[card-electryn-joltstep-blue]]
 Rulings: search "Electryn Joltstep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM154.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN080.webp)
+
+## Images
+
+![GEM154 - Electryn Joltstep (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM154.webp)
+![OMN080 - Electryn Joltstep (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN080.webp)
 
 ## Notes

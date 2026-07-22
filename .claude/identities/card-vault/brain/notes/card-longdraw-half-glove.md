@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Longdraw Half-glove" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST232.png)
+
+## Images
+
+![MST232 - Longdraw Half-glove](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST232.png)
 
 ## Notes

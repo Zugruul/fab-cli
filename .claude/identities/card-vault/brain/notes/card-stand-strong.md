@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Stand Strong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY010.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP169.webp)
+
+## Images
+
+![SLY010 - Stand Strong](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY010.webp)
+![SUP169 - Stand Strong](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP169.webp)
 
 ## Notes

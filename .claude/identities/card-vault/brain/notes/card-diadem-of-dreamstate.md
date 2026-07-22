@@ -23,5 +23,12 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Diadem of Dreamstate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD217.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD217_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB143.png)
+
+## Images
+
+![DTD217 - Diadem of Dreamstate](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD217.png)
+![DTD217 - Diadem of Dreamstate](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD217_V2.png)
+![FAB143 - Diadem of Dreamstate](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB143.png)
 
 ## Notes

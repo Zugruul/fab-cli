@@ -23,5 +23,11 @@ Spellvoid 1"
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Graven Gaslight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM106-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN136.webp)
+
+## Images
+
+![GEM106 - Graven Gaslight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM106-CF.webp)
+![PEN136 - Graven Gaslight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN136.webp)
 
 ## Notes

@@ -20,5 +20,10 @@ codes: [JDG025]
 "Action - Destroy this: Until the start of your next turn, the only actions heroes may play or activate are weapon and attack actions."
 
 Rulings: search "Proclamation of Combat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG025.png)
+
+## Images
+
+![JDG025 - Proclamation of Combat](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG025.png)
 
 ## Notes

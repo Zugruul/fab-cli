@@ -29,5 +29,12 @@ When this enters or leaves the arena, you may put a Revered or Guardian attack a
 
 Keywords: [[kw-suspense]]
 Rulings: search "Up on a Pedestal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS028.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS441.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP014.webp)
+
+## Images
+
+![APS028 - Up on a Pedestal (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS028.webp)
+![LGS441 - Up on a Pedestal (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS441.webp)
+![SUP014 - Up on a Pedestal (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP014.webp)
 
 ## Notes

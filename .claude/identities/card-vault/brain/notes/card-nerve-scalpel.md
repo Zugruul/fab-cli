@@ -25,5 +25,11 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
 
 Keywords: [[kw-piercing]]
 Rulings: search "Nerve Scalpel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT005.width-450.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT006.width-450.png)
+
+## Images
+
+![OUT005 - Nerve Scalpel](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT005.width-450.png)
+![OUT006 - Nerve Scalpel](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT006.width-450.png)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [CRU097]
 At the beginning of your action phase, Shiyana becomes a copy of target hero until the start of your next turn, and gains "Cards you own are the class of your hero in addition to their other class types.""
 
 Rulings: search "Shiyana, Diamond Gemini" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU097.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU097.png)
+
+## Images
+
+![CRU097 - Shiyana, Diamond Gemini](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU097.png)
+![CRU097 - Shiyana, Diamond Gemini](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU097.png)
 
 ## Notes

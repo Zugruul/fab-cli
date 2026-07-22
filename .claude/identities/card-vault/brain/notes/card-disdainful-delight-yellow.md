@@ -23,5 +23,10 @@ codes: [SUP123]
 "While this is defending, if you've been booed this turn, this gets +1{d}."
 
 Rulings: search "Disdainful Delight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP123.webp)
+
+## Images
+
+![SUP123 - Disdainful Delight (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP123.webp)
 
 ## Notes

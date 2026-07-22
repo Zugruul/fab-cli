@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Humble Entrance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM092.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP060.webp)
+
+## Images
+
+![GEM092 - Humble Entrance (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM092.webp)
+![SUP060 - Humble Entrance (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP060.webp)
 
 ## Notes

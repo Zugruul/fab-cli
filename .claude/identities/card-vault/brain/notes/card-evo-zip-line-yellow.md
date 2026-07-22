@@ -28,5 +28,10 @@ When this is equipped, up to 1 target attack gets go again."
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Evo Zip Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO053.png)
+
+## Images
+
+![EVO053 - Evo Zip Line (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO053.png)
 
 ## Notes

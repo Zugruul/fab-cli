@@ -27,5 +27,12 @@ codes: [AJV010, ELE157]
 
 Variants: [[card-icy-encounter-yellow]] · [[card-icy-encounter-blue]]
 Rulings: search "Icy Encounter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE157.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE157.width-450.png)
+
+## Images
+
+![AJV010 - Icy Encounter (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV010.webp)
+![ELE157 - Icy Encounter (red)](https://storage.googleapis.com/fabmaster/media/images/ELE157.width-450.png)
+![ELE157 - Icy Encounter (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE157.width-450.png)
 
 ## Notes

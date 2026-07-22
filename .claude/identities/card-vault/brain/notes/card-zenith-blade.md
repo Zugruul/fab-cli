@@ -25,5 +25,13 @@ If this has been sharpened this turn, its first attack this turn gets go again."
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Zenith Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA002-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW005.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW005-MV.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW005-MV_BACK.webp)
+
+## Images
+
+![AHA002 - Zenith Blade](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA002-RF.webp)
+![MPW005 - Zenith Blade](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW005.webp)
+![MPW005 - Zenith Blade](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW005-MV.webp)
+![MPW005 - Zenith Blade](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW005-MV_BACK.webp)
 
 ## Notes

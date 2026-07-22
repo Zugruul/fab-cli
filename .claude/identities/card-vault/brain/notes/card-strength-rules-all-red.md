@@ -26,5 +26,10 @@ codes: [AKO013]
 "When this hits a hero, turn a card in their arsenal face-up, then banish an attack action card in their arsenal with {p} less than the damage dealt this way."
 
 Rulings: search "Strength Rules All" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO013.png)
+
+## Images
+
+![AKO013 - Strength Rules All (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO013.png)
 
 ## Notes

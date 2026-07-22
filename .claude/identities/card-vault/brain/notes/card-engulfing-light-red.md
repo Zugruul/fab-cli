@@ -31,5 +31,14 @@ If you've charged this turn, Engulfing Light gains "If this hits, put it into yo
 Keywords: [[kw-charge]]
 Variants: [[card-engulfing-light-yellow]] · [[card-engulfing-light-blue]]
 Rulings: search "Engulfing Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB009.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BOL014.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON048.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON048.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL014.webp)
+
+## Images
+
+![ASB009 - Engulfing Light (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB009.png)
+![BOL014 - Engulfing Light (red)](https://storage.googleapis.com/fabmaster/media/images/BOL014.width-450.png)
+![MON048 - Engulfing Light (red)](https://storage.googleapis.com/fabmaster/media/images/MON048.width-450.png)
+![MON048 - Engulfing Light (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON048.width-450.png)
+![SBL014 - Engulfing Light (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL014.webp)
 
 ## Notes

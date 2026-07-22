@@ -27,5 +27,13 @@ codes: [ASR021, CRU065, TCC099]
 
 Variants: [[card-flying-kick-red]] · [[card-flying-kick-yellow]]
 Rulings: search "Flying Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU065.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU065.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC099.png)
+
+## Images
+
+![ASR021 - Flying Kick (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR021.webp)
+![CRU065 - Flying Kick (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU065.png)
+![CRU065 - Flying Kick (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU065.png)
+![TCC099 - Flying Kick (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC099.png)
 
 ## Notes

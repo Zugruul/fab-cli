@@ -25,5 +25,12 @@ codes: [1HP365, WTR160]
 If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand."
 
 Rulings: search "Tome of Fyendal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP365.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR160.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR160.png)
+
+## Images
+
+![1HP365 - Tome of Fyendal (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP365.width-450.png)
+![WTR160 - Tome of Fyendal (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR160.png)
+![WTR160 - Tome of Fyendal (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR160.png)
 
 ## Notes

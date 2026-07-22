@@ -27,5 +27,14 @@ codes: [FNG015, GEM030, HNT208, SAR019, WOD014]
 Keywords: [[kw-mark]]
 Variants: [[card-scar-tissue-yellow]] · [[card-scar-tissue-blue]]
 Rulings: search "Scar Tissue" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG015.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM030.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT208.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR019.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD014.webp)
+
+## Images
+
+![FNG015 - Scar Tissue (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG015.webp)
+![GEM030 - Scar Tissue (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM030.webp)
+![HNT208 - Scar Tissue (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT208.png)
+![SAR019 - Scar Tissue (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR019.webp)
+![WOD014 - Scar Tissue (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD014.webp)
 
 ## Notes

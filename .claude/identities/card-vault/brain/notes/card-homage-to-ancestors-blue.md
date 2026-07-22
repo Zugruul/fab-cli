@@ -27,5 +27,14 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Homage to Ancestors" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG026.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS283-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST096.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST096_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN032.webp)
+
+## Images
+
+![ENG026 - Homage to Ancestors (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG026.png)
+![LGS283 - Homage to Ancestors (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS283-RF.webp)
+![MST096 - Homage to Ancestors (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST096.png)
+![MST096 - Homage to Ancestors (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST096_V2.png)
+![SEN032 - Homage to Ancestors (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN032.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [OMN105]
 
 Variants: [[card-core-reaction-red]] · [[card-core-reaction-yellow]]
 Rulings: search "Core Reaction" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN105.webp)
+
+## Images
+
+![OMN105 - Core Reaction (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN105.webp)
 
 ## Notes

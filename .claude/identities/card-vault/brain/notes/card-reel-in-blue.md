@@ -26,5 +26,10 @@ Reload"
 
 Keywords: [[kw-reload]]
 Rulings: search "Reel In" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY250.png)
+
+## Images
+
+![HVY250 - Reel In (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY250.png)
 
 ## Notes

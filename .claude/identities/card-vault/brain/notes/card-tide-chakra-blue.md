@@ -26,5 +26,11 @@ codes: [MST013, NUU025]
 
 Variants: [[card-tide-chakra-red]] · [[card-tide-chakra-yellow]]
 Rulings: search "Tide Chakra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST013.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU025.png)
+
+## Images
+
+![MST013 - Tide Chakra (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST013.png)
+![NUU025 - Tide Chakra (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU025.png)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [PEN006]
 "When this attacks, roll a 6 sided die. This gets +X{p}, where X is the number rolled."
 
 Rulings: search "Reckless Arithmetic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN006.webp)
+
+## Images
+
+![PEN006 - Reckless Arithmetic (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN006.webp)
 
 ## Notes

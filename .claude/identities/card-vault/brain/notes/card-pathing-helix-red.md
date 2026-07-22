@@ -27,5 +27,11 @@ codes: [CRU129]
 
 Variants: [[card-pathing-helix-yellow]] · [[card-pathing-helix-blue]]
 Rulings: search "Pathing Helix" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU129.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU129.png)
+
+## Images
+
+![CRU129 - Pathing Helix (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU129.png)
+![CRU129 - Pathing Helix (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU129.png)
 
 ## Notes

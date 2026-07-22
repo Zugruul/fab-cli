@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-mark]]
 Variants: [[card-sworn-vengeance-red]] · [[card-sworn-vengeance-blue]]
 Rulings: search "Sworn Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT141.png)
+
+## Images
+
+![FNG022 - Sworn Vengeance (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG022.webp)
+![HNT141 - Sworn Vengeance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT141.png)
 
 ## Notes

@@ -29,5 +29,12 @@ codes: [GEM101, SKA011, SUP143]
 Keywords: [[kw-go-again]]
 Variants: [[card-buckwild-yellow]] · [[card-buckwild-blue]]
 Rulings: search "Buckwild" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM101.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA011.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP143.webp)
+
+## Images
+
+![GEM101 - Buckwild (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM101.webp)
+![SKA011 - Buckwild (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA011.webp)
+![SUP143 - Buckwild (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP143.webp)
 
 ## Notes

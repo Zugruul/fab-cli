@@ -24,5 +24,17 @@ codes: [ANQ035, APR009, DRO027, FAB231, SDO021, SEN017, SLY019, UPR221]
 
 Variants: [[card-oasis-respite-yellow]] · [[card-oasis-respite-blue]]
 Rulings: search "Oasis Respite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ035.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR009.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/DRO027.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB231.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO021.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN017.webp) · [Image #7](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY019.webp) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR221.png)
+
+## Images
+
+![ANQ035 - Oasis Respite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ035.webp)
+![APR009 - Oasis Respite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR009.webp)
+![DRO027 - Oasis Respite (red)](https://storage.googleapis.com/fabmaster/media/images/DRO027.width-450.png)
+![FAB231 - Oasis Respite (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB231.png)
+![SDO021 - Oasis Respite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO021.webp)
+![SEN017 - Oasis Respite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN017.webp)
+![SLY019 - Oasis Respite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY019.webp)
+![UPR221 - Oasis Respite (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR221.png)
 
 ## Notes

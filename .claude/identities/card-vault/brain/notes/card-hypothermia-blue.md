@@ -26,5 +26,10 @@ codes: [UPR139]
 At the beginning of your end phase, destroy Hypothermia."
 
 Rulings: search "Hypothermia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR139.png)
+
+## Images
+
+![UPR139 - Hypothermia (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR139.png)
 
 ## Notes

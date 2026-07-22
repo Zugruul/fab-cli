@@ -29,5 +29,11 @@ Channel Ice - At the beginning of your end phase, put a flow counter on this, th
 
 Keywords: [[kw-go-again]] · [[kw-freeze]] · [[kw-channel]]
 Rulings: search "Channel Iceloch Glaze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN229.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN229-CF.webp)
+
+## Images
+
+![PEN229 - Channel Iceloch Glaze (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN229.webp)
+![PEN229 - Channel Iceloch Glaze (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN229-CF.webp)
 
 ## Notes

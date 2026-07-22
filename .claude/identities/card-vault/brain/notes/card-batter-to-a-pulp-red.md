@@ -29,5 +29,12 @@ Crush - When this deals 4 or more damage to a hero, destroy an equipment they co
 
 Keywords: [[kw-crush]]
 Rulings: search "Batter to a Pulp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS387.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS387.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS388-RF.webp)
+
+## Images
+
+![LGS387 - Batter to a Pulp (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS387.webp)
+![LGS387 - Batter to a Pulp (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS387.webp)
+![LGS388 - Batter to a Pulp (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS388-RF.webp)
 
 ## Notes

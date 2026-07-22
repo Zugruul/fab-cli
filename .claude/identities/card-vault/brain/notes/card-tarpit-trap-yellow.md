@@ -25,5 +25,12 @@ codes: [LGS140, OUT108, RIP013]
 "When this defends an attack with go again, the next time an attack action card hits this turn, effects don't trigger."
 
 Rulings: search "Tarpit Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS140.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT108.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP013.png)
+
+## Images
+
+![LGS140 - Tarpit Trap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS140.png)
+![OUT108 - Tarpit Trap (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT108.width-450.png)
+![RIP013 - Tarpit Trap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP013.png)
 
 ## Notes

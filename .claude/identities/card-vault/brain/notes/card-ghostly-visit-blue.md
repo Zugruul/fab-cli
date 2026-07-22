@@ -30,5 +30,12 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-ghostly-visit-red]] · [[card-ghostly-visit-yellow]]
 Rulings: search "Ghostly Visit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB040.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON205.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON205.width-450.png)
+
+## Images
+
+![FAB040 - Ghostly Visit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB040.png)
+![MON205 - Ghostly Visit (blue)](https://storage.googleapis.com/fabmaster/media/images/MON205.width-450.png)
+![MON205 - Ghostly Visit (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON205.width-450.png)
 
 ## Notes

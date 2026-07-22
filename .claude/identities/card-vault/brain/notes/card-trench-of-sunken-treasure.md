@@ -25,5 +25,12 @@ Blade Break"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-blade-break]]
 Rulings: search "Trench of Sunken Treasure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB125.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT094.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT/EN/OUT094_EA.png)
+
+## Images
+
+![FAB125 - Trench of Sunken Treasure](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB125.png)
+![OUT094 - Trench of Sunken Treasure](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT094.width-450.png)
+![OUT094 - Trench of Sunken Treasure](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT/EN/OUT094_EA.png)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [LGS099]
 "Put a Cracked Bauble from outside the game on top of target hero's deck."
 
 Rulings: search "Shitty Xmas Present" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS099.png)
+
+## Images
+
+![LGS099 - Shitty Xmas Present (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS099.png)
 
 ## Notes

@@ -28,5 +28,11 @@ Instant - {r}{r}, destroy this: Return a blue Mechanologist attack action card f
 
 Keywords: [[kw-crank]]
 Rulings: search "Backup Protocol: BLU" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO083.png)
+
+## Images
+
+![AIO025 - Backup Protocol: BLU (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO025.webp)
+![EVO083 - Backup Protocol: BLU (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO083.png)
 
 ## Notes

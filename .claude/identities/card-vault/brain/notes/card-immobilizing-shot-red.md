@@ -26,5 +26,10 @@ codes: [DYN154]
 "If Immobilizing Shot has an aim counter, it has "When this hits a hero, they can't play more than 1 attack action card and 1 'non-attack' action card during their next action phase.""
 
 Rulings: search "Immobilizing Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN154.png)
+
+## Images
+
+![DYN154 - Immobilizing Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN154.png)
 
 ## Notes

@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Reach Beyond the Grave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN154.webp)
+
+## Images
+
+![PEN154 - Reach Beyond the Grave](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN154.webp)
 
 ## Notes

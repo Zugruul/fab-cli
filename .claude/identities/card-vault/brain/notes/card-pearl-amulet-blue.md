@@ -27,5 +27,11 @@ Legend of the Watery Grave"
 
 Keywords: [[kw-legendary]] · [[kw-watery-grave]]
 Rulings: search "Pearl Amulet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA193.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA193_V2.png)
+
+## Images
+
+![SEA193 - Pearl Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA193.png)
+![SEA193 - Pearl Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA193_V2.png)
 
 ## Notes

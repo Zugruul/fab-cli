@@ -28,5 +28,12 @@ Spectra"
 
 Keywords: [[kw-spectra]]
 Rulings: search "Shimmers of Silver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR140.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG026.png)
+
+## Images
+
+![APR027 - Shimmers of Silver (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR027.webp)
+![EVR140 - Shimmers of Silver (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR140.width-450.png)
+![JDG026 - Shimmers of Silver (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG026.png)
 
 ## Notes

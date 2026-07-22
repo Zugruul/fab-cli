@@ -23,5 +23,11 @@ codes: [FAB349, SEA055]
 "When this defends, you may {t} an ally you control. If you do, this gets +1{d}."
 
 Rulings: search "Hoist 'Em Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB349-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA055.png)
+
+## Images
+
+![FAB349 - Hoist 'Em Up (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB349-RF.webp)
+![SEA055 - Hoist 'Em Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA055.png)
 
 ## Notes

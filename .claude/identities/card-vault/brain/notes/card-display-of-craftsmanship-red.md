@@ -25,5 +25,10 @@ codes: [PEN051]
 
 Variants: [[card-display-of-craftsmanship-yellow]] · [[card-display-of-craftsmanship-blue]]
 Rulings: search "Display of Craftsmanship" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN051.webp)
+
+## Images
+
+![PEN051 - Display of Craftsmanship (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN051.webp)
 
 ## Notes

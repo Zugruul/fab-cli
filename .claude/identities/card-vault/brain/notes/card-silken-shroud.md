@@ -23,5 +23,10 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Silken Shroud" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN123.webp)
+
+## Images
+
+![PEN123 - Silken Shroud](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN123.webp)
 
 ## Notes

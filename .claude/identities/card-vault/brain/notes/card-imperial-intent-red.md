@@ -26,5 +26,10 @@ codes: [HNT109]
 Target dagger attack gets +2{p}."
 
 Rulings: search "Imperial Intent" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT109.png)
+
+## Images
+
+![HNT109 - Imperial Intent (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT109.png)
 
 ## Notes

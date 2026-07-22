@@ -29,5 +29,11 @@ codes: [SKA027, SUP145]
 Keywords: [[kw-go-again]]
 Variants: [[card-buckwild-red]] · [[card-buckwild-yellow]]
 Rulings: search "Buckwild" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA027.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP145.webp)
+
+## Images
+
+![SKA027 - Buckwild (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA027.webp)
+![SUP145 - Buckwild (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP145.webp)
 
 ## Notes

@@ -23,5 +23,17 @@ codes: [1HP301, ARC113, CRU158, HER012, HER020, WIN008]
 
 Young version: [[card-kano]]
 Rulings: search "Kano, Dracai of Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP301.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC113.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC113.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU158.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU158.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER012.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER020.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN008.png)
+
+## Images
+
+![1HP301 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/media/images/1HP301.width-450.png)
+![ARC113 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC113.png)
+![ARC113 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC113.png)
+![CRU158 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU158.png)
+![CRU158 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU158.png)
+![HER012 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER012.png)
+![HER020 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER020.png)
+![WIN008 - Kano, Dracai of Aether](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN008.png)
 
 ## Notes

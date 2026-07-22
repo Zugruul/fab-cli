@@ -19,5 +19,10 @@ codes: [SMP028]
 "This attacks each hero."
 
 Rulings: search "Lion's Pounce" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP028.webp)
+
+## Images
+
+![SMP028 - Lion's Pounce](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP028.webp)
 
 ## Notes

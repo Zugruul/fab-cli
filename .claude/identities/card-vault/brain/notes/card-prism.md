@@ -24,5 +24,15 @@ codes: [HER034, MON002, PEN343, PSM001]
 
 Adult version: [[card-prism-awakener-of-sol]] · [[card-prism-sculptor-of-arc-light]]
 Rulings: search "Prism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER034.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON002.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON002.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN343-MV.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN343-MV_BACK.webp) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/PSM001.width-450.png)
+
+## Images
+
+![HER034 - Prism](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER034.png)
+![MON002 - Prism](https://storage.googleapis.com/fabmaster/media/images/MON002.width-450.png)
+![MON002 - Prism](https://storage.googleapis.com/fabmaster/media/images/U-MON002.width-450.png)
+![PEN343 - Prism](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN343-MV.webp)
+![PEN343 - Prism](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN343-MV_BACK.webp)
+![PSM001 - Prism](https://storage.googleapis.com/fabmaster/media/images/PSM001.width-450.png)
 
 ## Notes

@@ -28,5 +28,10 @@ When this defends an attack with go again, the attacking hero discards their han
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Collapsing Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT103.width-350.png)
+
+## Images
+
+![OUT103 - Collapsing Trap (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT103.width-350.png)
 
 ## Notes

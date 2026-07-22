@@ -26,5 +26,10 @@ codes: [DTD110]
 If a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase."
 
 Rulings: search "Expendable Limbs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD110.png)
+
+## Images
+
+![DTD110 - Expendable Limbs (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD110.png)
 
 ## Notes

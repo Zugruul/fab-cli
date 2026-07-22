@@ -26,5 +26,10 @@ codes: [MPG128]
 "Instant - Discard this: Target attack gets -1{p} and loses and can't gain dominate."
 
 Rulings: search "Fearless Confrontation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG128.webp)
+
+## Images
+
+![MPG128 - Fearless Confrontation (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG128.webp)
 
 ## Notes

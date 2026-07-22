@@ -32,5 +32,10 @@ Blood Debt"
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Variants: [[card-deathly-wail-yellow]] · [[card-deathly-wail-blue]]
 Rulings: search "Deathly Wail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/DTD146.webp)
+
+## Images
+
+![DTD146 - Deathly Wail (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/DTD146.webp)
 
 ## Notes

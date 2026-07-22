@@ -24,5 +24,12 @@ codes: [AUR026, ELE185]
 
 Variants: [[card-lightning-press-red]] · [[card-lightning-press-yellow]]
 Rulings: search "Lightning Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE185.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE185.width-450.png)
+
+## Images
+
+![AUR026 - Lightning Press (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR026.webp)
+![ELE185 - Lightning Press (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE185.width-450.png)
+![ELE185 - Lightning Press (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE185.width-450.png)
 
 ## Notes

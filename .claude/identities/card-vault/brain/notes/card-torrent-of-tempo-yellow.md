@@ -29,5 +29,12 @@ codes: [1HP129, CRU070]
 Keywords: [[kw-go-again]]
 Variants: [[card-torrent-of-tempo-red]] · [[card-torrent-of-tempo-blue]]
 Rulings: search "Torrent of Tempo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP129.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU070.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU070.png)
+
+## Images
+
+![1HP129 - Torrent of Tempo (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP129.width-450.png)
+![CRU070 - Torrent of Tempo (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU070.png)
+![CRU070 - Torrent of Tempo (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU070.png)
 
 ## Notes

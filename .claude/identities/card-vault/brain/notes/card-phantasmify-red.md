@@ -28,5 +28,13 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-phantasm]]
 Variants: [[card-phantasmify-yellow]] · [[card-phantasmify-blue]]
 Rulings: search "Phantasmify" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS054.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON095.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON095.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/PSM025.width-450.png)
+
+## Images
+
+![LGS054 - Phantasmify (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS054.png)
+![MON095 - Phantasmify (red)](https://storage.googleapis.com/fabmaster/media/images/MON095.width-450.png)
+![MON095 - Phantasmify (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON095.width-450.png)
+![PSM025 - Phantasmify (red)](https://storage.googleapis.com/fabmaster/media/images/PSM025.width-450.png)
 
 ## Notes

@@ -25,5 +25,11 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Starfield Veil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS003-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN248-CF.webp)
+
+## Images
+
+![AZS003 - Starfield Veil](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS003-RF.webp)
+![OMN248 - Starfield Veil](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN248-CF.webp)
 
 ## Notes

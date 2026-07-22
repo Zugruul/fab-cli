@@ -26,5 +26,11 @@ codes: [GEM100, SUP132]
 "If this has 6 or more {p}, it gets "When this hits a hero, destroy a card in their arsenal.""
 
 Rulings: search "Smashing Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM100.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP132.webp)
+
+## Images
+
+![GEM100 - Smashing Ground (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM100.webp)
+![SUP132 - Smashing Ground (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP132.webp)
 
 ## Notes

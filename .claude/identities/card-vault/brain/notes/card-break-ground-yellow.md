@@ -27,5 +27,11 @@ codes: [ELE132]
 
 Variants: [[card-break-ground-red]] · [[card-break-ground-blue]]
 Rulings: search "Break Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE132.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U.ELE132.width-450.png)
+
+## Images
+
+![ELE132 - Break Ground (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE132.width-450.png)
+![ELE132 - Break Ground (yellow)](https://storage.googleapis.com/fabmaster/media/images/U.ELE132.width-450.png)
 
 ## Notes

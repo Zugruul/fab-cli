@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-minnowism-red]] · [[card-minnowism-blue]]
 Rulings: search "Minnowism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON297.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON297.width-450.png)
+
+## Images
+
+![MON297 - Minnowism (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON297.width-450.png)
+![MON297 - Minnowism (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON297.width-450.png)
 
 ## Notes

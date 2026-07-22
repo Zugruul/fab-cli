@@ -26,5 +26,11 @@ codes: [SEA163]
 "If you control less Gold than an opponent, this gets +2{p}."
 
 Rulings: search "Gold Hunter Longboat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA163.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA163_V2.png)
+
+## Images
+
+![SEA163 - Gold Hunter Longboat (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA163.png)
+![SEA163 - Gold Hunter Longboat (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA163_V2.png)
 
 ## Notes

@@ -24,5 +24,12 @@ codes: [ANQ026, WTR163]
 Banish Remembrance."
 
 Rulings: search "Remembrance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR163.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR163.png)
+
+## Images
+
+![ANQ026 - Remembrance (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ026.webp)
+![WTR163 - Remembrance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR163.png)
+![WTR163 - Remembrance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR163.png)
 
 ## Notes

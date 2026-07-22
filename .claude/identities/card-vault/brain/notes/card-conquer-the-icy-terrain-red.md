@@ -27,5 +27,11 @@ codes: [GEM134, PEN231]
 
 Variants: [[card-conquer-the-icy-terrain-yellow]] · [[card-conquer-the-icy-terrain-blue]]
 Rulings: search "Conquer the Icy Terrain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM134.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN231.webp)
+
+## Images
+
+![GEM134 - Conquer the Icy Terrain (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM134.webp)
+![PEN231 - Conquer the Icy Terrain (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN231.webp)
 
 ## Notes

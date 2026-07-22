@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Double Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR160.png)
+
+## Images
+
+![UPR160 - Double Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR160.png)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [AHA007]
 
 Variants: [[card-deadly-display-blue]]
 Rulings: search "Deadly Display" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA007.webp)
+
+## Images
+
+![AHA007 - Deadly Display (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA007.webp)
 
 ## Notes

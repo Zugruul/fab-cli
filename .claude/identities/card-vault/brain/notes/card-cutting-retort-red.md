@@ -26,5 +26,10 @@ codes: [SUP215]
 "When this attacks a hero, you may pay up to {r}{r}{r}. Destroy that many aura tokens with different names they control. If you do, this gets +1{p} for each aura destroyed this way."
 
 Rulings: search "Cutting Retort" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP215.webp)
+
+## Images
+
+![SUP215 - Cutting Retort (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP215.webp)
 
 ## Notes

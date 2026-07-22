@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Dyed Silk Sleeves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN032.webp)
+
+## Images
+
+![PEN032 - Dyed Silk Sleeves](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN032.webp)
 
 ## Notes

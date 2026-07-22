@@ -29,5 +29,11 @@ codes: [ASR012, GEM163]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-seek-vengeance-blue]]
 Rulings: search "Seek Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR012.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM163.webp)
+
+## Images
+
+![ASR012 - Seek Vengeance (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR012.webp)
+![GEM163 - Seek Vengeance (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM163.webp)
 
 ## Notes

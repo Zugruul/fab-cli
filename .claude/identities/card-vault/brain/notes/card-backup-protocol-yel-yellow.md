@@ -28,5 +28,10 @@ Instant - {r}{r}, destroy this: Return a yellow Mechanologist attack action card
 
 Keywords: [[kw-crank]]
 Rulings: search "Backup Protocol: YEL" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO082.png)
+
+## Images
+
+![EVO082 - Backup Protocol: YEL (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO082.png)
 
 ## Notes

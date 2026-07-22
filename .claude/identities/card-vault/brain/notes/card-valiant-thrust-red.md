@@ -28,5 +28,12 @@ codes: [BOL017, MON039]
 
 Variants: [[card-valiant-thrust-yellow]] · [[card-valiant-thrust-blue]]
 Rulings: search "Valiant Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL017.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON039.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON039.width-450.png)
+
+## Images
+
+![BOL017 - Valiant Thrust (red)](https://storage.googleapis.com/fabmaster/media/images/BOL017.width-450.png)
+![MON039 - Valiant Thrust (red)](https://storage.googleapis.com/fabmaster/media/images/MON039.width-450.png)
+![MON039 - Valiant Thrust (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON039.width-450.png)
 
 ## Notes

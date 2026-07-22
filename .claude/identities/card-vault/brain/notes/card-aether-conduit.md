@@ -20,5 +20,12 @@ codes: [1HP304, CRU160]
 "Once per Turn Action - {r}{r}: Deal 2 arcane damage to target hero."
 
 Rulings: search "Aether Conduit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP304.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU160.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU160.png)
+
+## Images
+
+![1HP304 - Aether Conduit](https://storage.googleapis.com/fabmaster/media/images/1HP304.width-450.png)
+![CRU160 - Aether Conduit](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU160.png)
+![CRU160 - Aether Conduit](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU160.png)
 
 ## Notes

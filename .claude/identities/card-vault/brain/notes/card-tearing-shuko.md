@@ -24,5 +24,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Tearing Shuko" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN046.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA008.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC081.png)
+
+## Images
+
+![DYN046 - Tearing Shuko](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN046.png)
+![SFA008 - Tearing Shuko](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA008.webp)
+![TCC081 - Tearing Shuko](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC081.png)
 
 ## Notes

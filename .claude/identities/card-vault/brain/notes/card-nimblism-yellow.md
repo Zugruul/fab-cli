@@ -28,5 +28,15 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-nimblism-red]] · [[card-nimblism-blue]]
 Rulings: search "Nimblism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP418.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST222.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA033.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA239.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR219.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR219.png)
+
+## Images
+
+![1HP418 - Nimblism (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP418.width-450.png)
+![MST222 - Nimblism (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST222.png)
+![SBA033 - Nimblism (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA033.webp)
+![SEA239 - Nimblism (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA239.png)
+![WTR219 - Nimblism (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR219.png)
+![WTR219 - Nimblism (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR219.png)
 
 ## Notes

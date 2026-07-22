@@ -30,5 +30,10 @@ When this attacks, if it scrapped a card, this gets +1{p}."
 Keywords: [[kw-scrap]]
 Variants: [[card-junkyard-dogg-yellow]] · [[card-junkyard-dogg-blue]]
 Rulings: search "Junkyard Dogg" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO126.png)
+
+## Images
+
+![EVO126 - Junkyard Dogg (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO126.png)
 
 ## Notes

@@ -24,5 +24,12 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Testament of Valahai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-MV_BACK.webp)
+
+## Images
+
+![MPG004 - Testament of Valahai](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-RF.webp)
+![MPG004 - Testament of Valahai](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-MV.webp)
+![MPG004 - Testament of Valahai](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-MV_BACK.webp)
 
 ## Notes

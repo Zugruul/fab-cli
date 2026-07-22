@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Beat the Same Drum" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP219.webp)
+
+## Images
+
+![SUP219 - Beat the Same Drum (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP219.webp)
 
 ## Notes

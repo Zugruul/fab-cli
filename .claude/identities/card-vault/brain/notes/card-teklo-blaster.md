@@ -21,5 +21,10 @@ codes: [TCC002]
 "Once per Turn Action - {r}{r}{r}: Attack"
 
 Rulings: search "Teklo Blaster" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC002.png)
+
+## Images
+
+![TCC002 - Teklo Blaster](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC002.png)
 
 ## Notes

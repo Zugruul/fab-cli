@@ -27,5 +27,11 @@ codes: [SEA171]
 
 Variants: [[card-swindlers-grift-red]] · [[card-swindlers-grift-yellow]]
 Rulings: search "Swindler's Grift" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA171.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA171_V2.png)
+
+## Images
+
+![SEA171 - Swindler's Grift (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA171.png)
+![SEA171 - Swindler's Grift (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA171_V2.png)
 
 ## Notes

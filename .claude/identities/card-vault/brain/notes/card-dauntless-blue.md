@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-dauntless-red]] · [[card-dauntless-yellow]]
 Rulings: search "Dauntless" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU087.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU087.png)
+
+## Images
+
+![CRU087 - Dauntless (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU087.png)
+![CRU087 - Dauntless (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU087.png)
 
 ## Notes

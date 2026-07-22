@@ -25,5 +25,12 @@ codes: [1HP157, WTR127]
 
 Variants: [[card-steelblade-shunt-red]] · [[card-steelblade-shunt-blue]]
 Rulings: search "Steelblade Shunt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP157.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR127.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR127.png)
+
+## Images
+
+![1HP157 - Steelblade Shunt (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP157.width-450.png)
+![WTR127 - Steelblade Shunt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR127.png)
+![WTR127 - Steelblade Shunt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR127.png)
 
 ## Notes

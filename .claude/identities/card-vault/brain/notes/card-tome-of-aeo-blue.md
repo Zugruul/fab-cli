@@ -28,5 +28,10 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Tome of Aeo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN217.png)
+
+## Images
+
+![DYN217 - Tome of Aeo (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN217.png)
 
 ## Notes

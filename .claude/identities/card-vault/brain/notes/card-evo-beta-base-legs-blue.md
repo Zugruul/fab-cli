@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Beta Base Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN071.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN071-MV.webp)
+
+## Images
+
+![PEN071 - Evo Beta Base Legs (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN071.webp)
+![PEN071 - Evo Beta Base Legs (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN071-MV.webp)
 
 ## Notes

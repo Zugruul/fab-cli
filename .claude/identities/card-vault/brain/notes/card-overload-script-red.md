@@ -28,5 +28,10 @@ Your Mechanologist attack action cards get overpower."
 
 Keywords: [[kw-crank]] · [[kw-overpower]]
 Rulings: search "Overload Script" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO096.png)
+
+## Images
+
+![EVO096 - Overload Script (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO096.png)
 
 ## Notes

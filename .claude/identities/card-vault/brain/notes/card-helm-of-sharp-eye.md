@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Helm of Sharp Eye" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR053.width-450.png)
+
+## Images
+
+![EVR053 - Helm of Sharp Eye](https://storage.googleapis.com/fabmaster/media/images/EVR053.width-450.png)
 
 ## Notes

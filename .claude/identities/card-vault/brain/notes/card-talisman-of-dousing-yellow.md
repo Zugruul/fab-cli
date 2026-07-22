@@ -27,5 +27,11 @@ Spellvoid 1"
 
 Keywords: [[kw-go-again]] · [[kw-spellvoid]]
 Rulings: search "Talisman of Dousing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON302.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON302.width-450.png)
+
+## Images
+
+![MON302 - Talisman of Dousing (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON302.width-450.png)
+![MON302 - Talisman of Dousing (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON302.width-450.png)
 
 ## Notes

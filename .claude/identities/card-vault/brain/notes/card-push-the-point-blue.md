@@ -27,5 +27,11 @@ codes: [ARC190]
 
 Variants: [[card-push-the-point-red]] · [[card-push-the-point-yellow]]
 Rulings: search "Push the Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC190.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC190.png)
+
+## Images
+
+![ARC190 - Push the Point (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC190.png)
+![ARC190 - Push the Point (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC190.png)
 
 ## Notes

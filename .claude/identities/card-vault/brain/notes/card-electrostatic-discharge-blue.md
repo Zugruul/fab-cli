@@ -24,5 +24,12 @@ codes: [AUA024, LGS349, ROS112]
 
 Variants: [[card-electrostatic-discharge-red]] · [[card-electrostatic-discharge-yellow]]
 Rulings: search "Electrostatic Discharge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS349.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS112.png)
+
+## Images
+
+![AUA024 - Electrostatic Discharge (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA024.webp)
+![LGS349 - Electrostatic Discharge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS349.png)
+![ROS112 - Electrostatic Discharge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS112.png)
 
 ## Notes

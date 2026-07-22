@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-sharpen]] · [[kw-temper]]
 Rulings: search "Reverent Rerebrace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA005-RF.webp)
+
+## Images
+
+![AHA005 - Reverent Rerebrace](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA005-RF.webp)
 
 ## Notes

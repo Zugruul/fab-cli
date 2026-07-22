@@ -28,5 +28,10 @@ Your next angel attack this turn gets +3{p}."
 Keywords: [[kw-go-again]]
 Variants: [[card-angelic-descent-yellow]] · [[card-angelic-descent-blue]]
 Rulings: search "Angelic Descent" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD032.png)
+
+## Images
+
+![DTD032 - Angelic Descent (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD032.png)
 
 ## Notes

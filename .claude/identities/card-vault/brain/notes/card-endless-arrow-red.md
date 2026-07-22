@@ -26,5 +26,12 @@ codes: [1HP228, ARC045]
 "When this hits, put it into its owner's hand."
 
 Rulings: search "Endless Arrow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP228.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC045.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC045.png)
+
+## Images
+
+![1HP228 - Endless Arrow (red)](https://storage.googleapis.com/fabmaster/media/images/1HP228.width-450.png)
+![ARC045 - Endless Arrow (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC045.png)
+![ARC045 - Endless Arrow (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC045.png)
 
 ## Notes

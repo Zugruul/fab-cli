@@ -25,5 +25,11 @@ Ward 4"
 
 Keywords: [[kw-cloaked]] · [[kw-ward]]
 Rulings: search "Heirloom of Rabbit Hide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG004.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST028.png)
+
+## Images
+
+![ENG004 - Heirloom of Rabbit Hide](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG004.png)
+![MST028 - Heirloom of Rabbit Hide](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST028.png)
 
 ## Notes

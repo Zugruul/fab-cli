@@ -26,5 +26,10 @@ codes: [DYN181]
 
 Variants: [[card-blessing-of-occult-red]] · [[card-blessing-of-occult-yellow]]
 Rulings: search "Blessing of Occult" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN181.png)
+
+## Images
+
+![DYN181 - Blessing of Occult (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN181.png)
 
 ## Notes

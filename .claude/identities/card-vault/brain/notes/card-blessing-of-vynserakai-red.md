@@ -25,5 +25,10 @@ codes: [HNT163]
 "At the start of your turn, destroy this, then your next attack this turn is Draconic and gets +3{p}."
 
 Rulings: search "Blessing of Vynserakai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT163.png)
+
+## Images
+
+![HNT163 - Blessing of Vynserakai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT163.png)
 
 ## Notes

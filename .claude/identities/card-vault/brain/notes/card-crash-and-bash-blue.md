@@ -24,5 +24,11 @@ codes: [BDD018, MPG111]
 
 Variants: [[card-crash-and-bash-red]] · [[card-crash-and-bash-yellow]]
 Rulings: search "Crash and Bash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/BDD018.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG111.webp)
+
+## Images
+
+![BDD018 - Crash and Bash (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/BDD018.webp)
+![MPG111 - Crash and Bash (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG111.webp)
 
 ## Notes

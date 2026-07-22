@@ -25,5 +25,12 @@ codes: [ARA026, OUT044, UZU026]
 
 Variants: [[card-razors-edge-red]] · [[card-razors-edge-yellow]]
 Rulings: search "Razor's Edge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA026.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT044.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU026.png)
+
+## Images
+
+![ARA026 - Razor's Edge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA026.png)
+![OUT044 - Razor's Edge (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT044.width-450.png)
+![UZU026 - Razor's Edge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU026.png)
 
 ## Notes

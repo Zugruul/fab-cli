@@ -27,5 +27,11 @@ codes: [MST202, NUU020]
 
 Variants: [[card-gravekeeping-red]] · [[card-gravekeeping-yellow]]
 Rulings: search "Gravekeeping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST202.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU020.png)
+
+## Images
+
+![MST202 - Gravekeeping (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST202.png)
+![NUU020 - Gravekeeping (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU020.png)
 
 ## Notes

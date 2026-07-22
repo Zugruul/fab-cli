@@ -27,5 +27,11 @@ codes: [FAB090, UPR039]
 Keywords: [[kw-ward]]
 Variants: [[card-sand-cover-yellow]] · [[card-sand-cover-blue]]
 Rulings: search "Sand Cover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB090.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR039.png)
+
+## Images
+
+![FAB090 - Sand Cover (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB090.png)
+![UPR039 - Sand Cover (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR039.png)
 
 ## Notes

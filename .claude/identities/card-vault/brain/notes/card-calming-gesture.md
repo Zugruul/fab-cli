@@ -23,5 +23,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Calming Gesture" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR005.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS250.png)
+
+## Images
+
+![APR005 - Calming Gesture](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR005.webp)
+![ROS250 - Calming Gesture](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS250.png)
 
 ## Notes

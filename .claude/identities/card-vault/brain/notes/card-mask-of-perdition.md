@@ -25,5 +25,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Mask of Perdition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK003.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN118.png)
+
+## Images
+
+![ARK003 - Mask of Perdition](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK003.webp)
+![DYN118 - Mask of Perdition](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN118.png)
 
 ## Notes

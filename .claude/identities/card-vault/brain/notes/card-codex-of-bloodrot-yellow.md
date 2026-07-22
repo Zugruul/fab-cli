@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Codex of Bloodrot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT159.width-450.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/EN_OUT_marvels_v1.0_FINAL_noopw.width-450.png)
+
+## Images
+
+![OUT159 - Codex of Bloodrot (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT159.width-450.png)
+![OUT159 - Codex of Bloodrot (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/EN_OUT_marvels_v1.0_FINAL_noopw.width-450.png)
 
 ## Notes

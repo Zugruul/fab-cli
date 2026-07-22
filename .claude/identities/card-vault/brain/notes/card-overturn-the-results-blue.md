@@ -28,5 +28,11 @@ codes: [GEM094, SUP093]
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Overturn the Results" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM094.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP093.webp)
+
+## Images
+
+![GEM094 - Overturn the Results (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM094.webp)
+![SUP093 - Overturn the Results (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP093.webp)
 
 ## Notes

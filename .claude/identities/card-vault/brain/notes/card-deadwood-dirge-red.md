@@ -28,5 +28,13 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-deadwood-dirge-yellow]] · [[card-deadwood-dirge-blue]]
 Rulings: search "Deadwood Dirge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS014.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR014.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS363.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS155.png)
+
+## Images
+
+![AVS014 - Deadwood Dirge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS014.webp)
+![FLR014 - Deadwood Dirge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR014.webp)
+![LGS363 - Deadwood Dirge (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS363.png)
+![ROS155 - Deadwood Dirge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS155.png)
 
 ## Notes

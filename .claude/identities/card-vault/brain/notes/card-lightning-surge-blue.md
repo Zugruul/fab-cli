@@ -29,5 +29,12 @@ codes: [ELE191, ROS100]
 Keywords: [[kw-go-again]]
 Variants: [[card-lightning-surge-red]] · [[card-lightning-surge-yellow]]
 Rulings: search "Lightning Surge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE191.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE191.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS100.png)
+
+## Images
+
+![ELE191 - Lightning Surge (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE191.width-450.png)
+![ELE191 - Lightning Surge (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE191.width-450.png)
+![ROS100 - Lightning Surge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS100.png)
 
 ## Notes

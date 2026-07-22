@@ -28,5 +28,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Codex of Frailty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT160.width-450.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/EN_OUT_marvels_v1.0_FINAL_noopw2.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA248.png)
+
+## Images
+
+![OUT160 - Codex of Frailty (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT160.width-450.png)
+![OUT160 - Codex of Frailty (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/EN_OUT_marvels_v1.0_FINAL_noopw2.width-450.png)
+![SEA248 - Codex of Frailty (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA248.png)
 
 ## Notes

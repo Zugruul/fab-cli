@@ -21,5 +21,12 @@ codes: [LGS318, OSC004, ROS164]
 "Instant - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name."
 
 Rulings: search "Ink-lined Cloak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS318.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC004.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS164.png)
+
+## Images
+
+![LGS318 - Ink-lined Cloak](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS318.png)
+![OSC004 - Ink-lined Cloak](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC004.webp)
+![ROS164 - Ink-lined Cloak](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS164.png)
 
 ## Notes

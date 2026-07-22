@@ -28,5 +28,12 @@ codes: [JDG021, MON247]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Rouse the Ancients" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG021.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON247.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON247.width-450.png)
+
+## Images
+
+![JDG021 - Rouse the Ancients (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG021.png)
+![MON247 - Rouse the Ancients (blue)](https://storage.googleapis.com/fabmaster/media/images/MON247.width-450.png)
+![MON247 - Rouse the Ancients (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON247.width-450.png)
 
 ## Notes

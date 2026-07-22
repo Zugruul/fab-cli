@@ -31,5 +31,11 @@ Fragment"
 Keywords: [[kw-fragment]]
 Variants: [[card-polarus-pulse-ray-yellow]] · [[card-polarus-pulse-ray-blue]]
 Rulings: search "Polarus Pulse Ray" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS011.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp)
+
+## Images
+
+![AZS011 - Polarus Pulse Ray (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS011.webp)
+![OMN009 - Polarus Pulse Ray (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp)
 
 ## Notes

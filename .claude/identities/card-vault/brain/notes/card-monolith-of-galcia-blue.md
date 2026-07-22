@@ -30,5 +30,10 @@ Destroy target frozen equipment.
 Destroy target frozen item."
 
 Rulings: search "Monolith of Galcia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN225.webp)
+
+## Images
+
+![PEN225 - Monolith of Galcia (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN225.webp)
 
 ## Notes

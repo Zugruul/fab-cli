@@ -26,5 +26,11 @@ codes: [FAB320, HNT160]
 "When this attacks a marked hero, create a Fealty token."
 
 Rulings: search "For the Realm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB320.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT160.png)
+
+## Images
+
+![FAB320 - For the Realm (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB320.png)
+![HNT160 - For the Realm (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT160.png)
 
 ## Notes

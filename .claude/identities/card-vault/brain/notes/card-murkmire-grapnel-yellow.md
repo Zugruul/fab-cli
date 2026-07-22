@@ -28,5 +28,11 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented."
 
 Variants: [[card-murkmire-grapnel-red]] · [[card-murkmire-grapnel-blue]]
 Rulings: search "Murkmire Grapnel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT122.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP026.png)
+
+## Images
+
+![OUT122 - Murkmire Grapnel (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT122.width-450.png)
+![RIP026 - Murkmire Grapnel (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP026.png)
 
 ## Notes

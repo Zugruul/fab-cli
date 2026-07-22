@@ -21,5 +21,10 @@ codes: [SEA096]
 "Instant - Destroy this: Return a card from your arsenal to your hand."
 
 Rulings: search "Patch the Hole" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA096.png)
+
+## Images
+
+![SEA096 - Patch the Hole](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA096.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Dabble in Darkness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD169.png)
+
+## Images
+
+![DTD169 - Dabble in Darkness (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD169.png)
 
 ## Notes

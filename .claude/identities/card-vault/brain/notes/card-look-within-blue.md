@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Look Within" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN273.webp)
+
+## Images
+
+![PEN273 - Look Within (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN273.webp)
 
 ## Notes

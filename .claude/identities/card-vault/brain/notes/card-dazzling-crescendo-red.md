@@ -31,5 +31,12 @@ If Dazzling Crescendo was fused, it gains go again."
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Variants: [[card-dazzling-crescendo-yellow]] · [[card-dazzling-crescendo-blue]]
 Rulings: search "Dazzling Crescendo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE053.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE053.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/LXI008.width-450.png)
+
+## Images
+
+![ELE053 - Dazzling Crescendo (red)](https://storage.googleapis.com/fabmaster/media/images/ELE053.width-450.png)
+![ELE053 - Dazzling Crescendo (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE053.width-450.png)
+![LXI008 - Dazzling Crescendo (red)](https://storage.googleapis.com/fabmaster/media/images/LXI008.width-450.png)
 
 ## Notes

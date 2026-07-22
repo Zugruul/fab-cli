@@ -28,5 +28,10 @@ codes: [MST235]
 
 Keywords: [[kw-material]] · [[kw-phantasm]]
 Rulings: search "Dust from Stillwater Shrine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST235.png)
+
+## Images
+
+![MST235 - Dust from Stillwater Shrine (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST235.png)
 
 ## Notes

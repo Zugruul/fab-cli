@@ -26,5 +26,11 @@ codes: [GEM093, SUP110]
 "If you've been booed this turn, this gets +3{p}."
 
 Rulings: search "Low Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM093.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP110.webp)
+
+## Images
+
+![GEM093 - Low Blow (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM093.webp)
+![SUP110 - Low Blow (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP110.webp)
 
 ## Notes

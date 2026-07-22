@@ -29,5 +29,10 @@ Heave 2"
 Keywords: [[kw-go-again]] · [[kw-heave]]
 Variants: [[card-overswing-yellow]] · [[card-overswing-blue]]
 Rulings: search "Overswing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG091.webp)
+
+## Images
+
+![MPG091 - Overswing (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG091.webp)
 
 ## Notes

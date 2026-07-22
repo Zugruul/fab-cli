@@ -30,5 +30,12 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Sacred Art: Immortal Lunar Shrine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB234.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST032.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST032_V2.png)
+
+## Images
+
+![FAB234 - Sacred Art: Immortal Lunar Shrine (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB234.png)
+![MST032 - Sacred Art: Immortal Lunar Shrine (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST032.png)
+![MST032 - Sacred Art: Immortal Lunar Shrine (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST032_V2.png)
 
 ## Notes

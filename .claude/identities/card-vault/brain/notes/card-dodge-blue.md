@@ -24,5 +24,10 @@ codes: [RVD026]
 (no text)
 
 Rulings: search "Dodge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/RVD026.width-450.png)
+
+## Images
+
+![RVD026 - Dodge (blue)](https://storage.googleapis.com/fabmaster/media/images/RVD026.width-450.png)
 
 ## Notes

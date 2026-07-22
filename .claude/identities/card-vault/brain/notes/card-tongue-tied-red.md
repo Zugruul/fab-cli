@@ -26,5 +26,11 @@ codes: [FAB273, ROS222]
 "When this hits a hero, turn a card in their arsenal face-up, then banish an instant card from their arsenal."
 
 Rulings: search "Tongue Tied" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB273.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS222.png)
+
+## Images
+
+![FAB273 - Tongue Tied (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB273.png)
+![ROS222 - Tongue Tied (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS222.png)
 
 ## Notes

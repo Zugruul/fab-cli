@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Leap Frog Leggings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN006.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT172.png)
+
+## Images
+
+![CIN006 - Leap Frog Leggings](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN006.webp)
+![HNT172 - Leap Frog Leggings](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT172.png)
 
 ## Notes

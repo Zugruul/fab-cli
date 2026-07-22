@@ -29,5 +29,10 @@ If you've played or activated an attack reaction this chain link, Shake Down has
 
 Keywords: [[kw-specialization]]
 Rulings: search "Shake Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT013.width-450.png)
+
+## Images
+
+![OUT013 - Shake Down (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT013.width-450.png)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [AZS025]
 "Banish a Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter."
 
 Rulings: search "Blur Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS025.webp)
+
+## Images
+
+![AZS025 - Blur Reality (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS025.webp)
 
 ## Notes

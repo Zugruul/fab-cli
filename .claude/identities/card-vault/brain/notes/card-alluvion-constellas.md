@@ -25,5 +25,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Alluvion Constellas" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB084.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR166.png)
+
+## Images
+
+![FAB084 - Alluvion Constellas](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB084.png)
+![UPR166 - Alluvion Constellas](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR166.png)
 
 ## Notes

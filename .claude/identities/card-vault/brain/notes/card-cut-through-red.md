@@ -29,5 +29,11 @@ codes: [GEM027, HNT176]
 Keywords: [[kw-go-again]]
 Variants: [[card-cut-through-yellow]] · [[card-cut-through-blue]]
 Rulings: search "Cut Through" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT176.png)
+
+## Images
+
+![GEM027 - Cut Through (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM027.webp)
+![HNT176 - Cut Through (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT176.png)
 
 ## Notes

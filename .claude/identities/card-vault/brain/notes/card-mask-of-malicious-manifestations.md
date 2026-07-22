@@ -24,5 +24,12 @@ Blade break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Mask of Malicious Manifestations" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA003.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT157.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP004.png)
+
+## Images
+
+![ARA003 - Mask of Malicious Manifestations](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA003.png)
+![OUT157 - Mask of Malicious Manifestations](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT157.width-450.png)
+![RIP004 - Mask of Malicious Manifestations](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP004.png)
 
 ## Notes

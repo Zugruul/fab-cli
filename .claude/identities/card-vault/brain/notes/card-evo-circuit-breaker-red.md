@@ -28,5 +28,11 @@ Whenever you boost, you may destroy a card under this. If you do, shuffle 2 atta
 
 Keywords: [[kw-transform]]
 Rulings: search "Evo Circuit Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO030.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO030_V2.png)
+
+## Images
+
+![EVO030 - Evo Circuit Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO030.png)
+![EVO030 - Evo Circuit Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO030_V2.png)
 
 ## Notes

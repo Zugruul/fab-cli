@@ -28,5 +28,10 @@ Unity - When this defends together with a card from hand, create an Embodiment o
 
 Keywords: [[kw-specialization]] · [[kw-go-again]] · [[kw-unity]]
 Rulings: search "Call Down the Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD198.png)
+
+## Images
+
+![DTD198 - Call Down the Lightning (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD198.png)
 
 ## Notes

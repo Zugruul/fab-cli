@@ -25,5 +25,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Skull Crushers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR001.width-450.png)
+
+## Images
+
+![EVR001 - Skull Crushers](https://storage.googleapis.com/fabmaster/media/images/EVR001.width-450.png)
 
 ## Notes

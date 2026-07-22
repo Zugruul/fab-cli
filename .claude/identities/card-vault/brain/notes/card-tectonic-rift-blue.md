@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tectonic Rift" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO238.png)
+
+## Images
+
+![EVO238 - Tectonic Rift (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO238.png)
 
 ## Notes

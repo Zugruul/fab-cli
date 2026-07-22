@@ -26,5 +26,11 @@ codes: [SUP128]
 "This gets -1{p} for each card with 6 or more {p} defending it."
 
 Rulings: search "Show of Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP128.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP128-CF.webp)
+
+## Images
+
+![SUP128 - Show of Strength (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP128.webp)
+![SUP128 - Show of Strength (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP128-CF.webp)
 
 ## Notes

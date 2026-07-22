@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Painful Passage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP269.webp)
+
+## Images
+
+![SUP269 - Painful Passage (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP269.webp)
 
 ## Notes

@@ -30,5 +30,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blood Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT063.png)
+
+## Images
+
+![HNT063 - Blood Line (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT063.png)
 
 ## Notes

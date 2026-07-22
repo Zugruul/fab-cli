@@ -31,5 +31,11 @@ If Chilling Icevein was fused, whenever an attack deals damage to a hero this tu
 Keywords: [[kw-fusion]]
 Variants: [[card-chilling-icevein-red]] · [[card-chilling-icevein-yellow]]
 Rulings: search "Chilling Icevein" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE052.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE052.width-450.png)
+
+## Images
+
+![ELE052 - Chilling Icevein (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE052.width-450.png)
+![ELE052 - Chilling Icevein (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE052.width-450.png)
 
 ## Notes

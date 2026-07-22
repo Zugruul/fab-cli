@@ -30,5 +30,11 @@ If this was played from arsenal, it gets go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-performance-bonus-red]] · [[card-performance-bonus-blue]]
 Rulings: search "Performance Bonus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY226.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC016.png)
+
+## Images
+
+![HVY226 - Performance Bonus (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY226.png)
+![VIC016 - Performance Bonus (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC016.png)
 
 ## Notes

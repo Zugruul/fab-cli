@@ -29,5 +29,10 @@ If this has an aim counter, it gets "When this hits a hero, they discard all but
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Judge, Jury, Executioner" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY249.png)
+
+## Images
+
+![HVY249 - Judge, Jury, Executioner (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY249.png)
 
 ## Notes

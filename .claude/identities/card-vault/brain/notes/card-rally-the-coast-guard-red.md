@@ -27,5 +27,10 @@ codes: [SEA223]
 
 Variants: [[card-rally-the-coast-guard-yellow]] · [[card-rally-the-coast-guard-blue]]
 Rulings: search "Rally the Coast Guard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA223.png)
+
+## Images
+
+![SEA223 - Rally the Coast Guard (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA223.png)
 
 ## Notes

@@ -25,5 +25,10 @@ Quell 1"
 
 Keywords: [[kw-quell]]
 Rulings: search "Conduit of Frostburn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR125.png)
+
+## Images
+
+![UPR125 - Conduit of Frostburn](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR125.png)
 
 ## Notes

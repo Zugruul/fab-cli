@@ -31,5 +31,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-bounding-demigon-red]] · [[card-bounding-demigon-blue]]
 Rulings: search "Bounding Demigon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON169.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON169.width-450.png)
+
+## Images
+
+![MON169 - Bounding Demigon (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON169.width-450.png)
+![MON169 - Bounding Demigon (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON169.width-450.png)
 
 ## Notes

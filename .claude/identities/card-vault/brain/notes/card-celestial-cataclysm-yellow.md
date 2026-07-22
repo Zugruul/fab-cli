@@ -29,5 +29,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Celestial Cataclysm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON062.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON062.width-450.png)
+
+## Images
+
+![APR010 - Celestial Cataclysm (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR010.webp)
+![MON062 - Celestial Cataclysm (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON062.width-450.png)
+![MON062 - Celestial Cataclysm (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON062.width-450.png)
 
 ## Notes

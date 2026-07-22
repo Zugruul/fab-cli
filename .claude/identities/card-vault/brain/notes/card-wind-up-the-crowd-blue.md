@@ -27,5 +27,11 @@ codes: [GEM085, SUP006]
 "Instant - Discard this: Create a Toughness and a Vigor token."
 
 Rulings: search "Wind Up the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM085.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP006.webp)
+
+## Images
+
+![GEM085 - Wind Up the Crowd (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM085.webp)
+![SUP006 - Wind Up the Crowd (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP006.webp)
 
 ## Notes

@@ -29,5 +29,18 @@ codes: [1HP211, AIO012, AMX016, ARC026, FAB177, SDA020, TCC017]
 Keywords: [[kw-boost]]
 Variants: [[card-zero-to-sixty-yellow]] · [[card-zero-to-sixty-blue]]
 Rulings: search "Zero to Sixty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP211.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO012.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX016.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026-RF.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC026.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB177.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA020.webp) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC017.png)
+
+## Images
+
+![1HP211 - Zero to Sixty (red)](https://storage.googleapis.com/fabmaster/media/images/1HP211.width-450.png)
+![AIO012 - Zero to Sixty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO012.webp)
+![AMX016 - Zero to Sixty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX016.webp)
+![ARC026 - Zero to Sixty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026.png)
+![ARC026 - Zero to Sixty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026-RF.png)
+![ARC026 - Zero to Sixty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC026.png)
+![FAB177 - Zero to Sixty (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB177.png)
+![SDA020 - Zero to Sixty (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA020.webp)
+![TCC017 - Zero to Sixty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC017.png)
 
 ## Notes

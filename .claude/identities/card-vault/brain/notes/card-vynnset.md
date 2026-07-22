@@ -25,5 +25,11 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
 Adult version: [[card-vynnset-iron-maiden]]
 Rulings: search "Vynnset" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD134.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER085.png)
+
+## Images
+
+![DTD134 - Vynnset](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD134.png)
+![HER085 - Vynnset](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER085.png)
 
 ## Notes

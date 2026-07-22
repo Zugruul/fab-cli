@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-nix-the-nimble-red]] · [[card-nix-the-nimble-blue]]
 Rulings: search "Nix the Nimble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN140.png)
+
+## Images
+
+![DYN140 - Nix the Nimble (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN140.png)
 
 ## Notes

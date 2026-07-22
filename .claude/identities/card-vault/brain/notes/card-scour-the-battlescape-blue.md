@@ -30,5 +30,14 @@ If Scour the Battlescape is played from arsenal, it gains go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-scour-the-battlescape-red]] · [[card-scour-the-battlescape-yellow]]
 Rulings: search "Scour the Battlescape" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/KSU26.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RNR28.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/TEA27.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR196.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR196.png)
+
+## Images
+
+![KSU026 - Scour the Battlescape (blue)](https://storage.googleapis.com/fabmaster/media/images/KSU26.width-450.png)
+![RNR028 - Scour the Battlescape (blue)](https://storage.googleapis.com/fabmaster/media/images/RNR28.width-450.png)
+![TEA027 - Scour the Battlescape (blue)](https://storage.googleapis.com/fabmaster/media/images/TEA27.width-450.png)
+![WTR196 - Scour the Battlescape (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR196.png)
+![WTR196 - Scour the Battlescape (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR196.png)
 
 ## Notes

@@ -24,5 +24,13 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
 
 Keywords: [[kw-token-blasmophet-the-soul-harvester]]
 Rulings: search "Blasmophet, the Soul Harvester" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB021.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB041.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON219.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON219.width-450.png)
+
+## Images
+
+![FAB021 - Blasmophet, the Soul Harvester](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB021.png)
+![FAB041 - Blasmophet, the Soul Harvester](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB041.png)
+![MON219 - Blasmophet, the Soul Harvester](https://storage.googleapis.com/fabmaster/media/images/MON219.width-450.png)
+![MON219 - Blasmophet, the Soul Harvester](https://storage.googleapis.com/fabmaster/media/images/U-MON219.width-450.png)
 
 ## Notes

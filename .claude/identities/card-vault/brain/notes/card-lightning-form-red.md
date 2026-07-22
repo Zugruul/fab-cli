@@ -27,5 +27,13 @@ codes: [AUA012, LGS308, OMN150, ROS082]
 
 Variants: [[card-lightning-form-yellow]] · [[card-lightning-form-blue]]
 Rulings: search "Lightning Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA012.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS308-RF.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN150.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS082.png)
+
+## Images
+
+![AUA012 - Lightning Form (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA012.webp)
+![LGS308 - Lightning Form (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS308-RF.webp)
+![OMN150 - Lightning Form (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN150.webp)
+![ROS082 - Lightning Form (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS082.png)
 
 ## Notes

@@ -26,5 +26,11 @@ Heavy - If this is the only card equipped to your weapon zones, it gets +2{p}."
 
 Keywords: [[kw-heavy]]
 Rulings: search "Summit, the Unforgiving" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV002.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM070-CF.webp)
+
+## Images
+
+![AJV002 - Summit, the Unforgiving](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV002.webp)
+![GEM070 - Summit, the Unforgiving](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM070-CF.webp)
 
 ## Notes

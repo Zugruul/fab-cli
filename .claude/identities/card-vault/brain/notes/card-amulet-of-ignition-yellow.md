@@ -27,5 +27,10 @@ Instant - Destroy Amulet of Ignition: The next ability you activate this turn co
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Ignition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR179.width-450.png)
+
+## Images
+
+![EVR179 - Amulet of Ignition (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR179.width-450.png)
 
 ## Notes

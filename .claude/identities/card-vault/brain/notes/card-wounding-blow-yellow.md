@@ -27,5 +27,12 @@ codes: [MST216, WTR204]
 
 Variants: [[card-wounding-blow-red]] · [[card-wounding-blow-blue]]
 Rulings: search "Wounding Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST216.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR204.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR204.png)
+
+## Images
+
+![MST216 - Wounding Blow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST216.png)
+![WTR204 - Wounding Blow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR204.png)
+![WTR204 - Wounding Blow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR204.png)
 
 ## Notes

@@ -25,5 +25,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Tectonic Crust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV005.webp)
+
+## Images
+
+![AJV005 - Tectonic Crust](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV005.webp)
 
 ## Notes

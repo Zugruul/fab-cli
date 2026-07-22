@@ -28,5 +28,14 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
 
 Keywords: [[kw-specialization]]
 Rulings: search "Teklo Core" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP192.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC007.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS223.png)
+
+## Images
+
+![1HP192 - Teklo Core (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP192.width-450.png)
+![ARC007 - Teklo Core (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007.png)
+![ARC007 - Teklo Core (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007-RF.png)
+![ARC007 - Teklo Core (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC007.png)
+![LGS223 - Teklo Core (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS223.png)
 
 ## Notes

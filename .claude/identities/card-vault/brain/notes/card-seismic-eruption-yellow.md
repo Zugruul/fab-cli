@@ -23,5 +23,11 @@ codes: [MPG024]
 "Create 3 Seismic Surge tokens."
 
 Rulings: search "Seismic Eruption" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG024.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG024-EA.webp)
+
+## Images
+
+![MPG024 - Seismic Eruption (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG024.webp)
+![MPG024 - Seismic Eruption (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG024-EA.webp)
 
 ## Notes

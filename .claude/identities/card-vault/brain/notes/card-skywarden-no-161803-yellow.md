@@ -28,5 +28,10 @@ codes: [PEN165]
 
 Keywords: [[kw-galvanize]]
 Rulings: search "Skywarden no.161803" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN165.webp)
+
+## Images
+
+![PEN165 - Skywarden no.161803 (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN165.webp)
 
 ## Notes

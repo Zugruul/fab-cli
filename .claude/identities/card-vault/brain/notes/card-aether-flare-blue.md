@@ -26,5 +26,12 @@ The next card you play this turn with an effect that deals arcane damage, instea
 
 Variants: [[card-aether-flare-red]] · [[card-aether-flare-yellow]]
 Rulings: search "Aether Flare" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP325.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC134.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC134.png)
+
+## Images
+
+![1HP325 - Aether Flare (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP325.width-450.png)
+![ARC134 - Aether Flare (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC134.png)
+![ARC134 - Aether Flare (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC134.png)
 
 ## Notes

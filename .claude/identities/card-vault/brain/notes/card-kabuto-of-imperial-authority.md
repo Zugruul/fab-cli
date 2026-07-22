@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Kabuto of Imperial Authority" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB292.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT115.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT115-EA.png)
+
+## Images
+
+![FAB292 - Kabuto of Imperial Authority](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB292.png)
+![HNT115 - Kabuto of Imperial Authority](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT115.png)
+![HNT115 - Kabuto of Imperial Authority](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT115-EA.png)
 
 ## Notes

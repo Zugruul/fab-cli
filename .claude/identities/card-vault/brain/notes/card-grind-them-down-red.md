@@ -29,5 +29,10 @@ codes: [MPG079]
 Keywords: [[kw-crush]]
 Variants: [[card-grind-them-down-yellow]] · [[card-grind-them-down-blue]]
 Rulings: search "Grind Them Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG079.webp)
+
+## Images
+
+![MPG079 - Grind Them Down (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG079.webp)
 
 ## Notes

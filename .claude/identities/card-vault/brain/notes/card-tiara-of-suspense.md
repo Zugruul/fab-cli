@@ -25,5 +25,11 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Tiara of Suspense" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS004-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP272-CF.webp)
+
+## Images
+
+![APS004 - Tiara of Suspense](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS004-RF.webp)
+![SUP272 - Tiara of Suspense](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP272-CF.webp)
 
 ## Notes

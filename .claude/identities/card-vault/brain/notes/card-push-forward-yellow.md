@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-push-forward-red]] · [[card-push-forward-blue]]
 Rulings: search "Push Forward" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU095.png)
+
+## Images
+
+![CRU095 - Push Forward (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095.png)
+![CRU095 - Push Forward (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095-RF.png)
+![CRU095 - Push Forward (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU095.png)
 
 ## Notes

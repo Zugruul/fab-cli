@@ -24,5 +24,12 @@ Spellvoid 1"
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Dream Weavers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON090.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON090.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/PSM006.width-450.png)
+
+## Images
+
+![MON090 - Dream Weavers](https://storage.googleapis.com/fabmaster/media/images/MON090.width-450.png)
+![MON090 - Dream Weavers](https://storage.googleapis.com/fabmaster/media/images/U-MON090.width-450.png)
+![PSM006 - Dream Weavers](https://storage.googleapis.com/fabmaster/media/images/PSM006.width-450.png)
 
 ## Notes

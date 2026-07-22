@@ -30,5 +30,13 @@ Boost"
 Keywords: [[kw-boost]] · [[kw-dominate]]
 Variants: [[card-pedal-to-the-metal-yellow]] · [[card-pedal-to-the-metal-blue]]
 Rulings: search "Pedal to the Metal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP196.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC011.png)
+
+## Images
+
+![1HP196 - Pedal to the Metal (red)](https://storage.googleapis.com/fabmaster/media/images/1HP196.width-450.png)
+![ARC011 - Pedal to the Metal (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011.png)
+![ARC011 - Pedal to the Metal (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011-RF.png)
+![ARC011 - Pedal to the Metal (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC011.png)
 
 ## Notes

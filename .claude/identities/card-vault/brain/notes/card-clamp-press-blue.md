@@ -28,5 +28,11 @@ Wrenches you control get +2{p}."
 
 Keywords: [[kw-crank]]
 Rulings: search "Clamp Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX026.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM074-RF.webp)
+
+## Images
+
+![AMX026 - Clamp Press (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX026.webp)
+![GEM074 - Clamp Press (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM074-RF.webp)
 
 ## Notes

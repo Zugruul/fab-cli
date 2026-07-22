@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-plunge-red]] · [[card-plunge-yellow]]
 Rulings: search "Plunge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT153.width-450.png)
+
+## Images
+
+![OUT153 - Plunge (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT153.width-450.png)
 
 ## Notes

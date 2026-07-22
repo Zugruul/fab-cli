@@ -27,5 +27,12 @@ codes: [1HP033, WTR022]
 
 Variants: [[card-savage-swing-red]] · [[card-savage-swing-yellow]]
 Rulings: search "Savage Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP033.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR022.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR022.png)
+
+## Images
+
+![1HP033 - Savage Swing (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP033.width-450.png)
+![WTR022 - Savage Swing (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR022.png)
+![WTR022 - Savage Swing (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR022.png)
 
 ## Notes

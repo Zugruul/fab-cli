@@ -21,5 +21,11 @@ codes: [LGS414, SUP211]
 "Instant - {r}{r}{r}, destroy this: Put target attack action card from your graveyard on top of your deck."
 
 Rulings: search "Helm of Hindsight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS414-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP211.webp)
+
+## Images
+
+![LGS414 - Helm of Hindsight](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS414-CF.webp)
+![SUP211 - Helm of Hindsight](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP211.webp)
 
 ## Notes

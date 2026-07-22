@@ -22,5 +22,13 @@ codes: [FAB354, SEA245]
 
 Keywords: [[kw-go-again]] · [[kw-token-goldkiss-rum]]
 Rulings: search "Goldkiss Rum" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB354-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA245.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA245-TP.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA245-TP_BACK.webp)
+
+## Images
+
+![FAB354 - Goldkiss Rum](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB354-CF.webp)
+![SEA245 - Goldkiss Rum](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA245.png)
+![SEA245 - Goldkiss Rum](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA245-TP.webp)
+![SEA245 - Goldkiss Rum](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA245-TP_BACK.webp)
 
 ## Notes

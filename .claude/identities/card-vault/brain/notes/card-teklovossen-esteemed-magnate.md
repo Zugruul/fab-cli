@@ -24,5 +24,13 @@ Once per Turn Instant - {r}{r}{r}: You may play your next Evo this turn as thoug
 
 Young version: [[card-teklovossen]]
 Rulings: search "Teklovossen, Esteemed Magnate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO007.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER088.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER096.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN027.png)
+
+## Images
+
+![EVO007 - Teklovossen, Esteemed Magnate](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO007.png)
+![HER088 - Teklovossen, Esteemed Magnate](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER088.png)
+![HER096 - Teklovossen, Esteemed Magnate](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER096.png)
+![WIN027 - Teklovossen, Esteemed Magnate](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN027.png)
 
 ## Notes

@@ -29,5 +29,11 @@ When this enters or leaves the arena, the crowd cheers you."
 
 Keywords: [[kw-suspense]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Superstar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS024.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS439.webp)
+
+## Images
+
+![APS024 - Superstar (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS024.webp)
+![LGS439 - Superstar (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS439.webp)
 
 ## Notes

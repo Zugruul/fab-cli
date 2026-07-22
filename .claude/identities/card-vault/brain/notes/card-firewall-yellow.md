@@ -24,5 +24,11 @@ codes: [EVO160, TCC022]
 
 Variants: [[card-firewall-red]] · [[card-firewall-blue]]
 Rulings: search "Firewall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO160.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC022.png)
+
+## Images
+
+![EVO160 - Firewall (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO160.png)
+![TCC022 - Firewall (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC022.png)
 
 ## Notes

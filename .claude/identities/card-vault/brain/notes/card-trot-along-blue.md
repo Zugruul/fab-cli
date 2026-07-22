@@ -27,5 +27,15 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Trot Along" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD016.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB327-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT240.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW153.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO033.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI033.webp)
+
+## Images
+
+![DDD016 - Trot Along (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD016.webp)
+![FAB327 - Trot Along (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB327-RF.webp)
+![HNT240 - Trot Along (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT240.png)
+![MPW153 - Trot Along (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW153.webp)
+![SDO033 - Trot Along (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO033.webp)
+![SVI033 - Trot Along (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI033.webp)
 
 ## Notes

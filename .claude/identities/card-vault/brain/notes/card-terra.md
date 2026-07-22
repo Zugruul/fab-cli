@@ -26,5 +26,11 @@ Essence of Earth"
 
 Keywords: [[kw-essence]]
 Rulings: search "Terra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER129.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER001.webp)
+
+## Images
+
+![HER129 - Terra](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER129.png)
+![TER001 - Terra](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER001.webp)
 
 ## Notes

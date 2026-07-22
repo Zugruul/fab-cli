@@ -25,5 +25,15 @@ Instant - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's bl
 
 Young version: [[card-nuu]]
 Rulings: search "Nuu, Alluring Desire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER113.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER128.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST001.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST001_V2.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST001_BACK.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN033.png)
+
+## Images
+
+![HER113 - Nuu, Alluring Desire](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER113.png)
+![HER128 - Nuu, Alluring Desire](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER128.png)
+![MST001 - Nuu, Alluring Desire](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST001.png)
+![MST001 - Nuu, Alluring Desire](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST001_V2.png)
+![MST001 - Nuu, Alluring Desire](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST001_BACK.png)
+![WIN033 - Nuu, Alluring Desire](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN033.png)
 
 ## Notes

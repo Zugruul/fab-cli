@@ -25,5 +25,12 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
 
 Keywords: [[kw-specialization]]
 Rulings: search "Symbiosis Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO002.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO003.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS194.width-10000.png)
+
+## Images
+
+![AIO002 - Symbiosis Shot](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO002.webp)
+![EVO003 - Symbiosis Shot](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO003.png)
+![LGS194 - Symbiosis Shot](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS194.width-10000.png)
 
 ## Notes

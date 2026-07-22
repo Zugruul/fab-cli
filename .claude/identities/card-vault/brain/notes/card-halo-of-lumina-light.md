@@ -24,5 +24,11 @@ Spellvoid 2"
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Halo of Lumina Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR003.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM080-RF.webp)
+
+## Images
+
+![APR003 - Halo of Lumina Light](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR003.webp)
+![GEM080 - Halo of Lumina Light](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM080-RF.webp)
 
 ## Notes

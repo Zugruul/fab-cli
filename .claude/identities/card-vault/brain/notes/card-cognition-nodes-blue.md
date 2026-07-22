@@ -25,5 +25,12 @@ codes: [1HP200, ARC018]
 Once per Turn Attack Reaction - Remove a steam counter from Cognition Nodes: Target attack action card gains "When this hits, put it on the bottom of its owner's deck.""
 
 Rulings: search "Cognition Nodes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP200.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC018.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ARC018_Cognition_Nodes.width-10000.png)
+
+## Images
+
+![1HP200 - Cognition Nodes (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP200.width-450.png)
+![ARC018 - Cognition Nodes (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC018.png)
+![ARC018 - Cognition Nodes (blue)](https://storage.googleapis.com/fabmaster/media/images/ARC018_Cognition_Nodes.width-10000.png)
 
 ## Notes

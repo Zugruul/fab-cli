@@ -30,5 +30,12 @@ When this attacks, if you've beaten chest this turn, create an Agility token."
 Keywords: [[kw-beat-chest]]
 Variants: [[card-assault-and-battery-yellow]] · [[card-assault-and-battery-blue]]
 Rulings: search "Assault and Battery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY026.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR009.png)
+
+## Images
+
+![ARR007 - Assault and Battery (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR007.webp)
+![HVY026 - Assault and Battery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY026.png)
+![RHI009 - Assault and Battery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR009.png)
 
 ## Notes

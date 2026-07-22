@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Tear Asunder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE205.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE205.width-450.png)
+
+## Images
+
+![APS021 - Tear Asunder (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS021.webp)
+![ELE205 - Tear Asunder (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE205.width-450.png)
+![ELE205 - Tear Asunder (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE205.width-450.png)
 
 ## Notes

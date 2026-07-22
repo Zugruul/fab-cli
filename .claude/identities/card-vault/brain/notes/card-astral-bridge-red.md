@@ -27,5 +27,11 @@ Starfall - If an instant has been put into your graveyard this turn, deal 1 arca
 
 Keywords: [[kw-starfall]]
 Rulings: search "Astral Bridge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN098.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN098-CF.webp)
+
+## Images
+
+![OMN098 - Astral Bridge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN098.webp)
+![OMN098 - Astral Bridge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN098-CF.webp)
 
 ## Notes

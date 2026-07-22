@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Comeback Kicks" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN288.webp)
+
+## Images
+
+![PEN288 - Comeback Kicks](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN288.webp)
 
 ## Notes

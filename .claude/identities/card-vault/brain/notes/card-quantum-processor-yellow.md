@@ -28,5 +28,10 @@ Once per Turn Instant - 0: Put a Mechanologist item with cost 0 or 1 from your h
 
 Keywords: [[kw-crank]]
 Rulings: search "Quantum Processor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO072.png)
+
+## Images
+
+![EVO072 - Quantum Processor (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO072.png)
 
 ## Notes

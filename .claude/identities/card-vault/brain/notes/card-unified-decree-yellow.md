@@ -27,5 +27,11 @@ Reprise - If the defending hero has defended with a card from their hand this ch
 
 Keywords: [[kw-reprise]]
 Rulings: search "Unified Decree" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU083.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU083.png)
+
+## Images
+
+![CRU083 - Unified Decree (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU083.png)
+![CRU083 - Unified Decree (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU083.png)
 
 ## Notes

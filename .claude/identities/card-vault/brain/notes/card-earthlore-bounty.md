@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Earthlore Bounty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR020.width-450.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/EVR020-CF.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB076.png)
+
+## Images
+
+![EVR020 - Earthlore Bounty](https://storage.googleapis.com/fabmaster/media/images/EVR020.width-450.png)
+![EVR020 - Earthlore Bounty](https://dhhim4ltzu1pj.cloudfront.net/media/images/EVR020-CF.width-450.png)
+![FAB076 - Earthlore Bounty](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB076.png)
 
 ## Notes

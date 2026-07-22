@@ -29,5 +29,10 @@ codes: [EVO164]
 Keywords: [[kw-boost]]
 Variants: [[card-zero-to-fifty-red]] · [[card-zero-to-fifty-yellow]]
 Rulings: search "Zero to Fifty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO164.png)
+
+## Images
+
+![EVO164 - Zero to Fifty (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO164.png)
 
 ## Notes

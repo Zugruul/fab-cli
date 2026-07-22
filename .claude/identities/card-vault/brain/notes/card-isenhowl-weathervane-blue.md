@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-isenhowl-weathervane-red]] · [[card-isenhowl-weathervane-yellow]]
 Rulings: search "Isenhowl Weathervane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR143.png)
+
+## Images
+
+![UPR143 - Isenhowl Weathervane (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR143.png)
 
 ## Notes

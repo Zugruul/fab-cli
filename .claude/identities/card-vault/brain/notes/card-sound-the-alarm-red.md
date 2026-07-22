@@ -26,5 +26,10 @@ codes: [HNT226]
 "When this attacks a hero, they reveal their hand. If an attack reaction card is revealed this way, you may search your deck for a defense reaction card, reveal it, then shuffle and put it on top."
 
 Rulings: search "Sound the Alarm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT226.png)
+
+## Images
+
+![HNT226 - Sound the Alarm (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT226.png)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [UPR009]
 "Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets."
 
 Rulings: search "Azvolai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Back.png)
+
+## Images
+
+![UPR009 - Azvolai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png)
+![UPR009 - Azvolai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Back.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Sentry Base Head" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO042.png)
+
+## Images
+
+![EVO042 - Evo Sentry Base Head (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO042.png)
 
 ## Notes

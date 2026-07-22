@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "A Bit off the Side" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN243.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN243-CF.webp)
+
+## Images
+
+![OMN243 - A Bit off the Side (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN243.webp)
+![OMN243 - A Bit off the Side (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN243-CF.webp)
 
 ## Notes

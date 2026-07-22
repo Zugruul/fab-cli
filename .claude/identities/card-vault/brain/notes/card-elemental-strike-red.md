@@ -28,5 +28,11 @@ codes: [FAB425, PEN205]
 
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Elemental Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB425.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN205.webp)
+
+## Images
+
+![FAB425 - Elemental Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB425.webp)
+![PEN205 - Elemental Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN205.webp)
 
 ## Notes

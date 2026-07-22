@@ -25,5 +25,14 @@ The first time you discard a card with 6 or more {p} during each of your action 
 
 Adult version: [[card-kayo-armed-and-dangerous]] · [[card-kayo-underhanded-cheat]]
 Rulings: search "Kayo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY002_MARVEL.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY002_MARVEL_BACK.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO001.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA001.webp)
+
+## Images
+
+![HVY002 - Kayo](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY002.png)
+![HVY002 - Kayo](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY002_MARVEL.png)
+![HVY002 - Kayo](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY002_MARVEL_BACK.png)
+![KYO001 - Kayo](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO001.png)
+![SKA001 - Kayo](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA001.webp)
 
 ## Notes

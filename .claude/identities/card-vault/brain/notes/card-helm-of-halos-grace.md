@@ -25,5 +25,11 @@ Blade Break"
 
 Keywords: [[kw-charge]] · [[kw-blade-break]]
 Rulings: search "Helm of Halo's Grace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB003.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG031.png)
+
+## Images
+
+![ASB003 - Helm of Halo's Grace](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB003.png)
+![JDG031 - Helm of Halo's Grace](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG031.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Channel Earth - At the beginning of your end phase, put a flow counter on this, 
 
 Keywords: [[kw-go-again]] · [[kw-channel]] · [[kw-amp]]
 Rulings: search "Channel the Millennium Tree" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB263.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS033.png)
+
+## Images
+
+![FAB263 - Channel the Millennium Tree (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB263.png)
+![ROS033 - Channel the Millennium Tree (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS033.png)
 
 ## Notes

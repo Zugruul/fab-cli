@@ -18,5 +18,10 @@ codes: [SMP007]
 "You may put a non-attack action card from your graveyard on top of your deck. If you have no cards in hand, instead you may play it this turn from your graveyard without paying its {r} cost."
 
 Rulings: search "Air of a Comeback" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP007.webp)
+
+## Images
+
+![SMP007 - Air of a Comeback](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP007.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [OUT058]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-bonds-of-ancestry-red]] · [[card-bonds-of-ancestry-yellow]]
 Rulings: search "Bonds of Ancestry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT058.width-450.png)
+
+## Images
+
+![OUT058 - Bonds of Ancestry (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT058.width-450.png)
 
 ## Notes

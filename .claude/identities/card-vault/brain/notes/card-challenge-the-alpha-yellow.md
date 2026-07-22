@@ -27,5 +27,10 @@ codes: [SUP129]
 When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you lose 2{h}."
 
 Rulings: search "Challenge the Alpha" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP129.webp)
+
+## Images
+
+![SUP129 - Challenge the Alpha (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP129.webp)
 
 ## Notes

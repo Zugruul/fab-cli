@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Fist Pump" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX005-RF.webp)
+
+## Images
+
+![AMX005 - Fist Pump](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX005-RF.webp)
 
 ## Notes

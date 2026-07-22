@@ -31,5 +31,11 @@ If Flake Out was fused, it gains dominate."
 Keywords: [[kw-fusion]] · [[kw-dominate]]
 Variants: [[card-flake-out-yellow]] · [[card-flake-out-blue]]
 Rulings: search "Flake Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE056.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE056.width-450.png)
+
+## Images
+
+![ELE056 - Flake Out (red)](https://storage.googleapis.com/fabmaster/media/images/ELE056.width-450.png)
+![ELE056 - Flake Out (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE056.width-450.png)
 
 ## Notes

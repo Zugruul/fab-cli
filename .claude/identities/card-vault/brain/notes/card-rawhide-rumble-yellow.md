@@ -30,5 +30,10 @@ When this attacks a hero, if you've beaten chest this turn, intimidate them."
 Keywords: [[kw-beat-chest]] · [[kw-intimidate]]
 Variants: [[card-rawhide-rumble-red]] · [[card-rawhide-rumble-blue]]
 Rulings: search "Rawhide Rumble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY024.png)
+
+## Images
+
+![HVY024 - Rawhide Rumble (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY024.png)
 
 ## Notes

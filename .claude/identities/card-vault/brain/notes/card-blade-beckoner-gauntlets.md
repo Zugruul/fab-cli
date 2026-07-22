@@ -24,5 +24,17 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Blade Beckoner Gauntlets" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG005.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT218.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA007.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR009.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ005.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA008.webp) · [Image #7](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY006.webp) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA007.webp)
+
+## Images
+
+![FNG005 - Blade Beckoner Gauntlets](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG005.webp)
+![HNT218 - Blade Beckoner Gauntlets](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT218.png)
+![SBA007 - Blade Beckoner Gauntlets](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA007.webp)
+![SBR009 - Blade Beckoner Gauntlets](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR009.webp)
+![SBZ005 - Blade Beckoner Gauntlets](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ005.webp)
+![SDA008 - Blade Beckoner Gauntlets](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA008.webp)
+![SIY006 - Blade Beckoner Gauntlets](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY006.webp)
+![SKA007 - Blade Beckoner Gauntlets](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA007.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ Surge - If this deals more than 1 damage, gain {r}{r}."
 Keywords: [[kw-surge]]
 Variants: [[card-overflow-the-aetherwell-red]] · [[card-overflow-the-aetherwell-yellow]]
 Rulings: search "Overflow the Aetherwell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS200.png)
+
+## Images
+
+![ROS200 - Overflow the Aetherwell (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS200.png)
 
 ## Notes

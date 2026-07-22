@@ -29,5 +29,11 @@ Transform target ash you control into Tomeltai. Go again"
 
 Keywords: [[kw-legendary]] · [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Tomeltai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Front.png)
+
+## Images
+
+![UPR007 - Invoke Tomeltai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007.png)
+![UPR007 - Invoke Tomeltai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Front.png)
 
 ## Notes

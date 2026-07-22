@@ -25,5 +25,10 @@ codes: [DTD039]
 
 Variants: [[card-celestial-reprimand-red]] · [[card-celestial-reprimand-blue]]
 Rulings: search "Celestial Reprimand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD039.png)
+
+## Images
+
+![DTD039 - Celestial Reprimand (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD039.png)
 
 ## Notes

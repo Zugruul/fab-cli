@@ -24,5 +24,15 @@ codes: [AAC020, ARA018, FAB324, LGS130, OUT021, SAR020]
 "Target attack action card with stealth gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control.""
 
 Rulings: search "Spike with Bloodrot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC020.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA018.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB324.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS130.png) · [Image #5](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT021.width-450.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR020.webp)
+
+## Images
+
+![AAC020 - Spike with Bloodrot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC020.webp)
+![ARA018 - Spike with Bloodrot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA018.png)
+![FAB324 - Spike with Bloodrot (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB324.png)
+![LGS130 - Spike with Bloodrot (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS130.png)
+![OUT021 - Spike with Bloodrot (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT021.width-450.png)
+![SAR020 - Spike with Bloodrot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR020.webp)
 
 ## Notes

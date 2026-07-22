@@ -29,5 +29,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Wailer Humperdinck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM048-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052_V2.png)
+
+## Images
+
+![GEM048 - Wailer Humperdinck (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM048-RF.webp)
+![SEA052 - Wailer Humperdinck (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052.png)
+![SEA052 - Wailer Humperdinck (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052_V2.png)
 
 ## Notes

@@ -30,5 +30,12 @@ Deal 1 arcane damage to any target."
 
 Keywords: [[kw-meld]]
 Rulings: search "Comet Storm // Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS335.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC013.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS024.png)
+
+## Images
+
+![LGS335 - Comet Storm // Shock (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS335.png)
+![OSC013 - Comet Storm // Shock (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC013.webp)
+![ROS024 - Comet Storm // Shock (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS024.png)
 
 ## Notes

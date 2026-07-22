@@ -29,5 +29,11 @@ High Tide - If there are 2 or more blue cards in your pitch zone, this gets +1{p
 
 Keywords: [[kw-high-tide]] · [[kw-overpower]]
 Rulings: search "HMS Kraken" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA135.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA135_V2.png)
+
+## Images
+
+![SEA135 - HMS Kraken (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA135.png)
+![SEA135 - HMS Kraken (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA135_V2.png)
 
 ## Notes

@@ -24,5 +24,11 @@ codes: [FAB311, HNT116]
 "Target weapon attack gets +3{p} and "Damage this would deal can't be prevented.""
 
 Rulings: search "Jagged Edge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB311.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT116.png)
+
+## Images
+
+![FAB311 - Jagged Edge (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB311.png)
+![HNT116 - Jagged Edge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT116.png)
 
 ## Notes

@@ -31,5 +31,11 @@ When you attack with Arcanic Shockwave, if it was fused, deal 1 arcane damage to
 Keywords: [[kw-fusion]]
 Variants: [[card-arcanic-shockwave-red]] · [[card-arcanic-shockwave-blue]]
 Rulings: search "Arcanic Shockwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE074.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE074.width-450.png)
+
+## Images
+
+![ELE074 - Arcanic Shockwave (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE074.width-450.png)
+![ELE074 - Arcanic Shockwave (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE074.width-450.png)
 
 ## Notes

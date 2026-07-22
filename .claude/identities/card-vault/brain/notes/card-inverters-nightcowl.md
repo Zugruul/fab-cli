@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Inverter's Nightcowl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC005-RF.webp)
+
+## Images
+
+![AAC005 - Inverter's Nightcowl](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC005-RF.webp)
 
 ## Notes

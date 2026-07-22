@@ -30,5 +30,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-bittering-thorns-red]] · [[card-bittering-thorns-blue]]
 Rulings: search "Bittering Thorns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP134.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU072.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU072.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/IRA005-P_YAgf1In.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC092.png)
+
+## Images
+
+![1HP134 - Bittering Thorns (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP134.width-450.png)
+![CRU072 - Bittering Thorns (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU072.png)
+![CRU072 - Bittering Thorns (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU072.png)
+![IRA005 - Bittering Thorns (yellow)](https://storage.googleapis.com/fabmaster/media/images/IRA005-P_YAgf1In.width-450.png)
+![TCC092 - Bittering Thorns (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC092.png)
 
 ## Notes

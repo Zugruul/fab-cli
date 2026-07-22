@@ -20,5 +20,11 @@ codes: [OMN208, OUT178]
 "Instant - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. Opt 1"
 
 Rulings: search "Seeker's Leggings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN208.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT178.width-450.png)
+
+## Images
+
+![OMN208 - Seeker's Leggings](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN208.webp)
+![OUT178 - Seeker's Leggings](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT178.width-450.png)
 
 ## Notes

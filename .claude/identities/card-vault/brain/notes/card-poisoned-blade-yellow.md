@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-poisoned-blade-red]] · [[card-poisoned-blade-blue]]
 Rulings: search "Poisoned Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT186.png)
+
+## Images
+
+![HNT186 - Poisoned Blade (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT186.png)
 
 ## Notes

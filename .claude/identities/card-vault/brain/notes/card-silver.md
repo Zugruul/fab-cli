@@ -21,5 +21,13 @@ codes: [ARK027, DYN245, EVR195, FAB056]
 
 Keywords: [[kw-token-silver]]
 Rulings: search "Silver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN245.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/EVR195.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB056.png)
+
+## Images
+
+![ARK027 - Silver](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK027.webp)
+![DYN245 - Silver](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN245.png)
+![EVR195 - Silver](https://storage.googleapis.com/fabmaster/media/images/EVR195.width-450.png)
+![FAB056 - Silver](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB056.png)
 
 ## Notes

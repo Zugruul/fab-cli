@@ -29,5 +29,11 @@ codes: [MON196]
 Keywords: [[kw-dominate]]
 Variants: [[card-consuming-aftermath-red]] · [[card-consuming-aftermath-blue]]
 Rulings: search "Consuming Aftermath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON196.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON196.width-450.png)
+
+## Images
+
+![MON196 - Consuming Aftermath (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON196.width-450.png)
+![MON196 - Consuming Aftermath (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON196.width-450.png)
 
 ## Notes

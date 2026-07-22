@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-unity]] · [[kw-temper]]
 Rulings: search "Plating of Unity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN045.webp)
+
+## Images
+
+![PEN045 - Plating of Unity](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN045.webp)
 
 ## Notes

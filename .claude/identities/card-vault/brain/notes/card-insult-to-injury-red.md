@@ -29,5 +29,10 @@ codes: [PEN303]
 Keywords: [[kw-go-again]]
 Variants: [[card-insult-to-injury-yellow]] · [[card-insult-to-injury-blue]]
 Rulings: search "Insult to Injury" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN303.webp)
+
+## Images
+
+![PEN303 - Insult to Injury (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN303.webp)
 
 ## Notes

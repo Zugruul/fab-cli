@@ -27,5 +27,11 @@ codes: [WTR176]
 
 Variants: [[card-barraging-brawnhide-yellow]] · [[card-barraging-brawnhide-blue]]
 Rulings: search "Barraging Brawnhide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR176.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR176.png)
+
+## Images
+
+![WTR176 - Barraging Brawnhide (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR176.png)
+![WTR176 - Barraging Brawnhide (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR176.png)
 
 ## Notes

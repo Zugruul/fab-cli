@@ -26,5 +26,11 @@ When this hits a hero, the crowd boos you."
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Lionclaw Maul" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM145-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN247.webp)
+
+## Images
+
+![GEM145 - Lionclaw Maul](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM145-CF.webp)
+![OMN247 - Lionclaw Maul](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN247.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [SUP108]
 Keywords: [[kw-intimidate]]
 Variants: [[card-instill-fear-red]] · [[card-instill-fear-blue]]
 Rulings: search "Instill Fear" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP108.webp)
+
+## Images
+
+![SUP108 - Instill Fear (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP108.webp)
 
 ## Notes

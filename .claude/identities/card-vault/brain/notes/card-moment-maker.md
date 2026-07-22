@@ -25,5 +25,11 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Moment Maker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS003-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM071-CF.webp)
+
+## Images
+
+![APS003 - Moment Maker](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS003-RF.webp)
+![GEM071 - Moment Maker](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM071-CF.webp)
 
 ## Notes

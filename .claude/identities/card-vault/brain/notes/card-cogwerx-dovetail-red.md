@@ -29,5 +29,10 @@ Thrice per Turn Instant - {t} a cog you control: This gets +1{p} or go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Cogwerx Dovetail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA011.png)
+
+## Images
+
+![SEA011 - Cogwerx Dovetail (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA011.png)
 
 ## Notes

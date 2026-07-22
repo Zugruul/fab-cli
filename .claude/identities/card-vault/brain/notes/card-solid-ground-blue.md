@@ -24,5 +24,11 @@ codes: [MPG019]
 "This costs {r} less to play for each Seismic Surge you control."
 
 Rulings: search "Solid Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG019.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG019-EA.webp)
+
+## Images
+
+![MPG019 - Solid Ground (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG019.webp)
+![MPG019 - Solid Ground (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG019-EA.webp)
 
 ## Notes

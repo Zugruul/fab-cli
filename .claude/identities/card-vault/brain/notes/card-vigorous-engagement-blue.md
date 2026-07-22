@@ -25,5 +25,11 @@ codes: [HVY120, KSI024]
 
 Variants: [[card-vigorous-engagement-red]] · [[card-vigorous-engagement-yellow]]
 Rulings: search "Vigorous Engagement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY120.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI024.png)
+
+## Images
+
+![HVY120 - Vigorous Engagement (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY120.png)
+![KSI024 - Vigorous Engagement (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI024.png)
 
 ## Notes

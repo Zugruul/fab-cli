@@ -28,5 +28,11 @@ At the start of your turn, destroy this, then your dagger attacks get go again t
 
 Keywords: [[kw-go-again]]
 Rulings: search "Agility Stance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB313.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT125.png)
+
+## Images
+
+![FAB313 - Agility Stance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB313.png)
+![HNT125 - Agility Stance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT125.png)
 
 ## Notes

@@ -28,5 +28,14 @@ Your first attack each turn gets +1{p}."
 
 Keywords: [[kw-suspense]]
 Rulings: search "The Suspense is Killing Me" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS026.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR034.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY033.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP207.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP207-CF.webp)
+
+## Images
+
+![APS026 - The Suspense is Killing Me (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS026.webp)
+![SBR034 - The Suspense is Killing Me (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR034.webp)
+![SLY033 - The Suspense is Killing Me (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY033.webp)
+![SUP207 - The Suspense is Killing Me (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP207.webp)
+![SUP207 - The Suspense is Killing Me (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP207-CF.webp)
 
 ## Notes

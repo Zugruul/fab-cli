@@ -27,5 +27,10 @@ codes: [HNT233]
 
 Variants: [[card-tip-off-red]] · [[card-tip-off-blue]]
 Rulings: search "Tip-Off" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT233.png)
+
+## Images
+
+![HNT233 - Tip-Off (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT233.png)
 
 ## Notes

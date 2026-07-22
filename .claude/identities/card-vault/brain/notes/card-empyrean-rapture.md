@@ -22,5 +22,12 @@ codes: [DTD004, FAB138]
 Once per Turn Instant - {r}: This gets ward 1 until end of turn."
 
 Rulings: search "Empyrean Rapture" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD004.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD004_EA.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB138.png)
+
+## Images
+
+![DTD004 - Empyrean Rapture](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD004.png)
+![DTD004 - Empyrean Rapture](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD004_EA.png)
+![FAB138 - Empyrean Rapture](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB138.png)
 
 ## Notes

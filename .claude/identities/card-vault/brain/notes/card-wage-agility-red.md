@@ -29,5 +29,11 @@ codes: [HVY169, OLA010]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-agility-yellow]] · [[card-wage-agility-blue]]
 Rulings: search "Wage Agility" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY169.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA010.png)
+
+## Images
+
+![HVY169 - Wage Agility (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY169.png)
+![OLA010 - Wage Agility (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA010.png)
 
 ## Notes

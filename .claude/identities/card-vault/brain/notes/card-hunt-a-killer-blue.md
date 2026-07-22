@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-mark]]
 Variants: [[card-hunt-a-killer-red]] · [[card-hunt-a-killer-yellow]]
 Rulings: search "Hunt a Killer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT133.png)
+
+## Images
+
+![FNG024 - Hunt a Killer (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG024.webp)
+![HNT133 - Hunt a Killer (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT133.png)
 
 ## Notes

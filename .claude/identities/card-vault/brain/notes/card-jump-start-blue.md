@@ -30,5 +30,12 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-jump-start-red]] · [[card-jump-start-yellow]]
 Rulings: search "Jump Start" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN106.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO182.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA030.webp)
+
+## Images
+
+![DYN106 - Jump Start (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN106.png)
+![EVO182 - Jump Start (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO182.png)
+![SDA030 - Jump Start (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA030.webp)
 
 ## Notes

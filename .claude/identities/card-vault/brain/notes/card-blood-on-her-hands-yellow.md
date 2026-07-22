@@ -33,5 +33,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Blood on Her Hands" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR055.width-450.png)
+
+## Images
+
+![EVR055 - Blood on Her Hands (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR055.width-450.png)
 
 ## Notes

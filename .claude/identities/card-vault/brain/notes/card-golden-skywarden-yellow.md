@@ -28,5 +28,11 @@ codes: [FAB343, SEA004]
 
 Keywords: [[kw-galvanize]]
 Rulings: search "Golden Skywarden" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png)
+
+## Images
+
+![FAB343 - Golden Skywarden (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp)
+![SEA004 - Golden Skywarden (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png)
 
 ## Notes

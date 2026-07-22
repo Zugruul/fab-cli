@@ -26,5 +26,10 @@ codes: [HNT221]
 "When this attacks, you may banish a card with 1{p} from each hero's graveyard. If you do, this gets +1{p}, then repeat this process."
 
 Rulings: search "Rotten Remains" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT221.png)
+
+## Images
+
+![HNT221 - Rotten Remains (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT221.png)
 
 ## Notes

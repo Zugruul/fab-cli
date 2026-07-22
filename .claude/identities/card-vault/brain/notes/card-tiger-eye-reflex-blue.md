@@ -27,5 +27,10 @@ When this defends, create a Crouching Tiger in your banished zone. You may play 
 Keywords: [[kw-ambush]]
 Variants: [[card-tiger-eye-reflex-yellow]]
 Rulings: search "Tiger Eye Reflex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC102.png)
+
+## Images
+
+![TCC102 - Tiger Eye Reflex (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC102.png)
 
 ## Notes

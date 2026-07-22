@@ -26,5 +26,10 @@ codes: [SUP217]
 "When an opponent's effect puts this into your graveyard from anywhere, create a Confidence, Might, Toughness, and Vigor token."
 
 Rulings: search "Kick the Hornet's Nest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP217.webp)
+
+## Images
+
+![SUP217 - Kick the Hornet's Nest (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP217.webp)
 
 ## Notes

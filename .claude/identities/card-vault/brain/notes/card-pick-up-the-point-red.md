@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-retrieve]]
 Variants: [[card-pick-up-the-point-yellow]] · [[card-pick-up-the-point-blue]]
 Rulings: search "Pick Up the Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM028.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT182.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR017.webp)
+
+## Images
+
+![GEM028 - Pick Up the Point (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM028.webp)
+![HNT182 - Pick Up the Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT182.png)
+![SAR017 - Pick Up the Point (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR017.webp)
 
 ## Notes

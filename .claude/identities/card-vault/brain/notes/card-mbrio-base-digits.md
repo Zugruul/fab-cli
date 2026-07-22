@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "mBrio Base Digits" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN060.webp)
+
+## Images
+
+![PEN060 - mBrio Base Digits](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN060.webp)
 
 ## Notes

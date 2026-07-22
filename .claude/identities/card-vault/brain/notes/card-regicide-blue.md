@@ -31,5 +31,12 @@ Regicide can't be defended by cards with the same name as cards in the defending
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Regicide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN121.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN121_Special.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB122.png)
+
+## Images
+
+![DYN121 - Regicide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN121.png)
+![DYN121 - Regicide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN121_Special.png)
+![FAB122 - Regicide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB122.png)
 
 ## Notes

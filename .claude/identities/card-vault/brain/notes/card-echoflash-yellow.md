@@ -25,5 +25,10 @@ codes: [OMN099]
 When this is put into your graveyard from anywhere, your hero deals 1 arcane damage to target hero."
 
 Rulings: search "Echoflash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN099.webp)
+
+## Images
+
+![OMN099 - Echoflash (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN099.webp)
 
 ## Notes

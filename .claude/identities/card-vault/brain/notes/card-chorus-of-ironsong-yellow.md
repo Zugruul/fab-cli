@@ -28,5 +28,10 @@ Unity - When this defends together with a card from hand, create a Courage token
 
 Keywords: [[kw-unity]] · [[kw-specialization]]
 Rulings: search "Chorus of Ironsong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD208.png)
+
+## Images
+
+![DTD208 - Chorus of Ironsong (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD208.png)
 
 ## Notes

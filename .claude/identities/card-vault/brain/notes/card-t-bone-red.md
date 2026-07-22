@@ -30,5 +30,11 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-t-bone-yellow]] · [[card-t-bone-blue]]
 Rulings: search "T-Bone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR073.width-450.png)
+
+## Images
+
+![AMX013 - T-Bone (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX013.webp)
+![EVR073 - T-Bone (red)](https://storage.googleapis.com/fabmaster/media/images/EVR073.width-450.png)
 
 ## Notes

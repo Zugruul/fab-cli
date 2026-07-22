@@ -28,5 +28,10 @@ Equip Crown of Providence. If you don't, negate this."
 
 Keywords: [[kw-legendary]] · [[kw-negate]]
 Rulings: search "Fabric of Providence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LSS013-CF.webp)
+
+## Images
+
+![LSS013 - Fabric of Providence (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LSS013-CF.webp)
 
 ## Notes

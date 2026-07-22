@@ -25,5 +25,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
 Variants: [[card-glisten-red]] · [[card-glisten-yellow]]
 Rulings: search "Glisten" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON071.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON071.width-450.png)
+
+## Images
+
+![MON071 - Glisten (blue)](https://storage.googleapis.com/fabmaster/media/images/MON071.width-450.png)
+![MON071 - Glisten (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON071.width-450.png)
 
 ## Notes

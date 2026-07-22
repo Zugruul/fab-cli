@@ -29,5 +29,10 @@ codes: [DTD091]
 Keywords: [[kw-go-again]]
 Variants: [[card-blistering-assault-yellow]] · [[card-blistering-assault-blue]]
 Rulings: search "Blistering Assault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD091.png)
+
+## Images
+
+![DTD091 - Blistering Assault (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD091.png)
 
 ## Notes

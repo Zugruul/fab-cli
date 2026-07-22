@@ -24,5 +24,10 @@ When this attacks, you may banish a card from under it. If you do, the attack ge
 
 Keywords: [[kw-overpower]] · [[kw-go-again]]
 Rulings: search "Bank Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX022_BACK.webp)
+
+## Images
+
+![AMX022 - Bank Breaker](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX022_BACK.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ Phantasm"
 
 Keywords: [[kw-phantasm]]
 Rulings: search "Phantasmal Symbiosis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN215.png)
+
+## Images
+
+![DYN215 - Phantasmal Symbiosis (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN215.png)
 
 ## Notes

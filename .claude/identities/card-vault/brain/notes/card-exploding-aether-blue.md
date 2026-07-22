@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-amp]] · [[kw-go-again]]
 Variants: [[card-exploding-aether-red]] · [[card-exploding-aether-yellow]]
 Rulings: search "Exploding Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS194.png)
+
+## Images
+
+![ROS194 - Exploding Aether (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS194.png)
 
 ## Notes

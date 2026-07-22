@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Devotion Never Dies" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT072.png)
+
+## Images
+
+![HNT072 - Devotion Never Dies (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT072.png)
 
 ## Notes

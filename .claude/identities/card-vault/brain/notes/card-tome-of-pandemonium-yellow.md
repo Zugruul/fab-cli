@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tome of Pandemonium" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN277.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN277-RF.webp)
+
+## Images
+
+![PEN277 - Tome of Pandemonium (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN277.webp)
+![PEN277 - Tome of Pandemonium (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN277-RF.webp)
 
 ## Notes

@@ -30,5 +30,10 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
 Keywords: [[kw-stealth]]
 Variants: [[card-bite-red]] · [[card-bite-yellow]]
 Rulings: search "Bite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT019.png)
+
+## Images
+
+![HNT019 - Bite (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT019.png)
 
 ## Notes

@@ -18,5 +18,10 @@ codes: [SMP025]
 "Choose an opponent. You each create a Gold token."
 
 Rulings: search "Fight Night Prize Purse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP025.webp)
+
+## Images
+
+![SMP025 - Fight Night Prize Purse](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP025.webp)
 
 ## Notes

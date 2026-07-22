@@ -27,5 +27,13 @@ codes: [1HP240, ARC057, SEA111]
 
 Variants: [[card-head-shot-yellow]] · [[card-head-shot-blue]]
 Rulings: search "Head Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP240.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC057.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC057.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA111.png)
+
+## Images
+
+![1HP240 - Head Shot (red)](https://storage.googleapis.com/fabmaster/media/images/1HP240.width-450.png)
+![ARC057 - Head Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC057.png)
+![ARC057 - Head Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC057.png)
+![SEA111 - Head Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA111.png)
 
 ## Notes

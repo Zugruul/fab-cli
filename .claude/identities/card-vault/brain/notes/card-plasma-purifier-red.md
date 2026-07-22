@@ -25,5 +25,12 @@ codes: [1HP190, CRU105]
 Once per Turn Action - Remove a steam counter from Plasma Purifier: Target Mechanologist pistol you control gains +1{p} until end of turn. Go again"
 
 Rulings: search "Plasma Purifier" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP190.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU105.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU105.png)
+
+## Images
+
+![1HP190 - Plasma Purifier (red)](https://storage.googleapis.com/fabmaster/media/images/1HP190.width-450.png)
+![CRU105 - Plasma Purifier (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU105.png)
+![CRU105 - Plasma Purifier (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU105.png)
 
 ## Notes

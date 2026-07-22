@@ -31,5 +31,14 @@ When you attack with Arcanic Shockwave, if it was fused, deal 1 arcane damage to
 Keywords: [[kw-fusion]]
 Variants: [[card-arcanic-shockwave-yellow]] · [[card-arcanic-shockwave-blue]]
 Rulings: search "Arcanic Shockwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST008.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE073.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE073.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS079.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA011.webp)
+
+## Images
+
+![AST008 - Arcanic Shockwave (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST008.webp)
+![ELE073 - Arcanic Shockwave (red)](https://storage.googleapis.com/fabmaster/media/images/ELE073.width-450.png)
+![ELE073 - Arcanic Shockwave (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE073.width-450.png)
+![LGS079 - Arcanic Shockwave (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS079.png)
+![SBA011 - Arcanic Shockwave (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA011.webp)
 
 ## Notes

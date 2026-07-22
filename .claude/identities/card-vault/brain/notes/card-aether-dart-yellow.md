@@ -25,5 +25,10 @@ codes: [UPR174]
 
 Variants: [[card-aether-dart-red]] · [[card-aether-dart-blue]]
 Rulings: search "Aether Dart" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR174.png)
+
+## Images
+
+![UPR174 - Aether Dart (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR174.png)
 
 ## Notes

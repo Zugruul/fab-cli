@@ -28,5 +28,11 @@ codes: [SLY026, SUP105]
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Goon Beatdown" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY026.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP105.webp)
+
+## Images
+
+![SLY026 - Goon Beatdown (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY026.webp)
+![SUP105 - Goon Beatdown (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP105.webp)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [DYN196]
 "Until end of turn, your hero gains "Whenever you draw a card this action phase, deal 1 arcane damage to any target"."
 
 Rulings: search "Brainstorm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN196.png)
+
+## Images
+
+![DYN196 - Brainstorm (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN196.png)
 
 ## Notes

@@ -24,5 +24,12 @@ Whenever you draw a card during your action phase, you may put an arrow from you
 
 Adult version: [[card-marlynn-treasure-hunter]]
 Rulings: search "Marlynn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083_V2_BACK.png)
+
+## Images
+
+![SEA083 - Marlynn](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083.png)
+![SEA083 - Marlynn](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083_V2.png)
+![SEA083 - Marlynn](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083_V2_BACK.png)
 
 ## Notes

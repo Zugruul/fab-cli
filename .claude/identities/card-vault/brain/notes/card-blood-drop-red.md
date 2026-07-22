@@ -30,5 +30,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blood Drop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT062.png)
+
+## Images
+
+![HNT062 - Blood Drop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT062.png)
 
 ## Notes

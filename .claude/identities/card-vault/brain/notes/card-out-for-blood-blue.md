@@ -28,5 +28,12 @@ Reprise - If the defending hero has defended with a card from their hand this ch
 Keywords: [[kw-reprise]]
 Variants: [[card-out-for-blood-red]] · [[card-out-for-blood-yellow]]
 Rulings: search "Out for Blood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP167.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU090.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU090.png)
+
+## Images
+
+![1HP167 - Out for Blood (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP167.width-450.png)
+![CRU090 - Out for Blood (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU090.png)
+![CRU090 - Out for Blood (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU090.png)
 
 ## Notes

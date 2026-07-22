@@ -29,5 +29,11 @@ codes: [KAT007, OUT056]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-bonds-of-ancestry-yellow]] · [[card-bonds-of-ancestry-blue]]
 Rulings: search "Bonds of Ancestry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT007.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT056.width-450.png)
+
+## Images
+
+![KAT007 - Bonds of Ancestry (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT007.png)
+![OUT056 - Bonds of Ancestry (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT056.width-450.png)
 
 ## Notes

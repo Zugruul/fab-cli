@@ -26,5 +26,11 @@ Once per turn, when you boost a card, remove a steam counter from this and gain 
 
 Variants: [[card-hyper-driver-red]] · [[card-hyper-driver-yellow]] · [[card-hyper-driver]]
 Rulings: search "Hyper Driver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN112.png)
+
+## Images
+
+![AMX027 - Hyper Driver (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX027.webp)
+![DYN112 - Hyper Driver (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN112.png)
 
 ## Notes

@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-harmony-of-the-hunt-red]] · [[card-harmony-of-the-hunt-blue]]
 Rulings: search "Harmony of the Hunt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST061.png)
+
+## Images
+
+![MST061 - Harmony of the Hunt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST061.png)
 
 ## Notes

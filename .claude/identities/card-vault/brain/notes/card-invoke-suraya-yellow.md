@@ -30,5 +30,11 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Suraya" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212_Marvel.png)
+
+## Images
+
+![DYN212 - Invoke Suraya (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212.png)
+![DYN212 - Invoke Suraya (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN212_Marvel.png)
 
 ## Notes

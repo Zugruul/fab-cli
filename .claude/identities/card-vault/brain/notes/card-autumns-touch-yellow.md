@@ -27,5 +27,14 @@ codes: [BRI022, ELE129, ROS047, TER013]
 
 Variants: [[card-autumns-touch-red]] · [[card-autumns-touch-blue]]
 Rulings: search "Autumn's Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BRI022.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE129.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE129.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS047.png) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER013.webp)
+
+## Images
+
+![BRI022 - Autumn's Touch (yellow)](https://storage.googleapis.com/fabmaster/media/images/BRI022.width-450.png)
+![ELE129 - Autumn's Touch (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE129.width-450.png)
+![ELE129 - Autumn's Touch (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE129.width-450.png)
+![ROS047 - Autumn's Touch (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS047.png)
+![TER013 - Autumn's Touch (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER013.webp)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [BET010, HVY065]
 Keywords: [[kw-overpower]]
 Variants: [[card-over-the-top-yellow]] · [[card-over-the-top-blue]]
 Rulings: search "Over the Top" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY065.png)
+
+## Images
+
+![BET010 - Over the Top (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET010.png)
+![HVY065 - Over the Top (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY065.png)
 
 ## Notes

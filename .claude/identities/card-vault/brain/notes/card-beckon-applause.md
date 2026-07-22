@@ -25,5 +25,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Beckon Applause" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY100.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI006.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA006.png)
+
+## Images
+
+![HVY100 - Beckon Applause](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY100.png)
+![KSI006 - Beckon Applause](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI006.png)
+![OLA006 - Beckon Applause](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA006.png)
 
 ## Notes

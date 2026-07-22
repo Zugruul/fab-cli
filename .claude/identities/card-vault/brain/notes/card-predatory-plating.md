@@ -24,5 +24,11 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Predatory Plating" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN003.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA006.webp)
+
+## Images
+
+![PEN003 - Predatory Plating](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN003.webp)
+![SKA006 - Predatory Plating](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA006.webp)
 
 ## Notes

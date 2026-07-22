@@ -27,5 +27,11 @@ codes: [MON076]
 
 Variants: [[card-impenetrable-belief-red]] · [[card-impenetrable-belief-blue]]
 Rulings: search "Impenetrable Belief" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON076.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON076.width-450.png)
+
+## Images
+
+![MON076 - Impenetrable Belief (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON076.width-450.png)
+![MON076 - Impenetrable Belief (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON076.width-450.png)
 
 ## Notes

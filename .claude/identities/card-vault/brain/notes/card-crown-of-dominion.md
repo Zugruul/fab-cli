@@ -21,5 +21,13 @@ codes: [DYN234, FAB111, GEM112]
 When you equip Crown of Dominion, create a Gold token."
 
 Rulings: search "Crown of Dominion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN234.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN234_Marvel.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB111.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM112-RF.webp)
+
+## Images
+
+![DYN234 - Crown of Dominion](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN234.png)
+![DYN234 - Crown of Dominion](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN234_Marvel.png)
+![FAB111 - Crown of Dominion](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB111.png)
+![GEM112 - Crown of Dominion](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM112-RF.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Anticipating Gaze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA003-RF.webp)
+
+## Images
+
+![AHA003 - Anticipating Gaze](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA003-RF.webp)
 
 ## Notes

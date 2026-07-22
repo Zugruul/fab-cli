@@ -27,5 +27,10 @@ codes: [HVY148]
 
 Variants: [[card-rising-power-red]] · [[card-rising-power-yellow]]
 Rulings: search "Rising Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY148.png)
+
+## Images
+
+![HVY148 - Rising Power (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY148.png)
 
 ## Notes

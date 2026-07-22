@@ -29,5 +29,11 @@ codes: [WTR097]
 Keywords: [[kw-combo]] · [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-open-the-center-red]] · [[card-open-the-center-yellow]]
 Rulings: search "Open the Center" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR097.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR097.png)
+
+## Images
+
+![WTR097 - Open the Center (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR097.png)
+![WTR097 - Open the Center (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR097.png)
 
 ## Notes

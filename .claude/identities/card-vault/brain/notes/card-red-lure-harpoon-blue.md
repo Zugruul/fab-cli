@@ -26,5 +26,10 @@ codes: [OMN241]
 "If you've activated a cannon this turn, this gets "When this hits a hero, banish a red action card from their graveyard. You may play it until the end of your next turn.""
 
 Rulings: search "Red Lure Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN241.webp)
+
+## Images
+
+![OMN241 - Red Lure Harpoon (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN241.webp)
 
 ## Notes

@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-hyper-inflation-yellow]] · [[card-hyper-inflation-blue]]
 Rulings: search "Hyper Inflation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM131.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN282.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR012.webp)
+
+## Images
+
+![GEM131 - Hyper Inflation (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM131.webp)
+![PEN282 - Hyper Inflation (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN282.webp)
+![SAR012 - Hyper Inflation (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR012.webp)
 
 ## Notes

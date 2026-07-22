@@ -23,5 +23,11 @@ codes: [UPR011]
 "Whenever Kyloria hits a hero, gain control of an item they control. If you don't gain control of an item this way, draw a card."
 
 Rulings: search "Kyloria" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Back.png)
+
+## Images
+
+![UPR011 - Kyloria](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png)
+![UPR011 - Kyloria](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Back.png)
 
 ## Notes

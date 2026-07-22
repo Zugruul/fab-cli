@@ -29,5 +29,10 @@ codes: [HVY214]
 Keywords: [[kw-overpower]]
 Variants: [[card-down-but-not-out-red]] · [[card-down-but-not-out-blue]]
 Rulings: search "Down But Not Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY214.png)
+
+## Images
+
+![HVY214 - Down But Not Out (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY214.png)
 
 ## Notes

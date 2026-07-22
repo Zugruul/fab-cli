@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Hoarding of Denial" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG009.webp)
+
+## Images
+
+![MPG009 - Hoarding of Denial](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG009.webp)
 
 ## Notes

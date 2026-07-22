@@ -32,5 +32,13 @@ Phantasm"
 Keywords: [[kw-dominate]] · [[kw-phantasm]]
 Variants: [[card-herald-of-tenacity-red]] · [[card-herald-of-tenacity-blue]]
 Rulings: search "Herald of Tenacity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD024.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS174.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON024.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON024.width-450.png)
+
+## Images
+
+![DTD024 - Herald of Tenacity (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD024.png)
+![LGS174 - Herald of Tenacity (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS174.png)
+![MON024 - Herald of Tenacity (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON024.width-450.png)
+![MON024 - Herald of Tenacity (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON024.width-450.png)
 
 ## Notes

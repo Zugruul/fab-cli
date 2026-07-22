@@ -26,5 +26,10 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
 
 Keywords: [[kw-legendary]]
 Rulings: search "Schism of Chaos" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT000.png)
+
+## Images
+
+![HNT000 - Schism of Chaos (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT000.png)
 
 ## Notes

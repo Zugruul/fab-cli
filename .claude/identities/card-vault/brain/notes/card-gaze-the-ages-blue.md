@@ -27,5 +27,11 @@ If you've played another Wizard non-attack action card this turn, put this into 
 
 Keywords: [[kw-opt]]
 Rulings: search "Gaze the Ages" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU163.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU163.png)
+
+## Images
+
+![CRU163 - Gaze the Ages (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU163.png)
+![CRU163 - Gaze the Ages (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU163.png)
 
 ## Notes

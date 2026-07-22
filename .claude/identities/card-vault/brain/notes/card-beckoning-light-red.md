@@ -30,5 +30,10 @@ If a yellow card is charged this way, whenever an attack action card hits this c
 
 Keywords: [[kw-charge]]
 Rulings: search "Beckoning Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD051.png)
+
+## Images
+
+![DTD051 - Beckoning Light (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD051.png)
 
 ## Notes

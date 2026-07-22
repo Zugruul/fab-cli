@@ -24,5 +24,14 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Crown of Dichotomy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP263.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC079.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC079.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA005.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI004.webp)
+
+## Images
+
+![1HP263 - Crown of Dichotomy](https://storage.googleapis.com/fabmaster/media/images/1HP263.width-450.png)
+![ARC079 - Crown of Dichotomy](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC079.png)
+![ARC079 - Crown of Dichotomy](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC079.png)
+![SBA005 - Crown of Dichotomy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA005.webp)
+![SVI004 - Crown of Dichotomy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI004.webp)
 
 ## Notes

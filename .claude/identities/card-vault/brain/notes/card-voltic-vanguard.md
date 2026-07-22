@@ -21,5 +21,10 @@ codes: [PEN240]
 "Instant - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn."
 
 Rulings: search "Voltic Vanguard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN240.webp)
+
+## Images
+
+![PEN240 - Voltic Vanguard](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN240.webp)
 
 ## Notes

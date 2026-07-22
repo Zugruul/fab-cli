@@ -26,5 +26,10 @@ codes: [UPR087]
 
 Keywords: [[kw-rupture]]
 Rulings: search "Liquefy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR087.png)
+
+## Images
+
+![UPR087 - Liquefy (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR087.png)
 
 ## Notes

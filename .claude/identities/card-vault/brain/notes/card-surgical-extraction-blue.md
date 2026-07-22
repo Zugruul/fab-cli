@@ -29,5 +29,10 @@ When this hits a hero, banish the top card of their deck, then look at their han
 
 Keywords: [[kw-contract]]
 Rulings: search "Surgical Extraction" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN122.png)
+
+## Images
+
+![DYN122 - Surgical Extraction (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN122.png)
 
 ## Notes

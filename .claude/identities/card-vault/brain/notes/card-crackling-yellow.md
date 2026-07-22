@@ -30,5 +30,10 @@ codes: [AUR015]
 Keywords: [[kw-token-lightning-flow]]
 Variants: [[card-crackling-red]]
 Rulings: search "Crackling" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR015.webp)
+
+## Images
+
+![AUR015 - Crackling (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR015.webp)
 
 ## Notes

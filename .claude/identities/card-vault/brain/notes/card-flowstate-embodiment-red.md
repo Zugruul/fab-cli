@@ -26,5 +26,11 @@ codes: [FAB476, OMN146]
 "Whenever you play an instant card this chain link, create an Embodiment of Lightning or Lightning Flow token."
 
 Rulings: search "Flowstate Embodiment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB476-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN146.webp)
+
+## Images
+
+![FAB476 - Flowstate Embodiment (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB476-CF.webp)
+![OMN146 - Flowstate Embodiment (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN146.webp)
 
 ## Notes

@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-weave-earth-red]] · [[card-weave-earth-yellow]]
 Rulings: search "Weave Earth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE124.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE124.width-450.png)
+
+## Images
+
+![ELE124 - Weave Earth (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE124.width-450.png)
+![ELE124 - Weave Earth (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE124.width-450.png)
 
 ## Notes

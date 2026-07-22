@@ -29,5 +29,12 @@ At the beginning of your action phase, destroy this."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of Silphidae" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN099.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN099-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI032.webp)
+
+## Images
+
+![PEN099 - Sigil of Silphidae (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN099.webp)
+![PEN099 - Sigil of Silphidae (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN099-MV.webp)
+![SVI032 - Sigil of Silphidae (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI032.webp)
 
 ## Notes

@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-spew-shadow-yellow]] · [[card-spew-shadow-blue]]
 Rulings: search "Spew Shadow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON212.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON212.width-450.png)
+
+## Images
+
+![MON212 - Spew Shadow (red)](https://storage.googleapis.com/fabmaster/media/images/MON212.width-450.png)
+![MON212 - Spew Shadow (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON212.width-450.png)
 
 ## Notes

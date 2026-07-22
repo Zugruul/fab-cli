@@ -28,5 +28,10 @@ Channel Ice - At the beginning of your end phase, put a flow counter on this, th
 
 Keywords: [[kw-freeze]] · [[kw-channel]]
 Rulings: search "Channel Galcia's Cradle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN230.webp)
+
+## Images
+
+![PEN230 - Channel Galcia's Cradle (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN230.webp)
 
 ## Notes

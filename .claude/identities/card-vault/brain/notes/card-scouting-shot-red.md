@@ -26,5 +26,10 @@ codes: [SEA109]
 "When this is put face-up into your arsenal, you may look at the top card of your deck."
 
 Rulings: search "Scouting Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA109.png)
+
+## Images
+
+![SEA109 - Scouting Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA109.png)
 
 ## Notes

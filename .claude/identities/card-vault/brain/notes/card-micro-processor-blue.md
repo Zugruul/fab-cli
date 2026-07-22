@@ -30,5 +30,10 @@ The first time you activate Micro-processor each turn, gain 1 action point."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Micro-processor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR070.width-450.png)
+
+## Images
+
+![EVR070 - Micro-processor (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR070.width-450.png)
 
 ## Notes

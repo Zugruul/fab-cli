@@ -30,5 +30,10 @@ The first time this deals damage to a hero, create a Ponder token."
 
 Keywords: [[kw-quickstrike]]
 Rulings: search "Prophetic Quickstep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN055.webp)
+
+## Images
+
+![OMN055 - Prophetic Quickstep (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN055.webp)
 
 ## Notes

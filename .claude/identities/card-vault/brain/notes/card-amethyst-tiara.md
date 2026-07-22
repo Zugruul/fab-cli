@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]] · [[kw-spellvoid]]
 Rulings: search "Amethyst Tiara" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN171.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN171_Marvel.png)
+
+## Images
+
+![DYN171 - Amethyst Tiara](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN171.png)
+![DYN171 - Amethyst Tiara](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN171_Marvel.png)
 
 ## Notes

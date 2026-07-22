@@ -23,5 +23,12 @@ codes: [ARK006, HNT196, WOD006]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Starting Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK006.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT196.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD006.webp)
+
+## Images
+
+![ARK006 - Starting Point](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK006.webp)
+![HNT196 - Starting Point](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT196.png)
+![WOD006 - Starting Point](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD006.webp)
 
 ## Notes

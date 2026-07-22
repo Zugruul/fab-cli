@@ -26,5 +26,16 @@ Attack Reaction - Banish a card from Boltyn's soul: Target attack with {p} great
 
 Keywords: [[kw-go-again]]
 Rulings: search "Ser Boltyn, Breaker of Dawn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB001.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD044.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER031.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER039.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/MON029.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/U-MON029.width-450.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN010.png)
+
+## Images
+
+![ASB001 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB001.png)
+![DTD044 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD044.png)
+![HER031 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER031.png)
+![HER039 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER039.png)
+![MON029 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/media/images/MON029.width-450.png)
+![MON029 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/media/images/U-MON029.width-450.png)
+![WIN010 - Ser Boltyn, Breaker of Dawn](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN010.png)
 
 ## Notes

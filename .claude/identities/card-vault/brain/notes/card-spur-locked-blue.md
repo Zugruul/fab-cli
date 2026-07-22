@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Spur Locked" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT255.png)
+
+## Images
+
+![HNT255 - Spur Locked (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT255.png)
 
 ## Notes

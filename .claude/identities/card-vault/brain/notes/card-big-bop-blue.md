@@ -28,5 +28,11 @@ codes: [BET023, HVY085]
 Keywords: [[kw-wager]]
 Variants: [[card-big-bop-red]] · [[card-big-bop-yellow]]
 Rulings: search "Big Bop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET023.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY085.png)
+
+## Images
+
+![BET023 - Big Bop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET023.png)
+![HVY085 - Big Bop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY085.png)
 
 ## Notes

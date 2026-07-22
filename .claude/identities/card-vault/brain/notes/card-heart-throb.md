@@ -21,5 +21,11 @@ codes: [LGS214, TCC052]
 "Action - Destroy this: Each hero creates a Vigor token.  Go again"
 
 Rulings: search "Heart-throb" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS214.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC052.png)
+
+## Images
+
+![LGS214 - Heart-throb](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS214.png)
+![TCC052 - Heart-throb](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC052.png)
 
 ## Notes

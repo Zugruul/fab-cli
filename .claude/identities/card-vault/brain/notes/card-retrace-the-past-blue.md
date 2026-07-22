@@ -29,5 +29,10 @@ Combo - When this attacks, if a card with Gustwave in its name was the last atta
 
 Keywords: [[kw-specialization]] · [[kw-combo]]
 Rulings: search "Retrace the Past" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT249.png)
+
+## Images
+
+![HNT249 - Retrace the Past (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT249.png)
 
 ## Notes

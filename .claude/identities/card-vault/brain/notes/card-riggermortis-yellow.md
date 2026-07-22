@@ -29,5 +29,14 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Riggermortis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB018.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS406.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB019.webp)
+
+## Images
+
+![AGB018 - Riggermortis (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB018.webp)
+![LGS406 - Riggermortis (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS406.png)
+![SEA077 - Riggermortis (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png)
+![SEA077 - Riggermortis (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077_V2.png)
+![SGB019 - Riggermortis (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB019.webp)
 
 ## Notes

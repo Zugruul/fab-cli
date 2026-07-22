@@ -22,5 +22,11 @@ codes: [FAB085, UPR151]
 Once per Turn Action - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with phantasm, base {p} and {h} equal to the number of haunt counters on it, and "Once per Turn Action - {r}{r}{r}: Attack". Go again"
 
 Rulings: search "Ghostly Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB085.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR151.png)
+
+## Images
+
+![FAB085 - Ghostly Touch](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB085.png)
+![UPR151 - Ghostly Touch](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR151.png)
 
 ## Notes

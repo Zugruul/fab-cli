@@ -30,5 +30,11 @@ codes: [DRO014, UPR024]
 Keywords: [[kw-transform]]
 Variants: [[card-dustup-yellow]] · [[card-dustup-blue]]
 Rulings: search "Dustup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO014.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR024.png)
+
+## Images
+
+![DRO014 - Dustup (red)](https://storage.googleapis.com/fabmaster/media/images/DRO014.width-450.png)
+![UPR024 - Dustup (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR024.png)
 
 ## Notes

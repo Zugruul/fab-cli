@@ -21,5 +21,13 @@ codes: [AOL002, MPW007]
 "Once per Turn Action - {r}{r} or destroy a Gold you control: Attack. If this attack has wagered, it gets +1{p}."
 
 Rulings: search "Golden Grail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL002.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW007.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW007-MV.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW007-MV_BACK.webp)
+
+## Images
+
+![AOL002 - Golden Grail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL002.webp)
+![MPW007 - Golden Grail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW007.webp)
+![MPW007 - Golden Grail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW007-MV.webp)
+![MPW007 - Golden Grail](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW007-MV_BACK.webp)
 
 ## Notes

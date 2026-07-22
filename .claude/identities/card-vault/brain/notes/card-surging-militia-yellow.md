@@ -27,5 +27,11 @@ codes: [MON288]
 
 Variants: [[card-surging-militia-red]] · [[card-surging-militia-blue]]
 Rulings: search "Surging Militia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON288.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON288.width-450.png)
+
+## Images
+
+![MON288 - Surging Militia (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON288.width-450.png)
+![MON288 - Surging Militia (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON288.width-450.png)
 
 ## Notes

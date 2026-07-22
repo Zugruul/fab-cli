@@ -24,5 +24,14 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Braveforge Bracers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP144.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB006.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW011-RF.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR116.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR116.png)
+
+## Images
+
+![1HP144 - Braveforge Bracers](https://storage.googleapis.com/fabmaster/media/images/1HP144.width-450.png)
+![FAB006 - Braveforge Bracers](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB006.png)
+![MPW011 - Braveforge Bracers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW011-RF.webp)
+![WTR116 - Braveforge Bracers](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR116.png)
+![WTR116 - Braveforge Bracers](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR116.png)
 
 ## Notes

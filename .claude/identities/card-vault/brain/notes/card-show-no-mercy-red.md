@@ -30,5 +30,11 @@ If the defending hero has no cards in hand, this gets +3{p}."
 
 Keywords: [[kw-specialization]] · [[kw-intimidate]]
 Rulings: search "Show No Mercy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY013.png)
+
+## Images
+
+![ARR013 - Show No Mercy (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR013.webp)
+![HVY013 - Show No Mercy (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY013.png)
 
 ## Notes

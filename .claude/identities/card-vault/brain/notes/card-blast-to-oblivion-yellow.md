@@ -27,5 +27,10 @@ codes: [ROS080]
 
 Variants: [[card-blast-to-oblivion-red]] · [[card-blast-to-oblivion-blue]]
 Rulings: search "Blast to Oblivion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS080.png)
+
+## Images
+
+![ROS080 - Blast to Oblivion (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS080.png)
 
 ## Notes

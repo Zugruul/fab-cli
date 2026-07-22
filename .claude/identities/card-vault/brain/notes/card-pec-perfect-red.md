@@ -28,5 +28,10 @@ codes: [MPG017]
 
 Keywords: [[kw-clash]]
 Rulings: search "Pec Perfect" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG017.webp)
+
+## Images
+
+![MPG017 - Pec Perfect (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG017.webp)
 
 ## Notes

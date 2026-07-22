@@ -30,5 +30,10 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
 
 Keywords: [[kw-specialization]] · [[kw-dominate]]
 Rulings: search "Murky Water" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST233.png)
+
+## Images
+
+![MST233 - Murky Water (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST233.png)
 
 ## Notes

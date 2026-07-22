@@ -29,5 +29,12 @@ codes: [KSU022, WTR088]
 Keywords: [[kw-combo]]
 Variants: [[card-fluster-fist-red]] · [[card-fluster-fist-yellow]]
 Rulings: search "Fluster Fist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/KSU22.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR088.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR088.png)
+
+## Images
+
+![KSU022 - Fluster Fist (blue)](https://storage.googleapis.com/fabmaster/media/images/KSU22.width-450.png)
+![WTR088 - Fluster Fist (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR088.png)
+![WTR088 - Fluster Fist (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR088.png)
 
 ## Notes

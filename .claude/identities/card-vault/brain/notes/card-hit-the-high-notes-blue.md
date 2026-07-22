@@ -27,5 +27,11 @@ codes: [AUA021, ROS142]
 
 Variants: [[card-hit-the-high-notes-red]] · [[card-hit-the-high-notes-yellow]]
 Rulings: search "Hit the High Notes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS142.png)
+
+## Images
+
+![AUA021 - Hit the High Notes (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA021.webp)
+![ROS142 - Hit the High Notes (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS142.png)
 
 ## Notes

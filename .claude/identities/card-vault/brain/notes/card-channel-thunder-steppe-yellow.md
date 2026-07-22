@@ -29,5 +29,12 @@ Channel Lightning - At the beginning of your end phase, put a flow counter on Ch
 
 Keywords: [[kw-go-again]] · [[kw-channel]]
 Rulings: search "Channel Thunder Steppe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE175.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE175.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS365.png)
+
+## Images
+
+![ELE175 - Channel Thunder Steppe (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE175.width-450.png)
+![ELE175 - Channel Thunder Steppe (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE175.width-450.png)
+![LGS365 - Channel Thunder Steppe (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS365.png)
 
 ## Notes

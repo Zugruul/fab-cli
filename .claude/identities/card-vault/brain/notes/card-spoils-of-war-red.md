@@ -28,5 +28,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Spoils of War" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP151.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU084.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU084.png)
+
+## Images
+
+![1HP151 - Spoils of War (red)](https://storage.googleapis.com/fabmaster/media/images/1HP151.width-450.png)
+![CRU084 - Spoils of War (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU084.png)
+![CRU084 - Spoils of War (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU084.png)
 
 ## Notes

@@ -30,5 +30,10 @@ Mirage"
 Keywords: [[kw-mirage]]
 Variants: [[card-power-of-make-believe-red]] · [[card-power-of-make-believe-blue]]
 Rulings: search "Power of Make Believe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN131.webp)
+
+## Images
+
+![PEN131 - Power of Make Believe (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN131.webp)
 
 ## Notes

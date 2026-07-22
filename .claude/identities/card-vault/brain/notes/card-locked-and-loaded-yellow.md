@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-opt]] · [[kw-go-again]]
 Variants: [[card-locked-and-loaded-red]] · [[card-locked-and-loaded-blue]]
 Rulings: search "Locked and Loaded" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC033.png)
+
+## Images
+
+![ARC033 - Locked and Loaded (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033.png)
+![ARC033 - Locked and Loaded (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033-RF.png)
+![ARC033 - Locked and Loaded (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC033.png)
 
 ## Notes

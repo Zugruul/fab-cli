@@ -23,5 +23,12 @@ codes: [FLR002, LGS331, ROS003]
 If you've played or created an aura this turn, this gets +2{p}."
 
 Rulings: search "Rotwood Reaper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR002.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS331.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS003.png)
+
+## Images
+
+![FLR002 - Rotwood Reaper](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR002.webp)
+![LGS331 - Rotwood Reaper](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS331.png)
+![ROS003 - Rotwood Reaper](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS003.png)
 
 ## Notes

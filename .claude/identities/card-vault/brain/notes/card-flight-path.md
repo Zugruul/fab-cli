@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Flight Path" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ007.png)
+
+## Images
+
+![AAZ007 - Flight Path](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ007.png)
 
 ## Notes

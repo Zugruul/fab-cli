@@ -29,5 +29,13 @@ codes: [BDD011, MPG053, WTR058]
 Keywords: [[kw-crush]]
 Variants: [[card-buckling-blow-red]] · [[card-buckling-blow-blue]]
 Rulings: search "Buckling Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD011.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG053.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR058.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR058.png)
+
+## Images
+
+![BDD011 - Buckling Blow (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD011.webp)
+![MPG053 - Buckling Blow (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG053.webp)
+![WTR058 - Buckling Blow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR058.png)
+![WTR058 - Buckling Blow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR058.png)
 
 ## Notes

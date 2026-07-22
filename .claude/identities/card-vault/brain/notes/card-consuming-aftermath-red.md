@@ -29,5 +29,12 @@ codes: [LEV023, MON195]
 Keywords: [[kw-dominate]]
 Variants: [[card-consuming-aftermath-yellow]] · [[card-consuming-aftermath-blue]]
 Rulings: search "Consuming Aftermath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/LEV023.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON195.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON195.width-450.png)
+
+## Images
+
+![LEV023 - Consuming Aftermath (red)](https://storage.googleapis.com/fabmaster/media/images/LEV023.width-450.png)
+![MON195 - Consuming Aftermath (red)](https://storage.googleapis.com/fabmaster/media/images/MON195.width-450.png)
+![MON195 - Consuming Aftermath (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON195.width-450.png)
 
 ## Notes

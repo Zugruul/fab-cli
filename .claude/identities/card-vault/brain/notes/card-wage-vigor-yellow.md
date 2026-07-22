@@ -29,5 +29,10 @@ codes: [HVY190]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-vigor-red]] · [[card-wage-vigor-blue]]
 Rulings: search "Wage Vigor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY190.png)
+
+## Images
+
+![HVY190 - Wage Vigor (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY190.png)
 
 ## Notes

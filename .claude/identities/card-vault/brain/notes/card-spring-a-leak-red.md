@@ -30,5 +30,10 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
 Keywords: [[kw-boost]]
 Variants: [[card-spring-a-leak-yellow]] · [[card-spring-a-leak-blue]]
 Rulings: search "Spring a Leak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO150.png)
+
+## Images
+
+![EVO150 - Spring a Leak (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO150.png)
 
 ## Notes

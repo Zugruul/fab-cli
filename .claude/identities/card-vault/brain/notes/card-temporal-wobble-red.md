@@ -25,5 +25,10 @@ codes: [PEN112]
 
 Keywords: [[kw-negate]]
 Rulings: search "Temporal Wobble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN112.webp)
+
+## Images
+
+![PEN112 - Temporal Wobble (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN112.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [PEN280]
 Keywords: [[kw-go-again]]
 Variants: [[card-concoct-disorder-red]] · [[card-concoct-disorder-blue]]
 Rulings: search "Concoct Disorder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN280.webp)
+
+## Images
+
+![PEN280 - Concoct Disorder (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN280.webp)
 
 ## Notes

@@ -25,5 +25,13 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Spellbound Creepers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CON004-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE224.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE224.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB051.png)
+
+## Images
+
+![CON004 - Spellbound Creepers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CON004-RF.webp)
+![ELE224 - Spellbound Creepers](https://storage.googleapis.com/fabmaster/media/images/ELE224.width-450.png)
+![ELE224 - Spellbound Creepers](https://storage.googleapis.com/fabmaster/media/images/U-ELE224.width-450.png)
+![FAB051 - Spellbound Creepers](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB051.png)
 
 ## Notes

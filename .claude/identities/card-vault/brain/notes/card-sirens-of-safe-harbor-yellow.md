@@ -27,5 +27,10 @@ codes: [SEA227]
 
 Variants: [[card-sirens-of-safe-harbor-red]] · [[card-sirens-of-safe-harbor-blue]]
 Rulings: search "Sirens of Safe Harbor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA227.png)
+
+## Images
+
+![SEA227 - Sirens of Safe Harbor (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA227.png)
 
 ## Notes

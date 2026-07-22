@@ -28,5 +28,10 @@ When this is equipped, you may banish a card from you hand. If you do, draw a ca
 
 Keywords: [[kw-transform]]
 Rulings: search "Evo Zoom Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO050.png)
+
+## Images
+
+![EVO050 - Evo Zoom Call (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO050.png)
 
 ## Notes

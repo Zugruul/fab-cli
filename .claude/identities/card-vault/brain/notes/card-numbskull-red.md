@@ -26,5 +26,10 @@ codes: [DTD201]
 "While this is in any zone, its {r} cost to play, {p}, and {d} can't be modified."
 
 Rulings: search "Numbskull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD201.png)
+
+## Images
+
+![DTD201 - Numbskull (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD201.png)
 
 ## Notes

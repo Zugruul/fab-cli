@@ -24,5 +24,11 @@ Spellvoid 1"
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Claw of Vynserakai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM034-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA257.png)
+
+## Images
+
+![GEM034 - Claw of Vynserakai](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM034-CF.webp)
+![SEA257 - Claw of Vynserakai](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA257.png)
 
 ## Notes

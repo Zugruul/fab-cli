@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-convulsions-from-the-bellows-of-hell-red]] · [[card-convulsions-from-the-bellows-of-hell-blue]]
 Rulings: search "Convulsions from the Bellows of Hell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON133.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON133.width-450.png)
+
+## Images
+
+![MON133 - Convulsions from the Bellows of Hell (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON133.width-450.png)
+![MON133 - Convulsions from the Bellows of Hell (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON133.width-450.png)
 
 ## Notes

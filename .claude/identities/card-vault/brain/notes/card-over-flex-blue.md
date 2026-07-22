@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-reload]] · [[kw-go-again]]
 Variants: [[card-over-flex-red]] · [[card-over-flex-yellow]]
 Rulings: search "Over Flex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE221.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE221.width-450.png)
+
+## Images
+
+![ELE221 - Over Flex (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE221.width-450.png)
+![ELE221 - Over Flex (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE221.width-450.png)
 
 ## Notes

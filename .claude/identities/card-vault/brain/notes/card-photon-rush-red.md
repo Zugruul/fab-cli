@@ -30,5 +30,11 @@ codes: [AST012, AUR011]
 Keywords: [[kw-token-lightning-flow]] · [[kw-go-again]]
 Variants: [[card-photon-rush-blue]]
 Rulings: search "Photon Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST012.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR011.webp)
+
+## Images
+
+![AST012 - Photon Rush (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST012.webp)
+![AUR011 - Photon Rush (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR011.webp)
 
 ## Notes

@@ -21,5 +21,12 @@ codes: [AZS002, GEM142, OMN003]
 "Instant - {r}, {t}: Deal 2 arcane damage to target hero. Activate this only if an aura with a holo counter has entered the arena under your control this turn."
 
 Rulings: search "Aphrodias" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS002-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM142-CF.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN003.webp)
+
+## Images
+
+![AZS002 - Aphrodias](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS002-RF.webp)
+![GEM142 - Aphrodias](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM142-CF.webp)
+![OMN003 - Aphrodias](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN003.webp)
 
 ## Notes

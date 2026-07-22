@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-opt]] · [[kw-go-again]]
 Variants: [[card-force-sight-yellow]] · [[card-force-sight-blue]]
 Rulings: search "Force Sight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC206.png)
+
+## Images
+
+![ARC206 - Force Sight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206.png)
+![ARC206 - Force Sight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206-RF.png)
+![ARC206 - Force Sight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC206.png)
 
 ## Notes

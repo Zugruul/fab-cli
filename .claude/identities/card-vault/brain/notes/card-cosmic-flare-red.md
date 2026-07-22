@@ -23,5 +23,10 @@ codes: [OMN187]
 "Gain {r}{r}{r}"
 
 Rulings: search "Cosmic Flare" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN187.webp)
+
+## Images
+
+![OMN187 - Cosmic Flare (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN187.webp)
 
 ## Notes

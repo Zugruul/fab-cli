@@ -25,5 +25,11 @@ codes: [ENG023, MST036]
 
 Variants: [[card-moon-chakra-red]] · [[card-moon-chakra-yellow]]
 Rulings: search "Moon Chakra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG023.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST036.png)
+
+## Images
+
+![ENG023 - Moon Chakra (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG023.png)
+![MST036 - Moon Chakra (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST036.png)
 
 ## Notes

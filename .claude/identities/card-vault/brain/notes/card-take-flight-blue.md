@@ -31,5 +31,11 @@ If you've charged this turn, Take Flight gains go again."
 Keywords: [[kw-charge]]
 Variants: [[card-take-flight-red]] · [[card-take-flight-yellow]]
 Rulings: search "Take Flight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON056.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON056.width-450.png)
+
+## Images
+
+![MON056 - Take Flight (blue)](https://storage.googleapis.com/fabmaster/media/images/MON056.width-450.png)
+![MON056 - Take Flight (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON056.width-450.png)
 
 ## Notes

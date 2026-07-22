@@ -28,5 +28,10 @@ codes: [HVY084]
 Keywords: [[kw-wager]]
 Variants: [[card-big-bop-red]] · [[card-big-bop-blue]]
 Rulings: search "Big Bop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY084.png)
+
+## Images
+
+![HVY084 - Big Bop (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY084.png)
 
 ## Notes

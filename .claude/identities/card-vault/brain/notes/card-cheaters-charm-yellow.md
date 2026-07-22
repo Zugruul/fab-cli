@@ -29,5 +29,11 @@ codes: [FAB372, LGS424, SUP068]
 
 Keywords: [[kw-steal]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Cheater's Charm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB372-MV.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP068.webp)
+
+## Images
+
+![FAB372 - Cheater's Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB372-MV.webp)
+![SUP068 - Cheater's Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP068.webp)
 
 ## Notes

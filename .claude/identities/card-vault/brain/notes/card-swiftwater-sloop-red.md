@@ -29,5 +29,12 @@ codes: [SEA166, SGB013]
 Keywords: [[kw-high-tide]]
 Variants: [[card-swiftwater-sloop-yellow]] · [[card-swiftwater-sloop-blue]]
 Rulings: search "Swiftwater Sloop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA166.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA166_V2.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB013.webp)
+
+## Images
+
+![SEA166 - Swiftwater Sloop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA166.png)
+![SEA166 - Swiftwater Sloop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA166_V2.png)
+![SGB013 - Swiftwater Sloop (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB013.webp)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [SEA153]
 Keywords: [[kw-high-tide]]
 Variants: [[card-battalion-barque-red]] · [[card-battalion-barque-blue]]
 Rulings: search "Battalion Barque" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA153.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA153_V2.png)
+
+## Images
+
+![SEA153 - Battalion Barque (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA153.png)
+![SEA153 - Battalion Barque (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA153_V2.png)
 
 ## Notes

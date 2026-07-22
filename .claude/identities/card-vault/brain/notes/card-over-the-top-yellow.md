@@ -29,5 +29,10 @@ codes: [HVY066]
 Keywords: [[kw-overpower]]
 Variants: [[card-over-the-top-red]] · [[card-over-the-top-blue]]
 Rulings: search "Over the Top" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY066.png)
+
+## Images
+
+![HVY066 - Over the Top (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY066.png)
 
 ## Notes

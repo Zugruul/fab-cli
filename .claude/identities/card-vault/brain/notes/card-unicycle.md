@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Unicycle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA010.png)
+
+## Images
+
+![SEA010 - Unicycle](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA010.png)
 
 ## Notes

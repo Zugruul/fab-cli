@@ -23,5 +23,11 @@ codes: [HER117, SBZ001]
 Once per Turn Instant - Remove X energy counters from Blaze: Banish a Wizard non-attack action card from your hand with an effect that deals arcane damage equal to X. You may play it this turn as though it were an instant."
 
 Rulings: search "Blaze, Firemind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER117.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ001.webp)
+
+## Images
+
+![HER117 - Blaze, Firemind](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER117.png)
+![SBZ001 - Blaze, Firemind](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ001.webp)
 
 ## Notes

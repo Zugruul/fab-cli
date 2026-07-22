@@ -28,5 +28,10 @@ codes: [LSS023]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Drinking Buddy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS023-CF.webp)
+
+## Images
+
+![LSS023 - Drinking Buddy (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS023-CF.webp)
 
 ## Notes

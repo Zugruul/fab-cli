@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Big Game Trophy Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB345-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA087.png)
+
+## Images
+
+![FAB345 - Big Game Trophy Shot (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB345-RF.webp)
+![SEA087 - Big Game Trophy Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA087.png)
 
 ## Notes

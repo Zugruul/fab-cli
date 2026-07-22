@@ -25,5 +25,11 @@ codes: [HVY106, KSI014]
 
 Variants: [[card-cut-the-deck-yellow]] · [[card-cut-the-deck-blue]]
 Rulings: search "Cut the Deck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY106.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI014.png)
+
+## Images
+
+![HVY106 - Cut the Deck (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY106.png)
+![KSI014 - Cut the Deck (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI014.png)
 
 ## Notes

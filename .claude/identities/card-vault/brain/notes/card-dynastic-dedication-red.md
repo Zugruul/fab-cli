@@ -26,5 +26,11 @@ codes: [FNG011, HNT108]
 Target dagger attack gets +3{p}."
 
 Rulings: search "Dynastic Dedication" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG011.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT108.png)
+
+## Images
+
+![FNG011 - Dynastic Dedication (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG011.webp)
+![HNT108 - Dynastic Dedication (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT108.png)
 
 ## Notes

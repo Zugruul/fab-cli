@@ -30,5 +30,11 @@ Deal 1 arcane damage to any target."
 
 Keywords: [[kw-meld]] · [[kw-go-again]]
 Rulings: search "Regrowth // Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS356.original.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS253.png)
+
+## Images
+
+![LGS356 - Regrowth // Shock (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS356.original.png)
+![ROS253 - Regrowth // Shock (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS253.png)
 
 ## Notes

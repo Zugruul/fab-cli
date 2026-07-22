@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Evo Rapid Fire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO041.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC010.png)
+
+## Images
+
+![EVO041 - Evo Rapid Fire (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO041.png)
+![TCC010 - Evo Rapid Fire (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC010.png)
 
 ## Notes

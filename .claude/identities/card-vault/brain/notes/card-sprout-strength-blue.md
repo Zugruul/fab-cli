@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sprout-strength-red]] · [[card-sprout-strength-yellow]]
 Rulings: search "Sprout Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN224.webp)
+
+## Images
+
+![PEN224 - Sprout Strength (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN224.webp)
 
 ## Notes

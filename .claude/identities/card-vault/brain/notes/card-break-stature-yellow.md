@@ -28,5 +28,10 @@ codes: [MPG014]
 
 Keywords: [[kw-crush]]
 Rulings: search "Break Stature" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG014.webp)
+
+## Images
+
+![MPG014 - Break Stature (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG014.webp)
 
 ## Notes

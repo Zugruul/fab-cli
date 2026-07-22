@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Leech Memory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN091.webp)
+
+## Images
+
+![OMN091 - Leech Memory (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN091.webp)
 
 ## Notes

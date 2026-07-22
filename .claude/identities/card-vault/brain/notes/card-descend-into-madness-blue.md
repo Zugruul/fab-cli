@@ -24,5 +24,10 @@ codes: [PEN278]
 "Banish a random card from the defending hero's hand, then they draw a card."
 
 Rulings: search "Descend into Madness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN278.webp)
+
+## Images
+
+![PEN278 - Descend into Madness (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN278.webp)
 
 ## Notes

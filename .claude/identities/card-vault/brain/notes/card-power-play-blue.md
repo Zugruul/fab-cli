@@ -27,5 +27,12 @@ codes: [GEM103, SLY029, SUP188]
 
 Variants: [[card-power-play-red]] · [[card-power-play-yellow]]
 Rulings: search "Power Play" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM103.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY029.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP188.webp)
+
+## Images
+
+![GEM103 - Power Play (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM103.webp)
+![SLY029 - Power Play (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY029.webp)
+![SUP188 - Power Play (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP188.webp)
 
 ## Notes

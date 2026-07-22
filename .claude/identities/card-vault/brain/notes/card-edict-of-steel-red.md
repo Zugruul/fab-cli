@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-sharpen]] · [[kw-go-again]]
 Variants: [[card-edict-of-steel-yellow]] · [[card-edict-of-steel-blue]]
 Rulings: search "Edict of Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA012.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL020.webp)
+
+## Images
+
+![AHA012 - Edict of Steel (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA012.webp)
+![SBL020 - Edict of Steel (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL020.webp)
 
 ## Notes

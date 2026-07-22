@@ -26,5 +26,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tear Limb from Limb" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON222.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON222.width-450.png)
+
+## Images
+
+![MON222 - Tear Limb from Limb (blue)](https://storage.googleapis.com/fabmaster/media/images/MON222.width-450.png)
+![MON222 - Tear Limb from Limb (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON222.width-450.png)
 
 ## Notes

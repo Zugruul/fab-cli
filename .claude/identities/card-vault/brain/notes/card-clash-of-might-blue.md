@@ -29,5 +29,11 @@ codes: [HVY139, VIC020]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-might-red]] · [[card-clash-of-might-yellow]]
 Rulings: search "Clash of Might" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY139.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC020.png)
+
+## Images
+
+![HVY139 - Clash of Might (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY139.png)
+![VIC020 - Clash of Might (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC020.png)
 
 ## Notes

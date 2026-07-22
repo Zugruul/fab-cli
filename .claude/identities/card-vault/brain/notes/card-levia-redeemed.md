@@ -25,5 +25,11 @@ Cards you own lose blood debt."
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Levia, Redeemed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164_V2.png)
+
+## Images
+
+![DTD164 - Levia, Redeemed](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164.png)
+![DTD164 - Levia, Redeemed](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD164_V2.png)
 
 ## Notes

@@ -29,5 +29,13 @@ codes: [DYN056, MST182, TCC089, ZEN011]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-pouncing-qi-yellow]] · [[card-pouncing-qi-blue]]
 Rulings: search "Pouncing Qi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN056.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST182.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC089.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN011.png)
+
+## Images
+
+![DYN056 - Pouncing Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN056.png)
+![MST182 - Pouncing Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST182.png)
+![TCC089 - Pouncing Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC089.png)
+![ZEN011 - Pouncing Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN011.png)
 
 ## Notes

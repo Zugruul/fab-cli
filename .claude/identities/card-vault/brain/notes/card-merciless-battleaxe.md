@@ -24,5 +24,11 @@ When this attacks, if the attack's {p} is greater than twice its base, the attac
 
 Keywords: [[kw-overpower]]
 Rulings: search "Merciless Battleaxe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN068.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN068_Marvel.png)
+
+## Images
+
+![DYN068 - Merciless Battleaxe](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN068.png)
+![DYN068 - Merciless Battleaxe](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN068_Marvel.png)
 
 ## Notes

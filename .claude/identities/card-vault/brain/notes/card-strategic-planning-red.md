@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-strategic-planning-yellow]] · [[card-strategic-planning-blue]]
 Rulings: search "Strategic Planning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR200.png)
+
+## Images
+
+![UPR200 - Strategic Planning (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR200.png)
 
 ## Notes

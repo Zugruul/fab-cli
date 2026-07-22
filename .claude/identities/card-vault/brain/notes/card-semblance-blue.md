@@ -23,5 +23,10 @@ codes: [UPR154]
 "Negate all phantasm triggered effects of target Illusionist attack you control. The attack loses and can't gain phantasm."
 
 Rulings: search "Semblance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR154.png)
+
+## Images
+
+![UPR154 - Semblance (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR154.png)
 
 ## Notes

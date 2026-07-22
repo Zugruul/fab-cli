@@ -28,5 +28,10 @@ Action - 0: Target hero destroys the top card of their deck."
 
 Keywords: [[kw-crank]]
 Rulings: search "Grinding Gears" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO070.png)
+
+## Images
+
+![EVO070 - Grinding Gears (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO070.png)
 
 ## Notes

@@ -30,5 +30,13 @@ When your hero is dealt damage, destroy Bloodspill Invocation."
 Keywords: [[kw-go-again]]
 Variants: [[card-bloodspill-invocation-red]] · [[card-bloodspill-invocation-yellow]]
 Rulings: search "Bloodspill Invocation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP293.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC108.png)
+
+## Images
+
+![1HP293 - Bloodspill Invocation (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP293.width-450.png)
+![ARC108 - Bloodspill Invocation (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108.png)
+![ARC108 - Bloodspill Invocation (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108-RF.png)
+![ARC108 - Bloodspill Invocation (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC108.png)
 
 ## Notes

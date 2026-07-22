@@ -26,5 +26,11 @@ codes: [ANQ015, HVY211]
 "When this attacks, it gets +X{p}, where X is the number of defending cards on the combat chain."
 
 Rulings: search "Tenacity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ015.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY211.png)
+
+## Images
+
+![ANQ015 - Tenacity (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ015.webp)
+![HVY211 - Tenacity (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY211.png)
 
 ## Notes

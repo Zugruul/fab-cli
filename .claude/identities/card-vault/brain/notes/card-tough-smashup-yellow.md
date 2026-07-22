@@ -29,5 +29,10 @@ codes: [SUP047]
 Keywords: [[kw-clash]]
 Variants: [[card-tough-smashup-red]] · [[card-tough-smashup-blue]]
 Rulings: search "Tough Smashup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP047.webp)
+
+## Images
+
+![SUP047 - Tough Smashup (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP047.webp)
 
 ## Notes

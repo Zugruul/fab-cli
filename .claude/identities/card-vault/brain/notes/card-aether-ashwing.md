@@ -25,5 +25,13 @@ codes: [DRO003, UPR042]
 
 Keywords: [[kw-arcane-barrier]] · [[kw-token-aether-ashwing]]
 Rulings: search "Aether Ashwing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO003.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042_B.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042_CF.png)
+
+## Images
+
+![DRO003 - Aether Ashwing](https://storage.googleapis.com/fabmaster/media/images/DRO003.width-450.png)
+![UPR042 - Aether Ashwing](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042.png)
+![UPR042 - Aether Ashwing](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042_B.png)
+![UPR042 - Aether Ashwing](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042_CF.png)
 
 ## Notes

@@ -30,5 +30,11 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Dimenxxional Crossroads" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON157.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON157.width-450.png)
+
+## Images
+
+![MON157 - Dimenxxional Crossroads (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON157.width-450.png)
+![MON157 - Dimenxxional Crossroads (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON157.width-450.png)
 
 ## Notes

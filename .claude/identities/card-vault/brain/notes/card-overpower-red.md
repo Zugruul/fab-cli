@@ -28,5 +28,14 @@ Reprise - If the defending hero has defended with a card from their hand this ch
 Keywords: [[kw-reprise]]
 Variants: [[card-overpower-yellow]] · [[card-overpower-blue]]
 Rulings: search "Overpower" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP153.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO015.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/TEA10.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR123.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR123.png)
+
+## Images
+
+![1HP153 - Overpower (red)](https://storage.googleapis.com/fabmaster/media/images/1HP153.width-450.png)
+![SDO015 - Overpower (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO015.webp)
+![TEA010 - Overpower (red)](https://storage.googleapis.com/fabmaster/media/images/TEA10.width-450.png)
+![WTR123 - Overpower (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR123.png)
+![WTR123 - Overpower (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR123.png)
 
 ## Notes

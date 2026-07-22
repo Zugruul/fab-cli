@@ -24,5 +24,10 @@ codes: [PEN271]
 "While this is defending, if you've created a card this turn, this gets +1{d}."
 
 Rulings: search "Mistborn Protector" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN271.webp)
+
+## Images
+
+![PEN271 - Mistborn Protector (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN271.webp)
 
 ## Notes

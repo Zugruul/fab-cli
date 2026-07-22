@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Variants: [[card-skittering-sands-yellow]] · [[card-skittering-sands-blue]]
 Rulings: search "Skittering Sands" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO013.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR036.png)
+
+## Images
+
+![DRO013 - Skittering Sands (red)](https://storage.googleapis.com/fabmaster/media/images/DRO013.width-450.png)
+![UPR036 - Skittering Sands (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR036.png)
 
 ## Notes

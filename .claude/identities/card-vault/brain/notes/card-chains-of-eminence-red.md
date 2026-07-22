@@ -29,5 +29,12 @@ At the beginning of your action phase, destroy Chains of Eminence"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Chains of Eminence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC162.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC162.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG022.png)
+
+## Images
+
+![ARC162 - Chains of Eminence (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC162.png)
+![ARC162 - Chains of Eminence (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC162.png)
+![JDG022 - Chains of Eminence (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG022.png)
 
 ## Notes

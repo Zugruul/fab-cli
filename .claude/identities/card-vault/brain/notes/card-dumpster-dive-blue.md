@@ -30,5 +30,10 @@ If an item or equipment was banished from boosting this, this gets +1{p}."
 Keywords: [[kw-boost]]
 Variants: [[card-dumpster-dive-red]] · [[card-dumpster-dive-yellow]]
 Rulings: search "Dumpster Dive" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO197.png)
+
+## Images
+
+![EVO197 - Dumpster Dive (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO197.png)
 
 ## Notes

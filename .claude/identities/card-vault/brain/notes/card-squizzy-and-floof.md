@@ -22,5 +22,11 @@ codes: [HER100, HER101]
 "At the start of each opposing hero's turn, they may create a Cracked Bauble in their hand. If they do, you create a Gold token."
 
 Rulings: search "Squizzy & Floof" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER100.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER101.png)
+
+## Images
+
+![HER100 - Squizzy & Floof](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER100.png)
+![HER101 - Squizzy & Floof](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER101.png)
 
 ## Notes

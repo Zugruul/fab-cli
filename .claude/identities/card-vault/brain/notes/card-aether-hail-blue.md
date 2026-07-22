@@ -26,5 +26,11 @@ codes: [SIY020, UPR129]
 
 Variants: [[card-aether-hail-red]] · [[card-aether-hail-yellow]]
 Rulings: search "Aether Hail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY020.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR129.png)
+
+## Images
+
+![SIY020 - Aether Hail (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY020.webp)
+![UPR129 - Aether Hail (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR129.png)
 
 ## Notes

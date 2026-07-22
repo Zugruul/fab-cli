@@ -27,5 +27,10 @@ codes: [SUP024]
 When this hits a Reviled hero, put a card from their arsenal on the bottom of their deck."
 
 Rulings: search "Tame the Beastly Behavior" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP024.webp)
+
+## Images
+
+![SUP024 - Tame the Beastly Behavior (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP024.webp)
 
 ## Notes

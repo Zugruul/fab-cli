@@ -30,5 +30,11 @@ If Overload hits, it gains go again."
 Keywords: [[kw-dominate]] · [[kw-go-again]]
 Variants: [[card-overload-yellow]] · [[card-overload-blue]]
 Rulings: search "Overload" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON275.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON275.width-450.png)
+
+## Images
+
+![MON275 - Overload (red)](https://storage.googleapis.com/fabmaster/media/images/MON275.width-450.png)
+![MON275 - Overload (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON275.width-450.png)
 
 ## Notes

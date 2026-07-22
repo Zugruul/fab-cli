@@ -30,5 +30,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-soul-butcher-yellow]] · [[card-soul-butcher-blue]]
 Rulings: search "Soul Butcher" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD181.png)
+
+## Images
+
+![DTD181 - Soul Butcher (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD181.png)
 
 ## Notes

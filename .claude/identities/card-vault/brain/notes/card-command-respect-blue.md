@@ -27,5 +27,12 @@ codes: [BET019, HVY073, VIC022]
 
 Variants: [[card-command-respect-red]] · [[card-command-respect-yellow]]
 Rulings: search "Command Respect" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET019.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY073.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC022.png)
+
+## Images
+
+![BET019 - Command Respect (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET019.png)
+![HVY073 - Command Respect (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY073.png)
+![VIC022 - Command Respect (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC022.png)
 
 ## Notes

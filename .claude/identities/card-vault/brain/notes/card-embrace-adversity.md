@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Embrace Adversity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY200.png)
+
+## Images
+
+![HVY200 - Embrace Adversity](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY200.png)
 
 ## Notes

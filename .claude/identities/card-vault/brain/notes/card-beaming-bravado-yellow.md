@@ -31,5 +31,12 @@ If a yellow card is charged this way, this gets +1{p}"
 Keywords: [[kw-charge]]
 Variants: [[card-beaming-bravado-red]] · [[card-beaming-bravado-blue]]
 Rulings: search "Beaming Bravado" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB020.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD058.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL024.webp)
+
+## Images
+
+![ASB020 - Beaming Bravado (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB020.png)
+![DTD058 - Beaming Bravado (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD058.png)
+![SBL024 - Beaming Bravado (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL024.webp)
 
 ## Notes

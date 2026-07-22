@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-second-swing-red]] · [[card-second-swing-yellow]]
 Rulings: search "Second Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON118.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON118.width-450.png)
+
+## Images
+
+![MON118 - Second Swing (blue)](https://storage.googleapis.com/fabmaster/media/images/MON118.width-450.png)
+![MON118 - Second Swing (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON118.width-450.png)
 
 ## Notes

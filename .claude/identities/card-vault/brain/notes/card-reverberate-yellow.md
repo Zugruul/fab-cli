@@ -26,5 +26,12 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
 Variants: [[card-reverberate-red]] · [[card-reverberate-blue]]
 Rulings: search "Reverberate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP327.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC139.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC139.png)
+
+## Images
+
+![1HP327 - Reverberate (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP327.width-450.png)
+![ARC139 - Reverberate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC139.png)
+![ARC139 - Reverberate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC139.png)
 
 ## Notes

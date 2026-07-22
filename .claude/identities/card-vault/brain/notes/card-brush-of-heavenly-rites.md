@@ -20,5 +20,10 @@ codes: [JDG030]
 "Once per Turn Action - {r}{r}: Equip an off-hand with Proclamation in its name from your inventory. Go again"
 
 Rulings: search "Brush of Heavenly Rites" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG030.png)
+
+## Images
+
+![JDG030 - Brush of Heavenly Rites](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG030.png)
 
 ## Notes

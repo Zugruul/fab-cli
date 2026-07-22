@@ -28,5 +28,14 @@ Surge - If this deals more than 4 damage, it gets go again."
 Keywords: [[kw-surge]] · [[kw-go-again]]
 Variants: [[card-aether-quickening-yellow]] · [[card-aether-quickening-blue]]
 Rulings: search "Aether Quickening" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN197.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB112.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC011.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS183.png) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER012.webp)
+
+## Images
+
+![DYN197 - Aether Quickening (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN197.png)
+![FAB112 - Aether Quickening (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB112.png)
+![OSC011 - Aether Quickening (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC011.webp)
+![ROS183 - Aether Quickening (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS183.png)
+![VER012 - Aether Quickening (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER012.webp)
 
 ## Notes

@@ -22,5 +22,11 @@ codes: [LGS205, TCC028]
 If you have a Chivalry in your pitch zone, this gets +1{p}."
 
 Rulings: search "Hammer of Havenhold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS205.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC028.png)
+
+## Images
+
+![LGS205 - Hammer of Havenhold](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS205.png)
+![TCC028 - Hammer of Havenhold](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC028.png)
 
 ## Notes

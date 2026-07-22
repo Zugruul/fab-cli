@@ -30,5 +30,10 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
 Keywords: [[kw-phantasm]]
 Variants: [[card-coalescence-mirage-red]] · [[card-coalescence-mirage-yellow]]
 Rulings: search "Coalescence Mirage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR146.width-450.png)
+
+## Images
+
+![EVR146 - Coalescence Mirage (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR146.width-450.png)
 
 ## Notes

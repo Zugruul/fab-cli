@@ -27,5 +27,11 @@ codes: [GEM062, SEA220]
 
 Variants: [[card-nimby-yellow]] · [[card-nimby-blue]]
 Rulings: search "Nimby" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM062.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA220.png)
+
+## Images
+
+![GEM062 - Nimby (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM062.webp)
+![SEA220 - Nimby (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA220.png)
 
 ## Notes

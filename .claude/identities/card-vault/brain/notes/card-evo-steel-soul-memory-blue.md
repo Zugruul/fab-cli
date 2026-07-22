@@ -29,5 +29,11 @@ Temper"
 
 Keywords: [[kw-transform]] · [[kw-temper]]
 Rulings: search "Evo Steel Soul Memory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO026.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO026_V2.png)
+
+## Images
+
+![EVO026 - Evo Steel Soul Memory (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO026.png)
+![EVO026 - Evo Steel Soul Memory (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO026_V2.png)
 
 ## Notes

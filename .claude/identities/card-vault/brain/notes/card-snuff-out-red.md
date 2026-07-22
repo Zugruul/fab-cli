@@ -26,5 +26,10 @@ codes: [ROS117]
 "When this hits a hero, you may destroy an aura you control. If you do, they discard a card."
 
 Rulings: search "Snuff Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS117.png)
+
+## Images
+
+![ROS117 - Snuff Out (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS117.png)
 
 ## Notes

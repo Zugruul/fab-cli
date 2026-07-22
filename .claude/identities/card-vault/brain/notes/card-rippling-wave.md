@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-cloaked]] · [[kw-blade-break]]
 Rulings: search "Rippling Wave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN265.webp)
+
+## Images
+
+![PEN265 - Rippling Wave](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN265.webp)
 
 ## Notes

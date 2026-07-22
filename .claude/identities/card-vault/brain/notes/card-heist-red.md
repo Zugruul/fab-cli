@@ -29,5 +29,11 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
 
 Keywords: [[kw-boost]]
 Rulings: search "Heist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO138.png)
+
+## Images
+
+![AMX010 - Heist (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX010.webp)
+![EVO138 - Heist (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO138.png)
 
 ## Notes

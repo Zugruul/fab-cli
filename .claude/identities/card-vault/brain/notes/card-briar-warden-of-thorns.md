@@ -28,5 +28,18 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
 Keywords: [[kw-essence]]
 Young version: [[card-briar]]
 Rulings: search "Briar, Warden of Thorns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE062_Briar_errata.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE062.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER044.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER050.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/HER063.width-450.jpg) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS254-MV.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS254-MV_BACK.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN015.png) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX011.png)
+
+## Images
+
+![ELE062 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/media/images/ELE062_Briar_errata.width-450.png)
+![ELE062 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/media/images/U-ELE062.width-450.png)
+![HER044 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER044.png)
+![HER050 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER050.png)
+![HER063 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/media/images/HER063.width-450.jpg)
+![ROS254 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS254-MV.png)
+![ROS254 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS254-MV_BACK.png)
+![WIN015 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN015.png)
+![XXX011 - Briar, Warden of Thorns](https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX011.png)
 
 ## Notes

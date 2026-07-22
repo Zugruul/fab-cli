@@ -23,5 +23,11 @@ codes: [FAB094]
 - Each hero gains 1{h}."
 
 Rulings: search "Hummingbird, Call of Adventure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB094_A.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB094_B.png)
+
+## Images
+
+![FAB094 - Hummingbird, Call of Adventure](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB094_A.png)
+![FAB094 - Hummingbird, Call of Adventure](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB094_B.png)
 
 ## Notes

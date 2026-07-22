@@ -21,5 +21,11 @@ codes: [FAB340, SEA247]
 Whenever you or an ally you control deals damage to an opposing hero, you remove that many gold counters from this, then create Gold tokens equal to the number of counters removed this way."
 
 Rulings: search "Treasure Island" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB340.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA247.png)
+
+## Images
+
+![FAB340 - Treasure Island](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB340.png)
+![SEA247 - Treasure Island](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA247.png)
 
 ## Notes

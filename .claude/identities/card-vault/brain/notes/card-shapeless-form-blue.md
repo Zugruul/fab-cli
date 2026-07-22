@@ -30,5 +30,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Shapeless Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN264.webp)
+
+## Images
+
+![PEN264 - Shapeless Form (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN264.webp)
 
 ## Notes

@@ -24,5 +24,13 @@ codes: [BDD017, CRU191, HVY221]
 
 Variants: [[card-reinforce-the-line-red]] · [[card-reinforce-the-line-yellow]]
 Rulings: search "Reinforce the Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU191.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU191.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY221.png)
+
+## Images
+
+![BDD017 - Reinforce the Line (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD017.webp)
+![CRU191 - Reinforce the Line (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU191.png)
+![CRU191 - Reinforce the Line (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU191.png)
+![HVY221 - Reinforce the Line (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY221.png)
 
 ## Notes

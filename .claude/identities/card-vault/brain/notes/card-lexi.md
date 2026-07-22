@@ -27,5 +27,15 @@ Once per Turn Action - Turn a face down card in your arsenal face up: If it's a 
 Keywords: [[kw-essence]] · [[kw-go-again]]
 Adult version: [[card-lexi-livewire]]
 Rulings: search "Lexi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE032.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE032.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER046.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/LXI001.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN346-MV.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN346-MV_BACK.webp)
+
+## Images
+
+![ELE032 - Lexi](https://storage.googleapis.com/fabmaster/media/images/ELE032.width-450.png)
+![ELE032 - Lexi](https://storage.googleapis.com/fabmaster/media/images/U-ELE032.width-450.png)
+![HER046 - Lexi](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER046.png)
+![LXI001 - Lexi](https://storage.googleapis.com/fabmaster/media/images/LXI001.width-450.png)
+![PEN346 - Lexi](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN346-MV.webp)
+![PEN346 - Lexi](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN346-MV_BACK.webp)
 
 ## Notes

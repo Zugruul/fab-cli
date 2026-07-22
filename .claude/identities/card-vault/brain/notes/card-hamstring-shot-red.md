@@ -27,5 +27,11 @@ codes: [ARC060]
 
 Variants: [[card-hamstring-shot-yellow]] · [[card-hamstring-shot-blue]]
 Rulings: search "Hamstring Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC060.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC060.png)
+
+## Images
+
+![ARC060 - Hamstring Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC060.png)
+![ARC060 - Hamstring Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC060.png)
 
 ## Notes

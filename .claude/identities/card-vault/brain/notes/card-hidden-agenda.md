@@ -23,5 +23,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Hidden Agenda" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ005.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAZ005-AA.webp)
+
+## Images
+
+![AAZ005 - Hidden Agenda](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ005.png)
+![AAZ005 - Hidden Agenda](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAZ005-AA.webp)
 
 ## Notes

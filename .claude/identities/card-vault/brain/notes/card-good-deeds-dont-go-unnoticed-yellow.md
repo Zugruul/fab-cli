@@ -26,5 +26,10 @@ codes: [LSS006]
 At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}."
 
 Rulings: search "Good Deeds Don't Go Unnoticed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS006.png)
+
+## Images
+
+![LSS006 - Good Deeds Don't Go Unnoticed (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS006.png)
 
 ## Notes

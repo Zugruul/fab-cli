@@ -30,5 +30,14 @@ If you've dealt arcane damage to an opposing hero this turn, this gets go again.
 Keywords: [[kw-go-again]]
 Variants: [[card-meat-and-greet-red]] · [[card-meat-and-greet-yellow]]
 Rulings: search "Meat and Greet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP287.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU153.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS148.png)
+
+## Images
+
+![1HP287 - Meat and Greet (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP287.width-450.png)
+![CRU153 - Meat and Greet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153.png)
+![CRU153 - Meat and Greet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153-RF.png)
+![CRU153 - Meat and Greet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU153.png)
+![ROS148 - Meat and Greet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS148.png)
 
 ## Notes

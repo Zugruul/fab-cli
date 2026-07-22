@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Outed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT235.png)
+
+## Images
+
+![HNT235 - Outed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT235.png)
 
 ## Notes

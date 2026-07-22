@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-tear-through-the-portal-red]] · [[card-tear-through-the-portal-blue]]
 Rulings: search "Tear Through the Portal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD191.png)
+
+## Images
+
+![DTD191 - Tear Through the Portal (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD191.png)
 
 ## Notes

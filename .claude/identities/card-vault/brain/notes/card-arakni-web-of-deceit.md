@@ -26,5 +26,14 @@ At the beginning of your end phase, if an opponent is marked, you become a rando
 
 Keywords: [[kw-go-again]]
 Rulings: search "Arakni, Web of Deceit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT002.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT002-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT002-MV_BACK.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR001.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD001-RF.webp)
+
+## Images
+
+![HNT002 - Arakni, Web of Deceit](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT002.png)
+![HNT002 - Arakni, Web of Deceit](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT002-MV.webp)
+![HNT002 - Arakni, Web of Deceit](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT002-MV_BACK.webp)
+![SAR001 - Arakni, Web of Deceit](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR001.webp)
+![WOD001 - Arakni, Web of Deceit](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD001-RF.webp)
 
 ## Notes

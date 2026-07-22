@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Raise an Army" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB192.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY105.png)
+
+## Images
+
+![FAB192 - Raise an Army (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB192.png)
+![HVY105 - Raise an Army (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY105.png)
 
 ## Notes

@@ -25,5 +25,19 @@ codes: [1HP221, AAZ001, ARC038, CRU119, HER010, HER018, OUT089, WIN006]
 Keywords: [[kw-dominate]]
 Young version: [[card-azalea]]
 Rulings: search "Azalea, Ace in the Hole" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ001.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER010.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER018.png) · [Image #9](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT089.width-450.png) · [Image #10](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN006.png)
+
+## Images
+
+![1HP221 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png)
+![AAZ001 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ001.png)
+![ARC038 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png)
+![ARC038 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png)
+![CRU119 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png)
+![CRU119 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png)
+![HER010 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER010.png)
+![HER018 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER018.png)
+![OUT089 - Azalea, Ace in the Hole](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT089.width-450.png)
+![WIN006 - Azalea, Ace in the Hole](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN006.png)
 
 ## Notes

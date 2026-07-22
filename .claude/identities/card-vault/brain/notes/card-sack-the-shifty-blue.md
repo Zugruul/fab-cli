@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-sack-the-shifty-red]] · [[card-sack-the-shifty-yellow]]
 Rulings: search "Sack the Shifty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN144.png)
+
+## Images
+
+![DYN144 - Sack the Shifty (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN144.png)
 
 ## Notes

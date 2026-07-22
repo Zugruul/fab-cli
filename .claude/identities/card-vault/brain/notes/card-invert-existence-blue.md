@@ -28,5 +28,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Invert Existence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON158.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON158.width-450.png)
+
+## Images
+
+![MON158 - Invert Existence (blue)](https://storage.googleapis.com/fabmaster/media/images/MON158.width-450.png)
+![MON158 - Invert Existence (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON158.width-450.png)
 
 ## Notes

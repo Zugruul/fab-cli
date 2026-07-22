@@ -28,5 +28,12 @@ Reprise - If the defending hero has defended with a card from their hand this ch
 Keywords: [[kw-reprise]]
 Variants: [[card-biting-blade-red]] · [[card-biting-blade-yellow]]
 Rulings: search "Biting Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/TEA20.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR137.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR137.png)
+
+## Images
+
+![TEA020 - Biting Blade (blue)](https://storage.googleapis.com/fabmaster/media/images/TEA20.width-450.png)
+![WTR137 - Biting Blade (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR137.png)
+![WTR137 - Biting Blade (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR137.png)
 
 ## Notes

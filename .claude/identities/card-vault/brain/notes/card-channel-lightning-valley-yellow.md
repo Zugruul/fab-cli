@@ -27,5 +27,11 @@ Channel Lightning - At the beginning of your end phase, put a flow counter on th
 
 Keywords: [[kw-channel]]
 Rulings: search "Channel Lightning Valley" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB264.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS077.png)
+
+## Images
+
+![FAB264 - Channel Lightning Valley (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB264.png)
+![ROS077 - Channel Lightning Valley (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS077.png)
 
 ## Notes

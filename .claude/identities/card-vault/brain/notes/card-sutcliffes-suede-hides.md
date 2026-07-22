@@ -23,5 +23,13 @@ codes: [AVS006, BRI008, ELE225]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sutcliffe's Suede Hides" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS006.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BRI008.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ELE225.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-ELE225.width-450.png)
+
+## Images
+
+![AVS006 - Sutcliffe's Suede Hides](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS006.webp)
+![BRI008 - Sutcliffe's Suede Hides](https://storage.googleapis.com/fabmaster/media/images/BRI008.width-450.png)
+![ELE225 - Sutcliffe's Suede Hides](https://storage.googleapis.com/fabmaster/media/images/ELE225.width-450.png)
+![ELE225 - Sutcliffe's Suede Hides](https://storage.googleapis.com/fabmaster/media/images/U-ELE225.width-450.png)
 
 ## Notes

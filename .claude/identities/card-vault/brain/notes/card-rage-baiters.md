@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]] · [[kw-mark]]
 Rulings: search "Rage Baiters" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC006-RF.webp)
+
+## Images
+
+![AAC006 - Rage Baiters](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC006-RF.webp)
 
 ## Notes

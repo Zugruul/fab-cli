@@ -27,5 +27,10 @@ codes: [DYN080]
 Keywords: [[kw-piercing]]
 Variants: [[card-puncture-red]] · [[card-puncture-blue]]
 Rulings: search "Puncture" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN080.png)
+
+## Images
+
+![DYN080 - Puncture (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN080.png)
 
 ## Notes

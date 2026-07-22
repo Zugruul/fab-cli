@@ -25,5 +25,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Mask of Recurring Nightmares" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004_V2.png)
+
+## Images
+
+![MST004 - Mask of Recurring Nightmares](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png)
+![MST004 - Mask of Recurring Nightmares](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004_V2.png)
 
 ## Notes

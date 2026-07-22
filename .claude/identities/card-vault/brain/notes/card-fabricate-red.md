@@ -28,5 +28,10 @@ Put this under an Evo permanent you control.
 You may banish an Evo from your hand. If you do, draw a card."
 
 Rulings: search "Fabricate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO146.png)
+
+## Images
+
+![EVO146 - Fabricate (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO146.png)
 
 ## Notes

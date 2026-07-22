@@ -26,5 +26,11 @@ Blade Break"
 
 Keywords: [[kw-cloaked]] · [[kw-blade-break]]
 Rulings: search "Heirloom of Tiger Hide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST049.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN004.png)
+
+## Images
+
+![MST049 - Heirloom of Tiger Hide](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST049.png)
+![ZEN004 - Heirloom of Tiger Hide](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN004.png)
 
 ## Notes

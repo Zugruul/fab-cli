@@ -26,5 +26,11 @@ codes: [FAB486, MPW044]
 
 Keywords: [[kw-wager]]
 Rulings: search "Drawing Dead" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB486-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW044.webp)
+
+## Images
+
+![FAB486 - Drawing Dead (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB486-RF.webp)
+![MPW044 - Drawing Dead (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW044.webp)
 
 ## Notes

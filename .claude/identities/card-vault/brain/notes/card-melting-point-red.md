@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Melting Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT105.width-450.png)
+
+## Images
+
+![OUT105 - Melting Point (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT105.width-450.png)
 
 ## Notes

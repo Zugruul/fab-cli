@@ -29,5 +29,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-transform]]
 Rulings: search "Arcbane Grasp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN236.webp)
+
+## Images
+
+![OMN236 - Arcbane Grasp (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN236.webp)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [PEN150]
 "Create a Frostbite token under each other hero's control."
 
 Rulings: search "Song of Larinkmorth White" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN150.webp)
+
+## Images
+
+![PEN150 - Song of Larinkmorth White (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN150.webp)
 
 ## Notes

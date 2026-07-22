@@ -25,5 +25,13 @@ codes: [HVY115, KSI012, OLA012, SDO012]
 
 Variants: [[card-agile-engagement-yellow]] · [[card-agile-engagement-blue]]
 Rulings: search "Agile Engagement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY115.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI012.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA012.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO012.webp)
+
+## Images
+
+![HVY115 - Agile Engagement (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY115.png)
+![KSI012 - Agile Engagement (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI012.png)
+![OLA012 - Agile Engagement (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA012.png)
+![SDO012 - Agile Engagement (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO012.webp)
 
 ## Notes

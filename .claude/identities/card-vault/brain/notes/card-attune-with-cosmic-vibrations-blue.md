@@ -26,5 +26,10 @@ codes: [MST075]
 "When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}."
 
 Rulings: search "Attune with Cosmic Vibrations" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png)
+
+## Images
+
+![MST075 - Attune with Cosmic Vibrations (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png)
 
 ## Notes

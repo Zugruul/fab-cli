@@ -27,5 +27,10 @@ codes: [LSS010]
 
 Keywords: [[kw-negate]]
 Rulings: search "Fabric of Blossoms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS010.png)
+
+## Images
+
+![LSS010 - Fabric of Blossoms (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS010.png)
 
 ## Notes

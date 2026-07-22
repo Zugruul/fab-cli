@@ -30,5 +30,11 @@ codes: [MON053]
 Keywords: [[kw-charge]]
 Variants: [[card-express-lightning-red]] · [[card-express-lightning-yellow]]
 Rulings: search "Express Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON053.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON053.width-450.png)
+
+## Images
+
+![MON053 - Express Lightning (blue)](https://storage.googleapis.com/fabmaster/media/images/MON053.width-450.png)
+![MON053 - Express Lightning (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON053.width-450.png)
 
 ## Notes

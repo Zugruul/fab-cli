@@ -30,5 +30,12 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Sacred Art: Jade Tiger Domain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB233.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053_V2.png)
+
+## Images
+
+![FAB233 - Sacred Art: Jade Tiger Domain (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB233.png)
+![MST053 - Sacred Art: Jade Tiger Domain (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053.png)
+![MST053 - Sacred Art: Jade Tiger Domain (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053_V2.png)
 
 ## Notes

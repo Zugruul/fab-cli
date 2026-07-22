@@ -30,5 +30,10 @@ codes: [UPR067]
 Keywords: [[kw-go-again]]
 Variants: [[card-dust-runner-outlaw-red]] · [[card-dust-runner-outlaw-blue]]
 Rulings: search "Dust Runner Outlaw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR067.png)
+
+## Images
+
+![UPR067 - Dust Runner Outlaw (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR067.png)
 
 ## Notes

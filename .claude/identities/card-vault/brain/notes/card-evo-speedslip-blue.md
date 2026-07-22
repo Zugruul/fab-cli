@@ -29,5 +29,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-boost]]
 Rulings: search "Evo Speedslip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png)
+
+## Images
+
+![MST231 - Evo Speedslip (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png)
 
 ## Notes

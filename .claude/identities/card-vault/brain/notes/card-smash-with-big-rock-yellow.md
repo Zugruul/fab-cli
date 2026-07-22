@@ -26,5 +26,10 @@ codes: [SUP133]
 "Cards defending this can't gain {d}."
 
 Rulings: search "Smash with Big Rock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP133.webp)
+
+## Images
+
+![SUP133 - Smash with Big Rock (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP133.webp)
 
 ## Notes

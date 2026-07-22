@@ -30,5 +30,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]] · [[kw-go-again]]
 Variants: [[card-soul-cleaver-red]] · [[card-soul-cleaver-yellow]]
 Rulings: search "Soul Cleaver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD186.png)
+
+## Images
+
+![DTD186 - Soul Cleaver (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD186.png)
 
 ## Notes

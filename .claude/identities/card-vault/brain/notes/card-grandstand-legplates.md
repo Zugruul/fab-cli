@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Grandstand Legplates" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY205.png)
+
+## Images
+
+![HVY205 - Grandstand Legplates](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY205.png)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [GEM126, PEN159]
 Keywords: [[kw-go-again]]
 Variants: [[card-man-overboard-yellow]] · [[card-man-overboard-blue]]
 Rulings: search "Man Overboard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM126.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN159.webp)
+
+## Images
+
+![GEM126 - Man Overboard (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM126.webp)
+![PEN159 - Man Overboard (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN159.webp)
 
 ## Notes

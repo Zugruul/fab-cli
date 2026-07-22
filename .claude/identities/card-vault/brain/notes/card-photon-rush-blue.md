@@ -30,5 +30,10 @@ codes: [AUR024]
 Keywords: [[kw-token-lightning-flow]] · [[kw-go-again]]
 Variants: [[card-photon-rush-red]]
 Rulings: search "Photon Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR024.webp)
+
+## Images
+
+![AUR024 - Photon Rush (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR024.webp)
 
 ## Notes

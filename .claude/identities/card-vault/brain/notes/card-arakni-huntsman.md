@@ -23,5 +23,14 @@ codes: [DYN113, HER074, HNT263, WIN020]
 
 Young version: [[card-arakni]]
 Rulings: search "Arakni, Huntsman" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN113.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER074.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT263.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT263_BACK.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN020.png)
+
+## Images
+
+![DYN113 - Arakni, Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN113.png)
+![HER074 - Arakni, Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER074.png)
+![HNT263 - Arakni, Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT263.png)
+![HNT263 - Arakni, Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT263_BACK.png)
+![WIN020 - Arakni, Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN020.png)
 
 ## Notes

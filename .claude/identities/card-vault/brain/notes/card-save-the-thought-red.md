@@ -25,5 +25,10 @@ Create a Ponder token."
 
 Variants: [[card-save-the-thought-yellow]] · [[card-save-the-thought-blue]]
 Rulings: search "Save the Thought" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS179.png)
+
+## Images
+
+![ROS179 - Save the Thought (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS179.png)
 
 ## Notes

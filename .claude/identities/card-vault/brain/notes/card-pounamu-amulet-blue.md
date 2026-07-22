@@ -27,5 +27,11 @@ Legend of the Watery Grave"
 
 Keywords: [[kw-legendary]] · [[kw-watery-grave]]
 Rulings: search "Pounamu Amulet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA195.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA195_V2.png)
+
+## Images
+
+![SEA195 - Pounamu Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA195.png)
+![SEA195 - Pounamu Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA195_V2.png)
 
 ## Notes

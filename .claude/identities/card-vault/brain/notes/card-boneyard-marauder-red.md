@@ -31,5 +31,13 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-boneyard-marauder-yellow]] · [[card-boneyard-marauder-blue]]
 Rulings: search "Boneyard Marauder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB023.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/LEV009.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON135.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON135.width-450.png)
+
+## Images
+
+![FAB023 - Boneyard Marauder (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB023.png)
+![LEV009 - Boneyard Marauder (red)](https://storage.googleapis.com/fabmaster/media/images/LEV009.width-450.png)
+![MON135 - Boneyard Marauder (red)](https://storage.googleapis.com/fabmaster/media/images/MON135.width-450.png)
+![MON135 - Boneyard Marauder (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON135.width-450.png)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [HNT197]
 Draw a card."
 
 Rulings: search "Perforate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT197.png)
+
+## Images
+
+![HNT197 - Perforate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT197.png)
 
 ## Notes

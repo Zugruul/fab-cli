@@ -27,5 +27,12 @@ If Exposed to the Elements was fused with an Ice card, destroy an equipment with
 
 Keywords: [[kw-fusion]]
 Rulings: search "Exposed to the Elements" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE093.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE093.width-450.png)
+
+## Images
+
+![AJV027 - Exposed to the Elements (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV027.webp)
+![ELE093 - Exposed to the Elements (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE093.width-450.png)
+![ELE093 - Exposed to the Elements (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE093.width-450.png)
 
 ## Notes

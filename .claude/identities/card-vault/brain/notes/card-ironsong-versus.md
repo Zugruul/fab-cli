@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Ironsong Versus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD207.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB141.png)
+
+## Images
+
+![DTD207 - Ironsong Versus](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD207.png)
+![FAB141 - Ironsong Versus](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB141.png)
 
 ## Notes

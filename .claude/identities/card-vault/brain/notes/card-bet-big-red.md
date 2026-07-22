@@ -29,5 +29,10 @@ When this attacks a hero, you may wager a Gold, Might, and Vigor token with them
 
 Keywords: [[kw-specialization]] · [[kw-wager]]
 Rulings: search "Bet Big" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY057.png)
+
+## Images
+
+![HVY057 - Bet Big (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY057.png)
 
 ## Notes

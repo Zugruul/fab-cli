@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-beseech-the-demigon-red]] · [[card-beseech-the-demigon-blue]]
 Rulings: search "Beseech the Demigon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD188.png)
+
+## Images
+
+![DTD188 - Beseech the Demigon (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD188.png)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [BOL024, MON066]
 
 Variants: [[card-invigorating-light-yellow]] · [[card-invigorating-light-blue]]
 Rulings: search "Invigorating Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL024.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON066.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON066.width-450.png)
+
+## Images
+
+![BOL024 - Invigorating Light (red)](https://storage.googleapis.com/fabmaster/media/images/BOL024.width-450.png)
+![MON066 - Invigorating Light (red)](https://storage.googleapis.com/fabmaster/media/images/MON066.width-450.png)
+![MON066 - Invigorating Light (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON066.width-450.png)
 
 ## Notes

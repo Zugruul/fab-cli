@@ -21,5 +21,10 @@ codes: [SMP015]
 Action - Destroy this: The next attack action card you play this turn costs {r}{r} less to play. Go again"
 
 Rulings: search "Bloodied Strapping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP015.webp)
+
+## Images
+
+![SMP015 - Bloodied Strapping](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP015.webp)
 
 ## Notes

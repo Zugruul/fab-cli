@@ -27,5 +27,11 @@ codes: [FAB473, OMN154]
 When this hits, create a Lightning Flow token."
 
 Rulings: search "Voltic Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB473-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN154.webp)
+
+## Images
+
+![FAB473 - Voltic Impact (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB473-RF.webp)
+![OMN154 - Voltic Impact (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN154.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ When this hits a hero, banish the top card of their deck and a defending card."
 
 Keywords: [[kw-contract]]
 Rulings: search "Already Dead" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO236.png)
+
+## Images
+
+![EVO236 - Already Dead (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO236.png)
 
 ## Notes

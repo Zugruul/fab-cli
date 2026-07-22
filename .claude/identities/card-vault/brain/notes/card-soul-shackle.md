@@ -22,5 +22,13 @@ codes: [CHN030, FAB120, MON186]
 
 Keywords: [[kw-token-soul-shackle]]
 Rulings: search "Soul Shackle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN030.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB120.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON186.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON186.width-450.png)
+
+## Images
+
+![CHN030 - Soul Shackle](https://storage.googleapis.com/fabmaster/media/images/CHN030.width-450.png)
+![FAB120 - Soul Shackle](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB120.png)
+![MON186 - Soul Shackle](https://storage.googleapis.com/fabmaster/media/images/MON186.width-450.png)
+![MON186 - Soul Shackle](https://storage.googleapis.com/fabmaster/media/images/U-MON186.width-450.png)
 
 ## Notes

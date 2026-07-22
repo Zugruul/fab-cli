@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Song of Sinew" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP134.webp)
+
+## Images
+
+![SUP134 - Song of Sinew (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP134.webp)
 
 ## Notes

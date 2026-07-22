@@ -30,5 +30,10 @@ codes: [UPR074]
 Keywords: [[kw-go-again]]
 Variants: [[card-rebellious-rush-red]] · [[card-rebellious-rush-yellow]]
 Rulings: search "Rebellious Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR074.png)
+
+## Images
+
+![UPR074 - Rebellious Rush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR074.png)
 
 ## Notes

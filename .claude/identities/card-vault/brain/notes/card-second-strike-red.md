@@ -29,5 +29,12 @@ codes: [AUA016, ROS101, SBA020]
 Keywords: [[kw-go-again]]
 Variants: [[card-second-strike-yellow]] · [[card-second-strike-blue]]
 Rulings: search "Second Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS101.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA020.webp)
+
+## Images
+
+![AUA016 - Second Strike (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA016.webp)
+![ROS101 - Second Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS101.png)
+![SBA020 - Second Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA020.webp)
 
 ## Notes

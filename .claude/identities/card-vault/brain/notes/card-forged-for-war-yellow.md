@@ -29,5 +29,11 @@ At the beginning of your action phase, destroy Forged for War."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Forged for War" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR046.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR046.png)
+
+## Images
+
+![WTR046 - Forged for War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR046.png)
+![WTR046 - Forged for War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR046.png)
 
 ## Notes

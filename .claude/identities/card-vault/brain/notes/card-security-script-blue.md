@@ -28,5 +28,10 @@ Your Mechanologist attack action cards get +1{d}."
 
 Keywords: [[kw-crank]]
 Rulings: search "Security Script" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO080.png)
+
+## Images
+
+![EVO080 - Security Script (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO080.png)
 
 ## Notes

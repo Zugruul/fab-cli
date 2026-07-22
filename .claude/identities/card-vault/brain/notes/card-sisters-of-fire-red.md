@@ -26,5 +26,10 @@ codes: [HNT112]
 Target dagger attack gets +3{p}."
 
 Rulings: search "Sisters of Fire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT112.png)
+
+## Images
+
+![HNT112 - Sisters of Fire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT112.png)
 
 ## Notes

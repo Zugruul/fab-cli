@@ -25,5 +25,10 @@ Whenever an opponent plays or activates their first card or ability each turn, i
 
 Keywords: [[kw-pairs-with-object]]
 Rulings: search "Gavel of Natural Order" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG005.png)
+
+## Images
+
+![JDG005 - Gavel of Natural Order](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG005.png)
 
 ## Notes

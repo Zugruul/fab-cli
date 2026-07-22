@@ -27,5 +27,16 @@ codes: [1HP162, DVR016, LGS008, LGS029, SDO013, WTR132]
 Keywords: [[kw-reprise]]
 Variants: [[card-ironsong-response-yellow]] · [[card-ironsong-response-blue]]
 Rulings: search "Ironsong Response" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP162.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR016.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS008.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS029.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO013.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR132.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR132.png)
+
+## Images
+
+![1HP162 - Ironsong Response (red)](https://storage.googleapis.com/fabmaster/media/images/1HP162.width-450.png)
+![DVR016 - Ironsong Response (red)](https://storage.googleapis.com/fabmaster/media/images/DVR016.width-450.png)
+![LGS008 - Ironsong Response (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS008.png)
+![LGS029 - Ironsong Response (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS029.png)
+![SDO013 - Ironsong Response (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO013.webp)
+![WTR132 - Ironsong Response (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR132.png)
+![WTR132 - Ironsong Response (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR132.png)
 
 ## Notes

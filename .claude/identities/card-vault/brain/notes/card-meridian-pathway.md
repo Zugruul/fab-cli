@@ -24,5 +24,10 @@ Whenever you pitch a Chi, you may have this get ward 3 until end of turn."
 
 Keywords: [[kw-ward]]
 Rulings: search "Meridian Pathway" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png)
+
+## Images
+
+![MST027 - Meridian Pathway](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png)
 
 ## Notes

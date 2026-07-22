@@ -25,5 +25,10 @@ codes: [MPG048]
 
 Keywords: [[kw-clash]]
 Rulings: search "Clash of Chests" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG048.webp)
+
+## Images
+
+![MPG048 - Clash of Chests (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG048.webp)
 
 ## Notes

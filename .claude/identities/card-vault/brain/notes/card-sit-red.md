@@ -23,5 +23,10 @@ codes: [SUP210]
 "When this defends a Brute attack, this gets +3{d}."
 
 Rulings: search "Sit!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP210.webp)
+
+## Images
+
+![SUP210 - Sit! (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP210.webp)
 
 ## Notes

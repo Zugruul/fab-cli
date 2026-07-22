@@ -28,5 +28,10 @@ Gain {r}{r} for each card this scrapped."
 
 Keywords: [[kw-scrap]]
 Rulings: search "Scrap Trader" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO101.png)
+
+## Images
+
+![EVO101 - Scrap Trader (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO101.png)
 
 ## Notes

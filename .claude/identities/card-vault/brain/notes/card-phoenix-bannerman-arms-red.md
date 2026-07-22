@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Phoenix Bannerman: Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN259.webp)
+
+## Images
+
+![PEN259 - Phoenix Bannerman: Arms (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN259.webp)
 
 ## Notes

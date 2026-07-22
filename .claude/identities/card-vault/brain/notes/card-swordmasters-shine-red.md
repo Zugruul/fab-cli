@@ -25,5 +25,10 @@ codes: [PEN048]
 Target weapon attack gets +5{p}."
 
 Rulings: search "Swordmaster's Shine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN048.webp)
+
+## Images
+
+![PEN048 - Swordmaster's Shine (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN048.webp)
 
 ## Notes

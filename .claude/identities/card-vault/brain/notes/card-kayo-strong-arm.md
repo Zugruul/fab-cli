@@ -25,5 +25,12 @@ Instant - {r}{r}{r}{r}, {t}: Target attack action card you control has 6 base {p
 Whenever the crowd boos you, create a Vigor token."
 
 Rulings: search "Kayo, Strong-arm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP064.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP064-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP064-MV_BACK.webp)
+
+## Images
+
+![SUP064 - Kayo, Strong-arm](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP064.webp)
+![SUP064 - Kayo, Strong-arm](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP064-MV.webp)
+![SUP064 - Kayo, Strong-arm](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP064-MV_BACK.webp)
 
 ## Notes

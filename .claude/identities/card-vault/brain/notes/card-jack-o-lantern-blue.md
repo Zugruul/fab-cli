@@ -28,5 +28,10 @@ codes: [LGS178]
 Keywords: [[kw-go-again]]
 Variants: [[card-jack-o-lantern-red]] · [[card-jack-o-lantern-yellow]]
 Rulings: search "Jack-o'-lantern" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS178.png)
+
+## Images
+
+![LGS178 - Jack-o'-lantern (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS178.png)
 
 ## Notes

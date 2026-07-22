@@ -29,5 +29,13 @@ Channel Ice - At the beginning of your end phase, put a flow counter on Channel 
 
 Keywords: [[kw-go-again]] · [[kw-channel]]
 Rulings: search "Channel Lake Frigid" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE146.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-ELE/ELE146-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE146.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS386.png)
+
+## Images
+
+![ELE146 - Channel Lake Frigid (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE146.width-450.png)
+![ELE146 - Channel Lake Frigid (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-ELE/ELE146-RF.png)
+![ELE146 - Channel Lake Frigid (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE146.width-450.png)
+![LGS386 - Channel Lake Frigid (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS386.png)
 
 ## Notes

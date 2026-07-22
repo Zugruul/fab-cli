@@ -25,5 +25,10 @@ codes: [SEA014]
 Put a steam counter on up to 2 cogs you control."
 
 Rulings: search "Cogwerx Workshop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA014.png)
+
+## Images
+
+![SEA014 - Cogwerx Workshop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA014.png)
 
 ## Notes

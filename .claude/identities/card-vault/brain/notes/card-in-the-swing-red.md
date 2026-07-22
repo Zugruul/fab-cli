@@ -26,5 +26,14 @@ Target weapon attack gains +3{p}."
 
 Variants: [[card-in-the-swing-yellow]] · [[card-in-the-swing-blue]]
 Rulings: search "In the Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR015.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/EVR063.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB057.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW084.webp)
+
+## Images
+
+![DDD007 - In the Swing (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD007.webp)
+![DVR015 - In the Swing (red)](https://storage.googleapis.com/fabmaster/media/images/DVR015.width-450.png)
+![EVR063 - In the Swing (red)](https://storage.googleapis.com/fabmaster/media/images/EVR063.width-450.png)
+![FAB057 - In the Swing (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB057.png)
+![MPW084 - In the Swing (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW084.webp)
 
 ## Notes

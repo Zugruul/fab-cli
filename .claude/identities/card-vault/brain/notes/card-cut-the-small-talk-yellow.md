@@ -29,5 +29,10 @@ Tower - If this has 13 or more {p}, it gets "When this hits a hero, destroy all 
 
 Keywords: [[kw-tower]]
 Rulings: search "Cut the Small Talk" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP174.webp)
+
+## Images
+
+![SUP174 - Cut the Small Talk (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP174.webp)
 
 ## Notes

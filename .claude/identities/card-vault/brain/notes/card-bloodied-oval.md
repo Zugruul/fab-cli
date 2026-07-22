@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Bloodied Oval" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET003.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY206.png)
+
+## Images
+
+![BET003 - Bloodied Oval](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET003.png)
+![HVY206 - Bloodied Oval](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY206.png)
 
 ## Notes

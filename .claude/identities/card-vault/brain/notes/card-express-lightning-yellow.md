@@ -30,5 +30,12 @@ codes: [BOL020, MON052]
 Keywords: [[kw-charge]]
 Variants: [[card-express-lightning-red]] · [[card-express-lightning-blue]]
 Rulings: search "Express Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL020.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON052.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON052.width-450.png)
+
+## Images
+
+![BOL020 - Express Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/BOL020.width-450.png)
+![MON052 - Express Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON052.width-450.png)
+![MON052 - Express Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON052.width-450.png)
 
 ## Notes

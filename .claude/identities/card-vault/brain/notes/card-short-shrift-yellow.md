@@ -29,5 +29,11 @@ Crush - When this deals 4 or more damage to a hero, they discard a card."
 
 Keywords: [[kw-crush]]
 Rulings: search "Short Shrift" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY021.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP192.webp)
+
+## Images
+
+![SLY021 - Short Shrift (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY021.webp)
+![SUP192 - Short Shrift (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP192.webp)
 
 ## Notes

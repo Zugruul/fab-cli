@@ -21,5 +21,13 @@ codes: [ELE203, FAB049, GEM079]
 "Whenever you defend with Rampart of the Ram's Head, you may pay {r}. If you do, it gains +1{d} until end of turn."
 
 Rulings: search "Rampart of the Ram's Head" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE203.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE203.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB049.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM079-RF.webp)
+
+## Images
+
+![ELE203 - Rampart of the Ram's Head](https://storage.googleapis.com/fabmaster/media/images/ELE203.width-450.png)
+![ELE203 - Rampart of the Ram's Head](https://storage.googleapis.com/fabmaster/media/images/U-ELE203.width-450.png)
+![FAB049 - Rampart of the Ram's Head](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB049.png)
+![GEM079 - Rampart of the Ram's Head](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM079-RF.webp)
 
 ## Notes

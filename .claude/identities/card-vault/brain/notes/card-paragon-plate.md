@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Paragon Plate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA004-RF.webp)
+
+## Images
+
+![AHA004 - Paragon Plate](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA004-RF.webp)
 
 ## Notes

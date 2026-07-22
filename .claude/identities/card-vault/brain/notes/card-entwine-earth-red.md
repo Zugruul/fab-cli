@@ -30,5 +30,12 @@ If Entwine Earth was fused, it gains +2{p}."
 Keywords: [[kw-fusion]]
 Variants: [[card-entwine-earth-yellow]] · [[card-entwine-earth-blue]]
 Rulings: search "Entwine Earth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BRI016.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE094.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE094.width-450.png)
+
+## Images
+
+![BRI016 - Entwine Earth (red)](https://storage.googleapis.com/fabmaster/media/images/BRI016.width-450.png)
+![ELE094 - Entwine Earth (red)](https://storage.googleapis.com/fabmaster/media/images/ELE094.width-450.png)
+![ELE094 - Entwine Earth (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE094.width-450.png)
 
 ## Notes

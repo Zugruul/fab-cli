@@ -21,5 +21,20 @@ codes: [AZS031, DYN244, FAB489, LGS128, OMN225, OSC029, OUT237, ROS237, SBZ033, 
 
 Keywords: [[kw-token-ponder]]
 Rulings: search "Ponder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS031.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN244.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB489-MV.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB489-MV_BACK.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS128.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN225.webp) · [Image #7](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC029.webp) · [Image #8](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT237.width-450.png) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS237.png) · [Image #10](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ033.webp) · [Image #11](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU031.png)
+
+## Images
+
+![AZS031 - Ponder](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS031.webp)
+![DYN244 - Ponder](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN244.png)
+![FAB489 - Ponder](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB489-MV.webp)
+![FAB489 - Ponder](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB489-MV_BACK.webp)
+![LGS128 - Ponder](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS128.png)
+![OMN225 - Ponder](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN225.webp)
+![OSC029 - Ponder](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC029.webp)
+![OUT237 - Ponder](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT237.width-450.png)
+![ROS237 - Ponder](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS237.png)
+![SBZ033 - Ponder](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ033.webp)
+![UZU031 - Ponder](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU031.png)
 
 ## Notes

@@ -20,5 +20,11 @@ codes: [FAB126, OUT095]
 "Instant - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck."
 
 Rulings: search "Quiver of Abyssal Depths" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB126.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT095.width-450.png)
+
+## Images
+
+![FAB126 - Quiver of Abyssal Depths](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB126.png)
+![OUT095 - Quiver of Abyssal Depths](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT095.width-450.png)
 
 ## Notes

@@ -29,5 +29,12 @@ Rupture - If Red Hot is played as chain link 4 or higher, it has "When you attac
 
 Keywords: [[kw-specialization]] · [[kw-rupture]]
 Rulings: search "Red Hot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO009.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS108.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR090.png)
+
+## Images
+
+![DRO009 - Red Hot (red)](https://storage.googleapis.com/fabmaster/media/images/DRO009.width-450.png)
+![LGS108 - Red Hot (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS108.png)
+![UPR090 - Red Hot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR090.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [HVY058]
 If you've controlled a Might token this turn, this gets +1{p}."
 
 Rulings: search "Primed to Fight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY058.png)
+
+## Images
+
+![HVY058 - Primed to Fight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY058.png)
 
 ## Notes

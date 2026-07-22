@@ -22,5 +22,11 @@ codes: [LGS212, TCC050]
 Action - 0: Attack. When this hits, destroy it."
 
 Rulings: search "Jinglewood, Smash Hit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS212.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC050.png)
+
+## Images
+
+![LGS212 - Jinglewood, Smash Hit](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS212.png)
+![TCC050 - Jinglewood, Smash Hit](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC050.png)
 
 ## Notes

@@ -31,5 +31,14 @@ Phantasm"
 
 Keywords: [[kw-specialization]] · [[kw-phantasm]]
 Rulings: search "Herald of Judgment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD013.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB028.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON007.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON007.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/PSM008.width-450.png)
+
+## Images
+
+![DTD013 - Herald of Judgment (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD013.png)
+![FAB028 - Herald of Judgment (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB028.png)
+![MON007 - Herald of Judgment (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON007.width-450.png)
+![MON007 - Herald of Judgment (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON007.width-450.png)
+![PSM008 - Herald of Judgment (yellow)](https://storage.googleapis.com/fabmaster/media/images/PSM008.width-450.png)
 
 ## Notes

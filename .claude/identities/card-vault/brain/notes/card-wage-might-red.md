@@ -29,5 +29,11 @@ codes: [BET013, HVY149]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-might-yellow]] · [[card-wage-might-blue]]
 Rulings: search "Wage Might" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET013.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY149.png)
+
+## Images
+
+![BET013 - Wage Might (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET013.png)
+![HVY149 - Wage Might (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY149.png)
 
 ## Notes

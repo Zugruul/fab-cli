@@ -22,5 +22,11 @@ codes: [BEN006, OUT182]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Fleet Foot Sandals" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN006.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT182.width-450.png)
+
+## Images
+
+![BEN006 - Fleet Foot Sandals](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN006.png)
+![OUT182 - Fleet Foot Sandals](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT182.width-450.png)
 
 ## Notes

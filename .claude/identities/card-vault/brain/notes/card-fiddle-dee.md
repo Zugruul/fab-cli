@@ -21,5 +21,11 @@ codes: [LGS215, TCC053]
 "Action - Destroy this: Each hero creates a Might token.  Go again"
 
 Rulings: search "Fiddle-dee" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS215.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC053.png)
+
+## Images
+
+![LGS215 - Fiddle-dee](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS215.png)
+![TCC053 - Fiddle-dee](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC053.png)
 
 ## Notes

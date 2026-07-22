@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Leap Frog Slime Skin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK004.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT170.png)
+
+## Images
+
+![ARK004 - Leap Frog Slime Skin](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK004.webp)
+![HNT170 - Leap Frog Slime Skin](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT170.png)
 
 ## Notes

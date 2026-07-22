@@ -27,5 +27,11 @@ codes: [GEM138, PEN293]
 
 Variants: [[card-hulk-up-red]] · [[card-hulk-up-yellow]]
 Rulings: search "Hulk Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM138.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN293.webp)
+
+## Images
+
+![GEM138 - Hulk Up (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM138.webp)
+![PEN293 - Hulk Up (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN293.webp)
 
 ## Notes

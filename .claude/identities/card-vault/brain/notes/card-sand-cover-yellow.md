@@ -27,5 +27,10 @@ codes: [UPR040]
 Keywords: [[kw-ward]]
 Variants: [[card-sand-cover-red]] · [[card-sand-cover-blue]]
 Rulings: search "Sand Cover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR040.png)
+
+## Images
+
+![UPR040 - Sand Cover (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR040.png)
 
 ## Notes

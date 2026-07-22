@@ -25,5 +25,14 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
 
 Keywords: [[kw-dominate]]
 Rulings: search "Valda Brightaxe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR019.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER051.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG002.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG002-MV.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG002-MV_BACK.webp)
+
+## Images
+
+![EVR019 - Valda Brightaxe](https://storage.googleapis.com/fabmaster/media/images/EVR019.width-450.png)
+![HER051 - Valda Brightaxe](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER051.png)
+![MPG002 - Valda Brightaxe](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG002.webp)
+![MPG002 - Valda Brightaxe](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG002-MV.webp)
+![MPG002 - Valda Brightaxe](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG002-MV_BACK.webp)
 
 ## Notes

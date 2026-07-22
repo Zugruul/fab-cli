@@ -26,5 +26,11 @@ codes: [MON228]
 
 Variants: [[card-smash-with-big-tree-red]] · [[card-smash-with-big-tree-yellow]]
 Rulings: search "Smash with Big Tree" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON228.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON228.width-450.png)
+
+## Images
+
+![MON228 - Smash with Big Tree (blue)](https://storage.googleapis.com/fabmaster/media/images/MON228.width-450.png)
+![MON228 - Smash with Big Tree (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON228.width-450.png)
 
 ## Notes

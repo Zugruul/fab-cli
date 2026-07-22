@@ -27,5 +27,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
 
 Variants: [[card-enion-surge-yellow]] · [[card-enion-surge-blue]]
 Rulings: search "Enion Surge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN112.webp)
+
+## Images
+
+![OMN112 - Enion Surge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN112.webp)
 
 ## Notes

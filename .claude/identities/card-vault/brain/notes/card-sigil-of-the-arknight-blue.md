@@ -29,5 +29,13 @@ When this leaves the arena, reveal the top card of your deck. If it's an attack 
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of the Arknight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS028.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS325.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS133.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS133-MV.png)
+
+## Images
+
+![AVS028 - Sigil of the Arknight (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS028.webp)
+![LGS325 - Sigil of the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS325.png)
+![ROS133 - Sigil of the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS133.png)
+![ROS133 - Sigil of the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS133-MV.png)
 
 ## Notes

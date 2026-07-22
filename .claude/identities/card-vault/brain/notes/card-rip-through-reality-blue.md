@@ -32,5 +32,11 @@ Blood Debt"
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-rip-through-reality-red]] · [[card-rip-through-reality-yellow]]
 Rulings: search "Rip Through Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON182.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON182.width-450.png)
+
+## Images
+
+![MON182 - Rip Through Reality (blue)](https://storage.googleapis.com/fabmaster/media/images/MON182.width-450.png)
+![MON182 - Rip Through Reality (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON182.width-450.png)
 
 ## Notes

@@ -27,5 +27,11 @@ codes: [HVY077, VIC011]
 
 Variants: [[card-thunk-yellow]] · [[card-thunk-blue]]
 Rulings: search "Thunk" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY077.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC011.png)
+
+## Images
+
+![HVY077 - Thunk (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY077.png)
+![VIC011 - Thunk (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC011.png)
 
 ## Notes

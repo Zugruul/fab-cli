@@ -28,5 +28,10 @@ Unity - When this defends together with a card from hand, create an Embodiment o
 
 Keywords: [[kw-specialization]] · [[kw-unity]] · [[kw-go-again]]
 Rulings: search "Anthem of Spring" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD196.png)
+
+## Images
+
+![DTD196 - Anthem of Spring (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD196.png)
 
 ## Notes

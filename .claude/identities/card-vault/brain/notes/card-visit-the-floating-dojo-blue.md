@@ -26,5 +26,10 @@ Put a Surging Strike and a card with combo from your graveyard on the top and/or
 
 Keywords: [[kw-specialization]]
 Rulings: search "Visit the Floating Dojo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT055.width-450.png)
+
+## Images
+
+![OUT055 - Visit the Floating Dojo (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT055.width-450.png)
 
 ## Notes

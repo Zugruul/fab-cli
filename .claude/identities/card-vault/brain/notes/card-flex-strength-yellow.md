@@ -27,5 +27,10 @@ codes: [SUP150]
 
 Variants: [[card-flex-strength-red]] · [[card-flex-strength-blue]]
 Rulings: search "Flex Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP150.webp)
+
+## Images
+
+![SUP150 - Flex Strength (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP150.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [SUP221]
 "When this attacks, it gets -1{p} unless you pay {r}."
 
 Rulings: search "Bluster Buff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP221.webp)
+
+## Images
+
+![SUP221 - Bluster Buff (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP221.webp)
 
 ## Notes

@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-flying-high-red]] · [[card-flying-high-blue]]
 Rulings: search "Flying High" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS412.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA207.png)
+
+## Images
+
+![LGS412 - Flying High (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS412.png)
+![SEA207 - Flying High (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA207.png)
 
 ## Notes

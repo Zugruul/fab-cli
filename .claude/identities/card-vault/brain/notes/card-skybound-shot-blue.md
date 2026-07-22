@@ -27,5 +27,10 @@ codes: [OUT129]
 
 Variants: [[card-skybound-shot-red]] · [[card-skybound-shot-yellow]]
 Rulings: search "Skybound Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT129.width-450.png)
+
+## Images
+
+![OUT129 - Skybound Shot (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT129.width-450.png)
 
 ## Notes

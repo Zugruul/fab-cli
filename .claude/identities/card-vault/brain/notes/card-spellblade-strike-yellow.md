@@ -27,5 +27,12 @@ codes: [ARC104]
 
 Variants: [[card-spellblade-strike-red]] · [[card-spellblade-strike-blue]]
 Rulings: search "Spellblade Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC104.png)
+
+## Images
+
+![ARC104 - Spellblade Strike (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104.png)
+![ARC104 - Spellblade Strike (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104-RF.png)
+![ARC104 - Spellblade Strike (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC104.png)
 
 ## Notes

@@ -28,5 +28,10 @@ codes: [HNT224]
 
 Keywords: [[kw-mark]]
 Rulings: search "Pursue to the Edge of Oblivion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT224.png)
+
+## Images
+
+![HNT224 - Pursue to the Edge of Oblivion (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT224.png)
 
 ## Notes

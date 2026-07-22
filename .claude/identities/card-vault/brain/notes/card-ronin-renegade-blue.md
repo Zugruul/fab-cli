@@ -30,5 +30,11 @@ codes: [FAI023, UPR080]
 Keywords: [[kw-go-again]]
 Variants: [[card-ronin-renegade-red]] · [[card-ronin-renegade-yellow]]
 Rulings: search "Ronin Renegade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR080.png)
+
+## Images
+
+![FAI023 - Ronin Renegade (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI023.webp)
+![UPR080 - Ronin Renegade (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR080.png)
 
 ## Notes

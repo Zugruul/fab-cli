@@ -23,5 +23,11 @@ codes: [HER102, TCC027]
 Whenever you protect another hero, create a Might token."
 
 Rulings: search "Brevant, Civic Protector" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER102.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC027.png)
+
+## Images
+
+![HER102 - Brevant, Civic Protector](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER102.png)
+![TCC027 - Brevant, Civic Protector](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC027.png)
 
 ## Notes

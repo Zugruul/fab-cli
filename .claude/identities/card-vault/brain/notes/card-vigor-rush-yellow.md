@@ -29,5 +29,11 @@ codes: [ARC198]
 Keywords: [[kw-go-again]]
 Variants: [[card-vigor-rush-red]] · [[card-vigor-rush-blue]]
 Rulings: search "Vigor Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC198.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC198.png)
+
+## Images
+
+![ARC198 - Vigor Rush (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC198.png)
+![ARC198 - Vigor Rush (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC198.png)
 
 ## Notes

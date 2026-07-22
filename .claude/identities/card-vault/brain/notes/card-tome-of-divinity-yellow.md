@@ -24,5 +24,11 @@ codes: [MON065]
 If a card has been put into your hero's soul this turn, instead draw 3 cards."
 
 Rulings: search "Tome of Divinity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON065.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON065.width-450.png)
+
+## Images
+
+![MON065 - Tome of Divinity (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON065.width-450.png)
+![MON065 - Tome of Divinity (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON065.width-450.png)
 
 ## Notes

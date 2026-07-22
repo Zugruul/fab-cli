@@ -27,5 +27,12 @@ codes: [AUA007, OSC007, ROS079]
 
 Variants: [[card-blast-to-oblivion-yellow]] · [[card-blast-to-oblivion-blue]]
 Rulings: search "Blast to Oblivion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA007.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC007.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS079.png)
+
+## Images
+
+![AUA007 - Blast to Oblivion (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA007.webp)
+![OSC007 - Blast to Oblivion (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC007.webp)
+![ROS079 - Blast to Oblivion (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS079.png)
 
 ## Notes

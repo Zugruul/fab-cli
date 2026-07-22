@@ -29,5 +29,17 @@ codes: [1HP215, AIO019, ARC030, SDA027, TCC021, TNP029]
 Keywords: [[kw-boost]]
 Variants: [[card-zipper-hit-red]] · [[card-zipper-hit-blue]]
 Rulings: search "Zipper Hit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP215.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO019.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030-RF.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC030.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA027.webp) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC021.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP029-MV.webp)
+
+## Images
+
+![1HP215 - Zipper Hit (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP215.width-450.png)
+![AIO019 - Zipper Hit (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO019.webp)
+![ARC030 - Zipper Hit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030.png)
+![ARC030 - Zipper Hit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030-RF.png)
+![ARC030 - Zipper Hit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC030.png)
+![SDA027 - Zipper Hit (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA027.webp)
+![TCC021 - Zipper Hit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC021.png)
+![TNP029 - Zipper Hit (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP029-MV.webp)
 
 ## Notes

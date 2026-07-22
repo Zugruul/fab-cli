@@ -26,5 +26,10 @@ codes: [EVO119]
 Keywords: [[kw-galvanize]]
 Variants: [[card-cognition-field-red]] · [[card-cognition-field-yellow]]
 Rulings: search "Cognition Field" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO119.png)
+
+## Images
+
+![EVO119 - Cognition Field (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO119.png)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [TCC058]
 
 Variants: [[card-interlude-yellow]] · [[card-interlude-blue]]
 Rulings: search "Interlude" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC058.png)
+
+## Images
+
+![TCC058 - Interlude (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC058.png)
 
 ## Notes

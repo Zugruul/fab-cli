@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Avalon, Archangel of Rebirth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009_BACK_V2.png)
+
+## Images
+
+![DTD009 - Avalon, Archangel of Rebirth](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009_BACK.png)
+![DTD009 - Avalon, Archangel of Rebirth](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009_BACK_V2.png)
 
 ## Notes

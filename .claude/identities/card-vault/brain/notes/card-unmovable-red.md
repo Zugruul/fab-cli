@@ -25,5 +25,14 @@ codes: [1HP411, FAB306, SEN012, WTR212]
 
 Variants: [[card-unmovable-yellow]] · [[card-unmovable-blue]]
 Rulings: search "Unmovable" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP411.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB306.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN012.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR212.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR212.png)
+
+## Images
+
+![1HP411 - Unmovable (red)](https://storage.googleapis.com/fabmaster/media/images/1HP411.width-450.png)
+![FAB306 - Unmovable (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB306.png)
+![SEN012 - Unmovable (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN012.webp)
+![WTR212 - Unmovable (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR212.png)
+![WTR212 - Unmovable (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR212.png)
 
 ## Notes

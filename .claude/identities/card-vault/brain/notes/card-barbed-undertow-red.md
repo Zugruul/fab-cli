@@ -26,5 +26,11 @@ codes: [AAZ008, OUT101]
 "If Barbed Undertow has an aim counter, it gains "When this hits a hero, choose red, yellow, or blue. Until the start of your next turn, they can't pitch cards of the chosen color.""
 
 Rulings: search "Barbed Undertow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ008.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT101.width-450.png)
+
+## Images
+
+![AAZ008 - Barbed Undertow (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ008.png)
+![OUT101 - Barbed Undertow (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT101.width-450.png)
 
 ## Notes

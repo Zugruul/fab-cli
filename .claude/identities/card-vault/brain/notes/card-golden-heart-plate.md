@@ -25,5 +25,11 @@ Temper"
 
 Keywords: [[kw-legendary]] · [[kw-specialization]] · [[kw-temper]]
 Rulings: search "Golden Heart Plate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP248.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP248-MV.webp)
+
+## Images
+
+![SUP248 - Golden Heart Plate](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP248.webp)
+![SUP248 - Golden Heart Plate](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP248-MV.webp)
 
 ## Notes

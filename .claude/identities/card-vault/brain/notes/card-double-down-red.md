@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-overpower]]
 Rulings: search "Double Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB194.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY176.png)
+
+## Images
+
+![FAB194 - Double Down (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB194.png)
+![HVY176 - Double Down (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY176.png)
 
 ## Notes

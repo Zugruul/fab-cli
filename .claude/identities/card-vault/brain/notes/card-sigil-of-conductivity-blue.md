@@ -27,5 +27,13 @@ When this leaves the arena, create an Embodiment of Lightning token."
 
 Keywords: [[kw-arcane-shelter]]
 Rulings: search "Sigil of Conductivity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS324.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC024.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS088.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS088-MV.png)
+
+## Images
+
+![LGS324 - Sigil of Conductivity (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS324.png)
+![OSC024 - Sigil of Conductivity (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC024.webp)
+![ROS088 - Sigil of Conductivity (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS088.png)
+![ROS088 - Sigil of Conductivity (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS088-MV.png)
 
 ## Notes

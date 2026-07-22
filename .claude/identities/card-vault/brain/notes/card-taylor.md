@@ -23,5 +23,11 @@ codes: [LSS003]
 At the start of your turn, you may banish an equipment you control. If you do, equip a card of the same subtype from your inventory."
 
 Rulings: search "Taylor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS003_A.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS003_B.png)
+
+## Images
+
+![LSS003 - Taylor](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS003_A.png)
+![LSS003 - Taylor](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS003_B.png)
 
 ## Notes

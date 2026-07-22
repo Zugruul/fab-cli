@@ -30,5 +30,10 @@ At the beginning of your end phase, remove an energy counter from this and creat
 Keywords: [[kw-go-again]]
 Variants: [[card-geyser-of-seismic-stirrings-red]] · [[card-geyser-of-seismic-stirrings-blue]]
 Rulings: search "Geyser of Seismic Stirrings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG104.webp)
+
+## Images
+
+![MPG104 - Geyser of Seismic Stirrings (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG104.webp)
 
 ## Notes

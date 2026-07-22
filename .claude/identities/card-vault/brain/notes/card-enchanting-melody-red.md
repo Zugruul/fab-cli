@@ -30,5 +30,12 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
 Keywords: [[kw-go-again]]
 Variants: [[card-enchanting-melody-yellow]] · [[card-enchanting-melody-blue]]
 Rulings: search "Enchanting Melody" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP375.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC167.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC167.png)
+
+## Images
+
+![1HP375 - Enchanting Melody (red)](https://storage.googleapis.com/fabmaster/media/images/1HP375.width-450.png)
+![ARC167 - Enchanting Melody (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC167.png)
+![ARC167 - Enchanting Melody (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC167.png)
 
 ## Notes

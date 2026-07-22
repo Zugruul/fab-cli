@@ -25,5 +25,10 @@ codes: [SUP260]
 At the beginning of your end phase, put a sand counter on this, then destroy it unless you banish a red card from your graveyard for each sand counter on it."
 
 Rulings: search "Parched Terrain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP260.webp)
+
+## Images
+
+![SUP260 - Parched Terrain (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP260.webp)
 
 ## Notes

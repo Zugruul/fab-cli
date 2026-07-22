@@ -28,5 +28,10 @@ When this hits a hero, you may turn a card in their banished zone face-down."
 
 Variants: [[card-lay-to-rest-red]] · [[card-lay-to-rest-blue]]
 Rulings: search "Lay to Rest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD083.png)
+
+## Images
+
+![DTD083 - Lay to Rest (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD083.png)
 
 ## Notes

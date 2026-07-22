@@ -29,5 +29,10 @@ codes: [HVY170]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-agility-red]] · [[card-wage-agility-blue]]
 Rulings: search "Wage Agility" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY170.png)
+
+## Images
+
+![HVY170 - Wage Agility (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY170.png)
 
 ## Notes

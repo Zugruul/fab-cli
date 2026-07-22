@@ -25,5 +25,11 @@ codes: [LGS219, TCC067]
 "Create a Might token under each other hero's control."
 
 Rulings: search "Song of the Shining Knight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS219.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC067.png)
+
+## Images
+
+![LGS219 - Song of the Shining Knight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS219.png)
+![TCC067 - Song of the Shining Knight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC067.png)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [DYN035]
 
 Variants: [[card-blessing-of-patience-red]] · [[card-blessing-of-patience-yellow]]
 Rulings: search "Blessing of Patience" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN035.png)
+
+## Images
+
+![DYN035 - Blessing of Patience (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN035.png)
 
 ## Notes

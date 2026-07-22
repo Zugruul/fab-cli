@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Encore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC061.png)
+
+## Images
+
+![TCC061 - Encore (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC061.png)
 
 ## Notes

@@ -26,5 +26,10 @@ Name a living legend hero. Become that hero until the start of your next turn, e
 
 Keywords: [[kw-specialization]]
 Rulings: search "Embody Greatness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN121.webp)
+
+## Images
+
+![PEN121 - Embody Greatness (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN121.webp)
 
 ## Notes

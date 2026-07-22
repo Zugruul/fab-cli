@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Rulings: search "Sadistic Scowl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY014.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP095.webp)
+
+## Images
+
+![SLY014 - Sadistic Scowl (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY014.webp)
+![SUP095 - Sadistic Scowl (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP095.webp)
 
 ## Notes

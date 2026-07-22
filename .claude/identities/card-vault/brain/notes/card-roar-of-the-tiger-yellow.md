@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Roar of the Tiger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN049.png)
+
+## Images
+
+![DYN049 - Roar of the Tiger (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN049.png)
 
 ## Notes

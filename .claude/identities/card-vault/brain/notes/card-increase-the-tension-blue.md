@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-increase-the-tension-red]] · [[card-increase-the-tension-yellow]]
 Rulings: search "Increase the Tension" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU137.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU137.png)
+
+## Images
+
+![CRU137 - Increase the Tension (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU137.png)
+![CRU137 - Increase the Tension (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU137.png)
 
 ## Notes

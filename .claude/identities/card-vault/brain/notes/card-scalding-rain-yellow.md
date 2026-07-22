@@ -25,5 +25,12 @@ codes: [1HP330, ARC142]
 
 Variants: [[card-scalding-rain-red]] · [[card-scalding-rain-blue]]
 Rulings: search "Scalding Rain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP330.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC142.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC142.png)
+
+## Images
+
+![1HP330 - Scalding Rain (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP330.width-450.png)
+![ARC142 - Scalding Rain (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC142.png)
+![ARC142 - Scalding Rain (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC142.png)
 
 ## Notes

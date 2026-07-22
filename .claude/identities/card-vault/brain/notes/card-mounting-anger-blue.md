@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-mounting-anger-red]] · [[card-mounting-anger-yellow]]
 Rulings: search "Mounting Anger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR056.png)
+
+## Images
+
+![UPR056 - Mounting Anger (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR056.png)
 
 ## Notes

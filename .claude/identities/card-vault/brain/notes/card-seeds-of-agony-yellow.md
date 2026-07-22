@@ -31,5 +31,12 @@ Blood Debt"
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-seeds-of-agony-red]] · [[card-seeds-of-agony-blue]]
 Rulings: search "Seeds of Agony" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN016.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON184.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/seeds2.width-450.png)
+
+## Images
+
+![CHN016 - Seeds of Agony (yellow)](https://storage.googleapis.com/fabmaster/media/images/CHN016.width-450.png)
+![MON184 - Seeds of Agony (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON184.width-450.png)
+![MON184 - Seeds of Agony (yellow)](https://storage.googleapis.com/fabmaster/media/images/seeds2.width-450.png)
 
 ## Notes

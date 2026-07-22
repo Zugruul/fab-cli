@@ -24,5 +24,11 @@ codes: [FAB478, OMN190]
 Target Lightning attack gets +3{p}."
 
 Rulings: search "Stormshard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB478-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN190.webp)
+
+## Images
+
+![FAB478 - Stormshard (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB478-CF.webp)
+![OMN190 - Stormshard (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN190.webp)
 
 ## Notes

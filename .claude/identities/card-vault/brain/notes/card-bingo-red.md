@@ -28,5 +28,10 @@ codes: [EVR156]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Bingo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR156.width-450.png)
+
+## Images
+
+![EVR156 - Bingo (red)](https://storage.googleapis.com/fabmaster/media/images/EVR156.width-450.png)
 
 ## Notes

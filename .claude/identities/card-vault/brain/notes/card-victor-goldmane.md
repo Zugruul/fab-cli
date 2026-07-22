@@ -26,5 +26,13 @@ The first time each turn you would fail to win a clash, instead you may destroy 
 Keywords: [[kw-clash]]
 Adult version: [[card-victor-goldmane-high-and-mighty]] · [[card-victor-goldmane-match-fixer]]
 Rulings: search "Victor Goldmane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY048.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY048_MARVEL.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY048_MARVEL_BACK.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC001.png)
+
+## Images
+
+![HVY048 - Victor Goldmane](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY048.png)
+![HVY048 - Victor Goldmane](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY048_MARVEL.png)
+![HVY048 - Victor Goldmane](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY048_MARVEL_BACK.png)
+![VIC001 - Victor Goldmane](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC001.png)
 
 ## Notes

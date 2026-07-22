@@ -25,5 +25,10 @@ codes: [DYN040]
 
 Variants: [[card-reinforce-steel-red]] · [[card-reinforce-steel-blue]]
 Rulings: search "Reinforce Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN040.png)
+
+## Images
+
+![DYN040 - Reinforce Steel (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN040.png)
 
 ## Notes

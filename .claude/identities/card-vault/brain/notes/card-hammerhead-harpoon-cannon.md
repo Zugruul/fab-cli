@@ -22,5 +22,12 @@ codes: [GEM038, LGS399, SEA084]
 
 Keywords: [[kw-overpower]]
 Rulings: search "Hammerhead, Harpoon Cannon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM038-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS399.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA084.png)
+
+## Images
+
+![GEM038 - Hammerhead, Harpoon Cannon](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM038-CF.webp)
+![LGS399 - Hammerhead, Harpoon Cannon](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS399.png)
+![SEA084 - Hammerhead, Harpoon Cannon](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA084.png)
 
 ## Notes

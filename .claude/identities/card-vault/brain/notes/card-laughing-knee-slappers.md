@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Laughing Knee-Slappers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP065.webp)
+
+## Images
+
+![SUP065 - Laughing Knee-Slappers](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP065.webp)
 
 ## Notes

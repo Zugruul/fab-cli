@@ -30,5 +30,10 @@ codes: [SUP251]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Beat of the Ironsong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP251.webp)
+
+## Images
+
+![SUP251 - Beat of the Ironsong (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP251.webp)
 
 ## Notes

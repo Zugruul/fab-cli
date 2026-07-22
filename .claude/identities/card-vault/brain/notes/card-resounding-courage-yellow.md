@@ -27,5 +27,10 @@ If you've charged this turn, create a Courage token."
 
 Variants: [[card-resounding-courage-red]] · [[card-resounding-courage-blue]]
 Rulings: search "Resounding Courage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD070.png)
+
+## Images
+
+![DTD070 - Resounding Courage (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD070.png)
 
 ## Notes

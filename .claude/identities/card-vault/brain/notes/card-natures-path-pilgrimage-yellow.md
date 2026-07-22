@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-natures-path-pilgrimage-red]] · [[card-natures-path-pilgrimage-blue]]
 Rulings: search "Nature's Path Pilgrimage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP178.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR148.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR148.png)
+
+## Images
+
+![1HP178 - Nature's Path Pilgrimage (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP178.width-450.png)
+![WTR148 - Nature's Path Pilgrimage (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR148.png)
+![WTR148 - Nature's Path Pilgrimage (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR148.png)
 
 ## Notes

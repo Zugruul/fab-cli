@@ -24,5 +24,11 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
 
 Keywords: [[kw-token-nasreth-the-soul-harrower]]
 Rulings: search "Nasreth, the Soul Harrower" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD193.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD193_V2.png)
+
+## Images
+
+![DTD193 - Nasreth, the Soul Harrower](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD193.png)
+![DTD193 - Nasreth, the Soul Harrower](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD193_V2.png)
 
 ## Notes

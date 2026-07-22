@@ -22,5 +22,10 @@ codes: [PEN122]
 
 Keywords: [[kw-ward]]
 Rulings: search "Touch of Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN122.webp)
+
+## Images
+
+![PEN122 - Touch of Reality](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN122.webp)
 
 ## Notes

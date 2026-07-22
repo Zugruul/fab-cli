@@ -29,5 +29,11 @@ Crush - When this deals 4 or more damage to a hero, they discard a card."
 
 Keywords: [[kw-crush]]
 Rulings: search "Hostile Encroachment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB329-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG033.webp)
+
+## Images
+
+![FAB329 - Hostile Encroachment (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB329-RF.webp)
+![MPG033 - Hostile Encroachment (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG033.webp)
 
 ## Notes

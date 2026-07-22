@@ -27,5 +27,11 @@ codes: [SUP066]
 "Instant - Discard this: You may reveal a Reviled attack action card from your inventory and put it into your hand."
 
 Rulings: search "Outside Interference" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP066.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP066-CF.webp)
+
+## Images
+
+![SUP066 - Outside Interference (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP066.webp)
+![SUP066 - Outside Interference (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP066-CF.webp)
 
 ## Notes

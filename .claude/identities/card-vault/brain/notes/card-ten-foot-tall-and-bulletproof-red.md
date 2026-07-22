@@ -26,5 +26,11 @@ codes: [ROS217]
 "When this attacks or defends, your hero gets -2{i} during your next end phase."
 
 Rulings: search "Ten Foot Tall and Bulletproof" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS217.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS217-EA.png)
+
+## Images
+
+![ROS217 - Ten Foot Tall and Bulletproof (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS217.png)
+![ROS217 - Ten Foot Tall and Bulletproof (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS217-EA.png)
 
 ## Notes

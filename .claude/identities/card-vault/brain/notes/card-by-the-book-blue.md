@@ -27,5 +27,10 @@ Heroes can't draw cards during action phases.
 At the beginning of your action phase, destroy this."
 
 Rulings: search "By the Book" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN289.webp)
+
+## Images
+
+![PEN289 - By the Book (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN289.webp)
 
 ## Notes

@@ -28,5 +28,11 @@ codes: [FAB307, HNT071]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Art of the Dragon: Blood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB307.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT071.png)
+
+## Images
+
+![FAB307 - Art of the Dragon: Blood (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB307.png)
+![HNT071 - Art of the Dragon: Blood (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT071.png)
 
 ## Notes

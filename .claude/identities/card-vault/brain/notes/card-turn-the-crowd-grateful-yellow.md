@@ -30,5 +30,10 @@ When this hits a Reviled hero, the crowd cheers you."
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-turn-the-crowd-grateful-red]] · [[card-turn-the-crowd-grateful-blue]]
 Rulings: search "Turn the Crowd Grateful" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP050.webp)
+
+## Images
+
+![SUP050 - Turn the Crowd Grateful (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP050.webp)
 
 ## Notes

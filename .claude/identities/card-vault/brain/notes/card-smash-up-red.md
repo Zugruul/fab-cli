@@ -26,5 +26,11 @@ codes: [FAB272, ROS221]
 "When this hits a hero, turn a card in their arsenal face-up, then banish an attack action card from their arsenal."
 
 Rulings: search "Smash Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB272.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS221.png)
+
+## Images
+
+![FAB272 - Smash Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB272.png)
+![ROS221 - Smash Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS221.png)
 
 ## Notes

@@ -30,5 +30,10 @@ When this attacks, if it scrapped a card, gain {r}."
 Keywords: [[kw-scrap]]
 Variants: [[card-scrap-prospector-yellow]] · [[card-scrap-prospector-blue]]
 Rulings: search "Scrap Prospector" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO135.png)
+
+## Images
+
+![EVO135 - Scrap Prospector (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO135.png)
 
 ## Notes

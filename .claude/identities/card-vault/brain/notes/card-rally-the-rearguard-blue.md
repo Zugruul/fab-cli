@@ -27,5 +27,14 @@ codes: [HVY230, LEV029, MON283, RVD022]
 
 Variants: [[card-rally-the-rearguard-red]] · [[card-rally-the-rearguard-yellow]]
 Rulings: search "Rally the Rearguard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY230.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/LEV029.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON283.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON283.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/RVD022.width-450.png)
+
+## Images
+
+![HVY230 - Rally the Rearguard (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY230.png)
+![LEV029 - Rally the Rearguard (blue)](https://storage.googleapis.com/fabmaster/media/images/LEV029.width-450.png)
+![MON283 - Rally the Rearguard (blue)](https://storage.googleapis.com/fabmaster/media/images/MON283.width-450.png)
+![MON283 - Rally the Rearguard (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON283.width-450.png)
+![RVD022 - Rally the Rearguard (blue)](https://storage.googleapis.com/fabmaster/media/images/RVD022.width-450.png)
 
 ## Notes

@@ -28,5 +28,10 @@ codes: [OMN079]
 
 Variants: [[card-voltbound-duality-red]] · [[card-voltbound-duality-yellow]]
 Rulings: search "Voltbound Duality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN079.webp)
+
+## Images
+
+![OMN079 - Voltbound Duality (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN079.webp)
 
 ## Notes

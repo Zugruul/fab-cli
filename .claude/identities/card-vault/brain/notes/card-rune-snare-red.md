@@ -29,5 +29,10 @@ When this defends and the attacking hero has played or created 2 or more auras t
 
 Keywords: [[kw-go-again]]
 Rulings: search "Rune Snare" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN084.webp)
+
+## Images
+
+![PEN084 - Rune Snare (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN084.webp)
 
 ## Notes

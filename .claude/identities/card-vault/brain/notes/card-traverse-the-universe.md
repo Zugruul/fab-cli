@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Traverse the Universe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066_V2.png)
+
+## Images
+
+![MST066 - Traverse the Universe](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066.png)
+![MST066 - Traverse the Universe](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066_V2.png)
 
 ## Notes

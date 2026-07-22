@@ -30,5 +30,11 @@ If Promise of Plenty is played from arsenal, it gains go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-promise-of-plenty-yellow]] · [[card-promise-of-plenty-blue]]
 Rulings: search "Promise of Plenty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU183.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU183.png)
+
+## Images
+
+![CRU183 - Promise of Plenty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU183.png)
+![CRU183 - Promise of Plenty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU183.png)
 
 ## Notes

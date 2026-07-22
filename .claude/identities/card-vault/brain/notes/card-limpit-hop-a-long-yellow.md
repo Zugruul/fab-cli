@@ -29,5 +29,14 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Limpit, Hop-a-long" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS405.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB017.webp)
+
+## Images
+
+![AGB016 - Limpit, Hop-a-long (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB016.webp)
+![LGS405 - Limpit, Hop-a-long (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS405.png)
+![SEA060 - Limpit, Hop-a-long (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060.png)
+![SEA060 - Limpit, Hop-a-long (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060_V2.png)
+![SGB017 - Limpit, Hop-a-long (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB017.webp)
 
 ## Notes

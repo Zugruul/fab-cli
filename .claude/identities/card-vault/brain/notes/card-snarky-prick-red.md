@@ -26,5 +26,11 @@ codes: [GEM139, PEN302]
 "When this attacks a hero, look at the top card of their deck. If it's red, you may destroy it. If you do, this gets +4{p}."
 
 Rulings: search "Snarky Prick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM139.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN302.webp)
+
+## Images
+
+![GEM139 - Snarky Prick (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM139.webp)
+![PEN302 - Snarky Prick (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN302.webp)
 
 ## Notes

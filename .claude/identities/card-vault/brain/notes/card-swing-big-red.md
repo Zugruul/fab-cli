@@ -26,5 +26,11 @@ codes: [EVR002, LGS427]
 "When the combat chain closes, if this didn't hit, the defending hero creates a Quicken token."
 
 Rulings: search "Swing Big" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR002.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS427.webp)
+
+## Images
+
+![EVR002 - Swing Big (red)](https://storage.googleapis.com/fabmaster/media/images/EVR002.width-450.png)
+![LGS427 - Swing Big (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS427.webp)
 
 ## Notes

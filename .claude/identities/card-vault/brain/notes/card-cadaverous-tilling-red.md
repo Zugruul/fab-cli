@@ -29,5 +29,11 @@ codes: [FLR007, ROS052]
 Keywords: [[kw-decompose]]
 Variants: [[card-cadaverous-tilling-yellow]] · [[card-cadaverous-tilling-blue]]
 Rulings: search "Cadaverous Tilling" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS052.png)
+
+## Images
+
+![FLR007 - Cadaverous Tilling (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR007.webp)
+![ROS052 - Cadaverous Tilling (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS052.png)
 
 ## Notes

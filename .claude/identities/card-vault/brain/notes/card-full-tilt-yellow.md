@@ -29,5 +29,10 @@ codes: [EVO169]
 Keywords: [[kw-boost]]
 Variants: [[card-full-tilt-red]] · [[card-full-tilt-blue]]
 Rulings: search "Full Tilt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO169.png)
+
+## Images
+
+![EVO169 - Full Tilt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO169.png)
 
 ## Notes

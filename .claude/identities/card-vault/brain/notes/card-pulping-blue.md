@@ -29,5 +29,12 @@ If this is defended by fewer than 2 non-equipment cards, it gets go again."
 Keywords: [[kw-dominate]] · [[kw-go-again]]
 Variants: [[card-pulping-red]] · [[card-pulping-yellow]]
 Rulings: search "Pulping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS053.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/h3ntlAv43eGM6Nq3R046zh.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON225.width-450.png)
+
+## Images
+
+![LGS053 - Pulping (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS053.png)
+![MON225 - Pulping (blue)](https://storage.googleapis.com/fabmaster/media/images/h3ntlAv43eGM6Nq3R046zh.width-450.png)
+![MON225 - Pulping (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON225.width-450.png)
 
 ## Notes

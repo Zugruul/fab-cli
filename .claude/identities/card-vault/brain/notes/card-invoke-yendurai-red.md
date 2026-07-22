@@ -28,5 +28,11 @@ codes: [UPR017]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Yendurai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Front.png)
+
+## Images
+
+![UPR017 - Invoke Yendurai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017.png)
+![UPR017 - Invoke Yendurai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Front.png)
 
 ## Notes

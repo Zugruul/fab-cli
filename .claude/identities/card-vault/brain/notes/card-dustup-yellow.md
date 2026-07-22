@@ -30,5 +30,10 @@ codes: [UPR025]
 Keywords: [[kw-transform]]
 Variants: [[card-dustup-red]] · [[card-dustup-blue]]
 Rulings: search "Dustup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR025.png)
+
+## Images
+
+![UPR025 - Dustup (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR025.png)
 
 ## Notes

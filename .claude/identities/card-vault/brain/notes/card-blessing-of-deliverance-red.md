@@ -30,5 +30,14 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
 Keywords: [[kw-go-again]]
 Variants: [[card-blessing-of-deliverance-yellow]] · [[card-blessing-of-deliverance-blue]]
 Rulings: search "Blessing of Deliverance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP061.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS006.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS023.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR054.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR054.png)
+
+## Images
+
+![1HP061 - Blessing of Deliverance (red)](https://storage.googleapis.com/fabmaster/media/images/1HP061.width-450.png)
+![LGS006 - Blessing of Deliverance (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS006.png)
+![LGS023 - Blessing of Deliverance (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS023.png)
+![WTR054 - Blessing of Deliverance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR054.png)
+![WTR054 - Blessing of Deliverance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR054.png)
 
 ## Notes

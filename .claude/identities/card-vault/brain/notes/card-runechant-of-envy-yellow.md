@@ -26,5 +26,11 @@ When this is destroyed, create a Runechant token.
 At the beginning of your action phase or when you play an attack action card, destroy this."
 
 Rulings: search "Runechant of Envy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM178-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR152-MV.webp)
+
+## Images
+
+![GEM178 - Runechant of Envy (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM178-RF.webp)
+![IAR152 - Runechant of Envy (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR152-MV.webp)
 
 ## Notes

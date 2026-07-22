@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck. If it's red, repeat th
 Keywords: [[kw-contract]]
 Variants: [[card-excessive-bloodloss-red]] · [[card-excessive-bloodloss-yellow]]
 Rulings: search "Excessive Bloodloss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN146.webp)
+
+## Images
+
+![PEN146 - Excessive Bloodloss (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN146.webp)
 
 ## Notes

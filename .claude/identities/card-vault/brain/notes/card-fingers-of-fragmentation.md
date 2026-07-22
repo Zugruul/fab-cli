@@ -21,5 +21,10 @@ codes: [OMN039]
 "Instant - {r}{r}, destroy this: Target attack action card that has fragmented gets +2{p}."
 
 Rulings: search "Fingers of Fragmentation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN039.webp)
+
+## Images
+
+![OMN039 - Fingers of Fragmentation](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN039.webp)
 
 ## Notes

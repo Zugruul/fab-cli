@@ -30,5 +30,10 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
 Keywords: [[kw-scrap]]
 Variants: [[card-scrap-harvester-red]] · [[card-scrap-harvester-yellow]]
 Rulings: search "Scrap Harvester" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO134.png)
+
+## Images
+
+![EVO134 - Scrap Harvester (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO134.png)
 
 ## Notes

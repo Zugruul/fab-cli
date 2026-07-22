@@ -28,5 +28,10 @@ Once per Turn Instant - 0: Reveal the top card of your deck. Put a Mechanologist
 
 Keywords: [[kw-crank]]
 Rulings: search "Prismatic Lens" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO071.png)
+
+## Images
+
+![EVO071 - Prismatic Lens (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO071.png)
 
 ## Notes

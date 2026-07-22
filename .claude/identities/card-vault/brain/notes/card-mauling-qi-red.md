@@ -28,5 +28,10 @@ codes: [TCC088]
 
 Keywords: [[kw-combo]]
 Rulings: search "Mauling Qi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC088.png)
+
+## Images
+
+![TCC088 - Mauling Qi (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC088.png)
 
 ## Notes

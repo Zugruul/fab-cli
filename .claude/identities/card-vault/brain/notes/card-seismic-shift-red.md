@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Seismic Shift" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN020.webp)
+
+## Images
+
+![PEN020 - Seismic Shift (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN020.webp)
 
 ## Notes

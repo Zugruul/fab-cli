@@ -28,5 +28,10 @@ codes: [BDD008]
 
 Keywords: [[kw-crush]]
 Rulings: search "Knock 'Em Off Their Feet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/BDD008.webp)
+
+## Images
+
+![BDD008 - Knock 'Em Off Their Feet (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/BDD008.webp)
 
 ## Notes

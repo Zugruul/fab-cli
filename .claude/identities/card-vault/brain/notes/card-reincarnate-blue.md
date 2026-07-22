@@ -27,5 +27,12 @@ codes: [AKO022, DYN012, SKA029]
 
 Variants: [[card-reincarnate-red]] · [[card-reincarnate-yellow]]
 Rulings: search "Reincarnate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO022.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN012.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA029.webp)
+
+## Images
+
+![AKO022 - Reincarnate (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO022.png)
+![DYN012 - Reincarnate (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN012.png)
+![SKA029 - Reincarnate (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA029.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Red Alert Visor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT192.png)
+
+## Images
+
+![HNT192 - Red Alert Visor](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT192.png)
 
 ## Notes

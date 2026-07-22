@@ -28,5 +28,11 @@ When this enters the arena, create a Spectral Shield token."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Figment of Protection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007_V2.png)
+
+## Images
+
+![DTD007 - Figment of Protection (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007.png)
+![DTD007 - Figment of Protection (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD007_V2.png)
 
 ## Notes

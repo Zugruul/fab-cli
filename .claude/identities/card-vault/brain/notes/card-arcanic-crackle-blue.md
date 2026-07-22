@@ -27,5 +27,13 @@ codes: [AST024, CHN027, MON237]
 
 Variants: [[card-arcanic-crackle-red]] · [[card-arcanic-crackle-yellow]]
 Rulings: search "Arcanic Crackle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/CHN027.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON237.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON237.width-450.png)
+
+## Images
+
+![AST024 - Arcanic Crackle (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST024.webp)
+![CHN027 - Arcanic Crackle (blue)](https://storage.googleapis.com/fabmaster/media/images/CHN027.width-450.png)
+![MON237 - Arcanic Crackle (blue)](https://storage.googleapis.com/fabmaster/media/images/MON237.width-450.png)
+![MON237 - Arcanic Crackle (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON237.width-450.png)
 
 ## Notes

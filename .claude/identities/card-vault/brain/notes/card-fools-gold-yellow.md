@@ -22,5 +22,11 @@ codes: [FAB350, SEA215]
 "When this is discarded, create a Gold token."
 
 Rulings: search "Fool's Gold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB350-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA215.png)
+
+## Images
+
+![FAB350 - Fool's Gold (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB350-CF.webp)
+![SEA215 - Fool's Gold (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA215.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [MST051]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tooth and Claw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png)
+
+## Images
+
+![MST051 - Tooth and Claw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png)
 
 ## Notes

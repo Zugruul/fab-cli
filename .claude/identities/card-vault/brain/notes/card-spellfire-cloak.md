@@ -24,5 +24,12 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Spellfire Cloak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ004.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY005.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR167.png)
+
+## Images
+
+![SBZ004 - Spellfire Cloak](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ004.webp)
+![SIY005 - Spellfire Cloak](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY005.webp)
+![UPR167 - Spellfire Cloak](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR167.png)
 
 ## Notes

@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Zap Clappers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST005-RF.webp)
+
+## Images
+
+![AST005 - Zap Clappers](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST005-RF.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [SUP185]
 "When 1 or more Guardian cards defend this, create a Confidence token."
 
 Rulings: search "Familiar Story" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP185.webp)
+
+## Images
+
+![SUP185 - Familiar Story (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP185.webp)
 
 ## Notes

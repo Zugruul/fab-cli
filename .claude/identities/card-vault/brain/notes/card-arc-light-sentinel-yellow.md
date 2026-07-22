@@ -29,5 +29,13 @@ Spectra"
 
 Keywords: [[kw-specialization]] · [[kw-spectra]]
 Rulings: search "Arc Light Sentinel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG011.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON005.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON005.width-450.png)
+
+## Images
+
+![APR016 - Arc Light Sentinel (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR016.webp)
+![JDG011 - Arc Light Sentinel (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG011.png)
+![MON005 - Arc Light Sentinel (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON005.width-450.png)
+![MON005 - Arc Light Sentinel (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON005.width-450.png)
 
 ## Notes

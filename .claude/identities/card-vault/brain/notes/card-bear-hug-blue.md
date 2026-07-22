@@ -27,5 +27,11 @@ codes: [PEN014, SKA026]
 
 Variants: [[card-bear-hug-red]] · [[card-bear-hug-yellow]]
 Rulings: search "Bear Hug" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN014.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA026.webp)
+
+## Images
+
+![PEN014 - Bear Hug (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN014.webp)
+![SKA026 - Bear Hug (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA026.webp)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [HVY140, LGS255]
 "The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create a Might token."
 
 Rulings: search "Battered Not Broken" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY140.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS255.png)
+
+## Images
+
+![HVY140 - Battered Not Broken (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY140.png)
+![LGS255 - Battered Not Broken (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS255.png)
 
 ## Notes

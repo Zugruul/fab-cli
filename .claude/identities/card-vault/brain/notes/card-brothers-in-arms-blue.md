@@ -27,5 +27,14 @@ codes: [FAB093, SIY019, SLY024, SUP229, UPR205]
 
 Variants: [[card-brothers-in-arms-red]] · [[card-brothers-in-arms-yellow]]
 Rulings: search "Brothers in Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB093.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY019.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY024.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP229.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR205.png)
+
+## Images
+
+![FAB093 - Brothers in Arms (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB093.png)
+![SIY019 - Brothers in Arms (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY019.webp)
+![SLY024 - Brothers in Arms (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY024.webp)
+![SUP229 - Brothers in Arms (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP229.webp)
+![UPR205 - Brothers in Arms (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR205.png)
 
 ## Notes

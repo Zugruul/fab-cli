@@ -23,5 +23,10 @@ codes: [PEN268]
 "Choose X equipment with cloaked you have equipped. Turn them face-down."
 
 Rulings: search "Recede to Mistform" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN268.webp)
+
+## Images
+
+![PEN268 - Recede to Mistform (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN268.webp)
 
 ## Notes

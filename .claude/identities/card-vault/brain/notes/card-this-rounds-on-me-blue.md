@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "This Round's on Me" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR160.width-450.png)
+
+## Images
+
+![ANQ024 - This Round's on Me (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ024.webp)
+![EVR160 - This Round's on Me (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR160.width-450.png)
 
 ## Notes

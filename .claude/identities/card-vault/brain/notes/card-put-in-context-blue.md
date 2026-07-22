@@ -24,5 +24,14 @@ codes: [CIN027, FAB325, HNT238, SDO029, SEN029]
 "This can only defend an attack with 3 or less base {p}."
 
 Rulings: search "Put in Context" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN027.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB325-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT238.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO029.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN029.webp)
+
+## Images
+
+![CIN027 - Put in Context (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN027.webp)
+![FAB325 - Put in Context (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB325-RF.webp)
+![HNT238 - Put in Context (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT238.png)
+![SDO029 - Put in Context (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO029.webp)
+![SEN029 - Put in Context (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN029.webp)
 
 ## Notes

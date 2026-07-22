@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Shock Frock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST004-RF.webp)
+
+## Images
+
+![AST004 - Shock Frock](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST004-RF.webp)
 
 ## Notes

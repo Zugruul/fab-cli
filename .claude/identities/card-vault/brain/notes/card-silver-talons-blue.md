@@ -27,5 +27,11 @@ codes: [CIN025, HNT082]
 
 Variants: [[card-silver-talons-red]] · [[card-silver-talons-yellow]]
 Rulings: search "Silver Talons" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT082.png)
+
+## Images
+
+![CIN025 - Silver Talons (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN025.webp)
+![HNT082 - Silver Talons (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT082.png)
 
 ## Notes

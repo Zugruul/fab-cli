@@ -25,5 +25,14 @@ If you've been dealt arcane damage this turn, instead gain 4{h}."
 
 Variants: [[card-arcane-polarity-yellow]] · [[card-arcane-polarity-blue]]
 Rulings: search "Arcane Polarity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS458-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS231.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA030.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ020.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA028.webp)
+
+## Images
+
+![LGS458 - Arcane Polarity (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS458-RF.webp)
+![ROS231 - Arcane Polarity (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS231.png)
+![SBA030 - Arcane Polarity (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA030.webp)
+![SBZ020 - Arcane Polarity (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ020.webp)
+![SFA028 - Arcane Polarity (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA028.webp)
 
 ## Notes

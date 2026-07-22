@@ -23,5 +23,10 @@ codes: [PEN004]
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Skera Strapping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN004.webp)
+
+## Images
+
+![PEN004 - Skera Strapping](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN004.webp)
 
 ## Notes

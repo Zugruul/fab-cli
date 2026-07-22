@@ -23,5 +23,11 @@ codes: [FAB189, HVY060]
 "This gets +X{d} while defending, where X is twice the number of clashes you've won this turn."
 
 Rulings: search "Boast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB189.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY060.png)
+
+## Images
+
+![FAB189 - Boast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB189.png)
+![HVY060 - Boast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY060.png)
 
 ## Notes

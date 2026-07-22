@@ -21,5 +21,11 @@ codes: [LGS216, TCC054]
 "Action - Destroy this: Each hero creates a Quicken token.  Go again"
 
 Rulings: search "Quickstep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS216.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC054.png)
+
+## Images
+
+![LGS216 - Quickstep](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS216.png)
+![TCC054 - Quickstep](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC054.png)
 
 ## Notes

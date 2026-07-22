@@ -23,5 +23,23 @@ codes: [1HP345, AUR006, AZL007, BDD006, BVO007, DVR006, KSU008, LXI006, MPG125, 
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Ironrot Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP345.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR006.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL007.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD006.webp) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/BVO7.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/DVR006.width-450.png) · [Image #7](https://storage.googleapis.com/fabmaster/media/images/KSU8.width-450.png) · [Image #8](https://storage.googleapis.com/fabmaster/media/images/LXI006.width-450.png) · [Image #9](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG125.webp) · [Image #10](https://storage.googleapis.com/fabmaster/media/images/IRONROT04.width-450.png) · [Image #11](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP007.png) · [Image #12](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER007.webp) · [Image #13](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR158.png) · [Image #14](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR158.png)
+
+## Images
+
+![1HP345 - Ironrot Legs](https://storage.googleapis.com/fabmaster/media/images/1HP345.width-450.png)
+![AUR006 - Ironrot Legs](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR006.webp)
+![AZL007 - Ironrot Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL007.png)
+![BDD006 - Ironrot Legs](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD006.webp)
+![BVO007 - Ironrot Legs](https://storage.googleapis.com/fabmaster/media/images/BVO7.width-450.png)
+![DVR006 - Ironrot Legs](https://storage.googleapis.com/fabmaster/media/images/DVR006.width-450.png)
+![KSU008 - Ironrot Legs](https://storage.googleapis.com/fabmaster/media/images/KSU8.width-450.png)
+![LXI006 - Ironrot Legs](https://storage.googleapis.com/fabmaster/media/images/LXI006.width-450.png)
+![MPG125 - Ironrot Legs](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG125.webp)
+![OXO004 - Ironrot Legs](https://storage.googleapis.com/fabmaster/media/images/IRONROT04.width-450.png)
+![RIP007 - Ironrot Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP007.png)
+![TER007 - Ironrot Legs](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER007.webp)
+![WTR158 - Ironrot Legs](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR158.png)
+![WTR158 - Ironrot Legs](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR158.png)
 
 ## Notes

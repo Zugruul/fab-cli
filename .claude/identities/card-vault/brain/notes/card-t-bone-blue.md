@@ -30,5 +30,10 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-t-bone-red]] · [[card-t-bone-yellow]]
 Rulings: search "T-Bone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png)
+
+## Images
+
+![EVR075 - T-Bone (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png)
 
 ## Notes

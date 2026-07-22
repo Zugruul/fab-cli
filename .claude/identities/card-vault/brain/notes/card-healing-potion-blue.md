@@ -24,5 +24,11 @@ codes: [EVR183, TCC072]
 "Action - Destroy this: Gain 2{h}. Go again"
 
 Rulings: search "Healing Potion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR183.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC072.png)
+
+## Images
+
+![EVR183 - Healing Potion (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR183.width-450.png)
+![TCC072 - Healing Potion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC072.png)
 
 ## Notes

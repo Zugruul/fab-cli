@@ -28,5 +28,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
 
 Keywords: [[kw-go-again]]
 Rulings: search "Shifting Tides" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148_V2.png)
+
+## Images
+
+![SEA148 - Shifting Tides (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148.png)
+![SEA148 - Shifting Tides (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148_V2.png)
 
 ## Notes

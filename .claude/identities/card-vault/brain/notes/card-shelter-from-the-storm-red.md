@@ -24,5 +24,13 @@ codes: [ANQ010, HNT222, PEN321]
 "Instant - Discard this: The next 3 times you would be dealt damage this turn, prevent 1 of that damage."
 
 Rulings: search "Shelter from the Storm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ010-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT222.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT222-EA.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN321.webp)
+
+## Images
+
+![ANQ010 - Shelter from the Storm (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ010-RF.webp)
+![HNT222 - Shelter from the Storm (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT222.png)
+![HNT222 - Shelter from the Storm (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT222-EA.png)
+![PEN321 - Shelter from the Storm (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN321.webp)
 
 ## Notes

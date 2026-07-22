@@ -26,5 +26,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Twelve Petal Kāṣāya" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048_V2.png)
+
+## Images
+
+![MST048 - Twelve Petal Kāṣāya](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png)
+![MST048 - Twelve Petal Kāṣāya](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048_V2.png)
 
 ## Notes

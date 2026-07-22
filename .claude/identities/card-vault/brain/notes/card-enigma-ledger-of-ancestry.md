@@ -25,5 +25,15 @@ Once per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} c
 
 Young version: [[card-enigma]]
 Rulings: search "Enigma, Ledger of Ancestry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER114.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER116.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST025.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST025_V2.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST025_BACK.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN034.png)
+
+## Images
+
+![HER114 - Enigma, Ledger of Ancestry](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER114.png)
+![HER116 - Enigma, Ledger of Ancestry](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER116.png)
+![MST025 - Enigma, Ledger of Ancestry](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST025.png)
+![MST025 - Enigma, Ledger of Ancestry](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST025_V2.png)
+![MST025 - Enigma, Ledger of Ancestry](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST025_BACK.png)
+![WIN034 - Enigma, Ledger of Ancestry](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN034.png)
 
 ## Notes

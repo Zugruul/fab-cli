@@ -23,5 +23,11 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
 
 Keywords: [[kw-go-again]]
 Rulings: search "Hala Goldenhelm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DVR007.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS144.png)
+
+## Images
+
+![DVR007 - Hala Goldenhelm](https://storage.googleapis.com/fabmaster/media/images/DVR007.width-450.png)
+![LGS144 - Hala Goldenhelm](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS144.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-ice-quake-red]] · [[card-ice-quake-yellow]]
 Rulings: search "Ice Quake" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE153.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE153.width-450.png)
+
+## Images
+
+![ELE153 - Ice Quake (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE153.width-450.png)
+![ELE153 - Ice Quake (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE153.width-450.png)
 
 ## Notes

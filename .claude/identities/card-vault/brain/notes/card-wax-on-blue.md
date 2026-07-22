@@ -25,5 +25,10 @@ codes: [EVR052]
 
 Variants: [[card-wax-on-red]] · [[card-wax-on-yellow]]
 Rulings: search "Wax On" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR052.width-450.png)
+
+## Images
+
+![EVR052 - Wax On (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR052.width-450.png)
 
 ## Notes

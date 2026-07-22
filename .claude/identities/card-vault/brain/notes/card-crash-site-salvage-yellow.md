@@ -29,5 +29,11 @@ When this attacks, if it scrapped a card, this gets go again. If a cog was scrap
 
 Keywords: [[kw-scrap]] · [[kw-go-again]]
 Rulings: search "Crash Site Salvage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN239.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN239-CF.webp)
+
+## Images
+
+![OMN239 - Crash Site Salvage (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN239.webp)
+![OMN239 - Crash Site Salvage (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN239-CF.webp)
 
 ## Notes

@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Root-Bound Trunks" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV007.webp)
+
+## Images
+
+![AJV007 - Root-Bound Trunks](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV007.webp)
 
 ## Notes

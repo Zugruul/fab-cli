@@ -27,5 +27,13 @@ codes: [AJV016, ELE162, OLD017]
 
 Variants: [[card-winters-grasp-red]] · [[card-winters-grasp-yellow]]
 Rulings: search "Winter's Grasp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE162.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE162.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD017.width-450.png)
+
+## Images
+
+![AJV016 - Winter's Grasp (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV016.webp)
+![ELE162 - Winter's Grasp (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE162.width-450.png)
+![ELE162 - Winter's Grasp (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE162.width-450.png)
+![OLD017 - Winter's Grasp (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD017.width-450.png)
 
 ## Notes

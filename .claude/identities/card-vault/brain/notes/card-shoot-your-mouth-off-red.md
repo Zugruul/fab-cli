@@ -27,5 +27,10 @@ codes: [SUP189]
 
 Variants: [[card-shoot-your-mouth-off-yellow]] · [[card-shoot-your-mouth-off-blue]]
 Rulings: search "Shoot Your Mouth Off" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP189.webp)
+
+## Images
+
+![SUP189 - Shoot Your Mouth Off (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP189.webp)
 
 ## Notes

@@ -27,5 +27,11 @@ Target dagger attack gets +3{p}.
 Target card defending an attack with stealth gets -3{d} this turn."
 
 Rulings: search "Tarantula Toxin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB315.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT015.png)
+
+## Images
+
+![FAB315 - Tarantula Toxin (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB315.png)
+![HNT015 - Tarantula Toxin (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT015.png)
 
 ## Notes

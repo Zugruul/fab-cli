@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]] · [[kw-go-again]]
 Rulings: search "Peg Leg" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS395.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png)
+
+## Images
+
+![LGS395 - Peg Leg](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS395.png)
+![SEA129 - Peg Leg](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png)
 
 ## Notes

@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Sekem, Archangel of Ravages" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008_BACK_V2.png)
+
+## Images
+
+![DTD008 - Sekem, Archangel of Ravages](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008_BACK.png)
+![DTD008 - Sekem, Archangel of Ravages](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008_BACK_V2.png)
 
 ## Notes

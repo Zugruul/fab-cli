@@ -26,5 +26,10 @@ Target Lightning attack gets go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Stormwhirl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN192.webp)
+
+## Images
+
+![OMN192 - Stormwhirl (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN192.webp)
 
 ## Notes

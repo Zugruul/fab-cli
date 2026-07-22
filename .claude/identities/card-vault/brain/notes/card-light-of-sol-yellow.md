@@ -26,5 +26,10 @@ When this is pitched, reveal the top card of your deck. If it's yellow, you may 
 
 Keywords: [[kw-legendary]]
 Rulings: search "Light of Sol" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD000.png)
+
+## Images
+
+![DTD000 - Light of Sol (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD000.png)
 
 ## Notes

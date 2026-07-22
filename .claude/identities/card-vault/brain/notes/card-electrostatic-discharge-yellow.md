@@ -24,5 +24,11 @@ codes: [LGS348, ROS111]
 
 Variants: [[card-electrostatic-discharge-red]] · [[card-electrostatic-discharge-blue]]
 Rulings: search "Electrostatic Discharge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS348.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS111.png)
+
+## Images
+
+![LGS348 - Electrostatic Discharge (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS348.png)
+![ROS111 - Electrostatic Discharge (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS111.png)
 
 ## Notes

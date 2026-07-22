@@ -30,5 +30,12 @@ codes: [BOL013, MON045]
 Keywords: [[kw-charge]]
 Variants: [[card-cross-the-line-yellow]] · [[card-cross-the-line-blue]]
 Rulings: search "Cross the Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL013.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON045.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON045.width-450.png)
+
+## Images
+
+![BOL013 - Cross the Line (red)](https://storage.googleapis.com/fabmaster/media/images/BOL013.width-450.png)
+![MON045 - Cross the Line (red)](https://storage.googleapis.com/fabmaster/media/images/MON045.width-450.png)
+![MON045 - Cross the Line (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON045.width-450.png)
 
 ## Notes

@@ -27,5 +27,13 @@ codes: [HNT214, LGS383, SAR023, WOD016]
 
 Keywords: [[kw-mark]]
 Rulings: search "Den of the Spider" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT214.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS383.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR023.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD016.webp)
+
+## Images
+
+![HNT214 - Den of the Spider (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT214.png)
+![LGS383 - Den of the Spider (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS383.png)
+![SAR023 - Den of the Spider (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR023.webp)
+![WOD016 - Den of the Spider (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD016.webp)
 
 ## Notes

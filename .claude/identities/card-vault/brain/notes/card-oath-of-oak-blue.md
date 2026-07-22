@@ -25,5 +25,10 @@ codes: [PEN221]
 
 Variants: [[card-oath-of-oak-red]] · [[card-oath-of-oak-yellow]]
 Rulings: search "Oath of Oak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN221.webp)
+
+## Images
+
+![PEN221 - Oath of Oak (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN221.webp)
 
 ## Notes

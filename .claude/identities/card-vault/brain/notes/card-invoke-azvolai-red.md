@@ -28,5 +28,11 @@ codes: [UPR009]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Azvolai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Front.png)
+
+## Images
+
+![UPR009 - Invoke Azvolai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009.png)
+![UPR009 - Invoke Azvolai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Front.png)
 
 ## Notes

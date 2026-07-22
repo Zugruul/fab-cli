@@ -23,5 +23,13 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
 Keywords: [[kw-crank]] · [[kw-token-golden-cog]]
 Rulings: search "Golden Cog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB353-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA042.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA042_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA042_V2_BACK.png)
+
+## Images
+
+![FAB353 - Golden Cog](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB353-CF.webp)
+![SEA042 - Golden Cog](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA042.png)
+![SEA042 - Golden Cog](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA042_V2.png)
+![SEA042 - Golden Cog](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA042_V2_BACK.png)
 
 ## Notes

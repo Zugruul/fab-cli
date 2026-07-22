@@ -26,5 +26,10 @@ Target attack gets +1{p}."
 
 Variants: [[card-take-the-upper-hand-red]] · [[card-take-the-upper-hand-yellow]]
 Rulings: search "Take the Upper Hand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY114.png)
+
+## Images
+
+![HVY114 - Take the Upper Hand (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY114.png)
 
 ## Notes

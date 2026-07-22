@@ -30,5 +30,11 @@ codes: [FAI025, UPR071]
 Keywords: [[kw-go-again]]
 Variants: [[card-lava-vein-loyalty-red]] · [[card-lava-vein-loyalty-yellow]]
 Rulings: search "Lava Vein Loyalty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR071.png)
+
+## Images
+
+![FAI025 - Lava Vein Loyalty (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI025.webp)
+![UPR071 - Lava Vein Loyalty (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR071.png)
 
 ## Notes

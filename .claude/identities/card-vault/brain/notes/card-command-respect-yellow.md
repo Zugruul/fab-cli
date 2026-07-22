@@ -27,5 +27,10 @@ codes: [HVY072]
 
 Variants: [[card-command-respect-red]] · [[card-command-respect-blue]]
 Rulings: search "Command Respect" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY072.png)
+
+## Images
+
+![HVY072 - Command Respect (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY072.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-bond]] · [[kw-go-again]]
 Rulings: search "Laden with Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN212.webp)
+
+## Images
+
+![PEN212 - Laden with Lightning (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN212.webp)
 
 ## Notes

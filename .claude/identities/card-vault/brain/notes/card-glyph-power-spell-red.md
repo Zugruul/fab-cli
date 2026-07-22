@@ -24,5 +24,10 @@ codes: [PEN113]
 "Deal 4 arcane damage to any target. If you control a card with Sigil in its name, instead deal 6 arcane damage."
 
 Rulings: search "Glyph Power Spell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN113.webp)
+
+## Images
+
+![PEN113 - Glyph Power Spell (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN113.webp)
 
 ## Notes

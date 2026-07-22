@@ -26,5 +26,11 @@ Create a Golden Cog token."
 
 Variants: [[card-goldwing-turbine-yellow]] · [[card-goldwing-turbine-blue]]
 Rulings: search "Goldwing Turbine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM043.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA036.png)
+
+## Images
+
+![GEM043 - Goldwing Turbine (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM043.webp)
+![SEA036 - Goldwing Turbine (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA036.png)
 
 ## Notes

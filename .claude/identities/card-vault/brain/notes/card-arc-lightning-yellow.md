@@ -30,5 +30,12 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Arc Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB268.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS010.png)
+
+## Images
+
+![AST022 - Arc Lightning (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST022.webp)
+![FAB268 - Arc Lightning (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB268.png)
+![ROS010 - Arc Lightning (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS010.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [EVO166]
 Keywords: [[kw-boost]]
 Variants: [[card-razzle-dazzle-red]] · [[card-razzle-dazzle-blue]]
 Rulings: search "Razzle Dazzle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO166.png)
+
+## Images
+
+![EVO166 - Razzle Dazzle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO166.png)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [CHN006, DYN238]
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Spell Fray Gloves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN006.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN238.png)
+
+## Images
+
+![CHN006 - Spell Fray Gloves](https://storage.googleapis.com/fabmaster/media/images/CHN006.width-450.png)
+![DYN238 - Spell Fray Gloves](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN238.png)
 
 ## Notes

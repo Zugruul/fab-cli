@@ -29,5 +29,10 @@ Tower - If this has 13 or more {p}, it gets "When this hits a hero, cards they o
 
 Keywords: [[kw-tower]]
 Rulings: search "No Tall Tales" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP170.webp)
+
+## Images
+
+![SUP170 - No Tall Tales (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP170.webp)
 
 ## Notes

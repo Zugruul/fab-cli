@@ -25,5 +25,14 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "New Horizon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE213.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE213.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB050.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP256.webp) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP256-RF.webp)
+
+## Images
+
+![ELE213 - New Horizon](https://storage.googleapis.com/fabmaster/media/images/ELE213.width-450.png)
+![ELE213 - New Horizon](https://storage.googleapis.com/fabmaster/media/images/U-ELE213.width-450.png)
+![FAB050 - New Horizon](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB050.png)
+![SUP256 - New Horizon](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP256.webp)
+![SUP256 - New Horizon](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP256-RF.webp)
 
 ## Notes

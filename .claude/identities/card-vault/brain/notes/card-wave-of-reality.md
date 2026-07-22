@@ -23,5 +23,11 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Wave of Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN214.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB259.png)
+
+## Images
+
+![DYN214 - Wave of Reality](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN214.png)
+![FAB259 - Wave of Reality](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB259.png)
 
 ## Notes

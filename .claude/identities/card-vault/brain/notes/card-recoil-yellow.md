@@ -29,5 +29,10 @@ codes: [OUT060]
 Keywords: [[kw-combo]]
 Variants: [[card-recoil-red]] · [[card-recoil-blue]]
 Rulings: search "Recoil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT060.width-450.png)
+
+## Images
+
+![OUT060 - Recoil (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT060.width-450.png)
 
 ## Notes

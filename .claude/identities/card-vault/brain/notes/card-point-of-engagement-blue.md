@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-point-of-engagement-red]] · [[card-point-of-engagement-yellow]]
 Rulings: search "Point of Engagement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT139.png)
+
+## Images
+
+![FNG025 - Point of Engagement (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG025.webp)
+![HNT139 - Point of Engagement (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT139.png)
 
 ## Notes

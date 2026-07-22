@@ -28,5 +28,10 @@ The next attack action card you play this turn is Illusionist in addition to its
 Keywords: [[kw-go-again]]
 Variants: [[card-veiled-intentions-red]] · [[card-veiled-intentions-blue]]
 Rulings: search "Veiled Intentions" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR151.width-450.png)
+
+## Images
+
+![EVR151 - Veiled Intentions (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR151.width-450.png)
 
 ## Notes

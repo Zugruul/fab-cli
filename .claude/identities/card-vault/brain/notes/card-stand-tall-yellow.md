@@ -23,5 +23,11 @@ codes: [MPW037]
 "While this is defending, whenever the attacking hero plays or activates a reaction this chain link, this gets +2{p}."
 
 Rulings: search "Stand Tall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW037.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW037-RF.webp)
+
+## Images
+
+![MPW037 - Stand Tall (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW037.webp)
+![MPW037 - Stand Tall (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW037-RF.webp)
 
 ## Notes

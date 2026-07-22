@@ -25,5 +25,13 @@ Instant - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's bl
 
 Adult version: [[card-nuu-alluring-desire]]
 Rulings: search "Nuu" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST002_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST002_BACK.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU001.png)
+
+## Images
+
+![MST002 - Nuu](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST002.png)
+![MST002 - Nuu](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST002_V2.png)
+![MST002 - Nuu](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST002_BACK.png)
+![NUU001 - Nuu](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU001.png)
 
 ## Notes

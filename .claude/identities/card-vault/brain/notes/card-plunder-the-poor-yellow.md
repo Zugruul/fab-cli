@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-plunder-the-poor-red]] · [[card-plunder-the-poor-blue]]
 Rulings: search "Plunder the Poor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN125.png)
+
+## Images
+
+![DYN125 - Plunder the Poor (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN125.png)
 
 ## Notes

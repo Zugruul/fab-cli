@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-tiger-form-incantation-yellow]] · [[card-tiger-form-incantation-blue]]
 Rulings: search "Tiger Form Incantation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST063.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN015.png)
+
+## Images
+
+![MST063 - Tiger Form Incantation (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST063.png)
+![ZEN015 - Tiger Form Incantation (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN015.png)
 
 ## Notes

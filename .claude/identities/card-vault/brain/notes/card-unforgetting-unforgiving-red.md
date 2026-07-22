@@ -26,5 +26,10 @@ When this defends, if the attacking hero controls an equipment with a -1{d} coun
 
 Keywords: [[kw-specialization]]
 Rulings: search "Unforgetting Unforgiving" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV013.webp)
+
+## Images
+
+![AJV013 - Unforgetting Unforgiving (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV013.webp)
 
 ## Notes

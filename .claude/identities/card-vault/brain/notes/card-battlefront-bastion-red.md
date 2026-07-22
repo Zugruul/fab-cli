@@ -27,5 +27,12 @@ codes: [ENG007, FAB235, MST203]
 
 Variants: [[card-battlefront-bastion-yellow]] · [[card-battlefront-bastion-blue]]
 Rulings: search "Battlefront Bastion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG007.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB235.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST203.png)
+
+## Images
+
+![ENG007 - Battlefront Bastion (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG007.png)
+![FAB235 - Battlefront Bastion (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB235.png)
+![MST203 - Battlefront Bastion (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST203.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [PEN161]
 Keywords: [[kw-go-again]]
 Variants: [[card-man-overboard-red]] · [[card-man-overboard-yellow]]
 Rulings: search "Man Overboard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN161.webp)
+
+## Images
+
+![PEN161 - Man Overboard (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN161.webp)
 
 ## Notes

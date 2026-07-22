@@ -25,5 +25,10 @@ codes: [EVO237]
 "When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena."
 
 Rulings: search "Smashing Performance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO237.png)
+
+## Images
+
+![EVO237 - Smashing Performance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO237.png)
 
 ## Notes

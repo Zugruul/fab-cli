@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-throw-yourself-at-them-red]] · [[card-throw-yourself-at-them-blue]]
 Rulings: search "Throw Yourself at Them" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT189.png)
+
+## Images
+
+![HNT189 - Throw Yourself at Them (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT189.png)
 
 ## Notes

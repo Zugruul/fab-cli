@@ -25,5 +25,10 @@ codes: [AHA010]
 If the weapon has been sharpened this turn, this costs {r} less to play."
 
 Rulings: search "Silverdrop Downpour" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA010.webp)
+
+## Images
+
+![AHA010 - Silverdrop Downpour (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA010.webp)
 
 ## Notes

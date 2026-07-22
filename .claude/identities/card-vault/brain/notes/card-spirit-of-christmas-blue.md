@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Spirit of Christmas" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS355.webp)
+
+## Images
+
+![LGS355 - Spirit of Christmas (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS355.webp)
 
 ## Notes

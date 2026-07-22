@@ -30,5 +30,10 @@ Fragment"
 
 Keywords: [[kw-fragment]]
 Rulings: search "Fraying Lifeforce" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN007.webp)
+
+## Images
+
+![OMN007 - Fraying Lifeforce (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN007.webp)
 
 ## Notes

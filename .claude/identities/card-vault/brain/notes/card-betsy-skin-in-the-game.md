@@ -25,5 +25,14 @@ codes: [HER109, HVY045, WIN029]
 Keywords: [[kw-overpower]]
 Young version: [[card-betsy]]
 Rulings: search "Betsy, Skin in the Game" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER109.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY045.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY045_MARVEL.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY045_MARVEL_BACK.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN029.png)
+
+## Images
+
+![HER109 - Betsy, Skin in the Game](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER109.png)
+![HVY045 - Betsy, Skin in the Game](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY045.png)
+![HVY045 - Betsy, Skin in the Game](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY045_MARVEL.png)
+![HVY045 - Betsy, Skin in the Game](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY045_MARVEL_BACK.png)
+![WIN029 - Betsy, Skin in the Game](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN029.png)
 
 ## Notes

@@ -29,5 +29,10 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Seismic Shelter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG023.webp)
+
+## Images
+
+![MPG023 - Seismic Shelter (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG023.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ Starfall - If an instant card has been put into your graveyard this turn, deal 1
 Keywords: [[kw-starfall]]
 Variants: [[card-cosmic-suture-yellow]] · [[card-cosmic-suture-blue]]
 Rulings: search "Cosmic Suture" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN127.webp)
+
+## Images
+
+![OMN127 - Cosmic Suture (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN127.webp)
 
 ## Notes

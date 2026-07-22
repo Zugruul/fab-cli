@@ -26,5 +26,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
 
 Variants: [[card-rousing-aether-red]] · [[card-rousing-aether-blue]]
 Rulings: search "Rousing Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU172.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU172.png)
+
+## Images
+
+![CRU172 - Rousing Aether (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU172.png)
+![CRU172 - Rousing Aether (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU172.png)
 
 ## Notes

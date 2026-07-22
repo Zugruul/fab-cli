@@ -29,5 +29,10 @@ codes: [HVY167]
 Keywords: [[kw-go-again]]
 Variants: [[card-rising-speed-red]] · [[card-rising-speed-blue]]
 Rulings: search "Rising Speed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY167.png)
+
+## Images
+
+![HVY167 - Rising Speed (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY167.png)
 
 ## Notes

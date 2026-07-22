@@ -25,5 +25,10 @@ codes: [DYN036]
 
 Variants: [[card-shield-wall-yellow]] · [[card-shield-wall-blue]]
 Rulings: search "Shield Wall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN036.png)
+
+## Images
+
+![DYN036 - Shield Wall (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN036.png)
 
 ## Notes

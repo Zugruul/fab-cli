@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Variants: [[card-barraging-beatdown-yellow]] · [[card-barraging-beatdown-blue]]
 Rulings: search "Barraging Beatdown" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP022.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR017.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR017.png)
+
+## Images
+
+![1HP022 - Barraging Beatdown (red)](https://storage.googleapis.com/fabmaster/media/images/1HP022.width-450.png)
+![WTR017 - Barraging Beatdown (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR017.png)
+![WTR017 - Barraging Beatdown (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR017.png)
 
 ## Notes

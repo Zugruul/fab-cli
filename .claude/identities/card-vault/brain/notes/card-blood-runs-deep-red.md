@@ -29,5 +29,11 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
 Go again"
 
 Rulings: search "Blood Runs Deep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB316.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT057.png)
+
+## Images
+
+![FAB316 - Blood Runs Deep (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB316.png)
+![HNT057 - Blood Runs Deep (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT057.png)
 
 ## Notes

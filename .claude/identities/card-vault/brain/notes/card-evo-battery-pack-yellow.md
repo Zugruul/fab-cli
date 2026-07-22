@@ -29,5 +29,10 @@ Blade Break"
 
 Keywords: [[kw-transform]] · [[kw-blade-break]]
 Rulings: search "Evo Battery Pack" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO047.png)
+
+## Images
+
+![EVO047 - Evo Battery Pack (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO047.png)
 
 ## Notes

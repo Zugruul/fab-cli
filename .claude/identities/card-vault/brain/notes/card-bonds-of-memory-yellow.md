@@ -31,5 +31,10 @@ Whenever this banishes a card and this has banished another card with the same n
 Keywords: [[kw-stealth]]
 Variants: [[card-bonds-of-memory-red]] · [[card-bonds-of-memory-blue]]
 Rulings: search "Bonds of Memory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST116.png)
+
+## Images
+
+![MST116 - Bonds of Memory (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST116.png)
 
 ## Notes

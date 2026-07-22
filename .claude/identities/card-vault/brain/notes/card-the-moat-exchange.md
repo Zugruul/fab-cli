@@ -18,5 +18,10 @@ codes: [SMP031]
 "Each hero may put any number of cards from their hand or arsenal on the bottom of their deck, then they draw a card for each card they put on the bottom this way."
 
 Rulings: search "The Moat Exchange" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP031.webp)
+
+## Images
+
+![SMP031 - The Moat Exchange](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP031.webp)
 
 ## Notes

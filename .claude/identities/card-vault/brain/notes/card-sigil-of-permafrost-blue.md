@@ -29,5 +29,10 @@ If Sigil of Permafrost was fused, the next time you deal arcane damage to a hero
 Keywords: [[kw-fusion]]
 Variants: [[card-sigil-of-permafrost-red]] · [[card-sigil-of-permafrost-yellow]]
 Rulings: search "Sigil of Permafrost" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR108.png)
+
+## Images
+
+![UPR108 - Sigil of Permafrost (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR108.png)
 
 ## Notes

@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Oysten, Heart of Gold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA263.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB018.webp)
+
+## Images
+
+![AGB017 - Oysten, Heart of Gold (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB017.webp)
+![SEA263 - Oysten, Heart of Gold (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA263.png)
+![SGB018 - Oysten, Heart of Gold (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB018.webp)
 
 ## Notes

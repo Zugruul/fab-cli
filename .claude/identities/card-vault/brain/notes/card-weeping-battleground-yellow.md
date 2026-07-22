@@ -25,5 +25,10 @@ codes: [PEN104]
 
 Variants: [[card-weeping-battleground-red]] · [[card-weeping-battleground-blue]]
 Rulings: search "Weeping Battleground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN104.webp)
+
+## Images
+
+![PEN104 - Weeping Battleground (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN104.webp)
 
 ## Notes

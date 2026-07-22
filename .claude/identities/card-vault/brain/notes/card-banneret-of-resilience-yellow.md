@@ -29,5 +29,12 @@ codes: [ASB017, DTD054, LGS179]
 
 Keywords: [[kw-solflare]]
 Rulings: search "Banneret of Resilience" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB017.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD054.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS179.png)
+
+## Images
+
+![ASB017 - Banneret of Resilience (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB017.png)
+![DTD054 - Banneret of Resilience (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD054.png)
+![LGS179 - Banneret of Resilience (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS179.png)
 
 ## Notes

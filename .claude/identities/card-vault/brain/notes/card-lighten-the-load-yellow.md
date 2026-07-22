@@ -29,5 +29,10 @@ codes: [PEN172]
 Keywords: [[kw-go-again]]
 Variants: [[card-lighten-the-load-red]] · [[card-lighten-the-load-blue]]
 Rulings: search "Lighten the Load" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN172.webp)
+
+## Images
+
+![PEN172 - Lighten the Load (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN172.webp)
 
 ## Notes

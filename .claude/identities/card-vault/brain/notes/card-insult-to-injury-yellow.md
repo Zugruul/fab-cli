@@ -29,5 +29,10 @@ codes: [PEN304]
 Keywords: [[kw-go-again]]
 Variants: [[card-insult-to-injury-red]] · [[card-insult-to-injury-blue]]
 Rulings: search "Insult to Injury" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN304.webp)
+
+## Images
+
+![PEN304 - Insult to Injury (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN304.webp)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [PEN018]
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Volcanic Vice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN018.webp)
+
+## Images
+
+![PEN018 - Volcanic Vice](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN018.webp)
 
 ## Notes

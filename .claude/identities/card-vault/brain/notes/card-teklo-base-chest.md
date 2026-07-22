@@ -23,5 +23,11 @@ codes: [EVO019, LGS187]
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Teklo Base Chest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO019.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS187.png)
+
+## Images
+
+![EVO019 - Teklo Base Chest](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO019.png)
+![LGS187 - Teklo Base Chest](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS187.png)
 
 ## Notes

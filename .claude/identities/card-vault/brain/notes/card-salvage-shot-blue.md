@@ -27,5 +27,13 @@ codes: [1HP248, ARC068, SEA116]
 
 Variants: [[card-salvage-shot-red]] · [[card-salvage-shot-yellow]]
 Rulings: search "Salvage Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP248.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC068.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ARC068_Salvage_Shot.width-10000.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA116.png)
+
+## Images
+
+![1HP248 - Salvage Shot (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP248.width-450.png)
+![ARC068 - Salvage Shot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC068.png)
+![ARC068 - Salvage Shot (blue)](https://storage.googleapis.com/fabmaster/media/images/ARC068_Salvage_Shot.width-10000.png)
+![SEA116 - Salvage Shot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA116.png)
 
 ## Notes

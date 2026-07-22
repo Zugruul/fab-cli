@@ -27,5 +27,10 @@ codes: [HVY020]
 
 Variants: [[card-pack-call-yellow]] · [[card-pack-call-blue]]
 Rulings: search "Pack Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY020.png)
+
+## Images
+
+![HVY020 - Pack Call (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY020.png)
 
 ## Notes

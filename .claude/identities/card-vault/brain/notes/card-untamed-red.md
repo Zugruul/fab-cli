@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-untamed-yellow]] · [[card-untamed-blue]]
 Rulings: search "Untamed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST185.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN013.png)
+
+## Images
+
+![MST185 - Untamed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST185.png)
+![ZEN013 - Untamed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN013.png)
 
 ## Notes

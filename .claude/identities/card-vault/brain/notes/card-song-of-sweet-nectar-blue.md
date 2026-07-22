@@ -25,5 +25,11 @@ codes: [LGS220, TCC065]
 "Each other hero gains 1{h}."
 
 Rulings: search "Song of Sweet Nectar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS220.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC065.png)
+
+## Images
+
+![LGS220 - Song of Sweet Nectar (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS220.png)
+![TCC065 - Song of Sweet Nectar (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC065.png)
 
 ## Notes

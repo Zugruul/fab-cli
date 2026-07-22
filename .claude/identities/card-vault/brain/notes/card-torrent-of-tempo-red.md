@@ -29,5 +29,14 @@ codes: [1HP128, ASR015, CRU069, IRA006]
 Keywords: [[kw-go-again]]
 Variants: [[card-torrent-of-tempo-yellow]] · [[card-torrent-of-tempo-blue]]
 Rulings: search "Torrent of Tempo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP128.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR015.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU069.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU069.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/IRA006-P_Qj0R6lE.width-450.png)
+
+## Images
+
+![1HP128 - Torrent of Tempo (red)](https://storage.googleapis.com/fabmaster/media/images/1HP128.width-450.png)
+![ASR015 - Torrent of Tempo (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR015.webp)
+![CRU069 - Torrent of Tempo (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU069.png)
+![CRU069 - Torrent of Tempo (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU069.png)
+![IRA006 - Torrent of Tempo (red)](https://storage.googleapis.com/fabmaster/media/images/IRA006-P_Qj0R6lE.width-450.png)
 
 ## Notes

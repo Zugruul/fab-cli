@@ -26,5 +26,10 @@ codes: [ROS243]
 "When this hits a hero, choose a face-down card in their banished zone that was banished by intimidate this turn. Put it into their graveyard."
 
 Rulings: search "Splatter Skull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS243.png)
+
+## Images
+
+![ROS243 - Splatter Skull (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS243.png)
 
 ## Notes

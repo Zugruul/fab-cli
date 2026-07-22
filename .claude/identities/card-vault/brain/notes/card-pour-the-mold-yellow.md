@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-pour-the-mold-red]] · [[card-pour-the-mold-blue]]
 Rulings: search "Pour the Mold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC015.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC015.png)
+
+## Images
+
+![ARC015 - Pour the Mold (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC015.png)
+![ARC015 - Pour the Mold (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC015.png)
 
 ## Notes

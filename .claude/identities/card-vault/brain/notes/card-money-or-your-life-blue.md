@@ -27,5 +27,10 @@ codes: [SEA205]
 
 Variants: [[card-money-or-your-life-red]] · [[card-money-or-your-life-yellow]]
 Rulings: search "Money or Your Life?" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA205.png)
+
+## Images
+
+![SEA205 - Money or Your Life? (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA205.png)
 
 ## Notes

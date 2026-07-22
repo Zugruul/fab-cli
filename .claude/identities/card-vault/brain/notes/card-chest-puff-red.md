@@ -26,5 +26,10 @@ codes: [SUP222]
 "When this attacks, it gets -1{p} unless you pay {r}."
 
 Rulings: search "Chest Puff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP222.webp)
+
+## Images
+
+![SUP222 - Chest Puff (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP222.webp)
 
 ## Notes

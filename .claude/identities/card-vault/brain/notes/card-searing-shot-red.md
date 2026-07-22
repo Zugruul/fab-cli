@@ -27,5 +27,14 @@ codes: [1HP249, ARC069, RIP018, SAZ017]
 
 Variants: [[card-searing-shot-yellow]] · [[card-searing-shot-blue]]
 Rulings: search "Searing Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP249.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC069.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC069.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP018.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ017.webp)
+
+## Images
+
+![1HP249 - Searing Shot (red)](https://storage.googleapis.com/fabmaster/media/images/1HP249.width-450.png)
+![ARC069 - Searing Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC069.png)
+![ARC069 - Searing Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC069.png)
+![RIP018 - Searing Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP018.png)
+![SAZ017 - Searing Shot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ017.webp)
 
 ## Notes

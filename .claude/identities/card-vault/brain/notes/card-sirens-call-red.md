@@ -25,5 +25,10 @@ codes: [MST009]
 "Look at the defending hero's hand and choose a blue card. Add it to this chain link as a defending card. If you do, draw a card."
 
 Rulings: search "Siren's Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST009.png)
+
+## Images
+
+![MST009 - Siren's Call (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST009.png)
 
 ## Notes

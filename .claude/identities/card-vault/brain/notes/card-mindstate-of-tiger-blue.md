@@ -25,5 +25,10 @@ codes: [DYN048]
 "At the start of your turn, destroy Mindstate of Tiger then create a Crouching Tiger in your hand."
 
 Rulings: search "Mindstate of Tiger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN048.png)
+
+## Images
+
+![DYN048 - Mindstate of Tiger (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN048.png)
 
 ## Notes

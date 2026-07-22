@@ -27,5 +27,13 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Lace with Inertia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ019.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS136.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT114.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ024.webp)
+
+## Images
+
+![AAZ019 - Lace with Inertia (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ019.png)
+![LGS136 - Lace with Inertia (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS136.png)
+![OUT114 - Lace with Inertia (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT114.width-450.png)
+![SAZ024 - Lace with Inertia (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ024.webp)
 
 ## Notes

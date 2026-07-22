@@ -27,5 +27,11 @@ codes: [CRU064]
 
 Variants: [[card-flying-kick-red]] · [[card-flying-kick-blue]]
 Rulings: search "Flying Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU064.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU064.png)
+
+## Images
+
+![CRU064 - Flying Kick (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU064.png)
+![CRU064 - Flying Kick (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU064.png)
 
 ## Notes

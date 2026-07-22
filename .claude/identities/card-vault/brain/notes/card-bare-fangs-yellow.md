@@ -26,5 +26,14 @@ codes: [AKO016, EVR009, HVY030, KYO017, SKA021]
 
 Variants: [[card-bare-fangs-red]] · [[card-bare-fangs-blue]]
 Rulings: search "Bare Fangs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO016.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR009.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY030.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO017.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA021.webp)
+
+## Images
+
+![AKO016 - Bare Fangs (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO016.png)
+![EVR009 - Bare Fangs (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR009.width-450.png)
+![HVY030 - Bare Fangs (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY030.png)
+![KYO017 - Bare Fangs (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO017.png)
+![SKA021 - Bare Fangs (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA021.webp)
 
 ## Notes

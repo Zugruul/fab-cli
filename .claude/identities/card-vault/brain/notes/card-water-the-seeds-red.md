@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-water-the-seeds-yellow]] · [[card-water-the-seeds-blue]]
 Rulings: search "Water the Seeds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST212.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN014.png)
+
+## Images
+
+![MST212 - Water the Seeds (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST212.png)
+![ZEN014 - Water the Seeds (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN014.png)
 
 ## Notes

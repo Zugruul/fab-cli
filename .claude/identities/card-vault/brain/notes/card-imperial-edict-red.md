@@ -27,5 +27,10 @@ Action - Destroy Imperial Edict: Name a card. The named card can't be played unt
 
 Keywords: [[kw-legendary]]
 Rulings: search "Imperial Edict" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN240.png)
+
+## Images
+
+![DYN240 - Imperial Edict (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN240.png)
 
 ## Notes

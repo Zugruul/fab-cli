@@ -32,5 +32,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-tribute-to-demolition-yellow]] · [[card-tribute-to-demolition-blue]]
 Rulings: search "Tribute to Demolition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD127.png)
+
+## Images
+
+![DTD127 - Tribute to Demolition (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD127.png)
 
 ## Notes

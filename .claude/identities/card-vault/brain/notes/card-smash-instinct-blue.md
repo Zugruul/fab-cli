@@ -29,5 +29,14 @@ codes: [1HP036, AKO025, SKA031, WTR028]
 Keywords: [[kw-intimidate]]
 Variants: [[card-smash-instinct-red]] · [[card-smash-instinct-yellow]]
 Rulings: search "Smash Instinct" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP036.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO025.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA031.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR028.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR028.png)
+
+## Images
+
+![1HP036 - Smash Instinct (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP036.width-450.png)
+![AKO025 - Smash Instinct (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO025.png)
+![SKA031 - Smash Instinct (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA031.webp)
+![WTR028 - Smash Instinct (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR028.png)
+![WTR028 - Smash Instinct (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR028.png)
 
 ## Notes

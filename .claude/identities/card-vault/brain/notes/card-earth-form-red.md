@@ -27,5 +27,12 @@ codes: [AJV009, LGS307, ROS036]
 
 Variants: [[card-earth-form-yellow]] · [[card-earth-form-blue]]
 Rulings: search "Earth Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV009.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS307-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS036.png)
+
+## Images
+
+![AJV009 - Earth Form (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV009.webp)
+![LGS307 - Earth Form (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS307-RF.webp)
+![ROS036 - Earth Form (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS036.png)
 
 ## Notes

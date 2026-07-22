@@ -27,5 +27,10 @@ codes: [HVY188]
 
 Variants: [[card-vigorous-windup-red]] · [[card-vigorous-windup-yellow]]
 Rulings: search "Vigorous Windup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY188.png)
+
+## Images
+
+![HVY188 - Vigorous Windup (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY188.png)
 
 ## Notes

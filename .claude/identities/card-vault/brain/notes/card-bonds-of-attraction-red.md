@@ -31,5 +31,10 @@ Whenever this banishes a card and this has banished another card with the same c
 Keywords: [[kw-stealth]]
 Variants: [[card-bonds-of-attraction-yellow]] · [[card-bonds-of-attraction-blue]]
 Rulings: search "Bonds of Attraction" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST109.png)
+
+## Images
+
+![MST109 - Bonds of Attraction (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST109.png)
 
 ## Notes

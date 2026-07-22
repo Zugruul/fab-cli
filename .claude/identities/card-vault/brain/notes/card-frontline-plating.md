@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Frontline Plating" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD223.png)
+
+## Images
+
+![DTD223 - Frontline Plating](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD223.png)
 
 ## Notes

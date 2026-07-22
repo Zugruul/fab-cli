@@ -28,5 +28,13 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-driving-blade-red]] · [[card-driving-blade-yellow]]
 Rulings: search "Driving Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP173.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/TEA22.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR146.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR146.png)
+
+## Images
+
+![1HP173 - Driving Blade (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP173.width-450.png)
+![TEA022 - Driving Blade (blue)](https://storage.googleapis.com/fabmaster/media/images/TEA22.width-450.png)
+![WTR146 - Driving Blade (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR146.png)
+![WTR146 - Driving Blade (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR146.png)
 
 ## Notes

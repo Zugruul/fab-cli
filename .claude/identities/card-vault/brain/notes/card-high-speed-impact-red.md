@@ -30,5 +30,13 @@ Boost"
 Keywords: [[kw-boost]] · [[kw-dominate]]
 Variants: [[card-high-speed-impact-yellow]] · [[card-high-speed-impact-blue]]
 Rulings: search "High Speed Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP193.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU106.png)
+
+## Images
+
+![1HP193 - High Speed Impact (red)](https://storage.googleapis.com/fabmaster/media/images/1HP193.width-450.png)
+![CRU106 - High Speed Impact (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106.png)
+![CRU106 - High Speed Impact (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106-RF.png)
+![CRU106 - High Speed Impact (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU106.png)
 
 ## Notes

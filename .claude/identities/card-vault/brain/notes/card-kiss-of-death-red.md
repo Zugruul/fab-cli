@@ -29,5 +29,11 @@ When this hits a hero, they lose 1{h}."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Kiss of Death" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT012.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT012-CF.png)
+
+## Images
+
+![HNT012 - Kiss of Death (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT012.png)
+![HNT012 - Kiss of Death (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT012-CF.png)
 
 ## Notes

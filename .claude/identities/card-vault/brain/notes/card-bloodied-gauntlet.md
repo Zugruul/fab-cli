@@ -21,5 +21,10 @@ codes: [SMP016]
 Action - Destroy this: The next attack action card you play this turn gets +2{p}. Go again"
 
 Rulings: search "Bloodied Gauntlet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP016.webp)
+
+## Images
+
+![SMP016 - Bloodied Gauntlet](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP016.webp)
 
 ## Notes

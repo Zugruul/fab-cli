@@ -31,5 +31,15 @@ Phantasm"
 Keywords: [[kw-phantasm]]
 Variants: [[card-wartune-herald-yellow]] · [[card-wartune-herald-blue]]
 Rulings: search "Wartune Herald" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR008.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD029.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB035.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/MON026.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-MON026.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/PSM013.width-450.png)
+
+## Images
+
+![APR008 - Wartune Herald (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR008.webp)
+![DTD029 - Wartune Herald (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD029.png)
+![FAB035 - Wartune Herald (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB035.png)
+![MON026 - Wartune Herald (red)](https://storage.googleapis.com/fabmaster/media/images/MON026.width-450.png)
+![MON026 - Wartune Herald (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON026.width-450.png)
+![PSM013 - Wartune Herald (red)](https://storage.googleapis.com/fabmaster/media/images/PSM013.width-450.png)
 
 ## Notes

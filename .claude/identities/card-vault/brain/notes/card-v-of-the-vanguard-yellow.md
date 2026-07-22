@@ -31,5 +31,14 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way."
 
 Keywords: [[kw-specialization]] · [[kw-charge]]
 Rulings: search "V of the Vanguard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB023.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BOL009.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON035.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON035.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL030.webp)
+
+## Images
+
+![ASB023 - V of the Vanguard (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB023.png)
+![BOL009 - V of the Vanguard (yellow)](https://storage.googleapis.com/fabmaster/media/images/BOL009.width-450.png)
+![MON035 - V of the Vanguard (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON035.width-450.png)
+![MON035 - V of the Vanguard (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON035.width-450.png)
+![SBL030 - V of the Vanguard (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL030.webp)
 
 ## Notes

@@ -23,5 +23,12 @@ codes: [SEA150, SGB034]
 "Reveal the top card of your deck. The next time you would be dealt damage this turn, prevent X of that damage, where X is the pitch value of the card revealed this way."
 
 Rulings: search "Throw Caution to the Wind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150_V2.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB034.webp)
+
+## Images
+
+![SEA150 - Throw Caution to the Wind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150.png)
+![SEA150 - Throw Caution to the Wind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150_V2.png)
+![SGB034 - Throw Caution to the Wind (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB034.webp)
 
 ## Notes

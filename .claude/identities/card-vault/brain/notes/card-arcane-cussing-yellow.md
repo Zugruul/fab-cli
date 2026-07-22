@@ -30,5 +30,11 @@ When this leaves the arena during your turn, create 2 Runechant tokens."
 Keywords: [[kw-go-again]]
 Variants: [[card-arcane-cussing-red]] · [[card-arcane-cussing-blue]]
 Rulings: search "Arcane Cussing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR018.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS153.png)
+
+## Images
+
+![FLR018 - Arcane Cussing (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR018.webp)
+![ROS153 - Arcane Cussing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS153.png)
 
 ## Notes

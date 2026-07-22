@@ -30,5 +30,10 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
 Keywords: [[kw-beat-chest]]
 Variants: [[card-bare-swing-yellow]]
 Rulings: search "Bare Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR009.webp)
+
+## Images
+
+![ARR009 - Bare Swing (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR009.webp)
 
 ## Notes

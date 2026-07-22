@@ -26,5 +26,11 @@ Temper"
 
 Keywords: [[kw-charge]] · [[kw-temper]]
 Rulings: search "Soulbond Resolve" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD047.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB139.png)
+
+## Images
+
+![DTD047 - Soulbond Resolve](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD047.png)
+![FAB139 - Soulbond Resolve](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB139.png)
 
 ## Notes

@@ -27,5 +27,11 @@ codes: [FAB472, OMN153]
 When this hits, create a Lightning Flow token."
 
 Rulings: search "Meteoric Rise" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB472-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN153.webp)
+
+## Images
+
+![FAB472 - Meteoric Rise (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB472-RF.webp)
+![OMN153 - Meteoric Rise (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN153.webp)
 
 ## Notes

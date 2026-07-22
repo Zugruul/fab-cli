@@ -24,5 +24,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Dimenxxional Vortex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD171.png)
+
+## Images
+
+![DTD171 - Dimenxxional Vortex](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD171.png)
 
 ## Notes

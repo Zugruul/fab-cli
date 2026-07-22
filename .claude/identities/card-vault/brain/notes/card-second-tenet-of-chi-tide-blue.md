@@ -26,5 +26,12 @@ codes: [ENG019, LGS297, MST082]
 "If you've transcended this turn, this gets +2{p}."
 
 Rulings: search "Second Tenet of Chi: Tide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG019.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS297-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST082.png)
+
+## Images
+
+![ENG019 - Second Tenet of Chi: Tide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG019.png)
+![LGS297 - Second Tenet of Chi: Tide (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS297-RF.webp)
+![MST082 - Second Tenet of Chi: Tide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST082.png)
 
 ## Notes

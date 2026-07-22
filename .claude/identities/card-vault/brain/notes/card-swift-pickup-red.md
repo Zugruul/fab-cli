@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Swift Pickup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN231.webp)
+
+## Images
+
+![OMN231 - Swift Pickup (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN231.webp)
 
 ## Notes

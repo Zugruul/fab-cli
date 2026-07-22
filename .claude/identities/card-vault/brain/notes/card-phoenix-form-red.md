@@ -29,5 +29,11 @@ codes: [UPR048]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Phoenix Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048_EA.png)
+
+## Images
+
+![UPR048 - Phoenix Form (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048.png)
+![UPR048 - Phoenix Form (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048_EA.png)
 
 ## Notes

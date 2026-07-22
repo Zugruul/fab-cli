@@ -30,5 +30,11 @@ When this attacks a hero, you may wager a Gold token with them."
 Keywords: [[kw-universal]] · [[kw-wager]]
 Variants: [[card-wage-gold-red]] · [[card-wage-gold-blue]]
 Rulings: search "Wage Gold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB197.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY217.png)
+
+## Images
+
+![FAB197 - Wage Gold (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB197.png)
+![HVY217 - Wage Gold (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY217.png)
 
 ## Notes

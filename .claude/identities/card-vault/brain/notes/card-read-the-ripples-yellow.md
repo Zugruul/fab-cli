@@ -28,5 +28,10 @@ codes: [UPR177]
 Keywords: [[kw-opt]]
 Variants: [[card-read-the-ripples-red]] · [[card-read-the-ripples-blue]]
 Rulings: search "Read the Ripples" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR177.png)
+
+## Images
+
+![UPR177 - Read the Ripples (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR177.png)
 
 ## Notes

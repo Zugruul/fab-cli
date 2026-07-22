@@ -26,5 +26,10 @@ codes: [ROS075]
 "When this attacks, you may play a non-attack action card this chain link as though it were an instant."
 
 Rulings: search "Eclectic Magnetism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS075.png)
+
+## Images
+
+![ROS075 - Eclectic Magnetism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS075.png)
 
 ## Notes

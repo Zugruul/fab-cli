@@ -26,5 +26,10 @@ When this is pitched, you may put a steam counter on an item you control with cr
 
 Keywords: [[kw-legendary]]
 Rulings: search "Master Cog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO000.png)
+
+## Images
+
+![EVO000 - Master Cog (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO000.png)
 
 ## Notes

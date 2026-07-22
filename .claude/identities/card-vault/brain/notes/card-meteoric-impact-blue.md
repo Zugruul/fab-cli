@@ -29,5 +29,10 @@ Starfall - If an instant card has been put into your graveyard this turn, instea
 Keywords: [[kw-starfall]]
 Variants: [[card-meteoric-impact-red]] · [[card-meteoric-impact-yellow]]
 Rulings: search "Meteoric Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN120.webp)
+
+## Images
+
+![OMN120 - Meteoric Impact (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN120.webp)
 
 ## Notes

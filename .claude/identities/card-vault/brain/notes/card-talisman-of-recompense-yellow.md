@@ -27,5 +27,10 @@ Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Ta
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talisman of Recompense" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR191.width-450.png)
+
+## Images
+
+![EVR191 - Talisman of Recompense (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR191.width-450.png)
 
 ## Notes

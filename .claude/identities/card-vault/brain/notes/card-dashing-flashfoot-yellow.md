@@ -30,5 +30,10 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
 
 Keywords: [[kw-quickstrike]]
 Rulings: search "Dashing Flashfoot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN053.webp)
+
+## Images
+
+![OMN053 - Dashing Flashfoot (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN053.webp)
 
 ## Notes

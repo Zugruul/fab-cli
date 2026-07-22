@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Boots to the Boards" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS007-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP275-CF.webp)
+
+## Images
+
+![APS007 - Boots to the Boards](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS007-RF.webp)
+![SUP275 - Boots to the Boards](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP275-CF.webp)
 
 ## Notes

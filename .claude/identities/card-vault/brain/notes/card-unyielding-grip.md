@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Unyielding Grip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN317.webp)
+
+## Images
+
+![PEN317 - Unyielding Grip](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN317.webp)
 
 ## Notes

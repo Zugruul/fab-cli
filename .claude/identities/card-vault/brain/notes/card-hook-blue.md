@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Hook" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA103.png)
+
+## Images
+
+![SEA103 - Hook (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA103.png)
 
 ## Notes

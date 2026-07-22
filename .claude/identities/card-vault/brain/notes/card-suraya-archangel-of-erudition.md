@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Suraya, Archangel of Erudition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005_BACK_V2.png)
+
+## Images
+
+![DTD005 - Suraya, Archangel of Erudition](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005_BACK.png)
+![DTD005 - Suraya, Archangel of Erudition](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD005_BACK_V2.png)
 
 ## Notes

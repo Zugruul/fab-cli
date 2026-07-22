@@ -26,5 +26,10 @@ codes: [SEA098]
 "As an additional cost to play this, you may pay {r}{r}{r}. If you do, this attacks an additional target."
 
 Rulings: search "Barbed Barrage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png)
+
+## Images
+
+![SEA098 - Barbed Barrage (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png)
 
 ## Notes

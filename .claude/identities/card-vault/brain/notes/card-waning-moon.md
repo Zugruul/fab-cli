@@ -20,5 +20,11 @@ codes: [LGS109, UPR165]
 "Once per Turn Instant - {r}{r}: Deal 2 arcane damage to target hero. If it's not your turn, instead deal 3 arcane damage to them. Activate this ability only if you've played a 'non-attack' action card this turn."
 
 Rulings: search "Waning Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS109.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR165.png)
+
+## Images
+
+![LGS109 - Waning Moon](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS109.png)
+![UPR165 - Waning Moon](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR165.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Cash Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR158.width-450.png)
+
+## Images
+
+![EVR158 - Cash Out (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR158.width-450.png)
 
 ## Notes

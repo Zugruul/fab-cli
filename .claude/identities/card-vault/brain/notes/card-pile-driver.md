@@ -25,5 +25,11 @@ When this attacks, you may wager a Gold token with the defending hero."
 
 Keywords: [[kw-specialization]] · [[kw-wager]]
 Rulings: search "Pile Driver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM146-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN230.webp)
+
+## Images
+
+![GEM146 - Pile Driver](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM146-CF.webp)
+![OMN230 - Pile Driver](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN230.webp)
 
 ## Notes

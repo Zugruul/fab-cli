@@ -26,5 +26,11 @@ codes: [ANQ016, MST192]
 "When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card."
 
 Rulings: search "The Weakest Link" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png)
+
+## Images
+
+![ANQ016 - The Weakest Link (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ016.webp)
+![MST192 - The Weakest Link (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png)
 
 ## Notes

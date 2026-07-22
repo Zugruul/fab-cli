@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Heavy Industry Surveillance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO003-RF.webp)
+
+## Images
+
+![AIO003 - Heavy Industry Surveillance](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO003-RF.webp)
 
 ## Notes

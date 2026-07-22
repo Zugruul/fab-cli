@@ -29,5 +29,13 @@ codes: [CIN010, GEM010, HNT060, SFA013]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Display Loyalty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN010.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM010.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT060.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA013.webp)
+
+## Images
+
+![CIN010 - Display Loyalty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN010.webp)
+![GEM010 - Display Loyalty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM010.webp)
+![HNT060 - Display Loyalty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT060.png)
+![SFA013 - Display Loyalty (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA013.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Heavy Industry Gear Shift" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO006-RF.webp)
+
+## Images
+
+![AIO006 - Heavy Industry Gear Shift](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO006-RF.webp)
 
 ## Notes

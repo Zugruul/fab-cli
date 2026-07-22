@@ -28,5 +28,11 @@ codes: [ASR008, GEM116]
 
 Keywords: [[kw-combo]]
 Rulings: search "Enact Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR008.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM116-RF.webp)
+
+## Images
+
+![ASR008 - Enact Vengeance (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR008.webp)
+![GEM116 - Enact Vengeance (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM116-RF.webp)
 
 ## Notes

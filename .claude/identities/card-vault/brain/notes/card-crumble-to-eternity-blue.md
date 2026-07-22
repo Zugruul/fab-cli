@@ -29,5 +29,10 @@ At the beginning of your action phase, destroy this, then your next attack this 
 
 Keywords: [[kw-specialization]] · [[kw-dominate]]
 Rulings: search "Crumble to Eternity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV018.webp)
+
+## Images
+
+![AJV018 - Crumble to Eternity (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV018.webp)
 
 ## Notes

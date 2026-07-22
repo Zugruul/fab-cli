@@ -27,5 +27,10 @@ Instant - Destroy Amulet of Intervention: Prevent the next 1 damage that would b
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Intervention" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR180.width-450.png)
+
+## Images
+
+![EVR180 - Amulet of Intervention (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR180.width-450.png)
 
 ## Notes

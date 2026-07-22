@@ -29,5 +29,10 @@ Contract - You are contracted to hit a marked hero named Fang. Whenever you comp
 
 Keywords: [[kw-stealth]] · [[kw-contract]]
 Rulings: search "Defang the Dragon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT030.png)
+
+## Images
+
+![HNT030 - Defang the Dragon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT030.png)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [EVR124]
 "Destroy X target aura tokens and/or auras with cost 0 controlled by target hero. Then deal arcane damage to that hero equal to the number of auras destroyed this way."
 
 Rulings: search "Scour" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR124.width-450.png)
+
+## Images
+
+![EVR124 - Scour (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR124.width-450.png)
 
 ## Notes

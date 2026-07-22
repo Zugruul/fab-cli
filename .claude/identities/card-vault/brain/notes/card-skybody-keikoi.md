@@ -23,5 +23,11 @@ Instant - Destroy this: Prevent the next 1 damage that would be dealt to you thi
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Skybody Keikoi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS279.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST072.png)
+
+## Images
+
+![LGS279 - Skybody Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS279.png)
+![MST072 - Skybody Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST072.png)
 
 ## Notes

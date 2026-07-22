@@ -29,5 +29,13 @@ codes: [1HP132, LGS027, WTR111]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-whelming-gustwave-red]] · [[card-whelming-gustwave-blue]]
 Rulings: search "Whelming Gustwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP132.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS027.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR111.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR111.png)
+
+## Images
+
+![1HP132 - Whelming Gustwave (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP132.width-450.png)
+![LGS027 - Whelming Gustwave (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS027.png)
+![WTR111 - Whelming Gustwave (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR111.png)
+![WTR111 - Whelming Gustwave (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR111.png)
 
 ## Notes

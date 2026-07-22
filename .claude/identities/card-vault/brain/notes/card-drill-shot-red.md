@@ -30,5 +30,12 @@ When this hits a hero, put a -1{d} counter on an equipment they control."
 Keywords: [[kw-piercing]]
 Variants: [[card-drill-shot-yellow]] · [[card-drill-shot-blue]]
 Rulings: search "Drill Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN156.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ011.webp)
+
+## Images
+
+![AAZ010 - Drill Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ010.png)
+![DYN156 - Drill Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN156.png)
+![SAZ011 - Drill Shot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ011.webp)
 
 ## Notes

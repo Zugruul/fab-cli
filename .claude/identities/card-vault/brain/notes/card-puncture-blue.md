@@ -27,5 +27,11 @@ codes: [DYN081, SDO028]
 Keywords: [[kw-piercing]]
 Variants: [[card-puncture-red]] · [[card-puncture-yellow]]
 Rulings: search "Puncture" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN081.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO028.webp)
+
+## Images
+
+![DYN081 - Puncture (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN081.png)
+![SDO028 - Puncture (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO028.webp)
 
 ## Notes

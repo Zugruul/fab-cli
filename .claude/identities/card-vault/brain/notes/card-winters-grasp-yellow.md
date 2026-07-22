@@ -27,5 +27,11 @@ codes: [ELE161]
 
 Variants: [[card-winters-grasp-red]] · [[card-winters-grasp-blue]]
 Rulings: search "Winter's Grasp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE161.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE161.width-450.png)
+
+## Images
+
+![ELE161 - Winter's Grasp (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE161.width-450.png)
+![ELE161 - Winter's Grasp (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE161.width-450.png)
 
 ## Notes

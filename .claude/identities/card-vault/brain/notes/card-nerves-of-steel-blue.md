@@ -27,5 +27,10 @@ Battleworn and temper on equipment you control doesn't trigger if it defends an 
 When your hero is dealt damage, destroy Nerves of Steel."
 
 Rulings: search "Nerves of Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR023.width-450.png)
+
+## Images
+
+![EVR023 - Nerves of Steel (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR023.width-450.png)
 
 ## Notes

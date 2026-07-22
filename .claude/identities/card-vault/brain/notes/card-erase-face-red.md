@@ -26,5 +26,11 @@ codes: [JDG043, UPR187]
 "When this hits a hero, cards they own lose all class and talent types until the end of their next turn."
 
 Rulings: search "Erase Face" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG043.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR187.png)
+
+## Images
+
+![JDG043 - Erase Face (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG043.png)
+![UPR187 - Erase Face (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR187.png)
 
 ## Notes

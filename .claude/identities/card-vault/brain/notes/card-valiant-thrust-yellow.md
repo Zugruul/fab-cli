@@ -28,5 +28,13 @@ codes: [ASB024, MON040, SBL031]
 
 Variants: [[card-valiant-thrust-red]] · [[card-valiant-thrust-blue]]
 Rulings: search "Valiant Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB024.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON040.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON040.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL031.webp)
+
+## Images
+
+![ASB024 - Valiant Thrust (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB024.png)
+![MON040 - Valiant Thrust (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON040.width-450.png)
+![MON040 - Valiant Thrust (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON040.width-450.png)
+![SBL031 - Valiant Thrust (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL031.webp)
 
 ## Notes

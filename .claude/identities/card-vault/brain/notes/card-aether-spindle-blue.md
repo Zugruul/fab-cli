@@ -28,5 +28,14 @@ Opt X, where X is the damage dealt by Aether Spindle."
 Keywords: [[kw-opt]]
 Variants: [[card-aether-spindle-red]] · [[card-aether-spindle-yellow]]
 Rulings: search "Aether Spindle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP316.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC128.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ025.webp)
+
+## Images
+
+![1HP316 - Aether Spindle (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP316.width-450.png)
+![ARC128 - Aether Spindle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128.png)
+![ARC128 - Aether Spindle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128-RF.png)
+![ARC128 - Aether Spindle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC128.png)
+![SBZ025 - Aether Spindle (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ025.webp)
 
 ## Notes

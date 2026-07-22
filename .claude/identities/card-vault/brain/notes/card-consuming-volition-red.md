@@ -27,5 +27,13 @@ codes: [CHN025, CRU148, ROS137]
 
 Variants: [[card-consuming-volition-yellow]] · [[card-consuming-volition-blue]]
 Rulings: search "Consuming Volition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU148.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU148.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS137.png)
+
+## Images
+
+![CHN025 - Consuming Volition (red)](https://storage.googleapis.com/fabmaster/media/images/CHN025.width-450.png)
+![CRU148 - Consuming Volition (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU148.png)
+![CRU148 - Consuming Volition (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU148.png)
+![ROS137 - Consuming Volition (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS137.png)
 
 ## Notes

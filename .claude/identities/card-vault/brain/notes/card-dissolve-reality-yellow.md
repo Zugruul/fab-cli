@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Dissolve Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY253.png)
+
+## Images
+
+![HVY253 - Dissolve Reality (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY253.png)
 
 ## Notes

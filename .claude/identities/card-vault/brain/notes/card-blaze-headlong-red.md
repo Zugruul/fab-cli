@@ -28,5 +28,15 @@ codes: [CIN008, FAB089, FAI010, HNT157, SFA011, UPR092]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blaze Headlong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN008.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB089.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI010.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT157.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA011.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR092.png)
+
+## Images
+
+![CIN008 - Blaze Headlong (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN008.webp)
+![FAB089 - Blaze Headlong (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB089.png)
+![FAI010 - Blaze Headlong (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI010.webp)
+![HNT157 - Blaze Headlong (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT157.png)
+![SFA011 - Blaze Headlong (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA011.webp)
+![UPR092 - Blaze Headlong (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR092.png)
 
 ## Notes

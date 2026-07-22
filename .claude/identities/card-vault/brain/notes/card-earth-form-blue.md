@@ -27,5 +27,11 @@ codes: [FLR021, ROS038]
 
 Variants: [[card-earth-form-red]] · [[card-earth-form-yellow]]
 Rulings: search "Earth Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS038.png)
+
+## Images
+
+![FLR021 - Earth Form (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR021.webp)
+![ROS038 - Earth Form (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS038.png)
 
 ## Notes

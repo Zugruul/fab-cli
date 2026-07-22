@@ -27,5 +27,10 @@ codes: [PEN233]
 
 Variants: [[card-conquer-the-icy-terrain-red]] · [[card-conquer-the-icy-terrain-yellow]]
 Rulings: search "Conquer the Icy Terrain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN233.webp)
+
+## Images
+
+![PEN233 - Conquer the Icy Terrain (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN233.webp)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [LSS002]
 "Name an action card. Open and reveal a booster pack of Flesh and Blood and put all cards with the chosen name into your hand. If the booster pack does not contain a card with the chosen name, you may repeat this process."
 
 Rulings: search "Go Bananas" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS002.png)
+
+## Images
+
+![LSS002 - Go Bananas (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS002.png)
 
 ## Notes

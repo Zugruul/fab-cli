@@ -31,5 +31,11 @@ Blood Debt"
 
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Rulings: search "Widespread Ruin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD139.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD139_V2.png)
+
+## Images
+
+![DTD139 - Widespread Ruin (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD139.png)
+![DTD139 - Widespread Ruin (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD139_V2.png)
 
 ## Notes

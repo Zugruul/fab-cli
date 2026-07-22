@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-wager]]
 Variants: [[card-hold-em-red]] · [[card-hold-em-yellow]]
 Rulings: search "Hold 'em" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY132.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA027.png)
+
+## Images
+
+![HVY132 - Hold 'em (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY132.png)
+![OLA027 - Hold 'em (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA027.png)
 
 ## Notes

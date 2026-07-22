@@ -31,5 +31,10 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
 Keywords: [[kw-quickstrike]]
 Variants: [[card-stunning-swipe-yellow]] · [[card-stunning-swipe-blue]]
 Rulings: search "Stunning Swipe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN074.webp)
+
+## Images
+
+![OMN074 - Stunning Swipe (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN074.webp)
 
 ## Notes

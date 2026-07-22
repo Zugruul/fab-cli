@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-sharpen]] · [[kw-go-again]]
 Variants: [[card-sharp-incline-red]]
 Rulings: search "Sharp Incline" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA018.webp)
+
+## Images
+
+![AHA018 - Sharp Incline (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA018.webp)
 
 ## Notes

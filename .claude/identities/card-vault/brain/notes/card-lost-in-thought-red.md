@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Lost in Thought" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD219.png)
+
+## Images
+
+![DTD219 - Lost in Thought (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD219.png)
 
 ## Notes

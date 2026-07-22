@@ -29,5 +29,10 @@ Deal 5 arcane damage to any target. If Succumb to Winter was fused and targets a
 Keywords: [[kw-fusion]]
 Variants: [[card-succumb-to-winter-yellow]] · [[card-succumb-to-winter-blue]]
 Rulings: search "Succumb to Winter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR110.png)
+
+## Images
+
+![UPR110 - Succumb to Winter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR110.png)
 
 ## Notes

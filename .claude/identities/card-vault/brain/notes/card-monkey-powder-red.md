@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-overpower]]
 Rulings: search "Monkey Powder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA102.png)
+
+## Images
+
+![SEA102 - Monkey Powder (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA102.png)
 
 ## Notes

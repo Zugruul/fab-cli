@@ -27,5 +27,11 @@ codes: [ANQ013, ROS216]
 When this hits a hero, you may destroy an aura they control."
 
 Rulings: search "Cut Through the Facade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS216.png)
+
+## Images
+
+![ANQ013 - Cut Through the Facade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ013.webp)
+![ROS216 - Cut Through the Facade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS216.png)
 
 ## Notes

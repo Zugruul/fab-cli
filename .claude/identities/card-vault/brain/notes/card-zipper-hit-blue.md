@@ -29,5 +29,16 @@ codes: [1HP216, AIO024, ARC031, SDA034, TNP030]
 Keywords: [[kw-boost]]
 Variants: [[card-zipper-hit-red]] · [[card-zipper-hit-yellow]]
 Rulings: search "Zipper Hit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP216.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO024.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031-RF.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC031.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA034.webp) · [Image #7](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP030-MV.webp)
+
+## Images
+
+![1HP216 - Zipper Hit (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP216.width-450.png)
+![AIO024 - Zipper Hit (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO024.webp)
+![ARC031 - Zipper Hit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031.png)
+![ARC031 - Zipper Hit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031-RF.png)
+![ARC031 - Zipper Hit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC031.png)
+![SDA034 - Zipper Hit (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA034.webp)
+![TNP030 - Zipper Hit (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP030-MV.webp)
 
 ## Notes

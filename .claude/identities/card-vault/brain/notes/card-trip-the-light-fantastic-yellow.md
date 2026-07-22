@@ -27,5 +27,10 @@ codes: [ROS105]
 
 Variants: [[card-trip-the-light-fantastic-red]] · [[card-trip-the-light-fantastic-blue]]
 Rulings: search "Trip the Light Fantastic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS105.png)
+
+## Images
+
+![ROS105 - Trip the Light Fantastic (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS105.png)
 
 ## Notes

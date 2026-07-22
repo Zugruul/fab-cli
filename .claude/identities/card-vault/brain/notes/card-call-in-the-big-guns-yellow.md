@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-call-in-the-big-guns-red]] · [[card-call-in-the-big-guns-blue]]
 Rulings: search "Call in the Big Guns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA121.png)
+
+## Images
+
+![SEA121 - Call in the Big Guns (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA121.png)
 
 ## Notes

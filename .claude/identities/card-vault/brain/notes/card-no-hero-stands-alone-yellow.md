@@ -29,5 +29,10 @@ When this defends, clash with the attacking hero. The winner may choose an attac
 
 Keywords: [[kw-ambush]] · [[kw-clash]]
 Rulings: search "No Hero Stands Alone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP020.webp)
+
+## Images
+
+![SUP020 - No Hero Stands Alone (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP020.webp)
 
 ## Notes

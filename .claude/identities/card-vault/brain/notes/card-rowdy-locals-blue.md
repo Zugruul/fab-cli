@@ -27,5 +27,10 @@ codes: [MST191]
 When this hits a hero, discard a card. If you do, they discard a card."
 
 Rulings: search "Rowdy Locals" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png)
+
+## Images
+
+![MST191 - Rowdy Locals (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png)
 
 ## Notes

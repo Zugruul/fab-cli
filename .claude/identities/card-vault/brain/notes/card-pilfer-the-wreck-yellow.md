@@ -27,5 +27,11 @@ codes: [SEA139]
 
 Variants: [[card-pilfer-the-wreck-red]] · [[card-pilfer-the-wreck-blue]]
 Rulings: search "Pilfer the Wreck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA139.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA139_V2.png)
+
+## Images
+
+![SEA139 - Pilfer the Wreck (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA139.png)
+![SEA139 - Pilfer the Wreck (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA139_V2.png)
 
 ## Notes

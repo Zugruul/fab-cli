@@ -28,5 +28,10 @@ Unity - When this defends together with a card from hand, create a Spellbane Aeg
 
 Keywords: [[kw-specialization]] · [[kw-unity]] · [[kw-freeze]]
 Rulings: search "Northern Winds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD197.png)
+
+## Images
+
+![DTD197 - Northern Winds (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD197.png)
 
 ## Notes

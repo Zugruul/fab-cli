@@ -28,5 +28,10 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Essence of Ancestry: Body" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST137.png)
+
+## Images
+
+![MST137 - Essence of Ancestry: Body (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST137.png)
 
 ## Notes

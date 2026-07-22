@@ -23,5 +23,11 @@ codes: [FAB414, PEN299]
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Two-Faced" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB414-GF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN299.webp)
+
+## Images
+
+![FAB414 - Two-Faced](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB414-GF.webp)
+![PEN299 - Two-Faced](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN299.webp)
 
 ## Notes

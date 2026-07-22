@@ -24,5 +24,11 @@ codes: [UPR017]
 If Yendurai would be dealt damage, remove an endurance counter from him to prevent 3 of that damage."
 
 Rulings: search "Yendurai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Back.png)
+
+## Images
+
+![UPR017 - Yendurai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png)
+![UPR017 - Yendurai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Back.png)
 
 ## Notes

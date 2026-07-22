@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tome of the Arknight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC084.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC084.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS029.webp)
+
+## Images
+
+![ARC084 - Tome of the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC084.png)
+![ARC084 - Tome of the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC084.png)
+![AVS029 - Tome of the Arknight (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS029.webp)
 
 ## Notes

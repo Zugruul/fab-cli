@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-hit-and-run-red]] · [[card-hit-and-run-blue]]
 Rulings: search "Hit and Run" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP175.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU092.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU092.png)
+
+## Images
+
+![1HP175 - Hit and Run (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP175.width-450.png)
+![CRU092 - Hit and Run (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU092.png)
+![CRU092 - Hit and Run (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU092.png)
 
 ## Notes

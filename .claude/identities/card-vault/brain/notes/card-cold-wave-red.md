@@ -31,5 +31,11 @@ If Cold Wave was fused, cards and activated abilities cost opposing heroes an ad
 Keywords: [[kw-fusion]]
 Variants: [[card-cold-wave-yellow]] · [[card-cold-wave-blue]]
 Rulings: search "Cold Wave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE038.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE038.width-450.png)
+
+## Images
+
+![ELE038 - Cold Wave (red)](https://storage.googleapis.com/fabmaster/media/images/ELE038.width-450.png)
+![ELE038 - Cold Wave (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE038.width-450.png)
 
 ## Notes

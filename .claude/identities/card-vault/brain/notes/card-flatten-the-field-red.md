@@ -29,5 +29,10 @@ codes: [MPG076]
 Keywords: [[kw-crush]]
 Variants: [[card-flatten-the-field-yellow]] · [[card-flatten-the-field-blue]]
 Rulings: search "Flatten the Field" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG076.webp)
+
+## Images
+
+![MPG076 - Flatten the Field (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG076.webp)
 
 ## Notes

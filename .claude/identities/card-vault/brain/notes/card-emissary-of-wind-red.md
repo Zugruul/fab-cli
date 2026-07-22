@@ -28,5 +28,11 @@ codes: [LGS303, MST199]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Emissary of Wind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS303-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png)
+
+## Images
+
+![LGS303 - Emissary of Wind (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS303-RF.webp)
+![MST199 - Emissary of Wind (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png)
 
 ## Notes

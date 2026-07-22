@@ -31,5 +31,14 @@ Phantasm"
 Keywords: [[kw-phantasm]]
 Variants: [[card-herald-of-rebirth-red]] · [[card-herald-of-rebirth-yellow]]
 Rulings: search "Herald of Rebirth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD022.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB034.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON022.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON022.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/PSM018.width-450.png)
+
+## Images
+
+![DTD022 - Herald of Rebirth (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD022.png)
+![FAB034 - Herald of Rebirth (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB034.png)
+![MON022 - Herald of Rebirth (blue)](https://storage.googleapis.com/fabmaster/media/images/MON022.width-450.png)
+![MON022 - Herald of Rebirth (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON022.width-450.png)
+![PSM018 - Herald of Rebirth (blue)](https://storage.googleapis.com/fabmaster/media/images/PSM018.width-450.png)
 
 ## Notes

@@ -30,5 +30,14 @@ Once per turn, when you play an attack action card, remove a verse counter from 
 Keywords: [[kw-go-again]]
 Variants: [[card-malefic-incantation-yellow]] · [[card-malefic-incantation-blue]]
 Rulings: search "Malefic Incantation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS015.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR015.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM075-CF.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS130.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI021.webp)
+
+## Images
+
+![AVS015 - Malefic Incantation (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS015.webp)
+![FLR015 - Malefic Incantation (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR015.webp)
+![GEM075 - Malefic Incantation (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM075-CF.webp)
+![ROS130 - Malefic Incantation (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS130.png)
+![SVI021 - Malefic Incantation (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI021.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [SEA026]
 Keywords: [[kw-go-again]]
 Variants: [[card-cloud-skiff-red]] · [[card-cloud-skiff-yellow]]
 Rulings: search "Cloud Skiff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA026.png)
+
+## Images
+
+![SEA026 - Cloud Skiff (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA026.png)
 
 ## Notes

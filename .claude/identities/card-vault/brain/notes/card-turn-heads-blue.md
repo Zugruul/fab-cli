@@ -28,5 +28,10 @@ When this leaves the arena, {t} target Brute hero. They don't {u} during their n
 
 Keywords: [[kw-suspense]]
 Rulings: search "Turn Heads" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP176.webp)
+
+## Images
+
+![SUP176 - Turn Heads (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP176.webp)
 
 ## Notes

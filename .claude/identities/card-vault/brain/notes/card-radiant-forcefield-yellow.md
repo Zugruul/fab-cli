@@ -25,5 +25,10 @@ codes: [DTD081]
 When there are no cards in your hero's soul, destroy this."
 
 Rulings: search "Radiant Forcefield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD081.png)
+
+## Images
+
+![DTD081 - Radiant Forcefield (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD081.png)
 
 ## Notes

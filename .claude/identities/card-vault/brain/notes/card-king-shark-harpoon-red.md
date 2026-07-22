@@ -28,5 +28,11 @@ codes: [SEA086]
 
 Keywords: [[kw-go-fish]]
 Rulings: search "King Shark Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086_V2.png)
+
+## Images
+
+![SEA086 - King Shark Harpoon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086.png)
+![SEA086 - King Shark Harpoon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086_V2.png)
 
 ## Notes

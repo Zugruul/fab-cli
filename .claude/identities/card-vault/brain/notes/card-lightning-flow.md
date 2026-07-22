@@ -21,5 +21,16 @@ codes: [FAB470, OMN203]
 
 Keywords: [[kw-token-lightning-flow]]
 Rulings: search "Lightning Flow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB470-RFA.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB470-RFB.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB470-RFC.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203-MVA.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203-MVB.webp) · [Image #7](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203-MVC.webp)
+
+## Images
+
+![FAB470 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB470-RFA.webp)
+![FAB470 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB470-RFB.webp)
+![FAB470 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB470-RFC.webp)
+![OMN203 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203.webp)
+![OMN203 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203-MVA.webp)
+![OMN203 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203-MVB.webp)
+![OMN203 - Lightning Flow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN203-MVC.webp)
 
 ## Notes

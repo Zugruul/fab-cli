@@ -25,5 +25,10 @@ codes: [HNT110]
 "Target dagger attack gets +X{p}, where X is the number of Draconic chain links you control."
 
 Rulings: search "Scalding Iron" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT110.png)
+
+## Images
+
+![HNT110 - Scalding Iron (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT110.png)
 
 ## Notes

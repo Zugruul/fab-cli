@@ -29,5 +29,11 @@ codes: [ROS051, VER019]
 Keywords: [[kw-decompose]]
 Variants: [[card-blossoming-decay-red]] · [[card-blossoming-decay-yellow]]
 Rulings: search "Blossoming Decay" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS051.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER019.webp)
+
+## Images
+
+![ROS051 - Blossoming Decay (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS051.png)
+![VER019 - Blossoming Decay (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER019.webp)
 
 ## Notes

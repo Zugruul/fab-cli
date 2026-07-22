@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Gauntlet of Sword and Sorcery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN086-RF.webp)
+
+## Images
+
+![OMN086 - Gauntlet of Sword and Sorcery](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN086-RF.webp)
 
 ## Notes

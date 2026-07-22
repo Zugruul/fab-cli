@@ -32,5 +32,11 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero."
 Keywords: [[kw-fusion]]
 Variants: [[card-explosive-growth-red]] · [[card-explosive-growth-yellow]]
 Rulings: search "Explosive Growth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE069.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE069.width-450.png)
+
+## Images
+
+![ELE069 - Explosive Growth (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE069.width-450.png)
+![ELE069 - Explosive Growth (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE069.width-450.png)
 
 ## Notes

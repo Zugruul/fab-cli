@@ -25,5 +25,14 @@ Once per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} c
 
 Adult version: [[card-enigma-ledger-of-ancestry]]
 Rulings: search "Enigma" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG001.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST026.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST026_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST026_BACK.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN001.webp)
+
+## Images
+
+![ENG001 - Enigma](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG001.png)
+![MST026 - Enigma](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST026.png)
+![MST026 - Enigma](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST026_V2.png)
+![MST026 - Enigma](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST026_BACK.png)
+![SEN001 - Enigma](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN001.webp)
 
 ## Notes

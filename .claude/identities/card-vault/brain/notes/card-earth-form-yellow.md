@@ -27,5 +27,10 @@ codes: [ROS037]
 
 Variants: [[card-earth-form-red]] · [[card-earth-form-blue]]
 Rulings: search "Earth Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS037.png)
+
+## Images
+
+![ROS037 - Earth Form (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS037.png)
 
 ## Notes

@@ -29,5 +29,12 @@ codes: [1HP110, CRU060]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-rushing-river-yellow]] · [[card-rushing-river-blue]]
 Rulings: search "Rushing River" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP110.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/CRU60.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-CRU060.width-450.png)
+
+## Images
+
+![1HP110 - Rushing River (red)](https://storage.googleapis.com/fabmaster/media/images/1HP110.width-450.png)
+![CRU060 - Rushing River (red)](https://storage.googleapis.com/fabmaster/media/images/CRU60.width-450.png)
+![CRU060 - Rushing River (red)](https://storage.googleapis.com/fabmaster/media/images/U-CRU060.width-450.png)
 
 ## Notes

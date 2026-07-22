@@ -29,5 +29,11 @@ codes: [PEN279, SAR011]
 Keywords: [[kw-go-again]]
 Variants: [[card-concoct-disorder-yellow]] · [[card-concoct-disorder-blue]]
 Rulings: search "Concoct Disorder" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN279.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR011.webp)
+
+## Images
+
+![PEN279 - Concoct Disorder (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN279.webp)
+![SAR011 - Concoct Disorder (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR011.webp)
 
 ## Notes

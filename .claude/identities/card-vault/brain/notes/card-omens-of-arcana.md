@@ -22,5 +22,12 @@ Lightning Flow tokens get spellvoid 1."
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Omens of Arcana" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB467.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB467-MV_BACK.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN227.webp)
+
+## Images
+
+![FAB467 - Omens of Arcana](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB467.webp)
+![FAB467 - Omens of Arcana](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB467-MV_BACK.webp)
+![OMN227 - Omens of Arcana](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN227.webp)
 
 ## Notes

@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "First Tenet of Chi: Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG018.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS300-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST092.png)
+
+## Images
+
+![ENG018 - First Tenet of Chi: Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG018.png)
+![LGS300 - First Tenet of Chi: Moon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS300-RF.webp)
+![MST092 - First Tenet of Chi: Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST092.png)
 
 ## Notes

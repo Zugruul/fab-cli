@@ -27,5 +27,11 @@ codes: [SEA012]
 Thrice per Turn Instant - {t} a cog you control: This gets +1{p}. If this is the third time you've activated this ability, destroy a defending card."
 
 Rulings: search "Palantir Aeronought" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012_V2.png)
+
+## Images
+
+![SEA012 - Palantir Aeronought (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012.png)
+![SEA012 - Palantir Aeronought (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012_V2.png)
 
 ## Notes

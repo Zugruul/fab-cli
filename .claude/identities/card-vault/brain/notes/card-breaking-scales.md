@@ -24,5 +24,14 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Breaking Scales" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP096.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB148.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/KSU7.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR080.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR080.png)
+
+## Images
+
+![1HP096 - Breaking Scales](https://storage.googleapis.com/fabmaster/media/images/1HP096.width-450.png)
+![FAB148 - Breaking Scales](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB148.png)
+![KSU007 - Breaking Scales](https://storage.googleapis.com/fabmaster/media/images/KSU7.width-450.png)
+![WTR080 - Breaking Scales](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR080.png)
+![WTR080 - Breaking Scales](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR080.png)
 
 ## Notes

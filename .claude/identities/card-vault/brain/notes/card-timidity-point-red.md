@@ -27,5 +27,10 @@ codes: [EVR097]
 
 Variants: [[card-timidity-point-yellow]] · [[card-timidity-point-blue]]
 Rulings: search "Timidity Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR097.width-450.png)
+
+## Images
+
+![EVR097 - Timidity Point (red)](https://storage.googleapis.com/fabmaster/media/images/EVR097.width-450.png)
 
 ## Notes

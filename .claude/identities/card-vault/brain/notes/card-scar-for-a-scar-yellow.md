@@ -29,5 +29,13 @@ codes: [1HP397, UPR210, WTR192]
 Keywords: [[kw-go-again]]
 Variants: [[card-scar-for-a-scar-red]] · [[card-scar-for-a-scar-blue]]
 Rulings: search "Scar for a Scar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP397.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR210.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR192.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR192.png)
+
+## Images
+
+![1HP397 - Scar for a Scar (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP397.width-450.png)
+![UPR210 - Scar for a Scar (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR210.png)
+![WTR192 - Scar for a Scar (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR192.png)
+![WTR192 - Scar for a Scar (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR192.png)
 
 ## Notes

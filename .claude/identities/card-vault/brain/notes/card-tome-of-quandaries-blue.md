@@ -24,5 +24,11 @@ codes: [OMN133]
 "Create 2 Ponder tokens."
 
 Rulings: search "Tome of Quandaries" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN133.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN133-CF.webp)
+
+## Images
+
+![OMN133 - Tome of Quandaries (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN133.webp)
+![OMN133 - Tome of Quandaries (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN133-CF.webp)
 
 ## Notes

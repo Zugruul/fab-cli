@@ -20,5 +20,10 @@ codes: [DYN193]
 "Action - {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token."
 
 Rulings: search "Seerstone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN193.png)
+
+## Images
+
+![DYN193 - Seerstone](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN193.png)
 
 ## Notes

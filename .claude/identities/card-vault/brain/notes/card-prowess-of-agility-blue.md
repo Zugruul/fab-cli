@@ -26,5 +26,10 @@ codes: [HNT073]
 At the beginning of your end phase, if you've attacked less than 3 times this turn, destroy this."
 
 Rulings: search "Prowess of Agility" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT073.png)
+
+## Images
+
+![HNT073 - Prowess of Agility (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT073.png)
 
 ## Notes

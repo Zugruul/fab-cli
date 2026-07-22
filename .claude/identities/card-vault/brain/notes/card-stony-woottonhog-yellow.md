@@ -27,5 +27,11 @@ codes: [MON285]
 
 Variants: [[card-stony-woottonhog-red]] · [[card-stony-woottonhog-blue]]
 Rulings: search "Stony Woottonhog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON285.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON285.width-450.png)
+
+## Images
+
+![MON285 - Stony Woottonhog (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON285.width-450.png)
+![MON285 - Stony Woottonhog (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON285.width-450.png)
 
 ## Notes

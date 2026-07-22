@@ -30,5 +30,10 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
 Keywords: [[kw-boost]]
 Variants: [[card-metex-red]] · [[card-metex-yellow]]
 Rulings: search "MetEx" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO203.png)
+
+## Images
+
+![EVO203 - MetEx (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO203.png)
 
 ## Notes

@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sharpen-steel-red]] · [[card-sharpen-steel-yellow]]
 Rulings: search "Sharpen Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/TEA24.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR143.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR143.png)
+
+## Images
+
+![TEA024 - Sharpen Steel (blue)](https://storage.googleapis.com/fabmaster/media/images/TEA24.width-450.png)
+![WTR143 - Sharpen Steel (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR143.png)
+![WTR143 - Sharpen Steel (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR143.png)
 
 ## Notes

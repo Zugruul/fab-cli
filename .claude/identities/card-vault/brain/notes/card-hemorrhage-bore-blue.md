@@ -27,5 +27,11 @@ codes: [DYN164, LGS121]
 
 Variants: [[card-hemorrhage-bore-red]] · [[card-hemorrhage-bore-yellow]]
 Rulings: search "Hemorrhage Bore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN164.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS121.png)
+
+## Images
+
+![DYN164 - Hemorrhage Bore (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN164.png)
+![LGS121 - Hemorrhage Bore (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS121.png)
 
 ## Notes

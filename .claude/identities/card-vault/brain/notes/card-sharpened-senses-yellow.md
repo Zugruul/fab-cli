@@ -29,5 +29,10 @@ At the beginning of your end phase, destroy this."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sharpened Senses" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT118.png)
+
+## Images
+
+![HNT118 - Sharpened Senses (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT118.png)
 
 ## Notes

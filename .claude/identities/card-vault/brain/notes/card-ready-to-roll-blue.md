@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Ready to Roll" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR003.width-450.png)
+
+## Images
+
+![EVR003 - Ready to Roll (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR003.width-450.png)
 
 ## Notes

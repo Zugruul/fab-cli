@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-outland-skirmish-red]] · [[card-outland-skirmish-yellow]]
 Rulings: search "Outland Skirmish" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR068.width-450.png)
+
+## Images
+
+![EVR068 - Outland Skirmish (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR068.width-450.png)
 
 ## Notes

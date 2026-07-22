@@ -32,5 +32,11 @@ Blood Debt"
 Keywords: [[kw-dominate]] · [[kw-blood-debt]]
 Variants: [[card-writhing-beast-hulk-red]] · [[card-writhing-beast-hulk-blue]]
 Rulings: search "Writhing Beast Hulk" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON130.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON130.width-450.png)
+
+## Images
+
+![MON130 - Writhing Beast Hulk (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON130.width-450.png)
+![MON130 - Writhing Beast Hulk (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON130.width-450.png)
 
 ## Notes

@@ -18,5 +18,10 @@ codes: [SMP012]
 "Shuffle the event deck, put this on the bottom, then flip the top card."
 
 Rulings: search "Random Events Unfold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP012.webp)
+
+## Images
+
+![SMP012 - Random Events Unfold](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP012.webp)
 
 ## Notes

@@ -21,5 +21,13 @@ codes: [AZL002, LGS129, OUT093, RIP002]
 Once per Turn Instant - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it."
 
 Rulings: search "Barbed Castaway" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS129.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT093.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP002.png)
+
+## Images
+
+![AZL002 - Barbed Castaway](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL002.png)
+![LGS129 - Barbed Castaway](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS129.png)
+![OUT093 - Barbed Castaway](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT093.width-450.png)
+![RIP002 - Barbed Castaway](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP002.png)
 
 ## Notes

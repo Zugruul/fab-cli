@@ -28,5 +28,12 @@ codes: [1HP098, CRU054]
 
 Keywords: [[kw-combo]]
 Rulings: search "Find Center" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP098.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU054.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU054.png)
+
+## Images
+
+![1HP098 - Find Center (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP098.width-450.png)
+![CRU054 - Find Center (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU054.png)
+![CRU054 - Find Center (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU054.png)
 
 ## Notes

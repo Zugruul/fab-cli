@@ -29,5 +29,12 @@ Rupture - If Rise Up is played as chain link 4 or higher, it has dominate and +X
 
 Keywords: [[kw-specialization]] · [[kw-rupture]] · [[kw-dominate]]
 Rulings: search "Rise Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS106.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR091.png)
+
+## Images
+
+![FAI007 - Rise Up (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI007.webp)
+![LGS106 - Rise Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS106.png)
+![UPR091 - Rise Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR091.png)
 
 ## Notes

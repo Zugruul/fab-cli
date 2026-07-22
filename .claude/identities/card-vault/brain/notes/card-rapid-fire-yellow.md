@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-reload]] · [[kw-go-again]]
 Rulings: search "Rapid Fire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC047.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC047.png)
+
+## Images
+
+![ARC047 - Rapid Fire (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC047.png)
+![ARC047 - Rapid Fire (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC047.png)
 
 ## Notes

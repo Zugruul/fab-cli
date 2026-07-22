@@ -31,5 +31,12 @@ If you've charged this turn, Bolt of Courage gains "If this hits, draw a card.""
 Keywords: [[kw-charge]]
 Variants: [[card-bolt-of-courage-red]] · [[card-bolt-of-courage-yellow]]
 Rulings: search "Bolt of Courage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL022.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON044.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON044.width-450.png)
+
+## Images
+
+![BOL022 - Bolt of Courage (blue)](https://storage.googleapis.com/fabmaster/media/images/BOL022.width-450.png)
+![MON044 - Bolt of Courage (blue)](https://storage.googleapis.com/fabmaster/media/images/MON044.width-450.png)
+![MON044 - Bolt of Courage (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON044.width-450.png)
 
 ## Notes

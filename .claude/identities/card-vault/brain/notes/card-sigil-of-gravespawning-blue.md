@@ -29,5 +29,11 @@ At the beginning of your action phase, destroy this."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of Gravespawning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN098.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN098-MV.webp)
+
+## Images
+
+![PEN098 - Sigil of Gravespawning (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN098.webp)
+![PEN098 - Sigil of Gravespawning (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN098-MV.webp)
 
 ## Notes

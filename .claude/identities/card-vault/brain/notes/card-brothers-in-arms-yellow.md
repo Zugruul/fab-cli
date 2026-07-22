@@ -27,5 +27,11 @@ codes: [SUP228, UPR204]
 
 Variants: [[card-brothers-in-arms-red]] · [[card-brothers-in-arms-blue]]
 Rulings: search "Brothers in Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP228.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR204.png)
+
+## Images
+
+![SUP228 - Brothers in Arms (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP228.webp)
+![UPR204 - Brothers in Arms (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR204.png)
 
 ## Notes

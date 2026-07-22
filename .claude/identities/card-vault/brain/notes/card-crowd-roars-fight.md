@@ -18,5 +18,10 @@ codes: [SMP020]
 "Your next attack this turn gets +1{p} and may attack any opposing hero."
 
 Rulings: search "Crowd Roars Fight!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP020.webp)
+
+## Images
+
+![SMP020 - Crowd Roars Fight!](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP020.webp)
 
 ## Notes

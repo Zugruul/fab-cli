@@ -29,5 +29,10 @@ Crush - When this deals 4 or more damage to a hero, they can't create aura token
 
 Keywords: [[kw-crush]]
 Rulings: search "Renounce Grandeur" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG034.webp)
+
+## Images
+
+![MPG034 - Renounce Grandeur (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG034.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
 
 Keywords: [[kw-sharpen]] · [[kw-go-again]]
 Rulings: search "Indefensibly Honed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA023.webp)
+
+## Images
+
+![AHA023 - Indefensibly Honed (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA023.webp)
 
 ## Notes

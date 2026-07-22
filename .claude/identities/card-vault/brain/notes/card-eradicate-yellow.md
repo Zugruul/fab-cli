@@ -29,5 +29,10 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
 
 Keywords: [[kw-contract]]
 Rulings: search "Eradicate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN119.png)
+
+## Images
+
+![DYN119 - Eradicate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN119.png)
 
 ## Notes

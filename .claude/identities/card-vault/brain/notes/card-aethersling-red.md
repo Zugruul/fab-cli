@@ -27,5 +27,10 @@ If this deals damage, you may {t} your hero. If you do, this gets go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Aethersling" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN134.webp)
+
+## Images
+
+![OMN134 - Aethersling (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN134.webp)
 
 ## Notes

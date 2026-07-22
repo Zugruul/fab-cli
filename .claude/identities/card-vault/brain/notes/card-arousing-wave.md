@@ -25,5 +25,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Arousing Wave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS269.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST006.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU005.png)
+
+## Images
+
+![LGS269 - Arousing Wave](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS269.png)
+![MST006 - Arousing Wave](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST006.png)
+![NUU005 - Arousing Wave](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU005.png)
 
 ## Notes

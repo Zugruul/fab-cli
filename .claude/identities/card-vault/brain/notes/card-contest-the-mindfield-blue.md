@@ -26,5 +26,10 @@ codes: [EVO243]
 At the start of your turn, destroy this."
 
 Rulings: search "Contest the Mindfield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO243.png)
+
+## Images
+
+![EVO243 - Contest the Mindfield (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO243.png)
 
 ## Notes

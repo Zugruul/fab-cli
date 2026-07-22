@@ -29,5 +29,14 @@ codes: [AST010, AUA008, LGS337, OSC008, ROS089]
 Keywords: [[kw-go-again]]
 Variants: [[card-flittering-charge-yellow]] · [[card-flittering-charge-blue]]
 Rulings: search "Flittering Charge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST010.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA008.webp) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS337.original.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC008.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS089.png)
+
+## Images
+
+![AST010 - Flittering Charge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST010.webp)
+![AUA008 - Flittering Charge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA008.webp)
+![LGS337 - Flittering Charge (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS337.original.png)
+![OSC008 - Flittering Charge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC008.webp)
+![ROS089 - Flittering Charge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS089.png)
 
 ## Notes

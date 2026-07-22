@@ -28,5 +28,12 @@ codes: [1HP099, CRU055]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Flood of Force" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP099.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU055.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU055.png)
+
+## Images
+
+![1HP099 - Flood of Force (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP099.width-450.png)
+![CRU055 - Flood of Force (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU055.png)
+![CRU055 - Flood of Force (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU055.png)
 
 ## Notes

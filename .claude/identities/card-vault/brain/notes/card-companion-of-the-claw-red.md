@@ -31,5 +31,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-companion-of-the-claw-yellow]] · [[card-companion-of-the-claw-blue]]
 Rulings: search "Companion of the Claw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST057.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN008.png)
+
+## Images
+
+![MST057 - Companion of the Claw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST057.png)
+![ZEN008 - Companion of the Claw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN008.png)
 
 ## Notes

@@ -27,5 +27,11 @@ Create a Blasmophet, the Soul Harvester token."
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Doomsday" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON189.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON189.width-450.png)
+
+## Images
+
+![MON189 - Doomsday (blue)](https://storage.googleapis.com/fabmaster/media/images/MON189.width-450.png)
+![MON189 - Doomsday (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON189.width-450.png)
 
 ## Notes

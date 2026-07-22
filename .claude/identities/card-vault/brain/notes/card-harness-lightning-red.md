@@ -28,5 +28,10 @@ codes: [AUR013]
 Keywords: [[kw-token-lightning-flow]]
 Variants: [[card-harness-lightning-yellow]]
 Rulings: search "Harness Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR013.webp)
+
+## Images
+
+![AUR013 - Harness Lightning (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR013.webp)
 
 ## Notes

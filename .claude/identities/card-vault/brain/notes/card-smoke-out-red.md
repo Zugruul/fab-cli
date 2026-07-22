@@ -26,5 +26,12 @@ codes: [FNG018, GEM017, HNT162]
 
 Keywords: [[kw-mark]]
 Rulings: search "Smoke Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG018.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM017.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT162.png)
+
+## Images
+
+![FNG018 - Smoke Out (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG018.webp)
+![GEM017 - Smoke Out (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM017.webp)
+![HNT162 - Smoke Out (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT162.png)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [WTR087]
 Keywords: [[kw-combo]]
 Variants: [[card-fluster-fist-red]] · [[card-fluster-fist-blue]]
 Rulings: search "Fluster Fist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR087.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR087.png)
+
+## Images
+
+![WTR087 - Fluster Fist (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR087.png)
+![WTR087 - Fluster Fist (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR087.png)
 
 ## Notes

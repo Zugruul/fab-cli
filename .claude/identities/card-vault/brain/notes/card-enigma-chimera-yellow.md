@@ -29,5 +29,12 @@ codes: [MON099, PSM027]
 Keywords: [[kw-phantasm]]
 Variants: [[card-enigma-chimera-red]] · [[card-enigma-chimera-blue]]
 Rulings: search "Enigma Chimera" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON099.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON099.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/PSM027.width-450.png)
+
+## Images
+
+![MON099 - Enigma Chimera (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON099.width-450.png)
+![MON099 - Enigma Chimera (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON099.width-450.png)
+![PSM027 - Enigma Chimera (yellow)](https://storage.googleapis.com/fabmaster/media/images/PSM027.width-450.png)
 
 ## Notes

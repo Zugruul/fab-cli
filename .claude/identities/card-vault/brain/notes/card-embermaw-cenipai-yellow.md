@@ -31,5 +31,10 @@ When Embermaw Cenipai is destroyed, create an Ash token."
 Keywords: [[kw-phantasm]]
 Variants: [[card-embermaw-cenipai-red]] · [[card-embermaw-cenipai-blue]]
 Rulings: search "Embermaw Cenipai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR028.png)
+
+## Images
+
+![UPR028 - Embermaw Cenipai (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR028.png)
 
 ## Notes

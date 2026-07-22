@@ -27,5 +27,11 @@ codes: [LGS451, OMN169]
 
 Variants: [[card-glide-through-starlight-yellow]] · [[card-glide-through-starlight-blue]]
 Rulings: search "Glide Through Starlight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS451-MV.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN169.webp)
+
+## Images
+
+![LGS451 - Glide Through Starlight (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS451-MV.webp)
+![OMN169 - Glide Through Starlight (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN169.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [PEN012]
 
 Variants: [[card-bear-hug-yellow]] · [[card-bear-hug-blue]]
 Rulings: search "Bear Hug" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN012.webp)
+
+## Images
+
+![PEN012 - Bear Hug (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN012.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [EVO076]
 "Action - Put this on the bottom of its owner's deck: Gain 2{h}"
 
 Rulings: search "Medkit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO076.png)
+
+## Images
+
+![EVO076 - Medkit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO076.png)
 
 ## Notes

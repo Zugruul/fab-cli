@@ -30,5 +30,10 @@ Whenever this banishes a yellow card, draw a card and gain 1{h}."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Art of Desire: Soul" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST107.png)
+
+## Images
+
+![MST107 - Art of Desire: Soul (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST107.png)
 
 ## Notes

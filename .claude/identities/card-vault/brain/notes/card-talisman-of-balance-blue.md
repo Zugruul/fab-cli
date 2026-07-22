@@ -27,5 +27,10 @@ At the beginning of your end phase, if you have less cards in arsenal than an op
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talisman of Balance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR188.width-450.png)
+
+## Images
+
+![EVR188 - Talisman of Balance (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR188.width-450.png)
 
 ## Notes

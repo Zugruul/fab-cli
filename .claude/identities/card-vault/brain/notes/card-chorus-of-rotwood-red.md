@@ -28,5 +28,10 @@ Create 3 Runechant tokens."
 
 Keywords: [[kw-decompose]]
 Rulings: search "Chorus of Rotwood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN213.webp)
+
+## Images
+
+![PEN213 - Chorus of Rotwood (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN213.webp)
 
 ## Notes

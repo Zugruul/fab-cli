@@ -25,5 +25,11 @@ codes: [ARK017, HNT052]
 "When this defends and the attacking hero has played or activated an attack reaction this chain link, they lose 1{h}."
 
 Rulings: search "Hunted or Hunter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT052.png)
+
+## Images
+
+![ARK017 - Hunted or Hunter (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK017.webp)
+![HNT052 - Hunted or Hunter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT052.png)
 
 ## Notes

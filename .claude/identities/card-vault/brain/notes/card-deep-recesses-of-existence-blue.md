@@ -31,5 +31,10 @@ Blood Debt"
 
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Rulings: search "Deep Recesses of Existence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN190.webp)
+
+## Images
+
+![PEN190 - Deep Recesses of Existence (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN190.webp)
 
 ## Notes

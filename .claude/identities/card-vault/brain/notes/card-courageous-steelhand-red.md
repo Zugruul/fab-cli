@@ -26,5 +26,14 @@ codes: [ASB014, BOL012, MON057, SBL019]
 
 Variants: [[card-courageous-steelhand-yellow]] · [[card-courageous-steelhand-blue]]
 Rulings: search "Courageous Steelhand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB014.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BOL012.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON057.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON057.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL019.webp)
+
+## Images
+
+![ASB014 - Courageous Steelhand (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB014.png)
+![BOL012 - Courageous Steelhand (red)](https://storage.googleapis.com/fabmaster/media/images/BOL012.width-450.png)
+![MON057 - Courageous Steelhand (red)](https://storage.googleapis.com/fabmaster/media/images/MON057.width-450.png)
+![MON057 - Courageous Steelhand (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON057.width-450.png)
+![SBL019 - Courageous Steelhand (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL019.webp)
 
 ## Notes

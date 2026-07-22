@@ -26,5 +26,10 @@ codes: [PEN251]
 While this is in your graveyard, if 1 or more Frostbite tokens would be created under your control, instead you may banish this."
 
 Rulings: search "Smoldering Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN251.webp)
+
+## Images
+
+![PEN251 - Smoldering Steel (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN251.webp)
 
 ## Notes

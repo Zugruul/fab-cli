@@ -28,5 +28,10 @@ Ward 1"
 
 Keywords: [[kw-phantasm]] · [[kw-ward]]
 Rulings: search "Phantom Tidemaw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO244.png)
+
+## Images
+
+![EVO244 - Phantom Tidemaw (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO244.png)
 
 ## Notes

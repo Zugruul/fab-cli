@@ -26,5 +26,10 @@ If this deals damage, create a Sigil of Fate token."
 
 Variants: [[card-painful-premonition-red]] · [[card-painful-premonition-blue]]
 Rulings: search "Painful Premonition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN115.webp)
+
+## Images
+
+![PEN115 - Painful Premonition (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN115.webp)
 
 ## Notes

@@ -25,5 +25,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Warband of Bellona" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO247.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO247_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB171.png)
+
+## Images
+
+![EVO247 - Warband of Bellona](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO247.png)
+![EVO247 - Warband of Bellona](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO247_V2.png)
+![FAB171 - Warband of Bellona](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB171.png)
 
 ## Notes

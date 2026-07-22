@@ -25,5 +25,11 @@ codes: [ARC135]
 
 Variants: [[card-index-yellow]] · [[card-index-blue]]
 Rulings: search "Index" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC135.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC135.png)
+
+## Images
+
+![ARC135 - Index (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC135.png)
+![ARC135 - Index (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC135.png)
 
 ## Notes

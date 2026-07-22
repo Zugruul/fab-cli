@@ -25,5 +25,10 @@ Draconic attack action cards you control get +1{p} this turn.
 Draw 2 card."
 
 Rulings: search "Art of the Phoenix: War" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN254.webp)
+
+## Images
+
+![PEN254 - Art of the Phoenix: War (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN254.webp)
 
 ## Notes

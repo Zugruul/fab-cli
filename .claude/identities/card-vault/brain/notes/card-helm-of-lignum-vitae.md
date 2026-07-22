@@ -24,5 +24,13 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Helm of Lignum Vitae" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR003.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS312.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS029.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER003.webp)
+
+## Images
+
+![FLR003 - Helm of Lignum Vitae](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR003.webp)
+![LGS312 - Helm of Lignum Vitae](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS312.png)
+![ROS029 - Helm of Lignum Vitae](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS029.png)
+![VER003 - Helm of Lignum Vitae](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER003.webp)
 
 ## Notes

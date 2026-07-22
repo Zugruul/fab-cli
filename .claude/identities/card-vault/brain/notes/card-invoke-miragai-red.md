@@ -28,5 +28,11 @@ codes: [UPR012]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Miragai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Front.png)
+
+## Images
+
+![UPR012 - Invoke Miragai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012.png)
+![UPR012 - Invoke Miragai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Front.png)
 
 ## Notes

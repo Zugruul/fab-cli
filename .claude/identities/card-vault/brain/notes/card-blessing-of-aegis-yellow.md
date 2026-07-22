@@ -29,5 +29,11 @@ At the start of your turn, put this into your soul."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blessing of Aegis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN244.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN244-CF.webp)
+
+## Images
+
+![OMN244 - Blessing of Aegis (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN244.webp)
+![OMN244 - Blessing of Aegis (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN244-CF.webp)
 
 ## Notes

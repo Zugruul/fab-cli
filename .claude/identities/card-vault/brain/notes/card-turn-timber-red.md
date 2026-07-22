@@ -29,5 +29,12 @@ If Turn Timber was fused, it gains +2{d}."
 Keywords: [[kw-fusion]]
 Variants: [[card-turn-timber-yellow]] · [[card-turn-timber-blue]]
 Rulings: search "Turn Timber" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE010.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE010.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/OLD019.width-450.png)
+
+## Images
+
+![ELE010 - Turn Timber (red)](https://storage.googleapis.com/fabmaster/media/images/ELE010.width-450.png)
+![ELE010 - Turn Timber (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE010.width-450.png)
+![OLD019 - Turn Timber (red)](https://storage.googleapis.com/fabmaster/media/images/OLD019.width-450.png)
 
 ## Notes

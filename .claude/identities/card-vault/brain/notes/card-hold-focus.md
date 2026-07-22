@@ -21,5 +21,13 @@ codes: [LGS319, OSC005, ROS165, VER005]
 "Action - Destroy this: Amp 1. Go again"
 
 Rulings: search "Hold Focus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS319.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC005.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS165.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER005.webp)
+
+## Images
+
+![LGS319 - Hold Focus](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS319.png)
+![OSC005 - Hold Focus](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC005.webp)
+![ROS165 - Hold Focus](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS165.png)
+![VER005 - Hold Focus](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER005.webp)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [HNT199]
 
 Variants: [[card-to-the-point-yellow]] · [[card-to-the-point-blue]]
 Rulings: search "To the Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT199.png)
+
+## Images
+
+![HNT199 - To the Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT199.png)
 
 ## Notes

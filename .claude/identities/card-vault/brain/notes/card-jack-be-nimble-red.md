@@ -29,5 +29,10 @@ When this hits a hero, steal an item they control until the end of this action p
 
 Keywords: [[kw-go-again]] · [[kw-steal]]
 Rulings: search "Jack Be Nimble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA201.png)
+
+## Images
+
+![SEA201 - Jack Be Nimble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA201.png)
 
 ## Notes

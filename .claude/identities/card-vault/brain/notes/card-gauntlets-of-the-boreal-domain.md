@@ -25,5 +25,10 @@ Temper"
 
 Keywords: [[kw-temper]] · [[kw-dominate]]
 Rulings: search "Gauntlets of the Boreal Domain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV006.webp)
+
+## Images
+
+![AJV006 - Gauntlets of the Boreal Domain](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV006.webp)
 
 ## Notes

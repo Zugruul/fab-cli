@@ -25,5 +25,13 @@ Once per Turn Instant - {r}{r}{r}: Return a Phoenix Flame from your graveyard to
 
 Young version: [[card-fai]]
 Rulings: search "Fai, Rising Rebellion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER058.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER065.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR044.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN017.png)
+
+## Images
+
+![HER058 - Fai, Rising Rebellion](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER058.png)
+![HER065 - Fai, Rising Rebellion](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER065.png)
+![UPR044 - Fai, Rising Rebellion](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR044.png)
+![WIN017 - Fai, Rising Rebellion](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN017.png)
 
 ## Notes

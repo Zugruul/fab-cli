@@ -29,5 +29,11 @@ codes: [MON294]
 Keywords: [[kw-go-again]]
 Variants: [[card-zealous-belting-red]] · [[card-zealous-belting-blue]]
 Rulings: search "Zealous Belting" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON294.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON294.width-450.png)
+
+## Images
+
+![MON294 - Zealous Belting (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON294.width-450.png)
+![MON294 - Zealous Belting (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON294.width-450.png)
 
 ## Notes

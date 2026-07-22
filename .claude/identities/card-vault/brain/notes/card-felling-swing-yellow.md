@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-felling-swing-red]] · [[card-felling-swing-blue]]
 Rulings: search "Felling Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN083.png)
+
+## Images
+
+![DYN083 - Felling Swing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN083.png)
 
 ## Notes

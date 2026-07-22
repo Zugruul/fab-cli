@@ -28,5 +28,11 @@ Whenever you boost an attack action card, you may destroy a card under this. If 
 
 Keywords: [[kw-transform]]
 Rulings: search "Evo Face Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO032.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO032_V2.png)
+
+## Images
+
+![EVO032 - Evo Face Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO032.png)
+![EVO032 - Evo Face Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO032_V2.png)
 
 ## Notes

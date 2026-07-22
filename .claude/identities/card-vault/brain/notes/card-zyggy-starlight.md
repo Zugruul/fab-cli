@@ -24,5 +24,13 @@ codes: [AZS001, OMN001]
 
 Young version: [[card-zyggy]]
 Rulings: search "Zyggy Starlight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS001-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001-MV.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001-MV_BACK.webp)
+
+## Images
+
+![AZS001 - Zyggy Starlight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS001-RF.webp)
+![OMN001 - Zyggy Starlight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001.webp)
+![OMN001 - Zyggy Starlight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001-MV.webp)
+![OMN001 - Zyggy Starlight](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001-MV_BACK.webp)
 
 ## Notes

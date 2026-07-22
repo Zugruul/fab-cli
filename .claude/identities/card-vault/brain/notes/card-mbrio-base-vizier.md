@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "mBrio Base Vizier" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN058.webp)
+
+## Images
+
+![PEN058 - mBrio Base Vizier](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN058.webp)
 
 ## Notes

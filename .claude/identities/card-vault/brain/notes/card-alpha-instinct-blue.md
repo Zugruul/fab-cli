@@ -30,5 +30,11 @@ When this is discard to beat chest, create a Might token."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Alpha Instinct" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARR022.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM161-RF.webp)
+
+## Images
+
+![ARR022 - Alpha Instinct (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARR022.webp)
+![GEM161 - Alpha Instinct (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM161-RF.webp)
 
 ## Notes

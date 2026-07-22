@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-freeze]] · [[kw-blade-break]]
 Rulings: search "Crown of Frozen Thoughts" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN227.webp)
+
+## Images
+
+![PEN227 - Crown of Frozen Thoughts](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN227.webp)
 
 ## Notes

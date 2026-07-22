@@ -26,5 +26,12 @@ Instant - {c}{c}{c}: Turn target face-down equipment you have equipped face-up. 
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Enigma, New Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST238.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST238_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST238_V2_BACK.png)
+
+## Images
+
+![MST238 - Enigma, New Moon](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST238.png)
+![MST238 - Enigma, New Moon](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST238_V2.png)
+![MST238 - Enigma, New Moon](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST238_V2_BACK.png)
 
 ## Notes

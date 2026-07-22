@@ -30,5 +30,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Diabolic Offering" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD107.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB164.png)
+
+## Images
+
+![DTD107 - Diabolic Offering (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD107.png)
+![FAB164 - Diabolic Offering (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB164.png)
 
 ## Notes

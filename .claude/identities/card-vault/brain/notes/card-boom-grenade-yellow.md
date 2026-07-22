@@ -29,5 +29,11 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
 Keywords: [[kw-crank]]
 Variants: [[card-boom-grenade-red]] · [[card-boom-grenade-blue]]
 Rulings: search "Boom Grenade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO020.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO085.png)
+
+## Images
+
+![AIO020 - Boom Grenade (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO020.webp)
+![EVO085 - Boom Grenade (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO085.png)
 
 ## Notes

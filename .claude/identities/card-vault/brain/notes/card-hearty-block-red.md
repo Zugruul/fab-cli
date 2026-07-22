@@ -23,5 +23,11 @@ codes: [HVY181, LGS252]
 "When this defends, if you control a Vigor token, gain 1{h}."
 
 Rulings: search "Hearty Block" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY181.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS252.png)
+
+## Images
+
+![HVY181 - Hearty Block (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY181.png)
+![LGS252 - Hearty Block (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS252.png)
 
 ## Notes

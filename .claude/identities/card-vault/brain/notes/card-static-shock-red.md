@@ -30,5 +30,12 @@ codes: [AST016, AUR012, SBA022]
 Keywords: [[kw-token-lightning-flow]]
 Variants: [[card-static-shock-yellow]]
 Rulings: search "Static Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST016.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR012.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA022.webp)
+
+## Images
+
+![AST016 - Static Shock (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST016.webp)
+![AUR012 - Static Shock (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR012.webp)
+![SBA022 - Static Shock (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA022.webp)
 
 ## Notes

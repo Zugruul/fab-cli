@@ -25,5 +25,10 @@ codes: [EVO073]
 Action - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. Go again"
 
 Rulings: search "Stasis Cell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO073.png)
+
+## Images
+
+![EVO073 - Stasis Cell (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO073.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-gigawatt-red]] · [[card-gigawatt-yellow]]
 Rulings: search "Gigawatt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO158.png)
+
+## Images
+
+![EVO158 - Gigawatt (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO158.png)
 
 ## Notes

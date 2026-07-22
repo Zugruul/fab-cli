@@ -26,5 +26,12 @@ codes: [GEM059, SAZ012, SEA106]
 "When this is put face-up into your arsenal, it gets +2{p} this turn."
 
 Rulings: search "Dry Powder Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM059.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ012.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA106.png)
+
+## Images
+
+![GEM059 - Dry Powder Shot (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM059.webp)
+![SAZ012 - Dry Powder Shot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ012.webp)
+![SEA106 - Dry Powder Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA106.png)
 
 ## Notes

@@ -21,5 +21,10 @@ codes: [UPR137]
 "Action - Destroy Glacial Horns: Choose a hero. Freeze up to 1 card in their arsenal and 1 ally they control until the start of your next turn. Go again"
 
 Rulings: search "Glacial Horns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR137.png)
+
+## Images
+
+![UPR137 - Glacial Horns](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR137.png)
 
 ## Notes

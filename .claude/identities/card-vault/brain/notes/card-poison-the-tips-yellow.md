@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-reload]] · [[kw-go-again]]
 Rulings: search "Poison the Tips" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU124.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU124.png)
+
+## Images
+
+![CRU124 - Poison the Tips (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU124.png)
+![CRU124 - Poison the Tips (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU124.png)
 
 ## Notes

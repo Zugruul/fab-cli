@@ -24,5 +24,12 @@ Arcane Barrier 2"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Skullhorn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP009.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU006.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU006.png)
+
+## Images
+
+![1HP009 - Skullhorn](https://storage.googleapis.com/fabmaster/media/images/1HP009.width-450.png)
+![CRU006 - Skullhorn](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU006.png)
+![CRU006 - Skullhorn](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU006.png)
 
 ## Notes

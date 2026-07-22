@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-slay-the-scholars-red]] · [[card-slay-the-scholars-blue]]
 Rulings: search "Slay the Scholars" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN146.png)
+
+## Images
+
+![DYN146 - Slay the Scholars (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN146.png)
 
 ## Notes

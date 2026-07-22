@@ -29,5 +29,10 @@ codes: [EVO125]
 Keywords: [[kw-galvanize]]
 Variants: [[card-infuse-titanium-red]] · [[card-infuse-titanium-yellow]]
 Rulings: search "Infuse Titanium" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO125.png)
+
+## Images
+
+![EVO125 - Infuse Titanium (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO125.png)
 
 ## Notes

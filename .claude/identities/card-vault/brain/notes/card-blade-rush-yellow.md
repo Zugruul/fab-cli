@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blade Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD012.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW063.webp)
+
+## Images
+
+![DDD012 - Blade Rush (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD012.webp)
+![MPW063 - Blade Rush (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW063.webp)
 
 ## Notes

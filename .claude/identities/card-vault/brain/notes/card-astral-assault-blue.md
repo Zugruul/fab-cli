@@ -27,5 +27,10 @@ codes: [OMN162]
 
 Variants: [[card-astral-assault-red]] · [[card-astral-assault-yellow]]
 Rulings: search "Astral Assault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN162.webp)
+
+## Images
+
+![OMN162 - Astral Assault (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN162.webp)
 
 ## Notes

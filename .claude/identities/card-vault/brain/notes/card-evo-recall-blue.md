@@ -29,5 +29,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Evo Recall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png)
+
+## Images
+
+![MST228 - Evo Recall (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png)
 
 ## Notes

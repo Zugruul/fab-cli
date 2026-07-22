@@ -28,5 +28,15 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
 Keywords: [[kw-essence]]
 Adult version: [[card-iyslander-stormbind]]
 Rulings: search "Iyslander" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR120.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER052.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY001.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103_B_Front.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103_B_Back.png)
+
+## Images
+
+![EVR120 - Iyslander](https://storage.googleapis.com/fabmaster/media/images/EVR120.width-450.png)
+![HER052 - Iyslander](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER052.png)
+![SIY001 - Iyslander](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY001.webp)
+![UPR103 - Iyslander](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103.png)
+![UPR103 - Iyslander](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103_B_Front.png)
+![UPR103 - Iyslander](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103_B_Back.png)
 
 ## Notes

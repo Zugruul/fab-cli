@@ -26,5 +26,11 @@ codes: [FAB310, HNT076]
 "When this attacks, if it is Draconic, it gets "When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.""
 
 Rulings: search "Art of the Dragon: Scale" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB310.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT076.png)
+
+## Images
+
+![FAB310 - Art of the Dragon: Scale (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB310.png)
+![HNT076 - Art of the Dragon: Scale (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT076.png)
 
 ## Notes

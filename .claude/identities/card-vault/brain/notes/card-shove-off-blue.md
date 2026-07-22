@@ -24,5 +24,12 @@ codes: [DDD014, LGS457, MPW052]
 "Choose a non-equipment card defending a sword attack you control. Return it to its owner's hand."
 
 Rulings: search "Shove Off" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD014.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS457-CF.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW052.webp)
+
+## Images
+
+![DDD014 - Shove Off (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD014.webp)
+![LGS457 - Shove Off (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS457-CF.webp)
+![MPW052 - Shove Off (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW052.webp)
 
 ## Notes

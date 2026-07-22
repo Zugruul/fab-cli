@@ -24,5 +24,10 @@ codes: [EVR122]
 "While Sigil of Parapets is defending, whenever you play a Wizard card, Sigil of Parapet's gains +2{d}."
 
 Rulings: search "Sigil of Parapets" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR122.width-450.png)
+
+## Images
+
+![EVR122 - Sigil of Parapets (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR122.width-450.png)
 
 ## Notes

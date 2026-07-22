@@ -24,5 +24,12 @@ When this hits a hero, clash with them. If you win, destroy the top card of thei
 
 Keywords: [[kw-clash]]
 Rulings: search "Miller's Grindstone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY050.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS240.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC002.png)
+
+## Images
+
+![HVY050 - Miller's Grindstone](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY050.png)
+![LGS240 - Miller's Grindstone](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS240.png)
+![VIC002 - Miller's Grindstone](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC002.png)
 
 ## Notes

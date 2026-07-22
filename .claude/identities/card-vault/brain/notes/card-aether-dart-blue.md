@@ -25,5 +25,10 @@ codes: [UPR175]
 
 Variants: [[card-aether-dart-red]] · [[card-aether-dart-yellow]]
 Rulings: search "Aether Dart" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR175.png)
+
+## Images
+
+![UPR175 - Aether Dart (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR175.png)
 
 ## Notes

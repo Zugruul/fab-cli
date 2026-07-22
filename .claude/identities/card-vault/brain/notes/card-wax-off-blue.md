@@ -24,5 +24,10 @@ codes: [EVO239]
 "If you've played Wax On this turn, create a Zen State token."
 
 Rulings: search "Wax Off" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO239.png)
+
+## Images
+
+![EVO239 - Wax Off (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO239.png)
 
 ## Notes

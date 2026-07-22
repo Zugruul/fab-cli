@@ -23,5 +23,11 @@ codes: [HER104, TCC001]
 You may play Evos from your banished zone."
 
 Rulings: search "Professor Teklovossen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER104.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC001.png)
+
+## Images
+
+![HER104 - Professor Teklovossen](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER104.png)
+![TCC001 - Professor Teklovossen](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC001.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-gas-up-red]] · [[card-gas-up-blue]]
 Rulings: search "Gas Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO223.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS203.png)
+
+## Images
+
+![EVO223 - Gas Up (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO223.png)
+![LGS203 - Gas Up (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS203.png)
 
 ## Notes

@@ -20,5 +20,10 @@ codes: [FAB165]
 "Action - Destroy Diamond: Draw a card. Go again"
 
 Rulings: search "Diamond" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB165.png)
+
+## Images
+
+![FAB165 - Diamond](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB165.png)
 
 ## Notes

@@ -27,5 +27,10 @@ Action - Shuffle Imperial Ledger into its owner's deck: Create a Copper token. I
 
 Keywords: [[kw-legendary]]
 Rulings: search "Imperial Ledger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN241.png)
+
+## Images
+
+![DYN241 - Imperial Ledger (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN241.png)
 
 ## Notes

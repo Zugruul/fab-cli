@@ -29,5 +29,10 @@ codes: [OMN221]
 Keywords: [[kw-opt]]
 Variants: [[card-conflicting-thoughts-red]] · [[card-conflicting-thoughts-yellow]]
 Rulings: search "Conflicting Thoughts" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN221.webp)
+
+## Images
+
+![OMN221 - Conflicting Thoughts (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN221.webp)
 
 ## Notes

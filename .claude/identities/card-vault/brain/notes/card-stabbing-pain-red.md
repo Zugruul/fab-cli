@@ -27,5 +27,11 @@ codes: [FNG017, HNT114]
 
 Keywords: [[kw-mark]]
 Rulings: search "Stabbing Pain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT114.png)
+
+## Images
+
+![FNG017 - Stabbing Pain (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG017.webp)
+![HNT114 - Stabbing Pain (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT114.png)
 
 ## Notes

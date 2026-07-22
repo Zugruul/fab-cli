@@ -27,5 +27,11 @@ codes: [MON032]
 "Bolting Blade costs {r}{r} less to play for each time you've charged this turn."
 
 Rulings: search "Bolting Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON032.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON032.width-450.png)
+
+## Images
+
+![MON032 - Bolting Blade (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON032.width-450.png)
+![MON032 - Bolting Blade (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON032.width-450.png)
 
 ## Notes

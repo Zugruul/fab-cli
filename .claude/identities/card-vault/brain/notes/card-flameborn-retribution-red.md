@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Flameborn Retribution" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR095.png)
+
+## Images
+
+![FAI013 - Flameborn Retribution (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI013.webp)
+![UPR095 - Flameborn Retribution (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR095.png)
 
 ## Notes

@@ -31,5 +31,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-shaden-swing-yellow]] · [[card-shaden-swing-blue]]
 Rulings: search "Shaden Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD124.png)
+
+## Images
+
+![DTD124 - Shaden Swing (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD124.png)
 
 ## Notes

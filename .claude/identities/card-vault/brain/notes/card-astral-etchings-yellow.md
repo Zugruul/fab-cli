@@ -26,5 +26,10 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
 Variants: [[card-astral-etchings-red]] · [[card-astral-etchings-blue]]
 Rulings: search "Astral Etchings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST135.png)
+
+## Images
+
+![MST135 - Astral Etchings (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST135.png)
 
 ## Notes

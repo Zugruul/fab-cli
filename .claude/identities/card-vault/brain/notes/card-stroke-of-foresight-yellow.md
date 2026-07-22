@@ -28,5 +28,13 @@ Reprise - If the defending hero has defended with a card from their hand this ch
 Keywords: [[kw-reprise]]
 Variants: [[card-stroke-of-foresight-red]] · [[card-stroke-of-foresight-blue]]
 Rulings: search "Stroke of Foresight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP169.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/TEA17.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR139.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR139.png)
+
+## Images
+
+![1HP169 - Stroke of Foresight (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP169.width-450.png)
+![TEA017 - Stroke of Foresight (yellow)](https://storage.googleapis.com/fabmaster/media/images/TEA17.width-450.png)
+![WTR139 - Stroke of Foresight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR139.png)
+![WTR139 - Stroke of Foresight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR139.png)
 
 ## Notes

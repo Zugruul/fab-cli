@@ -26,5 +26,11 @@ codes: [ENG014, MST089]
 "If you've played another blue card this turn, this gets +2{p}."
 
 Rulings: search "Spillover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG014.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST089.png)
+
+## Images
+
+![ENG014 - Spillover (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG014.png)
+![MST089 - Spillover (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST089.png)
 
 ## Notes

@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Limbs of Lignum Vitae" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN216.webp)
+
+## Images
+
+![PEN216 - Limbs of Lignum Vitae](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN216.webp)
 
 ## Notes

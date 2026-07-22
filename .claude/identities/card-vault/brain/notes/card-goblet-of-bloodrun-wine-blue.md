@@ -27,5 +27,13 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Goblet of Bloodrun Wine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY133.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI027.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS247.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO031.webp)
+
+## Images
+
+![HVY133 - Goblet of Bloodrun Wine (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY133.png)
+![KSI027 - Goblet of Bloodrun Wine (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI027.png)
+![LGS247 - Goblet of Bloodrun Wine (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS247.png)
+![SDO031 - Goblet of Bloodrun Wine (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO031.webp)
 
 ## Notes

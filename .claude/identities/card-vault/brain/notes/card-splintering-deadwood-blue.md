@@ -27,5 +27,11 @@ codes: [FLR023, ROS123]
 
 Variants: [[card-splintering-deadwood-red]] · [[card-splintering-deadwood-yellow]]
 Rulings: search "Splintering Deadwood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS123.png)
+
+## Images
+
+![FLR023 - Splintering Deadwood (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR023.webp)
+![ROS123 - Splintering Deadwood (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS123.png)
 
 ## Notes

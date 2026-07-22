@@ -30,5 +30,13 @@ Instant - Discard this: Mark target opposing hero."
 Keywords: [[kw-stealth]]
 Variants: [[card-reapers-call-red]] · [[card-reapers-call-yellow]]
 Rulings: search "Reaper's Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT046.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR030.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD022.webp)
+
+## Images
+
+![AAC027 - Reaper's Call (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC027.webp)
+![HNT046 - Reaper's Call (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT046.png)
+![SAR030 - Reaper's Call (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR030.webp)
+![WOD022 - Reaper's Call (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD022.webp)
 
 ## Notes

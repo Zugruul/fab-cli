@@ -25,5 +25,13 @@ Whenever the crowd cheers you, create a Confidence token."
 
 Adult version: [[card-pleiades-superstar]]
 Rulings: search "Pleiades" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS002.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP010.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP010-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP010-MV_BACK.webp)
+
+## Images
+
+![APS002 - Pleiades](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS002.webp)
+![SUP010 - Pleiades](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP010.webp)
+![SUP010 - Pleiades](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP010-MV.webp)
+![SUP010 - Pleiades](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP010-MV_BACK.webp)
 
 ## Notes

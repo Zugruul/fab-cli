@@ -26,5 +26,10 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Deathmatch Arena" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY000.png)
+
+## Images
+
+![HVY000 - Deathmatch Arena](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY000.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [EVR077]
 Keywords: [[kw-dominate]]
 Variants: [[card-payload-red]] · [[card-payload-blue]]
 Rulings: search "Payload" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR077.width-450.png)
+
+## Images
+
+![EVR077 - Payload (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR077.width-450.png)
 
 ## Notes

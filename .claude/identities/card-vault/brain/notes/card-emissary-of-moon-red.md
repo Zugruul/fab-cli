@@ -26,5 +26,11 @@ codes: [LGS299, MST197]
 "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card."
 
 Rulings: search "Emissary of Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS299-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png)
+
+## Images
+
+![LGS299 - Emissary of Moon (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS299-RF.webp)
+![MST197 - Emissary of Moon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png)
 
 ## Notes

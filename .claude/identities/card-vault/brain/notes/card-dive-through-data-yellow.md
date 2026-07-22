@@ -30,5 +30,10 @@ When this hits, opt 1."
 Keywords: [[kw-boost]] · [[kw-opt]]
 Variants: [[card-dive-through-data-red]] · [[card-dive-through-data-blue]]
 Rulings: search "Dive Through Data" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO190.png)
+
+## Images
+
+![EVO190 - Dive Through Data (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO190.png)
 
 ## Notes

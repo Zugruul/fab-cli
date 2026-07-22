@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sapwood Elixir" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN326.webp)
+
+## Images
+
+![PEN326 - Sapwood Elixir (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN326.webp)
 
 ## Notes

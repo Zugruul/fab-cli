@@ -24,5 +24,12 @@ codes: [CRU190, HVY220]
 
 Variants: [[card-reinforce-the-line-red]] · [[card-reinforce-the-line-blue]]
 Rulings: search "Reinforce the Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU190.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU190.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY220.png)
+
+## Images
+
+![CRU190 - Reinforce the Line (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU190.png)
+![CRU190 - Reinforce the Line (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU190.png)
+![HVY220 - Reinforce the Line (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY220.png)
 
 ## Notes

@@ -30,5 +30,12 @@ When this hits, opt 1."
 Keywords: [[kw-boost]] · [[kw-opt]]
 Variants: [[card-data-link-yellow]] · [[card-data-link-blue]]
 Rulings: search "Data Link" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO007.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX008.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png)
+
+## Images
+
+![AIO007 - Data Link (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO007.webp)
+![AMX008 - Data Link (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX008.webp)
+![EVO186 - Data Link (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png)
 
 ## Notes

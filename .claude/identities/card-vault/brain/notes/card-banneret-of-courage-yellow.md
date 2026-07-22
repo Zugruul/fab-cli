@@ -29,5 +29,11 @@ codes: [DTD048, FAB161]
 
 Keywords: [[kw-solflare]]
 Rulings: search "Banneret of Courage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD048.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB161.png)
+
+## Images
+
+![DTD048 - Banneret of Courage (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD048.png)
+![FAB161 - Banneret of Courage (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB161.png)
 
 ## Notes

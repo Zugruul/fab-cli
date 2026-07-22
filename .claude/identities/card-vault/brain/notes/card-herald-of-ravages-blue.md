@@ -31,5 +31,14 @@ Phantasm"
 Keywords: [[kw-phantasm]]
 Variants: [[card-herald-of-ravages-red]] · [[card-herald-of-ravages-yellow]]
 Rulings: search "Herald of Ravages" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD019.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS155.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/456b443654yteb65764.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON019.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/PSM017.width-450.png)
+
+## Images
+
+![DTD019 - Herald of Ravages (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD019.png)
+![LGS155 - Herald of Ravages (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS155.png)
+![MON019 - Herald of Ravages (blue)](https://storage.googleapis.com/fabmaster/media/images/456b443654yteb65764.width-450.png)
+![MON019 - Herald of Ravages (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON019.width-450.png)
+![PSM017 - Herald of Ravages (blue)](https://storage.googleapis.com/fabmaster/media/images/PSM017.width-450.png)
 
 ## Notes

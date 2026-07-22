@@ -26,5 +26,10 @@ When this is pitched, amp 1."
 
 Keywords: [[kw-legendary]] · [[kw-amp]]
 Rulings: search "Will of Arcana" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS000.png)
+
+## Images
+
+![ROS000 - Will of Arcana (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS000.png)
 
 ## Notes

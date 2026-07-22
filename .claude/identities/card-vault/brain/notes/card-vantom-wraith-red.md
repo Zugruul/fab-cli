@@ -31,5 +31,10 @@ Blood Debt"
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Variants: [[card-vantom-wraith-yellow]] · [[card-vantom-wraith-blue]]
 Rulings: search "Vantom Wraith" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD158.png)
+
+## Images
+
+![DTD158 - Vantom Wraith (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD158.png)
 
 ## Notes

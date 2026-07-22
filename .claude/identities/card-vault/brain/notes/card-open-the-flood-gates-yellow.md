@@ -28,5 +28,10 @@ Surge - If this deals more than 2 damage, draw 2 cards."
 Keywords: [[kw-surge]]
 Variants: [[card-open-the-flood-gates-red]] · [[card-open-the-flood-gates-blue]]
 Rulings: search "Open the Flood Gates" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS196.png)
+
+## Images
+
+![ROS196 - Open the Flood Gates (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS196.png)
 
 ## Notes

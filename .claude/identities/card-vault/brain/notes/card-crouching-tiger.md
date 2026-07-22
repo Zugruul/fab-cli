@@ -25,5 +25,15 @@ Go again"
 
 Keywords: [[kw-ephemeral]] · [[kw-go-again]]
 Rulings: search "Crouching Tiger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN065.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN065_Marvel.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST188.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA036.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC104.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN029.png)
+
+## Images
+
+![DYN065 - Crouching Tiger](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN065.png)
+![DYN065 - Crouching Tiger](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN065_Marvel.png)
+![MST188 - Crouching Tiger](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST188.png)
+![SFA036 - Crouching Tiger](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA036.webp)
+![TCC104 - Crouching Tiger](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC104.png)
+![ZEN029 - Crouching Tiger](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN029.png)
 
 ## Notes

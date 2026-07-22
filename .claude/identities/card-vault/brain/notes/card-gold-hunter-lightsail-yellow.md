@@ -26,5 +26,11 @@ codes: [SEA162]
 "When this attacks, if you control less Gold than an opponent, this gets go again."
 
 Rulings: search "Gold Hunter Lightsail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA162.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA162_V2.png)
+
+## Images
+
+![SEA162 - Gold Hunter Lightsail (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA162.png)
+![SEA162 - Gold Hunter Lightsail (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA162_V2.png)
 
 ## Notes

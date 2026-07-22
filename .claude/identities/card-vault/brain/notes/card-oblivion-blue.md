@@ -28,5 +28,10 @@ Create a Nasreth, the Soul Harrower token."
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Oblivion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD142.png)
+
+## Images
+
+![DTD142 - Oblivion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD142.png)
 
 ## Notes

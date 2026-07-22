@@ -25,5 +25,10 @@ codes: [UPR217]
 
 Variants: [[card-healing-balm-red]] · [[card-healing-balm-yellow]]
 Rulings: search "Healing Balm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR217.png)
+
+## Images
+
+![UPR217 - Healing Balm (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR217.png)
 
 ## Notes

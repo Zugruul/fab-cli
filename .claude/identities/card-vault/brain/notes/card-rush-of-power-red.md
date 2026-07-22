@@ -31,5 +31,11 @@ When this hits a hero, deal 1 arcane damage to them."
 Keywords: [[kw-quickstrike]]
 Variants: [[card-rush-of-power-yellow]] · [[card-rush-of-power-blue]]
 Rulings: search "Rush of Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN068.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA018.webp)
+
+## Images
+
+![OMN068 - Rush of Power (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN068.webp)
+![SBA018 - Rush of Power (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA018.webp)
 
 ## Notes

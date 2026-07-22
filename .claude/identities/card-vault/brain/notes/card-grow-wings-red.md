@@ -29,5 +29,10 @@ codes: [HNT089]
 Keywords: [[kw-go-again]]
 Variants: [[card-grow-wings-yellow]] · [[card-grow-wings-blue]]
 Rulings: search "Grow Wings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT089.png)
+
+## Images
+
+![HNT089 - Grow Wings (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT089.png)
 
 ## Notes

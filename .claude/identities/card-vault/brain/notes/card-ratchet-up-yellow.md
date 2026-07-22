@@ -30,5 +30,10 @@ Galvanize - When this defends, you may destroy an item you control. If you do, t
 Keywords: [[kw-galvanize]]
 Variants: [[card-ratchet-up-red]] · [[card-ratchet-up-blue]]
 Rulings: search "Ratchet Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO106.png)
+
+## Images
+
+![EVO106 - Ratchet Up (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO106.png)
 
 ## Notes

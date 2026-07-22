@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Blade Cuff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT141.width-450.png)
+
+## Images
+
+![OUT141 - Blade Cuff](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT141.width-450.png)
 
 ## Notes

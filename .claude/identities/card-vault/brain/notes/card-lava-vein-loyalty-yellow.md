@@ -30,5 +30,10 @@ codes: [UPR070]
 Keywords: [[kw-go-again]]
 Variants: [[card-lava-vein-loyalty-red]] · [[card-lava-vein-loyalty-blue]]
 Rulings: search "Lava Vein Loyalty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR070.png)
+
+## Images
+
+![UPR070 - Lava Vein Loyalty (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR070.png)
 
 ## Notes

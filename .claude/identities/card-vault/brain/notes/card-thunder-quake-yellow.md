@@ -29,5 +29,12 @@ codes: [EVR025, MPG089]
 Keywords: [[kw-heave]]
 Variants: [[card-thunder-quake-red]] · [[card-thunder-quake-blue]]
 Rulings: search "Thunder Quake" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR025-RF.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG089.webp)
+
+## Images
+
+![EVR025 - Thunder Quake (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR025.width-450.png)
+![EVR025 - Thunder Quake (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR025-RF.png)
+![MPG089 - Thunder Quake (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG089.webp)
 
 ## Notes

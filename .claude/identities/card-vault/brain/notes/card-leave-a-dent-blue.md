@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-crush]]
 Rulings: search "Leave a Dent" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG020.webp)
+
+## Images
+
+![MPG020 - Leave a Dent (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG020.webp)
 
 ## Notes

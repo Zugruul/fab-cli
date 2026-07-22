@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Spill Blood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON109.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON109.width-450.png)
+
+## Images
+
+![MON109 - Spill Blood (red)](https://storage.googleapis.com/fabmaster/media/images/MON109.width-450.png)
+![MON109 - Spill Blood (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON109.width-450.png)
 
 ## Notes

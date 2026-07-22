@@ -31,5 +31,10 @@ Blood Debt"
 Keywords: [[kw-overpower]] · [[kw-blood-debt]]
 Variants: [[card-wall-breaker-yellow]] · [[card-wall-breaker-blue]]
 Rulings: search "Wall Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD115.png)
+
+## Images
+
+![DTD115 - Wall Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD115.png)
 
 ## Notes

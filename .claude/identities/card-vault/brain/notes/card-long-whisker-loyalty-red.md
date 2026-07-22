@@ -29,5 +29,11 @@ You may attack with target dagger an additional time this turn.
 The next time target dagger hits a hero this turn, mark them."
 
 Rulings: search "Long Whisker Loyalty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB317.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT102.png)
+
+## Images
+
+![FAB317 - Long Whisker Loyalty (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB317.png)
+![HNT102 - Long Whisker Loyalty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT102.png)
 
 ## Notes

@@ -28,5 +28,10 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
 
 Keywords: [[kw-go-again]]
 Rulings: search "Earth's Embrace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS034.png)
+
+## Images
+
+![ROS034 - Earth's Embrace (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS034.png)
 
 ## Notes

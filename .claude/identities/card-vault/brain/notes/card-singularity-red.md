@@ -28,5 +28,11 @@ Transform your hero, your weapon, and 4 Evos you have equipped into Teklovossen,
 
 Keywords: [[kw-transform]] · [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Singularity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png)
+
+## Images
+
+![EVO010 - Singularity (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010.png)
+![EVO010 - Singularity (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-knife-through-butter-yellow]] · [[card-knife-through-butter-blue]]
 Rulings: search "Knife Through Butter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT134.png)
+
+## Images
+
+![HNT134 - Knife Through Butter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT134.png)
 
 ## Notes

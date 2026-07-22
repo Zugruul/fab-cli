@@ -25,5 +25,12 @@ codes: [1HP013, WTR008]
 If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero."
 
 Rulings: search "Reckless Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP013.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR008.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR008.png)
+
+## Images
+
+![1HP013 - Reckless Swing (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP013.width-450.png)
+![WTR008 - Reckless Swing (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR008.png)
+![WTR008 - Reckless Swing (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR008.png)
 
 ## Notes

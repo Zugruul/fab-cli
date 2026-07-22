@@ -25,5 +25,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Starfield Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS005-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN250-CF.webp)
+
+## Images
+
+![AZS005 - Starfield Touch](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS005-RF.webp)
+![OMN250 - Starfield Touch](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN250-CF.webp)
 
 ## Notes

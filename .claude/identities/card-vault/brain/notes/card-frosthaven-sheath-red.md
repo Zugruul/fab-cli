@@ -26,5 +26,11 @@ codes: [FAB427, PEN207]
 
 Keywords: [[kw-bond]]
 Rulings: search "Frosthaven Sheath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB427.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN207.webp)
+
+## Images
+
+![FAB427 - Frosthaven Sheath (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB427.webp)
+![PEN207 - Frosthaven Sheath (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN207.webp)
 
 ## Notes

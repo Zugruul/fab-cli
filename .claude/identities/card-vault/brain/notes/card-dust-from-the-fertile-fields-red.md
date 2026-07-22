@@ -28,5 +28,10 @@ codes: [ROS252]
 
 Keywords: [[kw-material]] · [[kw-phantasm]]
 Rulings: search "Dust from the Fertile Fields" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS252.png)
+
+## Images
+
+![ROS252 - Dust from the Fertile Fields (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS252.png)
 
 ## Notes

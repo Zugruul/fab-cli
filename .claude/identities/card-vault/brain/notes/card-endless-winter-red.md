@@ -32,5 +32,11 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
 
 Keywords: [[kw-specialization]] · [[kw-fusion]]
 Rulings: search "Endless Winter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE004.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/UELE004.width-450.png)
+
+## Images
+
+![ELE004 - Endless Winter (red)](https://storage.googleapis.com/fabmaster/media/images/ELE004.width-450.png)
+![ELE004 - Endless Winter (red)](https://storage.googleapis.com/fabmaster/media/images/UELE004.width-450.png)
 
 ## Notes

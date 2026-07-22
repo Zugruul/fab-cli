@@ -26,5 +26,11 @@ codes: [GEM057, SEA092]
 (no text)
 
 Rulings: search "Rusty Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM057.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA092.png)
+
+## Images
+
+![GEM057 - Rusty Harpoon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM057.webp)
+![SEA092 - Rusty Harpoon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA092.png)
 
 ## Notes

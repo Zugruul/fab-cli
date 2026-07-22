@@ -20,5 +20,11 @@ codes: [AHA027, SBL036]
 "When you activate a weapon attack, destroy this and you may attack with the weapon twice this turn."
 
 Rulings: search "Flurry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA027.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL036.webp)
+
+## Images
+
+![AHA027 - Flurry](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA027.webp)
+![SBL036 - Flurry](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL036.webp)
 
 ## Notes

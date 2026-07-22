@@ -23,5 +23,11 @@ codes: [SEA133]
 "When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token."
 
 Rulings: search "Sunken Treasure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133_V2.png)
+
+## Images
+
+![SEA133 - Sunken Treasure (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133.png)
+![SEA133 - Sunken Treasure (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133_V2.png)
 
 ## Notes

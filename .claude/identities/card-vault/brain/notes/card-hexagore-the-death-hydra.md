@@ -23,5 +23,12 @@ codes: [FAB186, MON121]
 Whenever you attack with Hexagore, it deals damage to you equal to 6 minus the number of cards with blood debt in your banished zone."
 
 Rulings: search "Hexagore, the Death Hydra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB186.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON121.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON121.width-450.png)
+
+## Images
+
+![FAB186 - Hexagore, the Death Hydra](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB186.png)
+![MON121 - Hexagore, the Death Hydra](https://storage.googleapis.com/fabmaster/media/images/MON121.width-450.png)
+![MON121 - Hexagore, the Death Hydra](https://storage.googleapis.com/fabmaster/media/images/U-MON121.width-450.png)
 
 ## Notes

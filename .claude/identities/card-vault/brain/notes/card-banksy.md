@@ -25,5 +25,12 @@ When this hits a hero, put a steam counter on an item you control with crank."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Banksy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX002.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO006.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS201.png)
+
+## Images
+
+![AMX002 - Banksy](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX002.webp)
+![EVO006 - Banksy](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO006.png)
+![LGS201 - Banksy](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS201.png)
 
 ## Notes

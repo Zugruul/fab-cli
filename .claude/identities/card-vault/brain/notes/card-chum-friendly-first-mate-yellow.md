@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Chum, Friendly First Mate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM046-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050_V2.png)
+
+## Images
+
+![GEM046 - Chum, Friendly First Mate (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM046-RF.webp)
+![SEA050 - Chum, Friendly First Mate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050.png)
+![SEA050 - Chum, Friendly First Mate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050_V2.png)
 
 ## Notes

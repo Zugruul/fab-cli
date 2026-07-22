@@ -23,5 +23,10 @@ codes: [JDG024]
 If all heroes in a clash would fail to win, instead choose which hero wins the clash."
 
 Rulings: search "Brutus, Summa Rudis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG024.png)
+
+## Images
+
+![JDG024 - Brutus, Summa Rudis](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG024.png)
 
 ## Notes

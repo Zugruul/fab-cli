@@ -25,5 +25,11 @@ codes: [OMN136, SBZ017]
 If this deals damage, you may {t} your hero. If you do, create a Ponder token."
 
 Rulings: search "Turn to Mindfire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN136.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ017.webp)
+
+## Images
+
+![OMN136 - Turn to Mindfire (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN136.webp)
+![SBZ017 - Turn to Mindfire (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ017.webp)
 
 ## Notes

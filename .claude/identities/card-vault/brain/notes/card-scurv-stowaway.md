@@ -25,5 +25,10 @@ Whenever you activate a Goldkiss Rum, gain {r}."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Scurv, Stowaway" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA123.png)
+
+## Images
+
+![SEA123 - Scurv, Stowaway](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA123.png)
 
 ## Notes

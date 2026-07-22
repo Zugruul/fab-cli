@@ -26,5 +26,12 @@ When you pitch Eye of Ophidia, opt 2."
 
 Keywords: [[kw-legendary]] · [[kw-opt]]
 Rulings: search "Eye of Ophidia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ002.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC000.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC000.png)
+
+## Images
+
+![ANQ002 - Eye of Ophidia (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ002.webp)
+![ARC000 - Eye of Ophidia (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC000.png)
+![ARC000 - Eye of Ophidia (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC000.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Sentry Base Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO044.png)
+
+## Images
+
+![EVO044 - Evo Sentry Base Arms (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO044.png)
 
 ## Notes

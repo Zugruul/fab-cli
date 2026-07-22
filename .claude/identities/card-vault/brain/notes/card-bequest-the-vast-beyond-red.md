@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Bequest the Vast Beyond" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD212.png)
+
+## Images
+
+![DTD212 - Bequest the Vast Beyond (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD212.png)
 
 ## Notes

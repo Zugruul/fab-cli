@@ -23,5 +23,10 @@ codes: [OMN158]
 "Target Lightning attack gets +1{p} and "When this hits, create a Lightning Flow token.""
 
 Rulings: search "Flow Through" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN158.webp)
+
+## Images
+
+![OMN158 - Flow Through (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN158.webp)
 
 ## Notes

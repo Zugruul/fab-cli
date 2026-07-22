@@ -24,5 +24,10 @@ codes: [EVO075]
 "Instant - Put this on the bottom of its owner's deck: Gain {r}"
 
 Rulings: search "Fuel Injector" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO075.png)
+
+## Images
+
+![EVO075 - Fuel Injector (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO075.png)
 
 ## Notes

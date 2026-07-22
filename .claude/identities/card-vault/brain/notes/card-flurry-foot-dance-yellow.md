@@ -24,5 +24,10 @@ codes: [AHA016]
 "While this is defending, if you control a Flurry token, this gets +2{d}."
 
 Rulings: search "Flurry Foot Dance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA016.webp)
+
+## Images
+
+![AHA016 - Flurry Foot Dance (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA016.webp)
 
 ## Notes

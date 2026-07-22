@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Visit Goldmane Estate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST225.png)
+
+## Images
+
+![MST225 - Visit Goldmane Estate (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST225.png)
 
 ## Notes

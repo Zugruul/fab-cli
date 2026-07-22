@@ -27,5 +27,10 @@ codes: [PEN291]
 
 Variants: [[card-hulk-up-yellow]] · [[card-hulk-up-blue]]
 Rulings: search "Hulk Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN291.webp)
+
+## Images
+
+![PEN291 - Hulk Up (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN291.webp)
 
 ## Notes

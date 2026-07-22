@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-growl-yellow]]
 Rulings: search "Growl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC086.png)
+
+## Images
+
+![TCC086 - Growl (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC086.png)
 
 ## Notes

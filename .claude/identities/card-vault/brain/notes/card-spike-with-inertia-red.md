@@ -24,5 +24,11 @@ codes: [LGS132, OUT023]
 "Target attack action card with stealth gains +3{p} and "When this hits a hero, create an Inertia token under their control.""
 
 Rulings: search "Spike with Inertia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS132.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT023.width-450.png)
+
+## Images
+
+![LGS132 - Spike with Inertia (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS132.png)
+![OUT023 - Spike with Inertia (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT023.width-450.png)
 
 ## Notes

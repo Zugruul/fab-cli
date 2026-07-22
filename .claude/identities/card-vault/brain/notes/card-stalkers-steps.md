@@ -24,5 +24,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-go-again]]
 Rulings: search "Stalker's Steps" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC007-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR009.webp)
+
+## Images
+
+![AAC007 - Stalker's Steps](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC007-RF.webp)
+![SAR009 - Stalker's Steps](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR009.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-unity]] · [[kw-temper]]
 Rulings: search "Pillar of Unity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN047.webp)
+
+## Images
+
+![PEN047 - Pillar of Unity](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN047.webp)
 
 ## Notes

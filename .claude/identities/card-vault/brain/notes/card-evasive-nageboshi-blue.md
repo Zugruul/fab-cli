@@ -30,5 +30,10 @@ This can't be defended by equipment or reaction cards."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Evasive Nageboshi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232.webp)
+
+## Images
+
+![OMN232 - Evasive Nageboshi (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232.webp)
 
 ## Notes

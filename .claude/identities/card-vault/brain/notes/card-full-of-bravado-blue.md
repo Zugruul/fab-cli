@@ -27,5 +27,11 @@ codes: [SLY025, SUP180]
 
 Variants: [[card-full-of-bravado-red]] · [[card-full-of-bravado-yellow]]
 Rulings: search "Full of Bravado" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY025.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP180.webp)
+
+## Images
+
+![SLY025 - Full of Bravado (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY025.webp)
+![SUP180 - Full of Bravado (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP180.webp)
 
 ## Notes

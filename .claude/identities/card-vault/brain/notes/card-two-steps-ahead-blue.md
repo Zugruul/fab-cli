@@ -26,5 +26,10 @@ codes: [SUP075]
 "At the start of your turn, destroy this, then create a Confidence and 3 Might tokens."
 
 Rulings: search "Two Steps Ahead" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP075.webp)
+
+## Images
+
+![SUP075 - Two Steps Ahead (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP075.webp)
 
 ## Notes

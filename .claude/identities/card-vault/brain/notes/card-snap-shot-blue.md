@@ -31,5 +31,11 @@ If Snap Shot was fused, you may activate abilities of bows you control an additi
 Keywords: [[kw-fusion]]
 Variants: [[card-snap-shot-red]] · [[card-snap-shot-yellow]]
 Rulings: search "Snap Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE043.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE043.width-450.png)
+
+## Images
+
+![ELE043 - Snap Shot (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE043.width-450.png)
+![ELE043 - Snap Shot (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE043.width-450.png)
 
 ## Notes

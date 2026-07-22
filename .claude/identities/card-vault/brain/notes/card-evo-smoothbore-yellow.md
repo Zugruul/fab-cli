@@ -29,5 +29,10 @@ Blade Break"
 
 Keywords: [[kw-transform]] · [[kw-blade-break]]
 Rulings: search "Evo Smoothbore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO036.png)
+
+## Images
+
+![EVO036 - Evo Smoothbore (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO036.png)
 
 ## Notes

@@ -30,5 +30,12 @@ Defense reaction cards can't be played this chain link."
 Keywords: [[kw-stealth]]
 Variants: [[card-back-stab-yellow]] · [[card-back-stab-blue]]
 Rulings: search "Back Stab" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT029.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT015.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD007.webp)
+
+## Images
+
+![HNT029 - Back Stab (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT029.png)
+![OUT015 - Back Stab (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT015.width-450.png)
+![WOD007 - Back Stab (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD007.webp)
 
 ## Notes

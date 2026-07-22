@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Shelly, Hardened Traveler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS408.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078_V2.png)
+
+## Images
+
+![LGS408 - Shelly, Hardened Traveler (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS408.png)
+![SEA078 - Shelly, Hardened Traveler (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png)
+![SEA078 - Shelly, Hardened Traveler (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078_V2.png)
 
 ## Notes

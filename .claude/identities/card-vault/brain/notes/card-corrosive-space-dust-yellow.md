@@ -29,5 +29,10 @@ Ward X, where X is 3 if this has a holo counter. Otherwise, X is 1."
 Keywords: [[kw-ward]]
 Variants: [[card-corrosive-space-dust-red]] · [[card-corrosive-space-dust-blue]]
 Rulings: search "Corrosive Space Dust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN013.webp)
+
+## Images
+
+![OMN013 - Corrosive Space Dust (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN013.webp)
 
 ## Notes

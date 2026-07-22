@@ -26,5 +26,10 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
 
 Keywords: [[kw-legendary]]
 Rulings: search "Blood of the Dracai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR000.png)
+
+## Images
+
+![UPR000 - Blood of the Dracai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR000.png)
 
 ## Notes

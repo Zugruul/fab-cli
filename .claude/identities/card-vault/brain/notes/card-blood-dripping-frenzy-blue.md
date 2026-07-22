@@ -30,5 +30,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blood Dripping Frenzy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD111.png)
+
+## Images
+
+![DTD111 - Blood Dripping Frenzy (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD111.png)
 
 ## Notes

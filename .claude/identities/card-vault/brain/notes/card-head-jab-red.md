@@ -29,5 +29,16 @@ codes: [BEN010, KAT013, KSU011, LGS017, OUT077, WTR098]
 Keywords: [[kw-go-again]]
 Variants: [[card-head-jab-yellow]] · [[card-head-jab-blue]]
 Rulings: search "Head Jab" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT013.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/KSU11.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS017.png) · [Image #5](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT077.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR098.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR098.png)
+
+## Images
+
+![BEN010 - Head Jab (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN010.png)
+![KAT013 - Head Jab (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT013.png)
+![KSU011 - Head Jab (red)](https://storage.googleapis.com/fabmaster/media/images/KSU11.width-450.png)
+![LGS017 - Head Jab (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS017.png)
+![OUT077 - Head Jab (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT077.width-450.png)
+![WTR098 - Head Jab (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR098.png)
+![WTR098 - Head Jab (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR098.png)
 
 ## Notes

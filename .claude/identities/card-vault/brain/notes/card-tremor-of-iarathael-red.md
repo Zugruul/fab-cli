@@ -27,5 +27,11 @@ codes: [MON254]
 
 Variants: [[card-tremor-of-iarathael-yellow]] · [[card-tremor-of-iarathael-blue]]
 Rulings: search "Tremor of íArathael" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON254.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON254.width-450.png)
+
+## Images
+
+![MON254 - Tremor of íArathael (red)](https://storage.googleapis.com/fabmaster/media/images/MON254.width-450.png)
+![MON254 - Tremor of íArathael (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON254.width-450.png)
 
 ## Notes

@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-saltwater-swell-red]] · [[card-saltwater-swell-yellow]]
 Rulings: search "Saltwater Swell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143_V2.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB025.webp)
+
+## Images
+
+![SEA143 - Saltwater Swell (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143.png)
+![SEA143 - Saltwater Swell (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143_V2.png)
+![SGB025 - Saltwater Swell (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB025.webp)
 
 ## Notes

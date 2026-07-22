@@ -26,5 +26,10 @@ codes: [UPR140]
 Whenever you Ice Fuse, remove a frost counter from Insidious Chill. If you do, target hero discards a card unless they pay {r}{r}."
 
 Rulings: search "Insidious Chill" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR140.png)
+
+## Images
+
+![UPR140 - Insidious Chill (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR140.png)
 
 ## Notes

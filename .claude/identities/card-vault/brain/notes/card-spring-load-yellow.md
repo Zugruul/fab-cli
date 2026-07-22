@@ -27,5 +27,10 @@ codes: [OUT220]
 
 Variants: [[card-spring-load-red]] · [[card-spring-load-blue]]
 Rulings: search "Spring Load" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT220.width-450.png)
+
+## Images
+
+![OUT220 - Spring Load (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT220.width-450.png)
 
 ## Notes

@@ -26,5 +26,13 @@ codes: [1HP011, ARR018, CRU007]
 "If Beast Within is put into a graveyard from anywhere other than the combat chain, banish the top card of your deck and lose 1{h}. If it has 6 or more {p}, put it into your hand, otherwise, repeat this process."
 
 Rulings: search "Beast Within" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP011.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR018.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU007.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU007.png)
+
+## Images
+
+![1HP011 - Beast Within (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP011.width-450.png)
+![ARR018 - Beast Within (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR018.webp)
+![CRU007 - Beast Within (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU007.png)
+![CRU007 - Beast Within (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU007.png)
 
 ## Notes

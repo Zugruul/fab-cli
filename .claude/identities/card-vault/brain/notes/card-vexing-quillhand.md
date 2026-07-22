@@ -24,5 +24,12 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Vexing Quillhand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS005.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR103.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB080.png)
+
+## Images
+
+![AVS005 - Vexing Quillhand](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS005.webp)
+![EVR103 - Vexing Quillhand](https://storage.googleapis.com/fabmaster/media/images/EVR103.width-450.png)
+![FAB080 - Vexing Quillhand](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB080.png)
 
 ## Notes

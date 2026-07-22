@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Bolt'n Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN082.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ008.webp)
+
+## Images
+
+![PEN082 - Bolt'n Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN082.webp)
+![SAZ008 - Bolt'n Boots](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ008.webp)
 
 ## Notes

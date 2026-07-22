@@ -27,5 +27,11 @@ codes: [LGS354, ROS044]
 Keywords: [[kw-decompose]]
 Variants: [[card-rootbound-carapace-red]] · [[card-rootbound-carapace-yellow]]
 Rulings: search "Rootbound Carapace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS354.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS044.png)
+
+## Images
+
+![LGS354 - Rootbound Carapace (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS354.png)
+![ROS044 - Rootbound Carapace (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS044.png)
 
 ## Notes

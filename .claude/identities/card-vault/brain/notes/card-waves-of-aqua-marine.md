@@ -25,5 +25,12 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Waves of Aqua Marine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS276.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST069.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN005.png)
+
+## Images
+
+![LGS276 - Waves of Aqua Marine](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS276.png)
+![MST069 - Waves of Aqua Marine](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST069.png)
+![ZEN005 - Waves of Aqua Marine](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN005.png)
 
 ## Notes

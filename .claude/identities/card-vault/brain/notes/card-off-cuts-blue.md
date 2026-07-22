@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Off Cuts" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS022.webp)
+
+## Images
+
+![LSS022 - Off Cuts (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS022.webp)
 
 ## Notes

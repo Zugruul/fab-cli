@@ -30,5 +30,11 @@ When this hits a hero, create a Frailty token under their control."
 Keywords: [[kw-stealth]]
 Variants: [[card-wither-red]] · [[card-wither-blue]]
 Rulings: search "Wither" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT040.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU020.png)
+
+## Images
+
+![OUT040 - Wither (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT040.width-450.png)
+![UZU020 - Wither (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU020.png)
 
 ## Notes

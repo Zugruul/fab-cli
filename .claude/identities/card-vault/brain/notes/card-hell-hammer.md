@@ -26,5 +26,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Hell Hammer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD105.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS164.png)
+
+## Images
+
+![DTD105 - Hell Hammer](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD105.png)
+![LGS164 - Hell Hammer](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS164.png)
 
 ## Notes

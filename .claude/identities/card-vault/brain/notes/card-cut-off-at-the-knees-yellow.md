@@ -29,5 +29,10 @@ Tower - If this has 13 or more {p}, it gets "When this hits a hero, destroy the 
 
 Keywords: [[kw-tower]]
 Rulings: search "Cut Off at the Knees" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP173.webp)
+
+## Images
+
+![SUP173 - Cut Off at the Knees (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP173.webp)
 
 ## Notes

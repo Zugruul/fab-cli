@@ -28,5 +28,10 @@ Arcane Barrier 3"
 Keywords: [[kw-arcane-barrier]] · [[kw-go-again]]
 Variants: [[card-thunderous-retort-yellow]] · [[card-thunderous-retort-blue]]
 Rulings: search "Thunderous Retort" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN196.webp)
+
+## Images
+
+![OMN196 - Thunderous Retort (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN196.webp)
 
 ## Notes

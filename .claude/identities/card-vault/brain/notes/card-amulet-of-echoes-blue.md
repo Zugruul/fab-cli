@@ -27,5 +27,10 @@ Instant - Destroy Amulet of Echoes: Target hero discards 2 cards. Activate this 
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Echoes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR177.width-450.png)
+
+## Images
+
+![EVR177 - Amulet of Echoes (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR177.width-450.png)
 
 ## Notes

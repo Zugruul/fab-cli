@@ -28,5 +28,10 @@ Blood Debt"
 
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Rulings: search "Embalm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN193.webp)
+
+## Images
+
+![PEN193 - Embalm (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN193.webp)
 
 ## Notes

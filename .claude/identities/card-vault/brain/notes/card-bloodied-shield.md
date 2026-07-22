@@ -21,5 +21,10 @@ codes: [SMP018]
 Blade Break"
 
 Rulings: search "Bloodied Shield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP018.webp)
+
+## Images
+
+![SMP018 - Bloodied Shield](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP018.webp)
 
 ## Notes

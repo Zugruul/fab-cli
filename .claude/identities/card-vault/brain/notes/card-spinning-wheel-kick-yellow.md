@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-spinning-wheel-kick-red]] · [[card-spinning-wheel-kick-blue]]
 Rulings: search "Spinning Wheel Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS142.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT063.width-450.png)
+
+## Images
+
+![LGS142 - Spinning Wheel Kick (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS142.png)
+![OUT063 - Spinning Wheel Kick (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT063.width-450.png)
 
 ## Notes

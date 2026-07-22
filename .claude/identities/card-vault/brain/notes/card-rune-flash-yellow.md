@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-rune-flash-red]] · [[card-rune-flash-blue]]
 Rulings: search "Rune Flash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP289.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC101.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC101.png)
+
+## Images
+
+![1HP289 - Rune Flash (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP289.width-450.png)
+![ARC101 - Rune Flash (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC101.png)
+![ARC101 - Rune Flash (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC101.png)
 
 ## Notes

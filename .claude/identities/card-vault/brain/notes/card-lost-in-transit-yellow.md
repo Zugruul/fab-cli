@@ -23,5 +23,11 @@ codes: [SEA151]
 "When this defends, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token."
 
 Rulings: search "Lost in Transit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA151.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA151_V2.png)
+
+## Images
+
+![SEA151 - Lost in Transit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA151.png)
+![SEA151 - Lost in Transit (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA151_V2.png)
 
 ## Notes

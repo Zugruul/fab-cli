@@ -30,5 +30,10 @@ Fragment"
 Keywords: [[kw-fragment]]
 Variants: [[card-clear-conscience-red]] · [[card-clear-conscience-blue]]
 Rulings: search "Clear Conscience" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN042.webp)
+
+## Images
+
+![OMN042 - Clear Conscience (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN042.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ Evo Upgrade - When this attacks, search your deck for an Evo with cost less than
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Ghost Protocol: Architect" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN062.webp)
+
+## Images
+
+![PEN062 - Ghost Protocol: Architect (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN062.webp)
 
 ## Notes

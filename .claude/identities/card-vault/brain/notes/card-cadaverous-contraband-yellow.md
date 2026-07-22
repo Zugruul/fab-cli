@@ -27,5 +27,11 @@ codes: [ARC180]
 
 Variants: [[card-cadaverous-contraband-red]] · [[card-cadaverous-contraband-blue]]
 Rulings: search "Cadaverous Contraband" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC180.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC180.png)
+
+## Images
+
+![ARC180 - Cadaverous Contraband (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC180.png)
+![ARC180 - Cadaverous Contraband (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC180.png)
 
 ## Notes

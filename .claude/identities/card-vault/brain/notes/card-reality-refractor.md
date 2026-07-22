@@ -22,5 +22,10 @@ codes: [DTD216]
 
 Keywords: [[kw-attack]]
 Rulings: search "Reality Refractor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD216.png)
+
+## Images
+
+![DTD216 - Reality Refractor](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD216.png)
 
 ## Notes

@@ -25,5 +25,10 @@ codes: [HVY107]
 
 Variants: [[card-cut-the-deck-red]] · [[card-cut-the-deck-blue]]
 Rulings: search "Cut the Deck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY107.png)
+
+## Images
+
+![HVY107 - Cut the Deck (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY107.png)
 
 ## Notes

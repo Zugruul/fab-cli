@@ -31,5 +31,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-hungering-slaughterbeast-red]] · [[card-hungering-slaughterbeast-yellow]]
 Rulings: search "Hungering Slaughterbeast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON149.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON149.width-450.png)
+
+## Images
+
+![MON149 - Hungering Slaughterbeast (blue)](https://storage.googleapis.com/fabmaster/media/images/MON149.width-450.png)
+![MON149 - Hungering Slaughterbeast (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON149.width-450.png)
 
 ## Notes

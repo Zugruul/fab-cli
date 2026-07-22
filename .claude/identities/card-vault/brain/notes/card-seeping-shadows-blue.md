@@ -31,5 +31,11 @@ Blood Debt"
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-seeping-shadows-red]] · [[card-seeping-shadows-yellow]]
 Rulings: search "Seeping Shadows" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON167.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON167.width-450.png)
+
+## Images
+
+![MON167 - Seeping Shadows (blue)](https://storage.googleapis.com/fabmaster/media/images/MON167.width-450.png)
+![MON167 - Seeping Shadows (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON167.width-450.png)
 
 ## Notes

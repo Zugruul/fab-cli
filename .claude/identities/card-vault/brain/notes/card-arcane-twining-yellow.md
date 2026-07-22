@@ -26,5 +26,10 @@ Instant - Discard this: Amp 1"
 
 Variants: [[card-arcane-twining-red]] · [[card-arcane-twining-blue]]
 Rulings: search "Arcane Twining" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS187.png)
+
+## Images
+
+![ROS187 - Arcane Twining (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS187.png)
 
 ## Notes

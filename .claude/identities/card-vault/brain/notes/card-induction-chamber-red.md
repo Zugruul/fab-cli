@@ -25,5 +25,12 @@ codes: [1HP189, ARC010]
 Once per Turn Attack Reaction - Remove a steam counter from Induction Chamber: Target Mechanologist pistol attack gains go again."
 
 Rulings: search "Induction Chamber" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP189.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC010.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC010.png)
+
+## Images
+
+![1HP189 - Induction Chamber (red)](https://storage.googleapis.com/fabmaster/media/images/1HP189.width-450.png)
+![ARC010 - Induction Chamber (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC010.png)
+![ARC010 - Induction Chamber (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC010.png)
 
 ## Notes

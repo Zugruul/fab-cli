@@ -27,5 +27,11 @@ codes: [GEM159, PEN286]
 "If you have less {h} than each other hero, this gets +1{p} for each aura of suspense you control."
 
 Rulings: search "Energy of the Audience" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM159.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN286.webp)
+
+## Images
+
+![GEM159 - Energy of the Audience (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM159.webp)
+![PEN286 - Energy of the Audience (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN286.webp)
 
 ## Notes

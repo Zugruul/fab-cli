@@ -22,5 +22,15 @@ codes: [1HP089, CRU046, HER000, IRA001, TCC077]
 "Your second attack each turn gets +1{p}."
 
 Rulings: search "Ira, Crimson Haze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP089.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU046.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU046.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER000.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/IRA001-P_EUmBrk0.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC077.png)
+
+## Images
+
+![1HP089 - Ira, Crimson Haze](https://storage.googleapis.com/fabmaster/media/images/1HP089.width-450.png)
+![CRU046 - Ira, Crimson Haze](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU046.png)
+![CRU046 - Ira, Crimson Haze](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU046.png)
+![HER000 - Ira, Crimson Haze](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER000.png)
+![IRA001 - Ira, Crimson Haze](https://storage.googleapis.com/fabmaster/media/images/IRA001-P_EUmBrk0.width-450.png)
+![TCC077 - Ira, Crimson Haze](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC077.png)
 
 ## Notes

@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Uprising" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR088.png)
+
+## Images
+
+![UPR088 - Uprising (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR088.png)
 
 ## Notes

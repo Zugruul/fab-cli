@@ -23,5 +23,10 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Silken Shawl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN124.webp)
+
+## Images
+
+![PEN124 - Silken Shawl](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN124.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [OMN088]
 
 Variants: [[card-arcanic-cunning-yellow]] · [[card-arcanic-cunning-blue]]
 Rulings: search "Arcanic Cunning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN088.webp)
+
+## Images
+
+![OMN088 - Arcanic Cunning (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN088.webp)
 
 ## Notes

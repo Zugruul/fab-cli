@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-beat-chest]] · [[kw-go-again]] · [[kw-intimidate]]
 Variants: [[card-smell-fear-yellow]]
 Rulings: search "Smell Fear" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR028.webp)
+
+## Images
+
+![ARR028 - Smell Fear (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR028.webp)
 
 ## Notes

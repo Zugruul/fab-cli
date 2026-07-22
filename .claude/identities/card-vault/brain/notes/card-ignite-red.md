@@ -30,5 +30,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Ignite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT058.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT058-EA.png)
+
+## Images
+
+![HNT058 - Ignite (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT058.png)
+![HNT058 - Ignite (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT058-EA.png)
 
 ## Notes

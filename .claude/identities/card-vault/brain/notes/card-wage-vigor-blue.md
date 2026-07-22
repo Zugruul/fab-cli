@@ -29,5 +29,11 @@ codes: [HVY191, OLA022]
 Keywords: [[kw-wager]]
 Variants: [[card-wage-vigor-red]] · [[card-wage-vigor-yellow]]
 Rulings: search "Wage Vigor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY191.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA022.png)
+
+## Images
+
+![HVY191 - Wage Vigor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY191.png)
+![OLA022 - Wage Vigor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA022.png)
 
 ## Notes

@@ -31,5 +31,11 @@ Blood Debt"
 
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Rulings: search "Shadow of Ursur" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON156.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON156.width-450.png)
+
+## Images
+
+![MON156 - Shadow of Ursur (blue)](https://storage.googleapis.com/fabmaster/media/images/MON156.width-450.png)
+![MON156 - Shadow of Ursur (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON156.width-450.png)
 
 ## Notes

@@ -24,5 +24,13 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Gallantry Gold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL007.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR005.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON108.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON108.width-450.png)
+
+## Images
+
+![BOL007 - Gallantry Gold](https://storage.googleapis.com/fabmaster/media/images/BOL007.width-450.png)
+![DVR005 - Gallantry Gold](https://storage.googleapis.com/fabmaster/media/images/DVR005.width-450.png)
+![MON108 - Gallantry Gold](https://storage.googleapis.com/fabmaster/media/images/MON108.width-450.png)
+![MON108 - Gallantry Gold](https://storage.googleapis.com/fabmaster/media/images/U-MON108.width-450.png)
 
 ## Notes

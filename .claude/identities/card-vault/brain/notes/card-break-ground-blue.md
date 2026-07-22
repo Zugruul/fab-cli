@@ -27,5 +27,12 @@ codes: [ELE133, OLD025]
 
 Variants: [[card-break-ground-red]] · [[card-break-ground-yellow]]
 Rulings: search "Break Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE133.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE133.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/OLD025.width-450.png)
+
+## Images
+
+![ELE133 - Break Ground (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE133.width-450.png)
+![ELE133 - Break Ground (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE133.width-450.png)
+![OLD025 - Break Ground (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD025.width-450.png)
 
 ## Notes

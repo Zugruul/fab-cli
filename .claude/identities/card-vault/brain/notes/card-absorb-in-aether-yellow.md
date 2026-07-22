@@ -25,5 +25,11 @@ codes: [ARC124]
 
 Variants: [[card-absorb-in-aether-red]] · [[card-absorb-in-aether-blue]]
 Rulings: search "Absorb in Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC124.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC124.png)
+
+## Images
+
+![ARC124 - Absorb in Aether (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC124.png)
+![ARC124 - Absorb in Aether (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC124.png)
 
 ## Notes

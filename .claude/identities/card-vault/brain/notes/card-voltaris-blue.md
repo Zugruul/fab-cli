@@ -26,5 +26,11 @@ When this is pitched, create a Lightning Flow token."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Voltaris" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN000-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN000-CF.webp)
+
+## Images
+
+![OMN000 - Voltaris (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN000-RF.webp)
+![OMN000 - Voltaris (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN000-CF.webp)
 
 ## Notes

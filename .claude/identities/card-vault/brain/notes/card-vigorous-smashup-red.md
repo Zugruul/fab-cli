@@ -29,5 +29,10 @@ codes: [SUP164]
 Keywords: [[kw-clash]]
 Variants: [[card-vigorous-smashup-yellow]] · [[card-vigorous-smashup-blue]]
 Rulings: search "Vigorous Smashup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP164.webp)
+
+## Images
+
+![SUP164 - Vigorous Smashup (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP164.webp)
 
 ## Notes

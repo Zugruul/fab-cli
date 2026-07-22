@@ -27,5 +27,11 @@ codes: [ELE149]
 
 Variants: [[card-frost-fang-red]] · [[card-frost-fang-blue]]
 Rulings: search "Frost Fang" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE149.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE149.width-450.png)
+
+## Images
+
+![ELE149 - Frost Fang (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE149.width-450.png)
+![ELE149 - Frost Fang (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE149.width-450.png)
 
 ## Notes

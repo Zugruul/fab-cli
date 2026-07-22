@@ -26,5 +26,11 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Pulse of Volthaven" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE112.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE112.width-450.png)
+
+## Images
+
+![ELE112 - Pulse of Volthaven (red)](https://storage.googleapis.com/fabmaster/media/images/ELE112.width-450.png)
+![ELE112 - Pulse of Volthaven (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE112.width-450.png)
 
 ## Notes

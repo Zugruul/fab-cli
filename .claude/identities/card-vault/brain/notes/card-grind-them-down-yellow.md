@@ -29,5 +29,10 @@ codes: [MPG080]
 Keywords: [[kw-crush]]
 Variants: [[card-grind-them-down-red]] · [[card-grind-them-down-blue]]
 Rulings: search "Grind Them Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG080.webp)
+
+## Images
+
+![MPG080 - Grind Them Down (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG080.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ When this hits a Revered hero, they discard a card."
 
 Keywords: [[kw-intimidate]]
 Rulings: search "Tear Down the Idols" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP086.webp)
+
+## Images
+
+![SUP086 - Tear Down the Idols (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP086.webp)
 
 ## Notes

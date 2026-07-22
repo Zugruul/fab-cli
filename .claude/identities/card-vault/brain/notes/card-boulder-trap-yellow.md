@@ -25,5 +25,12 @@ codes: [LGS138, OUT106, RIP011]
 "When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls."
 
 Rulings: search "Boulder Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS138.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT106.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP011.png)
+
+## Images
+
+![LGS138 - Boulder Trap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS138.png)
+![OUT106 - Boulder Trap (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT106.width-450.png)
+![RIP011 - Boulder Trap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP011.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-pick-a-card-any-card-red]] · [[card-pick-a-card-any-card-blue]]
 Rulings: search "Pick a Card, Any Card" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR168.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR168-RF.png)
+
+## Images
+
+![EVR168 - Pick a Card, Any Card (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR168.width-450.png)
+![EVR168 - Pick a Card, Any Card (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR168-RF.png)
 
 ## Notes

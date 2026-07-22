@@ -26,5 +26,11 @@ codes: [OMN087]
 "Whenever this deals damage to a hero, destroy target aura they control."
 
 Rulings: search "Caress of the Reaper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN087.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN087-CF.webp)
+
+## Images
+
+![OMN087 - Caress of the Reaper (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN087.webp)
+![OMN087 - Caress of the Reaper (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN087-CF.webp)
 
 ## Notes

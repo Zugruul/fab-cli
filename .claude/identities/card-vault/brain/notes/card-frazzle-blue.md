@@ -31,5 +31,11 @@ If Frazzle was fused, whenever an attack would deal damage this turn, instead it
 Keywords: [[kw-fusion]]
 Variants: [[card-frazzle-red]] · [[card-frazzle-yellow]]
 Rulings: search "Frazzle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE061.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE061.width-450.png)
+
+## Images
+
+![ELE061 - Frazzle (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE061.width-450.png)
+![ELE061 - Frazzle (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE061.width-450.png)
 
 ## Notes

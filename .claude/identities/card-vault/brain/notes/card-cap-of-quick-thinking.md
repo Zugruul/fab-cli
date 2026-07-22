@@ -20,5 +20,10 @@ codes: [AST003]
 "Instant - Destroy this: If you would be dealt damage by a source an opponent controls this turn, you may discard an instant card to prevent 1 of that damage and draw a card."
 
 Rulings: search "Cap of Quick Thinking" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST003-RF.webp)
+
+## Images
+
+![AST003 - Cap of Quick Thinking](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST003-RF.webp)
 
 ## Notes

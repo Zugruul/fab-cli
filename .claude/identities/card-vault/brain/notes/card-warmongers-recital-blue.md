@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-warmongers-recital-red]] · [[card-warmongers-recital-yellow]]
 Rulings: search "Warmonger's Recital" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON301.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON301_Warmongers_Recital.width-10000.png)
+
+## Images
+
+![MON301 - Warmonger's Recital (blue)](https://storage.googleapis.com/fabmaster/media/images/MON301.width-450.png)
+![MON301 - Warmonger's Recital (blue)](https://storage.googleapis.com/fabmaster/media/images/MON301_Warmongers_Recital.width-10000.png)
 
 ## Notes

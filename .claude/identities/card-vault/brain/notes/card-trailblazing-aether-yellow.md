@@ -28,5 +28,10 @@ Surge - If this deals more than 2 damage, it gets go again."
 Keywords: [[kw-surge]]
 Variants: [[card-trailblazing-aether-red]] · [[card-trailblazing-aether-blue]]
 Rulings: search "Trailblazing Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS208.png)
+
+## Images
+
+![ROS208 - Trailblazing Aether (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS208.png)
 
 ## Notes

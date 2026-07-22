@@ -29,5 +29,11 @@ codes: [AVS025, ROS151]
 Keywords: [[kw-go-again]]
 Variants: [[card-runerager-swarm-red]] · [[card-runerager-swarm-yellow]]
 Rulings: search "Runerager Swarm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS151.png)
+
+## Images
+
+![AVS025 - Runerager Swarm (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS025.webp)
+![ROS151 - Runerager Swarm (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS151.png)
 
 ## Notes

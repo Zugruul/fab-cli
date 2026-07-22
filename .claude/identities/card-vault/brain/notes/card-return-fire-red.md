@@ -23,5 +23,10 @@ codes: [SEA099]
 "When this defends, you may banish an arrow from your hand. If you do, at the start of your next turn, put it face-up into your arsenal and it gets +3{p} until end of turn."
 
 Rulings: search "Return Fire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA099.png)
+
+## Images
+
+![SEA099 - Return Fire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA099.png)
 
 ## Notes

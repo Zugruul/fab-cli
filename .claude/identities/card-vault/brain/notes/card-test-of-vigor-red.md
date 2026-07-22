@@ -25,5 +25,12 @@ codes: [HVY182, LGS262, VIC014]
 
 Keywords: [[kw-clash]]
 Rulings: search "Test of Vigor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY182.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS262.original.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC014.png)
+
+## Images
+
+![HVY182 - Test of Vigor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY182.png)
+![LGS262 - Test of Vigor (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS262.original.png)
+![VIC014 - Test of Vigor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC014.png)
 
 ## Notes

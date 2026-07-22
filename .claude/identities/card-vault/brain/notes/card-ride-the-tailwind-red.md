@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-ride-the-tailwind-yellow]] · [[card-ride-the-tailwind-blue]]
 Rulings: search "Ride the Tailwind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR044.width-450.png)
+
+## Images
+
+![EVR044 - Ride the Tailwind (red)](https://storage.googleapis.com/fabmaster/media/images/EVR044.width-450.png)
 
 ## Notes

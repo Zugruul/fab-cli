@@ -30,5 +30,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Mutated Mass" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON191.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON191.width-450.png)
+
+## Images
+
+![MON191 - Mutated Mass (blue)](https://storage.googleapis.com/fabmaster/media/images/MON191.width-450.png)
+![MON191 - Mutated Mass (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON191.width-450.png)
 
 ## Notes

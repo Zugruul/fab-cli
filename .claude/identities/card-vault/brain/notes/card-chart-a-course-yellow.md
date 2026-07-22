@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-chart-a-course-red]] · [[card-chart-a-course-blue]]
 Rulings: search "Chart a Course" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA174.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA174_V2.png)
+
+## Images
+
+![SEA174 - Chart a Course (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA174.png)
+![SEA174 - Chart a Course (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA174_V2.png)
 
 ## Notes

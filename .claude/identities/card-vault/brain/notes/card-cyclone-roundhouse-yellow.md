@@ -28,5 +28,10 @@ codes: [OUT050]
 
 Keywords: [[kw-combo]]
 Rulings: search "Cyclone Roundhouse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT050.width-450.png)
+
+## Images
+
+![OUT050 - Cyclone Roundhouse (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT050.width-450.png)
 
 ## Notes

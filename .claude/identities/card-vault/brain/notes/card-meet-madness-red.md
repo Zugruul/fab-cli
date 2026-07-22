@@ -33,5 +33,10 @@ When this hits a hero, choose 1 at random;
 
 Keywords: [[kw-stealth]]
 Rulings: search "Meet Madness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC014.webp)
+
+## Images
+
+![AAC014 - Meet Madness (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC014.webp)
 
 ## Notes

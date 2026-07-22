@@ -29,5 +29,11 @@ codes: [CIN016, HNT069]
 
 Keywords: [[kw-go-again]] · [[kw-mark]]
 Rulings: search "Mark with Magma" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT069.png)
+
+## Images
+
+![CIN016 - Mark with Magma (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN016.webp)
+![HNT069 - Mark with Magma (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT069.png)
 
 ## Notes

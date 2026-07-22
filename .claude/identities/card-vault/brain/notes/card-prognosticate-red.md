@@ -28,5 +28,10 @@ Surge - If this deals more than 3 damage, opt 1."
 Keywords: [[kw-surge]] · [[kw-opt]]
 Variants: [[card-prognosticate-yellow]] · [[card-prognosticate-blue]]
 Rulings: search "Prognosticate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN203.png)
+
+## Images
+
+![DYN203 - Prognosticate (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN203.png)
 
 ## Notes

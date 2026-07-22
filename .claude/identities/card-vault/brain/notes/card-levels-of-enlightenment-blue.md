@@ -31,5 +31,11 @@ codes: [MST077]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Levels of Enlightenment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077_V2.png)
+
+## Images
+
+![MST077 - Levels of Enlightenment (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png)
+![MST077 - Levels of Enlightenment (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077_V2.png)
 
 ## Notes

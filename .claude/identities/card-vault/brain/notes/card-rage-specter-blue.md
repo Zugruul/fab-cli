@@ -28,5 +28,10 @@ During your turn, this has ward 6. Otherwise, this has ward 1."
 
 Keywords: [[kw-ward]] · [[kw-ward]]
 Rulings: search "Rage Specter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png)
+
+## Images
+
+![MST132 - Rage Specter (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png)
 
 ## Notes

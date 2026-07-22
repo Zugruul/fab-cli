@@ -21,5 +21,10 @@ codes: [OMN143]
 "Instant - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token."
 
 Rulings: search "Starflow Robes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN143.webp)
+
+## Images
+
+![OMN143 - Starflow Robes](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN143.webp)
 
 ## Notes

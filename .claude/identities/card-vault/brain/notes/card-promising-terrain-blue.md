@@ -29,5 +29,11 @@ At the beginning of your action phase, destroy this, then if you control 3 or mo
 
 Keywords: [[kw-go-again]]
 Rulings: search "Promising Terrain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS390.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG045.webp)
+
+## Images
+
+![LGS390 - Promising Terrain (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS390.webp)
+![MPG045 - Promising Terrain (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG045.webp)
 
 ## Notes

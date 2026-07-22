@@ -23,5 +23,11 @@ Instant - Destroy this: Prevent the next 1 damage that would be dealt to you thi
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Skycrest Keikoi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS278.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST071.png)
+
+## Images
+
+![LGS278 - Skycrest Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS278.png)
+![MST071 - Skycrest Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST071.png)
 
 ## Notes

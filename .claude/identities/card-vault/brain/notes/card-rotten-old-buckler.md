@@ -23,5 +23,14 @@ codes: [ELE204, MPG010, OLD003, TER003]
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Rotten Old Buckler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE204.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE204.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG010.webp) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD003.width-450.png) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER003.webp)
+
+## Images
+
+![ELE204 - Rotten Old Buckler](https://storage.googleapis.com/fabmaster/media/images/ELE204.width-450.png)
+![ELE204 - Rotten Old Buckler](https://storage.googleapis.com/fabmaster/media/images/U-ELE204.width-450.png)
+![MPG010 - Rotten Old Buckler](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG010.webp)
+![OLD003 - Rotten Old Buckler](https://storage.googleapis.com/fabmaster/media/images/OLD003.width-450.png)
+![TER003 - Rotten Old Buckler](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER003.webp)
 
 ## Notes

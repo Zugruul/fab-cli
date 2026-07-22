@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Starlight Striders" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST006-RF.webp)
+
+## Images
+
+![AST006 - Starlight Striders](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST006-RF.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [TCC043]
 
 Variants: [[card-earthlore-empowerment-red]]
 Rulings: search "Earthlore Empowerment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC043.png)
+
+## Images
+
+![TCC043 - Earthlore Empowerment (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC043.png)
 
 ## Notes

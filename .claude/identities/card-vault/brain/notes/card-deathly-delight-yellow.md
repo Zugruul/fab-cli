@@ -32,5 +32,10 @@ Blood Debt"
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Variants: [[card-deathly-delight-red]] · [[card-deathly-delight-blue]]
 Rulings: search "Deathly Delight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/DTD144.webp)
+
+## Images
+
+![DTD144 - Deathly Delight (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/DTD144.webp)
 
 ## Notes

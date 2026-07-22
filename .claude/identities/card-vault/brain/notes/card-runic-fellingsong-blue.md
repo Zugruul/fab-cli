@@ -27,5 +27,10 @@ codes: [PEN102]
 
 Variants: [[card-runic-fellingsong-red]] · [[card-runic-fellingsong-yellow]]
 Rulings: search "Runic Fellingsong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN102.webp)
+
+## Images
+
+![PEN102 - Runic Fellingsong (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN102.webp)
 
 ## Notes

@@ -21,5 +21,10 @@ codes: [DTD210]
 Create a Runechant token for each damage dealt this way."
 
 Rulings: search "Scepter of Pain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD210.png)
+
+## Images
+
+![DTD210 - Scepter of Pain](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD210.png)
 
 ## Notes

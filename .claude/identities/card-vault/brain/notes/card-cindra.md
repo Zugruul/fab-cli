@@ -25,5 +25,13 @@ Once per Turn Instant - {r}{r}{r}: Equip up to 2 Draconic daggers from your grav
 
 Adult version: [[card-cindra-dracai-of-retribution]]
 Rulings: search "Cindra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN001-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT055.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT055-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT055-MV_BACK.webp)
+
+## Images
+
+![CIN001 - Cindra](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN001-RF.webp)
+![HNT055 - Cindra](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT055.png)
+![HNT055 - Cindra](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT055-MV.webp)
+![HNT055 - Cindra](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT055-MV_BACK.webp)
 
 ## Notes

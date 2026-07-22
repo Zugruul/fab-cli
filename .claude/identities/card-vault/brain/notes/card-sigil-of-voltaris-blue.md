@@ -26,5 +26,10 @@ codes: [PEN237]
 At the beginning of your action phase, destroy this."
 
 Rulings: search "Sigil of Voltaris" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN237.webp)
+
+## Images
+
+![PEN237 - Sigil of Voltaris (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN237.webp)
 
 ## Notes

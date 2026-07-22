@@ -26,5 +26,10 @@ codes: [MPG127]
 "While this is defending, cards with {p} greater than the attack they are defending get +1{d}."
 
 Rulings: search "Captain of the Guard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG127.webp)
+
+## Images
+
+![MPG127 - Captain of the Guard (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG127.webp)
 
 ## Notes

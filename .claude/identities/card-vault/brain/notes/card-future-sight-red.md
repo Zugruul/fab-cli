@@ -24,5 +24,11 @@ codes: [GEM124, PEN117]
 
 Variants: [[card-future-sight-yellow]] · [[card-future-sight-blue]]
 Rulings: search "Future Sight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM124.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN117.webp)
+
+## Images
+
+![GEM124 - Future Sight (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM124.webp)
+![PEN117 - Future Sight (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN117.webp)
 
 ## Notes

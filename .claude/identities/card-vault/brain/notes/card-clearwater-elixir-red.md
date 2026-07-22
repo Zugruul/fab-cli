@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Clearwater Elixir" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN324.webp)
+
+## Images
+
+![PEN324 - Clearwater Elixir (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN324.webp)
 
 ## Notes

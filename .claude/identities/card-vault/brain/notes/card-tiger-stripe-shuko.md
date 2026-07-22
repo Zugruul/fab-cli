@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Tiger Stripe Shuko" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB083.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR158.png)
+
+## Images
+
+![FAB083 - Tiger Stripe Shuko](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB083.png)
+![UPR158 - Tiger Stripe Shuko](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR158.png)
 
 ## Notes

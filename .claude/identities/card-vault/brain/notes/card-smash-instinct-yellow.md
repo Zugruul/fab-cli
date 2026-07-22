@@ -29,5 +29,14 @@ codes: [1HP035, RNR017, RVD016, WTR027]
 Keywords: [[kw-intimidate]]
 Variants: [[card-smash-instinct-red]] · [[card-smash-instinct-blue]]
 Rulings: search "Smash Instinct" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP035.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RNR17.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/RVD016.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR027.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR027.png)
+
+## Images
+
+![1HP035 - Smash Instinct (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP035.width-450.png)
+![RNR017 - Smash Instinct (yellow)](https://storage.googleapis.com/fabmaster/media/images/RNR17.width-450.png)
+![RVD016 - Smash Instinct (yellow)](https://storage.googleapis.com/fabmaster/media/images/RVD016.width-450.png)
+![WTR027 - Smash Instinct (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR027.png)
+![WTR027 - Smash Instinct (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR027.png)
 
 ## Notes

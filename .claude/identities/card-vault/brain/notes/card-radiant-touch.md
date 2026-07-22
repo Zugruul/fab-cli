@@ -20,5 +20,11 @@ codes: [DTD077, SBL008]
 "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn."
 
 Rulings: search "Radiant Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD077.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL008.webp)
+
+## Images
+
+![DTD077 - Radiant Touch](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD077.png)
+![SBL008 - Radiant Touch](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL008.webp)
 
 ## Notes

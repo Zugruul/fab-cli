@@ -27,5 +27,12 @@ If your hero would be dealt damage, instead destroy that many Runechant tokens y
 At the beginning of your action phase, destroy this."
 
 Rulings: search "Runeblood Barrier" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP269.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU144.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU144.png)
+
+## Images
+
+![1HP269 - Runeblood Barrier (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP269.width-450.png)
+![CRU144 - Runeblood Barrier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU144.png)
+![CRU144 - Runeblood Barrier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU144.png)
 
 ## Notes

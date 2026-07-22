@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-rotary-ram-red]] · [[card-rotary-ram-blue]]
 Rulings: search "Rotary Ram" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR083.width-450.png)
+
+## Images
+
+![EVR083 - Rotary Ram (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR083.width-450.png)
 
 ## Notes

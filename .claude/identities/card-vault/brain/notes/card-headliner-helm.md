@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Headliner Helm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY202.png)
+
+## Images
+
+![HVY202 - Headliner Helm](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY202.png)
 
 ## Notes

@@ -28,5 +28,11 @@ codes: [UPR016]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Vynserakai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Front.png)
+
+## Images
+
+![UPR016 - Invoke Vynserakai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016.png)
+![UPR016 - Invoke Vynserakai (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Front.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [SEA072]
 Keywords: [[kw-go-again]]
 Variants: [[card-restless-bones-red]] · [[card-restless-bones-blue]]
 Rulings: search "Restless Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA072.png)
+
+## Images
+
+![SEA072 - Restless Bones (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA072.png)
 
 ## Notes

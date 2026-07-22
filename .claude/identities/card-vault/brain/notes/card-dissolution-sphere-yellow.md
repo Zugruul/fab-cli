@@ -26,5 +26,10 @@ At the beginning of your action phase, destroy Dissolution Sphere unless you rem
 Whenever your hero would be dealt exactly 1 damage, prevent it."
 
 Rulings: search "Dissolution Sphere" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR069.width-450.png)
+
+## Images
+
+![EVR069 - Dissolution Sphere (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR069.width-450.png)
 
 ## Notes

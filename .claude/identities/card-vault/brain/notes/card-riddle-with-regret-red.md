@@ -28,5 +28,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
 
 Keywords: [[kw-go-again]]
 Rulings: search "Riddle with Regret" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA256.png)
+
+## Images
+
+![SEA256 - Riddle with Regret (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA256.png)
 
 ## Notes

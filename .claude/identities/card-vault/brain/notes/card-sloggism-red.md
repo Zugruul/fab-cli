@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sloggism-yellow]] · [[card-sloggism-blue]]
 Rulings: search "Sloggism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP420.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR221.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR221.png)
+
+## Images
+
+![1HP420 - Sloggism (red)](https://storage.googleapis.com/fabmaster/media/images/1HP420.width-450.png)
+![WTR221 - Sloggism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR221.png)
+![WTR221 - Sloggism (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR221.png)
 
 ## Notes

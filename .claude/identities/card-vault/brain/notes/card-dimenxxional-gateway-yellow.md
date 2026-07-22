@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-opt]] · [[kw-go-again]]
 Variants: [[card-dimenxxional-gateway-red]] · [[card-dimenxxional-gateway-blue]]
 Rulings: search "Dimenxxional Gateway" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON163.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON163.width-450.png)
+
+## Images
+
+![MON163 - Dimenxxional Gateway (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON163.width-450.png)
+![MON163 - Dimenxxional Gateway (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON163.width-450.png)
 
 ## Notes

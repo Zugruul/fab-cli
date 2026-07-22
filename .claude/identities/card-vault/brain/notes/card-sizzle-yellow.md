@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sizzle-red]]
 Rulings: search "Sizzle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR021.webp)
+
+## Images
+
+![AUR021 - Sizzle (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR021.webp)
 
 ## Notes

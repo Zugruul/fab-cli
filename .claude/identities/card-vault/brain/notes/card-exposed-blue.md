@@ -27,5 +27,10 @@ Mark the defending hero."
 
 Keywords: [[kw-mark]]
 Rulings: search "Exposed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT237.png)
+
+## Images
+
+![HNT237 - Exposed (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT237.png)
 
 ## Notes

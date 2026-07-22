@@ -28,5 +28,12 @@ codes: [GEM061, SAZ018, SEA110]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Swift Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM061.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ018.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA110.png)
+
+## Images
+
+![GEM061 - Swift Shot (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM061.webp)
+![SAZ018 - Swift Shot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ018.webp)
+![SEA110 - Swift Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA110.png)
 
 ## Notes

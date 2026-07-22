@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tit for Tat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA211.png)
+
+## Images
+
+![SEA211 - Tit for Tat (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA211.png)
 
 ## Notes

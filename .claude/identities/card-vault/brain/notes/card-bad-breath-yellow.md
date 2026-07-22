@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Variants: [[card-bad-breath-red]] · [[card-bad-breath-blue]]
 Rulings: search "Bad Breath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN307.webp)
+
+## Images
+
+![PEN307 - Bad Breath (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN307.webp)
 
 ## Notes

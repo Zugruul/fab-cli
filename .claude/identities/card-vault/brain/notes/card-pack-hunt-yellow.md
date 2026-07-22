@@ -29,5 +29,13 @@ codes: [1HP026, HVY033, WTR024]
 Keywords: [[kw-intimidate]]
 Variants: [[card-pack-hunt-red]] · [[card-pack-hunt-blue]]
 Rulings: search "Pack Hunt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP026.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY033.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR024.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR024.png)
+
+## Images
+
+![1HP026 - Pack Hunt (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP026.width-450.png)
+![HVY033 - Pack Hunt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY033.png)
+![WTR024 - Pack Hunt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR024.png)
+![WTR024 - Pack Hunt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR024.png)
 
 ## Notes

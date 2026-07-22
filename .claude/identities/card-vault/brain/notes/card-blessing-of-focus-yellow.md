@@ -28,5 +28,10 @@ codes: [DYN160]
 Keywords: [[kw-opt]]
 Variants: [[card-blessing-of-focus-red]] · [[card-blessing-of-focus-blue]]
 Rulings: search "Blessing of Focus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN160.png)
+
+## Images
+
+![DYN160 - Blessing of Focus (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN160.png)
 
 ## Notes

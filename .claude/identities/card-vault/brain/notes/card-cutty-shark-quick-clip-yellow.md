@@ -30,5 +30,13 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Cutty Shark, Quick Clip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS403.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076_V2.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB016.webp)
+
+## Images
+
+![LGS403 - Cutty Shark, Quick Clip (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS403.png)
+![SEA076 - Cutty Shark, Quick Clip (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076.png)
+![SEA076 - Cutty Shark, Quick Clip (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076_V2.png)
+![SGB016 - Cutty Shark, Quick Clip (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB016.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [AST027]
 If you've dealt arcane damage this turn, draw a card."
 
 Rulings: search "Written in the Stars" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST027.webp)
+
+## Images
+
+![AST027 - Written in the Stars (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST027.webp)
 
 ## Notes

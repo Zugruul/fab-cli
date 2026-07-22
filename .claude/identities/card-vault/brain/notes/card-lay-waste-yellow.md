@@ -30,5 +30,10 @@ This can't be defended by equipment."
 Keywords: [[kw-boost]]
 Variants: [[card-lay-waste-red]] · [[card-lay-waste-blue]]
 Rulings: search "Lay Waste" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO208.png)
+
+## Images
+
+![EVO208 - Lay Waste (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO208.png)
 
 ## Notes

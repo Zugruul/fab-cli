@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-rob-the-rich-red]] · [[card-rob-the-rich-yellow]]
 Rulings: search "Rob the Rich" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN129.png)
+
+## Images
+
+![DYN129 - Rob the Rich (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN129.png)
 
 ## Notes

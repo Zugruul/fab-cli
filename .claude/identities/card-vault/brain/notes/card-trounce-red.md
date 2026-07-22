@@ -26,5 +26,10 @@ If a hero wins both clashes, they create a Gold, Might, and Vigor token."
 
 Keywords: [[kw-clash]]
 Rulings: search "Trounce" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY061.png)
+
+## Images
+
+![HVY061 - Trounce (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY061.png)
 
 ## Notes

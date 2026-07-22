@@ -25,5 +25,13 @@ Temper"
 
 Keywords: [[kw-specialization]] · [[kw-temper]]
 Rulings: search "Prized Galea" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY098.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS236.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS254.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA004.png)
+
+## Images
+
+![HVY098 - Prized Galea](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY098.png)
+![LGS236 - Prized Galea](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS236.png)
+![LGS254 - Prized Galea](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS254.png)
+![OLA004 - Prized Galea](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA004.png)
 
 ## Notes

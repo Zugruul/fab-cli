@@ -20,5 +20,10 @@ codes: [JDG019]
 "Action - Destroy this: Each hero may search their deck for an item with cost 0 or 1, put it into the arena, then shuffle. Each hero who doesn't put an item into the arena this way discards a card."
 
 Rulings: search "Proclamation of Production" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG019.png)
+
+## Images
+
+![JDG019 - Proclamation of Production](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG019.png)
 
 ## Notes

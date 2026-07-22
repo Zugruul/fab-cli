@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-re-charge-red]] · [[card-re-charge-blue]]
 Rulings: search "Re-Charge!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO229.png)
+
+## Images
+
+![EVO229 - Re-Charge! (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO229.png)
 
 ## Notes

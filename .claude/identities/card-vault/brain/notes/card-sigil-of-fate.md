@@ -23,5 +23,11 @@ At the beginning of your action phase, destroy this."
 
 Keywords: [[kw-opt]] · [[kw-token-sigil-of-fate]]
 Rulings: search "Sigil of Fate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB402.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN120.webp)
+
+## Images
+
+![FAB402 - Sigil of Fate](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB402.webp)
+![PEN120 - Sigil of Fate](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN120.webp)
 
 ## Notes

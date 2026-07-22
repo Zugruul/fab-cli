@@ -23,5 +23,10 @@ codes: [SUP035]
 "When this defends, if you've been cheered this turn, defending action cards get +3{d} this chain link."
 
 Rulings: search "Will of the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP035.webp)
+
+## Images
+
+![SUP035 - Will of the Crowd (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP035.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [PEN297]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Chain of Brutality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN297.webp)
+
+## Images
+
+![PEN297 - Chain of Brutality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN297.webp)
 
 ## Notes

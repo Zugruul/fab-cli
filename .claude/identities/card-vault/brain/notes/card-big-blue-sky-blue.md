@@ -24,5 +24,13 @@ codes: [ENG015, FAB238, MST086, SEN028]
 "This gets +1{d} for each blue card you've pitched this turn."
 
 Rulings: search "Big Blue Sky" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG015.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB238.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST086.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN028.webp)
+
+## Images
+
+![ENG015 - Big Blue Sky (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG015.png)
+![FAB238 - Big Blue Sky (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB238.png)
+![MST086 - Big Blue Sky (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST086.png)
+![SEN028 - Big Blue Sky (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN028.webp)
 
 ## Notes

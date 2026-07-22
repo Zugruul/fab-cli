@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-shaden-scream-yellow]] · [[card-shaden-scream-blue]]
 Rulings: search "Shaden Scream" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD118.png)
+
+## Images
+
+![DTD118 - Shaden Scream (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD118.png)
 
 ## Notes

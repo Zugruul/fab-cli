@@ -23,5 +23,11 @@ codes: [EVO021, LGS189]
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Teklo Base Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO021.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS189.png)
+
+## Images
+
+![EVO021 - Teklo Base Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO021.png)
+![LGS189 - Teklo Base Legs](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS189.png)
 
 ## Notes

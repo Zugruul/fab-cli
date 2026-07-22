@@ -28,5 +28,12 @@ Surge - If this deals more than 3 damage, gain 1{h}, then shuffle all aura perma
 Keywords: [[kw-surge]]
 Variants: [[card-glyph-overlay-yellow]] · [[card-glyph-overlay-blue]]
 Rulings: search "Glyph Overlay" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB277.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC017.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS173.png)
+
+## Images
+
+![FAB277 - Glyph Overlay (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB277.png)
+![OSC017 - Glyph Overlay (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC017.webp)
+![ROS173 - Glyph Overlay (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS173.png)
 
 ## Notes

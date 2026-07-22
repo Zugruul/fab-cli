@@ -27,5 +27,10 @@ codes: [HNT081]
 
 Variants: [[card-silver-talons-red]] · [[card-silver-talons-blue]]
 Rulings: search "Silver Talons" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT081.png)
+
+## Images
+
+![HNT081 - Silver Talons (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT081.png)
 
 ## Notes

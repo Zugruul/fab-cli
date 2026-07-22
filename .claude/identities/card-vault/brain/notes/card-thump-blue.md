@@ -29,5 +29,13 @@ codes: [ELE211, MPG087, OLD029]
 Keywords: [[kw-dominate]]
 Variants: [[card-thump-red]] · [[card-thump-yellow]]
 Rulings: search "Thump" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE211.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE211.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG087.webp) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD029.width-450.png)
+
+## Images
+
+![ELE211 - Thump (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE211.width-450.png)
+![ELE211 - Thump (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE211.width-450.png)
+![MPG087 - Thump (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG087.webp)
+![OLD029 - Thump (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD029.width-450.png)
 
 ## Notes

@@ -30,5 +30,10 @@ If the discarded card has 6 or more {p}, Madcap Charger has go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-madcap-charger-yellow]] · [[card-madcap-charger-blue]]
 Rulings: search "Madcap Charger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN016.png)
+
+## Images
+
+![DYN016 - Madcap Charger (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN016.png)
 
 ## Notes

@@ -29,5 +29,10 @@ If you've played or activated 3 or more attack reactions this chain link, this g
 
 Keywords: [[kw-stealth]]
 Rulings: search "Bonds of Agony" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png)
+
+## Images
+
+![MST103 - Bonds of Agony (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png)
 
 ## Notes

@@ -29,5 +29,12 @@ Heave 2"
 
 Keywords: [[kw-crush]] · [[kw-heave]]
 Rulings: search "Smelting of the Old Ones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028-RF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028-MV.webp)
+
+## Images
+
+![MPG028 - Smelting of the Old Ones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028.webp)
+![MPG028 - Smelting of the Old Ones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028-RF.webp)
+![MPG028 - Smelting of the Old Ones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028-MV.webp)
 
 ## Notes

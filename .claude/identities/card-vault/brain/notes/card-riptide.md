@@ -24,5 +24,15 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero."
 
 Adult version: [[card-riptide-lurker-of-the-deep]]
 Rulings: search "Riptide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER080.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER081.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT092.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN341-MV.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN341-MV_BACK.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP001.png)
+
+## Images
+
+![HER080 - Riptide](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER080.png)
+![HER081 - Riptide](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER081.png)
+![OUT092 - Riptide](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT092.width-450.png)
+![PEN341 - Riptide](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN341-MV.webp)
+![PEN341 - Riptide](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN341-MV_BACK.webp)
+![RIP001 - Riptide](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP001.png)
 
 ## Notes

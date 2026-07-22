@@ -28,5 +28,10 @@ codes: [DTD079]
 
 Keywords: [[kw-unity]]
 Rulings: search "United We Stand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD079.png)
+
+## Images
+
+![DTD079 - United We Stand (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD079.png)
 
 ## Notes

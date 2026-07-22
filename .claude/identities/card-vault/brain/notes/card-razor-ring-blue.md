@@ -30,5 +30,10 @@ When this hits a hero, the next action card they defend with this combat chain g
 
 Keywords: [[kw-legendary]]
 Rulings: search "Razor Ring" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233.webp)
+
+## Images
+
+![OMN233 - Razor Ring (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233.webp)
 
 ## Notes

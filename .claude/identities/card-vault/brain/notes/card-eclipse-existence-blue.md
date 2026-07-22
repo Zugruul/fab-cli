@@ -24,5 +24,12 @@ codes: [LGS045, MON218]
 If you have more {h} than an opposing Light hero, you may banish an action card from your graveyard."
 
 Rulings: search "Eclipse Existence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS045.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON218.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON218.width-450.png)
+
+## Images
+
+![LGS045 - Eclipse Existence (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS045.png)
+![MON218 - Eclipse Existence (blue)](https://storage.googleapis.com/fabmaster/media/images/MON218.width-450.png)
+![MON218 - Eclipse Existence (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON218.width-450.png)
 
 ## Notes

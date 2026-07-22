@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-biting-breeze-yellow]] · [[card-biting-breeze-blue]]
 Rulings: search "Biting Breeze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST173.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN007.png)
+
+## Images
+
+![MST173 - Biting Breeze (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST173.png)
+![ZEN007 - Biting Breeze (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN007.png)
 
 ## Notes

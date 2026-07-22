@@ -23,5 +23,11 @@ codes: [DTD231, JDG035]
 "The next time a hero would gain {h} this turn, instead they lose that much {h}."
 
 Rulings: search "Poison the Well" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD231.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG035.png)
+
+## Images
+
+![DTD231 - Poison the Well (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD231.png)
+![JDG035 - Poison the Well (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG035.png)
 
 ## Notes

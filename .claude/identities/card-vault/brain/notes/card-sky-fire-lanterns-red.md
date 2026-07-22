@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sky-fire-lanterns-yellow]] · [[card-sky-fire-lanterns-blue]]
 Rulings: search "Sky Fire Lanterns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN188.png)
+
+## Images
+
+![DYN188 - Sky Fire Lanterns (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN188.png)
 
 ## Notes

@@ -28,5 +28,10 @@ codes: [DYN002]
 
 Keywords: [[kw-material]] · [[kw-phantasm]]
 Rulings: search "Dust from the Golden Plains" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN002.png)
+
+## Images
+
+![DYN002 - Dust from the Golden Plains (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN002.png)
 
 ## Notes

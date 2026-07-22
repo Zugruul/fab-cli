@@ -23,5 +23,13 @@ codes: [HER076, HER083, OUT002, UZU001]
 
 Adult version: [[card-uzuri-switchblade]]
 Rulings: search "Uzuri" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER076.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER083.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT002.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU001.png)
+
+## Images
+
+![HER076 - Uzuri](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER076.png)
+![HER083 - Uzuri](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER083.png)
+![OUT002 - Uzuri](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT002.width-450.png)
+![UZU001 - Uzuri](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU001.png)
 
 ## Notes

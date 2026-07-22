@@ -29,5 +29,14 @@ codes: [BVO016, MPG054, SBR024, WTR059]
 Keywords: [[kw-crush]]
 Variants: [[card-buckling-blow-red]] · [[card-buckling-blow-yellow]]
 Rulings: search "Buckling Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BVO16.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG054.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR024.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR059.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR059.png)
+
+## Images
+
+![BVO016 - Buckling Blow (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO16.width-450.png)
+![MPG054 - Buckling Blow (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG054.webp)
+![SBR024 - Buckling Blow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR024.webp)
+![WTR059 - Buckling Blow (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR059.png)
+![WTR059 - Buckling Blow (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR059.png)
 
 ## Notes

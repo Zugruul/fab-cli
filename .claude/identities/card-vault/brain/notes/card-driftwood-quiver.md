@@ -23,5 +23,12 @@ Instant - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom o
 
 Keywords: [[kw-specialization]]
 Rulings: search "Driftwood Quiver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS137.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT098.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP003.png)
+
+## Images
+
+![LGS137 - Driftwood Quiver](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS137.png)
+![OUT098 - Driftwood Quiver](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT098.width-450.png)
+![RIP003 - Driftwood Quiver](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP003.png)
 
 ## Notes

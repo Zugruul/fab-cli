@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Shadow Puppetry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON193.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON193.width-450.png)
+
+## Images
+
+![MON193 - Shadow Puppetry (red)](https://storage.googleapis.com/fabmaster/media/images/MON193.width-450.png)
+![MON193 - Shadow Puppetry (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON193.width-450.png)
 
 ## Notes

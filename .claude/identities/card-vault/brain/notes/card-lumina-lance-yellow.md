@@ -30,5 +30,10 @@ Target Light attack gets "When this hits, it gets go again.""
 
 Keywords: [[kw-go-again]]
 Rulings: search "Lumina Lance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD080.png)
+
+## Images
+
+![DTD080 - Lumina Lance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD080.png)
 
 ## Notes

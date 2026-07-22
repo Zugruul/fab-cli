@@ -24,5 +24,14 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Bull's Eye Bracers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP226.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC042.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC042.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB102.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ007.webp)
+
+## Images
+
+![1HP226 - Bull's Eye Bracers](https://storage.googleapis.com/fabmaster/media/images/1HP226.width-450.png)
+![ARC042 - Bull's Eye Bracers](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC042.png)
+![ARC042 - Bull's Eye Bracers](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC042.png)
+![FAB102 - Bull's Eye Bracers](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB102.png)
+![SAZ007 - Bull's Eye Bracers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ007.webp)
 
 ## Notes

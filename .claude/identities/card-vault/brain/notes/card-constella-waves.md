@@ -22,5 +22,10 @@ codes: [OMN097]
 "Instant - {t} your hero, destroy this: Amp 1"
 
 Rulings: search "Constella Waves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN097.webp)
+
+## Images
+
+![OMN097 - Constella Waves](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN097.webp)
 
 ## Notes

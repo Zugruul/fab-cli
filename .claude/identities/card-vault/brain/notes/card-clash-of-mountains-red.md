@@ -29,5 +29,10 @@ codes: [MPG061]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-mountains-yellow]] · [[card-clash-of-mountains-blue]]
 Rulings: search "Clash of Mountains" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG061.webp)
+
+## Images
+
+![MPG061 - Clash of Mountains (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG061.webp)
 
 ## Notes

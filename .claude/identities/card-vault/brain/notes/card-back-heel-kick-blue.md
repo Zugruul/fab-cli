@@ -29,5 +29,10 @@ codes: [OUT067]
 Keywords: [[kw-combo]]
 Variants: [[card-back-heel-kick-red]] · [[card-back-heel-kick-yellow]]
 Rulings: search "Back Heel Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT067.width-450.png)
+
+## Images
+
+![OUT067 - Back Heel Kick (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT067.width-450.png)
 
 ## Notes

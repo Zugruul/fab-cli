@@ -28,5 +28,10 @@ If you complete a contract this way, your Assassin attacks get go again this com
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Coercive Tendency" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY246.png)
+
+## Images
+
+![HVY246 - Coercive Tendency (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY246.png)
 
 ## Notes

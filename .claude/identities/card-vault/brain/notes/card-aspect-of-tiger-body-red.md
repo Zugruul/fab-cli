@@ -28,5 +28,10 @@ codes: [MST164]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Aspect of Tiger: Body" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png)
+
+## Images
+
+![MST164 - Aspect of Tiger: Body (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png)
 
 ## Notes

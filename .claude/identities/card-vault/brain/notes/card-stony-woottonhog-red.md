@@ -27,5 +27,11 @@ codes: [MON284]
 
 Variants: [[card-stony-woottonhog-yellow]] · [[card-stony-woottonhog-blue]]
 Rulings: search "Stony Woottonhog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON284.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON284.width-450.png)
+
+## Images
+
+![MON284 - Stony Woottonhog (red)](https://storage.googleapis.com/fabmaster/media/images/MON284.width-450.png)
+![MON284 - Stony Woottonhog (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON284.width-450.png)
 
 ## Notes

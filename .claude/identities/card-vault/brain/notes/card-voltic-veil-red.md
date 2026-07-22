@@ -27,5 +27,10 @@ Lightning Bond - If a Lightning card was pitched to play this, deal 1 arcane dam
 
 Keywords: [[kw-bond]]
 Rulings: search "Voltic Veil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN204.webp)
+
+## Images
+
+![PEN204 - Voltic Veil (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN204.webp)
 
 ## Notes

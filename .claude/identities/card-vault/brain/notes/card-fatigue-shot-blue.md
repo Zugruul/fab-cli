@@ -27,5 +27,10 @@ codes: [EVR096]
 
 Variants: [[card-fatigue-shot-red]] · [[card-fatigue-shot-yellow]]
 Rulings: search "Fatigue Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR096.width-450.png)
+
+## Images
+
+![EVR096 - Fatigue Shot (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR096.width-450.png)
 
 ## Notes

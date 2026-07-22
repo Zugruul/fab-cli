@@ -24,5 +24,10 @@ Arcane Barrier 2"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Crown of Everbloom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN215.webp)
+
+## Images
+
+![PEN215 - Crown of Everbloom](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN215.webp)
 
 ## Notes

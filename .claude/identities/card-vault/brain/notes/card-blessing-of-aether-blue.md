@@ -26,5 +26,11 @@ codes: [DYN202, LGS118]
 
 Variants: [[card-blessing-of-aether-red]] · [[card-blessing-of-aether-yellow]]
 Rulings: search "Blessing of Aether" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN202.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS118.png)
+
+## Images
+
+![DYN202 - Blessing of Aether (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN202.png)
+![LGS118 - Blessing of Aether (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS118.png)
 
 ## Notes

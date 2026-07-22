@@ -27,5 +27,11 @@ codes: [OUT204, UZU011]
 
 Variants: [[card-destructive-deliberation-yellow]] · [[card-destructive-deliberation-blue]]
 Rulings: search "Destructive Deliberation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT204.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU011.png)
+
+## Images
+
+![OUT204 - Destructive Deliberation (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT204.width-450.png)
+![UZU011 - Destructive Deliberation (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU011.png)
 
 ## Notes

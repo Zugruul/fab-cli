@@ -28,5 +28,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-nimblism-red]] · [[card-nimblism-yellow]]
 Rulings: search "Nimblism" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP419.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST223.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA240.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR220.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR220.png)
+
+## Images
+
+![1HP419 - Nimblism (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP419.width-450.png)
+![MST223 - Nimblism (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST223.png)
+![SEA240 - Nimblism (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA240.png)
+![WTR220 - Nimblism (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR220.png)
+![WTR220 - Nimblism (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR220.png)
 
 ## Notes

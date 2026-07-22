@@ -29,5 +29,10 @@ Ward 2"
 Keywords: [[kw-ward]]
 Variants: [[card-haunting-specter-red]] · [[card-haunting-specter-yellow]]
 Rulings: search "Haunting Specter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST142.png)
+
+## Images
+
+![MST142 - Haunting Specter (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST142.png)
 
 ## Notes

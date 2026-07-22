@@ -27,5 +27,10 @@ codes: [AHA026]
 
 Keywords: [[kw-sharpen]]
 Rulings: search "Visit the Dawnsmith" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA026.webp)
+
+## Images
+
+![AHA026 - Visit the Dawnsmith (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA026.webp)
 
 ## Notes

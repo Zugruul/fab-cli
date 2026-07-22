@@ -26,5 +26,10 @@ Target weapon attack gains +1{p}."
 
 Variants: [[card-in-the-swing-red]] · [[card-in-the-swing-yellow]]
 Rulings: search "In the Swing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR065.width-450.png)
+
+## Images
+
+![EVR065 - In the Swing (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR065.width-450.png)
 
 ## Notes

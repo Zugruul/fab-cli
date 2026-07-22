@@ -27,5 +27,13 @@ codes: [HNT191, LGS382, SAR026, WOD017]
 
 Keywords: [[kw-mark]]
 Rulings: search "Lair of the Spider" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT191.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS382.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR026.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD017.webp)
+
+## Images
+
+![HNT191 - Lair of the Spider (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT191.png)
+![LGS382 - Lair of the Spider (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS382.png)
+![SAR026 - Lair of the Spider (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR026.webp)
+![WOD017 - Lair of the Spider (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD017.webp)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [UPR184, UZU004]
 
 Keywords: [[kw-quell]]
 Rulings: search "Quelling Robe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR184.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU004.png)
+
+## Images
+
+![UPR184 - Quelling Robe](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR184.png)
+![UZU004 - Quelling Robe](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU004.png)
 
 ## Notes

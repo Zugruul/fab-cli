@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Perk Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA040.png)
+
+## Images
+
+![SEA040 - Perk Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA040.png)
 
 ## Notes

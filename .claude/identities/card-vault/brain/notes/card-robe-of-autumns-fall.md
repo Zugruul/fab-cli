@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Robe of Autumn's Fall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR004-RF.webp)
+
+## Images
+
+![ASR004 - Robe of Autumn's Fall](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR004-RF.webp)
 
 ## Notes

@@ -25,5 +25,11 @@ Blade Break"
 
 Keywords: [[kw-charge]] · [[kw-blade-break]]
 Rulings: search "Warpath of Winged Grace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG042.png)
+
+## Images
+
+![ASB006 - Warpath of Winged Grace](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB006.png)
+![JDG042 - Warpath of Winged Grace](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG042.png)
 
 ## Notes

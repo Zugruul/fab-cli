@@ -28,5 +28,10 @@ When this is equipped, up to 1 target attack gets +1{p}."
 
 Keywords: [[kw-transform]]
 Rulings: search "Evo Whizz Bang" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO052.png)
+
+## Images
+
+![EVO052 - Evo Whizz Bang (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO052.png)
 
 ## Notes

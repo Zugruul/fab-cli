@@ -27,5 +27,12 @@ Reprise - If the defending hero has defended with a card from their hand this ch
 
 Keywords: [[kw-reprise]] · [[kw-go-again]]
 Rulings: search "Glint the Quicksilver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP147.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR118.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR118.png)
+
+## Images
+
+![1HP147 - Glint the Quicksilver (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP147.width-450.png)
+![WTR118 - Glint the Quicksilver (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR118.png)
+![WTR118 - Glint the Quicksilver (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR118.png)
 
 ## Notes

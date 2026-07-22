@@ -28,5 +28,10 @@ codes: [SUP127]
 
 Keywords: [[kw-clash]]
 Rulings: search "Reckless Stampede" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP127.webp)
+
+## Images
+
+![SUP127 - Reckless Stampede (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP127.webp)
 
 ## Notes

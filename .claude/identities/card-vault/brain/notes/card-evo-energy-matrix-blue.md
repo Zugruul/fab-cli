@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Energy Matrix" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO039.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC008.png)
+
+## Images
+
+![EVO039 - Evo Energy Matrix (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO039.png)
+![TCC008 - Evo Energy Matrix (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC008.png)
 
 ## Notes

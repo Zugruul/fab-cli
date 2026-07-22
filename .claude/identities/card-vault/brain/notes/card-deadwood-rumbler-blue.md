@@ -30,5 +30,12 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-deadwood-rumbler-red]] · [[card-deadwood-rumbler-yellow]]
 Rulings: search "Deadwood Rumbler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/LEV020.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON140.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON140.width-450.png)
+
+## Images
+
+![LEV020 - Deadwood Rumbler (blue)](https://storage.googleapis.com/fabmaster/media/images/LEV020.width-450.png)
+![MON140 - Deadwood Rumbler (blue)](https://storage.googleapis.com/fabmaster/media/images/MON140.width-450.png)
+![MON140 - Deadwood Rumbler (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON140.width-450.png)
 
 ## Notes

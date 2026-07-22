@@ -27,5 +27,12 @@ The next card you play this turn with an effect that deals arcane damage, instea
 Draw a card."
 
 Rulings: search "Tome of Aetherwind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP313.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC122.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC122.png)
+
+## Images
+
+![1HP313 - Tome of Aetherwind (red)](https://storage.googleapis.com/fabmaster/media/images/1HP313.width-450.png)
+![ARC122 - Tome of Aetherwind (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC122.png)
+![ARC122 - Tome of Aetherwind (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC122.png)
 
 ## Notes

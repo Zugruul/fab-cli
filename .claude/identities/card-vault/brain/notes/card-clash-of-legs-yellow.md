@@ -25,5 +25,10 @@ codes: [MPG050]
 
 Keywords: [[kw-clash]]
 Rulings: search "Clash of Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG050.webp)
+
+## Images
+
+![MPG050 - Clash of Legs (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG050.webp)
 
 ## Notes

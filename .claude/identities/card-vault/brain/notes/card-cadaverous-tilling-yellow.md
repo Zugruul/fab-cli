@@ -29,5 +29,10 @@ codes: [ROS053]
 Keywords: [[kw-decompose]]
 Variants: [[card-cadaverous-tilling-red]] · [[card-cadaverous-tilling-blue]]
 Rulings: search "Cadaverous Tilling" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS053.png)
+
+## Images
+
+![ROS053 - Cadaverous Tilling (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS053.png)
 
 ## Notes

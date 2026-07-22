@@ -26,5 +26,10 @@ codes: [SUP084]
 "When this attacks, if you control a Might token, create 3 more."
 
 Rulings: search "Escalate Violence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP084.webp)
+
+## Images
+
+![SUP084 - Escalate Violence (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP084.webp)
 
 ## Notes

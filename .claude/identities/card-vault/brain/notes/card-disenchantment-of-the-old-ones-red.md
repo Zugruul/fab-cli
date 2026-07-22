@@ -29,5 +29,12 @@ Heave 2"
 
 Keywords: [[kw-crush]] · [[kw-heave]]
 Rulings: search "Disenchantment of the Old Ones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027-RF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027-MV.webp)
+
+## Images
+
+![MPG027 - Disenchantment of the Old Ones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027.webp)
+![MPG027 - Disenchantment of the Old Ones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027-RF.webp)
+![MPG027 - Disenchantment of the Old Ones (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027-MV.webp)
 
 ## Notes

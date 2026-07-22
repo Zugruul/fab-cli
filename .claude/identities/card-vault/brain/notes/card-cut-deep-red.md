@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-cut-deep-yellow]] · [[card-cut-deep-blue]]
 Rulings: search "Cut Deep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT128.png)
+
+## Images
+
+![HNT128 - Cut Deep (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT128.png)
 
 ## Notes

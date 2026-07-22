@@ -30,5 +30,10 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
 Keywords: [[kw-go-again]]
 Variants: [[card-spellbane-trap-yellow]] · [[card-spellbane-trap-blue]]
 Rulings: search "Spellbane Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN089.webp)
+
+## Images
+
+![PEN089 - Spellbane Trap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN089.webp)
 
 ## Notes

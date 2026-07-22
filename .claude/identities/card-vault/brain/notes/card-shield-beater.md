@@ -24,5 +24,11 @@ Cards you own named Visit Anvilheim get go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Shield Beater" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM108-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN015.webp)
+
+## Images
+
+![GEM108 - Shield Beater](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM108-CF.webp)
+![PEN015 - Shield Beater](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN015.webp)
 
 ## Notes

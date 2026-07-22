@@ -21,5 +21,11 @@ codes: [LGS453, OMN210]
 "Instant - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn."
 
 Rulings: search "Robe of Astral Sanctuary" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS453-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN210.webp)
+
+## Images
+
+![LGS453 - Robe of Astral Sanctuary](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS453-CF.webp)
+![OMN210 - Robe of Astral Sanctuary](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN210.webp)
 
 ## Notes

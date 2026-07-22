@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Civic Steps" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG034.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS210.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC033.png)
+
+## Images
+
+![JDG034 - Civic Steps](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG034.png)
+![LGS210 - Civic Steps](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS210.png)
+![TCC033 - Civic Steps](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC033.png)
 
 ## Notes

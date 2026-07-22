@@ -28,5 +28,10 @@ codes: [DYN047]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Tiger Swipe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN047.png)
+
+## Images
+
+![DYN047 - Tiger Swipe (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN047.png)
 
 ## Notes

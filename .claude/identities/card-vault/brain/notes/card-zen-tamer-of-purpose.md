@@ -24,5 +24,14 @@ codes: [HER115, MST046, WIN035]
 
 Young version: [[card-zen]]
 Rulings: search "Zen, Tamer of Purpose" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER115.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST046.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST046_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST046_BACK.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN035.png)
+
+## Images
+
+![HER115 - Zen, Tamer of Purpose](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER115.png)
+![MST046 - Zen, Tamer of Purpose](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST046.png)
+![MST046 - Zen, Tamer of Purpose](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST046_V2.png)
+![MST046 - Zen, Tamer of Purpose](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST046_BACK.png)
+![WIN035 - Zen, Tamer of Purpose](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN035.png)
 
 ## Notes

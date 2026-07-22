@@ -27,5 +27,10 @@ codes: [AST015]
 
 Variants: [[card-spark-spray-yellow]] · [[card-spark-spray-blue]]
 Rulings: search "Spark Spray" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST015.webp)
+
+## Images
+
+![AST015 - Spark Spray (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST015.webp)
 
 ## Notes

@@ -21,5 +21,12 @@ codes: [ELE174, LXI005]
 "Whenever a Lightning or Elemental attack you control is defended by a card from hand, you may destroy Mark of Lightning. If you do, the attack deals 1 damage to the defending hero."
 
 Rulings: search "Mark of Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE174.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE174.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/LXI005.width-450.png)
+
+## Images
+
+![ELE174 - Mark of Lightning](https://storage.googleapis.com/fabmaster/media/images/ELE174.width-450.png)
+![ELE174 - Mark of Lightning](https://storage.googleapis.com/fabmaster/media/images/U-ELE174.width-450.png)
+![LXI005 - Mark of Lightning](https://storage.googleapis.com/fabmaster/media/images/LXI005.width-450.png)
 
 ## Notes

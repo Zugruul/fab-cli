@@ -21,5 +21,12 @@ codes: [ELE233, FAB187]
 "Instant - Destroy Ragamuffin's Hat: Draw a card then put a card from your hand on the top or bottom of your deck. Activate this ability only if you have 1 card in hand."
 
 Rulings: search "Ragamuffin's Hat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE233.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE233.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB187.png)
+
+## Images
+
+![ELE233 - Ragamuffin's Hat](https://storage.googleapis.com/fabmaster/media/images/ELE233.width-450.png)
+![ELE233 - Ragamuffin's Hat](https://storage.googleapis.com/fabmaster/media/images/U-ELE233.width-450.png)
+![FAB187 - Ragamuffin's Hat](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB187.png)
 
 ## Notes

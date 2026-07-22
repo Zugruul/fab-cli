@@ -27,5 +27,10 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talisman of Cremation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR189.width-450.png)
+
+## Images
+
+![EVR189 - Talisman of Cremation (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR189.width-450.png)
 
 ## Notes

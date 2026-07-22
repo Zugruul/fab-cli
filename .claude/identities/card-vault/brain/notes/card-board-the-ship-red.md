@@ -28,5 +28,11 @@ codes: [FAB347, SEA053]
 
 Keywords: [[kw-overpower]]
 Rulings: search "Board the Ship" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB347-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA053.png)
+
+## Images
+
+![FAB347 - Board the Ship (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB347-RF.webp)
+![SEA053 - Board the Ship (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA053.png)
 
 ## Notes

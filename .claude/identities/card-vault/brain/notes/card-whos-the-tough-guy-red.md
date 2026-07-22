@@ -27,5 +27,10 @@ codes: [SUP052]
 
 Variants: [[card-whos-the-tough-guy-yellow]] · [[card-whos-the-tough-guy-blue]]
 Rulings: search "Who's the Tough Guy?" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP052.webp)
+
+## Images
+
+![SUP052 - Who's the Tough Guy? (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP052.webp)
 
 ## Notes

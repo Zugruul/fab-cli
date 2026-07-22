@@ -23,5 +23,11 @@ codes: [UPR016]
 "Whenever Vynserakai hits a hero, he deals 3 arcane damage to them."
 
 Rulings: search "Vynserakai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Back.png)
+
+## Images
+
+![UPR016 - Vynserakai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png)
+![UPR016 - Vynserakai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Back.png)
 
 ## Notes

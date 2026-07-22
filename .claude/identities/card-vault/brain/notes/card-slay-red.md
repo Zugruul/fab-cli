@@ -23,5 +23,10 @@ codes: [EVO248]
 "Destroy target angel ally."
 
 Rulings: search "Slay" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO248.png)
+
+## Images
+
+![EVO248 - Slay (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO248.png)
 
 ## Notes

@@ -29,5 +29,11 @@ When this hits a hero, banish the top card of their deck. You may play it until 
 
 Keywords: [[kw-stealth]]
 Rulings: search "Infiltrate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC011.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT012.width-450.png)
+
+## Images
+
+![AAC011 - Infiltrate (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC011.webp)
+![OUT012 - Infiltrate (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT012.width-450.png)
 
 ## Notes

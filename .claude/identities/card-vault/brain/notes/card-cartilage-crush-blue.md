@@ -29,5 +29,14 @@ codes: [1HP069, BVO017, MPG057, WTR062]
 Keywords: [[kw-crush]]
 Variants: [[card-cartilage-crush-red]] · [[card-cartilage-crush-yellow]]
 Rulings: search "Cartilage Crush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP069.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO17.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG057.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR062.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR062.png)
+
+## Images
+
+![1HP069 - Cartilage Crush (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP069.width-450.png)
+![BVO017 - Cartilage Crush (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO17.width-450.png)
+![MPG057 - Cartilage Crush (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG057.webp)
+![WTR062 - Cartilage Crush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR062.png)
+![WTR062 - Cartilage Crush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR062.png)
 
 ## Notes

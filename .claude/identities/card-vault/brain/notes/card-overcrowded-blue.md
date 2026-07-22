@@ -29,5 +29,11 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
 
 Keywords: [[kw-ambush]]
 Rulings: search "Overcrowded" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS426-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP216.webp)
+
+## Images
+
+![LGS426 - Overcrowded (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS426-CF.webp)
+![SUP216 - Overcrowded (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP216.webp)
 
 ## Notes

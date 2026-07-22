@@ -28,5 +28,11 @@ codes: [BET024, HVY088]
 Keywords: [[kw-wager]]
 Variants: [[card-bigger-than-big-red]] · [[card-bigger-than-big-yellow]]
 Rulings: search "Bigger Than Big" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET024.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY088.png)
+
+## Images
+
+![BET024 - Bigger Than Big (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET024.png)
+![HVY088 - Bigger Than Big (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY088.png)
 
 ## Notes

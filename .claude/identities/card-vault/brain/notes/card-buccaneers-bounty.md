@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Buccaneer's Bounty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS393.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA127.png)
+
+## Images
+
+![LGS393 - Buccaneer's Bounty](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS393.png)
+![SEA127 - Buccaneer's Bounty](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA127.png)
 
 ## Notes

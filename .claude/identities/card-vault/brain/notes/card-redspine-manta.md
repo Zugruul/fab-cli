@@ -20,5 +20,12 @@ codes: [GEM039, LGS400, SEA094]
 "Action - {t}: Put an arrow from your hand face-up into your arsenal. Go again"
 
 Rulings: search "Redspine Manta" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM039-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS400.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png)
+
+## Images
+
+![GEM039 - Redspine Manta](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM039-CF.webp)
+![LGS400 - Redspine Manta](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS400.png)
+![SEA094 - Redspine Manta](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png)
 
 ## Notes

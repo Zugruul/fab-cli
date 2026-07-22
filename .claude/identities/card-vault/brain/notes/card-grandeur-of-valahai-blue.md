@@ -26,5 +26,10 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Grandeur of Valahai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR000.width-450.png)
+
+## Images
+
+![EVR000 - Grandeur of Valahai (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR000.width-450.png)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [SEA156]
 "When this attacks, you may put a gold counter on Treasure Island."
 
 Rulings: search "Expedition to Blackwater Strait" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156_V2.png)
+
+## Images
+
+![SEA156 - Expedition to Blackwater Strait (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png)
+![SEA156 - Expedition to Blackwater Strait (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156_V2.png)
 
 ## Notes

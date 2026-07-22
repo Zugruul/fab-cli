@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Silver Palms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR086.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB077.png)
+
+## Images
+
+![EVR086 - Silver Palms](https://storage.googleapis.com/fabmaster/media/images/EVR086.width-450.png)
+![FAB077 - Silver Palms](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB077.png)
 
 ## Notes

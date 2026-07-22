@@ -27,5 +27,14 @@ codes: [ASR009, CRU063, IRA007, TCC085]
 
 Variants: [[card-flying-kick-yellow]] · [[card-flying-kick-blue]]
 Rulings: search "Flying Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR009.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU063.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU063.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/IRA007-P_9qjDnLM.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC085.png)
+
+## Images
+
+![ASR009 - Flying Kick (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR009.webp)
+![CRU063 - Flying Kick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU063.png)
+![CRU063 - Flying Kick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU063.png)
+![IRA007 - Flying Kick (red)](https://storage.googleapis.com/fabmaster/media/images/IRA007-P_9qjDnLM.width-450.png)
+![TCC085 - Flying Kick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC085.png)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [1HP400, WTR207]
 
 Variants: [[card-pummel-red]] · [[card-pummel-blue]]
 Rulings: search "Pummel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP400.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR207.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR207.png)
+
+## Images
+
+![1HP400 - Pummel (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP400.width-450.png)
+![WTR207 - Pummel (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR207.png)
+![WTR207 - Pummel (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR207.png)
 
 ## Notes

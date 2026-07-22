@@ -28,5 +28,11 @@ Whenever you boost, you may destroy a card under this. If you do, gain {r}{r}."
 
 Keywords: [[kw-transform]]
 Rulings: search "Evo Atom Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO031.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO031_V2.png)
+
+## Images
+
+![EVO031 - Evo Atom Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO031.png)
+![EVO031 - Evo Atom Breaker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO031_V2.png)
 
 ## Notes

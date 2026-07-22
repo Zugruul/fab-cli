@@ -27,5 +27,13 @@ codes: [LGS059, MON234, SVI028]
 
 Variants: [[card-vexing-malice-red]] · [[card-vexing-malice-yellow]]
 Rulings: search "Vexing Malice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS059.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON234.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON234.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI028.webp)
+
+## Images
+
+![LGS059 - Vexing Malice (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS059.png)
+![MON234 - Vexing Malice (blue)](https://storage.googleapis.com/fabmaster/media/images/MON234.width-450.png)
+![MON234 - Vexing Malice (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON234.width-450.png)
+![SVI028 - Vexing Malice (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI028.webp)
 
 ## Notes

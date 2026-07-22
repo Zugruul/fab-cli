@@ -27,5 +27,13 @@ codes: [1HP401, BVO027, WTR208]
 
 Variants: [[card-pummel-red]] · [[card-pummel-yellow]]
 Rulings: search "Pummel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP401.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO27.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR208.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR208.png)
+
+## Images
+
+![1HP401 - Pummel (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP401.width-450.png)
+![BVO027 - Pummel (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO27.width-450.png)
+![WTR208 - Pummel (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR208.png)
+![WTR208 - Pummel (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR208.png)
 
 ## Notes

@@ -29,5 +29,13 @@ When this leaves the arena, create an Embodiment of Earth token."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of Earth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS310.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS070.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS070-MV.png)
+
+## Images
+
+![AJV022 - Sigil of Earth (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV022.webp)
+![LGS310 - Sigil of Earth (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS310.png)
+![ROS070 - Sigil of Earth (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS070.png)
+![ROS070 - Sigil of Earth (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS070-MV.png)
 
 ## Notes

@@ -30,5 +30,14 @@ codes: [CIN018, FAI019, HNT070, SFA023, UPR078]
 Keywords: [[kw-go-again]]
 Variants: [[card-ronin-renegade-yellow]] · [[card-ronin-renegade-blue]]
 Rulings: search "Ronin Renegade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN018.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI019.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT070.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA023.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR078.png)
+
+## Images
+
+![CIN018 - Ronin Renegade (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN018.webp)
+![FAI019 - Ronin Renegade (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI019.webp)
+![HNT070 - Ronin Renegade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT070.png)
+![SFA023 - Ronin Renegade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA023.webp)
+![UPR078 - Ronin Renegade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR078.png)
 
 ## Notes

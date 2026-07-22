@@ -26,5 +26,11 @@ codes: [SUP254]
 "Once per Turn Instant - {u} a cog you control: This gets +1{p} or go again."
 
 Rulings: search "Backspin Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP254.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP254-CF.webp)
+
+## Images
+
+![SUP254 - Backspin Thrust (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP254.webp)
+![SUP254 - Backspin Thrust (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP254-CF.webp)
 
 ## Notes

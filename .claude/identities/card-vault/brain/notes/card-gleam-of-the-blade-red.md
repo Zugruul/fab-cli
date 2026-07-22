@@ -25,5 +25,10 @@ codes: [AHA008]
 Instant - Discard this: Create a Flurry token."
 
 Rulings: search "Gleam of the Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA008.webp)
+
+## Images
+
+![AHA008 - Gleam of the Blade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA008.webp)
 
 ## Notes

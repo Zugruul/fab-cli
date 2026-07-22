@@ -29,5 +29,10 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-blessing-of-spirits-red]] · [[card-blessing-of-spirits-yellow]]
 Rulings: search "Blessing of Spirits" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN220.png)
+
+## Images
+
+![DYN220 - Blessing of Spirits (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN220.png)
 
 ## Notes

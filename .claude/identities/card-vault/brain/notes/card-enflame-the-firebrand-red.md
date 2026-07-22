@@ -29,5 +29,11 @@ codes: [PEN250, SFA014]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Enflame the Firebrand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN250.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA014.webp)
+
+## Images
+
+![PEN250 - Enflame the Firebrand (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN250.webp)
+![SFA014 - Enflame the Firebrand (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA014.webp)
 
 ## Notes

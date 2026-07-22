@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-toxicity-yellow]] · [[card-toxicity-blue]]
 Rulings: search "Toxicity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB128.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT165.width-450.png)
+
+## Images
+
+![FAB128 - Toxicity (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB128.png)
+![OUT165 - Toxicity (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT165.width-450.png)
 
 ## Notes

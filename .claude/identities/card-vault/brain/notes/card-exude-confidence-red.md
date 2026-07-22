@@ -27,5 +27,11 @@ codes: [MON245]
 Instant - {r}{r}{r}: Exude Confidence gains +2{p}. Activate this ability only while Exude Confidence is attacking."
 
 Rulings: search "Exude Confidence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON245.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON245.width-450.png)
+
+## Images
+
+![MON245 - Exude Confidence (red)](https://storage.googleapis.com/fabmaster/media/images/MON245.width-450.png)
+![MON245 - Exude Confidence (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON245.width-450.png)
 
 ## Notes

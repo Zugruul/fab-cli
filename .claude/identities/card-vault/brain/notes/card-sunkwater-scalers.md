@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Sunkwater Scalers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG117.webp)
+
+## Images
+
+![MPG117 - Sunkwater Scalers](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG117.webp)
 
 ## Notes

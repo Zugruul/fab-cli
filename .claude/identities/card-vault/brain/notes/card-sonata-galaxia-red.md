@@ -28,5 +28,10 @@ If X is 2 or more, this gets go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sonata Galaxia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY251.png)
+
+## Images
+
+![HVY251 - Sonata Galaxia (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY251.png)
 
 ## Notes

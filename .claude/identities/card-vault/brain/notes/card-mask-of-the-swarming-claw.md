@@ -24,5 +24,11 @@ Spellvoid X, where X is the number of chain links you control."
 
 Keywords: [[kw-arcane-barrier]] · [[kw-spellvoid]]
 Rulings: search "Mask of the Swarming Claw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN030.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA005.webp)
+
+## Images
+
+![PEN030 - Mask of the Swarming Claw](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN030.webp)
+![SFA005 - Mask of the Swarming Claw](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA005.webp)
 
 ## Notes

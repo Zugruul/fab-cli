@@ -27,5 +27,14 @@ Once per Turn Action - Turn a face down card in your arsenal face up: If it's a 
 Keywords: [[kw-essence]] · [[kw-go-again]]
 Young version: [[card-lexi]]
 Rulings: search "Lexi, Livewire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE031.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE031.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER043.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER049.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN014.png)
+
+## Images
+
+![ELE031 - Lexi, Livewire](https://storage.googleapis.com/fabmaster/media/images/ELE031.width-450.png)
+![ELE031 - Lexi, Livewire](https://storage.googleapis.com/fabmaster/media/images/U-ELE031.width-450.png)
+![HER043 - Lexi, Livewire](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER043.png)
+![HER049 - Lexi, Livewire](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER049.png)
+![WIN014 - Lexi, Livewire](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN014.png)
 
 ## Notes

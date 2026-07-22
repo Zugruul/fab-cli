@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-steal]]
 Rulings: search "Mutiny on the Swiftwater" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178_V2.png)
+
+## Images
+
+![SEA178 - Mutiny on the Swiftwater (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178.png)
+![SEA178 - Mutiny on the Swiftwater (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178_V2.png)
 
 ## Notes

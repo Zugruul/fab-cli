@@ -24,5 +24,11 @@ codes: [ANQ027, HVY212]
 If this was played from arsenal, draw a card."
 
 Rulings: search "Seduce Secrets" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY212.png)
+
+## Images
+
+![ANQ027 - Seduce Secrets (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ027.webp)
+![HVY212 - Seduce Secrets (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY212.png)
 
 ## Notes

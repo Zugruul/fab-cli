@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Leap Frog Vocal Sac" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT169.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD003.webp)
+
+## Images
+
+![HNT169 - Leap Frog Vocal Sac](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT169.png)
+![WOD003 - Leap Frog Vocal Sac](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD003.webp)
 
 ## Notes

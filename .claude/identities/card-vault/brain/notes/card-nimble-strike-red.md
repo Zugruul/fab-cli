@@ -27,5 +27,12 @@ codes: [MST209, WTR185]
 
 Variants: [[card-nimble-strike-yellow]] · [[card-nimble-strike-blue]]
 Rulings: search "Nimble Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST209.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR185.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR185.png)
+
+## Images
+
+![MST209 - Nimble Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST209.png)
+![WTR185 - Nimble Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR185.png)
+![WTR185 - Nimble Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR185.png)
 
 ## Notes

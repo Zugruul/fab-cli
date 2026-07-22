@@ -28,5 +28,10 @@ When this hits a hero, destroy the top card of their deck."
 
 Variants: [[card-crash-down-the-gates-red]] · [[card-crash-down-the-gates-blue]]
 Rulings: search "Crash Down the Gates" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA199.png)
+
+## Images
+
+![SEA199 - Crash Down the Gates (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA199.png)
 
 ## Notes

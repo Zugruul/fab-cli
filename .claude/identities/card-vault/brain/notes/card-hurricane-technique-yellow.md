@@ -28,5 +28,11 @@ codes: [WTR084]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Hurricane Technique" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR084.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR084.png)
+
+## Images
+
+![WTR084 - Hurricane Technique (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR084.png)
+![WTR084 - Hurricane Technique (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR084.png)
 
 ## Notes

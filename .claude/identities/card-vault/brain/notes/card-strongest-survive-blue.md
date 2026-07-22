@@ -27,5 +27,11 @@ codes: [SKA032, SUP137]
 
 Variants: [[card-strongest-survive-red]] · [[card-strongest-survive-yellow]]
 Rulings: search "Strongest Survive" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA032.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP137.webp)
+
+## Images
+
+![SKA032 - Strongest Survive (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA032.webp)
+![SUP137 - Strongest Survive (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP137.webp)
 
 ## Notes

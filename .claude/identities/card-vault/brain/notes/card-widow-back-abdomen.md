@@ -23,5 +23,10 @@ Spellvoid 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-spellvoid]]
 Rulings: search "Widow Back Abdomen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS240.png)
+
+## Images
+
+![ROS240 - Widow Back Abdomen](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS240.png)
 
 ## Notes

@@ -28,5 +28,11 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Nebulus Cycle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN035.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN035-CF.webp)
+
+## Images
+
+![OMN035 - Nebulus Cycle (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN035.webp)
+![OMN035 - Nebulus Cycle (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN035-CF.webp)
 
 ## Notes

@@ -20,5 +20,10 @@ codes: [DYN235]
 "Instant - {r}, destroy Ornate Tessen: Put a card from your hand on the bottom of your deck. If you do, draw a card."
 
 Rulings: search "Ornate Tessen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN235.png)
+
+## Images
+
+![DYN235 - Ornate Tessen](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN235.png)
 
 ## Notes

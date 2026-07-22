@@ -26,5 +26,10 @@ codes: [MST008]
 Banish all defending attack action cards on the combat chain. If a Chi was pitched to play this, you may play the banished cards this combat chain without paying their {r} cost."
 
 Rulings: search "Gorgon's Gaze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST008.png)
+
+## Images
+
+![MST008 - Gorgon's Gaze (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST008.png)
 
 ## Notes

@@ -27,5 +27,13 @@ codes: [1HP257, CRU134]
 
 Variants: [[card-sleep-dart-red]] · [[card-sleep-dart-yellow]]
 Rulings: search "Sleep Dart" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP257.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU134.png)
+
+## Images
+
+![1HP257 - Sleep Dart (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP257.width-450.png)
+![CRU134 - Sleep Dart (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134.png)
+![CRU134 - Sleep Dart (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134-RF.png)
+![CRU134 - Sleep Dart (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU134.png)
 
 ## Notes

@@ -30,5 +30,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Spring Tidings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR039.width-450.png)
+
+## Images
+
+![EVR039 - Spring Tidings (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR039.width-450.png)
 
 ## Notes

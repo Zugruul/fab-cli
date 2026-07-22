@@ -28,5 +28,11 @@ Surge - If this deals more than 1 damage to a hero, you may remove an energy cou
 Keywords: [[kw-surge]]
 Variants: [[card-sap-red]] · [[card-sap-yellow]]
 Rulings: search "Sap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN208.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB117.png)
+
+## Images
+
+![DYN208 - Sap (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN208.png)
+![FAB117 - Sap (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB117.png)
 
 ## Notes

@@ -26,5 +26,15 @@ codes: [AAC001, HER130, HER131, HNT261, WIN042]
 Keywords: [[kw-go-again]]
 Young version: [[card-arakni]]
 Rulings: search "Arakni, 5L!p3d 7hRu 7h3 cR4X" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER130.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER131.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT261.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT261_BACK.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN042.png)
+
+## Images
+
+![AAC001 - Arakni, 5L!p3d 7hRu 7h3 cR4X](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC001.webp)
+![HER130 - Arakni, 5L!p3d 7hRu 7h3 cR4X](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER130.png)
+![HER131 - Arakni, 5L!p3d 7hRu 7h3 cR4X](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER131.png)
+![HNT261 - Arakni, 5L!p3d 7hRu 7h3 cR4X](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT261.png)
+![HNT261 - Arakni, 5L!p3d 7hRu 7h3 cR4X](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT261_BACK.png)
+![WIN042 - Arakni, 5L!p3d 7hRu 7h3 cR4X](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN042.png)
 
 ## Notes

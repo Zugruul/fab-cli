@@ -26,5 +26,10 @@ codes: [MST087]
 "If you've played another blue card this turn, this gets +2{p}."
 
 Rulings: search "Droplet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST087.png)
+
+## Images
+
+![MST087 - Droplet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST087.png)
 
 ## Notes

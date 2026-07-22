@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Red Alert Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG006.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT195.png)
+
+## Images
+
+![FNG006 - Red Alert Boots](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG006.webp)
+![HNT195 - Red Alert Boots](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT195.png)
 
 ## Notes

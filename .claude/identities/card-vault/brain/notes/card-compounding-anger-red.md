@@ -26,5 +26,11 @@ codes: [FAB321, HNT151]
 "This costs {r} less to play for each Draconic chain link you control."
 
 Rulings: search "Compounding Anger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB321-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT151.png)
+
+## Images
+
+![FAB321 - Compounding Anger (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB321-RF.webp)
+![HNT151 - Compounding Anger (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT151.png)
 
 ## Notes

@@ -28,5 +28,11 @@ When this enters the arena, attack action cards your opponents control get -1{p}
 
 Keywords: [[kw-legendary]]
 Rulings: search "Figment of Triumph" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011_V2.png)
+
+## Images
+
+![DTD011 - Figment of Triumph (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011.png)
+![DTD011 - Figment of Triumph (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011_V2.png)
 
 ## Notes

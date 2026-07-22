@@ -27,5 +27,10 @@ codes: [HVY075]
 
 Variants: [[card-concuss-red]] · [[card-concuss-blue]]
 Rulings: search "Concuss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY075.png)
+
+## Images
+
+![HVY075 - Concuss (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY075.png)
 
 ## Notes

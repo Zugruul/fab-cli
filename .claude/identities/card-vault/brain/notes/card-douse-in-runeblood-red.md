@@ -28,5 +28,10 @@ codes: [HNT254]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Douse in Runeblood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT254.png)
+
+## Images
+
+![HNT254 - Douse in Runeblood (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT254.png)
 
 ## Notes

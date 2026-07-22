@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Rulings: search "Clearing Bellow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS147.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/RVD025.width-450.png)
+
+## Images
+
+![ARR026 - Clearing Bellow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR026.webp)
+![LGS147 - Clearing Bellow (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS147.png)
+![RVD025 - Clearing Bellow (blue)](https://storage.googleapis.com/fabmaster/media/images/RVD025.width-450.png)
 
 ## Notes

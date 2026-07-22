@@ -30,5 +30,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Cull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT259.png)
+
+## Images
+
+![HNT259 - Cull (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT259.png)
 
 ## Notes

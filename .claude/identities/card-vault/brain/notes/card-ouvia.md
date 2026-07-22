@@ -25,5 +25,11 @@ codes: [UPR014]
 
 Keywords: [[kw-transform]]
 Rulings: search "Ouvia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Back.png)
+
+## Images
+
+![UPR014 - Ouvia](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png)
+![UPR014 - Ouvia](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Back.png)
 
 ## Notes

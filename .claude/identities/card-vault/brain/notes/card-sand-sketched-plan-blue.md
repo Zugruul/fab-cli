@@ -28,5 +28,12 @@ If the discarded card has 6 or more {p}, gain 2 action points."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Sand Sketched Plan" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP015.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR009.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR009.png)
+
+## Images
+
+![1HP015 - Sand Sketched Plan (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP015.width-450.png)
+![WTR009 - Sand Sketched Plan (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR009.png)
+![WTR009 - Sand Sketched Plan (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR009.png)
 
 ## Notes

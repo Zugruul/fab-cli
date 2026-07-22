@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-swing-fist-think-later-yellow]] · [[card-swing-fist-think-later-blue]]
 Rulings: search "Swing Fist, Think Later" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU019.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU019.png)
+
+## Images
+
+![CRU019 - Swing Fist, Think Later (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU019.png)
+![CRU019 - Swing Fist, Think Later (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU019.png)
 
 ## Notes

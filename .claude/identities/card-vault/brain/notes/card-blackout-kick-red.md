@@ -29,5 +29,13 @@ codes: [1HP104, KSU009, WTR089]
 Keywords: [[kw-combo]]
 Variants: [[card-blackout-kick-yellow]] · [[card-blackout-kick-blue]]
 Rulings: search "Blackout Kick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP104.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/KSU9.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR089.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR089.png)
+
+## Images
+
+![1HP104 - Blackout Kick (red)](https://storage.googleapis.com/fabmaster/media/images/1HP104.width-450.png)
+![KSU009 - Blackout Kick (red)](https://storage.googleapis.com/fabmaster/media/images/KSU9.width-450.png)
+![WTR089 - Blackout Kick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR089.png)
+![WTR089 - Blackout Kick (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR089.png)
 
 ## Notes

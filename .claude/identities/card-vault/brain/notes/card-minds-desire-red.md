@@ -31,5 +31,11 @@ Whenever this banishes a non-attack action card, gain 1{h}."
 Keywords: [[kw-stealth]]
 Variants: [[card-minds-desire-yellow]] · [[card-minds-desire-blue]]
 Rulings: search "Mind's Desire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST124.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU012.png)
+
+## Images
+
+![MST124 - Mind's Desire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST124.png)
+![NUU012 - Mind's Desire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU012.png)
 
 ## Notes

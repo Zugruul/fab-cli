@@ -31,5 +31,11 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Bubba-Lubba, Run Aground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN157.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN157-MV.webp)
+
+## Images
+
+![PEN157 - Bubba-Lubba, Run Aground (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN157.webp)
+![PEN157 - Bubba-Lubba, Run Aground (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN157-MV.webp)
 
 ## Notes

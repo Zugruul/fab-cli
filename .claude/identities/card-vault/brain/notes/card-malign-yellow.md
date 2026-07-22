@@ -30,5 +30,10 @@ Damage that would be dealt by Malign can't be prevented."
 Keywords: [[kw-stealth]]
 Variants: [[card-malign-red]] · [[card-malign-blue]]
 Rulings: search "Malign" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT031.width-450.png)
+
+## Images
+
+![OUT031 - Malign (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT031.width-450.png)
 
 ## Notes

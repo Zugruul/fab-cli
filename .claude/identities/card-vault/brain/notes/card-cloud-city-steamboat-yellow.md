@@ -28,5 +28,10 @@ Twice per Turn Instant - {t} a cog you control: This gets +1{p}."
 
 Variants: [[card-cloud-city-steamboat-red]] · [[card-cloud-city-steamboat-blue]]
 Rulings: search "Cloud City Steamboat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA016.png)
+
+## Images
+
+![SEA016 - Cloud City Steamboat (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA016.png)
 
 ## Notes

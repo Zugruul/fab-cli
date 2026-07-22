@@ -28,5 +28,11 @@ codes: [GEM153, OMN056]
 
 Variants: [[card-stinging-sprite-yellow]] · [[card-stinging-sprite-blue]]
 Rulings: search "Stinging Sprite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM153.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN056.webp)
+
+## Images
+
+![GEM153 - Stinging Sprite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM153.webp)
+![OMN056 - Stinging Sprite (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN056.webp)
 
 ## Notes

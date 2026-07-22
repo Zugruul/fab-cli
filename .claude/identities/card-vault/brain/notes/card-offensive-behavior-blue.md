@@ -28,5 +28,11 @@ codes: [LGS420, SUP070]
 When this hits a hero, create a Might and a Vigor token."
 
 Rulings: search "Offensive Behavior" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS420-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP070.webp)
+
+## Images
+
+![LGS420 - Offensive Behavior (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS420-CF.webp)
+![SUP070 - Offensive Behavior (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP070.webp)
 
 ## Notes

@@ -26,5 +26,10 @@ codes: [DYN153]
 "When this hits, at the beginning of your end phase, put the top card of your deck face up into your arsenal."
 
 Rulings: search "Heat Seeker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN153.png)
+
+## Images
+
+![DYN153 - Heat Seeker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN153.png)
 
 ## Notes

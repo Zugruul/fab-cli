@@ -30,5 +30,12 @@ When this hits a hero, create a Bloodrot Pox token under their control."
 Keywords: [[kw-stealth]]
 Variants: [[card-infect-red]] · [[card-infect-blue]]
 Rulings: search "Infect" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA020.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT025.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU017.png)
+
+## Images
+
+![ARA020 - Infect (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA020.png)
+![OUT025 - Infect (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT025.width-450.png)
+![UZU017 - Infect (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU017.png)
 
 ## Notes

@@ -27,5 +27,11 @@ codes: [ELE197]
 
 Variants: [[card-shock-striker-red]] · [[card-shock-striker-yellow]]
 Rulings: search "Shock Striker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE197.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE197.width-450.png)
+
+## Images
+
+![ELE197 - Shock Striker (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE197.width-450.png)
+![ELE197 - Shock Striker (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE197.width-450.png)
 
 ## Notes

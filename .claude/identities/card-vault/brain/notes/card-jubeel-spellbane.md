@@ -22,5 +22,11 @@ codes: [DYN067, FAB137]
 Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spellbane Aegis token."
 
 Rulings: search "Jubeel, Spellbane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN067.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB137.png)
+
+## Images
+
+![DYN067 - Jubeel, Spellbane](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN067.png)
+![FAB137 - Jubeel, Spellbane](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB137.png)
 
 ## Notes

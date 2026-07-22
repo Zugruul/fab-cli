@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-tempest-aurora-red]] · [[card-tempest-aurora-blue]]
 Rulings: search "Tempest Aurora" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN210.png)
+
+## Images
+
+![DYN210 - Tempest Aurora (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN210.png)
 
 ## Notes

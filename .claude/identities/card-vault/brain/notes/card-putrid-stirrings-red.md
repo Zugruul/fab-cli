@@ -31,5 +31,10 @@ Blood debt"
 Keywords: [[kw-blood-debt]] · [[kw-go-again]]
 Variants: [[card-putrid-stirrings-yellow]] · [[card-putrid-stirrings-blue]]
 Rulings: search "Putrid Stirrings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD161.png)
+
+## Images
+
+![DTD161 - Putrid Stirrings (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD161.png)
 
 ## Notes

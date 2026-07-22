@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Bone Puppetry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN151.webp)
+
+## Images
+
+![PEN151 - Bone Puppetry](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN151.webp)
 
 ## Notes

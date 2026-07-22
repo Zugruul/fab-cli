@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Shattering Grasp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN228.webp)
+
+## Images
+
+![PEN228 - Shattering Grasp](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN228.webp)
 
 ## Notes

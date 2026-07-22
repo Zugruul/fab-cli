@@ -31,5 +31,12 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-rift-bind-red]] · [[card-rift-bind-yellow]]
 Rulings: search "Rift Bind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN019.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON176.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON176.width-450.png)
+
+## Images
+
+![CHN019 - Rift Bind (blue)](https://storage.googleapis.com/fabmaster/media/images/CHN019.width-450.png)
+![MON176 - Rift Bind (blue)](https://storage.googleapis.com/fabmaster/media/images/MON176.width-450.png)
+![MON176 - Rift Bind (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON176.width-450.png)
 
 ## Notes

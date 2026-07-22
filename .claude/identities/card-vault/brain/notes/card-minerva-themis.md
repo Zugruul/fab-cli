@@ -21,5 +21,11 @@ codes: [BOL002, FAB044]
 While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle."
 
 Rulings: search "Minerva Themis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL002_Minerva_Themis.width-10000.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB044.png)
+
+## Images
+
+![BOL002 - Minerva Themis](https://storage.googleapis.com/fabmaster/media/images/BOL002_Minerva_Themis.width-10000.png)
+![FAB044 - Minerva Themis](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB044.png)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [OMN229]
 "If you've intimidated an opponent this turn, this costs {r}{r}{r} less to play."
 
 Rulings: search "Feral Instinct" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN229.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN229-CF.webp)
+
+## Images
+
+![OMN229 - Feral Instinct (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN229.webp)
+![OMN229 - Feral Instinct (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN229-CF.webp)
 
 ## Notes

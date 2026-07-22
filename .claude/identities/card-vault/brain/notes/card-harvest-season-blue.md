@@ -29,5 +29,11 @@ At the beginning of your action phase, destroy this, then gain 1{h}."
 Keywords: [[kw-go-again]]
 Variants: [[card-harvest-season-red]] · [[card-harvest-season-yellow]]
 Rulings: search "Harvest Season" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS063.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER024.webp)
+
+## Images
+
+![ROS063 - Harvest Season (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS063.png)
+![VER024 - Harvest Season (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER024.webp)
 
 ## Notes

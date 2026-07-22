@@ -27,5 +27,11 @@ codes: [SKA016, SUP158]
 
 Variants: [[card-rough-up-yellow]] · [[card-rough-up-blue]]
 Rulings: search "Rough Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA016.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP158.webp)
+
+## Images
+
+![SKA016 - Rough Up (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA016.webp)
+![SUP158 - Rough Up (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP158.webp)
 
 ## Notes

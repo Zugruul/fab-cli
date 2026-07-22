@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-deadwood-dirge-red]] · [[card-deadwood-dirge-yellow]]
 Rulings: search "Deadwood Dirge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS157.png)
+
+## Images
+
+![ROS157 - Deadwood Dirge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS157.png)
 
 ## Notes

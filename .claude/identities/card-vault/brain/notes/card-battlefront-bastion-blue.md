@@ -27,5 +27,12 @@ codes: [AKO019, FAB237, MST205]
 
 Variants: [[card-battlefront-bastion-red]] · [[card-battlefront-bastion-yellow]]
 Rulings: search "Battlefront Bastion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO019.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB237.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST205.png)
+
+## Images
+
+![AKO019 - Battlefront Bastion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO019.png)
+![FAB237 - Battlefront Bastion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB237.png)
+![MST205 - Battlefront Bastion (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST205.png)
 
 ## Notes

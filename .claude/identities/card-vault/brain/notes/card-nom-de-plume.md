@@ -21,5 +21,11 @@ codes: [LGS213, TCC051]
 "Action - Destroy this: Each hero draws a card.  Go again"
 
 Rulings: search "Nom de Plume" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS213.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC051.png)
+
+## Images
+
+![LGS213 - Nom de Plume](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS213.png)
+![TCC051 - Nom de Plume](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC051.png)
 
 ## Notes

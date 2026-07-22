@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-point-the-tip-yellow]] · [[card-point-the-tip-blue]]
 Rulings: search "Point the Tip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ020.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN168.png)
+
+## Images
+
+![AAZ020 - Point the Tip (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ020.png)
+![DYN168 - Point the Tip (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN168.png)
 
 ## Notes

@@ -30,5 +30,11 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-rev-up-yellow]] · [[card-rev-up-blue]]
 Rulings: search "Rev Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO183.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA017.webp)
+
+## Images
+
+![EVO183 - Rev Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO183.png)
+![SDA017 - Rev Up (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA017.webp)
 
 ## Notes

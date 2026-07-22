@@ -26,5 +26,13 @@ Whenever the crowd boos you, create a Might token."
 
 Young version: [[card-lyath-goldmane]]
 Rulings: search "Lyath Goldmane, Vile Savant" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER149-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP071.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP071-MV.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP071-MV_BACK.webp)
+
+## Images
+
+![HER149 - Lyath Goldmane, Vile Savant](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER149-RF.webp)
+![SUP071 - Lyath Goldmane, Vile Savant](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP071.webp)
+![SUP071 - Lyath Goldmane, Vile Savant](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP071-MV.webp)
+![SUP071 - Lyath Goldmane, Vile Savant](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP071-MV_BACK.webp)
 
 ## Notes

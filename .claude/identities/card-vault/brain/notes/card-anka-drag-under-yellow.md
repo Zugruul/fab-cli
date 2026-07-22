@@ -30,5 +30,11 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Anka, Drag Under" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA262.png)
+
+## Images
+
+![AGB014 - Anka, Drag Under (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB014.webp)
+![SEA262 - Anka, Drag Under (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA262.png)
 
 ## Notes

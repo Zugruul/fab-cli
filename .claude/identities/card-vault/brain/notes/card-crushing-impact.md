@@ -18,5 +18,10 @@ codes: [SMP021]
 "The next time you would deal less than 4 damage this turn, instead deal 4 damage."
 
 Rulings: search "Crushing Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP021.webp)
+
+## Images
+
+![SMP021 - Crushing Impact](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP021.webp)
 
 ## Notes

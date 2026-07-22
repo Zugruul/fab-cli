@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Stadium Centerpiece" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY203.png)
+
+## Images
+
+![HVY203 - Stadium Centerpiece](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY203.png)
 
 ## Notes

@@ -18,5 +18,10 @@ codes: [SMP029]
 "Put an attack action card from your graveyard on the top of your deck. If you have less {h} than an opponent, instead put it in your hand."
 
 Rulings: search "Pick Yourself Up Off the Floor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP029.webp)
+
+## Images
+
+![SMP029 - Pick Yourself Up Off the Floor](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP029.webp)
 
 ## Notes

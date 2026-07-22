@@ -31,5 +31,10 @@ The first time this deals damage to a hero, create a Lightning Flow token."
 Keywords: [[kw-quickstrike]]
 Variants: [[card-singeing-flowstride-red]] · [[card-singeing-flowstride-blue]]
 Rulings: search "Singeing Flowstride" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN072.webp)
+
+## Images
+
+![OMN072 - Singeing Flowstride (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN072.webp)
 
 ## Notes

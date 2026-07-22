@@ -22,5 +22,10 @@ codes: [DTD205]
 The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up, until end of turn."
 
 Rulings: search "Decimator Great Axe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD205.png)
+
+## Images
+
+![DTD205 - Decimator Great Axe](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD205.png)
 
 ## Notes

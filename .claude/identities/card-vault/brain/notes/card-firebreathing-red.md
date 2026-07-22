@@ -26,5 +26,10 @@ codes: [EVR157]
 "Instant - {r}: Firebreathing gains +1{p}. Activate this ability only while Firebreathing is attacking."
 
 Rulings: search "Firebreathing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR157.width-450.png)
+
+## Images
+
+![EVR157 - Firebreathing (red)](https://storage.googleapis.com/fabmaster/media/images/EVR157.width-450.png)
 
 ## Notes

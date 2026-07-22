@@ -27,5 +27,11 @@ codes: [GEM042, SEA027]
 
 Variants: [[card-sky-skimmer-yellow]] · [[card-sky-skimmer-blue]]
 Rulings: search "Sky Skimmer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM042.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA027.png)
+
+## Images
+
+![GEM042 - Sky Skimmer (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM042.webp)
+![SEA027 - Sky Skimmer (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA027.png)
 
 ## Notes

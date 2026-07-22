@@ -27,5 +27,13 @@ codes: [AKO017, HVY165, KYO022, SKA025]
 
 Variants: [[card-agile-windup-red]] · [[card-agile-windup-yellow]]
 Rulings: search "Agile Windup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO017.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY165.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO022.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA025.webp)
+
+## Images
+
+![AKO017 - Agile Windup (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO017.png)
+![HVY165 - Agile Windup (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY165.png)
+![KYO022 - Agile Windup (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO022.png)
+![SKA025 - Agile Windup (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA025.webp)
 
 ## Notes

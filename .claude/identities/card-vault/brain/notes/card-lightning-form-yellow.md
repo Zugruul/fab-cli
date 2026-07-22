@@ -27,5 +27,10 @@ codes: [ROS083]
 
 Variants: [[card-lightning-form-red]] · [[card-lightning-form-blue]]
 Rulings: search "Lightning Form" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS083.png)
+
+## Images
+
+![ROS083 - Lightning Form (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS083.png)
 
 ## Notes

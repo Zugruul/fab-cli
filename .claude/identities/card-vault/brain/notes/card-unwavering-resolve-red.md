@@ -29,5 +29,10 @@ If this is defended by 3 or more cards, it gets go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Unwavering Resolve" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP218.webp)
+
+## Images
+
+![SUP218 - Unwavering Resolve (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP218.webp)
 
 ## Notes

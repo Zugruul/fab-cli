@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Raise Blades" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW032.webp)
+
+## Images
+
+![MPW032 - Raise Blades (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW032.webp)
 
 ## Notes

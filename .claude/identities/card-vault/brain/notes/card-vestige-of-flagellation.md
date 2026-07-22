@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Vestige of Flagellation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN191.webp)
+
+## Images
+
+![PEN191 - Vestige of Flagellation](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN191.webp)
 
 ## Notes

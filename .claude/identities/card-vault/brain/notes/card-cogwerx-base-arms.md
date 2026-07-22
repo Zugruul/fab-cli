@@ -21,5 +21,10 @@ codes: [EVO016]
 Once per Turn Instant - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've boosted this turn."
 
 Rulings: search "Cogwerx Base Arms" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO016.png)
+
+## Images
+
+![EVO016 - Cogwerx Base Arms](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO016.png)
 
 ## Notes

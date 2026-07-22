@@ -27,5 +27,11 @@ Surge - If this deals more than 4 damage, banish it. You may play it this turn."
 
 Keywords: [[kw-surge]]
 Rulings: search "Eternal Inferno" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS167.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS167-EA.png)
+
+## Images
+
+![ROS167 - Eternal Inferno (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS167.png)
+![ROS167 - Eternal Inferno (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS167-EA.png)
 
 ## Notes

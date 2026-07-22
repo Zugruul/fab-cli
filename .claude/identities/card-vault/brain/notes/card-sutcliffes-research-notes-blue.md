@@ -28,5 +28,13 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sutcliffes-research-notes-red]] · [[card-sutcliffes-research-notes-yellow]]
 Rulings: search "Sutcliffe's Research Notes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP299.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU156.png)
+
+## Images
+
+![1HP299 - Sutcliffe's Research Notes (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP299.width-450.png)
+![CRU156 - Sutcliffe's Research Notes (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156.png)
+![CRU156 - Sutcliffe's Research Notes (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156-RF.png)
+![CRU156 - Sutcliffe's Research Notes (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU156.png)
 
 ## Notes

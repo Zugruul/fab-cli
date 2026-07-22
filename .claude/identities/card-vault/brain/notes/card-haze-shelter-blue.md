@@ -28,5 +28,10 @@ codes: [MST039]
 Keywords: [[kw-ward]]
 Variants: [[card-haze-shelter-red]] · [[card-haze-shelter-yellow]]
 Rulings: search "Haze Shelter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST039.png)
+
+## Images
+
+![MST039 - Haze Shelter (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST039.png)
 
 ## Notes

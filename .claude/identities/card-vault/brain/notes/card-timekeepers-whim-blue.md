@@ -26,5 +26,10 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
 
 Variants: [[card-timekeepers-whim-red]] · [[card-timekeepers-whim-yellow]]
 Rulings: search "Timekeeper's Whim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON136_Timekeepers_Whim.width-10000.png)
+
+## Images
+
+![EVR136 - Timekeeper's Whim (blue)](https://storage.googleapis.com/fabmaster/media/images/MON136_Timekeepers_Whim.width-10000.png)
 
 ## Notes

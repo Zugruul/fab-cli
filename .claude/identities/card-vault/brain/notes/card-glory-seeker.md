@@ -20,5 +20,10 @@ codes: [HVY196]
 "Instant - {r}{r}{r}, destroy this: Draw a card."
 
 Rulings: search "Glory Seeker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png)
+
+## Images
+
+![HVY196 - Glory Seeker](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png)
 
 ## Notes

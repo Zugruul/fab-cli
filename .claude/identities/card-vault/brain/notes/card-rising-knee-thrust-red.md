@@ -29,5 +29,13 @@ codes: [1HP119, KSU014, WTR104]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-rising-knee-thrust-yellow]] · [[card-rising-knee-thrust-blue]]
 Rulings: search "Rising Knee Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP119.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/KSU14.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR104.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR104.png)
+
+## Images
+
+![1HP119 - Rising Knee Thrust (red)](https://storage.googleapis.com/fabmaster/media/images/1HP119.width-450.png)
+![KSU014 - Rising Knee Thrust (red)](https://storage.googleapis.com/fabmaster/media/images/KSU14.width-450.png)
+![WTR104 - Rising Knee Thrust (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR104.png)
+![WTR104 - Rising Knee Thrust (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR104.png)
 
 ## Notes

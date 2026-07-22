@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-flex-claws-red]] · [[card-flex-claws-yellow]]
 Rulings: search "Flex Claws" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN052.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST181.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN021.png)
+
+## Images
+
+![DYN052 - Flex Claws (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN052.png)
+![MST181 - Flex Claws (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST181.png)
+![ZEN021 - Flex Claws (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN021.png)
 
 ## Notes

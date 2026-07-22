@@ -29,5 +29,12 @@ codes: [ANQ028, FAB356, OUT195]
 Keywords: [[kw-go-again]]
 Variants: [[card-looking-for-a-scrap-yellow]] · [[card-looking-for-a-scrap-blue]]
 Rulings: search "Looking for a Scrap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ028.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB356-RF.webp) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT195.width-450.png)
+
+## Images
+
+![ANQ028 - Looking for a Scrap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ028.webp)
+![FAB356 - Looking for a Scrap (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB356-RF.webp)
+![OUT195 - Looking for a Scrap (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT195.width-450.png)
 
 ## Notes

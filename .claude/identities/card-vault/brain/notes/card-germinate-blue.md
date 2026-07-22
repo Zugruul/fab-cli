@@ -29,5 +29,11 @@ Gain X+1{h}"
 
 Keywords: [[kw-specialization]]
 Rulings: search "Germinate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB267.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS004.png)
+
+## Images
+
+![FAB267 - Germinate (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB267.png)
+![ROS004 - Germinate (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS004.png)
 
 ## Notes

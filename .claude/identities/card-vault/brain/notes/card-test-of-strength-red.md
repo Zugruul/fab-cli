@@ -25,5 +25,13 @@ codes: [FAB199, HVY239, SEN019, VIC013]
 
 Keywords: [[kw-clash]]
 Rulings: search "Test of Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB199.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY239.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN019.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC013.png)
+
+## Images
+
+![FAB199 - Test of Strength (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB199.png)
+![HVY239 - Test of Strength (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY239.png)
+![SEN019 - Test of Strength (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN019.webp)
+![VIC013 - Test of Strength (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC013.png)
 
 ## Notes

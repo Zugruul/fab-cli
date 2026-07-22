@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-tentacular-toll-red]] · [[card-tentacular-toll-yellow]]
 Rulings: search "Tentacular Toll" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN164.webp)
+
+## Images
+
+![PEN164 - Tentacular Toll (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN164.webp)
 
 ## Notes

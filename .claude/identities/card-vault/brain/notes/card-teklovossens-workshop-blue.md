@@ -28,5 +28,12 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
 Keywords: [[kw-opt]]
 Variants: [[card-teklovossens-workshop-red]] · [[card-teklovossens-workshop-yellow]]
 Rulings: search "Teklovossen's Workshop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU117.png)
+
+## Images
+
+![CRU117 - Teklovossen's Workshop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117.png)
+![CRU117 - Teklovossen's Workshop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117-RF.png)
+![CRU117 - Teklovossen's Workshop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU117.png)
 
 ## Notes

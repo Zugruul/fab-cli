@@ -30,5 +30,12 @@ When this attacks, if you've beaten chest this turn, create a Might token."
 Keywords: [[kw-beat-chest]]
 Variants: [[card-pound-town-red]] · [[card-pound-town-yellow]]
 Rulings: search "Pound Town" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO021.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY037.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR023.png)
+
+## Images
+
+![AKO021 - Pound Town (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO021.png)
+![HVY037 - Pound Town (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY037.png)
+![RHI023 - Pound Town (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR023.png)
 
 ## Notes

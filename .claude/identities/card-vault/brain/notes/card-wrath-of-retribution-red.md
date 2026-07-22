@@ -32,5 +32,12 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Wrath of Retribution" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT061.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT061-EA.png)
+
+## Images
+
+![CIN021 - Wrath of Retribution (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN021.webp)
+![HNT061 - Wrath of Retribution (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT061.png)
+![HNT061 - Wrath of Retribution (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT061-EA.png)
 
 ## Notes

@@ -28,5 +28,11 @@ codes: [SEA085]
 
 Keywords: [[kw-go-fish]]
 Rulings: search "King Kraken Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085_V2.png)
+
+## Images
+
+![SEA085 - King Kraken Harpoon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085.png)
+![SEA085 - King Kraken Harpoon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085_V2.png)
 
 ## Notes

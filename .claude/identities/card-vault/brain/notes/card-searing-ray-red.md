@@ -27,5 +27,10 @@ codes: [DTD097]
 
 Variants: [[card-searing-ray-yellow]] · [[card-searing-ray-blue]]
 Rulings: search "Searing Ray" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD097.png)
+
+## Images
+
+![DTD097 - Searing Ray (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD097.png)
 
 ## Notes

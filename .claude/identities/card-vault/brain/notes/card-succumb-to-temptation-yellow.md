@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Succumb to Temptation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS119.png)
+
+## Images
+
+![ROS119 - Succumb to Temptation (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS119.png)
 
 ## Notes

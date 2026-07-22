@@ -25,5 +25,12 @@ codes: [LGS139, OUT107, RIP012]
 "When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard."
 
 Rulings: search "Pendulum Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS139.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT107.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP012.png)
+
+## Images
+
+![LGS139 - Pendulum Trap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS139.png)
+![OUT107 - Pendulum Trap (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT107.width-450.png)
+![RIP012 - Pendulum Trap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP012.png)
 
 ## Notes

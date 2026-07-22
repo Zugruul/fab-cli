@@ -28,5 +28,11 @@ codes: [UPR011]
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Invoke Kyloria" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Front.png)
+
+## Images
+
+![UPR011 - Invoke Kyloria (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011.png)
+![UPR011 - Invoke Kyloria (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Front.png)
 
 ## Notes

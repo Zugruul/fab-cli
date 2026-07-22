@@ -27,5 +27,15 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Preserve Tradition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG027.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS286-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST099.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST099_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN034.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN025.png)
+
+## Images
+
+![ENG027 - Preserve Tradition (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG027.png)
+![LGS286 - Preserve Tradition (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS286-RF.webp)
+![MST099 - Preserve Tradition (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST099.png)
+![MST099 - Preserve Tradition (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST099_V2.png)
+![SEN034 - Preserve Tradition (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN034.webp)
+![ZEN025 - Preserve Tradition (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN025.png)
 
 ## Notes

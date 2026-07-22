@@ -29,5 +29,10 @@ codes: [SEA034]
 Keywords: [[kw-galvanize]]
 Variants: [[card-tough-old-wrench-red]] · [[card-tough-old-wrench-blue]]
 Rulings: search "Tough Old Wrench" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA034.png)
+
+## Images
+
+![SEA034 - Tough Old Wrench (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA034.png)
 
 ## Notes

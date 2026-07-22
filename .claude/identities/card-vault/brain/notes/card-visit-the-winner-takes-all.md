@@ -20,5 +20,10 @@ codes: [SMP013]
 
 Keywords: [[kw-wager]]
 Rulings: search "Visit the 'Winner Takes All'" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP013.webp)
+
+## Images
+
+![SMP013 - Visit the 'Winner Takes All'](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP013.webp)
 
 ## Notes

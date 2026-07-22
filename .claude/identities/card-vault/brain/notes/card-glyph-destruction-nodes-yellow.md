@@ -24,5 +24,10 @@ codes: [PEN111]
 "Deal 3 arcane damage to up to X target heroes and/or allies, where X is the number of aura permanents you control with Sigil in their name."
 
 Rulings: search "Glyph Destruction Nodes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN111.webp)
+
+## Images
+
+![PEN111 - Glyph Destruction Nodes (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN111.webp)
 
 ## Notes

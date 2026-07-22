@@ -30,5 +30,10 @@ When this attacks a marked hero, this gets go again."
 Keywords: [[kw-stealth]] · [[kw-go-again]]
 Variants: [[card-scuttle-the-canal-red]] · [[card-scuttle-the-canal-blue]]
 Rulings: search "Scuttle the Canal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT048.png)
+
+## Images
+
+![HNT048 - Scuttle the Canal (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT048.png)
 
 ## Notes

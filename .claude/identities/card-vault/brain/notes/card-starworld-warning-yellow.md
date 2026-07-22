@@ -23,5 +23,10 @@ codes: [OMN188]
 "Create 2 Lightning Flow tokens."
 
 Rulings: search "Starworld Warning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN188.webp)
+
+## Images
+
+![OMN188 - Starworld Warning (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN188.webp)
 
 ## Notes

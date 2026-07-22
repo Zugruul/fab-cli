@@ -29,5 +29,13 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-polar-blast-red]] · [[card-polar-blast-yellow]]
 Rulings: search "Polar Blast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE168.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE168.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS074.png)
+
+## Images
+
+![AJV021 - Polar Blast (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV021.webp)
+![ELE168 - Polar Blast (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE168.width-450.png)
+![ELE168 - Polar Blast (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE168.width-450.png)
+![LGS074 - Polar Blast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS074.png)
 
 ## Notes

@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Red Alert Vest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT193.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD004.webp)
+
+## Images
+
+![HNT193 - Red Alert Vest](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT193.png)
+![WOD004 - Red Alert Vest](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD004.webp)
 
 ## Notes

@@ -24,5 +24,13 @@ Target attack action card gets +1{p}."
 
 Keywords: [[kw-ephemeral]]
 Rulings: search "Fang Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB243.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS266.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST023.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU028.png)
+
+## Images
+
+![FAB243 - Fang Strike](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB243.png)
+![LGS266 - Fang Strike](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS266.png)
+![MST023 - Fang Strike](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST023.png)
+![NUU028 - Fang Strike](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU028.png)
 
 ## Notes

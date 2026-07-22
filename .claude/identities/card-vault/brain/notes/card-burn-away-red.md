@@ -28,5 +28,10 @@ codes: [UPR094]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Burn Away" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR094.png)
+
+## Images
+
+![UPR094 - Burn Away (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR094.png)
 
 ## Notes

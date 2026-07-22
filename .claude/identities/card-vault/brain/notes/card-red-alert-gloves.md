@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Red Alert Gloves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT194.png)
+
+## Images
+
+![HNT194 - Red Alert Gloves](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT194.png)
 
 ## Notes

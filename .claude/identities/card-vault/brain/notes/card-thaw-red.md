@@ -32,5 +32,10 @@ Unfreeze target frozen card in the arena or an arsenal."
 
 Keywords: [[kw-unfreeze]]
 Rulings: search "Thaw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR086.png)
+
+## Images
+
+![UPR086 - Thaw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR086.png)
 
 ## Notes

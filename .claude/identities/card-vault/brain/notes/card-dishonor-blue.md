@@ -29,5 +29,10 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
 
 Keywords: [[kw-combo]]
 Rulings: search "Dishonor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT051_tyYCr6g.width-450.png)
+
+## Images
+
+![OUT051 - Dishonor (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT051_tyYCr6g.width-450.png)
 
 ## Notes

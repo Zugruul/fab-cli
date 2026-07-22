@@ -27,5 +27,12 @@ codes: [BVO026, WTR202]
 
 Variants: [[card-wounded-bull-red]] · [[card-wounded-bull-yellow]]
 Rulings: search "Wounded Bull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BVO26.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR202.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR202.png)
+
+## Images
+
+![BVO026 - Wounded Bull (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO26.width-450.png)
+![WTR202 - Wounded Bull (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR202.png)
+![WTR202 - Wounded Bull (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR202.png)
 
 ## Notes

@@ -25,5 +25,13 @@ Blade Break"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-blade-break]]
 Rulings: search "Skullbone Crosswrap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP225.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC041.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC041.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB009.png)
+
+## Images
+
+![1HP225 - Skullbone Crosswrap](https://storage.googleapis.com/fabmaster/media/images/1HP225.width-450.png)
+![ARC041 - Skullbone Crosswrap](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC041.png)
+![ARC041 - Skullbone Crosswrap](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC041.png)
+![FAB009 - Skullbone Crosswrap](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB009.png)
 
 ## Notes

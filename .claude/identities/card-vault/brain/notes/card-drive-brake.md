@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Drive Brake" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX006-RF.webp)
+
+## Images
+
+![AMX006 - Drive Brake](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX006-RF.webp)
 
 ## Notes

@@ -29,5 +29,12 @@ codes: [AGB024, GEM050, SEA073]
 Keywords: [[kw-go-again]]
 Variants: [[card-restless-bones-red]] · [[card-restless-bones-yellow]]
 Rulings: search "Restless Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB024.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM050.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA073.png)
+
+## Images
+
+![AGB024 - Restless Bones (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB024.webp)
+![GEM050 - Restless Bones (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM050.webp)
+![SEA073 - Restless Bones (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA073.png)
 
 ## Notes

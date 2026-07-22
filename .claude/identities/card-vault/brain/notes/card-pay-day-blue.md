@@ -24,5 +24,10 @@ codes: [DYN123]
 "If you've completed a contract this turn, create 4 Silver tokens."
 
 Rulings: search "Pay Day" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN123.png)
+
+## Images
+
+![DYN123 - Pay Day (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN123.png)
 
 ## Notes

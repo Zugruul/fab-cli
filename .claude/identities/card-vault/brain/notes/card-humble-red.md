@@ -27,5 +27,12 @@ codes: [AKO009, OUT189, UZU012]
 
 Variants: [[card-humble-yellow]] · [[card-humble-blue]]
 Rulings: search "Humble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO009.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT189.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU012.png)
+
+## Images
+
+![AKO009 - Humble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO009.png)
+![OUT189 - Humble (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT189.width-450.png)
+![UZU012 - Humble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU012.png)
 
 ## Notes

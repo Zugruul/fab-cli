@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-intimidate]] · [[kw-blade-break]]
 Rulings: search "Scowling Flesh Bag" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD200.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB140.png)
+
+## Images
+
+![DTD200 - Scowling Flesh Bag](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD200.png)
+![FAB140 - Scowling Flesh Bag](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB140.png)
 
 ## Notes

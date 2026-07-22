@@ -24,5 +24,12 @@ codes: [APR015, MON063]
 "Put this into your soul when the combat chain closes."
 
 Rulings: search "Soul Shield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR015.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON063.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON063.width-450.png)
+
+## Images
+
+![APR015 - Soul Shield (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR015.webp)
+![MON063 - Soul Shield (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON063.width-450.png)
+![MON063 - Soul Shield (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON063.width-450.png)
 
 ## Notes

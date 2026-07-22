@@ -26,5 +26,10 @@ codes: [UPR131]
 
 Variants: [[card-frosting-red]] · [[card-frosting-blue]]
 Rulings: search "Frosting" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR131.png)
+
+## Images
+
+![UPR131 - Frosting (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR131.png)
 
 ## Notes

@@ -29,5 +29,13 @@ codes: [DRO020, MON098, SEN010]
 Keywords: [[kw-phantasm]]
 Variants: [[card-enigma-chimera-yellow]] · [[card-enigma-chimera-blue]]
 Rulings: search "Enigma Chimera" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO020.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON098.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON098.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN010.webp)
+
+## Images
+
+![DRO020 - Enigma Chimera (red)](https://storage.googleapis.com/fabmaster/media/images/DRO020.width-450.png)
+![MON098 - Enigma Chimera (red)](https://storage.googleapis.com/fabmaster/media/images/MON098.width-450.png)
+![MON098 - Enigma Chimera (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON098.width-450.png)
+![SEN010 - Enigma Chimera (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN010.webp)
 
 ## Notes

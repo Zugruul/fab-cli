@@ -29,5 +29,11 @@ Blade Break"
 
 Keywords: [[kw-transform]] · [[kw-blade-break]]
 Rulings: search "Evo Command Center" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO034.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB207.png)
+
+## Images
+
+![EVO034 - Evo Command Center (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO034.png)
+![FAB207 - Evo Command Center (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB207.png)
 
 ## Notes

@@ -30,5 +30,11 @@ Go again"
 
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Rulings: search "Ice Storm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE037.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE037.width-450.png)
+
+## Images
+
+![ELE037 - Ice Storm (red)](https://storage.googleapis.com/fabmaster/media/images/ELE037.width-450.png)
+![ELE037 - Ice Storm (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE037.width-450.png)
 
 ## Notes

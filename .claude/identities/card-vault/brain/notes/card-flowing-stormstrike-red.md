@@ -27,5 +27,12 @@ codes: [AZS009, FAB471, OMN152]
 When this hits, create a Lightning Flow token."
 
 Rulings: search "Flowing Stormstrike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS009.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB471-RF.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN152.webp)
+
+## Images
+
+![AZS009 - Flowing Stormstrike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS009.webp)
+![FAB471 - Flowing Stormstrike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB471-RF.webp)
+![OMN152 - Flowing Stormstrike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN152.webp)
 
 ## Notes

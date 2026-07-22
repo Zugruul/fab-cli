@@ -30,5 +30,11 @@ If you've played or activated 2 or more attack reactions this chain link, this g
 Keywords: [[kw-stealth]]
 Variants: [[card-double-trouble-yellow]] · [[card-double-trouble-blue]]
 Rulings: search "Double Trouble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST112.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU010.png)
+
+## Images
+
+![MST112 - Double Trouble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST112.png)
+![NUU010 - Double Trouble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU010.png)
 
 ## Notes

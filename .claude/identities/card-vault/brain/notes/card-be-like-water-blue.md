@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-be-like-water-red]] · [[card-be-like-water-yellow]]
 Rulings: search "Be Like Water" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN021.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT025.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT070.width-450.png)
+
+## Images
+
+![BEN021 - Be Like Water (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN021.png)
+![KAT025 - Be Like Water (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT025.png)
+![OUT070 - Be Like Water (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT070.width-450.png)
 
 ## Notes

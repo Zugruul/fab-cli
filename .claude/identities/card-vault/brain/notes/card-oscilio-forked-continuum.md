@@ -24,5 +24,12 @@ codes: [OMN094]
 
 Young version: [[card-oscilio]]
 Rulings: search "Oscilio, Forked Continuum" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094-MV_BACK.webp)
+
+## Images
+
+![OMN094 - Oscilio, Forked Continuum](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094.webp)
+![OMN094 - Oscilio, Forked Continuum](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094-MV.webp)
+![OMN094 - Oscilio, Forked Continuum](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094-MV_BACK.webp)
 
 ## Notes

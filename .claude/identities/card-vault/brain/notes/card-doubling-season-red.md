@@ -26,5 +26,11 @@ codes: [GEM133, PEN218]
 "While this is face-up in any zone, if it would gain {p}, instead it gains that much plus 1."
 
 Rulings: search "Doubling Season" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM133.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN218.webp)
+
+## Images
+
+![GEM133 - Doubling Season (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM133.webp)
+![PEN218 - Doubling Season (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN218.webp)
 
 ## Notes

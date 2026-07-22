@@ -21,5 +21,11 @@ codes: [LGS454, OMN211]
 "Instant - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn."
 
 Rulings: search "Gloves of Astral Sanctuary" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS454-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN211.webp)
+
+## Images
+
+![LGS454 - Gloves of Astral Sanctuary](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS454-CF.webp)
+![OMN211 - Gloves of Astral Sanctuary](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN211.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Fire in the Hole" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA101.png)
+
+## Images
+
+![SEA101 - Fire in the Hole (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA101.png)
 
 ## Notes

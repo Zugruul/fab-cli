@@ -31,5 +31,14 @@ If you've charged this turn, Take Flight gains go again."
 Keywords: [[kw-charge]]
 Variants: [[card-take-flight-red]] · [[card-take-flight-blue]]
 Rulings: search "Take Flight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB022.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BOL021.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON055.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON055.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL029.webp)
+
+## Images
+
+![ASB022 - Take Flight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB022.png)
+![BOL021 - Take Flight (yellow)](https://storage.googleapis.com/fabmaster/media/images/BOL021.width-450.png)
+![MON055 - Take Flight (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON055.width-450.png)
+![MON055 - Take Flight (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON055.width-450.png)
+![SBL029 - Take Flight (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL029.webp)
 
 ## Notes

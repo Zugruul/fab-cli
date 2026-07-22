@@ -26,5 +26,13 @@ codes: [SBZ010, SEN011, SIY011, SUP223]
 "When this attacks, it gets -1{p} unless you pay {r}."
 
 Rulings: search "Look Tuff" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ010.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN011.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY011.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP223.webp)
+
+## Images
+
+![SBZ010 - Look Tuff (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ010.webp)
+![SEN011 - Look Tuff (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN011.webp)
+![SIY011 - Look Tuff (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY011.webp)
+![SUP223 - Look Tuff (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP223.webp)
 
 ## Notes

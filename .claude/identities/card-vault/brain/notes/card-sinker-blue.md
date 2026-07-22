@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-overpower]]
 Rulings: search "Sinker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA105.png)
+
+## Images
+
+![SEA105 - Sinker (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA105.png)
 
 ## Notes

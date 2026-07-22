@@ -23,5 +23,10 @@ codes: [SUP062]
 "When this defends a Reviled hero's attack, destroy a Might token they control. If you do, create a Toughness token."
 
 Rulings: search "Not So Mighty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP062.webp)
+
+## Images
+
+![SUP062 - Not So Mighty (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP062.webp)
 
 ## Notes

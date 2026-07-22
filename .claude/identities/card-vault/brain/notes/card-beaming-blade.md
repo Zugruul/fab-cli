@@ -23,5 +23,11 @@ codes: [DTD046, LGS168]
 If a yellow card has been put into your hero's soul this turn, this gets +5{p}."
 
 Rulings: search "Beaming Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD046.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS168.png)
+
+## Images
+
+![DTD046 - Beaming Blade](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD046.png)
+![LGS168 - Beaming Blade](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS168.png)
 
 ## Notes

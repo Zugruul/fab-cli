@@ -24,5 +24,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Runebleed Robe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN094.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI006.webp)
+
+## Images
+
+![PEN094 - Runebleed Robe](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN094.webp)
+![SVI006 - Runebleed Robe](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI006.webp)
 
 ## Notes

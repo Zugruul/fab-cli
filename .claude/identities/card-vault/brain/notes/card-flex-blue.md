@@ -27,5 +27,10 @@ codes: [UPR193]
 
 Variants: [[card-flex-red]] · [[card-flex-yellow]]
 Rulings: search "Flex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR193.png)
+
+## Images
+
+![UPR193 - Flex (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR193.png)
 
 ## Notes

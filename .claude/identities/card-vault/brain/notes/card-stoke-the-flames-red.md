@@ -28,5 +28,12 @@ codes: [FAI014, UPR100]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Stoke the Flames" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100_EA.png)
+
+## Images
+
+![FAI014 - Stoke the Flames (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI014.webp)
+![UPR100 - Stoke the Flames (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100.png)
+![UPR100 - Stoke the Flames (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100_EA.png)
 
 ## Notes

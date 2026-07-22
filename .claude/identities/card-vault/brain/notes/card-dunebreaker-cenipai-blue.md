@@ -32,5 +32,10 @@ Go again"
 Keywords: [[kw-phantasm]] · [[kw-go-again]]
 Variants: [[card-dunebreaker-cenipai-red]] · [[card-dunebreaker-cenipai-yellow]]
 Rulings: search "Dunebreaker Cenipai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR023.png)
+
+## Images
+
+![UPR023 - Dunebreaker Cenipai (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR023.png)
 
 ## Notes

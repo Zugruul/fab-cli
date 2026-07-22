@@ -27,5 +27,11 @@ codes: [DRO023, UPR206]
 
 Variants: [[card-critical-strike-yellow]] · [[card-critical-strike-blue]]
 Rulings: search "Critical Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO023.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR206.png)
+
+## Images
+
+![DRO023 - Critical Strike (red)](https://storage.googleapis.com/fabmaster/media/images/DRO023.width-450.png)
+![UPR206 - Critical Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR206.png)
 
 ## Notes

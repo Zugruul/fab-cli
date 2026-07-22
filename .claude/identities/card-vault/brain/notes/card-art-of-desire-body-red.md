@@ -30,5 +30,13 @@ Whenever this banishes a red card, draw a card and gain 1{h}."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Art of Desire: Body" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC008.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST106.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU007.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR010.webp)
+
+## Images
+
+![AAC008 - Art of Desire: Body (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC008.webp)
+![MST106 - Art of Desire: Body (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST106.png)
+![NUU007 - Art of Desire: Body (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU007.png)
+![SAR010 - Art of Desire: Body (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR010.webp)
 
 ## Notes

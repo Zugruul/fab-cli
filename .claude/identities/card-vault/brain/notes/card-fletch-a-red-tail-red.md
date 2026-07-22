@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Fletch a Red Tail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL019.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT109_MXRPsJl.width-450.png)
+
+## Images
+
+![AZL019 - Fletch a Red Tail (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL019.png)
+![OUT109 - Fletch a Red Tail (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT109_MXRPsJl.width-450.png)
 
 ## Notes

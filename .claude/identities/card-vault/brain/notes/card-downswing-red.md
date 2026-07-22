@@ -26,5 +26,11 @@ codes: [FAB485, MPW043]
 
 Keywords: [[kw-wager]]
 Rulings: search "Downswing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB485-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW043.webp)
+
+## Images
+
+![FAB485 - Downswing (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB485-RF.webp)
+![MPW043 - Downswing (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW043.webp)
 
 ## Notes

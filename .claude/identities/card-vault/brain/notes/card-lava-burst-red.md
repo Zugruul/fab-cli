@@ -28,5 +28,12 @@ codes: [DRO010, SFA019, UPR098]
 
 Keywords: [[kw-rupture]]
 Rulings: search "Lava Burst" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO010.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA019.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR098.png)
+
+## Images
+
+![DRO010 - Lava Burst (red)](https://storage.googleapis.com/fabmaster/media/images/DRO010.width-450.png)
+![SFA019 - Lava Burst (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA019.webp)
+![UPR098 - Lava Burst (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR098.png)
 
 ## Notes

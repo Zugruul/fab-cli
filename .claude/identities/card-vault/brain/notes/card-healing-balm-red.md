@@ -25,5 +25,11 @@ codes: [DRO025, UPR215]
 
 Variants: [[card-healing-balm-yellow]] · [[card-healing-balm-blue]]
 Rulings: search "Healing Balm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR215.png)
+
+## Images
+
+![DRO025 - Healing Balm (red)](https://storage.googleapis.com/fabmaster/media/images/DRO025.width-450.png)
+![UPR215 - Healing Balm (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR215.png)
 
 ## Notes

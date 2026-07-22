@@ -31,5 +31,11 @@ Fragment"
 Keywords: [[kw-fragment]]
 Variants: [[card-cosmic-duality-yellow]] · [[card-cosmic-duality-blue]]
 Rulings: search "Cosmic Duality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB464-MV.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN015.webp)
+
+## Images
+
+![FAB464 - Cosmic Duality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB464-MV.webp)
+![OMN015 - Cosmic Duality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN015.webp)
 
 ## Notes

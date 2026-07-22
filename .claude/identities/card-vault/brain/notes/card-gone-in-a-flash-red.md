@@ -26,5 +26,11 @@ codes: [ROS076]
 "When this attacks, the next time you play an instant card this chain link, you may return this to it's owner's hand."
 
 Rulings: search "Gone in a Flash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS076.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS076-EA.png)
+
+## Images
+
+![ROS076 - Gone in a Flash (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS076.png)
+![ROS076 - Gone in a Flash (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS076-EA.png)
 
 ## Notes

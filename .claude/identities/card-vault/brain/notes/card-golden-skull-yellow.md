@@ -28,5 +28,11 @@ Watery Grave"
 
 Keywords: [[kw-go-again]] · [[kw-watery-grave]]
 Rulings: search "Golden Skull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN240.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN240-MV.webp)
+
+## Images
+
+![OMN240 - Golden Skull (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN240.webp)
+![OMN240 - Golden Skull (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN240-MV.webp)
 
 ## Notes

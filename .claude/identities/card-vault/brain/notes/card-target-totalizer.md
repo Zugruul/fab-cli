@@ -20,5 +20,11 @@ codes: [AAZ004, JDG039]
 "Action - Destroy this: Whenever an arrow with an aim counter hits this turn, draw a card. Go again"
 
 Rulings: search "Target Totalizer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ004.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG039.png)
+
+## Images
+
+![AAZ004 - Target Totalizer](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ004.png)
+![JDG039 - Target Totalizer](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG039.png)
 
 ## Notes

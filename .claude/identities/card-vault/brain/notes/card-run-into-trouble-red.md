@@ -23,5 +23,12 @@ codes: [HVY161, KYO015, LGS251]
 "When this defends, if you control an Agility token, deal damage to the attacking hero."
 
 Rulings: search "Run into Trouble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY161.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO015.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS251.png)
+
+## Images
+
+![HVY161 - Run into Trouble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY161.png)
+![KYO015 - Run into Trouble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO015.png)
+![LGS251 - Run into Trouble (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS251.png)
 
 ## Notes

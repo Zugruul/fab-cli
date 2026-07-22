@@ -28,5 +28,10 @@ codes: [UPR176]
 Keywords: [[kw-opt]]
 Variants: [[card-read-the-ripples-yellow]] · [[card-read-the-ripples-blue]]
 Rulings: search "Read the Ripples" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR176.png)
+
+## Images
+
+![UPR176 - Read the Ripples (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR176.png)
 
 ## Notes

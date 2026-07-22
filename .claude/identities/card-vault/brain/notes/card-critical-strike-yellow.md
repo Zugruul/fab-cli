@@ -27,5 +27,10 @@ codes: [UPR207]
 
 Variants: [[card-critical-strike-red]] · [[card-critical-strike-blue]]
 Rulings: search "Critical Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR207.png)
+
+## Images
+
+![UPR207 - Critical Strike (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR207.png)
 
 ## Notes

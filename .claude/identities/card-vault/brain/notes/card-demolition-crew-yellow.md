@@ -30,5 +30,11 @@ Dominate"
 Keywords: [[kw-dominate]]
 Variants: [[card-demolition-crew-red]] · [[card-demolition-crew-blue]]
 Rulings: search "Demolition Crew" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR180.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR180.png)
+
+## Images
+
+![WTR180 - Demolition Crew (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR180.png)
+![WTR180 - Demolition Crew (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR180.png)
 
 ## Notes

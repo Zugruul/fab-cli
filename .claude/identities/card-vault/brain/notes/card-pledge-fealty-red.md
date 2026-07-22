@@ -23,5 +23,12 @@ codes: [FNG020, HNT164, LGS385]
 "Create a Fealty token."
 
 Rulings: search "Pledge Fealty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG020.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT164.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS385.png)
+
+## Images
+
+![FNG020 - Pledge Fealty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG020.webp)
+![HNT164 - Pledge Fealty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT164.png)
+![LGS385 - Pledge Fealty (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS385.png)
 
 ## Notes

@@ -28,5 +28,12 @@ codes: [AGB010, FAB348, SEA054]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Paddle Faster" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB010.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB348-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA054.png)
+
+## Images
+
+![AGB010 - Paddle Faster (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB010.webp)
+![FAB348 - Paddle Faster (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB348-RF.webp)
+![SEA054 - Paddle Faster (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA054.png)
 
 ## Notes

@@ -32,5 +32,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-unhallowed-rites-red]] · [[card-unhallowed-rites-blue]]
 Rulings: search "Unhallowed Rites" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON160.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON160.width-450.png)
+
+## Images
+
+![MON160 - Unhallowed Rites (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON160.width-450.png)
+![MON160 - Unhallowed Rites (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON160.width-450.png)
 
 ## Notes

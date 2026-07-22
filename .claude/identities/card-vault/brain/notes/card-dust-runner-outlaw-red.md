@@ -30,5 +30,13 @@ codes: [CIN011, FAI018, HNT066, UPR066]
 Keywords: [[kw-go-again]]
 Variants: [[card-dust-runner-outlaw-yellow]] · [[card-dust-runner-outlaw-blue]]
 Rulings: search "Dust Runner Outlaw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN011.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI018.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT066.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR066.png)
+
+## Images
+
+![CIN011 - Dust Runner Outlaw (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN011.webp)
+![FAI018 - Dust Runner Outlaw (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI018.webp)
+![HNT066 - Dust Runner Outlaw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT066.png)
+![UPR066 - Dust Runner Outlaw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR066.png)
 
 ## Notes

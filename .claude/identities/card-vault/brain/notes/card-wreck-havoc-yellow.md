@@ -28,5 +28,10 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
 
 Variants: [[card-wreck-havoc-red]] · [[card-wreck-havoc-blue]]
 Rulings: search "Wreck Havoc" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT199.width-450.png)
+
+## Images
+
+![OUT199 - Wreck Havoc (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT199.width-450.png)
 
 ## Notes

@@ -28,5 +28,10 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Clap 'Em in Irons" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA209.png)
+
+## Images
+
+![SEA209 - Clap 'Em in Irons (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA209.png)
 
 ## Notes

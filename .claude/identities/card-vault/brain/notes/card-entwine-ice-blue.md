@@ -30,5 +30,11 @@ If Entwine Ice was fused, it gains dominate."
 Keywords: [[kw-fusion]] · [[kw-dominate]]
 Variants: [[card-entwine-ice-red]] · [[card-entwine-ice-yellow]]
 Rulings: search "Entwine Ice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE099.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE099.width-450.png)
+
+## Images
+
+![ELE099 - Entwine Ice (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE099.width-450.png)
+![ELE099 - Entwine Ice (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE099.width-450.png)
 
 ## Notes

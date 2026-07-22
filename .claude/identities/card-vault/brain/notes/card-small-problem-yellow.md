@@ -29,5 +29,10 @@ Crush - When this deals 4 or more damage to a hero, destroy an aura they control
 
 Keywords: [[kw-crush]]
 Rulings: search "Small Problem" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP193.webp)
+
+## Images
+
+![SUP193 - Small Problem (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP193.webp)
 
 ## Notes

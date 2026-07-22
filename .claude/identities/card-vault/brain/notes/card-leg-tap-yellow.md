@@ -29,5 +29,14 @@ codes: [1HP117, KSU018, TCC095, WTR102]
 Keywords: [[kw-go-again]]
 Variants: [[card-leg-tap-red]] · [[card-leg-tap-blue]]
 Rulings: search "Leg Tap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP117.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/KSU18.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC095.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR102.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR102.png)
+
+## Images
+
+![1HP117 - Leg Tap (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP117.width-450.png)
+![KSU018 - Leg Tap (yellow)](https://storage.googleapis.com/fabmaster/media/images/KSU18.width-450.png)
+![TCC095 - Leg Tap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC095.png)
+![WTR102 - Leg Tap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR102.png)
+![WTR102 - Leg Tap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR102.png)
 
 ## Notes

@@ -22,5 +22,11 @@ codes: [LSS004]
 "At the start of the game, all heroes shuffle their starting decks together. All heroes share the same deck and graveyard this game."
 
 Rulings: search "Yorick, Weaver of Tales" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS004_A.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS004_B.png)
+
+## Images
+
+![LSS004 - Yorick, Weaver of Tales](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS004_A.png)
+![LSS004 - Yorick, Weaver of Tales](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS004_B.png)
 
 ## Notes

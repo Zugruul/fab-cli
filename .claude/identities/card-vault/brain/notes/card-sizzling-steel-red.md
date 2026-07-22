@@ -25,5 +25,10 @@ codes: [HNT113]
 "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, instead it gets +4{p}."
 
 Rulings: search "Sizzling Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT113.png)
+
+## Images
+
+![HNT113 - Sizzling Steel (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT113.png)
 
 ## Notes

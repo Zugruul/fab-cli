@@ -24,5 +24,10 @@ codes: [SUP139]
 Create a Vigor token."
 
 Rulings: search "Visit the Boneyard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP139.webp)
+
+## Images
+
+![SUP139 - Visit the Boneyard (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP139.webp)
 
 ## Notes

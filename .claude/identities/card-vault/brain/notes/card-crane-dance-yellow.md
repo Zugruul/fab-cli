@@ -29,5 +29,12 @@ codes: [1HP108, CRU058]
 Keywords: [[kw-combo]]
 Variants: [[card-crane-dance-red]] · [[card-crane-dance-blue]]
 Rulings: search "Crane Dance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP108.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU058.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU058.png)
+
+## Images
+
+![1HP108 - Crane Dance (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP108.width-450.png)
+![CRU058 - Crane Dance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU058.png)
+![CRU058 - Crane Dance (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU058.png)
 
 ## Notes

@@ -27,5 +27,10 @@ Surge - If this deals more than 5 damage, create a Ponder token."
 
 Keywords: [[kw-surge]]
 Rulings: search "Swell Tidings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN195.png)
+
+## Images
+
+![DYN195 - Swell Tidings (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN195.png)
 
 ## Notes

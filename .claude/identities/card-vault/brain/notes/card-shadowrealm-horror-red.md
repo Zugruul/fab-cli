@@ -31,5 +31,10 @@ Blood Debt"
 
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Rulings: search "Shadowrealm Horror" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST236.png)
+
+## Images
+
+![MST236 - Shadowrealm Horror (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST236.png)
 
 ## Notes

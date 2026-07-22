@@ -27,5 +27,11 @@ codes: [FAB374, SUP224]
 
 Variants: [[card-punch-above-your-weight-yellow]] · [[card-punch-above-your-weight-blue]]
 Rulings: search "Punch Above Your Weight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB374-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP224.webp)
+
+## Images
+
+![FAB374 - Punch Above Your Weight (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB374-CF.webp)
+![SUP224 - Punch Above Your Weight (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP224.webp)
 
 ## Notes

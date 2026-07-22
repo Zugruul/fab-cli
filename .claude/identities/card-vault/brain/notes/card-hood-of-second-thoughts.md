@@ -21,5 +21,11 @@ codes: [LGS320, ROS212]
 "Instant - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this only if you've been dealt damage this turn."
 
 Rulings: search "Hood of Second Thoughts" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS320.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS212.png)
+
+## Images
+
+![LGS320 - Hood of Second Thoughts](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS320.png)
+![ROS212 - Hood of Second Thoughts](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS212.png)
 
 ## Notes

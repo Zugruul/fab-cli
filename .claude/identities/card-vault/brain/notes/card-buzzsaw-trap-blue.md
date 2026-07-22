@@ -28,5 +28,10 @@ When this defends an attack with {p} greater than its base, the attack can't gai
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Buzzsaw Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT102.width-450.png)
+
+## Images
+
+![OUT102 - Buzzsaw Trap (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT102.width-450.png)
 
 ## Notes

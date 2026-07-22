@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Mask of the Pouncing Lynx" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR037.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB079.png)
+
+## Images
+
+![EVR037 - Mask of the Pouncing Lynx](https://storage.googleapis.com/fabmaster/media/images/EVR037.width-450.png)
+![FAB079 - Mask of the Pouncing Lynx](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB079.png)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [PEN323]
 "Remove all energy counters from target non-hero permanent an opponent controls. Create that many Gold tokens."
 
 Rulings: search "High Current Currency" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN323.webp)
+
+## Images
+
+![PEN323 - High Current Currency (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN323.webp)
 
 ## Notes

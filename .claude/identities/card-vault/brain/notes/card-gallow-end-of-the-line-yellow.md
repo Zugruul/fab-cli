@@ -30,5 +30,11 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Gallow, End of the Line" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP267.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP267-MV.webp)
+
+## Images
+
+![SUP267 - Gallow, End of the Line (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP267.webp)
+![SUP267 - Gallow, End of the Line (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP267-MV.webp)
 
 ## Notes

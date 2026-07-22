@@ -29,5 +29,13 @@ When this leaves the arena, create a Runechant token."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of Deadwood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA025.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS326.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS161.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS161-MV.png)
+
+## Images
+
+![AUA025 - Sigil of Deadwood (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA025.webp)
+![LGS326 - Sigil of Deadwood (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS326.png)
+![ROS161 - Sigil of Deadwood (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS161.png)
+![ROS161 - Sigil of Deadwood (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS161-MV.png)
 
 ## Notes

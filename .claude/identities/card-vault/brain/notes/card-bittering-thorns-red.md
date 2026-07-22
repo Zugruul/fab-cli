@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-bittering-thorns-yellow]] · [[card-bittering-thorns-blue]]
 Rulings: search "Bittering Thorns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC083.png)
+
+## Images
+
+![ASR007 - Bittering Thorns (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR007.webp)
+![TCC083 - Bittering Thorns (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC083.png)
 
 ## Notes

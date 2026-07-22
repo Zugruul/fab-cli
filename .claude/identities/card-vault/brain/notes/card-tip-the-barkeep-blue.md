@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tip the Barkeep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA132.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA132_V2.png)
+
+## Images
+
+![SEA132 - Tip the Barkeep (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA132.png)
+![SEA132 - Tip the Barkeep (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA132_V2.png)
 
 ## Notes

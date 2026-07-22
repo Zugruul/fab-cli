@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Tricorn of Saltwater Death" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB004-RF.webp)
+
+## Images
+
+![AGB004 - Tricorn of Saltwater Death](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB004-RF.webp)
 
 ## Notes

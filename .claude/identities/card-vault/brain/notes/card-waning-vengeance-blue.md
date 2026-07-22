@@ -29,5 +29,11 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-waning-vengeance-red]] · [[card-waning-vengeance-yellow]]
 Rulings: search "Waning Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG024.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST042.png)
+
+## Images
+
+![ENG024 - Waning Vengeance (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG024.png)
+![MST042 - Waning Vengeance (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST042.png)
 
 ## Notes

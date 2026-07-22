@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-temper]] · [[kw-clash]]
 Rulings: search "Stonewall Impasse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY052.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY004.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC003.png)
+
+## Images
+
+![HVY052 - Stonewall Impasse](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY052.png)
+![SLY004 - Stonewall Impasse](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY004.webp)
+![VIC003 - Stonewall Impasse](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC003.png)
 
 ## Notes

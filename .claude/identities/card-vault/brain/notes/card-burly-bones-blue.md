@@ -29,5 +29,10 @@ codes: [SEA067]
 Keywords: [[kw-overpower]]
 Variants: [[card-burly-bones-red]] · [[card-burly-bones-yellow]]
 Rulings: search "Burly Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA067.png)
+
+## Images
+
+![SEA067 - Burly Bones (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA067.png)
 
 ## Notes

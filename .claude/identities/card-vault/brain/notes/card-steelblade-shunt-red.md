@@ -25,5 +25,13 @@ codes: [1HP156, TEA011, WTR126]
 
 Variants: [[card-steelblade-shunt-yellow]] · [[card-steelblade-shunt-blue]]
 Rulings: search "Steelblade Shunt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP156.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/TEA11.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR126.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR126.png)
+
+## Images
+
+![1HP156 - Steelblade Shunt (red)](https://storage.googleapis.com/fabmaster/media/images/1HP156.width-450.png)
+![TEA011 - Steelblade Shunt (red)](https://storage.googleapis.com/fabmaster/media/images/TEA11.width-450.png)
+![WTR126 - Steelblade Shunt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR126.png)
+![WTR126 - Steelblade Shunt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR126.png)
 
 ## Notes

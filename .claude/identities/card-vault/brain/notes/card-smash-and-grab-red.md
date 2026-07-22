@@ -26,5 +26,10 @@ codes: [EVO155]
 "If you've boosted 2 or more times this turn, this gets +2{p} and "When this hits a hero, gain control of an item they control.""
 
 Rulings: search "Smash and Grab" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png)
+
+## Images
+
+![EVO155 - Smash and Grab (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png)
 
 ## Notes

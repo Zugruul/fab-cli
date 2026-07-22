@@ -34,5 +34,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-twin-twisters-red]] · [[card-twin-twisters-blue]]
 Rulings: search "Twin Twisters" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN015.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR048.width-450.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT087.width-450.png)
+
+## Images
+
+![BEN015 - Twin Twisters (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN015.png)
+![EVR048 - Twin Twisters (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR048.width-450.png)
+![OUT087 - Twin Twisters (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT087.width-450.png)
 
 ## Notes

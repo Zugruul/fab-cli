@@ -21,5 +21,11 @@ codes: [DYN192]
 The first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn."
 
 Rulings: search "Surgent Aethertide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN192.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN192_Marvel.png)
+
+## Images
+
+![DYN192 - Surgent Aethertide](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN192.png)
+![DYN192 - Surgent Aethertide](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN192_Marvel.png)
 
 ## Notes

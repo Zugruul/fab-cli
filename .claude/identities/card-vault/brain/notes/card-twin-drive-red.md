@@ -29,5 +29,11 @@ Boost"
 
 Keywords: [[kw-boost]]
 Rulings: search "Twin Drive" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO142.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS432.webp)
+
+## Images
+
+![EVO142 - Twin Drive (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO142.png)
+![LGS432 - Twin Drive (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS432.webp)
 
 ## Notes

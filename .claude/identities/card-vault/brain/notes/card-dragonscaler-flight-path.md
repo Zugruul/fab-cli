@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Dragonscaler Flight Path" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB290.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT143.png)
+
+## Images
+
+![FAB290 - Dragonscaler Flight Path](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB290.png)
+![HNT143 - Dragonscaler Flight Path](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT143.png)
 
 ## Notes

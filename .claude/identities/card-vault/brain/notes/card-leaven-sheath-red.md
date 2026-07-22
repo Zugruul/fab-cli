@@ -26,5 +26,11 @@ codes: [FAB428, PEN208]
 
 Keywords: [[kw-bond]]
 Rulings: search "Leaven Sheath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB428.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN208.webp)
+
+## Images
+
+![FAB428 - Leaven Sheath (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB428.webp)
+![PEN208 - Leaven Sheath (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN208.webp)
 
 ## Notes

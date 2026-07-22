@@ -25,5 +25,12 @@ codes: [1HP339, ARC145]
 
 Variants: [[card-zap-red]] · [[card-zap-blue]]
 Rulings: search "Zap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP339.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC145.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC145.png)
+
+## Images
+
+![1HP339 - Zap (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP339.width-450.png)
+![ARC145 - Zap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC145.png)
+![ARC145 - Zap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC145.png)
 
 ## Notes

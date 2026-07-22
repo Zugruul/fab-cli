@@ -24,5 +24,12 @@ codes: [OMN047]
 
 Young version: [[card-aurora]]
 Rulings: search "Aurora, Legacy of Tempest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047-MV_BACK.webp)
+
+## Images
+
+![OMN047 - Aurora, Legacy of Tempest](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047.webp)
+![OMN047 - Aurora, Legacy of Tempest](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047-MV.webp)
+![OMN047 - Aurora, Legacy of Tempest](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047-MV_BACK.webp)
 
 ## Notes

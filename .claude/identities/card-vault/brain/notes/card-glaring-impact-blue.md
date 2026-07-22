@@ -31,5 +31,10 @@ If a yellow card is charged this way, this gets overpower."
 Keywords: [[kw-charge]] · [[kw-overpower]]
 Variants: [[card-glaring-impact-red]] · [[card-glaring-impact-yellow]]
 Rulings: search "Glaring Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD065.png)
+
+## Images
+
+![DTD065 - Glaring Impact (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD065.png)
 
 ## Notes

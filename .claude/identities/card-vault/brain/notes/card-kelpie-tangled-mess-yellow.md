@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Kelpie, Tangled Mess" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS404.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059_V2.png)
+
+## Images
+
+![LGS404 - Kelpie, Tangled Mess (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS404.png)
+![SEA059 - Kelpie, Tangled Mess (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059.png)
+![SEA059 - Kelpie, Tangled Mess (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059_V2.png)
 
 ## Notes

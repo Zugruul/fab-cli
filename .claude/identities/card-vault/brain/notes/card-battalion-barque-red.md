@@ -29,5 +29,13 @@ codes: [AGB008, SEA152, SGB010]
 Keywords: [[kw-high-tide]]
 Variants: [[card-battalion-barque-yellow]] · [[card-battalion-barque-blue]]
 Rulings: search "Battalion Barque" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB008.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA152.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA152_V2.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB010.webp)
+
+## Images
+
+![AGB008 - Battalion Barque (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB008.webp)
+![SEA152 - Battalion Barque (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA152.png)
+![SEA152 - Battalion Barque (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA152_V2.png)
+![SGB010 - Battalion Barque (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB010.webp)
 
 ## Notes

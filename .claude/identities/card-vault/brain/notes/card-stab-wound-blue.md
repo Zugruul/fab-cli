@@ -26,5 +26,10 @@ codes: [OUT142]
 "When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain."
 
 Rulings: search "Stab Wound" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT142.width-450.png)
+
+## Images
+
+![OUT142 - Stab Wound (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT142.width-450.png)
 
 ## Notes

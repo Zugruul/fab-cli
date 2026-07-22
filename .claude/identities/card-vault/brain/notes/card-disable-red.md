@@ -29,5 +29,14 @@ codes: [1HP055, BVO011, MPG073, WTR048]
 Keywords: [[kw-crush]]
 Variants: [[card-disable-yellow]] · [[card-disable-blue]]
 Rulings: search "Disable" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP055.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO11.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG073.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR048.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR048.png)
+
+## Images
+
+![1HP055 - Disable (red)](https://storage.googleapis.com/fabmaster/media/images/1HP055.width-450.png)
+![BVO011 - Disable (red)](https://storage.googleapis.com/fabmaster/media/images/BVO11.width-450.png)
+![MPG073 - Disable (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG073.webp)
+![WTR048 - Disable (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR048.png)
+![WTR048 - Disable (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR048.png)
 
 ## Notes

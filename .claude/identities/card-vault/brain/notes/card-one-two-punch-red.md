@@ -29,5 +29,10 @@ codes: [OUT080]
 Keywords: [[kw-combo]]
 Variants: [[card-one-two-punch-yellow]] · [[card-one-two-punch-blue]]
 Rulings: search "One-Two Punch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT080.width-450.png)
+
+## Images
+
+![OUT080 - One-Two Punch (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT080.width-450.png)
 
 ## Notes

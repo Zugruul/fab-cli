@@ -27,5 +27,12 @@ codes: [CIN023, HNT079, SFA033]
 
 Variants: [[card-dragon-power-red]] · [[card-dragon-power-yellow]]
 Rulings: search "Dragon Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT079.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA033.webp)
+
+## Images
+
+![CIN023 - Dragon Power (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN023.webp)
+![HNT079 - Dragon Power (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT079.png)
+![SFA033 - Dragon Power (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA033.webp)
 
 ## Notes

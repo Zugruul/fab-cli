@@ -24,5 +24,12 @@ codes: [OMN002]
 
 Adult version: [[card-zyggy-starlight]]
 Rulings: search "Zyggy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002-MV_BACK.webp)
+
+## Images
+
+![OMN002 - Zyggy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002.webp)
+![OMN002 - Zyggy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002-MV.webp)
+![OMN002 - Zyggy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002-MV_BACK.webp)
 
 ## Notes

@@ -24,5 +24,11 @@ codes: [LGS131, OUT022]
 "Target attack action card with stealth gains +3{p} and "When this hits a hero, create a Frailty token under their control.""
 
 Rulings: search "Spike with Frailty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS131.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT022.width-450.png)
+
+## Images
+
+![LGS131 - Spike with Frailty (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS131.png)
+![OUT022 - Spike with Frailty (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT022.width-450.png)
 
 ## Notes

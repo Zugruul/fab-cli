@@ -27,5 +27,10 @@ codes: [SUP141]
 When this hits a Guardian hero, destroy an aura token they control."
 
 Rulings: search "Bash Guardian" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP141.webp)
+
+## Images
+
+![SUP141 - Bash Guardian (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP141.webp)
 
 ## Notes

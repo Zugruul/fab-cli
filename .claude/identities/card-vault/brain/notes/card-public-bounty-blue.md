@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-mark]] · [[kw-go-again]]
 Variants: [[card-public-bounty-red]] · [[card-public-bounty-yellow]]
 Rulings: search "Public Bounty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT243.png)
+
+## Images
+
+![HNT243 - Public Bounty (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT243.png)
 
 ## Notes

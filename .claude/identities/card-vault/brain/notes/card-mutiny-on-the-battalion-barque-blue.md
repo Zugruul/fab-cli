@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-steal]]
 Rulings: search "Mutiny on the Battalion Barque" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176_V2.png)
+
+## Images
+
+![SEA176 - Mutiny on the Battalion Barque (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176.png)
+![SEA176 - Mutiny on the Battalion Barque (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176_V2.png)
 
 ## Notes

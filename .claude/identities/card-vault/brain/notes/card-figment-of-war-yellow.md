@@ -28,5 +28,11 @@ When this enters the arena, create a Courage token."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Figment of War" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012_V2.png)
+
+## Images
+
+![DTD012 - Figment of War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012.png)
+![DTD012 - Figment of War (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012_V2.png)
 
 ## Notes

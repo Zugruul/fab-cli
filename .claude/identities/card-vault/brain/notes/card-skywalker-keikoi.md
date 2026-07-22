@@ -23,5 +23,12 @@ Instant - Destroy this: Prevent the next 1 damage that would be dealt to you thi
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Skywalker Keikoi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS281.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST074.png)
+
+## Images
+
+![ENG006 - Skywalker Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG006.png)
+![LGS281 - Skywalker Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS281.png)
+![MST074 - Skywalker Keikoi](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST074.png)
 
 ## Notes

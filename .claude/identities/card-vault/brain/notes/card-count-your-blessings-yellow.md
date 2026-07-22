@@ -24,5 +24,11 @@ codes: [LGS358, ROS224]
 
 Variants: [[card-count-your-blessings-red]] · [[card-count-your-blessings-blue]]
 Rulings: search "Count Your Blessings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS358.original.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS224.png)
+
+## Images
+
+![LGS358 - Count Your Blessings (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS358.original.png)
+![ROS224 - Count Your Blessings (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS224.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-runic-reaping-red]] · [[card-runic-reaping-yellow]]
 Rulings: search "Runic Reaping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN187.png)
+
+## Images
+
+![DYN187 - Runic Reaping (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN187.png)
 
 ## Notes

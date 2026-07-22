@@ -27,5 +27,10 @@ codes: [DYN176]
 
 Variants: [[card-deathly-duet-yellow]] · [[card-deathly-duet-blue]]
 Rulings: search "Deathly Duet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN176.png)
+
+## Images
+
+![DYN176 - Deathly Duet (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN176.png)
 
 ## Notes

@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Solforge Gauntlet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN179.webp)
+
+## Images
+
+![PEN179 - Solforge Gauntlet](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN179.webp)
 
 ## Notes

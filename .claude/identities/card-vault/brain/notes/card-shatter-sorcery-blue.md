@@ -26,5 +26,10 @@ Destroy target aura permanent with Sigil in its name.
 Prevent the next 1 arcane damage that would be dealt to target hero this turn."
 
 Rulings: search "Shatter Sorcery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN330.webp)
+
+## Images
+
+![PEN330 - Shatter Sorcery (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN330.webp)
 
 ## Notes

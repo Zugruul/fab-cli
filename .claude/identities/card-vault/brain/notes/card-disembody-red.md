@@ -27,5 +27,10 @@ codes: [SUP031]
 When this defends, if it has 6 or more {d}, the attacking hero puts an aura they control on the bottom of their deck."
 
 Rulings: search "Disembody" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP031.webp)
+
+## Images
+
+![SUP031 - Disembody (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP031.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Ironfist Revelation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP168-RF.webp)
+
+## Images
+
+![SUP168 - Ironfist Revelation](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP168-RF.webp)
 
 ## Notes

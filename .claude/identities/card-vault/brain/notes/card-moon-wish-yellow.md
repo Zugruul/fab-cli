@@ -28,5 +28,11 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
 Variants: [[card-moon-wish-red]] · [[card-moon-wish-blue]]
 Rulings: search "Moon Wish" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC186.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC186.png)
+
+## Images
+
+![ARC186 - Moon Wish (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC186.png)
+![ARC186 - Moon Wish (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC186.png)
 
 ## Notes

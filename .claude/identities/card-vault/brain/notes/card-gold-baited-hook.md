@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Gold-Baited Hook" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB339-GF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA125.png)
+
+## Images
+
+![FAB339 - Gold-Baited Hook](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB339-GF.webp)
+![SEA125 - Gold-Baited Hook](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA125.png)
 
 ## Notes

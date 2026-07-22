@@ -29,5 +29,14 @@ If this is defended by fewer than 2 non-equipment cards, it gets go again."
 Keywords: [[kw-dominate]] · [[kw-go-again]]
 Variants: [[card-pulping-yellow]] · [[card-pulping-blue]]
 Rulings: search "Pulping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS051.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/83qQVRV7av7WVwN6jhg0d.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON223.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA015.webp)
+
+## Images
+
+![AKO010 - Pulping (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO010.png)
+![LGS051 - Pulping (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS051.png)
+![MON223 - Pulping (red)](https://storage.googleapis.com/fabmaster/media/images/83qQVRV7av7WVwN6jhg0d.width-450.png)
+![MON223 - Pulping (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON223.width-450.png)
+![SKA015 - Pulping (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA015.webp)
 
 ## Notes

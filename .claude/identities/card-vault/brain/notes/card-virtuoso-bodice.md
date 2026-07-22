@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Virtuoso Bodice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS005-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP273-CF.webp)
+
+## Images
+
+![APS005 - Virtuoso Bodice](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS005-RF.webp)
+![SUP273 - Virtuoso Bodice](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP273-CF.webp)
 
 ## Notes

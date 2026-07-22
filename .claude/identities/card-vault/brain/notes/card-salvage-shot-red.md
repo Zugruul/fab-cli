@@ -27,5 +27,15 @@ codes: [1HP246, ARC066, AZL011, RIP017, SEA114]
 
 Variants: [[card-salvage-shot-yellow]] · [[card-salvage-shot-blue]]
 Rulings: search "Salvage Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP246.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC066.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ARC066_Salvage_Shot.width-10000.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL011.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP017.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA114.png)
+
+## Images
+
+![1HP246 - Salvage Shot (red)](https://storage.googleapis.com/fabmaster/media/images/1HP246.width-450.png)
+![ARC066 - Salvage Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC066.png)
+![ARC066 - Salvage Shot (red)](https://storage.googleapis.com/fabmaster/media/images/ARC066_Salvage_Shot.width-10000.png)
+![AZL011 - Salvage Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL011.png)
+![RIP017 - Salvage Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP017.png)
+![SEA114 - Salvage Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA114.png)
 
 ## Notes

@@ -25,5 +25,11 @@ Blood Debt"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-blood-debt]] · [[kw-go-again]]
 Rulings: search "Spoiled Skull" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD106.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD106_V2.png)
+
+## Images
+
+![DTD106 - Spoiled Skull](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD106.png)
+![DTD106 - Spoiled Skull](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD106_V2.png)
 
 ## Notes

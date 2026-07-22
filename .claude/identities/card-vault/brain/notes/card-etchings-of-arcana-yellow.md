@@ -28,5 +28,11 @@ Surge - If this deals more than 2 damage, you may return an aura with Sigil in i
 Keywords: [[kw-surge]]
 Variants: [[card-etchings-of-arcana-red]] · [[card-etchings-of-arcana-blue]]
 Rulings: search "Etchings of Arcana" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS190.png)
+
+## Images
+
+![OSC021 - Etchings of Arcana (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC021.webp)
+![ROS190 - Etchings of Arcana (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS190.png)
 
 ## Notes

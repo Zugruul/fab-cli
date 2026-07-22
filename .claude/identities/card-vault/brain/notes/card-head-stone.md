@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Head Stone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA081.png)
+
+## Images
+
+![SEA081 - Head Stone](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA081.png)
 
 ## Notes

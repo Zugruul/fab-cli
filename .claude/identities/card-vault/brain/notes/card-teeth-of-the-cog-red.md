@@ -29,5 +29,10 @@ codes: [SEA030]
 Keywords: [[kw-galvanize]]
 Variants: [[card-teeth-of-the-cog-yellow]] · [[card-teeth-of-the-cog-blue]]
 Rulings: search "Teeth of the Cog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA030.png)
+
+## Images
+
+![SEA030 - Teeth of the Cog (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA030.png)
 
 ## Notes

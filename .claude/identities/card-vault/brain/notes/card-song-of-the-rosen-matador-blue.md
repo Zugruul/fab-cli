@@ -25,5 +25,11 @@ codes: [LGS218, TCC066]
 "Create a Vigor token under each other hero's control."
 
 Rulings: search "Song of the Rosen Matador" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS218.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC066.png)
+
+## Images
+
+![LGS218 - Song of the Rosen Matador (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS218.png)
+![TCC066 - Song of the Rosen Matador (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC066.png)
 
 ## Notes

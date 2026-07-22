@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Helm of Safe Haven" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN314.webp)
+
+## Images
+
+![PEN314 - Helm of Safe Haven](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN314.webp)
 
 ## Notes

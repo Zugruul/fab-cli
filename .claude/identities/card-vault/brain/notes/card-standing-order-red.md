@@ -26,5 +26,10 @@ codes: [HVY210]
 "When this attacks or defends, you may put a card from your arsenal on the bottom of your deck. If you do, this gets +2{p} and +2{d}."
 
 Rulings: search "Standing Order" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY210.png)
+
+## Images
+
+![HVY210 - Standing Order (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY210.png)
 
 ## Notes

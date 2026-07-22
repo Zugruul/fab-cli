@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-charge-of-the-light-brigade-red]] · [[card-charge-of-the-light-brigade-blue]]
 Rulings: search "Charge of the Light Brigade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD073.png)
+
+## Images
+
+![DTD073 - Charge of the Light Brigade (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD073.png)
 
 ## Notes

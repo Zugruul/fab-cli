@@ -32,5 +32,11 @@ codes: [EVO056]
 
 Keywords: [[kw-overpower]]
 Rulings: search "War Machine" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO056.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO056_V2.png)
+
+## Images
+
+![EVO056 - War Machine (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO056.png)
+![EVO056 - War Machine (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO056_V2.png)
 
 ## Notes

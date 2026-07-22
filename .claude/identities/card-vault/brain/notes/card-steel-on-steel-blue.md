@@ -25,5 +25,11 @@ codes: [DDD015, MPW098]
 
 Variants: [[card-steel-on-steel-red]] · [[card-steel-on-steel-yellow]]
 Rulings: search "Steel on Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD015.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW098.webp)
+
+## Images
+
+![DDD015 - Steel on Steel (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD015.webp)
+![MPW098 - Steel on Steel (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW098.webp)
 
 ## Notes

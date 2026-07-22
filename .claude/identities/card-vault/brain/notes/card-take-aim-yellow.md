@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-reload]] · [[kw-go-again]]
 Variants: [[card-take-aim-red]] · [[card-take-aim-blue]]
 Rulings: search "Take Aim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP238.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC055.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC055.png)
+
+## Images
+
+![1HP238 - Take Aim (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP238.width-450.png)
+![ARC055 - Take Aim (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC055.png)
+![ARC055 - Take Aim (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC055.png)
 
 ## Notes

@@ -21,5 +21,11 @@ codes: [GEM144, OMN096]
 "Instant - {t}: Amp 1. Activate this only if an instant card has been put into your graveyard this turn."
 
 Rulings: search "Volzar, Meteor Storm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM144-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN096.webp)
+
+## Images
+
+![GEM144 - Volzar, Meteor Storm](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM144-CF.webp)
+![OMN096 - Volzar, Meteor Storm](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN096.webp)
 
 ## Notes

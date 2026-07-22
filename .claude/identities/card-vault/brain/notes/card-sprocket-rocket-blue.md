@@ -30,5 +30,10 @@ If an item or equipment was banished from boosting this, this gets +1{p}."
 Keywords: [[kw-boost]]
 Variants: [[card-sprocket-rocket-red]] · [[card-sprocket-rocket-yellow]]
 Rulings: search "Sprocket Rocket" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO194.png)
+
+## Images
+
+![EVO194 - Sprocket Rocket (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO194.png)
 
 ## Notes

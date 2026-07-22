@@ -25,5 +25,10 @@ codes: [PEN333]
 
 Variants: [[card-drag-down-red]] · [[card-drag-down-yellow]]
 Rulings: search "Drag Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN333.webp)
+
+## Images
+
+![PEN333 - Drag Down (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN333.webp)
 
 ## Notes

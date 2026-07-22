@@ -29,5 +29,11 @@ codes: [BDD015, MPG081]
 Keywords: [[kw-crush]]
 Variants: [[card-grind-them-down-red]] · [[card-grind-them-down-yellow]]
 Rulings: search "Grind Them Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD015.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG081.webp)
+
+## Images
+
+![BDD015 - Grind Them Down (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD015.webp)
+![MPG081 - Grind Them Down (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG081.webp)
 
 ## Notes

@@ -22,5 +22,13 @@ codes: [LGS292, LGS302, MST159, ZEN002]
 When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}."
 
 Rulings: search "Tiger Taming Khakkara" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS292-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS302-CF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST159.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN002.png)
+
+## Images
+
+![LGS292 - Tiger Taming Khakkara](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS292-RF.webp)
+![LGS302 - Tiger Taming Khakkara](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS302-CF.webp)
+![MST159 - Tiger Taming Khakkara](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST159.png)
+![ZEN002 - Tiger Taming Khakkara](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN002.png)
 
 ## Notes

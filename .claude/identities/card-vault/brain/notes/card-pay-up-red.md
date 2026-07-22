@@ -29,5 +29,10 @@ When this hits a hero, gain control of a Gold token they control. If you don't, 
 
 Keywords: [[kw-overpower]]
 Rulings: search "Pay Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY208.png)
+
+## Images
+
+![HVY208 - Pay Up (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY208.png)
 
 ## Notes

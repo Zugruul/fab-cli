@@ -29,5 +29,11 @@ codes: [AUR016, ROS093]
 Keywords: [[kw-go-again]]
 Variants: [[card-fry-red]] · [[card-fry-blue]]
 Rulings: search "Fry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS093.png)
+
+## Images
+
+![AUR016 - Fry (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR016.webp)
+![ROS093 - Fry (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS093.png)
 
 ## Notes

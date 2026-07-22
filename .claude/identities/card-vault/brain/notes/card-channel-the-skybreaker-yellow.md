@@ -29,5 +29,11 @@ Channel Earth - At the beginning of your end phase, put a flow counter on this, 
 
 Keywords: [[kw-go-again]] · [[kw-channel]]
 Rulings: search "Channel the Skybreaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN217.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN217-CF.webp)
+
+## Images
+
+![PEN217 - Channel the Skybreaker (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN217.webp)
+![PEN217 - Channel the Skybreaker (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN217-CF.webp)
 
 ## Notes

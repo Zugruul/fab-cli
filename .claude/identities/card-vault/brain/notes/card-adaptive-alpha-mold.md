@@ -25,5 +25,11 @@ Battleworn"
 
 Keywords: [[kw-modular]] · [[kw-battleworn]]
 Rulings: search "Adaptive Alpha Mold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP253.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP253-CF.webp)
+
+## Images
+
+![SUP253 - Adaptive Alpha Mold](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP253.webp)
+![SUP253 - Adaptive Alpha Mold](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP253-CF.webp)
 
 ## Notes

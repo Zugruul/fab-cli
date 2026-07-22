@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "On a Knife Edge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DVR019.width-450.png)
+
+## Images
+
+![DVR019 - On a Knife Edge (yellow)](https://storage.googleapis.com/fabmaster/media/images/DVR019.width-450.png)
 
 ## Notes

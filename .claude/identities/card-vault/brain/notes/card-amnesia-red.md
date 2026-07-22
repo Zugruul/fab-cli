@@ -26,5 +26,11 @@ codes: [ANQ011, OUT183]
 "When this hits a hero, cards and tokens they own lose and can't gain names until the start of your next turn."
 
 Rulings: search "Amnesia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ011.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT183.width-450.png)
+
+## Images
+
+![ANQ011 - Amnesia (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ011.webp)
+![OUT183 - Amnesia (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT183.width-450.png)
 
 ## Notes

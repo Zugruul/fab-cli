@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-spellvoid]] · [[kw-blade-break]]
 Rulings: search "Third Eye of the Sphinx" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN140-RF.webp)
+
+## Images
+
+![OMN140 - Third Eye of the Sphinx](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN140-RF.webp)
 
 ## Notes

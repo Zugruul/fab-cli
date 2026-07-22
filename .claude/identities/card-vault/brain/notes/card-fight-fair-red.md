@@ -27,5 +27,10 @@ codes: [SUP033]
 When this hits a Reviled hero, put this on the bottom of its owner's deck."
 
 Rulings: search "Fight Fair" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP033.webp)
+
+## Images
+
+![SUP033 - Fight Fair (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP033.webp)
 
 ## Notes

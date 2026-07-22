@@ -28,5 +28,11 @@ codes: [HVY062, TCC034]
 
 Keywords: [[kw-tower]]
 Rulings: search "Colossal Bearing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY062.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC034.png)
+
+## Images
+
+![HVY062 - Colossal Bearing (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY062.png)
+![TCC034 - Colossal Bearing (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC034.png)
 
 ## Notes

@@ -28,5 +28,11 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Essence of Ancestry: Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG017.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST139.png)
+
+## Images
+
+![ENG017 - Essence of Ancestry: Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG017.png)
+![MST139 - Essence of Ancestry: Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST139.png)
 
 ## Notes

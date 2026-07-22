@@ -20,5 +20,11 @@ codes: [GEM110, PEN092]
 "Instant - {r}, destroy this: Create a Runechant token."
 
 Rulings: search "Grimoire of Fellingsong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM110-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN092.webp)
+
+## Images
+
+![GEM110 - Grimoire of Fellingsong](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM110-CF.webp)
+![PEN092 - Grimoire of Fellingsong](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN092.webp)
 
 ## Notes

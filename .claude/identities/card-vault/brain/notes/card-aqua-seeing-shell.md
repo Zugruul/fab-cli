@@ -25,5 +25,12 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Aqua Seeing Shell" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS274.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST067.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU003.png)
+
+## Images
+
+![LGS274 - Aqua Seeing Shell](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS274.png)
+![MST067 - Aqua Seeing Shell](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST067.png)
+![NUU003 - Aqua Seeing Shell](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU003.png)
 
 ## Notes

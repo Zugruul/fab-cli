@@ -29,5 +29,11 @@ codes: [ARR019, SUP144]
 Keywords: [[kw-go-again]]
 Variants: [[card-buckwild-red]] · [[card-buckwild-blue]]
 Rulings: search "Buckwild" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR019.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP144.webp)
+
+## Images
+
+![ARR019 - Buckwild (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR019.webp)
+![SUP144 - Buckwild (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP144.webp)
 
 ## Notes

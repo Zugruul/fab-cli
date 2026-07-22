@@ -28,5 +28,11 @@ Your next sword attack this turn gets +3{p}."
 Keywords: [[kw-go-again]]
 Variants: [[card-run-through-yellow]] · [[card-run-through-blue]]
 Rulings: search "Run Through" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD008.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW048.webp)
+
+## Images
+
+![DDD008 - Run Through (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD008.webp)
+![MPW048 - Run Through (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW048.webp)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [ARC105]
 
 Variants: [[card-spellblade-strike-red]] · [[card-spellblade-strike-yellow]]
 Rulings: search "Spellblade Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC105.png)
+
+## Images
+
+![ARC105 - Spellblade Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105.png)
+![ARC105 - Spellblade Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105-RF.png)
+![ARC105 - Spellblade Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC105.png)
 
 ## Notes

@@ -24,5 +24,13 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
 
 Keywords: [[kw-token-ursur-the-soul-reaper]]
 Rulings: search "Ursur, the Soul Reaper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB022.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB042.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON220.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON220.width-450.png)
+
+## Images
+
+![FAB022 - Ursur, the Soul Reaper](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB022.png)
+![FAB042 - Ursur, the Soul Reaper](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB042.png)
+![MON220 - Ursur, the Soul Reaper](https://storage.googleapis.com/fabmaster/media/images/MON220.width-450.png)
+![MON220 - Ursur, the Soul Reaper](https://storage.googleapis.com/fabmaster/media/images/U-MON220.width-450.png)
 
 ## Notes

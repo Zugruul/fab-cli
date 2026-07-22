@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Heartbeat of Candlehold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB269.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS016.png)
+
+## Images
+
+![FAB269 - Heartbeat of Candlehold (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB269.png)
+![ROS016 - Heartbeat of Candlehold (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS016.png)
 
 ## Notes

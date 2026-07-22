@@ -25,5 +25,12 @@ Piercing 1"
 
 Keywords: [[kw-mark]] · [[kw-piercing]]
 Rulings: search "Hunter's Klaive" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC002.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM068.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT009.png)
+
+## Images
+
+![AAC002 - Hunter's Klaive](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC002.webp)
+![GEM068 - Hunter's Klaive](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM068.webp)
+![HNT009 - Hunter's Klaive](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT009.png)
 
 ## Notes

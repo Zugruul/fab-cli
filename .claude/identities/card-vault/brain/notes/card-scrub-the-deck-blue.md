@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Scrub the Deck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147_V2.png)
+
+## Images
+
+![SEA147 - Scrub the Deck (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147.png)
+![SEA147 - Scrub the Deck (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147_V2.png)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [1HP029, CRU017]
 
 Variants: [[card-riled-up-red]] · [[card-riled-up-blue]]
 Rulings: search "Riled Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP029.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU017.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU017.png)
+
+## Images
+
+![1HP029 - Riled Up (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP029.width-450.png)
+![CRU017 - Riled Up (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU017.png)
+![CRU017 - Riled Up (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU017.png)
 
 ## Notes

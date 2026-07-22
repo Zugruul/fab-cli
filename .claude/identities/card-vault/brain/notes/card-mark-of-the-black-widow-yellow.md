@@ -30,5 +30,10 @@ When this hits a marked hero, they banish a card from their hand."
 Keywords: [[kw-stealth]]
 Variants: [[card-mark-of-the-black-widow-red]] · [[card-mark-of-the-black-widow-blue]]
 Rulings: search "Mark of the Black Widow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT033.png)
+
+## Images
+
+![HNT033 - Mark of the Black Widow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT033.png)
 
 ## Notes

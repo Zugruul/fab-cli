@@ -29,5 +29,11 @@ codes: [BEN023, OUT061]
 Keywords: [[kw-combo]]
 Variants: [[card-recoil-red]] · [[card-recoil-yellow]]
 Rulings: search "Recoil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN023.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT061.width-450.png)
+
+## Images
+
+![BEN023 - Recoil (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN023.png)
+![OUT061 - Recoil (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT061.width-450.png)
 
 ## Notes

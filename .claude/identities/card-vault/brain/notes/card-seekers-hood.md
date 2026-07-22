@@ -20,5 +20,11 @@ codes: [OMN205, OUT175]
 "Instant - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. Opt 1"
 
 Rulings: search "Seeker's Hood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN205.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT175.width-450.png)
+
+## Images
+
+![OMN205 - Seeker's Hood](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN205.webp)
+![OUT175 - Seeker's Hood](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT175.width-450.png)
 
 ## Notes

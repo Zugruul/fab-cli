@@ -24,5 +24,12 @@ If another weapon you control has gained go again this turn, this card's attacks
 
 Keywords: [[kw-go-again]]
 Rulings: search "Quicksilver Dagger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN069.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN070.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS112.png)
+
+## Images
+
+![DYN069 - Quicksilver Dagger](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN069.png)
+![DYN070 - Quicksilver Dagger](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN070.png)
+![LGS112 - Quicksilver Dagger](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS112.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [UPR041]
 Keywords: [[kw-ward]]
 Variants: [[card-sand-cover-red]] · [[card-sand-cover-yellow]]
 Rulings: search "Sand Cover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR041.png)
+
+## Images
+
+![UPR041 - Sand Cover (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR041.png)
 
 ## Notes

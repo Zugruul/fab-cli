@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Head Leads the Tail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT052.width-450.png)
+
+## Images
+
+![OUT052 - Head Leads the Tail (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT052.width-450.png)
 
 ## Notes

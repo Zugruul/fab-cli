@@ -24,5 +24,11 @@ codes: [PEN246, SBA031]
 
 Variants: [[card-cloud-cover-yellow]] · [[card-cloud-cover-blue]]
 Rulings: search "Cloud Cover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN246.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA031.webp)
+
+## Images
+
+![PEN246 - Cloud Cover (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN246.webp)
+![SBA031 - Cloud Cover (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA031.webp)
 
 ## Notes

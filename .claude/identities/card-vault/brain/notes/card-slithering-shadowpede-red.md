@@ -29,5 +29,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Slithering Shadowpede" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD109.png)
+
+## Images
+
+![DTD109 - Slithering Shadowpede (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD109.png)
 
 ## Notes

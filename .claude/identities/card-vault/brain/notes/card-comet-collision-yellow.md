@@ -29,5 +29,10 @@ Starfall - If an instant card has been put into your graveyard this turn, instea
 Keywords: [[kw-starfall]]
 Variants: [[card-comet-collision-red]] · [[card-comet-collision-blue]]
 Rulings: search "Comet Collision" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN110.webp)
+
+## Images
+
+![OMN110 - Comet Collision (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN110.webp)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [CRU103]
 "The defending hero must defend Meganetic Shockwave with X equipment they control, where X is the number of times you have boosted this combat chain."
 
 Rulings: search "Meganetic Shockwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU103.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU103.png)
+
+## Images
+
+![CRU103 - Meganetic Shockwave (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU103.png)
+![CRU103 - Meganetic Shockwave (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU103.png)
 
 ## Notes

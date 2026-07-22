@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Dead Threads" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB337-GF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080_V2.png)
+
+## Images
+
+![FAB337 - Dead Threads](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB337-GF.webp)
+![SEA080 - Dead Threads](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080.png)
+![SEA080 - Dead Threads](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080_V2.png)
 
 ## Notes

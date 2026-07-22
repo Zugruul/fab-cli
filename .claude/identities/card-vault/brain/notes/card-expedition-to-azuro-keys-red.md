@@ -26,5 +26,11 @@ codes: [SEA155]
 "When this attacks, you may put a gold counter on Treasure Island."
 
 Rulings: search "Expedition to Azuro Keys" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155_V2.png)
+
+## Images
+
+![SEA155 - Expedition to Azuro Keys (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155.png)
+![SEA155 - Expedition to Azuro Keys (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155_V2.png)
 
 ## Notes

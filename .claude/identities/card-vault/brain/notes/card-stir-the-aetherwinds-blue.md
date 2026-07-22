@@ -25,5 +25,13 @@ codes: [1HP322, ARC131, SIY031]
 
 Variants: [[card-stir-the-aetherwinds-red]] · [[card-stir-the-aetherwinds-yellow]]
 Rulings: search "Stir the Aetherwinds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP322.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC131.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC131.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY031.webp)
+
+## Images
+
+![1HP322 - Stir the Aetherwinds (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP322.width-450.png)
+![ARC131 - Stir the Aetherwinds (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC131.png)
+![ARC131 - Stir the Aetherwinds (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC131.png)
+![SIY031 - Stir the Aetherwinds (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY031.webp)
 
 ## Notes

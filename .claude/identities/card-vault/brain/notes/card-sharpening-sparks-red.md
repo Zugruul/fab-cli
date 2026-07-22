@@ -26,5 +26,11 @@ codes: [MPW026]
 
 Keywords: [[kw-sharpen]]
 Rulings: search "Sharpening Sparks" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW026.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW026-RF.webp)
+
+## Images
+
+![MPW026 - Sharpening Sparks (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW026.webp)
+![MPW026 - Sharpening Sparks (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW026-RF.webp)
 
 ## Notes

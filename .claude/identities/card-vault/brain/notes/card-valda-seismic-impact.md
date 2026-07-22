@@ -25,5 +25,12 @@ At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards 
 
 Keywords: [[kw-dominate]]
 Rulings: search "Valda, Seismic Impact" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001-MV_BACK.webp)
+
+## Images
+
+![MPG001 - Valda, Seismic Impact](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001.webp)
+![MPG001 - Valda, Seismic Impact](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001-MV.webp)
+![MPG001 - Valda, Seismic Impact](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001-MV_BACK.webp)
 
 ## Notes

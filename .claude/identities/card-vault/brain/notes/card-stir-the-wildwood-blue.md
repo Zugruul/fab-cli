@@ -32,5 +32,11 @@ If Stir the Wildwood was fused, it gains +2{p}."
 Keywords: [[kw-fusion]]
 Variants: [[card-stir-the-wildwood-red]] · [[card-stir-the-wildwood-yellow]]
 Rulings: search "Stir the Wildwood" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE084.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE084.width-450.png)
+
+## Images
+
+![ELE084 - Stir the Wildwood (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE084.width-450.png)
+![ELE084 - Stir the Wildwood (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE084.width-450.png)
 
 ## Notes

@@ -23,5 +23,12 @@ codes: [OMN095]
 "Instant - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn."
 
 Rulings: search "Oscilio, Scion of the Third Age" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095-MV_BACK.webp)
+
+## Images
+
+![OMN095 - Oscilio, Scion of the Third Age](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095.webp)
+![OMN095 - Oscilio, Scion of the Third Age](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095-MV.webp)
+![OMN095 - Oscilio, Scion of the Third Age](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095-MV_BACK.webp)
 
 ## Notes

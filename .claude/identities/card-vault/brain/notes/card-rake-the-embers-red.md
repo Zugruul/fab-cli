@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Variants: [[card-rake-the-embers-yellow]] · [[card-rake-the-embers-blue]]
 Rulings: search "Rake the Embers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO011.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR033.png)
+
+## Images
+
+![DRO011 - Rake the Embers (red)](https://storage.googleapis.com/fabmaster/media/images/DRO011.width-450.png)
+![UPR033 - Rake the Embers (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR033.png)
 
 ## Notes

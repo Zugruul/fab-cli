@@ -26,5 +26,10 @@ codes: [HVY207]
 "When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token."
 
 Rulings: search "Nasty Surprise" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY207.png)
+
+## Images
+
+![HVY207 - Nasty Surprise (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY207.png)
 
 ## Notes

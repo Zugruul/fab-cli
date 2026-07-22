@@ -29,5 +29,10 @@ Instant - Discard this, banish X cards from your soul: Turn X target cards in a 
 
 Keywords: [[kw-go-again]]
 Rulings: search "War Cry of Themis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT257.webp)
+
+## Images
+
+![HNT257 - War Cry of Themis (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT257.webp)
 
 ## Notes

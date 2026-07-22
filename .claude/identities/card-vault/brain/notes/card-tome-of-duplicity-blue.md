@@ -24,5 +24,10 @@ codes: [UPR168]
 "Look at the top 2 cards of your deck, then banish one. If it's a 'non-attack' action card, you may play it this turn as though it were an instant."
 
 Rulings: search "Tome of Duplicity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR168.png)
+
+## Images
+
+![UPR168 - Tome of Duplicity (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR168.png)
 
 ## Notes

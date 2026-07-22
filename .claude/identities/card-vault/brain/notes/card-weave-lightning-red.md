@@ -28,5 +28,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-weave-lightning-yellow]] · [[card-weave-lightning-blue]]
 Rulings: search "Weave Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE180.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE180.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS075.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/LXI017.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA029.webp)
+
+## Images
+
+![ELE180 - Weave Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/ELE180.width-450.png)
+![ELE180 - Weave Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE180.width-450.png)
+![LGS075 - Weave Lightning (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS075.png)
+![LXI017 - Weave Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/LXI017.width-450.png)
+![SBA029 - Weave Lightning (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA029.webp)
 
 ## Notes

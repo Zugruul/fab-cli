@@ -28,5 +28,13 @@ codes: [1HP079, CRU038]
 Keywords: [[kw-dominate]]
 Variants: [[card-emerging-dominance-yellow]] · [[card-emerging-dominance-blue]]
 Rulings: search "Emerging Dominance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP079.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU038.png)
+
+## Images
+
+![1HP079 - Emerging Dominance (red)](https://storage.googleapis.com/fabmaster/media/images/1HP079.width-450.png)
+![CRU038 - Emerging Dominance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038.png)
+![CRU038 - Emerging Dominance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038-RF.png)
+![CRU038 - Emerging Dominance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU038.png)
 
 ## Notes

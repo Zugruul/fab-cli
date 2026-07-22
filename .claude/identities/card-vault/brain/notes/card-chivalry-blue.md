@@ -25,5 +25,12 @@ codes: [JDG036, LGS211, TCC048]
 
 Keywords: [[kw-protect]]
 Rulings: search "Chivalry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG036.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS211.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC048.png)
+
+## Images
+
+![JDG036 - Chivalry (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG036.png)
+![LGS211 - Chivalry (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS211.png)
+![TCC048 - Chivalry (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC048.png)
 
 ## Notes

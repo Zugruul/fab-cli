@@ -21,5 +21,10 @@ codes: [HNT220]
 "Defense Reaction - Destroy this: You may add an action card from your arsenal to the active chain link as a defending card."
 
 Rulings: search "Bunker Beard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT220.png)
+
+## Images
+
+![HNT220 - Bunker Beard](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT220.png)
 
 ## Notes

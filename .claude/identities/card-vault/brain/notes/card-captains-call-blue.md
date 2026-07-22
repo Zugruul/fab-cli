@@ -30,5 +30,13 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-captains-call-red]] · [[card-captains-call-yellow]]
 Rulings: search "Captain's Call" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST026.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB352-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON262.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON262.width-450.png)
+
+## Images
+
+![AST026 - Captain's Call (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST026.webp)
+![FAB352 - Captain's Call (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB352-RF.webp)
+![MON262 - Captain's Call (blue)](https://storage.googleapis.com/fabmaster/media/images/MON262.width-450.png)
+![MON262 - Captain's Call (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON262.width-450.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-point-the-tip-red]] · [[card-point-the-tip-yellow]]
 Rulings: search "Point the Tip" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN170.png)
+
+## Images
+
+![DYN170 - Point the Tip (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN170.png)
 
 ## Notes

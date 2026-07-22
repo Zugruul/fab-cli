@@ -30,5 +30,10 @@ When this attacks, if it scrapped a card, create a Quicken token."
 Keywords: [[kw-scrap]]
 Variants: [[card-scrap-hopper-yellow]] · [[card-scrap-hopper-blue]]
 Rulings: search "Scrap Hopper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO108.png)
+
+## Images
+
+![EVO108 - Scrap Hopper (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO108.png)
 
 ## Notes

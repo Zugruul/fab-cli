@@ -28,5 +28,11 @@ When this leaves the arena, gain 3{h}."
 
 Keywords: [[kw-suspense]]
 Rulings: search "Hungry for More" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS438.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP175.webp)
+
+## Images
+
+![LGS438 - Hungry for More (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS438.webp)
+![SUP175 - Hungry for More (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP175.webp)
 
 ## Notes

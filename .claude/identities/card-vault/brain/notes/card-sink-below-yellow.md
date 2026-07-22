@@ -25,5 +25,12 @@ codes: [1HP409, WTR216]
 
 Variants: [[card-sink-below-red]] · [[card-sink-below-blue]]
 Rulings: search "Sink Below" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP409.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR216.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR216.png)
+
+## Images
+
+![1HP409 - Sink Below (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP409.width-450.png)
+![WTR216 - Sink Below (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR216.png)
+![WTR216 - Sink Below (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR216.png)
 
 ## Notes

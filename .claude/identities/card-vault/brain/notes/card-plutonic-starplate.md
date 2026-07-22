@@ -24,5 +24,10 @@ Arcane Barrer 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Plutonic Starplate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN141-RF.webp)
+
+## Images
+
+![OMN141 - Plutonic Starplate](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN141-RF.webp)
 
 ## Notes

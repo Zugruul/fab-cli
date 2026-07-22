@@ -30,5 +30,12 @@ If Fervent Forerunner is played from arsenal, it gains go again."
 Keywords: [[kw-opt]] · [[kw-go-again]]
 Variants: [[card-fervent-forerunner-red]] · [[card-fervent-forerunner-blue]]
 Rulings: search "Fervent Forerunner" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC183.png)
+
+## Images
+
+![ARC183 - Fervent Forerunner (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183.png)
+![ARC183 - Fervent Forerunner (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183-RF.png)
+![ARC183 - Fervent Forerunner (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC183.png)
 
 ## Notes

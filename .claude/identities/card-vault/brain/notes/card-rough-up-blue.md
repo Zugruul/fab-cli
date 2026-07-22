@@ -27,5 +27,10 @@ codes: [SUP160]
 
 Variants: [[card-rough-up-red]] · [[card-rough-up-yellow]]
 Rulings: search "Rough Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP160.webp)
+
+## Images
+
+![SUP160 - Rough Up (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP160.webp)
 
 ## Notes

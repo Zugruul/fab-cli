@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Toby Jugs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS417-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP214.webp)
+
+## Images
+
+![LGS417 - Toby Jugs](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS417-CF.webp)
+![SUP214 - Toby Jugs](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP214.webp)
 
 ## Notes

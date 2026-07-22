@@ -27,5 +27,10 @@ codes: [SUP089]
 When this hits a Revered hero, destroy the top card of their deck."
 
 Rulings: search "Fight Dirty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP089.webp)
+
+## Images
+
+![SUP089 - Fight Dirty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP089.webp)
 
 ## Notes

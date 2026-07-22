@@ -26,5 +26,10 @@ codes: [SUP142]
 "When 1 or more Brute cards defend this, create a Vigor token."
 
 Rulings: search "Familiar Stench" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP142.webp)
+
+## Images
+
+![SUP142 - Familiar Stench (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP142.webp)
 
 ## Notes

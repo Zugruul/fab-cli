@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-awaken]] · [[kw-go-again]]
 Rulings: search "Angelic Attendant" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP265.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP265-CF.webp)
+
+## Images
+
+![SUP265 - Angelic Attendant (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP265.webp)
+![SUP265 - Angelic Attendant (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP265-CF.webp)
 
 ## Notes

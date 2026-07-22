@@ -18,5 +18,10 @@ codes: [SMP010]
 "Until end of turn, you may attack any opposing hero and when you deal lethal damage to them, take an extra turn after this one."
 
 Rulings: search "Code of Conduct: Kill or Be Killed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP010.webp)
+
+## Images
+
+![SMP010 - Code of Conduct: Kill or Be Killed](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP010.webp)
 
 ## Notes

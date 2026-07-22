@@ -26,5 +26,10 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Orihon of Mystic Tenets" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST080.png)
+
+## Images
+
+![MST080 - Orihon of Mystic Tenets (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST080.png)
 
 ## Notes

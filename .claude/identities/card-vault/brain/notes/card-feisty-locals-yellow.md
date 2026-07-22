@@ -27,5 +27,11 @@ codes: [OUT208, SUP231]
 
 Variants: [[card-feisty-locals-red]] · [[card-feisty-locals-blue]]
 Rulings: search "Feisty Locals" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT208.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP231.webp)
+
+## Images
+
+![OUT208 - Feisty Locals (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT208.width-450.png)
+![SUP231 - Feisty Locals (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP231.webp)
 
 ## Notes

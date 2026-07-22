@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-lead-the-charge-red]] · [[card-lead-the-charge-yellow]]
 Rulings: search "Lead the Charge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC211.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC211.png)
+
+## Images
+
+![ARC211 - Lead the Charge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC211.png)
+![ARC211 - Lead the Charge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC211.png)
 
 ## Notes

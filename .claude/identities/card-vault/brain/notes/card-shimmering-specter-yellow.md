@@ -30,5 +30,10 @@ Mirage"
 Keywords: [[kw-mirage]]
 Variants: [[card-shimmering-specter-red]] · [[card-shimmering-specter-blue]]
 Rulings: search "Shimmering Specter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN134.webp)
+
+## Images
+
+![PEN134 - Shimmering Specter (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN134.webp)
 
 ## Notes

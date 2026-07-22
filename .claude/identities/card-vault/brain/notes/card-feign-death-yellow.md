@@ -24,5 +24,12 @@ codes: [1HP233, CRU125]
 The next time your hero would be dealt damage this turn, prevent it."
 
 Rulings: search "Feign Death" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP233.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU125.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU125.png)
+
+## Images
+
+![1HP233 - Feign Death (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP233.width-450.png)
+![CRU125 - Feign Death (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU125.png)
+![CRU125 - Feign Death (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU125.png)
 
 ## Notes

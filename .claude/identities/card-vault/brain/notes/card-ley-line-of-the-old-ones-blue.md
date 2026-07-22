@@ -27,5 +27,11 @@ When this enters the arena and whenever you deal damage, create a Seismic Surge 
 
 Keywords: [[kw-legendary]]
 Rulings: search "Ley Line of the Old Ones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG013-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG013-MV.webp)
+
+## Images
+
+![MPG013 - Ley Line of the Old Ones (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG013-RF.webp)
+![MPG013 - Ley Line of the Old Ones (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG013-MV.webp)
 
 ## Notes

@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Sense Weakness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN021.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN021-RF.webp)
+
+## Images
+
+![PEN021 - Sense Weakness (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN021.webp)
+![PEN021 - Sense Weakness (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN021-RF.webp)
 
 ## Notes

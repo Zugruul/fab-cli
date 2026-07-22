@@ -29,5 +29,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Inflame" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI011.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097_EA.png)
+
+## Images
+
+![FAI011 - Inflame (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI011.webp)
+![UPR097 - Inflame (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097.png)
+![UPR097 - Inflame (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097_EA.png)
 
 ## Notes

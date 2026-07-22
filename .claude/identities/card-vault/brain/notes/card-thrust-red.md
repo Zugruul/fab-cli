@@ -24,5 +24,11 @@ codes: [DDD009, DVR014]
 "Target sword attack gains +3{p}."
 
 Rulings: search "Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD009.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR014.width-450.png)
+
+## Images
+
+![DDD009 - Thrust (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD009.webp)
+![DVR014 - Thrust (red)](https://storage.googleapis.com/fabmaster/media/images/DVR014.width-450.png)
 
 ## Notes

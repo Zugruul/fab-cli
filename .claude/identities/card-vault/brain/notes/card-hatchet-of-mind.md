@@ -22,5 +22,13 @@ codes: [BOL004, LGS050, MON106]
 Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack this turn, Hatchet of Mind gains +1{p} until end of turn."
 
 Rulings: search "Hatchet of Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL004.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS050.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON106.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON106.width-450.png)
+
+## Images
+
+![BOL004 - Hatchet of Mind](https://storage.googleapis.com/fabmaster/media/images/BOL004.width-450.png)
+![LGS050 - Hatchet of Mind](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS050.png)
+![MON106 - Hatchet of Mind](https://storage.googleapis.com/fabmaster/media/images/MON106.width-450.png)
+![MON106 - Hatchet of Mind](https://storage.googleapis.com/fabmaster/media/images/U-MON106.width-450.png)
 
 ## Notes

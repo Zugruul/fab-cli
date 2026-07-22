@@ -31,5 +31,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-battlefield-breaker-red]] · [[card-battlefield-breaker-yellow]]
 Rulings: search "Battlefield Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD123.png)
+
+## Images
+
+![DTD123 - Battlefield Breaker (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD123.png)
 
 ## Notes

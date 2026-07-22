@@ -23,5 +23,17 @@ codes: [1HP139, HER008, HER057, SDO001, TEA002, WTR114, XXX001]
 
 Adult version: [[card-dorinthea-ironsong]]
 Rulings: search "Dorinthea" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP139.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER008.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER057.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO001.webp) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/TEA2.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR114.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR114.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX001.png)
+
+## Images
+
+![1HP139 - Dorinthea](https://storage.googleapis.com/fabmaster/media/images/1HP139.width-450.png)
+![HER008 - Dorinthea](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER008.png)
+![HER057 - Dorinthea](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER057.png)
+![SDO001 - Dorinthea](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO001.webp)
+![TEA002 - Dorinthea](https://storage.googleapis.com/fabmaster/media/images/TEA2.width-450.png)
+![WTR114 - Dorinthea](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR114.png)
+![WTR114 - Dorinthea](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR114.png)
+![XXX001 - Dorinthea](https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX001.png)
 
 ## Notes

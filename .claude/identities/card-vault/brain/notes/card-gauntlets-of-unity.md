@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-unity]] · [[kw-temper]]
 Rulings: search "Gauntlets of Unity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN046.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL007.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO007.webp)
+
+## Images
+
+![PEN046 - Gauntlets of Unity](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN046.webp)
+![SBL007 - Gauntlets of Unity](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL007.webp)
+![SDO007 - Gauntlets of Unity](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO007.webp)
 
 ## Notes

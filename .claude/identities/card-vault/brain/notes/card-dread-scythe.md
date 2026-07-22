@@ -23,5 +23,12 @@ Whenever you attack with Dread Scythe, deal 1 arcane damage to the defending her
 A hero dealt damage by Dread Scythe can't gain {h} during their next action phase."
 
 Rulings: search "Dread Scythe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB255.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON229.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON229.width-450.png)
+
+## Images
+
+![FAB255 - Dread Scythe](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB255.png)
+![MON229 - Dread Scythe](https://storage.googleapis.com/fabmaster/media/images/MON229.width-450.png)
+![MON229 - Dread Scythe](https://storage.googleapis.com/fabmaster/media/images/U-MON229.width-450.png)
 
 ## Notes

@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Moray le Fay" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM047-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051_V2.png)
+
+## Images
+
+![GEM047 - Moray le Fay (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM047-RF.webp)
+![SEA051 - Moray le Fay (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051.png)
+![SEA051 - Moray le Fay (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051_V2.png)
 
 ## Notes

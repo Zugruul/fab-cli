@@ -29,5 +29,11 @@ codes: [WTR197]
 Keywords: [[kw-dominate]]
 Variants: [[card-regurgitating-slog-yellow]] · [[card-regurgitating-slog-blue]]
 Rulings: search "Regurgitating Slog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR197.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR197.png)
+
+## Images
+
+![WTR197 - Regurgitating Slog (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR197.png)
+![WTR197 - Regurgitating Slog (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR197.png)
 
 ## Notes

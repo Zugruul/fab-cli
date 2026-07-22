@@ -22,5 +22,13 @@ codes: [EVR155, FAB146, SLY003]
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Arcane Lantern" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR155.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR155-CF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB146.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY003.webp)
+
+## Images
+
+![EVR155 - Arcane Lantern](https://storage.googleapis.com/fabmaster/media/images/EVR155.width-450.png)
+![EVR155 - Arcane Lantern](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR155-CF.png)
+![FAB146 - Arcane Lantern](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB146.png)
+![SLY003 - Arcane Lantern](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY003.webp)
 
 ## Notes

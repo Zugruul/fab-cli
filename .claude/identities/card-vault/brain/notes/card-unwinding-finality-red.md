@@ -31,5 +31,11 @@ Fragment"
 
 Keywords: [[kw-fragment]]
 Rulings: search "Unwinding Finality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN004.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN004-CF.webp)
+
+## Images
+
+![OMN004 - Unwinding Finality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN004.webp)
+![OMN004 - Unwinding Finality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN004-CF.webp)
 
 ## Notes

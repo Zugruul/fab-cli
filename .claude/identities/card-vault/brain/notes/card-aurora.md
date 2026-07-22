@@ -27,5 +27,16 @@ Essence of Lightning"
 Keywords: [[kw-essence]]
 Adult version: [[card-aurora-legacy-of-tempest]] · [[card-aurora-shooting-star]]
 Rulings: search "Aurora" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA001-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR001.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV_BACK.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV_V2.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV_V2_BACK.png)
+
+## Images
+
+![AUA001 - Aurora](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA001-RF.webp)
+![AUR001 - Aurora](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR001.webp)
+![ROS008 - Aurora](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008.png)
+![ROS008 - Aurora](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV.png)
+![ROS008 - Aurora](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV_BACK.png)
+![ROS008 - Aurora](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV_V2.png)
+![ROS008 - Aurora](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS008-MV_V2_BACK.png)
 
 ## Notes

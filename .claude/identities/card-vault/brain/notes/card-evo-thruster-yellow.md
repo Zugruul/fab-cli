@@ -29,5 +29,10 @@ Blade Break"
 
 Keywords: [[kw-transform]] · [[kw-blade-break]]
 Rulings: search "Evo Thruster" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO037.png)
+
+## Images
+
+![EVO037 - Evo Thruster (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO037.png)
 
 ## Notes

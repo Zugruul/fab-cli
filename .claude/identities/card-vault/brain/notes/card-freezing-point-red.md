@@ -28,5 +28,10 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
 
 Keywords: [[kw-fusion]]
 Rulings: search "Freezing Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR105.png)
+
+## Images
+
+![UPR105 - Freezing Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR105.png)
 
 ## Notes

@@ -30,5 +30,11 @@ codes: [FAI017, UPR072]
 Keywords: [[kw-go-again]]
 Variants: [[card-rebellious-rush-yellow]] · [[card-rebellious-rush-blue]]
 Rulings: search "Rebellious Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR072.png)
+
+## Images
+
+![FAI017 - Rebellious Rush (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI017.webp)
+![UPR072 - Rebellious Rush (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR072.png)
 
 ## Notes

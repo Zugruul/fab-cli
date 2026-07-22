@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Barkskin of the Millennium Tree" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB250.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS028.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS028-CF.png)
+
+## Images
+
+![FAB250 - Barkskin of the Millennium Tree](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB250.png)
+![ROS028 - Barkskin of the Millennium Tree](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS028.png)
+![ROS028 - Barkskin of the Millennium Tree](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS028-CF.png)
 
 ## Notes

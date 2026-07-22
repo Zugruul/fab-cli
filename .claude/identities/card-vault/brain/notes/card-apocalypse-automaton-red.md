@@ -29,5 +29,11 @@ Evo Upgrade - This attacks up to X target opposing heroes, where X is the number
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Apocalypse Automaton" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB175.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC011.png)
+
+## Images
+
+![FAB175 - Apocalypse Automaton (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB175.png)
+![TCC011 - Apocalypse Automaton (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC011.png)
 
 ## Notes

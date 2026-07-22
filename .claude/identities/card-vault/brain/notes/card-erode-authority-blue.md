@@ -30,5 +30,10 @@ Fragment"
 Keywords: [[kw-dominate]] · [[kw-fragment]]
 Variants: [[card-erode-authority-red]] · [[card-erode-authority-yellow]]
 Rulings: search "Erode Authority" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN046.webp)
+
+## Images
+
+![OMN046 - Erode Authority (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN046.webp)
 
 ## Notes

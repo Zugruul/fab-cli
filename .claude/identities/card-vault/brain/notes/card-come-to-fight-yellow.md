@@ -28,5 +28,14 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-come-to-fight-red]] · [[card-come-to-fight-blue]]
 Rulings: search "Come to Fight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP415.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC204.png) · [Image #5](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT223.width-450.png)
+
+## Images
+
+![1HP415 - Come to Fight (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP415.width-450.png)
+![ARC204 - Come to Fight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204.png)
+![ARC204 - Come to Fight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204-RF.png)
+![ARC204 - Come to Fight (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC204.png)
+![OUT223 - Come to Fight (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT223.width-450.png)
 
 ## Notes

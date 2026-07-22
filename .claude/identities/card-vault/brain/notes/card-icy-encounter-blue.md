@@ -27,5 +27,11 @@ codes: [ELE159]
 
 Variants: [[card-icy-encounter-red]] · [[card-icy-encounter-yellow]]
 Rulings: search "Icy Encounter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE159.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE159.width-450.png)
+
+## Images
+
+![ELE159 - Icy Encounter (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE159.width-450.png)
+![ELE159 - Icy Encounter (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE159.width-450.png)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [SEA172]
 "When this attacks, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token."
 
 Rulings: search "Thiev'n Varmints" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA172.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA172_V2.png)
+
+## Images
+
+![SEA172 - Thiev'n Varmints (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA172.png)
+![SEA172 - Thiev'n Varmints (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA172_V2.png)
 
 ## Notes

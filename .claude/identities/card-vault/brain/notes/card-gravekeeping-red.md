@@ -27,5 +27,11 @@ codes: [FAB342, MST200]
 
 Variants: [[card-gravekeeping-yellow]] · [[card-gravekeeping-blue]]
 Rulings: search "Gravekeeping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB342-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST200.png)
+
+## Images
+
+![FAB342 - Gravekeeping (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB342-RF.webp)
+![MST200 - Gravekeeping (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST200.png)
 
 ## Notes

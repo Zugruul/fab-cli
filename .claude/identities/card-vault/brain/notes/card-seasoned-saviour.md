@@ -23,5 +23,11 @@ codes: [DYN026]
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Seasoned Saviour" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN026.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN026_Marvel.png)
+
+## Images
+
+![DYN026 - Seasoned Saviour](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN026.png)
+![DYN026 - Seasoned Saviour](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN026_Marvel.png)
 
 ## Notes

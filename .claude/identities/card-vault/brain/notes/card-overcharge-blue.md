@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-overcharge-red]] · [[card-overcharge-yellow]]
 Rulings: search "Overcharge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN245.webp)
+
+## Images
+
+![PEN245 - Overcharge (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN245.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [OMN214]
 Instant - {r}, {t} your hero: This gets +1{p} and {p} damage can't be prevented this combat chain."
 
 Rulings: search "Step Between" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN214.webp)
+
+## Images
+
+![OMN214 - Step Between (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN214.webp)
 
 ## Notes

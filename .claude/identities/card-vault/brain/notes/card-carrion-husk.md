@@ -25,5 +25,12 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Carrion Husk" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB018.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON187.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON187.width-450.png)
+
+## Images
+
+![FAB018 - Carrion Husk](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB018.png)
+![MON187 - Carrion Husk](https://storage.googleapis.com/fabmaster/media/images/MON187.width-450.png)
+![MON187 - Carrion Husk](https://storage.googleapis.com/fabmaster/media/images/U-MON187.width-450.png)
 
 ## Notes

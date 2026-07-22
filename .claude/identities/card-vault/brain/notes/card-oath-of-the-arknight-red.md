@@ -29,5 +29,15 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-oath-of-the-arknight-yellow]] · [[card-oath-of-the-arknight-blue]]
 Rulings: search "Oath of the Arknight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP279.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC091.png) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR016.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS158.png)
+
+## Images
+
+![1HP279 - Oath of the Arknight (red)](https://storage.googleapis.com/fabmaster/media/images/1HP279.width-450.png)
+![ARC091 - Oath of the Arknight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091.png)
+![ARC091 - Oath of the Arknight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091-RF.png)
+![ARC091 - Oath of the Arknight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC091.png)
+![FLR016 - Oath of the Arknight (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR016.webp)
+![ROS158 - Oath of the Arknight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS158.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Blood Debt"
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-fasting-carcass-yellow]] · [[card-fasting-carcass-blue]]
 Rulings: search "Fasting Carcass" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN198.webp)
+
+## Images
+
+![PEN198 - Fasting Carcass (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN198.webp)
 
 ## Notes

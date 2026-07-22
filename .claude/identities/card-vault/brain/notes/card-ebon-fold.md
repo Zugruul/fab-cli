@@ -24,5 +24,14 @@ Spellvoid 2"
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Ebon Fold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN004.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB072.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/LEV004.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/MON188.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-MON188.width-450.png)
+
+## Images
+
+![CHN004 - Ebon Fold](https://storage.googleapis.com/fabmaster/media/images/CHN004.width-450.png)
+![FAB072 - Ebon Fold](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB072.png)
+![LEV004 - Ebon Fold](https://storage.googleapis.com/fabmaster/media/images/LEV004.width-450.png)
+![MON188 - Ebon Fold](https://storage.googleapis.com/fabmaster/media/images/MON188.width-450.png)
+![MON188 - Ebon Fold](https://storage.googleapis.com/fabmaster/media/images/U-MON188.width-450.png)
 
 ## Notes

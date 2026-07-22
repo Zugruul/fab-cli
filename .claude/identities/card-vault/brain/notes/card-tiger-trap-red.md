@@ -25,5 +25,10 @@ codes: [PEN083]
 "When this defends and the attacking hero controls 3 or more attacks with {p} greater than their base, attacks they control can't gain {p} this turn."
 
 Rulings: search "Tiger Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN083.webp)
+
+## Images
+
+![PEN083 - Tiger Trap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN083.webp)
 
 ## Notes

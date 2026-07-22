@@ -20,5 +20,10 @@ codes: [DTD078]
 "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn."
 
 Rulings: search "Radiant Flow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD078.png)
+
+## Images
+
+![DTD078 - Radiant Flow](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD078.png)
 
 ## Notes

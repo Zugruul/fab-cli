@@ -28,5 +28,11 @@ codes: [GEM056, SEA091]
 
 Keywords: [[kw-go-fish]]
 Rulings: search "Yellow Fin Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM056.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA091.png)
+
+## Images
+
+![GEM056 - Yellow Fin Harpoon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM056.webp)
+![SEA091 - Yellow Fin Harpoon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA091.png)
 
 ## Notes

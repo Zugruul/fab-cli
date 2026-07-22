@@ -29,5 +29,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Fire that Burns Within" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM132.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN255.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA016.webp)
+
+## Images
+
+![GEM132 - Fire that Burns Within (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM132.webp)
+![PEN255 - Fire that Burns Within (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN255.webp)
+![SFA016 - Fire that Burns Within (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA016.webp)
 
 ## Notes

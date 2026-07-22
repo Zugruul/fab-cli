@@ -26,5 +26,10 @@ codes: [RVD018]
 (no text)
 
 Rulings: search "Muscle Mutt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/RVD018.width-450.png)
+
+## Images
+
+![RVD018 - Muscle Mutt (yellow)](https://storage.googleapis.com/fabmaster/media/images/RVD018.width-450.png)
 
 ## Notes

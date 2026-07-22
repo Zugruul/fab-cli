@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-plunder-run-yellow]] · [[card-plunder-run-blue]]
 Rulings: search "Plunder Run" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP378.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC170.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC170.png)
+
+## Images
+
+![1HP378 - Plunder Run (red)](https://storage.googleapis.com/fabmaster/media/images/1HP378.width-450.png)
+![ARC170 - Plunder Run (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC170.png)
+![ARC170 - Plunder Run (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC170.png)
 
 ## Notes

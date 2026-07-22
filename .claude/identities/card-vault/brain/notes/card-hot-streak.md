@@ -24,5 +24,12 @@ When this is defended by 1 or more attack action cards, Hot Streak's attacks get
 
 Keywords: [[kw-go-again]]
 Rulings: search "Hot Streak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY095.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI003.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS241.png)
+
+## Images
+
+![HVY095 - Hot Streak](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY095.png)
+![KSI003 - Hot Streak](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI003.png)
+![LGS241 - Hot Streak](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS241.png)
 
 ## Notes

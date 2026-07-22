@@ -30,5 +30,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Spreading Flames" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR049.png)
+
+## Images
+
+![UPR049 - Spreading Flames (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR049.png)
 
 ## Notes

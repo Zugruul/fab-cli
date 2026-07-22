@@ -28,5 +28,15 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Phoenix Flame" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI008.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS104.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN261.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA021.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101_CF.png)
+
+## Images
+
+![FAI008 - Phoenix Flame (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI008.webp)
+![LGS104 - Phoenix Flame (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS104.png)
+![PEN261 - Phoenix Flame (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN261.webp)
+![SFA021 - Phoenix Flame (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA021.webp)
+![UPR101 - Phoenix Flame (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101.png)
+![UPR101 - Phoenix Flame (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101_CF.png)
 
 ## Notes

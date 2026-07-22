@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-grow-claws-red]] · [[card-grow-claws-yellow]]
 Rulings: search "Grow Claws" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT088.png)
+
+## Images
+
+![HNT088 - Grow Claws (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT088.png)
 
 ## Notes

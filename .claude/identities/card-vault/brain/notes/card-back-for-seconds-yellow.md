@@ -24,5 +24,10 @@ codes: [DDD011]
 "Target sword attack gets +2{p}. If it's your second attack this turn, instead it gets +3{p}."
 
 Rulings: search "Back for Seconds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD011.webp)
+
+## Images
+
+![DDD011 - Back for Seconds (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD011.webp)
 
 ## Notes

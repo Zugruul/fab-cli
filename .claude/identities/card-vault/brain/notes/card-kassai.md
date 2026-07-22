@@ -24,5 +24,13 @@ Once per Turn Action - Banish 2 red and 2 yellow cards from your graveyard: The 
 
 Adult version: [[card-kassai-of-the-golden-sand]]
 Rulings: search "Kassai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY091.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY091_MARVEL.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY091_MARVEL_BACK.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI001.png)
+
+## Images
+
+![HVY091 - Kassai](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY091.png)
+![HVY091 - Kassai](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY091_MARVEL.png)
+![HVY091 - Kassai](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY091_MARVEL_BACK.png)
+![KSI001 - Kassai](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI001.png)
 
 ## Notes

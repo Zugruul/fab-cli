@@ -32,5 +32,14 @@ Phantasm"
 Keywords: [[kw-dominate]] · [[kw-phantasm]]
 Variants: [[card-herald-of-tenacity-red]] · [[card-herald-of-tenacity-yellow]]
 Rulings: search "Herald of Tenacity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD025.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS175.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON025.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON025.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/PSM019.width-450.png)
+
+## Images
+
+![DTD025 - Herald of Tenacity (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD025.png)
+![LGS175 - Herald of Tenacity (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS175.png)
+![MON025 - Herald of Tenacity (blue)](https://storage.googleapis.com/fabmaster/media/images/MON025.width-450.png)
+![MON025 - Herald of Tenacity (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON025.width-450.png)
+![PSM019 - Herald of Tenacity (blue)](https://storage.googleapis.com/fabmaster/media/images/PSM019.width-450.png)
 
 ## Notes

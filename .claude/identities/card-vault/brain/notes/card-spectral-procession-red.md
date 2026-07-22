@@ -29,5 +29,10 @@ Phantasm"
 
 Keywords: [[kw-phantasm]]
 Rulings: search "Spectral Procession" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN216.png)
+
+## Images
+
+![DYN216 - Spectral Procession (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN216.png)
 
 ## Notes

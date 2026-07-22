@@ -25,5 +25,11 @@ codes: [GEM122, PEN085]
 "When this defends an attack with {p} greater than its base, dominate, and go again, the attack gets -2{p} and loses and can't gain abilities."
 
 Rulings: search "Rainbow Goo Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM122.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN085.webp)
+
+## Images
+
+![GEM122 - Rainbow Goo Trap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM122.webp)
+![PEN085 - Rainbow Goo Trap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN085.webp)
 
 ## Notes

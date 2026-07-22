@@ -27,5 +27,12 @@ codes: [ARA017, BEN013, OUT154]
 
 Variants: [[card-short-and-sharp-yellow]] · [[card-short-and-sharp-blue]]
 Rulings: search "Short and Sharp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA017.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN013.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT154.width-450.png)
+
+## Images
+
+![ARA017 - Short and Sharp (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA017.png)
+![BEN013 - Short and Sharp (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN013.png)
+![OUT154 - Short and Sharp (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT154.width-450.png)
 
 ## Notes

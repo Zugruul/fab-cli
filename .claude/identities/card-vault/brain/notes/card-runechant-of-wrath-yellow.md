@@ -28,5 +28,11 @@ At the beginning of your action phase or when you play an attack action card, de
 
 Keywords: [[kw-overpower]]
 Rulings: search "Runechant of Wrath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM183-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR157-MV.webp)
+
+## Images
+
+![GEM183 - Runechant of Wrath (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM183-RF.webp)
+![IAR157 - Runechant of Wrath (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR157-MV.webp)
 
 ## Notes

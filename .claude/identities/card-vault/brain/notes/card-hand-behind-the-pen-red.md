@@ -26,5 +26,11 @@ codes: [FAB271, ROS220]
 "When this hits a hero, turn a card in their arsenal face-up, then banish a non-attack action card from their arsenal."
 
 Rulings: search "Hand Behind the Pen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB271.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS220.png)
+
+## Images
+
+![FAB271 - Hand Behind the Pen (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB271.png)
+![ROS220 - Hand Behind the Pen (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS220.png)
 
 ## Notes

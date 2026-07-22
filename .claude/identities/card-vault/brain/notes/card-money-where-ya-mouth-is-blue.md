@@ -27,5 +27,11 @@ codes: [BET025, HVY237]
 Keywords: [[kw-go-again]] · [[kw-wager]]
 Variants: [[card-money-where-ya-mouth-is-red]] · [[card-money-where-ya-mouth-is-yellow]]
 Rulings: search "Money Where Ya Mouth Is" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET025.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY237.png)
+
+## Images
+
+![BET025 - Money Where Ya Mouth Is (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET025.png)
+![HVY237 - Money Where Ya Mouth Is (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY237.png)
 
 ## Notes

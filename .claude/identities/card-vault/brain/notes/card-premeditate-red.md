@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Premeditate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ022.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT188.width-450.png)
+
+## Images
+
+![ANQ022 - Premeditate (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ022.webp)
+![OUT188 - Premeditate (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT188.width-450.png)
 
 ## Notes

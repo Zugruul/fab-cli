@@ -28,5 +28,11 @@ codes: [GEM055, SEA090]
 
 Keywords: [[kw-go-fish]]
 Rulings: search "Red Fin Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM055.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA090.png)
+
+## Images
+
+![GEM055 - Red Fin Harpoon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM055.webp)
+![SEA090 - Red Fin Harpoon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA090.png)
 
 ## Notes

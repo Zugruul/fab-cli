@@ -27,5 +27,12 @@ codes: [ELE195, LXI015]
 
 Variants: [[card-shock-striker-yellow]] · [[card-shock-striker-blue]]
 Rulings: search "Shock Striker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE195.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE195.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/LXI015.width-450.png)
+
+## Images
+
+![ELE195 - Shock Striker (red)](https://storage.googleapis.com/fabmaster/media/images/ELE195.width-450.png)
+![ELE195 - Shock Striker (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE195.width-450.png)
+![LXI015 - Shock Striker (red)](https://storage.googleapis.com/fabmaster/media/images/LXI015.width-450.png)
 
 ## Notes

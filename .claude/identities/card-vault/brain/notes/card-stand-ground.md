@@ -25,5 +25,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Stand Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET007.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY056.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC007.png)
+
+## Images
+
+![BET007 - Stand Ground](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET007.png)
+![HVY056 - Stand Ground](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY056.png)
+![VIC007 - Stand Ground](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC007.png)
 
 ## Notes

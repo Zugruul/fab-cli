@@ -27,5 +27,10 @@ codes: [DTD094]
 
 Variants: [[card-defender-of-daybreak-yellow]] · [[card-defender-of-daybreak-blue]]
 Rulings: search "Defender of Daybreak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD094.png)
+
+## Images
+
+![DTD094 - Defender of Daybreak (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD094.png)
 
 ## Notes

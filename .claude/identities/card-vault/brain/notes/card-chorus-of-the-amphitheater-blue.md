@@ -26,5 +26,11 @@ Instant - Discard this: If an action or instant card you control would deal arca
 
 Variants: [[card-chorus-of-the-amphitheater-red]] · [[card-chorus-of-the-amphitheater-yellow]]
 Rulings: search "Chorus of the Amphitheater" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS172.png)
+
+## Images
+
+![OSC022 - Chorus of the Amphitheater (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC022.webp)
+![ROS172 - Chorus of the Amphitheater (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS172.png)
 
 ## Notes

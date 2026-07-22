@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Imposing Visage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR022.width-450.png)
+
+## Images
+
+![EVR022 - Imposing Visage (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR022.width-450.png)
 
 ## Notes

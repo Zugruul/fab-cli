@@ -28,5 +28,11 @@ codes: [HVY063, TCC035]
 
 Keywords: [[kw-tower]]
 Rulings: search "Lay Down the Law" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY063.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC035.png)
+
+## Images
+
+![HVY063 - Lay Down the Law (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY063.png)
+![TCC035 - Lay Down the Law (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC035.png)
 
 ## Notes

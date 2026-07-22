@@ -27,5 +27,13 @@ codes: [ELE128, ROS046, VER007]
 
 Variants: [[card-autumns-touch-yellow]] · [[card-autumns-touch-blue]]
 Rulings: search "Autumn's Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE128.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE128.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS046.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER007.webp)
+
+## Images
+
+![ELE128 - Autumn's Touch (red)](https://storage.googleapis.com/fabmaster/media/images/ELE128.width-450.png)
+![ELE128 - Autumn's Touch (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE128.width-450.png)
+![ROS046 - Autumn's Touch (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS046.png)
+![VER007 - Autumn's Touch (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER007.webp)
 
 ## Notes

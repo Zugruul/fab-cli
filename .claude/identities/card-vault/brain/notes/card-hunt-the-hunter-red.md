@@ -28,5 +28,11 @@ codes: [GEM014, HNT161]
 
 Keywords: [[kw-mark]]
 Rulings: search "Hunt the Hunter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT161.png)
+
+## Images
+
+![GEM014 - Hunt the Hunter (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM014.webp)
+![HNT161 - Hunt the Hunter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT161.png)
 
 ## Notes

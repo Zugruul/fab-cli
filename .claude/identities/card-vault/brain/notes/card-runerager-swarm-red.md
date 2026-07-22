@@ -29,5 +29,15 @@ codes: [AUA015, AVS012, FLR009, LGS362, ROS149, SVI014]
 Keywords: [[kw-go-again]]
 Variants: [[card-runerager-swarm-yellow]] · [[card-runerager-swarm-blue]]
 Rulings: search "Runerager Swarm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA015.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS012.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR009.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS362.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS149.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI014.webp)
+
+## Images
+
+![AUA015 - Runerager Swarm (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA015.webp)
+![AVS012 - Runerager Swarm (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS012.webp)
+![FLR009 - Runerager Swarm (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR009.webp)
+![LGS362 - Runerager Swarm (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS362.png)
+![ROS149 - Runerager Swarm (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS149.png)
+![SVI014 - Runerager Swarm (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI014.webp)
 
 ## Notes

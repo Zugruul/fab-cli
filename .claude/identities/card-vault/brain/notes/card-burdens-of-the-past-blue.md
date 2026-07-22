@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Burdens of the Past" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT187.width-450.png)
+
+## Images
+
+![OUT187 - Burdens of the Past (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT187.width-450.png)
 
 ## Notes

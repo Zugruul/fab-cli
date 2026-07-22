@@ -29,5 +29,10 @@ Deal 1 arcane damage to any target. If Icebind was fused and deals damage to a h
 Keywords: [[kw-fusion]] · [[kw-freeze]]
 Variants: [[card-icebind-red]] · [[card-icebind-yellow]]
 Rulings: search "Icebind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR121.png)
+
+## Images
+
+![UPR121 - Icebind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR121.png)
 
 ## Notes

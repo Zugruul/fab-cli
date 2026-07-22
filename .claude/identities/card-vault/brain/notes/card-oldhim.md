@@ -27,5 +27,15 @@ Once per Turn Defense Reaction - {r}{r}{r}: If an Earth card is pitched this way
 Keywords: [[kw-essence]]
 Adult version: [[card-oldhim-grandfather-of-eternity]]
 Rulings: search "Oldhim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE002.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE002.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER045.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD001.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN345-MV_BACK.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN345-MV.webp)
+
+## Images
+
+![ELE002 - Oldhim](https://storage.googleapis.com/fabmaster/media/images/ELE002.width-450.png)
+![ELE002 - Oldhim](https://storage.googleapis.com/fabmaster/media/images/U-ELE002.width-450.png)
+![HER045 - Oldhim](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER045.png)
+![OLD001 - Oldhim](https://storage.googleapis.com/fabmaster/media/images/OLD001.width-450.png)
+![PEN345 - Oldhim](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN345-MV_BACK.webp)
+![PEN345 - Oldhim](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN345-MV.webp)
 
 ## Notes

@@ -27,5 +27,11 @@ codes: [LGS101, RVD013]
 
 Keywords: [[kw-intimidate]]
 Rulings: search "Wrecking Ball" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS101.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RVD013.width-450.png)
+
+## Images
+
+![LGS101 - Wrecking Ball (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS101.png)
+![RVD013 - Wrecking Ball (red)](https://storage.googleapis.com/fabmaster/media/images/RVD013.width-450.png)
 
 ## Notes

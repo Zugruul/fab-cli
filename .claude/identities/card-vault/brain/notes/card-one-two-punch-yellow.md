@@ -29,5 +29,12 @@ codes: [BEN016, KAT016, OUT081]
 Keywords: [[kw-combo]]
 Variants: [[card-one-two-punch-red]] · [[card-one-two-punch-blue]]
 Rulings: search "One-Two Punch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN016.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT016.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT081.width-450.png)
+
+## Images
+
+![BEN016 - One-Two Punch (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN016.png)
+![KAT016 - One-Two Punch (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT016.png)
+![OUT081 - One-Two Punch (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT081.width-450.png)
 
 ## Notes

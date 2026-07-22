@@ -27,5 +27,11 @@ codes: [WTR165]
 
 Variants: [[card-drone-of-brutality-red]] · [[card-drone-of-brutality-blue]]
 Rulings: search "Drone of Brutality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR165.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR165.png)
+
+## Images
+
+![WTR165 - Drone of Brutality (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR165.png)
+![WTR165 - Drone of Brutality (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR165.png)
 
 ## Notes

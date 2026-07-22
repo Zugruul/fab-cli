@@ -29,5 +29,12 @@ codes: [ELE210, MPG086]
 Keywords: [[kw-dominate]]
 Variants: [[card-thump-red]] · [[card-thump-blue]]
 Rulings: search "Thump" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE210.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE210.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG086.webp)
+
+## Images
+
+![ELE210 - Thump (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE210.width-450.png)
+![ELE210 - Thump (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE210.width-450.png)
+![MPG086 - Thump (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG086.webp)
 
 ## Notes

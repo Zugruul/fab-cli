@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Blackstone Greaves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN096.webp)
+
+## Images
+
+![PEN096 - Blackstone Greaves](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN096.webp)
 
 ## Notes

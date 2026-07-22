@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-mark]] · [[kw-go-again]]
 Rulings: search "Relentless Pursuit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT229.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS384.png)
+
+## Images
+
+![HNT229 - Relentless Pursuit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT229.png)
+![LGS384 - Relentless Pursuit (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS384.png)
 
 ## Notes

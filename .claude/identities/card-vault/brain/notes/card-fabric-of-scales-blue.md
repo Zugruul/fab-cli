@@ -27,5 +27,10 @@ codes: [LSS017]
 
 Keywords: [[kw-negate]]
 Rulings: search "Fabric of Scales" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS017.png)
+
+## Images
+
+![LSS017 - Fabric of Scales (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS017.png)
 
 ## Notes

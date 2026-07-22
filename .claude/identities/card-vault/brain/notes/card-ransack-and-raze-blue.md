@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Ransack and Raze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN327.webp)
+
+## Images
+
+![PEN327 - Ransack and Raze (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN327.webp)
 
 ## Notes

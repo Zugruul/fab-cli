@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-bleed-out-red]] · [[card-bleed-out-blue]]
 Rulings: search "Bleed Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT146.width-450.png)
+
+## Images
+
+![OUT146 - Bleed Out (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT146.width-450.png)
 
 ## Notes

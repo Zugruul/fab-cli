@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Unflinching Foothold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN318.webp)
+
+## Images
+
+![PEN318 - Unflinching Foothold](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN318.webp)
 
 ## Notes

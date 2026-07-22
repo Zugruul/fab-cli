@@ -27,5 +27,16 @@ codes: [AKO011, HVY228, KYO010, LEV028, MON281, VIC010]
 
 Variants: [[card-rally-the-rearguard-yellow]] · [[card-rally-the-rearguard-blue]]
 Rulings: search "Rally the Rearguard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO011.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY228.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO010.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/LEV028.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/MON281.width-450.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/U-MON281.width-450.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC010.png)
+
+## Images
+
+![AKO011 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO011.png)
+![HVY228 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY228.png)
+![KYO010 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO010.png)
+![LEV028 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/media/images/LEV028.width-450.png)
+![MON281 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/media/images/MON281.width-450.png)
+![MON281 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON281.width-450.png)
+![VIC010 - Rally the Rearguard (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC010.png)
 
 ## Notes

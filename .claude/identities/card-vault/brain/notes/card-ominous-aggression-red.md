@@ -23,5 +23,10 @@ codes: [OMN216]
 "Target attack action card gets +2{p}. If an aura you control was destroyed this turn, instead the card gets +4{p}."
 
 Rulings: search "Ominous Aggression" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN216.webp)
+
+## Images
+
+![OMN216 - Ominous Aggression (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN216.webp)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [GEM135, PEN242]
 "Until end of turn, Lightning and Elemental attacks get +1{p} while they have go again."
 
 Rulings: search "Ion Charged" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM135.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN242.webp)
+
+## Images
+
+![GEM135 - Ion Charged (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM135.webp)
+![PEN242 - Ion Charged (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN242.webp)
 
 ## Notes

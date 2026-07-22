@@ -27,5 +27,11 @@ Create an Ursur, the Soul Reaper token."
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Eclipse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON190.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON190.width-450.png)
+
+## Images
+
+![MON190 - Eclipse (blue)](https://storage.googleapis.com/fabmaster/media/images/MON190.width-450.png)
+![MON190 - Eclipse (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON190.width-450.png)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [ELE217]
 Keywords: [[kw-go-again]] · [[kw-reload]]
 Variants: [[card-boltn-shot-red]] · [[card-boltn-shot-blue]]
 Rulings: search "Bolt'n' Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE217.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE217.width-450.png)
+
+## Images
+
+![ELE217 - Bolt'n' Shot (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE217.width-450.png)
+![ELE217 - Bolt'n' Shot (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE217.width-450.png)
 
 ## Notes

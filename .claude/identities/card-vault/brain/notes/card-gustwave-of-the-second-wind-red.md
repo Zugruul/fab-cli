@@ -28,5 +28,10 @@ codes: [ROS245]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Gustwave of the Second Wind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS245.png)
+
+## Images
+
+![ROS245 - Gustwave of the Second Wind (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS245.png)
 
 ## Notes

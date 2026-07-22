@@ -27,5 +27,12 @@ codes: [ARR014, SKA018, SUP135]
 
 Variants: [[card-strongest-survive-yellow]] · [[card-strongest-survive-blue]]
 Rulings: search "Strongest Survive" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR014.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA018.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP135.webp)
+
+## Images
+
+![ARR014 - Strongest Survive (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR014.webp)
+![SKA018 - Strongest Survive (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA018.webp)
+![SUP135 - Strongest Survive (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP135.webp)
 
 ## Notes

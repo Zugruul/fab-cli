@@ -24,5 +24,11 @@ codes: [HNT117]
 "If you're attacking with a weapon this chain link, the defending hero reveals a card from their hand. If it's an action card, add it to this chain link as a defending card, otherwise they discard it."
 
 Rulings: search "Provoke" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT117.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT117-EA.png)
+
+## Images
+
+![HNT117 - Provoke (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT117.png)
+![HNT117 - Provoke (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT117-EA.png)
 
 ## Notes

@@ -30,5 +30,11 @@ Gain 1{h}"
 
 Keywords: [[kw-meld]]
 Rulings: search "Thistle Bloom // Life" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS351.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS005.png)
+
+## Images
+
+![LGS351 - Thistle Bloom // Life (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS351.png)
+![ROS005 - Thistle Bloom // Life (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS005.png)
 
 ## Notes

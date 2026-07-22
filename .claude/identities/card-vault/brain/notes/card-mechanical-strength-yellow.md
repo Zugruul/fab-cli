@@ -29,5 +29,11 @@ codes: [EVO068, LGS225]
 Keywords: [[kw-evo-upgrade]]
 Variants: [[card-mechanical-strength-red]] · [[card-mechanical-strength-blue]]
 Rulings: search "Mechanical Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO068.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS225.png)
+
+## Images
+
+![EVO068 - Mechanical Strength (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO068.png)
+![LGS225 - Mechanical Strength (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS225.png)
 
 ## Notes

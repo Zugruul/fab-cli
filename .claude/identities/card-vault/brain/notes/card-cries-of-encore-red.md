@@ -30,5 +30,11 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Cries of Encore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP012.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP012-CF.webp)
+
+## Images
+
+![SUP012 - Cries of Encore (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP012.webp)
+![SUP012 - Cries of Encore (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP012-CF.webp)
 
 ## Notes

@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Pulse of Candlehold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE113.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE113.width-450.png)
+
+## Images
+
+![ELE113 - Pulse of Candlehold (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE113.width-450.png)
+![ELE113 - Pulse of Candlehold (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE113.width-450.png)
 
 ## Notes

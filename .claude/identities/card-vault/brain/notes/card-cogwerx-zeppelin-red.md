@@ -28,5 +28,10 @@ Twice per Turn Instant - {t} a cog you control: This gets +1{p}."
 
 Variants: [[card-cogwerx-zeppelin-yellow]] · [[card-cogwerx-zeppelin-blue]]
 Rulings: search "Cogwerx Zeppelin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA018.png)
+
+## Images
+
+![SEA018 - Cogwerx Zeppelin (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA018.png)
 
 ## Notes

@@ -25,5 +25,14 @@ codes: [1HP060, BVO020, TNP021, WTR053]
 
 Variants: [[card-staunch-response-red]] · [[card-staunch-response-yellow]]
 Rulings: search "Staunch Response" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP060.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO20.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP021-MV.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR053.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR053.png)
+
+## Images
+
+![1HP060 - Staunch Response (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP060.width-450.png)
+![BVO020 - Staunch Response (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO20.width-450.png)
+![TNP021 - Staunch Response (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP021-MV.webp)
+![WTR053 - Staunch Response (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR053.png)
+![WTR053 - Staunch Response (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR053.png)
 
 ## Notes

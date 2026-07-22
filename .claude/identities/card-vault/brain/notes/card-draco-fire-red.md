@@ -24,5 +24,10 @@ codes: [OMN245]
 While this is in your graveyard, at the start of your turn, you may banish 2 cards named Draco Fire from your graveyard. If you do, gain {r}."
 
 Rulings: search "Draco Fire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN245.webp)
+
+## Images
+
+![OMN245 - Draco Fire (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN245.webp)
 
 ## Notes

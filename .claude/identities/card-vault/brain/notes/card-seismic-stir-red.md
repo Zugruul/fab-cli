@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-seismic-stir-yellow]] · [[card-seismic-stir-blue]]
 Rulings: search "Seismic Stir" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR030.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG094.webp)
+
+## Images
+
+![EVR030 - Seismic Stir (red)](https://storage.googleapis.com/fabmaster/media/images/EVR030.width-450.png)
+![MPG094 - Seismic Stir (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG094.webp)
 
 ## Notes

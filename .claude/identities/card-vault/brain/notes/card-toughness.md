@@ -21,5 +21,11 @@ codes: [APS032, FAB395, SUP241]
 
 Keywords: [[kw-token-toughness]]
 Rulings: search "Toughness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS032.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB395.webp)
+
+## Images
+
+![APS032 - Toughness](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS032.webp)
+![FAB395 - Toughness](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB395.webp)
 
 ## Notes

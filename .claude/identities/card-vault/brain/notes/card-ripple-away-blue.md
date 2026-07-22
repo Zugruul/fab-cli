@@ -26,5 +26,11 @@ codes: [ANQ014, HVY209]
 "Instant - Discard this: If an action card effect would create 1 or more tokens this turn, instead it creates that many minus 1 of each of those tokens."
 
 Rulings: search "Ripple Away" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY209.png)
+
+## Images
+
+![ANQ014 - Ripple Away (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ014.webp)
+![HVY209 - Ripple Away (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY209.png)
 
 ## Notes

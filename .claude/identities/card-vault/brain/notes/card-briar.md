@@ -28,5 +28,18 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
 Keywords: [[kw-essence]]
 Adult version: [[card-briar-warden-of-thorns]]
 Rulings: search "Briar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BRI001.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE063_Briar_errata.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE063.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER047.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER064.jpg) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS255-MV.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS255-MV_BACK.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA001.webp) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX012.png)
+
+## Images
+
+![BRI001 - Briar](https://storage.googleapis.com/fabmaster/media/images/BRI001.width-450.png)
+![ELE063 - Briar](https://storage.googleapis.com/fabmaster/media/images/ELE063_Briar_errata.width-450.png)
+![ELE063 - Briar](https://storage.googleapis.com/fabmaster/media/images/U-ELE063.width-450.png)
+![HER047 - Briar](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER047.png)
+![HER064 - Briar](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER064.jpg)
+![ROS255 - Briar](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS255-MV.png)
+![ROS255 - Briar](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS255-MV_BACK.png)
+![SBA001 - Briar](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA001.webp)
+![XXX012 - Briar](https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX012.png)
 
 ## Notes

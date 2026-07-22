@@ -205,6 +205,15 @@ def build_note(c, slug, variants, lineage, kw_slugs, date):
 
     codes = list(dict.fromkeys(p.get("id", "") for p in c.get("printings", []) if p.get("id")))
 
+    # one image per distinct image_url, labeled by the first printing using it
+    images, seen_urls = [], set()
+    for p in c.get("printings", []):
+        url = p.get("image_url", "")
+        if not url or url in seen_urls:
+            continue
+        seen_urls.add(url)
+        images.append((p.get("id", "") or p.get("set_id", ""), url))
+
     # ---- tags: the recall surface
     tags = ["card", kebab(name)]
     tags += [w for w in kebab(name).split("-") if w not in STOPWORDS and len(w) > 1]
@@ -288,6 +297,14 @@ def build_note(c, slug, variants, lineage, kw_slugs, date):
         label = "Adult version" if young else "Young version"
         body.append("%s: %s" % (label, " · ".join("[[%s]]" % l for l in lineage)))
     body.append('Rulings: search "%s" at https://cardvault.fabtcg.com/' % name)
+    if images:
+        body.append("Images: " + " · ".join(
+            "[Image #%d](%s)" % (i + 1, url) for i, (_, url) in enumerate(images)))
+        body.append("")
+        body.append("## Images")
+        body.append("")
+        for i, (pid, url) in enumerate(images):
+            body.append("![%s - %s](%s)" % (pid, full_name, url))
     body.append("")
     body.append("## Notes")
     kept = preserved_notes_section(os.path.join(NOTES, slug + ".md"))

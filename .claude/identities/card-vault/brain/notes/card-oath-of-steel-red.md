@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Oath of Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR056.width-450.png)
+
+## Images
+
+![EVR056 - Oath of Steel (red)](https://storage.googleapis.com/fabmaster/media/images/EVR056.width-450.png)
 
 ## Notes

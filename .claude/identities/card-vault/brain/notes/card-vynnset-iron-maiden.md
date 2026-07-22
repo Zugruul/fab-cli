@@ -25,5 +25,13 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
 Young version: [[card-vynnset]]
 Rulings: search "Vynnset, Iron Maiden" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD133.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER087.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER112.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN024.png)
+
+## Images
+
+![DTD133 - Vynnset, Iron Maiden](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD133.png)
+![HER087 - Vynnset, Iron Maiden](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER087.png)
+![HER112 - Vynnset, Iron Maiden](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER112.png)
+![WIN024 - Vynnset, Iron Maiden](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN024.png)
 
 ## Notes

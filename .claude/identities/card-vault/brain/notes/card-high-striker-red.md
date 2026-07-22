@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-high-striker-yellow]] · [[card-high-striker-blue]]
 Rulings: search "High Striker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR164.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR164-RF.png)
+
+## Images
+
+![EVR164 - High Striker (red)](https://storage.googleapis.com/fabmaster/media/images/EVR164.width-450.png)
+![EVR164 - High Striker (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR164-RF.png)
 
 ## Notes

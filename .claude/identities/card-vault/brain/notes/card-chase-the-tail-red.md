@@ -28,5 +28,10 @@ codes: [MST161]
 
 Keywords: [[kw-combo]]
 Rulings: search "Chase the Tail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png)
+
+## Images
+
+![MST161 - Chase the Tail (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png)
 
 ## Notes

@@ -23,5 +23,12 @@ Activate Rok only if you have no cards in hand.
 Damage that would be dealt by Rok can't be prevented."
 
 Rulings: search "Rok" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN005.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN005_Marvel.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM078.webp)
+
+## Images
+
+![DYN005 - Rok](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN005.png)
+![DYN005 - Rok](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN005_Marvel.png)
+![GEM078 - Rok](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM078.webp)
 
 ## Notes

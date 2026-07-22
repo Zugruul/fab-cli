@@ -27,5 +27,10 @@ codes: [SEA231]
 
 Variants: [[card-strike-gold-red]] · [[card-strike-gold-yellow]]
 Rulings: search "Strike Gold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA231.png)
+
+## Images
+
+![SEA231 - Strike Gold (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA231.png)
 
 ## Notes

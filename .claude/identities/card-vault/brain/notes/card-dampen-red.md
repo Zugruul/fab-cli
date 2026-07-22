@@ -26,5 +26,10 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
 Variants: [[card-dampen-yellow]] · [[card-dampen-blue]]
 Rulings: search "Dampen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR170.png)
+
+## Images
+
+![UPR170 - Dampen (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR170.png)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Heroic Grit" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP056.webp)
+
+## Images
+
+![SUP056 - Heroic Grit (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP056.webp)
 
 ## Notes

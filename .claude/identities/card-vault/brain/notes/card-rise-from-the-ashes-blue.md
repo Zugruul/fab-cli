@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-rise-from-the-ashes-red]] · [[card-rise-from-the-ashes-yellow]]
 Rulings: search "Rise from the Ashes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR059.png)
+
+## Images
+
+![UPR059 - Rise from the Ashes (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR059.png)
 
 ## Notes

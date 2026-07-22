@@ -28,5 +28,10 @@ codes: [EVR038]
 
 Keywords: [[kw-combo]] · [[kw-dominate]]
 Rulings: search "Break Tide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR038.width-450.png)
+
+## Images
+
+![EVR038 - Break Tide (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR038.width-450.png)
 
 ## Notes

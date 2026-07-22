@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-fire-tenet-strike-first-red]] · [[card-fire-tenet-strike-first-blue]]
 Rulings: search "Fire Tenet: Strike First" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT084.png)
+
+## Images
+
+![HNT084 - Fire Tenet: Strike First (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT084.png)
 
 ## Notes

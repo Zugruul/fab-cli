@@ -26,5 +26,15 @@ The first time each turn you would fail to win a clash, instead you may destroy 
 Keywords: [[kw-clash]]
 Young version: [[card-victor-goldmane]]
 Rulings: search "Victor Goldmane, High and Mighty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER106.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER145-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY047.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY047_MARVEL.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY047_MARVEL_BACK.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN030.png)
+
+## Images
+
+![HER106 - Victor Goldmane, High and Mighty](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER106.png)
+![HER145 - Victor Goldmane, High and Mighty](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER145-RF.webp)
+![HVY047 - Victor Goldmane, High and Mighty](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY047.png)
+![HVY047 - Victor Goldmane, High and Mighty](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY047_MARVEL.png)
+![HVY047 - Victor Goldmane, High and Mighty](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY047_MARVEL_BACK.png)
+![WIN030 - Victor Goldmane, High and Mighty](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN030.png)
 
 ## Notes

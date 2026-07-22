@@ -29,5 +29,11 @@ Deal 4 arcane damage to any target. If Aether Icevein was fused and deals damage
 Keywords: [[kw-fusion]]
 Variants: [[card-aether-icevein-red]] · [[card-aether-icevein-blue]]
 Rulings: search "Aether Icevein" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY018.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR114.png)
+
+## Images
+
+![SIY018 - Aether Icevein (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY018.webp)
+![UPR114 - Aether Icevein (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR114.png)
 
 ## Notes

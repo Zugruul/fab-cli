@@ -24,5 +24,10 @@ codes: [SEA047]
 "When this defends, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +2{d}."
 
 Rulings: search "Blood in the Water" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA047.png)
+
+## Images
+
+![SEA047 - Blood in the Water (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA047.png)
 
 ## Notes

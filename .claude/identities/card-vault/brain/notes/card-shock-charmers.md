@@ -24,5 +24,12 @@ Spellvoid 2"
 
 Keywords: [[kw-spellvoid]]
 Rulings: search "Shock Charmers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE173.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE173.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB054.png)
+
+## Images
+
+![ELE173 - Shock Charmers](https://storage.googleapis.com/fabmaster/media/images/ELE173.width-450.png)
+![ELE173 - Shock Charmers](https://storage.googleapis.com/fabmaster/media/images/U-ELE173.width-450.png)
+![FAB054 - Shock Charmers](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB054.png)
 
 ## Notes

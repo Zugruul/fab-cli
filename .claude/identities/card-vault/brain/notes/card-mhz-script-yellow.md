@@ -28,5 +28,10 @@ Your Mechanologist attack action cards get go again."
 
 Keywords: [[kw-crank]] · [[kw-go-again]]
 Rulings: search "MHz Script" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO097.png)
+
+## Images
+
+![EVO097 - MHz Script (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO097.png)
 
 ## Notes

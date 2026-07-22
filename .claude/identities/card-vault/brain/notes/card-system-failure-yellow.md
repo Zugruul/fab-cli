@@ -24,5 +24,10 @@ codes: [EVO144]
 "Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler."
 
 Rulings: search "System Failure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO144.png)
+
+## Images
+
+![EVO144 - System Failure (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO144.png)
 
 ## Notes

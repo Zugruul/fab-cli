@@ -28,5 +28,10 @@ codes: [AUR020]
 Keywords: [[kw-token-lightning-flow]]
 Variants: [[card-harness-lightning-red]]
 Rulings: search "Harness Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR020.webp)
+
+## Images
+
+![AUR020 - Harness Lightning (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR020.webp)
 
 ## Notes

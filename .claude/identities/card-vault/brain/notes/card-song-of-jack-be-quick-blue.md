@@ -25,5 +25,11 @@ codes: [LGS217, TCC064]
 "Create a Quicken token under each other hero's control."
 
 Rulings: search "Song of Jack-be-Quick" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS217.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC064.png)
+
+## Images
+
+![LGS217 - Song of Jack-be-Quick (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS217.png)
+![TCC064 - Song of Jack-be-Quick (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC064.png)
 
 ## Notes

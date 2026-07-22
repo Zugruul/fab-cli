@@ -24,5 +24,10 @@ codes: [SMP005]
 Whenever you protect another hero, create a Gold token."
 
 Rulings: search "Reya, the Unyielding" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP005.webp)
+
+## Images
+
+![SMP005 - Reya, the Unyielding](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP005.webp)
 
 ## Notes

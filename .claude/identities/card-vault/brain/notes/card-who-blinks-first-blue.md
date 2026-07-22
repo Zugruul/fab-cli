@@ -28,5 +28,10 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
 
 Keywords: [[kw-suspense]]
 Rulings: search "Who Blinks First?" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP177.webp)
+
+## Images
+
+![SUP177 - Who Blinks First? (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP177.webp)
 
 ## Notes

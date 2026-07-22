@@ -23,5 +23,11 @@ codes: [EVO018, LGS186]
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Teklo Base Head" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO018.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS186.png)
+
+## Images
+
+![EVO018 - Teklo Base Head](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO018.png)
+![LGS186 - Teklo Base Head](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS186.png)
 
 ## Notes

@@ -28,5 +28,12 @@ When you attack with Dread Triptych, if you've dealt arcane damage this turn, cr
 If Dread Triptych hits, create a Runechant token."
 
 Rulings: search "Dread Triptych" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP266.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU142.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU142.png)
+
+## Images
+
+![1HP266 - Dread Triptych (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP266.width-450.png)
+![CRU142 - Dread Triptych (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU142.png)
+![CRU142 - Dread Triptych (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU142.png)
 
 ## Notes

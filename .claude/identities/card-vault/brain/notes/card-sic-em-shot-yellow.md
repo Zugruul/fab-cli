@@ -29,5 +29,14 @@ codes: [1HP253, ARC073, LGS036, SEA118]
 Keywords: [[kw-go-again]]
 Variants: [[card-sic-em-shot-red]] · [[card-sic-em-shot-blue]]
 Rulings: search "Sic 'Em Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP253.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC073.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC073.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS036.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA118.png)
+
+## Images
+
+![1HP253 - Sic 'Em Shot (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP253.width-450.png)
+![ARC073 - Sic 'Em Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC073.png)
+![ARC073 - Sic 'Em Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC073.png)
+![LGS036 - Sic 'Em Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS036.png)
+![SEA118 - Sic 'Em Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA118.png)
 
 ## Notes

@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Iris of the Blossom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR003-RF.webp)
+
+## Images
+
+![ASR003 - Iris of the Blossom](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR003-RF.webp)
 
 ## Notes

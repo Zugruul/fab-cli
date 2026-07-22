@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-quick-succession-red]] · [[card-quick-succession-blue]]
 Rulings: search "Quick Succession" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN084.webp)
+
+## Images
+
+![OMN084 - Quick Succession (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN084.webp)
 
 ## Notes

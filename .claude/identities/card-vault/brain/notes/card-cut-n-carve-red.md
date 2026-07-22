@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-sharpen]] · [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-cut-n-carve-yellow]] · [[card-cut-n-carve-blue]]
 Rulings: search "Cut n' Carve" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN054.webp)
+
+## Images
+
+![PEN054 - Cut n' Carve (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN054.webp)
 
 ## Notes

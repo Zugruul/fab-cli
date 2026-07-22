@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Echo Casque" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR003.webp)
+
+## Images
+
+![ARR003 - Echo Casque](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR003.webp)
 
 ## Notes

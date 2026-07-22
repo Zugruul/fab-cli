@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-blade-break]]
 Rulings: search "Horns of the Despised" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP079.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP079-CF.webp)
+
+## Images
+
+![SUP079 - Horns of the Despised](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP079.webp)
+![SUP079 - Horns of the Despised](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP079-CF.webp)
 
 ## Notes

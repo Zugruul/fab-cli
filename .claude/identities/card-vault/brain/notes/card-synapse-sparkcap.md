@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Synapse Sparkcap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN057.webp)
+
+## Images
+
+![PEN057 - Synapse Sparkcap](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN057.webp)
 
 ## Notes

@@ -29,5 +29,12 @@ codes: [1HP403, WTR210]
 Keywords: [[kw-go-again]]
 Variants: [[card-razor-reflex-red]] · [[card-razor-reflex-blue]]
 Rulings: search "Razor Reflex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP403.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR210.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR210.png)
+
+## Images
+
+![1HP403 - Razor Reflex (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP403.width-450.png)
+![WTR210 - Razor Reflex (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR210.png)
+![WTR210 - Razor Reflex (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR210.png)
 
 ## Notes

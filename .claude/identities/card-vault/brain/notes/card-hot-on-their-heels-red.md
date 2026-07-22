@@ -29,5 +29,12 @@ codes: [CIN014, HNT067, SFA018]
 
 Keywords: [[kw-go-again]] · [[kw-mark]]
 Rulings: search "Hot on Their Heels" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT067.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA018.webp)
+
+## Images
+
+![CIN014 - Hot on Their Heels (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN014.webp)
+![HNT067 - Hot on Their Heels (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT067.png)
+![SFA018 - Hot on Their Heels (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA018.webp)
 
 ## Notes

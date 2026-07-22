@@ -25,5 +25,10 @@ codes: [UPR180]
 
 Variants: [[card-singe-red]] · [[card-singe-blue]]
 Rulings: search "Singe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR180.png)
+
+## Images
+
+![UPR180 - Singe (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR180.png)
 
 ## Notes

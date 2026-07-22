@@ -30,5 +30,10 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token."
 Keywords: [[kw-phantasm]]
 Variants: [[card-phantasmal-haze-red]] · [[card-phantasmal-haze-blue]]
 Rulings: search "Phantasmal Haze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR148.width-450.png)
+
+## Images
+
+![EVR148 - Phantasmal Haze (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR148.width-450.png)
 
 ## Notes

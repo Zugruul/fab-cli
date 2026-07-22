@@ -27,5 +27,12 @@ codes: [1HP230, CRU123]
 If Remorseless hits a hero, until the end of their next turn, whenever they play an action card, they lose 1{h}."
 
 Rulings: search "Remorseless" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP230.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU123.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU123.png)
+
+## Images
+
+![1HP230 - Remorseless (red)](https://storage.googleapis.com/fabmaster/media/images/1HP230.width-450.png)
+![CRU123 - Remorseless (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU123.png)
+![CRU123 - Remorseless (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU123.png)
 
 ## Notes

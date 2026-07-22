@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-orb-weaver-spinneret-red]] · [[card-orb-weaver-spinneret-blue]]
 Rulings: search "Orb-Weaver Spinneret" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT027.png)
+
+## Images
+
+![HNT027 - Orb-Weaver Spinneret (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT027.png)
 
 ## Notes

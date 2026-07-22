@@ -28,5 +28,10 @@ When this is equipped, gain {r}."
 
 Keywords: [[kw-transform]]
 Rulings: search "Evo Buzz Hive" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO051.png)
+
+## Images
+
+![EVO051 - Evo Buzz Hive (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO051.png)
 
 ## Notes

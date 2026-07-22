@@ -29,5 +29,10 @@ If this is played at chain link 3 or higher, this gets go again."
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Tempest Palm Gustwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP246.webp)
+
+## Images
+
+![SUP246 - Tempest Palm Gustwave (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP246.webp)
 
 ## Notes

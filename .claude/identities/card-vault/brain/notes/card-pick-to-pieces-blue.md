@@ -30,5 +30,10 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
 Keywords: [[kw-stealth]]
 Variants: [[card-pick-to-pieces-red]] · [[card-pick-to-pieces-yellow]]
 Rulings: search "Pick to Pieces" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png)
+
+## Images
+
+![MST129 - Pick to Pieces (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png)
 
 ## Notes

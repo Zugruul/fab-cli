@@ -24,5 +24,13 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
 
 Young version: [[card-gravy-bones]]
 Rulings: search "Gravy Bones, Shipwrecked Looter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043_V2_BACK.png)
+
+## Images
+
+![AGB001 - Gravy Bones, Shipwrecked Looter](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB001.webp)
+![SEA043 - Gravy Bones, Shipwrecked Looter](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043.png)
+![SEA043 - Gravy Bones, Shipwrecked Looter](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043_V2.png)
+![SEA043 - Gravy Bones, Shipwrecked Looter](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043_V2_BACK.png)
 
 ## Notes

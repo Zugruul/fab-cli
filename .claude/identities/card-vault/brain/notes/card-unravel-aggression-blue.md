@@ -24,5 +24,10 @@ codes: [MST078]
 "If a Chi was pitched to play this, draw a card."
 
 Rulings: search "Unravel Aggression" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png)
+
+## Images
+
+![MST078 - Unravel Aggression (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png)
 
 ## Notes

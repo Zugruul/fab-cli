@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-duty-bound-blitz-red]] · [[card-duty-bound-blitz-yellow]]
 Rulings: search "Duty Bound Blitz" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN185.webp)
+
+## Images
+
+![PEN185 - Duty Bound Blitz (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN185.webp)
 
 ## Notes

@@ -22,5 +22,12 @@ codes: [GEM035, LGS396, SEA006]
 Instant - {t} a cog you control: This card's next attack this turn gets go again."
 
 Rulings: search "Cogwerx Blunderbuss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM035-CF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS396.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA006.png)
+
+## Images
+
+![GEM035 - Cogwerx Blunderbuss](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM035-CF.webp)
+![LGS396 - Cogwerx Blunderbuss](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS396.png)
+![SEA006 - Cogwerx Blunderbuss](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA006.png)
 
 ## Notes

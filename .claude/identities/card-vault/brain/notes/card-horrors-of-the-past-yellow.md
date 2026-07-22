@@ -29,5 +29,10 @@ When this attacks, it gets the base abilities of the last attack action card wit
 
 Keywords: [[kw-stealth]]
 Rulings: search "Horrors of the Past" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC022.webp)
+
+## Images
+
+![AAC022 - Horrors of the Past (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC022.webp)
 
 ## Notes

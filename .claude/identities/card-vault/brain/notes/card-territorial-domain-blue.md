@@ -24,5 +24,10 @@ codes: [MST163]
 "While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}."
 
 Rulings: search "Territorial Domain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png)
+
+## Images
+
+![MST163 - Territorial Domain (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png)
 
 ## Notes

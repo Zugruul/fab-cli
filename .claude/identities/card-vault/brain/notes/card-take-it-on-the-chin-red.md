@@ -23,5 +23,12 @@ codes: [HVY160, KSI017, LGS256]
 "The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create an Agility token."
 
 Rulings: search "Take it on the Chin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY160.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI017.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS256.png)
+
+## Images
+
+![HVY160 - Take it on the Chin (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY160.png)
+![KSI017 - Take it on the Chin (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI017.png)
+![LGS256 - Take it on the Chin (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS256.png)
 
 ## Notes

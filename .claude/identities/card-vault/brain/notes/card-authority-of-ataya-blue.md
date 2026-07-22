@@ -26,5 +26,10 @@ When this is pitched, defense reaction cards cost opponents an additional {r} to
 
 Keywords: [[kw-legendary]]
 Rulings: search "Authority of Ataya" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP000-RF.webp)
+
+## Images
+
+![SUP000 - Authority of Ataya (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP000-RF.webp)
 
 ## Notes

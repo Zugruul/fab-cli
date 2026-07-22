@@ -21,5 +21,11 @@ codes: [DYN151]
 Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it."
 
 Rulings: search "Sandscour Greatbow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN151.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN151_Marvel.png)
+
+## Images
+
+![DYN151 - Sandscour Greatbow](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN151.png)
+![DYN151 - Sandscour Greatbow](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN151_Marvel.png)
 
 ## Notes

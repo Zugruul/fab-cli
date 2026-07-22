@@ -29,5 +29,11 @@ codes: [HVY213, KYO009]
 Keywords: [[kw-overpower]]
 Variants: [[card-down-but-not-out-yellow]] · [[card-down-but-not-out-blue]]
 Rulings: search "Down But Not Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY213.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO009.png)
+
+## Images
+
+![HVY213 - Down But Not Out (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY213.png)
+![KYO009 - Down But Not Out (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO009.png)
 
 ## Notes

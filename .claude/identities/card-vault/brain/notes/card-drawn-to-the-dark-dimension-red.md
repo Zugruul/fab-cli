@@ -28,5 +28,12 @@ When this attacks, draw a card."
 
 Variants: [[card-drawn-to-the-dark-dimension-yellow]] · [[card-drawn-to-the-dark-dimension-blue]]
 Rulings: search "Drawn to the Dark Dimension" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC097.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC097.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS009.webp)
+
+## Images
+
+![ARC097 - Drawn to the Dark Dimension (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC097.png)
+![ARC097 - Drawn to the Dark Dimension (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC097.png)
+![AVS009 - Drawn to the Dark Dimension (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS009.webp)
 
 ## Notes

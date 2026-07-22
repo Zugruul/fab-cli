@@ -29,5 +29,14 @@ codes: [1HP124, ASR023, BEN025, CRU068]
 Keywords: [[kw-go-again]]
 Variants: [[card-soulbead-strike-red]] · [[card-soulbead-strike-yellow]]
 Rulings: search "Soulbead Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP124.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR023.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN025.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU068.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU068.png)
+
+## Images
+
+![1HP124 - Soulbead Strike (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP124.width-450.png)
+![ASR023 - Soulbead Strike (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR023.webp)
+![BEN025 - Soulbead Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN025.png)
+![CRU068 - Soulbead Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU068.png)
+![CRU068 - Soulbead Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU068.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Boost"
 
 Keywords: [[kw-evo-upgrade]] · [[kw-boost]]
 Rulings: search "Blast Rig" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM120.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN064.webp)
+
+## Images
+
+![GEM120 - Blast Rig (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM120.webp)
+![PEN064 - Blast Rig (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN064.webp)
 
 ## Notes

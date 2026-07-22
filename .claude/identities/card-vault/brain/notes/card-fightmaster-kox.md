@@ -23,5 +23,10 @@ codes: [SMP003]
 "Action - {t}, destroy a Gold you control: Look at the top 3 cards of the event deck, then put them back in any order. Go again"
 
 Rulings: search "Fightmaster Kox" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP003.webp)
+
+## Images
+
+![SMP003 - Fightmaster Kox](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP003.webp)
 
 ## Notes

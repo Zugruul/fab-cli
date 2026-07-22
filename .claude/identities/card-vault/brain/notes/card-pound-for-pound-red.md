@@ -29,5 +29,11 @@ codes: [MON278]
 Keywords: [[kw-dominate]]
 Variants: [[card-pound-for-pound-yellow]] · [[card-pound-for-pound-blue]]
 Rulings: search "Pound for Pound" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON278.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON278.width-450.png)
+
+## Images
+
+![MON278 - Pound for Pound (red)](https://storage.googleapis.com/fabmaster/media/images/MON278.width-450.png)
+![MON278 - Pound for Pound (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON278.width-450.png)
 
 ## Notes

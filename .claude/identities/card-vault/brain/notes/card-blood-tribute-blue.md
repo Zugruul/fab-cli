@@ -26,5 +26,12 @@ codes: [LEV025, MON217]
 Keywords: [[kw-opt]]
 Variants: [[card-blood-tribute-red]] · [[card-blood-tribute-yellow]]
 Rulings: search "Blood Tribute" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/LEV025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON217.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON217.width-450.png)
+
+## Images
+
+![LEV025 - Blood Tribute (blue)](https://storage.googleapis.com/fabmaster/media/images/LEV025.width-450.png)
+![MON217 - Blood Tribute (blue)](https://storage.googleapis.com/fabmaster/media/images/MON217.width-450.png)
+![MON217 - Blood Tribute (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON217.width-450.png)
 
 ## Notes

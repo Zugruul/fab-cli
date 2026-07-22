@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Toxic Tips" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA005.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT158.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP006.png)
+
+## Images
+
+![ARA005 - Toxic Tips](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA005.png)
+![OUT158 - Toxic Tips](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT158.width-450.png)
+![RIP006 - Toxic Tips](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP006.png)
 
 ## Notes

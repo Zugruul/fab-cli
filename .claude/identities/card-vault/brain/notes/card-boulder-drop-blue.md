@@ -29,5 +29,12 @@ codes: [APS016, SBR023, TCC044]
 Keywords: [[kw-crush]]
 Variants: [[card-boulder-drop-red]] · [[card-boulder-drop-yellow]]
 Rulings: search "Boulder Drop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS016.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR023.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC044.png)
+
+## Images
+
+![APS016 - Boulder Drop (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS016.webp)
+![SBR023 - Boulder Drop (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR023.webp)
+![TCC044 - Boulder Drop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC044.png)
 
 ## Notes

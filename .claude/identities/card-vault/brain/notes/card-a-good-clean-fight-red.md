@@ -26,5 +26,11 @@ codes: [GEM088, SUP021]
 "If this is attacking a hero, non-equipment cards they own lose and can't gain abilities."
 
 Rulings: search "A Good Clean Fight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM088.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP021.webp)
+
+## Images
+
+![GEM088 - A Good Clean Fight (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM088.webp)
+![SUP021 - A Good Clean Fight (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP021.webp)
 
 ## Notes

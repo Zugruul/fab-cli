@@ -24,5 +24,10 @@ codes: [ROS086]
 
 Variants: [[card-electromagnetic-somersault-red]] · [[card-electromagnetic-somersault-blue]]
 Rulings: search "Electromagnetic Somersault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS086.png)
+
+## Images
+
+![ROS086 - Electromagnetic Somersault (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS086.png)
 
 ## Notes

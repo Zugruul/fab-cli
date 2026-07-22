@@ -23,5 +23,10 @@ codes: [LSS001]
 Once per Turn Action - {r}: Reveal the top card of your deck. If it's graded Gem Mint 10, put it into your hand, otherwise each opponent may draw a card. Go again"
 
 Rulings: search "Ruu'di, Gem Keeper" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS001.png)
+
+## Images
+
+![LSS001 - Ruu'di, Gem Keeper](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS001.png)
 
 ## Notes

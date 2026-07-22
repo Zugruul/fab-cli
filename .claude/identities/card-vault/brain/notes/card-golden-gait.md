@@ -25,5 +25,11 @@ Temper"
 
 Keywords: [[kw-legendary]] · [[kw-specialization]] · [[kw-temper]]
 Rulings: search "Golden Gait" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP250.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP250-MV.webp)
+
+## Images
+
+![SUP250 - Golden Gait](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP250.webp)
+![SUP250 - Golden Gait](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP250-MV.webp)
 
 ## Notes

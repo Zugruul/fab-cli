@@ -29,5 +29,10 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-tranquil-passing-red]] · [[card-tranquil-passing-yellow]]
 Rulings: search "Tranquil Passing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN223.png)
+
+## Images
+
+![DYN223 - Tranquil Passing (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN223.png)
 
 ## Notes

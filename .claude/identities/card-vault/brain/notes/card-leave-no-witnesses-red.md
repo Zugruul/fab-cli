@@ -29,5 +29,10 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
 
 Keywords: [[kw-contract]]
 Rulings: search "Leave No Witnesses" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN120.png)
+
+## Images
+
+![DYN120 - Leave No Witnesses (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN120.png)
 
 ## Notes

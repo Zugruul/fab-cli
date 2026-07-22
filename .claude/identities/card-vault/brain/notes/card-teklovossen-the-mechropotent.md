@@ -31,5 +31,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Teklovossen, the Mechropotent" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK_V2.png)
+
+## Images
+
+![EVO010 - Teklovossen, the Mechropotent](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK.png)
+![EVO010 - Teklovossen, the Mechropotent](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK_V2.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [OMN164]
 Keywords: [[kw-go-again]]
 Variants: [[card-electrolyze-red]] · [[card-electrolyze-blue]]
 Rulings: search "Electrolyze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN164.webp)
+
+## Images
+
+![OMN164 - Electrolyze (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN164.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ codes: [UPR099]
 
 Keywords: [[kw-rupture]]
 Rulings: search "Searing Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR099.png)
+
+## Images
+
+![UPR099 - Searing Touch (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR099.png)
 
 ## Notes

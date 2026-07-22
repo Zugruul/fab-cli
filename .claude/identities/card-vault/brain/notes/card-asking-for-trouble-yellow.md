@@ -23,5 +23,10 @@ codes: [SUP140]
 "When this defends, create a Vigor token under the attacking hero's control."
 
 Rulings: search "Asking for Trouble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP140.webp)
+
+## Images
+
+![SUP140 - Asking for Trouble (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP140.webp)
 
 ## Notes

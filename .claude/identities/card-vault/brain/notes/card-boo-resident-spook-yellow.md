@@ -30,5 +30,11 @@ Watery Grave"
 
 Keywords: [[kw-spellvoid]] · [[kw-watery-grave]]
 Rulings: search "Boo, Resident Spook" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN156.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN156-MV.webp)
+
+## Images
+
+![PEN156 - Boo, Resident Spook (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN156.webp)
+![PEN156 - Boo, Resident Spook (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN156-MV.webp)
 
 ## Notes

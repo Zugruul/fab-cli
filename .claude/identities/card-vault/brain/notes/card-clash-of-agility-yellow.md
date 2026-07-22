@@ -29,5 +29,10 @@ codes: [HVY158]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-agility-red]] · [[card-clash-of-agility-blue]]
 Rulings: search "Clash of Agility" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY158.png)
+
+## Images
+
+![HVY158 - Clash of Agility (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY158.png)
 
 ## Notes

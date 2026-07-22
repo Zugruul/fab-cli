@@ -31,5 +31,11 @@ Blood Debt"
 Keywords: [[kw-rune-gate]] · [[kw-blood-debt]]
 Variants: [[card-vantom-banshee-red]] · [[card-vantom-banshee-yellow]]
 Rulings: search "Vantom Banshee" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD157.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS159.png)
+
+## Images
+
+![DTD157 - Vantom Banshee (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD157.png)
+![LGS159 - Vantom Banshee (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS159.png)
 
 ## Notes

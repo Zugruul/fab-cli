@@ -30,5 +30,10 @@ At the start of your turn, destroy this, draw a card, then put a card from your 
 Keywords: [[kw-go-again]]
 Variants: [[card-stacked-in-your-favor-red]] · [[card-stacked-in-your-favor-blue]]
 Rulings: search "Stacked in Your Favor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY069.png)
+
+## Images
+
+![HVY069 - Stacked in Your Favor (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY069.png)
 
 ## Notes

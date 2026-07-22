@@ -30,5 +30,11 @@ When this is banished from boosting, put a steam counter on an item you control 
 
 Keywords: [[kw-boost]]
 Rulings: search "Fast and Furious" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO009.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM104.webp)
+
+## Images
+
+![AIO009 - Fast and Furious (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO009.webp)
+![GEM104 - Fast and Furious (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM104.webp)
 
 ## Notes

@@ -26,5 +26,12 @@ codes: [DDD013, DVR023, LGS149]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blade Flash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR023.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS149.png)
+
+## Images
+
+![DDD013 - Blade Flash (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD013.webp)
+![DVR023 - Blade Flash (blue)](https://storage.googleapis.com/fabmaster/media/images/DVR023.width-450.png)
+![LGS149 - Blade Flash (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS149.png)
 
 ## Notes

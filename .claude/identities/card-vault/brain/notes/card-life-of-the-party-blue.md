@@ -33,5 +33,11 @@ This gets go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-life-of-the-party-red]] · [[card-life-of-the-party-yellow]]
 Rulings: search "Life of the Party" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR163.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS086.png)
+
+## Images
+
+![EVR163 - Life of the Party (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR163.width-450.png)
+![LGS086 - Life of the Party (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS086.png)
 
 ## Notes

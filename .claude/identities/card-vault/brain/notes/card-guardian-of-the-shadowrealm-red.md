@@ -27,5 +27,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Guardian of the Shadowrealm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON192.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON192.width-450.png)
+
+## Images
+
+![MON192 - Guardian of the Shadowrealm (red)](https://storage.googleapis.com/fabmaster/media/images/MON192.width-450.png)
+![MON192 - Guardian of the Shadowrealm (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON192.width-450.png)
 
 ## Notes

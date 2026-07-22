@@ -28,5 +28,14 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
 Variants: [[card-savage-feast-yellow]] · [[card-savage-feast-blue]]
 Rulings: search "Savage Feast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP019.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RNR10.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA017.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR014.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR014.png)
+
+## Images
+
+![1HP019 - Savage Feast (red)](https://storage.googleapis.com/fabmaster/media/images/1HP019.width-450.png)
+![RNR010 - Savage Feast (red)](https://storage.googleapis.com/fabmaster/media/images/RNR10.width-450.png)
+![SKA017 - Savage Feast (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA017.webp)
+![WTR014 - Savage Feast (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR014.png)
+![WTR014 - Savage Feast (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR014.png)
 
 ## Notes

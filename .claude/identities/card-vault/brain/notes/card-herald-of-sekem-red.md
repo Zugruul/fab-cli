@@ -30,5 +30,10 @@ Phantasm"
 
 Keywords: [[kw-phantasm]]
 Rulings: search "Herald of Sekem" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA260.png)
+
+## Images
+
+![SEA260 - Herald of Sekem (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA260.png)
 
 ## Notes

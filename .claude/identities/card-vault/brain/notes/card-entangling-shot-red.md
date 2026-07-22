@@ -26,5 +26,12 @@ codes: [GEM060, SAZ013, SEA107]
 "When this is put face-up into your arsenal, you may {t} target hero."
 
 Rulings: search "Entangling Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM060.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ013.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA107.png)
+
+## Images
+
+![GEM060 - Entangling Shot (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM060.webp)
+![SAZ013 - Entangling Shot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ013.webp)
+![SEA107 - Entangling Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA107.png)
 
 ## Notes

@@ -23,5 +23,10 @@ Spellvoid 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-spellvoid]]
 Rulings: search "Widow Web Crawler" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS242.png)
+
+## Images
+
+![ROS242 - Widow Web Crawler](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS242.png)
 
 ## Notes

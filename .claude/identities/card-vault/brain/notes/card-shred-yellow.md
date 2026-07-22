@@ -25,5 +25,12 @@ codes: [AAC023, DYN131, TNP014]
 
 Variants: [[card-shred-red]] · [[card-shred-blue]]
 Rulings: search "Shred" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN131.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP014-MV.webp)
+
+## Images
+
+![AAC023 - Shred (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC023.webp)
+![DYN131 - Shred (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN131.png)
+![TNP014 - Shred (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP014-MV.webp)
 
 ## Notes

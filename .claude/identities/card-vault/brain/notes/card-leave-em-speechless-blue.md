@@ -27,5 +27,10 @@ When this enters the arena, name a card. The named card can't be played from han
 At the beginning of your action phase, destroy this."
 
 Rulings: search "Leave 'Em Speechless" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN301.webp)
+
+## Images
+
+![PEN301 - Leave 'Em Speechless (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN301.webp)
 
 ## Notes

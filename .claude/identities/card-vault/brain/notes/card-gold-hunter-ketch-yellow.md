@@ -26,5 +26,11 @@ codes: [SEA165]
 "If you control less Gold than an opponent, this costs {r}{r} less to play."
 
 Rulings: search "Gold Hunter Ketch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA165.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA165_V2.png)
+
+## Images
+
+![SEA165 - Gold Hunter Ketch (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA165.png)
+![SEA165 - Gold Hunter Ketch (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA165_V2.png)
 
 ## Notes

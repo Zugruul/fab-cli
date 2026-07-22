@@ -20,5 +20,10 @@ If you would create an Intellect Penalty with X counters on it, instead add X tu
 If you would draw up to your hero's intellect as an end-of-turn procedure, instead draw that many cards, remove a turn counter from this, and remove it from the game if it has no turn counters on it."
 
 Rulings: search "Intellect Penalty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG000.png)
+
+## Images
+
+![JDG000 - Intellect Penalty](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG000.png)
 
 ## Notes

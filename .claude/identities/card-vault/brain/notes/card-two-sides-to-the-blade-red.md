@@ -28,5 +28,12 @@ codes: [HNT051, SAR022, WOD015]
 
 Keywords: [[kw-mark]]
 Rulings: search "Two Sides to the Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT051.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR022.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD015.webp)
+
+## Images
+
+![HNT051 - Two Sides to the Blade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT051.png)
+![SAR022 - Two Sides to the Blade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR022.webp)
+![WOD015 - Two Sides to the Blade (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD015.webp)
 
 ## Notes

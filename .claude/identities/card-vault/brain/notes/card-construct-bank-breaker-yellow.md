@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-transform]] · [[kw-go-again]]
 Rulings: search "Construct Bank Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX022.webp)
+
+## Images
+
+![AMX022 - Construct Bank Breaker (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX022.webp)
 
 ## Notes

@@ -31,5 +31,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-engulfing-flamewave-red]] · [[card-engulfing-flamewave-blue]]
 Rulings: search "Engulfing Flamewave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR052.png)
+
+## Images
+
+![UPR052 - Engulfing Flamewave (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR052.png)
 
 ## Notes

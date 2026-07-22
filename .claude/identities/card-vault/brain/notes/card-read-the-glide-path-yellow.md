@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-opt]] · [[kw-go-again]]
 Variants: [[card-read-the-glide-path-red]] · [[card-read-the-glide-path-blue]]
 Rulings: search "Read the Glide Path" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ025.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR101.width-450.png)
+
+## Images
+
+![AAZ025 - Read the Glide Path (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ025.png)
+![EVR101 - Read the Glide Path (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR101.width-450.png)
 
 ## Notes

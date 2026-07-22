@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Phoenix Bannerman: Chest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN258.webp)
+
+## Images
+
+![PEN258 - Phoenix Bannerman: Chest (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN258.webp)
 
 ## Notes

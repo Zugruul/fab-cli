@@ -27,5 +27,12 @@ codes: [AAZ028, AZL025, OUT132]
 
 Variants: [[card-spire-sniping-red]] · [[card-spire-sniping-yellow]]
 Rulings: search "Spire Sniping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ028.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL025.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT132.width-450.png)
+
+## Images
+
+![AAZ028 - Spire Sniping (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ028.png)
+![AZL025 - Spire Sniping (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL025.png)
+![OUT132 - Spire Sniping (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT132.width-450.png)
 
 ## Notes

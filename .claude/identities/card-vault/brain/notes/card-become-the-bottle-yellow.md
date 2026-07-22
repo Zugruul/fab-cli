@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-become-the-bottle-red]] · [[card-become-the-bottle-blue]]
 Rulings: search "Become the Bottle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN038.webp)
+
+## Images
+
+![PEN038 - Become the Bottle (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN038.webp)
 
 ## Notes

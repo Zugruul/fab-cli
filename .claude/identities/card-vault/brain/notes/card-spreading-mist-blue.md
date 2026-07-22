@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Spreading Mist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN274.webp)
+
+## Images
+
+![PEN274 - Spreading Mist (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN274.webp)
 
 ## Notes

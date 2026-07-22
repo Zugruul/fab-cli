@@ -27,5 +27,13 @@ codes: [1HP284, ARC096, AVS023]
 
 Variants: [[card-amplify-the-arknight-red]] · [[card-amplify-the-arknight-yellow]]
 Rulings: search "Amplify the Arknight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP284.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC096.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC096.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS023.webp)
+
+## Images
+
+![1HP284 - Amplify the Arknight (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP284.width-450.png)
+![ARC096 - Amplify the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC096.png)
+![ARC096 - Amplify the Arknight (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC096.png)
+![AVS023 - Amplify the Arknight (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS023.webp)
 
 ## Notes

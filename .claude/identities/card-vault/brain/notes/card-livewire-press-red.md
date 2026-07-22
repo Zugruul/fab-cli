@@ -23,5 +23,10 @@ codes: [OMN159]
 "Target Lightning attack action card gets "When this hits a hero, deal 4 damage to them.""
 
 Rulings: search "Livewire Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN159.webp)
+
+## Images
+
+![OMN159 - Livewire Press (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN159.webp)
 
 ## Notes

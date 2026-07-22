@@ -23,5 +23,10 @@ Action - Destroy this: Create a Zen State and an Inertia token."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Magrar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG038.png)
+
+## Images
+
+![JDG038 - Magrar](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG038.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-rumble-grunting-yellow]] · [[card-rumble-grunting-blue]]
 Rulings: search "Rumble Grunting" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN022.png)
+
+## Images
+
+![DYN022 - Rumble Grunting (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN022.png)
 
 ## Notes

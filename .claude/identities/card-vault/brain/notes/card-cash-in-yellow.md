@@ -28,5 +28,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Cash In" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU188.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU188.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG013.png)
+
+## Images
+
+![CRU188 - Cash In (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU188.png)
+![CRU188 - Cash In (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU188.png)
+![JDG013 - Cash In (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG013.png)
 
 ## Notes

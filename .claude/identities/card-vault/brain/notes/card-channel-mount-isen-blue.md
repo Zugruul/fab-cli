@@ -29,5 +29,10 @@ Channel Ice - At the beginning of your end phase, put a flow counter on this, th
 
 Keywords: [[kw-go-again]] · [[kw-channel]]
 Rulings: search "Channel Mount Isen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV017.webp)
+
+## Images
+
+![AJV017 - Channel Mount Isen (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV017.webp)
 
 ## Notes

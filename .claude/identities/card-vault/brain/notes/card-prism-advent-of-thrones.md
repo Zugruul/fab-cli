@@ -24,5 +24,11 @@ codes: [DTD002, HER084]
 Once per Turn Instant - {r}{r}, banish a card from Prism's soul: Awaken target figment you control."
 
 Rulings: search "Prism, Advent of Thrones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER084.png)
+
+## Images
+
+![DTD002 - Prism, Advent of Thrones](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD002.png)
+![HER084 - Prism, Advent of Thrones](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER084.png)
 
 ## Notes

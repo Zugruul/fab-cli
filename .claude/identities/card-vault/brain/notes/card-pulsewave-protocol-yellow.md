@@ -28,5 +28,11 @@ codes: [EVO058, FAB173]
 
 Keywords: [[kw-evo-upgrade]]
 Rulings: search "Pulsewave Protocol" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO058.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB173.png)
+
+## Images
+
+![EVO058 - Pulsewave Protocol (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO058.png)
+![FAB173 - Pulsewave Protocol (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB173.png)
 
 ## Notes

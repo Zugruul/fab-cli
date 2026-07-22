@@ -26,5 +26,10 @@ codes: [OMN238]
 
 Keywords: [[kw-sharpen]] · [[kw-attack]]
 Rulings: search "Beckon Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN238.webp)
+
+## Images
+
+![OMN238 - Beckon Steel (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN238.webp)
 
 ## Notes

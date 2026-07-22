@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-freeze]] · [[kw-go-again]]
 Variants: [[card-put-on-ice-red]] · [[card-put-on-ice-blue]]
 Rulings: search "Put on Ice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN235.webp)
+
+## Images
+
+![PEN235 - Put on Ice (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN235.webp)
 
 ## Notes

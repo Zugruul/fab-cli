@@ -26,5 +26,11 @@ codes: [OMN213]
 "This gets +1{p} for each card in your hand."
 
 Rulings: search "Browbeat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN213.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN213-CF.webp)
+
+## Images
+
+![OMN213 - Browbeat (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN213.webp)
+![OMN213 - Browbeat (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN213-CF.webp)
 
 ## Notes

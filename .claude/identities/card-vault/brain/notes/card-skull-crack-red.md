@@ -26,5 +26,10 @@ codes: [DYN008]
 "When Skull Crack is discarded at random, gain {r}."
 
 Rulings: search "Skull Crack" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN008.png)
+
+## Images
+
+![DYN008 - Skull Crack (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN008.png)
 
 ## Notes

@@ -25,5 +25,12 @@ codes: [ARA019, OUT171, RIP008]
 "When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control."
 
 Rulings: search "Bloodrot Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA019.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT171.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP008.png)
+
+## Images
+
+![ARA019 - Bloodrot Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA019.png)
+![OUT171 - Bloodrot Trap (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT171.width-450.png)
+![RIP008 - Bloodrot Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP008.png)
 
 ## Notes

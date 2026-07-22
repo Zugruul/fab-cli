@@ -25,5 +25,10 @@ codes: [HVY252]
 Create a Ponder token for each hero dealt damage this way."
 
 Rulings: search "Aether Arc" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY252.png)
+
+## Images
+
+![HVY252 - Aether Arc (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY252.png)
 
 ## Notes

@@ -29,5 +29,12 @@ Boost"
 
 Keywords: [[kw-boost]]
 Rulings: search "Teklo Trebuchet 2000" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM121.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN066.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA031.webp)
+
+## Images
+
+![GEM121 - Teklo Trebuchet 2000 (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM121.webp)
+![PEN066 - Teklo Trebuchet 2000 (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN066.webp)
+![SDA031 - Teklo Trebuchet 2000 (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA031.webp)
 
 ## Notes

@@ -30,5 +30,11 @@ Galvanize - When this defends, you may destroy an item you control. If you do, t
 Keywords: [[kw-go-again]] · [[kw-galvanize]]
 Variants: [[card-soup-up-red]] · [[card-soup-up-blue]]
 Rulings: search "Soup Up" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO112.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS196.width-10000.png)
+
+## Images
+
+![EVO112 - Soup Up (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO112.png)
+![LGS196 - Soup Up (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS196.width-10000.png)
 
 ## Notes

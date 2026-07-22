@@ -24,5 +24,10 @@ codes: [DYN044]
 
 Variants: [[card-withstand-red]] · [[card-withstand-yellow]]
 Rulings: search "Withstand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN044.png)
+
+## Images
+
+![DYN044 - Withstand (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN044.png)
 
 ## Notes

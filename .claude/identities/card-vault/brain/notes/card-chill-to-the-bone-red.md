@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-chill-to-the-bone-yellow]] · [[card-chill-to-the-bone-blue]]
 Rulings: search "Chill to the Bone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE163.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE163.width-450.png)
+
+## Images
+
+![ELE163 - Chill to the Bone (red)](https://storage.googleapis.com/fabmaster/media/images/ELE163.width-450.png)
+![ELE163 - Chill to the Bone (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE163.width-450.png)
 
 ## Notes

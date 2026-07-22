@@ -22,5 +22,15 @@ codes: [1HP093, 1HP094, CRU051, CRU052]
 When this is defended by a card with {d} greater than this weapon attack's {p}, destroy this when the combat chain closes."
 
 Rulings: search "Zephyr Needle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP093.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/1HP094.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/CRU51.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/CRU051_Zephyr_Needle.width-10000.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU052.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/CRU052_Zephyr_Needle.width-10000.png)
+
+## Images
+
+![1HP093 - Zephyr Needle](https://storage.googleapis.com/fabmaster/media/images/1HP093.width-450.png)
+![1HP094 - Zephyr Needle](https://storage.googleapis.com/fabmaster/media/images/1HP094.width-450.png)
+![CRU051 - Zephyr Needle](https://storage.googleapis.com/fabmaster/media/images/CRU51.width-450.png)
+![CRU051 - Zephyr Needle](https://storage.googleapis.com/fabmaster/media/images/CRU051_Zephyr_Needle.width-10000.png)
+![CRU052 - Zephyr Needle](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU052.png)
+![CRU052 - Zephyr Needle](https://storage.googleapis.com/fabmaster/media/images/CRU052_Zephyr_Needle.width-10000.png)
 
 ## Notes

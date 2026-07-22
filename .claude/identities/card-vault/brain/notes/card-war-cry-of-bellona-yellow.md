@@ -26,5 +26,10 @@ codes: [HNT258]
 Instant - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented."
 
 Rulings: search "War Cry of Bellona" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT258.png)
+
+## Images
+
+![HNT258 - War Cry of Bellona (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT258.png)
 
 ## Notes

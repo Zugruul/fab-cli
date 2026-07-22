@@ -25,5 +25,10 @@ codes: [OMN135]
 If this deals damage, you may {t} your hero. If you do, your hero deals 1 arcane damage to any target."
 
 Rulings: search "Nucleus Aetherbolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN135.webp)
+
+## Images
+
+![OMN135 - Nucleus Aetherbolt (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN135.webp)
 
 ## Notes

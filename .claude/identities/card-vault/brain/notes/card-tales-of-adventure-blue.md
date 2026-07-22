@@ -28,5 +28,10 @@ You create a Copper, Silver, and Gold."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Tales of Adventure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS005.png)
+
+## Images
+
+![LSS005 - Tales of Adventure (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS005.png)
 
 ## Notes

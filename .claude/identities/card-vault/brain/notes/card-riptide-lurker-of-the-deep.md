@@ -24,5 +24,14 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero."
 
 Young version: [[card-riptide]]
 Rulings: search "Riptide, Lurker of the Deep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM033-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM033-CF_BACK.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER078.png) · [Image #4](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT091.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN022.png)
+
+## Images
+
+![GEM033 - Riptide, Lurker of the Deep](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM033-CF.webp)
+![GEM033 - Riptide, Lurker of the Deep](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM033-CF_BACK.webp)
+![HER078 - Riptide, Lurker of the Deep](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER078.png)
+![OUT091 - Riptide, Lurker of the Deep](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT091.width-450.png)
+![WIN022 - Riptide, Lurker of the Deep](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN022.png)
 
 ## Notes

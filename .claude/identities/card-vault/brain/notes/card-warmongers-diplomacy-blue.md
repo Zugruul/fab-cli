@@ -26,5 +26,12 @@ If they choose war, the only actions they may play or activate during their next
 If they choose peace, the only actions they may play or activate during their next turn are non-weapon non-attack actions."
 
 Rulings: search "Warmonger's Diplomacy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD230.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP270-RF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP270-CF.webp)
+
+## Images
+
+![DTD230 - Warmonger's Diplomacy (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD230.png)
+![SUP270 - Warmonger's Diplomacy (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP270-RF.webp)
+![SUP270 - Warmonger's Diplomacy (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP270-CF.webp)
 
 ## Notes

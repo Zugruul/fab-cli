@@ -23,5 +23,10 @@ codes: [OMN246]
 "When this defends, choose a color. Each hero reveals a random card from their hand. If it's the chosen color, they discard it."
 
 Rulings: search "Induce Panic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN246.webp)
+
+## Images
+
+![OMN246 - Induce Panic (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN246.webp)
 
 ## Notes

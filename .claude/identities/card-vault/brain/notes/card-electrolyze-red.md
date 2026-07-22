@@ -29,5 +29,11 @@ codes: [GEM171, OMN163]
 Keywords: [[kw-go-again]]
 Variants: [[card-electrolyze-yellow]] · [[card-electrolyze-blue]]
 Rulings: search "Electrolyze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM171.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN163.webp)
+
+## Images
+
+![GEM171 - Electrolyze (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM171.webp)
+![OMN163 - Electrolyze (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN163.webp)
 
 ## Notes

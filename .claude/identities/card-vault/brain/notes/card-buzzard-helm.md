@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Buzzard Helm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN002.webp)
+
+## Images
+
+![PEN002 - Buzzard Helm](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN002.webp)
 
 ## Notes

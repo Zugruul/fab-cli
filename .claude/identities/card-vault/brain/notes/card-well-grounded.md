@@ -21,5 +21,13 @@ codes: [FLR006, LGS313, ROS030, VER006]
 "Instant - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if there are 4 or more Earth cards in your banished zone."
 
 Rulings: search "Well Grounded" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR006.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS313.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS030.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER006.webp)
+
+## Images
+
+![FLR006 - Well Grounded](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR006.webp)
+![LGS313 - Well Grounded](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS313.png)
+![ROS030 - Well Grounded](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS030.png)
+![VER006 - Well Grounded](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER006.webp)
 
 ## Notes

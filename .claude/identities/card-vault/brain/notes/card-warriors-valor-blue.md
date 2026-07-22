@@ -28,5 +28,15 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-warriors-valor-red]] · [[card-warriors-valor-yellow]]
 Rulings: search "Warrior's Valor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP161.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO034.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/TEA25.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP012-MV.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR131.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR131.png)
+
+## Images
+
+![1HP161 - Warrior's Valor (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP161.width-450.png)
+![SDO034 - Warrior's Valor (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO034.webp)
+![TEA025 - Warrior's Valor (blue)](https://storage.googleapis.com/fabmaster/media/images/TEA25.width-450.png)
+![TNP012 - Warrior's Valor (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP012-MV.webp)
+![WTR131 - Warrior's Valor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR131.png)
+![WTR131 - Warrior's Valor (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR131.png)
 
 ## Notes

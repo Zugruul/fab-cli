@@ -29,5 +29,12 @@ Create X Frostbite tokens under target hero's control. Then, if Ice Eternal was 
 
 Keywords: [[kw-specialization]] · [[kw-fusion]]
 Rulings: search "Ice Eternal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS110.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY028.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR109.png)
+
+## Images
+
+![LGS110 - Ice Eternal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS110.png)
+![SIY028 - Ice Eternal (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY028.webp)
+![UPR109 - Ice Eternal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR109.png)
 
 ## Notes

@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Quartermaster's Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA185.png)
+
+## Images
+
+![SEA185 - Quartermaster's Boots](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA185.png)
 
 ## Notes

@@ -30,5 +30,10 @@ This gets +X{p}, where X is the number of equipment defending it."
 Keywords: [[kw-boost]]
 Variants: [[card-panel-beater-red]] · [[card-panel-beater-yellow]]
 Rulings: search "Panel Beater" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO215.png)
+
+## Images
+
+![EVO215 - Panel Beater (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO215.png)
 
 ## Notes

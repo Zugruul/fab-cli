@@ -25,5 +25,10 @@ If there are 4 or more Earth cards in your banished zone, instead gain 3{h}."
 
 Variants: [[card-fertile-ground-red]] · [[card-fertile-ground-yellow]]
 Rulings: search "Fertile Ground" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS069.png)
+
+## Images
+
+![ROS069 - Fertile Ground (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS069.png)
 
 ## Notes

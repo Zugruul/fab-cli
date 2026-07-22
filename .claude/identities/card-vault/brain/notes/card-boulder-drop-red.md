@@ -29,5 +29,12 @@ codes: [APS008, GEM102, SBR013]
 Keywords: [[kw-crush]]
 Variants: [[card-boulder-drop-yellow]] · [[card-boulder-drop-blue]]
 Rulings: search "Boulder Drop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS008.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM102.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR013.webp)
+
+## Images
+
+![APS008 - Boulder Drop (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS008.webp)
+![GEM102 - Boulder Drop (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM102.webp)
+![SBR013 - Boulder Drop (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR013.webp)
 
 ## Notes

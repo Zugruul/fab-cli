@@ -30,5 +30,13 @@ codes: [ASB010, BOL015, MON051]
 Keywords: [[kw-charge]]
 Variants: [[card-express-lightning-yellow]] · [[card-express-lightning-blue]]
 Rulings: search "Express Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB010.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BOL015.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON051.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON051.width-450.png)
+
+## Images
+
+![ASB010 - Express Lightning (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB010.png)
+![BOL015 - Express Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/BOL015.width-450.png)
+![MON051 - Express Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/MON051.width-450.png)
+![MON051 - Express Lightning (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON051.width-450.png)
 
 ## Notes

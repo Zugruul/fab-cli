@@ -25,5 +25,11 @@ codes: [EVR123]
 If Aether Wildfire is played during an opponents turn, until end of turn, action card effects that deal arcane damage instead deal that much arcane damage plus X, where X is the damage dealt by Aether Wildfire."
 
 Rulings: search "Aether Wildfire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR123.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR123-RF.png)
+
+## Images
+
+![EVR123 - Aether Wildfire (red)](https://storage.googleapis.com/fabmaster/media/images/EVR123.width-450.png)
+![EVR123 - Aether Wildfire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR123-RF.png)
 
 ## Notes

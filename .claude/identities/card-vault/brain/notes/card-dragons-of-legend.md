@@ -31,5 +31,10 @@ Yendurai - 1 pitch, 1 cost, 3 block
 You may put this in your deck in place of an invocation you own. Mark the box next to the dragon's name this invokes. When this card is played or put into your graveyard, swap it for the invocation card."
 
 Rulings: search "Dragons of Legend" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR225.png)
+
+## Images
+
+![UPR225 - Dragons of Legend](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR225.png)
 
 ## Notes

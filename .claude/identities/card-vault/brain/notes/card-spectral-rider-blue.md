@@ -30,5 +30,11 @@ Phantasm"
 Keywords: [[kw-overpower]] · [[kw-phantasm]]
 Variants: [[card-spectral-rider-red]] · [[card-spectral-rider-yellow]]
 Rulings: search "Spectral Rider" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN229.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN027.webp)
+
+## Images
+
+![DYN229 - Spectral Rider (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN229.png)
+![SEN027 - Spectral Rider (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN027.webp)
 
 ## Notes

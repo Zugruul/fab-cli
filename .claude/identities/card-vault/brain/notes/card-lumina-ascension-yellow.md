@@ -30,5 +30,13 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Lumina Ascension" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB026.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON034.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON034-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON034.width-450.png)
+
+## Images
+
+![ASB026 - Lumina Ascension (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB026.png)
+![MON034 - Lumina Ascension (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON034.width-450.png)
+![MON034 - Lumina Ascension (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON034-RF.png)
+![MON034 - Lumina Ascension (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON034.width-450.png)
 
 ## Notes

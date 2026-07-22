@@ -29,5 +29,13 @@ codes: [1HP404, ARK024, WTR211]
 Keywords: [[kw-go-again]]
 Variants: [[card-razor-reflex-red]] · [[card-razor-reflex-yellow]]
 Rulings: search "Razor Reflex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP404.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK024.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR211.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR211.png)
+
+## Images
+
+![1HP404 - Razor Reflex (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP404.width-450.png)
+![ARK024 - Razor Reflex (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK024.webp)
+![WTR211 - Razor Reflex (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR211.png)
+![WTR211 - Razor Reflex (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR211.png)
 
 ## Notes

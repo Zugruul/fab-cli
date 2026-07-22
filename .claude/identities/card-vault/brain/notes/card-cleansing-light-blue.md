@@ -26,5 +26,10 @@ Destroy target blue aura."
 
 Variants: [[card-cleansing-light-red]] · [[card-cleansing-light-yellow]]
 Rulings: search "Cleansing Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD090.png)
+
+## Images
+
+![DTD090 - Cleansing Light (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD090.png)
 
 ## Notes

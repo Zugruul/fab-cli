@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Overbearing Presence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP126.webp)
+
+## Images
+
+![SUP126 - Overbearing Presence](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP126.webp)
 
 ## Notes

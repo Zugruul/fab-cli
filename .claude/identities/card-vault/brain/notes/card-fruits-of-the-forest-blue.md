@@ -27,5 +27,13 @@ codes: [FLR022, LGS344, ROS057, VER020]
 
 Variants: [[card-fruits-of-the-forest-red]] · [[card-fruits-of-the-forest-yellow]]
 Rulings: search "Fruits of the Forest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS344.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS057.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER020.webp)
+
+## Images
+
+![FLR022 - Fruits of the Forest (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR022.webp)
+![LGS344 - Fruits of the Forest (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS344.png)
+![ROS057 - Fruits of the Forest (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS057.png)
+![VER020 - Fruits of the Forest (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER020.webp)
 
 ## Notes

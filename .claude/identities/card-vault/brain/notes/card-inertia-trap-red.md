@@ -25,5 +25,12 @@ codes: [OUT173, RIP010, SAR025]
 "When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control."
 
 Rulings: search "Inertia Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT173.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP010.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR025.webp)
+
+## Images
+
+![OUT173 - Inertia Trap (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT173.width-450.png)
+![RIP010 - Inertia Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP010.png)
+![SAR025 - Inertia Trap (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR025.webp)
 
 ## Notes

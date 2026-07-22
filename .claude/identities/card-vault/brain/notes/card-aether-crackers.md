@@ -21,5 +21,11 @@ codes: [AUR005, FAB334]
 "When an attack you control hits a hero, you may destroy this. If you do, deal 1 arcane damage to them."
 
 Rulings: search "Aether Crackers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR005.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB334-CF.webp)
+
+## Images
+
+![AUR005 - Aether Crackers](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR005.webp)
+![FAB334 - Aether Crackers](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB334-CF.webp)
 
 ## Notes

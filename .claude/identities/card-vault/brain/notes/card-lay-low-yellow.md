@@ -25,5 +25,10 @@ codes: [HNT236]
 If the defending hero is marked, their next attack this turn gets -1{p}."
 
 Rulings: search "Lay Low" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT236.png)
+
+## Images
+
+![HNT236 - Lay Low (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT236.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [UPR208]
 
 Variants: [[card-critical-strike-red]] · [[card-critical-strike-yellow]]
 Rulings: search "Critical Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR208.png)
+
+## Images
+
+![UPR208 - Critical Strike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR208.png)
 
 ## Notes

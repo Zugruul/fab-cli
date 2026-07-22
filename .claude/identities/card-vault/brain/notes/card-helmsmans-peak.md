@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Helmsman's Peak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA180.png)
+
+## Images
+
+![SEA180 - Helmsman's Peak](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA180.png)
 
 ## Notes

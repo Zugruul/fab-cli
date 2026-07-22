@@ -29,5 +29,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Deep Rooted Evil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON123.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON123.width-450.png)
+
+## Images
+
+![MON123 - Deep Rooted Evil (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON123.width-450.png)
+![MON123 - Deep Rooted Evil (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON123.width-450.png)
 
 ## Notes

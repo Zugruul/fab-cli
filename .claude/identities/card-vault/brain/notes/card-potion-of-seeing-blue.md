@@ -24,5 +24,10 @@ codes: [EVR184]
 "Instant - Destroy Potion of Seeing: Look at target hero's hand."
 
 Rulings: search "Potion of Seeing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR184.width-450.png)
+
+## Images
+
+![EVR184 - Potion of Seeing (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR184.width-450.png)
 
 ## Notes

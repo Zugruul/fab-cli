@@ -23,5 +23,11 @@ Whenever you attack with Duskblade, if you've played an attack action card and a
 At the beginning of your end phase, if you haven't played an attack action card and a 'non-attack' action card this turn, remove all +1{p} counters from Duskblade."
 
 Rulings: search "Duskblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE223.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE223.width-450.png)
+
+## Images
+
+![ELE223 - Duskblade](https://storage.googleapis.com/fabmaster/media/images/ELE223.width-450.png)
+![ELE223 - Duskblade](https://storage.googleapis.com/fabmaster/media/images/U-ELE223.width-450.png)
 
 ## Notes

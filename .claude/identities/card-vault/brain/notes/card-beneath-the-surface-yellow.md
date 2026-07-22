@@ -27,5 +27,11 @@ While this is defending, when it's put into your graveyard from the arena, turn 
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Beneath the Surface" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM167.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN158.webp)
+
+## Images
+
+![GEM167 - Beneath the Surface (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM167.webp)
+![PEN158 - Beneath the Surface (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN158.webp)
 
 ## Notes

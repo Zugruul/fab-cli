@@ -27,5 +27,16 @@ codes: [AUA010, AUR009, ELE192, LXI014, OMN172, ROS095]
 
 Variants: [[card-heavens-claws-yellow]] · [[card-heavens-claws-blue]]
 Rulings: search "Heaven's Claws" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA010.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR009.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ELE192.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-ELE192.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/LXI014.width-450.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN172.webp) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS095.png)
+
+## Images
+
+![AUA010 - Heaven's Claws (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA010.webp)
+![AUR009 - Heaven's Claws (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR009.webp)
+![ELE192 - Heaven's Claws (red)](https://storage.googleapis.com/fabmaster/media/images/ELE192.width-450.png)
+![ELE192 - Heaven's Claws (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE192.width-450.png)
+![LXI014 - Heaven's Claws (red)](https://storage.googleapis.com/fabmaster/media/images/LXI014.width-450.png)
+![OMN172 - Heaven's Claws (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN172.webp)
+![ROS095 - Heaven's Claws (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS095.png)
 
 ## Notes

@@ -30,5 +30,10 @@ codes: [AUR019]
 Keywords: [[kw-token-lightning-flow]]
 Variants: [[card-static-shock-red]]
 Rulings: search "Static Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR019.webp)
+
+## Images
+
+![AUR019 - Static Shock (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR019.webp)
 
 ## Notes

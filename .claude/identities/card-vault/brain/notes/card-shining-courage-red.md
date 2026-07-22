@@ -26,5 +26,11 @@ The crowd cheers you."
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Shining Courage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM090.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP034.webp)
+
+## Images
+
+![GEM090 - Shining Courage (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM090.webp)
+![SUP034 - Shining Courage (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP034.webp)
 
 ## Notes

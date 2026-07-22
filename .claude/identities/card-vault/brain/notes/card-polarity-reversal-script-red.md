@@ -28,5 +28,10 @@ Action cards get -1{d} while defending your Mechanologist attack action cards."
 
 Keywords: [[kw-crank]]
 Rulings: search "Polarity Reversal Script" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO078.png)
+
+## Images
+
+![EVO078 - Polarity Reversal Script (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO078.png)
 
 ## Notes

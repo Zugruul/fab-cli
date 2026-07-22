@@ -23,5 +23,12 @@ codes: [DRO004, LGS107, UPR003]
 
 Keywords: [[kw-attack]]
 Rulings: search "Storm of Sandikai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DRO004.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS107.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR003.png)
+
+## Images
+
+![DRO004 - Storm of Sandikai](https://storage.googleapis.com/fabmaster/media/images/DRO004.width-450.png)
+![LGS107 - Storm of Sandikai](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS107.png)
+![UPR003 - Storm of Sandikai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR003.png)
 
 ## Notes

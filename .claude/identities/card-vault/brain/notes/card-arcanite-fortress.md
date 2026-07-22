@@ -25,5 +25,12 @@ Guardwell"
 
 Keywords: [[kw-spellvoid]] · [[kw-guardwell]]
 Rulings: search "Arcanite Fortress" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB254.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS211.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS211-CF.png)
+
+## Images
+
+![FAB254 - Arcanite Fortress](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB254.png)
+![ROS211 - Arcanite Fortress](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS211.png)
+![ROS211 - Arcanite Fortress](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS211-CF.png)
 
 ## Notes

@@ -23,5 +23,11 @@ codes: [AAC028, SAR031]
 "Your attacks with stealth get +1{p} this turn."
 
 Rulings: search "Night's Embrace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC028.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR031.webp)
+
+## Images
+
+![AAC028 - Night's Embrace (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC028.webp)
+![SAR031 - Night's Embrace (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR031.webp)
 
 ## Notes

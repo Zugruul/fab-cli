@@ -26,5 +26,12 @@ codes: [FAB240, MST084, NUU018]
 "This gets +1{p} for each blue card you've pitched this turn."
 
 Rulings: search "Deep Blue Sea" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB240.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST084.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU018.png)
+
+## Images
+
+![FAB240 - Deep Blue Sea (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB240.png)
+![MST084 - Deep Blue Sea (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST084.png)
+![NUU018 - Deep Blue Sea (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU018.png)
 
 ## Notes

@@ -30,5 +30,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 Keywords: [[kw-boost]]
 Variants: [[card-big-bertha-red]] · [[card-big-bertha-blue]]
 Rulings: search "Big Bertha" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO178.png)
+
+## Images
+
+![EVO178 - Big Bertha (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO178.png)
 
 ## Notes

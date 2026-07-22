@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Meganetic Lockwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO143.png)
+
+## Images
+
+![EVO143 - Meganetic Lockwave (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO143.png)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [UPR185]
 
 Keywords: [[kw-quell]]
 Rulings: search "Quelling Sleeves" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR185.png)
+
+## Images
+
+![UPR185 - Quelling Sleeves](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR185.png)
 
 ## Notes

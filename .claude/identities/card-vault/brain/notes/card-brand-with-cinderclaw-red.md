@@ -31,5 +31,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-brand-with-cinderclaw-yellow]] · [[card-brand-with-cinderclaw-blue]]
 Rulings: search "Brand with Cinderclaw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI020.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA012.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR060.png)
+
+## Images
+
+![FAI020 - Brand with Cinderclaw (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI020.webp)
+![SFA012 - Brand with Cinderclaw (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA012.webp)
+![UPR060 - Brand with Cinderclaw (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR060.png)
 
 ## Notes

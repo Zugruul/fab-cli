@@ -26,5 +26,10 @@ codes: [DYN074]
 
 Variants: [[card-blessing-of-steel-red]] · [[card-blessing-of-steel-blue]]
 Rulings: search "Blessing of Steel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN074.png)
+
+## Images
+
+![DYN074 - Blessing of Steel (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN074.png)
 
 ## Notes

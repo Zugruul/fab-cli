@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tome of Imperial Flame" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO245.png)
+
+## Images
+
+![EVO245 - Tome of Imperial Flame (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO245.png)
 
 ## Notes

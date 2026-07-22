@@ -30,5 +30,12 @@ If this was played from arsenal, it gains go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-trade-in-red]] · [[card-trade-in-yellow]]
 Rulings: search "Trade In" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY233.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA234.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR214.png)
+
+## Images
+
+![HVY233 - Trade In (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY233.png)
+![SEA234 - Trade In (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA234.png)
+![UPR214 - Trade In (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR214.png)
 
 ## Notes

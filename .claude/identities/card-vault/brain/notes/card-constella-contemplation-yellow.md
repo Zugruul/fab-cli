@@ -27,5 +27,11 @@ Starfall - If an instant card has been put into your graveyard this turn, deal 1
 
 Keywords: [[kw-starfall]]
 Rulings: search "Constella Contemplation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM156.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN130.webp)
+
+## Images
+
+![GEM156 - Constella Contemplation (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM156.webp)
+![OMN130 - Constella Contemplation (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN130.webp)
 
 ## Notes

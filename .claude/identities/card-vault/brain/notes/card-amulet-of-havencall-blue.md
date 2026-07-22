@@ -27,5 +27,10 @@ Defense Reaction - Destroy Amulet of Havencall: Search your deck for a card name
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Havencall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR178.width-450.png)
+
+## Images
+
+![EVR178 - Amulet of Havencall (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR178.width-450.png)
 
 ## Notes

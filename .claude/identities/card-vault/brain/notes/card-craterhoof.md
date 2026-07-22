@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-dominate]]
 Rulings: search "Craterhoof" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG008.webp)
+
+## Images
+
+![MPG008 - Craterhoof](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG008.webp)
 
 ## Notes

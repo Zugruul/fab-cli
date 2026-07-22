@@ -27,5 +27,10 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
 
 Variants: [[card-rites-of-earthlore-yellow]] · [[card-rites-of-earthlore-blue]]
 Rulings: search "Rites of Earthlore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN026.webp)
+
+## Images
+
+![PEN026 - Rites of Earthlore (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN026.webp)
 
 ## Notes

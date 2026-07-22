@@ -23,5 +23,10 @@ codes: [DDD006]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Cutting Couriers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD006.webp)
+
+## Images
+
+![DDD006 - Cutting Couriers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD006.webp)
 
 ## Notes

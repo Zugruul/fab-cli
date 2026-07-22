@@ -27,5 +27,12 @@ codes: [DYN162, LGS119, RIP015]
 
 Variants: [[card-hemorrhage-bore-yellow]] · [[card-hemorrhage-bore-blue]]
 Rulings: search "Hemorrhage Bore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN162.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS119.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP015.png)
+
+## Images
+
+![DYN162 - Hemorrhage Bore (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN162.png)
+![LGS119 - Hemorrhage Bore (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS119.png)
+![RIP015 - Hemorrhage Bore (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP015.png)
 
 ## Notes

@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-overpower]]
 Rulings: search "Heave Ho!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM052.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA057.png)
+
+## Images
+
+![GEM052 - Heave Ho! (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM052.webp)
+![SEA057 - Heave Ho! (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA057.png)
 
 ## Notes

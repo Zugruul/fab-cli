@@ -30,5 +30,11 @@ The next attack with stealth you play this combat chain gains +1{p}."
 Keywords: [[kw-stealth]]
 Variants: [[card-prowl-red]] · [[card-prowl-blue]]
 Rulings: search "Prowl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA021.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT034.width-450.png)
+
+## Images
+
+![ARA021 - Prowl (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA021.png)
+![OUT034 - Prowl (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT034.width-450.png)
 
 ## Notes

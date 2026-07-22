@@ -27,5 +27,13 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "The Grain that Tips the Scale" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS289-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST102.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST102_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN028.png)
+
+## Images
+
+![LGS289 - The Grain that Tips the Scale (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS289-RF.webp)
+![MST102 - The Grain that Tips the Scale (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST102.png)
+![MST102 - The Grain that Tips the Scale (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST102_V2.png)
+![ZEN028 - The Grain that Tips the Scale (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN028.png)
 
 ## Notes

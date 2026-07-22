@@ -28,5 +28,10 @@ codes: [LSS019]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Scarf for a Scarf" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS019.png)
+
+## Images
+
+![LSS019 - Scarf for a Scarf (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS019.png)
 
 ## Notes

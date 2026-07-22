@@ -30,5 +30,12 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
 Keywords: [[kw-go-again]]
 Variants: [[card-embolden-red]] · [[card-embolden-yellow]]
 Rulings: search "Embolden" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE208.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE208.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG099.webp)
+
+## Images
+
+![ELE208 - Embolden (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE208.width-450.png)
+![ELE208 - Embolden (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE208.width-450.png)
+![MPG099 - Embolden (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG099.webp)
 
 ## Notes

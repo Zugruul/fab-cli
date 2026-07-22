@@ -25,5 +25,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Undertow Stilettos" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS270.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST007.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU006.png)
+
+## Images
+
+![LGS270 - Undertow Stilettos](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS270.png)
+![MST007 - Undertow Stilettos](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST007.png)
+![NUU006 - Undertow Stilettos](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU006.png)
 
 ## Notes

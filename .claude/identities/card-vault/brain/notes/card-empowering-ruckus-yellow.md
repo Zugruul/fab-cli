@@ -26,5 +26,10 @@ codes: [SUP039]
 "If you've been cheered this turn, this gets +1{p}."
 
 Rulings: search "Empowering Ruckus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP039.webp)
+
+## Images
+
+![SUP039 - Empowering Ruckus (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP039.webp)
 
 ## Notes

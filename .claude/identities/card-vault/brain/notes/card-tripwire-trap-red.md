@@ -26,5 +26,13 @@ codes: [CRU126, LGS150]
 When this defends, effects don't trigger when an attack hits this chain link unless the attacking hero pays {r}."
 
 Rulings: search "Tripwire Trap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU126.png) · [Image #4](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS150.width-10000.png)
+
+## Images
+
+![CRU126 - Tripwire Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126.png)
+![CRU126 - Tripwire Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126-RF.png)
+![CRU126 - Tripwire Trap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU126.png)
+![LGS150 - Tripwire Trap (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS150.width-10000.png)
 
 ## Notes

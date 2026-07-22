@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Frontline Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD225.png)
+
+## Images
+
+![DTD225 - Frontline Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD225.png)
 
 ## Notes

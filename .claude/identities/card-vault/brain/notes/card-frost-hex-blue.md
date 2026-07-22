@@ -29,5 +29,11 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
 
 Keywords: [[kw-specialization]]
 Rulings: search "Frost Hex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126_CF.png)
+
+## Images
+
+![UPR126 - Frost Hex (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126.png)
+![UPR126 - Frost Hex (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126_CF.png)
 
 ## Notes

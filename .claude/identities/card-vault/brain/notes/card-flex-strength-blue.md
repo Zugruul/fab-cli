@@ -27,5 +27,11 @@ codes: [GEM099, SUP151]
 
 Variants: [[card-flex-strength-red]] · [[card-flex-strength-yellow]]
 Rulings: search "Flex Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM099.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP151.webp)
+
+## Images
+
+![GEM099 - Flex Strength (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM099.webp)
+![SUP151 - Flex Strength (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP151.webp)
 
 ## Notes

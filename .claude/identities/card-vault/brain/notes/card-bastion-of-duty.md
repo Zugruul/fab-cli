@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-protect]] · [[kw-temper]]
 Rulings: search "Bastion of Duty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS206.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC029.png)
+
+## Images
+
+![LGS206 - Bastion of Duty](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS206.png)
+![TCC029 - Bastion of Duty](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC029.png)
 
 ## Notes

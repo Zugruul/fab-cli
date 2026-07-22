@@ -29,5 +29,12 @@ At the beginning of your action phase, destroy Show Time! then draw a card."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Show Time!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP054.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR047.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR047.png)
+
+## Images
+
+![1HP054 - Show Time! (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP054.width-450.png)
+![WTR047 - Show Time! (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR047.png)
+![WTR047 - Show Time! (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR047.png)
 
 ## Notes

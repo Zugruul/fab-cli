@@ -22,5 +22,10 @@ codes: [SEA255]
 Instant - Discard this: Destroy target card with phantasm that is attacking you."
 
 Rulings: search "Burn Bare" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA255.png)
+
+## Images
+
+![SEA255 - Burn Bare](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA255.png)
 
 ## Notes

@@ -29,5 +29,13 @@ codes: [1HP244, ARC064]
 Keywords: [[kw-opt]]
 Variants: [[card-ridge-rider-shot-red]] · [[card-ridge-rider-shot-blue]]
 Rulings: search "Ridge Rider Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP244.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC064.png)
+
+## Images
+
+![1HP244 - Ridge Rider Shot (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP244.width-450.png)
+![ARC064 - Ridge Rider Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064.png)
+![ARC064 - Ridge Rider Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064-RF.png)
+![ARC064 - Ridge Rider Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC064.png)
 
 ## Notes

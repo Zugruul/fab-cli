@@ -22,5 +22,11 @@ codes: [GEM107, PEN001]
 If a card with 6 or more {p} was pitched to attack with this, the attack gets +1{p}."
 
 Rulings: search "Savage Claw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM107-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN001.webp)
+
+## Images
+
+![GEM107 - Savage Claw](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM107-CF.webp)
+![PEN001 - Savage Claw](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN001.webp)
 
 ## Notes

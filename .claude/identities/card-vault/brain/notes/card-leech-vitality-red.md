@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Leech Vitality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN093.webp)
+
+## Images
+
+![OMN093 - Leech Vitality (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN093.webp)
 
 ## Notes

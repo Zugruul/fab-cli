@@ -31,5 +31,13 @@ Gain 1{h}"
 
 Keywords: [[kw-meld]] · [[kw-go-again]]
 Rulings: search "Arcane Seeds // Life" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS350.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS006.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA024.webp)
+
+## Images
+
+![FLR013 - Arcane Seeds // Life (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR013.webp)
+![LGS350 - Arcane Seeds // Life (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS350.png)
+![ROS006 - Arcane Seeds // Life (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS006.png)
+![SBA024 - Arcane Seeds // Life (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA024.webp)
 
 ## Notes

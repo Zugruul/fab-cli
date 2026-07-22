@@ -24,5 +24,14 @@ If you have played a card from your banished zone this turn, Galaxxi Black gains
 If Galaxxi Black hits a hero, deal 1 arcane damage to that hero."
 
 Rulings: search "Galaxxi Black" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN003.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS046.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON155.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON155-CF.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-MON155.width-450.png)
+
+## Images
+
+![CHN003 - Galaxxi Black](https://storage.googleapis.com/fabmaster/media/images/CHN003.width-450.png)
+![LGS046 - Galaxxi Black](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS046.png)
+![MON155 - Galaxxi Black](https://storage.googleapis.com/fabmaster/media/images/MON155.width-450.png)
+![MON155 - Galaxxi Black](https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON155-CF.png)
+![MON155 - Galaxxi Black](https://storage.googleapis.com/fabmaster/media/images/U-MON155.width-450.png)
 
 ## Notes

@@ -24,5 +24,15 @@ codes: [AST021, ELE183, FAB262, LXI018, SBA032]
 
 Variants: [[card-lightning-press-yellow]] · [[card-lightning-press-blue]]
 Rulings: search "Lightning Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST021.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE183.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE183.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB262.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/LXI018.width-450.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA032.webp)
+
+## Images
+
+![AST021 - Lightning Press (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST021.webp)
+![ELE183 - Lightning Press (red)](https://storage.googleapis.com/fabmaster/media/images/ELE183.width-450.png)
+![ELE183 - Lightning Press (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE183.width-450.png)
+![FAB262 - Lightning Press (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB262.png)
+![LXI018 - Lightning Press (red)](https://storage.googleapis.com/fabmaster/media/images/LXI018.width-450.png)
+![SBA032 - Lightning Press (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA032.webp)
 
 ## Notes

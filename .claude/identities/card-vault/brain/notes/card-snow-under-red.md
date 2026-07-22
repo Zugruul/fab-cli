@@ -31,5 +31,13 @@ If Snow Under was fused, it gains "If this hits a hero, create a Frostbite token
 Keywords: [[kw-fusion]]
 Variants: [[card-snow-under-yellow]] · [[card-snow-under-blue]]
 Rulings: search "Snow Under" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV012.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE022.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE022.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD009.width-450.png)
+
+## Images
+
+![AJV012 - Snow Under (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV012.webp)
+![ELE022 - Snow Under (red)](https://storage.googleapis.com/fabmaster/media/images/ELE022.width-450.png)
+![ELE022 - Snow Under (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE022.width-450.png)
+![OLD009 - Snow Under (red)](https://storage.googleapis.com/fabmaster/media/images/OLD009.width-450.png)
 
 ## Notes

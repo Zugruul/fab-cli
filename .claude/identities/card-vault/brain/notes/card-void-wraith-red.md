@@ -30,5 +30,11 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-void-wraith-yellow]] · [[card-void-wraith-blue]]
 Rulings: search "Void Wraith" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON209.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON209.width-450.png)
+
+## Images
+
+![MON209 - Void Wraith (red)](https://storage.googleapis.com/fabmaster/media/images/MON209.width-450.png)
+![MON209 - Void Wraith (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON209.width-450.png)
 
 ## Notes

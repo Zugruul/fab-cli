@@ -28,5 +28,10 @@ codes: [EVR105]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Swarming Gloomveil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR105.width-450.png)
+
+## Images
+
+![EVR105 - Swarming Gloomveil (red)](https://storage.googleapis.com/fabmaster/media/images/EVR105.width-450.png)
 
 ## Notes

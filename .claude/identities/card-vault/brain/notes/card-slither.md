@@ -24,5 +24,13 @@ Target attack action card gets go again."
 
 Keywords: [[kw-ephemeral]]
 Rulings: search "Slither" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB242.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS267.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST024.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU029.png)
+
+## Images
+
+![FAB242 - Slither](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB242.png)
+![LGS267 - Slither](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS267.png)
+![MST024 - Slither](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST024.png)
+![NUU029 - Slither](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU029.png)
 
 ## Notes

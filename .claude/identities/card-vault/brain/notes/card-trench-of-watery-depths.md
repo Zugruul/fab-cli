@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Trench of Watery Depths" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN168.webp)
+
+## Images
+
+![PEN168 - Trench of Watery Depths](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN168.webp)
 
 ## Notes

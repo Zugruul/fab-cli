@@ -26,5 +26,12 @@ Whenever you attack a Guardian hero, clash with them. The winner creates a Seism
 
 Keywords: [[kw-clash]] · [[kw-protect]]
 Rulings: search "Groundbreaker Crix" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER155-MV.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER155-MV_BACK.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP004.webp)
+
+## Images
+
+![HER155 - Groundbreaker Crix](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER155-MV.webp)
+![HER155 - Groundbreaker Crix](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER155-MV_BACK.webp)
+![SMP004 - Groundbreaker Crix](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP004.webp)
 
 ## Notes

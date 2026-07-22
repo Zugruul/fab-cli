@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sift-red]] · [[card-sift-blue]]
 Rulings: search "Sift" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR198.png)
+
+## Images
+
+![UPR198 - Sift (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR198.png)
 
 ## Notes

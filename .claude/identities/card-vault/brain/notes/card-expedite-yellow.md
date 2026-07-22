@@ -30,5 +30,10 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
 Keywords: [[kw-boost]]
 Variants: [[card-expedite-red]] · [[card-expedite-blue]]
 Rulings: search "Expedite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO199.png)
+
+## Images
+
+![EVO199 - Expedite (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO199.png)
 
 ## Notes

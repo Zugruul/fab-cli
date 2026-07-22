@@ -29,5 +29,11 @@ codes: [GEM011, HNT059]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Demonstrate Devotion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM011.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT059.png)
+
+## Images
+
+![GEM011 - Demonstrate Devotion (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM011.webp)
+![HNT059 - Demonstrate Devotion (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT059.png)
 
 ## Notes

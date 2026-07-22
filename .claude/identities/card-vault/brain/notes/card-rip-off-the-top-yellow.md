@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Rip Off the Top" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN008.webp)
+
+## Images
+
+![PEN008 - Rip Off the Top (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN008.webp)
 
 ## Notes

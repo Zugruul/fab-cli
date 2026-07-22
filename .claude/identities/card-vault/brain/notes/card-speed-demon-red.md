@@ -30,5 +30,11 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
 
 Keywords: [[kw-scrap]]
 Rulings: search "Speed Demon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM166.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN065.webp)
+
+## Images
+
+![GEM166 - Speed Demon (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM166.webp)
+![PEN065 - Speed Demon (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN065.webp)
 
 ## Notes

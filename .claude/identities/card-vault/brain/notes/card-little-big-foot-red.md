@@ -27,5 +27,10 @@ codes: [MPG038]
 
 Variants: [[card-little-big-foot-yellow]] · [[card-little-big-foot-blue]]
 Rulings: search "Little Big Foot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG038.webp)
+
+## Images
+
+![MPG038 - Little Big Foot (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG038.webp)
 
 ## Notes

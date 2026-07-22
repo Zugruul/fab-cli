@@ -27,5 +27,11 @@ codes: [WTR188]
 
 Variants: [[card-raging-onslaught-yellow]] · [[card-raging-onslaught-blue]]
 Rulings: search "Raging Onslaught" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR188.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR188.png)
+
+## Images
+
+![WTR188 - Raging Onslaught (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR188.png)
+![WTR188 - Raging Onslaught (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR188.png)
 
 ## Notes

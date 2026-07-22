@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Richter Scale" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG006.webp)
+
+## Images
+
+![MPG006 - Richter Scale](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG006.webp)
 
 ## Notes

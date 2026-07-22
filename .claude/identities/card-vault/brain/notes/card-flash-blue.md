@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-flash-red]] · [[card-flash-yellow]]
 Rulings: search "Flash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE179.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE179.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS109.png)
+
+## Images
+
+![ELE179 - Flash (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE179.width-450.png)
+![ELE179 - Flash (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE179.width-450.png)
+![ROS109 - Flash (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS109.png)
 
 ## Notes

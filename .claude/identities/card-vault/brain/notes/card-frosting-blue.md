@@ -26,5 +26,11 @@ codes: [SIY026, UPR132]
 
 Variants: [[card-frosting-red]] · [[card-frosting-yellow]]
 Rulings: search "Frosting" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR132.png)
+
+## Images
+
+![SIY026 - Frosting (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY026.webp)
+![UPR132 - Frosting (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR132.png)
 
 ## Notes

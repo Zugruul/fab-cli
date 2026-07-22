@@ -21,5 +21,10 @@ codes: [SMP014]
 Instant - Destroy this: Put a card from your arsenal on the bottom of your deck. If you do, draw a card."
 
 Rulings: search "Bloodied Helm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP014.webp)
+
+## Images
+
+![SMP014 - Bloodied Helm](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP014.webp)
 
 ## Notes

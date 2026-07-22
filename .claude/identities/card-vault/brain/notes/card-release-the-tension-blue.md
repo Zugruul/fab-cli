@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-release-the-tension-red]] · [[card-release-the-tension-yellow]]
 Rulings: search "Release the Tension" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR093.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS098.png)
+
+## Images
+
+![EVR093 - Release the Tension (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR093.width-450.png)
+![LGS098 - Release the Tension (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS098.png)
 
 ## Notes

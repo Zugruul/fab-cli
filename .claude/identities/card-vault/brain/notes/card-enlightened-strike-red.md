@@ -32,5 +32,14 @@ Choose 1;
 
 Keywords: [[kw-go-again]]
 Rulings: search "Enlightened Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP361.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ000-MV.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN320.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR159.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR159.png)
+
+## Images
+
+![1HP361 - Enlightened Strike (red)](https://storage.googleapis.com/fabmaster/media/images/1HP361.width-450.png)
+![ANQ000 - Enlightened Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ000-MV.webp)
+![PEN320 - Enlightened Strike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN320.webp)
+![WTR159 - Enlightened Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR159.png)
+![WTR159 - Enlightened Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR159.png)
 
 ## Notes

@@ -24,5 +24,13 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Bloodsheath Skeleta" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP264.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS004.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU141.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU141.png)
+
+## Images
+
+![1HP264 - Bloodsheath Skeleta](https://storage.googleapis.com/fabmaster/media/images/1HP264.width-450.png)
+![AVS004 - Bloodsheath Skeleta](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS004.webp)
+![CRU141 - Bloodsheath Skeleta](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU141.png)
+![CRU141 - Bloodsheath Skeleta](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU141.png)
 
 ## Notes

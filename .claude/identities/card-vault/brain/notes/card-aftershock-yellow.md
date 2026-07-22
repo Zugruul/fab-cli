@@ -27,5 +27,10 @@ codes: [MPG036]
 
 Variants: [[card-aftershock-red]] · [[card-aftershock-blue]]
 Rulings: search "Aftershock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG036.webp)
+
+## Images
+
+![MPG036 - Aftershock (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG036.webp)
 
 ## Notes

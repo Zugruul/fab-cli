@@ -29,5 +29,13 @@ codes: [DYN059, MST167, TCC090, ZEN012]
 Keywords: [[kw-combo]]
 Variants: [[card-qi-unleashed-yellow]] · [[card-qi-unleashed-blue]]
 Rulings: search "Qi Unleashed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN059.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST167.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC090.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN012.png)
+
+## Images
+
+![DYN059 - Qi Unleashed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN059.png)
+![MST167 - Qi Unleashed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST167.png)
+![TCC090 - Qi Unleashed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC090.png)
+![ZEN012 - Qi Unleashed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN012.png)
 
 ## Notes

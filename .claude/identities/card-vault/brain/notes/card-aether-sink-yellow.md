@@ -26,5 +26,12 @@ Action - {r}: If there are no steam counters on Aether Sink, put a steam counter
 Instant - Remove a steam counter from Aether Sink: Aether Sink gains Arcane Barrier 2 until end of turn."
 
 Rulings: search "Aether Sink" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP199.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC017.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC017.png)
+
+## Images
+
+![1HP199 - Aether Sink (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP199.width-450.png)
+![ARC017 - Aether Sink (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC017.png)
+![ARC017 - Aether Sink (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC017.png)
 
 ## Notes

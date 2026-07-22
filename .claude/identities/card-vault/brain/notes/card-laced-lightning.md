@@ -21,5 +21,10 @@ codes: [OMN144]
 "Instant - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create an Embodiment of Lightning token."
 
 Rulings: search "Laced Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN144.webp)
+
+## Images
+
+![OMN144 - Laced Lightning](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN144.webp)
 
 ## Notes

@@ -31,5 +31,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]] · [[kw-go-again]]
 Variants: [[card-ram-raider-red]] · [[card-ram-raider-blue]]
 Rulings: search "Ram Raider" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD113.png)
+
+## Images
+
+![DTD113 - Ram Raider (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD113.png)
 
 ## Notes

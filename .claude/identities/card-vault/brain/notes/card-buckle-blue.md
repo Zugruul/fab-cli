@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Buckle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN028.png)
+
+## Images
+
+![DYN028 - Buckle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN028.png)
 
 ## Notes

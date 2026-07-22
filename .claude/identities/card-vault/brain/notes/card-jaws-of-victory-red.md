@@ -30,5 +30,10 @@ If you've been cheered this turn, this gets go again."
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-go-again]]
 Rulings: search "Jaws of Victory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP005.webp)
+
+## Images
+
+![SUP005 - Jaws of Victory (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP005.webp)
 
 ## Notes

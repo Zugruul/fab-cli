@@ -29,5 +29,11 @@ codes: [CIN009, HNT064]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Burning Blade Dance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN009.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT064.png)
+
+## Images
+
+![CIN009 - Burning Blade Dance (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN009.webp)
+![HNT064 - Burning Blade Dance (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT064.png)
 
 ## Notes

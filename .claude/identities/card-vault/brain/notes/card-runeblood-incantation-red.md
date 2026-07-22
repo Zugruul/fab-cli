@@ -30,5 +30,11 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
 Keywords: [[kw-go-again]]
 Variants: [[card-runeblood-incantation-yellow]] · [[card-runeblood-incantation-blue]]
 Rulings: search "Runeblood Incantation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR107.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR107-RF.png)
+
+## Images
+
+![EVR107 - Runeblood Incantation (red)](https://storage.googleapis.com/fabmaster/media/images/EVR107.width-450.png)
+![EVR107 - Runeblood Incantation (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR107-RF.png)
 
 ## Notes

@@ -31,5 +31,12 @@ Instant - {r}: This gets go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-path-of-same-ends-yellow]] · [[card-path-of-same-ends-blue]]
 Rulings: search "Path of Same Ends" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM155.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN065.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA016.webp)
+
+## Images
+
+![GEM155 - Path of Same Ends (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM155.webp)
+![OMN065 - Path of Same Ends (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN065.webp)
+![SBA016 - Path of Same Ends (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA016.webp)
 
 ## Notes

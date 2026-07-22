@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]] · [[kw-go-again]]
 Rulings: search "Breakwater Undertow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB007-RF.webp)
+
+## Images
+
+![AGB007 - Breakwater Undertow](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB007-RF.webp)
 
 ## Notes

@@ -30,5 +30,10 @@ If you've hit with a dagger this combat chain, this gets go again."
 Keywords: [[kw-stealth]] · [[kw-go-again]]
 Variants: [[card-knife-through-red]] · [[card-knife-through-yellow]]
 Rulings: search "Knife Through" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN149.webp)
+
+## Images
+
+![PEN149 - Knife Through (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN149.webp)
 
 ## Notes

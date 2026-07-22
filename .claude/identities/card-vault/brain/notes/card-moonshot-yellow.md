@@ -30,5 +30,10 @@ If this has 10 or more {p}, it gets overpower."
 
 Keywords: [[kw-overpower]]
 Rulings: search "Moonshot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO140.png)
+
+## Images
+
+![EVO140 - Moonshot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO140.png)
 
 ## Notes

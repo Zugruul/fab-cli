@@ -29,5 +29,10 @@ When this hits, deal 1 damage to any target."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blow for a Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA216.png)
+
+## Images
+
+![SEA216 - Blow for a Blow (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA216.png)
 
 ## Notes

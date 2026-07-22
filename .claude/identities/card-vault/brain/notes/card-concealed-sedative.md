@@ -23,5 +23,10 @@ While this is equipped face-down, when an attack with {p} greater than its base 
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Concealed Sedative" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN081.webp)
+
+## Images
+
+![PEN081 - Concealed Sedative](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN081.webp)
 
 ## Notes

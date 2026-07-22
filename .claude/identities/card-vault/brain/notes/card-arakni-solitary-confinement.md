@@ -24,5 +24,15 @@ codes: [ARA001, HER079, HER082, HNT262, OUT003]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Arakni, Solitary Confinement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA001.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER079.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER082.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT262.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT262_BACK.png) · [Image #6](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT003.width-450.png)
+
+## Images
+
+![ARA001 - Arakni, Solitary Confinement](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA001.png)
+![HER079 - Arakni, Solitary Confinement](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER079.png)
+![HER082 - Arakni, Solitary Confinement](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER082.png)
+![HNT262 - Arakni, Solitary Confinement](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT262.png)
+![HNT262 - Arakni, Solitary Confinement](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT262_BACK.png)
+![OUT003 - Arakni, Solitary Confinement](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT003.width-450.png)
 
 ## Notes

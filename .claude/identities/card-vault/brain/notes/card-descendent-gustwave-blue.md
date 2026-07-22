@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-descendent-gustwave-red]] · [[card-descendent-gustwave-yellow]]
 Rulings: search "Descendent Gustwave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT076.width-450.png)
+
+## Images
+
+![OUT076 - Descendent Gustwave (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT076.width-450.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Instant - Remove a steam counter from this: Prevent the next 1 damage that would
 Keywords: [[kw-crank]]
 Variants: [[card-dissolving-shield-red]] · [[card-dissolving-shield-blue]]
 Rulings: search "Dissolving Shield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO088.png)
+
+## Images
+
+![EVO088 - Dissolving Shield (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO088.png)
 
 ## Notes

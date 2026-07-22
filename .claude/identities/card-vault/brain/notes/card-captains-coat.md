@@ -21,5 +21,10 @@ codes: [SEA181]
 "Action - Destroy this: Gain {r}. Activate this only if you've drawn a card this turn. Go again"
 
 Rulings: search "Captain's Coat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA181.png)
+
+## Images
+
+![SEA181 - Captain's Coat](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA181.png)
 
 ## Notes

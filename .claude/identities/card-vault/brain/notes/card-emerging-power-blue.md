@@ -29,5 +29,12 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
 Keywords: [[kw-go-again]]
 Variants: [[card-emerging-power-red]] · [[card-emerging-power-yellow]]
 Rulings: search "Emerging Power" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG102.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR071.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR071.png)
+
+## Images
+
+![MPG102 - Emerging Power (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG102.webp)
+![WTR071 - Emerging Power (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR071.png)
+![WTR071 - Emerging Power (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR071.png)
 
 ## Notes

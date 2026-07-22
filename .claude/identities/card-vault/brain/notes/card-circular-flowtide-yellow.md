@@ -28,5 +28,12 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Circular Flowtide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS018.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN033.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN033-CF.webp)
+
+## Images
+
+![AZS018 - Circular Flowtide (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS018.webp)
+![OMN033 - Circular Flowtide (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN033.webp)
+![OMN033 - Circular Flowtide (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN033-CF.webp)
 
 ## Notes

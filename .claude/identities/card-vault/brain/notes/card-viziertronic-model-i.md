@@ -24,5 +24,12 @@ Arcane Barrier 2"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Viziertronic Model i" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP187.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU102.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU102.png)
+
+## Images
+
+![1HP187 - Viziertronic Model i](https://storage.googleapis.com/fabmaster/media/images/1HP187.width-450.png)
+![CRU102 - Viziertronic Model i](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU102.png)
+![CRU102 - Viziertronic Model i](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU102.png)
 
 ## Notes

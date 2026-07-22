@@ -26,5 +26,10 @@ codes: [TCC057]
 "When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones."
 
 Rulings: search "Final Act" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC057.png)
+
+## Images
+
+![TCC057 - Final Act (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC057.png)
 
 ## Notes

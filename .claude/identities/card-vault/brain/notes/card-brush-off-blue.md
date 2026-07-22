@@ -24,5 +24,12 @@ codes: [OMN224, OUT230, ROS236]
 
 Variants: [[card-brush-off-red]] · [[card-brush-off-yellow]]
 Rulings: search "Brush Off" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN224.webp) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT230.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS236.png)
+
+## Images
+
+![OMN224 - Brush Off (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN224.webp)
+![OUT230 - Brush Off (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT230.width-450.png)
+![ROS236 - Brush Off (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS236.png)
 
 ## Notes

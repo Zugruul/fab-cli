@@ -21,5 +21,12 @@ codes: [LSS014, LSS015, LSS016]
 "Action - Destroy this: Gain {r}. Go again"
 
 Rulings: search "Popped Collar Polo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS014.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS015.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS016.png)
+
+## Images
+
+![LSS014 - Popped Collar Polo](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS014.png)
+![LSS015 - Popped Collar Polo](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS015.png)
+![LSS016 - Popped Collar Polo](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS016.png)
 
 ## Notes

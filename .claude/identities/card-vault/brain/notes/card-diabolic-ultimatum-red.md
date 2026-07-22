@@ -25,5 +25,10 @@ codes: [DYN174]
 If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control."
 
 Rulings: search "Diabolic Ultimatum" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN174.png)
+
+## Images
+
+![DYN174 - Diabolic Ultimatum (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN174.png)
 
 ## Notes

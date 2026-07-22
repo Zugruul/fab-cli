@@ -29,5 +29,12 @@ codes: [CRU014]
 Keywords: [[kw-dominate]]
 Variants: [[card-predatory-assault-red]] · [[card-predatory-assault-blue]]
 Rulings: search "Predatory Assault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU014.png)
+
+## Images
+
+![CRU014 - Predatory Assault (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014.png)
+![CRU014 - Predatory Assault (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014-RF.png)
+![CRU014 - Predatory Assault (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU014.png)
 
 ## Notes

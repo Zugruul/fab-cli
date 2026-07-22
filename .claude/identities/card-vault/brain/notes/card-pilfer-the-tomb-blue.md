@@ -26,5 +26,10 @@ Banish target instant from an opposing hero's graveyard.
 Banish target yellow card from an opposing hero's graveyard."
 
 Rulings: search "Pilfer the Tomb" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN329.webp)
+
+## Images
+
+![PEN329 - Pilfer the Tomb (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN329.webp)
 
 ## Notes

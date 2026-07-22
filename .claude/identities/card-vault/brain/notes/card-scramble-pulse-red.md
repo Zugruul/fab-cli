@@ -30,5 +30,10 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-scramble-pulse-yellow]] · [[card-scramble-pulse-blue]]
 Rulings: search "Scramble Pulse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN095.png)
+
+## Images
+
+![DYN095 - Scramble Pulse (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN095.png)
 
 ## Notes

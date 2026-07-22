@@ -27,5 +27,11 @@ codes: [FNG016, HNT111]
 
 Keywords: [[kw-mark]]
 Rulings: search "Searing Gaze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT111.png)
+
+## Images
+
+![FNG016 - Searing Gaze (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG016.webp)
+![HNT111 - Searing Gaze (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT111.png)
 
 ## Notes

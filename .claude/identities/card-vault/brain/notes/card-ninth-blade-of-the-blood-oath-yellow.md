@@ -26,5 +26,12 @@ codes: [ARC082, AVS020]
 "This costs {r} less to play for each Runechant you control."
 
 Rulings: search "Ninth Blade of the Blood Oath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC082.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC082.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS020.webp)
+
+## Images
+
+![ARC082 - Ninth Blade of the Blood Oath (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC082.png)
+![ARC082 - Ninth Blade of the Blood Oath (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC082.png)
+![AVS020 - Ninth Blade of the Blood Oath (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS020.webp)
 
 ## Notes

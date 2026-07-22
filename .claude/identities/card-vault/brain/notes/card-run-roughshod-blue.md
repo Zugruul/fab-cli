@@ -26,5 +26,12 @@ codes: [AKO024, GEM162, SKA030]
 "Play this only if you've discarded a card with 6 or more {p} this turn."
 
 Rulings: search "Run Roughshod" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO024.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM162.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA030.webp)
+
+## Images
+
+![AKO024 - Run Roughshod (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO024.png)
+![GEM162 - Run Roughshod (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM162.webp)
+![SKA030 - Run Roughshod (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA030.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ Instant - Destroy Amulet of Oblation: Until end of turn, target attack action ga
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Oblation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR181.width-450.png)
+
+## Images
+
+![EVR181 - Amulet of Oblation (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR181.width-450.png)
 
 ## Notes

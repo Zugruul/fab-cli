@@ -24,5 +24,10 @@ codes: [EVR187]
 "Instant - Destroy Potion of Luck: Shuffle your hand and arsenal into your deck then draw that many cards."
 
 Rulings: search "Potion of Luck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR187.width-450.png)
+
+## Images
+
+![EVR187 - Potion of Luck (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR187.width-450.png)
 
 ## Notes

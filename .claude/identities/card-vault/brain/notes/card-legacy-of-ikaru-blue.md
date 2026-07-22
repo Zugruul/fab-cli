@@ -24,5 +24,10 @@ codes: [ASR026]
 "Target Ninja attack gets +1{p} and "When this hits, if Edge of Autumn was the last attack this combat chain, draw a card.""
 
 Rulings: search "Legacy of Ikaru" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR026.webp)
+
+## Images
+
+![ASR026 - Legacy of Ikaru (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR026.webp)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [BOL025, MON078]
 
 Variants: [[card-rising-solartide-yellow]] · [[card-rising-solartide-blue]]
 Rulings: search "Rising Solartide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON078.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON078.width-450.png)
+
+## Images
+
+![BOL025 - Rising Solartide (red)](https://storage.googleapis.com/fabmaster/media/images/BOL025.width-450.png)
+![MON078 - Rising Solartide (red)](https://storage.googleapis.com/fabmaster/media/images/MON078.width-450.png)
+![MON078 - Rising Solartide (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON078.width-450.png)
 
 ## Notes

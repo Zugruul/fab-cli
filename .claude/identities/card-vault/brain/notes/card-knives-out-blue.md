@@ -24,5 +24,10 @@ codes: [OUT144]
 "Your daggers gain +1{p} this turn."
 
 Rulings: search "Knives Out" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT144.width-450.png)
+
+## Images
+
+![OUT144 - Knives Out (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT144.width-450.png)
 
 ## Notes

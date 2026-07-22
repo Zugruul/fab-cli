@@ -29,5 +29,11 @@ Crush - When this deals 4 or more damage to a hero, destroy a card in their arse
 
 Keywords: [[kw-crush]]
 Rulings: search "Wee Wrecking Ball" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY023.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP194.webp)
+
+## Images
+
+![SLY023 - Wee Wrecking Ball (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY023.webp)
+![SUP194 - Wee Wrecking Ball (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP194.webp)
 
 ## Notes

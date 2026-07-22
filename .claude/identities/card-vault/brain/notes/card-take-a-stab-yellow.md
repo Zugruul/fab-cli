@@ -25,5 +25,10 @@ codes: [HNT212]
 
 Variants: [[card-take-a-stab-red]] · [[card-take-a-stab-blue]]
 Rulings: search "Take a Stab" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT212.png)
+
+## Images
+
+![HNT212 - Take a Stab (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT212.png)
 
 ## Notes

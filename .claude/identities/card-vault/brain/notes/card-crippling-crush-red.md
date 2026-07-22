@@ -29,5 +29,12 @@ Crush - If Crippling Crush deals 4 or more damage to a hero, they discard 2 rand
 
 Keywords: [[kw-specialization]] · [[kw-crush]]
 Rulings: search "Crippling Crush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP050.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR043.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR043.png)
+
+## Images
+
+![1HP050 - Crippling Crush (red)](https://storage.googleapis.com/fabmaster/media/images/1HP050.width-450.png)
+![WTR043 - Crippling Crush (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR043.png)
+![WTR043 - Crippling Crush (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR043.png)
 
 ## Notes

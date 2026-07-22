@@ -30,5 +30,12 @@ If you've been booed this turn, this gets +2{p}."
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-mocking-blow-red]] · [[card-mocking-blow-yellow]]
 Rulings: search "Mocking Blow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB383-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY028.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP092.webp)
+
+## Images
+
+![FAB383 - Mocking Blow (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB383-RF.webp)
+![SLY028 - Mocking Blow (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY028.webp)
+![SUP092 - Mocking Blow (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP092.webp)
 
 ## Notes

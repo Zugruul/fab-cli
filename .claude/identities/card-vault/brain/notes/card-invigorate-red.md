@@ -28,5 +28,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-invigorate-yellow]] · [[card-invigorate-blue]]
 Rulings: search "Invigorate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE103.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE103.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS080.png)
+
+## Images
+
+![ELE103 - Invigorate (red)](https://storage.googleapis.com/fabmaster/media/images/ELE103.width-450.png)
+![ELE103 - Invigorate (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE103.width-450.png)
+![LGS080 - Invigorate (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS080.png)
 
 ## Notes

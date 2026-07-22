@@ -23,5 +23,14 @@ The first card with watery grave you play from your graveyard each turn gets go 
 
 Keywords: [[kw-go-again]]
 Rulings: search "Compass of Sunken Depths" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB003.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM037-CF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS398.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA045.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB002.webp)
+
+## Images
+
+![AGB003 - Compass of Sunken Depths](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AGB003.webp)
+![GEM037 - Compass of Sunken Depths](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM037-CF.webp)
+![LGS398 - Compass of Sunken Depths](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS398.png)
+![SEA045 - Compass of Sunken Depths](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA045.png)
+![SGB002 - Compass of Sunken Depths](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB002.webp)
 
 ## Notes

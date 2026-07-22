@@ -27,5 +27,10 @@ codes: [SUP032]
 When this defends, if it has 6 or more {d}, the attacking hero puts a card from their arsenal on the bottom of their deck."
 
 Rulings: search "Disperse" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP032.webp)
+
+## Images
+
+![SUP032 - Disperse (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP032.webp)
 
 ## Notes

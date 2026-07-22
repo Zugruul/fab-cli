@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Graven Walkers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN140.webp)
+
+## Images
+
+![PEN140 - Graven Walkers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN140.webp)
 
 ## Notes

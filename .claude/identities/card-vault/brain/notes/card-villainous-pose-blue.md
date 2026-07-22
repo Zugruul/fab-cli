@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-villainous-pose-red]] · [[card-villainous-pose-yellow]]
 Rulings: search "Villainous Pose" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP122.webp)
+
+## Images
+
+![SUP122 - Villainous Pose (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP122.webp)
 
 ## Notes

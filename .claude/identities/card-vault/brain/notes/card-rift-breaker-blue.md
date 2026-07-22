@@ -27,5 +27,10 @@ codes: [OMN157]
 
 Variants: [[card-rift-breaker-red]] · [[card-rift-breaker-yellow]]
 Rulings: search "Rift Breaker" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN157.webp)
+
+## Images
+
+![OMN157 - Rift Breaker (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN157.webp)
 
 ## Notes

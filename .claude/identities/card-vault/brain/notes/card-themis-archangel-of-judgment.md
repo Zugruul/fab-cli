@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Themis, Archangel of Judgment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD006_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD006_BACK_V2.png)
+
+## Images
+
+![DTD006 - Themis, Archangel of Judgment](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD006_BACK.png)
+![DTD006 - Themis, Archangel of Judgment](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD006_BACK_V2.png)
 
 ## Notes

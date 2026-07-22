@@ -25,5 +25,10 @@ codes: [UPR162]
 
 Variants: [[card-rapid-reflex-yellow]] · [[card-rapid-reflex-blue]]
 Rulings: search "Rapid Reflex" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR162.png)
+
+## Images
+
+![UPR162 - Rapid Reflex (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR162.png)
 
 ## Notes

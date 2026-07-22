@@ -29,5 +29,10 @@ When this leaves the arena, your next attack this turn gets +5{p}."
 Keywords: [[kw-suspense]]
 Variants: [[card-act-of-glory-red]] · [[card-act-of-glory-blue]]
 Rulings: search "Act of Glory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP196.webp)
+
+## Images
+
+![SUP196 - Act of Glory (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP196.webp)
 
 ## Notes

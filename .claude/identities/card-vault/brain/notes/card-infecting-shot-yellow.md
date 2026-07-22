@@ -28,5 +28,13 @@ When this hits a hero, create a Bloodrot Pox token under their control."
 
 Variants: [[card-infecting-shot-red]] · [[card-infecting-shot-blue]]
 Rulings: search "Infecting Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT119.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP025.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ030.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP005-MV.webp)
+
+## Images
+
+![OUT119 - Infecting Shot (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT119.width-450.png)
+![RIP025 - Infecting Shot (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP025.png)
+![SAZ030 - Infecting Shot (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ030.webp)
+![TNP005 - Infecting Shot (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP005-MV.webp)
 
 ## Notes

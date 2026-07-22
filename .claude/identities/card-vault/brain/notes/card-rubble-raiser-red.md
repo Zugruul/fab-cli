@@ -29,5 +29,10 @@ codes: [MPG082]
 Keywords: [[kw-heave]]
 Variants: [[card-rubble-raiser-yellow]] · [[card-rubble-raiser-blue]]
 Rulings: search "Rubble Raiser" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG082.webp)
+
+## Images
+
+![MPG082 - Rubble Raiser (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG082.webp)
 
 ## Notes

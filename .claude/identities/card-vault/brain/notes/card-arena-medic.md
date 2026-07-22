@@ -19,5 +19,10 @@ codes: [SMP019]
 If you have no cards in hand, instead gain 3{h}."
 
 Rulings: search "Arena Medic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP019.webp)
+
+## Images
+
+![SMP019 - Arena Medic](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP019.webp)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [SUP061]
 "While this is defending, if you've been cheered this turn, it gets +1{d}."
 
 Rulings: search "Darling of the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP061.webp)
+
+## Images
+
+![SUP061 - Darling of the Crowd (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP061.webp)
 
 ## Notes

@@ -28,5 +28,11 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}."
 
 Variants: [[card-yinti-yanti-red]] · [[card-yinti-yanti-yellow]]
 Rulings: search "Yinti Yanti" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON292.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON292.width-450.png)
+
+## Images
+
+![MON292 - Yinti Yanti (blue)](https://storage.googleapis.com/fabmaster/media/images/MON292.width-450.png)
+![MON292 - Yinti Yanti (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON292.width-450.png)
 
 ## Notes

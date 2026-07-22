@@ -27,5 +27,12 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Pint of Strong and Stout" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET026.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY089.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS246.png)
+
+## Images
+
+![BET026 - Pint of Strong and Stout (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET026.png)
+![HVY089 - Pint of Strong and Stout (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY089.png)
+![LGS246 - Pint of Strong and Stout (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS246.png)
 
 ## Notes

@@ -27,5 +27,11 @@ codes: [CRU193]
 
 Variants: [[card-brutal-assault-red]] · [[card-brutal-assault-blue]]
 Rulings: search "Brutal Assault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU193.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU193.png)
+
+## Images
+
+![CRU193 - Brutal Assault (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU193.png)
+![CRU193 - Brutal Assault (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU193.png)
 
 ## Notes

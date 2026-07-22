@@ -29,5 +29,11 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
 
 Keywords: [[kw-go-again]]
 Rulings: search "Draw a Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS389.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG044.webp)
+
+## Images
+
+![LGS389 - Draw a Crowd (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS389.webp)
+![MPG044 - Draw a Crowd (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG044.webp)
 
 ## Notes

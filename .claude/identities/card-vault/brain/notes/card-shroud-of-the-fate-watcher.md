@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Shroud of the Fate Watcher" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN107.webp)
+
+## Images
+
+![PEN107 - Shroud of the Fate Watcher](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN107.webp)
 
 ## Notes

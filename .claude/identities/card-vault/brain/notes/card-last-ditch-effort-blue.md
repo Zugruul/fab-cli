@@ -28,5 +28,13 @@ codes: [1HP362, JDG017, WTR161]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Last Ditch Effort" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP362.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG017.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR161.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR161.png)
+
+## Images
+
+![1HP362 - Last Ditch Effort (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP362.width-450.png)
+![JDG017 - Last Ditch Effort (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG017.png)
+![WTR161 - Last Ditch Effort (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR161.png)
+![WTR161 - Last Ditch Effort (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR161.png)
 
 ## Notes

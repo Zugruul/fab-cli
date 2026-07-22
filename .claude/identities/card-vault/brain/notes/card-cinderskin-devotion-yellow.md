@@ -30,5 +30,10 @@ codes: [UPR064]
 Keywords: [[kw-go-again]]
 Variants: [[card-cinderskin-devotion-red]] · [[card-cinderskin-devotion-blue]]
 Rulings: search "Cinderskin Devotion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR064.png)
+
+## Images
+
+![UPR064 - Cinderskin Devotion (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR064.png)
 
 ## Notes

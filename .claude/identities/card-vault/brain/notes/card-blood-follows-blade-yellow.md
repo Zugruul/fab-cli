@@ -27,5 +27,10 @@ Target sword attack gets go again and "When this hits, create a Cintari Sellswor
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Blood Follows Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP252.webp)
+
+## Images
+
+![SUP252 - Blood Follows Blade (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP252.webp)
 
 ## Notes

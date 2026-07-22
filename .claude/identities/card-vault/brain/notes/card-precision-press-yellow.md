@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-piercing]]
 Variants: [[card-precision-press-red]] · [[card-precision-press-blue]]
 Rulings: search "Precision Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN077.png)
+
+## Images
+
+![DYN077 - Precision Press (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN077.png)
 
 ## Notes

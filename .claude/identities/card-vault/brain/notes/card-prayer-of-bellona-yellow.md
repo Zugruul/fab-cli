@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-charge]] · [[kw-go-again]]
 Rulings: search "Prayer of Bellona" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD053.png)
+
+## Images
+
+![DTD053 - Prayer of Bellona (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD053.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [ROS102]
 Keywords: [[kw-go-again]]
 Variants: [[card-second-strike-red]] · [[card-second-strike-blue]]
 Rulings: search "Second Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS102.png)
+
+## Images
+
+![ROS102 - Second Strike (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS102.png)
 
 ## Notes

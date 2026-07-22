@@ -28,5 +28,10 @@ codes: [DYN003]
 
 Keywords: [[kw-material]] · [[kw-phantasm]]
 Rulings: search "Dust from the Red Desert" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN003.png)
+
+## Images
+
+![DYN003 - Dust from the Red Desert (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN003.png)
 
 ## Notes

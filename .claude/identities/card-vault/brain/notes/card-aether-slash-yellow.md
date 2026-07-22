@@ -27,5 +27,10 @@ codes: [DYN183]
 
 Variants: [[card-aether-slash-red]] · [[card-aether-slash-blue]]
 Rulings: search "Aether Slash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN183.png)
+
+## Images
+
+![DYN183 - Aether Slash (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN183.png)
 
 ## Notes

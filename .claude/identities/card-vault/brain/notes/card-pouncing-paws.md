@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Pouncing Paws" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA009.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC082.png)
+
+## Images
+
+![SFA009 - Pouncing Paws](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA009.webp)
+![TCC082 - Pouncing Paws](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC082.png)
 
 ## Notes

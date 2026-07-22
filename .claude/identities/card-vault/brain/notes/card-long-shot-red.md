@@ -27,5 +27,10 @@ codes: [DYN165]
 
 Variants: [[card-long-shot-yellow]] · [[card-long-shot-blue]]
 Rulings: search "Long Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN165.png)
+
+## Images
+
+![DYN165 - Long Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN165.png)
 
 ## Notes

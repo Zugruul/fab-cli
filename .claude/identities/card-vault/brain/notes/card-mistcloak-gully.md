@@ -25,5 +25,10 @@ At the beginning of each end phase, destroy this unless you've pitched, played, 
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Mistcloak Gully" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png)
+
+## Images
+
+![MST000 - Mistcloak Gully](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png)
 
 ## Notes

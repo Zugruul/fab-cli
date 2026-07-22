@@ -26,5 +26,12 @@ codes: [LEV026, MON226]
 
 Variants: [[card-smash-with-big-tree-yellow]] · [[card-smash-with-big-tree-blue]]
 Rulings: search "Smash with Big Tree" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/LEV026.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON226.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON226.width-450.png)
+
+## Images
+
+![LEV026 - Smash with Big Tree (red)](https://storage.googleapis.com/fabmaster/media/images/LEV026.width-450.png)
+![MON226 - Smash with Big Tree (red)](https://storage.googleapis.com/fabmaster/media/images/MON226.width-450.png)
+![MON226 - Smash with Big Tree (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON226.width-450.png)
 
 ## Notes

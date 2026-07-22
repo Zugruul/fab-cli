@@ -29,5 +29,11 @@ codes: [EVO065, LGS199]
 Keywords: [[kw-evo-upgrade]]
 Variants: [[card-liquid-cooled-mayhem-red]] · [[card-liquid-cooled-mayhem-blue]]
 Rulings: search "Liquid-Cooled Mayhem" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO065.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS199.png)
+
+## Images
+
+![EVO065 - Liquid-Cooled Mayhem (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO065.png)
+![LGS199 - Liquid-Cooled Mayhem (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS199.png)
 
 ## Notes

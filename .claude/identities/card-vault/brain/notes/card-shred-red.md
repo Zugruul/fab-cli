@@ -25,5 +25,11 @@ codes: [DYN130, TNP013]
 
 Variants: [[card-shred-yellow]] · [[card-shred-blue]]
 Rulings: search "Shred" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN130.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP013-MV.webp)
+
+## Images
+
+![DYN130 - Shred (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN130.png)
+![TNP013 - Shred (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP013-MV.webp)
 
 ## Notes

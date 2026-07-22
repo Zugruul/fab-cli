@@ -25,5 +25,13 @@ Blade Break"
 
 Keywords: [[kw-specialization]] · [[kw-blade-break]]
 Rulings: search "Golden Glare" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY054.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS233.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS244.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC004.png)
+
+## Images
+
+![HVY054 - Golden Glare](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY054.png)
+![LGS233 - Golden Glare](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS233.png)
+![LGS244 - Golden Glare](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS244.png)
+![VIC004 - Golden Glare](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC004.png)
 
 ## Notes

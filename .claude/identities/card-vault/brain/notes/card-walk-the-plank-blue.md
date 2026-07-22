@@ -27,5 +27,10 @@ codes: [SEA237]
 
 Variants: [[card-walk-the-plank-red]] · [[card-walk-the-plank-yellow]]
 Rulings: search "Walk the Plank" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA237.png)
+
+## Images
+
+![SEA237 - Walk the Plank (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA237.png)
 
 ## Notes

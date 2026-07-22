@@ -29,5 +29,11 @@ At the start of your turn, put this into your soul."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Blessing of Bellona" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN181.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN181-CF.webp)
+
+## Images
+
+![PEN181 - Blessing of Bellona (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN181.webp)
+![PEN181 - Blessing of Bellona (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN181-CF.webp)
 
 ## Notes

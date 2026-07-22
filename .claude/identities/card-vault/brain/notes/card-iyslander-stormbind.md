@@ -28,5 +28,13 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
 Keywords: [[kw-essence]]
 Young version: [[card-iyslander]]
 Rulings: search "Iyslander, Stormbind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER060.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER067.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR102.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN019.png)
+
+## Images
+
+![HER060 - Iyslander, Stormbind](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER060.png)
+![HER067 - Iyslander, Stormbind](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER067.png)
+![UPR102 - Iyslander, Stormbind](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR102.png)
+![WIN019 - Iyslander, Stormbind](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN019.png)
 
 ## Notes

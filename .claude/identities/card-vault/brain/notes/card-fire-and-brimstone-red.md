@@ -29,5 +29,12 @@ Daggers you control get +1{p} and you may attack with each of them an additional
 
 Keywords: [[kw-legendary]]
 Rulings: search "Fire and Brimstone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT105.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT105-EA.png)
+
+## Images
+
+![FNG013 - Fire and Brimstone (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG013.webp)
+![HNT105 - Fire and Brimstone (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT105.png)
+![HNT105 - Fire and Brimstone (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT105-EA.png)
 
 ## Notes

@@ -29,5 +29,13 @@ When this leaves the arena, gain 1{h}."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Sigil of Fyendal" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS330.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS230.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS230-MV.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER026.webp)
+
+## Images
+
+![LGS330 - Sigil of Fyendal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS330.png)
+![ROS230 - Sigil of Fyendal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS230.png)
+![ROS230 - Sigil of Fyendal (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS230-MV.png)
+![VER026 - Sigil of Fyendal (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER026.webp)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [DYN060, MST168]
 Keywords: [[kw-combo]]
 Variants: [[card-qi-unleashed-red]] · [[card-qi-unleashed-blue]]
 Rulings: search "Qi Unleashed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN060.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST168.png)
+
+## Images
+
+![DYN060 - Qi Unleashed (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN060.png)
+![MST168 - Qi Unleashed (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST168.png)
 
 ## Notes

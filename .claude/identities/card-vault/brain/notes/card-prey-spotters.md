@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Prey Spotters" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC004-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR003.webp)
+
+## Images
+
+![AAC004 - Prey Spotters](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC004-RF.webp)
+![SAR003 - Prey Spotters](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR003.webp)
 
 ## Notes

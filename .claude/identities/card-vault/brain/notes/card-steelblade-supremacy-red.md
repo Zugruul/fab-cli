@@ -28,5 +28,12 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Steelblade Supremacy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP152.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR119.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR119.png)
+
+## Images
+
+![1HP152 - Steelblade Supremacy (red)](https://storage.googleapis.com/fabmaster/media/images/1HP152.width-450.png)
+![WTR119 - Steelblade Supremacy (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR119.png)
+![WTR119 - Steelblade Supremacy (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR119.png)
 
 ## Notes

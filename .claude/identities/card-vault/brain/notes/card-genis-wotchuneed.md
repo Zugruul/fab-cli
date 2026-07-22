@@ -22,5 +22,11 @@ codes: [EVR085, HER053]
 "Once per Turn Action - {r}{r}: Each other hero may put a card from their hand on the bottom of their deck. If they do, they draw a card and you create a Silver token. If you gain no Silver this way, draw a card. Go again"
 
 Rulings: search "Genis Wotchuneed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR085.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER053.png)
+
+## Images
+
+![EVR085 - Genis Wotchuneed](https://storage.googleapis.com/fabmaster/media/images/EVR085.width-450.png)
+![HER053 - Genis Wotchuneed](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER053.png)
 
 ## Notes

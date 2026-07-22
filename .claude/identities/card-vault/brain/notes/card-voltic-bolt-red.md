@@ -25,5 +25,15 @@ codes: [1HP335, ARC147, LGS016, LGS041, SBZ018]
 
 Variants: [[card-voltic-bolt-yellow]] · [[card-voltic-bolt-blue]]
 Rulings: search "Voltic Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP335.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC147.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC147.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS016.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS041.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ018.webp)
+
+## Images
+
+![1HP335 - Voltic Bolt (red)](https://storage.googleapis.com/fabmaster/media/images/1HP335.width-450.png)
+![ARC147 - Voltic Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC147.png)
+![ARC147 - Voltic Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC147.png)
+![LGS016 - Voltic Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS016.png)
+![LGS041 - Voltic Bolt (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS041.png)
+![SBZ018 - Voltic Bolt (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ018.webp)
 
 ## Notes

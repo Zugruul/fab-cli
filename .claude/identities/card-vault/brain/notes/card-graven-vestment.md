@@ -25,5 +25,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Graven Vestment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN138.webp)
+
+## Images
+
+![PEN138 - Graven Vestment](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN138.webp)
 
 ## Notes

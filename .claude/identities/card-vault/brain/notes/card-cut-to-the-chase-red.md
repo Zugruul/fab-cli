@@ -26,5 +26,12 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
 
 Variants: [[card-cut-to-the-chase-yellow]] · [[card-cut-to-the-chase-blue]]
 Rulings: search "Cut to the Chase" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK014.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN148.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS113.png)
+
+## Images
+
+![ARK014 - Cut to the Chase (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK014.webp)
+![DYN148 - Cut to the Chase (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN148.png)
+![LGS113 - Cut to the Chase (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS113.png)
 
 ## Notes

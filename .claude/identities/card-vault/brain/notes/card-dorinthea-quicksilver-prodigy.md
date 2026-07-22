@@ -22,5 +22,14 @@ codes: [DDD001, DVR001, HER167, MPW001]
 "The first time your Dawnblade, Resplendent's attack gets go again each turn, you may attack an additional time with it this turn."
 
 Rulings: search "Dorinthea, Quicksilver Prodigy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR001.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER167-MV.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER167-MV_BACK.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW001.webp)
+
+## Images
+
+![DDD001 - Dorinthea, Quicksilver Prodigy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD001.webp)
+![DVR001 - Dorinthea, Quicksilver Prodigy](https://storage.googleapis.com/fabmaster/media/images/DVR001.width-450.png)
+![HER167 - Dorinthea, Quicksilver Prodigy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER167-MV.webp)
+![HER167 - Dorinthea, Quicksilver Prodigy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER167-MV_BACK.webp)
+![MPW001 - Dorinthea, Quicksilver Prodigy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW001.webp)
 
 ## Notes

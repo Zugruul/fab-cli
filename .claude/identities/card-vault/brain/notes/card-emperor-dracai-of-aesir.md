@@ -24,5 +24,12 @@ codes: [DYN001]
 Action - {r}{r}{r}: Search your deck for Command and Conquer, attack with it, then shuffle."
 
 Rulings: search "Emperor, Dracai of Aesir" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN001.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN001_Marvel.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN001_Marvel_Back.png)
+
+## Images
+
+![DYN001 - Emperor, Dracai of Aesir](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN001.png)
+![DYN001 - Emperor, Dracai of Aesir](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN001_Marvel.png)
+![DYN001 - Emperor, Dracai of Aesir](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN001_Marvel_Back.png)
 
 ## Notes

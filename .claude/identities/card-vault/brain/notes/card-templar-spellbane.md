@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Templar Spellbane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN043.webp)
+
+## Images
+
+![PEN043 - Templar Spellbane](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN043.webp)
 
 ## Notes

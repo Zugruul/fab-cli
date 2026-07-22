@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Civic Duty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS208.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC031.png)
+
+## Images
+
+![LGS208 - Civic Duty](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS208.png)
+![TCC031 - Civic Duty](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC031.png)
 
 ## Notes

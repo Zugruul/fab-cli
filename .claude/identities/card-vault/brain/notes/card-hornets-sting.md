@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Hornet's Sting" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN152.png)
+
+## Images
+
+![DYN152 - Hornet's Sting](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN152.png)
 
 ## Notes

@@ -21,5 +21,13 @@ codes: [FAB150, MON243, RVD005]
 "When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Gauntlet.""
 
 Rulings: search "Ironhide Gauntlet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB150.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON243.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON243.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/RVD005.width-450.png)
+
+## Images
+
+![FAB150 - Ironhide Gauntlet](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB150.png)
+![MON243 - Ironhide Gauntlet](https://storage.googleapis.com/fabmaster/media/images/MON243.width-450.png)
+![MON243 - Ironhide Gauntlet](https://storage.googleapis.com/fabmaster/media/images/U-MON243.width-450.png)
+![RVD005 - Ironhide Gauntlet](https://storage.googleapis.com/fabmaster/media/images/RVD005.width-450.png)
 
 ## Notes

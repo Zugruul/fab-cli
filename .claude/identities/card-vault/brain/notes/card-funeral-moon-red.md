@@ -30,5 +30,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Funeral Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD140.png)
+
+## Images
+
+![DTD140 - Funeral Moon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD140.png)
 
 ## Notes

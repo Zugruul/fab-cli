@@ -29,5 +29,10 @@ Whenever a card defends this, clash with the defending hero. The winner creates 
 
 Keywords: [[kw-clash]]
 Rulings: search "Fix the Match" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP082.webp)
+
+## Images
+
+![SUP082 - Fix the Match (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP082.webp)
 
 ## Notes

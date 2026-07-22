@@ -25,5 +25,11 @@ codes: [LGS222, TCC069]
 "Each other hero puts an attack action card from their graveyard on the bottom of their deck."
 
 Rulings: search "Song of Yesteryears" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS222.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC069.png)
+
+## Images
+
+![LGS222 - Song of Yesteryears (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS222.png)
+![TCC069 - Song of Yesteryears (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC069.png)
 
 ## Notes

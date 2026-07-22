@@ -27,5 +27,11 @@ codes: [MON073]
 
 Variants: [[card-illuminate-red]] · [[card-illuminate-blue]]
 Rulings: search "Illuminate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON073.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON073.width-450.png)
+
+## Images
+
+![MON073 - Illuminate (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON073.width-450.png)
+![MON073 - Illuminate (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON073.width-450.png)
 
 ## Notes

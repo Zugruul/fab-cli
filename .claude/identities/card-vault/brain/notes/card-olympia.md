@@ -23,5 +23,14 @@ codes: [HVY093, MPW006, OLA001]
 
 Adult version: [[card-olympia-prized-fighter]]
 Rulings: search "Olympia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY093.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY093_MARVEL.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY093_MARVEL_BACK.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW006.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA001.png)
+
+## Images
+
+![HVY093 - Olympia](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY093.png)
+![HVY093 - Olympia](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY093_MARVEL.png)
+![HVY093 - Olympia](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY093_MARVEL_BACK.png)
+![MPW006 - Olympia](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW006.webp)
+![OLA001 - Olympia](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA001.png)
 
 ## Notes

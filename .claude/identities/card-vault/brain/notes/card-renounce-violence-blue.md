@@ -23,5 +23,10 @@ codes: [SUP025]
 "Destroy up to 3 Might tokens. Create a Toughness token for each token destroyed this way."
 
 Rulings: search "Renounce Violence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP025.webp)
+
+## Images
+
+![SUP025 - Renounce Violence (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP025.webp)
 
 ## Notes

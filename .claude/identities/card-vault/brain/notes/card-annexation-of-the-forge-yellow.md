@@ -28,5 +28,11 @@ codes: [MPG031]
 
 Keywords: [[kw-crush]]
 Rulings: search "Annexation of the Forge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG031.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG031-RF.webp)
+
+## Images
+
+![MPG031 - Annexation of the Forge (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG031.webp)
+![MPG031 - Annexation of the Forge (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG031-RF.webp)
 
 ## Notes

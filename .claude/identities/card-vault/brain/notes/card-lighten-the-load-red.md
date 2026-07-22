@@ -29,5 +29,11 @@ codes: [GEM168, PEN171]
 Keywords: [[kw-go-again]]
 Variants: [[card-lighten-the-load-yellow]] · [[card-lighten-the-load-blue]]
 Rulings: search "Lighten the Load" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM168.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN171.webp)
+
+## Images
+
+![GEM168 - Lighten the Load (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM168.webp)
+![PEN171 - Lighten the Load (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN171.webp)
 
 ## Notes

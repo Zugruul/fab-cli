@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Gauntlets of Iron Will" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB181.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY053.png)
+
+## Images
+
+![FAB181 - Gauntlets of Iron Will](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB181.png)
+![HVY053 - Gauntlets of Iron Will](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY053.png)
 
 ## Notes

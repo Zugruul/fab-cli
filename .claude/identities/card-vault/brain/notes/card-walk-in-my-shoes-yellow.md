@@ -30,5 +30,11 @@ Crush - When this deals 4 or more damage to a hero, until the end of their next 
 
 Keywords: [[kw-crush]]
 Rulings: search "Walk in My Shoes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN298.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY022.webp)
+
+## Images
+
+![PEN298 - Walk in My Shoes (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN298.webp)
+![SLY022 - Walk in My Shoes (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY022.webp)
 
 ## Notes

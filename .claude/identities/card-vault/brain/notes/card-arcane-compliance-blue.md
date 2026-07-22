@@ -23,5 +23,10 @@ codes: [SEA261]
 "Until end of turn, effects can't increase arcane damage that target action card on the stack would deal."
 
 Rulings: search "Arcane Compliance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA261.png)
+
+## Images
+
+![SEA261 - Arcane Compliance (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA261.png)
 
 ## Notes

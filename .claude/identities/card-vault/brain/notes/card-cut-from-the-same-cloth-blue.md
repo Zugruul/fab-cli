@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-mark]] · [[kw-go-again]]
 Variants: [[card-cut-from-the-same-cloth-red]] · [[card-cut-from-the-same-cloth-yellow]]
 Rulings: search "Cut from the Same Cloth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT204.png)
+
+## Images
+
+![HNT204 - Cut from the Same Cloth (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT204.png)
 
 ## Notes

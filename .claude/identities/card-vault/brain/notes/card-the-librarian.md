@@ -21,5 +21,11 @@ codes: [FAB043, PSM002]
 While The Librarian is face up in arsenal, once per turn when you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on him, banish him, search your deck for a specialization card, put it face up into arsenal, and shuffle."
 
 Rulings: search "The Librarian" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB043.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/PSM002_The_Librarian.width-10000.png)
+
+## Images
+
+![FAB043 - The Librarian](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB043.png)
+![PSM002 - The Librarian](https://storage.googleapis.com/fabmaster/media/images/PSM002_The_Librarian.width-10000.png)
 
 ## Notes

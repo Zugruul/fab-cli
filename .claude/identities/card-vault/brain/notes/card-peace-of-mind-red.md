@@ -25,5 +25,12 @@ Create a Ponder token."
 
 Variants: [[card-peace-of-mind-yellow]] · [[card-peace-of-mind-blue]]
 Rulings: search "Peace of Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB131.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT231.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU016.png)
+
+## Images
+
+![FAB131 - Peace of Mind (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB131.png)
+![OUT231 - Peace of Mind (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT231.width-450.png)
+![UZU016 - Peace of Mind (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU016.png)
 
 ## Notes

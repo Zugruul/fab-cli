@@ -25,5 +25,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Starfield Carapace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS004-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN249-CF.webp)
+
+## Images
+
+![AZS004 - Starfield Carapace](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS004-RF.webp)
+![OMN249 - Starfield Carapace](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN249-CF.webp)
 
 ## Notes

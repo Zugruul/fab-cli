@@ -23,5 +23,16 @@ codes: [AOL001, HER107, HER170, HVY092, WIN032]
 
 Young version: [[card-olympia]]
 Rulings: search "Olympia, Prized Fighter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER107.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER170.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY092.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY092_MARVEL.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY092_MARVEL_BACK.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN032.png)
+
+## Images
+
+![AOL001 - Olympia, Prized Fighter](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL001.webp)
+![HER107 - Olympia, Prized Fighter](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER107.png)
+![HER170 - Olympia, Prized Fighter](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER170.webp)
+![HVY092 - Olympia, Prized Fighter](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY092.png)
+![HVY092 - Olympia, Prized Fighter](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY092_MARVEL.png)
+![HVY092 - Olympia, Prized Fighter](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY092_MARVEL_BACK.png)
+![WIN032 - Olympia, Prized Fighter](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN032.png)
 
 ## Notes

@@ -29,5 +29,11 @@ codes: [SEA167]
 Keywords: [[kw-high-tide]]
 Variants: [[card-swiftwater-sloop-red]] · [[card-swiftwater-sloop-blue]]
 Rulings: search "Swiftwater Sloop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA167.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA167_V2.png)
+
+## Images
+
+![SEA167 - Swiftwater Sloop (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA167.png)
+![SEA167 - Swiftwater Sloop (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA167_V2.png)
 
 ## Notes

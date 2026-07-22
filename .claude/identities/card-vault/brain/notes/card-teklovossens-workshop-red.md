@@ -28,5 +28,12 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 2 
 Keywords: [[kw-opt]]
 Variants: [[card-teklovossens-workshop-yellow]] · [[card-teklovossens-workshop-blue]]
 Rulings: search "Teklovossen's Workshop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU115.png)
+
+## Images
+
+![CRU115 - Teklovossen's Workshop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115.png)
+![CRU115 - Teklovossen's Workshop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115-RF.png)
+![CRU115 - Teklovossen's Workshop (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU115.png)
 
 ## Notes

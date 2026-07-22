@@ -29,5 +29,11 @@ At the beginning of your action phase, destroy this, then your next attack this 
 Keywords: [[kw-go-again]]
 Variants: [[card-strong-yield-yellow]] · [[card-strong-yield-blue]]
 Rulings: search "Strong Yield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR017.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS064.png)
+
+## Images
+
+![FLR017 - Strong Yield (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR017.webp)
+![ROS064 - Strong Yield (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS064.png)
 
 ## Notes

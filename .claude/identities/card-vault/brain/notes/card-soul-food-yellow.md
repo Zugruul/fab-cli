@@ -24,5 +24,11 @@ codes: [MON064]
 "Put Soul Food and all cards in your hand into your hero's soul."
 
 Rulings: search "Soul Food" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON064.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON064.width-450.png)
+
+## Images
+
+![MON064 - Soul Food (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON064.width-450.png)
+![MON064 - Soul Food (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON064.width-450.png)
 
 ## Notes

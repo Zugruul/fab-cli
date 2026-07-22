@@ -24,5 +24,10 @@ codes: [EVO233]
 
 Variants: [[card-teklonetic-force-field-red]] · [[card-teklonetic-force-field-yellow]]
 Rulings: search "Teklonetic Force Field" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO233.png)
+
+## Images
+
+![EVO233 - Teklonetic Force Field (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO233.png)
 
 ## Notes

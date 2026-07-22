@@ -25,5 +25,10 @@ codes: [DYN093]
 When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item."
 
 Rulings: search "Plasma Mainline" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN093.png)
+
+## Images
+
+![DYN093 - Plasma Mainline (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN093.png)
 
 ## Notes

@@ -24,5 +24,13 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Mask of Momentum" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP095.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB005.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR079.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR079.png)
+
+## Images
+
+![1HP095 - Mask of Momentum](https://storage.googleapis.com/fabmaster/media/images/1HP095.width-450.png)
+![FAB005 - Mask of Momentum](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB005.png)
+![WTR079 - Mask of Momentum](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR079.png)
+![WTR079 - Mask of Momentum](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR079.png)
 
 ## Notes

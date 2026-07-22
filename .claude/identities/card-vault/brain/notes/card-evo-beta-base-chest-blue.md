@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Beta Base Chest" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN069.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN069-MV.webp)
+
+## Images
+
+![PEN069 - Evo Beta Base Chest (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN069.webp)
+![PEN069 - Evo Beta Base Chest (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN069-MV.webp)
 
 ## Notes

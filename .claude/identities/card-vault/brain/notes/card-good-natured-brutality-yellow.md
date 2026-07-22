@@ -29,5 +29,11 @@ codes: [SUP004]
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Good Natured Brutality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP004.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP004-CF.webp)
+
+## Images
+
+![SUP004 - Good Natured Brutality (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP004.webp)
+![SUP004 - Good Natured Brutality (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP004-CF.webp)
 
 ## Notes

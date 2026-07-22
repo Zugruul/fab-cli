@@ -30,5 +30,10 @@ When this attacks, if it scrapped a card, you may play your next Evo this turn a
 Keywords: [[kw-scrap]]
 Variants: [[card-scrap-compactor-yellow]] · [[card-scrap-compactor-blue]]
 Rulings: search "Scrap Compactor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO129.png)
+
+## Images
+
+![EVO129 - Scrap Compactor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO129.png)
 
 ## Notes

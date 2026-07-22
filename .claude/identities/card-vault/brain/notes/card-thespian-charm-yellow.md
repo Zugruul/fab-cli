@@ -29,5 +29,12 @@ codes: [APS014, FAB371, LGS423, SUP013]
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Thespian Charm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS014.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB371-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP013.webp)
+
+## Images
+
+![APS014 - Thespian Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS014.webp)
+![FAB371 - Thespian Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB371-MV.webp)
+![SUP013 - Thespian Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP013.webp)
 
 ## Notes

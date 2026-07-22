@@ -25,5 +25,10 @@ codes: [OUT043]
 
 Variants: [[card-razors-edge-red]] · [[card-razors-edge-blue]]
 Rulings: search "Razor's Edge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT043.width-450.png)
+
+## Images
+
+![OUT043 - Razor's Edge (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT043.width-450.png)
 
 ## Notes

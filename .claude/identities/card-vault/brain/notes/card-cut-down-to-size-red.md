@@ -27,5 +27,11 @@ codes: [OUT201, UZU009]
 
 Variants: [[card-cut-down-to-size-yellow]] · [[card-cut-down-to-size-blue]]
 Rulings: search "Cut Down to Size" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT201.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU009.png)
+
+## Images
+
+![OUT201 - Cut Down to Size (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT201.width-450.png)
+![UZU009 - Cut Down to Size (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU009.png)
 
 ## Notes

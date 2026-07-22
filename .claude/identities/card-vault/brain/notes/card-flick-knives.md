@@ -24,5 +24,13 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Flick Knives" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB124.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT139.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP244.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP244-RF.webp)
+
+## Images
+
+![FAB124 - Flick Knives](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB124.png)
+![OUT139 - Flick Knives](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT139.width-450.png)
+![SUP244 - Flick Knives](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP244.webp)
+![SUP244 - Flick Knives](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP244-RF.webp)
 
 ## Notes

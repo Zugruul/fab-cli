@@ -29,5 +29,11 @@ Deal 1 arcane damage to any target."
 
 Keywords: [[kw-meld]]
 Rulings: search "Vaporize // Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS346.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS011.png)
+
+## Images
+
+![LGS346 - Vaporize // Shock (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS346.png)
+![ROS011 - Vaporize // Shock (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS011.png)
 
 ## Notes

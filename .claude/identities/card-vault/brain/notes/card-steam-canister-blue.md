@@ -24,5 +24,11 @@ codes: [AIO027, EVO077]
 "Instant - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with crank."
 
 Rulings: search "Steam Canister" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO027.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO077.png)
+
+## Images
+
+![AIO027 - Steam Canister (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO027.webp)
+![EVO077 - Steam Canister (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO077.png)
 
 ## Notes

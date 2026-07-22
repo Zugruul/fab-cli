@@ -29,5 +29,12 @@ codes: [EVR028, LGS088, MPG042]
 Keywords: [[kw-dominate]]
 Variants: [[card-macho-grande-red]] · [[card-macho-grande-blue]]
 Rulings: search "Macho Grande" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR028.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS088.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG042.webp)
+
+## Images
+
+![EVR028 - Macho Grande (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR028.width-450.png)
+![LGS088 - Macho Grande (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS088.png)
+![MPG042 - Macho Grande (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG042.webp)
 
 ## Notes

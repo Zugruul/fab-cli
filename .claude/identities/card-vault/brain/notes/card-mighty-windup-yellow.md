@@ -27,5 +27,12 @@ codes: [HVY144, RHI018, VIC015]
 
 Variants: [[card-mighty-windup-red]] · [[card-mighty-windup-blue]]
 Rulings: search "Mighty Windup" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY144.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR018.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC015.png)
+
+## Images
+
+![HVY144 - Mighty Windup (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY144.png)
+![RHI018 - Mighty Windup (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR018.png)
+![VIC015 - Mighty Windup (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC015.png)
 
 ## Notes

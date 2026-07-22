@@ -28,5 +28,11 @@ When this enters the arena, deal 1 arcane damage to any target."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Figment of Ravages" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008_V2.png)
+
+## Images
+
+![DTD008 - Figment of Ravages (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008.png)
+![DTD008 - Figment of Ravages (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD008_V2.png)
 
 ## Notes

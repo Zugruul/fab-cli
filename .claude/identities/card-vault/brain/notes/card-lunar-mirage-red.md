@@ -30,5 +30,10 @@ Mirage"
 
 Keywords: [[kw-go-again]] · [[kw-mirage]]
 Rulings: search "Lunar Mirage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN127.webp)
+
+## Images
+
+![PEN127 - Lunar Mirage (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN127.webp)
 
 ## Notes

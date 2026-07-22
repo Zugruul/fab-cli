@@ -21,5 +21,10 @@ codes: [EVR087]
 Arrows you control have "Defense reactions can't be played from hand this chain link.""
 
 Rulings: search "Dreadbore" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR087.width-450.png)
+
+## Images
+
+![EVR087 - Dreadbore](https://storage.googleapis.com/fabmaster/media/images/EVR087.width-450.png)
 
 ## Notes

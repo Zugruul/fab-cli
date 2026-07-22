@@ -22,5 +22,11 @@ codes: [HER103, TCC049]
 "Whenever you play a song, create Copper tokens equal to the number of other heroes in the game."
 
 Rulings: search "Melody, Sing-along" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER103.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC049.png)
+
+## Images
+
+![HER103 - Melody, Sing-along](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER103.png)
+![TCC049 - Melody, Sing-along](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC049.png)
 
 ## Notes

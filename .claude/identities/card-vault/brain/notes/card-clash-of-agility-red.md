@@ -29,5 +29,12 @@ codes: [AKO008, HVY157, SKA012]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-agility-yellow]] · [[card-clash-of-agility-blue]]
 Rulings: search "Clash of Agility" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO008.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY157.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA012.webp)
+
+## Images
+
+![AKO008 - Clash of Agility (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO008.png)
+![HVY157 - Clash of Agility (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY157.png)
+![SKA012 - Clash of Agility (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA012.webp)
 
 ## Notes

@@ -32,5 +32,13 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Variants: [[card-strength-of-sequoia-red]] · [[card-strength-of-sequoia-yellow]]
 Rulings: search "Strength of Sequoia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE030.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE030.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OLD023.width-450.png)
+
+## Images
+
+![AJV023 - Strength of Sequoia (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV023.webp)
+![ELE030 - Strength of Sequoia (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE030.width-450.png)
+![ELE030 - Strength of Sequoia (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE030.width-450.png)
+![OLD023 - Strength of Sequoia (blue)](https://storage.googleapis.com/fabmaster/media/images/OLD023.width-450.png)
 
 ## Notes

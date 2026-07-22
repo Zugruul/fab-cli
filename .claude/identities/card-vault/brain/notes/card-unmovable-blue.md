@@ -25,5 +25,14 @@ codes: [1HP413, SEN030, UZU027, WTR214]
 
 Variants: [[card-unmovable-red]] · [[card-unmovable-yellow]]
 Rulings: search "Unmovable" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP413.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN030.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU027.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR214.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR214.png)
+
+## Images
+
+![1HP413 - Unmovable (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP413.width-450.png)
+![SEN030 - Unmovable (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN030.webp)
+![UZU027 - Unmovable (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU027.png)
+![WTR214 - Unmovable (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR214.png)
+![WTR214 - Unmovable (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR214.png)
 
 ## Notes

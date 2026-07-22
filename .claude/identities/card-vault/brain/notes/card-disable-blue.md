@@ -29,5 +29,17 @@ codes: [1HP057, BDD013, BVO019, MPG075, SBR029, TCC047, WTR050]
 Keywords: [[kw-crush]]
 Variants: [[card-disable-red]] · [[card-disable-yellow]]
 Rulings: search "Disable" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP057.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD013.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/BVO19.width-450.png) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG075.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR029.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC047.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR050.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR050.png)
+
+## Images
+
+![1HP057 - Disable (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP057.width-450.png)
+![BDD013 - Disable (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD013.webp)
+![BVO019 - Disable (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO19.width-450.png)
+![MPG075 - Disable (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG075.webp)
+![SBR029 - Disable (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR029.webp)
+![TCC047 - Disable (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC047.png)
+![WTR050 - Disable (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR050.png)
+![WTR050 - Disable (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR050.png)
 
 ## Notes

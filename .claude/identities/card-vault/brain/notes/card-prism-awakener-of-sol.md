@@ -25,5 +25,15 @@ Once per Turn Instant - {r}{r}, banish a card from Prism's soul: Awaken target f
 
 Young version: [[card-prism]]
 Rulings: search "Prism, Awakener of Sol" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD001.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM069-CF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM069-CF_BACK.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER086.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER111.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN023.png)
+
+## Images
+
+![DTD001 - Prism, Awakener of Sol](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD001.png)
+![GEM069 - Prism, Awakener of Sol](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM069-CF.webp)
+![GEM069 - Prism, Awakener of Sol](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM069-CF_BACK.webp)
+![HER086 - Prism, Awakener of Sol](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER086.png)
+![HER111 - Prism, Awakener of Sol](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER111.png)
+![WIN023 - Prism, Awakener of Sol](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN023.png)
 
 ## Notes

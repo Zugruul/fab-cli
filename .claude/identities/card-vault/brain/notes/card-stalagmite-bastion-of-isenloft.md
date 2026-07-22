@@ -24,5 +24,11 @@ codes: [EVR018, FAB078]
 
 Keywords: [[kw-temper]]
 Rulings: search "Stalagmite, Bastion of Isenloft" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR018.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB078.png)
+
+## Images
+
+![EVR018 - Stalagmite, Bastion of Isenloft](https://storage.googleapis.com/fabmaster/media/images/EVR018.width-450.png)
+![FAB078 - Stalagmite, Bastion of Isenloft](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB078.png)
 
 ## Notes

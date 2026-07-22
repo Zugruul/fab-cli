@@ -30,5 +30,11 @@ If Frontline Scout is played from arsenal, it gains go again."
 Keywords: [[kw-go-again]]
 Variants: [[card-frontline-scout-red]] · [[card-frontline-scout-blue]]
 Rulings: search "Frontline Scout" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON273.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON273.width-450.png)
+
+## Images
+
+![MON273 - Frontline Scout (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON273.width-450.png)
+![MON273 - Frontline Scout (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON273.width-450.png)
 
 ## Notes

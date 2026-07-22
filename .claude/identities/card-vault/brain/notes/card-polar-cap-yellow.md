@@ -29,5 +29,10 @@ Deal 3 arcane damage to any target. If Polar Cap was fused and deals damage to a
 Keywords: [[kw-fusion]]
 Variants: [[card-polar-cap-red]] · [[card-polar-cap-blue]]
 Rulings: search "Polar Cap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR123.png)
+
+## Images
+
+![UPR123 - Polar Cap (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR123.png)
 
 ## Notes

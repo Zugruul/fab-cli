@@ -27,5 +27,11 @@ codes: [MON206]
 
 Variants: [[card-lunartide-plunderer-yellow]] · [[card-lunartide-plunderer-blue]]
 Rulings: search "Lunartide Plunderer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON206.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON206.width-450.png)
+
+## Images
+
+![MON206 - Lunartide Plunderer (red)](https://storage.googleapis.com/fabmaster/media/images/MON206.width-450.png)
+![MON206 - Lunartide Plunderer (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON206.width-450.png)
 
 ## Notes

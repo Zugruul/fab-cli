@@ -26,5 +26,10 @@ Action - {t}, reveal a card with Tome in its name from your inventory: Put it in
 
 Keywords: [[kw-go-again]]
 Rulings: search "The Librarian, Magister of History" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/JDG062-CF.webp)
+
+## Images
+
+![JDG062 - The Librarian, Magister of History](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/JDG062-CF.webp)
 
 ## Notes

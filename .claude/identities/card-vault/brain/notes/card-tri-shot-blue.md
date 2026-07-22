@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tri-shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR089.width-450.png)
+
+## Images
+
+![EVR089 - Tri-shot (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR089.width-450.png)
 
 ## Notes

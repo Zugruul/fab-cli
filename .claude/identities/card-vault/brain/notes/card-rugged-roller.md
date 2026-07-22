@@ -22,5 +22,10 @@ codes: [DTD199]
 Activate Rugged Roller only if you've rolled a 6 on a die this turn."
 
 Rulings: search "Rugged Roller" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD199.png)
+
+## Images
+
+![DTD199 - Rugged Roller](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD199.png)
 
 ## Notes

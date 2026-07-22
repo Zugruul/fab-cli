@@ -27,5 +27,10 @@ codes: [ROS136]
 
 Variants: [[card-arcanic-spike-red]] · [[card-arcanic-spike-yellow]]
 Rulings: search "Arcanic Spike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS136.png)
+
+## Images
+
+![ROS136 - Arcanic Spike (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS136.png)
 
 ## Notes

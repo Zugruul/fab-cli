@@ -28,5 +28,12 @@ The first time you would be dealt damage each turn, prevent 1 of that damage."
 
 Keywords: [[kw-suspense]]
 Rulings: search "To Be Continued..." at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS027.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP208.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP208-CF.webp)
+
+## Images
+
+![APS027 - To Be Continued... (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS027.webp)
+![SUP208 - To Be Continued... (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP208.webp)
+![SUP208 - To Be Continued... (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP208-CF.webp)
 
 ## Notes

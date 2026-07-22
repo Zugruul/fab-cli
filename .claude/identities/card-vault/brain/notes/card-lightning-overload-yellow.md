@@ -29,5 +29,10 @@ Starfall - If an instant card has been put into your graveyard this turn, create
 Keywords: [[kw-starfall]]
 Variants: [[card-lightning-overload-red]] · [[card-lightning-overload-blue]]
 Rulings: search "Lightning Overload" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN116.webp)
+
+## Images
+
+![OMN116 - Lightning Overload (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN116.webp)
 
 ## Notes

@@ -31,5 +31,11 @@ When you attack with Blossoming Spellblade, if it was fused, deal 1 arcane damag
 
 Keywords: [[kw-fusion]]
 Rulings: search "Blossoming Spellblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE064.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE064_Blossoming_Spellblade.width-10000.png)
+
+## Images
+
+![ELE064 - Blossoming Spellblade (red)](https://storage.googleapis.com/fabmaster/media/images/ELE064.width-450.png)
+![ELE064 - Blossoming Spellblade (red)](https://storage.googleapis.com/fabmaster/media/images/ELE064_Blossoming_Spellblade.width-10000.png)
 
 ## Notes

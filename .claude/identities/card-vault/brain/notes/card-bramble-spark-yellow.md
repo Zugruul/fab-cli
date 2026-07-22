@@ -31,5 +31,11 @@ Go again"
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Variants: [[card-bramble-spark-red]] · [[card-bramble-spark-blue]]
 Rulings: search "Bramble Spark" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE086.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE086.width-450.png)
+
+## Images
+
+![ELE086 - Bramble Spark (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE086.width-450.png)
+![ELE086 - Bramble Spark (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE086.width-450.png)
 
 ## Notes

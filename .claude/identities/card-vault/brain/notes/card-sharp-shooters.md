@@ -24,5 +24,11 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Sharp Shooters" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG033.png)
+
+## Images
+
+![AAZ006 - Sharp Shooters](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ006.png)
+![JDG033 - Sharp Shooters](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG033.png)
 
 ## Notes

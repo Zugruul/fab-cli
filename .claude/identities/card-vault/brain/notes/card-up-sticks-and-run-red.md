@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-retrieve]]
 Variants: [[card-up-sticks-and-run-yellow]] · [[card-up-sticks-and-run-blue]]
 Rulings: search "Up Sticks and Run" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT179.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR027.webp)
+
+## Images
+
+![HNT179 - Up Sticks and Run (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT179.png)
+![SAR027 - Up Sticks and Run (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR027.webp)
 
 ## Notes

@@ -23,5 +23,10 @@ While this is equipped face-down, when an attack with go again hits you, destroy
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Concealed Nerve Gas" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN079.webp)
+
+## Images
+
+![PEN079 - Concealed Nerve Gas](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN079.webp)
 
 ## Notes

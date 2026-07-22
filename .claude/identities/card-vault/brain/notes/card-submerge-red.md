@@ -27,5 +27,11 @@ codes: [GEM128, PEN174]
 
 Variants: [[card-submerge-yellow]] · [[card-submerge-blue]]
 Rulings: search "Submerge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM128.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN174.webp)
+
+## Images
+
+![GEM128 - Submerge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM128.webp)
+![PEN174 - Submerge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN174.webp)
 
 ## Notes

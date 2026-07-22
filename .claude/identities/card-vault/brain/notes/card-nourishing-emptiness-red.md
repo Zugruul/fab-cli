@@ -28,5 +28,12 @@ codes: [JDG027, MON246]
 
 Keywords: [[kw-dominate]]
 Rulings: search "Nourishing Emptiness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG027.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON246.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON246.width-450.png)
+
+## Images
+
+![JDG027 - Nourishing Emptiness (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG027.png)
+![MON246 - Nourishing Emptiness (red)](https://storage.googleapis.com/fabmaster/media/images/MON246.width-450.png)
+![MON246 - Nourishing Emptiness (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON246.width-450.png)
 
 ## Notes

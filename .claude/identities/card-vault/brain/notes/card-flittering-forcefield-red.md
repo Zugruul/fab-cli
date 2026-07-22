@@ -25,5 +25,11 @@ codes: [GEM173, OMN181]
 
 Variants: [[card-flittering-forcefield-yellow]] · [[card-flittering-forcefield-blue]]
 Rulings: search "Flittering Forcefield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM173.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN181.webp)
+
+## Images
+
+![GEM173 - Flittering Forcefield (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM173.webp)
+![OMN181 - Flittering Forcefield (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN181.webp)
 
 ## Notes

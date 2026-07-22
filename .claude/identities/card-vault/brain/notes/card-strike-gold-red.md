@@ -27,5 +27,11 @@ codes: [GEM064, SEA229]
 
 Variants: [[card-strike-gold-yellow]] · [[card-strike-gold-blue]]
 Rulings: search "Strike Gold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM064.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA229.png)
+
+## Images
+
+![GEM064 - Strike Gold (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM064.webp)
+![SEA229 - Strike Gold (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA229.png)
 
 ## Notes

@@ -25,5 +25,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]] · [[kw-arcane-barrier]]
 Rulings: search "Grimoire of the Haunt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD136.png)
+
+## Images
+
+![DTD136 - Grimoire of the Haunt](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD136.png)
 
 ## Notes

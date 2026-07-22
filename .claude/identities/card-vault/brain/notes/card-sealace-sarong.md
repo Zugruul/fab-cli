@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]] · [[kw-go-again]]
 Rulings: search "Sealace Sarong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB338-GF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095_V2.png)
+
+## Images
+
+![FAB338 - Sealace Sarong](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB338-GF.webp)
+![SEA095 - Sealace Sarong](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png)
+![SEA095 - Sealace Sarong](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095_V2.png)
 
 ## Notes

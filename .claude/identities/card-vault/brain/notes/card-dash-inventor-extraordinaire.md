@@ -23,5 +23,17 @@ codes: [1HP180, ARC001, CRU098, HER009, HER017, WIN005]
 
 Young version: [[card-dash]]
 Rulings: search "Dash, Inventor Extraordinaire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP180.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC001.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC001.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU098.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU098.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER009.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER017.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN005.png)
+
+## Images
+
+![1HP180 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/media/images/1HP180.width-450.png)
+![ARC001 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC001.png)
+![ARC001 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC001.png)
+![CRU098 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU098.png)
+![CRU098 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU098.png)
+![HER009 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER009.png)
+![HER017 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER017.png)
+![WIN005 - Dash, Inventor Extraordinaire](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN005.png)
 
 ## Notes

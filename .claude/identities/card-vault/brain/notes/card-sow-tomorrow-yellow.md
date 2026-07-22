@@ -29,5 +29,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-sow-tomorrow-red]] · [[card-sow-tomorrow-blue]]
 Rulings: search "Sow Tomorrow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE141.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE141.width-450.png)
+
+## Images
+
+![ELE141 - Sow Tomorrow (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE141.width-450.png)
+![ELE141 - Sow Tomorrow (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE141.width-450.png)
 
 ## Notes

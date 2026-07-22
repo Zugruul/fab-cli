@@ -29,5 +29,10 @@ Ward X, where X is the number of steam counters on this."
 Keywords: [[kw-crank]] · [[kw-ward]]
 Variants: [[card-mini-forcefield-red]] · [[card-mini-forcefield-yellow]]
 Rulings: search "Mini Forcefield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO095.png)
+
+## Images
+
+![EVO095 - Mini Forcefield (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO095.png)
 
 ## Notes

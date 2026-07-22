@@ -28,5 +28,11 @@ codes: [FAB380, SUP081]
 
 Keywords: [[kw-intimidate]]
 Rulings: search "Bully Tactics" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB380-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP081.webp)
+
+## Images
+
+![FAB380 - Bully Tactics (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB380-CF.webp)
+![SUP081 - Bully Tactics (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP081.webp)
 
 ## Notes

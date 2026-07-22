@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Codex of Inertia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT161.width-450.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/EN_OUT_marvels_v1.0_FINAL_noopw3.width-450.png)
+
+## Images
+
+![OUT161 - Codex of Inertia (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT161.width-450.png)
+![OUT161 - Codex of Inertia (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/EN_OUT_marvels_v1.0_FINAL_noopw3.width-450.png)
 
 ## Notes

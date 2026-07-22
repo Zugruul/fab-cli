@@ -26,5 +26,13 @@ codes: [CIN007, FAB309, HNT075, SFA010]
 "When this attacks, if it is Draconic, deal 2 damage to any target."
 
 Rulings: search "Art of the Dragon: Fire" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN007.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB309.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT075.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA010.webp)
+
+## Images
+
+![CIN007 - Art of the Dragon: Fire (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN007.webp)
+![FAB309 - Art of the Dragon: Fire (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB309.png)
+![HNT075 - Art of the Dragon: Fire (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT075.png)
+![SFA010 - Art of the Dragon: Fire (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA010.webp)
 
 ## Notes

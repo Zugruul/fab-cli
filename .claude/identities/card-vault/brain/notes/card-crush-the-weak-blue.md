@@ -29,5 +29,13 @@ codes: [CRU034, MPG069, SBR027]
 Keywords: [[kw-crush]]
 Variants: [[card-crush-the-weak-red]] · [[card-crush-the-weak-yellow]]
 Rulings: search "Crush the Weak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU034.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU034.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG069.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR027.webp)
+
+## Images
+
+![CRU034 - Crush the Weak (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU034.png)
+![CRU034 - Crush the Weak (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU034.png)
+![MPG069 - Crush the Weak (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG069.webp)
+![SBR027 - Crush the Weak (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR027.webp)
 
 ## Notes

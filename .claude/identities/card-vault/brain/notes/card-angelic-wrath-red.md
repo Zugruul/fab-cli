@@ -25,5 +25,11 @@ codes: [DTD035, LGS161]
 
 Variants: [[card-angelic-wrath-yellow]] · [[card-angelic-wrath-blue]]
 Rulings: search "Angelic Wrath" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD035.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/23_07_armorykit_LGS161.width-10000.png)
+
+## Images
+
+![DTD035 - Angelic Wrath (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD035.png)
+![LGS161 - Angelic Wrath (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/23_07_armorykit_LGS161.width-10000.png)
 
 ## Notes

@@ -29,5 +29,10 @@ codes: [MST176]
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-breed-anger-yellow]] · [[card-breed-anger-blue]]
 Rulings: search "Breed Anger" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png)
+
+## Images
+
+![MST176 - Breed Anger (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png)
 
 ## Notes

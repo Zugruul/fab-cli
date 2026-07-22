@@ -28,5 +28,11 @@ When this enters the arena, target defending action card gets +3{d} this chain l
 Keywords: [[kw-suspense]]
 Variants: [[card-dramatic-pause-yellow]] · [[card-dramatic-pause-blue]]
 Rulings: search "Dramatic Pause" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS436.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP198.webp)
+
+## Images
+
+![LGS436 - Dramatic Pause (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS436.webp)
+![SUP198 - Dramatic Pause (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP198.webp)
 
 ## Notes

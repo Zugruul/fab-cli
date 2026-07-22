@@ -20,5 +20,10 @@ codes: [SMP023]
 
 Keywords: [[kw-dominate]]
 Rulings: search "Dominate the Competition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP023.webp)
+
+## Images
+
+![SMP023 - Dominate the Competition](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP023.webp)
 
 ## Notes

@@ -24,5 +24,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Beaten Trackers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN006.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA009.webp)
+
+## Images
+
+![AKO006 - Beaten Trackers](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO006.png)
+![DYN006 - Beaten Trackers](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN006.png)
+![SKA009 - Beaten Trackers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA009.webp)
 
 ## Notes

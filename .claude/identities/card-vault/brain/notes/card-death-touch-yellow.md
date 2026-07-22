@@ -28,5 +28,10 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 
 Variants: [[card-death-touch-red]] · [[card-death-touch-blue]]
 Rulings: search "Death Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT163.width-450.png)
+
+## Images
+
+![OUT163 - Death Touch (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT163.width-450.png)
 
 ## Notes

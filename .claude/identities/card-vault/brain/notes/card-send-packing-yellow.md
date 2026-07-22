@@ -26,5 +26,10 @@ codes: [HVY012]
 "When this attacks a hero, banish a card from their arsenal. When the chain link resolves, if this didn't hit, return the banished card to its owner's hand."
 
 Rulings: search "Send Packing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY012.png)
+
+## Images
+
+![HVY012 - Send Packing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY012.png)
 
 ## Notes

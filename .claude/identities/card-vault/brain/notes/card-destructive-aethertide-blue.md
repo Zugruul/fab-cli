@@ -27,5 +27,10 @@ Surge - If this deals more than 1 damage to a hero, destroy a card in their arse
 
 Keywords: [[kw-surge]]
 Rulings: search "Destructive Aethertide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS166.png)
+
+## Images
+
+![ROS166 - Destructive Aethertide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS166.png)
 
 ## Notes

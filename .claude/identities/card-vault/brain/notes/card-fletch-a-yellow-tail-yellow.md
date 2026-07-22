@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Fletch a Yellow Tail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT110.width-450.png)
+
+## Images
+
+![OUT110 - Fletch a Yellow Tail (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT110.width-450.png)
 
 ## Notes

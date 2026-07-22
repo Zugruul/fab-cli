@@ -26,5 +26,11 @@ codes: [LGS301, MST081]
 "If you've transcended this turn, this gets "When this chain link resolves, draw a card.""
 
 Rulings: search "Second Tenet of Chi: Moon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS301-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png)
+
+## Images
+
+![LGS301 - Second Tenet of Chi: Moon (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS301-RF.webp)
+![MST081 - Second Tenet of Chi: Moon (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png)
 
 ## Notes

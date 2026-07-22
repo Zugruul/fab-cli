@@ -30,5 +30,10 @@ codes: [TER011]
 Keywords: [[kw-bond]] · [[kw-overpower]]
 Variants: [[card-log-fall-yellow]]
 Rulings: search "Log Fall" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER011.webp)
+
+## Images
+
+![TER011 - Log Fall (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER011.webp)
 
 ## Notes

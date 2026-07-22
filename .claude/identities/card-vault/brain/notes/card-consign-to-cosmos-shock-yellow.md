@@ -30,5 +30,10 @@ Deal 1 arcane damage to any target."
 
 Keywords: [[kw-meld]]
 Rulings: search "Consign to Cosmos // Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA259.png)
+
+## Images
+
+![SEA259 - Consign to Cosmos // Shock (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA259.png)
 
 ## Notes

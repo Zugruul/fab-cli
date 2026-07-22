@@ -25,5 +25,15 @@ Once per Turn Instant - {r}{r}{r}: Return a Phoenix Flame from your graveyard to
 
 Adult version: [[card-fai-rising-rebellion]]
 Rulings: search "Fai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI001-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER061.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN348-MV.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN348-MV_BACK.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA001.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR045.png)
+
+## Images
+
+![FAI001 - Fai](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI001-RF.webp)
+![HER061 - Fai](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER061.png)
+![PEN348 - Fai](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN348-MV.webp)
+![PEN348 - Fai](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN348-MV_BACK.webp)
+![SFA001 - Fai](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA001.webp)
+![UPR045 - Fai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR045.png)
 
 ## Notes

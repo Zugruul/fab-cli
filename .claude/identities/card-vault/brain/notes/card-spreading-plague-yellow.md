@@ -24,5 +24,10 @@ codes: [OUT014]
 "Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link."
 
 Rulings: search "Spreading Plague" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT014.width-450.png)
+
+## Images
+
+![OUT014 - Spreading Plague (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT014.width-450.png)
 
 ## Notes

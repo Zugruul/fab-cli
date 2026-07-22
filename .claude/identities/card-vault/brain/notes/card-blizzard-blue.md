@@ -23,5 +23,11 @@ codes: [ELE147]
 "Target attack loses and can't gain go again unless its controller pays {r}{r}."
 
 Rulings: search "Blizzard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE147.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE147.width-450.png)
+
+## Images
+
+![ELE147 - Blizzard (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE147.width-450.png)
+![ELE147 - Blizzard (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE147.width-450.png)
 
 ## Notes

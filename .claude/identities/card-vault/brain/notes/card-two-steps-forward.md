@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Two Steps Forward" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN033.webp)
+
+## Images
+
+![PEN033 - Two Steps Forward](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN033.webp)
 
 ## Notes

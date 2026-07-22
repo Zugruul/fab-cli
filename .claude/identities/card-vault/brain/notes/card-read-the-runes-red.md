@@ -25,5 +25,15 @@ codes: [1HP294, ARC109, AVS017, SVI023]
 
 Variants: [[card-read-the-runes-yellow]] · [[card-read-the-runes-blue]]
 Rulings: search "Read the Runes" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP294.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC109.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS017.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI023.webp)
+
+## Images
+
+![1HP294 - Read the Runes (red)](https://storage.googleapis.com/fabmaster/media/images/1HP294.width-450.png)
+![ARC109 - Read the Runes (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109.png)
+![ARC109 - Read the Runes (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109-RF.png)
+![ARC109 - Read the Runes (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC109.png)
+![AVS017 - Read the Runes (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS017.webp)
+![SVI023 - Read the Runes (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI023.webp)
 
 ## Notes

@@ -28,5 +28,12 @@ The first card with cost 1 or more you play each turn costs {r} less to play."
 
 Keywords: [[kw-suspense]]
 Rulings: search "What Happens Next?" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS029.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP209.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP209-CF.webp)
+
+## Images
+
+![APS029 - What Happens Next? (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS029.webp)
+![SUP209 - What Happens Next? (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP209.webp)
+![SUP209 - What Happens Next? (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP209-CF.webp)
 
 ## Notes

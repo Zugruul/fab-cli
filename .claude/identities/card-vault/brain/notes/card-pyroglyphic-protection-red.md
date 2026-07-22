@@ -27,5 +27,10 @@ At the beginning of your action phase, destroy Pyroglyphic Protection."
 
 Variants: [[card-pyroglyphic-protection-yellow]] · [[card-pyroglyphic-protection-blue]]
 Rulings: search "Pyroglyphic Protection" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR131.width-450.png)
+
+## Images
+
+![EVR131 - Pyroglyphic Protection (red)](https://storage.googleapis.com/fabmaster/media/images/EVR131.width-450.png)
 
 ## Notes

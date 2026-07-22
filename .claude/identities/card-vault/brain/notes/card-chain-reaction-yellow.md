@@ -25,5 +25,10 @@ codes: [HNT253]
 "When this defends an attack with go again, you may turn a non-attack action card in your arsenal face-up. If you do, you may play it this turn as though it were an instant."
 
 Rulings: search "Chain Reaction" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT253.png)
+
+## Images
+
+![HNT253 - Chain Reaction (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT253.png)
 
 ## Notes

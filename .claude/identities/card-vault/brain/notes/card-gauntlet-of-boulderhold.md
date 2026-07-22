@@ -24,5 +24,10 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Gauntlet of Boulderhold" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG007.webp)
+
+## Images
+
+![MPG007 - Gauntlet of Boulderhold](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG007.webp)
 
 ## Notes

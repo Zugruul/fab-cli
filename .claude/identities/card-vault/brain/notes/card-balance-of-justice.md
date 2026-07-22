@@ -24,5 +24,13 @@ Guardwell"
 
 Keywords: [[kw-guardwell]]
 Rulings: search "Balance of Justice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ004-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB183.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN309.webp)
+
+## Images
+
+![ANQ004 - Balance of Justice](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ004-RF.webp)
+![FAB183 - Balance of Justice](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB183.png)
+![HVY195 - Balance of Justice](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png)
+![PEN309 - Balance of Justice](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN309.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [PEN285]
 "If you have less {h} than each other hero, this card's base {p} is 6, otherwise it's 0."
 
 Rulings: search "Tough as a Rok" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN285.webp)
+
+## Images
+
+![PEN285 - Tough as a Rok (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN285.webp)
 
 ## Notes

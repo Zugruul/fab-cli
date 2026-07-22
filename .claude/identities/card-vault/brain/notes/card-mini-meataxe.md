@@ -22,5 +22,12 @@ codes: [HVY007, KYO002, LGS238]
 When this attacks, draw a card then discard a random card."
 
 Rulings: search "Mini Meataxe" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY007.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO002.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS238.png)
+
+## Images
+
+![HVY007 - Mini Meataxe](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY007.png)
+![KYO002 - Mini Meataxe](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO002.png)
+![LGS238 - Mini Meataxe](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS238.png)
 
 ## Notes

@@ -27,5 +27,16 @@ codes: [1HP405, ANQ033, ARC200, FAB024, FAB487, JDG016]
 Keywords: [[kw-opt]]
 Variants: [[card-fate-foreseen-yellow]] · [[card-fate-foreseen-blue]]
 Rulings: search "Fate Foreseen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP405.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ033.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC200.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC200.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB024.png) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB487-RF.webp) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG016.png)
+
+## Images
+
+![1HP405 - Fate Foreseen (red)](https://storage.googleapis.com/fabmaster/media/images/1HP405.width-450.png)
+![ANQ033 - Fate Foreseen (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ033.webp)
+![ARC200 - Fate Foreseen (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC200.png)
+![ARC200 - Fate Foreseen (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC200.png)
+![FAB024 - Fate Foreseen (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB024.png)
+![FAB487 - Fate Foreseen (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB487-RF.webp)
+![JDG016 - Fate Foreseen (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG016.png)
 
 ## Notes

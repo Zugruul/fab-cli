@@ -27,5 +27,11 @@ Legend of the Watery Grave"
 
 Keywords: [[kw-legendary]] · [[kw-watery-grave]]
 Rulings: search "Ruby Amulet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA196.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA196_V2.png)
+
+## Images
+
+![SEA196 - Ruby Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA196.png)
+![SEA196 - Ruby Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA196_V2.png)
 
 ## Notes

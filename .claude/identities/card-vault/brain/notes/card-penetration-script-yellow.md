@@ -28,5 +28,10 @@ Your Mechanologist attack action cards get +1{p}."
 
 Keywords: [[kw-crank]]
 Rulings: search "Penetration Script" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO079.png)
+
+## Images
+
+![EVO079 - Penetration Script (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO079.png)
 
 ## Notes

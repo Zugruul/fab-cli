@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Rend Flesh" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN050.webp)
+
+## Images
+
+![PEN050 - Rend Flesh (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN050.webp)
 
 ## Notes

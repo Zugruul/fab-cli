@@ -30,5 +30,10 @@ codes: [TER008]
 Keywords: [[kw-bond]]
 Variants: [[card-bracken-rap-yellow]]
 Rulings: search "Bracken Rap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER008.webp)
+
+## Images
+
+![TER008 - Bracken Rap (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER008.webp)
 
 ## Notes

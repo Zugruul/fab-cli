@@ -20,5 +20,10 @@ codes: [ASB004]
 "Instant - Destroy this, banish a card from your soul: Yellow cards cost you {r} less to play this turn."
 
 Rulings: search "Solar Plexus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB004.png)
+
+## Images
+
+![ASB004 - Solar Plexus](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB004.png)
 
 ## Notes

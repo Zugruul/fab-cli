@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Heavy Industry Power Plant" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO004-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG032.png)
+
+## Images
+
+![AIO004 - Heavy Industry Power Plant](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO004-RF.webp)
+![JDG032 - Heavy Industry Power Plant](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG032.png)
 
 ## Notes

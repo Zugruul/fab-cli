@@ -30,5 +30,13 @@ Boost"
 Keywords: [[kw-boost]]
 Variants: [[card-combustible-courier-red]] · [[card-combustible-courier-blue]]
 Rulings: search "Combustible Courier" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP203.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU110.png)
+
+## Images
+
+![1HP203 - Combustible Courier (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP203.width-450.png)
+![CRU110 - Combustible Courier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110.png)
+![CRU110 - Combustible Courier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110-RF.png)
+![CRU110 - Combustible Courier (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU110.png)
 
 ## Notes

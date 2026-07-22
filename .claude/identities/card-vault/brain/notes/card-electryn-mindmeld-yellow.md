@@ -30,5 +30,10 @@ The first time this deals damage to a hero, you may put an instant card from you
 
 Keywords: [[kw-quickstrike]]
 Rulings: search "Electryn Mindmeld" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN054.webp)
+
+## Images
+
+![OMN054 - Electryn Mindmeld (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN054.webp)
 
 ## Notes

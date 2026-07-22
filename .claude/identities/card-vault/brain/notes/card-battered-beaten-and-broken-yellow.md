@@ -29,5 +29,10 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
 
 Keywords: [[kw-intimidate]]
 Rulings: search "Battered, Beaten, and Broken" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP083.webp)
+
+## Images
+
+![SUP083 - Battered, Beaten, and Broken (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP083.webp)
 
 ## Notes

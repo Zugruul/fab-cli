@@ -23,5 +23,10 @@ codes: [EVR090]
 "Arrows have +2{p} while attacking this turn."
 
 Rulings: search "Rain Razors" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR090.width-450.png)
+
+## Images
+
+![EVR090 - Rain Razors (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR090.width-450.png)
 
 ## Notes

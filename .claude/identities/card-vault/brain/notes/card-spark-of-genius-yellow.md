@@ -28,5 +28,13 @@ If you have boosted this turn, draw a card."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Spark of Genius" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP191.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC009.png)
+
+## Images
+
+![1HP191 - Spark of Genius (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP191.width-450.png)
+![ARC009 - Spark of Genius (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009.png)
+![ARC009 - Spark of Genius (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009-RF.png)
+![ARC009 - Spark of Genius (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC009.png)
 
 ## Notes

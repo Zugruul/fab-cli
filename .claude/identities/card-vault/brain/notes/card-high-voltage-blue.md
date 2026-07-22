@@ -25,5 +25,10 @@ codes: [ROS078]
 
 Keywords: [[kw-amp]]
 Rulings: search "High Voltage" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS078.png)
+
+## Images
+
+![ROS078 - High Voltage (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS078.png)
 
 ## Notes

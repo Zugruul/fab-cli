@@ -23,5 +23,10 @@ codes: [ROS120]
 "Instant - Discard this: Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Runechant token."
 
 Rulings: search "Haunting Rendition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS120.png)
+
+## Images
+
+![ROS120 - Haunting Rendition (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS120.png)
 
 ## Notes

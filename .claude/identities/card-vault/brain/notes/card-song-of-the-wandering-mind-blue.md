@@ -25,5 +25,11 @@ codes: [LGS221, TCC068]
 "Each other hero draws a card."
 
 Rulings: search "Song of the Wandering Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS221.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC068.png)
+
+## Images
+
+![LGS221 - Song of the Wandering Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS221.png)
+![TCC068 - Song of the Wandering Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC068.png)
 
 ## Notes

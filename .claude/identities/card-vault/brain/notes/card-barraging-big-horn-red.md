@@ -30,5 +30,11 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
 Keywords: [[kw-go-again]]
 Variants: [[card-barraging-big-horn-yellow]] · [[card-barraging-big-horn-blue]]
 Rulings: search "Barraging Big Horn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU010.png)
+
+## Images
+
+![CRU010 - Barraging Big Horn (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU010.png)
+![CRU010 - Barraging Big Horn (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU010.png)
 
 ## Notes

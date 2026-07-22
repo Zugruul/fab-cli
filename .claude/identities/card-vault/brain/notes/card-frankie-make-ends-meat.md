@@ -23,5 +23,10 @@ codes: [LSS021]
 Action - {r}{r}{r}, {t}: Equip an equipment from a graveyard. Go again"
 
 Rulings: search "Frankie, Make Ends Meat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS021.webp)
+
+## Images
+
+![LSS021 - Frankie, Make Ends Meat](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS021.webp)
 
 ## Notes

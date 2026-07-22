@@ -27,5 +27,11 @@ Legend of the Watery Grave"
 
 Keywords: [[kw-legendary]] · [[kw-watery-grave]]
 Rulings: search "Opal Amulet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA192.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA192_V2.png)
+
+## Images
+
+![SEA192 - Opal Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA192.png)
+![SEA192 - Opal Amulet (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA192_V2.png)
 
 ## Notes

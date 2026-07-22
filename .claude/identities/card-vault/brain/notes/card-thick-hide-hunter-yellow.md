@@ -26,5 +26,11 @@ codes: [HNT246]
 "When this attacks or defends, discard a random card."
 
 Rulings: search "Thick Hide Hunter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT246.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT246-EA.png)
+
+## Images
+
+![HNT246 - Thick Hide Hunter (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT246.png)
+![HNT246 - Thick Hide Hunter (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT246-EA.png)
 
 ## Notes

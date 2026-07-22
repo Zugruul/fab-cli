@@ -25,5 +25,20 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Fyendal's Spring Tunic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP341.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ006-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU178.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU178.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO249.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB001.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB002.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS011_BACK.png) · [Image #9](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN311.webp) · [Image #10](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR150.png) · [Image #11](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR150.png)
+
+## Images
+
+![1HP341 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/media/images/1HP341.width-450.png)
+![ANQ006 - Fyendal's Spring Tunic](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ006-RF.webp)
+![CRU178 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU178.png)
+![CRU178 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU178.png)
+![EVO249 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO249.png)
+![FAB001 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB001.png)
+![FAB002 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB002.png)
+![LSS011 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS011_BACK.png)
+![PEN311 - Fyendal's Spring Tunic](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN311.webp)
+![WTR150 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR150.png)
+![WTR150 - Fyendal's Spring Tunic](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR150.png)
 
 ## Notes

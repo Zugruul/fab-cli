@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-wind-chakra-yellow]] · [[card-wind-chakra-blue]]
 Rulings: search "Wind Chakra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS265.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST054.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN016.png)
+
+## Images
+
+![LGS265 - Wind Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS265.png)
+![MST054 - Wind Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST054.png)
+![ZEN016 - Wind Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN016.png)
 
 ## Notes

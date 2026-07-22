@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Vow of Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN003.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG003.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT144.png)
+
+## Images
+
+![CIN003 - Vow of Vengeance](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/CIN003.webp)
+![FNG003 - Vow of Vengeance](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG003.webp)
+![HNT144 - Vow of Vengeance](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT144.png)
 
 ## Notes

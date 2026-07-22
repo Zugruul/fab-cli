@@ -27,5 +27,13 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "Stir the Pot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS288-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST101.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST101_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN027.png)
+
+## Images
+
+![LGS288 - Stir the Pot (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS288-RF.webp)
+![MST101 - Stir the Pot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST101.png)
+![MST101 - Stir the Pot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST101_V2.png)
+![ZEN027 - Stir the Pot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN027.png)
 
 ## Notes

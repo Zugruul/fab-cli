@@ -26,5 +26,12 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
 Instant - Destroy Dissipation Shield: The next time your hero would be dealt damage this turn, prevent X damage, where X is the number of steam counters on Dissipation Shield."
 
 Rulings: search "Dissipation Shield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP217.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC035.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC035.png)
+
+## Images
+
+![1HP217 - Dissipation Shield (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP217.width-450.png)
+![ARC035 - Dissipation Shield (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC035.png)
+![ARC035 - Dissipation Shield (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC035.png)
 
 ## Notes

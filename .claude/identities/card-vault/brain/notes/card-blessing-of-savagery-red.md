@@ -26,5 +26,10 @@ codes: [DYN013]
 
 Variants: [[card-blessing-of-savagery-yellow]] · [[card-blessing-of-savagery-blue]]
 Rulings: search "Blessing of Savagery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN013.png)
+
+## Images
+
+![DYN013 - Blessing of Savagery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN013.png)
 
 ## Notes

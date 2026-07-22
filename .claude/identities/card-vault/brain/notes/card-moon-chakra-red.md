@@ -25,5 +25,11 @@ codes: [LGS263, MST034]
 
 Variants: [[card-moon-chakra-yellow]] · [[card-moon-chakra-blue]]
 Rulings: search "Moon Chakra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS263.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST034.png)
+
+## Images
+
+![LGS263 - Moon Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS263.png)
+![MST034 - Moon Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST034.png)
 
 ## Notes

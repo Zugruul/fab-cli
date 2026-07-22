@@ -29,5 +29,10 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone."
 
 Keywords: [[kw-fusion]]
 Rulings: search "Frozen to Death" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV020.webp)
+
+## Images
+
+![AJV020 - Frozen to Death (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AJV020.webp)
 
 ## Notes

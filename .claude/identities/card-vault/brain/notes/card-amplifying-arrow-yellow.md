@@ -26,5 +26,10 @@ codes: [OUT100]
 "While Amplifying Arrow is face up in any zone, if it would gain {p}, instead it gains that much plus 1."
 
 Rulings: search "Amplifying Arrow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT100.width-450.png)
+
+## Images
+
+![OUT100 - Amplifying Arrow (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT100.width-450.png)
 
 ## Notes

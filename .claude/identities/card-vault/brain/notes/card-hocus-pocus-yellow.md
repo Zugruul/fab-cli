@@ -27,5 +27,10 @@ codes: [ROS144]
 
 Variants: [[card-hocus-pocus-red]] · [[card-hocus-pocus-blue]]
 Rulings: search "Hocus Pocus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS144.png)
+
+## Images
+
+![ROS144 - Hocus Pocus (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS144.png)
 
 ## Notes

@@ -28,5 +28,11 @@ When this hits a hero, create an Inertia token under their control."
 
 Variants: [[card-sedation-shot-red]] · [[card-sedation-shot-yellow]]
 Rulings: search "Sedation Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL024.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT126.width-450.png)
+
+## Images
+
+![AZL024 - Sedation Shot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL024.png)
+![OUT126 - Sedation Shot (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT126.width-450.png)
 
 ## Notes

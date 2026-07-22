@@ -28,5 +28,10 @@ codes: [AAZ016]
 
 Keywords: [[kw-dominate]]
 Rulings: search "Stone Rain" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ016.png)
+
+## Images
+
+![AAZ016 - Stone Rain (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ016.png)
 
 ## Notes

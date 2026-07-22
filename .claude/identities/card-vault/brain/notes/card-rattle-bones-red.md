@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Rattle Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU143.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU143.png)
+
+## Images
+
+![CRU143 - Rattle Bones (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU143.png)
+![CRU143 - Rattle Bones (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU143.png)
 
 ## Notes

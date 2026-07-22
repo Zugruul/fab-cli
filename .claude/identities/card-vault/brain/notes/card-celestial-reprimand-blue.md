@@ -25,5 +25,10 @@ codes: [DTD040]
 
 Variants: [[card-celestial-reprimand-red]] · [[card-celestial-reprimand-yellow]]
 Rulings: search "Celestial Reprimand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD040.png)
+
+## Images
+
+![DTD040 - Celestial Reprimand (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD040.png)
 
 ## Notes

@@ -30,5 +30,11 @@ When this hits a hero, create an Inertia token under their control."
 Keywords: [[kw-stealth]]
 Variants: [[card-sedate-red]] · [[card-sedate-blue]]
 Rulings: search "Sedate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT037.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU019.png)
+
+## Images
+
+![OUT037 - Sedate (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT037.width-450.png)
+![UZU019 - Sedate (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU019.png)
 
 ## Notes

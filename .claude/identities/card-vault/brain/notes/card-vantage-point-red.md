@@ -29,5 +29,11 @@ codes: [FLR010, ROS124]
 Keywords: [[kw-overpower]]
 Variants: [[card-vantage-point-yellow]] · [[card-vantage-point-blue]]
 Rulings: search "Vantage Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS124.png)
+
+## Images
+
+![FLR010 - Vantage Point (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR010.webp)
+![ROS124 - Vantage Point (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS124.png)
 
 ## Notes

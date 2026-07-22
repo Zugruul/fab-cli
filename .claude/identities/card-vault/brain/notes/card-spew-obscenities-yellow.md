@@ -28,5 +28,11 @@ codes: [LGS421, SUP078]
 When this hits a hero, create a Confidence and a Might token."
 
 Rulings: search "Spew Obscenities" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS421-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP078.webp)
+
+## Images
+
+![LGS421 - Spew Obscenities (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS421-CF.webp)
+![SUP078 - Spew Obscenities (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP078.webp)
 
 ## Notes

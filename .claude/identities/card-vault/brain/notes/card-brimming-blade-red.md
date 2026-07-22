@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-sharpen]] · [[kw-go-again]]
 Rulings: search "Brimming Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA011.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM164-RF.webp)
+
+## Images
+
+![AHA011 - Brimming Blade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA011.webp)
+![GEM164 - Brimming Blade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM164-RF.webp)
 
 ## Notes

@@ -23,5 +23,10 @@ codes: [AHA001]
 
 Young version: [[card-hala]]
 Rulings: search "Hala, Bladesaint of the Vow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA001-RF.webp)
+
+## Images
+
+![AHA001 - Hala, Bladesaint of the Vow](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA001-RF.webp)
 
 ## Notes

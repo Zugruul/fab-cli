@@ -21,5 +21,10 @@ codes: [EVO014]
 Once per Turn Instant - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've boosted this turn."
 
 Rulings: search "Cogwerx Base Head" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO014.png)
+
+## Images
+
+![EVO014 - Cogwerx Base Head](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO014.png)
 
 ## Notes

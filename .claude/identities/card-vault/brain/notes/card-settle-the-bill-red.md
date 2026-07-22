@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Settle the Bill" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN237.webp)
+
+## Images
+
+![OMN237 - Settle the Bill (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN237.webp)
 
 ## Notes

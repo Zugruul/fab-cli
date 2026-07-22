@@ -23,5 +23,11 @@ codes: [PEN267]
 "Until end of turn, blue attacks and attacks with ephemeral get +1{p}."
 
 Rulings: search "Whispering Mist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN267.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN267-RF.webp)
+
+## Images
+
+![PEN267 - Whispering Mist (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN267.webp)
+![PEN267 - Whispering Mist (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN267-RF.webp)
 
 ## Notes

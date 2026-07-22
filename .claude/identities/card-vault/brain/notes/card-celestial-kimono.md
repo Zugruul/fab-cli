@@ -23,5 +23,11 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Celestial Kimono" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN213.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN213_Marvel.png)
+
+## Images
+
+![DYN213 - Celestial Kimono](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN213.png)
+![DYN213 - Celestial Kimono](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN213_Marvel.png)
 
 ## Notes

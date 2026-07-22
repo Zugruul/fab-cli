@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Savor Bloodshed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT198.png)
+
+## Images
+
+![HNT198 - Savor Bloodshed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT198.png)
 
 ## Notes

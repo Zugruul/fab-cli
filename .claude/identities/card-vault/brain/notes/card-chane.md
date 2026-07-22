@@ -26,5 +26,15 @@ codes: [CHN001, HER037, MON154, PEN344]
 Keywords: [[kw-go-again]]
 Adult version: [[card-chane-bound-by-shadow]]
 Rulings: search "Chane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN001.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER037.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON154.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON154.width-450.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN344-MV.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN344-MV_BACK.webp)
+
+## Images
+
+![CHN001 - Chane](https://storage.googleapis.com/fabmaster/media/images/CHN001.width-450.png)
+![HER037 - Chane](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER037.png)
+![MON154 - Chane](https://storage.googleapis.com/fabmaster/media/images/MON154.width-450.png)
+![MON154 - Chane](https://storage.googleapis.com/fabmaster/media/images/U-MON154.width-450.png)
+![PEN344 - Chane](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN344-MV.webp)
+![PEN344 - Chane](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN344-MV_BACK.webp)
 
 ## Notes

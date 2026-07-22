@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Take the Bait" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP258.webp)
+
+## Images
+
+![SUP258 - Take the Bait (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP258.webp)
 
 ## Notes

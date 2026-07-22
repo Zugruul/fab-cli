@@ -19,5 +19,10 @@ codes: [SMP027]
 Choose an opponent. They draw a card. Until the start of your next turn, attacks they control that target you get -2{p}."
 
 Rulings: search "Let Me Buy You a Drink" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP027.webp)
+
+## Images
+
+![SMP027 - Let Me Buy You a Drink](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP027.webp)
 
 ## Notes

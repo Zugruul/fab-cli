@@ -24,5 +24,10 @@ codes: [EVR054]
 "Until end of turn, target 2H weapon gains "Whenever this would deal {p} damage, instead you may destroy target defending equipment with {d} less than the damage that would be dealt this way."
 
 Rulings: search "Shatter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR054.width-450.png)
+
+## Images
+
+![EVR054 - Shatter (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR054.width-450.png)
 
 ## Notes

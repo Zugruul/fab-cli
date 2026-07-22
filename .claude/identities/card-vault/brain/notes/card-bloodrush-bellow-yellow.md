@@ -28,5 +28,12 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
 
 Keywords: [[kw-go-again]]
 Rulings: search "Bloodrush Bellow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP014.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR007.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR007.png)
+
+## Images
+
+![1HP014 - Bloodrush Bellow (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP014.width-450.png)
+![WTR007 - Bloodrush Bellow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR007.png)
+![WTR007 - Bloodrush Bellow (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR007.png)
 
 ## Notes

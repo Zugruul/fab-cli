@@ -21,5 +21,11 @@ codes: [FAB335, TER006]
 "When you play an attack action card, you may destroy this. If you do, the attack gets +1{p}."
 
 Rulings: search "Hard Knuckle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB335-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER006.webp)
+
+## Images
+
+![FAB335 - Hard Knuckle](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB335-CF.webp)
+![TER006 - Hard Knuckle](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER006.webp)
 
 ## Notes

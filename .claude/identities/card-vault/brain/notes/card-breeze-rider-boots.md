@@ -24,5 +24,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]] · [[kw-go-again]]
 Rulings: search "Breeze Rider Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP097.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU053.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU053.png)
+
+## Images
+
+![1HP097 - Breeze Rider Boots](https://storage.googleapis.com/fabmaster/media/images/1HP097.width-450.png)
+![CRU053 - Breeze Rider Boots](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU053.png)
+![CRU053 - Breeze Rider Boots](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU053.png)
 
 ## Notes

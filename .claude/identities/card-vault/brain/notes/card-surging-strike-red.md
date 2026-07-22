@@ -29,5 +29,15 @@ codes: [1HP125, KAT010, KSU015, OUT083, WTR107]
 Keywords: [[kw-go-again]]
 Variants: [[card-surging-strike-yellow]] · [[card-surging-strike-blue]]
 Rulings: search "Surging Strike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP125.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT010.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/KSU15.width-450.png) · [Image #4](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT083.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR107.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR107.png)
+
+## Images
+
+![1HP125 - Surging Strike (red)](https://storage.googleapis.com/fabmaster/media/images/1HP125.width-450.png)
+![KAT010 - Surging Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-KAT/EN/KAT010.png)
+![KSU015 - Surging Strike (red)](https://storage.googleapis.com/fabmaster/media/images/KSU15.width-450.png)
+![OUT083 - Surging Strike (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT083.width-450.png)
+![WTR107 - Surging Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR107.png)
+![WTR107 - Surging Strike (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR107.png)
 
 ## Notes

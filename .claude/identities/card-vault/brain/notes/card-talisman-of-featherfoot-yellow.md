@@ -27,5 +27,10 @@ When an attack you control gains exactly +1{p} from an effect during the reactio
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talisman of Featherfoot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR190.width-450.png)
+
+## Images
+
+![EVR190 - Talisman of Featherfoot (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR190.width-450.png)
 
 ## Notes

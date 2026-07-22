@@ -26,5 +26,10 @@ codes: [OUT184]
 "While Down and Dirty is in your arsenal, you may defend with it."
 
 Rulings: search "Down and Dirty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT184.width-450.png)
+
+## Images
+
+![OUT184 - Down and Dirty (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT184.width-450.png)
 
 ## Notes

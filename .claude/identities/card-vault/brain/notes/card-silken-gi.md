@@ -20,5 +20,11 @@ codes: [BEN004, OUT179]
 "Instant - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play."
 
 Rulings: search "Silken Gi" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN004.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT179.width-450.png)
+
+## Images
+
+![BEN004 - Silken Gi](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-BEN/EN/BEN004.png)
+![OUT179 - Silken Gi](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT179.width-450.png)
 
 ## Notes

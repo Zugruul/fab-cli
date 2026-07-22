@@ -29,5 +29,10 @@ You may destroy a Lightning Flow you control. If you do, this gets go again."
 Keywords: [[kw-go-again]] · [[kw-amp]]
 Variants: [[card-arc-ramp-red]] · [[card-arc-ramp-blue]]
 Rulings: search "Arc Ramp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN101.webp)
+
+## Images
+
+![OMN101 - Arc Ramp (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN101.webp)
 
 ## Notes

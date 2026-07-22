@@ -29,5 +29,10 @@ codes: [AHA009]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Polished Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA009.webp)
+
+## Images
+
+![AHA009 - Polished Blade (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA009.webp)
 
 ## Notes

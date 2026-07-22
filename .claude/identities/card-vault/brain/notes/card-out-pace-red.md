@@ -30,5 +30,11 @@ This can't be defended by equipment."
 Keywords: [[kw-boost]]
 Variants: [[card-out-pace-yellow]] · [[card-out-pace-blue]]
 Rulings: search "Out Pace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO204.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA015.webp)
+
+## Images
+
+![EVO204 - Out Pace (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO204.png)
+![SDA015 - Out Pace (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA015.webp)
 
 ## Notes

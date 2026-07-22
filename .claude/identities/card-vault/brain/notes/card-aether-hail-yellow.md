@@ -26,5 +26,10 @@ codes: [UPR128]
 
 Variants: [[card-aether-hail-red]] · [[card-aether-hail-blue]]
 Rulings: search "Aether Hail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR128.png)
+
+## Images
+
+![UPR128 - Aether Hail (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR128.png)
 
 ## Notes

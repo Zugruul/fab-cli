@@ -27,5 +27,10 @@ codes: [MST201]
 
 Variants: [[card-gravekeeping-red]] · [[card-gravekeeping-blue]]
 Rulings: search "Gravekeeping" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST201.png)
+
+## Images
+
+![MST201 - Gravekeeping (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST201.png)
 
 ## Notes

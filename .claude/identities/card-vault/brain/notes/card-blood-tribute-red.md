@@ -26,5 +26,11 @@ codes: [MON215]
 Keywords: [[kw-opt]]
 Variants: [[card-blood-tribute-yellow]] · [[card-blood-tribute-blue]]
 Rulings: search "Blood Tribute" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON215.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON215.width-450.png)
+
+## Images
+
+![MON215 - Blood Tribute (red)](https://storage.googleapis.com/fabmaster/media/images/MON215.width-450.png)
+![MON215 - Blood Tribute (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON215.width-450.png)
 
 ## Notes

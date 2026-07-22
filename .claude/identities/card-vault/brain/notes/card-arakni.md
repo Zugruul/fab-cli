@@ -23,5 +23,14 @@ codes: [ARK001, DYN114, HER073, HNT264]
 
 Adult version: [[card-arakni-5l-p3d-7hru-7h3-cr4x]] · [[card-arakni-huntsman]] · [[card-arakni-marionette]]
 Rulings: search "Arakni" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK001.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN114.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER073.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT264.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT264_BACK.png)
+
+## Images
+
+![ARK001 - Arakni](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK001.webp)
+![DYN114 - Arakni](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN114.png)
+![HER073 - Arakni](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER073.png)
+![HNT264 - Arakni](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT264.png)
+![HNT264 - Arakni](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT264_BACK.png)
 
 ## Notes

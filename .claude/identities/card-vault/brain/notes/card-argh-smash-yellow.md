@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Argh... Smash!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU009.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU009.png)
+
+## Images
+
+![CRU009 - Argh... Smash! (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU009.png)
+![CRU009 - Argh... Smash! (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU009.png)
 
 ## Notes

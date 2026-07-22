@@ -28,5 +28,10 @@ codes: [MPG015]
 
 Keywords: [[kw-clash]]
 Rulings: search "Clash of Bravado" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG015.webp)
+
+## Images
+
+![MPG015 - Clash of Bravado (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG015.webp)
 
 ## Notes

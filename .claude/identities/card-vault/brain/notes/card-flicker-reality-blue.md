@@ -28,5 +28,10 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Flicker Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN005.webp)
+
+## Images
+
+![OMN005 - Flicker Reality (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN005.webp)
 
 ## Notes

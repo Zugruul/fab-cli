@@ -27,5 +27,11 @@ While Stamp Authority is in the arena, attack action card effects do not trigger
 At the beginning of your action phase, destroy Stamp Authority."
 
 Rulings: search "Stamp Authority" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU028.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU028.png)
+
+## Images
+
+![CRU028 - Stamp Authority (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU028.png)
+![CRU028 - Stamp Authority (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU028.png)
 
 ## Notes

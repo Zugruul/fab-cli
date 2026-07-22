@@ -28,5 +28,10 @@ codes: [MST165]
 
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Aspect of Tiger: Soul" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png)
+
+## Images
+
+![MST165 - Aspect of Tiger: Soul (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png)
 
 ## Notes

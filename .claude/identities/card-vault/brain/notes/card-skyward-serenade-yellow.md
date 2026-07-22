@@ -31,5 +31,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Skyward Serenade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST023.webp)
+
+## Images
+
+![AST023 - Skyward Serenade (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST023.webp)
 
 ## Notes

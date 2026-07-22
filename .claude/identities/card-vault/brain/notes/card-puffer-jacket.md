@@ -24,5 +24,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Puffer Jacket" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX004-RF.webp)
+
+## Images
+
+![AMX004 - Puffer Jacket](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX004-RF.webp)
 
 ## Notes

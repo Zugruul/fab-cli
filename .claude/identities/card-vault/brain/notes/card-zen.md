@@ -24,5 +24,13 @@ codes: [MST047, ZEN001]
 
 Adult version: [[card-zen-tamer-of-purpose]]
 Rulings: search "Zen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST047.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST047_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST047_BACK.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN001.png)
+
+## Images
+
+![MST047 - Zen](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST047.png)
+![MST047 - Zen](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST047_V2.png)
+![MST047 - Zen](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST047_BACK.png)
+![ZEN001 - Zen](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ZEN/EN/ZEN001.png)
 
 ## Notes

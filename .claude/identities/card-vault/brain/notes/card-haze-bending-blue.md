@@ -28,5 +28,12 @@ Spectra"
 
 Keywords: [[kw-spectra]]
 Rulings: search "Haze Bending" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/EVR141.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS093.png)
+
+## Images
+
+![APR024 - Haze Bending (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR024.webp)
+![EVR141 - Haze Bending (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR141.width-450.png)
+![LGS093 - Haze Bending (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS093.png)
 
 ## Notes

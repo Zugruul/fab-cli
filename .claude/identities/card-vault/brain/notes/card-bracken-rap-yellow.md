@@ -30,5 +30,10 @@ codes: [TER014]
 Keywords: [[kw-bond]]
 Variants: [[card-bracken-rap-red]]
 Rulings: search "Bracken Rap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER014.webp)
+
+## Images
+
+![TER014 - Bracken Rap (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER014.webp)
 
 ## Notes

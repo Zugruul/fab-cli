@@ -27,5 +27,11 @@ Action - Destroy this: Defense reaction cards can't be played this turn. If you 
 
 Keywords: [[kw-legendary]]
 Rulings: search "Imperial Seal of Command" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB305.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT228.png)
+
+## Images
+
+![FAB305 - Imperial Seal of Command (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB305.png)
+![HNT228 - Imperial Seal of Command (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT228.png)
 
 ## Notes

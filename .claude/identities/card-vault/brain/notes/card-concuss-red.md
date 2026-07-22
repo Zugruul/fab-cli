@@ -27,5 +27,13 @@ codes: [BET009, HVY074, TER010, VIC009]
 
 Variants: [[card-concuss-yellow]] · [[card-concuss-blue]]
 Rulings: search "Concuss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET009.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY074.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER010.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC009.png)
+
+## Images
+
+![BET009 - Concuss (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET009.png)
+![HVY074 - Concuss (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY074.png)
+![TER010 - Concuss (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/TER010.webp)
+![VIC009 - Concuss (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC009.png)
 
 ## Notes

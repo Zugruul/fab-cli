@@ -26,5 +26,11 @@ codes: [FAB376, SUP019]
 "If you've been cheered this turn, this costs {r}{r}{r} less to play."
 
 Rulings: search "Crowd Goes Wild" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB376-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP019.webp)
+
+## Images
+
+![FAB376 - Crowd Goes Wild (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB376-CF.webp)
+![SUP019 - Crowd Goes Wild (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP019.webp)
 
 ## Notes

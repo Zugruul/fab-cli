@@ -27,5 +27,10 @@ codes: [MST196]
 
 Variants: [[card-blanch-red]] · [[card-blanch-yellow]]
 Rulings: search "Blanch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST196.png)
+
+## Images
+
+![MST196 - Blanch (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST196.png)
 
 ## Notes

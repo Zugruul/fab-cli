@@ -23,5 +23,11 @@ codes: [DVR027, RVD027]
 (no text)
 
 Rulings: search "Titanium Bauble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/DVR027.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RVD027.width-450.png)
+
+## Images
+
+![DVR027 - Titanium Bauble (blue)](https://storage.googleapis.com/fabmaster/media/images/DVR027.width-450.png)
+![RVD027 - Titanium Bauble (blue)](https://storage.googleapis.com/fabmaster/media/images/RVD027.width-450.png)
 
 ## Notes

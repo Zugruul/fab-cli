@@ -27,5 +27,13 @@ codes: [CHN023, LEV024, MON207]
 
 Variants: [[card-lunartide-plunderer-red]] · [[card-lunartide-plunderer-blue]]
 Rulings: search "Lunartide Plunderer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN023.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/LEV024.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON207.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON207.width-450.png)
+
+## Images
+
+![CHN023 - Lunartide Plunderer (yellow)](https://storage.googleapis.com/fabmaster/media/images/CHN023.width-450.png)
+![LEV024 - Lunartide Plunderer (yellow)](https://storage.googleapis.com/fabmaster/media/images/LEV024.width-450.png)
+![MON207 - Lunartide Plunderer (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON207.width-450.png)
+![MON207 - Lunartide Plunderer (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON207.width-450.png)
 
 ## Notes

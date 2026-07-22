@@ -25,5 +25,10 @@ codes: [OUT186]
 "When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle."
 
 Rulings: search "Gore Belching" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT186.width-450.png)
+
+## Images
+
+![OUT186 - Gore Belching (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT186.width-450.png)
 
 ## Notes

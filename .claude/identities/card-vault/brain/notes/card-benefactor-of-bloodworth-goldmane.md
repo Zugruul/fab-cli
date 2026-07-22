@@ -19,5 +19,10 @@ codes: [SMP008]
 Your next attack this turn gets "When this attacks, it gets +X{p}, where X is the number of Gold you control.""
 
 Rulings: search "Benefactor of Bloodworth Goldmane" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP008.webp)
+
+## Images
+
+![SMP008 - Benefactor of Bloodworth Goldmane](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP008.webp)
 
 ## Notes

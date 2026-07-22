@@ -25,5 +25,14 @@ When this hits, your next blue attack this turn gets +1{p} and go again."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Beckoning Mistblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS290-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS293-CF.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS294-CF.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST003.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU002.png)
+
+## Images
+
+![LGS290 - Beckoning Mistblade](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS290-RF.webp)
+![LGS293 - Beckoning Mistblade](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS293-CF.webp)
+![LGS294 - Beckoning Mistblade](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS294-CF.webp)
+![MST003 - Beckoning Mistblade](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST003.png)
+![NUU002 - Beckoning Mistblade](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU002.png)
 
 ## Notes

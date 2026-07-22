@@ -23,5 +23,10 @@ codes: [ROS169]
 "Instant - Discard this: Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Ponder token."
 
 Rulings: search "Mental Block" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS169.png)
+
+## Images
+
+![ROS169 - Mental Block (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS169.png)
 
 ## Notes

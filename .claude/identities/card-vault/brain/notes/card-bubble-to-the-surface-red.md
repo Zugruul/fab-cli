@@ -24,5 +24,11 @@ codes: [HNT154]
 Reveal cards from the top of your deck until you've revealed a red card. Banish it. You may play it this turn. Shuffle."
 
 Rulings: search "Bubble to the Surface" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT154.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT154-EA.png)
+
+## Images
+
+![HNT154 - Bubble to the Surface (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT154.png)
+![HNT154 - Bubble to the Surface (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT154-EA.png)
 
 ## Notes

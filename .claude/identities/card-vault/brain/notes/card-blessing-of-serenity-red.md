@@ -24,5 +24,11 @@ codes: [CRU041]
 
 Variants: [[card-blessing-of-serenity-yellow]] · [[card-blessing-of-serenity-blue]]
 Rulings: search "Blessing of Serenity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU041.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU041.png)
+
+## Images
+
+![CRU041 - Blessing of Serenity (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU041.png)
+![CRU041 - Blessing of Serenity (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU041.png)
 
 ## Notes

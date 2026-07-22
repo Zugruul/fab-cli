@@ -29,5 +29,14 @@ codes: [1HP243, ARC063, SAZ016]
 Keywords: [[kw-opt]]
 Variants: [[card-ridge-rider-shot-yellow]] · [[card-ridge-rider-shot-blue]]
 Rulings: search "Ridge Rider Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP243.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC063.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ016.webp)
+
+## Images
+
+![1HP243 - Ridge Rider Shot (red)](https://storage.googleapis.com/fabmaster/media/images/1HP243.width-450.png)
+![ARC063 - Ridge Rider Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063.png)
+![ARC063 - Ridge Rider Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063-RF.png)
+![ARC063 - Ridge Rider Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC063.png)
+![SAZ016 - Ridge Rider Shot (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ016.webp)
 
 ## Notes

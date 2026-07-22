@@ -31,5 +31,11 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-fusion]] · [[kw-go-again]]
 Rulings: search "Force of Nature" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE066.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE066.width-450.png)
+
+## Images
+
+![ELE066 - Force of Nature (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE066.width-450.png)
+![ELE066 - Force of Nature (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE066.width-450.png)
 
 ## Notes

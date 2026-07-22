@@ -27,5 +27,10 @@ codes: [OUT155]
 
 Variants: [[card-short-and-sharp-red]] · [[card-short-and-sharp-blue]]
 Rulings: search "Short and Sharp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT155.width-450.png)
+
+## Images
+
+![OUT155 - Short and Sharp (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT155.width-450.png)
 
 ## Notes

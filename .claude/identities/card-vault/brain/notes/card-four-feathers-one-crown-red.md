@@ -26,5 +26,10 @@ codes: [PEN256]
 "When this attacks, it gets +1{p} for each card with Phoenix Bannerman in its name in your graveyard."
 
 Rulings: search "Four Feathers One Crown" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN256.webp)
+
+## Images
+
+![PEN256 - Four Feathers One Crown (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN256.webp)
 
 ## Notes

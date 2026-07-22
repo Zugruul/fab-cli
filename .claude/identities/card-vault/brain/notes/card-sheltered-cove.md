@@ -20,5 +20,10 @@ codes: [HVY197]
 "Instant - {r}{r}{r}, destroy this: The next time you would be dealt damage this turn, prevent 2 of that damage"
 
 Rulings: search "Sheltered Cove" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY197.png)
+
+## Images
+
+![HVY197 - Sheltered Cove](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY197.png)
 
 ## Notes

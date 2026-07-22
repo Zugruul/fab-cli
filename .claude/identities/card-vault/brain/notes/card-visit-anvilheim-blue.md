@@ -24,5 +24,10 @@ codes: [MPG021]
 "Remove X -1{d} counters from a Guardian off-hand you have equipped."
 
 Rulings: search "Visit Anvilheim" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG021.webp)
+
+## Images
+
+![MPG021 - Visit Anvilheim (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG021.webp)
 
 ## Notes

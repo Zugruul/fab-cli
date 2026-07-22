@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-hurl-red]] · [[card-hurl-blue]]
 Rulings: search "Hurl" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT149.width-450.png)
+
+## Images
+
+![OUT149 - Hurl (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT149.width-450.png)
 
 ## Notes

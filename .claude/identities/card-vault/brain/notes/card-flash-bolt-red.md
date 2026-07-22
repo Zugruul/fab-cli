@@ -25,5 +25,10 @@ codes: [OMN106]
 
 Variants: [[card-flash-bolt-yellow]] · [[card-flash-bolt-blue]]
 Rulings: search "Flash Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN106.webp)
+
+## Images
+
+![OMN106 - Flash Bolt (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN106.webp)
 
 ## Notes

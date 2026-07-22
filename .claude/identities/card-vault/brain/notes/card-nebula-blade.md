@@ -23,5 +23,16 @@ When this hits, create a Runechant token.
 If you've played a non-attack action card this turn, this gets +3{p}."
 
 Rulings: search "Nebula Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP260.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC077.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC077.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS002.webp) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU139.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU139.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS011.png)
+
+## Images
+
+![1HP260 - Nebula Blade](https://storage.googleapis.com/fabmaster/media/images/1HP260.width-450.png)
+![ARC077 - Nebula Blade](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC077.png)
+![ARC077 - Nebula Blade](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC077.png)
+![AVS002 - Nebula Blade](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS002.webp)
+![CRU139 - Nebula Blade](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU139.png)
+![CRU139 - Nebula Blade](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU139.png)
+![LGS011 - Nebula Blade](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS011.png)
 
 ## Notes

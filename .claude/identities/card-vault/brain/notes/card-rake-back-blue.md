@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-wager]]
 Rulings: search "Rake Back" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW033.webp)
+
+## Images
+
+![MPW033 - Rake Back (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW033.webp)
 
 ## Notes

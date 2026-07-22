@@ -27,5 +27,10 @@ codes: [AUR022]
 
 Variants: [[card-spark-spray-red]] · [[card-spark-spray-blue]]
 Rulings: search "Spark Spray" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR022.webp)
+
+## Images
+
+![AUR022 - Spark Spray (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR022.webp)
 
 ## Notes

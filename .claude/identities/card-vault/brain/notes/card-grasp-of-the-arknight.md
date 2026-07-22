@@ -24,5 +24,13 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Grasp of the Arknight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP262.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC078.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC078.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB010.png)
+
+## Images
+
+![1HP262 - Grasp of the Arknight](https://storage.googleapis.com/fabmaster/media/images/1HP262.width-450.png)
+![ARC078 - Grasp of the Arknight](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC078.png)
+![ARC078 - Grasp of the Arknight](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC078.png)
+![FAB010 - Grasp of the Arknight](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB010.png)
 
 ## Notes

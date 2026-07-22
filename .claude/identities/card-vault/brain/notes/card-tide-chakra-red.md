@@ -26,5 +26,11 @@ codes: [LGS264, MST011]
 
 Variants: [[card-tide-chakra-yellow]] · [[card-tide-chakra-blue]]
 Rulings: search "Tide Chakra" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS264.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST011.png)
+
+## Images
+
+![LGS264 - Tide Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS264.png)
+![MST011 - Tide Chakra (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST011.png)
 
 ## Notes

@@ -30,5 +30,12 @@ Blood Debt"
 Keywords: [[kw-go-again]] · [[kw-blood-debt]]
 Variants: [[card-howl-from-beyond-yellow]] · [[card-howl-from-beyond-blue]]
 Rulings: search "Howl from Beyond" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN022.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON200.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON200.width-450.png)
+
+## Images
+
+![CHN022 - Howl from Beyond (red)](https://storage.googleapis.com/fabmaster/media/images/CHN022.width-450.png)
+![MON200 - Howl from Beyond (red)](https://storage.googleapis.com/fabmaster/media/images/MON200.width-450.png)
+![MON200 - Howl from Beyond (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON200.width-450.png)
 
 ## Notes

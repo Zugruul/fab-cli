@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-modular]] · [[kw-arcane-barrier]]
 Rulings: search "Adaptive Dissolver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS246.png)
+
+## Images
+
+![ROS246 - Adaptive Dissolver](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS246.png)
 
 ## Notes

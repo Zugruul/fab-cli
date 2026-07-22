@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Dual Threat" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT223.png)
+
+## Images
+
+![HNT223 - Dual Threat (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT223.png)
 
 ## Notes

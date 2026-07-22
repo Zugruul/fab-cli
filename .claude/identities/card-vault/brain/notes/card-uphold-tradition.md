@@ -25,5 +25,13 @@ Ward 1"
 
 Keywords: [[kw-cloaked]] · [[kw-ward]]
 Rulings: search "Uphold Tradition" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG005.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS272.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST030.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN007.webp)
+
+## Images
+
+![ENG005 - Uphold Tradition](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG005.png)
+![LGS272 - Uphold Tradition](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS272.png)
+![MST030 - Uphold Tradition](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST030.png)
+![SEN007 - Uphold Tradition](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN007.webp)
 
 ## Notes

@@ -30,5 +30,11 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-fleece-the-frail-yellow]] · [[card-fleece-the-frail-blue]]
 Rulings: search "Fleece the Frail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK009.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN136.png)
+
+## Images
+
+![ARK009 - Fleece the Frail (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ARK009.webp)
+![DYN136 - Fleece the Frail (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN136.png)
 
 ## Notes

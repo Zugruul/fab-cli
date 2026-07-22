@@ -25,5 +25,10 @@ codes: [UPR145]
 
 Variants: [[card-arctic-incarceration-red]] · [[card-arctic-incarceration-blue]]
 Rulings: search "Arctic Incarceration" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR145.png)
+
+## Images
+
+![UPR145 - Arctic Incarceration (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR145.png)
 
 ## Notes

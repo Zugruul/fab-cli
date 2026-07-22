@@ -28,5 +28,11 @@ codes: [MPG030]
 
 Keywords: [[kw-crush]]
 Rulings: search "Annexation of Grandeur" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG030.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG030-RF.webp)
+
+## Images
+
+![MPG030 - Annexation of Grandeur (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG030.webp)
+![MPG030 - Annexation of Grandeur (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG030-RF.webp)
 
 ## Notes

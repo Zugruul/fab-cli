@@ -28,5 +28,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 Keywords: [[kw-go-again]]
 Variants: [[card-sun-kiss-red]] · [[card-sun-kiss-yellow]]
 Rulings: search "Sun Kiss" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC214.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC214.png)
+
+## Images
+
+![ARC214 - Sun Kiss (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC214.png)
+![ARC214 - Sun Kiss (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC214.png)
 
 ## Notes

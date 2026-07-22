@@ -24,5 +24,10 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-go-again]]
 Rulings: search "Tide Flippers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR159.png)
+
+## Images
+
+![UPR159 - Tide Flippers](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR159.png)
 
 ## Notes

@@ -21,5 +21,11 @@ codes: [LGS258, TCC079]
 "Instant - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain."
 
 Rulings: search "Mask of Three Tails" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS258.original.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC079.png)
+
+## Images
+
+![LGS258 - Mask of Three Tails](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS258.original.png)
+![TCC079 - Mask of Three Tails](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC079.png)
 
 ## Notes

@@ -27,5 +27,14 @@ codes: [1HP255, AAZ015, CRU132]
 
 Variants: [[card-sleep-dart-yellow]] · [[card-sleep-dart-blue]]
 Rulings: search "Sleep Dart" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP255.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ015.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132-RF.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU132.png)
+
+## Images
+
+![1HP255 - Sleep Dart (red)](https://storage.googleapis.com/fabmaster/media/images/1HP255.width-450.png)
+![AAZ015 - Sleep Dart (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ015.png)
+![CRU132 - Sleep Dart (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132.png)
+![CRU132 - Sleep Dart (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132-RF.png)
+![CRU132 - Sleep Dart (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU132.png)
 
 ## Notes

@@ -29,5 +29,11 @@ Temper"
 
 Keywords: [[kw-transform]] · [[kw-temper]]
 Rulings: search "Evo Steel Soul Controller" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO028.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO028_V2.png)
+
+## Images
+
+![EVO028 - Evo Steel Soul Controller (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO028.png)
+![EVO028 - Evo Steel Soul Controller (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO028_V2.png)
 
 ## Notes

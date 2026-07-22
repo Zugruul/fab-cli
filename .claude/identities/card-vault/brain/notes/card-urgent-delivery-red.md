@@ -27,5 +27,10 @@ codes: [DYN107]
 
 Variants: [[card-urgent-delivery-yellow]] · [[card-urgent-delivery-blue]]
 Rulings: search "Urgent Delivery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN107.png)
+
+## Images
+
+![DYN107 - Urgent Delivery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN107.png)
 
 ## Notes

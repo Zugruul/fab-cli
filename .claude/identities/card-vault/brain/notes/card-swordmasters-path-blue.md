@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-sharpen]] · [[kw-go-again]]
 Variants: [[card-swordmasters-path-red]]
 Rulings: search "Swordmaster's Path" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA025.webp)
+
+## Images
+
+![AHA025 - Swordmaster's Path (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA025.webp)
 
 ## Notes

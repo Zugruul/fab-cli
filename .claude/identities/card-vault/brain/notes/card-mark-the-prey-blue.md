@@ -30,5 +30,10 @@ When this hits a hero, mark them."
 Keywords: [[kw-stealth]] · [[kw-mark]]
 Variants: [[card-mark-the-prey-red]] · [[card-mark-the-prey-yellow]]
 Rulings: search "Mark the Prey" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT040.png)
+
+## Images
+
+![HNT040 - Mark the Prey (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT040.png)
 
 ## Notes

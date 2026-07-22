@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Berserk" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN009.png)
+
+## Images
+
+![DYN009 - Berserk (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN009.png)
 
 ## Notes

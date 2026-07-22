@@ -25,5 +25,11 @@ codes: [PEN331, SLY012]
 
 Variants: [[card-drag-down-yellow]] · [[card-drag-down-blue]]
 Rulings: search "Drag Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN331.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY012.webp)
+
+## Images
+
+![PEN331 - Drag Down (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN331.webp)
+![SLY012 - Drag Down (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY012.webp)
 
 ## Notes

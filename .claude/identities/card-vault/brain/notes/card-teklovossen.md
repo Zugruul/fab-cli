@@ -24,5 +24,14 @@ Once per Turn Instant - {r}{r}{r}: You may play your next Evo this turn as thoug
 
 Adult version: [[card-teklovossen-esteemed-magnate]]
 Rulings: search "Teklovossen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO008.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER093.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER099.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN339-MV.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN339-MV_BACK.webp)
+
+## Images
+
+![EVO008 - Teklovossen](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO008.png)
+![HER093 - Teklovossen](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER093.png)
+![HER099 - Teklovossen](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER099.png)
+![PEN339 - Teklovossen](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN339-MV.webp)
+![PEN339 - Teklovossen](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN339-MV_BACK.webp)
 
 ## Notes

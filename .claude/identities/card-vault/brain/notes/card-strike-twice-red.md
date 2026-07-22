@@ -26,5 +26,10 @@ codes: [PEN238]
 If you've dealt arcane damage to an opposing hero this turn, you may play this as though it were an instant."
 
 Rulings: search "Strike Twice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN238.webp)
+
+## Images
+
+![PEN238 - Strike Twice (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN238.webp)
 
 ## Notes

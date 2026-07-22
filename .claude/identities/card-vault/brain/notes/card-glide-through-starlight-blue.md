@@ -27,5 +27,10 @@ codes: [OMN171]
 
 Variants: [[card-glide-through-starlight-red]] · [[card-glide-through-starlight-yellow]]
 Rulings: search "Glide Through Starlight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN171.webp)
+
+## Images
+
+![OMN171 - Glide Through Starlight (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN171.webp)
 
 ## Notes

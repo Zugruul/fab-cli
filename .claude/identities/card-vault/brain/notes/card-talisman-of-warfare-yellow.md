@@ -27,5 +27,10 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
 
 Keywords: [[kw-go-again]]
 Rulings: search "Talisman of Warfare" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR193.width-450.png)
+
+## Images
+
+![EVR193 - Talisman of Warfare (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR193.width-450.png)
 
 ## Notes

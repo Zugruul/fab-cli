@@ -29,5 +29,11 @@ Go again"
 
 Keywords: [[kw-fusion]] · [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Flashfreeze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE092.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE092.width-450.png)
+
+## Images
+
+![ELE092 - Flashfreeze (red)](https://storage.googleapis.com/fabmaster/media/images/ELE092.width-450.png)
+![ELE092 - Flashfreeze (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE092.width-450.png)
 
 ## Notes

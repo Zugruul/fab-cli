@@ -28,5 +28,17 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-warriors-valor-yellow]] · [[card-warriors-valor-blue]]
 Rulings: search "Warrior's Valor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP159.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD010.webp) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/DVR011.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW072.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO020.webp) · [Image #6](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP010-MV.webp) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR129.png) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR129.png)
+
+## Images
+
+![1HP159 - Warrior's Valor (red)](https://storage.googleapis.com/fabmaster/media/images/1HP159.width-450.png)
+![DDD010 - Warrior's Valor (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD010.webp)
+![DVR011 - Warrior's Valor (red)](https://storage.googleapis.com/fabmaster/media/images/DVR011.width-450.png)
+![MPW072 - Warrior's Valor (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW072.webp)
+![SDO020 - Warrior's Valor (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDO020.webp)
+![TNP010 - Warrior's Valor (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP010-MV.webp)
+![WTR129 - Warrior's Valor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR129.png)
+![WTR129 - Warrior's Valor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR129.png)
 
 ## Notes

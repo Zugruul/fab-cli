@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "First Tenet of Chi: Wind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS304-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST094.png)
+
+## Images
+
+![LGS304 - First Tenet of Chi: Wind (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS304-RF.webp)
+![MST094 - First Tenet of Chi: Wind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST094.png)
 
 ## Notes

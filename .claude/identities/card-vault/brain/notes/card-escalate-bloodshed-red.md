@@ -26,5 +26,10 @@ At the beginning of each hero's action phase, they draw a card.
 At the beginning of each hero's end phase, if a weapon did not attack this turn, destroy this."
 
 Rulings: search "Escalate Bloodshed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA253.png)
+
+## Images
+
+![SEA253 - Escalate Bloodshed (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA253.png)
 
 ## Notes

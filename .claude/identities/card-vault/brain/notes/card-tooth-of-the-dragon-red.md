@@ -23,5 +23,12 @@ codes: [FNG021, GEM020, HNT166]
 "Your next Draconic attack this turn gets +3{p}."
 
 Rulings: search "Tooth of the Dragon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG021.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM020.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT166.png)
+
+## Images
+
+![FNG021 - Tooth of the Dragon (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FNG021.webp)
+![GEM020 - Tooth of the Dragon (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM020.webp)
+![HNT166 - Tooth of the Dragon (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT166.png)
 
 ## Notes

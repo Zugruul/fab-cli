@@ -28,5 +28,11 @@ Ward 2"
 
 Keywords: [[kw-amp]] · [[kw-ward]]
 Rulings: search "Stardust Spike" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS017.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM148-CF.webp)
+
+## Images
+
+![AZS017 - Stardust Spike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS017.webp)
+![GEM148 - Stardust Spike (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM148-CF.webp)
 
 ## Notes

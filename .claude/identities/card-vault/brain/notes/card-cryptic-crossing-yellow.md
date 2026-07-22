@@ -26,5 +26,10 @@ codes: [DYN173]
 "If an attack action card and a 'non-attack' action card were pitched to play Cryptic Crossing, it has "The first time this deals damage to the defending hero, they discard a card and you draw a card.""
 
 Rulings: search "Cryptic Crossing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN173.png)
+
+## Images
+
+![DYN173 - Cryptic Crossing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN173.png)
 
 ## Notes

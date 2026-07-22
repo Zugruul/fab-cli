@@ -27,5 +27,10 @@ codes: [OUT206]
 
 Variants: [[card-destructive-deliberation-red]] · [[card-destructive-deliberation-yellow]]
 Rulings: search "Destructive Deliberation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT206.width-450.png)
+
+## Images
+
+![OUT206 - Destructive Deliberation (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT206.width-450.png)
 
 ## Notes

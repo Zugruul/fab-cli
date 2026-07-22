@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-electrify-yellow]] · [[card-electrify-blue]]
 Rulings: search "Electrify" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE198.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE198.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/LXI016.width-450.png)
+
+## Images
+
+![ELE198 - Electrify (red)](https://storage.googleapis.com/fabmaster/media/images/ELE198.width-450.png)
+![ELE198 - Electrify (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE198.width-450.png)
+![LXI016 - Electrify (red)](https://storage.googleapis.com/fabmaster/media/images/LXI016.width-450.png)
 
 ## Notes

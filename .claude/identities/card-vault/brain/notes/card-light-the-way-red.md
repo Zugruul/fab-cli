@@ -31,5 +31,12 @@ When this hits, if a yellow card was charged this way, this gets go again."
 Keywords: [[kw-charge]] · [[kw-go-again]]
 Variants: [[card-light-the-way-yellow]] · [[card-light-the-way-blue]]
 Rulings: search "Light the Way" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB011.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD066.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL016.webp)
+
+## Images
+
+![ASB011 - Light the Way (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-ASB/EN/ASB011.png)
+![DTD066 - Light the Way (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD066.png)
+![SBL016 - Light the Way (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL016.webp)
 
 ## Notes

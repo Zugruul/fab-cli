@@ -29,5 +29,10 @@ Target opponent reveals their hand. If Brain Freeze was fused, put an action car
 Keywords: [[kw-fusion]]
 Variants: [[card-brain-freeze-red]] · [[card-brain-freeze-blue]]
 Rulings: search "Brain Freeze" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR117.png)
+
+## Images
+
+![UPR117 - Brain Freeze (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR117.png)
 
 ## Notes

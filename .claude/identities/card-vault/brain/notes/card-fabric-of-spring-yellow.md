@@ -27,5 +27,10 @@ codes: [LSS011]
 
 Keywords: [[kw-legendary]] · [[kw-negate]]
 Rulings: search "Fabric of Spring" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS011.png)
+
+## Images
+
+![LSS011 - Fabric of Spring (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LSS011.png)
 
 ## Notes

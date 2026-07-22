@@ -28,5 +28,12 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
 Variants: [[card-savage-feast-red]] · [[card-savage-feast-yellow]]
 Rulings: search "Savage Feast" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP021.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR016.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR016.png)
+
+## Images
+
+![1HP021 - Savage Feast (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP021.width-450.png)
+![WTR016 - Savage Feast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR016.png)
+![WTR016 - Savage Feast (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR016.png)
 
 ## Notes

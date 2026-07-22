@@ -30,5 +30,11 @@ Whenever this banishes a blue card, draw a card and gain 1{h}."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Art of Desire: Mind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST108.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR028.webp)
+
+## Images
+
+![MST108 - Art of Desire: Mind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST108.png)
+![SAR028 - Art of Desire: Mind (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR028.webp)
 
 ## Notes

@@ -22,5 +22,11 @@ codes: [SEA093]
 "If this would be put into a graveyard, instead remove it from the game."
 
 Rulings: search "Goldfin Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093_V2.png)
+
+## Images
+
+![SEA093 - Goldfin Harpoon](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093.png)
+![SEA093 - Goldfin Harpoon](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093_V2.png)
 
 ## Notes

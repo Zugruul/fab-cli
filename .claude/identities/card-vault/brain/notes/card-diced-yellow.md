@@ -26,5 +26,10 @@ Your next dagger attack this turn gets +2{p}."
 
 Variants: [[card-diced-red]] · [[card-diced-blue]]
 Rulings: search "Diced" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT120.png)
+
+## Images
+
+![HNT120 - Diced (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT120.png)
 
 ## Notes

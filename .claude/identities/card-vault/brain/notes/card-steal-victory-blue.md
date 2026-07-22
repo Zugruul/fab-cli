@@ -26,5 +26,11 @@ codes: [GEM087, SUP069]
 
 Keywords: [[kw-steal]]
 Rulings: search "Steal Victory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM087.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP069.webp)
+
+## Images
+
+![GEM087 - Steal Victory (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM087.webp)
+![SUP069 - Steal Victory (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP069.webp)
 
 ## Notes

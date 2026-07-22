@@ -24,5 +24,12 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Robe of Rapture" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP306.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC117.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC117.png)
+
+## Images
+
+![1HP306 - Robe of Rapture](https://storage.googleapis.com/fabmaster/media/images/1HP306.width-450.png)
+![ARC117 - Robe of Rapture](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC117.png)
+![ARC117 - Robe of Rapture](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC117.png)
 
 ## Notes

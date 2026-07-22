@@ -27,5 +27,13 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]] · [[kw-go-again]]
 Rulings: search "Path Well Traveled" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS285-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST098.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST098_V2.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU027.png)
+
+## Images
+
+![LGS285 - Path Well Traveled (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS285-RF.webp)
+![MST098 - Path Well Traveled (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST098.png)
+![MST098 - Path Well Traveled (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST098_V2.png)
+![NUU027 - Path Well Traveled (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU027.png)
 
 ## Notes

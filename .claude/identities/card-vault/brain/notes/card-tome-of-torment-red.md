@@ -27,5 +27,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Tome of Torment" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON194.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON194.width-450.png)
+
+## Images
+
+![MON194 - Tome of Torment (red)](https://storage.googleapis.com/fabmaster/media/images/MON194.width-450.png)
+![MON194 - Tome of Torment (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON194.width-450.png)
 
 ## Notes

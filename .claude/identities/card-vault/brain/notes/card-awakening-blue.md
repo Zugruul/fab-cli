@@ -28,5 +28,11 @@ Search your deck for a Guardian attack action card with cost less than or equal 
 
 Keywords: [[kw-fusion]]
 Rulings: search "Awakening" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE006.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE006.width-450.png)
+
+## Images
+
+![ELE006 - Awakening (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE006.width-450.png)
+![ELE006 - Awakening (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE006.width-450.png)
 
 ## Notes

@@ -30,5 +30,11 @@ If you've been cheered this turn, this gets +1{p}."
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-comeback-kid-red]] · [[card-comeback-kid-blue]]
 Rulings: search "Comeback Kid" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB378-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP028.webp)
+
+## Images
+
+![FAB378 - Comeback Kid (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB378-RF.webp)
+![SUP028 - Comeback Kid (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP028.webp)
 
 ## Notes

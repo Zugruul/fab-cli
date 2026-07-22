@@ -23,5 +23,11 @@ codes: [GEM044, SEA022]
 "{u} up to 3 cogs you control."
 
 Rulings: search "Lubricate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM044.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA022.png)
+
+## Images
+
+![GEM044 - Lubricate (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM044.webp)
+![SEA022 - Lubricate (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA022.png)
 
 ## Notes

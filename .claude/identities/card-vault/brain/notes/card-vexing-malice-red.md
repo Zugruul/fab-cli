@@ -27,5 +27,13 @@ codes: [CHN026, LGS057, MON232]
 
 Variants: [[card-vexing-malice-yellow]] · [[card-vexing-malice-blue]]
 Rulings: search "Vexing Malice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/CHN026.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS057.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/MON232.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-MON232.width-450.png)
+
+## Images
+
+![CHN026 - Vexing Malice (red)](https://storage.googleapis.com/fabmaster/media/images/CHN026.width-450.png)
+![LGS057 - Vexing Malice (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS057.png)
+![MON232 - Vexing Malice (red)](https://storage.googleapis.com/fabmaster/media/images/MON232.width-450.png)
+![MON232 - Vexing Malice (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON232.width-450.png)
 
 ## Notes

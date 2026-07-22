@@ -28,5 +28,10 @@ Equip X weapons and/or equipment from your inventory."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Visit the Golden Anvil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST226.png)
+
+## Images
+
+![MST226 - Visit the Golden Anvil (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST226.png)
 
 ## Notes

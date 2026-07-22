@@ -30,5 +30,12 @@ Watery Grave"
 
 Keywords: [[kw-watery-grave]]
 Rulings: search "Scooba, Salty Sea Dog" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS407.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061_V2.png)
+
+## Images
+
+![LGS407 - Scooba, Salty Sea Dog (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS407.png)
+![SEA061 - Scooba, Salty Sea Dog (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061.png)
+![SEA061 - Scooba, Salty Sea Dog (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061_V2.png)
 
 ## Notes

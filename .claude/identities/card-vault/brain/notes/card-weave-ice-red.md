@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Variants: [[card-weave-ice-yellow]] · [[card-weave-ice-blue]]
 Rulings: search "Weave Ice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE154.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE154.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/OLD014.width-450.png)
+
+## Images
+
+![ELE154 - Weave Ice (red)](https://storage.googleapis.com/fabmaster/media/images/ELE154.width-450.png)
+![ELE154 - Weave Ice (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE154.width-450.png)
+![OLD014 - Weave Ice (red)](https://storage.googleapis.com/fabmaster/media/images/OLD014.width-450.png)
 
 ## Notes

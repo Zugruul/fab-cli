@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-blade-break]]
 Rulings: search "Helm of the Adored" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP017.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP017-CF.webp)
+
+## Images
+
+![SUP017 - Helm of the Adored](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP017.webp)
+![SUP017 - Helm of the Adored](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP017-CF.webp)
 
 ## Notes

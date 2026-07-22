@@ -23,5 +23,10 @@ codes: [HVY254]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Luminaris, Angel's Glow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY254.png)
+
+## Images
+
+![HVY254 - Luminaris, Angel's Glow](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY254.png)
 
 ## Notes

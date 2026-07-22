@@ -28,5 +28,10 @@ Decompose - You may banish 2 Earth cards and an action card from your graveyard.
 
 Keywords: [[kw-decompose]]
 Rulings: search "Sowing Thorns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN214.webp)
+
+## Images
+
+![PEN214 - Sowing Thorns (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN214.webp)
 
 ## Notes

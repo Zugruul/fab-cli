@@ -27,5 +27,13 @@ If you've played a red card this turn, dragons you control have go again while a
 Keywords: [[kw-go-again]]
 Young version: [[card-dromai]]
 Rulings: search "Dromai, Ash Artist" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER059.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER066.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR001.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN018.png)
+
+## Images
+
+![HER059 - Dromai, Ash Artist](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER059.png)
+![HER066 - Dromai, Ash Artist](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER066.png)
+![UPR001 - Dromai, Ash Artist](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR001.png)
+![WIN018 - Dromai, Ash Artist](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN018.png)
 
 ## Notes

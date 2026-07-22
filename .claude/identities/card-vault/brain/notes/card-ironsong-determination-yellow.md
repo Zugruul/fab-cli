@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-dominate]]
 Rulings: search "Ironsong Determination" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR122.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR122.png)
+
+## Images
+
+![WTR122 - Ironsong Determination (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR122.png)
+![WTR122 - Ironsong Determination (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR122.png)
 
 ## Notes

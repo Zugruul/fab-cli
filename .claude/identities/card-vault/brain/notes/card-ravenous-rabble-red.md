@@ -30,5 +30,23 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-ravenous-rabble-yellow]] · [[card-ravenous-rabble-blue]]
 Rulings: search "Ravenous Rabble" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP393.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ012.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ029.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191-RF.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC191.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL017.png) · [Image #8](https://storage.googleapis.com/fabmaster/media/images/DRO021.width-450.png) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB190.png) · [Image #10](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT213.width-450.png) · [Image #11](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP021.png) · [Image #12](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ019.webp) · [Image #13](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA017.webp) · [Image #14](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA219.png)
+
+## Images
+
+![1HP393 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/media/images/1HP393.width-450.png)
+![AAZ012 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ012.png)
+![ANQ029 - Ravenous Rabble (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ029.webp)
+![ARC191 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191.png)
+![ARC191 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191-RF.png)
+![ARC191 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC191.png)
+![AZL017 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL017.png)
+![DRO021 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/media/images/DRO021.width-450.png)
+![FAB190 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB190.png)
+![OUT213 - Ravenous Rabble (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT213.width-450.png)
+![RIP021 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP021.png)
+![SAZ019 - Ravenous Rabble (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ019.webp)
+![SBA017 - Ravenous Rabble (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA017.webp)
+![SEA219 - Ravenous Rabble (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA219.png)
 
 ## Notes

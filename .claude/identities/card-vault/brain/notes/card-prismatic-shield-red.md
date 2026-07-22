@@ -24,5 +24,12 @@ codes: [MON092, PSM026]
 
 Variants: [[card-prismatic-shield-yellow]] · [[card-prismatic-shield-blue]]
 Rulings: search "Prismatic Shield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON092.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON092.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/PSM026.width-450.png)
+
+## Images
+
+![MON092 - Prismatic Shield (red)](https://storage.googleapis.com/fabmaster/media/images/MON092.width-450.png)
+![MON092 - Prismatic Shield (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON092.width-450.png)
+![PSM026 - Prismatic Shield (red)](https://storage.googleapis.com/fabmaster/media/images/PSM026.width-450.png)
 
 ## Notes

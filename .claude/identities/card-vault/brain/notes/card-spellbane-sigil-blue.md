@@ -27,5 +27,11 @@ Arcane Barrier X"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Spellbane Sigil" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN201.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN201-MV.webp)
+
+## Images
+
+![OMN201 - Spellbane Sigil (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN201.webp)
+![OMN201 - Spellbane Sigil (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN201-MV.webp)
 
 ## Notes

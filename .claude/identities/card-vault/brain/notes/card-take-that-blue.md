@@ -27,5 +27,10 @@ codes: [SUP113]
 
 Variants: [[card-take-that-red]] · [[card-take-that-yellow]]
 Rulings: search "Take That!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP113.webp)
+
+## Images
+
+![SUP113 - Take That! (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP113.webp)
 
 ## Notes

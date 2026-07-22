@@ -24,5 +24,11 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Flamescale Furnace" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB087.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR084.png)
+
+## Images
+
+![FAB087 - Flamescale Furnace](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB087.png)
+![UPR084 - Flamescale Furnace](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR084.png)
 
 ## Notes

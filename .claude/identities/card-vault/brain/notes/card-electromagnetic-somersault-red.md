@@ -24,5 +24,11 @@ codes: [AST019, ROS085]
 
 Variants: [[card-electromagnetic-somersault-yellow]] · [[card-electromagnetic-somersault-blue]]
 Rulings: search "Electromagnetic Somersault" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST019.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS085.png)
+
+## Images
+
+![AST019 - Electromagnetic Somersault (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST019.webp)
+![ROS085 - Electromagnetic Somersault (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS085.png)
 
 ## Notes

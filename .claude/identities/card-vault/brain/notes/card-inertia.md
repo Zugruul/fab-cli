@@ -21,5 +21,18 @@ codes: [AAZ032, ARA029, AZL030, FAB135, LGS127, OUT236, RIP030, SAZ036, UZU030]
 
 Keywords: [[kw-token-inertia]]
 Rulings: search "Inertia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ032.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA029.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL030.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB135.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS127.png) · [Image #6](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT236.width-450.png) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP030.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ036.webp) · [Image #9](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU030.png)
+
+## Images
+
+![AAZ032 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ032.png)
+![ARA029 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA029.png)
+![AZL030 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL030.png)
+![FAB135 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB135.png)
+![LGS127 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS127.png)
+![OUT236 - Inertia](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT236.width-450.png)
+![RIP030 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP030.png)
+![SAZ036 - Inertia](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ036.webp)
+![UZU030 - Inertia](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-UZU/EN/UZU030.png)
 
 ## Notes

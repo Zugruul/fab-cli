@@ -29,5 +29,12 @@ Combo - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RE
 
 Keywords: [[kw-specialization]] · [[kw-combo]] · [[kw-go-again]]
 Rulings: search "Mugenshi: RELEASE" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP102.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR083.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR083.png)
+
+## Images
+
+![1HP102 - Mugenshi: RELEASE (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP102.width-450.png)
+![WTR083 - Mugenshi: RELEASE (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR083.png)
+![WTR083 - Mugenshi: RELEASE (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR083.png)
 
 ## Notes

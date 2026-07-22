@@ -24,5 +24,10 @@ codes: [SEA213]
 
 Variants: [[card-fiddlers-green-red]] · [[card-fiddlers-green-blue]]
 Rulings: search "Fiddler's Green" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA213.png)
+
+## Images
+
+![SEA213 - Fiddler's Green (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA213.png)
 
 ## Notes

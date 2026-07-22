@@ -23,5 +23,10 @@ codes: [SUP088]
 "Destroy up to 3 Toughness tokens. Create a Might token for each token destroyed this way."
 
 Rulings: search "Rip Up Their Virtues" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP088.webp)
+
+## Images
+
+![SUP088 - Rip Up Their Virtues (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP088.webp)
 
 ## Notes

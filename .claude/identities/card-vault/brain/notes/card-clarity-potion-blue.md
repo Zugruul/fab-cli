@@ -24,5 +24,10 @@ codes: [EVR182]
 "Instant - Destroy Clarity Potion: Opt 2"
 
 Rulings: search "Clarity Potion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR182.width-450.png)
+
+## Images
+
+![EVR182 - Clarity Potion (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR182.width-450.png)
 
 ## Notes

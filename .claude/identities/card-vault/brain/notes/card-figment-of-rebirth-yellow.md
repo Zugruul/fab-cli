@@ -28,5 +28,11 @@ When this enters the arena, you may put a yellow action card from your graveyard
 
 Keywords: [[kw-legendary]]
 Rulings: search "Figment of Rebirth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009_V2.png)
+
+## Images
+
+![DTD009 - Figment of Rebirth (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009.png)
+![DTD009 - Figment of Rebirth (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD009_V2.png)
 
 ## Notes

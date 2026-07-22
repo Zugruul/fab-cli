@@ -30,5 +30,10 @@ When this hits a hero, banish the top card of their deck."
 Keywords: [[kw-contract]]
 Variants: [[card-annihilate-the-armed-red]] · [[card-annihilate-the-armed-blue]]
 Rulings: search "Annihilate the Armed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN134.png)
+
+## Images
+
+![DYN134 - Annihilate the Armed (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN134.png)
 
 ## Notes

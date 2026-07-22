@@ -26,5 +26,10 @@ codes: [UPR188]
 "When Vipox hits a hero, they lose {h} equal to the number of cards in their hand."
 
 Rulings: search "Vipox" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR188.png)
+
+## Images
+
+![UPR188 - Vipox (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR188.png)
 
 ## Notes

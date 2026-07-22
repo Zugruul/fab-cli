@@ -29,5 +29,11 @@ Battleworn"
 
 Keywords: [[kw-transform]] · [[kw-battleworn]]
 Rulings: search "Evo Scatter Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO040.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC009.png)
+
+## Images
+
+![EVO040 - Evo Scatter Shot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO040.png)
+![TCC009 - Evo Scatter Shot (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC009.png)
 
 ## Notes

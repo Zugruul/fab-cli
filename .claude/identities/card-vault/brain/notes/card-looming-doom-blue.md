@@ -26,5 +26,11 @@ codes: [DYN175]
 At the beginning of your end phase, remove a doom counter from Looming Doom. If you do, deal 2 arcane damage to any target. Otherwise, destroy Looming Doom."
 
 Rulings: search "Looming Doom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN175.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN175_Special.png)
+
+## Images
+
+![DYN175 - Looming Doom (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN175.png)
+![DYN175 - Looming Doom (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN175_Special.png)
 
 ## Notes

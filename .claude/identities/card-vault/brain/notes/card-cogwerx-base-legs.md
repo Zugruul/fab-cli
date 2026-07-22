@@ -21,5 +21,10 @@ codes: [EVO017]
 Once per Turn Instant - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've boosted this turn."
 
 Rulings: search "Cogwerx Base Legs" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO017.png)
+
+## Images
+
+![EVO017 - Cogwerx Base Legs](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO017.png)
 
 ## Notes

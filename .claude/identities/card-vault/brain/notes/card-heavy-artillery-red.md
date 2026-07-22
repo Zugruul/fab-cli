@@ -29,5 +29,11 @@ codes: [EVO061, LGS191]
 Keywords: [[kw-evo-upgrade]]
 Variants: [[card-heavy-artillery-yellow]] · [[card-heavy-artillery-blue]]
 Rulings: search "Heavy Artillery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO061.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS191.png)
+
+## Images
+
+![EVO061 - Heavy Artillery (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO061.png)
+![LGS191 - Heavy Artillery (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS191.png)
 
 ## Notes

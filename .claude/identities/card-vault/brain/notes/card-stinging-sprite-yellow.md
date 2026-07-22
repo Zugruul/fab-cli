@@ -28,5 +28,10 @@ codes: [OMN057]
 
 Variants: [[card-stinging-sprite-red]] · [[card-stinging-sprite-blue]]
 Rulings: search "Stinging Sprite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN057.webp)
+
+## Images
+
+![OMN057 - Stinging Sprite (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN057.webp)
 
 ## Notes

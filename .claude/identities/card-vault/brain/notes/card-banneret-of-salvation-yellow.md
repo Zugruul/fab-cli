@@ -29,5 +29,12 @@ codes: [DTD055, LGS180, SBL023]
 
 Keywords: [[kw-solflare]]
 Rulings: search "Banneret of Salvation" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD055.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS180.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL023.webp)
+
+## Images
+
+![DTD055 - Banneret of Salvation (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD055.png)
+![LGS180 - Banneret of Salvation (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS180.png)
+![SBL023 - Banneret of Salvation (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL023.webp)
 
 ## Notes

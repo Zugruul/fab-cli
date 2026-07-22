@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Break Open the Chests!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN170.webp)
+
+## Images
+
+![PEN170 - Break Open the Chests! (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN170.webp)
 
 ## Notes

@@ -24,5 +24,10 @@ codes: [MPG110]
 
 Variants: [[card-crash-and-bash-red]] · [[card-crash-and-bash-blue]]
 Rulings: search "Crash and Bash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG110.webp)
+
+## Images
+
+![MPG110 - Crash and Bash (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG110.webp)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [FAB319, HNT159]
 "When this attacks a marked hero, create a Fealty token."
 
 Rulings: search "For the Emperor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB319.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT159.png)
+
+## Images
+
+![FAB319 - For the Emperor (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB319.png)
+![HNT159 - For the Emperor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT159.png)
 
 ## Notes

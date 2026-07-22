@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-condemn-to-slaughter-yellow]] · [[card-condemn-to-slaughter-blue]]
 Rulings: search "Condemn to Slaughter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS013.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS127.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI020.webp)
+
+## Images
+
+![AVS013 - Condemn to Slaughter (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS013.webp)
+![ROS127 - Condemn to Slaughter (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS127.png)
+![SVI020 - Condemn to Slaughter (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI020.webp)
 
 ## Notes

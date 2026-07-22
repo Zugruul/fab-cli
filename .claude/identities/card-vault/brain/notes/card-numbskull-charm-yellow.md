@@ -29,5 +29,11 @@ codes: [FAB370, LGS422, SUP007]
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Numbskull Charm" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB370-MV.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP007.webp)
+
+## Images
+
+![FAB370 - Numbskull Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB370-MV.webp)
+![SUP007 - Numbskull Charm (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP007.webp)
 
 ## Notes

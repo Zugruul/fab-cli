@@ -29,5 +29,11 @@ Deal 1 arcane damage to any target."
 
 Keywords: [[kw-meld]] · [[kw-negate]]
 Rulings: search "Null // Shock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS336.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS023.png)
+
+## Images
+
+![LGS336 - Null // Shock (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS336.png)
+![ROS023 - Null // Shock (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS023.png)
 
 ## Notes

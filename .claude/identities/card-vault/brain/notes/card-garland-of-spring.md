@@ -21,5 +21,12 @@ codes: [LGS415, SBL005, SUP212]
 "Action - Destroy this: Gain {r}. Go again"
 
 Rulings: search "Garland of Spring" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS415-CF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL005.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP212.webp)
+
+## Images
+
+![LGS415 - Garland of Spring](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS415-CF.webp)
+![SBL005 - Garland of Spring](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL005.webp)
+![SUP212 - Garland of Spring](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP212.webp)
 
 ## Notes

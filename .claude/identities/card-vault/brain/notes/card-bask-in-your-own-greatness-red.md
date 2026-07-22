@@ -27,5 +27,11 @@ codes: [FAB387, SUP098]
 
 Variants: [[card-bask-in-your-own-greatness-yellow]] · [[card-bask-in-your-own-greatness-blue]]
 Rulings: search "Bask in Your Own Greatness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB387-RF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP098.webp)
+
+## Images
+
+![FAB387 - Bask in Your Own Greatness (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB387-RF.webp)
+![SUP098 - Bask in Your Own Greatness (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP098.webp)
 
 ## Notes

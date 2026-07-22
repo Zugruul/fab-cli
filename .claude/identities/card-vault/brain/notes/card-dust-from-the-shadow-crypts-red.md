@@ -28,5 +28,10 @@ codes: [DYN004]
 
 Keywords: [[kw-material]] · [[kw-phantasm]]
 Rulings: search "Dust from the Shadow Crypts" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN004.png)
+
+## Images
+
+![DYN004 - Dust from the Shadow Crypts (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN004.png)
 
 ## Notes

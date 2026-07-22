@@ -27,5 +27,10 @@ codes: [SEA062]
 
 Variants: [[card-angry-bones-yellow]] · [[card-angry-bones-blue]]
 Rulings: search "Angry Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA062.png)
+
+## Images
+
+![SEA062 - Angry Bones (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA062.png)
 
 ## Notes

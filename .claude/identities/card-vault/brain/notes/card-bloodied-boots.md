@@ -21,5 +21,10 @@ codes: [SMP017]
 Action - Destroy this: Gain 2 action points."
 
 Rulings: search "Bloodied Boots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP017.webp)
+
+## Images
+
+![SMP017 - Bloodied Boots](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP017.webp)
 
 ## Notes

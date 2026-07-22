@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Tome of Harvests" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE118.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE118.width-450.png)
+
+## Images
+
+![ELE118 - Tome of Harvests (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE118.width-450.png)
+![ELE118 - Tome of Harvests (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE118.width-450.png)
 
 ## Notes

@@ -27,5 +27,14 @@ Essence of Lightning"
 Keywords: [[kw-essence]]
 Young version: [[card-oscilio]]
 Rulings: search "Oscilio, Constella Intelligence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER122.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS019.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS019-MV.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS019-MV_BACK.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN039.png)
+
+## Images
+
+![HER122 - Oscilio, Constella Intelligence](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER122.png)
+![ROS019 - Oscilio, Constella Intelligence](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS019.png)
+![ROS019 - Oscilio, Constella Intelligence](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS019-MV.png)
+![ROS019 - Oscilio, Constella Intelligence](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS019-MV_BACK.png)
+![WIN039 - Oscilio, Constella Intelligence](https://storage.googleapis.com/fabmaster/cardfaces/promos/WIN039.png)
 
 ## Notes

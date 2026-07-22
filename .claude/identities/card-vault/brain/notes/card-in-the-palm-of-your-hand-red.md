@@ -28,5 +28,11 @@ When this enters or leaves the arena, draw a card."
 
 Keywords: [[kw-suspense]]
 Rulings: search "In the Palm of Your Hand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS431.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP171.webp)
+
+## Images
+
+![LGS431 - In the Palm of Your Hand (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS431.webp)
+![SUP171 - In the Palm of Your Hand (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP171.webp)
 
 ## Notes

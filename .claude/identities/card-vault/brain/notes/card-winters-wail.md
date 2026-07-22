@@ -23,5 +23,11 @@ codes: [ELE003]
 If an Ice card is pitched this way, Winter's Wail gains "If this hits a hero, create a Frostbite token under their control.""
 
 Rulings: search "Winter's Wail" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE003.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE003.width-450.png)
+
+## Images
+
+![ELE003 - Winter's Wail](https://storage.googleapis.com/fabmaster/media/images/ELE003.width-450.png)
+![ELE003 - Winter's Wail](https://storage.googleapis.com/fabmaster/media/images/U-ELE003.width-450.png)
 
 ## Notes

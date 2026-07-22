@@ -24,5 +24,10 @@ codes: [AHA021]
 "Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card."
 
 Rulings: search "Olé" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA021.webp)
+
+## Images
+
+![AHA021 - Olé (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AHA021.webp)
 
 ## Notes

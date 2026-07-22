@@ -28,5 +28,10 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
 
 Keywords: [[kw-crank]]
 Rulings: search "Tick Tock Clock" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO074.png)
+
+## Images
+
+![EVO074 - Tick Tock Clock (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO074.png)
 
 ## Notes

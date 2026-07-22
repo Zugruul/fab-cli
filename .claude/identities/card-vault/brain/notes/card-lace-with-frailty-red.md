@@ -27,5 +27,13 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Lace with Frailty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ018.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS135.png) · [Image #3](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT113.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ023.webp)
+
+## Images
+
+![AAZ018 - Lace with Frailty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AAZ/EN/AAZ018.png)
+![LGS135 - Lace with Frailty (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS135.png)
+![OUT113 - Lace with Frailty (red)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT113.width-450.png)
+![SAZ023 - Lace with Frailty (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ023.webp)
 
 ## Notes

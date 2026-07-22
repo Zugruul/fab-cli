@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-engaged-swiftblade-yellow]] · [[card-engaged-swiftblade-blue]]
 Rulings: search "Engaged Swiftblade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY127.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA016.png)
+
+## Images
+
+![HVY127 - Engaged Swiftblade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY127.png)
+![OLA016 - Engaged Swiftblade (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA016.png)
 
 ## Notes

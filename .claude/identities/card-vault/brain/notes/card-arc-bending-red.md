@@ -30,5 +30,10 @@ Lightning Bond - If a Lightning card was pitched to play this, this gets go agai
 
 Keywords: [[kw-bond]] · [[kw-go-again]]
 Rulings: search "Arc Bending" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN202.webp)
+
+## Images
+
+![PEN202 - Arc Bending (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN202.webp)
 
 ## Notes

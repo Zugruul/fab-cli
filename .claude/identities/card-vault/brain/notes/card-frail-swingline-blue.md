@@ -29,5 +29,10 @@ When this defends an attack with {p} less than its base, its controller discards
 
 Keywords: [[kw-go-again]]
 Rulings: search "Frail Swingline" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN087.webp)
+
+## Images
+
+![PEN087 - Frail Swingline (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN087.webp)
 
 ## Notes

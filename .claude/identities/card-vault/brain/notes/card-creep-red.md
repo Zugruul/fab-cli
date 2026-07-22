@@ -29,5 +29,11 @@ When this attacks, the next attack with stealth you play this combat chain gets 
 
 Keywords: [[kw-stealth]] · [[kw-go-again]]
 Rulings: search "Creep" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC009.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM160.webp)
+
+## Images
+
+![AAC009 - Creep (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC009.webp)
+![GEM160 - Creep (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM160.webp)
 
 ## Notes

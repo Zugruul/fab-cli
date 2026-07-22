@@ -21,5 +21,10 @@ codes: [PEN316]
 "Defense Reaction - Destroy this: You may add an action card from your arsenal to the active chain link as a defending card."
 
 Rulings: search "Burnished Bunkerplate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN316.webp)
+
+## Images
+
+![PEN316 - Burnished Bunkerplate](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN316.webp)
 
 ## Notes

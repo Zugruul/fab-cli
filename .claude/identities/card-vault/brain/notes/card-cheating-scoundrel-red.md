@@ -28,5 +28,11 @@ Go again"
 
 Keywords: [[kw-go-again]] · [[kw-wager]]
 Rulings: search "Cheating Scoundrel" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN169.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN169-RF.webp)
+
+## Images
+
+![PEN169 - Cheating Scoundrel (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN169.webp)
+![PEN169 - Cheating Scoundrel (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN169-RF.webp)
 
 ## Notes

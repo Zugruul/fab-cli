@@ -26,5 +26,10 @@ codes: [MST090]
 "If you've played another blue card this turn, this gets +2{p}."
 
 Rulings: search "Tidal Surge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST090.png)
+
+## Images
+
+![MST090 - Tidal Surge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST090.png)
 
 ## Notes

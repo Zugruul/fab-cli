@@ -21,5 +21,12 @@ codes: [ELE115, FAB052]
 "Once per Turn Instant - {r}, put a face down card from your arsenal on the bottom of your deck: Draw a card and prevent the next 1 damage that would be dealt to your hero this turn."
 
 Rulings: search "Crown of Seeds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE115.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE115.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB052.png)
+
+## Images
+
+![ELE115 - Crown of Seeds](https://storage.googleapis.com/fabmaster/media/images/ELE115.width-450.png)
+![ELE115 - Crown of Seeds](https://storage.googleapis.com/fabmaster/media/images/U-ELE115.width-450.png)
+![FAB052 - Crown of Seeds](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB052.png)
 
 ## Notes

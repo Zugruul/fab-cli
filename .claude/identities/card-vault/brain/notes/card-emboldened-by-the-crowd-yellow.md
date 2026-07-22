@@ -24,5 +24,10 @@ codes: [PEN290]
 "If you've been cheered this turn, this costs {r}{r}{r} less to play."
 
 Rulings: search "Emboldened by the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN290.webp)
+
+## Images
+
+![PEN290 - Emboldened by the Crowd (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN290.webp)
 
 ## Notes

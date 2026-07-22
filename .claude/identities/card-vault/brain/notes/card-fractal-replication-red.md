@@ -28,5 +28,10 @@ Fractal Replication's {p} is equal to the greatest base {p} among Illusionist at
 Fractal Replication's {d} is equal to the greatest base {d} among Illusionist attack action cards on the combat chain."
 
 Rulings: search "Fractal Replication" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR138_Fractal_Replication.width-10000.png)
+
+## Images
+
+![EVR138 - Fractal Replication (red)](https://storage.googleapis.com/fabmaster/media/images/EVR138_Fractal_Replication.width-10000.png)
 
 ## Notes

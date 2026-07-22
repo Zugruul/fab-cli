@@ -20,5 +20,10 @@ codes: [DTD075]
 "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn."
 
 Rulings: search "Radiant View" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD075.png)
+
+## Images
+
+![DTD075 - Radiant View](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD075.png)
 
 ## Notes

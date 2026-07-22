@@ -32,5 +32,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-slice-and-dice-red]] · [[card-slice-and-dice-yellow]]
 Rulings: search "Slice and Dice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR059.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR059-RF.png)
+
+## Images
+
+![EVR059 - Slice and Dice (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR059.width-450.png)
+![EVR059 - Slice and Dice (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR059-RF.png)
 
 ## Notes

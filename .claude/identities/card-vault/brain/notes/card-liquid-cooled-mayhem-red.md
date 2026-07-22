@@ -29,5 +29,12 @@ codes: [EVO064, LGS198, TCC012]
 Keywords: [[kw-evo-upgrade]]
 Variants: [[card-liquid-cooled-mayhem-yellow]] · [[card-liquid-cooled-mayhem-blue]]
 Rulings: search "Liquid-Cooled Mayhem" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO064.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS198.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC012.png)
+
+## Images
+
+![EVO064 - Liquid-Cooled Mayhem (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO064.png)
+![LGS198 - Liquid-Cooled Mayhem (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS198.png)
+![TCC012 - Liquid-Cooled Mayhem (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC012.png)
 
 ## Notes

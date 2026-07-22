@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-the-crowd-cheers-the-crowd-boos]] · [[kw-go-again]]
 Variants: [[card-prime-the-crowd-yellow]] · [[card-prime-the-crowd-blue]]
 Rulings: search "Prime the Crowd" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY013.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP236.webp)
+
+## Images
+
+![SLY013 - Prime the Crowd (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY013.webp)
+![SUP236 - Prime the Crowd (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP236.webp)
 
 ## Notes

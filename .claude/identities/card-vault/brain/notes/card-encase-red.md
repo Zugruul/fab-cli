@@ -28,5 +28,10 @@ Deal 3 arcane damage to any target. If Encase was fused and deals damage to a he
 
 Keywords: [[kw-fusion]] · [[kw-freeze]]
 Rulings: search "Encase" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR104.png)
+
+## Images
+
+![UPR104 - Encase (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR104.png)
 
 ## Notes

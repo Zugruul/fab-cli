@@ -28,5 +28,11 @@ codes: [MON041]
 
 Variants: [[card-valiant-thrust-red]] · [[card-valiant-thrust-yellow]]
 Rulings: search "Valiant Thrust" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON041.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON041.width-450.png)
+
+## Images
+
+![MON041 - Valiant Thrust (blue)](https://storage.googleapis.com/fabmaster/media/images/MON041.width-450.png)
+![MON041 - Valiant Thrust (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON041.width-450.png)
 
 ## Notes

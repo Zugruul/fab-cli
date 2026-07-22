@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Line Crossers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN300.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY009.webp)
+
+## Images
+
+![PEN300 - Line Crossers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN300.webp)
+![SLY009 - Line Crossers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY009.webp)
 
 ## Notes

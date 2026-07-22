@@ -24,5 +24,10 @@ codes: [EVR186]
 "Instant - Destroy Potion of Ironhide: Attack action cards you own gain +1{d} this turn."
 
 Rulings: search "Potion of Ironhide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR186.width-450.png)
+
+## Images
+
+![EVR186 - Potion of Ironhide (blue)](https://storage.googleapis.com/fabmaster/media/images/EVR186.width-450.png)
 
 ## Notes

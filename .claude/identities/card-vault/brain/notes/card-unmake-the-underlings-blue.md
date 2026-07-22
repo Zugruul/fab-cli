@@ -30,5 +30,10 @@ When this hits an ally, destroy that ally."
 
 Keywords: [[kw-stealth]]
 Rulings: search "Unmake the Underlings" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN228.webp)
+
+## Images
+
+![OMN228 - Unmake the Underlings (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN228.webp)
 
 ## Notes

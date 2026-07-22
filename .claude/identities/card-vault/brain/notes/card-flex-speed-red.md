@@ -29,5 +29,10 @@ codes: [SUP146]
 Keywords: [[kw-go-again]]
 Variants: [[card-flex-speed-yellow]] · [[card-flex-speed-blue]]
 Rulings: search "Flex Speed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP146.webp)
+
+## Images
+
+![SUP146 - Flex Speed (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP146.webp)
 
 ## Notes

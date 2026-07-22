@@ -32,5 +32,10 @@ Blood Debt"
 Keywords: [[kw-blood-debt]]
 Variants: [[card-tribute-to-the-legions-of-doom-red]] · [[card-tribute-to-the-legions-of-doom-yellow]]
 Rulings: search "Tribute to the Legions of Doom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD132.png)
+
+## Images
+
+![DTD132 - Tribute to the Legions of Doom (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD132.png)
 
 ## Notes

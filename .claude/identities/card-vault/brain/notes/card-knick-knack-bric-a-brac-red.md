@@ -25,5 +25,11 @@ codes: [EVR159]
 Search your deck for a card with Amulet, Potion, or Talisman in its name, put it into the arena, then shuffle. For each 4 Copper, 2 Silver, and/or 1 Gold destroyed this way, repeat this process."
 
 Rulings: search "Knick Knack Bric-a-brac" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR159.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR159-RF.png)
+
+## Images
+
+![EVR159 - Knick Knack Bric-a-brac (red)](https://storage.googleapis.com/fabmaster/media/images/EVR159.width-450.png)
+![EVR159 - Knick Knack Bric-a-brac (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR159-RF.png)
 
 ## Notes

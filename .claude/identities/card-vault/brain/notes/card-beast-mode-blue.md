@@ -27,5 +27,10 @@ codes: [HVY019]
 
 Variants: [[card-beast-mode-red]] · [[card-beast-mode-yellow]]
 Rulings: search "Beast Mode" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY019.png)
+
+## Images
+
+![HVY019 - Beast Mode (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY019.png)
 
 ## Notes

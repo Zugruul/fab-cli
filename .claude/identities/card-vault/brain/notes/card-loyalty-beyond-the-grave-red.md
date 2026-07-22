@@ -24,5 +24,11 @@ codes: [HNT150]
 "While this is in your graveyard, at the start of your turn, you may banish 2 cards named Loyalty Beyond the Grave from your graveyard. If you do, draw a card."
 
 Rulings: search "Loyalty Beyond the Grave" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT150.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT150-EA.png)
+
+## Images
+
+![HNT150 - Loyalty Beyond the Grave (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT150.png)
+![HNT150 - Loyalty Beyond the Grave (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT150-EA.png)
 
 ## Notes

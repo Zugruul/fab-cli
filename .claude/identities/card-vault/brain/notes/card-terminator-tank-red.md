@@ -32,5 +32,11 @@ codes: [EVO055]
 
 Keywords: [[kw-overpower]]
 Rulings: search "Terminator Tank" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO055.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO055_V2.png)
+
+## Images
+
+![EVO055 - Terminator Tank (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO055.png)
+![EVO055 - Terminator Tank (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO055_V2.png)
 
 ## Notes

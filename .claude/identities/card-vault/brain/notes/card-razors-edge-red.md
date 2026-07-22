@@ -25,5 +25,14 @@ codes: [AAC019, ARA016, HNT050, OUT042, WOD013]
 
 Variants: [[card-razors-edge-yellow]] · [[card-razors-edge-blue]]
 Rulings: search "Razor's Edge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC019.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA016.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT050.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/OUT042.original.png) · [Image #5](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD013.webp)
+
+## Images
+
+![AAC019 - Razor's Edge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC019.webp)
+![ARA016 - Razor's Edge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-ARA/EN/ARA016.png)
+![HNT050 - Razor's Edge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT050.png)
+![OUT042 - Razor's Edge (red)](https://storage.googleapis.com/fabmaster/media/images/OUT042.original.png)
+![WOD013 - Razor's Edge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD013.webp)
 
 ## Notes

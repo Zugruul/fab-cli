@@ -30,5 +30,10 @@ If you control a Hyper Driver, this gets overpower."
 Keywords: [[kw-boost]] · [[kw-overpower]]
 Variants: [[card-bull-bar-yellow]] · [[card-bull-bar-blue]]
 Rulings: search "Bull Bar" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO147.png)
+
+## Images
+
+![EVO147 - Bull Bar (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO147.png)
 
 ## Notes

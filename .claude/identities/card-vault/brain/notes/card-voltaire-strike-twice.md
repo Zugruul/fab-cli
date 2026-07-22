@@ -26,5 +26,12 @@ It gains go again until end of turn."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Voltaire, Strike Twice" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE034.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE034.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB075.png)
+
+## Images
+
+![ELE034 - Voltaire, Strike Twice](https://storage.googleapis.com/fabmaster/media/images/ELE034.width-450.png)
+![ELE034 - Voltaire, Strike Twice](https://storage.googleapis.com/fabmaster/media/images/U-ELE034.width-450.png)
+![FAB075 - Voltaire, Strike Twice](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB075.png)
 
 ## Notes

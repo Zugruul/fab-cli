@@ -29,5 +29,14 @@ codes: [1HP075, BVO018, MPG066, WTR065]
 Keywords: [[kw-crush]]
 Variants: [[card-crush-confidence-red]] · [[card-crush-confidence-yellow]]
 Rulings: search "Crush Confidence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP075.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO18.width-450.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG066.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR065.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR065.png)
+
+## Images
+
+![1HP075 - Crush Confidence (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP075.width-450.png)
+![BVO018 - Crush Confidence (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO18.width-450.png)
+![MPG066 - Crush Confidence (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG066.webp)
+![WTR065 - Crush Confidence (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR065.png)
+![WTR065 - Crush Confidence (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR065.png)
 
 ## Notes

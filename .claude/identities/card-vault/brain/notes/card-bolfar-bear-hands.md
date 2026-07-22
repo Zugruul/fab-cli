@@ -24,5 +24,10 @@ codes: [SMP001]
 Action - {r}{r}{r}, {t}: The next attack action card with crush you play this turn may attack an additional hero. Go again"
 
 Rulings: search "Bolfar, Bear Hands" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP001.webp)
+
+## Images
+
+![SMP001 - Bolfar, Bear Hands](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP001.webp)
 
 ## Notes

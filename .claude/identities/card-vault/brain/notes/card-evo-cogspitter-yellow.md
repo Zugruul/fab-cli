@@ -29,5 +29,10 @@ Blade Break"
 
 Keywords: [[kw-transform]] · [[kw-blade-break]]
 Rulings: search "Evo Cogspitter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO048.png)
+
+## Images
+
+![EVO048 - Evo Cogspitter (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO048.png)
 
 ## Notes

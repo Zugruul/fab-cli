@@ -20,5 +20,11 @@ codes: [JDG009, JDG010]
 "Action - {r}{r}{r}, destroy this: Each hero draws up to their {i}."
 
 Rulings: search "Proclamation of Abundance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG009.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG010.png)
+
+## Images
+
+![JDG009 - Proclamation of Abundance](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG009.png)
+![JDG010 - Proclamation of Abundance](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG010.png)
 
 ## Notes

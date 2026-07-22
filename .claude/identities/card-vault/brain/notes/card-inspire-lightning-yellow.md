@@ -29,5 +29,11 @@ If Inspire Lightning was fused, deal 2 arcane damage to target hero."
 Keywords: [[kw-fusion]]
 Variants: [[card-inspire-lightning-red]] · [[card-inspire-lightning-blue]]
 Rulings: search "Inspire Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE089.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE089.width-450.png)
+
+## Images
+
+![ELE089 - Inspire Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE089.width-450.png)
+![ELE089 - Inspire Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE089.width-450.png)
 
 ## Notes

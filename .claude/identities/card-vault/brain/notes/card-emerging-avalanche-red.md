@@ -32,5 +32,11 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
 Keywords: [[kw-fusion]] · [[kw-go-again]]
 Variants: [[card-emerging-avalanche-yellow]] · [[card-emerging-avalanche-blue]]
 Rulings: search "Emerging Avalanche" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE025.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE025.width-450.png)
+
+## Images
+
+![ELE025 - Emerging Avalanche (red)](https://storage.googleapis.com/fabmaster/media/images/ELE025.width-450.png)
+![ELE025 - Emerging Avalanche (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE025.width-450.png)
 
 ## Notes

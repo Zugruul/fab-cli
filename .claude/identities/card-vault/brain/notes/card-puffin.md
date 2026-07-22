@@ -24,5 +24,12 @@ The second time you crank each turn, draw a card."
 
 Adult version: [[card-puffin-hightail]]
 Rulings: search "Puffin" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002_V2_BACK.png)
+
+## Images
+
+![SEA002 - Puffin](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002.png)
+![SEA002 - Puffin](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002_V2.png)
+![SEA002 - Puffin](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002_V2_BACK.png)
 
 ## Notes

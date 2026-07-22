@@ -26,5 +26,10 @@ codes: [SEA252]
 Hero abilities can't create cards."
 
 Rulings: search "Preach Modesty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA252.png)
+
+## Images
+
+![SEA252 - Preach Modesty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA252.png)
 
 ## Notes

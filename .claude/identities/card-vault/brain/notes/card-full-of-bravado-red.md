@@ -27,5 +27,10 @@ codes: [SUP178]
 
 Variants: [[card-full-of-bravado-yellow]] · [[card-full-of-bravado-blue]]
 Rulings: search "Full of Bravado" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP178.webp)
+
+## Images
+
+![SUP178 - Full of Bravado (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP178.webp)
 
 ## Notes

@@ -21,5 +21,10 @@ Clash with each opposing hero."
 
 Keywords: [[kw-clash]]
 Rulings: search "Big Hits, Big Applause" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP009.webp)
+
+## Images
+
+![SMP009 - Big Hits, Big Applause](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP009.webp)
 
 ## Notes

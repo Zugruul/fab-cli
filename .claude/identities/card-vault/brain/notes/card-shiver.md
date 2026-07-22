@@ -26,5 +26,13 @@ It gains dominate until end of turn."
 
 Keywords: [[kw-dominate]]
 Rulings: search "Shiver" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE033.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE033.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS067.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/LXI002.width-450.png)
+
+## Images
+
+![ELE033 - Shiver](https://storage.googleapis.com/fabmaster/media/images/ELE033.width-450.png)
+![ELE033 - Shiver](https://storage.googleapis.com/fabmaster/media/images/U-ELE033.width-450.png)
+![LGS067 - Shiver](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS067.png)
+![LXI002 - Shiver](https://storage.googleapis.com/fabmaster/media/images/LXI002.width-450.png)
 
 ## Notes

@@ -27,5 +27,12 @@ codes: [BVO023, WTR178]
 
 Variants: [[card-barraging-brawnhide-red]] · [[card-barraging-brawnhide-yellow]]
 Rulings: search "Barraging Brawnhide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BVO23.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR178.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR178.png)
+
+## Images
+
+![BVO023 - Barraging Brawnhide (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO23.width-450.png)
+![WTR178 - Barraging Brawnhide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR178.png)
+![WTR178 - Barraging Brawnhide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR178.png)
 
 ## Notes

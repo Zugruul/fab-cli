@@ -21,5 +21,13 @@ codes: [BRI005, ELE116, FAB257]
 "Instant - {r}{r}{r}, destroy Plume of Evergrowth: Return target Earth action card or Earth instant card from your graveyard to your hand."
 
 Rulings: search "Plume of Evergrowth" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BRI005.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE116.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-ELE116.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB257.png)
+
+## Images
+
+![BRI005 - Plume of Evergrowth](https://storage.googleapis.com/fabmaster/media/images/BRI005.width-450.png)
+![ELE116 - Plume of Evergrowth](https://storage.googleapis.com/fabmaster/media/images/ELE116.width-450.png)
+![ELE116 - Plume of Evergrowth](https://storage.googleapis.com/fabmaster/media/images/U-ELE116.width-450.png)
+![FAB257 - Plume of Evergrowth](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB257.png)
 
 ## Notes

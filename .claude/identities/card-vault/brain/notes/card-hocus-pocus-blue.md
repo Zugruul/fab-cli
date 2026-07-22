@@ -27,5 +27,11 @@ codes: [AUA022, ROS145]
 
 Variants: [[card-hocus-pocus-red]] · [[card-hocus-pocus-yellow]]
 Rulings: search "Hocus Pocus" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA022.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS145.png)
+
+## Images
+
+![AUA022 - Hocus Pocus (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA022.webp)
+![ROS145 - Hocus Pocus (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS145.png)
 
 ## Notes

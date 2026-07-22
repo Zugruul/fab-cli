@@ -26,5 +26,11 @@ codes: [GEM127, PEN166]
 "If you've activated a cannon this turn, this gets "When this hits a hero, destroy a card in their arsenal. If you do, create a Gold token.""
 
 Rulings: search "Shallow Water Shark Harpoon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM127.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN166.webp)
+
+## Images
+
+![GEM127 - Shallow Water Shark Harpoon (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM127.webp)
+![PEN166 - Shallow Water Shark Harpoon (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN166.webp)
 
 ## Notes

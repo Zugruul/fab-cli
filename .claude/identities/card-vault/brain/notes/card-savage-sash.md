@@ -24,5 +24,12 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Savage Sash" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO004.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM082-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG040.png)
+
+## Images
+
+![AKO004 - Savage Sash](https://storage.googleapis.com/fabmaster/cardfaces/2024-ARMORY-AKO/EN/AKO004.png)
+![GEM082 - Savage Sash](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM082-RF.webp)
+![JDG040 - Savage Sash](https://storage.googleapis.com/fabmaster/cardfaces/promos/JDG040.png)
 
 ## Notes

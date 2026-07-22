@@ -28,5 +28,12 @@ When you attack with Flock of the Feather Walkers, create a Quicken token."
 
 Variants: [[card-flock-of-the-feather-walkers-red]] · [[card-flock-of-the-feather-walkers-blue]]
 Rulings: search "Flock of the Feather Walkers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP391.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR183.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR183.png)
+
+## Images
+
+![1HP391 - Flock of the Feather Walkers (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP391.width-450.png)
+![WTR183 - Flock of the Feather Walkers (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR183.png)
+![WTR183 - Flock of the Feather Walkers (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR183.png)
 
 ## Notes

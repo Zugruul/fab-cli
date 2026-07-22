@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-spectral-manifestations-red]] · [[card-spectral-manifestations-yellow]]
 Rulings: search "Spectral Manifestations" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST154.png)
+
+## Images
+
+![MST154 - Spectral Manifestations (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST154.png)
 
 ## Notes

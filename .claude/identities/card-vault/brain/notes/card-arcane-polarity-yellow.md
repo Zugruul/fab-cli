@@ -25,5 +25,10 @@ If you've been dealt arcane damage this turn, instead gain 3{h}."
 
 Variants: [[card-arcane-polarity-red]] · [[card-arcane-polarity-blue]]
 Rulings: search "Arcane Polarity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS232.png)
+
+## Images
+
+![ROS232 - Arcane Polarity (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS232.png)
 
 ## Notes

@@ -28,5 +28,11 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
 
 Keywords: [[kw-go-again]]
 Rulings: search "Power Stance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB314.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT127.png)
+
+## Images
+
+![FAB314 - Power Stance (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB314.png)
+![HNT127 - Power Stance (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT127.png)
 
 ## Notes

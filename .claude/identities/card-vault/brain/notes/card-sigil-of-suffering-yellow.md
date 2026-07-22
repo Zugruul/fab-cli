@@ -26,5 +26,11 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}."
 
 Variants: [[card-sigil-of-suffering-red]] · [[card-sigil-of-suffering-blue]]
 Rulings: search "Sigil of Suffering" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE228.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE228.width-450.png)
+
+## Images
+
+![ELE228 - Sigil of Suffering (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE228.width-450.png)
+![ELE228 - Sigil of Suffering (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE228.width-450.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [DYN010]
 
 Variants: [[card-reincarnate-yellow]] · [[card-reincarnate-blue]]
 Rulings: search "Reincarnate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN010.png)
+
+## Images
+
+![DYN010 - Reincarnate (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN010.png)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [OUT019]
 
 Variants: [[card-sneak-attack-red]] · [[card-sneak-attack-blue]]
 Rulings: search "Sneak Attack" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT019.width-450.png)
+
+## Images
+
+![OUT019 - Sneak Attack (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT019.width-450.png)
 
 ## Notes

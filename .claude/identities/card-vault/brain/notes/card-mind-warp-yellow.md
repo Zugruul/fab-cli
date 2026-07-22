@@ -27,5 +27,10 @@ Surge - If this deals more than 2 damage to a hero, they shuffle their hand into
 
 Keywords: [[kw-surge]]
 Rulings: search "Mind Warp" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN194.png)
+
+## Images
+
+![DYN194 - Mind Warp (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN194.png)
 
 ## Notes

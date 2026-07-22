@@ -27,5 +27,12 @@ codes: [RNR019, WTR177]
 
 Variants: [[card-barraging-brawnhide-red]] · [[card-barraging-brawnhide-blue]]
 Rulings: search "Barraging Brawnhide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/RNR19.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR177.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR177.png)
+
+## Images
+
+![RNR019 - Barraging Brawnhide (yellow)](https://storage.googleapis.com/fabmaster/media/images/RNR19.width-450.png)
+![WTR177 - Barraging Brawnhide (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR177.png)
+![WTR177 - Barraging Brawnhide (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR177.png)
 
 ## Notes

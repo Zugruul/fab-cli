@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Draw Back the Hammer" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA039.png)
+
+## Images
+
+![SEA039 - Draw Back the Hammer (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA039.png)
 
 ## Notes

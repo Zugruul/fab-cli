@@ -24,5 +24,13 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Valiant Dynamo" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB020.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON107.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON107.width-450.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW012-RF.webp)
+
+## Images
+
+![FAB020 - Valiant Dynamo](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB020.png)
+![MON107 - Valiant Dynamo](https://storage.googleapis.com/fabmaster/media/images/MON107.width-450.png)
+![MON107 - Valiant Dynamo](https://storage.googleapis.com/fabmaster/media/images/U-MON107.width-450.png)
+![MPW012 - Valiant Dynamo](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW012-RF.webp)
 
 ## Notes

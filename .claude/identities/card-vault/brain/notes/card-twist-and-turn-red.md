@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-twist-and-turn-yellow]] · [[card-twist-and-turn-blue]]
 Rulings: search "Twist and Turn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT122.png)
+
+## Images
+
+![HNT122 - Twist and Turn (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT122.png)
 
 ## Notes

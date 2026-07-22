@@ -30,5 +30,10 @@ When this hits a hero, if you control an Orbitoclast, they lose all hero card ab
 
 Keywords: [[kw-stealth]]
 Rulings: search "Lobotomy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN141.webp)
+
+## Images
+
+![PEN141 - Lobotomy (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN141.webp)
 
 ## Notes

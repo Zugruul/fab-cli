@@ -31,5 +31,10 @@ Whenever this banishes an attack action card, gain 1{h}."
 Keywords: [[kw-stealth]]
 Variants: [[card-desires-of-flesh-red]] · [[card-desires-of-flesh-blue]]
 Rulings: search "Desires of Flesh" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST119.png)
+
+## Images
+
+![MST119 - Desires of Flesh (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST119.png)
 
 ## Notes

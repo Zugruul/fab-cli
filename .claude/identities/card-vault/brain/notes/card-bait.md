@@ -24,5 +24,11 @@ Once per Turn Attack Reaction - 0: This gets +1{p} and go again."
 
 Keywords: [[kw-token-bait]]
 Rulings: search "Bait" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB393.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP259.webp)
+
+## Images
+
+![FAB393 - Bait](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB393.webp)
+![SUP259 - Bait](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP259.webp)
 
 ## Notes

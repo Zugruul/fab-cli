@@ -30,5 +30,11 @@ If Oaken Old was fused, it gains +2{p}, dominate, and "If this hits a hero, they
 
 Keywords: [[kw-fusion]] · [[kw-dominate]]
 Rulings: search "Oaken Old" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE005.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE005.width-450.png)
+
+## Images
+
+![ELE005 - Oaken Old (red)](https://storage.googleapis.com/fabmaster/media/images/ELE005.width-450.png)
+![ELE005 - Oaken Old (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE005.width-450.png)
 
 ## Notes

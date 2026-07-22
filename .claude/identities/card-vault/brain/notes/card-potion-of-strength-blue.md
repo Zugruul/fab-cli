@@ -24,5 +24,15 @@ codes: [1HP382, BVO028, FAB013, TCC073, WTR171]
 "Action - Destroy this: Your next attack this turn gains +2{p}. Go again"
 
 Rulings: search "Potion of Strength" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP382.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BVO28.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB013.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC073.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR171.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR171.png)
+
+## Images
+
+![1HP382 - Potion of Strength (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP382.width-450.png)
+![BVO028 - Potion of Strength (blue)](https://storage.googleapis.com/fabmaster/media/images/BVO28.width-450.png)
+![FAB013 - Potion of Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB013.png)
+![TCC073 - Potion of Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC073.png)
+![WTR171 - Potion of Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR171.png)
+![WTR171 - Potion of Strength (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR171.png)
 
 ## Notes

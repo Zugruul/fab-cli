@@ -29,5 +29,10 @@ Go again"
 
 Keywords: [[kw-legendary]] · [[kw-go-again]]
 Rulings: search "Phoenix Bannerman: Head" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN257.webp)
+
+## Images
+
+![PEN257 - Phoenix Bannerman: Head (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN257.webp)
 
 ## Notes

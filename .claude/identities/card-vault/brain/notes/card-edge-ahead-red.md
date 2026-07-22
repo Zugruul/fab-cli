@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-wager]]
 Variants: [[card-edge-ahead-yellow]] · [[card-edge-ahead-blue]]
 Rulings: search "Edge Ahead" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY124.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA015.png)
+
+## Images
+
+![HVY124 - Edge Ahead (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY124.png)
+![OLA015 - Edge Ahead (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA015.png)
 
 ## Notes

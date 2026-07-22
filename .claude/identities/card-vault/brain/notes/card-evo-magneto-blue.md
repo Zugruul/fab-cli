@@ -29,5 +29,10 @@ Temper"
 
 Keywords: [[kw-temper]]
 Rulings: search "Evo Magneto" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY248.png)
+
+## Images
+
+![HVY248 - Evo Magneto (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY248.png)
 
 ## Notes

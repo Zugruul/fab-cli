@@ -29,5 +29,13 @@ When this leaves the arena, your next attack this turn gets +4{p}."
 Keywords: [[kw-suspense]]
 Variants: [[card-tension-in-the-air-yellow]] · [[card-tension-in-the-air-blue]]
 Rulings: search "Tension in the Air" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS013.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS440.webp) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY018.webp) · [Image #4](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP204.webp)
+
+## Images
+
+![APS013 - Tension in the Air (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/APS013.webp)
+![LGS440 - Tension in the Air (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS440.webp)
+![SLY018 - Tension in the Air (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY018.webp)
+![SUP204 - Tension in the Air (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP204.webp)
 
 ## Notes

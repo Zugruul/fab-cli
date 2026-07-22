@@ -24,5 +24,11 @@ codes: [OMN147]
 "When this defends, you may pay {r}. If you do, create a Lightning Flow token."
 
 Rulings: search "Static Shelter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN147.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN147-CF.webp)
+
+## Images
+
+![OMN147 - Static Shelter (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN147.webp)
+![OMN147 - Static Shelter (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN147-CF.webp)
 
 ## Notes

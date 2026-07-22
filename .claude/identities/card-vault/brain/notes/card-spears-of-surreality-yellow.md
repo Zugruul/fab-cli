@@ -30,5 +30,12 @@ Go again"
 Keywords: [[kw-phantasm]] · [[kw-go-again]]
 Variants: [[card-spears-of-surreality-red]] · [[card-spears-of-surreality-blue]]
 Rulings: search "Spears of Surreality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON102.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON102.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP017-MV.webp)
+
+## Images
+
+![MON102 - Spears of Surreality (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON102.width-450.png)
+![MON102 - Spears of Surreality (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON102.width-450.png)
+![TNP017 - Spears of Surreality (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP017-MV.webp)
 
 ## Notes

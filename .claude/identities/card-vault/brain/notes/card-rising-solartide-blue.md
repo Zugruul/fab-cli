@@ -27,5 +27,11 @@ codes: [MON080]
 
 Variants: [[card-rising-solartide-red]] · [[card-rising-solartide-yellow]]
 Rulings: search "Rising Solartide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON080.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON080.width-450.png)
+
+## Images
+
+![MON080 - Rising Solartide (blue)](https://storage.googleapis.com/fabmaster/media/images/MON080.width-450.png)
+![MON080 - Rising Solartide (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON080.width-450.png)
 
 ## Notes

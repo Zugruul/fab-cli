@@ -26,5 +26,11 @@ codes: [FAB426, PEN206]
 "While this is face-up in any zone, it's Earth, Ice, and Lightning."
 
 Rulings: search "Colors of Aria" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB426.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN206.webp)
+
+## Images
+
+![FAB426 - Colors of Aria (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB426.webp)
+![PEN206 - Colors of Aria (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN206.webp)
 
 ## Notes

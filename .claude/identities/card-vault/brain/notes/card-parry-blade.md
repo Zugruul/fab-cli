@@ -26,5 +26,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Parry Blade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY096.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS242.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA003.png)
+
+## Images
+
+![HVY096 - Parry Blade](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY096.png)
+![LGS242 - Parry Blade](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS242.png)
+![OLA003 - Parry Blade](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-OLA/EN/OLA003.png)
 
 ## Notes

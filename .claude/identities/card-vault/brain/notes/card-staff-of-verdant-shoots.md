@@ -22,5 +22,12 @@ codes: [LGS333, ROS015, VER002]
 When one or more Earth cards are pitched this way, the next time you deal arcane damage this turn, create an Embodiment of Earth token."
 
 Rulings: search "Staff of Verdant Shoots" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS333.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS015.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER002.webp)
+
+## Images
+
+![LGS333 - Staff of Verdant Shoots](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS333.png)
+![ROS015 - Staff of Verdant Shoots](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS015.png)
+![VER002 - Staff of Verdant Shoots](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER002.webp)
 
 ## Notes

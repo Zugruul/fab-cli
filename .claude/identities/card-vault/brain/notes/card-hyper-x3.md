@@ -25,5 +25,12 @@ Battleworn"
 
 Keywords: [[kw-battleworn]]
 Rulings: search "Hyper-X3" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB170.png)
+
+## Images
+
+![EVO011 - Hyper-X3](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011.png)
+![EVO011 - Hyper-X3](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png)
+![FAB170 - Hyper-X3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB170.png)
 
 ## Notes

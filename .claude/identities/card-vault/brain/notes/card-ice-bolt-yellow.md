@@ -26,5 +26,10 @@ codes: [UPR134]
 
 Variants: [[card-ice-bolt-red]] · [[card-ice-bolt-blue]]
 Rulings: search "Ice Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR134.png)
+
+## Images
+
+![UPR134 - Ice Bolt (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR134.png)
 
 ## Notes

@@ -28,5 +28,11 @@ codes: [GEM016, HNT153]
 
 Keywords: [[kw-go-again]]
 Rulings: search "March of Loyalty" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM016.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT153.png)
+
+## Images
+
+![GEM016 - March of Loyalty (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM016.webp)
+![HNT153 - March of Loyalty (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT153.png)
 
 ## Notes

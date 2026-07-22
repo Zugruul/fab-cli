@@ -26,5 +26,10 @@ codes: [EVO153]
 "If you've boosted 2 or more times this turn, this gets +2{p}."
 
 Rulings: search "Big Shot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO153.png)
+
+## Images
+
+![EVO153 - Big Shot (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO153.png)
 
 ## Notes

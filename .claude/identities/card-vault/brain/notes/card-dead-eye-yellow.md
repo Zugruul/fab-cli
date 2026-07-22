@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Dead Eye" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN155.png)
+
+## Images
+
+![DYN155 - Dead Eye (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN155.png)
 
 ## Notes

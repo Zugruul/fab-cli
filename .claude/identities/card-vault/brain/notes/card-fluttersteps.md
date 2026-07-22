@@ -23,5 +23,10 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Fluttersteps" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS251.png)
+
+## Images
+
+![ROS251 - Fluttersteps](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS251.png)
 
 ## Notes

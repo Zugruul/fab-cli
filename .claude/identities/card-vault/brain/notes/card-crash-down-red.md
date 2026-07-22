@@ -26,5 +26,11 @@ codes: [BDD010, TCC037]
 
 Variants: [[card-crash-down-yellow]]
 Rulings: search "Crash Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD010.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC037.png)
+
+## Images
+
+![BDD010 - Crash Down (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD010.webp)
+![TCC037 - Crash Down (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC037.png)
 
 ## Notes

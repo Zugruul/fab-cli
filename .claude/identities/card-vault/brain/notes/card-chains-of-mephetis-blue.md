@@ -30,5 +30,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Chains of Mephetis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD170.png)
+
+## Images
+
+![DTD170 - Chains of Mephetis (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD170.png)
 
 ## Notes

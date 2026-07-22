@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "First Tenet of Chi: Tide" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS296-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png)
+
+## Images
+
+![LGS296 - First Tenet of Chi: Tide (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS296-RF.webp)
+![MST093 - First Tenet of Chi: Tide (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png)
 
 ## Notes

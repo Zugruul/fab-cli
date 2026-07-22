@@ -27,5 +27,10 @@ codes: [SUP186]
 
 Variants: [[card-power-play-yellow]] · [[card-power-play-blue]]
 Rulings: search "Power Play" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP186.webp)
+
+## Images
+
+![SUP186 - Power Play (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP186.webp)
 
 ## Notes

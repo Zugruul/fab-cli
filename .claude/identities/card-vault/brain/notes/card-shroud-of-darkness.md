@@ -23,5 +23,10 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Shroud of Darkness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD165.png)
+
+## Images
+
+![DTD165 - Shroud of Darkness](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD165.png)
 
 ## Notes

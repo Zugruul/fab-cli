@@ -28,5 +28,12 @@ codes: [LGS305, MST083, SEN025]
 
 Keywords: [[kw-go-again]]
 Rulings: search "Second Tenet of Chi: Wind" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS305-RF.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN025.webp)
+
+## Images
+
+![LGS305 - Second Tenet of Chi: Wind (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS305-RF.webp)
+![MST083 - Second Tenet of Chi: Wind (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png)
+![SEN025 - Second Tenet of Chi: Wind (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN025.webp)
 
 ## Notes

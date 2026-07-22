@@ -29,5 +29,12 @@ At the start of your turn, destroy this."
 
 Keywords: [[kw-go-again]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Booze!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS433.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY030.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP117.webp)
+
+## Images
+
+![LGS433 - Booze! (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS433.webp)
+![SLY030 - Booze! (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY030.webp)
+![SUP117 - Booze! (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP117.webp)
 
 ## Notes

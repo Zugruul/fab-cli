@@ -30,5 +30,10 @@ When this attacks, if it scrapped a card, this gets overpower."
 Keywords: [[kw-scrap]] · [[kw-overpower]]
 Variants: [[card-hydraulic-press-yellow]] · [[card-hydraulic-press-blue]]
 Rulings: search "Hydraulic Press" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO102.png)
+
+## Images
+
+![EVO102 - Hydraulic Press (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO102.png)
 
 ## Notes

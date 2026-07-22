@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-heroic-pose-red]] · [[card-heroic-pose-blue]]
 Rulings: search "Heroic Pose" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP058.webp)
+
+## Images
+
+![SUP058 - Heroic Pose (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP058.webp)
 
 ## Notes

@@ -29,5 +29,10 @@ When this defends an attack with go again, {t} target hero or ally."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Quickening Sand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN088.webp)
+
+## Images
+
+![PEN088 - Quickening Sand (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN088.webp)
 
 ## Notes

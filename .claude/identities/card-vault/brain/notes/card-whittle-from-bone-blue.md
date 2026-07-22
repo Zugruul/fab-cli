@@ -30,5 +30,11 @@ When this attacks a marked hero, equip a Graphene Chelicera token."
 Keywords: [[kw-stealth]]
 Variants: [[card-whittle-from-bone-red]] · [[card-whittle-from-bone-yellow]]
 Rulings: search "Whittle from Bone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT022.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD023.webp)
+
+## Images
+
+![HNT022 - Whittle from Bone (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT022.png)
+![WOD023 - Whittle from Bone (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD023.webp)
 
 ## Notes

@@ -28,5 +28,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-water-glow-lanterns-red]] · [[card-water-glow-lanterns-yellow]]
 Rulings: search "Water Glow Lanterns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN232.png)
+
+## Images
+
+![DYN232 - Water Glow Lanterns (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN232.png)
 
 ## Notes

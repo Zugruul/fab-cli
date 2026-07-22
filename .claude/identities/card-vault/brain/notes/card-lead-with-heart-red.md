@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-lead-with-heart-yellow]] · [[card-lead-with-heart-blue]]
 Rulings: search "Lead with Heart" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY192.png)
+
+## Images
+
+![HVY192 - Lead with Heart (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY192.png)
 
 ## Notes

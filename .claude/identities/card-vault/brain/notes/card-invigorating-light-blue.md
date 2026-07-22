@@ -27,5 +27,11 @@ codes: [MON068]
 
 Variants: [[card-invigorating-light-red]] · [[card-invigorating-light-yellow]]
 Rulings: search "Invigorating Light" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON068.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON068.width-450.png)
+
+## Images
+
+![MON068 - Invigorating Light (blue)](https://storage.googleapis.com/fabmaster/media/images/MON068.width-450.png)
+![MON068 - Invigorating Light (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON068.width-450.png)
 
 ## Notes

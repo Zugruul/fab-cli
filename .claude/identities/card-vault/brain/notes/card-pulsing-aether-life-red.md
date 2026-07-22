@@ -30,5 +30,12 @@ Gain 1{h}"
 
 Keywords: [[kw-meld]]
 Rulings: search "Pulsing Aether // Life" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS340.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS018.png) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER015.webp)
+
+## Images
+
+![LGS340 - Pulsing Aether // Life (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS340.png)
+![ROS018 - Pulsing Aether // Life (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS018.png)
+![VER015 - Pulsing Aether // Life (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/VER015.webp)
 
 ## Notes

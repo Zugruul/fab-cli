@@ -25,5 +25,10 @@ codes: [HVY101]
 Your next weapon attack this turn gets +2{p}."
 
 Rulings: search "Blade Flurry" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY101.png)
+
+## Images
+
+![HVY101 - Blade Flurry (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY101.png)
 
 ## Notes

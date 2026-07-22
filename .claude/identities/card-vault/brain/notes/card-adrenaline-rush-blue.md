@@ -27,5 +27,12 @@ codes: [HVY224, MON265]
 
 Variants: [[card-adrenaline-rush-red]] · [[card-adrenaline-rush-yellow]]
 Rulings: search "Adrenaline Rush" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY224.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/MON265.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/U-MON265.width-450.png)
+
+## Images
+
+![HVY224 - Adrenaline Rush (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY224.png)
+![MON265 - Adrenaline Rush (blue)](https://storage.googleapis.com/fabmaster/media/images/MON265.width-450.png)
+![MON265 - Adrenaline Rush (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON265.width-450.png)
 
 ## Notes

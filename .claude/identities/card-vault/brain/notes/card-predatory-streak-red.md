@@ -28,5 +28,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-predatory-streak-yellow]] · [[card-predatory-streak-blue]]
 Rulings: search "Predatory Streak" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN062.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS122.png)
+
+## Images
+
+![DYN062 - Predatory Streak (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN062.png)
+![LGS122 - Predatory Streak (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS122.png)
 
 ## Notes

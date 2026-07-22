@@ -30,5 +30,11 @@ codes: [FAI024, UPR068]
 Keywords: [[kw-go-again]]
 Variants: [[card-dust-runner-outlaw-red]] · [[card-dust-runner-outlaw-yellow]]
 Rulings: search "Dust Runner Outlaw" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI024.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR068.png)
+
+## Images
+
+![FAI024 - Dust Runner Outlaw (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAI024.webp)
+![UPR068 - Dust Runner Outlaw (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR068.png)
 
 ## Notes

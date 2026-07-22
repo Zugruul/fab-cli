@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Bellona, Archangel of War" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012_BACK_V2.png)
+
+## Images
+
+![DTD012 - Bellona, Archangel of War](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012_BACK.png)
+![DTD012 - Bellona, Archangel of War](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD012_BACK_V2.png)
 
 ## Notes

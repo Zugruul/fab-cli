@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Hack to Reality" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD229.png)
+
+## Images
+
+![DTD229 - Hack to Reality (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD229.png)
 
 ## Notes

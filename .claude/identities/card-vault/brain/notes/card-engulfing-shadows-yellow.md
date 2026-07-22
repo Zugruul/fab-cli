@@ -27,5 +27,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Engulfing Shadows" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM137.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN194.webp)
+
+## Images
+
+![GEM137 - Engulfing Shadows (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM137.webp)
+![PEN194 - Engulfing Shadows (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN194.webp)
 
 ## Notes

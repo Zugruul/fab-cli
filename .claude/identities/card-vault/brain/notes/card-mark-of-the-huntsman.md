@@ -25,5 +25,15 @@ If this is attacking a marked hero, this gets +1{p}."
 
 Keywords: [[kw-mark]]
 Rulings: search "Mark of the Huntsman" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM006-CF.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM007-CF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT010.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS375.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR002.webp) · [Image #6](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD002.webp)
+
+## Images
+
+![GEM006 - Mark of the Huntsman](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM006-CF.webp)
+![GEM007 - Mark of the Huntsman](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM007-CF.webp)
+![HNT010 - Mark of the Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT010.png)
+![LGS375 - Mark of the Huntsman](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS375.png)
+![SAR002 - Mark of the Huntsman](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR002.webp)
+![WOD002 - Mark of the Huntsman](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD002.webp)
 
 ## Notes

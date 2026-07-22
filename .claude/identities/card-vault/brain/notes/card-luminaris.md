@@ -24,5 +24,14 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get go ag
 
 Keywords: [[kw-go-again]]
 Rulings: search "Luminaris" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR002.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CON001-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB109.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/MON003.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-MON003.width-450.png)
+
+## Images
+
+![APR002 - Luminaris](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR002.webp)
+![CON001 - Luminaris](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CON001-RF.webp)
+![FAB109 - Luminaris](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB109.png)
+![MON003 - Luminaris](https://storage.googleapis.com/fabmaster/media/images/MON003.width-450.png)
+![MON003 - Luminaris](https://storage.googleapis.com/fabmaster/media/images/U-MON003.width-450.png)
 
 ## Notes

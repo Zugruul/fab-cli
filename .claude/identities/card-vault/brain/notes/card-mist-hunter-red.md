@@ -29,5 +29,10 @@ When this hits a Mystic hero, search their deck for any number of Inner Chi and 
 
 Keywords: [[kw-contract]]
 Rulings: search "Mist Hunter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN143.webp)
+
+## Images
+
+![PEN143 - Mist Hunter (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN143.webp)
 
 ## Notes

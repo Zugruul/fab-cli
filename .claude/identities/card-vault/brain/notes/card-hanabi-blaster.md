@@ -25,5 +25,11 @@ The third time you play a card with boost each turn, put a steam counter on Hana
 
 Keywords: [[kw-overpower]]
 Rulings: search "Hanabi Blaster" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN088.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN088_Marvel.png)
+
+## Images
+
+![DYN088 - Hanabi Blaster](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN088.png)
+![DYN088 - Hanabi Blaster](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN088_Marvel.png)
 
 ## Notes

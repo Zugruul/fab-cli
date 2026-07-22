@@ -27,5 +27,10 @@ codes: [SEA254]
 Instant - Discard this: Heroes can't gain {h} this turn."
 
 Rulings: search "Deny Redemption" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA254.png)
+
+## Images
+
+![SEA254 - Deny Redemption (red)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA254.png)
 
 ## Notes

@@ -29,5 +29,15 @@ codes: [1HP210, ARC025, SDA032, TCC025]
 Keywords: [[kw-boost]]
 Variants: [[card-throttle-red]] · [[card-throttle-yellow]]
 Rulings: search "Throttle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP210.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025-RF.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC025.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA032.webp) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC025.png)
+
+## Images
+
+![1HP210 - Throttle (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP210.width-450.png)
+![ARC025 - Throttle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025.png)
+![ARC025 - Throttle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025-RF.png)
+![ARC025 - Throttle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC025.png)
+![SDA032 - Throttle (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA032.webp)
+![TCC025 - Throttle (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC025.png)
 
 ## Notes

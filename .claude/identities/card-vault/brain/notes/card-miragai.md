@@ -23,5 +23,11 @@ codes: [UPR012]
 "Your first dragon attack each turn loses and can't gain phantasm."
 
 Rulings: search "Miragai" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Back.png)
+
+## Images
+
+![UPR012 - Miragai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png)
+![UPR012 - Miragai](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Back.png)
 
 ## Notes

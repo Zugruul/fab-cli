@@ -25,5 +25,11 @@ Target attacking or defending attack action card gets -1{p}."
 
 Variants: [[card-blinding-beam-red]] · [[card-blinding-beam-yellow]]
 Rulings: search "Blinding Beam" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON086.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON086.width-450.png)
+
+## Images
+
+![MON086 - Blinding Beam (blue)](https://storage.googleapis.com/fabmaster/media/images/MON086.width-450.png)
+![MON086 - Blinding Beam (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON086.width-450.png)
 
 ## Notes

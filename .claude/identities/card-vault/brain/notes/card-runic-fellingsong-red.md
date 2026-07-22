@@ -27,5 +27,11 @@ codes: [PEN100, SVI015]
 
 Variants: [[card-runic-fellingsong-yellow]] · [[card-runic-fellingsong-blue]]
 Rulings: search "Runic Fellingsong" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN100.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI015.webp)
+
+## Images
+
+![PEN100 - Runic Fellingsong (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN100.webp)
+![SVI015 - Runic Fellingsong (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI015.webp)
 
 ## Notes

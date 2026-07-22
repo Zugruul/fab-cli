@@ -28,5 +28,10 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Essence of Ancestry: Soul" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST138.png)
+
+## Images
+
+![MST138 - Essence of Ancestry: Soul (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST138.png)
 
 ## Notes

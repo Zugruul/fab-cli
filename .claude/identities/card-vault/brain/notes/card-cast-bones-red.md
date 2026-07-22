@@ -25,5 +25,10 @@ codes: [HVY014]
 If you control 6 or more Might tokens, create an Agility token."
 
 Rulings: search "Cast Bones" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY014.png)
+
+## Images
+
+![HVY014 - Cast Bones (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY014.png)
 
 ## Notes

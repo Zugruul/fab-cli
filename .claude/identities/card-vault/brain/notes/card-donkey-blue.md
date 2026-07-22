@@ -26,5 +26,11 @@ codes: [FAB484, MPW042]
 
 Keywords: [[kw-wager]]
 Rulings: search "Donkey" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB484-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW042.webp)
+
+## Images
+
+![FAB484 - Donkey (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB484-RF.webp)
+![MPW042 - Donkey (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW042.webp)
 
 ## Notes

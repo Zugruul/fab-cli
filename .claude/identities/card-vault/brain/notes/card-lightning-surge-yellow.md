@@ -29,5 +29,14 @@ codes: [AUR018, BRI029, ELE190, ROS099]
 Keywords: [[kw-go-again]]
 Variants: [[card-lightning-surge-red]] · [[card-lightning-surge-blue]]
 Rulings: search "Lightning Surge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR018.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/BRI029.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ELE190.width-450.png) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/U-ELE190.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS099.png)
+
+## Images
+
+![AUR018 - Lightning Surge (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR018.webp)
+![BRI029 - Lightning Surge (yellow)](https://storage.googleapis.com/fabmaster/media/images/BRI029.width-450.png)
+![ELE190 - Lightning Surge (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE190.width-450.png)
+![ELE190 - Lightning Surge (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE190.width-450.png)
+![ROS099 - Lightning Surge (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS099.png)
 
 ## Notes

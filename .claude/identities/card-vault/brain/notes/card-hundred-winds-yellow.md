@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-combo]] · [[kw-go-again]]
 Variants: [[card-hundred-winds-red]] · [[card-hundred-winds-blue]]
 Rulings: search "Hundred Winds" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR042.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR042-RF.png)
+
+## Images
+
+![EVR042 - Hundred Winds (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR042.width-450.png)
+![EVR042 - Hundred Winds (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR042-RF.png)
 
 ## Notes

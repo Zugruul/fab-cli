@@ -27,5 +27,11 @@ codes: [HVY082, VIC026]
 
 Variants: [[card-wallop-red]] · [[card-wallop-yellow]]
 Rulings: search "Wallop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY082.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC026.png)
+
+## Images
+
+![HVY082 - Wallop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY082.png)
+![VIC026 - Wallop (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC026.png)
 
 ## Notes

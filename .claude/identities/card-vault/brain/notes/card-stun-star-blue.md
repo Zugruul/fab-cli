@@ -30,5 +30,10 @@ When this hits a hero, {t} them."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Stun Star" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN234.webp)
+
+## Images
+
+![OMN234 - Stun Star (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN234.webp)
 
 ## Notes

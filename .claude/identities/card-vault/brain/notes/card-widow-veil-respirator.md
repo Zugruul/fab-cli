@@ -23,5 +23,10 @@ Spellvoid 1"
 
 Keywords: [[kw-arcane-barrier]] · [[kw-spellvoid]]
 Rulings: search "Widow Veil Respirator" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS239.png)
+
+## Images
+
+![ROS239 - Widow Veil Respirator](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS239.png)
 
 ## Notes

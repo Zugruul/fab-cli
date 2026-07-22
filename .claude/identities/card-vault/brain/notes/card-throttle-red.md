@@ -29,5 +29,17 @@ codes: [1HP208, AIO011, AMX014, ARC023, SDA018, TCC015]
 Keywords: [[kw-boost]]
 Variants: [[card-throttle-yellow]] · [[card-throttle-blue]]
 Rulings: search "Throttle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP208.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO011.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX014.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023-RF.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC023.png) · [Image #7](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA018.webp) · [Image #8](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC015.png)
+
+## Images
+
+![1HP208 - Throttle (red)](https://storage.googleapis.com/fabmaster/media/images/1HP208.width-450.png)
+![AIO011 - Throttle (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AIO011.webp)
+![AMX014 - Throttle (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AMX014.webp)
+![ARC023 - Throttle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023.png)
+![ARC023 - Throttle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023-RF.png)
+![ARC023 - Throttle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC023.png)
+![SDA018 - Throttle (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA018.webp)
+![TCC015 - Throttle (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC015.png)
 
 ## Notes

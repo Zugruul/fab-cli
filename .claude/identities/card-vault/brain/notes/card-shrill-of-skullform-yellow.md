@@ -27,5 +27,11 @@ codes: [EVR117, SVI024]
 
 Variants: [[card-shrill-of-skullform-red]] · [[card-shrill-of-skullform-blue]]
 Rulings: search "Shrill of Skullform" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR117.width-450.png) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI024.webp)
+
+## Images
+
+![EVR117 - Shrill of Skullform (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR117.width-450.png)
+![SVI024 - Shrill of Skullform (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI024.webp)
 
 ## Notes

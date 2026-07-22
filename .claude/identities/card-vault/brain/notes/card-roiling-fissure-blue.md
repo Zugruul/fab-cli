@@ -27,5 +27,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Roiling Fissure" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT248.png)
+
+## Images
+
+![HNT248 - Roiling Fissure (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT248.png)
 
 ## Notes

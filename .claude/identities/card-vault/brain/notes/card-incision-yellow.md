@@ -25,5 +25,10 @@ codes: [HNT206]
 
 Variants: [[card-incision-red]] · [[card-incision-blue]]
 Rulings: search "Incision" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT206.png)
+
+## Images
+
+![HNT206 - Incision (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT206.png)
 
 ## Notes

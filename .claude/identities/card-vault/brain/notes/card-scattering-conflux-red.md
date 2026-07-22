@@ -30,5 +30,11 @@ Fragment"
 
 Keywords: [[kw-fragment]]
 Rulings: search "Scattering Conflux" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS012.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp)
+
+## Images
+
+![AZS012 - Scattering Conflux (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AZS012.webp)
+![OMN008 - Scattering Conflux (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp)
 
 ## Notes

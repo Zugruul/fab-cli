@@ -29,5 +29,10 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-solitary-companion-yellow]] · [[card-solitary-companion-blue]]
 Rulings: search "Solitary Companion" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST149.png)
+
+## Images
+
+![MST149 - Solitary Companion (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST149.png)
 
 ## Notes

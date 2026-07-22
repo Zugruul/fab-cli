@@ -28,5 +28,10 @@ codes: [OMN032]
 Keywords: [[kw-ward]]
 Variants: [[card-holo-shield-red]] · [[card-holo-shield-yellow]]
 Rulings: search "Holo Shield" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN032.webp)
+
+## Images
+
+![OMN032 - Holo Shield (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN032.webp)
 
 ## Notes

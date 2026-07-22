@@ -29,5 +29,12 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-lead-with-speed-red]] · [[card-lead-with-speed-yellow]]
 Rulings: search "Lead with Speed" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY174.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO026.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR026.png)
+
+## Images
+
+![HVY174 - Lead with Speed (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY174.png)
+![KYO026 - Lead with Speed (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO026.png)
+![RHI026 - Lead with Speed (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR026.png)
 
 ## Notes

@@ -27,5 +27,11 @@ codes: [AUA023, ROS106]
 
 Variants: [[card-trip-the-light-fantastic-red]] · [[card-trip-the-light-fantastic-yellow]]
 Rulings: search "Trip the Light Fantastic" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA023.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS106.png)
+
+## Images
+
+![AUA023 - Trip the Light Fantastic (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA023.webp)
+![ROS106 - Trip the Light Fantastic (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS106.png)
 
 ## Notes

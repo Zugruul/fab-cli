@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-falcon-wing-red]] · [[card-falcon-wing-blue]]
 Rulings: search "Falcon Wing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT116.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP024.png)
+
+## Images
+
+![OUT116 - Falcon Wing (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT116.width-450.png)
+![RIP024 - Falcon Wing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-RIP/EN/RIP024.png)
 
 ## Notes

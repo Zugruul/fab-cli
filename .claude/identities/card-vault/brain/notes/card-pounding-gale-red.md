@@ -28,5 +28,11 @@ codes: [WTR085]
 
 Keywords: [[kw-combo]]
 Rulings: search "Pounding Gale" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR085.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR085.png)
+
+## Images
+
+![WTR085 - Pounding Gale (red)](https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR085.png)
+![WTR085 - Pounding Gale (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR085.png)
 
 ## Notes

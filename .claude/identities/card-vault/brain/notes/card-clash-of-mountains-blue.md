@@ -29,5 +29,11 @@ codes: [BDD012, MPG063]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-mountains-red]] · [[card-clash-of-mountains-yellow]]
 Rulings: search "Clash of Mountains" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD012.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG063.webp)
+
+## Images
+
+![BDD012 - Clash of Mountains (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BDD012.webp)
+![MPG063 - Clash of Mountains (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG063.webp)
 
 ## Notes

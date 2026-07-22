@@ -26,5 +26,11 @@ codes: [MON059]
 
 Variants: [[card-courageous-steelhand-red]] · [[card-courageous-steelhand-yellow]]
 Rulings: search "Courageous Steelhand" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON059.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON059.width-450.png)
+
+## Images
+
+![MON059 - Courageous Steelhand (blue)](https://storage.googleapis.com/fabmaster/media/images/MON059.width-450.png)
+![MON059 - Courageous Steelhand (blue)](https://storage.googleapis.com/fabmaster/media/images/U-MON059.width-450.png)
 
 ## Notes

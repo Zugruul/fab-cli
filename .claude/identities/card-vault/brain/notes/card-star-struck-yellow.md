@@ -30,5 +30,10 @@ Unity - When this defends together with a card from hand, create a Seismic Surge
 
 Keywords: [[kw-specialization]] · [[kw-crush]] · [[kw-unity]]
 Rulings: search "Star Struck" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD203.png)
+
+## Images
+
+![DTD203 - Star Struck (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD203.png)
 
 ## Notes

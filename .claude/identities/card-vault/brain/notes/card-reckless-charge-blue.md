@@ -28,5 +28,10 @@ If you've rolled a 6 on a die this turn, draw a card."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Reckless Charge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY015.png)
+
+## Images
+
+![HVY015 - Reckless Charge (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY015.png)
 
 ## Notes

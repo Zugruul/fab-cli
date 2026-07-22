@@ -27,5 +27,10 @@ codes: [SEA222]
 
 Variants: [[card-nimby-red]] · [[card-nimby-yellow]]
 Rulings: search "Nimby" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA222.png)
+
+## Images
+
+![SEA222 - Nimby (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA222.png)
 
 ## Notes

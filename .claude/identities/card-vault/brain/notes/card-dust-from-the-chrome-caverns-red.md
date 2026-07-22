@@ -28,5 +28,10 @@ codes: [EVO246]
 
 Keywords: [[kw-material]] · [[kw-phantasm]]
 Rulings: search "Dust from the Chrome Caverns" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO246.png)
+
+## Images
+
+![EVO246 - Dust from the Chrome Caverns (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO246.png)
 
 ## Notes

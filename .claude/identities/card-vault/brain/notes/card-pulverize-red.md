@@ -29,5 +29,11 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}."
 
 Keywords: [[kw-heave]]
 Rulings: search "Pulverize" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR021.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR021-RF.png)
+
+## Images
+
+![EVR021 - Pulverize (red)](https://storage.googleapis.com/fabmaster/media/images/EVR021.width-450.png)
+![EVR021 - Pulverize (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR021-RF.png)
 
 ## Notes

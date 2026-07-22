@@ -29,5 +29,10 @@ codes: [ROS125]
 Keywords: [[kw-overpower]]
 Variants: [[card-vantage-point-red]] · [[card-vantage-point-blue]]
 Rulings: search "Vantage Point" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS125.png)
+
+## Images
+
+![ROS125 - Vantage Point (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS125.png)
 
 ## Notes

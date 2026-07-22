@@ -23,5 +23,10 @@ Ward 1"
 
 Keywords: [[kw-ward]]
 Rulings: search "Silken Symphony" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN125.webp)
+
+## Images
+
+![PEN125 - Silken Symphony](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN125.webp)
 
 ## Notes

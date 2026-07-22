@@ -27,5 +27,10 @@ codes: [SEA250]
 Instant - Discard this: Your club attacks this turn get "When this hits a hero, destroy an item they control.""
 
 Rulings: search "Bam Bam" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA250.png)
+
+## Images
+
+![SEA250 - Bam Bam (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA250.png)
 
 ## Notes

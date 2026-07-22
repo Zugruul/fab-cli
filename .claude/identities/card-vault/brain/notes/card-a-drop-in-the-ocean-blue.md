@@ -27,5 +27,14 @@ If you've played another blue card this turn, transcend."
 
 Keywords: [[kw-legendary]] · [[kw-transcend]]
 Rulings: search "A Drop in the Ocean" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG025.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS282-RF.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST095.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST095_V2.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN031.webp)
+
+## Images
+
+![ENG025 - A Drop in the Ocean (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-ENG/EN/ENG025.png)
+![LGS282 - A Drop in the Ocean (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/LGS282-RF.webp)
+![MST095 - A Drop in the Ocean (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST095.png)
+![MST095 - A Drop in the Ocean (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST095_V2.png)
+![SEN031 - A Drop in the Ocean (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN031.webp)
 
 ## Notes

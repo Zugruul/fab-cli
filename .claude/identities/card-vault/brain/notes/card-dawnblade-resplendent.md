@@ -22,5 +22,12 @@ codes: [DDD002, DVR002, MPW002]
 The second time you attack with this each turn, it gets +1{p} until end of turn."
 
 Rulings: search "Dawnblade, Resplendent" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD002.webp) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/DVR002.width-450.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW002.webp)
+
+## Images
+
+![DDD002 - Dawnblade, Resplendent](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD002.webp)
+![DVR002 - Dawnblade, Resplendent](https://storage.googleapis.com/fabmaster/media/images/DVR002.width-450.png)
+![MPW002 - Dawnblade, Resplendent](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW002.webp)
 
 ## Notes

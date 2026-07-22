@@ -26,5 +26,11 @@ When this leaves the arena, remove all +1{p} counters from swords you control.
 At the beginning of your end phase, if a sword has not hit this turn, destroy this."
 
 Rulings: search "Ironsong Pride" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN072.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN072_Special.png)
+
+## Images
+
+![DYN072 - Ironsong Pride (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN072.png)
+![DYN072 - Ironsong Pride (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN072_Special.png)
 
 ## Notes

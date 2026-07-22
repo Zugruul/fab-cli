@@ -26,5 +26,10 @@ codes: [SUP104]
 "If you control 3 or more auras, this gets +3{p} and "When this hits a hero, {t} them.""
 
 Rulings: search "Goon Battery" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP104.webp)
+
+## Images
+
+![SUP104 - Goon Battery (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP104.webp)
 
 ## Notes

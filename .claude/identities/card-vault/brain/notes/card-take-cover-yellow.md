@@ -27,5 +27,12 @@ codes: [1HP235, ARC049]
 Keywords: [[kw-reload]]
 Variants: [[card-take-cover-red]] · [[card-take-cover-blue]]
 Rulings: search "Take Cover" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP235.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC049.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC049.png)
+
+## Images
+
+![1HP235 - Take Cover (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP235.width-450.png)
+![ARC049 - Take Cover (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC049.png)
+![ARC049 - Take Cover (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC049.png)
 
 ## Notes

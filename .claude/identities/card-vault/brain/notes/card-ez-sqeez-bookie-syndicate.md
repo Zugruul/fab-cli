@@ -20,5 +20,10 @@ codes: [SMP024]
 
 Keywords: [[kw-wager]]
 Rulings: search "Ez Sqeez Bookie Syndicate" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP024.webp)
+
+## Images
+
+![SMP024 - Ez Sqeez Bookie Syndicate](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SMP024.webp)
 
 ## Notes

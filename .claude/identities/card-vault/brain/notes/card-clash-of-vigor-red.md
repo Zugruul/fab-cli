@@ -29,5 +29,10 @@ codes: [HVY177]
 Keywords: [[kw-clash]]
 Variants: [[card-clash-of-vigor-yellow]] · [[card-clash-of-vigor-blue]]
 Rulings: search "Clash of Vigor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY177.png)
+
+## Images
+
+![HVY177 - Clash of Vigor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY177.png)
 
 ## Notes

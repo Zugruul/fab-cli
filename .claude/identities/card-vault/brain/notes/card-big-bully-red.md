@@ -30,5 +30,10 @@ If you've been booed this turn, this card's base {p} is doubled."
 
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Rulings: search "Big Bully" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP067.webp)
+
+## Images
+
+![SUP067 - Big Bully (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP067.webp)
 
 ## Notes

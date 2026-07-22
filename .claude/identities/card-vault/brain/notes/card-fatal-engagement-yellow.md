@@ -26,5 +26,11 @@ Target attack gets +4{p}."
 
 Variants: [[card-fatal-engagement-red]] · [[card-fatal-engagement-blue]]
 Rulings: search "Fatal Engagement" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY110.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI019.png)
+
+## Images
+
+![HVY110 - Fatal Engagement (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY110.png)
+![KSI019 - Fatal Engagement (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KSI/EN/KSI019.png)
 
 ## Notes

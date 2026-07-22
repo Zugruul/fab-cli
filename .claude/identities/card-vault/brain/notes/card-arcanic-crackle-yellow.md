@@ -27,5 +27,11 @@ codes: [MON236]
 
 Variants: [[card-arcanic-crackle-red]] · [[card-arcanic-crackle-blue]]
 Rulings: search "Arcanic Crackle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON236.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON236.width-450.png)
+
+## Images
+
+![MON236 - Arcanic Crackle (yellow)](https://storage.googleapis.com/fabmaster/media/images/MON236.width-450.png)
+![MON236 - Arcanic Crackle (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-MON236.width-450.png)
 
 ## Notes

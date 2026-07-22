@@ -29,5 +29,11 @@ If Biting Gale was fused, the attacking hero discards a card unless they pay {r}
 Keywords: [[kw-fusion]]
 Variants: [[card-biting-gale-red]] · [[card-biting-gale-yellow]]
 Rulings: search "Biting Gale" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE009.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE009.width-450.png)
+
+## Images
+
+![ELE009 - Biting Gale (blue)](https://storage.googleapis.com/fabmaster/media/images/ELE009.width-450.png)
+![ELE009 - Biting Gale (blue)](https://storage.googleapis.com/fabmaster/media/images/U-ELE009.width-450.png)
 
 ## Notes

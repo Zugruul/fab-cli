@@ -28,5 +28,11 @@ When this enters the arena, your next attack this turn gets dominate."
 
 Keywords: [[kw-legendary]] · [[kw-dominate]]
 Rulings: search "Figment of Tenacity" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010_V2.png)
+
+## Images
+
+![DTD010 - Figment of Tenacity (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010.png)
+![DTD010 - Figment of Tenacity (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD010_V2.png)
 
 ## Notes

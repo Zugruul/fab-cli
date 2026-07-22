@@ -21,5 +21,11 @@ codes: [MON239]
 "Action - Destroy Stubby Hammerers: Attack action cards with 3 or less base power gain +1{p} while attacking this turn. Go again"
 
 Rulings: search "Stubby Hammerers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/MON239.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON239.width-450.png)
+
+## Images
+
+![MON239 - Stubby Hammerers](https://storage.googleapis.com/fabmaster/media/images/MON239.width-450.png)
+![MON239 - Stubby Hammerers](https://storage.googleapis.com/fabmaster/media/images/U-MON239.width-450.png)
 
 ## Notes

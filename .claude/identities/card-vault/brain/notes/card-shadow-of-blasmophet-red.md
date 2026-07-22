@@ -29,5 +29,11 @@ Blood Debt"
 
 Keywords: [[kw-blood-debt]]
 Rulings: search "Shadow of Blasmophet" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/KLUiCIJEFKdt8QM545A4g.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-MON125.width-450.png)
+
+## Images
+
+![MON125 - Shadow of Blasmophet (red)](https://storage.googleapis.com/fabmaster/media/images/KLUiCIJEFKdt8QM545A4g.width-450.png)
+![MON125 - Shadow of Blasmophet (red)](https://storage.googleapis.com/fabmaster/media/images/U-MON125.width-450.png)
 
 ## Notes

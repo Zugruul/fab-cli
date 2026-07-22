@@ -26,5 +26,10 @@ codes: [TCC042]
 
 Variants: [[card-crash-down-red]]
 Rulings: search "Crash Down" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC042.png)
+
+## Images
+
+![TCC042 - Crash Down (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC042.png)
 
 ## Notes

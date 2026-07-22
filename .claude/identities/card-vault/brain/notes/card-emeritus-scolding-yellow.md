@@ -25,5 +25,13 @@ codes: [EVR126, LGS091, SBZ022, TNP008]
 
 Variants: [[card-emeritus-scolding-red]] · [[card-emeritus-scolding-blue]]
 Rulings: search "Emeritus Scolding" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR126.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS091.png) · [Image #3](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ022.webp) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP008-MV.webp)
+
+## Images
+
+![EVR126 - Emeritus Scolding (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR126.width-450.png)
+![LGS091 - Emeritus Scolding (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS091.png)
+![SBZ022 - Emeritus Scolding (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ022.webp)
+![TNP008 - Emeritus Scolding (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TNP008-MV.webp)
 
 ## Notes

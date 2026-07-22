@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Runic Reckoning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD213.png)
+
+## Images
+
+![DTD213 - Runic Reckoning (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD213.png)
 
 ## Notes

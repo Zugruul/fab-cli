@@ -29,5 +29,10 @@ Ward 1"
 Keywords: [[kw-ward]]
 Variants: [[card-waxing-specter-red]] · [[card-waxing-specter-yellow]]
 Rulings: search "Waxing Specter" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST045.png)
+
+## Images
+
+![MST045 - Waxing Specter (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST045.png)
 
 ## Notes

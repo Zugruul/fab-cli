@@ -29,5 +29,10 @@ codes: [SUP043]
 Keywords: [[kw-the-crowd-cheers-the-crowd-boos]]
 Variants: [[card-rapturous-applause-yellow]] · [[card-rapturous-applause-blue]]
 Rulings: search "Rapturous Applause" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP043.webp)
+
+## Images
+
+![SUP043 - Rapturous Applause (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP043.webp)
 
 ## Notes

@@ -27,5 +27,10 @@ codes: [MPG040]
 
 Variants: [[card-little-big-foot-red]] · [[card-little-big-foot-yellow]]
 Rulings: search "Little Big Foot" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG040.webp)
+
+## Images
+
+![MPG040 - Little Big Foot (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG040.webp)
 
 ## Notes

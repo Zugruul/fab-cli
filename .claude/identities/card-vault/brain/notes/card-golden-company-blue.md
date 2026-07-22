@@ -25,5 +25,11 @@ codes: [FAB483, MPW055]
 
 Variants: [[card-golden-company-red]] · [[card-golden-company-yellow]]
 Rulings: search "Golden Company" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB483-RF.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW055.webp)
+
+## Images
+
+![FAB483 - Golden Company (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB483-RF.webp)
+![MPW055 - Golden Company (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW055.webp)
 
 ## Notes

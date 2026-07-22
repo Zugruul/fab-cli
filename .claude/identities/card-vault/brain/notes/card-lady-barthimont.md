@@ -23,5 +23,11 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
 
 Keywords: [[kw-dominate]]
 Rulings: search "Lady Barthimont" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB045.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/LEV002_Lady_Barthimont.width-10000.png)
+
+## Images
+
+![FAB045 - Lady Barthimont](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB045.png)
+![LEV002 - Lady Barthimont](https://storage.googleapis.com/fabmaster/media/images/LEV002_Lady_Barthimont.width-10000.png)
 
 ## Notes

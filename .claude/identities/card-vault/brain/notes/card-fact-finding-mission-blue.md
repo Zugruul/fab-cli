@@ -27,5 +27,10 @@ codes: [MST208]
 
 Variants: [[card-fact-finding-mission-red]] · [[card-fact-finding-mission-yellow]]
 Rulings: search "Fact-Finding Mission" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST208.png)
+
+## Images
+
+![MST208 - Fact-Finding Mission (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST208.png)
 
 ## Notes

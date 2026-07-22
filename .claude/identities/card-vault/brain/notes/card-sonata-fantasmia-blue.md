@@ -28,5 +28,10 @@ If X is 6 or greater, target hero discards 3 random cards."
 
 Keywords: [[kw-specialization]]
 Rulings: search "Sonata Fantasmia" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO242.png)
+
+## Images
+
+![EVO242 - Sonata Fantasmia (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO242.png)
 
 ## Notes

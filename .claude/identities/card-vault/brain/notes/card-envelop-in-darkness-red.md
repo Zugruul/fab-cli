@@ -30,5 +30,10 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-envelop-in-darkness-yellow]] · [[card-envelop-in-darkness-blue]]
 Rulings: search "Envelop in Darkness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD149.png)
+
+## Images
+
+![DTD149 - Envelop in Darkness (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD149.png)
 
 ## Notes

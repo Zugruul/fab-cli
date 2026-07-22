@@ -29,5 +29,10 @@ Blade Break"
 
 Keywords: [[kw-transform]] · [[kw-blade-break]]
 Rulings: search "Evo Charging Rods" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO049.png)
+
+## Images
+
+![EVO049 - Evo Charging Rods (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO049.png)
 
 ## Notes

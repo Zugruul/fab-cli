@@ -24,5 +24,10 @@ codes: [SEA242]
 
 Variants: [[card-on-the-horizon-red]] · [[card-on-the-horizon-blue]]
 Rulings: search "On the Horizon" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA242.png)
+
+## Images
+
+![SEA242 - On the Horizon (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA242.png)
 
 ## Notes

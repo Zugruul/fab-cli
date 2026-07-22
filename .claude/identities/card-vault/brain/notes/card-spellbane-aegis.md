@@ -22,5 +22,12 @@ codes: [DTD235, DYN246, FAB155]
 
 Keywords: [[kw-spellvoid]] · [[kw-token-spellbane-aegis]]
 Rulings: search "Spellbane Aegis" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD235.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN246.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB155.png)
+
+## Images
+
+![DTD235 - Spellbane Aegis](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD235.png)
+![DYN246 - Spellbane Aegis](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN246.png)
+![FAB155 - Spellbane Aegis](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB155.png)
 
 ## Notes

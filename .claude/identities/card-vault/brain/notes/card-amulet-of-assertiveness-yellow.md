@@ -27,5 +27,10 @@ Attack Reaction - Destroy Amulet of Assertiveness: Target attack gains "When thi
 
 Keywords: [[kw-go-again]]
 Rulings: search "Amulet of Assertiveness" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR176.width-450.png)
+
+## Images
+
+![EVR176 - Amulet of Assertiveness (yellow)](https://storage.googleapis.com/fabmaster/media/images/EVR176.width-450.png)
 
 ## Notes

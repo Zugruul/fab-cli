@@ -24,5 +24,12 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Face Purgatory" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB252.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS114.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS114-CF.png)
+
+## Images
+
+![FAB252 - Face Purgatory](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB252.png)
+![ROS114 - Face Purgatory](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS114.png)
+![ROS114 - Face Purgatory](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS114-CF.png)
 
 ## Notes

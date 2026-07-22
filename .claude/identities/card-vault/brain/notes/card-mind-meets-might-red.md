@@ -29,5 +29,11 @@ Mirage"
 
 Keywords: [[kw-mirage]]
 Rulings: search "Mind Meets Might" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN128.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN128-RF.webp)
+
+## Images
+
+![PEN128 - Mind Meets Might (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN128.webp)
+![PEN128 - Mind Meets Might (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN128-RF.webp)
 
 ## Notes

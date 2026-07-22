@@ -25,5 +25,19 @@ codes: [1HP222, ARC039, AZL001, HER014, HER071, OUT090, PEN340, SAZ001]
 Keywords: [[kw-dominate]]
 Adult version: [[card-azalea-ace-in-the-hole]]
 Rulings: search "Azalea" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP222.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC039.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL001.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER014.png) · [Image #6](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER071.png) · [Image #7](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT090.width-450.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN340-MV.webp) · [Image #9](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN340-MV_BACK.webp) · [Image #10](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ001.webp)
+
+## Images
+
+![1HP222 - Azalea](https://storage.googleapis.com/fabmaster/media/images/1HP222.width-450.png)
+![ARC039 - Azalea](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png)
+![ARC039 - Azalea](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC039.png)
+![AZL001 - Azalea](https://storage.googleapis.com/fabmaster/cardfaces/2023-OUT-AZL/EN/AZL001.png)
+![HER014 - Azalea](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER014.png)
+![HER071 - Azalea](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER071.png)
+![OUT090 - Azalea](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT090.width-450.png)
+![PEN340 - Azalea](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN340-MV.webp)
+![PEN340 - Azalea](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN340-MV_BACK.webp)
+![SAZ001 - Azalea](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ001.webp)
 
 ## Notes

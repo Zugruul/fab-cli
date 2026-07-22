@@ -27,5 +27,12 @@ codes: [BRI018, ELE119]
 
 Variants: [[card-evergreen-yellow]] · [[card-evergreen-blue]]
 Rulings: search "Evergreen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BRI018.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/ELE119.width-450.png) · [Image #3](https://storage.googleapis.com/fabmaster/media/images/ELE119_Evergreen.width-10000.png)
+
+## Images
+
+![BRI018 - Evergreen (red)](https://storage.googleapis.com/fabmaster/media/images/BRI018.width-450.png)
+![ELE119 - Evergreen (red)](https://storage.googleapis.com/fabmaster/media/images/ELE119.width-450.png)
+![ELE119 - Evergreen (red)](https://storage.googleapis.com/fabmaster/media/images/ELE119_Evergreen.width-10000.png)
 
 ## Notes

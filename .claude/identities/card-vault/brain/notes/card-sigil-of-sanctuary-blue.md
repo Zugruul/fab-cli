@@ -27,5 +27,13 @@ When this leaves the arena, create an Embodiment of Earth token."
 
 Keywords: [[kw-arcane-shelter]]
 Rulings: search "Sigil of Sanctuary" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR026.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS323.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS045.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS045-MV.png)
+
+## Images
+
+![FLR026 - Sigil of Sanctuary (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FLR026.webp)
+![LGS323 - Sigil of Sanctuary (blue)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS323.png)
+![ROS045 - Sigil of Sanctuary (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS045.png)
+![ROS045 - Sigil of Sanctuary (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS045-MV.png)
 
 ## Notes

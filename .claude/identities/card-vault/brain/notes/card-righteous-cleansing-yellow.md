@@ -28,5 +28,12 @@ codes: [1HP052, CRU027]
 
 Keywords: [[kw-crush]]
 Rulings: search "Righteous Cleansing" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP052.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU027.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU027.png)
+
+## Images
+
+![1HP052 - Righteous Cleansing (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP052.width-450.png)
+![CRU027 - Righteous Cleansing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU027.png)
+![CRU027 - Righteous Cleansing (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU027.png)
 
 ## Notes

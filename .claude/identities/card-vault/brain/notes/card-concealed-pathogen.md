@@ -23,5 +23,10 @@ While this is equipped face-down, when an attack hits you and its controller has
 
 Keywords: [[kw-cloaked]]
 Rulings: search "Concealed Pathogen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN080.webp)
+
+## Images
+
+![PEN080 - Concealed Pathogen](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN080.webp)
 
 ## Notes

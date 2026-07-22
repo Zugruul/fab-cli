@@ -30,5 +30,15 @@ Go again"
 
 Keywords: [[kw-specialization]] · [[kw-go-again]]
 Rulings: search "Whirling Mist Blossom" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP136.width-450.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR019.webp) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074-RF.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU074.png) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/IRA003-P_BrjByqK.width-450.png)
+
+## Images
+
+![1HP136 - Whirling Mist Blossom (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP136.width-450.png)
+![ASR019 - Whirling Mist Blossom (yellow)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/ASR019.webp)
+![CRU074 - Whirling Mist Blossom (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074.png)
+![CRU074 - Whirling Mist Blossom (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074-RF.png)
+![CRU074 - Whirling Mist Blossom (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU074.png)
+![IRA003 - Whirling Mist Blossom (yellow)](https://storage.googleapis.com/fabmaster/media/images/IRA003-P_BrjByqK.width-450.png)
 
 ## Notes

@@ -26,5 +26,11 @@ When you pitch Arknight Shard, create a Runechant token."
 
 Keywords: [[kw-legendary]] · [[kw-specialization]]
 Rulings: search "Arknight Shard" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU000.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU000.png)
+
+## Images
+
+![CRU000 - Arknight Shard (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU000.png)
+![CRU000 - Arknight Shard (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU000.png)
 
 ## Notes

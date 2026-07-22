@@ -27,5 +27,10 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
 Keywords: [[kw-specialization]]
 Rulings: search "Hit the Gas" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP255.webp)
+
+## Images
+
+![SUP255 - Hit the Gas (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP255.webp)
 
 ## Notes

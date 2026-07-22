@@ -24,5 +24,10 @@ codes: [ROS035]
 Prevent the next 5 damage that would be dealt to you this turn."
 
 Rulings: search "Seeds of Tomorrow" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS035.png)
+
+## Images
+
+![ROS035 - Seeds of Tomorrow (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS035.png)
 
 ## Notes

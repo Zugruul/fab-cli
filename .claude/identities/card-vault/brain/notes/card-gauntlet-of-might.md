@@ -24,5 +24,14 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Gauntlet of Might" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET006.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY135.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO005.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR006.png) · [Image #5](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC006.png)
+
+## Images
+
+![BET006 - Gauntlet of Might](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-BET/EN/BET006.png)
+![HVY135 - Gauntlet of Might](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY135.png)
+![KYO005 - Gauntlet of Might](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-KYO/EN/KYO005.png)
+![RHI006 - Gauntlet of Might](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-RNR/EN/RNR006.png)
+![VIC006 - Gauntlet of Might](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY-VIC/EN/VIC006.png)
 
 ## Notes

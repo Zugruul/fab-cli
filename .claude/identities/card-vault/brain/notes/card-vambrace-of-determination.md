@@ -24,5 +24,11 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and blade break."
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Vambrace of Determination" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB127.png) · [Image #2](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT174.width-450.png)
+
+## Images
+
+![FAB127 - Vambrace of Determination](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB127.png)
+![OUT174 - Vambrace of Determination](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT174.width-450.png)
 
 ## Notes

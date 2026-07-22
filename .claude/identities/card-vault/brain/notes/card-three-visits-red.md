@@ -27,5 +27,10 @@ codes: [MST033]
 
 Keywords: [[kw-ward]]
 Rulings: search "Three Visits" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST033.png)
+
+## Images
+
+![MST033 - Three Visits (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST033.png)
 
 ## Notes

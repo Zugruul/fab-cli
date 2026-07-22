@@ -30,5 +30,10 @@ codes: [UPR079]
 Keywords: [[kw-go-again]]
 Variants: [[card-ronin-renegade-red]] · [[card-ronin-renegade-blue]]
 Rulings: search "Ronin Renegade" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR079.png)
+
+## Images
+
+![UPR079 - Ronin Renegade (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR079.png)
 
 ## Notes

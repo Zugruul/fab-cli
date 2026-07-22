@@ -30,5 +30,11 @@ Go again"
 Keywords: [[kw-go-again]]
 Variants: [[card-ball-lightning-red]] · [[card-ball-lightning-blue]]
 Rulings: search "Ball Lightning" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/ELE187.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/U-ELE187.width-450.png)
+
+## Images
+
+![ELE187 - Ball Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/ELE187.width-450.png)
+![ELE187 - Ball Lightning (yellow)](https://storage.googleapis.com/fabmaster/media/images/U-ELE187.width-450.png)
 
 ## Notes

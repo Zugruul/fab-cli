@@ -27,5 +27,11 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand."
 
 Variants: [[card-venomous-bite-yellow]] · [[card-venomous-bite-blue]]
 Rulings: search "Venomous Bite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST020.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU014.png)
+
+## Images
+
+![MST020 - Venomous Bite (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST020.png)
+![NUU014 - Venomous Bite (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU014.png)
 
 ## Notes

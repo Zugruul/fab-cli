@@ -27,5 +27,11 @@ Go again"
 
 Keywords: [[kw-intimidate]] · [[kw-go-again]]
 Rulings: search "Lay Down the Challenge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN007.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN007-RF.webp)
+
+## Images
+
+![PEN007 - Lay Down the Challenge (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN007.webp)
+![PEN007 - Lay Down the Challenge (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN007-RF.webp)
 
 ## Notes

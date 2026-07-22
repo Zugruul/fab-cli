@@ -23,5 +23,14 @@ codes: [EVO002, HER091, HER097, PEN337]
 Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play."
 
 Rulings: search "Dash, Database" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO002.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER091.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER097.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN337-MV.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN337-MV_BACK.webp)
+
+## Images
+
+![EVO002 - Dash, Database](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO002.png)
+![HER091 - Dash, Database](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER091.png)
+![HER097 - Dash, Database](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER097.png)
+![PEN337 - Dash, Database](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN337-MV.webp)
+![PEN337 - Dash, Database](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN337-MV_BACK.webp)
 
 ## Notes

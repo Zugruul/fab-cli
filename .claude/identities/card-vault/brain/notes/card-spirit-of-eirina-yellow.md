@@ -29,5 +29,10 @@ You may play Lumina Ascension as though it were an instant."
 
 Keywords: [[kw-legendary]]
 Rulings: search "Spirit of Eirina" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN066.png)
+
+## Images
+
+![DYN066 - Spirit of Eirina (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN066.png)
 
 ## Notes

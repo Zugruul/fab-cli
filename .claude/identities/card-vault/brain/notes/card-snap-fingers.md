@@ -22,5 +22,10 @@ codes: [OMN050]
 "Instant - {r}, destroy this: Target Lightning attack action card you control on the active chain link deals 1 arcane damage to the defending hero."
 
 Rulings: search "Snap Fingers" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN050.webp)
+
+## Images
+
+![OMN050 - Snap Fingers](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN050.webp)
 
 ## Notes

@@ -28,5 +28,13 @@ Go again"
 Keywords: [[kw-opt]] · [[kw-go-again]]
 Variants: [[card-whisper-of-the-oracle-red]] · [[card-whisper-of-the-oracle-blue]]
 Rulings: search "Whisper of the Oracle" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP424.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC216.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC216.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ023.webp)
+
+## Images
+
+![1HP424 - Whisper of the Oracle (yellow)](https://storage.googleapis.com/fabmaster/media/images/1HP424.width-450.png)
+![ARC216 - Whisper of the Oracle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC216.png)
+![ARC216 - Whisper of the Oracle (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC216.png)
+![SBZ023 - Whisper of the Oracle (yellow)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ023.webp)
 
 ## Notes

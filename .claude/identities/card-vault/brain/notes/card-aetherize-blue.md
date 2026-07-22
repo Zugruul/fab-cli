@@ -25,5 +25,12 @@ codes: [CRU164]
 
 Keywords: [[kw-negate]]
 Rulings: search "Aetherize" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164-RF.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU164.png)
+
+## Images
+
+![CRU164 - Aetherize (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164.png)
+![CRU164 - Aetherize (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164-RF.png)
+![CRU164 - Aetherize (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU164.png)
 
 ## Notes

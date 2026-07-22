@@ -24,5 +24,10 @@ codes: [UPR223]
 
 Variants: [[card-oasis-respite-red]] · [[card-oasis-respite-yellow]]
 Rulings: search "Oasis Respite" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR223.png)
+
+## Images
+
+![UPR223 - Oasis Respite (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR223.png)
 
 ## Notes

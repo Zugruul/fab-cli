@@ -26,5 +26,10 @@ codes: [EVR088]
 "If Battering Bolt hits a hero, they reveal their hand and discard all cards other than action cards. Then they lose 1{h} for each card discarded this way."
 
 Rulings: search "Battering Bolt" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/EVR088.width-450.png)
+
+## Images
+
+![EVR088 - Battering Bolt (red)](https://storage.googleapis.com/fabmaster/media/images/EVR088.width-450.png)
 
 ## Notes

@@ -31,5 +31,12 @@ Heron's flight can only be defended by 'non-attack' action cards."
 
 Keywords: [[kw-combo]]
 Rulings: search "Heron's Flight" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP100.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU056.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU056.png)
+
+## Images
+
+![1HP100 - Heron's Flight (red)](https://storage.googleapis.com/fabmaster/media/images/1HP100.width-450.png)
+![CRU056 - Heron's Flight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU056.png)
+![CRU056 - Heron's Flight (red)](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU056.png)
 
 ## Notes

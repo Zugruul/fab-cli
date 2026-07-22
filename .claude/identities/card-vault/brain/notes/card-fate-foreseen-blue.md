@@ -27,5 +27,12 @@ codes: [1HP407, ARC202]
 Keywords: [[kw-opt]]
 Variants: [[card-fate-foreseen-red]] · [[card-fate-foreseen-yellow]]
 Rulings: search "Fate Foreseen" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP407.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC202.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC202.png)
+
+## Images
+
+![1HP407 - Fate Foreseen (blue)](https://storage.googleapis.com/fabmaster/media/images/1HP407.width-450.png)
+![ARC202 - Fate Foreseen (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC202.png)
+![ARC202 - Fate Foreseen (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC202.png)
 
 ## Notes

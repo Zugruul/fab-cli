@@ -24,5 +24,11 @@ codes: [DTD100, LGS169]
 
 Variants: [[card-break-of-dawn-yellow]] · [[card-break-of-dawn-blue]]
 Rulings: search "Break of Dawn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD100.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS169.png)
+
+## Images
+
+![DTD100 - Break of Dawn (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD100.png)
+![LGS169 - Break of Dawn (red)](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS169.png)
 
 ## Notes

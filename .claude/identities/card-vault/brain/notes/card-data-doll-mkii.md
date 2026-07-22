@@ -22,5 +22,13 @@ codes: [1HP182, CRU099, HER027]
 "Whenever a Mechanologist item with cost 2 or less is put into your banished zone from your deck, put it into the arena."
 
 Rulings: search "Data Doll MKII" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/1HP182.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU099.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU099.png) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER027.png)
+
+## Images
+
+![1HP182 - Data Doll MKII](https://storage.googleapis.com/fabmaster/media/images/1HP182.width-450.png)
+![CRU099 - Data Doll MKII](https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU099.png)
+![CRU099 - Data Doll MKII](https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU099.png)
+![HER027 - Data Doll MKII](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER027.png)
 
 ## Notes

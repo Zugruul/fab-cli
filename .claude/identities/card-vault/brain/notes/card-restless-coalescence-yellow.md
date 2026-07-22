@@ -28,5 +28,10 @@ Ward 2"
 
 Keywords: [[kw-ward]]
 Rulings: search "Restless Coalescence" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST133.png)
+
+## Images
+
+![MST133 - Restless Coalescence (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST133.png)
 
 ## Notes

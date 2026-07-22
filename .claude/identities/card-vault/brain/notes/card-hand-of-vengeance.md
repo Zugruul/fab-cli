@@ -24,5 +24,10 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Hand of Vengeance" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT146.png)
+
+## Images
+
+![HNT146 - Hand of Vengeance](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT146.png)
 
 ## Notes

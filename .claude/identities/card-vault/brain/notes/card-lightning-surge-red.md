@@ -29,5 +29,17 @@ codes: [AST011, AUA013, AUR010, ELE189, OSC010, ROS098, SBA015]
 Keywords: [[kw-go-again]]
 Variants: [[card-lightning-surge-yellow]] · [[card-lightning-surge-blue]]
 Rulings: search "Lightning Surge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST011.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA013.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR010.webp) · [Image #4](https://storage.googleapis.com/fabmaster/media/images/ELE189.width-450.png) · [Image #5](https://storage.googleapis.com/fabmaster/media/images/U-ELE189.width-450.png) · [Image #6](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC010.webp) · [Image #7](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS098.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA015.webp)
+
+## Images
+
+![AST011 - Lightning Surge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AST011.webp)
+![AUA013 - Lightning Surge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUA013.webp)
+![AUR010 - Lightning Surge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/AUR010.webp)
+![ELE189 - Lightning Surge (red)](https://storage.googleapis.com/fabmaster/media/images/ELE189.width-450.png)
+![ELE189 - Lightning Surge (red)](https://storage.googleapis.com/fabmaster/media/images/U-ELE189.width-450.png)
+![OSC010 - Lightning Surge (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/OSC010.webp)
+![ROS098 - Lightning Surge (red)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS098.png)
+![SBA015 - Lightning Surge (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA015.webp)
 
 ## Notes

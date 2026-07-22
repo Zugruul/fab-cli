@@ -30,5 +30,10 @@ This gets +X{p}, where X is the number of equipment defending it."
 Keywords: [[kw-boost]]
 Variants: [[card-fender-bender-red]] · [[card-fender-bender-blue]]
 Rulings: search "Fender Bender" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO211.png)
+
+## Images
+
+![EVO211 - Fender Bender (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO211.png)
 
 ## Notes

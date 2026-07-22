@@ -26,5 +26,11 @@ Ward 4"
 
 Keywords: [[kw-ward]]
 Rulings: search "Victoria, Archangel of Triumph" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011_BACK.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011_BACK_V2.png)
+
+## Images
+
+![DTD011 - Victoria, Archangel of Triumph](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011_BACK.png)
+![DTD011 - Victoria, Archangel of Triumph](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD011_BACK_V2.png)
 
 ## Notes

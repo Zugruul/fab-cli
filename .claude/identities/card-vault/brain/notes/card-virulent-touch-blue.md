@@ -28,5 +28,10 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
 
 Variants: [[card-virulent-touch-red]] · [[card-virulent-touch-yellow]]
 Rulings: search "Virulent Touch" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT170.width-450.png)
+
+## Images
+
+![OUT170 - Virulent Touch (blue)](https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT170.width-450.png)
 
 ## Notes

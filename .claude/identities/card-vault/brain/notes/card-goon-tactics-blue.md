@@ -26,5 +26,11 @@ codes: [SLY027, SUP106]
 "If you control 3 or more auras, this gets +3{p} and "When this hits a hero, destroy the top card of their deck.""
 
 Rulings: search "Goon Tactics" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY027.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP106.webp)
+
+## Images
+
+![SLY027 - Goon Tactics (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY027.webp)
+![SUP106 - Goon Tactics (blue)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP106.webp)
 
 ## Notes

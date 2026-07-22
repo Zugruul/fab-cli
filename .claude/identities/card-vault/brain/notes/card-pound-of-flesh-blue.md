@@ -28,5 +28,10 @@ Go again"
 
 Keywords: [[kw-go-again]]
 Rulings: search "Pound of Flesh" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN189.webp)
+
+## Images
+
+![PEN189 - Pound of Flesh (blue)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN189.webp)
 
 ## Notes

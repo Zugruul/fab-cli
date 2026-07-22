@@ -26,5 +26,11 @@ codes: [ANQ012, DTD226]
 "When this hits a hero, name a card. They can't play the named card until the end of their next turn."
 
 Rulings: search "Censor" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ012.webp) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD226.png)
+
+## Images
+
+![ANQ012 - Censor (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ANQ012.webp)
+![DTD226 - Censor (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD226.png)
 
 ## Notes

@@ -24,5 +24,11 @@ Blade Break"
 
 Keywords: [[kw-blade-break]]
 Rulings: search "Bone Vizier" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB106.png) · [Image #2](https://storage.googleapis.com/fabmaster/media/images/RVD003.width-450.png)
+
+## Images
+
+![FAB106 - Bone Vizier](https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB106.png)
+![RVD003 - Bone Vizier](https://storage.googleapis.com/fabmaster/media/images/RVD003.width-450.png)
 
 ## Notes

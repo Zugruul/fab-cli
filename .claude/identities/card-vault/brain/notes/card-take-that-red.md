@@ -27,5 +27,11 @@ codes: [GEM095, SUP111]
 
 Variants: [[card-take-that-yellow]] · [[card-take-that-blue]]
 Rulings: search "Take That!" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM095.webp) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP111.webp)
+
+## Images
+
+![GEM095 - Take That! (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM095.webp)
+![SUP111 - Take That! (red)](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP111.webp)
 
 ## Notes

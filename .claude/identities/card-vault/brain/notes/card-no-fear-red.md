@@ -24,5 +24,10 @@ codes: [HVY016]
 The next time you would be dealt damage this turn, prevent X of that damage, where X is 2 plus the number of cards banished to play this."
 
 Rulings: search "No Fear" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY016.png)
+
+## Images
+
+![HVY016 - No Fear (red)](https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY016.png)
 
 ## Notes

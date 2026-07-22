@@ -26,5 +26,15 @@ At the beginning of your end phase, return to the brood."
 
 Keywords: [[kw-go-again]]
 Rulings: search "Arakni, Redback" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT006.png) · [Image #2](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT006-MV.webp) · [Image #3](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT006-MV_BACK.webp) · [Image #4](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS379.png) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR037.webp) · [Image #6](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD030.webp)
+
+## Images
+
+![HNT006 - Arakni, Redback](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT006.png)
+![HNT006 - Arakni, Redback](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT006-MV.webp)
+![HNT006 - Arakni, Redback](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HNT006-MV_BACK.webp)
+![LGS379 - Arakni, Redback](https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS379.png)
+![SAR037 - Arakni, Redback](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR037.webp)
+![WOD030 - Arakni, Redback](https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/WOD030.webp)
 
 ## Notes

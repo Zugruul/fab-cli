@@ -26,5 +26,17 @@ Attack Reaction - Banish a card from Boltyn's soul: Target attack with {p} great
 
 Keywords: [[kw-go-again]]
 Rulings: search "Boltyn" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/media/images/BOL001.width-450.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD045.png) · [Image #3](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER035.png) · [Image #4](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER160-MV.webp) · [Image #5](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER160-MV_BACK.webp) · [Image #6](https://storage.googleapis.com/fabmaster/media/images/MON030.width-450.png) · [Image #7](https://storage.googleapis.com/fabmaster/media/images/U-MON030.width-450.png) · [Image #8](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL001.webp)
+
+## Images
+
+![BOL001 - Boltyn](https://storage.googleapis.com/fabmaster/media/images/BOL001.width-450.png)
+![DTD045 - Boltyn](https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD045.png)
+![HER035 - Boltyn](https://storage.googleapis.com/fabmaster/cardfaces/promos/HER035.png)
+![HER160 - Boltyn](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER160-MV.webp)
+![HER160 - Boltyn](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER160-MV_BACK.webp)
+![MON030 - Boltyn](https://storage.googleapis.com/fabmaster/media/images/MON030.width-450.png)
+![MON030 - Boltyn](https://storage.googleapis.com/fabmaster/media/images/U-MON030.width-450.png)
+![SBL001 - Boltyn](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL001.webp)
 
 ## Notes

@@ -26,5 +26,11 @@ codes: [PEN241]
 "When this attacks, you may discard an instant card. If you do, draw a card and create an Embodiment of Lightning token."
 
 Rulings: search "Astravolt Elemental" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN241.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN241-RF.webp)
+
+## Images
+
+![PEN241 - Astravolt Elemental (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN241.webp)
+![PEN241 - Astravolt Elemental (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN241-RF.webp)
 
 ## Notes

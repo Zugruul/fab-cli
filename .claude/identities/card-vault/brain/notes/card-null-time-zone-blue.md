@@ -28,5 +28,10 @@ When this enters the arena, name a card. The named card can't be pitched or play
 
 Keywords: [[kw-crank]]
 Rulings: search "Null Time Zone" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT251.png)
+
+## Images
+
+![HNT251 - Null Time Zone (blue)](https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT251.png)
 
 ## Notes

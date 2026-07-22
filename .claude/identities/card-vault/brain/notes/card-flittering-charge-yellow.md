@@ -29,5 +29,11 @@ codes: [LGS338, ROS090]
 Keywords: [[kw-go-again]]
 Variants: [[card-flittering-charge-red]] · [[card-flittering-charge-blue]]
 Rulings: search "Flittering Charge" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS338.original.png) · [Image #2](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS090.png)
+
+## Images
+
+![LGS338 - Flittering Charge (yellow)](https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS338.original.png)
+![ROS090 - Flittering Charge (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS090.png)
 
 ## Notes

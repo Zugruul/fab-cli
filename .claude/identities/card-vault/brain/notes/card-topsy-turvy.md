@@ -24,5 +24,11 @@ Arcane Barrier 1"
 
 Keywords: [[kw-arcane-barrier]]
 Rulings: search "Topsy Turvy" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN276.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR004.webp)
+
+## Images
+
+![PEN276 - Topsy Turvy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN276.webp)
+![SAR004 - Topsy Turvy](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR004.webp)
 
 ## Notes

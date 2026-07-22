@@ -29,5 +29,10 @@ codes: [TCC039]
 Keywords: [[kw-crush]]
 Variants: [[card-boulder-drop-red]] · [[card-boulder-drop-blue]]
 Rulings: search "Boulder Drop" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC039.png)
+
+## Images
+
+![TCC039 - Boulder Drop (yellow)](https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC039.png)
 
 ## Notes

@@ -29,5 +29,10 @@ Go again"
 Keywords: [[kw-go-again]] · [[kw-freeze]]
 Variants: [[card-cold-snap-yellow]] · [[card-cold-snap-blue]]
 Rulings: search "Cold Snap" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR147.png)
+
+## Images
+
+![UPR147 - Cold Snap (red)](https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR147.png)
 
 ## Notes

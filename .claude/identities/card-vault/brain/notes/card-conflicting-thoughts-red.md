@@ -29,5 +29,11 @@ codes: [GEM175, OMN219]
 Keywords: [[kw-opt]]
 Variants: [[card-conflicting-thoughts-yellow]] · [[card-conflicting-thoughts-blue]]
 Rulings: search "Conflicting Thoughts" at https://cardvault.fabtcg.com/
+Images: [Image #1](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM175.webp) · [Image #2](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN219.webp)
+
+## Images
+
+![GEM175 - Conflicting Thoughts (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/GEM175.webp)
+![OMN219 - Conflicting Thoughts (red)](https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN219.webp)
 
 ## Notes
