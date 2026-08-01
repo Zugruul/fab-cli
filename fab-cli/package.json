@@ -1,0 +1,44 @@
+{
+  "name": "fabrary-search",
+  "version": "1.0.0",
+  "description": "FaBrary CLI — search Flesh & Blood decks and cards",
+  "main": "src/cli.ts",
+  "bin": {
+    "fab-cli": "./bin/fab.js"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "gate": "npm run typecheck && npm run lint && npm run format:check && npm run test:run",
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "test:run": "vitest run",
+    "dev": "tsx src/cli.ts",
+    "postinstall": "node scripts/postinstall.mjs",
+    "lore:sync": "tsx src/cli.ts lore sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.3",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.6.0",
+    "@types/pdf-parse": "^1.1.5",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.5",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.63.0",
+    "undici": "^7.28.0",
+    "vitest": "^4.1.10"
+  }
+}

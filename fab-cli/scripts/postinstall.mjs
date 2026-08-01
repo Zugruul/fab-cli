@@ -15,14 +15,19 @@
  * the first `fab-cli lore` command, and refreshed periodically thereafter.
  */
 import { execSync } from "node:child_process";
-import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-// Only attempt when this is a real git checkout (dev/linked install).
-if (!existsSync(join(root, ".git")) && !existsSync(join(root, ".gitmodules"))) {
+// Only attempt when this is a real git checkout (dev/linked install). fab-cli
+// lives as a workspace package inside a monorepo, so its own .git/.gitmodules
+// don't exist here — `git` itself walks up to find the repo root (or the
+// superproject root when fab-cli sits inside a submodule), so ask it directly
+// instead of checking for .git/.gitmodules next to this file.
+try {
+  execSync("git rev-parse --is-inside-work-tree", { cwd: root, stdio: "ignore" });
+} catch {
   process.exit(0);
 }
 
