@@ -1,11 +1,12 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 
 // §10 I6: this test must never touch third_party/talishar* or the network.
 // It reads only the committed skill markdown file below.
 const SKILL_PATH = join(
-  process.cwd(),
+  MONOREPO_ROOT,
   ".claude",
   "skills",
   "talishar-implement-card",

@@ -1,8 +1,9 @@
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 
-const ROOT = process.cwd();
+const ROOT = MONOREPO_ROOT;
 const BRAIN_DIR = join(ROOT, ".claude", "identities", "talishar", "brain");
 const PROJECT_YAML = join(ROOT, ".claude", "project.yaml");
 
