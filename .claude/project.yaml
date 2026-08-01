@@ -203,6 +203,86 @@ specs:
     - The talishar brain links to card-vault entities for card/keyword facts and is never added to the keyword-sync MIRRORS list; engine knowledge lives in the talishar brain only.
     - All merge-gating tests pass with the network disabled and without the vendored clones present; running the Talishar docker stack or hitting talishar.net/images.talishar.net is only ever user-invoked, never in the gate.
     - Upstream contributions stay incremental and convention-following (feat:/fix: titles, Summary + Test plan bodies, coordination via the Talishar Discord for large changes); no engine rewrite.
+-   id: app
+    title: FAB companion app (on-device SLM Q&A, scanning, catalog)
+    board: main
+    specPath: SPEC-APP.md
+    backlogPath: docs/BACKLOG-APP.md
+    taskPrefix: APP
+    epics:
+    -   id: E0
+        title: Monorepo restructure
+        taskRanges:
+        -   - 1
+            - 9
+        blockedBy: []
+    -   id: E1
+        title: Corpus -> dataset pipeline
+        taskRanges:
+        -   - 10
+            - 19
+        blockedBy:
+        -   epic: E0
+            untilStatus: Deployed
+    -   id: E2
+        title: Model training & eval
+        taskRanges:
+        -   - 20
+            - 29
+        -   - 80
+            - 89
+        blockedBy:
+        -   epic: E1
+            untilStatus: Deployed
+    -   id: E3
+        title: App foundation & artifact versioning
+        taskRanges:
+        -   - 30
+            - 39
+        blockedBy:
+        -   epic: E0
+            untilStatus: Deployed
+    -   id: E4
+        title: Q&A experience
+        taskRanges:
+        -   - 40
+            - 49
+        blockedBy:
+        -   epic: E3
+            untilStatus: Deployed
+    -   id: E5
+        title: Card scanning
+        taskRanges:
+        -   - 50
+            - 59
+        blockedBy:
+        -   epic: E3
+            untilStatus: Deployed
+    -   id: E6
+        title: Catalog & QR share
+        taskRanges:
+        -   - 60
+            - 69
+        blockedBy:
+        -   epic: E5
+            untilStatus: Deployed
+    -   id: EI
+        title: Infra reserve
+        taskRanges:
+        -   - 90
+            - 99
+        blockedBy: []
+    invariants:
+    - Every game-fact answer must derive from retrieved corpus chunks; emitted citations must be validated against the actually-retrieved set; when grounding is insufficient the app must abstain and point to the judge Discord #ask-a-judge channel — never emit a parametric guess.
+    - Card legality (bans, Living Legend, restricted lists) must never be served from model weights or static indexes as current truth — fetch the live policy when online; when offline, label legality claims as potentially stale with the last-known date.
+    - Every shipped artifact (model, embedder, detector, index, registry) must be versioned and pinned via manifests to a corpus snapshot and its compatible peers, with its license identifier recorded; the app must refuse mismatched artifact combinations; knowledge provenance ("knowledge up to") must always be user-visible.
+    - Never mix content from any other card game into the corpus, datasets, models, indexes, or answers.
+    - The app is offline-first with no accounts and no required server; core Q&A/scan/catalog work with no network; the user's collection never leaves the device except by an explicit user share action, and collection contents are never sent to analytics.
+    - No official card images are redistributed inside shipped app binaries or downloadable artifacts; card images load at runtime from official/community CDNs and may be cached. Training-time use of downloaded images on the training host is permitted but images are never committed to git nor shipped.
+    - The corpus->dataset->train->quantize->eval->release pipeline must be reproducible from committed manifests (corpus snapshot hash, dataset config, base model hash, hyperparameters, seeds, environment capture, eval scores); no model ships without its manifest.
+    - No model or knowledge pack is released without passing the eval gate - trichotomy scoring with asymmetric penalties, near-zero incorrect on adjudication-critical categories, a per-suite minimum-correct coverage floor, OOD rejection suite green, the human-authored adjudication suite green, and (for major versions) a human-audited sample.
+    - Every ML component shipped in app binaries or downloadable artifacts must carry a license clean for public App Store distribution (Apache 2.0/MIT preferred); no non-commercial, research-only, or copyleft (GPL/AGPL) weights or code ship. Corpus text ships only in the mode recorded by the redistribution assessment.
+    - All merge-gating tests must pass with the network disabled; live HTTP happens only behind explicit user actions or the artifact updater, never in the gate.
 commands:
     gate: npm run gate
     gateFast: npm run test:run
@@ -259,3 +339,31 @@ methodology:
   mergeMethod: squash
   feedback: true
   serialDelivery: true
+assistant:
+    version: 1
+    enabled: true
+    names: ["fab-io", "fabio", "fah-byoo"]
+    systemPrompt: "You are fab-io (aliases: fabio, fah-byoo — the Brazilian Portuguese pronunciation), the Flesh & Blood TCG specialist assistant for this repository. fab-cli is a CLI for FaB deck/card search and meta analysis (fabrary.net), tournament coverage (fabtcg.com), official Card Vault true text/rulings, and TCGplayer-vs-Cardmarket price comparison. Answer FaB questions (rules, cards, decks, meta, tournaments, lore, prices) using the CLI and vendored knowledge sources, never from unchecked model memory: card text/rulings/legality always come from Card Vault and the live legality page, never a guess; lore is answered only from the vendored fablore archive with source_url citations; hero class/talent/format legality is always resolved from live data. The judge brain is the source of truth for rules/keyword knowledge and never learns from the player."
+    llm:
+        provider: "claude"
+        model: "claude-sonnet-5"
+    capabilities:
+        claude-code:
+            enabled: true
+            provisioning:
+                bin: "claude"
+        codex:
+            enabled: false
+            provisioning:
+                bin: "codex"
+    observability:
+        metrics:
+            prometheus:
+                enabled: true
+                host: "127.0.0.1"
+                port: 9464
+        traces:
+            sqlite:
+                enabled: true
+                retainDays: 30
+                maxMB: 500
