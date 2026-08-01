@@ -1,10 +1,11 @@
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 
 // §10 I6: this test must never touch third_party/talishar* or the network.
 // It reads only the committed markdown files below.
-const DIR = join(process.cwd(), ".claude", "talishar");
+const DIR = join(MONOREPO_ROOT, ".claude", "talishar");
 
 const FILES = [
   "architecture.md",
