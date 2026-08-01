@@ -16,7 +16,8 @@
     "test:run": "vitest run",
     "dev": "tsx src/cli.ts",
     "postinstall": "node scripts/postinstall.mjs",
-    "lore:sync": "tsx src/cli.ts lore sync"
+    "lore:sync": "tsx src/cli.ts lore sync",
+    "test:scripts": "node --test scripts/*.test.mjs"
   },
   "keywords": [],
   "author": "",
