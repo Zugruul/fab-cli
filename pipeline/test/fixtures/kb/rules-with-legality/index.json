@@ -1,0 +1,15 @@
+{
+  "builtAt": "2026-07-15T10:00:05.000Z",
+  "count": 1,
+  "chunks": [
+    {
+      "document": "legality",
+      "section": "current",
+      "title": "Card Legality Policy",
+      "sourceUrl": "https://fabtcg.com/rules-and-policy-center/card-legality-policy/",
+      "version": "live",
+      "fetchedAt": "2026-07-15T10:00:00.000Z",
+      "text": "Home Rules and Policy Card Legality Policy We believe card legality and format management is a vital element to earning the respect of TCG fans."
+    }
+  ]
+}

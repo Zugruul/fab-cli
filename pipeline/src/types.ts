@@ -63,6 +63,12 @@ export interface CorpusSnapshotManifest {
   crVersion: string;
   documentVersions: DocumentVersion[];
   latestSetCode: string;
+  /** ISO 8601 timestamp of when the live Card Legality Policy page was last
+   * fetched (per `kb/rules/index.json`'s legality chunk), or the literal
+   * "unknown" when no rules-KB legality record was available at export time
+   * — never fabricated, never fetched live by the pipeline itself
+   * (SPEC-APP.md §4 Glossary "Corpus snapshot"). */
+  legalityPolicyFetchedAt: string;
   loreCommit: string;
   sources: SourceManifestEntry[];
 }

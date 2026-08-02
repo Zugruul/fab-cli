@@ -3,6 +3,7 @@ import {
   validateCorpusSnapshotManifest,
   validCorpusSnapshotManifest,
   invalidCorpusSnapshotManifestMissingShippingMode,
+  invalidCorpusSnapshotManifestMissingLegalityPolicyFetchedAt,
 } from "../src/index.js";
 
 describe("CorpusSnapshotManifest schema", () => {
@@ -44,6 +45,16 @@ describe("CorpusSnapshotManifest schema", () => {
     };
     const result = validateCorpusSnapshotManifest(bad);
     expect(result.success).toBe(false);
+  });
+
+  it("rejects a manifest missing legalityPolicyFetchedAt, with a precise error path", () => {
+    const result = validateCorpusSnapshotManifest(
+      invalidCorpusSnapshotManifestMissingLegalityPolicyFetchedAt,
+    );
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "legalityPolicyFetchedAt")).toBe(true);
+    }
   });
 
   it("note is optional — a source omitting it is still valid", () => {
