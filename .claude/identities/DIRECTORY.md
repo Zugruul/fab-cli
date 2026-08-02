@@ -5065,6 +5065,7 @@ _(no notes)_
 - **build-empty-state-from-genesis-commit-not-current-sibling** — [brains, scaffolding, git]
 - **cardmarket-duplicate-expansions** — [pricing, cardmarket, matching]
 - **cardmarket-single-aggregate-not-per-condition** — [pricing, cardmarket, product]
+- **cross-store-supersession** — [persistence, consistency, testing]
 - **data-before-marker-durability** — [pipelines, durability, resumability]
 - **dependency-isolation-scan-values** — [testing, licensing, pnpm]
 - **derive-root-from-import-meta-url** — [tests, paths, monorepo]
