@@ -32,4 +32,20 @@ describe("exportRulesChunks", () => {
     expect(result.missing).toBe(true);
     expect(result.chunks).toEqual([]);
   });
+
+  it("degrades gracefully (no throw) when index.json exists but is corrupt JSON", () => {
+    const result = exportRulesChunks(path.join(FIXTURES, "kb", "rules-corrupt"));
+    expect(result.missing).toBe(true);
+    expect(result.chunks).toEqual([]);
+    expect(result.missingReason).toMatch(/corrupt|json/i);
+  });
+
+  it("skips a malformed chunk entry instead of crashing the whole source", () => {
+    const result = exportRulesChunks(path.join(FIXTURES, "kb", "rules-malformed-entry"));
+    expect(result.missing).toBe(false);
+    // the well-formed CR entry still exports
+    expect(result.chunks.map((c) => c.chunk_id)).toEqual(["rules/cr/8.3.1"]);
+    expect(result.skipped).toHaveLength(1);
+    expect(result.skipped[0].reason).toMatch(/document/i);
+  });
 });

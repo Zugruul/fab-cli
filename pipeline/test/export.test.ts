@@ -21,15 +21,16 @@ function baseConfig() {
 describe("runExport", () => {
   it("combines brain, rules, and lore chunks with globally unique chunk_ids", () => {
     const { chunks } = runExport(baseConfig());
-    // 4 brain + 2 rules + 2 lore
-    expect(chunks).toHaveLength(8);
+    // 5 brain (incl. the two-hop symlink chain, deduped) + 2 rules + 2 lore
+    // (the broken judge/lore symlinks are skipped, not counted)
+    expect(chunks).toHaveLength(9);
     const ids = chunks.map((c) => c.chunk_id);
     expect(new Set(ids).size).toBe(ids.length);
   });
 
   it("stamps a manifest with content hash, document versions, latest set code, and per-source counts", () => {
     const { manifest } = runExport(baseConfig());
-    expect(manifest.chunkCount).toBe(8);
+    expect(manifest.chunkCount).toBe(9);
     expect(manifest.contentHash).toMatch(/^[a-f0-9]{64}$/);
     expect(manifest.latestSetCode).toBe("OTA");
     expect(manifest.crVersion).toBe("Wed, 10 Jun 2026 19:43:38 GMT");
@@ -40,7 +41,7 @@ describe("runExport", () => {
     const byName = Object.fromEntries(manifest.sources.map((s) => [s.name, s]));
     expect(byName["judge-brain"].count).toBe(1);
     expect(byName["player-brain"].count).toBe(1);
-    expect(byName["card-vault-brain"].count).toBe(2);
+    expect(byName["card-vault-brain"].count).toBe(3);
     expect(byName["rules-kb"].count).toBe(2);
     expect(byName["lore"].count).toBe(2);
 
@@ -48,6 +49,47 @@ describe("runExport", () => {
     expect(byName["lore"].shippingMode).toBe("stub");
     expect(byName["judge-brain"].shippingMode).toBe("verbatim");
     expect(byName["rules-kb"].shippingMode).toBe("verbatim");
+  });
+
+  it("always records the §7.10 pending-rights-assessment note per source, not just on grace paths", () => {
+    const { manifest } = runExport(baseConfig());
+    // every source's shipping mode is a placeholder until APP-017 runs the real
+    // redistribution-rights assessment — that pending-ness must be visible in the
+    // manifest itself (SPEC-APP.md §7.10: "outcome is recorded per source in the
+    // corpus snapshot manifest"), not only documented in code comments.
+    for (const source of manifest.sources) {
+      expect(source.note, `source ${source.name} missing a rights-assessment note`).toMatch(
+        /APP-017/,
+      );
+      expect(source.note).toMatch(/§7\.10|7\.10/);
+    }
+  });
+
+  it("surfaces per-entry skip counts and reasons in the manifest, not silently", () => {
+    const { manifest } = runExport(baseConfig());
+
+    const judgeBrain = manifest.sources.find((s) => s.name === "judge-brain")!;
+    expect(judgeBrain.skipped).toBe(1); // the broken kw-ghost.md symlink
+    expect(judgeBrain.note).toMatch(/kw-ghost\.md/);
+    expect(judgeBrain.note).toMatch(/1/);
+
+    const lore = manifest.sources.find((s) => s.name === "lore")!;
+    expect(lore.skipped).toBe(1); // the broken ghost-page.md symlink
+    expect(lore.note).toMatch(/ghost-page\.md/);
+
+    // sources with nothing to skip report zero, not an absent field
+    const rulesKb = manifest.sources.find((s) => s.name === "rules-kb")!;
+    expect(rulesKb.skipped).toBe(0);
+  });
+
+  it("degrades gracefully (no throw) when kb/rules' index.json is corrupt JSON", () => {
+    const config = baseConfig();
+    config.kbRulesDir = path.join(FIXTURES, "kb", "rules-corrupt");
+    const { chunks, manifest } = runExport(config);
+    expect(chunks.filter((c) => c.chunk_id.startsWith("rules/"))).toHaveLength(0);
+    const rulesSource = manifest.sources.find((s) => s.name === "rules-kb")!;
+    expect(rulesSource.count).toBe(0);
+    expect(rulesSource.note).toMatch(/corrupt|json/i);
   });
 
   it("produces identical chunk_ids and content hash across two runs of unchanged fixtures", () => {

@@ -1,0 +1,23 @@
+{
+  "builtAt": "2026-08-01T22:11:11.758Z",
+  "count": 2,
+  "chunks": [
+    {
+      "document": "CR",
+      "section": "8.3.1",
+      "title": "Dominate",
+      "sourceUrl": "vendored:third_party/fab-rules/en-fab-cr.txt",
+      "version": "2026-06-10",
+      "fetchedAt": "2026-08-01T22:10:49.459Z",
+      "text": "Dominate prevents a block after blocking costs are paid, per CR 8.3.1."
+    },
+    {
+      "section": "missing-document-field",
+      "title": "Malformed entry",
+      "sourceUrl": "vendored:third_party/fab-rules/en-fab-cr.txt",
+      "version": "2026-06-10",
+      "fetchedAt": "2026-08-01T22:10:49.459Z",
+      "text": "This entry is missing its required `document` field."
+    }
+  ]
+}

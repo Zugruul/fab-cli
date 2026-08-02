@@ -42,4 +42,14 @@ body text
     expect(frontmatter).toEqual({});
     expect(body).toBe(raw);
   });
+
+  it("normalizes CRLF line endings so scalars and the body don't retain stray \\r", () => {
+    const raw =
+      '---\r\ngraduated: false\r\ncreated: 2026-01-15\r\n---\r\n\r\nCRLF body line.\r\n';
+    const { frontmatter, body } = parseNote(raw);
+    expect(frontmatter.graduated).toBe(false);
+    expect(frontmatter.created).toBe("2026-01-15");
+    expect(body).not.toMatch(/\r/);
+    expect(body.trim()).toBe("CRLF body line.");
+  });
 });

@@ -33,4 +33,19 @@ describe("exportLoreChunks", () => {
     )!;
     expect(rathe.tags).toContain("archive");
   });
+
+  it("skips a broken symlink (missing target) instead of crashing the whole export", () => {
+    // lore/ghost-page.md is a symlink pointing at a target that was never created.
+    const result = exportLoreChunks(path.join(FIXTURES, "lore"));
+
+    const ids = result.chunks.map((c) => c.chunk_id);
+    expect(ids).not.toContain("lore/ghost-page");
+    // every other page in the fixture tree still exports normally
+    expect(ids).toContain("lore/other-characters/lord-sutcliffe");
+    expect(ids).toContain("lore/archive/world-of-rathe/rathe");
+
+    expect(result.skipped).toHaveLength(1);
+    expect(result.skipped[0].path).toContain("ghost-page.md");
+    expect(result.skipped[0].reason).toMatch(/ENOENT|no such file/i);
+  });
 });

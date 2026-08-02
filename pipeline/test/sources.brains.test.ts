@@ -11,24 +11,27 @@ describe("exportBrainNotes", () => {
   it("exports one chunk per physical note and dedupes symlinked notes to their owning identity", () => {
     const result = exportBrainNotes(IDENTITIES_ROOT, ["judge", "player", "card-vault"]);
 
-    // 4 physical notes total: card-vault has kw-dominate.md + card-heartstoker-branchblade.md,
-    // judge has ruling-dominate-timing.md (+ a kw-dominate.md symlink), player has
-    // strategy-blocking-basics.md (+ a kw-dominate.md symlink). The two symlinks must dedupe
-    // to a single chunk owned by card-vault, not appear twice.
-    expect(result.chunks).toHaveLength(4);
+    // 5 physical notes total: card-vault has kw-dominate.md + card-heartstoker-branchblade.md +
+    // kw-chained.md, judge has ruling-dominate-timing.md (+ symlinks: kw-dominate.md,
+    // kw-chained.md, and a broken kw-ghost.md), player has strategy-blocking-basics.md (+
+    // symlinks: kw-dominate.md, and kw-chained.md — itself a symlink to judge's symlink). Every
+    // symlink must dedupe to its single owning-identity chunk; the broken symlink is skipped
+    // entirely (see the dedicated "skips a broken symlink" test).
+    expect(result.chunks).toHaveLength(5);
 
     const ids = result.chunks.map((c) => c.chunk_id).sort();
     expect(ids).toEqual([
       "brain/card-vault/card-heartstoker-branchblade",
+      "brain/card-vault/kw-chained",
       "brain/card-vault/kw-dominate",
       "brain/judge/ruling-dominate-timing",
       "brain/player/strategy-blocking-basics",
     ]);
 
-    // the symlinked note is owned by card-vault, not judge or player
+    // the symlinked notes are owned by card-vault, not judge or player
     expect(result.countsByIdentity["judge"]).toBe(1);
     expect(result.countsByIdentity["player"]).toBe(1);
-    expect(result.countsByIdentity["card-vault"]).toBe(2);
+    expect(result.countsByIdentity["card-vault"]).toBe(3);
   });
 
   it("extracts frontmatter tags, source, and body text for a note", () => {
@@ -59,5 +62,30 @@ describe("exportBrainNotes", () => {
     const result = exportBrainNotes(IDENTITIES_ROOT, ["nonexistent-identity"]);
     expect(result.chunks).toEqual([]);
     expect(result.countsByIdentity["nonexistent-identity"]).toBe(0);
+  });
+
+  it("skips a broken symlink (missing target) instead of crashing the whole export", () => {
+    // judge/brain/notes/kw-ghost.md points at a target that was never created.
+    const result = exportBrainNotes(IDENTITIES_ROOT, ["judge", "player", "card-vault"]);
+
+    const ids = result.chunks.map((c) => c.chunk_id);
+    expect(ids).not.toContain("brain/judge/kw-ghost");
+    // every other note in the fixture tree still exports normally
+    expect(ids).toContain("brain/judge/ruling-dominate-timing");
+    expect(ids).toContain("brain/card-vault/kw-dominate");
+
+    expect(result.skipped).toHaveLength(1);
+    expect(result.skipped[0].path).toContain("kw-ghost.md");
+    expect(result.skipped[0].reason).toMatch(/ENOENT|no such file/i);
+  });
+
+  it("resolves a two-hop symlink chain to its final owning identity and dedupes to one chunk", () => {
+    // card-vault/.../kw-chained.md (physical) <- judge/.../kw-chained.md (symlink)
+    // <- player/.../kw-chained.md (symlink-to-a-symlink)
+    const result = exportBrainNotes(IDENTITIES_ROOT, ["judge", "player", "card-vault"]);
+
+    const chained = result.chunks.filter((c) => c.chunk_id.endsWith("/kw-chained"));
+    expect(chained).toHaveLength(1);
+    expect(chained[0].chunk_id).toBe("brain/card-vault/kw-chained");
   });
 });
