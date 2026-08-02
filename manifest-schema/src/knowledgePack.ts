@@ -5,6 +5,18 @@ const SHA256_RE = /^[0-9a-f]{64}$/i;
 export const KnowledgePackIndexFileSchema = z.object({
   name: z.string(),
   sha256: z.string().regex(SHA256_RE, "sha256 must be a 64-character hex string"),
+  /**
+   * Byte size of this index file (BUG-202, reviewer recommendation from
+   * #200). Required, not optional — knowledge packs aren't shipped yet, so
+   * an optional field would silently re-create the "size unknown" hole this
+   * closes: the onboarding consent screen (SPEC-APP.md §9.9) derives
+   * displayed download sizes from the manifests, and before this the
+   * knowledge-pack side had no byte size in its manifest at all, forcing
+   * the caller to supply it out of band. See
+   * fab-app/src/onboarding/sizes.ts's deriveKnowledgePackSizeBytes, the
+   * single manifest-anchored source of truth this field enables.
+   */
+  sizeBytes: z.number().int().nonnegative(),
 });
 export type KnowledgePackIndexFile = z.infer<typeof KnowledgePackIndexFileSchema>;
 

@@ -69,4 +69,54 @@ describe("KnowledgePackManifest schema", () => {
     const result = validateKnowledgePackManifest(bad);
     expect(result.success).toBe(false);
   });
+
+  // --- BUG-202: per-file sizeBytes on indexFiles ---------------------------
+
+  it("accepts an indexFiles entry with sizeBytes and preserves the exact value", () => {
+    const manifest = {
+      ...validKnowledgePackManifest,
+      indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: 123_456 }],
+    };
+    const result = validateKnowledgePackManifest(manifest);
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.indexFiles[0].sizeBytes).toBe(123_456);
+    }
+  });
+
+  it("rejects an indexFiles entry missing sizeBytes (BUG-202: manifest must carry the size, not the caller), precise error path", () => {
+    const manifest = {
+      ...validKnowledgePackManifest,
+      indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64) }],
+    };
+    const result = validateKnowledgePackManifest(manifest);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "indexFiles.0.sizeBytes")).toBe(true);
+    }
+  });
+
+  it("rejects a negative sizeBytes, precise error path", () => {
+    const manifest = {
+      ...validKnowledgePackManifest,
+      indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: -1 }],
+    };
+    const result = validateKnowledgePackManifest(manifest);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "indexFiles.0.sizeBytes")).toBe(true);
+    }
+  });
+
+  it("rejects a non-integer sizeBytes, precise error path", () => {
+    const manifest = {
+      ...validKnowledgePackManifest,
+      indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: 12.5 }],
+    };
+    const result = validateKnowledgePackManifest(manifest);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "indexFiles.0.sizeBytes")).toBe(true);
+    }
+  });
 });

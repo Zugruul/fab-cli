@@ -31,16 +31,6 @@ export interface ArtifactSizes {
   totalBytes: number;
 }
 
-/** The knowledge-pack manifest (unlike the model pack's per-artifact
- * ModelPackArtifactSchema.sizeBytes) does not carry a byte size, and
- * manifest-schema is out of scope for this task — so the caller supplies
- * the resolved size (e.g. from the artifact host's Content-Length)
- * alongside the version it applies to. */
-export interface KnowledgePackSizeInfo {
-  version: string;
-  sizeBytes: number;
-}
-
 // --- Per-artifact download progress (§9.9 progress with pause/resume/retry)
 
 export type OnboardingArtifactId = "model-pack" | "knowledge-pack";

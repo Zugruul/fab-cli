@@ -116,7 +116,11 @@ export const validKnowledgePackManifest: KnowledgePackManifest = {
   retrievalFloor: 0.42,
   oodThreshold: 0.2,
   chunkCount: 6410,
-  indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64) }],
+  indexFiles: [
+    { name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: 280_000_000 },
+    { name: "vectors.bin", sha256: "f".repeat(64), sizeBytes: 19_500_000 },
+    { name: "printing-registry.json", sha256: "0".repeat(64), sizeBytes: 500_000 },
+  ],
 };
 
 /** Invalid: retrievalFloor omitted entirely (§9.7 calibrated abstention floor). */
@@ -129,7 +133,7 @@ export const invalidKnowledgePackManifestMissingRetrievalFloor: unknown = {
   printingRegistryVersion: "1.0.0",
   oodThreshold: 0.2,
   chunkCount: 6410,
-  indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64) }],
+  indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: 280_000_000 }],
 };
 
 /** Invalid: oodThreshold omitted entirely (§10.9 calibrated OOD threshold). */
@@ -142,7 +146,7 @@ export const invalidKnowledgePackManifestMissingOodThreshold: unknown = {
   printingRegistryVersion: "1.0.0",
   retrievalFloor: 0.42,
   chunkCount: 6410,
-  indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64) }],
+  indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: 280_000_000 }],
 };
 
 /** Invalid: oodThreshold equal to retrievalFloor — §10.9 requires the OOD

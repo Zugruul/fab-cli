@@ -9,11 +9,29 @@
 import React from "react";
 import ReactTestRenderer, { act } from "react-test-renderer";
 import { validModelPackManifest } from "@fab/manifest-schema";
+import type { KnowledgePackManifest } from "@fab/manifest-schema";
 import { ConsentScreen } from "../ConsentScreen";
 import { deriveArtifactSizes } from "../../sizes";
 import type { ConsentGateState } from "../../types";
 
-const sizes = deriveArtifactSizes(validModelPackManifest, { version: "1.0.0", sizeBytes: 300_000_000 });
+// BUG-202: knowledge-pack manifest now carries per-file sizeBytes directly
+// (see sizes.test.ts) instead of a caller-supplied size — a local fixture
+// summing to 300 MB across indexFiles keeps this test's expectations
+// ("300 MB" / "2.0 GB") unchanged.
+const knowledgePackManifestFixture: KnowledgePackManifest = {
+  schemaVersion: "0.1.0",
+  version: "1.0.0",
+  corpusSnapshotHash: "d".repeat(64),
+  textEmbedderVersion: "text-embed-v1",
+  visionEmbedderVersion: "vision-embed-v1",
+  printingRegistryVersion: "1.0.0",
+  retrievalFloor: 0.42,
+  oodThreshold: 0.2,
+  chunkCount: 6410,
+  indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64), sizeBytes: 300_000_000 }],
+};
+
+const sizes = deriveArtifactSizes(validModelPackManifest, knowledgePackManifestFixture);
 
 function render(gate: ConsentGateState, onAccept = jest.fn(), onOverrideCellular = jest.fn()) {
   let tree: ReactTestRenderer.ReactTestRenderer;

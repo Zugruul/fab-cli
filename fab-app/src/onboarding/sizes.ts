@@ -1,21 +1,27 @@
-import type { ModelPackManifest } from "@fab/manifest-schema";
-import type { ArtifactSizes, KnowledgePackSizeInfo } from "./types";
+import type { KnowledgePackManifest, ModelPackManifest } from "@fab/manifest-schema";
+import type { ArtifactSizes } from "./types";
 
 /** Sums the model pack manifest's per-artifact sizeBytes (§9.9 "sizes shown
- * ... from the manifests: model pack per tier") — the one manifest that
- * actually carries byte sizes (ModelPackArtifactSchema.sizeBytes); see
- * KnowledgePackSizeInfo's doc comment in ./types for why the knowledge pack
- * side is supplied separately instead of read off its manifest. */
+ * ... from the manifests: model pack per tier") — ModelPackArtifactSchema.sizeBytes. */
 export function deriveModelPackSizeBytes(modelPack: ModelPackManifest): number {
   return modelPack.artifacts.reduce((sum, artifact) => sum + artifact.sizeBytes, 0);
 }
 
+/** Sums the knowledge pack manifest's per-index-file sizeBytes (§9.9 "sizes
+ * shown ... from the manifests: ... knowledge pack") — mirrors
+ * deriveModelPackSizeBytes above using KnowledgePackIndexFileSchema.sizeBytes
+ * (BUG-202: the manifest now carries these directly, closing the stopgap
+ * where the caller had to supply the size out of band). */
+export function deriveKnowledgePackSizeBytes(knowledgePack: KnowledgePackManifest): number {
+  return knowledgePack.indexFiles.reduce((sum, indexFile) => sum + indexFile.sizeBytes, 0);
+}
+
 export function deriveArtifactSizes(
   modelPack: ModelPackManifest,
-  knowledgePack: KnowledgePackSizeInfo,
+  knowledgePack: KnowledgePackManifest,
 ): ArtifactSizes {
   const modelPackBytes = deriveModelPackSizeBytes(modelPack);
-  const knowledgePackBytes = knowledgePack.sizeBytes;
+  const knowledgePackBytes = deriveKnowledgePackSizeBytes(knowledgePack);
   return {
     modelPackBytes,
     knowledgePackBytes,
