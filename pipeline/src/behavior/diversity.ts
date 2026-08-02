@@ -1,0 +1,35 @@
+/**
+ * Phrasing-diversity metric for the OOD refusal category (SPEC-APP.md
+ * §7.5c): the task's AbstentionBench-derived lesson is that phrasing
+ * breadth matters more than raw volume, so the build reports how much of
+ * the configured template bank actually made it into the dataset, both by
+ * distinct template and by distinct style/topic category.
+ */
+export interface DiversityMetric {
+  totalTemplates: number;
+  distinctTemplatesUsed: number;
+  templateUsageRatio: number;
+  styleCount: number;
+  stylesCovered: number;
+  styleCoverageRatio: number;
+}
+
+export function computeDiversityMetric(
+  allTemplatesByStyle: Record<string, string[]>,
+  usedTemplates: { style: string; question: string }[],
+): DiversityMetric {
+  const totalTemplates = Object.values(allTemplatesByStyle).reduce((sum, arr) => sum + arr.length, 0);
+  const styleCount = Object.keys(allTemplatesByStyle).length;
+
+  const usedSet = new Set(usedTemplates.map((u) => JSON.stringify([u.style, u.question])));
+  const stylesUsed = new Set(usedTemplates.map((u) => u.style));
+
+  return {
+    totalTemplates,
+    distinctTemplatesUsed: usedSet.size,
+    templateUsageRatio: totalTemplates === 0 ? 0 : usedSet.size / totalTemplates,
+    styleCount,
+    stylesCovered: stylesUsed.size,
+    styleCoverageRatio: styleCount === 0 ? 0 : stylesUsed.size / styleCount,
+  };
+}
