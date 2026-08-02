@@ -44,8 +44,8 @@ specs:
 -   id: fab
     title: Hardening, Rules Knowledge & Coverage Tools
     board: main
-    specPath: SPEC.md
-    backlogPath: docs/BACKLOG.md
+    specPath: fab-cli/SPEC.md
+    backlogPath: fab-cli/docs/BACKLOG.md
     taskPrefix: FAB
     epics:
     -   id: E3
@@ -112,8 +112,8 @@ specs:
 -   id: price
     title: Marketplace price comparison
     board: main
-    specPath: SPEC-PRICE.md
-    backlogPath: docs/BACKLOG-PRICE.md
+    specPath: fab-cli/SPEC-PRICE.md
+    backlogPath: fab-cli/docs/BACKLOG-PRICE.md
     taskPrefix: PRICE
     epics:
     -   id: E0
@@ -155,8 +155,8 @@ specs:
 -   id: talishar
     title: Talishar development aid
     board: main
-    specPath: SPEC-TALISHAR.md
-    backlogPath: docs/BACKLOG-TALISHAR.md
+    specPath: fab-cli/SPEC-TALISHAR.md
+    backlogPath: fab-cli/docs/BACKLOG-TALISHAR.md
     taskPrefix: TAL
     epics:
     -   id: E0
