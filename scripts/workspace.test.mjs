@@ -46,3 +46,75 @@ test("fab-cli/package.json still declares its bin entry", () => {
   const pkg = readJson("fab-cli/package.json");
   assert.ok(pkg.bin && pkg.bin["fab-cli"], "fab-cli/package.json must keep its bin entry");
 });
+
+// Per-package licensing (APP-004): fab-cli stays GPL-3.0 (human decision,
+// recorded 2026-08-01, docs/spec-deltas/APP-004.md); fab-app and pipeline are
+// MIT (App-Store-bound). Each package's license field must match its LICENSE
+// file, and the root LICENSE.md must no longer make a repo-wide GPL claim.
+
+test("fab-cli/package.json declares GPL-3.0-only and has a matching LICENSE file", () => {
+  const pkg = readJson("fab-cli/package.json");
+  assert.equal(pkg.license, "GPL-3.0-only", "fab-cli/package.json license field must be GPL-3.0-only");
+  assert.ok(existsSync("fab-cli/LICENSE"), "fab-cli/LICENSE must exist");
+  const text = readFileSync("fab-cli/LICENSE", "utf8");
+  assert.match(text, /GNU GENERAL PUBLIC LICENSE/, "fab-cli/LICENSE must be GPL-3.0 text");
+  assert.match(text, /Version 3/, "fab-cli/LICENSE must be GPL version 3");
+});
+
+for (const dir of ["fab-app", "pipeline"]) {
+  test(`${dir}/package.json declares MIT and has a matching LICENSE file`, () => {
+    const pkg = readJson(`${dir}/package.json`);
+    assert.equal(pkg.license, "MIT", `${dir}/package.json license field must be MIT`);
+    assert.ok(existsSync(`${dir}/LICENSE`), `${dir}/LICENSE must exist`);
+    const text = readFileSync(`${dir}/LICENSE`, "utf8");
+    assert.match(text, /MIT License/, `${dir}/LICENSE must be MIT text`);
+  });
+}
+
+test("root LICENSE.md is a per-package pointer, not a repo-wide GPL claim", () => {
+  const text = readFileSync("LICENSE.md", "utf8");
+  assert.doesNotMatch(
+    text,
+    /GNU GENERAL PUBLIC LICENSE/,
+    "root LICENSE.md must not contain the full GPL text (that belongs to fab-cli/LICENSE only)",
+  );
+  for (const pkg of ["fab-cli", "fab-app", "pipeline"]) {
+    assert.match(text, new RegExp(pkg), `root LICENSE.md must mention ${pkg}`);
+  }
+  assert.match(text, /GPL-3\.0/, "root LICENSE.md must note fab-cli's GPL-3.0-only license");
+  assert.match(text, /MIT/, "root LICENSE.md must note fab-app/pipeline's MIT license");
+});
+
+test("root package.json has no repo-wide license claim (private monorepo root)", () => {
+  const pkg = readJson("package.json");
+  assert.ok(
+    pkg.license === undefined || pkg.license === "SEE LICENSE IN LICENSE.md",
+    'root package.json license field must be absent or "SEE LICENSE IN LICENSE.md" (private, never published)',
+  );
+});
+
+test("GPL isolation: fab-app and pipeline must never depend on fab-cli (workspace or otherwise)", () => {
+  const depFields = ["dependencies", "devDependencies", "peerDependencies", "optionalDependencies"];
+  const forbidden = ["fab-cli", "fabrary-search"];
+  for (const dir of ["fab-app", "pipeline"]) {
+    const pkg = readJson(`${dir}/package.json`);
+    for (const field of depFields) {
+      const deps = pkg[field];
+      if (!deps) continue;
+      // Check both the dependency name (key) and its spec (value) — pnpm
+      // aliasing lets a dependency point at fab-cli under an unrelated key,
+      // e.g. {"cliTools": "npm:fabrary-search@workspace:*"} or a raw
+      // link:/file: path — so the key check alone is bypassable.
+      for (const [name, spec] of Object.entries(deps)) {
+        assert.ok(
+          !forbidden.includes(name),
+          `${dir}/package.json ${field} must not depend on fab-cli (GPL isolation, App-Store-bound MIT packages)`,
+        );
+        assert.ok(
+          !forbidden.some((f) => String(spec).includes(f)),
+          `${dir}/package.json ${field}["${name}"] must not reference fab-cli in its spec (GPL isolation) — got "${spec}"`,
+        );
+      }
+    }
+  }
+});
