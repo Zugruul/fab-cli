@@ -75,24 +75,33 @@ function getCompatibilityRemediation(error: ManifestCompatibilityError): Remedia
 }
 
 function getRevocationRemediation(action: RevocationAction): RemediationMessage {
-  if (action.kind === "disable-and-redownload") {
-    return {
-      artifact: action.artifactName,
-      action: "redownload-artifact",
-      title: `${action.artifactName} version revoked`,
-      message:
-        `${action.artifactName} ${action.revokedVersion} was revoked (${action.reason}). ` +
-        `Downloading version ${action.nextVersion.version} now.`,
-    };
+  switch (action.kind) {
+    case "disable-and-redownload":
+      return {
+        artifact: action.artifactName,
+        action: "redownload-artifact",
+        title: `${action.artifactName} version revoked`,
+        message:
+          `${action.artifactName} ${action.revokedVersion} was revoked (${action.reason}). ` +
+          `Downloading version ${action.nextVersion.version} now.`,
+      };
+    case "disable-no-replacement":
+      return {
+        artifact: action.artifactName,
+        action: "wait-for-fix",
+        title: `${action.artifactName} version revoked`,
+        message:
+          `${action.artifactName} ${action.revokedVersion} was revoked (${action.reason}) and no ` +
+          "replacement version is available yet. Try again later.",
+      };
+    default: {
+      // Structural exhaustiveness: if RevocationAction ever grows a third
+      // `kind`, this assignment fails to typecheck instead of silently
+      // falling through to a wrong remediation.
+      const unhandled: never = action;
+      throw new Error(`unhandled RevocationAction kind: ${JSON.stringify(unhandled)}`);
+    }
   }
-  return {
-    artifact: action.artifactName,
-    action: "wait-for-fix",
-    title: `${action.artifactName} version revoked`,
-    message:
-      `${action.artifactName} ${action.revokedVersion} was revoked (${action.reason}) and no ` +
-      "replacement version is available yet. Try again later.",
-  };
 }
 
 /** Single entry point: maps either half of §9.3's refusal gate (a thrown
