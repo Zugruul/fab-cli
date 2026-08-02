@@ -1,20 +1,15 @@
 {
-  "concurrent-session-race-on-adhoc-bugfix->gh-pr-merge-worktree-branch-lock": {
+  "adversarial-review-cadence->inspect-lane-on-silent-idle": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
-  "gh-pr-merge-worktree-branch-lock->gh-pr-merge-diverged-local": {
+  "adversarial-review-cadence->regate-second-merge-on-fresh-main": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "gh-pr-merge-worktree-lock-recurs->gh-pr-merge-worktree-branch-lock": {
-    "fires": 0,
-    "last": null,
-    "weight": 0.5
-  },
-  "prettier-is-the-easiest-gate-step-to-silently-miss->gate-green-can-hide-uncommitted-local-fixes": {
     "fires": 0,
     "last": null,
     "weight": 0.5

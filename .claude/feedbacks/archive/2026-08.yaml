@@ -154,3 +154,80 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/inspect-lane-on-silent-idle
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T08:40:00Z'
+iteration:
+  task: session-close-APP-loop
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Adversarial dev/reviewer two-agent cadence caught multiple real pre-merge
+    bugs across a long autonomous run
+  generalized: Pairing every dev delivery with an independent adversarial reviewer
+    briefed to reproduce (not just read) found real bugs pre-merge repeatedly — data-loss
+    write orderings, state-machine wedges, cross-file store corruption, license violations.
+    The reviewer reproducing findings empirically and the orchestrator independently
+    re-verifying gates were both load-bearing; neither alone would have caught everything.
+  detail: 'Across ~24 PRs: 5+ REQUEST-CHANGES rounds with genuinely reproduced defects,
+    all fixed pre-merge; two review passes recorded per task.'
+  evidence: []
+  routing:
+    action: brain-note
+    ref: orchestrator/adversarial-review-cadence
+- category: friction
+  area: board
+  severity: medium
+  summary: Gate-pass recording binds to the primary checkout's tree, forcing lane-task
+    board moves to wait on unrelated lane stability
+  generalized: When the gate-pass that unlocks In-review moves is recorded against
+    a single primary working tree, tasks completed in parallel worktree lanes cannot
+    advance on the board while any other lane keeps the primary tree changing — the
+    orchestrator ends up batching board transitions behind unrelated work. The pass
+    should be recordable per-lane/per-tree or keyed to the task's own branch tree.
+  detail: Recurring all session with maxInProgress=2; workaround was deferring board
+    chains until the primary stabilized.
+  evidence: []
+  routing:
+    action: upstream
+    ref: 'development-skills gate.sh/guard-board-move: gate-pass should be recordable
+      per-lane/per-branch-tree, not bound to the single primary checkout — recurring
+      multi-lane friction'
+- category: friction
+  area: other
+  severity: low
+  summary: Session-scoped consents and a literal stop-condition goal interact awkwardly
+    with a user-directed session handoff
+  generalized: 'Session-scoped authorizations (e.g. merge consent) and stop-condition
+    goals that require a running loop both collide with a deliberate end-of-session
+    handoff: the stop hook blocks the very wind-down the human asked for, and the
+    next session silently loses consents unless the handoff names them. Handoff docs
+    should list active consents as expiring, and goal conditions should recognize
+    an explicit human-directed handoff as satisfying the loop requirement.'
+  detail: Stop hook blocked twice during wind-down; resolved by re-arming a wakeup
+    destined to die at /clear; handoff doc explicitly flags the consent expiry.
+  evidence: []
+  routing:
+    action: brain-note
+    ref: orchestrator/durable-handoff-with-expiring-consents
+- category: worked-well
+  area: docs
+  severity: low
+  summary: A single durable handoff file made a full-context reset safe mid-run
+  generalized: Writing one authoritative handoff file (state, in-flight work with
+    exact branches/worktrees, unresolved diagnostics, process contracts, expiring
+    consents, first-actions list) plus a short continuation prompt makes clearing
+    a long session's context a routine operation instead of a risk — the file, not
+    memory, is declared authoritative.
+  detail: .claude/HANDOFF-APP-LOOP.md + a 4-step continuation prompt.
+  evidence: []
+  routing:
+    action: brain-note
+    ref: orchestrator/durable-handoff-with-expiring-consents
