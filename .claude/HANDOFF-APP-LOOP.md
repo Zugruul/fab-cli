@@ -117,3 +117,8 @@ loop was running. Fresh session: resume the loop directive.
   checked out there) and was cherry-picked to main as 3d17dc34 — identical content, so those
   paths drop out of #207's squash diff at merge; no action needed, just don't be surprised the
   PR branch carries it.
+- RESOLVED (was in-flight item 3): both gate exit-1s were fab-app retrieval perf.test.ts
+  blowing its 50ms p95 bound under concurrent gate load — standalone p95 = 9.60ms, both PRs'
+  code fine. Next session: re-run gates when the machine is quiet (expect green), then proceed
+  straight to reviews/merges. Consider a perf-test load-tolerance follow-up alongside the
+  scripts-python flake (same consent-pending filing).
