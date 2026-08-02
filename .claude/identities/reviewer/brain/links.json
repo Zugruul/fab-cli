@@ -5,18 +5,18 @@
     "weight": 0.5
   },
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
-    "fires": 7,
-    "last": "2026-07-18",
+    "fires": 8,
+    "last": "2026-08-02",
     "weight": 0.5
   },
   "live-verification-over-fixtures->isolated-worktree-tdd-proof": {
-    "fires": 7,
-    "last": "2026-07-18",
+    "fires": 8,
+    "last": "2026-08-02",
     "weight": 0.5
   },
   "live-verification-over-fixtures->reproduce-gate-claims": {
-    "fires": 7,
-    "last": "2026-07-18",
+    "fires": 8,
+    "last": "2026-08-02",
     "weight": 0.5
   },
   "reproduce-dont-trust-the-shim->verify-claimed-language-semantics": {

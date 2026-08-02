@@ -1,0 +1,8 @@
+{"note": "Applied verbatim by reviewer-202: pre-fix swap showed exactly the 8 new tests failing, proving load-bearing coverage", "outcome": "useful", "schemaVersion": 1, "slug": "prove-regression-tests-against-prefix-code", "task": "fab-cli#212", "ts": "2026-08-02T09:26:12+00:00"}
+{"note": "Extended to live 3-shell simulation + mutation testing across 3 rounds; independently converged on the same tilde regression the real-machine smoke found", "outcome": "useful", "schemaVersion": 1, "slug": "prove-regression-tests-against-prefix-code", "task": "fab-cli#213", "ts": "2026-08-02T10:15:19+00:00"}
+{"note": "Proportional variant: empirically proved vitest honors the third-arg timeout with a scratch timeout:10 test instead of trusting syntax", "outcome": "useful", "schemaVersion": 1, "slug": "prove-regression-tests-against-prefix-code", "task": "fab-cli#214", "ts": "2026-08-02T10:24:27+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "reproduce-gate-claims", "task": "217", "ts": "2026-08-02T22:43:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "independently-reproduce-regression-catch-proof", "task": "217", "ts": "2026-08-02T22:43:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verify-branch-base-via-merge-base-not-narrative", "task": "217", "ts": "2026-08-02T22:43:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "cross-check-claims-against-artifacts-not-written-to-be-read", "task": "217", "ts": "2026-08-02T22:43:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "trace-invariant-per-step-and-spot-honest-citation-language", "task": "217", "ts": "2026-08-02T22:43:33+00:00"}
