@@ -358,7 +358,10 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   citation) before any generation begins.
 - **10.2** WHEN Stage 1 completes above the calibrated retrieval floor THE SYSTEM SHALL stream
   the Stage 2 composed answer generated under a JSON-schema grammar constraint
-  (`{answer, citation_ids[], confidence}`), with first token within the tier's TTFT target at
+  (`{answer, citation_ids[], confidence}`, where `confidence` is the closed categorical scale
+  `"high" | "medium" | "low" | "abstain"` defined as `Confidence`/`ConfidenceSchema` in
+  `@fab/manifest-schema` — the authoritative definition, imported rather than redeclared by
+  every producer/consumer), with first token within the tier's TTFT target at
   the configured retrieval token budget (§14). IF the target is unreachable on measured
   hardware (§8.6) THEN THE SYSTEM SHALL apply, in order: reduced retrieval budget → tier
   downgrade → relaxed target recorded in the release manifest — never silent shipping of a
