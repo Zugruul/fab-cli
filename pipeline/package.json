@@ -2,5 +2,20 @@
   "name": "@fab/pipeline",
   "private": true,
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "FAB corpus export + training/artifact pipeline (SPEC-APP.md §7-8).",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test:run": "vitest run",
+    "test": "vitest run",
+    "gate": "npm run typecheck && npm run test:run",
+    "export": "tsx src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.10"
+  }
 }
