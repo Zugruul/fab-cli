@@ -1,0 +1,4 @@
+packages:
+  - fab-cli
+  - fab-app
+  - pipeline

@@ -8,6 +8,7 @@ import {
 import { join } from "node:path";
 import { beforeAll, describe, expect, it } from "vitest";
 import { formatDossier, type DossierInput } from "../src/talisharDossier";
+import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 
 // §10 I6: this test must never touch third_party/talishar* or the network. The dossier content
 // below is not mocked-away filler — it's the real researched facts from TAL-024's live tool calls
@@ -16,9 +17,9 @@ import { formatDossier, type DossierInput } from "../src/talisharDossier";
 // formatDossier(). This keeps the test fully self-contained and reproducible on a fresh checkout —
 // it does NOT read the gitignored .claude/talishar/dossiers/ files a prior session may have left
 // behind; it regenerates them itself as setup, then asserts on the resulting string directly.
-const DOSSIERS_DIR = join(process.cwd(), ".claude", "talishar", "dossiers");
+const DOSSIERS_DIR = join(MONOREPO_ROOT, ".claude", "talishar", "dossiers");
 const NOTES_DIR = join(
-  process.cwd(),
+  MONOREPO_ROOT,
   ".claude",
   "identities",
   "talishar",
