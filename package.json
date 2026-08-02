@@ -13,5 +13,8 @@
     "test:run": "pnpm -r --if-present run test:run",
     "test:scripts": "node --test scripts/*.test.mjs",
     "build": "pnpm -r --if-present run build"
+  },
+  "op-sqlite": {
+    "sqliteVec": true
   }
 }
