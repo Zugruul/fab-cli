@@ -1,0 +1,4 @@
+# Per-run manifest.json/state.json/config.json ARE committed (SPEC-APP.md
+# §8.2's "checksums + licenses in manifest" AC) — only the pulled GGUF
+# binaries themselves stay out of git.
+*/gguf/
