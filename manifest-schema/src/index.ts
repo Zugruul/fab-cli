@@ -6,6 +6,7 @@ import { ModelPackManifestSchema, type ModelPackManifest } from "./modelPack.js"
 import { KnowledgePackManifestSchema, type KnowledgePackManifest } from "./knowledgePack.js";
 import { DeltaPackManifestSchema, type DeltaPackManifest } from "./deltaPack.js";
 import { RevocationListSchema, type RevocationList } from "./revocationList.js";
+import { ConfidenceSchema, type Confidence } from "./confidence.js";
 import { validate, type ValidationResult } from "./validate.js";
 
 export function validateCorpusSnapshotManifest(
@@ -32,10 +33,15 @@ export function validateRevocationList(input: unknown): ValidationResult<Revocat
   return validate(RevocationListSchema, input);
 }
 
+export function validateConfidence(input: unknown): ValidationResult<Confidence> {
+  return validate(ConfidenceSchema, input);
+}
+
 export * from "./corpusSnapshot.js";
 export * from "./modelPack.js";
 export * from "./knowledgePack.js";
 export * from "./deltaPack.js";
 export * from "./revocationList.js";
+export * from "./confidence.js";
 export * from "./validate.js";
 export * from "./fixtures.js";

@@ -8,15 +8,17 @@
  */
 import type { Chunk } from "../types.js";
 import type { QAPair } from "../qa/types.js";
+import type { Confidence } from "@fab/manifest-schema";
 
 export type { Chunk, QAPair };
 
 /** Categorical confidence label for the `{answer, citation_ids, confidence}`
- * generation contract (SPEC-APP.md §10.2). The spec doesn't pin an exact
- * scale (numeric vs categorical), so this module uses a small closed set;
- * "abstain" is reserved for the structured-abstention target (§7.5b) and
- * never appears on an answered example. */
-export type Confidence = "high" | "medium" | "low" | "abstain";
+ * generation contract (SPEC-APP.md §10.2) — re-exported from
+ * @fab/manifest-schema's ConfidenceSchema, the authoritative definition
+ * (BUG-182), rather than declared locally. "abstain" is reserved for the
+ * structured-abstention target (§7.5b) and never appears on an answered
+ * example. */
+export type { Confidence };
 
 /** The `{answer, citation_ids, confidence}` shape every builder's target
  * conforms to (SPEC-APP.md §10.2's generation contract). */

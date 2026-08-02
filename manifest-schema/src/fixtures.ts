@@ -10,6 +10,7 @@ import type { ModelPackManifest } from "./modelPack.js";
 import type { KnowledgePackManifest } from "./knowledgePack.js";
 import type { DeltaPackManifest } from "./deltaPack.js";
 import type { RevocationList } from "./revocationList.js";
+import type { Confidence } from "./confidence.js";
 
 // --- Corpus snapshot manifest ---------------------------------------------
 
@@ -185,3 +186,10 @@ export const emptyRevocationList: RevocationList = {
   schemaVersion: "0.1.0",
   revokedVersions: [],
 };
+
+// --- Confidence (§10.2 generation contract) --------------------------------
+
+export const validConfidence: Confidence = "high";
+
+/** Invalid: not one of the four pinned §10.2 values. */
+export const invalidConfidenceUnknownValue: unknown = "very-high";
