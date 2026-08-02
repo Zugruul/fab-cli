@@ -43,6 +43,11 @@ export const CorpusSnapshotManifestSchema = z.object({
   crVersion: z.string(),
   documentVersions: z.array(DocumentVersionSchema),
   latestSetCode: z.string(),
+  /** ISO 8601 timestamp of when the live Card Legality Policy page was last
+   * fetched, or the literal "unknown" when no rules-KB legality record was
+   * available at export time. REQUIRED — the exporter always stamps one or
+   * the other, never omits the field (SPEC-APP.md §4 Glossary). */
+  legalityPolicyFetchedAt: z.string().min(1),
   loreCommit: z.string(),
   sources: z.array(SourceManifestEntrySchema),
 });

@@ -101,6 +101,7 @@ export function runExport(config: ExportConfig): ExportResult {
     chunks,
     versionsTxtPath: config.versionsTxtPath,
     setJsonPath: config.setJsonPath,
+    kbRulesDir: config.kbRulesDir,
     loreCommit,
     sources,
     now: config.now,

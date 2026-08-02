@@ -23,6 +23,7 @@ export const validCorpusSnapshotManifest: CorpusSnapshotManifest = {
     { document: "cr", file: "en-fab-cr.txt", lastModified: "Wed, 10 Jun 2026 19:43:38 GMT", lines: 2392 },
   ],
   latestSetCode: "OTA",
+  legalityPolicyFetchedAt: "2026-08-01T22:10:54.711Z",
   loreCommit: "92f74367e25b553b922b1fc0cf6ef61570523058",
   sources: [
     {
@@ -40,6 +41,14 @@ export const invalidCorpusSnapshotManifestMissingShippingMode: unknown = {
   ...validCorpusSnapshotManifest,
   sources: [{ name: "judge-brain", count: 1, skipped: 0 }],
 };
+
+/** Invalid: legalityPolicyFetchedAt omitted entirely (SPEC-APP.md §4
+ * Glossary — the corpus snapshot must be stamped with CR version, latest
+ * set code, and legality-policy fetch date). */
+export const invalidCorpusSnapshotManifestMissingLegalityPolicyFetchedAt: unknown = (() => {
+  const { legalityPolicyFetchedAt: _legalityPolicyFetchedAt, ...rest } = validCorpusSnapshotManifest;
+  return rest;
+})();
 
 // --- Model pack manifest ----------------------------------------------------
 

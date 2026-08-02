@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
+import path from "node:path";
 import type { Chunk, CorpusSnapshotManifest, DocumentVersion, SourceManifestEntry } from "./types.js";
 
 const SCHEMA_VERSION = "0.1.0"; // local/plain for now — APP-016 formalizes a shared schema package
@@ -111,10 +112,53 @@ export function readLoreCommit(fabloreDir: string, fallback: string | null): str
   return fallback ?? "unknown";
 }
 
+interface RulesIndexEntryForLegality {
+  document?: string;
+  fetchedAt?: string;
+}
+interface RulesIndexFileForLegality {
+  chunks?: RulesIndexEntryForLegality[];
+}
+
+/**
+ * Reads `<kbRulesDir>/index.json` (the same rules-KB index `sources/rules.ts`
+ * reads for chunk export) and returns the live Card Legality Policy chunk's
+ * `fetchedAt` timestamp — SPEC-APP.md §4 Glossary requires the corpus
+ * snapshot be "stamped with ... legality-policy fetch date". Honestly
+ * reports "unknown" when kb/rules is absent, corrupt, or has no legality
+ * entry yet — never fabricated, and never fetched live here (that fetch is
+ * `fab-cli rules sync`'s job; the pipeline only reads what's already on
+ * disk, same as `readVersionsTxt`/`readLatestSetCode` above).
+ */
+export function readLegalityPolicyFetchedAt(kbRulesDir: string): string {
+  let raw: string;
+  try {
+    raw = fs.readFileSync(path.join(kbRulesDir, "index.json"), "utf8");
+  } catch {
+    return "unknown";
+  }
+
+  let index: RulesIndexFileForLegality;
+  try {
+    index = JSON.parse(raw) as RulesIndexFileForLegality;
+  } catch {
+    return "unknown";
+  }
+
+  const legality = (index.chunks ?? []).find(
+    (c) => typeof c.document === "string" && c.document.toLowerCase() === "legality",
+  );
+  if (legality && typeof legality.fetchedAt === "string" && legality.fetchedAt.length > 0) {
+    return legality.fetchedAt;
+  }
+  return "unknown";
+}
+
 export interface BuildManifestOptions {
   chunks: Chunk[];
   versionsTxtPath: string;
   setJsonPath: string;
+  kbRulesDir: string;
   loreCommit: string;
   sources: SourceManifestEntry[];
   now?: () => string;
@@ -132,6 +176,7 @@ export function buildManifest(opts: BuildManifestOptions): CorpusSnapshotManifes
     crVersion: versions?.crVersion ?? "unknown",
     documentVersions: versions?.documentVersions ?? [],
     latestSetCode: readLatestSetCode(opts.setJsonPath),
+    legalityPolicyFetchedAt: readLegalityPolicyFetchedAt(opts.kbRulesDir),
     loreCommit: opts.loreCommit,
     sources: opts.sources,
   };
