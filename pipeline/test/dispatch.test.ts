@@ -13,6 +13,16 @@
 // dir doesn't exist yet (needs mkdir -p first), finished-detection never
 // firing against real tmux's "no server running" wording, and a
 // decorative pythonPath field that's now dropped entirely.
+//
+// Round 3 (PR #213 review, real storm590x re-smoke of round 2): round 2's
+// per-token trainArgv escaping (shQuote) correctly inertized shell
+// metacharacters but also quoted a leading `~`, and a quoted tilde never
+// expands — so the documented invocation (~/.venv/bin/python3 ...) itself
+// broke ("no such file or directory: ~/.venv/bin/python3" in run.log).
+// Fixed by quoting trainArgv tokens with the same tilde-preserving
+// treatment (shQuotePath) already used for the run directory. Reproduced
+// against round 2's code and confirmed fixed against this round's code via
+// the same live zsh/tmux simulation approach used for the round-2 fix.
 import { describe, it, expect } from "vitest";
 import {
   buildRsyncPush,
@@ -158,24 +168,45 @@ describe("buildEnsureRunDir", () => {
   });
 });
 
-describe("buildTmuxLaunch — the three-shell chain, verified injection-safe", () => {
+describe("buildTmuxLaunch — the three-shell chain, verified injection-safe AND tilde-expansion-safe", () => {
   // Expected strings below were generated programmatically and verified by
   // actually running them through a live zsh/tmux simulation (fake tmux +
-  // fake python executables, real zsh -c) during review round 2 — not
-  // hand-derived. See commands.ts's doc comment for the full chain
+  // fake python executables, real zsh -c) during review rounds 2 and 3 —
+  // not hand-derived. See commands.ts's doc comment for the full chain
   // explanation (remote login zsh -> bash -lc -> tmux's pane shell).
-  it("builds the exact ssh argv: bash -lc wrapping tmux new-session with -c <dir> and per-token single-quoted trainArgv", () => {
+  //
+  // Round 3: a trainArgv[0] of "~/.venv/bin/python3" — exactly the
+  // documented invocation — failed on the real box ("no such file or
+  // directory: ~/.venv/bin/python3") because round 2's plain shQuote
+  // wrapped the leading ~ in single quotes too, which suppresses tilde
+  // expansion. Fixed by quoting trainArgv tokens with shQuotePath (same
+  // tilde-preserving treatment already used for the run directory) —
+  // reproduced against the live simulation with the round-2 code first
+  // (confirmed the exact failure), then confirmed fixed with this round's
+  // code (the fake python received the correct argv, run.log was written).
+  it("builds the exact ssh argv: bash -lc wrapping tmux new-session with -c <dir> and per-token tilde-preserving-quoted trainArgv", () => {
     const argv = buildTmuxLaunch(RUN_ID, ["~/.venv/bin/python3", "train.py", "--epochs", "3"], DEFAULT_DISPATCH_CONFIG);
     expect(argv).toEqual([
       "ssh",
       "-o",
       "BatchMode=yes",
       "storm590x",
-      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"'\\''~/.venv/bin/python3'\\'' '\\''train.py'\\'' '\\''--epochs'\\'' '\\''3'\\'' 2>&1 | tee run.log\"'",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"~/'\\''.venv/bin/python3'\\'' '\\''train.py'\\'' '\\''--epochs'\\'' '\\''3'\\'' 2>&1 | tee run.log\"'",
     ]);
   });
 
-  it("keeps a trainArgv token containing an apostrophe and spaces as one literal argument, not shell syntax (the injection this round fixes)", () => {
+  it("a bare tilde-prefixed trainArgv[0] keeps its ~/ unquoted so the pane shell still expands it to $HOME (this exact case failed against the real box under round 2's code)", () => {
+    const argv = buildTmuxLaunch(RUN_ID, ["~/.venv/bin/python3"], DEFAULT_DISPATCH_CONFIG);
+    expect(argv).toEqual([
+      "ssh",
+      "-o",
+      "BatchMode=yes",
+      "storm590x",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"~/'\\''.venv/bin/python3'\\'' 2>&1 | tee run.log\"'",
+    ]);
+  });
+
+  it("keeps a trainArgv token containing an apostrophe and spaces as one literal argument, not shell syntax (the round-2 injection fix)", () => {
     const argv = buildTmuxLaunch(
       RUN_ID,
       ["~/.venv/bin/python3", "train.py", "--notes", "it's a test"],
@@ -186,7 +217,29 @@ describe("buildTmuxLaunch — the three-shell chain, verified injection-safe", (
       "-o",
       "BatchMode=yes",
       "storm590x",
-      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"'\\''~/.venv/bin/python3'\\'' '\\''train.py'\\'' '\\''--notes'\\'' '\\''it'\\''\\\\'\\'''\\''s a test'\\'' 2>&1 | tee run.log\"'",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"~/'\\''.venv/bin/python3'\\'' '\\''train.py'\\'' '\\''--notes'\\'' '\\''it'\\''\\\\'\\'''\\''s a test'\\'' 2>&1 | tee run.log\"'",
+    ]);
+  });
+
+  it("a tilde-prefixed trainArgv token whose remainder contains a quote and a space stays inert (~/ expands, the rest is escaped like plain shQuote)", () => {
+    const argv = buildTmuxLaunch(RUN_ID, ["~/dir with 'quote'/bin"], DEFAULT_DISPATCH_CONFIG);
+    expect(argv).toEqual([
+      "ssh",
+      "-o",
+      "BatchMode=yes",
+      "storm590x",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"~/'\\''dir with '\\''\\\\'\\'''\\''quote'\\''\\\\'\\'''\\''/bin'\\'' 2>&1 | tee run.log\"'",
+    ]);
+  });
+
+  it("a tilde-prefixed trainArgv token whose remainder looks like a command substitution never executes it — confirmed against a live zsh simulation (no marker file created)", () => {
+    const argv = buildTmuxLaunch(RUN_ID, ["~/$(evil)/x"], DEFAULT_DISPATCH_CONFIG);
+    expect(argv).toEqual([
+      "ssh",
+      "-o",
+      "BatchMode=yes",
+      "storm590x",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"~/'\\''\\$(evil)/x'\\'' 2>&1 | tee run.log\"'",
     ]);
   });
 
