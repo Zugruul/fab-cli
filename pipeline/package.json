@@ -16,7 +16,8 @@
     "qa:sample": "tsx src/sampling/cli.ts",
     "dataset:build": "tsx src/dataset/cli.ts",
     "dispatch": "tsx src/dispatch/cli.ts",
-    "train": "tsx src/training/cli.ts"
+    "train": "tsx src/training/cli.ts",
+    "export-model": "tsx src/export/cli.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0"
