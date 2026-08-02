@@ -46,6 +46,19 @@ export const DISJOINT_CATEGORIES: ReadonlySet<DatasetCategory> = new Set([
   "lore",
 ]);
 
+/**
+ * A distractor example's `contextChunkIds` (DistractorExample, in
+ * behavior/types.ts) bundles the answer-grounding chunk plus K shuffled
+ * distractor chunks into one prompt. Leakage checking (leakage.ts) and the
+ * split (split.ts) both key ONLY off `chunkId` — the single grounding
+ * chunk_id assemble.ts derives from `DistractorExample.chunk_id` — never
+ * off the full `contextChunkIds` list. This is deliberate, not an
+ * oversight: the distractor-eval skill being measured is whether the model
+ * matches a question to its TRUE source chunk despite noise, so prior
+ * training-split exposure to a *distractor's* content doesn't inflate that
+ * measurement the way exposure to the grounding chunk's content would —
+ * only the grounding chunk needs train/eval disjointness.
+ */
 export type DatasetSplit = "train" | "eval";
 
 export type DatasetExampleType = "qa" | "distractor" | "dpo" | "abstention" | "ood";
@@ -67,6 +80,14 @@ export interface QAExample {
 interface DatasetExampleShared {
   id: string;
   category: DatasetCategory;
+  /** SPEC-APP.md §8.4's curated adjudication-critical eval suite membership
+   * (BUG-186) — the result of adjudication.ts's `isAdjudicationCritical`,
+   * precomputed here so the eval harness (APP-022) never has to re-derive
+   * it from chunkId/tags itself. Narrower than `category ===
+   * "multi-card-interactions"` — see adjudication.ts for the exact rule
+   * (CR sections + interaction-ruling brain notes only). Always false for
+   * abstention/ood examples, which carry no answer-grounding chunk. */
+  adjudicationCritical: boolean;
 }
 
 /** The fields that vary per exampleType — factored out so both the

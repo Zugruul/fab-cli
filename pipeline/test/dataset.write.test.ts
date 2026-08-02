@@ -56,6 +56,7 @@ const SAMPLE_EXAMPLES: DatasetExample[] = [
   {
     id: "qa-1",
     category: "keyword-definitions",
+    adjudicationCritical: false,
     exampleType: "qa",
     chunkId: "brain/card-vault/kw-dominate",
     split: "train",
@@ -71,6 +72,7 @@ const SAMPLE_EXAMPLES: DatasetExample[] = [
   {
     id: "qa-2",
     category: "card-facts",
+    adjudicationCritical: false,
     exampleType: "qa",
     chunkId: "brain/card-vault/card-branchblade",
     split: "eval",

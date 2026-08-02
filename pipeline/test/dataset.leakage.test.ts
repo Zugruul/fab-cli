@@ -16,6 +16,7 @@ function qaEx(id: string, chunk_id: string, category: UnsplitDatasetExample["cat
   return {
     id,
     category,
+    adjudicationCritical: false,
     exampleType: "qa",
     chunkId: chunk_id,
     payload: { id, chunk_id, question: "q?", answer: "a.", cited_chunk_ids: [chunk_id], entailmentChecked: true },

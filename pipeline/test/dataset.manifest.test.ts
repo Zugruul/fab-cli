@@ -7,6 +7,7 @@ function qaEx(chunkId: string, category: DatasetExample["category"], split: Data
   return {
     id: `qa-${chunkId}`,
     category,
+    adjudicationCritical: false,
     exampleType: "qa",
     chunkId,
     split,
@@ -18,6 +19,7 @@ function oodEx(id: string, split: DatasetExample["split"]): DatasetExample {
   return {
     id,
     category: "ood",
+    adjudicationCritical: false,
     exampleType: "ood",
     chunkId: null,
     split,
