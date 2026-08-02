@@ -79,6 +79,12 @@ export const invalidModelPackManifestMissingLicenseId: unknown = {
   ],
 };
 
+/** Invalid: an artifact entry with a placeholder licenseId ("TODO") instead of a real SPDX id. */
+export const invalidModelPackManifestBadLicenseId: unknown = {
+  ...validModelPackManifest,
+  artifacts: [{ ...validModelPackManifest.artifacts[0], licenseId: "TODO" }],
+};
+
 // --- Knowledge pack manifest -------------------------------------------------
 
 export const validKnowledgePackManifest: KnowledgePackManifest = {

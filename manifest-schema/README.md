@@ -13,9 +13,12 @@ pipeline and a React Native app).
 - `CorpusSnapshotManifestSchema` — mirrors `pipeline/src/types.ts`'s `CorpusSnapshotManifest`.
   Every source entry REQUIRES `shippingMode` (`"verbatim" | "paraphrase" | "stub"`, §7.10) and
   `skipped` (a count, always present even when zero); `note` is optional.
-- `ModelPackManifestSchema` — each artifact REQUIRES `licenseId` (an SPDX identifier, e.g.
-  `"Apache-2.0"`), plus `tier` (`"1.7B" | "0.6B"`), embedder/detector versions,
-  `compatibleKnowledgePacks` (a semver range), `appMinVersion`, and `corpusSnapshotHash`.
+- `ModelPackManifestSchema` — each artifact REQUIRES `licenseId`: a bare SPDX identifier (e.g.
+  `"MIT"`, `"Apache-2.0"`, `"GPL-3.0-only"`), format-checked against the SPDX identifier character
+  set and rejected if it's a known placeholder (`"TODO"`, `"TBD"`, etc.) or contains free text/
+  spaces — full SPDX license-expression grammar (AND/OR/WITH) and membership in the real SPDX
+  license list are out of scope for v0.1.0. Also: `tier` (`"1.7B" | "0.6B"`), embedder/detector
+  versions, `compatibleKnowledgePacks` (a semver range), `appMinVersion`, and `corpusSnapshotHash`.
 - `KnowledgePackManifestSchema` — REQUIRES `retrievalFloor` (§9.7's calibrated
   retrieval-confidence abstention floor) and `oodThreshold` (§10.9's calibrated OOD fast-path
   threshold); both are runtime-calibrated values, never hardcoded or defaulted by the schema.
@@ -49,7 +52,8 @@ Exported for consumer tests — one valid fixture per manifest type, plus the in
 called out in APP-016's AC:
 
 - `validCorpusSnapshotManifest` / `invalidCorpusSnapshotManifestMissingShippingMode`
-- `validModelPackManifest` / `invalidModelPackManifestMissingLicenseId`
+- `validModelPackManifest` / `invalidModelPackManifestMissingLicenseId` /
+  `invalidModelPackManifestBadLicenseId`
 - `validKnowledgePackManifest` / `invalidKnowledgePackManifestMissingRetrievalFloor` /
   `invalidKnowledgePackManifestMissingOodThreshold`
 - `validDeltaPackManifest` / `tombstonedDeltaPackManifest` /
