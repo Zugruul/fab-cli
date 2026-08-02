@@ -63,13 +63,13 @@ function ArtifactRow({ artifact, label, item, onPause, onResume, onRetry }: Arti
       <Text testID={`progress-status-${artifact}`}>{statusText(t, item)}</Text>
 
       {item.status === "downloading" && (
-        <TouchableOpacity testID={`progress-pause-${artifact}`} onPress={onPause}>
+        <TouchableOpacity testID={`progress-pause-${artifact}`} accessibilityRole="button" onPress={onPause}>
           <Text style={styles.button}>{t("onboarding.progress.pause")}</Text>
         </TouchableOpacity>
       )}
 
       {item.status === "paused" && (
-        <TouchableOpacity testID={`progress-resume-${artifact}`} onPress={onResume}>
+        <TouchableOpacity testID={`progress-resume-${artifact}`} accessibilityRole="button" onPress={onResume}>
           <Text style={styles.button}>{t("onboarding.progress.resume")}</Text>
         </TouchableOpacity>
       )}
@@ -79,7 +79,7 @@ function ArtifactRow({ artifact, label, item, onPause, onResume, onRetry }: Arti
           <Text style={styles.error} testID={`progress-error-${artifact}`}>
             {item.errorMessage}
           </Text>
-          <TouchableOpacity testID={`progress-retry-${artifact}`} onPress={onRetry}>
+          <TouchableOpacity testID={`progress-retry-${artifact}`} accessibilityRole="button" onPress={onRetry}>
             <Text style={styles.button}>{t("onboarding.progress.retry")}</Text>
           </TouchableOpacity>
         </>

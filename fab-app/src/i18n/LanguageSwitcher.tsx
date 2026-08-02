@@ -25,6 +25,7 @@ export function LanguageSwitcher(): React.JSX.Element {
         <TouchableOpacity
           key={option}
           testID={`language-option-${option}`}
+          accessibilityRole="radio"
           accessibilityState={{ selected: preference === option }}
           onPress={() => {
             setPreference(option);
