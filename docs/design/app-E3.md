@@ -36,8 +36,9 @@ into §9 on merge).
 - Locale resolution: explicit override if set, else system locale; `pt-*` → `pt-BR`,
   anything else → `en`.
 - Gate contract (fab-app `npm run gate`, inherited by root `pnpm -r gate`): typecheck +
-  lint (incl. no-hardcoded-JSX-literals rule) + tests + en/pt-BR key-parity check. All
-  gate tests pass with the network disabled (§13 invariant 10).
+  lint (incl. no-hardcoded-JSX-literals rule + a11y lint) + tests + en/pt-BR key-parity
+  check + per-screen a11y assertions. All gate tests pass with the network disabled
+  (§13 invariant 10).
 
 ## Key sequences
 

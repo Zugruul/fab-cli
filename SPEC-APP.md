@@ -387,6 +387,26 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   locale's translation of it SHALL be verified by a human legal/content reviewer before
   release; this is a named human release gate (like §9.10's TestFlight pipeline), not something
   the merge gate can substitute for.
+- **9.12** THE SYSTEM SHALL enforce, as part of the merge gate (network-disabled, per §13
+  invariant 10), that every interactive UI element in shipped screen source (`Touchable*`,
+  `Pressable`, `Switch`, `TextInput`, and any composite built on them, e.g. RN's own `Button`)
+  exposes both an accessible name (an explicit label, or resolvable visible text/placeholder)
+  and, where the underlying primitive does not already guarantee one structurally (RN's
+  `Switch` defaults its role; a bare `Touchable*`/`Pressable` does not), an explicit
+  accessibility role. This SHALL be checked two ways, both generic over whatever screens and
+  elements currently exist — no per-screen or per-element check logic is added as new screens
+  ship: (a) a static lint rule over all shipped `.tsx` source (test fixtures excluded, the same
+  scoping §9.11's no-hardcoded-literals rule uses, since fixture elements in tests are sample
+  data, not shipped UI); and (b) a runtime tree walk over each screen's rendered output,
+  applied per screen via a small registration table rather than hand-written per-screen
+  assertions — adding a future screen requires only registering it (or, for a screen with no
+  interactive elements of its own, nothing at all beyond the registration for completeness).
+  THE SYSTEM SHALL additionally maintain a manual VoiceOver/TalkBack device-QA checklist,
+  covering per current screen: element focus order, labels announced, roles announced, state
+  announced (selected/disabled), touch-target adequacy, and Dynamic Type/font-scale
+  non-breakage — a named human release-gate check (like §9.10's TestFlight pipeline and
+  §9.11's consent-text legal review), not something the automated merge gate substitutes for,
+  since no automated RN a11y check can verify what a real screen reader actually announces.
 
 ## §10 Q&A experience (E4)
 
