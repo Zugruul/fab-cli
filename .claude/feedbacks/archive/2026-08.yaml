@@ -633,3 +633,127 @@ items:
     action: ignore
     ref: validates existing plugin design (isolated lanes, single-status moves, addressable
       agents) — nothing to change
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T23:05:00Z'
+iteration:
+  task: '217'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: friction
+  area: other
+  severity: medium
+  summary: A scratch worktree created on a named branch silently moved that branch
+    during history surgery, cascading into a false hook block
+  detail: 'Orchestrator used `git worktree add <tmp> main` for a cherry-pick reorder;
+    the worktree checked out main, so the picks advanced local main onto the feature
+    commits. The red-first board-move hook then mis-read the branch as having no test
+    commit. Repair needed branch -f to origin plus force-removing the stale worktree
+    (whose removal had been silently skipped when a compound command was hook-blocked
+    mid-way).
+
+    '
+  evidence:
+  - fab-cli#217
+  generalized: 'Scratch worktrees for history surgery must be created detached (--detach);
+    creating one on a named branch lets commits made there move the real branch ref,
+    which can corrupt hook checks that diff against that branch. Cleanup steps buried
+    in compound commands can be silently skipped when a hook blocks the compound —
+    run cleanup as its own command.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/scratch-worktrees-detach-or-you-move-the-branch
+- category: friction
+  area: review
+  severity: medium
+  summary: A reviewer produced a full REQUEST_CHANGES verdict against a stale branch
+    tip while the dev was still pushing
+  detail: 'Round 1 of the PR review ran against a fetch that predated the dev agent''s
+    final 3 commits; every blocking finding was already fixed upstream. One full review
+    round was wasted and the verdict''s root-cause narrative was wrong.
+
+    '
+  evidence:
+  - fab-cli#217
+  generalized: 'When a dev agent may still be pushing, a reviewer must diff local-vs-origin
+    branch refs immediately before producing its verdict (fetch alone never moves
+    local branches), and the orchestrator must verify the reviewed SHA equals the
+    current origin tip before relaying any verdict.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/verify-reviewed-sha-matches-origin-tip-before-relaying-verdict
+      + reviewer/verdict-time-ref-freshness-fetch-never-moves-local-branches
+- category: friction
+  area: merge
+  severity: medium
+  summary: The red-first commit-ordering hook counts dependency-manifest chores as
+    implementation, blocking branches whose tests genuinely came first
+  detail: 'A `chore: add deps` commit (package.json + lockfile) before the test-only
+    red commit tripped the guard; fixing it required history reorder + force-push
+    mid-review, which in turn seeded the stale-review problem above.
+
+    '
+  evidence:
+  - fab-cli#217
+  generalized: 'The red-first ordering guard treats dependency-manifest-only commits
+    as implementation; either dev briefs must mandate red-commit-first-then-deps,
+    or the guard could whitelist dependency-manifest-only chores. Worth considering
+    as a plugin improvement since the failure costs a history rewrite mid-review.
+
+    '
+  routing:
+    action: upstream
+    ref: 'surfaced to human in iteration report: red-first guard could whitelist dependency-manifest-only
+      chores (development-skills plugin)'
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Mid-task user directives were relayed to a running dev agent and landed
+    cleanly without restarting the task
+  detail: 'Two user directives (bare-minimum UI; locale-generic gate checks) arrived
+    mid-implementation, were relayed via teammate messages, and the dev applied both
+    with tests, correctly asking nothing back.
+
+    '
+  evidence:
+  - fab-cli#217
+  generalized: 'Relaying scoped mid-task directives to an already-running dev agent
+    via teammate messages works well and beats restarting the task, when each directive
+    is restated as a concrete, bounded constraint change.
+
+    '
+  routing:
+    action: ignore
+    ref: worked-well signal, no action needed; practice already standard via relay
+      protocol
+- category: worked-well
+  area: testing
+  severity: low
+  summary: The gate check proving a checker-test is not vacuous (mutation spot-check)
+    caught a real dropped translation key twice
+  detail: 'The parity gate caught a silently-dropped pt-BR key once in dev self-review
+    and once in the reviewer''s independent mutation spot-check — exactly the merge-blocking
+    behavior the user directive asked for.
+
+    '
+  evidence:
+  - fab-cli#217
+  generalized: 'Gate checks whose tests are themselves proven non-vacuous by mutation
+    spot-checks (reintroduce the bug class on a scratch copy, watch the check fail)
+    deliver real protection, not shape-only assurance; worth keeping as a standard
+    pattern for any new gate check.
+
+    '
+  routing:
+    action: brain-note
+    ref: reviewer/verdict-time-ref-freshness-fetch-never-moves-local-branches (mutation
+      spot-check clause) + dev/fab-app-jest-patterns note
