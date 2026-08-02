@@ -338,3 +338,53 @@ items:
   routing:
     action: brain-note
     ref: dev/spread-canonical-fixtures-for-schema-evolution
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T10:25:00Z'
+iteration:
+  task: T-208
+  outcome: merged
+  reviewRounds: 3
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Three complementary verification layers each caught bugs the others missed
+    on a remote-execution module
+  detail: Exact-string unit tests pinned the argv contract; the reviewer's live multi-shell
+    simulation caught a real injection hole and later independently converged on the
+    tilde regression; the orchestrator's real-target smoke caught three functional
+    bugs (missing mkdir, real tmux stderr wording, tilde-expansion loss) that neither
+    tests nor simulation saw first. Minted as orchestrator/real-target-smoke-before-merge
+    + dev/quoting-vs-expansion-tradeoff this retro.
+  evidence:
+  - fab-cli#208
+  - fab-cli#213
+  generalized: For modules that drive a real external system, layer three verifications
+    — exact-value unit tests, an independent adversarial simulation of the boundary,
+    and one real-target end-to-end smoke reading actual run output — because each
+    layer reliably catches a bug class the other two miss.
+  routing:
+    action: brain-note
+    ref: orchestrator/real-target-smoke-before-merge
+- category: friction
+  area: concurrency
+  severity: low
+  summary: Idle notifications race ahead of an agent's final report, causing false
+    stall diagnoses and duplicate nudges
+  detail: An agent's idle_notification arrived while its completed report was still
+    undelivered; the orchestrator diagnosed a stall, inspected the lane, and sent
+    a nudge the agent then had to answer redundantly. Distinct from the genuine mid-task
+    silent idle seen earlier the same session; the two are indistinguishable at notification
+    time.
+  generalized: When an agent's availability signal can arrive before its final report
+    message, orchestrators misread completed work as a stall; delivery ordering (report
+    strictly before idle signal) or an idle payload carrying last-message metadata
+    would remove the ambiguity.
+  routing:
+    action: upstream
+    ref: 'development-skills: idle-notification/report delivery ordering'
