@@ -5,17 +5,17 @@
     "weight": 0.5
   },
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
-    "fires": 8,
+    "fires": 9,
     "last": "2026-08-02",
     "weight": 0.5
   },
   "live-verification-over-fixtures->isolated-worktree-tdd-proof": {
-    "fires": 8,
+    "fires": 9,
     "last": "2026-08-02",
     "weight": 0.5
   },
   "live-verification-over-fixtures->reproduce-gate-claims": {
-    "fires": 8,
+    "fires": 9,
     "last": "2026-08-02",
     "weight": 0.5
   },

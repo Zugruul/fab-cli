@@ -1,1 +1,5 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verify-own-commit-is-test-only-before-writing-implementation", "task": "217", "ts": "2026-08-02T22:43:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "deps-chore-commits-must-follow-the-red-commit", "task": "218", "ts": "2026-08-02T23:18:10+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "review-staged-diff-before-commit-message-must-match", "task": "218", "ts": "2026-08-02T23:18:10+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "fab-app-jest-patterns-safearea-null-and-op-sqlite-mock", "task": "218", "ts": "2026-08-02T23:18:10+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verify-own-commit-is-test-only-before-writing-implementation", "task": "218", "ts": "2026-08-02T23:18:10+00:00"}
