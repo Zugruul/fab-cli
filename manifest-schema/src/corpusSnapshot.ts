@@ -38,7 +38,19 @@ export type DocumentVersion = z.infer<typeof DocumentVersionSchema>;
 export const CorpusSnapshotManifestSchema = z.object({
   schemaVersion: z.string().min(1),
   exportDate: z.string(),
+  /** Order-independent hash over every chunk's `{chunk_id, text}` BEFORE
+   * §7.10 shipping-mode enforcement — the corpus's identity / training
+   * input. Unaffected by a shipping-mode change (stub/paraphrase/verbatim
+   * is a redistribution-policy decision, not new corpus content). See
+   * `shippedContentHash` for the shipped-bytes counterpart. */
   contentHash: z.string(),
+  /** Same hash computation as `contentHash`, but over the POST-shipping-mode
+   * chunk set — the actual bytes that ship in `chunks.jsonl`. REQUIRED: the
+   * exporter always stamps this so a shipping-mode flip (e.g. a source
+   * moving from verbatim to stub) is observable in the manifest as a
+   * `shippedContentHash` change, distinct from `contentHash`, which stays
+   * put because the underlying corpus content didn't change. */
+  shippedContentHash: z.string(),
   chunkCount: z.number().int().nonnegative(),
   crVersion: z.string(),
   documentVersions: z.array(DocumentVersionSchema),

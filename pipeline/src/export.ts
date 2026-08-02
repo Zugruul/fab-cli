@@ -131,6 +131,7 @@ export function runExport(config: ExportConfig): ExportResult {
 
   const manifest = buildManifest({
     chunks,
+    shippedChunks: shipped,
     versionsTxtPath: config.versionsTxtPath,
     setJsonPath: config.setJsonPath,
     kbRulesDir: config.kbRulesDir,
