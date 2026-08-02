@@ -1,7 +1,10 @@
 {
   "extends": "@react-native/typescript-config",
   "compilerOptions": {
-    "types": ["jest"]
+    // "node" added for APP-031's artifact-manager module + its tests
+    // (Buffer/TextEncoder/TextDecoder/node:crypto) — not otherwise needed
+    // by the RN app code, which sticks to runtime globals Hermes provides.
+    "types": ["jest", "node"]
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/node_modules", "**/Pods"]
