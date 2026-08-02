@@ -21,6 +21,7 @@ function baseConfig() {
     versionsTxtPath: path.join(FIXTURES, "fab-rules", "VERSIONS.txt"),
     setJsonPath: path.join(FIXTURES, "flesh-and-blood-cards", "json", "english", "set.json"),
     fabloreDir: path.join(FIXTURES, "does-not-exist-submodule"),
+    shippingModesPath: path.join(FIXTURES, "shipping-modes.json"),
   };
 }
 
