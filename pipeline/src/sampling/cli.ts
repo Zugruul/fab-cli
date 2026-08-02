@@ -12,6 +12,19 @@
  *
  * --dry-run makes NO network calls at all: it only prints/writes what
  * would be sent per pair (dry-run-plan.json), never touches progress.
+ *
+ * ⚠️ STALENESS WARNING: sampling progress (progress.json) is keyed by
+ * pairId (`${chunk_id}#${index}`), NOT by pair content. If you regenerate
+ * an already-sampled chunk's pairs (re-run `qa:generate` for that
+ * chunk_id — e.g. after editing its source text or prompt), the new
+ * pairs at the same indices reuse the same pairIds, and this CLI will
+ * treat them as already-checked, silently applying the OLD verdict to
+ * the NEW content. Before re-running qa:generate on a chunk that's
+ * already been sampled, manually clear that chunk_id's entries from
+ * progress.json/accepted.jsonl/rejected.jsonl yourself — there is no
+ * automatic guard against this yet (tracked separately as issue #180;
+ * intentionally not implemented in APP-012). See types.ts's WorkItem doc
+ * for the full explanation.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -111,7 +124,9 @@ async function main(): Promise<void> {
       if (outcome.status === "accepted") {
         appendAcceptedDurable(acceptedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason);
       } else {
-        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason);
+        // outcome.rejectionKind is always set (non-null) when status is
+        // "rejected" — see types.ts's PairSamplingOutcome.
+        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.rejectionKind!, outcome.reason);
       }
       outcomes.push(outcome);
     },
@@ -135,9 +150,19 @@ async function main(): Promise<void> {
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
 
   console.log(`processed ${outcomes.length} pair(s) this run`);
-  console.log(`accepted: ${manifest.acceptedCount}, rejected: ${manifest.rejectedCount} (acceptance rate ${(manifest.acceptanceRate * 100).toFixed(1)}%)`);
+  console.log(
+    `accepted: ${manifest.acceptedCount}, rejected: ${manifest.rejectedCount} ` +
+      `(not-entailed: ${manifest.rejectedNotEntailedCount}, infra-error: ${manifest.rejectedInfraCount})`,
+  );
+  console.log(
+    `acceptance rate: ${(manifest.acceptanceRate * 100).toFixed(1)}% (excludes infra-error; ` +
+      `raw incl. infra: ${(manifest.rawAcceptanceRate * 100).toFixed(1)}%)`,
+  );
   for (const cat of manifest.categoryAcceptance) {
-    console.log(`  ${cat.category}: ${cat.accepted}/${cat.accepted + cat.rejected} (${(cat.acceptanceRate * 100).toFixed(1)}%)`);
+    console.log(
+      `  ${cat.category}: ${cat.accepted}/${cat.accepted + cat.rejectedNotEntailed} (${(cat.acceptanceRate * 100).toFixed(1)}%)` +
+        ` [infra-error: ${cat.rejectedInfra}]`,
+    );
   }
   console.log(`cost estimate so far: $${manifest.costUsd.toFixed(4)} (${manifest.requestCount} request(s))`);
   if (result.stoppedEarly) console.log(`stopped early: ${result.stoppedEarly.reason}`);

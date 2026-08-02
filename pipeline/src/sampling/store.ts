@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { QAPair } from "./types.js";
+import type { QAPair, RejectionKind } from "./types.js";
 
 export interface SampledRecord {
   pairId: string;
@@ -8,16 +8,28 @@ export interface SampledRecord {
   question: string;
   answer: string;
   cited_chunk_ids: string[];
+  /** Present (non-null) only on rejected records — see types.ts's
+   * RejectionKind. Lets anyone reading rejected.jsonl distinguish a
+   * genuine content-quality rejection from infra noise without
+   * cross-referencing manifest.json. */
+  rejectionKind: RejectionKind | null;
   reason: string;
 }
 
-function toRecord(pairId: string, chunk_id: string, pair: QAPair, reason: string): SampledRecord {
+function toRecord(
+  pairId: string,
+  chunk_id: string,
+  pair: QAPair,
+  rejectionKind: RejectionKind | null,
+  reason: string,
+): SampledRecord {
   return {
     pairId,
     chunk_id,
     question: pair.question,
     answer: pair.answer,
     cited_chunk_ids: pair.cited_chunk_ids,
+    rejectionKind,
     reason,
   };
 }
@@ -59,7 +71,7 @@ export function appendAcceptedDurable(
   pair: QAPair,
   reason: string,
 ): void {
-  appendRecordDurable(acceptedPath, toRecord(pairId, chunk_id, pair, reason));
+  appendRecordDurable(acceptedPath, toRecord(pairId, chunk_id, pair, null, reason));
 }
 
 export function appendRejectedDurable(
@@ -67,9 +79,10 @@ export function appendRejectedDurable(
   pairId: string,
   chunk_id: string,
   pair: QAPair,
+  rejectionKind: RejectionKind,
   reason: string,
 ): void {
-  appendRecordDurable(rejectedPath, toRecord(pairId, chunk_id, pair, reason));
+  appendRecordDurable(rejectedPath, toRecord(pairId, chunk_id, pair, rejectionKind, reason));
 }
 
 export function readAcceptedRecords(acceptedPath: string): SampledRecord[] {

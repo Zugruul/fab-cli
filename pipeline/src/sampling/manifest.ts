@@ -1,7 +1,7 @@
 import { configHash } from "../qa/manifest.js";
 import type { PairSamplingOutcome, SamplingConfig, SamplingProgressState, SamplingRunResult } from "./types.js";
 
-const SCHEMA_VERSION = "0.1.0"; // local/plain for now, matches qa/manifest.ts's convention
+const SCHEMA_VERSION = "0.2.0"; // bumped for rejectionKind split (review round); local/plain for now, matches qa/manifest.ts's convention
 
 /** The chunk_id's leading path segment — `brain/…`, `rules/…`, `lore/…`
  * (see src/sources/{brains,rules,lore}.ts's chunk_id schemes) — used as
@@ -15,12 +15,29 @@ export function categoryOf(chunk_id: string): string {
 
 export interface CategoryAcceptance {
   category: string;
+  /** Kept for compat with the pre-rejectionKind manifest shape — always
+   * equals rejectedNotEntailed + rejectedInfra. */
   accepted: number;
   rejected: number;
-  /** accepted / (accepted + rejected); 0 when the category had zero
-   * outcomes this run (rather than NaN — a category with nothing
-   * processed still needs a well-formed number in the manifest). */
+  /** Rejected with rejectionKind "not-entailed" — a genuine, conclusive
+   * judge verdict against the pair's content. */
+  rejectedNotEntailed: number;
+  /** Rejected with rejectionKind "infra-error" — the check never reached
+   * a conclusive verdict (judge API failure, unparseable/refusal/
+   * truncated response, or missing source chunk). Carries no signal about
+   * the pair's actual entailment. */
+  rejectedInfra: number;
+  /** accepted / (accepted + rejectedNotEntailed) — infra-error rejections
+   * are EXCLUDED, so a run's reported entailment quality isn't distorted
+   * by an unrelated judge-API outage (SPEC-APP.md §7.4 review round: "an
+   * outage shouldn't tank the acceptance rate"). 0 when accepted +
+   * rejectedNotEntailed is 0 (rather than NaN). */
   acceptanceRate: number;
+  /** accepted / (accepted + rejected) — the un-adjusted rate INCLUDING
+   * infra-error rejections, kept alongside acceptanceRate for anyone who
+   * wants the raw denominator instead of the entailment-only one. 0 when
+   * accepted + rejected is 0. */
+  rawAcceptanceRate: number;
 }
 
 export interface SamplingRunManifest {
@@ -35,9 +52,20 @@ export interface SamplingRunManifest {
   /** Pairs actually attempted THIS invocation. */
   processedCount: number;
   acceptedCount: number;
+  /** Kept for compat — always equals rejectedNotEntailedCount +
+   * rejectedInfraCount. */
   rejectedCount: number;
-  /** acceptedCount / processedCount this run; 0 when processedCount is 0. */
+  rejectedNotEntailedCount: number;
+  rejectedInfraCount: number;
+  /** acceptedCount / (acceptedCount + rejectedNotEntailedCount) —
+   * infra-error rejections excluded, so this is the number that actually
+   * reflects entailment quality this run (see CategoryAcceptance's
+   * acceptanceRate doc for why). 0 when the denominator is 0. */
   acceptanceRate: number;
+  /** acceptedCount / processedCount — the un-adjusted rate INCLUDING
+   * infra-error rejections, kept alongside acceptanceRate. 0 when
+   * processedCount is 0. */
+  rawAcceptanceRate: number;
   categoryAcceptance: CategoryAcceptance[];
   costUsd: number;
   requestCount: number;
@@ -58,29 +86,43 @@ export function buildSamplingManifest(opts: BuildSamplingManifestOptions): Sampl
   const now = opts.now ?? (() => new Date().toISOString());
 
   let acceptedCount = 0;
-  let rejectedCount = 0;
-  const byCategory = new Map<string, { accepted: number; rejected: number }>();
+  let rejectedNotEntailedCount = 0;
+  let rejectedInfraCount = 0;
+  const byCategory = new Map<string, { accepted: number; rejectedNotEntailed: number; rejectedInfra: number }>();
 
   for (const outcome of opts.outcomes) {
     const category = categoryOf(outcome.chunk_id);
-    const bucket = byCategory.get(category) ?? { accepted: 0, rejected: 0 };
+    const bucket = byCategory.get(category) ?? { accepted: 0, rejectedNotEntailed: 0, rejectedInfra: 0 };
     if (outcome.status === "accepted") {
       acceptedCount++;
       bucket.accepted++;
+    } else if (outcome.rejectionKind === "infra-error") {
+      rejectedInfraCount++;
+      bucket.rejectedInfra++;
     } else {
-      rejectedCount++;
-      bucket.rejected++;
+      // rejectionKind === "not-entailed" (the only other possibility for
+      // a rejected outcome — see types.ts's RejectionKind).
+      rejectedNotEntailedCount++;
+      bucket.rejectedNotEntailed++;
     }
     byCategory.set(category, bucket);
   }
 
+  const rejectedCount = rejectedNotEntailedCount + rejectedInfraCount;
+
   const categoryAcceptance: CategoryAcceptance[] = Array.from(byCategory.entries())
     .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
-    .map(([category, { accepted, rejected }]) => ({
+    .map(([category, { accepted, rejectedNotEntailed, rejectedInfra }]) => ({
       category,
       accepted,
-      rejected,
-      acceptanceRate: accepted + rejected > 0 ? accepted / (accepted + rejected) : 0,
+      rejected: rejectedNotEntailed + rejectedInfra,
+      rejectedNotEntailed,
+      rejectedInfra,
+      acceptanceRate: accepted + rejectedNotEntailed > 0 ? accepted / (accepted + rejectedNotEntailed) : 0,
+      rawAcceptanceRate:
+        accepted + rejectedNotEntailed + rejectedInfra > 0
+          ? accepted / (accepted + rejectedNotEntailed + rejectedInfra)
+          : 0,
     }));
 
   return {
@@ -93,7 +135,10 @@ export function buildSamplingManifest(opts: BuildSamplingManifestOptions): Sampl
     processedCount: opts.outcomes.length,
     acceptedCount,
     rejectedCount,
-    acceptanceRate: opts.outcomes.length > 0 ? acceptedCount / opts.outcomes.length : 0,
+    rejectedNotEntailedCount,
+    rejectedInfraCount,
+    acceptanceRate: acceptedCount + rejectedNotEntailedCount > 0 ? acceptedCount / (acceptedCount + rejectedNotEntailedCount) : 0,
+    rawAcceptanceRate: opts.outcomes.length > 0 ? acceptedCount / opts.outcomes.length : 0,
     categoryAcceptance,
     costUsd: opts.progress.costUsd,
     requestCount: opts.progress.requestCount,

@@ -40,17 +40,51 @@ export interface JudgeClient {
 
 /** One pair queued for entailment checking, addressed by a stable id
  * derived from its position within its source chunk's pairs array (pairs
- * themselves carry no id — see sampler.ts's buildWorkItems). */
+ * themselves carry no id — see sampler.ts's buildWorkItems).
+ *
+ * ⚠️ STALENESS WARNING: `pairId` is derived from a chunk's pair *array
+ * position*, not from pair content. If a chunk_id's pairs are regenerated
+ * (re-running `qa:generate` for that chunk after an edit to its source
+ * text, a re-tuned prompt, etc.), the new pairs at the same indices reuse
+ * the SAME pairIds as before. Sampling progress (progress.json's
+ * acceptedIds/rejectedIds) is keyed purely by pairId, so `runSampling`
+ * will treat those new pairs as "already checked" and silently apply the
+ * STALE verdict from the old content — it never re-checks them. Before
+ * re-running `qa:generate` for a chunk that's already been sampled, you
+ * MUST manually clear that chunk_id's entries from sampling progress.json
+ * (and from accepted.jsonl/rejected.jsonl) yourself; there is no
+ * automatic guard against this in the code as of APP-012 — an automatic
+ * "detect stale pairId reuse" guard is tracked separately as issue #180
+ * and intentionally NOT implemented here. */
 export interface WorkItem {
-  /** `${chunk_id}#${index}` — stable as long as qa-pairs.jsonl's per-chunk
-   * pair order doesn't change, which holds because each chunk's record is
-   * written once by APP-011's runner and never reordered in place. */
+  /** `${chunk_id}#${index}` — stable ONLY as long as qa-pairs.jsonl's
+   * per-chunk pair content at that index doesn't change; see the
+   * STALENESS WARNING on this interface. */
   pairId: string;
   chunk_id: string;
   pair: QAPair;
 }
 
 export type PairSamplingStatus = "accepted" | "rejected";
+
+/** Why a pair was rejected, distinguished so a run's reported entailment
+ * quality isn't polluted by unrelated infrastructure noise (SPEC-APP.md
+ * §7.4 review round):
+ *  - "not-entailed": the judge examined the pair against its source chunk
+ *    and rendered a genuine, conclusive not-entailed verdict — this is
+ *    real signal about the *training pair's* quality.
+ *  - "infra-error": the check itself never reached a conclusive verdict —
+ *    the judge API failed after retries, its response was unparseable/a
+ *    refusal/truncated, OR the pair's source chunk was missing from
+ *    chunksById. All three are still rejected (fail-closed: an
+ *    inconclusive check is never an acceptance), but they say nothing
+ *    about whether the pair is actually entailed — see manifest.ts, which
+ *    reports acceptance rate with and without this bucket. The missing-
+ *    source-chunk case is bucketed here rather than under "not-entailed"
+ *    because it's a pipeline data-availability failure (the check never
+ *    ran at all), not a judgment the judge model made about the pair's
+ *    content — exactly like an API outage, not like a real verdict. */
+export type RejectionKind = "not-entailed" | "infra-error";
 
 /** What happened when checking one pair during a (non-dry-run) sampling
  * run — always present for every pair actually attempted this run.
@@ -63,6 +97,10 @@ export interface PairSamplingOutcome {
   chunk_id: string;
   pair: QAPair;
   status: PairSamplingStatus;
+  /** null when status is "accepted"; always set to one of RejectionKind's
+   * values when status is "rejected" — see RejectionKind's doc for the
+   * bucketing rule. */
+  rejectionKind: RejectionKind | null;
   reason: string;
   attempts: number;
   usage?: { inputTokens: number; outputTokens: number };

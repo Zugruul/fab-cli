@@ -104,7 +104,11 @@ export interface RunSamplingOptions {
  * Failures on individual pairs (judge API error after retries, or an
  * unparseable/refusal/truncated judge response) are recorded as rejected
  * and skipped, never abort the run (per-entry isolation, fail-closed: an
- * inconclusive check never becomes an acceptance). Once the running cost
+ * inconclusive check never becomes an acceptance) — and tagged
+ * `rejectionKind: "infra-error"` rather than `"not-entailed"`, since they
+ * carry no signal about the pair's actual content (see types.ts's
+ * RejectionKind and manifest.ts, which reports acceptance rate with and
+ * without infra noise). Once the running cost
  * estimate reaches the configured ceiling, the runner stops launching new
  * checks and reports why via `stoppedEarly`.
  */
@@ -190,11 +194,16 @@ export async function runSampling(opts: RunSamplingOptions): Promise<SamplingRun
     async function checkPair(item: WorkItem): Promise<PairSamplingOutcome> {
       const chunk = chunksById.get(item.chunk_id);
       if (!chunk) {
+        // Bucketed as "infra-error", not "not-entailed": the check never
+        // ran at all for lack of source text — this is a pipeline data-
+        // availability failure, not a judgment about the pair's content
+        // (see RejectionKind's doc in types.ts).
         return {
           pairId: item.pairId,
           chunk_id: item.chunk_id,
           pair: item.pair,
           status: "rejected",
+          rejectionKind: "infra-error",
           reason: `source chunk ${item.chunk_id} not found — cannot ground entailment check`,
           attempts: 0,
         };
@@ -214,12 +223,14 @@ export async function runSampling(opts: RunSamplingOptions): Promise<SamplingRun
         if ("error" in parsed) {
           // Fail closed: an inconclusive judge response (refusal,
           // truncation, malformed JSON) is never treated as an
-          // acceptance.
+          // acceptance. "infra-error", not "not-entailed" — the judge
+          // never actually rendered a verdict on the pair's content.
           return {
             pairId: item.pairId,
             chunk_id: item.chunk_id,
             pair: item.pair,
             status: "rejected",
+            rejectionKind: "infra-error",
             reason: parsed.error,
             attempts: 1,
             usage: response.usage,
@@ -231,6 +242,7 @@ export async function runSampling(opts: RunSamplingOptions): Promise<SamplingRun
           chunk_id: item.chunk_id,
           pair: item.pair,
           status: parsed.verdict.entailed ? "accepted" : "rejected",
+          rejectionKind: parsed.verdict.entailed ? null : "not-entailed",
           reason: parsed.verdict.reason,
           attempts: 1,
           usage: response.usage,
@@ -238,12 +250,14 @@ export async function runSampling(opts: RunSamplingOptions): Promise<SamplingRun
       } catch (err) {
         // Fail closed here too: a judge call that never succeeded after
         // retries can't confirm entailment, so the pair is rejected rather
-        // than silently let through.
+        // than silently let through. "infra-error" — an API outage says
+        // nothing about the pair's actual entailment.
         return {
           pairId: item.pairId,
           chunk_id: item.chunk_id,
           pair: item.pair,
           status: "rejected",
+          rejectionKind: "infra-error",
           reason: `judge check failed: ${errorMessage(err)}`,
           attempts: config.maxRetries + 1,
         };
