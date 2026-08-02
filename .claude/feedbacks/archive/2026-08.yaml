@@ -417,3 +417,52 @@ items:
   routing:
     action: brain-note
     ref: reviewer/prove-regression-tests-against-prefix-code
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T11:20:00Z'
+iteration:
+  task: session-close
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: other
+  severity: medium
+  summary: Capability-engine placeholder documented but never substituted; reference
+    bundle silently depends on it
+  detail: The remote-compute engine's docstring and design doc name {jobdir} as an
+    engine-supplied template placeholder, but no code substitutes it — only {capdir}
+    (install-time) and declared params. The shipped comfyui bundle's render job passes
+    --out {jobdir}, which reaches the remote shell as a literal string. New bundles
+    sidestep it by reading the COMPUTE_JOB_DIR env var the launcher does export. Flagged
+    in the slm-training bundle commit message; the engine's owner (another active
+    agent) should fix substitution or the docs+comfyui manifest.
+  generalized: When an engine documents template placeholders, a test should render
+    each documented placeholder through the real code path — a placeholder that parses
+    but never substitutes ships broken reference implementations silently.
+  routing:
+    action: upstream
+    ref: 'development-skills: {jobdir} documented-but-unsubstituted placeholder (comfyui
+      bundle affected)'
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: Real-target verification of a new remote-execution surface caught an environment
+    gap all hermetic layers passed over
+  detail: The slm-training bundle passed hermetic install/dispatch/param tests and
+    its gpu-check job round-tripped green on the real machine, but the first real
+    training job failed at triton's JIT step because python3.12-dev is absent on the
+    target — invisible to fakes, import checks, and even a real matmul smoke. Same
+    lesson class as the dispatch-layer smoke earlier this session; reinforces the
+    real-target-smoke note.
+  generalized: Env verification that stops at import checks and simple kernel smokes
+    misses lazily-triggered toolchain deps (JIT compilers needing system headers);
+    a real-target smoke must execute the actual workload class end to end at least
+    once.
+  routing:
+    action: brain-note
+    ref: orchestrator/real-target-smoke-before-merge
