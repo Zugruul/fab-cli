@@ -5080,6 +5080,7 @@ _(no notes)_
 - **git-remote-repair-set-url-or-add** — [bash, git, vendoring]
 - **grep-consequence-not-pattern-name-for-second-examples** — [research, grep, code-study]
 - **macos-missing-binary-tests-need-empty-path** — [testing, macos, bash]
+- **metric-honesty-separate-infra-failures** — [metrics, pipelines, testing]
 - **monorepo-cwd-relative-outputs** — [monorepo, gitignore, restructure]
 - **non-transitive-comparator-with-fallback-entries** — [sorting, comparator, testing]
 - **pagination-cap-check-before-vs-after-fetch** — [pagination, http, efficiency]
