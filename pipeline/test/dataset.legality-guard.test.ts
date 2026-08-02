@@ -1,7 +1,23 @@
 import { describe, it, expect } from "vitest";
 import { runLegalityGuard, assertLegalityGuard } from "../src/dataset/legalityGuard.js";
+import { assembleDataset, type AssembleDatasetOptions } from "../src/dataset/assemble.js";
 import type { DatasetExample } from "../src/dataset/types.js";
 import { makeChunk, makeLegalityChunk, makeDistractorExample, makeDPOPair } from "./dataset.helpers.js";
+
+function baseAssembleOptions(overrides: Partial<AssembleDatasetOptions> = {}): AssembleDatasetOptions {
+  return {
+    chunks: [],
+    qaPairRecords: [],
+    acceptedRecords: [],
+    rejectedRecords: [],
+    distractorExamples: [],
+    abstentionExamples: [],
+    oodExamples: [],
+    dpoPairs: [],
+    split: { seed: 20260802, evalFraction: 0.2, minEvalChunksPerCategory: 1 },
+    ...overrides,
+  };
+}
 
 function qaExample(chunkId: string, overrides: Partial<DatasetExample> = {}): DatasetExample {
   return {
@@ -154,5 +170,25 @@ describe("assertLegalityGuard", () => {
       expect((err as Error).message).toMatch(/§7\.9/);
       expect((err as Error).message).toContain(legality.chunk_id);
     }
+  });
+});
+
+describe("assembleDataset — legality guard is enforced at the source, not just by callers who remember to check", () => {
+  // A programmatic caller of assembleDataset() (not just the dataset:build
+  // CLI) must never get unguarded output back — the guard has to live
+  // INSIDE assembleDataset itself, alongside its existing checkLeakage
+  // throw-don't-return-bad-output check, not bolted on one layer up by
+  // every call site individually.
+  it("THROWS when a distractor artifact carries a legality chunk but isn't marked timeSensitive (mis-marked shape slips past assembly's own per-field filters)", () => {
+    const legality = makeLegalityChunk();
+    const distractorExamples = [makeDistractorExample(legality.chunk_id, 0, { timeSensitive: false })];
+    expect(() => assembleDataset(baseAssembleOptions({ chunks: [legality], distractorExamples }))).toThrow(/§7\.9/);
+  });
+
+  it("does not throw when the same legality-chunk distractor is correctly marked timeSensitive (the §7.9 carve-out)", () => {
+    const legality = makeLegalityChunk();
+    const distractorExamples = [makeDistractorExample(legality.chunk_id, 0, { timeSensitive: true })];
+    const result = assembleDataset(baseAssembleOptions({ chunks: [legality], distractorExamples }));
+    expect(result.examples.filter((e) => e.exampleType === "distractor")).toHaveLength(1);
   });
 });
