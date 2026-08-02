@@ -1,0 +1,24 @@
+{
+  "builtAt": "2026-08-01T22:11:11.758Z",
+  "count": 2,
+  "chunks": [
+    {
+      "document": "CPG",
+      "section": "a-player-commits-serious-misconduct",
+      "title": "A player commits serious misconduct",
+      "sourceUrl": "vendored:docs/references/FaB_Casual_Procedure_Guide_2023-10-13.pdf",
+      "version": "2023-10-13",
+      "fetchedAt": "2026-08-01T22:10:49.459Z",
+      "text": "If a player irreversibly compromises the integrity of the tournament, this is a serious error."
+    },
+    {
+      "document": "CR",
+      "section": "8.3.1",
+      "title": "Dominate",
+      "sourceUrl": "vendored:third_party/fab-rules/en-fab-cr.txt",
+      "version": "2026-06-10",
+      "fetchedAt": "2026-08-01T22:10:49.459Z",
+      "text": "Dominate prevents a block after blocking costs are paid, per CR 8.3.1."
+    }
+  ]
+}

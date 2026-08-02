@@ -1,0 +1,32 @@
+[
+  {
+    "unique_id": "fRLqTzrtTt6mhdpGdcCWT",
+    "id": "1HB",
+    "name": "History Pack 1 - Bravo Blitz Deck",
+    "printings": [
+      {
+        "unique_id": "BhkfQrRQJ7GnQfzztRnwP",
+        "edition": "N",
+        "start_card_id": "1HB001",
+        "end_card_id": "1HB027",
+        "initial_release_date": "2023-02-24T00:00:00.000Z",
+        "out_of_print": true
+      }
+    ]
+  },
+  {
+    "unique_id": "aBcDeFgHiJkLmNoPqRsTu",
+    "id": "OTA",
+    "name": "Omens of the Third Age",
+    "printings": [
+      {
+        "unique_id": "zZyYxXwWvVuUtTsSrRqQp",
+        "edition": "U",
+        "start_card_id": "OTA001",
+        "end_card_id": "OTA250",
+        "initial_release_date": "2026-05-15T00:00:00.000Z",
+        "out_of_print": false
+      }
+    ]
+  }
+]
