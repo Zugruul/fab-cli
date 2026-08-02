@@ -246,5 +246,46 @@ class EntityIndexTests(unittest.TestCase):
             )
 
 
+class RepoRootInvocationTests(unittest.TestCase):
+    """Post-APP-001 monorepo split: the real repo root (git toplevel) is one
+    level above the fab-cli package, but `.claude/identities` stayed at that
+    real root while `third_party/` moved under `fab-cli/third_party/`. Every
+    script documented as runnable "from the repo root" must derive both paths
+    correctly in that layout -- not assume repo root == fab-cli/."""
+
+    @staticmethod
+    def repo_root():
+        return subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"], text=True
+        ).strip()
+
+    def run_documented(self, script, *args):
+        return subprocess.run(
+            ["python3", "fab-cli/scripts/" + script, *args],
+            cwd=self.repo_root(),
+            capture_output=True,
+            text=True,
+        )
+
+    def test_keyword_sync_check_succeeds_from_repo_root(self):
+        result = self.run_documented("keyword-sync.py", "check")
+        self.assertNotIn("Traceback", result.stderr, result.stderr)
+        self.assertEqual(0, result.returncode, result.stdout + result.stderr)
+
+    def test_backfill_entities_check_runs_without_path_errors_from_repo_root(self):
+        result = self.run_documented("backfill-entities.py", "--check")
+        self.assertNotIn("FileNotFoundError", result.stderr, result.stderr)
+        self.assertNotIn("Traceback", result.stderr, result.stderr)
+
+    def test_build_card_vault_check_runs_without_path_errors_from_repo_root(self):
+        # Not in fab-cli/CLAUDE.md's `--json`/AC list, but shares the exact same
+        # ROOT-relative third_party/ bug class as backfill-entities.py -- the
+        # card-vault brain generator that keyword-sync's entity-index check
+        # depends on being buildable at all.
+        result = self.run_documented("build-card-vault.py", "check")
+        self.assertNotIn("FileNotFoundError", result.stderr, result.stderr)
+        self.assertNotIn("Traceback", result.stderr, result.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
