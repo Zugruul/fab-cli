@@ -31,7 +31,7 @@ describe("buildDPOPairs (SPEC-APP.md §7.6)", () => {
     expect(methodCounts["synthetic-citation-stripped"]).toBe(2);
     expect(methodCounts["synthetic-confident-wrong"]).toBe(2);
     const confidentWrong = pairs.find((p) => p.method === "synthetic-confident-wrong")!;
-    expect(confidentWrong.rejected.answer.startsWith("Definitely, no exceptions: ")).toBe(true);
+    expect(confidentWrong.rejected.answer?.startsWith("Definitely, no exceptions: ")).toBe(true);
   });
 
   it("each pair records its construction method", () => {
@@ -41,12 +41,19 @@ describe("buildDPOPairs (SPEC-APP.md §7.6)", () => {
     expect(pairs[0].method).toBeDefined();
   });
 
-  it("uses a real teacher-rejected answer (same question) as `rejected` when present in the rejected file", () => {
+  it("uses a real teacher-rejected answer from the same chunk as `rejected` when present in the rejected file", () => {
+    // A given (chunk_id, question) is accepted XOR rejected — never both —
+    // so a realistic rejected candidate for the same chunk necessarily has
+    // a DIFFERENT question than the one being chosen (see dpo.ts's doc
+    // comment on chunk-level, not exact-question, rejected-side pairing).
     const chunks = makeChunks(5);
     const records = [makePairsRecord("chunk-1", 1)];
     const question = records[0].pairs[0].question;
-    const rejectedRecord = makeSampledRecord("chunk-1", question, { answer: "A non-entailed, teacher-rejected answer." });
-    const { pairs } = buildDPOPairs(chunks, records, CONFIG, [], [rejectedRecord]);
+    const acceptedRecord = makeSampledRecord("chunk-1", question);
+    const rejectedRecord = makeSampledRecord("chunk-1", "A different candidate question about chunk-1?", {
+      answer: "A non-entailed, teacher-rejected answer.",
+    });
+    const { pairs } = buildDPOPairs(chunks, records, CONFIG, [acceptedRecord], [rejectedRecord]);
     expect(pairs).toHaveLength(1);
     expect(pairs[0].method).toBe("rejection-sample");
     expect(pairs[0].rejected.answer).toBe("A non-entailed, teacher-rejected answer.");
@@ -72,6 +79,21 @@ describe("buildDPOPairs (SPEC-APP.md §7.6)", () => {
     expect(pairs[0].question).toBe(question0);
     expect(skipped).toHaveLength(1);
     expect(skipped[0].reason).toMatch(/not yet processed/);
+  });
+
+  it("cycles round-robin through a chunk's rejected pool across multiple chosen pairs", () => {
+    const chunks = makeChunks(5);
+    const records = [makePairsRecord("chunk-1", 2)];
+    const [q0, q1] = records[0].pairs.map((p) => p.question);
+    const accepted = [makeSampledRecord("chunk-1", q0), makeSampledRecord("chunk-1", q1)];
+    const rejected = [
+      makeSampledRecord("chunk-1", "distinct rejected question A", { answer: "rejected A" }),
+      makeSampledRecord("chunk-1", "distinct rejected question B", { answer: "rejected B" }),
+    ];
+    const { pairs } = buildDPOPairs(chunks, records, CONFIG, accepted, rejected);
+    expect(pairs).toHaveLength(2);
+    expect(pairs.map((p) => p.rejected.answer).sort()).toEqual(["rejected A", "rejected B"]);
+    expect(pairs.every((p) => p.method === "rejection-sample")).toBe(true);
   });
 
   it("skips (does not use as chosen) a raw pair that was itself rejected with no accepted counterpart", () => {
