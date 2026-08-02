@@ -183,7 +183,15 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   GPL-3.0 while package.json declares ISC) as part of the restructure: per-package `license`
   fields and LICENSE files, with `fab-app` and `pipeline` under an App-Store-compatible
   permissive license (default MIT — §16 Q10; GPL-3.0 is incompatible with App Store
-  distribution once third-party contributions exist).
+  distribution once third-party contributions exist). Because `fab-cli` remains GPL-3.0-only
+  (§16 Q10) while `fab-app` and `pipeline` are MIT and App-Store-bound, `fab-app` and
+  `pipeline` SHALL NEVER declare a workspace dependency on `fab-cli`, nor import its source,
+  in any package.json dependency field or application code. Any interaction between them
+  SHALL be process-boundary only (spawning the CLI as a subprocess) or via shared data files —
+  never a code-level dependency that would pull GPL-3.0-licensed code into an MIT-licensed,
+  App-Store-distributed binary. This is enforced structurally by `scripts/workspace.test.mjs`,
+  which asserts neither `fab-app/package.json` nor `pipeline/package.json` lists `fab-cli` in
+  any dependency field (keys or values).
 
 ## §7 Corpus → dataset pipeline (E1)
 
@@ -533,4 +541,4 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
 | 7 | Android bring-up epic timing | user | scheduled after v1 iOS TestFlight ships; new epic added to this spec then |
 | 8 | Manifest cryptographic signing | user | not in v1 (NG11); revisit before public App Store release |
 | 9 | Runtime LoRA delivery (vs merged GGUF) | spec author | merged GGUF per release until llama.rn adapter defects are fixed upstream |
-| 10 | Repo/package licenses for public release (LICENSE.md is GPL-3.0, package.json says ISC — inconsistent today) | user | per-package licensing in E0: `fab-app`/`pipeline` MIT; `fab-cli` stays as user decides; package.json fields aligned with LICENSE files |
+| 10 | Repo/package licenses for public release (LICENSE.md is GPL-3.0, package.json says ISC — inconsistent today) | user | per-package licensing (APP-004, resolved 2026-08-01): `fab-cli` = GPL-3.0-only (LICENSE + package.json `license` field); `fab-app`/`pipeline` = MIT (LICENSE + package.json `license` field each); root LICENSE.md is a per-package pointer, no repo-wide GPL claim |
