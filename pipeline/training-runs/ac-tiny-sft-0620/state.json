@@ -1,0 +1,20 @@
+{
+  "runId": "ac-tiny-sft-0620",
+  "spec": {
+    "tier": "0.6B",
+    "stage": "sft",
+    "datasetPath": "tiny-sft.jsonl",
+    "seed": 3407,
+    "train": {
+      "maxSteps": 2
+    },
+    "maxSeqLength": 512
+  },
+  "jobId": "ac-tiny-sft-0620",
+  "status": "manifested",
+  "timestamps": {
+    "dispatchedAt": "2026-08-02T18:58:19.475Z",
+    "completedAt": "2026-08-02T18:59:02.495Z",
+    "manifestedAt": "2026-08-02T18:59:05.778Z"
+  }
+}
