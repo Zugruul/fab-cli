@@ -2,18 +2,28 @@ import { initialSmokeState, smokeReducer } from './reducer';
 import { summarizeSmokeState } from './summary';
 import type { SmokeState } from './types';
 
-function apply(state: SmokeState, actions: Parameters<typeof smokeReducer>[1][]): SmokeState {
+function apply(
+  state: SmokeState,
+  actions: Parameters<typeof smokeReducer>[1][],
+): SmokeState {
   return actions.reduce(smokeReducer, state);
 }
 
 describe('summarizeSmokeState', () => {
   it('reports all four modules pending before any check runs', () => {
     const summary = summarizeSmokeState(initialSmokeState());
-    expect(summary).toEqual({ okCount: 0, errorCount: 0, pendingCount: 4, allSettled: false });
+    expect(summary).toEqual({
+      okCount: 0,
+      errorCount: 0,
+      pendingCount: 4,
+      allSettled: false,
+    });
   });
 
   it('counts checking as pending, not settled', () => {
-    const state = apply(initialSmokeState(), [{ type: 'CHECK_START', module: 'llama' }]);
+    const state = apply(initialSmokeState(), [
+      { type: 'CHECK_START', module: 'llama' },
+    ]);
     const summary = summarizeSmokeState(state);
     expect(summary.pendingCount).toBe(4);
     expect(summary.allSettled).toBe(false);

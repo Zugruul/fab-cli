@@ -32,7 +32,10 @@ describe('smokeReducer', () => {
       module: 'sqlite',
       detail: 'vec0 nearest distance 0',
     });
-    expect(next.sqlite).toEqual({ status: 'ok', detail: 'vec0 nearest distance 0' });
+    expect(next.sqlite).toEqual({
+      status: 'ok',
+      detail: 'vec0 nearest distance 0',
+    });
   });
 
   it('CHECK_ERROR records error status with a required detail message', () => {
@@ -41,7 +44,10 @@ describe('smokeReducer', () => {
       module: 'camera',
       detail: 'permission denied',
     });
-    expect(next.camera).toEqual({ status: 'error', detail: 'permission denied' });
+    expect(next.camera).toEqual({
+      status: 'error',
+      detail: 'permission denied',
+    });
   });
 
   it('only touches the targeted module, leaving the other three untouched', () => {
