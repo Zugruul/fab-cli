@@ -33,6 +33,11 @@ price-comparison/
 
 # Talishar card-implementation dossiers — ephemeral working state, never committed
 .claude/talishar/dossiers/
+
+# Corpus exporter output (pipeline/, SPEC-APP.md §7.1-§7.2) — exported chunk
+# text and manifests are regenerable from the brains/rules KB/lore sources;
+# never commit exported corpus content
+pipeline/out/
 # >>> spec-workflow managed
 .claude/CHECKPOINT
 .claude/ITERATIVE_UI_OFF
