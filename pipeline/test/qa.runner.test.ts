@@ -1,9 +1,19 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { describe, it, expect, beforeEach, afterEach } from "vitest";
+import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import { runBatch, loadProgress } from "../src/qa/runner.js";
-import { makeChunk, makeChunks, makeMockTeacher, makeAlwaysValidTeacher, validPairsResponse, FakeApiError, noopSleep } from "./qa.helpers.js";
+import { appendPairsDurable, readPairsRecords } from "../src/qa/pairsStore.js";
+import {
+  makeChunk,
+  makeChunks,
+  makeMockTeacher,
+  makeAlwaysValidTeacher,
+  validPairsResponse,
+  FakeApiError,
+  noopSleep,
+  extractChunkIdFromUserPrompt,
+} from "./qa.helpers.js";
 import type { GenerationConfig } from "../src/qa/types.js";
 
 function config(overrides: Partial<GenerationConfig> = {}): GenerationConfig {
@@ -77,6 +87,88 @@ describe("runBatch — mock teacher, happy path", () => {
     expect(persisted.doneChunkIds.sort()).toEqual(["chunk-1", "chunk-2"]);
     expect(persisted.requestCount).toBe(2);
     expect(persisted.costUsd).toBeGreaterThan(0);
+  });
+});
+
+describe("runBatch — write ordering (pairs persisted before done-mark)", () => {
+  it("awaits onChunkComplete (durable pair persistence) BEFORE recording the chunk as done in progress.json", async () => {
+    const chunk = makeChunk({ chunk_id: "chunk-1" });
+    const teacher = makeAlwaysValidTeacher(1);
+
+    await runBatch({
+      chunks: [chunk],
+      config: config(),
+      teacher,
+      progressPath,
+      sleep: noopSleep,
+      onChunkComplete: async (outcome) => {
+        // A real crash could land right after this callback resolves, so
+        // if progress.json already showed this chunk as done DURING the
+        // callback, a kill here would mean the chunk is "done" on disk
+        // with no durable record of its pairs — exactly the data-loss bug
+        // this test guards against. Give the event loop a real tick so a
+        // same-tick ordering bug can't hide behind synchronous execution.
+        await Promise.resolve();
+        const onDisk = fs.existsSync(progressPath) ? loadProgress(progressPath) : { doneChunkIds: [] as string[] };
+        expect(onDisk.doneChunkIds).not.toContain(outcome.chunk_id);
+      },
+    });
+
+    // ...and once the run actually completes, the chunk IS marked done.
+    expect(loadProgress(progressPath).doneChunkIds).toEqual(["chunk-1"]);
+  });
+});
+
+describe("runBatch — crash between pair-write and done-mark (kill simulation)", () => {
+  it("if the process dies right after pairs are durably persisted but before progress marks the chunk done, resume reprocesses that one chunk and the pairs store ends with no duplicates", async () => {
+    const chunk = makeChunk({ chunk_id: "chunk-1" });
+    const qaPairsPath = path.join(tmpDir, "qa-pairs.jsonl");
+
+    const firstTeacher = makeAlwaysValidTeacher(1);
+    await expect(
+      runBatch({
+        chunks: [chunk],
+        config: config(),
+        teacher: firstTeacher,
+        progressPath,
+        sleep: noopSleep,
+        onChunkComplete: (outcome) => {
+          appendPairsDurable(qaPairsPath, { chunk_id: outcome.chunk_id, pairs: outcome.pairs });
+          // Nothing after this line ever runs — standing in for a real
+          // process kill the instant after the durable write above
+          // returns, so progress.json is never touched for this chunk.
+          throw new Error("simulated kill right after durable pair write");
+        },
+      }),
+    ).rejects.toThrow(/simulated kill/);
+
+    // The pairs made it to disk before the "kill"...
+    expect(readPairsRecords(qaPairsPath)).toHaveLength(1);
+    // ...but the chunk was never marked done — a resume must reprocess it
+    // (cheap: one extra API call), never silently skip it while its
+    // already-paid-for pairs sit unrecorded.
+    expect(loadProgress(progressPath).doneChunkIds).toEqual([]);
+
+    const secondTeacher = makeAlwaysValidTeacher(1);
+    await runBatch({
+      chunks: [chunk],
+      config: config(),
+      teacher: secondTeacher,
+      progressPath,
+      sleep: noopSleep,
+      onChunkComplete: (outcome) => {
+        appendPairsDurable(qaPairsPath, { chunk_id: outcome.chunk_id, pairs: outcome.pairs });
+      },
+    });
+
+    expect(secondTeacher.calls).toHaveLength(1); // reprocessed, not skipped
+    expect(loadProgress(progressPath).doneChunkIds).toEqual(["chunk-1"]);
+
+    // The pairs store ends up with exactly one (the latest) record for
+    // chunk-1 — the earlier partial write was replaced, never duplicated.
+    const finalRecords = readPairsRecords(qaPairsPath);
+    expect(finalRecords).toHaveLength(1);
+    expect(finalRecords[0].chunk_id).toBe("chunk-1");
   });
 });
 
@@ -213,6 +305,55 @@ describe("runBatch — cost ceiling", () => {
     expect(result.stoppedEarly).toBeNull();
     expect(secondTeacher.calls).toHaveLength(2);
     expect(loadProgress(progressPath).doneChunkIds).toHaveLength(4);
+  });
+});
+
+describe("runBatch — cost ceiling with concurrency > 1", () => {
+  it("bounds the overshoot: only the chunks already committed (in flight) when the ceiling is crossed complete", async () => {
+    // Mirrors the production config's maxConcurrent (4) — the earlier
+    // cost-ceiling tests all use maxConcurrent: 1, where overshoot past
+    // the ceiling can't happen at all, so they can't catch a regression
+    // here.
+    const maxConcurrent = 4;
+    const chunks = makeChunks(8);
+    let inFlight = 0;
+    let release: () => void;
+    const gate = new Promise<void>((resolve) => {
+      release = resolve;
+    });
+
+    // Every mock call blocks on the same gate, so all maxConcurrent
+    // workers are guaranteed to have already started (and therefore be
+    // "in flight", already committed) before any of them can complete and
+    // trip the ceiling.
+    const teacher = makeMockTeacher(async (request) => {
+      inFlight++;
+      await gate;
+      const chunkId = extractChunkIdFromUserPrompt(request.user);
+      return validPairsResponse(chunkId, 1); // 0.003 USD per chunk, see config()'s cost rates
+    });
+
+    const cfg = config({
+      batch: { size: 10, maxConcurrent, requestsPerMinute: 0 },
+      // Any single completed chunk (0.003) already exceeds this ceiling,
+      // so the entire overshoot is exactly "however many were already in
+      // flight" — the bound this test exists to prove.
+      cost: { inputPricePerMTok: 2, outputPricePerMTok: 10, ceilingUsd: 0.001 },
+    });
+
+    const runPromise = runBatch({ chunks, config: cfg, teacher, progressPath, sleep: noopSleep });
+
+    await vi.waitFor(() => expect(inFlight).toBe(maxConcurrent));
+    release!();
+
+    const result = await runPromise;
+
+    expect(result.stoppedEarly).toEqual({ reason: "cost-ceiling" });
+    // Bounded by maxConcurrent — never all 8 chunks, and never fewer than
+    // the ones that were already committed when the ceiling was crossed.
+    expect(teacher.calls).toHaveLength(maxConcurrent);
+    expect(result.outcomes).toHaveLength(maxConcurrent);
+    expect(result.progress.costUsd).toBeCloseTo(maxConcurrent * 0.003, 5);
   });
 });
 

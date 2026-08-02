@@ -78,6 +78,17 @@ describe("parseTeacherResponse", () => {
     }
   });
 
+  it("rejects a response truncated mid-array (e.g. a max_tokens cutoff) without throwing", () => {
+    // Realistic malformation: valid-looking JSON up to the point generation
+    // was cut off, then nothing — no closing bracket/brace at all.
+    const raw = '[{"question": "What does X do?", "answer": "X does Y becaus';
+    expect(() => parseTeacherResponse(raw, chunk)).not.toThrow();
+    const { pairs, rejected } = parseTeacherResponse(raw, chunk);
+    expect(pairs).toHaveLength(0);
+    expect(rejected).toHaveLength(1);
+    expect(rejected[0].reason).toMatch(/pars|json/i);
+  });
+
   it("does not mutate the input chunk", () => {
     const before = JSON.stringify(chunk);
     parseTeacherResponse("not json at all", chunk);
