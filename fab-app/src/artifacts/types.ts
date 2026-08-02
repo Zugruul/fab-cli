@@ -8,7 +8,7 @@
 // interfaces so unit tests can supply deterministic in-memory fakes instead
 // (fab-app/src/artifacts/__tests__/testDoubles.ts).
 
-import type { RevocationList, Tombstones } from "@fab/manifest-schema";
+import type { ModelPackTier, RevocationList, Tombstones } from "@fab/manifest-schema";
 
 export interface FileStat {
   size: number;
@@ -127,4 +127,14 @@ export interface ArtifactDisabledStateStore {
   markDisabled(artifactName: string, version: string, reason: string): Promise<void>;
 }
 
-export type { RevocationList, Tombstones };
+/** Narrow structural view of src/lifecycle/types.ts's TierFallbackStore —
+ * declared here (rather than importing that type) so src/artifacts never
+ * depends on src/lifecycle; TierFallbackStore satisfies this structurally.
+ * BUG-199 (SPEC-APP.md §9.8): production wiring passes the same store
+ * instance to both modules' constructors so a fresh 1.7B install can clear
+ * a load-failure fallback that was recorded against the old pack. */
+export interface FallbackClearer {
+  clearFallback(): Promise<void>;
+}
+
+export type { ModelPackTier, RevocationList, Tombstones };

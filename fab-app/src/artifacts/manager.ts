@@ -10,12 +10,19 @@
 
 import type { AtomicInstaller } from "./installer";
 import type { ResumableDownloader } from "./downloader";
-import type { ExpectedFile, Hasher, InstallResult } from "./types";
+import type { ExpectedFile, FallbackClearer, Hasher, InstallResult, ModelPackTier } from "./types";
 
 export interface FullPackDownloadRequest {
   artifactKey: string;
   artifactName: string;
   version: string;
+  /** Which model-pack tier (§14) this pack installs. When "1.7B" and a
+   * fallbackClearer was wired into the manager, a successful install
+   * clears any previously-persisted 1.7B load-failure fallback (BUG-199,
+   * SPEC-APP.md §9.8) — a stale failure recorded against the old pack no
+   * longer applies once a fresh one is on disk. Omitted or "0.6B" never
+   * triggers a clear. */
+  tier?: ModelPackTier;
   /** One entry per file the pack ships; each is downloaded, verified, and
    * installed together as a single atomic version. */
   files: {
@@ -33,6 +40,11 @@ export class ArtifactManager {
     private readonly downloader: ResumableDownloader,
     private readonly installer: AtomicInstaller,
     private readonly hasher: Hasher,
+    /** Optional so callers that never install 1.7B packs (or production
+     * wiring landing incrementally) don't need to supply one — see
+     * request.tier's doc comment above and the propagation contract on
+     * downloadAndInstallFullPack below. */
+    private readonly fallbackClearer?: FallbackClearer,
   ) {}
 
   /**
@@ -61,7 +73,7 @@ export class ArtifactManager {
     }
 
     const expectedFiles: ExpectedFile[] = request.files.map((f) => ({ name: f.name, sha256: f.sha256 }));
-    return this.installer.install(
+    const result = await this.installer.install(
       this.root,
       request.artifactName,
       request.version,
@@ -69,6 +81,23 @@ export class ArtifactManager {
       expectedFiles,
       this.hasher,
     );
+
+    // BUG-199 (SPEC-APP.md §9.8): a fresh 1.7B install invalidates any
+    // previously-persisted load-failure fallback — that flag was recorded
+    // against the OLD pack, and a different one is now on disk. Only fires
+    // for tier "1.7B" (a 0.6B install never touches the fallback) and only
+    // when a clearer was supplied. Deliberately runs AFTER install() above
+    // and is NOT wrapped in try/catch: the install itself is already
+    // atomically complete and is never rolled back if clearing fails, but
+    // a clearFallback failure must not be swallowed either — a silently
+    // stale fallback flag pinning the user to 0.6B forever after a fixed
+    // 1.7B pack ships is exactly this bug, so the error propagates to the
+    // caller instead of being treated as a successful install.
+    if (request.tier === "1.7B" && this.fallbackClearer) {
+      await this.fallbackClearer.clearFallback();
+    }
+
+    return result;
   }
 
   async getCurrentVersion(artifactName: string): Promise<string | null> {
