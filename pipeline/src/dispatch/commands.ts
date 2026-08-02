@@ -115,12 +115,22 @@ function dqEscape(value: string): string {
 }
 
 /**
- * Like shQuote, but for a *path* that may start with `~` or `~/` — those
+ * Like shQuote, but for a value that may start with `~` or `~/` — those
  * need to stay unquoted so the consuming shell still performs tilde
  * expansion to $HOME; only the remainder (if any) is quoted. Shells
  * concatenate an unquoted tilde-prefix with an immediately-following
  * quoted segment into one word, so `~/'rest of path'` still expands
- * correctly.
+ * correctly, while everything after the prefix stays fully inert (a
+ * literal `'$(evil)'` never gets executed, an embedded `'` is escaped
+ * exactly like plain shQuote would).
+ *
+ * Used for remote *paths* (the run directory) **and** for individual
+ * trainArgv tokens (round 2 used plain shQuote for tokens, which broke
+ * the documented `~/.venv/bin/python3` invocation — a bare `'~/...'`
+ * never tilde-expands; reproduced and confirmed fixed via the same live
+ * zsh/tmux simulation used for the round-2 injection fix, in review
+ * round 3). Any token that doesn't start with `~/` behaves identically
+ * to plain shQuote.
  */
 function shQuotePath(pathStr: string): string {
   if (pathStr === "~") return "~";
@@ -183,13 +193,19 @@ export function buildEnsureRunDir(runId: string, config: DispatchConfig): string
  * `-d` detaches immediately so the session survives the SSH connection
  * closing. Output is teed to run.log inside the run's own directory so
  * buildStatusProbe's tail works without re-deriving the path.
+ *
+ * Each trainArgv token is quoted with `shQuotePath`, not plain `shQuote`
+ * — trainArgv tokens are very often remote paths themselves (the
+ * documented invocation is `~/.venv/bin/python3 train.py ...`), and
+ * `shQuotePath` is what preserves a leading `~/`'s tilde-expansion
+ * through the escaping (see its doc comment).
  */
 export function buildTmuxLaunch(runId: string, trainArgv: string[], config: DispatchConfig): string[] {
   validateConfig(config);
   validateRunId(runId);
   const session = sessionName(runId, config);
   const dir = remoteRunDir(runId, config);
-  const trainCmd = trainArgv.map(shQuote).join(" ");
+  const trainCmd = trainArgv.map(shQuotePath).join(" ");
   const innerRaw = `${trainCmd} 2>&1 | tee run.log`;
   const innerForBash = dqEscape(innerRaw);
   const scriptRaw = `tmux new-session -d -s ${shQuote(session)} -c ${shQuotePath(dir)} "${innerForBash}"`;

@@ -17,7 +17,14 @@
  * `python3` PATH — callers must put the full remote path (e.g.
  * `~/.venv/bin/python3`) as `trainArgv[0]` when calling
  * `Dispatcher#launch`, since the remote shell for the launched command is
- * non-interactive zsh (no venv activation happens automatically).
+ * non-interactive zsh (no venv activation happens automatically). That
+ * `~/...`-prefixed example is verified against `buildTmuxLaunch`'s actual
+ * escaping, not just documentation: a round-2 escaping pass quoted the
+ * leading `~` along with the rest of the token, which silently defeats
+ * tilde expansion (`'~/.venv/bin/python3'` never resolves) — fixed in
+ * review round 3 by quoting each trainArgv token with the same
+ * tilde-preserving treatment `commands.ts` already used for remote paths
+ * (see `shQuotePath` there).
  */
 
 export interface DispatchConfig {
