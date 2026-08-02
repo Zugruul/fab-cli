@@ -118,3 +118,30 @@ test("GPL isolation: fab-app and pipeline must never depend on fab-cli (workspac
     }
   }
 });
+
+// APP-003: after APP-001 moved the pre-existing specs' files into fab-cli/,
+// .claude/project.yaml's specs[] paths must be updated to match — a stale
+// specPath/backlogPath silently breaks the board tooling for that spec.
+
+test("every spec in .claude/project.yaml has specPath and backlogPath pointing at files that exist on disk", () => {
+  const text = readFileSync(".claude/project.yaml", "utf8");
+  const specsSectionMatch = text.match(/\nspecs:\n([\s\S]*?)\ncommands:\n/);
+  assert.ok(specsSectionMatch, ".claude/project.yaml must have a specs: section followed by commands:");
+  const specBlocks = [...specsSectionMatch[1].matchAll(/-\s{3}id:\s*(\S+)[\s\S]*?(?=\n-\s{3}id:|$)/g)];
+  assert.ok(specBlocks.length > 0, "expected at least one spec entry under specs:");
+  for (const block of specBlocks) {
+    const id = block[1];
+    const specPath = block[0].match(/specPath:\s*(\S+)/)?.[1];
+    const backlogPath = block[0].match(/backlogPath:\s*(\S+)/)?.[1];
+    assert.ok(specPath, `spec "${id}" must declare specPath`);
+    assert.ok(backlogPath, `spec "${id}" must declare backlogPath`);
+    assert.ok(
+      existsSync(specPath),
+      `spec "${id}" specPath "${specPath}" must exist on disk (relative to repo root)`,
+    );
+    assert.ok(
+      existsSync(backlogPath),
+      `spec "${id}" backlogPath "${backlogPath}" must exist on disk (relative to repo root)`,
+    );
+  }
+});
