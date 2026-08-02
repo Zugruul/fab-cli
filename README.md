@@ -13,7 +13,7 @@ See each package's own README for usage. `pnpm -r run gate` runs every package's
 Training/export/eval runs dispatch to a GPU machine through the generic
 `remote-compute` engine + `slm-training` capability bundle (both in the
 development-skills repo). **All machine-local state is gitignored** — the
-user-level registry (`~/.claude/compute/`) and this repo's
+user-level registry (`~/.remote-compute/`) and this repo's
 `.claude/project.local.yaml` availability overlay — so a fresh clone or a new
 machine must be set up once before any training dispatch works.
 

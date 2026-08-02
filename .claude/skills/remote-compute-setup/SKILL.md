@@ -6,7 +6,7 @@ description: Set up (or re-verify) a GPU machine for this project's remote train
 # Remote compute setup — training dispatch for this project
 
 Everything machine-local lives OUTSIDE git: the user-level registry
-(`~/.claude/compute/`) and this repo's `.claude/project.local.yaml` overlay
+(`~/.remote-compute/`) and this repo's `.claude/project.local.yaml` overlay
 (gitignored). A fresh clone or a new machine therefore starts from zero — this
 skill reconstructs the whole rail and verifies every step against the real
 machine (never assume; every claim below came from a verified live run).
@@ -61,7 +61,7 @@ $RC enable <nickname> --root <this-repo-root> --role training   # writes .claude
 
 `enable`'s snapshot records cuda/driver — the pipeline CLIs REQUIRE those two
 values on every `run` (§8.1 environment capture); read them from
-`~/.claude/compute/resources.yaml`, never hand-type guesses.
+`~/.remote-compute/resources.yaml`, never hand-type guesses.
 
 ## 3. Verify (mandatory — a setup that hasn't run a real job isn't set up)
 
@@ -80,7 +80,8 @@ for row shapes) and dispatch `slm-training:sft` with it via `--inputs`.
 The pipeline owns the orchestration; the bundle jobs are the transport:
 - Training runs: `pipeline`'s `npm run train -- run --run-id <id> --tier 1.7B|0.6B --stage sft|dpo --dataset <path> --seed <n> --inputs <dir> --lockfile <pnpm-lock> --gpu-check <gpu-check.json> --cuda <v> --driver <v>` — dispatches `slm-training:sft`, polls, pulls adapters, writes the committed manifest under `pipeline/training-runs/<id>/`. `resume <id>` continues an interrupted run. Set `REMOTE_COMPUTE_PY` to the engine path.
 - Export: `npm run export-model -- run --run-id <id> --tier <t> --adapters-dir <remote-abs-path>|--adapters-run-id <trainingRunId> ...` — GGUF per tier (q4_k_m+q8_0), llama.cpp constrained-completion smoke, licensed manifest under `pipeline/export-runs/<id>/`.
-- Monitor on-machine: run development-skills' `compute-top` on the box.
+- Monitor on-machine: `python3 ~/.remote-compute/tools/compute-top.py` on the
+  box (installed by the engine; terminal dashboard with per-job duration).
 - The GPU is shared: a dispatched job HOLDS the resource lock — that is
   intended. `job-status` releases it when the job is seen finished.
 
