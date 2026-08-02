@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { useTranslation } from "react-i18next";
 import type { ArtifactSizes, ConsentGateState } from "../types";
 import { formatBytes } from "../sizes";
+import { useTheme } from "../../theme";
+import type { ThemeTokens } from "../../theme";
 
 export interface ConsentScreenProps {
   gate: ConsentGateState;
@@ -20,6 +22,8 @@ export interface ConsentScreenProps {
  */
 export function ConsentScreen({ gate, sizes, onAccept, onOverrideCellular }: ConsentScreenProps): React.JSX.Element {
   const { t } = useTranslation();
+  const { tokens } = useTheme();
+  const styles = useMemo(() => createStyles(tokens), [tokens]);
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
@@ -68,11 +72,13 @@ export function ConsentScreen({ gate, sizes, onAccept, onOverrideCellular }: Con
   );
 }
 
-const styles = StyleSheet.create({
-  safeArea: { flex: 1 },
-  content: { padding: 16, gap: 12 },
-  title: { fontSize: 20, fontWeight: "700" },
-  row: { fontSize: 14, color: "#333333" },
-  notice: { fontSize: 14, color: "#996600" },
-  button: { fontSize: 16, fontWeight: "600", color: "#0a84ff" },
-});
+function createStyles(tokens: ThemeTokens) {
+  return StyleSheet.create({
+    safeArea: { flex: 1, backgroundColor: tokens.background },
+    content: { padding: 16, gap: 12 },
+    title: { fontSize: 20, fontWeight: "700", color: tokens.text },
+    row: { fontSize: 14, color: tokens.text },
+    notice: { fontSize: 14, color: tokens.warning },
+    button: { fontSize: 16, fontWeight: "600", color: tokens.accent },
+  });
+}

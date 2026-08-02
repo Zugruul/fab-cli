@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useMemo} from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import {useTranslation} from 'react-i18next';
 
 import type {ProvenanceState} from '../provenance';
+import {useTheme} from '../theme';
+import type {ThemeTokens} from '../theme';
 
 export interface ProvenanceScreenProps {
   provenance: ProvenanceState;
@@ -24,6 +26,8 @@ export function ProvenanceScreen({
   provenance,
 }: ProvenanceScreenProps): React.JSX.Element {
   const {t} = useTranslation();
+  const {tokens} = useTheme();
+  const styles = useMemo(() => createStyles(tokens), [tokens]);
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
@@ -52,10 +56,12 @@ export function ProvenanceScreen({
   );
 }
 
-const styles = StyleSheet.create({
-  safeArea: {flex: 1},
-  content: {padding: 16, gap: 8},
-  title: {fontSize: 20, fontWeight: '700'},
-  row: {fontSize: 14, color: '#333333'},
-  empty: {fontSize: 14, color: '#888888', fontStyle: 'italic'},
-});
+function createStyles(tokens: ThemeTokens) {
+  return StyleSheet.create({
+    safeArea: {flex: 1, backgroundColor: tokens.background},
+    content: {padding: 16, gap: 8},
+    title: {fontSize: 20, fontWeight: '700', color: tokens.text},
+    row: {fontSize: 14, color: tokens.text},
+    empty: {fontSize: 14, color: tokens.mutedText, fontStyle: 'italic'},
+  });
+}

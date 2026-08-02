@@ -9,23 +9,29 @@
  * initializes i18next before first render. LanguageSwitcher is the
  * minimal manual-override settings surface (no navigation library yet).
  *
+ * useTheme() (#219, SPEC-APP.md §9.13) is the single place App.tsx reads
+ * the system color scheme — StatusBar's dark/light content style folds
+ * into the same theme resolution every screen below uses (src/theme/),
+ * rather than App.tsx computing `useColorScheme() === 'dark'` on its own.
+ *
  * @format
  */
 
-import { StatusBar, useColorScheme } from 'react-native';
+import { StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { I18nProvider } from './src/i18n/I18nProvider';
 import { LanguageSwitcher } from './src/i18n/LanguageSwitcher';
 import { SmokeScreen } from './src/smokeScreen/SmokeScreen';
+import { useTheme } from './src/theme';
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+  const { name } = useTheme();
 
   return (
     <SafeAreaProvider>
       <I18nProvider>
-        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+        <StatusBar barStyle={name === 'dark' ? 'light-content' : 'dark-content'} />
         <LanguageSwitcher />
         <SmokeScreen />
       </I18nProvider>

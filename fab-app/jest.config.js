@@ -30,5 +30,13 @@ module.exports = {
   // __tests__/ alongside real *.test.ts files but aren't themselves a test
   // suite (jest's default testMatch otherwise treats every file directly
   // under __tests__/ as one, regardless of name).
-  testPathIgnorePatterns: ['/node_modules/', '/__tests__/testDoubles\\.ts$'],
+  //
+  // screenRegistry.tsx (#219) is the same pattern one level up: the SCREENS
+  // registration table shared by src/a11y/__tests__/screens.a11y.test.tsx
+  // and src/theme/__tests__/screens.theme.test.tsx.
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/__tests__/testDoubles\\.ts$',
+    '/__tests__/screenRegistry\\.tsx$',
+  ],
 };
