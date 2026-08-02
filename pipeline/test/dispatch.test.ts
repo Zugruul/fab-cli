@@ -2,6 +2,17 @@
 // machine (#208, E2/APP-020 prep). See CLAUDE.md's remote-machine-facts for
 // the baked-in defaults asserted below (host storm590x, ext4-only
 // remoteBase, full-path nvidia-smi, zsh-bypass bash -lc wrapping).
+//
+// Round 2 (PR #213 review): fixes a real shell-injection hole in
+// buildTmuxLaunch (an apostrophe in any trainArgv token or runId broke
+// out of the outer single-quoted `bash -lc '...'` wrapper and ran as
+// remote shell syntax — reproduced and confirmed exploitable against the
+// round-1 code via a live zsh/tmux simulation, and confirmed fixed
+// against this round's code the same way), plus three real bugs found by
+// an actual storm590x smoke test: rsync push failing when the remote run
+// dir doesn't exist yet (needs mkdir -p first), finished-detection never
+// firing against real tmux's "no server running" wording, and a
+// decorative pythonPath field that's now dropped entirely.
 import { describe, it, expect } from "vitest";
 import {
   buildRsyncPush,
@@ -9,26 +20,31 @@ import {
   buildStatusProbe,
   buildGpuProbe,
   buildRsyncPull,
+  buildEnsureRunDir,
   validateConfig,
+  validateRunId,
 } from "../src/dispatch/commands.js";
 import { Dispatcher, DispatchError } from "../src/dispatch/dispatcher.js";
 import { DEFAULT_DISPATCH_CONFIG } from "../src/dispatch/types.js";
-import type { DispatchConfig, RemoteExecutor, ExecResult } from "../src/dispatch/types.js";
+import type { RemoteExecutor, ExecResult } from "../src/dispatch/types.js";
 import { parseArgs } from "../src/dispatch/cli.js";
 
 describe("DEFAULT_DISPATCH_CONFIG", () => {
-  it("bakes in the verified storm590x defaults", () => {
+  it("bakes in the verified storm590x defaults (no pythonPath — nothing here invokes python directly)", () => {
     expect(DEFAULT_DISPATCH_CONFIG).toEqual({
       host: "storm590x",
       remoteBase: "~/fab-training",
-      pythonPath: "~/.venv/bin/python3",
       nvidiaSmiPath: "/usr/lib/wsl/lib/nvidia-smi",
       tmuxSessionPrefix: "fab-train",
     });
   });
+
+  it("has no pythonPath field at all", () => {
+    expect("pythonPath" in DEFAULT_DISPATCH_CONFIG).toBe(false);
+  });
 });
 
-describe("validateConfig — DrvFs (/mnt/) ban", () => {
+describe("validateConfig — DrvFs (/mnt/) guard", () => {
   it("does not throw for the ext4 default remoteBase", () => {
     expect(() => validateConfig(DEFAULT_DISPATCH_CONFIG)).not.toThrow();
   });
@@ -37,12 +53,53 @@ describe("validateConfig — DrvFs (/mnt/) ban", () => {
     expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/home/leona/fab-training" })).not.toThrow();
   });
 
+  it("does not false-positive on a segment that merely contains 'mnt' as a substring", () => {
+    expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "~/mnt-backup/fab-training" })).not.toThrow();
+  });
+
   it("throws when remoteBase resolves under /mnt/", () => {
     expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/fab-training" })).toThrow(/\/mnt\//);
   });
 
   it("throws for the bare /mnt root too", () => {
     expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt" })).toThrow(/\/mnt/);
+  });
+
+  it("throws for a double-slash /mnt/ path (collapsed before the segment check)", () => {
+    expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "//mnt/f/fab-training" })).toThrow(/\/mnt\//);
+  });
+
+  it("throws case-insensitively for /MNT/", () => {
+    expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/MNT/f/fab-training" })).toThrow(/mnt/i);
+  });
+
+  it("rejects any remoteBase containing '..' outright, even one that spells its way into /mnt/", () => {
+    expect(() => validateConfig({ ...DEFAULT_DISPATCH_CONFIG, remoteBase: "~/../../mnt/f" })).toThrow(/\.\./);
+  });
+});
+
+describe("validateRunId — safe-charset guard (runId is embedded in remote shell commands)", () => {
+  it("accepts letters, digits, '.', '_', '-'", () => {
+    expect(() => validateRunId("run-001")).not.toThrow();
+    expect(() => validateRunId("run.001_v2")).not.toThrow();
+    expect(() => validateRunId("RUN123")).not.toThrow();
+  });
+
+  it("rejects an apostrophe", () => {
+    expect(() => validateRunId("leo's-run")).toThrow(/runId/);
+  });
+
+  it("rejects a space", () => {
+    expect(() => validateRunId("run 001")).toThrow();
+  });
+
+  it("rejects shell metacharacters", () => {
+    expect(() => validateRunId("run;rm -rf ~")).toThrow();
+    expect(() => validateRunId("run$(whoami)")).toThrow();
+  });
+
+  it("rejects the empty string", () => {
+    expect(() => validateRunId("")).toThrow();
   });
 });
 
@@ -74,47 +131,107 @@ describe("buildRsyncPush", () => {
       buildRsyncPush(RUN_ID, ["pipeline"], { ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/fab-training" }),
     ).toThrow(/\/mnt\//);
   });
+
+  it("applies the runId safe-charset guard", () => {
+    expect(() => buildRsyncPush("leo's-run", ["pipeline"], DEFAULT_DISPATCH_CONFIG)).toThrow(/runId/);
+  });
 });
 
-describe("buildTmuxLaunch — the zsh-bypass, quote-layered remote command", () => {
-  it("builds the exact ssh argv wrapping bash -lc 'tmux new-session ... \"cd ... && ... | tee run.log\"'", () => {
+describe("buildEnsureRunDir", () => {
+  it("builds the exact ssh argv for mkdir -p of the run's remote directory", () => {
+    const argv = buildEnsureRunDir(RUN_ID, DEFAULT_DISPATCH_CONFIG);
+    expect(argv).toEqual([
+      "ssh",
+      "-o",
+      "BatchMode=yes",
+      "storm590x",
+      "bash -lc 'mkdir -p ~/'\\''fab-training/run-001'\\'''",
+    ]);
+  });
+
+  it("applies the /mnt/ guard", () => {
+    expect(() => buildEnsureRunDir(RUN_ID, { ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/x" })).toThrow(/\/mnt\//);
+  });
+
+  it("applies the runId safe-charset guard", () => {
+    expect(() => buildEnsureRunDir("leo's-run", DEFAULT_DISPATCH_CONFIG)).toThrow(/runId/);
+  });
+});
+
+describe("buildTmuxLaunch — the three-shell chain, verified injection-safe", () => {
+  // Expected strings below were generated programmatically and verified by
+  // actually running them through a live zsh/tmux simulation (fake tmux +
+  // fake python executables, real zsh -c) during review round 2 — not
+  // hand-derived. See commands.ts's doc comment for the full chain
+  // explanation (remote login zsh -> bash -lc -> tmux's pane shell).
+  it("builds the exact ssh argv: bash -lc wrapping tmux new-session with -c <dir> and per-token single-quoted trainArgv", () => {
     const argv = buildTmuxLaunch(RUN_ID, ["~/.venv/bin/python3", "train.py", "--epochs", "3"], DEFAULT_DISPATCH_CONFIG);
     expect(argv).toEqual([
       "ssh",
       "-o",
       "BatchMode=yes",
       "storm590x",
-      "bash -lc 'tmux new-session -d -s fab-train-run-001 \"cd ~/fab-training/run-001 && ~/.venv/bin/python3 train.py --epochs 3 2>&1 | tee run.log\"'",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"'\\''~/.venv/bin/python3'\\'' '\\''train.py'\\'' '\\''--epochs'\\'' '\\''3'\\'' 2>&1 | tee run.log\"'",
+    ]);
+  });
+
+  it("keeps a trainArgv token containing an apostrophe and spaces as one literal argument, not shell syntax (the injection this round fixes)", () => {
+    const argv = buildTmuxLaunch(
+      RUN_ID,
+      ["~/.venv/bin/python3", "train.py", "--notes", "it's a test"],
+      DEFAULT_DISPATCH_CONFIG,
+    );
+    expect(argv).toEqual([
+      "ssh",
+      "-o",
+      "BatchMode=yes",
+      "storm590x",
+      "bash -lc 'tmux new-session -d -s '\\''fab-train-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"'\\''~/.venv/bin/python3'\\'' '\\''train.py'\\'' '\\''--notes'\\'' '\\''it'\\''\\\\'\\'''\\''s a test'\\'' 2>&1 | tee run.log\"'",
     ]);
   });
 
   it("namespaces the tmux session with the configured prefix and runId", () => {
-    const argv = buildTmuxLaunch(
-      RUN_ID,
-      ["python3", "train.py"],
-      { ...DEFAULT_DISPATCH_CONFIG, tmuxSessionPrefix: "custom-prefix" },
-    );
-    expect(argv[4]).toContain("-s custom-prefix-run-001 ");
+    const argv = buildTmuxLaunch(RUN_ID, ["python3", "train.py"], {
+      ...DEFAULT_DISPATCH_CONFIG,
+      tmuxSessionPrefix: "custom-prefix",
+    });
+    expect(argv).toEqual([
+      "ssh",
+      "-o",
+      "BatchMode=yes",
+      "storm590x",
+      "bash -lc 'tmux new-session -d -s '\\''custom-prefix-run-001'\\'' -c ~/'\\''fab-training/run-001'\\'' \"'\\''python3'\\'' '\\''train.py'\\'' 2>&1 | tee run.log\"'",
+    ]);
   });
 
   it("applies the /mnt/ guard", () => {
-    expect(() =>
-      buildTmuxLaunch(RUN_ID, ["python3"], { ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/x" }),
-    ).toThrow(/\/mnt\//);
+    expect(() => buildTmuxLaunch(RUN_ID, ["python3"], { ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/x" })).toThrow(
+      /\/mnt\//,
+    );
+  });
+
+  it("applies the runId safe-charset guard — an apostrophe in runId throws rather than being embedded", () => {
+    expect(() => buildTmuxLaunch("leo's-run", ["python3"], DEFAULT_DISPATCH_CONFIG)).toThrow(/runId/);
   });
 });
 
 describe("buildStatusProbe", () => {
-  it("builds the exact tmux has-session probe + tail -n N run.log argvs", () => {
+  it("builds the exact tmux has-session probe + tail -n N run.log argvs, session/dir single-quoted", () => {
     const probe = buildStatusProbe(RUN_ID, DEFAULT_DISPATCH_CONFIG, 50);
     expect(probe).toEqual({
-      hasSession: ["ssh", "-o", "BatchMode=yes", "storm590x", "bash -lc 'tmux has-session -t fab-train-run-001'"],
+      hasSession: [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "storm590x",
+        "bash -lc 'tmux has-session -t '\\''fab-train-run-001'\\'''",
+      ],
       tailLog: [
         "ssh",
         "-o",
         "BatchMode=yes",
         "storm590x",
-        "bash -lc 'tail -n 50 ~/fab-training/run-001/run.log'",
+        "bash -lc 'tail -n 50 ~/'\\''fab-training/run-001'\\''/run.log'",
       ],
     });
   });
@@ -126,11 +243,15 @@ describe("buildStatusProbe", () => {
 
   it("honors a custom tail line count", () => {
     const probe = buildStatusProbe(RUN_ID, DEFAULT_DISPATCH_CONFIG, 200);
-    expect(probe.tailLog[4]).toBe("bash -lc 'tail -n 200 ~/fab-training/run-001/run.log'");
+    expect(probe.tailLog[4]).toBe("bash -lc 'tail -n 200 ~/'\\''fab-training/run-001'\\''/run.log'");
   });
 
   it("applies the /mnt/ guard", () => {
     expect(() => buildStatusProbe(RUN_ID, { ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/x" })).toThrow(/\/mnt\//);
+  });
+
+  it("applies the runId safe-charset guard", () => {
+    expect(() => buildStatusProbe("leo's-run", DEFAULT_DISPATCH_CONFIG)).toThrow(/runId/);
   });
 });
 
@@ -169,6 +290,10 @@ describe("buildRsyncPull", () => {
       buildRsyncPull(RUN_ID, "artifacts", "/tmp/out", { ...DEFAULT_DISPATCH_CONFIG, remoteBase: "/mnt/f/x" }),
     ).toThrow(/\/mnt\//);
   });
+
+  it("applies the runId safe-charset guard", () => {
+    expect(() => buildRsyncPull("leo's-run", "artifacts", "/tmp/out", DEFAULT_DISPATCH_CONFIG)).toThrow(/runId/);
+  });
 });
 
 // Fake RemoteExecutor: records every argv it was called with and returns
@@ -200,20 +325,39 @@ describe("Dispatcher — constructor config validation", () => {
   });
 });
 
-describe("Dispatcher#push", () => {
-  it("runs the exact rsync-push argv and returns a structured success result", async () => {
-    const executor = new FakeExecutor([ok("sent 1024 bytes", "")]);
+describe("Dispatcher#push — mkdir -p before rsync (rsync won't create nested remote parents)", () => {
+  it("calls mkdir -p then rsync, in that order, and returns a structured success result from the rsync call", async () => {
+    const executor = new FakeExecutor([ok("", ""), ok("sent 1024 bytes", "")]);
     const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
     const result = await dispatcher.push(RUN_ID, ["pipeline"]);
-    expect(executor.calls).toEqual([buildRsyncPush(RUN_ID, ["pipeline"], DEFAULT_DISPATCH_CONFIG)]);
+    expect(executor.calls).toEqual([
+      buildEnsureRunDir(RUN_ID, DEFAULT_DISPATCH_CONFIG),
+      buildRsyncPush(RUN_ID, ["pipeline"], DEFAULT_DISPATCH_CONFIG),
+    ]);
     expect(result).toEqual({ runId: RUN_ID, code: 0, stdout: "sent 1024 bytes", stderr: "" });
   });
 
-  it("surfaces a non-zero rsync exit code as a typed DispatchError, not swallowed", async () => {
-    const executor = new FakeExecutor([{ code: 23, stdout: "", stderr: "rsync: no space left on device" }]);
+  it("surfaces a non-zero mkdir exit as a typed DispatchError and never calls rsync", async () => {
+    const executor = new FakeExecutor([
+      { code: 1, stdout: "", stderr: "mkdir: cannot create directory: Permission denied" },
+    ]);
+    const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
+    await expect(dispatcher.push(RUN_ID, ["pipeline"])).rejects.toMatchObject({
+      code: 1,
+      stderr: "mkdir: cannot create directory: Permission denied",
+    });
+    // Only one call recorded — proves rsync was never attempted after the
+    // mkdir failure (a second, unscripted executor.run call would itself
+    // throw a different, distinguishable "no scripted result" error).
+    expect(executor.calls).toEqual([buildEnsureRunDir(RUN_ID, DEFAULT_DISPATCH_CONFIG)]);
+  });
+
+  it("surfaces a non-zero rsync exit code as a typed DispatchError, not swallowed, after a successful mkdir", async () => {
+    const executor = new FakeExecutor([ok(), { code: 23, stdout: "", stderr: "rsync: no space left on device" }]);
     const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
     await expect(dispatcher.push(RUN_ID, ["pipeline"])).rejects.toBeInstanceOf(DispatchError);
-    const executor2 = new FakeExecutor([{ code: 23, stdout: "", stderr: "rsync: no space left on device" }]);
+
+    const executor2 = new FakeExecutor([ok(), { code: 23, stdout: "", stderr: "rsync: no space left on device" }]);
     const dispatcher2 = new Dispatcher(executor2, DEFAULT_DISPATCH_CONFIG);
     try {
       await dispatcher2.push(RUN_ID, ["pipeline"]);
@@ -257,16 +401,28 @@ describe("Dispatcher#launch", () => {
 });
 
 describe("Dispatcher#status", () => {
-  it("maps tmux has-session exit 0 to running and returns the log tail", async () => {
+  it("maps tmux has-session exit 0 to running and returns the log tail, with no tailError", async () => {
     const executor = new FakeExecutor([ok(), ok("line1\nline2\n")]);
     const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
     const result = await dispatcher.status(RUN_ID);
     const probe = buildStatusProbe(RUN_ID, DEFAULT_DISPATCH_CONFIG, 50);
     expect(executor.calls).toEqual([probe.hasSession, probe.tailLog]);
     expect(result).toEqual({ runId: RUN_ID, status: "running", logTail: "line1\nline2\n" });
+    expect(result.tailError).toBeUndefined();
   });
 
-  it("maps tmux has-session exit 1 + 'no session'-style stderr to finished", async () => {
+  it("maps tmux has-session exit 1 + 'no server running' (real tmux wording once the server has exited) to finished", async () => {
+    const executor = new FakeExecutor([
+      { code: 1, stdout: "", stderr: "no server running on /tmp/tmux-1000/default" },
+      ok("training complete\n"),
+    ]);
+    const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
+    const result = await dispatcher.status(RUN_ID);
+    expect(result.status).toBe("finished");
+    expect(result.logTail).toBe("training complete\n");
+  });
+
+  it("maps tmux has-session exit 1 + 'can't find session'-style stderr to finished too", async () => {
     const executor = new FakeExecutor([
       { code: 1, stdout: "", stderr: "can't find session fab-train-run-001: no such session" },
       ok("training complete\n"),
@@ -274,7 +430,6 @@ describe("Dispatcher#status", () => {
     const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
     const result = await dispatcher.status(RUN_ID);
     expect(result.status).toBe("finished");
-    expect(result.logTail).toBe("training complete\n");
   });
 
   it("maps any other exit code (e.g. ssh failure) to unknown", async () => {
@@ -287,11 +442,33 @@ describe("Dispatcher#status", () => {
     expect(result.status).toBe("unknown");
   });
 
+  it("does NOT map to finished when the no-session wording appears but the exit code isn't 1 (only tmux's own no-session exit counts)", async () => {
+    const executor = new FakeExecutor([
+      { code: 130, stdout: "", stderr: "no server running on /tmp/tmux-1000/default (via a different failure path)" },
+      ok(),
+    ]);
+    const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
+    const result = await dispatcher.status(RUN_ID);
+    expect(result.status).toBe("unknown");
+  });
+
   it("passes a custom tailLines through to the probe", async () => {
     const executor = new FakeExecutor([ok(), ok()]);
     const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
     await dispatcher.status(RUN_ID, 10);
     expect(executor.calls[1]).toEqual(buildStatusProbe(RUN_ID, DEFAULT_DISPATCH_CONFIG, 10).tailLog);
+  });
+
+  it("never throws when the tail probe fails, and surfaces the failure via tailError instead", async () => {
+    const executor = new FakeExecutor([
+      ok(),
+      { code: 1, stdout: "", stderr: "tail: cannot open 'run.log': No such file or directory" },
+    ]);
+    const dispatcher = new Dispatcher(executor, DEFAULT_DISPATCH_CONFIG);
+    const result = await dispatcher.status(RUN_ID);
+    expect(result.status).toBe("running");
+    expect(result.logTail).toBe("");
+    expect(result.tailError).toBe("tail: cannot open 'run.log': No such file or directory");
   });
 });
 
@@ -323,11 +500,28 @@ describe("dispatch/cli.ts parseArgs", () => {
   });
 
   it("parses a launch command with a config override and trailing train argv after --", () => {
-    const args = parseArgs(["launch", "--run-id", "run-001", "--host", "other-host", "--", "python3", "train.py", "--epochs", "3"]);
+    const args = parseArgs([
+      "launch",
+      "--run-id",
+      "run-001",
+      "--host",
+      "other-host",
+      "--",
+      "python3",
+      "train.py",
+      "--epochs",
+      "3",
+    ]);
     expect(args.command).toBe("launch");
     expect(args.trainArgv).toEqual(["python3", "train.py", "--epochs", "3"]);
     expect(args.config.host).toBe("other-host");
     expect(args.config.remoteBase).toBe(DEFAULT_DISPATCH_CONFIG.remoteBase);
+  });
+
+  it("has no --python-path flag — an unrecognized flag is simply not applied, config stays at defaults", () => {
+    const args = parseArgs(["launch", "--run-id", "run-001", "--python-path", "/some/path", "--", "python3"]);
+    expect(args.config).toEqual(DEFAULT_DISPATCH_CONFIG);
+    expect("pythonPath" in args.config).toBe(false);
   });
 
   it("parses a status command with a custom tail-lines flag", () => {
