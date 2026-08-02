@@ -5,14 +5,21 @@
 // §9.9 component tests: consent screen renders both sizes from manifest
 // fixtures, the cellular-warning state requires an explicit override tap,
 // and the offline state shows a wait message with no way to proceed.
+//
+// #217: every literal now flows through i18next's t() — rendered inside an
+// I18nextProvider fixed to a given locale (see renderInLocale) so the same
+// assertions run against both en and pt-BR bundles.
 
 import React from "react";
 import ReactTestRenderer, { act } from "react-test-renderer";
+import { I18nextProvider } from "react-i18next";
 import { validModelPackManifest } from "@fab/manifest-schema";
 import type { KnowledgePackManifest } from "@fab/manifest-schema";
 import { ConsentScreen } from "../ConsentScreen";
 import { deriveArtifactSizes } from "../../sizes";
 import type { ConsentGateState } from "../../types";
+import { createI18nInstance } from "../../../i18n/i18n";
+import type { Locale } from "../../../i18n/types";
 
 // BUG-202: knowledge-pack manifest now carries per-file sizeBytes directly
 // (see sizes.test.ts) instead of a caller-supplied size — a local fixture
@@ -33,11 +40,18 @@ const knowledgePackManifestFixture: KnowledgePackManifest = {
 
 const sizes = deriveArtifactSizes(validModelPackManifest, knowledgePackManifestFixture);
 
-function render(gate: ConsentGateState, onAccept = jest.fn(), onOverrideCellular = jest.fn()) {
+function render(
+  gate: ConsentGateState,
+  onAccept = jest.fn(),
+  onOverrideCellular = jest.fn(),
+  locale: Locale = "en",
+) {
   let tree: ReactTestRenderer.ReactTestRenderer;
   act(() => {
     tree = ReactTestRenderer.create(
-      <ConsentScreen gate={gate} sizes={sizes} onAccept={onAccept} onOverrideCellular={onOverrideCellular} />,
+      <I18nextProvider i18n={createI18nInstance(locale)}>
+        <ConsentScreen gate={gate} sizes={sizes} onAccept={onAccept} onOverrideCellular={onOverrideCellular} />
+      </I18nextProvider>,
     );
   });
   return { tree: tree!, onAccept, onOverrideCellular };
@@ -83,6 +97,27 @@ describe("ConsentScreen (§9.9 download consent)", () => {
     expect(() => tree.root.findByProps({ testID: "consent-waiting-for-network" })).not.toThrow();
     expect(() => tree.root.findByProps({ testID: "consent-accept" })).toThrow();
     expect(() => tree.root.findByProps({ testID: "consent-continue-on-cellular" })).toThrow();
+  });
+
+  it("renders every copy string translated in pt-BR", () => {
+    const { tree } = render({ kind: "cellular-warning" }, jest.fn(), jest.fn(), "pt-BR");
+    expect(flatten(tree.root.findByProps({ testID: "consent-total-size" }).props.children)).toContain(
+      "Total: 2.0 GB",
+    );
+    expect(flatten(tree.root.findByProps({ testID: "consent-cellular-warning" }).props.children)).toContain(
+      "dados móveis",
+    );
+    expect(flatten(tree.root.findByProps({ testID: "consent-continue-on-cellular" }).props.children)).toContain(
+      "Continuar com dados móveis",
+    );
+  });
+
+  it("shows the download-ready title and button translated in both locales", () => {
+    const enTree = render({ kind: "ready" }, jest.fn(), jest.fn(), "en").tree;
+    expect(flatten(enTree.root.findByProps({ testID: "consent-accept" }).props.children)).toContain("Download");
+
+    const ptTree = render({ kind: "ready" }, jest.fn(), jest.fn(), "pt-BR").tree;
+    expect(flatten(ptTree.root.findByProps({ testID: "consent-accept" }).props.children)).toContain("Baixar");
   });
 });
 
