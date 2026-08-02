@@ -1,0 +1,8 @@
+{"messages": [{"role": "user", "content": "What pitch value does a red card have?"}, {"role": "assistant", "content": "A red card pitches for 1 resource point."}]}
+{"messages": [{"role": "user", "content": "What pitch value does a yellow card have?"}, {"role": "assistant", "content": "A yellow card pitches for 2 resource points."}]}
+{"messages": [{"role": "user", "content": "What pitch value does a blue card have?"}, {"role": "assistant", "content": "A blue card pitches for 3 resource points."}]}
+{"messages": [{"role": "user", "content": "What does the Go again keyword do?"}, {"role": "assistant", "content": "Go again lets you keep the card in your hand instead of it going to the graveyard after it resolves or is discarded."}]}
+{"messages": [{"role": "user", "content": "How many cards does a player draw at the start of their turn?"}, {"role": "assistant", "content": "A player draws cards until their hand size equals their intellect at the start of their action phase."}]}
+{"messages": [{"role": "user", "content": "What zone does a played card go to after it resolves?"}, {"role": "assistant", "content": "A played card goes to the graveyard after it resolves, unless an effect says otherwise."}]}
+{"messages": [{"role": "user", "content": "What is a hero's life total tracked with?"}, {"role": "assistant", "content": "A hero's life total is tracked with a life counter, or life cards in paper play, starting at the hero card's printed life value."}]}
+{"messages": [{"role": "user", "content": "What keyword lets an attack hit multiple defending players?"}, {"role": "assistant", "content": "The Dominate keyword forces the defending player to block with as many cards as they are able."}]}
