@@ -231,3 +231,64 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/durable-handoff-with-expiring-consents
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T09:12:00Z'
+iteration:
+  task: BUG-199
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: briefing
+  severity: medium
+  summary: Dev agent armed a background wait and went idle mid-task without reporting;
+    orchestrator had to detect via lane inspection and re-brief
+  detail: Dev backgrounded a pnpm install with a Monitor, then stopped driving the
+    task — uncommitted test edits, zero commits, no PR, silent idle. A status-check
+    message got it moving again and the task completed cleanly first-try (approve/approve
+    round 1). Dev-brain note minted this retro (background waits don't replace driving).
+  evidence:
+  - fab-cli#199
+  - fab-cli#211
+  generalized: Dev briefs should state explicitly that backgrounding a long command
+    never ends the agent's obligation to keep driving the task, and that going idle
+    without a report is the one unacceptable state; orchestrators should treat silent
+    idle as a lane-inspection trigger, not a completion signal.
+  routing:
+    action: brain-note
+    ref: dev/background-waits-dont-replace-driving
+- category: friction
+  area: board
+  severity: low
+  summary: Orchestrator-side commits on the main branch stale the recorded gate pass,
+    forcing a full re-gate before any In-review move
+  detail: A retro brain-note commit on main invalidated the recorded gate pass; guard-board-move
+    correctly blocked the In-review move and a ~2min re-gate was needed. Expected
+    behavior under the per-primary-tree gate-pass model; the per-lane gate-pass upstream
+    item filed previously would remove this cost.
+  generalized: Under a single recorded-gate-pass-per-tree model, any orchestrator
+    bookkeeping commit invalidates the pass and costs a full re-gate before the next
+    board transition; batching bookkeeping commits until after pending board moves
+    (or a per-lane gate pass) avoids the churn.
+  routing:
+    action: brain-note
+    ref: orchestrator/bookkeeping-commits-after-board-moves
+- category: worked-well
+  area: review
+  severity: low
+  summary: Reviewer empirically verified regression tests by running them against
+    the pre-fix code, converting claimed coverage into proof
+  detail: Reviewer checked out the pre-fix module under the new test file, confirmed
+    the load-bearing tests fail there, restored to a clean tree, then approved. Second
+    consecutive PR where this caught-or-confirmed the tests' value.
+  generalized: Reviews of fix PRs are materially stronger when the reviewer runs the
+    new tests against the pre-fix code and requires the load-bearing ones to fail
+    there, rather than trusting the dev's red-phase report.
+  routing:
+    action: brain-note
+    ref: reviewer/prove-regression-tests-against-prefix-code
