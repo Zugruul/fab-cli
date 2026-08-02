@@ -274,7 +274,24 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   (distractor resistance), **and a human-authored adjudication suite** — questions and
   expected rulings transcribed from independent sources (e.g. #ask-a-judge answers, Rules
   Reprise worked examples), NOT teacher-generated, present from the first release as the
-  anti-circularity control.
+  anti-circularity control. "Adjudication-critical rules categories" (BUG-186, resolved
+  2026-08-02) is a curated subset of §7.8's chunk-grounded content, distinct from — and
+  narrower than — the "multi-card interactions" eval suite named separately in this same
+  list. An eval example qualifies only when its grounding chunk_id matches `rules/cr/**`
+  (Comprehensive Rules sections; TRP/PPG/CPG/legality are tournament procedure, not
+  adjudication) or a brain note documenting a specific card-interaction ruling
+  (`ci-`/`ruling-`/`interaction-` slug, or an `"interaction"` tag, identity-agnostic — e.g.
+  judge's `ci-*` convention, or an equivalently tagged card-vault note). Explicitly
+  EXCLUDED: Rules Reprise articles (`rules/reprise/**` — LSS's worked-example commentary,
+  not the rules text itself), undifferentiated brain rulings/strategy notes with no matching
+  slug/tag (categorize.ts's fallback bucket), lore, and keyword-definition notes
+  (`kw-*`/`"keyword"`-tagged — adjudication-relevant but already covered by this section's
+  separate exact-match "keyword definitions" suite; including them here too would
+  double-count the same content). Mechanically implemented as
+  `pipeline/src/dataset/adjudication.ts`'s `isAdjudicationCritical(chunkId, tags)`, exported
+  for APP-022's eval harness and precomputed as an `adjudicationCritical` flag on every
+  assembled dataset example (`pipeline/src/dataset/types.ts`) so the harness never has to
+  re-derive it.
 - **8.5** IF a candidate model, on any suite, (a) scores incorrect above the configured
   near-zero threshold on adjudication-critical categories, (b) scores **below the configured
   per-suite minimum-correct (coverage) floor** — so an always-abstaining model fails — or
