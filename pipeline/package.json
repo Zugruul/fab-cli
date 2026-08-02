@@ -10,7 +10,11 @@
     "test:run": "vitest run",
     "test": "vitest run",
     "gate": "npm run typecheck && npm run test:run",
-    "export": "tsx src/cli.ts"
+    "export": "tsx src/cli.ts",
+    "qa:generate": "tsx src/qa/cli.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0"
   },
   "devDependencies": {
     "@fab/manifest-schema": "workspace:*",

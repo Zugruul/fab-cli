@@ -1,0 +1,25 @@
+{
+  "teacherModel": "claude-sonnet-5",
+  "maxTokens": 2048,
+  "temperature": null,
+  "pairsPerChunk": 4,
+  "diversityInstructions": [
+    "Produce one direct factual question, one scenario/example question ('If X happens, what...'), one comparison-or-clarification question, and one terse keyword-style question — vary the phrasing across the whole set for this chunk.",
+    "Do not repeat the same sentence structure or opening words across pairs for this chunk.",
+    "Write answers as a knowledgeable judge or player would explain it to another player — clear and specific, not a verbatim copy of the chunk text.",
+    "Every answer must be fully supported by the chunk text — do not add facts, rulings, or examples the chunk does not state."
+  ],
+  "batch": {
+    "size": 20,
+    "maxConcurrent": 4,
+    "requestsPerMinute": 40
+  },
+  "cost": {
+    "_comment": "Claude Sonnet 5 intro pricing per Claude API skill (through 2026-08-31): $2/$10 per MTok input/output. Override for a different teacherModel.",
+    "inputPricePerMTok": 2.0,
+    "outputPricePerMTok": 10.0,
+    "ceilingUsd": 5.0
+  },
+  "maxRetries": 4,
+  "retryBaseDelayMs": 1000
+}
