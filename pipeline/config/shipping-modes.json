@@ -1,0 +1,8 @@
+{
+  "_comment": "SPEC-APP.md §7.10 per-source redistribution-rights shipping modes, as recorded and rationalized in docs/rights-assessment.md (APP-017). Keys are corpus snapshot manifest source names (CorpusSnapshotManifest.sources[].name). Every source the exporter produces MUST have an entry here — pipeline/src/shippingModes.ts loudly fails on a chunk whose source has no entry, rather than silently defaulting it to verbatim. Sign-off on these modes is still pending the user — see docs/rights-assessment.md's 'Awaiting user sign-off' section.",
+  "judge-brain": "verbatim",
+  "player-brain": "verbatim",
+  "card-vault-brain": "verbatim",
+  "rules-kb": "verbatim",
+  "lore": "stub"
+}
