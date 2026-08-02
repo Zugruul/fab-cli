@@ -833,3 +833,86 @@ items:
   routing:
     action: brain-note
     ref: dev/rtk-jest-wrapper-hides-failures-use-rtk-proxy
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T01:10:00Z'
+iteration:
+  task: '219'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: friction
+  area: merge
+  severity: medium
+  summary: The red-first ordering guard's file classification caused a second history
+    rewrite in one session, this time over a test-runner config file
+  detail: 'A jest.config.js change (test-infra: excluding a shared test registry from
+    testMatch) rode in the red commit and tripped the guard, requiring the same detached-worktree
+    split-and-force-push surgery as the earlier deps-chore case. The minted lesson
+    had named only deps manifests, so the dev reasonably bucketed runner config as
+    test files.
+
+    '
+  evidence:
+  - fab-cli#219
+  - fab-cli#217
+  generalized: 'A red-first ordering guard that classifies by path needs its classification
+    documented where dev briefs can quote it - "test files" should be an explicit
+    allowlist (test-path globs), with everything else, including test-runner and lint
+    config, named as implementation. Two rewrites in one session suggest the guard
+    could also simply whitelist config/deps-manifest-only commits that precede the
+    red commit.
+
+    '
+  routing:
+    action: upstream
+    ref: 'surfaced to human (2nd occurrence): red-first guard should document/whitelist
+      its file classification (development-skills plugin)'
+- category: worked-well
+  area: review
+  severity: low
+  summary: Independent recomputation of boundary-adjacent numeric claims validated
+    a gate threshold instead of trusting test assertions
+  detail: 'The reviewer hand-computed WCAG contrast for the pairs sitting closest
+    to the 4.5:1 gate (and the claimed pre-fix failures) and confirmed the author''s
+    numbers to two decimals; a crisp rule for when recomputation is worth it was minted
+    at retro.
+
+    '
+  evidence:
+  - fab-cli#219
+  generalized: 'Reviewers should hand-recompute a numeric claim only when it is boundary-adjacent
+    to a hard threshold AND no test pins the exact value; comfortable-margin values
+    are not worth the effort. Scope mutation-proofs to the narrowest runner invocation
+    rather than the full gate.
+
+    '
+  routing:
+    action: brain-note
+    ref: reviewer/recompute-numeric-claims-when-boundary-adjacent-and-untested
+- category: incident
+  area: testing
+  severity: medium
+  summary: The offline-gate invariant has only ever been verified by reading test
+    code, never by running the gate with the network actually severed
+  detail: 'Three gate-reproduction reviews in a row inferred offline-ness from code
+    inspection; nobody ran the gate under a cut network. Transitive network use (dependency
+    phoning home, DNS-resolving import) would pass unnoticed. Filed as a hardening
+    board item.
+
+    '
+  evidence:
+  - fab-cli#219
+  generalized: 'An invariant of the form "X passes with the network disabled" must
+    periodically be tested with the network genuinely disabled, not inferred from
+    code-reading - especially after dependency additions; otherwise the invariant
+    degrades into folklore.
+
+    '
+  routing:
+    action: backlog
+    ref: fab-cli#229
