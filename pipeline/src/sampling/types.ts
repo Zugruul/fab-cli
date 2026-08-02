@@ -42,27 +42,38 @@ export interface JudgeClient {
  * derived from its position within its source chunk's pairs array (pairs
  * themselves carry no id — see sampler.ts's buildWorkItems).
  *
- * ⚠️ STALENESS WARNING: `pairId` is derived from a chunk's pair *array
- * position*, not from pair content. If a chunk_id's pairs are regenerated
- * (re-running `qa:generate` for that chunk after an edit to its source
- * text, a re-tuned prompt, etc.), the new pairs at the same indices reuse
- * the SAME pairIds as before. Sampling progress (progress.json's
- * acceptedIds/rejectedIds) is keyed purely by pairId, so `runSampling`
- * will treat those new pairs as "already checked" and silently apply the
- * STALE verdict from the old content — it never re-checks them. Before
- * re-running `qa:generate` for a chunk that's already been sampled, you
- * MUST manually clear that chunk_id's entries from sampling progress.json
- * (and from accepted.jsonl/rejected.jsonl) yourself; there is no
- * automatic guard against this in the code as of APP-012 — an automatic
- * "detect stale pairId reuse" guard is tracked separately as issue #180
- * and intentionally NOT implemented here. */
+ * ⚠️ STALENESS GUARD (BUG-180): `pairId` is derived from a chunk's pair
+ * *array position*, not from pair content. If a chunk_id's pairs are
+ * regenerated (re-running `qa:generate` for that chunk after an edit to
+ * its source text, a re-tuned prompt, etc.), the new pairs at the same
+ * indices reuse the SAME pairIds as before — a plain pairId-keyed resume
+ * would treat those new pairs as "already checked" and silently apply the
+ * OLD verdict to the NEW content. `pairContentHash` (below) is the
+ * automatic guard against exactly that: `runSampling` compares each
+ * already-recorded pairId's stored hash (progress.json's
+ * `contentHashes`) against the current work item's hash on every run — a
+ * mismatch means the content changed underneath that pairId, so the pair
+ * is treated as NOT done and reprocessed rather than silently honored
+ * (see sampler.ts's staleness-reconciliation pass and its
+ * `staleReprocessedCount`/`legacyUnverifiedCount` result fields for how
+ * this is surfaced). Progress files written before this guard existed
+ * carry no hash at all; those pairIds are honored as done-as-recorded
+ * ONCE (there's no baseline to compare against yet) and their hash is
+ * backfilled so a later resume can actually guard them. */
 export interface WorkItem {
   /** `${chunk_id}#${index}` — stable ONLY as long as qa-pairs.jsonl's
    * per-chunk pair content at that index doesn't change; see the
-   * STALENESS WARNING on this interface. */
+   * STALENESS GUARD note on this interface for how a change is detected
+   * via `pairContentHash` instead of silently ignored. */
   pairId: string;
   chunk_id: string;
   pair: QAPair;
+  /** SHA-256 hex digest (first 16 chars) of `pair.question` +
+   * `pair.answer`, computed by sampler.ts's `computePairContentHash` —
+   * the fingerprint the STALENESS GUARD compares against progress.json's
+   * `contentHashes` to detect a regenerated pair reusing an existing
+   * pairId. */
+  pairContentHash: string;
 }
 
 export type PairSamplingStatus = "accepted" | "rejected";
@@ -149,6 +160,15 @@ export interface SamplingProgressState {
   rejectedIds: string[];
   costUsd: number;
   requestCount: number;
+  /** BUG-180 guard: pairId -> pairContentHash recorded the last time that
+   * pairId was actually checked (or, for a legacy record honored once
+   * without reprocessing, backfilled from its current content — see
+   * sampler.ts's staleness-reconciliation pass in runSampling). Optional/
+   * absent for progress files written before this guard existed — those
+   * pairIds are "legacy": honored as done-as-recorded once, with no
+   * baseline to detect staleness against, until this backfill gives them
+   * one. */
+  contentHashes?: Record<string, string>;
 }
 
 export interface DryRunPlanEntry {
@@ -166,6 +186,18 @@ export interface SamplingRunResult {
   stoppedEarly: { reason: "cost-ceiling" } | null;
   /** Present only for dryRun: what would have been sent for every pair. */
   dryRunPlan?: DryRunPlanEntry[];
+  /** BUG-180 guard: count of pairIds whose progress-recorded content hash
+   * didn't match this run's work-item content — reprocessed rather than
+   * silently honored with the stale verdict (see WorkItem's STALENESS
+   * GUARD doc). 0 for dry runs, which never touch progress. */
+  staleReprocessedCount: number;
+  /** BUG-180 guard: count of pairIds honored as done-as-recorded because
+   * their progress entry predates this guard (no hash to compare
+   * against). Each is backfilled with its current content hash this run,
+   * so it won't be counted here again on a later resume — surfaced so
+   * this one-time backward-compat pass-through is visible, never silent.
+   * 0 for dry runs. */
+  legacyUnverifiedCount: number;
 }
 
 export type { Chunk, QAPair };
