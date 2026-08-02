@@ -3,6 +3,7 @@ import {
   validateModelPackManifest,
   validModelPackManifest,
   invalidModelPackManifestMissingLicenseId,
+  invalidModelPackManifestBadLicenseId,
 } from "../src/index.js";
 
 describe("ModelPackManifest schema", () => {
@@ -46,5 +47,47 @@ describe("ModelPackManifest schema", () => {
     };
     const result = validateModelPackManifest(bad);
     expect(result.success).toBe(false);
+  });
+
+  it("rejects a placeholder licenseId ('TODO'), with a precise error path", () => {
+    const bad = {
+      ...validModelPackManifest,
+      artifacts: [{ ...validModelPackManifest.artifacts[0], licenseId: "TODO" }],
+    };
+    const result = validateModelPackManifest(bad);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "artifacts.0.licenseId")).toBe(true);
+    }
+  });
+
+  it("rejects a prose licenseId ('see LICENSE file'), with a precise error path", () => {
+    const bad = {
+      ...validModelPackManifest,
+      artifacts: [{ ...validModelPackManifest.artifacts[0], licenseId: "see LICENSE file" }],
+    };
+    const result = validateModelPackManifest(bad);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "artifacts.0.licenseId")).toBe(true);
+    }
+  });
+
+  it("accepts real SPDX license identifiers (MIT, Apache-2.0, GPL-3.0-only)", () => {
+    for (const licenseId of ["MIT", "Apache-2.0", "GPL-3.0-only"]) {
+      const ok = {
+        ...validModelPackManifest,
+        artifacts: [{ ...validModelPackManifest.artifacts[0], licenseId }],
+      };
+      expect(validateModelPackManifest(ok).success, licenseId).toBe(true);
+    }
+  });
+
+  it("rejects the exported invalid-licenseId fixture, with a precise error path", () => {
+    const result = validateModelPackManifest(invalidModelPackManifestBadLicenseId);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "artifacts.0.licenseId")).toBe(true);
+    }
   });
 });
