@@ -292,3 +292,49 @@ items:
   routing:
     action: brain-note
     ref: reviewer/prove-regression-tests-against-prefix-code
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T09:35:00Z'
+iteration:
+  task: BUG-202
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: briefing
+  severity: low
+  summary: Dev agent completed all work correctly but went idle without sending its
+    report, despite an explicit anti-idle instruction in the brief
+  detail: Second occurrence in consecutive iterations (first was mid-task; this one
+    post-completion, report-only). Lane inspection showed everything delivered (commits,
+    push, PR), so cost was one inspection round. The dev-brain note minted last iteration
+    targets exactly this; if it recurs after recall surfaces it in briefs, escalate
+    to an upstream plugin item about subagent completion-reporting.
+  evidence:
+  - fab-cli#202
+  - fab-cli#212
+  generalized: A brief-level instruction against silent idling reduced the failure
+    from lost-work to lost-report, but did not eliminate it; completion reporting
+    may need a harness-level guarantee (e.g. a mandatory final-message contract for
+    task agents) rather than prompt-level reminders alone.
+  routing:
+    action: brain-note
+    ref: dev/background-waits-dont-replace-driving
+- category: worked-well
+  area: testing
+  severity: low
+  summary: Central spread-based fixtures let a required schema field land with zero
+    changes to downstream suites
+  detail: All knowledge-pack manifest consumers spread the canonical valid fixture,
+    so adding required per-file sizeBytes only touched the fixture and its deliberately-invalid
+    variants. Minted as a dev-brain note this retro.
+  generalized: Keeping one canonical valid fixture that all suites spread (overriding
+    only the axis under test) makes required-field schema additions ripple-free; hand-rolled
+    manifest literals each become a breakage site during schema evolution.
+  routing:
+    action: brain-note
+    ref: dev/spread-canonical-fixtures-for-schema-evolution
