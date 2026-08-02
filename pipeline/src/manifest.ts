@@ -156,6 +156,12 @@ export function readLegalityPolicyFetchedAt(kbRulesDir: string): string {
 
 export interface BuildManifestOptions {
   chunks: Chunk[];
+  /** The §7.10-enforced, shipped chunk set (stub-mode sources' text
+   * replaced) — what `chunks.jsonl` actually carries. Feeds
+   * `shippedContentHash`, kept distinct from `chunks` (the full-text set
+   * that feeds `contentHash`) so a shipping-mode flip is observable in the
+   * manifest without perturbing the corpus-identity hash. */
+  shippedChunks: Chunk[];
   versionsTxtPath: string;
   setJsonPath: string;
   kbRulesDir: string;
@@ -172,6 +178,7 @@ export function buildManifest(opts: BuildManifestOptions): CorpusSnapshotManifes
     schemaVersion: SCHEMA_VERSION,
     exportDate: now(),
     contentHash: contentHash(opts.chunks),
+    shippedContentHash: contentHash(opts.shippedChunks),
     chunkCount: opts.chunks.length,
     crVersion: versions?.crVersion ?? "unknown",
     documentVersions: versions?.documentVersions ?? [],
