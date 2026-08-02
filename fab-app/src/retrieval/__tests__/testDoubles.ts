@@ -80,6 +80,7 @@ export class LinearScanVectorStore implements SqliteVecStore {
 function hashToken(token: string): number {
   let hash = 0;
   for (let i = 0; i < token.length; i++) {
+    // eslint-disable-next-line no-bitwise -- int32 overflow wrap, intrinsic to this hash
     hash = (hash * 31 + token.charCodeAt(i)) | 0;
   }
   return Math.abs(hash);

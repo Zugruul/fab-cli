@@ -18,6 +18,9 @@ import { HashingBagOfWordsEmbedder, InMemoryChunkCorpus, LinearScanVectorStore }
  * latency is measured separately via APP-024's device-benchmark protocol.
  */
 
+// Bit-twiddling is intrinsic to this well-known PRNG algorithm, not a style
+// choice — disabled for the whole function rather than sprinkled per line.
+/* eslint-disable no-bitwise */
 function mulberry32(seed: number): () => number {
   let a = seed;
   return () => {
@@ -28,6 +31,7 @@ function mulberry32(seed: number): () => number {
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 }
+/* eslint-enable no-bitwise */
 
 const TAGS = [
   "dominate",
@@ -115,7 +119,6 @@ describe("RetrievalEngine perf (§9.7 acceptance: p95 < 50ms on a 6.4k-chunk fix
     const p95Index = Math.min(latenciesMs.length - 1, Math.ceil(0.95 * latenciesMs.length) - 1);
     const p95 = latenciesMs[p95Index];
 
-    // eslint-disable-next-line no-console
     console.log(`[perf] RetrievalEngine.query p95 over ${N} runs on ${CHUNK_COUNT} chunks: ${p95.toFixed(2)}ms`);
 
     expect(p95).toBeLessThan(50);
