@@ -206,25 +206,27 @@ for lore instead of real prose unless they're repointed at `out/chunks-fulltext.
 repointing is real follow-up work for a later task — flagged here so it isn't lost, not silently
 fixed by editing those lanes' source under this task.
 
-## Awaiting user sign-off
+## User sign-off — RECORDED 2026-08-02
 
-**None of the shipping-mode outcomes above are approved yet.** This document records an
-assessment; it does not constitute sign-off. Specifically pending the user's explicit decision:
+**All four items below were signed off by the user in-session on 2026-08-02** (recorded
+verbatim on issue #126). The shipping modes in the table are now cleared-for-release
+decisions, no longer best-effort defaults.
 
-1. Whether fab-app/fab-cli's publisher counts as a "commercial entity" under LSS's Terms of Use
-   "Third Party Applications" clause — affects (a) and (b) above.
-2. Whether the "Rules Enforcement Applications" / "card database" Service App categories in
-   LSS's Terms of Use are read as covering verbatim rules-document text and card ability text
-   (not just images/assets) — affects (a) and (b).
-3. Whether to pursue outreach to Nathan Eastwood (legendarystories.net's author) for lore-text
-   permission, or leave lore at stub mode indefinitely — affects (d).
-4. Sign-off on the mode table itself:
+1. Commercial-entity question — user: "Not a problem. Already covered."
+2. Service-App categories covering rules/card text — user: "Other platforms do
+   carddatabase. that is allowed."
+3. Nathan Eastwood / lore outreach — user: "His license for what he did is free. We dont
+   need to worry on LSS as well. Just do correct attribution of sources and ownership."
+   → No outreach required. **Attribution of sources and ownership is a release
+   requirement across all shipped corpus content.**
+4. Mode table — user: "I signoff on all of those":
 
-   | Source | Mode | Pending? |
+   | Source | Mode | Status |
    |---|---|---|
-   | `judge-brain` / `player-brain` / `card-vault-brain` (own-authored notes) | verbatim | sign-off pending |
-   | `rules-kb` (CR/TRP/PPG/CPG) | verbatim | sign-off pending |
-   | `lore` (legendarystories.net) | stub | sign-off pending |
+   | `judge-brain` / `player-brain` / `card-vault-brain` (own-authored notes) | verbatim | signed off 2026-08-02 |
+   | `rules-kb` (CR/TRP/PPG/CPG) | verbatim | signed off 2026-08-02 |
+   | `lore` (legendarystories.net) | stub | signed off 2026-08-02 |
 
-Until the user signs off, treat every mode above as the pipeline's current best-effort default,
-not a cleared-for-release decision.
+Open follow-up (non-blocking, decided separately if wanted): per answer 3 the lore license
+permits use with attribution, so flipping lore from stub to verbatim-with-attribution is
+available via a future spec delta; the signed table keeps lore = stub until such a decision.
