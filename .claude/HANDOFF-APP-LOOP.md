@@ -1,72 +1,62 @@
-# HANDOFF — FAB companion app build loop (sessions 01EysHtmuW6BJUFuJf5smDbE → 703017a7, 2026-08-02)
+# HANDOFF — FAB companion app build loop (session 703017a7 close, 2026-08-02 ~21:45Z)
 
-## Mission
-Autonomous build loop (`/loop /spec-workflow:build-next — APP-* tasks only`) executing SPEC-APP.md.
-This handoff supersedes the previous one entirely; .claude/SESSION-STATE.md was the mid-flight
-scratch note and is superseded by this file.
+Authoritative resume doc for `/loop /spec-workflow:build-next — APP-* tasks only`.
+Supersedes all prior versions of this file.
 
-## Board state at close (session 703017a7)
-- **Closed this session, all Deployed with full chains + telemetry + retros:**
-  #191 (PR #207 shippedContentHash), #198 (PR #206 link-weight clamp — round-2 fix closed a
-  negative-weight amplification hole), #199 (PR #211 clearFallback wiring), #202 (PR #212
-  knowledge-pack sizeBytes), #208 (PR #213 storm590x dispatch layer — 3 review rounds, real-machine
-  smoked), #209 (PR #214 scripts-python 120s timeout), #210 (PR #215 perf p95 retry-once).
-- **The board has ZERO unblocked tasks left.** Everything remaining is human-gated:
-  1. **#126 rights-assessment sign-off** (docs/rights-assessment.md, 4 items) — holds E1 at QA,
-     which blocks ALL of E2 (APP-020..024 training tasks).
-  2. **ANTHROPIC_API_KEY** for teacher QA-generation runs (dataset for APP-020).
-  3. **#144 APP-036 TestFlight** — 4-step Apple action list posted on the issue.
-  4. ~~storm590x python3.12-dev~~ RESOLVED 2026-08-02 ~11:50Z — user installed it; the
-     slm-training:sft smoke then passed END-TO-END on the 5090 (2-step QLoRA, adapters +
-     train-summary.json round-tripped). Payload fix landed en route: save_strategy=no
-     (unsloth-patched trl config classes crash torch.save at checkpoint time). Details #132.
+## Board state at close
+- **Deployed this session (all with full chains, telemetry, retros):** #191, #198, #199,
+  #202, #208 (storm590x dispatch lib), #209 + #210 (both gate-flake fixes — false exit-1s
+  under load are gone), **#132 APP-020** (PR #216: training runner, real-5090 AC run, first
+  committed run records at pipeline/training-runs/ac-tiny-sft-0620/), **#133 APP-021**
+  (PR #220: export chain — GGUF+checksums+licensed manifests real-machine-proven; llama.cpp
+  smoke code hermetically tested but blocked on env bug #221), **#126** (rights assessment
+  SIGNED OFF by user — four answers recorded verbatim on the issue + docs/rights-assessment.md;
+  attribution-of-sources is a release requirement; lore stays stub, flip-to-verbatim available
+  via future delta). **E1 complete → E2 open.**
+- **Queue (P1):** #217 i18n en+pt-BR (user HALTED a just-started attempt — zero code landed,
+  back in Backlog; full requirement spec in issue comments), #218 automated a11y in gate,
+  #219 dark/light theme (system default) — all three are user directives with scoped comments
+  and need SPEC-APP deltas; #221 (llama-cli bug, full 3-build diagnostic on issue);
+  #134 APP-022 eval harness; #144 APP-036 TestFlight — **fully credentialed**: app
+  "FaB Collections", bundle id io.fabcollections, Apple ID 6797303392, App Store Connect API
+  key at ~/.appstoreconnect/private/AuthKey_4ZCWK2K2RT.p8 (ids on issue #144).
+- **Human gates remaining:** ANTHROPIC_API_KEY (teacher QA dataset — needed for real E2
+  datasets, NOT for fixture-based ACs); pt-BR consent-screen review when #217 lands;
+  TestFlight app on the two test iPhones before APP-036's first build.
 
-## slm-training capability bundle (user directive, this session)
-- Generic, project-agnostic bundle at development-skills
-  `plugins/spec-workflow/scripts/remote-capabilities/slm-training/` (capability.yaml +
-  gpu_check/train/export_gguf/eval_suite payloads; ONE config file drives every job).
-  Committed there as 0106afc on `feat/524-neural-network-compute` (ANOTHER AGENT'S branch —
-  never stash/switch/rebase there; commit was surgical; NOT pushed, their call).
-- Hermetic tests added to section-remote-compute.sh (job roster, hostile-param refusal,
-  payload project-agnosticism, engine training-domain-free); plugin gate.sh PASS recorded.
-- storm590x: bundle INSTALLED; `slm-training:gpu-check` AND `slm-training:sft` both verified
-  green END-TO-END on the real machine (gpu-check artifact round-trip; sft: real 2-step QLoRA
-  on the 5090, loss 2.412→2.399, adapters+tokenizer+train-summary.json pulled back). The
-  training dispatch rail is fully proven.
-- storm590x ENABLED for this repo (gitignored .claude/project.local.yaml overlay, role training).
-- Contract recorded on #132 + memory note `slm-training-capability-bundle.md`: APP-020+ training
-  dispatches via `slm-training:*` jobs; project specifics live in pipeline/ configs; extending
-  needs = extend the bundle's config surface in development-skills (agnosticism test-enforced).
-- UPSTREAM BUG flagged (routed upstream in feedback): engine documents `{jobdir}` as a supplied
-  placeholder but never substitutes it; comfyui's manifest depends on it (literal `{jobdir}`
-  reaches the shell). slm-training payload reads $COMPUTE_JOB_DIR instead. The other agent was
-  actively editing remote-compute.py at session close — may already be fixing it.
-- fab-cli's own `pipeline/src/dispatch` (#208) is the lower-level in-repo library; the bundle is
-  the preferred loop/operator path.
+## Rails (all verified live this session)
+- **slm-training capability bundle** (development-skills repo, on ITS main): gpu-check / sft /
+  export-gguf / eval jobs, config-file-driven, project-agnostic (test-enforced). storm590x
+  registered + enabled for this repo (gitignored .claude/project.local.yaml). PATHS MIGRATED
+  by the other agent: registry ~/.remote-compute/, remote jobs ~/.remote-compute/jobs/<id>/,
+  caps ~/.remote-compute/caps/<name>/; {capdir}/{jobdir} are now genuinely engine-substituted.
+- **pipeline CLIs:** `npm run train` / `npm run export-model` (run/resume/status; state.json per
+  transition; committed manifests; cuda/driver REQUIRED on run — read from
+  ~/.remote-compute/resources.yaml). REMOTE_COMPUTE_PY env var → engine path.
+- **New-machine runbook:** /remote-compute-setup skill + README preflight section (cloneable
+  URLs only, $DS pattern). storm590x env: torch 2.11.0+cu128/sm_120, unsloth 2026.7.6,
+  python3.12-dev installed, llama.cpp builds at ~/llama.cpp (CPU) — but see #221.
+- **Adapters for export tests:** remote ~/.remote-compute/jobs/slmsft4/adapters (post-migration).
 
-## Process state
-- Auto-merge consent was granted for session 703017a7 ("Yes, this session") — EXPIRED at close;
-  a fresh session must re-ask via AskUserQuestion before its first autonomous merge.
-- Gate flakes FIXED this session: scripts-python 120s per-test timeout (#209), perf p95
-  retry-once (#210) — false gate exit-1s under concurrent lane load should be gone.
-- Retros #33/#34 marked. Notes minted this session: dev/clamp-untrusted-numeric-domain,
-  dev/background-waits-dont-replace-driving, dev/spread-canonical-fixtures-for-schema-evolution,
-  dev/quoting-vs-expansion-tradeoff, reviewer/prove-regression-tests-against-prefix-code,
-  orchestrator/bookkeeping-commits-after-board-moves, orchestrator/real-target-smoke-before-merge
-  (2 reinforcement outcomes recorded on the last two).
-- Upstream items surfaced to human: per-lane gate-pass (prev session), idle-notification/report
-  delivery race, {jobdir} placeholder bug.
-- Known agent quirk: task agents sometimes go idle before/without their report (twice a race,
-  once a real stall) — treat silent idle as lane-inspection trigger, not completion.
-- Working-tree dirt rules unchanged (never stage .claude brain events/VERSIONS.txt/AGENTS.md;
-  stash dance for project.yaml on branch switches). project.local.yaml is new gitignored state.
+## Process contracts (unchanged + new lessons)
+- Auto-merge consent is PER-SESSION — re-ask via AskUserQuestion before the first merge.
+- Red-first first commit (test files only); one-status-at-a-time board moves; labeled review
+  passes recorded before QA; re-gate after ANY main commit (do bookkeeping AFTER board moves);
+  estimates set at close; verify agents' claims yourself (red purity, independent gate).
+- REAL-TARGET SMOKE before merging any remote-execution surface (5 bugs caught only that way
+  this session); reviews of new code use scratch-copy MUTATION testing; proportional review
+  depth for tiny diffs; bounded-diagnosis-then-file for third-party infra failures.
+- Agents may go idle before/without reports (race or stall) — inspect the lane, don't assume.
+  SHUT DOWN teammates at segment end (a /clear preserves the roster; ghosts deadlock goal
+  hooks — exact names from ~/.claude/teams/session-<id>/config.json).
+- development-skills is SHARED with another active agent: surgical path-scoped commits on the
+  current branch only, never push, never stash/switch/rebase there.
+- Working-tree dirt rules: never stage .claude brain events/VERSIONS.txt/AGENTS.md; stash
+  dance for .claude/project.yaml on branch switches.
 
 ## How to resume
-1. Ask the human for items 1-4 above (order of leverage: #126 + API key unblock the whole
-   training epic; python3.12-dev is 30 seconds; Apple can wait).
-2. When #126 signs off: E1 → Deployed, `board.sh next` starts yielding APP-020..024.
-3. APP-020 flow: author configs/datasets in pipeline/ (teacher runs need the API key) →
-   dispatch via slm-training:* on storm590x → artifacts back via job-pull.
-4. Loop contracts: red-first first commit (test files only), one-status-at-a-time board moves,
-   labeled review passes before QA, re-gate after any main commit (bookkeeping AFTER moves),
-   verify agents' claims yourself, real-target smoke before merging remote-execution surfaces.
+1. `board.sh next` → likely #217/#218/#219 (user requirements; each needs a SPEC-APP delta,
+   read the issue comments first) or #134 APP-022; #144 APP-036 is unblocked when picked.
+2. E2 training beyond fixtures waits on ANTHROPIC_API_KEY → then teacher dataset → real
+   SFT/DPO runs via the proven rails.
+3. #221 before any task that needs the export smoke green on storm590x.
