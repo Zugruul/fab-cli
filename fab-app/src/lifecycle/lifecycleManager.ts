@@ -144,11 +144,45 @@ export class LifecycleManager {
     // release must never lose more than a resumed generation regenerates;
     // marker-first (release-before-save) would turn that into permanent
     // silent loss.
+    //
+    // Both calls are independently try/caught rather than left to propagate:
+    // a throw here used to escape releaseInternal entirely, wedging state at
+    // "releasing" forever (this method's own guard above requires
+    // state === "loaded" to run again) and leaking the native context
+    // (release() was never reached). Losing the session is recoverable —
+    // the next load just starts fresh; leaking the context is not, and
+    // defeats the whole point of this method (Jetsam avoidance). So: always
+    // attempt both, always null the handle and land on "released"
+    // (retryable) no matter what either call did, and record what actually
+    // happened instead of swallowing it.
     const handle = this.handle;
-    await handle.saveSession(this.opts.sessionPath);
-    await handle.release();
+    let saveError: string | undefined;
+    try {
+      await handle.saveSession(this.opts.sessionPath);
+    } catch (err) {
+      saveError = describeError(err);
+    }
+
+    let releaseError: string | undefined;
+    try {
+      await handle.release();
+    } catch (err) {
+      // Second-order failure: the native release call itself threw. Still
+      // must not wedge — drop our reference (best effort; the native side
+      // may or may not have actually freed anything) and record it.
+      releaseError = describeError(err);
+    }
+
     this.handle = null;
-    await this.transition("released", signal, forcedAfterTimeout ? { forcedAfterTimeout: true } : undefined);
+
+    const details: Record<string, unknown> = {};
+    if (forcedAfterTimeout) details.forcedAfterTimeout = true;
+    if (saveError !== undefined) details.saveFailed = true;
+    if (releaseError !== undefined) details.releaseFailed = true;
+    const combinedError = [saveError, releaseError].filter((e): e is string => e !== undefined).join("; ");
+    if (combinedError) details.error = combinedError;
+
+    await this.transition("released", signal, Object.keys(details).length > 0 ? details : undefined);
   }
 
   private async transition(
@@ -166,4 +200,8 @@ export class LifecycleManager {
       ...(details ? { details } : {}),
     });
   }
+}
+
+function describeError(err: unknown): string {
+  return err instanceof Error ? err.message : String(err);
 }
