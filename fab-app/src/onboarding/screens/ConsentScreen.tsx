@@ -1,5 +1,6 @@
 import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import type { ArtifactSizes, ConsentGateState } from "../types";
 import { formatBytes } from "../sizes";
 
@@ -18,41 +19,44 @@ export interface ConsentScreenProps {
  * state to a view, it never re-derives network/consent logic itself.
  */
 export function ConsentScreen({ gate, sizes, onAccept, onOverrideCellular }: ConsentScreenProps): React.JSX.Element {
+  const { t } = useTranslation();
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>Download FAB knowledge & model</Text>
+        <Text style={styles.title}>{t("onboarding.consent.title")}</Text>
 
         <View testID="consent-sizes">
           <Text style={styles.row} testID="consent-model-pack-size">
-            Model pack: {formatBytes(sizes.modelPackBytes)}
+            {t("onboarding.consent.modelPackSize", { size: formatBytes(sizes.modelPackBytes) })}
           </Text>
           <Text style={styles.row} testID="consent-knowledge-pack-size">
-            Knowledge pack: {formatBytes(sizes.knowledgePackBytes)}
+            {t("onboarding.consent.knowledgePackSize", { size: formatBytes(sizes.knowledgePackBytes) })}
           </Text>
           <Text style={styles.row} testID="consent-total-size">
-            Total: {formatBytes(sizes.totalBytes)}
+            {t("onboarding.consent.totalSize", { size: formatBytes(sizes.totalBytes) })}
           </Text>
         </View>
 
         {gate.kind === "waiting-for-network" && (
           <Text style={styles.notice} testID="consent-waiting-for-network">
-            No connection — waiting for Wi-Fi or cellular to download.
+            {t("onboarding.consent.waitingForNetwork")}
           </Text>
         )}
 
         {gate.kind === "cellular-warning" && (
           <View testID="consent-cellular-warning">
-            <Text style={styles.notice}>You&apos;re on cellular. We recommend Wi-Fi for this download.</Text>
+            <Text style={styles.notice} testID="consent-cellular-warning-text">
+              {t("onboarding.consent.cellularWarning")}
+            </Text>
             <TouchableOpacity testID="consent-continue-on-cellular" onPress={onOverrideCellular}>
-              <Text style={styles.button}>Continue on Cellular</Text>
+              <Text style={styles.button}>{t("onboarding.consent.continueOnCellular")}</Text>
             </TouchableOpacity>
           </View>
         )}
 
         {gate.kind === "ready" && (
           <TouchableOpacity testID="consent-accept" onPress={onAccept}>
-            <Text style={styles.button}>Download</Text>
+            <Text style={styles.button}>{t("onboarding.consent.download")}</Text>
           </TouchableOpacity>
         )}
       </ScrollView>

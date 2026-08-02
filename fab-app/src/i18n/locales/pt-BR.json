@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "language": {
+      "title": "Idioma",
+      "system": "Sistema",
+      "en": "Inglês",
+      "pt-BR": "Português (Brasil)"
+    }
+  },
+  "onboarding": {
+    "consent": {
+      "title": "Baixar conhecimento e modelo do FAB",
+      "modelPackSize": "Pacote do modelo: {{size}}",
+      "knowledgePackSize": "Pacote de conhecimento: {{size}}",
+      "totalSize": "Total: {{size}}",
+      "waitingForNetwork": "Sem conexão — aguardando Wi-Fi ou dados móveis para baixar.",
+      "cellularWarning": "Você está usando dados móveis. Recomendamos Wi-Fi para este download.",
+      "continueOnCellular": "Continuar com dados móveis",
+      "download": "Baixar"
+    },
+    "featureGate": {
+      "notReady": "{{feature}} ainda não está pronto"
+    },
+    "progress": {
+      "title": "Baixando",
+      "pause": "Pausar",
+      "resume": "Retomar",
+      "retry": "Tentar novamente",
+      "status": {
+        "queued": "Na fila",
+        "downloadingWithTotal": "Baixando {{downloaded}} / {{total}}",
+        "downloadingUnknownTotal": "Baixando {{downloaded}}",
+        "paused": "Pausado em {{downloaded}}",
+        "verifying": "Verificando…",
+        "installed": "Instalado",
+        "failed": "Falhou"
+      }
+    }
+  },
+  "screens": {
+    "provenance": {
+      "title": "Conhecimento",
+      "knowledgeUpTo": "conhecimento até: {{set}}",
+      "crVersion": "CR {{version}}",
+      "legalityAsOf": "legalidade em {{date}}"
+    }
+  },
+  "smoke": {
+    "title": "Teste de fumaça do dispositivo fab-app",
+    "summarySettled": "{{ok}}/4 módulos nativos ok, {{error}}/4 falharam",
+    "summaryChecking": "verificando {{pending}}/4 módulos nativos…",
+    "runChecksAgain": "Executar verificações novamente",
+    "deviceRunNote": "Execução no dispositivo: teste manual pendente via pipeline TestFlight do APP-036.",
+    "modules": {
+      "llama": "llama.rn",
+      "sqlite": "op-sqlite (sqlite-vec)",
+      "camera": "vision-camera",
+      "tflite": "fast-tflite"
+    },
+    "status": {
+      "idle": "OCIOSO",
+      "checking": "VERIFICANDO",
+      "ok": "OK",
+      "error": "ERRO"
+    }
+  }
+}

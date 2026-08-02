@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {useTranslation} from 'react-i18next';
 
 import type {ProvenanceState} from '../provenance';
 
@@ -22,20 +23,23 @@ export interface ProvenanceScreenProps {
 export function ProvenanceScreen({
   provenance,
 }: ProvenanceScreenProps): React.JSX.Element {
+  const {t} = useTranslation();
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>Knowledge</Text>
+        <Text style={styles.title} testID="provenance-title">
+          {t('screens.provenance.title')}
+        </Text>
         {provenance.status === 'ready' ? (
           <View testID="provenance-ready">
             <Text style={styles.row} testID="provenance-latest-set">
-              knowledge up to: {provenance.latestSet}
+              {t('screens.provenance.knowledgeUpTo', {set: provenance.latestSet})}
             </Text>
             <Text style={styles.row} testID="provenance-cr-version">
-              CR {provenance.crVersion}
+              {t('screens.provenance.crVersion', {version: provenance.crVersion})}
             </Text>
             <Text style={styles.row} testID="provenance-legality-as-of">
-              legality as of {provenance.legalityAsOf}
+              {t('screens.provenance.legalityAsOf', {date: provenance.legalityAsOf})}
             </Text>
           </View>
         ) : (

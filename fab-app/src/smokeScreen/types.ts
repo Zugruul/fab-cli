@@ -22,9 +22,6 @@ export type SmokeAction =
   | { type: 'CHECK_ERROR'; module: ModuleId; detail: string }
   | { type: 'RESET' };
 
-export const MODULE_LABELS: Record<ModuleId, string> = {
-  llama: 'llama.rn',
-  sqlite: 'op-sqlite (sqlite-vec)',
-  camera: 'vision-camera',
-  tflite: 'fast-tflite',
-};
+// Module display labels moved to the i18n bundles (#217 —
+// src/i18n/locales/{en,pt-BR}.json's smoke.modules.<id>); SmokeScreen.tsx
+// looks them up via t() instead of this constant.

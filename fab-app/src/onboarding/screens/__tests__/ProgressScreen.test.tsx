@@ -6,26 +6,43 @@
 // exposes the pause/resume/retry control appropriate to each status —
 // never more than one control at a time, and a visible error message on
 // failure.
+//
+// #217: status text and control labels flow through i18next; `labels`
+// (per-artifact display names, e.g. "Model pack") and `errorMessage` are
+// caller-supplied/already-derived data, not this component's own UI copy,
+// so they stay as-is across locales.
 
 import React from "react";
 import ReactTestRenderer, { act } from "react-test-renderer";
+import { Text } from "react-native";
+import { I18nextProvider } from "react-i18next";
 import { ProgressScreen } from "../ProgressScreen";
 import { initialProgressState } from "../../progressReducer";
+import { formatBytes } from "../../sizes";
 import type { ProgressState } from "../../types";
+import { createI18nInstance } from "../../../i18n/i18n";
+import { LOCALE_BUNDLES, SUPPORTED_LOCALES } from "../../../i18n/locales";
+import type { Locale } from "../../../i18n/types";
 
 const labels = { "model-pack": "Model pack", "knowledge-pack": "Knowledge pack" } as const;
 
-function render(progress: ProgressState, handlers = { onPause: jest.fn(), onResume: jest.fn(), onRetry: jest.fn() }) {
+function render(
+  progress: ProgressState,
+  handlers = { onPause: jest.fn(), onResume: jest.fn(), onRetry: jest.fn() },
+  locale: Locale = "en",
+) {
   let tree: ReactTestRenderer.ReactTestRenderer;
   act(() => {
     tree = ReactTestRenderer.create(
-      <ProgressScreen
-        progress={progress}
-        labels={labels}
-        onPause={handlers.onPause}
-        onResume={handlers.onResume}
-        onRetry={handlers.onRetry}
-      />,
+      <I18nextProvider i18n={createI18nInstance(locale)}>
+        <ProgressScreen
+          progress={progress}
+          labels={labels}
+          onPause={handlers.onPause}
+          onResume={handlers.onResume}
+          onRetry={handlers.onRetry}
+        />
+      </I18nextProvider>,
     );
   });
   return { tree: tree!, ...handlers };
@@ -91,6 +108,48 @@ describe("ProgressScreen (§9.9 progress with pause/resume/retry)", () => {
       tree.root.findByProps({ testID: "progress-retry-knowledge-pack" }).props.onPress();
     });
     expect(onRetry).toHaveBeenCalledTimes(1);
+  });
+
+  // #217: parametrized over every registered locale — asserted against
+  // that locale's own bundle templates, not hardcoded translated strings.
+  describe.each(SUPPORTED_LOCALES)("translated copy in %s", locale => {
+    const bundle = LOCALE_BUNDLES[locale];
+
+    it("renders the downloading status text and pause control using that locale's text", () => {
+      const state = {
+        ...initialProgressState(),
+        "model-pack": { status: "downloading" as const, bytesDownloaded: 400, totalBytes: 1000 },
+      };
+      const { tree } = render(state, undefined, locale);
+      const expectedStatus = bundle.onboarding.progress.status.downloadingWithTotal
+        .replace("{{downloaded}}", formatBytes(400))
+        .replace("{{total}}", formatBytes(1000));
+      expect(tree.root.findByProps({ testID: "progress-status-model-pack" }).props.children).toBe(expectedStatus);
+      expect(
+        flatten(tree.root.findByProps({ testID: "progress-pause-model-pack" }).findByType(Text).props.children),
+      ).toBe(bundle.onboarding.progress.pause);
+    });
+
+    it("renders the failed state's retry control using that locale's text, error message unchanged", () => {
+      const state = {
+        ...initialProgressState(),
+        "knowledge-pack": {
+          status: "failed" as const,
+          bytesDownloaded: 200,
+          totalBytes: 500,
+          errorKind: "other" as const,
+          errorMessage: "connection dropped",
+        },
+      };
+      const { tree } = render(state, undefined, locale);
+      expect(
+        flatten(tree.root.findByProps({ testID: "progress-retry-knowledge-pack" }).findByType(Text).props.children),
+      ).toBe(bundle.onboarding.progress.retry);
+      // errorMessage is already-derived data, not this component's copy — unchanged across locales.
+      expect(flatten(tree.root.findByProps({ testID: "progress-error-knowledge-pack" }).props.children)).toContain(
+        "connection dropped",
+      );
+    });
   });
 });
 

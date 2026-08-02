@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "language": {
+      "title": "Language",
+      "system": "System",
+      "en": "English",
+      "pt-BR": "Português (Brasil)"
+    }
+  },
+  "onboarding": {
+    "consent": {
+      "title": "Download FAB knowledge & model",
+      "modelPackSize": "Model pack: {{size}}",
+      "knowledgePackSize": "Knowledge pack: {{size}}",
+      "totalSize": "Total: {{size}}",
+      "waitingForNetwork": "No connection — waiting for Wi-Fi or cellular to download.",
+      "cellularWarning": "You're on cellular. We recommend Wi-Fi for this download.",
+      "continueOnCellular": "Continue on Cellular",
+      "download": "Download"
+    },
+    "featureGate": {
+      "notReady": "{{feature}} isn't ready yet"
+    },
+    "progress": {
+      "title": "Downloading",
+      "pause": "Pause",
+      "resume": "Resume",
+      "retry": "Retry",
+      "status": {
+        "queued": "Queued",
+        "downloadingWithTotal": "Downloading {{downloaded}} / {{total}}",
+        "downloadingUnknownTotal": "Downloading {{downloaded}}",
+        "paused": "Paused at {{downloaded}}",
+        "verifying": "Verifying…",
+        "installed": "Installed",
+        "failed": "Failed"
+      }
+    }
+  },
+  "screens": {
+    "provenance": {
+      "title": "Knowledge",
+      "knowledgeUpTo": "knowledge up to: {{set}}",
+      "crVersion": "CR {{version}}",
+      "legalityAsOf": "legality as of {{date}}"
+    }
+  },
+  "smoke": {
+    "title": "fab-app device smoke test",
+    "summarySettled": "{{ok}}/4 native modules ok, {{error}}/4 failed",
+    "summaryChecking": "checking {{pending}}/4 native modules…",
+    "runChecksAgain": "Run checks again",
+    "deviceRunNote": "Device run: pending human device test via the APP-036 TestFlight pipeline.",
+    "modules": {
+      "llama": "llama.rn",
+      "sqlite": "op-sqlite (sqlite-vec)",
+      "camera": "vision-camera",
+      "tflite": "fast-tflite"
+    },
+    "status": {
+      "idle": "IDLE",
+      "checking": "CHECKING",
+      "ok": "OK",
+      "error": "ERROR"
+    }
+  }
+}

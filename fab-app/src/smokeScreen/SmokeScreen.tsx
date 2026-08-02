@@ -11,11 +11,13 @@ import {
   useCameraDevices,
   useCameraPermission,
 } from 'react-native-vision-camera';
+import { useTranslation } from 'react-i18next';
+import type { TFunction } from 'i18next';
 
 import { checkLlama, checkSqlite, checkTflite } from './checks';
-import { initialSmokeState, smokeReducer } from './reducer';
+import { MODULE_IDS, initialSmokeState, smokeReducer } from './reducer';
 import { summarizeSmokeState } from './summary';
-import { MODULE_LABELS, type ModuleId, type SmokeAction } from './types';
+import type { ModuleId, ModuleStatus, SmokeAction } from './types';
 
 /**
  * Device smoke screen (APP-030 / SPEC-APP.md §9.1). Exercises the four
@@ -31,6 +33,7 @@ import { MODULE_LABELS, type ModuleId, type SmokeAction } from './types';
  * (release-gating, manual/scripted)") — it is not part of the merge gate.
  */
 export function SmokeScreen(): React.JSX.Element {
+  const { t } = useTranslation();
   const [state, dispatch] = useReducer(
     smokeReducer,
     undefined,
@@ -47,17 +50,19 @@ export function SmokeScreen(): React.JSX.Element {
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>fab-app device smoke test</Text>
-        <Text style={styles.subtitle}>
-          {summary.allSettled
-            ? `${summary.okCount}/4 native modules ok, ${summary.errorCount}/4 failed`
-            : `checking ${summary.pendingCount}/4 native modules…`}
+        <Text style={styles.title} testID="smoke-title">
+          {t('smoke.title')}
         </Text>
-        {(Object.keys(MODULE_LABELS) as ModuleId[]).map(id => (
+        <Text style={styles.subtitle} testID="smoke-summary">
+          {summary.allSettled
+            ? t('smoke.summarySettled', { ok: summary.okCount, error: summary.errorCount })
+            : t('smoke.summaryChecking', { pending: summary.pendingCount })}
+        </Text>
+        {MODULE_IDS.map(id => (
           <View key={id} style={styles.row} testID={`smoke-row-${id}`}>
-            <Text style={styles.rowLabel}>{MODULE_LABELS[id]}</Text>
+            <Text style={styles.rowLabel}>{t(`smoke.modules.${id}`)}</Text>
             <Text style={[styles.rowStatus, statusStyles[state[id].status]]}>
-              {state[id].status.toUpperCase()}
+              {statusLabel(t, state[id].status)}
             </Text>
             {state[id].detail ? (
               <Text style={styles.rowDetail}>{state[id].detail}</Text>
@@ -65,17 +70,21 @@ export function SmokeScreen(): React.JSX.Element {
           </View>
         ))}
         <Button
-          title="Run checks again"
+          testID="smoke-run-checks"
+          title={t('smoke.runChecksAgain')}
           onPress={() => setRunId(id => id + 1)}
           disabled={!summary.allSettled}
         />
-        <Text style={styles.note}>
-          Device run: pending human device test via the APP-036 TestFlight
-          pipeline.
+        <Text style={styles.note} testID="smoke-note">
+          {t('smoke.deviceRunNote')}
         </Text>
       </ScrollView>
     </SafeAreaView>
   );
+}
+
+function statusLabel(t: TFunction, status: ModuleStatus): string {
+  return t(`smoke.status.${status}`);
 }
 
 function useModuleCheck(

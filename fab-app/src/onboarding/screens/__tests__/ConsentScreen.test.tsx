@@ -5,14 +5,23 @@
 // §9.9 component tests: consent screen renders both sizes from manifest
 // fixtures, the cellular-warning state requires an explicit override tap,
 // and the offline state shows a wait message with no way to proceed.
+//
+// #217: every literal now flows through i18next's t() — rendered inside an
+// I18nextProvider fixed to a given locale (see renderInLocale) so the same
+// assertions run against both en and pt-BR bundles.
 
 import React from "react";
 import ReactTestRenderer, { act } from "react-test-renderer";
+import { Text } from "react-native";
+import { I18nextProvider } from "react-i18next";
 import { validModelPackManifest } from "@fab/manifest-schema";
 import type { KnowledgePackManifest } from "@fab/manifest-schema";
 import { ConsentScreen } from "../ConsentScreen";
 import { deriveArtifactSizes } from "../../sizes";
 import type { ConsentGateState } from "../../types";
+import { createI18nInstance } from "../../../i18n/i18n";
+import { LOCALE_BUNDLES, SUPPORTED_LOCALES } from "../../../i18n/locales";
+import type { Locale } from "../../../i18n/types";
 
 // BUG-202: knowledge-pack manifest now carries per-file sizeBytes directly
 // (see sizes.test.ts) instead of a caller-supplied size — a local fixture
@@ -33,11 +42,18 @@ const knowledgePackManifestFixture: KnowledgePackManifest = {
 
 const sizes = deriveArtifactSizes(validModelPackManifest, knowledgePackManifestFixture);
 
-function render(gate: ConsentGateState, onAccept = jest.fn(), onOverrideCellular = jest.fn()) {
+function render(
+  gate: ConsentGateState,
+  onAccept = jest.fn(),
+  onOverrideCellular = jest.fn(),
+  locale: Locale = "en",
+) {
   let tree: ReactTestRenderer.ReactTestRenderer;
   act(() => {
     tree = ReactTestRenderer.create(
-      <ConsentScreen gate={gate} sizes={sizes} onAccept={onAccept} onOverrideCellular={onOverrideCellular} />,
+      <I18nextProvider i18n={createI18nInstance(locale)}>
+        <ConsentScreen gate={gate} sizes={sizes} onAccept={onAccept} onOverrideCellular={onOverrideCellular} />
+      </I18nextProvider>,
     );
   });
   return { tree: tree!, onAccept, onOverrideCellular };
@@ -83,6 +99,37 @@ describe("ConsentScreen (§9.9 download consent)", () => {
     expect(() => tree.root.findByProps({ testID: "consent-waiting-for-network" })).not.toThrow();
     expect(() => tree.root.findByProps({ testID: "consent-accept" })).toThrow();
     expect(() => tree.root.findByProps({ testID: "consent-continue-on-cellular" })).toThrow();
+  });
+
+  // #217: parametrized over every registered locale (SUPPORTED_LOCALES) —
+  // asserted against that locale's own bundle content (LOCALE_BUNDLES),
+  // not a hardcoded translated string, so adding a future locale to the
+  // registry is covered automatically with no change to this file.
+  describe.each(SUPPORTED_LOCALES)("translated copy in %s", locale => {
+    const bundle = LOCALE_BUNDLES[locale];
+
+    it("renders the total size using that locale's template", () => {
+      const { tree } = render({ kind: "ready" }, jest.fn(), jest.fn(), locale);
+      const expected = bundle.onboarding.consent.totalSize.replace("{{size}}", "2.0 GB");
+      expect(flatten(tree.root.findByProps({ testID: "consent-total-size" }).props.children)).toBe(expected);
+    });
+
+    it("renders the cellular warning and its override button using that locale's text", () => {
+      const { tree } = render({ kind: "cellular-warning" }, jest.fn(), jest.fn(), locale);
+      expect(flatten(tree.root.findByProps({ testID: "consent-cellular-warning-text" }).props.children)).toBe(
+        bundle.onboarding.consent.cellularWarning,
+      );
+      expect(
+        flatten(tree.root.findByProps({ testID: "consent-continue-on-cellular" }).findByType(Text).props.children),
+      ).toBe(bundle.onboarding.consent.continueOnCellular);
+    });
+
+    it("renders the download-ready button using that locale's text", () => {
+      const { tree } = render({ kind: "ready" }, jest.fn(), jest.fn(), locale);
+      expect(flatten(tree.root.findByProps({ testID: "consent-accept" }).findByType(Text).props.children)).toBe(
+        bundle.onboarding.consent.download,
+      );
+    });
   });
 });
 
