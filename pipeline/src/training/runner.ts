@@ -75,6 +75,44 @@ function hashArtifactFiles(adaptersDir: string): ArtifactFile[] {
   return files;
 }
 
+/** §8.1 requires CUDA/driver versions in the environment capture — never
+ * silently null. Enforced here (the single dispatch entry point) rather
+ * than only at the CLI layer, so any caller of run() — not just the CLI —
+ * is stopped before opts.dispatcher is ever touched. resume() deliberately
+ * does NOT call this: a resumed run's environment was already captured (or
+ * will be honestly recorded as whatever opts.environment carries) at pull/
+ * manifest time, and resume must stay usable for recovery even when a
+ * fresh cuda/driver probe isn't at hand. */
+function requireCudaDriver(opts: RunnerOptions): void {
+  const { cuda, driver } = opts.environment.cudaDriver;
+  if (cuda == null || driver == null) {
+    throw new Error(
+      "run() refuses to dispatch without real CUDA/driver versions (SPEC-APP.md §8.1: " +
+        "the training-environment capture must record CUDA/driver, never silently null) — " +
+        `got cuda=${cuda ?? "null"} driver=${driver ?? "null"}. Get real values from ` +
+        "remote-compute.py's registry probe for the resource (capabilities.gpu.{cuda,driver}) " +
+        "or `nvidia-smi --query-gpu=driver_version,name --format=csv,noheader` run on the resource itself, " +
+        "then pass them as opts.environment.cudaDriver (the CLI's --cuda/--driver flags).",
+    );
+  }
+}
+
+/** Idempotent manifest write: reuses an existing manifest.json if one is
+ * already on disk (a prior run/resume already built it), otherwise builds
+ * and writes one now. Mirrors finishCompleted's pull-then-manifest pattern
+ * for the failed path too, so a crash between the failed state.json write
+ * and the failed manifest.json write is recoverable via resume() instead
+ * of leaving that run permanently manifest-less (§13 Invariant 7: every
+ * run — including failed ones — ships its manifest). */
+function ensureManifest(opts: RunnerOptions, runId: string, state: RunState, status: "completed" | "failed"): TrainingRunManifest {
+  const runDir = runDirFor(opts, runId);
+  const existing = readManifestIfPresent(runDir);
+  if (existing) return existing;
+  const manifest = buildManifest(opts, runId, state.spec, state, status);
+  writeJson(path.join(runDir, "manifest.json"), manifest);
+  return manifest;
+}
+
 function buildManifest(opts: RunnerOptions, runId: string, spec: TrainingRunSpec, state: RunState, status: "completed" | "failed"): TrainingRunManifest {
   const runDir = runDirFor(opts, runId);
   const resolved = resolveHyperparams(spec);
@@ -153,6 +191,8 @@ async function pollAndFinish(opts: RunnerOptions, runId: string, initialState: R
  * state.json write, call resume(runId, opts) later to continue.
  */
 export async function run(spec: TrainingRunSpec, runId: string, opts: RunnerOptions): Promise<RunResult> {
+  requireCudaDriver(opts);
+
   const runDir = runDirFor(opts, runId);
   const config = buildTrainingConfig(spec);
   writeJson(path.join(runDir, "config.json"), config);
@@ -192,7 +232,7 @@ export async function resume(runId: string, opts: RunnerOptions): Promise<RunRes
     return { runId, state, manifest: readManifestIfPresent(runDir) };
   }
   if (state.status === "failed") {
-    return { runId, state, manifest: readManifestIfPresent(runDir) };
+    return { runId, state, manifest: ensureManifest(opts, runId, state, "failed") };
   }
   if (state.status === "completed") {
     return finishCompleted(opts, runId, state);

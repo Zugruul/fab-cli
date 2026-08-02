@@ -140,6 +140,23 @@ export function parseArgs(argv: string[]): CliArgs {
   const seed = Number(flags["seed"]);
   const capabilityJob = flags["capability-job"] ?? `slm-training:${stage}`;
 
+  // §8.1: CUDA/driver versions must be recorded in the environment capture,
+  // never silently null. Refused here — before any dispatcher is even
+  // constructed in main() — so a run without real values never reaches
+  // runner.run() (which independently refuses too; this is the fail-fast
+  // CLI-layer copy of that same guard). `resume` does NOT require these:
+  // it inherits the original run's captured values and must stay usable
+  // for recovery even without a fresh cuda/driver probe at hand.
+  if (cuda === null || driver === null) {
+    throw new Error(
+      "--cuda and --driver are both required for `run` (SPEC-APP.md §8.1: CUDA/driver versions " +
+        `must be recorded, never silently null) — got --cuda=${cuda ?? "(missing)"} --driver=${driver ?? "(missing)"}. ` +
+        "Get real values from remote-compute.py's registry probe for the resource " +
+        "(reads capabilities.gpu.{cuda,driver}) or `nvidia-smi --query-gpu=driver_version,name " +
+        "--format=csv,noheader` run on the resource itself.",
+    );
+  }
+
   const args: RunArgs = {
     command: "run",
     runId,
