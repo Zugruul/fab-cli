@@ -48,14 +48,18 @@ export function ConsentScreen({ gate, sizes, onAccept, onOverrideCellular }: Con
             <Text style={styles.notice} testID="consent-cellular-warning-text">
               {t("onboarding.consent.cellularWarning")}
             </Text>
-            <TouchableOpacity testID="consent-continue-on-cellular" onPress={onOverrideCellular}>
+            <TouchableOpacity
+              testID="consent-continue-on-cellular"
+              accessibilityRole="button"
+              onPress={onOverrideCellular}
+            >
               <Text style={styles.button}>{t("onboarding.consent.continueOnCellular")}</Text>
             </TouchableOpacity>
           </View>
         )}
 
         {gate.kind === "ready" && (
-          <TouchableOpacity testID="consent-accept" onPress={onAccept}>
+          <TouchableOpacity testID="consent-accept" accessibilityRole="button" onPress={onAccept}>
             <Text style={styles.button}>{t("onboarding.consent.download")}</Text>
           </TouchableOpacity>
         )}

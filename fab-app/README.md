@@ -134,6 +134,50 @@ and `react-test-renderer`, which is what this repo's screen tests already use.
   before release — a named release gate (like the §9.10 TestFlight pipeline), not something the
   merge gate substitutes for.
 
+## Accessibility
+
+`src/a11y/` (#218, `../SPEC-APP.md` §9.12) gate-enforces that every interactive element in shipped
+UI is usable by VoiceOver/TalkBack — the same "structurally impossible to merge, not just review-
+caught" pattern §9.11 established for untranslated strings, generic over whatever screens/elements
+currently exist rather than a hardcoded per-screen list:
+
+- **Lint**: `.eslintrc.js`'s `plugin:react-native-a11y/basic` override, scoped to `App.tsx` +
+  `src/**/*.tsx` and excluding test files (mirrors the #217 no-hardcoded-literals override's
+  scoping — fixture elements in tests are sample data, not shipped UI). `basic` (not
+  `ios`/`android`/`all`) was chosen because it's the WCAG-informed core common to both platforms
+  (accessible name, role, hint, actions, state, value, no nested touchables) without pulling in
+  platform-specific extras this app doesn't need yet (e.g. `ios`'s
+  `accessibilityIgnoresInvertColors` rule, which only applies once a screen has an `<Image>`) —
+  those can be added incrementally once a screen actually needs them, rather than forcing
+  preemptive props on elements that don't exist. Exercised end to end by
+  `src/a11y/__tests__/a11yLintGate.test.ts`, which runs the project's real ESLint config against
+  fixtures (mirrors `noHardcodedJsxLiterals.test.ts`).
+- **Runtime tree walk**: `src/a11y/assertAccessibleTree.ts` walks a rendered
+  `react-test-renderer` tree for every interactive RN primitive (`Touchable*`, `Pressable`,
+  `Switch`, `TextInput`) and asserts each has a resolvable accessible name (an explicit
+  `accessibilityLabel`, resolved nested `Text` content, or — `TextInput` only — its `placeholder`)
+  and, where RN doesn't already guarantee one structurally (`Switch` defaults its role; bare
+  `Touchable*`/`Pressable` do not), an explicit `accessibilityRole`/`role`. RN's own `<Button>`
+  needs no special case — it always composes into a `Touchable` the walker already checks (see
+  the module's top comment for why). `src/a11y/__tests__/screens.a11y.test.tsx` applies this to
+  every current screen (ConsentScreen, FeatureGate, ProgressScreen, ProvenanceScreen, SmokeScreen,
+  LanguageSwitcher) across every registered locale, via a small registration table — adding a
+  future screen only means adding an entry there, never new check logic. The walker's own
+  correctness (both directions — passes wired elements, flags unwired ones) is proven by
+  `src/a11y/__tests__/assertAccessibleTree.test.tsx`.
+- **Audit findings fixed by this task**: `ConsentScreen`'s two `TouchableOpacity` controls and
+  `ProgressScreen`'s pause/resume/retry controls had no `accessibilityRole` at all;
+  `LanguageSwitcher`'s per-option rows had `accessibilityState` but no role (now `"radio"`,
+  matching their existing selected-state semantics). `SmokeScreen`'s `Button`, `FeatureGate`, and
+  `ProvenanceScreen` needed no changes — `Button` composes into an already-compliant `Touchable`,
+  and the other two have no interactive elements of their own.
+- **What this can't check**: automated tree/lint checks can't verify what a real screen reader
+  actually announces, in what order, or Dynamic Type/font-scale layout survival. See
+  `docs/a11y-manual-qa.md` for the manual VoiceOver/TalkBack device-QA checklist (per current
+  screen) — a named human release gate consumed by APP-036's TestFlight device QA, the same way
+  §9.11's consent-text translation review is a human release gate the merge gate doesn't
+  substitute for.
+
 ## Testing
 
 `npm run test` runs Jest with all four native packages replaced by hand-written stubs
