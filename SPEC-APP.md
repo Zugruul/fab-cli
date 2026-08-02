@@ -167,11 +167,14 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   step, git submodules resolve under `fab-cli/third_party/`, and the full existing gate passes
   green in the new layout.
 - **6.3** THE SYSTEM SHALL move the FAB knowledge brains (judge, player, card-vault, including
-  the shared kw-* keyword corpus and its symlinks) to root `.claude/identities/` while
-  dev-side brains (dev, reviewer, orchestrator, talishar, assistant) remain with the
-  subproject they serve; scripts whose relative paths the move breaks (`keyword-sync.py`,
-  `backfill-entities.py`, entity-index tooling) SHALL be updated in the same change, and
-  `python3 <path>/keyword-sync.py check` SHALL pass after the move.
+  the shared kw-* keyword corpus and its symlinks) to root `.claude/identities/`; dev-side
+  brains (dev, reviewer, orchestrator, talishar, assistant) SHALL likewise remain at the
+  monorepo root's `.claude/identities/` rather than relocating under any individual package,
+  since they serve the monorepo-level build loop (single board, single orchestrator) rather
+  than one subproject; scripts whose relative paths the move breaks (`keyword-sync.py`,
+  `backfill-entities.py`, `build-card-vault.py`, entity-index tooling) SHALL be updated in the
+  same change, and `python3 fab-cli/scripts/keyword-sync.py check` SHALL pass when invoked from
+  the monorepo root after the move.
 - **6.4** THE SYSTEM SHALL keep a single GitHub Project board: `.claude/project.yaml` stays at
   root with existing `specs[]` entries' `specPath`/`backlogPath` updated to `fab-cli/`-
   prefixed paths, and `board.sh config` SHALL validate.
