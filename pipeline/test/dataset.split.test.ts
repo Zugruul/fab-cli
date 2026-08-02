@@ -9,6 +9,7 @@ function qaEx(id: string, chunk_id: string, category: UnsplitDatasetExample["cat
   return {
     id,
     category,
+    adjudicationCritical: false,
     exampleType: "qa",
     chunkId: chunk_id,
     payload: { id, chunk_id, question: "q?", answer: "a.", cited_chunk_ids: [chunk_id], entailmentChecked: true },
@@ -19,6 +20,7 @@ function abstentionEx(id: string, sourceChunkId: string): UnsplitDatasetExample 
   return {
     id,
     category: "abstention",
+    adjudicationCritical: false,
     exampleType: "abstention",
     chunkId: sourceChunkId,
     payload: {
@@ -36,6 +38,7 @@ function oodEx(id: string): UnsplitDatasetExample {
   return {
     id,
     category: "ood",
+    adjudicationCritical: false,
     exampleType: "ood",
     chunkId: null,
     payload: { id, category: "ood", style: "sports", question: "q?", target: { answer: "no", citation_ids: [], confidence: "high" } },

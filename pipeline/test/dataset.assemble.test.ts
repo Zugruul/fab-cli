@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { assembleDataset, type AssembleDatasetOptions } from "../src/dataset/assemble.js";
 import { checkLeakage } from "../src/dataset/leakage.js";
 import {
+  makeChunk,
   makeChunks,
   makeLegalityChunk,
   makePairsRecord,
@@ -122,6 +123,41 @@ describe("assembleDataset", () => {
     const ood = result.examples.find((e) => e.exampleType === "ood")!;
     expect(ood.category).toBe("ood");
     expect(ood.chunkId).toBeNull();
+  });
+
+  it("records adjudicationCritical (BUG-186, §8.4) on assembled examples: true for CR/ci- grounded ones, false otherwise", () => {
+    const crChunk = makeChunk({ chunk_id: "rules/cr/8.3.1", tags: ["cr", "rules"] });
+    const ciChunk = makeChunk({ chunk_id: "brain/judge/ci-steal-is-gain-control", tags: [] });
+    const kwChunk = makeChunk({ chunk_id: "brain/card-vault/kw-dominate", tags: ["keyword"] });
+    const chunks = [crChunk, ciChunk, kwChunk];
+
+    const result = assembleDataset(
+      baseOptions({
+        chunks,
+        qaPairRecords: chunks.map((c) => makePairsRecord(c.chunk_id, 1)),
+        distractorExamples: [makeDistractorExample(ciChunk.chunk_id, 0)],
+        dpoPairs: [makeDPOPair(crChunk.chunk_id, 0)],
+        abstentionExamples: [makeAbstentionExample(crChunk.chunk_id, 0)],
+        oodExamples: [makeOODExample("sports", 0)],
+      }),
+    );
+
+    const byChunk = (id: string) => result.examples.filter((e) => e.chunkId === id);
+    expect(byChunk(crChunk.chunk_id).filter((e) => e.exampleType === "qa").every((e) => e.adjudicationCritical)).toBe(true);
+    expect(byChunk(ciChunk.chunk_id).filter((e) => e.exampleType === "qa").every((e) => e.adjudicationCritical)).toBe(true);
+    expect(byChunk(kwChunk.chunk_id).filter((e) => e.exampleType === "qa").every((e) => e.adjudicationCritical)).toBe(false);
+
+    const distractor = result.examples.find((e) => e.exampleType === "distractor")!;
+    expect(distractor.adjudicationCritical).toBe(true); // grounded in ci- chunk
+
+    const dpo = result.examples.find((e) => e.exampleType === "dpo")!;
+    expect(dpo.adjudicationCritical).toBe(true); // grounded in CR chunk
+
+    const abstention = result.examples.find((e) => e.exampleType === "abstention")!;
+    expect(abstention.adjudicationCritical).toBe(false); // no answer-grounding chunk
+
+    const ood = result.examples.find((e) => e.exampleType === "ood")!;
+    expect(ood.adjudicationCritical).toBe(false); // no chunk at all
   });
 
   it("builds a QA-only dataset gracefully when every behavior artifact is absent, with a note explaining why", () => {

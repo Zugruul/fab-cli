@@ -4,6 +4,7 @@ import type { SampledRecord } from "../sampling/store.js";
 import { isLegalityChunk } from "../behavior/legality.js";
 import type { DistractorExample, AbstentionExample, OODExample, DPOPair } from "../behavior/types.js";
 import { categorizeChunk } from "./categorize.js";
+import { isAdjudicationCritical } from "./adjudication.js";
 import { assignSplits, type SplitConfig } from "./split.js";
 import { checkLeakage } from "./leakage.js";
 import type { DatasetExample, QAExample, UnsplitDatasetExample } from "./types.js";
@@ -135,7 +136,14 @@ export function assembleDataset(opts: AssembleDatasetOptions): AssembleDatasetRe
 
   for (const qa of qaExamples) {
     const chunk = chunksById.get(qa.chunk_id)!;
-    unsplit.push({ id: qa.id, category: categorizeChunk(chunk), exampleType: "qa", chunkId: qa.chunk_id, payload: qa });
+    unsplit.push({
+      id: qa.id,
+      category: categorizeChunk(chunk),
+      adjudicationCritical: isAdjudicationCritical(chunk.chunk_id, chunk.tags),
+      exampleType: "qa",
+      chunkId: qa.chunk_id,
+      payload: qa,
+    });
   }
 
   for (const d of [...opts.distractorExamples].sort(byId)) {
@@ -144,7 +152,14 @@ export function assembleDataset(opts: AssembleDatasetOptions): AssembleDatasetRe
       notes.push(`distractor example ${d.id}: source chunk ${d.chunk_id} not found in exported chunk set — skipped`);
       continue;
     }
-    unsplit.push({ id: d.id, category: categorizeChunk(chunk), exampleType: "distractor", chunkId: d.chunk_id, payload: d });
+    unsplit.push({
+      id: d.id,
+      category: categorizeChunk(chunk),
+      adjudicationCritical: isAdjudicationCritical(chunk.chunk_id, chunk.tags),
+      exampleType: "distractor",
+      chunkId: d.chunk_id,
+      payload: d,
+    });
   }
 
   for (const p of [...opts.dpoPairs].sort(byId)) {
@@ -154,15 +169,24 @@ export function assembleDataset(opts: AssembleDatasetOptions): AssembleDatasetRe
       continue;
     }
     if (isLegalityChunk(chunk)) continue; // §7.9, defense-in-depth (behavior/dpo.ts already excludes these)
-    unsplit.push({ id: p.id, category: categorizeChunk(chunk), exampleType: "dpo", chunkId: p.chunk_id, payload: p });
+    unsplit.push({
+      id: p.id,
+      category: categorizeChunk(chunk),
+      adjudicationCritical: isAdjudicationCritical(chunk.chunk_id, chunk.tags),
+      exampleType: "dpo",
+      chunkId: p.chunk_id,
+      payload: p,
+    });
   }
 
   for (const a of [...opts.abstentionExamples].sort(byId)) {
-    unsplit.push({ id: a.id, category: "abstention", exampleType: "abstention", chunkId: a.sourceChunkId, payload: a });
+    // No answer-grounding chunk (sourceChunkId is audit-only — see types.ts's
+    // DISJOINT_CATEGORIES doc), so never adjudication-critical.
+    unsplit.push({ id: a.id, category: "abstention", adjudicationCritical: false, exampleType: "abstention", chunkId: a.sourceChunkId, payload: a });
   }
 
   for (const o of [...opts.oodExamples].sort(byId)) {
-    unsplit.push({ id: o.id, category: "ood", exampleType: "ood", chunkId: null, payload: o });
+    unsplit.push({ id: o.id, category: "ood", adjudicationCritical: false, exampleType: "ood", chunkId: null, payload: o });
   }
 
   if (
