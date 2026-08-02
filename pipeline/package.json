@@ -13,6 +13,7 @@
     "export": "tsx src/cli.ts"
   },
   "devDependencies": {
+    "@fab/manifest-schema": "workspace:*",
     "@types/node": "^25.6.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
