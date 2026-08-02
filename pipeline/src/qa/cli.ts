@@ -29,9 +29,14 @@ interface CliArgs {
   costCeilingUsd: number | null;
 }
 
-function parseArgs(argv: string[]): CliArgs {
+export function parseArgs(argv: string[]): CliArgs {
   const args: CliArgs = {
-    chunksPath: path.join(import.meta.dirname, "..", "..", "out", "chunks.jsonl"),
+    // BUG-190: chunks-fulltext.jsonl, not chunks.jsonl — the exporter (per
+    // docs/rights-assessment.md §7.10) stubs stub-mode sources' (e.g. lore)
+    // text in chunks.jsonl, which is the shipped/retrieval artifact, not a
+    // safe source for teacher-generated training data. chunks-fulltext.jsonl
+    // is the parallel, always-full-text output meant for exactly this.
+    chunksPath: path.join(import.meta.dirname, "..", "..", "out", "chunks-fulltext.jsonl"),
     configPath: path.join(import.meta.dirname, "..", "..", "config", "qa-generation.json"),
     outDir: path.join(import.meta.dirname, "..", "..", "out", "qa"),
     dryRun: false,
@@ -50,8 +55,33 @@ function parseArgs(argv: string[]): CliArgs {
   return args;
 }
 
-function loadChunks(chunksPath: string): Chunk[] {
-  const raw = fs.readFileSync(chunksPath, "utf8");
+/** Error thrown when chunksPath doesn't exist. Deliberately NOT a silent
+ * fallback to a sibling chunks.jsonl — that file's stub-mode sources (e.g.
+ * lore) carry only STUB_TEXT_MARKER text (see shippingModes.ts), so a
+ * silent fallback would regenerate training data against the stub marker
+ * instead of real prose, invisibly. Loud failure forces a deliberate
+ * re-export instead. */
+function chunksFullTextMissingError(chunksPath: string): Error {
+  return new Error(
+    `${chunksPath}: not found.\n\n` +
+      "qa:generate reads chunks-fulltext.jsonl (the exporter's parallel, always-full-text output), " +
+      "not chunks.jsonl — chunks.jsonl carries only a stub marker for stub-mode sources like lore " +
+      "(see docs/rights-assessment.md §7.10), and silently falling back to it here would generate " +
+      "training pairs against that stub marker instead of real source prose. Re-run the exporter " +
+      "(`npm run export` from pipeline/, or `pnpm --filter @fab/pipeline run export` from the repo " +
+      "root) to produce chunks-fulltext.jsonl, or pass --chunks <path> to point at an existing " +
+      "fulltext chunk file explicitly.",
+  );
+}
+
+export function loadChunks(chunksPath: string): Chunk[] {
+  let raw: string;
+  try {
+    raw = fs.readFileSync(chunksPath, "utf8");
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") throw chunksFullTextMissingError(chunksPath);
+    throw err;
+  }
   return raw
     .split("\n")
     .map((line) => line.trim())
@@ -136,7 +166,11 @@ async function main(): Promise<void> {
   console.log(`manifest -> ${manifestPath}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exitCode = 1;
-});
+// Guarded so importing this module (e.g. from tests, to exercise parseArgs/
+// loadChunks in isolation) never triggers a real run as a side effect.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+  });
+}

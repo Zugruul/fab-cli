@@ -35,10 +35,12 @@ interface CliArgs {
   outDir: string;
 }
 
-function parseArgs(argv: string[]): CliArgs {
+export function parseArgs(argv: string[]): CliArgs {
   const base = path.join(import.meta.dirname, "..", "..");
   const args: CliArgs = {
-    chunksPath: path.join(base, "out", "chunks.jsonl"),
+    // BUG-190: chunks-fulltext.jsonl, not chunks.jsonl — see qa/cli.ts's
+    // parseArgs doc comment for the full rationale.
+    chunksPath: path.join(base, "out", "chunks-fulltext.jsonl"),
     qaPairsPath: path.join(base, "out", "qa", "qa-pairs.jsonl"),
     configPath: path.join(base, "config", "behavior-datasets.json"),
     oodTemplatesPath: path.join(base, "config", "ood-templates.json"),
@@ -59,8 +61,33 @@ function parseArgs(argv: string[]): CliArgs {
   return args;
 }
 
-function loadChunks(chunksPath: string): Chunk[] {
-  const raw = fs.readFileSync(chunksPath, "utf8");
+/** See qa/cli.ts's chunksFullTextMissingError for the full rationale (same
+ * loud-fail-not-silent-fallback contract, behavior-CLI-specific wording).
+ * Note: behavior/build.ts's transforms never read chunk.text (only
+ * chunk_id/tags — see categorize.ts/adjudication.ts), so this lane can't
+ * structurally leak the stub marker into its output today; the loud-fail
+ * still applies for consistency with the other three lanes and as
+ * defense-in-depth if that changes. */
+function chunksFullTextMissingError(chunksPath: string): Error {
+  return new Error(
+    `${chunksPath}: not found.\n\n` +
+      "behavior:build reads chunks-fulltext.jsonl (the exporter's parallel, always-full-text " +
+      "output), not chunks.jsonl — chunks.jsonl carries only a stub marker for stub-mode sources " +
+      "like lore (see docs/rights-assessment.md §7.10). Re-run the exporter (`npm run export` from " +
+      "pipeline/, or `pnpm --filter @fab/pipeline run export` from the repo root) to produce " +
+      "chunks-fulltext.jsonl, or pass --chunks <path> to point at an existing fulltext chunk file " +
+      "explicitly.",
+  );
+}
+
+export function loadChunks(chunksPath: string): Chunk[] {
+  let raw: string;
+  try {
+    raw = fs.readFileSync(chunksPath, "utf8");
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") throw chunksFullTextMissingError(chunksPath);
+    throw err;
+  }
   return raw
     .split("\n")
     .map((line) => line.trim())
@@ -112,4 +139,8 @@ function main(): void {
   console.log(`-> ${args.outDir}`);
 }
 
-main();
+// Guarded so importing this module (e.g. from tests) never triggers a real
+// run as a side effect — see qa/cli.ts's matching guard.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}

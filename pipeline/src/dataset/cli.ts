@@ -40,10 +40,12 @@ interface CliArgs {
   outDir: string;
 }
 
-function parseArgs(argv: string[]): CliArgs {
+export function parseArgs(argv: string[]): CliArgs {
   const base = path.join(import.meta.dirname, "..", "..");
   const args: CliArgs = {
-    chunksPath: path.join(base, "out", "chunks.jsonl"),
+    // BUG-190: chunks-fulltext.jsonl, not chunks.jsonl — see qa/cli.ts's
+    // parseArgs doc comment for the full rationale.
+    chunksPath: path.join(base, "out", "chunks-fulltext.jsonl"),
     qaPairsPath: path.join(base, "out", "qa", "qa-pairs.jsonl"),
     acceptedPath: path.join(base, "out", "sampling", "accepted.jsonl"),
     rejectedPath: path.join(base, "out", "sampling", "rejected.jsonl"),
@@ -83,6 +85,34 @@ function loadJsonl<T>(filePath: string): T[] {
     .map((line) => JSON.parse(line) as T);
 }
 
+/** See qa/cli.ts's chunksFullTextMissingError for the full rationale (same
+ * loud-fail-not-silent-fallback contract, dataset-CLI-specific wording).
+ * Note: assembleDataset never reads chunk.text (only chunk_id/tags — see
+ * categorize.ts/adjudication.ts), so this lane can't structurally leak the
+ * stub marker into train.jsonl/eval.jsonl today; the loud-fail still
+ * applies for consistency with the other three lanes and as
+ * defense-in-depth if that changes. */
+function chunksFullTextMissingError(chunksPath: string): Error {
+  return new Error(
+    `${chunksPath}: not found.\n\n` +
+      "dataset:build reads chunks-fulltext.jsonl (the exporter's parallel, always-full-text " +
+      "output), not chunks.jsonl — chunks.jsonl carries only a stub marker for stub-mode sources " +
+      "like lore (see docs/rights-assessment.md §7.10). Re-run the exporter (`npm run export` from " +
+      "pipeline/, or `pnpm --filter @fab/pipeline run export` from the repo root) to produce " +
+      "chunks-fulltext.jsonl, or pass --chunks <path> to point at an existing fulltext chunk file " +
+      "explicitly.",
+  );
+}
+
+export function loadChunks(chunksPath: string): Chunk[] {
+  try {
+    return loadJsonl<Chunk>(chunksPath);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") throw chunksFullTextMissingError(chunksPath);
+    throw err;
+  }
+}
+
 /** Every upstream artifact besides chunks.jsonl is optional — a missing
  * file is a normal "not run yet" state (see assemble.ts), never an error;
  * any other read failure (permissions, corrupt JSON) still propagates. */
@@ -107,7 +137,7 @@ function loadJsonIfPresent<T>(filePath: string): T | null {
 function main(): void {
   const args = parseArgs(process.argv.slice(2));
 
-  const chunks = loadJsonl<Chunk>(args.chunksPath);
+  const chunks = loadChunks(args.chunksPath);
   const qaPairRecords = readPairsRecords(args.qaPairsPath);
   const acceptedRecords = readAcceptedRecords(args.acceptedPath);
   const rejectedRecords = readRejectedRecords(args.rejectedPath);
@@ -173,4 +203,8 @@ function main(): void {
   console.log(`-> ${args.outDir}`);
 }
 
-main();
+// Guarded so importing this module (e.g. from tests) never triggers a real
+// run as a side effect — see qa/cli.ts's matching guard.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}

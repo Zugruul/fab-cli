@@ -45,9 +45,11 @@ interface CliArgs {
   costCeilingUsd: number | null;
 }
 
-function parseArgs(argv: string[]): CliArgs {
+export function parseArgs(argv: string[]): CliArgs {
   const args: CliArgs = {
-    chunksPath: path.join(import.meta.dirname, "..", "..", "out", "chunks.jsonl"),
+    // BUG-190: chunks-fulltext.jsonl, not chunks.jsonl — see qa/cli.ts's
+    // parseArgs doc comment for the full rationale.
+    chunksPath: path.join(import.meta.dirname, "..", "..", "out", "chunks-fulltext.jsonl"),
     qaPairsPath: path.join(import.meta.dirname, "..", "..", "out", "qa", "qa-pairs.jsonl"),
     configPath: path.join(import.meta.dirname, "..", "..", "config", "rejection-sampling.json"),
     outDir: path.join(import.meta.dirname, "..", "..", "out", "sampling"),
@@ -68,8 +70,29 @@ function parseArgs(argv: string[]): CliArgs {
   return args;
 }
 
-function loadChunksById(chunksPath: string): Map<string, Chunk> {
-  const raw = fs.readFileSync(chunksPath, "utf8");
+/** See qa/cli.ts's chunksFullTextMissingError for the full rationale (same
+ * loud-fail-not-silent-fallback contract, sampling-CLI-specific wording). */
+function chunksFullTextMissingError(chunksPath: string): Error {
+  return new Error(
+    `${chunksPath}: not found.\n\n` +
+      "qa:sample reads chunks-fulltext.jsonl (the exporter's parallel, always-full-text output), " +
+      "not chunks.jsonl — chunks.jsonl carries only a stub marker for stub-mode sources like lore " +
+      "(see docs/rights-assessment.md §7.10), and silently falling back to it here would judge " +
+      "entailment against that stub marker instead of real source prose. Re-run the exporter " +
+      "(`npm run export` from pipeline/, or `pnpm --filter @fab/pipeline run export` from the repo " +
+      "root) to produce chunks-fulltext.jsonl, or pass --chunks <path> to point at an existing " +
+      "fulltext chunk file explicitly.",
+  );
+}
+
+export function loadChunksById(chunksPath: string): Map<string, Chunk> {
+  let raw: string;
+  try {
+    raw = fs.readFileSync(chunksPath, "utf8");
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") throw chunksFullTextMissingError(chunksPath);
+    throw err;
+  }
   const chunks = raw
     .split("\n")
     .map((line) => line.trim())
@@ -171,7 +194,11 @@ async function main(): Promise<void> {
   console.log(`manifest -> ${manifestPath}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exitCode = 1;
-});
+// Guarded so importing this module (e.g. from tests) never triggers a real
+// run as a side effect — see qa/cli.ts's matching guard.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+  });
+}
