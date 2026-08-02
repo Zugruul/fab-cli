@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { parseNote } from "../frontmatter.js";
 import { extractWikilinks } from "../links.js";
-import type { Chunk } from "../types.js";
+import type { Chunk, SkippedEntry } from "../types.js";
 
 export interface BrainSourceResult {
   chunks: Chunk[];
@@ -11,6 +11,10 @@ export interface BrainSourceResult {
    * identity that physically holds the file, never against the identity
    * dir it was merely seen through (SPEC-APP.md §7.1 dedupe rule). */
   countsByIdentity: Record<string, number>;
+  /** Notes that failed to export (broken symlink, unreadable file) and were
+   * skipped instead of crashing the whole export — one bad note must never
+   * take down every other note across every identity. */
+  skipped: SkippedEntry[];
 }
 
 const IDENTITY_FROM_REALPATH_RE = /identities[\\/]([^\\/]+)[\\/]brain[\\/]notes[\\/]/;
@@ -31,6 +35,7 @@ const IDENTITY_FROM_REALPATH_RE = /identities[\\/]([^\\/]+)[\\/]brain[\\/]notes[
 export function exportBrainNotes(identitiesRoot: string, identities: string[]): BrainSourceResult {
   const chunks: Chunk[] = [];
   const countsByIdentity: Record<string, number> = {};
+  const skipped: SkippedEntry[] = [];
   const seenRealPaths = new Set<string>();
 
   for (const identity of identities) {
@@ -46,34 +51,48 @@ export function exportBrainNotes(identitiesRoot: string, identities: string[]): 
     for (const entry of entries) {
       if (!entry.name.endsWith(".md")) continue;
       const filePath = path.join(notesDir, entry.name);
-      const realPath = fs.realpathSync(filePath);
-      if (seenRealPaths.has(realPath)) continue;
-      seenRealPaths.add(realPath);
 
-      const owningIdentity = identityFromRealPath(realPath) ?? identity;
-      const slug = entry.name.replace(/\.md$/, "");
-      const raw = fs.readFileSync(realPath, "utf8");
-      const { frontmatter, body } = parseNote(raw);
+      // Each note is isolated: a broken symlink, a permission error, or a
+      // read failure skips just this one entry (recorded in `skipped`)
+      // rather than aborting every other note across every identity.
+      try {
+        const realPath = fs.realpathSync(filePath);
+        if (seenRealPaths.has(realPath)) continue;
+        seenRealPaths.add(realPath);
 
-      const tags = Array.isArray(frontmatter.tags) ? (frontmatter.tags as string[]) : [];
-      const source = typeof frontmatter.source === "string" ? frontmatter.source : "";
-      const title =
-        typeof frontmatter.title === "string" ? frontmatter.title : firstHeadingOrSlug(body, slug);
+        const owningIdentity = identityFromRealPath(realPath) ?? identity;
+        const slug = entry.name.replace(/\.md$/, "");
+        const raw = fs.readFileSync(realPath, "utf8");
+        const { frontmatter, body } = parseNote(raw);
 
-      chunks.push({
-        chunk_id: `brain/${owningIdentity}/${slug}`,
-        text: body.trim(),
-        title,
-        source,
-        links: extractWikilinks(raw),
-        tags,
-      });
+        const tags = Array.isArray(frontmatter.tags) ? (frontmatter.tags as string[]) : [];
+        const source = typeof frontmatter.source === "string" ? frontmatter.source : "";
+        const title =
+          typeof frontmatter.title === "string"
+            ? frontmatter.title
+            : firstHeadingOrSlug(body, slug);
 
-      countsByIdentity[owningIdentity] = (countsByIdentity[owningIdentity] ?? 0) + 1;
+        chunks.push({
+          chunk_id: `brain/${owningIdentity}/${slug}`,
+          text: body.trim(),
+          title,
+          source,
+          links: extractWikilinks(raw),
+          tags,
+        });
+
+        countsByIdentity[owningIdentity] = (countsByIdentity[owningIdentity] ?? 0) + 1;
+      } catch (err) {
+        skipped.push({ path: filePath, reason: errorMessage(err) });
+      }
     }
   }
 
-  return { chunks, countsByIdentity };
+  return { chunks, countsByIdentity, skipped };
+}
+
+function errorMessage(err: unknown): string {
+  return err instanceof Error ? err.message : String(err);
 }
 
 function identityFromRealPath(realPath: string): string | null {

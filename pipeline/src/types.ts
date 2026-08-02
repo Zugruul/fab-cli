@@ -20,11 +20,31 @@ export interface Chunk {
 
 export type ShippingMode = "verbatim" | "paraphrase" | "stub";
 
+/**
+ * A single source entry (a note, a rules-index chunk, a lore page) that
+ * failed to export and was skipped rather than aborting its whole source.
+ * `path` identifies the entry (file path, or `<indexPath>#<n>` for a
+ * malformed rules-index array entry); `reason` is the raw error message.
+ */
+export interface SkippedEntry {
+  path: string;
+  reason: string;
+}
+
 export interface SourceManifestEntry {
   name: string;
   count: number;
   shippingMode: ShippingMode;
-  /** Present when the source degraded gracefully (e.g. kb/rules absent). */
+  /** Count of entries skipped for this source (broken symlinks, corrupt
+   * records, unreadable files) — always present, 0 when nothing was
+   * skipped, so a degraded run is visible in the manifest rather than
+   * silently under-counting. */
+  skipped: number;
+  /** Human-readable explanation covering whichever of: the source's §7.10
+   * pending-rights-assessment status (always present), a source-level
+   * grace condition (e.g. kb/rules absent or corrupt), and/or a summary of
+   * skipped entries with reasons — joined together when more than one
+   * applies. */
   note?: string;
 }
 

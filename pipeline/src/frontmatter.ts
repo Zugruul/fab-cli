@@ -11,7 +11,15 @@ export interface ParsedNote {
   body: string;
 }
 
-export function parseNote(raw: string): ParsedNote {
+export function parseNote(rawInput: string): ParsedNote {
+  // Normalize CRLF up front: without this, splitting on "\n" alone leaves a
+  // trailing "\r" on every line, which survives frontmatter-scalar trim()
+  // (harmless there) but pollutes the body text (every line keeps its \r)
+  // and the leading-blank-line strip below (which only checks for a bare
+  // "\n"). Brain/lore/rules sources are all authored as plain LF, but this
+  // keeps a CRLF-saved note (e.g. edited on Windows) from silently leaking
+  // \r into exported chunk text.
+  const raw = rawInput.replace(/\r\n/g, "\n");
   const frontmatter: Record<string, unknown> = {};
   let body = raw;
 

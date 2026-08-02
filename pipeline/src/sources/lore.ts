@@ -2,10 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { parseNote } from "../frontmatter.js";
 import { extractWikilinks } from "../links.js";
-import type { Chunk } from "../types.js";
+import type { Chunk, SkippedEntry } from "../types.js";
 
 export interface LoreSourceResult {
   chunks: Chunk[];
+  /** Pages that failed to export (broken symlink, unreadable file) and
+   * were skipped instead of crashing the whole export. */
+  skipped: SkippedEntry[];
 }
 
 /**
@@ -22,32 +25,43 @@ export interface LoreSourceResult {
  */
 export function exportLoreChunks(loreDir: string): LoreSourceResult {
   const chunks: Chunk[] = [];
+  const skipped: SkippedEntry[] = [];
 
   for (const filePath of walkMarkdownFiles(loreDir)) {
-    const relPath = path.relative(loreDir, filePath).replace(/\\/g, "/");
-    const id = relPath.replace(/\.md$/, "");
-    const raw = fs.readFileSync(filePath, "utf8");
-    const { frontmatter, body } = parseNote(raw);
+    // Isolate each page: a broken symlink or a file that vanishes mid-walk
+    // skips just that one page rather than aborting the whole lore source.
+    try {
+      const relPath = path.relative(loreDir, filePath).replace(/\\/g, "/");
+      const id = relPath.replace(/\.md$/, "");
+      const raw = fs.readFileSync(filePath, "utf8");
+      const { frontmatter, body } = parseNote(raw);
 
-    const title = typeof frontmatter.title === "string" ? frontmatter.title : id;
-    const source = typeof frontmatter.source_url === "string" ? frontmatter.source_url : "";
-    const section = typeof frontmatter.section === "string" ? frontmatter.section : null;
+      const title = typeof frontmatter.title === "string" ? frontmatter.title : id;
+      const source = typeof frontmatter.source_url === "string" ? frontmatter.source_url : "";
+      const section = typeof frontmatter.section === "string" ? frontmatter.section : null;
 
-    const tags = new Set<string>(["lore"]);
-    if (section) tags.add(section);
-    if (id.startsWith("archive/")) tags.add("archive");
+      const tags = new Set<string>(["lore"]);
+      if (section) tags.add(section);
+      if (id.startsWith("archive/")) tags.add("archive");
 
-    chunks.push({
-      chunk_id: `lore/${id}`,
-      text: body.trim(),
-      title,
-      source,
-      links: extractWikilinks(raw),
-      tags: [...tags],
-    });
+      chunks.push({
+        chunk_id: `lore/${id}`,
+        text: body.trim(),
+        title,
+        source,
+        links: extractWikilinks(raw),
+        tags: [...tags],
+      });
+    } catch (err) {
+      skipped.push({ path: filePath, reason: errorMessage(err) });
+    }
   }
 
-  return { chunks };
+  return { chunks, skipped };
+}
+
+function errorMessage(err: unknown): string {
+  return err instanceof Error ? err.message : String(err);
 }
 
 /**
@@ -59,10 +73,17 @@ export function exportLoreChunks(loreDir: string): LoreSourceResult {
  */
 export function readFabloreCommitFromLorePages(loreDir: string): string | null {
   for (const filePath of walkMarkdownFiles(loreDir)) {
-    const raw = fs.readFileSync(filePath, "utf8");
-    const { frontmatter } = parseNote(raw);
-    if (typeof frontmatter.fablore_commit === "string") {
-      return frontmatter.fablore_commit;
+    // A page unreadable here (e.g. the same broken symlink exportLoreChunks
+    // would skip) just isn't a candidate for the fallback — keep scanning
+    // rather than letting one bad page abort the lookup.
+    try {
+      const raw = fs.readFileSync(filePath, "utf8");
+      const { frontmatter } = parseNote(raw);
+      if (typeof frontmatter.fablore_commit === "string") {
+        return frontmatter.fablore_commit;
+      }
+    } catch {
+      continue;
     }
   }
   return null;
@@ -79,7 +100,12 @@ function* walkMarkdownFiles(dir: string): Generator<string> {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       yield* walkMarkdownFiles(full);
-    } else if (entry.isFile() && entry.name.endsWith(".md")) {
+    } else if ((entry.isFile() || entry.isSymbolicLink()) && entry.name.endsWith(".md")) {
+      // Symlinks are included (not just entry.isFile()) so a linked page —
+      // or a broken link, per the try/catch above/in exportLoreChunks —
+      // is actually attempted and its failure recorded, rather than
+      // silently vanishing because readdir reports its dirent type as
+      // DT_LNK instead of DT_REG.
       yield full;
     }
   }
