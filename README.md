@@ -17,6 +17,12 @@ user-level registry (`~/.claude/compute/`) and this repo's
 `.claude/project.local.yaml` availability overlay — so a fresh clone or a new
 machine must be set up once before any training dispatch works.
 
+The engine + bundle come from the companion repo
+**[Zugruul/development-skills](https://github.com/Zugruul/development-skills)** —
+clone it anywhere (`git clone git@github.com:Zugruul/development-skills.git`)
+and export `DS=<clone path>`; everything below refers to
+`$DS/plugins/spec-workflow/scripts/`.
+
 The full, verified runbook (prerequisites incl. the non-obvious ones like
 `python3.12-dev` for triton's JIT, register → add-env → install-capability →
 enable, mandatory smoke verification, day-to-day pipeline usage, and known
@@ -27,7 +33,7 @@ WSL gotchas) lives in the project skill:
   as a human runbook.
 
 Quick health check on an already-set-up clone: `.claude/project.local.yaml`
-exists and `~/Development/development-skills/.../remote-compute.py list`
+exists and `python3 $DS/plugins/spec-workflow/scripts/remote-compute.py list`
 shows your machine — if either is missing, run the skill.
 
 ## Licensing

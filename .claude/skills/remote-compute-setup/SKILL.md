@@ -11,14 +11,22 @@ Everything machine-local lives OUTSIDE git: the user-level registry
 skill reconstructs the whole rail and verifies every step against the real
 machine (never assume; every claim below came from a verified live run).
 
-The generic engine + bundle live in the development-skills repo
-(`~/Development/development-skills/plugins/spec-workflow/scripts/`):
-`remote-compute.py` (engine) and `remote-capabilities/slm-training/` (the
-config-driven train/export/eval bundle — PROJECT-AGNOSTIC; project knowledge
-stays in this repo's pipeline/ configs, and that agnosticism is test-enforced
-upstream. Extending it = extending its generic config surface there).
+The generic engine + bundle live in the companion GitHub repo
+**https://github.com/Zugruul/development-skills** — clone it first if this
+machine doesn't have it (any location works):
 
-Let `RC="python3 ~/Development/development-skills/plugins/spec-workflow/scripts/remote-compute.py"`.
+```bash
+git clone git@github.com:Zugruul/development-skills.git
+export DS=<path-to-that-clone>
+```
+
+Inside it, `plugins/spec-workflow/scripts/` holds `remote-compute.py` (the
+engine) and `remote-capabilities/slm-training/` (the config-driven
+train/export/eval bundle — PROJECT-AGNOSTIC; project knowledge stays in this
+repo's pipeline/ configs, and that agnosticism is test-enforced upstream.
+Extending it = extending its generic config surface there).
+
+Let `RC="python3 $DS/plugins/spec-workflow/scripts/remote-compute.py"`.
 
 ## 1. One-time GPU-machine prerequisites (human/sudo items — print, don't run)
 
@@ -47,7 +55,7 @@ $RC register <nickname> <user@host>        # probes GPU/RAM/disks, converges ssh
 $RC add-env <nickname> training \
   --activate 'source ~/.venv/bin/activate' \
   --verify 'import torch, unsloth; print("torch", torch.__version__, "cuda", torch.cuda.is_available(), torch.cuda.get_device_name(0), "unsloth", unsloth.__version__)'
-$RC install-capability <nickname> ~/Development/development-skills/plugins/spec-workflow/scripts/remote-capabilities/slm-training
+$RC install-capability <nickname> $DS/plugins/spec-workflow/scripts/remote-capabilities/slm-training
 $RC enable <nickname> --root <this-repo-root> --role training   # writes .claude/project.local.yaml (gitignored)
 ```
 
