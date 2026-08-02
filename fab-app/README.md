@@ -178,6 +178,77 @@ currently exist rather than a hardcoded per-screen list:
   §9.11's consent-text translation review is a human release gate the merge gate doesn't
   substitute for.
 
+## Theming
+
+`src/theme/` (#219, `../SPEC-APP.md` §9.13) follows the device's OS-level light/dark setting — no
+in-app toggle in this version. Same pattern one level up from #217/#218: a registered, data-driven
+token set (not a hardcoded pair), a lint rule, and a gate check with no per-screen check logic.
+
+- **Token roles**: `src/theme/tokens.ts`'s `THEMES` registry (`light`/`dark`, `THEME_NAMES`) —
+  `background` (primary surface), `surface` (secondary/elevated surface — provisioned for future
+  card-style UI; no current screen has a distinct card look yet, so it isn't visually
+  differentiated from `background` in v1's flat containers), `text` (primary content),
+  `mutedText` (de-emphasized/secondary content — consolidates several near-identical ad hoc grays
+  the six screens used before this task, `#333333`/`#555555`/`#666666`/`#888888`, into one
+  coherent role), `border` (decorative hairline separators), `accent` (call-to-action text),
+  `danger`/`warning`/`success` (status tones — SmokeScreen's per-module check states, plus
+  ProgressScreen's error text). Every one of the nine per-theme colors individually clears WCAG AA
+  (4.5:1) against both `background` and `surface`.
+- **Consuming tokens**: `useTheme()` (`src/theme/useTheme.ts`) resolves `{name, tokens}` from RN's
+  `useColorScheme()` every render — no Provider/context needed (unlike #217's i18n layer, which
+  needs one for its async persisted-preference read; theme is a pure synchronous system read with
+  no persisted override). Screens build their `StyleSheet` from `tokens` inside a
+  `useMemo(() => createStyles(tokens), [tokens])`, since `StyleSheet.create()` itself is a
+  module-scope call and can't see a hook's value directly. `App.tsx`'s `StatusBar` `barStyle` folds
+  into the same `useTheme()` call instead of computing `useColorScheme() === 'dark'` on its own.
+- **Live updates**: `useColorScheme()` is backed by React's `useSyncExternalStore` subscribed to
+  RN's `Appearance` change listener, so a system appearance change re-renders every component that
+  calls `useTheme()` automatically — no extra wiring in this layer. Proven in
+  `src/theme/__tests__/useTheme.test.tsx` by mocking `useColorScheme`'s return value and
+  re-rendering (see that file's top comment for why a Proxy-based mock is used instead of spreading
+  the whole `react-native` module — spreading eagerly evaluates every lazy getter on RN's index,
+  including native-module-backed ones, which throws under jest's headless environment).
+- **Gate enforcement** (both run inside `npm run gate`, offline, generically over `THEME_NAMES` and
+  the token-pair table — not a hardcoded light/dark or role pair):
+  - **No hardcoded color literals**: `.eslintrc.js`'s `react-native/no-color-literals` override
+    (an existing transitive dependency of `@react-native/eslint-config`, already registered in
+    that config's `plugins` array — no new package), scoped identically to the #217/#218
+    overrides: `App.tsx` + `src/**/*.tsx`, test files excluded. Distinct from the base config's
+    own `react-native/no-inline-styles` (a perf-motivated rule, unrelated to theming, left
+    untouched). Exercised end to end by
+    `src/theme/__tests__/noHardcodedColorLiterals.test.ts`, which runs the project's real ESLint
+    config against fixtures (mirrors `noHardcodedJsxLiterals.test.ts`/`a11yLintGate.test.ts`).
+  - **Token contrast**: `checkTokenContrast()` in `src/theme/tokenContrastGate.ts` checks every
+    pair in `CONTRAST_PAIRS` (12 foreground-role-on-background-role pairs actually rendered by
+    shipped screens — `border` is decorative-only and intentionally excluded, WCAG's text-contrast
+    rule doesn't apply to it) against every theme in `THEME_NAMES`, via a pure, independently
+    unit-tested WCAG contrast-ratio function (`src/theme/contrast.ts` — relative luminance +
+    contrast ratio, no dependency). Exercised by `src/theme/__tests__/contrast.test.ts` (the math
+    itself, against hand-computed reference ratios) and
+    `src/theme/__tests__/tokenContrastGate.test.ts` (the gate check, against fixtures including a
+    deliberately broken one, plus the real shipped `THEMES`).
+  - **Per-screen rendering**: `src/a11y/__tests__/screenRegistry.tsx` (extracted from #218's
+    `screens.a11y.test.tsx` so both suites reuse one registration table) backs two checks —
+    `screens.a11y.test.tsx` itself now runs its accessibility walk across a theme x locale matrix
+    (both dimensions data-driven, so the extra dimension is cheap), and
+    `src/theme/__tests__/screens.theme.test.tsx` asserts every registered screen renders under
+    both themes without throwing. A future screen only needs registering once, in one place —
+    never new check logic in either suite.
+- **Audit findings fixed by this task**: every hardcoded color literal in `fab-app/src` + `App.tsx`
+  — `ProvenanceScreen`, `SmokeScreen`, `ConsentScreen`, `FeatureGate`, `ProgressScreen` (a mix of
+  `StyleSheet.create()` hex literals for text/status/border colors). `LanguageSwitcher` has none
+  (per user directive it's intentionally unstyled, default RN components only) and was left
+  untouched. Titles/labels that previously had no explicit color (relying on the platform default,
+  effectively black) now read `tokens.text` explicitly — without that, dark mode would leave black
+  text on a dark background. Light-mode visual output is unchanged: `background` is `#ffffff`,
+  `text` is `#000000`, matching what an unset color already rendered as.
+- **In-app theme toggle**: out of scope for v1 per user directive ("no in-app toggle unless
+  trivially cheap"). Building one on top of a persisted-preference store analogous to
+  `src/i18n/languageStore.ts` (same `@op-engineering/op-sqlite` backing, same override-vs-system
+  resolution shape) would be straightforward to add later, but isn't "trivially cheap" *on top of*
+  this task — it needs its own persistence layer, a settings-surface entry, and its own gate
+  coverage — so it's deferred rather than bundled in here.
+
 ## Testing
 
 `npm run test` runs Jest with all four native packages replaced by hand-written stubs
