@@ -27,6 +27,7 @@ describe("appendAcceptedDurable / readAcceptedRecords", () => {
     expect(records[0].pairId).toBe("chunk-1#0");
     expect(records[0].chunk_id).toBe("chunk-1");
     expect(records[0].reason).toBe("fully supported");
+    expect(records[0].rejectionKind).toBeNull(); // accepted records never carry a rejectionKind
   });
 
   it("does not throw and returns an empty list when the file doesn't exist yet", () => {
@@ -65,17 +66,24 @@ describe("appendAcceptedDurable / readAcceptedRecords", () => {
 });
 
 describe("appendRejectedDurable / readRejectedRecords", () => {
-  it("writes a rejected record with its reason, independent of the accepted store", () => {
-    appendRejectedDurable(rejectedPath, "chunk-1#1", "chunk-1", makePair(), "not entailed: adds an outside fact");
+  it("writes a rejected record with its rejectionKind and reason, independent of the accepted store", () => {
+    appendRejectedDurable(rejectedPath, "chunk-1#1", "chunk-1", makePair(), "not-entailed", "not entailed: adds an outside fact");
     const records = readRejectedRecords(rejectedPath);
     expect(records).toHaveLength(1);
+    expect(records[0].rejectionKind).toBe("not-entailed");
     expect(records[0].reason).toBe("not entailed: adds an outside fact");
     expect(fs.existsSync(acceptedPath)).toBe(false);
   });
 
+  it("records rejectionKind 'infra-error' distinctly from 'not-entailed'", () => {
+    appendRejectedDurable(rejectedPath, "chunk-1#0", "chunk-1", makePair(), "infra-error", "judge check failed: 500");
+    const records = readRejectedRecords(rejectedPath);
+    expect(records[0].rejectionKind).toBe("infra-error");
+  });
+
   it("multiple pairs from the same chunk get distinct records via distinct pairIds", () => {
-    appendRejectedDurable(rejectedPath, "chunk-1#0", "chunk-1", makePair({ question: "Q0" }), "r0");
-    appendRejectedDurable(rejectedPath, "chunk-1#1", "chunk-1", makePair({ question: "Q1" }), "r1");
+    appendRejectedDurable(rejectedPath, "chunk-1#0", "chunk-1", makePair({ question: "Q0" }), "not-entailed", "r0");
+    appendRejectedDurable(rejectedPath, "chunk-1#1", "chunk-1", makePair({ question: "Q1" }), "not-entailed", "r1");
     const records = readRejectedRecords(rejectedPath);
     expect(records).toHaveLength(2);
     expect(records.map((r) => r.pairId).sort()).toEqual(["chunk-1#0", "chunk-1#1"]);

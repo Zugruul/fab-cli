@@ -101,6 +101,19 @@ export function notEntailedResponse(reason = "the answer adds a fact not present
   return { text: JSON.stringify({ entailed: false, reason }), usage };
 }
 
+/** A second not-entailed flavor, distinct from the fabricated-fact case:
+ * the answer states something that's TRUE in general (or true of a
+ * different card/rule), but this specific chunk never says it — the
+ * entailment check is against the given chunk's text only, not against
+ * "is this true anywhere in the corpus". Regression coverage for a judge
+ * (or a reviewer) being tempted to accept a true-but-unsupported answer. */
+export function notEntailedWrongChunkResponse(
+  reason = "the statement is accurate, but this chunk doesn't say it — it belongs to a different chunk, and grounding must come from the given chunk alone",
+  usage = DEFAULT_USAGE,
+): JudgeResponse {
+  return { text: JSON.stringify({ entailed: false, reason }), usage };
+}
+
 export function malformedJsonResponse(usage = DEFAULT_USAGE): JudgeResponse {
   return { text: "{entailed: true, reason: not valid json,,,", usage };
 }

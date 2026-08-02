@@ -14,6 +14,7 @@ import {
   makeAlwaysEntailedJudge,
   entailedResponse,
   notEntailedResponse,
+  notEntailedWrongChunkResponse,
   malformedJsonResponse,
   refusalResponse,
   truncatedResponse,
@@ -98,6 +99,7 @@ describe("runSampling — happy path acceptance", () => {
     expect(result.outcomes).toHaveLength(2);
     expect(result.outcomes.every((o) => o.status === "accepted")).toBe(true);
     expect(result.outcomes.every((o) => o.reason.length > 0)).toBe(true);
+    expect(result.outcomes.every((o) => o.rejectionKind === null)).toBe(true);
     expect(result.stoppedEarly).toBeNull();
 
     const persisted = loadSamplingProgress(progressPath);
@@ -108,7 +110,7 @@ describe("runSampling — happy path acceptance", () => {
 });
 
 describe("runSampling — known-bad sample rejection", () => {
-  it("discards a not-entailed answer, recording the judge's reason, without touching acceptedIds", async () => {
+  it("discards a fabricated-fact answer, recording the judge's reason and rejectionKind 'not-entailed', without touching acceptedIds", async () => {
     const item = makeWorkItem({
       pairId: "chunk-1#0",
       chunk_id: "chunk-1",
@@ -126,16 +128,42 @@ describe("runSampling — known-bad sample rejection", () => {
     expect(result.outcomes).toHaveLength(1);
     const [outcome] = result.outcomes;
     expect(outcome.status).toBe("rejected");
+    expect(outcome.rejectionKind).toBe("not-entailed");
     expect(outcome.reason).toBe("the chunk never mentions icon color or a power bonus");
 
     const persisted = loadSamplingProgress(progressPath);
     expect(persisted.acceptedIds).toEqual([]);
     expect(persisted.rejectedIds).toEqual(["chunk-1#0"]);
   });
+
+  it("discards a true-but-wrong-chunk answer the same way — being factually accurate isn't enough, it must be supported by THIS chunk", async () => {
+    const item = makeWorkItem({
+      pairId: "chunk-2#0",
+      chunk_id: "chunk-2",
+      pair: makePair({
+        question: "Does Dominate force a block?",
+        // True of Dominate in general, but this chunk (per makeChunksById's
+        // generic fixture text) never actually states it — a judge that
+        // accepts "true somewhere in the corpus" instead of "supported by
+        // THIS chunk" would wrongly pass this.
+        answer: "Yes — Dominate always forces the chosen hero to block if able.",
+        cited_chunk_ids: ["chunk-2"],
+      }),
+    });
+    const chunksById = makeChunksById([item]);
+    const judge = makeMockJudge(() => notEntailedWrongChunkResponse());
+
+    const result = await runSampling({ workItems: [item], chunksById, config: config(), judge, progressPath, sleep: noopSleep });
+
+    const [outcome] = result.outcomes;
+    expect(outcome.status).toBe("rejected");
+    expect(outcome.rejectionKind).toBe("not-entailed");
+    expect(outcome.reason).toMatch(/different chunk|doesn't say it/i);
+  });
 });
 
 describe("runSampling — fail-closed judge response handling", () => {
-  it("rejects on malformed JSON, refusal, and truncated responses — never treats them as acceptance", async () => {
+  it("rejects on malformed JSON, refusal, and truncated responses — never treats them as acceptance, and tags them 'infra-error' (not 'not-entailed')", async () => {
     const fixtures = [
       { name: "malformed", response: malformedJsonResponse() },
       { name: "refusal", response: refusalResponse() },
@@ -158,11 +186,12 @@ describe("runSampling — fail-closed judge response handling", () => {
       });
 
       expect(result.outcomes[0].status).toBe("rejected");
+      expect(result.outcomes[0].rejectionKind).toBe("infra-error");
       expect(result.outcomes[0].reason.length).toBeGreaterThan(0);
     }
   });
 
-  it("rejects when the judge call fails after retries are exhausted, never silently accepting", async () => {
+  it("rejects when the judge call fails after retries are exhausted, never silently accepting, tagged 'infra-error'", async () => {
     const item = makeWorkItem();
     const chunksById = makeChunksById([item]);
     const judge = makeMockJudge(() => {
@@ -172,11 +201,12 @@ describe("runSampling — fail-closed judge response handling", () => {
     const result = await runSampling({ workItems: [item], chunksById, config: config(), judge, progressPath, sleep: noopSleep });
 
     expect(result.outcomes[0].status).toBe("rejected");
+    expect(result.outcomes[0].rejectionKind).toBe("infra-error");
     expect(result.outcomes[0].reason).toMatch(/judge unavailable|500/);
     expect(loadSamplingProgress(progressPath).rejectedIds).toEqual([item.pairId]);
   });
 
-  it("rejects a work item whose source chunk isn't in chunksById, without calling the judge", async () => {
+  it("rejects a work item whose source chunk isn't in chunksById, without calling the judge, tagged 'infra-error' (a data-availability failure, not a content verdict)", async () => {
     const item = makeWorkItem({ pairId: "missing-chunk#0", chunk_id: "missing-chunk" });
     const judge = makeMockJudge(() => entailedResponse());
 
@@ -184,6 +214,7 @@ describe("runSampling — fail-closed judge response handling", () => {
 
     expect(judge.calls).toHaveLength(0);
     expect(result.outcomes[0].status).toBe("rejected");
+    expect(result.outcomes[0].rejectionKind).toBe("infra-error");
     expect(result.outcomes[0].reason).toMatch(/not found/i);
   });
 });

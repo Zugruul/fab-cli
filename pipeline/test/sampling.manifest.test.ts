@@ -16,12 +16,18 @@ function baseConfig(overrides: Partial<SamplingConfig> = {}): SamplingConfig {
   };
 }
 
+/** status defaults to "accepted" (rejectionKind null); overriding status to
+ * "rejected" without an explicit rejectionKind defaults to "not-entailed"
+ * (the more common case in these tests) — override rejectionKind directly
+ * for an infra-error fixture. */
 function outcome(overrides: Partial<PairSamplingOutcome> = {}): PairSamplingOutcome {
+  const status = overrides.status ?? "accepted";
   return {
     pairId: "brain/judge/kw-dominate#0",
     chunk_id: "brain/judge/kw-dominate",
     pair: makePair(),
-    status: "accepted",
+    status,
+    rejectionKind: status === "accepted" ? null : "not-entailed",
     reason: "fully supported",
     attempts: 1,
     ...overrides,
@@ -43,11 +49,11 @@ describe("categoryOf", () => {
 });
 
 describe("buildSamplingManifest — aggregate counts", () => {
-  it("aggregates accepted/rejected counts, overall acceptance rate, judge model id, and config hash", () => {
+  it("aggregates accepted/rejected(NotEntailed/Infra) counts, acceptance rates, judge model id, and config hash", () => {
     const config = baseConfig();
     const outcomes: PairSamplingOutcome[] = [
       outcome({ pairId: "a#0", chunk_id: "brain/judge/kw-dominate", status: "accepted" }),
-      outcome({ pairId: "a#1", chunk_id: "brain/judge/kw-dominate", status: "rejected", reason: "not entailed" }),
+      outcome({ pairId: "a#1", chunk_id: "brain/judge/kw-dominate", status: "rejected", rejectionKind: "not-entailed", reason: "not entailed" }),
       outcome({ pairId: "b#0", chunk_id: "rules/cr/1.1", status: "accepted" }),
     ];
     const progress: SamplingProgressState = { acceptedIds: ["a#0", "b#0"], rejectedIds: ["a#1"], costUsd: 0.05, requestCount: 3 };
@@ -69,14 +75,18 @@ describe("buildSamplingManifest — aggregate counts", () => {
     expect(manifest.processedCount).toBe(3);
     expect(manifest.acceptedCount).toBe(2);
     expect(manifest.rejectedCount).toBe(1);
+    expect(manifest.rejectedNotEntailedCount).toBe(1);
+    expect(manifest.rejectedInfraCount).toBe(0);
+    // No infra rejections here, so acceptanceRate and rawAcceptanceRate agree.
     expect(manifest.acceptanceRate).toBeCloseTo(2 / 3, 5);
+    expect(manifest.rawAcceptanceRate).toBeCloseTo(2 / 3, 5);
     expect(manifest.costUsd).toBe(0.05);
     expect(manifest.requestCount).toBe(3);
     expect(manifest.runDate).toBe("2026-08-02T00:00:00.000Z");
     expect(manifest.stoppedEarly).toBeNull();
   });
 
-  it("reports acceptanceRate 0 (not NaN) when nothing was processed", () => {
+  it("reports acceptanceRate and rawAcceptanceRate as 0 (not NaN) when nothing was processed", () => {
     const manifest = buildSamplingManifest({
       config: baseConfig(),
       dryRun: false,
@@ -86,6 +96,9 @@ describe("buildSamplingManifest — aggregate counts", () => {
       stoppedEarly: null,
     });
     expect(manifest.acceptanceRate).toBe(0);
+    expect(manifest.rawAcceptanceRate).toBe(0);
+    expect(manifest.rejectedNotEntailedCount).toBe(0);
+    expect(manifest.rejectedInfraCount).toBe(0);
     expect(manifest.categoryAcceptance).toEqual([]);
   });
 
@@ -102,14 +115,14 @@ describe("buildSamplingManifest — aggregate counts", () => {
   });
 });
 
-describe("buildSamplingManifest — per-category acceptance", () => {
-  it("breaks acceptance down per chunk_id category (brain/rules/lore), sorted by category name", () => {
+describe("buildSamplingManifest — per-category acceptance, split by rejectionKind", () => {
+  it("breaks acceptance down per chunk_id category (brain/rules/lore), sorted by category name, with rejectedNotEntailed/rejectedInfra split", () => {
     const outcomes: PairSamplingOutcome[] = [
       outcome({ pairId: "brain-1#0", chunk_id: "brain/judge/kw-dominate", status: "accepted" }),
       outcome({ pairId: "brain-1#1", chunk_id: "brain/judge/kw-dominate", status: "accepted" }),
-      outcome({ pairId: "brain-2#0", chunk_id: "brain/player/kw-go-again", status: "rejected", reason: "not entailed" }),
-      outcome({ pairId: "rules-1#0", chunk_id: "rules/cr/1.1", status: "rejected", reason: "not entailed" }),
-      outcome({ pairId: "rules-1#1", chunk_id: "rules/cr/1.1", status: "rejected", reason: "unparseable judge response" }),
+      outcome({ pairId: "brain-2#0", chunk_id: "brain/player/kw-go-again", status: "rejected", rejectionKind: "not-entailed", reason: "not entailed" }),
+      outcome({ pairId: "rules-1#0", chunk_id: "rules/cr/1.1", status: "rejected", rejectionKind: "not-entailed", reason: "not entailed" }),
+      outcome({ pairId: "rules-1#1", chunk_id: "rules/cr/1.1", status: "rejected", rejectionKind: "infra-error", reason: "unparseable judge response" }),
       outcome({ pairId: "lore-1#0", chunk_id: "lore/world-of-rathe/demonastery", status: "accepted" }),
     ];
 
@@ -123,10 +136,90 @@ describe("buildSamplingManifest — per-category acceptance", () => {
     });
 
     expect(manifest.categoryAcceptance).toEqual([
-      { category: "brain", accepted: 2, rejected: 1, acceptanceRate: expect.closeTo(2 / 3, 5) },
-      { category: "lore", accepted: 1, rejected: 0, acceptanceRate: 1 },
-      { category: "rules", accepted: 0, rejected: 2, acceptanceRate: 0 },
+      {
+        category: "brain",
+        accepted: 2,
+        rejected: 1,
+        rejectedNotEntailed: 1,
+        rejectedInfra: 0,
+        acceptanceRate: expect.closeTo(2 / 3, 5),
+        rawAcceptanceRate: expect.closeTo(2 / 3, 5),
+      },
+      {
+        category: "lore",
+        accepted: 1,
+        rejected: 0,
+        rejectedNotEntailed: 0,
+        rejectedInfra: 0,
+        acceptanceRate: 1,
+        rawAcceptanceRate: 1,
+      },
+      {
+        // rules: 0 accepted, 1 genuine not-entailed rejection, 1 infra-error
+        // rejection. acceptanceRate excludes the infra one from the
+        // denominator entirely (0/(0+1) = 0); rawAcceptanceRate includes
+        // it (0/(0+1+1) = 0) — both happen to be 0 here, but the counts
+        // prove the two rejections were bucketed distinctly.
+        category: "rules",
+        accepted: 0,
+        rejected: 2,
+        rejectedNotEntailed: 1,
+        rejectedInfra: 1,
+        acceptanceRate: 0,
+        rawAcceptanceRate: 0,
+      },
     ]);
+  });
+});
+
+describe("buildSamplingManifest — outage simulation: infra failures don't tank the entailment acceptance rate", () => {
+  it("keeps acceptanceRate reflecting only genuine not-entailed rejections while rawAcceptanceRate absorbs a burst of infra-error rejections", () => {
+    const accepted = Array.from({ length: 8 }, (_, i) =>
+      outcome({ pairId: `ok-${i}#0`, chunk_id: `brain/judge/kw-ok-${i}`, status: "accepted" }),
+    );
+    const genuinelyBad = Array.from({ length: 2 }, (_, i) =>
+      outcome({
+        pairId: `bad-${i}#0`,
+        chunk_id: `brain/judge/kw-bad-${i}`,
+        status: "rejected",
+        rejectionKind: "not-entailed",
+        reason: "fabricated fact",
+      }),
+    );
+    // A judge-API outage during this run: 10 pairs that never got a real
+    // verdict at all.
+    const outageNoise = Array.from({ length: 10 }, (_, i) =>
+      outcome({
+        pairId: `outage-${i}#0`,
+        chunk_id: `brain/judge/kw-outage-${i}`,
+        status: "rejected",
+        rejectionKind: "infra-error",
+        reason: "judge check failed: 503",
+      }),
+    );
+
+    const manifest = buildSamplingManifest({
+      config: baseConfig(),
+      dryRun: false,
+      pairCount: 20,
+      outcomes: [...accepted, ...genuinelyBad, ...outageNoise],
+      progress: emptyProgress,
+      stoppedEarly: null,
+    });
+
+    expect(manifest.acceptedCount).toBe(8);
+    expect(manifest.rejectedNotEntailedCount).toBe(2);
+    expect(manifest.rejectedInfraCount).toBe(10);
+    expect(manifest.rejectedCount).toBe(12);
+
+    // The entailment-quality signal (8 good out of 10 real verdicts) is
+    // untouched by the outage.
+    expect(manifest.acceptanceRate).toBeCloseTo(8 / 10, 5);
+    // The raw, un-adjusted rate DOES reflect the outage — this is exactly
+    // the number that would mislead a dashboard into thinking pair
+    // quality cratered when really the judge API just had a bad run.
+    expect(manifest.rawAcceptanceRate).toBeCloseTo(8 / 20, 5);
+    expect(manifest.acceptanceRate).toBeGreaterThan(manifest.rawAcceptanceRate);
   });
 });
 
@@ -144,5 +237,7 @@ describe("buildSamplingManifest — dry run", () => {
     expect(manifest.processedCount).toBe(0);
     expect(manifest.acceptedCount).toBe(0);
     expect(manifest.rejectedCount).toBe(0);
+    expect(manifest.rejectedNotEntailedCount).toBe(0);
+    expect(manifest.rejectedInfraCount).toBe(0);
   });
 });
