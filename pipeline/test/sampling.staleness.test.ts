@@ -14,6 +14,8 @@ import os from "node:os";
 import path from "node:path";
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { runSampling, loadSamplingProgress, buildWorkItems, computePairContentHash } from "../src/sampling/sampler.js";
+import { appendAcceptedDurable, appendRejectedDurable, readAcceptedRecords, readRejectedRecords } from "../src/sampling/store.js";
+import type { PairSamplingOutcome } from "../src/sampling/types.js";
 import {
   makeChunksById,
   makePair,
@@ -263,5 +265,119 @@ describe("runSampling — BUG-180 guard: backward compat with pre-guard progress
 
     expect(secondJudge.calls).toHaveLength(1);
     expect(secondResult.staleReprocessedCount).toBe(1);
+  });
+});
+
+describe("runSampling + real store — cross-file consistency on a verdict flip (BUG-180 follow-up)", () => {
+  // Mirrors cli.ts's PRODUCTION onPairComplete wiring exactly (real
+  // appendAcceptedDurable/appendRejectedDurable, not a mock) — this is the
+  // path the previous round of tests never exercised, which is how the
+  // cross-file staleness bug slipped through: progress.json is corrected
+  // by the reconciliation pass, but appendRecordDurable only dedupes
+  // WITHIN its own target file. On a stale reprocess whose verdict flips
+  // (accepted -> rejected or vice versa), the stale record must not be
+  // left dangling in the file it no longer belongs to — dpo.ts reads both
+  // accepted.jsonl and rejected.jsonl, and would otherwise pick up a
+  // pairId present (with conflicting verdicts) in both.
+  function wireStore(acceptedPath: string, rejectedPath: string) {
+    return (outcome: PairSamplingOutcome) => {
+      if (outcome.status === "accepted") {
+        appendAcceptedDurable(acceptedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason, rejectedPath);
+      } else {
+        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.rejectionKind!, outcome.reason, acceptedPath);
+      }
+    };
+  }
+
+  it("accepted -> rejected flip: the stale accepted record is removed from accepted.jsonl, not left dangling alongside the fresh rejection", async () => {
+    const acceptedPath = path.join(tmpDir, "accepted.jsonl");
+    const rejectedPath = path.join(tmpDir, "rejected.jsonl");
+
+    const originalItem = makeWorkItem({
+      pairId: "chunk-1#0",
+      chunk_id: "chunk-1",
+      pair: makePair({ question: "Original Q?", answer: "Original A." }),
+    });
+    await runSampling({
+      workItems: [originalItem],
+      chunksById: makeChunksById([originalItem]),
+      config: config(),
+      judge: makeAlwaysEntailedJudge(),
+      progressPath,
+      sleep: noopSleep,
+      onPairComplete: wireStore(acceptedPath, rejectedPath),
+    });
+    expect(readAcceptedRecords(acceptedPath)).toHaveLength(1);
+    expect(readRejectedRecords(rejectedPath)).toHaveLength(0);
+
+    const regeneratedItem = makeWorkItem({
+      pairId: "chunk-1#0",
+      chunk_id: "chunk-1",
+      pair: makePair({ question: "Regenerated Q?", answer: "Regenerated A." }),
+    });
+    await runSampling({
+      workItems: [regeneratedItem],
+      chunksById: makeChunksById([regeneratedItem]),
+      config: config(),
+      judge: makeMockJudge(() => notEntailedResponse("the regenerated answer isn't supported")),
+      progressPath,
+      sleep: noopSleep,
+      onPairComplete: wireStore(acceptedPath, rejectedPath),
+    });
+
+    // Exactly one record for this pairId across BOTH files — the stale
+    // accepted record must be gone, not merely outnumbered.
+    const acceptedRecords = readAcceptedRecords(acceptedPath);
+    const rejectedRecords = readRejectedRecords(rejectedPath);
+    expect(acceptedRecords).toHaveLength(0);
+    expect(rejectedRecords).toHaveLength(1);
+    expect(rejectedRecords[0].pairId).toBe("chunk-1#0");
+    expect(rejectedRecords[0].question).toBe("Regenerated Q?");
+    expect(rejectedRecords[0].answer).toBe("Regenerated A.");
+  });
+
+  it("rejected -> accepted flip: the stale rejected record is removed from rejected.jsonl, not left dangling alongside the fresh acceptance", async () => {
+    const acceptedPath = path.join(tmpDir, "accepted.jsonl");
+    const rejectedPath = path.join(tmpDir, "rejected.jsonl");
+
+    const originalItem = makeWorkItem({
+      pairId: "chunk-2#0",
+      chunk_id: "chunk-2",
+      pair: makePair({ question: "Bad Q?", answer: "Fabricated answer." }),
+    });
+    await runSampling({
+      workItems: [originalItem],
+      chunksById: makeChunksById([originalItem]),
+      config: config(),
+      judge: makeMockJudge(() => notEntailedResponse()),
+      progressPath,
+      sleep: noopSleep,
+      onPairComplete: wireStore(acceptedPath, rejectedPath),
+    });
+    expect(readRejectedRecords(rejectedPath)).toHaveLength(1);
+    expect(readAcceptedRecords(acceptedPath)).toHaveLength(0);
+
+    const fixedItem = makeWorkItem({
+      pairId: "chunk-2#0",
+      chunk_id: "chunk-2",
+      pair: makePair({ question: "Fixed Q?", answer: "Fixed, grounded answer." }),
+    });
+    await runSampling({
+      workItems: [fixedItem],
+      chunksById: makeChunksById([fixedItem]),
+      config: config(),
+      judge: makeAlwaysEntailedJudge(),
+      progressPath,
+      sleep: noopSleep,
+      onPairComplete: wireStore(acceptedPath, rejectedPath),
+    });
+
+    const acceptedRecords = readAcceptedRecords(acceptedPath);
+    const rejectedRecords = readRejectedRecords(rejectedPath);
+    expect(rejectedRecords).toHaveLength(0);
+    expect(acceptedRecords).toHaveLength(1);
+    expect(acceptedRecords[0].pairId).toBe("chunk-2#0");
+    expect(acceptedRecords[0].question).toBe("Fixed Q?");
+    expect(acceptedRecords[0].answer).toBe("Fixed, grounded answer.");
   });
 });
