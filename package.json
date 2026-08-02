@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "Monorepo root: fab-cli (FAB CLI), fab-app (companion mobile app), pipeline (training/artifact pipeline)",
+  "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
     "gate": "pnpm -r --if-present run gate",
     "typecheck": "pnpm -r --if-present run typecheck",
