@@ -4,7 +4,7 @@ import { FakeApiError } from "./qa.helpers.js";
 
 describe("withRetry", () => {
   it("retries retryable failures (429/5xx) with exponential backoff, then returns the eventual success", async () => {
-    const sleep = vi.fn(async () => {});
+    const sleep = vi.fn(async (_ms: number) => {});
     let attempts = 0;
     const fn = vi.fn(async () => {
       attempts++;
@@ -22,7 +22,7 @@ describe("withRetry", () => {
   });
 
   it("retries on 5xx the same as 429", async () => {
-    const sleep = vi.fn(async () => {});
+    const sleep = vi.fn(async (_ms: number) => {});
     let attempts = 0;
     const fn = vi.fn(async () => {
       attempts++;
@@ -37,7 +37,7 @@ describe("withRetry", () => {
   });
 
   it("does not retry a non-retryable error (e.g. 400) and throws immediately", async () => {
-    const sleep = vi.fn(async () => {});
+    const sleep = vi.fn(async (_ms: number) => {});
     const err = new FakeApiError(400, "bad request");
     const fn = vi.fn(async () => {
       throw err;
@@ -49,7 +49,7 @@ describe("withRetry", () => {
   });
 
   it("throws the last error once retries are exhausted", async () => {
-    const sleep = vi.fn(async () => {});
+    const sleep = vi.fn(async (_ms: number) => {});
     const fn = vi.fn(async () => {
       throw new FakeApiError(429);
     });
@@ -62,7 +62,7 @@ describe("withRetry", () => {
   });
 
   it("supports a custom isRetryable predicate", async () => {
-    const sleep = vi.fn(async () => {});
+    const sleep = vi.fn(async (_ms: number) => {});
     let attempts = 0;
     const fn = vi.fn(async () => {
       attempts++;
