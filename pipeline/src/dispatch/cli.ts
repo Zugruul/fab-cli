@@ -13,8 +13,12 @@
  *   tsx src/dispatch/cli.ts pull   --run-id <id> [config flags] [--remote-artifact-dir DIR] [--local-dest PATH]
  *
  * Config flags (override DEFAULT_DISPATCH_CONFIG, apply to any subcommand):
- *   --host <alias> --remote-base <path> --python-path <path>
+ *   --host <alias> --remote-base <path>
  *   --nvidia-smi-path <path> --session-prefix <prefix>
+ *
+ * No --python-path flag: nothing here invokes python directly — put the
+ * full remote interpreter path (e.g. ~/.venv/bin/python3) as the first
+ * element of the trainArgv passed to `launch`.
  */
 import { spawn } from "node:child_process";
 import { Dispatcher } from "./dispatcher.js";
@@ -72,7 +76,6 @@ export function parseArgs(argv: string[]): CliArgs {
     if (arg === "--run-id" && rest[i + 1]) args.runId = rest[++i];
     else if (arg === "--host" && rest[i + 1]) config.host = rest[++i];
     else if (arg === "--remote-base" && rest[i + 1]) config.remoteBase = rest[++i];
-    else if (arg === "--python-path" && rest[i + 1]) config.pythonPath = rest[++i];
     else if (arg === "--nvidia-smi-path" && rest[i + 1]) config.nvidiaSmiPath = rest[++i];
     else if (arg === "--session-prefix" && rest[i + 1]) config.tmuxSessionPrefix = rest[++i];
     else if (arg === "--tail-lines" && rest[i + 1]) args.tailLines = Number(rest[++i]);
