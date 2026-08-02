@@ -11,7 +11,8 @@
     "test": "vitest run",
     "gate": "npm run typecheck && npm run test:run",
     "export": "tsx src/cli.ts",
-    "qa:generate": "tsx src/qa/cli.ts"
+    "qa:generate": "tsx src/qa/cli.ts",
+    "behavior:build": "tsx src/behavior/cli.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0"

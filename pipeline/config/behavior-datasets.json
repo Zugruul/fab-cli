@@ -1,0 +1,34 @@
+{
+  "_comment": "SPEC-APP.md §7.5-§7.6 behavior-training dataset builder config. seed controls every deterministic sampling step (distractor selection, abstention context selection) — the same seed against the same chunks.jsonl/qa-pairs.jsonl always reproduces byte-identical output.",
+  "seed": 20260802,
+  "distractor": {
+    "_comment": "§7.5a — K distractor chunks bundled alongside the relevant one per accepted pair.",
+    "k": 3,
+    "minCount": 20
+  },
+  "abstention": {
+    "_comment": "§7.5b — context chunks are sampled from chunks topically unrelated to the question's source chunk (no shared tag, not linked). messageTemplate/escalationText are the structured-abstention target's answer + judge-escalation pointer (same #ask-a-judge contract `rules ask` uses).",
+    "contextSize": 3,
+    "minCount": 20,
+    "messageTemplate": "The retrieved sources don't clearly settle this — I don't want to guess.",
+    "escalationText": "If you need a ruling, ask a judge in #ask-a-judge: https://discord.com/channels/874145774135558164/1020649907314495528"
+  },
+  "ood": {
+    "_comment": "§7.5c — every template in config/ood-templates.json becomes one example; minCount is a floor on the bank's total size, enforced loudly (AbstentionBench lesson: phrasing breadth matters more than volume).",
+    "minCount": 40,
+    "refusalTemplate": "I'm built to answer Flesh & Blood questions only — rules, cards, decks, and lore. I can't help with that, but I'm glad to help with anything FAB-related."
+  },
+  "dpo": {
+    "_comment": "§7.6 — chosen = a hedge prefix (rotated round-robin across pairs) applied to the accepted answer; rejected = a real teacher-rejected answer when APP-012 provides one for the same question, else a rule-based synthetic degradation (citation stripped, or an overconfident-framing prefix applied) rotated round-robin across the two synthetic subtypes.",
+    "minCount": 15,
+    "degradation": {
+      "hedgePrefixes": [
+        "Based on the cited source: ",
+        "According to the rules text: ",
+        "Per the source chunk: ",
+        "Citing the relevant passage: "
+      ],
+      "confidentWrongPrefix": "Definitely — no exceptions, no need to check further: "
+    }
+  }
+}

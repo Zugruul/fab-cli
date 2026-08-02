@@ -1,0 +1,92 @@
+{
+  "sports": [
+    "What's the offside rule in soccer?",
+    "How many players are on a basketball team?",
+    "explain the infield fly rule",
+    "Who won the World Cup in 2022?",
+    "quick q — how long is a marathon?",
+    "Can you tell me the scoring system in tennis?",
+    "yards needed for a first down in football?"
+  ],
+  "cooking": [
+    "How do I make a roux for gravy?",
+    "What temperature should chicken be cooked to?",
+    "best way to caramelize onions?",
+    "Give me a recipe for banana bread.",
+    "substitute for buttermilk in baking?",
+    "how long do I boil an egg for it to be hard-boiled",
+    "What's the difference between baking soda and baking powder?"
+  ],
+  "other-card-games": [
+    "What does Lightning Bolt do in Magic: The Gathering?",
+    "Explain the stack in MTG.",
+    "how does mulligan work in Magic: The Gathering",
+    "What's a Pokemon TCG energy card?",
+    "Rules for Yu-Gi-Oh! chain links?",
+    "Is Force of Will still tournament legal?",
+    "define 'commander damage' in EDH"
+  ],
+  "tech-support": [
+    "My laptop won't turn on, what do I do?",
+    "How do I factory reset an iPhone?",
+    "wifi keeps disconnecting, help",
+    "Explain what a VPN does.",
+    "how to clear cache on chrome",
+    "Why is my printer offline?",
+    "steps to update graphics drivers on windows"
+  ],
+  "math": [
+    "What's the derivative of x^2?",
+    "Solve for x: 2x + 5 = 15",
+    "explain the pythagorean theorem",
+    "how do you calculate compound interest",
+    "What is a prime number?",
+    "convert 3/4 to a decimal",
+    "quick — what's 17 times 23?"
+  ],
+  "geography": [
+    "What's the capital of Australia?",
+    "name the longest river in the world",
+    "How many countries are in Africa?",
+    "Where is Mount Kilimanjaro located?",
+    "what timezone is Tokyo in",
+    "list the seven continents",
+    "distance between New York and London?"
+  ],
+  "movies-and-tv": [
+    "Who directed The Godfather?",
+    "what's the highest grossing movie of all time",
+    "recommend a good sci-fi show",
+    "explain the ending of Inception",
+    "who played the Joker in The Dark Knight",
+    "best comedy movies from the 90s?",
+    "is there a new season of that detective show coming out?"
+  ],
+  "personal-advice": [
+    "How do I ask for a raise at work?",
+    "tips for getting better sleep",
+    "What should I say in a job interview?",
+    "how to start a budget",
+    "advice for a first date",
+    "How do I deal with a difficult coworker?",
+    "best way to learn a new language"
+  ],
+  "weather": [
+    "Will it rain tomorrow in Seattle?",
+    "what's a hurricane category scale",
+    "explain how tornadoes form",
+    "current temperature in Miami",
+    "difference between a watch and a warning",
+    "why does it snow",
+    "forecast for this weekend"
+  ],
+  "general-trivia": [
+    "Who was the first person on the moon?",
+    "what year did World War 2 end",
+    "name the planets in order from the sun",
+    "How many bones are in the human body?",
+    "who wrote Romeo and Juliet",
+    "fastest land animal?",
+    "what's the speed of light"
+  ]
+}
