@@ -19,6 +19,7 @@ import path from "node:path";
 import { readPairsRecords } from "../qa/pairsStore.js";
 import { readAcceptedRecords, readRejectedRecords } from "../sampling/store.js";
 import { assembleDataset } from "./assemble.js";
+import { assertLegalityGuard } from "./legalityGuard.js";
 import { buildDatasetManifest, type CorpusSnapshotRef } from "./manifest.js";
 import { writeDataset } from "./write.js";
 import type { SplitConfig } from "./split.js";
@@ -143,6 +144,12 @@ function main(): void {
     dpoPairs,
     split: config,
   });
+
+  // SPEC-APP.md §7.9 (APP-015): final-output guard, re-derived independently
+  // of what assembleDataset's inputs already claim about themselves — see
+  // legalityGuard.ts's doc comment for the exact gap this closes. Runs
+  // before any write, so a violation aborts the build with nothing on disk.
+  assertLegalityGuard(examples, chunks);
 
   const manifest = buildDatasetManifest({
     examples,
