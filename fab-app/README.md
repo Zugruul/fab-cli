@@ -7,8 +7,10 @@ offline catalog with QR/BC-UR sharing.
 
 This package is the APP-030 scaffold: RN 0.86.2 project (generated via
 `@react-native-community/cli init`), the four native pillars wired in, and a device smoke
-screen (`src/smokeScreen/`) that exercises all four. Everything beyond the scaffold + smoke
-screen (Q&A, scanning, catalog, artifact manager) is later work per `SPEC-APP.md` §9.2 onward.
+screen (`src/smokeScreen/`) that exercises all four. #217 added the app-language layer
+(English + Brazilian Portuguese — see "Language (i18n)" below). Everything else beyond the
+scaffold + smoke screen (Q&A, scanning, catalog, artifact manager) is later work per
+`SPEC-APP.md` §9.2 onward.
 
 ## Dev
 
@@ -72,6 +74,48 @@ omitting them makes `pod install` fail with `Unable to find a specification for 
 | `react-native-vision-camera` | card scanning | requests camera permission, reports discovered devices (`SmokeScreen.tsx`, hook-based) |
 | `react-native-fast-tflite` | on-device card-detector inference | confirms the module's `loadTensorflowModel` export loads (no bundled model yet) |
 
+## Language (i18n)
+
+`src/i18n/` (#217, `../SPEC-APP.md` §9.11) provides English (`en`, source of truth) and
+Brazilian Portuguese (`pt-BR`) for every user-facing UI string in the app — the knowledge
+corpus, retrieval results, and model answers (§10 onward) stay English-only in this version;
+this is UI chrome only. Framework: [react-i18next](https://react.i18next.com/) — both
+react-i18next and Lingui work fully offline with bundles compiled into the JS bundle, but
+react-i18next needed no extra build tooling (Lingui's message catalogs need their own compile
+step) and its `useTranslation()`/`t()` API composes directly with plain JSON resource bundles
+and `react-test-renderer`, which is what this repo's screen tests already use.
+
+- **Bundles**: `src/i18n/locales/{en,pt-BR}.json`, imported directly (`resolveJsonModule`) — no
+  runtime network fetch, per `../SPEC-APP.md` §13 invariant 5.
+- **Locale resolution**: `src/i18n/resolveLocale.ts` — an explicit manual override wins; else
+  the device/system locale is mapped via `src/i18n/systemLocale.ts` (reads
+  `Intl.DateTimeFormat().resolvedOptions().locale`, no new native module — deliberately not
+  `react-native-localize`, which the jest gate can't exercise): any `pt-*` locale → `pt-BR`,
+  everything else → `en`.
+- **Manual override**: persisted on-device via `src/i18n/languageStore.ts`, backed by
+  `@op-engineering/op-sqlite` (already a dependency — no new native module) in
+  `src/i18n/defaultLanguagePreferenceStore.ts`. `App.tsx` renders `LanguageSwitcher` (the
+  minimal settings surface — no navigation library yet) above the smoke screen; tapping an
+  option persists the choice and switches the running UI language immediately, no reinstall.
+- **App start sequence**: `I18nProvider` resolves the system locale synchronously (so first
+  paint is already correct for anyone who's never set an override) and applies a persisted
+  override shortly after mount, once the single async db read resolves — see the top-of-file
+  comment in `src/i18n/I18nProvider.tsx` for the one-render-at-system-locale tradeoff this
+  implies for a returning user with a saved override.
+- **Gate enforcement** (both run inside `npm run gate`, offline):
+  - **No hardcoded literals**: `.eslintrc.js`'s `react/jsx-no-literals` override (an existing
+    transitive dependency of `@react-native/eslint-config` — no new package), scoped to
+    `App.tsx` + `src/**/*.tsx`, excluding test files (fixture text in a test isn't shipped UI
+    copy). Exercised end to end by `src/i18n/__tests__/noHardcodedJsxLiterals.test.ts`, which
+    runs the project's real ESLint config against fixtures.
+  - **en/pt-BR key parity**: `src/i18n/checkParity.ts`, exercised by
+    `src/i18n/__tests__/checkParity.test.ts` against both fixtures and the real shipped
+    bundles — a PR that adds an `en` key without its `pt-BR` translation fails this test.
+- **Consent-screen translation** (`src/onboarding/screens/ConsentScreen.tsx`): translated
+  faithfully, but its Portuguese legal/consent text needs a human legal/content review before
+  release — a named release gate (like the §9.10 TestFlight pipeline), not something the merge
+  gate substitutes for.
+
 ## Testing
 
 `npm run test` runs Jest with all four native packages replaced by hand-written stubs
@@ -79,7 +123,11 @@ omitting them makes `pod install` fail with `Unable to find a specification for 
 binding available in a headless CI/jest environment (no simulator/device), so this is required
 for the suite to run at all, not just a nicety. Unit tests cover the pure smoke-screen state
 machine (`src/smokeScreen/reducer.test.ts`, `summary.test.ts`) and a light render smoke test
-(`__tests__/App.test.tsx`).
+(`__tests__/App.test.tsx`) — note `react-native-safe-area-context`'s `SafeAreaProvider` renders
+null children under jest (no native initial-insets event fires headlessly), so that test can
+only assert `App()` mounts without throwing, not on rendered content; screen-level content
+(including translated output in both locales) is asserted directly in each screen's own test
+file instead.
 
 **The device smoke test itself (SPEC-APP.md §9.1, §15 "Device (release-gating,
 manual/scripted)") is not part of this suite and is not run in CI.** It's a manual, human-run
