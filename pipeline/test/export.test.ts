@@ -189,4 +189,48 @@ describe("runExport", () => {
       }
     });
   });
+
+  // BUG-191: shippedContentHash — hash over the actually-shipped
+  // (post-shipping-mode) chunk set, distinct from contentHash which stays
+  // put across a shipping-mode flip since the underlying corpus didn't
+  // change.
+  describe("BUG-191 shippedContentHash", () => {
+    it("stamps a 64-hex shippedContentHash on the real emitted manifest", () => {
+      const { manifest } = runExport(baseConfig());
+      expect(manifest.shippedContentHash).toMatch(/^[a-f0-9]{64}$/);
+    });
+
+    it("shippedContentHash differs from contentHash when a source ships stubbed (lore: stub in the real fixture config)", () => {
+      const { manifest } = runExport(baseConfig());
+      expect(manifest.shippedContentHash).not.toBe(manifest.contentHash);
+    });
+
+    it("shippedContentHash equals contentHash when every source ships verbatim (no stubbing)", () => {
+      const config = baseConfig();
+      config.shippingModesPath = path.join(FIXTURES, "shipping-modes-lore-verbatim.json");
+      const { manifest } = runExport(config);
+      expect(manifest.shippedContentHash).toBe(manifest.contentHash);
+    });
+
+    it("a shipping-mode flip (lore: stub -> verbatim) changes shippedContentHash but NOT contentHash", () => {
+      const { manifest: stubbed } = runExport(baseConfig());
+
+      const flipped = baseConfig();
+      flipped.shippingModesPath = path.join(FIXTURES, "shipping-modes-lore-verbatim.json");
+      const { manifest: verbatim } = runExport(flipped);
+
+      // same corpus content either way: mode is a redistribution-policy
+      // decision, not new content, so contentHash must not move
+      expect(verbatim.contentHash).toBe(stubbed.contentHash);
+      // shipped bytes genuinely differ (stub marker vs real lore text)
+      expect(verbatim.shippedContentHash).not.toBe(stubbed.shippedContentHash);
+    });
+
+    it("identical shipping modes across two runs produce identical contentHash and shippedContentHash", () => {
+      const first = runExport(baseConfig());
+      const second = runExport(baseConfig());
+      expect(second.manifest.contentHash).toBe(first.manifest.contentHash);
+      expect(second.manifest.shippedContentHash).toBe(first.manifest.shippedContentHash);
+    });
+  });
 });

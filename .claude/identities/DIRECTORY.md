@@ -5736,6 +5736,7 @@ _(no notes)_
 - **zone-move-and-reset-rulings** — [cr, adjudication, zones]
 
 ## orchestrator
+- **adversarial-review-cadence** — [review, process, quality]
 - **api-reverse-engineering-with-human-capture** — [api, reverse-engineering, agents, pattern]
 - **auth-token-belongs-at-command-layer-not-data-module** — [auth, architecture, briefing]
 - **background-session-cwd-resets-between-calls** — [shell, cwd, background-session, git, false-alarm]
@@ -5756,6 +5757,7 @@ _(no notes)_
 - **design-doc-specifies-doc-task-tdd-test-shape** — [design-doc, tdd, docs, briefing]
 - **directory-bloat-generated-brains** — [brains, directory]
 - **distill-external-docs-via-agent-fanout** — [brains, ingestion, agents, pattern]
+- **durable-handoff-with-expiring-consents** — [handoff, process, consent]
 - **epic-scoped-merge-authorization** — [process, permissions, auto-merge]
 - **exclude-worktree-spawn-dir-from-test-discovery-proactively** — [testing, worktree, concurrency, config]
 - **fill-before-match-ordering** — [pricing, design, sequencing]

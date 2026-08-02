@@ -58,7 +58,19 @@ export interface DocumentVersion {
 export interface CorpusSnapshotManifest {
   schemaVersion: string;
   exportDate: string;
+  /** Order-independent hash over every chunk's `{chunk_id, text}` BEFORE
+   * §7.10 shipping-mode enforcement — the corpus's identity / training
+   * input. A shipping-mode flip (verbatim/paraphrase/stub) is a
+   * redistribution-policy decision, not new corpus content, so this hash
+   * doesn't move when only the shipping mode changes. See
+   * `shippedContentHash` for the shipped-bytes counterpart. */
   contentHash: string;
+  /** Same hash computation as `contentHash`, but over the POST-shipping-mode
+   * chunk set — the actual bytes that ship in `chunks.jsonl`. A
+   * shipping-mode flip (e.g. a source moving from verbatim to stub) changes
+   * this hash even though `contentHash` stays put, making the flip
+   * observable in the manifest and distinct from a corpus change. */
+  shippedContentHash: string;
   chunkCount: number;
   crVersion: string;
   documentVersions: DocumentVersion[];

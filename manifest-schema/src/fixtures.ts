@@ -18,6 +18,7 @@ export const validCorpusSnapshotManifest: CorpusSnapshotManifest = {
   schemaVersion: "0.1.0",
   exportDate: "2026-08-01T00:00:00.000Z",
   contentHash: "d".repeat(64),
+  shippedContentHash: "e".repeat(64),
   chunkCount: 2,
   crVersion: "Wed, 10 Jun 2026 19:43:38 GMT",
   documentVersions: [
@@ -48,6 +49,14 @@ export const invalidCorpusSnapshotManifestMissingShippingMode: unknown = {
  * set code, and legality-policy fetch date). */
 export const invalidCorpusSnapshotManifestMissingLegalityPolicyFetchedAt: unknown = (() => {
   const { legalityPolicyFetchedAt: _legalityPolicyFetchedAt, ...rest } = validCorpusSnapshotManifest;
+  return rest;
+})();
+
+/** Invalid: shippedContentHash omitted entirely (BUG-191 — the exporter
+ * always stamps both contentHash and shippedContentHash so a shipping-mode
+ * flip is observable in the manifest, distinct from a corpus change). */
+export const invalidCorpusSnapshotManifestMissingShippedContentHash: unknown = (() => {
+  const { shippedContentHash: _shippedContentHash, ...rest } = validCorpusSnapshotManifest;
   return rest;
 })();
 
