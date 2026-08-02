@@ -757,3 +757,79 @@ items:
     action: brain-note
     ref: reviewer/verdict-time-ref-freshness-fetch-never-moves-local-branches (mutation
       spot-check clause) + dev/fab-app-jest-patterns note
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T00:20:00Z'
+iteration:
+  task: '218'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: brains
+  severity: low
+  summary: Lessons minted from the previous iteration's failures were pre-briefed
+    and both failure modes did not recur
+  detail: 'The deps-chore-after-red commit-ordering lesson and the reviewer freshness
+    protocol (both minted after the prior task) were pasted into the dev and reviewer
+    briefs; commit ordering was correct first try and the reviewer stated its reviewed
+    SHA and re-checked freshness before both verdicts.
+
+    '
+  evidence:
+  - fab-cli#218
+  - fab-cli#217
+  generalized: 'Minting concrete lessons immediately at retro and pasting them into
+    the very next iteration''s briefs measurably prevents recurrence; the loop should
+    keep recall-injection mandatory for both dev and reviewer briefs.
+
+    '
+  routing:
+    action: brain-note
+    ref: recall-injection loop working as designed; evidence recorded in retro commit
+- category: friction
+  area: review
+  severity: low
+  summary: A PR body described a deliverable as done that existed only as intent,
+    costing a review round
+  detail: 'The PR body claimed the spec delta carried a design-doc extension note;
+    the committed file had no such note. The reviewer caught it by grepping the artifact
+    for the claim''s keywords.
+
+    '
+  evidence:
+  - fab-cli#218
+  generalized: 'PR bodies get written from memory of intent, not from the diff; both
+    sides need the mechanical guard - authors grep their changed files for each PR-body
+    claim''s keywords before finalizing, reviewers treat every "doc X notes Y" sentence
+    as a testable assertion and grep before trusting.
+
+    '
+  routing:
+    action: brain-note
+    ref: dev/pr-body-claims-must-exist-in-committed-artifacts + reviewer/grep-doc-claims-as-testable-assertions
+- category: friction
+  area: testing
+  severity: low
+  summary: A token-optimizing test-runner wrapper hid which assertion failed, obstructing
+    red-test verification
+  detail: 'The rtk jest wrapper collapses verbose output to one PASS/FAIL line; the
+    dev needed the raw-command escape hatch (rtk proxy) to see real failures when
+    proving the red commit failed for the right reasons.
+
+    '
+  evidence:
+  - fab-cli#218
+  generalized: 'Output-compressing command wrappers must have a documented raw-output
+    escape hatch, and TDD briefs should name it - verifying that failing tests fail
+    for the RIGHT reason requires full runner output, which summary-collapsing wrappers
+    structurally hide.
+
+    '
+  routing:
+    action: brain-note
+    ref: dev/rtk-jest-wrapper-hides-failures-use-rtk-proxy
