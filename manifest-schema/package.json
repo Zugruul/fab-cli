@@ -1,0 +1,27 @@
+{
+  "name": "@fab/manifest-schema",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Shared manifest/compatibility schema (corpus snapshot, model pack, knowledge pack, delta pack, revocation list) consumed by both pipeline/ (producer) and fab-app (consumer). SPEC-APP.md §7.11.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test:run": "vitest run",
+    "test": "vitest run",
+    "gate": "npm run typecheck && npm run test:run"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.10"
+  }
+}

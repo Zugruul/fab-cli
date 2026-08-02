@@ -10,10 +10,10 @@ function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
 }
 
-test("pnpm-workspace.yaml lists the three workspace packages", () => {
+test("pnpm-workspace.yaml lists the four workspace packages", () => {
   assert.ok(existsSync("pnpm-workspace.yaml"), "pnpm-workspace.yaml must exist at repo root");
   const text = readFileSync("pnpm-workspace.yaml", "utf8");
-  for (const pkg of ["fab-cli", "fab-app", "pipeline"]) {
+  for (const pkg of ["fab-cli", "fab-app", "pipeline", "manifest-schema"]) {
     assert.match(
       text,
       new RegExp(`(^|\\n)\\s*-\\s*["']?${pkg}["']?\\s*(\\n|$)`),
@@ -23,7 +23,7 @@ test("pnpm-workspace.yaml lists the three workspace packages", () => {
 });
 
 test("each workspace package has its own package.json", () => {
-  for (const dir of ["fab-cli", "fab-app", "pipeline"]) {
+  for (const dir of ["fab-cli", "fab-app", "pipeline", "manifest-schema"]) {
     const pkgPath = `${dir}/package.json`;
     assert.ok(existsSync(pkgPath), `${pkgPath} must exist`);
     const pkg = readJson(pkgPath);
@@ -61,7 +61,7 @@ test("fab-cli/package.json declares GPL-3.0-only and has a matching LICENSE file
   assert.match(text, /Version 3/, "fab-cli/LICENSE must be GPL version 3");
 });
 
-for (const dir of ["fab-app", "pipeline"]) {
+for (const dir of ["fab-app", "pipeline", "manifest-schema"]) {
   test(`${dir}/package.json declares MIT and has a matching LICENSE file`, () => {
     const pkg = readJson(`${dir}/package.json`);
     assert.equal(pkg.license, "MIT", `${dir}/package.json license field must be MIT`);
@@ -78,7 +78,7 @@ test("root LICENSE.md is a per-package pointer, not a repo-wide GPL claim", () =
     /GNU GENERAL PUBLIC LICENSE/,
     "root LICENSE.md must not contain the full GPL text (that belongs to fab-cli/LICENSE only)",
   );
-  for (const pkg of ["fab-cli", "fab-app", "pipeline"]) {
+  for (const pkg of ["fab-cli", "fab-app", "pipeline", "manifest-schema"]) {
     assert.match(text, new RegExp(pkg), `root LICENSE.md must mention ${pkg}`);
   }
   assert.match(text, /GPL-3\.0/, "root LICENSE.md must note fab-cli's GPL-3.0-only license");
@@ -93,10 +93,10 @@ test("root package.json has no repo-wide license claim (private monorepo root)",
   );
 });
 
-test("GPL isolation: fab-app and pipeline must never depend on fab-cli (workspace or otherwise)", () => {
+test("GPL isolation: fab-app, pipeline, and manifest-schema must never depend on fab-cli (workspace or otherwise)", () => {
   const depFields = ["dependencies", "devDependencies", "peerDependencies", "optionalDependencies"];
   const forbidden = ["fab-cli", "fabrary-search"];
-  for (const dir of ["fab-app", "pipeline"]) {
+  for (const dir of ["fab-app", "pipeline", "manifest-schema"]) {
     const pkg = readJson(`${dir}/package.json`);
     for (const field of depFields) {
       const deps = pkg[field];

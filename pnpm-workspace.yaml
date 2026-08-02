@@ -2,3 +2,4 @@ packages:
   - fab-cli
   - fab-app
   - pipeline
+  - manifest-schema
