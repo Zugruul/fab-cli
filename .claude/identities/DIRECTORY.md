@@ -5776,6 +5776,7 @@ _(no notes)_
 - **rebase-retro-commit-on-concurrent-push-rejection** — [git, concurrency, merge]
 - **recall-before-mint-to-avoid-duplicate-notes** — [brains, retro, mint, hygiene]
 - **recall-needs-structural-links** — [brains, recall, links, generators]
+- **regate-second-merge-on-fresh-main** — [merge, concurrency, gate]
 - **replacement-branch-instead-of-force-push** — [git, permissions, process]
 - **require-independent-verification-when-briefing-knowledge-agents** — [briefing, verification, knowledge-base]
 - **route-fixes-back-to-same-reviewer-for-round-2-not-unilateral-judgment** — [review, fix-rounds, orchestration]
