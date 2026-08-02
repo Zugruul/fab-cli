@@ -10,3 +10,8 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "independently-reproduce-regression-catch-proof", "task": "218", "ts": "2026-08-02T23:18:10+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "cross-check-claims-against-artifacts-not-written-to-be-read", "task": "218", "ts": "2026-08-02T23:18:11+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verdict-time-ref-freshness-fetch-never-moves-local-branches", "task": "218", "ts": "2026-08-02T23:18:11+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "reproduce-gate-claims", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "independently-reproduce-regression-catch-proof", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "grep-doc-claims-as-testable-assertions", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verdict-time-ref-freshness-fetch-never-moves-local-branches", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "fab-cli-worktree-and-mutation-flow-facts", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
