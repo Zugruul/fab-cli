@@ -136,6 +136,23 @@ export const invalidKnowledgePackManifestMissingOodThreshold: unknown = {
   indexFiles: [{ name: "chunks.sqlite", sha256: "e".repeat(64) }],
 };
 
+/** Invalid: oodThreshold equal to retrievalFloor — §10.9 requires the OOD
+ * fast-path threshold to be calibrated "well below the abstention floor",
+ * so equal values are rejected, not just greater ones. */
+export const invalidKnowledgePackManifestOodThresholdEqualsFloor: unknown = {
+  ...validKnowledgePackManifest,
+  retrievalFloor: 0.3,
+  oodThreshold: 0.3,
+};
+
+/** Invalid: oodThreshold above retrievalFloor — the inverted case of §10.9's
+ * "well below the abstention floor" calibration requirement. */
+export const invalidKnowledgePackManifestOodThresholdAboveFloor: unknown = {
+  ...validKnowledgePackManifest,
+  retrievalFloor: 0.3,
+  oodThreshold: 0.5,
+};
+
 // --- Delta pack manifest ------------------------------------------------------
 
 export const validDeltaPackManifest: DeltaPackManifest = {

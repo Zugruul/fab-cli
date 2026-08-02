@@ -111,4 +111,74 @@ describe("expandLinks", () => {
 
     expect(result.get("a")).toEqual({ chunkId: "a", activation: 1.0, stage: "semantic" });
   });
+
+  // Amplification hardening (#196 review): the spec is silent on link
+  // weight bounds, so a link.weight > 1/hopDecay could otherwise let
+  // activation grow hop over hop instead of decaying. Decision: propagated
+  // activation is clamped to never exceed the source's own activation
+  // (effective per-hop multiplier is min(1, hopDecay * link.weight)) —
+  // amplification is never sensible for spreading activation outward.
+
+  it("does not oscillate or grow across an A<->B mutual-link cycle at weight 1 — bounded by maxHops", () => {
+    const corpus = new InMemoryChunkCorpus([
+      chunk({ id: "a", links: [{ targetId: "b", weight: 1 }] }),
+      chunk({ id: "b", links: [{ targetId: "a", weight: 1 }] }),
+    ]);
+    const cycleConfig: RetrievalConfig = { ...config, maxHops: 5 };
+
+    const result = expandLinks(seed("a", 1.0), corpus, cycleConfig);
+
+    // a -> b: 1.0 * 0.5 = 0.5; b -> a: 0.5 * 0.5 = 0.25, never exceeds a's
+    // existing 1.0 seed activation, so nothing ever grows round-trip over
+    // round-trip despite 5 hops being available.
+    expect(result.get("a")?.activation).toBeCloseTo(1.0, 10);
+    expect(result.get("b")?.activation).toBeCloseTo(0.5, 10);
+  });
+
+  it("clamps a link weight > 1/hopDecay so propagated activation never exceeds the source's activation", () => {
+    const corpus = new InMemoryChunkCorpus([
+      chunk({ id: "a", links: [{ targetId: "b", weight: 10 }] }), // hopDecay(0.5) * 10 = 5, unclamped would amplify 5x
+      chunk({ id: "b" }),
+    ]);
+
+    const result = expandLinks(seed("a", 1.0), corpus, config);
+
+    // effective multiplier clamped to min(1, 0.5 * 10) = 1, so b's
+    // activation equals (never exceeds) a's source activation.
+    expect(result.get("b")?.activation).toBeCloseTo(1.0, 10);
+    expect(result.get("b")!.activation).toBeLessThanOrEqual(1.0);
+  });
+
+  it("does not amplify across a mutual-link cycle even when both links have weight > 1/hopDecay", () => {
+    const corpus = new InMemoryChunkCorpus([
+      chunk({ id: "a", links: [{ targetId: "b", weight: 3 }] }),
+      chunk({ id: "b", links: [{ targetId: "a", weight: 3 }] }),
+    ]);
+    const cycleConfig: RetrievalConfig = { ...config, maxHops: 6 };
+
+    const result = expandLinks(seed("a", 1.0), corpus, cycleConfig);
+
+    // Every hop clamps to multiplier 1 (min(1, 0.5*3)), so activation just
+    // passes through unchanged — it never exceeds the original seed value
+    // no matter how many hops the cycle runs for.
+    expect(result.get("a")!.activation).toBeLessThanOrEqual(1.0);
+    expect(result.get("b")!.activation).toBeLessThanOrEqual(1.0);
+    expect(result.get("a")?.activation).toBeCloseTo(1.0, 10);
+    expect(result.get("b")?.activation).toBeCloseTo(1.0, 10);
+  });
+
+  it("weight <= 1/hopDecay is unaffected by the clamp (regression: unchanged from pre-hardening behavior)", () => {
+    const corpus = new InMemoryChunkCorpus([
+      chunk({ id: "a", links: [{ targetId: "b", weight: 1 }] }),
+      chunk({ id: "b" }),
+      chunk({ id: "c", links: [{ targetId: "d", weight: 0.4 }] }),
+      chunk({ id: "d" }),
+    ]);
+
+    const resultB = expandLinks(seed("a", 1.0), corpus, config);
+    const resultD = expandLinks(seed("c", 1.0), corpus, config);
+
+    expect(resultB.get("b")?.activation).toBeCloseTo(0.5, 10); // 1.0 * 0.5 * 1, unclamped since 0.5*1 <= 1
+    expect(resultD.get("d")?.activation).toBeCloseTo(0.2, 10); // 1.0 * 0.5 * 0.4, unclamped since 0.5*0.4 <= 1
+  });
 });
