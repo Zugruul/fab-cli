@@ -26,6 +26,7 @@ function qaExample(chunkId: string, overrides: Partial<DatasetExample> = {}): Da
     exampleType: "qa",
     chunkId,
     split: "train",
+    adjudicationCritical: false,
     payload: {
       id: `qa-${chunkId}`,
       chunk_id: chunkId,
@@ -46,6 +47,7 @@ function distractorDatasetExample(chunkId: string, timeSensitive: boolean): Data
     exampleType: "distractor",
     chunkId,
     split: "train",
+    adjudicationCritical: false,
     payload,
   } as DatasetExample;
 }
@@ -58,6 +60,7 @@ function dpoDatasetExample(chunkId: string): DatasetExample {
     exampleType: "dpo",
     chunkId,
     split: "train",
+    adjudicationCritical: false,
     payload,
   } as DatasetExample;
 }
@@ -69,6 +72,7 @@ function abstentionDatasetExample(chunkId: string): DatasetExample {
     exampleType: "abstention",
     chunkId,
     split: "train",
+    adjudicationCritical: false,
     payload: {
       id: `abstention-${chunkId}`,
       category: "abstention",
@@ -87,6 +91,7 @@ function oodDatasetExample(): DatasetExample {
     exampleType: "ood",
     chunkId: null,
     split: "train",
+    adjudicationCritical: false,
     payload: { id: "ood-1", category: "ood", style: "sports", question: "q?", target: { answer: "a", citation_ids: [], confidence: "high" } },
   } as DatasetExample;
 }
