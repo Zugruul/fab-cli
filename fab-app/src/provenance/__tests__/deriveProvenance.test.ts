@@ -7,29 +7,24 @@
 import { validCorpusSnapshotManifest, validKnowledgePackManifest } from "@fab/manifest-schema";
 import { deriveProvenance } from "../deriveProvenance";
 
-// manifest-schema's fixtures.ts documents one valid fixture per manifest
-// type independently — they aren't cross-linked (validKnowledgePackManifest
-// .corpusSnapshotHash is "d".repeat(64), validCorpusSnapshotManifest
-// .contentHash is "a".repeat(64)). Align them here to exercise the real
-// corpusSnapshotHash linkage §9.4 asks for, rather than editing the shared
-// fixtures (out of this task's scope: manifest-schema/ source is no-touch).
-const linkedCorpusSnapshot = {
-  ...validCorpusSnapshotManifest,
-  contentHash: validKnowledgePackManifest.corpusSnapshotHash,
-};
+// BUG-195: manifest-schema's fixtures.ts now cross-links the valid fixture
+// chain (validKnowledgePackManifest.corpusSnapshotHash ===
+// validCorpusSnapshotManifest.contentHash, both "d".repeat(64)), so the
+// "ready" case below exercises the real §9.4 linkage directly against the
+// shared fixtures instead of a locally aligned copy.
 
 describe("deriveProvenance (§9.4 knowledge provenance)", () => {
   it("renders all three provenance fields from a valid, hash-linked fixture manifest chain", () => {
     const result = deriveProvenance({
       knowledgePack: validKnowledgePackManifest,
-      corpusSnapshot: linkedCorpusSnapshot,
+      corpusSnapshot: validCorpusSnapshotManifest,
     });
 
     expect(result).toEqual({
       status: "ready",
-      latestSet: linkedCorpusSnapshot.latestSetCode,
-      crVersion: linkedCorpusSnapshot.crVersion,
-      legalityAsOf: linkedCorpusSnapshot.legalityPolicyFetchedAt,
+      latestSet: validCorpusSnapshotManifest.latestSetCode,
+      crVersion: validCorpusSnapshotManifest.crVersion,
+      legalityAsOf: validCorpusSnapshotManifest.legalityPolicyFetchedAt,
     });
   });
 
@@ -41,15 +36,18 @@ describe("deriveProvenance (§9.4 knowledge provenance)", () => {
   });
 
   it("flags the chain as unverified when corpusSnapshotHash does not match the linked snapshot's contentHash", () => {
+    // Deliberately mismatched (the shared fixtures are cross-linked now, so
+    // this override is what actually breaks the chain for this case).
+    const mismatchedSnapshot = { ...validCorpusSnapshotManifest, contentHash: "f".repeat(64) };
     const result = deriveProvenance({
       knowledgePack: validKnowledgePackManifest,
-      corpusSnapshot: validCorpusSnapshotManifest,
+      corpusSnapshot: mismatchedSnapshot,
     });
 
     expect(result.status).toBe("unverified");
     if (result.status === "unverified") {
       expect(result.message).toContain(validKnowledgePackManifest.corpusSnapshotHash);
-      expect(result.message).toContain(validCorpusSnapshotManifest.contentHash);
+      expect(result.message).toContain(mismatchedSnapshot.contentHash);
     }
   });
 });

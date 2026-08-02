@@ -136,9 +136,9 @@ describe("getRemediationMessage — revocation mapping is structurally exhaustiv
   });
 
   it("rejects an unrecognized kind at compile time when constructed as a RevocationAction", () => {
-    // @ts-expect-error - "some-future-kind" is not a member of RevocationAction["kind"];
     // compile-time guard that the union itself can't silently grow untyped.
     const bogus: RevocationAction = {
+      // @ts-expect-error - "some-future-kind" is not a member of RevocationAction["kind"]
       kind: "some-future-kind",
       artifactName: "future-artifact",
       revokedVersion: "1.0.0",

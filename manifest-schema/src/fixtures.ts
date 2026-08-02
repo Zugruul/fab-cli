@@ -17,7 +17,7 @@ import type { Confidence } from "./confidence.js";
 export const validCorpusSnapshotManifest: CorpusSnapshotManifest = {
   schemaVersion: "0.1.0",
   exportDate: "2026-08-01T00:00:00.000Z",
-  contentHash: "a".repeat(64),
+  contentHash: "d".repeat(64),
   chunkCount: 2,
   crVersion: "Wed, 10 Jun 2026 19:43:38 GMT",
   documentVersions: [
