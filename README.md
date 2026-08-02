@@ -8,6 +8,28 @@ Monorepo root for the FAB companion project:
 
 See each package's own README for usage. `pnpm -r run gate` runs every package's quality gate from the root.
 
+## Remote compute (training) — new-machine preflight
+
+Training/export/eval runs dispatch to a GPU machine through the generic
+`remote-compute` engine + `slm-training` capability bundle (both in the
+development-skills repo). **All machine-local state is gitignored** — the
+user-level registry (`~/.claude/compute/`) and this repo's
+`.claude/project.local.yaml` availability overlay — so a fresh clone or a new
+machine must be set up once before any training dispatch works.
+
+The full, verified runbook (prerequisites incl. the non-obvious ones like
+`python3.12-dev` for triton's JIT, register → add-env → install-capability →
+enable, mandatory smoke verification, day-to-day pipeline usage, and known
+WSL gotchas) lives in the project skill:
+
+- **[`.claude/skills/remote-compute-setup/SKILL.md`](.claude/skills/remote-compute-setup/SKILL.md)**
+  — in a Claude Code session: `/remote-compute-setup`; it is equally readable
+  as a human runbook.
+
+Quick health check on an already-set-up clone: `.claude/project.local.yaml`
+exists and `~/Development/development-skills/.../remote-compute.py list`
+shows your machine — if either is missing, run the skill.
+
 ## Licensing
 
 This is a monorepo with **per-package licensing** — there is no single repo-wide license:
