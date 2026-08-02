@@ -388,3 +388,32 @@ items:
   routing:
     action: upstream
     ref: 'development-skills: idle-notification/report delivery ordering'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T10:40:00Z'
+iteration:
+  task: T-209
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: low
+  summary: Explicitly instructing the reviewer to review proportionally to a tiny
+    diff avoided both rubber-stamping and invented findings
+  detail: A 7-line test-timeout fix got a brief but real review — the reviewer still
+    empirically proved the timeout mechanism is honored by the installed vitest version
+    via a disposable scratch test rather than trusting syntax, then approved with
+    zero manufactured findings. Outcome recorded on the existing prove-against-pre-fix
+    reviewer note.
+  generalized: Review briefs should state the expected depth explicitly for small
+    diffs ("proportional, no invented findings, no rubber stamp") — reviewers then
+    keep the one empirical check that matters and skip ceremony, instead of padding
+    or skimming.
+  routing:
+    action: brain-note
+    ref: reviewer/prove-regression-tests-against-prefix-code
