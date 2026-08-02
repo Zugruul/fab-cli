@@ -60,6 +60,7 @@
     "status": {
       "idle": "OCIOSO",
       "checking": "VERIFICANDO",
+      "ok": "OK",
       "error": "ERRO"
     }
   }
