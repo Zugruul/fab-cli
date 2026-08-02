@@ -50,14 +50,14 @@ describe("FeatureGate", () => {
 
   it("renders the not-ready title translated in en", () => {
     const tree = render(false, "model pack not installed yet", "en");
-    expect(flatten(tree.root.findByProps({ testID: "feature-gate-not-ready" }).props.children)).toContain(
+    expect(flatten(tree.root.findByProps({ testID: "feature-gate-title" }).props.children)).toContain(
       "Q&A isn't ready yet",
     );
   });
 
   it("renders the not-ready title translated in pt-BR, with the reason left as-is", () => {
     const tree = render(false, "model pack not installed yet", "pt-BR");
-    expect(flatten(tree.root.findByProps({ testID: "feature-gate-not-ready" }).props.children)).toContain(
+    expect(flatten(tree.root.findByProps({ testID: "feature-gate-title" }).props.children)).toContain(
       "Q&A ainda não está pronto",
     );
     expect(flatten(tree.root.findByProps({ testID: "feature-gate-reason" }).props.children)).toContain(

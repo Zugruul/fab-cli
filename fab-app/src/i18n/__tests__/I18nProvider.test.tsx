@@ -52,9 +52,14 @@ function Probe() {
   );
 }
 
-function renderProbe(store: LanguagePreferenceStore, systemLocale: string) {
+async function renderProbe(store: LanguagePreferenceStore, systemLocale: string) {
   let tree: ReactTestRenderer.ReactTestRenderer;
-  act(() => {
+  // async act: I18nProvider's useEffect always resolves the persisted
+  // preference (even a "system" one, resolving to the same locale) and
+  // calls i18n.changeLanguage(), which schedules its own React update —
+  // await here so that update lands inside this act() call rather than
+  // leaking into whichever test runs next.
+  await act(async () => {
     tree = ReactTestRenderer.create(
       <I18nProvider store={store} systemLocaleSource={fakeSystemLocaleSource(systemLocale)}>
         <Probe />
@@ -65,13 +70,13 @@ function renderProbe(store: LanguagePreferenceStore, systemLocale: string) {
 }
 
 describe('I18nProvider + useLanguagePreference (#217)', () => {
-  it('renders with the system-resolved locale on first paint (pt-* system -> pt-BR)', () => {
-    const tree = renderProbe(createFakeStore('system'), 'pt-BR');
+  it('renders with the system-resolved locale on first paint (pt-* system -> pt-BR)', async () => {
+    const tree = await renderProbe(createFakeStore('system'), 'pt-BR');
     expect(tree.root.findByProps({ testID: 'title' }).props.children).toBe('Idioma');
   });
 
-  it('renders with "en" on first paint for a non-pt system locale', () => {
-    const tree = renderProbe(createFakeStore('system'), 'en-US');
+  it('renders with "en" on first paint for a non-pt system locale', async () => {
+    const tree = await renderProbe(createFakeStore('system'), 'en-US');
     expect(tree.root.findByProps({ testID: 'title' }).props.children).toBe('Language');
   });
 

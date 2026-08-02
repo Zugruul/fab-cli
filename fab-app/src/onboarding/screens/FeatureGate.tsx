@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import type { FeatureAvailability } from "../types";
 
 export interface FeatureGateProps {
@@ -17,12 +18,15 @@ export interface FeatureGateProps {
  * use. Intended to wrap the Q&A and scanning screens' bodies.
  */
 export function FeatureGate({ feature, featureLabel, children }: FeatureGateProps): React.JSX.Element {
+  const { t } = useTranslation();
   if (feature.available) {
     return <>{children}</>;
   }
   return (
     <View style={styles.container} testID="feature-gate-not-ready">
-      <Text style={styles.title}>{featureLabel} isn&apos;t ready yet</Text>
+      <Text style={styles.title} testID="feature-gate-title">
+        {t("onboarding.featureGate.notReady", { feature: featureLabel })}
+      </Text>
       <Text style={styles.reason} testID="feature-gate-reason">
         {feature.reason}
       </Text>

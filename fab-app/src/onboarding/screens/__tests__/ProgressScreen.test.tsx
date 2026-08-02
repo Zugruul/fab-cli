@@ -14,6 +14,7 @@
 
 import React from "react";
 import ReactTestRenderer, { act } from "react-test-renderer";
+import { Text } from "react-native";
 import { I18nextProvider } from "react-i18next";
 import { ProgressScreen } from "../ProgressScreen";
 import { initialProgressState } from "../../progressReducer";
@@ -114,9 +115,9 @@ describe("ProgressScreen (§9.9 progress with pause/resume/retry)", () => {
     };
     const { tree } = render(state, undefined, "pt-BR");
     expect(tree.root.findByProps({ testID: "progress-status-model-pack" }).props.children).toContain("Baixando");
-    expect(flatten(tree.root.findByProps({ testID: "progress-pause-model-pack" }).props.children)).toContain(
-      "Pausar",
-    );
+    expect(
+      flatten(tree.root.findByProps({ testID: "progress-pause-model-pack" }).findByType(Text).props.children),
+    ).toContain("Pausar");
   });
 
   it("renders the failed state's retry control translated in pt-BR", () => {
@@ -131,9 +132,9 @@ describe("ProgressScreen (§9.9 progress with pause/resume/retry)", () => {
       },
     };
     const { tree } = render(state, undefined, "pt-BR");
-    expect(flatten(tree.root.findByProps({ testID: "progress-retry-knowledge-pack" }).props.children)).toContain(
-      "Tentar novamente",
-    );
+    expect(
+      flatten(tree.root.findByProps({ testID: "progress-retry-knowledge-pack" }).findByType(Text).props.children),
+    ).toContain("Tentar novamente");
     // errorMessage is already-derived data, not this component's copy — unchanged across locales.
     expect(flatten(tree.root.findByProps({ testID: "progress-error-knowledge-pack" }).props.children)).toContain(
       "connection dropped",

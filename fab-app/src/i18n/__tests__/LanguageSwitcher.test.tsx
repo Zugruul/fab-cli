@@ -9,6 +9,7 @@
 
 import React from 'react';
 import ReactTestRenderer, { act } from 'react-test-renderer';
+import { Text } from 'react-native';
 import { I18nProvider } from '../I18nProvider';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import type { LanguagePreferenceStore } from '../languageStore';
@@ -24,9 +25,13 @@ function createFakeStore(initial: LanguagePreference = 'system'): LanguagePrefer
   };
 }
 
-function render(store: LanguagePreferenceStore) {
+async function render(store: LanguagePreferenceStore) {
   let tree: ReactTestRenderer.ReactTestRenderer;
-  act(() => {
+  // async act: I18nProvider's effect always resolves the persisted
+  // preference and calls i18n.changeLanguage(), which schedules its own
+  // React update — await it so it lands inside this act(), not the next
+  // test.
+  await act(async () => {
     tree = ReactTestRenderer.create(
       <I18nProvider store={store} systemLocaleSource={{ getSystemLocale: () => 'en-US' }}>
         <LanguageSwitcher />
@@ -37,19 +42,17 @@ function render(store: LanguagePreferenceStore) {
 }
 
 describe('LanguageSwitcher (#217 minimal manual-override settings surface)', () => {
-  it('renders a title and the three language options in English', () => {
-    const tree = render(createFakeStore('system'));
+  it('renders a title and the three language options in English', async () => {
+    const tree = await render(createFakeStore('system'));
     expect(tree.root.findByProps({ testID: 'language-switcher' })).toBeTruthy();
-    expect(flatten(tree.root.findByProps({ testID: 'language-option-system' }).props.children)).toContain('System');
-    expect(flatten(tree.root.findByProps({ testID: 'language-option-en' }).props.children)).toContain('English');
-    expect(flatten(tree.root.findByProps({ testID: 'language-option-pt-BR' }).props.children)).toContain(
-      'Português (Brasil)',
-    );
+    expect(optionText(tree, 'system')).toContain('System');
+    expect(optionText(tree, 'en')).toContain('English');
+    expect(optionText(tree, 'pt-BR')).toContain('Português (Brasil)');
   });
 
   it('tapping "Português (Brasil)" persists the override and re-renders translated', async () => {
     const store = createFakeStore('system');
-    const tree = render(store);
+    const tree = await render(store);
     await act(async () => {
       tree.root.findByProps({ testID: 'language-option-pt-BR' }).props.onPress();
     });
@@ -57,6 +60,11 @@ describe('LanguageSwitcher (#217 minimal manual-override settings surface)', () 
     expect(flatten(tree.root.findByProps({ testID: 'language-switcher-title' }).props.children)).toContain('Idioma');
   });
 });
+
+function optionText(tree: ReactTestRenderer.ReactTestRenderer, value: string): string {
+  const option = tree.root.findByProps({ testID: `language-option-${value}` });
+  return flatten(option.findByType(Text).props.children);
+}
 
 function flatten(children: React.ReactNode): string {
   return React.Children.toArray(children).join('');

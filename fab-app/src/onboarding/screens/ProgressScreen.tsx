@@ -1,5 +1,7 @@
 import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { useTranslation } from "react-i18next";
+import type { TFunction } from "i18next";
 import type { ArtifactProgress, OnboardingArtifactId, ProgressState } from "../types";
 import { ONBOARDING_ARTIFACT_IDS } from "../progressReducer";
 import { formatBytes } from "../sizes";
@@ -23,10 +25,11 @@ export interface ProgressScreenProps {
  * forwards the tap.
  */
 export function ProgressScreen({ progress, labels, onPause, onResume, onRetry }: ProgressScreenProps): React.JSX.Element {
+  const { t } = useTranslation();
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>Downloading</Text>
+        <Text style={styles.title}>{t("onboarding.progress.title")}</Text>
         {ONBOARDING_ARTIFACT_IDS.map((artifact) => (
           <ArtifactRow
             key={artifact}
@@ -53,20 +56,21 @@ interface ArtifactRowProps {
 }
 
 function ArtifactRow({ artifact, label, item, onPause, onResume, onRetry }: ArtifactRowProps): React.JSX.Element {
+  const { t } = useTranslation();
   return (
     <View style={styles.row} testID={`progress-row-${artifact}`}>
       <Text style={styles.label}>{label}</Text>
-      <Text testID={`progress-status-${artifact}`}>{statusText(item)}</Text>
+      <Text testID={`progress-status-${artifact}`}>{statusText(t, item)}</Text>
 
       {item.status === "downloading" && (
         <TouchableOpacity testID={`progress-pause-${artifact}`} onPress={onPause}>
-          <Text style={styles.button}>Pause</Text>
+          <Text style={styles.button}>{t("onboarding.progress.pause")}</Text>
         </TouchableOpacity>
       )}
 
       {item.status === "paused" && (
         <TouchableOpacity testID={`progress-resume-${artifact}`} onPress={onResume}>
-          <Text style={styles.button}>Resume</Text>
+          <Text style={styles.button}>{t("onboarding.progress.resume")}</Text>
         </TouchableOpacity>
       )}
 
@@ -76,7 +80,7 @@ function ArtifactRow({ artifact, label, item, onPause, onResume, onRetry }: Arti
             {item.errorMessage}
           </Text>
           <TouchableOpacity testID={`progress-retry-${artifact}`} onPress={onRetry}>
-            <Text style={styles.button}>Retry</Text>
+            <Text style={styles.button}>{t("onboarding.progress.retry")}</Text>
           </TouchableOpacity>
         </>
       )}
@@ -84,22 +88,25 @@ function ArtifactRow({ artifact, label, item, onPause, onResume, onRetry }: Arti
   );
 }
 
-function statusText(item: ArtifactProgress): string {
+function statusText(t: TFunction, item: ArtifactProgress): string {
   switch (item.status) {
     case "queued":
-      return "Queued";
+      return t("onboarding.progress.status.queued");
     case "downloading":
-      return `Downloading ${formatBytes(item.bytesDownloaded)}${
-        item.totalBytes != null ? ` / ${formatBytes(item.totalBytes)}` : ""
-      }`;
+      return item.totalBytes != null
+        ? t("onboarding.progress.status.downloadingWithTotal", {
+            downloaded: formatBytes(item.bytesDownloaded),
+            total: formatBytes(item.totalBytes),
+          })
+        : t("onboarding.progress.status.downloadingUnknownTotal", { downloaded: formatBytes(item.bytesDownloaded) });
     case "paused":
-      return `Paused at ${formatBytes(item.bytesDownloaded)}`;
+      return t("onboarding.progress.status.paused", { downloaded: formatBytes(item.bytesDownloaded) });
     case "verifying":
-      return "Verifying…";
+      return t("onboarding.progress.status.verifying");
     case "installed":
-      return "Installed";
+      return t("onboarding.progress.status.installed");
     case "failed":
-      return "Failed";
+      return t("onboarding.progress.status.failed");
     default:
       return "";
   }

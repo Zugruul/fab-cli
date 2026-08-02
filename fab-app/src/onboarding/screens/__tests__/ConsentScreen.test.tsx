@@ -12,6 +12,7 @@
 
 import React from "react";
 import ReactTestRenderer, { act } from "react-test-renderer";
+import { Text } from "react-native";
 import { I18nextProvider } from "react-i18next";
 import { validModelPackManifest } from "@fab/manifest-schema";
 import type { KnowledgePackManifest } from "@fab/manifest-schema";
@@ -104,20 +105,24 @@ describe("ConsentScreen (§9.9 download consent)", () => {
     expect(flatten(tree.root.findByProps({ testID: "consent-total-size" }).props.children)).toContain(
       "Total: 2.0 GB",
     );
-    expect(flatten(tree.root.findByProps({ testID: "consent-cellular-warning" }).props.children)).toContain(
+    expect(flatten(tree.root.findByProps({ testID: "consent-cellular-warning-text" }).props.children)).toContain(
       "dados móveis",
     );
-    expect(flatten(tree.root.findByProps({ testID: "consent-continue-on-cellular" }).props.children)).toContain(
+    expect(flatten(tree.root.findByProps({ testID: "consent-continue-on-cellular" }).findByType(Text).props.children)).toContain(
       "Continuar com dados móveis",
     );
   });
 
   it("shows the download-ready title and button translated in both locales", () => {
     const enTree = render({ kind: "ready" }, jest.fn(), jest.fn(), "en").tree;
-    expect(flatten(enTree.root.findByProps({ testID: "consent-accept" }).props.children)).toContain("Download");
+    expect(
+      flatten(enTree.root.findByProps({ testID: "consent-accept" }).findByType(Text).props.children),
+    ).toContain("Download");
 
     const ptTree = render({ kind: "ready" }, jest.fn(), jest.fn(), "pt-BR").tree;
-    expect(flatten(ptTree.root.findByProps({ testID: "consent-accept" }).props.children)).toContain("Baixar");
+    expect(
+      flatten(ptTree.root.findByProps({ testID: "consent-accept" }).findByType(Text).props.children),
+    ).toContain("Baixar");
   });
 });
 
