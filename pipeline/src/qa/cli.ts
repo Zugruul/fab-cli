@@ -14,6 +14,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { runBatch } from "./runner.js";
+import { appendPairsDurable } from "./pairsStore.js";
 import { buildRunManifest } from "./manifest.js";
 import { buildReviewMarkdown } from "./review.js";
 import { AnthropicTeacherClient } from "./teacher.js";
@@ -80,7 +81,6 @@ async function main(): Promise<void> {
 
   const chunksById = new Map(chunks.map((c) => [c.chunk_id, c]));
   const outcomes: ChunkGenerationOutcome[] = [];
-  const qaPairsStream = args.dryRun ? null : fs.createWriteStream(qaPairsPath, { flags: "a" });
 
   // Never constructed for --dry-run: no Anthropic client, no auth
   // resolution, no possibility of a network call.
@@ -94,11 +94,16 @@ async function main(): Promise<void> {
     teacher,
     progressPath,
     dryRun: args.dryRun,
+    // runner.ts awaits this and marks the chunk done in progress.json only
+    // AFTER it resolves — appendPairsDurable is a synchronous file
+    // rewrite, so by the time this returns, the pairs are safely on disk.
+    // See pairsStore.ts for why a re-generated chunk (after a crash right
+    // here) never ends up duplicated.
     onChunkComplete: (outcome) => {
-      outcomes.push(outcome);
-      if (qaPairsStream && outcome.pairs.length > 0) {
-        qaPairsStream.write(JSON.stringify({ chunk_id: outcome.chunk_id, pairs: outcome.pairs }) + "\n");
+      if (outcome.pairs.length > 0) {
+        appendPairsDurable(qaPairsPath, { chunk_id: outcome.chunk_id, pairs: outcome.pairs });
       }
+      outcomes.push(outcome);
     },
   });
 
@@ -108,8 +113,6 @@ async function main(): Promise<void> {
     console.log("no API calls were made.");
     return;
   }
-
-  qaPairsStream?.end();
 
   const manifest = buildRunManifest({
     config,

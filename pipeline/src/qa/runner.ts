@@ -68,7 +68,15 @@ export interface RunOptions {
   /** Injectable clock + sleep for deterministic rate-limit testing. */
   now?: () => number;
   sleep?: (ms: number) => Promise<void>;
-  onChunkComplete?: (outcome: ChunkGenerationOutcome) => void;
+  /** Called (and awaited) after a chunk is generated but BEFORE it's
+   * recorded as done in progress — this is where a caller durably persists
+   * the chunk's pairs (see pairsStore.ts). May return a Promise; runBatch
+   * awaits it and lets a thrown/rejected callback propagate out of
+   * runBatch entirely (rather than isolating it like a teacher failure) —
+   * a broken persistence layer is an infrastructure fault, not a normal
+   * per-chunk generation failure, and whatever was already durably saved
+   * before the throw stays on disk regardless. */
+  onChunkComplete?: (outcome: ChunkGenerationOutcome) => void | Promise<void>;
 }
 
 /**
@@ -134,6 +142,17 @@ export async function runBatch(opts: RunOptions): Promise<RunResult> {
 
         const outcome = await processChunk(chunk);
 
+        // Persist first, confirm it's durable, THEN mark done — in that
+        // order. onChunkComplete is the caller's chance to write the
+        // chunk's pairs somewhere durable (see pairsStore.ts's
+        // appendPairsDurable, a synchronous file rewrite) and we await it
+        // before touching progress.json at all. If the process dies
+        // between these two steps, progress.json still shows the chunk as
+        // pending: the next run just reprocesses it (one wasted API call),
+        // instead of the chunk being marked "done" on disk while its
+        // already-paid-for pairs were never durably recorded anywhere.
+        await opts.onChunkComplete?.(outcome);
+
         if (outcome.status === "ok") {
           progress.doneChunkIds.push(outcome.chunk_id);
         } else {
@@ -144,7 +163,6 @@ export async function runBatch(opts: RunOptions): Promise<RunResult> {
         saveProgress(progressPath, progress);
 
         outcomes.push(outcome);
-        opts.onChunkComplete?.(outcome);
 
         if (config.cost.ceilingUsd != null && costUsd >= config.cost.ceilingUsd) {
           stoppedEarly = { reason: "cost-ceiling" };

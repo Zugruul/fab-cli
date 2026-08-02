@@ -83,8 +83,13 @@ export interface BatchConfig {
 export interface CostConfig {
   inputPricePerMTok: number;
   outputPricePerMTok: number;
-  /** Hard stop: once the running cost estimate reaches this many USD, the
-   * runner stops launching new chunks. null disables the ceiling. */
+  /** Once the running cost estimate reaches this many USD, the runner
+   * stops LAUNCHING new chunks — this is not a hard cap on total spend.
+   * Up to `batch.maxConcurrent` requests already in flight when the
+   * ceiling is crossed are allowed to finish (the runner isolates a
+   * per-chunk API call, it doesn't cancel one mid-request), so actual
+   * spend can overshoot the ceiling by up to maxConcurrent chunks' worth
+   * of cost. null disables the ceiling. */
   ceilingUsd: number | null;
 }
 
