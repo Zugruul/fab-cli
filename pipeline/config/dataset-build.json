@@ -1,0 +1,6 @@
+{
+  "_comment": "SPEC-APP.md §7.7-§7.8 dataset-build config. seed controls the deterministic stratified eval split (same seed + same upstream artifacts -> byte-identical train/eval assignment, see src/dataset/split.ts). evalFraction is the target held-out fraction per category — applied per distinct source chunk_id for the five chunk-grounded categories (keyword-definitions, card-facts, multi-card-interactions, tournament-procedure, lore), and per example for abstention/ood (which aren't chunk-disjoint by design, see src/dataset/types.ts's DISJOINT_CATEGORIES doc). minEvalChunksPerCategory is a floor so a small category still gets at least one held-out chunk once it has 2+ distinct chunks; a category with exactly one chunk stays fully in train (nothing to hold out without either leaking or emptying train).",
+  "seed": 20260802,
+  "evalFraction": 0.15,
+  "minEvalChunksPerCategory": 1
+}
