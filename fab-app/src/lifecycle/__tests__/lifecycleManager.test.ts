@@ -163,3 +163,114 @@ describe("LifecycleManager state machine", () => {
     }
   });
 });
+
+// Bug found in review (PR #197): a throwing saveSession propagated
+// uncaught out of releaseInternal, permanently wedging state at
+// "releasing" (releaseInternal's own guard requires state === "loaded" to
+// do anything, so it could never run again), leaking the native context
+// (release() was never reached), and silently minting a second handle on
+// the next reload since reloadInternal has no such guard against a
+// non-"loaded" state. These tests pin the fix: saveSession/release
+// failures are caught, attempted-but-failed, recorded, and NEVER prevent
+// the state machine from reaching "released" and being retryable.
+describe("LifecycleManager release resilience — saveSession/release failures never wedge", () => {
+  it("a throwing saveSession still releases the context and recovers to released", async () => {
+    const factory = new FakeInferenceContextFactory({ saveSessionError: new Error("disk full") });
+    const diagnostics = new FakeDiagnosticsStore();
+    const { manager } = makeManager({ factory, diagnostics });
+    await manager.ensureLoaded();
+    const handle = factory.handles[0];
+
+    await expect(manager.onBackground()).resolves.toBeUndefined();
+
+    expect(handle.calls).toEqual([`saveSession:${SESSION_PATH}`, "release"]);
+    expect(manager.currentState).toBe("released");
+    const releasedEvent = diagnostics.lifecycleTransitions.find(
+      (e) => e.to === "released" && e.signal === "background",
+    );
+    expect(releasedEvent?.details).toEqual({ saveFailed: true, error: "disk full" });
+  });
+
+  it("a throwing release() (second-order) still nulls the handle and recovers to released", async () => {
+    const factory = new FakeInferenceContextFactory({ releaseError: new Error("native free failed") });
+    const diagnostics = new FakeDiagnosticsStore();
+    const { manager } = makeManager({ factory, diagnostics });
+    await manager.ensureLoaded();
+    const handle = factory.handles[0];
+
+    await expect(manager.onBackground()).resolves.toBeUndefined();
+
+    expect(handle.calls).toEqual([`saveSession:${SESSION_PATH}`, "release"]);
+    expect(manager.currentState).toBe("released");
+    const releasedEvent = diagnostics.lifecycleTransitions.find(
+      (e) => e.to === "released" && e.signal === "background",
+    );
+    expect(releasedEvent?.details).toEqual({ releaseFailed: true, error: "native free failed" });
+  });
+
+  it("records both failures when saveSession AND release both throw", async () => {
+    const factory = new FakeInferenceContextFactory({
+      saveSessionError: new Error("disk full"),
+      releaseError: new Error("native free failed"),
+    });
+    const diagnostics = new FakeDiagnosticsStore();
+    const { manager } = makeManager({ factory, diagnostics });
+    await manager.ensureLoaded();
+
+    await expect(manager.onBackground()).resolves.toBeUndefined();
+
+    expect(manager.currentState).toBe("released");
+    const releasedEvent = diagnostics.lifecycleTransitions.find(
+      (e) => e.to === "released" && e.signal === "background",
+    );
+    expect(releasedEvent?.details?.saveFailed).toBe(true);
+    expect(releasedEvent?.details?.releaseFailed).toBe(true);
+    expect(releasedEvent?.details?.error).toContain("disk full");
+    expect(releasedEvent?.details?.error).toContain("native free failed");
+  });
+
+  it("a failed release does not wedge — a subsequent reload/release cycle mints exactly one new handle and completes normally", async () => {
+    const factory = new FakeInferenceContextFactory({ saveSessionError: new Error("disk full") });
+    const { manager } = makeManager({ factory });
+    await manager.ensureLoaded();
+    await manager.onBackground(); // the failing release above
+
+    // Recovery: a fresh reload must not be blocked by the earlier failure,
+    // and must mint exactly one new context — not double-mint from a stuck
+    // race, and not silently reuse/leak the old (never-nulled, pre-fix)
+    // handle.
+    const handle = await manager.ensureLoaded();
+    expect(factory.handles).toHaveLength(2);
+    expect(handle).toBe(factory.handles[1]);
+    expect(manager.currentState).toBe("loaded");
+
+    // And a normal (non-failing) release cycle still works after that.
+    await manager.onBackground();
+    expect(manager.currentState).toBe("released");
+    expect(factory.handles[1].calls).toEqual([`saveSession:${SESSION_PATH}`, "release"]);
+  });
+
+  it("survives a rapid background -> foreground -> background triple signal without wedging or double-minting", async () => {
+    const factory = new FakeInferenceContextFactory();
+    const diagnostics = new FakeDiagnosticsStore();
+    const { manager } = makeManager({ factory, diagnostics });
+    await manager.ensureLoaded();
+    diagnostics.lifecycleTransitions.length = 0; // isolate the triple-signal race below
+
+    const p1 = manager.onBackground();
+    const p2 = manager.onForeground();
+    const p3 = manager.onBackground();
+    await Promise.all([p1, p2, p3]);
+
+    expect(manager.currentState).toBe("released");
+    expect(factory.handles).toHaveLength(2); // initial load + the mid-sequence reload
+    expect(diagnostics.lifecycleTransitions.map((e) => `${e.to}:${e.signal}`)).toEqual([
+      "releasing:background",
+      "released:background",
+      "reloading:foreground",
+      "loaded:foreground",
+      "releasing:background",
+      "released:background",
+    ]);
+  });
+});

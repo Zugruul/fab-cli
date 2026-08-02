@@ -27,11 +27,21 @@ function delay(ms: number): Promise<void> {
 export interface FakeHandleOptions {
   saveSessionDelayMs?: number;
   releaseDelayMs?: number;
+  /** If set, saveSession() rejects with this error instead of succeeding —
+   * exercises the save-failure recovery path (a real device might fail to
+   * write the session file: disk full, permission error, etc). */
+  saveSessionError?: Error;
+  /** If set, release() rejects with this error instead of succeeding —
+   * exercises the second-order release-failure path (the native
+   * unload/free call itself throwing). */
+  releaseError?: Error;
 }
 
 /** Records every call (and its argument) in call order, on the instance —
  * this is what the data-before-marker test inspects to prove saveSession
- * happens strictly before release. */
+ * happens strictly before release. Both calls are still recorded even when
+ * configured to throw, so a test can assert "was attempted" independently
+ * of "succeeded". */
 export class FakeInferenceContextHandle implements InferenceContextHandle {
   isLoaded = true;
   readonly calls: string[] = [];
@@ -41,11 +51,13 @@ export class FakeInferenceContextHandle implements InferenceContextHandle {
   async saveSession(path: string): Promise<void> {
     if (this.opts.saveSessionDelayMs) await delay(this.opts.saveSessionDelayMs);
     this.calls.push(`saveSession:${path}`);
+    if (this.opts.saveSessionError) throw this.opts.saveSessionError;
   }
 
   async release(): Promise<void> {
     if (this.opts.releaseDelayMs) await delay(this.opts.releaseDelayMs);
     this.calls.push("release");
+    if (this.opts.releaseError) throw this.opts.releaseError;
     this.isLoaded = false;
   }
 }
