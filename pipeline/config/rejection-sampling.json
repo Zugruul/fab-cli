@@ -1,0 +1,18 @@
+{
+  "judgeModel": "claude-sonnet-5",
+  "maxTokens": 1024,
+  "temperature": null,
+  "batch": {
+    "size": 20,
+    "maxConcurrent": 4,
+    "requestsPerMinute": 40
+  },
+  "cost": {
+    "_comment": "Claude Sonnet 5 intro pricing per Claude API skill (through 2026-08-31): $2/$10 per MTok input/output. Override for a different judgeModel.",
+    "inputPricePerMTok": 2.0,
+    "outputPricePerMTok": 10.0,
+    "ceilingUsd": 5.0
+  },
+  "maxRetries": 4,
+  "retryBaseDelayMs": 1000
+}
