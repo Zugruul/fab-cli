@@ -30,5 +30,29 @@ module.exports = {
       excludedFiles: ['**/__tests__/**', '**/*.test.tsx'],
       extends: ['plugin:react-native-a11y/basic'],
     },
+    {
+      // #219: every color in shipped UI must come from the active theme's
+      // token set (src/theme/tokens.ts), not a hardcoded literal — gate-
+      // enforced per SPEC-APP.md §9.13, the same way #217/#218 gate-enforce
+      // i18n and a11y right above. `react-native/no-color-literals` (from
+      // `eslint-plugin-react-native`, already a dependency of
+      // `@react-native/eslint-config` — which this file's `@react-native`
+      // extends — and already registered in that config's `plugins` array,
+      // so no new dependency) flags any literal color value (hex/rgb/named)
+      // passed to a `StyleSheet.create()` declaration or an inline JSX
+      // `style={{...}}` object; a value that's an identifier/member
+      // expression (e.g. `tokens.text`) is untouched, which is exactly the
+      // token-substitution shape every migrated screen now uses. Distinct
+      // from the base config's own `react-native/no-inline-styles` (warns
+      // on *any* inline style object, a perf-motivated rule unrelated to
+      // theming) — that rule is untouched here. Scoped identically to the
+      // two overrides above: App.tsx + src/**/*.tsx, test files excluded
+      // (fixture colors rendered in tests are sample data, not shipped UI).
+      files: ['App.tsx', 'src/**/*.tsx'],
+      excludedFiles: ['**/__tests__/**', '**/*.test.tsx'],
+      rules: {
+        'react-native/no-color-literals': 'error',
+      },
+    },
   ],
 };

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { useTranslation } from "react-i18next";
 import type { FeatureAvailability } from "../types";
+import { useTheme } from "../../theme";
+import type { ThemeTokens } from "../../theme";
 
 export interface FeatureGateProps {
   feature: FeatureAvailability;
@@ -19,6 +21,8 @@ export interface FeatureGateProps {
  */
 export function FeatureGate({ feature, featureLabel, children }: FeatureGateProps): React.JSX.Element {
   const { t } = useTranslation();
+  const { tokens } = useTheme();
+  const styles = useMemo(() => createStyles(tokens), [tokens]);
   if (feature.available) {
     return <>{children}</>;
   }
@@ -34,8 +38,10 @@ export function FeatureGate({ feature, featureLabel, children }: FeatureGateProp
   );
 }
 
-const styles = StyleSheet.create({
-  container: { padding: 16, gap: 8 },
-  title: { fontSize: 16, fontWeight: "600" },
-  reason: { fontSize: 14, color: "#666666" },
-});
+function createStyles(tokens: ThemeTokens) {
+  return StyleSheet.create({
+    container: { padding: 16, gap: 8 },
+    title: { fontSize: 16, fontWeight: "600", color: tokens.text },
+    reason: { fontSize: 14, color: tokens.mutedText },
+  });
+}

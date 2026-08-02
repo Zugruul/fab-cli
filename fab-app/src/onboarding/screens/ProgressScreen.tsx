@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { useTranslation } from "react-i18next";
 import type { TFunction } from "i18next";
 import type { ArtifactProgress, OnboardingArtifactId, ProgressState } from "../types";
 import { ONBOARDING_ARTIFACT_IDS } from "../progressReducer";
 import { formatBytes } from "../sizes";
+import { useTheme } from "../../theme";
+import type { ThemeTokens } from "../../theme";
 
 export interface ProgressScreenProps {
   progress: ProgressState;
@@ -26,6 +28,8 @@ export interface ProgressScreenProps {
  */
 export function ProgressScreen({ progress, labels, onPause, onResume, onRetry }: ProgressScreenProps): React.JSX.Element {
   const { t } = useTranslation();
+  const { tokens } = useTheme();
+  const styles = useMemo(() => createStyles(tokens), [tokens]);
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
@@ -57,6 +61,8 @@ interface ArtifactRowProps {
 
 function ArtifactRow({ artifact, label, item, onPause, onResume, onRetry }: ArtifactRowProps): React.JSX.Element {
   const { t } = useTranslation();
+  const { tokens } = useTheme();
+  const styles = useMemo(() => createStyles(tokens), [tokens]);
   return (
     <View style={styles.row} testID={`progress-row-${artifact}`}>
       <Text style={styles.label}>{label}</Text>
@@ -112,12 +118,14 @@ function statusText(t: TFunction, item: ArtifactProgress): string {
   }
 }
 
-const styles = StyleSheet.create({
-  safeArea: { flex: 1 },
-  content: { padding: 16, gap: 16 },
-  title: { fontSize: 20, fontWeight: "700" },
-  row: { gap: 4 },
-  label: { fontSize: 16, fontWeight: "600" },
-  button: { fontSize: 14, fontWeight: "600", color: "#0a84ff" },
-  error: { fontSize: 12, color: "#cc3333" },
-});
+function createStyles(tokens: ThemeTokens) {
+  return StyleSheet.create({
+    safeArea: { flex: 1, backgroundColor: tokens.background },
+    content: { padding: 16, gap: 16 },
+    title: { fontSize: 20, fontWeight: "700", color: tokens.text },
+    row: { gap: 4 },
+    label: { fontSize: 16, fontWeight: "600", color: tokens.text },
+    button: { fontSize: 14, fontWeight: "600", color: tokens.accent },
+    error: { fontSize: 12, color: tokens.danger },
+  });
+}

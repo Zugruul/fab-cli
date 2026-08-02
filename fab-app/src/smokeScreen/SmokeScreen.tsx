@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer, useState } from 'react';
+import React, { useEffect, useMemo, useReducer, useState } from 'react';
 import {
   Button,
   SafeAreaView,
@@ -18,6 +18,8 @@ import { checkLlama, checkSqlite, checkTflite } from './checks';
 import { MODULE_IDS, initialSmokeState, smokeReducer } from './reducer';
 import { summarizeSmokeState } from './summary';
 import type { ModuleId, ModuleStatus, SmokeAction } from './types';
+import { useTheme } from '../theme';
+import type { ThemeTokens } from '../theme';
 
 /**
  * Device smoke screen (APP-030 / SPEC-APP.md §9.1). Exercises the four
@@ -34,6 +36,9 @@ import type { ModuleId, ModuleStatus, SmokeAction } from './types';
  */
 export function SmokeScreen(): React.JSX.Element {
   const { t } = useTranslation();
+  const { tokens } = useTheme();
+  const styles = useMemo(() => createStyles(tokens), [tokens]);
+  const statusStyles = useMemo(() => createStatusStyles(tokens), [tokens]);
   const [state, dispatch] = useReducer(
     smokeReducer,
     undefined,
@@ -172,25 +177,29 @@ function describeError(err: unknown): string {
   return err instanceof Error ? err.message : String(err);
 }
 
-const statusStyles = StyleSheet.create({
-  idle: { color: '#888888' },
-  checking: { color: '#b58900' },
-  ok: { color: '#1a7f37' },
-  error: { color: '#cf222e' },
-});
+function createStatusStyles(tokens: ThemeTokens) {
+  return StyleSheet.create({
+    idle: { color: tokens.mutedText },
+    checking: { color: tokens.warning },
+    ok: { color: tokens.success },
+    error: { color: tokens.danger },
+  });
+}
 
-const styles = StyleSheet.create({
-  safeArea: { flex: 1 },
-  content: { padding: 16, gap: 12 },
-  title: { fontSize: 20, fontWeight: '700' },
-  subtitle: { fontSize: 14, color: '#555555', marginBottom: 8 },
-  row: {
-    paddingVertical: 8,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderColor: '#cccccc',
-  },
-  rowLabel: { fontSize: 16, fontWeight: '600' },
-  rowStatus: { fontSize: 13, fontWeight: '700' },
-  rowDetail: { fontSize: 12, color: '#555555', marginTop: 2 },
-  note: { marginTop: 16, fontSize: 12, color: '#888888', fontStyle: 'italic' },
-});
+function createStyles(tokens: ThemeTokens) {
+  return StyleSheet.create({
+    safeArea: { flex: 1, backgroundColor: tokens.background },
+    content: { padding: 16, gap: 12 },
+    title: { fontSize: 20, fontWeight: '700', color: tokens.text },
+    subtitle: { fontSize: 14, color: tokens.mutedText, marginBottom: 8 },
+    row: {
+      paddingVertical: 8,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderColor: tokens.border,
+    },
+    rowLabel: { fontSize: 16, fontWeight: '600', color: tokens.text },
+    rowStatus: { fontSize: 13, fontWeight: '700' },
+    rowDetail: { fontSize: 12, color: tokens.mutedText, marginTop: 2 },
+    note: { marginTop: 16, fontSize: 12, color: tokens.mutedText, fontStyle: 'italic' },
+  });
+}
