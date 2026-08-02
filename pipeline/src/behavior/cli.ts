@@ -2,11 +2,9 @@
 /**
  * Behavior-training dataset builder CLI (SPEC-APP.md §7.5-§7.6). Reads
  * APP-010's exported chunks.jsonl and APP-011's accepted qa-pairs.jsonl
- * (via qa/pairsStore's readPairsRecords, import-only reuse — see
- * behavior/types.ts's SampledRecordLike doc comment for why APP-012's own
- * modules are never imported here), optionally APP-012's accepted.jsonl/
- * rejected.jsonl when present (pipeline/out/sampling/ — a parallel,
- * unmerged lane; their absence is a normal, fully-supported "not run yet"
+ * (via qa/pairsStore's readPairsRecords, import-only reuse), optionally
+ * APP-012's accepted.jsonl/rejected.jsonl when present (pipeline/out/
+ * sampling/ — their absence is a normal, fully-supported "not run yet"
  * state, not an error), and the committed behavior-datasets.json +
  * ood-templates.json config, then builds all four categories
  * (distractor-robustness, abstention, OOD refusal, DPO preference pairs)

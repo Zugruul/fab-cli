@@ -9,6 +9,7 @@
 import type { Chunk } from "../types.js";
 import type { QAPair } from "../qa/types.js";
 import type { Confidence } from "@fab/manifest-schema";
+import type { SampledRecord } from "../sampling/store.js";
 
 export type { Chunk, QAPair };
 
@@ -90,19 +91,13 @@ export interface DPOPair {
   method: DPOConstructionMethod;
 }
 
-/** Mirrors APP-012's `SampledRecord` shape (pipeline/src/sampling/store.ts)
- * field-for-field. APP-012 is a parallel, unmerged lane this task must not
- * import code from (constraint: don't touch src/sampling/**) — so this is a
- * structural duplicate, not an import, and deliberately so: it decouples
- * dpo.ts from APP-012's merge status. When a real accepted.jsonl/
- * rejected.jsonl exists at the configured path with this shape, dpo.ts uses
- * it; otherwise it falls back to APP-011's qa-pairs.jsonl (chosen) and
- * rule-based synthetic degradation (rejected) — see dpo.ts. */
-export interface SampledRecordLike {
-  pairId: string;
-  chunk_id: string;
-  question: string;
-  answer: string;
-  cited_chunk_ids: string[];
-  reason: string;
-}
+/** APP-012's real `SampledRecord` (pipeline/src/sampling/store.ts),
+ * re-exported under behavior/'s original name. Was a hand-written
+ * structural duplicate while APP-012 was still an unmerged parallel lane
+ * (BUG-183); both are on main now, so this is a type-only import instead —
+ * behavior/'s public surface (the `SampledRecordLike` name) is unchanged.
+ * When a real accepted.jsonl/rejected.jsonl exists at the configured path
+ * with this shape, dpo.ts uses it; otherwise it falls back to APP-011's
+ * qa-pairs.jsonl (chosen) and rule-based synthetic degradation (rejected)
+ * — see dpo.ts. */
+export type { SampledRecord as SampledRecordLike };
