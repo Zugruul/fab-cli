@@ -7,6 +7,7 @@ import { categorizeChunk } from "./categorize.js";
 import { isAdjudicationCritical } from "./adjudication.js";
 import { assignSplits, type SplitConfig } from "./split.js";
 import { checkLeakage } from "./leakage.js";
+import { assertLegalityGuard } from "./legalityGuard.js";
 import type { DatasetExample, QAExample, UnsplitDatasetExample } from "./types.js";
 
 export interface AssembleDatasetOptions {
@@ -69,15 +70,22 @@ function byId(a: { id: string }, b: { id: string }): number {
  * DPO half of this rule is already enforced upstream by behavior/dpo.ts,
  * re-checked here defensively; the QA half is enforced here for the first
  * time, since qa-pairs.jsonl/accepted.jsonl carry no such filter on their
- * own. Distractor examples are the one place §7.9 allows legality content
- * (already marked `timeSensitive` upstream), so they are never filtered
- * here.
+ * own. Distractor examples are the one place §7.9 allows legality content,
+ * but only in the shape behavior/distractor.ts produces (`timeSensitive:
+ * true`) — since distractor.jsonl is an upstream artifact this function
+ * only trusts, not something it re-derives per field, a final
+ * legalityGuard.ts pass (APP-015) below re-checks every assembled example
+ * independently of what its builder claims about itself, the same way
+ * checkLeakage re-verifies the split rather than trusting assignSplits.
  *
  * The assembled split is self-verified against leakage.ts's checkLeakage
- * before being returned — an assembler that somehow produced a leaked
- * split throws rather than returning bad output (mirrors behavior/build.ts's
- * "abort rather than silently under-produce" discipline, applied to
- * leakage instead of minimum counts).
+ * AND legalityGuard.ts's assertLegalityGuard before being returned — an
+ * assembler that somehow produced a leaked split or let a legality chunk
+ * into fact-SFT-shaped output throws rather than returning bad output
+ * (mirrors behavior/build.ts's "abort rather than silently under-produce"
+ * discipline). This lives HERE, inside assembleDataset itself, rather than
+ * in dataset/cli.ts's main() — every programmatic caller of this function
+ * gets the guarantee, not just the CLI wrapper.
  */
 export function assembleDataset(opts: AssembleDatasetOptions): AssembleDatasetResult {
   const chunksById = new Map(opts.chunks.map((c) => [c.chunk_id, c]));
@@ -207,6 +215,8 @@ export function assembleDataset(opts: AssembleDatasetOptions): AssembleDatasetRe
       `dataset assembly produced a leaked split — ${leakage.overlaps.length} chunk_id(s) appear in both train and eval: ${JSON.stringify(leakage.overlaps)}`,
     );
   }
+
+  assertLegalityGuard(examples, opts.chunks); // §7.9 (APP-015) — see doc comment above
 
   return { examples, qaSource: samplingRan ? "sampling-accepted" : "qa-pairs-fallback", notes };
 }

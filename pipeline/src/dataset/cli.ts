@@ -144,6 +144,10 @@ function main(): void {
     split: config,
   });
 
+  // SPEC-APP.md §7.9 (APP-015) legality guard runs INSIDE assembleDataset()
+  // itself (see assemble.ts's doc comment) — every caller gets it, not just
+  // this CLI, so there's nothing to re-check here.
+
   const manifest = buildDatasetManifest({
     examples,
     config,
