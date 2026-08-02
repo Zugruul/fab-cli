@@ -144,14 +144,18 @@ async function main(): Promise<void> {
     // AFTER it resolves — appendAcceptedDurable/appendRejectedDurable are
     // synchronous file rewrites, so by the time this returns, the record
     // is safely on disk. See store.ts for why a re-checked pair (after a
-    // crash right here) never ends up duplicated.
+    // crash right here) never ends up duplicated. The sibling-path
+    // argument on each call is the BUG-180 follow-up guard: a stale
+    // pairId reprocessed by the staleness guard whose verdict FLIPS
+    // (accepted <-> rejected) must not leave its old verdict's record
+    // dangling in the OTHER file — see store.ts's removeRecordDurable.
     onPairComplete: (outcome) => {
       if (outcome.status === "accepted") {
-        appendAcceptedDurable(acceptedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason);
+        appendAcceptedDurable(acceptedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason, rejectedPath);
       } else {
         // outcome.rejectionKind is always set (non-null) when status is
         // "rejected" — see types.ts's PairSamplingOutcome.
-        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.rejectionKind!, outcome.reason);
+        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.rejectionKind!, outcome.reason, acceptedPath);
       }
       outcomes.push(outcome);
     },

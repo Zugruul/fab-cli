@@ -77,7 +77,11 @@ export interface SamplingRunManifest {
   /** BUG-180 guard: pairIds honored as done-as-recorded because their
    * progress entry predates this guard (no hash to compare against) —
    * surfaced so this backward-compat pass-through is visible, never
-   * silent. 0 when omitted. */
+   * silent. This is a real blind spot, not just bookkeeping: a
+   * regeneration that already happened BEFORE this guard shipped is
+   * undetectable, since no baseline hash was ever recorded to compare
+   * against — only regenerations from this point forward (once the hash
+   * is backfilled) get caught. 0 when omitted. */
   legacyUnverifiedCount: number;
 }
 
