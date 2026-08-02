@@ -95,15 +95,26 @@ test("root package.json has no repo-wide license claim (private monorepo root)",
 
 test("GPL isolation: fab-app and pipeline must never depend on fab-cli (workspace or otherwise)", () => {
   const depFields = ["dependencies", "devDependencies", "peerDependencies", "optionalDependencies"];
+  const forbidden = ["fab-cli", "fabrary-search"];
   for (const dir of ["fab-app", "pipeline"]) {
     const pkg = readJson(`${dir}/package.json`);
     for (const field of depFields) {
       const deps = pkg[field];
       if (!deps) continue;
-      assert.ok(
-        !Object.keys(deps).some((name) => name === "fab-cli" || name === "fabrary-search"),
-        `${dir}/package.json ${field} must not depend on fab-cli (GPL isolation, App-Store-bound MIT packages)`,
-      );
+      // Check both the dependency name (key) and its spec (value) — pnpm
+      // aliasing lets a dependency point at fab-cli under an unrelated key,
+      // e.g. {"cliTools": "npm:fabrary-search@workspace:*"} or a raw
+      // link:/file: path — so the key check alone is bypassable.
+      for (const [name, spec] of Object.entries(deps)) {
+        assert.ok(
+          !forbidden.includes(name),
+          `${dir}/package.json ${field} must not depend on fab-cli (GPL isolation, App-Store-bound MIT packages)`,
+        );
+        assert.ok(
+          !forbidden.some((f) => String(spec).includes(f)),
+          `${dir}/package.json ${field}["${name}"] must not reference fab-cli in its spec (GPL isolation) — got "${spec}"`,
+        );
+      }
     }
   }
 });
