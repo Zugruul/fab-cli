@@ -4,6 +4,7 @@ import {
   validCorpusSnapshotManifest,
   invalidCorpusSnapshotManifestMissingShippingMode,
   invalidCorpusSnapshotManifestMissingLegalityPolicyFetchedAt,
+  invalidCorpusSnapshotManifestMissingShippedContentHash,
 } from "../src/index.js";
 
 describe("CorpusSnapshotManifest schema", () => {
@@ -54,6 +55,14 @@ describe("CorpusSnapshotManifest schema", () => {
     expect(result.success).toBe(false);
     if (!result.success) {
       expect(result.errors.some((e) => e.path.join(".") === "legalityPolicyFetchedAt")).toBe(true);
+    }
+  });
+
+  it("rejects a manifest missing shippedContentHash, with a precise error path", () => {
+    const result = validateCorpusSnapshotManifest(invalidCorpusSnapshotManifestMissingShippedContentHash);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "shippedContentHash")).toBe(true);
     }
   });
 
