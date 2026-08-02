@@ -37,6 +37,8 @@ describe("runExport", () => {
     expect(manifest.documentVersions).toHaveLength(3);
     // no real fablore checkout under the fixture tree: falls back honestly rather than throwing
     expect(manifest.loreCommit).toBe("92f74367e25b553b922b1fc0cf6ef61570523058");
+    // the fixture kb/rules/index.json has no legality chunk: honest "unknown", never fabricated
+    expect(manifest.legalityPolicyFetchedAt).toBe("unknown");
 
     const byName = Object.fromEntries(manifest.sources.map((s) => [s.name, s]));
     expect(byName["judge-brain"].count).toBe(1);
@@ -110,5 +112,12 @@ describe("runExport", () => {
     const rulesSource = manifest.sources.find((s) => s.name === "rules-kb")!;
     expect(rulesSource.count).toBe(0);
     expect(rulesSource.note).toMatch(/absent/i);
+  });
+
+  it("stamps legalityPolicyFetchedAt from the rules KB's legality chunk when present", () => {
+    const config = baseConfig();
+    config.kbRulesDir = path.join(FIXTURES, "kb", "rules-with-legality");
+    const { manifest } = runExport(config);
+    expect(manifest.legalityPolicyFetchedAt).toBe("2026-07-15T10:00:00.000Z");
   });
 });

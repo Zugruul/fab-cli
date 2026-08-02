@@ -1,7 +1,12 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, it, expect } from "vitest";
-import { contentHash, readVersionsTxt, readLatestSetCode } from "../src/manifest.js";
+import {
+  contentHash,
+  readVersionsTxt,
+  readLatestSetCode,
+  readLegalityPolicyFetchedAt,
+} from "../src/manifest.js";
 import type { Chunk } from "../src/types.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -64,5 +69,27 @@ describe("readLatestSetCode", () => {
   it("returns 'unknown' honestly when set.json is absent", () => {
     const code = readLatestSetCode(path.join(FIXTURES, "flesh-and-blood-cards", "does-not-exist.json"));
     expect(code).toBe("unknown");
+  });
+});
+
+describe("readLegalityPolicyFetchedAt", () => {
+  it("returns the legality chunk's fetchedAt from kb/rules/index.json", () => {
+    const result = readLegalityPolicyFetchedAt(path.join(FIXTURES, "kb", "rules-with-legality"));
+    expect(result).toBe("2026-07-15T10:00:00.000Z");
+  });
+
+  it("returns 'unknown' honestly when kb/rules/index.json has no legality entry", () => {
+    const result = readLegalityPolicyFetchedAt(path.join(FIXTURES, "kb", "rules"));
+    expect(result).toBe("unknown");
+  });
+
+  it("returns 'unknown' honestly when kb/rules/index.json is absent", () => {
+    const result = readLegalityPolicyFetchedAt(path.join(FIXTURES, "kb", "rules-does-not-exist"));
+    expect(result).toBe("unknown");
+  });
+
+  it("returns 'unknown' honestly when kb/rules/index.json is corrupt JSON", () => {
+    const result = readLegalityPolicyFetchedAt(path.join(FIXTURES, "kb", "rules-corrupt"));
+    expect(result).toBe("unknown");
   });
 });
