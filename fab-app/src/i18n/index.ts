@@ -1,4 +1,5 @@
 export * from './types';
+export * from './locales';
 export * from './resolveLocale';
 export * from './systemLocale';
 export * from './languageStore';

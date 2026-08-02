@@ -18,8 +18,10 @@ import { Text } from "react-native";
 import { I18nextProvider } from "react-i18next";
 import { ProgressScreen } from "../ProgressScreen";
 import { initialProgressState } from "../../progressReducer";
+import { formatBytes } from "../../sizes";
 import type { ProgressState } from "../../types";
 import { createI18nInstance } from "../../../i18n/i18n";
+import { LOCALE_BUNDLES, SUPPORTED_LOCALES } from "../../../i18n/locales";
 import type { Locale } from "../../../i18n/types";
 
 const labels = { "model-pack": "Model pack", "knowledge-pack": "Knowledge pack" } as const;
@@ -108,37 +110,46 @@ describe("ProgressScreen (§9.9 progress with pause/resume/retry)", () => {
     expect(onRetry).toHaveBeenCalledTimes(1);
   });
 
-  it("renders status text and controls translated in pt-BR", () => {
-    const state = {
-      ...initialProgressState(),
-      "model-pack": { status: "downloading" as const, bytesDownloaded: 400, totalBytes: 1000 },
-    };
-    const { tree } = render(state, undefined, "pt-BR");
-    expect(tree.root.findByProps({ testID: "progress-status-model-pack" }).props.children).toContain("Baixando");
-    expect(
-      flatten(tree.root.findByProps({ testID: "progress-pause-model-pack" }).findByType(Text).props.children),
-    ).toContain("Pausar");
-  });
+  // #217: parametrized over every registered locale — asserted against
+  // that locale's own bundle templates, not hardcoded translated strings.
+  describe.each(SUPPORTED_LOCALES)("translated copy in %s", locale => {
+    const bundle = LOCALE_BUNDLES[locale];
 
-  it("renders the failed state's retry control translated in pt-BR", () => {
-    const state = {
-      ...initialProgressState(),
-      "knowledge-pack": {
-        status: "failed" as const,
-        bytesDownloaded: 200,
-        totalBytes: 500,
-        errorKind: "other" as const,
-        errorMessage: "connection dropped",
-      },
-    };
-    const { tree } = render(state, undefined, "pt-BR");
-    expect(
-      flatten(tree.root.findByProps({ testID: "progress-retry-knowledge-pack" }).findByType(Text).props.children),
-    ).toContain("Tentar novamente");
-    // errorMessage is already-derived data, not this component's copy — unchanged across locales.
-    expect(flatten(tree.root.findByProps({ testID: "progress-error-knowledge-pack" }).props.children)).toContain(
-      "connection dropped",
-    );
+    it("renders the downloading status text and pause control using that locale's text", () => {
+      const state = {
+        ...initialProgressState(),
+        "model-pack": { status: "downloading" as const, bytesDownloaded: 400, totalBytes: 1000 },
+      };
+      const { tree } = render(state, undefined, locale);
+      const expectedStatus = bundle.onboarding.progress.status.downloadingWithTotal
+        .replace("{{downloaded}}", formatBytes(400))
+        .replace("{{total}}", formatBytes(1000));
+      expect(tree.root.findByProps({ testID: "progress-status-model-pack" }).props.children).toBe(expectedStatus);
+      expect(
+        flatten(tree.root.findByProps({ testID: "progress-pause-model-pack" }).findByType(Text).props.children),
+      ).toBe(bundle.onboarding.progress.pause);
+    });
+
+    it("renders the failed state's retry control using that locale's text, error message unchanged", () => {
+      const state = {
+        ...initialProgressState(),
+        "knowledge-pack": {
+          status: "failed" as const,
+          bytesDownloaded: 200,
+          totalBytes: 500,
+          errorKind: "other" as const,
+          errorMessage: "connection dropped",
+        },
+      };
+      const { tree } = render(state, undefined, locale);
+      expect(
+        flatten(tree.root.findByProps({ testID: "progress-retry-knowledge-pack" }).findByType(Text).props.children),
+      ).toBe(bundle.onboarding.progress.retry);
+      // errorMessage is already-derived data, not this component's copy — unchanged across locales.
+      expect(flatten(tree.root.findByProps({ testID: "progress-error-knowledge-pack" }).props.children)).toContain(
+        "connection dropped",
+      );
+    });
   });
 });
 

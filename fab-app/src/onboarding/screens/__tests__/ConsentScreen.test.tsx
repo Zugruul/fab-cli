@@ -20,6 +20,7 @@ import { ConsentScreen } from "../ConsentScreen";
 import { deriveArtifactSizes } from "../../sizes";
 import type { ConsentGateState } from "../../types";
 import { createI18nInstance } from "../../../i18n/i18n";
+import { LOCALE_BUNDLES, SUPPORTED_LOCALES } from "../../../i18n/locales";
 import type { Locale } from "../../../i18n/types";
 
 // BUG-202: knowledge-pack manifest now carries per-file sizeBytes directly
@@ -100,29 +101,35 @@ describe("ConsentScreen (§9.9 download consent)", () => {
     expect(() => tree.root.findByProps({ testID: "consent-continue-on-cellular" })).toThrow();
   });
 
-  it("renders every copy string translated in pt-BR", () => {
-    const { tree } = render({ kind: "cellular-warning" }, jest.fn(), jest.fn(), "pt-BR");
-    expect(flatten(tree.root.findByProps({ testID: "consent-total-size" }).props.children)).toContain(
-      "Total: 2.0 GB",
-    );
-    expect(flatten(tree.root.findByProps({ testID: "consent-cellular-warning-text" }).props.children)).toContain(
-      "dados móveis",
-    );
-    expect(flatten(tree.root.findByProps({ testID: "consent-continue-on-cellular" }).findByType(Text).props.children)).toContain(
-      "Continuar com dados móveis",
-    );
-  });
+  // #217: parametrized over every registered locale (SUPPORTED_LOCALES) —
+  // asserted against that locale's own bundle content (LOCALE_BUNDLES),
+  // not a hardcoded translated string, so adding a future locale to the
+  // registry is covered automatically with no change to this file.
+  describe.each(SUPPORTED_LOCALES)("translated copy in %s", locale => {
+    const bundle = LOCALE_BUNDLES[locale];
 
-  it("shows the download-ready title and button translated in both locales", () => {
-    const enTree = render({ kind: "ready" }, jest.fn(), jest.fn(), "en").tree;
-    expect(
-      flatten(enTree.root.findByProps({ testID: "consent-accept" }).findByType(Text).props.children),
-    ).toContain("Download");
+    it("renders the total size using that locale's template", () => {
+      const { tree } = render({ kind: "ready" }, jest.fn(), jest.fn(), locale);
+      const expected = bundle.onboarding.consent.totalSize.replace("{{size}}", "2.0 GB");
+      expect(flatten(tree.root.findByProps({ testID: "consent-total-size" }).props.children)).toBe(expected);
+    });
 
-    const ptTree = render({ kind: "ready" }, jest.fn(), jest.fn(), "pt-BR").tree;
-    expect(
-      flatten(ptTree.root.findByProps({ testID: "consent-accept" }).findByType(Text).props.children),
-    ).toContain("Baixar");
+    it("renders the cellular warning and its override button using that locale's text", () => {
+      const { tree } = render({ kind: "cellular-warning" }, jest.fn(), jest.fn(), locale);
+      expect(flatten(tree.root.findByProps({ testID: "consent-cellular-warning-text" }).props.children)).toBe(
+        bundle.onboarding.consent.cellularWarning,
+      );
+      expect(
+        flatten(tree.root.findByProps({ testID: "consent-continue-on-cellular" }).findByType(Text).props.children),
+      ).toBe(bundle.onboarding.consent.continueOnCellular);
+    });
+
+    it("renders the download-ready button using that locale's text", () => {
+      const { tree } = render({ kind: "ready" }, jest.fn(), jest.fn(), locale);
+      expect(flatten(tree.root.findByProps({ testID: "consent-accept" }).findByType(Text).props.children)).toBe(
+        bundle.onboarding.consent.download,
+      );
+    });
   });
 });
 

@@ -27,7 +27,9 @@ export function ProvenanceScreen({
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>{t('screens.provenance.title')}</Text>
+        <Text style={styles.title} testID="provenance-title">
+          {t('screens.provenance.title')}
+        </Text>
         {provenance.status === 'ready' ? (
           <View testID="provenance-ready">
             <Text style={styles.row} testID="provenance-latest-set">

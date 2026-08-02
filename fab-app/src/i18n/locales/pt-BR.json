@@ -4,7 +4,7 @@
       "title": "Idioma",
       "system": "Sistema",
       "en": "Inglês",
-      "ptBR": "Português (Brasil)"
+      "pt-BR": "Português (Brasil)"
     }
   },
   "onboarding": {
@@ -60,7 +60,6 @@
     "status": {
       "idle": "OCIOSO",
       "checking": "VERIFICANDO",
-      "ok": "OK",
       "error": "ERRO"
     }
   }

@@ -18,6 +18,7 @@ import {I18nextProvider} from 'react-i18next';
 import {ProvenanceScreen} from '../ProvenanceScreen';
 import type {ProvenanceState} from '../../provenance';
 import {createI18nInstance} from '../../i18n/i18n';
+import {LOCALE_BUNDLES, SUPPORTED_LOCALES} from '../../i18n/locales';
 import type {Locale} from '../../i18n/types';
 
 function render(provenance: ProvenanceState, locale: Locale = 'en') {
@@ -84,36 +85,48 @@ describe('ProvenanceScreen (§9.4 Knowledge screen)', () => {
     );
   });
 
-  it('renders the title and field templates translated in pt-BR', () => {
-    const tree = render(
-      {
-        status: 'ready',
-        latestSet: 'OTA',
-        crVersion: 'Wed, 10 Jun 2026 19:43:38 GMT',
-        legalityAsOf: '2026-08-01T22:10:54.711Z',
-      },
-      'pt-BR',
-    );
+  // #217: parametrized over every registered locale — asserted against
+  // that locale's own bundle templates, not hardcoded translated strings,
+  // so a future locale added to the registry is covered automatically.
+  describe.each(SUPPORTED_LOCALES)('translated copy in %s', locale => {
+    const bundle = LOCALE_BUNDLES[locale];
 
-    expect(
-      flatten(tree.root.findByProps({testID: 'provenance-latest-set'}).props.children),
-    ).toContain('conhecimento até: OTA');
-    expect(
-      flatten(
-        tree.root.findByProps({testID: 'provenance-legality-as-of'}).props
-          .children,
-      ),
-    ).toContain('legalidade em');
-  });
+    it("renders the title and field templates using that locale's text", () => {
+      const tree = render(
+        {
+          status: 'ready',
+          latestSet: 'OTA',
+          crVersion: 'Wed, 10 Jun 2026 19:43:38 GMT',
+          legalityAsOf: '2026-08-01T22:10:54.711Z',
+        },
+        locale,
+      );
 
-  it('renders the empty-state message unchanged across locales (already-derived data)', () => {
-    const tree = render(
-      {status: 'not-installed', message: 'no knowledge pack installed yet'},
-      'pt-BR',
-    );
-    expect(
-      flatten(tree.root.findByProps({testID: 'provenance-empty'}).props.children),
-    ).toContain('no knowledge pack installed yet');
+      expect(
+        flatten(tree.root.findByProps({testID: 'provenance-title'}).props.children),
+      ).toBe(bundle.screens.provenance.title);
+      expect(
+        flatten(tree.root.findByProps({testID: 'provenance-latest-set'}).props.children),
+      ).toBe(bundle.screens.provenance.knowledgeUpTo.replace('{{set}}', 'OTA'));
+      expect(
+        flatten(tree.root.findByProps({testID: 'provenance-legality-as-of'}).props.children),
+      ).toBe(
+        bundle.screens.provenance.legalityAsOf.replace(
+          '{{date}}',
+          '2026-08-01T22:10:54.711Z',
+        ),
+      );
+    });
+
+    it('renders the empty-state message unchanged (already-derived data, not this component copy)', () => {
+      const tree = render(
+        {status: 'not-installed', message: 'no knowledge pack installed yet'},
+        locale,
+      );
+      expect(
+        flatten(tree.root.findByProps({testID: 'provenance-empty'}).props.children),
+      ).toBe('no knowledge pack installed yet');
+    });
   });
 });
 

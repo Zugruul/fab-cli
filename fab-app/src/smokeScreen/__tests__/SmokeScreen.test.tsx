@@ -9,12 +9,18 @@
 // jest.config.js moduleNameMapper / __mocks__), same as __tests__/App.test.tsx
 // — this only asserts the translated copy renders, not real device
 // behavior (that's the manual APP-036 TestFlight check).
+//
+// Parametrized over every registered locale (SUPPORTED_LOCALES) and
+// asserted against that locale's own bundle content (LOCALE_BUNDLES) —
+// not hardcoded translated strings — so a future locale added to the
+// registry is covered automatically with no change to this file.
 
 import React from 'react';
 import ReactTestRenderer, {act} from 'react-test-renderer';
 import {I18nextProvider} from 'react-i18next';
 import {SmokeScreen} from '../SmokeScreen';
 import {createI18nInstance} from '../../i18n/i18n';
+import {LOCALE_BUNDLES, SUPPORTED_LOCALES} from '../../i18n/locales';
 import type {Locale} from '../../i18n/types';
 
 async function render(locale: Locale) {
@@ -29,39 +35,23 @@ async function render(locale: Locale) {
   return tree!;
 }
 
-describe('SmokeScreen (#217 translated device smoke test)', () => {
-  it('renders the title, module label, button, and note translated in en', async () => {
-    const tree = await render('en');
-    expect(flatten(tree.root.findByProps({testID: 'smoke-title'}).props.children)).toBe(
-      'fab-app device smoke test',
-    );
+describe.each(SUPPORTED_LOCALES)('SmokeScreen translated copy in %s', locale => {
+  const bundle = LOCALE_BUNDLES[locale];
+
+  it("renders the title, module label, button, and note using that locale's text", async () => {
+    const tree = await render(locale);
+    expect(flatten(tree.root.findByProps({testID: 'smoke-title'}).props.children)).toBe(bundle.smoke.title);
     expect(
       flatten(tree.root.findByProps({testID: 'smoke-row-llama'}).props.children[0].props.children),
-    ).toBe('llama.rn');
-    expect(tree.root.findByProps({testID: 'smoke-run-checks'}).props.title).toBe('Run checks again');
-    expect(flatten(tree.root.findByProps({testID: 'smoke-note'}).props.children)).toContain(
-      'Device run: pending human device test via the APP-036 TestFlight pipeline.',
-    );
+    ).toBe(bundle.smoke.modules.llama);
+    expect(tree.root.findByProps({testID: 'smoke-run-checks'}).props.title).toBe(bundle.smoke.runChecksAgain);
+    expect(flatten(tree.root.findByProps({testID: 'smoke-note'}).props.children)).toBe(bundle.smoke.deviceRunNote);
   });
 
-  it('renders the title, button, and note translated in pt-BR', async () => {
-    const tree = await render('pt-BR');
-    expect(flatten(tree.root.findByProps({testID: 'smoke-title'}).props.children)).toBe(
-      'Teste de fumaça do dispositivo fab-app',
-    );
-    expect(tree.root.findByProps({testID: 'smoke-run-checks'}).props.title).toBe(
-      'Executar verificações novamente',
-    );
-    expect(flatten(tree.root.findByProps({testID: 'smoke-note'}).props.children)).toContain(
-      'Execução no dispositivo: teste manual pendente via pipeline TestFlight do APP-036.',
-    );
-  });
-
-  it('renders the settled summary translated once all four mocked modules resolve', async () => {
-    const tree = await render('en');
-    expect(flatten(tree.root.findByProps({testID: 'smoke-summary'}).props.children)).toBe(
-      '4/4 native modules ok, 0/4 failed',
-    );
+  it("renders the settled summary using that locale's template, once all four mocked modules resolve", async () => {
+    const tree = await render(locale);
+    const expected = bundle.smoke.summarySettled.replace('{{ok}}', '4').replace('{{error}}', '0');
+    expect(flatten(tree.root.findByProps({testID: 'smoke-summary'}).props.children)).toBe(expected);
   });
 });
 

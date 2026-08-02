@@ -10,14 +10,15 @@
 import i18next from 'i18next';
 import type { i18n as I18nInstance } from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import en from './locales/en.json';
-import ptBR from './locales/pt-BR.json';
+import { LOCALE_BUNDLES, SOURCE_LOCALE } from './locales';
 import type { Locale } from './types';
 
-export const resources = {
-  en: { translation: en },
-  'pt-BR': { translation: ptBR },
-} as const;
+// Derived from the locale registry (./locales/index.ts) rather than
+// listing each locale by hand — a locale added to LOCALE_BUNDLES is
+// automatically wired into i18next with no change here.
+export const resources = Object.fromEntries(
+  Object.entries(LOCALE_BUNDLES).map(([locale, bundle]) => [locale, { translation: bundle }]),
+);
 
 export function createI18nInstance(initialLocale: Locale): I18nInstance {
   const instance = i18next.createInstance();
@@ -27,7 +28,7 @@ export function createI18nInstance(initialLocale: Locale): I18nInstance {
   instance.use(initReactI18next).init({
     resources,
     lng: initialLocale,
-    fallbackLng: 'en',
+    fallbackLng: SOURCE_LOCALE,
     interpolation: { escapeValue: false },
     react: { useSuspense: false },
   });

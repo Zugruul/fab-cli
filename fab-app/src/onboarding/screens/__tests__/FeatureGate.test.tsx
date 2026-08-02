@@ -19,6 +19,7 @@ import { Text } from "react-native";
 import { I18nextProvider } from "react-i18next";
 import { FeatureGate } from "../FeatureGate";
 import { createI18nInstance } from "../../../i18n/i18n";
+import { LOCALE_BUNDLES, SUPPORTED_LOCALES } from "../../../i18n/locales";
 import type { Locale } from "../../../i18n/types";
 
 function render(available: boolean, reason?: string, locale: Locale = "en") {
@@ -48,21 +49,17 @@ describe("FeatureGate", () => {
     expect(() => tree.root.findByProps({ testID: "qa-content" })).toThrow();
   });
 
-  it("renders the not-ready title translated in en", () => {
-    const tree = render(false, "model pack not installed yet", "en");
-    expect(flatten(tree.root.findByProps({ testID: "feature-gate-title" }).props.children)).toContain(
-      "Q&A isn't ready yet",
-    );
-  });
-
-  it("renders the not-ready title translated in pt-BR, with the reason left as-is", () => {
-    const tree = render(false, "model pack not installed yet", "pt-BR");
-    expect(flatten(tree.root.findByProps({ testID: "feature-gate-title" }).props.children)).toContain(
-      "Q&A ainda não está pronto",
-    );
-    expect(flatten(tree.root.findByProps({ testID: "feature-gate-reason" }).props.children)).toContain(
-      "model pack not installed yet",
-    );
+  // #217: parametrized over every registered locale — asserted against
+  // that locale's own bundle template, not a hardcoded translated string.
+  describe.each(SUPPORTED_LOCALES)("not-ready title in %s", locale => {
+    it("renders using that locale's template, with the reason left as-is", () => {
+      const tree = render(false, "model pack not installed yet", locale);
+      const expected = LOCALE_BUNDLES[locale].onboarding.featureGate.notReady.replace("{{feature}}", "Q&A");
+      expect(flatten(tree.root.findByProps({ testID: "feature-gate-title" }).props.children)).toBe(expected);
+      expect(flatten(tree.root.findByProps({ testID: "feature-gate-reason" }).props.children)).toContain(
+        "model pack not installed yet",
+      );
+    });
   });
 });
 

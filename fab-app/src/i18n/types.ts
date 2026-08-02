@@ -3,9 +3,12 @@
 // resolveLocale/checkParity/languageStore stay unit-testable without a
 // renderer, mirroring src/onboarding/types.ts's split.
 
-/** A resource bundle fab-app actually ships. `en` is the source of truth;
- * `pt-BR` must carry full key parity (machine-checked, see checkParity.ts). */
-export type Locale = 'en' | 'pt-BR';
+// `Locale` is derived from the locale registry (./locales/index.ts) rather
+// than declared as its own union here — the registry (LOCALE_BUNDLES) is
+// the single source of truth for which languages fab-app ships, so this
+// type always matches it exactly with no risk of drifting out of sync.
+import type { Locale } from './locales';
+export type { Locale };
 
 /** The user's stored choice: `system` defers to the device locale (mapped
  * via resolveLocale.ts), or an explicit override. */
