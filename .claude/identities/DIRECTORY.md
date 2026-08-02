@@ -5092,6 +5092,7 @@ _(no notes)_
 - **pricing-cache-contract** — [pricing, cache, testing]
 - **provider-prefixed-raw-types** — [pricing, types, naming]
 - **real-data-only-doctrine** — [pricing, product, fabrication]
+- **recovery-first-state-machines** — [state-machines, resources, error-handling]
 - **red-commit-test-files-only** — [tdd, hooks, commits]
 - **regex-fix-scan-whole-file** — [parsing, regex, testing, verification]
 - **reverify-inherited-claims-dont-just-trust-prior-task-finding** — [verification, pipeline, research]
