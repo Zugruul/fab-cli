@@ -9,6 +9,15 @@ import type { ActivatedChunk, ChunkCorpus, RetrievalConfig } from "./types";
  * exactly, including that a strong enough link CAN raise a seed's own
  * recorded activation/stage above what seeding gave it).
  *
+ * Contract (#196/#198 hardening): the spec is silent on link.weight bounds,
+ * so a `link.weight > 1 / hopDecay` would otherwise let propagated
+ * activation exceed its source — amplification instead of decay — which
+ * can run away hop over hop around a link cycle (e.g. A<->B). Amplifying
+ * spreading activation is never sensible, so the effective per-hop
+ * multiplier is clamped to `min(1, hopDecay * link.weight)`: propagated
+ * activation can decay by up to the full `hopDecay * link.weight` factor,
+ * but never exceeds the source chunk's own activation.
+ *
  * Traversal order is sorted by chunk id at every hop (not object/Map
  * insertion order), and each chunk's outgoing links are sorted by target
  * id before traversal, so results are deterministic regardless of how the
@@ -34,7 +43,8 @@ export function expandLinks(
       for (const link of links) {
         if (!corpus.getById(link.targetId)) continue; // dangling link, skip
 
-        const decayed = srcActivation * config.hopDecay * link.weight;
+        const multiplier = Math.min(1, config.hopDecay * link.weight);
+        const decayed = srcActivation * multiplier;
         const existing = activation.get(link.targetId);
         if (!existing || decayed > existing.activation) {
           const entry: ActivatedChunk = { chunkId: link.targetId, activation: decayed, stage: "link" };
