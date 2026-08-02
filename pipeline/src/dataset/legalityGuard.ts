@@ -106,9 +106,11 @@ export function runLegalityGuard(examples: DatasetExample[], chunks: Chunk[]): L
 
 /**
  * Throws (aborting the build) when `runLegalityGuard` finds any violation.
- * Called from dataset/cli.ts's main() right after assembleDataset(), before
- * writeDataset() persists anything — a build that would leak legality
- * content into fact-SFT output never reaches disk.
+ * Called from INSIDE dataset/assemble.ts's assembleDataset(), right after
+ * its checkLeakage self-check — so every caller of assembleDataset gets
+ * this guarantee (not just dataset/cli.ts's main(), which would otherwise
+ * be the one trusted place doing verification while any other programmatic
+ * caller got unguarded output straight from assembly).
  */
 export function assertLegalityGuard(examples: DatasetExample[], chunks: Chunk[]): void {
   const result = runLegalityGuard(examples, chunks);
