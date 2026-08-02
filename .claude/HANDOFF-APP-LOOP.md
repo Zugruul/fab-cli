@@ -16,8 +16,10 @@ scratch note and is superseded by this file.
      which blocks ALL of E2 (APP-020..024 training tasks).
   2. **ANTHROPIC_API_KEY** for teacher QA-generation runs (dataset for APP-020).
   3. **#144 APP-036 TestFlight** — 4-step Apple action list posted on the issue.
-  4. **storm590x `sudo apt install -y python3.12-dev`** — triton JIT needs Python.h; blocks the
-     slm-training sft smoke (and any real unsloth training). Details in #132 comments.
+  4. ~~storm590x python3.12-dev~~ RESOLVED 2026-08-02 ~11:50Z — user installed it; the
+     slm-training:sft smoke then passed END-TO-END on the 5090 (2-step QLoRA, adapters +
+     train-summary.json round-tripped). Payload fix landed en route: save_strategy=no
+     (unsloth-patched trl config classes crash torch.save at checkpoint time). Details #132.
 
 ## slm-training capability bundle (user directive, this session)
 - Generic, project-agnostic bundle at development-skills
@@ -27,11 +29,10 @@ scratch note and is superseded by this file.
   never stash/switch/rebase there; commit was surgical; NOT pushed, their call).
 - Hermetic tests added to section-remote-compute.sh (job roster, hostile-param refusal,
   payload project-agnosticism, engine training-domain-free); plugin gate.sh PASS recorded.
-- storm590x: bundle INSTALLED; `slm-training:gpu-check` verified green END-TO-END on the real
-  machine (dispatch → tmux → status → logs → artifact pull). `slm-training:sft` smoke FAILED at
-  triton JIT (python3.12-dev missing — human item 4 above). Re-run after fix:
-  `/remote-compute run storm590x slm-training:sft --param config=tiny-sft.json --inputs
-  /Users/vieiral/.claude/jobs/703017a7/tmp/slm-inputs` (config already authored there).
+- storm590x: bundle INSTALLED; `slm-training:gpu-check` AND `slm-training:sft` both verified
+  green END-TO-END on the real machine (gpu-check artifact round-trip; sft: real 2-step QLoRA
+  on the 5090, loss 2.412→2.399, adapters+tokenizer+train-summary.json pulled back). The
+  training dispatch rail is fully proven.
 - storm590x ENABLED for this repo (gitignored .claude/project.local.yaml overlay, role training).
 - Contract recorded on #132 + memory note `slm-training-capability-bundle.md`: APP-020+ training
   dispatches via `slm-training:*` jobs; project specifics live in pipeline/ configs; extending
