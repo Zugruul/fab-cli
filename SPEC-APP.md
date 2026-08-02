@@ -407,6 +407,25 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   non-breakage — a named human release-gate check (like §9.10's TestFlight pipeline and
   §9.11's consent-text legal review), not something the automated merge gate substitutes for,
   since no automated RN a11y check can verify what a real screen reader actually announces.
+- **9.13** THE SYSTEM SHALL support a dark theme and a light theme, following the device's
+  OS-level appearance setting — no in-app override or manual toggle in this version. Both
+  themes SHALL be expressed as a registered, data-driven set of semantic color tokens (a
+  `THEMES` registry keyed by theme name, mirroring §9.11's locale-bundle registry and §9.12's
+  screen-registration table one level up) covering, at minimum: a primary background surface, a
+  secondary/elevated surface, primary text, de-emphasized/secondary text, a decorative border
+  tone, an accent/call-to-action tone, and danger/warning/success status tones. Every shipped UI
+  component SHALL consume color exclusively through these tokens (a `useTheme()` hook resolving
+  the active theme from the OS appearance setting), never a hardcoded color literal. WHEN the
+  OS-level appearance setting changes THE SYSTEM SHALL re-render the active screen under the
+  newly selected theme without requiring an app restart. THE SYSTEM SHALL enforce, as part of
+  the merge gate (network-disabled, per §13 invariant 10): (a) zero hardcoded color literals in
+  shipped screen source (test fixtures excluded, the same scoping §9.11's no-hardcoded-string
+  and §9.12's a11y lint rules use); and (b) WCAG AA contrast (4.5:1 for normal text) for every
+  foreground-role-on-background-role pair actually rendered by shipped screens, checked via a
+  pure, independently-unit-tested contrast-ratio function, in every registered theme. Both checks
+  SHALL be generic over whatever theme set, token pairs, and screens currently exist — adding a
+  theme, a token pair, or a screen requires no change to the check logic itself, the same
+  guarantee §9.11 makes for locales and §9.12 makes for screens.
 
 ## §10 Q&A experience (E4)
 

@@ -37,8 +37,8 @@ into §9 on merge).
   anything else → `en`.
 - Gate contract (fab-app `npm run gate`, inherited by root `pnpm -r gate`): typecheck +
   lint (incl. no-hardcoded-JSX-literals rule + a11y lint) + tests + en/pt-BR key-parity
-  check + per-screen a11y assertions. All gate tests pass with the network disabled
-  (§13 invariant 10).
+  check + per-screen a11y assertions + color-literal lint + token-contrast check (both
+  themes). All gate tests pass with the network disabled (§13 invariant 10).
 
 ## Key sequences
 
