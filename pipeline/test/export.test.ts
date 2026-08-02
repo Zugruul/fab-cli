@@ -15,6 +15,7 @@ function baseConfig() {
     versionsTxtPath: path.join(FIXTURES, "fab-rules", "VERSIONS.txt"),
     setJsonPath: path.join(FIXTURES, "flesh-and-blood-cards", "json", "english", "set.json"),
     fabloreDir: path.join(FIXTURES, "does-not-exist-submodule"),
+    shippingModesPath: path.join(FIXTURES, "shipping-modes.json"),
   };
 }
 
@@ -119,5 +120,73 @@ describe("runExport", () => {
     config.kbRulesDir = path.join(FIXTURES, "kb", "rules-with-legality");
     const { manifest } = runExport(config);
     expect(manifest.legalityPolicyFetchedAt).toBe("2026-07-15T10:00:00.000Z");
+  });
+
+  // APP-017 (SPEC-APP.md §7.10): the exporter now reads shipping modes from
+  // a committed config instead of hardcoding them, and enforces the
+  // recorded mode on the actual chunk text it emits — not just on the
+  // manifest's shippingMode label.
+  describe("APP-017 shipping-mode enforcement", () => {
+    it("stubs stub-mode source chunks in `chunks` (the shipped/chunks.jsonl set), keeping full text only in `chunksFullText`", () => {
+      const { chunks, chunksFullText } = runExport(baseConfig());
+
+      const shippedLore = chunks.filter((c) => c.chunk_id.startsWith("lore/"));
+      expect(shippedLore).toHaveLength(2);
+      for (const c of shippedLore) {
+        expect(c.text).toMatch(/retrieval stub/i);
+        expect(c.text).not.toMatch(/Sutcliffe was once|superseded telling/);
+      }
+
+      const fullTextLore = chunksFullText.filter((c) => c.chunk_id.startsWith("lore/"));
+      expect(fullTextLore).toHaveLength(2);
+      const sutcliffe = fullTextLore.find((c) => c.chunk_id.includes("lord-sutcliffe"))!;
+      expect(sutcliffe.text).toMatch(/Sutcliffe was once/);
+    });
+
+    it("leaves verbatim-mode source chunks (brains, rules) identical in `chunks` and `chunksFullText`", () => {
+      const { chunks, chunksFullText } = runExport(baseConfig());
+      const nonLoreShipped = chunks.filter((c) => !c.chunk_id.startsWith("lore/"));
+      const nonLoreFullText = chunksFullText.filter((c) => !c.chunk_id.startsWith("lore/"));
+      expect(nonLoreShipped).toEqual(nonLoreFullText);
+      // sanity: these actually carry real (non-empty, non-stub) text
+      for (const c of nonLoreShipped) {
+        expect(c.text.length).toBeGreaterThan(0);
+        expect(c.text).not.toMatch(/retrieval stub/i);
+      }
+    });
+
+    it("derives every source's shippingMode from the config file, not a hardcoded literal — flipping the config flips the manifest", () => {
+      // real committed config (lore: stub)
+      const { manifest: withRealConfig } = runExport(baseConfig());
+      expect(withRealConfig.sources.find((s) => s.name === "lore")!.shippingMode).toBe("stub");
+
+      // fixture config where lore is verbatim instead — proves the value is
+      // read from the file, not hardcoded to "stub" in export.ts
+      const flipped = baseConfig();
+      flipped.shippingModesPath = path.join(FIXTURES, "shipping-modes-lore-verbatim.json");
+      const { manifest: withFlippedConfig, chunks: flippedChunks } = runExport(flipped);
+      expect(withFlippedConfig.sources.find((s) => s.name === "lore")!.shippingMode).toBe(
+        "verbatim",
+      );
+      const shippedLore = flippedChunks.filter((c) => c.chunk_id.startsWith("lore/"));
+      for (const c of shippedLore) {
+        expect(c.text).not.toMatch(/retrieval stub/i);
+      }
+    });
+
+    it("throws a clear error (config-assessment consistency check) when a produced source has no entry in the shipping-modes config", () => {
+      const config = baseConfig();
+      config.shippingModesPath = path.join(FIXTURES, "shipping-modes-missing-lore.json");
+      expect(() => runExport(config)).toThrow(/no shipping mode configured for source "lore"/);
+    });
+
+    it("cites docs/rights-assessment.md and the recorded mode in each source's manifest note, and marks sign-off pending", () => {
+      const { manifest } = runExport(baseConfig());
+      for (const source of manifest.sources) {
+        expect(source.note).toMatch(/docs\/rights-assessment\.md/);
+        expect(source.note).toMatch(new RegExp(`shipping mode: ${source.shippingMode}\\b`));
+        expect(source.note).toMatch(/pending user sign-off/i);
+      }
+    });
   });
 });

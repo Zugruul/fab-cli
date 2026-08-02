@@ -1,0 +1,7 @@
+{
+  "_comment": "Test fixture missing the 'lore' entry on purpose — proves the config-assessment consistency check loudly fails rather than silently defaulting an unassessed source to verbatim (APP-017).",
+  "judge-brain": "verbatim",
+  "player-brain": "verbatim",
+  "card-vault-brain": "verbatim",
+  "rules-kb": "verbatim"
+}

@@ -1,0 +1,8 @@
+{
+  "_comment": "Test fixture: identical to shipping-modes.json but with lore flipped to verbatim — proves runExport() derives shippingMode from the config file rather than a hardcoded literal (APP-017).",
+  "judge-brain": "verbatim",
+  "player-brain": "verbatim",
+  "card-vault-brain": "verbatim",
+  "rules-kb": "verbatim",
+  "lore": "verbatim"
+}
