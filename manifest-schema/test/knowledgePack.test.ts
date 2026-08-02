@@ -4,6 +4,8 @@ import {
   validKnowledgePackManifest,
   invalidKnowledgePackManifestMissingRetrievalFloor,
   invalidKnowledgePackManifestMissingOodThreshold,
+  invalidKnowledgePackManifestOodThresholdEqualsFloor,
+  invalidKnowledgePackManifestOodThresholdAboveFloor,
 } from "../src/index.js";
 
 describe("KnowledgePackManifest schema", () => {
@@ -35,6 +37,28 @@ describe("KnowledgePackManifest schema", () => {
     if (!result.success) {
       expect(result.errors.some((e) => e.path.join(".") === "oodThreshold")).toBe(true);
     }
+  });
+
+  it("rejects a manifest whose oodThreshold equals retrievalFloor (§10.9 requires 'well below', not equal), precise error path", () => {
+    const result = validateKnowledgePackManifest(invalidKnowledgePackManifestOodThresholdEqualsFloor);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "oodThreshold")).toBe(true);
+    }
+  });
+
+  it("rejects a manifest whose oodThreshold exceeds retrievalFloor (§10.9 calibration invariant), precise error path", () => {
+    const result = validateKnowledgePackManifest(invalidKnowledgePackManifestOodThresholdAboveFloor);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.path.join(".") === "oodThreshold")).toBe(true);
+    }
+  });
+
+  it("accepts a manifest whose oodThreshold is strictly below retrievalFloor by a small margin", () => {
+    const ok = { ...validKnowledgePackManifest, retrievalFloor: 0.3, oodThreshold: 0.299 };
+    const result = validateKnowledgePackManifest(ok);
+    expect(result.success).toBe(true);
   });
 
   it("rejects an indexFiles entry with a malformed sha256", () => {

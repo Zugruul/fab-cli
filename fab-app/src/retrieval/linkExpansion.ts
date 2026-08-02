@@ -9,6 +9,27 @@ import type { ActivatedChunk, ChunkCorpus, RetrievalConfig } from "./types";
  * exactly, including that a strong enough link CAN raise a seed's own
  * recorded activation/stage above what seeding gave it).
  *
+ * Contract (#196/#198 hardening): the spec is silent on link.weight bounds,
+ * so a `link.weight > 1 / hopDecay` would otherwise let propagated
+ * activation exceed its source — amplification instead of decay — which
+ * can run away hop over hop around a link cycle (e.g. A<->B). Amplifying
+ * spreading activation is never sensible, so the effective per-hop
+ * multiplier is clamped to `min(1, hopDecay * link.weight)`: propagated
+ * activation can decay by up to the full `hopDecay * link.weight` factor,
+ * but never exceeds the source chunk's own activation.
+ *
+ * Link weights are untrusted, pack-authored data, so a non-positive or
+ * non-finite effective multiplier (negative weight, zero, NaN, Infinity)
+ * is treated as invalid and the link is skipped entirely — it propagates
+ * no activation. This isn't just defensive: an upper-only clamp on a
+ * negative weight passes it straight through unclamped, and two clamped
+ * negative hops around a mutual link double-negate back to a positive
+ * multiplier, re-amplifying the source past its own activation despite
+ * each individual hop looking bounded. Restricting the multiplier to
+ * `(0, 1]` — rather than merely `[-1, 1]` — is what makes "propagated
+ * activation never exceeds the source chunk's own activation"
+ * unconditional rather than true only for non-adversarial weights.
+ *
  * Traversal order is sorted by chunk id at every hop (not object/Map
  * insertion order), and each chunk's outgoing links are sorted by target
  * id before traversal, so results are deterministic regardless of how the
@@ -34,7 +55,11 @@ export function expandLinks(
       for (const link of links) {
         if (!corpus.getById(link.targetId)) continue; // dangling link, skip
 
-        const decayed = srcActivation * config.hopDecay * link.weight;
+        const rawMultiplier = config.hopDecay * link.weight;
+        if (!Number.isFinite(rawMultiplier) || rawMultiplier <= 0) continue; // negative/zero/NaN/Infinity weight: no propagation
+
+        const multiplier = Math.min(1, rawMultiplier);
+        const decayed = srcActivation * multiplier;
         const existing = activation.get(link.targetId);
         if (!existing || decayed > existing.activation) {
           const entry: ActivatedChunk = { chunkId: link.targetId, activation: decayed, stage: "link" };
