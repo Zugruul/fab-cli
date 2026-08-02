@@ -67,6 +67,7 @@ export function makeSampledRecord(
     question,
     answer: `Rejected/accepted answer text for: ${question}`,
     cited_chunk_ids: [chunk_id],
+    rejectionKind: null,
     reason: "test fixture",
     ...overrides,
   };

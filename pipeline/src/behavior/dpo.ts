@@ -43,9 +43,8 @@ function key(chunk_id: string, question: string): string {
  * Every pair records its construction method.
  *
  * `acceptedRecords`/`rejectedRecords` mirror APP-012's accepted.jsonl/
- * rejected.jsonl (SampledRecordLike, structurally — see types.ts for why
- * this is a duplicate shape rather than an import of the unmerged
- * pipeline/src/sampling/** lane).
+ * rejected.jsonl (SampledRecordLike — a type-only re-export of sampling/
+ * store.ts's real SampledRecord, see types.ts, BUG-183).
  *
  * Chosen-eligibility gating is per EXACT (chunk_id, question): once
  * rejection sampling has actually run for this chunk set (either artifact
