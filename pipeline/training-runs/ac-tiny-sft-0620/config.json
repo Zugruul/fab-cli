@@ -1,0 +1,35 @@
+{
+  "base_model": "unsloth/Qwen3-0.6B",
+  "stage": "sft",
+  "max_seq_length": 512,
+  "load_in_4bit": true,
+  "lora": {
+    "r": 16,
+    "alpha": 16,
+    "dropout": 0,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "dataset": {
+    "path": "tiny-sft.jsonl",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "train": {
+    "batch_size": 2,
+    "grad_accum": 4,
+    "lr": 0.0002,
+    "warmup_steps": 5,
+    "seed": 3407,
+    "logging_steps": 1,
+    "max_steps": 2
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "0.1.0",
+  "runId": "ac-tiny-sft-0620",
+  "tier": "0.6B",
+  "stage": "sft",
+  "baseModel": "unsloth/Qwen3-0.6B",
+  "baseModelHash": "dcceabb0bc6b9a949e8e89ca3e744c2b74a90b2058d12fb59d9c3ef14f8687e6",
+  "hyperparams": {
+    "maxSeqLength": 512,
+    "loadIn4bit": true,
+    "lora": {
+      "r": 16,
+      "alpha": 16,
+      "dropout": 0,
+      "targetModules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "train": {
+      "maxSteps": 2,
+      "numEpochs": null,
+      "batchSize": 2,
+      "gradAccum": 4,
+      "lr": 0.0002,
+      "warmupSteps": 5,
+      "loggingSteps": 1,
+      "seed": 3407
+    }
+  },
+  "seed": 3407,
+  "dataset": {
+    "path": "tiny-sft.jsonl",
+    "sha256": "c45bcc27806a2f0d249801c309a130f7ea0e5ab154c7560abd1dc6f440d9b020",
+    "rowCount": 8
+  },
+  "environment": {
+    "lockfileSha256": "97a65f2f1783ed0bd10949e6f093b8516017c87ec30c78cfc9223b48d0e051fe",
+    "torch": "2.11.0+cu128",
+    "cuda": "13.3",
+    "driver": "610.62",
+    "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "unsloth": "2026.7.6"
+  },
+  "dispatch": {
+    "resource": "storm590x",
+    "jobId": "ac-tiny-sft-0620",
+    "capabilityJob": "slm-training:sft"
+  },
+  "artifacts": {
+    "adaptersDir": "/Users/vieiral/.claude/jobs/703017a7/tmp/lane-app020/pipeline/training-runs/ac-tiny-sft-0620/adapters",
+    "files": [
+      {
+        "name": "adapters/README.md",
+        "sha256": "fab55b5aa40812cb28a90c14ca5bfe6898e75cc7e63ebc30ddc21df2fdf9f10c"
+      },
+      {
+        "name": "adapters/adapter_config.json",
+        "sha256": "e83ea4cce890de70c154908cc9dc11c3823aa3350e997758da2fb568b9769a84"
+      },
+      {
+        "name": "adapters/adapter_model.safetensors",
+        "sha256": "35ab72d4362401dce5c2e05bd76804d832acaffd66b955119f2216fd5e10366f"
+      },
+      {
+        "name": "adapters/chat_template.jinja",
+        "sha256": "5da44855ab7e0641774d5ed0ff0b4f89671d01df7d316e54d06557a962211cb4"
+      },
+      {
+        "name": "adapters/tokenizer.json",
+        "sha256": "476870a1f2fb6f6a2759a6ede2383bf9d5d738f17844563b65c91965b722ae09"
+      },
+      {
+        "name": "adapters/tokenizer_config.json",
+        "sha256": "8c4e31b65a59ea464903d5a09abe0026c04738006e1e5d544edf04b0e7dcf0ed"
+      }
+    ]
+  },
+  "timestamps": {
+    "dispatchedAt": "2026-08-02T18:58:19.475Z",
+    "completedAt": "2026-08-02T18:59:02.495Z"
+  },
+  "status": "completed"
+}
