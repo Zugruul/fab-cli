@@ -1,0 +1,75 @@
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T00:30:00Z'
+iteration:
+  task: APP-001
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: worked-well
+  area: testing
+  severity: low
+  summary: Red-first commit-ordering hook caught a mixed test+wiring first commit
+    before any reviewer time was spent
+  generalized: The commit-ordering hook that requires a test-only first commit catches
+    TDD violations mechanically before review; splitting test-runner wiring out of
+    the red commit is the recurring fix worth briefing dev agents on up front.
+  detail: In-review move blocked because the red commit touched package.json alongside
+    the test file; history rebuilt with wiring as a separate second commit.
+  evidence:
+  - fab-cli#120
+  routing:
+    action: brain-note
+    ref: dev/red-commit-test-files-only
+- category: friction
+  area: permissions
+  severity: medium
+  summary: Force-push denial made history corrections require replacement branches,
+    causing superseded-PR churn
+  generalized: When the permission layer denies force-push, history corrections need
+    the replacement-branch pattern (new branch, new PR, close old with pointer); a
+    first-class 'rebuild branch' helper would cut the PR churn and reviewer confusion
+    this produces.
+  detail: Two superseded PRs accumulated for one task; each rebuild used detached-worktree
+    cherry-picks.
+  evidence:
+  - fab-cli#120
+  routing:
+    action: brain-note
+    ref: orchestrator/replacement-branch-instead-of-force-push
+- category: incident
+  area: board
+  severity: high
+  summary: Chained board moves in one shell command bypassed a blocked QA gate and
+    reached Deployed
+  generalized: 'Board-move commands must not be chained unconditionally in one shell
+    invocation: a blocked transition exits nonzero but later chained moves still run,
+    silently skipping the gate. Move one status at a time and check each result —
+    or the move script should refuse status-skipping outright.'
+  detail: A QA-gate hook block (missing labeled review passes) was followed by chained
+    Ready and Deployed moves that succeeded; state was reverted, passes recorded,
+    then advanced properly.
+  evidence:
+  - fab-cli#120
+  routing:
+    action: brain-note
+    ref: orchestrator/no-chained-board-moves
+- category: recommendation
+  area: board
+  severity: medium
+  summary: Seeded issue bodies should embed the full backlog block plus artifacts,
+    not a pointer line
+  generalized: Board issue bodies should embed each task's full backlog block (description,
+    dependencies, acceptance criteria, spec citations) plus an artifacts/references
+    section with the backlog marked authoritative — pointer-only bodies force humans
+    off the board to read anything.
+  detail: Seeder upgraded mid-session (task_block extraction); all previously seeded
+    issues re-patched to the thorough format.
+  evidence: []
+  routing:
+    action: upstream
+    ref: development-skills seed-board.sh task_block embedding (implemented this session,
+      pending commit in plugin repo)

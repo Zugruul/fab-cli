@@ -5760,6 +5760,7 @@ _(no notes)_
 - **inject-protocol-refs-in-delegation** — [brains, delegation, protocol, agents]
 - **lean-vs-briefed-identity-validation** — [brains, validation, identities, pattern]
 - **lesson-compounding-value** — [process, brains, methodology]
+- **no-chained-board-moves** — [board, hooks, process]
 - **nudge-idle-subagents** — [concurrency, subagents, workflow]
 - **peer-agent-cleanup-requires-authorization** — [process, permissions, concurrency]
 - **peer-session-agent-reports-need-same-verification-as-own-spawns** — [verification, concurrency, peer-session]
