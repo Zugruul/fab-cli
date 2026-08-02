@@ -5060,6 +5060,7 @@ _(no notes)_
 
 ## dev
 - **api-field-type-assumptions** — [pricing, tcgcsv, parsing]
+- **audit-bug-class-not-instances** — [debugging, paths, scope]
 - **bash-if-guard-disables-errexit-in-function** — [bash, errexit, shell]
 - **build-empty-state-from-genesis-commit-not-current-sibling** — [brains, scaffolding, git]
 - **cardmarket-duplicate-expansions** — [pricing, cardmarket, matching]
