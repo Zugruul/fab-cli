@@ -564,3 +564,72 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/real-target-smoke-before-merge
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T21:20:00Z'
+iteration:
+  task: session-close-2
+  outcome: merged
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: concurrency
+  severity: medium
+  summary: Context-clear preserved the session's teammate roster, so dozens of finished
+    pre-clear agents read as active and deadlocked a goal-condition evaluator
+  detail: 29 teammates from the pre-/clear conversation segment stayed registered
+    (the session id survives /clear), and the stop-hook goal evaluator counted them
+    as running work for hours. Early cleanup probes failed only because guessed names
+    were wrong; the durable fix was reading the exact roster from the harness's own
+    team config on disk and sending shutdown_requests to every listed member — after
+    which the evaluator's ledger cleared. Root cause is harness-level — nothing marks
+    in-process teammates terminated when the conversation segment that spawned them
+    ends.
+  evidence:
+  - fab-cli#210
+  generalized: A conversation-context clear does not clear the session's teammate
+    roster — finished agents from earlier segments stay registered as active and can
+    deadlock any automation that treats the roster as ground truth; orchestrators
+    should read the on-disk team config for exact member names (never guess name patterns)
+    and formally shut down stale members at segment boundaries, and the harness should
+    auto-terminate in-process teammates when their spawning segment ends.
+  routing:
+    action: upstream
+    ref: 'development-skills/harness: context-clear must terminate or re-own the session''s
+      in-process teammates (roster ghosts deadlock goal evaluators)'
+- category: recommendation
+  area: docs
+  severity: medium
+  summary: Human corrected setup docs that referenced machine-local repo paths — portable
+    docs must bootstrap from cloneable URLs
+  detail: The new-machine runbook and README preflight initially referenced the plugin
+    repo at its absolute path on the authoring machine; the human required GitHub-cloneable
+    references with a clone-anywhere path variable so any fresh computer can reconstruct
+    the setup from the repo alone.
+  generalized: Setup/runbook docs must never reference machine-local paths for companion
+    repos or tools — every dependency gets a cloneable URL plus a reader-chosen path
+    variable, so the doc works on a machine that has nothing but the repo checkout.
+  routing:
+    action: brain-note
+    ref: orchestrator/portable-docs-cloneable-sources
+- category: worked-well
+  area: board
+  severity: low
+  summary: Mid-task user abort unwound cleanly because every artifact of an iteration
+    has a single obvious owner and undo
+  detail: Stopping a just-started task took four reversals with nothing left behind
+    — stop the dev agent, verify the lane had zero commits, remove worktree+branch,
+    move the board item back — because lanes are isolated worktrees, board moves are
+    single-status, and agents are addressable. The loop stop was one call.
+  generalized: When iterations are built from individually-reversible parts (isolated
+    worktree per task, one-status-at-a-time board moves, addressable agents, an explicit
+    loop-stop verb), a human's "actually stop that" is a four-step clean unwind instead
+    of an archaeology session.
+  routing:
+    action: ignore
+    ref: validates existing plugin design (isolated lanes, single-status moves, addressable
+      agents) — nothing to change
