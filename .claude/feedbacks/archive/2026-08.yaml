@@ -516,3 +516,51 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/real-target-smoke-before-merge
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T21:05:00Z'
+iteration:
+  task: APP-021
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: Designing the risky integration as an optional config section let an environment
+    defect degrade one feature instead of blocking the whole chain
+  detail: The llama.cpp smoke was built backward-compatible (absent smoke section
+    = no smoke), so when the constrained-generation path proved broken at the environment
+    level on the GPU machine (three independent builds, full trail on the board),
+    the export chain shipped fully usable with the smoke tracked as a P1 bug rather
+    than the task stalling. Minted with the bounded-diagnosis stop-rule as an orchestrator
+    note this retro.
+  evidence:
+  - fab-cli#133
+  - fab-cli#221
+  generalized: Integrations with third-party runtime tools should be optional config
+    sections with absent-means-off semantics from day one — when the tool breaks at
+    the environment level, the pipeline degrades by one feature and the defect gets
+    a tracked bug, instead of the whole chain blocking on upstream.
+  routing:
+    action: brain-note
+    ref: orchestrator/bounded-diagnosis-then-route-around
+- category: friction
+  area: testing
+  severity: low
+  summary: Vendor library output-location drift (files written beside, not inside,
+    the requested directory) cost one full remote AC cycle
+  detail: unsloth's save_pretrained_gguf writes GGUFs to a "<dir>_gguf" sibling; the
+    payload's file scan honestly errored after a successful conversion. Fixed by normalizing
+    from the sibling. Only a real-target run could catch it.
+  generalized: When a payload consumes files a vendor library writes, scan candidate
+    output locations (requested dir + known sibling/suffix variants) and normalize
+    into one canonical dir — vendor output paths drift between versions and only real-target
+    runs reveal it.
+  routing:
+    action: brain-note
+    ref: orchestrator/real-target-smoke-before-merge
