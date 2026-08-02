@@ -99,7 +99,11 @@ def add_entities(text, proposals, reconcile=False):
 
 
 def card_names(repo):
-    path = os.path.join(repo, "third_party", "flesh-and-blood-cards", "json", "english", "card.json")
+    # third_party/ lives under fab-cli/ (post-APP-001 monorepo split); repo is
+    # the git toplevel, one level above fab-cli/, and .claude/identities is
+    # the thing that stayed at that toplevel -- not third_party/.
+    path = os.path.join(repo, "fab-cli", "third_party", "flesh-and-blood-cards",
+                        "json", "english", "card.json")
     cards = json.load(open(path, encoding="utf-8"))
     return {kebab(card["name"]): card["name"] for card in cards}
 

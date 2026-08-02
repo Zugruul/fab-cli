@@ -69,7 +69,10 @@ ROOT = root()
 NOTES = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "notes")
 LINKS = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "links.json")
 SCHEMA = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "SCHEMA.json")
-CORPUS = os.path.join(ROOT, "third_party", "flesh-and-blood-cards",
+# third_party/ lives under fab-cli/ (post-APP-001 monorepo split); ROOT is the
+# git toplevel, one level above fab-cli/ -- .claude/identities stayed at that
+# toplevel but third_party/ did not.
+CORPUS = os.path.join(ROOT, "fab-cli", "third_party", "flesh-and-blood-cards",
                       "json", "english", "card.json")
 
 

@@ -11,13 +11,16 @@ Two distinct roles, do not conflate them:
 - **Editorial authority**: the JUDGE (who may change keyword content, and only
   after confirming against the official CR — the knowledge-flow hard rule).
 
-Tooling: `scripts/keyword-sync.py` (stdlib python, run from anywhere in the repo).
+Tooling: `fab-cli/scripts/keyword-sync.py` (stdlib python; derives the repo root via
+`git rev-parse --show-toplevel`, so it runs correctly from the repo root, from
+`fab-cli/`, or anywhere else inside the checkout — only the path you invoke it
+with changes).
 
 ```
-python3 scripts/keyword-sync.py check      # template + symlink integrity + manifest attribution (exit 1 on problems)
-python3 scripts/keyword-sync.py sync       # regen index, create/fix symlinks in all brains, refresh link edges + manifest
-python3 scripts/keyword-sync.py index      # regenerate keywords-index.md only
-python3 scripts/keyword-sync.py baseline   # rewrite the manifest from the corpus' current state
+python3 fab-cli/scripts/keyword-sync.py check      # template + symlink integrity + manifest attribution (exit 1 on problems)
+python3 fab-cli/scripts/keyword-sync.py sync       # regen index, create/fix symlinks in all brains, refresh link edges + manifest
+python3 fab-cli/scripts/keyword-sync.py index      # regenerate keywords-index.md only
+python3 fab-cli/scripts/keyword-sync.py baseline   # rewrite the manifest from the corpus' current state
 ```
 
 State: `.claude/identities/keywords.manifest.sha256` — committed last-known-good
