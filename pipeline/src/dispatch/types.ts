@@ -1,0 +1,58 @@
+/**
+ * storm590x remote training dispatch — shared types (#208, E2/APP-020 prep).
+ * The RTX 5090 training box lives outside the dev Mac; this module pushes
+ * code+data to it over rsync, launches training inside a detached tmux
+ * session (so runs survive SSH disconnects), polls status, and pulls
+ * artifacts back. See CLAUDE.md's remote-machine-facts (verified
+ * 2026-08-02) for why these particular defaults exist:
+ *  - remote shell is zsh, so every remote command is wrapped `bash -lc`
+ *  - python lives in a uv-managed venv, not on a bare `python3` PATH
+ *  - nvidia-smi isn't on the non-interactive PATH under WSL2
+ *  - the working dir MUST be on ext4 under the home dir, never /mnt/
+ *    (DrvFs) — see validateConfig in commands.ts
+ */
+
+export interface DispatchConfig {
+  /** SSH alias/host for the remote training machine. */
+  host: string;
+  /** Remote base directory runs are pushed under (one subdir per runId). Must resolve on ext4, never /mnt/. */
+  remoteBase: string;
+  /** Full path to the remote venv's python3 — not assumed to be on PATH. */
+  pythonPath: string;
+  /** Full path to nvidia-smi — not on the non-interactive WSL2 PATH. */
+  nvidiaSmiPath: string;
+  /** Prefix for the detached tmux session name; the full name is `${prefix}-${runId}`. */
+  tmuxSessionPrefix: string;
+}
+
+export const DEFAULT_DISPATCH_CONFIG: DispatchConfig = {
+  host: "storm590x",
+  remoteBase: "~/fab-training",
+  pythonPath: "~/.venv/bin/python3",
+  nvidiaSmiPath: "/usr/lib/wsl/lib/nvidia-smi",
+  tmuxSessionPrefix: "fab-train",
+};
+
+export interface ExecResult {
+  code: number;
+  stdout: string;
+  stderr: string;
+}
+
+/**
+ * The only thing that touches real ssh/rsync binaries. Command builders in
+ * commands.ts return plain argv arrays; a RemoteExecutor is what actually
+ * spawns them. Tests use a fake; cli.ts wires a real child_process one.
+ */
+export interface RemoteExecutor {
+  run(cmd: string[]): Promise<ExecResult>;
+}
+
+export type RunStatus = "running" | "finished" | "unknown";
+
+export interface StatusProbe {
+  /** ssh argv: `tmux has-session -t <session>` — exit 0 means the session is alive. */
+  hasSession: string[];
+  /** ssh argv: `tail -n N run.log` inside the run's remote directory. */
+  tailLog: string[];
+}

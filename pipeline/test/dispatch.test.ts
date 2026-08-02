@@ -121,7 +121,7 @@ describe("buildStatusProbe", () => {
 
   it("defaults tailLines to 50 when omitted", () => {
     const probe = buildStatusProbe(RUN_ID, DEFAULT_DISPATCH_CONFIG);
-    expect(probe.tailLog).toContain("tail -n 50");
+    expect(probe.tailLog[4]).toContain("tail -n 50");
   });
 
   it("honors a custom tail line count", () => {
