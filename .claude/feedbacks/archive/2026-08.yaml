@@ -466,3 +466,53 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/real-target-smoke-before-merge
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T19:20:00Z'
+iteration:
+  task: APP-020
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Mutation testing during review of brand-new code exposed a zero-coverage
+    load-bearing write that exact-value tests missed
+  detail: The reviewer deleted the dispatched-state persistence write on a scratch
+    copy and the whole suite stayed green — the exact mechanism the resumability acceptance
+    criterion depends on had no protecting test. Fixed in round 2 with a mid-flight
+    on-disk assertion; the reviewer then re-ran its own mutation to confirm the catch.
+    Minted as a reviewer-brain note this retro.
+  evidence:
+  - fab-cli#132
+  - fab-cli#216
+  generalized: For newly-created modules (no pre-fix baseline to test against), reviewers
+    should mutation-test the load-bearing writes — delete or flip one behavior at
+    a time on a scratch copy and require a failing test for each — because exact-value
+    suites can still miss whole persistence steps that only matter after a crash.
+  routing:
+    action: brain-note
+    ref: reviewer/mutation-test-when-no-prefix-baseline
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: Running the real-hardware acceptance run pre-merge validated remote-path
+    semantics no fake could, and produced the first committed provenance record as
+    a side effect
+  detail: The tiny-fixture AC run through the real dispatch chain proved config-shipping
+    and dataset-relative-path resolution on the actual machine, cross-checked the
+    manifest's driver value against live nvidia-smi, exercised resume on real state,
+    and its manifest/state/config became the repo's first committed training-run records
+    — review evidence and §8.1 compliance in one artifact.
+  generalized: For pipeline stages whose contract spans a machine boundary, run the
+    acceptance path on the real target before merge and commit its provenance record
+    with the PR — the run doubles as both the strongest review evidence and the first
+    real data fixture.
+  routing:
+    action: brain-note
+    ref: orchestrator/real-target-smoke-before-merge
