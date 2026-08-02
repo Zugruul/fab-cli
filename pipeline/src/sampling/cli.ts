@@ -13,18 +13,20 @@
  * --dry-run makes NO network calls at all: it only prints/writes what
  * would be sent per pair (dry-run-plan.json), never touches progress.
  *
- * ⚠️ STALENESS WARNING: sampling progress (progress.json) is keyed by
- * pairId (`${chunk_id}#${index}`), NOT by pair content. If you regenerate
- * an already-sampled chunk's pairs (re-run `qa:generate` for that
- * chunk_id — e.g. after editing its source text or prompt), the new
- * pairs at the same indices reuse the same pairIds, and this CLI will
- * treat them as already-checked, silently applying the OLD verdict to
- * the NEW content. Before re-running qa:generate on a chunk that's
- * already been sampled, manually clear that chunk_id's entries from
- * progress.json/accepted.jsonl/rejected.jsonl yourself — there is no
- * automatic guard against this yet (tracked separately as issue #180;
- * intentionally not implemented in APP-012). See types.ts's WorkItem doc
- * for the full explanation.
+ * ⚠️ STALENESS GUARD (BUG-180): sampling progress (progress.json) is keyed
+ * by pairId (`${chunk_id}#${index}`), NOT by pair content. If you
+ * regenerate an already-sampled chunk's pairs (re-run `qa:generate` for
+ * that chunk_id — e.g. after editing its source text or prompt), the new
+ * pairs at the same indices reuse the same pairIds. This is handled
+ * automatically: `runSampling` records each checked pairId's content hash
+ * in progress.json and, on every run, compares it against the current
+ * work item — a mismatch means the pair was regenerated, so it's
+ * reprocessed rather than silently honored with the stale verdict (see
+ * `staleReprocessedCount` below). Progress files written before this
+ * guard existed carry no hash; those pairIds are honored once
+ * (`legacyUnverifiedCount`) and backfilled with their current hash so a
+ * later resume can guard them too. See types.ts's WorkItem doc for the
+ * full mechanism.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -142,14 +144,18 @@ async function main(): Promise<void> {
     // AFTER it resolves — appendAcceptedDurable/appendRejectedDurable are
     // synchronous file rewrites, so by the time this returns, the record
     // is safely on disk. See store.ts for why a re-checked pair (after a
-    // crash right here) never ends up duplicated.
+    // crash right here) never ends up duplicated. The sibling-path
+    // argument on each call is the BUG-180 follow-up guard: a stale
+    // pairId reprocessed by the staleness guard whose verdict FLIPS
+    // (accepted <-> rejected) must not leave its old verdict's record
+    // dangling in the OTHER file — see store.ts's removeRecordDurable.
     onPairComplete: (outcome) => {
       if (outcome.status === "accepted") {
-        appendAcceptedDurable(acceptedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason);
+        appendAcceptedDurable(acceptedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.reason, rejectedPath);
       } else {
         // outcome.rejectionKind is always set (non-null) when status is
         // "rejected" — see types.ts's PairSamplingOutcome.
-        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.rejectionKind!, outcome.reason);
+        appendRejectedDurable(rejectedPath, outcome.pairId, outcome.chunk_id, outcome.pair, outcome.rejectionKind!, outcome.reason, acceptedPath);
       }
       outcomes.push(outcome);
     },
@@ -169,10 +175,22 @@ async function main(): Promise<void> {
     outcomes,
     progress: result.progress,
     stoppedEarly: result.stoppedEarly,
+    staleReprocessedCount: result.staleReprocessedCount,
+    legacyUnverifiedCount: result.legacyUnverifiedCount,
   });
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
 
   console.log(`processed ${outcomes.length} pair(s) this run`);
+  if (manifest.staleReprocessedCount > 0) {
+    console.log(
+      `BUG-180 guard: ${manifest.staleReprocessedCount} pairId(s) had regenerated content and were reprocessed (stale verdict discarded)`,
+    );
+  }
+  if (manifest.legacyUnverifiedCount > 0) {
+    console.log(
+      `BUG-180 guard: ${manifest.legacyUnverifiedCount} pairId(s) came from pre-guard progress with no content hash — honored once, now backfilled`,
+    );
+  }
   console.log(
     `accepted: ${manifest.acceptedCount}, rejected: ${manifest.rejectedCount} ` +
       `(not-entailed: ${manifest.rejectedNotEntailedCount}, infra-error: ${manifest.rejectedInfraCount})`,

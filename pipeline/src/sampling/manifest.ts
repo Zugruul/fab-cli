@@ -70,6 +70,19 @@ export interface SamplingRunManifest {
   costUsd: number;
   requestCount: number;
   stoppedEarly: string | null;
+  /** BUG-180 guard: pairIds whose recorded content hash didn't match this
+   * run's content and were reprocessed instead of silently honored with
+   * the stale verdict — see sampler.ts's runSampling. 0 when omitted. */
+  staleReprocessedCount: number;
+  /** BUG-180 guard: pairIds honored as done-as-recorded because their
+   * progress entry predates this guard (no hash to compare against) —
+   * surfaced so this backward-compat pass-through is visible, never
+   * silent. This is a real blind spot, not just bookkeeping: a
+   * regeneration that already happened BEFORE this guard shipped is
+   * undetectable, since no baseline hash was ever recorded to compare
+   * against — only regenerations from this point forward (once the hash
+   * is backfilled) get caught. 0 when omitted. */
+  legacyUnverifiedCount: number;
 }
 
 export interface BuildSamplingManifestOptions {
@@ -80,6 +93,10 @@ export interface BuildSamplingManifestOptions {
   progress: SamplingProgressState;
   stoppedEarly: SamplingRunResult["stoppedEarly"];
   now?: () => string;
+  /** See SamplingRunManifest's docs — both default to 0 when omitted, for
+   * call sites written before BUG-180. */
+  staleReprocessedCount?: number;
+  legacyUnverifiedCount?: number;
 }
 
 export function buildSamplingManifest(opts: BuildSamplingManifestOptions): SamplingRunManifest {
@@ -143,5 +160,7 @@ export function buildSamplingManifest(opts: BuildSamplingManifestOptions): Sampl
     costUsd: opts.progress.costUsd,
     requestCount: opts.progress.requestCount,
     stoppedEarly: opts.stoppedEarly?.reason ?? null,
+    staleReprocessedCount: opts.staleReprocessedCount ?? 0,
+    legacyUnverifiedCount: opts.legacyUnverifiedCount ?? 0,
   };
 }

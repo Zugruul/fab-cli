@@ -64,13 +64,33 @@ function appendRecordDurable(filePath: string, record: SampledRecord): void {
   fs.writeFileSync(filePath, existing.map((r) => JSON.stringify(r)).join("\n") + "\n");
 }
 
+/** Removes a pairId's record from a store file, if present — a no-op
+ * (never throws) when the file doesn't exist or has no such record. Used
+ * by appendAcceptedDurable/appendRejectedDurable to keep accepted.jsonl
+ * and rejected.jsonl mutually exclusive on a pairId (see BUG-180 review
+ * round: without this, a stale reprocess whose verdict FLIPS leaves the
+ * OLD verdict's record dangling in the file it no longer belongs to,
+ * since appendRecordDurable only dedupes WITHIN its own target file). */
+function removeRecordDurable(filePath: string, pairId: string): void {
+  const before = readExistingRecords(filePath);
+  const after = before.filter((r) => r.pairId !== pairId);
+  if (after.length === before.length) return; // nothing removed, don't rewrite for no reason
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, after.length > 0 ? after.map((r) => JSON.stringify(r)).join("\n") + "\n" : "");
+}
+
 export function appendAcceptedDurable(
   acceptedPath: string,
   pairId: string,
   chunk_id: string,
   pair: QAPair,
   reason: string,
+  /** BUG-180 follow-up: pass the sibling rejected.jsonl path so a pairId
+   * whose verdict just flipped rejected -> accepted doesn't leave its
+   * stale rejected record behind (see cli.ts's production wiring). */
+  rejectedPath?: string,
 ): void {
+  if (rejectedPath) removeRecordDurable(rejectedPath, pairId);
   appendRecordDurable(acceptedPath, toRecord(pairId, chunk_id, pair, null, reason));
 }
 
@@ -81,7 +101,12 @@ export function appendRejectedDurable(
   pair: QAPair,
   rejectionKind: RejectionKind,
   reason: string,
+  /** BUG-180 follow-up: pass the sibling accepted.jsonl path so a pairId
+   * whose verdict just flipped accepted -> rejected doesn't leave its
+   * stale accepted record behind (see cli.ts's production wiring). */
+  acceptedPath?: string,
 ): void {
+  if (acceptedPath) removeRecordDurable(acceptedPath, pairId);
   appendRecordDurable(rejectedPath, toRecord(pairId, chunk_id, pair, rejectionKind, reason));
 }
 

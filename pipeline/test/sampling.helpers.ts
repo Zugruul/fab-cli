@@ -4,6 +4,7 @@
 import type { Chunk } from "../src/types.js";
 import type { QAPair } from "../src/qa/types.js";
 import type { JudgeClient, JudgeRequest, JudgeResponse, WorkItem } from "../src/sampling/types.js";
+import { computePairContentHash } from "../src/sampling/sampler.js";
 
 export function makeChunk(overrides: Partial<Chunk> = {}): Chunk {
   return {
@@ -26,11 +27,17 @@ export function makePair(overrides: Partial<QAPair> = {}): QAPair {
   };
 }
 
+/** `pairContentHash` is derived from `pair` (or from `overrides.pair` when
+ * given) unless the caller overrides it explicitly — that override is what
+ * BUG-180's staleness tests use to simulate a progress record whose
+ * recorded hash predates a content change. */
 export function makeWorkItem(overrides: Partial<WorkItem> = {}): WorkItem {
+  const pair = overrides.pair ?? makePair();
   return {
     pairId: "brain/judge/kw-dominate#0",
     chunk_id: "brain/judge/kw-dominate",
-    pair: makePair(),
+    pair,
+    pairContentHash: computePairContentHash(pair),
     ...overrides,
   };
 }

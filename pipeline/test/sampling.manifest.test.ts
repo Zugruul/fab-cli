@@ -223,6 +223,36 @@ describe("buildSamplingManifest — outage simulation: infra failures don't tank
   });
 });
 
+describe("buildSamplingManifest — BUG-180 staleness-guard counts", () => {
+  it("surfaces staleReprocessedCount and legacyUnverifiedCount when provided", () => {
+    const manifest = buildSamplingManifest({
+      config: baseConfig(),
+      dryRun: false,
+      pairCount: 3,
+      outcomes: [outcome()],
+      progress: { ...emptyProgress, acceptedIds: ["brain/judge/kw-dominate#0"] },
+      stoppedEarly: null,
+      staleReprocessedCount: 2,
+      legacyUnverifiedCount: 5,
+    });
+    expect(manifest.staleReprocessedCount).toBe(2);
+    expect(manifest.legacyUnverifiedCount).toBe(5);
+  });
+
+  it("defaults both counts to 0 when omitted (pre-BUG-180 call sites)", () => {
+    const manifest = buildSamplingManifest({
+      config: baseConfig(),
+      dryRun: false,
+      pairCount: 0,
+      outcomes: [],
+      progress: emptyProgress,
+      stoppedEarly: null,
+    });
+    expect(manifest.staleReprocessedCount).toBe(0);
+    expect(manifest.legacyUnverifiedCount).toBe(0);
+  });
+});
+
 describe("buildSamplingManifest — dry run", () => {
   it("carries dryRun through with zero processed/accepted/rejected counts", () => {
     const manifest = buildSamplingManifest({
