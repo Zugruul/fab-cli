@@ -5767,6 +5767,7 @@ _(no notes)_
 - **human-directive-vs-readonly-consult** — [skills, consult, read-only, human-in-the-loop, protocol]
 - **human-validation-confidence-loop** — [brains, validation, confidence, human-in-the-loop, cache]
 - **inject-protocol-refs-in-delegation** — [brains, delegation, protocol, agents]
+- **inspect-lane-on-silent-idle** — [agents, process, concurrency]
 - **lean-vs-briefed-identity-validation** — [brains, validation, identities, pattern]
 - **lesson-compounding-value** — [process, brains, methodology]
 - **no-chained-board-moves** — [board, hooks, process]

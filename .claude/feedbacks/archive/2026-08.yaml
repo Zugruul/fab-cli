@@ -73,3 +73,84 @@ items:
     action: upstream
     ref: development-skills seed-board.sh task_block embedding (implemented this session,
       pending commit in plugin repo)
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-02T07:20:00Z'
+iteration:
+  task: APP-010-through-BUG-170
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-sonnet-5
+items:
+- category: friction
+  area: testing
+  severity: medium
+  summary: Red-first hook's test-file patterns missed common conventions and evaluates
+    the wrong branch for worktree-lane tasks
+  generalized: A TDD commit-ordering hook must recognize all test-file conventions
+    in use (singular test/ dirs, pytest _test.py suffixes) and must evaluate the branch
+    belonging to the TASK being moved, not whatever branch the primary checkout happens
+    to have — otherwise it false-blocks compliant work and false-passes lane work
+    it never examined.
+  detail: Pattern gap fixed in the plugin mid-session; the lane-branch blind spot
+    remains structural.
+  evidence:
+  - fab-cli#124
+  - fab-cli#143
+  routing:
+    action: upstream
+    ref: 'development-skills red-first-preflight.sh: pattern fix landed this session
+      (uncommitted in plugin repo); lane-branch evaluation gap remains — surface to
+      human'
+- category: incident
+  area: board
+  severity: medium
+  summary: State-mutating commands chained after fallible steps executed despite upstream
+    failures, twice more
+  generalized: 'Never chain state-mutating commands (board moves, git mv + commit
+    + push) after a fallible step in one shell invocation: the failed step''s non-zero
+    exit does not stop the rest, producing silently inconsistent state (statuses advanced
+    past a failed QA check; a spec delta moved to applied/ without the fold landing).
+    Run one mutation at a time and check each result.'
+  detail: Both instances caught and honestly reverted/repaired in-session; a brain
+    note exists; recurrence suggests the discipline needs mechanical support (e.g.
+    move script refusing status skips).
+  evidence:
+  - fab-cli#129
+  - fab-cli#182
+  routing:
+    action: upstream
+    ref: 'development-skills board.sh: consider refusing status-skipping moves / a
+      move-chain guard; brain note orchestrator/no-chained-board-moves already exists'
+- category: friction
+  area: testing
+  severity: low
+  summary: A python-subprocess test intermittently times out under full-gate concurrency
+  generalized: Tests that spawn subprocesses with fixed short timeouts flake under
+    multi-package gate concurrency; either raise their timeout headroom, serialize
+    them, or mark the gate's failure output to distinguish load-flake from regression
+    — repeated blind re-runs burn orchestrator time.
+  detail: scripts-python test, 5s timeout, passed standalone at 2.46s; failed twice
+    under concurrent load across the session.
+  evidence: []
+  routing:
+    action: backlog
+    ref: ''
+- category: friction
+  area: concurrency
+  severity: low
+  summary: A finished agent's completion report was lost when it idled immediately
+    after pushing
+  generalized: When a subagent's final report can race its idle transition, the orchestrator
+    should treat 'idle with no report' as 'inspect the lane directly' (branch commits
+    + PR existence) rather than assuming failure or waiting — the work is often complete
+    and only the message was lost.
+  detail: One occurrence; lane inspection recovered full state in under a minute.
+  evidence:
+  - fab-cli#145
+  routing:
+    action: brain-note
+    ref: orchestrator/inspect-lane-on-silent-idle
