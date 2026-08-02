@@ -96,6 +96,67 @@ Index: [[keywords-index]]. When ruling, cite CR 8.3.1; verify against the vendor
             self.assertTrue(any("entities" in e for e in self.mod.validate_note(str(path))))
 
 
+class KeywordCitationPathTests(unittest.TestCase):
+    """BUG-170: keyword-sync.py hardcoded the pre-monorepo-split citation
+    path (`third_party/fab-rules/en-fab-cr.txt`). Post-split, the correct
+    current path is `fab-cli/third_party/fab-rules/en-fab-cr.txt`, but 187
+    existing kw-* notes still cite the old bare path and must keep
+    validating -- notes are orchestrator/judge-owned content this script
+    must never rewrite. So: both forms validate, and the generated template
+    (keywords-index.md) stamps the new, current path."""
+
+    NOTE_TEMPLATE = """---
+tags: [cr, keyword, ability, go-again]
+paths: []
+strength: 1
+source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8.3.1) — vendored: %s"
+graduated: false
+created: 2026-01-01
+entities: [keyword:go-again]
+---
+
+**Go again** — ability keyword (CR 8.3.1).
+Index: [[keywords-index]]. When ruling, cite CR 8.3.1; verify against the vendored artifact.
+"""
+
+    def setUp(self):
+        self.mod = load_script("keyword-sync.py")
+
+    def _write_note(self, td, cited_path):
+        path = pathlib.Path(td) / "kw-go-again.md"
+        path.write_text(self.NOTE_TEMPLATE % cited_path)
+        return path
+
+    def test_old_pre_monorepo_citation_path_still_validates(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = self._write_note(td, "third_party/fab-rules/en-fab-cr.txt")
+            self.assertEqual([], self.mod.validate_note(str(path)))
+
+    def test_new_post_monorepo_citation_path_validates(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = self._write_note(td, "fab-cli/third_party/fab-rules/en-fab-cr.txt")
+            self.assertEqual([], self.mod.validate_note(str(path)))
+
+    def test_wrong_citation_path_still_fails_validation(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = self._write_note(td, "somewhere/else/en-fab-cr.txt")
+            errs = self.mod.validate_note(str(path))
+            self.assertTrue(any("source line" in e for e in errs), errs)
+
+    def test_generated_index_template_stamps_current_monorepo_path(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = pathlib.Path(td)
+            (root / ".claude" / "identities" / "card-vault" / "brain" / "notes").mkdir(
+                parents=True
+            )
+            self.mod.IDENT = str(root / ".claude" / "identities")
+            content = self.mod.generate_index()
+            self.assertIn(
+                "vendored: fab-cli/third_party/fab-rules/en-fab-cr.txt", content
+            )
+            self.assertNotIn("vendored: third_party/fab-rules", content)
+
+
 class BackfillTests(unittest.TestCase):
     def test_precision_uses_exact_tags_and_long_display_names_only(self):
         mod = load_script("backfill-entities.py")

@@ -49,9 +49,12 @@ CATEGORIES = [
 ]
 CAT_NAMES = [c for c, _ in CATEGORIES]
 
+# Accepts both the pre-monorepo-split path (bare third_party/...) and the
+# current one (fab-cli/third_party/...) -- existing notes cite the former
+# and are never rewritten by this script.
 SOURCE_RE = re.compile(
     r'^"https://rules\.fabtcg\.com/txt/latest/en-fab-cr\.txt \(CR ([0-9][0-9a-z.]*)\)'
-    r' — vendored: third_party/fab-rules/en-fab-cr\.txt"$')
+    r' — vendored: (?:fab-cli/)?third_party/fab-rules/en-fab-cr\.txt"$')
 HEADER_RE = re.compile(
     r'^\*\*(.+)\*\* — (%s) keyword \(CR ([0-9][0-9a-z.]*)\)\.$' % "|".join(CAT_NAMES))
 TRAILER_RE = re.compile(
@@ -245,7 +248,7 @@ def generate_index():
            "tags: [cr, keyword, index, hub]",
            "paths: []",
            "strength: %s" % strength,
-           'source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8) — vendored: third_party/fab-rules/en-fab-cr.txt"',
+           'source: "https://rules.fabtcg.com/txt/latest/en-fab-cr.txt (CR 8) — vendored: fab-cli/third_party/fab-rules/en-fab-cr.txt"',
            "graduated: false",
            "created: %s" % created,
            "---", "", INDEX_PREAMBLE, ""]
