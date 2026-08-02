@@ -118,3 +118,33 @@ describe("getRemediationMessage — revoked artifact (§9.5)", () => {
     expect(remediation.message).not.toContain("undefined");
   });
 });
+
+describe("getRemediationMessage — revocation mapping is structurally exhaustive (BUG-195)", () => {
+  it("throws rather than silently falling back to wait-for-fix for an unrecognized revocation kind", () => {
+    // RevocationAction only has two real members today; this simulates a
+    // hypothetical third kind arriving without the mapping being updated —
+    // the pre-fix if/else silently treated it as "disable-no-replacement"
+    // (wait-for-fix). The fix must make that an explicit failure instead.
+    const bogus = {
+      kind: "some-future-kind",
+      artifactName: "future-artifact",
+      revokedVersion: "1.0.0",
+      reason: "unknown reason",
+    } as unknown as RevocationAction;
+
+    expect(() => getRemediationMessage(bogus)).toThrow();
+  });
+
+  it("rejects an unrecognized kind at compile time when constructed as a RevocationAction", () => {
+    // @ts-expect-error - "some-future-kind" is not a member of RevocationAction["kind"];
+    // compile-time guard that the union itself can't silently grow untyped.
+    const bogus: RevocationAction = {
+      kind: "some-future-kind",
+      artifactName: "future-artifact",
+      revokedVersion: "1.0.0",
+      reason: "unknown reason",
+    };
+
+    expect(bogus).toBeDefined();
+  });
+});
