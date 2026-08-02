@@ -365,6 +365,28 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   record + bundle id, code signing/provisioning, an automated build-and-upload path to
   TestFlight, and a documented device-test provisioning flow — the channel through which every
   on-device acceptance criterion in this spec is executed.
+- **9.11** THE SYSTEM SHALL support app-language selection across a registered set of shipped
+  locales — currently English (`en`, the source-of-truth resource bundle) and Brazilian
+  Portuguese (`pt-BR`) — for every user-facing UI string, compiled into the JS bundle at build
+  time (no runtime network fetch of translations, per §13 invariant 5). Adding a locale to the
+  set SHALL require only a new resource bundle plus its registration, with no change to the
+  gate-check logic in the paragraph below. WHEN the app starts AND no manual language override
+  is persisted THE SYSTEM SHALL resolve the UI language from the device/system locale, mapping
+  it to the closest registered locale (e.g. any `pt-*` locale to `pt-BR`) and otherwise falling
+  back to the source locale (`en`). THE SYSTEM SHALL provide a manual language-override control
+  that persists the user's choice on-device (no account, no server round-trip) and applies it
+  at runtime without requiring app reinstall or restart. THE SYSTEM SHALL enforce, as part of
+  the merge gate (network-disabled, per §13 invariant 10): (a) zero hardcoded user-facing
+  string literals in UI component source — every such string SHALL be sourced through the i18n
+  layer's translation function; and (b) full key parity between the source locale's resource
+  bundle and every other registered locale's bundle, failing the gate on any key present in one
+  and missing from another, checked generically over the full registered locale set (not a
+  hardcoded pair). Knowledge-corpus content, retrieval results, and model answers (§10 onward)
+  SHALL remain English-only in this version — this section governs UI chrome only. Because
+  consent-screen legal text (§9.9) carries release-relevant obligations, each non-source
+  locale's translation of it SHALL be verified by a human legal/content reviewer before
+  release; this is a named human release gate (like §9.10's TestFlight pipeline), not something
+  the merge gate can substitute for.
 
 ## §10 Q&A experience (E4)
 
