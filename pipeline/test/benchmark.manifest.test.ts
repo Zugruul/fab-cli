@@ -144,4 +144,14 @@ describe("sha256", () => {
     expect(a).not.toBe(c);
     expect(a).toMatch(/^[0-9a-f]{64}$/);
   });
+
+  it("matches the known SHA-256 test vector for \"hello\" — pins the actual algorithm, not just its shape", () => {
+    // A determinism + hex-format check alone would still pass a wrong
+    // algorithm (e.g. sha1 zero-padded to 64 hex chars) or a truncated
+    // digest — pinning a real, independently-verifiable vector catches
+    // that (PR #235 review round 1, item 3).
+    expect(sha256(Buffer.from("hello"))).toBe(
+      "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+    );
+  });
 });
