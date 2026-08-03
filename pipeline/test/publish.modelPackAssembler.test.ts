@@ -123,6 +123,38 @@ describe("assembleModelPack", () => {
     expect(() => assembleModelPack(input)).toThrow(/does not exist/);
   });
 
+  it("REGRESSION (reviewer-reproduced): refuses BEFORE any write when two slots resolve to the same basename", () => {
+    // Two slots pointing at files with the identical basename but living in
+    // DIFFERENT directories (and carrying different real bytes) — the bug:
+    // asset naming used to be derived purely from path.basename per slot,
+    // so this collision silently corrupted the bundle (one slot's bytes
+    // clobbered the other's on disk, checksums.txt ended up with two
+    // entries sharing a name but different hashes).
+    const otherDir = fs.mkdtempSync(path.join(os.tmpdir(), "fab-publish-model-collide-"));
+    try {
+      const collidingA = path.join(tmpDir, "shared-name.bin");
+      const collidingB = path.join(otherDir, "shared-name.bin");
+      fs.writeFileSync(collidingA, "bytes-from-slot-A");
+      fs.writeFileSync(collidingB, "bytes-from-slot-B");
+
+      const input = baseInput({
+        artifacts: {
+          ...baseInput().artifacts,
+          mergedGguf: { path: collidingA, licenseId: "Apache-2.0", version: "export-1" },
+          textEmbedderGguf: { path: collidingB, licenseId: "MIT", version: "text-embed-v1" },
+        },
+      });
+
+      expect(() => assembleModelPack(input)).toThrow(/mergedGguf/);
+      expect(() => assembleModelPack(input)).toThrow(/textEmbedderGguf/);
+      expect(() => assembleModelPack(input)).toThrow(/shared-name\.bin/);
+      // Refused before any write — no partial/corrupted output on disk.
+      expect(fs.existsSync(path.join(outDir, "manifest.json"))).toBe(false);
+    } finally {
+      fs.rmSync(otherDir, { recursive: true, force: true });
+    }
+  });
+
   it("propagates the manifest-schema's placeholder-licenseId guard rather than bypassing it", () => {
     const input = baseInput({
       artifacts: {

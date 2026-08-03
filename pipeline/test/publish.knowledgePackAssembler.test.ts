@@ -24,6 +24,11 @@ function providedText(embedderVersion: string, chunkIds: string[]) {
   return { provided: true as const, embedderVersion, records, dim: 3 };
 }
 
+function providedImage(embedderVersion: string, printingIds: string[]) {
+  const records = new Map(printingIds.map((id) => [id, { printingId: id, vector: [0.4, 0.5, 0.6] }]));
+  return { provided: true as const, embedderVersion, records, dim: 3 };
+}
+
 describe("assembleKnowledgeFullPack", () => {
   let buildDir: string;
   beforeEach(() => {
@@ -129,6 +134,78 @@ describe("assembleKnowledgeDeltaPack", () => {
     expect(result.changedEmbedders).toEqual(["text"]);
     // A refused delta must never write a manifest to outDir.
     expect(fs.existsSync(path.join(outDir, "manifest.json"))).toBe(false);
+  });
+
+  it("surfaces the builder's refusal when only the VISION embedder's version changed (text unchanged)", () => {
+    buildFullPack({
+      version: "1.0.0",
+      corpusSnapshotHash: "d".repeat(64),
+      chunks: [makeChunk({ chunk_id: "keep" })],
+      printingIds: ["p1"],
+      previousRegistry: null,
+      registryVersion: "1.0.0",
+      textEmbeddings: providedText("text-embed-v1", ["keep"]),
+      imageEmbeddings: providedImage("vision-embed-v1", ["p1"]),
+      calibration: makeCalibration({ embedderVersion: "text-embed-v1" }),
+      outDir: fromDir,
+    });
+    buildFullPack({
+      version: "1.1.0",
+      corpusSnapshotHash: "e".repeat(64),
+      chunks: [makeChunk({ chunk_id: "keep" })],
+      printingIds: ["p1"],
+      previousRegistry: null,
+      registryVersion: "1.1.0",
+      textEmbeddings: providedText("text-embed-v1", ["keep"]), // unchanged
+      imageEmbeddings: providedImage("vision-embed-v2", ["p1"]), // changed
+      calibration: makeCalibration({ embedderVersion: "text-embed-v1" }),
+      outDir: toDir,
+    });
+
+    const from = loadSnapshotFromPackDir(fromDir);
+    const to = loadSnapshotFromPackDir(toDir);
+    const result = assembleKnowledgeDeltaPack(from, to, outDir);
+
+    expect(result.status).toBe("refused");
+    if (result.status !== "refused") throw new Error("unreachable");
+    expect(result.reason).toMatch(/vision/i);
+    expect(result.changedEmbedders).toEqual(["vision"]);
+    expect(fs.existsSync(path.join(outDir, "manifest.json"))).toBe(false);
+  });
+
+  it("surfaces the builder's refusal when BOTH embedders' versions changed", () => {
+    buildFullPack({
+      version: "1.0.0",
+      corpusSnapshotHash: "d".repeat(64),
+      chunks: [makeChunk({ chunk_id: "keep" })],
+      printingIds: ["p1"],
+      previousRegistry: null,
+      registryVersion: "1.0.0",
+      textEmbeddings: providedText("text-embed-v1", ["keep"]),
+      imageEmbeddings: providedImage("vision-embed-v1", ["p1"]),
+      calibration: makeCalibration({ embedderVersion: "text-embed-v1" }),
+      outDir: fromDir,
+    });
+    buildFullPack({
+      version: "1.1.0",
+      corpusSnapshotHash: "e".repeat(64),
+      chunks: [makeChunk({ chunk_id: "keep" })],
+      printingIds: ["p1"],
+      previousRegistry: null,
+      registryVersion: "1.1.0",
+      textEmbeddings: providedText("text-embed-v2", ["keep"]), // changed
+      imageEmbeddings: providedImage("vision-embed-v2", ["p1"]), // changed
+      calibration: makeCalibration({ embedderVersion: "text-embed-v2" }),
+      outDir: toDir,
+    });
+
+    const from = loadSnapshotFromPackDir(fromDir);
+    const to = loadSnapshotFromPackDir(toDir);
+    const result = assembleKnowledgeDeltaPack(from, to, outDir);
+
+    expect(result.status).toBe("refused");
+    if (result.status !== "refused") throw new Error("unreachable");
+    expect(result.changedEmbedders).toEqual(["text", "vision"]);
   });
 
   it("assembles a real delta bundle (including a deletion tombstone) when embedder versions match", () => {

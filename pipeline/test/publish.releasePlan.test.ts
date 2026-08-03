@@ -33,6 +33,11 @@ function providedText(embedderVersion: string, chunkIds: string[]) {
 }
 const ABSENT_IMAGE = { provided: false as const, embedderVersion: "unset", reason: "APP-028 not QA-gated yet" };
 
+function providedImage(embedderVersion: string, printingIds: string[]) {
+  const records = new Map(printingIds.map((id) => [id, { printingId: id, vector: [0.4, 0.5, 0.6] }]));
+  return { provided: true as const, embedderVersion, records, dim: 3 };
+}
+
 describe("buildReleasePlan", () => {
   let assetsDir: string;
   let outDir: string;
@@ -218,6 +223,96 @@ describe("buildReleasePlan", () => {
     expect(result.reason).toMatch(/text-embed-v1/);
     expect(result.reason).toMatch(/text-embed-v2/);
     expect(fs.readdirSync(outDir)).toEqual([]);
+  });
+
+  // MUTATION-KILL COVERAGE (reviewer flag: deleting releasePlan.ts's vision
+  // branch left every existing test green because every fixture used
+  // ABSENT_IMAGE, which short-circuits via NO_VISION_EMBEDDER_VERSION
+  // before ever comparing versions). These three use REAL, non-absent
+  // image embeddings on both sides so the vision comparison actually runs.
+  it("cross-check: refuses the WHOLE plan when a model pack and knowledge pack disagree on VISION embedder version (both real, non-absent)", () => {
+    const result = buildReleasePlan({
+      releaseVersion: "1.0.0",
+      outDir,
+      corpusSnapshotManifestRaw: validCorpusSnapshotManifest,
+      modelPacks: [{ tier: "0.6B", input: completeModelPackInput({ visionEmbedderVersion: "vision-embed-v1" }) }],
+      knowledgeFull: {
+        input: {
+          version: "1.0.0",
+          corpusSnapshotHash: "d".repeat(64),
+          chunks: [makeChunk({ chunk_id: "a" })],
+          printingIds: ["p1"],
+          previousRegistry: null,
+          registryVersion: "1.0.0",
+          textEmbeddings: providedText("text-embed-v1", ["a"]),
+          imageEmbeddings: providedImage("vision-embed-v2", ["p1"]), // mismatched vs model pack's v1
+          calibration: makeCalibration({ embedderVersion: "text-embed-v1" }),
+        },
+      },
+    });
+
+    expect(result.ok).toBe(false);
+    if (result.ok) throw new Error("unreachable");
+    expect(result.reason).toMatch(/vision-embed-v1/);
+    expect(result.reason).toMatch(/vision-embed-v2/);
+    expect(fs.readdirSync(outDir)).toEqual([]);
+  });
+
+  it("cross-check: a MATCHING vision embedder does not mask a text embedder mismatch (branches are independent)", () => {
+    const result = buildReleasePlan({
+      releaseVersion: "1.0.0",
+      outDir,
+      corpusSnapshotManifestRaw: validCorpusSnapshotManifest,
+      modelPacks: [
+        { tier: "0.6B", input: completeModelPackInput({ textEmbedderVersion: "text-embed-v1", visionEmbedderVersion: "vision-embed-v1" }) },
+      ],
+      knowledgeFull: {
+        input: {
+          version: "1.0.0",
+          corpusSnapshotHash: "d".repeat(64),
+          chunks: [makeChunk({ chunk_id: "a" })],
+          printingIds: ["p1"],
+          previousRegistry: null,
+          registryVersion: "1.0.0",
+          textEmbeddings: providedText("text-embed-v2", ["a"]), // mismatched
+          imageEmbeddings: providedImage("vision-embed-v1", ["p1"]), // MATCHES
+          calibration: makeCalibration({ embedderVersion: "text-embed-v2" }),
+        },
+      },
+    });
+
+    expect(result.ok).toBe(false);
+    if (result.ok) throw new Error("unreachable");
+    expect(result.reason).toMatch(/text-embed-v1/);
+    expect(result.reason).toMatch(/text-embed-v2/);
+  });
+
+  it("cross-check: both embedder versions matching (real, non-absent) succeeds and includes the image-vectors asset", () => {
+    const result = buildReleasePlan({
+      releaseVersion: "1.0.0",
+      outDir,
+      corpusSnapshotManifestRaw: validCorpusSnapshotManifest,
+      modelPacks: [
+        { tier: "0.6B", input: completeModelPackInput({ textEmbedderVersion: "text-embed-v1", visionEmbedderVersion: "vision-embed-v1" }) },
+      ],
+      knowledgeFull: {
+        input: {
+          version: "1.0.0",
+          corpusSnapshotHash: "d".repeat(64),
+          chunks: [makeChunk({ chunk_id: "a" })],
+          printingIds: ["p1"],
+          previousRegistry: null,
+          registryVersion: "1.0.0",
+          textEmbeddings: providedText("text-embed-v1", ["a"]),
+          imageEmbeddings: providedImage("vision-embed-v1", ["p1"]),
+          calibration: makeCalibration({ embedderVersion: "text-embed-v1" }),
+        },
+      },
+    });
+
+    expect(result.ok).toBe(true);
+    if (!result.ok) throw new Error(`unreachable: ${result.reason}`);
+    expect(result.plan.assets.some((a) => a.assetName === "knowledge-full-1.0.0-image-vectors.jsonl")).toBe(true);
   });
 
   it("refuses to reuse an outDir that already has a prior plan's output, unless force is passed", () => {

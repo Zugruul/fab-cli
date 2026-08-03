@@ -58,6 +58,27 @@ describe("formatChecksumsFile", () => {
     expect(formatChecksumsFile([])).toBe("");
   });
 
+  it("SECOND LINE OF DEFENSE: throws on duplicate asset names, even with different sha256s", () => {
+    // A checksums file with two lines for the same name is malformed
+    // regardless of how the duplicate got there — this is a generic,
+    // caller-independent guard (assembleModelPack has its own earlier,
+    // named-slot guard for the specific collision it can cause; this one
+    // protects the write path itself against any future caller that
+    // doesn't).
+    expect(() =>
+      formatChecksumsFile([
+        { assetName: "model-0.6B-artifact.bin", sha256: "a".repeat(64) },
+        { assetName: "model-0.6B-artifact.bin", sha256: "b".repeat(64) },
+      ]),
+    ).toThrow(/duplicate/i);
+    expect(() =>
+      formatChecksumsFile([
+        { assetName: "model-0.6B-artifact.bin", sha256: "a".repeat(64) },
+        { assetName: "model-0.6B-artifact.bin", sha256: "b".repeat(64) },
+      ]),
+    ).toThrow(/model-0\.6B-artifact\.bin/);
+  });
+
   it("sort order is by asset name, independent of input order (deterministic across re-runs)", () => {
     const assetsA = [
       { assetName: "z-last", sha256: "1".repeat(64) },

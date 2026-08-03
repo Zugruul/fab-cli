@@ -43,6 +43,7 @@ describe("publishReleasePlan", () => {
     expect(calls.some((c) => c[0] === "gh" && c[1] === "release" && c[2] === "upload")).toBe(true);
     const createCall = calls.find((c) => c[2] === "create")!;
     expect(createCall).toContain("--draft");
+    expect(createCall).toContain("--prerelease");
   });
 
   it("refuses to publish when the release tag already exists and force is not passed", () => {

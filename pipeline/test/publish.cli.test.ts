@@ -5,7 +5,7 @@
 // default), per the brief's "guard it behind an explicit --yes/--publish
 // flag" requirement.
 import { describe, it, expect } from "vitest";
-import { parseDryRunArgs, defaultDryRunArgs, parsePublishArgs, defaultPublishArgs } from "../src/publish/cli.js";
+import { parseDryRunArgs, defaultDryRunArgs, parsePublishArgs, defaultPublishArgs, filterModelPacksByTier } from "../src/publish/cli.js";
 
 describe("parseDryRunArgs", () => {
   it("parses --release-version, --out, and --tier (repeatable)", () => {
@@ -38,5 +38,29 @@ describe("parsePublishArgs", () => {
   it("parses --force independently of --yes", () => {
     const args = parsePublishArgs(["--yes", "--force"], defaultPublishArgs("/repo"));
     expect(args.force).toBe(true);
+  });
+});
+
+describe("filterModelPacksByTier (--tier's actual effect — was previously parsed but never wired)", () => {
+  it("passes modelPacks through unchanged when no --tier was given", () => {
+    const modelPacks = [{ tier: "0.6B" as const, x: 1 }, { tier: "1.7B" as const, x: 2 }];
+    expect(filterModelPacksByTier(modelPacks, [])).toEqual(modelPacks);
+  });
+
+  it("filters to only the requested tier(s), preserving each entry's full input", () => {
+    const modelPacks = [{ tier: "0.6B" as const, x: 1 }, { tier: "1.7B" as const, x: 2 }];
+    expect(filterModelPacksByTier(modelPacks, ["0.6B"])).toEqual([{ tier: "0.6B", x: 1 }]);
+  });
+
+  it("throws, naming the missing tier, when a requested --tier isn't present in the config", () => {
+    const modelPacks = [{ tier: "0.6B" as const, x: 1 }];
+    expect(() => filterModelPacksByTier(modelPacks, ["1.7B"])).toThrow(/1\.7B/);
+  });
+
+  it("throws naming ALL missing tiers, not just the first, and lists what IS available", () => {
+    const modelPacks = [{ tier: "0.6B" as const, x: 1 }];
+    expect(() => filterModelPacksByTier(modelPacks, ["1.7B", "0.9B" as never])).toThrow(/1\.7B/);
+    expect(() => filterModelPacksByTier(modelPacks, ["1.7B", "0.9B" as never])).toThrow(/0\.9B/);
+    expect(() => filterModelPacksByTier(modelPacks, ["1.7B", "0.9B" as never])).toThrow(/0\.6B/); // available tier named too
   });
 });
