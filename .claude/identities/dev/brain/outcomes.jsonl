@@ -8,3 +8,7 @@
 {"note": "Grep-able claims held, but a semantic prose claim ('light-mode output unchanged') was still wrong \u2014 behavioral-equivalence claims need explicit diff verification, grep can't catch them.", "outcome": "corrected", "schemaVersion": 1, "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "219", "ts": "2026-08-02T23:53:39+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "fab-app-jest-patterns-safearea-null-and-op-sqlite-mock", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "fab-app-a11y-mechanics-plugin-rules-and-rn-role-composition", "task": "219", "ts": "2026-08-02T23:53:40+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "red-commit-contains-only-test-path-files", "task": "223", "ts": "2026-08-03T01:03:47+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "review-staged-diff-before-commit-message-must-match", "task": "223", "ts": "2026-08-03T01:03:48+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "223", "ts": "2026-08-03T01:03:48+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "fresh-worktree-needs-node-modules-and-submodule-setup", "task": "223", "ts": "2026-08-03T01:03:48+00:00"}
