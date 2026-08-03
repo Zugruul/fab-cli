@@ -103,4 +103,19 @@ describe("pipeline no-commit guard", () => {
     expect(isGitIgnored("pipeline/out/embed-vision-smoke/checkpoint.pt")).toBe(true);
     expect(isGitIgnored("pipeline/out/embed-vision-smoke/embedder.tflite")).toBe(true);
   });
+
+  // APP-085: the knowledge-pack builder's full/delta pack output (index
+  // files, printing registry, manifest, report) is regenerable from the
+  // corpus snapshot + embeddings-input contracts — same discipline as
+  // every other pipeline/out/ artifact, never committed.
+  it("git-ignores the knowledge-pack builder's full-pack output dir", () => {
+    expect(isGitIgnored("pipeline/out/knowledge/full/chunks-index.jsonl")).toBe(true);
+    expect(isGitIgnored("pipeline/out/knowledge/full/text-vectors.jsonl")).toBe(true);
+    expect(isGitIgnored("pipeline/out/knowledge/full/printing-registry.json")).toBe(true);
+    expect(isGitIgnored("pipeline/out/knowledge/full/manifest.json")).toBe(true);
+  });
+
+  it("git-ignores the knowledge-pack builder's delta-pack output dir", () => {
+    expect(isGitIgnored("pipeline/out/knowledge/delta/manifest.json")).toBe(true);
+  });
 });
