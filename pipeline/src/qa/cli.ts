@@ -4,12 +4,18 @@
  * chunks.jsonl, runs the resumable batch runner against the committed
  * generation config, and writes: accepted pairs (qa-pairs.jsonl), a
  * human-reviewable markdown table (review.md), a run manifest
- * (manifest.json, counts + teacher model id + config hash), and the
- * resumable progress file (progress.json) — all under an output directory
- * (default pipeline/out/qa/, gitignored).
+ * (manifest.json, counts + engine id + teacher model id + config hash),
+ * and the resumable progress file (progress.json) — all under an output
+ * directory (default pipeline/out/qa/, gitignored).
  *
  * --dry-run makes NO network calls at all: it only prints/writes what
  * would be sent per chunk (dry-run-plan.json), never touches progress.
+ *
+ * --engine <claude-code-subscription|anthropic-api> (issue #223) selects
+ * the teacher transport; defaults to claude-code-subscription
+ * (DEFAULT_ENGINE_ID, see engine.ts) — anthropic-api is a metered,
+ * explicit-opt-in fallback, never auto-selected. See
+ * pipeline/src/qa/README.md.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -17,8 +23,8 @@ import { runBatch } from "./runner.js";
 import { appendPairsDurable } from "./pairsStore.js";
 import { buildRunManifest } from "./manifest.js";
 import { buildReviewMarkdown } from "./review.js";
-import { AnthropicTeacherClient } from "./teacher.js";
-import type { Chunk, ChunkGenerationOutcome, GenerationConfig, TeacherClient } from "./types.js";
+import { DEFAULT_ENGINE_ID, buildTeacherClient, isEngineId } from "./engine.js";
+import type { Chunk, ChunkGenerationOutcome, EngineId, GenerationConfig, TeacherClient } from "./types.js";
 
 interface CliArgs {
   chunksPath: string;
@@ -27,6 +33,10 @@ interface CliArgs {
   dryRun: boolean;
   limit: number | null;
   costCeilingUsd: number | null;
+  /** Explicit --engine override, or null when not passed — resolveEngineId
+   * decides the actual engine (CLI flag > committed config > default), so
+   * this field itself carries no default-engine policy. */
+  engine: EngineId | null;
 }
 
 export function parseArgs(argv: string[]): CliArgs {
@@ -42,6 +52,7 @@ export function parseArgs(argv: string[]): CliArgs {
     dryRun: false,
     limit: null,
     costCeilingUsd: null,
+    engine: null,
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -51,6 +62,15 @@ export function parseArgs(argv: string[]): CliArgs {
     else if (arg === "--dry-run") args.dryRun = true;
     else if (arg === "--limit" && argv[i + 1]) args.limit = parseInt(argv[++i], 10);
     else if (arg === "--cost-ceiling" && argv[i + 1]) args.costCeilingUsd = parseFloat(argv[++i]);
+    else if (arg === "--engine" && argv[i + 1]) {
+      const value = argv[++i];
+      if (!isEngineId(value)) {
+        throw new Error(
+          `unknown --engine value "${value}" — expected one of: claude-code-subscription, anthropic-api`,
+        );
+      }
+      args.engine = value;
+    }
   }
   return args;
 }
@@ -93,6 +113,15 @@ function loadConfig(configPath: string): GenerationConfig {
   return JSON.parse(fs.readFileSync(configPath, "utf8")) as GenerationConfig;
 }
 
+/** Resolves which engine actually runs this invocation: an explicit
+ * --engine flag wins, then the committed config's `engine` field, then
+ * DEFAULT_ENGINE_ID (claude-code-subscription) — never an implicit switch
+ * to the billable anthropic-api engine based on environment state (issue
+ * #223; see engine.ts). */
+export function resolveEngineId(args: Pick<CliArgs, "engine">, config: GenerationConfig): EngineId {
+  return args.engine ?? config.engine ?? DEFAULT_ENGINE_ID;
+}
+
 async function main(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
 
@@ -101,6 +130,7 @@ async function main(): Promise<void> {
 
   const config = loadConfig(args.configPath);
   if (args.costCeilingUsd != null) config.cost.ceilingUsd = args.costCeilingUsd;
+  const engineId = resolveEngineId(args, config);
 
   fs.mkdirSync(args.outDir, { recursive: true });
   const progressPath = path.join(args.outDir, "progress.json");
@@ -112,11 +142,11 @@ async function main(): Promise<void> {
   const chunksById = new Map(chunks.map((c) => [c.chunk_id, c]));
   const outcomes: ChunkGenerationOutcome[] = [];
 
-  // Never constructed for --dry-run: no Anthropic client, no auth
+  // Never constructed for --dry-run: no teacher transport, no auth
   // resolution, no possibility of a network call.
   const teacher: TeacherClient = args.dryRun
     ? { generate: () => Promise.reject(new Error("dry-run must never call the teacher")) }
-    : new AnthropicTeacherClient();
+    : buildTeacherClient(engineId);
 
   const result = await runBatch({
     chunks,
@@ -151,6 +181,7 @@ async function main(): Promise<void> {
     outcomes,
     progress: result.progress,
     stoppedEarly: result.stoppedEarly,
+    engineId,
   });
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
 

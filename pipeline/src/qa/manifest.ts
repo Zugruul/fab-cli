@@ -44,6 +44,11 @@ export interface QARunManifest {
   schemaVersion: string;
   runDate: string;
   teacherModel: string;
+  /** Which teacher transport generated this run (issue #223) — see
+   * engine.ts's EngineId. Recorded alongside teacherModel so a shipped
+   * dataset's full generation lineage (model AND transport) is auditable
+   * from the manifest alone, per SPEC-APP.md §13 invariant 7. */
+  engineId: string;
   configHash: string;
   dryRun: boolean;
   /** Total chunks the run was invoked against (including any already
@@ -67,6 +72,10 @@ export interface BuildRunManifestOptions {
   outcomes: ChunkGenerationOutcome[];
   progress: ProgressState;
   stoppedEarly: RunResult["stoppedEarly"];
+  /** Required, not defaulted here — the caller (cli.ts) resolves it via
+   * resolveEngineId before a manifest is ever built, so a manifest can
+   * never be written without recording which transport produced it. */
+  engineId: string;
   now?: () => string;
 }
 
@@ -86,6 +95,7 @@ export function buildRunManifest(opts: BuildRunManifestOptions): QARunManifest {
     schemaVersion: SCHEMA_VERSION,
     runDate: now(),
     teacherModel: opts.config.teacherModel,
+    engineId: opts.engineId,
     configHash: configHash(opts.config),
     dryRun: opts.dryRun,
     chunkCount: opts.chunkCount,

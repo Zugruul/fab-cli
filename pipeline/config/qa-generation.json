@@ -1,4 +1,5 @@
 {
+  "engine": "claude-code-subscription",
   "teacherModel": "claude-sonnet-5",
   "maxTokens": 2048,
   "temperature": null,

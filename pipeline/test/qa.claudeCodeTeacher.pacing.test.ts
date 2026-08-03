@@ -49,7 +49,7 @@ describe("ClaudeCodeTeacherClient — bounded backoff retry (via retry.ts, unmod
     const client = new ClaudeCodeTeacherClient({
       spawn: fixtureSpawnFn(FLAKY, { FAKE_CLAUDE_STATE_FILE: stateFile, FAKE_CLAUDE_FAIL_COUNT: "2" }),
     });
-    const sleep = vi.fn(noopSleep);
+    const sleep = vi.fn(async (_ms: number) => noopSleep());
 
     const response = await withRetry(
       () =>
