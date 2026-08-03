@@ -70,6 +70,39 @@ describe("buildPrintingRegistry", () => {
     expect(entryFor(gen3, "p3")!.registryId).toBe(entryFor(gen2, "p3")!.registryId);
   });
 
+  // --- Mutation-proof regression lock (review round 1, PR #241) ----------
+  // Every fixture above only ever adds new ids that sort ALPHABETICALLY
+  // AFTER the existing ones (p1..p3 -> +p4,p5), so a "recombine carried +
+  // new ids, .sort(), registryId = array index" mutant passes all of them
+  // — it only misbehaves when a NEW id sorts BEFORE an EXISTING alive id,
+  // silently shifting the existing id's position in the resorted array.
+  // These two tests are specifically shaped to kill that mutant.
+  it("MUTATION-PROOF: a new printingId that sorts alphabetically BEFORE an existing alive id does not disturb the existing id's registryId", () => {
+    const gen1 = buildPrintingRegistry(["p5"], null, "1.0.0");
+    const p5Id = entryFor(gen1, "p5")!.registryId;
+
+    const gen2 = buildPrintingRegistry(["p5", "p1"], gen1, "1.1.0"); // "p1" sorts before "p5"
+    expect(entryFor(gen2, "p5")!.registryId).toBe(p5Id); // byte-identical, not shifted
+    expect(entryFor(gen2, "p1")!.registryId).not.toBe(p5Id); // new id gets its OWN slot, not p5's
+  });
+
+  it("MUTATION-PROOF: a 3-generation shuffle (each generation adds ids in mixed alphabetical positions) never disturbs any prior mapping", () => {
+    const gen1 = buildPrintingRegistry(["m"], null, "1.0.0");
+    const mId = entryFor(gen1, "m")!.registryId;
+
+    // "a" and "z" both added — "a" sorts before "m", "z" sorts after it.
+    const gen2 = buildPrintingRegistry(["m", "a", "z"], gen1, "1.1.0");
+    expect(entryFor(gen2, "m")!.registryId).toBe(mId);
+    const aId = entryFor(gen2, "a")!.registryId;
+    const zId = entryFor(gen2, "z")!.registryId;
+
+    // "b" and "y" added — "b" sorts before both "m" and "z" (and after "a").
+    const gen3 = buildPrintingRegistry(["m", "a", "z", "b", "y"], gen2, "1.2.0");
+    expect(entryFor(gen3, "m")!.registryId).toBe(mId);
+    expect(entryFor(gen3, "a")!.registryId).toBe(aId);
+    expect(entryFor(gen3, "z")!.registryId).toBe(zId);
+  });
+
   it("a printing removed from the corpus is marked dead but STAYS in the registry with its original id (tombstone convention)", () => {
     const gen1 = buildPrintingRegistry(["p1", "p2", "p3"], null, "1.0.0");
     const p2Id = entryFor(gen1, "p2")!.registryId;
