@@ -1,4 +1,21 @@
-# HANDOFF — FAB companion app build loop (session close 2026-08-03 ~03:45Z)
+# HANDOFF — FAB companion app build loop (FINAL, session close 2026-08-03 ~06:05Z)
+
+> WRAP-UP ADDENDUM (supersedes the parked-state text below where they conflict):
+> - **#221 MERGED & Deployed** (PR #230 → dbd56f12): the user powered storm590x on; the
+>   self-clearing SSH probe caught it, llama-server was built on the box, the new smoke ran
+>   GREEN on BOTH real export GGUFs (zero orphan processes), and the pre-staged merge landed
+>   minutes later. Updated bundle deployed to the box's cap dir. ds-repo commits
+>   cb523ba/b8ad6a8 remain local-unpushed (shared-repo rule).
+> - **#225 MERGED & Deployed** (PR #234 → 8f1e2be5): the load-sensitive 50ms perf assertion
+>   replaced with a 500ms pathological smoke bound + logged diagnostic (mutation-proven).
+> - **Session total: 8 tasks Deployed.** Zero open PRs; board audit clean; loop STOPPED by
+>   user directive after #225.
+> - **#144 remains the ONLY parked item** — implementation done on fab/144-testflight
+>   (pushed, dadad61d), blocked solely on the Apple signing decision (options on the issue;
+>   recommended: elevate key 4ZCWK2K2RT to Admin, reply "apple key elevated"). On success,
+>   run `npm run testflight` in fab-app and SEND THE USER'S REQUESTED TESTFLIGHT PING.
+> - #136/#137 deferrals stand (need #144 / user's photo set). #226, #229, #222 remain in
+>   Backlog as clean pickups.
 
 Authoritative resume doc for `/loop /spec-workflow:build-next — APP-* tasks only`.
 Supersedes all prior versions of this file.
