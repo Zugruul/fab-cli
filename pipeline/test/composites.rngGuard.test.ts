@@ -30,6 +30,10 @@ describe("composites/ source contains no Math.random calls", () => {
 
   it.each(files.map((f) => [path.relative(SRC_DIR, f), f] as const))("%s", (_rel, full) => {
     const content = fs.readFileSync(full, "utf8");
-    expect(content).not.toMatch(/Math\.random/);
+    // Matches an actual call (the open paren) rather than bare "Math.random"
+    // text, so doc comments that just mention the concept (e.g. this
+    // module's own headers explaining why they DON'T use it) don't
+    // false-positive.
+    expect(content).not.toMatch(/Math\.random\s*\(/);
   });
 });
