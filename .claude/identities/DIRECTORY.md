@@ -5060,6 +5060,7 @@ _(no notes)_
 
 ## dev
 - **api-field-type-assumptions** — [pricing, tcgcsv, parsing]
+- **asc-cloud-signing-wall-facts** — [ios, signing, asc-api, credentials]
 - **audit-bug-class-not-instances** — [debugging, paths, scope]
 - **background-waits-dont-replace-driving** — [process, delegation, communication]
 - **bash-if-guard-disables-errexit-in-function** — [bash, errexit, shell]
@@ -5088,6 +5089,7 @@ _(no notes)_
 - **fresh-worktree-needs-node-modules-and-submodule-setup** — [worktree, testing, setup]
 - **git-remote-repair-set-url-or-add** — [bash, git, vendoring]
 - **grep-consequence-not-pattern-name-for-second-examples** — [research, grep, code-study]
+- **headless-rn-ios-release-build-facts** — [ios, xcodebuild, react-native, release]
 - **macos-missing-binary-tests-need-empty-path** — [testing, macos, bash]
 - **metric-honesty-separate-infra-failures** — [metrics, pipelines, testing]
 - **monorepo-cwd-relative-outputs** — [monorepo, gitignore, restructure]
@@ -5758,6 +5760,7 @@ _(no notes)_
 ## orchestrator
 - **adversarial-review-cadence** — [review, process, quality]
 - **api-reverse-engineering-with-human-capture** — [api, reverse-engineering, agents, pattern]
+- **apple-credential-briefs-frontload-key-role** — [briefing, credentials, apple]
 - **auth-token-belongs-at-command-layer-not-data-module** — [auth, architecture, briefing]
 - **background-session-cwd-resets-between-calls** — [shell, cwd, background-session, git, false-alarm]
 - **board-as-config-projection** — [board, config, pattern]
@@ -5801,6 +5804,7 @@ _(no notes)_
 - **peer-session-agent-reports-need-same-verification-as-own-spawns** — [verification, concurrency, peer-session]
 - **portable-docs-cloneable-sources** — [docs, portability, setup]
 - **prettier-is-the-easiest-gate-step-to-silently-miss** — [gate, prettier, verification]
+- **prose-dependency-lines-slot-deadlock-guard** — [board, dependencies, slots]
 - **real-target-smoke-before-merge** — [qa, verification, remote]
 - **rebase-retro-commit-on-concurrent-push-rejection** — [git, concurrency, merge]
 - **recall-before-mint-to-avoid-duplicate-notes** — [brains, retro, mint, hygiene]

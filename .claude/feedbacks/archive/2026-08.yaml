@@ -1128,3 +1128,94 @@ items:
     action: brain-note
     ref: handoff-note calibration folded into retro commit message + future minting
       practice
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T04:30:00Z'
+iteration:
+  task: loop-close
+  outcome: blocked
+  reviewRounds: 0
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: other
+  severity: low
+  summary: 'A full autonomous session shipped six reviewed tasks end to end with the
+    brain loop demonstrably compounding: prior-task lessons prevented recurrence and
+    cut review rounds over the run'
+  detail: 'Six tasks merged and Deployed in one session (i18n, a11y gate, theming,
+    subscription teacher engine, eval harness, release gate), each with recorded two-pass
+    review, retro minting, outcome tracking, and feedback triage. Later iterations
+    showed measurably fewer findings of previously-minted classes; one 6-point task
+    got a round-1 zero-finding approval.
+
+    '
+  evidence:
+  - fab-cli#217
+  - fab-cli#218
+  - fab-cli#219
+  - fab-cli#223
+  - fab-cli#134
+  - fab-cli#135
+  generalized: 'The mint-at-retro then paste-into-next-brief loop compounds within
+    a single session - finding classes die one iteration after being learned, and
+    review rounds shrink; the discipline is worth its per-iteration overhead.
+
+    '
+  routing:
+    action: ignore
+    ref: positive validation of the existing mint-then-brief practice; no new note
+      needed beyond the outcomes already recorded
+- category: incident
+  area: permissions
+  severity: medium
+  summary: A cloud-signing step rejected API-key auth at the very end of an otherwise
+    fully-automated release pipeline, parking the task on a human role-elevation decision
+  detail: 'The archive built headlessly, but the export/upload step failed with a
+    cloud-signing permission error; the same key could create certificates via the
+    standard API, so the failure is specific to the managed-signing flow. The dev
+    correctly stopped when the fallback (local keychain manipulation) was permission-blocked,
+    and the orchestrator parked the task with a three-option decision list rather
+    than working around the denial.
+
+    '
+  evidence:
+  - fab-cli#144
+  generalized: 'Vendor "managed/cloud" auth flows can require higher credential roles
+    than their standard-API equivalents; when an automated pipeline hits such a wall,
+    the correct shape is stop-and-park with an options list (role elevation, GUI bootstrap,
+    or explicitly-authorized local fallback) - never keychain/root workarounds under
+    an autonomy classifier denial.
+
+    '
+  routing:
+    action: brain-note
+    ref: dev/asc-cloud-signing-wall-facts + orchestrator park-with-options pattern
+- category: worked-well
+  area: board
+  severity: low
+  summary: A prose-level task dependency the pick script could not see was caught
+    before briefing by reading the authoritative backlog row, avoiding a second indefinitely-parked
+    slot
+  detail: 'The pick offered a task whose backlog row named an unmet dependency (device
+    provisioning); starting it would have parked both serial-delivery slots on humans
+    simultaneously. The orchestrator documented the conflict on the issue and adopted
+    the dependency task instead, which also served an explicit user wish.
+
+    '
+  evidence:
+  - fab-cli#136
+  - fab-cli#144
+  generalized: 'Pick scripts that rank by priority and epic sequencing cannot parse
+    prose dependency lines; the orchestrator''s pre-brief read of the authoritative
+    backlog row is the safety net, and slot-deadlock risk (all WIP slots parked on
+    humans) is a legitimate reason to adopt the dependency task over the scripted
+    pick, with the deviation documented on both issues.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/prose-dependency-lines-slot-deadlock-guard
