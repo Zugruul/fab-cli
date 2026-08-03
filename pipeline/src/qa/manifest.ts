@@ -44,6 +44,11 @@ export interface QARunManifest {
   schemaVersion: string;
   runDate: string;
   teacherModel: string;
+  /** Which teacher transport generated this run (issue #223) — see
+   * engine.ts's EngineId. Recorded alongside teacherModel so a shipped
+   * dataset's full generation lineage (model AND transport) is auditable
+   * from the manifest alone, per SPEC-APP.md §13 invariant 7. */
+  engineId: string;
   configHash: string;
   dryRun: boolean;
   /** Total chunks the run was invoked against (including any already
@@ -67,10 +72,27 @@ export interface BuildRunManifestOptions {
   outcomes: ChunkGenerationOutcome[];
   progress: ProgressState;
   stoppedEarly: RunResult["stoppedEarly"];
+  /** Required, not defaulted here — the caller (cli.ts) resolves it via
+   * resolveEngineId before a manifest is ever built, so a manifest can
+   * never be written without recording which transport produced it. */
+  engineId: string;
   now?: () => string;
 }
 
 export function buildRunManifest(opts: BuildRunManifestOptions): QARunManifest {
+  // Runtime guard, not just a TS type: `engineId: string` is REQUIRED at
+  // the type level, but a caller that bypasses TypeScript (`as any`, a
+  // plain-JS caller, a stale build) can still hand this an undefined/empty
+  // value — and doing so would silently write a manifest with no recorded
+  // transport, a hole in the §13 invariant 7 reproducibility guarantee
+  // this field exists to close. Fail loudly instead.
+  if (!opts.engineId) {
+    throw new Error(
+      "buildRunManifest: engineId is required — every manifest must record which teacher " +
+        "transport produced it (SPEC-APP.md §13 invariant 7); got: " + JSON.stringify(opts.engineId),
+    );
+  }
+
   const now = opts.now ?? (() => new Date().toISOString());
 
   let acceptedPairCount = 0;
@@ -86,6 +108,7 @@ export function buildRunManifest(opts: BuildRunManifestOptions): QARunManifest {
     schemaVersion: SCHEMA_VERSION,
     runDate: now(),
     teacherModel: opts.config.teacherModel,
+    engineId: opts.engineId,
     configHash: configHash(opts.config),
     dryRun: opts.dryRun,
     chunkCount: opts.chunkCount,

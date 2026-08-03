@@ -73,10 +73,12 @@ describe("buildRunManifest", () => {
       outcomes,
       progress,
       stoppedEarly: null,
+      engineId: "claude-code-subscription",
       now: () => "2026-08-02T00:00:00.000Z",
     });
 
     expect(manifest.teacherModel).toBe("claude-sonnet-5");
+    expect(manifest.engineId).toBe("claude-code-subscription");
     expect(manifest.configHash).toBe(configHash(config));
     expect(manifest.dryRun).toBe(false);
     expect(manifest.chunkCount).toBe(5);
@@ -102,6 +104,7 @@ describe("buildRunManifest", () => {
       outcomes: [outcome()],
       progress: { doneChunkIds: ["chunk-1"], failed: [], costUsd: 5.01, requestCount: 1 },
       stoppedEarly: { reason: "cost-ceiling" },
+      engineId: "claude-code-subscription",
     });
     expect(manifest.stoppedEarly).toBe("cost-ceiling");
   });
@@ -115,7 +118,37 @@ describe("buildRunManifest", () => {
       outcomes: [],
       progress: { doneChunkIds: [], failed: [], costUsd: 0, requestCount: 0 },
       stoppedEarly: null,
+      engineId: "claude-code-subscription",
     });
     expect(() => new Date(manifest.runDate).toISOString()).not.toThrow();
+  });
+
+  it("records the engine id alongside the teacher model id (issue #223 — reproducibility invariant §13.7: every generation run's transport must be auditable, not just its model)", () => {
+    const config = baseConfig();
+    const manifest = buildRunManifest({
+      config,
+      dryRun: false,
+      chunkCount: 1,
+      outcomes: [outcome()],
+      progress: { doneChunkIds: ["chunk-1"], failed: [], costUsd: 0.01, requestCount: 1 },
+      stoppedEarly: null,
+      engineId: "anthropic-api",
+    });
+    expect(manifest.engineId).toBe("anthropic-api");
+  });
+
+  it("throws at runtime if engineId is falsy, even when a caller bypasses TypeScript (e.g. `as any`) — a manifest must never silently record a hole in the reproducibility invariant (§13.7)", () => {
+    const config = baseConfig();
+    const baseOpts = {
+      config,
+      dryRun: false,
+      chunkCount: 1,
+      outcomes: [outcome()],
+      progress: { doneChunkIds: ["chunk-1"], failed: [], costUsd: 0.01, requestCount: 1 },
+      stoppedEarly: null,
+    };
+
+    expect(() => buildRunManifest({ ...baseOpts, engineId: undefined as any })).toThrow(/engineId/i);
+    expect(() => buildRunManifest({ ...baseOpts, engineId: "" as any })).toThrow(/engineId/i);
   });
 });

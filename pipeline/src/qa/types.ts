@@ -62,6 +62,13 @@ export interface TeacherClient {
   generate(request: TeacherRequest): Promise<TeacherResponse>;
 }
 
+/** Which transport carries teacher-model calls (issue #223):
+ * "claude-code-subscription" (headless `claude -p`, riding the user's
+ * Claude subscription) or "anthropic-api" (the metered Claude API,
+ * explicit opt-in only). See engine.ts for selection/construction and
+ * claudeCodeTeacher.ts/teacher.ts for the two TeacherClient impls. */
+export type EngineId = "claude-code-subscription" | "anthropic-api";
+
 export interface PromptConfig {
   pairsPerChunk: number;
   /** Instructions injected into the prompt to keep question phrasing varied
@@ -106,6 +113,12 @@ export interface GenerationConfig extends PromptConfig {
    * / 5xx) before a chunk is recorded as failed. */
   maxRetries: number;
   retryBaseDelayMs: number;
+  /** Which teacher transport to use (issue #223). Optional so older
+   * committed configs without this field still load — cli.ts's
+   * resolveEngineId falls back to DEFAULT_ENGINE_ID when both this and
+   * the --engine CLI flag are absent. A CLI flag, when given, always
+   * overrides this. */
+  engine?: EngineId;
 }
 
 export interface ProgressState {
