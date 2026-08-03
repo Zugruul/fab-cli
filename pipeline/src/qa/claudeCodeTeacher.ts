@@ -35,6 +35,13 @@ import type { TeacherClient, TeacherRequest, TeacherResponse } from "./types.js"
  *                            into every teacher call's context — irrelevant
  *                            to Q&A generation and a further large,
  *                            unnecessary cost
+ *
+ * KNOWN LIMITATION — cost-ceiling accounting is unreliable under this
+ * engine: `usage.inputTokens` (see the `ClaudeCliResult` doc comment below)
+ * excludes cache-token fields, so runner.ts's `cost.ceilingUsd` gate
+ * effectively can't see real usage here and may never trip. Documented
+ * only — the mapping and runner.ts are deliberately unchanged; see below
+ * and pipeline/src/qa/README.md.
  */
 export type SpawnFn = (
   command: string,
@@ -57,7 +64,25 @@ export interface ClaudeCodeTeacherClientOptions {
 /** Shape of the fields this client reads from `claude -p --output-format
  * json`'s single-result object. The real output carries many more fields
  * (cost, cache, timing, session id, ...) — TeacherResponse has no home for
- * those today, so they're deliberately not mapped (see the class docs). */
+ * those today, so they're deliberately not mapped (see the class docs).
+ *
+ * KNOWN LIMITATION (documented, not fixed here — see the class doc comment
+ * and pipeline/src/qa/README.md's "Pacing + resume" section): `usage.
+ * input_tokens` under this engine reflects only the NEW, non-cached input
+ * for that turn, not total context processed — Claude Code's real
+ * `--output-format json` output also carries `cache_creation_input_tokens`
+ * / `cache_read_input_tokens` fields (bulk of real context on a call that
+ * hits this monorepo's prompt-caching), which this client does NOT read
+ * into `usage.inputTokens`. Live-observed: a real call returned
+ * `input_tokens: 2` while the actual context processed was in the
+ * thousands. Because `runner.ts`'s cost-ceiling (`estimateCost`) is
+ * computed purely from `usage.inputTokens`/`outputTokens`, the cost
+ * ceiling is NOT a reliable real-usage gauge under
+ * claude-code-subscription — it will under-count and may never trip even
+ * as real subscription usage accrues. This is a mapping/engine limitation,
+ * not a runner.ts bug — no change to the mapping or to runner.ts is made
+ * here; anthropic-api's usage accounting is unaffected (it doesn't route
+ * through this client). */
 interface ClaudeCliResult {
   is_error?: boolean;
   result?: string;

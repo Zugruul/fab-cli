@@ -96,7 +96,24 @@ breakdowns, ...). Only these are mapped:
 
 - `result` → `TeacherResponse.text`
 - `usage.input_tokens` / `usage.output_tokens` → `usage.inputTokens` / `usage.outputTokens`
-  (zeroed if `usage` is absent from the response — documented, not fabricated)
+  (zeroed if `usage` is absent from the response — documented, not fabricated; see
+  `test/fixtures/fake-claude-happy-no-usage.mjs`)
+
+**KNOWN LIMITATION — `usage.inputTokens` (and therefore `runner.ts`'s cost ceiling) is not a
+reliable usage/cost gauge under this engine.** Claude Code's real `--output-format json` output
+also carries `cache_creation_input_tokens` / `cache_read_input_tokens` fields — on a call that
+hits this monorepo's prompt caching, those dominate the real context processed, but
+`ClaudeCliResult` (this client's mapping) does not read them into `usage.inputTokens`, which
+reflects only the NEW, non-cached input for that turn. Live-observed: a real call returned
+`usage.input_tokens: 2` (see the earlier flag-rationale section) while the actual context
+processed was in the thousands. Since `runner.ts`'s `estimateCost`/`cost.ceilingUsd` gate is
+computed purely from `usage.inputTokens`/`outputTokens`, **the cost ceiling under
+`claude-code-subscription` will under-count and may never trip even as real subscription usage
+accrues.** This is a documented gap, not a bug fixed in this change — no change was made to the
+mapping or to `runner.ts`; `anthropic-api`'s usage accounting is unaffected (it never routes
+through this client). If accurate cost accounting under the subscription engine is needed later,
+it requires either reading the cache-token fields into a new accounting path or tracking
+`total_cost_usd` (also present in the real response but currently unmapped) separately.
 
 **Error mapping** — every CLI failure raises `ClaudeCliError` with an optional `status`:
 
@@ -125,6 +142,14 @@ synthetic-429 mapping above; once retries are exhausted the chunk is recorded fa
 `test/qa.claudeCodeTeacher.pacing.test.ts` for the hermetic proof (scripted fake `claude`
 binaries — retry-then-recover, and a failed chunk surviving a second `runBatch` call without a
 further CLI invocation).
+
+**The `cost.ceilingUsd` half of "cost/rate-controlled batch runner" does NOT function as a real
+usage gauge under `claude-code-subscription`** — see the KNOWN LIMITATION under "Response
+mapping" above: `usage.inputTokens` excludes cache-token fields, so the accumulated
+`costUsd`/ceiling check in `runner.ts` under-counts real usage and may never trip. Concurrency
+and requests-per-minute pacing are unaffected (they don't depend on token counts). Rely on the
+Claude subscription's own usage limits (surfaced as retryable rate-limit failures, handled
+above) rather than `cost.ceilingUsd` for budget control while running this engine.
 
 ## Live smoke test (optional, NOT part of the gate)
 
