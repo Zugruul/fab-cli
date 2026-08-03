@@ -1071,3 +1071,60 @@ items:
     action: brain-note
     ref: cross-role recall injection validated (ts-bypass lesson dev-briefed); practice
       continues
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T03:40:00Z'
+iteration:
+  task: '135'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: low
+  summary: Orchestrator discretion converted a non-blocking review finding into a
+    pre-merge hardening round on a safety-critical parser
+  detail: 'The reviewer approved with a should-fix on the human-audit verdict parser
+    (first-match-wins, unsafe direction). Rather than filing a follow-up, the orchestrator
+    required the ten-line fix pre-merge while the dev was warm; the fix landed mutation-verified
+    within the same iteration.
+
+    '
+  evidence:
+  - fab-cli#135
+  generalized: 'When an approve-with-should-fix finding sits on a safety-critical
+    decision path and the fix is small, converting it to a pre-merge round while the
+    dev agent is warm beats filing a follow-up that must re-acquire context; the discretion
+    call keys on decision-path criticality plus fix size, not verdict label.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator discretion pattern recorded in iteration report + reviewer/parsers-feeding-gate-decisions
+      note
+- category: recommendation
+  area: brains
+  severity: low
+  summary: 'An honest assessment of a purpose-minted cross-task handoff note: risk-reduction
+    value exceeded time savings'
+  detail: 'The dev reported the handoff note saved 10-15 minutes of discovery but
+    its real value was near-zero chance of reimplementing threshold math and a clear
+    scope boundary; full code reading was still required for signatures.
+
+    '
+  evidence:
+  - fab-cli#135
+  generalized: 'Cross-task handoff notes should state scope boundaries and what NOT
+    to rebuild (their strongest value) rather than trying to substitute for reading
+    the code; expectations for such notes should be calibrated to risk-reduction,
+    not implementation speed.
+
+    '
+  routing:
+    action: brain-note
+    ref: handoff-note calibration folded into retro commit message + future minting
+      practice
