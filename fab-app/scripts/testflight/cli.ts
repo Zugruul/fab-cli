@@ -15,11 +15,29 @@ import {
   signAppStoreConnectJwt,
 } from './lib';
 
-function readStdin(): Promise<string> {
+// Streams stdin line-by-line, redacting + writing each line as soon as it
+// arrives (rather than buffering the whole input until EOF) — this sits in
+// the middle of `xcodebuild ... | redact | tee log`, and xcodebuild can run
+// for many minutes, so buffering everything until it exits would leave the
+// log file (and the live run's terminal) showing nothing the entire time.
+function streamRedact(secrets: Array<string | undefined | null>): Promise<void> {
   return new Promise((resolve, reject) => {
-    const chunks: Buffer[] = [];
-    process.stdin.on('data', (chunk) => chunks.push(Buffer.from(chunk)));
-    process.stdin.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+    let carry = '';
+    process.stdin.setEncoding('utf8');
+    process.stdin.on('data', (chunk: string) => {
+      carry += chunk;
+      const lines = carry.split('\n');
+      carry = lines.pop() ?? '';
+      for (const line of lines) {
+        process.stdout.write(`${redactSecrets(line, secrets)}\n`);
+      }
+    });
+    process.stdin.on('end', () => {
+      if (carry.length > 0) {
+        process.stdout.write(redactSecrets(carry, secrets));
+      }
+      resolve();
+    });
     process.stdin.on('error', reject);
   });
 }
@@ -74,8 +92,7 @@ function cmdExportOptionsPlist(args: string[]): number {
 
 async function cmdRedact(args: string[]): Promise<number> {
   const { repeated } = parseFlags(args);
-  const input = await readStdin();
-  process.stdout.write(redactSecrets(input, repeated.secret ?? []));
+  await streamRedact(repeated.secret ?? []);
   return 0;
 }
 
@@ -98,6 +115,33 @@ async function ascFetch(path: string, init: RequestInit = {}): Promise<Response>
     ...init,
     headers: { ...init.headers, Authorization: `Bearer ${jwt}`, 'Content-Type': 'application/json' },
   });
+}
+
+async function cmdResolveTeamId(args: string[]): Promise<number> {
+  const { flags } = parseFlags(args);
+  const bundleId = flags['bundle-id'] ?? process.env.BUNDLE_ID ?? 'io.fabcollections';
+
+  // Automatic signing (CODE_SIGN_STYLE=Automatic) needs an explicit
+  // DEVELOPMENT_TEAM even when the API key's account only belongs to one
+  // team — xcodebuild has no interactive picker to fall back on headlessly
+  // and errors "Signing ... requires a development team" without it. The
+  // registered bundle id's `seedId` attribute *is* the Apple Developer Team
+  // ID (Apple's legacy "seed ID" naming) — discoverable via the same ASC
+  // API key already required for everything else, so this doesn't need to
+  // be tracked as a separate credential.
+  const res = await ascFetch(`/bundleIds?filter[identifier]=${encodeURIComponent(bundleId)}`);
+  if (!res.ok) {
+    console.error(`ASC API /bundleIds lookup failed: ${res.status} ${res.statusText}`);
+    return 1;
+  }
+  const body = (await res.json()) as { data: Array<{ attributes: { seedId: string } }> };
+  const bundle = body.data[0];
+  if (!bundle) {
+    console.error(`no registered bundle id found for ${bundleId} — register it in App Store Connect first`);
+    return 1;
+  }
+  process.stdout.write(bundle.attributes.seedId);
+  return 0;
 }
 
 async function cmdVerifyBuild(args: string[]): Promise<number> {
@@ -203,6 +247,9 @@ async function main(): Promise<void> {
     case 'redact':
       code = await cmdRedact(rest);
       break;
+    case 'resolve-team-id':
+      code = await cmdResolveTeamId(rest);
+      break;
     case 'verify-build':
       code = await cmdVerifyBuild(rest);
       break;
@@ -211,7 +258,9 @@ async function main(): Promise<void> {
       break;
     default:
       console.error(`unknown subcommand: ${subcommand ?? '(none)'}`);
-      console.error('usage: cli.ts <check-env|export-options-plist|redact|verify-build|ensure-tester-group> [flags]');
+      console.error(
+        'usage: cli.ts <check-env|export-options-plist|redact|resolve-team-id|verify-build|ensure-tester-group> [flags]',
+      );
       code = 1;
   }
   process.exit(code);

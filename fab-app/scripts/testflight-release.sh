@@ -77,12 +77,29 @@ EXPORT_OPTIONS_PLIST="$RUN_DIR/ExportOptions.plist"
 EXPORT_PATH="$RUN_DIR/export"
 
 AUTH_ARGS=(-authenticationKeyPath "$ASC_KEY_PATH" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID")
-TEAM_BUILD_ARGS=()
-PLIST_ARGS=(--method app-store-connect --destination upload)
-if [ -n "${ASC_TEAM_ID:-}" ]; then
-  TEAM_BUILD_ARGS+=("DEVELOPMENT_TEAM=$ASC_TEAM_ID")
-  PLIST_ARGS+=(--team-id "$ASC_TEAM_ID")
+
+# Automatic signing needs an explicit Team ID even for a single-team
+# account — xcodebuild has no interactive picker to fall back on headlessly
+# and fails archiving with "Signing ... requires a development team"
+# without one. Auto-resolve it from the already-registered bundle id's
+# `seedId` (the App Store Connect API's name for the Apple Developer Team
+# ID) via the same API key, rather than requiring it as a separate env var.
+if [ -z "${ASC_TEAM_ID:-}" ]; then
+  echo "==> Resolving Apple Developer Team ID for $BUNDLE_ID"
+  if ! ASC_TEAM_ID="$("${CLI[@]}" resolve-team-id --bundle-id "$BUNDLE_ID")"; then
+    echo "testflight-release: could not resolve ASC_TEAM_ID automatically — set it explicitly" >&2
+    exit 1
+  fi
+  echo "==> Team ID: $ASC_TEAM_ID"
 fi
+
+# A conditionally-empty *array* (rather than this scalar) would trip macOS's
+# stock bash 3.2 under `set -u`: expanding "${arr[@]}" on a zero-element
+# array raises "unbound variable" on bash <4.4, even though the array itself
+# is declared. A plain string that's always set (possibly to "") sidesteps
+# that entirely and unquoted-expands to zero words when empty.
+TEAM_BUILD_ARG="DEVELOPMENT_TEAM=$ASC_TEAM_ID"
+PLIST_ARGS=(--method app-store-connect --destination upload --team-id "$ASC_TEAM_ID")
 
 echo "==> Archiving Release configuration (first native build can take 10-30 minutes)"
 if ! xcodebuild archive \
@@ -95,7 +112,7 @@ if ! xcodebuild archive \
   "${AUTH_ARGS[@]}" \
   CODE_SIGN_STYLE=Automatic \
   PRODUCT_BUNDLE_IDENTIFIER="$BUNDLE_ID" \
-  "${TEAM_BUILD_ARGS[@]}" \
+  $TEAM_BUILD_ARG \
   2>&1 | "${CLI[@]}" redact --secret "$ASC_KEY_PATH" | tee "$RUN_DIR/archive.log"; then
   echo "testflight-release: archive step failed — see $RUN_DIR/archive.log" >&2
   exit 1

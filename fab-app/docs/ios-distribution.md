@@ -22,15 +22,17 @@ This runs `scripts/testflight-release.sh`, which:
 
 1. Preflight-checks the App Store Connect API credentials (see below) and that `ios/` has a
    `Pods/` directory (runs `pod install` first if not).
-2. Archives the `Release` configuration for `generic/platform=iOS`
+2. Resolves the Apple Developer Team ID from the registered bundle id (see `ASC_TEAM_ID` below)
+   if it isn't already set.
+3. Archives the `Release` configuration for `generic/platform=iOS`
    (`xcodebuild archive`), with cloud-managed ("Automatic") code signing via
    `-allowProvisioningUpdates` + the API key — no Xcode Accounts sign-in and no local
    certificates/provisioning profiles required.
-3. Generates an `ExportOptions.plist` targeting App Store Connect directly
+4. Generates an `ExportOptions.plist` targeting App Store Connect directly
    (`method: app-store-connect`, `destination: upload` — the unified Xcode 15+
    `-exportArchive` flow that exports *and* uploads in one step, no `altool`/`notarytool`).
-4. Runs `xcodebuild -exportArchive` to export + upload the build to App Store Connect.
-5. Checks the App Store Connect API for the newly-visible build (processing state).
+5. Runs `xcodebuild -exportArchive` to export + upload the build to App Store Connect.
+6. Checks the App Store Connect API for the newly-visible build (processing state).
 
 Every step's log is written to `fab-app/.testflight/<timestamp>/` (gitignored — logs, the
 `.xcarchive`, the exported `.ipa`, and the generated `ExportOptions.plist` never get committed).
@@ -49,7 +51,7 @@ take 10–30 minutes. Subsequent runs are faster (incremental build).
 | `ASC_KEY_ID` | yes | `4ZCWK2K2RT` | App Store Connect API key ID |
 | `ASC_ISSUER_ID` | yes | `d65634cb-5a37-4eba-9cba-cbf12d2aec45` | App Store Connect API issuer ID |
 | `ASC_KEY_PATH` | yes | `~/.appstoreconnect/private/AuthKey_$ASC_KEY_ID.p8` | path to the `.p8` private key — **never commit this file** |
-| `ASC_TEAM_ID` | no | — | Apple Developer Team ID; only needed if the API key's account belongs to more than one team (a single-team account resolves automatically) |
+| `ASC_TEAM_ID` | no | auto-resolved | Apple Developer Team ID. **Not optional for signing** — `xcodebuild` has no interactive team picker headlessly and fails archiving ("Signing ... requires a development team") without one, even for a single-team account. The script resolves it automatically from the registered bundle id's `seedId` attribute (App Store Connect API's name for the Team ID) via the same API key, so you normally never need to set this — only override it if auto-resolution picks the wrong team (e.g. the key has access to more than one). |
 | `BUNDLE_ID` | no | `io.fabcollections` | overrides the bundle id used for the archive + App Store Connect lookups |
 
 The three required vars all have this project's registered defaults baked in, so on a machine
@@ -87,11 +89,15 @@ flow that does require a Beta App Review — out of scope here.
   or move the key to the default location.
 - **Archive step fails with a signing/provisioning error**: this pipeline uses fully automatic
   ("cloud") signing — `xcodebuild` should create/download certificates and profiles itself via
-  `-allowProvisioningUpdates`. If it still fails:
-  - Confirm the API key has at least the **App Manager** role in App Store Connect (**Admin**
-    also works; **Developer**-only keys can't manage provisioning).
-  - If the account behind the key belongs to more than one Apple Developer team, set
-    `ASC_TEAM_ID` explicitly (Xcode/xcodebuild can't guess which team otherwise).
+  `-allowProvisioningUpdates`, and the script resolves `ASC_TEAM_ID` automatically (see above).
+  If it still fails:
+  - `"could not resolve ASC_TEAM_ID automatically"`: the bundle id isn't registered in App Store
+    Connect yet (it should already be, for `io.fabcollections`), or the API key can't see it —
+    confirm the API key has at least the **App Manager** role (**Admin** also works;
+    **Developer**-only keys can't manage provisioning).
+  - `"Signing ... requires a development team"` even with `ASC_TEAM_ID` resolved/set: the API
+    key's account has access to more than one Apple Developer team and auto-resolution picked
+    the wrong one — set `ASC_TEAM_ID` explicitly to override.
   - A step that genuinely requires interactive Xcode GUI/keychain access (rare, but possible on
     a brand-new machine with no prior Xcode sign-in at all) can't be automated by this script —
     if you hit one, the exact xcodebuild error is printed and logged; that's a one-time manual
