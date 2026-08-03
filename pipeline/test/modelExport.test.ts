@@ -88,6 +88,35 @@ describe("buildExportConfig", () => {
   it("§8.2 default quantizations are exactly Q4_K_M primary, Q8_0 reference", () => {
     expect(DEFAULT_QUANTIZATIONS).toEqual(["q4_k_m", "q8_0"]);
   });
+
+  // issue #221: the smoke vehicle moved from llama-cli to llama-server's HTTP
+  // API (llama-cli's grammar-sampler init failure + stdin-EOF REPL busy-loop,
+  // reproduced across three independent builds, made it unusable on
+  // storm590x). The bundle config surface grows a `llama_server` key;
+  // `llama_cli` stays accepted as a deprecated alias (export_gguf.py derives
+  // the server binary from its directory) rather than being a breaking
+  // rename.
+  it("emits smoke.llama_server when spec.smoke.llamaServer is set", () => {
+    const spec: ExportRunSpec = {
+      tier: "1.7B",
+      smoke: { llamaServer: "/opt/llama.cpp/build/bin/llama-server" },
+    };
+    const cfg = buildExportConfig(spec, null);
+    expect(cfg.smoke.llama_server).toBe("/opt/llama.cpp/build/bin/llama-server");
+  });
+
+  it("still emits the deprecated smoke.llama_cli when spec.smoke.llamaCli is set, alongside llama_server when both are given", () => {
+    const spec: ExportRunSpec = {
+      tier: "1.7B",
+      smoke: {
+        llamaServer: "/opt/llama.cpp/build/bin/llama-server",
+        llamaCli: "/opt/llama.cpp/build/bin/llama-cli",
+      },
+    };
+    const cfg = buildExportConfig(spec, null);
+    expect(cfg.smoke.llama_server).toBe("/opt/llama.cpp/build/bin/llama-server");
+    expect(cfg.smoke.llama_cli).toBe("/opt/llama.cpp/build/bin/llama-cli");
+  });
 });
 
 describe("resolveSmoke", () => {
@@ -103,6 +132,16 @@ describe("resolveSmoke", () => {
   it("omits llamaCli entirely when not overridden (export_gguf.py's own fallback discovery applies)", () => {
     const spec: ExportRunSpec = { tier: "1.7B" };
     expect(resolveSmoke(spec)).not.toHaveProperty("llamaCli");
+  });
+
+  it("omits llamaServer entirely when not overridden (export_gguf.py's own fallback discovery applies)", () => {
+    const spec: ExportRunSpec = { tier: "1.7B" };
+    expect(resolveSmoke(spec)).not.toHaveProperty("llamaServer");
+  });
+
+  it("carries llamaServer through when overridden", () => {
+    const spec: ExportRunSpec = { tier: "1.7B", smoke: { llamaServer: "/opt/llama.cpp/build/bin/llama-server" } };
+    expect(resolveSmoke(spec).llamaServer).toBe("/opt/llama.cpp/build/bin/llama-server");
   });
 });
 
@@ -950,5 +989,32 @@ describe("export/cli.ts parseArgs", () => {
     expect(() =>
       parseArgs(["run", "--tier", "1.7B", "--inputs", "/tmp", "--lockfile", "/l", "--gpu-check", "/g", "--cuda", "12.8", "--driver", "580.65.06"]),
     ).toThrow(/--run-id is required/);
+  });
+
+  // issue #221: --llama-cli is renamed to --llama-server (the smoke vehicle
+  // switched to llama-server's HTTP API); --llama-cli stays accepted as a
+  // deprecated alias rather than a breaking removal.
+  it("parses --llama-server into args.llamaServer", () => {
+    const args = parseArgs([
+      "run", "--run-id", "run-5", "--tier", "1.7B",
+      "--inputs", "/tmp", "--lockfile", "/l", "--gpu-check", "/g",
+      "--cuda", "12.8", "--driver", "580.65.06",
+      "--llama-server", "/opt/llama.cpp/build/bin/llama-server",
+    ]);
+    expect(args.command).toBe("run");
+    if (args.command !== "run") throw new Error("unreachable");
+    expect(args.llamaServer).toBe("/opt/llama.cpp/build/bin/llama-server");
+  });
+
+  it("still parses the deprecated --llama-cli into args.llamaCli", () => {
+    const args = parseArgs([
+      "run", "--run-id", "run-6", "--tier", "1.7B",
+      "--inputs", "/tmp", "--lockfile", "/l", "--gpu-check", "/g",
+      "--cuda", "12.8", "--driver", "580.65.06",
+      "--llama-cli", "/opt/llama.cpp/build/bin/llama-cli",
+    ]);
+    expect(args.command).toBe("run");
+    if (args.command !== "run") throw new Error("unreachable");
+    expect(args.llamaCli).toBe("/opt/llama.cpp/build/bin/llama-cli");
   });
 });
