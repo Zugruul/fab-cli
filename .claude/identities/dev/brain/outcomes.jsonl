@@ -12,3 +12,8 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "review-staged-diff-before-commit-message-must-match", "task": "223", "ts": "2026-08-03T01:03:48+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "223", "ts": "2026-08-03T01:03:48+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "fresh-worktree-needs-node-modules-and-submodule-setup", "task": "223", "ts": "2026-08-03T01:03:48+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "red-commit-contains-only-test-path-files", "task": "134", "ts": "2026-08-03T02:05:27+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verify-own-commit-is-test-only-before-writing-implementation", "task": "134", "ts": "2026-08-03T02:05:27+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "review-staged-diff-before-commit-message-must-match", "task": "134", "ts": "2026-08-03T02:05:27+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "134", "ts": "2026-08-03T02:05:27+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "never-substitute-npx-for-the-real-gate-script", "task": "134", "ts": "2026-08-03T02:05:27+00:00"}
