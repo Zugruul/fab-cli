@@ -66,6 +66,12 @@ yarn-error.log
 # testing
 /coverage
 
+# TestFlight release pipeline (#144 APP-036) — per-run logs, xcarchive,
+# exported IPA and generated ExportOptions.plist; never committed.
+/.testflight/
+*.xcarchive
+*.p8
+
 # Yarn
 .yarn/*
 !.yarn/patches
