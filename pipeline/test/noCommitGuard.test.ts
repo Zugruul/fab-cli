@@ -44,4 +44,20 @@ describe("pipeline no-commit guard", () => {
   it("git-ignores the generated benchmark manifest output dir", () => {
     expect(isGitIgnored("pipeline/out/benchmark/manifest.json")).toBe(true);
   });
+
+  // APP-026: synthetic composites (rendered PNGs + label JSON + manifest)
+  // are generated training-host output, same as the printing-image cache
+  // and benchmark photos above — never committed.
+  it("git-ignores the synthetic-composite output dir (pipeline/out/composites/)", () => {
+    expect(isGitIgnored("pipeline/out/composites/composite-0000.png")).toBe(true);
+  });
+
+  it("git-ignores synthetic-composite label files and the run manifest", () => {
+    expect(isGitIgnored("pipeline/out/composites/composite-0000.json")).toBe(true);
+    expect(isGitIgnored("pipeline/out/composites/manifest.json")).toBe(true);
+  });
+
+  it("git-ignores the composite sample-sheet HTML output", () => {
+    expect(isGitIgnored("pipeline/out/composites/sample-sheet.html")).toBe(true);
+  });
 });
