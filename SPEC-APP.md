@@ -253,10 +253,13 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   yet downloaded — connect to fetch") rather than the rules-ambiguity judge-escalation text. The §8.4 lore suite SHALL be evaluated in the
   stub-runtime configuration (what actually ships), not only against full text.
 - **7.11** THE SYSTEM SHALL define the manifest and compatibility schema (model pack,
-  knowledge pack, delta pack, corpus snapshot; including per-artifact license identifiers and
-  the revoked-versions list) as a versioned shared package consumed by both `pipeline/`
-  (producer) and `fab-app` (consumer), with schema-validation helpers and fixtures — no lane
-  invents its own manifest shape.
+  knowledge pack, delta pack, corpus snapshot; including per-artifact license identifiers, the
+  revoked-versions list, and — on the model pack manifest — the per-suite eval-gate scores
+  §8.5/§13 invariant 8 requires before release) as a versioned shared package consumed by both
+  `pipeline/` (producer) and `fab-app` (consumer), with schema-validation helpers and fixtures —
+  no lane invents its own manifest shape. The eval-scores field SHALL enforce, at the schema
+  level (not merely via TypeScript types), that every one of §8.4's named suites is present with
+  no duplicates and no suite reporting zero graded items.
 
 ## §8 Model training, export & evaluation (E2)
 
