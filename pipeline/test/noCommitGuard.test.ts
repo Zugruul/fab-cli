@@ -125,8 +125,8 @@ describe("pipeline no-commit guard", () => {
   // configured artifact map — same discipline as every other pipeline/out/
   // artifact, never committed.
   it("git-ignores the publish dry-run bundle tree", () => {
-    expect(isGitIgnored("pipeline/out/publish/pack-1.0.0/model-0.6B-merged.gguf")).toBe(true);
-    expect(isGitIgnored("pipeline/out/publish/pack-1.0.0/checksums.txt")).toBe(true);
-    expect(isGitIgnored("pipeline/out/publish/pack-1.0.0/release-manifest.json")).toBe(true);
+    expect(isGitIgnored("pipeline/out/publish/1.0.0/model-0.6B-merged.gguf")).toBe(true);
+    expect(isGitIgnored("pipeline/out/publish/1.0.0/checksums.txt")).toBe(true);
+    expect(isGitIgnored("pipeline/out/publish/1.0.0/release-manifest.json")).toBe(true);
   });
 });
