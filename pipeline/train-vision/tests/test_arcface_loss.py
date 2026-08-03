@@ -45,6 +45,31 @@ def test_arcface_logits_larger_margin_strictly_lowers_the_true_class_logit_in_th
     assert large[0, 0].item() < small[0, 0].item()
 
 
+def test_arcface_logits_near_pi_boundary_stays_monotonically_harder_not_easier():
+    # Deep-negative cosine (theta close to pi): a naive cos(theta+m) is
+    # only monotonically DEcreasing while theta+m <= pi -- past that, it
+    # wraps and comes back UP, making the true-class logit EASIER, exactly
+    # backwards from ArcFace's purpose (review finding on PR #240: verified
+    # numerically that the un-guarded formula raises cosine=-0.99 up to
+    # ~-0.9364, i.e. makes the correct class MORE satisfiable, not less).
+    # The standard InsightFace guard swaps in a linear "easy margin"
+    # fallback (cosine - sin(pi-m)*m) once cosine <= cos(pi-m), which stays
+    # monotonically <= the plain cosine everywhere.
+    cosine = torch.tensor([[-0.99, 0.5]])
+    labels = torch.tensor([0])
+    margin = 0.5
+
+    logits = arcface_logits(cosine, labels, margin, scale=1.0)
+
+    mm = math.sin(math.pi - margin) * margin
+    expected_true_class = -0.99 - mm  # the easy-margin linear fallback, NOT cos(theta+margin)
+    assert logits[0, 0].item() == pytest.approx(expected_true_class, rel=1e-5)
+    # The whole point of the guard: the margined logit must never end up
+    # HIGHER than the plain cosine near this boundary -- that would make
+    # the true class easier, not harder.
+    assert logits[0, 0].item() <= cosine[0, 0].item()
+
+
 def test_arcface_head_forward_produces_bounded_cosine_regardless_of_raw_weight_scale():
     head = ArcFaceHead(embedding_dim=4, num_classes=3)
     with torch.no_grad():
