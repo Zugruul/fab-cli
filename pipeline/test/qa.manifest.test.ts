@@ -136,4 +136,19 @@ describe("buildRunManifest", () => {
     });
     expect(manifest.engineId).toBe("anthropic-api");
   });
+
+  it("throws at runtime if engineId is falsy, even when a caller bypasses TypeScript (e.g. `as any`) — a manifest must never silently record a hole in the reproducibility invariant (§13.7)", () => {
+    const config = baseConfig();
+    const baseOpts = {
+      config,
+      dryRun: false,
+      chunkCount: 1,
+      outcomes: [outcome()],
+      progress: { doneChunkIds: ["chunk-1"], failed: [], costUsd: 0.01, requestCount: 1 },
+      stoppedEarly: null,
+    };
+
+    expect(() => buildRunManifest({ ...baseOpts, engineId: undefined as any })).toThrow(/engineId/i);
+    expect(() => buildRunManifest({ ...baseOpts, engineId: "" as any })).toThrow(/engineId/i);
+  });
 });

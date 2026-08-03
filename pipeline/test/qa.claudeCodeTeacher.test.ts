@@ -15,6 +15,7 @@ import type { TeacherRequest } from "../src/qa/types.js";
 
 const FIXTURES_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "fixtures");
 const HAPPY = path.join(FIXTURES_DIR, "fake-claude-happy.mjs");
+const HAPPY_NO_USAGE = path.join(FIXTURES_DIR, "fake-claude-happy-no-usage.mjs");
 const MALFORMED = path.join(FIXTURES_DIR, "fake-claude-malformed.mjs");
 const MODEL_ERROR = path.join(FIXTURES_DIR, "fake-claude-model-error.mjs");
 const RATE_LIMIT = path.join(FIXTURES_DIR, "fake-claude-rate-limit.mjs");
@@ -72,6 +73,17 @@ describe("ClaudeCodeTeacherClient", () => {
     expect(response).toEqual({
       text: "FAKE_CLAUDE_HAPPY_RESULT",
       usage: { inputTokens: 111, outputTokens: 22 },
+    });
+  });
+
+  it("zeroes usage (never crashes, never fabricates a value) when a successful response's JSON body has no `usage` field at all", async () => {
+    const client = new ClaudeCodeTeacherClient({ spawn: fixtureSpawnFn(HAPPY_NO_USAGE) });
+
+    const response = await client.generate(request());
+
+    expect(response).toEqual({
+      text: "FAKE_CLAUDE_NO_USAGE_RESULT",
+      usage: { inputTokens: 0, outputTokens: 0 },
     });
   });
 
