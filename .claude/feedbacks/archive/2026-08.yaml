@@ -1307,3 +1307,100 @@ items:
   routing:
     action: brain-note
     ref: dev/gate-perf-assertions-are-smoke-bounds-not-device-targets
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T19:05:00Z'
+iteration:
+  task: APP-025
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: friction
+  area: board
+  severity: medium
+  summary: Hourly GraphQL project-read rate limits stalled two board reads mid-iteration
+  detail: Two separate ~15-minute RATE-LIMITED windows on project item-list reads
+    during one iteration. Queue-and-replay absorbed mutations correctly (item-adds
+    flushed later), but reads mid-iteration forced either waiting on a timer or acting
+    from a pre-limit snapshot.
+  evidence:
+  - fab-cli#137
+  generalized: Read-heavy loop iterations can hit the GraphQL project-board read quota
+    repeatedly; mutations queue fine, but the pick/verify flow should minimize board
+    reads (reuse the iteration-start snapshot, batch list+next) and treat a mid-iteration
+    read limit as wait-with-timer rather than re-poll.
+  routing:
+    action: brain-note
+    ref: orchestrator/board-reads-are-a-budget
+- category: friction
+  area: review
+  severity: medium
+  summary: QA-move guard vocabulary mismatch with the auto-merge review protocol
+  detail: The move-to-QA hook demands two review-round telemetry records labeled pass=spec-compliance
+    and pass=code-quality; the auto-review protocol records rounds with verdicts only,
+    so the move was blocked until rounds were re-recorded post-hoc with pass labels.
+  evidence:
+  - fab-cli#137
+  generalized: The QA-transition guard requires labeled review passes (spec-compliance,
+    code-quality) while the auto-merge protocol speaks in numbered rounds with verdicts;
+    either the protocol reference should mandate recording the pass label per round
+    as it happens, or the guard should accept round-based records — the two contracts
+    currently only reconcile by post-hoc re-recording.
+  proposal:
+    target: skills/build-next/references/auto-review.md
+    change: add the pass label to the telemetry line the protocol already mandates
+      after each review round
+  routing:
+    action: upstream
+    ref: 'surfaced-to-human 2026-08-03 (pass-label mismatch between QA guard and auto-review
+      protocol; proposal: record pass label per round in auto-review.md telemetry
+      line)'
+- category: worked-well
+  area: review
+  severity: low
+  summary: Targeted judge-this-tradeoff question in the fix round surfaced a latent
+    pre-existing bug
+  detail: Round-2 brief explicitly asked the reviewer to judge the concurrency:1 test-scope
+    tradeoff; answering it surfaced a pre-existing read-await-write race that a generic
+    re-check would have missed.
+  evidence:
+  - fab-cli#237
+  generalized: Fix-round review briefs that pose one explicit judge-this-tradeoff
+    question (rather than only re-verify the fixes) reliably buy a deeper second look
+    at the riskiest area for near-zero extra cost.
+  routing:
+    action: brain-note
+    ref: orchestrator/fix-round-pose-tradeoff-question
+- category: recommendation
+  area: briefing
+  severity: medium
+  summary: Dev and reviewer briefs were assembled without brain recall injection
+  detail: Orchestrator pasted lessons from its own memory files instead of running
+    brain.sh recall per role; no injected-slug list existed, so the outcome loop (useful/dead_end/corrected)
+    recorded nothing this iteration.
+  generalized: Brief assembly should mechanically include the role's brain recall
+    output (and track the injected slugs) — when the orchestrator substitutes ad-hoc
+    remembered lessons, the outcome feedback loop silently records nothing and note
+    ranking never improves.
+  routing:
+    action: brain-note
+    ref: orchestrator/briefs-must-inject-recall
+- category: friction
+  area: other
+  severity: low
+  summary: Advisory preflight lines read as hard stops
+  detail: Assistant-capability preflight lines print 'preflight FAIL' wording while
+    the module is documented advisory-only (always exits 0); the build-next STOP-on-PREFLIGHT-FAIL
+    instruction made this look like a hard stop and cost an investigation detour.
+  generalized: Advisory preflight output should not reuse the exact FAIL wording that
+    the loop's hard-stop instruction keys on; either rename advisory failures (e.g.
+    WARN) or scope the stop instruction to the non-advisory marker.
+  routing:
+    action: upstream
+    ref: surfaced-to-human 2026-08-03 (advisory assistant-preflight lines reuse FAIL
+      wording the hard-stop instruction keys on; related plugin bug filed re capability.yaml
+      support)
