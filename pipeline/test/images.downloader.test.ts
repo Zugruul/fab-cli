@@ -89,7 +89,7 @@ describe("downloadAll — retry with backoff", () => {
       calls++;
       return calls < 3 ? errResponse(503) : okResponse();
     });
-    const sleep = vi.fn(async () => {});
+    const sleep = vi.fn(async (_ms: number) => {});
     const outcomes = await downloadAll([ref("p1")], opts({ maxRetries: 3, retryBaseDelayMs: 100 }), {
       fetchFn,
       fileExists: () => false,
