@@ -14,6 +14,31 @@
     "last": null,
     "weight": 0.5
   },
+  "diff-deferred-scope-against-primary-ac->grep-central-nouns-across-pr": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "encode-decode-symmetry-needs-pinned-decode-test->amodal-labels-contract-watchpoint": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "encode-decode-symmetry-needs-pinned-decode-test->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "execute-load-bearing-mechanism-claims->prefix-swapback-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "grep-central-nouns-across-pr->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
     "fires": 9,
     "last": "2026-08-02",

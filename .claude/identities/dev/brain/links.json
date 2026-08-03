@@ -44,6 +44,16 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "read-producers-real-bytes-before-fixtures->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "regex-fix-scan-whole-file->scoped-green-verification": {
     "fires": 4,
     "last": "2026-08-03",
@@ -77,6 +87,16 @@
   "sibling-pattern-parity->untyped-api-optional-fields": {
     "fires": 1,
     "last": "2026-07-16",
+    "weight": 0.5
+  },
+  "stage-tests-first-at-first-git-add->red-commit-contains-only-test-path-files": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "stage-tests-first-at-first-git-add->review-staged-diff-before-commit-message-must-match": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "tcgcsv-requires-user-agent->sibling-pattern-parity": {

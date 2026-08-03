@@ -41,3 +41,7 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "grep-doc-claims-as-testable-assertions", "task": "225", "ts": "2026-08-03T04:27:44+00:00"}
 {"note": "empirical sign-flip swapback proved homography test discriminating power in round 1", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "138", "ts": "2026-08-03T19:51:50+00:00"}
 {"note": "applied to generate.ts image-cache path; correctly concluded no async shared state \u2014 cheap negative check", "outcome": "useful", "schemaVersion": 1, "slug": "await-read-write-race-checklist", "task": "138", "ts": "2026-08-03T19:51:50+00:00"}
+{"note": "reviewer broke rotated_iou to empirically prove the pytest gate gates \u2014 converted wiring claim to fact", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "139", "ts": "2026-08-03T21:01:44+00:00"}
+{"note": "standing item drove the top-priority check; contract verified clean end-to-end", "outcome": "useful", "schemaVersion": 1, "slug": "amodal-labels-contract-watchpoint", "task": "139", "ts": "2026-08-03T21:01:44+00:00"}
+{"note": "no edge-case-excuse situation arose this diff", "outcome": "dead_end", "schemaVersion": 1, "slug": "compute-edge-frequency-from-config", "task": "139", "ts": "2026-08-03T21:01:44+00:00"}
+{"note": "no static text guards added in this diff", "outcome": "dead_end", "schemaVersion": 1, "slug": "regex-guards-need-empirical-evasion-pass", "task": "139", "ts": "2026-08-03T21:01:44+00:00"}
