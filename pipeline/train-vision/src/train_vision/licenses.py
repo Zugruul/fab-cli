@@ -12,17 +12,23 @@ import re
 from typing import Dict
 
 # The exact, verified dependency-chain license record for this package's
-# architecture (custom, from-scratch CenterNet-style OBB head — see
-# model.py's doc comment for why "from scratch" specifically sidesteps the
-# pretrained-ImageNet-weight license ambiguity that torchvision's own forum
-# discussions leave unresolved for its hosted weights):
+# architecture (custom, from-scratch CenterNet-style OBB head on a tiny
+# hand-rolled Conv-BN-ReLU backbone — see model.py's doc comment for the
+# full grounding, including why "from scratch" sidesteps the
+# pretrained-ImageNet-weight license ambiguity that torchvision's own
+# forum discussions leave unresolved for its hosted weights):
 #   - trainingCode: this package itself, MIT (matches pipeline/package.json
 #     — SPEC-APP.md §5/§13-I9 "training code license included").
-#   - torch / torchvision: BSD-3-Clause (verified against pytorch/vision's
-#     own LICENSE file). Only torchvision's Python *topology* code is used
-#     (MobileNetV3-Small's block definitions) — no torchvision.models
-#     pretrained weights are ever loaded, so the weight-license question
-#     never arises for this artifact.
+#   - torch: BSD-3-Clause (verified against pytorch/pytorch's own LICENSE
+#     file). This is the ONLY third-party model-definition dependency —
+#     model.py never imports torchvision at all.
+#   - torchvision: BSD-3-Clause (verified against pytorch/vision's own
+#     LICENSE file), recorded here for completeness only — SPEC-APP.md
+#     §13's own candidate list for this task cites it, but this package's
+#     actual code has zero torchvision dependency (no import, no
+#     pretrained weights, nothing). Kept in the table so a reader
+#     comparing against the spec's candidate list isn't left wondering
+#     whether it was silently forgotten.
 #   - litertTorch / aiEdgeLitert / litertConverter: Apache-2.0 (Google AI
 #     Edge / LiteRT — the ai-edge-torch -> litert-torch rename's successor
 #     package; verified via `pip show` + litert-torch's own setup.py on

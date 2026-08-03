@@ -12,9 +12,10 @@ from typing import Any, Dict, List, Union
 
 # The only architecture this package implements: a from-scratch (no
 # pretrained weights) CenterNet-style single-class oriented-bounding-box
-# head on a torchvision MobileNetV3-Small topology. See model.py's doc
-# comment and licenses.py's ARCHITECTURE_LICENSES for the full grounding.
-KNOWN_ARCHITECTURES = {"obb-centernet-mnv3s"}
+# head on a tiny hand-rolled Conv-BN-ReLU backbone (torch only — no
+# torchvision import anywhere in this package). See model.py's doc comment
+# and licenses.py's ARCHITECTURE_LICENSES for the full grounding.
+KNOWN_ARCHITECTURES = {"obb-centernet-tiny"}
 
 
 @dataclass

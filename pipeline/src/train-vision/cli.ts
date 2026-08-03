@@ -8,7 +8,7 @@
  *
  * Usage:
  *   tsx src/train-vision/cli.ts run --run-id <id> --dataset-dir <dir> --seed <n> --inputs <dir> \
- *     [--architecture obb-centernet-mnv3s] [--val-fraction F] [--stride N] \
+ *     [--architecture obb-centernet-tiny] [--val-fraction F] [--stride N] \
  *     [--epochs N] [--batch-size N] [--lr F] \
  *     [--resource storm590x] [--capability-job vision-training:obb-train] \
  *     [--cuda <ver>] [--driver <ver>] [--gpu <name>] [--torch <ver>] [--runs-dir <dir>]

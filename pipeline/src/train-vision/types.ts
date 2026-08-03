@@ -36,8 +36,8 @@ export interface VisionEnvironment {
  * train-vision/src/train_vision/model.py's doc comment for the full
  * grounding (from-scratch CenterNet-style head, no pretrained weights,
  * zero third-party model-definition dependencies). */
-export type VisionArchitecture = "obb-centernet-mnv3s";
-export const DEFAULT_ARCHITECTURE: VisionArchitecture = "obb-centernet-mnv3s";
+export type VisionArchitecture = "obb-centernet-tiny";
+export const DEFAULT_ARCHITECTURE: VisionArchitecture = "obb-centernet-tiny";
 
 export interface VisionTrainHyperparams {
   epochs: number;

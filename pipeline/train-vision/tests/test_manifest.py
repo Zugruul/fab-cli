@@ -42,8 +42,8 @@ def test_dataset_manifest_hash_raises_when_missing(tmp_path):
 def _base_kwargs(**overrides):
     kwargs = dict(
         run_id="run-001",
-        architecture="obb-centernet-mnv3s",
-        config={"seed": 1, "architecture": "obb-centernet-mnv3s"},
+        architecture="obb-centernet-tiny",
+        config={"seed": 1, "architecture": "obb-centernet-tiny"},
         dataset_dir=FIXTURE_DIR,
         seed=1,
         metrics={"syntheticVal": {"mAP": 0.5, "perThreshold": {"0.5": 0.5}}, "realPhotoBenchmark": None},

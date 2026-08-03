@@ -19,7 +19,7 @@ FIXTURE_DIR = os.path.join(os.path.dirname(__file__), "fixtures", "composites-ru
 
 def _config(output_dir, **overrides):
     cfg = {
-        "architecture": "obb-centernet-mnv3s",
+        "architecture": "obb-centernet-tiny",
         "seed": 7,
         "datasetDir": FIXTURE_DIR,
         "valFraction": 0.25,

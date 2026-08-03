@@ -8,7 +8,7 @@ import pytest
 from train_vision.config import validate_config, validate_export_config
 
 VALID = {
-    "architecture": "obb-centernet-mnv3s",
+    "architecture": "obb-centernet-tiny",
     "seed": 1234,
     "datasetDir": "/tmp/composites-run",
     "valFraction": 0.1,
@@ -84,7 +84,7 @@ def test_config_is_not_a_dict():
 # --- export config -----------------------------------------------------
 
 VALID_EXPORT = {
-    "architecture": "obb-centernet-mnv3s",
+    "architecture": "obb-centernet-tiny",
     "checkpointPath": "/tmp/checkpoint.pt",
     "stride": 8,
     "canvasSize": 128,

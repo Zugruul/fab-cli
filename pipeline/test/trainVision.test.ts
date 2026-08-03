@@ -31,7 +31,7 @@ describe("buildVisionConfig", () => {
   it("builds the exact config for a minimal spec using documented defaults", () => {
     const spec: VisionRunSpec = { datasetDir: "/data/composites-run", seed: 42 };
     expect(buildVisionConfig(spec, "output")).toEqual({
-      architecture: "obb-centernet-mnv3s",
+      architecture: "obb-centernet-tiny",
       seed: 42,
       datasetDir: "/data/composites-run",
       valFraction: DEFAULT_VAL_FRACTION,
@@ -48,7 +48,7 @@ describe("buildVisionConfig", () => {
   });
 
   it("respects an explicit architecture/valFraction/stride override", () => {
-    const spec: VisionRunSpec = { datasetDir: "/data/x", seed: 1, architecture: "obb-centernet-mnv3s", valFraction: 0.2, stride: 16 };
+    const spec: VisionRunSpec = { datasetDir: "/data/x", seed: 1, architecture: "obb-centernet-tiny", valFraction: 0.2, stride: 16 };
     const config = buildVisionConfig(spec, "output");
     expect(config.valFraction).toBe(0.2);
     expect(config.stride).toBe(16);
@@ -126,7 +126,7 @@ function makeCounterNow(prefix = "2026-08-03T12:00:0"): () => string {
 }
 
 const REAL_TRAIN_SUMMARY = JSON.stringify({
-  architecture: "obb-centernet-mnv3s",
+  architecture: "obb-centernet-tiny",
   configHash: "a".repeat(64),
   datasetManifestHash: "b".repeat(64),
   trainLosses: [10.0, 5.0],
@@ -193,7 +193,7 @@ describe("runner.run — happy path", () => {
     expect(manifest).toEqual({
       schemaVersion: "0.1.0",
       runId: "test-run-001",
-      architecture: "obb-centernet-mnv3s",
+      architecture: "obb-centernet-tiny",
       configHash: "a".repeat(64),
       dataset: { dir: "/data/composites-run", manifestHash: "b".repeat(64) },
       seed: 42,
