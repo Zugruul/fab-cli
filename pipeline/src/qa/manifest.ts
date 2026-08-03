@@ -80,6 +80,19 @@ export interface BuildRunManifestOptions {
 }
 
 export function buildRunManifest(opts: BuildRunManifestOptions): QARunManifest {
+  // Runtime guard, not just a TS type: `engineId: string` is REQUIRED at
+  // the type level, but a caller that bypasses TypeScript (`as any`, a
+  // plain-JS caller, a stale build) can still hand this an undefined/empty
+  // value — and doing so would silently write a manifest with no recorded
+  // transport, a hole in the §13 invariant 7 reproducibility guarantee
+  // this field exists to close. Fail loudly instead.
+  if (!opts.engineId) {
+    throw new Error(
+      "buildRunManifest: engineId is required — every manifest must record which teacher " +
+        "transport produced it (SPEC-APP.md §13 invariant 7); got: " + JSON.stringify(opts.engineId),
+    );
+  }
+
   const now = opts.now ?? (() => new Date().toISOString());
 
   let acceptedPairCount = 0;
