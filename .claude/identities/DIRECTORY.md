@@ -5774,6 +5774,7 @@ _(no notes)_
 - **board-reads-are-a-budget** — [board, rate-limit, loop]
 - **board-status-can-drift-from-issue-state** — [board, github-projects, audit]
 - **bookkeeping-commits-after-board-moves** — [process, gate, board]
+- **bookkeeping-commits-only-on-main** — [git, concurrency, lanes]
 - **bounded-diagnosis-then-route-around** — [debugging, process, integration]
 - **brain-bulk-writes-need-link-reindex** — [brains, tooling, pitfall]
 - **branch-create-verify-merge-base-not-just-status** — [git, concurrency, workflow]

@@ -1,12 +1,12 @@
 ---
 tags: [briefing, brains, delegation]
 paths: [".claude/**"]
-strength: 1
-source: "APP-025 iteration feedback"
+strength: 2
+source: "APP-026 iteration feedback (reinforcement)"
 confidence: direct
 graduated: false
 created: 2026-08-03
 last-touched: 2026-08-03
 ---
 
-Assemble dev/reviewer briefs WITH brain.sh recall output per role and track the injected slugs — substituting ad-hoc remembered lessons means the outcome loop (useful/dead_end/corrected) records nothing and note ranking never improves. This iteration recorded zero outcomes for exactly this reason.
+Injecting recall + tracking slugs made outcome recording mechanical; self-correction loop works when notes are actionable protocol changes. Reinforced by APP-026 iteration (6 outcomes recorded).

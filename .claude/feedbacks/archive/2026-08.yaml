@@ -1404,3 +1404,65 @@ items:
     ref: surfaced-to-human 2026-08-03 (advisory assistant-preflight lines reuse FAIL
       wording the hard-stop instruction keys on; related plugin bug filed re capability.yaml
       support)
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T20:05:00Z'
+iteration:
+  task: APP-026
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: concurrency
+  severity: medium
+  summary: Orchestrator retro commit landed on a dev lane's branch in the shared working
+    dir
+  detail: Orchestrator created the next lane's branch, then ran the previous task's
+    retro commit while that branch was checked out — the brain commit landed on the
+    lane branch and needed cherry-pick-to-main + branch reset surgery while the lane's
+    dev agent was already running in the same directory.
+  generalized: Orchestrator bookkeeping commits (brains, feedback, telemetry) must
+    only happen with the main branch checked out — or lanes must get dedicated worktrees
+    per the concurrency reference; sharing one working dir between orchestrator and
+    dev lanes makes the checked-out branch a shared mutable resource and bookkeeping
+    commits silently pollute lanes.
+  routing:
+    action: brain-note
+    ref: orchestrator/bookkeeping-commits-only-on-main
+- category: worked-well
+  area: brains
+  severity: low
+  summary: Recall injection with tracked slugs closed the outcome loop
+  detail: Both agent briefs carried recall output with slugs tracked; 6 outcomes recorded
+    at close; the prior iteration's gap (zero outcomes) was fixed by the note minted
+    about it.
+  generalized: Injecting brain recall into agent briefs and tracking the injected
+    slugs makes outcome recording at task close mechanical instead of forgotten —
+    the loop's self-correction (mint a note about the gap, apply it next iteration)
+    works when the note is written as an actionable protocol change.
+  routing:
+    action: brain-note
+    ref: orchestrator/briefs-must-inject-recall
+- category: friction
+  area: board
+  severity: low
+  summary: Queued board mutation validated only at replay, not at enqueue
+  detail: A bug filing with an invalid priority was accepted at enqueue (rate-limited
+    path), then failed at replay with a non-rate-limit error, leaving a poisoned queue
+    entry that needed manual JSONL surgery.
+  generalized: Board mutations queued during rate limits should be validated with
+    the same rules at enqueue time as at replay time — deferred validation turns a
+    typo into a stuck queue entry that outlives the session that could have fixed
+    it interactively.
+  proposal:
+    target: scripts/board.sh
+    change: validate priority/status option names against board config before enqueueing
+      a deferred mutation
+  routing:
+    action: upstream
+    ref: 'surfaced-to-human 2026-08-03 (board.sh enqueue/replay validation asymmetry;
+      proposal: validate option names before enqueueing deferred mutations)'

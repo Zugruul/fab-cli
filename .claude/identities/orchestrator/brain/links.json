@@ -9,6 +9,11 @@
     "last": null,
     "weight": 0.5
   },
+  "bookkeeping-commits-only-on-main->board-reads-are-a-budget": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "gh-pr-merge-worktree-lock-recurs->gh-pr-merge-worktree-branch-lock": {
     "fires": 0,
     "last": null,
