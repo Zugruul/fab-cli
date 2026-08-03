@@ -1,9 +1,11 @@
-# Eval harness (SPEC-APP.md §8.3-§8.5, §13 invariant 8 — APP-022, #134)
+# Eval harness (SPEC-APP.md §8.3-§8.5, §13 invariant 8 — APP-022 #134, APP-023 #135)
 
 The eval harness that scores a candidate model before release: trichotomy scoring
 (correct/incorrect/abstained) with asymmetric penalties, eight named suites, per-embedder
-calibration, regression comparison against the previous release, and per-suite scores landing
-in `@fab/manifest-schema`'s `ModelPackManifest.evalScores`.
+calibration, regression comparison against the previous release, per-suite scores landing
+in `@fab/manifest-schema`'s `ModelPackManifest.evalScores`, and the release-gate enforcement
+policy (thresholds + major-version human-audit requirement) that turns those measurements into
+a hard pass/block release decision — see "Release gate" below.
 
 Architecture is grounded in `docs/design/app-E2.md` — read that first for the component map and
 data models. This README is usage-focused.
@@ -49,6 +51,59 @@ output, ready to splice into a real release manifest), and `gate-result.json` (�
 list + pass/fail) under `pipeline/eval-runs/<timestamp>/` (gitignored — regenerable, and a
 `--stub` smoke run isn't a meaningful result to commit). Exit code is nonzero iff the gate
 result's `passed` is false.
+
+## Release gate (§8.5 enforcement policy — APP-023, #135)
+
+`gate.ts`'s `checkGate()` only PRODUCES the raw §8.5(a)/(b)/(c) breach signals from an
+`EvalRunSummary` — it never decides whether a release is actually allowed. `release.ts`'s
+`checkReleaseGate()` is the enforcement policy: it consumes `checkGate()` unchanged (never
+reimplements the threshold math) and adds the one thing §8.5's second clause requires that
+`checkGate()` explicitly defers: **for a major-version candidate, a completed human-audited
+sample review is additionally required before release.**
+
+```bash
+npm run eval -- release --version 2.0.0 --previous-version 1.4.0 \
+  --audit-record pipeline/release-audits/2.0.0.md
+```
+
+- **Major-version detection**: the candidate's major component is strictly greater than
+  `--previous-version`'s (e.g. `2.0.0` vs `1.4.0` → major). With **no** `--previous-version` at
+  all (first-ever release), the candidate is *also* treated as major — there's no release
+  history to compare against, so the human-audit step is the only quality gate a first release
+  gets beyond the automated suites.
+- **Audit requirement**: for a major-version candidate, `--audit-record <path>` must point at a
+  completed copy of `pipeline/release-audits/TEMPLATE.md` (copy it to
+  `pipeline/release-audits/<version>.md`, fill it in, commit it — these are permanent
+  provenance records, not regenerable output, same discipline as `pipeline/training-runs/`).
+  The gate reads only that file's `## Sign-off` → `Verdict: APPROVE` / `Verdict: BLOCK` line
+  (`release.ts`'s `extractAuditVerdict`); a missing path, a missing file, or the template's own
+  unfilled `Verdict: <APPROVE | BLOCK>` placeholder are all treated as "no completed sign-off"
+  and block the release — an unfilled template can never pass as a silent approval. A recorded
+  `BLOCK` verdict blocks the release outright regardless of what the automated suites say; only
+  a recorded `APPROVE` clears this check.
+- **Ambiguity refuses, never guesses**: `extractAuditVerdict` collects EVERY `Verdict:` match in
+  the document, not just the first — a version that took only the first match let a stale
+  `Verdict: APPROVE` left in place above a corrected `Verdict: BLOCK` silently resolve APPROVE
+  (the unsafe direction). More than one DISTINCT verdict anywhere in the document — including a
+  stray `Verdict:`-shaped mention outside `## Sign-off` — is refused as `kind: "ambiguous"` and
+  blocks the release with a "conflicting sign-off verdicts" reason, never resolved by picking
+  either one. **Identical duplicate lines are accepted, not treated as ambiguous** — the same
+  verdict repeated twice carries no conflicting signal, so refusing it would only make
+  legitimate re-emphasis (e.g. quoting the verdict twice) fail closed for no safety benefit.
+- **Version parsing is a runtime guard, not just a TS type**: `--version`/`--previous-version`
+  must be strict `MAJOR.MINOR.PATCH` (no `v` prefix, no pre-release suffix) — a malformed
+  version decides whether the audit gate applies at all, so it throws loudly
+  (`InvalidVersionError`) rather than silently parsing into something that skips the check.
+- A non-major bump (e.g. `1.5.0` vs `1.4.2`) never requires `--audit-record` — only
+  `checkGate()`'s (a)/(b)/(c) signals apply.
+
+`eval release` writes the same `summary.json`/`manifest-eval-scores.json` as `eval run`, plus
+`release-gate-result.json` (`ReleaseGateResult`: `passed`, `breaches` — `checkGate()`'s breaches
+plus, when present, one `"8.5-audit"`-clause breach — `isMajorVersion`, and the unmodified
+underlying `gate` result) under `pipeline/eval-runs/<timestamp>/`. Exit code is nonzero iff
+`passed` is false. Like `eval run`, it always runs `--stub` (no real on-device model is wired up
+yet); this is the release-gate signal a real publish script would consume before uploading an
+artifact (§8.9), not itself the publish step.
 
 ## Suite registry
 

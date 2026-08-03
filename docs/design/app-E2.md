@@ -41,6 +41,12 @@ APP-022 adds.
   - `runner.ts`/`cli.ts` — orchestrates suites against a MODEL CLIENT abstraction; the
     gate exercises a deterministic stub model client (network off, judge mocked); real
     model runs come later via the remote rails.
+  - `release.ts` (#135 APP-023, NEW) — the §8.5 release-gate ENFORCEMENT POLICY: consumes
+    `gate.ts`'s (a)/(b)/(c) breach signals unchanged and adds the one clause `gate.ts`
+    explicitly deferred — for a major-version candidate (major component bump vs
+    `--previous-version`, or no previous version at all), a completed human-audit sample
+    review (`release-audits/TEMPLATE.md`, sign-off `Verdict: APPROVE`/`BLOCK`) is
+    additionally required. Wired as `cli.ts`'s `eval release` subcommand.
 
 ## Data models
 
@@ -71,9 +77,12 @@ APP-022 adds.
 1. `eval run` → load suites (registry) → for each item: model client answer → scorer
    (exact-match or rubric-judge) → trichotomy → per-suite aggregate → EvalRunSummary →
    manifest fields + regression comparison vs previous release → exit nonzero on §8.5
-   (a)/(b)/(c) breach (the release-gate signal APP-023 consumes).
+   (a)/(b)/(c) breach (the raw gate.ts signal `eval release`'s policy layer consumes).
 2. `eval calibrate` → score distributions over the eval set for the active embedder
    version → abstention floor + OOD threshold artifacts (recorded, versioned).
+3. `eval release` → same suite pass as `eval run` → `checkGate()`'s (a)/(b)/(c) breaches
+   → IF major-version candidate THEN also require + validate a completed audit record's
+   sign-off verdict → aggregate breach list → exit nonzero iff blocked.
 
 ## Decisions
 
@@ -87,6 +96,7 @@ APP-022 adds.
 
 ## Out of scope for this epic
 
-- Release-gate thresholds/human-audit checklist wiring (APP-023, §8.5 enforcement policy).
 - On-device benchmarks (APP-024, §8.6), vision models (§8.7), knowledge packs (§8.8).
 - The Q&A experience consuming calibrated floors at runtime (E4).
+- A real publish script that consumes the release-gate signal to actually upload an artifact
+  (§8.9) — `eval release`'s exit code is the input to that, not the publish step itself.
