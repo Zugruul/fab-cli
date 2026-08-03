@@ -26,3 +26,8 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "ts-bypass-mutation-for-invariant-bearing-required-fields", "task": "134", "ts": "2026-08-03T02:05:27+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "recompute-numeric-claims-when-boundary-adjacent-and-untested", "task": "134", "ts": "2026-08-03T02:05:28+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "verdict-time-ref-freshness-fetch-never-moves-local-branches", "task": "134", "ts": "2026-08-03T02:05:28+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "reproduce-gate-claims", "task": "135", "ts": "2026-08-03T02:37:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "independently-reproduce-regression-catch-proof", "task": "135", "ts": "2026-08-03T02:37:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "ts-bypass-mutation-for-invariant-bearing-required-fields", "task": "135", "ts": "2026-08-03T02:37:33+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "grep-doc-claims-as-testable-assertions", "task": "135", "ts": "2026-08-03T02:37:34+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "round2-diff-stat-against-last-reviewed-sha", "task": "135", "ts": "2026-08-03T02:37:34+00:00"}
