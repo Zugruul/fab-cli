@@ -1,0 +1,382 @@
+[
+  {
+    "id": "reprise-rosetta-limited-01",
+    "question": "In Rosetta limited formats (Booster Draft, Sealed Deck, Blitz Preconstructed), does every player automatically start the game with a Sanctuary of Aria macro, and is it considered part of their card pool?",
+    "expectedClaims": [
+      "Each player places a Sanctuary of Aria macro into the arena before heroes are revealed at the start of every Rosetta limited game; it is not part of a player's card-pool and does not start in the deck zone.",
+      "If a player forgets to place their Sanctuary of Aria at the start of the game, they simply place a copy of it on their side at that time, calling a judge first to help facilitate the fix.",
+      "Macros like Sanctuary of Aria are not considered cards or tokens for the purposes of effects (e.g. they cannot be destroyed by effects requiring you to 'destroy a card'), but they do have abilities and effects that interact with the game."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-02",
+    "question": "Tyler plays Comet Storm // Shock, melding the card and targeting Nic with both effects. Nic activates Sanctuary of Aria's damage-prevention ability twice, once before each resolution of the melded card. How much damage does Nic actually take, and what happens to Nic's Sanctuary of Aria?",
+    "expectedClaims": [
+      "Sanctuary of Aria's ability can be activated by paying 2 resources to generate a prevention effect that reduces the next 1 damage from a chosen source that turn, and it can be activated multiple times as long as its cost is paid each time.",
+      "The melded Comet Storm // Shock layer resolves twice: first Shock's 1 arcane damage, which Nic prevents entirely with Sanctuary of Aria; then Comet Storm's 5 arcane damage, reduced to 4 by a second Sanctuary of Aria activation.",
+      "Sanctuary of Aria is destroyed (removed from the game) at the end of the turn on which it was activated."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-03",
+    "question": "How does the decompose ability (e.g. on Rootbound Carapace or Summer's Fall) work — how many total cards must be banished, and can an Earth action card count for both requirements at once?",
+    "expectedClaims": [
+      "Resolving a decompose ability requires banishing 3 cards total from the graveyard: two Earth cards and one action card; the Earth cards may be action cards and the action card may be an Earth card, but an Earth action card only counts toward one of the two categories at a time, never both simultaneously, so three cards total must still be banished.",
+      "You choose whether to banish at the time the layer resolves on the stack, and there is no priority window between choosing to banish, actually banishing, and then resolving the remaining effects."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-04",
+    "question": "Tyler is playing Verdance with 1 Earth card already banished and attacks with Blossoming Decay (red), triggering decompose to banish 3 Earth action cards. Does Verdance's hero ability trigger from the banishing itself, separately from the life gain in the rest of Blossoming Decay's effect?",
+    "expectedClaims": [
+      "Banishing the 3 decompose cards brings Tyler's total banished Earth cards to 4, which immediately gives Verdance their triggered ability (from having enough Earth cards banished).",
+      "When the rest of Blossoming Decay's effect then resolves and gains Verdance 1 resource of life, that gain-life event triggers Verdance's newly-active ability, resulting in 1 arcane damage being dealt to Nic."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-05",
+    "question": "If a melded card has go again (either printed or granted by another effect), when does its controller actually get the action point, and what happens if the melded card is negated before it resolves a second time?",
+    "expectedClaims": [
+      "For melded cards with go again, the controller gets the action point on their turn only when the melded card resolves for the second time on the stack; abilities added to a melded card by an effect also generate their effects on that second resolution.",
+      "If a melded card with go again is negated before it resolves the second time on the stack (whether before its first resolution or after it has already resolved once), its layer is removed from the stack, it never resolves a second time, and the controller does not gain an action point from go again."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-06",
+    "question": "Tyler plays melded Burn Up // Shock targeting Nic with Shock, which resolves once. Nic responds with melded Null // Shock, targeting Tyler with Shock and targeting the Burn Up // Shock card itself with Null. After both cards' layers resolve, does Tyler gain an action point from Burn Up // Shock's go again?",
+    "expectedClaims": [
+      "Nic's melded Null // Shock resolves twice: first Shock deals 1 arcane damage to Nic, then Null negates the Burn Up // Shock card, removing it and its layer from the stack before it can resolve a second time.",
+      "Because Burn Up // Shock never resolves a second time, Tyler does not get an action point from its go again."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-07",
+    "question": "If Tyler attacks with Blast to Oblivion and then plays an instant-typed Sigil (like Sigil of Brilliance) from hand to trigger Blast to Oblivion's delayed triggered effect, can that same Sigil be targeted and returned to hand by the trigger? What about a Sigil defending the attack?",
+    "expectedClaims": [
+      "The instant-typed Sigil played from hand cannot be targeted by Blast to Oblivion's triggered effect because while it is on the stack it is only an aura card, not yet an aura permanent, and aura cards on the stack are not legal targets.",
+      "A Sigil defending the attack also cannot be targeted, because a defending card with the aura type is not an aura permanent either.",
+      "If there are no aura permanents or aura tokens available to target, Blast to Oblivion's triggered effect ceases to exist and is never added to the stack."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-08",
+    "question": "If Nic defends Tyler's Heaven's Claws attack with Sigil of Fyendal from hand, and the combat chain later closes, does Sigil of Fyendal's leaves-the-arena ability trigger and gain Nic 1 resource of life?",
+    "expectedClaims": [
+      "No — Sigil of Fyendal's ability, like most Sigils' abilities in Rosetta, only functions while the card is a permanent in the arena, not while it is defending, since defending card abilities are not functional unless they explicitly say so (e.g. 'While this is defending').",
+      "When the combat chain closes and Sigil of Fyendal is cleared from the combat chain, its ability does not trigger and Nic does not gain life."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-09",
+    "question": "Tyler is playing Verdance with 4 Earth cards banished and resolves Heartbeat of Candlehold, which is written as three separate 'Gain 1 life' instructions. How many times does Verdance's ability trigger, versus if Tyler instead resolved Fruits of the Forest's activated ability that gains 2 life in one instruction?",
+    "expectedClaims": [
+      "Verdance's ability triggers once for each separate event of gaining life, so Heartbeat of Candlehold's three separate 'Gain 1{h}' instructions trigger Verdance's ability three separate times, each dealing 1 arcane damage when it resolves.",
+      "In contrast, Fruits of the Forest's 'Gain 2{h}' is a single event of gaining life (not written as two separate instructions), so it triggers Verdance's ability only once.",
+      "In the worked example, one of the three triggered effects resolves while Tyler has an active Amp 1 effect from Arcane Twining, so that particular trigger deals 2 arcane damage instead of 1."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-10",
+    "question": "Tyler is playing Florian with 4 Earth cards banished and resolves Germinate with X=2 (repeated 'create a Runechant or Embodiment of Earth token' instructions), versus resolving Arcane Cussing's triggered effect to create 2 Runechant tokens in one instruction. How does Florian's replacement effect apply differently in each case?",
+    "expectedClaims": [
+      "Florian's replacement effect adds one extra token each time a create-aura-token effect resolves; Germinate's repeated single-token-creation instructions (X times) are each a separate event, so Florian turns each 'create a token' instruction into 2 tokens — in the example, Tyler creates 6 tokens total and gains 3 life from Germinate.",
+      "For an effect that specifies creating a set number of tokens in one instruction, like Arcane Cussing's 'create 2 Runechant tokens,' Florian's effect only adds one extra token to that single event, resulting in 3 Runechant tokens total rather than doubling per token."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-11",
+    "question": "Nic is playing Oscilio at 2 life with only Trip the Light Fantastic (red) in hand, facing lethal arcane damage from Tyler's Overflow the Aetherwell. Can Nic discard Trip the Light Fantastic to both activate its own prevention ability and pay Oscilio's discard-an-instant activation cost?",
+    "expectedClaims": [
+      "No — Nic cannot do both because each ability requires discarding a separate card as its cost; Oscilio's ability requires discarding a card with the instant type in its type box, and Trip the Light Fantastic is not an instant-type card (it merely has an instant-type ability printed in its text), so it cannot pay Oscilio's cost.",
+      "Nic instead activates and resolves Trip the Light Fantastic's own instant ability, discarding it as that ability's activation cost, to prevent the next 2 arcane damage dealt to them."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-limited-12",
+    "question": "Tyler attacks with Flittering Charge (red), deals damage (Nic doesn't defend), and then in the resolution step plays the instant Electrostatic Discharge. Does Flittering Charge still get go again and generate an action point even though the instant was played after damage was already dealt?",
+    "expectedClaims": [
+      "Yes — go again is checked after the attack's damage and resolution steps, so there is a window to play an instant (like Electrostatic Discharge) before go again is checked; Flittering Charge gains go again from that instant in time to generate an action point when moving to the link step."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-22-rosetta-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-22-rosetta-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-01",
+    "question": "When exactly does Arc Lightning's delayed-triggered effect deal its 1 arcane damage, and can Arc Lightning trigger its own delayed effect via its own go again?",
+    "expectedClaims": [
+      "Arc Lightning's delayed-triggered effect (dealing 1 arcane damage to any target) triggers whenever you gain an action point from go again, generally; because go again is always the last ability to resolve on a card, and it resolves after the delayed-trigger has been created, resolving Arc Lightning's own go again can trigger its own delayed effect.",
+      "If Arc Lightning were resolved on the opponent's turn (e.g. played as though it were an instant), its own go again would not trigger the delayed effect, because action points cannot be gained on the opponent's turn."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-02",
+    "question": "If a player deals more than the 3/2/1 damage threshold with Glyph Overlay while having no Sigil cards, whose deck gets shuffled?",
+    "expectedClaims": [
+      "No one shuffles — there are no auras with 'Sigil' in their name for that player, so it is undefined whose deck needs to be shuffled, and therefore nobody is required to shuffle.",
+      "This differs from effects that explicitly instruct 'shuffle [card] into your deck' (like Plan for the Worst), where the controller must still shuffle their deck even if there is nothing to actually shuffle into it, because the instruction explicitly names whose deck is to be shuffled."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-03",
+    "question": "When Tyler plays Gone in a Flash as an attack and its delayed trigger lets Tyler return it to hand the next time an instant (like Lightning Press) is played on the same chain link, does the combat chain close — and does the answer depend on whether damage has already been dealt?",
+    "expectedClaims": [
+      "If Gone in a Flash is returned to hand before damage is dealt, the chain link has not resolved (the card no longer exists as the attack on the combat chain), so the combat chain closes.",
+      "If Gone in a Flash is returned to hand after damage is dealt, the chain link has already resolved, so it doesn't matter what happens to the card afterward — the combat chain does not close, and if Gone in a Flash had go again before returning to hand, the player still gains an action point in the link step.",
+      "The same principle applies to Electromagnetic Somersault returning an attacking action card to hand after damage: because it happens after damage, the combat chain does not close and go again still grants the action point."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-04",
+    "question": "Tyler attacks Nic with Gone in a Flash; Nic defends with a card from hand triggering Mark of Lightning; Tyler plays Channel Lightning Valley; Gone in a Flash's trigger resolves and Tyler chooses to return it to hand, closing the combat chain. What ultimately happens with Mark of Lightning, Channel Lightning Valley, and the damage from Gone in a Flash?",
+    "expectedClaims": [
+      "Returning Gone in a Flash to hand causes a game state action that transitions the game to the Close Step, but the remaining layers already on the stack (Channel Lightning Valley and Mark of Lightning's trigger) still resolve as part of the combat chain closing.",
+      "Channel Lightning Valley resolves and becomes a permanent under Tyler's control; then Mark of Lightning's trigger resolves, and because its 'defended by a card from hand' condition was still met when it triggered, Tyler destroys Mark of Lightning and Gone in a Flash deals its 1 damage to Nic using Last Known Information (since the attack no longer exists but was referenced when the trigger first triggered).",
+      "This in turn triggers Channel Lightning Valley to draw Tyler a card, and combat then comes to a close."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-05",
+    "question": "Tyler is playing Levia and attacks with Ten Foot Tall and Bulletproof, giving their hero -2 power during the next end phase. Before that end phase, Levia transforms into Blasmophet, Levia Consumed via blood debt. Does the transformed hero still have -2 power?",
+    "expectedClaims": [
+      "No — when a player 'transforms' into a hero or demi-hero, their hero card is replaced with an entirely new hero card, and any effects that applied to the previous hero card (such as the -2 power from Ten Foot Tall and Bulletproof) do not carry over to the new hero card."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-06",
+    "question": "Nic is playing Shiyana, Diamond Gemini and defends with Ten Foot Tall and Bulletproof, giving Shiyana -2 power during the next end phase. Before that end phase, Shiyana's ability triggers and Shiyana becomes a copy of Tyler's hero. Does Shiyana still have -2 power in that end phase?",
+    "expectedClaims": [
+      "Yes — when a hero 'becomes' another hero (as opposed to 'transforming'), the hero card itself remains the same object and only its properties change; effects that applied before (such as the -2 power) continue to apply even though the hero has copied another hero's properties."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-07",
+    "question": "Do + power/toughness-boosting effects (like Bloodrush Bellow and Come to Fight) apply in time to be counted by Savage Sash's cost discount for an attack action card with 6+ power, given the order in which a card is played and paid for?",
+    "expectedClaims": [
+      "Yes — almost all + effects apply to a card as it is played, before its resource cost is calculated, because the sequence of playing a card is: put it on the stack, declare parameters/targets, check legality, THEN calculate resource cost, then pay it; effects applying to the next card played are applied at the 'declare' step, before cost calculation.",
+      "In the worked example, after Tyler activates Savage Sash and plays Bloodrush Bellow (+2 power) and Come to Fight (+3 power), Swing Fist, Think Later's power totals 7 (2 base + 2 + 3) at the cost-calculation step, meeting Savage Sash's 6+ power requirement, so its cost is reduced to 0 resources."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-08",
+    "question": "What value of X is needed to banish cards like Chain Lightning, Scour, Forked Lightning, Emeritus Scolding, and a hypothetical melded Comet Storm // Shock with Blaze, Firemind's ability?",
+    "expectedClaims": [
+      "The value of X must equal the arcane damage directly generated by the card resolving on the stack; it doesn't matter if the damage is conditional, and replacement effects that change the arcane damage amount don't change the X value needed.",
+      "Chain Lightning needs X=3 (conditional but still deals 3); Scour needs X=0 (its damage value is undetermined in hand, defaulting to 0); Forked Lightning needs X=2 (the printed damage value, even though dealt to separate targets); Emeritus Scolding needs X=4/3/2 for red/yellow/blue respectively, ignoring its opponent's-turn replacement effect; a hypothetical Comet Storm // Shock would need X=5 or X=1 (either of its two separate arcane damage effects, not the sum), though this card cannot actually be used with Blaze."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-rosetta-09",
+    "question": "Can Blaze, Firemind banish Stir the Aetherwinds or Brainstorm (hypothetically, as a non-attack action card)?",
+    "expectedClaims": [
+      "No to both — Stir the Aetherwinds does not deal any arcane damage itself, it only increases the arcane damage another card would deal, so it doesn't meet Blaze's requirement.",
+      "Brainstorm is an instant and so doesn't meet Blaze's ability requirements at all; even hypothetically treated as a non-attack action card, it does not directly deal arcane damage — it instead grants the hero a triggered ability that deals arcane damage, which is not the same as the card itself directly generating the damage."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-23-rosetta"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-23-rosetta/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-01",
+    "question": "What happens mechanically when a player chooses to attack a permanent with spectra instead of a hero or ally — does the attacker still get an action point from go again, and do on-attack effects trigger?",
+    "expectedClaims": [
+      "Targeting a card with spectra with an attack causes spectra to trigger its effect, which closes the combat chain and removes the attack from the stack; because the attack never resolves, the attacker is not considered to have attacked and on-attack effects do not trigger.",
+      "Because the combat chain closes without the attack resolving, the attacker does not gain an action point from go again, even if the attacking card had go again.",
+      "Runechants (and other on-play or on-activate effects) still trigger and resolve when targeting a spectra card, regardless of the combat chain closing, and instants can still be played/resolved before the combat chain closes (though this cannot stop it from closing)."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-02",
+    "question": "Tyler plays and resolves Seeds of Agony, then attacks Nic's Merciful Retribution (a spectra card) with Rip Through Reality, which has go again. What happens to Rip Through Reality, the combat chain, Seeds of Agony's triggered effect, and Merciful Retribution?",
+    "expectedClaims": [
+      "Merciful Retribution's spectra trigger resolves, destroying Merciful Retribution and closing the combat chain; Rip Through Reality is removed from the stack as a result, and its triggered effect from Seeds of Agony never triggers because Rip Through Reality never became an attacking card that resolved.",
+      "Merciful Retribution's own triggered (leaves-play) effect is added to the stack and, because neither player has priority during the close step, it resolves and deals 1 arcane damage to Tyler, going to Nic's soul.",
+      "Tyler does not gain an action point from Rip Through Reality's go again because the attack was never resolved."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-03",
+    "question": "How does the phantasm keyword work — what triggers it, and can it fail to resolve even after triggering?",
+    "expectedClaims": [
+      "Phantasm is found on Illusionist attack action cards and constantly checks the power of each defending card, triggering if any defending card is non-Illusionist with 6+ power; if the trigger resolves successfully, the card with phantasm is destroyed and the combat chain closes.",
+      "Like spectra, if the phantasm card had go again, its controller does not gain an action point because the attack doesn't fully resolve before the combat chain closes.",
+      "For phantasm's trigger to actually resolve, the defending card must still be a non-Illusionist card with 6+ power at the moment of resolution — if the condition is no longer true when the trigger would resolve, the trigger fails to resolve, the combat chain does not close, and combat continues as normal."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-04",
+    "question": "Tyler attacks with Wartune Herald and Nic defends with Out Muscle (6+ power), triggering phantasm. Before the phantasm trigger resolves, Tyler plays Blinding Beam giving Out Muscle -2 power. Does phantasm still destroy Wartune Herald and close the combat chain?",
+    "expectedClaims": [
+      "No — when phantasm's trigger attempts to resolve, the game state that caused it to trigger is no longer true (Out Muscle is now below 6 power), so the trigger fails to resolve, the combat chain does not close, and combat continues as normal.",
+      "This is also noted to work the same way for a card like Tremor of Arathael, whose text does not function while it is defending on the combat chain (since only permanents like equipment, or abilities that explicitly say they work while defending, are functional then) — so it would not cause phantasm to trigger even under conditions that would otherwise seem to qualify it."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-05",
+    "question": "Tyler plays and resolves Warmonger's Recital, then hits Nic with Wartune Herald, triggering both cards' effects. Does the order in which these triggered effects are placed on the stack determine where Wartune Herald ends up — bottom of deck or the hero's soul?",
+    "expectedClaims": [
+      "Yes — when multiple triggered effects trigger from the same event (the hit), the turn player decides the order they enter the stack; whichever triggered effect resolves first (Warmonger's Recital sending it to the bottom of the deck, or Wartune Herald's own effect sending it to the soul) determines the card's final location.",
+      "In the worked example, Tyler orders Wartune Herald's effect (Layer 2) to resolve before Warmonger's Recital (Layer 1); Wartune Herald's effect resolves first, putting the card into Tyler's soul, and when Warmonger's Recital then resolves it can no longer move the card because it is no longer on the combat chain."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-06",
+    "question": "Tyler attacks Nic (both at 1 life) with a 2-power attack that Nic doesn't defend, while Nic controls a Merciful Retribution and one Spectral Shield. What is the order of resolution for the damage, the Spectral Shield prevention, the win condition, and Merciful Retribution's trigger?",
+    "expectedClaims": [
+      "Damage is dealt first, in the damage step: the 2 power attack is partially prevented by the Spectral Shield (reducing it to 1), destroying the Spectral Shield and bringing Nic to 0 life; this damage must fully resolve before moving to the next combat step.",
+      "Because Nic is now at 0 life, Tyler simply wins the game at that point, before Merciful Retribution's triggered effect (which would have gone on the stack once for each destroyed Spectral Shield) ever gets to resolve."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-07",
+    "question": "Tyler controls Iris of Reality and attacks Nic with a Spectral Shield, then plays Glisten to put four +1 power counters on it. Once the Spectral Shield stops being a weapon at the start of the end phase, does Glisten's delayed-triggered effect still strip the +1 power counters?",
+    "expectedClaims": [
+      "No — Iris of Reality (and Luminaris) only make Illusionist auras into weapons during the controller's action phase; Glisten's delayed-triggered effect (which removes +1 power counters from weapons) resolves in the end phase, by which point the Spectral Shield is no longer considered a weapon, so it simply keeps its counters.",
+      "This does not apply to Reality Refractor (from Dusk till Dawn), whose effect causes Illusionist auras to ALWAYS be considered weapons, meaning +1 power counters WOULD be removed from those auras during the next end phase."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-08",
+    "question": "If a Spectral Shield attacking with go again is destroyed, does its controller still gain an action point — and does it matter whether the Spectral Shield was destroyed before or after dealing damage?",
+    "expectedClaims": [
+      "If destroyed before dealing damage (if any), no action point — the attack no longer exists and hasn't resolved, so the combat chain closes before reaching the link step where the action point would be gained.",
+      "If destroyed after dealing damage, yes — once damage is dealt and the resolution step is reached, the attack is considered resolved, so what happens to the card afterward (even being destroyed) doesn't stop the combat chain from staying open; Last Known Information is used to confirm the destroyed card had go again, so the action point is still gained in the link step.",
+      "In the worked example, Tyler's attacking Spectral Shield is destroyed in the resolution step (preventing Merciful Retribution's damage back at Tyler), and because this happens after damage was already dealt, Tyler still gains the action point via LKI."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-09",
+    "question": "If a player wants to end their action phase while still holding an unused action point, can the opponent respond before the turn actually ends, and can the turn player still take another action afterward?",
+    "expectedClaims": [
+      "Yes to both — ending the action phase requires both players to pass priority with nothing on the stack; once the turn player passes, the opponent may still play instants or activate instant abilities (e.g. Genesis, Prism).",
+      "After such a response resolves, the turn player is still considered to be in the action phase (since they haven't passed in succession on an empty stack), so if they still have an action point they may play another action before the turn actually ends."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-10",
+    "question": "Exactly when does Vestige of Sol's replacement effect grant the extra resource point when pitching a Light card, relative to paying additional costs like charging the hero's soul?",
+    "expectedClaims": [
+      "Vestige of Sol's replacement effect (errata'd from a triggered effect to a replacement effect) applies exactly at the moment a Light card is pitched, granting one additional resource point, provided a card has already been put into the hero's soul that turn.",
+      "Because pitching happens to pay a card's resource cost before any additional costs (such as charging the soul) are paid, if a card was already put into the soul earlier that turn, Light cards pitched afterward effectively pitch for one more resource — as in the example where pitching a blue Herald of Protection generates 4 resource points instead of 3."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-11",
+    "question": "Tyler attacks Nic (who has one card in soul) with Soul Reaping, which currently has go again because of that soul card. Nic doesn't defend, takes the damage, then activates Prism's ability to banish that last soul card before the link step. Does Tyler still get an action point from Soul Reaping's go again?",
+    "expectedClaims": [
+      "No — Soul Reaping's go again is a static ability that constantly checks whether the opponent's soul has any cards; go again is checked in the link step (after damage and the resolution step are finished), so if the opponent removes the last card from their soul between the damage being dealt and the link step, Soul Reaping no longer has go again by the time it's checked, and the attacker does not gain the action point."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-12",
+    "question": "Tyler attacks Nic with Mark of the Beast; Nic responds with Blinding Beam, lowering its power from 6 to 5, and the combat chain closes, banishing Mark of the Beast via its own replacement effect. Does this banishment satisfy Levia's blood-debt-removal ability, which requires a banished attack action card with 6+ power?",
+    "expectedClaims": [
+      "No — Levia's ability cares about the power of the card at the moment it is actually banished, not its base printed power; since Mark of the Beast was reduced to 5 power before being banished, it does not meet Levia's 6+ power requirement, so cards in Tyler's banished zone do not lose blood debt during the end phase.",
+      "The article notes that whatever happens to the card's power after it is banished is irrelevant — only the power at the moment of banishment matters, whether the power was reduced (failing the condition) or increased (meeting it)."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-monarch-limited-13",
+    "question": "Tyler controls 3 Soul Shackles, which all trigger at the beginning of their action phase. Can either player respond with instants before all three triggers resolve, and what happens if they do?",
+    "expectedClaims": [
+      "Yes — each Soul Shackle produces its own separate triggered layer on the stack, so both players have priority to play instant cards or activate instant abilities before any individual Soul Shackle trigger resolves.",
+      "In the worked example, after the first two Soul Shackle triggers resolve (each banishing a card from the top of Tyler's deck), Nic plays and resolves Arc Light Sentinel before the third and final Soul Shackle trigger resolves."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-13-revisiting-monarch-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-13-revisiting-monarch-limited/",
+    "adjudicationCritical": false
+  }
+]
