@@ -11,6 +11,20 @@
  * out-of-plane projection. It's still rendered as a genuine 4-point
  * projective warp (homography.ts + warp.ts), not an affine shear — see
  * this module's tests for the non-affine (non-parallel-sides) check.
+ *
+ * AMODAL LABELING (PR #238 review round 1): computeDestQuad NEVER clamps
+ * its output to the canvas bounds. A card placed near the frame edge can
+ * have corners with negative coordinates, or beyond canvasWidth/
+ * canvasHeight — that's expected, not a bug. The label records a card's
+ * true, full geometric extent (the "amodal" convention, standard in
+ * object detection: label what the object actually occupies, not just
+ * the visible pixels), matching how the real-photo benchmark protocol
+ * labels a card that's cropped by the photo frame or occluded by another
+ * card (see pipeline/docs/benchmark-labeling.md's "Partially-visible or
+ * frame-cropped cards" section — training and eval ground truth must
+ * agree on this convention, or the detector learns one thing and gets
+ * measured against another). Clamping only ever happens in the RENDER
+ * path (warp.ts's bounding-box iteration), never here.
  */
 import type { Point } from "./types.js";
 

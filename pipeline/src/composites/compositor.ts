@@ -8,6 +8,12 @@
  * later card can never corrupt an earlier card's own recorded ground
  * truth (see test/composites.compositor.test.ts's overlap x rotation
  * intersection tests).
+ *
+ * Labels are AMODAL (geometry.ts's doc comment, PR #238 review round 1):
+ * a card near the canvas edge keeps its true, un-clamped quad in the
+ * label even though warpToQuad only ever paints the on-canvas portion of
+ * it — the label and the rendered pixels are allowed to disagree about
+ * what's VISIBLE, just never about what the card's actual extent IS.
  */
 import { computeDestQuad } from "./geometry.js";
 import { generateBackgroundRaw } from "./background.js";

@@ -114,7 +114,11 @@ export function validateGeneratorConfig(raw: unknown): ValidateConfigResult {
     errors.push('"baseCardHeightFraction" must be a number in (0, 1)');
   }
 
-  checkRange(errors, "scale", r.scale, { minAllowed: 0 });
+  // maxAllowed=3 (PR #238 review round 1, advisory): a card at 3x the
+  // base rendered size is already generous headroom for augmentation
+  // variety — this just stops a config typo (e.g. a stray extra digit)
+  // from requesting an absurd scale, not a tight creative constraint.
+  checkRange(errors, "scale", r.scale, { minAllowed: 0, maxAllowed: 3 });
   checkRange(errors, "rotationDeg", r.rotationDeg);
   checkProbability(errors, "overlapProbability", r.overlapProbability);
   checkRange(errors, "overlapOffsetFraction", r.overlapOffsetFraction, { minAllowed: 0 });
