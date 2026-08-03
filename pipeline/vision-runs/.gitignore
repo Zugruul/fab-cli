@@ -1,0 +1,5 @@
+# Per-run manifest.json/state.json/config.json ARE committed (SPEC-APP.md
+# §8.7c's "license of architecture + training code recorded in manifest;
+# mAP ... reported" AC) — only the pulled checkpoint/tflite output itself
+# stays out of git.
+*/output/

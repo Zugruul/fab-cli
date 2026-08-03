@@ -60,4 +60,32 @@ describe("pipeline no-commit guard", () => {
   it("git-ignores the composite sample-sheet HTML output", () => {
     expect(isGitIgnored("pipeline/out/composites/sample-sheet.html")).toBe(true);
   });
+
+  // APP-027: the OBB detector's Python venv and any local (non-vision-runs)
+  // train/export output are gitignored, same as every other generated/
+  // dependency artifact this pipeline produces.
+  it("git-ignores the train-vision Python venv", () => {
+    expect(isGitIgnored("pipeline/train-vision/.venv/bin/python")).toBe(true);
+  });
+
+  it("git-ignores train-vision __pycache__ and egg-info build artifacts", () => {
+    expect(isGitIgnored("pipeline/train-vision/src/train_vision/__pycache__/geometry.cpython-312.pyc")).toBe(true);
+    expect(isGitIgnored("pipeline/train-vision/src/train_vision.egg-info/PKG-INFO")).toBe(true);
+  });
+
+  it("git-ignores ad hoc local train/export output under pipeline/out/ (checkpoints, tflite files)", () => {
+    expect(isGitIgnored("pipeline/out/train-vision-smoke/checkpoint.pt")).toBe(true);
+    expect(isGitIgnored("pipeline/out/train-vision-smoke/model.tflite")).toBe(true);
+  });
+
+  // vision-runs/ mirrors training-runs/'s and export-runs/'s discipline:
+  // config.json/state.json/manifest.json ARE committed per run (SPEC-APP.md
+  // §8.7c's "license ... recorded in manifest; mAP ... reported" AC); only
+  // the pulled checkpoint/tflite output stays out of git.
+  it("git-ignores vision-runs/<runId>/output/ (pulled checkpoint + tflite) but not the run's own manifest/state/config", () => {
+    expect(isGitIgnored("pipeline/vision-runs/some-run/output/checkpoint.pt")).toBe(true);
+    expect(isGitIgnored("pipeline/vision-runs/some-run/manifest.json")).toBe(false);
+    expect(isGitIgnored("pipeline/vision-runs/some-run/state.json")).toBe(false);
+    expect(isGitIgnored("pipeline/vision-runs/some-run/config.json")).toBe(false);
+  });
 });

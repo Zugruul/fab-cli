@@ -1,0 +1,31 @@
+{
+  "compositeId": "composite-000",
+  "fileName": "composite-000.png",
+  "width": 64,
+  "height": 64,
+  "backgroundType": "solid",
+  "cards": [
+    {
+      "printingId": "printing-0",
+      "corners": [
+        {
+          "x": 10,
+          "y": 10
+        },
+        {
+          "x": 40,
+          "y": 10
+        },
+        {
+          "x": 40,
+          "y": 40
+        },
+        {
+          "x": 10,
+          "y": 40
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

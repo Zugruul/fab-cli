@@ -1,0 +1,19 @@
+{
+  "compositeId": "composite-000",
+  "fileName": "composite-000.png",
+  "width": 200,
+  "height": 100,
+  "backgroundType": "solid",
+  "cards": [
+    {
+      "printingId": "printing-in-canvas",
+      "corners": [
+        { "x": 80, "y": 50 },
+        { "x": 120, "y": 50 },
+        { "x": 120, "y": 70 },
+        { "x": 80, "y": 70 }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "0.1.0",
+  "buildDate": "2026-08-01T00:00:00.000Z",
+  "seed": 7,
+  "generatorConfigHash": "fixture-hash",
+  "compositeCount": 4,
+  "composites": [
+    {
+      "compositeId": "composite-000",
+      "fileName": "composite-000.png",
+      "cardCount": 1,
+      "labelFileHash": "50a4435008b3cfc8ce26901275e7cd83047bf2d9fa4ac23a9c7da18832755f14"
+    },
+    {
+      "compositeId": "composite-001",
+      "fileName": "composite-001.png",
+      "cardCount": 1,
+      "labelFileHash": "eef6d192385fab226d09ded76a052d5e635ae887195959f2952847678038acb9"
+    },
+    {
+      "compositeId": "composite-002",
+      "fileName": "composite-002.png",
+      "cardCount": 1,
+      "labelFileHash": "65197ccbb282d20891b7293898868d8e7f4abb8df80cd110666a11f5df4d9242"
+    },
+    {
+      "compositeId": "composite-003",
+      "fileName": "composite-003.png",
+      "cardCount": 1,
+      "labelFileHash": "e7107a91697974069b2575e649fb33e502ea10fa385d4acb844fa9db025b77c8"
+    }
+  ]
+}

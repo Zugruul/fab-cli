@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "train-vision"
+version = "0.1.0"
+description = "APP-027 OBB detector training + export (SPEC-APP.md §8.7c)"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+# Runtime deps are intentionally split: geometry/encode/map_eval/config/
+# manifest/licenses are pure Python (zero third-party deps, see
+# geometry.py's doc comment). torch/litert-torch are only imported by
+# model.py/train.py/export.py, so the pure modules stay unit-testable
+# without a heavy ML install (this file still declares them as the
+# package's real deps — a training/export run genuinely needs them).
+dependencies = [
+    "torch>=2.9",
+    "litert-torch>=0.9",
+    "numpy>=1.26",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
