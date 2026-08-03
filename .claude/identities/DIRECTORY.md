@@ -5791,6 +5791,7 @@ _(no notes)_
 - **bulk-corpora-generate-dont-mint** — [brains, generators, corpus]
 - **check-existing-code-before-scoping-from-title** — [briefing, scoping, board]
 - **check-git-status-for-orphaned-retro-state** — [concurrency, git, retro]
+- **completion-report-is-part-of-done** — [briefing, delegation, process]
 - **concurrent-loop-can-branch-switch-under-you** — [git, concurrency, autonomous-loop, uncommitted-work, incident]
 - **concurrent-session-race-on-adhoc-bugfix** — [concurrency, merge, board]
 - **correct-inaccurate-design-claim-dont-overfix** — [docs, review]

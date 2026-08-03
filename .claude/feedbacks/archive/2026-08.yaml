@@ -1547,3 +1547,58 @@ items:
     ref: 'surfaced-to-human 2026-08-03 (development-skills: add a vision-training
       job bundle to the slm-training capability so APP-027''s full-scale run can dispatch;
       TS side ready)'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T22:15:00Z'
+iteration:
+  task: APP-028
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Moment-of-action framing of the TDD rule held where lessons-list framing
+    had failed
+  detail: After the previous task's red-first violation, the brief led with the rule
+    as execution step 1 rather than a lessons-list item; the dev held red-first from
+    the start and self-caught early-drafted files via git status.
+  generalized: Restating a repeatedly-violated process rule as the brief's numbered
+    execution step 1 (rather than an appended lesson) measurably changes compliance;
+    briefs should promote any rule with a violation history into the execution order
+    itself.
+  routing:
+    action: brain-note
+    ref: orchestrator/moment-of-action-enforcement-beats-brief-text
+- category: worked-well
+  area: review
+  severity: low
+  summary: Numeric domain sweep found a formula bug code-reading missed
+  detail: Reviewer swept the ArcFace formula's input domain numerically (pure Python,
+    no deps) and found a margin reversal at the boundary; round 2 swept 2001 points
+    x 5 margins to confirm the fix globally.
+  generalized: For math-heavy diffs, a numeric sweep of the formula's full input domain
+    is a near-zero-cost review step that catches inversions and instabilities that
+    reading the formula cannot; worth prompting reviewers to do it explicitly for
+    any trig/exponential/division-based code.
+  routing:
+    action: brain-note
+    ref: reviewer/sweep-formula-domain-numerically
+- category: friction
+  area: other
+  severity: low
+  summary: Dev agent opened the PR but idled without sending its completion report
+  detail: The agent finished the work and opened the PR, then went idle; the orchestrator
+    had to detect completion from branch state and request the report (red-proof,
+    smoke numbers) explicitly.
+  generalized: Dev briefs should state that the completion report is part of done
+    — an opened PR without the report back to the orchestrator stalls verification
+    on exactly the facts (red-proof output, honest smoke numbers) that the diff alone
+    cannot show.
+  routing:
+    action: brain-note
+    ref: orchestrator/completion-report-is-part-of-done
