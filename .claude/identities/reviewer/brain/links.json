@@ -54,6 +54,16 @@
     "last": "2026-08-02",
     "weight": 0.5
   },
+  "mutation-test-monotonic-fixtures->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "mutation-test-monotonic-fixtures->prefix-swapback-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "prefix-swapback-verification->await-read-write-race-checklist": {
     "fires": 0,
     "last": null,
@@ -117,6 +127,11 @@
   "test-double-fidelity-check->verify-red-commit-by-running-it": {
     "fires": 5,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "uniform-rigor-across-findings->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "verify-claimed-language-semantics->bash-errexit-guard-audit": {

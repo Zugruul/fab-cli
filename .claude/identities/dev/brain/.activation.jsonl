@@ -327,3 +327,55 @@
 {"event": "inject", "note": "verify-own-commit-is-test-only-before-writing-implementation", "activation": 1.43, "ts": "2026-08-03T19:53:35+00:00", "role": "dev"}
 {"event": "inject", "note": "fresh-worktree-needs-node-modules-and-submodule-setup", "activation": 1.32, "ts": "2026-08-03T19:53:35+00:00", "role": "dev"}
 {"event": "inject", "note": "eval-harness-handoff-facts-for-release-gate-work", "activation": 1.21, "ts": "2026-08-03T19:53:35+00:00", "role": "dev"}
+{"event": "seed", "note": "behavioral-equivalence-claims-need-diff-verification", "activation": 0.7947, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "boundary-convention-before-first-test", "activation": 1.32, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "bundle-payloads-never-name-the-calling-project", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "claude-p-headless-programmatic-usage-facts", "activation": 0.867, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "deps-chore-commits-must-follow-the-red-commit", "activation": 0.7947, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "diff-before-reset-on-unexpected-origin-commits", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "eval-harness-handoff-facts-for-release-gate-work", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "fresh-worktree-needs-node-modules-and-submodule-setup", "activation": 1.2, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "gate-perf-assertions-are-smoke-bounds-not-device-targets", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "grep-consequence-not-pattern-name-for-second-examples", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "never-substitute-npx-for-the-real-gate-script", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "pr-body-claims-must-exist-in-committed-artifacts", "activation": 1.76, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "prototype-toolchain-on-disposable-model", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "read-producers-real-bytes-before-fixtures", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "red-commit-contains-only-test-path-files", "activation": 1.76, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "reference-guards-before-handoff", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "release-version-gap-and-benchmark-handoff-facts", "activation": 0.7947, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "reprise-transcription-batch-pattern-and-density", "activation": 0.7947, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "reverify-inherited-claims-dont-just-trust-prior-task-finding", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "review-staged-diff-before-commit-message-must-match", "activation": 1.98, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "rtk-jest-wrapper-hides-failures-use-rtk-proxy", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "sanity-check-zero-match-grep-with-looser-pattern-before-claiming-absence", "activation": 0.3526, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "shared-schema-diff-sibling-protocols", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "spread-canonical-fixtures-for-schema-evolution", "activation": 0.7947, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "stage-tests-first-at-first-git-add", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "stash-reproduce-check-cannot-detect-shared-environment-staleness", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "tee-preview-can-swallow-blank-lines-check-real-file", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "test-knob-intersections", "activation": 1.43, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "third-outcome-parsers-use-discriminated-unions", "activation": 0.7947, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "verify-brief-file-references", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "verify-own-commit-is-test-only-before-writing-implementation", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "verify-vendor-id-uniqueness", "activation": 1.1, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "worktree-gate-needs-npm-install-first", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "seed", "note": "worktree-remove-needs-force-after-npm-install", "activation": 0.1841, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "shared-schema-diff-sibling-protocols", "activation": 0.33, "link": "boundary-convention-before-first-test->shared-schema-diff-sibling-protocols", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "test-knob-intersections", "activation": 0.33, "link": "boundary-convention-before-first-test->test-knob-intersections", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "read-producers-real-bytes-before-fixtures", "activation": 0.275, "link": "prototype-toolchain-on-disposable-model->read-producers-real-bytes-before-fixtures", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "shared-schema-diff-sibling-protocols", "activation": 0.3025, "link": "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "test-knob-intersections", "activation": 0.3025, "link": "read-producers-real-bytes-before-fixtures->test-knob-intersections", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "boundary-convention-before-first-test", "activation": 0.275, "link": "reference-guards-before-handoff->boundary-convention-before-first-test", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "test-knob-intersections", "activation": 0.275, "link": "reference-guards-before-handoff->test-knob-intersections", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "boundary-convention-before-first-test", "activation": 0.275, "link": "shared-schema-diff-sibling-protocols->boundary-convention-before-first-test", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "red-commit-contains-only-test-path-files", "activation": 0.3025, "link": "stage-tests-first-at-first-git-add->red-commit-contains-only-test-path-files", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "review-staged-diff-before-commit-message-must-match", "activation": 0.3025, "link": "stage-tests-first-at-first-git-add->review-staged-diff-before-commit-message-must-match", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "verify-vendor-id-uniqueness", "activation": 0.3575, "link": "test-knob-intersections->verify-vendor-id-uniqueness", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "hop", "note": "test-knob-intersections", "activation": 0.275, "link": "verify-vendor-id-uniqueness->test-knob-intersections", "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "inject", "note": "review-staged-diff-before-commit-message-must-match", "activation": 1.98, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "inject", "note": "pr-body-claims-must-exist-in-committed-artifacts", "activation": 1.76, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "inject", "note": "red-commit-contains-only-test-path-files", "activation": 1.76, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "inject", "note": "test-knob-intersections", "activation": 1.43, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "inject", "note": "boundary-convention-before-first-test", "activation": 1.32, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}
+{"event": "inject", "note": "eval-harness-handoff-facts-for-release-gate-work", "activation": 1.21, "ts": "2026-08-03T22:09:53+00:00", "role": "dev"}

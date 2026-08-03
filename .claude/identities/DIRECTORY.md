@@ -5059,6 +5059,7 @@ _(no notes)_
 - **kw-weapon** — [cr, keyword, type, weapon]
 
 ## dev
+- **adversarial-fixture-orderings-for-invariants** — [testing, fixtures, invariants]
 - **api-field-type-assumptions** — [pricing, tcgcsv, parsing]
 - **asc-cloud-signing-wall-facts** — [ios, signing, asc-api, credentials]
 - **audit-bug-class-not-instances** — [debugging, paths, scope]
@@ -5123,6 +5124,7 @@ _(no notes)_
 - **reword-near-verbatim-prose-keep-facts-restructure-flow** — [docs, duplication, writing]
 - **rn-conventional-colors-fail-wcag-aa-on-white** — [theming, wcag, colors]
 - **rn-lazy-getter-proxy-mock-pattern** — [react-native, jest, mocking]
+- **rtk-filtered-tsc-untrustworthy** — [tooling, typecheck, rtk]
 - **rtk-jest-wrapper-hides-failures-use-rtk-proxy** — [rtk, jest, harness, debugging]
 - **sanity-check-zero-match-grep-with-looser-pattern-before-claiming-absence** — [research, grep, verification]
 - **scoped-green-verification** — [gate, lint, workflow]
@@ -6171,6 +6173,7 @@ _(no notes)_
 - **isolated-worktree-tdd-proof** — [review, tdd, verification]
 - **live-verification-over-fixtures** _(graduated)_ — [review, verification, live-data]
 - **macos-no-timeout-binary** — [macos, bash, tooling]
+- **mutation-test-monotonic-fixtures** — [review, mutation-testing, invariants]
 - **mutation-test-when-no-prefix-baseline** — [review, test-rigor, verification]
 - **offline-gate-invariant-asserted-never-actually-tested** — [gate, network, invariants]
 - **parsers-feeding-gate-decisions-test-conflicting-multi-match** — [review, parsers, gates]
@@ -6197,6 +6200,7 @@ _(no notes)_
 - **test-each-negative-enum-value-not-generic-catchall** — [review, testing, rigor, enum]
 - **trace-invariant-per-step-and-spot-honest-citation-language** — [review, invariants, citations]
 - **ts-bypass-mutation-for-invariant-bearing-required-fields** — [review, typescript, invariants, mutation]
+- **uniform-rigor-across-findings** — [review, verification, process]
 - **verdict-time-ref-freshness-fetch-never-moves-local-branches** — [review, git, staleness, concurrency]
 - **verify-all-wikilinks-and-entities-programmatically-not-sample** — [review, brains, verification, wikilinks]
 - **verify-branch-base-via-merge-base-not-narrative** — [review, git, verification]

@@ -51,3 +51,9 @@
 {"note": "directly produced finding 2 (missing quant/dequant ranking test) \u2014 the gap that matters most downstream", "outcome": "useful", "schemaVersion": 1, "slug": "encode-decode-symmetry-needs-pinned-decode-test", "task": "140", "ts": "2026-08-03T22:05:37+00:00"}
 {"note": "AC checklist diffed line-by-line vs backlog; no dropped legs", "outcome": "useful", "schemaVersion": 1, "slug": "diff-deferred-scope-against-primary-ac", "task": "140", "ts": "2026-08-03T22:05:37+00:00"}
 {"note": "round-1 ArcFace bug verified numerically before reporting; round-2 fix re-derived independently + full-domain sweep", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "140", "ts": "2026-08-03T22:05:37+00:00"}
+{"note": "mutation testing found the round-1 MAJOR; poison inputs executed for delta refusal", "outcome": "useful", "schemaVersion": 1, "slug": "execute-load-bearing-mechanism-claims", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
+{"note": "append-only/tombstone/refused greps clean", "outcome": "useful", "schemaVersion": 1, "slug": "grep-central-nouns-across-pr", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
+{"note": "drove both the sqlite-vec endorsement AND the Closes-not-earned judgment", "outcome": "useful", "schemaVersion": 1, "slug": "diff-deferred-scope-against-primary-ac", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
+{"note": "mutation kill independently re-executed in round 2", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
+{"note": "no config shopping occurred", "outcome": "dead_end", "schemaVersion": 1, "slug": "swept-configs-need-tracked-negatives", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
+{"note": "no edge-case excuses arose", "outcome": "dead_end", "schemaVersion": 1, "slug": "compute-edge-frequency-from-config", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
