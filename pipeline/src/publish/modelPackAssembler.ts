@@ -44,10 +44,54 @@ function sha256File(filePath: string): string {
   return createHash("sha256").update(fs.readFileSync(filePath)).digest("hex");
 }
 
+/** Two slots resolving to the same `path.basename()` (e.g. two different
+ * producer directories both emitting `artifact.bin`) would silently
+ * collapse into a single asset name downstream — one slot's real bytes
+ * clobbering the other's on disk, with `checksums.txt` left carrying two
+ * same-named lines with different hashes. Checked BEFORE any hashing/
+ * writing, and reports every colliding pair (not just the first), mirroring
+ * MissingArtifactsError's "list everything, don't fail-fast-and-hide" style. */
+export class DuplicateArtifactBasenameError extends Error {
+  constructor(
+    public readonly tier: string,
+    /** Slot names as plain strings, not ModelPackArtifactSlot — one
+     * colliding "slot" is the synthetic "manifest" (the pack's own
+     * generated manifest.json), which isn't a real artifact slot. */
+    public readonly collisions: { slots: string[]; basename: string }[],
+  ) {
+    super(
+      `model pack assembly for tier "${tier}" refused: multiple artifact slots resolve to the same file name — ` +
+        collisions.map((c) => `[${c.slots.join(", ")}] all resolve to "${c.basename}"`).join("; ") +
+        " — each slot must produce a distinct file name, or downstream asset naming silently collapses them into one.",
+    );
+    this.name = "DuplicateArtifactBasenameError";
+  }
+}
+
 export function assembleModelPack(input: AssembleModelPackInput): { manifest: ModelPackManifest; bundle: PublishBundle } {
   const missing = SLOTS.map((s) => s.slot).filter((slot) => input.artifacts[slot] == null);
   if (missing.length > 0) {
     throw new MissingArtifactsError(input.tier, missing);
+  }
+
+  const basenameToSlots = new Map<string, string[]>();
+  for (const { slot } of SLOTS) {
+    const basename = path.basename(input.artifacts[slot]!.path);
+    basenameToSlots.set(basename, [...(basenameToSlots.get(basename) ?? []), slot]);
+  }
+  // "manifest.json" is reserved for the pack's OWN generated manifest
+  // written below — a slot whose real file happens to share that name
+  // would collide with it exactly the same way two slots collide with
+  // each other, so it's checked as if a synthetic "manifest" slot existed.
+  const manifestCollisionSlots = basenameToSlots.get("manifest.json") ?? [];
+  const collisions = [...basenameToSlots.entries()]
+    .filter(([, slots]) => slots.length > 1)
+    .map(([basename, slots]) => ({ basename, slots }));
+  if (manifestCollisionSlots.length > 0) {
+    collisions.push({ basename: "manifest.json", slots: [...manifestCollisionSlots, "manifest (this pack's own generated manifest)"] });
+  }
+  if (collisions.length > 0) {
+    throw new DuplicateArtifactBasenameError(input.tier, collisions);
   }
 
   const artifacts: ModelPackArtifact[] = SLOTS.map(({ slot, artifactName }) => {

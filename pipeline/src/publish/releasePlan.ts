@@ -43,7 +43,14 @@ import { assembleKnowledgeFullPack, assembleKnowledgeDeltaPack } from "./knowled
 import { checkShippingModePrecondition } from "./shippingMode.js";
 import { NO_TEXT_EMBEDDER_VERSION } from "../knowledge/textEmbeddingsInput.js";
 import { NO_VISION_EMBEDDER_VERSION } from "../knowledge/imageEmbeddingsInput.js";
-import { modelAssetName, knowledgeFullAssetName, knowledgeDeltaAssetName, releaseTag, formatChecksumsFile } from "./releaseLayout.js";
+import {
+  modelAssetName,
+  knowledgeFullAssetName,
+  knowledgeDeltaAssetName,
+  releaseTag,
+  formatChecksumsFile,
+  assertDistinctAssetNames,
+} from "./releaseLayout.js";
 import type {
   BuildReleasePlanInput,
   BuildReleasePlanResult,
@@ -145,29 +152,43 @@ export function buildReleasePlan(input: BuildReleasePlanInput): BuildReleasePlan
         }
       }
 
-      // Every check passed — flush the real, flat bundle tree.
-      fs.mkdirSync(input.outDir, { recursive: true });
-      const planAssets: ReleasePlanAsset[] = [];
+      // Compute every planned (source asset -> final name) pairing FIRST,
+      // with zero filesystem side effects, so a duplicate-name collision
+      // (defense in depth beyond assembleModelPack's own within-pack guard
+      // — e.g. a future bundle kind introduced without equivalent care) is
+      // caught and refuses the whole plan BEFORE any byte is copied to
+      // outDir, matching this module's "nothing written until every check
+      // passes" principle.
+      const plannedCopies: { asset: PublishAsset; assetName: string; kind: PublishBundleKind; label: string }[] = [];
 
       for (const { tier, bundle } of modelBundles) {
         for (const asset of bundle.assets) {
-          planAssets.push(copyAsset(asset, modelAssetName(tier, asset.assetName), input.outDir, "model-pack", tier));
+          plannedCopies.push({ asset, assetName: modelAssetName(tier, asset.assetName), kind: "model-pack", label: tier });
         }
       }
       if (knowledgeFullBundle && input.knowledgeFull) {
         const version = input.knowledgeFull.input.version;
         for (const asset of knowledgeFullBundle.bundle.assets) {
-          planAssets.push(copyAsset(asset, knowledgeFullAssetName(version, asset.assetName), input.outDir, "knowledge-full", version));
+          plannedCopies.push({ asset, assetName: knowledgeFullAssetName(version, asset.assetName), kind: "knowledge-full", label: version });
         }
       }
       if (knowledgeDeltaBundle && input.knowledgeDelta) {
         const { from, to } = input.knowledgeDelta;
         for (const asset of knowledgeDeltaBundle.bundle.assets) {
-          planAssets.push(
-            copyAsset(asset, knowledgeDeltaAssetName(from.version, to.version, asset.assetName), input.outDir, "knowledge-delta", `${from.version}-to-${to.version}`),
-          );
+          plannedCopies.push({
+            asset,
+            assetName: knowledgeDeltaAssetName(from.version, to.version, asset.assetName),
+            kind: "knowledge-delta",
+            label: `${from.version}-to-${to.version}`,
+          });
         }
       }
+
+      assertDistinctAssetNames(plannedCopies.map((p) => p.assetName));
+
+      // Every check passed — flush the real, flat bundle tree.
+      fs.mkdirSync(input.outDir, { recursive: true });
+      const planAssets: ReleasePlanAsset[] = plannedCopies.map((p) => copyAsset(p.asset, p.assetName, input.outDir, p.kind, p.label));
 
       fs.writeFileSync(path.join(input.outDir, "checksums.txt"), formatChecksumsFile(planAssets));
       const plan: ReleasePlan = {

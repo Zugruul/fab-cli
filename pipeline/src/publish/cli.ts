@@ -97,6 +97,28 @@ function loadConfig(configPath: string): DryRunConfig {
   return parseDryRunConfigJson(raw);
 }
 
+/** `--tier` narrows a `--config` file's `modelPacks` to only the requested
+ * tier(s) — e.g. dry-running just "0.6B" out of a config that lists both
+ * tiers, without editing the config file. Passthrough (unchanged order and
+ * content) when no `--tier` was given. A `--tier` naming a tier the config
+ * doesn't have IS an error (a typo silently dry-running zero model packs
+ * would be a worse failure than a loud one) — the message names every
+ * missing tier at once plus what IS available, mirroring
+ * MissingArtifactsError's style. */
+export function filterModelPacksByTier<T extends { tier: ModelPackTier }>(modelPacks: T[], tiers: ModelPackTier[]): T[] {
+  if (tiers.length === 0) return modelPacks;
+  const available = new Set(modelPacks.map((m) => m.tier));
+  const missing = tiers.filter((t) => !available.has(t));
+  if (missing.length > 0) {
+    throw new Error(
+      `publish/cli dry-run: --tier ${missing.join(", ")} not present in --config's modelPacks ` +
+        `(available: ${[...available].join(", ") || "none"})`,
+    );
+  }
+  const wanted = new Set(tiers);
+  return modelPacks.filter((m) => wanted.has(m.tier));
+}
+
 function runDryRun(argv: string[]): void {
   const root = repoRoot();
   const args = parseDryRunArgs(argv, defaultDryRunArgs(root));
@@ -104,8 +126,9 @@ function runDryRun(argv: string[]): void {
   if (!args.configPath) throw new Error("publish/cli dry-run: --config <path> is required (see pipeline/src/publish/README.md)");
 
   const config = loadConfig(args.configPath);
+  const modelPacks = filterModelPacksByTier(config.modelPacks, args.tiers);
   const outDir = path.join(args.outDir, args.releaseVersion);
-  const result = buildReleasePlan({ ...config, releaseVersion: args.releaseVersion, outDir });
+  const result = buildReleasePlan({ ...config, modelPacks, releaseVersion: args.releaseVersion, outDir });
 
   if (!result.ok) {
     throw new Error(`publish/cli dry-run refused: ${result.reason}`);

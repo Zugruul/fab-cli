@@ -33,8 +33,17 @@ sha256, size, kind, label).
 Model-pack asset naming takes **no release-version argument** — it's a pure function of
 `(tier, fileBaseName)` (see `releaseLayout.ts`). This is deliberate: the app-side artifact
 manager (`fab-app/src/artifacts/manager.ts`'s `FullPackDownloadRequest.files`) needs a per-file
-download URL it can re-derive per release without a separate index lookup, so the same
-underlying artifact always resolves to the same asset name across releases that reuse it.
+download URL it can re-derive per release without a separate index lookup, so the URL SHAPE
+stays predictable across releases that happen to reuse the same underlying artifact.
+
+**This is a URL-addressing convenience only — it is NEVER a content-identity guarantee.** A
+repeated asset name across two releases is not evidence the bytes behind it are the same (a
+re-quantized GGUF, a fixed tflite, or any bug-fix re-export can legitimately reuse the same
+`(tier, fileBaseName)` pair while shipping different content). `fab-app`'s artifact manager
+(`AtomicInstaller.install`, §9.2) already enforces the only safe rule here — every download is
+SHA-256-verified against the manifest's `sha256` field before it's ever installed, name reuse or
+not — and nothing in this module's naming convention should be read as relaxing that. Name
+stability exists so a URL can be re-derived, not so a checksum check can be skipped.
 
 ## `dry-run`: never touches the network
 
