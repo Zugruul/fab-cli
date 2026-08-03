@@ -1,0 +1,22 @@
+{
+  "seed": 20260803,
+  "outputSize": { "width": 1024, "height": 1024 },
+  "compositesPerRun": 64,
+  "cardsPerComposite": { "min": 1, "max": 4 },
+  "baseCardHeightFraction": 0.28,
+  "scale": { "min": 0.65, "max": 1.15 },
+  "rotationDeg": { "min": -25, "max": 25 },
+  "overlapProbability": 0.35,
+  "overlapOffsetFraction": { "min": 0.12, "max": 0.4 },
+  "perspectiveProbability": 0.45,
+  "perspectiveStrength": { "min": 0.03, "max": 0.28 },
+  "glareProbability": 0.2,
+  "sleeveProbability": 0.3,
+  "lighting": {
+    "brightnessDelta": { "min": -0.15, "max": 0.15 },
+    "contrastDelta": { "min": -0.1, "max": 0.1 }
+  },
+  "backgroundTypes": ["solid", "gradient", "noise", "texture"],
+  "backgroundsDir": null,
+  "externalBackgroundProbability": 0
+}

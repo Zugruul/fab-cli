@@ -88,6 +88,33 @@ enforced by `validate.ts`'s `validatePhotoLabel`):
   to that specific card in that specific photo (a photo can mix sleeved and
   unsleeved cards in a field/binder scene; tag per-quad, not per-photo).
 
+### Partially-visible or frame-cropped cards (amodal labeling)
+
+A card whose true extent isn't fully visible in the photo — cropped by the
+photo frame edge, or partly hidden behind another card in a field/binder
+scene — is still labeled by its full, inferred quad, estimated from
+whatever visible edges/perspective cues the photo gives (the **amodal**
+convention: label what the card actually occupies, not just the pixels
+you can see). Concretely:
+
+- Corner coordinates MAY fall outside the photo's own pixel bounds
+  (negative, or beyond width/height) when a card's estimated true edge
+  extends past the frame — this is expected, not an error;
+  `validatePhotoLabel` deliberately does not bound-check `corners`
+  against the photo's dimensions.
+- If a card is cropped or occluded so severely that its true extent can't
+  be plausibly estimated, leave it unlabeled rather than guessing — a
+  missing quad is honest; a fabricated one is not.
+
+This convention matches, rather than diverges from, the synthetic-
+composite generator's (APP-026): every pasted card's label quad is the
+exact geometric transform of its full source rectangle, regardless of how
+much of it a later overlapping card covers or how close it sits to the
+canvas edge (see `pipeline/src/composites/geometry.ts`'s doc comment).
+Training (synthetic) and eval (real-photo) ground truth need to agree on
+this convention, or the detector learns one thing and gets measured
+against another.
+
 ### `printingId` — which identifier, and why
 
 `printingId` is the-fab-cube's **printing-level `unique_id`** (see
