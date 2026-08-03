@@ -13,6 +13,13 @@ Thumbs.db
 # Python venv for image/QR generation (recreatable — see .claude/skills/generate-3-top-decks-image/SKILL.md)
 .venv-img/
 
+# Python venv for APP-027's OBB detector training/export package (recreatable —
+# see pipeline/train-vision/README.md's setup section). torch/litert-torch are
+# real dependencies of pipeline/train-vision/pyproject.toml, never committed.
+pipeline/train-vision/.venv/
+pipeline/train-vision/**/__pycache__/
+pipeline/train-vision/**/*.egg-info/
+
 # Generated price-comparison export output — CWD-relative default in
 # fab-cli/src/commands/priceComparison.ts (`./price-comparison/`), so it can
 # land at repo root when the CLI is invoked from there, not just inside
