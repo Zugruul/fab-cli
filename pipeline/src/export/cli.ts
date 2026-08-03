@@ -14,7 +14,7 @@
  *     [--capability-job slm-training:export-gguf] \
  *     [--quantizations q4_k_m,q8_0] [--max-seq-length N] \
  *     [--smoke-prompt <text>] [--smoke-schema-file <path>] \
- *     [--smoke-max-tokens N] [--llama-cli <path>] \
+ *     [--smoke-max-tokens N] [--llama-server <path>] [--llama-cli <path> (deprecated)] \
  *     [--runs-dir <dir>] [--training-runs-dir <dir>]
  *   tsx src/export/cli.ts resume --run-id <id> --inputs <dir> --lockfile <path> --gpu-check <path> \
  *     [--cuda <ver>] [--driver <ver>] [--resource storm590x] --capability-job <name> \
@@ -55,6 +55,8 @@ export interface RunArgs {
   smokePrompt?: string;
   smokeSchemaFile?: string;
   smokeMaxTokens?: number;
+  llamaServer?: string;
+  /** @deprecated renamed to --llama-server (issue #221) — still parsed. */
   llamaCli?: string;
 }
 
@@ -179,6 +181,7 @@ export function parseArgs(argv: string[]): CliArgs {
   if (flags["smoke-prompt"] !== undefined) args.smokePrompt = flags["smoke-prompt"];
   if (flags["smoke-schema-file"] !== undefined) args.smokeSchemaFile = flags["smoke-schema-file"];
   if (flags["smoke-max-tokens"] !== undefined) args.smokeMaxTokens = Number(flags["smoke-max-tokens"]);
+  if (flags["llama-server"] !== undefined) args.llamaServer = flags["llama-server"];
   if (flags["llama-cli"] !== undefined) args.llamaCli = flags["llama-cli"];
   return args;
 }
@@ -196,6 +199,7 @@ function specFromRunArgs(args: RunArgs): ExportRunSpec {
     smoke.jsonSchema = JSON.parse(fs.readFileSync(args.smokeSchemaFile, "utf8")) as Record<string, unknown>;
   }
   if (args.smokeMaxTokens !== undefined) smoke.maxTokens = args.smokeMaxTokens;
+  if (args.llamaServer !== undefined) smoke.llamaServer = args.llamaServer;
   if (args.llamaCli !== undefined) smoke.llamaCli = args.llamaCli;
   if (Object.keys(smoke).length > 0) spec.smoke = smoke;
 

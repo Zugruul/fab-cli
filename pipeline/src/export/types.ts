@@ -34,11 +34,23 @@ export interface SmokeConfig {
   prompt: string;
   jsonSchema: Record<string, unknown>;
   maxTokens: number;
-  /** Optional override of the llama-cli binary path on the remote machine.
+  /** Optional override of the llama-server binary path on the remote
+   * machine (issue #221: the smoke vehicle moved from llama-cli's CLI to
+   * llama-server's HTTP API — llama-cli's grammar-sampler init failure and
+   * stdin-EOF interactive-REPL busy-loop were reproduced identically across
+   * three independent llama.cpp builds and made it unusable on storm590x;
+   * llama-server has no in-process grammar-sampler init path and no
+   * interactive REPL, so both failure modes are structurally avoided).
    * export_gguf.py falls back to its own documented discovery order
    * (working dir + $HOME, searching llama.cpp-prefixed dirs for
-   * llama-cli/main) when this is omitted — see that script's doc comment
-   * for the exact order. */
+   * llama-server/server) when this is omitted — see that script's doc
+   * comment for the exact order. */
+  llamaServer?: string;
+  /** @deprecated renamed to llamaServer (issue #221) — still accepted and
+   * passed through onto the bundle config's smoke.llama_cli, where
+   * export_gguf.py derives the llama-server path from the same directory
+   * (a WARNING is logged remotely) so an existing caller's config keeps
+   * working across the rename rather than breaking outright. */
   llamaCli?: string;
 }
 
@@ -76,6 +88,9 @@ export interface ExportBundleConfig {
     prompt: string;
     json_schema: Record<string, unknown>;
     max_tokens: number;
+    llama_server?: string;
+    /** @deprecated see SmokeConfig.llamaCli — kept as a passthrough, never
+     * synthesized from llamaServer. */
     llama_cli?: string;
   };
 }

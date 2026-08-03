@@ -47,7 +47,11 @@ export function resolveSmoke(spec: ExportRunSpec): SmokeConfig {
   // Omitted entirely (not even `undefined`-valued) when not overridden, so
   // buildExportConfig doesn't have to distinguish "unset" from "explicitly
   // undefined" — export_gguf.py's own fallback discovery applies whenever
-  // the bundle config's smoke.llama_cli key is simply absent.
+  // the bundle config's smoke.llama_server key is simply absent.
+  if (override.llamaServer !== undefined) resolved.llamaServer = override.llamaServer;
+  // Deprecated (issue #221) but still passed through independently — see
+  // SmokeConfig.llamaCli's doc comment for why this isn't folded into
+  // llamaServer here (export_gguf.py does that derivation, remotely).
   if (override.llamaCli !== undefined) resolved.llamaCli = override.llamaCli;
   return resolved;
 }
@@ -72,6 +76,7 @@ export function buildExportConfig(spec: ExportRunSpec, adaptersDir: string | nul
     },
   };
   if (adaptersDir) config.adapters = adaptersDir;
+  if (smoke.llamaServer !== undefined) config.smoke.llama_server = smoke.llamaServer;
   if (smoke.llamaCli !== undefined) config.smoke.llama_cli = smoke.llamaCli;
   return config;
 }
