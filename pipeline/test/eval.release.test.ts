@@ -83,21 +83,46 @@ describe("isMajorVersionBump", () => {
 });
 
 describe("extractAuditVerdict", () => {
-  it("extracts APPROVE case-insensitively", () => {
-    expect(extractAuditVerdict("## Sign-off\n\nVerdict: APPROVE\n")).toBe("APPROVE");
-    expect(extractAuditVerdict("verdict: approve")).toBe("APPROVE");
+  it("extracts a single APPROVE case-insensitively", () => {
+    expect(extractAuditVerdict("## Sign-off\n\nVerdict: APPROVE\n")).toEqual({ kind: "single", verdict: "APPROVE" });
+    expect(extractAuditVerdict("verdict: approve")).toEqual({ kind: "single", verdict: "APPROVE" });
   });
 
-  it("extracts BLOCK", () => {
-    expect(extractAuditVerdict("Verdict: BLOCK")).toBe("BLOCK");
+  it("extracts a single BLOCK", () => {
+    expect(extractAuditVerdict("Verdict: BLOCK")).toEqual({ kind: "single", verdict: "BLOCK" });
   });
 
-  it("returns null when there is no Verdict line", () => {
-    expect(extractAuditVerdict("## Sign-off\n\nAuditor: nobody yet\n")).toBeNull();
+  it("reports kind 'none' when there is no Verdict line", () => {
+    expect(extractAuditVerdict("## Sign-off\n\nAuditor: nobody yet\n")).toEqual({ kind: "none" });
   });
 
-  it("returns null when the template placeholder is left unfilled", () => {
-    expect(extractAuditVerdict("Verdict: <APPROVE | BLOCK>")).toBeNull();
+  it("reports kind 'none' when the template placeholder is left unfilled", () => {
+    expect(extractAuditVerdict("Verdict: <APPROVE | BLOCK>")).toEqual({ kind: "none" });
+  });
+
+  // --- Ambiguity handling: a document with more than one DISTINCT verdict --
+  // must never silently resolve to whichever one happens to appear first.
+  // Reported by review: a stale `Verdict: APPROVE` left in place above a
+  // corrected `Verdict: BLOCK` used to silently resolve APPROVE — the
+  // unsafe direction (a corrected BLOCK getting overridden by a stale
+  // approval). Fix: collect every `Verdict:` match in the document; more
+  // than one DISTINCT value is ambiguous and must refuse, not guess.
+
+  it("reports kind 'ambiguous' for a stale APPROVE left above a corrected BLOCK (the exact unsafe case reported in review)", () => {
+    const content = "## Sign-off\n\nVerdict: APPROVE\n\n(correction below — the above line was left in place by mistake)\n\nVerdict: BLOCK\n";
+    const result = extractAuditVerdict(content);
+    expect(result).toEqual({ kind: "ambiguous", verdicts: ["APPROVE", "BLOCK"] });
+  });
+
+  it("reports kind 'ambiguous' regardless of which distinct verdict appears first", () => {
+    const content = "Verdict: BLOCK\n...\nVerdict: APPROVE\n";
+    const result = extractAuditVerdict(content);
+    expect(result.kind).toBe("ambiguous");
+  });
+
+  it("identical duplicate Verdict lines are NOT ambiguous — same value carries no conflicting signal (accepted, not refused)", () => {
+    const content = "Verdict: APPROVE\n...\nVerdict: APPROVE\n";
+    expect(extractAuditVerdict(content)).toEqual({ kind: "single", verdict: "APPROVE" });
   });
 });
 
@@ -205,6 +230,35 @@ describe("checkReleaseGate — major-version human-audit requirement", () => {
       previousVersion: "1.9.9",
       auditRecordPath: "/tmp/audit.md",
       readAuditRecord: () => "## Sign-off\n\nAuditor: Leo\nDate: 2026-08-02\nVerdict: APPROVE\n",
+    });
+    expect(result.passed).toBe(true);
+    expect(result.breaches).toHaveLength(0);
+  });
+
+  it("blocks a major-version candidate whose audit record has a stale APPROVE left above a corrected BLOCK (never silently resolves the first match)", () => {
+    const result = checkReleaseGate({
+      summary: cleanSummary,
+      config: baseConfig(),
+      candidateVersion: "2.0.0",
+      previousVersion: "1.9.9",
+      auditRecordPath: "/tmp/audit.md",
+      readAuditRecord: () =>
+        "## Sign-off\n\nVerdict: APPROVE\n\n(correction — the auditor changed their mind, see below)\n\nVerdict: BLOCK\n",
+    });
+    expect(result.passed).toBe(false);
+    const audit = result.breaches.find((b) => b.clause === "8.5-audit");
+    expect(audit).toBeDefined();
+    expect(audit!.message).toMatch(/ambiguous/i);
+  });
+
+  it("passes a major-version candidate whose audit record has the SAME verdict repeated (identical duplicates accepted, not ambiguous)", () => {
+    const result = checkReleaseGate({
+      summary: cleanSummary,
+      config: baseConfig(),
+      candidateVersion: "2.0.0",
+      previousVersion: "1.9.9",
+      auditRecordPath: "/tmp/audit.md",
+      readAuditRecord: () => "## Sign-off\n\nVerdict: APPROVE\n\n(reprinted for clarity below)\n\nVerdict: APPROVE\n",
     });
     expect(result.passed).toBe(true);
     expect(result.breaches).toHaveLength(0);

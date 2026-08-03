@@ -3,8 +3,9 @@
  * second clause — APP-023, #135). This test only checks the template's
  * structural contract: the sections a real audit record must carry, and
  * that its sign-off placeholder is NOT itself a completed verdict
- * (extractAuditVerdict must return null for the template as committed —
- * otherwise copying the template unfilled would silently pass the gate).
+ * (extractAuditVerdict must report kind "none" for the template as
+ * committed — otherwise copying the template unfilled would silently pass
+ * the gate).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -41,6 +42,6 @@ describe("release-audits/TEMPLATE.md", () => {
 
   it("the template's own sign-off placeholder is not itself a completed verdict", () => {
     const content = fs.readFileSync(TEMPLATE_PATH, "utf8");
-    expect(extractAuditVerdict(content)).toBeNull();
+    expect(extractAuditVerdict(content)).toEqual({ kind: "none" });
   });
 });
