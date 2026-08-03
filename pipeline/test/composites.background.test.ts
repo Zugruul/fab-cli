@@ -26,13 +26,13 @@ describe("generateBackgroundRaw — solid", () => {
 
 describe("generateBackgroundRaw — gradient", () => {
   it("interpolates colorA -> colorB along a horizontal (angleDeg=0) direction (hand-computed)", () => {
-    const img = generateBackgroundRaw(4, 1, params({ type: "gradient", colorA: [0, 0, 0], colorB: [200, 100, 50], angleDeg: 0 }));
+    const img = generateBackgroundRaw(4, 1, params({ type: "gradient", colorA: [0, 0, 0], colorB: [200, 100, 60], angleDeg: 0 }));
     expect(pixel(img, 0, 0)).toEqual([0, 0, 0, 255]);
-    // x=3 of width 4 -> t = 3/4 = 0.75 -> r = 0.75*200 = 150
+    // x=3 of width 4 -> t = 3/4 = 0.75 -> r=0.75*200=150, g=0.75*100=75, b=0.75*60=45
     const [r, g, b] = pixel(img, 3, 0);
     expect(r).toBeCloseTo(150, 0);
     expect(g).toBeCloseTo(75, 0);
-    expect(b).toBeCloseTo(37.5, 0);
+    expect(b).toBeCloseTo(45, 0);
   });
 
   it("is monotonic along the gradient axis", () => {
