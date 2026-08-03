@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "0.1.0",
+  "buildDate": "2026-08-01T00:00:00.000Z",
+  "seed": 42,
+  "generatorConfigHash": "fixture-config-hash",
+  "compositeCount": 3,
+  "composites": [
+    { "compositeId": "composite-000", "fileName": "composite-000.png", "cardCount": 1, "labelFileHash": "fixture-hash-0" },
+    { "compositeId": "composite-001", "fileName": "composite-001.png", "cardCount": 1, "labelFileHash": "fixture-hash-1" },
+    { "compositeId": "composite-002", "fileName": "composite-002.png", "cardCount": 2, "labelFileHash": "fixture-hash-2" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "compositeId": "composite-001",
+  "fileName": "composite-001.png",
+  "width": 200,
+  "height": 100,
+  "backgroundType": "gradient",
+  "cards": [
+    {
+      "printingId": "printing-out-of-canvas",
+      "corners": [
+        { "x": -30, "y": 40 },
+        { "x": 10, "y": 40 },
+        { "x": 10, "y": 60 },
+        { "x": -30, "y": 60 }
+      ],
+      "tags": ["sleeved"]
+    }
+  ]
+}
