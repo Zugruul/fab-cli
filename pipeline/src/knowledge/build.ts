@@ -15,10 +15,10 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import type { KnowledgePackManifest } from "@fab/manifest-schema";
+import { validateKnowledgePackManifest, type KnowledgePackManifest } from "@fab/manifest-schema";
 import type { CalibrationArtifact } from "../eval/calibration.js";
 import { buildPrintingRegistry } from "./printingRegistry.js";
-import { buildKnowledgePackManifest, type WrittenIndexFile } from "./manifestBuilder.js";
+import { buildKnowledgePackManifest, SCHEMA_VERSION, type WrittenIndexFile } from "./manifestBuilder.js";
 import type { Chunk, ImageEmbeddingsResult, PrintingRegistry, TextEmbeddingsResult } from "./types.js";
 import type { SnapshotForDelta } from "./deltaPack.js";
 
@@ -106,7 +106,27 @@ export function buildFullPack(input: BuildFullPackInput): BuildFullPackResult {
  * re-deriving them from the original corpus/printing-id inputs.
  */
 export function loadSnapshotFromPackDir(dir: string): SnapshotForDelta {
-  const manifest = JSON.parse(fs.readFileSync(path.join(dir, "manifest.json"), "utf8")) as KnowledgePackManifest;
+  const manifestPath = path.join(dir, "manifest.json");
+  const raw: unknown = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+
+  // Review round 1 (PR #241): a bare `as KnowledgePackManifest` cast here
+  // let a malformed/corrupt manifest read back with missing fields as
+  // `undefined` — two independently-drifted packs BOTH missing
+  // `textEmbedderVersion` would then compare `undefined !== undefined`
+  // (false) in buildDeltaPack, silently skipping the embedder-version-
+  // changed refusal it exists to enforce. Validate on read, and refuse a
+  // manifest written by an incompatible schema version, instead.
+  const validation = validateKnowledgePackManifest(raw);
+  if (!validation.success) {
+    throw new Error(`loadSnapshotFromPackDir: ${manifestPath} failed schema validation: ${JSON.stringify(validation.errors)}`);
+  }
+  const manifest: KnowledgePackManifest = validation.data;
+  if (manifest.schemaVersion !== SCHEMA_VERSION) {
+    throw new Error(
+      `loadSnapshotFromPackDir: ${manifestPath} has unsupported schemaVersion "${manifest.schemaVersion}" ` +
+        `(this builder only reads schemaVersion "${SCHEMA_VERSION}")`,
+    );
+  }
 
   const chunks: Chunk[] = fs
     .readFileSync(path.join(dir, "chunks-index.jsonl"), "utf8")

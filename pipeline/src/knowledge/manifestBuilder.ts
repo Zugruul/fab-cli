@@ -33,7 +33,10 @@ import { validateKnowledgePackManifest, type KnowledgePackManifest } from "@fab/
 import type { CalibrationArtifact } from "../eval/calibration.js";
 import type { Chunk, ImageEmbeddingsResult, PrintingRegistry, TextEmbeddingsResult } from "./types.js";
 
-const SCHEMA_VERSION = "0.1.0";
+/** Exported so build.ts's loadSnapshotFromPackDir can refuse to read back
+ * a manifest written by an incompatible builder version, rather than
+ * silently trusting whatever schemaVersion string happens to be on disk. */
+export const SCHEMA_VERSION = "0.1.0";
 
 export interface BuildManifestInput {
   version: string;
