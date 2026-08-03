@@ -51,11 +51,10 @@ import torch
 from PIL import Image
 
 from .embed_config import validate_embed_export_config
-from .embed_crop import compute_crop_box
 from .embed_dataset import build_embed_dataset
 from .embed_licenses import EMBEDDER_LICENSES
 from .embed_model import ArcFaceEmbedder, EmbedderForExport
-from .embed_pixels import crop_with_neutral_padding
+from .embed_torch_data import crop_card_to_tensor
 from .licenses import validate_licenses
 
 QUANT_RECIPE_NAME = "static_wi8_ai8"
@@ -75,7 +74,14 @@ def build_representative_inputs(dataset_dir: str, crop_size: int, num_samples: i
     so the quantizer's calibration statistics reflect real inference
     inputs rather than synthetic noise. Deterministic subset given `seed`;
     raises if the dataset has fewer crops than requested rather than
-    silently calibrating on a smaller-than-configured sample."""
+    silently calibrating on a smaller-than-configured sample.
+
+    Reuses embed_torch_data.crop_card_to_tensor directly (review item 3,
+    PR #240) rather than re-deriving the crop/resize pipeline here — a
+    hand-duplicated copy was transform-identical today but would silently
+    desync from the real training/inference crop path on any future
+    change, and had already dropped that function's degenerate-crop
+    guard."""
     samples = build_embed_dataset(dataset_dir)
     if len(samples) < num_samples:
         raise ValueError(f"build_representative_inputs: dataset at {dataset_dir} has only {len(samples)} card crops, need {num_samples}")
@@ -83,20 +89,20 @@ def build_representative_inputs(dataset_dir: str, crop_size: int, num_samples: i
 
     tensors = []
     for sample in chosen:
-        image = Image.open(sample["image_path"]).convert("RGB")
-        arr = np.asarray(image, dtype=np.uint8)
-        box = compute_crop_box(sample["corners"])
-        cropped = crop_with_neutral_padding(arr, box)
-        resized = Image.fromarray(cropped).resize((crop_size, crop_size), Image.BILINEAR)
-        resized_arr = np.asarray(resized, dtype=np.float32) / 255.0
-        tensors.append(torch.from_numpy(resized_arr).permute(2, 0, 1).contiguous().unsqueeze(0))
+        image = Image.open(sample["image_path"])
+        tensor = crop_card_to_tensor(image, sample["corners"], crop_size)
+        tensors.append(tensor.unsqueeze(0))
     return tensors
 
 
-def export_to_int8_tflite(checkpoint_path: str, embedding_dim: int, crop_size: int, representative_inputs: List[torch.Tensor], output_path: str) -> str:
+def export_float_tflite(checkpoint_path: str, embedding_dim: int, crop_size: int, output_path: str) -> str:
+    """Stage 1 alone: the trained ArcFaceEmbedder (pre-normalization, via
+    EmbedderForExport) to a PLAIN float32 tflite — no quantization. Split
+    out from `export_to_int8_tflite` (and exported as its own public
+    function) so a caller — e.g. a quantization-fidelity test comparing
+    the float and int8 models directly — can get at the float model
+    without also running the quantize step."""
     import litert_torch  # imported lazily: only export.py needs this heavy dep
-    from ai_edge_quantizer import quantizer as aeq_quantizer
-    from ai_edge_quantizer import recipe as aeq_recipe
 
     embedder = _load_embedder(checkpoint_path, embedding_dim)
     export_module = EmbedderForExport(embedder)
@@ -104,9 +110,15 @@ def export_to_int8_tflite(checkpoint_path: str, embedding_dim: int, crop_size: i
 
     edge_model = litert_torch.convert(export_module, sample_input)
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
-    float_path = output_path + ".float.tflite"
-    edge_model.export(float_path)
+    edge_model.export(output_path)
+    return output_path
 
+
+def quantize_tflite(float_path: str, representative_inputs: List[torch.Tensor], output_path: str) -> str:
+    """Stage 2 alone: `ai_edge_quantizer`'s static_wi8_ai8 recipe over an
+    already-exported float tflite, calibrated against `representative_inputs`."""
+    from ai_edge_quantizer import quantizer as aeq_quantizer
+    from ai_edge_quantizer import recipe as aeq_recipe
     from ai_edge_litert.interpreter import Interpreter
 
     interp = Interpreter(model_path=float_path)
@@ -120,9 +132,55 @@ def export_to_int8_tflite(checkpoint_path: str, embedding_dim: int, crop_size: i
     calibration_result = q.calibrate(calibration_data)
     result = q.quantize(calibration_result)
     result.export_model(output_path, overwrite=True)
+    return output_path
 
+
+def export_to_int8_tflite(checkpoint_path: str, embedding_dim: int, crop_size: int, representative_inputs: List[torch.Tensor], output_path: str) -> str:
+    """The full production chain: float export -> quantize -> discard the
+    float intermediate. See `export_float_tflite`/`quantize_tflite` for
+    the two stages individually (used directly by the quantization-
+    fidelity test, which needs BOTH files to compare)."""
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    float_path = output_path + ".float.tflite"
+    export_float_tflite(checkpoint_path, embedding_dim, crop_size, float_path)
+    quantize_tflite(float_path, representative_inputs, output_path)
     os.remove(float_path)
     return output_path
+
+
+def dequantized_inference(tflite_path: str, input_tensor: torch.Tensor) -> List[float]:
+    """Runs one forward pass through the tflite model at `tflite_path` and
+    returns the output embedding as a plain float list — transparently
+    dequantized (using the interpreter's own input/output scale/zero-point)
+    if the model is int8-quantized, so a float model's and an int8 model's
+    outputs for the SAME input are directly comparable in the same units.
+    This is exactly what real application code must do post-inference
+    (see this module's top doc comment) — used here to verify quantization
+    doesn't scramble nearest-neighbor ranking (embed_export tests), not
+    just that the model loads."""
+    from ai_edge_litert.interpreter import Interpreter
+
+    interpreter = Interpreter(model_path=tflite_path)
+    interpreter.allocate_tensors()
+    input_details = interpreter.get_input_details()[0]
+    output_details = interpreter.get_output_details()[0]
+
+    arr = input_tensor.numpy()
+    if input_details["dtype"] == np.int8:
+        scale, zero_point = input_details["quantization"]
+        arr = np.round(arr / scale + zero_point).astype(np.int8)
+    else:
+        arr = arr.astype(input_details["dtype"])
+
+    interpreter.set_tensor(input_details["index"], arr)
+    interpreter.invoke()
+    output = interpreter.get_tensor(output_details["index"])
+
+    if output_details["dtype"] == np.int8:
+        scale, zero_point = output_details["quantization"]
+        output = (output.astype(np.float32) - zero_point) * scale
+
+    return output[0].tolist()
 
 
 def verify_int8_tflite_loads(tflite_path: str, expected_embedding_dim: int) -> Dict[str, Any]:
