@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Eval harness CLI (SPEC-APP.md §8.3-§8.5). Two subcommands:
+ * Eval harness CLI (SPEC-APP.md §8.3-§8.5). Three subcommands:
  *
  *   eval run [--stub] [--dataset <eval.jsonl>] [--human-authored-dir <dir>]
  *            [--config <eval-harness.json>] [--previous <evalScores.json>]
@@ -17,6 +17,17 @@
  *   eval calibrate --embedder-version <id> --scores <file.json> [--out <dir>]
  *     Computes and records a calibration artifact (§9.7 abstention floor +
  *     §10.9 OOD threshold) from a JSON array of {score, correct} samples.
+ *
+ *   eval release --version <candidate-semver> [--previous-version <semver>]
+ *                [--audit-record <path>] [--dataset ...] [--human-authored-dir ...]
+ *                [--config ...] [--previous <evalScores.json>] [--out <dir>]
+ *     The §8.5 release-gate ENFORCEMENT POLICY (APP-023, #135): runs the
+ *     same suite pass as `eval run`, then evaluates it through
+ *     release.ts's checkReleaseGate — gate.ts's (a)/(b)/(c) breaches plus,
+ *     for a major-version candidate (major component greater than
+ *     --previous-version's, or no --previous-version at all), the
+ *     completed human-audit-record requirement (release-audits/TEMPLATE.md).
+ *     Writes release-gate-result.json; exits nonzero iff blocked.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -25,10 +36,11 @@ import type { RubricJudgeConfig } from "./scorers/rubricJudge.js";
 import { calibrate, type CalibrationConfig, type ScoreSample } from "./calibration.js";
 import { checkGate } from "./gate.js";
 import { toManifestEvalScores } from "./manifestIntegration.js";
+import { checkReleaseGate } from "./release.js";
 import type { PreviousSuiteScore } from "./regression.js";
 import { runEval } from "./runner.js";
 import { createAlwaysCorrectMockRubricJudgeClient, createAlwaysCorrectStubModelClient } from "./stubClients.js";
-import type { EvalGateConfig } from "./types.js";
+import type { EvalGateConfig, EvalRunSummary } from "./types.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..");
 
@@ -93,14 +105,24 @@ export function parseRunArgs(argv: string[]): RunArgs {
   return args;
 }
 
-export async function runCommand(argv: string[]): Promise<number> {
-  const args = parseRunArgs(argv);
-  if (!args.stub) {
-    throw new Error(
-      "eval run --real: no real on-device ModelClient is wired up yet (deferred — remote compute for a real model run is unavailable; see docs/design/app-E2.md's Out of scope). Only --stub is supported today.",
-    );
-  }
+interface EvalSummaryArgs {
+  datasetPath: string;
+  humanAuthoredDir: string;
+  configPath: string;
+  previousPath: string | null;
+}
 
+/**
+ * Shared by `eval run` and `eval release`: loads config, builds every
+ * suite's items, runs them through the stub model + mocked judge, and
+ * loads the previous release's recorded per-suite scores (if any). Neither
+ * caller reimplements this — `eval release` is the same harness pass as
+ * `eval run`, just with the release-gate policy (release.ts) evaluated
+ * against the result instead of the bare gate.ts signals.
+ */
+async function buildEvalSummary(
+  args: EvalSummaryArgs,
+): Promise<{ summary: EvalRunSummary; gateConfig: EvalGateConfig; previous: PreviousSuiteScore[] }> {
   const config = loadConfig(args.configPath);
   const gateConfig: EvalGateConfig = {
     penalties: config.penalties,
@@ -124,6 +146,19 @@ export async function runCommand(argv: string[]): Promise<number> {
   const previous: PreviousSuiteScore[] = args.previousPath
     ? (JSON.parse(fs.readFileSync(args.previousPath, "utf8")) as { suites: PreviousSuiteScore[] }).suites
     : [];
+
+  return { summary, gateConfig, previous };
+}
+
+export async function runCommand(argv: string[]): Promise<number> {
+  const args = parseRunArgs(argv);
+  if (!args.stub) {
+    throw new Error(
+      "eval run --real: no real on-device ModelClient is wired up yet (deferred — remote compute for a real model run is unavailable; see docs/design/app-E2.md's Out of scope). Only --stub is supported today.",
+    );
+  }
+
+  const { summary, gateConfig, previous } = await buildEvalSummary(args);
   const gateResult = checkGate(summary, gateConfig, previous);
 
   const runDir = path.join(args.outDir, summary.runAt.replace(/[:.]/g, "-"));
@@ -142,6 +177,86 @@ export async function runCommand(argv: string[]): Promise<number> {
   console.log(`-> ${runDir}`);
 
   return gateResult.passed ? 0 : 1;
+}
+
+// --- eval release ------------------------------------------------------------
+
+interface ReleaseArgs {
+  version: string | null;
+  previousVersion: string | null;
+  auditRecordPath: string | null;
+  datasetPath: string;
+  humanAuthoredDir: string;
+  configPath: string;
+  previousPath: string | null;
+  outDir: string;
+}
+
+export function parseReleaseArgs(argv: string[]): ReleaseArgs {
+  const args: ReleaseArgs = {
+    version: null,
+    previousVersion: null,
+    auditRecordPath: null,
+    datasetPath: path.join(BASE, "out", "dataset", "eval.jsonl"),
+    humanAuthoredDir: path.join(BASE, "eval-suites", "human-adjudication"),
+    configPath: path.join(BASE, "config", "eval-harness.json"),
+    previousPath: null,
+    outDir: path.join(BASE, "eval-runs"),
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === "--version" && argv[i + 1]) args.version = argv[++i];
+    else if (arg === "--previous-version" && argv[i + 1]) args.previousVersion = argv[++i];
+    else if (arg === "--audit-record" && argv[i + 1]) args.auditRecordPath = argv[++i];
+    else if (arg === "--dataset" && argv[i + 1]) args.datasetPath = argv[++i];
+    else if (arg === "--human-authored-dir" && argv[i + 1]) args.humanAuthoredDir = argv[++i];
+    else if (arg === "--config" && argv[i + 1]) args.configPath = argv[++i];
+    else if (arg === "--previous" && argv[i + 1]) args.previousPath = argv[++i];
+    else if (arg === "--out" && argv[i + 1]) args.outDir = argv[++i];
+  }
+  return args;
+}
+
+/**
+ * `eval release` — the §8.5 enforcement policy (release.ts's
+ * checkReleaseGate) run against the same stub-model/mocked-judge harness
+ * pass `eval run` uses. Always `--stub` (this repo has no real on-device
+ * model wired up yet — see `runCommand`'s matching guard); a real-model
+ * release run is future work, not silently substituted here.
+ */
+export async function releaseCommand(argv: string[]): Promise<number> {
+  const args = parseReleaseArgs(argv);
+  if (!args.version) {
+    throw new Error("eval release: --version <candidate-semver> is required");
+  }
+
+  const { summary, gateConfig, previous } = await buildEvalSummary(args);
+  const releaseGateResult = checkReleaseGate({
+    summary,
+    config: gateConfig,
+    previous,
+    candidateVersion: args.version,
+    previousVersion: args.previousVersion,
+    auditRecordPath: args.auditRecordPath,
+  });
+
+  const runDir = path.join(args.outDir, summary.runAt.replace(/[:.]/g, "-"));
+  fs.mkdirSync(runDir, { recursive: true });
+  fs.writeFileSync(path.join(runDir, "summary.json"), JSON.stringify(summary, null, 2) + "\n");
+  fs.writeFileSync(path.join(runDir, "manifest-eval-scores.json"), JSON.stringify(toManifestEvalScores(summary), null, 2) + "\n");
+  fs.writeFileSync(path.join(runDir, "release-gate-result.json"), JSON.stringify(releaseGateResult, null, 2) + "\n");
+
+  for (const suite of summary.suites) {
+    console.log(
+      `${suite.suiteId}: correct=${suite.counts.correct} incorrect=${suite.counts.incorrect} abstained=${suite.counts.abstained} score=${suite.score.toFixed(3)}`,
+    );
+  }
+  console.log(`candidate ${args.version}${releaseGateResult.isMajorVersion ? " (MAJOR version — human audit required)" : ""}`);
+  console.log(releaseGateResult.passed ? "RELEASE GATE: PASS" : `RELEASE GATE: BLOCKED (${releaseGateResult.breaches.length} reason(s))`);
+  for (const breach of releaseGateResult.breaches) console.log(`  [${breach.clause}]${breach.suiteId ? ` ${breach.suiteId}:` : ""} ${breach.message}`);
+  console.log(`-> ${runDir}`);
+
+  return releaseGateResult.passed ? 0 : 1;
 }
 
 // --- eval calibrate ----------------------------------------------------------
@@ -197,7 +312,12 @@ async function main(): Promise<void> {
     calibrateCommand(rest);
     return;
   }
-  console.error(`unknown eval command: ${command ?? "(none)"} — expected "run" or "calibrate"`);
+  if (command === "release") {
+    const code = await releaseCommand(rest);
+    process.exitCode = code;
+    return;
+  }
+  console.error(`unknown eval command: ${command ?? "(none)"} — expected "run", "calibrate", or "release"`);
   process.exitCode = 1;
 }
 
