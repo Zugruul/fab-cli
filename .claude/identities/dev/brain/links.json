@@ -69,6 +69,11 @@
     "last": "2026-07-16",
     "weight": 0.5
   },
+  "test-knob-intersections->verify-vendor-id-uniqueness": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "test-must-falsify->untyped-api-optional-fields": {
     "fires": 4,
     "last": "2026-07-18",
@@ -82,6 +87,11 @@
   "untyped-api-optional-fields->provider-prefixed-raw-types": {
     "fires": 4,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "verify-vendor-id-uniqueness->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   }
 }
