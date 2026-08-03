@@ -100,8 +100,9 @@ export function buildKnowledgePackManifest(input: BuildManifestInput): BuildMani
 
   const chunksFile = writeIndexFile(input.outDir, "chunks-index.jsonl", jsonl(input.chunks.map((c) => JSON.stringify(c))));
 
-  const vectorRows = input.textEmbeddings.provided
-    ? input.chunks.map((c) => JSON.stringify({ chunkId: c.chunk_id, vector: input.textEmbeddings.records.get(c.chunk_id)!.vector }))
+  const textEmbeddings = input.textEmbeddings;
+  const vectorRows = textEmbeddings.provided
+    ? input.chunks.map((c) => JSON.stringify({ chunkId: c.chunk_id, vector: textEmbeddings.records.get(c.chunk_id)!.vector }))
     : [];
   const vectorsFile = writeIndexFile(input.outDir, "text-vectors.jsonl", jsonl(vectorRows));
 
