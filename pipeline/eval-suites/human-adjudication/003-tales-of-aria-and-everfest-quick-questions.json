@@ -1,0 +1,349 @@
+[
+  {
+    "id": "reprise-toa-qq-01",
+    "question": "Tyler controls Mark of Lightning and attacks Perry with Heaven's Claws. Perry defends with two 3-defense cards from hand, and Mark of Lightning's triggered ability resolves, destroying itself to deal 1 damage to Perry (not triggering Flashfreeze). During the damage step, is Heaven's Claws considered to have hit?",
+    "expectedClaims": [
+      "An attack only 'hits' when it deals damage during the damage step of combat; any other damage that an attack deals otherwise (including the damage from Mark of Lightning's own effect) is not considered a hit.",
+      "Because the total defense (two 3-defense cards) is greater than Heaven's Claws' power, no damage is dealt during the damage step, so Heaven's Claws is not considered to have hit."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-02",
+    "question": "Tyler attacks Perry with Blizzard Bolt (fusing an Ice card) and Perry doesn't defend or prevent damage, then Tyler attacks again with Buzz Bolt (fusing a Lightning card) and Perry again doesn't defend or prevent damage. How do the Frostbite-generating triggered abilities resolve?",
+    "expectedClaims": [
+      "Blizzard Bolt deals damage during the damage step and hits, triggering its ability to create one Frostbite token under Perry's control.",
+      "Buzz Bolt then also hits, triggering both Blizzard Bolt's and Buzz Bolt's abilities; Tyler resolves Blizzard Bolt's ability first, creating a second Frostbite token.",
+      "Buzz Bolt's ability then resolves, dealing 1 damage to Perry with the attack action card as the source of that damage, which in turn triggers Blizzard Bolt's ability again and creates a third Frostbite token."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-03",
+    "question": "Tyler attacks Perry with Ball Lightning (red) and Perry defends with a 3-defense card, so 0 damage is dealt during the damage step. Does Ball Lightning's damage-increase replacement effect apply?",
+    "expectedClaims": [
+      "Ball Lightning's replacement effect requires its condition to be met: some damage must be dealt by a Lightning or Elemental attack action card.",
+      "Because the total defense reduces the damage dealt to 0, the condition isn't met, so Ball Lightning's replacement effect does not apply."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-04",
+    "question": "If Perry instead defends Ball Lightning (red) with a 2-defense card so that 1 damage would be dealt during the damage step, does Ball Lightning's replacement effect apply, and what's the resulting damage?",
+    "expectedClaims": [
+      "Because 1 damage would be dealt by the Lightning/Elemental attack action card, Ball Lightning's condition is met and its replacement effect applies, increasing the damage dealt to 2 instead of 1."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-05",
+    "question": "Perry has a Spectral Shield token. Tyler attacks Perry with Ball Lightning (red) and Perry defends with a 2-defense card, so 1 damage would be dealt. Tyler (turn player) chooses to apply their replacement effects before Perry's. How much damage is ultimately dealt?",
+    "expectedClaims": [
+      "As turn player, Tyler chooses their replacement effects to apply first: Ball Lightning applies first, increasing the damage from 1 to 2.",
+      "Perry's Spectral Shield replacement effect then applies, reducing the damage from 2 to 1, so 1 damage is dealt during the damage step of combat."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-06",
+    "question": "Perry controls two equipment each with Arcane Barrier 1. Tyler plays Flicker Wisp, fusing a Lightning card, and as turn player chooses their replacement effects to apply first. How does the arcane damage resolve?",
+    "expectedClaims": [
+      "Flicker Wisp's replacement effect applies first (as Tyler is turn player), increasing the arcane damage dealt from 1 to 2.",
+      "Perry then has the choice to reduce the damage using their two Arcane Barrier 1 effects, and can prevent 0, 1, or 2 damage depending on whether they pay for neither, one, or both Arcane Barrier 1 effects."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-07",
+    "question": "Tyler controls one equipment with Arcane Barrier 1, and Perry controls Spellbound Creepers. Perry activates and resolves Spellbound Creepers, then plays Flicker Wisp (fusing a Lightning card), which will deal 1 arcane damage. Tyler, as turn player, decides their Arcane Barrier 1 will apply before Flicker Wisp's replacement effect. What happens?",
+    "expectedClaims": [
+      "Tyler activates Arcane Barrier 1 first, paying 1 resource and reducing the arcane damage down to 0.",
+      "Because there is now no arcane damage being dealt, Flicker Wisp's replacement effect condition is no longer met, so it does not apply — applying the prevention first negated Flicker Wisp's condition from being met."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-08",
+    "question": "Tyler has dealt zero damage to Perry this turn. Tyler activates and resolves Crucible of Aetherweave, then plays Blazing Aether. How does Crucible of Aetherweave's replacement effect interact with Blazing Aether's arcane damage effect?",
+    "expectedClaims": [
+      "Crucible of Aetherweave does not replace a damage event; it replaces the effect of the next card played that deals arcane damage, referencing the card played (not a damage event) as what's being replaced.",
+      "This replaces 'Deal X arcane damage [...]' with 'Deal X+1 arcane damage [...]' as the card is played; since Blazing Aether's X is determined to be 0, the effect deals 0+1 arcane damage, and from there replacement effects that replace arcane damage events (such as arcane barrier) can still apply."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-09",
+    "question": "Tyler plays Sting of Sorcery, then attacks Perry with Dread Triptych, triggering three abilities: one dealing 1 arcane damage, one creating a Runechant token 'if you've dealt arcane damage this turn', and one creating a Runechant token 'if you've played a non-attack action card this turn'. If Tyler resolves the arcane-damage trigger first, what happens with the other two triggers?",
+    "expectedClaims": [
+      "Flesh and Blood does not use an intervening 'if' for triggered abilities — a trigger phrased 'when/whenever/at [trigger condition], if [condition] [effect]' still triggers on the trigger condition, but the 'if condition' must be true when that triggered ability resolves for the effect to happen.",
+      "After the first trigger deals arcane damage to Perry, the second trigger's condition ('if you've dealt arcane damage this turn') is now true (because of the Sting of Sorcery damage and the first Dread Triptych trigger), so it creates a Runechant token; the third trigger also resolves and creates a second Runechant token."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa-qq-10",
+    "question": "Tyler plays and resolves Force of Nature without fusing a card, then attacks Perry with Explosive Growth, fusing an Earth card; Perry doesn't defend or prevent damage and Explosive Growth hits. Tyler orders the two triggered abilities so Explosive Growth's ability resolves before Force of Nature's. What happens?",
+    "expectedClaims": [
+      "When 'if [condition]' appears before a triggered ability ('when/whenever/at'), that's a conditional effect creating a triggered ability — the if-condition must be met for the ability to trigger/be functional at all; Explosive Growth's fusion ability is an example of this kind of syntax (along with Chilling Icevein and Endless Winter).",
+      "Because Explosive Growth was fused it is functional and triggers on the hit; resolving Explosive Growth's ability first increases its power above its base power, which makes Force of Nature's conditional effect ('if its power is greater than its base power') true when Force of Nature's ability resolves, so Tyler draws a card."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa2-qq-01",
+    "question": "Tyler controls Deep Blue and two Frostbite tokens. Tyler announces the activation of Deep Blue's ability. How does paying the activation cost work with Frostbite tokens in play, and can Tyler still activate abilities like Fyendal's Spring Tunic while affected by Frostbite?",
+    "expectedClaims": [
+      "Yes — being affected by a Frostbite token doesn't stop you from activating an ability like Fyendal's Spring Tunic, but as with all activated abilities you still pay the (increased) cost before the effect generates anything; for Fyendal's Spring Tunic (with a Frostbite token) this means paying 1 resource before gaining the 1 resource the ability grants, and the same applies to activated abilities like Deep Blue and Blood Drop Brocade.",
+      "For Deep Blue with two Frostbite tokens, Tyler must pay 2 resources (due to the Frostbite tokens) plus put a card from hand to the bottom of the deck to activate; after pitching a blue card to pay and having Deep Blue's ability resolve for 3 resources, Tyler ends with a total of 4 resources."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-ii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-ii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa2-qq-02",
+    "question": "Tyler controls Vest of the First Fist and Perry controls Channel Lake Frigid (a Frostbite-like effect). Tyler attacks Perry with Head Jab, pitching a red card to pay Channel Lake Frigid's additional resource cost. Perry doesn't defend, Head Jab hits, and Vest of the First Fist's triggered ability triggers. Does Tyler have to pay any additional resources for Vest of the First Fist to trigger or resolve?",
+    "expectedClaims": [
+      "No — triggered abilities (like Vest of the First Fist) and replacement effects (like Vestige of Sol) are not affected by Frostbite tokens or similar effects (like Channel Lake Frigid), because they are neither cards that are played nor activated abilities, so there is no cost to pay to trigger or resolve them.",
+      "Tyler only pitches a red card to pay for playing Head Jab (affected by Channel Lake Frigid); Vest of the First Fist then triggers, resolves, and Tyler destroys it to gain 2 resources with no extra cost."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-ii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-ii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa2-qq-03",
+    "question": "Tyler controls a Frostbite token and plays Soul Reaping targeting Perry, choosing to pay the alternative cost (banishing a card). Does Tyler still have to pay a resource cost for Soul Reaping because of the Frostbite token?",
+    "expectedClaims": [
+      "Yes — when you select an alternative cost, the resource cost to pay becomes zero BEFORE increases and decreases apply, so a Frostbite token (or similar effect) still increases that now-zero cost; here it's increased to 1 resource, which Tyler pays by pitching a red card.",
+      "Resources gained from banishing 'blood debt' cards as part of the alternative cost are not gained until after Soul Reaping has been played, so they can't be used to pay Soul Reaping's own resource cost — Soul Reaping is on layer 1 and the triggered ability of its alternative cost (gaining 1 resource for banishing the blood-debt card) is on layer 2."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-ii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-ii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa2-qq-04",
+    "question": "Tyler attacks Perry with Dazzling Crescendo (red), fusing with Pulse of Volthaven, then plays Pulse of Volthaven as an instant before passing priority. Does Pulse of Volthaven's 'your next attack this turn' effect boost the Dazzling Crescendo attack it was fused into?",
+    "expectedClaims": [
+      "No — Pulse of Volthaven's effect applies to the next attack action card played or attack ability activated after it resolves; using it to fuse an attack means that attack is already considered played before Pulse of Volthaven itself resolves, so it does not affect that attack.",
+      "In the example, Dazzling Crescendo's power stays at 4 (unaffected because it was played before Pulse of Volthaven resolved), while the next attack that turn, Snap Shot, is boosted to power 8 because it was played after Pulse of Volthaven resolved and meets the effect's condition."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-ii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-ii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa2-qq-05",
+    "question": "Tyler starts with 1 action point, plays and resolves Flash (red), then attacks Perry with Vela Flash (fusing a Lightning card, spending 1 action point) which gains 'go again' from Flash. Tyler then plays Weave Lightning as an instant from Vela Flash's effect, and Weave Lightning also has 'go again'. How many action points does Tyler end up with?",
+    "expectedClaims": [
+      "Tyler ends with 2 action points — Vela Flash's chain link resolving grants 1 action point from its 'go again' after the 1 action point spent to play it (netting 0 change there), and playing Weave Lightning as an instant costs no action point but its 'go again' still grants 1 action point when it resolves, netting a second action point.",
+      "'Go again' does not stack, but playing an action card as an instant (which, unlike normal play, doesn't cost an action point to play) while it has 'go again' nets a full action point gain, unlike playing it normally where the spent and gained action points cancel out."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-ii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-ii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa2-qq-06",
+    "question": "Tyler attacks Perry with Thump, Perry defends with two cards from hand, then during the reaction step Tyler plays Pummel (which increases Thump's power, giving it 'dominate' once it resolves). Before Pummel resolves, can Perry still play a defense reaction card like Sink Below?",
+    "expectedClaims": [
+      "Yes, but only before Pummel resolves — Thump only has 'dominate' if its power is greater than its base power, and Pummel only increases that power when Pummel resolves as a layer (not when it's played), so resolving Pummel requires passing priority first, giving Perry a chance to play a defense reaction like Sink Below.",
+      "Once Pummel resolves and Thump gains 'dominate', Perry can no longer play additional defense reaction cards from hand to the chain link, but 'dominate' does not remove, destroy, or return any defending cards already declared — it only prevents adding new ones from hand."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-ii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-ii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-01",
+    "question": "Perry (playing Oldhim) controls Rampart of the Ram's Head. Tyler attacks Perry, and Perry defends with Rampart of the Ram's Head, pitching Winter's Grasp (blue) to pay the triggered ability cost and has 2 resources left over. During the reaction step, Perry activates Oldhim's ability, pitching Autumn's Touch (yellow) — a non-Ice, non-Earth card. Does the leftover blue resource from Winter's Grasp count toward Oldhim's Ice-pitch condition?",
+    "expectedClaims": [
+      "No — Oldhim's (and Winter's Wail's) effects are strictly conditional on the supertype of the card actively pitched to pay that specific ability's cost ('pitched this way'), and leftover resources from previously pitched cards do not retain properties like supertype.",
+      "Because Perry did not pitch an Ice card during the activation of Oldhim's ability itself, the condition isn't met — Oldhim's activated ability still prevents the next 2 damage dealt to Perry, but Tyler is not made to put a card from their hand to the top of their deck."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-02",
+    "question": "Can a player still activate Oldhim's defense reaction ability when they are attacked with Command and Conquer?",
+    "expectedClaims": [
+      "Yes — Command and Conquer prevents playing defense reaction cards, but it does not prevent activating defense reaction abilities, so Oldhim's defense reaction ability can still be activated.",
+      "Command and Conquer received a non-functional card text update to reflect this more clearly, now stating 'Defense reaction cards can't be played to Command and Conquer's chain link. If Command and Conquer hits a hero, destroy all cards in their arsenal.'"
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-03",
+    "question": "Perry controls four equipment cards. Tyler attacks Perry with Ball Lightning, then on the next chain link attacks with Light it Up (fused), which hits and triggers its ability. How much damage is dealt from Light It Up's triggered ability?",
+    "expectedClaims": [
+      "5 damage — Light It Up's triggered ability deals damage equal to the number of equipment Perry controls (4) as a single event/package, not as four separate 1-damage events.",
+      "Because it's a single damage event, Ball Lightning's replacement effect only modifies it once, bringing the single 4-damage event up to 5; this same 'single event' logic applies to similarly worded interactions like Blessing of Deliverance vs Reaping Blade, and Sutcliffe's Research Notes vs Mordred Tide."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-04",
+    "question": "Tyler controls Spellbound Creepers and Perry controls Arc Light Sentinel (which has Spectra). Tyler plays Singeing Steelblade targeting Arc Light Sentinel, and Arc Light Sentinel's Spectra ability triggers, resolves, and closes the combat chain before Singeing Steelblade resolves. Can Tyler activate Spellbound Creepers, given they targeted a card with Spectra using an attack action card?",
+    "expectedClaims": [
+      "No, assuming Tyler hasn't already attacked with an attack action card earlier that turn — there is a distinction between an attack (the object/noun, e.g. an attack action card) and attacking (the verb, when it resolves as layer 1 and officially becomes attacking).",
+      "Because Spectra triggers and closes the combat chain before Singeing Steelblade ever resolves and becomes attacking, it never triggers or deals its 1 arcane damage, and the condition on Spellbound Creepers' ability is not met, so Tyler cannot activate it."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-05",
+    "question": "Tyler plays Chains of Eminence, intending to name Arc Light Sentinel when it resolves so Perry can't play it to defend. Can Perry respond and play Arc Light Sentinel before Chains of Eminence resolves and names a card?",
+    "expectedClaims": [
+      "Yes — Chains of Eminence's naming effect happens upon resolution, not when it is played, so before it resolves an opponent can respond with instant-speed cards; here Perry plays and resolves Arc Light Sentinel because nothing yet prevents them from doing so.",
+      "When Chains of Eminence then resolves, Tyler can either continue with the original plan of naming Arc Light Sentinel or name a different card instead; writing down the named card when Chains of Eminence resolves is noted as a legal exception to the note-taking rule, and is encouraged at high-level play."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-06",
+    "question": "Tyler plays and resolves Driving Blade, then attacks Perry with Dawnblade (chain link 1); Perry defends with Rampart of the Ram's Head. The attack hits and an ability (Dorinthea's) lets Tyler attack again with Dawnblade. Can Perry defend the second Dawnblade attack (chain link 2) with the same Rampart of the Ram's Head?",
+    "expectedClaims": [
+      "Attacking with a weapon means activating its attack ability, producing an attack on a new chain link — the weapon itself isn't 'locked in' to one chain link and its ability can be used again to produce another attack on a different chain link of the same combat chain, if legal to do so (e.g. via an ability like Dorinthea's, plus additional action points such as from Timesnap Potion or 'go again' effects like Driving Blade).",
+      "No — Rampart of the Ram's Head cannot defend on chain link 2 because it is still a defending card on chain link 1; an equipment being used to defend can't be used to defend on a different chain link of the same combat chain until it's otherwise no longer a defending card, such as when the combat chain closes."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-toa3-qq-07",
+    "question": "Tyler controls one Induction Chamber with 1 steam counter and attacks Perry with Teklo Plasma Pistol (chain link 1); Perry defends with Rampart of the Ram's Head. Tyler activates Induction Chamber to give the attack 'go again', and after the chain link resolves activates Teklo Plasma Pistol to put a steam counter on it, closing the combat chain. Tyler then attacks again with Teklo Plasma Pistol — can Perry defend this new attack with Rampart of the Ram's Head?",
+    "expectedClaims": [
+      "Yes — when the combat chain closes (here, because activating Teklo Plasma Pistol's ability closes it), Rampart of the Ram's Head returns to Perry's weapon zone and is no longer a defending card, so it is available to defend again on the new chain link 1 of Tyler's next Teklo Plasma Pistol attack."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-tales-aria-rules-reprise-part-iii"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-tales-aria-rules-reprise-part-iii/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-01",
+    "question": "Tyler plays Phantasmify (granting the Phantasm ability to a target), then attacks Perry with Enlightened Strike choosing the mode 'When you attack with Enlightened Strike, draw a card.' Tyler then attacks Perry with Fractal Replication. Does Fractal Replication gain the Phantasm ability, and does Tyler have to pay any additional cost Fractal Replication gains from another Illusionist card's written text?",
+    "expectedClaims": [
+      "Fractal Replication does not gain Phantasm in this case, because Phantasm was an ability the relevant card gained from an effect (Phantasmify), not something written on the card — Fractal Replication only gains the written abilities (i.e. the base abilities) of Illusionist cards on the combat chain.",
+      "If Fractal Replication gains an ability that is 'an additional cost to pay' to play the card, Tyler does not have to pay that cost, because Fractal Replication is considered already played at the time it gains that ability."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-02",
+    "question": "In that same scenario, does Fractal Replication gain the 'When you attack with Enlightened Strike, draw a card' ability, and does that gained ability actually trigger when Tyler attacks with Fractal Replication?",
+    "expectedClaims": [
+      "Yes — Fractal Replication gains the ability because it was originally a modal ability selected on Enlightened Strike when it was played, so the same selected mode is used for Fractal Replication when it gains the ability (this doesn't apply to triggered abilities, where parameters are selected when the effect is triggered).",
+      "Because it's a triggered effect gained after Fractal Replication was played but before it resolved as a layer and became attacking, and it triggers when attacking (not on-play), the ability does trigger and Tyler draws a card."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-03",
+    "question": "Tyler has created three auras and hit Perry with Swarming Gloomveil, and controls a single Runechant token; Perry controls three Spectral Shields. Tyler then plays an attack action card targeting Perry, triggering the Runechant token to deal 1 arcane damage to Perry. What happens to Perry's three Spectral Shields?",
+    "expectedClaims": [
+      "Swarming Gloomveil's 'can not be prevented' effect only applies after the condition is met and Swarming Gloomveil hits a hero — arcane damage dealt before that triggered layer resolves (such as earlier Runechant triggers) can still be prevented normally.",
+      "Once 'can not be prevented' is active, prevention effects can still try (and must, if not optional) to prevent the damage, including paying any required cost or applying additional effects (like destroying a Spectral Shield), but they fail to actually prevent the damage; because the damage remains unprevented after each attempt, all three Spectral Shields apply their prevention effects in turn and are destroyed, while the single 1 arcane damage still gets dealt to Perry."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-04",
+    "question": "Tyler controls Gambler's Gloves and has played and resolved two copies of Ready to Roll, then activates and resolves Scabskin Leathers (which rolls a 6-sided die to determine action points gained). Tyler rolls a 2, 5, and 5 and opts not to re-roll. What is the final result Skull Crushers sees, and how many action points does Tyler gain?",
+    "expectedClaims": [
+      "Skull Crushers' effect triggers on the final result of a roll event (the outcome), not on the process of how dice are rolled, re-rolled, or ignored within that event; the two Ready to Roll copies and Gambler's Gloves modify the roll event to become 'Roll three 6 sided dice, then you may destroy Gambler's Gloves to re-roll the three dice, then ignore the lowest two rolls.'",
+      "With a roll of 2, 5, and 5 and no re-roll, ignoring the lowest two rolls leaves a final result of 5; Tyler then gains 2 action points (half of 5, rounded down) from Scabskin Leathers' second effect."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-05",
+    "question": "Tyler controls Dawnblade with a +1 counter, plays and resolves Sharpen Steel (red), and attacks Perry with Dawnblade. Can Tyler activate Helm of Sharp Eye, and if they banish a second Sharpen Steel with it, can they play that banished non-attack action card this turn?",
+    "expectedClaims": [
+      "Yes, Tyler can activate Helm of Sharp Eye — its activated ability is enabled when a weapon OR a weapon attack has a modified power value greater than twice its base power; here the Dawnblade attack has 7 power, which is more than twice Dawnblade's base power.",
+      "Even after banishing a second Sharpen Steel with Helm of Sharp Eye, Tyler cannot play it from the banished zone this turn without other effects — Helm of Sharp Eye was never designed to let a player play a 'non-attack' action card without closing the combat chain first, and it doesn't let it be played or activated as an instant."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-06",
+    "question": "Does playing Potion of Luck trigger Earthlore Bounty, and with four cards in hand plus a card in arsenal, how many Seismic Surges does it generate?",
+    "expectedClaims": [
+      "Yes — Potion of Luck triggers Earthlore Bounty, and with four cards in hand and a card in arsenal, it generates 5 Seismic Surges."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-07",
+    "question": "If a player plays Pick a Card Any Card, do they get the benefit of Korshem's triggered effect?",
+    "expectedClaims": [
+      "Yes — the player who played Pick a Card Any Card is the player instructed to do the revealing, and is therefore the controller of the trigger-layers from Korshem's triggered effect."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-08",
+    "question": "Can Cash Out be used with token Auras created by cards like Luminaris?",
+    "expectedClaims": [
+      "Yes — during the action phase, token Auras meet the requirement for Cash Out's effect, so they can be destroyed to create a Silver token for each Aura destroyed."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-ef-qq-09",
+    "question": "Can a player activate Crown of Reflection to put Passing Mirage into the arena in order to prevent Phantasm from resolving on their first Illusionist attack, if Phantasm has already triggered?",
+    "expectedClaims": [
+      "No — if Phantasm has already triggered on the first attack (because it was defended by an attack with 6 or more power), putting Passing Mirage into the arena will not remove the already-existing triggered layer from the stack, and as long as the trigger condition is still met, it will resolve, destroy the attack, and close the combat chain."
+    ],
+    "groundingChunkIds": ["rules/reprise/quick-questions-everfest-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/quick-questions-everfest-rules-reprise/",
+    "adjudicationCritical": false
+  }
+]

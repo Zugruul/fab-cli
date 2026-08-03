@@ -90,4 +90,12 @@ describe("ModelPackManifest schema", () => {
       expect(result.errors.some((e) => e.path.join(".") === "artifacts.0.licenseId")).toBe(true);
     }
   });
+
+  // --- APP-022 (#134): evalScores is required (§13 invariant 8) ---------
+
+  it("rejects a manifest with no evalScores field at all", () => {
+    const { evalScores: _evalScores, ...rest } = validModelPackManifest as typeof validModelPackManifest;
+    const result = validateModelPackManifest(rest);
+    expect(result.success).toBe(false);
+  });
 });

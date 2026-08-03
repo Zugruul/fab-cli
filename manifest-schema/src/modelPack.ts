@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { EvalScoresSchema } from "./evalScores.js";
 
 /** SPEC-APP.md §14: the two shipped model tiers (1.7B on ≥6GB RAM, 0.6B otherwise). */
 export const ModelPackTierSchema = z.enum(["1.7B", "0.6B"]);
@@ -64,5 +65,14 @@ export const ModelPackManifestSchema = z.object({
   compatibleKnowledgePacks: z.string(),
   appMinVersion: z.string(),
   corpusSnapshotHash: z.string(),
+  /** Per-suite eval-gate results (SPEC-APP.md §8.5, §13 invariant 8: "no
+   * model or knowledge pack is released without passing the eval gate").
+   * REQUIRED, not optional — a model pack manifest with no eval record
+   * would silently re-open the exact hole invariant 8 exists to close.
+   * Produced by pipeline/src/eval (APP-022, #134); see evalScores.ts for
+   * the per-suite shape and its own runtime invariants (all eight named
+   * suites present, no duplicates, no zero-item vacuous suite).
+   */
+  evalScores: EvalScoresSchema,
 });
 export type ModelPackManifest = z.infer<typeof ModelPackManifestSchema>;

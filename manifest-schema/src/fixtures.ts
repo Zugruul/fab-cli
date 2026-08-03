@@ -11,6 +11,7 @@ import type { KnowledgePackManifest } from "./knowledgePack.js";
 import type { DeltaPackManifest } from "./deltaPack.js";
 import type { RevocationList } from "./revocationList.js";
 import type { Confidence } from "./confidence.js";
+import { EVAL_SUITE_IDS, type EvalScores } from "./evalScores.js";
 
 // --- Corpus snapshot manifest ---------------------------------------------
 
@@ -60,6 +61,39 @@ export const invalidCorpusSnapshotManifestMissingShippedContentHash: unknown = (
   return rest;
 })();
 
+// --- Eval scores (SPEC-APP.md §8.5, §13 invariant 8; APP-022 #134) ---------
+
+export const validEvalScores: EvalScores = {
+  runAt: "2026-08-01T00:00:00.000Z",
+  suites: EVAL_SUITE_IDS.map((suiteId, i) => ({
+    suiteId,
+    counts: { correct: 18 + i, incorrect: 1, abstained: 1 },
+    score: 0.82,
+  })),
+};
+
+/** Invalid: two entries report the same suiteId. */
+export const invalidEvalScoresDuplicateSuite: unknown = {
+  ...validEvalScores,
+  suites: [validEvalScores.suites[0], validEvalScores.suites[0], ...validEvalScores.suites.slice(2)],
+};
+
+/** Invalid: one of the eight required suites (human-authored-adjudication)
+ * is entirely absent. */
+export const invalidEvalScoresMissingSuite: unknown = {
+  ...validEvalScores,
+  suites: validEvalScores.suites.filter((s) => s.suiteId !== "human-authored-adjudication"),
+};
+
+/** Invalid: a suite reports zero graded items — the vacuous-pass guard. */
+export const invalidEvalScoresZeroItemSuite: unknown = {
+  ...validEvalScores,
+  suites: [
+    { ...validEvalScores.suites[0], counts: { correct: 0, incorrect: 0, abstained: 0 } },
+    ...validEvalScores.suites.slice(1),
+  ],
+};
+
 // --- Model pack manifest ----------------------------------------------------
 
 export const validModelPackManifest: ModelPackManifest = {
@@ -82,6 +116,7 @@ export const validModelPackManifest: ModelPackManifest = {
   compatibleKnowledgePacks: "^1.0.0",
   appMinVersion: "1.0.0",
   corpusSnapshotHash: "d".repeat(64),
+  evalScores: validEvalScores,
 };
 
 /** Invalid: an artifact entry with licenseId (SPDX id) omitted entirely. */

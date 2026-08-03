@@ -1,0 +1,29 @@
+{
+  "_comment": "SPEC-APP.md §8.3-§8.5 eval-harness config (APP-022, #134). penalties: asymmetric trichotomy weights — incorrect must be strictly worse than abstained, which must not exceed correct (enforced at runtime by gate.ts's assertValidGateConfig, not just by convention here). adjudicationCriticalMaxIncorrectRate: §8.5(a)'s near-zero threshold. perSuiteMinCorrectRate: §8.5(b)'s per-suite coverage floor — every one of the eight suites must have an entry (loud failure otherwise); ood-rejection/abstention-quality are set high because the ONLY correct behavior there is abstaining/refusing, so a well-behaved model should clear a high bar. calibration: §9.7/§10.9 inputs to calibration.ts's calibrate(). rubricJudge: the real transport is qa/engine.ts's TeacherClient abstraction (see scorers/rubricJudge.ts) — 'engine' selects which of its two engines a future real (non --stub) run would use; --stub mode (the only mode `npm run gate` exercises) never reads this.",
+  "penalties": {
+    "correct": 1.0,
+    "abstained": -0.2,
+    "incorrect": -3.0
+  },
+  "adjudicationCriticalMaxIncorrectRate": 0.02,
+  "perSuiteMinCorrectRate": {
+    "adjudication-critical": 0.6,
+    "interactions": 0.5,
+    "lore": 0.5,
+    "citation-validity": 0.6,
+    "abstention-quality": 0.7,
+    "ood-rejection": 0.8,
+    "distractor-robustness": 0.5,
+    "human-authored-adjudication": 0.5
+  },
+  "calibration": {
+    "floorPercentile": 0.1,
+    "oodMarginRatio": 0.5
+  },
+  "rubricJudge": {
+    "engine": "claude-code-subscription",
+    "model": "claude-sonnet-5",
+    "maxTokens": 512,
+    "temperature": null
+  }
+}

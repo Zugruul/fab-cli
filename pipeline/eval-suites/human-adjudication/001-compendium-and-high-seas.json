@@ -1,0 +1,374 @@
+[
+  {
+    "id": "reprise-compendium-01",
+    "question": "When an effect like Glyph Destruction Nodes deals damage to multiple different targets (e.g. a hero and an ally such as Sawbones, Dock Hand), who chooses the order the targets take damage, and when is that order decided?",
+    "expectedClaims": [
+      "Yes, the player resolving the effect chooses the order in which the targets are affected. The order is decided right before the effect happens - after the card starts to resolve but before existing replacement effects (such as Sawbones' damage prevention) are applied.",
+      "In the worked example, Tyler chooses to deal damage to Sawbones, Dock Hand first, then to Nic's hero; Sawbones takes 2 damage after preventing 1 with its own effect, and Nic takes 3 damage."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-02",
+    "question": "Are the hidden triggered abilities on Concealed Nerve Gas, Concealed Pathogen, and Concealed Sedative optional to trigger while those equipment are face-down?",
+    "expectedClaims": [
+      "Yes, these triggered effects are optional. As long as the equipment is face-down, its owner always has the option to trigger the ability or not, even when the trigger condition is met.",
+      "If you choose not to trigger it, it stays face-down and private; if you choose to trigger it, it turns face-up and public and is added to the stack to resolve normally."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-03",
+    "question": "Can Colors of Aria be revealed to pay a Fusion additional cost (e.g. Entwine Lightning) or to satisfy Bravo, Star of the Show's reveal effect, given that Fusion/reveal costs require a card to already have the specified talent before it's revealed?",
+    "expectedClaims": [
+      "No. Colors of Aria only has the Earth, Ice, and Lightning supertypes while it is face-up in any zone; because it is private and face-down before the reveal happens, it doesn't have those talents yet and can't satisfy Fusion additional costs or Bravo's reveal effect, which require the specified talent before revealing.",
+      "By contrast, effects such as Earth/Ice/Lightning Bond, Decompose, Lexi, Livewire's ability, and Elemental Strike do work with Colors of Aria because in those cases the card becomes face-up (and thus gains its talents) before or as part of the relevant step."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-04",
+    "question": "If Enflame the Firebrand's trigger resolves while Tyler controls 3 Draconic chain links and 1 non-Draconic chain link, and its own resolution turns chain links Draconic (bringing the total to 4 Draconic), does it retroactively get +2 power from now having enough Draconic chain links?",
+    "expectedClaims": [
+      "No. The number of chain links needed for Enflame the Firebrand's effects is evaluated only once, as part of a single if-condition, at the time the trigger resolves.",
+      "Even though its own effect makes attacks Draconic this combat chain (bringing Tyler's total to 4 Draconic chain links), the trigger has already finished evaluating and does not retroactively grant Enflame the Firebrand +2 power."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-05",
+    "question": "When Become the Cup (red) is played and a color like blue is chosen, does it count as a blue card being played for effects like First Tenet of Chi: Tide or Prismatic Leyline?",
+    "expectedClaims": [
+      "Yes. Compendium of Rathe's new phrase 'as you play this' lets Become the Cup gain a chosen color (in addition to its existing color) as it is played, and all the benefits associated with playing a card of that color apply.",
+      "In the example, choosing blue makes Become the Cup a blue card in addition to red, so First Tenet of Chi: Tide's continuous effect applies for +2 power, and Prismatic Leyline applies both its red and blue continuous effects for +4 power total.",
+      "If an effect causes cards you own to lose colors (e.g. Blanch), that removes the base/printed color, but colors gained through effects like Become the Cup's chosen color still apply."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-06",
+    "question": "Does Heart Wrencher, which has the Wrench subtype in addition to being an attack, get bonuses from cards like Clamp Press and Fist Pump that apply to or target wrenches?",
+    "expectedClaims": [
+      "Yes. Heart Wrencher has the Wrench subtype in addition to being an attack, so effects/cards that apply to or target wrenches (e.g. Clamp Press, Fist Pump) can interact with it.",
+      "It does not work with effects/cards that specifically look for wrench weapons (e.g. Construct Bank Breaker), because those require both the weapon type and the wrench subtype, and Heart Wrencher is not a weapon."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-07",
+    "question": "If arcane damage is first reduced by an Arcane Barrier ability (paid for by pitching a card with 6 or more power), can Skera Strapping's Spellvoid 3 also reduce the remaining damage from that same event?",
+    "expectedClaims": [
+      "Yes. If you pitch a card with 6 or more power to pay for a prevention effect like Arcane Barrier that reduces a single arcane damage event, you can also use Skera Strapping's Spellvoid 3 to reduce the remaining arcane damage (3 or less) from that same event, since Spellvoid is always checking.",
+      "In the example, 3 arcane damage is first reduced to 2 by Arcane Barrier 1 on Shamanic Shinbones (paid by pitching a 6-power card), and Spellvoid 3 on Skera Strapping then reduces the remaining damage to 0."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-08",
+    "question": "If a player controls mBrio Base Vizier and multiple Hyper Drivers each with steam counters, can they remove a steam counter from every Hyper Driver to prevent more arcane damage from a single damage event?",
+    "expectedClaims": [
+      "No. mBrio Base Vizier's ability to remove a steam counter applies once per event, so you can only remove 1 steam counter from 1 Hyper Driver total per event, even if you control multiple Hyper Drivers with steam counters.",
+      "mBrio Base Vizier also has Arcane Barrier 1, and you can use both of its abilities (the steam-counter removal and Arcane Barrier 1) once each on the same arcane damage event."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-09",
+    "question": "If Lunar Mirage becomes a copy of a defending card via its triggered effect, will the phantasm ability trigger?",
+    "expectedClaims": [
+      "Yes, but only if Lunar Mirage becomes a copy of a defending non-Illusionist attack action card with 6 or more power and phantasm — the phantasm ability's state-based triggering condition is met when the Lunar Mirage object becomes such a copy, causing it to trigger.",
+      "In the example, Lunar Mirage becomes a copy of the defending Embermaw Cenipai (a non-Illusionist card with 6 or more power), which causes the phantasm ability on the copy to trigger."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-10",
+    "question": "Does Watery Grave trigger when a defending Beneath the Surface is put into the graveyard?",
+    "expectedClaims": [
+      "No. The Watery Grave ability on Beneath the Surface is not functional while it is defending, so it does not trigger from being cleared from the combat chain into the graveyard.",
+      "However, Beneath the Surface's second ability does trigger when it is put into the graveyard from the arena, turning it face-down in the graveyard when that triggered effect resolves."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-11",
+    "question": "If an attack has multiple wagers (e.g. via Cheating Scoundrel plus Wage Gold's own wager), does Cheating Scoundrel let you win all of those wagers if the attack didn't hit?",
+    "expectedClaims": [
+      "No. Cheating Scoundrel's replacement effect only changes the result of one wager at a time — each wager's winner is determined individually when that specific wager's triggered effect resolves during the resolution step.",
+      "If multiple wager effects were generated, the controller of the wager triggered effects decides the order they resolve in; applying Cheating Scoundrel's replacement effect (discarding a card to win instead of losing) to one wager does not also change the outcome of the other wagers."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-compendium-12",
+    "question": "If a player controls two copies of Blessing of Bellona, will its own 'put into your soul' triggered ability see itself being put into soul by its start-of-turn ability, and will it trigger and create a Courage token?",
+    "expectedClaims": [
+      "Yes. Blessing of Bellona's second ability (triggered when a card is put into your soul) will see itself being put into soul by its own third ability (triggered at the start of turn) and will trigger, creating a Courage token.",
+      "In the example with two Blessing of Bellona, each one being put into soul at the start of turn triggers both its own and the other Blessing of Bellona's 'put into soul' ability, resulting in 3 total Courage tokens by the time everything resolves."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-compendium-of-rathe"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-compendium-of-rathe/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-01",
+    "question": "On the first turn of the game, if Tyler (the turn player) taps Nic's Gravy Bones using Kelpie, Tangled Mess's activated ability, does Nic's Gravy Bones get untapped during the end phase of that first turn?",
+    "expectedClaims": [
+      "No. During the end phase, only the turn player untaps their tapped permanents (the 'U' in the APUD end-phase sequence: Arsenal, Pitch, Untap, Draw) — even on the very first turn of the game.",
+      "In the example, Tyler (turn player) untaps their own Kelpie during their end phase, but Nic does not untap the tapped Gravy Bones because Nic is not the turn player; Nic only pitches and draws during that turn."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-02",
+    "question": "If Tyler controls two already-untapped Golden Cogs and hits Nic with Cogwerx Dovetail, whose triggered effect instructs Tyler to untap all cogs they control, what happens?",
+    "expectedClaims": [
+      "The untap effect fails, because both Golden Cogs are already untapped — since there is nothing to untap, the effect does not satisfy or trigger anything that depends on actually untapping an object."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-03",
+    "question": "If Tyler has already tapped their only Copper Cog (via Sky Skimmer's activated ability) and then attacks with Jolly Bludger, can Nic choose the optional effect on Jolly Bludger's trigger that would tap Tyler's Copper Cog to remove overpower?",
+    "expectedClaims": [
+      "No. You cannot choose to perform an optional effect if that effect would fail given the current game state, and because Tyler's Copper Cog is already tapped, the tap effect would fail.",
+      "As a result, Nic cannot choose that optional effect, and Jolly Bludger keeps overpower."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-04",
+    "question": "When Tyler attacks with Expedition to Horizon's Mantle, triggering both its own 'when this attacks' ability and Treasure Island's first ability (since Treasure Island is a shared macro with no owner or controller), who is responsible for adding the triggered effects to the stack and in what order?",
+    "expectedClaims": [
+      "Because Tyler is the one who triggered Treasure Island (as the first player to attack a hero that turn), Tyler is responsible for adding that triggered effect to the stack as if they were its controller, along with Expedition to Horizon's Mantle's own triggered effect, and Tyler chooses the order in which the two are added.",
+      "Treasure Island is a macro, not a card or token, and is never owned or controlled by either player — it cannot be chosen/targeted by effects that pick cards/tokens, nor named by effects requiring a named card."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-05",
+    "question": "When Tyler (playing Gravy Bones) activates Diamond Amulet's ability, destroying Diamond Amulet as part of the activation cost, what happens with its Legend of the Watery Grave ability, and can Tyler play the resulting face-down Diamond Amulet from the graveyard that turn?",
+    "expectedClaims": [
+      "Diamond Amulet's activated ability is added to the stack first, and because it was destroyed to pay the activation cost, its Legend of the Watery Grave ability triggers and is added to the stack second (so it resolves first); when that triggered effect resolves, Diamond Amulet is turned face-down in the graveyard.",
+      "Because Diamond Amulet (a blue card) was put into the graveyard that turn, Gravy Bones may play any face-up cards with Watery Grave from the graveyard for the rest of the turn, but Tyler cannot play the Diamond Amulet itself since it is now face-down."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-06",
+    "question": "How does the Go Fish ability work — for example, when Tyler resolves Hammerhead, Harpoon Cannon (activating a cannon) and then hits Nic with King Shark Harpoon?",
+    "expectedClaims": [
+      "Whenever an attack with Go Fish hits a hero, that hero chooses and reveals a card from their hand; some 'harpoon'-named cards have an additional effect on the Go Fish trigger conditioned on having activated a cannon that turn, so that must happen before resolving the Go Fish trigger.",
+      "In the example, Tyler looks at Nic's hand when the triggered effect resolves (having activated Hammerhead, Harpoon Cannon), chooses a Goldfin Harpoon, and Nic reveals it; because it's an attack action card, Nic discards it (removing it from the game) and Tyler creates a Gold token."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-07",
+    "question": "In a Blitz game where Nic plays Puffin with the companion Polly Cranka equipped (perched) alongside a two-handed weapon (Spitfire), can Tyler declare Polly Cranka as the target of an attack such as Blow for a Blow?",
+    "expectedClaims": [
+      "No. While a companion with perched is equipped, it cannot be declared as the target of any attacks (though it can still be targeted/chosen or damaged by other effects).",
+      "In the example, Tyler's Blow for a Blow must target Puffin (the hero) since Polly Cranka can't be an attack target; when Blow for a Blow's triggered effect resolves in the damage step, it targets and deals 1 damage to Polly Cranka, destroying it."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-08",
+    "question": "Can a perched companion like Polly Cranka be targeted by a non-attack effect such as Aether Dart, even though it can't be declared as an attack target?",
+    "expectedClaims": [
+      "Yes. Even though a perched, equipped companion cannot be the target of attacks, it can still be targeted/chosen or damaged by other effects.",
+      "In the example, Tyler plays Aether Dart (blue) targeting the equipped Polly Cranka; when it resolves, it deals 1 arcane damage to Polly Cranka and destroys it."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-limited-09",
+    "question": "Can Scurv, Stowaway (a hero found only in High Seas booster packs) be played in constructed formats, and does this differ between formats like Blitz and Classic Constructed?",
+    "expectedClaims": [
+      "Yes, in constructed formats that allow young heroes, such as Blitz or Commoner, since Scurv, Stowaway has the 'young' sub-type.",
+      "No, in constructed formats that don't allow young heroes, such as Classic Constructed or Living Legend.",
+      "Treasure Island is only available in games within High Seas limited formats — even though some Pirate cards with 'If you are a Thief' effects interact with Treasure Island, the macro still cannot be used in a constructed game."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-01",
+    "question": "When a player activates Chowder, Hearty Cook's ability, does Chowder itself (the ally) gain the life, or does the controlling player?",
+    "expectedClaims": [
+      "No, Chowder doesn't gain life from its own ability — the player who activated Chowder gains 1 life when its ability resolves.",
+      "Effects like 'gain 1 life' are read from the perspective of the hero/player, not the ally."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-02",
+    "question": "If a player plays Portside Exchange with no cards in hand, do they still draw a card even though they can't discard first?",
+    "expectedClaims": [
+      "Yes, you still draw the card. You follow the card's instructions in order: the discard attempt fails because you have no cards, but the draw effect is not conditional on having discarded, so it still happens.",
+      "You won't create a Gold token in this case, since that effect requires having discarded a yellow card, which didn't happen."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-03",
+    "question": "If a player activates Gravy Bones, Shipwrecked Looter's ability with no cards left in their deck, do they still discard a card even though they can't draw?",
+    "expectedClaims": [
+      "Yes, you still discard a card. You attempt to draw first, but since you can't (empty deck), that effect fails; the subsequent discard-from-hand effect is not conditional on having drawn, so it still happens."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-04",
+    "question": "If an opponent has activated two separate Chum, Friendly First Mate allies, each requiring you to choose them as an attack-target if able, can you still declare an attack at all?",
+    "expectedClaims": [
+      "Yes, you can attack either Chum. Each Chum's ability creates an equally restrictive requirement, and since you can't satisfy both simultaneously, satisfying just one is sufficient — requirements must be fulfilled if possible, which means satisfying one is enough when you can't satisfy both."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-05",
+    "question": "Unlike Apocalypse Automaton, Barbed Barrage can declare any type of object (not just heroes) as an attack-target. If an opponent controls an object that requires being chosen as an attack-target if able (e.g. an activated Chum, Friendly First Mate), how does that interact with Barbed Barrage's multiple targets?",
+    "expectedClaims": [
+      "One of Barbed Barrage's attack-targets must be that required object (e.g. an activated Chum), though the additional attack-target may be chosen freely (e.g. the opponent's hero) — all attack-targets of a single attack must be different from one another.",
+      "If the opponent controls two such objects (e.g. two Chums), Barbed Barrage can satisfy the requirement by declaring one Chum as one attack-target and the other Chum as the other attack-target."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-06",
+    "question": "If Barbed Barrage attacks multiple targets, some of which have spectra (e.g. Arc Light Sentinel), what happens when spectra triggers, and does the combat chain automatically close?",
+    "expectedClaims": [
+      "Spectra triggers and destroys its source when it resolves, but the combat chain does not automatically close just because a spectra source was destroyed — the combat chain only closes if there are no legal attack-targets remaining.",
+      "If Barbed Barrage attacks two different objects that both have spectra, both are destroyed and the attack is left without any targets, which does then cause the combat chain to close (because no legal targets remain, not because of spectra itself)."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-07",
+    "question": "If Barbed Barrage deals damage to both a hero and an ally with ward they control (e.g. Bellona, Archangel of War) during the same damage step, does the ward-equipped ally die immediately from its own damage before the hero takes their damage?",
+    "expectedClaims": [
+      "No — allies that have sustained lethal damage don't die until game state actions are checked, and in this scenario there are no game state actions checked until after all damage from the attack has been dealt in the damage step.",
+      "In the example, Barbed Barrage deals 5 power as damage to Bellona first, then 5 power as damage to Nic; because Bellona is still around (game state actions not yet checked), Bellona's ward ability triggers, destroying Bellona and reducing the damage dealt to Nic to 1."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-08",
+    "question": "If a Barbed Barrage with overpower attacks two different heroes (e.g. in an Ultimate Pit Fight game against Nic and Sam), can each defending hero add their own defending action card to the chain link?",
+    "expectedClaims": [
+      "Yes. When an attack with overpower (or similar keywords) targets multiple heroes, each defending player may add one action card as a defending card to that chain link — each player gets to declare their own defending cards regardless of what other defending players have declared."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-09",
+    "question": "If a Midas Touch effect destroys an ally that has no cost printed in its upper right-hand corner — such as an angel or dragon from a figment's back-side, an Invocation, or a token — does the controller create Gold tokens?",
+    "expectedClaims": [
+      "No (for current angels and dragons at time of writing). Until High Seas, existing allies such as those on the back-side of figments, invocations, or tokens created by other cards don't have a printed cost, so destroying them with Midas Touch does not cause their controller to create Gold tokens."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-10",
+    "question": "Does Sticky Fingers become unequipped when it attacks an aura that has spectra, given that spectra destroys the aura and would leave the attack without a legal target?",
+    "expectedClaims": [
+      "No. Sticky Fingers becomes tapped but remains equipped (as long as it was equipped beforehand).",
+      "When spectra's triggered effect resolves and destroys the object with spectra, there are no more legal attack-targets, so the combat chain begins to close; as part of closing, the attack's layer is removed from the stack, meaning neither the attack nor its conditional unequip effect ever resolves."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-11",
+    "question": "Does Arcane Compliance's continuous effect (which prevents increases to arcane damage) stop Blazing Aether from dealing damage, since Blazing Aether deals X arcane damage where X is set based on arcane damage already dealt to that hero that turn?",
+    "expectedClaims": [
+      "No. Setting the value of X is not an increase, so Arcane Compliance's effect does not stop X from being set — Blazing Aether's effect simply determines X's value at the time it resolves on the stack, which is not considered an increase from any previous number.",
+      "Arcane Compliance prevents effects that increase arcane damage, such as card-based buff replacement effects (e.g. Absorb in Aether, Aether Wildfire) or event-based buff replacement effects (e.g. amp) — not the initial setting of a variable damage amount."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-12",
+    "question": "How does Bonds of Agony's search-and-banish effect interact with split cards, such as if a hit hero's hand contains Null // Shock and the player chooses Null // Shock as the revealed card while their deck/graveyard also contain Comet Storm // Shock and other copies of Null // Shock?",
+    "expectedClaims": [
+      "Bonds of Agony lets you search the hit hero's hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card — for a split card, only cards that share the exact same set of names as the chosen card can be banished.",
+      "In the example, choosing Null // Shock does not allow banishing Comet Storm // Shock even though both share the name 'Shock', because the other half of the name differs; only the other copies of Null // Shock (matching both names exactly) can be banished."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-constructed-13",
+    "question": "Does a dagger that is 'flicked' by an effect (e.g. Flick Knives, Hurl) count toward Salt the Wound if it hits, and does re-flicking a Kiss of Death that already hit earlier that turn add another +1 power to Salt the Wound?",
+    "expectedClaims": [
+      "Yes, a flicked Kiss of Death counts toward Salt the Wound if it hits — Kiss of Death is an attack object (not a proxy-generating weapon) that has hit, and Salt the Wound counts the number of attack objects that have hit that turn.",
+      "If the same Kiss of Death had already hit and is then flicked to hit again, it still only contributes +1 power total to Salt the Wound, because Salt the Wound counts the number of attacks that have hit, not the number of hits from attacks.",
+      "Flicking a Kiss of Death on a previous chain link does not retroactively cause that earlier attack/chain link to have hit if it was fully defended."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-high-seas-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-high-seas-constructed/",
+    "adjudicationCritical": false
+  }
+]

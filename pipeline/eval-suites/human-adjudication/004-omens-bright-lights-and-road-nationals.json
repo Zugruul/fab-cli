@@ -1,0 +1,455 @@
+[
+  {
+    "id": "reprise-omens-con-01",
+    "question": "Tyler plays Aether Flare (blue) dealing 1 arcane damage to Nic, then plays Echoflash which deals 2 arcane damage (1+1) to Nic, followed by Echoflash's triggered ability dealing 1 more arcane damage to Nic from Tyler's hero. Does Aether Flare's replacement effect increase both arcane damage effects of Echoflash, and how much total arcane damage does Nic take?",
+    "expectedClaims": [
+      "No — Aether Flare's replacement effect only applies to the first arcane damage effect of Echoflash, not the second (triggered) effect, because the source of the second effect is Tyler's hero, not Echoflash.",
+      "In the example, Nic takes a total of 4 arcane damage: 1 from Aether Flare, 2 from Echoflash's first effect (boosted by Aether Flare), and 1 from Echoflash's triggered effect (not boosted).",
+      "Amp effects, however, can still apply to the triggered arcane damage effect if generated before the trigger resolves, since amp is not source-restricted the way Aether Flare's replacement effect is."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-02",
+    "question": "Does the same rule for Aether Flare and Echoflash apply to Nucleus Aetherbolt's second arcane damage ability, and can a replacement effect like amp be inserted between Nucleus Aetherbolt's two arcane damage effects?",
+    "expectedClaims": [
+      "Yes, the same principle applies, but Nucleus Aetherbolt's second ability is not a triggered ability — the hero deals the arcane damage as part of the card resolving on the stack, and players do not receive priority between its effects, so you cannot insert a replacement effect like amp between them.",
+      "Because Nucleus Aetherbolt is an action card, a card like Aether Wildfire (which affects action card arcane damage) would apply to both of its arcane damage events on the opponent's turn, whereas it would not apply to an instant like Echoflash."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-03",
+    "question": "Tyler, playing Zyggy, hits with Fractal Creation creating a token copy of Corrosive Space Dust, then activates Zyggy's ability, banishing the Corrosive Space Dust token as part of the cost. Does the token return to the arena with a holo counter when the ability resolves?",
+    "expectedClaims": [
+      "No — tokens cease to exist when they leave the arena (including being banished by Zyggy's ability), so they do not return to the arena under Zyggy's control.",
+      "Any 'leaves the arena' triggered ability on the token (such as Corrosive Space Dust's) still triggers and resolves even though the token no longer exists, dealing its damage.",
+      "When Zyggy's activated ability resolves, nothing returns to the arena, because the banished token no longer exists.",
+      "This differs from banishing a non-token Lightning aura card, which would return to the arena with a holo counter as a new object (losing prior applied effects like control effects)."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-04",
+    "question": "In a game of Ultimate Pit Fight, Tyler has not yet put an instant into their graveyard when they play Astral Bridge and must declare a target for its starfall ability. If Astral Bridge's own resolution puts the top card of the deck (an instant) into the graveyard, does the starfall effect then deal damage, and does Astral Bridge itself count as the first instant put into the graveyard?",
+    "expectedClaims": [
+      "Yes — Astral Bridge resolves its effects in printed order, so putting the top card (an instant) into the graveyard first satisfies the starfall condition, and it deals 1 arcane damage to the target declared when Astral Bridge was played.",
+      "Astral Bridge itself does not retroactively count, because cards from the stack are only moved to the graveyard after they finish resolving — so even though Astral Bridge is itself an instant, it cannot be the first instant that triggers its own starfall ability.",
+      "Targets for starfall abilities (like Astral Bridge's) must be declared when the card is played, regardless of whether an instant has been put into the graveyard yet that turn."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-05",
+    "question": "Nic, playing Oscilio, Forked Continuum, activates their hero ability on Tyler's turn to discard Comet Storm // Shock. Can Nic play the discarded card, and if so, in which forms (Comet Storm, Shock, or melded)?",
+    "expectedClaims": [
+      "Yes, Nic can play the card that turn as long as they meet the requirements and pay the cost — but on the opponent's turn they can only play it as Shock (the instant side), not as Comet Storm or melded as Comet Storm // Shock, because actions cannot normally be played on the opponent's turn.",
+      "If Comet Storm // Shock had instead been discarded on Nic's own turn, Nic could play it that turn in any form — Comet Storm, Shock, or melded — because as a split card with both action and instant types it is treated as an instant for the purposes of being discarded, but once in the graveyard it can be played in any of its forms that turn.",
+      "In contrast, a card like Null // Shock, which has the instant type on both sides, could be played as either side or melded even on the opponent's turn."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-06",
+    "question": "Tyler plays Golden Skull, then activates Gold-Baited Hook and attacks with Riggermortis (Nic defends and it doesn't hit); Gold-Baited Hook is destroyed at the beginning of the end phase. Does playing Golden Skull count as creating or stealing Gold?",
+    "expectedClaims": [
+      "No — creating and stealing are specific effects that come from resolving effects on cards; playing Golden Skull does not itself count as having created or stolen Gold."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-07",
+    "question": "Tyler hits Nic with Infiltrate, banishing Cull from the top of Nic's deck (Nic took combat damage). Can Tyler, who banished the card, play Cull from the banished zone as though it were an instant using Cull's own ability?",
+    "expectedClaims": [
+      "No — cards in the banished zone don't have a controller, so 'you' in Cull's ability to play it as though it were an instant refers to the card's owner, not to whoever banished it.",
+      "Because Nic took combat damage and owns Cull, Nic (the owner) can use Cull's own play-static ability to play it from the banished zone as though it were an instant.",
+      "Tyler can still play Cull as an action from the banished zone using Infiltrate's triggered effect (which allows the player who banished it to play it), but not as an instant, since Tyler is not Cull's owner."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-08",
+    "question": "Tyler activates and resolves Hammerhead, Harpoon Cannon, hits Nic with Red Lure Harpoon, and chooses to banish Remorseless (which has the arrow subtype) from Nic's graveyard. Tyler has a bow equipped. Can Tyler play the banished Remorseless using Red Lure Harpoon's effect that allows playing a banished card?",
+    "expectedClaims": [
+      "No — cards with the arrow subtype must be played from arsenal with a bow equipped; even though Tyler has a bow equipped and Red Lure Harpoon's effect allows playing the banished card, the arrow subtype's requirement to be played from arsenal prevents it from being played from the banished zone.",
+      "When there are opposing restrictions and allowances for playing a card, restrictions always take precedence over allowances."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-09",
+    "question": "Tyler attacks Nic with Shattering Flowtide. In the Reaction Step, Nic resolves Quickdodge Flexors' defense reaction ability, which first adds it to the combat chain as a defending card (with 0 defense) and then sets its base defense to 2. Does this trigger Shattering Flowtide's fragment ability?",
+    "expectedClaims": [
+      "No — fragment is an event-based trigger checked at the moment a card is added as a defending card; since Quickdodge Flexors had 0 defense at that moment (before its base defense was later set to 2), the fragment condition was not met and it does not trigger, even though the card is not re-added to the chain link when its defense is later increased.",
+      "This is different from a card like Intimate Inducement, which sets its base defense value first and then adds itself to the combat chain as defending, meaning it would meet a 2+ defense fragment condition at the time it defends."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-10",
+    "question": "Tyler attacks Nic with Evasive Nageboshi. In the Reaction Step, Nic activates Quickdodge Flexors' defense reaction ability. Can Nic activate this ability, and does Quickdodge Flexors end up defending or get destroyed by its own second (end-of-turn) ability?",
+    "expectedClaims": [
+      "Yes, Nic can activate Quickdodge Flexors' defense reaction ability, but because Evasive Nageboshi's effect prevents equipment/reaction cards from being added to its chain link as defending cards, Quickdodge Flexors will not be added to the chain link as a defending card when it resolves.",
+      "It will still resolve its other effects as far as possible, setting its base defense value to 2, but it does not leave the equipment zone and does not count as having defended.",
+      "Because it didn't defend, Nic's Quickdodge Flexors is not destroyed by its own ability at the beginning of the end phase."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-con-11",
+    "question": "Tyler controls Fortitude of Anvilheim and attacks Nic with Shield Beater. Nic defends with Evo Steel Soul Memory, which has 2 sub-cards underneath it. In the Reaction Step, Tyler activates and resolves Fortitude of Anvilheim, choosing the defending Evo Steel Soul Memory to return to hand. What happens to Evo Steel Soul Memory and its sub-cards?",
+    "expectedClaims": [
+      "Yes, a defending Evo action equipment card can be chosen by Fortitude of Anvilheim's effect, since Evo equipment cards can be identified by any of its types (including the action type) at all times.",
+      "Only the top card — Evo Steel Soul Memory itself — returns to Nic's hand; all sub-cards underneath it are cleared and go to Nic's graveyard."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-constructed"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-constructed/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-01",
+    "question": "In Omens of the Third Age limited formats (Sealed Deck and Booster Draft), what is the Omens of Arcana macro, and who owns or controls it?",
+    "expectedClaims": [
+      "Omens of Arcana is a shared macro placed into the arena between both players before the game begins in Omens of the Third Age limited formats (similar to Rosetta and High Seas); each hero creates a Lightning Flow token at the start of the game, and all Lightning Flow tokens have spellvoid 1.",
+      "There is only one Omens of Arcana in the game, and neither player owns or controls it — as a shared object, both players are responsible for ensuring its effects are applied correctly."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-02",
+    "question": "Tyler attacks Nic with Shattering Flowtide and Nic defends with two cards that each have 3 defense, triggering Shattering Flowtide's fragment ability twice. How and when do the two fragment triggers and Shattering Flowtide's other triggered effect resolve?",
+    "expectedClaims": [
+      "Fragment is an event-based trigger: for each card with at least 2 defense that defends the attack, a fragment trigger goes on the stack.",
+      "When the first fragment trigger resolves, Shattering Flowtide's other triggered effect (which checks whether a card has fragmented) triggers and goes on the stack above the second fragment trigger; when that effect resolves, the second fragment trigger is then on top of the stack and resolves.",
+      "Once a fragment trigger is on the stack it will resolve even if the defending card is later removed from the chain link or its defense is reduced below 2."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-03",
+    "question": "Tyler attacks Nic with Shattering Flowtide. In the Reaction Step, Nic plays Flittering Forcefield (blue), which will have at least 2 defense when it becomes defending. Separately, if Nic instead plays Flittering Forcefield with only 1 defense and then later increases its defense to 2 with an instant, does fragment trigger in either case?",
+    "expectedClaims": [
+      "If Flittering Forcefield has at least 2 defense at the moment it becomes a defending card, fragment triggers.",
+      "If Flittering Forcefield has only 1 defense at the moment it becomes defending, and its defense is later increased to 2 by playing an instant, fragment does NOT trigger — a card must have 2 or more defense at the time it defends for the fragment effect to trigger."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-04",
+    "question": "Tyler activates Oscilio, Scion of the Third Age and discards Cosmic Suture (an instant with starfall) on their own turn, but has not yet put an instant into their graveyard that turn. Tyler then plays Cosmic Suture, declaring Nic as the target for its starfall effect, and before it resolves, activates Oscilio again to discard another instant card. Does Cosmic Suture's starfall effect deal arcane damage to Nic?",
+    "expectedClaims": [
+      "Yes — targets for a card with starfall must be declared when the card is played (as it goes on the stack) even if the starfall condition isn't met yet, because there is still a window (e.g. discarding another instant, or playing an instant) to meet the condition before the card resolves.",
+      "Since Tyler discarded another instant card before Cosmic Suture resolved, an instant had been put into Tyler's graveyard that turn, so starfall's conditional effect is met and Cosmic Suture deals 1 arcane damage to Nic."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-05",
+    "question": "Tyler plays Mercurial Skies, then attacks Nic with Dashing Flashfoot (which gains go again from Mercurial Skies' continuous effect before it resolves). Does Dashing Flashfoot's quickstrike ability grant it the 'when this attacks a hero, deal 1 arcane damage' effect, and does that trigger deal damage to Nic?",
+    "expectedClaims": [
+      "Yes — quickstrike checks whether the card has go again; since Dashing Flashfoot has go again by the time it attacks (from Mercurial Skies), it gains the 'When this attacks a hero, deal 1 arcane damage to them' ability, which triggers on the attack event and deals 1 arcane damage to Nic when it resolves.",
+      "Quickstrike works best when a card gains go again before it resolves on the stack (e.g. via Embodiment of Lightning or Mercurial Skies) so the granted on-attack trigger has a chance to occur."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-06",
+    "question": "In a non-limited game, Tyler attacks Nic with Dashing Flashfoot, which does not have go again initially. Nic doesn't defend or prevent damage; in the Reaction Step, Tyler plays Razor Reflex targeting Dashing Flashfoot, which then hits and gains go again from Razor Reflex. Does Dashing Flashfoot's quickstrike-granted 'when this attacks a hero, deal 1 arcane damage' ability trigger and deal the extra damage retroactively?",
+    "expectedClaims": [
+      "No — quickstrike evaluates that Dashing Flashfoot has go again (from Razor Reflex) and grants it the 'when this attacks a hero, deal 1 arcane damage' ability, but because the attack event has already occurred by that point, the trigger does not go on the stack and the damage is not retroactively applied."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-07",
+    "question": "Tyler plays Arcanic Cunning with go again. Before it resolves on the stack, Nic activates the instant ability of Nebula Duality to deal 1 arcane damage to Tyler. Does Arcanic Cunning's prevention effect apply to this arcane damage even though Arcanic Cunning hasn't resolved yet?",
+    "expectedClaims": [
+      "Yes — Arcanic Cunning's ability is functional as soon as it is played (while on the stack), and lasts until it leaves the combat chain when the chain closes, so it prevents 1 of each arcane damage event directed at Tyler's hero throughout that window regardless of the damage's source.",
+      "Because Arcanic Cunning was already on the stack when Nebula Duality's instant ability dealt arcane damage, Tyler prevents 1 of that damage and takes none."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-08",
+    "question": "Tyler attacks with Cosmic Duality; before the Damage Step, Tyler plays Auric Shards, which enters the arena and targets Cosmic Duality for +1 power. Tyler then activates Zyggy's ability to banish Auric Shards and return it to the arena with a holo counter, at which point it again targets Cosmic Duality for +4 power. Does Cosmic Duality get both bonuses, and can Auric Shards' two enter-the-arena effects also target two different attacks in the same combat chain?",
+    "expectedClaims": [
+      "Yes — Auric Shards' triggered enter-the-arena effect creates a lasting power increase that continues to apply even after Auric Shards leaves the arena or the original conditions are no longer met, so both instances (the initial +1 and the holo-counter +4) can apply, giving Cosmic Duality +5 total in this example.",
+      "Auric Shards re-entering with a holo counter can, but is not required to, target the same attack again — in a separate example, when Tyler attacks with Pulsing Cardia (getting +1 from the first Auric Shards trigger) and later Cosmic Duality (getting +4 from the holo-counter re-entry), each attack keeps its own respective bonus."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-09",
+    "question": "Tyler attacks Nic, who plays Flittering Forcefield in the Reaction Step. After it becomes defending, Nic activates the instant ability of Cosmic Duality to deal 1 arcane damage and create a Lightning Flow token. Does Flittering Forcefield gain +1 defense from this?",
+    "expectedClaims": [
+      "No — Flittering Forcefield only gains +1 defense if an instant card was played during the same chain link; activating an instant ability of an action card (like Cosmic Duality) does not count as playing an instant card, since no instant card was played.",
+      "By contrast, if Nic plays and resolves an actual instant card such as Sigil of Astral Flow earlier in the same chain link (e.g. during the Attack Step) and then plays Flittering Forcefield in the Reaction Step, Flittering Forcefield will get +1 defense when it resolves, because an instant was played during that chain link."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-10",
+    "question": "Tyler attacks Nic with Cosmic Duality, threatening 7 damage. Nic controls Flicker Reality and Corrosive Space Dust, neither with holo counters. In the Damage Step, Nic applies Flicker Reality's ward 1 (which triggers Flicker Reality leaving the arena) and then Corrosive Space Dust's Ward X. If Flicker Reality leaving the arena from ward would normally put a holo counter on another aura, does that holo counter apply in time to boost Corrosive Space Dust's Ward X for this same damage event?",
+    "expectedClaims": [
+      "No — Flicker Reality's 'leaves the arena' trigger goes on the stack only the next time players would receive priority, which for a replacement effect like ward is after the current damage event has completed, so any holo-counter-dependent ward increase on another aura is not available in time for that same damage event.",
+      "In the example, the final damage calculation is 7 minus ward 1 (Flicker Reality) minus ward 1 (Corrosive Space Dust, without a holo counter) = 5 damage."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-omens-ltd-11",
+    "question": "Tyler attacks Nic, who defends with Prophetic Quickstep and then activates Snap Fingers to have Prophetic Quickstep deal 1 arcane damage to the defending hero (Nic). Can Snap Fingers target a defending Lightning Attack Action card this way, and does Prophetic Quickstep's Ponder-token-creating ability trigger from this damage?",
+    "expectedClaims": [
+      "Yes, Snap Fingers can target a defending Lightning Attack Action card, but since the target is the defending hero, the defending player (Nic) deals the 1 arcane damage to themself.",
+      "No Ponder token is created, because Prophetic Quickstep's ability to create a Ponder token the first time it deals damage is not functional while it is defending (cards that care about being the source of damage for a beneficial effect are not functional while defending unless stated otherwise)."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-omens-of-the-third-age-limited"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-omens-of-the-third-age-limited/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-01",
+    "question": "In Bright Lights, which cards go into the main deck at the start of the game (deck-cards) versus which can be equipped at the start of the game (arena-cards)? Specifically, what about Evo and Base Evo cards, which have the Action or Instant type?",
+    "expectedClaims": [
+      "Cards with the type 'Action Equipment' or 'Instant Equipment' are deck-cards and start the game in the main deck, because they have the Action or Instant type — they cannot be equipped to equipment zones at the start of the game.",
+      "In Bright Lights, only Evo cards and Base Evo cards have the Action or Instant types; cards with just the type Equipment (no Action/Instant) are arena-cards, can be equipped at the start of the game, and must be removed from the deck before shuffling to start the game."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-02",
+    "question": "Can you defend with an Evo card from your hand in Bright Lights, and do abilities like Temper, Blade Break, and Battleworn trigger when you do?",
+    "expectedClaims": [
+      "Yes — a card in hand with a defense value can defend (except defense reactions, which must be played), and since Evo cards in Bright Lights are either Action Equipment or Instant Equipment, they can be used to defend from hand and count as both an action/instant card and an equipment card (e.g. overpower prevents defending with more than one action card, so you must choose between an equipped Action Equipment Evo and one in hand).",
+      "Cards in hand don't count as being 'controlled', so an Evo in hand doesn't satisfy an effect requiring you to defend with equipment you control.",
+      "Abilities like Temper, Blade Break, and Battleworn don't trigger when you defend with an Evo card from hand (its text box is effectively treated as empty in that case), but they do trigger normally once the Evo is equipped and defends as a permanent."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-03",
+    "question": "How do you transform and equip an Evo card in Bright Lights, and what happens to 'sub-cards' placed underneath it (e.g. a Hyper Driver underneath Hyper-X3)?",
+    "expectedClaims": [
+      "Evo cards resolve by putting the Base card (and any other required cards) physically underneath the Evo card, then placing the stack in the respective equipment zone; you can still play an Evo without the required Base equipped, but nothing happens and the Evo goes to the graveyard.",
+      "Cards placed underneath other cards (sub-cards) are not considered to be in the arena — they aren't controlled and can't be targeted by effects (e.g. a Hyper Driver as a sub-card under Hyper-X3 doesn't trigger its own effects and can't be found by effects looking for a Hyper Driver you control).",
+      "If the Base being transformed already has sub-cards of its own, all of those cards move underneath the new Evo as well (the same applies to cards like Construct Nitro Mechanoid, stacking even more cards)."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-04",
+    "question": "What happens to counters or continuous effects that were applied to a Base equipment card when it is transformed into its Evo and put underneath it as a sub-card?",
+    "expectedClaims": [
+      "The Base 'resets' when transformed and put underneath another card as a sub-card — it becomes a fresh card and loses all counters and effects that had applied to it before the transformation."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-05",
+    "question": "Can a player prevent Battleworn, Blade Break, or Temper from triggering on a defending Base equipment card by transforming it into its Evo before those end-of-chain-link abilities resolve, e.g. using an ability like Teklovossen's?",
+    "expectedClaims": [
+      "Yes — if the Base is declared as a defending card, a player can wait until after damage is calculated and dealt, then transform it (e.g. via Teklovossen's ability) during the Resolution step or Link step of combat; the resulting Evo equipment is no longer defending on the combat chain because it 'forgets' that it defended, and does not automatically become a defending card itself."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-06",
+    "question": "What happens to the sub-cards underneath an Evo card when that Evo is destroyed, banished, or otherwise leaves the arena?",
+    "expectedClaims": [
+      "When an Evo leaves the arena (destroyed, banished, or otherwise), any sub-cards underneath it are 'cleared' — non-token sub-cards go to their owner's graveyard, while token sub-cards simply cease to exist and are removed from the game rather than going to the graveyard."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-07",
+    "question": "Are tokens placed as sub-cards underneath an Evo still considered cards for game purposes?",
+    "expectedClaims": [
+      "Yes — a token is just a special type of card (distinguished by having the token type, not to be confused with token rarity); when a token card would be put into a zone outside the arena, such as the graveyard or banished zone, it simply ceases to exist and is removed from the game."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-08",
+    "question": "How does the Singularity // Teklovossen, the Mechropotent transformation work — what happens to a player's hero, weapon, and Evos when Singularity is played, and what are the key properties and risks of the resulting Mechropotent demi-hero?",
+    "expectedClaims": [
+      "Playing Singularity transforms the player's hero, weapon, and 4 equipped Evos into the Mechropotent demi-hero: Singularity flips to its back face and all 6+ cards go underneath it as its 'soul'; any effects previously applied to the hero (e.g. Dishonor) do not carry over since it's a brand new hero entering the arena, and if the player lacks the requisite cards to complete the transform, Singularity simply goes to the graveyard.",
+      "The Mechropotent has the Shadow talent (meaning it can't be your starting hero, so Shadow cards can't be in your card-pool for formats like Classic Constructed or Blitz), and because it is an Equipment-type card it is vulnerable to effects that target equipment — if it is destroyed or banished, the player has no hero and loses the game.",
+      "The Mechropotent is the first hero with printed attack and defense: its activated ability lets it attack (at a resource/soul-banishing cost, with no activation limit, so it can attack multiple times per turn if resources allow) forcing the opponent to discard a card before blocking; it can also defend, but remains defending on its chain link until the chain closes and then takes a -1 defense counter from Battleworn (reaching 0 defense doesn't lose the game, it just stops providing defensive value).",
+      "The Mechropotent's ability that it 'counts as having 4 Evos equipped' adds 4 to the count for effects like Evo Upgrade abilities (e.g. reducing Liquid-Cooled Mayhem's cost by 4), but the Mechropotent itself is not actually equipped for purposes of effects conditional on Evos being equipped."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-09",
+    "question": "What does Adaptive Plating's new Modular ability do, and to which equipment zones can it be equipped?",
+    "expectedClaims": [
+      "Modular lets Adaptive Plating be equipped to any of the four main equipment zones (Head, Chest, Arms, or Legs), taking on the subtype of whichever zone it's equipped to — it cannot be equipped to a weapon zone as an off-hand or quiver, since those aren't among the four main zones.",
+      "A player could start the game with up to three Adaptive Plating equipped in different zones, though it probably isn't beneficial to do so.",
+      "Once equipped, Adaptive Plating's activated ability lets it move to another equipment zone, but only if that zone is empty; when it moves, it again takes on the subtype of its new zone."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-10",
+    "question": "How does Twin Drive's boost mechanic work — can you boost once, look at the result, and then decide whether to boost a second time (e.g. with Dash I/O or Dash, Database)? And what happens if you boost twice and banish two Mechanologist cards?",
+    "expectedClaims": [
+      "No — when playing Twin Drive, before paying any costs you must declare up front how many times you want to boost it (0, 1, or 2); you cannot boost once, see the result, and then decide whether to boost again.",
+      "Boosting twice and banishing two Mechanologist cards does not grant 2 action points — go again only ever grants 1 action point regardless of how many times a card gets it — but boosting twice does trigger effects that care about boosting twice, still lets you gain go again if a boosted card is a Mechanologist card, and counts as two boosts for effects that track how many times you've boosted that combat chain/turn."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-bright-lights-11",
+    "question": "How do Block cards (like Firewall, Teklonetic Force Field, Cognition Field, and Steel Street Enforcement) work in Bright Lights, and can they defend from the arsenal?",
+    "expectedClaims": [
+      "Block cards are a new card type with a defense value and pitch value but no cost — they can't be played, only pitched for resources or declared as defending cards during the defend step just like any other hand card or controlled equipment (unlike defense reactions, which are played during the reaction step and then become defending cards on the chain link).",
+      "None of the block cards in Bright Lights have the ambush keyword, so they cannot defend from the arsenal — if a block card is placed in the arsenal it may get stuck there for the rest of the game."
+    ],
+    "groundingChunkIds": ["rules/reprise/rules-reprise-17-bright-lights"],
+    "sourceUrl": "https://fabtcg.com/articles/rules-reprise-17-bright-lights/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-01",
+    "question": "It's the first turn of the game. Tyler passes priority without playing anything, hoping to end their turn. Perry, playing Kano, activates Kano's ability and passes priority; Tyler passes back, letting it resolve (Perry looks at the top card and doesn't banish it). Now that the layer has resolved, can Tyler still act, even though they passed priority earlier?",
+    "expectedClaims": [
+      "Yes — because the chain is now empty and Tyler (the turn player) still has 1 action point remaining, they regain the ability to play or activate actions or instants; passing priority earlier on an empty chain does not end the turn.",
+      "The turn only ends once the chain is empty and both players pass priority in succession without playing or activating anything."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-02",
+    "question": "Tyler, playing Dorinthea, plays and resolves Warrior's Valor, then attacks Perry with Dawnblade (which hits, undefended). Tyler has 1 action point left and passes priority instead of attacking again, hoping to end the turn and arsenal their last card. Perry (now active) plays and resolves Sigil of Solace, gaining life; both players pass. Can Tyler still attack again with Dawnblade after Sigil of Solace resolves?",
+    "expectedClaims": [
+      "Yes — because the chain is empty again after Sigil of Solace resolves and Tyler still has 1 action point remaining, Tyler regains priority and has the opportunity to attack with Dawnblade again if they choose, even though they had passed priority earlier hoping to end the turn."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-03",
+    "question": "Perry has a card in their arsenal. Tyler attacks Perry with Command and Conquer, which hits undefended (its ability destroys the defending hero's arsenal on hit). By when must Tyler announce this triggered effect before it's considered missed?",
+    "expectedClaims": [
+      "The triggered effect must be announced at or before the point it becomes relevant to the current game state — since Command and Conquer's ability is immediately relevant (it destroys the arsenal on hit), it must be announced before the end of the chain link resolution step, in practice before Tyler signals to end their turn (having no more action points or instants to play)."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-04",
+    "question": "Perry is playing Rhinar. Tyler attacks Perry with Crush Confidence, which hits undefended and deals 4+ damage (triggering Crush). Tyler doesn't announce the trigger at that point. Tyler ends their turn; on Perry's turn, Perry plays Wrecker Romp, discarding a 6-power card. At this point is Tyler still able to announce that Crush Confidence's effect is active (denying Perry's hero abilities), or has it been missed?",
+    "expectedClaims": [
+      "Because the Crush trigger from Crush Confidence was not relevant at the moment it occurred, Tyler was not required to announce it immediately.",
+      "Tyler is required to announce the triggered effect once it becomes relevant — when Perry plays Wrecker Romp and needs to know whether their hero abilities are denied — and can still do so at that point (if not already announced); only failing to announce it by the point it becomes relevant would count as a missed trigger."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-05",
+    "question": "Perry controls Ursur, the Soul Reaper (an Ally). Tyler attacks Ursur with Herald of Judgment, which hits. Herald of Judgment's ability triggers, putting itself into Tyler's hero's soul, and its second effect tries to prevent 'the defending hero' from playing cards from their banished zone next action phase. Does this second effect apply to Perry, since there is no defending hero when attacking an Ally?",
+    "expectedClaims": [
+      "No — when attacking an Ally, there is no 'defending hero' (this is also why an Ally's controller can't use cards to defend it), so any effect referencing the defending hero for that chain link fails because its subject doesn't exist.",
+      "Herald of Judgment's first effect (putting itself into Tyler's hero's soul) still resolves successfully, but the second effect referencing 'the defending hero' fails, so Perry may continue playing cards from their banished zone if another effect permits it."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-06",
+    "question": "Tyler has 1 action point and plays Ravenous Rabble (which has go again) targeting Perry's Arc Light Sentinel, which has Spectra. Spectra triggers and resolves, closing the combat chain during the Attack Step (four steps before the Resolution step). Does Tyler gain an action point from Ravenous Rabble's go again?",
+    "expectedClaims": [
+      "No — Go Again grants an action point when the object resolves, specifically at the end of the resolution step of combat; because Spectra's triggered ability closes the chain during the Attack Step (before the resolution step is ever reached), the attack's go again ability never resolves, so Tyler gains no action point and has priority but no action points remaining."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-07",
+    "question": "Perry controls Stamp Authority. Tyler attacks Perry with Crippling Crush, which is undefended and deals 11 damage (4+ triggering Crush). Does Crush's ability trigger?",
+    "expectedClaims": [
+      "No — Stamp Authority prevents abilities on an attack action card from triggering due to a 'hit' during the damage calculation step; since Crush is such an ability and the damage was dealt during the damage calculation step, Stamp Authority prevents it from triggering even though the attack hit and dealt 11 damage."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  },
+  {
+    "id": "reprise-road-nats-08",
+    "question": "Perry controls Stamp Authority. Tyler attacks Perry with Snatch and plays Razor Reflex targeting Snatch. Perry doesn't defend or prevent damage and the attack hits. Do Snatch's own on-hit ability (draw a card) and the on-hit ability granted by Razor Reflex both trigger?",
+    "expectedClaims": [
+      "No — Stamp Authority prevents both on-hit triggered abilities from triggering: Snatch's own ability doesn't trigger (so Tyler doesn't draw a card), and the effect granted by Razor Reflex also doesn't trigger because it becomes an ability on the Snatch card itself and is treated as Snatch's own ability, which Stamp Authority also prevents."
+    ],
+    "groundingChunkIds": ["rules/reprise/more-quick-questions-road-nationals-rules-reprise"],
+    "sourceUrl": "https://fabtcg.com/articles/more-quick-questions-road-nationals-rules-reprise/",
+    "adjudicationCritical": false
+  }
+]
