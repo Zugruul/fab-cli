@@ -88,4 +88,19 @@ describe("pipeline no-commit guard", () => {
     expect(isGitIgnored("pipeline/vision-runs/some-run/state.json")).toBe(false);
     expect(isGitIgnored("pipeline/vision-runs/some-run/config.json")).toBe(false);
   });
+
+  // APP-028: the recognition embedder is a SIBLING job in the SAME
+  // pipeline/train-vision/ package and pipeline/vision-runs/ runs dir as
+  // the detector (no new output directory was introduced) -- these prove
+  // the existing guards already cover its artifact names too.
+  it("git-ignores embedder checkpoints/tflite files under an embedder run's output/ dir", () => {
+    expect(isGitIgnored("pipeline/vision-runs/some-embed-run/output/checkpoint.pt")).toBe(true);
+    expect(isGitIgnored("pipeline/vision-runs/some-embed-run/output/embedder.tflite")).toBe(true);
+    expect(isGitIgnored("pipeline/vision-runs/some-embed-run/manifest.json")).toBe(false);
+  });
+
+  it("git-ignores ad hoc local embedder train/export output under pipeline/out/", () => {
+    expect(isGitIgnored("pipeline/out/embed-vision-smoke/checkpoint.pt")).toBe(true);
+    expect(isGitIgnored("pipeline/out/embed-vision-smoke/embedder.tflite")).toBe(true);
+  });
 });
