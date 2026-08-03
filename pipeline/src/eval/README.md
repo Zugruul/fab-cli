@@ -81,6 +81,15 @@ npm run eval -- release --version 2.0.0 --previous-version 1.4.0 \
   and block the release — an unfilled template can never pass as a silent approval. A recorded
   `BLOCK` verdict blocks the release outright regardless of what the automated suites say; only
   a recorded `APPROVE` clears this check.
+- **Ambiguity refuses, never guesses**: `extractAuditVerdict` collects EVERY `Verdict:` match in
+  the document, not just the first — a version that took only the first match let a stale
+  `Verdict: APPROVE` left in place above a corrected `Verdict: BLOCK` silently resolve APPROVE
+  (the unsafe direction). More than one DISTINCT verdict anywhere in the document — including a
+  stray `Verdict:`-shaped mention outside `## Sign-off` — is refused as `kind: "ambiguous"` and
+  blocks the release with a "conflicting sign-off verdicts" reason, never resolved by picking
+  either one. **Identical duplicate lines are accepted, not treated as ambiguous** — the same
+  verdict repeated twice carries no conflicting signal, so refusing it would only make
+  legitimate re-emphasis (e.g. quoting the verdict twice) fail closed for no safety benefit.
 - **Version parsing is a runtime guard, not just a TS type**: `--version`/`--previous-version`
   must be strict `MAJOR.MINOR.PATCH` (no `v` prefix, no pre-release suffix) — a malformed
   version decides whether the audit gate applies at all, so it throws loudly

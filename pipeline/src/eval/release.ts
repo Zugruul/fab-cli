@@ -58,19 +58,45 @@ export function isMajorVersionBump(candidateVersion: string, previousVersion: st
 
 export type AuditVerdict = "APPROVE" | "BLOCK";
 
-const VERDICT_RE = /Verdict:\s*(APPROVE|BLOCK)\b/i;
+/**
+ * `extractAuditVerdict`'s result, discriminated so the gate can give a
+ * distinct "ambiguous audit record" reason rather than lumping it in with
+ * a plain "no completed sign-off".
+ */
+export type AuditVerdictExtraction =
+  | { readonly kind: "none" }
+  | { readonly kind: "single"; readonly verdict: AuditVerdict }
+  | { readonly kind: "ambiguous"; readonly verdicts: readonly AuditVerdict[] };
+
+const VERDICT_RE_G = /Verdict:\s*(APPROVE|BLOCK)\b/gi;
 
 /**
  * Reads the human auditor's sign-off verdict out of a completed audit
- * record (see release-audits/TEMPLATE.md's "## Sign-off" section). Returns
- * null for anything that isn't a completed verdict — including the
- * template's own unfilled `Verdict: <APPROVE | BLOCK>` placeholder, which
- * must never be mistaken for a real sign-off.
+ * record (see release-audits/TEMPLATE.md's "## Sign-off" section).
+ *
+ * Collects EVERY `Verdict:` match in the document rather than taking the
+ * first one — a previous version took only the first match, so a stale
+ * `Verdict: APPROVE` left in place above a corrected `Verdict: BLOCK`
+ * silently resolved APPROVE (the unsafe direction: a corrected block
+ * getting overridden by a stale approval). More than one DISTINCT verdict
+ * anywhere in the document is refused as "ambiguous" rather than guessed —
+ * this also covers a stray `Verdict:`-shaped mention outside the Sign-off
+ * section, since any spurious match either agrees with the real one
+ * (harmless) or disagrees (correctly refused, never silently approved).
+ * Identical duplicate lines (the same verdict repeated, e.g. quoted twice)
+ * carry no conflicting signal and are accepted as a single verdict, not
+ * treated as ambiguous.
+ *
+ * `kind: "none"` covers anything that isn't a completed verdict — no match
+ * at all, or the template's own unfilled `Verdict: <APPROVE | BLOCK>`
+ * placeholder, which must never be mistaken for a real sign-off.
  */
-export function extractAuditVerdict(content: string): AuditVerdict | null {
-  const match = VERDICT_RE.exec(content);
-  if (!match) return null;
-  return match[1].toUpperCase() as AuditVerdict;
+export function extractAuditVerdict(content: string): AuditVerdictExtraction {
+  const matches = Array.from(content.matchAll(VERDICT_RE_G), (m) => m[1].toUpperCase() as AuditVerdict);
+  if (matches.length === 0) return { kind: "none" };
+  const distinct = [...new Set(matches)];
+  if (distinct.length > 1) return { kind: "ambiguous", verdicts: distinct };
+  return { kind: "single", verdict: distinct[0] };
 }
 
 export interface ReleaseGateBreach {
@@ -122,14 +148,20 @@ function checkAuditRequirement(auditRecordPath: string | null, readAuditRecord: 
       message: `candidate is a MAJOR version bump: audit record not found at "${auditRecordPath}"`,
     };
   }
-  const verdict = extractAuditVerdict(content);
-  if (verdict === null) {
+  const extraction = extractAuditVerdict(content);
+  if (extraction.kind === "none") {
     return {
       clause: "8.5-audit",
       message: `candidate is a MAJOR version bump: audit record at "${auditRecordPath}" has no completed sign-off ("Verdict: APPROVE" or "Verdict: BLOCK")`,
     };
   }
-  if (verdict === "BLOCK") {
+  if (extraction.kind === "ambiguous") {
+    return {
+      clause: "8.5-audit",
+      message: `candidate is a MAJOR version bump: audit record at "${auditRecordPath}" is ambiguous — found conflicting sign-off verdicts (${extraction.verdicts.join(", ")}); resolve to a single verdict before release`,
+    };
+  }
+  if (extraction.verdict === "BLOCK") {
     return {
       clause: "8.5-audit",
       message: `human-audited sample review recorded verdict BLOCK for this candidate (see "${auditRecordPath}")`,
