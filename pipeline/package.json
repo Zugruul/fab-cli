@@ -12,6 +12,7 @@
     "gate": "npm run typecheck && npm run test:run",
     "export": "tsx src/cli.ts",
     "qa:generate": "tsx src/qa/cli.ts",
+    "qa:smoke": "tsx src/qa/smoke.ts",
     "behavior:build": "tsx src/behavior/cli.ts",
     "qa:sample": "tsx src/sampling/cli.ts",
     "dataset:build": "tsx src/dataset/cli.ts",
