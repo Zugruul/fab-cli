@@ -21,6 +21,14 @@ into §9 on merge).
 - `fab-app/src/i18n/` (#217) — app-language layer: framework init + `en`/`pt-BR` resource
   bundles + system-locale detection + persisted manual override. UI strings only; corpus /
   model answers stay English (v1).
+- `fab-app/scripts/testflight-release.sh` + `fab-app/scripts/testflight/` (#144 APP-036, §9.10)
+  — the iOS distribution pipeline: one-command archive → export → upload straight to App Store
+  Connect (`xcodebuild archive` + the unified Xcode 15+ `-exportArchive` export/upload flow,
+  API-key auth, cloud-managed signing), with the preflight/plist-generation/log-redaction logic
+  split into a gate-tested `lib.ts` (jest, hermetic — no xcodebuild, no network) behind a small
+  `cli.ts` dispatcher the bash script shells out to. `docs/ios-distribution.md` covers running
+  it, env vars, and adding a new internal TestFlight tester. Not part of `npm run gate` (same
+  "native builds are slow, gate is network-off" reasoning as the rest of `ios/`).
 
 ## Data models
 
