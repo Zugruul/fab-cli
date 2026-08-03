@@ -5812,6 +5812,7 @@ _(no notes)_
 - **inspect-lane-on-silent-idle** — [agents, process, concurrency]
 - **lean-vs-briefed-identity-validation** — [brains, validation, identities, pattern]
 - **lesson-compounding-value** — [process, brains, methodology]
+- **moment-of-action-enforcement-beats-brief-text** — [briefing, tdd, enforcement]
 - **no-chained-board-moves** — [board, hooks, process]
 - **nudge-idle-subagents** — [concurrency, subagents, workflow]
 - **peer-agent-cleanup-requires-authorization** — [process, permissions, concurrency]

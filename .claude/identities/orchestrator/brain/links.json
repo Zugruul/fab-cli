@@ -18,5 +18,15 @@
     "fires": 0,
     "last": null,
     "weight": 0.5
+  },
+  "moment-of-action-enforcement-beats-brief-text->bookkeeping-commits-only-on-main": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "moment-of-action-enforcement-beats-brief-text->briefs-must-inject-recall": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }

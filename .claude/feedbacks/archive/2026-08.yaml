@@ -1466,3 +1466,84 @@ items:
     action: upstream
     ref: 'surfaced-to-human 2026-08-03 (board.sh enqueue/replay validation asymmetry;
       proposal: validate option names before enqueueing deferred mutations)'
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T21:10:00Z'
+iteration:
+  task: APP-027
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: friction
+  area: briefing
+  severity: medium
+  summary: Injected TDD lesson did not prevent a first-pass red-first violation; enforcement
+    arrived at review time
+  detail: 'The red-commit-only-tests lesson was in the dev brief, yet the dev built
+    test+impl in tight loops and committed them together; the orchestrator caught
+    it pre-review and routed a history rewrite. Dev''s own retro: the lesson needed
+    to fire at the first git add, not exist as brief text read hours earlier.'
+  generalized: Brief-injected process lessons decay by the time the moment they guard
+    arrives; process rules that guard a specific mechanical moment (the first commit
+    of a feature) need enforcement at that moment — e.g. a pre-commit staged-set check
+    that flags mixing test and non-test paths — with the brief text as explanation,
+    not as the enforcement.
+  proposal:
+    target: spec-workflow scripts
+    change: optional pre-commit staged-set check flagging commits that mix tests/**
+      with implementation paths before any red commit exists on the branch
+  routing:
+    action: brain-note
+    ref: orchestrator/moment-of-action-enforcement-beats-brief-text
+- category: worked-well
+  area: review
+  severity: low
+  summary: Reviewer executed the load-bearing mechanism claim instead of reading it
+  detail: Reviewer deliberately broke an implementation function and watched the newly-wired
+    Python test gate go red, proving the gate gates; also validated license claims
+    against installed package metadata and bundled LICENSE files.
+  generalized: Asking reviewers to verify mechanism claims by execution (break, observe
+    failure, restore) reliably converts wiring claims into verified facts and catches
+    silent no-op wiring that reading cannot.
+  routing:
+    action: brain-note
+    ref: reviewer/execute-load-bearing-mechanism-claims
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Brief inaccuracy was absorbed by a grounding-first instruction
+  detail: The brief wrongly implied an existing training-dispatch capability covered
+    vision; the dev grounded against the dispatcher's own docs, found it LLM-specific,
+    built against the capability-agnostic layer with a fake dispatcher, and documented
+    the gap honestly instead of faking a dispatch.
+  generalized: Briefs should mandate grounding claims against the referenced code
+    and explicitly authorize honest divergence-with-documentation; a dev that verifies
+    the brief beats a brief that tries to be perfect.
+  routing:
+    action: ignore
+    ref: already captured by orchestrator note briefs-state-conventions-not-file-targets
+      + the minted dev grounding practice; no new routing target
+- category: recommendation
+  area: other
+  severity: medium
+  summary: Vision-training capability bundle missing on the GPU host
+  detail: The training dispatch TS layer is ready but no vision-training job bundle
+    exists in the remote-compute capability (only LLM sft/export/eval); the full-scale
+    detector training run is blocked on adding one.
+  generalized: When a task family expands to a new workload type, the remote-compute
+    capability bundle needs a matching job definition ahead of the first full-scale
+    run; track the bundle addition as its own cross-repo work item instead of leaving
+    it implicit in a QA leg.
+  proposal:
+    target: development-skills slm-training capability
+    change: add a vision-training job (train + export + summary contract matching
+      pipeline/train-vision)
+  routing:
+    action: upstream
+    ref: 'surfaced-to-human 2026-08-03 (development-skills: add a vision-training
+      job bundle to the slm-training capability so APP-027''s full-scale run can dispatch;
+      TS side ready)'
