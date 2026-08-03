@@ -1,5 +1,6 @@
 // Shared fixtures/mocks for the qa.*.test.ts suite (APP-011). Not itself a
 // test file — vitest's default include pattern only picks up *.test.ts.
+import { spawn as nodeSpawn, type ChildProcess, type SpawnOptions } from "node:child_process";
 import type { Chunk } from "../src/types.js";
 import type { TeacherClient, TeacherRequest, TeacherResponse } from "../src/qa/types.js";
 
@@ -84,4 +85,25 @@ export function extractChunkIdFromUserPrompt(user: string): string {
 
 export function noopSleep(): Promise<void> {
   return Promise.resolve();
+}
+
+/**
+ * Builds an injectable spawn function (matching node:child_process's
+ * `spawn` signature) that ALWAYS runs the given fake-claude fixture script
+ * under the current node binary instead of the real `claude` — the same
+ * "never touch the real transport in tests" discipline as
+ * makeMockTeacher/AnthropicTeacherClient's injectable client, just for
+ * ClaudeCodeTeacherClient's process-spawning transport (issue #223).
+ * `extraEnv` merges into the fixture's environment (e.g. state-file paths
+ * for the stateful flaky/always-fail fixtures).
+ */
+export function fixtureSpawnFn(
+  fixturePath: string,
+  extraEnv: Record<string, string> = {},
+): (command: string, args: readonly string[], options?: SpawnOptions) => ChildProcess {
+  return (_command, args, options) =>
+    nodeSpawn(process.execPath, [fixturePath, ...args], {
+      ...options,
+      env: { ...process.env, ...extraEnv },
+    });
 }
