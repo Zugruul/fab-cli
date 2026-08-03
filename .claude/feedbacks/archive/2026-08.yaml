@@ -1219,3 +1219,57 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/prose-dependency-lines-slot-deadlock-guard
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T05:20:00Z'
+iteration:
+  task: '221'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: other
+  severity: low
+  summary: A self-clearing gate probe (SSH reachability each wakeup) resumed a parked
+    pipeline the moment a human powered a machine on, with no reply round-trip
+  detail: 'The gate-watch loop probed the remote box each wakeup; when the human powered
+    it on (without replying to the issue), the next probe detected it, ran the pre-staged
+    live smoke on both real artifacts (green, zero orphan processes), and merged the
+    already-approved PR minutes later.
+
+    '
+  evidence:
+  - fab-cli#221
+  generalized: 'Where a human gate has a machine-observable success condition (a host
+    answering SSH, a file appearing, a role taking effect), the loop should probe
+    the condition itself each wakeup rather than waiting for a human reply - gates
+    clear faster and the human''s minimal action (flip a switch) suffices.
+
+    '
+  routing:
+    action: brain-note
+    ref: self-clearing gate probing validated; pattern recorded in orchestrator pre-stage
+      note + session reports
+- category: worked-well
+  area: merge
+  severity: low
+  summary: Pre-staging a parked merge (rebase + fresh gate while waiting) reduced
+    the resume path to exactly the gated verification step
+  detail: 'With the branch already rebased onto current main and gate-green, resuming
+    after the gate cleared required only the live smoke and the merge command.
+
+    '
+  evidence:
+  - fab-cli#221
+  generalized: 'Review-approved tasks parked on external gates should have their merge
+    freshness pre-staged (rebase onto current mainline + full gate on the rebased
+    tree) while parked, so resume cost is only the gated step itself.
+
+    '
+  routing:
+    action: brain-note
+    ref: orchestrator/pre-stage-parked-merges-rebase-and-regate-while-waiting
