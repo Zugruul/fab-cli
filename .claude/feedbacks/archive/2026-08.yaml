@@ -991,3 +991,83 @@ items:
   routing:
     action: brain-note
     ref: reviewer/ts-bypass-mutation-for-invariant-bearing-required-fields
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T03:05:00Z'
+iteration:
+  task: '134'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Parallel content-transcription subagents with central post-hoc validation
+    produced a large faithful dataset with zero coordination overhead
+  detail: 'Four subagents each owned a disjoint set of source articles and output
+    files; the dev validated schema, ids, source links, and duplicates centrally afterward.
+    141 faithful items, zero duplicates, round-1 review approval with a stratified
+    faithfulness spot-check finding nothing.
+
+    '
+  evidence:
+  - fab-cli#134
+  generalized: 'For committed-content deliverables, fan out transcription by disjoint
+    source partitions with per-partition output files and validate centrally afterward
+    - coordination-free parallelism plus a single validation choke point beats shared-file
+    collaboration.
+
+    '
+  routing:
+    action: brain-note
+    ref: dev/reprise-transcription-batch-pattern-and-density
+- category: friction
+  area: review
+  severity: low
+  summary: Proving a red commit was genuinely red requires a second full dependency
+    install in a second worktree
+  detail: 'The reviewer reproduced the red state at the test-only commit in its own
+    worktree, costing another full package install for what is a routine verification.
+    A documented fast-path (checkout file from SHA + reuse the current worktree''s
+    module resolution) would cut minutes per review.
+
+    '
+  evidence:
+  - fab-cli#134
+  generalized: 'Verifying red-state claims at an old commit is routine but costs a
+    full dependency install per verification; the workflow could document a fast-path
+    for running a single test file from an older commit against the current installed
+    dependencies.
+
+    '
+  routing:
+    action: upstream
+    ref: 'surfaced to human: document a fast-path for single-test red-state verification
+      at an old commit (development-skills plugin)'
+- category: worked-well
+  area: brains
+  severity: low
+  summary: A reviewer-brain lesson pasted into the dev brief led the dev to build
+    runtime guards preemptively, which the reviewer then failed to break
+  detail: 'The TS-bypass mutation lesson (minted from the prior task''s review) was
+    given to the dev up front; every invariant-bearing surface shipped with runtime
+    guards that survived adversarial mutation in review — the finding class died one
+    iteration after it was learned.
+
+    '
+  evidence:
+  - fab-cli#134
+  - fab-cli#223
+  generalized: 'Cross-pollinating role brains — pasting a reviewer lesson into the
+    next dev brief — closes finding classes proactively; recall injection should not
+    be restricted to the same role that minted the lesson.
+
+    '
+  routing:
+    action: brain-note
+    ref: cross-role recall injection validated (ts-bypass lesson dev-briefed); practice
+      continues
