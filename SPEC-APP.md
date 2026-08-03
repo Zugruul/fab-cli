@@ -206,10 +206,15 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
 - **7.2** WHEN the exporter runs THE SYSTEM SHALL stamp the output as a corpus snapshot:
   content hash, CR version + document versions (from VERSIONS.txt), latest set code, lore
   commit, and export date, written to a committed manifest.
-- **7.3** THE SYSTEM SHALL generate grounded Q&A training pairs per chunk using a teacher
-  model (Claude API): questions in diverse phrasings, answers that cite the chunk's
-  `chunk_id`(s) and stay within the chunk text; generation prompts and parameters live in
-  committed config.
+- **7.3** THE SYSTEM SHALL generate grounded Q&A training pairs per chunk using a teacher model,
+  reachable via one of two engines: Claude Code subscription headless mode (`claude -p
+  --output-format json`, riding the user's Claude subscription rather than a metered API key) —
+  the DEFAULT engine — or the Claude API (`ANTHROPIC_API_KEY`), an explicit-opt-in fallback only,
+  selected via a CLI flag or committed config field, NEVER auto-selected by the mere presence of
+  an API key in the environment. Questions use diverse phrasings; answers cite the chunk's
+  `chunk_id`(s) and stay within the chunk text. Generation prompts and parameters continue to
+  live in committed config, unaffected by engine choice; the resolved engine id SHALL be recorded
+  in the run's dataset manifest (§7.7) alongside the teacher model id.
 - **7.4** WHEN candidate pairs are generated THE SYSTEM SHALL reject-sample them: each answer
   is entailment-checked against its source chunk (teacher-as-judge or NLI check), and
   non-entailed answers are discarded; the acceptance rate is logged per run.
