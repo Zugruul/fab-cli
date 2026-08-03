@@ -916,3 +916,78 @@ items:
   routing:
     action: backlog
     ref: fab-cli#229
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T02:10:00Z'
+iteration:
+  task: '223'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: concurrency
+  severity: low
+  summary: A second implementation lane in a dedicated worktree ran cleanly alongside
+    a human-gated parked task without interference
+  detail: 'While one task sat approved-but-parked on a powered-off remote machine,
+    a second dev lane in its own worktree implemented, reviewed, and merged a separate
+    task; no checkout contention, no gate interference, FIFO deviation documented
+    (parked task is human-gated, not merge-ready).
+
+    '
+  evidence:
+  - fab-cli#221
+  - fab-cli#223
+  generalized: 'Worktree-isolated lanes let a human-gated task park at In review indefinitely
+    without idling the loop; the merge-queue FIFO should treat human-gated tasks as
+    not-in-queue rather than head-of-line blockers, with the deviation stated.
+
+    '
+  routing:
+    action: brain-note
+    ref: worktree-lane pattern validated; FIFO-deviation practice recorded in this
+      iteration's board comments
+- category: friction
+  area: testing
+  severity: medium
+  summary: An ad hoc npx tool invocation false-greened a typecheck that the project's
+    real script caught
+  detail: 'npx resolved a different/cached tsc than the workspace-pinned one; "No
+    errors found" from npx tsc while npm run typecheck caught 3 real errors on the
+    same tree.
+
+    '
+  evidence:
+  - fab-cli#223
+  generalized: 'Bare npx tool invocations are not equivalent to the project''s pinned
+    scripts and can false-green a gate proxy; briefs and habits should always use
+    the real npm-run script for any gate-relevant check.
+
+    '
+  routing:
+    action: brain-note
+    ref: dev/never-substitute-npx-for-the-real-gate-script
+- category: worked-well
+  area: review
+  severity: low
+  summary: Reviewer bypassed the type system to prove a spec-invariant field lacked
+    runtime enforcement, producing a concrete hardening fix
+  detail: 'TS-level "required" was defeated with a cast; the manifest writer silently
+    emitted an undefined lineage field. Round-1 finding, runtime guard added and re-verified
+    by the reviewer''s own mutation script in round 2.
+
+    '
+  evidence:
+  - fab-cli#223
+  generalized: 'For fields whose absence a spec would call an audit/correctness gap
+    (not just a type error), reviewers should attempt a type-system bypass and demand
+    a runtime guard; scoped to invariant-bearing fields to avoid noise.
+
+    '
+  routing:
+    action: brain-note
+    ref: reviewer/ts-bypass-mutation-for-invariant-bearing-required-fields
