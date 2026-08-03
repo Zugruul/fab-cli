@@ -9,6 +9,11 @@
     "last": null,
     "weight": 0.5
   },
+  "compute-edge-frequency-from-config->prefix-swapback-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "isolated-worktree-tdd-proof->reproduce-gate-claims": {
     "fires": 9,
     "last": "2026-08-02",
@@ -25,6 +30,16 @@
     "weight": 0.5
   },
   "prefix-swapback-verification->await-read-write-race-checklist": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "regex-guards-need-empirical-evasion-pass->compute-edge-frequency-from-config": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "regex-guards-need-empirical-evasion-pass->prefix-swapback-verification": {
     "fires": 0,
     "last": null,
     "weight": 0.5

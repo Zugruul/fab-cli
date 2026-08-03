@@ -39,3 +39,5 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "reproduce-gate-claims", "task": "225", "ts": "2026-08-03T04:27:44+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "independently-reproduce-regression-catch-proof", "task": "225", "ts": "2026-08-03T04:27:44+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "grep-doc-claims-as-testable-assertions", "task": "225", "ts": "2026-08-03T04:27:44+00:00"}
+{"note": "empirical sign-flip swapback proved homography test discriminating power in round 1", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "138", "ts": "2026-08-03T19:51:50+00:00"}
+{"note": "applied to generate.ts image-cache path; correctly concluded no async shared state \u2014 cheap negative check", "outcome": "useful", "schemaVersion": 1, "slug": "await-read-write-race-checklist", "task": "138", "ts": "2026-08-03T19:51:50+00:00"}
