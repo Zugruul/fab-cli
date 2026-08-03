@@ -242,6 +242,16 @@ model, so Invariant 9's license constraint doesn't apply to it at all. `ArcFaceH
 per-class weight matrix and is **training-only**: `embed_export.py` never ships it, matching
 standard face-recognition-model deployment practice (only the embedding trunk ships).
 
+**Boundary guard (PR #240 review finding)**: a naive `cos(theta + margin)` is only monotonically
+decreasing while `theta + margin <= pi`. Past that boundary (deep-negative cosine, reachable with
+a small `embedding_dim`/few classes — weak concentration of measure, exactly this task's smoke
+scale) it wraps around and comes back UP, making the true-class logit **easier** to satisfy —
+backwards from ArcFace's whole purpose. Verified numerically during review: cosine=-0.99,
+margin=0.5 produced target≈-0.9364 (higher/easier) instead of harder. Fixed with the standard
+InsightFace "easy margin" guard: past `cosine <= cos(pi - margin)`, falls back to the linear
+approximation `cosine - sin(pi - margin) * margin`, which stays monotonically ≤ the plain cosine
+everywhere — pinned in `test_arcface_loss.py`'s boundary test.
+
 ### Crop-from-quad convention (`src/train_vision/embed_crop.py` + `embed_pixels.py`)
 
 **Boundary convention, decided up front**: the crop box is the **axis-aligned bounding box** of
@@ -368,15 +378,20 @@ committed, `output/` gitignored).
 - **Unit-tested** (pytest, no GPU, gated in `npm run gate`): crop-box geometry incl. out-of-canvas
   cases (exact box values), pixel-level neutral-padding crop incl. out-of-canvas cases (exact
   per-pixel arrays, not just shapes), the per-card dataset adapter against the real fixture
-  composites run, ArcFace loss margin/scale math (hand-pinned values), the degenerate
-  single-class-is-always-zero-loss case, a gradient-sanity overfit test through the whole
-  embedder+head+loss differentiable path, embedding shape/L2-norm contract, config/manifest/
-  license validation, and pure dataset-agnostic top-1/top-K retrieval accuracy (hand-computed).
+  composites run, ArcFace loss margin/scale math (hand-pinned values, including the
+  pi-margin-boundary guard — PR #240 review item 1), the degenerate single-class-is-always-
+  zero-loss case, a gradient-sanity overfit test through the whole embedder+head+loss
+  differentiable path, embedding shape/L2-norm contract, config/manifest/license validation, and
+  pure dataset-agnostic top-1/top-K retrieval accuracy (hand-computed).
 - **Also gated, not just smoked** (a deliberate step beyond the detector's own precedent, since
   the toolchain path was verified working): the full int8 export chain — train a tiny checkpoint
   → export → quantize → load the exported file in the local LiteRT/TF-Lite Python interpreter and
   assert the output is genuinely `int8`-typed with the configured embedding shape. This is real,
-  not mocked, every single `npm run gate` run.
+  not mocked, every single `npm run gate` run. Additionally (PR #240 review item 2): the SAME
+  real fixture crops run through both the float and int8 tflite models, dequantized +
+  L2-normalized identically, assert leave-one-out cosine-KNN **ranking** is preserved between
+  float and int8 — the early signal between "float synthetic-val looks fine" and an on-device
+  measurement, catching a quantization-induced accuracy collapse before it ever reaches a device.
 - **Toy-scale, honestly labeled, never inflated**: the synthetic-val retrieval accuracy at this
   package's own fixture scale (4 total card crops, each a distinct class) is a deterministic 0%
   — every held-out validation crop's class is, by construction, absent from the train-built
