@@ -1602,3 +1602,61 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/completion-report-is-part-of-done
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T23:05:00Z'
+iteration:
+  task: APP-085
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Mutation testing exposed a fixture blind spot that green property tests
+    hid
+  detail: Reviewer injected a sort+reindex bug and the whole suite stayed green, proving
+    the append-only AC claim was unearned; the fix was two adversarial-ordering tests
+    with exact-id assertions, and the reviewer independently re-ran the kill in round
+    2.
+  generalized: For AC claims of append-only/never-remapped/property-tested over an
+    ordered id space, one cheap mutation run is the only reliable audit — monotonically-grown
+    fixtures make broken and correct implementations output-identical, so suite-green
+    is not evidence the property is guarded.
+  routing:
+    action: brain-note
+    ref: reviewer/mutation-test-monotonic-fixtures
+- category: incident
+  area: other
+  severity: medium
+  summary: Token-optimizing shell wrapper's filtered typecheck summary masked a real
+    compiler error
+  detail: The dev's wrapped tsc invocation printed a clean summary over a real TS2339;
+    the error only surfaced through the root gate. Dev switched to the wrapper's unfiltered
+    proxy mode and flagged the raw tee log path.
+  generalized: Output-filtering shell wrappers can swallow compiler errors, so their
+    summaries must never be the final correctness gate — the unfiltered command (or
+    the repo's root gate) is the source of truth; treat wrapper summaries as advisory
+    and report such misses upstream to the wrapper's owner.
+  routing:
+    action: upstream
+    ref: surfaced-to-human 2026-08-03 (rtk filtered tsc summary reported clean over
+      a real TS2339 — reliability bug for the rtk owner; also saved as user memory
+      + dev brain note)
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Completion-report-is-part-of-done briefing line worked
+  detail: After the prior iteration's silent-idle, this brief stated the report is
+    part of done; the dev sent a full structured report unprompted (red-proof excerpt,
+    gate counts, conventions, decisions).
+  generalized: Stating explicitly in the brief that the completion report is a deliverable
+    (with its required contents) eliminates the opened-PR-but-silent-idle failure
+    mode at zero cost.
+  routing:
+    action: brain-note
+    ref: orchestrator/completion-report-is-part-of-done
