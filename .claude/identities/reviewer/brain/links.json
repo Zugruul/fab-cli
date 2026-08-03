@@ -59,6 +59,11 @@
     "last": null,
     "weight": 0.5
   },
+  "reference-implementation-guard-diff->sweep-formula-domain-numerically": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "regex-guards-need-empirical-evasion-pass->compute-edge-frequency-from-config": {
     "fires": 0,
     "last": null,
@@ -82,6 +87,31 @@
   "self-referential-coverage-tests->verify-repo-pollution-claims-empirically": {
     "fires": 5,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "sweep-formula-domain-numerically->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "sweep-formula-domain-numerically->prefix-swapback-verification": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "sweep-formula-domain-numerically->reference-implementation-guard-diff": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "swept-configs-need-tracked-negatives->compute-edge-frequency-from-config": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "swept-configs-need-tracked-negatives->diff-deferred-scope-against-primary-ac": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "test-double-fidelity-check->verify-red-commit-by-running-it": {

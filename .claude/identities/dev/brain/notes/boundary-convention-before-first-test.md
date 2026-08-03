@@ -1,14 +1,12 @@
 ---
-tags: [geometry, conventions, testing]
+tags: [geometry, math, conventions, testing]
 paths: ["pipeline/**"]
-strength: 1
-source: "PR#238 APP-026 retro"
+strength: 2
+source: "PR#240 APP-028 retro (broadened re-mint)"
 confidence: direct
 graduated: false
 created: 2026-08-03
 last-touched: 2026-08-03
 ---
 
-For any pure geometry/transform function whose output can legitimately leave its bounded domain (off-canvas coords, out-of-frame, saturation), decide and WRITE DOWN the domain-boundary convention (clamp vs pass-through, modal vs amodal) as an explicit line item before the first test. Boundary behavior is invisible in happy-path math and ships as 'undefined but currently fine' — PR#238's only MAJOR was exactly this: code already correct, convention undecided/undocumented.
-
-Related: [[test-knob-intersections]] [[shared-schema-diff-sibling-protocols]]
+For any pure function whose output can legitimately leave its bounded domain — geometry (off-canvas), math formulas (trig wraparound past pi-margin, saturation, division near zero) — decide and WRITE DOWN the domain-boundary behavior as an explicit line item before the first test. The habit must transfer ACROSS domains: PR#238 pinned the geometry boundary up front, PR#240 pinned geometry again but missed the trig boundary in ArcFace — same class of gap, different domain. Ask per function: what is the full valid input domain, and does behavior invert anywhere in it?

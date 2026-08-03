@@ -44,12 +44,27 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "prototype-toolchain-on-disposable-model->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols": {
     "fires": 0,
     "last": null,
     "weight": 0.5
   },
   "read-producers-real-bytes-before-fixtures->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reference-guards-before-handoff->boundary-convention-before-first-test": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reference-guards-before-handoff->test-knob-intersections": {
     "fires": 0,
     "last": null,
     "weight": 0.5
