@@ -21,10 +21,13 @@
     "export-model": "tsx src/export/cli.ts",
     "eval": "tsx src/eval/cli.ts",
     "images:download": "tsx src/images/cli.ts",
-    "benchmark:manifest": "tsx src/benchmark/cli.ts"
+    "benchmark:manifest": "tsx src/benchmark/cli.ts",
+    "composites:generate": "tsx src/composites/cli.ts generate",
+    "composites:sample-sheet": "tsx src/composites/cli.ts sample-sheet"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.115.0"
+    "@anthropic-ai/sdk": "^0.115.0",
+    "sharp": "^0.35.3"
   },
   "devDependencies": {
     "@fab/manifest-schema": "workspace:*",
