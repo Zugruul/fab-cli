@@ -5088,6 +5088,7 @@ _(no notes)_
 - **fab-app-jest-patterns-safearea-null-and-op-sqlite-mock** — [react-native, jest, fab-app, testing]
 - **format-regex-plus-denylist** — [validation, licensing, testing]
 - **fresh-worktree-needs-node-modules-and-submodule-setup** — [worktree, testing, setup]
+- **gate-perf-assertions-are-smoke-bounds-not-device-targets** — [testing, performance, gate, flake]
 - **git-remote-repair-set-url-or-add** — [bash, git, vendoring]
 - **grep-consequence-not-pattern-name-for-second-examples** — [research, grep, code-study]
 - **headless-rn-ios-release-build-facts** — [ios, xcodebuild, react-native, release]

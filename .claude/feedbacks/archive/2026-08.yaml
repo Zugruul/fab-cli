@@ -1273,3 +1273,37 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/pre-stage-parked-merges-rebase-and-regate-while-waiting
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-03T06:00:00Z'
+iteration:
+  task: '225'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: testing
+  severity: low
+  summary: A flaky-gate bug filed from one review round was fixed within the same
+    session with an independently-reproduced mutation proof
+  detail: 'The load-sensitive wall-clock perf assertion that false-redded during a
+    concurrent review run was refiled as a bug, fixed as a one-file change (pathological
+    smoke bound + logged diagnostic), and the reviewer reproduced the mutation-catch
+    with its own independently-written injection.
+
+    '
+  evidence:
+  - fab-cli#225
+  generalized: 'Gate flakes observed during reviews should be filed immediately and
+    fixed soon - a merge gate that can false-red under host load erodes every future
+    task; the fix pattern (smoke bound + logged diagnostic + device-side real targets)
+    generalizes to any production-target perf assertion in CI.
+
+    '
+  routing:
+    action: brain-note
+    ref: dev/gate-perf-assertions-are-smoke-bounds-not-device-targets

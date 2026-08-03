@@ -24,3 +24,6 @@
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "red-commit-contains-only-test-path-files", "task": "221", "ts": "2026-08-03T04:12:12+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "review-staged-diff-before-commit-message-must-match", "task": "221", "ts": "2026-08-03T04:12:12+00:00"}
 {"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "221", "ts": "2026-08-03T04:12:12+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "review-staged-diff-before-commit-message-must-match", "task": "225", "ts": "2026-08-03T04:27:43+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "225", "ts": "2026-08-03T04:27:44+00:00"}
+{"note": null, "outcome": "useful", "schemaVersion": 1, "slug": "rtk-jest-wrapper-hides-failures-use-rtk-proxy", "task": "225", "ts": "2026-08-03T04:27:44+00:00"}
