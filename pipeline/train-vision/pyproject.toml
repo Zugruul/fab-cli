@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "train-vision"
 version = "0.1.0"
-description = "APP-027 OBB detector training + export (SPEC-APP.md §8.7c)"
+description = "APP-027 OBB detector + APP-028 ArcFace recognition embedder training/export (SPEC-APP.md §8.7c/§8.7d)"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 # Runtime deps are intentionally split: geometry/encode/map_eval/config/
@@ -19,6 +19,14 @@ dependencies = [
     "litert-torch>=0.9",
     "numpy>=1.26",
     "pillow>=10.0",
+    # APP-028's int8 post-training quantization for the recognition
+    # embedder (embed_export.py) — a decoupled float-tflite-then-quantize
+    # workflow, not litert-torch's own PT2E quant_config path (see that
+    # module's doc comment for why: the PT2E path is broken in this
+    # repo's currently pinned litert-torch/torchao/torch combination).
+    # Already an installed transitive dependency of litert-torch; declared
+    # explicitly here because this package now imports it directly.
+    "ai-edge-quantizer>=0.8",
 ]
 
 [project.optional-dependencies]
