@@ -19,6 +19,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { buildReleasePlan } from "./releasePlan.js";
 import { publishReleasePlan, realCommandRunner } from "./ghRelease.js";
+import { parseDryRunConfigJson } from "./config.js";
 import type { BuildReleasePlanInput, ModelPackTier, ReleasePlan } from "./types.js";
 
 export interface DryRunArgs {
@@ -92,7 +93,8 @@ function loadConfig(configPath: string): DryRunConfig {
   if (!fs.existsSync(configPath)) {
     throw new Error(`publish/cli dry-run: config file not found at ${configPath}`);
   }
-  return JSON.parse(fs.readFileSync(configPath, "utf8")) as DryRunConfig;
+  const raw: unknown = JSON.parse(fs.readFileSync(configPath, "utf8"));
+  return parseDryRunConfigJson(raw);
 }
 
 function runDryRun(argv: string[]): void {
