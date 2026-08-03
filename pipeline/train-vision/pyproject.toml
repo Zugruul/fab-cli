@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "train-vision"
 version = "0.1.0"
-description = "APP-027 OBB detector training + export (SPEC-APP.md §8.7c)"
+description = "APP-027 OBB detector + APP-028 ArcFace recognition embedder training/export (SPEC-APP.md §8.7c/§8.7d)"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 # Runtime deps are intentionally split: geometry/encode/map_eval/config/
