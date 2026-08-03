@@ -15,6 +15,10 @@ export interface DownloadDeps {
   fetchFn: (url: string) => Promise<FetchLikeResponse>;
   fileExists: (path: string) => boolean;
   writeFile: (path: string, data: Buffer) => void;
+  /** Same-filesystem atomic rename (`from` -> `to`) — see the doc comment
+   * on the write inside `downloadAll` for why every write goes through
+   * write-to-tmp-then-rename rather than writing `to` directly. */
+  rename: (from: string, to: string) => void;
   ensureDir: (dir: string) => void;
   /** Injectable clock + sleep for deterministic rate-limit/backoff testing
    * — same contract as qa/runner.ts's RunOptions. */
@@ -43,6 +47,16 @@ class HttpStatusError extends Error {
   }
 }
 
+let tmpSuffixCounter = 0;
+
+/** A same-process-unique temp filename suffix — pid + a monotonic counter
+ * is enough (no two writes for the same destPath ever run concurrently,
+ * since each printing has its own destPath and a worker only ever has one
+ * write in flight at a time), no need for Date.now()/crypto randomness. */
+function tmpPathFor(destPath: string): string {
+  return `${destPath}.tmp-${process.pid}-${tmpSuffixCounter++}`;
+}
+
 /**
  * Downloads every ref not already cached, respecting `concurrency` and
  * `requestsPerSecond` (0 disables rate limiting), retrying transient
@@ -55,6 +69,18 @@ class HttpStatusError extends Error {
  * Mirrors qa/runner.ts's worker-pool shape (shared cursor + lastRequestAt
  * across a fixed pool of async workers) rather than introducing a new
  * generic scheduler abstraction.
+ *
+ * The rate-limit gate runs inside withRetry's callback — i.e. on EVERY
+ * attempt, not just the first — so a retry storm during a transient
+ * outage still respects `requestsPerSecond` instead of being paced by
+ * backoff alone (PR #235 review round 1, item 1).
+ *
+ * Each successful fetch is written to a `.tmp-*` sibling of destPath first,
+ * then atomically renamed into place (mirrors dataset/write.ts's
+ * write-tmp-then-rename pattern) — so a kill/OOM/disk-full mid-write can
+ * never leave a truncated file at destPath for a later run's `fileExists`
+ * cache-hit check to mistake for a complete, valid image (PR #235 review
+ * round 1, item 2).
  */
 export async function downloadAll(
   refs: PrintingImageRef[],
@@ -83,21 +109,24 @@ export async function downloadAll(
         continue;
       }
 
-      if (minIntervalMs > 0) {
-        const wait = lastRequestAt + minIntervalMs - now();
-        if (wait > 0) await sleep(wait);
-        lastRequestAt = now();
-      }
-
       let attempts = 0;
       try {
         await withRetry(
           async () => {
+            if (minIntervalMs > 0) {
+              const wait = lastRequestAt + minIntervalMs - now();
+              if (wait > 0) await sleep(wait);
+              lastRequestAt = now();
+            }
+
             attempts++;
             const res = await deps.fetchFn(ref.imageUrl);
             if (!res.ok) throw new HttpStatusError(res.status, ref.imageUrl);
             const buf = Buffer.from(await res.arrayBuffer());
-            deps.writeFile(destPath, buf);
+
+            const tmpPath = tmpPathFor(destPath);
+            deps.writeFile(tmpPath, buf);
+            deps.rename(tmpPath, destPath);
           },
           {
             maxRetries: options.maxRetries,

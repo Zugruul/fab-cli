@@ -67,6 +67,7 @@ async function main(): Promise<void> {
       }),
     fileExists: (p) => fs.existsSync(p),
     writeFile: (p, data) => fs.writeFileSync(p, data),
+    rename: (from, to) => fs.renameSync(from, to),
     ensureDir: (d) => fs.mkdirSync(d, { recursive: true }),
   });
 
