@@ -41,6 +41,18 @@ describe("buildSampleSheetHtml", () => {
     expect((html.match(/<polygon/g) ?? []).length).toBe(2);
   });
 
+  it("passes out-of-canvas (negative/beyond width or height) corner coordinates straight through unclamped (PR #238 review round 1: amodal labeling)", () => {
+    const lbl = label("composite-0000");
+    lbl.cards[0].corners = [
+      { x: -15, y: -15 },
+      { x: 115, y: -15 },
+      { x: 115, y: 115 },
+      { x: -15, y: 115 },
+    ];
+    const html = buildSampleSheetHtml([{ fileName: "composite-0000.png", label: lbl }]);
+    expect(html).toContain("-15.0,-15.0 115.0,-15.0 115.0,115.0 -15.0,115.0");
+  });
+
   it("sets the SVG viewBox to the composite's own width/height", () => {
     const html = buildSampleSheetHtml([{ fileName: "composite-0000.png", label: label("composite-0000") }]);
     expect(html).toContain('viewBox="0 0 200 300"');

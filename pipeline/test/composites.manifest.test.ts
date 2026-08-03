@@ -65,6 +65,20 @@ describe("buildCompositeManifest", () => {
     expect(manifest.composites[0].labelFileHash).toBe(expectedHash);
   });
 
+  it("hashes/round-trips a label with out-of-canvas (negative) corner coordinates with no special-casing or NaN (PR #238 review round 1: amodal labeling)", () => {
+    const lbl = label("composite-0000");
+    lbl.cards[0].corners = [
+      { x: -15, y: -15 },
+      { x: 25, y: -15 },
+      { x: 25, y: 25 },
+      { x: -15, y: 25 },
+    ];
+    const manifest = buildCompositeManifest({ config: config(), labels: [lbl] });
+    const expectedHash = sha256(Buffer.from(JSON.stringify(lbl, null, 2) + "\n"));
+    expect(manifest.composites[0].labelFileHash).toBe(expectedHash);
+    expect(manifest.composites[0].cardCount).toBe(1);
+  });
+
   it("generatorConfigHash changes when the config changes, even with identical labels", () => {
     const labels = [label("composite-0000")];
     const a = buildCompositeManifest({ config: config(), labels });

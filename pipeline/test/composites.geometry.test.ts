@@ -83,6 +83,35 @@ describe("computeDestQuad — perspective inset", () => {
   });
 });
 
+describe("computeDestQuad — off-canvas corners (amodal labeling, PR #238 review round 1)", () => {
+  // Decision (documented in geometry.ts's header + pipeline/docs/
+  // benchmark-labeling.md): labels record a card's full AMODAL extent —
+  // the true geometric quad — even when part of it falls outside the
+  // canvas. computeDestQuad must never clamp to [0,width)x[0,height);
+  // clamping happens only in the RENDER path (warp.ts's bounding box),
+  // never in the label.
+  it("keeps corners outside the canvas bounds when a card sits near the edge (hand-computed, not clamped)", () => {
+    // canvas 100x100, cardHeightFrac 0.4 (aspect 1) -> card 40x40, half=20;
+    // centered at (5,5) -> TL(-15,-15) TR(25,-15) BR(25,25) BL(-15,25).
+    const [tl, tr, br, bl] = computeDestQuad(100, 100, 1, basePlacement({ centerXFrac: 0.05, centerYFrac: 0.05, cardHeightFrac: 0.4 }));
+    expect(tl.x).toBeCloseTo(-15);
+    expect(tl.y).toBeCloseTo(-15);
+    expect(tr.x).toBeCloseTo(25);
+    expect(tr.y).toBeCloseTo(-15);
+    expect(br.x).toBeCloseTo(25);
+    expect(br.y).toBeCloseTo(25);
+    expect(bl.x).toBeCloseTo(-15);
+    expect(bl.y).toBeCloseTo(25);
+  });
+
+  it("keeps corners beyond width/height (not just below zero) near the opposite edge", () => {
+    const [, tr, br] = computeDestQuad(100, 100, 1, basePlacement({ centerXFrac: 0.95, centerYFrac: 0.95, cardHeightFrac: 0.4 }));
+    expect(tr.x).toBeCloseTo(115);
+    expect(br.x).toBeCloseTo(115);
+    expect(br.y).toBeCloseTo(115);
+  });
+});
+
 describe("computeDestQuad — rotation", () => {
   it("90 degrees maps the source top-left corner to the source top-right corner's former position", () => {
     const unrotated = computeDestQuad(100, 100, 1, basePlacement());

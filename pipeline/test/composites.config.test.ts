@@ -92,6 +92,12 @@ describe("validateGeneratorConfig — rejects malformed config", () => {
     if (!result.valid) expect(result.errors.some((e) => /scale/.test(e))).toBe(true);
   });
 
+  it("rejects scale.max above a sane upper bound (PR #238 review round 1: a config typo can't request absurd scales)", () => {
+    const result = validateGeneratorConfig({ ...validConfig(), scale: { min: 0.5, max: 50 } });
+    expect(result.valid).toBe(false);
+    if (!result.valid) expect(result.errors.some((e) => /scale/.test(e))).toBe(true);
+  });
+
   it("rejects rotationDeg.min > rotationDeg.max", () => {
     const result = validateGeneratorConfig({ ...validConfig(), rotationDeg: { min: 30, max: -30 } });
     expect(result.valid).toBe(false);

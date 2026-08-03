@@ -90,6 +90,45 @@ describe("renderComposite — label fidelity (single card)", () => {
   });
 });
 
+describe("renderComposite — off-canvas / amodal labels (PR #238 review round 1)", () => {
+  // A card placed near the frame edge has real corners outside the
+  // canvas. The label must carry those coordinates through UNCLAMPED
+  // (see geometry.ts's doc comment + pipeline/docs/benchmark-labeling.md's
+  // amodal-labeling addendum) while rendering still clips safely to the
+  // canvas — no NaN, no crash, no out-of-range pixel values.
+  it("keeps a card's label corners outside the canvas when its placement sits near the frame edge, matching geometry's independent computation", () => {
+    const card = solidCard("card-a", 40, 40, [10, 200, 10]);
+    const p = params({
+      width: 100,
+      height: 100,
+      cards: [placement({ centerXFrac: 0.05, centerYFrac: 0.05, cardHeightFrac: 0.4, rotationDeg: 0 })],
+    });
+    const { label } = renderComposite(p, [card]);
+    const [tl, tr, br, bl] = label.cards[0].corners;
+    expect(tl.x).toBeCloseTo(-15);
+    expect(tl.y).toBeCloseTo(-15);
+    expect(tr.x).toBeCloseTo(25);
+    expect(br.x).toBeCloseTo(25);
+    expect(bl.y).toBeCloseTo(25);
+  });
+
+  it("renders finite, in-range pixels with no NaN/crash even when a card's quad extends off-canvas", () => {
+    const card = solidCard("card-a", 40, 40, [10, 200, 10]);
+    const p = params({
+      width: 100,
+      height: 100,
+      cards: [placement({ centerXFrac: 0.05, centerYFrac: 0.05, cardHeightFrac: 0.4, rotationDeg: 0 })],
+    });
+    const { image } = renderComposite(p, [card]);
+    expect(image.data.length).toBe(100 * 100 * 4);
+    for (const v of image.data) {
+      expect(Number.isFinite(v)).toBe(true);
+      expect(v).toBeGreaterThanOrEqual(0);
+      expect(v).toBeLessThanOrEqual(255);
+    }
+  });
+});
+
 describe("renderComposite — OVERLAP x ROTATION intersection (each card's own quad is unaffected by later cards)", () => {
   it("the first card's recorded corners are identical whether or not a second, overlapping, rotated card is pasted on top", () => {
     const cardA = solidCard("card-a", 40, 60, [255, 0, 0]);
