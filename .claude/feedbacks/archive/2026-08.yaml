@@ -1995,3 +1995,124 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/kill-first-for-regression-locks
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T20:25:00Z'
+iteration:
+  task: '257'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-opus-5
+items:
+- category: incident
+  area: concurrency
+  severity: high
+  summary: An orchestrator bookkeeping action broke the shared gate for every concurrent
+    lane, and was initially attributed to a lane's branch
+  detail: Minting a brain note that declared entity keys left the generated entity
+    index stale, which failed a test in the monorepo-wide gate. Both in-flight lanes
+    went red on a failure neither had caused; the dev correctly diagnosed it as unrelated
+    to its branch but could not fix it, and lost a cycle reporting it. The narrow
+    regeneration command resolved it without the heavyweight editorial-gated sync
+    the dev had (correctly) refused to run.
+  generalized: Orchestrator-side bookkeeping that writes generated artifacts into
+    a shared, gated tree can turn every concurrent lane red on a failure none of them
+    caused. Any bookkeeping action that regenerates a derived index must be followed
+    by the narrow regeneration command and a gate check BEFORE lanes are told to gate,
+    and a red gate whose failure lies outside every lane's diff should be triaged
+    as shared-tree breakage first, not as the lane's problem.
+  routing:
+    action: brain-note
+    ref: orchestrator/shared-tree-bookkeeping-breaks-every-lane
+- category: friction
+  area: testing
+  severity: high
+  summary: Piping a gate run through tail silently discarded its exit code, producing
+    a reported false green
+  detail: The gate was run as `gate.sh 2>&1 | tail -20`; the pipeline's exit status
+    is the last command's, so a red gate reported success and was announced as passing.
+    It was caught only because the recorded-pass guard later refused the board move.
+    Compounding it, the same run had executed against the wrong tree because the working
+    directory had reset between tool calls.
+  generalized: Never pipe a gate/test command through a filter when its exit status
+    matters — the pipeline reports the filter's status, not the command's. Redirect
+    to a log and echo the status explicitly. A guard that independently verifies the
+    recorded pass is what turns this from a silent false-green into a caught error,
+    which is an argument for keeping such guards even when they feel redundant.
+  routing:
+    action: brain-note
+    ref: orchestrator/never-pipe-a-gate-exit-code
+- category: friction
+  area: concurrency
+  severity: medium
+  summary: A fix committed locally but never pushed made a dev's rebase a silent no-op
+  detail: The orchestrator committed a shared-tree fix to the local main and instructed
+    the lane to rebase onto it. The rebase reported 'up to date' and the dev reasonably
+    concluded it already had the change; the fix had simply never been pushed. Verifying
+    ancestry explicitly is what surfaced it.
+  generalized: '''Rebase onto main'' instructions are only meaningful if the commit
+    is actually on the remote — a local-only commit makes the rebase a silent no-op
+    that both sides read as success. After committing a shared fix, push it and verify
+    the remote ref moved before telling any lane to pick it up, and confirm with an
+    explicit ancestry check rather than trusting ''up to date''.'
+  routing:
+    action: brain-note
+    ref: orchestrator/push-before-telling-a-lane-to-rebase
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Asking the reviewer whether a refactor CLOSED or merely RELOCATED a gap
+    produced a distinct, high-value verification
+  detail: The fix for an untested decision path was an extraction into a pure function.
+    Rather than re-running the original mutation alone, the reviewer was asked explicitly
+    whether the untested logic had moved rather than disappeared; it traced the remaining
+    untested glue and proved it fail-safe by construction (the degraded path can only
+    produce a false failure, never a false success). It then found the identical bug
+    shape one level up, which a naive re-check would have passed.
+  generalized: When a review finding is fixed by extracting logic into a testable
+    unit, re-running the original mutation is necessary but not sufficient — explicitly
+    ask whether the untested surface was closed or merely relocated. The strongest
+    answer is a construction argument about the residual untested path's failure direction
+    (can it fail unsafely, or only safely?), and asking the question routinely surfaces
+    repeat instances of the same shape.
+  routing:
+    action: brain-note
+    ref: reviewer/closed-or-relocated-after-a-fix-by-extraction
+- category: worked-well
+  area: review
+  severity: medium
+  summary: A reviewer caught a change whose code was correct but whose stated claim
+    was not
+  detail: 'The change added a hard failure for a condition that, at the point it was
+    wired in, could essentially never be observed — the checked state is not yet reached
+    when the check runs. No test could have caught this: the code was correct in isolation
+    and the tests passed. It required reading the commit''s claim against the runtime
+    timing and the project''s own documentation.'
+  generalized: Some defects live in the gap between what a change does and what it
+    claims to do — code correct in isolation, wired where it cannot act. A test suite
+    structurally cannot detect these, so reviews should explicitly check a change's
+    stated motivation against where it is actually invoked, and treat an overstated
+    commit message or doc as a finding in its own right rather than cosmetic.
+  routing:
+    action: brain-note
+    ref: reviewer/claim-versus-wiring-defects
+- category: recommendation
+  area: review
+  severity: low
+  summary: Repeat occurrences of the same defect shape in one file should escalate
+    from ticket to pattern fix
+  detail: The same shape — a well-tested decision function surrounded by untested
+    wiring — was found twice in the same file across two review rounds, the second
+    time via a mutation that passed the entire suite. Each was filed individually,
+    but the recurrence is the more informative signal.
+  generalized: 'When a review finds the same defect shape a second time in the same
+    file or module, the recurrence itself is the finding: file it as a pattern to
+    be closed structurally (e.g. introducing a test seam once) rather than as another
+    instance ticket, and say so explicitly, since individually-filed instances tend
+    to be triaged as low priority forever.'
+  routing:
+    action: backlog
+    ref: fab-cli#260
