@@ -241,4 +241,30 @@ describe("benchmark-label server — path traversal is rejected (issue #258 secu
     expect(res.status).not.toBe(200);
     expect(fs.existsSync(path.join(outsideWriteDir, "newfile.json"))).toBe(false);
   });
+
+  // PR #262 review round 4: the reviewer's exact live repro — a DANGLING
+  // symlink (target does not exist yet) at the write leaf itself. Round
+  // 3's realpathSync-based fix couldn't tell "dangling symlink" apart from
+  // "nothing here at all" (both throw ENOENT), so this bypassed it too,
+  // with no ".." anywhere in the request.
+  it("PUT /api/label does not follow a real DANGLING symlink at the write leaf itself", async () => {
+    const outsideDangling = path.join(tmpDir, "labels-target-outside.json");
+    fs.mkdirSync(path.join(config.labelsDir, "single"), { recursive: true });
+    fs.symlinkSync(outsideDangling, path.join(config.labelsDir, "single", "x-write-target.json"));
+    expect(fs.existsSync(outsideDangling)).toBe(false);
+
+    const res = await fetch(`${baseUrl}/api/label?file=${encodeURIComponent("single/x-write-target.jpg")}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        photoId: "p",
+        fileName: "p.jpg",
+        sceneType: "single",
+        orientation: "portrait",
+        quads: [{ printingId: "pr1", corners: [{ x: 0, y: 0 }, { x: 1, y: 0 }, { x: 1, y: 1 }, { x: 0, y: 1 }], tags: [] }],
+      }),
+    });
+    expect(res.status).not.toBe(200);
+    expect(fs.existsSync(outsideDangling)).toBe(false);
+  });
 });

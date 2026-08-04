@@ -26,26 +26,59 @@ export class PathEscapeError extends Error {
   }
 }
 
+/** Defensive cap on symlink-chain hops while resolving a path — real
+ * chains are 1-2 deep; anything past this is either a loop (a -> b -> a)
+ * or deliberately pathological, and either way "cannot resolve safely" is
+ * treated as an escape, never as "nothing to worry about" (see this
+ * module's containment doc comment for why that framing is exactly the
+ * bug class this whole file exists to avoid). */
+const MAX_SYMLINK_HOPS = 40;
+
 /**
- * Realpath of the nearest EXISTING ancestor of `p` (itself, if it exists —
- * or the closest existing parent directory otherwise). Needed because two
- * legitimate cases have nothing to realpath at `p` itself: a PUT target
- * file that doesn't exist yet (that's the whole point of PUT), and — on a
- * brand-new checkout — `labelsDir` itself, before anything has ever been
- * written into it. Falls back to `p` unchanged only if it climbs all the
- * way to the filesystem root without finding anything real (a pathological
- * input, not a real deployment).
+ * Resolves the REAL destination that reading or writing through `p` would
+ * actually touch, WITHOUT requiring that destination to already exist —
+ * two legitimate cases have nothing real at `p` itself: a PUT target file
+ * (that's the whole point of PUT), and — on a brand-new checkout —
+ * `labelsDir` itself, before anything has ever been written into it.
+ *
+ * PR #262 review round 4: fs.realpathSync (this function's first
+ * implementation) throws ENOENT both when NOTHING exists at a path AND
+ * when a SYMLINK there is DANGLING (its target doesn't exist yet) — those
+ * are not the same thing, and treating them the same was the bug. A
+ * dangling symlink still points somewhere, and that somewhere is exactly
+ * what fs.writeFileSync/readFileSync would follow and touch. So this
+ * walks with fs.lstatSync (never follows symlinks, never throws on a
+ * dangling one) instead:
+ *   - lstat throws ENOENT -> genuinely nothing here at all -> climb to
+ *     the parent directory and re-check FROM THERE (same "nearest
+ *     existing ancestor" discipline as before).
+ *   - lstat succeeds and it's NOT a symlink -> a real file/dir -> this is
+ *     the terminal destination.
+ *   - lstat succeeds and it IS a symlink (dangling or not) -> resolve ITS
+ *     TARGET via fs.readlinkSync (relative to the symlink's own
+ *     containing directory, if the link target is relative) and keep
+ *     resolving from there — naturally handles a chain (a -> b -> outside)
+ *     because the loop just continues.
  */
-function realpathOfNearestExistingAncestor(p: string): string {
+function resolveEffectiveDestination(p: string): string {
   let current = p;
-  for (;;) {
+  for (let hop = 0; ; hop++) {
+    if (hop > MAX_SYMLINK_HOPS) throw new PathEscapeError(p);
+
+    let entry: fs.Stats;
     try {
-      return fs.realpathSync(current);
+      entry = fs.lstatSync(current);
     } catch {
       const parent = path.dirname(current);
-      if (parent === current) return current;
+      if (parent === current) return current; // reached filesystem root
       current = parent;
+      continue;
     }
+
+    if (!entry.isSymbolicLink()) return current;
+
+    const linkTarget = fs.readlinkSync(current);
+    current = path.resolve(path.dirname(current), linkTarget);
   }
 }
 
@@ -62,16 +95,18 @@ function realpathOfNearestExistingAncestor(p: string): string {
  *    (Node's documented "later absolute argument wins" behavior), which
  *    this recognizes as outside baseDir.
  *
- * 2. Real (PR #262 review round 3): path.resolve in step 1 is PURELY
+ * 2. Real (PR #262 review rounds 3-4): path.resolve in step 1 is PURELY
  *    LEXICAL — it never touches the filesystem, so it has no idea whether
  *    a path component is a symlink. But fs.readFileSync/writeFileSync
  *    (what getLabel/putLabel actually call) DO follow symlinks. The
- *    reviewer proved this live: a symlink planted AT the read target
- *    itself, and a symlink planted as an ANCESTOR DIRECTORY of a write
- *    target — neither request contained ".." or an absolute path at all,
- *    so step 1 alone passed both. This step compares fs.realpathSync of
- *    the nearest EXISTING ancestor on each side instead, which resolves
- *    through any symlink to its real destination.
+ *    reviewer proved this live across two rounds: a symlink planted AT the
+ *    read target itself, a symlink planted as an ANCESTOR DIRECTORY of a
+ *    write target, AND (round 4, the subtler one) a DANGLING symlink at
+ *    the write leaf whose target doesn't exist yet — none of those
+ *    requests contained ".." or an absolute path at all, so step 1 alone
+ *    passed every one of them. This step resolves through any symlink
+ *    chain (dangling or not, via resolveEffectiveDestination) on each side
+ *    and compares THAT instead.
  */
 export function containWithinDir(baseDir: string, relPath: string): string {
   const resolvedBase = path.resolve(baseDir);
@@ -80,8 +115,8 @@ export function containWithinDir(baseDir: string, relPath: string): string {
     throw new PathEscapeError(relPath);
   }
 
-  const realBase = realpathOfNearestExistingAncestor(resolvedBase);
-  const realTarget = realpathOfNearestExistingAncestor(resolved);
+  const realBase = resolveEffectiveDestination(resolvedBase);
+  const realTarget = resolveEffectiveDestination(resolved);
   if (realTarget !== realBase && !realTarget.startsWith(realBase + path.sep)) {
     throw new PathEscapeError(relPath);
   }

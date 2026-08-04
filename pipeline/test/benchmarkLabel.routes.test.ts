@@ -225,3 +225,42 @@ describe("path containment — symlinks (issue #258 security fix, PR #262 review
     expect(fs.existsSync(path.join(outsideWriteDir, "newfile.json"))).toBe(false);
   });
 });
+
+// PR #262 review round 4: fs.realpathSync throws ENOENT both when nothing
+// exists at a path AND when a symlink there is DANGLING (its target
+// doesn't exist yet) — round 3's fix couldn't tell those apart, so it
+// treated a dangling symlink exactly like "nothing here" and climbed past
+// it to the (safe) parent directory, silently letting the check pass. The
+// three tests below are the reviewer's own boundary map: the middle one is
+// the actual gap; the other two prove the fix doesn't touch working
+// behavior on either side of it.
+describe("path containment — dangling symlinks (issue #258 security fix, PR #262 review round 4)", () => {
+  it("control: a symlinked write target whose OUTSIDE destination already exists is still blocked (round 3's fix, unchanged)", () => {
+    const outsideExisting = path.join(tmpDir, "outside-existing-target.json");
+    fs.writeFileSync(outsideExisting, "{}");
+    fs.mkdirSync(path.join(labelsDir, "single"), { recursive: true });
+    fs.symlinkSync(outsideExisting, path.join(labelsDir, "single", "x-write-target.json"));
+
+    expect(() => putLabel(labelsDir, "single/x-write-target.jpg", validLabel())).toThrow(PathEscapeError);
+  });
+
+  it("THE GAP: a DANGLING symlinked write target (outside destination does not exist yet) must still be blocked", () => {
+    const outsideDangling = path.join(tmpDir, "labels-target-outside.json");
+    fs.mkdirSync(path.join(labelsDir, "single"), { recursive: true });
+    fs.symlinkSync(outsideDangling, path.join(labelsDir, "single", "x-write-target.json")); // target does NOT exist
+
+    expect(fs.existsSync(outsideDangling)).toBe(false); // confirms it's genuinely dangling
+    expect(() => putLabel(labelsDir, "single/x-write-target.jpg", validLabel())).toThrow(PathEscapeError);
+    expect(fs.existsSync(outsideDangling)).toBe(false); // still not created
+  });
+
+  it("control: a DANGLING symlinked ANCESTOR DIRECTORY must be blocked by the check itself, not by mkdirSync happening to fail", () => {
+    const outsideDanglingDir = path.join(tmpDir, "outside-dangling-dir");
+    fs.mkdirSync(labelsDir, { recursive: true });
+    fs.symlinkSync(outsideDanglingDir, path.join(labelsDir, "evil"), "dir"); // target dir does NOT exist
+
+    expect(fs.existsSync(outsideDanglingDir)).toBe(false);
+    expect(() => putLabel(labelsDir, "evil/newfile.jpg", validLabel())).toThrow(PathEscapeError);
+    expect(fs.existsSync(outsideDanglingDir)).toBe(false);
+  });
+});
