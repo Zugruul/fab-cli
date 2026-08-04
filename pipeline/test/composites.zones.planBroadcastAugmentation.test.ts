@@ -71,7 +71,7 @@ describe("planBroadcastAugmentationRun — determinism", () => {
     const a = planBroadcastAugmentationRun(config(), ZONE_MAP, 5);
     const b = planBroadcastAugmentationRun(config(), ZONE_MAP, 5);
     const serialize = (plans: ReturnType<typeof planBroadcastAugmentationRun>) =>
-      plans.map((p) => ({ ...p, sleeveZoneIds: [...p.sleeveZoneIds].sort(), stackShimsByZoneId: [...p.stackShimsByZoneId.entries()].sort() }));
+      plans.map((p) => ({ ...p, sleeveZoneIds: [...p.sleeveZoneIds].sort(), stackShimsByZoneKind: [...p.stackShimsByZoneKind.entries()].sort() }));
     expect(serialize(a)).toEqual(serialize(b));
   });
 
@@ -102,7 +102,7 @@ describe("planBroadcastAugmentationRun — UNCONDITIONAL-DRAW SHAPE INVARIANT (#
     const high = planBroadcastAugmentationRun(config({ diceProbability: 1 }), ZONE_MAP, 3);
     const serializeSleeve = (p: ReturnType<typeof planBroadcastAugmentationRun>[number]) => [...p.sleeveZoneIds].sort();
     expect(low.map(serializeSleeve)).toEqual(high.map(serializeSleeve));
-    const serializeStack = (p: ReturnType<typeof planBroadcastAugmentationRun>[number]) => [...p.stackShimsByZoneId.entries()].sort();
+    const serializeStack = (p: ReturnType<typeof planBroadcastAugmentationRun>[number]) => [...p.stackShimsByZoneKind.entries()].sort();
     expect(low.map(serializeStack)).toEqual(high.map(serializeStack));
   });
 });
@@ -121,10 +121,10 @@ describe("planBroadcastAugmentationRun — structural correctness", () => {
     expect(none.sleeveZoneIds.size).toBe(0);
   });
 
-  it("stackShimsByZoneId only ever keys zones matching stackZoneKinds", () => {
+  it("stackShimsByZoneKind only ever keys zones matching stackZoneKinds", () => {
     const plans = planBroadcastAugmentationRun(config(), ZONE_MAP, 5);
     const stackZoneIds = new Set(ZONE_MAP.zones.filter((z) => config().stackZoneKinds.includes(z.kind)).map((z) => z.id));
-    for (const p of plans) for (const id of p.stackShimsByZoneId.keys()) expect(stackZoneIds.has(id)).toBe(true);
+    for (const p of plans) for (const id of p.stackShimsByZoneKind.keys()) expect(stackZoneIds.has(id)).toBe(true);
   });
 
   it("dice array never exceeds diceSlots entries", () => {
