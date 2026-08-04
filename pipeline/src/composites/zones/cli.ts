@@ -7,6 +7,23 @@
  *                            [--images-cache-dir <dir>] [--backgrounds-dir <dir>]
  *                            [--out <dir>] [--single-count <n>] [--two-player-count <n>]
  *                            [--seed <n>] [--debug-overlay <path>]
+ *                            [--mode single|broadcast]
+ *                            [--broadcast-layout <path>] [--broadcast-augmentation <path>]
+ *                            [--broadcast-count <n>] [--frame-width <n>] [--frame-height <n>]
+ *
+ *   `--mode broadcast` (#256): builds a tournament-broadcast composite run
+ *   instead of the single-mat/two-player run above — --single-count/
+ *   --two-player-count are ignored entirely. Reuses the SAME --zone-map/
+ *   --config/--playmat (near/far mat planning is otherwise identical, per
+ *   #256's brief) plus two new committed configs: --broadcast-layout
+ *   (measured chrome/play-area geometry, default
+ *   config/broadcast-layouts/calling-edinburgh.json) and
+ *   --broadcast-augmentation (sleeve/stack/dice/hand/keystone knobs,
+ *   default config/broadcast-augmentation.json). Defaults --out to
+ *   out/broadcast-layouts/ (never out/zone-layouts/, so the two modes'
+ *   output can never collide) and --frame-width/--frame-height to
+ *   2048x1152 (matching the real captures' measured aspect ratio, Phase
+ *   B). See generateBroadcastRun.ts for the full pipeline.
  *
  * Wired as a fourth subcommand on the top-level `composites` CLI
  * (composites/cli.ts) — same module, same entry point, per #253's brief.
@@ -36,12 +53,20 @@ import { decodeImageToRaw, decodeAndNormalizeBackground } from "../imageIO.js";
 import { renderZoneOverlay } from "./debugOverlay.js";
 import { encodeRawToPng } from "../imageIO.js";
 import { writeCompositeRun } from "../write.js";
+import { validateBroadcastLayoutConfig } from "./broadcastLayout.js";
+import type { BroadcastLayoutConfig } from "./broadcastLayout.js";
+import { validateBroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
+import type { BroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
+import { generateBroadcastRun } from "./generateBroadcastRun.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..", "..");
 
 function repoRoot(): string {
   return execFileSync("git", ["rev-parse", "--show-toplevel"], { encoding: "utf8" }).trim();
 }
+
+export const ZONE_GENERATE_MODES = ["single", "broadcast"] as const;
+export type ZoneGenerateMode = (typeof ZONE_GENERATE_MODES)[number];
 
 export interface ZoneGenerateArgs {
   zoneMapPath: string;
@@ -55,9 +80,26 @@ export interface ZoneGenerateArgs {
   twoPlayerCount: number;
   seed: number | null;
   debugOverlayOut: string | null;
+  /** #256: "single" (default, pre-#256 behavior — plans singleCount +
+   * twoPlayerCount composites exactly as before) or "broadcast" (ignores
+   * singleCount/twoPlayerCount entirely, generates broadcastCount
+   * tournament-broadcast frames instead — see generateBroadcastRun.ts). */
+  mode: ZoneGenerateMode;
+  broadcastLayoutPath: string;
+  broadcastAugmentationPath: string;
+  broadcastCount: number;
+  frameWidth: number;
+  frameHeight: number;
 }
 
 export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
+  // Pre-scan for --mode: the default --out value depends on it (a
+  // broadcast run must never default into plain zone-generate's
+  // out/zone-layouts/ dir, or vice versa), so mode has to be known before
+  // the defaults object below is constructed.
+  const modeFlagIndex = argv.indexOf("--mode");
+  const requestedMode: ZoneGenerateMode = modeFlagIndex !== -1 && argv[modeFlagIndex + 1] === "broadcast" ? "broadcast" : "single";
+
   const args: ZoneGenerateArgs = {
     zoneMapPath: path.join(BASE, "config", "zone-maps", "combat-chain-playmat.json"),
     playmatPath: path.join(BASE, "out", "zone-reference-playmat.png"),
@@ -65,11 +107,19 @@ export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
     cardJsonPath: "",
     imagesCacheDir: path.join(BASE, "out", "images"),
     backgroundsDir: path.join(BASE, "out", "backgrounds", "playmats"),
-    outDir: path.join(BASE, "out", "zone-layouts"),
+    outDir: path.join(BASE, "out", requestedMode === "broadcast" ? "broadcast-layouts" : "zone-layouts"),
     singleCount: 24,
     twoPlayerCount: 1,
     seed: null,
     debugOverlayOut: null,
+    mode: requestedMode,
+    broadcastLayoutPath: path.join(BASE, "config", "broadcast-layouts", "calling-edinburgh.json"),
+    broadcastAugmentationPath: path.join(BASE, "config", "broadcast-augmentation.json"),
+    // Landscape, matching the measured real-capture aspect ratio (Phase B:
+    // full-broadcast captures measured ~1.75-1.80) — 2048x1152 = 1.778.
+    broadcastCount: 8,
+    frameWidth: 2048,
+    frameHeight: 1152,
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -84,6 +134,12 @@ export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
     else if (arg === "--two-player-count" && argv[i + 1]) args.twoPlayerCount = Number(argv[++i]);
     else if (arg === "--seed" && argv[i + 1]) args.seed = Number(argv[++i]);
     else if (arg === "--debug-overlay" && argv[i + 1]) args.debugOverlayOut = argv[++i];
+    else if (arg === "--mode" && argv[i + 1]) args.mode = argv[++i] === "broadcast" ? "broadcast" : "single";
+    else if (arg === "--broadcast-layout" && argv[i + 1]) args.broadcastLayoutPath = argv[++i];
+    else if (arg === "--broadcast-augmentation" && argv[i + 1]) args.broadcastAugmentationPath = argv[++i];
+    else if (arg === "--broadcast-count" && argv[i + 1]) args.broadcastCount = Number(argv[++i]);
+    else if (arg === "--frame-width" && argv[i + 1]) args.frameWidth = Number(argv[++i]);
+    else if (arg === "--frame-height" && argv[i + 1]) args.frameHeight = Number(argv[++i]);
   }
   if (args.cardJsonPath === "") {
     args.cardJsonPath = path.join(repoRoot(), "fab-cli", "third_party", "flesh-and-blood-cards", "json", "english", "card.json");
@@ -158,19 +214,66 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
     console.log(`zone overlay check image -> ${args.debugOverlayOut}`);
   }
 
+  const ensureImagesDownloaded = async (needs: ImageNeed[]) => {
+    await downloadAll(
+      needs.map((n) => ({ printingId: n.printingId, imageUrl: n.imageUrl, printCode: "", cardName: "", setId: "" })),
+      { ...DEFAULT_DOWNLOAD_OPTIONS, cacheDir: args.imagesCacheDir },
+      deps,
+    );
+  };
+
+  if (args.mode === "broadcast") {
+    const rawLayout: unknown = JSON.parse(fs.readFileSync(args.broadcastLayoutPath, "utf8"));
+    const layoutResult = validateBroadcastLayoutConfig(rawLayout);
+    if (!layoutResult.valid) {
+      throw new Error(`composites zone-generate --mode broadcast: invalid broadcast-layout config at ${args.broadcastLayoutPath}: ${layoutResult.errors.join("; ")}`);
+    }
+    const layout: BroadcastLayoutConfig = layoutResult.config;
+
+    const rawAugmentation: unknown = JSON.parse(fs.readFileSync(args.broadcastAugmentationPath, "utf8"));
+    const augmentationResult = validateBroadcastAugmentationConfig(rawAugmentation);
+    if (!augmentationResult.valid) {
+      throw new Error(
+        `composites zone-generate --mode broadcast: invalid broadcast-augmentation config at ${args.broadcastAugmentationPath}: ${augmentationResult.errors.join("; ")}`,
+      );
+    }
+    const augmentationConfig: BroadcastAugmentationConfig = augmentationResult.config;
+
+    const { manifest, composites } = await generateBroadcastRun({
+      zoneLayoutConfig: config,
+      augmentationConfig,
+      layout,
+      zoneMap: zoneMapResult.map,
+      cards,
+      imagesCacheDir: args.imagesCacheDir,
+      loadImage: decodeImageToRaw,
+      ensureImagesDownloaded,
+      loadedBackground,
+      cardBackImagePath,
+      cardBackPrintingId: CARD_BACK_PRINTING_ID,
+      matWidth: loadedBackground.width,
+      matHeight: loadedBackground.height,
+      background: { fileName, contentHash },
+      frameWidth: args.frameWidth,
+      frameHeight: args.frameHeight,
+      count: args.broadcastCount,
+    });
+
+    await writeCompositeRun(args.outDir, composites, manifest, encodeRawToPng);
+
+    console.log(`broadcast composites: ${manifest.compositeCount} (${args.frameWidth}x${args.frameHeight})`);
+    console.log(`seed=${manifest.seed}, configHash=${manifest.generatorConfigHash.slice(0, 12)}`);
+    console.log(`-> ${args.outDir}`);
+    return 0;
+  }
+
   const { manifest, composites } = await generateZoneRun({
     config,
     zoneMap: zoneMapResult.map,
     cards,
     imagesCacheDir: args.imagesCacheDir,
     loadImage: decodeImageToRaw,
-    ensureImagesDownloaded: async (needs: ImageNeed[]) => {
-      await downloadAll(
-        needs.map((n) => ({ printingId: n.printingId, imageUrl: n.imageUrl, printCode: "", cardName: "", setId: "" })),
-        { ...DEFAULT_DOWNLOAD_OPTIONS, cacheDir: args.imagesCacheDir },
-        deps,
-      );
-    },
+    ensureImagesDownloaded,
     loadedBackground,
     cardBackImagePath,
     cardBackPrintingId: CARD_BACK_PRINTING_ID,

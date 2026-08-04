@@ -29,6 +29,7 @@
     "composites:import-captures": "tsx src/composites/cli.ts import-captures",
     "composites:sample-sheet": "tsx src/composites/cli.ts sample-sheet",
     "composites:zone-generate": "tsx src/composites/cli.ts zone-generate",
+    "composites:broadcast-generate": "tsx src/composites/cli.ts zone-generate --mode broadcast",
     "knowledge:build:full": "tsx src/knowledge/cli.ts full",
     "knowledge:build:delta": "tsx src/knowledge/cli.ts delta",
     "publish:dry-run": "tsx src/publish/cli.ts dry-run",

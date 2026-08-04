@@ -1,0 +1,11 @@
+{
+  "_comment": "#256 Phase C.3/C.4. Broadcast-only augmentation knobs (sleeve/stack/dice/hand/keystone) layered on top of zone-layout-generation.json's near/far mat planning -- see src/composites/zones/planBroadcastAugmentation.ts for the exact draw order/shape-invariant contract. Not empirically tuned against a labeled eval yet (no such eval exists for this brand-new mode); values are defensible starting points chosen for visible variety across a modest-size sample sheet, same posture as composites-generation.json's own minVisibleFraction default.",
+  "seed": 20260804,
+  "keystoneStrength": { "min": 0, "max": 0.12 },
+  "sleeveProbability": 0.35,
+  "stackZoneKinds": ["deck", "graveyard", "pitch"],
+  "stackExtraLayers": { "min": 0, "max": 3 },
+  "diceSlots": 2,
+  "diceProbability": 0.25,
+  "handProbability": 0.3
+}
