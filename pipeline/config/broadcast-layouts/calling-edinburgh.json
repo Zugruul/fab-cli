@@ -1,0 +1,14 @@
+{
+  "_comment": "#256 Phase B. Measured against 3 imported full-broadcast captures from the tournament-caps corpus (Calling Edinburgh World Tour stream rig, all 2048px-wide after import normalization): sourceFile 'Screenshot 2026-08-04 at 13.22.39.png' (imported as 4447be80b29fad67.png, 2048x1154), 'Screenshot 2026-08-04 at 13.23.05.png' (3422b51d3a470ded.png, 2048x1160), and 'Screenshot 2026-08-04 at 16.24.40.png' (306e65a7849abd2b.png, 2048x1146, a later/different match on the same rig -- included specifically to check the geometry generalizes across match state, not just within one clip). Measured via direct pixel-color sampling (chrome banner colors vs. the mat's flat gray/lavender tone) along multiple rows/columns per capture, not eyeballed off a downscaled thumbnail. playArea + scoreboard/sidebar boundaries (the play-area-adjacent edges) were cross-validated on all 3 captures and agreed within ~1% of frame size (top edge 0.057-0.061, left edge 0.196-0.197, right edge 0.803-0.809). The webcam/info-stack/card-preview SUB-splits within each sidebar are a secondary, lower-stakes visual estimate against the same captures (a labeled synthetic card must never land inside the 'sidebar' kind region at all -- THAT boundary is the rigorously measured one; the further sub-split into webcam vs. info/preview bands only affects where cosmetic chrome placeholder art is drawn, not card placement or labeling).",
+  "name": "Calling Edinburgh World Tour broadcast rig (landscape table, two players seated left/right, overhead camera) -- geometry measured against imported real captures under pipeline/out/backgrounds/captures/, see this file's _comment for exactly which ones and how; the captures themselves are never committed (copyrighted broadcast footage, see importCaptures.ts).",
+  "playArea": { "xFrac": 0.196, "yFrac": 0.058, "wFrac": 0.613, "hFrac": 0.942 },
+  "chrome": [
+    { "kind": "scoreboard", "rect": { "xFrac": 0.0, "yFrac": 0.0, "wFrac": 1.0, "hFrac": 0.058 } },
+    { "kind": "sidebar", "side": "left", "rect": { "xFrac": 0.0, "yFrac": 0.058, "wFrac": 0.196, "hFrac": 0.942 } },
+    { "kind": "sidebar", "side": "right", "rect": { "xFrac": 0.809, "yFrac": 0.058, "wFrac": 0.191, "hFrac": 0.942 } },
+    { "kind": "webcam", "side": "left", "rect": { "xFrac": 0.01, "yFrac": 0.09, "wFrac": 0.176, "hFrac": 0.42 } },
+    { "kind": "webcam", "side": "right", "rect": { "xFrac": 0.819, "yFrac": 0.09, "wFrac": 0.176, "hFrac": 0.42 } },
+    { "kind": "info-stack", "side": "left", "rect": { "xFrac": 0.01, "yFrac": 0.56, "wFrac": 0.176, "hFrac": 0.43 } },
+    { "kind": "card-preview", "side": "right", "rect": { "xFrac": 0.819, "yFrac": 0.56, "wFrac": 0.176, "hFrac": 0.43 } }
+  ]
+}

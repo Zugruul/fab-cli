@@ -116,3 +116,31 @@ describe("validateBroadcastLayoutConfig — play-area/chrome overlap invariant",
     expect(result.valid).toBe(true);
   });
 });
+
+describe("the committed reference broadcast layout (config/broadcast-layouts/calling-edinburgh.json)", () => {
+  it("is valid and covers every documented chrome kind, measured against real imported captures", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const raw = JSON.parse(
+      fs.readFileSync(path.join(import.meta.dirname, "..", "config", "broadcast-layouts", "calling-edinburgh.json"), "utf8"),
+    );
+    const result = validateBroadcastLayoutConfig(raw);
+    expect(result.valid).toBe(true);
+    if (result.valid) {
+      const kinds = new Set(result.config.chrome.map((c) => c.kind));
+      expect(kinds).toEqual(new Set(CHROME_KINDS));
+      // Sanity check on the measured numbers (not a re-derivation of them):
+      // at the real captures' own resolution (~2048px wide), the play area
+      // itself reads as landscape, matching "landscape table" (#256 brief).
+      const FRAME_W = 2048;
+      const FRAME_H = 1154;
+      const playAreaPxW = result.config.playArea.wFrac * FRAME_W;
+      const playAreaPxH = result.config.playArea.hFrac * FRAME_H;
+      expect(playAreaPxW).toBeGreaterThan(playAreaPxH);
+      // Left/right sidebars are roughly symmetric (same rig, mirrored).
+      const left = result.config.chrome.find((c) => c.kind === "sidebar" && c.side === "left")!;
+      const right = result.config.chrome.find((c) => c.kind === "sidebar" && c.side === "right")!;
+      expect(Math.abs(left.rect.wFrac - right.rect.wFrac)).toBeLessThan(0.02);
+    }
+  });
+});
