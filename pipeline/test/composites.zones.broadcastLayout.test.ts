@@ -201,3 +201,44 @@ describe("loadBroadcastLayoutConfigsFromDir — multi-rig loading (#256 correcti
     expect(names.some((n) => n.includes("las vegas"))).toBe(true);
   });
 });
+
+// #256 correction round 2: calling-edinburgh.json's `_comment` cited
+// Screenshot 2026-08-04 at 16.24.40.png (imported as 306e65a7849abd2b.png)
+// as one of its own 3 cross-validation captures — that file is
+// UNAMBIGUOUSLY a Pro Tour Las Vegas capture (teal mat, "Pro Tour Las
+// Vegas" branding, TCGplayer sponsor block — confirmed by direct visual
+// inspection), and pro-tour-las-vegas.json cites the SAME file as one of
+// ITS 3 captures too. Two defects from one root cause: (1) Edinburgh's
+// stated evidence was factually wrong (it claims 3 same-rig captures
+// "generalizing across match state" but one was a different rig
+// entirely), and (2) the two configs' "shared-template" agreement claim
+// was partly circular — agreement on a SHARED input frame is guaranteed
+// by construction, not independent evidence. This test guards against a
+// repeat: every rig config's cited capture hashes must be disjoint from
+// every other rig config's.
+describe("committed broadcast-layout configs — no shared capture evidence between rigs (#256 correction round 2)", () => {
+  it("no capture content-hash is cited by more than one rig config's _comment", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const dir = path.join(import.meta.dirname, "..", "config", "broadcast-layouts");
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+    expect(files.length).toBeGreaterThanOrEqual(2);
+
+    // Content-hash filenames are always exactly 16 lowercase hex chars
+    // (importCaptures.ts's sha256-16 convention) — a reliable extraction
+    // regardless of how the surrounding prose phrases the citation.
+    const HASH_RE = /\b[0-9a-f]{16}\.png\b/g;
+    const citedBy = new Map<string, string[]>(); // hash -> [file, ...]
+    for (const file of files) {
+      const raw = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")) as { _comment?: string };
+      const comment = raw._comment ?? "";
+      const hashes = new Set(comment.match(HASH_RE) ?? []);
+      for (const hash of hashes) {
+        citedBy.set(hash, [...(citedBy.get(hash) ?? []), file]);
+      }
+    }
+
+    const shared = [...citedBy.entries()].filter(([, files]) => files.length > 1);
+    expect(shared, `capture(s) cited by more than one rig config (circular evidence): ${JSON.stringify(shared)}`).toEqual([]);
+  });
+});
