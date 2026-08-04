@@ -28,6 +28,7 @@ function label(id: string, cardCount = 1, excludedCards = 0): CompositeLabel {
       visibleFraction: i === 0 ? 0.75 : 1,
     })),
     excludedCards,
+    cardBacksPlaced: 0,
   };
 }
 

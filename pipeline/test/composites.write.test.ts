@@ -53,6 +53,7 @@ function label(id: string): CompositeLabel {
     backgroundHash: null,
     cards: [],
     excludedCards: 0,
+    cardBacksPlaced: 0,
   };
 }
 

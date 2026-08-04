@@ -12,8 +12,9 @@ import type { GeneratorConfig } from "./config.js";
 import type { CompositeLabel } from "./types.js";
 
 /** #252: bumped for the new excludedCards entry field (cardCount's
- * meaning also narrowed to "labeled/included cards", see below). */
-export const COMPOSITE_MANIFEST_SCHEMA_VERSION = "0.2.0";
+ * meaning also narrowed to "labeled/included cards", see below). #253:
+ * bumped again for the new cardBacksPlaced entry field. */
+export const COMPOSITE_MANIFEST_SCHEMA_VERSION = "0.3.0";
 
 export interface CompositeManifestEntry {
   compositeId: string;
@@ -27,6 +28,10 @@ export interface CompositeManifestEntry {
    * their visibleFraction fell below config.minVisibleFraction (#252) —
    * mirrors CompositeLabel.excludedCards. 0 when nothing was filtered. */
   excludedCards: number;
+  /** Official card-back placements (#253's DECK zone) — mirrors
+   * CompositeLabel.cardBacksPlaced. 0 for every composite the base
+   * random-scatter generator produces. */
+  cardBacksPlaced: number;
   /** sha256 of the label file's exact on-disk bytes (write.ts writes
    * `JSON.stringify(label, null, 2) + "\n"` — the same bytes hashed here). */
   labelFileHash: string;
@@ -66,6 +71,7 @@ export function buildCompositeManifest(opts: BuildCompositeManifestOptions): Com
     fileName: label.fileName,
     cardCount: label.cards.length,
     excludedCards: label.excludedCards,
+    cardBacksPlaced: label.cardBacksPlaced,
     labelFileHash: sha256(Buffer.from(JSON.stringify(label, null, 2) + "\n")),
   }));
 
