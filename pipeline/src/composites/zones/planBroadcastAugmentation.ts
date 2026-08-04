@@ -17,22 +17,36 @@
  * fire, mirroring paramStream.ts's/planZoneLayout.ts's own "always draw,
  * maybe discard" discipline — the unconditional-draw shape invariant
  * #256's brief calls a merge blocker if violated):
- *   1. one sleeveRoll per zone in `zoneMap.zones`, visited in id-sorted
+ *   1. rigIndexDraw — 1 draw, always. A raw [0,1) fraction, NOT an
+ *      integer index: this module has zero concept of how many rigs are
+ *      actually configured (that lives entirely at the orchestration
+ *      layer, generateBroadcastRun.ts, which resolves it via
+ *      `Math.floor(rigIndexDraw * layouts.length)`, mirroring
+ *      previewCardDraw's own "raw fraction, caller resolves the pick"
+ *      pattern below). Drawn FIRST, specifically so that adding a third
+ *      rig to the committed config later can NEVER reshuffle sleeve/
+ *      stack/dice/hand/preview/keystone for an existing seed (#256
+ *      correction: the issue's real capture corpus turned out to span
+ *      two physically different rigs, not one).
+ *   2. one sleeveRoll per zone in `zoneMap.zones`, visited in id-sorted
  *      order (same fixed order planZoneLayout.ts itself uses) — applied
  *      to that zone's card on EITHER mat (the two mats share the same
  *      zone map, so one roll covers both players' matching zone
  *      symmetrically; #256 scope decision, see this module's header for
  *      why a per-mat-independent roll wasn't worth the extra complexity)
- *   2. one stackExtraLayers draw per entry in `config.stackZoneKinds`,
+ *   3. one stackExtraLayers draw per entry in `config.stackZoneKinds`,
  *      visited in ARRAY order (config-authored, not re-sorted — a fixed
  *      order once the config is fixed)
- *   3. per dice slot (config.diceSlots, always the same fixed count):
+ *   4. per dice slot (config.diceSlots, always the same fixed count):
  *      includeRoll, sideRoll, xFrac, yFrac, rotationDeg, faceDraw,
  *      paletteIndexDraw — 7 draws per slot, always
- *   4. one hand: includeRoll, sideRoll, xFrac, yFrac, rotationDeg,
- *      skinTonePaletteDraw — 6 draws, always
- *   5. previewCardDraw — 1 draw, always
- *   6. keystoneLeftFrac, keystoneRightFrac — 2 draws, always
+ *   5. one hand: includeRoll, sideRoll, xFrac, yFrac, rotationDeg,
+ *      skinTonePaletteDraw, blurStrengthDraw — 7 draws, always (see
+ *      broadcastOccluders.ts's directional motion blur — REQUIRED per
+ *      #256's correction, the Pro Tour Las Vegas rig shows heavy hand
+ *      motion blur prominently)
+ *   6. previewCardDraw — 1 draw, always
+ *   7. keystoneLeftFrac, keystoneRightFrac — 2 draws, always
  */
 import { createRng } from "../../behavior/rng.js";
 import type { RangeConfig } from "../config.js";
@@ -112,9 +126,21 @@ export interface HandPlan {
   yFrac: number;
   rotationDeg: number;
   paletteIndex: number;
+  /** 0..1 — directional motion-blur strength applied to the hand image
+   * (broadcastOccluders.ts's `applyDirectionalMotionBlur`). REQUIRED per
+   * #256's correction (the Pro Tour Las Vegas rig shows heavy hand motion
+   * blur prominently) — 0 is a legitimate draw (no visible blur that
+   * composite), not a disabled feature. */
+  blurStrength: number;
 }
 
 export interface BroadcastCompositeAugmentation {
+  /** Raw [0,1) fraction — NOT an index. The caller (generateBroadcastRun.ts)
+   * resolves this into an actual rig pick via
+   * `Math.floor(rigIndexDraw * layouts.length)`; this module has no
+   * concept of how many rigs are configured, so that resolution can never
+   * feed back into this stream's shape. See this file's header. */
+  rigIndexDraw: number;
   sleeveZoneIds: Set<string>;
   /** zone KIND -> extra shim layer count (0 = no extra thickness). Kind,
    * not zone id — see planOneComposite's doc comment on why resolution
@@ -136,6 +162,9 @@ function intInRange(rng: () => number, range: RangeConfig): number {
 }
 
 function planOneComposite(config: BroadcastAugmentationConfig, sortedZoneIds: string[], rng: () => number): BroadcastCompositeAugmentation {
+  // Always drawn first — see this module's header for why.
+  const rigIndexDraw = rng();
+
   const sleeveZoneIds = new Set<string>();
   for (const zoneId of sortedZoneIds) {
     // Always drawn, one per zone, regardless of sleeveProbability.
@@ -180,16 +209,24 @@ function planOneComposite(config: BroadcastAugmentationConfig, sortedZoneIds: st
   const handY = rng();
   const handRotationDeg = rng() * 40 - 20; // a hand entering roughly level, not upside-down
   const handPaletteDraw = rng();
+  const handBlurDraw = rng();
   const hand: HandPlan | null =
     handIncludeRoll < config.handProbability
-      ? { side: handSideRoll < 0.5 ? "left" : "right", xFrac: handX, yFrac: handY, rotationDeg: handRotationDeg, paletteIndex: Math.floor(handPaletteDraw * 1000) }
+      ? {
+          side: handSideRoll < 0.5 ? "left" : "right",
+          xFrac: handX,
+          yFrac: handY,
+          rotationDeg: handRotationDeg,
+          paletteIndex: Math.floor(handPaletteDraw * 1000),
+          blurStrength: handBlurDraw,
+        }
       : null;
 
   const previewCardDraw = rng();
   const keystoneLeftFrac = inRange(rng, config.keystoneStrength);
   const keystoneRightFrac = inRange(rng, config.keystoneStrength);
 
-  return { sleeveZoneIds, stackShimsByZoneKind, dice, hand, previewCardDraw, keystoneLeftFrac, keystoneRightFrac };
+  return { rigIndexDraw, sleeveZoneIds, stackShimsByZoneKind, dice, hand, previewCardDraw, keystoneLeftFrac, keystoneRightFrac };
 }
 
 /**

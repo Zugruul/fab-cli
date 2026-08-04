@@ -52,6 +52,7 @@ function plan(overrides: Partial<CompositeParams> = {}): CompositeParams {
 
 function noAugmentation(overrides: Partial<BroadcastCompositeAugmentation> = {}): BroadcastCompositeAugmentation {
   return {
+    rigIndexDraw: 0,
     sleeveZoneIds: new Set(),
     stackShimsByZoneKind: new Map(),
     dice: [],
@@ -160,13 +161,27 @@ describe("applyBroadcastAugmentation — hand", () => {
     const right = plan({ compositeId: "right", cards: [] });
     const augmentation = noAugmentation({
       dice: [{ side: "left", xFrac: 0.2, yFrac: 0.2, rotationDeg: 0, face: 1, paletteIndex: 0 }],
-      hand: { side: "left", xFrac: 0.5, yFrac: 0.5, rotationDeg: 5, paletteIndex: 2 },
+      hand: { side: "left", xFrac: 0.5, yFrac: 0.5, rotationDeg: 5, paletteIndex: 2, blurStrength: 0.5 },
     });
     const result = applyBroadcastAugmentation(left, right, ZONE_MAP, augmentation);
     expect(result.leftPlan.cards).toHaveLength(3); // real card + dice + hand
     const last = result.leftPlan.cards[2];
     expect(last.isOccluder).toBe(true);
     expect(result.occluderSpecs.some((s) => s.printingId === last.printingId && s.kind === "hand")).toBe(true);
+  });
+
+  // #256 correction: REQUIRED hand motion blur (Pro Tour Las Vegas shows it
+  // prominently) — the planned blurStrength must reach the render step.
+  it("carries the planned blurStrength through to the hand's OccluderImageSpec", () => {
+    const left = plan({ cards: [] });
+    const right = plan({ compositeId: "right", cards: [] });
+    const augmentation = noAugmentation({
+      hand: { side: "left", xFrac: 0.5, yFrac: 0.5, rotationDeg: 5, paletteIndex: 2, blurStrength: 0.73 },
+    });
+    const result = applyBroadcastAugmentation(left, right, ZONE_MAP, augmentation);
+    const handSpec = result.occluderSpecs.find((s) => s.kind === "hand");
+    expect(handSpec).toBeDefined();
+    expect(handSpec!.kind === "hand" && handSpec!.blurStrength).toBe(0.73);
   });
 
   it("hand is absent (null) -> no hand placement on either side", () => {
