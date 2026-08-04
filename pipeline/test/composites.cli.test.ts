@@ -323,6 +323,31 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
     ]);
   });
 
+  it("fails loudly on --min-appearances 0 or a non-integer when --coverage is set (a garbage target must never silently produce a report)", async () => {
+    await expect(
+      generateCommand([
+        "--config", path.join(tmpDir, "config.json"),
+        "--card-json", path.join(tmpDir, "card.json"),
+        "--images-cache-dir", path.join(tmpDir, "images"),
+        "--out", path.join(tmpDir, "out-bad-min"),
+        "--coverage",
+        "--min-appearances", "0",
+      ]),
+    ).rejects.toThrow(/--min-appearances/);
+  });
+
+  it("fails loudly on --composites-per-run 0 or negative", async () => {
+    await expect(
+      generateCommand([
+        "--config", path.join(tmpDir, "config.json"),
+        "--card-json", path.join(tmpDir, "card.json"),
+        "--images-cache-dir", path.join(tmpDir, "images"),
+        "--out", path.join(tmpDir, "out-bad-composites"),
+        "--composites-per-run", "-1",
+      ]),
+    ).rejects.toThrow(/--composites-per-run/);
+  });
+
   it("--coverage ignores a STALE download-failures entry for a printing that IS actually cached — never double-counted as unavailableUpstream", async () => {
     const failuresPath = path.join(tmpDir, "download-failures-stale.json");
     // printing-a is cached in beforeEach — this manifest is stale (e.g. a

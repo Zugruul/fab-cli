@@ -269,7 +269,15 @@ export async function generateCommand(argv: string[]): Promise<number> {
   if (args.seed != null) config = { ...config, seed: args.seed };
   if (args.backgroundsDir !== undefined) config = { ...config, backgroundsDir: args.backgroundsDir };
   if (args.externalBackgroundProbability != null) config = { ...config, externalBackgroundProbability: args.externalBackgroundProbability };
-  if (args.compositesPerRun != null) config = { ...config, compositesPerRun: args.compositesPerRun };
+  if (args.compositesPerRun != null) {
+    if (!Number.isInteger(args.compositesPerRun) || args.compositesPerRun <= 0) {
+      throw new Error(`composites generate: --composites-per-run must be a positive integer (got ${args.compositesPerRun})`);
+    }
+    config = { ...config, compositesPerRun: args.compositesPerRun };
+  }
+  if (args.coverage && (!Number.isInteger(args.minAppearances) || args.minAppearances <= 0)) {
+    throw new Error(`composites generate: --min-appearances must be a positive integer (got ${args.minAppearances})`);
+  }
 
   const availableCards = resolveAvailableCards(args.cardJsonPath, args.imagesCacheDir);
   if (availableCards.length === 0) {
