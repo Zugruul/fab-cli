@@ -53,6 +53,24 @@ export function buildOccluderImage(spec: OccluderImageSpec): RawImage {
 /** Hands sweep roughly across the table (horizontally) in the reference
  * broadcast captures, so the smear runs along x. */
 export const HAND_MOTION_BLUR_ANGLE_DEG = 0;
+
+/**
+ * Resolves planBroadcastAugmentation.ts's raw `rigIndexDraw` [0,1) fraction
+ * into an actual index into `layouts` (#256 correction, Phase C blocking
+ * item #2). `rigIndexDraw` is drawn unconditionally by that module with
+ * ZERO knowledge of how many rigs are configured — by design, so adding a
+ * third rig to the committed config later can never reshuffle any other
+ * per-composite draw for an existing seed (see planBroadcastAugmentation.ts's
+ * header). This is where that fraction actually becomes a pick, splitting
+ * [0,1) into `layoutCount` equal bands: band i is
+ * [i/layoutCount, (i+1)/layoutCount). Clamped defensively to the last valid
+ * index (createRng's contract is [0,1), so draw===1 should never happen,
+ * but a raw floating-point edge case silently indexing past the array end
+ * would be a far worse failure than a clamp).
+ */
+export function resolveRigIndex(rigIndexDraw: number, layoutCount: number): number {
+  return Math.min(layoutCount - 1, Math.floor(rigIndexDraw * layoutCount));
+}
 import { pickDeterministic } from "./semanticSelection.js";
 import type { RawCardForSelection } from "./semanticSelection.js";
 import { buildEligibleByKind } from "./generateZoneRun.js";
@@ -86,7 +104,15 @@ const FRAME_BACKGROUND_COLOR: [number, number, number] = [12, 12, 16];
 export interface GenerateBroadcastRunInput {
   zoneLayoutConfig: ZoneLayoutConfig;
   augmentationConfig: BroadcastAugmentationConfig;
-  layout: BroadcastLayoutConfig;
+  /** The rig pool a run draws from (#256 correction) — MUST be non-empty.
+   * Each composite independently resolves its OWN `rigIndexDraw` (planned
+   * alongside sleeve/stack/dice/hand/preview/keystone, see
+   * planBroadcastAugmentation.ts's header) into an index via
+   * resolveRigIndex, so a run with 2+ configured rigs genuinely mixes
+   * them rather than always using layouts[0]. A single-entry array
+   * reproduces the pre-correction single-rig behavior exactly
+   * (resolveRigIndex always returns 0 when layoutCount is 1). */
+  layouts: BroadcastLayoutConfig[];
   zoneMap: ZoneMap;
   cards: RawCardForSelection[];
   imagesCacheDir: string;
@@ -114,6 +140,9 @@ function pad(i: number): string {
 }
 
 export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Promise<GenerateBroadcastRunResult> {
+  if (input.layouts.length === 0) {
+    throw new Error("generateBroadcastRun: input.layouts must be a non-empty array (no rig configured for this run)");
+  }
   const eligibleByKind = buildEligibleByKind(input.cards, input.zoneMap, input.imagesCacheDir);
   const cardBack = { printingId: input.cardBackPrintingId, imagePath: input.cardBackImagePath };
 
@@ -184,8 +213,18 @@ export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Pr
   const frameBackground = createSolidImage(input.frameWidth, input.frameHeight, FRAME_BACKGROUND_COLOR);
 
   const composites: RenderBroadcastFrameResult[] = [];
+  // Per-composite rig pick (#256 correction) — resolved from EACH
+  // composite's OWN rigIndexDraw, so a run with 2+ configured rigs
+  // genuinely mixes them rather than pinning every composite to
+  // input.layouts[0]. Collected in a parallel array (rather than
+  // re-deriving it from the manifest afterward) since it's needed both
+  // here (which layout renderBroadcastFrame actually uses) and below
+  // (the manifest entry's rigName).
+  const resolvedRigNames: string[] = [];
   for (let i = 0; i < input.count; i++) {
     const { leftPlan, rightPlan, occluderSpecs } = applied[i];
+    const rig = input.layouts[resolveRigIndex(augmentations[i].rigIndexDraw, input.layouts.length)];
+    resolvedRigNames.push(rig.name);
 
     // Occluder images are regenerated FRESH per composite (never cached
     // across composites): applyBroadcastAugmentation resets its synthetic
@@ -221,7 +260,7 @@ export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Pr
       frameWidth: input.frameWidth,
       frameHeight: input.frameHeight,
       frameBackground,
-      layout: input.layout,
+      layout: rig,
       tableImage: merged.image,
       tableCardLabels: merged.label.cards,
       keystoneLeftFrac: augmentations[i].keystoneLeftFrac,
@@ -237,12 +276,13 @@ export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Pr
   }
 
   const now = input.now ?? (() => new Date().toISOString());
-  const manifestEntries: CompositeManifestEntry[] = composites.map((c) => ({
+  const manifestEntries: CompositeManifestEntry[] = composites.map((c, i) => ({
     compositeId: c.label.compositeId,
     fileName: c.label.fileName,
     cardCount: c.label.cards.length,
     excludedCards: c.label.excludedCards,
     cardBacksPlaced: c.label.cardBacksPlaced,
+    rigName: resolvedRigNames[i],
     labelFileHash: sha256(Buffer.from(JSON.stringify(c.label, null, 2) + "\n")),
   }));
   const manifest: CompositeDatasetManifest = {
@@ -250,7 +290,7 @@ export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Pr
     labelSchemaVersion: COMPOSITE_LABEL_SCHEMA_VERSION,
     buildDate: now(),
     seed: input.zoneLayoutConfig.seed,
-    generatorConfigHash: configHash({ zoneLayoutConfig: input.zoneLayoutConfig, augmentationConfig: input.augmentationConfig, layout: input.layout }),
+    generatorConfigHash: configHash({ zoneLayoutConfig: input.zoneLayoutConfig, augmentationConfig: input.augmentationConfig, layouts: input.layouts }),
     compositeCount: composites.length,
     composites: manifestEntries,
   };

@@ -8,18 +8,21 @@
  *                            [--out <dir>] [--single-count <n>] [--two-player-count <n>]
  *                            [--seed <n>] [--debug-overlay <path>]
  *                            [--mode single|broadcast]
- *                            [--broadcast-layout <path>] [--broadcast-augmentation <path>]
+ *                            [--broadcast-layout <path>] [--broadcast-layouts-dir <dir>]
+ *                            [--broadcast-augmentation <path>]
  *                            [--broadcast-count <n>] [--frame-width <n>] [--frame-height <n>]
  *
  *   `--mode broadcast` (#256): builds a tournament-broadcast composite run
  *   instead of the single-mat/two-player run above — --single-count/
  *   --two-player-count are ignored entirely. Reuses the SAME --zone-map/
  *   --config/--playmat (near/far mat planning is otherwise identical, per
- *   #256's brief) plus two new committed configs: --broadcast-layout
- *   (measured chrome/play-area geometry, default
- *   config/broadcast-layouts/calling-edinburgh.json) and
- *   --broadcast-augmentation (sleeve/stack/dice/hand/keystone knobs,
- *   default config/broadcast-augmentation.json). Defaults --out to
+ *   #256's brief) plus two new committed configs: the rig pool (measured
+ *   chrome/play-area geometry — default --broadcast-layouts-dir
+ *   config/broadcast-layouts/, which holds every committed rig; each
+ *   composite independently draws which rig it uses, #256 correction —
+ *   pass --broadcast-layout <path> instead to pin a run to exactly ONE
+ *   rig) and --broadcast-augmentation (sleeve/stack/dice/hand/keystone
+ *   knobs, default config/broadcast-augmentation.json). Defaults --out to
  *   out/broadcast-layouts/ (never out/zone-layouts/, so the two modes'
  *   output can never collide) and --frame-width/--frame-height to
  *   2048x1152 (matching the real captures' measured aspect ratio, Phase
@@ -53,7 +56,7 @@ import { decodeImageToRaw, decodeAndNormalizeBackground } from "../imageIO.js";
 import { renderZoneOverlay } from "./debugOverlay.js";
 import { encodeRawToPng } from "../imageIO.js";
 import { writeCompositeRun } from "../write.js";
-import { validateBroadcastLayoutConfig } from "./broadcastLayout.js";
+import { validateBroadcastLayoutConfig, loadBroadcastLayoutConfigsFromDir } from "./broadcastLayout.js";
 import type { BroadcastLayoutConfig } from "./broadcastLayout.js";
 import { validateBroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
 import type { BroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
@@ -91,7 +94,20 @@ export interface ZoneGenerateArgs {
    * singleCount/twoPlayerCount entirely, generates broadcastCount
    * tournament-broadcast frames instead — see generateBroadcastRun.ts). */
   mode: ZoneGenerateMode;
-  broadcastLayoutPath: string;
+  /** Explicit single-rig override (`--broadcast-layout <path>`) — pins a
+   * run to exactly ONE rig, useful for reproducing/debugging one rig in
+   * isolation. `null` (the default) means "draw from the full rig pool at
+   * broadcastLayoutsDir instead" (#256 correction, Phase C item #2) —
+   * a real run should genuinely mix every configured rig, not silently
+   * default to whichever file happens to sort first. */
+  broadcastLayoutPath: string | null;
+  /** Directory of `*.json` BroadcastLayoutConfig files (#256 correction)
+   * — loaded via loadBroadcastLayoutConfigsFromDir, sorted by filename for
+   * determinism, and used as the FULL rig pool when broadcastLayoutPath
+   * is not set. Defaults to the committed config/broadcast-layouts/ dir,
+   * which as of this correction holds both calling-edinburgh.json and
+   * pro-tour-las-vegas.json. */
+  broadcastLayoutsDir: string;
   broadcastAugmentationPath: string;
   broadcastCount: number;
   frameWidth: number;
@@ -119,7 +135,8 @@ export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
     seed: null,
     debugOverlayOut: null,
     mode: requestedMode,
-    broadcastLayoutPath: path.join(BASE, "config", "broadcast-layouts", "calling-edinburgh.json"),
+    broadcastLayoutPath: null,
+    broadcastLayoutsDir: path.join(BASE, "config", "broadcast-layouts"),
     broadcastAugmentationPath: path.join(BASE, "config", "broadcast-augmentation.json"),
     // Landscape, matching the measured real-capture aspect ratio (Phase B:
     // full-broadcast captures measured ~1.75-1.80) — 2048x1152 = 1.778.
@@ -142,6 +159,7 @@ export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
     else if (arg === "--debug-overlay" && argv[i + 1]) args.debugOverlayOut = argv[++i];
     else if (arg === "--mode" && argv[i + 1]) args.mode = argv[++i] === "broadcast" ? "broadcast" : "single";
     else if (arg === "--broadcast-layout" && argv[i + 1]) args.broadcastLayoutPath = argv[++i];
+    else if (arg === "--broadcast-layouts-dir" && argv[i + 1]) args.broadcastLayoutsDir = argv[++i];
     else if (arg === "--broadcast-augmentation" && argv[i + 1]) args.broadcastAugmentationPath = argv[++i];
     else if (arg === "--broadcast-count" && argv[i + 1]) args.broadcastCount = Number(argv[++i]);
     else if (arg === "--frame-width" && argv[i + 1]) args.frameWidth = Number(argv[++i]);
@@ -234,12 +252,27 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
   };
 
   if (args.mode === "broadcast") {
-    const rawLayout: unknown = JSON.parse(fs.readFileSync(args.broadcastLayoutPath, "utf8"));
-    const layoutResult = validateBroadcastLayoutConfig(rawLayout);
-    if (!layoutResult.valid) {
-      throw new Error(`composites zone-generate --mode broadcast: invalid broadcast-layout config at ${args.broadcastLayoutPath}: ${layoutResult.errors.join("; ")}`);
+    // #256 correction (Phase C, item #2): a real run must draw from EVERY
+    // configured rig, not just whichever one happened to be hardcoded —
+    // `--broadcast-layout <path>` still pins a run to exactly one rig
+    // (useful for reproducing/debugging a single rig in isolation), but
+    // the default is the FULL pool at broadcastLayoutsDir, loaded via the
+    // same validated, sorted-for-determinism loader
+    // loadBroadcastLayoutConfigsFromDir already provides.
+    let layouts: BroadcastLayoutConfig[];
+    if (args.broadcastLayoutPath) {
+      const rawLayout: unknown = JSON.parse(fs.readFileSync(args.broadcastLayoutPath, "utf8"));
+      const layoutResult = validateBroadcastLayoutConfig(rawLayout);
+      if (!layoutResult.valid) {
+        throw new Error(`composites zone-generate --mode broadcast: invalid broadcast-layout config at ${args.broadcastLayoutPath}: ${layoutResult.errors.join("; ")}`);
+      }
+      layouts = [layoutResult.config];
+    } else {
+      layouts = loadBroadcastLayoutConfigsFromDir(args.broadcastLayoutsDir, {
+        listFiles: (dir) => fs.readdirSync(dir),
+        readFile: (p) => fs.readFileSync(p, "utf8"),
+      });
     }
-    const layout: BroadcastLayoutConfig = layoutResult.config;
 
     const rawAugmentation: unknown = JSON.parse(fs.readFileSync(args.broadcastAugmentationPath, "utf8"));
     const augmentationResult = validateBroadcastAugmentationConfig(rawAugmentation);
@@ -253,7 +286,7 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
     const { manifest, composites } = await generateBroadcastRun({
       zoneLayoutConfig: config,
       augmentationConfig,
-      layout,
+      layouts,
       zoneMap: zoneMapResult.map,
       cards,
       imagesCacheDir: args.imagesCacheDir,

@@ -63,9 +63,19 @@ describe("parseZoneGenerateArgs — --mode broadcast (#256)", () => {
     expect(parseZoneGenerateArgs(["--mode", "broadcast"]).mode).toBe("broadcast");
   });
 
-  it("defaults broadcastLayoutPath to the committed calling-edinburgh.json", () => {
+  it("defaults broadcastLayoutPath to null — a run draws from the FULL rig pool, not one hardcoded rig (#256 correction)", () => {
     const args = parseZoneGenerateArgs([]);
-    expect(args.broadcastLayoutPath).toMatch(/broadcast-layouts[\\/]calling-edinburgh\.json$/);
+    expect(args.broadcastLayoutPath).toBeNull();
+  });
+
+  it("defaults broadcastLayoutsDir to the committed config/broadcast-layouts/ pool (#256 correction)", () => {
+    const args = parseZoneGenerateArgs([]);
+    expect(args.broadcastLayoutsDir).toMatch(/broadcast-layouts$/);
+  });
+
+  it("honors --broadcast-layouts-dir", () => {
+    const args = parseZoneGenerateArgs(["--mode", "broadcast", "--broadcast-layouts-dir", "/tmp/rigs"]);
+    expect(args.broadcastLayoutsDir).toBe("/tmp/rigs");
   });
 
   it("defaults broadcastAugmentationPath to the committed broadcast-augmentation.json", () => {
