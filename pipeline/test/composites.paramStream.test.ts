@@ -152,6 +152,76 @@ describe("planRun — respects config ranges", () => {
   });
 });
 
+// #244: external (real photo) backgrounds. planRun's 3rd param is the
+// SORTED list of available background file names (paramStream.ts stays
+// pure — it never touches fs; resolving that list from a real directory
+// is cli.ts's job). Selection must be deterministic given seed + that
+// list, and — same discipline as the overlap/position draws above — the
+// draw COUNT per composite must not depend on whether external
+// backgrounds are configured at all, so a backgroundsDir/probability
+// change never reshuffles any OTHER knob's draws.
+describe("planRun — external backgrounds (#244)", () => {
+  it("never selects an external background when availableBackgrounds is empty, even with externalBackgroundProbability=1", () => {
+    const config = baseConfig({ compositesPerRun: 10, externalBackgroundProbability: 1 });
+    const plans = planRun(config, cards(6), []);
+    for (const p of plans) expect(p.background.type).not.toBe("external");
+  });
+
+  it("never selects an external background when externalBackgroundProbability=0, even with backgrounds available", () => {
+    const config = baseConfig({ compositesPerRun: 10, externalBackgroundProbability: 0 });
+    const plans = planRun(config, cards(6), ["a.png", "b.png"]);
+    for (const p of plans) expect(p.background.type).not.toBe("external");
+  });
+
+  it("always selects an external background when externalBackgroundProbability=1 and backgrounds are available, from the given list", () => {
+    const config = baseConfig({ compositesPerRun: 10, externalBackgroundProbability: 1 });
+    const files = ["aaa.png", "bbb.jpg", "ccc.webp"];
+    const plans = planRun(config, cards(6), files);
+    for (const p of plans) {
+      expect(p.background.type).toBe("external");
+      if (p.background.type === "external") {
+        expect(files).toContain(p.background.fileName);
+        expect(p.background.contentHash).toBe(p.background.fileName.replace(/\.[^.]+$/, ""));
+      }
+    }
+  });
+
+  it("is deterministic given the same seed + same availableBackgrounds list", () => {
+    const config = baseConfig({ externalBackgroundProbability: 0.5 });
+    const files = ["x.png", "y.png"];
+    const a = planRun(config, cards(6), files);
+    const b = planRun(config, cards(6), files);
+    expect(JSON.stringify(a)).toEqual(JSON.stringify(b));
+  });
+
+  it("SEED x EXTERNAL-PROBABILITY intersection: same seed, probability 0 vs 1 produce different plans, each internally deterministic", () => {
+    const files = ["a.png", "b.png", "c.png"];
+    const configZero = baseConfig({ seed: 88, externalBackgroundProbability: 0 });
+    const configOne = baseConfig({ seed: 88, externalBackgroundProbability: 1 });
+    const zeroA = planRun(configZero, cards(6), files);
+    const zeroB = planRun(configZero, cards(6), files);
+    const oneA = planRun(configOne, cards(6), files);
+    const oneB = planRun(configOne, cards(6), files);
+    expect(JSON.stringify(zeroA)).toEqual(JSON.stringify(zeroB));
+    expect(JSON.stringify(oneA)).toEqual(JSON.stringify(oneB));
+    expect(JSON.stringify(zeroA)).not.toEqual(JSON.stringify(oneA));
+  });
+
+  it("SHAPE INVARIANT: with externalBackgroundProbability=0, per-card placement and lighting are unaffected by the availableBackgrounds list contents", () => {
+    const config = baseConfig({ seed: 321, externalBackgroundProbability: 0 });
+    const withNone = planRun(config, cards(6), []);
+    const withSome = planRun(config, cards(6), ["a.png", "b.png", "c.png"]);
+    expect(JSON.stringify(withNone.map((p) => p.cards))).toEqual(JSON.stringify(withSome.map((p) => p.cards)));
+    expect(JSON.stringify(withNone.map((p) => p.lighting))).toEqual(JSON.stringify(withSome.map((p) => p.lighting)));
+  });
+
+  it("defaults availableBackgrounds to empty when the 3rd arg is omitted (backward compatible, procedural-only)", () => {
+    const config = baseConfig({ externalBackgroundProbability: 1 });
+    const plans = planRun(config, cards(6));
+    for (const p of plans) expect(p.background.type).not.toBe("external");
+  });
+});
+
 describe("planRun — OVERLAP x ROTATION intersection", () => {
   it("with overlapProbability=1, a later card's center is drawn near the previous card's center", () => {
     const config = baseConfig({

@@ -61,6 +61,16 @@ describe("pipeline no-commit guard", () => {
     expect(isGitIgnored("pipeline/out/composites/sample-sheet.html")).toBe(true);
   });
 
+  // #244: imported/normalized playmat background photos are training-host-
+  // only content (same posture as printing images / benchmark photos, and
+  // the same copyright posture as the vendored Talishar card images) —
+  // never committed. pipeline/out/ is already blanket-ignored; this asserts
+  // that guard explicitly covers the new subdirectory by name, so a future
+  // .gitignore refactor that narrows the pipeline/out/ rule is caught here.
+  it("git-ignores the imported playmat-background dir (pipeline/out/backgrounds/playmats/)", () => {
+    expect(isGitIgnored("pipeline/out/backgrounds/playmats/deadbeefdeadbeef.png")).toBe(true);
+  });
+
   // APP-027: the OBB detector's Python venv and any local (non-vision-runs)
   // train/export output are gitignored, same as every other generated/
   // dependency artifact this pipeline produces.

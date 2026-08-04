@@ -23,3 +23,41 @@ export async function encodeRawToPng(img: RawImage): Promise<Buffer> {
     .png()
     .toBuffer();
 }
+
+export interface NormalizedBackground {
+  png: Buffer;
+  width: number;
+  height: number;
+}
+
+/** Default cap for decodeAndNormalizeBackground's long edge — a sane,
+ * storage-friendly ceiling for real photos (#244). */
+const DEFAULT_MAX_LONG_EDGE = 2048;
+
+/**
+ * Decodes any sharp-supported real photo (jpg/jpeg/png/webp) and
+ * normalizes it to a canonical PNG for the playmat/background import
+ * pipeline (#244, importBackgrounds.ts): auto-orients by EXIF first
+ * (phone photos routinely carry an orientation tag), then downscales
+ * (NEVER upscales — `withoutEnlargement`) so its longer edge is at most
+ * `maxLongEdge`, aspect ratio preserved.
+ *
+ * This is input NORMALIZATION only, distinct from the separate cover-fit-
+ * to-canvas resize that happens at GENERATION time (rawImage.ts's
+ * coverFitRawImage, which is allowed to upscale) — this step's job is
+ * just capping oversized source photos to a sane ceiling before they're
+ * hashed and stored.
+ *
+ * Throws on any decode failure (corrupt file, unsupported format) — the
+ * caller (importBackgrounds.ts) catches this per file so one bad photo
+ * never aborts the whole import batch.
+ */
+export async function decodeAndNormalizeBackground(filePath: string, maxLongEdge = DEFAULT_MAX_LONG_EDGE): Promise<NormalizedBackground> {
+  const png = await sharp(filePath)
+    .rotate()
+    .resize({ width: maxLongEdge, height: maxLongEdge, fit: "inside", withoutEnlargement: true })
+    .png()
+    .toBuffer();
+  const meta = await sharp(png).metadata();
+  return { png, width: meta.width ?? 0, height: meta.height ?? 0 };
+}

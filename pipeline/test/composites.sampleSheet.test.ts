@@ -14,7 +14,8 @@ function label(id: string, cardCount = 1): CompositeLabel {
     fileName: `${id}.png`,
     width: 200,
     height: 300,
-    backgroundType: "gradient",
+    backgroundType: "procedural:gradient",
+    backgroundHash: null,
     cards: Array.from({ length: cardCount }, (_, i) => ({
       printingId: `printing-${i}`,
       corners: [

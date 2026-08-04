@@ -3,6 +3,7 @@ import { renderComposite } from "../src/composites/compositor.js";
 import type { LoadedCard } from "../src/composites/compositor.js";
 import { computeDestQuad } from "../src/composites/geometry.js";
 import type { CompositeParams, CardPlacement } from "../src/composites/paramStream.js";
+import type { RawImage } from "../src/composites/rawImage.js";
 
 function solidCard(printingId: string, width: number, height: number, color: [number, number, number]): LoadedCard {
   const data = new Uint8ClampedArray(width * height * 4);
@@ -71,7 +72,11 @@ describe("renderComposite — label fidelity (single card)", () => {
     const { label } = renderComposite(p, [card]);
     expect(label.cards[0].printingId).toBe("card-a");
     expect(label.cards[0].tags).toEqual(["sleeved", "glare"]);
-    expect(label.backgroundType).toBe("gradient");
+    // #244: procedural backgrounds are now labeled "procedural:<type>"
+    // (widened from bare BackgroundType) — see composites.compositor.test.ts's
+    // "external background" describe block for the "external" counterpart.
+    expect(label.backgroundType).toBe("procedural:gradient");
+    expect(label.backgroundHash).toBeNull();
     expect(label.width).toBe(100);
     expect(label.height).toBe(100);
     expect(label.compositeId).toBe(p.compositeId);
@@ -126,6 +131,58 @@ describe("renderComposite — off-canvas / amodal labels (PR #238 review round 1
       expect(v).toBeGreaterThanOrEqual(0);
       expect(v).toBeLessThanOrEqual(255);
     }
+  });
+});
+
+// #244: external (real photo) backgrounds. paramStream.ts's discriminated
+// BackgroundParams reuses the existing `type` field as the discriminant
+// ("external" alongside "solid"/"gradient"/"noise"/"texture") rather than
+// adding a new field, so every existing procedural background literal in
+// this file needed zero changes.
+function solidRaw(width: number, height: number, color: [number, number, number]): RawImage {
+  const data = new Uint8ClampedArray(width * height * 4);
+  for (let i = 0; i < width * height; i++) {
+    data[i * 4] = color[0];
+    data[i * 4 + 1] = color[1];
+    data[i * 4 + 2] = color[2];
+    data[i * 4 + 3] = 255;
+  }
+  return { width, height, data };
+}
+
+describe("renderComposite — external background (#244)", () => {
+  it("uses the loaded background image (cover-fit to canvas) as the base layer when background.type is 'external'", () => {
+    const bg = solidRaw(10, 10, [1, 2, 3]);
+    const p = params({
+      width: 20,
+      height: 20,
+      background: { type: "external", fileName: "abc123.png", contentHash: "abc123" },
+      cards: [],
+    });
+    const { image, label } = renderComposite(p, [], bg);
+    expect(image.width).toBe(20);
+    expect(image.height).toBe(20);
+    const i = (10 * 20 + 10) * 4;
+    expect(image.data[i]).toBeCloseTo(1, 0);
+    expect(image.data[i + 1]).toBeCloseTo(2, 0);
+    expect(image.data[i + 2]).toBeCloseTo(3, 0);
+    expect(label.backgroundType).toBe("external");
+    expect(label.backgroundHash).toBe("abc123");
+  });
+
+  it("records backgroundType as procedural:<type> and backgroundHash null for procedural backgrounds", () => {
+    const card = solidCard("card-a", 40, 60, [255, 0, 0]);
+    const { label } = renderComposite(
+      params({ background: { type: "noise", colorA: [0, 0, 0], colorB: [10, 10, 10], angleDeg: 0, noiseSeed: 1 } }),
+      [card],
+    );
+    expect(label.backgroundType).toBe("procedural:noise");
+    expect(label.backgroundHash).toBeNull();
+  });
+
+  it("throws a clear error when background.type is 'external' but no loaded background image is provided", () => {
+    const p = params({ background: { type: "external", fileName: "missing.png", contentHash: "missing" }, cards: [] });
+    expect(() => renderComposite(p, [])).toThrow(/external background/);
   });
 });
 

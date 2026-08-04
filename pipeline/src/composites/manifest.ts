@@ -7,6 +7,7 @@
  */
 import { configHash } from "../qa/manifest.js";
 import { sha256 } from "../benchmark/manifest.js";
+import { COMPOSITE_LABEL_SCHEMA_VERSION } from "./types.js";
 import type { GeneratorConfig } from "./config.js";
 import type { CompositeLabel } from "./types.js";
 
@@ -23,6 +24,14 @@ export interface CompositeManifestEntry {
 
 export interface CompositeDatasetManifest {
   schemaVersion: string;
+  /** The COMPOSITE_LABEL_SCHEMA_VERSION every label in this run was
+   * written under (PR #246 review round 1, mirrors benchmark/manifest.ts's
+   * labelSchemaVersion) — stamped so a future reader can tell which label
+   * shape ("procedural:<type>"/"external" backgroundType + backgroundHash,
+   * #244) a run's label files were produced with, without inspecting any
+   * individual label. No read-time version branching is added here — this
+   * only makes the version observable in the artifact. */
+  labelSchemaVersion: string;
   buildDate: string;
   seed: number;
   /** SHA-256 of the committed composites-generation.json (or whatever
@@ -51,6 +60,7 @@ export function buildCompositeManifest(opts: BuildCompositeManifestOptions): Com
 
   return {
     schemaVersion: COMPOSITE_MANIFEST_SCHEMA_VERSION,
+    labelSchemaVersion: COMPOSITE_LABEL_SCHEMA_VERSION,
     buildDate: now(),
     seed: opts.config.seed,
     generatorConfigHash: configHash(opts.config),

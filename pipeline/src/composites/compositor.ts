@@ -18,10 +18,10 @@
 import { computeDestQuad } from "./geometry.js";
 import { generateBackgroundRaw } from "./background.js";
 import { warpToQuad } from "./warp.js";
-import { compositeOver, applyBrightnessContrast, applySleeve, applyGlare } from "./rawImage.js";
+import { compositeOver, applyBrightnessContrast, applySleeve, applyGlare, coverFitRawImage } from "./rawImage.js";
 import type { RawImage } from "./rawImage.js";
 import type { CompositeParams } from "./paramStream.js";
-import type { CompositeLabel, Quad } from "./types.js";
+import type { CompositeLabel, CompositeBackgroundKind, Quad } from "./types.js";
 
 export interface LoadedCard {
   printingId: string;
@@ -33,8 +33,25 @@ export interface RenderResult {
   label: CompositeLabel;
 }
 
-export function renderComposite(params: CompositeParams, loadedCards: LoadedCard[]): RenderResult {
-  let canvas = generateBackgroundRaw(params.width, params.height, params.background);
+/**
+ * `loadedBackground` (#244) is required exactly when `params.background`
+ * is external — generate.ts resolves + loads it via the same
+ * getImage cache as card images before calling this. A procedural
+ * background never needs it (generateBackgroundRaw is a pure function of
+ * params.background alone).
+ */
+export function renderComposite(params: CompositeParams, loadedCards: LoadedCard[], loadedBackground?: RawImage): RenderResult {
+  let canvas: RawImage;
+  if (params.background.type === "external") {
+    if (!loadedBackground) {
+      throw new Error(
+        `renderComposite: external background "${params.background.fileName}" was selected but no loaded background image was provided`,
+      );
+    }
+    canvas = coverFitRawImage(loadedBackground, params.width, params.height);
+  } else {
+    canvas = generateBackgroundRaw(params.width, params.height, params.background);
+  }
   const quads: Quad[] = [];
 
   for (const placement of params.cards) {
@@ -63,12 +80,16 @@ export function renderComposite(params: CompositeParams, loadedCards: LoadedCard
 
   canvas = applyBrightnessContrast(canvas, params.lighting.brightnessDelta, params.lighting.contrastDelta);
 
+  const backgroundType: CompositeBackgroundKind = params.background.type === "external" ? "external" : `procedural:${params.background.type}`;
+  const backgroundHash: string | null = params.background.type === "external" ? params.background.contentHash : null;
+
   const label: CompositeLabel = {
     compositeId: params.compositeId,
     fileName: `${params.compositeId}.png`,
     width: params.width,
     height: params.height,
-    backgroundType: params.background.type,
+    backgroundType,
+    backgroundHash,
     cards: quads,
   };
 

@@ -6,6 +6,7 @@
  * injected side effect — tests supply a fake so this module (and its
  * determinism contract) never depends on real files or network.
  */
+import path from "node:path";
 import { planRun } from "./paramStream.js";
 import type { CardImageRef } from "./paramStream.js";
 import { renderComposite } from "./compositor.js";
@@ -22,13 +23,24 @@ export interface GenerateResult {
   composites: RenderResult[];
 }
 
+/**
+ * `availableBackgrounds` (#244, optional, defaults to `[]`) is the sorted
+ * list of external background file names planRun draws from — see
+ * paramStream.ts's planRun doc comment; this module stays agnostic about
+ * where the list came from (cli.ts resolves it from config.backgroundsDir).
+ * When a plan selects an external background, its file name is resolved
+ * against `config.backgroundsDir` and loaded through the SAME `getImage`
+ * cache as card images — a background reused across many composites in a
+ * run is decoded at most once, same discipline as cards.
+ */
 export async function generateDataset(
   config: GeneratorConfig,
   availableCards: CardImageRef[],
   loadImage: LoadImageFn,
   now?: () => string,
+  availableBackgrounds: string[] = [],
 ): Promise<GenerateResult> {
-  const plans = planRun(config, availableCards);
+  const plans = planRun(config, availableCards, availableBackgrounds);
 
   const imageCache = new Map<string, RawImage>();
   async function getImage(imagePath: string): Promise<RawImage> {
@@ -45,7 +57,19 @@ export async function generateDataset(
     for (const cardPlacement of plan.cards) {
       loadedCards.push({ printingId: cardPlacement.printingId, image: await getImage(cardPlacement.imagePath) });
     }
-    composites.push(renderComposite(plan, loadedCards));
+
+    let loadedBackground: RawImage | undefined;
+    if (plan.background.type === "external") {
+      if (!config.backgroundsDir) {
+        throw new Error(
+          `generateDataset: plan selected external background "${plan.background.fileName}" but config.backgroundsDir is null — ` +
+            "this indicates a caller contract violation (availableBackgrounds was passed without a matching backgroundsDir)",
+        );
+      }
+      loadedBackground = await getImage(path.join(config.backgroundsDir, plan.background.fileName));
+    }
+
+    composites.push(renderComposite(plan, loadedCards, loadedBackground));
   }
 
   const manifest = buildCompositeManifest({ config, labels: composites.map((c) => c.label), now });

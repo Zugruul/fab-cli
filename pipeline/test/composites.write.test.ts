@@ -48,7 +48,8 @@ function label(id: string): CompositeLabel {
     fileName: `${id}.png`,
     width: 4,
     height: 4,
-    backgroundType: "solid",
+    backgroundType: "procedural:solid",
+    backgroundHash: null,
     cards: [],
   };
 }

@@ -100,6 +100,55 @@ export function applySleeve(img: RawImage, intensity = 0.18): RawImage {
 }
 
 /**
+ * Cover-fit resize (#244): scales `img` up or down (uniformly, aspect
+ * preserved) so it fully covers a `targetWidth`x`targetHeight` canvas,
+ * then center-crops any overflow — never letterboxes. This is the
+ * generation-time step that turns an arbitrary real background photo into
+ * a full-bleed canvas background.
+ *
+ * Boundary decision (task #244): UPSCALING a source smaller than the
+ * canvas is intentional, not a bug — a bordered/letterboxed background
+ * would read as an obvious synthetic artifact, whereas a slightly-
+ * softened upscaled crop still looks like a plausible real surface (the
+ * import pipeline's own downscale-only cap, imageIO.ts's
+ * decodeAndNormalizeBackground, is a separate, earlier concern: capping
+ * oversized SOURCE photos, not this generation-time fit).
+ *
+ * The crop offset is always the exact center — never a seeded random
+ * offset — so this stays a pure function of its inputs and never touches
+ * the composite's rng stream (paramStream.ts's determinism contract is
+ * unaffected by which portion of a background photo ends up visible).
+ * Uses bilinearSample (same sampling as warp.ts); source coordinates are
+ * clamped just inside the source bounds to avoid a stray fully-
+ * transparent edge pixel from floating-point overshoot exactly at the
+ * boundary.
+ */
+export function coverFitRawImage(img: RawImage, targetWidth: number, targetHeight: number): RawImage {
+  const scale = Math.max(targetWidth / img.width, targetHeight / img.height);
+  const scaledW = img.width * scale;
+  const scaledH = img.height * scale;
+  const offsetX = (scaledW - targetWidth) / 2;
+  const offsetY = (scaledH - targetHeight) / 2;
+
+  const data = new Uint8ClampedArray(targetWidth * targetHeight * 4);
+  const maxX = img.width - 1e-4;
+  const maxY = img.height - 1e-4;
+  for (let y = 0; y < targetHeight; y++) {
+    for (let x = 0; x < targetWidth; x++) {
+      const srcX = Math.min(Math.max((x + offsetX) / scale, 0), maxX);
+      const srcY = Math.min(Math.max((y + offsetY) / scale, 0), maxY);
+      const [r, g, b, a] = bilinearSample(img, srcX, srcY);
+      const i = (y * targetWidth + x) * 4;
+      data[i] = r;
+      data[i + 1] = g;
+      data[i + 2] = b;
+      data[i + 3] = a;
+    }
+  }
+  return { width: targetWidth, height: targetHeight, data };
+}
+
+/**
  * Simulated glare streak: a diagonal brightness boost with triangular
  * falloff, centered at `positionFrac` (0..1, mapped onto the diagonal
  * band coordinate `u+v` which ranges 0..2) with half-width `bandWidth`,

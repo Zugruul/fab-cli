@@ -63,3 +63,47 @@ describe("generateDataset — end to end determinism", () => {
     await expect(generateDataset(config(), [], fakeLoadImage())).rejects.toThrow();
   });
 });
+
+// #244: generateDataset's optional 5th param is the sorted list of
+// available EXTERNAL background file names (mirrors availableCards' role
+// for cards) — cli.ts resolves this from config.backgroundsDir; this
+// module stays agnostic about where the list came from.
+describe("generateDataset — external backgrounds (#244)", () => {
+  it("resolves external background file names against config.backgroundsDir and loads them via the same image cache as cards", async () => {
+    const loadImage = vi.fn(fakeLoadImage());
+    const cfg = config({ compositesPerRun: 6, externalBackgroundProbability: 1, backgroundsDir: "/bg" });
+    const result = await generateDataset(cfg, CARDS, loadImage, undefined, ["bg1.png", "bg2.png"]);
+
+    const bgCalls = loadImage.mock.calls.map((c) => c[0] as string).filter((p) => p.includes("bg1.png") || p.includes("bg2.png"));
+    expect(bgCalls.length).toBeGreaterThan(0);
+    expect(new Set(bgCalls).size).toBeLessThanOrEqual(2);
+
+    for (const label of result.composites.map((c) => c.label)) {
+      expect(label.backgroundType).toBe("external");
+      expect(label.backgroundHash).not.toBeNull();
+    }
+  });
+
+  it("is deterministic given the same seed + config + availableBackgrounds list", async () => {
+    const cfg = config({ compositesPerRun: 4, externalBackgroundProbability: 1, backgroundsDir: "/bg" });
+    const files = ["bg1.png", "bg2.png"];
+    const a = await generateDataset(cfg, CARDS, fakeLoadImage(), () => "2026-01-01T00:00:00.000Z", files);
+    const b = await generateDataset(cfg, CARDS, fakeLoadImage(), () => "2026-01-01T00:00:00.000Z", files);
+    expect(a.manifest).toEqual(b.manifest);
+    expect(a.composites.map((c) => c.label)).toEqual(b.composites.map((c) => c.label));
+  });
+
+  it("throws a clear error if a plan selects an external background but config.backgroundsDir is null (caller contract violation)", async () => {
+    await expect(
+      generateDataset(config({ externalBackgroundProbability: 1, backgroundsDir: null }), CARDS, fakeLoadImage(), undefined, ["bg1.png"]),
+    ).rejects.toThrow(/backgroundsDir/);
+  });
+
+  it("never uses an external background when availableBackgrounds is omitted, regardless of externalBackgroundProbability", async () => {
+    const cfg = config({ compositesPerRun: 5, externalBackgroundProbability: 1 });
+    const result = await generateDataset(cfg, CARDS, fakeLoadImage());
+    for (const label of result.composites.map((c) => c.label)) {
+      expect(label.backgroundType).not.toBe("external");
+    }
+  });
+});
