@@ -8,7 +8,7 @@ import type { CompositeLabel } from "../src/composites/types.js";
 // one view (the two things this task's WHY section calls out as load-
 // bearing for the downstream detector).
 
-function label(id: string, cardCount = 1): CompositeLabel {
+function label(id: string, cardCount = 1, excludedCards = 0): CompositeLabel {
   return {
     compositeId: id,
     fileName: `${id}.png`,
@@ -25,7 +25,9 @@ function label(id: string, cardCount = 1): CompositeLabel {
         { x: 10, y: 220 },
       ] as [{ x: number; y: number }, { x: number; y: number }, { x: number; y: number }, { x: number; y: number }],
       tags: i === 0 ? ["sleeved"] : [],
+      visibleFraction: i === 0 ? 0.75 : 1,
     })),
+    excludedCards,
   };
 }
 
@@ -78,5 +80,23 @@ describe("buildSampleSheetHtml", () => {
   it("carries a custom title through into the page", () => {
     const html = buildSampleSheetHtml([{ fileName: "composite-0000.png", label: label("composite-0000") }], "My run");
     expect(html).toContain("My run");
+  });
+
+  // #252: a human eyeballing the sheet needs to see WHY a card looks
+  // occluded/cropped at a glance, not just that its quad is drawn.
+  it("shows each card's visibleFraction in its overlay tooltip", () => {
+    const html = buildSampleSheetHtml([{ fileName: "composite-0000.png", label: label("composite-0000", 2) }]);
+    expect(html).toContain("vis=75%");
+    expect(html).toContain("vis=100%");
+  });
+
+  it("shows the composite's excludedCards count in its caption when non-zero", () => {
+    const html = buildSampleSheetHtml([{ fileName: "composite-0000.png", label: label("composite-0000", 1, 2) }]);
+    expect(html).toContain("2 excluded");
+  });
+
+  it("omits any excluded-count mention when excludedCards is 0", () => {
+    const html = buildSampleSheetHtml([{ fileName: "composite-0000.png", label: label("composite-0000", 1, 0) }]);
+    expect(html).not.toContain("excluded");
   });
 });

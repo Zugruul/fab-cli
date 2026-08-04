@@ -69,7 +69,7 @@ export async function generateDataset(
       loadedBackground = await getImage(path.join(config.backgroundsDir, plan.background.fileName));
     }
 
-    composites.push(renderComposite(plan, loadedCards, loadedBackground));
+    composites.push(renderComposite(plan, loadedCards, config.minVisibleFraction, loadedBackground));
   }
 
   const manifest = buildCompositeManifest({ config, labels: composites.map((c) => c.label), now });

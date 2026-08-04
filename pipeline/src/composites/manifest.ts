@@ -11,12 +11,22 @@ import { COMPOSITE_LABEL_SCHEMA_VERSION } from "./types.js";
 import type { GeneratorConfig } from "./config.js";
 import type { CompositeLabel } from "./types.js";
 
-export const COMPOSITE_MANIFEST_SCHEMA_VERSION = "0.1.0";
+/** #252: bumped for the new excludedCards entry field (cardCount's
+ * meaning also narrowed to "labeled/included cards", see below). */
+export const COMPOSITE_MANIFEST_SCHEMA_VERSION = "0.2.0";
 
 export interface CompositeManifestEntry {
   compositeId: string;
   fileName: string;
+  /** Count of cards actually LABELED (i.e. `label.cards.length`, post
+   * visibleFraction filtering, #252) — not the count of cards pasted
+   * into the composite's pixels. See `excludedCards` for the cards that
+   * were pasted but excluded from the label. */
   cardCount: number;
+  /** Cards pasted (pixels rendered) but excluded from the label because
+   * their visibleFraction fell below config.minVisibleFraction (#252) —
+   * mirrors CompositeLabel.excludedCards. 0 when nothing was filtered. */
+  excludedCards: number;
   /** sha256 of the label file's exact on-disk bytes (write.ts writes
    * `JSON.stringify(label, null, 2) + "\n"` — the same bytes hashed here). */
   labelFileHash: string;
@@ -55,6 +65,7 @@ export function buildCompositeManifest(opts: BuildCompositeManifestOptions): Com
     compositeId: label.compositeId,
     fileName: label.fileName,
     cardCount: label.cards.length,
+    excludedCards: label.excludedCards,
     labelFileHash: sha256(Buffer.from(JSON.stringify(label, null, 2) + "\n")),
   }));
 

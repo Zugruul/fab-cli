@@ -22,6 +22,7 @@ function config(overrides: Partial<GeneratorConfig> = {}): GeneratorConfig {
     backgroundTypes: ["solid", "gradient", "noise", "texture"],
     backgroundsDir: null,
     externalBackgroundProbability: 0,
+    minVisibleFraction: 0,
     ...overrides,
   };
 }
@@ -105,5 +106,49 @@ describe("generateDataset — external backgrounds (#244)", () => {
     for (const label of result.composites.map((c) => c.label)) {
       expect(label.backgroundType).not.toBe("external");
     }
+  });
+});
+
+// #252: visibleFraction/excludedCards are computed post-hoc from already-
+// deterministic rendering — no new rng draws — so the end-to-end
+// determinism contract (APP-026 AC) must hold for them too.
+describe("generateDataset — visibleFraction determinism and threshold end-to-end (#252)", () => {
+  it("produces identical per-card visibleFraction across two runs with the same seed/config, with at least one real occlusion signal present", async () => {
+    const cfg = config({ compositesPerRun: 8, cardsPerComposite: { min: 2, max: 2 }, overlapProbability: 1, minVisibleFraction: 0 });
+    const a = await generateDataset(cfg, CARDS, fakeLoadImage());
+    const b = await generateDataset(cfg, CARDS, fakeLoadImage());
+
+    const fracsA = a.composites.flatMap((c) => c.label.cards.map((x) => x.visibleFraction));
+    const fracsB = b.composites.flatMap((c) => c.label.cards.map((x) => x.visibleFraction));
+    expect(fracsA).toEqual(fracsB);
+    expect(fracsA.some((f) => f < 1)).toBe(true);
+  });
+
+  it("excludedCards is 0 for every composite when minVisibleFraction is 0 (nothing filtered)", async () => {
+    const cfg = config({ compositesPerRun: 5, cardsPerComposite: { min: 2, max: 2 }, overlapProbability: 1, minVisibleFraction: 0 });
+    const result = await generateDataset(cfg, CARDS, fakeLoadImage());
+    for (const c of result.composites) expect(c.label.excludedCards).toBe(0);
+  });
+
+  it("a high minVisibleFraction threshold excludes some cards without touching the rng stream (composite count and card placements stay identical)", async () => {
+    const cfgLoose = config({ compositesPerRun: 8, cardsPerComposite: { min: 2, max: 2 }, overlapProbability: 1, minVisibleFraction: 0 });
+    const cfgStrict = config({ compositesPerRun: 8, cardsPerComposite: { min: 2, max: 2 }, overlapProbability: 1, minVisibleFraction: 0.95 });
+
+    const loose = await generateDataset(cfgLoose, CARDS, fakeLoadImage());
+    const strict = await generateDataset(cfgStrict, CARDS, fakeLoadImage());
+
+    // same plan -> same corners for every composite, regardless of
+    // threshold: strict's surviving cards are a subset of loose's, with
+    // IDENTICAL corners (never re-rolled just because some cards were
+    // filtered out of the label).
+    for (let i = 0; i < loose.composites.length; i++) {
+      for (const strictCard of strict.composites[i].label.cards) {
+        const match = loose.composites[i].label.cards.find((c) => c.printingId === strictCard.printingId)!;
+        expect(strictCard.corners).toEqual(match.corners);
+      }
+    }
+
+    const totalExcludedStrict = strict.composites.reduce((sum, c) => sum + c.label.excludedCards, 0);
+    expect(totalExcludedStrict).toBeGreaterThan(0);
   });
 });

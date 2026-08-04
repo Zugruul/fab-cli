@@ -25,10 +25,19 @@ function renderEntry(entry: SampleSheetEntry): string {
   const polygons = label.cards
     .map((quad) => {
       const points = quad.corners.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
+      // #252: visibleFraction shown per card so a human can eyeball
+      // occlusion/clipping severity alongside the quad itself.
+      const visibleFractionLabel = ` vis=${Math.round(quad.visibleFraction * 100)}%`;
       const tagTitle = quad.tags.length > 0 ? ` (${quad.tags.join(", ")})` : "";
-      return `<polygon points="${points}" class="quad"><title>${escapeHtml(quad.printingId)}${escapeHtml(tagTitle)}</title></polygon>`;
+      return `<polygon points="${points}" class="quad"><title>${escapeHtml(quad.printingId)}${escapeHtml(visibleFractionLabel)}${escapeHtml(tagTitle)}</title></polygon>`;
     })
     .join("\n      ");
+
+  // #252: excluded (pasted-but-below-threshold) cards don't appear as
+  // polygons at all — surface the count in the caption instead, so a
+  // human isn't left wondering why a composite's pixels show more cards
+  // than its overlay draws.
+  const excludedSuffix = label.excludedCards > 0 ? ` (${label.excludedCards} excluded)` : "";
 
   return `
   <figure class="composite">
@@ -38,7 +47,7 @@ function renderEntry(entry: SampleSheetEntry): string {
       ${polygons}
       </svg>
     </div>
-    <figcaption>${escapeHtml(label.compositeId)} — ${label.cards.length} card(s) — ${escapeHtml(label.backgroundType)} background</figcaption>
+    <figcaption>${escapeHtml(label.compositeId)} — ${label.cards.length} card(s)${escapeHtml(excludedSuffix)} — ${escapeHtml(label.backgroundType)} background</figcaption>
   </figure>`;
 }
 

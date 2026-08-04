@@ -18,5 +18,6 @@
   },
   "backgroundTypes": ["solid", "gradient", "noise", "texture"],
   "backgroundsDir": null,
-  "externalBackgroundProbability": 0
+  "externalBackgroundProbability": 0,
+  "minVisibleFraction": 0.15
 }

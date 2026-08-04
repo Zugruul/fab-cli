@@ -28,6 +28,7 @@ function baseConfig(overrides: Partial<GeneratorConfig> = {}): GeneratorConfig {
     backgroundTypes: ["solid", "gradient", "noise", "texture"],
     backgroundsDir: null,
     externalBackgroundProbability: 0,
+    minVisibleFraction: 0.15,
     ...overrides,
   };
 }
