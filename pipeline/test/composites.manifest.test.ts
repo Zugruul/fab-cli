@@ -133,9 +133,9 @@ describe("buildCompositeManifest", () => {
     expect(manifest.composites[1].excludedCards).toBe(0);
   });
 
-  it("bumps COMPOSITE_MANIFEST_SCHEMA_VERSION to 0.3.0 for the cardBacksPlaced field addition (#253, on top of #252's excludedCards)", () => {
-    expect(COMPOSITE_MANIFEST_SCHEMA_VERSION).toBe("0.3.0");
+  it("bumped COMPOSITE_MANIFEST_SCHEMA_VERSION to 0.3.0 for the cardBacksPlaced field addition (#253, on top of #252's excludedCards) — since bumped again to 0.4.0 for #256's rigName field", () => {
+    expect(COMPOSITE_MANIFEST_SCHEMA_VERSION).toBe("0.4.0");
     const manifest = buildCompositeManifest({ config: config(), labels: [] });
-    expect(manifest.schemaVersion).toBe("0.3.0");
+    expect(manifest.schemaVersion).toBe("0.4.0");
   });
 });
