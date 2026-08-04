@@ -15,6 +15,10 @@ import {
   redactSecrets,
   signAppStoreConnectJwt,
   describeBuildVisibility,
+  formatVerifyBuildReport,
+  shouldContinuePolling,
+  type VerifyBuildEntry,
+  type BuildBetaDetailAttributes,
 } from '../lib';
 
 describe('checkTestFlightEnv', () => {
@@ -256,5 +260,118 @@ describe('describeBuildVisibility', () => {
       { internalBuildState: 'IN_BETA_TESTING' },
     );
     expect(line).toContain('external=n/a');
+  });
+});
+
+function makeBuild(id: string, overrides: Partial<VerifyBuildEntry['attributes']> = {}): VerifyBuildEntry {
+  return {
+    id,
+    attributes: {
+      version: '1.0 (1)',
+      uploadedDate: '2026-08-03T10:00:00Z',
+      processingState: 'PROCESSING',
+      expired: false,
+      ...overrides,
+    },
+  };
+}
+
+// #257 review round 2, MAJOR #1 — the exit-code assembly used to live
+// directly in cli.ts's cmdVerifyBuild with zero test coverage: a reviewer
+// mutation collapsing its exit-code line to a bare `return 0` survived the
+// whole suite untouched. This function is the extraction that closes that
+// gap — cli.ts now just calls it and returns `.exitCode` with no
+// independent branching of its own to hide a regression in.
+describe('formatVerifyBuildReport', () => {
+  it('reports no builds with exit code 0 when none exist yet', () => {
+    const { lines, exitCode } = formatVerifyBuildReport([], new Map());
+    expect(exitCode).toBe(0);
+    expect(lines).toEqual([
+      'no builds visible yet for this app (processing can take several minutes after upload)',
+    ]);
+  });
+
+  it('exits 0 when the latest build is VALID and visible to testers', () => {
+    const b = makeBuild('1', { processingState: 'VALID' });
+    const betaDetails = new Map<string, BuildBetaDetailAttributes | null>([
+      ['1', { internalBuildState: 'IN_BETA_TESTING' }],
+    ]);
+    const { exitCode, lines } = formatVerifyBuildReport([b], betaDetails);
+    expect(exitCode).toBe(0);
+    expect(lines.join('\n')).toContain('beta visibility: ok');
+  });
+
+  it('exits 1 when the latest build is VALID but hidden from testers (#257)', () => {
+    const b = makeBuild('1', { processingState: 'VALID' });
+    const betaDetails = new Map<string, BuildBetaDetailAttributes | null>([
+      ['1', { internalBuildState: 'MISSING_EXPORT_COMPLIANCE' }],
+    ]);
+    const { exitCode, lines } = formatVerifyBuildReport([b], betaDetails);
+    expect(exitCode).toBe(1);
+    expect(lines.join('\n')).toContain('PROBLEM');
+  });
+
+  it('does not fail the run over an older, superseded build that was hidden', () => {
+    const latest = makeBuild('2', { version: '1.0 (2)', processingState: 'VALID' });
+    const older = makeBuild('1', { version: '1.0 (1)', processingState: 'VALID' });
+    const betaDetails = new Map<string, BuildBetaDetailAttributes | null>([
+      ['2', { internalBuildState: 'IN_BETA_TESTING' }],
+      ['1', { internalBuildState: 'MISSING_EXPORT_COMPLIANCE' }],
+    ]);
+    const { exitCode } = formatVerifyBuildReport([latest, older], betaDetails);
+    expect(exitCode).toBe(0);
+  });
+
+  it('exits 1 when Apple rejected the latest build outright (INVALID), with no betaDetail lookup needed (#257 review round 2, MINOR #2)', () => {
+    const b = makeBuild('1', { processingState: 'INVALID' });
+    const { exitCode, lines } = formatVerifyBuildReport([b], new Map());
+    expect(exitCode).toBe(1);
+    expect(lines.join('\n')).toMatch(/PROBLEM.*rejected/i);
+  });
+
+  it('exits 1 when the latest build FAILED processing', () => {
+    const b = makeBuild('1', { processingState: 'FAILED' });
+    const { exitCode } = formatVerifyBuildReport([b], new Map());
+    expect(exitCode).toBe(1);
+  });
+
+  it('reports NOT VERIFIED (exit 0, not a failure) when still processing after the poll timeout', () => {
+    const b = makeBuild('1', { processingState: 'PROCESSING' });
+    const { exitCode, lines } = formatVerifyBuildReport([b], new Map(), {
+      latestStillProcessingAfterTimeout: true,
+    });
+    expect(exitCode).toBe(0);
+    expect(lines.join('\n')).toMatch(/NOT VERIFIED/);
+  });
+
+  it('prints only the base line for a still-processing build within the poll window (no premature verdict)', () => {
+    const b = makeBuild('1', { processingState: 'PROCESSING' });
+    const { exitCode, lines } = formatVerifyBuildReport([b], new Map());
+    expect(exitCode).toBe(0);
+    expect(lines).toHaveLength(1);
+  });
+});
+
+// #257 review round 2, MAJOR #2 — the old single-shot check ran
+// immediately after upload, when the latest build is almost always still
+// PROCESSING, so a hard-fail wired to it could never actually observe the
+// bug it exists to catch. This is the pure decision behind the bounded
+// poll that replaces the single shot.
+describe('shouldContinuePolling', () => {
+  it('keeps polling while still PROCESSING and within the timeout budget', () => {
+    expect(shouldContinuePolling('PROCESSING', 30, 600)).toBe(true);
+  });
+
+  it('stops once the timeout budget is exhausted, even if still PROCESSING', () => {
+    expect(shouldContinuePolling('PROCESSING', 600, 600)).toBe(false);
+    expect(shouldContinuePolling('PROCESSING', 601, 600)).toBe(false);
+  });
+
+  it('stops immediately once the build leaves PROCESSING (VALID)', () => {
+    expect(shouldContinuePolling('VALID', 5, 600)).toBe(false);
+  });
+
+  it('stops immediately for a terminal failure state (INVALID)', () => {
+    expect(shouldContinuePolling('INVALID', 5, 600)).toBe(false);
   });
 });
