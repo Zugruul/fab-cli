@@ -203,4 +203,42 @@ describe("benchmark-label server — path traversal is rejected (issue #258 secu
     const addr = server.address() as AddressInfo;
     expect(addr.address).toBe("127.0.0.1");
   });
+
+  // PR #262 review round 3: path.resolve is purely lexical and never
+  // touches the filesystem, so it can't see a symlink — but the real
+  // fs.readFileSync/writeFileSync calls DO follow them. Neither request
+  // below contains ".." or an absolute path; a string-shaped test cannot
+  // exercise this at all, so these stage REAL symlinks with fs.symlinkSync
+  // against the actual running server, both directions, per the review.
+  it("GET /api/photo does not follow a real symlink planted AT the target path outside photosDir", async () => {
+    const outsidePhoto = path.join(tmpDir, "outside-photo.jpg");
+    fs.writeFileSync(outsidePhoto, "OUTSIDE PHOTO BYTES");
+    fs.symlinkSync(outsidePhoto, path.join(config.photosDir, "single", "evil-symlink.jpg"));
+
+    const res = await fetch(`${baseUrl}/api/photo?file=${encodeURIComponent("single/evil-symlink.jpg")}`);
+    expect(res.status).not.toBe(200);
+    const body = await res.text();
+    expect(body).not.toContain("OUTSIDE PHOTO BYTES");
+  });
+
+  it("PUT /api/label does not follow a real symlinked ancestor directory outside labelsDir", async () => {
+    const outsideWriteDir = path.join(tmpDir, "outside-write-target");
+    fs.mkdirSync(outsideWriteDir, { recursive: true });
+    fs.mkdirSync(config.labelsDir, { recursive: true });
+    fs.symlinkSync(outsideWriteDir, path.join(config.labelsDir, "evil"), "dir");
+
+    const res = await fetch(`${baseUrl}/api/label?file=${encodeURIComponent("evil/newfile.jpg")}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        photoId: "p",
+        fileName: "p.jpg",
+        sceneType: "single",
+        orientation: "portrait",
+        quads: [{ printingId: "pr1", corners: [{ x: 0, y: 0 }, { x: 1, y: 0 }, { x: 1, y: 1 }, { x: 0, y: 1 }], tags: [] }],
+      }),
+    });
+    expect(res.status).not.toBe(200);
+    expect(fs.existsSync(path.join(outsideWriteDir, "newfile.json"))).toBe(false);
+  });
 });

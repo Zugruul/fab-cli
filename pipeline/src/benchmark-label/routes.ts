@@ -27,15 +27,51 @@ export class PathEscapeError extends Error {
 }
 
 /**
+ * Realpath of the nearest EXISTING ancestor of `p` (itself, if it exists —
+ * or the closest existing parent directory otherwise). Needed because two
+ * legitimate cases have nothing to realpath at `p` itself: a PUT target
+ * file that doesn't exist yet (that's the whole point of PUT), and — on a
+ * brand-new checkout — `labelsDir` itself, before anything has ever been
+ * written into it. Falls back to `p` unchanged only if it climbs all the
+ * way to the filesystem root without finding anything real (a pathological
+ * input, not a real deployment).
+ */
+function realpathOfNearestExistingAncestor(p: string): string {
+  let current = p;
+  for (;;) {
+    try {
+      return fs.realpathSync(current);
+    } catch {
+      const parent = path.dirname(current);
+      if (parent === current) return current;
+      current = parent;
+    }
+  }
+}
+
+/**
  * Resolves `relPath` against `baseDir` and throws PathEscapeError unless
- * the result stays inside `baseDir`. Deliberately NOT a naive substring/
- * regex check for "..", which `%2e%2e`-style encoding (already decoded by
- * the time this runs, since it operates on the decoded querystring value)
- * or path normalization tricks can defeat — this compares fully resolved,
- * normalized absolute paths instead. An absolute `relPath` is also
- * rejected: path.resolve(base, "/etc/passwd") returns "/etc/passwd"
- * (Node's documented "later absolute argument wins" behavior), which this
- * check correctly recognizes as outside baseDir.
+ * the result stays inside `baseDir` — checked TWO ways, because they catch
+ * different attacks:
+ *
+ * 1. Lexical: compares fully resolved, normalized absolute path STRINGS.
+ *    Deliberately not a naive substring/regex check for "..", which
+ *    `%2e%2e`-style encoding (already decoded by the time this runs) or
+ *    path normalization tricks can defeat. Also rejects an absolute
+ *    `relPath`: path.resolve(base, "/etc/passwd") returns "/etc/passwd"
+ *    (Node's documented "later absolute argument wins" behavior), which
+ *    this recognizes as outside baseDir.
+ *
+ * 2. Real (PR #262 review round 3): path.resolve in step 1 is PURELY
+ *    LEXICAL — it never touches the filesystem, so it has no idea whether
+ *    a path component is a symlink. But fs.readFileSync/writeFileSync
+ *    (what getLabel/putLabel actually call) DO follow symlinks. The
+ *    reviewer proved this live: a symlink planted AT the read target
+ *    itself, and a symlink planted as an ANCESTOR DIRECTORY of a write
+ *    target — neither request contained ".." or an absolute path at all,
+ *    so step 1 alone passed both. This step compares fs.realpathSync of
+ *    the nearest EXISTING ancestor on each side instead, which resolves
+ *    through any symlink to its real destination.
  */
 export function containWithinDir(baseDir: string, relPath: string): string {
   const resolvedBase = path.resolve(baseDir);
@@ -43,6 +79,13 @@ export function containWithinDir(baseDir: string, relPath: string): string {
   if (resolved !== resolvedBase && !resolved.startsWith(resolvedBase + path.sep)) {
     throw new PathEscapeError(relPath);
   }
+
+  const realBase = realpathOfNearestExistingAncestor(resolvedBase);
+  const realTarget = realpathOfNearestExistingAncestor(resolved);
+  if (realTarget !== realBase && !realTarget.startsWith(realBase + path.sep)) {
+    throw new PathEscapeError(relPath);
+  }
+
   return resolved;
 }
 

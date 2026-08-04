@@ -188,3 +188,40 @@ describe("path containment (issue #258 security fix, PR #262 review) — never e
     expect(result.ok).toBe(true);
   });
 });
+
+// PR #262 review round 3: path.resolve (used by the containment check above)
+// is PURELY LEXICAL — it never touches the filesystem, so it has no idea
+// whether a path component is a symlink. But fs.readFileSync/writeFileSync
+// (what getLabel/putLabel actually call) DO follow symlinks. So a request
+// with NO ".." and NO absolute path at all can still land outside baseDir
+// if a real symlink is planted along the way. The reviewer proved this
+// live against the running server in both directions. These tests stage
+// REAL symlinks with fs.symlinkSync — a string-shaped payload cannot
+// exercise this bug at all, so it would be theatre to test it any other
+// way.
+describe("path containment — symlinks (issue #258 security fix, PR #262 review round 3)", () => {
+  it("getLabel does not follow a real symlink planted AT the target path to a file outside labelsDir", () => {
+    const outsideSecret = path.join(tmpDir, "outside-secret.json");
+    fs.writeFileSync(outsideSecret, JSON.stringify({ secret: true }));
+
+    fs.mkdirSync(path.join(labelsDir, "single"), { recursive: true });
+    const linkPath = path.join(labelsDir, "single", "evil-symlink.json");
+    fs.symlinkSync(outsideSecret, linkPath);
+
+    expect(() => getLabel(labelsDir, "single/evil-symlink.jpg")).toThrow(PathEscapeError);
+  });
+
+  it("putLabel does not follow a real symlinked ANCESTOR DIRECTORY to write outside labelsDir", () => {
+    const outsideWriteDir = path.join(tmpDir, "outside-write-target");
+    fs.mkdirSync(outsideWriteDir, { recursive: true });
+
+    fs.mkdirSync(labelsDir, { recursive: true });
+    const evilDirLink = path.join(labelsDir, "evil");
+    fs.symlinkSync(outsideWriteDir, evilDirLink, "dir");
+
+    // No ".." anywhere in this request — it looks like an entirely
+    // ordinary label write into a subdirectory of labelsDir.
+    expect(() => putLabel(labelsDir, "evil/newfile.jpg", validLabel())).toThrow(PathEscapeError);
+    expect(fs.existsSync(path.join(outsideWriteDir, "newfile.json"))).toBe(false);
+  });
+});
