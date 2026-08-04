@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { validateBroadcastLayoutConfig, CHROME_KINDS } from "../src/composites/zones/broadcastLayout.js";
+import { validateBroadcastLayoutConfig, CHROME_KINDS, loadBroadcastLayoutConfigsFromDir } from "../src/composites/zones/broadcastLayout.js";
 import type { BroadcastLayoutConfig, ChromeRegion } from "../src/composites/zones/broadcastLayout.js";
 
 // #256 Phase B: measured broadcast-layout config validation. Mirrors
@@ -142,5 +142,62 @@ describe("the committed reference broadcast layout (config/broadcast-layouts/cal
       const right = result.config.chrome.find((c) => c.kind === "sidebar" && c.side === "right")!;
       expect(Math.abs(left.rect.wFrac - right.rect.wFrac)).toBeLessThan(0.02);
     }
+  });
+
+  // #256 correction: the real capture corpus spans TWO physically
+  // different rigs (Calling Edinburgh + Pro Tour Las Vegas) — a single
+  // measured rig config generalizes to nothing, per the brief.
+  it("is valid and covers every documented chrome kind, measured against real imported Pro Tour Las Vegas captures", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const raw = JSON.parse(
+      fs.readFileSync(path.join(import.meta.dirname, "..", "config", "broadcast-layouts", "pro-tour-las-vegas.json"), "utf8"),
+    );
+    const result = validateBroadcastLayoutConfig(raw);
+    expect(result.valid).toBe(true);
+    if (result.valid) {
+      const kinds = new Set(result.config.chrome.map((c) => c.kind));
+      expect(kinds).toEqual(new Set(CHROME_KINDS));
+    }
+  });
+});
+
+describe("loadBroadcastLayoutConfigsFromDir — multi-rig loading (#256 correction)", () => {
+  it("loads and validates every *.json file in a directory, sorted by filename for determinism", () => {
+    const files: Record<string, string> = {
+      "rig-b.json": JSON.stringify(validConfig({ name: "rig b" })),
+      "rig-a.json": JSON.stringify(validConfig({ name: "rig a" })),
+      "README.md": "not a config, must be ignored",
+    };
+    const configs = loadBroadcastLayoutConfigsFromDir("/rigs", {
+      listFiles: () => Object.keys(files),
+      readFile: (p) => files[p.split("/").pop()!],
+    });
+    expect(configs.map((c) => c.name)).toEqual(["rig a", "rig b"]);
+  });
+
+  it("throws, naming the file, when any config in the directory is invalid", () => {
+    const files: Record<string, string> = { "bad.json": JSON.stringify({ name: "" }) };
+    expect(() =>
+      loadBroadcastLayoutConfigsFromDir("/rigs", { listFiles: () => Object.keys(files), readFile: (p) => files[p.split("/").pop()!] }),
+    ).toThrow(/bad\.json/);
+  });
+
+  it("throws loudly (never returns an empty rig pool silently) when the directory has zero *.json files", () => {
+    expect(() => loadBroadcastLayoutConfigsFromDir("/rigs", { listFiles: () => [], readFile: () => "" })).toThrow(/no broadcast-layout config/i);
+  });
+
+  it("loads the two real committed rig configs from the actual repo directory", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const dir = path.join(import.meta.dirname, "..", "config", "broadcast-layouts");
+    const configs = loadBroadcastLayoutConfigsFromDir(dir, {
+      listFiles: (d) => fs.readdirSync(d),
+      readFile: (p) => fs.readFileSync(p, "utf8"),
+    });
+    expect(configs.length).toBeGreaterThanOrEqual(2);
+    const names = configs.map((c) => c.name.toLowerCase());
+    expect(names.some((n) => n.includes("edinburgh"))).toBe(true);
+    expect(names.some((n) => n.includes("las vegas"))).toBe(true);
   });
 });
