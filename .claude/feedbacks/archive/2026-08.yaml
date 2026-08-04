@@ -1769,3 +1769,65 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/direct-fixes-when-no-live-dev
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T07:05:00Z'
+iteration:
+  task: '244'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: incident
+  area: other
+  severity: high
+  summary: Token-filtering wrapper reported false-green typecheck on the red step
+    itself — third live hit this session
+  detail: The wrapper's filtered tsc summary said 'No errors found' on brand-new test
+    files importing nonexistent modules (~35 real errors); trusting it would have
+    invalidated the TDD red evidence, not merely missed a bug. Two prior hits this
+    session on other tasks.
+  generalized: An output-filtering shell wrapper that can report false-green on correctness-gating
+    commands is a process hazard of the highest order — it can corrupt the evidence
+    chain (red proofs, gate passes) that the whole workflow trusts; until fixed upstream,
+    every correctness-gating invocation must route through the wrapper's unfiltered
+    mode, and this rule belongs in dev briefs as an execution step, not a lesson.
+  routing:
+    action: upstream
+    ref: surfaced-to-human 2026-08-04 (rtk false-green THIRD strike — now hit the
+      TDD red step itself; treat as high-priority rtk bug; interim rule promoted into
+      dev-brief execution steps)
+- category: worked-well
+  area: board
+  severity: low
+  summary: User reaction to a delivered artifact became a same-session filed, implemented,
+    and merged task
+  detail: The user eyeballed the first sample sheet, flagged the playmat-background
+    gap, and the loop filed, implemented (isolated worktree), reviewed, and merged
+    the feature within the same session, ending with a regenerated artifact for the
+    user.
+  generalized: When a human reacts to a delivered sample artifact with a concrete
+    requirement, filing it immediately as a fresh task and running it as a parallel
+    lane keeps the feedback loop hot — the human sees their words become a merged
+    feature plus an updated artifact without a session boundary.
+  routing:
+    action: brain-note
+    ref: orchestrator/hot-loop-user-reactions-into-lanes
+- category: friction
+  area: other
+  severity: low
+  summary: Lane-worktree cleanup deleted gitignored demo artifacts the user was actively
+    viewing
+  detail: Removing the finished worktree took its gitignored out/ tree with it, breaking
+    the sample sheet open in the user's browser; the demo had to be regenerated in
+    the main checkout.
+  generalized: Gitignored artifacts generated in a lane worktree that were handed
+    to the human (opened files, reports) must be regenerated in or copied to a persistent
+    location before the worktree is removed — worktree cleanup silently destroys anything
+    the human is still looking at.
+  routing:
+    action: brain-note
+    ref: orchestrator/preserve-human-facing-artifacts-before-worktree-cleanup
