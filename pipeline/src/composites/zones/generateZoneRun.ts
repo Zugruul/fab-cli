@@ -22,9 +22,16 @@ import { mergeTwoPlayerRenders } from "./twoPlayer.js";
 import { buildZoneCompositeManifest } from "./zoneManifest.js";
 import type { CompositeDatasetManifest } from "../manifest.js";
 
-/** A large, fixed, documented offset so the far mat's seed is always
- * deterministically distinct from the near mat's (never the same seed
- * twice, never re-derived from wall-clock/random state). */
+/** Large, fixed, documented offsets so the two-player near/far mats each
+ * get a seed distinct from the single-mat batch AND from each other —
+ * without these, the near mat (same config.seed, same zone map, same
+ * eligible pools as the single-mat batch) would draw the IDENTICAL rng
+ * sequence as the single-mat batch's own index-0 composite, making the
+ * two-player example's near half a wasted exact duplicate of
+ * composite-0000 instead of a genuinely distinct scene (caught by eyeball
+ * review of the real demo run, not a unit test — the fixture catalogs used
+ * in tests are too small to make the duplication visually obvious). */
+const TWO_PLAYER_NEAR_SEED_OFFSET = 500_009;
 const TWO_PLAYER_FAR_SEED_OFFSET = 1_000_003;
 
 export interface ImageNeed {
@@ -93,7 +100,12 @@ export async function generateZoneRun(input: GenerateZoneRunInput): Promise<Gene
   };
 
   const singlePlans = planZoneLayoutRun({ ...planCommon, config: input.config, compositesPerRun: input.singleCount, compositeIdPrefix: "composite" });
-  const nearPlans = planZoneLayoutRun({ ...planCommon, config: input.config, compositesPerRun: input.twoPlayerCount, compositeIdPrefix: "two-player-near" });
+  const nearPlans = planZoneLayoutRun({
+    ...planCommon,
+    config: { ...input.config, seed: input.config.seed + TWO_PLAYER_NEAR_SEED_OFFSET },
+    compositesPerRun: input.twoPlayerCount,
+    compositeIdPrefix: "two-player-near",
+  });
   const farPlans = planZoneLayoutRun({
     ...planCommon,
     config: { ...input.config, seed: input.config.seed + TWO_PLAYER_FAR_SEED_OFFSET },

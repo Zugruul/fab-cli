@@ -91,6 +91,24 @@ describe("generateZoneRun", () => {
     expect(singleHeight).toHaveLength(3);
   });
 
+  // Caught by eyeballing the real demo run: the near mat must NOT be an
+  // exact duplicate of the single-mat batch's own composite-0000 (same
+  // config.seed, same zone map, same pools would otherwise draw the
+  // identical rng sequence) — see generateZoneRun.ts's seed-offset doc.
+  it("the two-player near mat is a genuinely distinct scene from the single-mat batch's composite-0000 (not an accidental duplicate)", async () => {
+    const input = baseInput({ singleCount: 1, twoPlayerCount: 1 });
+    const { composites } = await generateZoneRun(input);
+    const single = composites.find((c) => c.label.compositeId === "composite-0000")!;
+    const twoPlayer = composites.find((c) => c.label.compositeId === "two-player-0000")!;
+    const singlePrintingIds = single.label.cards.map((c) => c.printingId).sort();
+    // the near mat's cards are the FIRST half of the merged label's cards
+    // (see mergeTwoPlayerRenders: far cards first, then near cards) —
+    // compare corner positions instead, since printingId sets alone could
+    // coincidentally match with a tiny fixture catalog.
+    const nearCards = twoPlayer.label.cards.slice(singlePrintingIds.length);
+    expect(JSON.stringify(nearCards.map((c) => c.corners))).not.toBe(JSON.stringify(single.label.cards.map((c) => c.corners)));
+  });
+
   it("downloads exactly the distinct catalog picks actually referenced, deduplicated", async () => {
     const input = baseInput();
     await generateZoneRun(input);
