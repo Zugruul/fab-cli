@@ -44,7 +44,7 @@ import { validateZoneMap } from "./zoneMap.js";
 import { validateZoneLayoutConfig } from "./planZoneLayout.js";
 import type { ZoneLayoutConfig } from "./planZoneLayout.js";
 import { loadCardsFromFile } from "../../images/catalog.js";
-import { downloadAll } from "../../images/downloader.js";
+import { downloadAll, assertDownloadsSucceeded } from "../../images/downloader.js";
 import { DEFAULT_DOWNLOAD_OPTIONS } from "../../images/types.js";
 import { ensureCardBackCached, CARD_BACK_PRINTING_ID } from "./cardBack.js";
 import { generateZoneRun } from "./generateZoneRun.js";
@@ -221,11 +221,16 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
   }
 
   const ensureImagesDownloaded = async (needs: ImageNeed[]) => {
-    await downloadAll(
+    const outcomes = await downloadAll(
       needs.map((n) => ({ printingId: n.printingId, imageUrl: n.imageUrl, printCode: "", cardName: "", setId: "" })),
       { ...DEFAULT_DOWNLOAD_OPTIONS, cacheDir: args.imagesCacheDir },
       deps,
     );
+    // #256 real-data-run finding: a discarded downloadAll() result means a
+    // permanently-failed printing (e.g. a real S3 403) silently proceeds
+    // to a much more confusing crash later (a raw sharp "Input file is
+    // missing" error) instead of a clear, actionable message here.
+    assertDownloadsSucceeded(outcomes);
   };
 
   if (args.mode === "broadcast") {
