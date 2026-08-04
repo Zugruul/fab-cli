@@ -1,9 +1,10 @@
 import { describe, it, expect, vi } from "vitest";
-import { generateZoneRun } from "../src/composites/zones/generateZoneRun.js";
+import { generateZoneRun, buildEligibleByKind, TWO_PLAYER_NEAR_SEED_OFFSET } from "../src/composites/zones/generateZoneRun.js";
 import type { GenerateZoneRunInput } from "../src/composites/zones/generateZoneRun.js";
 import type { RawCardForSelection } from "../src/composites/zones/semanticSelection.js";
 import type { ZoneMap } from "../src/composites/zones/zoneMap.js";
 import type { RawImage } from "../src/composites/rawImage.js";
+import { planZoneLayoutRun } from "../src/composites/zones/planZoneLayout.js";
 
 // #253 end-to-end orchestration (all IO injected — mirrors generate.ts's
 // LoadImageFn injection pattern so the test never touches real files/
@@ -95,18 +96,66 @@ describe("generateZoneRun", () => {
   // exact duplicate of the single-mat batch's own composite-0000 (same
   // config.seed, same zone map, same pools would otherwise draw the
   // identical rng sequence) — see generateZoneRun.ts's seed-offset doc.
-  it("the two-player near mat is a genuinely distinct scene from the single-mat batch's composite-0000 (not an accidental duplicate)", async () => {
-    const input = baseInput({ singleCount: 1, twoPlayerCount: 1 });
+  //
+  // PR #255 review round 1 (mutation-proven, twice): version 1 compared
+  // POST-MERGE label corners — zero discriminating power, since
+  // mergeTwoPlayerRenders always translates the near mat's corners by
+  // +matHeight regardless of whether the underlying scene differs, so the
+  // "difference" it found was really just the translation, present even
+  // with the seed-offset bug reintroduced. Version 2 called
+  // planZoneLayoutRun directly with the offset applied by the TEST itself
+  // — that proves planZoneLayoutRun is seed-sensitive (already covered
+  // elsewhere) but never actually exercises generateZoneRun's OWN wiring,
+  // so it also stayed green under the same mutation.
+  //
+  // Fixed by comparing PRINTING IDS (untouched by any geometric
+  // transform, unlike corners) pulled from generateZoneRun's REAL merged
+  // output against two independently-computed hypotheses — "what the near
+  // mat would pick WITH the offset" vs "WITHOUT it" — using a catalog with
+  // 2 candidates for one kind so the seed actually determines WHICH card
+  // is picked, not just jitter. This asserts generateZoneRun's actual
+  // output matches the with-offset hypothesis and differs from the
+  // without-offset one, so dropping the offset inside generateZoneRun
+  // itself (the real regression) is what gets caught.
+  it("generateZoneRun's near mat genuinely applies the near-seed offset internally (not just available as an unused export)", async () => {
+    const catalogWithChoice = [
+      ...fullCatalog(),
+      card({ name: "A Hero (alt)", types: ["Brute", "Hero"], printings: [{ unique_id: "hero-2", image_url: "https://x/hero-2.png" }] }),
+    ];
+    const config = baseInput().config;
+    const zoneMap = zoneMapWithArsenal();
+    const imagesCacheDir = "/cache/images";
+    const eligibleByKind = buildEligibleByKind(catalogWithChoice, zoneMap, imagesCacheDir);
+    const cardBack = { printingId: "__card_back__", imagePath: "/cache/images/__card_back__.png" };
+    const planCommon = { zoneMap, eligibleByKind, cardBack, matWidth: 200, matHeight: 140, background: { fileName: "playmat-abc123.png", contentHash: "abc123" } };
+
+    const withOffsetNearPlan = planZoneLayoutRun({
+      ...planCommon,
+      config: { ...config, seed: config.seed + TWO_PLAYER_NEAR_SEED_OFFSET },
+      compositesPerRun: 1,
+      compositeIdPrefix: "two-player-near",
+    })[0];
+    const withoutOffsetNearPlan = planZoneLayoutRun({ ...planCommon, config, compositesPerRun: 1, compositeIdPrefix: "two-player-near" })[0];
+
+    const withOffsetIds = withOffsetNearPlan.cards.filter((c) => !c.isCardBack).map((c) => c.printingId).sort();
+    const withoutOffsetIds = withoutOffsetNearPlan.cards.filter((c) => !c.isCardBack).map((c) => c.printingId).sort();
+    // Sanity: this fixture must actually distinguish the two hypotheses,
+    // or the assertions below would be vacuous.
+    expect(withOffsetIds).not.toEqual(withoutOffsetIds);
+
+    const input = baseInput({ cards: catalogWithChoice, singleCount: 1, twoPlayerCount: 1 });
     const { composites } = await generateZoneRun(input);
-    const single = composites.find((c) => c.label.compositeId === "composite-0000")!;
     const twoPlayer = composites.find((c) => c.label.compositeId === "two-player-0000")!;
-    const singlePrintingIds = single.label.cards.map((c) => c.printingId).sort();
-    // the near mat's cards are the FIRST half of the merged label's cards
-    // (see mergeTwoPlayerRenders: far cards first, then near cards) —
-    // compare corner positions instead, since printingId sets alone could
-    // coincidentally match with a tiny fixture catalog.
-    const nearCards = twoPlayer.label.cards.slice(singlePrintingIds.length);
-    expect(JSON.stringify(nearCards.map((c) => c.corners))).not.toBe(JSON.stringify(single.label.cards.map((c) => c.corners)));
+    // mergeTwoPlayerRenders orders cards as [...farCards, ...nearCards] —
+    // near mat's card COUNT is seed-independent here (same zone map, same
+    // guaranteedArsenalFaceUpIndices, minVisibleFraction 0 keeps every
+    // card labeled), so slicing the last N cards unambiguously isolates
+    // the near mat's cards regardless of which hypothesis is true.
+    const nearCardsFromOutput = twoPlayer.label.cards.slice(-withOffsetIds.length);
+    const actualIds = nearCardsFromOutput.map((c) => c.printingId).sort();
+
+    expect(actualIds).toEqual(withOffsetIds);
+    expect(actualIds).not.toEqual(withoutOffsetIds);
   });
 
   it("downloads exactly the distinct catalog picks actually referenced, deduplicated", async () => {

@@ -31,8 +31,15 @@ import type { CompositeDatasetManifest } from "../manifest.js";
  * composite-0000 instead of a genuinely distinct scene (caught by eyeball
  * review of the real demo run, not a unit test — the fixture catalogs used
  * in tests are too small to make the duplication visually obvious). */
-const TWO_PLAYER_NEAR_SEED_OFFSET = 500_009;
-const TWO_PLAYER_FAR_SEED_OFFSET = 1_000_003;
+// Exported so tests can construct the exact same planZoneLayoutRun inputs
+// generateZoneRun uses internally and compare PRE-merge plans directly —
+// a post-merge comparison is unreliable here, since mergeTwoPlayerRenders
+// always translates the near mat's card corners by +matHeight regardless
+// of whether the underlying scene actually differs (see PR #255 review
+// round 1: a mutation dropping this offset stayed undetected by a
+// post-merge corner comparison for exactly that reason).
+export const TWO_PLAYER_NEAR_SEED_OFFSET = 500_009;
+export const TWO_PLAYER_FAR_SEED_OFFSET = 1_000_003;
 
 export interface ImageNeed {
   printingId: string;
@@ -74,7 +81,7 @@ export interface GenerateZoneRunResult {
   composites: RenderResult[];
 }
 
-function buildEligibleByKind(cards: RawCardForSelection[], zoneMap: ZoneMap, imagesCacheDir: string): Partial<Record<SelectableZoneKind, EligibleCard[]>> {
+export function buildEligibleByKind(cards: RawCardForSelection[], zoneMap: ZoneMap, imagesCacheDir: string): Partial<Record<SelectableZoneKind, EligibleCard[]>> {
   const kinds = new Set<Exclude<ZoneKind, "deck">>();
   for (const zone of zoneMap.zones) {
     if (zone.kind !== "deck") kinds.add(zone.kind as Exclude<ZoneKind, "deck">);
