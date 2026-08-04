@@ -54,7 +54,7 @@ function pickFromPalette<T>(palette: T[], index: number): T {
 export type OccluderImageSpec =
   | { printingId: string; kind: "shim"; width: number; height: number; color: [number, number, number] }
   | { printingId: string; kind: "dice"; width: number; height: number; bodyColor: [number, number, number]; pipColor: [number, number, number]; face: number }
-  | { printingId: string; kind: "hand"; width: number; height: number; skinTone: [number, number, number] };
+  | { printingId: string; kind: "hand"; width: number; height: number; skinTone: [number, number, number]; blurStrength: number };
 
 export interface ApplyBroadcastAugmentationResult {
   leftPlan: CompositeParams;
@@ -150,7 +150,14 @@ function dicePlacement(index: number, plan: DicePlan, occluderSpecs: OccluderIma
 function handPlacement(plan: HandPlan, occluderSpecs: OccluderImageSpec[]): CardPlacement {
   const printingId = "__occluder_hand__";
   const skinTone = pickFromPalette(SKIN_TONE_PALETTE, plan.paletteIndex);
-  occluderSpecs.push({ printingId, kind: "hand", width: HAND_SOURCE_SIZE.width, height: HAND_SOURCE_SIZE.height, skinTone });
+  occluderSpecs.push({
+    printingId,
+    kind: "hand",
+    width: HAND_SOURCE_SIZE.width,
+    height: HAND_SOURCE_SIZE.height,
+    skinTone,
+    blurStrength: plan.blurStrength,
+  });
   return {
     printingId,
     imagePath: `procedural:hand:${printingId}`,
