@@ -118,4 +118,15 @@ describe("pipeline no-commit guard", () => {
   it("git-ignores the knowledge-pack builder's delta-pack output dir", () => {
     expect(isGitIgnored("pipeline/out/knowledge/delta/manifest.json")).toBe(true);
   });
+
+  // APP-029: the publish assembler's dry-run bundle tree (per-release flat
+  // asset copies, checksums.txt, release-manifest.json) is entirely
+  // regenerable from the model/knowledge-pack builders above plus the
+  // configured artifact map — same discipline as every other pipeline/out/
+  // artifact, never committed.
+  it("git-ignores the publish dry-run bundle tree", () => {
+    expect(isGitIgnored("pipeline/out/publish/1.0.0/model-0.6B-merged.gguf")).toBe(true);
+    expect(isGitIgnored("pipeline/out/publish/1.0.0/checksums.txt")).toBe(true);
+    expect(isGitIgnored("pipeline/out/publish/1.0.0/release-manifest.json")).toBe(true);
+  });
 });

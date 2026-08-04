@@ -26,7 +26,9 @@
     "composites:generate": "tsx src/composites/cli.ts generate",
     "composites:sample-sheet": "tsx src/composites/cli.ts sample-sheet",
     "knowledge:build:full": "tsx src/knowledge/cli.ts full",
-    "knowledge:build:delta": "tsx src/knowledge/cli.ts delta"
+    "knowledge:build:delta": "tsx src/knowledge/cli.ts delta",
+    "publish:dry-run": "tsx src/publish/cli.ts dry-run",
+    "publish:release": "tsx src/publish/cli.ts publish"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",
