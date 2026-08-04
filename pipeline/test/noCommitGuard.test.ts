@@ -71,6 +71,24 @@ describe("pipeline no-commit guard", () => {
     expect(isGitIgnored("pipeline/out/backgrounds/playmats/deadbeefdeadbeef.png")).toBe(true);
   });
 
+  // #256: real tournament-broadcast captures (copyrighted stream footage,
+  // no ground-truth labels) are calibration/reference-only content — same
+  // never-committed posture as every other pipeline/out/ artifact, and
+  // deliberately a DIFFERENT directory than playmats/ above (see
+  // importCaptures.ts's header for why the two must never be confused).
+  it("git-ignores the imported broadcast-capture dir (pipeline/out/backgrounds/captures/)", () => {
+    expect(isGitIgnored("pipeline/out/backgrounds/captures/deadbeefdeadbeef.png")).toBe(true);
+    expect(isGitIgnored("pipeline/out/backgrounds/captures/manifest.json")).toBe(true);
+  });
+
+  // #256: --mode broadcast composite output lives in its own run dir, same
+  // gitignore posture as every other composites run output.
+  it("git-ignores the broadcast-mode composite output dir (pipeline/out/broadcast-layouts/)", () => {
+    expect(isGitIgnored("pipeline/out/broadcast-layouts/composite-0000.png")).toBe(true);
+    expect(isGitIgnored("pipeline/out/broadcast-layouts/manifest.json")).toBe(true);
+    expect(isGitIgnored("pipeline/out/broadcast-layouts/sample-sheet.html")).toBe(true);
+  });
+
   // APP-027: the OBB detector's Python venv and any local (non-vision-runs)
   // train/export output are gitignored, same as every other generated/
   // dependency artifact this pipeline produces.
