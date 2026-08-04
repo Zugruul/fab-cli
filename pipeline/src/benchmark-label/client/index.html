@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Benchmark labeling (#258)</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <h1>Photos</h1>
+    <div id="progress"></div>
+    <ul id="photo-list"></ul>
+  </aside>
+
+  <main id="main">
+    <div id="toolbar">
+      <span id="photo-name">No photo selected</span>
+      <label>scene type <select id="scene-type"></select></label>
+      <label>orientation <select id="orientation"></select></label>
+      <button id="zoom-out">-</button>
+      <button id="zoom-reset">reset zoom</button>
+      <button id="zoom-in">+</button>
+      <button id="pad-more">more room (amodal)</button>
+      <button id="add-card">Add card (click 4 corners: TL, TR, BR, BL)</button>
+      <button id="skip-card">Skip card (not estimable)</button>
+      <button id="save-label" class="primary">Save label</button>
+    </div>
+
+    <div id="filename-hint"></div>
+    <div id="save-status"></div>
+
+    <div id="viewport">
+      <div id="world">
+        <img id="photo" alt="">
+        <canvas id="overlay"></canvas>
+      </div>
+    </div>
+  </main>
+
+  <aside id="side-panel">
+    <h2>Quads</h2>
+    <div id="click-instructions"></div>
+    <ul id="quad-list"></ul>
+
+    <div id="quad-editor" hidden>
+      <h3>Selected quad</h3>
+      <div id="printing-summary">no printing selected</div>
+      <input id="printing-query" type="text" placeholder="search printing by name or set+number (e.g. HER155)">
+      <ul id="printing-results"></ul>
+      <div id="tag-editor">
+        <label><input type="checkbox" value="sleeved"> sleeved</label>
+        <label><input type="checkbox" value="foil"> foil</label>
+        <label><input type="checkbox" value="glare"> glare</label>
+      </div>
+      <div id="marvel-note" hidden>⚠ "marvel" detected in filename — the label tag vocabulary has no treatment/rarity slot, so this is NOT recorded as a tag.</div>
+      <button id="delete-quad">Delete this quad</button>
+    </div>
+  </aside>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
