@@ -23,6 +23,7 @@
     "eval": "tsx src/eval/cli.ts",
     "images:download": "tsx src/images/cli.ts",
     "benchmark:manifest": "tsx src/benchmark/cli.ts",
+    "benchmark:label": "tsx src/benchmark-label/cli.ts",
     "composites:generate": "tsx src/composites/cli.ts generate",
     "composites:import-backgrounds": "tsx src/composites/cli.ts import-backgrounds",
     "composites:sample-sheet": "tsx src/composites/cli.ts sample-sheet",

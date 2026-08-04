@@ -12,6 +12,28 @@ lives in `pipeline/src/benchmark/` (`validate.ts`, `manifest.ts`,
 `loadSet.ts`, `cli.ts`) — run `npm run benchmark:manifest` (from
 `pipeline/`) to build + validate a manifest from a photos+labels directory.
 
+**Producing the labels themselves**: hand-authoring this JSON is the
+tedious, error-prone part this protocol exists to make trustworthy, so use
+the labeling tool (issue #258) rather than writing label files by hand:
+
+```bash
+cd pipeline
+npm run benchmark:label   # starts a local-only server at http://localhost:4173
+```
+
+A browser-based corner annotator (`pipeline/src/benchmark-label/`) — no
+external network calls, everything reads/writes local disk only. Walks a
+photo directory, lets you click each card's 4 corners (clockwise TL/TR/BR/
+BL, drag to correct, out-of-bounds clicks explicitly supported for amodal
+labeling), searches the local the-fab-cube catalog for the printing
+`unique_id` (never auto-picking when a set+collector code resolves to more
+than one printing — see catalogSearch.ts), and validates every write through
+the EXISTING `validatePhotoLabel` before it touches disk. It also parses the
+user's real-photo shooting filename convention (`<SETCODE><NUM>[-U|-1st]-
+<sleeved|unsleeved>-<name>-[marvel-]<cf|rf|nf>[-N].ext`) to pre-fill
+sleeved/foil tags and the printing search query — visibly, never silently,
+so an unparsed filename is flagged rather than guessed at.
+
 ## What "hundreds of photos" needs to cover
 
 Per §8.7(e), the benchmark set must cover, across its photos as a whole

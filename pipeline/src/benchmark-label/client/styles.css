@@ -1,0 +1,51 @@
+/* Bare-functional styling — this is an internal labeling tool, not a
+ * polished product. Legibility and click-target size matter (this is used
+ * for hours at a time on 4000px photos); visual polish does not. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #1a1a1a; color: #eee; }
+#app { display: grid; grid-template-columns: 240px 1fr 300px; height: 100vh; }
+
+#sidebar, #side-panel { overflow-y: auto; padding: 0.75rem; background: #111; }
+#sidebar h1, #side-panel h2 { font-size: 1rem; margin: 0 0 0.5rem; }
+#photo-list { list-style: none; margin: 0; padding: 0; }
+#photo-list li { padding: 0.35rem 0.4rem; cursor: pointer; border-radius: 3px; font-size: 0.85rem; word-break: break-all; }
+#photo-list li:hover { background: #222; }
+#photo-list li.active { background: #2a4; color: #fff; }
+#photo-list li.labeled::before { content: "✓ "; color: #4c8; }
+#photo-list li.unlabeled::before { content: "· "; color: #888; }
+#progress { font-size: 0.8rem; color: #aaa; margin-bottom: 0.5rem; }
+
+#main { display: flex; flex-direction: column; min-width: 0; }
+#toolbar { display: flex; gap: 0.5rem; align-items: center; padding: 0.5rem; background: #222; flex-wrap: wrap; }
+#toolbar button, #toolbar select { font-size: 0.85rem; }
+button.primary { background: #2a6; color: #fff; border: none; padding: 0.4rem 0.8rem; border-radius: 3px; cursor: pointer; }
+#photo-name { font-size: 0.85rem; color: #ccc; margin-right: 0.5rem; }
+
+#filename-hint { padding: 0.3rem 0.5rem; font-size: 0.8rem; }
+#filename-hint.parsed { color: #6c9; }
+#filename-hint.unparsed { color: #e94; font-weight: bold; }
+#save-status { padding: 0 0.5rem; font-size: 0.8rem; min-height: 1.2em; }
+#save-status.error { color: #e55; white-space: pre-wrap; }
+#save-status.ok { color: #6c9; }
+
+#viewport { flex: 1; overflow: auto; background: #000; position: relative; }
+#world { position: relative; }
+#photo { position: absolute; display: block; }
+#overlay { position: absolute; top: 0; left: 0; cursor: crosshair; }
+
+#click-instructions { font-size: 0.8rem; color: #ec5; min-height: 2em; }
+#quad-list { list-style: none; margin: 0; padding: 0; font-size: 0.82rem; }
+#quad-list li { padding: 0.3rem; border: 1px solid #333; border-radius: 3px; margin-bottom: 0.3rem; cursor: pointer; }
+#quad-list li.selected { border-color: #4c8; }
+#quad-list li.no-printing { color: #e94; }
+
+#quad-editor { margin-top: 0.75rem; border-top: 1px solid #333; padding-top: 0.5rem; }
+#printing-query { width: 100%; margin: 0.4rem 0; }
+#printing-results { list-style: none; margin: 0; padding: 0; max-height: 260px; overflow-y: auto; }
+#printing-results li { display: flex; gap: 0.4rem; align-items: center; padding: 0.3rem; cursor: pointer; font-size: 0.78rem; border-bottom: 1px solid #222; }
+#printing-results li:hover { background: #223; }
+#printing-results img { width: 32px; height: auto; }
+#printing-results .no-image { width: 32px; font-size: 0.65rem; color: #888; }
+#tag-editor { display: flex; gap: 0.75rem; margin: 0.5rem 0; font-size: 0.85rem; }
+#marvel-note { color: #e94; font-size: 0.75rem; margin-bottom: 0.5rem; }
+#delete-quad { color: #e55; }
