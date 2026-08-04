@@ -74,19 +74,37 @@ export function rotate90RawImage(img: RawImage, direction: "cw" | "ccw"): RawIma
 }
 
 /**
- * Removes the top `cropPx` rows of an image, shrinking its height by
- * exactly that amount (width unchanged). Used by mergeBroadcastTableRenders
- * (#256 correction) to strip each mat's decorative top-edge banner BEFORE
- * the quarter-turn — see that function's header for why cropping
- * pre-rotation (a single axis-aligned strip) is simpler than cropping the
- * rotated image's inner-edge columns, even though the two are equivalent
- * under rotate90RawImage's own coordinate map.
+ * Overwrites the top `bandPx` rows of an image with a copy of row
+ * `bandPx` itself (the first row NOT in the band) — extending that row's
+ * content upward rather than removing pixels. Dimensions are UNCHANGED
+ * (unlike an actual crop) — this is the deliberate correction over an
+ * earlier version of this fix that shrank the image instead: shrinking
+ * matHeight changes the merged table's own aspect ratio
+ * (2*matHeight/matWidth), which mergeBroadcastTableRenders's caller
+ * (generateBroadcastRun.ts/renderBroadcastFrame's table-homography warp)
+ * assumes is pre-calibrated to match the measured play-area rect's aspect
+ * — shrinking it reintroduces a smaller version of the EXACT non-uniform-
+ * scale squish #256's original geometry fix eliminated (measured: table
+ * card aspect mean dropped from 0.672 to 0.577 against a real card's
+ * 0.716, when this was a real crop instead of an in-place overpaint).
+ * Overpainting the same rows achieves the identical visual goal (the
+ * banner-colored pixels are gone before rotation, so they never reach the
+ * seam) with ZERO dimension/aspect side effect, and needs no
+ * corresponding card-quad shift either (see mergeBroadcastTableRenders —
+ * corners are untouched, since no pixel MOVED, only recolored).
  */
-export function cropTopRawImage(img: RawImage, cropPx: number): RawImage {
-  if (cropPx < 0 || cropPx >= img.height) {
-    throw new Error(`cropTopRawImage: cropPx (${cropPx}) must be in [0, height) (height=${img.height})`);
+export function blankTopBandRawImage(img: RawImage, bandPx: number): RawImage {
+  if (bandPx < 0 || bandPx >= img.height) {
+    throw new Error(`blankTopBandRawImage: bandPx (${bandPx}) must be in [0, height) (height=${img.height})`);
   }
-  return { width: img.width, height: img.height - cropPx, data: img.data.slice(cropPx * img.width * 4) };
+  if (bandPx === 0) return { width: img.width, height: img.height, data: img.data.slice() };
+  const rowBytes = img.width * 4;
+  const data = img.data.slice();
+  const sourceRow = data.subarray(bandPx * rowBytes, (bandPx + 1) * rowBytes);
+  for (let y = 0; y < bandPx; y++) {
+    data.set(sourceRow, y * rowBytes);
+  }
+  return { width: img.width, height: img.height, data };
 }
 
 /**
@@ -232,28 +250,33 @@ export function mergeTwoPlayerRenders(near: RenderResult, far: RenderResult, com
  * RenderResult/CompositeLabel unchanged, so the result flows through
  * write.ts/sampleSheet.ts exactly like any other composite.
  *
- * `topCropFrac` (#256 correction, human-upgraded to blocking: "two separate
- * mats butted together") strips each mat's own decorative top-edge band —
- * a fraction of matHeight, rounded to a pixel count — BEFORE the quarter
- * turn. Without it, EACH mat's top edge (e.g. the reference playmat's
+ * `topBandFrac` (#256 correction, human-upgraded to blocking: "two separate
+ * mats butted together") overpaints each mat's own decorative top-edge
+ * band — a fraction of matHeight, rounded to a pixel count — BEFORE the
+ * quarter turn, via blankTopBandRawImage (see that function's header for
+ * why this is an in-place overpaint and NOT a crop: an actual crop shrinks
+ * matHeight, which changes the merged table's own aspect ratio and
+ * reintroduces a smaller version of the exact non-uniform-scale squish
+ * #256's original geometry fix eliminated — measured regression: table
+ * card aspect mean 0.672 -> 0.577 against a real card's 0.716, caught by
+ * re-measuring a real run rather than trusting the fix looked right).
+ * Without SOME fix, EACH mat's top edge (e.g. the reference playmat's
  * "COMBAT CHAIN" banner) lands right at the seam after rotation: cw maps
  * original y=0 to the rotated image's rightmost column (the left mat's
  * inner/seam edge); ccw maps original y=0 to the leftmost column (the
  * right mat's inner/seam edge) — both banners end up adjacent, visible as
  * two back-to-back decorative strips down the middle of an otherwise
- * continuous table. Cropping pre-rotation is a single axis-aligned strip
- * (simpler than clipping the rotated image's inner columns, though the two
- * are equivalent under rotate90RawImage's own coordinate map) — every
- * remaining card quad only needs the SAME uniform upward shift
- * (translateQuad by (0, -cropPx)) applied before the existing rotation,
- * never a rotated-frame clip. Defaults to 0 (byte-identical to the
- * pre-correction signature) since this is meaningless outside `--mode
- * broadcast`'s specific reference-playmat assumption — see
- * generateBroadcastRun.ts's BROADCAST_TABLE_TOP_CROP_FRAC for the actual
- * measured value and the safety-margin proof that it never clips a real
- * card under the production zone-layout config's jitter/rotation ranges.
+ * continuous table. Because dimensions never change, NO card quad needs
+ * any shift at all — rotateQuad90AboutMat runs on the UNCHANGED
+ * matWidth/matHeight, exactly as it did before this correction existed.
+ * Defaults to 0 (byte-identical to the pre-correction signature) since
+ * this is meaningless outside `--mode broadcast`'s specific
+ * reference-playmat assumption — see generateBroadcastRun.ts's
+ * BROADCAST_TABLE_TOP_CROP_FRAC for the actual measured value and the
+ * safety-margin proof that it never overpaints a real card under the
+ * production zone-layout config's jitter/rotation ranges.
  */
-export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResult, compositeId: string, topCropFrac = 0): RenderResult {
+export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResult, compositeId: string, topBandFrac = 0): RenderResult {
   if (left.image.width !== right.image.width || left.image.height !== right.image.height) {
     throw new Error(
       `mergeBroadcastTableRenders: mat dimension mismatch (left=${left.image.width}x${left.image.height}, right=${right.image.width}x${right.image.height})`,
@@ -261,27 +284,26 @@ export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResu
   }
   const matWidth = left.image.width;
   const matHeight = left.image.height;
-  const cropPx = Math.round(topCropFrac * matHeight);
-  const croppedMatHeight = matHeight - cropPx;
+  const bandPx = Math.round(topBandFrac * matHeight);
 
-  const leftCropped = cropTopRawImage(left.image, cropPx);
-  const rightCropped = cropTopRawImage(right.image, cropPx);
+  const leftBlanked = blankTopBandRawImage(left.image, bandPx);
+  const rightBlanked = blankTopBandRawImage(right.image, bandPx);
 
-  const leftRotated = rotate90RawImage(leftCropped, "cw");
-  const rightRotated = rotate90RawImage(rightCropped, "ccw");
+  const leftRotated = rotate90RawImage(leftBlanked, "cw");
+  const rightRotated = rotate90RawImage(rightBlanked, "ccw");
   const image = stackHorizontally(leftRotated, rightRotated);
 
-  // Post-rotation each (now-cropped) mat occupies croppedMatHeight in x and
-  // matWidth in y.
-  const halfWidth = croppedMatHeight;
+  // Post-rotation each mat occupies matHeight in x and matWidth in y —
+  // UNCHANGED by the band overpaint, since it never alters dimensions.
+  const halfWidth = matHeight;
 
   const leftCards: CompositeCardLabel[] = left.label.cards.map((c) => ({
     ...c,
-    corners: rotateQuad90AboutMat(translateQuad(c.corners, 0, -cropPx), matWidth, croppedMatHeight, "cw"),
+    corners: rotateQuad90AboutMat(c.corners, matWidth, matHeight, "cw"),
   }));
   const rightCards: CompositeCardLabel[] = right.label.cards.map((c) => ({
     ...c,
-    corners: translateQuad(rotateQuad90AboutMat(translateQuad(c.corners, 0, -cropPx), matWidth, croppedMatHeight, "ccw"), halfWidth, 0),
+    corners: translateQuad(rotateQuad90AboutMat(c.corners, matWidth, matHeight, "ccw"), halfWidth, 0),
   }));
 
   const label: CompositeLabel = {

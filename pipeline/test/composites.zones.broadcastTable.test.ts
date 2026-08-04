@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { stackHorizontally, mergeBroadcastTableRenders, cropTopRawImage } from "../src/composites/zones/twoPlayer.js";
+import { stackHorizontally, mergeBroadcastTableRenders, blankTopBandRawImage } from "../src/composites/zones/twoPlayer.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 import type { RenderResult } from "../src/composites/compositor.js";
 import type { CompositeCardLabel } from "../src/composites/types.js";
@@ -163,40 +163,47 @@ describe("mergeBroadcastTableRenders — left/right labels (landscape, vertical 
 // original y=0 to the rotated image's RIGHTMOST column = inner/seam edge
 // for the left mat; ccw maps original y=0 to the LEFTMOST column = inner/
 // seam edge for the right mat — both mats' banners end up adjacent).
-// Fix: crop each mat's own decorative top band BEFORE rotating (equivalent,
-// by the same coordinate map, to cropping the rotated image's inner-edge
-// columns — cropping pre-rotation is simpler since it's a single axis-
-// aligned strip, and every remaining card quad only needs a uniform
-// upward shift, not a rotated-frame clip). This is safe (never clips a
-// REAL card) only because the crop depth is provably below the shallowest
-// any card can ever reach — see composites.zones.broadcastTableRotation
-// or the dedicated "banner crop is provably below every card's reach"
-// test guarding this bound against future config drift.
-describe("cropTopRawImage", () => {
-  it("removes exactly the top N rows, shifting everything else up by N", () => {
+//
+// First attempt at a fix (superseded, see git history): crop each mat's
+// top band before rotating. That shrank matHeight, which changes the
+// merged table's own aspect ratio (2*matHeight/matWidth) — a real-run
+// re-measurement caught it reintroducing a smaller version of the EXACT
+// squish #256's original geometry fix eliminated (table card aspect mean
+// dropped 0.672 -> 0.577 against a real card's 0.716). Corrected fix:
+// OVERPAINT the band in place (blankTopBandRawImage) instead of removing
+// it — dimensions never change, so no aspect side effect and no card-quad
+// shift is needed at all (nothing moved, only recolored). Safe (never
+// overpaints a REAL card) only because the band depth is provably below
+// the shallowest any card can ever reach — see
+// composites.zones.broadcastTableTopCropSafety.test.ts.
+describe("blankTopBandRawImage", () => {
+  it("overwrites the top N rows with a copy of row N, leaving row N and below untouched", () => {
     const source = img(3, 5, (x, y) => [y, 0, 0, 255]); // row y has R=y
-    const cropped = cropTopRawImage(source, 2);
-    expect(cropped.width).toBe(3);
-    expect(cropped.height).toBe(3);
-    // new row 0 == old row 2, new row 2 == old row 4
-    expect(cropped.data[(0 * 3 + 0) * 4]).toBe(2);
-    expect(cropped.data[(2 * 3 + 0) * 4]).toBe(4);
+    const blanked = blankTopBandRawImage(source, 2);
+    expect(blanked.width).toBe(3);
+    expect(blanked.height).toBe(5); // dimensions UNCHANGED (this is the point)
+    // rows 0 and 1 now read as row 2's content (R=2); rows 2-4 untouched.
+    expect(blanked.data[(0 * 3 + 0) * 4]).toBe(2);
+    expect(blanked.data[(1 * 3 + 0) * 4]).toBe(2);
+    expect(blanked.data[(2 * 3 + 0) * 4]).toBe(2);
+    expect(blanked.data[(3 * 3 + 0) * 4]).toBe(3);
+    expect(blanked.data[(4 * 3 + 0) * 4]).toBe(4);
   });
 
-  it("cropPx=0 is a byte-identical no-op", () => {
+  it("bandPx=0 is a byte-identical no-op", () => {
     const source = img(4, 4, (x, y) => [x, y, 1, 255]);
-    const cropped = cropTopRawImage(source, 0);
-    expect(Array.from(cropped.data)).toEqual(Array.from(source.data));
+    const blanked = blankTopBandRawImage(source, 0);
+    expect(Array.from(blanked.data)).toEqual(Array.from(source.data));
   });
 
-  it("throws on a crop depth that would remove the entire image (or more)", () => {
+  it("throws on a band depth that would cover the entire image (or more)", () => {
     const source = img(3, 5, () => [0, 0, 0, 255]);
-    expect(() => cropTopRawImage(source, 5)).toThrow();
-    expect(() => cropTopRawImage(source, 6)).toThrow();
+    expect(() => blankTopBandRawImage(source, 5)).toThrow();
+    expect(() => blankTopBandRawImage(source, 6)).toThrow();
   });
 });
 
-describe("mergeBroadcastTableRenders — topCropFrac removes the duplicate-banner seam (#256 correction)", () => {
+describe("mergeBroadcastTableRenders — topBandFrac removes the duplicate-banner seam WITHOUT changing dimensions (#256 correction)", () => {
   const BANNER: [number, number, number] = [200, 180, 50];
   const TABLE: [number, number, number] = [20, 100, 120];
 
@@ -214,37 +221,33 @@ describe("mergeBroadcastTableRenders — topCropFrac removes the duplicate-banne
     return false;
   }
 
-  it("WITHOUT a crop (topCropFrac=0, pre-correction default), the banner color survives into the merged table — reproducing the reported bug", () => {
+  it("WITHOUT a band (topBandFrac=0, pre-correction default), the banner color survives into the merged table — reproducing the reported bug", () => {
     const left = renderResult({ image: matWithBanner(4, 20, 20), label: { ...renderResult().label, cards: [] } });
     const right = renderResult({ image: matWithBanner(4, 20, 20), label: { ...renderResult().label, cards: [] } });
     const merged = mergeBroadcastTableRenders(left, right, "x", 0);
     expect(hasColor(merged.image, BANNER)).toBe(true);
   });
 
-  it("WITH topCropFrac covering the banner rows, the banner color is fully gone from the merged table", () => {
+  it("WITH topBandFrac covering the banner rows, the banner color is fully gone from the merged table", () => {
     const left = renderResult({ image: matWithBanner(4, 20, 20), label: { ...renderResult().label, cards: [] } });
     const right = renderResult({ image: matWithBanner(4, 20, 20), label: { ...renderResult().label, cards: [] } });
     const merged = mergeBroadcastTableRenders(left, right, "x", 4 / 20);
     expect(hasColor(merged.image, BANNER)).toBe(false);
-    // every remaining pixel is the table color (or fully transparent black
-    // from stackHorizontally's own canvas init — never the case here since
-    // every source pixel is opaque table/banner color).
     expect(hasColor(merged.image, TABLE)).toBe(true);
   });
 
-  it("shrinks the merged canvas width by 2*cropPx (each mat loses cropPx from its rotated width) and leaves height unchanged", () => {
+  it("leaves the merged canvas dimensions EXACTLY the same regardless of topBandFrac — the whole point of overpainting instead of cropping", () => {
     const left = renderResult({ image: matWithBanner(4, 20, 20) });
     const right = renderResult({ image: matWithBanner(4, 20, 20) });
-    const uncropped = mergeBroadcastTableRenders(left, right, "x", 0);
-    const cropped = mergeBroadcastTableRenders(left, right, "x", 4 / 20);
-    expect(uncropped.image.width).toBe(40); // 2 * matHeight(20)
-    expect(cropped.image.width).toBe(32); // 2 * (matHeight(20) - cropPx(4))
-    expect(cropped.image.height).toBe(uncropped.image.height); // matWidth unaffected
-    expect(cropped.label.width).toBe(32);
-    expect(cropped.label.height).toBe(uncropped.label.height);
+    const withoutBand = mergeBroadcastTableRenders(left, right, "x", 0);
+    const withBand = mergeBroadcastTableRenders(left, right, "x", 4 / 20);
+    expect(withBand.image.width).toBe(withoutBand.image.width); // 2 * matHeight(20) = 40
+    expect(withBand.image.height).toBe(withoutBand.image.height);
+    expect(withBand.label.width).toBe(withoutBand.label.width);
+    expect(withBand.label.height).toBe(withoutBand.label.height);
   });
 
-  it("shifts every card quad by the SAME crop amount applied to the pixels, then rotates — a card untouched by the crop keeps its true post-rotation position", () => {
+  it("a card's quad is UNCHANGED by topBandFrac (nothing moved, only background pixels were recolored) — same rotation as the pre-correction signature", () => {
     const card: CompositeCardLabel = {
       printingId: "c",
       corners: [{ x: 1, y: 8 }, { x: 5, y: 8 }, { x: 5, y: 12 }, { x: 1, y: 12 }],
@@ -254,17 +257,14 @@ describe("mergeBroadcastTableRenders — topCropFrac removes the duplicate-banne
     };
     const left = renderResult({ image: matWithBanner(4, 20, 20), label: { ...renderResult().label, cards: [card] } });
     const right = renderResult({ image: matWithBanner(4, 20, 20), label: { ...renderResult().label, cards: [] } });
-    const merged = mergeBroadcastTableRenders(left, right, "x", 4 / 20);
-    // Pre-crop this card would rotate (cw about a 20x20... wait mat is
-    // matWidth=20,matHeight=20 here) via rotateQuad90AboutMat(matWidth=20,
-    // matHeight=16 (cropped)): turn(x,y) = (16 - (y-4), x) — the SAME
-    // uniform upward shift (y -> y-4) applied before the existing cw turn.
-    // (1,8)->y'=4->(12,1); (5,8)->y'=4->(12,5); (5,12)->y'=8->(8,5); (1,12)->y'=8->(8,1)
-    const found = merged.label.cards.find((c) => c.printingId === "c")!;
-    expect(found.corners).toEqual([{ x: 12, y: 1 }, { x: 12, y: 5 }, { x: 8, y: 5 }, { x: 8, y: 1 }]);
+    const withoutBand = mergeBroadcastTableRenders(left, right, "x", 0);
+    const withBand = mergeBroadcastTableRenders(left, right, "x", 4 / 20);
+    const foundWithout = withoutBand.label.cards.find((c) => c.printingId === "c")!;
+    const foundWith = withBand.label.cards.find((c) => c.printingId === "c")!;
+    expect(foundWith.corners).toEqual(foundWithout.corners);
   });
 
-  it("topCropFrac=0 is byte-identical to the pre-correction signature (no behavior change for existing callers)", () => {
+  it("topBandFrac=0 is byte-identical to the pre-correction signature (no behavior change for existing callers)", () => {
     const left = renderResult({ image: matWithBanner(4, 20, 20) });
     const right = renderResult({ image: matWithBanner(4, 20, 20) });
     const withDefault = mergeBroadcastTableRenders(left, right, "x");

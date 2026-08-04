@@ -105,26 +105,32 @@ export const BROADCAST_RIGHT_SEED_OFFSET = 3_000_017;
 const FRAME_BACKGROUND_COLOR: [number, number, number] = [12, 12, 16];
 
 /**
- * Fraction of matHeight cropped from each mat's top edge before the
- * quarter-turn (#256 correction, twoPlayer.ts's mergeBroadcastTableRenders
- * `topCropFrac` — see that function's header for WHY: without it, both
+ * Fraction of matHeight OVERPAINTED (not cropped — dimensions never
+ * change, see twoPlayer.ts's blankTopBandRawImage) from each mat's top
+ * edge before the quarter-turn (#256 correction, mergeBroadcastTableRenders'
+ * `topBandFrac` — see that function's header for WHY: without it, both
  * mats' decorative top-edge banners land adjacent at the table's seam).
+ * An earlier version of this constant fed an ACTUAL crop (shrinking
+ * matHeight) — corrected after re-measuring a real run showed it broke
+ * the merged table's calibrated aspect ratio (table card aspect mean
+ * 0.672 -> 0.577 against a real card's 0.716). Overpainting keeps the
+ * SAME visual fix with zero dimension/aspect side effect.
  *
  * 144/1008 ≈ 0.142857, measured against pipeline/out/zone-reference-
  * playmat.png (1728x1008, the one hardcoded reference playmat this whole
  * pipeline assumes): direct pixel sampling found the "COMBAT CHAIN" banner's
- * gold divider line at y≈138-141px (yFrac≈0.137-0.140) — this crop depth
+ * gold divider line at y≈138-141px (yFrac≈0.137-0.140) — this band depth
  * (y≈144px) sits a few pixels past it, so the banner is fully removed.
  *
  * The OTHER bound — this must stay BELOW the shallowest any real card can
- * ever reach, or the crop would silently chop pixels off a labeled card
- * while its quad still claims full visibility — is enforced by a live
- * test (composites.zones.broadcastTableTopCropSafety.test.ts), which
+ * ever reach, or the overpaint would silently erase pixels of a labeled
+ * card while its quad still claims full visibility — is enforced by a
+ * live test (composites.zones.broadcastTableTopCropSafety.test.ts), which
  * recomputes minReachableCardYFrac() below against the REAL committed
  * zone map + zone-layout-generation.json on every run, not a one-time
  * hand calculation: as of that config (jitterPositionFraction ±0.08,
  * jitterRotationDeg ±5°), the worst case is y≈151.2px (yFrac≈0.150) — an
- * ~7px margin under this crop depth. If either config's jitter/rotation
+ * ~7px margin under this band depth. If either config's jitter/rotation
  * range is ever widened, that test fails loudly instead of silently
  * corrupting labels.
  */
