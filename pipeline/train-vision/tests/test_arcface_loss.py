@@ -71,16 +71,40 @@ def test_arcface_logits_near_pi_boundary_stays_monotonically_harder_not_easier()
 
 
 def test_arcface_head_forward_produces_bounded_cosine_regardless_of_raw_weight_scale():
+    # Seeded: the unseeded version flaked (#251) whenever a random draw put a
+    # TARGET-class cosine below cos(pi - margin), where the easy-margin guard's
+    # fallback (cosine - sin(pi - m) * m) legitimately extends the target logit
+    # below -scale by scale * mm -- the old "<= scale" bound was stale after
+    # the guard fix, not a real violation.
+    torch.manual_seed(4242)
     head = ArcFaceHead(embedding_dim=4, num_classes=3)
     with torch.no_grad():
         head.weight.copy_(torch.randn(3, 4) * 1000.0)  # deliberately huge raw magnitude
     embeddings = torch.nn.functional.normalize(torch.randn(2, 4), dim=1)
     logits = head(embeddings, torch.tensor([0, 1]))
-    # logits = scale * margin-adjusted cosine, and cosine is always in
-    # [-1, 1] once the head L2-normalizes its own weight -- so magnitude is
-    # bounded by the (documented, fixed) scale regardless of how large the
-    # raw weight parameter happens to be.
-    assert torch.all(logits.abs() <= head.scale + 1e-4)
+    # Non-target logits: scale * cosine, |.| <= scale. Target logits: either
+    # scale * cos(theta + m) (|.| <= scale) or, past the guard threshold, the
+    # fallback scale * (cosine - mm) which reaches -scale * (1 + mm). The
+    # correct bound is therefore scale * (1 + mm), regardless of raw weight
+    # magnitude (the head L2-normalizes its own weight).
+    mm = math.sin(math.pi - head.margin) * head.margin
+    assert torch.all(logits.abs() <= head.scale * (1.0 + mm) + 1e-4)
+
+
+def test_arcface_head_fallback_branch_bound_at_extreme_negative_cosine():
+    # Deterministic construction of the exact flake scenario: a target-class
+    # cosine of ~-1 forces the easy-margin fallback, whose logit magnitude
+    # must stay within scale * (1 + mm) but CAN exceed the naive scale bound.
+    head = ArcFaceHead(embedding_dim=4, num_classes=2)
+    with torch.no_grad():
+        head.weight.copy_(torch.tensor([[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0]]))
+    # Embedding exactly opposite class 0's weight vector -> cosine = -1.
+    embeddings = torch.tensor([[-1.0, 0.0, 0.0, 0.0]])
+    logits = head(embeddings, torch.tensor([0]))
+    mm = math.sin(math.pi - head.margin) * head.margin
+    target = logits[0, 0].item()
+    assert target < -head.scale + 1e-4  # exceeds the naive bound...
+    assert abs(target) <= head.scale * (1.0 + mm) + 1e-4  # ...within the true one
 
 
 def test_arcface_head_rejects_zero_or_negative_class_count():
