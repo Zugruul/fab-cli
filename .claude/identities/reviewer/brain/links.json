@@ -14,6 +14,21 @@
     "last": null,
     "weight": 0.5
   },
+  "construction-proof-vs-test-sweep->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "construction-proof-vs-test-sweep->mutation-test-monotonic-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "construction-proof-vs-test-sweep->sweep-formula-domain-numerically": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "decorative-version-constants->execute-load-bearing-mechanism-claims": {
     "fires": 0,
     "last": null,

@@ -29,6 +29,16 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "exact-pixel-counts-need-uniform-fixtures->boundary-convention-before-first-test": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "exact-pixel-counts-need-uniform-fixtures->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "exhaustive-pattern-tables->test-must-falsify": {
     "fires": 6,
     "last": "2026-08-03",
