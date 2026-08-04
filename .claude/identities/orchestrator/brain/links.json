@@ -39,6 +39,11 @@
     "last": null,
     "weight": 0.5
   },
+  "never-pipe-a-gate-exit-code->verify-dont-trust": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "outward-action-blockers-are-one-bucket->briefs-state-conventions-not-file-targets": {
     "fires": 0,
     "last": null,

@@ -9,6 +9,11 @@
     "last": null,
     "weight": 0.5
   },
+  "closed-or-relocated-after-a-fix-by-extraction->mutation-is-the-unit-of-proof": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "compute-edge-frequency-from-config->prefix-swapback-verification": {
     "fires": 0,
     "last": null,
