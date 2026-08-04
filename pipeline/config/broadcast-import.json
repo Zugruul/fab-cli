@@ -1,0 +1,4 @@
+{
+  "_comment": "composites import-captures framing-classification threshold (#256). Measured directly against the real tournament-caps corpus (Calling Edinburgh World Tour stream rig) at import time: full-broadcast frames (chrome + play area) measured aspect ratio (width/height) in [1.745, 1.800] across 32 files; play-area-crop frames (chrome already cropped away) measured aspect ratio in [1.153, 1.189] across 28 files. That is a wide, unambiguous gap (~0.56 wide) between the two clusters, so 1.4 sits comfortably in the middle with large margin on both sides -- not a value tuned to any single file. See src/composites/importCaptures.ts's classifyFraming for the (inclusive-at-threshold) comparison.",
+  "fullBroadcastMinAspectRatio": 1.4
+}
