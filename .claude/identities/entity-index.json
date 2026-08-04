@@ -6466,8 +6466,9 @@
       ]
     },
     "card:eye-of-ophidia": {
-      "anchor": "card-vault/card-eye-of-ophidia-blue",
+      "anchor": null,
       "notes": [
+        ["card-vault", "card-edition-rarity-foiling-identification"],
         ["card-vault", "card-eye-of-ophidia-blue"]
       ]
     },
