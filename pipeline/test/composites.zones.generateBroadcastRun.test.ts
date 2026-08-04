@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { generateBroadcastRun, BROADCAST_LEFT_SEED_OFFSET, BROADCAST_RIGHT_SEED_OFFSET } from "../src/composites/zones/generateBroadcastRun.js";
+import { generateBroadcastRun, buildOccluderImage, BROADCAST_LEFT_SEED_OFFSET, BROADCAST_RIGHT_SEED_OFFSET } from "../src/composites/zones/generateBroadcastRun.js";
 import type { GenerateBroadcastRunInput } from "../src/composites/zones/generateBroadcastRun.js";
 import type { RawCardForSelection } from "../src/composites/zones/semanticSelection.js";
 import type { ZoneMap } from "../src/composites/zones/zoneMap.js";
@@ -149,5 +149,40 @@ describe("generateBroadcastRun", () => {
       expect(n.printingId).not.toBe("__card_back__");
       expect(n.printingId.startsWith("__occluder_")).toBe(false);
     }
+  });
+});
+
+// #256 correction: buildOccluderImage is the extracted, directly-testable
+// dispatch generateBroadcastRun.ts's occluder-image loop calls per spec —
+// pulled out specifically so the REQUIRED hand motion-blur wiring (a real
+// bug class: "the primitive exists but nothing calls it" is invisible to
+// unit tests of the primitive alone) has its own dedicated coverage.
+describe("buildOccluderImage", () => {
+  it("dispatches 'shim' to createStackShimImage", () => {
+    const img = buildOccluderImage({ printingId: "x", kind: "shim", width: 10, height: 14, color: [1, 2, 3] });
+    expect(img.width).toBe(10);
+    expect(img.height).toBe(14);
+    expect(img.data[0]).toBe(1);
+  });
+
+  it("dispatches 'dice' to createDiceImage", () => {
+    const img = buildOccluderImage({ printingId: "x", kind: "dice", width: 20, height: 20, bodyColor: [9, 9, 9], pipColor: [1, 1, 1], face: 1 });
+    expect(img.width).toBe(20);
+    expect(img.data[0]).toBe(9);
+  });
+
+  it("dispatches 'hand' to createHandImage, then applies motion blur with the spec's blurStrength", () => {
+    const noBlur = buildOccluderImage({ printingId: "x", kind: "hand", width: 40, height: 60, skinTone: [180, 120, 90], blurStrength: 0 });
+    const withBlur = buildOccluderImage({ printingId: "x", kind: "hand", width: 40, height: 60, skinTone: [180, 120, 90], blurStrength: 0.7 });
+    // Same skinTone/size, only blurStrength differs — a real blur means
+    // the pixels are NOT byte-identical (this is the exact gap a
+    // "primitive exists but is never called" bug would leave undetected).
+    expect(Array.from(withBlur.data)).not.toEqual(Array.from(noBlur.data));
+  });
+
+  it("blurStrength 0 on a hand produces byte-identical output to the unblurred hand image", () => {
+    const direct = buildOccluderImage({ printingId: "x", kind: "hand", width: 40, height: 60, skinTone: [180, 120, 90], blurStrength: 0 });
+    const again = buildOccluderImage({ printingId: "x", kind: "hand", width: 40, height: 60, skinTone: [180, 120, 90], blurStrength: 0 });
+    expect(Array.from(direct.data)).toEqual(Array.from(again.data));
   });
 });
