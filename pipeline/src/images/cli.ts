@@ -2,7 +2,7 @@
 /**
  * Printing-image dataset builder CLI (SPEC-APP.md §8.7a, APP-025):
  *
- *   tsx src/images/cli.ts [--limit N] [--rps N] [--concurrency N] [--out DIR] [--card-json PATH]
+ *   tsx src/images/cli.ts [--limit N] [--rps N] [--concurrency N] [--out DIR] [--card-json PATH] [--download-failures PATH]
  *
  * Reads the vendored the-fab-cube card.json, extracts one image ref per
  * printing (catalog.ts), and downloads whichever aren't already cached
@@ -10,6 +10,17 @@
  * anything under the cache dir (default pipeline/out/images/, already
  * covered by the repo-root .gitignore's `pipeline/out/` rule — see
  * test/noCommitGuard.test.ts).
+ *
+ * #268: every run OVERWRITES a download-failures manifest (default
+ * pipeline/out/download-failures.json, a sibling of the cache dir — see
+ * `--download-failures`) with exactly this run's `summarizeFailedDownloads`
+ * output (printingId + parsed HTTP status + reason). This never changes
+ * `downloadAll`'s own existing behavior (one bad printing still never
+ * aborts the others) — it's purely an additional, machine-readable record
+ * of WHICH printings permanently failed and why, so `composites generate
+ * --coverage` can exclude them from its eligible pool and report them as
+ * "unavailable upstream" instead of either aborting or silently treating a
+ * missing cache file as an ordinary coverage shortfall.
  */
 import fs from "node:fs";
 import path from "node:path";

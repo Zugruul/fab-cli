@@ -5,20 +5,52 @@
  *
  *   composites generate [--config <composites-generation.json>]
  *                        [--card-json <card.json>] [--images-cache-dir <dir>]
- *                        [--out <dir>] [--seed <n>]
+ *                        [--out <dir>] [--seed <n>] [--composites-per-run <n>]
  *                        [--backgrounds-dir <dir>] [--external-background-probability <p>]
+ *                        [--coverage] [--min-appearances <n>] [--download-failures <path>]
+ *                        [--format png|jpeg] [--jpeg-quality <n>]
  *     Plans + renders one run (paramStream.ts + compositor.ts) from
  *     whichever printing images are ALREADY cached under
  *     --images-cache-dir (APP-025's `images:download` output — this CLI
  *     never triggers a new download itself, a separate concern), and
- *     writes composite PNGs + label JSON + a run manifest atomically
- *     (write.ts) to --out (default pipeline/out/composites/, gitignored).
- *     `--backgrounds-dir`/`--external-background-probability` override the
- *     config file's `backgroundsDir`/`externalBackgroundProbability`
- *     fields, same "explicit override, no silent default" pattern as
- *     `--seed` (#244). When config.backgroundsDir resolves to zero usable
- *     images, this is a LOUD failure (the user explicitly configured it —
- *     see resolveAvailableBackgrounds), never a silent procedural fallback.
+ *     writes composite PNGs (or JPEGs, see --format below) + label JSON +
+ *     a run manifest atomically (write.ts) to --out (default
+ *     pipeline/out/composites/, gitignored). `--backgrounds-dir`/
+ *     `--external-background-probability`/`--composites-per-run` override
+ *     the config file's corresponding fields, same "explicit override, no
+ *     silent default" pattern as `--seed` (#244) — `--composites-per-run`
+ *     exists (#268) because a coverage-sized run over the full 16k-
+ *     printing catalog needs a MUCH larger budget than the committed
+ *     default, without hand-editing the committed config file. When
+ *     config.backgroundsDir resolves to zero usable images, this is a
+ *     LOUD failure (the user explicitly configured it — see
+ *     resolveAvailableBackgrounds), never a silent procedural fallback.
+ *
+ *     `--coverage` (#268) switches card selection from uniform-random
+ *     (sampleWithoutReplacement — probabilistic, coupon-collector) to
+ *     coverage-driven (coverageTracker.ts — always offers the globally
+ *     least-appeared-so-far printing(s) first), so a large-enough
+ *     `--composites-per-run` GUARANTEES every eligible printing reaches
+ *     `--min-appearances` (default 1) placements — see paramStream.ts's
+ *     header for the determinism/draw-shape contract this preserves. Emits
+ *     `<outDir>/coverage-report.json` distinguishing THREE states that
+ *     must never collapse into one number: covered, eligibleButNotPlaced
+ *     (the run's budget fell short — a genuine shortfall, reported, not
+ *     silently hidden), and unavailableUpstream (printings whose image
+ *     download permanently failed — e.g. a real S3 403/404 — read from
+ *     `--download-failures`, images/cli.ts's downloadCommand's manifest,
+ *     default pipeline/out/download-failures.json; a missing manifest just
+ *     means "no failures on record," not an error). Coverage mode is
+ *     ignored (no report emitted) when `--coverage` isn't passed — default
+ *     behavior is byte-identical to pre-#268.
+ *
+ *     `--format jpeg` (#268 "also needed for the real run": PNG at
+ *     1024x1024 is ~2MB, thousands of coverage-run composites don't fit
+ *     comfortably in a typical training-host disk budget; JPEG is ~5x
+ *     smaller and lossless buys nothing for training) writes `.jpg` files
+ *     via `--jpeg-quality` (default 85) instead of `.png` — PNG stays the
+ *     default everywhere, so sample-sheet/QA behavior is unchanged unless
+ *     `--format jpeg` is explicitly passed.
  *
  *   composites import-backgrounds --source <dir> [--out <dir>]
  *     Normalizes a directory of real background/playmat photos (#244,
