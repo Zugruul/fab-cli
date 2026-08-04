@@ -5098,6 +5098,7 @@ _(no notes)_
 - **macos-missing-binary-tests-need-empty-path** — [testing, macos, bash]
 - **metric-honesty-separate-infra-failures** — [metrics, pipelines, testing]
 - **monorepo-cwd-relative-outputs** — [monorepo, gitignore, restructure]
+- **mutation-check-your-own-regression-fix** — [testing, regression, mutation]
 - **named-invariant-tags** — [invariants, comments, discoverability]
 - **never-substitute-npx-for-the-real-gate-script** — [gate, npx, tooling]
 - **new-screen-touch-surface** — [react-native, a11y, i18n, screens]
@@ -6189,6 +6190,7 @@ _(no notes)_
 - **independently-reproduce-regression-catch-proof** — [review, tdd, verification]
 - **isolated-worktree-tdd-proof** — [review, tdd, verification]
 - **label-verification-tiers-in-verdicts** — [review, verification, honesty]
+- **layout-feature-review-checklist** — [review, geometry, datasets]
 - **live-verification-over-fixtures** _(graduated)_ — [review, verification, live-data]
 - **macos-no-timeout-binary** — [macos, bash, tooling]
 - **mutation-test-monotonic-fixtures** — [review, mutation-testing, invariants]
@@ -6240,6 +6242,7 @@ _(no notes)_
 - **verify-red-commit-by-running-it** — [review, tdd]
 - **verify-repo-pollution-claims-empirically** — [review, testing, verification]
 - **verify-self-sufficiency-by-tracing-worked-example** — [review, docs, self-sufficiency]
+- **weak-test-shape-heuristics** — [review, mutation-testing, test-quality]
 - **weight-aggregate-count-errors-differently-than-pinned-citation-errors** — [review, citations, verification]
 
 ## talishar

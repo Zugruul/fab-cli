@@ -84,3 +84,10 @@
 {"note": "every item tier-labeled; the one real-run claim was EXECUTED by reading the output file", "outcome": "useful", "schemaVersion": 1, "slug": "label-verification-tiers-in-verdicts", "task": "252", "ts": "2026-08-04T08:07:58+00:00"}
 {"note": "0.15 threshold sanity-checked against overlapProbability 0.35 \u2014 first useful outcome for this note", "outcome": "useful", "schemaVersion": 1, "slug": "compute-edge-frequency-from-config", "task": "252", "ts": "2026-08-04T08:07:58+00:00"}
 {"note": "PR file list used; no merge-base confusion", "outcome": "useful", "schemaVersion": 1, "slug": "two-dot-diff-merge-base-trap", "task": "252", "ts": "2026-08-04T08:07:59+00:00"}
+{"note": "three mutations executed incl. the one that exposed the vacuous test", "outcome": "useful", "schemaVersion": 1, "slug": "execute-load-bearing-mechanism-claims", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}
+{"note": "found the round-1 MAJOR \u2014 a green regression test with zero discriminating power", "outcome": "useful", "schemaVersion": 1, "slug": "mutation-test-monotonic-fixtures", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}
+{"note": "PR file list used", "outcome": "useful", "schemaVersion": 1, "slug": "two-dot-diff-merge-base-trap", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}
+{"note": "both bumps verified wired+pinned", "outcome": "useful", "schemaVersion": 1, "slug": "decorative-version-constants", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}
+{"note": "every item tiered; demo cross-check EXECUTED tier", "outcome": "useful", "schemaVersion": 1, "slug": "label-verification-tiers-in-verdicts", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}
+{"note": "all six priority questions executed, not just the major", "outcome": "useful", "schemaVersion": 1, "slug": "uniform-rigor-across-findings", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}
+{"note": "no construction-proof decision arose this diff", "outcome": "dead_end", "schemaVersion": 1, "slug": "construction-proof-vs-test-sweep", "task": "253", "ts": "2026-08-04T09:22:37+00:00"}

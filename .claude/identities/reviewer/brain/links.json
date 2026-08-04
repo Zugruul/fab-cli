@@ -99,6 +99,16 @@
     "last": null,
     "weight": 0.5
   },
+  "layout-feature-review-checklist->derived-identifier-collision-checklist": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "layout-feature-review-checklist->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "live-verification-over-fixtures->isolated-worktree-tdd-proof": {
     "fires": 9,
     "last": "2026-08-02",
@@ -242,6 +252,16 @@
   "verify-red-commit-by-running-it->test-double-fidelity-check": {
     "fires": 5,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "weak-test-shape-heuristics->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "weak-test-shape-heuristics->mutation-test-monotonic-fixtures": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   }
 }
