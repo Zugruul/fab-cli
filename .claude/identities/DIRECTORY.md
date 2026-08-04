@@ -5844,6 +5844,7 @@ _(no notes)_
 - **regate-second-merge-on-fresh-main** — [merge, concurrency, gate]
 - **replacement-branch-instead-of-force-push** — [git, permissions, process]
 - **require-independent-verification-when-briefing-knowledge-agents** — [briefing, verification, knowledge-base]
+- **reviewer-fixes-are-claims-to-verify** — [review, briefing, delegation]
 - **route-fixes-back-to-same-reviewer-for-round-2-not-unilateral-judgment** — [review, fix-rounds, orchestration]
 - **schema-driven-shared-tool-extension** — [brains, neural-view, schema, extensibility, shared-tooling]
 - **scope-consent-to-the-specific-action-class-not-blanket-from-earlier-grant** — [permissions, consent, orchestration]

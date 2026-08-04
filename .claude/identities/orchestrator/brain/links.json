@@ -38,5 +38,15 @@
     "fires": 0,
     "last": null,
     "weight": 0.5
+  },
+  "reviewer-fixes-are-claims-to-verify->moment-of-action-enforcement-beats-brief-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reviewer-fixes-are-claims-to-verify->outward-action-blockers-are-one-bucket": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }

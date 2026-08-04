@@ -1831,3 +1831,57 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/preserve-human-facing-artifacts-before-worktree-cleanup
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T07:35:00Z'
+iteration:
+  task: APP-024
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: low
+  summary: Verification-tier labeling proved to be a forcing function on first use
+  detail: The reviewer reported the labels changed the work itself — having to write
+    EXECUTED pushed real gate runs and explicit check-file diffs instead of accepting
+    plausible claims.
+  generalized: Requiring reviewers to label each verification by tier (executed /
+    logic-traced / grepped) upgrades verification behavior, not just report honesty
+    — the label is decided before the work, so it functions as a pre-commitment device.
+  routing:
+    action: brain-note
+    ref: reviewer/label-verification-tiers-in-verdicts
+- category: friction
+  area: testing
+  severity: medium
+  summary: A nondeterministic test in an unrelated package flipped one gate run red
+  detail: A vision-training test failed once on an identical tree and passed on immediate
+    rerun during another task's gate; filed as its own P1. Cost one investigation
+    cycle and would have misattributed blame without the rerun.
+  generalized: Any nondeterministic test in a shared gate poisons every lane's green
+    signal and misattributes blame across tasks; flaky tests found during unrelated
+    gates deserve immediate P1 filing and a fixed seed/tolerance, and an identical-tree
+    rerun is the cheapest flake-vs-regression discriminator.
+  routing:
+    action: backlog
+    ref: fab-cli#251
+- category: worked-well
+  area: briefing
+  severity: low
+  summary: Brief authorized honest divergence and the dev used it correctly against
+    a reviewer ask
+  detail: The reviewer asked for a node:-prefixed import mirroring a test file; the
+    dev verified it would break the RN bundle (Metro), grepped precedent, and shipped
+    the correct bare global with documented reasoning instead of complying literally.
+  generalized: Devs should verify even reviewer-prescribed fixes against the runtime/bundler
+    before complying literally — a review instruction is a claim like any other, and
+    briefs that authorize documented divergence get correct outcomes instead of obedient
+    regressions.
+  routing:
+    action: brain-note
+    ref: orchestrator/reviewer-fixes-are-claims-to-verify
