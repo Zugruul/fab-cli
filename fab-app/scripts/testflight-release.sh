@@ -135,4 +135,16 @@ fi
 
 echo "==> Upload complete. Logs + artifacts: $RUN_DIR"
 echo "==> Checking build visibility in App Store Connect (processing can take several minutes)"
-"${CLI[@]}" verify-build --bundle-id "$BUNDLE_ID" || echo "testflight-release: verification check failed — inspect App Store Connect manually" >&2
+# verify-build's exit code is meaningful, not just an API-reachability check
+# (#257): it only fails here once the build's processingState has actually
+# reached VALID and buildBetaDetail says it's still not visible to testers
+# (e.g. stuck at MISSING_EXPORT_COMPLIANCE) — a genuinely actionable,
+# non-transient problem, never the normal "still processing" state right
+# after upload. That precision is what makes it safe to fail the whole
+# script loudly here instead of the old silent warn-and-continue: the build
+# 1 incident (#257) cost a full debugging cycle specifically because nothing
+# signaled "this needs a human" until someone went looking by hand.
+if ! "${CLI[@]}" verify-build --bundle-id "$BUNDLE_ID"; then
+  echo "testflight-release: upload succeeded, but the build is not visible to testers — inspect App Store Connect (see beta visibility line above)" >&2
+  exit 1
+fi

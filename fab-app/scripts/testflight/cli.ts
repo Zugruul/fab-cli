@@ -15,6 +15,8 @@ import {
   buildExportOptionsPlist,
   redactSecrets,
   signAppStoreConnectJwt,
+  describeBuildVisibility,
+  type BuildBetaDetailAttributes,
 } from './lib';
 
 // Streams stdin line-by-line, redacting + writing each line as soon as it
@@ -146,6 +148,21 @@ async function cmdResolveTeamId(args: string[]): Promise<number> {
   return 0;
 }
 
+// #257 — a build's buildBetaDetail is only meaningful once Apple's binary
+// processing finished (processingState VALID); fetching it earlier just
+// returns the "still processing" default state and adds noise. A fetch
+// failure here is passed through as `null` — describeBuildVisibility
+// treats a missing detail as a problem, never as silent success.
+async function fetchBuildBetaDetail(buildId: string): Promise<BuildBetaDetailAttributes | null> {
+  const res = await ascFetch(`/builds/${buildId}/buildBetaDetail`);
+  if (!res.ok) {
+    console.error(`ASC API /builds/${buildId}/buildBetaDetail lookup failed: ${res.status} ${res.statusText}`);
+    return null;
+  }
+  const body = (await res.json()) as { data: { attributes: BuildBetaDetailAttributes } };
+  return body.data.attributes;
+}
+
 async function cmdVerifyBuild(args: string[]): Promise<number> {
   const { flags } = parseFlags(args);
   const bundleId = flags['bundle-id'] ?? process.env.BUNDLE_ID ?? 'io.fabcollections';
@@ -177,12 +194,29 @@ async function cmdVerifyBuild(args: string[]): Promise<number> {
     console.log('no builds visible yet for this app (processing can take several minutes after upload)');
     return 0;
   }
-  for (const build of buildsBody.data) {
+
+  // Only the most recently uploaded build (index 0, thanks to
+  // sort=-uploadedDate) drives the exit code — older builds are shown for
+  // context only, since a prior build's stuck beta state is no longer
+  // actionable once a newer build has superseded it.
+  let latestBuildIsProblem = false;
+  for (const [index, build] of buildsBody.data.entries()) {
     console.log(
       `build ${build.attributes.version} — ${build.attributes.processingState} — uploaded ${build.attributes.uploadedDate}${build.attributes.expired ? ' (expired)' : ''} — id ${build.id}`,
     );
+    // processingState reaching VALID only means the binary passed Apple's
+    // validation — it says nothing about tester visibility (#257), so that
+    // is the only point at which checking buildBetaDetail is meaningful.
+    if (build.attributes.processingState === 'VALID') {
+      const betaDetail = await fetchBuildBetaDetail(build.id);
+      const { visible, line } = describeBuildVisibility(build.attributes, betaDetail);
+      console.log(line);
+      if (index === 0 && !visible) {
+        latestBuildIsProblem = true;
+      }
+    }
   }
-  return 0;
+  return latestBuildIsProblem ? 1 : 0;
 }
 
 async function cmdEnsureTesterGroup(args: string[]): Promise<number> {
