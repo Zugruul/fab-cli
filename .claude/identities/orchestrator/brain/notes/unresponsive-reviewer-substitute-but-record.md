@@ -1,41 +1,49 @@
 ---
-tags: [review, independence, agents, process, honesty, provenance]
+tags: [review, independence, agents, process, honesty, provenance, message-loss]
 paths: []
-strength: 1
+strength: 2
 source: ""
 confidence: direct
-learned-from: task 256, 2026-08-04
+learned-from: task 256, 2026-08-04 — original note's premise was itself wrong; corrected
 graduated: false
 created: 2026-08-04
 last-touched: 2026-08-04
 ---
 
-# An unresponsive reviewer: substitute, but record the loss of independence
+# A silent reviewer may be a lost message, not a dead agent — verify before substituting
 
-When an assigned reviewer produces no output and doesn't answer a status ping,
-the choice is between an **indefinitely blocked task** and a **review by
-someone already involved in the work**. Both are defensible. What is not
-defensible is letting the second one look like the first.
+When a reviewer produces no output, the tempting inference is "it died, I'll do
+it myself." **Check that inference before acting on it**: agent messages can be
+delayed or lost in delivery, and a completed review can look identical to an
+absent one from the orchestrator's side.
 
-Observed: a reviewer went silent mid-review (no worktree activity for 15+
-minutes, no reply to a ping). The orchestrator completed the review itself —
-but it had relayed findings to the author across three correction rounds, so
-it was not independent in the sense the process intends.
+Worked example (the correction that produced this note): a reviewer showed no
+worktree activity for 15+ minutes and didn't answer a ping. The orchestrator
+declared it unresponsive, performed the review itself, merged, and recorded an
+independence caveat on the PR. The reviewer had in fact **completed a full
+review and sent it** — the message was lost. Its report arrived after the
+merge, with several EXECUTED verifications the orchestrator had not done
+(a mutation-tested safety margin, an end-to-end CLI determinism check) and
+counter-evidence that **corrected one of the orchestrator's own filed claims**.
 
-**What to do:**
-1. **Ping first**, with a deadline implied and with whatever you've already
-   verified attached, so a live-but-slow reviewer doesn't redo your work.
-2. If still silent, **substitute rather than block** — a stalled lane helps
-   nobody.
-3. **Record the substitution and the independence caveat where the approval
-   lives** (the PR comment, not just a chat message). A later reader will
-   otherwise weight it as an independent sign-off, which is the actual harm.
-4. Prefer verifying **properties you did NOT previously discuss with the
-   author** — those are where your involvement biases you least.
+No harm resulted here — the verdicts agreed — but the PR carried a false
+statement that the review was non-independent, and that had to be corrected
+publicly.
 
-The deeper point: an approval's value comes entirely from who gave it and what
-they actually executed. An approval whose provenance is silently weaker than
-it appears is worse than a delayed one, because it spends credibility that was
-never earned.
+**Practice:**
+1. **Ping and wait through at least one more cycle** before concluding an agent
+   is dead. Silence is weak evidence.
+2. Distinguish "no output produced" from "no output received." Check for
+   side-effects the agent would have left (files, runs, git state) — absence of
+   *those* is much stronger evidence than absence of a message.
+3. If you substitute, say **"I have not received a report"**, not "the reviewer
+   stopped responding" — the first is what you actually know.
+4. If the report later arrives, **correct the record where the claim lives**,
+   not only in chat.
+
+Deeper point: an approval's value comes from who gave it and what they
+executed. Misattributing provenance — in either direction — corrupts that,
+and the version that overstates your own contribution is the easier mistake to
+make.
 
 Related: [[state-what-you-did-not-verify]].

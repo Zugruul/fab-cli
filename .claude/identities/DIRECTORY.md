@@ -5871,7 +5871,7 @@ _(no notes)_
 - **template-checker-manifest-pattern** — [brains, validation, templates]
 - **test-minimal-headers-before-spoofing** — [api, http, honesty, pattern]
 - **ttl-equals-poll-interval-is-permanent-miss** — [polling, caching, design]
-- **unresponsive-reviewer-substitute-but-record** — [review, independence, agents, process, honesty, provenance]
+- **unresponsive-reviewer-substitute-but-record** — [review, independence, agents, process, honesty, provenance, message-loss]
 - **user-live-validation-catches-real-bugs** — [process, validation]
 - **verify-dated-sources-supersession** — [brains, ingestion, verification, pattern]
 - **verify-gate-in-genuinely-fresh-worktree-not-dev-agents-own** — [gate, verification, worktree, gitignore]
