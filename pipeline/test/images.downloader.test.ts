@@ -341,3 +341,55 @@ describe("downloadAll — concurrency", () => {
     expect(fetchFn).not.toHaveBeenCalled();
   });
 });
+
+// #256 real-data-run bug: a real broadcast-mode run hit a genuine S3 403
+// for one printing (Helm of the Arknight, AVS003 — downloadAll correctly
+// returns status:"failed" for it, isRetryableDownloadError treats a 403 as
+// permanent), but the CALLER (zones/cli.ts's shared ensureImagesDownloaded)
+// discarded downloadAll's return value entirely — the failure was silently
+// swallowed, and the run crashed much later and more confusingly with a
+// raw sharp "Input file is missing" error instead of a clear message
+// naming the actual failed printing. assertDownloadsSucceeded closes that
+// gap: a loud, actionable error at the download step itself, never a
+// silent partial-failure pass-through.
+describe("assertDownloadsSucceeded", () => {
+  it("does not throw when every outcome succeeded (cached or downloaded)", async () => {
+    const { assertDownloadsSucceeded } = await import("../src/images/downloader.js");
+    expect(() =>
+      assertDownloadsSucceeded([
+        { printingId: "p1", status: "cached", path: "/cache/p1.png", attempts: 0 },
+        { printingId: "p2", status: "downloaded", path: "/cache/p2.png", attempts: 1 },
+      ]),
+    ).not.toThrow();
+  });
+
+  it("throws, naming every failed printingId and its failureReason, when any outcome failed", async () => {
+    const { assertDownloadsSucceeded } = await import("../src/images/downloader.js");
+    expect(() =>
+      assertDownloadsSucceeded([
+        { printingId: "p1", status: "cached", path: "/cache/p1.png", attempts: 0 },
+        { printingId: "p2", status: "failed", path: "/cache/p2.png", attempts: 3, failureReason: "HTTP 403" },
+      ]),
+    ).toThrow(/p2.*HTTP 403/s);
+  });
+
+  it("reports EVERY failed printing, not just the first, when multiple fail", async () => {
+    const { assertDownloadsSucceeded } = await import("../src/images/downloader.js");
+    let thrown: Error | undefined;
+    try {
+      assertDownloadsSucceeded([
+        { printingId: "p1", status: "failed", path: "/cache/p1.png", attempts: 3, failureReason: "HTTP 404" },
+        { printingId: "p2", status: "failed", path: "/cache/p2.png", attempts: 3, failureReason: "HTTP 403" },
+      ]);
+    } catch (err) {
+      thrown = err as Error;
+    }
+    expect(thrown?.message).toMatch(/p1/);
+    expect(thrown?.message).toMatch(/p2/);
+  });
+
+  it("is a no-op (never throws) for an empty outcomes array", async () => {
+    const { assertDownloadsSucceeded } = await import("../src/images/downloader.js");
+    expect(() => assertDownloadsSucceeded([])).not.toThrow();
+  });
+});
