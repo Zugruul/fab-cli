@@ -1714,3 +1714,58 @@ items:
   routing:
     action: brain-note
     ref: reviewer/derived-identifier-collision-checklist
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T06:45:00Z'
+iteration:
+  task: APP-036
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Doc-vs-reality drift caught by diffing docs against the session's own live
+    run logs
+  detail: All three review majors were docs/defaults contradicting what the live runs
+    had just proven (stale key default, false automation claim, 1-of-3 failures documented);
+    the reviewer verified against the actual logs rather than the commit messages.
+  generalized: Tasks debugged across multiple live runs accumulate doc-vs-reality
+    drift; reviews should mechanically diff the last successful run's real parameters
+    against script defaults and docs, and count distinct historical error signatures
+    vs troubleshooting bullets — arithmetic finds the gap.
+  routing:
+    action: brain-note
+    ref: reviewer/default-drift-and-failure-coverage-checks
+- category: friction
+  area: other
+  severity: low
+  summary: Cross-session task resume required re-discovering environment state
+  detail: The parked branch predated dependency and corpus changes on main; the first
+    release attempt failed on missing node_modules bins, and the post-rebase gate
+    failed on a stale install — two avoidable cycles.
+  generalized: Resuming a parked branch after main has moved should start with a dependency
+    refresh (install) and a rebase before the first expensive operation, not after
+    the first failure — staleness failures cost full build cycles on ops tasks.
+  routing:
+    action: brain-note
+    ref: orchestrator/refresh-and-rebase-before-expensive-ops
+- category: worked-well
+  area: other
+  severity: low
+  summary: Orchestrator applied small reviewer-prescribed fixes directly instead of
+    spawning a dev agent
+  detail: Three doc/default edits + device-family + icon fixes were applied directly
+    with the dev identity on a task whose implementation predated the session; a fresh
+    dev agent would have needed the full context transfer for trivial edits.
+  generalized: When a review round yields only small, exactly-prescribed edits on
+    a task with no live dev agent, the orchestrator applying them directly (with proper
+    commit attribution) beats spawning a context-less agent — reserve agent spawns
+    for work needing independent implementation judgment.
+  routing:
+    action: brain-note
+    ref: orchestrator/direct-fixes-when-no-live-dev
