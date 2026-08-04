@@ -24,6 +24,30 @@ export async function encodeRawToPng(img: RawImage): Promise<Buffer> {
     .toBuffer();
 }
 
+/** Default JPEG quality (0-100) when a caller doesn't specify one —
+ * sharp's own default is 80; 85 is a slightly safer starting point for
+ * training composites (a real card's fine print stays legible), still far
+ * smaller than lossless PNG. */
+const DEFAULT_JPEG_QUALITY = 85;
+
+/**
+ * Encodes a raw RGBA buffer to JPEG bytes (#268 "Also needed for the real
+ * run" — a coverage run over the full catalog produces thousands of
+ * composites; PNG at 1024x1024 is ~2MB each and doesn't comfortably fit
+ * alongside the downloaded image cache in the available disk budget. JPEG
+ * is ~5x smaller and lossless buys nothing for training data). Alpha is
+ * flattened onto opaque white first — JPEG has no alpha channel, and every
+ * composite canvas is already fully opaque by the time rendering finishes
+ * (background + cards fill the whole frame), so this is a no-op for real
+ * output, not a lossy compromise.
+ */
+export async function encodeRawToJpeg(img: RawImage, quality: number = DEFAULT_JPEG_QUALITY): Promise<Buffer> {
+  return sharp(Buffer.from(img.data), { raw: { width: img.width, height: img.height, channels: 4 } })
+    .flatten({ background: { r: 255, g: 255, b: 255 } })
+    .jpeg({ quality })
+    .toBuffer();
+}
+
 export interface NormalizedBackground {
   png: Buffer;
   width: number;

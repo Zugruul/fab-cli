@@ -64,11 +64,19 @@ export interface RenderResult {
  * background never needs it (generateBackgroundRaw is a pure function of
  * params.background alone).
  */
+/** #268: output image format — controls only the label's fileName
+ * extension here (compositor.ts never encodes pixels itself, see
+ * imageIO.ts's "the ONLY module that touches sharp" invariant); the
+ * generate.ts/cli.ts caller picks the matching encoder (encodeRawToPng vs
+ * encodeRawToJpeg) so the bytes written to that fileName actually match. */
+export type CompositeImageFormat = "png" | "jpeg";
+
 export function renderComposite(
   params: CompositeParams,
   loadedCards: LoadedCard[],
   minVisibleFraction = 0,
   loadedBackground?: RawImage,
+  imageFormat: CompositeImageFormat = "png",
 ): RenderResult {
   let canvas: RawImage;
   if (params.background.type === "external") {
@@ -192,7 +200,7 @@ export function renderComposite(
 
   const label: CompositeLabel = {
     compositeId: params.compositeId,
-    fileName: `${params.compositeId}.png`,
+    fileName: `${params.compositeId}.${imageFormat === "jpeg" ? "jpg" : "png"}`,
     width: params.width,
     height: params.height,
     backgroundType,

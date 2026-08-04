@@ -10,11 +10,12 @@ import path from "node:path";
 import { planRun } from "./paramStream.js";
 import type { CardImageRef } from "./paramStream.js";
 import { renderComposite } from "./compositor.js";
-import type { LoadedCard, RenderResult } from "./compositor.js";
+import type { LoadedCard, RenderResult, CompositeImageFormat } from "./compositor.js";
 import { buildCompositeManifest } from "./manifest.js";
 import type { CompositeDatasetManifest } from "./manifest.js";
 import type { GeneratorConfig } from "./config.js";
 import type { RawImage } from "./rawImage.js";
+import type { CoverageTracker } from "./coverageTracker.js";
 
 export type LoadImageFn = (imagePath: string) => Promise<RawImage>;
 
@@ -32,6 +33,12 @@ export interface GenerateResult {
  * against `config.backgroundsDir` and loaded through the SAME `getImage`
  * cache as card images — a background reused across many composites in a
  * run is decoded at most once, same discipline as cards.
+ *
+ * `coverageTracker` (#268, optional) is threaded straight into planRun —
+ * see paramStream.ts's doc comment. `imageFormat` (#268, optional, default
+ * "png" — unchanged pre-#268 behavior) only affects each label's fileName
+ * extension here; the caller (composites/cli.ts) is responsible for
+ * picking the matching encoder when it actually writes bytes to that name.
  */
 export async function generateDataset(
   config: GeneratorConfig,
@@ -39,8 +46,10 @@ export async function generateDataset(
   loadImage: LoadImageFn,
   now?: () => string,
   availableBackgrounds: string[] = [],
+  coverageTracker: CoverageTracker | null = null,
+  imageFormat: CompositeImageFormat = "png",
 ): Promise<GenerateResult> {
-  const plans = planRun(config, availableCards, availableBackgrounds);
+  const plans = planRun(config, availableCards, availableBackgrounds, coverageTracker);
 
   const imageCache = new Map<string, RawImage>();
   async function getImage(imagePath: string): Promise<RawImage> {
@@ -69,7 +78,7 @@ export async function generateDataset(
       loadedBackground = await getImage(path.join(config.backgroundsDir, plan.background.fileName));
     }
 
-    composites.push(renderComposite(plan, loadedCards, config.minVisibleFraction, loadedBackground));
+    composites.push(renderComposite(plan, loadedCards, config.minVisibleFraction, loadedBackground, imageFormat));
   }
 
   const manifest = buildCompositeManifest({ config, labels: composites.map((c) => c.label), now });
