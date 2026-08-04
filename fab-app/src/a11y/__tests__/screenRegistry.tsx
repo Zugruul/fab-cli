@@ -33,6 +33,8 @@ import {initialProgressState} from '../../onboarding/progressReducer';
 import {ProvenanceScreen} from '../../screens/ProvenanceScreen';
 import type {ProvenanceState} from '../../provenance';
 import {SmokeScreen} from '../../smokeScreen/SmokeScreen';
+import {BenchmarkScreen} from '../../benchmark/BenchmarkScreen';
+import type {BenchmarkRunResult} from '../../benchmark/types';
 
 // BUG-202-style fixture (same shape ConsentScreen.test.tsx uses) — the
 // exact sizes don't matter here, only that ConsentScreen renders.
@@ -51,6 +53,29 @@ const knowledgePackManifestFixture: KnowledgePackManifest = {
 const consentSizes: ArtifactSizes = deriveArtifactSizes(validModelPackManifest, knowledgePackManifestFixture);
 
 const progressLabels = {'model-pack': 'Model pack', 'knowledge-pack': 'Knowledge pack'} as const;
+
+// APP-024 (#136): a small, complete BenchmarkRunResult fixture — one
+// measured metric left "not-run" deliberately, since that's the honest
+// state a real device run may carry for e.g. peakRamMb (see
+// ../../benchmark/runner.ts).
+const benchmarkRunResultFixture: BenchmarkRunResult = {
+  tier: '1.7B',
+  device: {model: 'iPhone 13 Pro', osVersion: 'iOS 17.5.1'},
+  appVersion: '1.0.0',
+  buildNumber: '42',
+  iterations: 10,
+  startedAt: '2026-08-01T00:00:00.000Z',
+  completedAt: '2026-08-01T00:01:00.000Z',
+  metrics: {
+    decodeTokensPerSec: {status: 'measured', value: 12},
+    prefillTokensPerSec: {status: 'measured', value: 400},
+    ttftWarmMs: {status: 'measured', value: 2000},
+    ttftColdMs: {status: 'measured', value: 6000},
+    queryEmbeddingLatencyMs: {status: 'measured', value: 200},
+    retrievalP95Ms: {status: 'measured', value: 30},
+    peakRamMb: {status: 'not-run', reason: 'no on-device RAM sampler wired'},
+  },
+};
 
 export function fakeLanguageStore(): LanguagePreferenceStore {
   let value: 'system' | Locale = 'system';
@@ -165,6 +190,34 @@ export const SCREENS: ScreenVariant[] = [
     screen: 'SmokeScreen',
     variant: 'default (run-checks-again button)',
     render: locale => renderUnderI18next(locale, <SmokeScreen />),
+  },
+  {
+    screen: 'BenchmarkScreen',
+    variant: 'idle (run control)',
+    render: locale =>
+      renderUnderI18next(
+        locale,
+        <BenchmarkScreen runBenchmark={() => Promise.resolve(benchmarkRunResultFixture)} onExport={() => {}} />,
+      ),
+  },
+  {
+    screen: 'BenchmarkScreen',
+    variant: 'done (result JSON + export control)',
+    render: async locale => {
+      let tree: ReactTestRenderer.ReactTestRenderer;
+      await act(async () => {
+        tree = ReactTestRenderer.create(
+          <I18nextProvider i18n={createI18nInstance(locale)}>
+            <BenchmarkScreen runBenchmark={() => Promise.resolve(benchmarkRunResultFixture)} onExport={() => {}} />
+          </I18nextProvider>,
+        );
+      });
+      await act(async () => {
+        tree!.root.findByProps({testID: 'benchmark-run'}).props.onPress();
+        await Promise.resolve().then(() => Promise.resolve());
+      });
+      return tree!;
+    },
   },
   {
     screen: 'LanguageSwitcher',
