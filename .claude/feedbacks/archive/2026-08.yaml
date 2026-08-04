@@ -2116,3 +2116,151 @@ items:
   routing:
     action: backlog
     ref: fab-cli#260
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T22:15:00Z'
+iteration:
+  task: '258'
+  outcome: merged
+  reviewRounds: 4
+source:
+  role: orchestrator
+  model: claude-opus-5
+items:
+- category: worked-well
+  area: review
+  severity: high
+  summary: Driving the artifact rather than reading it found two live defects that
+    the entire test suite, a real-data run, and a code-reading review had all missed
+  detail: A reviewer switched from reading code and tests to actually operating the
+    tool — real pointer events in a browser, real staged filesystem state — and found
+    two independent defects in one session. One was a primary user interaction that
+    had never worked at all; the other was a live security bypass of a fix shipped
+    specifically to close that bug class. Neither was reachable by the existing tests,
+    because the tests' SHAPE could not express the dimension each bug lived in.
+  generalized: Tests and reviews verify along the axis they are written in; a defect
+    living on a different axis is invisible to them no matter how rigorous they are.
+    Before accepting a verification, ask what DIMENSION it operates in versus what
+    dimensions the failure could occupy — interface used (HTTP vs real pointer), data
+    form (string payload vs real filesystem state), direction (outbound vs inbound).
+    Driving the artifact the way its actual user will is a distinct verification mode,
+    not a redundant one.
+  routing:
+    action: brain-note
+    ref: reviewer/verification-has-an-axis
+- category: incident
+  area: review
+  severity: high
+  summary: A primary user interaction shipped completely non-functional and survived
+    a full-suite pass, a real-data run, and an adversarial review
+  detail: 'The core action — click to place a card''s corners — was gated on a counter
+    being greater than zero, which is false on the first click, so it did nothing
+    at all via mouse. It survived because every verification to that point drove the
+    tool over its HTTP API: the unit suite, the author''s own end-to-end run over
+    real user data, and the first review round. The one interface a human would actually
+    use was the only one never exercised.'
+  generalized: A tool's primary interaction can be completely dead while every automated
+    check passes, if all checks reach the system through a different interface than
+    the human does. An end-to-end run that bypasses the real entry point is not end-to-end.
+    Any deliverable with a human-facing interaction surface needs at least one verification
+    through that exact surface before it is called done.
+  routing:
+    action: brain-note
+    ref: dev/human-surface-needs-human-surface-verification
+- category: worked-well
+  area: review
+  severity: high
+  summary: Four review rounds each found a real exploitable defect one sub-case deeper
+    than the last, because each round probed the new fix's own shape
+  detail: Round one found the top-level flaw; each subsequent round tested what the
+    previous FIX invited rather than only re-running the prior exploit. Every round's
+    fix genuinely closed its finding, and the next finding lived inside that fix's
+    own implementation shape. All four were reproduced live before being reported.
+  generalized: After a fix lands, re-running the original exploit proves only that
+    the original exploit is dead. The higher-yield question is what the FIX's own
+    shape now invites — a check that resolves paths invites resolution failures; a
+    check that walks a chain invites loops and caps. Budget review rounds for probing
+    the fix, not just confirming it, and treat 'the failure mode moved' as the default
+    expectation rather than 'the class is closed'.
+  routing:
+    action: brain-note
+    ref: reviewer/regression-tests-need-the-real-substrate
+- category: incident
+  area: review
+  severity: medium
+  summary: The same defect recurred three times in one task as variations on treating
+    unresolvable input as safe input
+  detail: A lexical path check could not see the filesystem and its silence was read
+    as safety. A resolution call that failed on a dangling link was read as 'nothing
+    is here' rather than 'something is here pointing elsewhere'. Earlier in the same
+    task, absence of outbound network calls was read as the component being unreachable.
+    Each individual check was correct at what it measured.
+  generalized: 'A large family of security and correctness defects share one shape:
+    a check that cannot observe a condition, whose silence is interpreted as the condition
+    being absent. When writing or reviewing a guard, state explicitly what it CANNOT
+    observe, and make unresolvable or unknown input fail closed rather than pass.
+    ''Could not determine'' must never be encoded as ''safe''.'
+  routing:
+    action: brain-note
+    ref: dev/cannot-determine-is-not-safe
+- category: worked-well
+  area: briefing
+  severity: medium
+  summary: Requiring a real-artifact test rather than a same-shaped test prevented
+    a security fix from shipping with a test that could not detect its own bug
+  detail: A defect only reachable through real filesystem state was accompanied by
+    an instruction that its regression test must stage the real artifact rather than
+    a same-shaped payload. The prior round's tests had all been payload-shaped, which
+    is precisely why they could not see the bug. The instruction was then applied
+    unprompted by the author to a further sub-case.
+  generalized: A regression test must be able to reproduce the bug's actual mechanism,
+    not merely resemble its inputs. When a defect lives in a substrate the existing
+    tests only simulate, mandate that its test use the real substrate — otherwise
+    the test asserts exactly the thing the bug already evades, and passes forever
+    while the bug lives.
+  routing:
+    action: brain-note
+    ref: reviewer/regression-tests-need-the-real-substrate
+- category: worked-well
+  area: brains
+  severity: medium
+  summary: An author gave an honest accounting of a process lapse and refused to fabricate
+    history to conceal it
+  detail: Asked to explain a test-first-discipline history that did not show the expected
+    shape, the author gave a precise per-module breakdown of where the discipline
+    was and was not followed, named the actual lapse, and explicitly declined to rewrite
+    history to look compliant — offering instead to let the correction stand as the
+    record. Compensating evidence was then produced by other means and independently
+    confirmed.
+  generalized: When process discipline is questioned, an accurate account of a lapse
+    is far more valuable than a clean-looking record, and asking for the explanation
+    while explicitly forbidding history rewriting is what makes honesty the low-cost
+    option. Where the original signal is unrecoverable, accept equivalent evidence
+    obtained another way rather than pressuring for a reconstruction that would be
+    fiction.
+  routing:
+    action: brain-note
+    ref: dev/state-what-you-did-not-verify
+- category: friction
+  area: testing
+  severity: high
+  summary: A stale build cache made the shared gate fabricate failures that exactly
+    mimicked already-reverted code
+  detail: After local experimental edits were reverted and verified byte-identical
+    to the committed state, the full gate reported failures matching the reverted
+    edits, while running the same tests through a different entry point was consistently
+    green. The failure count varied between identical-tree runs. Clearing the build
+    caches produced repeated green runs. This is the inverse of a known tooling issue
+    that hides real failures.
+  generalized: 'A gate that fabricates failures is more dangerous than one that hides
+    them: a hidden failure eventually resurfaces, but an invented one can make correct
+    code look broken and pressure an author into ''fixing'' working code — or into
+    believing a critical invariant regressed. Two discriminators are cheap and decisive:
+    a failure count that VARIES across identical-tree runs indicates nondeterminism
+    rather than regression, and disagreement between two entry paths on the same tree
+    points at caching rather than code. Gate tooling should clear its own caches so
+    its verdict never depends on the runner remembering a manual precondition.'
+  routing:
+    action: brain-note
+    ref: orchestrator/gate-can-fabricate-failures

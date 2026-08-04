@@ -169,6 +169,16 @@
     "last": null,
     "weight": 0.5
   },
+  "regression-tests-need-the-real-substrate->mutation-is-the-unit-of-proof": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "regression-tests-need-the-real-substrate->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "reproduce-dont-trust-the-shim->verify-claimed-language-semantics": {
     "fires": 4,
     "last": "2026-07-18",
@@ -220,6 +230,16 @@
     "weight": 0.5
   },
   "uniform-rigor-across-findings->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "verification-has-an-axis->claim-versus-wiring-defects": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "verification-has-an-axis->state-what-you-did-not-verify": {
     "fires": 0,
     "last": null,
     "weight": 0.5

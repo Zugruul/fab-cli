@@ -29,6 +29,11 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "cannot-determine-is-not-safe->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "exact-pixel-counts-need-uniform-fixtures->boundary-convention-before-first-test": {
     "fires": 0,
     "last": null,
@@ -47,6 +52,11 @@
   "git-remote-repair-set-url-or-add->shell-test-vitest-path-shims": {
     "fires": 4,
     "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "human-surface-needs-human-surface-verification->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "macos-missing-binary-tests-need-empty-path->shell-test-vitest-path-shims": {
