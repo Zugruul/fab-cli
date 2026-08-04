@@ -28,5 +28,15 @@
     "fires": 0,
     "last": null,
     "weight": 0.5
+  },
+  "outward-action-blockers-are-one-bucket->briefs-state-conventions-not-file-targets": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "outward-action-blockers-are-one-bucket->completion-report-is-part-of-done": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }

@@ -44,6 +44,16 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "no-guard-code-is-an-unstated-invariant->adversarial-fixture-orderings-for-invariants": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "no-guard-code-is-an-unstated-invariant->boundary-convention-before-first-test": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "per-item-loop-three-default-cases->bash-if-guard-disables-errexit-in-function": {
     "fires": 4,
     "last": "2026-08-03",
@@ -82,6 +92,16 @@
   "regex-fix-scan-whole-file->scoped-green-verification": {
     "fires": 4,
     "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "run-the-real-thing-past-green-tests->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "run-the-real-thing-past-green-tests->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "scoped-green-verification->pricing-cache-contract": {

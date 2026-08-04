@@ -57,3 +57,9 @@
 {"note": "mutation kill independently re-executed in round 2", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
 {"note": "no config shopping occurred", "outcome": "dead_end", "schemaVersion": 1, "slug": "swept-configs-need-tracked-negatives", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
 {"note": "no edge-case excuses arose", "outcome": "dead_end", "schemaVersion": 1, "slug": "compute-edge-frequency-from-config", "task": "142", "ts": "2026-08-03T22:58:00+00:00"}
+{"note": "reproduced the basename-collision corruption live; verified shipping-mode zero-bytes refusal live", "outcome": "useful", "schemaVersion": 1, "slug": "execute-load-bearing-mechanism-claims", "task": "141", "ts": "2026-08-04T00:05:02+00:00"}
+{"note": "vision-branch deletion mutation proved 55 green tests never exercised it", "outcome": "useful", "schemaVersion": 1, "slug": "mutation-test-monotonic-fixtures", "task": "141", "ts": "2026-08-04T00:05:02+00:00"}
+{"note": "round 2 re-executed EVERY finding incl. the minor --tier path, not just the majors", "outcome": "useful", "schemaVersion": 1, "slug": "uniform-rigor-across-findings", "task": "141", "ts": "2026-08-04T00:05:02+00:00"}
+{"note": "line-by-line AC diff in both rounds; endorsed the single deferred leg as correctly-reasoned", "outcome": "useful", "schemaVersion": 1, "slug": "diff-deferred-scope-against-primary-ac", "task": "141", "ts": "2026-08-04T00:05:02+00:00"}
+{"note": "shipping-mode/dry-run/draft noun sweep clean; caught the unsafe README naming claim", "outcome": "useful", "schemaVersion": 1, "slug": "grep-central-nouns-across-pr", "task": "141", "ts": "2026-08-04T00:05:02+00:00"}
+{"note": "both kill proofs independently re-executed rather than trusted", "outcome": "useful", "schemaVersion": 1, "slug": "prefix-swapback-verification", "task": "141", "ts": "2026-08-04T00:05:02+00:00"}
