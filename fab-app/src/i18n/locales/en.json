@@ -63,5 +63,14 @@
       "ok": "OK",
       "error": "ERROR"
     }
+  },
+  "benchmark": {
+    "title": "On-device benchmark",
+    "run": "Run benchmark",
+    "running": "Running…",
+    "done": "Done",
+    "error": "Error: {{message}}",
+    "export": "Export result",
+    "deviceRunNote": "Recorded targets are measured on the physical floor devices via the APP-036 TestFlight pipeline (SPEC-APP.md §8.6); this screen runs the protocol with whatever clients are wired in."
   }
 }

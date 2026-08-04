@@ -8,6 +8,7 @@ import { DeltaPackManifestSchema, type DeltaPackManifest } from "./deltaPack.js"
 import { RevocationListSchema, type RevocationList } from "./revocationList.js";
 import { ConfidenceSchema, type Confidence } from "./confidence.js";
 import { EvalScoresSchema, type EvalScores } from "./evalScores.js";
+import { BenchmarkResultSchema, type BenchmarkResult } from "./benchmarkResults.js";
 import { validate, type ValidationResult } from "./validate.js";
 
 export function validateCorpusSnapshotManifest(
@@ -42,6 +43,10 @@ export function validateEvalScores(input: unknown): ValidationResult<EvalScores>
   return validate(EvalScoresSchema, input);
 }
 
+export function validateBenchmarkResult(input: unknown): ValidationResult<BenchmarkResult> {
+  return validate(BenchmarkResultSchema, input);
+}
+
 export * from "./corpusSnapshot.js";
 export * from "./modelPack.js";
 export * from "./knowledgePack.js";
@@ -49,5 +54,6 @@ export * from "./deltaPack.js";
 export * from "./revocationList.js";
 export * from "./confidence.js";
 export * from "./evalScores.js";
+export * from "./benchmarkResults.js";
 export * from "./validate.js";
 export * from "./fixtures.js";

@@ -1,8 +1,13 @@
 import { z } from "zod";
 import { EvalScoresSchema } from "./evalScores.js";
+import { ModelPackTierSchema } from "./tiers.js";
+import { BenchmarkResultSchema } from "./benchmarkResults.js";
 
-/** SPEC-APP.md §14: the two shipped model tiers (1.7B on ≥6GB RAM, 0.6B otherwise). */
-export const ModelPackTierSchema = z.enum(["1.7B", "0.6B"]);
+// Re-exported from ./tiers.js (moved there so benchmarkResults.ts can
+// import the tier enum without a modelPack.ts <-> benchmarkResults.ts
+// import cycle — see tiers.ts's doc comment). Kept here too so no existing
+// `import { ModelPackTierSchema } from "./modelPack.js"` breaks.
+export { ModelPackTierSchema };
 export type ModelPackTier = z.infer<typeof ModelPackTierSchema>;
 
 const SHA256_RE = /^[0-9a-f]{64}$/i;
@@ -51,7 +56,7 @@ export type ModelPackArtifact = z.infer<typeof ModelPackArtifactSchema>;
  * compatibility fields: embedder version ↔ index version, model ↔ app
  * min-version).
  */
-export const ModelPackManifestSchema = z.object({
+const ModelPackManifestShape = z.object({
   schemaVersion: z.string().min(1),
   tier: ModelPackTierSchema,
   artifacts: z.array(ModelPackArtifactSchema),
@@ -74,5 +79,21 @@ export const ModelPackManifestSchema = z.object({
    * suites present, no duplicates, no zero-item vacuous suite).
    */
   evalScores: EvalScoresSchema,
+  /** On-device benchmark protocol results (SPEC-APP.md §8.6/§10.2/§14;
+   * APP-024 issue #136) — the "release-manifest integration" point.
+   * OPTIONAL, unlike evalScores: see benchmarkResults.ts's doc comment for
+   * why this manifest must keep validating before a real device run
+   * exists. */
+  benchmarkResults: BenchmarkResultSchema.optional(),
 });
-export type ModelPackManifest = z.infer<typeof ModelPackManifestSchema>;
+
+export const ModelPackManifestSchema = ModelPackManifestShape.superRefine((manifest, ctx) => {
+  if (manifest.benchmarkResults && manifest.benchmarkResults.tier !== manifest.tier) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ["benchmarkResults", "tier"],
+      message: `benchmarkResults.tier ("${manifest.benchmarkResults.tier}") must match the model pack's own tier ("${manifest.tier}") — a device run recorded for one tier cannot be attached to a different tier's manifest`,
+    });
+  }
+});
+export type ModelPackManifest = z.infer<typeof ModelPackManifestShape>;

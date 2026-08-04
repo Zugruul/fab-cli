@@ -12,6 +12,7 @@ import type { DeltaPackManifest } from "./deltaPack.js";
 import type { RevocationList } from "./revocationList.js";
 import type { Confidence } from "./confidence.js";
 import { EVAL_SUITE_IDS, type EvalScores } from "./evalScores.js";
+import type { BenchmarkResult } from "./benchmarkResults.js";
 
 // --- Corpus snapshot manifest ---------------------------------------------
 
@@ -137,6 +138,71 @@ export const invalidModelPackManifestMissingLicenseId: unknown = {
 export const invalidModelPackManifestBadLicenseId: unknown = {
   ...validModelPackManifest,
   artifacts: [{ ...validModelPackManifest.artifacts[0], licenseId: "TODO" }],
+};
+
+// --- Benchmark results (SPEC-APP.md §8.6/§10.2/§14; APP-024 issue #136) ----
+
+export const validBenchmarkResult: BenchmarkResult = {
+  schemaVersion: "0.1.0",
+  tier: "1.7B",
+  device: { model: "iPhone 13 Pro", osVersion: "iOS 17.5.1" },
+  appVersion: "1.0.0",
+  buildNumber: "42",
+  iterations: 30,
+  startedAt: "2026-08-01T10:00:00.000Z",
+  completedAt: "2026-08-01T10:04:12.000Z",
+  metrics: {
+    decodeTokensPerSec: { status: "measured", value: 12.4 },
+    prefillTokensPerSec: { status: "measured", value: 340.2 },
+    ttftWarmMs: { status: "measured", value: 2100 },
+    ttftColdMs: { status: "measured", value: 6800 },
+    queryEmbeddingLatencyMs: { status: "measured", value: 180 },
+    retrievalP95Ms: { status: "measured", value: 38 },
+    peakRamMb: {
+      status: "not-run",
+      reason: "no on-device RAM sampler wired yet — see fab-app/src/benchmark/runner.ts",
+    },
+  },
+  fallbackLadderDecision: {
+    targetsMet: true,
+    unmetMetrics: [],
+    notes: "all measured §14 targets met for the 1.7B tier on iPhone 13 Pro; peakRamMb not judged (not-run)",
+  },
+};
+
+/** Demonstrates the §8.6 "recorded in the release manifest" integration
+ * point — validModelPackManifest is still valid WITHOUT this field (see
+ * modelPack.ts's doc comment on why it's optional). */
+export const validModelPackManifestWithBenchmarkResults: ModelPackManifest = {
+  ...validModelPackManifest,
+  benchmarkResults: validBenchmarkResult,
+};
+
+/** Invalid: targetsMet is false but no stepApplied is recorded — §10.2
+ * never ships a missed target without recording which fallback-ladder
+ * step was applied. */
+export const invalidBenchmarkResultMissingStepWhenUnmet: unknown = {
+  ...validBenchmarkResult,
+  fallbackLadderDecision: { targetsMet: false, unmetMetrics: ["ttftWarmMs"], notes: "warm TTFT missed target" },
+};
+
+/** Invalid: targetsMet is true but a stepApplied is recorded anyway — no
+ * fallback-ladder step was needed. */
+export const invalidBenchmarkResultStepPresentWhenMet: unknown = {
+  ...validBenchmarkResult,
+  fallbackLadderDecision: {
+    targetsMet: true,
+    stepApplied: "reduced-retrieval-budget",
+    unmetMetrics: [],
+    notes: "x",
+  },
+};
+
+/** Invalid: completedAt is before startedAt. */
+export const invalidBenchmarkResultCompletedBeforeStarted: unknown = {
+  ...validBenchmarkResult,
+  startedAt: "2026-08-01T10:04:12.000Z",
+  completedAt: "2026-08-01T10:00:00.000Z",
 };
 
 // --- Knowledge pack manifest -------------------------------------------------
