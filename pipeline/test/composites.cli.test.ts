@@ -323,6 +323,28 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
     ]);
   });
 
+  it("--coverage ignores a STALE download-failures entry for a printing that IS actually cached — never double-counted as unavailableUpstream", async () => {
+    const failuresPath = path.join(tmpDir, "download-failures-stale.json");
+    // printing-a is cached in beforeEach — this manifest is stale (e.g. a
+    // failed attempt from an earlier run that later succeeded).
+    fs.writeFileSync(failuresPath, JSON.stringify([{ printingId: "printing-a", httpStatus: 403, reason: "stale" }]));
+
+    const outDir = path.join(tmpDir, "out-coverage-stale");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--composites-per-run", "10",
+      "--download-failures", failuresPath,
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalEligible).toBe(2); // printing-a still counted as eligible
+    expect(report.unavailableUpstream).toEqual([]);
+  });
+
   it("--format jpeg writes .jpg composite files and no coverage-report.json when --coverage is not passed", async () => {
     const outDir = path.join(tmpDir, "out-jpeg");
     const exitCode = await generateCommand([
