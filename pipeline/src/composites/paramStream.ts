@@ -18,10 +18,17 @@
  *   2. that many distinct cards, sampled without replacement (reusing
  *      behavior/rng.ts's sampleWithoutReplacement)
  *   3. background type index, colorA (3 draws), colorB (3 draws),
- *      angleDeg, noiseSeed
- *   4. lighting brightnessDelta, contrastDelta (once per composite, a
+ *      angleDeg, noiseSeed — ALWAYS drawn (procedural background params),
+ *      even on a composite that ends up using an external background
+ *      instead (#244) — same "always draw, maybe discard" discipline as
+ *      the per-card position draws below, so a backgroundsDir/
+ *      externalBackgroundProbability config change never reshuffles any
+ *      other draw's position
+ *   4. external-background roll + index draw (#244) — ALWAYS drawn too,
+ *      regardless of whether any backgrounds are configured/available
+ *   5. lighting brightnessDelta, contrastDelta (once per composite, a
  *      scene-wide adjustment)
- *   5. per card, in order: rotationDeg, scale, a FRESH position
+ *   6. per card, in order: rotationDeg, scale, a FRESH position
  *      (centerXFrac, centerYFrac) always drawn (even when about to be
  *      discarded in favor of an overlap position) so the stream's shape
  *      doesn't depend on which branch downstream config knobs select,
@@ -53,13 +60,33 @@ export interface CardPlacement {
   tags: QuadTag[];
 }
 
-export interface BackgroundParams {
+export interface ProceduralBackgroundParams {
   type: BackgroundType;
   colorA: [number, number, number];
   colorB: [number, number, number];
   angleDeg: number;
   noiseSeed: number;
 }
+
+/** A real external background photo (#244), selected from the sorted
+ * `availableBackgrounds` list passed to planRun. `fileName` is the file
+ * name WITHIN config.backgroundsDir only — never a full path, since this
+ * module stays pure (resolving it to a real file is generate.ts's job, an
+ * I/O boundary concern). `contentHash` is simply fileName's stem: the
+ * importer (importBackgrounds.ts) names every file `<hash16>.<ext>`, so
+ * this is a pure string derivation, not a re-hash. */
+export interface ExternalBackgroundParams {
+  type: "external";
+  fileName: string;
+  contentHash: string;
+}
+
+/** Reuses the existing `type` field as the discriminant (BackgroundType's
+ * 4 procedural values, or the literal "external") rather than adding a
+ * new `kind` field — keeps every pre-#244 procedural background literal
+ * (e.g. `{ type: "solid", colorA, colorB, angleDeg, noiseSeed }`)
+ * structurally valid with no changes. */
+export type BackgroundParams = ProceduralBackgroundParams | ExternalBackgroundParams;
 
 export interface LightingParams {
   brightnessDelta: number;
@@ -91,19 +118,35 @@ function planOneComposite(
   compositeId: string,
   config: GeneratorConfig,
   availableCards: CardImageRef[],
+  availableBackgrounds: string[],
   rng: () => number,
 ): CompositeParams {
   const count = Math.min(availableCards.length, Math.max(1, intInRange(rng, config.cardsPerComposite)));
   const chosen = sampleWithoutReplacement(availableCards, count, rng);
 
+  // Procedural background params: ALWAYS drawn (see this module's header),
+  // even when this composite ends up selecting an external background
+  // below instead.
   const backgroundTypeIndex = Math.floor(rng() * config.backgroundTypes.length);
-  const background: BackgroundParams = {
-    type: config.backgroundTypes[backgroundTypeIndex],
-    colorA: drawColor(rng),
-    colorB: drawColor(rng),
-    angleDeg: rng() * 360,
-    noiseSeed: Math.floor(rng() * 1_000_000_000),
-  };
+  const proceduralType = config.backgroundTypes[backgroundTypeIndex];
+  const colorA = drawColor(rng);
+  const colorB = drawColor(rng);
+  const angleDeg = rng() * 360;
+  const noiseSeed = Math.floor(rng() * 1_000_000_000);
+
+  // External-background selection (#244): also always drawn (2 rng calls),
+  // regardless of config.backgroundsDir / availableBackgrounds — see this
+  // module's header comment.
+  const externalRoll = rng();
+  const externalIndexDraw = rng();
+  const useExternal = availableBackgrounds.length > 0 && externalRoll < config.externalBackgroundProbability;
+
+  const background: BackgroundParams = useExternal
+    ? (() => {
+        const fileName = availableBackgrounds[Math.floor(externalIndexDraw * availableBackgrounds.length)];
+        return { type: "external" as const, fileName, contentHash: fileName.replace(/\.[^.]+$/, "") };
+      })()
+    : { type: proceduralType, colorA, colorB, angleDeg, noiseSeed };
 
   const lighting: LightingParams = {
     brightnessDelta: inRange(rng, config.lighting.brightnessDelta),
@@ -179,8 +222,16 @@ function planOneComposite(
 /** Plans a full run's worth of composites, deterministically from
  * `config.seed`. Throws when `availableCards` is empty — there is nothing
  * to compose (see cli.ts's caller: this reflects "no downloaded card
- * images found", a real precondition failure, never silently skipped). */
-export function planRun(config: GeneratorConfig, availableCards: CardImageRef[]): CompositeParams[] {
+ * images found", a real precondition failure, never silently skipped).
+ *
+ * `availableBackgrounds` (#244) is the SORTED list of external background
+ * file names to draw from — omit (or pass `[]`) for procedural-only runs;
+ * this module never touches fs itself (cli.ts resolves the real list from
+ * config.backgroundsDir). Selection is deterministic given seed + this
+ * list; adding/removing a file changes the stream from that point on for
+ * any composite whose external-index draw lands past the change — that's
+ * an expected consequence of changing the run's inputs, not a bug. */
+export function planRun(config: GeneratorConfig, availableCards: CardImageRef[], availableBackgrounds: string[] = []): CompositeParams[] {
   if (availableCards.length === 0) {
     throw new Error("planRun: no available card images to compose (availableCards is empty)");
   }
@@ -189,7 +240,7 @@ export function planRun(config: GeneratorConfig, availableCards: CardImageRef[])
   const plans: CompositeParams[] = [];
   for (let i = 0; i < config.compositesPerRun; i++) {
     const compositeId = `composite-${String(i).padStart(4, "0")}`;
-    plans.push(planOneComposite(compositeId, config, availableCards, rng));
+    plans.push(planOneComposite(compositeId, config, availableCards, availableBackgrounds, rng));
   }
   return plans;
 }

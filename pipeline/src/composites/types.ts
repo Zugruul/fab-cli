@@ -13,10 +13,19 @@ import type { Quad } from "../benchmark/types.js";
 export const BACKGROUND_TYPES = ["solid", "gradient", "noise", "texture"] as const;
 export type BackgroundType = (typeof BACKGROUND_TYPES)[number];
 
+/** Full background provenance kind recorded per composite (#244): either a
+ * procedural pattern (backed by BackgroundType) or a real external photo.
+ * Distinct from BackgroundType itself since "external" isn't one of the
+ * procedural pattern types config.backgroundTypes draws from — it's a
+ * template-literal union so "procedural:solid" etc. stay tied to
+ * BackgroundType rather than being a free-form string. */
+export type CompositeBackgroundKind = `procedural:${BackgroundType}` | "external";
+
 /** Bumped whenever this label shape changes in a way that would break an
  * existing composite's label file (mirrors benchmark/types.ts's
- * LABEL_SCHEMA_VERSION convention). */
-export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.1.0";
+ * LABEL_SCHEMA_VERSION convention). #244: backgroundType widened from
+ * BackgroundType to CompositeBackgroundKind + backgroundHash added. */
+export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.2.0";
 
 /**
  * One rendered composite's ground truth. `cards[i].corners` are the
@@ -33,7 +42,12 @@ export interface CompositeLabel {
   fileName: string;
   width: number;
   height: number;
-  backgroundType: BackgroundType;
+  backgroundType: CompositeBackgroundKind;
+  /** The external background's content hash (matches its imported file
+   * name's stem — see importBackgrounds.ts), or null for a procedural
+   * background. Exact per-composite provenance: which real photo trained
+   * on which sample (#244). */
+  backgroundHash: string | null;
   /** One entry per pasted card, in paste (z-)order. */
   cards: Quad[];
 }

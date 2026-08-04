@@ -33,7 +33,8 @@ function label(id: string, cardCount = 1): CompositeLabel {
     fileName: `${id}.png`,
     width: 256,
     height: 256,
-    backgroundType: "solid",
+    backgroundType: "procedural:solid",
+    backgroundHash: null,
     cards: Array.from({ length: cardCount }, (_, i) => ({
       printingId: `printing-${i}`,
       corners: [

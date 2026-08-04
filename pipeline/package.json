@@ -24,6 +24,7 @@
     "images:download": "tsx src/images/cli.ts",
     "benchmark:manifest": "tsx src/benchmark/cli.ts",
     "composites:generate": "tsx src/composites/cli.ts generate",
+    "composites:import-backgrounds": "tsx src/composites/cli.ts import-backgrounds",
     "composites:sample-sheet": "tsx src/composites/cli.ts sample-sheet",
     "knowledge:build:full": "tsx src/knowledge/cli.ts full",
     "knowledge:build:delta": "tsx src/knowledge/cli.ts delta",

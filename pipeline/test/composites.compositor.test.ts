@@ -72,7 +72,11 @@ describe("renderComposite — label fidelity (single card)", () => {
     const { label } = renderComposite(p, [card]);
     expect(label.cards[0].printingId).toBe("card-a");
     expect(label.cards[0].tags).toEqual(["sleeved", "glare"]);
-    expect(label.backgroundType).toBe("gradient");
+    // #244: procedural backgrounds are now labeled "procedural:<type>"
+    // (widened from bare BackgroundType) — see composites.compositor.test.ts's
+    // "external background" describe block for the "external" counterpart.
+    expect(label.backgroundType).toBe("procedural:gradient");
+    expect(label.backgroundHash).toBeNull();
     expect(label.width).toBe(100);
     expect(label.height).toBe(100);
     expect(label.compositeId).toBe(p.compositeId);
