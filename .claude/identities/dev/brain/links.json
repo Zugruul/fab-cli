@@ -44,6 +44,11 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "named-invariant-tags->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "no-guard-code-is-an-unstated-invariant->adversarial-fixture-orderings-for-invariants": {
     "fires": 0,
     "last": null,

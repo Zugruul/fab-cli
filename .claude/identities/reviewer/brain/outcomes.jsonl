@@ -68,3 +68,7 @@
 {"note": "AC scoring caught that the doc contradicted the session's own live evidence \u2014 all 3 majors were doc-vs-reality drift", "outcome": "useful", "schemaVersion": 1, "slug": "diff-deferred-scope-against-primary-ac", "task": "144", "ts": "2026-08-04T06:35:09+00:00"}
 {"note": "advisories re-verified in round 2 alongside majors", "outcome": "useful", "schemaVersion": 1, "slug": "uniform-rigor-across-findings", "task": "144", "ts": "2026-08-04T06:35:09+00:00"}
 {"note": "no derived-identifier surface in this diff", "outcome": "dead_end", "schemaVersion": 1, "slug": "derived-identifier-collision-checklist", "task": "144", "ts": "2026-08-04T06:35:09+00:00"}
+{"note": "mutation on paramStream + real EXIF-tagged JPEG through sharp", "outcome": "useful", "schemaVersion": 1, "slug": "execute-load-bearing-mechanism-claims", "task": "244", "ts": "2026-08-04T06:55:06+00:00"}
+{"note": "conditional-draw mutation killed by the shape-invariant test \u2014 proved discriminating power", "outcome": "useful", "schemaVersion": 1, "slug": "mutation-test-monotonic-fixtures", "task": "244", "ts": "2026-08-04T06:55:06+00:00"}
+{"note": "every claim verified by execution incl. the advisory-grade EXIF path", "outcome": "useful", "schemaVersion": 1, "slug": "uniform-rigor-across-findings", "task": "244", "ts": "2026-08-04T06:55:06+00:00"}
+{"note": "confirmed generated-not-derived identifiers; nothing writes via source filenames", "outcome": "useful", "schemaVersion": 1, "slug": "derived-identifier-collision-checklist", "task": "244", "ts": "2026-08-04T06:55:06+00:00"}
