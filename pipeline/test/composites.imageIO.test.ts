@@ -60,6 +60,32 @@ describe("decodeAndNormalizeBackground", () => {
     expect(result.width / result.height).toBeCloseTo(2, 1);
   });
 
+  // PR #246 review round 1: lock down the .rotate() auto-orient call with a
+  // genuinely EXIF-tagged source, not just an untagged one — sharp's
+  // withMetadata({orientation}) writes a real EXIF Orientation tag, and
+  // orientation 6 ("rotate 90° CW to display correctly") means the PHYSICAL
+  // pixel dimensions the auto-orient step produces are swapped relative to
+  // the buffer's own un-rotated width/height.
+  it("auto-orients using EXIF orientation metadata (a 90°-rotation tag swaps physical width/height)", async () => {
+    const file = path.join(tmpDir, "exif-rotated.jpg");
+    await sharp({ create: { width: 20, height: 10, channels: 3, background: { r: 50, g: 60, b: 70 } } })
+      .withMetadata({ orientation: 6 })
+      .jpeg({ quality: 100 })
+      .toFile(file);
+
+    // Sanity check: the tagged source really does carry orientation 6 and
+    // sharp's own metadata() confirms the un-rotated buffer dimensions —
+    // otherwise this test would prove nothing.
+    const rawMeta = await sharp(file).metadata();
+    expect(rawMeta.orientation).toBe(6);
+    expect(rawMeta.width).toBe(20);
+    expect(rawMeta.height).toBe(10);
+
+    const result = await decodeAndNormalizeBackground(file);
+    expect(result.width).toBe(10);
+    expect(result.height).toBe(20);
+  });
+
   it("never upscales a source already under the cap (import-time normalization is downscale-only)", async () => {
     const file = path.join(tmpDir, "small.png");
     await sharp({ create: { width: 4, height: 4, channels: 3, background: { r: 9, g: 9, b: 9 } } }).png().toFile(file);

@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { buildCompositeManifest } from "../src/composites/manifest.js";
 import { sha256 } from "../src/benchmark/manifest.js";
+import { COMPOSITE_LABEL_SCHEMA_VERSION } from "../src/composites/types.js";
 import type { GeneratorConfig } from "../src/composites/config.js";
 import type { CompositeLabel } from "../src/composites/types.js";
 
@@ -91,6 +92,17 @@ describe("buildCompositeManifest", () => {
     const a = buildCompositeManifest({ config: config(), labels: [label("composite-0000")] });
     const b = buildCompositeManifest({ config: config(), labels: [label("composite-0000", 3), label("composite-0001", 2)] });
     expect(a.generatorConfigHash).toBe(b.generatorConfigHash);
+  });
+
+  // PR #246 review round 1: mirrors benchmark/manifest.ts's pattern (see
+  // test/benchmark.manifest.test.ts's "stamps the manifest with schema +
+  // label-schema versions" test) — the label schema version must be
+  // OBSERVABLE in the artifact itself, even for an empty run, so a future
+  // reader can branch on it without recomputing it from label content.
+  it("stamps the manifest with the label schema version, even for an empty run", () => {
+    const manifest = buildCompositeManifest({ config: config(), labels: [] });
+    expect(manifest.labelSchemaVersion).toBe(COMPOSITE_LABEL_SCHEMA_VERSION);
+    expect(manifest.compositeCount).toBe(0);
   });
 
   it("is deterministic given the same config + labels (buildDate aside)", () => {

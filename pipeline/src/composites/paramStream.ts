@@ -74,7 +74,13 @@ export interface ProceduralBackgroundParams {
  * module stays pure (resolving it to a real file is generate.ts's job, an
  * I/O boundary concern). `contentHash` is simply fileName's stem: the
  * importer (importBackgrounds.ts) names every file `<hash16>.<ext>`, so
- * this is a pure string derivation, not a re-hash. */
+ * this is a pure string derivation, not a re-hash.
+ *
+ * PR #246 review round 1: a future per-photo variant (e.g. per-playmat
+ * lighting/tint) belongs as a SIBLING FIELD here (like `contentHash`), not
+ * folded into `type` as an `"external:<variant>"` string — `type` is the
+ * discriminant this whole union switches on, and every place that reads it
+ * (compositor.ts, generate.ts, cli.ts) treats "external" as one fixed case. */
 export interface ExternalBackgroundParams {
   type: "external";
   fileName: string;
