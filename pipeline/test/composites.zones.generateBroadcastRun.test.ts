@@ -100,6 +100,7 @@ function baseInput(overrides: Partial<GenerateBroadcastRunInput> = {}): Generate
     frameWidth: 800,
     frameHeight: 450,
     count: 3,
+    now: () => "2024-01-01T00:00:00.000Z",
     ...overrides,
   };
 }
@@ -140,7 +141,7 @@ describe("generateBroadcastRun", () => {
     const ensureImagesDownloaded = vi.fn(async () => {});
     await generateBroadcastRun(baseInput({ ensureImagesDownloaded }));
     expect(ensureImagesDownloaded).toHaveBeenCalled();
-    const needs = ensureImagesDownloaded.mock.calls[0][0] as { printingId: string }[];
+    const needs = (ensureImagesDownloaded as ReturnType<typeof vi.fn>).mock.calls[0][0] as Array<{ printingId: string }>;
     // never includes the synthetic card-back or occluder printingIds —
     // those are handled separately (cardBackImagePath / procedural
     // generation), not via the catalog download path.
