@@ -1940,3 +1940,58 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/bookkeeping-commits-only-on-main
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T09:40:00Z'
+iteration:
+  task: '253'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: review
+  severity: medium
+  summary: Mutation testing caught a vacuous regression test, and the dev caught their
+    own vacuous first fix the same way
+  detail: The reviewer's mutation survived the suite, exposing a zero-power regression
+    test; the dev's first rewrite was also vacuous for a different reason and they
+    caught it by re-running the mutation against their own fix before pushing.
+  generalized: 'The mutation is the unit of proof for regression tests — both for
+    reviewers choosing targets (weak-shape tells: inequality assertions, retrofitted-after-manual-catch,
+    downstream-of-a-transform) and for authors validating their own fixes; a fix-the-test
+    cycle that ends at suite-green instead of mutation-killed reproduces the original
+    problem.'
+  routing:
+    action: brain-note
+    ref: reviewer/weak-test-shape-heuristics
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: The mandated real-data run caught two bugs structurally invisible to unit
+    fixtures
+  detail: Pool-vs-picks download scope and a duplicate two-player scene only exist
+    at real-catalog scale; one-candidate fixture pools make them tautologically undetectable.
+  generalized: For generators/selectors over large real datasets, a real-data run
+    is a hard deliverable in the definition of done — certain bug classes are structurally
+    invisible to any fixture-sized test, so unit rigor cannot substitute.
+  routing:
+    action: brain-note
+    ref: dev/run-the-real-thing-past-green-tests
+- category: recommendation
+  area: briefing
+  severity: low
+  summary: Regression tests born from manual catches should require a mutation proof
+    in the brief
+  detail: The vacuous test was retrofitted after an eyeball catch — the author never
+    saw it fail. Briefs already mandate red-first for features; the analogous rule
+    for regression locks is kill-first.
+  generalized: 'Brief template rule: any regression test whose bug was caught manually
+    (not by a failing test) must include a demonstrated mutation kill as part of its
+    commit evidence — red-first for features, kill-first for regression locks.'
+  routing:
+    action: brain-note
+    ref: orchestrator/kill-first-for-regression-locks

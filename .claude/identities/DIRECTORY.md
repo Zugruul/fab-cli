@@ -5825,6 +5825,7 @@ _(no notes)_
 - **human-validation-confidence-loop** — [brains, validation, confidence, human-in-the-loop, cache]
 - **inject-protocol-refs-in-delegation** — [brains, delegation, protocol, agents]
 - **inspect-lane-on-silent-idle** — [agents, process, concurrency]
+- **kill-first-for-regression-locks** — [briefing, tdd, regression]
 - **lean-vs-briefed-identity-validation** — [brains, validation, identities, pattern]
 - **lesson-compounding-value** — [process, brains, methodology]
 - **moment-of-action-enforcement-beats-brief-text** — [briefing, tdd, enforcement]

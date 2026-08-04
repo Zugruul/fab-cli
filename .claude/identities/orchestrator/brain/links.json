@@ -19,6 +19,16 @@
     "last": null,
     "weight": 0.5
   },
+  "kill-first-for-regression-locks->moment-of-action-enforcement-beats-brief-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "kill-first-for-regression-locks->reviewer-fixes-are-claims-to-verify": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "moment-of-action-enforcement-beats-brief-text->bookkeeping-commits-only-on-main": {
     "fires": 0,
     "last": null,
