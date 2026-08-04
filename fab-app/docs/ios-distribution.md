@@ -48,7 +48,7 @@ take 10–30 minutes. Subsequent runs are faster (incremental build).
 
 | Var | Required | Default | Notes |
 |---|---|---|---|
-| `ASC_KEY_ID` | yes | `4ZCWK2K2RT` | App Store Connect API key ID |
+| `ASC_KEY_ID` | yes | `K4S3P387H2` | App Store Connect API key ID — must be an **Admin**-role key: the older App Manager-role key (`4ZCWK2K2RT`) is rejected by Xcode cloud signing with "Cloud signing permission error" (see Troubleshooting) |
 | `ASC_ISSUER_ID` | yes | `d65634cb-5a37-4eba-9cba-cbf12d2aec45` | App Store Connect API issuer ID |
 | `ASC_KEY_PATH` | yes | `~/.appstoreconnect/private/AuthKey_$ASC_KEY_ID.p8` | path to the `.p8` private key — **never commit this file** |
 | `ASC_TEAM_ID` | no | auto-resolved | Apple Developer Team ID. **Not optional for signing** — `xcodebuild` has no interactive team picker headlessly and fails archiving ("Signing ... requires a development team") without one, even for a single-team account. The script resolves it automatically from the registered bundle id's `seedId` attribute (App Store Connect API's name for the Team ID) via the same API key, so you normally never need to set this — only override it if auto-resolution picks the wrong team (e.g. the key has access to more than one). |
@@ -68,8 +68,10 @@ ad hoc distribution outside TestFlight. To add a new internal tester:
 
 1. Go to [App Store Connect](https://appstoreconnect.apple.com/) → **My Apps** → **FaB
    Collections** → **TestFlight**.
-2. Under **Internal Testing**, open the testing group (created by this pipeline if it didn't
-   already exist — see below) or create one.
+2. Under **Internal Testing**, open the testing group or create one. (The release script does
+   NOT create it automatically — create it once in the App Store Connect UI, or run the
+   provided `ensure-tester-group` subcommand manually:
+   `node_modules/.bin/tsx scripts/testflight/cli.ts ensure-tester-group`.)
 3. Click **+** next to **Testers** and add the tester by their **Apple ID email address**. They
    must already be a user on the App Store Connect team (internal testers are pulled from your
    team's Users and Access list, up to 100 testers per team) — add them there first
@@ -83,6 +85,31 @@ External testers (not needed for the two floor devices this task targets) go thr
 flow that does require a Beta App Review — out of scope here.
 
 ## Troubleshooting
+
+Three real failures were hit (and fixed) while proving this pipeline end-to-end on
+2026-08-03/04 — each cost a full 10-30 min archive cycle, so check these first:
+
+1. **`Cloud signing permission error` / `No signing certificate "iOS Distribution" found`**
+   (App Store Connect error 90023-adjacent, at export): the API key's role is too low.
+   Xcode's cloud-managed signing requires an **Admin**-role key — an **App Manager** key can
+   create certificates via the plain ASC API but is rejected by the cloud-signing flow.
+   Fix: create an Admin key (a key's role cannot be changed after creation) and set
+   `ASC_KEY_ID` (the default is already the Admin key `K4S3P387H2`).
+2. **`Missing required icon file ... for iPad of exactly '152x152'/'167x167'`** (error 90023,
+   at export): the project targeted iPhone+iPad but shipped no iPad icons. This app is
+   iPhone-only by spec (SPEC-APP.md §14 floor devices), so the fix was
+   `TARGETED_DEVICE_FAMILY = "1"` in both build configs — if you re-add iPad support, you
+   must also add iPad icon sizes.
+3. **`Missing Info.plist value ... CFBundleIconName` + missing 120x120 iPhone icon**
+   (errors 90022/90023, at export): the asset catalog had no icon images at all. Fix: a
+   1024x1024 **opaque** (no alpha) PNG in `AppIcon.appiconset` using Xcode's single-size
+   format — Xcode derives all sizes from it. The current icon is a placeholder pending the
+   end-of-project UI refinement pass.
+
+Note on log redaction: the redaction filter guarantees the key **path** and any minted
+bearer token never appear in logs. The key **ID** and issuer ID do appear in
+`archive.log` (xcodebuild echoes its own flags) — these are not secrets under Apple's
+model (they cannot authenticate without the `.p8` private key).
 
 - **"preflight failed" / missing env var**: one of `ASC_KEY_ID`/`ASC_ISSUER_ID`/`ASC_KEY_PATH`
   isn't set and has no usable default, or the `.p8` file isn't at the resolved path. Set the var

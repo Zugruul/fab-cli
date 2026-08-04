@@ -5,8 +5,10 @@
 // `node_modules/.bin/tsx scripts/testflight/cli.ts <subcommand> ...`. The
 // three subcommands backed by lib.ts (check-env, export-options-plist,
 // redact) are the gate-tested logic (see __tests__/lib.test.ts). verify-build
-// and ensure-tester-group hit the live App Store Connect API and are
-// exercised only by the real release run, never by the jest gate.
+// and ensure-tester-group hit the live App Store Connect API and are never
+// run by the jest gate. verify-build is invoked by the release script's final
+// visibility check; ensure-tester-group is a MANUAL helper (not wired into
+// the release script) for creating the internal-testing group once.
 import { readFileSync, existsSync } from 'node:fs';
 import {
   checkTestFlightEnv,

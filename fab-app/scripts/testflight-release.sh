@@ -32,7 +32,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 APP_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$APP_DIR"
 
-: "${ASC_KEY_ID:=4ZCWK2K2RT}"
+: "${ASC_KEY_ID:=K4S3P387H2}"
 : "${ASC_ISSUER_ID:=d65634cb-5a37-4eba-9cba-cbf12d2aec45}"
 : "${ASC_KEY_PATH:=$HOME/.appstoreconnect/private/AuthKey_${ASC_KEY_ID}.p8}"
 : "${BUNDLE_ID:=io.fabcollections}"
