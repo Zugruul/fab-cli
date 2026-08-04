@@ -14,6 +14,16 @@
     "last": null,
     "weight": 0.5
   },
+  "default-drift-and-failure-coverage-checks->diff-deferred-scope-against-primary-ac": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "default-drift-and-failure-coverage-checks->grep-central-nouns-across-pr": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "derived-identifier-collision-checklist->execute-load-bearing-mechanism-claims": {
     "fires": 0,
     "last": null,
@@ -74,7 +84,22 @@
     "last": null,
     "weight": 0.5
   },
+  "orphaned-subcommands-are-doc-drift->default-drift-and-failure-coverage-checks": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "orphaned-subcommands-are-doc-drift->execute-load-bearing-mechanism-claims": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "prefix-swapback-verification->await-read-write-race-checklist": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "preflight-existence-vs-permission->execute-load-bearing-mechanism-claims": {
     "fires": 0,
     "last": null,
     "weight": 0.5
