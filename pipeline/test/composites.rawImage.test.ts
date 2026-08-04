@@ -6,6 +6,7 @@ import {
   applyBrightnessContrast,
   applySleeve,
   applyGlare,
+  coverFitRawImage,
 } from "../src/composites/rawImage.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 
@@ -161,5 +162,70 @@ describe("applyGlare", () => {
     const img = createSolidImage(4, 1, [100, 100, 100], 0);
     const result = applyGlare(img, 0.5, 0.9, 0.9);
     expect(pixel(result, 3, 0)).toEqual([100, 100, 100, 0]);
+  });
+});
+
+// #244: real background photos are decoded at whatever resolution/aspect
+// the source file has — coverFitRawImage is the deterministic "make it
+// fill the canvas" step at GENERATION time (distinct from importBackgrounds'
+// import-time downscale-only cap). Boundary decision: UPSCALE when the
+// source is smaller than the canvas (never letterbox a synthetic border
+// into a background meant to look real), then always CENTER-crop any
+// overflow — no seeded random crop offset, so this stays a pure function
+// of its inputs (the composite's determinism contract never touches this).
+describe("coverFitRawImage", () => {
+  it("returns an image sized exactly to the target dimensions regardless of source aspect", () => {
+    const img = createSolidImage(10, 10, [10, 20, 30], 255);
+    const result = coverFitRawImage(img, 40, 25);
+    expect(result.width).toBe(40);
+    expect(result.height).toBe(25);
+    expect(result.data.length).toBe(40 * 25 * 4);
+  });
+
+  it("upscales a source image smaller than the target — never letterboxes (fully opaque, no border)", () => {
+    const img = createSolidImage(5, 5, [200, 50, 10], 255);
+    const result = coverFitRawImage(img, 20, 20);
+    for (let y = 0; y < 20; y += 4) {
+      for (let x = 0; x < 20; x += 4) {
+        const [r, g, b, a] = pixel(result, x, y);
+        expect(r).toBeCloseTo(200, -1);
+        expect(g).toBeCloseTo(50, -1);
+        expect(b).toBeCloseTo(10, -1);
+        expect(a).toBe(255);
+      }
+    }
+  });
+
+  it("center-crops a wider-than-target source along the horizontal axis (hand-computed)", () => {
+    // 4-wide x 2-tall image, four distinct solid columns.
+    const cols: [number, number, number, number][] = [
+      [255, 0, 0, 255],
+      [0, 255, 0, 255],
+      [0, 0, 255, 255],
+      [255, 255, 0, 255],
+    ];
+    const img = makeImage(4, 2, (x) => cols[x]);
+    const result = coverFitRawImage(img, 2, 2);
+    expect(result.width).toBe(2);
+    expect(result.height).toBe(2);
+    // scale = max(2/4, 2/2) = 1; offsetX = (4*1 - 2)/2 = 1 -> center columns
+    // 1,2 (green, blue) survive; the outer red/yellow columns are cropped.
+    expect(pixel(result, 0, 0)).toEqual([0, 255, 0, 255]);
+    expect(pixel(result, 1, 0)).toEqual([0, 0, 255, 255]);
+  });
+
+  it("never produces a transparent edge pixel from floating-point overshoot at the source boundary", () => {
+    const img = createSolidImage(3, 3, [77, 88, 99], 255);
+    const result = coverFitRawImage(img, 3, 3);
+    for (let i = 0; i < result.data.length; i += 4) {
+      expect(result.data[i + 3]).toBe(255);
+    }
+  });
+
+  it("is deterministic — same input always produces the same output (no seeded/random crop offset)", () => {
+    const img = createSolidImage(7, 5, [1, 2, 3], 255);
+    const a = coverFitRawImage(img, 30, 17);
+    const b = coverFitRawImage(img, 30, 17);
+    expect(a.data).toEqual(b.data);
   });
 });

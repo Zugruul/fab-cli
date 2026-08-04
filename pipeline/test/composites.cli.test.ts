@@ -6,8 +6,10 @@ import sharp from "sharp";
 import {
   parseGenerateArgs,
   parseSampleSheetArgs,
+  parseImportBackgroundsArgs,
   generateCommand,
   sampleSheetCommand,
+  importBackgroundsCommand,
 } from "../src/composites/cli.js";
 
 describe("parseGenerateArgs", () => {
@@ -33,6 +35,37 @@ describe("parseGenerateArgs", () => {
 
   it("defaults seed to null (no silent override)", () => {
     expect(parseGenerateArgs([]).seed).toBeNull();
+  });
+
+  // #244: CLI overrides for the external-backgrounds config knobs, mirroring
+  // --seed's "explicit override, no silent default" pattern.
+  it("accepts --backgrounds-dir and --external-background-probability overrides", () => {
+    const args = parseGenerateArgs(["--backgrounds-dir", "/tmp/bg", "--external-background-probability", "0.7"]);
+    expect(args.backgroundsDir).toBe("/tmp/bg");
+    expect(args.externalBackgroundProbability).toBe(0.7);
+  });
+
+  it("defaults backgroundsDir/externalBackgroundProbability to 'no CLI override' (config file value stands)", () => {
+    const args = parseGenerateArgs([]);
+    expect(args.backgroundsDir).toBeUndefined();
+    expect(args.externalBackgroundProbability).toBeNull();
+  });
+});
+
+describe("parseImportBackgroundsArgs", () => {
+  it("requires --source", () => {
+    expect(() => parseImportBackgroundsArgs([])).toThrow(/--source/);
+  });
+
+  it("defaults --out under pipeline/out/backgrounds/playmats", () => {
+    const args = parseImportBackgroundsArgs(["--source", "/tmp/src"]);
+    expect(args.sourceDir).toBe("/tmp/src");
+    expect(args.outDir.split(path.sep).slice(-3)).toEqual(["out", "backgrounds", "playmats"]);
+  });
+
+  it("accepts a --out override", () => {
+    const args = parseImportBackgroundsArgs(["--source", "/tmp/src", "--out", "/tmp/out"]);
+    expect(args.outDir).toBe("/tmp/out");
   });
 });
 
@@ -140,5 +173,115 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
     expect(manifestA.composites.map((c: { labelFileHash: string }) => c.labelFileHash)).toEqual(
       manifestB.composites.map((c: { labelFileHash: string }) => c.labelFileHash),
     );
+  });
+
+  // #244: --backgrounds-dir / --external-background-probability wiring.
+  it("uses external backgrounds end to end when --backgrounds-dir + a high probability are configured", async () => {
+    const bgDir = path.join(tmpDir, "backgrounds");
+    fs.mkdirSync(bgDir, { recursive: true });
+    await sharp({ create: { width: 10, height: 10, channels: 3, background: { r: 5, g: 5, b: 200 } } }).png().toFile(path.join(bgDir, "bg1.png"));
+
+    const outDir = path.join(tmpDir, "out-bg");
+    const exitCode = await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--backgrounds-dir", bgDir,
+      "--external-background-probability", "1",
+    ]);
+    expect(exitCode).toBe(0);
+
+    const manifest = JSON.parse(fs.readFileSync(path.join(outDir, "manifest.json"), "utf8"));
+    expect(manifest.compositeCount).toBeGreaterThan(0);
+    for (const entry of manifest.composites) {
+      const label = JSON.parse(fs.readFileSync(path.join(outDir, `${entry.compositeId}.json`), "utf8"));
+      expect(label.backgroundType).toBe("external");
+      expect(label.backgroundHash).not.toBeNull();
+    }
+  });
+
+  it("fails loudly when --backgrounds-dir is set but contains no usable images (the user explicitly configured it — no silent procedural fallback)", async () => {
+    const emptyBgDir = path.join(tmpDir, "empty-backgrounds");
+    fs.mkdirSync(emptyBgDir, { recursive: true });
+
+    await expect(
+      generateCommand([
+        "--config", path.join(tmpDir, "config.json"),
+        "--card-json", path.join(tmpDir, "card.json"),
+        "--images-cache-dir", path.join(tmpDir, "images"),
+        "--out", path.join(tmpDir, "out-empty-bg"),
+        "--backgrounds-dir", emptyBgDir,
+      ]),
+    ).rejects.toThrow(/backgroundsDir/);
+  });
+
+  it("fails loudly when --backgrounds-dir points at a nonexistent directory", async () => {
+    await expect(
+      generateCommand([
+        "--config", path.join(tmpDir, "config.json"),
+        "--card-json", path.join(tmpDir, "card.json"),
+        "--images-cache-dir", path.join(tmpDir, "images"),
+        "--out", path.join(tmpDir, "out-missing-bg"),
+        "--backgrounds-dir", path.join(tmpDir, "does-not-exist"),
+      ]),
+    ).rejects.toThrow(/backgroundsDir/);
+  });
+});
+
+describe("importBackgroundsCommand — real end-to-end (real sharp encode/decode)", () => {
+  let srcDir: string;
+  let outDir: string;
+
+  beforeEach(() => {
+    srcDir = fs.mkdtempSync(path.join(os.tmpdir(), "fab-bg-import-src-"));
+    outDir = path.join(os.tmpdir(), `fab-bg-import-out-${process.pid}-${Date.now()}`);
+  });
+
+  afterEach(() => {
+    fs.rmSync(srcDir, { recursive: true, force: true });
+    fs.rmSync(outDir, { recursive: true, force: true });
+  });
+
+  it("imports jpg + webp real photos, dedupes an exact re-saved duplicate, and skips a non-image file", async () => {
+    await sharp({ create: { width: 30, height: 20, channels: 3, background: { r: 200, g: 30, b: 30 } } })
+      .jpeg({ quality: 100 })
+      .toFile(path.join(srcDir, "mat-a.jpg"));
+    await sharp({ create: { width: 15, height: 40, channels: 3, background: { r: 10, g: 200, b: 10 } } })
+      .webp()
+      .toFile(path.join(srcDir, "mat-b.webp"));
+    // Exact byte-for-byte duplicate under a different name — guaranteed
+    // identical decode, so dedupe is proven without any cross-codec
+    // round-trip risk (see composites.importBackgrounds.test.ts for the
+    // pure-hash-logic dedupe tests).
+    fs.copyFileSync(path.join(srcDir, "mat-a.jpg"), path.join(srcDir, "mat-a-copy.jpg"));
+    fs.writeFileSync(path.join(srcDir, "readme.txt"), "not an image");
+
+    const code = await importBackgroundsCommand(["--source", srcDir, "--out", outDir]);
+    expect(code).toBe(0);
+
+    const files = fs.readdirSync(outDir);
+    expect(files).toHaveLength(2); // mat-a (+ its exact copy, deduped) and mat-b
+    for (const f of files) expect(f).toMatch(/^[0-9a-f]{16}\.png$/);
+  });
+
+  it("does not crash on a corrupt image file — skips it and still imports the good one", async () => {
+    await sharp({ create: { width: 10, height: 10, channels: 3, background: { r: 1, g: 1, b: 1 } } }).png().toFile(path.join(srcDir, "good.png"));
+    fs.writeFileSync(path.join(srcDir, "corrupt.jpg"), Buffer.from("garbage bytes, not a real jpeg"));
+
+    const code = await importBackgroundsCommand(["--source", srcDir, "--out", outDir]);
+    expect(code).toBe(0);
+    expect(fs.readdirSync(outDir)).toHaveLength(1);
+  });
+
+  it("is idempotent — importing the same source dir twice produces the same set of output files", async () => {
+    await sharp({ create: { width: 8, height: 8, channels: 3, background: { r: 3, g: 3, b: 3 } } }).png().toFile(path.join(srcDir, "mat.png"));
+
+    await importBackgroundsCommand(["--source", srcDir, "--out", outDir]);
+    const first = fs.readdirSync(outDir).sort();
+    await importBackgroundsCommand(["--source", srcDir, "--out", outDir]);
+    const second = fs.readdirSync(outDir).sort();
+
+    expect(second).toEqual(first);
   });
 });
