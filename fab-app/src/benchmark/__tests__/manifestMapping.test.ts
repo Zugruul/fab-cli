@@ -46,6 +46,7 @@ describe('toManifestBenchmarkResult', () => {
     }
     expect(outcome.success).toBe(true);
     if (outcome.success) {
+      expect(outcome.manifestRecord.schemaVersion).toBe('0.1.0');
       expect(outcome.manifestRecord.tier).toBe(VALID_RUN_RESULT.tier);
       expect(outcome.manifestRecord.device).toEqual(VALID_RUN_RESULT.device);
       expect(outcome.manifestRecord.appVersion).toBe(

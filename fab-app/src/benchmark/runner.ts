@@ -226,9 +226,20 @@ export class BenchmarkRunner {
     }
     const durations: number[] = [];
     for (let i = 0; i < iterations; i++) {
-      const start = Date.now();
+      // performance.now() (sub-ms resolution), not Date.now() (ms-quantized
+      // — too coarse against APP-033's <50ms p95 target), matching the
+      // timer convention ../retrieval/__tests__/perf.test.ts already uses.
+      // Referenced as the bare global rather than `import { performance }
+      // from "node:perf_hooks"` (that test file's own import): this class
+      // ships in the RN app bundle, and Metro has no Node-core-module
+      // polyfill for "node:perf_hooks" — RN itself sets up a global
+      // `performance.now()` (Libraries/Core/setUpPerformance.js), and
+      // Node (the Jest test runtime) has provided the same global since
+      // v16, so the identical call site is correct and resolvable in both
+      // environments without an import.
+      const start = performance.now();
       await cfg.engine.query(cfg.queries[i % cfg.queries.length]);
-      durations.push(Date.now() - start);
+      durations.push(performance.now() - start);
     }
     return { status: 'measured', value: percentile(durations, 95) };
   }

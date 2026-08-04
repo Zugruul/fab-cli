@@ -123,6 +123,24 @@ describe('BenchmarkRunner', () => {
     expect(client.callCount).toBe(4); // 1 warmup + 3 measured
   });
 
+  it('reports decode as not-run when every measured iteration produces a non-positive duration', async () => {
+    // All-zero durations: the client is genuinely called (so this isn't
+    // "no client injected"), but every duration fails the durationMs > 0
+    // guard, so `rates` stays empty — a distinct not-run path from the
+    // "no client injected" one covered above.
+    const client = new FakeDecodeClient([0, 0, 0, 0], 100);
+    const runner = new BenchmarkRunner({
+      ...BASE_CONFIG,
+      decode: { client, tokenCount: 64 },
+    });
+    const result = await runner.run();
+    expect(result.metrics.decodeTokensPerSec).toEqual({
+      status: 'not-run',
+      reason: 'no measured decode iteration produced a positive duration',
+    });
+    expect(client.callCount).toBe(4); // 1 warmup + 3 measured — genuinely ran
+  });
+
   it('computes prefill tok/s as the MEDIAN (p50) of per-iteration rate, discarding warmup', async () => {
     // warmup 999ms discarded; measured: 400ms, 500ms, 800ms @ 1024 tokens/call
     // -> rates 2560, 2048, 1280 -> median = 2048
@@ -136,6 +154,20 @@ describe('BenchmarkRunner', () => {
       status: 'measured',
       value: 2048,
     });
+  });
+
+  it('reports prefill as not-run when every measured iteration produces a non-positive duration', async () => {
+    const client = new FakePrefillClient([0, 0, 0, 0], 1024);
+    const runner = new BenchmarkRunner({
+      ...BASE_CONFIG,
+      prefill: { client, promptTokenCount: 1024 },
+    });
+    const result = await runner.run();
+    expect(result.metrics.prefillTokensPerSec).toEqual({
+      status: 'not-run',
+      reason: 'no measured prefill iteration produced a positive duration',
+    });
+    expect(client.callCount).toBe(4);
   });
 
   it('computes TTFT warm and cold independently as p95, each with its own injected client', async () => {
@@ -197,6 +229,23 @@ describe('BenchmarkRunner', () => {
     const result = await runner.run();
     expect(result.metrics.peakRamMb).toEqual({ status: 'measured', value: 5 });
     expect(sampler.callCount).toBe(4);
+  });
+
+  it('reports RAM peak as not-run when sampleCount is configured below 1, WITHOUT calling the sampler', async () => {
+    // A misconfigured sampleCount is distinct from "no sampler injected"
+    // (covered below) — the sampler IS present here, but the guard fires
+    // before the sampling loop, so the sampler is never actually called.
+    const sampler = new FakeRamPeakSampler([1]);
+    const runner = new BenchmarkRunner({
+      ...BASE_CONFIG,
+      ramPeak: { sampler, sampleCount: 0 },
+    });
+    const result = await runner.run();
+    expect(result.metrics.peakRamMb).toEqual({
+      status: 'not-run',
+      reason: 'sampleCount must be >= 1 (configured: 0)',
+    });
+    expect(sampler.callCount).toBe(0);
   });
 
   it('reports RAM peak as not-run with a limitation-explaining reason when no sampler is injected', async () => {
