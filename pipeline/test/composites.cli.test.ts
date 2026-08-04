@@ -50,6 +50,33 @@ describe("parseGenerateArgs", () => {
     expect(args.backgroundsDir).toBeUndefined();
     expect(args.externalBackgroundProbability).toBeNull();
   });
+
+  // #268: coverage mode + composites-per-run override + output format.
+  it("defaults coverage mode off, minAppearances to 1, format to png", () => {
+    const args = parseGenerateArgs([]);
+    expect(args.coverage).toBe(false);
+    expect(args.minAppearances).toBe(1);
+    expect(args.imageFormat).toBe("png");
+    expect(args.jpegQuality).toBe(85);
+    expect(args.compositesPerRun).toBeNull();
+  });
+
+  it("accepts --coverage, --min-appearances, --composites-per-run, --format, --jpeg-quality, --download-failures", () => {
+    const args = parseGenerateArgs([
+      "--coverage",
+      "--min-appearances", "5",
+      "--composites-per-run", "9000",
+      "--format", "jpeg",
+      "--jpeg-quality", "70",
+      "--download-failures", "/tmp/failures.json",
+    ]);
+    expect(args.coverage).toBe(true);
+    expect(args.minAppearances).toBe(5);
+    expect(args.compositesPerRun).toBe(9000);
+    expect(args.imageFormat).toBe("jpeg");
+    expect(args.jpegQuality).toBe(70);
+    expect(args.downloadFailuresPath).toBe("/tmp/failures.json");
+  });
 });
 
 describe("parseImportBackgroundsArgs", () => {
@@ -227,6 +254,94 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
         "--backgrounds-dir", path.join(tmpDir, "does-not-exist"),
       ]),
     ).rejects.toThrow(/backgroundsDir/);
+  });
+
+  // #268: --coverage end to end — coverage-report.json is emitted,
+  // distinguishing covered / eligibleButNotPlaced / unavailableUpstream,
+  // and a download-failures manifest (when present) feeds the
+  // unavailableUpstream bucket.
+  it("--coverage emits a coverage-report.json with every printing covered given a generous --composites-per-run", async () => {
+    const outDir = path.join(tmpDir, "out-coverage");
+    const exitCode = await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--min-appearances", "2",
+      "--composites-per-run", "20",
+    ]);
+    expect(exitCode).toBe(0);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.minAppearances).toBe(2);
+    expect(report.totalEligible).toBe(2); // printing-a, printing-b (both cached in beforeEach)
+    expect(report.covered).toBe(2);
+    expect(report.eligibleButNotPlaced).toEqual([]);
+    expect(report.unavailableUpstream).toEqual([]);
+  });
+
+  it("--coverage reports eligibleButNotPlaced (not silently 'covered') when the composite budget is too small", async () => {
+    const outDir = path.join(tmpDir, "out-coverage-short");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--min-appearances", "50", // unreachable in 1 composite
+      "--composites-per-run", "1",
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.eligibleButNotPlaced.length).toBeGreaterThan(0);
+    expect(report.covered + report.eligibleButNotPlaced.length).toBe(report.totalEligible);
+  });
+
+  it("--coverage reads a download-failures manifest and reports those printings as unavailableUpstream, excluded from totalEligible", async () => {
+    const failuresPath = path.join(tmpDir, "download-failures.json");
+    fs.writeFileSync(
+      failuresPath,
+      JSON.stringify([{ printingId: "printing-missing", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/x.webp" }]),
+    );
+
+    const outDir = path.join(tmpDir, "out-coverage-unavailable");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--composites-per-run", "10",
+      "--download-failures", failuresPath,
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalEligible).toBe(2); // still only the 2 cached printings — unavailable one never enters the pool
+    expect(report.unavailableUpstream).toEqual([
+      { printingId: "printing-missing", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/x.webp" },
+    ]);
+  });
+
+  it("--format jpeg writes .jpg composite files and no coverage-report.json when --coverage is not passed", async () => {
+    const outDir = path.join(tmpDir, "out-jpeg");
+    const exitCode = await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--format", "jpeg",
+      "--jpeg-quality", "60",
+    ]);
+    expect(exitCode).toBe(0);
+
+    const manifest = JSON.parse(fs.readFileSync(path.join(outDir, "manifest.json"), "utf8"));
+    for (const entry of manifest.composites) {
+      expect(entry.fileName.endsWith(".jpg")).toBe(true);
+      const bytes = fs.readFileSync(path.join(outDir, entry.fileName));
+      expect(bytes.subarray(0, 2).toString("hex")).toBe("ffd8");
+    }
+    expect(fs.existsSync(path.join(outDir, "coverage-report.json"))).toBe(false);
   });
 });
 

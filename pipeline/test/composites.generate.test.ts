@@ -152,3 +152,26 @@ describe("generateDataset — visibleFraction determinism and threshold end-to-e
     expect(totalExcludedStrict).toBeGreaterThan(0);
   });
 });
+
+// #268: coverage-mode selection + JPEG output threading through the
+// end-to-end generateDataset entry point (both optional, both default to
+// pre-#268 behavior when omitted).
+describe("generateDataset — coverage mode + image format (#268)", () => {
+  it("threads a CoverageTracker through planRun end to end — every card in the pool is used at least once given a generous budget", async () => {
+    const { CoverageTracker } = await import("../src/composites/coverageTracker.js");
+    const cfg = config({ compositesPerRun: 30, cardsPerComposite: { min: 1, max: 2 } });
+    const tracker = new CoverageTracker(CARDS.length);
+    await generateDataset(cfg, CARDS, fakeLoadImage(), undefined, [], tracker);
+    for (const count of tracker.allAppearanceCounts()) expect(count).toBeGreaterThan(0);
+  });
+
+  it("defaults every label's fileName to .png when imageFormat is omitted", async () => {
+    const result = await generateDataset(config({ compositesPerRun: 2 }), CARDS, fakeLoadImage());
+    for (const c of result.composites) expect(c.label.fileName.endsWith(".png")).toBe(true);
+  });
+
+  it("uses .jpg fileNames end to end when imageFormat is 'jpeg'", async () => {
+    const result = await generateDataset(config({ compositesPerRun: 2 }), CARDS, fakeLoadImage(), undefined, [], null, "jpeg");
+    for (const c of result.composites) expect(c.label.fileName.endsWith(".jpg")).toBe(true);
+  });
+});

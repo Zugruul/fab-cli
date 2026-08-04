@@ -3,7 +3,8 @@ import os from "node:os";
 import path from "node:path";
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import sharp from "sharp";
-import { decodeAndNormalizeBackground } from "../src/composites/imageIO.js";
+import { decodeAndNormalizeBackground, encodeRawToJpeg } from "../src/composites/imageIO.js";
+import type { RawImage } from "../src/composites/rawImage.js";
 
 // #244: decodeAndNormalizeBackground is the import-time normalization step
 // for user-supplied playmat/background photos — the only new sharp-touching
@@ -109,5 +110,63 @@ describe("decodeAndNormalizeBackground", () => {
     const a = await decodeAndNormalizeBackground(file);
     const b = await decodeAndNormalizeBackground(file);
     expect(a.png.equals(b.png)).toBe(true);
+  });
+});
+
+// #268 "Also needed for the real run": a coverage run over the full
+// catalog can be thousands of composites — PNG at 1024x1024 is ~2MB each,
+// which doesn't fit comfortably alongside the downloaded image cache in
+// the available disk budget. JPEG is ~5x smaller and lossless buys nothing
+// for training data, so it's a quality-configurable alternative encoder
+// (PNG stays the default everywhere else — sample-sheet/QA behavior is
+// unchanged).
+function solidRaw(width: number, height: number, rgb: [number, number, number]): RawImage {
+  const data = new Uint8ClampedArray(width * height * 4);
+  for (let i = 0; i < width * height; i++) {
+    data[i * 4] = rgb[0];
+    data[i * 4 + 1] = rgb[1];
+    data[i * 4 + 2] = rgb[2];
+    data[i * 4 + 3] = 255;
+  }
+  return { width, height, data };
+}
+
+describe("encodeRawToJpeg", () => {
+  it("produces real JPEG bytes (magic number) at the requested dimensions", async () => {
+    const raw = solidRaw(16, 12, [200, 30, 30]);
+    const jpeg = await encodeRawToJpeg(raw, 85);
+    expect(jpeg.subarray(0, 2).toString("hex")).toBe("ffd8"); // JPEG SOI marker
+    const meta = await sharp(jpeg).metadata();
+    expect(meta.width).toBe(16);
+    expect(meta.height).toBe(12);
+  });
+
+  it("a lower quality setting produces smaller output for the same non-trivial image", async () => {
+    // A gradient (not a flat solid color) so JPEG's DCT quantization at
+    // different quality levels actually produces a measurable size delta —
+    // a flat solid-color image compresses to nearly the same tiny size
+    // regardless of quality and would make this test meaningless.
+    const width = 64;
+    const height = 64;
+    const data = new Uint8ClampedArray(width * height * 4);
+    for (let y = 0; y < height; y++) {
+      for (let x = 0; x < width; x++) {
+        const i = (y * width + x) * 4;
+        data[i] = (x * 4) % 256;
+        data[i + 1] = (y * 4) % 256;
+        data[i + 2] = ((x + y) * 3) % 256;
+        data[i + 3] = 255;
+      }
+    }
+    const raw: RawImage = { width, height, data };
+    const high = await encodeRawToJpeg(raw, 95);
+    const low = await encodeRawToJpeg(raw, 20);
+    expect(low.length).toBeLessThan(high.length);
+  });
+
+  it("defaults quality to a sane value when omitted", async () => {
+    const raw = solidRaw(8, 8, [1, 2, 3]);
+    const jpeg = await encodeRawToJpeg(raw);
+    expect(jpeg.subarray(0, 2).toString("hex")).toBe("ffd8");
   });
 });
