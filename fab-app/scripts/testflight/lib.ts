@@ -113,6 +113,45 @@ export function redactSecrets(text: string, secrets: Array<string | undefined | 
   return result.replace(JWT_PATTERN, '***REDACTED-JWT***');
 }
 
+export interface BuildBetaDetailAttributes {
+  internalBuildState?: string | null;
+  externalBuildState?: string | null;
+}
+
+export interface BuildVisibility {
+  visible: boolean;
+  line: string;
+}
+
+/**
+ * #257 — a build can reach processingState "VALID" (Apple's binary
+ * validation passed) while its buildBetaDetail.internalBuildState is stuck
+ * at e.g. "MISSING_EXPORT_COMPLIANCE" — hidden from every tester, with no
+ * "missing compliance" row anywhere in App Store Connect's UI. From the
+ * verify-build output alone, "VALID" reads as success even though the build
+ * is invisible. This is the single source of truth for whether a build is
+ * *actually* visible to testers: visible only when processingState is VALID,
+ * the build isn't expired, and internalBuildState is exactly
+ * "IN_BETA_TESTING" — every other combination (including a failed/missing
+ * buildBetaDetail fetch) is reported as a problem, never silently as ok, so
+ * this exact confusion can't happen again.
+ */
+export function describeBuildVisibility(
+  build: { processingState: string; expired?: boolean },
+  betaDetail: BuildBetaDetailAttributes | null,
+): BuildVisibility {
+  const internal = betaDetail?.internalBuildState ?? 'UNKNOWN (buildBetaDetail unavailable)';
+  const external = betaDetail?.externalBuildState ?? 'n/a';
+  const visible =
+    build.processingState === 'VALID' && !build.expired && betaDetail?.internalBuildState === 'IN_BETA_TESTING';
+
+  const line = visible
+    ? `  beta visibility: ok — internal=${internal} external=${external}`
+    : `  beta visibility: PROBLEM — internal=${internal} external=${external} — build is not visible to testers`;
+
+  return { visible, line };
+}
+
 const ASC_MAX_TOKEN_LIFETIME_SECONDS = 1200; // App Store Connect API's hard cap (20 minutes)
 
 export interface AscJwtOptions {
