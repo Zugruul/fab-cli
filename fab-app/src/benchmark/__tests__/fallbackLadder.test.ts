@@ -10,14 +10,17 @@
 // it with unmet targets and no resolution throws, and calling it with met
 // targets and a resolution anyway (nothing needed fixing) also throws.
 
-import { recordFallbackDecision } from "../fallbackLadder";
-import { checkTargets } from "../targets";
-import { validateBenchmarkResult, FALLBACK_LADDER_STEPS } from "@fab/manifest-schema";
-import { validBenchmarkResult } from "@fab/manifest-schema";
-import type { BenchmarkMetrics } from "../types";
+import { recordFallbackDecision } from '../fallbackLadder';
+import { checkTargets } from '../targets';
+import {
+  validateBenchmarkResult,
+  FALLBACK_LADDER_STEPS,
+} from '@fab/manifest-schema';
+import { validBenchmarkResult } from '@fab/manifest-schema';
+import type { BenchmarkMetrics } from '../types';
 
 function measured(value: number) {
-  return { status: "measured" as const, value };
+  return { status: 'measured' as const, value };
 }
 
 const ALL_PASS_1_7B: BenchmarkMetrics = {
@@ -30,11 +33,14 @@ const ALL_PASS_1_7B: BenchmarkMetrics = {
   peakRamMb: measured(2000),
 };
 
-const SLOW_TTFT_1_7B: BenchmarkMetrics = { ...ALL_PASS_1_7B, ttftWarmMs: measured(3500) };
+const SLOW_TTFT_1_7B: BenchmarkMetrics = {
+  ...ALL_PASS_1_7B,
+  ttftWarmMs: measured(3500),
+};
 
-describe("recordFallbackDecision", () => {
-  it("returns targetsMet: true with no stepApplied when every gated metric passes", () => {
-    const check = checkTargets(ALL_PASS_1_7B, "1.7B");
+describe('recordFallbackDecision', () => {
+  it('returns targetsMet: true with no stepApplied when every gated metric passes', () => {
+    const check = checkTargets(ALL_PASS_1_7B, '1.7B');
     const decision = recordFallbackDecision(check);
     expect(decision.targetsMet).toBe(true);
     expect(decision.stepApplied).toBeUndefined();
@@ -42,43 +48,57 @@ describe("recordFallbackDecision", () => {
     expect(decision.notes.length).toBeGreaterThan(0);
   });
 
-  it("throws if targets are met but a resolution is supplied anyway", () => {
-    const check = checkTargets(ALL_PASS_1_7B, "1.7B");
+  it('throws if targets are met but a resolution is supplied anyway', () => {
+    const check = checkTargets(ALL_PASS_1_7B, '1.7B');
     expect(() =>
-      recordFallbackDecision(check, { stepApplied: "reduced-retrieval-budget", notes: "unnecessary" }),
+      recordFallbackDecision(check, {
+        stepApplied: 'reduced-retrieval-budget',
+        notes: 'unnecessary',
+      }),
     ).toThrow();
   });
 
-  it("throws if targets are unmet and no resolution is supplied — never silent shipping of a missed target", () => {
-    const check = checkTargets(SLOW_TTFT_1_7B, "1.7B");
+  it('throws if targets are unmet and no resolution is supplied — never silent shipping of a missed target', () => {
+    const check = checkTargets(SLOW_TTFT_1_7B, '1.7B');
     expect(() => recordFallbackDecision(check)).toThrow(/ttftWarmMs/);
   });
 
-  it("records the supplied ladder step and carries the unmet metrics through when targets are unmet", () => {
-    const check = checkTargets(SLOW_TTFT_1_7B, "1.7B");
+  it('records the supplied ladder step and carries the unmet metrics through when targets are unmet', () => {
+    const check = checkTargets(SLOW_TTFT_1_7B, '1.7B');
     const decision = recordFallbackDecision(check, {
-      stepApplied: "reduced-retrieval-budget",
-      notes: "reduced budget to 512 tokens; TTFT warm now within target",
+      stepApplied: 'reduced-retrieval-budget',
+      notes: 'reduced budget to 512 tokens; TTFT warm now within target',
     });
     expect(decision.targetsMet).toBe(false);
-    expect(decision.stepApplied).toBe("reduced-retrieval-budget");
-    expect(decision.unmetMetrics).toEqual(["ttftWarmMs"]);
-    expect(decision.notes).toContain("reduced budget");
+    expect(decision.stepApplied).toBe('reduced-retrieval-budget');
+    expect(decision.unmetMetrics).toEqual(['ttftWarmMs']);
+    expect(decision.notes).toContain('reduced budget');
   });
 
-  it("accepts every §10.2 ladder step as a valid resolution", () => {
-    const check = checkTargets(SLOW_TTFT_1_7B, "1.7B");
+  it('accepts every §10.2 ladder step as a valid resolution', () => {
+    const check = checkTargets(SLOW_TTFT_1_7B, '1.7B');
     for (const step of FALLBACK_LADDER_STEPS) {
-      const decision = recordFallbackDecision(check, { stepApplied: step, notes: `applied ${step}` });
+      const decision = recordFallbackDecision(check, {
+        stepApplied: step,
+        notes: `applied ${step}`,
+      });
       expect(decision.stepApplied).toBe(step);
     }
   });
 
   it("round-trips through @fab/manifest-schema's BenchmarkResultSchema (never invents its own shape)", () => {
-    const check = checkTargets(ALL_PASS_1_7B, "1.7B");
+    const check = checkTargets(ALL_PASS_1_7B, '1.7B');
     const decision = recordFallbackDecision(check);
-    const candidate = { ...validBenchmarkResult, fallbackLadderDecision: decision };
+    const candidate = {
+      ...validBenchmarkResult,
+      fallbackLadderDecision: decision,
+    };
     const result = validateBenchmarkResult(candidate);
-    expect(result.success, !result.success ? JSON.stringify(result.errors, null, 2) : undefined).toBe(true);
+    if (!result.success) {
+      throw new Error(
+        `schema validation failed: ${JSON.stringify(result.errors, null, 2)}`,
+      );
+    }
+    expect(result.success).toBe(true);
   });
 });

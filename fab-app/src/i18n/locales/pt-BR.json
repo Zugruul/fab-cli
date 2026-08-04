@@ -63,5 +63,14 @@
       "ok": "OK",
       "error": "ERRO"
     }
+  },
+  "benchmark": {
+    "title": "Benchmark no dispositivo",
+    "run": "Executar benchmark",
+    "running": "Executando…",
+    "done": "Concluído",
+    "error": "Erro: {{message}}",
+    "export": "Exportar resultado",
+    "deviceRunNote": "As metas registradas são medidas nos dispositivos físicos de referência via pipeline TestFlight do APP-036 (SPEC-APP.md §8.6); esta tela executa o protocolo com os clientes que estiverem conectados."
   }
 }

@@ -13,28 +13,32 @@
 // in its name.
 
 import React from 'react';
-import ReactTestRenderer, {act} from 'react-test-renderer';
-import {I18nextProvider} from 'react-i18next';
-import {validModelPackManifest} from '@fab/manifest-schema';
-import type {KnowledgePackManifest} from '@fab/manifest-schema';
+import ReactTestRenderer, { act } from 'react-test-renderer';
+import { I18nextProvider } from 'react-i18next';
+import { validModelPackManifest } from '@fab/manifest-schema';
+import type { KnowledgePackManifest } from '@fab/manifest-schema';
 
-import {createI18nInstance} from '../../i18n/i18n';
-import {I18nProvider} from '../../i18n/I18nProvider';
-import {LanguageSwitcher} from '../../i18n/LanguageSwitcher';
-import type {LanguagePreferenceStore} from '../../i18n/languageStore';
-import type {Locale} from '../../i18n/types';
+import { createI18nInstance } from '../../i18n/i18n';
+import { I18nProvider } from '../../i18n/I18nProvider';
+import { LanguageSwitcher } from '../../i18n/LanguageSwitcher';
+import type { LanguagePreferenceStore } from '../../i18n/languageStore';
+import type { Locale } from '../../i18n/types';
 
-import {ConsentScreen} from '../../onboarding/screens/ConsentScreen';
-import {deriveArtifactSizes} from '../../onboarding/sizes';
-import type {ArtifactSizes, ConsentGateState, ProgressState} from '../../onboarding/types';
-import {FeatureGate} from '../../onboarding/screens/FeatureGate';
-import {ProgressScreen} from '../../onboarding/screens/ProgressScreen';
-import {initialProgressState} from '../../onboarding/progressReducer';
-import {ProvenanceScreen} from '../../screens/ProvenanceScreen';
-import type {ProvenanceState} from '../../provenance';
-import {SmokeScreen} from '../../smokeScreen/SmokeScreen';
-import {BenchmarkScreen} from '../../benchmark/BenchmarkScreen';
-import type {BenchmarkRunResult} from '../../benchmark/types';
+import { ConsentScreen } from '../../onboarding/screens/ConsentScreen';
+import { deriveArtifactSizes } from '../../onboarding/sizes';
+import type {
+  ArtifactSizes,
+  ConsentGateState,
+  ProgressState,
+} from '../../onboarding/types';
+import { FeatureGate } from '../../onboarding/screens/FeatureGate';
+import { ProgressScreen } from '../../onboarding/screens/ProgressScreen';
+import { initialProgressState } from '../../onboarding/progressReducer';
+import { ProvenanceScreen } from '../../screens/ProvenanceScreen';
+import type { ProvenanceState } from '../../provenance';
+import { SmokeScreen } from '../../smokeScreen/SmokeScreen';
+import { BenchmarkScreen } from '../../benchmark/BenchmarkScreen';
+import type { BenchmarkRunResult } from '../../benchmark/types';
 
 // BUG-202-style fixture (same shape ConsentScreen.test.tsx uses) — the
 // exact sizes don't matter here, only that ConsentScreen renders.
@@ -48,11 +52,19 @@ const knowledgePackManifestFixture: KnowledgePackManifest = {
   retrievalFloor: 0.42,
   oodThreshold: 0.2,
   chunkCount: 6410,
-  indexFiles: [{name: 'chunks.sqlite', sha256: 'e'.repeat(64), sizeBytes: 300_000_000}],
+  indexFiles: [
+    { name: 'chunks.sqlite', sha256: 'e'.repeat(64), sizeBytes: 300_000_000 },
+  ],
 };
-const consentSizes: ArtifactSizes = deriveArtifactSizes(validModelPackManifest, knowledgePackManifestFixture);
+const consentSizes: ArtifactSizes = deriveArtifactSizes(
+  validModelPackManifest,
+  knowledgePackManifestFixture,
+);
 
-const progressLabels = {'model-pack': 'Model pack', 'knowledge-pack': 'Knowledge pack'} as const;
+const progressLabels = {
+  'model-pack': 'Model pack',
+  'knowledge-pack': 'Knowledge pack',
+} as const;
 
 // APP-024 (#136): a small, complete BenchmarkRunResult fixture — one
 // measured metric left "not-run" deliberately, since that's the honest
@@ -60,20 +72,20 @@ const progressLabels = {'model-pack': 'Model pack', 'knowledge-pack': 'Knowledge
 // ../../benchmark/runner.ts).
 const benchmarkRunResultFixture: BenchmarkRunResult = {
   tier: '1.7B',
-  device: {model: 'iPhone 13 Pro', osVersion: 'iOS 17.5.1'},
+  device: { model: 'iPhone 13 Pro', osVersion: 'iOS 17.5.1' },
   appVersion: '1.0.0',
   buildNumber: '42',
   iterations: 10,
   startedAt: '2026-08-01T00:00:00.000Z',
   completedAt: '2026-08-01T00:01:00.000Z',
   metrics: {
-    decodeTokensPerSec: {status: 'measured', value: 12},
-    prefillTokensPerSec: {status: 'measured', value: 400},
-    ttftWarmMs: {status: 'measured', value: 2000},
-    ttftColdMs: {status: 'measured', value: 6000},
-    queryEmbeddingLatencyMs: {status: 'measured', value: 200},
-    retrievalP95Ms: {status: 'measured', value: 30},
-    peakRamMb: {status: 'not-run', reason: 'no on-device RAM sampler wired'},
+    decodeTokensPerSec: { status: 'measured', value: 12 },
+    prefillTokensPerSec: { status: 'measured', value: 400 },
+    ttftWarmMs: { status: 'measured', value: 2000 },
+    ttftColdMs: { status: 'measured', value: 6000 },
+    queryEmbeddingLatencyMs: { status: 'measured', value: 200 },
+    retrievalP95Ms: { status: 'measured', value: 30 },
+    peakRamMb: { status: 'not-run', reason: 'no on-device RAM sampler wired' },
   },
 };
 
@@ -93,7 +105,11 @@ export async function renderUnderI18next(
 ): Promise<ReactTestRenderer.ReactTestRenderer> {
   let tree: ReactTestRenderer.ReactTestRenderer;
   await act(async () => {
-    tree = ReactTestRenderer.create(<I18nextProvider i18n={createI18nInstance(locale)}>{node}</I18nextProvider>);
+    tree = ReactTestRenderer.create(
+      <I18nextProvider i18n={createI18nInstance(locale)}>
+        {node}
+      </I18nextProvider>,
+    );
   });
   return tree!;
 }
@@ -111,7 +127,12 @@ export const SCREENS: ScreenVariant[] = [
     render: locale =>
       renderUnderI18next(
         locale,
-        <ConsentScreen gate={{kind: 'ready'}} sizes={consentSizes} onAccept={() => {}} onOverrideCellular={() => {}} />,
+        <ConsentScreen
+          gate={{ kind: 'ready' }}
+          sizes={consentSizes}
+          onAccept={() => {}}
+          onOverrideCellular={() => {}}
+        />,
       ),
   },
   {
@@ -120,7 +141,12 @@ export const SCREENS: ScreenVariant[] = [
     render: locale =>
       renderUnderI18next(
         locale,
-        <ConsentScreen gate={{kind: 'cellular-warning'}} sizes={consentSizes} onAccept={() => {}} onOverrideCellular={() => {}} />,
+        <ConsentScreen
+          gate={{ kind: 'cellular-warning' }}
+          sizes={consentSizes}
+          onAccept={() => {}}
+          onOverrideCellular={() => {}}
+        />,
       ),
   },
   {
@@ -129,7 +155,12 @@ export const SCREENS: ScreenVariant[] = [
     render: locale =>
       renderUnderI18next(
         locale,
-        <ConsentScreen gate={{kind: 'waiting-for-network'} as ConsentGateState} sizes={consentSizes} onAccept={() => {}} onOverrideCellular={() => {}} />,
+        <ConsentScreen
+          gate={{ kind: 'waiting-for-network' } as ConsentGateState}
+          sizes={consentSizes}
+          onAccept={() => {}}
+          onOverrideCellular={() => {}}
+        />,
       ),
   },
   {
@@ -138,7 +169,10 @@ export const SCREENS: ScreenVariant[] = [
     render: locale =>
       renderUnderI18next(
         locale,
-        <FeatureGate feature={{available: false, reason: 'model pack not installed yet'}} featureLabel="Q&A">
+        <FeatureGate
+          feature={{ available: false, reason: 'model pack not installed yet' }}
+          featureLabel="Q&A"
+        >
           <></>
         </FeatureGate>,
       ),
@@ -149,12 +183,26 @@ export const SCREENS: ScreenVariant[] = [
     render: locale => {
       const progress: ProgressState = {
         ...initialProgressState(),
-        'model-pack': {status: 'downloading', bytesDownloaded: 400, totalBytes: 1000},
-        'knowledge-pack': {status: 'paused', bytesDownloaded: 200, totalBytes: 500},
+        'model-pack': {
+          status: 'downloading',
+          bytesDownloaded: 400,
+          totalBytes: 1000,
+        },
+        'knowledge-pack': {
+          status: 'paused',
+          bytesDownloaded: 200,
+          totalBytes: 500,
+        },
       };
       return renderUnderI18next(
         locale,
-        <ProgressScreen progress={progress} labels={progressLabels} onPause={() => {}} onResume={() => {}} onRetry={() => {}} />,
+        <ProgressScreen
+          progress={progress}
+          labels={progressLabels}
+          onPause={() => {}}
+          onResume={() => {}}
+          onRetry={() => {}}
+        />,
       );
     },
   },
@@ -164,12 +212,28 @@ export const SCREENS: ScreenVariant[] = [
     render: locale => {
       const progress: ProgressState = {
         ...initialProgressState(),
-        'model-pack': {status: 'failed', bytesDownloaded: 200, totalBytes: 500, errorKind: 'other', errorMessage: 'connection dropped'},
-        'knowledge-pack': {status: 'downloading', bytesDownloaded: 400, totalBytes: 1000},
+        'model-pack': {
+          status: 'failed',
+          bytesDownloaded: 200,
+          totalBytes: 500,
+          errorKind: 'other',
+          errorMessage: 'connection dropped',
+        },
+        'knowledge-pack': {
+          status: 'downloading',
+          bytesDownloaded: 400,
+          totalBytes: 1000,
+        },
       };
       return renderUnderI18next(
         locale,
-        <ProgressScreen progress={progress} labels={progressLabels} onPause={() => {}} onResume={() => {}} onRetry={() => {}} />,
+        <ProgressScreen
+          progress={progress}
+          labels={progressLabels}
+          onPause={() => {}}
+          onResume={() => {}}
+          onRetry={() => {}}
+        />,
       );
     },
   },
@@ -181,7 +245,12 @@ export const SCREENS: ScreenVariant[] = [
         locale,
         <ProvenanceScreen
           provenance={
-            {status: 'ready', latestSet: 'OTA', crVersion: '1.0', legalityAsOf: '2026-08-01T00:00:00.000Z'} as ProvenanceState
+            {
+              status: 'ready',
+              latestSet: 'OTA',
+              crVersion: '1.0',
+              legalityAsOf: '2026-08-01T00:00:00.000Z',
+            } as ProvenanceState
           }
         />,
       ),
@@ -197,7 +266,10 @@ export const SCREENS: ScreenVariant[] = [
     render: locale =>
       renderUnderI18next(
         locale,
-        <BenchmarkScreen runBenchmark={() => Promise.resolve(benchmarkRunResultFixture)} onExport={() => {}} />,
+        <BenchmarkScreen
+          runBenchmark={() => Promise.resolve(benchmarkRunResultFixture)}
+          onExport={() => {}}
+        />,
       ),
   },
   {
@@ -208,12 +280,15 @@ export const SCREENS: ScreenVariant[] = [
       await act(async () => {
         tree = ReactTestRenderer.create(
           <I18nextProvider i18n={createI18nInstance(locale)}>
-            <BenchmarkScreen runBenchmark={() => Promise.resolve(benchmarkRunResultFixture)} onExport={() => {}} />
+            <BenchmarkScreen
+              runBenchmark={() => Promise.resolve(benchmarkRunResultFixture)}
+              onExport={() => {}}
+            />
           </I18nextProvider>,
         );
       });
       await act(async () => {
-        tree!.root.findByProps({testID: 'benchmark-run'}).props.onPress();
+        tree!.root.findByProps({ testID: 'benchmark-run' }).props.onPress();
         await Promise.resolve().then(() => Promise.resolve());
       });
       return tree!;
@@ -226,7 +301,10 @@ export const SCREENS: ScreenVariant[] = [
       let tree: ReactTestRenderer.ReactTestRenderer;
       await act(async () => {
         tree = ReactTestRenderer.create(
-          <I18nProvider store={fakeLanguageStore()} systemLocaleSource={{getSystemLocale: () => locale}}>
+          <I18nProvider
+            store={fakeLanguageStore()}
+            systemLocaleSource={{ getSystemLocale: () => locale }}
+          >
             <LanguageSwitcher />
           </I18nProvider>,
         );

@@ -10,30 +10,37 @@
 // SmokeScreen.test.tsx / ConsentScreen.test.tsx.
 
 import React from 'react';
-import ReactTestRenderer, {act} from 'react-test-renderer';
-import {I18nextProvider} from 'react-i18next';
-import {BenchmarkScreen} from '../BenchmarkScreen';
-import type {BenchmarkRunResult} from '../types';
-import {createI18nInstance} from '../../i18n/i18n';
-import {LOCALE_BUNDLES, SUPPORTED_LOCALES} from '../../i18n/locales';
-import type {Locale} from '../../i18n/types';
+import ReactTestRenderer, { act } from 'react-test-renderer';
+import { I18nextProvider } from 'react-i18next';
+import { BenchmarkScreen } from '../BenchmarkScreen';
+import { BenchmarkRunner } from '../runner';
+import type { BenchmarkRunResult, BenchmarkRunnerConfig } from '../types';
+import {
+  FakeDecodeClient,
+  FakeEmbeddingClient,
+  FakePrefillClient,
+  FakeTtftClient,
+} from './testDoubles';
+import { createI18nInstance } from '../../i18n/i18n';
+import { LOCALE_BUNDLES, SUPPORTED_LOCALES } from '../../i18n/locales';
+import type { Locale } from '../../i18n/types';
 
 const FAKE_RESULT: BenchmarkRunResult = {
   tier: '1.7B',
-  device: {model: 'iPhone 13 Pro', osVersion: 'iOS 17.5.1'},
+  device: { model: 'iPhone 13 Pro', osVersion: 'iOS 17.5.1' },
   appVersion: '1.0.0',
   buildNumber: '42',
   iterations: 10,
   startedAt: '2026-08-01T00:00:00.000Z',
   completedAt: '2026-08-01T00:01:00.000Z',
   metrics: {
-    decodeTokensPerSec: {status: 'measured', value: 12},
-    prefillTokensPerSec: {status: 'measured', value: 400},
-    ttftWarmMs: {status: 'measured', value: 2000},
-    ttftColdMs: {status: 'measured', value: 6000},
-    queryEmbeddingLatencyMs: {status: 'measured', value: 200},
-    retrievalP95Ms: {status: 'measured', value: 30},
-    peakRamMb: {status: 'not-run', reason: 'no sampler'},
+    decodeTokensPerSec: { status: 'measured', value: 12 },
+    prefillTokensPerSec: { status: 'measured', value: 400 },
+    ttftWarmMs: { status: 'measured', value: 2000 },
+    ttftColdMs: { status: 'measured', value: 6000 },
+    queryEmbeddingLatencyMs: { status: 'measured', value: 200 },
+    retrievalP95Ms: { status: 'measured', value: 30 },
+    peakRamMb: { status: 'not-run', reason: 'no sampler' },
   },
 };
 
@@ -44,7 +51,7 @@ function deferred<T>() {
     resolve = res;
     reject = rej;
   });
-  return {promise, resolve, reject};
+  return { promise, resolve, reject };
 }
 
 async function render(
@@ -70,52 +77,72 @@ function flatten(children: React.ReactNode): string {
 describe('BenchmarkScreen', () => {
   it('renders idle with an enabled run button and no result yet', async () => {
     const tree = await render(() => Promise.resolve(FAKE_RESULT));
-    expect(() => tree.root.findByProps({testID: 'benchmark-title'})).not.toThrow();
-    expect(tree.root.findByProps({testID: 'benchmark-run'}).props.disabled).toBeFalsy();
-    expect(() => tree.root.findByProps({testID: 'benchmark-result'})).toThrow();
+    expect(() =>
+      tree.root.findByProps({ testID: 'benchmark-title' }),
+    ).not.toThrow();
+    expect(
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.disabled,
+    ).toBeFalsy();
+    expect(() =>
+      tree.root.findByProps({ testID: 'benchmark-result' }),
+    ).toThrow();
   });
 
   it('shows a running state (disabled run button) while the promise is pending, then the JSON result once it resolves', async () => {
-    const {promise, resolve} = deferred<BenchmarkRunResult>();
+    const { promise, resolve } = deferred<BenchmarkRunResult>();
     const tree = await render(() => promise);
 
     act(() => {
-      tree.root.findByProps({testID: 'benchmark-run'}).props.onPress();
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.onPress();
     });
-    expect(tree.root.findByProps({testID: 'benchmark-run'}).props.disabled).toBe(true);
-    expect(() => tree.root.findByProps({testID: 'benchmark-status'})).not.toThrow();
+    expect(
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.disabled,
+    ).toBe(true);
+    expect(() =>
+      tree.root.findByProps({ testID: 'benchmark-status' }),
+    ).not.toThrow();
 
     await act(async () => {
       resolve(FAKE_RESULT);
       await promise;
     });
 
-    expect(tree.root.findByProps({testID: 'benchmark-run'}).props.disabled).toBeFalsy();
-    const json = flatten(tree.root.findByProps({testID: 'benchmark-result-json'}).props.children);
+    expect(
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.disabled,
+    ).toBeFalsy();
+    const json = flatten(
+      tree.root.findByProps({ testID: 'benchmark-result-json' }).props.children,
+    );
     expect(JSON.parse(json)).toEqual(FAKE_RESULT);
   });
 
   it('shows the error message when runBenchmark rejects', async () => {
-    const tree = await render(() => Promise.reject(new Error('native module missing')));
+    const tree = await render(() =>
+      Promise.reject(new Error('native module missing')),
+    );
     await act(async () => {
-      tree.root.findByProps({testID: 'benchmark-run'}).props.onPress();
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.onPress();
       await Promise.resolve().then(() => Promise.resolve());
     });
-    expect(flatten(tree.root.findByProps({testID: 'benchmark-error'}).props.children)).toContain(
-      'native module missing',
-    );
+    expect(
+      flatten(
+        tree.root.findByProps({ testID: 'benchmark-error' }).props.children,
+      ),
+    ).toContain('native module missing');
   });
 
   it('renders an export button that calls onExport with the exact displayed JSON, when onExport is provided', async () => {
     const onExport = jest.fn();
     const tree = await render(() => Promise.resolve(FAKE_RESULT), onExport);
     await act(async () => {
-      tree.root.findByProps({testID: 'benchmark-run'}).props.onPress();
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.onPress();
       await Promise.resolve().then(() => Promise.resolve());
     });
-    const json = flatten(tree.root.findByProps({testID: 'benchmark-result-json'}).props.children);
+    const json = flatten(
+      tree.root.findByProps({ testID: 'benchmark-result-json' }).props.children,
+    );
     act(() => {
-      tree.root.findByProps({testID: 'benchmark-export'}).props.onPress();
+      tree.root.findByProps({ testID: 'benchmark-export' }).props.onPress();
     });
     expect(onExport).toHaveBeenCalledWith(json);
     expect(JSON.parse(json)).toEqual(FAKE_RESULT);
@@ -124,22 +151,103 @@ describe('BenchmarkScreen', () => {
   it('renders no export button when onExport is not provided, even after a result is available', async () => {
     const tree = await render(() => Promise.resolve(FAKE_RESULT));
     await act(async () => {
-      tree.root.findByProps({testID: 'benchmark-run'}).props.onPress();
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.onPress();
       await Promise.resolve().then(() => Promise.resolve());
     });
-    expect(() => tree.root.findByProps({testID: 'benchmark-export'})).toThrow();
+    expect(() =>
+      tree.root.findByProps({ testID: 'benchmark-export' }),
+    ).toThrow();
+  });
+
+  it('runs the REAL BenchmarkRunner (not a stubbed runBenchmark) through the actual screen entry point, end to end', async () => {
+    // Wires a genuine BenchmarkRunner against deterministic stub clients —
+    // the same test doubles runner.test.ts pins its aggregation math
+    // against — so this proves the runner + screen work together as the
+    // app would actually wire them, not just each piece mocked separately.
+    const config: BenchmarkRunnerConfig = {
+      tier: '1.7B',
+      device: { model: 'iPhone 13 Pro', osVersion: 'iOS 17.5.1' },
+      appVersion: '1.0.0',
+      buildNumber: '99',
+      iterations: { iterations: 3, warmupIterations: 1 },
+      decode: {
+        client: new FakeDecodeClient([50, 100, 80, 120], 100),
+        tokenCount: 64,
+      },
+      prefill: {
+        client: new FakePrefillClient([999, 400, 500, 800], 1024),
+        promptTokenCount: 1024,
+      },
+      ttftWarm: { client: new FakeTtftClient([9999, 1000, 3000, 2000]) },
+      ttftCold: { client: new FakeTtftClient([9999, 5000, 7000, 6000]) },
+      embedding: {
+        client: new FakeEmbeddingClient([999, 100, 300, 200]),
+        queries: ['dominate'],
+      },
+    };
+    const runner = new BenchmarkRunner(config);
+
+    const tree = await render(() => runner.run());
+    await act(async () => {
+      tree.root.findByProps({ testID: 'benchmark-run' }).props.onPress();
+      await Promise.resolve().then(() => Promise.resolve());
+    });
+
+    const json = flatten(
+      tree.root.findByProps({ testID: 'benchmark-result-json' }).props.children,
+    );
+    const result: BenchmarkRunResult = JSON.parse(json);
+
+    // Honest end-to-end output: decode/prefill medians and TTFT/embedding
+    // p95s exactly matching runner.test.ts's own hand-computed pins,
+    // retrievalP95Ms/peakRamMb correctly not-run (no client injected for
+    // either), surfaced through the real screen, not a mock.
+    expect(result.metrics.decodeTokensPerSec).toEqual({
+      status: 'measured',
+      value: 1000,
+    });
+    expect(result.metrics.prefillTokensPerSec).toEqual({
+      status: 'measured',
+      value: 2048,
+    });
+    expect(result.metrics.ttftWarmMs).toEqual({
+      status: 'measured',
+      value: 3000,
+    });
+    expect(result.metrics.ttftColdMs).toEqual({
+      status: 'measured',
+      value: 7000,
+    });
+    expect(result.metrics.queryEmbeddingLatencyMs).toEqual({
+      status: 'measured',
+      value: 300,
+    });
+    expect(result.metrics.retrievalP95Ms.status).toBe('not-run');
+    expect(result.metrics.peakRamMb.status).toBe('not-run');
   });
 
   describe.each(SUPPORTED_LOCALES)('translated copy in %s', locale => {
     const bundle = LOCALE_BUNDLES[locale];
 
     it("renders the title, run button, and note using that locale's text", async () => {
-      const tree = await render(() => Promise.resolve(FAKE_RESULT), undefined, locale);
-      expect(flatten(tree.root.findByProps({testID: 'benchmark-title'}).props.children)).toBe(bundle.benchmark.title);
-      expect(tree.root.findByProps({testID: 'benchmark-run'}).props.title).toBe(bundle.benchmark.run);
-      expect(flatten(tree.root.findByProps({testID: 'benchmark-note'}).props.children)).toBe(
-        bundle.benchmark.deviceRunNote,
+      const tree = await render(
+        () => Promise.resolve(FAKE_RESULT),
+        undefined,
+        locale,
       );
+      expect(
+        flatten(
+          tree.root.findByProps({ testID: 'benchmark-title' }).props.children,
+        ),
+      ).toBe(bundle.benchmark.title);
+      expect(
+        tree.root.findByProps({ testID: 'benchmark-run' }).props.title,
+      ).toBe(bundle.benchmark.run);
+      expect(
+        flatten(
+          tree.root.findByProps({ testID: 'benchmark-note' }).props.children,
+        ),
+      ).toBe(bundle.benchmark.deviceRunNote);
     });
   });
 });

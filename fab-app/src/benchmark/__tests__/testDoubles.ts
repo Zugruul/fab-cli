@@ -5,7 +5,13 @@
 // aggregation math (percentile/median) can be pinned against hand-computed
 // expected values.
 
-import type { DecodeClient, EmbeddingClient, PrefillClient, RamPeakSampler, TtftClient } from "../types";
+import type {
+  DecodeClient,
+  EmbeddingClient,
+  PrefillClient,
+  RamPeakSampler,
+  TtftClient,
+} from '../types';
 
 /** Cycles through a fixed sequence of numbers, one per call — repeats the
  * sequence if called more times than it has entries (so a test can supply
@@ -14,7 +20,7 @@ class SequenceCursor {
   private index = 0;
   constructor(private readonly sequence: number[]) {
     if (sequence.length === 0) {
-      throw new Error("SequenceCursor: sequence must be non-empty");
+      throw new Error('SequenceCursor: sequence must be non-empty');
     }
   }
   next(): number {
@@ -32,8 +38,13 @@ export class FakeDecodeClient implements DecodeClient {
   constructor(durationsMs: number[], private readonly tokensPerCall = 100) {
     this.durations = new SequenceCursor(durationsMs);
   }
-  async decode(_tokenCount: number): Promise<{ durationMs: number; tokensGenerated: number }> {
-    return { durationMs: this.durations.next(), tokensGenerated: this.tokensPerCall };
+  async decode(
+    _tokenCount: number,
+  ): Promise<{ durationMs: number; tokensGenerated: number }> {
+    return {
+      durationMs: this.durations.next(),
+      tokensGenerated: this.tokensPerCall,
+    };
   }
   get callCount(): number {
     return this.durations.callCount;
@@ -45,8 +56,13 @@ export class FakePrefillClient implements PrefillClient {
   constructor(durationsMs: number[], private readonly tokensPerCall = 1024) {
     this.durations = new SequenceCursor(durationsMs);
   }
-  async prefill(_promptTokenCount: number): Promise<{ durationMs: number; tokensProcessed: number }> {
-    return { durationMs: this.durations.next(), tokensProcessed: this.tokensPerCall };
+  async prefill(
+    _promptTokenCount: number,
+  ): Promise<{ durationMs: number; tokensProcessed: number }> {
+    return {
+      durationMs: this.durations.next(),
+      tokensProcessed: this.tokensPerCall,
+    };
   }
   get callCount(): number {
     return this.durations.callCount;
