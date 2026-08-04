@@ -184,6 +184,11 @@
     "last": "2026-07-18",
     "weight": 0.5
   },
+  "two-dot-diff-merge-base-trap->diff-deferred-scope-against-primary-ac": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "uniform-rigor-across-findings->execute-load-bearing-mechanism-claims": {
     "fires": 0,
     "last": null,

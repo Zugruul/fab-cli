@@ -74,6 +74,16 @@
     "last": "2026-08-03",
     "weight": 0.5
   },
+  "read-consumer-before-designing-schema-fields->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "read-consumer-before-designing-schema-fields->shared-schema-diff-sibling-protocols": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols": {
     "fires": 1,
     "last": "2026-08-03",
@@ -152,6 +162,11 @@
   "tcgcsv-requires-user-agent->sibling-pattern-parity": {
     "fires": 1,
     "last": "2026-07-16",
+    "weight": 0.5
+  },
+  "test-conventions-dont-transfer-to-rn-bundle->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "test-knob-intersections->verify-vendor-id-uniqueness": {
