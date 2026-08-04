@@ -54,6 +54,29 @@ export function stackVertically(top: RawImage, bottom: RawImage): RawImage {
   return { width, height, data };
 }
 
+/**
+ * Stacks `left` directly beside `right` into one canvas of the combined
+ * width — both must share the same height. The left/right analog of
+ * stackVertically above (#256, Phase C.1's landscape/vertical-mirror-axis
+ * table) — a plain row-wise pixel concatenation, not a re-render.
+ */
+export function stackHorizontally(left: RawImage, right: RawImage): RawImage {
+  if (left.height !== right.height) {
+    throw new Error(`stackHorizontally: mismatched height (left=${left.height}, right=${right.height})`);
+  }
+  const height = left.height;
+  const width = left.width + right.width;
+  const data = new Uint8ClampedArray(width * height * 4);
+  for (let y = 0; y < height; y++) {
+    const destRowStart = y * width * 4;
+    const leftRowStart = y * left.width * 4;
+    const rightRowStart = y * right.width * 4;
+    data.set(left.data.subarray(leftRowStart, leftRowStart + left.width * 4), destRowStart);
+    data.set(right.data.subarray(rightRowStart, rightRowStart + right.width * 4), destRowStart + left.width * 4);
+  }
+  return { width, height, data };
+}
+
 /** (x, y) -> (matWidth - x, matHeight - y) for each corner, tuple order
  * preserved (source-corner identity, not post-rotation visual position —
  * see this module's header). Never clamped (amodal, matches geometry.ts). */
@@ -101,6 +124,53 @@ export function mergeTwoPlayerRenders(near: RenderResult, far: RenderResult, com
     cards: [...farCards, ...nearCards],
     excludedCards: near.label.excludedCards + far.label.excludedCards,
     cardBacksPlaced: near.label.cardBacksPlaced + far.label.cardBacksPlaced,
+  };
+
+  return { image, label };
+}
+
+/**
+ * Landscape, VERTICAL-mirror-axis analog of mergeTwoPlayerRenders above
+ * (#256 Phase C.1) — 90° off that function's horizontal/near-far axis:
+ * players sit LEFT and RIGHT of frame instead of near/far, top/bottom.
+ * `left` becomes the LEFT half (upright, untouched — it already occupies
+ * x in [0,matWidth)); `right` becomes the RIGHT half (rotated 180° about
+ * its own mat center — same rotateQuad180AboutMat/rotate180RawImage this
+ * file already uses for the far mat above, since a 180° rotation about a
+ * mat's own center is the identical operation regardless of which axis
+ * the two mats end up arranged along — then translated by matWidth in x,
+ * 0 in y). Reuses RenderResult/CompositeLabel unchanged, so the result
+ * flows through write.ts/sampleSheet.ts exactly like any other composite,
+ * same as mergeTwoPlayerRenders.
+ */
+export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResult, compositeId: string): RenderResult {
+  if (left.image.width !== right.image.width || left.image.height !== right.image.height) {
+    throw new Error(
+      `mergeBroadcastTableRenders: mat dimension mismatch (left=${left.image.width}x${left.image.height}, right=${right.image.width}x${right.image.height})`,
+    );
+  }
+  const matWidth = left.image.width;
+  const matHeight = left.image.height;
+
+  const rightRotated = rotate180RawImage(right.image);
+  const image = stackHorizontally(left.image, rightRotated);
+
+  const leftCards: CompositeCardLabel[] = left.label.cards.map((c) => ({ ...c }));
+  const rightCards: CompositeCardLabel[] = right.label.cards.map((c) => ({
+    ...c,
+    corners: translateQuad(rotateQuad180AboutMat(c.corners, matWidth, matHeight), matWidth, 0),
+  }));
+
+  const label: CompositeLabel = {
+    compositeId,
+    fileName: `${compositeId}.png`,
+    width: matWidth * 2,
+    height: matHeight,
+    backgroundType: left.label.backgroundType,
+    backgroundHash: left.label.backgroundHash,
+    cards: [...leftCards, ...rightCards],
+    excludedCards: left.label.excludedCards + right.label.excludedCards,
+    cardBacksPlaced: left.label.cardBacksPlaced + right.label.cardBacksPlaced,
   };
 
   return { image, label };
