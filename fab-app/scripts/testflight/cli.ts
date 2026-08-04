@@ -15,8 +15,10 @@ import {
   buildExportOptionsPlist,
   redactSecrets,
   signAppStoreConnectJwt,
-  describeBuildVisibility,
+  formatVerifyBuildReport,
+  shouldContinuePolling,
   type BuildBetaDetailAttributes,
+  type VerifyBuildEntry,
 } from './lib';
 
 // Streams stdin line-by-line, redacting + writing each line as soon as it
@@ -152,7 +154,8 @@ async function cmdResolveTeamId(args: string[]): Promise<number> {
 // processing finished (processingState VALID); fetching it earlier just
 // returns the "still processing" default state and adds noise. A fetch
 // failure here is passed through as `null` — describeBuildVisibility
-// treats a missing detail as a problem, never as silent success.
+// (invoked inside formatVerifyBuildReport) treats a missing detail as a
+// problem, never as silent success.
 async function fetchBuildBetaDetail(buildId: string): Promise<BuildBetaDetailAttributes | null> {
   const res = await ascFetch(`/builds/${buildId}/buildBetaDetail`);
   if (!res.ok) {
@@ -163,9 +166,39 @@ async function fetchBuildBetaDetail(buildId: string): Promise<BuildBetaDetailAtt
   return body.data.attributes;
 }
 
+async function fetchLatestBuilds(appId: string): Promise<VerifyBuildEntry[] | null> {
+  const buildsRes = await ascFetch(
+    `/builds?filter[app]=${appId}&sort=-uploadedDate&limit=5&fields[builds]=version,uploadedDate,processingState,expired`,
+  );
+  if (!buildsRes.ok) {
+    console.error(`ASC API /builds lookup failed: ${buildsRes.status} ${buildsRes.statusText}`);
+    return null;
+  }
+  const buildsBody = (await buildsRes.json()) as { data: VerifyBuildEntry[] };
+  return buildsBody.data;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// #257 review round 2, MAJOR #2 — testflight-release.sh invokes verify-build
+// immediately after upload, when the latest build is almost always still
+// PROCESSING (Apple's own processing window runs "several minutes to a
+// couple of hours" per docs/ios-distribution.md). The prior single-shot
+// check ran exactly once at that moment, so the hard-fail path could never
+// actually observe #257's bug. Poll instead, bounded so the release script
+// doesn't block indefinitely — 10 minutes covers the common case; a build
+// still processing after that is reported as NOT VERIFIED (not a failure),
+// not silently treated as fine.
+const DEFAULT_POLL_TIMEOUT_SECONDS = 600;
+const POLL_INTERVAL_SECONDS = 20;
+
 async function cmdVerifyBuild(args: string[]): Promise<number> {
   const { flags } = parseFlags(args);
   const bundleId = flags['bundle-id'] ?? process.env.BUNDLE_ID ?? 'io.fabcollections';
+  const pollTimeoutSeconds =
+    flags['poll-timeout'] !== undefined ? Number(flags['poll-timeout']) : DEFAULT_POLL_TIMEOUT_SECONDS;
 
   const appsRes = await ascFetch(`/apps?filter[bundleId]=${encodeURIComponent(bundleId)}`);
   if (!appsRes.ok) {
@@ -180,43 +213,41 @@ async function cmdVerifyBuild(args: string[]): Promise<number> {
   }
   console.log(`app: ${app.attributes.name} (${bundleId}), asc app id ${app.id}`);
 
-  const buildsRes = await ascFetch(
-    `/builds?filter[app]=${app.id}&sort=-uploadedDate&limit=5&fields[builds]=version,uploadedDate,processingState,expired`,
-  );
-  if (!buildsRes.ok) {
-    console.error(`ASC API /builds lookup failed: ${buildsRes.status} ${buildsRes.statusText}`);
-    return 1;
-  }
-  const buildsBody = (await buildsRes.json()) as {
-    data: Array<{ id: string; attributes: { version: string; uploadedDate: string; processingState: string; expired: boolean } }>;
-  };
-  if (buildsBody.data.length === 0) {
-    console.log('no builds visible yet for this app (processing can take several minutes after upload)');
-    return 0;
+  const startedAt = Date.now();
+  let builds: VerifyBuildEntry[];
+  for (;;) {
+    const fetched = await fetchLatestBuilds(app.id);
+    if (fetched === null) {
+      return 1;
+    }
+    builds = fetched;
+    if (builds.length === 0) {
+      console.log('no builds visible yet for this app (processing can take several minutes after upload)');
+      return 0;
+    }
+    const elapsedSeconds = (Date.now() - startedAt) / 1000;
+    if (!shouldContinuePolling(builds[0].attributes.processingState, elapsedSeconds, pollTimeoutSeconds)) {
+      break;
+    }
+    await sleep(POLL_INTERVAL_SECONDS * 1000);
   }
 
-  // Only the most recently uploaded build (index 0, thanks to
-  // sort=-uploadedDate) drives the exit code — older builds are shown for
-  // context only, since a prior build's stuck beta state is no longer
-  // actionable once a newer build has superseded it.
-  let latestBuildIsProblem = false;
-  for (const [index, build] of buildsBody.data.entries()) {
-    console.log(
-      `build ${build.attributes.version} — ${build.attributes.processingState} — uploaded ${build.attributes.uploadedDate}${build.attributes.expired ? ' (expired)' : ''} — id ${build.id}`,
-    );
-    // processingState reaching VALID only means the binary passed Apple's
-    // validation — it says nothing about tester visibility (#257), so that
-    // is the only point at which checking buildBetaDetail is meaningful.
+  const elapsedSeconds = (Date.now() - startedAt) / 1000;
+  const betaDetailsById = new Map<string, BuildBetaDetailAttributes | null>();
+  for (const build of builds) {
     if (build.attributes.processingState === 'VALID') {
-      const betaDetail = await fetchBuildBetaDetail(build.id);
-      const { visible, line } = describeBuildVisibility(build.attributes, betaDetail);
-      console.log(line);
-      if (index === 0 && !visible) {
-        latestBuildIsProblem = true;
-      }
+      betaDetailsById.set(build.id, await fetchBuildBetaDetail(build.id));
     }
   }
-  return latestBuildIsProblem ? 1 : 0;
+
+  const report = formatVerifyBuildReport(builds, betaDetailsById, {
+    latestStillProcessingAfterTimeout:
+      builds[0].attributes.processingState === 'PROCESSING' && elapsedSeconds >= pollTimeoutSeconds,
+  });
+  for (const line of report.lines) {
+    console.log(line);
+  }
+  return report.exitCode;
 }
 
 async function cmdEnsureTesterGroup(args: string[]): Promise<number> {
