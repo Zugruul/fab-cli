@@ -59,9 +59,10 @@ describe("buildCoverageReport", () => {
 
     expect(report.totalEligible).toBe(4); // NOT 6 — unavailable printings are excluded from "eligible"
     expect(report.unavailableUpstream).toEqual(unavailable);
-    expect(report.unavailableUpstream.map((u) => u.printingId)).not.toEqual(
-      expect.arrayContaining(report.eligibleButNotPlaced),
-    );
+    // No overlap between the "unavailable upstream" and "eligible pool" id sets.
+    const unavailableIds = new Set(report.unavailableUpstream.map((u) => u.printingId));
+    for (const id of report.eligibleButNotPlaced) expect(unavailableIds.has(id)).toBe(false);
+    for (const c of pool) expect(unavailableIds.has(c.printingId)).toBe(false);
     // The three buckets partition disjointly: covered + eligibleButNotPlaced == totalEligible.
     expect(report.covered + report.eligibleButNotPlaced.length).toBe(report.totalEligible);
   });
