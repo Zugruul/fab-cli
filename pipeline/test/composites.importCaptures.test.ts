@@ -63,6 +63,17 @@ describe("classifyFraming", () => {
       expect(classifyFraming(2180, 1228, CONFIG)).toBe("full-broadcast");
     }
   });
+
+  // #256 scope correction: the tournament-caps corpus turned out to span TWO
+  // physically different rigs (Calling Edinburgh + Pro Tour Las Vegas —
+  // different mat color/chrome palette, same structural camera framing).
+  // The SAME threshold must hold for both, independently verified — not
+  // assumed to generalize from the first rig alone.
+  it("classifies real Pro Tour Las Vegas dimensions correctly too — the threshold is not tuned to a single rig", () => {
+    expect(classifyFraming(2192, 1246, CONFIG)).toBe("full-broadcast"); // 1.759
+    expect(classifyFraming(2194, 1232, CONFIG)).toBe("full-broadcast"); // 1.781
+    expect(classifyFraming(1342, 1148, CONFIG)).toBe("play-area-crop"); // 1.169
+  });
 });
 
 describe("importCaptures", () => {

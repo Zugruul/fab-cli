@@ -31,12 +31,16 @@
  * `classifyFraming` is a pure function of (width, height, config) — a
  * single aspect-ratio threshold (`config/broadcast-import.json`, committed
  * and documented with the exact measurements it was set from). This is
- * deliberately NOT a per-file lookup table: the brief is explicit that 37
- * real files must never be hand-classified, since that table would silently
- * go stale the moment new captures are added from the same or a different
- * rig. See broadcast-import.json's own doc string for the measured
- * full-broadcast vs. play-area-crop aspect-ratio ranges this threshold sits
- * between.
+ * deliberately NOT a per-file lookup table: the brief is explicit that real
+ * files must never be hand-classified, since that table would silently go
+ * stale the moment new captures are added from the same or a different rig
+ * — which is exactly what happened during development: the corpus grew
+ * from 37 files (one rig) to 60 (two DIFFERENT physical rigs, Calling
+ * Edinburgh + Pro Tour Las Vegas), and the same threshold was re-verified
+ * against both independently rather than assumed to generalize. See
+ * broadcast-import.json's own doc string for the measured full-broadcast
+ * vs. play-area-crop aspect-ratio ranges this threshold sits between, per
+ * rig.
  */
 import { importBackgrounds } from "./importBackgrounds.js";
 import type { ImportBackgroundsIO, SkippedBackground } from "./importBackgrounds.js";
