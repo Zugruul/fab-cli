@@ -54,6 +54,27 @@ export interface GeneratorConfig {
    * loadExternalBackgroundRefs and cli.ts's doc comment. */
   backgroundsDir: string | null;
   externalBackgroundProbability: number;
+  /** Minimum fraction of a card's own full geometric footprint that must
+   * survive un-occluded AND on-canvas for that card to be INCLUDED in a
+   * composite's label (#252) — see composites/types.ts's
+   * CompositeCardLabel doc for the exact visibleFraction definition and
+   * the "combine clipping + occlusion into one number" decision. Cards
+   * below this are still rendered (pixels stay); only their ground-truth
+   * label entry is dropped, so the detector never trains on a "ghost"
+   * label with near-zero legible signal (the exact bug #252 reported: a
+   * fully-hidden card still carrying a full amodal label).
+   *
+   * Inclusive at the boundary: a card at EXACTLY minVisibleFraction is
+   * included (`visibleFraction >= minVisibleFraction`).
+   *
+   * Default 0.15 (config/composites-generation.json): a defensible
+   * starting point, not an empirically tuned value for this specific
+   * dataset — common detection-dataset practice excludes instances below
+   * roughly 10-20% visible area as too occluded/truncated to provide
+   * reliable training signal (in the same spirit as COCO-style
+   * truncation/crowd handling). Revisit once real training runs give
+   * evidence either way. */
+  minVisibleFraction: number;
 }
 
 export type ValidateConfigResult = { valid: true; config: GeneratorConfig } | { valid: false; errors: string[] };
@@ -150,6 +171,7 @@ export function validateGeneratorConfig(raw: unknown): ValidateConfigResult {
   }
 
   checkProbability(errors, "externalBackgroundProbability", r.externalBackgroundProbability);
+  checkProbability(errors, "minVisibleFraction", r.minVisibleFraction);
 
   if (errors.length > 0) return { valid: false, errors };
   return { valid: true, config: r as unknown as GeneratorConfig };

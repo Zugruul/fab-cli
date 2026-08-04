@@ -63,3 +63,51 @@ export function warpToQuad(
 
   return { width: canvasWidth, height: canvasHeight, data };
 }
+
+/**
+ * Counts how many pixels of `source`'s own rendered footprint would carry
+ * non-transparent (alpha > 0) content if this card were painted alone, at
+ * `dstQuad`, onto an INFINITE canvas — i.e. the card's full, un-clamped,
+ * un-occluded pixel count (#252's visibleFraction denominator; see
+ * composites/types.ts's CompositeCardLabel doc for the full definition).
+ *
+ * Uses the exact same homography + bilinearSample pixel-center sampling
+ * as warpToQuad's real paint loop above, just WITHOUT clamping the
+ * iterated bounding box to any canvas size. For a card that ends up
+ * entirely on-canvas and unoccluded, this makes the count IDENTICAL
+ * (not merely close) to warpToQuad's actual painted alpha>0 pixel count
+ * — see test/composites.warp.test.ts's cross-check — so visibleFraction
+ * resolves to exactly 1.0 for the common case rather than an
+ * approximation.
+ *
+ * Bounded to the quad's own bounding box (never some arbitrary large
+ * region), so cost stays proportional to one card's own footprint size
+ * regardless of how far off-canvas it's centered.
+ */
+export function countCardFootprintPixels(source: RawImage, dstQuad: [Point, Point, Point, Point]): number {
+  const srcRect: [Point, Point, Point, Point] = [
+    { x: 0, y: 0 },
+    { x: source.width, y: 0 },
+    { x: source.width, y: source.height },
+    { x: 0, y: source.height },
+  ];
+  const H = solveHomography(srcRect, dstQuad);
+  const Hinv = invertMat3(H);
+
+  const xs = dstQuad.map((p) => p.x);
+  const ys = dstQuad.map((p) => p.y);
+  const minX = Math.floor(Math.min(...xs));
+  const maxX = Math.ceil(Math.max(...xs));
+  const minY = Math.floor(Math.min(...ys));
+  const maxY = Math.ceil(Math.max(...ys));
+
+  let count = 0;
+  for (let y = minY; y <= maxY; y++) {
+    for (let x = minX; x <= maxX; x++) {
+      const srcP = applyHomography(Hinv, { x: x + 0.5, y: y + 0.5 });
+      const [, , , a] = bilinearSample(source, srcP.x, srcP.y);
+      if (a > 0) count++;
+    }
+  }
+  return count;
+}

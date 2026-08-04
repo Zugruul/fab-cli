@@ -14,14 +14,38 @@
  * label even though warpToQuad only ever paints the on-canvas portion of
  * it — the label and the rendered pixels are allowed to disagree about
  * what's VISIBLE, just never about what the card's actual extent IS.
+ *
+ * #252 — visibleFraction & occlusion filtering: a card whose quad is
+ * fully off-canvas or fully covered by a later card is still amodally
+ * "real" (it has a true extent), but has ZERO legible pixels for a
+ * detector to learn from. Every pasted card's visibility is tracked here
+ * via a single canvas-sized `owner` array (which card index most
+ * recently painted a non-transparent pixel there) plus an incremental
+ * `survivingCount` per card — O(canvasWidth * canvasHeight) memory for
+ * ONE array (not one per card, e.g. ~4MB as an Int32Array for a
+ * 1024x1024 canvas), reused/discarded per composite, never retained
+ * across a run. Because cards are processed strictly in paste order and
+ * a pixel's ownership only ever transfers from an earlier index to a
+ * later one, only a STRICTLY LATER card can ever reduce an earlier
+ * card's visibility — an occluder painted UNDER a card never does,
+ * regardless of geometric overlap (see
+ * test/composites.compositor.test.ts's adversarial paste-order test).
+ * Filtering itself is POST-HOC: every pasted card's pixels are painted
+ * onto `canvas` unconditionally above, exactly as before #252; only the
+ * returned label's `cards` array is filtered by `minVisibleFraction`
+ * afterward, and `excludedCards` records how many were dropped. See
+ * composites/types.ts's CompositeCardLabel doc for the full
+ * visibleFraction definition, the clipping+occlusion-combined decision,
+ * and the boundary conventions (inclusive `>=`, off-canvas -> 0,
+ * all-excluded -> valid empty-label composite, never re-rolled).
  */
 import { computeDestQuad } from "./geometry.js";
 import { generateBackgroundRaw } from "./background.js";
-import { warpToQuad } from "./warp.js";
+import { warpToQuad, countCardFootprintPixels } from "./warp.js";
 import { compositeOver, applyBrightnessContrast, applySleeve, applyGlare, coverFitRawImage } from "./rawImage.js";
 import type { RawImage } from "./rawImage.js";
 import type { CompositeParams } from "./paramStream.js";
-import type { CompositeLabel, CompositeBackgroundKind, Quad } from "./types.js";
+import type { CompositeLabel, CompositeBackgroundKind, CompositeCardLabel, Quad } from "./types.js";
 
 export interface LoadedCard {
   printingId: string;
@@ -40,7 +64,12 @@ export interface RenderResult {
  * background never needs it (generateBackgroundRaw is a pure function of
  * params.background alone).
  */
-export function renderComposite(params: CompositeParams, loadedCards: LoadedCard[], loadedBackground?: RawImage): RenderResult {
+export function renderComposite(
+  params: CompositeParams,
+  loadedCards: LoadedCard[],
+  minVisibleFraction = 0,
+  loadedBackground?: RawImage,
+): RenderResult {
   let canvas: RawImage;
   if (params.background.type === "external") {
     if (!loadedBackground) {
@@ -53,6 +82,13 @@ export function renderComposite(params: CompositeParams, loadedCards: LoadedCard
     canvas = generateBackgroundRaw(params.width, params.height, params.background);
   }
   const quads: Quad[] = [];
+  const footprintPixels: number[] = [];
+
+  // #252: single canvas-sized owner-of-record array (not one mask per
+  // card) — see this file's header for the memory-cost/paste-order
+  // rationale. -1 means "no card currently owns this pixel".
+  const owner = new Int32Array(params.width * params.height).fill(-1);
+  const survivingCount: number[] = [];
 
   for (const placement of params.cards) {
     const loaded = loadedCards.find((c) => c.printingId === placement.printingId);
@@ -74,6 +110,23 @@ export function renderComposite(params: CompositeParams, loadedCards: LoadedCard
     if (placement.tags.includes("sleeved")) layer = applySleeve(layer);
     if (placement.tags.includes("glare")) layer = applyGlare(layer, placement.glarePositionFrac);
 
+    const cardIndex = quads.length;
+    footprintPixels.push(countCardFootprintPixels(loaded.image, dstQuad));
+    survivingCount.push(0);
+    // Binary ownership per pixel (any alpha > 0 claims it outright, no
+    // partial-alpha weighting) — a small, deliberately conservative
+    // approximation at antialiased quad edges: it can only ever mark a
+    // semi-transparent edge pixel as fully occluded once a later card
+    // touches it, never the reverse, so visibleFraction is never
+    // over-stated.
+    for (let p = 0; p < owner.length; p++) {
+      if (layer.data[p * 4 + 3] === 0) continue;
+      const prevOwner = owner[p];
+      if (prevOwner !== -1) survivingCount[prevOwner]--;
+      owner[p] = cardIndex;
+      survivingCount[cardIndex]++;
+    }
+
     canvas = compositeOver(canvas, layer);
     quads.push({ printingId: placement.printingId, corners: dstQuad, tags: placement.tags });
   }
@@ -83,6 +136,19 @@ export function renderComposite(params: CompositeParams, loadedCards: LoadedCard
   const backgroundType: CompositeBackgroundKind = params.background.type === "external" ? "external" : `procedural:${params.background.type}`;
   const backgroundHash: string | null = params.background.type === "external" ? params.background.contentHash : null;
 
+  // #252: post-hoc filter — every card was already painted above
+  // regardless of what happens here; only the label is affected.
+  const includedCards: CompositeCardLabel[] = [];
+  let excludedCards = 0;
+  for (let i = 0; i < quads.length; i++) {
+    const visibleFraction = footprintPixels[i] > 0 ? survivingCount[i] / footprintPixels[i] : 0;
+    if (visibleFraction >= minVisibleFraction) {
+      includedCards.push({ ...quads[i], visibleFraction });
+    } else {
+      excludedCards++;
+    }
+  }
+
   const label: CompositeLabel = {
     compositeId: params.compositeId,
     fileName: `${params.compositeId}.png`,
@@ -90,7 +156,8 @@ export function renderComposite(params: CompositeParams, loadedCards: LoadedCard
     height: params.height,
     backgroundType,
     backgroundHash,
-    cards: quads,
+    cards: includedCards,
+    excludedCards,
   };
 
   return { image: canvas, label };
