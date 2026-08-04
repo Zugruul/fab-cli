@@ -2,7 +2,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import { listPhotos, getLabel, putLabel } from "../src/benchmark-label/routes.js";
+import { listPhotos, getLabel, putLabel, PathEscapeError } from "../src/benchmark-label/routes.js";
 
 let tmpDir: string;
 let photosDir: string;
@@ -146,5 +146,45 @@ describe("putLabel — validates via validatePhotoLabel before ever writing", ()
 
     const reLoaded = getLabel(labelsDir, "single/photo-001.jpg");
     expect(reLoaded!.quads[0].corners[0]).toEqual({ x: 11, y: 11 });
+  });
+});
+
+// PR #262 review (BLOCKER 1): unauthenticated path traversal — a
+// client-supplied `?file=` was passed straight into path.join() with no
+// containment check, letting a request read/write ANY file the running
+// user can access, not just files under photosDir/labelsDir. Real repro
+// confirmed by the reviewer: `file=..%2Foutside-secret.json` on GET
+// /api/photo, and a 4-level `../../../../tmp/...` escape on PUT /api/label.
+// These tests reproduce the write-side escape at the routes.ts (pure logic)
+// level; benchmarkLabel.server.test.ts reproduces both directions over
+// real HTTP with the reviewer's exact strings.
+describe("path containment (issue #258 security fix, PR #262 review) — never escape labelsDir", () => {
+  it("getLabel rejects a relative path that escapes labelsDir, rather than silently reading it", () => {
+    // Plant a real file just outside labelsDir to prove nothing is read from it.
+    fs.writeFileSync(path.join(tmpDir, "outside-secret.json"), JSON.stringify({ secret: true }));
+    expect(() => getLabel(labelsDir, "../outside-secret.jpg")).toThrow(PathEscapeError);
+  });
+
+  it("putLabel rejects a relative path that escapes labelsDir, and writes nothing outside", () => {
+    const escapedTarget = path.join(tmpDir, "escaped-write.json");
+    expect(() => putLabel(labelsDir, "../escaped-write.jpg", validLabel())).toThrow(PathEscapeError);
+    expect(fs.existsSync(escapedTarget)).toBe(false);
+  });
+
+  it("putLabel rejects a deep multi-level escape (mirrors the reviewer's real ../../../../tmp/... repro)", () => {
+    const deepEscape = path.join(tmpDir, "deep-escaped-write.json");
+    expect(() =>
+      putLabel(labelsDir, "../../../../" + deepEscape.replace(/^\//, "") + ".jpg", validLabel()),
+    ).toThrow(PathEscapeError);
+    expect(fs.existsSync(deepEscape)).toBe(false);
+  });
+
+  it("rejects an absolute path passed as the relative file param", () => {
+    expect(() => getLabel(labelsDir, "/etc/passwd")).toThrow(PathEscapeError);
+  });
+
+  it("still accepts a normal, well-behaved relative path (no false positives)", () => {
+    const result = putLabel(labelsDir, "single/photo-001.jpg", validLabel());
+    expect(result.ok).toBe(true);
   });
 });

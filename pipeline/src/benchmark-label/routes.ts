@@ -13,6 +13,39 @@ import type { PhotoLabel, SceneType } from "../benchmark/types.js";
 
 const PHOTO_EXTENSIONS = [".jpg", ".jpeg", ".png", ".heic", ".webp"];
 
+/** Thrown when a client-supplied relative path would resolve outside its
+ * configured base directory (issue #258 security fix, PR #262 review
+ * BLOCKER 1) — a `?file=` containing `../` (or an absolute path) must never
+ * be allowed to read/write anywhere the running process can reach. Callers
+ * (server.ts) map this to an HTTP 400, distinct from a genuine server
+ * error (500). */
+export class PathEscapeError extends Error {
+  constructor(relPath: string) {
+    super(`"${relPath}" escapes the configured directory`);
+    this.name = "PathEscapeError";
+  }
+}
+
+/**
+ * Resolves `relPath` against `baseDir` and throws PathEscapeError unless
+ * the result stays inside `baseDir`. Deliberately NOT a naive substring/
+ * regex check for "..", which `%2e%2e`-style encoding (already decoded by
+ * the time this runs, since it operates on the decoded querystring value)
+ * or path normalization tricks can defeat — this compares fully resolved,
+ * normalized absolute paths instead. An absolute `relPath` is also
+ * rejected: path.resolve(base, "/etc/passwd") returns "/etc/passwd"
+ * (Node's documented "later absolute argument wins" behavior), which this
+ * check correctly recognizes as outside baseDir.
+ */
+export function containWithinDir(baseDir: string, relPath: string): string {
+  const resolvedBase = path.resolve(baseDir);
+  const resolved = path.resolve(resolvedBase, relPath);
+  if (resolved !== resolvedBase && !resolved.startsWith(resolvedBase + path.sep)) {
+    throw new PathEscapeError(relPath);
+  }
+  return resolved;
+}
+
 export interface PhotoListEntry {
   /** Path of the photo file, relative to photosDir (e.g. "single/photo-001.jpg"). */
   fileName: string;
@@ -30,7 +63,7 @@ function isKnownSceneType(s: string): s is SceneType {
 
 function labelPathFor(labelsDir: string, relPhotoPath: string): string {
   const labelRelPath = relPhotoPath.replace(/\.[^./]+$/, ".json");
-  return path.join(labelsDir, labelRelPath);
+  return containWithinDir(labelsDir, labelRelPath);
 }
 
 function* walkPhotoFiles(dir: string, base = dir): Generator<string> {

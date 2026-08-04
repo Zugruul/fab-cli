@@ -23,7 +23,7 @@ import { cachePathFor } from "../images/cache.js";
 import { extractCatalogPrintings, resolveCandidates } from "./catalogSearch.js";
 import type { CatalogPrinting } from "./catalogSearch.js";
 import { parseLabelFilename } from "./filenameConvention.js";
-import { getLabel, listPhotos, putLabel } from "./routes.js";
+import { containWithinDir, getLabel, listPhotos, putLabel, PathEscapeError } from "./routes.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CLIENT_DIR = path.join(__dirname, "client");
@@ -89,6 +89,12 @@ export function createRequestListener(config: ServerConfig): http.RequestListene
 
   return (req, res) => {
     void handleRequest(req, res, config, catalog).catch((err) => {
+      // PathEscapeError (issue #258 security fix, PR #262 review BLOCKER 1)
+      // is a rejected client input, not a server fault — 400, not 500.
+      if (err instanceof PathEscapeError) {
+        sendJson(res, 400, { error: err.message });
+        return;
+      }
       sendJson(res, 500, { error: err instanceof Error ? err.message : String(err) });
     });
   };
@@ -124,7 +130,10 @@ async function handleRequest(
   if (method === "GET" && pathname === "/api/photo") {
     const file = url.searchParams.get("file");
     if (!file) return sendJson(res, 400, { error: "missing ?file=" });
-    return sendFile(res, path.join(config.photosDir, file));
+    // containWithinDir throws PathEscapeError for a `../`/absolute escape
+    // (issue #258 security fix, PR #262 review BLOCKER 1) — caught by
+    // createRequestListener's top-level handler and mapped to a 400.
+    return sendFile(res, containWithinDir(config.photosDir, file));
   }
 
   if (method === "GET" && pathname === "/api/label") {
@@ -179,6 +188,11 @@ function isCached(imagesCacheDir: string, printing: CatalogPrinting): boolean {
 
 export function startServer(config: ServerConfig, port: number): http.Server {
   const server = http.createServer(createRequestListener(config));
-  server.listen(port);
+  // Loopback-only (issue #258 security fix, PR #262 review BLOCKER 1): the
+  // default (no host argument) binds ALL interfaces, so any other device
+  // on the same network could reach this and, combined with the path-
+  // traversal bug above, read any file the running user can access. This
+  // is a local-only dev tool — it must never be reachable off-machine.
+  server.listen(port, "127.0.0.1");
   return server;
 }

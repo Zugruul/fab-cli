@@ -149,3 +149,58 @@ describe("benchmark-label server — end to end over real HTTP", () => {
     expect(body.printCode).toBe("HER155");
   });
 });
+
+// PR #262 review (BLOCKER 1): unauthenticated path traversal — reproduces
+// the reviewer's EXACT real-HTTP repro strings against the actual running
+// server, both directions (read via GET /api/photo, write via PUT
+// /api/label), plus confirms the server binds loopback-only rather than
+// all interfaces.
+describe("benchmark-label server — path traversal is rejected (issue #258 security fix)", () => {
+  it("GET /api/photo?file=..%2Foutside-secret.json does NOT return a file planted outside photosDir", async () => {
+    const secretPath = path.join(tmpDir, "outside-secret.json");
+    fs.writeFileSync(secretPath, "TOP SECRET CONTENT");
+
+    const res = await fetch(`${baseUrl}/api/photo?file=..%2Foutside-secret.json`);
+    expect(res.status).not.toBe(200);
+    const body = await res.text();
+    expect(body).not.toContain("TOP SECRET");
+  });
+
+  it("PUT /api/label?file=../../../../tmp/258-review-escaped-write.json does NOT write outside labelsDir", async () => {
+    // Mirrors the reviewer's exact 4-level escape, rooted at this test's own
+    // tmpDir instead of the real /tmp (so the assertion doesn't depend on
+    // anything pre-existing on the host, but the escape depth and shape are
+    // identical to the real repro).
+    const escapeTarget = path.join(tmpDir, "258-review-escaped-write.json");
+    const relEscape = "../../../../" + escapeTarget.replace(/^\//, "") + ".json";
+
+    const res = await fetch(`${baseUrl}/api/label?file=${encodeURIComponent(relEscape)}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        photoId: "p",
+        fileName: "p.jpg",
+        sceneType: "single",
+        orientation: "portrait",
+        quads: [{ printingId: "pr1", corners: [{ x: 0, y: 0 }, { x: 1, y: 0 }, { x: 1, y: 1 }, { x: 0, y: 1 }], tags: [] }],
+      }),
+    });
+    expect(res.status).not.toBe(200);
+    const body = (await res.json()) as any;
+    expect(body.ok).not.toBe(true);
+    expect(fs.existsSync(escapeTarget + ".json")).toBe(false);
+  });
+
+  it("GET /api/label?file=../outside-secret.json does NOT read a file planted outside labelsDir", async () => {
+    const secretPath = path.join(tmpDir, "outside-secret.json");
+    fs.writeFileSync(secretPath, JSON.stringify({ photoId: "leaked" }));
+
+    const res = await fetch(`${baseUrl}/api/label?file=${encodeURIComponent("../outside-secret.json")}`);
+    expect(res.status).not.toBe(200);
+  });
+
+  it("binds loopback-only (127.0.0.1), not all interfaces", () => {
+    const addr = server.address() as AddressInfo;
+    expect(addr.address).toBe("127.0.0.1");
+  });
+});

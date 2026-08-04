@@ -27,6 +27,19 @@ const state = {
   nextQuadDefaultTags: [],
   skippedCount: 0,
   filenameHint: null,
+  // Found while verifying BLOCKER 2's fix by actually clicking (PR #262
+  // review round 2): true only between "Add card" and the 4th corner
+  // click — distinguishes "placing corner #1" (0 already placed) from
+  // idle canvas clicks (also 0 pending), which the old
+  // `pendingCorners.length > 0` check on its own could never tell apart —
+  // so corner #1 was silently dropped every time and the click-to-place
+  // flow never worked via mouse at all.
+  placingQuad: false,
+  // PR #262 review (cheap extra): true whenever the current photo has
+  // corner clicks or quad edits that haven't been saved yet — cleared on
+  // load and on a successful save. Guards against silently discarding
+  // real human work by switching photos mid-edit (see hasUnsavedWork()).
+  dirty: false,
 };
 
 const el = (id) => document.getElementById(id);
@@ -63,8 +76,23 @@ async function refreshPhotoList() {
     )
     .join("");
   for (const li of el("photo-list").children) {
-    li.addEventListener("click", () => openPhoto(li.dataset.file));
+    li.addEventListener("click", () => {
+      // PR #262 review (cheap extra): mid-edit corner clicks or unsaved
+      // quad changes are real human work — across hundreds of photos over
+      // hours, silently discarding them by switching photos is a realistic
+      // way to lose it for free.
+      if (hasUnsavedWork() && !confirm("Discard unsaved changes to the current photo?")) return;
+      openPhoto(li.dataset.file);
+    });
   }
+}
+
+/** True while the currently open photo has corner clicks in progress
+ * (pendingCorners) or any quad edit since the photo was last loaded/saved
+ * (state.dirty) — see the `dirty` field's own comment for exactly which
+ * actions set/clear it. */
+function hasUnsavedWork() {
+  return !!state.current && (state.dirty || state.placingQuad || state.pendingCorners.length > 0);
 }
 
 function escapeHtml(s) {
@@ -102,7 +130,9 @@ async function openPhoto(fileName) {
     naturalH: img.naturalHeight,
   };
   state.pendingCorners = [];
+  state.placingQuad = false;
   state.selectedQuadIndex = -1;
+  state.dirty = false;
   state.pad = Math.round(0.5 * Math.min(img.naturalWidth, img.naturalHeight));
   state.zoom = Math.min(1, (el("viewport").clientWidth || 800) / (img.naturalWidth + 2 * state.pad));
 
@@ -139,6 +169,30 @@ function applyFilenameHint(hint) {
     `${hint.printCode ? ` (${hint.printCode}${hint.edition ? "-" + hint.edition : ""})` : ""}` +
     ` — sleeved=${hint.sleeved} foil=${hint.foil}${hint.marvel ? " marvel=true (no tag — see note)" : ""} — confirm per-quad below`;
   box.className = "parsed";
+  prefillPrintingSearch();
+}
+
+/**
+ * Issue #258 addendum (its own emphasis): "The tool MUST parse this
+ * convention and pre-fill sleeved/foil tags AND THE PRINTING-PICKER QUERY
+ * from the filename, so the human only clicks corners and confirms." This
+ * pre-fills the search box and runs the search — it does NOT select a
+ * result. resolveCandidates/runPrintingSearch still require an explicit
+ * human click even when the query happens to resolve uniquely (never-
+ * auto-pick, unchanged) — this only saves the human from retyping the
+ * card name or set+collector code on every single quad, across hundreds
+ * of photos, which is exactly the tedium the addendum exists to eliminate.
+ * Called both when a photo opens (covers reopening an already-labeled
+ * photo with a quad already selected) and every time a new quad is
+ * committed (covers the common fresh-photo case, where no quad exists yet
+ * when the filename hint first arrives).
+ */
+function prefillPrintingSearch() {
+  const hint = state.filenameHint;
+  if (!hint || !hint.parsed) return;
+  const query = hint.printCode || hint.cardNameQuery;
+  el("printing-query").value = query;
+  runPrintingSearch(query);
 }
 
 // --- world / canvas layout ---------------------------------------------
@@ -235,11 +289,14 @@ function wireCanvas() {
   canvas.addEventListener("mousedown", (evt) => {
     const native = eventToNative(evt);
 
-    if (state.pendingCorners.length > 0 && state.pendingCorners.length < 4) {
+    if (state.placingQuad && state.pendingCorners.length < 4) {
       state.pendingCorners.push(native);
       updateClickInstructions();
       redrawOverlay();
-      if (state.pendingCorners.length === 4) commitPendingQuad();
+      if (state.pendingCorners.length === 4) {
+        state.placingQuad = false;
+        commitPendingQuad();
+      }
       return;
     }
 
@@ -259,6 +316,7 @@ function wireCanvas() {
     // Directly assign — amodal drag targets outside the photo frame are
     // valid and expected, never clamped back into bounds.
     quad.corners[state.dragging.cornerIndex] = native;
+    state.dirty = true;
     redrawOverlay();
   });
 
@@ -298,9 +356,11 @@ function commitPendingQuad() {
   state.current.quads.push(quad);
   state.pendingCorners = [];
   state.selectedQuadIndex = state.current.quads.length - 1;
+  state.dirty = true;
   el("click-instructions").textContent = "";
   renderQuadList();
   redrawOverlay();
+  prefillPrintingSearch();
 }
 
 // --- toolbar ---------------------------------------------------------------
@@ -318,6 +378,7 @@ function wireToolbar() {
   el("add-card").addEventListener("click", () => {
     if (!state.current) return;
     state.pendingCorners = [];
+    state.placingQuad = true;
     updateClickInstructions();
     // force at least one instruction render even at n=0
     el("click-instructions").textContent = `click corner 1 of 4 (${CORNER_LABELS[0]}) — clicks outside the photo frame are OK`;
@@ -328,16 +389,23 @@ function wireToolbar() {
     el("save-status").className = "";
   });
   el("scene-type").addEventListener("change", (e) => {
-    if (state.current) state.current.sceneType = e.target.value;
+    if (state.current) {
+      state.current.sceneType = e.target.value;
+      state.dirty = true;
+    }
   });
   el("orientation").addEventListener("change", (e) => {
-    if (state.current) state.current.orientation = e.target.value;
+    if (state.current) {
+      state.current.orientation = e.target.value;
+      state.dirty = true;
+    }
   });
   el("save-label").addEventListener("click", saveLabel);
   el("delete-quad").addEventListener("click", () => {
     if (state.selectedQuadIndex < 0) return;
     state.current.quads.splice(state.selectedQuadIndex, 1);
     state.selectedQuadIndex = -1;
+    state.dirty = true;
     renderQuadList();
     redrawOverlay();
   });
@@ -386,6 +454,7 @@ function renderQuadEditor() {
       const set = new Set(quad.tags);
       cb.checked ? set.add(cb.value) : set.delete(cb.value);
       quad.tags = [...set];
+      state.dirty = true;
       renderQuadList();
     };
   }
@@ -442,6 +511,7 @@ function renderPrintingResults(result) {
     li.addEventListener("click", () => {
       if (state.selectedQuadIndex < 0) return;
       state.current.quads[state.selectedQuadIndex].printingId = li.dataset.id;
+      state.dirty = true;
       renderQuadList();
       redrawOverlay();
     });
@@ -468,6 +538,7 @@ async function saveLabel() {
   if (res.ok) {
     status.textContent = "saved.";
     status.className = "ok";
+    state.dirty = false;
     await refreshPhotoList();
   } else {
     status.textContent = `NOT saved — validation failed:\n${(res.body.errors || []).join("\n")}`;
