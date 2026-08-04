@@ -15,6 +15,10 @@ import {
   buildExportOptionsPlist,
   redactSecrets,
   signAppStoreConnectJwt,
+  formatVerifyBuildReport,
+  shouldContinuePolling,
+  type BuildBetaDetailAttributes,
+  type VerifyBuildEntry,
 } from './lib';
 
 // Streams stdin line-by-line, redacting + writing each line as soon as it
@@ -146,9 +150,55 @@ async function cmdResolveTeamId(args: string[]): Promise<number> {
   return 0;
 }
 
+// #257 — a build's buildBetaDetail is only meaningful once Apple's binary
+// processing finished (processingState VALID); fetching it earlier just
+// returns the "still processing" default state and adds noise. A fetch
+// failure here is passed through as `null` — describeBuildVisibility
+// (invoked inside formatVerifyBuildReport) treats a missing detail as a
+// problem, never as silent success.
+async function fetchBuildBetaDetail(buildId: string): Promise<BuildBetaDetailAttributes | null> {
+  const res = await ascFetch(`/builds/${buildId}/buildBetaDetail`);
+  if (!res.ok) {
+    console.error(`ASC API /builds/${buildId}/buildBetaDetail lookup failed: ${res.status} ${res.statusText}`);
+    return null;
+  }
+  const body = (await res.json()) as { data: { attributes: BuildBetaDetailAttributes } };
+  return body.data.attributes;
+}
+
+async function fetchLatestBuilds(appId: string): Promise<VerifyBuildEntry[] | null> {
+  const buildsRes = await ascFetch(
+    `/builds?filter[app]=${appId}&sort=-uploadedDate&limit=5&fields[builds]=version,uploadedDate,processingState,expired`,
+  );
+  if (!buildsRes.ok) {
+    console.error(`ASC API /builds lookup failed: ${buildsRes.status} ${buildsRes.statusText}`);
+    return null;
+  }
+  const buildsBody = (await buildsRes.json()) as { data: VerifyBuildEntry[] };
+  return buildsBody.data;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// #257 review round 2, MAJOR #2 — testflight-release.sh invokes verify-build
+// immediately after upload, when the latest build is almost always still
+// PROCESSING (Apple's own processing window runs "several minutes to a
+// couple of hours" per docs/ios-distribution.md). The prior single-shot
+// check ran exactly once at that moment, so the hard-fail path could never
+// actually observe #257's bug. Poll instead, bounded so the release script
+// doesn't block indefinitely — 10 minutes covers the common case; a build
+// still processing after that is reported as NOT VERIFIED (not a failure),
+// not silently treated as fine.
+const DEFAULT_POLL_TIMEOUT_SECONDS = 600;
+const POLL_INTERVAL_SECONDS = 20;
+
 async function cmdVerifyBuild(args: string[]): Promise<number> {
   const { flags } = parseFlags(args);
   const bundleId = flags['bundle-id'] ?? process.env.BUNDLE_ID ?? 'io.fabcollections';
+  const pollTimeoutSeconds =
+    flags['poll-timeout'] !== undefined ? Number(flags['poll-timeout']) : DEFAULT_POLL_TIMEOUT_SECONDS;
 
   const appsRes = await ascFetch(`/apps?filter[bundleId]=${encodeURIComponent(bundleId)}`);
   if (!appsRes.ok) {
@@ -163,26 +213,41 @@ async function cmdVerifyBuild(args: string[]): Promise<number> {
   }
   console.log(`app: ${app.attributes.name} (${bundleId}), asc app id ${app.id}`);
 
-  const buildsRes = await ascFetch(
-    `/builds?filter[app]=${app.id}&sort=-uploadedDate&limit=5&fields[builds]=version,uploadedDate,processingState,expired`,
-  );
-  if (!buildsRes.ok) {
-    console.error(`ASC API /builds lookup failed: ${buildsRes.status} ${buildsRes.statusText}`);
-    return 1;
+  const startedAt = Date.now();
+  let builds: VerifyBuildEntry[];
+  for (;;) {
+    const fetched = await fetchLatestBuilds(app.id);
+    if (fetched === null) {
+      return 1;
+    }
+    builds = fetched;
+    if (builds.length === 0) {
+      console.log('no builds visible yet for this app (processing can take several minutes after upload)');
+      return 0;
+    }
+    const elapsedSeconds = (Date.now() - startedAt) / 1000;
+    if (!shouldContinuePolling(builds[0].attributes.processingState, elapsedSeconds, pollTimeoutSeconds)) {
+      break;
+    }
+    await sleep(POLL_INTERVAL_SECONDS * 1000);
   }
-  const buildsBody = (await buildsRes.json()) as {
-    data: Array<{ id: string; attributes: { version: string; uploadedDate: string; processingState: string; expired: boolean } }>;
-  };
-  if (buildsBody.data.length === 0) {
-    console.log('no builds visible yet for this app (processing can take several minutes after upload)');
-    return 0;
+
+  const elapsedSeconds = (Date.now() - startedAt) / 1000;
+  const betaDetailsById = new Map<string, BuildBetaDetailAttributes | null>();
+  for (const build of builds) {
+    if (build.attributes.processingState === 'VALID') {
+      betaDetailsById.set(build.id, await fetchBuildBetaDetail(build.id));
+    }
   }
-  for (const build of buildsBody.data) {
-    console.log(
-      `build ${build.attributes.version} — ${build.attributes.processingState} — uploaded ${build.attributes.uploadedDate}${build.attributes.expired ? ' (expired)' : ''} — id ${build.id}`,
-    );
+
+  const report = formatVerifyBuildReport(builds, betaDetailsById, {
+    latestStillProcessingAfterTimeout:
+      builds[0].attributes.processingState === 'PROCESSING' && elapsedSeconds >= pollTimeoutSeconds,
+  });
+  for (const line of report.lines) {
+    console.log(line);
   }
-  return 0;
+  return report.exitCode;
 }
 
 async function cmdEnsureTesterGroup(args: string[]): Promise<number> {

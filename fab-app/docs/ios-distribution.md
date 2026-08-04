@@ -141,9 +141,16 @@ model (they cannot authenticate without the `.p8` private key).
 - **Build not visible yet in App Store Connect / still "processing"**: normal — Apple's build
   processing (virus scan, export compliance check, symbol/ICU validation) typically takes
   several minutes to a couple of hours after a successful upload before the build is assignable
-  to a testing group. The script's final `verify-build` check reports whatever processing state
-  is visible at the time it runs; re-check App Store Connect directly if it's still "Processing".
-- **Export compliance**: the first build for a new app version may prompt for an export
-  compliance answer in App Store Connect (uses encryption: no, for this app) before it can be
-  distributed to testers — a one-time manual step per version if Apple doesn't infer it
-  automatically from the archive.
+  to a testing group. The script's final `verify-build` check polls for up to 10 minutes
+  (`--poll-timeout <seconds>` to override) waiting for the build to leave "Processing"; if it's
+  still processing after that window, `verify-build` prints a "NOT VERIFIED" line and exits 0 —
+  re-run `verify-build --bundle-id io.fabcollections` by hand later, or check App Store Connect
+  directly.
+- **Export compliance**: `Info.plist` declares `ITSAppUsesNonExemptEncryption=false` (#257) — the
+  app uses only standard HTTPS transport and SHA-256 hashing, no other cryptography — so Apple
+  should no longer prompt for an export compliance answer per version. Before this fix, a missing
+  declaration silently left builds stuck at `buildBetaDetail.internalBuildState:
+  MISSING_EXPORT_COMPLIANCE`, hidden from every tester with no visible row anywhere in App Store
+  Connect's UI; `verify-build` now surfaces that state explicitly (`beta visibility: PROBLEM —
+  internal=MISSING_EXPORT_COMPLIANCE ...`) if it ever recurs (e.g. a future non-exempt dependency
+  is added and the plist isn't updated).

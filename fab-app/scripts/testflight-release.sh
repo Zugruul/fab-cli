@@ -134,5 +134,24 @@ if ! xcodebuild -exportArchive \
 fi
 
 echo "==> Upload complete. Logs + artifacts: $RUN_DIR"
-echo "==> Checking build visibility in App Store Connect (processing can take several minutes)"
-"${CLI[@]}" verify-build --bundle-id "$BUNDLE_ID" || echo "testflight-release: verification check failed — inspect App Store Connect manually" >&2
+echo "==> Checking build visibility in App Store Connect (this can wait up to 10 minutes for Apple's processing to finish; re-run 'verify-build' by hand if it's still processing after that)"
+# verify-build polls (bounded, default 10 minutes — see cli.ts's
+# DEFAULT_POLL_TIMEOUT_SECONDS) until the latest build's processingState
+# leaves PROCESSING, then checks buildBetaDetail (#257 review round 2,
+# MAJOR #2). Its exit code is meaningful, not just an API-reachability
+# check: it fails here only once the build reached a terminal state that
+# still isn't visible to testers — VALID but buildBetaDetail says
+# not-yet-IN_BETA_TESTING (e.g. stuck at MISSING_EXPORT_COMPLIANCE), or
+# Apple rejected the build outright (INVALID/FAILED). If it's still
+# PROCESSING after the poll timeout, that's reported as NOT VERIFIED and
+# this exits 0 — Apple's own processing window can run "several minutes to
+# a couple of hours" (docs/ios-distribution.md), so that alone is never
+# treated as a failure. That precision is what makes it safe to fail the
+# whole script loudly on a genuine problem instead of the old silent
+# warn-and-continue: the build 1 incident (#257) cost a full debugging
+# cycle specifically because nothing signaled "this needs a human" until
+# someone went looking by hand.
+if ! "${CLI[@]}" verify-build --bundle-id "$BUNDLE_ID"; then
+  echo "testflight-release: upload succeeded, but the build is not visible to testers — inspect App Store Connect (see beta visibility line above)" >&2
+  exit 1
+fi

@@ -113,6 +113,164 @@ export function redactSecrets(text: string, secrets: Array<string | undefined | 
   return result.replace(JWT_PATTERN, '***REDACTED-JWT***');
 }
 
+export interface BuildBetaDetailAttributes {
+  internalBuildState?: string | null;
+  externalBuildState?: string | null;
+}
+
+export interface BuildVisibility {
+  visible: boolean;
+  line: string;
+}
+
+/**
+ * #257 — a build can reach processingState "VALID" (Apple's binary
+ * validation passed) while its buildBetaDetail.internalBuildState is stuck
+ * at e.g. "MISSING_EXPORT_COMPLIANCE" — hidden from every tester, with no
+ * "missing compliance" row anywhere in App Store Connect's UI. From the
+ * verify-build output alone, "VALID" reads as success even though the build
+ * is invisible. This is the single source of truth for whether a build is
+ * *actually* visible to testers: visible only when processingState is VALID,
+ * the build isn't expired, and internalBuildState is exactly
+ * "IN_BETA_TESTING" — every other combination (including a failed/missing
+ * buildBetaDetail fetch) is reported as a problem, never silently as ok, so
+ * this exact confusion can't happen again.
+ */
+export function describeBuildVisibility(
+  build: { processingState: string; expired?: boolean },
+  betaDetail: BuildBetaDetailAttributes | null,
+): BuildVisibility {
+  const internal = betaDetail?.internalBuildState ?? 'UNKNOWN (buildBetaDetail unavailable)';
+  const external = betaDetail?.externalBuildState ?? 'n/a';
+  const visible =
+    build.processingState === 'VALID' && !build.expired && betaDetail?.internalBuildState === 'IN_BETA_TESTING';
+
+  const line = visible
+    ? `  beta visibility: ok — internal=${internal} external=${external}`
+    : `  beta visibility: PROBLEM — internal=${internal} external=${external} — build is not visible to testers`;
+
+  return { visible, line };
+}
+
+export interface VerifyBuildAttributes {
+  version: string;
+  uploadedDate: string;
+  processingState: string;
+  expired: boolean;
+}
+
+export interface VerifyBuildEntry {
+  id: string;
+  attributes: VerifyBuildAttributes;
+}
+
+export interface VerifyBuildReport {
+  lines: string[];
+  exitCode: number;
+}
+
+export interface FormatVerifyBuildReportOptions {
+  /**
+   * True when the caller's poll loop gave up waiting for the latest build
+   * to leave PROCESSING within its timeout budget. Distinct from a genuine
+   * problem: Apple simply hasn't finished yet (its own processing window
+   * runs "several minutes to a couple of hours" — docs/ios-distribution.md),
+   * so this is reported as NOT VERIFIED rather than a failure and never
+   * affects the exit code.
+   */
+  latestStillProcessingAfterTimeout?: boolean;
+}
+
+// processingState values the App Store Connect API returns. PROCESSING is
+// the normal transient state right after upload; VALID means the binary
+// passed Apple's checks (but says nothing about tester visibility — see
+// describeBuildVisibility); INVALID/FAILED mean Apple rejected the binary
+// outright. That last case is a different failure mode than #257's
+// beta-hidden scenario, but it's just as much a build that will never reach
+// testers and must not be silently reported as fine (review round 2, MINOR
+// #2 — the prior version of this file only ever inspected VALID builds).
+const BUILD_PROCESSING_FAILURE_STATES = new Set(['INVALID', 'FAILED']);
+
+/**
+ * Pure assembly of verify-build's printed report + exit code from
+ * already-fetched data: the up-to-5 most recently uploaded builds, plus —
+ * for whichever of them reached processingState VALID — their
+ * buildBetaDetail, looked up by build id in `betaDetailsById`. A build id
+ * absent from that map means "not fetched" (the build wasn't VALID, so
+ * there was nothing meaningful to fetch); a fetch that was attempted but
+ * failed is recorded there as an explicit `null`, matching
+ * describeBuildVisibility's own not-visible-until-proven-visible contract.
+ *
+ * Only the most recently uploaded build (builds[0], by the caller's
+ * sort=-uploadedDate contract) drives the exit code — older builds print
+ * for context only, since a prior build's stuck state is no longer
+ * actionable once a newer build has superseded it.
+ *
+ * Mutation-tested (#257 review round 2, MAJOR #1): the earlier version of
+ * this logic lived directly in cli.ts's cmdVerifyBuild with no test
+ * coverage at all — a mutation collapsing its exit-code line to a bare
+ * `return 0` survived the full suite untouched. Moving the decision here
+ * and covering it closes that gap; see lib.test.ts for the same mutation
+ * applied to this function and caught.
+ */
+export function formatVerifyBuildReport(
+  builds: VerifyBuildEntry[],
+  betaDetailsById: Map<string, BuildBetaDetailAttributes | null>,
+  options: FormatVerifyBuildReportOptions = {},
+): VerifyBuildReport {
+  if (builds.length === 0) {
+    return {
+      lines: ['no builds visible yet for this app (processing can take several minutes after upload)'],
+      exitCode: 0,
+    };
+  }
+
+  const lines: string[] = [];
+  let latestBuildIsProblem = false;
+
+  builds.forEach((build, index) => {
+    lines.push(
+      `build ${build.attributes.version} — ${build.attributes.processingState} — uploaded ${build.attributes.uploadedDate}${build.attributes.expired ? ' (expired)' : ''} — id ${build.id}`,
+    );
+
+    if (build.attributes.processingState === 'VALID') {
+      const betaDetail = betaDetailsById.get(build.id) ?? null;
+      const { visible, line } = describeBuildVisibility(build.attributes, betaDetail);
+      lines.push(line);
+      if (index === 0 && !visible) {
+        latestBuildIsProblem = true;
+      }
+    } else if (BUILD_PROCESSING_FAILURE_STATES.has(build.attributes.processingState)) {
+      lines.push(
+        `  beta visibility: PROBLEM — Apple rejected this build during processing (processingState: ${build.attributes.processingState})`,
+      );
+      if (index === 0) {
+        latestBuildIsProblem = true;
+      }
+    } else if (index === 0 && options.latestStillProcessingAfterTimeout) {
+      lines.push(
+        `  beta visibility: NOT VERIFIED — still ${build.attributes.processingState} after the poll timeout — re-run \`verify-build\` later`,
+      );
+    }
+  });
+
+  return { lines, exitCode: latestBuildIsProblem ? 1 : 0 };
+}
+
+/**
+ * Decides whether verify-build's poll loop should wait and check again.
+ * Only PROCESSING is worth waiting out — it's the sole transient state;
+ * VALID/INVALID/FAILED are all immediately terminal, so polling stops the
+ * moment processingState leaves PROCESSING or the timeout budget runs out,
+ * whichever comes first (#257 review round 2, MAJOR #2 — the prior version
+ * ran this check exactly once, immediately after upload, when the build is
+ * almost always still PROCESSING, so the hard-fail path added for MAJOR #2
+ * could never actually observe the bug it exists to catch).
+ */
+export function shouldContinuePolling(processingState: string, elapsedSeconds: number, timeoutSeconds: number): boolean {
+  return processingState === 'PROCESSING' && elapsedSeconds < timeoutSeconds;
+}
+
 const ASC_MAX_TOKEN_LIFETIME_SECONDS = 1200; // App Store Connect API's hard cap (20 minutes)
 
 export interface AscJwtOptions {
