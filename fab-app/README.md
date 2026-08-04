@@ -286,6 +286,14 @@ The generated `android/` project is left as-is from the RN template (untouched b
 `@react-native-community/cli init` produced) so Android stays viable per NG7, but it hasn't
 been built or exercised here — this environment has no emulator and APP-030 is iOS-first.
 
+## Distribution
+
+`npm run testflight` runs a one-command archive → export → upload to TestFlight (App Store
+Connect API key auth, cloud-managed signing, no Xcode GUI sign-in required). See
+[`docs/ios-distribution.md`](docs/ios-distribution.md) for required env vars, adding a new
+internal tester, and troubleshooting. Not part of `npm run gate` — same "native builds are slow
+and the gate stays network-off" reasoning as the iOS section above.
+
 ## License
 
 MIT (see `LICENSE`). Per the monorepo's GPL isolation rule (`../SPEC-APP.md` §6.7), fab-app

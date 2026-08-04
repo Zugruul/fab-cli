@@ -14,7 +14,8 @@
     "format:check": "prettier --check .",
     "test": "jest",
     "test:run": "jest",
-    "gate": "npm run typecheck && npm run lint && npm run test:run"
+    "gate": "npm run typecheck && npm run lint && npm run test:run",
+    "testflight": "bash scripts/testflight-release.sh"
   },
   "dependencies": {
     "@fab/manifest-schema": "workspace:*",
@@ -53,6 +54,7 @@
     "jest": "^29.6.3",
     "prettier": "2.8.8",
     "react-test-renderer": "19.2.3",
+    "tsx": "^4.23.5",
     "typescript": "^5.8.3"
   },
   "engines": {
