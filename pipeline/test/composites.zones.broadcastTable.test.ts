@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { stackHorizontally, mergeBroadcastTableRenders } from "../src/composites/zones/twoPlayer.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 import type { RenderResult } from "../src/composites/compositor.js";
+import type { CompositeCardLabel } from "../src/composites/types.js";
 
 // #256 Phase C.1: landscape table, VERTICAL mirror axis — 90° off
 // `--mode two-player`'s horizontal (near/far, top/bottom) mirror axis.
@@ -71,7 +72,16 @@ function renderResult(overrides: Partial<RenderResult> = {}): RenderResult {
 }
 
 describe("mergeBroadcastTableRenders — left/right labels (landscape, vertical mirror axis)", () => {
-  it("left mat's cards are untouched in x, translated by 0 in x/y; right mat's cards are 180-rotated about the mat center, then translated by matWidth in x", () => {
+  // CORRECTED 2026-08-04 (human-reported squish): each mat is rotated a
+  // QUARTER TURN before stacking (left cw, right ccw), so a 20x10 landscape
+  // mat becomes 10x20 portrait and the pair is 20x20 — not the 40x10 this
+  // test previously asserted. That old expectation encoded the bug: two
+  // unrotated landscape mats produced an over-wide canvas that could only be
+  // fitted into the play-area rect by squashing it, which is what drove every
+  // table card's label aspect to 0.259 instead of 63/88 = 0.716. cw/ccw keeps
+  // the players facing each other (ccw === cw + 180°).
+  // See composites.zones.broadcastTableRotation.test.ts for the full lock.
+  it("each mat is quarter-turned before stacking: left cw, right ccw-then-translated by the rotated half width", () => {
     const left = renderResult({
       label: {
         ...renderResult().label,
@@ -88,19 +98,47 @@ describe("mergeBroadcastTableRenders — left/right labels (landscape, vertical 
     });
 
     const merged = mergeBroadcastTableRenders(left, right, "broadcast-table-0000");
-    expect(merged.image.width).toBe(40); // 20+20, landscape (wider than tall)
-    expect(merged.image.height).toBe(10);
-    expect(merged.label.width).toBe(40);
-    expect(merged.label.height).toBe(10);
+    // Each 20x10 mat becomes 10x20 after its quarter turn; two side by side
+    // is 20 wide x 20 tall.
+    expect(merged.image.width).toBe(20);
+    expect(merged.image.height).toBe(20);
+    expect(merged.label.width).toBe(20);
+    expect(merged.label.height).toBe(20);
     expect(merged.label.compositeId).toBe("broadcast-table-0000");
 
     const leftCard = merged.label.cards.find((c) => c.printingId === "left-card")!;
-    expect(leftCard.corners).toEqual([{ x: 1, y: 1 }, { x: 5, y: 1 }, { x: 5, y: 5 }, { x: 1, y: 5 }]); // untouched
+    // cw about a 20x10 mat: (x,y) -> (matHeight - y, x) = (10-y, x)
+    // (1,1)->(9,1); (5,1)->(9,5); (5,5)->(5,5); (1,5)->(5,1)
+    expect(leftCard.corners).toEqual([{ x: 9, y: 1 }, { x: 9, y: 5 }, { x: 5, y: 5 }, { x: 5, y: 1 }]);
 
     const rightCard = merged.label.cards.find((c) => c.printingId === "right-card")!;
-    // rotate180AboutMat(20,10): (x,y)->(20-x,10-y), THEN translate by (+20,0):
-    // (1,1)->(19,9)->(39,9); (5,1)->(15,9)->(35,9); (5,5)->(15,5)->(35,5); (1,5)->(19,5)->(39,5)
-    expect(rightCard.corners).toEqual([{ x: 39, y: 9 }, { x: 35, y: 9 }, { x: 35, y: 5 }, { x: 39, y: 5 }]);
+    // ccw about a 20x10 mat: (x,y) -> (y, matWidth - x) = (y, 20-x),
+    // THEN translate by the rotated half width (+10, 0):
+    // (1,1)->(1,19)->(11,19); (5,1)->(1,15)->(11,15); (5,5)->(5,15)->(15,15); (1,5)->(5,19)->(15,19)
+    expect(rightCard.corners).toEqual([{ x: 11, y: 19 }, { x: 11, y: 15 }, { x: 15, y: 15 }, { x: 15, y: 19 }]);
+  });
+
+  it("preserves each card's edge lengths — a quarter turn is rigid, so no squish is possible", () => {
+    // The regression this whole correction exists for: a 4x4 card in mat
+    // space must still measure 4x4 after merging. Under the old unrotated
+    // stack the canvas was over-wide and downstream fitting squashed cards to
+    // ~0.26 of their true aspect.
+    const card = {
+      printingId: "c",
+      corners: [{ x: 1, y: 1 }, { x: 5, y: 1 }, { x: 5, y: 5 }, { x: 1, y: 5 }],
+      tags: [],
+      visibleFraction: 1,
+      region: "table",
+    } as unknown as CompositeCardLabel;
+    const left = renderResult({ label: { ...renderResult().label, cards: [card] } });
+    const right = renderResult({ label: { ...renderResult().label, cards: [{ ...card, printingId: "c2" }] } });
+    const merged = mergeBroadcastTableRenders(left, right, "x");
+    const side = (a: { x: number; y: number }, b: { x: number; y: number }) => Math.hypot(a.x - b.x, a.y - b.y);
+    for (const c of merged.label.cards) {
+      const q = c.corners;
+      expect((side(q[0], q[1]) + side(q[3], q[2])) / 2).toBeCloseTo(4, 6);
+      expect((side(q[1], q[2]) + side(q[0], q[3])) / 2).toBeCloseTo(4, 6);
+    }
   });
 
   it("sums excludedCards and cardBacksPlaced across both mats", () => {

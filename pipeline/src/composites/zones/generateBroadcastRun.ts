@@ -25,7 +25,34 @@ import { applyBroadcastAugmentation } from "./applyBroadcastAugmentation.js";
 import { mergeBroadcastTableRenders } from "./twoPlayer.js";
 import { renderBroadcastFrame } from "./broadcastCompositor.js";
 import type { RenderBroadcastFrameResult } from "./broadcastCompositor.js";
-import { createStackShimImage, createDiceImage, createHandImage } from "./broadcastOccluders.js";
+import { createStackShimImage, createDiceImage, createHandImage, applyDirectionalMotionBlur } from "./broadcastOccluders.js";
+import type { OccluderImageSpec } from "./applyBroadcastAugmentation.js";
+
+/**
+ * Renders one occluder spec into pixels. Extracted from the per-composite
+ * loop below so the dispatch itself is directly testable — specifically the
+ * hand's motion-blur wiring, which is a bug class unit tests of
+ * `applyDirectionalMotionBlur` alone cannot catch: "the primitive exists and
+ * is correct, but nothing ever calls it" leaves every primitive test green
+ * while the feature is entirely absent from output.
+ *
+ * `blurStrength` comes from the seeded param stream (planBroadcastAugmentation's
+ * `handBlurDraw`), and 0 is a legitimate draw — `applyDirectionalMotionBlur`
+ * treats `strength <= 0` as an exact no-op copy, so a 0-strength hand is
+ * byte-identical to the unblurred image rather than a special-cased skip.
+ * The blur angle follows the hand's own entry direction so the smear reads as
+ * motion along the hand, not an arbitrary axis.
+ */
+export function buildOccluderImage(spec: OccluderImageSpec): RawImage {
+  if (spec.kind === "shim") return createStackShimImage(spec.width, spec.height, spec.color);
+  if (spec.kind === "dice") return createDiceImage(spec.width, spec.height, spec.bodyColor, spec.pipColor, spec.face);
+  const hand = createHandImage(spec.width, spec.height, spec.skinTone);
+  return applyDirectionalMotionBlur(hand, spec.blurStrength, HAND_MOTION_BLUR_ANGLE_DEG);
+}
+
+/** Hands sweep roughly across the table (horizontally) in the reference
+ * broadcast captures, so the smear runs along x. */
+export const HAND_MOTION_BLUR_ANGLE_DEG = 0;
 import { pickDeterministic } from "./semanticSelection.js";
 import type { RawCardForSelection } from "./semanticSelection.js";
 import { buildEligibleByKind } from "./generateZoneRun.js";
@@ -169,9 +196,7 @@ export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Pr
     // silently reuse composite 0's dice image for composite 1's.
     const occluderImages = new Map<string, RawImage>();
     for (const spec of occluderSpecs) {
-      if (spec.kind === "shim") occluderImages.set(spec.printingId, createStackShimImage(spec.width, spec.height, spec.color));
-      else if (spec.kind === "dice") occluderImages.set(spec.printingId, createDiceImage(spec.width, spec.height, spec.bodyColor, spec.pipColor, spec.face));
-      else occluderImages.set(spec.printingId, createHandImage(spec.width, spec.height, spec.skinTone));
+      occluderImages.set(spec.printingId, buildOccluderImage(spec));
     }
 
     async function loadCardsForPlan(plan: { cards: { printingId: string; imagePath: string; isOccluder?: boolean }[] }): Promise<LoadedCard[]> {

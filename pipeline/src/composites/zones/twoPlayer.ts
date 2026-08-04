@@ -40,6 +40,65 @@ export function rotate180RawImage(img: RawImage): RawImage {
   return { width: img.width, height: img.height, data: out };
 }
 
+/**
+ * Rotates an image a quarter turn. `cw` maps source (x, y) -> (H - 1 - y, x)
+ * and `ccw` maps (x, y) -> (y, W - 1 - x); both swap the canvas dimensions
+ * (W x H -> H x W). Like rotate180RawImage this is a pure pixel re-read, not
+ * a re-render, and is exactly lossless (cw then ccw is the identity).
+ *
+ * Needed because a playmat is authored LANDSCAPE (its zone rows run across
+ * the mat) but on a real tournament table the two mats are laid out along
+ * the table's long axis, each turned a quarter turn so a player's zone rows
+ * run down their own side of frame. Stacking two landscape mats instead
+ * produces a canvas roughly 2*(W/H) wide, which then can only be fitted into
+ * a landscape play-area rect by squashing it — see this module's
+ * mergeBroadcastTableRenders and the test file that locks it.
+ */
+export function rotate90RawImage(img: RawImage, direction: "cw" | "ccw"): RawImage {
+  const { width: w, height: h } = img;
+  const out = new Uint8ClampedArray(img.data.length);
+  // Rotated canvas is h wide, w tall.
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const src = (y * w + x) * 4;
+      const dx = direction === "cw" ? h - 1 - y : y;
+      const dy = direction === "cw" ? x : w - 1 - x;
+      const dst = (dy * h + dx) * 4;
+      out[dst] = img.data[src];
+      out[dst + 1] = img.data[src + 1];
+      out[dst + 2] = img.data[src + 2];
+      out[dst + 3] = img.data[src + 3];
+    }
+  }
+  return { width: h, height: w, data: out };
+}
+
+/**
+ * The quad analog of rotate90RawImage — the SAME geometric operation applied
+ * to a label, so a card's quad never silently diverges from where its pixels
+ * actually landed (geometry.ts's contract). Continuous-coordinate form of the
+ * pixel map above: cw is (x, y) -> (matHeight - y, x), ccw is (x, y) ->
+ * (y, matWidth - x).
+ *
+ * Corner TUPLE ORDER is preserved — index 0..3 stays TL/TR/BR/BL by SOURCE
+ * identity, not by post-rotation visual position, matching
+ * rotateQuad180AboutMat and computeDestQuad's documented rotationDeg
+ * handling. Never clamped: an off-mat corner stays off-mat (amodal).
+ *
+ * Being a rigid motion, this cannot change a card's edge lengths — which is
+ * precisely why the fix for the squish is a rotation and not a rescale.
+ */
+export function rotateQuad90AboutMat(
+  corners: [Point, Point, Point, Point],
+  matWidth: number,
+  matHeight: number,
+  direction: "cw" | "ccw",
+): [Point, Point, Point, Point] {
+  const turn = (p: Point): Point =>
+    direction === "cw" ? { x: matHeight - p.y, y: p.x } : { x: p.y, y: matWidth - p.x };
+  return [turn(corners[0]), turn(corners[1]), turn(corners[2]), turn(corners[3])];
+}
+
 /** Stacks `top` directly above `bottom` into one canvas of the combined
  * height — both must share the same width. */
 export function stackVertically(top: RawImage, bottom: RawImage): RawImage {
@@ -133,15 +192,29 @@ export function mergeTwoPlayerRenders(near: RenderResult, far: RenderResult, com
  * Landscape, VERTICAL-mirror-axis analog of mergeTwoPlayerRenders above
  * (#256 Phase C.1) — 90° off that function's horizontal/near-far axis:
  * players sit LEFT and RIGHT of frame instead of near/far, top/bottom.
- * `left` becomes the LEFT half (upright, untouched — it already occupies
- * x in [0,matWidth)); `right` becomes the RIGHT half (rotated 180° about
- * its own mat center — same rotateQuad180AboutMat/rotate180RawImage this
- * file already uses for the far mat above, since a 180° rotation about a
- * mat's own center is the identical operation regardless of which axis
- * the two mats end up arranged along — then translated by matWidth in x,
- * 0 in y). Reuses RenderResult/CompositeLabel unchanged, so the result
- * flows through write.ts/sampleSheet.ts exactly like any other composite,
- * same as mergeTwoPlayerRenders.
+ *
+ * Each mat is first rotated a QUARTER TURN (left cw, right ccw), THEN placed
+ * side by side. The quarter turn is what makes this a real table rather than
+ * two landscape mats jammed together:
+ *
+ *   - A playmat is authored landscape (matWidth x matHeight, matWidth >
+ *     matHeight). Stacking two of those unrotated gives a canvas of aspect
+ *     2*(matWidth/matHeight) — 3.43 for the real 1728x1008 Combat Chain mat —
+ *     which can only be fitted into the landscape play-area rect (aspect
+ *     ~1.16) by a NON-UNIFORM scale. That squash is what produced 249 card
+ *     labels at aspect 0.259 against a real card's 63/88 = 0.716.
+ *   - Rotated first, each mat is matHeight x matWidth (portrait) and the pair
+ *     is 2*matHeight x matWidth — 2016x1728, aspect 1.166 for the real mat,
+ *     i.e. the play-area aspect. It fits under a UNIFORM scale, so a card
+ *     keeps its 0.716.
+ *
+ * Using cw for one side and ccw for the other keeps the relative 180° between
+ * the players — they still face each other across the table — since
+ * ccw === cw composed with a 180° turn. Every card quad is transformed by the
+ * exact operation applied to its pixels, from this one place, so labels can
+ * never diverge from the render (geometry.ts's contract). Reuses
+ * RenderResult/CompositeLabel unchanged, so the result flows through
+ * write.ts/sampleSheet.ts exactly like any other composite.
  */
 export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResult, compositeId: string): RenderResult {
   if (left.image.width !== right.image.width || left.image.height !== right.image.height) {
@@ -152,20 +225,27 @@ export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResu
   const matWidth = left.image.width;
   const matHeight = left.image.height;
 
-  const rightRotated = rotate180RawImage(right.image);
-  const image = stackHorizontally(left.image, rightRotated);
+  const leftRotated = rotate90RawImage(left.image, "cw");
+  const rightRotated = rotate90RawImage(right.image, "ccw");
+  const image = stackHorizontally(leftRotated, rightRotated);
 
-  const leftCards: CompositeCardLabel[] = left.label.cards.map((c) => ({ ...c }));
+  // Post-rotation each mat occupies matHeight in x and matWidth in y.
+  const halfWidth = matHeight;
+
+  const leftCards: CompositeCardLabel[] = left.label.cards.map((c) => ({
+    ...c,
+    corners: rotateQuad90AboutMat(c.corners, matWidth, matHeight, "cw"),
+  }));
   const rightCards: CompositeCardLabel[] = right.label.cards.map((c) => ({
     ...c,
-    corners: translateQuad(rotateQuad180AboutMat(c.corners, matWidth, matHeight), matWidth, 0),
+    corners: translateQuad(rotateQuad90AboutMat(c.corners, matWidth, matHeight, "ccw"), halfWidth, 0),
   }));
 
   const label: CompositeLabel = {
     compositeId,
     fileName: `${compositeId}.png`,
-    width: matWidth * 2,
-    height: matHeight,
+    width: halfWidth * 2,
+    height: matWidth,
     backgroundType: left.label.backgroundType,
     backgroundHash: left.label.backgroundHash,
     cards: [...leftCards, ...rightCards],
