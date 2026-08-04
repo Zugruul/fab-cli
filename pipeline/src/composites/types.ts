@@ -26,8 +26,8 @@ export type CompositeBackgroundKind = `procedural:${BackgroundType}` | "external
  * LABEL_SCHEMA_VERSION convention). #244: backgroundType widened from
  * BackgroundType to CompositeBackgroundKind + backgroundHash added. #252:
  * cards[] entries gained visibleFraction, and the label gained
- * excludedCards. */
-export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.3.0";
+ * excludedCards. #253: the label gained cardBacksPlaced. */
+export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.4.0";
 
 /**
  * One pasted card's ground truth, extending the shared Quad vocabulary
@@ -134,4 +134,19 @@ export interface CompositeLabel {
    * pixels. 0 for a composite where every pasted card cleared the
    * threshold — the common case. */
   excludedCards: number;
+  /** Count of official card-back placements pasted into this composite
+   * (#253's DECK zone) — a THIRD, orthogonal reason (alongside plain
+   * `cards.length` and `excludedCards`) a pasted card can be absent from
+   * `cards`. Decision (#253, made with APP-027's encode in mind, which
+   * keys ground truth on printing `unique_id`): a card back has no
+   * printing identity at all, so it is categorically EXCLUDED from
+   * `cards` regardless of visibleFraction — never counted in
+   * `excludedCards` either, since that field specifically means "would
+   * have been labeled, but visibility was too low." Its pixels ARE
+   * rendered and DO participate in occlusion bookkeeping for other cards
+   * (compositor.ts's owner/survivingCount array), exactly like any other
+   * card — only its ground-truth label entry is categorically dropped.
+   * 0 for every composite that places no card back (the base
+   * random-scatter generator never sets this above 0). */
+  cardBacksPlaced: number;
 }

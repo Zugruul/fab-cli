@@ -49,6 +49,7 @@ import type { SampleSheetEntry } from "./sampleSheet.js";
 import type { CompositeDatasetManifest } from "./manifest.js";
 import type { CardImageRef } from "./paramStream.js";
 import type { CompositeLabel } from "./types.js";
+import { zoneGenerateCommand } from "./zones/cli.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..");
 
@@ -277,7 +278,12 @@ async function main(): Promise<void> {
     sampleSheetCommand(rest);
     return;
   }
-  console.error(`unknown composites command: ${command ?? "(none)"} — expected "generate", "import-backgrounds", or "sample-sheet"`);
+  if (command === "zone-generate") {
+    const code = await zoneGenerateCommand(rest);
+    process.exitCode = code;
+    return;
+  }
+  console.error(`unknown composites command: ${command ?? "(none)"} — expected "generate", "import-backgrounds", "sample-sheet", or "zone-generate"`);
   process.exitCode = 1;
 }
 

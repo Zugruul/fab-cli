@@ -83,6 +83,10 @@ export function renderComposite(
   }
   const quads: Quad[] = [];
   const footprintPixels: number[] = [];
+  // #253: parallel to `quads` — whether each pasted card is the official
+  // card back (DECK zone), which must never appear in the label at all
+  // (see types.ts's CompositeLabel.cardBacksPlaced doc).
+  const isCardBackFlags: boolean[] = [];
 
   // #252: single canvas-sized owner-of-record array (not one mask per
   // card) — see this file's header for the memory-cost/paste-order
@@ -113,6 +117,7 @@ export function renderComposite(
     const cardIndex = quads.length;
     footprintPixels.push(countCardFootprintPixels(loaded.image, dstQuad));
     survivingCount.push(0);
+    isCardBackFlags.push(placement.isCardBack === true);
     // Binary ownership per pixel (any alpha > 0 claims it outright, no
     // partial-alpha weighting) — a small, deliberately conservative
     // approximation at antialiased quad edges: it can only ever mark a
@@ -138,9 +143,21 @@ export function renderComposite(
 
   // #252: post-hoc filter — every card was already painted above
   // regardless of what happens here; only the label is affected.
+  // #253: a card back is categorically skipped BEFORE the visibleFraction
+  // check — it is never a candidate for `includedCards`, and never counts
+  // toward `excludedCards` either (that field means "would have been
+  // labeled, but visibility was too low" — a card back was never eligible
+  // for labeling in the first place, a different reason entirely). It was
+  // still painted onto `canvas` above and still occupies `owner` for
+  // occlusion purposes, exactly like any other card.
   const includedCards: CompositeCardLabel[] = [];
   let excludedCards = 0;
+  let cardBacksPlaced = 0;
   for (let i = 0; i < quads.length; i++) {
+    if (isCardBackFlags[i]) {
+      cardBacksPlaced++;
+      continue;
+    }
     const visibleFraction = footprintPixels[i] > 0 ? survivingCount[i] / footprintPixels[i] : 0;
     if (visibleFraction >= minVisibleFraction) {
       includedCards.push({ ...quads[i], visibleFraction });
@@ -158,6 +175,7 @@ export function renderComposite(
     backgroundHash,
     cards: includedCards,
     excludedCards,
+    cardBacksPlaced,
   };
 
   return { image: canvas, label };

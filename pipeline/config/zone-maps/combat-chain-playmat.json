@@ -1,0 +1,17 @@
+{
+  "name": "Combat Chain playmat (LSS 2019 promotional print; reference image staged at pipeline/out/zone-reference-playmat.png, never committed — this JSON is measured geometry, not the copyrighted artwork). Physical layout: HEAD/CHEST/ARMS/LEGS equipment column (left), WEAPON/HERO/WEAPON center row, PITCH/DECK column, GRAVEYARD top-right, BANISHED bottom-right, ARSENAL bottom-center, COMBAT CHAIN banner across the top (not a placement zone). The mat prints two generic 'WEAPON' boxes with no further distinction; this map deterministically assigns the left one to kind 'weapon' (main hand) and the right one to kind 'offHand' (documented decision, #253).",
+  "zones": [
+    { "id": "head", "kind": "head", "rect": { "xFrac": 0.032407, "yFrac": 0.166667, "wFrac": 0.104745, "hFrac": 0.249008 } },
+    { "id": "chest", "kind": "chest", "rect": { "xFrac": 0.032407, "yFrac": 0.4375, "wFrac": 0.104745, "hFrac": 0.249008 } },
+    { "id": "legs", "kind": "legs", "rect": { "xFrac": 0.032407, "yFrac": 0.709325, "wFrac": 0.104745, "hFrac": 0.249008 } },
+    { "id": "arms", "kind": "arms", "rect": { "xFrac": 0.151042, "yFrac": 0.4375, "wFrac": 0.104167, "hFrac": 0.249008 } },
+    { "id": "weapon-main", "kind": "weapon", "rect": { "xFrac": 0.328125, "yFrac": 0.4375, "wFrac": 0.105324, "hFrac": 0.249008 } },
+    { "id": "hero", "kind": "hero", "rect": { "xFrac": 0.447338, "yFrac": 0.4375, "wFrac": 0.104745, "hFrac": 0.249008 } },
+    { "id": "weapon-off", "kind": "offHand", "rect": { "xFrac": 0.565972, "yFrac": 0.4375, "wFrac": 0.105324, "hFrac": 0.249008 } },
+    { "id": "arsenal", "kind": "arsenal", "rect": { "xFrac": 0.447338, "yFrac": 0.709325, "wFrac": 0.104745, "hFrac": 0.249008 } },
+    { "id": "pitch", "kind": "pitch", "rect": { "xFrac": 0.744213, "yFrac": 0.4375, "wFrac": 0.103588, "hFrac": 0.249008 } },
+    { "id": "graveyard", "kind": "graveyard", "rect": { "xFrac": 0.863426, "yFrac": 0.166667, "wFrac": 0.104167, "hFrac": 0.248996 } },
+    { "id": "deck", "kind": "deck", "rect": { "xFrac": 0.863426, "yFrac": 0.4375, "wFrac": 0.104167, "hFrac": 0.249008 } },
+    { "id": "banished", "kind": "banished", "rect": { "xFrac": 0.863426, "yFrac": 0.709325, "wFrac": 0.104167, "hFrac": 0.249008 } }
+  ]
+}

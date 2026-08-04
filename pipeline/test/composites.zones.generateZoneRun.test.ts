@@ -119,8 +119,9 @@ describe("generateZoneRun", () => {
   });
 
   it("is deterministic given the same input", async () => {
-    const a = await generateZoneRun(baseInput());
-    const b = await generateZoneRun(baseInput());
+    const fixedNow = () => "2026-01-01T00:00:00.000Z";
+    const a = await generateZoneRun(baseInput({ now: fixedNow }));
+    const b = await generateZoneRun(baseInput({ now: fixedNow }));
     expect(JSON.stringify(a.manifest)).toBe(JSON.stringify(b.manifest));
   });
 });

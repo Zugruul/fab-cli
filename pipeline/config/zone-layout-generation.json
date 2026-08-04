@@ -1,0 +1,9 @@
+{
+  "seed": 20260804,
+  "cardHeightFraction": 0.92,
+  "jitterPositionFraction": { "min": -0.08, "max": 0.08 },
+  "jitterRotationDeg": { "min": -5, "max": 5 },
+  "arsenalFaceUpProbability": 0.25,
+  "guaranteedArsenalFaceUpIndices": [0],
+  "minVisibleFraction": 0.15
+}

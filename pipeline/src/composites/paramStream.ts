@@ -58,6 +58,16 @@ export interface CardPlacement {
   /** Meaningful only when tags includes "glare". */
   glarePositionFrac: number;
   tags: QuadTag[];
+  /** #253 (zone-aware game-state layouts): true for the official card-back
+   * image placed on a DECK zone. A card back has no printing identity, so
+   * it must never appear in a composite's label even though its pixels
+   * are rendered like any other card and it still participates in
+   * occlusion bookkeeping for other cards — see compositor.ts's handling
+   * and types.ts's CompositeLabel.cardBacksPlaced doc for the full
+   * decision. Absent/false (the default) for every placement produced by
+   * planRun above — zero behavior change for the base random-scatter
+   * generator. */
+  isCardBack?: boolean;
 }
 
 export interface ProceduralBackgroundParams {
