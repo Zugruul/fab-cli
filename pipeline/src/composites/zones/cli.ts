@@ -58,6 +58,12 @@ import type { BroadcastLayoutConfig } from "./broadcastLayout.js";
 import { validateBroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
 import type { BroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
 import { generateBroadcastRun } from "./generateBroadcastRun.js";
+import { buildBroadcastSampleSheetHtml } from "./broadcastSampleSheet.js";
+import type { BroadcastReferenceEntry } from "./broadcastSampleSheet.js";
+import type { SampleSheetEntry } from "../sampleSheet.js";
+import type { CompositeLabel } from "../types.js";
+import type { CompositeDatasetManifest } from "../manifest.js";
+import type { ImportCapturesResult } from "../importCaptures.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..", "..");
 
@@ -290,4 +296,76 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
   console.log(`seed=${manifest.seed}, configHash=${manifest.generatorConfigHash.slice(0, 12)}`);
   console.log(`-> ${args.outDir}`);
   return 0;
+}
+
+// --- composites broadcast-sample-sheet ------------------------------------
+
+export interface BroadcastSampleSheetArgs {
+  runDir: string;
+  capturesDir: string;
+  out: string;
+  title: string;
+  /** Caps how many real reference captures are interleaved (#256 Phase D)
+   * — a full 60-capture corpus would otherwise dwarf a modest synthetic
+   * run in the sheet; capped, not because more is wrong, just to keep the
+   * sheet a reasonable size for a human to actually scroll through. */
+  referenceCount: number;
+}
+
+export function parseBroadcastSampleSheetArgs(argv: string[]): BroadcastSampleSheetArgs {
+  const args: BroadcastSampleSheetArgs = {
+    runDir: path.join(BASE, "out", "broadcast-layouts"),
+    capturesDir: path.join(BASE, "out", "backgrounds", "captures"),
+    out: "",
+    title: "Broadcast composite sample sheet",
+    referenceCount: 12,
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === "--run-dir" && argv[i + 1]) args.runDir = argv[++i];
+    else if (arg === "--captures-dir" && argv[i + 1]) args.capturesDir = argv[++i];
+    else if (arg === "--out" && argv[i + 1]) args.out = argv[++i];
+    else if (arg === "--title" && argv[i + 1]) args.title = argv[++i];
+    else if (arg === "--reference-count" && argv[i + 1]) args.referenceCount = Number(argv[++i]);
+  }
+  if (args.out === "") args.out = path.join(args.runDir, "broadcast-sample-sheet.html");
+  return args;
+}
+
+/** Relative path from the sheet's own output file to a source image
+ * elsewhere on disk — the sheet's <img src> must resolve correctly
+ * regardless of whether runDir/capturesDir/out live in different
+ * directories (the common case: a broadcast run and an import-captures
+ * run are independent commands with independent --out defaults). */
+function relativeToSheet(outPath: string, filePath: string): string {
+  return path.relative(path.dirname(outPath), filePath).split(path.sep).join("/");
+}
+
+export function broadcastSampleSheetCommand(argv: string[]): void {
+  const args = parseBroadcastSampleSheetArgs(argv);
+
+  const manifest = JSON.parse(fs.readFileSync(path.join(args.runDir, "manifest.json"), "utf8")) as CompositeDatasetManifest;
+  const syntheticEntries: SampleSheetEntry[] = manifest.composites.map((entry) => {
+    const label = JSON.parse(fs.readFileSync(path.join(args.runDir, `${entry.compositeId}.json`), "utf8")) as CompositeLabel;
+    return { fileName: relativeToSheet(args.out, path.join(args.runDir, entry.fileName)), label };
+  });
+
+  let referenceEntries: BroadcastReferenceEntry[] = [];
+  const capturesManifestPath = path.join(args.capturesDir, "manifest.json");
+  if (fs.existsSync(capturesManifestPath)) {
+    const capturesManifest = JSON.parse(fs.readFileSync(capturesManifestPath, "utf8")) as ImportCapturesResult;
+    referenceEntries = capturesManifest.imported.slice(0, args.referenceCount).map((c) => ({
+      fileName: relativeToSheet(args.out, path.join(args.capturesDir, c.outputFileName)),
+      framing: c.framing,
+    }));
+  } else {
+    console.log(`(no captures manifest found at ${capturesManifestPath} — sheet will have no REFERENCE tiles; run "composites import-captures" first)`);
+  }
+
+  const html = buildBroadcastSampleSheetHtml(syntheticEntries, referenceEntries, args.title);
+  fs.mkdirSync(path.dirname(args.out), { recursive: true });
+  fs.writeFileSync(args.out, html);
+
+  console.log(`broadcast sample sheet: ${syntheticEntries.length} synthetic + ${referenceEntries.length} reference tile(s)`);
+  console.log(`-> ${args.out}`);
 }

@@ -40,6 +40,16 @@
  *     alongside the imported PNGs — calibration/reference material for
  *     `--mode broadcast` (Phase B/C), never labeled training data itself.
  *
+ *   composites broadcast-sample-sheet [--run-dir <dir>] [--captures-dir <dir>]
+ *                                     [--out <path>] [--title <text>] [--reference-count <n>]
+ *     Phase D (#256): a DEDICATED sheet interleaving a completed
+ *     `zone-generate --mode broadcast` run's synthetic composites (label
+ *     overlays, region markers) with real imported captures (--captures-dir,
+ *     default pipeline/out/backgrounds/captures/) shown as unlabeled
+ *     REFERENCE tiles only — see zones/broadcastSampleSheet.ts. Wired here
+ *     (zones/cli.ts) rather than the plain `sample-sheet` above since it
+ *     reads TWO independent manifests, not one.
+ *
  *   composites sample-sheet [--run-dir <dir>] [--out <path>] [--title <text>]
  *     Builds a human-inspection HTML page (sampleSheet.ts) referencing a
  *     previously-generated run's composites + quad overlays, so a human
@@ -64,7 +74,7 @@ import type { SampleSheetEntry } from "./sampleSheet.js";
 import type { CompositeDatasetManifest } from "./manifest.js";
 import type { CardImageRef } from "./paramStream.js";
 import type { CompositeLabel } from "./types.js";
-import { zoneGenerateCommand } from "./zones/cli.js";
+import { zoneGenerateCommand, broadcastSampleSheetCommand } from "./zones/cli.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..");
 
@@ -370,7 +380,13 @@ async function main(): Promise<void> {
     process.exitCode = code;
     return;
   }
-  console.error(`unknown composites command: ${command ?? "(none)"} — expected "generate", "import-backgrounds", "import-captures", "sample-sheet", or "zone-generate"`);
+  if (command === "broadcast-sample-sheet") {
+    broadcastSampleSheetCommand(rest);
+    return;
+  }
+  console.error(
+    `unknown composites command: ${command ?? "(none)"} — expected "generate", "import-backgrounds", "import-captures", "sample-sheet", "zone-generate", or "broadcast-sample-sheet"`,
+  );
   process.exitCode = 1;
 }
 
