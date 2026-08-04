@@ -45,7 +45,7 @@ import { warpToQuad, countCardFootprintPixels } from "./warp.js";
 import { compositeOver, applyBrightnessContrast, applySleeve, applyGlare, coverFitRawImage } from "./rawImage.js";
 import type { RawImage } from "./rawImage.js";
 import type { CompositeParams } from "./paramStream.js";
-import type { CompositeLabel, CompositeBackgroundKind, CompositeCardLabel, Quad } from "./types.js";
+import type { CompositeLabel, CompositeBackgroundKind, CompositeCardLabel, CardRegion, Quad } from "./types.js";
 
 export interface LoadedCard {
   printingId: string;
@@ -82,11 +82,19 @@ export function renderComposite(
     canvas = generateBackgroundRaw(params.width, params.height, params.background);
   }
   const quads: Quad[] = [];
+  const regions: CardRegion[] = [];
   const footprintPixels: number[] = [];
   // #253: parallel to `quads` — whether each pasted card is the official
   // card back (DECK zone), which must never appear in the label at all
   // (see types.ts's CompositeLabel.cardBacksPlaced doc).
   const isCardBackFlags: boolean[] = [];
+  // #256: parallel to `quads` — whether each pasted card is a procedural
+  // OCCLUDER (hand/die/stack shim) rather than a real printed card. Same
+  // "rendered + occlusion bookkeeping, never labeled" shape as
+  // isCardBackFlags above, but a card back and an occluder are exclusive:
+  // a placement is at most one of the two (planning-time concern, not
+  // enforced here — see zones/broadcastCompositor.ts).
+  const isOccluderFlags: boolean[] = [];
 
   // #252: single canvas-sized owner-of-record array (not one mask per
   // card) — see this file's header for the memory-cost/paste-order
@@ -118,6 +126,7 @@ export function renderComposite(
     footprintPixels.push(countCardFootprintPixels(loaded.image, dstQuad));
     survivingCount.push(0);
     isCardBackFlags.push(placement.isCardBack === true);
+    isOccluderFlags.push(placement.isOccluder === true);
     // Binary ownership per pixel (any alpha > 0 claims it outright, no
     // partial-alpha weighting) — a small, deliberately conservative
     // approximation at antialiased quad edges: it can only ever mark a
@@ -134,6 +143,12 @@ export function renderComposite(
 
     canvas = compositeOver(canvas, layer);
     quads.push({ printingId: placement.printingId, corners: dstQuad, tags: placement.tags });
+    // #256: region travels with the placement, defaulted here (not left
+    // implicit) so every downstream reader of `quads[i]` — including the
+    // isCardBack/isOccluder branches below, which never read this array
+    // slot but keep the invariant "every quads[i] has a well-formed
+    // region" true regardless — sees a real value, never undefined.
+    regions.push(placement.region ?? "table");
   }
 
   canvas = applyBrightnessContrast(canvas, params.lighting.brightnessDelta, params.lighting.contrastDelta);
@@ -158,9 +173,18 @@ export function renderComposite(
       cardBacksPlaced++;
       continue;
     }
+    // #256: an occluder is categorically excluded from labeling, exactly
+    // like a card back above, but counted NOWHERE (not cardBacksPlaced —
+    // it isn't an official card-back asset; not excludedCards — that field
+    // means "would have been labeled, but visibility was too low," and an
+    // occluder was never eligible for labeling in the first place). Its
+    // pixels were already painted onto `canvas` above and it already
+    // participated in the `owner`/`survivingCount` occlusion bookkeeping
+    // for every other card, exactly like any other placement.
+    if (isOccluderFlags[i]) continue;
     const visibleFraction = footprintPixels[i] > 0 ? survivingCount[i] / footprintPixels[i] : 0;
     if (visibleFraction >= minVisibleFraction) {
-      includedCards.push({ ...quads[i], visibleFraction });
+      includedCards.push({ ...quads[i], visibleFraction, region: regions[i] });
     } else {
       excludedCards++;
     }

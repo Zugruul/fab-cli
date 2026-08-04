@@ -38,7 +38,7 @@
  */
 import { createRng, sampleWithoutReplacement } from "../behavior/rng.js";
 import type { BackgroundType } from "./types.js";
-import type { QuadTag } from "./types.js";
+import type { QuadTag, CardRegion } from "./types.js";
 import type { GeneratorConfig, RangeConfig } from "./config.js";
 
 export interface CardImageRef {
@@ -68,6 +68,25 @@ export interface CardPlacement {
    * planRun above — zero behavior change for the base random-scatter
    * generator. */
   isCardBack?: boolean;
+  /** #256 (tournament-broadcast mode): true for a procedural OCCLUDER
+   * placement (hand, die, stack-thickness shim — see
+   * zones/broadcastOccluders.ts) rather than a real printed card. Modeled
+   * exactly like isCardBack above (pixels rendered, occlusion bookkeeping
+   * participation, but NEVER a label entry) since the two share the exact
+   * same "rendered but categorically unlabelable" shape — see
+   * compositor.ts's handling. Unlike a card back, an occluder is not
+   * counted in `cardBacksPlaced` either (a distinct reason for exclusion,
+   * "this was never eligible for labeling" vs. "this specific official
+   * asset has no printing identity"). Absent/false (the default) for every
+   * pre-#256 placement — zero behavior change elsewhere. */
+  isOccluder?: boolean;
+  /** #256: which part of the broadcast frame this card sits in — "table"
+   * (the play-area surface, the default) or "preview" (the card-preview
+   * chrome panel, which renders and labels a real card even though it's
+   * not physically on the table — see broadcastCompositor.ts). Absent
+   * defaults to "table" (compositor.ts), so every pre-#256 placement is
+   * unaffected. Mirrors CompositeCardLabel.region — see types.ts. */
+  region?: CardRegion;
 }
 
 export interface ProceduralBackgroundParams {

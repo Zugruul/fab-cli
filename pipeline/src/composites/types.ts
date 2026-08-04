@@ -26,8 +26,22 @@ export type CompositeBackgroundKind = `procedural:${BackgroundType}` | "external
  * LABEL_SCHEMA_VERSION convention). #244: backgroundType widened from
  * BackgroundType to CompositeBackgroundKind + backgroundHash added. #252:
  * cards[] entries gained visibleFraction, and the label gained
- * excludedCards. #253: the label gained cardBacksPlaced. */
-export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.4.0";
+ * excludedCards. #253: the label gained cardBacksPlaced. #256: cards[]
+ * entries gained `region` ("table" | "preview") — see
+ * CompositeCardLabel.region's doc. */
+export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.5.0";
+
+/** #256 (tournament-broadcast mode): which part of the broadcast frame a
+ * labeled card sits in. "table" (the default — the play-area surface) or
+ * "preview" (the card-preview chrome panel: a real, rendered card that is
+ * NOT physically on the table, but which a detector working on a live
+ * stream will genuinely fire on and should — see
+ * zones/broadcastCompositor.ts). Every generation mode other than
+ * `--mode broadcast` only ever produces "table" (compositor.ts defaults an
+ * unset CardPlacement.region to "table"), so this is purely additive for
+ * every pre-#256 mode. */
+export const CARD_REGIONS = ["table", "preview"] as const;
+export type CardRegion = (typeof CARD_REGIONS)[number];
 
 /**
  * One pasted card's ground truth, extending the shared Quad vocabulary
@@ -96,6 +110,8 @@ export const COMPOSITE_LABEL_SCHEMA_VERSION = "0.4.0";
  */
 export interface CompositeCardLabel extends Quad {
   visibleFraction: number;
+  /** #256 — see CARD_REGIONS/CardRegion's doc above. */
+  region: CardRegion;
 }
 
 /**
