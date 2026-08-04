@@ -1,6 +1,13 @@
 import { describe, it, expect, vi } from "vitest";
-import { generateBroadcastRun, buildOccluderImage, BROADCAST_LEFT_SEED_OFFSET, BROADCAST_RIGHT_SEED_OFFSET } from "../src/composites/zones/generateBroadcastRun.js";
+import {
+  generateBroadcastRun,
+  buildOccluderImage,
+  resolveRigIndex,
+  BROADCAST_LEFT_SEED_OFFSET,
+  BROADCAST_RIGHT_SEED_OFFSET,
+} from "../src/composites/zones/generateBroadcastRun.js";
 import type { GenerateBroadcastRunInput } from "../src/composites/zones/generateBroadcastRun.js";
+import { planBroadcastAugmentationRun } from "../src/composites/zones/planBroadcastAugmentation.js";
 import type { RawCardForSelection } from "../src/composites/zones/semanticSelection.js";
 import type { ZoneMap } from "../src/composites/zones/zoneMap.js";
 import type { RawImage } from "../src/composites/rawImage.js";
@@ -51,7 +58,7 @@ function zoneMapWithArsenal(): ZoneMap {
   return { name: "test", zones: cols.map((kind, i) => ({ id: kind, kind: kind as never, rect: { xFrac: (i % 6) * 0.16, yFrac: i < 6 ? 0.1 : 0.5, wFrac: 0.14, hFrac: 0.3 } })) };
 }
 
-function layout(): BroadcastLayoutConfig {
+function layout(overrides: Partial<BroadcastLayoutConfig> = {}): BroadcastLayoutConfig {
   return {
     name: "test rig",
     playArea: { xFrac: 0.2, yFrac: 0.06, wFrac: 0.6, hFrac: 0.94 },
@@ -61,6 +68,7 @@ function layout(): BroadcastLayoutConfig {
       { kind: "sidebar", side: "right", rect: { xFrac: 0.8, yFrac: 0.058, wFrac: 0.2, hFrac: 0.942 } },
       { kind: "card-preview", side: "right", rect: { xFrac: 0.82, yFrac: 0.56, wFrac: 0.16, hFrac: 0.4 } },
     ],
+    ...overrides,
   };
 }
 
@@ -85,7 +93,7 @@ function baseInput(overrides: Partial<GenerateBroadcastRunInput> = {}): Generate
       diceProbability: 0.2,
       handProbability: 0.2,
     },
-    layout: layout(),
+    layouts: [layout()],
     zoneMap: zoneMapWithArsenal(),
     cards: fullCatalog(),
     imagesCacheDir: "/cache/images",
@@ -149,6 +157,63 @@ describe("generateBroadcastRun", () => {
       expect(n.printingId).not.toBe("__card_back__");
       expect(n.printingId.startsWith("__occluder_")).toBe(false);
     }
+  });
+});
+
+// #256 correction (Phase C, blocking item #2): a real run must draw from
+// MORE THAN ONE configured rig — planBroadcastAugmentation.ts already
+// draws `rigIndexDraw` unconditionally (preserving the draw-shape
+// invariant regardless of how many rigs are configured), but nothing
+// resolved it into an actual pick. `resolveRigIndex` is that resolution,
+// extracted so it's directly testable without re-deriving rng internals.
+describe("resolveRigIndex — resolves a raw [0,1) rigIndexDraw fraction into a layouts-array index", () => {
+  it("maps 0 to index 0 and values approaching 1 to the last index", () => {
+    expect(resolveRigIndex(0, 3)).toBe(0);
+    expect(resolveRigIndex(0.999999, 3)).toBe(2);
+  });
+
+  it("splits [0,1) into layouts.length equal bands", () => {
+    expect(resolveRigIndex(0.1, 2)).toBe(0);
+    expect(resolveRigIndex(0.6, 2)).toBe(1);
+  });
+
+  it("with a single layout, every draw resolves to index 0 (pre-correction behavior preserved)", () => {
+    expect(resolveRigIndex(0, 1)).toBe(0);
+    expect(resolveRigIndex(0.5, 1)).toBe(0);
+    expect(resolveRigIndex(0.999999, 1)).toBe(0);
+  });
+});
+
+describe("generateBroadcastRun — multi-rig selection (#256 correction)", () => {
+  it("a run with TWO configured layouts genuinely uses both — each composite's manifest entry names the rig its OWN rigIndexDraw resolved to, not always the first", async () => {
+    const rigA = layout({ name: "rig-A" });
+    const rigB = layout({ name: "rig-B" });
+    const input = baseInput({ layouts: [rigA, rigB], count: 8 });
+    const { manifest } = await generateBroadcastRun(input);
+
+    // Independently compute the expected pick from the SAME seeded stream
+    // planBroadcastAugmentationRun draws from — this is the one source of
+    // truth for rigIndexDraw, reused rather than re-derived by hand.
+    const augmentations = planBroadcastAugmentationRun(input.augmentationConfig, input.zoneMap, input.count);
+    const expectedNames = augmentations.map((a) => (resolveRigIndex(a.rigIndexDraw, input.layouts.length) === 0 ? rigA.name : rigB.name));
+
+    expect(manifest.composites.map((c) => c.rigName)).toEqual(expectedNames);
+    // The whole point of this correction: with 8 composites drawing from
+    // an independent rng stream, both rigs must genuinely appear — a
+    // "resolution" that silently always picks index 0 would pass a
+    // weaker "the field exists" check but fail this one.
+    const distinctNames = new Set(expectedNames);
+    expect(distinctNames.size).toBeGreaterThan(1);
+  });
+
+  it("a single-layout run (pre-correction shape) always resolves to that one layout's name", async () => {
+    const rig = layout({ name: "only-rig" });
+    const { manifest } = await generateBroadcastRun(baseInput({ layouts: [rig], count: 4 }));
+    for (const c of manifest.composites) expect(c.rigName).toBe("only-rig");
+  });
+
+  it("throws loudly on an empty layouts array rather than silently generating with no rig", async () => {
+    await expect(generateBroadcastRun(baseInput({ layouts: [] }))).rejects.toThrow(/layouts/i);
   });
 });
 
