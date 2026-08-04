@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { warpToQuad } from "../src/composites/warp.js";
+import { warpToQuad, countCardFootprintPixels } from "../src/composites/warp.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 import type { Point } from "../src/composites/types.js";
 
@@ -101,5 +101,79 @@ describe("warpToQuad — degenerate/perspective quad does not crash and stays bo
       expect(v).toBeGreaterThanOrEqual(0);
       expect(v).toBeLessThanOrEqual(255);
     }
+  });
+});
+
+// #252: countCardFootprintPixels is visibleFraction's DENOMINATOR — the
+// card's own full, un-clamped, un-occluded pixel count, computed with the
+// exact same homography + bilinearSample sampling as warpToQuad's real
+// paint loop (just without clamping the iterated bbox to any canvas). See
+// composites/types.ts's CompositeCardLabel doc for the full definition.
+describe("countCardFootprintPixels — visibleFraction's denominator (#252)", () => {
+  it("counts exactly the source's own pixel count for an axis-aligned, unrotated, unscaled quad", () => {
+    const source = makeMarkedSource(); // 10x10, fully opaque
+    const dstQuad: [Point, Point, Point, Point] = [
+      { x: 20, y: 20 },
+      { x: 30, y: 20 },
+      { x: 30, y: 30 },
+      { x: 20, y: 30 },
+    ];
+    expect(countCardFootprintPixels(source, dstQuad)).toBe(100);
+  });
+
+  it("matches warpToQuad's actual painted alpha>0 pixel count exactly, for a card fully on-canvas and unoccluded (#252: guarantees visibleFraction resolves to exactly 1.0, not merely close, for the common unoccluded case)", () => {
+    const source = makeMarkedSource();
+    const dstQuad: [Point, Point, Point, Point] = [
+      { x: 20, y: 20 },
+      { x: 30, y: 20 },
+      { x: 30, y: 30 },
+      { x: 20, y: 30 },
+    ];
+    const painted = warpToQuad(source, dstQuad, 50, 50);
+    let paintedCount = 0;
+    for (let i = 3; i < painted.data.length; i += 4) {
+      if (painted.data[i] > 0) paintedCount++;
+    }
+    expect(countCardFootprintPixels(source, dstQuad)).toBe(paintedCount);
+  });
+
+  it("counts the FULL card footprint even when the quad sits entirely outside any real canvas bounds — this function has no canvas parameter at all, by design (#252: the un-clamped denominator)", () => {
+    const source = makeMarkedSource();
+    const onscreenQuad: [Point, Point, Point, Point] = [
+      { x: 20, y: 20 },
+      { x: 30, y: 20 },
+      { x: 30, y: 30 },
+      { x: 20, y: 30 },
+    ];
+    const farOffscreenQuad: [Point, Point, Point, Point] = [
+      { x: -2000, y: -2000 },
+      { x: -1990, y: -2000 },
+      { x: -1990, y: -1990 },
+      { x: -2000, y: -1990 },
+    ];
+    expect(countCardFootprintPixels(source, farOffscreenQuad)).toBe(countCardFootprintPixels(source, onscreenQuad));
+  });
+
+  it("counts fewer pixels than the full bounding-box area when the source image itself has a transparent region — footprint reflects the source's real alpha, not bare bounding-box area (bilinear blending at the transparent/opaque boundary means this is a bound, not an exact subtraction — the exactness guarantee for a uniform-alpha source is the 'matches warpToQuad's actual painted count' test above)", () => {
+    const width = 10;
+    const height = 10;
+    const data = new Uint8ClampedArray(width * height * 4);
+    for (let y = 0; y < height; y++) {
+      for (let x = 0; x < width; x++) {
+        const i = (y * width + x) * 4;
+        const transparent = x < 3 && y < 3; // a 3x3 fully-transparent corner
+        data[i + 3] = transparent ? 0 : 255;
+      }
+    }
+    const source: RawImage = { width, height, data };
+    const dstQuad: [Point, Point, Point, Point] = [
+      { x: 0, y: 0 },
+      { x: 10, y: 0 },
+      { x: 10, y: 10 },
+      { x: 0, y: 10 },
+    ];
+    const count = countCardFootprintPixels(source, dstQuad);
+    expect(count).toBeLessThan(100);
+    expect(count).toBeGreaterThan(80);
   });
 });

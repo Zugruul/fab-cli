@@ -39,6 +39,7 @@ function config(): GeneratorConfig {
     backgroundTypes: ["solid"],
     backgroundsDir: null,
     externalBackgroundProbability: 0,
+    minVisibleFraction: 0.15,
   };
 }
 
@@ -51,6 +52,7 @@ function label(id: string): CompositeLabel {
     backgroundType: "procedural:solid",
     backgroundHash: null,
     cards: [],
+    excludedCards: 0,
   };
 }
 

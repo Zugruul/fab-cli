@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildCompositeManifest } from "../src/composites/manifest.js";
+import { buildCompositeManifest, COMPOSITE_MANIFEST_SCHEMA_VERSION } from "../src/composites/manifest.js";
 import { sha256 } from "../src/benchmark/manifest.js";
 import { COMPOSITE_LABEL_SCHEMA_VERSION } from "../src/composites/types.js";
 import type { GeneratorConfig } from "../src/composites/config.js";
@@ -24,11 +24,12 @@ function config(overrides: Partial<GeneratorConfig> = {}): GeneratorConfig {
     backgroundTypes: ["solid"],
     backgroundsDir: null,
     externalBackgroundProbability: 0,
+    minVisibleFraction: 0.15,
     ...overrides,
   };
 }
 
-function label(id: string, cardCount = 1): CompositeLabel {
+function label(id: string, cardCount = 1, excludedCards = 0): CompositeLabel {
   return {
     compositeId: id,
     fileName: `${id}.png`,
@@ -45,7 +46,9 @@ function label(id: string, cardCount = 1): CompositeLabel {
         { x: 0, y: 10 },
       ] as [{ x: number; y: number }, { x: number; y: number }, { x: number; y: number }, { x: number; y: number }],
       tags: [],
+      visibleFraction: 1,
     })),
+    excludedCards,
   };
 }
 
@@ -105,10 +108,32 @@ describe("buildCompositeManifest", () => {
     expect(manifest.compositeCount).toBe(0);
   });
 
+  it("bumps COMPOSITE_LABEL_SCHEMA_VERSION to 0.3.0 for the visibleFraction + excludedCards additions (#252)", () => {
+    expect(COMPOSITE_LABEL_SCHEMA_VERSION).toBe("0.3.0");
+  });
+
   it("is deterministic given the same config + labels (buildDate aside)", () => {
     const labels = [label("composite-0000", 2)];
     const a = buildCompositeManifest({ config: config(), labels, now: () => "2026-01-01T00:00:00.000Z" });
     const b = buildCompositeManifest({ config: config(), labels, now: () => "2026-01-01T00:00:00.000Z" });
     expect(a).toEqual(b);
+  });
+
+  // #252: cardCount reflects LABELED (post-visibleFraction-filter) cards
+  // only — excludedCards is the separate provenance count of cards that
+  // were pasted (pixels rendered) but dropped from the label set.
+  it("carries each composite's excludedCards count through to the manifest entry", () => {
+    const labels = [label("composite-0000", 2, 1), label("composite-0001", 3, 0)];
+    const manifest = buildCompositeManifest({ config: config(), labels });
+    expect(manifest.composites[0].cardCount).toBe(2);
+    expect(manifest.composites[0].excludedCards).toBe(1);
+    expect(manifest.composites[1].cardCount).toBe(3);
+    expect(manifest.composites[1].excludedCards).toBe(0);
+  });
+
+  it("bumps COMPOSITE_MANIFEST_SCHEMA_VERSION to 0.2.0 for the excludedCards field addition (#252)", () => {
+    expect(COMPOSITE_MANIFEST_SCHEMA_VERSION).toBe("0.2.0");
+    const manifest = buildCompositeManifest({ config: config(), labels: [] });
+    expect(manifest.schemaVersion).toBe("0.2.0");
   });
 });

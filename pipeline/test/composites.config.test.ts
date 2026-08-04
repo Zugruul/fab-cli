@@ -28,6 +28,7 @@ function validConfig(): GeneratorConfig {
     backgroundTypes: ["solid", "gradient", "noise", "texture"],
     backgroundsDir: null,
     externalBackgroundProbability: 0,
+    minVisibleFraction: 0.15,
   };
 }
 
@@ -45,6 +46,13 @@ describe("validateGeneratorConfig — accepts well-formed config", () => {
   it("accepts a single background type", () => {
     const result = validateGeneratorConfig({ ...validConfig(), backgroundTypes: ["solid"] });
     expect(result.valid).toBe(true);
+  });
+
+  // #252: minVisibleFraction is schema-validated as a [0,1] value, same as
+  // every other probability-shaped knob in this config.
+  it("accepts minVisibleFraction at both inclusive extremes (0 and 1)", () => {
+    expect(validateGeneratorConfig({ ...validConfig(), minVisibleFraction: 0 }).valid).toBe(true);
+    expect(validateGeneratorConfig({ ...validConfig(), minVisibleFraction: 1 }).valid).toBe(true);
   });
 });
 
@@ -105,7 +113,7 @@ describe("validateGeneratorConfig — rejects malformed config", () => {
   });
 
   it("rejects out-of-range probabilities", () => {
-    for (const field of ["overlapProbability", "perspectiveProbability", "glareProbability", "sleeveProbability", "externalBackgroundProbability"] as const) {
+    for (const field of ["overlapProbability", "perspectiveProbability", "glareProbability", "sleeveProbability", "externalBackgroundProbability", "minVisibleFraction"] as const) {
       const result = validateGeneratorConfig({ ...validConfig(), [field]: 1.5 });
       expect(result.valid, `${field}=1.5`).toBe(false);
       const result2 = validateGeneratorConfig({ ...validConfig(), [field]: -0.1 });

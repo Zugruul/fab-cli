@@ -126,6 +126,7 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
         backgroundTypes: ["solid", "gradient", "noise", "texture"],
         backgroundsDir: null,
         externalBackgroundProbability: 0,
+        minVisibleFraction: 0,
       }),
     );
   });
