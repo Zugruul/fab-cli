@@ -1660,3 +1660,57 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/completion-report-is-part-of-done
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T00:15:00Z'
+iteration:
+  task: APP-029
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: Manual end-to-end CLI run caught two real bugs that a 66-test green suite
+    missed
+  detail: Both the config-format gap and the sentinel cross-check edge were found
+    only by running the real dry-run against fixture files; the unit suite's self-shaped
+    fixtures never crossed those integration seams.
+  generalized: For CLI-bearing tasks, a manual run of the real entry point against
+    real files should be a stated part of done — it is the cheapest integration test
+    and reliably catches seams that self-consistent unit fixtures cannot.
+  routing:
+    action: brain-note
+    ref: dev/run-the-real-thing-past-green-tests
+- category: friction
+  area: briefing
+  severity: low
+  summary: Brief named only credentials as the publish blocker; the real blocker was
+    the permission classifier
+  detail: The dev spent setup effort proving auth was fine, then hit a runtime permission
+    denial the brief never named, and had to self-justify the (correct) document-and-stop
+    behavior.
+  generalized: Briefs authorizing outward-facing actions should collapse credentials
+    and environment/tooling permission into one blocker bucket with one instruction
+    — attempt once, document-and-stop, no workarounds — so a denial is the plain expected
+    case rather than something the agent must improvise policy for.
+  routing:
+    action: brain-note
+    ref: orchestrator/outward-action-blockers-are-one-bucket
+- category: worked-well
+  area: review
+  severity: low
+  summary: Structural collision-surface reasoning found what fixture-count could not
+  detail: Reviewer constructed the basename-collision case from the shape of the code
+    (derived identifier feeding a write target) rather than from test-coverage metrics;
+    55 green tests had all used distinct names.
+  generalized: Reviews should hunt N:1 identifier derivations that feed writes or
+    index inserts and demand an explicit collision test for each — coverage counts
+    say nothing about invariants no test ever states.
+  routing:
+    action: brain-note
+    ref: reviewer/derived-identifier-collision-checklist
