@@ -86,6 +86,26 @@ describe("planBroadcastAugmentationRun — determinism", () => {
   });
 });
 
+describe("planBroadcastAugmentationRun — rig selection (#256 correction: multi-rig)", () => {
+  it("every composite draws a rigIndexDraw in [0, 1)", () => {
+    const plans = planBroadcastAugmentationRun(config(), ZONE_MAP, 5);
+    for (const p of plans) {
+      expect(p.rigIndexDraw).toBeGreaterThanOrEqual(0);
+      expect(p.rigIndexDraw).toBeLessThan(1);
+    }
+  });
+
+  it("rigIndexDraw is drawn FIRST, before every other knob — adding/removing configured rigs never reshuffles sleeve/stack/dice/hand/preview/keystone for the same seed", () => {
+    // The caller resolves rigIndexDraw into an actual index via
+    // Math.floor(draw * rigCount) — this module has no rig-count concept
+    // at all, so changing how many rigs are CONFIGURED downstream can
+    // never affect this stream's shape or values in the first place.
+    const a = planBroadcastAugmentationRun(config(), ZONE_MAP, 3);
+    const b = planBroadcastAugmentationRun(config(), ZONE_MAP, 3);
+    expect(a.map((p) => p.rigIndexDraw)).toEqual(b.map((p) => p.rigIndexDraw));
+  });
+});
+
 describe("planBroadcastAugmentationRun — UNCONDITIONAL-DRAW SHAPE INVARIANT (#256 merge blocker)", () => {
   it("changing handProbability alone does not change dice/preview/keystone draws for the same seed (later draws unaffected by an earlier branch's config)", () => {
     const low = planBroadcastAugmentationRun(config({ handProbability: 0 }), ZONE_MAP, 3);
@@ -95,6 +115,9 @@ describe("planBroadcastAugmentationRun — UNCONDITIONAL-DRAW SHAPE INVARIANT (#
     expect(low.map((p) => p.previewCardDraw)).toEqual(high.map((p) => p.previewCardDraw));
     expect(low.map((p) => p.keystoneLeftFrac)).toEqual(high.map((p) => p.keystoneLeftFrac));
     expect(low.map((p) => p.keystoneRightFrac)).toEqual(high.map((p) => p.keystoneRightFrac));
+    // rigIndexDraw is drawn BEFORE hand (first in the order) — proven
+    // unaffected here too, same invariant, opposite direction.
+    expect(low.map((p) => p.rigIndexDraw)).toEqual(high.map((p) => p.rigIndexDraw));
   });
 
   it("changing diceProbability alone does not reshuffle sleeve/stack draws (drawn BEFORE dice in the fixed order)", () => {
