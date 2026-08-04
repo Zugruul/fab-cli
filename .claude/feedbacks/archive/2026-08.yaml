@@ -1885,3 +1885,58 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/reviewer-fixes-are-claims-to-verify
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T08:20:00Z'
+iteration:
+  task: '252'
+  outcome: merged
+  reviewRounds: 1
+source:
+  role: orchestrator
+  model: claude-fable-5
+items:
+- category: worked-well
+  area: board
+  severity: low
+  summary: Second user-reaction task closed same-session with the artifact regenerated
+    before cleanup
+  detail: The user's occlusion find went file→implement→mutation-verified review→merge→regenerated
+    demo in one pass, and this time the human-facing artifact was rebuilt in a persistent
+    location before the lane worktree was removed.
+  generalized: The hot-loop pattern (user reaction → filed task → parallel lane →
+    merged + artifact refreshed) is repeatable; pairing it with the preserve-artifacts-before-cleanup
+    rule closes its one earlier failure mode.
+  routing:
+    action: brain-note
+    ref: orchestrator/hot-loop-user-reactions-into-lanes
+- category: worked-well
+  area: review
+  severity: low
+  summary: A gate-poisoning flake was root-caused as a stale assertion, fixed directly,
+    and empirically confirmed
+  detail: The flake was a mathematically stale bound left behind by an earlier guard
+    fix; the direct fix corrected the math, seeded the test, added a deterministic
+    boundary construction, and the reviewer proved the mechanism with a 200-seed sweep
+    (11 breaches old bound, 0 new).
+  generalized: Gate flakes deserve root-cause math, not just seeding — a flake can
+    be a stale assertion invalidated by a later correct fix, and a seed-only patch
+    would have hidden a wrong bound forever; the N-seed sweep against old and new
+    assertions is the definitive flake-mechanism proof.
+  routing:
+    action: brain-note
+    ref: reviewer/sweep-formula-domain-numerically
+- category: friction
+  area: concurrency
+  severity: low
+  summary: Shell cwd drift caused a failed commit mid-retro
+  detail: A bookkeeping commit ran from a subpackage directory left over from an earlier
+    demo command and failed on pathspec; the absolute-paths-for-git rule exists but
+    the cwd had drifted through unrelated tool calls.
+  generalized: Long orchestrator sessions accumulate cwd drift across dozens of tool
+    calls; bookkeeping commits should always cd to the repo root inline in the same
+    command, treating the standing rule as per-invocation rather than per-session.
+  routing:
+    action: brain-note
+    ref: orchestrator/bookkeeping-commits-only-on-main
