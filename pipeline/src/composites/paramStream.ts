@@ -15,8 +15,16 @@
  * always consumes the rng identically):
  *   1. card count (uniform int in cardsPerComposite range, clamped to the
  *      number of available cards)
- *   2. that many distinct cards, sampled without replacement (reusing
- *      behavior/rng.ts's sampleWithoutReplacement)
+ *   2. that many distinct cards — EITHER sampled without replacement
+ *      (behavior/rng.ts's sampleWithoutReplacement, the default) OR, when
+ *      an optional CoverageTracker is passed to planRun (#268), picked via
+ *      coverageTracker.pickForComposite instead. Both paths consume
+ *      EXACTLY `count` rng() calls, one per card, in the same position in
+ *      the stream — see coverageTracker.ts's header for why this is what
+ *      makes toggling coverage mode safe: every draw AFTER this point
+ *      (background, lighting, per-card position/rotation/etc.) lands
+ *      identically for a fixed seed regardless of which selection
+ *      strategy picked the cards, only the resulting printingIds differ.
  *   3. background type index, colorA (3 draws), colorB (3 draws),
  *      angleDeg, noiseSeed — ALWAYS drawn (procedural background params),
  *      even on a composite that ends up using an external background
@@ -40,6 +48,7 @@ import { createRng, sampleWithoutReplacement } from "../behavior/rng.js";
 import type { BackgroundType } from "./types.js";
 import type { QuadTag, CardRegion } from "./types.js";
 import type { GeneratorConfig, RangeConfig } from "./config.js";
+import type { CoverageTracker } from "./coverageTracker.js";
 
 export interface CardImageRef {
   printingId: string;
@@ -155,9 +164,12 @@ function planOneComposite(
   availableCards: CardImageRef[],
   availableBackgrounds: string[],
   rng: () => number,
+  coverageTracker: CoverageTracker | null,
 ): CompositeParams {
   const count = Math.min(availableCards.length, Math.max(1, intInRange(rng, config.cardsPerComposite)));
-  const chosen = sampleWithoutReplacement(availableCards, count, rng);
+  const chosen = coverageTracker
+    ? coverageTracker.pickForComposite(count, rng).map((idx) => availableCards[idx])
+    : sampleWithoutReplacement(availableCards, count, rng);
 
   // Procedural background params: ALWAYS drawn (see this module's header),
   // even when this composite ends up selecting an external background
@@ -265,8 +277,28 @@ function planOneComposite(
  * config.backgroundsDir). Selection is deterministic given seed + this
  * list; adding/removing a file changes the stream from that point on for
  * any composite whose external-index draw lands past the change — that's
- * an expected consequence of changing the run's inputs, not a bug. */
-export function planRun(config: GeneratorConfig, availableCards: CardImageRef[], availableBackgrounds: string[] = []): CompositeParams[] {
+ * an expected consequence of changing the run's inputs, not a bug.
+ *
+ * `coverageTracker` (#268, optional, default `null`/omitted = pre-#268
+ * uniform-random behavior, unchanged) switches card selection from
+ * `sampleWithoutReplacement` to `coverageTracker.pickForComposite`, which
+ * always offers up the globally least-appeared-so-far printing(s) first
+ * instead of drawing uniformly — see coverageTracker.ts's header for why
+ * this can guarantee every printing reaches a target appearance count
+ * within a large-enough `compositesPerRun`, where uniform sampling can
+ * only ever make that probable. The SAME tracker instance must be reused
+ * across every composite in a run (this function does that internally,
+ * threading it through each planOneComposite call) so appearance counts
+ * accumulate across the whole run, not reset per composite. Index `i` in
+ * the tracker corresponds to `availableCards[i]` — callers that need a
+ * coverage report read `coverageTracker.allAppearanceCounts()` against
+ * that same array after planRun returns (see coverageReport.ts). */
+export function planRun(
+  config: GeneratorConfig,
+  availableCards: CardImageRef[],
+  availableBackgrounds: string[] = [],
+  coverageTracker: CoverageTracker | null = null,
+): CompositeParams[] {
   if (availableCards.length === 0) {
     throw new Error("planRun: no available card images to compose (availableCards is empty)");
   }
@@ -275,7 +307,7 @@ export function planRun(config: GeneratorConfig, availableCards: CardImageRef[],
   const plans: CompositeParams[] = [];
   for (let i = 0; i < config.compositesPerRun; i++) {
     const compositeId = `composite-${String(i).padStart(4, "0")}`;
-    plans.push(planOneComposite(compositeId, config, availableCards, availableBackgrounds, rng));
+    plans.push(planOneComposite(compositeId, config, availableCards, availableBackgrounds, rng, coverageTracker));
   }
   return plans;
 }
