@@ -2264,3 +2264,148 @@ items:
   routing:
     action: brain-note
     ref: orchestrator/gate-can-fabricate-failures
+---
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-04T22:40:00Z'
+iteration:
+  task: '256'
+  outcome: merged
+  reviewRounds: 2
+source:
+  role: orchestrator
+  model: claude-opus-5
+items:
+- category: incident
+  area: review
+  severity: high
+  summary: A visual inspection passed output whose core geometry was wrong by a factor
+    of nearly three
+  detail: 'Generated training images were inspected by eye and reported correct, with
+    the inspector specifically noting that shapes were non-rectangular and therefore
+    the perspective transform was applied. That observation was true but measured
+    nothing: every object was compressed to roughly a third of its correct proportion.
+    The defect was found only when a numeric property of the labels was computed and
+    compared against its known true value.'
+  generalized: For any geometric or numeric output, visual inspection can confirm
+    that a transform ran while being blind to whether it ran correctly — plausible-looking
+    output is the expected result of a wrong-magnitude transform, not evidence against
+    one. Establish a measurable invariant with a known true value, compute it over
+    real output, and treat 'looks right' as a prompt to measure rather than a substitute
+    for measuring.
+  routing:
+    action: brain-note
+    ref: reviewer/looks-right-is-a-prompt-to-measure
+- category: worked-well
+  area: testing
+  severity: high
+  summary: The measurement that found the original defect also caught the fix for
+    a later defect silently reintroducing it
+  detail: After the geometry defect was fixed, a subsequent change to remove a visual
+    artifact worked by shrinking one dimension of the canvas. That broke the calibrated
+    relationship the geometry fix depended on and quietly re-introduced the original
+    distortion. The author caught it by re-running the same measurement that had originally
+    exposed the bug, and replaced the approach with one that changes no dimensions.
+  generalized: A measurement that exposes a defect should become a standing check,
+    not a one-off diagnostic — later fixes for unrelated problems routinely violate
+    the invariant the first fix established. Re-running it after every subsequent
+    change in the same area is cheap and catches the class of regression where a fix
+    for B silently undoes the fix for A.
+  routing:
+    action: brain-note
+    ref: reviewer/looks-right-is-a-prompt-to-measure
+- category: incident
+  area: review
+  severity: high
+  summary: Two measurements 'agreeing' were treated as independent corroboration while
+    sharing an input
+  detail: Two configurations were each measured against three source samples and their
+    close agreement was cited, in confident language, as evidence that they share
+    an underlying structure. One sample appeared in both sets and was mislabelled
+    as belonging to the wrong configuration. Agreement on a shared input is guaranteed
+    by construction and evidences nothing. The underlying numbers turned out to be
+    correct — the defect was purely in the evidence and the conclusion drawn from
+    it.
+  generalized: 'Before citing agreement between two measurements as corroboration,
+    verify their inputs are disjoint — a shared sample makes agreement a tautology.
+    Note that this class of defect is epistemic rather than numeric: the values can
+    be entirely correct while the stated justification for them is circular, so the
+    fix is to correct the evidence and re-derive, not to change values that were never
+    wrong.'
+  routing:
+    action: brain-note
+    ref: reviewer/shared-input-makes-agreement-circular
+- category: worked-well
+  area: review
+  severity: medium
+  summary: A correction distinguished a wrong conclusion from wrong values, and proved
+    the distinction
+  detail: On being told its evidence was circular, the author re-measured with a disjoint
+    sample set, found the original values unchanged, and demonstrated this by showing
+    an identical configuration hash and identical output metrics before and after.
+    It corrected the citations without touching a single value, and kept the original
+    conclusion because the new evidence genuinely supported it.
+  generalized: When evidence for a claim is found to be flawed, establish first whether
+    the claim itself was wrong — churning values to appear responsive is a real failure
+    mode. Proving 'nothing changed' with a content hash or equivalent is stronger
+    than asserting it, and a claim that becomes genuinely supported by corrected evidence
+    should be kept, not deleted to avoid scrutiny.
+  routing:
+    action: brain-note
+    ref: reviewer/shared-input-makes-agreement-circular
+- category: worked-well
+  area: testing
+  severity: medium
+  summary: A mechanical regression lock closed a class of documentation defect that
+    review had to catch by hand
+  detail: After a circular-evidence defect was corrected, the author added a check
+    that no source sample may be cited by more than one configuration, extracting
+    identifiers by pattern from raw data so that prose phrasing cannot evade it, and
+    requiring at least two configurations so it cannot pass vacuously. It was written
+    to fail against the real defect before the fix was applied.
+  generalized: Defects in cited evidence or documentation are usually treated as review-only
+    concerns, but many are mechanically checkable — disjointness, presence, format,
+    cross-references. When a review catches one by hand, ask whether the property
+    can be asserted by a test; extracting identifiers structurally rather than matching
+    prose, and requiring a minimum population so the check cannot pass trivially,
+    are what make such a lock durable.
+  routing:
+    action: brain-note
+    ref: reviewer/shared-input-makes-agreement-circular
+- category: friction
+  area: review
+  severity: high
+  summary: An assigned reviewer stopped responding mid-review and the orchestrator
+    substituted itself, losing independence
+  detail: The reviewer produced no output and did not answer a status ping. Rather
+    than leave the task blocked indefinitely, the orchestrator completed the review
+    itself — but it had relayed findings to the author during earlier correction rounds
+    and so was not independent in the way the process intends. The substitution and
+    its independence caveat were recorded explicitly on the pull request rather than
+    presented as a clean sign-off.
+  generalized: When a reviewer becomes unresponsive, the choice is between an indefinitely
+    blocked task and a review by someone already involved in the work. Either is defensible,
+    but the compromise must be recorded explicitly where the approval lives — an approval
+    that silently came from a non-independent party is worse than a delayed one, because
+    later readers will weight it as independent.
+  routing:
+    action: brain-note
+    ref: orchestrator/unresponsive-reviewer-substitute-but-record
+- category: incident
+  area: testing
+  severity: medium
+  summary: A feature was correct, tested, and effectively dead because nothing drove
+    it into its meaningful range
+  detail: Occlusion modelling existed, was proven non-vacuous by mutation testing,
+    and rendered visibly in output — yet across a full-scale real run no object was
+    ever occluded by more than a few percent, and the exclusion path never once triggered.
+    Unit tests could not detect this because a fixture that places one occluder over
+    one object tests the mechanism, not the distribution the generator actually produces.
+  generalized: A mechanism can be correct, tested, and never meaningfully exercised,
+    because unit tests verify that it works when triggered while saying nothing about
+    whether it is ever triggered. For any feature whose purpose is to inject variation,
+    assert on the distribution of the variation actually produced over real-scale
+    output — not merely that the code path exists and functions.
+  routing:
+    action: brain-note
+    ref: dev/mechanism-correct-but-never-triggered

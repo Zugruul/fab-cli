@@ -124,6 +124,11 @@
     "last": "2026-08-02",
     "weight": 0.5
   },
+  "looks-right-is-a-prompt-to-measure->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
   "mutation-test-monotonic-fixtures->execute-load-bearing-mechanism-claims": {
     "fires": 0,
     "last": null,
@@ -192,6 +197,16 @@
   "self-referential-coverage-tests->verify-repo-pollution-claims-empirically": {
     "fires": 5,
     "last": "2026-07-18",
+    "weight": 0.5
+  },
+  "shared-input-makes-agreement-circular->state-what-you-did-not-verify": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "shared-input-makes-agreement-circular->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
     "weight": 0.5
   },
   "sweep-formula-domain-numerically->execute-load-bearing-mechanism-claims": {

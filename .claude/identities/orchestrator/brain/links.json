@@ -68,5 +68,10 @@
     "fires": 0,
     "last": null,
     "weight": 0.5
+  },
+  "unresponsive-reviewer-substitute-but-record->state-what-you-did-not-verify": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
   }
 }
