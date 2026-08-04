@@ -135,3 +135,51 @@ export function validateBroadcastLayoutConfig(raw: unknown): ValidateBroadcastLa
   if (errors.length > 0) return { valid: false, errors };
   return { valid: true, config: { name: r.name as string, playArea: playArea!, chrome } };
 }
+
+/** Injectable IO for loadBroadcastLayoutConfigsFromDir — mirrors this
+ * package's other IO-injection contracts (importBackgrounds.ts's
+ * ImportBackgroundsIO) so it's testable without touching real fs. */
+export interface LoadBroadcastLayoutConfigsIO {
+  listFiles: (dir: string) => string[];
+  readFile: (filePath: string) => string;
+}
+
+/**
+ * Loads and validates every `*.json` file in `dir` as a
+ * BroadcastLayoutConfig — the multi-rig "rig pool" `--mode broadcast`
+ * draws from (#256 correction: the real capture corpus turned out to span
+ * TWO physically different rigs, Calling Edinburgh + Pro Tour Las Vegas,
+ * not one — see calling-edinburgh.json/pro-tour-las-vegas.json's own doc
+ * strings). Sorted by filename for determinism (the SAME directory
+ * listing must always produce the SAME rig ORDER, since
+ * generateBroadcastRun.ts resolves a planned `rigIndexDraw` fraction into
+ * an array index — a filesystem-order-dependent list would make that
+ * resolution non-deterministic across machines/runs).
+ *
+ * Throws loudly, naming the offending file, on the first invalid config
+ * (never silently skips a broken rig file) — and throws loudly (never a
+ * silent empty pool) when the directory has zero `.json` files, mirroring
+ * this package's other "explicit misconfiguration is a loud failure"
+ * conventions (e.g. generate.ts's resolveAvailableBackgrounds).
+ */
+export function loadBroadcastLayoutConfigsFromDir(dir: string, io: LoadBroadcastLayoutConfigsIO): BroadcastLayoutConfig[] {
+  const jsonFiles = io
+    .listFiles(dir)
+    .filter((f) => f.toLowerCase().endsWith(".json"))
+    .sort();
+  if (jsonFiles.length === 0) {
+    throw new Error(`loadBroadcastLayoutConfigsFromDir: no broadcast-layout config (*.json) files found in "${dir}"`);
+  }
+
+  const configs: BroadcastLayoutConfig[] = [];
+  for (const fileName of jsonFiles) {
+    const filePath = `${dir.replace(/[\\/]+$/, "")}/${fileName}`;
+    const raw: unknown = JSON.parse(io.readFile(filePath));
+    const result = validateBroadcastLayoutConfig(raw);
+    if (!result.valid) {
+      throw new Error(`loadBroadcastLayoutConfigsFromDir: invalid broadcast-layout config at "${filePath}": ${result.errors.join("; ")}`);
+    }
+    configs.push(result.config);
+  }
+  return configs;
+}
