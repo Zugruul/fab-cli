@@ -118,6 +118,27 @@ describe("generateZoneRun", () => {
     expect(composites[0].label.cardBacksPlaced).toBeGreaterThan(0);
   });
 
+  // Regression test: an earlier implementation collected every printing in
+  // eligibleByKind's POOLS (not the plans' actual picks) into the download
+  // set — harmless for a fixture catalog with exactly one candidate per
+  // kind, but catastrophic for real "any card" kinds (pitch/graveyard/
+  // arsenal match the ENTIRE vendored catalog), which downloaded
+  // thousands of unused images during the real demo run. Pinned here with
+  // a deliberately oversized "any card" pool so a future regression trips
+  // this test even with a small fixture catalog.
+  it("downloads ONLY the printings the plans actually picked, never every candidate in a large 'any card' pool", async () => {
+    const manyGenericCards = Array.from({ length: 50 }, (_, i) =>
+      card({ name: `Generic ${i}`, types: ["Generic", "Action"], printings: [{ unique_id: `generic-${i}`, image_url: `https://x/generic-${i}.png` }] }),
+    );
+    const input = baseInput({ cards: [...fullCatalog(), ...manyGenericCards], singleCount: 2, twoPlayerCount: 0 });
+    await generateZoneRun(input);
+    const needs = (input.ensureImagesDownloaded as ReturnType<typeof vi.fn>).mock.calls[0][0] as Array<{ printingId: string }>;
+    // Only as many distinct "any card" picks as there are pitch/graveyard/
+    // arsenal zone-slots across the 2 composites could ever appear — nowhere
+    // near the 51-candidate pool size.
+    expect(needs.length).toBeLessThan(20);
+  });
+
   it("is deterministic given the same input", async () => {
     const fixedNow = () => "2026-01-01T00:00:00.000Z";
     const a = await generateZoneRun(baseInput({ now: fixedNow }));

@@ -101,13 +101,25 @@ export async function generateZoneRun(input: GenerateZoneRunInput): Promise<Gene
     compositeIdPrefix: "two-player-far",
   });
 
-  // Every distinct catalog printing actually referenced across every plan
-  // — deduplicated so a card picked for multiple composites (or for both
-  // near and far mats) is only ever requested once.
-  const needsByPrintingId = new Map<string, ImageNeed>();
+  // Every distinct catalog printing ACTUALLY PICKED across every plan —
+  // deliberately NOT every printing in eligibleByKind's pools (those pools
+  // can be enormous: "any card" kinds like pitch/graveyard/arsenal match
+  // the ENTIRE catalog by design). Deduplicated so a card picked for
+  // multiple composites (or for both near and far mats) is only ever
+  // requested once — this is the "download what's needed for the run"
+  // decoupling semanticSelection.ts's doc comment promises: eligibility is
+  // a metadata-only filter, download only follows the actual picks.
+  const imageUrlByPrintingId = new Map<string, string>();
   for (const pool of Object.values(eligibleByKind)) {
-    for (const c of pool ?? []) {
-      needsByPrintingId.set(c.printingId, { printingId: c.printingId, imagePath: c.imagePath, imageUrl: c.imageUrl });
+    for (const c of pool ?? []) imageUrlByPrintingId.set(c.printingId, c.imageUrl);
+  }
+
+  const needsByPrintingId = new Map<string, ImageNeed>();
+  for (const plan of [...singlePlans, ...nearPlans, ...farPlans]) {
+    for (const c of plan.cards) {
+      if (c.isCardBack) continue; // the card back has its own dedicated fetch path (ensureCardBackCached), not this catalog-download step
+      const imageUrl = imageUrlByPrintingId.get(c.printingId);
+      if (imageUrl) needsByPrintingId.set(c.printingId, { printingId: c.printingId, imagePath: c.imagePath, imageUrl });
     }
   }
   await input.ensureImagesDownloaded([...needsByPrintingId.values()]);
