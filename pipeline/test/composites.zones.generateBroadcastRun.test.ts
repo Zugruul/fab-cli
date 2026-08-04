@@ -5,6 +5,7 @@ import {
   resolveRigIndex,
   BROADCAST_LEFT_SEED_OFFSET,
   BROADCAST_RIGHT_SEED_OFFSET,
+  BROADCAST_TABLE_TOP_CROP_FRAC,
 } from "../src/composites/zones/generateBroadcastRun.js";
 import type { GenerateBroadcastRunInput } from "../src/composites/zones/generateBroadcastRun.js";
 import { planBroadcastAugmentationRun } from "../src/composites/zones/planBroadcastAugmentation.js";
@@ -214,6 +215,85 @@ describe("generateBroadcastRun — multi-rig selection (#256 correction)", () =>
 
   it("throws loudly on an empty layouts array rather than silently generating with no rig", async () => {
     await expect(generateBroadcastRun(baseInput({ layouts: [] }))).rejects.toThrow(/layouts/i);
+  });
+});
+
+// #256 correction (Phase C, item #3 — the duplicate-banner seam): proves
+// generateBroadcastRun.ts's call into mergeBroadcastTableRenders actually
+// PASSES BROADCAST_TABLE_TOP_CROP_FRAC through, end to end — a real
+// wiring-drop bug ("the crop primitive exists and is unit-tested, but
+// nothing calls it with a real crop depth") would be invisible to
+// twoPlayer.ts's own unit tests, exactly the "primitive exists but is
+// never called" bug class buildOccluderImage's own extraction (below)
+// exists to catch for the hand motion blur.
+describe("generateBroadcastRun — top-crop wiring (#256 correction, item #3)", () => {
+  const BANNER: [number, number, number, number] = [222, 11, 222, 255]; // saturated, won't arise from blending
+  const TABLE: [number, number, number, number] = [20, 100, 120, 255];
+
+  function bannerMat(width: number, height: number, bannerRows: number): RawImage {
+    const data = new Uint8ClampedArray(width * height * 4);
+    for (let y = 0; y < height; y++) {
+      for (let x = 0; x < width; x++) {
+        const i = (y * width + x) * 4;
+        const color = y < bannerRows ? BANNER : TABLE;
+        data[i] = color[0];
+        data[i + 1] = color[1];
+        data[i + 2] = color[2];
+        data[i + 3] = color[3];
+      }
+    }
+    return { width, height, data };
+  }
+
+  function hasColor(image: RawImage, [r, g, b]: [number, number, number, number]): boolean {
+    for (let i = 0; i < image.data.length; i += 4) {
+      if (image.data[i] === r && image.data[i + 1] === g && image.data[i + 2] === b) return true;
+    }
+    return false;
+  }
+
+  // Zones start well below where BROADCAST_TABLE_TOP_CROP_FRAC crops
+  // (yFrac 0.4+, vs. a crop of ~0.143) so this test isolates "is the crop
+  // actually applied end to end" from the SEPARATE, already-covered
+  // question of "is the crop safe for the REAL production zone map" (see
+  // composites.zones.broadcastTableTopCropSafety.test.ts).
+  function deepZoneMap(): ZoneMap {
+    // Includes "pitch" (the "any card" kind buildEligibleByKind pools the
+    // whole catalog under, per generateZoneRun.ts) so the card-preview
+    // panel pick has something to draw from.
+    const cols = ["head", "chest", "hero", "deck", "pitch"];
+    return { name: "deep-test", zones: cols.map((kind, i) => ({ id: kind, kind: kind as never, rect: { xFrac: i * 0.18, yFrac: 0.4, wFrac: 0.16, hFrac: 0.3 } })) };
+  }
+
+  it("a banner-colored mat's banner is fully absent from the final rendered frame — the crop constant is genuinely applied, not just unit-tested in isolation", async () => {
+    const matHeight = 140;
+    const bannerRows = Math.round(BROADCAST_TABLE_TOP_CROP_FRAC * matHeight); // exactly what production crops for this matHeight
+    const background = bannerMat(200, matHeight, bannerRows);
+
+    const input = baseInput({
+      zoneMap: deepZoneMap(),
+      loadedBackground: background,
+      matWidth: 200,
+      matHeight,
+      zoneLayoutConfig: {
+        seed: 7,
+        cardHeightFraction: 0.5,
+        jitterPositionFraction: { min: 0, max: 0 },
+        jitterRotationDeg: { min: 0, max: 0 },
+        arsenalFaceUpProbability: 0,
+        guaranteedArsenalFaceUpIndices: [],
+        minVisibleFraction: 0,
+      },
+      augmentationConfig: {
+        ...baseInput().augmentationConfig,
+        keystoneStrength: { min: 0, max: 0 }, // no perspective — isolates the crop from warp interactions
+      },
+      count: 2,
+    });
+    const { composites } = await generateBroadcastRun(input);
+    for (const c of composites) {
+      expect(hasColor(c.image, BANNER)).toBe(false);
+    }
   });
 });
 

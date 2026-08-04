@@ -17,8 +17,11 @@ import { createSolidImage } from "../rawImage.js";
 import type { RawImage } from "../rawImage.js";
 import { renderComposite } from "../compositor.js";
 import type { LoadedCard } from "../compositor.js";
+import { computeDestQuad } from "../geometry.js";
 import { planZoneLayoutRun } from "./planZoneLayout.js";
 import type { ZoneLayoutConfig } from "./planZoneLayout.js";
+import type { RangeConfig } from "../config.js";
+import type { ZoneRectFrac } from "./zoneMap.js";
 import { planBroadcastAugmentationRun } from "./planBroadcastAugmentation.js";
 import type { BroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
 import { applyBroadcastAugmentation } from "./applyBroadcastAugmentation.js";
@@ -100,6 +103,80 @@ export const BROADCAST_RIGHT_SEED_OFFSET = 3_000_017;
  * sufficient rather than adding a whole extra procedural-background rng
  * dimension for content that's mostly painted over anyway. */
 const FRAME_BACKGROUND_COLOR: [number, number, number] = [12, 12, 16];
+
+/**
+ * Fraction of matHeight cropped from each mat's top edge before the
+ * quarter-turn (#256 correction, twoPlayer.ts's mergeBroadcastTableRenders
+ * `topCropFrac` — see that function's header for WHY: without it, both
+ * mats' decorative top-edge banners land adjacent at the table's seam).
+ *
+ * 144/1008 ≈ 0.142857, measured against pipeline/out/zone-reference-
+ * playmat.png (1728x1008, the one hardcoded reference playmat this whole
+ * pipeline assumes): direct pixel sampling found the "COMBAT CHAIN" banner's
+ * gold divider line at y≈138-141px (yFrac≈0.137-0.140) — this crop depth
+ * (y≈144px) sits a few pixels past it, so the banner is fully removed.
+ *
+ * The OTHER bound — this must stay BELOW the shallowest any real card can
+ * ever reach, or the crop would silently chop pixels off a labeled card
+ * while its quad still claims full visibility — is enforced by a live
+ * test (composites.zones.broadcastTableTopCropSafety.test.ts), which
+ * recomputes minReachableCardYFrac() below against the REAL committed
+ * zone map + zone-layout-generation.json on every run, not a one-time
+ * hand calculation: as of that config (jitterPositionFraction ±0.08,
+ * jitterRotationDeg ±5°), the worst case is y≈151.2px (yFrac≈0.150) — an
+ * ~7px margin under this crop depth. If either config's jitter/rotation
+ * range is ever widened, that test fails loudly instead of silently
+ * corrupting labels.
+ */
+export const BROADCAST_TABLE_TOP_CROP_FRAC = 144 / 1008;
+
+/**
+ * Numerically bounds how far toward a mat's own y=0 (its original top
+ * edge, where the decorative banner lives) any card can ever land, for a
+ * given set of zones + the zone-layout config's jitter/rotation ranges —
+ * reuses computeDestQuad, the SAME function production placement uses,
+ * brute-forced over a fine grid rather than a fragile hand-derived closed
+ * form (the parameter space per zone is only 2-dimensional: one jitter
+ * axis, one rotation axis). Exported specifically so
+ * BROADCAST_TABLE_TOP_CROP_FRAC's safety margin can be verified against
+ * the REAL committed configs in a test, instead of trusting a comment.
+ */
+export function minReachableCardYFrac(
+  zones: { rect: ZoneRectFrac }[],
+  config: { cardHeightFraction: number; jitterPositionFraction: RangeConfig; jitterRotationDeg: RangeConfig },
+  matWidth: number,
+  matHeight: number,
+  cardAspect = 63 / 88,
+  steps = 40,
+): number {
+  let minYFrac = Infinity;
+  for (const zone of zones) {
+    const zoneCenterY = zone.rect.yFrac + zone.rect.hFrac / 2;
+    const zoneCenterX = zone.rect.xFrac + zone.rect.wFrac / 2;
+    const cardHeightFrac = config.cardHeightFraction * zone.rect.hFrac;
+    const { min: jMin, max: jMax } = config.jitterPositionFraction;
+    const { min: rMin, max: rMax } = config.jitterRotationDeg;
+    for (let ji = 0; ji <= steps; ji++) {
+      const jitterYFrac = jMin + (jMax - jMin) * (ji / steps);
+      for (let ri = 0; ri <= steps; ri++) {
+        const rotationDeg = rMin + (rMax - rMin) * (ri / steps);
+        const corners = computeDestQuad(matWidth, matHeight, cardAspect, {
+          centerXFrac: zoneCenterX,
+          centerYFrac: zoneCenterY + jitterYFrac * zone.rect.hFrac,
+          rotationDeg,
+          cardHeightFrac,
+          perspectiveLeftFrac: 0,
+          perspectiveRightFrac: 0,
+        });
+        for (const c of corners) {
+          const yFrac = c.y / matHeight;
+          if (yFrac < minYFrac) minYFrac = yFrac;
+        }
+      }
+    }
+  }
+  return minYFrac;
+}
 
 export interface GenerateBroadcastRunInput {
   zoneLayoutConfig: ZoneLayoutConfig;
@@ -251,7 +328,7 @@ export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Pr
     const rightLoaded = await loadCardsForPlan(rightPlan);
     const leftRender = renderComposite(leftPlan, leftLoaded, input.zoneLayoutConfig.minVisibleFraction, input.loadedBackground);
     const rightRender = renderComposite(rightPlan, rightLoaded, input.zoneLayoutConfig.minVisibleFraction, input.loadedBackground);
-    const merged = mergeBroadcastTableRenders(leftRender, rightRender, `broadcast-table-${pad(i)}`);
+    const merged = mergeBroadcastTableRenders(leftRender, rightRender, `broadcast-table-${pad(i)}`, BROADCAST_TABLE_TOP_CROP_FRAC);
 
     const previewRef = previewPicks[i];
     const previewImage = await getImage(previewRef.imagePath);
