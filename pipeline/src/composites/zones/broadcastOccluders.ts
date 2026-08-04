@@ -23,6 +23,7 @@
  * CardPlacement.isOccluder: true — see compositor.ts's occluder handling
  * and test/composites.compositor.occluders.test.ts.
  */
+import { bilinearSample } from "../rawImage.js";
 import type { RawImage } from "../rawImage.js";
 
 /**
@@ -124,4 +125,61 @@ export function createHandImage(width: number, height: number, skinTone: [number
     }
   }
   return { width, height, data };
+}
+
+/**
+ * Directional motion blur — REQUIRED for `--mode broadcast`'s hand
+ * occluder (#256 correction: the Pro Tour Las Vegas rig shows heavy
+ * motion blur on hands sweeping across frame prominently; originally
+ * scoped as a nice-to-have deferral, upgraded once a second real rig
+ * showed it as a dominant realism cue). A pure box-blur along a straight
+ * line at `angleDeg` (screen/pixel-space, same convention as
+ * geometry.ts's rotationDeg): for every output pixel, averages
+ * `sampleCount` bilinear samples spread evenly across a line of length
+ * `kernelLength` centered on that pixel, both derived deterministically
+ * from `strength` (0..1) and the image's own size — no rng, no
+ * photorealistic claim (same "simplified simulation" philosophy as
+ * rawImage.ts's applySleeve/applyGlare), just a real, visible directional
+ * smear whose severity scales with `strength`.
+ *
+ * `strength <= 0` is an exact no-op (returns an unmodified copy) — a
+ * legitimate, common draw (see planBroadcastAugmentation.ts's
+ * blurStrengthDraw), not a special-cased skip.
+ */
+export function applyDirectionalMotionBlur(img: RawImage, strength: number, angleDeg: number): RawImage {
+  if (strength <= 0) return { width: img.width, height: img.height, data: new Uint8ClampedArray(img.data) };
+
+  // Kernel spans up to 25% of the image's longer side at strength=1 — a
+  // visible, but not image-obliterating, smear at the extreme.
+  const maxKernelFrac = 0.25;
+  const kernelLength = strength * maxKernelFrac * Math.max(img.width, img.height);
+  const sampleCount = Math.max(3, Math.round(kernelLength));
+
+  const rad = (angleDeg * Math.PI) / 180;
+  const dx = Math.cos(rad);
+  const dy = Math.sin(rad);
+
+  const data = new Uint8ClampedArray(img.width * img.height * 4);
+  for (let y = 0; y < img.height; y++) {
+    for (let x = 0; x < img.width; x++) {
+      let r = 0;
+      let g = 0;
+      let b = 0;
+      let a = 0;
+      for (let s = 0; s < sampleCount; s++) {
+        const t = (s / (sampleCount - 1) - 0.5) * kernelLength;
+        const [sr, sg, sb, sa] = bilinearSample(img, x + 0.5 + dx * t, y + 0.5 + dy * t);
+        r += sr;
+        g += sg;
+        b += sb;
+        a += sa;
+      }
+      const i = (y * img.width + x) * 4;
+      data[i] = r / sampleCount;
+      data[i + 1] = g / sampleCount;
+      data[i + 2] = b / sampleCount;
+      data[i + 3] = a / sampleCount;
+    }
+  }
+  return { width: img.width, height: img.height, data };
 }
