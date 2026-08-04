@@ -14,6 +14,7 @@ import {
   buildExportOptionsPlist,
   redactSecrets,
   signAppStoreConnectJwt,
+  describeBuildVisibility,
 } from '../lib';
 
 describe('checkTestFlightEnv', () => {
@@ -199,5 +200,61 @@ describe('signAppStoreConnectJwt', () => {
       signature,
     );
     expect(ok).toBe(true);
+  });
+});
+
+// #257 — build 1 uploaded fine and reached processingState VALID, but
+// buildBetaDetail.internalBuildState was MISSING_EXPORT_COMPLIANCE. Apple
+// hides such a build from ALL testers with no visible "missing compliance"
+// row anywhere in App Store Connect's UI, so processingState VALID alone
+// reads as success when it isn't. describeBuildVisibility is the single
+// source of truth for whether a build is *actually* visible to testers —
+// it must never report "not a problem" for a VALID build whose
+// internalBuildState isn't IN_BETA_TESTING.
+describe('describeBuildVisibility', () => {
+  it('reports a VALID build with internalBuildState IN_BETA_TESTING as visible', () => {
+    const { visible, line } = describeBuildVisibility(
+      { processingState: 'VALID', expired: false },
+      { internalBuildState: 'IN_BETA_TESTING', externalBuildState: 'PROCESSING' },
+    );
+    expect(visible).toBe(true);
+    expect(line).toContain('internal=IN_BETA_TESTING');
+    expect(line).toContain('external=PROCESSING');
+    expect(line).not.toMatch(/problem/i);
+  });
+
+  it('flags a VALID build stuck at MISSING_EXPORT_COMPLIANCE as a problem, never as success (#257)', () => {
+    const { visible, line } = describeBuildVisibility(
+      { processingState: 'VALID', expired: false },
+      { internalBuildState: 'MISSING_EXPORT_COMPLIANCE', externalBuildState: null },
+    );
+    expect(visible).toBe(false);
+    expect(line).toMatch(/problem/i);
+    expect(line).toContain('internal=MISSING_EXPORT_COMPLIANCE');
+    expect(line).toMatch(/not visible to testers/i);
+  });
+
+  it('treats a missing buildBetaDetail (fetch failed) as not-visible rather than silently ok', () => {
+    const { visible, line } = describeBuildVisibility({ processingState: 'VALID', expired: false }, null);
+    expect(visible).toBe(false);
+    expect(line).toMatch(/problem/i);
+    expect(line).toMatch(/unknown/i);
+  });
+
+  it('treats an expired build as not visible even when internalBuildState says IN_BETA_TESTING', () => {
+    const { visible, line } = describeBuildVisibility(
+      { processingState: 'VALID', expired: true },
+      { internalBuildState: 'IN_BETA_TESTING', externalBuildState: 'IN_BETA_TESTING' },
+    );
+    expect(visible).toBe(false);
+    expect(line).toMatch(/problem/i);
+  });
+
+  it('shows n/a for a missing externalBuildState rather than blank or undefined', () => {
+    const { line } = describeBuildVisibility(
+      { processingState: 'VALID', expired: false },
+      { internalBuildState: 'IN_BETA_TESTING' },
+    );
+    expect(line).toContain('external=n/a');
   });
 });
