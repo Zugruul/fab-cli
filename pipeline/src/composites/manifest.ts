@@ -13,8 +13,9 @@ import type { CompositeLabel } from "./types.js";
 
 /** #252: bumped for the new excludedCards entry field (cardCount's
  * meaning also narrowed to "labeled/included cards", see below). #253:
- * bumped again for the new cardBacksPlaced entry field. */
-export const COMPOSITE_MANIFEST_SCHEMA_VERSION = "0.3.0";
+ * bumped again for the new cardBacksPlaced entry field. #256 correction:
+ * bumped again for the new (optional) rigName entry field. */
+export const COMPOSITE_MANIFEST_SCHEMA_VERSION = "0.4.0";
 
 export interface CompositeManifestEntry {
   compositeId: string;
@@ -32,6 +33,14 @@ export interface CompositeManifestEntry {
    * CompositeLabel.cardBacksPlaced. 0 for every composite the base
    * random-scatter generator produces. */
   cardBacksPlaced: number;
+  /** Which physical broadcast rig config (BroadcastLayoutConfig.name) this
+   * composite's `rigIndexDraw` resolved to (#256 correction,
+   * generateBroadcastRun.ts's resolveRigIndex) — set ONLY by `--mode
+   * broadcast` runs, since every other generation mode has no concept of
+   * a "rig" at all. Real per-composite provenance (which rig trained on
+   * which sample), mirroring backgroundHash's own provenance role —
+   * `undefined` for every non-broadcast composite. */
+  rigName?: string;
   /** sha256 of the label file's exact on-disk bytes (write.ts writes
    * `JSON.stringify(label, null, 2) + "\n"` — the same bytes hashed here). */
   labelFileHash: string;

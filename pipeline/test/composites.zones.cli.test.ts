@@ -48,3 +48,65 @@ describe("parseZoneGenerateArgs", () => {
     expect(args.debugOverlayOut).toBeNull();
   });
 });
+
+// #256 Phase C: `--mode broadcast` is a NEW flag on the SAME zone-generate
+// command (builds on the #253 zone-layout machinery per the brief),
+// default "single" so every pre-#256 invocation is byte-for-byte
+// unaffected — no CLI behavior change unless --mode broadcast is passed
+// explicitly.
+describe("parseZoneGenerateArgs — --mode broadcast (#256)", () => {
+  it("defaults mode to 'single' (pre-#256 behavior, unchanged)", () => {
+    expect(parseZoneGenerateArgs([]).mode).toBe("single");
+  });
+
+  it("accepts --mode broadcast", () => {
+    expect(parseZoneGenerateArgs(["--mode", "broadcast"]).mode).toBe("broadcast");
+  });
+
+  it("defaults broadcastLayoutPath to null — a run draws from the FULL rig pool, not one hardcoded rig (#256 correction)", () => {
+    const args = parseZoneGenerateArgs([]);
+    expect(args.broadcastLayoutPath).toBeNull();
+  });
+
+  it("defaults broadcastLayoutsDir to the committed config/broadcast-layouts/ pool (#256 correction)", () => {
+    const args = parseZoneGenerateArgs([]);
+    expect(args.broadcastLayoutsDir).toMatch(/broadcast-layouts$/);
+  });
+
+  it("honors --broadcast-layouts-dir", () => {
+    const args = parseZoneGenerateArgs(["--mode", "broadcast", "--broadcast-layouts-dir", "/tmp/rigs"]);
+    expect(args.broadcastLayoutsDir).toBe("/tmp/rigs");
+  });
+
+  it("defaults broadcastAugmentationPath to the committed broadcast-augmentation.json", () => {
+    const args = parseZoneGenerateArgs([]);
+    expect(args.broadcastAugmentationPath).toMatch(/broadcast-augmentation\.json$/);
+  });
+
+  it("defaults broadcastCount, frameWidth, frameHeight to documented values", () => {
+    const args = parseZoneGenerateArgs([]);
+    expect(args.broadcastCount).toBeGreaterThan(0);
+    expect(args.frameWidth).toBeGreaterThan(args.frameHeight); // landscape
+  });
+
+  it("honors --broadcast-layout, --broadcast-augmentation, --broadcast-count, --frame-width, --frame-height overrides", () => {
+    const args = parseZoneGenerateArgs([
+      "--mode", "broadcast",
+      "--broadcast-layout", "/tmp/layout.json",
+      "--broadcast-augmentation", "/tmp/aug.json",
+      "--broadcast-count", "12",
+      "--frame-width", "1000",
+      "--frame-height", "600",
+    ]);
+    expect(args.broadcastLayoutPath).toBe("/tmp/layout.json");
+    expect(args.broadcastAugmentationPath).toBe("/tmp/aug.json");
+    expect(args.broadcastCount).toBe(12);
+    expect(args.frameWidth).toBe(1000);
+    expect(args.frameHeight).toBe(600);
+  });
+
+  it("defaults --out to a DIFFERENT dir than plain zone-generate's default (out/broadcast-layouts, not out/zone-layouts) when --mode broadcast is passed", () => {
+    const args = parseZoneGenerateArgs(["--mode", "broadcast"]);
+    expect(args.outDir.split(/[\\/]/)).toContain("broadcast-layouts");
+  });
+});

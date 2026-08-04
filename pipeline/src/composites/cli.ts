@@ -27,6 +27,29 @@
  *     test/noCommitGuard.test.ts) — the dir consumed by `generate`'s
  *     `--backgrounds-dir`.
  *
+ *   composites import-captures --source <dir> [--out <dir>] [--config <path>]
+ *     Imports real tournament-broadcast screenshots (#256) into
+ *     canonical, content-hash-named PNGs under --out (default
+ *     pipeline/out/backgrounds/captures/, gitignored — DELIBERATELY a
+ *     different directory than import-backgrounds's playmats/ output, see
+ *     importCaptures.ts's header for why these must never be pointed at
+ *     `generate --backgrounds-dir`), classifying each capture's `framing`
+ *     (full-broadcast | play-area-crop) via a config-driven aspect-ratio
+ *     threshold (--config, default pipeline/config/broadcast-import.json)
+ *     and recording width/height/hash/framing per capture in a manifest.json
+ *     alongside the imported PNGs — calibration/reference material for
+ *     `--mode broadcast` (Phase B/C), never labeled training data itself.
+ *
+ *   composites broadcast-sample-sheet [--run-dir <dir>] [--captures-dir <dir>]
+ *                                     [--out <path>] [--title <text>] [--reference-count <n>]
+ *     Phase D (#256): a DEDICATED sheet interleaving a completed
+ *     `zone-generate --mode broadcast` run's synthetic composites (label
+ *     overlays, region markers) with real imported captures (--captures-dir,
+ *     default pipeline/out/backgrounds/captures/) shown as unlabeled
+ *     REFERENCE tiles only — see zones/broadcastSampleSheet.ts. Wired here
+ *     (zones/cli.ts) rather than the plain `sample-sheet` above since it
+ *     reads TWO independent manifests, not one.
+ *
  *   composites sample-sheet [--run-dir <dir>] [--out <path>] [--title <text>]
  *     Builds a human-inspection HTML page (sampleSheet.ts) referencing a
  *     previously-generated run's composites + quad overlays, so a human
@@ -44,12 +67,14 @@ import { writeCompositeRun } from "./write.js";
 import { decodeImageToRaw, encodeRawToPng, decodeAndNormalizeBackground } from "./imageIO.js";
 import { loadExternalBackgroundRefs } from "./background.js";
 import { importBackgrounds } from "./importBackgrounds.js";
+import { importCaptures, validateBroadcastImportConfig } from "./importCaptures.js";
+import type { BroadcastImportConfig, ImportCapturesResult } from "./importCaptures.js";
 import { buildSampleSheetHtml } from "./sampleSheet.js";
 import type { SampleSheetEntry } from "./sampleSheet.js";
 import type { CompositeDatasetManifest } from "./manifest.js";
 import type { CardImageRef } from "./paramStream.js";
 import type { CompositeLabel } from "./types.js";
-import { zoneGenerateCommand } from "./zones/cli.js";
+import { zoneGenerateCommand, broadcastSampleSheetCommand } from "./zones/cli.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..");
 
@@ -221,6 +246,73 @@ export async function importBackgroundsCommand(argv: string[]): Promise<number> 
   return 0;
 }
 
+// --- composites import-captures ------------------------------------------
+
+export interface ImportCapturesArgs {
+  sourceDir: string;
+  outDir: string;
+  configPath: string;
+}
+
+export function parseImportCapturesArgs(argv: string[]): ImportCapturesArgs {
+  const args: ImportCapturesArgs = {
+    sourceDir: "",
+    // Deliberately its OWN directory (captures/, not playmats/) — see this
+    // file's header doc and importCaptures.ts's honest-constraint comment
+    // for why real broadcast captures must never land where `generate
+    // --backgrounds-dir` would find and paste labeled cards over them.
+    outDir: path.join(BASE, "out", "backgrounds", "captures"),
+    configPath: path.join(BASE, "config", "broadcast-import.json"),
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === "--source" && argv[i + 1]) args.sourceDir = argv[++i];
+    else if (arg === "--out" && argv[i + 1]) args.outDir = argv[++i];
+    else if (arg === "--config" && argv[i + 1]) args.configPath = argv[++i];
+  }
+  if (args.sourceDir === "") {
+    throw new Error("composites import-captures: --source <dir> is required");
+  }
+  return args;
+}
+
+export async function importCapturesCommand(argv: string[]): Promise<number> {
+  const args = parseImportCapturesArgs(argv);
+
+  const rawConfig: unknown = JSON.parse(fs.readFileSync(args.configPath, "utf8"));
+  const configResult = validateBroadcastImportConfig(rawConfig);
+  if (!configResult.valid) {
+    throw new Error(`composites import-captures: invalid config at ${args.configPath}: ${configResult.errors.join("; ")}`);
+  }
+  const config: BroadcastImportConfig = configResult.config;
+
+  const result: ImportCapturesResult = await importCaptures(args.sourceDir, args.outDir, config, {
+    normalizeImage: decodeAndNormalizeBackground,
+    listDir: (dir) => {
+      try {
+        return fs.readdirSync(dir);
+      } catch (err) {
+        throw new Error(`composites import-captures: cannot read source dir "${dir}": ${err instanceof Error ? err.message : String(err)}`);
+      }
+    },
+    ensureDir: (dir) => fs.mkdirSync(dir, { recursive: true }),
+    writeFile: (p, data) => fs.writeFileSync(p, data),
+  });
+
+  fs.writeFileSync(path.join(args.outDir, "manifest.json"), JSON.stringify(result, null, 2) + "\n");
+
+  const fullCount = result.imported.filter((c) => c.framing === "full-broadcast").length;
+  const cropCount = result.imported.filter((c) => c.framing === "play-area-crop").length;
+  const deduped = result.imported.filter((i) => i.dedupedAgainst !== null);
+  console.log(`captures: ${result.imported.length} imported (${fullCount} full-broadcast, ${cropCount} play-area-crop), ${result.skipped.length} skipped`);
+  if (deduped.length > 0) {
+    console.log(`  (${deduped.length} deduped against an earlier file with identical content)`);
+  }
+  for (const s of result.skipped) console.log(`  skip: ${s.sourceFile} — ${s.reason}`);
+  console.log(`-> ${args.outDir}`);
+  return 0;
+}
+
 // --- composites sample-sheet ---------------------------------------------
 
 export interface SampleSheetArgs {
@@ -274,6 +366,11 @@ async function main(): Promise<void> {
     process.exitCode = code;
     return;
   }
+  if (command === "import-captures") {
+    const code = await importCapturesCommand(rest);
+    process.exitCode = code;
+    return;
+  }
   if (command === "sample-sheet") {
     sampleSheetCommand(rest);
     return;
@@ -283,7 +380,13 @@ async function main(): Promise<void> {
     process.exitCode = code;
     return;
   }
-  console.error(`unknown composites command: ${command ?? "(none)"} — expected "generate", "import-backgrounds", "sample-sheet", or "zone-generate"`);
+  if (command === "broadcast-sample-sheet") {
+    broadcastSampleSheetCommand(rest);
+    return;
+  }
+  console.error(
+    `unknown composites command: ${command ?? "(none)"} — expected "generate", "import-backgrounds", "import-captures", "sample-sheet", "zone-generate", or "broadcast-sample-sheet"`,
+  );
   process.exitCode = 1;
 }
 

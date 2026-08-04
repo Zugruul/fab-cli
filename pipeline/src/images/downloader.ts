@@ -153,3 +153,26 @@ export async function downloadAll(
 
   return outcomes;
 }
+
+/**
+ * Throws loudly, naming EVERY failed printing and its failureReason, if
+ * `outcomes` contains any `status: "failed"` entry — never a silent
+ * partial-failure pass-through. `downloadAll` itself never throws on a
+ * per-printing failure (a permanent 403/404 stays permanent no matter how
+ * many refs are in the batch, so one bad printing must never abort the
+ * others' downloads) — that design is correct and unchanged; the failure
+ * mode this closes is downstream CALLERS discarding `downloadAll`'s
+ * return value entirely (composites/zones/cli.ts's real-data run hit
+ * exactly this: a genuine S3 403 for one printing was silently swallowed,
+ * and the run crashed much later with a confusing raw sharp "Input file
+ * is missing" error instead of a clear message naming the actual failed
+ * printing — see composites #256's real-data-run report). Every caller
+ * that treats "the images I need are now on disk" as a hard precondition
+ * for the next step should call this immediately after `downloadAll`.
+ */
+export function assertDownloadsSucceeded(outcomes: DownloadOutcome[]): void {
+  const failed = outcomes.filter((o) => o.status === "failed");
+  if (failed.length === 0) return;
+  const details = failed.map((o) => `${o.printingId} (${o.failureReason ?? "unknown reason"})`).join("; ");
+  throw new Error(`assertDownloadsSucceeded: ${failed.length} printing image download(s) failed: ${details}`);
+}

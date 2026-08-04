@@ -1,0 +1,382 @@
+/**
+ * End-to-end, injectable-IO generation for one `--mode broadcast` run
+ * (#256 Phase C) — the broadcast analog of generateZoneRun.ts's
+ * generateZoneRun, reusing that file's exported `buildEligibleByKind` and
+ * `ImageNeed` wholesale (no reimplementation) plus planZoneLayoutRun
+ * UNCHANGED for the near/far mats. Layers three broadcast-only steps on
+ * top: planBroadcastAugmentationRun + applyBroadcastAugmentation (sleeve/
+ * stack/dice/hand/preview/keystone), mergeBroadcastTableRenders
+ * (landscape, vertical-mirror-axis table), and renderBroadcastFrame (the
+ * measured chrome/play-area frame). Returns a {manifest, composites}
+ * shape identical to generate.ts's/generateZoneRun.ts's own, so it flows
+ * unchanged into write.ts/sampleSheet.ts.
+ */
+import { configHash } from "../../qa/manifest.js";
+import { sha256 } from "../../benchmark/manifest.js";
+import { createSolidImage } from "../rawImage.js";
+import type { RawImage } from "../rawImage.js";
+import { renderComposite } from "../compositor.js";
+import type { LoadedCard } from "../compositor.js";
+import { computeDestQuad } from "../geometry.js";
+import { planZoneLayoutRun } from "./planZoneLayout.js";
+import type { ZoneLayoutConfig } from "./planZoneLayout.js";
+import type { RangeConfig } from "../config.js";
+import type { ZoneRectFrac } from "./zoneMap.js";
+import { planBroadcastAugmentationRun } from "./planBroadcastAugmentation.js";
+import type { BroadcastAugmentationConfig } from "./planBroadcastAugmentation.js";
+import { applyBroadcastAugmentation } from "./applyBroadcastAugmentation.js";
+import { mergeBroadcastTableRenders } from "./twoPlayer.js";
+import { renderBroadcastFrame } from "./broadcastCompositor.js";
+import type { RenderBroadcastFrameResult } from "./broadcastCompositor.js";
+import { createStackShimImage, createDiceImage, createHandImage, applyDirectionalMotionBlur } from "./broadcastOccluders.js";
+import type { OccluderImageSpec } from "./applyBroadcastAugmentation.js";
+
+/**
+ * Renders one occluder spec into pixels. Extracted from the per-composite
+ * loop below so the dispatch itself is directly testable — specifically the
+ * hand's motion-blur wiring, which is a bug class unit tests of
+ * `applyDirectionalMotionBlur` alone cannot catch: "the primitive exists and
+ * is correct, but nothing ever calls it" leaves every primitive test green
+ * while the feature is entirely absent from output.
+ *
+ * `blurStrength` comes from the seeded param stream (planBroadcastAugmentation's
+ * `handBlurDraw`), and 0 is a legitimate draw — `applyDirectionalMotionBlur`
+ * treats `strength <= 0` as an exact no-op copy, so a 0-strength hand is
+ * byte-identical to the unblurred image rather than a special-cased skip.
+ * The blur angle follows the hand's own entry direction so the smear reads as
+ * motion along the hand, not an arbitrary axis.
+ */
+export function buildOccluderImage(spec: OccluderImageSpec): RawImage {
+  if (spec.kind === "shim") return createStackShimImage(spec.width, spec.height, spec.color);
+  if (spec.kind === "dice") return createDiceImage(spec.width, spec.height, spec.bodyColor, spec.pipColor, spec.face);
+  const hand = createHandImage(spec.width, spec.height, spec.skinTone);
+  return applyDirectionalMotionBlur(hand, spec.blurStrength, HAND_MOTION_BLUR_ANGLE_DEG);
+}
+
+/** Hands sweep roughly across the table (horizontally) in the reference
+ * broadcast captures, so the smear runs along x. */
+export const HAND_MOTION_BLUR_ANGLE_DEG = 0;
+
+/**
+ * Resolves planBroadcastAugmentation.ts's raw `rigIndexDraw` [0,1) fraction
+ * into an actual index into `layouts` (#256 correction, Phase C blocking
+ * item #2). `rigIndexDraw` is drawn unconditionally by that module with
+ * ZERO knowledge of how many rigs are configured — by design, so adding a
+ * third rig to the committed config later can never reshuffle any other
+ * per-composite draw for an existing seed (see planBroadcastAugmentation.ts's
+ * header). This is where that fraction actually becomes a pick, splitting
+ * [0,1) into `layoutCount` equal bands: band i is
+ * [i/layoutCount, (i+1)/layoutCount). Clamped defensively to the last valid
+ * index (createRng's contract is [0,1), so draw===1 should never happen,
+ * but a raw floating-point edge case silently indexing past the array end
+ * would be a far worse failure than a clamp).
+ */
+export function resolveRigIndex(rigIndexDraw: number, layoutCount: number): number {
+  return Math.min(layoutCount - 1, Math.floor(rigIndexDraw * layoutCount));
+}
+import { pickDeterministic } from "./semanticSelection.js";
+import type { RawCardForSelection } from "./semanticSelection.js";
+import { buildEligibleByKind } from "./generateZoneRun.js";
+import type { ImageNeed } from "./generateZoneRun.js";
+import type { ZoneMap } from "./zoneMap.js";
+import type { BroadcastLayoutConfig } from "./broadcastLayout.js";
+import { COMPOSITE_LABEL_SCHEMA_VERSION } from "../types.js";
+import { COMPOSITE_MANIFEST_SCHEMA_VERSION } from "../manifest.js";
+import type { CompositeDatasetManifest, CompositeManifestEntry } from "../manifest.js";
+
+/** Large, fixed, documented offsets (mirrors generateZoneRun.ts's
+ * TWO_PLAYER_NEAR_SEED_OFFSET/TWO_PLAYER_FAR_SEED_OFFSET exactly) — keeps
+ * the left and right mats' zone-layout rng streams distinct from each
+ * other AND from the base zoneLayoutConfig.seed itself, off the SAME
+ * shared config/zone map (both players sit at an identical physical
+ * layout). The broadcast augmentation stream (sleeve/stack/dice/hand/
+ * preview/keystone) is a wholly separate top-level config object with its
+ * OWN seed field — no offset needed there, see
+ * planBroadcastAugmentation.ts's header. */
+export const BROADCAST_LEFT_SEED_OFFSET = 2_000_003;
+export const BROADCAST_RIGHT_SEED_OFFSET = 3_000_017;
+
+/** Fixed, not drawn from any rng stream (#256 scope decision): the
+ * measured broadcast-layout config's chrome + play area together cover
+ * essentially the entire frame (Phase B), so the raw "outside everything"
+ * background is barely, if ever, visible — a single flat dark backdrop is
+ * sufficient rather than adding a whole extra procedural-background rng
+ * dimension for content that's mostly painted over anyway. */
+const FRAME_BACKGROUND_COLOR: [number, number, number] = [12, 12, 16];
+
+/**
+ * Fraction of matHeight OVERPAINTED (not cropped — dimensions never
+ * change, see twoPlayer.ts's blankTopBandRawImage) from each mat's top
+ * edge before the quarter-turn (#256 correction, mergeBroadcastTableRenders'
+ * `topBandFrac` — see that function's header for WHY: without it, both
+ * mats' decorative top-edge banners land adjacent at the table's seam).
+ * An earlier version of this constant fed an ACTUAL crop (shrinking
+ * matHeight) — corrected after re-measuring a real run showed it broke
+ * the merged table's calibrated aspect ratio (table card aspect mean
+ * 0.672 -> 0.577 against a real card's 0.716). Overpainting keeps the
+ * SAME visual fix with zero dimension/aspect side effect.
+ *
+ * 144/1008 ≈ 0.142857, measured against pipeline/out/zone-reference-
+ * playmat.png (1728x1008, the one hardcoded reference playmat this whole
+ * pipeline assumes): direct pixel sampling found the "COMBAT CHAIN" banner's
+ * gold divider line at y≈138-141px (yFrac≈0.137-0.140) — this band depth
+ * (y≈144px) sits a few pixels past it, so the banner is fully removed.
+ *
+ * The OTHER bound — this must stay BELOW the shallowest any real card can
+ * ever reach, or the overpaint would silently erase pixels of a labeled
+ * card while its quad still claims full visibility — is enforced by a
+ * live test (composites.zones.broadcastTableTopCropSafety.test.ts), which
+ * recomputes minReachableCardYFrac() below against the REAL committed
+ * zone map + zone-layout-generation.json on every run, not a one-time
+ * hand calculation: as of that config (jitterPositionFraction ±0.08,
+ * jitterRotationDeg ±5°), the worst case is y≈151.2px (yFrac≈0.150) — an
+ * ~7px margin under this band depth. If either config's jitter/rotation
+ * range is ever widened, that test fails loudly instead of silently
+ * corrupting labels.
+ */
+export const BROADCAST_TABLE_TOP_CROP_FRAC = 144 / 1008;
+
+/**
+ * Numerically bounds how far toward a mat's own y=0 (its original top
+ * edge, where the decorative banner lives) any card can ever land, for a
+ * given set of zones + the zone-layout config's jitter/rotation ranges —
+ * reuses computeDestQuad, the SAME function production placement uses,
+ * brute-forced over a fine grid rather than a fragile hand-derived closed
+ * form (the parameter space per zone is only 2-dimensional: one jitter
+ * axis, one rotation axis). Exported specifically so
+ * BROADCAST_TABLE_TOP_CROP_FRAC's safety margin can be verified against
+ * the REAL committed configs in a test, instead of trusting a comment.
+ */
+export function minReachableCardYFrac(
+  zones: { rect: ZoneRectFrac }[],
+  config: { cardHeightFraction: number; jitterPositionFraction: RangeConfig; jitterRotationDeg: RangeConfig },
+  matWidth: number,
+  matHeight: number,
+  cardAspect = 63 / 88,
+  steps = 40,
+): number {
+  let minYFrac = Infinity;
+  for (const zone of zones) {
+    const zoneCenterY = zone.rect.yFrac + zone.rect.hFrac / 2;
+    const zoneCenterX = zone.rect.xFrac + zone.rect.wFrac / 2;
+    const cardHeightFrac = config.cardHeightFraction * zone.rect.hFrac;
+    const { min: jMin, max: jMax } = config.jitterPositionFraction;
+    const { min: rMin, max: rMax } = config.jitterRotationDeg;
+    for (let ji = 0; ji <= steps; ji++) {
+      const jitterYFrac = jMin + (jMax - jMin) * (ji / steps);
+      for (let ri = 0; ri <= steps; ri++) {
+        const rotationDeg = rMin + (rMax - rMin) * (ri / steps);
+        const corners = computeDestQuad(matWidth, matHeight, cardAspect, {
+          centerXFrac: zoneCenterX,
+          centerYFrac: zoneCenterY + jitterYFrac * zone.rect.hFrac,
+          rotationDeg,
+          cardHeightFrac,
+          perspectiveLeftFrac: 0,
+          perspectiveRightFrac: 0,
+        });
+        for (const c of corners) {
+          const yFrac = c.y / matHeight;
+          if (yFrac < minYFrac) minYFrac = yFrac;
+        }
+      }
+    }
+  }
+  return minYFrac;
+}
+
+export interface GenerateBroadcastRunInput {
+  zoneLayoutConfig: ZoneLayoutConfig;
+  augmentationConfig: BroadcastAugmentationConfig;
+  /** The rig pool a run draws from (#256 correction) — MUST be non-empty.
+   * Each composite independently resolves its OWN `rigIndexDraw` (planned
+   * alongside sleeve/stack/dice/hand/preview/keystone, see
+   * planBroadcastAugmentation.ts's header) into an index via
+   * resolveRigIndex, so a run with 2+ configured rigs genuinely mixes
+   * them rather than always using layouts[0]. A single-entry array
+   * reproduces the pre-correction single-rig behavior exactly
+   * (resolveRigIndex always returns 0 when layoutCount is 1). */
+  layouts: BroadcastLayoutConfig[];
+  zoneMap: ZoneMap;
+  cards: RawCardForSelection[];
+  imagesCacheDir: string;
+  loadImage: (imagePath: string) => Promise<RawImage>;
+  ensureImagesDownloaded: (needs: ImageNeed[]) => Promise<void>;
+  loadedBackground: RawImage;
+  cardBackImagePath: string;
+  cardBackPrintingId: string;
+  matWidth: number;
+  matHeight: number;
+  background: { fileName: string; contentHash: string };
+  frameWidth: number;
+  frameHeight: number;
+  count: number;
+  now?: () => string;
+}
+
+export interface GenerateBroadcastRunResult {
+  manifest: CompositeDatasetManifest;
+  composites: RenderBroadcastFrameResult[];
+}
+
+function pad(i: number): string {
+  return String(i).padStart(4, "0");
+}
+
+export async function generateBroadcastRun(input: GenerateBroadcastRunInput): Promise<GenerateBroadcastRunResult> {
+  if (input.layouts.length === 0) {
+    throw new Error("generateBroadcastRun: input.layouts must be a non-empty array (no rig configured for this run)");
+  }
+  const eligibleByKind = buildEligibleByKind(input.cards, input.zoneMap, input.imagesCacheDir);
+  const cardBack = { printingId: input.cardBackPrintingId, imagePath: input.cardBackImagePath };
+
+  const planCommon = {
+    zoneMap: input.zoneMap,
+    eligibleByKind,
+    cardBack,
+    matWidth: input.matWidth,
+    matHeight: input.matHeight,
+    background: input.background,
+  };
+
+  const leftPlans = planZoneLayoutRun({
+    ...planCommon,
+    config: { ...input.zoneLayoutConfig, seed: input.zoneLayoutConfig.seed + BROADCAST_LEFT_SEED_OFFSET },
+    compositesPerRun: input.count,
+    compositeIdPrefix: "broadcast-left",
+  });
+  const rightPlans = planZoneLayoutRun({
+    ...planCommon,
+    config: { ...input.zoneLayoutConfig, seed: input.zoneLayoutConfig.seed + BROADCAST_RIGHT_SEED_OFFSET },
+    compositesPerRun: input.count,
+    compositeIdPrefix: "broadcast-right",
+  });
+  const augmentations = planBroadcastAugmentationRun(input.augmentationConfig, input.zoneMap, input.count);
+
+  // "Any card" pool for the card-preview panel pick — reuses the SAME
+  // pitch-kind eligibility pool already computed above (pitch matches any
+  // catalog card, semanticSelection.ts), no new eligibility concept.
+  const previewPool = eligibleByKind.pitch;
+  if (!previewPool || previewPool.length === 0) {
+    throw new Error("generateBroadcastRun: no eligible cards for the card-preview panel (pitch-kind pool is empty)");
+  }
+
+  const applied = leftPlans.map((leftPlan, i) => applyBroadcastAugmentation(leftPlan, rightPlans[i], input.zoneMap, augmentations[i]));
+  const previewPicks = augmentations.map((a) => pickDeterministic(previewPool, a.previewCardDraw));
+
+  // Every distinct REAL catalog printing actually picked, across every
+  // composite's left/right plans AND every preview pick — deliberately
+  // excludes isCardBack (has its own dedicated fetch, ensureCardBackCached)
+  // and isOccluder placements (procedurally generated, never downloaded).
+  const imageUrlByPrintingId = new Map<string, string>();
+  for (const pool of Object.values(eligibleByKind)) {
+    for (const c of pool ?? []) imageUrlByPrintingId.set(c.printingId, c.imageUrl);
+  }
+  const needsByPrintingId = new Map<string, ImageNeed>();
+  for (const { leftPlan, rightPlan } of applied) {
+    for (const c of [...leftPlan.cards, ...rightPlan.cards]) {
+      if (c.isCardBack || c.isOccluder) continue;
+      const imageUrl = imageUrlByPrintingId.get(c.printingId);
+      if (imageUrl) needsByPrintingId.set(c.printingId, { printingId: c.printingId, imagePath: c.imagePath, imageUrl });
+    }
+  }
+  for (const pick of previewPicks) {
+    needsByPrintingId.set(pick.printingId, { printingId: pick.printingId, imagePath: pick.imagePath, imageUrl: pick.imageUrl });
+  }
+  await input.ensureImagesDownloaded([...needsByPrintingId.values()]);
+
+  const imageCache = new Map<string, RawImage>();
+  async function getImage(imagePath: string): Promise<RawImage> {
+    const cached = imageCache.get(imagePath);
+    if (cached) return cached;
+    const loaded = await input.loadImage(imagePath);
+    imageCache.set(imagePath, loaded);
+    return loaded;
+  }
+
+  const frameBackground = createSolidImage(input.frameWidth, input.frameHeight, FRAME_BACKGROUND_COLOR);
+
+  const composites: RenderBroadcastFrameResult[] = [];
+  // Per-composite rig pick (#256 correction) — resolved from EACH
+  // composite's OWN rigIndexDraw, so a run with 2+ configured rigs
+  // genuinely mixes them rather than pinning every composite to
+  // input.layouts[0]. Collected in a parallel array (rather than
+  // re-deriving it from the manifest afterward) since it's needed both
+  // here (which layout renderBroadcastFrame actually uses) and below
+  // (the manifest entry's rigName).
+  const resolvedRigNames: string[] = [];
+  for (let i = 0; i < input.count; i++) {
+    const { leftPlan, rightPlan, occluderSpecs } = applied[i];
+    const rig = input.layouts[resolveRigIndex(augmentations[i].rigIndexDraw, input.layouts.length)];
+    resolvedRigNames.push(rig.name);
+
+    // Occluder images are regenerated FRESH per composite (never cached
+    // across composites): applyBroadcastAugmentation resets its synthetic
+    // printingId counters (e.g. "__occluder_dice_0__") independently for
+    // EACH composite, so the same printingId can legitimately map to
+    // different visual content (a different face/color) across different
+    // composites — a run-wide cache keyed only by printingId would
+    // silently reuse composite 0's dice image for composite 1's.
+    const occluderImages = new Map<string, RawImage>();
+    for (const spec of occluderSpecs) {
+      occluderImages.set(spec.printingId, buildOccluderImage(spec));
+    }
+
+    async function loadCardsForPlan(plan: { cards: { printingId: string; imagePath: string; isOccluder?: boolean }[] }): Promise<LoadedCard[]> {
+      const out: LoadedCard[] = [];
+      for (const c of plan.cards) {
+        const image = c.isOccluder ? occluderImages.get(c.printingId)! : await getImage(c.imagePath);
+        out.push({ printingId: c.printingId, image });
+      }
+      return out;
+    }
+
+    const leftLoaded = await loadCardsForPlan(leftPlan);
+    const rightLoaded = await loadCardsForPlan(rightPlan);
+    const leftRender = renderComposite(leftPlan, leftLoaded, input.zoneLayoutConfig.minVisibleFraction, input.loadedBackground);
+    const rightRender = renderComposite(rightPlan, rightLoaded, input.zoneLayoutConfig.minVisibleFraction, input.loadedBackground);
+    const merged = mergeBroadcastTableRenders(leftRender, rightRender, `broadcast-table-${pad(i)}`, BROADCAST_TABLE_TOP_CROP_FRAC);
+
+    const previewRef = previewPicks[i];
+    const previewImage = await getImage(previewRef.imagePath);
+
+    const frame = renderBroadcastFrame({
+      frameWidth: input.frameWidth,
+      frameHeight: input.frameHeight,
+      frameBackground,
+      layout: rig,
+      tableImage: merged.image,
+      tableCardLabels: merged.label.cards,
+      keystoneLeftFrac: augmentations[i].keystoneLeftFrac,
+      keystoneRightFrac: augmentations[i].keystoneRightFrac,
+      previewCard: { printingId: previewRef.printingId, image: previewImage },
+      compositeId: `broadcast-${pad(i)}`,
+      excludedCards: merged.label.excludedCards,
+      cardBacksPlaced: merged.label.cardBacksPlaced,
+      backgroundType: "procedural:solid",
+      backgroundHash: null,
+    });
+    composites.push(frame);
+  }
+
+  const now = input.now ?? (() => new Date().toISOString());
+  const manifestEntries: CompositeManifestEntry[] = composites.map((c, i) => ({
+    compositeId: c.label.compositeId,
+    fileName: c.label.fileName,
+    cardCount: c.label.cards.length,
+    excludedCards: c.label.excludedCards,
+    cardBacksPlaced: c.label.cardBacksPlaced,
+    rigName: resolvedRigNames[i],
+    labelFileHash: sha256(Buffer.from(JSON.stringify(c.label, null, 2) + "\n")),
+  }));
+  const manifest: CompositeDatasetManifest = {
+    schemaVersion: COMPOSITE_MANIFEST_SCHEMA_VERSION,
+    labelSchemaVersion: COMPOSITE_LABEL_SCHEMA_VERSION,
+    buildDate: now(),
+    seed: input.zoneLayoutConfig.seed,
+    generatorConfigHash: configHash({ zoneLayoutConfig: input.zoneLayoutConfig, augmentationConfig: input.augmentationConfig, layouts: input.layouts }),
+    compositeCount: composites.length,
+    composites: manifestEntries,
+  };
+
+  return { manifest, composites };
+}

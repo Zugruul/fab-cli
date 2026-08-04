@@ -43,8 +43,8 @@ const baseConfig = {
 };
 
 describe("buildCompositeManifest — cardBacksPlaced (#253)", () => {
-  it("bumps COMPOSITE_MANIFEST_SCHEMA_VERSION to 0.3.0 for the cardBacksPlaced field addition", () => {
-    expect(COMPOSITE_MANIFEST_SCHEMA_VERSION).toBe("0.3.0");
+  it("bumped COMPOSITE_MANIFEST_SCHEMA_VERSION to 0.3.0 for the cardBacksPlaced field addition — since bumped again to 0.4.0 for #256's rigName field", () => {
+    expect(COMPOSITE_MANIFEST_SCHEMA_VERSION).toBe("0.4.0");
   });
 
   it("carries each composite's cardBacksPlaced count through to the manifest entry", () => {

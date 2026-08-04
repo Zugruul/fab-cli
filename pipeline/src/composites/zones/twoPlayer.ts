@@ -40,6 +40,99 @@ export function rotate180RawImage(img: RawImage): RawImage {
   return { width: img.width, height: img.height, data: out };
 }
 
+/**
+ * Rotates an image a quarter turn. `cw` maps source (x, y) -> (H - 1 - y, x)
+ * and `ccw` maps (x, y) -> (y, W - 1 - x); both swap the canvas dimensions
+ * (W x H -> H x W). Like rotate180RawImage this is a pure pixel re-read, not
+ * a re-render, and is exactly lossless (cw then ccw is the identity).
+ *
+ * Needed because a playmat is authored LANDSCAPE (its zone rows run across
+ * the mat) but on a real tournament table the two mats are laid out along
+ * the table's long axis, each turned a quarter turn so a player's zone rows
+ * run down their own side of frame. Stacking two landscape mats instead
+ * produces a canvas roughly 2*(W/H) wide, which then can only be fitted into
+ * a landscape play-area rect by squashing it — see this module's
+ * mergeBroadcastTableRenders and the test file that locks it.
+ */
+export function rotate90RawImage(img: RawImage, direction: "cw" | "ccw"): RawImage {
+  const { width: w, height: h } = img;
+  const out = new Uint8ClampedArray(img.data.length);
+  // Rotated canvas is h wide, w tall.
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const src = (y * w + x) * 4;
+      const dx = direction === "cw" ? h - 1 - y : y;
+      const dy = direction === "cw" ? x : w - 1 - x;
+      const dst = (dy * h + dx) * 4;
+      out[dst] = img.data[src];
+      out[dst + 1] = img.data[src + 1];
+      out[dst + 2] = img.data[src + 2];
+      out[dst + 3] = img.data[src + 3];
+    }
+  }
+  return { width: h, height: w, data: out };
+}
+
+/**
+ * Overwrites the top `bandPx` rows of an image with a copy of row
+ * `bandPx` itself (the first row NOT in the band) — extending that row's
+ * content upward rather than removing pixels. Dimensions are UNCHANGED
+ * (unlike an actual crop) — this is the deliberate correction over an
+ * earlier version of this fix that shrank the image instead: shrinking
+ * matHeight changes the merged table's own aspect ratio
+ * (2*matHeight/matWidth), which mergeBroadcastTableRenders's caller
+ * (generateBroadcastRun.ts/renderBroadcastFrame's table-homography warp)
+ * assumes is pre-calibrated to match the measured play-area rect's aspect
+ * — shrinking it reintroduces a smaller version of the EXACT non-uniform-
+ * scale squish #256's original geometry fix eliminated (measured: table
+ * card aspect mean dropped from 0.672 to 0.577 against a real card's
+ * 0.716, when this was a real crop instead of an in-place overpaint).
+ * Overpainting the same rows achieves the identical visual goal (the
+ * banner-colored pixels are gone before rotation, so they never reach the
+ * seam) with ZERO dimension/aspect side effect, and needs no
+ * corresponding card-quad shift either (see mergeBroadcastTableRenders —
+ * corners are untouched, since no pixel MOVED, only recolored).
+ */
+export function blankTopBandRawImage(img: RawImage, bandPx: number): RawImage {
+  if (bandPx < 0 || bandPx >= img.height) {
+    throw new Error(`blankTopBandRawImage: bandPx (${bandPx}) must be in [0, height) (height=${img.height})`);
+  }
+  if (bandPx === 0) return { width: img.width, height: img.height, data: img.data.slice() };
+  const rowBytes = img.width * 4;
+  const data = img.data.slice();
+  const sourceRow = data.subarray(bandPx * rowBytes, (bandPx + 1) * rowBytes);
+  for (let y = 0; y < bandPx; y++) {
+    data.set(sourceRow, y * rowBytes);
+  }
+  return { width: img.width, height: img.height, data };
+}
+
+/**
+ * The quad analog of rotate90RawImage — the SAME geometric operation applied
+ * to a label, so a card's quad never silently diverges from where its pixels
+ * actually landed (geometry.ts's contract). Continuous-coordinate form of the
+ * pixel map above: cw is (x, y) -> (matHeight - y, x), ccw is (x, y) ->
+ * (y, matWidth - x).
+ *
+ * Corner TUPLE ORDER is preserved — index 0..3 stays TL/TR/BR/BL by SOURCE
+ * identity, not by post-rotation visual position, matching
+ * rotateQuad180AboutMat and computeDestQuad's documented rotationDeg
+ * handling. Never clamped: an off-mat corner stays off-mat (amodal).
+ *
+ * Being a rigid motion, this cannot change a card's edge lengths — which is
+ * precisely why the fix for the squish is a rotation and not a rescale.
+ */
+export function rotateQuad90AboutMat(
+  corners: [Point, Point, Point, Point],
+  matWidth: number,
+  matHeight: number,
+  direction: "cw" | "ccw",
+): [Point, Point, Point, Point] {
+  const turn = (p: Point): Point =>
+    direction === "cw" ? { x: matHeight - p.y, y: p.x } : { x: p.y, y: matWidth - p.x };
+  return [turn(corners[0]), turn(corners[1]), turn(corners[2]), turn(corners[3])];
+}
+
 /** Stacks `top` directly above `bottom` into one canvas of the combined
  * height — both must share the same width. */
 export function stackVertically(top: RawImage, bottom: RawImage): RawImage {
@@ -51,6 +144,29 @@ export function stackVertically(top: RawImage, bottom: RawImage): RawImage {
   const data = new Uint8ClampedArray(width * height * 4);
   data.set(top.data, 0);
   data.set(bottom.data, top.data.length);
+  return { width, height, data };
+}
+
+/**
+ * Stacks `left` directly beside `right` into one canvas of the combined
+ * width — both must share the same height. The left/right analog of
+ * stackVertically above (#256, Phase C.1's landscape/vertical-mirror-axis
+ * table) — a plain row-wise pixel concatenation, not a re-render.
+ */
+export function stackHorizontally(left: RawImage, right: RawImage): RawImage {
+  if (left.height !== right.height) {
+    throw new Error(`stackHorizontally: mismatched height (left=${left.height}, right=${right.height})`);
+  }
+  const height = left.height;
+  const width = left.width + right.width;
+  const data = new Uint8ClampedArray(width * height * 4);
+  for (let y = 0; y < height; y++) {
+    const destRowStart = y * width * 4;
+    const leftRowStart = y * left.width * 4;
+    const rightRowStart = y * right.width * 4;
+    data.set(left.data.subarray(leftRowStart, leftRowStart + left.width * 4), destRowStart);
+    data.set(right.data.subarray(rightRowStart, rightRowStart + right.width * 4), destRowStart + left.width * 4);
+  }
   return { width, height, data };
 }
 
@@ -101,6 +217,105 @@ export function mergeTwoPlayerRenders(near: RenderResult, far: RenderResult, com
     cards: [...farCards, ...nearCards],
     excludedCards: near.label.excludedCards + far.label.excludedCards,
     cardBacksPlaced: near.label.cardBacksPlaced + far.label.cardBacksPlaced,
+  };
+
+  return { image, label };
+}
+
+/**
+ * Landscape, VERTICAL-mirror-axis analog of mergeTwoPlayerRenders above
+ * (#256 Phase C.1) — 90° off that function's horizontal/near-far axis:
+ * players sit LEFT and RIGHT of frame instead of near/far, top/bottom.
+ *
+ * Each mat is first rotated a QUARTER TURN (left cw, right ccw), THEN placed
+ * side by side. The quarter turn is what makes this a real table rather than
+ * two landscape mats jammed together:
+ *
+ *   - A playmat is authored landscape (matWidth x matHeight, matWidth >
+ *     matHeight). Stacking two of those unrotated gives a canvas of aspect
+ *     2*(matWidth/matHeight) — 3.43 for the real 1728x1008 Combat Chain mat —
+ *     which can only be fitted into the landscape play-area rect (aspect
+ *     ~1.16) by a NON-UNIFORM scale. That squash is what produced 249 card
+ *     labels at aspect 0.259 against a real card's 63/88 = 0.716.
+ *   - Rotated first, each mat is matHeight x matWidth (portrait) and the pair
+ *     is 2*matHeight x matWidth — 2016x1728, aspect 1.166 for the real mat,
+ *     i.e. the play-area aspect. It fits under a UNIFORM scale, so a card
+ *     keeps its 0.716.
+ *
+ * Using cw for one side and ccw for the other keeps the relative 180° between
+ * the players — they still face each other across the table — since
+ * ccw === cw composed with a 180° turn. Every card quad is transformed by the
+ * exact operation applied to its pixels, from this one place, so labels can
+ * never diverge from the render (geometry.ts's contract). Reuses
+ * RenderResult/CompositeLabel unchanged, so the result flows through
+ * write.ts/sampleSheet.ts exactly like any other composite.
+ *
+ * `topBandFrac` (#256 correction, human-upgraded to blocking: "two separate
+ * mats butted together") overpaints each mat's own decorative top-edge
+ * band — a fraction of matHeight, rounded to a pixel count — BEFORE the
+ * quarter turn, via blankTopBandRawImage (see that function's header for
+ * why this is an in-place overpaint and NOT a crop: an actual crop shrinks
+ * matHeight, which changes the merged table's own aspect ratio and
+ * reintroduces a smaller version of the exact non-uniform-scale squish
+ * #256's original geometry fix eliminated — measured regression: table
+ * card aspect mean 0.672 -> 0.577 against a real card's 0.716, caught by
+ * re-measuring a real run rather than trusting the fix looked right).
+ * Without SOME fix, EACH mat's top edge (e.g. the reference playmat's
+ * "COMBAT CHAIN" banner) lands right at the seam after rotation: cw maps
+ * original y=0 to the rotated image's rightmost column (the left mat's
+ * inner/seam edge); ccw maps original y=0 to the leftmost column (the
+ * right mat's inner/seam edge) — both banners end up adjacent, visible as
+ * two back-to-back decorative strips down the middle of an otherwise
+ * continuous table. Because dimensions never change, NO card quad needs
+ * any shift at all — rotateQuad90AboutMat runs on the UNCHANGED
+ * matWidth/matHeight, exactly as it did before this correction existed.
+ * Defaults to 0 (byte-identical to the pre-correction signature) since
+ * this is meaningless outside `--mode broadcast`'s specific
+ * reference-playmat assumption — see generateBroadcastRun.ts's
+ * BROADCAST_TABLE_TOP_CROP_FRAC for the actual measured value and the
+ * safety-margin proof that it never overpaints a real card under the
+ * production zone-layout config's jitter/rotation ranges.
+ */
+export function mergeBroadcastTableRenders(left: RenderResult, right: RenderResult, compositeId: string, topBandFrac = 0): RenderResult {
+  if (left.image.width !== right.image.width || left.image.height !== right.image.height) {
+    throw new Error(
+      `mergeBroadcastTableRenders: mat dimension mismatch (left=${left.image.width}x${left.image.height}, right=${right.image.width}x${right.image.height})`,
+    );
+  }
+  const matWidth = left.image.width;
+  const matHeight = left.image.height;
+  const bandPx = Math.round(topBandFrac * matHeight);
+
+  const leftBlanked = blankTopBandRawImage(left.image, bandPx);
+  const rightBlanked = blankTopBandRawImage(right.image, bandPx);
+
+  const leftRotated = rotate90RawImage(leftBlanked, "cw");
+  const rightRotated = rotate90RawImage(rightBlanked, "ccw");
+  const image = stackHorizontally(leftRotated, rightRotated);
+
+  // Post-rotation each mat occupies matHeight in x and matWidth in y —
+  // UNCHANGED by the band overpaint, since it never alters dimensions.
+  const halfWidth = matHeight;
+
+  const leftCards: CompositeCardLabel[] = left.label.cards.map((c) => ({
+    ...c,
+    corners: rotateQuad90AboutMat(c.corners, matWidth, matHeight, "cw"),
+  }));
+  const rightCards: CompositeCardLabel[] = right.label.cards.map((c) => ({
+    ...c,
+    corners: translateQuad(rotateQuad90AboutMat(c.corners, matWidth, matHeight, "ccw"), halfWidth, 0),
+  }));
+
+  const label: CompositeLabel = {
+    compositeId,
+    fileName: `${compositeId}.png`,
+    width: halfWidth * 2,
+    height: matWidth,
+    backgroundType: left.label.backgroundType,
+    backgroundHash: left.label.backgroundHash,
+    cards: [...leftCards, ...rightCards],
+    excludedCards: left.label.excludedCards + right.label.excludedCards,
+    cardBacksPlaced: left.label.cardBacksPlaced + right.label.cardBacksPlaced,
   };
 
   return { image, label };

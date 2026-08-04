@@ -26,6 +26,7 @@ function label(id: string, cardCount = 1, excludedCards = 0): CompositeLabel {
       ] as [{ x: number; y: number }, { x: number; y: number }, { x: number; y: number }, { x: number; y: number }],
       tags: i === 0 ? ["sleeved"] : [],
       visibleFraction: i === 0 ? 0.75 : 1,
+      region: "table" as const,
     })),
     excludedCards,
     cardBacksPlaced: 0,
