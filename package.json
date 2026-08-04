@@ -5,7 +5,7 @@
   "description": "Monorepo root: fab-cli (FAB CLI), fab-app (companion mobile app), pipeline (training/artifact pipeline)",
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
-    "gate": "bash scripts/gate.sh",
+    "gate": "npm run test:scripts && bash scripts/gate.sh",
     "clean:vite-cache": "node scripts/clean-vite-cache.mjs",
     "typecheck": "pnpm -r --if-present run typecheck",
     "lint": "pnpm -r --if-present run lint",
