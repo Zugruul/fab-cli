@@ -29,6 +29,8 @@ function validConfig(): GeneratorConfig {
     backgroundsDir: null,
     externalBackgroundProbability: 0,
     minVisibleFraction: 0.15,
+    blurProbability: 0.5,
+    blurSigma: { min: 0, max: 3 },
   };
 }
 
@@ -113,7 +115,7 @@ describe("validateGeneratorConfig — rejects malformed config", () => {
   });
 
   it("rejects out-of-range probabilities", () => {
-    for (const field of ["overlapProbability", "perspectiveProbability", "glareProbability", "sleeveProbability", "externalBackgroundProbability", "minVisibleFraction"] as const) {
+    for (const field of ["overlapProbability", "perspectiveProbability", "glareProbability", "sleeveProbability", "externalBackgroundProbability", "minVisibleFraction", "blurProbability"] as const) {
       const result = validateGeneratorConfig({ ...validConfig(), [field]: 1.5 });
       expect(result.valid, `${field}=1.5`).toBe(false);
       const result2 = validateGeneratorConfig({ ...validConfig(), [field]: -0.1 });
@@ -125,6 +127,21 @@ describe("validateGeneratorConfig — rejects malformed config", () => {
     const result = validateGeneratorConfig({ ...validConfig(), perspectiveStrength: { min: 0, max: 1 } });
     expect(result.valid).toBe(false);
     if (!result.valid) expect(result.errors.some((e) => /perspectiveStrength/.test(e))).toBe(true);
+  });
+
+  // #289: blurSigma mirrors perspectiveStrength's RangeConfig shape — a
+  // negative sigma is meaningless (no such thing as negative blur) and
+  // min > max is malformed, same class of check as every other range.
+  it("rejects blurSigma.min > blurSigma.max", () => {
+    const result = validateGeneratorConfig({ ...validConfig(), blurSigma: { min: 3, max: 1 } });
+    expect(result.valid).toBe(false);
+    if (!result.valid) expect(result.errors.some((e) => /blurSigma/.test(e))).toBe(true);
+  });
+
+  it("rejects a negative blurSigma.min", () => {
+    const result = validateGeneratorConfig({ ...validConfig(), blurSigma: { min: -1, max: 2 } });
+    expect(result.valid).toBe(false);
+    if (!result.valid) expect(result.errors.some((e) => /blurSigma/.test(e))).toBe(true);
   });
 
   it("rejects lighting.brightnessDelta outside [-1,1] or min > max", () => {
@@ -216,5 +233,20 @@ describe("the committed pipeline/config/composites-generation.json", () => {
     const raw = JSON.parse(fs.readFileSync(path.join(base, "config", "composites-generation.json"), "utf8")) as GeneratorConfig;
 
     expect(raw.cardsPerComposite.max).toBe(3);
+  });
+
+  // #289: blur augmentation must actually be ENABLED in the committed
+  // config (a schema that merely ALLOWS blurProbability=0 would silently
+  // ship zero real-world benefit) and its sigma range must not be trivial
+  // (max sigma > 0 — otherwise every draw would be a no-op regardless of
+  // the probability roll).
+  it("#289: blur augmentation is enabled with a non-trivial sigma range", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const base = path.join(import.meta.dirname, "..");
+    const raw = JSON.parse(fs.readFileSync(path.join(base, "config", "composites-generation.json"), "utf8")) as GeneratorConfig;
+
+    expect(raw.blurProbability).toBeGreaterThan(0);
+    expect(raw.blurSigma.max).toBeGreaterThan(0);
   });
 });
