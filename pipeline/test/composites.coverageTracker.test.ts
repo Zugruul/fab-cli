@@ -104,14 +104,19 @@ describe("CoverageTracker.pickOneWithDraw", () => {
 
   it("favors the globally least-appeared item, same as pickForComposite", () => {
     const tracker = new CoverageTracker(4);
-    // Pick index 0 up to appearance count 2.
-    tracker.pickOneWithDraw(0); // picks idx 0 (bucket order), now at level 1
-    tracker.pickOneWithDraw(0.99); // bucket at level 0 now has [1,2,3]; picks the highest-index one (idx 3)
+    const firstPick = tracker.pickOneWithDraw(0);
+    const secondPick = tracker.pickOneWithDraw(0.99);
     const counts = tracker.allAppearanceCounts();
-    expect(counts[0]).toBe(1);
-    expect(counts[3]).toBe(1);
-    expect(counts[1]).toBe(0);
-    expect(counts[2]).toBe(0);
+    // Two DISTINCT items each picked exactly once; everything else at 0 —
+    // both picks necessarily came from the (initially all-level-0) pool,
+    // so this is exactly the "least-appeared-first" guarantee, without
+    // over-specifying which concrete indices the bucket's internal swap-pop
+    // order happens to produce.
+    expect(firstPick).not.toBe(secondPick);
+    expect(counts.filter((c) => c === 1)).toHaveLength(2);
+    expect(counts.filter((c) => c === 0)).toHaveLength(2);
+    expect(counts[firstPick!]).toBe(1);
+    expect(counts[secondPick!]).toBe(1);
   });
 
   it("multiple calls within a 'composite' (a burst of picks) still return distinct indices when the pool has enough items at the current tier", () => {

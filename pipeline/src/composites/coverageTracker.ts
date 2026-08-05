@@ -107,6 +107,42 @@ export class CoverageTracker {
     return pending.map((p) => p.idx);
   }
 
+  /**
+   * Picks ONE index using an ALREADY-DRAWN [0,1) value — this method never
+   * calls `rng()` itself, unlike `pickForComposite`. For callers (#268
+   * BLOCKER 2, zones/planZoneLayout.ts) whose draw already happened
+   * earlier in THEIR OWN fixed per-unit draw order (e.g. a `pickFrac`
+   * value drawn unconditionally regardless of zone kind/inclusion) and
+   * must be reused here rather than re-drawn — calling `pickForComposite`
+   * there instead would consume a SECOND, extra `rng()` call and violate
+   * that module's own draw-shape invariant the same way an extra draw
+   * would violate paramStream.ts's.
+   *
+   * Updates the tracker IMMEDIATELY (not deferred like `pickForComposite`'s
+   * internal batching) — still yields distinct results across repeated
+   * calls "within one composite" as long as the pool has enough items at
+   * the current tier (the same fairness mechanics apply; deferring only
+   * matters for exactly how `appearanceCountOf` reads mid-composite, never
+   * for distinctness — see this class's header).
+   *
+   * Returns `null` only when the pool is empty (poolSize === 0) — a
+   * defensive case callers must not reach in practice (an empty eligible
+   * pool for a zone kind is a hard precondition failure the caller
+   * validates before ever constructing a tracker).
+   */
+  pickOneWithDraw(draw01: number): number | null {
+    this.advanceMinLevel();
+    let level = this.minLevel;
+    while (level < this.buckets.length && (!this.buckets[level] || this.buckets[level].length === 0)) level++;
+    if (level >= this.buckets.length) return null;
+    const bucket = this.buckets[level];
+    const pos = Math.min(bucket.length - 1, Math.floor(draw01 * bucket.length));
+    const idx = bucket[pos];
+    this.removeAt(idx);
+    this.addAt(idx, level + 1);
+    return idx;
+  }
+
   /** Current appearance count for pool index `idx` (0 if never picked). */
   appearanceCountOf(idx: number): number {
     return this.location[idx].level;
