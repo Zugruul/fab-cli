@@ -283,6 +283,49 @@ unsplit). Every task cites its spec §s.
   egress audit. Depends: APP-060.
   AC: static check/test that no network call includes catalog tables' data. [§12.9]
 
+## E7 — Freshness & update pipeline (APP-070…079) — blockedBy: E2 (task-level: APP-085 registry/deltas + APP-022/023 eval gate + APP-029/031 publish path)
+
+Keeping a shipped model current as rules change and new sets release. The system ages on **two
+unrelated clocks**: the knowledge tier ages with *rules changes* (pack rebuild, hours), the vision
+tier ages with *new printings* (gallery append, minutes). Conflating them is the failure this epic
+exists to prevent.
+
+Load-bearing fact, verified in code rather than assumed: recognition inference is embedding →
+L2-normalise → cosine KNN over a `{printing_id, embedding}` gallery (`train_vision/retrieval.py`);
+the ArcFace classification head is training-only (`EmbedderForExport` fixes `normalize=False`), and
+the detector is single-class "card" (`model.py`). **A new set therefore requires no retraining of
+anything** — only new gallery entries.
+
+- **APP-070** (3) Source-change watcher: scheduled detection across CR/TRP/PPG + VERSIONS.txt, the
+  live card-legality page, the-fab-cube submodule, Card Vault `rulings_errata` + true-text drift,
+  and the Rules Reprise feed. Detect-and-report only — publishes nothing. Depends: —.
+  AC: per-source `changed | unchanged | fetch-failed` (three distinct states, a failed fetch is
+  never reported as "unchanged"); per-source failure isolated; records what it compared against.
+- **APP-071** (2) Update-tier classifier: routes each detected delta to Tier 0 live / Tier 1 pack
+  delta / Tier 2 LLM retrain / Tier 3 vision retrain, with a recorded rationale. Depends: APP-070.
+  AC: legality always routes Tier 0 and can never be packaged (locked by test); never auto-escalates
+  to Tier 2/3 — it may recommend, a human decides; unrecognised change types route to "needs human
+  classification", never silently to the cheapest tier.
+- **APP-072** (5) Rules knowledge-pack delta: incremental rebuild of changed chunks + embeddings,
+  tombstones for superseded content, gated through the existing eval harness before republish.
+  Depends: APP-071, APP-085, APP-022/023, APP-029/031.
+  AC: unchanged chunks keep existing embeddings (proven by hash); superseded chunks tombstoned AND
+  absent from the rebuilt index; republish blocked on eval-gate failure, never bypassed. [§8, §10]
+- **APP-073** (4) Printing-index delta: new printings embedded with the EXISTING embedder into
+  gallery/registry deltas — no training step in this path. Depends: APP-071, APP-085. Pairs with
+  APP-054 (install side).
+  AC: three-population report `embedded | imageUnobtainable | alreadyPresent` whose sum equals
+  total new printings, asserted in the artifact (33 printings already 403 from LSS S3 — an
+  unfetchable printing is unrecognisable and must never be silently dropped); idempotent.
+- **APP-074** (2) Cross-artifact version compatibility: hard-refuse mismatched pack/model pairings;
+  force full index regeneration on any embedder-version change. Depends: APP-072, APP-073.
+  Extends APP-032.
+  AC: mismatched pairing refused (not degraded/warned); incremental delta across an
+  embedder-version boundary rejected, with kill-first evidence; `embeddingDim` mismatch caught
+  independently of version mismatch. Rationale: vectors from two embedder versions occupy different
+  spaces, so cosine similarity between them is meaningless while still returning a plausible number
+  — and the metric it corrupts is the same one the G3 ≥95% gate reads.
+
 ## EI — Infra reserve (APP-090…099) — blockedBy: —
 
 Reserved for discovered infra work (CI for pipeline manifests, device-farm scripts, release
