@@ -39,7 +39,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadBenchmarkPhotoSet } from "../benchmark/loadSet.js";
-import { validatePhotoLabel, validateLabelFrame } from "../benchmark/validate.js";
+import { validatePhotoLabel, validateLabelFrame, validateLabelBounds } from "../benchmark/validate.js";
 import { sha256 } from "../benchmark/manifest.js";
 import { decodeImageToRaw, encodeRawToPng } from "../composites/imageIO.js";
 import { bilinearSample } from "../composites/rawImage.js";
@@ -297,6 +297,14 @@ export async function exportRealPhotoEvalSet(opts: RealPhotoEvalSetOptions): Pro
     const frameErrors = validateLabelFrame(photoLabel, srcImage.width, srcImage.height);
     if (frameErrors.length > 0) {
       skippedInvalidLabel.push({ fileName: entry.fileName, reason: frameErrors.join("; ") });
+      continue;
+    }
+
+    // #286 review round 2: the bounds-corruption backstop, alongside the
+    // orientation check above.
+    const boundsErrors = validateLabelBounds(photoLabel, srcImage.width, srcImage.height);
+    if (boundsErrors.length > 0) {
+      skippedInvalidLabel.push({ fileName: entry.fileName, reason: boundsErrors.join("; ") });
       continue;
     }
 

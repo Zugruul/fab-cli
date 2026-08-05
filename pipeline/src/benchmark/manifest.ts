@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 import { LABEL_SCHEMA_VERSION, QUAD_TAGS, SCENE_TYPES } from "./types.js";
-import { validatePhotoLabel, validateLabelFrame } from "./validate.js";
+import { validatePhotoLabel, validateLabelFrame, validateLabelBounds } from "./validate.js";
 import type { Orientation, QuadTag, SceneType } from "./types.js";
 
 /** Bumped whenever the manifest's own shape changes (new/removed field,
@@ -106,6 +106,14 @@ export function buildBenchmarkManifest(opts: BuildBenchmarkManifestOptions): Ben
       const frameErrors = validateLabelFrame(label, entry.frameWidth, entry.frameHeight);
       if (frameErrors.length > 0) {
         skipped.push({ fileName: entry.fileName, reason: frameErrors.join("; ") });
+        continue;
+      }
+      // #286 review round 2: the bounds-corruption backstop, alongside the
+      // orientation check above (see validateLabelBounds's doc comment for
+      // why this is a separate, much more generously-margined check).
+      const boundsErrors = validateLabelBounds(label, entry.frameWidth, entry.frameHeight);
+      if (boundsErrors.length > 0) {
+        skipped.push({ fileName: entry.fileName, reason: boundsErrors.join("; ") });
         continue;
       }
     }

@@ -123,6 +123,63 @@ export function validateLabelFrame(label: PhotoLabel, frameWidth: number, frameH
   ];
 }
 
+/** Fraction of each axis's own frame dimension a corner may fall beyond
+ * that axis's [0, dimension] range before `validateLabelBounds` treats it
+ * as corrupted rather than legitimately cropped. See that function's doc
+ * comment for how this number was chosen. */
+const BOUNDS_MARGIN_RATIO = 0.5;
+
+/**
+ * A SEPARATE corruption backstop from `validateLabelFrame` above (#286
+ * review round 2) — rejects a label whose corners are wildly outside the
+ * canonical (EXIF-applied) frame: a completely wrong photo/label pairing,
+ * a coordinate unit mixup, garbled data. Deliberately NOT tuned to re-catch
+ * #286's own historical overrun range (4%-21% across the 16 real
+ * mislabeled photos) — that is `validateLabelFrame`'s job, and it already
+ * does it completely (16/16, nothing to tune). This function exists purely
+ * as a generous safety net for data that's wrong in a different way.
+ *
+ * The margin has to be sized around a hard constraint: this codebase
+ * already tests amodal cropping as functionally UNBOUNDED, not just
+ * generous, in multiple places —
+ *   - test/trainVision.realPhotoEvalSet.test.ts's "off-photo corner" test:
+ *     a corner at (-100,-100) on a 300x400 frame (33.3%/25% overrun), run
+ *     through the exact exportRealPhotoEvalSet pipeline this backstop sits
+ *     in. This is the BINDING case for the margin below.
+ *   - test/benchmarkLabel.routes.test.ts / .server.test.ts: corners
+ *     hundreds of px past frame edges, asserted byte-for-byte "never
+ *     clamped," explicitly called a merge blocker if violated (those go
+ *     through `validatePhotoLabel` only, not this function, but document
+ *     the same design intent this margin has to respect).
+ *   - realPhotoEvalSet.ts's own header: "corners are scaled+offset only,
+ *     NEVER clamped into [0, canvasSize]."
+ * A per-corner bounds check that rejected any of that would silently
+ * corrupt real ground truth for exactly the cropped-card cases the
+ * benchmark most needs — worse than the bug this backstop exists to catch.
+ *
+ * `BOUNDS_MARGIN_RATIO` (50%) clears the binding 33.3% case with real
+ * headroom (1.5x) while still catching genuinely nonsensical data (e.g. a
+ * corner several times the frame's own size) — sized to be a hygiene
+ * backstop, not a #286-specific detector.
+ */
+export function validateLabelBounds(label: PhotoLabel, frameWidth: number, frameHeight: number): string[] {
+  const marginX = frameWidth * BOUNDS_MARGIN_RATIO;
+  const marginY = frameHeight * BOUNDS_MARGIN_RATIO;
+  const errors: string[] = [];
+  label.quads.forEach((quad, qi) => {
+    quad.corners.forEach((corner, ci) => {
+      if (corner.x < -marginX || corner.x > frameWidth + marginX || corner.y < -marginY || corner.y > frameHeight + marginY) {
+        errors.push(
+          `quads[${qi}].corners[${ci}] (${corner.x}, ${corner.y}) is far outside the ${frameWidth}x${frameHeight} decoded ` +
+            `frame (beyond a ${Math.round(BOUNDS_MARGIN_RATIO * 100)}% margin) — likely a corrupted coordinate or a label ` +
+            `matched to the wrong photo`,
+        );
+      }
+    });
+  });
+  return errors;
+}
+
 function isPoint(v: unknown): v is Point {
   return (
     typeof v === "object" &&
