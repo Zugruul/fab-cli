@@ -5,7 +5,7 @@ whole picture in one pass.
 """
 import pytest
 
-from train_vision.config import validate_config, validate_export_config
+from train_vision.config import validate_config, validate_eval_config, validate_export_config
 
 VALID = {
     "architecture": "obb-centernet-tiny",
@@ -117,4 +117,133 @@ def test_export_config_rejects_unknown_architecture():
     cfg = dict(VALID_EXPORT)
     cfg["architecture"] = "yolo11-obb"
     result = validate_export_config(cfg)
+    assert result.valid is False
+
+
+# --- eval config (issue #139 scope addition: checkpoint mAP evaluation) --
+
+VALID_EVAL = {
+    "architecture": "obb-centernet-tiny",
+    "checkpointPath": "/tmp/checkpoint.pt",
+    "datasetDir": "/tmp/real-photo-eval",
+    "stride": 8,
+    "batchSize": 4,
+    "iouThresholds": [0.5, 0.75],
+    "outputDir": "/tmp/eval-out",
+}
+
+
+def test_eval_config_accepts_a_fully_valid_config():
+    result = validate_eval_config(dict(VALID_EVAL))
+    assert result.valid is True
+    assert result.config["stride"] == 8
+
+
+def test_eval_config_defaults_device_to_cpu_when_omitted():
+    result = validate_eval_config(dict(VALID_EVAL))
+    assert result.valid is True
+    assert result.config["device"] == "cpu"
+
+
+def test_eval_config_accepts_an_explicit_device_override():
+    cfg = dict(VALID_EVAL)
+    cfg["device"] = "cuda:0"
+    result = validate_eval_config(cfg)
+    assert result.valid is True
+    assert result.config["device"] == "cuda:0"
+
+
+def test_eval_config_rejects_missing_required_keys_reporting_every_violation():
+    result = validate_eval_config({})
+    assert result.valid is False
+    joined = " ".join(result.errors)
+    for key in ["architecture", "checkpointPath", "datasetDir", "stride", "batchSize", "iouThresholds", "outputDir"]:
+        assert key in joined, f"expected an error mentioning {key!r}, got: {result.errors}"
+
+
+def test_eval_config_rejects_unknown_architecture():
+    cfg = dict(VALID_EVAL)
+    cfg["architecture"] = "yolo11-obb"
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("architecture" in e for e in result.errors)
+
+
+def test_eval_config_rejects_empty_checkpoint_path():
+    cfg = dict(VALID_EVAL)
+    cfg["checkpointPath"] = ""
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("checkpointPath" in e for e in result.errors)
+
+
+def test_eval_config_rejects_non_positive_stride():
+    cfg = dict(VALID_EVAL)
+    cfg["stride"] = 0
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("stride" in e for e in result.errors)
+
+
+def test_eval_config_rejects_non_positive_batch_size():
+    cfg = dict(VALID_EVAL)
+    cfg["batchSize"] = -1
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("batchSize" in e for e in result.errors)
+
+
+def test_eval_config_rejects_empty_iou_thresholds():
+    cfg = dict(VALID_EVAL)
+    cfg["iouThresholds"] = []
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("iouThresholds" in e for e in result.errors)
+
+
+def test_eval_config_rejects_non_numeric_iou_thresholds():
+    cfg = dict(VALID_EVAL)
+    cfg["iouThresholds"] = [0.5, "high"]
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("iouThresholds" in e for e in result.errors)
+
+
+def test_eval_config_rejects_iou_thresholds_that_is_not_a_list():
+    cfg = dict(VALID_EVAL)
+    cfg["iouThresholds"] = 0.5
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("iouThresholds" in e for e in result.errors)
+
+
+def test_eval_config_rejects_empty_output_dir():
+    cfg = dict(VALID_EVAL)
+    cfg["outputDir"] = ""
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("outputDir" in e for e in result.errors)
+
+
+def test_eval_config_rejects_empty_device_string():
+    cfg = dict(VALID_EVAL)
+    cfg["device"] = ""
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    assert any("device" in e for e in result.errors)
+
+
+def test_eval_config_rejects_multiple_missing_fields_at_once_not_just_the_first():
+    # Same collect-all-violations discipline as validate_config/
+    # validate_export_config — a caller must see every problem in one pass.
+    cfg = {"architecture": "obb-centernet-tiny"}
+    result = validate_eval_config(cfg)
+    assert result.valid is False
+    joined = " ".join(result.errors)
+    for key in ["checkpointPath", "datasetDir", "stride", "batchSize", "iouThresholds", "outputDir"]:
+        assert key in joined, f"expected an error mentioning {key!r}, got: {result.errors}"
+
+
+def test_eval_config_is_not_a_dict():
+    result = validate_eval_config(["not", "a", "dict"])
     assert result.valid is False
