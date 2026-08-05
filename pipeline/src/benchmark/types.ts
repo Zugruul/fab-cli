@@ -69,7 +69,15 @@ export const QUAD_TAGS = [
 ] as const;
 export type QuadTag = (typeof QUAD_TAGS)[number];
 
-/** Pixel coordinates in the photo's native, unrotated pixel space. */
+/** Pixel coordinates in the photo's DISPLAYED, EXIF-applied pixel space —
+ * i.e. what a human sees when looking at the photo, orientation already
+ * corrected, NOT the camera sensor's raw unrotated buffer (#286: this
+ * comment previously said "native, unrotated pixel space", which
+ * contradicted both the labeling tool, which renders through a browser
+ * `<img>` that auto-applies EXIF, and composites/imageIO.ts's
+ * decodeImageToRaw, which now also applies EXIF orientation — see
+ * docs/benchmark-labeling.md's "Label file schema" section for the full
+ * canonical-frame decision). */
 export interface Point {
   x: number;
   y: number;

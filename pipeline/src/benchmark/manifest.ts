@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 import { LABEL_SCHEMA_VERSION, QUAD_TAGS, SCENE_TYPES } from "./types.js";
-import { validatePhotoLabel } from "./validate.js";
+import { validatePhotoLabel, validateLabelFrame } from "./validate.js";
 import type { Orientation, QuadTag, SceneType } from "./types.js";
 
 /** Bumped whenever the manifest's own shape changes (new/removed field,
@@ -23,6 +23,15 @@ export interface RawPhotoEntry {
   labelRaw?: unknown;
   /** Set instead of labelRaw when the label file wasn't valid JSON. */
   labelParseError?: string;
+  /** Real, decoded (EXIF-applied) photo dimensions (#286) — attached by
+   * loadSet.ts's `attachFrameDimensions`, NOT computed here (this module
+   * stays pure/sync, unit-testable with in-memory Buffers, per this
+   * interface's own header). Absent means "not decoded" (e.g. photoBytes
+   * isn't a real image, as in several lightweight fixtures in this
+   * file's own tests) — the frame-consistency check below is silently
+   * skipped in that case, never treated as a violation. */
+  frameWidth?: number;
+  frameHeight?: number;
 }
 
 export interface BenchmarkPhotoManifestEntry {
@@ -88,6 +97,19 @@ export function buildBenchmarkManifest(opts: BuildBenchmarkManifestOptions): Ben
     }
 
     const label = result.label;
+
+    // #286: cross-check the declared frame against the real decoded one,
+    // when a caller has attached it (see RawPhotoEntry.frameWidth's doc
+    // comment above for why this is optional/pre-computed rather than
+    // decoded here).
+    if (entry.frameWidth !== undefined && entry.frameHeight !== undefined) {
+      const frameErrors = validateLabelFrame(label, entry.frameWidth, entry.frameHeight);
+      if (frameErrors.length > 0) {
+        skipped.push({ fileName: entry.fileName, reason: frameErrors.join("; ") });
+        continue;
+      }
+    }
+
     photos.push({
       photoId: label.photoId,
       fileName: entry.fileName,

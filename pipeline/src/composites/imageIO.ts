@@ -11,9 +11,33 @@
 import sharp from "sharp";
 import type { RawImage } from "./rawImage.js";
 
-/** Decodes any sharp-supported image file to a raw RGBA buffer. */
-export async function decodeImageToRaw(filePath: string): Promise<RawImage> {
-  const { data, info } = await sharp(filePath).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+/**
+ * Decodes any sharp-supported image file to a raw RGBA buffer.
+ *
+ * CANONICAL FRAME (#286): the DISPLAYED/TRANSPOSED frame — i.e. what a
+ * human sees, EXIF orientation applied — is what this function returns,
+ * never the raw sensor frame. That is a deliberate, load-bearing decision:
+ * every human-authored label (benchmark quads, etc.) is drawn against
+ * whatever image a person is looking at, which is always the
+ * EXIF-corrected view. A decoder that skipped `.rotate()` would hand back
+ * pixels in the sensor's native frame while labels stayed in the displayed
+ * frame — exactly the bug this fixed (#286): every real-photo-benchmark
+ * source carries EXIF orientation 6, so pixels and labels ended up 90°
+ * apart. `.rotate()` with no argument applies the file's own EXIF
+ * orientation tag and clears it afterward; it is a no-op for images with
+ * no tag or orientation 1 (verified true for both the composites card-
+ * image cache and the imported playmat backgrounds — see #286 PR
+ * description), so this only changes behavior for genuinely-rotated
+ * sources. Must run before `.raw()` — sharp only applies pending
+ * orientation to the *encoded* pixel data at that point in the pipeline.
+ *
+ * Accepts a file path OR an in-memory Buffer of already-loaded image
+ * bytes (sharp() takes either) — benchmark/loadSet.ts's
+ * `attachFrameDimensions` (#286) decodes from a Buffer it already has in
+ * memory rather than re-reading the file a second time.
+ */
+export async function decodeImageToRaw(source: string | Buffer): Promise<RawImage> {
+  const { data, info } = await sharp(source).rotate().ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   return { width: info.width, height: info.height, data: new Uint8ClampedArray(data.buffer, data.byteOffset, data.length) };
 }
 

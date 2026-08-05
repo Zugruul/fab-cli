@@ -171,6 +171,36 @@ describe("buildBenchmarkManifest", () => {
     expect(manifest.skipped[0].reason).toMatch(/sceneType/);
   });
 
+  // #286 follow-up: when a caller has already decoded the photo's real
+  // (EXIF-applied) dimensions and attached them to the entry, the manifest
+  // build cross-checks the label's declared orientation against them and
+  // skips a mismatched label — same "recorded reason, no aborted build"
+  // discipline as every other skip path above.
+  it("skips an entry whose declared orientation doesn't match its attached decoded frame dimensions", () => {
+    const bad = entry({ frameWidth: 5712, frameHeight: 4284 }); // label() declares "portrait"; frame is landscape
+    const manifest = buildBenchmarkManifest({ entries: [bad] });
+    expect(manifest.photoCount).toBe(0);
+    expect(manifest.skipped).toHaveLength(1);
+    expect(manifest.skipped[0].fileName).toBe("single/p1.jpg");
+    expect(manifest.skipped[0].reason).toMatch(/orientation/);
+  });
+
+  it("keeps an entry whose declared orientation matches its attached decoded frame dimensions", () => {
+    const good = entry({ frameWidth: 4284, frameHeight: 5712 }); // label() declares "portrait"; frame is portrait
+    const manifest = buildBenchmarkManifest({ entries: [good] });
+    expect(manifest.photoCount).toBe(1);
+    expect(manifest.skipped).toEqual([]);
+  });
+
+  it("is unaffected (frame check silently skipped, not a violation) when no frame dimensions are attached — backward compatible with every entry() above", () => {
+    // Every other test in this file builds entries via entry() with no
+    // frameWidth/frameHeight — this pins that omission staying a no-op
+    // rather than becoming a new required field.
+    const manifest = buildBenchmarkManifest({ entries: [entry()] });
+    expect(manifest.photoCount).toBe(1);
+    expect(manifest.skipped).toEqual([]);
+  });
+
   it("stamps the manifest with schema + label-schema versions, even for an empty set", () => {
     const manifest = buildBenchmarkManifest({ entries: [] });
     expect(manifest.schemaVersion).toBeTruthy();

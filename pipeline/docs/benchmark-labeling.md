@@ -106,8 +106,23 @@ enforced by `validate.ts`'s `validatePhotoLabel`):
   at least one quad — a photo with zero cards labeled isn't useful
   benchmark data and is rejected by `validatePhotoLabel`.
 - **`corners`**: exactly 4 `{x, y}` pixel coordinates, in the photo's
-  **native, unrotated pixel space** (not display-rotated), in clockwise
-  order starting top-left: TL, TR, BR, BL.
+  **displayed, EXIF-applied pixel space** — i.e. the frame you actually
+  see when you look at the photo, orientation already corrected, NOT the
+  camera sensor's raw unrotated buffer — in clockwise order starting
+  top-left: TL, TR, BR, BL. The labeling tool (issue #258) renders each
+  photo through a browser `<img>` element, which auto-applies EXIF
+  orientation before you ever click a corner, so every coordinate you
+  record is naturally already in this frame — you never need to think
+  about rotation while labeling. The exporter's decoder
+  (`pipeline/src/composites/imageIO.ts`'s `decodeImageToRaw`) matches this
+  by applying EXIF orientation (`sharp(...).rotate()`) before returning
+  pixels, so labels and pixels are always in the same frame (issue #286:
+  this doc previously said "native, unrotated pixel space", which
+  contradicted what the labeling tool actually produced and what the
+  exporter, pre-#286, actually decoded — every one of the 16 real
+  benchmark labels was authored against the displayed frame regardless of
+  what this line said; the exporter's decoder was the thing that was
+  wrong, not the labels).
 - **`tags`**: zero or more of the vocabulary in `pipeline/src/benchmark/
   types.ts`'s `QUAD_TAGS` — whichever apply to that specific card in that
   specific photo (a photo can mix sleeved and unsleeved cards in a field/

@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import sharp from "sharp";
-import { decodeAndNormalizeBackground, encodeRawToJpeg } from "../src/composites/imageIO.js";
+import { decodeAndNormalizeBackground, decodeImageToRaw, encodeRawToJpeg } from "../src/composites/imageIO.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 
 // #244: decodeAndNormalizeBackground is the import-time normalization step
@@ -110,6 +110,93 @@ describe("decodeAndNormalizeBackground", () => {
     const a = await decodeAndNormalizeBackground(file);
     const b = await decodeAndNormalizeBackground(file);
     expect(a.png.equals(b.png)).toBe(true);
+  });
+});
+
+// #286: decodeImageToRaw (the composites-generation / real-photo-eval decode
+// path) silently ignored EXIF orientation — the buffer came out in the
+// sensor's raw frame while every human-authored benchmark label was drawn
+// against the displayed (EXIF-transposed) frame, so pixels and labels ended
+// up 90deg apart for the whole real-photo benchmark set (every photo in it
+// carries orientation 6). Canonical frame: displayed/transposed — that is
+// the frame every existing label was authored in, so decode must match it,
+// not the other way around. Mirrors the exact fixture technique validated
+// for decodeAndNormalizeBackground above (PR #246 review round 1):
+// withMetadata({orientation}) writes a REAL EXIF Orientation tag, which is
+// the only way to catch this class of bug — a fixture built from a raw
+// buffer carries no EXIF and would prove nothing (this is precisely why 26
+// prior tests missed the defect).
+describe("decodeImageToRaw", () => {
+  let tmpDir: string;
+
+  beforeEach(() => {
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "fab-decode-imageio-test-"));
+  });
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  });
+
+  it("applies EXIF orientation at decode (a 90°-rotation tag swaps physical width/height)", async () => {
+    const file = path.join(tmpDir, "exif-rotated.jpg");
+    // Distinct corner colors so orientation (not just dimensions) can be
+    // verified: red-ish content concentrated in the buffer's top rows.
+    const width = 20;
+    const height = 10;
+    const raw = Buffer.alloc(width * height * 3);
+    for (let y = 0; y < height; y++) {
+      for (let x = 0; x < width; x++) {
+        const i = (y * width + x) * 3;
+        // Top-left quadrant of the RAW (un-rotated) buffer is bright red;
+        // everything else is dark. After a genuine 90°-CW auto-orient,
+        // that red patch must move to the top-right of the displayed frame.
+        const isTopLeft = x < width / 2 && y < height / 2;
+        raw[i] = isTopLeft ? 250 : 10;
+        raw[i + 1] = 10;
+        raw[i + 2] = 10;
+      }
+    }
+    await sharp(raw, { raw: { width, height, channels: 3 } })
+      .withMetadata({ orientation: 6 })
+      .jpeg({ quality: 100 })
+      .toFile(file);
+
+    // Sanity check: the source really does carry orientation 6 and the
+    // un-rotated buffer dims are the ones written above — otherwise this
+    // test would prove nothing.
+    const rawMeta = await sharp(file).metadata();
+    expect(rawMeta.orientation).toBe(6);
+    expect(rawMeta.width).toBe(20);
+    expect(rawMeta.height).toBe(10);
+
+    const result = await decodeImageToRaw(file);
+
+    // Dimensions must be the TRANSPOSED (displayed) frame, not the raw
+    // sensor frame.
+    expect(result.width).toBe(10);
+    expect(result.height).toBe(20);
+
+    // Content must actually be rotated, not just the dimensions swapped:
+    // orientation 6 ("rotate 90° CW to display correctly") moves the raw
+    // buffer's top-left quadrant to the displayed frame's top-right.
+    const topRight = ((result.width - 1) * 4) as number; // pixel (w-1, 0)
+    const topLeft = 0; // pixel (0, 0)
+    expect(result.data[topRight]).toBeGreaterThan(200); // red channel, top-right: bright
+    expect(result.data[topLeft]).toBeLessThan(50); // red channel, top-left: dark
+  });
+
+  it("is a no-op for a source with no EXIF orientation tag (card images / most backgrounds)", async () => {
+    const file = path.join(tmpDir, "no-exif.jpg");
+    await sharp({ create: { width: 16, height: 8, channels: 3, background: { r: 80, g: 90, b: 100 } } })
+      .jpeg({ quality: 100 })
+      .toFile(file);
+
+    const rawMeta = await sharp(file).metadata();
+    expect(rawMeta.orientation).toBeUndefined();
+
+    const result = await decodeImageToRaw(file);
+    expect(result.width).toBe(16);
+    expect(result.height).toBe(8);
   });
 });
 

@@ -244,12 +244,17 @@ function writeLabel(relPath: string, label: PhotoLabel): void {
   fs.writeFileSync(full, JSON.stringify(label, null, 2) + "\n");
 }
 
-function labelFor(photoId: string, fileName: string, corners: Quad["corners"]): PhotoLabel {
+// #286 follow-up: `orientation` now defaults to "portrait" but is a real
+// parameter (not hardcoded) because exportRealPhotoEvalSet cross-checks it
+// against the photo's actual decoded shape (validateLabelFrame) — a caller
+// whose photo isn't portrait must say so explicitly, same discipline a real
+// labeler follows.
+function labelFor(photoId: string, fileName: string, corners: Quad["corners"], orientation: PhotoLabel["orientation"] = "portrait"): PhotoLabel {
   return {
     photoId,
     fileName,
     sceneType: "single",
-    orientation: "portrait",
+    orientation,
     quads: [{ printingId: "print-1", corners, tags: [] }],
   };
 }
@@ -318,7 +323,10 @@ describe("exportRealPhotoEvalSet", () => {
 
   it("records a distinct, real (never fabricated) scale + source dimensions per exported photo", async () => {
     await writePhoto("single/wide.jpg", 400, 200, [1, 1, 1]);
-    writeLabel("single/wide.json", labelFor("photo-wide", "single/wide.jpg", [{ x: 0, y: 0 }, { x: 10, y: 0 }, { x: 10, y: 10 }, { x: 0, y: 10 }]));
+    writeLabel(
+      "single/wide.json",
+      labelFor("photo-wide", "single/wide.jpg", [{ x: 0, y: 0 }, { x: 10, y: 0 }, { x: 10, y: 10 }, { x: 0, y: 10 }], "landscape"),
+    );
     await writePhoto("single/tall.jpg", 200, 400, [1, 1, 1]);
     writeLabel("single/tall.json", labelFor("photo-tall", "single/tall.jpg", [{ x: 0, y: 0 }, { x: 10, y: 0 }, { x: 10, y: 10 }, { x: 0, y: 10 }]));
 
@@ -395,6 +403,59 @@ describe("exportRealPhotoEvalSet", () => {
     const meta = await sharp(path.join(outDir, "photo-a.png")).metadata();
     expect(meta.width).toBe(32);
     expect(meta.height).toBe(32);
+  });
+
+  // #286 follow-up: this is the export-path regression lock for the NEW
+  // orientation-consistency guard (validateLabelFrame), distinct from
+  // imageIO.test.ts's lock on the decode fix itself. A genuine EXIF
+  // orientation tag (withMetadata({orientation: 6}), same technique
+  // validated for decodeAndNormalizeBackground / decodeImageToRaw) proves
+  // that even with the decode fix correctly applying EXIF, a label that
+  // was authored against the WRONG frame (e.g. hand-edited, or produced by
+  // some other pre-#286 tooling) is caught and skipped rather than silently
+  // exported with mismatched ground truth.
+  it("skips (as an invalid label, not exported) a photo whose declared orientation contradicts its real EXIF-applied decoded frame", async () => {
+    // Raw 20x10 buffer + EXIF orientation 6 (rotate 90 CW) decodes to a
+    // displayed 10x20 (portrait) frame — so a label declaring "landscape"
+    // for this file is the exact #286 defect shape (declared against the
+    // wrong frame).
+    const rotatedPhoto = path.join(photosDir, "single", "rotated.jpg");
+    await sharp({ create: { width: 20, height: 10, channels: 3, background: { r: 5, g: 5, b: 5 } } })
+      .withMetadata({ orientation: 6 })
+      .jpeg({ quality: 100 })
+      .toFile(rotatedPhoto);
+    writeLabel(
+      "single/rotated.json",
+      labelFor("photo-rotated", "single/rotated.jpg", [{ x: 0, y: 0 }, { x: 5, y: 0 }, { x: 5, y: 5 }, { x: 0, y: 5 }], "landscape"),
+    );
+
+    const report = await exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 16, stride: 8 });
+
+    expect(report.exportedCount).toBe(0);
+    expect(report.exported).toEqual([]);
+    expect(report.skippedInvalidLabel).toHaveLength(1);
+    expect(report.skippedInvalidLabel[0].fileName).toBe("single/rotated.jpg");
+    expect(report.skippedInvalidLabel[0].reason).toMatch(/orientation/);
+  });
+
+  it("exports normally (not skipped) when the declared orientation matches the real EXIF-applied decoded frame", async () => {
+    const rotatedPhoto = path.join(photosDir, "single", "rotated-ok.jpg");
+    await sharp({ create: { width: 20, height: 10, channels: 3, background: { r: 5, g: 5, b: 5 } } })
+      .withMetadata({ orientation: 6 })
+      .jpeg({ quality: 100 })
+      .toFile(rotatedPhoto);
+    // Decoded frame is 10x20 (portrait) — matches.
+    writeLabel(
+      "single/rotated-ok.json",
+      labelFor("photo-rotated-ok", "single/rotated-ok.jpg", [{ x: 0, y: 0 }, { x: 5, y: 0 }, { x: 5, y: 5 }, { x: 0, y: 5 }], "portrait"),
+    );
+
+    const report = await exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 16, stride: 8 });
+
+    expect(report.exportedCount).toBe(1);
+    expect(report.skippedInvalidLabel).toEqual([]);
+    expect(report.exported[0].sourceWidth).toBe(10);
+    expect(report.exported[0].sourceHeight).toBe(20);
   });
 });
 
