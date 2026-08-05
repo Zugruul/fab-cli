@@ -46,6 +46,7 @@ button.primary { background: #2a6; color: #fff; border: none; padding: 0.4rem 0.
 #printing-results li:hover { background: #223; }
 #printing-results img { width: 32px; height: auto; }
 #printing-results .no-image { width: 32px; font-size: 0.65rem; color: #888; }
-#tag-editor { display: flex; gap: 0.75rem; margin: 0.5rem 0; font-size: 0.85rem; }
-#marvel-note { color: #e94; font-size: 0.75rem; margin-bottom: 0.5rem; }
+/* issue #274: vocabulary grew from 3 tags to 13 — wrap instead of
+   overflowing the side panel's fixed width. */
+#tag-editor { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; margin: 0.5rem 0; font-size: 0.85rem; }
 #delete-quad { color: #e55; }
