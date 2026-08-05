@@ -59,6 +59,42 @@ describe("validatePhotoLabel — accepts well-formed labels", () => {
     expect(result.valid).toBe(true);
     if (result.valid) expect(result.label.quads).toHaveLength(2);
   });
+
+  // Issue #274: the tag vocabulary was extended beyond sleeved|foil|glare to
+  // express treatment/rarity, grounded in the-fab-cube's own foiling/rarity/
+  // art_variations fields (see benchmark/types.ts's QUAD_TAGS doc comment
+  // for the exact mapping + why each one was chosen).
+  it("accepts every tag in the extended treatment/rarity vocabulary (issue #274)", () => {
+    const label = validLabel();
+    const extendedTags = [
+      "cold-foil",
+      "rainbow-foil",
+      "gold-foil",
+      "marvel",
+      "promo",
+      "alternate-art",
+      "alternate-border",
+      "extended-art",
+      "full-art",
+      "alternate-text",
+    ];
+    for (const tag of extendedTags) {
+      const result = validatePhotoLabel({ ...label, quads: [{ ...label.quads[0], tags: [tag] }] });
+      expect(result.valid, `tag=${tag}`).toBe(true);
+    }
+  });
+
+  it("still accepts the original sleeved|foil|glare tags unchanged (backward compatibility, issue #274)", () => {
+    const label = validLabel();
+    const result = validatePhotoLabel({ ...label, quads: [{ ...label.quads[0], tags: ["sleeved", "foil", "glare"] }] });
+    expect(result.valid).toBe(true);
+  });
+
+  it("accepts a quad combining a foiling refinement with the generic foil tag (additive, not a replacement)", () => {
+    const label = validLabel();
+    const result = validatePhotoLabel({ ...label, quads: [{ ...label.quads[0], tags: ["foil", "cold-foil"] }] });
+    expect(result.valid).toBe(true);
+  });
 });
 
 describe("validatePhotoLabel — rejects malformed labels with specific errors", () => {

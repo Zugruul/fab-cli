@@ -4,6 +4,26 @@ import { LABEL_SCHEMA_VERSION } from "../src/benchmark/types.js";
 import type { RawPhotoEntry } from "../src/benchmark/manifest.js";
 import type { PhotoLabel } from "../src/benchmark/types.js";
 
+// Issue #274: the full tag vocabulary, hardcoded here (not derived from
+// QUAD_TAGS) so a future accidental edit to QUAD_TAGS that drops/renames a
+// tag is caught by this test failing, rather than silently adjusting the
+// expectation to match.
+const ZERO_COUNTS_BY_TAG = {
+  sleeved: 0,
+  foil: 0,
+  glare: 0,
+  "cold-foil": 0,
+  "rainbow-foil": 0,
+  "gold-foil": 0,
+  marvel: 0,
+  promo: 0,
+  "alternate-art": 0,
+  "alternate-border": 0,
+  "extended-art": 0,
+  "full-art": 0,
+  "alternate-text": 0,
+};
+
 function label(overrides: Partial<PhotoLabel> = {}): PhotoLabel {
   return {
     photoId: "p1",
@@ -100,7 +120,33 @@ describe("buildBenchmarkManifest", () => {
     const manifest = buildBenchmarkManifest({ entries: [entry(), e2] });
     expect(manifest.photoCount).toBe(2);
     expect(manifest.countsBySceneType).toEqual({ single: 1, field: 1, binder: 0 });
-    expect(manifest.countsByTag).toEqual({ sleeved: 1, foil: 1, glare: 1 });
+    expect(manifest.countsByTag).toEqual({ ...ZERO_COUNTS_BY_TAG, sleeved: 1, foil: 1, glare: 1 });
+  });
+
+  it("counts the extended treatment/rarity tags too, not just the original three (issue #274)", () => {
+    const e2 = entry({
+      fileName: "field/p2.jpg",
+      labelRaw: label({
+        photoId: "p2",
+        fileName: "field/p2.jpg",
+        sceneType: "field",
+        orientation: "landscape",
+        quads: [
+          {
+            printingId: "a",
+            corners: [
+              { x: 0, y: 0 },
+              { x: 1, y: 0 },
+              { x: 1, y: 1 },
+              { x: 0, y: 1 },
+            ],
+            tags: ["marvel", "cold-foil", "full-art"],
+          },
+        ],
+      }),
+    });
+    const manifest = buildBenchmarkManifest({ entries: [e2] });
+    expect(manifest.countsByTag).toEqual({ ...ZERO_COUNTS_BY_TAG, marvel: 1, "cold-foil": 1, "full-art": 1 });
   });
 
   it("skips an entry with a label parse error, recording the reason, without aborting the whole build", () => {
@@ -131,7 +177,7 @@ describe("buildBenchmarkManifest", () => {
     expect(manifest.labelSchemaVersion).toBe(LABEL_SCHEMA_VERSION);
     expect(manifest.photoCount).toBe(0);
     expect(manifest.countsBySceneType).toEqual({ single: 0, field: 0, binder: 0 });
-    expect(manifest.countsByTag).toEqual({ sleeved: 0, foil: 0, glare: 0 });
+    expect(manifest.countsByTag).toEqual(ZERO_COUNTS_BY_TAG);
   });
 });
 

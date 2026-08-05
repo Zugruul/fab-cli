@@ -74,7 +74,24 @@ describe("benchmark-label server — end to end over real HTTP", () => {
     const res = await fetch(`${baseUrl}/api/config`);
     const body = (await res.json()) as any;
     expect(body.sceneTypes).toEqual(["single", "field", "binder"]);
-    expect(body.tags).toEqual(["sleeved", "foil", "glare"]);
+    // Issue #274: extended tag vocabulary, pinned as a literal list (not
+    // derived from QUAD_TAGS) so this test actually catches a wiring
+    // regression rather than trivially following whatever the source says.
+    expect(body.tags).toEqual([
+      "sleeved",
+      "foil",
+      "glare",
+      "cold-foil",
+      "rainbow-foil",
+      "gold-foil",
+      "marvel",
+      "promo",
+      "alternate-art",
+      "alternate-border",
+      "extended-art",
+      "full-art",
+      "alternate-text",
+    ]);
   });
 
   it("GET /api/photos lists the unlabeled photo", async () => {
