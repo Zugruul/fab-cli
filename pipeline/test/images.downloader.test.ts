@@ -393,3 +393,49 @@ describe("assertDownloadsSucceeded", () => {
     expect(() => assertDownloadsSucceeded([])).not.toThrow();
   });
 });
+
+// #268: composites generate --coverage over the full 16k-printing catalog
+// cannot use assertDownloadsSucceeded's abort-on-any-failure behavior (that
+// remains correct and unchanged for small runs) — some printings genuinely
+// 403/404 from the LSS S3 bucket, and a coverage run needs those EXCLUDED
+// from the eligible pool and REPORTED (with HTTP status), never silently
+// dropped and never conflated with "eligible but the budget was too
+// small." summarizeFailedDownloads is the pure extraction step images/
+// cli.ts persists to a download-failures manifest for composites/cli.ts's
+// coverage report to read later.
+describe("summarizeFailedDownloads", () => {
+  it("extracts only the failed outcomes, with HTTP status parsed from the failure reason", async () => {
+    const { summarizeFailedDownloads } = await import("../src/images/downloader.js");
+    const result = summarizeFailedDownloads([
+      { printingId: "p1", status: "cached", path: "/cache/p1.png", attempts: 0 },
+      { printingId: "p2", status: "downloaded", path: "/cache/p2.png", attempts: 1 },
+      { printingId: "p3", status: "failed", path: "/cache/p3.png", attempts: 3, failureReason: "fetch failed: HTTP 403 for https://example.com/p3.webp" },
+      { printingId: "p4", status: "failed", path: "/cache/p4.png", attempts: 3, failureReason: "fetch failed: HTTP 404 for https://example.com/p4.webp" },
+    ]);
+    expect(result).toEqual([
+      { printingId: "p3", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/p3.webp" },
+      { printingId: "p4", httpStatus: 404, reason: "fetch failed: HTTP 404 for https://example.com/p4.webp" },
+    ]);
+  });
+
+  it("reports httpStatus null when the failure reason has no parseable HTTP status (network-level failure after retries)", async () => {
+    const { summarizeFailedDownloads } = await import("../src/images/downloader.js");
+    const result = summarizeFailedDownloads([
+      { printingId: "p1", status: "failed", path: "/cache/p1.png", attempts: 3, failureReason: "ECONNRESET" },
+    ]);
+    expect(result).toEqual([{ printingId: "p1", httpStatus: null, reason: "ECONNRESET" }]);
+  });
+
+  it("reports httpStatus/reason defensively even when failureReason is missing", async () => {
+    const { summarizeFailedDownloads } = await import("../src/images/downloader.js");
+    const result = summarizeFailedDownloads([{ printingId: "p1", status: "failed", path: "/cache/p1.png", attempts: 3 }]);
+    expect(result).toEqual([{ printingId: "p1", httpStatus: null, reason: "unknown reason" }]);
+  });
+
+  it("returns an empty array when nothing failed", async () => {
+    const { summarizeFailedDownloads } = await import("../src/images/downloader.js");
+    expect(
+      summarizeFailedDownloads([{ printingId: "p1", status: "cached", path: "/cache/p1.png", attempts: 0 }]),
+    ).toEqual([]);
+  });
+});

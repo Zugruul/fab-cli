@@ -50,6 +50,33 @@ describe("parseGenerateArgs", () => {
     expect(args.backgroundsDir).toBeUndefined();
     expect(args.externalBackgroundProbability).toBeNull();
   });
+
+  // #268: coverage mode + composites-per-run override + output format.
+  it("defaults coverage mode off, minAppearances to 1, format to png", () => {
+    const args = parseGenerateArgs([]);
+    expect(args.coverage).toBe(false);
+    expect(args.minAppearances).toBe(1);
+    expect(args.imageFormat).toBe("png");
+    expect(args.jpegQuality).toBe(85);
+    expect(args.compositesPerRun).toBeNull();
+  });
+
+  it("accepts --coverage, --min-appearances, --composites-per-run, --format, --jpeg-quality, --download-failures", () => {
+    const args = parseGenerateArgs([
+      "--coverage",
+      "--min-appearances", "5",
+      "--composites-per-run", "9000",
+      "--format", "jpeg",
+      "--jpeg-quality", "70",
+      "--download-failures", "/tmp/failures.json",
+    ]);
+    expect(args.coverage).toBe(true);
+    expect(args.minAppearances).toBe(5);
+    expect(args.compositesPerRun).toBe(9000);
+    expect(args.imageFormat).toBe("jpeg");
+    expect(args.jpegQuality).toBe(70);
+    expect(args.downloadFailuresPath).toBe("/tmp/failures.json");
+  });
 });
 
 describe("parseImportBackgroundsArgs", () => {
@@ -227,6 +254,191 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
         "--backgrounds-dir", path.join(tmpDir, "does-not-exist"),
       ]),
     ).rejects.toThrow(/backgroundsDir/);
+  });
+
+  // #268: --coverage end to end — coverage-report.json is emitted,
+  // distinguishing covered / eligibleButNotPlaced / unavailableUpstream,
+  // and a download-failures manifest (when present) feeds the
+  // unavailableUpstream bucket.
+  it("--coverage emits a coverage-report.json with every printing covered given a generous --composites-per-run", async () => {
+    const outDir = path.join(tmpDir, "out-coverage");
+    const exitCode = await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--min-appearances", "2",
+      "--composites-per-run", "20",
+    ]);
+    expect(exitCode).toBe(0);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.minAppearances).toBe(2);
+    expect(report.totalEligible).toBe(2); // printing-a, printing-b (both cached in beforeEach)
+    expect(report.covered).toBe(2);
+    expect(report.eligibleButNotPlaced).toEqual([]);
+    expect(report.unavailableUpstream).toEqual([]);
+  });
+
+  it("--coverage reports eligibleButNotPlaced (not silently 'covered') when the composite budget is too small", async () => {
+    const outDir = path.join(tmpDir, "out-coverage-short");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--min-appearances", "50", // unreachable in 1 composite
+      "--composites-per-run", "1",
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.eligibleButNotPlaced.length).toBeGreaterThan(0);
+    expect(report.covered + report.eligibleButNotPlaced.length).toBe(report.totalEligible);
+  });
+
+  it("--coverage reads a download-failures manifest and reports those printings as unavailableUpstream, excluded from totalEligible", async () => {
+    // A realistic scenario: "printing-c" IS a catalog member (unlike a
+    // stale/unknown id — see coverageReport.test.ts's dedicated test for
+    // that case) but its download genuinely failed, so it's never cached.
+    const cardJsonWithThird = path.join(tmpDir, "card-with-unavailable.json");
+    fs.writeFileSync(
+      cardJsonWithThird,
+      JSON.stringify([
+        { name: "Card A", printings: [{ unique_id: "printing-a", id: "A001", set_id: "SET", image_url: "https://example.com/printing-a.png" }] },
+        { name: "Card B", printings: [{ unique_id: "printing-b", id: "B001", set_id: "SET", image_url: "https://example.com/printing-b.png" }] },
+        { name: "Card C", printings: [{ unique_id: "printing-c", id: "C001", set_id: "SET", image_url: "https://example.com/printing-c.webp" }] },
+      ]),
+    );
+    const failuresPath = path.join(tmpDir, "download-failures.json");
+    fs.writeFileSync(
+      failuresPath,
+      JSON.stringify([{ printingId: "printing-c", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/printing-c.webp" }]),
+    );
+
+    const outDir = path.join(tmpDir, "out-coverage-unavailable");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", cardJsonWithThird,
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--composites-per-run", "10",
+      "--download-failures", failuresPath,
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalCatalogSize).toBe(3); // a, b, c
+    expect(report.totalEligible).toBe(2); // c excluded — unavailable upstream
+    expect(report.unavailableUpstream).toEqual([
+      { printingId: "printing-c", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/printing-c.webp" },
+    ]);
+    expect(report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length).toBe(report.totalCatalogSize);
+  });
+
+  it("BLOCKER 1 (PR #269 review round 1): a catalog printing that's neither cached nor in the download-failures manifest (e.g. a partial/--limit'd download run) is never invisible — it's accounted for in eligibleButNotPlaced, and the partition invariant holds against the full catalog", async () => {
+    const cardJsonWithUnattempted = path.join(tmpDir, "card-with-unattempted.json");
+    fs.writeFileSync(
+      cardJsonWithUnattempted,
+      JSON.stringify([
+        { name: "Card A", printings: [{ unique_id: "printing-a", id: "A001", set_id: "SET", image_url: "https://example.com/printing-a.png" }] },
+        { name: "Card B", printings: [{ unique_id: "printing-b", id: "B001", set_id: "SET", image_url: "https://example.com/printing-b.png" }] },
+        // printing-c: a real catalog member, but NEVER downloaded (no cache
+        // file) and NEVER recorded in a failures manifest — the exact
+        // "never attempted" case that used to vanish entirely.
+        { name: "Card C", printings: [{ unique_id: "printing-c", id: "C001", set_id: "SET", image_url: "https://example.com/printing-c.webp" }] },
+      ]),
+    );
+
+    const outDir = path.join(tmpDir, "out-coverage-vanishing");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", cardJsonWithUnattempted,
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--composites-per-run", "10",
+      // deliberately NOT passing --download-failures — no manifest at all,
+      // the most common real state (before the first images:download run
+      // that writes one, or after any run that didn't attempt printing-c).
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalCatalogSize).toBe(3);
+    const mentioned = new Set([...report.eligibleButNotPlaced, ...report.unavailableUpstream.map((u: { printingId: string }) => u.printingId)]);
+    expect(mentioned.has("printing-c")).toBe(true);
+    expect(report.eligibleButNotPlaced).toContain("printing-c");
+    // The invariant the review demanded, checkable from the artifact alone.
+    expect(report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length).toBe(report.totalCatalogSize);
+  });
+
+  it("fails loudly on --min-appearances 0 or a non-integer when --coverage is set (a garbage target must never silently produce a report)", async () => {
+    await expect(
+      generateCommand([
+        "--config", path.join(tmpDir, "config.json"),
+        "--card-json", path.join(tmpDir, "card.json"),
+        "--images-cache-dir", path.join(tmpDir, "images"),
+        "--out", path.join(tmpDir, "out-bad-min"),
+        "--coverage",
+        "--min-appearances", "0",
+      ]),
+    ).rejects.toThrow(/--min-appearances/);
+  });
+
+  it("fails loudly on --composites-per-run 0 or negative", async () => {
+    await expect(
+      generateCommand([
+        "--config", path.join(tmpDir, "config.json"),
+        "--card-json", path.join(tmpDir, "card.json"),
+        "--images-cache-dir", path.join(tmpDir, "images"),
+        "--out", path.join(tmpDir, "out-bad-composites"),
+        "--composites-per-run", "-1",
+      ]),
+    ).rejects.toThrow(/--composites-per-run/);
+  });
+
+  it("--coverage ignores a STALE download-failures entry for a printing that IS actually cached — never double-counted as unavailableUpstream", async () => {
+    const failuresPath = path.join(tmpDir, "download-failures-stale.json");
+    // printing-a is cached in beforeEach — this manifest is stale (e.g. a
+    // failed attempt from an earlier run that later succeeded).
+    fs.writeFileSync(failuresPath, JSON.stringify([{ printingId: "printing-a", httpStatus: 403, reason: "stale" }]));
+
+    const outDir = path.join(tmpDir, "out-coverage-stale");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--composites-per-run", "10",
+      "--download-failures", failuresPath,
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalEligible).toBe(2); // printing-a still counted as eligible
+    expect(report.unavailableUpstream).toEqual([]);
+  });
+
+  it("--format jpeg writes .jpg composite files and no coverage-report.json when --coverage is not passed", async () => {
+    const outDir = path.join(tmpDir, "out-jpeg");
+    const exitCode = await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--format", "jpeg",
+      "--jpeg-quality", "60",
+    ]);
+    expect(exitCode).toBe(0);
+
+    const manifest = JSON.parse(fs.readFileSync(path.join(outDir, "manifest.json"), "utf8"));
+    for (const entry of manifest.composites) {
+      expect(entry.fileName.endsWith(".jpg")).toBe(true);
+      const bytes = fs.readFileSync(path.join(outDir, entry.fileName));
+      expect(bytes.subarray(0, 2).toString("hex")).toBe("ffd8");
+    }
+    expect(fs.existsSync(path.join(outDir, "coverage-report.json"))).toBe(false);
   });
 });
 

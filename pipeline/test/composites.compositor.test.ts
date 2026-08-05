@@ -390,3 +390,24 @@ describe("renderComposite — visibleFraction & occlusion filtering (#252)", () 
     expect(label.excludedCards).toBe(0);
   });
 });
+
+// #268 "Also needed for the real run": JPEG output for training composites
+// (PNG at 1024x1024 is ~2MB; a real coverage run has thousands of
+// composites and JPEG is ~5x smaller — lossless buys nothing for
+// training). fileName's extension is the only thing compositor.ts controls
+// directly; actual pixel encoding is imageIO.ts's job (see
+// composites.imageIO.test.ts) — this only has to make sure the label
+// points at the RIGHT file name for whichever format the caller asked for.
+describe("renderComposite — output format (#268)", () => {
+  it("defaults to a .png fileName when imageFormat is omitted (unchanged pre-#268 behavior)", () => {
+    const card = solidCard("card-a", 20, 30, [10, 20, 30]);
+    const { label } = renderComposite(params(), [card]);
+    expect(label.fileName).toBe("composite-0000.png");
+  });
+
+  it("uses a .jpg fileName when imageFormat is 'jpeg'", () => {
+    const card = solidCard("card-a", 20, 30, [10, 20, 30]);
+    const { label } = renderComposite(params(), [card], 0, undefined, "jpeg");
+    expect(label.fileName).toBe("composite-0000.jpg");
+  });
+});

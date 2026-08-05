@@ -5,20 +5,60 @@
  *
  *   composites generate [--config <composites-generation.json>]
  *                        [--card-json <card.json>] [--images-cache-dir <dir>]
- *                        [--out <dir>] [--seed <n>]
+ *                        [--out <dir>] [--seed <n>] [--composites-per-run <n>]
  *                        [--backgrounds-dir <dir>] [--external-background-probability <p>]
+ *                        [--coverage] [--min-appearances <n>] [--download-failures <path>]
+ *                        [--format png|jpeg] [--jpeg-quality <n>] [--image-cache-size <n>]
  *     Plans + renders one run (paramStream.ts + compositor.ts) from
  *     whichever printing images are ALREADY cached under
  *     --images-cache-dir (APP-025's `images:download` output — this CLI
  *     never triggers a new download itself, a separate concern), and
- *     writes composite PNGs + label JSON + a run manifest atomically
- *     (write.ts) to --out (default pipeline/out/composites/, gitignored).
- *     `--backgrounds-dir`/`--external-background-probability` override the
- *     config file's `backgroundsDir`/`externalBackgroundProbability`
- *     fields, same "explicit override, no silent default" pattern as
- *     `--seed` (#244). When config.backgroundsDir resolves to zero usable
- *     images, this is a LOUD failure (the user explicitly configured it —
- *     see resolveAvailableBackgrounds), never a silent procedural fallback.
+ *     writes composite PNGs (or JPEGs, see --format below) + label JSON +
+ *     a run manifest to --out (default pipeline/out/composites/,
+ *     gitignored). #272: each composite is encoded and written to disk
+ *     the moment it's rendered (write.ts's beginCompositeRun) — memory is
+ *     O(1) in run length, not O(compositesPerRun), and manifest.json is
+ *     written LAST as the run's completion marker (see write.ts's doc
+ *     comment). `--image-cache-size` (default 64) bounds the decoded-
+ *     source-card-image LRU cache generateDataset keeps for the run —
+ *     a runtime memory knob only, never affecting output (same seed still
+ *     produces byte-identical composites regardless of its value).
+ *     `--backgrounds-dir`/
+ *     `--external-background-probability`/`--composites-per-run` override
+ *     the config file's corresponding fields, same "explicit override, no
+ *     silent default" pattern as `--seed` (#244) — `--composites-per-run`
+ *     exists (#268) because a coverage-sized run over the full 16k-
+ *     printing catalog needs a MUCH larger budget than the committed
+ *     default, without hand-editing the committed config file. When
+ *     config.backgroundsDir resolves to zero usable images, this is a
+ *     LOUD failure (the user explicitly configured it — see
+ *     resolveAvailableBackgrounds), never a silent procedural fallback.
+ *
+ *     `--coverage` (#268) switches card selection from uniform-random
+ *     (sampleWithoutReplacement — probabilistic, coupon-collector) to
+ *     coverage-driven (coverageTracker.ts — always offers the globally
+ *     least-appeared-so-far printing(s) first), so a large-enough
+ *     `--composites-per-run` GUARANTEES every eligible printing reaches
+ *     `--min-appearances` (default 1) placements — see paramStream.ts's
+ *     header for the determinism/draw-shape contract this preserves. Emits
+ *     `<outDir>/coverage-report.json` distinguishing THREE states that
+ *     must never collapse into one number: covered, eligibleButNotPlaced
+ *     (the run's budget fell short — a genuine shortfall, reported, not
+ *     silently hidden), and unavailableUpstream (printings whose image
+ *     download permanently failed — e.g. a real S3 403/404 — read from
+ *     `--download-failures`, images/cli.ts's downloadCommand's manifest,
+ *     default pipeline/out/download-failures.json; a missing manifest just
+ *     means "no failures on record," not an error). Coverage mode is
+ *     ignored (no report emitted) when `--coverage` isn't passed — default
+ *     behavior is byte-identical to pre-#268.
+ *
+ *     `--format jpeg` (#268 "also needed for the real run": PNG at
+ *     1024x1024 is ~2MB, thousands of coverage-run composites don't fit
+ *     comfortably in a typical training-host disk budget; JPEG is ~5x
+ *     smaller and lossless buys nothing for training) writes `.jpg` files
+ *     via `--jpeg-quality` (default 85) instead of `.png` — PNG stays the
+ *     default everywhere, so sample-sheet/QA behavior is unchanged unless
+ *     `--format jpeg` is explicitly passed.
  *
  *   composites import-backgrounds --source <dir> [--out <dir>]
  *     Normalizes a directory of real background/playmat photos (#244,
@@ -62,9 +102,9 @@ import { validateGeneratorConfig } from "./config.js";
 import type { GeneratorConfig } from "./config.js";
 import { extractPrintingImageRefs, loadCardsFromFile } from "../images/catalog.js";
 import { cachePathFor } from "../images/cache.js";
-import { generateDataset } from "./generate.js";
-import { writeCompositeRun } from "./write.js";
-import { decodeImageToRaw, encodeRawToPng, decodeAndNormalizeBackground } from "./imageIO.js";
+import { generateDataset, DEFAULT_IMAGE_CACHE_SIZE } from "./generate.js";
+import { beginCompositeRun } from "./write.js";
+import { decodeImageToRaw, encodeRawToPng, encodeRawToJpeg, decodeAndNormalizeBackground } from "./imageIO.js";
 import { loadExternalBackgroundRefs } from "./background.js";
 import { importBackgrounds } from "./importBackgrounds.js";
 import { importCaptures, validateBroadcastImportConfig } from "./importCaptures.js";
@@ -73,7 +113,11 @@ import { buildSampleSheetHtml } from "./sampleSheet.js";
 import type { SampleSheetEntry } from "./sampleSheet.js";
 import type { CompositeDatasetManifest } from "./manifest.js";
 import type { CardImageRef } from "./paramStream.js";
+import type { CompositeImageFormat } from "./compositor.js";
 import type { CompositeLabel } from "./types.js";
+import { CoverageTracker } from "./coverageTracker.js";
+import { buildCoverageReport } from "./coverageReport.js";
+import type { UnavailablePrinting } from "./coverageReport.js";
 import { zoneGenerateCommand, broadcastSampleSheetCommand } from "./zones/cli.js";
 
 const BASE = path.join(import.meta.dirname, "..", "..");
@@ -95,6 +139,38 @@ export interface GenerateArgs {
    * ("no external backgrounds"). Mirrors --seed's override pattern. */
   backgroundsDir: string | null | undefined;
   externalBackgroundProbability: number | null;
+  /** #268: null = "no CLI override, use config.compositesPerRun" — a real
+   * coverage run needs a MUCH larger composite budget than the committed
+   * default (thousands, to cover the full 16k-printing catalog), so this
+   * mirrors --seed's explicit-override pattern rather than requiring a
+   * dedicated coverage-run config file. */
+  compositesPerRun: number | null;
+  /** #268: coverage-driven card selection — every eligible printing
+   * guaranteed >= minAppearances placements (budget permitting; see the
+   * emitted coverage-report.json for what was actually achieved). false
+   * (default) is byte-identical to pre-#268 uniform-random selection. */
+  coverage: boolean;
+  minAppearances: number;
+  /** #268: where downloadCommand's failures manifest lives — read (best-
+   * effort; missing file = "no download run has ever failed, or no
+   * manifest was ever written") ONLY when --coverage is set, to exclude
+   * unavailable-upstream printings from the eligible pool and report them
+   * distinctly. Defaults to images/cli.ts's own default location so the
+   * two commands agree without the user having to pass this explicitly. */
+  downloadFailuresPath: string;
+  /** #268 "Also needed for the real run": training composites can use
+   * JPEG instead of PNG (~5x smaller; lossless buys nothing for
+   * training). "png" (default) is unchanged pre-#268 behavior — sample-
+   * sheet/QA output never changes format unless explicitly asked. */
+  imageFormat: CompositeImageFormat;
+  jpegQuality: number;
+  /** #272: bounds generateDataset's decoded-source-image LRU cache — a
+   * runtime memory knob, deliberately NOT part of GeneratorConfig (it
+   * never affects rng draws or rendered pixels, only peak memory/reload
+   * frequency — see generate.ts's doc comment). Defaults to
+   * DEFAULT_IMAGE_CACHE_SIZE, unchanged from a bare `generate` invocation
+   * before this flag existed. */
+  imageCacheSize: number;
 }
 
 export function parseGenerateArgs(argv: string[]): GenerateArgs {
@@ -106,6 +182,13 @@ export function parseGenerateArgs(argv: string[]): GenerateArgs {
     seed: null,
     backgroundsDir: undefined,
     externalBackgroundProbability: null,
+    compositesPerRun: null,
+    coverage: false,
+    minAppearances: 1,
+    downloadFailuresPath: path.join(BASE, "out", "download-failures.json"),
+    imageFormat: "png",
+    jpegQuality: 85,
+    imageCacheSize: DEFAULT_IMAGE_CACHE_SIZE,
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -116,6 +199,13 @@ export function parseGenerateArgs(argv: string[]): GenerateArgs {
     else if (arg === "--seed" && argv[i + 1]) args.seed = Number(argv[++i]);
     else if (arg === "--backgrounds-dir" && argv[i + 1]) args.backgroundsDir = argv[++i];
     else if (arg === "--external-background-probability" && argv[i + 1]) args.externalBackgroundProbability = Number(argv[++i]);
+    else if (arg === "--composites-per-run" && argv[i + 1]) args.compositesPerRun = Number(argv[++i]);
+    else if (arg === "--coverage") args.coverage = true;
+    else if (arg === "--min-appearances" && argv[i + 1]) args.minAppearances = Number(argv[++i]);
+    else if (arg === "--download-failures" && argv[i + 1]) args.downloadFailuresPath = argv[++i];
+    else if (arg === "--format" && argv[i + 1]) args.imageFormat = argv[++i] === "jpeg" ? "jpeg" : "png";
+    else if (arg === "--jpeg-quality" && argv[i + 1]) args.jpegQuality = Number(argv[++i]);
+    else if (arg === "--image-cache-size" && argv[i + 1]) args.imageCacheSize = Number(argv[++i]);
   }
   // Lazy: only shells out to git when --card-json wasn't given, since the
   // vendored card.json lives under fab-cli/, a sibling package, not under
@@ -126,11 +216,38 @@ export function parseGenerateArgs(argv: string[]): GenerateArgs {
   return args;
 }
 
-/** Every printing with BOTH a real image_url (catalog.ts's extraction
- * already filters this) AND an already-downloaded cache file — this CLI
- * only ever consumes APP-025's downloader output, never triggers a
- * download itself. */
-function resolveAvailableCards(cardJsonPath: string, imagesCacheDir: string): CardImageRef[] {
+/** Best-effort read of the download-failures manifest (images/cli.ts's
+ * downloadCommand writes it) — see GenerateArgs.downloadFailuresPath's
+ * doc. A missing file is NOT an error (most runs, and every run before
+ * #268, never had one); a present-but-unparseable file IS a loud failure,
+ * since that indicates real corruption the user should know about rather
+ * than a coverage report silently treating every printing as available. */
+function loadDownloadFailures(downloadFailuresPath: string): UnavailablePrinting[] {
+  if (!fs.existsSync(downloadFailuresPath)) return [];
+  const raw = fs.readFileSync(downloadFailuresPath, "utf8");
+  try {
+    return JSON.parse(raw) as UnavailablePrinting[];
+  } catch (err) {
+    throw new Error(
+      `composites generate: --download-failures manifest at ${downloadFailuresPath} is not valid JSON: ${err instanceof Error ? err.message : String(err)}`,
+    );
+  }
+}
+
+export interface CatalogAndAvailableCards {
+  /** EVERY distinct printing the-fab-cube's vendored catalog knows about,
+   * independent of download/cache state (#268/#269: the denominator
+   * buildCoverageReport's three-state partition must sum to exactly —
+   * see coverageReport.ts's header). */
+  allPrintingIds: string[];
+  /** The subset with BOTH a real image_url (catalog.ts's extraction
+   * already filters this) AND an already-downloaded cache file — this CLI
+   * only ever consumes APP-025's downloader output, never triggers a
+   * download itself. */
+  available: CardImageRef[];
+}
+
+function resolveCatalogAndAvailableCards(cardJsonPath: string, imagesCacheDir: string): CatalogAndAvailableCards {
   const cards = loadCardsFromFile(cardJsonPath);
   const refs = extractPrintingImageRefs(cards);
   const available: CardImageRef[] = [];
@@ -138,7 +255,7 @@ function resolveAvailableCards(cardJsonPath: string, imagesCacheDir: string): Ca
     const cachePath = cachePathFor(imagesCacheDir, ref);
     if (fs.existsSync(cachePath)) available.push({ printingId: ref.printingId, imagePath: cachePath });
   }
-  return available;
+  return { allPrintingIds: refs.map((r) => r.printingId), available };
 }
 
 /**
@@ -178,8 +295,25 @@ export async function generateCommand(argv: string[]): Promise<number> {
   if (args.seed != null) config = { ...config, seed: args.seed };
   if (args.backgroundsDir !== undefined) config = { ...config, backgroundsDir: args.backgroundsDir };
   if (args.externalBackgroundProbability != null) config = { ...config, externalBackgroundProbability: args.externalBackgroundProbability };
+  if (args.compositesPerRun != null) {
+    if (!Number.isInteger(args.compositesPerRun) || args.compositesPerRun <= 0) {
+      throw new Error(`composites generate: --composites-per-run must be a positive integer (got ${args.compositesPerRun})`);
+    }
+    config = { ...config, compositesPerRun: args.compositesPerRun };
+  }
+  if (args.coverage && (!Number.isInteger(args.minAppearances) || args.minAppearances <= 0)) {
+    throw new Error(`composites generate: --min-appearances must be a positive integer (got ${args.minAppearances})`);
+  }
+  // #269 review round 1 MINOR 3: fail before planning/rendering, not deep
+  // inside sharp's first jpeg() encode call after a full run already ran.
+  if (args.imageFormat === "jpeg" && (!Number.isFinite(args.jpegQuality) || args.jpegQuality < 1 || args.jpegQuality > 100)) {
+    throw new Error(`composites generate: --jpeg-quality must be a number in [1, 100] (got ${args.jpegQuality})`);
+  }
+  if (!Number.isInteger(args.imageCacheSize) || args.imageCacheSize <= 0) {
+    throw new Error(`composites generate: --image-cache-size must be a positive integer (got ${args.imageCacheSize})`);
+  }
 
-  const availableCards = resolveAvailableCards(args.cardJsonPath, args.imagesCacheDir);
+  const { allPrintingIds, available: availableCards } = resolveCatalogAndAvailableCards(args.cardJsonPath, args.imagesCacheDir);
   if (availableCards.length === 0) {
     throw new Error(
       `composites generate: no cached printing images found under ${args.imagesCacheDir} — run "npm run images:download" first (APP-025)`,
@@ -187,8 +321,53 @@ export async function generateCommand(argv: string[]): Promise<number> {
   }
   const availableBackgrounds = resolveAvailableBackgrounds(config.backgroundsDir);
 
-  const { manifest, composites } = await generateDataset(config, availableCards, decodeImageToRaw, undefined, availableBackgrounds);
-  await writeCompositeRun(args.outDir, composites, manifest, encodeRawToPng);
+  // #268: coverage mode threads a fresh CoverageTracker through planRun
+  // (index i <-> availableCards[i], see coverageTracker.ts/coverageReport.ts's
+  // docs) and, after the run, builds + writes a report distinguishing
+  // covered / eligibleButNotPlaced / unavailableUpstream. Coverage-off runs
+  // (the default) skip all of this — byte-identical to pre-#268 behavior.
+  const coverageTracker = args.coverage ? new CoverageTracker(availableCards.length) : null;
+
+  // #272: stream each composite straight to disk as it's rendered and
+  // drop its pixels immediately after — memory stays O(1) in run length
+  // instead of O(compositesPerRun). See write.ts's beginCompositeRun doc
+  // and generate.ts's doc comment for the full before/after. manifest.json
+  // (finalize, below) is written LAST, once every composite has already
+  // landed on disk — its presence is what distinguishes a completed run
+  // from one that was interrupted partway through.
+  const encodeImage = args.imageFormat === "jpeg" ? (img: Parameters<typeof encodeRawToJpeg>[0]) => encodeRawToJpeg(img, args.jpegQuality) : encodeRawToPng;
+  const writer = beginCompositeRun(args.outDir, encodeImage);
+
+  const { manifest } = await generateDataset(
+    config,
+    availableCards,
+    decodeImageToRaw,
+    (result) => writer.writeComposite(result.image, result.label),
+    undefined,
+    availableBackgrounds,
+    coverageTracker,
+    args.imageFormat,
+    args.imageCacheSize,
+  );
+  writer.finalize(manifest);
+
+  if (coverageTracker) {
+    // Best-effort: unavailable-upstream printings never entered
+    // availableCards in the first place (their download failed, so nothing
+    // got cached) — filter the manifest defensively against a stale entry
+    // for a printing that HAS since been cached (e.g. a later successful
+    // re-download whose manifest overwrite this run happens to predate).
+    const availableIds = new Set(availableCards.map((c) => c.printingId));
+    const unavailableUpstream = loadDownloadFailures(args.downloadFailuresPath).filter((u) => !availableIds.has(u.printingId));
+    const report = buildCoverageReport(allPrintingIds, availableCards, coverageTracker, args.minAppearances, unavailableUpstream);
+    fs.writeFileSync(path.join(args.outDir, "coverage-report.json"), JSON.stringify(report, null, 2) + "\n");
+    console.log(
+      `coverage: ${report.covered}/${report.totalEligible} eligible printings reached >= ${report.minAppearances} appearances ` +
+        `(min=${report.minObservedAppearances}, max=${report.maxObservedAppearances}); ` +
+        `${report.eligibleButNotPlaced.length} eligibleButNotPlaced, ${report.unavailableUpstream.length} unavailableUpstream ` +
+        `(catalog: ${report.totalCatalogSize} printings — ${report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length} accounted for)`,
+    );
+  }
 
   console.log(`composites: ${manifest.compositeCount} (seed=${manifest.seed}, configHash=${manifest.generatorConfigHash.slice(0, 12)})`);
   console.log(`available card images: ${availableCards.length}`);

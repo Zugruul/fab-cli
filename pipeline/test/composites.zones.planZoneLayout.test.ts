@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { validateZoneLayoutConfig, planZoneLayoutRun } from "../src/composites/zones/planZoneLayout.js";
 import type { ZoneLayoutConfig, PlanZoneLayoutInput, EligibleCard } from "../src/composites/zones/planZoneLayout.js";
 import type { ZoneMap } from "../src/composites/zones/zoneMap.js";
+import { CoverageTracker } from "../src/composites/coverageTracker.js";
 
 function validConfig(overrides: Partial<ZoneLayoutConfig> = {}): ZoneLayoutConfig {
   return {
@@ -282,6 +283,84 @@ describe("planZoneLayoutRun — no perspective/sleeve/glare augmentation, fixed 
       expect(p.width).toBe(640);
       expect(p.height).toBe(480);
     }
+  });
+});
+
+// #268 PR #269 review round 1, BLOCKER 2: coverage-driven selection wired
+// into zone-generate's single/two-player planning (planZoneLayoutRun),
+// exactly like paramStream.ts's — applied WITHIN each semantic-eligibility
+// bucket (a Head zone still only ever gets a Head-eligible card; a
+// coverageTracker is a per-KIND resource, never bypasses which pool a zone
+// draws from), consuming the ALREADY-drawn `pickFrac` value so the
+// header's "every zone always draws exactly 5 rng() calls" invariant holds
+// unchanged whether or not coverage mode is active for a given kind.
+function multiCard(kind: string, n: number): EligibleCard[] {
+  return Array.from({ length: n }, (_, i) => eligibleCard(`${kind}-card-${i}`));
+}
+
+describe("planZoneLayoutRun — coverage mode (#268 BLOCKER 2)", () => {
+  it("with a generous composite budget, every eligible printing in a tracked kind's pool appears at least once", () => {
+    const eligibleByKind = { ...fullEligibleByKind(), weapon: multiCard("weapon", 6) };
+    const coverageTrackersByKind = { weapon: new CoverageTracker(6) };
+    const input = baseInput({ eligibleByKind, coverageTrackersByKind, compositesPerRun: 40 });
+
+    planZoneLayoutRun(input);
+
+    for (const count of coverageTrackersByKind.weapon.allAppearanceCounts()) {
+      expect(count).toBeGreaterThan(0);
+    }
+  });
+
+  it("DRAW-SHAPE INVARIANT: a coverage tracker on one kind never changes ANY other zone's draws (jitter/rotation/other kinds' picks) for a fixed seed — matches this module's header's 'always 5 rng() calls per zone' contract", () => {
+    const eligibleByKind = { ...fullEligibleByKind(), weapon: multiCard("weapon", 6) };
+    const withoutCoverage = planZoneLayoutRun(baseInput({ eligibleByKind, compositesPerRun: 10 }));
+    const withCoverage = planZoneLayoutRun(baseInput({ eligibleByKind, coverageTrackersByKind: { weapon: new CoverageTracker(6) }, compositesPerRun: 10 }));
+
+    expect(withoutCoverage.length).toBe(withCoverage.length);
+    for (let i = 0; i < withoutCoverage.length; i++) {
+      const a = withoutCoverage[i];
+      const b = withCoverage[i];
+      expect(b.background).toEqual(a.background);
+      expect(b.lighting).toEqual(a.lighting);
+      expect(b.cards.length).toBe(a.cards.length);
+      for (let c = 0; c < a.cards.length; c++) {
+        const isWeaponCard = a.cards[c].printingId.startsWith("weapon-card");
+        const { printingId: _apId, imagePath: _aip, ...aRest } = a.cards[c];
+        const { printingId: _bpId, imagePath: _bip, ...bRest } = b.cards[c];
+        expect(bRest).toEqual(aRest);
+        // Every OTHER kind (single-item pools here) must pick the exact
+        // same printingId regardless of coverage mode; only the tracked
+        // "weapon" kind is allowed to differ.
+        if (!isWeaponCard) expect(b.cards[c].printingId).toBe(a.cards[c].printingId);
+      }
+    }
+  });
+
+  it("never bypasses semantic eligibility — a Head zone still only ever receives a Head-eligible card, even with a coverage tracker active for a DIFFERENT kind", () => {
+    const eligibleByKind = { ...fullEligibleByKind(), weapon: multiCard("weapon", 4) };
+    const plans = planZoneLayoutRun(baseInput({ eligibleByKind, coverageTrackersByKind: { weapon: new CoverageTracker(4) }, compositesPerRun: 10 }));
+    for (const p of plans) {
+      const headCard = p.cards.find((c) => c.printingId === "head-card" || c.printingId.startsWith("head-"));
+      // The head zone's only eligible card is "head-card" — it must be
+      // exactly that, never a weapon-card leaking across buckets.
+      const headZoneCard = p.cards.find((c) => c.printingId.startsWith("head"));
+      expect(headZoneCard?.printingId).toBe("head-card");
+      void headCard;
+    }
+  });
+
+  it("is deterministic — same seed + same trackers-from-scratch produce byte-identical output across two calls", () => {
+    const eligibleByKind = { ...fullEligibleByKind(), weapon: multiCard("weapon", 5) };
+    const a = planZoneLayoutRun(baseInput({ eligibleByKind, coverageTrackersByKind: { weapon: new CoverageTracker(5) }, compositesPerRun: 8 }));
+    const b = planZoneLayoutRun(baseInput({ eligibleByKind, coverageTrackersByKind: { weapon: new CoverageTracker(5) }, compositesPerRun: 8 }));
+    expect(JSON.stringify(a)).toBe(JSON.stringify(b));
+  });
+
+  it("without any coverageTrackersByKind entry, behavior is unchanged from the pre-#268 uniform-random path", () => {
+    const eligibleByKind = { ...fullEligibleByKind(), weapon: multiCard("weapon", 5) };
+    const a = planZoneLayoutRun(baseInput({ eligibleByKind, compositesPerRun: 6 }));
+    const b = planZoneLayoutRun(baseInput({ eligibleByKind, coverageTrackersByKind: {}, compositesPerRun: 6 }));
+    expect(JSON.stringify(a)).toBe(JSON.stringify(b));
   });
 });
 

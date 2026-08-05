@@ -176,3 +176,36 @@ export function assertDownloadsSucceeded(outcomes: DownloadOutcome[]): void {
   const details = failed.map((o) => `${o.printingId} (${o.failureReason ?? "unknown reason"})`).join("; ");
   throw new Error(`assertDownloadsSucceeded: ${failed.length} printing image download(s) failed: ${details}`);
 }
+
+/** One printing whose image download permanently failed — the
+ * download-failures manifest's shape (images/cli.ts writes this; a #268
+ * coverage run reads it back to exclude these from the eligible pool and
+ * report them as "unavailable upstream", distinct from a run's own
+ * coverage shortfall — see composites/coverageReport.ts). */
+export interface FailedDownloadSummary {
+  printingId: string;
+  /** Parsed from the failure reason's "HTTP <n>" substring (see
+   * HttpStatusError's message format above) — null when the failure
+   * wasn't a clean HTTP status (a network-level error surviving retries,
+   * e.g. a DNS failure or connection reset). */
+  httpStatus: number | null;
+  reason: string;
+}
+
+/**
+ * Extracts a `downloadAll` outcome list's failed entries only, as a
+ * flat, JSON-serializable summary — see this module's assertDownloadsSucceeded
+ * doc: that function's abort-on-any-failure behavior stays correct and
+ * unchanged for a small run; this is the alternative for a caller that
+ * needs to TOLERATE and REPORT permanent failures instead (a 16k-printing
+ * coverage run, #268), never silently dropping them.
+ */
+export function summarizeFailedDownloads(outcomes: DownloadOutcome[]): FailedDownloadSummary[] {
+  return outcomes
+    .filter((o) => o.status === "failed")
+    .map((o) => {
+      const reason = o.failureReason ?? "unknown reason";
+      const match = reason.match(/HTTP (\d+)/);
+      return { printingId: o.printingId, httpStatus: match ? Number(match[1]) : null, reason };
+    });
+}
