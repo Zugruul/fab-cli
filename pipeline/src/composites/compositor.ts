@@ -42,7 +42,7 @@
 import { computeDestQuad } from "./geometry.js";
 import { generateBackgroundRaw } from "./background.js";
 import { warpToQuad, countCardFootprintPixels } from "./warp.js";
-import { compositeOver, applyBrightnessContrast, applySleeve, applyGlare, coverFitRawImage } from "./rawImage.js";
+import { compositeOver, applyBrightnessContrast, applySleeve, applyGlare, coverFitRawImage, applyGaussianBlur } from "./rawImage.js";
 import type { RawImage } from "./rawImage.js";
 import type { CompositeParams } from "./paramStream.js";
 import type { CompositeLabel, CompositeBackgroundKind, CompositeCardLabel, CardRegion, Quad } from "./types.js";
@@ -160,6 +160,17 @@ export function renderComposite(
   }
 
   canvas = applyBrightnessContrast(canvas, params.lighting.brightnessDelta, params.lighting.contrastDelta);
+
+  // #289: global, pixels-only post-process — applied to the whole already-
+  // composited canvas (same "runs after every card is pasted" spot as
+  // applyBrightnessContrast above), strictly AFTER every label field below
+  // is computed from `quads`/`footprintPixels`/`survivingCount`, none of
+  // which read `canvas` — so blur can never perturb a label. See this
+  // file's header + rawImage.ts's applyGaussianBlur doc for why blur is
+  // the dominant measured synthetic->real gap term.
+  if (params.blur) {
+    canvas = applyGaussianBlur(canvas, params.blur.sigma);
+  }
 
   const backgroundType: CompositeBackgroundKind = params.background.type === "external" ? "external" : `procedural:${params.background.type}`;
   const backgroundHash: string | null = params.background.type === "external" ? params.background.contentHash : null;
