@@ -16,6 +16,7 @@ import {
 } from "../src/train-vision/realPhotoEvalSet.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 import type { PhotoLabel, Quad } from "../src/benchmark/types.js";
+import { parseArgs } from "../src/train-vision/cli.js";
 
 // ---------------------------------------------------------------------------
 // Pure geometry: computeLetterboxTransform / transformPoint / transformQuad
@@ -394,5 +395,48 @@ describe("exportRealPhotoEvalSet", () => {
     const meta = await sharp(path.join(outDir, "photo-a.png")).metadata();
     expect(meta.width).toBe(32);
     expect(meta.height).toBe(32);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// train-vision/cli.ts's new `real-photo-eval` subcommand
+// ---------------------------------------------------------------------------
+
+describe("train-vision/cli.ts parseArgs — real-photo-eval", () => {
+  it("parses explicit overrides for every flag", () => {
+    expect(
+      parseArgs([
+        "real-photo-eval",
+        "--photos-dir", "/photos",
+        "--labels-dir", "/labels",
+        "--out", "/out",
+        "--canvas-size", "512",
+        "--stride", "16",
+      ]),
+    ).toEqual({
+      command: "real-photo-eval",
+      photosDir: "/photos",
+      labelsDir: "/labels",
+      outDir: "/out",
+      canvasSize: 512,
+      stride: 16,
+    });
+  });
+
+  it("defaults canvasSize/stride to 1024/8 and every path under pipeline/out/benchmark-photos when omitted", () => {
+    const args = parseArgs(["real-photo-eval"]);
+    expect(args.command).toBe("real-photo-eval");
+    if (args.command !== "real-photo-eval") throw new Error("unreachable");
+    expect(args.canvasSize).toBe(1024);
+    expect(args.stride).toBe(8);
+    expect(args.photosDir.endsWith(path.join("out", "benchmark-photos"))).toBe(true);
+    expect(args.labelsDir.endsWith(path.join("out", "benchmark-photos", "labels"))).toBe(true);
+    expect(args.outDir.endsWith(path.join("out", "real-photo-eval"))).toBe(true);
+  });
+
+  // real-photo-eval has no run/resume/status-style dispatch state, so
+  // (unlike those three commands) it must NOT require --run-id.
+  it("does not require --run-id (unlike run/resume/status)", () => {
+    expect(() => parseArgs(["real-photo-eval"])).not.toThrow();
   });
 });
