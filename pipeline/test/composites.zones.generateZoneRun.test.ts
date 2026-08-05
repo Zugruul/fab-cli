@@ -213,3 +213,45 @@ describe("generateZoneRun", () => {
     expect(JSON.stringify(a.manifest)).toBe(JSON.stringify(b.manifest));
   });
 });
+
+// #268 PR #269 review round 1 BLOCKER 2: `coverage: true` builds one
+// CoverageTracker per zone kind from eligibleByKind (sized to each kind's
+// own pool) and threads them through every planZoneLayoutRun sub-run
+// (single + near + far), SHARED so appearance counts accumulate across the
+// whole zone-generate run, not reset per sub-run — mirrors generate.ts's
+// composites-generate wiring. `fullCatalog()`'s 9 cards are ALL eligible
+// for "pitch" (the semantic-eligibility brief: pitch accepts any card),
+// so that's the kind exercised below without needing a bespoke fixture.
+describe("generateZoneRun — coverage mode (#268 BLOCKER 2)", () => {
+  it("with coverage on and a generous singleCount, every printing eligible for a large 'any card' bucket (pitch) appears at least once across the run", async () => {
+    const input = baseInput({ coverage: true, singleCount: 30, twoPlayerCount: 0 });
+    const { coverageSummary } = await generateZoneRun(input);
+    expect(coverageSummary).toBeDefined();
+    const pitch = coverageSummary!.pitch;
+    expect(pitch).toBeDefined();
+    expect(pitch!.zeroAppearanceCount).toBe(0);
+  });
+
+  it("coverageSummary is undefined when coverage is not requested (default) — no behavior change otherwise", async () => {
+    const withoutCoverage = baseInput({ singleCount: 5, twoPlayerCount: 0 });
+    const result = await generateZoneRun(withoutCoverage);
+    expect(result.coverageSummary).toBeUndefined();
+  });
+
+  it("coverage mode does not change which composites/cards are produced for a fixed seed when the eligible pools are all single-item (draw-shape preserved end to end)", async () => {
+    const without = await generateZoneRun(baseInput({ singleCount: 3, twoPlayerCount: 1 }));
+    const withCoverage = await generateZoneRun(baseInput({ coverage: true, singleCount: 3, twoPlayerCount: 1 }));
+    // Every kind in fullCatalog() other than pitch/graveyard/arsenal has
+    // exactly one eligible printing, so coverage mode can't change ANYTHING
+    // about them; pitch/graveyard/arsenal draw from the same 9-card pool,
+    // but comparing full labels (not just card sets) would be too strict
+    // given a tracker CAN legitimately pick a different card there — so
+    // this only asserts the composite COUNT and non-card fields (mirrors
+    // paramStream.ts's shape-invariant test style) stay identical.
+    expect(without.composites.length).toBe(withCoverage.composites.length);
+    for (let i = 0; i < without.composites.length; i++) {
+      expect(withCoverage.composites[i].label.backgroundType).toBe(without.composites[i].label.backgroundType);
+      expect(withCoverage.composites[i].label.cards.length).toBe(without.composites[i].label.cards.length);
+    }
+  });
+});
