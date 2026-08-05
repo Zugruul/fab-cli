@@ -8,14 +8,22 @@
  *                        [--out <dir>] [--seed <n>] [--composites-per-run <n>]
  *                        [--backgrounds-dir <dir>] [--external-background-probability <p>]
  *                        [--coverage] [--min-appearances <n>] [--download-failures <path>]
- *                        [--format png|jpeg] [--jpeg-quality <n>]
+ *                        [--format png|jpeg] [--jpeg-quality <n>] [--image-cache-size <n>]
  *     Plans + renders one run (paramStream.ts + compositor.ts) from
  *     whichever printing images are ALREADY cached under
  *     --images-cache-dir (APP-025's `images:download` output — this CLI
  *     never triggers a new download itself, a separate concern), and
  *     writes composite PNGs (or JPEGs, see --format below) + label JSON +
- *     a run manifest atomically (write.ts) to --out (default
- *     pipeline/out/composites/, gitignored). `--backgrounds-dir`/
+ *     a run manifest to --out (default pipeline/out/composites/,
+ *     gitignored). #272: each composite is encoded and written to disk
+ *     the moment it's rendered (write.ts's beginCompositeRun) — memory is
+ *     O(1) in run length, not O(compositesPerRun), and manifest.json is
+ *     written LAST as the run's completion marker (see write.ts's doc
+ *     comment). `--image-cache-size` (default 64) bounds the decoded-
+ *     source-card-image LRU cache generateDataset keeps for the run —
+ *     a runtime memory knob only, never affecting output (same seed still
+ *     produces byte-identical composites regardless of its value).
+ *     `--backgrounds-dir`/
  *     `--external-background-probability`/`--composites-per-run` override
  *     the config file's corresponding fields, same "explicit override, no
  *     silent default" pattern as `--seed` (#244) — `--composites-per-run`
@@ -94,8 +102,8 @@ import { validateGeneratorConfig } from "./config.js";
 import type { GeneratorConfig } from "./config.js";
 import { extractPrintingImageRefs, loadCardsFromFile } from "../images/catalog.js";
 import { cachePathFor } from "../images/cache.js";
-import { generateDataset } from "./generate.js";
-import { writeCompositeRun } from "./write.js";
+import { generateDataset, DEFAULT_IMAGE_CACHE_SIZE } from "./generate.js";
+import { beginCompositeRun } from "./write.js";
 import { decodeImageToRaw, encodeRawToPng, encodeRawToJpeg, decodeAndNormalizeBackground } from "./imageIO.js";
 import { loadExternalBackgroundRefs } from "./background.js";
 import { importBackgrounds } from "./importBackgrounds.js";
@@ -156,6 +164,13 @@ export interface GenerateArgs {
    * sheet/QA output never changes format unless explicitly asked. */
   imageFormat: CompositeImageFormat;
   jpegQuality: number;
+  /** #272: bounds generateDataset's decoded-source-image LRU cache — a
+   * runtime memory knob, deliberately NOT part of GeneratorConfig (it
+   * never affects rng draws or rendered pixels, only peak memory/reload
+   * frequency — see generate.ts's doc comment). Defaults to
+   * DEFAULT_IMAGE_CACHE_SIZE, unchanged from a bare `generate` invocation
+   * before this flag existed. */
+  imageCacheSize: number;
 }
 
 export function parseGenerateArgs(argv: string[]): GenerateArgs {
@@ -173,6 +188,7 @@ export function parseGenerateArgs(argv: string[]): GenerateArgs {
     downloadFailuresPath: path.join(BASE, "out", "download-failures.json"),
     imageFormat: "png",
     jpegQuality: 85,
+    imageCacheSize: DEFAULT_IMAGE_CACHE_SIZE,
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -189,6 +205,7 @@ export function parseGenerateArgs(argv: string[]): GenerateArgs {
     else if (arg === "--download-failures" && argv[i + 1]) args.downloadFailuresPath = argv[++i];
     else if (arg === "--format" && argv[i + 1]) args.imageFormat = argv[++i] === "jpeg" ? "jpeg" : "png";
     else if (arg === "--jpeg-quality" && argv[i + 1]) args.jpegQuality = Number(argv[++i]);
+    else if (arg === "--image-cache-size" && argv[i + 1]) args.imageCacheSize = Number(argv[++i]);
   }
   // Lazy: only shells out to git when --card-json wasn't given, since the
   // vendored card.json lives under fab-cli/, a sibling package, not under
@@ -292,6 +309,9 @@ export async function generateCommand(argv: string[]): Promise<number> {
   if (args.imageFormat === "jpeg" && (!Number.isFinite(args.jpegQuality) || args.jpegQuality < 1 || args.jpegQuality > 100)) {
     throw new Error(`composites generate: --jpeg-quality must be a number in [1, 100] (got ${args.jpegQuality})`);
   }
+  if (!Number.isInteger(args.imageCacheSize) || args.imageCacheSize <= 0) {
+    throw new Error(`composites generate: --image-cache-size must be a positive integer (got ${args.imageCacheSize})`);
+  }
 
   const { allPrintingIds, available: availableCards } = resolveCatalogAndAvailableCards(args.cardJsonPath, args.imagesCacheDir);
   if (availableCards.length === 0) {
@@ -308,17 +328,28 @@ export async function generateCommand(argv: string[]): Promise<number> {
   // (the default) skip all of this — byte-identical to pre-#268 behavior.
   const coverageTracker = args.coverage ? new CoverageTracker(availableCards.length) : null;
 
-  const { manifest, composites } = await generateDataset(
+  // #272: stream each composite straight to disk as it's rendered and
+  // drop its pixels immediately after — memory stays O(1) in run length
+  // instead of O(compositesPerRun). See write.ts's beginCompositeRun doc
+  // and generate.ts's doc comment for the full before/after. manifest.json
+  // (finalize, below) is written LAST, once every composite has already
+  // landed on disk — its presence is what distinguishes a completed run
+  // from one that was interrupted partway through.
+  const encodeImage = args.imageFormat === "jpeg" ? (img: Parameters<typeof encodeRawToJpeg>[0]) => encodeRawToJpeg(img, args.jpegQuality) : encodeRawToPng;
+  const writer = beginCompositeRun(args.outDir, encodeImage);
+
+  const { manifest } = await generateDataset(
     config,
     availableCards,
     decodeImageToRaw,
+    (result) => writer.writeComposite(result.image, result.label),
     undefined,
     availableBackgrounds,
     coverageTracker,
     args.imageFormat,
+    args.imageCacheSize,
   );
-  const encodeImage = args.imageFormat === "jpeg" ? (img: Parameters<typeof encodeRawToJpeg>[0]) => encodeRawToJpeg(img, args.jpegQuality) : encodeRawToPng;
-  await writeCompositeRun(args.outDir, composites, manifest, encodeImage);
+  writer.finalize(manifest);
 
   if (coverageTracker) {
     // Best-effort: unavailable-upstream printings never entered
