@@ -76,12 +76,23 @@ describe("generateDataset — end to end determinism", () => {
   it("never holds more than one rendered composite in memory at a time — onComposite is awaited before the next composite is rendered", async () => {
     const inFlight: number[] = [];
     let maxConcurrent = 0;
-    const onComposite = async () => {
-      inFlight.push(1);
-      maxConcurrent = Math.max(maxConcurrent, inFlight.length);
-      await Promise.resolve(); // yield, so a broken "fire and forget" caller would overlap here
-      inFlight.pop();
-    };
+    const onComposite = () =>
+      new Promise<void>((resolve) => {
+        inFlight.push(1);
+        maxConcurrent = Math.max(maxConcurrent, inFlight.length);
+        // A macrotask delay, not a microtask: fakeLoadImage's own await
+        // resolves within a microtask tick, so a broken "fire and forget"
+        // caller (not awaiting onComposite) would already be loading the
+        // NEXT composite's images — and pushing another `inFlight` entry —
+        // well before this setTimeout fires, reliably catching the bug
+        // (a plain `await Promise.resolve()` here does NOT: it can
+        // coincidentally resolve before the loop's own microtask-only
+        // awaits, so it doesn't discriminate — this must be a macrotask).
+        setTimeout(() => {
+          inFlight.pop();
+          resolve();
+        }, 0);
+      });
     await generateDataset(config({ compositesPerRun: 8 }), CARDS, fakeLoadImage(), onComposite);
     expect(maxConcurrent).toBe(1);
   });
