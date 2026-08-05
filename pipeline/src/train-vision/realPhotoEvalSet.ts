@@ -39,7 +39,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadBenchmarkPhotoSet } from "../benchmark/loadSet.js";
-import { validatePhotoLabel } from "../benchmark/validate.js";
+import { validatePhotoLabel, validateLabelFrame } from "../benchmark/validate.js";
 import { sha256 } from "../benchmark/manifest.js";
 import { decodeImageToRaw, encodeRawToPng } from "../composites/imageIO.js";
 import { bilinearSample } from "../composites/rawImage.js";
@@ -289,6 +289,17 @@ export async function exportRealPhotoEvalSet(opts: RealPhotoEvalSetOptions): Pro
     const photoLabel = result.label;
 
     const srcImage = await decodeImageToRaw(path.join(opts.photosDir, entry.fileName));
+
+    // #286: cross-check the declared orientation against the real decoded
+    // (EXIF-applied) frame before trusting this label's coordinates — a
+    // mismatch here is the exact defect shape that let all 16 real
+    // benchmark labels ship rotated 90° from their photos undetected.
+    const frameErrors = validateLabelFrame(photoLabel, srcImage.width, srcImage.height);
+    if (frameErrors.length > 0) {
+      skippedInvalidLabel.push({ fileName: entry.fileName, reason: frameErrors.join("; ") });
+      continue;
+    }
+
     const { image, transform } = letterboxRawImage(srcImage, canvasSize);
     const cards = photoLabel.quads.map((q) => transformQuad(q, transform));
 

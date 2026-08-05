@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { buildBenchmarkManifest } from "./manifest.js";
+import { decodeImageToRaw } from "../composites/imageIO.js";
 import type { BenchmarkManifest, RawPhotoEntry } from "./manifest.js";
 
 const PHOTO_EXTENSIONS = [".jpg", ".jpeg", ".png", ".heic", ".webp"];
@@ -54,16 +55,50 @@ export function loadBenchmarkPhotoSet(photosDir: string, labelsDir: string): Loa
   return { entries, missingLabels };
 }
 
+/**
+ * Decodes each entry's REAL photo bytes (composites/imageIO.ts's
+ * decodeImageToRaw — the same EXIF-aware decoder #286 fixed) and attaches
+ * the resulting (displayed/EXIF-applied) width/height, so
+ * buildBenchmarkManifest's validateLabelFrame check has a real frame to
+ * compare each label's declared `orientation` against (#286: this is what
+ * lets `npm run benchmark:manifest`, not just the export path, catch a
+ * label authored against the wrong frame).
+ *
+ * Only attempts entries with a parseable label (labelRaw present) — an
+ * entry with a parse error is already going to be skipped for that reason
+ * alone, decoding its photo would be wasted work. A decode failure (the
+ * bytes aren't a real image — this never happens for real photos, only
+ * for lightweight non-image fixtures some tests use) is caught per-entry
+ * and left unset, never thrown, never aborting the batch: the same "one
+ * bad photo never blocks the rest" discipline as the rest of this file.
+ */
+export async function attachFrameDimensions(entries: RawPhotoEntry[]): Promise<void> {
+  await Promise.all(
+    entries.map(async (entry) => {
+      if (entry.labelRaw === undefined) return;
+      try {
+        const { width, height } = await decodeImageToRaw(entry.photoBytes);
+        entry.frameWidth = width;
+        entry.frameHeight = height;
+      } catch {
+        // Not a real decodable image — frame check simply doesn't run for
+        // this entry (see doc comment above).
+      }
+    }),
+  );
+}
+
 /** Loads a photos+labels dir pair and builds its manifest in one call — the
  * CLI's main entry point. A photo missing its label file is folded into
  * the manifest's `skipped` list (reason: "no matching label file") so the
  * whole set's health is visible from the manifest alone. */
-export function buildManifestFromDirs(
+export async function buildManifestFromDirs(
   photosDir: string,
   labelsDir: string,
   now?: () => string,
-): { manifest: BenchmarkManifest; missingLabels: string[] } {
+): Promise<{ manifest: BenchmarkManifest; missingLabels: string[] }> {
   const { entries, missingLabels } = loadBenchmarkPhotoSet(photosDir, labelsDir);
+  await attachFrameDimensions(entries);
   const manifest = buildBenchmarkManifest({ entries, now });
   manifest.skipped.push(...missingLabels.map((fileName) => ({ fileName, reason: "no matching label file" })));
   return { manifest, missingLabels };

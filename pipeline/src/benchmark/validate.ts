@@ -82,6 +82,47 @@ function validateQuad(raw: unknown): string[] {
   return errors;
 }
 
+/**
+ * Validates a label's declared `orientation` against the frame it actually
+ * describes (#286). `frameWidth`/`frameHeight` must be the DECODED,
+ * EXIF-applied dimensions — composites/imageIO.ts's `decodeImageToRaw` is
+ * the canonical source, matching docs/benchmark-labeling.md's
+ * canonical-frame decision (displayed/transposed wins, since that is the
+ * frame every human label was authored in).
+ *
+ * This is the guard that would have caught #286 on day one: a
+ * portrait-declared label against a wider-than-tall decoded frame (or vice
+ * versa) means the label was authored against a different frame than the
+ * one it will actually be scored against — exactly how all 16 real
+ * benchmark labels went undetected (every one declared "portrait" while
+ * the pre-fix decoder produced landscape buffers for every orientation-6
+ * source). A square frame (width === height) has no orientation
+ * preference and is never flagged either way.
+ *
+ * Deliberately NOT a per-corner bounds check: docs/benchmark-labeling.md's
+ * amodal-labeling convention explicitly allows corners to fall arbitrarily
+ * outside the photo's own pixel bounds for cropped/occluded cards (see
+ * "Partially-visible or frame-cropped cards"), and `validatePhotoLabel`
+ * above deliberately never bound-checks corners for the same reason — a
+ * bounds check here would either reject legitimate severely-cropped labels
+ * or, loosened enough to tolerate them, fail to catch the actual defect:
+ * one of the 16 real mislabeled photos in this set
+ * (HER155-unsleeved-groundbreaker-crix-marvel-cf) has a bounding box that
+ * fits BOTH the raw and the transposed frame with zero overrun in either —
+ * no bounds margin, however tight, can distinguish that case. Only the
+ * frame's aspect ratio can, and it catches all 16 with nothing to tune.
+ */
+export function validateLabelFrame(label: PhotoLabel, frameWidth: number, frameHeight: number): string[] {
+  if (frameWidth === frameHeight) return [];
+  const actualOrientation: Orientation = frameWidth < frameHeight ? "portrait" : "landscape";
+  if (label.orientation === actualOrientation) return [];
+  return [
+    `"orientation" is "${label.orientation}" but the decoded (EXIF-applied) photo frame is ` +
+      `${frameWidth}x${frameHeight}, which is ${actualOrientation} — the label was likely authored ` +
+      `against a different frame than the one it will be scored against (see #286)`,
+  ];
+}
+
 function isPoint(v: unknown): v is Point {
   return (
     typeof v === "object" &&

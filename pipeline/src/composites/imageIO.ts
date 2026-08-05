@@ -30,9 +30,14 @@ import type { RawImage } from "./rawImage.js";
  * description), so this only changes behavior for genuinely-rotated
  * sources. Must run before `.raw()` — sharp only applies pending
  * orientation to the *encoded* pixel data at that point in the pipeline.
+ *
+ * Accepts a file path OR an in-memory Buffer of already-loaded image
+ * bytes (sharp() takes either) — benchmark/loadSet.ts's
+ * `attachFrameDimensions` (#286) decodes from a Buffer it already has in
+ * memory rather than re-reading the file a second time.
  */
-export async function decodeImageToRaw(filePath: string): Promise<RawImage> {
-  const { data, info } = await sharp(filePath).rotate().ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+export async function decodeImageToRaw(source: string | Buffer): Promise<RawImage> {
+  const { data, info } = await sharp(source).rotate().ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   return { width: info.width, height: info.height, data: new Uint8ClampedArray(data.buffer, data.byteOffset, data.length) };
 }
 

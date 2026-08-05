@@ -36,9 +36,9 @@ export function parseArgs(argv: string[]): CliArgs {
   return args;
 }
 
-function main(): void {
+async function main(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
-  const { manifest, missingLabels } = buildManifestFromDirs(args.photosDir, args.labelsDir);
+  const { manifest, missingLabels } = await buildManifestFromDirs(args.photosDir, args.labelsDir);
 
   fs.mkdirSync(path.dirname(args.out), { recursive: true });
   fs.writeFileSync(args.out, JSON.stringify(manifest, null, 2) + "\n");
@@ -61,5 +61,8 @@ function main(): void {
 // Guarded so importing this module (e.g. from tests, for parseArgs) never
 // triggers a real manifest build as a side effect.
 if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
+  main().catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+  });
 }
