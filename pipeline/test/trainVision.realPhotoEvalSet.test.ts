@@ -438,6 +438,39 @@ describe("exportRealPhotoEvalSet", () => {
     expect(report.skippedInvalidLabel[0].reason).toMatch(/orientation/);
   });
 
+  // #286 review round 2: the bounds-corruption backstop, wired alongside
+  // validateLabelFrame in the export loop.
+  it("skips (as an invalid label) a photo whose corners are wildly outside its decoded frame — the corruption backstop", async () => {
+    await writePhoto("single/corrupted.jpg", 300, 400, [1, 1, 1]);
+    writeLabel(
+      "single/corrupted.json",
+      labelFor("photo-corrupted", "single/corrupted.jpg", [{ x: 0, y: 0 }, { x: 9000, y: 0 }, { x: 9000, y: 10 }, { x: 0, y: 10 }]),
+    );
+
+    const report = await exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 16, stride: 8 });
+
+    expect(report.exportedCount).toBe(0);
+    expect(report.skippedInvalidLabel).toHaveLength(1);
+    expect(report.skippedInvalidLabel[0].fileName).toBe("single/corrupted.jpg");
+    expect(report.skippedInvalidLabel[0].reason).toMatch(/corners/);
+  });
+
+  it("still exports the deliberate off-photo-corner amodal test case (-100,-100 on 300x400) — the corruption backstop must not reject legitimate cropping", async () => {
+    // Same fixture as the "transforms quad corners consistently" test
+    // above, run through the corruption backstop specifically: this is
+    // the binding case that sets validateLabelBounds's margin.
+    await writePhoto("single/a.jpg", 300, 400, [200, 10, 10]);
+    writeLabel(
+      "single/a.json",
+      labelFor("photo-a", "single/a.jpg", [{ x: -100, y: -100 }, { x: 100, y: -100 }, { x: 100, y: 100 }, { x: -100, y: 100 }]),
+    );
+
+    const report = await exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 16, stride: 8 });
+
+    expect(report.exportedCount).toBe(1);
+    expect(report.skippedInvalidLabel).toEqual([]);
+  });
+
   it("exports normally (not skipped) when the declared orientation matches the real EXIF-applied decoded frame", async () => {
     const rotatedPhoto = path.join(photosDir, "single", "rotated-ok.jpg");
     await sharp({ create: { width: 20, height: 10, channels: 3, background: { r: 5, g: 5, b: 5 } } })

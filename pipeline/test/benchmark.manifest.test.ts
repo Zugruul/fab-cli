@@ -201,6 +201,43 @@ describe("buildBenchmarkManifest", () => {
     expect(manifest.skipped).toEqual([]);
   });
 
+  // #286 review round 2: the bounds-corruption backstop, wired alongside
+  // validateLabelFrame (both run when frame dims are attached).
+  it("skips an entry whose corners are wildly outside the attached decoded frame — the corruption backstop", () => {
+    const corrupted = entry({
+      frameWidth: 300,
+      frameHeight: 300,
+      labelRaw: label({
+        quads: [{ printingId: "pr1", corners: [{ x: 0, y: 0 }, { x: 9000, y: 0 }, { x: 9000, y: 10 }, { x: 0, y: 10 }], tags: [] }],
+      }),
+    });
+    const manifest = buildBenchmarkManifest({ entries: [corrupted] });
+    expect(manifest.photoCount).toBe(0);
+    expect(manifest.skipped).toHaveLength(1);
+    expect(manifest.skipped[0].reason).toMatch(/corners/);
+  });
+
+  it("keeps an entry with a legitimately-cropped (amodal) corner against its attached decoded frame", () => {
+    // Same real example as validateLabelBounds's own test: printing
+    // LFK7TmwkKLMQPLHfkLdmM, corner x=-24.9 on a 3024-wide frame.
+    const cropped = entry({
+      frameWidth: 3024,
+      frameHeight: 4032,
+      labelRaw: label({
+        quads: [
+          {
+            printingId: "LFK7TmwkKLMQPLHfkLdmM",
+            corners: [{ x: -24.9, y: 947.3 }, { x: 1935.1, y: 947.3 }, { x: 1935.1, y: 2515.3 }, { x: -24.9, y: 2515.3 }],
+            tags: [],
+          },
+        ],
+      }),
+    });
+    const manifest = buildBenchmarkManifest({ entries: [cropped] });
+    expect(manifest.photoCount).toBe(1);
+    expect(manifest.skipped).toEqual([]);
+  });
+
   it("stamps the manifest with schema + label-schema versions, even for an empty set", () => {
     const manifest = buildBenchmarkManifest({ entries: [] });
     expect(manifest.schemaVersion).toBeTruthy();

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { validatePhotoLabel, validateLabelFrame } from "../src/benchmark/validate.js";
+import { validatePhotoLabel, validateLabelFrame, validateLabelBounds } from "../src/benchmark/validate.js";
 import type { PhotoLabel } from "../src/benchmark/types.js";
 
 function validLabel(): PhotoLabel {
@@ -253,5 +253,82 @@ describe("validateLabelFrame", () => {
       quads: [{ printingId: "pr1", corners: [{ x: -900, y: -900 }, { x: 100, y: -900 }, { x: 100, y: 100 }, { x: -900, y: 100 }], tags: [] }],
     });
     expect(validateLabelFrame(cropped, 500, 700)).toEqual([]);
+  });
+});
+
+// #286 review round 2: a SEPARATE corruption backstop, deliberately not
+// folded into validateLabelFrame above (which must stay corner-blind — see
+// its own test right above this comment). This exists purely to catch
+// wildly-wrong data (a label matched to the wrong photo, a unit mixup, a
+// garbled coordinate) — NOT to re-catch #286's historical overrun range
+// (4%-21% across the 16 real mislabeled photos), which is validateLabelFrame's
+// job. It must be sized to never reject legitimate amodal cropping, which
+// this codebase tests as functionally UNBOUNDED in three separate places:
+//   - trainVision.realPhotoEvalSet.test.ts's "off-photo corner" test: a
+//     corner at (-100,-100) on a 300x400 frame (33.3%/25% overrun), run
+//     through the exact exportRealPhotoEvalSet pipeline this backstop sits
+//     in — the binding constraint on the margin below.
+//   - benchmarkLabel.routes.test.ts / .server.test.ts: corners hundreds of
+//     px past frame edges, asserted byte-for-byte "never clamped", called
+//     a merge blocker if violated (those go through validatePhotoLabel
+//     only, not this function, but they document the same design intent).
+//   - realPhotoEvalSet.ts's own header: "corners are scaled+offset only,
+//     NEVER clamped into [0, canvasSize]."
+// A 50% margin clears the 33.3% binding case with real headroom (1.5x)
+// while still rejecting genuinely nonsensical data.
+describe("validateLabelBounds", () => {
+  function label(overrides: Partial<PhotoLabel> = {}): PhotoLabel {
+    return {
+      photoId: "p1",
+      fileName: "single/p1.jpg",
+      sceneType: "single",
+      orientation: "portrait",
+      quads: [{ printingId: "pr1", corners: [{ x: 0, y: 0 }, { x: 1, y: 0 }, { x: 1, y: 1 }, { x: 0, y: 1 }], tags: [] }],
+      ...overrides,
+    };
+  }
+
+  it("accepts corners fully within the frame", () => {
+    expect(validateLabelBounds(label(), 500, 700)).toEqual([]);
+  });
+
+  it("accepts the real amodal example from the current label set (printing LFK7TmwkKLMQPLHfkLdmM, corner x=-24.9 on a 3024-wide frame)", () => {
+    const cropped = label({
+      quads: [{ printingId: "LFK7TmwkKLMQPLHfkLdmM", corners: [{ x: -24.9, y: 947.3 }, { x: 1935.1, y: 947.3 }, { x: 1935.1, y: 2515.3 }, { x: -24.9, y: 2515.3 }], tags: [] }],
+    });
+    expect(validateLabelBounds(cropped, 3024, 4032)).toEqual([]);
+  });
+
+  it("accepts the EXACT off-photo-corner test case from trainVision.realPhotoEvalSet.test.ts unchanged — the binding constraint on this margin", () => {
+    // (-100,-100)-(100,100) on a 300x400 frame: 33.3%/25% overrun. If this
+    // ever fails, the margin below was tightened past what that other,
+    // deliberate test requires — fix the margin, not this test.
+    const cropped = label({
+      quads: [{ printingId: "pr1", corners: [{ x: -100, y: -100 }, { x: 100, y: -100 }, { x: 100, y: 100 }, { x: -100, y: 100 }], tags: [] }],
+    });
+    expect(validateLabelBounds(cropped, 300, 400)).toEqual([]);
+  });
+
+  it("rejects a corner wildly outside the frame — the corruption case this backstop exists for", () => {
+    // A corner at ~7x the frame's width/height — no plausible amodal crop
+    // looks like this; this is "wrong photo matched to this label" or
+    // garbled coordinate data territory.
+    const corrupted = label({
+      quads: [{ printingId: "pr1", corners: [{ x: 0, y: 0 }, { x: 2000, y: 0 }, { x: 2000, y: 2000 }, { x: 0, y: 2000 }], tags: [] }],
+    });
+    const errors = validateLabelBounds(corrupted, 300, 300);
+    expect(errors.length).toBeGreaterThan(0);
+    expect(errors[0]).toMatch(/corners\[/);
+  });
+
+  it("reports one error per offending corner, across multiple quads, rather than stopping at the first", () => {
+    const corrupted = label({
+      quads: [
+        { printingId: "a", corners: [{ x: 0, y: 0 }, { x: 9000, y: 0 }, { x: 9000, y: 10 }, { x: 0, y: 10 }], tags: [] },
+        { printingId: "b", corners: [{ x: 0, y: 0 }, { x: 10, y: 0 }, { x: 10, y: 9000 }, { x: 0, y: 9000 }], tags: [] },
+      ],
+    });
+    const errors = validateLabelBounds(corrupted, 300, 300);
+    expect(errors.length).toBeGreaterThanOrEqual(2);
   });
 });
