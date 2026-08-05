@@ -373,6 +373,86 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
     expect(report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length).toBe(report.totalCatalogSize);
   });
 
+  // #279: the coverage report must reflect REAL, post-exclusion label
+  // appearances, not raw CoverageTracker picks. This config forces EVERY
+  // composite to paste 2 identically-sized, identically-positioned,
+  // unrotated cards (overlapProbability=1, overlapOffsetFraction=0,
+  // scale/rotation fixed, no perspective/sleeve/glare) — the SECOND-pasted
+  // card always fully covers the first, so exactly 1 of the 2 pasted cards
+  // is excluded (visibleFraction 0 < minVisibleFraction) every single
+  // composite, deterministically, regardless of which printing lands in
+  // which paste slot (that part IS rng-driven — this test does not depend
+  // on knowing which). With only 2 available printings and
+  // cardsPerComposite fixed at {2,2}, BOTH are picked into EVERY composite
+  // regardless of selection strategy, so the pre-#279 pick-based tracker
+  // would report both printings "covered" at minAppearances==compositesPerRun
+  // (6 picks each, exactly the target) — but real label inclusions total
+  // only compositesPerRun (6) split between the two printings, so it is
+  // mathematically impossible for BOTH to reach 6 REAL appearances (that
+  // would need 12). The fixed report must show fewer than 2 covered.
+  it("#279: coverage report reflects REAL label appearances, not tracker picks — a printing picked enough times but excluded from most labels is NOT reported covered", async () => {
+    fs.writeFileSync(
+      path.join(tmpDir, "config.json"),
+      JSON.stringify({
+        seed: 909,
+        outputSize: { width: 200, height: 200 },
+        compositesPerRun: 1,
+        cardsPerComposite: { min: 2, max: 2 },
+        baseCardHeightFraction: 0.3,
+        scale: { min: 1, max: 1 },
+        rotationDeg: { min: 0, max: 0 },
+        overlapProbability: 1,
+        overlapOffsetFraction: { min: 0, max: 0 },
+        perspectiveProbability: 0,
+        perspectiveStrength: { min: 0, max: 0 },
+        glareProbability: 0,
+        sleeveProbability: 0,
+        lighting: { brightnessDelta: { min: 0, max: 0 }, contrastDelta: { min: 0, max: 0 } },
+        backgroundTypes: ["solid"],
+        backgroundsDir: null,
+        externalBackgroundProbability: 0,
+        minVisibleFraction: 0.05,
+      }),
+    );
+
+    const outDir = path.join(tmpDir, "out-coverage-real-vs-picked");
+    const compositesPerRun = 6;
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", path.join(tmpDir, "card.json"),
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--min-appearances", String(compositesPerRun),
+      "--composites-per-run", String(compositesPerRun),
+    ]);
+
+    // Sanity check the occlusion setup actually fired as designed: exactly
+    // 1 excluded + 1 included card per composite, every composite.
+    const manifest = JSON.parse(fs.readFileSync(path.join(outDir, "manifest.json"), "utf8"));
+    expect(manifest.compositeCount).toBe(compositesPerRun);
+    let totalIncluded = 0;
+    let totalExcluded = 0;
+    for (const entry of manifest.composites) {
+      totalIncluded += entry.cardCount;
+      totalExcluded += entry.excludedCards;
+    }
+    expect(totalIncluded).toBe(compositesPerRun); // 1 survivor per composite
+    expect(totalExcluded).toBe(compositesPerRun); // 1 excluded per composite
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalEligible).toBe(2);
+    // Total REAL appearances across both printings is exactly
+    // compositesPerRun (6) — it is impossible for both to independently
+    // reach minAppearances=6, so covered must be < 2 under the fixed,
+    // truthful implementation (the pre-#279 pick-based implementation
+    // would report exactly 2, since both printings are picked into every
+    // composite regardless of exclusion).
+    expect(report.covered).toBeLessThan(2);
+    expect(report.eligibleButNotPlaced.length).toBeGreaterThan(0);
+    expect(report.covered + report.eligibleButNotPlaced.length).toBe(2);
+  });
+
   it("fails loudly on --min-appearances 0 or a non-integer when --coverage is set (a garbage target must never silently produce a report)", async () => {
     await expect(
       generateCommand([

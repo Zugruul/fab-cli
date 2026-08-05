@@ -32,9 +32,39 @@
  * was never even attempted was, definitionally, never placed either).
  * `totalCatalogSize` makes the invariant checkable from the artifact alone:
  * `covered + eligibleButNotPlaced.length + unavailableUpstream.length === totalCatalogSize`.
+ *
+ * #279: `buildCoverageReport`'s appearance-count input used to be a
+ * `CoverageTracker` (the function only ever called its
+ * `allAppearanceCounts()` — how many times a printing was PICKED for a
+ * composite's plan). That's a different, and materially larger, number
+ * than how many times a printing actually made it into a composite's
+ * LABEL: compositor.ts's `minVisibleFraction` filter drops a card from the
+ * label AFTER it's already been painted (and already counted as a pick) —
+ * see compositor.ts's header and generate.ts's doc comment for why picking
+ * happens entirely inside `planRun`, before any rendering/exclusion
+ * decision exists. A printing picked >= minAppearances times but excluded
+ * from every single label was still reported "covered". This isn't
+ * hypothetical: on the committed pre-#279 `pipeline/out/composites-full`
+ * dataset, the report claims 16,213/16,213 eligible printings covered at
+ * minAppearances=3, but tallying REAL label appearances from the actual
+ * composite label files shows 2,229 of those "covered" printings have
+ * FEWER than 3 real appearances (a couple have zero).
+ *
+ * The fix: `buildCoverageReport` now takes a plain `appearanceCounts:
+ * number[]` (indexed like `availableCards`, exactly like
+ * `CoverageTracker.allAppearanceCounts()` already was) instead of a
+ * tracker instance, so it no longer has an opinion on WHAT "appeared"
+ * means — it just partitions whatever counts the caller hands it.
+ * `tallyAppearancesFromLabels` (below) is the REAL, post-exclusion source
+ * composites/cli.ts now feeds it: it counts each printing's actual
+ * `cards[]` entries across the whole run's labels, so a picked-but-always-
+ * excluded printing tallies to 0, not 3. Card selection during generation
+ * still uses the pick-based CoverageTracker (composites/paramStream.ts) —
+ * that's an unchanged, reasonable greedy heuristic for WHICH card to place
+ * next; only the REPORTING of what was actually achieved changes here.
  */
-import type { CoverageTracker } from "./coverageTracker.js";
 import type { CardImageRef } from "./paramStream.js";
+import type { CompositeLabel } from "./types.js";
 
 export interface UnavailablePrinting {
   printingId: string;
@@ -69,18 +99,42 @@ export interface CoverageReport {
   unavailableUpstream: UnavailablePrinting[];
 }
 
+/**
+ * Tallies each printing's REAL appearance count — how many composite
+ * labels it actually appears in (`label.cards[].printingId`), across the
+ * WHOLE run — indexed like `availableCards`, exactly matching
+ * `CoverageTracker.allAppearanceCounts()`'s index contract so it's a
+ * drop-in `appearanceCounts` source for `buildCoverageReport` below (#279).
+ * `excludedCards`/`cardBacksPlaced` are deliberately NOT consulted — this
+ * counts only actual `cards[]` entries, i.e. exactly what a downstream
+ * detector will ever train on for that printing. A printing that was
+ * pasted but excluded (or never picked at all) simply never increments,
+ * landing at 0 — the coverage report's own "never attempted" convention
+ * (see this module's header) already treats 0 as a first-class value, not
+ * a special case here.
+ */
+export function tallyAppearancesFromLabels(availableCards: CardImageRef[], labels: CompositeLabel[]): number[] {
+  const counts = new Map<string, number>();
+  for (const label of labels) {
+    for (const card of label.cards) {
+      counts.set(card.printingId, (counts.get(card.printingId) ?? 0) + 1);
+    }
+  }
+  return availableCards.map((c) => counts.get(c.printingId) ?? 0);
+}
+
 export function buildCoverageReport(
   fullCatalogPrintingIds: string[],
   availableCards: CardImageRef[],
-  tracker: CoverageTracker,
+  appearanceCounts: number[],
   minAppearances: number,
   unavailableUpstream: UnavailablePrinting[],
 ): CoverageReport {
-  const counts = tracker.allAppearanceCounts();
+  const counts = appearanceCounts;
   if (counts.length !== availableCards.length) {
     throw new Error(
-      `buildCoverageReport: tracker pool size (${counts.length}) does not match availableCards.length (${availableCards.length}) — ` +
-        "the tracker passed here must be the SAME instance planRun consumed for this run's availableCards array",
+      `buildCoverageReport: appearanceCounts length (${counts.length}) does not match availableCards.length (${availableCards.length}) — ` +
+        "appearanceCounts must be indexed the same way as availableCards (see CoverageTracker.allAppearanceCounts()/tallyAppearancesFromLabels's index contract)",
     );
   }
 
