@@ -110,13 +110,18 @@ describe("transformPoint / transformQuad", () => {
   // make this test fail — a negative source coordinate must stay negative
   // (offset only by padding, never floored to 0) after transform.
   it("does NOT clamp off-photo corners to the canvas — negative/overflowing coordinates stay negative/overflowing", () => {
+    // At this source/canvas pair (3024x4032 into 1024, scale ~0.254,
+    // padX ~128), a corner has to be well past the photo edge for the
+    // scaled coordinate to actually cross 0/canvasSize after padding is
+    // added — -600/5000 clear that margin, unlike a small -50 which
+    // would land inside the padding bar itself, not past the canvas edge.
     const quad: Quad = {
       printingId: "off-canvas-card",
       corners: [
-        { x: -50, y: -50 },
-        { x: 5000, y: -50 },
+        { x: -600, y: -600 },
+        { x: 5000, y: -600 },
         { x: 5000, y: 5000 },
-        { x: -50, y: 5000 },
+        { x: -600, y: 5000 },
       ],
       tags: [],
     };
@@ -144,7 +149,7 @@ describe("validateCanvasDivisibleByStride", () => {
   // locks the SAME check happening early, on the TS side, at export time.
   it("throws when the canvas size is not evenly divisible by the stride", () => {
     expect(() => validateCanvasDivisibleByStride(1023, 8)).toThrow(/divisible/);
-    expect(() => validateCanvasDivisibleByStride(1000, 8)).toThrow(/divisible/);
+    expect(() => validateCanvasDivisibleByStride(999, 8)).toThrow(/divisible/);
   });
 });
 
@@ -334,9 +339,11 @@ describe("exportRealPhotoEvalSet", () => {
   it("transforms quad corners consistently with the rendered image — an off-photo corner stays off-canvas in the emitted label", async () => {
     await writePhoto("single/a.jpg", 300, 400, [200, 10, 10]);
     // A corner well outside the 300x400 source, per the amodal convention.
+    // At canvasSize=16 this photo's scale is 16/400=0.04 with padX=2, so
+    // -100 (not just -20) is needed to actually cross 0 after padding.
     writeLabel(
       "single/a.json",
-      labelFor("photo-a", "single/a.jpg", [{ x: -20, y: -20 }, { x: 100, y: -20 }, { x: 100, y: 100 }, { x: -20, y: 100 }]),
+      labelFor("photo-a", "single/a.jpg", [{ x: -100, y: -100 }, { x: 100, y: -100 }, { x: 100, y: 100 }, { x: -100, y: 100 }]),
     );
 
     await exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 16, stride: 8 });
@@ -349,7 +356,7 @@ describe("exportRealPhotoEvalSet", () => {
     await writePhoto("single/a.jpg", 300, 400, [200, 10, 10]);
     writeLabel("single/a.json", labelFor("photo-a", "single/a.jpg", [{ x: 0, y: 0 }, { x: 10, y: 0 }, { x: 10, y: 10 }, { x: 0, y: 10 }]));
 
-    await expect(exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 1000, stride: 8 })).rejects.toThrow(/divisible/);
+    await expect(exportRealPhotoEvalSet({ photosDir, labelsDir, outDir, canvasSize: 999, stride: 8 })).rejects.toThrow(/divisible/);
     expect(fs.existsSync(outDir)).toBe(false);
   });
 
