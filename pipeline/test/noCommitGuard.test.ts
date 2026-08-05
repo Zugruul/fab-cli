@@ -132,6 +132,18 @@ describe("pipeline no-commit guard", () => {
     expect(isGitIgnored("pipeline/out/embed-vision-smoke/embedder.tflite")).toBe(true);
   });
 
+  // issue #139 (APP-027): realPhotoEvalSet.ts's exported dataset dir is
+  // DERIVED from the copyrighted benchmark photos (letterboxed PNGs +
+  // transformed labels) — same training/eval-host-only posture as the
+  // photos themselves, never committed. train-vision/cli.ts's
+  // `real-photo-eval` subcommand defaults its --out here.
+  it("git-ignores the real-photo eval set export dir (pipeline/out/real-photo-eval/)", () => {
+    expect(isGitIgnored("pipeline/out/real-photo-eval/photo-042.png")).toBe(true);
+    expect(isGitIgnored("pipeline/out/real-photo-eval/photo-042.json")).toBe(true);
+    expect(isGitIgnored("pipeline/out/real-photo-eval/manifest.json")).toBe(true);
+    expect(isGitIgnored("pipeline/out/real-photo-eval/export-report.json")).toBe(true);
+  });
+
   // APP-085: the knowledge-pack builder's full/delta pack output (index
   // files, printing registry, manifest, report) is regenerable from the
   // corpus snapshot + embeddings-input contracts — same discipline as

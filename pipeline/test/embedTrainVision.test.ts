@@ -195,7 +195,8 @@ describe("embedRunner.run — happy path", () => {
         syntheticValRetrieval: { top1: 0.75, top5: 1.0, queryCount: 4 },
         syntheticValRetrievalReason: null,
         realPhotoBenchmarkTop1: null,
-        realPhotoBenchmarkReason: "QA-gated: APP-025's real-photo benchmark photo set has not been shot yet (issue #140 scope note).",
+        realPhotoBenchmarkReason:
+          "the real-photo eval set now exists (pipeline/src/train-vision/realPhotoEvalSet.ts, issue #139) — top-1 retrieval against it is computed by a separate eval run (issue #140), not by this training run itself, so this field stays null here until that eval run's summary is read.",
       },
       licenses: EMBEDDER_LICENSES,
       environment: { torch: "2.13.0", cuda: null, driver: null, gpu: null },
