@@ -14,11 +14,12 @@
  * because a silently-wrong pre-filled tag is worse than an empty one (the
  * human stops checking a field that's already filled in).
  *
- * `marvel` is parsed and surfaced (`marvel: true`) but is NOT itself
- * translated into a tag: the label schema's tag vocabulary is fixed at
- * `sleeved | foil | glare` (benchmark/types.ts's QUAD_TAGS) and has no
- * treatment/rarity slot. See this task's report for the open question this
- * raises — not something this parser decides.
+ * Issue #274: `marvel` is parsed and surfaced (`marvel: true`) and now DOES
+ * have a tag to map to (benchmark/types.ts's QUAD_TAGS gained `marvel`) —
+ * the caller (client/app.js's applyFilenameHint) pre-fills it. This parser
+ * itself stays a pure hint-extractor: it reports the raw filename signal
+ * (`foilKind`, `marvel`) and leaves the tag-list decision to the caller,
+ * same as it always has for `sleeved`/`foil`.
  */
 
 export interface ParsedLabelFilename {
@@ -36,8 +37,16 @@ export interface ParsedLabelFilename {
   sleeved: boolean;
   /** true for cf (cold foil) / rf (rainbow foil), false for nf (non-foil). */
   foil: boolean;
-  /** true when the filename's "marvel" segment was present — a
-   * treatment/rarity signal the current tag vocabulary cannot express. */
+  /** Raw foil-code token from the filename: "cf" (cold foil), "rf"
+   * (rainbow foil), or "nf" (non-foil) — issue #274, lets a caller pre-fill
+   * the specific `cold-foil`/`rainbow-foil` tag (benchmark/types.ts's
+   * QUAD_TAGS) rather than only the generic `foil` bit. The filename
+   * convention has no gold-foil code today (real photos shot under this
+   * convention are cf/rf/nf only) — a genuine gold-foil printing still
+   * gets tagged manually; this field never invents a "gf". */
+  foilKind: "cf" | "rf" | "nf";
+  /** true when the filename's "marvel" segment was present — issue #274:
+   * now maps to the `marvel` tag (rarity `V`) in the caller. */
   marvel: boolean;
   cardNameSlug: string;
   /** cardNameSlug with hyphens replaced by spaces, for a name-search query. */
@@ -82,6 +91,7 @@ export function parseLabelFilename(fileName: string): FilenameParseResult {
     edition: (edition as "U" | "1st" | undefined) ?? null,
     sleeved: sleeve === "sleeved",
     foil: foilCode === "cf" || foilCode === "rf",
+    foilKind: foilCode as "cf" | "rf" | "nf",
     marvel: marvel === "marvel",
     cardNameSlug: nameSlug,
     cardNameQuery: nameSlug.replace(/-/g, " "),
