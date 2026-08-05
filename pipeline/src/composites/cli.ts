@@ -326,7 +326,23 @@ export async function generateCommand(argv: string[]): Promise<number> {
   // docs) and, after the run, builds + writes a report distinguishing
   // covered / eligibleButNotPlaced / unavailableUpstream. Coverage-off runs
   // (the default) skip all of this — byte-identical to pre-#268 behavior.
+  // #279: the tracker still drives SELECTION (which printing to place next
+  // — an unchanged, reasonable greedy heuristic), but it is no longer the
+  // source of the REPORT's appearance counts — see realAppearanceCounts
+  // below and coverageReport.ts's header for why picks and real label
+  // appearances are different, sometimes materially different, numbers.
   const coverageTracker = args.coverage ? new CoverageTracker(availableCards.length) : null;
+
+  // #279: tallies each printing's REAL appearance count — how many
+  // composite LABELS it actually ends up in (label.cards[].printingId),
+  // as composites stream through onComposite below — as opposed to
+  // coverageTracker's pick count, which counts a card the moment it's
+  // PLANNED, before compositor.ts's minVisibleFraction filter can drop it
+  // from the label. A Map<printingId, count> rather than accumulating full
+  // CompositeLabel objects keeps this O(distinct printings), not
+  // O(compositesPerRun) — same memory discipline as #272's streaming fix
+  // below. Only populated in coverage mode (unused work otherwise).
+  const realAppearanceCounts = new Map<string, number>();
 
   // #272: stream each composite straight to disk as it's rendered and
   // drop its pixels immediately after — memory stays O(1) in run length
@@ -342,7 +358,14 @@ export async function generateCommand(argv: string[]): Promise<number> {
     config,
     availableCards,
     decodeImageToRaw,
-    (result) => writer.writeComposite(result.image, result.label),
+    (result) => {
+      if (coverageTracker) {
+        for (const card of result.label.cards) {
+          realAppearanceCounts.set(card.printingId, (realAppearanceCounts.get(card.printingId) ?? 0) + 1);
+        }
+      }
+      return writer.writeComposite(result.image, result.label);
+    },
     undefined,
     availableBackgrounds,
     coverageTracker,
@@ -359,7 +382,10 @@ export async function generateCommand(argv: string[]): Promise<number> {
     // re-download whose manifest overwrite this run happens to predate).
     const availableIds = new Set(availableCards.map((c) => c.printingId));
     const unavailableUpstream = loadDownloadFailures(args.downloadFailuresPath).filter((u) => !availableIds.has(u.printingId));
-    const report = buildCoverageReport(allPrintingIds, availableCards, coverageTracker, args.minAppearances, unavailableUpstream);
+    // #279: REAL, post-exclusion counts — see realAppearanceCounts above —
+    // not coverageTracker.allAppearanceCounts() (raw picks).
+    const appearanceCounts = availableCards.map((c) => realAppearanceCounts.get(c.printingId) ?? 0);
+    const report = buildCoverageReport(allPrintingIds, availableCards, appearanceCounts, args.minAppearances, unavailableUpstream);
     fs.writeFileSync(path.join(args.outDir, "coverage-report.json"), JSON.stringify(report, null, 2) + "\n");
     console.log(
       `coverage: ${report.covered}/${report.totalEligible} eligible printings reached >= ${report.minAppearances} appearances ` +

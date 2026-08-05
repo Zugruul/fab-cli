@@ -167,4 +167,54 @@ describe("the committed pipeline/config/composites-generation.json", () => {
     const result = validateGeneratorConfig(raw);
     expect(result.valid, !result.valid ? result.errors.join("; ") : undefined).toBe(true);
   });
+
+  // #279: the pre-existing scale range (0.65-1.15) produced a synthetic
+  // card long-edge of 186-330px on a 1024 canvas — real phone-photo
+  // benchmark quads, letterboxed the same way, measured 245-763px (median
+  // 535 vs the synthetic median 263). Only 10 of 25 real quads fell inside
+  // the trained band at all. `scale` must widen enough that the synthetic
+  // long-edge range covers the observed real range with headroom: roughly
+  // 190-780px (card long-edge = baseCardHeightFraction * scale *
+  // outputSize.height, computeDestQuad's cardH — see geometry.ts).
+  it("#279: scale is widened so the synthetic card long-edge range covers the observed real-photo range (245-763px), not just the old 186-330px band", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const base = path.join(import.meta.dirname, "..");
+    const raw = JSON.parse(fs.readFileSync(path.join(base, "config", "composites-generation.json"), "utf8")) as GeneratorConfig;
+
+    const longEdgeMin = raw.baseCardHeightFraction * raw.scale.min * raw.outputSize.height;
+    const longEdgeMax = raw.baseCardHeightFraction * raw.scale.max * raw.outputSize.height;
+
+    // Real observed range was 245-763px — the widened synthetic range must
+    // reach at or below the real min and at or above the real max (some
+    // headroom on the low end is fine/expected; the low end was never the
+    // problem — see issue #279).
+    expect(longEdgeMin).toBeLessThanOrEqual(245);
+    expect(longEdgeMax).toBeGreaterThanOrEqual(763);
+  });
+
+  // #279: widening `scale` increases each card's average footprint area,
+  // which increases how often one card occludes another below
+  // minVisibleFraction (measured: cardsPerComposite unchanged at {1,4} and
+  // scale widened to {0.65,2.7} more than doubles the per-placement
+  // exclusion rate — 6.34% to 15.13% on a 150-printing/191-composite small
+  // run — and roughly doubles the share of printings falling short of a
+  // real (post-exclusion) minAppearances=3 target, 14.7% to 30%).
+  // cardsPerComposite.max is reduced alongside the scale widening to keep
+  // that growth in check (measured: {1,3} brings exclusion back to 8.07%,
+  // about a quarter of the way back to baseline's 6.34% versus {1,4}'s
+  // 15.13% at the new scale — see PR #279's description for the full
+  // measurement). This does NOT by itself guarantee real coverage — that's
+  // now the coverage-report.json's job to state honestly (#279's
+  // tallyAppearancesFromLabels fix) — it just keeps the run's placement
+  // budget from being wasted on occlusion as badly as an unchanged
+  // cardsPerComposite would.
+  it("#279: cardsPerComposite.max is reduced alongside the widened scale to control occlusion growth", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const base = path.join(import.meta.dirname, "..");
+    const raw = JSON.parse(fs.readFileSync(path.join(base, "config", "composites-generation.json"), "utf8")) as GeneratorConfig;
+
+    expect(raw.cardsPerComposite.max).toBe(3);
+  });
 });
