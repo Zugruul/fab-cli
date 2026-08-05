@@ -78,6 +78,27 @@ def test_train_from_config_is_deterministic_for_the_same_seed(tmp_path):
     assert manifest_a["metrics"]["syntheticVal"] == manifest_b["metrics"]["syntheticVal"]
 
 
+def test_train_summary_records_the_decode_threshold_and_nms_iou_threshold_used(tmp_path):
+    # issue #285: the decode threshold + NMS IoU threshold used for the
+    # reported syntheticValMAP must be visible in the summary, not buried
+    # in a module constant a reader has no way to see after the fact.
+    output_dir = str(tmp_path / "run-decode")
+    train_from_config(_config(output_dir, decodeScoreThreshold=0.22, nmsIouThreshold=0.6))
+    with open(os.path.join(output_dir, "train-summary.json")) as f:
+        summary = json.load(f)
+    assert summary["decodeScoreThreshold"] == pytest.approx(0.22)
+    assert summary["nmsIouThreshold"] == pytest.approx(0.6)
+
+
+def test_train_summary_defaults_decode_threshold_and_nms_when_config_omits_them(tmp_path):
+    output_dir = str(tmp_path / "run-decode-default")
+    train_from_config(_config(output_dir))
+    with open(os.path.join(output_dir, "train-summary.json")) as f:
+        summary = json.load(f)
+    assert summary["decodeScoreThreshold"] == pytest.approx(0.15)
+    assert summary["nmsIouThreshold"] == pytest.approx(0.5)
+
+
 def test_train_from_config_rejects_mismatched_canvas_sizes(tmp_path):
     # Build a second fixture dir referencing a composite with a DIFFERENT
     # canvas size than the rest, to exercise _validate_canvas_for_stride's

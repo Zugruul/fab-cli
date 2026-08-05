@@ -127,6 +127,29 @@ def test_eval_from_config_defaults_device_to_cpu_when_the_config_omits_it(tmp_pa
     assert summary["device"] == "cpu"
 
 
+def test_eval_summary_records_the_decode_threshold_and_nms_iou_threshold_used(tmp_path):
+    # issue #285: same visibility requirement as train.py's summary -- the
+    # reported mAP is meaningless without knowing what decode gate produced
+    # the predictions it was computed from.
+    checkpoint_path = _save_checkpoint(tmp_path)
+    output_dir = str(tmp_path / "eval-out")
+
+    summary = eval_from_config(
+        _config(checkpoint_path, FIXTURE_DIR, output_dir, decodeScoreThreshold=0.25, nmsIouThreshold=0.6)
+    )
+    assert summary["decodeScoreThreshold"] == pytest.approx(0.25)
+    assert summary["nmsIouThreshold"] == pytest.approx(0.6)
+
+
+def test_eval_summary_defaults_decode_threshold_and_nms_when_config_omits_them(tmp_path):
+    checkpoint_path = _save_checkpoint(tmp_path)
+    output_dir = str(tmp_path / "eval-out")
+
+    summary = eval_from_config(_config(checkpoint_path, FIXTURE_DIR, output_dir))
+    assert summary["decodeScoreThreshold"] == pytest.approx(0.15)
+    assert summary["nmsIouThreshold"] == pytest.approx(0.5)
+
+
 # --- amodal ground-truth counting ---------------------------------------
 
 

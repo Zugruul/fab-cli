@@ -21,7 +21,7 @@ top-left), rotation measured as the angle (radians) of the TL->TR ("top")
 edge vector from the positive x-axis via atan2(dy, dx).
 """
 import math
-from typing import List, Tuple
+from typing import Any, Dict, List, Tuple
 
 Point = Tuple[float, float]
 Quad = Tuple[Point, Point, Point, Point]
@@ -178,3 +178,39 @@ def rotated_iou(a: OBB, b: OBB) -> float:
     if union <= 0.0:
         return 0.0
     return inter / union
+
+
+def rotated_nms(dets: List[Dict[str, Any]], iou_threshold: float) -> List[Dict[str, Any]]:
+    """Greedy non-max suppression over a single image's candidate OBB
+    detections (issue #285: an undedduped decoder emitted 9,269 dets for
+    96 GT boxes — every duplicate around a true positive counts as an
+    extra false positive). Reuses `rotated_iou` as the only overlap
+    measure in this module — no second IoU implementation.
+
+    `dets`: a list of {"box": OBB, "score": float}, already
+    score-thresholded by the caller. Standard highest-score-first sweep:
+    take the highest-scoring not-yet-suppressed detection, keep it, and
+    suppress every remaining detection whose rotated IoU against it is
+    STRICTLY GREATER than `iou_threshold` (a pair sitting exactly on the
+    boundary is a deliberate keep, not an off-by-one). `dets` is sorted
+    once up front — Python's sort is stable, so among exactly-equal
+    scores the sweep still resolves deterministically — rather than
+    re-scanned for a running max each iteration: every candidate is
+    compared against every higher-or-equal-scoring survivor exactly once,
+    so a mutually-overlapping, equal-score cluster always collapses to
+    exactly one survivor regardless of the caller's input order, even
+    though which specific box that is may depend on the tie-break.
+    """
+    order = sorted(range(len(dets)), key=lambda i: -dets[i]["score"])
+    suppressed = [False] * len(dets)
+    keep: List[int] = []
+    for pos, i in enumerate(order):
+        if suppressed[i]:
+            continue
+        keep.append(i)
+        for j in order[pos + 1 :]:
+            if suppressed[j]:
+                continue
+            if rotated_iou(dets[i]["box"], dets[j]["box"]) > iou_threshold:
+                suppressed[j] = True
+    return [dets[i] for i in keep]

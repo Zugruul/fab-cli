@@ -81,6 +81,59 @@ def test_config_is_not_a_dict():
     assert result.valid is False
 
 
+# --- decode threshold + NMS (issue #285: hardcoded DECODE_SCORE_THRESHOLD
+# sat above the trained model's real peak activation, plus no NMS) -------
+
+
+def test_accepts_config_without_decode_threshold_or_nms_keys_unchanged():
+    # Both keys are OPTIONAL -- an existing config that predates issue
+    # #285 keeps working unchanged, with no error for their absence.
+    result = validate_config(dict(VALID))
+    assert result.valid is True
+
+
+def test_accepts_a_valid_decode_score_threshold_and_nms_iou_threshold():
+    cfg = dict(VALID)
+    cfg["decodeScoreThreshold"] = 0.2
+    cfg["nmsIouThreshold"] = 0.4
+    result = validate_config(cfg)
+    assert result.valid is True
+
+
+def test_rejects_decode_score_threshold_out_of_range():
+    for bad in (-0.1, 1.1):
+        cfg = dict(VALID)
+        cfg["decodeScoreThreshold"] = bad
+        result = validate_config(cfg)
+        assert result.valid is False
+        assert any("decodeScoreThreshold" in e for e in result.errors)
+
+
+def test_rejects_non_numeric_decode_score_threshold():
+    cfg = dict(VALID)
+    cfg["decodeScoreThreshold"] = "high"
+    result = validate_config(cfg)
+    assert result.valid is False
+    assert any("decodeScoreThreshold" in e for e in result.errors)
+
+
+def test_rejects_nms_iou_threshold_out_of_range():
+    for bad in (-0.5, 1.5):
+        cfg = dict(VALID)
+        cfg["nmsIouThreshold"] = bad
+        result = validate_config(cfg)
+        assert result.valid is False
+        assert any("nmsIouThreshold" in e for e in result.errors)
+
+
+def test_rejects_non_numeric_nms_iou_threshold():
+    cfg = dict(VALID)
+    cfg["nmsIouThreshold"] = "high"
+    result = validate_config(cfg)
+    assert result.valid is False
+    assert any("nmsIouThreshold" in e for e in result.errors)
+
+
 # --- export config -----------------------------------------------------
 
 VALID_EXPORT = {
@@ -247,3 +300,60 @@ def test_eval_config_rejects_multiple_missing_fields_at_once_not_just_the_first(
 def test_eval_config_is_not_a_dict():
     result = validate_eval_config(["not", "a", "dict"])
     assert result.valid is False
+
+
+# --- decode threshold + NMS (issue #285) --------------------------------
+# validate_eval_config normalizes these into the returned config (same
+# established convention as its "device" default), so eval_from_config's
+# caller always sees a concrete value even when the raw config omitted it.
+
+
+def test_eval_config_accepts_omitted_decode_and_nms_keys_unchanged():
+    result = validate_eval_config(dict(VALID_EVAL))
+    assert result.valid is True
+
+
+def test_eval_config_defaults_decode_score_threshold_when_omitted():
+    result = validate_eval_config(dict(VALID_EVAL))
+    assert result.valid is True
+    assert result.config["decodeScoreThreshold"] == pytest.approx(0.15)
+
+
+def test_eval_config_defaults_nms_iou_threshold_when_omitted():
+    result = validate_eval_config(dict(VALID_EVAL))
+    assert result.valid is True
+    assert result.config["nmsIouThreshold"] == pytest.approx(0.5)
+
+
+def test_eval_config_accepts_an_explicit_decode_score_threshold_override():
+    cfg = dict(VALID_EVAL)
+    cfg["decodeScoreThreshold"] = 0.1
+    result = validate_eval_config(cfg)
+    assert result.valid is True
+    assert result.config["decodeScoreThreshold"] == pytest.approx(0.1)
+
+
+def test_eval_config_accepts_an_explicit_nms_iou_threshold_override():
+    cfg = dict(VALID_EVAL)
+    cfg["nmsIouThreshold"] = 0.7
+    result = validate_eval_config(cfg)
+    assert result.valid is True
+    assert result.config["nmsIouThreshold"] == pytest.approx(0.7)
+
+
+def test_eval_config_rejects_decode_score_threshold_out_of_range():
+    for bad in (-0.1, 1.1):
+        cfg = dict(VALID_EVAL)
+        cfg["decodeScoreThreshold"] = bad
+        result = validate_eval_config(cfg)
+        assert result.valid is False
+        assert any("decodeScoreThreshold" in e for e in result.errors)
+
+
+def test_eval_config_rejects_nms_iou_threshold_out_of_range():
+    for bad in (-0.1, 1.1):
+        cfg = dict(VALID_EVAL)
+        cfg["nmsIouThreshold"] = bad
+        result = validate_eval_config(cfg)
+        assert result.valid is False
+        assert any("nmsIouThreshold" in e for e in result.errors)

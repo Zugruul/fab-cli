@@ -50,7 +50,7 @@ from typing import Any, Dict
 import torch
 from torch.utils.data import DataLoader
 
-from .config import validate_eval_config
+from .config import DECODE_SCORE_THRESHOLD, NMS_IOU_THRESHOLD, validate_eval_config
 from .dataset import build_dataset
 from .manifest import dataset_manifest_hash
 from .model import ObbCenterNet
@@ -114,7 +114,20 @@ def eval_from_config(config: Dict[str, Any], now: float = None) -> Dict[str, Any
     model.load_state_dict(state_dict)
     model.to(device)
 
-    map_result = evaluate_map(model, loader, stride, config["iouThresholds"])
+    # issue #285: defensive .get() fallback (not a bare config[...]) so a
+    # hand-built config that bypasses validate_eval_config's normalization
+    # (see this module's device-default precedent above) still gets the
+    # same measured defaults, not a KeyError.
+    decode_threshold = config.get("decodeScoreThreshold", DECODE_SCORE_THRESHOLD)
+    nms_iou_threshold = config.get("nmsIouThreshold", NMS_IOU_THRESHOLD)
+    map_result = evaluate_map(
+        model,
+        loader,
+        stride,
+        config["iouThresholds"],
+        decode_threshold=decode_threshold,
+        nms_iou_threshold=nms_iou_threshold,
+    )
 
     output_dir = config["outputDir"]
     os.makedirs(output_dir, exist_ok=True)
@@ -124,6 +137,10 @@ def eval_from_config(config: Dict[str, Any], now: float = None) -> Dict[str, Any
         "datasetDir": config["datasetDir"],
         "datasetManifestHash": dataset_manifest_hash(config["datasetDir"]),
         "device": str(device),
+        # Same visibility requirement as train.py's summary — the reported
+        # mAP is meaningless without knowing what decode gate produced it.
+        "decodeScoreThreshold": decode_threshold,
+        "nmsIouThreshold": nms_iou_threshold,
         # Real, exact counts — never rounded or bucketed. A real-photo
         # benchmark set is small by construction (16 photos as of issue
         # #139); this number must always be readable at face value, not
