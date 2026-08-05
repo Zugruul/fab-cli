@@ -17,6 +17,62 @@ from typing import Any, Dict, List, Union
 # and licenses.py's ARCHITECTURE_LICENSES for the full grounding.
 KNOWN_ARCHITECTURES = {"obb-centernet-tiny"}
 
+# Decode-time defaults for the OBB detector's score-threshold + NMS gate
+# (issue #285). Defined HERE (not train.py) so validate_eval_config below
+# can default/validate against the exact same constants train.py's decode
+# path uses, with train.py importing them rather than redefining its own
+# copy — a single source of truth, no risk of the two silently drifting
+# apart.
+#
+# DECODE_SCORE_THRESHOLD: issue #285's measured sweep on the first full
+# 25-epoch checkpoint found the model's real heatmap peaks sit at
+# 0.167-0.290 — always BELOW the old hardcoded 0.3 default, which
+# discarded ~all detections (2 dets / 96 GT boxes, mAP 0.0104 vs a
+# measured-capable 0.185). mAP saturates by threshold 0.10 (0.1847), but
+# 0.10 also emits 9,269 detections for 96 GT boxes — operationally absurd
+# even before counting how much of that gain over 0.15 (0.1827) is noise
+# NMS then has to clean up. 0.15 is chosen as the default: within 0.002
+# mAP of the saturation point (0.1850 at 0.05) at a fraction of the raw
+# candidate count (1,911 vs 25,548) BEFORE NMS even runs — the measured
+# data, not the max-mAP value.
+DECODE_SCORE_THRESHOLD = 0.15
+
+# NMS_IOU_THRESHOLD: composites-generation.json deliberately places
+# genuinely overlapping DISTINCT cards ~35% of the time
+# (overlapProbability), offset by as little as 0.12 card-heights — real,
+# separate ground-truth boxes can carry high mutual IoU. A low NMS
+# threshold would merge those into one detection. 0.5 (the standard
+# COCO-style choice) errs toward keeping genuinely separate overlapping
+# cards distinct, accepting that some true duplicate detections around a
+# single object survive uncollapsed — the safer failure mode of the two.
+NMS_IOU_THRESHOLD = 0.5
+
+
+def _validate_decode_threshold_keys(raw: Dict[str, Any], errors: List[str]) -> None:
+    """Shared OPTIONAL-key validation for decodeScoreThreshold/
+    nmsIouThreshold, used by both validate_config (train.py) and
+    validate_eval_config (eval_obb.py) — collect-all-violations style,
+    same as every other field in this module. Absence is never an error:
+    an existing config that predates issue #285 keeps working unchanged.
+    """
+    if "decodeScoreThreshold" in raw:
+        decode_threshold = raw["decodeScoreThreshold"]
+        if (
+            not isinstance(decode_threshold, (int, float))
+            or isinstance(decode_threshold, bool)
+            or not (0.0 <= decode_threshold <= 1.0)
+        ):
+            _err(errors, '"decodeScoreThreshold" must be a number in [0, 1] when provided')
+
+    if "nmsIouThreshold" in raw:
+        nms_iou_threshold = raw["nmsIouThreshold"]
+        if (
+            not isinstance(nms_iou_threshold, (int, float))
+            or isinstance(nms_iou_threshold, bool)
+            or not (0.0 <= nms_iou_threshold <= 1.0)
+        ):
+            _err(errors, '"nmsIouThreshold" must be a number in [0, 1] when provided')
+
 
 @dataclass
 class ConfigResult:
@@ -71,6 +127,8 @@ def validate_config(raw: Union[Dict[str, Any], Any]) -> ConfigResult:
     output_dir = raw.get("outputDir")
     if not isinstance(output_dir, str) or output_dir == "":
         _err(errors, '"outputDir" must be a non-empty string')
+
+    _validate_decode_threshold_keys(raw, errors)
 
     if errors:
         return ConfigResult(valid=False, errors=errors)
@@ -161,9 +219,15 @@ def validate_eval_config(raw: Union[Dict[str, Any], Any]) -> ConfigResult:
     if not isinstance(device, str) or device == "":
         _err(errors, '"device" must be a non-empty string when provided')
 
+    decode_threshold = raw.get("decodeScoreThreshold", DECODE_SCORE_THRESHOLD)
+    nms_iou_threshold = raw.get("nmsIouThreshold", NMS_IOU_THRESHOLD)
+    _validate_decode_threshold_keys(raw, errors)
+
     if errors:
         return ConfigResult(valid=False, errors=errors)
 
     normalized = dict(raw)
     normalized["device"] = device
+    normalized["decodeScoreThreshold"] = decode_threshold
+    normalized["nmsIouThreshold"] = nms_iou_threshold
     return ConfigResult(valid=True, config=normalized)

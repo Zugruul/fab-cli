@@ -18,17 +18,26 @@ datasetDir, valFraction, stride, train{epochs,batchSize,lr}, outputDir).
 Known, documented simplifications (this is the "boring, not state of the
 art" tier per the issue brief — real gaps for a follow-up, not silently
 absorbed):
-  - No non-max suppression on decode: overlapping detections around a true
-    positive count as extra false positives in mAP rather than being
-    merged. Honest (never inflates the reported number), just not
-    optimal — real NMS is a natural follow-up once accuracy tuning starts.
   - No Gaussian heatmap-peak splatting (losses.py's doc comment) — hard
-    0/1 targets only.
+    0/1 targets only. Issue #285 confirmed this is the root cause of the
+    trained model's suppressed peak activations (0.167-0.290, never above
+    the old hardcoded decode threshold of 0.3), but implementing it
+    changes the loss and so requires a real retrain (~2.5h GPU) to
+    evaluate honestly — deliberately left to a follow-up rather than
+    shipped behind an unretrained, unverified config flag here.
   - All composites in one dataset dir must share one canvas size, evenly
     divisible by `stride` (validated below) — the composites generator
     always produces one fixed outputSize per run, so this is never a real
     constraint in practice, just an explicit fail-fast instead of a silent
     shape-mismatch crash mid-training.
+
+Decode threshold + NMS (issue #285): DECODE_SCORE_THRESHOLD and
+NMS_IOU_THRESHOLD below are re-exports of config.py's constants of the
+same name (single source of truth — see config.py's doc comment for the
+full measured justification of each default). Both are configurable via
+train_from_config's `config` dict (`decodeScoreThreshold`,
+`nmsIouThreshold`) and threaded through to `evaluate_map` /
+`_decode_predictions`.
 """
 import argparse
 import json
@@ -40,16 +49,15 @@ from typing import Any, Dict, List, Tuple
 import torch
 from torch.utils.data import DataLoader
 
-from .config import validate_config
+from .config import DECODE_SCORE_THRESHOLD, NMS_IOU_THRESHOLD, validate_config
 from .dataset import build_dataset, split_dataset
+from .geometry import rotated_nms
 from .licenses import ARCHITECTURE_LICENSES
 from .losses import heatmap_focal_loss, masked_l1_loss
 from .manifest import build_run_manifest, config_hash, dataset_manifest_hash
 from .map_eval import compute_map
 from .model import ObbCenterNet
 from .torch_data import CompositeObbDataset, collate_obb_batch
-
-DECODE_SCORE_THRESHOLD = 0.3
 
 
 def _validate_canvas_for_stride(samples: List[Dict[str, Any]], stride: int) -> Tuple[int, int]:
@@ -92,9 +100,19 @@ def _epoch_loss(model: ObbCenterNet, loader: DataLoader, optimizer=None) -> floa
     return total / max(count, 1)
 
 
-def _decode_predictions(out: Dict[str, torch.Tensor], stride: int, threshold: float = DECODE_SCORE_THRESHOLD) -> List[List[Dict[str, Any]]]:
-    """No NMS (see this module's doc comment) — every cell over `threshold`
-    becomes a candidate detection."""
+def _decode_predictions(
+    out: Dict[str, torch.Tensor],
+    stride: int,
+    threshold: float = DECODE_SCORE_THRESHOLD,
+    nms_iou_threshold: float = NMS_IOU_THRESHOLD,
+) -> List[List[Dict[str, Any]]]:
+    """Every cell scoring >= `threshold` becomes a candidate detection;
+    `geometry.rotated_nms` then collapses duplicate candidates clustered
+    around the same object (issue #285 — an undeduped decoder emitted
+    9,269 dets for 96 GT boxes at a lowered threshold). Passing
+    `nms_iou_threshold=1.0` effectively disables suppression (rotated_iou
+    never exceeds 1.0, so "IoU > 1.0" never fires) — the documented way to
+    turn NMS off without a separate flag."""
     heatmap, offset, size, angle = out["heatmap"], out["offset"], out["size"], out["angle"]
     batch_size, _, grid_h, grid_w = heatmap.shape
     results: List[List[Dict[str, Any]]] = []
@@ -112,18 +130,25 @@ def _decode_predictions(out: Dict[str, torch.Tensor], stride: int, threshold: fl
                 h = math.exp(size[b, 1, gy, gx].item())
                 theta = math.atan2(angle[b, 0, gy, gx].item(), angle[b, 1, gy, gx].item())
                 dets.append({"box": (cx, cy, w, h, theta), "score": score})
-        results.append(dets)
+        results.append(rotated_nms(dets, nms_iou_threshold))
     return results
 
 
-def evaluate_map(model: ObbCenterNet, loader: DataLoader, stride: int, iou_thresholds: List[float]) -> Dict[str, Any]:
+def evaluate_map(
+    model: ObbCenterNet,
+    loader: DataLoader,
+    stride: int,
+    iou_thresholds: List[float],
+    decode_threshold: float = DECODE_SCORE_THRESHOLD,
+    nms_iou_threshold: float = NMS_IOU_THRESHOLD,
+) -> Dict[str, Any]:
     model.eval()
     preds: List[Dict[str, Any]] = []
     gts: Dict[str, List[Tuple[float, float, float, float, float]]] = {}
     with torch.no_grad():
         for batch in loader:
             out = model(batch["image"])
-            decoded = _decode_predictions(out, stride)
+            decoded = _decode_predictions(out, stride, threshold=decode_threshold, nms_iou_threshold=nms_iou_threshold)
             for i, composite_id in enumerate(batch["composite_id"]):
                 gts[composite_id] = list(batch["raw_obbs"][i])
                 for det in decoded[i]:
@@ -161,7 +186,16 @@ def train_from_config(config: Dict[str, Any], now: float = None) -> Dict[str, An
     for _epoch in range(config["train"]["epochs"]):
         train_losses.append(_epoch_loss(model, train_loader, optimizer))
 
-    synthetic_val_map = evaluate_map(model, val_loader, stride, iou_thresholds=[0.5, 0.75])
+    decode_threshold = config.get("decodeScoreThreshold", DECODE_SCORE_THRESHOLD)
+    nms_iou_threshold = config.get("nmsIouThreshold", NMS_IOU_THRESHOLD)
+    synthetic_val_map = evaluate_map(
+        model,
+        val_loader,
+        stride,
+        iou_thresholds=[0.5, 0.75],
+        decode_threshold=decode_threshold,
+        nms_iou_threshold=nms_iou_threshold,
+    )
 
     output_dir = config["outputDir"]
     os.makedirs(output_dir, exist_ok=True)
@@ -181,6 +215,10 @@ def train_from_config(config: Dict[str, Any], now: float = None) -> Dict[str, An
         "datasetManifestHash": dataset_manifest_hash(config["datasetDir"]),
         "trainLosses": train_losses,
         "syntheticValMAP": synthetic_val_map,
+        # issue #285: the reported mAP above is meaningless without knowing
+        # what decode gate produced the predictions it was computed from.
+        "decodeScoreThreshold": decode_threshold,
+        "nmsIouThreshold": nms_iou_threshold,
         "sampleCounts": {"train": len(train_samples), "val": len(val_samples)},
         "licenses": dict(ARCHITECTURE_LICENSES),
         "wallClockSec": time.time() - started,
