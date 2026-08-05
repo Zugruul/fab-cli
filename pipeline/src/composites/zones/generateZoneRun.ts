@@ -21,6 +21,7 @@ import type { ZoneLayoutConfig } from "./planZoneLayout.js";
 import { mergeTwoPlayerRenders } from "./twoPlayer.js";
 import { buildZoneCompositeManifest } from "./zoneManifest.js";
 import type { CompositeDatasetManifest } from "../manifest.js";
+import { CoverageTracker } from "../coverageTracker.js";
 
 /** Large, fixed, documented offsets so the two-player near/far mats each
  * get a seed distinct from the single-mat batch AND from each other —
@@ -74,11 +75,41 @@ export interface GenerateZoneRunInput {
   singleCount: number;
   twoPlayerCount: number;
   now?: () => string;
+  /** #268 PR #269 review round 1 BLOCKER 2 (partial scope — see PR body):
+   * when true, card selection for every zone kind favors the globally
+   * least-appeared-so-far eligible printing WITHIN that kind's own bucket
+   * (planZoneLayout.ts's coverageTrackersByKind), instead of uniform-
+   * random. One CoverageTracker per kind, shared across the single +
+   * near + far sub-runs so appearance counts accumulate over the WHOLE
+   * zone-generate run. Default false — byte-identical to pre-#268
+   * behavior. This is selection-only: unlike composites/cli.ts's
+   * --coverage, there is no unavailableUpstream tracking here (the zone
+   * pipeline downloads only what's picked, AFTER planning — a download
+   * failure here still aborts the run via assertDownloadsSucceeded,
+   * unchanged; extending that to a tolerate-and-report model is future
+   * work, not part of this fix). */
+  coverage?: boolean;
+}
+
+/** Lightweight per-kind coverage summary (#268 BLOCKER 2) — deliberately
+ * NOT the full three-state CoverageReport shape composites/cli.ts's
+ * --coverage produces (see GenerateZoneRunInput.coverage's doc for why:
+ * the zone pipeline has no "unavailable upstream" concept yet). Still
+ * answers the review's "handle and report it" ask for a rare
+ * single-zone-kind printing: `zeroAppearanceCount > 0` names exactly which
+ * kind's budget was insufficient. */
+export interface ZoneKindCoverageSummary {
+  poolSize: number;
+  minAppearances: number;
+  maxAppearances: number;
+  zeroAppearanceCount: number;
 }
 
 export interface GenerateZoneRunResult {
   manifest: CompositeDatasetManifest;
   composites: RenderResult[];
+  /** Present only when `input.coverage` was true. */
+  coverageSummary?: Partial<Record<SelectableZoneKind, ZoneKindCoverageSummary>>;
 }
 
 export function buildEligibleByKind(cards: RawCardForSelection[], zoneMap: ZoneMap, imagesCacheDir: string): Partial<Record<SelectableZoneKind, EligibleCard[]>> {
@@ -97,6 +128,18 @@ export async function generateZoneRun(input: GenerateZoneRunInput): Promise<Gene
   const eligibleByKind = buildEligibleByKind(input.cards, input.zoneMap, input.imagesCacheDir);
   const cardBack = { printingId: input.cardBackPrintingId, imagePath: input.cardBackImagePath };
 
+  // #268 BLOCKER 2: one tracker per kind, SHARED across single/near/far
+  // below (never rebuilt per sub-run) so appearance counts accumulate over
+  // the whole zone-generate run, not reset per sub-run — the same
+  // "one CoverageTracker per pool for the whole run" discipline
+  // composites/cli.ts's --coverage uses for the base generator.
+  const coverageTrackersByKind: Partial<Record<SelectableZoneKind, CoverageTracker>> = {};
+  if (input.coverage) {
+    for (const [kind, pool] of Object.entries(eligibleByKind)) {
+      if (pool) coverageTrackersByKind[kind as SelectableZoneKind] = new CoverageTracker(pool.length);
+    }
+  }
+
   const planCommon = {
     zoneMap: input.zoneMap,
     eligibleByKind,
@@ -104,6 +147,7 @@ export async function generateZoneRun(input: GenerateZoneRunInput): Promise<Gene
     matWidth: input.matWidth,
     matHeight: input.matHeight,
     background: input.background,
+    coverageTrackersByKind,
   };
 
   const singlePlans = planZoneLayoutRun({ ...planCommon, config: input.config, compositesPerRun: input.singleCount, compositeIdPrefix: "composite" });
@@ -175,5 +219,19 @@ export async function generateZoneRun(input: GenerateZoneRunInput): Promise<Gene
 
   const composites = [...singleResults, ...twoPlayerResults];
   const manifest = buildZoneCompositeManifest({ config: input.config, labels: composites.map((c) => c.label), now: input.now });
-  return { manifest, composites };
+
+  if (!input.coverage) return { manifest, composites };
+
+  const coverageSummary: Partial<Record<SelectableZoneKind, ZoneKindCoverageSummary>> = {};
+  for (const [kind, tracker] of Object.entries(coverageTrackersByKind)) {
+    if (!tracker) continue;
+    const counts = tracker.allAppearanceCounts();
+    coverageSummary[kind as SelectableZoneKind] = {
+      poolSize: counts.length,
+      minAppearances: counts.length === 0 ? 0 : Math.min(...counts),
+      maxAppearances: counts.length === 0 ? 0 : Math.max(...counts),
+      zeroAppearanceCount: counts.filter((c) => c === 0).length,
+    };
+  }
+  return { manifest, composites, coverageSummary };
 }
