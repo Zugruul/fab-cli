@@ -112,6 +112,13 @@ export interface ZoneGenerateArgs {
   broadcastCount: number;
   frameWidth: number;
   frameHeight: number;
+  /** #268 PR #269 review round 1 BLOCKER 2: coverage-driven selection for
+   * `--mode single` (the default) — see generateZoneRun.ts's
+   * GenerateZoneRunInput.coverage doc for exactly what this does and does
+   * NOT cover (selection-only, per-kind, no unavailableUpstream tracking).
+   * NOT wired for `--mode broadcast` — that pipeline (generateBroadcastRun.ts)
+   * is a documented, deliberate scope gap; see this file's header. */
+  coverage: boolean;
 }
 
 export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
@@ -143,6 +150,7 @@ export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
     broadcastCount: 8,
     frameWidth: 2048,
     frameHeight: 1152,
+    coverage: false,
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -164,6 +172,7 @@ export function parseZoneGenerateArgs(argv: string[]): ZoneGenerateArgs {
     else if (arg === "--broadcast-count" && argv[i + 1]) args.broadcastCount = Number(argv[++i]);
     else if (arg === "--frame-width" && argv[i + 1]) args.frameWidth = Number(argv[++i]);
     else if (arg === "--frame-height" && argv[i + 1]) args.frameHeight = Number(argv[++i]);
+    else if (arg === "--coverage") args.coverage = true;
   }
   if (args.cardJsonPath === "") {
     args.cardJsonPath = path.join(repoRoot(), "fab-cli", "third_party", "flesh-and-blood-cards", "json", "english", "card.json");
@@ -311,7 +320,7 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
     return 0;
   }
 
-  const { manifest, composites } = await generateZoneRun({
+  const { manifest, composites, coverageSummary } = await generateZoneRun({
     config,
     zoneMap: zoneMapResult.map,
     cards,
@@ -326,9 +335,17 @@ export async function zoneGenerateCommand(argv: string[]): Promise<number> {
     background: { fileName, contentHash },
     singleCount: args.singleCount,
     twoPlayerCount: args.twoPlayerCount,
+    coverage: args.coverage,
   });
 
   await writeCompositeRun(args.outDir, composites, manifest, encodeRawToPng);
+
+  if (coverageSummary) {
+    fs.writeFileSync(path.join(args.outDir, "zone-coverage-report.json"), JSON.stringify(coverageSummary, null, 2) + "\n");
+    for (const [kind, summary] of Object.entries(coverageSummary)) {
+      console.log(`coverage[${kind}]: ${summary.poolSize} eligible, min=${summary.minAppearances} max=${summary.maxAppearances}, ${summary.zeroAppearanceCount} never placed`);
+    }
+  }
 
   console.log(`zone-layout composites: ${manifest.compositeCount} (${args.singleCount} single-mat + ${args.twoPlayerCount} two-player)`);
   console.log(`seed=${manifest.seed}, configHash=${manifest.generatorConfigHash.slice(0, 12)}`);

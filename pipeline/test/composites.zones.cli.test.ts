@@ -49,6 +49,19 @@ describe("parseZoneGenerateArgs", () => {
   });
 });
 
+// #268 PR #269 review round 1 BLOCKER 2: --coverage on the (single-mode)
+// zone-generate command — see generateZoneRun.ts's GenerateZoneRunInput.coverage
+// doc for what this does and doesn't cover.
+describe("parseZoneGenerateArgs — --coverage (#268)", () => {
+  it("defaults coverage to false (pre-#268 behavior unchanged)", () => {
+    expect(parseZoneGenerateArgs([]).coverage).toBe(false);
+  });
+
+  it("accepts --coverage", () => {
+    expect(parseZoneGenerateArgs(["--coverage"]).coverage).toBe(true);
+  });
+});
+
 // #256 Phase C: `--mode broadcast` is a NEW flag on the SAME zone-generate
 // command (builds on the #253 zone-layout machinery per the brief),
 // default "single" so every pre-#256 invocation is byte-for-byte
