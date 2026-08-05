@@ -7,6 +7,7 @@ import {
   applySleeve,
   applyGlare,
   coverFitRawImage,
+  applyGaussianBlur,
 } from "../src/composites/rawImage.js";
 import type { RawImage } from "../src/composites/rawImage.js";
 
@@ -227,5 +228,105 @@ describe("coverFitRawImage", () => {
     const a = coverFitRawImage(img, 30, 17);
     const b = coverFitRawImage(img, 30, 17);
     expect(a.data).toEqual(b.data);
+  });
+});
+
+// #289: Gaussian blur augmentation closing the synthetic-to-real sharpness
+// gap (see rawImage.ts's applyGaussianBlur doc + config.ts's blurSigma
+// doc). Kill-first note: asserting "pixels changed" alone is not a lock —
+// a buggy implementation that e.g. always returns the input unchanged, or
+// one that darkens edges via implicit zero-padding instead of edge-clamp,
+// would also make naive "some pixel differs" assertions pass. Every test
+// below asserts DIRECTION + MAGNITUDE via laplacianVariance (the same
+// sharpness proxy issue #289 measured with), or a specific edge-clamp
+// invariant.
+
+/** Discrete Laplacian-variance sharpness proxy (issue #289's own metric):
+ * luminance, kernel [[0,1,0],[1,-4,1],[0,1,0]], variance of the response
+ * over all interior pixels. Higher = sharper/more high-frequency detail. */
+function laplacianVariance(img: RawImage): number {
+  const { width, height, data } = img;
+  const lum = (x: number, y: number): number => {
+    const i = (y * width + x) * 4;
+    return 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+  };
+  const responses: number[] = [];
+  for (let y = 1; y < height - 1; y++) {
+    for (let x = 1; x < width - 1; x++) {
+      responses.push(-4 * lum(x, y) + lum(x - 1, y) + lum(x + 1, y) + lum(x, y - 1) + lum(x, y + 1));
+    }
+  }
+  const mean = responses.reduce((a, b) => a + b, 0) / responses.length;
+  return responses.reduce((a, b) => a + (b - mean) ** 2, 0) / responses.length;
+}
+
+/** High-frequency checkerboard test image — a solid-color image always has
+ * zero Laplacian variance regardless of blur, so it can't distinguish "blur
+ * applied" from "blur no-op'd"; a checkerboard gives blur something real to
+ * remove. */
+function checkerboard(size: number, cell = 2): RawImage {
+  return makeImage(size, size, (x, y) => {
+    const on = (Math.floor(x / cell) + Math.floor(y / cell)) % 2 === 0;
+    const v = on ? 255 : 0;
+    return [v, v, v, 255];
+  });
+}
+
+describe("applyGaussianBlur", () => {
+  it("sigma<=0 is a no-op: returns an unmutated copy, not the same reference", () => {
+    const img = checkerboard(16);
+    const result = applyGaussianBlur(img, 0);
+    expect(result).not.toBe(img);
+    expect(result.data).toEqual(img.data);
+  });
+
+  it("does not mutate the input image", () => {
+    const img = checkerboard(16);
+    const before = new Uint8ClampedArray(img.data);
+    applyGaussianBlur(img, 2);
+    expect(img.data).toEqual(before);
+  });
+
+  it("increasing sigma monotonically reduces Laplacian-variance sharpness, by a real margin each step (not just 'some pixel changed')", () => {
+    const img = checkerboard(64);
+    const v0 = laplacianVariance(img);
+    const v1 = laplacianVariance(applyGaussianBlur(img, 1));
+    const v2 = laplacianVariance(applyGaussianBlur(img, 2));
+    const v4 = laplacianVariance(applyGaussianBlur(img, 4));
+
+    expect(v1).toBeLessThan(v0);
+    expect(v2).toBeLessThan(v1);
+    expect(v4).toBeLessThan(v2);
+
+    // Magnitude, not just direction: a mild sigma=1 blur on a checkerboard
+    // this fine (2px cells) already removes the bulk of the high-frequency
+    // energy — matches issue #289's own finding that even a MILD blur
+    // (sigma=1.5) causes a large, not marginal, sharpness/mAP change.
+    expect(v1).toBeLessThan(v0 * 0.5);
+  });
+
+  it("leaves the alpha channel untouched", () => {
+    const img = makeImage(8, 8, (x) => (x < 4 ? [10, 20, 30, 60] : [200, 210, 220, 200]));
+    const result = applyGaussianBlur(img, 2);
+    for (let i = 3; i < result.data.length; i += 4) {
+      expect(result.data[i]).toBe(img.data[i]);
+    }
+  });
+
+  it("edge-clamps rather than sampling a black/transparent border: a uniform-color image stays uniform after blur", () => {
+    // Kill-first target: an implementation that zero-pads (instead of
+    // clamping) the border would visibly darken/lighten pixels near every
+    // edge of a solid image — this would NOT be caught by a "some pixel
+    // changed" test but IS caught here.
+    const img = createSolidImage(20, 20, [123, 45, 67], 255);
+    const result = applyGaussianBlur(img, 3);
+    for (let y = 0; y < 20; y++) {
+      for (let x = 0; x < 20; x++) {
+        const [r, g, b] = pixel(result, x, y);
+        expect(r).toBeCloseTo(123, 0);
+        expect(g).toBeCloseTo(45, 0);
+        expect(b).toBeCloseTo(67, 0);
+      }
+    }
   });
 });
