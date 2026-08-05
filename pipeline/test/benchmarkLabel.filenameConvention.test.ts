@@ -12,6 +12,7 @@ describe("parseLabelFilename — real batch filenames", () => {
     expect(r.edition).toBeNull();
     expect(r.sleeved).toBe(true);
     expect(r.foil).toBe(false);
+    expect(r.foilKind).toBe("nf");
     expect(r.marvel).toBe(false);
     expect(r.cardNameSlug).toBe("heart-of-fyendal");
     expect(r.cardNameQuery).toBe("heart of fyendal");
@@ -40,15 +41,17 @@ describe("parseLabelFilename — real batch filenames", () => {
     expect(r.edition).toBe("U");
     expect(r.cardNameSlug).toBe("eye-of-ophidia");
     expect(r.foil).toBe(true);
+    expect(r.foilKind).toBe("rf");
   });
 
-  it("parses a marvel card — marvel flag set, foil independently from cf/rf/nf, and marvel is NOT itself a tag", () => {
+  it("parses a marvel card — marvel flag set, foilKind distinguishes cf from rf (issue #274)", () => {
     const r = parseLabelFilename("HER155-sleeved-groundbreaker-crix-marvel-cf.jpeg");
     expect(r.parsed).toBe(true);
     if (!r.parsed) throw new Error("expected parsed");
     expect(r.cardNameSlug).toBe("groundbreaker-crix");
     expect(r.marvel).toBe(true);
     expect(r.foil).toBe(true); // cf = cold foil
+    expect(r.foilKind).toBe("cf");
   });
 
   it("parses cold foil without marvel", () => {
@@ -58,6 +61,7 @@ describe("parseLabelFilename — real batch filenames", () => {
     expect(r.cardNameSlug).toBe("authority-of-ataya");
     expect(r.marvel).toBe(false);
     expect(r.foil).toBe(true);
+    expect(r.foilKind).toBe("cf");
     expect(r.repeat).toBeNull();
   });
 

@@ -31,8 +31,10 @@ than one printing — see catalogSearch.ts), and validates every write through
 the EXISTING `validatePhotoLabel` before it touches disk. It also parses the
 user's real-photo shooting filename convention (`<SETCODE><NUM>[-U|-1st]-
 <sleeved|unsleeved>-<name>-[marvel-]<cf|rf|nf>[-N].ext`) to pre-fill
-sleeved/foil tags and the printing search query — visibly, never silently,
-so an unparsed filename is flagged rather than guessed at.
+sleeved/foil/marvel tags (foil refined to `cold-foil`/`rainbow-foil` when
+the filename's `cf`/`rf` code is present, per issue #274) and the printing
+search query — visibly, never silently, so an unparsed filename is flagged
+rather than guessed at.
 
 ## What "hundreds of photos" needs to cover
 
@@ -106,9 +108,30 @@ enforced by `validate.ts`'s `validatePhotoLabel`):
 - **`corners`**: exactly 4 `{x, y}` pixel coordinates, in the photo's
   **native, unrotated pixel space** (not display-rotated), in clockwise
   order starting top-left: TL, TR, BR, BL.
-- **`tags`**: zero or more of `sleeved`, `foil`, `glare` — whichever apply
-  to that specific card in that specific photo (a photo can mix sleeved and
-  unsleeved cards in a field/binder scene; tag per-quad, not per-photo).
+- **`tags`**: zero or more of the vocabulary in `pipeline/src/benchmark/
+  types.ts`'s `QUAD_TAGS` — whichever apply to that specific card in that
+  specific photo (a photo can mix sleeved and unsleeved cards in a field/
+  binder scene; tag per-quad, not per-photo). As of issue #274:
+  - `sleeved`, `foil`, `glare` — the original three.
+  - `cold-foil`, `rainbow-foil`, `gold-foil` — refine `foil` by the-fab-
+    cube's `foiling` code (`C`/`R`/`G`). **Additive, not a replacement**:
+    `foil` still means "foil, type unconfirmed" on its own, and a labeler
+    can add the specific tag alongside it once known. Every label written
+    before #274 (which only ever used the original three) stays valid
+    unchanged.
+  - `marvel`, `promo` — the-fab-cube's `rarity` codes `V`/`P`. Kept
+    separate because a full-art cold-foil promo looks Marvel but isn't
+    (verified live: HER155 Groundbreaker Crix is `P`, not `V`).
+  - `alternate-art`, `alternate-border`, `extended-art`, `full-art`,
+    `alternate-text` — the-fab-cube's `art_variations` codes `AA`/`AB`/
+    `EA`/`FA`/`AT`, matching the exact vocabulary `fab-cli fabrary cards
+    search --treatment` already uses for this concept.
+
+  `promo` and the `art_variations`-derived tags have no filename-
+  convention pre-fill (the shooting filename convention only ever encoded
+  sleeved/foil-type/marvel) — the labeling tool's printing picker shows
+  each candidate's rarity/foiling/`art_variations` codes so a human can
+  apply them from the resolved catalog printing instead.
 
 ### Partially-visible or frame-cropped cards (amodal labeling)
 

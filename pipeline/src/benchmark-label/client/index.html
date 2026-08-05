@@ -48,12 +48,12 @@
       <div id="printing-summary">no printing selected</div>
       <input id="printing-query" type="text" placeholder="search printing by name or set+number (e.g. HER155)">
       <ul id="printing-results"></ul>
-      <div id="tag-editor">
-        <label><input type="checkbox" value="sleeved"> sleeved</label>
-        <label><input type="checkbox" value="foil"> foil</label>
-        <label><input type="checkbox" value="glare"> glare</label>
-      </div>
-      <div id="marvel-note" hidden>⚠ "marvel" detected in filename — the label tag vocabulary has no treatment/rarity slot, so this is NOT recorded as a tag.</div>
+      <!-- Populated by app.js's renderTagEditorCheckboxes() from GET /api/config's
+           `tags` list (benchmark/types.ts's QUAD_TAGS) — issue #274: the
+           vocabulary grew past the original 3, so it's rendered from the
+           protocol's own source of truth rather than hardcoded here a
+           second time (exactly the kind of drift the issue warned about). -->
+      <div id="tag-editor"></div>
       <button id="delete-quad">Delete this quad</button>
     </div>
   </aside>

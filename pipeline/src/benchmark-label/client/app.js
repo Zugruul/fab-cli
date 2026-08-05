@@ -57,11 +57,28 @@ async function init() {
   state.config = cfg.body;
   el("scene-type").innerHTML = state.config.sceneTypes.map((s) => `<option value="${s}">${s}</option>`).join("");
   el("orientation").innerHTML = state.config.orientations.map((o) => `<option value="${o}">${o}</option>`).join("");
+  renderTagEditorCheckboxes();
 
   await refreshPhotoList();
   wireToolbar();
   wireCanvas();
   wirePrintingPicker();
+}
+
+/**
+ * Builds the per-quad tag checkboxes from the protocol's own tag list
+ * (GET /api/config's `tags`, i.e. benchmark/types.ts's QUAD_TAGS) instead
+ * of hardcoding them a second time here — issue #274 grew the vocabulary
+ * from 3 tags to 13, and a second hardcoded copy is exactly the kind of
+ * two-places-that-must-move-together drift that issue was about. Runs
+ * once at startup; renderQuadEditor()'s existing
+ * `#tag-editor input[type="checkbox"]` query already works against
+ * whatever checkboxes exist here, so nothing downstream needed to change.
+ */
+function renderTagEditorCheckboxes() {
+  el("tag-editor").innerHTML = state.config.tags
+    .map((t) => `<label><input type="checkbox" value="${escapeAttr(t)}"> ${escapeHtml(t)}</label>`)
+    .join("");
 }
 
 async function refreshPhotoList() {
@@ -151,6 +168,13 @@ async function openPhoto(fileName) {
   await refreshPhotoList();
 }
 
+/** Foiling-code token -> the specific refinement tag it pre-fills
+ * alongside the generic `foil` bit (issue #274). "nf" adds nothing (no
+ * foil at all). The filename convention has no gold-foil code, so
+ * gold-foil is never pre-filled from a filename — only via manual
+ * confirmation against the picker's shown rarity/foiling/art_variations. */
+const FOIL_KIND_TAG = { cf: "cold-foil", rf: "rainbow-foil", nf: null };
+
 function applyFilenameHint(hint) {
   state.filenameHint = hint;
   const box = el("filename-hint");
@@ -162,12 +186,20 @@ function applyFilenameHint(hint) {
   }
   const tags = [];
   if (hint.sleeved) tags.push("sleeved");
-  if (hint.foil) tags.push("foil");
+  if (hint.foil) {
+    tags.push("foil");
+    const refinement = FOIL_KIND_TAG[hint.foilKind];
+    if (refinement) tags.push(refinement);
+  }
+  if (hint.marvel) tags.push("marvel");
   state.nextQuadDefaultTags = tags;
   box.textContent =
     `parsed from filename: ${hint.cardNameQuery}` +
     `${hint.printCode ? ` (${hint.printCode}${hint.edition ? "-" + hint.edition : ""})` : ""}` +
-    ` — sleeved=${hint.sleeved} foil=${hint.foil}${hint.marvel ? " marvel=true (no tag — see note)" : ""} — confirm per-quad below`;
+    ` — sleeved=${hint.sleeved} foil=${hint.foil}${hint.marvel ? " marvel=true" : ""}` +
+    ` — pre-filled tags: ${tags.join(", ") || "none"} — confirm per-quad below` +
+    ` (promo, and any full-art/extended-art/alternate-* or gold-foil treatment, aren't` +
+    ` in the filename — check the picker's rarity/foiling code below and tag manually)`;
   box.className = "parsed";
   prefillPrintingSearch();
 }
@@ -458,7 +490,6 @@ function renderQuadEditor() {
       renderQuadList();
     };
   }
-  el("marvel-note").hidden = !(state.filenameHint && state.filenameHint.parsed && state.filenameHint.marvel);
 }
 
 // --- printing picker -----------------------------------------------------
@@ -502,7 +533,14 @@ function renderPrintingResults(result) {
       (c) =>
         `<li data-id="${escapeAttr(c.printingId)}">` +
         (c.imageCached ? `<img src="/api/printing-image?id=${encodeURIComponent(c.printingId)}">` : `<span class="no-image">no image cached</span>`) +
-        `<span>${escapeHtml(c.cardName)} — ${escapeHtml(c.printCode)} (${escapeHtml(c.edition)}/${escapeHtml(c.foiling)}/${escapeHtml(c.rarity)})<br><small>${escapeHtml(c.printingId)}</small></span>` +
+        `<span>${escapeHtml(c.cardName)} — ${escapeHtml(c.printCode)} (${escapeHtml(c.edition)}/${escapeHtml(c.foiling)}/${escapeHtml(c.rarity)})` +
+        // issue #274: art_variations wasn't shown before there were tags for
+        // it — surfaced here (raw the-fab-cube codes: AA/AB/EA/FA/AT) so a
+        // human can cross-check before ticking alternate-art/alternate-
+        // border/extended-art/full-art/alternate-text below, same way
+        // edition/foiling/rarity already back marvel/promo/cold-foil/etc.
+        `${c.artVariations && c.artVariations.length ? ` [${c.artVariations.map(escapeHtml).join(",")}]` : ""}` +
+        `<br><small>${escapeHtml(c.printingId)}</small></span>` +
         `</li>`,
     )
     .join("");
