@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { validatePhotoLabel } from "../src/benchmark/validate.js";
+import { validatePhotoLabel, validateLabelFrame } from "../src/benchmark/validate.js";
 import type { PhotoLabel } from "../src/benchmark/types.js";
 
 function validLabel(): PhotoLabel {
@@ -170,5 +170,88 @@ describe("validatePhotoLabel — rejects malformed labels with specific errors",
     const result = validatePhotoLabel({ quads: [] });
     expect(result.valid).toBe(false);
     if (!result.valid) expect(result.errors.length).toBeGreaterThan(1);
+  });
+});
+
+// #286 follow-up: the exporter's frame bug (decodeImageToRaw ignoring EXIF
+// orientation) went undetected across all 16 real benchmark labels because
+// nothing ever cross-checked a label's declared `orientation` against the
+// photo it actually describes. validateLabelFrame is that guard — wired
+// into both benchmark/manifest.ts's build path (npm run benchmark:manifest)
+// and train-vision/realPhotoEvalSet.ts's export path, per docs/benchmark-
+// labeling.md's canonical-frame decision (displayed/EXIF-applied wins).
+//
+// Deliberately NOT a per-corner bounds check: docs/benchmark-labeling.md's
+// amodal convention explicitly permits corners far outside the photo's own
+// pixel bounds for cropped/occluded cards (validatePhotoLabel above
+// deliberately never bound-checks corners either) — a bounds-margin check
+// would either reject legitimate severely-cropped labels or, loosened
+// enough to tolerate them, fail on real #286 data: one of the 16 real
+// mislabeled photos (HER155-unsleeved-groundbreaker-crix-marvel-cf) has a
+// bounding box that fits BOTH the raw and the EXIF-applied frame with zero
+// overrun in either — no bounds margin, however tight, can distinguish
+// that case. Only the frame's aspect ratio vs. the declared `orientation`
+// field can, and it catches all 16 with no margin to tune.
+describe("validateLabelFrame", () => {
+  function label(overrides: Partial<PhotoLabel> = {}): PhotoLabel {
+    return {
+      photoId: "p1",
+      fileName: "single/p1.jpg",
+      sceneType: "single",
+      orientation: "portrait",
+      quads: [
+        {
+          printingId: "pr1",
+          corners: [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 1, y: 1 },
+            { x: 0, y: 1 },
+          ],
+          tags: [],
+        },
+      ],
+      ...overrides,
+    };
+  }
+
+  it("accepts a portrait-declared label against a taller-than-wide decoded frame", () => {
+    expect(validateLabelFrame(label({ orientation: "portrait" }), 4284, 5712)).toEqual([]);
+  });
+
+  it("accepts a landscape-declared label against a wider-than-tall decoded frame", () => {
+    expect(validateLabelFrame(label({ orientation: "landscape" }), 5712, 4284)).toEqual([]);
+  });
+
+  it("rejects a portrait-declared label against a wider-than-tall (landscape) decoded frame — the exact #286 defect shape", () => {
+    // This is literally IMG_7629 from the issue: every real label declared
+    // "portrait" (the frame it was drawn against); the pre-fix decoder
+    // produced the raw 5712x4284 landscape buffer.
+    const errors = validateLabelFrame(label({ orientation: "portrait" }), 5712, 4284);
+    expect(errors.length).toBeGreaterThan(0);
+    expect(errors[0]).toMatch(/orientation/);
+    expect(errors[0]).toMatch(/5712x4284/);
+  });
+
+  it("rejects a landscape-declared label against a taller-than-wide (portrait) decoded frame", () => {
+    const errors = validateLabelFrame(label({ orientation: "landscape" }), 4284, 5712);
+    expect(errors.length).toBeGreaterThan(0);
+    expect(errors[0]).toMatch(/orientation/);
+  });
+
+  it("never flags a square decoded frame either way — no orientation preference is possible", () => {
+    expect(validateLabelFrame(label({ orientation: "portrait" }), 500, 500)).toEqual([]);
+    expect(validateLabelFrame(label({ orientation: "landscape" }), 500, 500)).toEqual([]);
+  });
+
+  it("does not reject a corner far outside the frame's pixel bounds — amodal cropping stays legal", () => {
+    // Same convention validatePhotoLabel already honors: a card whose true
+    // extent is estimated to extend past the photo's own edge is expected,
+    // not an error (docs/benchmark-labeling.md's amodal section).
+    const cropped = label({
+      orientation: "portrait",
+      quads: [{ printingId: "pr1", corners: [{ x: -900, y: -900 }, { x: 100, y: -900 }, { x: 100, y: 100 }, { x: -900, y: 100 }], tags: [] }],
+    });
+    expect(validateLabelFrame(cropped, 500, 700)).toEqual([]);
   });
 });

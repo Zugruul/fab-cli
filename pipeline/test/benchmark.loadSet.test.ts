@@ -2,7 +2,9 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import { loadBenchmarkPhotoSet, buildManifestFromDirs } from "../src/benchmark/loadSet.js";
+import sharp from "sharp";
+import { loadBenchmarkPhotoSet, buildManifestFromDirs, attachFrameDimensions } from "../src/benchmark/loadSet.js";
+import type { RawPhotoEntry } from "../src/benchmark/manifest.js";
 
 let tmpDir: string;
 
@@ -84,14 +86,66 @@ describe("loadBenchmarkPhotoSet", () => {
 });
 
 describe("buildManifestFromDirs", () => {
-  it("builds a manifest from a real photos+labels directory tree, recording the unlabeled photo as skipped", () => {
+  it("builds a manifest from a real photos+labels directory tree, recording the unlabeled photo as skipped", async () => {
     const photosDir = path.join(tmpDir, "photos");
     const labelsDir = path.join(tmpDir, "labels");
     writeFixture(photosDir, labelsDir);
 
-    const { manifest } = buildManifestFromDirs(photosDir, labelsDir);
+    const { manifest } = await buildManifestFromDirs(photosDir, labelsDir);
 
     expect(manifest.photoCount).toBe(1);
     expect(manifest.skipped).toEqual([{ fileName: "single/p2.jpg", reason: "no matching label file" }]);
+  });
+});
+
+// #286 follow-up: attachFrameDimensions is what lets buildManifestFromDirs
+// (npm run benchmark:manifest, the tool a human runs right after labeling a
+// batch) catch the orientation-mismatch defect too, not just the export
+// path — it decodes each entry's REAL photo bytes (composites/imageIO.ts's
+// decodeImageToRaw, the same now-EXIF-aware decoder #286 fixed) and
+// attaches the resulting width/height so buildBenchmarkManifest's
+// validateLabelFrame check has something to compare against.
+describe("attachFrameDimensions", () => {
+  it("attaches real decoded (EXIF-applied) width/height to an entry with a parseable label", async () => {
+    // Genuine EXIF orientation tag — same withMetadata({orientation}) fixture
+    // technique validated for decodeAndNormalizeBackground (PR #246) and
+    // decodeImageToRaw (#286) — a fixture with no EXIF proves nothing here.
+    const photoBytes = await sharp({ create: { width: 20, height: 10, channels: 3, background: { r: 1, g: 2, b: 3 } } })
+      .withMetadata({ orientation: 6 })
+      .jpeg({ quality: 100 })
+      .toBuffer();
+    const entries: RawPhotoEntry[] = [
+      { fileName: "single/p1.jpg", photoBytes, labelBytes: Buffer.from("{}"), labelRaw: { photoId: "p1" } },
+    ];
+
+    await attachFrameDimensions(entries);
+
+    // Orientation 6 swaps the raw 20x10 buffer to a displayed 10x20 frame —
+    // exactly the transposed dims the fix in decodeImageToRaw now returns.
+    expect(entries[0].frameWidth).toBe(10);
+    expect(entries[0].frameHeight).toBe(20);
+  });
+
+  it("leaves frameWidth/frameHeight unset (never throws) for an entry with no parseable label — nothing to validate a frame against", async () => {
+    const entries: RawPhotoEntry[] = [
+      { fileName: "broken/p2.jpg", photoBytes: Buffer.from("irrelevant"), labelBytes: Buffer.from("not json"), labelParseError: "boom" },
+    ];
+    await attachFrameDimensions(entries);
+    expect(entries[0].frameWidth).toBeUndefined();
+    expect(entries[0].frameHeight).toBeUndefined();
+  });
+
+  it("leaves frameWidth/frameHeight unset (never throws, never aborts the batch) when the photo bytes aren't a real decodable image", async () => {
+    // Mirrors this file's own writeFixture()/entry() convention elsewhere
+    // of using plain non-image bytes for lightweight I/O-pairing fixtures —
+    // a decode failure here must degrade gracefully (frame check simply
+    // doesn't run for this one entry), not crash the whole manifest build.
+    const entries: RawPhotoEntry[] = [
+      { fileName: "single/p1.jpg", photoBytes: Buffer.from("fake-jpg-bytes"), labelBytes: Buffer.from("{}"), labelRaw: { photoId: "p1" } },
+      { fileName: "single/p2.jpg", photoBytes: Buffer.from("also-fake"), labelBytes: Buffer.from("{}"), labelRaw: { photoId: "p2" } },
+    ];
+    await expect(attachFrameDimensions(entries)).resolves.toBeUndefined();
+    expect(entries[0].frameWidth).toBeUndefined();
+    expect(entries[1].frameWidth).toBeUndefined();
   });
 });
