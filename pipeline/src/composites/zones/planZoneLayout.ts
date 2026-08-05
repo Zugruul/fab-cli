@@ -21,6 +21,19 @@
  * arsenalFaceUpProbability (the only kind whose inclusion is ever
  * conditional) never reshuffles any other zone's pick/jitter within the
  * same composite.
+ *
+ * #268 PR #269 review round 1 BLOCKER 2: `coverageTrackersByKind` (optional,
+ * one CoverageTracker per zone kind, sized to THAT kind's own eligible
+ * pool — see coverageReport.ts's sibling doc) switches card selection for
+ * a given kind from `pickDeterministic` (uniform-random) to
+ * `coverageTracker.pickOneWithDraw(pickFrac)` — the SAME already-drawn
+ * `pickFrac` value either path consumes, so this never adds or removes an
+ * rng() call and the "5 rng() calls per zone, always" invariant above
+ * holds unchanged whether or not a given kind (or any kind) has a tracker.
+ * Coverage is a constraint WITHIN a kind's own bucket only — a tracker for
+ * "weapon" can never influence which pool a "head" zone draws from, since
+ * each kind's tracker only ever indexes into that SAME kind's own
+ * `eligibleByKind[kind]` array (see planOneZoneComposite below).
  */
 import { createRng } from "../../behavior/rng.js";
 import { pickDeterministic } from "./semanticSelection.js";
@@ -29,6 +42,7 @@ import { MANDATORY_ZONE_KINDS } from "./zoneMap.js";
 import type { ZoneKind, ZoneMap, ZoneDefinition } from "./zoneMap.js";
 import type { CardPlacement, CompositeParams } from "../paramStream.js";
 import type { RangeConfig } from "../config.js";
+import type { CoverageTracker } from "../coverageTracker.js";
 
 export type { EligibleCard };
 
@@ -129,6 +143,17 @@ export interface PlanZoneLayoutInput {
   background: { fileName: string; contentHash: string };
   compositesPerRun: number;
   compositeIdPrefix?: string;
+  /** #268 PR #269 review round 1 BLOCKER 2, optional (default: none —
+   * byte-identical to pre-#268 uniform-random selection for every kind).
+   * A tracker present for kind K MUST be sized to
+   * `eligibleByKind[K]!.length` — index i in the tracker corresponds to
+   * `eligibleByKind[K]![i]`, exactly like paramStream.ts's
+   * availableCards<->CoverageTracker correspondence. Reuse the SAME
+   * tracker instance across every planZoneLayoutRun call that shares an
+   * eligibleByKind (e.g. generateZoneRun.ts's single + near + far
+   * sub-runs) so appearance counts accumulate across the whole run, not
+   * reset per sub-run. */
+  coverageTrackersByKind?: Partial<Record<SelectableZoneKind, CoverageTracker>>;
 }
 
 function inRange(rng: () => number, range: RangeConfig): number {
@@ -204,7 +229,13 @@ function planOneZoneComposite(
         // array end.
         throw new Error(`planZoneLayoutRun: zero eligible cards for zone kind "${zone.kind}" (zone id "${zone.id}")`);
       }
-      const chosen = pickDeterministic(pool, pickFrac);
+      // #268 BLOCKER 2: a tracker for THIS kind indexes ONLY into THIS
+      // kind's own pool — coverage can never bypass which bucket a zone
+      // draws from. Reuses the SAME pickFrac either branch consumes, so
+      // no extra rng() call is ever introduced (see this module's header).
+      const tracker = input.coverageTrackersByKind?.[zone.kind as SelectableZoneKind];
+      const trackedIdx = tracker ? tracker.pickOneWithDraw(pickFrac) : null;
+      const chosen = trackedIdx !== null ? pool[trackedIdx] : pickDeterministic(pool, pickFrac);
       printingId = chosen.printingId;
       imagePath = chosen.imagePath;
     }
