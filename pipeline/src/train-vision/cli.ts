@@ -1,9 +1,14 @@
 #!/usr/bin/env tsx
 /**
  * Thin CLI over runner.ts (APP-027): run/resume/status subcommands for
- * driving OBB detector training runs. Mirrors training/cli.ts's shape;
- * parseArgs is pure and unit-tested, main()'s real dispatch (RealDispatcher
- * shelling to remote-compute.py) is not exercised in tests — same split as
+ * driving OBB detector training runs, plus (issue #139) a standalone
+ * `real-photo-eval` subcommand that builds the real-photo benchmark's
+ * detector-dataset export (realPhotoEvalSet.ts) — a separate concern from
+ * dispatch (no run-id/state.json involved), but wired here since it lives
+ * in this same package and directly feeds APP-027's real-photo-benchmark
+ * mAP leg. Mirrors training/cli.ts's shape; parseArgs is pure and unit-
+ * tested, main()'s real dispatch (RealDispatcher shelling to
+ * remote-compute.py) is not exercised in tests — same split as
  * training/cli.ts and dispatch/cli.ts.
  *
  * Usage:
@@ -15,6 +20,8 @@
  *   tsx src/train-vision/cli.ts resume --run-id <id> --inputs <dir> \
  *     [--resource storm590x] --capability-job <name> [--cuda <ver>] [--driver <ver>] [--gpu <name>] [--torch <ver>] [--runs-dir <dir>]
  *   tsx src/train-vision/cli.ts status --run-id <id> [--runs-dir <dir>]
+ *   tsx src/train-vision/cli.ts real-photo-eval [--photos-dir <dir>] [--labels-dir <dir>] \
+ *     [--out <dir>] [--canvas-size <n>] [--stride <n>]
  *
  * No capability job exists yet on any resource for vision training (see
  * README.md) — --capability-job defaults to a placeholder name so this
@@ -26,14 +33,22 @@ import fs from "node:fs";
 import path from "node:path";
 import { run, resume } from "./runner.js";
 import { RealDispatcher } from "./realDispatcher.js";
+import { exportRealPhotoEvalSet, DEFAULT_CANVAS_SIZE } from "./realPhotoEvalSet.js";
 import type { VisionArchitecture, VisionRunSpec, VisionRunState, VisionRunManifest } from "./types.js";
 
-const COMMANDS = ["run", "resume", "status"] as const;
+const COMMANDS = ["run", "resume", "status", "real-photo-eval"] as const;
 type Command = (typeof COMMANDS)[number];
 
 const DEFAULT_RUNS_DIR = "vision-runs";
 const DEFAULT_RESOURCE = "storm590x";
 const DEFAULT_CAPABILITY_JOB = "vision-training:obb-train";
+const DEFAULT_STRIDE = 8;
+/** pipeline/ — real-photo-eval's default paths resolve relative to this,
+ * same "robust regardless of CWD" convention as benchmark/cli.ts's own
+ * BASE, deliberately NOT reused by run/resume/status's plain relative
+ * "vision-runs" default (an intentionally separate, pre-existing
+ * convention this command doesn't touch). */
+const PIPELINE_BASE = path.join(import.meta.dirname, "..", "..");
 
 export interface RunArgs {
   command: "run";
@@ -75,7 +90,16 @@ export interface StatusArgs {
   runsDir: string;
 }
 
-export type CliArgs = RunArgs | ResumeArgs | StatusArgs;
+export interface RealPhotoEvalArgs {
+  command: "real-photo-eval";
+  photosDir: string;
+  labelsDir: string;
+  outDir: string;
+  canvasSize: number;
+  stride: number;
+}
+
+export type CliArgs = RunArgs | ResumeArgs | StatusArgs | RealPhotoEvalArgs;
 
 function isCommand(value: string | undefined): value is Command {
   return !!value && (COMMANDS as readonly string[]).includes(value);
@@ -104,6 +128,22 @@ export function parseArgs(argv: string[]): CliArgs {
     throw new Error(`unknown train-vision command: "${command ?? ""}" (expected one of: ${COMMANDS.join("|")})`);
   }
   const flags = parseFlags(rest);
+
+  // real-photo-eval has no dispatch/state.json lifecycle at all (it's a
+  // standalone dataset-dir export, see realPhotoEvalSet.ts) — it must not
+  // require --run-id the way run/resume/status do, so it's handled before
+  // that check rather than sharing this function's tail.
+  if (command === "real-photo-eval") {
+    return {
+      command: "real-photo-eval",
+      photosDir: flags["photos-dir"] ?? path.join(PIPELINE_BASE, "out", "benchmark-photos"),
+      labelsDir: flags["labels-dir"] ?? path.join(PIPELINE_BASE, "out", "benchmark-photos", "labels"),
+      outDir: flags["out"] ?? path.join(PIPELINE_BASE, "out", "real-photo-eval"),
+      canvasSize: flags["canvas-size"] !== undefined ? Number(flags["canvas-size"]) : DEFAULT_CANVAS_SIZE,
+      stride: flags["stride"] !== undefined ? Number(flags["stride"]) : DEFAULT_STRIDE,
+    };
+  }
+
   const runsDir = flags["runs-dir"] ?? DEFAULT_RUNS_DIR;
 
   if (!flags["run-id"]) throw new Error("--run-id is required");
@@ -159,6 +199,23 @@ function specFromRunArgs(args: RunArgs): VisionRunSpec {
 
 async function main(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
+
+  if (args.command === "real-photo-eval") {
+    const report = await exportRealPhotoEvalSet({
+      photosDir: args.photosDir,
+      labelsDir: args.labelsDir,
+      outDir: args.outDir,
+      canvasSize: args.canvasSize,
+      stride: args.stride,
+    });
+    console.log(
+      `real-photo eval set: ${report.exportedCount} exported, ${report.skippedUnlabeledCount} skipped (unlabeled), ` +
+        `${report.skippedInvalidLabel.length} skipped (invalid label), ${report.totalQuads} total quads`,
+    );
+    for (const s of report.skippedInvalidLabel) console.log(`  invalid label: ${s.fileName}: ${s.reason}`);
+    console.log(`-> ${args.outDir}`);
+    return;
+  }
 
   if (args.command === "status") {
     const runDir = path.join(args.runsDir, args.runId);

@@ -118,11 +118,16 @@ function buildManifest(opts: VisionRunnerOptions, runId: string, spec: VisionRun
     seed: spec.seed,
     metrics: {
       syntheticVal: summary?.syntheticValMAP ?? null,
-      // Real-photo-benchmark mAP is QA-gated per the issue's scope note
-      // (APP-025's real-photo benchmark photo set hasn't been shot yet) —
-      // recorded honestly as null with a reason, never fabricated.
+      // Real-photo-benchmark mAP: the photo set is shot and labeled and
+      // realPhotoEvalSet.ts (issue #139) can now export it as a dataset
+      // dir, but computing mAP against it is a SEPARATE eval run from
+      // this training run (this runner reads train-summary.json, which
+      // only ever carries syntheticValMAP) — recorded honestly as null
+      // with a reason, never fabricated, until that eval run's own
+      // summary is read here.
       realPhotoBenchmark: null,
-      realPhotoBenchmarkReason: "QA-gated: APP-025's real-photo benchmark photo set has not been shot yet (issue #139 scope note).",
+      realPhotoBenchmarkReason:
+        "the real-photo eval set now exists (pipeline/src/train-vision/realPhotoEvalSet.ts, issue #139) — mAP against it is computed by a separate eval run, not by this training run itself, so this field stays null here until that eval run's summary is read.",
     },
     licenses: licenses as unknown as VisionRunManifest["licenses"],
     environment: opts.environment,

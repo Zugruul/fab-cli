@@ -200,7 +200,8 @@ describe("runner.run — happy path", () => {
       metrics: {
         syntheticVal: { mAP: 0.4, perThreshold: { "0.5": 0.6, "0.75": 0.2 } },
         realPhotoBenchmark: null,
-        realPhotoBenchmarkReason: "QA-gated: APP-025's real-photo benchmark photo set has not been shot yet (issue #139 scope note).",
+        realPhotoBenchmarkReason:
+          "the real-photo eval set now exists (pipeline/src/train-vision/realPhotoEvalSet.ts, issue #139) — mAP against it is computed by a separate eval run, not by this training run itself, so this field stays null here until that eval run's summary is read.",
       },
       licenses: ARCHITECTURE_LICENSES,
       environment: { torch: "2.13.0", cuda: null, driver: null, gpu: null },

@@ -111,3 +111,59 @@ def validate_export_config(raw: Union[Dict[str, Any], Any]) -> ConfigResult:
     if errors:
         return ConfigResult(valid=False, errors=errors)
     return ConfigResult(valid=True, config=raw)
+
+
+def validate_eval_config(raw: Union[Dict[str, Any], Any]) -> ConfigResult:
+    """Config schema for eval_obb.py's checkpoint-evaluation entry point
+    (issue #139 scope addition): an already-trained checkpoint, the
+    held-out dataset dir to score it against IN FULL (no train/val split —
+    see eval_obb.py's doc comment for why), the architecture's stride +
+    a batchSize for the DataLoader, which IoU thresholds to compute mAP
+    at, where to write eval-summary.json, and an optional device (default
+    "cpu" — this repo has no device.py yet, see eval_obb.py's header)."""
+    errors: List[str] = []
+    if not isinstance(raw, dict):
+        return ConfigResult(valid=False, errors=["config is not a JSON object"])
+
+    architecture = raw.get("architecture")
+    if architecture not in KNOWN_ARCHITECTURES:
+        _err(errors, f'"architecture" must be one of {sorted(KNOWN_ARCHITECTURES)} (got {architecture!r})')
+
+    checkpoint_path = raw.get("checkpointPath")
+    if not isinstance(checkpoint_path, str) or checkpoint_path == "":
+        _err(errors, '"checkpointPath" must be a non-empty string')
+
+    dataset_dir = raw.get("datasetDir")
+    if not isinstance(dataset_dir, str) or dataset_dir == "":
+        _err(errors, '"datasetDir" must be a non-empty string')
+
+    stride = raw.get("stride")
+    if not isinstance(stride, int) or isinstance(stride, bool) or stride <= 0:
+        _err(errors, '"stride" must be a positive integer')
+
+    batch_size = raw.get("batchSize")
+    if not isinstance(batch_size, int) or isinstance(batch_size, bool) or batch_size <= 0:
+        _err(errors, '"batchSize" must be a positive integer')
+
+    iou_thresholds = raw.get("iouThresholds")
+    if (
+        not isinstance(iou_thresholds, list)
+        or len(iou_thresholds) == 0
+        or not all(isinstance(t, (int, float)) and not isinstance(t, bool) for t in iou_thresholds)
+    ):
+        _err(errors, '"iouThresholds" must be a non-empty array of numbers')
+
+    output_dir = raw.get("outputDir")
+    if not isinstance(output_dir, str) or output_dir == "":
+        _err(errors, '"outputDir" must be a non-empty string')
+
+    device = raw.get("device", "cpu")
+    if not isinstance(device, str) or device == "":
+        _err(errors, '"device" must be a non-empty string when provided')
+
+    if errors:
+        return ConfigResult(valid=False, errors=errors)
+
+    normalized = dict(raw)
+    normalized["device"] = device
+    return ConfigResult(valid=True, config=normalized)
