@@ -75,6 +75,27 @@ export interface GeneratorConfig {
    * truncation/crowd handling). Revisit once real training runs give
    * evidence either way. */
   minVisibleFraction: number;
+  /** Probability [0,1] that per-composite Gaussian blur (rawImage.ts's
+   * applyGaussianBlur) fires for a given composite — mirrors
+   * glareProbability/perspectiveProbability's shape, but this knob gates
+   * a composite-WIDE effect, not a per-card one (#289: real-photo blur is
+   * dominated by the whole scene's camera focus/hand shake, not by
+   * per-card depth-of-field — see paramStream.ts's draw-order doc and
+   * compositor.ts's call site for the full reasoning). ALWAYS drawn (a
+   * roll + a sigma draw, 2 rng() calls) regardless of this probability's
+   * value, same "always draw, maybe discard" discipline as every other
+   * probability-gated knob in this config. */
+  blurProbability: number;
+  /** Sigma (pixels, on the full outputSize canvas) drawn per composite
+   * when blur fires — mirrors perspectiveStrength's RangeConfig shape.
+   * Randomized per composite (not a single fixed constant) so the run's
+   * sharpness distribution varies composite-to-composite the way real
+   * photos range from sharp to soft, rather than clustering at one blur
+   * level (#289). Tuned against a real sharpness measurement (Laplacian
+   * variance of letterboxed card crops), not picked from the issue's
+   * single sensitivity-probe sigma — see PR #289's measured distribution
+   * for the value committed in composites-generation.json. */
+  blurSigma: RangeConfig;
 }
 
 export type ValidateConfigResult = { valid: true; config: GeneratorConfig } | { valid: false; errors: string[] };
@@ -172,6 +193,8 @@ export function validateGeneratorConfig(raw: unknown): ValidateConfigResult {
 
   checkProbability(errors, "externalBackgroundProbability", r.externalBackgroundProbability);
   checkProbability(errors, "minVisibleFraction", r.minVisibleFraction);
+  checkProbability(errors, "blurProbability", r.blurProbability);
+  checkRange(errors, "blurSigma", r.blurSigma, { minAllowed: 0 });
 
   if (errors.length > 0) return { valid: false, errors };
   return { valid: true, config: r as unknown as GeneratorConfig };
