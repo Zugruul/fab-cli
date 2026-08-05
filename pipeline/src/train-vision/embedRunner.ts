@@ -120,12 +120,17 @@ function buildManifest(opts: EmbedRunnerOptions, runId: string, spec: EmbedRunSp
     metrics: {
       syntheticValRetrieval: summary?.syntheticValRetrieval ?? null,
       syntheticValRetrievalReason: summary?.syntheticValRetrievalReason ?? null,
-      // Real-photo-benchmark top-1 is QA-gated per the issue's scope note
-      // (APP-025's real-photo benchmark photo set hasn't been shot yet) —
-      // recorded honestly as null with a reason, never fabricated. This
-      // is the actual G3 gate metric.
+      // Real-photo-benchmark top-1: the photo set is shot and labeled and
+      // realPhotoEvalSet.ts (issue #139) can now export it as a dataset
+      // dir, but computing top-1 retrieval against it is a SEPARATE eval
+      // run from this training run (this runner reads embed-train-
+      // summary.json, which only ever carries syntheticValRetrieval) —
+      // recorded honestly as null with a reason, never fabricated, until
+      // that eval run's own summary is read here. This is the actual G3
+      // gate metric.
       realPhotoBenchmarkTop1: null,
-      realPhotoBenchmarkReason: "QA-gated: APP-025's real-photo benchmark photo set has not been shot yet (issue #140 scope note).",
+      realPhotoBenchmarkReason:
+        "the real-photo eval set now exists (pipeline/src/train-vision/realPhotoEvalSet.ts, issue #139) — top-1 retrieval against it is computed by a separate eval run (issue #140), not by this training run itself, so this field stays null here until that eval run's summary is read.",
     },
     licenses: licenses as unknown as EmbedRunManifest["licenses"],
     environment: opts.environment,

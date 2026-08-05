@@ -120,8 +120,11 @@ export interface VisionRunManifest {
   seed: number;
   metrics: {
     syntheticVal: VisionMapMetric | null;
-    /** QA-gated (APP-025's real-photo benchmark photo set) — null with a
-     * reason until that human-gated leg lands, never fabricated. */
+    /** The real-photo eval set exists (realPhotoEvalSet.ts, issue #139),
+     * but mAP against it is computed by a separate eval run from this
+     * training run (see runner.ts's realPhotoBenchmarkReason for the
+     * current, accurate reason) — null with a reason until that eval
+     * run's own summary is read, never fabricated. */
     realPhotoBenchmark: VisionMapMetric | null;
     realPhotoBenchmarkReason: string | null;
   };

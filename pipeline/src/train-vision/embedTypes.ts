@@ -109,9 +109,12 @@ export interface EmbedRunManifest {
   metrics: {
     syntheticValRetrieval: EmbedRetrievalMetric | null;
     syntheticValRetrievalReason: string | null;
-    /** QA-gated (APP-025's real-photo benchmark photo set) — null with a
-     * reason until that human-gated leg lands (this is G3's actual gate
-     * metric), never fabricated. */
+    /** The real-photo eval set exists (realPhotoEvalSet.ts, issue #139),
+     * but top-1 retrieval against it is computed by a separate eval run
+     * from this training run (see embedRunner.ts's realPhotoBenchmarkReason
+     * for the current, accurate reason) — null with a reason until that
+     * eval run's own summary is read (this is G3's actual gate metric),
+     * never fabricated. */
     realPhotoBenchmarkTop1: number | null;
     realPhotoBenchmarkReason: string | null;
   };
