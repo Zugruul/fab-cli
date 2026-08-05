@@ -20,6 +20,7 @@ from train_vision.geometry import (
     polygon_intersection_area,
     quad_to_obb,
     rotated_iou,
+    rotated_nms,
 )
 
 
@@ -156,3 +157,72 @@ def test_rotated_iou_out_of_canvas_boxes_computed_without_clamping():
     # just translated into negative coordinate space: intersection area =
     # 15*20 = 300, union = 400+400-300 = 500 -> IoU = 0.6.
     assert rotated_iou(a, b) == pytest.approx(0.6)
+
+
+# --- rotated_nms (issue #285: no-NMS decode emitted 9,269 dets for 96 GT
+# boxes) ------------------------------------------------------------------
+#
+# Every case below asserts a real VALUE (which box survives, how many
+# survive, exact boundary behavior) rather than just "fewer detections than
+# before" — a buggy NMS that deletes everything, or that keeps the
+# first-seen box regardless of score, would still pass a shape-only check
+# but fails these (dev brain lesson test-rigor-assert-values-not-shape).
+
+_CLUSTER_A = (5.0, 5.0, 10.0, 10.0, 0.0)
+_CLUSTER_B = (10.0, 5.0, 10.0, 10.0, 0.0)  # IoU 1/3 against _CLUSTER_A (pinned above)
+_FAR_AWAY = (1000.0, 1000.0, 10.0, 10.0, 0.0)  # disjoint from both
+
+
+def test_rotated_nms_keeps_the_highest_scoring_box_in_a_cluster():
+    dets = [
+        {"box": _CLUSTER_A, "score": 0.4},
+        {"box": _CLUSTER_B, "score": 0.9},
+    ]
+    kept = rotated_nms(dets, iou_threshold=0.3)
+    assert len(kept) == 1
+    assert kept[0]["score"] == pytest.approx(0.9)
+    assert kept[0]["box"] == pytest.approx(_CLUSTER_B)
+
+
+def test_rotated_nms_does_not_suppress_a_genuinely_separate_box():
+    # composites-generation.json deliberately overlaps DISTINCT cards
+    # ~35% of the time (overlapProbability) -- a box far from a cluster
+    # must survive NMS untouched alongside the cluster's own winner.
+    dets = [
+        {"box": _CLUSTER_A, "score": 0.9},
+        {"box": _CLUSTER_B, "score": 0.4},
+        {"box": _FAR_AWAY, "score": 0.5},
+    ]
+    kept = rotated_nms(dets, iou_threshold=0.3)
+    kept_scores = sorted(d["score"] for d in kept)
+    assert kept_scores == pytest.approx([0.5, 0.9])
+
+
+def test_rotated_nms_suppression_is_order_independent_for_equal_scoring_boxes():
+    # Two mutually-overlapping boxes tied at the same score: regardless of
+    # which order they're handed in, exactly one survives -- suppression
+    # never "cancels out" and leaves both, or both.
+    forward = rotated_nms([{"box": _CLUSTER_A, "score": 0.7}, {"box": _CLUSTER_B, "score": 0.7}], iou_threshold=0.3)
+    backward = rotated_nms([{"box": _CLUSTER_B, "score": 0.7}, {"box": _CLUSTER_A, "score": 0.7}], iou_threshold=0.3)
+    assert len(forward) == 1
+    assert len(backward) == 1
+
+
+def test_rotated_nms_boundary_iou_exactly_at_threshold_is_not_suppressed():
+    # rotated_nms suppresses on "IoU > threshold" (strict), not ">=" -- a
+    # pair sitting exactly on the boundary is a deliberate KEEP, not an
+    # off-by-one. Uses the exact float rotated_iou returns (not a re-typed
+    # literal like 1/3) so the comparison is bit-exact, not approximate.
+    exact_iou = rotated_iou(_CLUSTER_A, _CLUSTER_B)
+    kept = rotated_nms([{"box": _CLUSTER_A, "score": 0.9}, {"box": _CLUSTER_B, "score": 0.8}], iou_threshold=exact_iou)
+    assert len(kept) == 2
+
+
+def test_rotated_nms_empty_input_returns_empty():
+    assert rotated_nms([], iou_threshold=0.5) == []
+
+
+def test_rotated_nms_single_detection_is_never_suppressed():
+    kept = rotated_nms([{"box": _CLUSTER_A, "score": 0.5}], iou_threshold=0.5)
+    assert len(kept) == 1
+    assert kept[0]["box"] == pytest.approx(_CLUSTER_A)
