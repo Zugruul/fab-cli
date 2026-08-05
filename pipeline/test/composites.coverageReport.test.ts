@@ -131,6 +131,20 @@ describe("buildCoverageReport", () => {
     expect(report.unavailableUpstream).toEqual([]);
   });
 
+  it("a download-failures entry naming a printingId that ISN'T a catalog member is dropped from unavailableUpstream (not just ignored for accounting) — keeps the partition invariant exact even against a stale/mismatched manifest", () => {
+    const catalog = ["printing-0", "printing-1"];
+    const available: CardImageRef[] = [{ printingId: "printing-0", imagePath: "/images/printing-0.png" }];
+    const tracker = new CoverageTracker(available.length);
+    tracker.pickForComposite(1, createRng(6));
+
+    const staleUnavailable = [{ printingId: "printing-not-in-catalog", httpStatus: 403, reason: "stale, from a different catalog version" }];
+    const report = buildCoverageReport(catalog, available, tracker, 1, staleUnavailable);
+
+    expect(report.unavailableUpstream).toEqual([]); // dropped — not a real catalog member
+    expect(report.eligibleButNotPlaced).toContain("printing-1"); // still accounted for as never-attempted
+    expect(report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length).toBe(report.totalCatalogSize);
+  });
+
   it("INVARIANT: covered + eligibleButNotPlaced.length + unavailableUpstream.length === totalCatalogSize, always — checked across several scenarios", () => {
     const scenarios: { catalog: string[]; available: CardImageRef[]; unavailable: { printingId: string; httpStatus: number | null; reason: string }[]; minAppearances: number }[] = [
       // fully cached + covered

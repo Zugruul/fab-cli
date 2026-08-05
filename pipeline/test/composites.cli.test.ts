@@ -299,16 +299,28 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
   });
 
   it("--coverage reads a download-failures manifest and reports those printings as unavailableUpstream, excluded from totalEligible", async () => {
+    // A realistic scenario: "printing-c" IS a catalog member (unlike a
+    // stale/unknown id — see coverageReport.test.ts's dedicated test for
+    // that case) but its download genuinely failed, so it's never cached.
+    const cardJsonWithThird = path.join(tmpDir, "card-with-unavailable.json");
+    fs.writeFileSync(
+      cardJsonWithThird,
+      JSON.stringify([
+        { name: "Card A", printings: [{ unique_id: "printing-a", id: "A001", set_id: "SET", image_url: "https://example.com/printing-a.png" }] },
+        { name: "Card B", printings: [{ unique_id: "printing-b", id: "B001", set_id: "SET", image_url: "https://example.com/printing-b.png" }] },
+        { name: "Card C", printings: [{ unique_id: "printing-c", id: "C001", set_id: "SET", image_url: "https://example.com/printing-c.webp" }] },
+      ]),
+    );
     const failuresPath = path.join(tmpDir, "download-failures.json");
     fs.writeFileSync(
       failuresPath,
-      JSON.stringify([{ printingId: "printing-missing", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/x.webp" }]),
+      JSON.stringify([{ printingId: "printing-c", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/printing-c.webp" }]),
     );
 
     const outDir = path.join(tmpDir, "out-coverage-unavailable");
     await generateCommand([
       "--config", path.join(tmpDir, "config.json"),
-      "--card-json", path.join(tmpDir, "card.json"),
+      "--card-json", cardJsonWithThird,
       "--images-cache-dir", path.join(tmpDir, "images"),
       "--out", outDir,
       "--coverage",
@@ -317,10 +329,48 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
     ]);
 
     const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
-    expect(report.totalEligible).toBe(2); // still only the 2 cached printings — unavailable one never enters the pool
+    expect(report.totalCatalogSize).toBe(3); // a, b, c
+    expect(report.totalEligible).toBe(2); // c excluded — unavailable upstream
     expect(report.unavailableUpstream).toEqual([
-      { printingId: "printing-missing", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/x.webp" },
+      { printingId: "printing-c", httpStatus: 403, reason: "fetch failed: HTTP 403 for https://example.com/printing-c.webp" },
     ]);
+    expect(report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length).toBe(report.totalCatalogSize);
+  });
+
+  it("BLOCKER 1 (PR #269 review round 1): a catalog printing that's neither cached nor in the download-failures manifest (e.g. a partial/--limit'd download run) is never invisible — it's accounted for in eligibleButNotPlaced, and the partition invariant holds against the full catalog", async () => {
+    const cardJsonWithUnattempted = path.join(tmpDir, "card-with-unattempted.json");
+    fs.writeFileSync(
+      cardJsonWithUnattempted,
+      JSON.stringify([
+        { name: "Card A", printings: [{ unique_id: "printing-a", id: "A001", set_id: "SET", image_url: "https://example.com/printing-a.png" }] },
+        { name: "Card B", printings: [{ unique_id: "printing-b", id: "B001", set_id: "SET", image_url: "https://example.com/printing-b.png" }] },
+        // printing-c: a real catalog member, but NEVER downloaded (no cache
+        // file) and NEVER recorded in a failures manifest — the exact
+        // "never attempted" case that used to vanish entirely.
+        { name: "Card C", printings: [{ unique_id: "printing-c", id: "C001", set_id: "SET", image_url: "https://example.com/printing-c.webp" }] },
+      ]),
+    );
+
+    const outDir = path.join(tmpDir, "out-coverage-vanishing");
+    await generateCommand([
+      "--config", path.join(tmpDir, "config.json"),
+      "--card-json", cardJsonWithUnattempted,
+      "--images-cache-dir", path.join(tmpDir, "images"),
+      "--out", outDir,
+      "--coverage",
+      "--composites-per-run", "10",
+      // deliberately NOT passing --download-failures — no manifest at all,
+      // the most common real state (before the first images:download run
+      // that writes one, or after any run that didn't attempt printing-c).
+    ]);
+
+    const report = JSON.parse(fs.readFileSync(path.join(outDir, "coverage-report.json"), "utf8"));
+    expect(report.totalCatalogSize).toBe(3);
+    const mentioned = new Set([...report.eligibleButNotPlaced, ...report.unavailableUpstream.map((u: { printingId: string }) => u.printingId)]);
+    expect(mentioned.has("printing-c")).toBe(true);
+    expect(report.eligibleButNotPlaced).toContain("printing-c");
+    // The invariant the review demanded, checkable from the artifact alone.
+    expect(report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length).toBe(report.totalCatalogSize);
   });
 
   it("fails loudly on --min-appearances 0 or a non-integer when --coverage is set (a garbage target must never silently produce a report)", async () => {

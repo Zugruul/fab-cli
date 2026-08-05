@@ -217,11 +217,20 @@ function loadDownloadFailures(downloadFailuresPath: string): UnavailablePrinting
   }
 }
 
-/** Every printing with BOTH a real image_url (catalog.ts's extraction
- * already filters this) AND an already-downloaded cache file — this CLI
- * only ever consumes APP-025's downloader output, never triggers a
- * download itself. */
-function resolveAvailableCards(cardJsonPath: string, imagesCacheDir: string): CardImageRef[] {
+export interface CatalogAndAvailableCards {
+  /** EVERY distinct printing the-fab-cube's vendored catalog knows about,
+   * independent of download/cache state (#268/#269: the denominator
+   * buildCoverageReport's three-state partition must sum to exactly —
+   * see coverageReport.ts's header). */
+  allPrintingIds: string[];
+  /** The subset with BOTH a real image_url (catalog.ts's extraction
+   * already filters this) AND an already-downloaded cache file — this CLI
+   * only ever consumes APP-025's downloader output, never triggers a
+   * download itself. */
+  available: CardImageRef[];
+}
+
+function resolveCatalogAndAvailableCards(cardJsonPath: string, imagesCacheDir: string): CatalogAndAvailableCards {
   const cards = loadCardsFromFile(cardJsonPath);
   const refs = extractPrintingImageRefs(cards);
   const available: CardImageRef[] = [];
@@ -229,7 +238,7 @@ function resolveAvailableCards(cardJsonPath: string, imagesCacheDir: string): Ca
     const cachePath = cachePathFor(imagesCacheDir, ref);
     if (fs.existsSync(cachePath)) available.push({ printingId: ref.printingId, imagePath: cachePath });
   }
-  return available;
+  return { allPrintingIds: refs.map((r) => r.printingId), available };
 }
 
 /**
@@ -278,8 +287,13 @@ export async function generateCommand(argv: string[]): Promise<number> {
   if (args.coverage && (!Number.isInteger(args.minAppearances) || args.minAppearances <= 0)) {
     throw new Error(`composites generate: --min-appearances must be a positive integer (got ${args.minAppearances})`);
   }
+  // #269 review round 1 MINOR 3: fail before planning/rendering, not deep
+  // inside sharp's first jpeg() encode call after a full run already ran.
+  if (args.imageFormat === "jpeg" && (!Number.isFinite(args.jpegQuality) || args.jpegQuality < 1 || args.jpegQuality > 100)) {
+    throw new Error(`composites generate: --jpeg-quality must be a number in [1, 100] (got ${args.jpegQuality})`);
+  }
 
-  const availableCards = resolveAvailableCards(args.cardJsonPath, args.imagesCacheDir);
+  const { allPrintingIds, available: availableCards } = resolveCatalogAndAvailableCards(args.cardJsonPath, args.imagesCacheDir);
   if (availableCards.length === 0) {
     throw new Error(
       `composites generate: no cached printing images found under ${args.imagesCacheDir} — run "npm run images:download" first (APP-025)`,
@@ -314,12 +328,13 @@ export async function generateCommand(argv: string[]): Promise<number> {
     // re-download whose manifest overwrite this run happens to predate).
     const availableIds = new Set(availableCards.map((c) => c.printingId));
     const unavailableUpstream = loadDownloadFailures(args.downloadFailuresPath).filter((u) => !availableIds.has(u.printingId));
-    const report = buildCoverageReport(availableCards, coverageTracker, args.minAppearances, unavailableUpstream);
+    const report = buildCoverageReport(allPrintingIds, availableCards, coverageTracker, args.minAppearances, unavailableUpstream);
     fs.writeFileSync(path.join(args.outDir, "coverage-report.json"), JSON.stringify(report, null, 2) + "\n");
     console.log(
       `coverage: ${report.covered}/${report.totalEligible} eligible printings reached >= ${report.minAppearances} appearances ` +
         `(min=${report.minObservedAppearances}, max=${report.maxObservedAppearances}); ` +
-        `${report.eligibleButNotPlaced.length} eligibleButNotPlaced, ${report.unavailableUpstream.length} unavailableUpstream`,
+        `${report.eligibleButNotPlaced.length} eligibleButNotPlaced, ${report.unavailableUpstream.length} unavailableUpstream ` +
+        `(catalog: ${report.totalCatalogSize} printings — ${report.covered + report.eligibleButNotPlaced.length + report.unavailableUpstream.length} accounted for)`,
     );
   }
 
