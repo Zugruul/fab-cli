@@ -271,6 +271,10 @@ function planOneZoneComposite(
     // order, so there is no legacy rng-stream shape to preserve by
     // drawing-and-discarding a value here.
     lighting: { brightnessDelta: 0, contrastDelta: 0 },
+    // Same scope decision, #289: no blur augmentation in zone-layout mode
+    // either — this planning function's own fixed draw order has never
+    // drawn a lighting or blur value, so there's nothing to preserve here.
+    blur: null,
     cards,
   };
 }

@@ -39,9 +39,45 @@ function params(overrides: Partial<CompositeParams> = {}): CompositeParams {
     height: 100,
     background: { type: "solid", colorA: [50, 50, 50], colorB: [200, 200, 200], angleDeg: 0, noiseSeed: 0 },
     lighting: { brightnessDelta: 0, contrastDelta: 0 },
+    blur: null,
     cards: [placement()],
     ...overrides,
   };
+}
+
+// #289: a solid-color card has zero Laplacian variance regardless of blur
+// (nothing high-frequency to remove), so it can't distinguish "blur
+// applied" from "blur no-op'd" — this gives blur real texture to act on.
+function checkerCard(printingId: string, width: number, height: number): LoadedCard {
+  const data = new Uint8ClampedArray(width * height * 4);
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      const i = (y * width + x) * 4;
+      const on = (Math.floor(x / 3) + Math.floor(y / 3)) % 2 === 0;
+      const v = on ? 255 : 0;
+      data[i] = v;
+      data[i + 1] = v;
+      data[i + 2] = v;
+      data[i + 3] = 255;
+    }
+  }
+  return { printingId, image: { width, height, data } };
+}
+
+function laplacianVariance(img: RawImage): number {
+  const { width, height, data } = img;
+  const lum = (x: number, y: number): number => {
+    const i = (y * width + x) * 4;
+    return 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+  };
+  const responses: number[] = [];
+  for (let y = 1; y < height - 1; y++) {
+    for (let x = 1; x < width - 1; x++) {
+      responses.push(-4 * lum(x, y) + lum(x - 1, y) + lum(x + 1, y) + lum(x, y - 1) + lum(x, y + 1));
+    }
+  }
+  const mean = responses.reduce((a, b) => a + b, 0) / responses.length;
+  return responses.reduce((a, b) => a + (b - mean) ** 2, 0) / responses.length;
 }
 
 describe("renderComposite — label fidelity (single card)", () => {
@@ -409,5 +445,71 @@ describe("renderComposite — output format (#268)", () => {
     const card = solidCard("card-a", 20, 30, [10, 20, 30]);
     const { label } = renderComposite(params(), [card], 0, undefined, "jpeg");
     expect(label.fileName).toBe("composite-0000.jpg");
+  });
+});
+
+// #289: blur augmentation wiring. The highest-risk failure mode named in
+// the issue is a blur implementation that ALSO perturbs the label (quad
+// corners, visibleFraction, excludedCards) — blur must be pixels-only.
+describe("renderComposite — blur (#289)", () => {
+  it("params.blur=null renders identically to a pre-#289 call (no blur applied)", () => {
+    const card = checkerCard("card-a", 60, 84);
+    const p = params({ width: 200, height: 200, cards: [placement({ cardHeightFrac: 0.6 })], blur: null });
+    const { image } = renderComposite(p, [card]);
+    // Sanity: the checker pattern's high-frequency content actually
+    // survives un-blurred (a real assertion on the image, not just "it
+    // rendered") — this is the baseline the blurred case below is
+    // compared against.
+    expect(laplacianVariance(image)).toBeGreaterThan(1000);
+  });
+
+  it("params.blur={sigma} measurably reduces the rendered image's sharpness (direction + magnitude, not just 'pixels changed')", () => {
+    const card = checkerCard("card-a", 60, 84);
+    const basePlacement = placement({ cardHeightFrac: 0.6 });
+    const sharp = renderComposite(params({ width: 200, height: 200, cards: [basePlacement], blur: null }), [card]);
+    const blurred = renderComposite(params({ width: 200, height: 200, cards: [basePlacement], blur: { sigma: 3 } }), [card]);
+
+    const sharpVariance = laplacianVariance(sharp.image);
+    const blurredVariance = laplacianVariance(blurred.image);
+    expect(blurredVariance).toBeLessThan(sharpVariance * 0.5);
+  });
+
+  // THE key lock (#289 brief item 5, "highest-risk silent failure"): blur
+  // changes pixels only. Quad corners, visibleFraction, excludedCards, and
+  // every other label field must be byte-identical whether blur fires or
+  // not, for otherwise-identical params — a detector-relevant desync
+  // between what compositor.ts labels and what it renders would be a much
+  // worse bug than a wrong sharpness number.
+  it("LABELS ARE UNAFFECTED: blur on vs off produces byte-identical labels for otherwise-identical params, while the images differ", () => {
+    const card = checkerCard("card-a", 60, 84);
+    const p = params({
+      width: 200,
+      height: 200,
+      cards: [placement({ rotationDeg: 12, perspectiveLeftFrac: 0.08, cardHeightFrac: 0.6 })],
+    });
+    const withoutBlur = renderComposite({ ...p, blur: null }, [card]);
+    const withBlur = renderComposite({ ...p, blur: { sigma: 2.5 } }, [card]);
+
+    expect(JSON.stringify(withBlur.label)).toEqual(JSON.stringify(withoutBlur.label));
+    // And blur actually did something to the pixels — otherwise the label
+    // equality above would be true for a trivially broken (no-op) blur too.
+    expect(withBlur.image.data).not.toEqual(withoutBlur.image.data);
+  });
+
+  it("LABELS ARE UNAFFECTED even with multiple overlapping/excluded cards (minVisibleFraction filtering)", () => {
+    const cardA = checkerCard("card-a", 60, 84);
+    const cardB = checkerCard("card-b", 60, 84);
+    const p = params({
+      width: 200,
+      height: 200,
+      cards: [
+        placement({ printingId: "card-a", centerXFrac: 0.5, centerYFrac: 0.5, cardHeightFrac: 0.6 }),
+        placement({ printingId: "card-b", imagePath: "/images/card-b.png", centerXFrac: 0.52, centerYFrac: 0.5, cardHeightFrac: 0.6 }),
+      ],
+    });
+    const withoutBlur = renderComposite({ ...p, blur: null }, [cardA, cardB], 0.15);
+    const withBlur = renderComposite({ ...p, blur: { sigma: 2 } }, [cardA, cardB], 0.15);
+
+    expect(JSON.stringify(withBlur.label)).toEqual(JSON.stringify(withoutBlur.label));
   });
 });

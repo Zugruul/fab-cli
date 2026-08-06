@@ -36,7 +36,14 @@
  *      regardless of whether any backgrounds are configured/available
  *   5. lighting brightnessDelta, contrastDelta (once per composite, a
  *      scene-wide adjustment)
- *   6. per card, in order: rotationDeg, scale, a FRESH position
+ *   6. blur roll + sigma draw (#289, once per composite — a scene-wide
+ *      camera-focus effect, not a per-card one, same "once per composite"
+ *      shape as lighting above rather than glare/sleeve's per-card
+ *      roll) — ALWAYS drawn (2 rng() calls) regardless of
+ *      config.blurProbability's value, same "always draw, maybe discard"
+ *      discipline as every other probability-gated knob, so toggling it
+ *      never reshuffles the per-card draws below for a fixed seed
+ *   7. per card, in order: rotationDeg, scale, a FRESH position
  *      (centerXFrac, centerYFrac) always drawn (even when about to be
  *      discarded in favor of an overlap position) so the stream's shape
  *      doesn't depend on which branch downstream config knobs select,
@@ -137,12 +144,20 @@ export interface LightingParams {
   contrastDelta: number;
 }
 
+/** #289: per-composite Gaussian blur draw — null when this composite's
+ * blur roll didn't clear config.blurProbability (compositor.ts applies no
+ * blur in that case); present with the drawn sigma when it did. See this
+ * module's header, draw step 6, for why this is drawn ONCE per composite
+ * (a scene-wide effect) rather than per card. */
+export type BlurParams = { sigma: number } | null;
+
 export interface CompositeParams {
   compositeId: string;
   width: number;
   height: number;
   background: BackgroundParams;
   lighting: LightingParams;
+  blur: BlurParams;
   cards: CardPlacement[];
 }
 
@@ -199,6 +214,13 @@ function planOneComposite(
     brightnessDelta: inRange(rng, config.lighting.brightnessDelta),
     contrastDelta: inRange(rng, config.lighting.contrastDelta),
   };
+
+  // #289: ALWAYS drawn (roll + sigma), even when the roll is about to be
+  // discarded because it didn't clear blurProbability — see this module's
+  // header, draw step 6.
+  const blurRoll = rng();
+  const blurSigmaDraw = inRange(rng, config.blurSigma);
+  const blur: BlurParams = blurRoll < config.blurProbability ? { sigma: blurSigmaDraw } : null;
 
   const cards: CardPlacement[] = [];
   for (let i = 0; i < chosen.length; i++) {
@@ -262,6 +284,7 @@ function planOneComposite(
     height: config.outputSize.height,
     background,
     lighting,
+    blur,
     cards,
   };
 }

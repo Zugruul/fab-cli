@@ -75,6 +75,45 @@ export interface GeneratorConfig {
    * truncation/crowd handling). Revisit once real training runs give
    * evidence either way. */
   minVisibleFraction: number;
+  /** Probability [0,1] that per-composite Gaussian blur (rawImage.ts's
+   * applyGaussianBlur) fires for a given composite — mirrors
+   * glareProbability/perspectiveProbability's shape, but this knob gates
+   * a composite-WIDE effect, not a per-card one (#289: real-photo blur is
+   * dominated by the whole scene's camera focus/hand shake, not by
+   * per-card depth-of-field — see paramStream.ts's draw-order doc and
+   * compositor.ts's call site for the full reasoning). ALWAYS drawn (a
+   * roll + a sigma draw, 2 rng() calls) regardless of this probability's
+   * value, same "always draw, maybe discard" discipline as every other
+   * probability-gated knob in this config. */
+  blurProbability: number;
+  /** Sigma (pixels, on the full outputSize canvas) drawn per composite
+   * when blur fires — mirrors perspectiveStrength's RangeConfig shape.
+   * Randomized per composite (not a single fixed constant) so the run's
+   * sharpness distribution varies composite-to-composite the way real
+   * photos range from sharp to soft, rather than clustering at one blur
+   * level (#289). Tuned against a real sharpness measurement (Laplacian
+   * variance of letterboxed card crops), not picked from the issue's
+   * single sensitivity-probe sigma.
+   *
+   * MEASURED, and the reason the committed value is SMALL (#289 close-out
+   * — read this before raising it). #279's scale widening already closed
+   * almost all of the synthetic->real sharpness gap on its own: bigger
+   * cards mean the source art is upscaled, so per-pixel high-frequency
+   * detail drops without any blur at all. Card-crop Laplacian variance,
+   * 60-composite runs at the committed scale range:
+   *
+   *   synthetic, OLD narrow scale   p25 5658  median 10545  p75 12308
+   *   synthetic, NEW scale, NO blur p25 2177  median  3733  p75  7422
+   *   synthetic, NEW scale + blur   p25 2050  median  3629  p75  7044
+   *   REAL benchmark photos         p25 2061  median  3628  p75  4644
+   *
+   * So the 2.9x gap #289 was filed against was an artifact of the old
+   * narrow scale range, not a missing blur augmentation. What survives is
+   * a mild sharpness spread that this knob supplies. For scale: the
+   * originally-committed 0.85 / [0.5, 2.5] produced median 78 — roughly
+   * 46x TOO BLURRY, i.e. unusable training data. Re-measure against real
+   * card crops before changing these numbers; do not reason about them. */
+  blurSigma: RangeConfig;
 }
 
 export type ValidateConfigResult = { valid: true; config: GeneratorConfig } | { valid: false; errors: string[] };
@@ -172,6 +211,8 @@ export function validateGeneratorConfig(raw: unknown): ValidateConfigResult {
 
   checkProbability(errors, "externalBackgroundProbability", r.externalBackgroundProbability);
   checkProbability(errors, "minVisibleFraction", r.minVisibleFraction);
+  checkProbability(errors, "blurProbability", r.blurProbability);
+  checkRange(errors, "blurSigma", r.blurSigma, { minAllowed: 0 });
 
   if (errors.length > 0) return { valid: false, errors };
   return { valid: true, config: r as unknown as GeneratorConfig };

@@ -29,6 +29,8 @@ function baseConfig(overrides: Partial<GeneratorConfig> = {}): GeneratorConfig {
     backgroundsDir: null,
     externalBackgroundProbability: 0,
     minVisibleFraction: 0.15,
+    blurProbability: 0,
+    blurSigma: { min: 0.5, max: 2.5 },
     ...overrides,
   };
 }
@@ -150,6 +152,53 @@ describe("planRun — respects config ranges", () => {
   it("chooses a backgroundType from the configured list", () => {
     const plans = planRun(baseConfig({ backgroundTypes: ["solid"] }), cards(6));
     for (const p of plans) expect(p.background.type).toBe("solid");
+  });
+});
+
+// #289: per-composite blur draw. Unlike glare/sleeve (per-CARD tags),
+// blur is drawn once per COMPOSITE (a global scene-wide effect — see
+// config.ts's blurProbability doc for why) — mirrors `lighting`'s shape
+// (one draw per composite) more than glareProbability's (one roll per
+// card).
+describe("planRun — blur (#289)", () => {
+  it("blurProbability=0 always yields blur=null", () => {
+    const config = baseConfig({ compositesPerRun: 10, blurProbability: 0 });
+    const plans = planRun(config, cards(6));
+    for (const p of plans) expect(p.blur).toBeNull();
+  });
+
+  it("blurProbability=1 always yields a non-null blur with sigma within [blurSigma.min, max]", () => {
+    const config = baseConfig({ compositesPerRun: 10, blurProbability: 1, blurSigma: { min: 0.4, max: 3.1 } });
+    const plans = planRun(config, cards(6));
+    let sawVariation = false;
+    let prevSigma: number | null = null;
+    for (const p of plans) {
+      expect(p.blur).not.toBeNull();
+      const sigma = p.blur!.sigma;
+      expect(sigma).toBeGreaterThanOrEqual(0.4);
+      expect(sigma).toBeLessThanOrEqual(3.1);
+      if (prevSigma !== null && sigma !== prevSigma) sawVariation = true;
+      prevSigma = sigma;
+    }
+    // "must not be uniform across the run" (issue #289) — sigma is
+    // RANDOMIZED per composite, not one fixed value repeated every time.
+    expect(sawVariation).toBe(true);
+  });
+
+  it("is deterministic given the same seed + config", () => {
+    const config = baseConfig({ compositesPerRun: 5, blurProbability: 0.5, blurSigma: { min: 0.2, max: 2 } });
+    const a = planRun(config, cards(6));
+    const b = planRun(config, cards(6));
+    expect(JSON.stringify(a.map((p) => p.blur))).toEqual(JSON.stringify(b.map((p) => p.blur)));
+  });
+
+  it("SHAPE INVARIANT: toggling blurProbability (0 vs 1) does not change any card's placement fields or lighting for a given seed — the roll+sigma draw is ALWAYS consumed regardless of probability", () => {
+    const seed = 4242;
+    const withoutBlur = planRun(baseConfig({ seed, blurProbability: 0, compositesPerRun: 5 }), cards(6));
+    const withBlur = planRun(baseConfig({ seed, blurProbability: 1, compositesPerRun: 5 }), cards(6));
+    expect(JSON.stringify(withoutBlur.map((p) => p.cards))).toEqual(JSON.stringify(withBlur.map((p) => p.cards)));
+    expect(JSON.stringify(withoutBlur.map((p) => p.lighting))).toEqual(JSON.stringify(withBlur.map((p) => p.lighting)));
+    expect(JSON.stringify(withoutBlur.map((p) => p.background))).toEqual(JSON.stringify(withBlur.map((p) => p.background)));
   });
 });
 

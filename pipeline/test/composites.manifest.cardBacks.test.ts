@@ -34,6 +34,10 @@ const baseConfig = {
   perspectiveProbability: 0,
   perspectiveStrength: { min: 0, max: 0.5 },
   glareProbability: 0,
+  // #289: required GeneratorConfig knobs; probability 0 keeps this
+  // fixture behaviourally identical to pre-#289.
+  blurProbability: 0,
+  blurSigma: { min: 0.1, max: 0.5 },
   sleeveProbability: 0,
   lighting: { brightnessDelta: { min: 0, max: 0 }, contrastDelta: { min: 0, max: 0 } },
   backgroundTypes: ["solid"],

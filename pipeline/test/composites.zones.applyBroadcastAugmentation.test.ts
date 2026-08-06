@@ -45,6 +45,7 @@ function plan(overrides: Partial<CompositeParams> = {}): CompositeParams {
     height: 100,
     background: { type: "external", fileName: "bg.png", contentHash: "hash" },
     lighting: { brightnessDelta: 0, contrastDelta: 0 },
+    blur: null,
     cards: [],
     ...overrides,
   };
