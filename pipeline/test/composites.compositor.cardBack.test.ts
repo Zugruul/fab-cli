@@ -44,6 +44,7 @@ function params(overrides: Partial<CompositeParams> = {}): CompositeParams {
     height: 100,
     background: { type: "solid", colorA: [50, 50, 50], colorB: [200, 200, 200], angleDeg: 0, noiseSeed: 0 },
     lighting: { brightnessDelta: 0, contrastDelta: 0 },
+    blur: null,
     cards: [placement()],
     ...overrides,
   };

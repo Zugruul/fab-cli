@@ -34,6 +34,10 @@ function config(): GeneratorConfig {
     perspectiveProbability: 0,
     perspectiveStrength: { min: 0, max: 0.1 },
     glareProbability: 0,
+    // #289: blur augmentation knobs are required on GeneratorConfig;
+    // probability 0 keeps these fixtures byte-identical to pre-#289.
+    blurProbability: 0,
+    blurSigma: { min: 0.5, max: 2.5 },
     sleeveProbability: 0,
     lighting: { brightnessDelta: { min: 0, max: 0 }, contrastDelta: { min: 0, max: 0 } },
     backgroundTypes: ["solid"],

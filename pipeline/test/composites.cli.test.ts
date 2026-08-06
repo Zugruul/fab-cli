@@ -148,6 +148,10 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
         perspectiveProbability: 0.2,
         perspectiveStrength: { min: 0, max: 0.15 },
         glareProbability: 0.2,
+        // #289: required GeneratorConfig knobs; probability 0 keeps this
+        // fixture behaviourally identical to pre-#289.
+        blurProbability: 0,
+        blurSigma: { min: 0.1, max: 0.5 },
         sleeveProbability: 0.2,
         lighting: { brightnessDelta: { min: -0.05, max: 0.05 }, contrastDelta: { min: -0.05, max: 0.05 } },
         backgroundTypes: ["solid", "gradient", "noise", "texture"],
@@ -406,6 +410,10 @@ describe("generateCommand + sampleSheetCommand — real end-to-end (tiny synthet
         perspectiveProbability: 0,
         perspectiveStrength: { min: 0, max: 0 },
         glareProbability: 0,
+        // #289: required GeneratorConfig knobs; probability 0 keeps this
+        // fixture behaviourally identical to pre-#289.
+        blurProbability: 0,
+        blurSigma: { min: 0.1, max: 0.5 },
         sleeveProbability: 0,
         lighting: { brightnessDelta: { min: 0, max: 0 }, contrastDelta: { min: 0, max: 0 } },
         backgroundTypes: ["solid"],

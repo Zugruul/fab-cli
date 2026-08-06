@@ -20,6 +20,6 @@
   "backgroundsDir": null,
   "externalBackgroundProbability": 0,
   "minVisibleFraction": 0.15,
-  "blurProbability": 0.85,
-  "blurSigma": { "min": 0.5, "max": 2.5 }
+  "blurProbability": 0.5,
+  "blurSigma": { "min": 0.1, "max": 0.5 }
 }
