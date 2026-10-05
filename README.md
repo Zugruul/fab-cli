@@ -14,7 +14,7 @@ Training/export/eval runs dispatch to a GPU machine through the generic
 `remote-compute` engine + `slm-training` capability bundle (both in the
 development-skills repo). **All machine-local state is gitignored** — the
 user-level registry (`~/.remote-compute/`) and this repo's
-`.claude/project.local.yaml` availability overlay — so a fresh clone or a new
+`.neural-network/project.local.yaml` availability overlay — so a fresh clone or a new
 machine must be set up once before any training dispatch works.
 
 The engine + bundle come from the companion repo
@@ -32,7 +32,7 @@ WSL gotchas) lives in the project skill:
   — in a Claude Code session: `/remote-compute-setup`; it is equally readable
   as a human runbook.
 
-Quick health check on an already-set-up clone: `.claude/project.local.yaml`
+Quick health check on an already-set-up clone: `.neural-network/project.local.yaml`
 exists and `python3 $DS/plugins/spec-workflow/scripts/remote-compute.py list`
 shows your machine — if either is missing, run the skill.
 

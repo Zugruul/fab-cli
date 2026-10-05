@@ -32,7 +32,7 @@ const PROCEDURE_DOCUMENTS = new Set(["trp", "ppg", "cpg", "legality"]);
  *    content from QA/DPO fact-training is a SEPARATE, later filter applied
  *    by assemble.ts, not something this pure category-mapping enforces.
  *  - `brain/**` chunk_ids (see sources/brains.ts), by the identity brains'
- *    established note-slug conventions (.claude/identities/<identity>/brain/notes
+ *    established note-slug conventions (.neural-network/identities/<identity>/brain/notes
  *    — e.g. `kw-dominate.md`, `card-heartstoker-branchblade.md`,
  *    `ci-steal-is-gain-control.md`): a `kw-` slug (or a `"keyword"` tag) ->
  *    "keyword-definitions"; a `card-` slug (or a `"card"` tag) ->

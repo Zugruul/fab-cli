@@ -37,7 +37,7 @@ function main() {
   const outDir = path.isAbsolute(out) ? out : path.join(import.meta.dirname, "..", out);
 
   const { chunks, chunksFullText, manifest } = runExport({
-    identitiesRoot: path.join(root, ".claude", "identities"),
+    identitiesRoot: path.join(root, ".neural-network", "identities"),
     kbRulesDir: path.join(root, "fab-cli", "kb", "rules"),
     loreDir: path.join(root, "fab-cli", "lore"),
     versionsTxtPath: path.join(root, "fab-cli", "third_party", "fab-rules", "VERSIONS.txt"),

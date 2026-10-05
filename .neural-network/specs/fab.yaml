@@ -1,0 +1,69 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Zugruul/development-skills/main/plugins/spec-workflow/schemas/project-config.schema.json#/properties/specs/items
+id: fab
+title: Hardening, Rules Knowledge & Coverage Tools
+board: main
+specPath: fab-cli/SPEC.md
+backlogPath: fab-cli/docs/BACKLOG.md
+taskPrefix: FAB
+epics:
+- id: E3
+  title: Player & judge identities
+  taskRanges:
+  - - 30
+    - 39
+  blockedBy: []
+- id: E0
+  title: Quality foundation
+  taskRanges:
+  - - 1
+    - 9
+  blockedBy: []
+- id: E1
+  title: CLI decomposition & UX
+  taskRanges:
+  - - 10
+    - 19
+  blockedBy:
+  - epic: E0
+    untilStatus: Deployed
+- id: E2
+  title: Knowledge bases (rules + cards)
+  taskRanges:
+  - - 20
+    - 29
+  blockedBy:
+  - epic: E1
+    untilStatus: Deployed
+- id: E4
+  title: Live follow CLI
+  taskRanges:
+  - - 40
+    - 49
+  blockedBy:
+  - epic: E1
+    untilStatus: Deployed
+- id: E5
+  title: Fabrary analysis
+  taskRanges:
+  - - 50
+    - 59
+  blockedBy:
+  - epic: E1
+    untilStatus: Deployed
+- id: EI
+  title: Infra reserve
+  taskRanges:
+  - - 90
+    - 99
+  blockedBy: []
+invariants:
+- Never answer a Flesh & Blood rules, lore, or card-legality question from model memory or cached agent notes alone — every game-fact claim must cite a source retrieved from the local KB or a live official page at answer time.
+- Card legality (bans, Living Legend rotation) must be re-fetched live from https://fabtcg.com/rules-and-policy-center/card-legality-policy/ every time it is asserted — never served from cache, brain notes, or memory; brain notes may only point at the policy, never enumerate it.
+- Never mix content from other card games (Magic:The Gathering, Pokémon TCG, Yu-Gi-Oh!, One Piece TCG, or any other) into FAB code, KB, brains, or answers.
+- All merge-gating tests must pass with the network disabled; live HTTP happens only behind explicit user commands, never in the gate.
+- Respect upstream services — AppSync GraphQL concurrency ≤4 with retry/backoff (WAF 403s are rate limits, not auth failures — never re-login to fix them); fabtcg.com ≤5 concurrent with browser headers.
+- The CLI must keep running via bin/fab.js + tsx with no build step; `npm i -g . --force` remains the install path.
+- When rules passages do not clearly settle a question, the answer must say so and point to the judge Discord
+- Doubts involving specific cards resolve by consulting the card sources for exact current text (third_party/flesh-and-blood-cards + Card Vault rulings), reviewing the relevant CR rules, and deriving the interaction from text + rules together — never from remembered card text.
+- 'Knowledge flows one way between the advisory brains: the JUDGE brain is the source of truth for rules/keyword knowledge; the player asks the judge when in doubt; the judge, when in doubt, consults the official documents and updates its own notes; the judge NEVER learns from the player — player suggestions enter the judge brain only after confirmation against the real documents.'
+- 'Vendored knowledge submodules (third_party/fablore, third_party/flesh-and-blood-cards) and the rules KB must be kept regularly up to date: refresh before use when older than their TTL (24h default), commit pin bumps; stale vendored data must never silently answer a freshness-sensitive question.'

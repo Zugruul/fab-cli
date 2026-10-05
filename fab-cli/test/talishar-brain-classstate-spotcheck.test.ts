@@ -4,10 +4,10 @@ import { describe, expect, it } from "vitest";
 import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 
 // §10 I6: this test must never touch third_party/talishar* or the network.
-// It reads only committed brain-note markdown under .claude/identities/talishar/brain/notes/.
+// It reads only committed brain-note markdown under .neural-network/identities/talishar/brain/notes/.
 const NOTES_DIR = join(
   MONOREPO_ROOT,
-  ".claude",
+  ".neural-network",
   "identities",
   "talishar",
   "brain",

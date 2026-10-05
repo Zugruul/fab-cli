@@ -103,11 +103,11 @@ entire card corpus is within the spirit of a "card database" grant that literall
 ## (c) Own-authored brain notes (judge / player / card-vault identities)
 
 **What it is.** The judge, player, and card-vault identity brains' notes
-(`.claude/identities/{judge,player,card-vault}/brain/notes/*.md`) — interaction rulings,
+(`.neural-network/identities/{judge,player,card-vault}/brain/notes/*.md`) — interaction rulings,
 keyword-definition notes, strategy notes, and card notes, written by the user (project
 maintainer) as original analysis and commentary, per the project's own knowledge-flow rules
 (judge brain is the rules source of truth, notes cite CR/TRP/PPG sections and Card Vault
-rulings per `.claude/identities/KEYWORD-SYNC.md` and the project's CLAUDE.md).
+rulings per `.neural-network/identities/KEYWORD-SYNC.md` and the project's CLAUDE.md).
 
 **Whose rights.** The user's own — this is original authored content, not a redistribution of
 someone else's copyrighted expression. Individual notes do quote or closely paraphrase short

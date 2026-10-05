@@ -1,0 +1,126 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Zugruul/development-skills/main/plugins/spec-workflow/schemas/project-config.schema.json
+schemaVersion: "2.0.0"
+project:
+    name: fab-cli
+    description: TypeScript CLI for the Flesh & Blood TCG — fabrary.net deck/card/meta search, fabtcg.com tournament coverage, lore + official-rules knowledge bases
+    mainBranch: main
+    branchPattern: fab/<id>-<slug>
+boards:
+-   id: main
+    provider: github-project
+    owner: Zugruul
+    repo: Zugruul/fab-cli
+    projectNumber: 4
+    projectId: PVT_kwHOAL1A3M4Bc3Ze
+    fields:
+        status:
+            fieldId: PVTSSF_lAHOAL1A3M4Bc3ZezhXdFmY
+            options:
+                Backlog: 3cf5d510
+                In progress: d9e7b786
+                In review: f48a6458
+                QA: da295a16
+                Ready: 1faf18b6
+                Deployed: c7e2caf4
+        priority:
+            fieldId: PVTSSF_lAHOAL1A3M4Bc3ZezhXj7k0
+            options:
+                P0: 3c9a49a0
+                P1: a61159a7
+                P2: 748c7dc0
+        estimate:
+            fieldId: PVTF_lAHOAL1A3M4Bc3ZezhXj7k4
+    statusFlow:
+    - Backlog
+    - In progress
+    - In review
+    - QA
+    - Ready
+    - Deployed
+    labels:
+        bug: type:bug
+        feature: type:feature
+commands:
+    gate: npm run gate
+    gateFast: npm run test:run
+    test: npm run test:run
+docs:
+-   id: root
+    path: README.md
+    covers:
+    - '**'
+    notes: user-facing usage + install; update when commands or behavior change
+-   id: agent-guide
+    path: CLAUDE.md
+    covers:
+    - '**'
+    notes: agent-facing command reference + API/domain knowledge; update when command surface or API behavior changes
+delegation:
+    identities:
+        dev:
+        -   name: Dev Agent - {name}
+            email: '{local}+dev_agent@{domain}'
+            models:
+            - claude-sonnet-5
+        reviewer:
+            name: Reviewer Agent - {name}
+            email: '{local}+reviewer_agent@{domain}'
+            models:
+            - claude-sonnet-5
+            - claude-sonnet-5[1m]
+        orchestrator:
+            name: Orchestrator Agent - {name}
+            email: '{local}+orchestrator_agent@{domain}'
+        player:
+            name: Player Agent - {name}
+            email: '{local}+player_agent@{domain}'
+        judge:
+            name: Judge Agent - {name}
+            email: '{local}+judge_agent@{domain}'
+        talishar:
+            name: Talishar Agent - {name}
+            email: '{local}+talishar_agent@{domain}'
+paths:
+    handoffDir: docs/handoffs
+    checkpointFile: .claude/CHECKPOINT
+    designDir: docs/design
+    specDeltaDir: docs/spec-deltas
+    devDoc: docs/DEV.md
+methodology:
+  entityKinds:
+    card: card-vault
+    keyword: card-vault
+  tdd: true
+  maxInProgress: 2
+  autoMerge: true
+  mergeMethod: squash
+  feedback: true
+  serialDelivery: true
+assistant:
+    version: 1
+    enabled: true
+    names: ["fab-io", "fabio", "fah-byoo"]
+    systemPrompt: "You are fab-io (aliases: fabio, fah-byoo — the Brazilian Portuguese pronunciation), the Flesh & Blood TCG specialist assistant for this repository. fab-cli is a CLI for FaB deck/card search and meta analysis (fabrary.net), tournament coverage (fabtcg.com), official Card Vault true text/rulings, and TCGplayer-vs-Cardmarket price comparison. Answer FaB questions (rules, cards, decks, meta, tournaments, lore, prices) using the CLI and vendored knowledge sources, never from unchecked model memory: card text/rulings/legality always come from Card Vault and the live legality page, never a guess; lore is answered only from the vendored fablore archive with source_url citations; hero class/talent/format legality is always resolved from live data. The judge brain is the source of truth for rules/keyword knowledge and never learns from the player."
+    llm:
+        provider: "claude"
+        model: "claude-sonnet-5"
+    capabilities:
+        claude-code:
+            enabled: true
+            provisioning:
+                bin: "claude"
+        codex:
+            enabled: false
+            provisioning:
+                bin: "codex"
+    observability:
+        metrics:
+            prometheus:
+                enabled: true
+                host: "127.0.0.1"
+                port: 9464
+        traces:
+            sqlite:
+                enabled: true
+                retainDays: 30
+                maxMB: 500

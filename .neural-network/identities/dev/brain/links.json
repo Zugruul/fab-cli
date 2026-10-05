@@ -1,0 +1,247 @@
+{
+  "adversarial-fixture-orderings-for-invariants->boundary-convention-before-first-test": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "adversarial-fixture-orderings-for-invariants->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "bash-if-guard-disables-errexit-in-function->per-item-loop-three-default-cases": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "bash-if-guard-disables-errexit-in-function->shell-test-vitest-path-shims": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "boundary-convention-before-first-test->shared-schema-diff-sibling-protocols": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "boundary-convention-before-first-test->test-knob-intersections": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "cannot-determine-is-not-safe->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "exact-pixel-counts-need-uniform-fixtures->boundary-convention-before-first-test": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "exact-pixel-counts-need-uniform-fixtures->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "exhaustive-pattern-tables->test-must-falsify": {
+    "fires": 6,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "git-remote-repair-set-url-or-add->shell-test-vitest-path-shims": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "human-surface-needs-human-surface-verification->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "macos-missing-binary-tests-need-empty-path->shell-test-vitest-path-shims": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "mechanism-correct-but-never-triggered->looks-right-is-a-prompt-to-measure": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "mechanism-correct-but-never-triggered->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "mutation-check-your-own-regression-fix->no-guard-code-is-an-unstated-invariant": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "mutation-check-your-own-regression-fix->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "named-invariant-tags->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "no-guard-code-is-an-unstated-invariant->adversarial-fixture-orderings-for-invariants": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "no-guard-code-is-an-unstated-invariant->boundary-convention-before-first-test": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "per-item-loop-three-default-cases->bash-if-guard-disables-errexit-in-function": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "pricing-cache-contract->scoped-green-verification": {
+    "fires": 9,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "prototype-toolchain-on-disposable-model->read-producers-real-bytes-before-fixtures": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "read-consumer-before-designing-schema-fields->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "read-consumer-before-designing-schema-fields->shared-schema-diff-sibling-protocols": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "read-producers-real-bytes-before-fixtures->test-knob-intersections": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "reference-guards-before-handoff->boundary-convention-before-first-test": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "reference-guards-before-handoff->test-knob-intersections": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "regex-fix-scan-whole-file->scoped-green-verification": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "run-the-real-thing-past-green-tests->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "run-the-real-thing-past-green-tests->test-knob-intersections": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "scoped-green-verification->pricing-cache-contract": {
+    "fires": 9,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "shared-schema-diff-sibling-protocols->boundary-convention-before-first-test": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "shell-test-vitest-path-shims->git-remote-repair-set-url-or-add": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "shell-test-vitest-path-shims->macos-missing-binary-tests-need-empty-path": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "sibling-pattern-parity->pricing-cache-contract": {
+    "fires": 1,
+    "last": "2026-07-16",
+    "weight": 0.5
+  },
+  "sibling-pattern-parity->untyped-api-optional-fields": {
+    "fires": 1,
+    "last": "2026-07-16",
+    "weight": 0.5
+  },
+  "stage-tests-first-at-first-git-add->red-commit-contains-only-test-path-files": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "stage-tests-first-at-first-git-add->review-staged-diff-before-commit-message-must-match": {
+    "fires": 1,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "tcgcsv-requires-user-agent->sibling-pattern-parity": {
+    "fires": 1,
+    "last": "2026-07-16",
+    "weight": 0.5
+  },
+  "test-conventions-dont-transfer-to-rn-bundle->read-producers-real-bytes-before-fixtures": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "test-knob-intersections->verify-vendor-id-uniqueness": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "test-must-falsify->untyped-api-optional-fields": {
+    "fires": 6,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "unbounded-cache-is-a-production-only-bug->mechanism-correct-but-never-triggered": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unbounded-cache-is-a-production-only-bug->verification-has-an-axis": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "untyped-api-optional-fields->pricing-cache-contract": {
+    "fires": 6,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "untyped-api-optional-fields->provider-prefixed-raw-types": {
+    "fires": 6,
+    "last": "2026-08-03",
+    "weight": 0.5
+  },
+  "verify-vendor-id-uniqueness->test-knob-intersections": {
+    "fires": 4,
+    "last": "2026-08-03",
+    "weight": 0.5
+  }
+}

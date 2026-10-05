@@ -4,8 +4,14 @@ import { describe, expect, it } from "vitest";
 import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 
 const ROOT = MONOREPO_ROOT;
-const BRAIN_DIR = join(ROOT, ".claude", "identities", "talishar", "brain");
-const PROJECT_YAML = join(ROOT, ".claude", "project.yaml");
+const BRAIN_DIR = join(
+  ROOT,
+  ".neural-network",
+  "identities",
+  "talishar",
+  "brain",
+);
+const PROJECT_YAML = join(ROOT, ".neural-network", "project.yaml");
 
 const INVARIANT_I1 =
   "Never open, mark ready, approve, or merge pull requests on Talishar org repositories; tooling pushes branches only to the user's forks and prepares PR title/body as text — a human creates every upstream PR.";

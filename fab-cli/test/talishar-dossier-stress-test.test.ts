@@ -20,7 +20,7 @@ import { MONOREPO_ROOT } from "./helpers/monorepoRoot";
 const DOSSIERS_DIR = join(MONOREPO_ROOT, ".claude", "talishar", "dossiers");
 const NOTES_DIR = join(
   MONOREPO_ROOT,
-  ".claude",
+  ".neural-network",
   "identities",
   "talishar",
   "brain",

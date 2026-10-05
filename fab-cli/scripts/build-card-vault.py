@@ -2,7 +2,7 @@
 """build-card-vault.py — generate the card-vault brain's card layer.
 
 One note per card ENTRY (name + pitch variant) in
-.claude/identities/card-vault/brain/notes/card-*.md, generated deterministically
+.neural-network/identities/card-vault/brain/notes/card-*.md, generated deterministically
 from the vendored corpus third_party/flesh-and-blood-cards
 (json/english/card.json). NO network, NO fabrary API — local corpus only.
 
@@ -66,11 +66,11 @@ def root():
 
 
 ROOT = root()
-NOTES = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "notes")
-LINKS = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "links.json")
-SCHEMA = os.path.join(ROOT, ".claude", "identities", ROLE, "brain", "SCHEMA.json")
+NOTES = os.path.join(ROOT, ".neural-network", "identities", ROLE, "brain", "notes")
+LINKS = os.path.join(ROOT, ".neural-network", "identities", ROLE, "brain", "links.json")
+SCHEMA = os.path.join(ROOT, ".neural-network", "identities", ROLE, "brain", "SCHEMA.json")
 # third_party/ lives under fab-cli/ (post-APP-001 monorepo split); ROOT is the
-# git toplevel, one level above fab-cli/ -- .claude/identities stayed at that
+# git toplevel, one level above fab-cli/ -- .neural-network/identities stayed at that
 # toplevel but third_party/ did not.
 CORPUS = os.path.join(ROOT, "fab-cli", "third_party", "flesh-and-blood-cards",
                       "json", "english", "card.json")
@@ -339,7 +339,7 @@ keyword, pitch-N, cost-N (e.g. `brain.sh recall card-vault --keywords
 the corpus JSON + official rulings at https://cardvault.fabtcg.com/.
 
 Keywords: every card links to its [[kw-*]] notes (shared corpus, physical here,
-symlinked into judge/player — see .claude/identities/KEYWORD-SYNC.md).
+symlinked into judge/player — see .neural-network/identities/KEYWORD-SYNC.md).
 Heroes cross-link young/adult versions. Card legality: NEVER from notes — live
 policy page only (https://fabtcg.com/rules-and-policy-center/card-legality-policy/).
 """
@@ -511,9 +511,9 @@ def cmd_check():
              if f.startswith("card-") and f.endswith(".md") and f[:-3] not in notes]
     schema_text = json.dumps(schema, indent=1, sort_keys=True) + "\n"
     if not os.path.isfile(SCHEMA) or open(SCHEMA, encoding="utf-8").read() != schema_text:
-        stale.append(".claude/identities/card-vault/brain/SCHEMA.json")
+        stale.append(".neural-network/identities/card-vault/brain/SCHEMA.json")
     if not entity_index_is_fresh(ROOT, {"card": ROLE, "keyword": ROLE}):
-        stale.append(".claude/identities/entity-index.json")
+        stale.append(".neural-network/identities/entity-index.json")
     if stale or extra:
         for s in stale[:20]:
             print("STALE %s" % s)
