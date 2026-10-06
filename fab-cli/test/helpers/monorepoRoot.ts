@@ -2,7 +2,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 // APP-001: fab-cli became a pnpm-workspace package one level below the
-// monorepo root. `.claude/` (identities, skills, project.yaml, etc.) stays
+// monorepo root. `.neural-network/` (identities, project.yaml, specs) and `.claude/` (skills, local state) stay
 // at the monorepo root — it does not move into fab-cli — so any test that
 // reads under `.claude/` needs the root, not `process.cwd()`. cwd is NOT a
 // reliable stand-in for "the fab-cli package dir": it holds for `pnpm -r`

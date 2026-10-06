@@ -2,7 +2,7 @@
 """keyword-sync.py — one physical keyword corpus, symlinked into every brain.
 
 The kw-*.md notes and the generated keywords-index.md live PHYSICALLY in the
-card-vault brain (.claude/identities/card-vault/brain/notes/). Every other
+card-vault brain (.neural-network/identities/card-vault/brain/notes/). Every other
 brain that holds them (judge, player) has RELATIVE SYMLINKS to those files, so
 all brains read literally the same bytes — desync between brains is
 structurally impossible.
@@ -12,7 +12,7 @@ EDITORIAL AUTHORITY is unchanged: only the JUDGE decides keyword content
 (e.g. `brain.sh mint` over a kw slug in any brain) rewrites the single
 physical file — that is why mint/hand-edits on kw-* outside the judge's
 editorial process are forbidden. The committed manifest exists to catch
-unauthorized content changes. See .claude/identities/KEYWORD-SYNC.md.
+unauthorized content changes. See .neural-network/identities/KEYWORD-SYNC.md.
 
 Commands:
   check      (default) validate the template on the physical corpus, verify
@@ -65,7 +65,7 @@ FM_KEYS = ["tags", "paths", "strength", "source", "graduated", "created", "entit
 
 INDEX_PREAMBLE = """# Keywords index — ALL Flesh & Blood keywords (CR chapter 8)
 
-HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, update the per-keyword notes under the JUDGE's editorial authority, then run `scripts/keyword-sync.py sync` — this file is generated; never edit it by hand. The corpus lives physically in the card-vault brain and is symlinked into the other brains. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]]. Sync process: .claude/identities/KEYWORD-SYNC.md."""
+HARD RULE: this index must reference EVERY keyword; each keyword is its own note. When the CR version bumps or a set adds/changes keywords, RE-INDEX: refresh the vendored CR (`fab-cli rules update-docs`), diff chapter 8, update the per-keyword notes under the JUDGE's editorial authority, then run `scripts/keyword-sync.py sync` — this file is generated; never edit it by hand. The corpus lives physically in the card-vault brain and is symlinked into the other brains. Link ruling and interaction knowledge to the relevant [[kw-*]] notes. Contentious-keyword rulings: [[keyword-interaction-rulings]], [[effect-keyword-rulings]]. Document navigation: [[doc-map-cr]]. Sync process: .neural-network/identities/KEYWORD-SYNC.md."""
 
 
 def root():
@@ -77,7 +77,7 @@ def root():
 
 
 ROOT = root()
-IDENT = os.path.join(ROOT, ".claude", "identities")
+IDENT = os.path.join(ROOT, ".neural-network", "identities")
 
 
 def notes_dir(role):
@@ -383,7 +383,7 @@ def cmd_check():
         print("\n%d problem(s):" % len(problems))
         for p in problems:
             print("  " + p)
-        print("\nResolution protocol: .claude/identities/KEYWORD-SYNC.md")
+        print("\nResolution protocol: .neural-network/identities/KEYWORD-SYNC.md")
         print("  - NOT-A-SYMLINK/BAD-TARGET/MISSING/EXTRA -> inspect; if the stray file holds NEW")
         print("    knowledge, route it through the judge (confirm vs CR, fold into the corpus),")
         print("    then `keyword-sync.py sync` to restore the links.")

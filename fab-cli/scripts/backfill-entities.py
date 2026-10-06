@@ -100,7 +100,7 @@ def add_entities(text, proposals, reconcile=False):
 
 def card_names(repo):
     # third_party/ lives under fab-cli/ (post-APP-001 monorepo split); repo is
-    # the git toplevel, one level above fab-cli/, and .claude/identities is
+    # the git toplevel, one level above fab-cli/, and .neural-network/identities is
     # the thing that stayed at that toplevel -- not third_party/.
     path = os.path.join(repo, "fab-cli", "third_party", "flesh-and-blood-cards",
                         "json", "english", "card.json")
@@ -112,7 +112,7 @@ def run(repo, check=False, reconcile=False):
     cards = card_names(repo)
     changed = []
     for role in ("judge", "player"):
-        directory = os.path.join(repo, ".claude", "identities", role, "brain", "notes")
+        directory = os.path.join(repo, ".neural-network", "identities", role, "brain", "notes")
         for fn in sorted(os.listdir(directory)):
             path = os.path.join(directory, fn)
             if not fn.endswith(".md") or os.path.islink(path):

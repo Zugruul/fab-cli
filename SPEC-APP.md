@@ -96,12 +96,12 @@ package's gate):
 
 ```
 <root>/                      — monorepo root: pnpm-workspace.yaml, private root package.json,
-                               .claude/project.yaml (single board), SPEC-*.md, docs/
+                               .neural-network/project.yaml (single board), SPEC-*.md, docs/
   fab-cli/                   — the existing CLI, moved wholesale (own package.json, submodules)
   fab-app/                   — the React Native app (this spec's product)
   pipeline/                  — training + artifact pipeline (corpus export, dataset gen,
                                train/eval/quantize scripts, index builders, release packaging)
-  .claude/identities/        — FAB knowledge brains shared at root (judge, player, card-vault
+  .neural-network/identities/        — FAB knowledge brains shared at root (judge, player, card-vault
                                + kw-* corpus); dev-side brains stay per-subproject
 ```
 
@@ -167,15 +167,15 @@ rectification → embedder (fast-tflite) → sqlite-vec KNN over printing vector
   step, git submodules resolve under `fab-cli/third_party/`, and the full existing gate passes
   green in the new layout.
 - **6.3** THE SYSTEM SHALL move the FAB knowledge brains (judge, player, card-vault, including
-  the shared kw-* keyword corpus and its symlinks) to root `.claude/identities/`; dev-side
+  the shared kw-* keyword corpus and its symlinks) to root `.neural-network/identities/`; dev-side
   brains (dev, reviewer, orchestrator, talishar, assistant) SHALL likewise remain at the
-  monorepo root's `.claude/identities/` rather than relocating under any individual package,
+  monorepo root's `.neural-network/identities/` rather than relocating under any individual package,
   since they serve the monorepo-level build loop (single board, single orchestrator) rather
   than one subproject; scripts whose relative paths the move breaks (`keyword-sync.py`,
   `backfill-entities.py`, `build-card-vault.py`, entity-index tooling) SHALL be updated in the
   same change, and `python3 fab-cli/scripts/keyword-sync.py check` SHALL pass when invoked from
   the monorepo root after the move.
-- **6.4** THE SYSTEM SHALL keep a single GitHub Project board: `.claude/project.yaml` stays at
+- **6.4** THE SYSTEM SHALL keep a single GitHub Project board: `.neural-network/project.yaml` stays at
   root with existing `specs[]` entries' `specPath`/`backlogPath` updated to `fab-cli/`-
   prefixed paths, and `board.sh config` SHALL validate.
 - **6.5** IF any step of the restructure would lose git history for moved files THEN THE

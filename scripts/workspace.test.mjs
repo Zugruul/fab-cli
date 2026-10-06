@@ -4,7 +4,8 @@
 // not behavior — behavior is covered by each package's own test suite.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
+import { join } from "node:path";
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
@@ -120,19 +121,19 @@ test("GPL isolation: fab-app, pipeline, and manifest-schema must never depend on
 });
 
 // APP-003: after APP-001 moved the pre-existing specs' files into fab-cli/,
-// .claude/project.yaml's specs[] paths must be updated to match — a stale
-// specPath/backlogPath silently breaks the board tooling for that spec.
+// each spec's paths must be updated to match — a stale specPath/backlogPath
+// silently breaks the board tooling for that spec. Specs live one per file
+// under .neural-network/specs/<id>.yaml (spec-workflow schemaVersion 2.0.0).
 
-test("every spec in .claude/project.yaml has specPath and backlogPath pointing at files that exist on disk", () => {
-  const text = readFileSync(".claude/project.yaml", "utf8");
-  const specsSectionMatch = text.match(/\nspecs:\n([\s\S]*?)\ncommands:\n/);
-  assert.ok(specsSectionMatch, ".claude/project.yaml must have a specs: section followed by commands:");
-  const specBlocks = [...specsSectionMatch[1].matchAll(/-\s{3}id:\s*(\S+)[\s\S]*?(?=\n-\s{3}id:|$)/g)];
-  assert.ok(specBlocks.length > 0, "expected at least one spec entry under specs:");
-  for (const block of specBlocks) {
-    const id = block[1];
-    const specPath = block[0].match(/specPath:\s*(\S+)/)?.[1];
-    const backlogPath = block[0].match(/backlogPath:\s*(\S+)/)?.[1];
+test("every spec in .neural-network/specs/ has specPath and backlogPath pointing at files that exist on disk", () => {
+  const specsDir = ".neural-network/specs";
+  const files = readdirSync(specsDir).filter((f) => /\.ya?ml$/.test(f));
+  assert.ok(files.length > 0, `expected at least one spec file under ${specsDir}`);
+  for (const file of files) {
+    const id = file.replace(/\.ya?ml$/, "");
+    const text = readFileSync(join(specsDir, file), "utf8");
+    const specPath = text.match(/^specPath:\s*(\S+)/m)?.[1];
+    const backlogPath = text.match(/^backlogPath:\s*(\S+)/m)?.[1];
     assert.ok(specPath, `spec "${id}" must declare specPath`);
     assert.ok(backlogPath, `spec "${id}" must declare backlogPath`);
     assert.ok(

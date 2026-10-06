@@ -1,0 +1,126 @@
+schemaVersion: 1
+kind: loop-feedback
+ts: '2026-08-05T04:50:00Z'
+iteration:
+  task: '268'
+  outcome: merged
+  reviewRounds: 3
+source:
+  role: orchestrator
+  model: claude-opus-5
+items:
+- category: incident
+  area: review
+  severity: high
+  summary: A completeness report could assert full coverage while silently omitting
+    members of the domain it claimed to cover
+  detail: A report partitioned its subject into three states, but built that partition
+    from two incidental sources — what happened to be present on disk, and a manifest
+    that a later partial run had overwritten. An item in neither source fell into
+    no state at all and vanished, while the report declared complete coverage. Reproduced
+    live at small scale before it could occur at full scale.
+  generalized: A completeness or coverage report must partition the FULL known domain,
+    never the union of whatever incidental sources happen to be available at report
+    time. Publish the domain's total in the artifact and assert the arithmetic — states
+    must sum to the total — so the invariant is checkable from the output alone rather
+    than trusted. Guarding the one omission path you imagined closes an instance;
+    the arithmetic invariant closes the class.
+- category: incident
+  area: testing
+  severity: high
+  summary: Splitting a long job into chunks for infrastructure reasons silently destroyed
+    the correctness property that spanned the whole job
+  detail: A run was too long for the execution environment, so it was split into equal
+    parts. Each part reconstructed its own progress tracker from zero, so a guarantee
+    defined across the whole job (every item appearing a minimum number of times)
+    was never satisfied — while the parts together produced the expected output volume
+    and individually plausible reports. Caught only because the per-run summary printed
+    a min/max that made the failure visible.
+  generalized: Chunking a job to fit an execution constraint can silently void any
+    guarantee that is defined ACROSS the job rather than within a chunk — accumulators,
+    coverage targets, global fairness, deduplication. Before splitting, ask which
+    properties span the whole run; if any do, the split must carry state between chunks
+    or is invalid. Per-run summaries that print the distribution (min/max), not just
+    totals, are what make such a violation visible at all.
+- category: incident
+  area: testing
+  severity: high
+  summary: Unbounded memory growth was invisible at every test scale and only appeared
+    at production scale, where it killed the run outright
+  detail: A cache of decoded inputs was unbounded. At test and sample scales it never
+    mattered; at production scale the job visits nearly every distinct input by design,
+    so the cache grew without limit and the process was killed with no output. Growth
+    was linear at roughly one large decoded input per item processed.
+  generalized: Resource growth that is O(n) in run length is invisible to every fixture-sized
+    test and only manifests where it is most expensive to discover. Any cache keyed
+    by an input identifier needs an explicit bound, and any long-running generator
+    should be verified by SAMPLING THE REAL WORKER PROCESS'S memory over time at two
+    very different scales — a flat curve is the evidence, not code reading. Note that
+    a mode designed to touch every distinct input is precisely what turns a benign
+    cache pathological.
+- category: friction
+  area: concurrency
+  severity: high
+  summary: Several independent infrastructure artifacts were repeatedly misread as
+    one application bug, producing confident wrong diagnoses
+  detail: 'A long job appeared to fail in many ways: a detached launch died when its
+    parent tool call returned, a background task was torn down at a session boundary,
+    process checks watched a wrapper rather than the real worker, output was written
+    in one batch so intermediate file counts read zero, and a pipeline through a filter
+    reported the filter''s exit status instead of the command''s. Each was consistent
+    with an application fault, and several confident diagnoses were stated and later
+    retracted before the real defect was isolated.'
+  generalized: 'When a long-running job fails, enumerate the execution-environment
+    explanations BEFORE concluding anything about the application: process lifetime
+    versus the caller''s, session boundaries, whether the process being watched is
+    the real worker or a wrapper, whether output is buffered or batched, and whether
+    a pipeline is masking the exit status. State the diagnosis with the confidence
+    the evidence supports — several readings consistent with one observation means
+    no reading is established yet.'
+- category: worked-well
+  area: testing
+  severity: high
+  summary: Sampling the real worker process's memory over time settled a question
+    that days of symptom-reasoning had not
+  detail: 'After multiple wrong diagnoses, a simple loop sampling the actual worker''s
+    resident memory every twenty seconds produced an unambiguous linear growth curve
+    with zero output written — a signature no competing explanation fits. The subsequent
+    fix was verified the same way: a flat curve across a full run.'
+  generalized: When symptoms admit several explanations, find the measurement whose
+    shape only one explanation predicts — a growth curve, a distribution, a byte-identical
+    comparison — rather than accumulating more circumstantial evidence. The same measurement
+    then serves as the fix's acceptance criterion, which is far stronger than 'the
+    failure stopped happening'.
+- category: incident
+  area: concurrency
+  severity: medium
+  summary: An orchestrator convenience change to a lane's environment caused a test
+    failure the lane's author then reported as pre-existing
+  detail: A symlink was created inside a working tree to share a large cache. A test
+    asserting an ignore rule behaves differently against a symlink than a real directory
+    and began failing. The author investigated soundly — reproducing on the pre-change
+    tree and confirming a clean pass elsewhere — and concluded 'pre-existing, environmental'.
+    Both observations were true; the inference was wrong, because the stash-based
+    reproduction left the untracked symlink in place and the clean environment was
+    the one without it.
+  generalized: '''Passes in environment A, fails in environment B'' is an environment-diff
+    signal whose first question is WHAT CHANGED IN B, not whether the code is at fault
+    — and stash-style reproductions do not revert untracked files, so they can silently
+    carry the cause across the comparison. An orchestrator that mutates a lane''s
+    environment must tell that lane, since the author cannot see the change from inside
+    their own diff.'
+- category: worked-well
+  area: review
+  severity: medium
+  summary: A disclosed out-of-scope gap was filed immediately with the condition that
+    would make it urgent
+  detail: The author noted that sibling code paths still use the unfixed pattern and
+    would fail identically at scale, explicitly outside the task's scope. It was filed
+    with the reasoning that a related pending feature would turn it from a follow-up
+    into a hard prerequisite, because that feature is exactly what triggers the pathological
+    behaviour.
+  generalized: When a fix leaves sibling code paths unrepaired, file them with the
+    CONDITION that would make them urgent rather than as a generic follow-up — 'this
+    becomes a prerequisite if X ships, because X is what triggers the failure mode'
+    is actionable prioritization, where 'same bug elsewhere' gets triaged as low priority
+    indefinitely.

@@ -68,12 +68,12 @@ def render(entities):
 
 
 def expected(root, entity_kinds=None):
-    identities = os.path.join(root, ".claude", "identities")
+    identities = os.path.join(root, ".neural-network", "identities")
     return render(collect(identities, entity_kinds))
 
 
 def regenerate(root, entity_kinds=None):
-    path = os.path.join(root, ".claude", "identities", "entity-index.json")
+    path = os.path.join(root, ".neural-network", "identities", "entity-index.json")
     content = expected(root, entity_kinds)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -82,7 +82,7 @@ def regenerate(root, entity_kinds=None):
 
 
 def is_fresh(root, entity_kinds=None):
-    path = os.path.join(root, ".claude", "identities", "entity-index.json")
+    path = os.path.join(root, ".neural-network", "identities", "entity-index.json")
     if not os.path.isfile(path):
         return False
     with open(path, encoding="utf-8") as index:

@@ -146,10 +146,10 @@ Index: [[keywords-index]]. When ruling, cite CR 8.3.1; verify against the vendor
     def test_generated_index_template_stamps_current_monorepo_path(self):
         with tempfile.TemporaryDirectory() as td:
             root = pathlib.Path(td)
-            (root / ".claude" / "identities" / "card-vault" / "brain" / "notes").mkdir(
+            (root / ".neural-network" / "identities" / "card-vault" / "brain" / "notes").mkdir(
                 parents=True
             )
-            self.mod.IDENT = str(root / ".claude" / "identities")
+            self.mod.IDENT = str(root / ".neural-network" / "identities")
             content = self.mod.generate_index()
             self.assertIn(
                 "vendored: fab-cli/third_party/fab-rules/en-fab-cr.txt", content
@@ -231,7 +231,7 @@ class RegenerationSafetyTests(unittest.TestCase):
         keyword_mod = load_script("keyword-sync.py")
         with tempfile.TemporaryDirectory() as td:
             root = pathlib.Path(td)
-            identities = root / ".claude" / "identities"
+            identities = root / ".neural-network" / "identities"
             home = identities / "card-vault" / "brain"
             judge = identities / "judge" / "brain"
             player = identities / "player" / "brain"
@@ -286,17 +286,17 @@ class EntityIndexTests(unittest.TestCase):
         entity_index = load_script("entity_index.py")
         with tempfile.TemporaryDirectory() as td:
             root = pathlib.Path(td)
-            (root / ".claude" / "identities" / "card-vault" / "brain" / "notes").mkdir(parents=True)
-            (root / ".claude" / "identities" / "judge" / "brain" / "notes").mkdir(parents=True)
-            (root / ".claude" / "project.yaml").write_text(
+            (root / ".neural-network" / "identities" / "card-vault" / "brain" / "notes").mkdir(parents=True)
+            (root / ".neural-network" / "identities" / "judge" / "brain" / "notes").mkdir(parents=True)
+            (root / ".neural-network" / "project.yaml").write_text(
                 "methodology:\n  entityKinds:\n    card: card-vault\n"
             )
-            home = root / ".claude" / "identities" / "card-vault" / "brain" / "notes" / "card-alpha.md"
+            home = root / ".neural-network" / "identities" / "card-vault" / "brain" / "notes" / "card-alpha.md"
             home.write_text("---\nentities: [card:alpha]\n---\n")
-            os.symlink(home, root / ".claude" / "identities" / "judge" / "brain" / "notes" / "card-alpha.md")
+            os.symlink(home, root / ".neural-network" / "identities" / "judge" / "brain" / "notes" / "card-alpha.md")
             for _ in range(2):
                 entity_index.regenerate(str(root), {"card": "card-vault"})
-                content = (root / ".claude" / "identities" / "entity-index.json").read_bytes()
+                content = (root / ".neural-network" / "identities" / "entity-index.json").read_bytes()
                 if "first" in locals():
                     self.assertEqual(first, content)
                 first = content
@@ -309,7 +309,7 @@ class EntityIndexTests(unittest.TestCase):
 
 class RepoRootInvocationTests(unittest.TestCase):
     """Post-APP-001 monorepo split: the real repo root (git toplevel) is one
-    level above the fab-cli package, but `.claude/identities` stayed at that
+    level above the fab-cli package, but `.neural-network/identities` stayed at that
     real root while `third_party/` moved under `fab-cli/third_party/`. Every
     script documented as runnable "from the repo root" must derive both paths
     correctly in that layout -- not assume repo root == fab-cli/."""

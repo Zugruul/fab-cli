@@ -1,0 +1,10 @@
+version: 1
+provisioning:
+    check: ["node", "{skill_dir}/../../../bin/fab.js", "--version"]
+    ttlSeconds: 300
+permissions: []
+invoke:
+    exec: ["node", "{skill_dir}/../../../bin/fab.js", "fabrary", "cards", "show", "{name}", "--json"]
+    params:
+        name:
+            type: string

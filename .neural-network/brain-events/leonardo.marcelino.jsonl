@@ -1,0 +1,442 @@
+{"injected": 35, "links_fired": 47, "repo": "fab-cli", "role": "judge", "seeds": 4, "ts": "2026-07-22T02:22:53+00:00", "type": "RecallPerformed", "v": 1}
+{"key": "card-interaction-protocol->combat-chain-steps", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->combat-step-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->escalation-ask-a-judge", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->ix-command-and-conquer-x-uzuri-switchblade", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->ix-fleeing-starbreeze-x-gone-in-a-flash", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->judge-brain-map", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->keyword-interaction-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->keywords-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->release-notes-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "card-interaction-protocol->unknown-term-resolution-protocol", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->card-interaction-protocol", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->keyword-interaction-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-aura", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-go-again", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-instant", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-starfall", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->kw-ward", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-omens-of-the-third-age", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "ix-fleeing-starbreeze-x-gone-in-a-flash->release-notes-rosetta", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "keyword-interaction-rulings->abilities-functionality-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "keyword-interaction-rulings->combat-step-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "keyword-interaction-rulings->continuous-effect-staging-detail", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "keyword-interaction-rulings->rules-precedence", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "kw-aura->keywords-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "kw-go-again->keywords-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "kw-instant->keywords-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "kw-starfall->keywords-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "kw-ward->keywords-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->keyword-interaction-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->kw-fragment", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->kw-quickstrike", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->kw-spellvoid", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->kw-starfall", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->kw-token-lightning-flow", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->kw-ward", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-omens-of-the-third-age->release-notes-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->keyword-interaction-rulings", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-amp", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-arcane-shelter", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-bond", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-decompose", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-macro", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-meld", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-negate", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-token-frostbite", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->kw-ward", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "release-notes-rosetta->release-notes-index", "repo": "fab-cli", "role": "judge", "ts": "2026-07-22T02:22:53+00:00", "type": "LinkFired", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "139", "ts": "2026-08-03T21:01:43+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "red-commit-contains-only-test-path-files", "task": "139", "ts": "2026-08-03T21:01:43+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "dev", "slug": "fresh-worktree-needs-node-modules-and-submodule-setup", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "test-knob-intersections", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "prefix-swapback-verification", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "amodal-labels-contract-watchpoint", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "reviewer", "slug": "compute-edge-frequency-from-config", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "reviewer", "slug": "regex-guards-need-empirical-evasion-pass", "task": "139", "ts": "2026-08-03T21:01:44+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "strength": 1, "ts": "2026-08-03T21:03:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "stage-tests-first-at-first-git-add->red-commit-contains-only-test-path-files", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"key": "stage-tests-first-at-first-git-add->review-staged-diff-before-commit-message-must-match", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "strength": 1, "ts": "2026-08-03T21:03:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"key": "read-producers-real-bytes-before-fixtures->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "strength": 1, "ts": "2026-08-03T21:03:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "execute-load-bearing-mechanism-claims->prefix-swapback-verification", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "grep-central-nouns-across-pr", "strength": 1, "ts": "2026-08-03T21:03:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "grep-central-nouns-across-pr->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "encode-decode-symmetry-needs-pinned-decode-test", "strength": 1, "ts": "2026-08-03T21:03:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "encode-decode-symmetry-needs-pinned-decode-test->amodal-labels-contract-watchpoint", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"key": "encode-decode-symmetry-needs-pinned-decode-test->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "diff-deferred-scope-against-primary-ac", "strength": 1, "ts": "2026-08-03T21:03:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "diff-deferred-scope-against-primary-ac->grep-central-nouns-across-pr", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T21:03:15+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 3, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "moment-of-action-enforcement-beats-brief-text", "strength": 1, "ts": "2026-08-03T21:04:22+00:00", "type": "NoteMinted", "v": 1}
+{"key": "moment-of-action-enforcement-beats-brief-text->briefs-must-inject-recall", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "LinkFormed", "v": 1}
+{"key": "moment-of-action-enforcement-beats-brief-text->bookkeeping-commits-only-on-main", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "LinkFormed", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "ignore", "idx": 2, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "upstream", "idx": 3, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 4, "itemTs": "2026-08-03T21:10:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T21:04:22+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "140", "ts": "2026-08-03T22:05:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "140", "ts": "2026-08-03T22:05:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "140", "ts": "2026-08-03T22:05:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "test-knob-intersections", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "amodal-labels-contract-watchpoint", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "grep-central-nouns-across-pr", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "encode-decode-symmetry-needs-pinned-decode-test", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "diff-deferred-scope-against-primary-ac", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "prefix-swapback-verification", "task": "140", "ts": "2026-08-03T22:05:37+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "reference-guards-before-handoff", "strength": 1, "ts": "2026-08-03T22:08:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "reference-guards-before-handoff->boundary-convention-before-first-test", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "reference-guards-before-handoff->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "prototype-toolchain-on-disposable-model", "strength": 1, "ts": "2026-08-03T22:08:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "prototype-toolchain-on-disposable-model->read-producers-real-bytes-before-fixtures", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "strength": 2, "ts": "2026-08-03T22:08:35+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "sweep-formula-domain-numerically", "strength": 1, "ts": "2026-08-03T22:08:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "sweep-formula-domain-numerically->prefix-swapback-verification", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "sweep-formula-domain-numerically->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "sweep-formula-domain-numerically->reference-implementation-guard-diff", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "reference-implementation-guard-diff", "strength": 1, "ts": "2026-08-03T22:08:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "reference-implementation-guard-diff->sweep-formula-domain-numerically", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "swept-configs-need-tracked-negatives", "strength": 1, "ts": "2026-08-03T22:08:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "swept-configs-need-tracked-negatives->compute-edge-frequency-from-config", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "swept-configs-need-tracked-negatives->diff-deferred-scope-against-primary-ac", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:08:35+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "moment-of-action-enforcement-beats-brief-text", "strength": 2, "ts": "2026-08-03T22:09:19+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "completion-report-is-part-of-done", "strength": 1, "ts": "2026-08-03T22:09:19+00:00", "type": "NoteMinted", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-03T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T22:09:19+00:00", "type": "FeedbackArchived", "v": 1}
+{"injected": 6, "links_fired": 12, "repo": "fab-cli", "role": "dev", "seeds": 34, "ts": "2026-08-03T22:09:53+00:00", "type": "RecallPerformed", "v": 1}
+{"key": "boundary-convention-before-first-test->shared-schema-diff-sibling-protocols", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "boundary-convention-before-first-test->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "prototype-toolchain-on-disposable-model->read-producers-real-bytes-before-fixtures", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "read-producers-real-bytes-before-fixtures->shared-schema-diff-sibling-protocols", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "read-producers-real-bytes-before-fixtures->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "reference-guards-before-handoff->boundary-convention-before-first-test", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "reference-guards-before-handoff->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "shared-schema-diff-sibling-protocols->boundary-convention-before-first-test", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "stage-tests-first-at-first-git-add->red-commit-contains-only-test-path-files", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "stage-tests-first-at-first-git-add->review-staged-diff-before-commit-message-must-match", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "test-knob-intersections->verify-vendor-id-uniqueness", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"key": "verify-vendor-id-uniqueness->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:09:53+00:00", "type": "LinkFired", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "142", "ts": "2026-08-03T22:57:59+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "142", "ts": "2026-08-03T22:57:59+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "test-knob-intersections", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "grep-central-nouns-across-pr", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "diff-deferred-scope-against-primary-ac", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "prefix-swapback-verification", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "reviewer", "slug": "swept-configs-need-tracked-negatives", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "reviewer", "slug": "compute-edge-frequency-from-config", "task": "142", "ts": "2026-08-03T22:58:00+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "adversarial-fixture-orderings-for-invariants", "strength": 1, "ts": "2026-08-03T22:59:41+00:00", "type": "NoteMinted", "v": 1}
+{"key": "adversarial-fixture-orderings-for-invariants->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:59:41+00:00", "type": "LinkFormed", "v": 1}
+{"key": "adversarial-fixture-orderings-for-invariants->boundary-convention-before-first-test", "repo": "fab-cli", "role": "dev", "ts": "2026-08-03T22:59:41+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "strength": 1, "ts": "2026-08-03T22:59:41+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "mutation-test-monotonic-fixtures", "strength": 1, "ts": "2026-08-03T22:59:41+00:00", "type": "NoteMinted", "v": 1}
+{"key": "mutation-test-monotonic-fixtures->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:59:41+00:00", "type": "LinkFormed", "v": 1}
+{"key": "mutation-test-monotonic-fixtures->prefix-swapback-verification", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:59:41+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "uniform-rigor-across-findings", "strength": 1, "ts": "2026-08-03T22:59:41+00:00", "type": "NoteMinted", "v": 1}
+{"key": "uniform-rigor-across-findings->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-03T22:59:41+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackEmitted", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "upstream", "idx": 1, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-03T23:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-03T23:01:22+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "141", "ts": "2026-08-04T00:05:01+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "141", "ts": "2026-08-04T00:05:01+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "141", "ts": "2026-08-04T00:05:01+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "adversarial-fixture-orderings-for-invariants", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "mutation-test-monotonic-fixtures", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "uniform-rigor-across-findings", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "diff-deferred-scope-against-primary-ac", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "grep-central-nouns-across-pr", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "prefix-swapback-verification", "task": "141", "ts": "2026-08-04T00:05:02+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "run-the-real-thing-past-green-tests", "strength": 1, "ts": "2026-08-04T00:06:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "run-the-real-thing-past-green-tests->read-producers-real-bytes-before-fixtures", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "run-the-real-thing-past-green-tests->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "no-guard-code-is-an-unstated-invariant", "strength": 1, "ts": "2026-08-04T00:06:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "no-guard-code-is-an-unstated-invariant->adversarial-fixture-orderings-for-invariants", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "no-guard-code-is-an-unstated-invariant->boundary-convention-before-first-test", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "derived-identifier-collision-checklist", "strength": 1, "ts": "2026-08-04T00:06:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "derived-identifier-collision-checklist->mutation-test-monotonic-fixtures", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "derived-identifier-collision-checklist->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "outward-action-blockers-are-one-bucket", "strength": 1, "ts": "2026-08-04T00:06:35+00:00", "type": "NoteMinted", "v": 1}
+{"key": "outward-action-blockers-are-one-bucket->briefs-state-conventions-not-file-targets", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:06:35+00:00", "type": "LinkFormed", "v": 1}
+{"key": "outward-action-blockers-are-one-bucket->completion-report-is-part-of-done", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:06:36+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackEmitted", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-04T00:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T00:07:12+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "144", "ts": "2026-08-04T06:35:09+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "grep-central-nouns-across-pr", "task": "144", "ts": "2026-08-04T06:35:09+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "diff-deferred-scope-against-primary-ac", "task": "144", "ts": "2026-08-04T06:35:09+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "uniform-rigor-across-findings", "task": "144", "ts": "2026-08-04T06:35:09+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "reviewer", "slug": "derived-identifier-collision-checklist", "task": "144", "ts": "2026-08-04T06:35:09+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "default-drift-and-failure-coverage-checks", "strength": 1, "ts": "2026-08-04T06:36:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "default-drift-and-failure-coverage-checks->diff-deferred-scope-against-primary-ac", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:36:15+00:00", "type": "LinkFormed", "v": 1}
+{"key": "default-drift-and-failure-coverage-checks->grep-central-nouns-across-pr", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:36:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "orphaned-subcommands-are-doc-drift", "strength": 1, "ts": "2026-08-04T06:36:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "orphaned-subcommands-are-doc-drift->default-drift-and-failure-coverage-checks", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:36:15+00:00", "type": "LinkFormed", "v": 1}
+{"key": "orphaned-subcommands-are-doc-drift->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:36:15+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "preflight-existence-vs-permission", "strength": 1, "ts": "2026-08-04T06:36:15+00:00", "type": "NoteMinted", "v": 1}
+{"key": "preflight-existence-vs-permission->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:36:15+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "refresh-and-rebase-before-expensive-ops", "strength": 1, "ts": "2026-08-04T06:37:06+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "direct-fixes-when-no-live-dev", "strength": 1, "ts": "2026-08-04T06:37:06+00:00", "type": "NoteMinted", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:06+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:06+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:06+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-04T06:45:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:37:07+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "run-the-real-thing-past-green-tests", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "no-guard-code-is-an-unstated-invariant", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "test-knob-intersections", "task": "244", "ts": "2026-08-04T06:55:05+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "244", "ts": "2026-08-04T06:55:06+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "244", "ts": "2026-08-04T06:55:06+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "mutation-test-monotonic-fixtures", "task": "244", "ts": "2026-08-04T06:55:06+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "uniform-rigor-across-findings", "task": "244", "ts": "2026-08-04T06:55:06+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "derived-identifier-collision-checklist", "task": "244", "ts": "2026-08-04T06:55:06+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "named-invariant-tags", "strength": 1, "ts": "2026-08-04T06:56:54+00:00", "type": "NoteMinted", "v": 1}
+{"key": "named-invariant-tags->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T06:56:54+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "strength": 2, "ts": "2026-08-04T06:56:54+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "fresh-worktree-needs-node-modules-and-submodule-setup", "strength": 3, "ts": "2026-08-04T06:56:54+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "decorative-version-constants", "strength": 1, "ts": "2026-08-04T06:56:54+00:00", "type": "NoteMinted", "v": 1}
+{"key": "decorative-version-constants->grep-central-nouns-across-pr", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:56:54+00:00", "type": "LinkFormed", "v": 1}
+{"key": "decorative-version-constants->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:56:54+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "label-verification-tiers-in-verdicts", "strength": 1, "ts": "2026-08-04T06:56:54+00:00", "type": "NoteMinted", "v": 1}
+{"key": "label-verification-tiers-in-verdicts->uniform-rigor-across-findings", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:56:54+00:00", "type": "LinkFormed", "v": 1}
+{"key": "label-verification-tiers-in-verdicts->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T06:56:54+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "preserve-human-facing-artifacts-before-worktree-cleanup", "strength": 1, "ts": "2026-08-04T06:57:50+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "hot-loop-user-reactions-into-lanes", "strength": 1, "ts": "2026-08-04T06:57:50+00:00", "type": "NoteMinted", "v": 1}
+{"action": "upstream", "idx": 0, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-04T07:05:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T06:57:50+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "reference-guards-before-handoff", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "run-the-real-thing-past-green-tests", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "136", "ts": "2026-08-04T07:26:26+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "136", "ts": "2026-08-04T07:26:27+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "sweep-formula-domain-numerically", "task": "136", "ts": "2026-08-04T07:26:27+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "reference-implementation-guard-diff", "task": "136", "ts": "2026-08-04T07:26:27+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "decorative-version-constants", "task": "136", "ts": "2026-08-04T07:26:27+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "label-verification-tiers-in-verdicts", "task": "136", "ts": "2026-08-04T07:26:27+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "diff-deferred-scope-against-primary-ac", "task": "136", "ts": "2026-08-04T07:26:27+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "read-consumer-before-designing-schema-fields", "strength": 1, "ts": "2026-08-04T07:32:27+00:00", "type": "NoteMinted", "v": 1}
+{"key": "read-consumer-before-designing-schema-fields->read-producers-real-bytes-before-fixtures", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T07:32:27+00:00", "type": "LinkFormed", "v": 1}
+{"key": "read-consumer-before-designing-schema-fields->shared-schema-diff-sibling-protocols", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T07:32:27+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "test-conventions-dont-transfer-to-rn-bundle", "strength": 1, "ts": "2026-08-04T07:32:27+00:00", "type": "NoteMinted", "v": 1}
+{"key": "test-conventions-dont-transfer-to-rn-bundle->read-producers-real-bytes-before-fixtures", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T07:32:27+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "new-screen-touch-surface", "strength": 1, "ts": "2026-08-04T07:32:27+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "label-verification-tiers-in-verdicts", "strength": 2, "ts": "2026-08-04T07:32:27+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "two-dot-diff-merge-base-trap", "strength": 1, "ts": "2026-08-04T07:32:27+00:00", "type": "NoteMinted", "v": 1}
+{"key": "two-dot-diff-merge-base-trap->diff-deferred-scope-against-primary-ac", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T07:32:27+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:07+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:07+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "reviewer-fixes-are-claims-to-verify", "strength": 1, "ts": "2026-08-04T07:33:08+00:00", "type": "NoteMinted", "v": 1}
+{"key": "reviewer-fixes-are-claims-to-verify->moment-of-action-enforcement-beats-brief-text", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "LinkFormed", "v": 1}
+{"key": "reviewer-fixes-are-claims-to-verify->outward-action-blockers-are-one-bucket", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "LinkFormed", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "backlog", "idx": 1, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-04T07:35:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T07:33:08+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "252", "ts": "2026-08-04T08:07:57+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "task": "252", "ts": "2026-08-04T08:07:57+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "test-knob-intersections", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "no-guard-code-is-an-unstated-invariant", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "fresh-worktree-needs-node-modules-and-submodule-setup", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "run-the-real-thing-past-green-tests", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "mutation-test-monotonic-fixtures", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "sweep-formula-domain-numerically", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "label-verification-tiers-in-verdicts", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "compute-edge-frequency-from-config", "task": "252", "ts": "2026-08-04T08:07:58+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "two-dot-diff-merge-base-trap", "task": "252", "ts": "2026-08-04T08:07:59+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "exact-pixel-counts-need-uniform-fixtures", "strength": 1, "ts": "2026-08-04T08:10:43+00:00", "type": "NoteMinted", "v": 1}
+{"key": "exact-pixel-counts-need-uniform-fixtures->boundary-convention-before-first-test", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T08:10:43+00:00", "type": "LinkFormed", "v": 1}
+{"key": "exact-pixel-counts-need-uniform-fixtures->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T08:10:43+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "read-consumer-before-designing-schema-fields", "strength": 2, "ts": "2026-08-04T08:10:43+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "construction-proof-vs-test-sweep", "strength": 1, "ts": "2026-08-04T08:10:43+00:00", "type": "NoteMinted", "v": 1}
+{"key": "construction-proof-vs-test-sweep->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T08:10:43+00:00", "type": "LinkFormed", "v": 1}
+{"key": "construction-proof-vs-test-sweep->sweep-formula-domain-numerically", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T08:10:43+00:00", "type": "LinkFormed", "v": 1}
+{"key": "construction-proof-vs-test-sweep->mutation-test-monotonic-fixtures", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T08:10:43+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackEmitted", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-04T08:20:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T08:11:43+00:00", "type": "FeedbackArchived", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "stage-tests-first-at-first-git-add", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "rtk-filtered-tsc-untrustworthy", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "boundary-convention-before-first-test", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-producers-real-bytes-before-fixtures", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "test-knob-intersections", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "no-guard-code-is-an-unstated-invariant", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "fresh-worktree-needs-node-modules-and-submodule-setup", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "review-staged-diff-before-commit-message-must-match", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "pr-body-claims-must-exist-in-committed-artifacts", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "run-the-real-thing-past-green-tests", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "dev", "slug": "read-consumer-before-designing-schema-fields", "task": "253", "ts": "2026-08-04T09:22:36+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "execute-load-bearing-mechanism-claims", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "mutation-test-monotonic-fixtures", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "two-dot-diff-merge-base-trap", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "decorative-version-constants", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "label-verification-tiers-in-verdicts", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "useful", "repo": "fab-cli", "role": "reviewer", "slug": "uniform-rigor-across-findings", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"outcome": "dead_end", "repo": "fab-cli", "role": "reviewer", "slug": "construction-proof-vs-test-sweep", "task": "253", "ts": "2026-08-04T09:22:37+00:00", "type": "RecallOutcome", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "mutation-check-your-own-regression-fix", "strength": 1, "ts": "2026-08-04T09:24:10+00:00", "type": "NoteMinted", "v": 1}
+{"key": "mutation-check-your-own-regression-fix->test-knob-intersections", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T09:24:10+00:00", "type": "LinkFormed", "v": 1}
+{"key": "mutation-check-your-own-regression-fix->no-guard-code-is-an-unstated-invariant", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T09:24:10+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "run-the-real-thing-past-green-tests", "strength": 2, "ts": "2026-08-04T09:24:10+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "weak-test-shape-heuristics", "strength": 1, "ts": "2026-08-04T09:24:10+00:00", "type": "NoteMinted", "v": 1}
+{"key": "weak-test-shape-heuristics->mutation-test-monotonic-fixtures", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T09:24:10+00:00", "type": "LinkFormed", "v": 1}
+{"key": "weak-test-shape-heuristics->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T09:24:10+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "layout-feature-review-checklist", "strength": 1, "ts": "2026-08-04T09:24:10+00:00", "type": "NoteMinted", "v": 1}
+{"key": "layout-feature-review-checklist->execute-load-bearing-mechanism-claims", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T09:24:10+00:00", "type": "LinkFormed", "v": 1}
+{"key": "layout-feature-review-checklist->derived-identifier-collision-checklist", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T09:24:10+00:00", "type": "LinkFormed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:50+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "kill-first-for-regression-locks", "strength": 1, "ts": "2026-08-04T09:24:51+00:00", "type": "NoteMinted", "v": 1}
+{"key": "kill-first-for-regression-locks->moment-of-action-enforcement-beats-brief-text", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "LinkFormed", "v": 1}
+{"key": "kill-first-for-regression-locks->reviewer-fixes-are-claims-to-verify", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "LinkFormed", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 3, "itemTs": "2026-08-04T09:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T09:24:51+00:00", "type": "FeedbackArchived", "v": 1}
+{"repo": "fab-cli", "role": "card-vault", "slug": "card-edition-rarity-foiling-identification", "strength": 1, "ts": "2026-08-04T19:54:57+00:00", "type": "NoteMinted", "v": 1}
+{"consumer": "card-vault", "count": 1, "repo": "fab-cli", "role": "card-vault", "slug": "card-eye-of-ophidia-blue", "ts": "2026-08-04T19:57:14+00:00", "type": "ConsultPerformed", "v": 1}
+{"repo": "fab-cli", "role": "card-vault", "slug": "card-edition-rarity-foiling-identification", "strength": 2, "ts": "2026-08-04T19:58:06+00:00", "type": "NoteMinted", "v": 1}
+{"consumer": "card-vault", "count": 1, "repo": "fab-cli", "role": "card-vault", "slug": "card-edition-rarity-foiling-identification", "ts": "2026-08-04T19:58:17+00:00", "type": "ConsultPerformed", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:24:41+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:24:41+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:24:41+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 3, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:24:41+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 4, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:24:41+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 5, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:24:41+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "shared-tree-bookkeeping-breaks-every-lane", "strength": 1, "ts": "2026-08-04T20:26:50+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "never-pipe-a-gate-exit-code", "strength": 1, "ts": "2026-08-04T20:26:50+00:00", "type": "NoteMinted", "v": 1}
+{"key": "never-pipe-a-gate-exit-code->verify-dont-trust", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:26:50+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "push-before-telling-a-lane-to-rebase", "strength": 1, "ts": "2026-08-04T20:26:50+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "closed-or-relocated-after-a-fix-by-extraction", "strength": 1, "ts": "2026-08-04T20:27:27+00:00", "type": "NoteMinted", "v": 1}
+{"key": "closed-or-relocated-after-a-fix-by-extraction->mutation-is-the-unit-of-proof", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T20:27:27+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "claim-versus-wiring-defects", "strength": 1, "ts": "2026-08-04T20:27:27+00:00", "type": "NoteMinted", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "state-what-you-did-not-verify", "strength": 1, "ts": "2026-08-04T20:27:27+00:00", "type": "NoteMinted", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:46+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:46+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:46+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 3, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:46+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 4, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:46+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "backlog", "idx": 5, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:46+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 6, "itemTs": "2026-08-04T20:25:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T20:27:56+00:00", "type": "FeedbackArchived", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 3, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 4, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 5, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 6, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:36:02+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "verification-has-an-axis", "strength": 1, "ts": "2026-08-04T22:36:36+00:00", "type": "NoteMinted", "v": 1}
+{"key": "verification-has-an-axis->state-what-you-did-not-verify", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:36:36+00:00", "type": "LinkFormed", "v": 1}
+{"key": "verification-has-an-axis->claim-versus-wiring-defects", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:36:36+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "cannot-determine-is-not-safe", "strength": 1, "ts": "2026-08-04T22:36:37+00:00", "type": "NoteMinted", "v": 1}
+{"key": "cannot-determine-is-not-safe->verification-has-an-axis", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T22:36:37+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "regression-tests-need-the-real-substrate", "strength": 1, "ts": "2026-08-04T22:36:37+00:00", "type": "NoteMinted", "v": 1}
+{"key": "regression-tests-need-the-real-substrate->mutation-is-the-unit-of-proof", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:36:37+00:00", "type": "LinkFormed", "v": 1}
+{"key": "regression-tests-need-the-real-substrate->verification-has-an-axis", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:36:37+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "human-surface-needs-human-surface-verification", "strength": 1, "ts": "2026-08-04T22:37:04+00:00", "type": "NoteMinted", "v": 1}
+{"key": "human-surface-needs-human-surface-verification->verification-has-an-axis", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T22:37:05+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "gate-can-fabricate-failures", "strength": 1, "ts": "2026-08-04T22:37:05+00:00", "type": "NoteMinted", "v": 1}
+{"key": "gate-can-fabricate-failures->never-pipe-a-gate-exit-code", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:05+00:00", "type": "LinkFormed", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 3, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 4, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 5, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 6, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:25+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 7, "itemTs": "2026-08-04T22:15:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:37:42+00:00", "type": "FeedbackArchived", "v": 1}
+{"idx": 0, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 3, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 4, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 5, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 6, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:50:26+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "looks-right-is-a-prompt-to-measure", "strength": 1, "ts": "2026-08-04T22:50:59+00:00", "type": "NoteMinted", "v": 1}
+{"key": "looks-right-is-a-prompt-to-measure->verification-has-an-axis", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:50:59+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "shared-input-makes-agreement-circular", "strength": 1, "ts": "2026-08-04T22:50:59+00:00", "type": "NoteMinted", "v": 1}
+{"key": "shared-input-makes-agreement-circular->verification-has-an-axis", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:50:59+00:00", "type": "LinkFormed", "v": 1}
+{"key": "shared-input-makes-agreement-circular->state-what-you-did-not-verify", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-04T22:50:59+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "mechanism-correct-but-never-triggered", "strength": 1, "ts": "2026-08-04T22:50:59+00:00", "type": "NoteMinted", "v": 1}
+{"key": "mechanism-correct-but-never-triggered->looks-right-is-a-prompt-to-measure", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T22:50:59+00:00", "type": "LinkFormed", "v": 1}
+{"key": "mechanism-correct-but-never-triggered->verification-has-an-axis", "repo": "fab-cli", "role": "dev", "ts": "2026-08-04T22:50:59+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "unresponsive-reviewer-substitute-but-record", "strength": 1, "ts": "2026-08-04T22:51:18+00:00", "type": "NoteMinted", "v": 1}
+{"key": "unresponsive-reviewer-substitute-but-record->state-what-you-did-not-verify", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:18+00:00", "type": "LinkFormed", "v": 1}
+{"action": "brain-note", "idx": 0, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 1, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 2, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 3, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 4, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 5, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"action": "brain-note", "idx": 6, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:19+00:00", "type": "FeedbackRouted", "v": 1}
+{"itemCount": 7, "itemTs": "2026-08-04T22:40:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-04T22:51:46+00:00", "type": "FeedbackArchived", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "unresponsive-reviewer-substitute-but-record", "strength": 2, "ts": "2026-08-04T22:59:54+00:00", "type": "NoteMinted", "v": 1}
+{"idx": 0, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 1, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 2, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 3, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 4, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 5, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"idx": 6, "itemTs": "2026-08-05T04:50:00Z", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:06+00:00", "type": "FeedbackEmitted", "v": 1}
+{"repo": "fab-cli", "role": "reviewer", "slug": "coverage-reports-partition-the-full-domain", "strength": 1, "ts": "2026-08-05T04:45:45+00:00", "type": "NoteMinted", "v": 1}
+{"key": "coverage-reports-partition-the-full-domain->verification-has-an-axis", "repo": "fab-cli", "role": "reviewer", "ts": "2026-08-05T04:45:45+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "orchestrator", "slug": "chunking-voids-cross-run-guarantees", "strength": 1, "ts": "2026-08-05T04:45:45+00:00", "type": "NoteMinted", "v": 1}
+{"key": "chunking-voids-cross-run-guarantees->coverage-reports-partition-the-full-domain", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:45+00:00", "type": "LinkFormed", "v": 1}
+{"key": "chunking-voids-cross-run-guarantees->mechanism-correct-but-never-triggered", "repo": "fab-cli", "role": "orchestrator", "ts": "2026-08-05T04:45:45+00:00", "type": "LinkFormed", "v": 1}
+{"repo": "fab-cli", "role": "dev", "slug": "unbounded-cache-is-a-production-only-bug", "strength": 1, "ts": "2026-08-05T04:45:45+00:00", "type": "NoteMinted", "v": 1}
+{"key": "unbounded-cache-is-a-production-only-bug->mechanism-correct-but-never-triggered", "repo": "fab-cli", "role": "dev", "ts": "2026-08-05T04:45:45+00:00", "type": "LinkFormed", "v": 1}
+{"key": "unbounded-cache-is-a-production-only-bug->verification-has-an-axis", "repo": "fab-cli", "role": "dev", "ts": "2026-08-05T04:45:45+00:00", "type": "LinkFormed", "v": 1}

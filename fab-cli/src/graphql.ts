@@ -122,7 +122,7 @@ async function gql(
 const GET_RESULTS_QUERY = `
 query getResults($deckId: ID!) {
   getResults(deckId: $deckId) {
-    results {
+    results: items {
       result
       source
       notes

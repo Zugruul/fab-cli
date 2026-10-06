@@ -1,0 +1,87 @@
+{
+  "adversarial-review-cadence->inspect-lane-on-silent-idle": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "adversarial-review-cadence->regate-second-merge-on-fresh-main": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "bookkeeping-commits-only-on-main->board-reads-are-a-budget": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "chunking-voids-cross-run-guarantees->coverage-reports-partition-the-full-domain": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "chunking-voids-cross-run-guarantees->mechanism-correct-but-never-triggered": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gate-can-fabricate-failures->never-pipe-a-gate-exit-code": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "gh-pr-merge-worktree-lock-recurs->gh-pr-merge-worktree-branch-lock": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "kill-first-for-regression-locks->moment-of-action-enforcement-beats-brief-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "kill-first-for-regression-locks->reviewer-fixes-are-claims-to-verify": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "moment-of-action-enforcement-beats-brief-text->bookkeeping-commits-only-on-main": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "moment-of-action-enforcement-beats-brief-text->briefs-must-inject-recall": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "never-pipe-a-gate-exit-code->verify-dont-trust": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "outward-action-blockers-are-one-bucket->briefs-state-conventions-not-file-targets": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "outward-action-blockers-are-one-bucket->completion-report-is-part-of-done": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reviewer-fixes-are-claims-to-verify->moment-of-action-enforcement-beats-brief-text": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "reviewer-fixes-are-claims-to-verify->outward-action-blockers-are-one-bucket": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  },
+  "unresponsive-reviewer-substitute-but-record->state-what-you-did-not-verify": {
+    "fires": 0,
+    "last": null,
+    "weight": 0.5
+  }
+}
