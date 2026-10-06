@@ -1,3 +1,4 @@
+import { createThrottle, throttleDefaultsFromEnv } from "./throttle";
 import type { DeckResults, FabCard, GameResult } from "./types";
 
 const GET_DECK_QUERY = `
@@ -87,7 +88,38 @@ export async function getDeckCardTypes(
 const GRAPHQL_URL =
   "https://42xrd23ihbd47fjvsrt27ufpfe.appsync-api.us-east-2.amazonaws.com/graphql";
 
+export class GraphqlHttpError extends Error {
+  constructor(public readonly status: number) {
+    super(`GraphQL HTTP error: ${status}`);
+    this.name = "GraphqlHttpError";
+  }
+}
+
+// AppSync sits behind AWS WAF: a burst of ~40 requests returns 403 even with
+// a valid token. Every GraphQL call goes through this shared throttle so no
+// caller (top, deck, prep, scripts) can trip it, and a 403/429 backs off
+// instead of failing the whole run.
+const throttle = createThrottle({
+  ...throttleDefaultsFromEnv(),
+  shouldRetry: (err) =>
+    err instanceof GraphqlHttpError && (err.status === 403 || err.status === 429),
+  onRetry: ({ attempt, delayMs, error }) => {
+    const status = error instanceof GraphqlHttpError ? error.status : "?";
+    process.stderr.write(
+      `\nAppSync rate limit (HTTP ${status}); backing off ${Math.round(delayMs / 1000)}s (retry ${attempt})…\n`
+    );
+  },
+});
+
 async function gql(
+  token: string,
+  query: string,
+  variables: Record<string, unknown>
+): Promise<unknown> {
+  return throttle(() => gqlOnce(token, query, variables));
+}
+
+async function gqlOnce(
   token: string,
   query: string,
   variables: Record<string, unknown>
@@ -106,7 +138,7 @@ async function gql(
   });
 
   if (!response.ok) {
-    throw new Error(`GraphQL HTTP error: ${response.status}`);
+    throw new GraphqlHttpError(response.status);
   }
 
   const data = (await response.json()) as {
