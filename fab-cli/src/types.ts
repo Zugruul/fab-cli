@@ -38,7 +38,6 @@ export interface GameResult {
   result: "Won" | "Lost" | "Draw";
   source: string | null;
   notes: string | null;
-  deckId: string;
   gameId: string | null;
   turns: number | null;
   firstPlayer: boolean | null;

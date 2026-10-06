@@ -191,7 +191,6 @@ function game(overrides: Partial<GameResult> = {}): GameResult {
     result: "Won",
     source: "FaBrary",
     notes: null,
-    deckId: "deck-1",
     gameId: null,
     turns: null,
     firstPlayer: null,

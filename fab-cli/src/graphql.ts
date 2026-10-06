@@ -114,7 +114,7 @@ async function gql(
     errors?: Array<{ message: string }>;
   };
   if (data.errors?.length) {
-    throw new Error(data.errors[0].message);
+    throw new Error(data.errors.map((e) => e.message).join("; "));
   }
   return data.data;
 }
@@ -126,7 +126,6 @@ query getResults($deckId: ID!) {
       result
       source
       notes
-      deckId
       gameId
       turns
       firstPlayer
