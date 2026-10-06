@@ -1,14 +1,14 @@
 ---
-tags: [card-identification, edition, rarity, foiling, first-edition, unlimited, physical-cards, marvel, cold-foil, rainbow-foil]
+tags: [card-identification, edition, rarity, foiling, first-edition, unlimited, physical-cards, marvel, promo, cold-foil, rainbow-foil, fab-cube-codes]
 paths: []
-entities: [card:eye-of-ophidia]
+entities: [card:eye-of-ophidia, card:groundbreaker-crix]
 strength: 2
 source: "https://managrading.com/a-simple-guide-to-flesh-and-bloods-card-rarities-and-editions/ + the-fab-cube printings dataset"
 confidence: direct
 learned-from: user directive 2026-08-04; initial visual-rule answer was WRONG and was corrected against the printing dataset
 graduated: false
 created: 2026-08-04
-last-touched: 2026-08-04
+last-touched: 2026-10-05
 ---
 
 # Identifying FAB edition, rarity, foiling and border from a physical card
@@ -143,3 +143,37 @@ returned rarity colours contradicting its own chart image (claiming Common =
 yellow, Fabled = black circle; the chart shows grey and an orange diamond,
 and the orange diamond is what appears on real cards). Prefer image evidence
 over extracted prose, and prefer the local printing dataset over both.
+
+## 7. the-fab-cube code legend (verified by enumerating the full dataset)
+
+**`rarity`** — note these are NOT the same letters as the printed glyphs:
+
+| code | meaning     | notes |
+|------|-------------|-------|
+| `C`  | Common      | |
+| `R`  | Rare        | |
+| `M`  | Majestic    | |
+| `P`  | **Promo**   | 1477 printings — a large bucket, easy to mistake for Marvel |
+| `V`  | **Marvel**  | 377 printings, essentially all cold foil — matches "alternate art of a Rare-or-higher card, cold foiled" |
+| `T`  | Token       | |
+| `L`  | Legendary   | |
+| `S`  | Super Rare  | |
+| `B`  | Basic       | e.g. Agility across Armory/blitz-deck sets |
+| `F`  | Fabled      | only 37 printings |
+
+**`foiling`**: `S` = standard/non-foil, `R` = rainbow, `C` = cold, `G` = gold.
+
+**Promo ≠ Marvel.** A full-art cold-foil promo looks Marvel-ish to the eye but
+carries `rarity: P`. Worked case: `Groundbreaker Crix` HER155 is
+`rarity: P`, `foiling: C`, `art_variations: ["FA"]` (full art) — a full-art
+cold-foil **promo**, not Marvel. Marvel is `rarity: V`. If a card needs to be
+called Marvel, check for `V`; do not infer it from full-art + cold foil.
+
+## 8. A card id does NOT uniquely identify a printing
+
+`HER155` (Groundbreaker Crix) has **two** printings with identical
+`set_id`/`rarity`/`foiling`/`art_variations` and different `unique_id`s
+(`NfgpFKBWBtrdbLGMmQQbh`, `GFPgDWrmnhCdBtTWhfzMK`). So a set+collector code
+can still be ambiguous at the printing level. Anything that must resolve to a
+single `unique_id` (benchmark labels, registry mapping) has to surface the
+ambiguity for a human rather than silently taking the first match.
